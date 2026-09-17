@@ -1,25 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 17 Sep 2026 17:20:13 -0000
-Message-Id: <178966561377.650144.16951660797269894241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Thu, 17 Sep 2026 17:21:28 -0000
+Message-Id: <178966568855.650884.9709529199078248542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: f87a79667dac5dd2178bc224dea89b77d08f0a59
-    new: 2faee1f504ce85807bacf4267838d728493345d8
+  - ref: refs/heads/for-7.3-fixes
+    old: df5cdc2c832ca4e8a6d774596b9005558761a403
+    new: 9ec7ba20c97d92fa59b351832aeeb934b3b16177
     log: |
-         985ee7b3ab0e01ed83d6f2c70ab6ec7ac4d11d1e gatt-server: Check prepare write length before reallocating
-         0ccdf019681c6f95c447b19977c796a026fa3490 adapter: Unify the A2DP admin allowlist UUID mapping
-         2ffbcf6f9d38b24b0e45b077819481064482fa35 battery: Document the unknown sentinels and fix a stale name
-         e5dc89d28253cc3f92fe3caaf73ca11be3965a1c client/bluetoothctl: Declare the controller helper in its own header
-         e9b6ee3808ab403bfbb45e4aecacac14f96be28a tools/l2cap-tester: test closing sockets with ECRED defer
-         776026c41f67243b07d2731dac65baa383d5b57c monitor: Fix btmon heap-buffer-overflow triggered by HCI devcoredump
-         2faee1f504ce85807bacf4267838d728493345d8 tools: Fix btmon-logger heap-buffer-overflow triggered by HCI devcoredump
+         cb86607ada73185f321baa7f9d94a08a3a40bbf5 sched_ext: Don't run ops.dequeue() with a DSQ lock held
+         9ec7ba20c97d92fa59b351832aeeb934b3b16177 selftests/sched_ext: Test that ops.dequeue() can iterate the consumed DSQ
+         
+  - ref: refs/heads/for-next
+    old: bc56aba25233ce4e091a523b09201d80d5813e5a
+    new: bef2bdb4061734c9d68004a16d04a1b5d1abe99f
+    log: |
+         cb86607ada73185f321baa7f9d94a08a3a40bbf5 sched_ext: Don't run ops.dequeue() with a DSQ lock held
+         9ec7ba20c97d92fa59b351832aeeb934b3b16177 selftests/sched_ext: Test that ops.dequeue() can iterate the consumed DSQ
+         bef2bdb4061734c9d68004a16d04a1b5d1abe99f Merge branch 'for-7.3-fixes' into for-next
          
