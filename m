@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5233199753456840933=="
+Content-Type: multipart/mixed; boundary="===============6420025908542097057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 17 Sep 2026 02:26:08 -0000
-Message-Id: <178961196863.4107527.4367030599744725727@gitolite.kernel.org>
+Date: Thu, 17 Sep 2026 02:26:12 -0000
+Message-Id: <178961197290.4107749.9703282366661249512@gitolite.kernel.org>
 
---===============5233199753456840933==
+--===============6420025908542097057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: cbdb3df6c396263461aafa8d26894d92fd722bc9
-    new: 66d55a68df97271db0227c16f4a4d775d4204200
+  - ref: refs/heads/7.3/scsi-fixes
+    old: 3d676e458fe0c566f5a62753dc696b6a862fc412
+    new: 42d1221d321e55afc7bba9109a77aaf5a817c8a3
     log: |
          b52d695d062095327b944acf7daabbc816ab319b scsi: ufs: core: Keep internal commands dispatchable during error handling
          c9ee6511332687ea714ad8ab86a53cb837d86eea scsi: ufs: pltfrm: Add quirk for R-Car S4 lacking lanes-per-direction
@@ -30,33 +30,33 @@ changes:
          42d1221d321e55afc7bba9109a77aaf5a817c8a3 scsi: megaraid_sas: Protect megasas_get_ctrl_info() in megasas_resume()
          
 
---===============5233199753456840933==
+--===============6420025908542097057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1789611966 -0400
+pusher 75C5DE3D 1789611971 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1789611965-85c68b310f74419881528844a6394c51b22a36c5
+nonce 1789611970-32bd567a568c9a3ac77337ecee7be2636b471c6f
 
-cbdb3df6c396263461aafa8d26894d92fd722bc9 66d55a68df97271db0227c16f4a4d775d4204200 refs/tags/mkp-scsi-fixes
+3d676e458fe0c566f5a62753dc696b6a862fc412 42d1221d321e55afc7bba9109a77aaf5a817c8a3 refs/heads/7.3/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqrT74ACgkQ7ulgGnXF
-3j0blBAAiRNL8ynxTtemSuSt9OONznpicuNUo1wcezSUDWcRt0ghCeGnALLW1LQ0
-2wEu5PH475c5qSmmXv70vFe7+P94M4I8HNtCSa1ARpjwIyxzrzZCAwwx/5ugetxV
-PNdP46pJAY5MGBIsT3tT5V+3g3oWfq5KKjA2G9lxhAzpyaacgJy1HDrR7jFkDQhs
-2GfJ1Ekw9Tl6LzMFi3YEtD4dRbUyXlk4aQo1d3KoWtLq62Bla6dIYNkjG5ib/kJ5
-/jjv7uWHwuRlcfk9vX1S2kGmVEzCLHUi71kw7Qnqi04+6lFy8bWSPCkW9Ggy5iiF
-UmUtyT+lDY2lAyhXuFOCoSLWF9lEg9e8IUjB4K4fYg+YIsnlc0i41GZYF318pveT
-w9FHPl7vPu/fO8niH5GxlBvDU9ffxIDFksxlG3gM1n6nBMIBoWd3KMu3Y+Kk3lmF
-ZQMQhZc4jceee0wOz9LkNpwHbBcO1llpjXCGUsljdbF8sMtZa8A6T36YHhoX6A2k
-nMmw6RjCLaCNNdBLhaAsev3cROMHCJ6MdPrZCURU8du9yllOg1OWj/ZbgnGJvMQK
-QoMvzaHTdiqWlNyWKL+M9IdB+Kk3t+aBGCD/wlIJRHr5rIf0nlaJKStvUUB8ccFn
-w1O4/1h/rl22fnQYIxRcAcSpUGslKS1fcXTq4IQ+PfHpQPUSUaM=
-=5B1h
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqrT8MACgkQ7ulgGnXF
+3j0GXxAAr87aAZkoxVKgdol/fhTACzldE5RVIQUc6pu9oIQHDfYU6Tpv9iw+QRUs
+sYxRdFFoHhZULLm+wusiApj9wM33U4M9sBJpUmCNlXkl3nqU5mxFXY5SiDMPFYUO
+i8DKxHsFyRbrptK9OFUS6giuy/pHGNlMSUSBr630b/cZGscBv9npwGGxFdGPiwh/
+WcFxgprP204I/ZS8PMKLY9b6N2tFgEkxJq+Lf748yjdNBhl+B3LGxPzMDIecH1F+
+c6JXb49vaWF64g5v8LAhWCtphsxukj7C77N/ivJiWyKfCWW40M8c6cbzrE+AtaXK
+XN9GGD1IRp59eLBzPpcWun4ttNHr+HkFI+T8AOBfHJMSovGgQCsN/KmoP6ni/QwU
+SX0jbtWvPX9z8MWJ8wsK6EBmJRP9c3rmLlDg3qK7f8u5pF8CNSQikwpGOtWpzY7+
+217yvcD8FB8ef3+fUMD78ea9e41rWRW2rLPVuIkBoHLjE7MZ3FLynrkF2ffmImqH
+OnWjqTtQYmt/ubSfpXifc1i2ZvOj9EB9GmTm7ErIeTsiSnVZ/iu6H+1EUE805tMm
+yp8dfLCFYt3hFcx9+Fi7YhdUeNObj5KX0q4WvHrnl1T3R8Ah66WE4fiyg5nLoxXS
+0ZR26GHDwtNpcYDVEHfYFm92wWauPvuXIg91NipBNKqDxdyqbF4=
+=IUVD
 -----END PGP SIGNATURE-----
 
---===============5233199753456840933==--
+--===============6420025908542097057==--
