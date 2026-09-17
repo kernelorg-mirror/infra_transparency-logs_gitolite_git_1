@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 17 Sep 2026 10:40:08 -0000
-Message-Id: <178964160865.301309.10300608161662781664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cem/xfs
+Date: Thu, 17 Sep 2026 10:46:10 -0000
+Message-Id: <178964197077.305614.5902618045709365353@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/cem/xfs
+user: cem
 changes:
-  - ref: refs/heads/master
-    old: 9b87fdc9af2fbfcdb5c24a64139685ef80f6573f
-    new: 238650ef6c7c7cca08e032527329424c9fbd70e5
+  - ref: refs/heads/xfs-error-report
+    old: 8b646c42f1a82706f8fff1859319860a5cb2d626
+    new: a4d5591c0be580aae6ef1a02fb395260c0268d83
     log: |
-         51938dfa8a51a4f85328413fca9b6e21f9d2d088 KVM: PPC: Book3S HV: fix use-after-free in kvmhv_emulate_tlbie_all_lpid()
-         0a416ee20bcccddf91ca5b63696a23b9d11d73aa KVM: PPC: Book3S HV: fix secure device page leak on uv_page_in() failure
-         0b271f7d7f5ed45bc498a03ce0aa9cfd8402fc71 powerpc/iommu: Fix the overflow validation in iommu_tce_check_ioba
-         238650ef6c7c7cca08e032527329424c9fbd70e5 Merge tag 'powerpc-7.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+         b3716b4951eaf6c1584da55461734cd7bd6b9705 xfs: add xfs_error_report the ability to display an error code
+         bb2bd8a6292b1e3c6edec9e43e9bf208049096f1 xfs: enable xfs_trans_cancel() to report and error code
+         a4d5591c0be580aae6ef1a02fb395260c0268d83 xfs: make xfs_iomap_write_direct() report an error to xfs_trans_cancel
          
