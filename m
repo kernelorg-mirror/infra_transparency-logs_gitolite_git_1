@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3548272338602558600=="
+Content-Type: multipart/mixed; boundary="===============3618434174487895814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 17 Sep 2026 02:26:39 -0000
-Message-Id: <178961199950.4108692.13076946267185789335@gitolite.kernel.org>
+Date: Thu, 17 Sep 2026 02:26:43 -0000
+Message-Id: <178961200368.4108901.4041031652506959383@gitolite.kernel.org>
 
---===============3548272338602558600==
+--===============3618434174487895814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 5247e2637097ef7bc7fed74bf25a73accce7c14e
-    new: ece4961542d2e459f9e2cbfe239d64d49e42b2ba
-    log: revlist-5247e2637097-ece4961542d2.txt
+  - ref: refs/heads/7.4/scsi-staging
+    old: f07317a8d57f382ec505597816271dd72ffa20c7
+    new: c3cff7fac01638ab58e85fe7df41a04fa25c5bae
+    log: revlist-f07317a8d57f-c3cff7fac016.txt
 
---===============3548272338602558600==
+--===============3618434174487895814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1789611996 -0400
+pusher 75C5DE3D 1789612002 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1789611995-0c8c0d4a6f7eb19e4e482ca9fa10b246948f2a82
+nonce 1789612001-29373aff206f77486b17e304fc8aa31081fdf3bf
 
-5247e2637097ef7bc7fed74bf25a73accce7c14e ece4961542d2e459f9e2cbfe239d64d49e42b2ba refs/tags/mkp-scsi-staging
+f07317a8d57f382ec505597816271dd72ffa20c7 c3cff7fac01638ab58e85fe7df41a04fa25c5bae refs/heads/7.4/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqrT9wACgkQ7ulgGnXF
-3j163g/9FqfSnQkN8jHH1ipCItAefWczr3sbMqLclcYB68BhJk6pLw6aD149gIYI
-phTcqT02Kz4tbwxoUFU5i+0eME2RrHCVntexwnWLknrnNizHQXwmykgFNEBnRD8K
-XZCdZZCt1lkgv+TtbvU4oo381VckpsNiwYKZAbU1FirAItNsfXOkr2FSRKHsrRKC
-dO3R3bt5Nx8+qMKuuEcJaI2pbks9cpEZNaU+JYNiEgfb+Fz6TJDtN/zRotgyyUt9
-v8xvnopS1NbBbnSJMV6qFWD6DqfrNgD2odhbeswu5yHe5mcg36tZfJcTuXdB2w32
-BmnCu2ZO3YUDRv5ftiJmHMAXqTJJOHa0xovAeb0gvh+/1kbGqCmoIAh8/8gzn/Ob
-0V84MAInVZYrxalaG6xnY3E07phSVWAoZyX5duCxgfMaMSxg/wu6u7GPds1Ft5fe
-MPqLIPZkZfH39ct3z5B9VCYtgy+mdM3WC7li3MsgETvJvB86uLYgrS1w6nZSqc0h
-0qOe9KXOAVWprS1M3hE1jcPgq7S1WXW9MUSqw+mhvGnTeNT2mo89YLeWbBIpc2gk
-7XLrTP0HvdUKGLZmyYadpJ83R8hinFnIm/vRPGJjfuNG/5iaxSX+E+h9AZBiEAPy
-9yEp84DR9tqGvfYFASS5thX0qFtuyTQZKvPNkQCs+i/huAJg4UI=
-=MiBC
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqrT+IACgkQ7ulgGnXF
+3j3oRg//Xb5F6dYw4do+GDfm07AvTk9WKTnvM0O3AIEvrGYWubvvTDI4ZQkINBX2
+CLUXpV+n0brFa4z2i4pzN/28qyvfn5EGIhJvXo6ze/ZJKjxHNu3G9P4BqOJAw5RR
+TkEuYu4UQahA+HZOTV9O+Ri7VRhvEpuTK6KJRj+6St6e0SHuAtqpXHV6+2d898TO
+K9c/84BsL0/0/GkroUEOBs/qAN1pOSj2BfV492wAdVIHyl7Et0jZVdGzjjiiLFE4
+oi6E/XxvMyFFct1TPi79tQum0Z82LEd8k3usNlexlc68CWjsPdRAe7LUip5nozxW
+Dj7PieGw+9hKlIRbcRCbPOe7qVjxf3QfRGSdDLn76/cBuMuWIXOqUg1Dm5D0iPIs
+S+zDfxshrPmmzipGyCBA57KMurQQQmAVa4/7BaGH3Iol0ornWEb09QEZ7lCSnSsl
+ADht2zQWeHm66avkHu9arsh0qv6G26wtaACgp7+8Z3dIC6YKgUGxIZvSW1sSUYZZ
+8qj1e7rEoi+rnVFUs3jqTN2g9f/k7kKYvvJk4LclLL/tJreGdSRYls0To97DxWOn
+OZz1EuRoL2lvigKh6ZceyYHOaUuz8ET3S/3wDnaa0A+8oLCJJ5nON+Qad2JdTvsb
+7BzqGbApjrf26kbcraMp/rvCddZs1tC7TpEj5kGWe2umXx+AOTY=
+=1O0w
 -----END PGP SIGNATURE-----
 
---===============3548272338602558600==
+--===============3618434174487895814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5247e2637097-ece4961542d2.txt
+Content-Disposition: attachment; filename=revlist-f07317a8d57f-c3cff7fac016.txt
 
 72c54bd0cbb2e0c35f4acd056e91c596469edc5f scsi: core: Define all additional sense codes and their qualifiers
 84517868c12dd4e06c1a08793f5687ec43961dd4 scsi: core: constants: Use defined sense codes
@@ -110,4 +110,4 @@ c90693e02d10e9318f2f7cc480e9b05430628738 scsi: mpi3mr: Fix SAS PHY cleanup in ho
 e6687d574bbe142751bcfa6dd0f42d5abd1c2756 scsi: mpi3mr: Driver version update to 8.18.0.8.50
 c3cff7fac01638ab58e85fe7df41a04fa25c5bae Merge patch series "mpi3mr: Few Enhancements and minor fixes"
 
---===============3548272338602558600==--
+--===============3618434174487895814==--
