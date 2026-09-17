@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 17 Sep 2026 09:50:50 -0000
-Message-Id: <178963865025.258503.12797645836041627473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Thu, 17 Sep 2026 09:51:52 -0000
+Message-Id: <178963871287.259141.8064725961891964573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/pinctrl-qcom/for-current
-    old: 818103dc7f5998a0d7957fb71d4deecdf4d579e1
-    new: dcb5df182b37587d5ad6bb4388751bf5180957ac
+  - ref: refs/heads/renesas/hwspinlock/xarray
+    old: d69b43afc6ee71f994ee4a04c640575d782dba2e
+    new: 8a4050989670946711dec333ce3de7780b6151a0
     log: |
-         68ab4a6a84b92f52650508acb60317eb76454250 pinctrl: qcom: nord: fix GPIO interrupt target width
-         9d4c3e0c6a53eb390d58b8d7aaf08885e46f93fd pinctrl: qcom: hawi: Fix intr_target_width
-         912df33f296e6c4ced8c0a5e7998d570a0b82214 pinctrl: qcom: maili: Fix intr_target_width
-         dcb5df182b37587d5ad6bb4388751bf5180957ac pinctrl: qcom: qcs8300: Fix intr_target_width
+         c39e4d1cf2b970168bd9a99caa0746d3f208a3be hwspinlock: add list of locks to debugfs
+         407c42813d1f58f05eb94c737126a2283e8e7bb3 hwspinlock: add low level debug capabilities
+         8a4050989670946711dec333ce3de7780b6151a0 sparrowhawk/ironhide: hwspinlock testing
          
