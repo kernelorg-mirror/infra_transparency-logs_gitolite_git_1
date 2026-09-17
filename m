@@ -1,41 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============4688166261123484386=="
+Content-Type: multipart/mixed; boundary="===============6761212055008476668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 17 Sep 2026 10:59:09 -0000
-Message-Id: <178964274916.314275.12138162756660416602@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Thu, 17 Sep 2026 10:59:45 -0000
+Message-Id: <178964278556.314681.13721131258049545105@gitolite.kernel.org>
 
---===============4688166261123484386==
+--===============6761212055008476668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/master
-    old: ea50b70d7d1414cf43687f56815d8e41d55b672e
-    new: 55e3c4dba6101a47ecaae71c91edbe10c59b8d56
-    log: revlist-ea50b70d7d14-55e3c4dba610.txt
+  - ref: refs/heads/xfs-7.4-merge
+    old: 0219947e82914d61ace1aae24f47404333339f72
+    new: 1c1058646d3bb5fc1b8ca4504c898e9dce520407
+    log: revlist-0219947e8291-1c1058646d3b.txt
 
---===============4688166261123484386==
+--===============6761212055008476668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea50b70d7d14-55e3c4dba610.txt
+Content-Disposition: attachment; filename=revlist-0219947e8291-1c1058646d3b.txt
 
-7d56d81562f239fdac9526c5236057722fc90cae test_mkfds: validate fd range against FD_SETSIZE in select multiplexer
-c4ee658de5b92173c9122bd62b40a6dea3bf80b3 test_mkfds: add -t/--timeout option
-eba6a427c234c8bb0326782388b753e36de42134 meson: (refactor, test_mkfds) introduce test_mkfds_deps and test_mkfds_sources
-16fd889383146cea2aa3ad6b1d349936f82e43ae test_mkfds: add hungfs fuse file system implementation
-6a6333de5e34ecd5228c03166398152a11ea74ee test_mkfds: add fuse-hungfs factory
-a3cd6591363e1f39179f33829be670d312468013 script-playutils: bound delay read from timing file
-00a1e32cc82715c99e6198c9067dbac9b7458629 scriptreplay.1.adoc: document that --maxdelay 0 means no limit
-f1ce0fab722568b1292f6bc2253def5c34f677b6 tests: preserve timestamps in hardlink fixtures
-42a9c36b24a1157cfe914152ea365277ac85a78c Merge branch 'hungfs' of https://github.com/masatake/util-linux
-1eaef05a8081164b48b0133d7356a006c4fdbc62 Merge branch 'script-playutils-validate-timing-delta' of https://github.com/mi4r/util-linux
-55e3c4dba6101a47ecaae71c91edbe10c59b8d56 Merge branch 'tests/hardlink-preserve-times-20260916' of https://github.com/matthiasgoergens/util-linux
+065f3ce5936e68da75f3dc18201d290073d78f3c xfs: call xfs_dquot_set_prealloc_limits if we installed default rtb limits
+41c4c41cf6c44f98db2916e1781f537d9ba6461a xfs: fix rtgroup repair estimations
+d7b92cbe566f6fe54368f62e4b515d9f80c43a18 xfs: don't cross reference rmapbt with bitmaps if they're incomplete
+ab1c416d2377cdc16123ef521aac4da1c468c3d4 xfs: don't let memory failures leak blocks and kill repairs
+d80993655f7be2a461c0a63e2022da5757f47dac xfs: don't merge different file IO error types
+f8f6382ff13109e19d0fc1d0224ff7d29641e56a xfs: fix blockgc group quota scanning when usrquota isn't enforced
+65f39d09d73718611cee40399179323b5d4ead00 xfs: fix cursor and pointer handling when recovering iunlink buckets
+ffb48dccce1960a9ea24463a2f3c21d124d6b672 xfs: drop dquot flush lock when we can't find a buffer to flush
+476582d754cdc5110f806001417fea6c77824c13 xfs: don't let hidden_space go negative in xfs_metafile_resv_init
+fe2f9135df43db849e74f03956d322ac20b59af7 xfs: fix wild memcpy access when formatting ondisk rtrefcount btree roots
+c1070e44033a9add45fdf7519afedb2fd6826ce8 xfs: prevent close() from hanging on frozen filesystems
+c9096d7595b940ed4aad4efadb502cabf273b6c3 xfs: convert all !XFS_RT stubs to inline functions
+345a1f9929bda1f7047d1013e63fd1ca6c1f02c3 xfs: remove an outdated comment above xfs_file_ioctl
+da8c47c244985206a0dd975f82d90725f658240a xfs: rename xfs_ioc_swapext to xfs_swapext
+0018d49c3844c67ae74c0122b8f3d8136c2d38a9 xfs: rename xfs_ioctl_fs_counts to xfs_ioc_fs_counts
+5703154167aab81054cb4aee699d9143598a3802 xfs: rename xfs_ioctl_getset_resblocks to xfs_ioc_getset_resblocks
+79417ad07f902f6402024c169585ec25eec80020 xfs: split out the handler for XFS_IOC_DIOINFO
+1300f918c972720129183493f1b49055af6f71e7 xfs: split out the handlers for XFS_IOC_.*HANDLE
+f7e07ea82396ea6e577bfc65d6cc7672021d7421 xfs: split out the handler for XFS_IOC_SWAPEXT
+71a7d9bdb8f4495fe37441bc0769cc91b40af227 xfs: split out the handlers for XFS_IOC_FSGROWFS*
+1e787c1e5777ba4448007437c86e6295e7242096 xfs: split out the handler for XFS_IOC_GOINGDOWN
+809f7f37c83ce3bef0fcc6cc06e97fa27d98c13c xfs: split out the handler for XFS_IOC_ERROR_INJECTION
+284fac26cced34cf9c3daf4471f21933b5d53ef9 xfs: split out the handler for XFS_IOC_FREE_EOFBLOCKS
+d6040e8c186ac2be16ae969d4c6b1fad7d43577a xfs: split out the handlers for XFS_IOC_FSGROWFS_*_32
+3b26e116e828bfee07bc5443db172ef870bef160 xfs: cleanup XFS_IOC_GETVERSION_32 handling
+75331a4bd410edf3165c634689035dc01cb06645 xfs: split out the handlers for XFS_IOC_SWAPEXT_32
+3724aef91a0f888e6b73b99cc55e0b1f8ae76857 xfs: split out the handlers for XFS_IOC_*_BY_HANDLE_32
+fa93b3a499e17c01c464297e36e313ba8497939d xfs: remove an extra cast in xfs_file_compat_ioctl
+9821d9dfca71e745fa2c7f87aa27e2c97753ad62 xfs: remove unused args argument from xfs_attr_node_lookup()
+168757e7d7092076b263027d113bba2fba23303f xfs: remove unused rsvd argument from xfs_bmap_add_attrfork()
+0d498f3385e51a0a8eaac71aab6736b5a8cd4049 xfs: remove unused mp and ops arguments from xfbtree_rec_bytes()
+4f4f0e78aab58e1bdaf97758e5801c6912f0397f xfs: remove unused mp argument from xfs_exchmaps_check_forks()
+383641abd3cc89e2b7422f59ebccb89d63404bfa xfs: remove unused mp argument from xfs_inobt_rec_check_count()
+76a2796d4a671d71bcd4baf970accce61608c3f5 xfs: remove unused mp argument from xfs_parent_finish()
+da86bd00b8532bf304dd32c51d0ddb4f57086184 xfs: remove unused tp argument from xfs_rmap_update_hook()
+4e7d4c62ab0e2e68764e1501588d1e21b23b5645 xfs: remove unused mp argument from xfs_rtrefcount_broot_space_calc()
+0f08a3703f5f5091f7bada957500641c96528369 xfs: remove unused mp argument from xfs_rtrefcount_broot_space()
+1eaea71e8b998be7d8f745040b186df8d73759f4 xfs: remove unused mp argument from xfs_rtrmap_broot_space_calc()
+be0168dffd6911621bdf5e0d20b958c636685b87 xfs: remove unused mp argument from xfs_calc_default_atomic_ioend_reservation()
+323b208c3c38673f31379db2eb4b07acf740d825 xfs: remove unused mp argument from xfs_verify_dablk()
+06a83d006c8cf90c109a06b0c749194fd2301ccd xfs: remove unused mp argument from xfs_verify_fileoff()
+1c1058646d3bb5fc1b8ca4504c898e9dce520407 xfs: remove unused mp argument from xfs_verify_fileext()
 
---===============4688166261123484386==--
+--===============6761212055008476668==--
