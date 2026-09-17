@@ -1,62 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============2201304458332142663=="
+Content-Type: multipart/mixed; boundary="===============5657381779178567435=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 17 Sep 2026 10:29:23 -0000
-Message-Id: <178964096384.290473.16994758141995867723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 17 Sep 2026 10:29:26 -0000
+Message-Id: <178964096623.290691.1677663329996283522@gitolite.kernel.org>
 
---===============2201304458332142663==
+--===============5657381779178567435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 8a48caf22176cf3686390d80966565cc27b22dff
-    new: d06af5227b4639ca0ab887c10150ceb7432ed169
-    log: |
-         26b8aa4fb7548b668a7115a9a0ca8b61dc19d82a 5.10-stable patches
-         ef33d3208467d457f13ded547099f0ff02274f65 5.15-stable patches
-         45e698e423ea1a4c188cea38acdb8ff77ba67804 6.1-stable patches
-         ca73720dae0b2da7c3609f680f141c8b0f601fa7 6.6-stable patches
-         76b3f34625a8c9ceef538891e37ce38aecdc9c5d 6.12-stable patches
-         78028fe3f9c59954bbfae40e7e990bcc800448a4 6.18-stable patches
-         d06af5227b4639ca0ab887c10150ceb7432ed169 7.2-stable patches
-         
+  - ref: refs/heads/for-7.3
+    old: 53cab9a3fc896d78b0ba51089a55d85bdf186649
+    new: 940e8fe8535d22ce67dd2fb9588e6c55a31d7d03
+    log: revlist-53cab9a3fc89-940e8fe8535d.txt
 
---===============2201304458332142663==
+--===============5657381779178567435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-53cab9a3fc89-940e8fe8535d.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789640846 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1789640958-db19ae62024adca0baf29a28dc2f0584cb8ea859
+a5e22cba3549b3b9ca592a6bc62329c9b85ce285 ASoC: rt721: Reset codec to fix abnormal sound
+11fc0048a6930f4fca44fe3bd16a0023e78846a2 ASoC: ux500: Parenthesize MSP_{RX,TX}_CLKPOL_BIT() arguments
+c17ae8c26eac16ad244daef44044d714f68a2ddc ASoC: hdmi-codec: Report a change when the channel status moves
+03a5699a0a04309c597683967aaaf25d1e555ea2 ASoC: codecs: rt712-sdca-dmic: fix uninitialized stream_config->type
+3482062c786ce4233f8ed3224d824184f53ec154 ASoC: cs-amp-lib: Prevent NULL pointer if efi variable is zero length
+29218a4d11a31a8157389bc2b9e62dd768d7ea42 ASoC: amd: acp: bounds-check SoundWire link ID in machine drivers
+0b7d55d3a91200f2b1ed710f525a944b0a7d6369 ASoC: amd: acp: refactor codec config count in SOF SoundWire machine driver
+27098aaf28b96ab4e6891709062c343566d4882b ASoC: amd: acp: fix ffs() operator precedence for SoundWire link ID
+d57616f8be5601d210bbb0f677b9cb88a5186c3c ASoC: amd: acp: fix card name length warning in SOF SoundWire machine driver
+fa899ba9b1bfa0481a477c7a05a1a5d484285e7f ASoC: amd: acp: SoundWire machine driver fixes
+0030f62683d5061d43b80577b7ab27196f1adb4c ASoC: adau1977: make the Kconfig symbols user selectable
+528a0da3e55b24d1113b3658e94cf432e0020913 ASoC: adau1977-spi: drop __maybe_unused and of_match_ptr()
+76a8fe25b97881223976363044924d5cf0511749 ASoC: adau1977-i2c: add OF match table for I2C
+940e8fe8535d22ce67dd2fb9588e6c55a31d7d03 ASoC: adau1977: small fixes to make the driver more usable
 
-8a48caf22176cf3686390d80966565cc27b22dff d06af5227b4639ca0ab887c10150ceb7432ed169 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqrwI4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+w5AQANISi47v3AtngPDhi5kT
-vRilIMcrEhwGy1SPOfVBBqVHc56RVpb3DoPr5g855X3753ZbI8+RefpSCtNPzu/V
-4lTWgZp2DYjXIaXwk7gmpYTlaZEFVtetI9orMT+oBhHXuE3xIQ+grs7wN8sD31LZ
-GJOciVsVaD7u82psM5ZFI8Ua9vTpT75sAysQDInFOeyjTYykrVzxewHinbjRU4aO
-Pg65um9ElILDEWT4jjPMLoPCF43yRFz/NnQv2RQrWaelTPuL4XRgxmkzuzQxysNP
-yLPjUDwd2L9c+uAbM+FKiVuHE0iWC/sjZAOzbljLAnoR28NFAlaK9GDl2PhYpB1G
-2a64tdQU68xQHohLSnZqrdAIelYOIDOn+BYqdv2vU1uayKpzwbf5nrzPxIl1RDpo
-7oCxl3LmkplooHfzBo44gTIaAu0dc0sbmRZ45HzZlg1r+s/hvgb9wePmjxr1EqKO
-1cdaE5IAnNriBfHAnSc4mkj2KqwawfuhlERpiFebwnvalazXAZPKx+kjG0dEkdra
-RWuRibfi/AKlOQ3g4x1z55L8YfVg1tF7UR5+xvIaAGTtwXGv2emNoe+O3U12NsdW
-w2++iDYOEpacVQZVRBb+UXa0miVo7ITGSMHCUA1oZ5EWkFHl+LWsuIADBt9s9cYu
-Pu80AWKk1ZHOs8UqfeeunPKp
-=l6ey
------END PGP SIGNATURE-----
-
---===============2201304458332142663==--
+--===============5657381779178567435==--
