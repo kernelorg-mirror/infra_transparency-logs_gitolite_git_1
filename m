@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 17 Sep 2026 05:59:50 -0000
-Message-Id: <178962479049.65835.13934515562199590820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 17 Sep 2026 06:05:18 -0000
+Message-Id: <178962511845.71663.3503606427250363618@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/controller/dwc-qcom
-    old: 89d17a6331087a76aea1a3a6c03dc45a19d306f2
-    new: 626acf6efc69c666ffee50bf18e7b95e68670c6a
+  - ref: refs/heads/master
+    old: b36bc7025d8c6fa6f08f12302d47d8921dc5508b
+    new: 0853968574b8ebe00c2019016b4fb95b6be3e31b
     log: |
-         626acf6efc69c666ffee50bf18e7b95e68670c6a PCI: qcom: Honor IOMMU provider's #iommu-cells in qcom_pcie_config_sid_1_9_0()
+         0853968574b8ebe00c2019016b4fb95b6be3e31b foo
          
