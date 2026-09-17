@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5686939442182348243=="
+Content-Type: multipart/mixed; boundary="===============8357897991549276562=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Thu, 17 Sep 2026 23:38:48 -0000
-Message-Id: <178968832850.997817.13565162143491175147@gitolite.kernel.org>
+Date: Thu, 17 Sep 2026 23:40:09 -0000
+Message-Id: <178968840974.1000447.18089342619932348054@gitolite.kernel.org>
 
---===============5686939442182348243==
+--===============8357897991549276562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-next-unstable
+  - ref: refs/heads/kbuild-for-next
     old: 322b0463f30b0a02180c9528e38c2afb73d20fa0
     new: 47ef078cf9ad37a35b20094a824ec09b845532ff
     log: revlist-322b0463f30b-47ef078cf9ad.txt
 
---===============5686939442182348243==
+--===============8357897991549276562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ d13bad83d89d1022fee254c08f6e01084eb4395e kconfig: check for hex and int mismatch
 b00c20e11bf2d7443fa5c3a81f3e09ee685a7a44 Merge tag 'kbuild-tzmem-kconfig-7.4' into kbuild-next
 47ef078cf9ad37a35b20094a824ec09b845532ff kconfig: Warn on dead select or imply for choice values
 
---===============5686939442182348243==--
+--===============8357897991549276562==--
