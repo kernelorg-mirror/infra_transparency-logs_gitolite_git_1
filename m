@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6761212055008476668=="
+Content-Type: multipart/mixed; boundary="===============5466120550489472427=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 17 Sep 2026 10:59:45 -0000
-Message-Id: <178964278556.314681.13721131258049545105@gitolite.kernel.org>
+Date: Thu, 17 Sep 2026 11:00:52 -0000
+Message-Id: <178964285292.317425.14652159567800484995@gitolite.kernel.org>
 
---===============6761212055008476668==
+--===============5466120550489472427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: cem
 changes:
-  - ref: refs/heads/xfs-7.4-merge
-    old: 0219947e82914d61ace1aae24f47404333339f72
+  - ref: refs/heads/for-next
+    old: 57f268f3c80a3ff2039c96a31f3646e9be9e604e
     new: 1c1058646d3bb5fc1b8ca4504c898e9dce520407
-    log: revlist-0219947e8291-1c1058646d3b.txt
+    log: revlist-57f268f3c80a-1c1058646d3b.txt
 
---===============6761212055008476668==
+--===============5466120550489472427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0219947e8291-1c1058646d3b.txt
+Content-Disposition: attachment; filename=revlist-57f268f3c80a-1c1058646d3b.txt
 
 065f3ce5936e68da75f3dc18201d290073d78f3c xfs: call xfs_dquot_set_prealloc_limits if we installed default rtb limits
 41c4c41cf6c44f98db2916e1781f537d9ba6461a xfs: fix rtgroup repair estimations
@@ -69,4 +69,4 @@ be0168dffd6911621bdf5e0d20b958c636685b87 xfs: remove unused mp argument from xfs
 06a83d006c8cf90c109a06b0c749194fd2301ccd xfs: remove unused mp argument from xfs_verify_fileoff()
 1c1058646d3bb5fc1b8ca4504c898e9dce520407 xfs: remove unused mp argument from xfs_verify_fileext()
 
---===============6761212055008476668==--
+--===============5466120550489472427==--
