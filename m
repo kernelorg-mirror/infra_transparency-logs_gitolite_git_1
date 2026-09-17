@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-Date: Thu, 17 Sep 2026 19:43:01 -0000
-Message-Id: <178967418179.813171.4988504145006856018@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 17 Sep 2026 19:43:10 -0000
+Message-Id: <178967419095.813447.16323020551215124976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-user: vdubeyko
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: c298301279bd233363de3aca5a32c055bf2f3239
-    new: cb6702e63e0a16afd83875294e5ce53becdd1b1f
+  - ref: refs/heads/asoc-7.3
+    old: 940e8fe8535d22ce67dd2fb9588e6c55a31d7d03
+    new: 8d78e4f906cf0a1984cf3c852653727835e1a9e0
     log: |
-         cb6702e63e0a16afd83875294e5ce53becdd1b1f nilfs2: force clear dirty state when restoring from the shadow map
+         4cae4ca34992d210d115e8e891f1e88c9df5f24c ASoC: amd: yc: Add Lenovo ThinkPad E16 Gen 2 (21JN) to quirks
+         8d78e4f906cf0a1984cf3c852653727835e1a9e0 ASoC: rt766: fix HID dependency for SND_SOC_SDCA_HID
          
