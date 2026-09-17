@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 17 Sep 2026 00:35:09 -0000
-Message-Id: <178960530929.4019529.15094512814072744047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 17 Sep 2026 00:40:51 -0000
+Message-Id: <178960565187.4023723.8799171764661346650@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 87b80c2f6b05cad9f0ff9136709c62a0f59923e3
-    new: ed502e4856856358b304d0c04f8e33364547d1d2
+    old: 490599ab23134962a6d18a024e84541d77bdb999
+    new: 9ed55f3dbef4f4adfe65eb03b0c35c53229a8490
     log: |
-         3c8abdbe345be37aedadddf931df214d706bb973 net: phy: broadcom: enable jumbo frames on BCM54xx
-         ed502e4856856358b304d0c04f8e33364547d1d2 macsec: require CAP_NET_ADMIN in the device netns for changelink
+         9ed55f3dbef4f4adfe65eb03b0c35c53229a8490 net: lock the socket in sock_gettstamp()
          
