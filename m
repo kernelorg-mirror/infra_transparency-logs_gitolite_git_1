@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Thu, 17 Sep 2026 15:13:46 -0000
-Message-Id: <178965802680.547958.9098646286253746402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 17 Sep 2026 15:15:08 -0000
+Message-Id: <178965810896.550599.16534455956549945317@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/b4/vdso-timens-conditional
-    old: e5704acd233c570df57ba083e662aa978cae598f
-    new: 7c76d825931dee9137e9f76cf56b2c359138227b
+  - ref: refs/heads/main
+    old: a5117e1eccac6ee3bd4aed7cacf8ebcb6b3eb309
+    new: 3b95a04eb5f95bf6a016a1bb9ff37d3eee48de63
     log: |
-         9f0822088ef88027bf791bdc793db81302932b2a selftests: vDSO: vdso_test_abi: Also test ALARM clocks
-         dbb323fb74549569f379b40c53f424243e9c32d1 vdso/gettimeofday: Add support for CLOCK_BOOTTIME_ALARM
-         7c76d825931dee9137e9f76cf56b2c359138227b vdso/gettimeofday: Add support for CLOCK_REALTIME_ALARM
+         2b0f561f21b27c40c91ea4975268a06092bd7e9c mptcp: avoid unneeded actions on subflow reset
+         42064de57fb83231fcc89663a94885f228a1ee53 mptcp: close race between scheduler and state change
+         f3ef03357396d4b147d8e76c75fb612c2f264ffc mptcp: fix bad accounting in __mptcp_subflow_push_pending()
+         3b95a04eb5f95bf6a016a1bb9ff37d3eee48de63 Merge branch 'mptcp-misc-fixes-for-v7-3-rc4'
          
