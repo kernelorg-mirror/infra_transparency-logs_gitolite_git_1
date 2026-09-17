@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8980500715495494453=="
+Content-Type: multipart/mixed; boundary="===============4036682799545089877=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Thu, 17 Sep 2026 05:49:57 -0000
-Message-Id: <178962419765.58613.11054263932226323745@gitolite.kernel.org>
+Date: Thu, 17 Sep 2026 05:50:19 -0000
+Message-Id: <178962421902.60836.10582746988663463981@gitolite.kernel.org>
 
---===============8980500715495494453==
+--===============4036682799545089877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 6ebcf5074cff0402730c6981d2397139fee6322d
     new: 7bc21b740291c06b6437fd7ed7fab2d707b35cff
     log: revlist-6ebcf5074cff-7bc21b740291.txt
 
---===============8980500715495494453==
+--===============4036682799545089877==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c5faf1d4df8f5be608267dfa87cc819dde0bef97 net: ethernet: cortina: Bound RX descri
 9a483b60a0ad67fbd55c23a0ebb96754e984f585 selftests: drv-net: add BIG TCP test cases
 7bc21b740291c06b6437fd7ed7fab2d707b35cff selftests: net: gro: fix OOB access when under-coalescing
 
---===============8980500715495494453==--
+--===============4036682799545089877==--
