@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 17 Sep 2026 13:35:50 -0000
-Message-Id: <178965215017.469187.4044016532876215078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
+Date: Thu, 17 Sep 2026 13:39:52 -0000
+Message-Id: <178965239242.470573.1983525459634781819@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/nsc/kbuild
+user: nsc
 changes:
-  - ref: refs/heads/main
-    old: 546f109fdbbca75684f1041a1193cb910004a289
-    new: b8a6f2340999bedd3b83ded2e909d855b6db1f41
-    log: |
-         b8a6f2340999bedd3b83ded2e909d855b6db1f41 selftests: net: add IPv4 and IPv6 address order check
-         
+  - ref: refs/heads/wip
+    old: 9eb964c3efcad69c1ddee9f58427260a739d79a8
+    new: 0000000000000000000000000000000000000000
