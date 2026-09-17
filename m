@@ -1,158 +1,105 @@
-Content-Type: multipart/mixed; boundary="===============7259287226986178957=="
+Content-Type: multipart/mixed; boundary="===============0092388933914482798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 17 Sep 2026 18:21:41 -0000
-Message-Id: <178966930127.753571.1047301525505493204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ljs/linux
+Date: Thu, 17 Sep 2026 18:22:32 -0000
+Message-Id: <178966935201.753968.10132448945429955034@gitolite.kernel.org>
 
---===============7259287226986178957==
+--===============0092388933914482798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/ljs/linux
+user: ljs
 changes:
-  - ref: refs/heads/jch
-    old: 7b44eae985b1243569f2f49dab904feea263ff88
-    new: b3ae7f1f8805e499468fdf9215ae941fe6348a01
-    log: revlist-7b44eae985b1-b3ae7f1f8805.txt
-  - ref: refs/heads/main
-    old: 12cb6293d6288865c1a133cf22accbaf99d13eb6
-    new: d38352cd43ab9745686d697872408bc3249a153f
-    log: |
-         d66ac2af300f33bd9e8558c5645f2a808cc01f89 Merge branch 'jc/pathspec-match-const' into yt/pathspec-negative-prefix
-         16abad336073665c13c09b1026dd1227688b9c10 dir: do not apply prefix to negative pathspecs
-         b6f17686b20647fc904e6201fa6d168731e588eb dir: preserve pathspec prefix optimization with leading excludes
-         db06ca011e12b8156f327c59f6d643ca7799d453 doc/pack-refs: convert synopsis and options to new style
-         995251109fa3e631e6fc7204e8cad128e8da2217 doc/refs: backtick-quote commands and options consistently
-         7b58375ab3b5865cdc44f11e72a6bcee779b63f0 mailmap: normalize name for Yoichi NAKAYAMA
-         2a41443dc8b82e307228a04d3d2c1af86921ff9b Merge branch 'tz/doc-pack-refs-and-refs-fixes'
-         3bbf43483e3954291b9fb4caa228eedb9dd528c2 Merge branch 'yt/pathspec-negative-prefix'
-         d38352cd43ab9745686d697872408bc3249a153f A few more fixes before -rc2
-         
   - ref: refs/heads/master
-    old: 12cb6293d6288865c1a133cf22accbaf99d13eb6
-    new: d38352cd43ab9745686d697872408bc3249a153f
-    log: |
-         d66ac2af300f33bd9e8558c5645f2a808cc01f89 Merge branch 'jc/pathspec-match-const' into yt/pathspec-negative-prefix
-         16abad336073665c13c09b1026dd1227688b9c10 dir: do not apply prefix to negative pathspecs
-         b6f17686b20647fc904e6201fa6d168731e588eb dir: preserve pathspec prefix optimization with leading excludes
-         db06ca011e12b8156f327c59f6d643ca7799d453 doc/pack-refs: convert synopsis and options to new style
-         995251109fa3e631e6fc7204e8cad128e8da2217 doc/refs: backtick-quote commands and options consistently
-         7b58375ab3b5865cdc44f11e72a6bcee779b63f0 mailmap: normalize name for Yoichi NAKAYAMA
-         2a41443dc8b82e307228a04d3d2c1af86921ff9b Merge branch 'tz/doc-pack-refs-and-refs-fixes'
-         3bbf43483e3954291b9fb4caa228eedb9dd528c2 Merge branch 'yt/pathspec-negative-prefix'
-         d38352cd43ab9745686d697872408bc3249a153f A few more fixes before -rc2
-         
-  - ref: refs/heads/next
-    old: 51773c2048bc052e292422b8d0ea73a3b0ada27c
-    new: c6ed9934b74543d6cefc497cd714400fd14ced65
-    log: |
-         7b58375ab3b5865cdc44f11e72a6bcee779b63f0 mailmap: normalize name for Yoichi NAKAYAMA
-         2a41443dc8b82e307228a04d3d2c1af86921ff9b Merge branch 'tz/doc-pack-refs-and-refs-fixes'
-         3bbf43483e3954291b9fb4caa228eedb9dd528c2 Merge branch 'yt/pathspec-negative-prefix'
-         d38352cd43ab9745686d697872408bc3249a153f A few more fixes before -rc2
-         c6ed9934b74543d6cefc497cd714400fd14ced65 Sync with 'master'
-         
-  - ref: refs/heads/seen
-    old: cb4a6dcaf938ba4477ac3bfa3f593553c9ef40cc
-    new: ba332d28c15e171f5a8731ca4dd5592515ebc0fb
-    log: revlist-cb4a6dcaf938-ba332d28c15e.txt
-  - ref: refs/notes/amlog
-    old: f6b605801ad56c2fcbbd59b6463d9dd9572e49f4
-    new: fc401b7afc7fb13152b426a69807c8c3599f9ad3
-    log: |
-         3077cd2adba055935784f644288e5ff38c43d4a5 amlog
-         91fda73d8fdcc0f7fdaa5e2270a88683d836bc42 Notes added by 'git notes add'
-         fc401b7afc7fb13152b426a69807c8c3599f9ad3 Notes added by 'git notes add'
-         
+    old: 587858367581b9c55c3690f4e63382ad622719d4
+    new: 4982d3552a3bf94de503acf93433277d08421de6
+    log: revlist-587858367581-4982d3552a3b.txt
 
---===============7259287226986178957==
+--===============0092388933914482798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b44eae985b1-b3ae7f1f8805.txt
+Content-Disposition: attachment; filename=revlist-587858367581-4982d3552a3b.txt
 
-7b58375ab3b5865cdc44f11e72a6bcee779b63f0 mailmap: normalize name for Yoichi NAKAYAMA
-2a41443dc8b82e307228a04d3d2c1af86921ff9b Merge branch 'tz/doc-pack-refs-and-refs-fixes'
-3bbf43483e3954291b9fb4caa228eedb9dd528c2 Merge branch 'yt/pathspec-negative-prefix'
-d38352cd43ab9745686d697872408bc3249a153f A few more fixes before -rc2
-663ea428957e41451c671faeb00417e6484c83b6 Merge branch 'ps/odb-alternates-at-creation' into jch
-a76e60778c2184dcff93fa27b71027f68dee012e Merge branch 'hn/history-squash' into jch
-35ac371d5ec71aa871cb76ac9ac75d4899c6ffd2 Merge branch 'kn/receive-report-hook' into jch
-48933fbd45f7f6b2248755065a82727cb531a6fa Merge branch 'jc/cocci-free-updates' into jch
-6b0cd260fefda4d9bb7193a34f486402f768cd2a Merge branch 'ak/refs-files-root-ref-lock' into jch
-8b4170301077a09031d8aaa7ed3dc82d73b09024 Merge branch 'ps/ref-storage-format' into jch
-91ec38e43bfca6b89a8eb75d996b64f7d9978e21 Merge branch 'dk/use-nsec-runtime' into jch
-b4c713ca59bdcaef618e6c023bff48574a64d23f ### match next
-10e1ac58bb5c52b663589943571c16e689ea9a82 Merge branch 'ij/subtree-reject-v2-config' into jch
-34daba108d71251bff0ef3d2e99857e41865fc5f Merge branch 'ap/http-preserve-wwwauth-redirect' into jch
-2f1d27c8abc7c07364f370087a5d37b90a2d3550 Merge branch 'as/utimensat-utimes' into jch
-7b7f49d4cee2a86c4238d9f471575240a0e0b5a2 Merge branch 'vv/branch-recurse-no-start-ref' into jch
-68d45df5eaf034d0f7b9950c357966745728e576 Merge branch 'dw/config-read-both-global' into jch
-ab05d8446536bdc0fc401f9da378cccf53f47945 Merge branch 'ta/command-list-guides-sync-lint' into jch
-15cf10c92d0e64515e07bc84ddd5ff2e29930ce0 Merge branch 'jk/merge-ll-tempfile-cleanup' into jch
-eaa21eeee6dfdb401b9cae488c92d374449eed7a Merge branch 'pp/midx-write-skip-empty' into jch
-b3ae7f1f8805e499468fdf9215ae941fe6348a01 Merge branch 'hn/range-diff-matched-only' into jch
+16b10f64c63f78220c3b4035f1ed6cd3bdcb0b02 gpiolib: Put fwnode reference on failure
+93d88ac4a448f200d18d1d71de0074b8e716bbee sched_ext: Pass the initial cpu.idle state in scx_cgroup_init_args
+49bda4826843be0ef97a162009a29ea3a63f3935 Merge tag 'v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux into gpio/for-current
+1f1d0812f6a8ab8e6f709c599f137c99646512cc gpiolib: of: don't mark hog nodes OF_POPULATED before a chip is found
+29871903f3a38e75e896f9a644713859490cb85f sched_ext: Don't deliver duplicate ops.cgroup_set_idle() for same value
+3b54dbd119805361695cb50ca6a875f4c7518b74 power: sequencing: Fix build issue with COMPILE_TEST
+0a85182723b65ad8bee8131bc38fcf0347d6679b sched_ext: Fix NULL sched deref in kfunc sub-sched error paths
+3265ef0b670180b0b946d73ee9825d6d91e98a08 sched_ext: Rename sch to root_sch in dispatch_one()
+90f19b2816f5d243a8daf36ca83d9d9d04f00e4c sched_ext: Use @prev's scheduler for the keep decisions in dispatch_one()
+a0d356696f87700c8c2934e3881277b0d37f0b71 sched_ext: scx_qmap: Do not add IMMED to rescue inserts
+63b4ff622244483e7c530e97d787a3d6c2c38a33 sched_ext: scx_qmap: Place only on cids whose caps are in effect
+89ff16f0713917303210c560eec5cd0c13bd651f sched_ext: scx_qmap: Fix pending partition work handoff
+504981db4f69bdd28054fb98c96a3a67f7248dde dma-coherent: report a failed reserved memory assignment
+b7d7914a9ae3097e63d113007e4fb44d33d515b1 swiotlb: use the adjusted address for the highmem page lookup
+92c6a8d6470f7e7aa86c1f144818d8fa4fcbd5aa dma-mapping: don't trace the DMA address when the allocation fails
+55a8e1451869233db837a97e8f3cbf9983bc8678 x86/mm: Don't force unencrypted DMA for IOMMU-backed devices
+5cddf63367ef894ba0026dfa2d524346f7048de9 ALSA: hda/realtek: Add quirk for HP Victus 15-fa1xxx (MB 8BB1) mute LED
+221253723dc58bb901c3f27a7659823e63fc598c ALSA: bcd2000: Fix race between rawmidi and disconnect
+76a986c980bb502c7688d605ac7a67fd257a9a1b ALSA: usb-audio: Clamp implicit feedback packet count to URB capacity
+fd95e68df6fe66344161a1329cbe5e5805e7b704 ALSA: core: Fix potential UAF after asynchronous card release
+6c05d00af307560e6a9f1631d6270d3df5aa2272 ALSA: virtio: reset device before deleting virtqueues
+c7a1c6e8004ab12a9c9bfdcb603f60f9bf4a3cee sched_ext: Close the pre-enable ops error claim window
+1e713f9bb2ac583521f06b0eb4e22440b1e3d078 ALSA: pcm: set timer->private_data before registering the PCM timer
+88c4aff39452d7f0ab59f13730182a43bc7257c6 ASoC: wm_adsp: Firmware search progress log should not look like an error
+d56fe35c1bce1f547eb600695f60c139a508ff6e ASoC: rt712-sdca: reconfigure PLL2 to fix calibration time-out
+4d855d747521505b54457c96bc73577bf74b2374 ASoC: Rename snd_soc_dai_link_ch_map.ch_mask to cpu_ch_mask
+88b14c0d0bab5c0f3e7c641f274e3c70210c0e36 ASoC: Add codec_ch_mask to snd_soc_dai_link_ch_map
+6b382bdfe26a2232091bf743e454e6794295783e ASoC: soc-pcm: Apply snd_soc_dai_link_ch_map.codec_ch_mask to codec params
+290845e151cd4e307cc1f25319583aaceb4eeb30 ASoC: sdw_utils: Set snd_soc_dai_link_ch_map.codec_ch_mask for capture
+b5b00a57868b1eabdf90a29a51f0eb732c609f3a ASoC: sdw_utils: cs_amp: Delete bogus and incorrect capture channel fixup
+0cde044bc4768203ae70840eafe9df1290d8cb22 ASoC: Fix missing channel fixup for codec end of ch_map
+576725ded009f09a28da19852f7edf62dbc5f94c ASoC: Intel: sof_es8336: Add a quirk for Huawei Matebook B3-420
+2de887f891662814b1160cbfb8c1bf2a5a46d418 ALSA: hda/realtek: Add mute LED quirk for HP OMEN 15-ax
+beb34fe8312eda37b9cf1568550d722530444822 ALSA: usb-audio: Add capture quirk for Behringer FCA1616
+5f90f85eae4e9d2e9628b2019870994ba830b533 power: sequencing: don't call .post_enable() if pwrseq_unit_enable() failed
+115b303e8e093d964089ec6f3c40d984d77b33d0 power: sequencing: fix NULL-pointer dereference in pwrseq_unit_new()
+242da4318d97380741516b595af3920207b2f0f1 power: sequencing: fix NULL-pointer dereference in pwrseq_device_register()
+50fd0ada8d37587223001600933270b59cb30e19 gpio: virtuser: skip free_irq when no IRQ is installed
+1589afe2d099d3e817873bc474676968d7080410 ALSA: 6fire: fix OOB write from device-reported iso length
+1c4f6202876a74e752a8cfd3696955f761671c7a ALSA: hda/realtek: Enable mute LEDs on HP OmniBook 7 17-dc0xxx
+5ab3dc647751996784cff20a51f3730f4e88afe4 ALSA: usb-audio: skip the broken mute control on AVerMedia GC553Pro
+c9e6e5f38bf75276605f1952b22285f5f3abcaff ALSA: hda: trace PCM open only after assigning a stream
+057dac23d329d5c5ed62352f2659a39fd46c6d4a cgroup: Avoid iteration of dying tasks with zero refcount
+82431877d837a6c2593efd8e66ba28b35a220ca4 sysctl: Check range in  proc_dointvec_ms_jiffies_minmax
+318012c56576e09806747f64f89f8f3cde1f999f sysctl: Check range in do_proc_ulong_conv_ms_jiffies
+afdf35cfae0d039a4a6c907fa5d8391f1ef0a0aa sysctl: Fix type truncation in sysctl_msec_to_jiffies
+f6e7b42bf05b2427fb8a7a1d1c387a86638bb413 Merge tag 'sysctl-7.03-fixes-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
+9a0b159ff18c8f6fcf982bb81e15a9ceb14db43a sched_ext: scx_qmap: Restore unused idle claims from ops.dispatch()
+a9e3760b0838299649c0d57cca44daaf40ba3c33 sched_ext: Maintain an online cid mask in the scheduler arena
+6fb20c02710dabc2f63aa21cb23a154d76ef9921 Merge tag 'cgroup-for-7.3-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+9b87fdc9af2fbfcdb5c24a64139685ef80f6573f Merge tag 'sched_ext-for-7.3-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+dbd9d1cbf9700528c8595ab1fa7ef832e79821fe ALSA: usb-audio: fix list_add double-add in push_back_to_ready_list
+51938dfa8a51a4f85328413fca9b6e21f9d2d088 KVM: PPC: Book3S HV: fix use-after-free in kvmhv_emulate_tlbie_all_lpid()
+0a416ee20bcccddf91ca5b63696a23b9d11d73aa KVM: PPC: Book3S HV: fix secure device page leak on uv_page_in() failure
+0b271f7d7f5ed45bc498a03ce0aa9cfd8402fc71 powerpc/iommu: Fix the overflow validation in iommu_tce_check_ioba
+238650ef6c7c7cca08e032527329424c9fbd70e5 Merge tag 'powerpc-7.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+a5e22cba3549b3b9ca592a6bc62329c9b85ce285 ASoC: rt721: Reset codec to fix abnormal sound
+11fc0048a6930f4fca44fe3bd16a0023e78846a2 ASoC: ux500: Parenthesize MSP_{RX,TX}_CLKPOL_BIT() arguments
+c17ae8c26eac16ad244daef44044d714f68a2ddc ASoC: hdmi-codec: Report a change when the channel status moves
+03a5699a0a04309c597683967aaaf25d1e555ea2 ASoC: codecs: rt712-sdca-dmic: fix uninitialized stream_config->type
+3482062c786ce4233f8ed3224d824184f53ec154 ASoC: cs-amp-lib: Prevent NULL pointer if efi variable is zero length
+29218a4d11a31a8157389bc2b9e62dd768d7ea42 ASoC: amd: acp: bounds-check SoundWire link ID in machine drivers
+0b7d55d3a91200f2b1ed710f525a944b0a7d6369 ASoC: amd: acp: refactor codec config count in SOF SoundWire machine driver
+27098aaf28b96ab4e6891709062c343566d4882b ASoC: amd: acp: fix ffs() operator precedence for SoundWire link ID
+d57616f8be5601d210bbb0f677b9cb88a5186c3c ASoC: amd: acp: fix card name length warning in SOF SoundWire machine driver
+fa899ba9b1bfa0481a477c7a05a1a5d484285e7f ASoC: amd: acp: SoundWire machine driver fixes
+0030f62683d5061d43b80577b7ab27196f1adb4c ASoC: adau1977: make the Kconfig symbols user selectable
+528a0da3e55b24d1113b3658e94cf432e0020913 ASoC: adau1977-spi: drop __maybe_unused and of_match_ptr()
+76a8fe25b97881223976363044924d5cf0511749 ASoC: adau1977-i2c: add OF match table for I2C
+940e8fe8535d22ce67dd2fb9588e6c55a31d7d03 ASoC: adau1977: small fixes to make the driver more usable
+546b928da0427b0d6c663cbb992bd7bfa9ac7971 Merge tag 'asoc-fix-v7.3-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+4aec9ad1c668755b253bff4d95a9d82a17d2d434 Merge tag 'dma-mapping-7.3-2026-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
+61cc777ca7a4280568ec3a8f730651d482f46e55 Merge tag 'gpio-fixes-for-v7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+f143ea21cf834b4d57d70b47b99e582461f2dfaf Merge tag 'pwrseq-fixes-for-v7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+4982d3552a3bf94de503acf93433277d08421de6 Merge tag 'sound-7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 
---===============7259287226986178957==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb4a6dcaf938-ba332d28c15e.txt
-
-191740edaa4a17813b8e1595e3ef15068f88c8ba upload-pack: swap wanted-ref/shallow-info responses
-7b58375ab3b5865cdc44f11e72a6bcee779b63f0 mailmap: normalize name for Yoichi NAKAYAMA
-2a41443dc8b82e307228a04d3d2c1af86921ff9b Merge branch 'tz/doc-pack-refs-and-refs-fixes'
-3bbf43483e3954291b9fb4caa228eedb9dd528c2 Merge branch 'yt/pathspec-negative-prefix'
-d38352cd43ab9745686d697872408bc3249a153f A few more fixes before -rc2
-663ea428957e41451c671faeb00417e6484c83b6 Merge branch 'ps/odb-alternates-at-creation' into jch
-a76e60778c2184dcff93fa27b71027f68dee012e Merge branch 'hn/history-squash' into jch
-35ac371d5ec71aa871cb76ac9ac75d4899c6ffd2 Merge branch 'kn/receive-report-hook' into jch
-48933fbd45f7f6b2248755065a82727cb531a6fa Merge branch 'jc/cocci-free-updates' into jch
-6b0cd260fefda4d9bb7193a34f486402f768cd2a Merge branch 'ak/refs-files-root-ref-lock' into jch
-8b4170301077a09031d8aaa7ed3dc82d73b09024 Merge branch 'ps/ref-storage-format' into jch
-91ec38e43bfca6b89a8eb75d996b64f7d9978e21 Merge branch 'dk/use-nsec-runtime' into jch
-b4c713ca59bdcaef618e6c023bff48574a64d23f ### match next
-10e1ac58bb5c52b663589943571c16e689ea9a82 Merge branch 'ij/subtree-reject-v2-config' into jch
-34daba108d71251bff0ef3d2e99857e41865fc5f Merge branch 'ap/http-preserve-wwwauth-redirect' into jch
-2f1d27c8abc7c07364f370087a5d37b90a2d3550 Merge branch 'as/utimensat-utimes' into jch
-7b7f49d4cee2a86c4238d9f471575240a0e0b5a2 Merge branch 'vv/branch-recurse-no-start-ref' into jch
-68d45df5eaf034d0f7b9950c357966745728e576 Merge branch 'dw/config-read-both-global' into jch
-ab05d8446536bdc0fc401f9da378cccf53f47945 Merge branch 'ta/command-list-guides-sync-lint' into jch
-15cf10c92d0e64515e07bc84ddd5ff2e29930ce0 Merge branch 'jk/merge-ll-tempfile-cleanup' into jch
-eaa21eeee6dfdb401b9cae488c92d374449eed7a Merge branch 'pp/midx-write-skip-empty' into jch
-b3ae7f1f8805e499468fdf9215ae941fe6348a01 Merge branch 'hn/range-diff-matched-only' into jch
-c4689e926cf038db1b91df3b95e07e53bf216c71 Merge branch 'ec/commit-fixup-options' into seen
-5a5df0bb195edad0c1852176d2485302c7d6b2ce Merge branch 'tb/midx-incremental-custom-base' into seen
-c0df0708e11a48df444fc30e459e085aa70a93a0 Merge branch 'mm/line-log-limited-ops' into seen
-f6a30052562be5ad117185fde4f7cf133854b590 Merge branch 'ds/trace2-tolerate-failed-timestamp' into seen
-5782299cac7afe981edaf6e7748a3b6ed220cf2b Merge branch 'kj/repo-info-more-path-keys' into seen
-971f1bb0538346931a1d9839e598becfa81a4b3e Merge branch 'pz/fetch-submodule-errors-config' into seen
-5452159a1d965d0ca1fef67a61f5dd0d121cba10 Merge branch 'bc/restrict-hex-to-lowercase' into seen
-6629915d4b859a411af17c77abf8824228ea7ed0 Merge branch 'ty/repo-config-cleanups' into seen
-50a394d99ee80f95442846682a18a788becc31b3 Merge branch 'cc/lazy-fetch-trusted-bit' into seen
-5603ce90005c826673e37bd08e81ea5825e2fc11 Merge branch 'gg/http-ssl-verify-status' into seen
-f9fdb9ff36d9341639dd9947093ba591f1457ece Merge branch 'kh/format-rev-more-options' into seen
-90f814f26a0a4eda779692b580d63dbdb05af5d7 Merge branch 'ws/squelch-svn-migrate' into seen
-3118c053a346b1dde2e0553587e07d08438341a4 Merge branch 'fz/rebase-autosquash-empty' into seen
-6081b58491bc1d0de628c2b6196cfdc560f659c4 Merge branch 'jc/checkout-refactor' into seen
-1d71099f458ac03fe8dcef7ec6ed4ca767b66206 Merge branch 'll/doc-pushcert-if-asked' into seen
-e51e9df63c0dfeed43cfb4e5dc8b8370be676c08 Merge branch 'tc/last-modified-bloom' into seen
-7b038848d9b5239b3112f6a738013b8ffa6573fa Merge branch 'cc/early-scan-options' into seen
-259c9f12976be5eac3eafe47da9681bf8acc806e Merge branch 'mm/diff-process-hunks' into seen
-e9d3b671726a91fa82de97c14bfccb0b77349756 Merge branch 'as/push-force-if-includes-no-reflog' into seen
-d5d37bcfe81c8a7ce4afd01a140c56e24b2d7eaf Merge branch 'tb/rerere-lock-grace' into seen
-6b3d60d89918513772f34e235c9970bbb3aed080 Merge branch 'tc/push-force-if-includes-fixes' into seen
-367990431dfcd1baaf17ba45ae7e51edb43f200e Merge branch 'ap/var-broken-down-idents' into seen
-31ef1cc347488cf7bef85c4260ab70cd42ffede7 Merge branch 'jt/object-file-batch-fsync-fix' into seen
-ccf6df6c083d82bcab01cdd13c6c4dba53b36e49 Merge branch 'tb/rerere-wait-for-merge-rr-lock' into seen
-a8643d5f8496c0a89f48fbee315bc744c78641f8 Merge branch 'jc/advice-config-set-global' into seen
-fdc69b6ca455e030573f979cd200347f2293d900 Merge branch 'sg/precompile-git-compat-util' into seen
-26efe79967459a430d33c20c586492020e58e680 Merge branch 'of/commit-reach-repo-awareness' into seen
-ba332d28c15e171f5a8731ca4dd5592515ebc0fb Merge branch 'rr/upload-pack-swap-shallow-wanted-ref' into seen
-
---===============7259287226986178957==--
+--===============0092388933914482798==--
