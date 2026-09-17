@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8953321855822180823=="
+Content-Type: multipart/mixed; boundary="===============4342442659797240384=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 17 Sep 2026 14:24:35 -0000
-Message-Id: <178965507546.504515.7271317789888128130@gitolite.kernel.org>
+Date: Thu, 17 Sep 2026 14:24:40 -0000
+Message-Id: <178965508014.504634.1957362645593657663@gitolite.kernel.org>
 
---===============8953321855822180823==
+--===============4342442659797240384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 892f5b3b07e5b07f2f29c87750ff94fa58dcab73
-    new: 93f615a221699f986e8d37fc686e9091ba50e1eb
-    log: revlist-892f5b3b07e5-93f615a22169.txt
+  - ref: refs/heads/mm-unstable
+    old: 0820e2e85e8aafde66256c567ad37a5b15708d4d
+    new: 1ed9cdd724d46119dd9adf0ffba2f2daaa3335ef
+    log: revlist-0820e2e85e8a-1ed9cdd724d4.txt
 
---===============8953321855822180823==
+--===============4342442659797240384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-892f5b3b07e5-93f615a22169.txt
+Content-Disposition: attachment; filename=revlist-0820e2e85e8a-1ed9cdd724d4.txt
 
 1a2d70a9747756d16eeadc3bf59bcb66b7df235e selftests/filesystems: fix missing and stale TARGETS entries
 3dcf9efe978cc1daf981a6895c5b1275f1a6feae module: fix lost error code from codetag_load_module()
@@ -563,51 +563,5 @@ ece7105d2a4fae4a23648996bae9704e8162fbaf Docs/mm/damon/design: update for hugepa
 cfc2cbf287242c10a20f6981839fd6035081f754 docs-admin-guide-mm-damon-usage-update-for-hugepage_size-fix
 f6ec37ed8d1fa8701e28f91d3fbe3163a48711b0 docs-admin-guide-mm-damon-usage-update-for-hugepage_size-fix-fix
 1ed9cdd724d46119dd9adf0ffba2f2daaa3335ef Docs/ABI/damon: update for hugepage_size probe filter
-9746e8d3d51f52da1f956e2a304684df05df485f proc/task_mmu: remove unnecessary helpers
-e66c20f3f6416097e253041ba9dfbae3d81d511b proc/task_mmu: remove unnecessary inlines in function definitions
-7d320bf19127d19c38fd8ee8ec64105e87dc033c proc-task_mmu-remove-unnecessary-inlines-in-function-definitions-fix
-fe75a3674888b708ef64eaa3a11d7331ffad5807 proc/task_mmu: clarify shmem mapping walk conditions in smap_gather_stats()
-87a041fec125d833111e7585c9d193f0204e4374 proc/task_mmu: remove special-casing of smap_gather_stats() start parameter
-c7427d53dcf1a60f2c43269795e31fba8c5192d4 proc/task_mmu: change proc_get_vma() to stop returning gate VMA at the end
-9aaf049a0aece7edb6d24a31a0a7d3645aa988de proc/task_mmu: read proc/pid/smaps_rollup under per-vma lock
-16e17848ec49c00e18838f4b393845576f105991 selftests/proc: add /proc/pid/smaps_rollup tearing tests
-b7b224f9b2af0c8ea9eccc5a9eeaa7f3e3b69235 mm/gup_test: safely calculate GUP batch size
-5c6fed9874328dbcbea524f9ee04322efad679f6 mm/mglru: restore accidentally removed seq < max_seq check
-c8ff8572575ca611cb53f9d103ed372711abbd66 mm/hugetlb: fix misspelled parameter names in comment
-706be73754cf404f7d6452d89f1a3f797231a28b mm/page_alloc: apply per-task GFP context in bulk allocator
-624b76bb01148cebd5b739c47be4389377f23ef7 mm/madvise: use folio_trylock() in the cold/pageout PMD split
-c076a01e1a3ce426d46dee05050984a80196532e mm: memcontrol: take a const folio in folio_memcg() and friends
-703b335603d8fde46b334b4184485b498996b5cc mm: memcontrol: constify obj_cgroup_memcg() and friends
-258ffeeff282a4319aecf0c2b9df7cb7207367cb mm: memcontrol: constify the lruvec helpers
-6c978aa9a5578d4f4a641fa5a614b883b12b1df7 mm/page_io: take a const folio in bio_associate_blkg_from_folio()
-9a3b0e9d08ffc3db0285176a3dfd3f8d87d0c89b mm: memcontrol: constify the mem_cgroup accessors
-fb7abfcbdad6468080a2b326690113cd036e0008 mm: page_counter: constify page_counter_read() and page_counter_margin()
-db253aea9502cf7f4d9e910b31b7cf9de7dda4ce mm: memcontrol: constify the reclaim protection helpers
-a9ae38bbd5039b86e0a334bf154aa44c59ba2435 mm: memcontrol: constify the memcg and lruvec stat readers
-c63e7135badbf25752ec008f2f6e3ff13ab4f1e0 mm: memcontrol: constify the swap accounting helpers
-191ccab2dd8ad5b76a599c6f4e8ad2e2971cef50 mm: memcontrol: constify mem_cgroup_swappiness() and mem_cgroup_get_max()
-85eaad271914d11f1dcf4ee604dc5fb8b45ec7e7 mm: memcontrol: constify the zswap and socket pressure helpers
-b8301318322e211e06e7f2e15893d4ed4787c93d mm: filemap: move lruvec accounting outside the xarray lock
-77019448ac6530358b156fbec8c1536ba3985067 mm/page_alloc: do not boost watermarks in kdump capture kernels
-53a6084448615745aa92c1248d31e29bdfc82bf7 mm: mincore: use per-vma lock during page table walk
-e58f1d1067df150fc3b14e4b63d0a98c62ef0146 vmcore: convert mmap_vmcore_fault() to use folios
-1c91fd73e8d92e0cd573b51f552613d520c97e1e mm: swap: move LRU insertion out of the swap cache allocator
-99cb68db86f37b911b280acad88d90f40a90d067 mm: swap: drop dropbehind swap cache folios on writeback completion
-4369abc2c212ada510f3f01e98a83fee31fe107f mm: zswap: drop cold writeback folios via swap dropbehind
-6bfec7078e31e0bbe32cecacae40fdfa237d0567 selftests/mm: fix soft-dirty kselftest supported check
-218e8005ed56bf156da54209cf4be64ee0c92d3d riscv: mm: fix concurrency in mark_new_valid_map()
-79f7c97d8aae1a8d7f84f75ef5c8eb1040b61cf0 riscv: mm: exclude invalid THP PMDs from page table check
-8801f13e399402e8fcb4102a00ccdbcd052d3abc sh: remove CONFIG_NUMA and related configuration options
-01da967c080adf42e70be0780f7cd41ec7e3f150 sh: mm: remove numa.c
-7d6f1808248d78247379c832b962ca65fc070354 sh: mm: drop allocate_pgdat()
-61f0804f3f093fa4637feb9c6d6f66b680298e15 sh: remove setup_bootmem_node() and plat_mem_setup()
-a692d56b72ab1e5898d0b7a1667617e3c3cd3974 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-274284984d92d30e3496ae98b23f22f0084e175e sh: drop include/asm/mmzone.h
-c5c4dc09c53c55aa7324830c27beb5b94991c2c9 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-e86b61da20776ab1be30a79a725a415844b5b4aa sh: init: remove call the memblock_set_node()
-0143b1b6a41728669729d000bd6969e4800ae55e sh: remove SPARSEMEM related entries from Kconfig
-348780f29197f8751e79be47b5815b0ce36591dd sh: drop include/asm/sparsemem.h
-db3bc136ff9d18c03c423fe298dc475b745b3222 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-93f615a221699f986e8d37fc686e9091ba50e1eb mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============8953321855822180823==--
+--===============4342442659797240384==--
