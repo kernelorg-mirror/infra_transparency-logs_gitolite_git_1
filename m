@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 17 Sep 2026 21:51:07 -0000
-Message-Id: <178968186795.908188.13104474085296235492@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 17 Sep 2026 21:57:41 -0000
+Message-Id: <178968226140.912186.2716107299344524418@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/tags/for-next-keys-v7.3-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 4cb3b18de2c5da2610d722f75133f0207f801e8c
+  - ref: refs/heads/for-linus
+    old: cee9395acd8043be0644b25c34bfa86623f2b935
+    new: c9dc7d730319ad64b51570c5387f1fee7b07b510
+    log: |
+         c9dc7d730319ad64b51570c5387f1fee7b07b510 PCI: imx6: Move clock enable after core reset assertion
+         
