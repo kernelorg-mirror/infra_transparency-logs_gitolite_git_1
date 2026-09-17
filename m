@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4421151588746566852=="
+Content-Type: multipart/mixed; boundary="===============3548272338602558600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 17 Sep 2026 02:26:32 -0000
-Message-Id: <178961199201.4108537.7587527443731639209@gitolite.kernel.org>
+Date: Thu, 17 Sep 2026 02:26:39 -0000
+Message-Id: <178961199950.4108692.13076946267185789335@gitolite.kernel.org>
 
---===============4421151588746566852==
+--===============3548272338602558600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,73 +16,98 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: e83b47309f73313e75c3888d7839666aba5b2b2a
-    new: f07317a8d57f382ec505597816271dd72ffa20c7
-    log: revlist-e83b47309f73-f07317a8d57f.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 5247e2637097ef7bc7fed74bf25a73accce7c14e
+    new: ece4961542d2e459f9e2cbfe239d64d49e42b2ba
+    log: revlist-5247e2637097-ece4961542d2.txt
 
---===============4421151588746566852==
+--===============3548272338602558600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1789611990 -0400
+pusher 75C5DE3D 1789611996 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1789611990-2491a458241b78431189287a0424ece971e9e731
+nonce 1789611995-0c8c0d4a6f7eb19e4e482ca9fa10b246948f2a82
 
-e83b47309f73313e75c3888d7839666aba5b2b2a f07317a8d57f382ec505597816271dd72ffa20c7 refs/heads/queue
+5247e2637097ef7bc7fed74bf25a73accce7c14e ece4961542d2e459f9e2cbfe239d64d49e42b2ba refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqrT9YACgkQ7ulgGnXF
-3j2iTA//VsPwJz59brzaON3MVkKRO2lqGHErlYG6/Ei2LZio7WrhxDDZrF6t6KNg
-26Kofn0W4B2SANq8h1iEK/KKlb2zPXvS/kCCdq2keU+Cn2GHGoOV0FhfxMFaMHEX
-zyECWyF/f3WgmD7uneLM1tuaIvUf7f6xqYegP7QRFKoDYE8QxqOru5mD3RgNVzBr
-hod/5Qeyuq/r5kwaRZ7vHx6J9Elt+698R8DfBPRKqFbAnXhhlA7ZANtqBOoOPsQf
-VrYXOG136Tf29XiO3npSlaSBvZ3hyZMPUDP5aYVVVUdXHcAGoYGvKkcUySSWkKSC
-ShbDSqbPzwYMZfhAHflVKRlREkaiX4mKFtWdT4I+EHwK4ZoRzipipsLfqGIaGfjU
-OVWeRmdgqLz0vPyIdk/KYBexuh/D/jZUCgBjgxTYah0csDfdRtOUfEgHLaqkHt73
-RI31Iqx47uAZBNaXgxV6Piq+yPPeUMpk+EIeNweR46xNDmy3wsu2ZAVLUZcBII9u
-9z+QGXsNf2p+hxXn1pkOxr0hf+r1XsPxclyekLbd5BbY0NgHP8cKYxXpnQKc+YjH
-GgWBQHyk5jTS2zwp6U4nocigZe2R0o+XOXTnPuVahO+rPPlPvZ0JTFkjeAPFXuXL
-RQLOQyZqisZe4IRGJpjEXBHa/JZm4SKF7ZYzzqg+Vn5/jVKASo4=
-=vf4X
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqrT9wACgkQ7ulgGnXF
+3j163g/9FqfSnQkN8jHH1ipCItAefWczr3sbMqLclcYB68BhJk6pLw6aD149gIYI
+phTcqT02Kz4tbwxoUFU5i+0eME2RrHCVntexwnWLknrnNizHQXwmykgFNEBnRD8K
+XZCdZZCt1lkgv+TtbvU4oo381VckpsNiwYKZAbU1FirAItNsfXOkr2FSRKHsrRKC
+dO3R3bt5Nx8+qMKuuEcJaI2pbks9cpEZNaU+JYNiEgfb+Fz6TJDtN/zRotgyyUt9
+v8xvnopS1NbBbnSJMV6qFWD6DqfrNgD2odhbeswu5yHe5mcg36tZfJcTuXdB2w32
+BmnCu2ZO3YUDRv5ftiJmHMAXqTJJOHa0xovAeb0gvh+/1kbGqCmoIAh8/8gzn/Ob
+0V84MAInVZYrxalaG6xnY3E07phSVWAoZyX5duCxgfMaMSxg/wu6u7GPds1Ft5fe
+MPqLIPZkZfH39ct3z5B9VCYtgy+mdM3WC7li3MsgETvJvB86uLYgrS1w6nZSqc0h
+0qOe9KXOAVWprS1M3hE1jcPgq7S1WXW9MUSqw+mhvGnTeNT2mo89YLeWbBIpc2gk
+7XLrTP0HvdUKGLZmyYadpJ83R8hinFnIm/vRPGJjfuNG/5iaxSX+E+h9AZBiEAPy
+9yEp84DR9tqGvfYFASS5thX0qFtuyTQZKvPNkQCs+i/huAJg4UI=
+=MiBC
 -----END PGP SIGNATURE-----
 
---===============4421151588746566852==
+--===============3548272338602558600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e83b47309f73-f07317a8d57f.txt
+Content-Disposition: attachment; filename=revlist-5247e2637097-ece4961542d2.txt
 
-6b0f8a689ef3e84a9b2fc1a5753466dfbd566306 scsi: zorro7xx: Use individual zorro_driver_data structures
-a8a34238e5e65609a434fc13aa1d64fcf2df1d23 scsi: ufs: rpmb: Retry power-on UNIT ATTENTION on the RPMB WLUN
-657eff806d38abd73e0002cda070c4cf14eb9882 scsi: ufs: rpmb: Use a fixed-length RPMB dev_id
-06cc447b65beacb6912b675675de49abe24dc02f Merge patch series "ufs: rpmb: make RPMB usable with OP-TEE key derivation"
-2cf34575b6498e909193222c3c2c940a2e3fbd8f scsi: scsi_debug: Default to a higher throughput config
-896abdd4d81f40575b05d593f7fe004935a6cf97 scsi: mpi3mr: Fix buffer overflow in BSG passthrough request copy
-9fac4cbd66d852958e8a8d0952eb57f8554ce83b scsi: mpi3mr: Fix out-of-bounds read when copying BSG MPI requests
-37e7d274272bc5e545e2d5f9261afa7f33f1cf49 scsi: mpi3mr: Fix I/O block counter leak on admin request post failure
-f0ec04bdf6156ed2ae7d86a8819dafdd9383b705 scsi: mpi3mr: Fix target device reference leak in BSG task management
-9ff1af19c488efad66f2b803eefa0abd5fdac8f4 scsi: mpi3mr: Fix buffer overflow when caching log data
-bcf0a5bed59acd5ae19d80e1f617c1a5b355af0b scsi: mpi3mr: Fix out-of-bounds reply frame access
-7fea128f6b829ad834f21834d2605d28a45b903d scsi: mpi3mr: Fix out-of-bounds sense buffer access
-5dade59551d344d0308256edfef6bc3fb4202eb3 scsi: mpi3mr: Fix out-of-bounds bitmap access during device removal
-a04b0f3a17e32aa449fd896163a7b40efc29c4f5 scsi: mpi3mr: Fix target device reference leak in device removal handshake
-9e220ce4bd0468e47cc9eea07e40799ebae6eda8 scsi: mpi3mr: Fix out-of-bounds read in SAS topology change events
-77554f01187d91c20f04d2a8e28270943ed64cca scsi: mpi3mr: Fix out-of-bounds read of event data
-f67caaa2521a3c8f931d1e679d831ba5ca654794 scsi: mpi3mr: Fix out-of-bounds phy array access on link change
-203b3072e7aa10d98b3f2b766693ea925cfc571d scsi: mpi3mr: Fix buffer overflow in the BSG target device map
-7d572b4dc4ed0494e67097d4b7368666655f5c99 scsi: mpi3mr: Fix out-of-bounds read in PCIe topology change events
-052aea807cfbcefaf5b6ed8202f65da1fc65f4a0 scsi: mpi3mr: zero out diagnostic buffer status memory
-c94c746e6c80439a4a9a0e1e20f2dae62a4d57ef scsi: mpi3mr: Fix use-after-free of the firmware event workqueue
-2ba1d12b2629827fdb1116eb3c9f8566911f2034 scsi: mpi3mr: Fix NULL pointer dereference on PCI error recovery
-9bf8a2050693fc052642052c3991079d44e65643 Merge patch series "scsi: mpi3mr: Fix out-of-bounds accesses and reference leaks"
-a09d77bcbe22db1a0b89f18d0a70074bb2453bc4 scsi: scsi_debug: Add support to corrupt data and/or reftag
-20ae446921e78e4e0182cea7559d34d839550e66 scsi: ufs: core: Record the frequency the controller starts at
-55ad5deeea922ea854086b70e41415f50e2987ea scsi: ufs: core: Report the current clock frequency to devfreq
-1b800ac9e21c2dbeda3dcb923060017e42612c4b Merge patch series "devfreq: check the get_cur_freq() return value and use it in ufshcd"
-f07317a8d57f382ec505597816271dd72ffa20c7 scsi: ufs: ufs-qcom: Enable only lane clocks in lane clock APIs
+72c54bd0cbb2e0c35f4acd056e91c596469edc5f scsi: core: Define all additional sense codes and their qualifiers
+84517868c12dd4e06c1a08793f5687ec43961dd4 scsi: core: constants: Use defined sense codes
+c5c4382c2a1cf059248ab05a0c49a8935c0b89a3 scsi: core: constants: Rename internal struct field names
+45cdf8164237277e52af5d8aa4218c3cb6199bf2 scsi: core: Rename sense field of struct scsi_failure
+ec5562d3ea803ec45831477129c626b2a22d2e2c scsi: core: Prepare for using combined sense codes
+319c440e4e4599a0d521479c883e09481946d26b scsi: core: Use struct scsi_sense_hdr to log sense keys and codes
+85952eaa682a4ea3dd4ce3875013e2aaf8000f88 scsi: core: Use combined sense codes
+b9d5da78ffda56be2c421ad064dbd777ffc42269 scsi: sd: Use combined sense codes
+b1d3523f87d6e42c55a9d640afe7e1b34caa5ecf scsi: sr: Use combined sense codes
+28e463a7be2d5f6a9abffeeb6e232b000d40e10c scsi: ses: Use combined sense codes
+fdec4b3a173570d5304ea78e690375acfd8a722e scsi: ch: Use combined sense codes
+9a21d5e12153f13b95213e0bf0c65b4a381b0ca9 scsi: st: Use combined sense codes
+700ab5e27925f883888501e9e2630ad8b8da49f7 scsi: device_handlers: hp_sw: Use combined sense codes
+5c0ae0bcee35b9864702cd7866d2acf618ff9fb3 scsi: device_handlers: rdac: Use combined sense codes
+9f543ed64b1ea0f02af797cc1a88137651aa41fe scsi: device_handlers: emc: Use combined sense codes
+8c88a8614870903ea2a454cac0851a3198bc93ce scsi: device_handlers: alua: Use combined sense codes
+f2e04ffb273e60aba6d39fc0c591bd1d8f4d9018 scsi: mpt3sas: Use combined sense codes
+c9852524e91bc53c3f22d0a75e011f96d7fdb669 scsi: mpi3mr: Use combined sense codes
+f2a39d466867e34c51dad4ef1a514b1c00d5ca19 scsi: 3w-xxxx: Use combined sense codes
+9141a92896e24e90b1254261470ef63df7c12dd7 scsi: leapraid: Use combined sense codes
+0c4d570067fdb2db6238b48e03ace739797f94d0 scsi: megaraid: Use combined sense codes
+6e9db936a1676c71dc9ab47560768b5e03429daf scsi: myrb: myrs: Use combined sense codes
+aa5d14a035c5cca63a910c7ff183fbb0da9bbce5 scsi: smartpqi: Use combined sense codes
+374219068a9a69f94f56195969fe1d1a2a832bbf scsi: qla2xxx: Use combined sense codes
+fd09d129d9f64b0abd346d20afd533ef96bb465b scsi: ps3rom: Use combined sense codes
+6af632bcf0ac525b1237b2e5053f7bb2d41d939d scsi: lpfc: Use combined sense codes
+f1ba68cc9baf6619b7fbcbc13e35a0ce1a4ac6ee scsi: stex: Use combined sense codes
+d6dba463d867120abad1ff6923e0c1c6cf3e896a scsi: mvumi: Use combined sense codes
+077aa184ebb4dc3cc52c2dcb1b5ab3e5d4c8d4cc scsi: libiscsi: Use combined sense codes
+01526b511d8879dd3c2baa2cb09377d25524a8fe scsi: ibmvscsi_tgt: Use combined sense codes
+1b7ea7bb198e73a5237d3799187e46fe2b818ef5 scsi: scsi_debug: Use combined sense codes
+3f94a6f129bf5bf2e634049d438b8794e019c17f scsi: hpsa: Use combined sense codes
+3f7abb6b35305a7da0575091ad5f7c9af0f37480 scsi: storvsc: Use combined sense codes
+9dd9bcb293f0fa575f497dd58172fcdcd2978113 scsi: target: Use combined sense codes
+134875ed31d4d866dbe3cd1a3461e76f08d030b4 scsi: usb: storage: Use combined sense codes
+4152825a15d5f5d7a810e19a1e77a8561525b020 scsi: cdrom: Use combined sense codes
+c44f095a9d1768d9be6cf0c1b12e95619d6af9b4 scsi: ata: libata: Use combined sense codes
+3f37a1a804fc02d43695fdfe290c0077c1ffaba8 scsi: s390: Use combined sense codes
+ddfb3e0257b27f14847fd8a76159d7e43ce5fee8 scsi: core: Clean up scsi_proto.h
+15de2788c91cc407f7e6fc6a07be27b10048cbce scsi: core: Remove scsi_build_sense() and scsi_build_sense_buffer()
+670f07403f7c5e138973838db8d0d0a1be15bd71 Merge patch series "Use defined 16-bits ASC/ASCQ combinations"
+cdc97921de02a0c1a8324afa03e8b3e30a72bbe6 scsi: pm8001: Fix SATA FIS offset in struct hw_event_resp
+ab21857b2715ec3c7f53d16c9449370fbdebfc37 scsi: mpi3mr: Skip device shutdown during unload per controller configuration
+1567cd497fa98a078c60224766021556085bc662 scsi: mpi3mr: Update MPI Headers to revision 41
+48c666139acfef3bce5cc337b7d2cc2e089f87b5 scsi: mpi3mr: Add early timestamp synchronization after driver load
+fb8b6139770a5dee8ace9e605b5c3d11861506c8 scsi: mpi3mr: Fix NVMe page size caching for non-operational devices
+7342b9f0e3065c086605f075a204972d270b267b scsi: mpi3mr: Fix performance regression caused by extended IRQ poll sleep
+ea8dfd05a0fcabe3ea8bb8a3b9e45b5170a210a2 scsi: mpi3mr: Fix memory leak on operational queue creation failure
+59f8c361872df3df9c47ad612a4562cd08441cc5 scsi: mpi3mr: Fix firmware event reference leak during cleanup
+29e3f0856e8544ca185be3403518a102e0ca29fc scsi: mpi3mr: Fix SAS port allocation and registration error handling
+c90693e02d10e9318f2f7cc480e9b05430628738 scsi: mpi3mr: Fix SAS PHY cleanup in host addition error paths
+e6687d574bbe142751bcfa6dd0f42d5abd1c2756 scsi: mpi3mr: Driver version update to 8.18.0.8.50
+c3cff7fac01638ab58e85fe7df41a04fa25c5bae Merge patch series "mpi3mr: Few Enhancements and minor fixes"
 
---===============4421151588746566852==--
+--===============3548272338602558600==--
