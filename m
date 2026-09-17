@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 17 Sep 2026 13:22:51 -0000
-Message-Id: <178965137186.458072.10763298537157799390@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Thu, 17 Sep 2026 13:25:28 -0000
+Message-Id: <178965152813.461091.13606735018781652876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/main
-    old: d798162eb364df2e77a56fdbe5bae54440152d3b
-    new: ad9c65b8f948f9ca00d065114d6cd7d281f53ec9
+  - ref: refs/heads/next
+    old: ddcec9ed9f24e92679994e04b6f302981b4c8115
+    new: c98cbf6ce8b9f9f535600b15a5f34a77982b226b
     log: |
-         f81e6c3fb06327bc49cdd6e559845293ba06a704 tcp: exclude old ACKs from tcp fast path
-         d841cd7513f3d48018175ecb1fb972cfd3c3c10b selftests: net: packetdrill: test exclusion of old ACK from TCP fast path
-         ad9c65b8f948f9ca00d065114d6cd7d281f53ec9 Merge branch 'tcp-exclude-old-acks-from-fast-path'
+         91def853c3cc5a3394a55324a17b88dc6fa9798f staging: greybus: sdio: Convert to devm_mmc_alloc_host()
+         c98cbf6ce8b9f9f535600b15a5f34a77982b226b mmc: core: Turn mmc_alloc|free_host() into static functions
          
