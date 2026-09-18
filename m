@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6609734366738483412=="
+Content-Type: multipart/mixed; boundary="===============7200027807907604105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 18 Sep 2026 21:15:03 -0000
-Message-Id: <178976610332.2085208.7664701733643031787@gitolite.kernel.org>
+Date: Fri, 18 Sep 2026 21:15:27 -0000
+Message-Id: <178976612792.2086604.7891474712067012145@gitolite.kernel.org>
 
---===============6609734366738483412==
+--===============7200027807907604105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: e83b47309f73313e75c3888d7839666aba5b2b2a
-    new: f07317a8d57f382ec505597816271dd72ffa20c7
-    log: revlist-e83b47309f73-f07317a8d57f.txt
+  - ref: refs/heads/for-next
+    old: c037ebe671f86f32aa73eaa78e20e7f24017e41d
+    new: 9a9fae6db87f8cf8a94a94aa7900ab73951c530b
+    log: revlist-c037ebe671f8-9a9fae6db87f.txt
 
---===============6609734366738483412==
+--===============7200027807907604105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e83b47309f73-f07317a8d57f.txt
+Content-Disposition: attachment; filename=revlist-c037ebe671f8-9a9fae6db87f.txt
 
 6b0f8a689ef3e84a9b2fc1a5753466dfbd566306 scsi: zorro7xx: Use individual zorro_driver_data structures
 a8a34238e5e65609a434fc13aa1d64fcf2df1d23 scsi: ufs: rpmb: Retry power-on UNIT ATTENTION on the RPMB WLUN
@@ -54,5 +54,15 @@ a09d77bcbe22db1a0b89f18d0a70074bb2453bc4 scsi: scsi_debug: Add support to corrup
 55ad5deeea922ea854086b70e41415f50e2987ea scsi: ufs: core: Report the current clock frequency to devfreq
 1b800ac9e21c2dbeda3dcb923060017e42612c4b Merge patch series "devfreq: check the get_cur_freq() return value and use it in ufshcd"
 f07317a8d57f382ec505597816271dd72ffa20c7 scsi: ufs: ufs-qcom: Enable only lane clocks in lane clock APIs
+b52d695d062095327b944acf7daabbc816ab319b scsi: ufs: core: Keep internal commands dispatchable during error handling
+c9ee6511332687ea714ad8ab86a53cb837d86eea scsi: ufs: pltfrm: Add quirk for R-Car S4 lacking lanes-per-direction
+bce07e2f37b5e4a427d36fd6b1c14067b27591db scsi: libiscsi_tcp: Check the data direction of a Data-In PDU
+f06a44e235ef188689ba23ffc72e9e89b10951a9 scsi: devinfo: Add BLIST_SKIP_IO_HINTS for EMC Symmetrix
+278210c60c6f6958bd2eeaa2120c862683b83d09 scsi: leapraid: Avoid -Wformat-security warning
+7c431d61b69a3fd0784c20aa4cd0b8fb501b5653 scsi: block: Fix zones_cond out-of-bounds write on zone report
+b6ec0f79745967c751c85df373062c8d15e45fc4 scsi: sd_zbc: Reject disks with too many zones
+42d1221d321e55afc7bba9109a77aaf5a817c8a3 scsi: megaraid_sas: Protect megasas_get_ctrl_info() in megasas_resume()
+ea2de211dfc37a9a5c90d8593f1604740e68974b Merge branch 'fixes' into for-next
+9a9fae6db87f8cf8a94a94aa7900ab73951c530b Merge branch 'misc' into for-next
 
---===============6609734366738483412==--
+--===============7200027807907604105==--
