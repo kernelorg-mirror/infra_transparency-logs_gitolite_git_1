@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 18 Sep 2026 22:55:08 -0000
-Message-Id: <178977210897.2162418.10756599129670794081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Fri, 18 Sep 2026 22:59:56 -0000
+Message-Id: <178977239680.2164147.6581635310354438884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/clk/linux
+user: masneyb
 changes:
-  - ref: refs/heads/main
-    old: b52be4ae2a19144881ad4c8770721ecf7cf8d1c9
-    new: 96ebe7f871a4ca9c1d76ece0200b4f43e4584c51
+  - ref: refs/heads/clk-pile
+    old: e9e54518246f84aa07a12930a9f3d6f5b060eca2
+    new: 54d0b6903921d121fa750546f2b38cc3f5c7e64f
     log: |
-         0a5565a4a8881d95c55399ae6f95fb0ce3ceec75 Revert "amdgpu: update GC 11.0.0 firmware"
-         9a7c283fa0037c4db360214192d57aab1272d403 Revert "amdgpu: update GC 11.0.0 firmware"
-         96ebe7f871a4ca9c1d76ece0200b4f43e4584c51 Merge branch 'robot/pr-0-1789771762' into 'main'
+         e98e3d712023859af7cd78bb7fdb87ea3a9ffb83 clk: raspberrypi: Handle cpufreq device registration failure
+         d27364c5db4f507cd9f3e7fb77c472fd69207256 clk: pistachio: Use flexible array for clock table
+         c90a50d07f0c38c62ce13a60806ab5e3b841f70f clk: versatile: clk-icst: Fix node reference leak in of_syscon_icst_setup()
+         54d0b6903921d121fa750546f2b38cc3f5c7e64f clk: starfive: jh7110: reject oscillator lookup errors
          
