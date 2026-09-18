@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 18 Sep 2026 17:54:30 -0000
-Message-Id: <178975407065.1934009.11100244580895151905@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 18 Sep 2026 17:55:10 -0000
+Message-Id: <178975411040.1936267.4807974378965912055@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/regulator-7.4
-    old: b53a09c957b682ce1d1f8e94a362c4466b6b74f6
-    new: e0d673e5a5c4084f0da90c06ed3b0bc45e47d679
+  - ref: refs/heads/main
+    old: add9701c7d0c5032bf8db415a93c810543b6b1ea
+    new: b52be4ae2a19144881ad4c8770721ecf7cf8d1c9
     log: |
-         e0d673e5a5c4084f0da90c06ed3b0bc45e47d679 regulator: rt6190: Fix runtime PM imbalance in rt6190_out_enable()
+         f5e8adfa1e0c2af7ac13280fdbedfd48f37e0c34 amdgpu: DMCUB updates for various ASICs
+         b52be4ae2a19144881ad4c8770721ecf7cf8d1c9 Merge branch 'amd-staging' into 'main'
          
