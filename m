@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6198945554481230603=="
+Content-Type: multipart/mixed; boundary="===============5436697511157919231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Fri, 18 Sep 2026 15:33:57 -0000
-Message-Id: <178974563765.1821011.17474792897980804793@gitolite.kernel.org>
+Date: Fri, 18 Sep 2026 15:34:22 -0000
+Message-Id: <178974566228.1821420.5307746079444388389@gitolite.kernel.org>
 
---===============6198945554481230603==
+--===============5436697511157919231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 393c37dddd40e2641a62707358a5eb2bd1dab03b
-    new: ccc3c85911e32abff7e720251833cfdc3827cf84
-    log: revlist-393c37dddd40-ccc3c85911e3.txt
+  - ref: refs/heads/export-net
+    old: d33d66bbbbdfb7e5520cb8ea77287455878c1f5a
+    new: 9f6e359bc4d810a25dcc14084811faa0d3c2e7dc
+    log: revlist-d33d66bbbbdf-9f6e359bc4d8.txt
 
---===============6198945554481230603==
+--===============5436697511157919231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-393c37dddd40-ccc3c85911e3.txt
+Content-Disposition: attachment; filename=revlist-d33d66bbbbdf-9f6e359bc4d8.txt
 
 3c0ebc4c07ff1147724d8f370203e62390ae7ee7 vt: hide cursor prior to font changes to avoid out-of-bound reads
 72e91bba1190c91c76ef2f81476399eb66b87ed2 fbdev: omapfb: Fix __be32 sparse warning in panel_enabled()
@@ -573,18 +573,13 @@ fa899ba9b1bfa0481a477c7a05a1a5d484285e7f ASoC: amd: acp: SoundWire machine drive
 76a8fe25b97881223976363044924d5cf0511749 ASoC: adau1977-i2c: add OF match table for I2C
 940e8fe8535d22ce67dd2fb9588e6c55a31d7d03 ASoC: adau1977: small fixes to make the driver more usable
 546b928da0427b0d6c663cbb992bd7bfa9ac7971 Merge tag 'asoc-fix-v7.3-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-859e40055c19ceb8b8215f3269e57075023b72b4 openvswitch: raise internal port TSO limit
 9ca4ba24259183ce15665be86b2956cd896c4687 net: macb: fix ordering around PTP timestamp read
 14cb1e7702e5cb3c58888f6aed498381a73927d2 net: mvpp2: prevent buffer overflow in page_pool allocation
 d798162eb364df2e77a56fdbe5bae54440152d3b dpll: reject a reference sync pin which is not on the pin's dpll
 f81e6c3fb06327bc49cdd6e559845293ba06a704 tcp: exclude old ACKs from tcp fast path
 d841cd7513f3d48018175ecb1fb972cfd3c3c10b selftests: net: packetdrill: test exclusion of old ACK from TCP fast path
 ad9c65b8f948f9ca00d065114d6cd7d281f53ec9 Merge branch 'tcp-exclude-old-acks-from-fast-path'
-546f109fdbbca75684f1041a1193cb910004a289 ipv6: make IPV6_FREEBIND and IPV6_TRANSPARENT setsockopt lockless
-b8a6f2340999bedd3b83ded2e909d855b6db1f41 selftests: net: add IPv4 and IPv6 address order check
 a5117e1eccac6ee3bd4aed7cacf8ebcb6b3eb309 net: skbuff: do not leave stale header offsets after pskb_carve()
-5ccdfb2c3203207deb17e7c5b0db8c7f475639a7 netlink: specs: fix duplicate if/then keys in netlink-raw schema
-26ee8cd69d46a14b37ba5e512084fe80d730127a net: qualcomm: rmnet: require CAP_NET_ADMIN in the real device netns for config ops
 4aec9ad1c668755b253bff4d95a9d82a17d2d434 Merge tag 'dma-mapping-7.3-2026-09-17' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
 2b0f561f21b27c40c91ea4975268a06092bd7e9c mptcp: avoid unneeded actions on subflow reset
 42064de57fb83231fcc89663a94885f228a1ee53 mptcp: close race between scheduler and state change
@@ -594,78 +589,26 @@ f3ef03357396d4b147d8e76c75fb612c2f264ffc mptcp: fix bad accounting in __mptcp_su
 f143ea21cf834b4d57d70b47b99e582461f2dfaf Merge tag 'pwrseq-fixes-for-v7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 4982d3552a3bf94de503acf93433277d08421de6 Merge tag 'sound-7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 b5a051f6b840d48f159166ef073d3021989bfb50 Merge tag 'net-7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-f2b5c73c032bb03c48dce1072fc3edaf74c92402 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 c0078f4d8c8fcd8edfe8c53ffe77d48565c1957e mailmap: add entry for Wei Wang
-8050e0efd4cf6276605bc3cfa60ebd543896fecf netlink: specs: netdev: update doc for xsk tx-checksum and zc-max-segs
-aea70e81be7fed87892a499ad27fecf99a712d50 netkit: no longer rely on RTNL in netkit_fill_info()
 8e0b235bd918d06f54ba8fddd2c3ddc36ca59c15 eth: fbnic: Fix payload page pool error cleanup
 0a5f5d9e94dead312d32c366b917c64e552b72f7 net/sched: cls_u32: fix manual hash table handle IDR aliasing
 960ab631f3d8789586db71b9914b361059ddcb6e selftests/tc-testing: add u32 manual table handle IDR tests
-5117ce8c35d1645e9839bc892b5944556faddb1c net: phy: qca808x: accept the active-high LED polarity mode
-f1b4766d67bb2d496eb74b0ecfe0dc55a9ab03e0 net: phy: qca808x: keep an explicit active-high LED across the reset
-29f4b463718bb35744e44d292c90c37f2ad74949 Merge branch 'net-phy-qca808x-fix-the-active-high-led-polarity-mode'
-0fa13b71c3303cc5fbb75ae215ccf2dec7efe19a netlink: specs: nlctrl: fix the policy attribute numbering
-7c6a3f0a8433c850200bc2b706a581b4d0e2c540 netlink: specs: nlctrl: let getfamily take a family id
-5e591692375918ecc3fde9832760ef0a1003275e rust: net: netlink: Migrate to zerocopy's IntoBytes
 daf677c2c6449011ee695d55b48b5b2977a36f88 net: pcs: rzn1-miic: Fix config array initialization
-49969c37035bb6c22cd9d0b32a4e2bfa4b2c86fc docs: networking: radiotap: Fix bracket
-35a4b983c5112ab4ab1941b61104d789419a6b0d docs: ethtool: Fix bracket
 39c6580765dad6477fb2637f6f616e0d276aae65 octeontx2-af: use seq_file for rsrc_alloc debugfs
-a0afc297a048cc5c59fcb412bba38bd9a809eacd Documentation: net: dsa: Fix bracket
 d09e8f64653c93da5793c16be19330968f2a32e6 net/mlx5: devcom, Base component size on linked devices
 e1e29ada2b938b13ba689a06a8bd8604564da2b3 net/mlx5: SD, unload reps on shared FDB create error path
 bae23d1ae62092c7f0ec6d5f7e1be5d164822638 net/mlx5: LAG, reload IB reps of LAG master before the rest
 b73bcf7c1ffba42894bc9b5cc6fb76ce12a82523 Merge branch 'net-mlx5-sd-lag-and-devcom-stability-fixes'
-8181678a92f0143ad3dafcc2e811afa44ecb4fd6 net: stmmac: propagate PTP init failures in __stmmac_open() and stmmac_resume()
-6c53effab88df871c5196b4f026cdac6943283e2 devlink: fix the enum behind DEVLINK_ATTR_RELOAD_LIMITS
-b8ffb7e5b9a1b1ff27b2529b41573d0960df2968 netlink: specs: devlink: drop the stale port dump reply value
-6338e31e68551268fa65b5fb1f67eecb3b7a8e3c netlink: specs: devlink: describe DEVLINK_ATTR_NESTED_DEVLINK
-4ced66fc97bf7f979f76256ee04a180f65261b7e netlink: specs: devlink: complete the port function nest
-3ec610a6bb12bcd6f93e8c3eaf14ccbe68558bd4 devlink: generate the port function policy from the spec
-b1380f907cb0e02f12114a2d94a7e20a59fda723 netlink: specs: devlink: populate multi-attr attrs for region read and line card
-150079380e4b13c7ed0e738913937e375259172c netlink: specs: devlink: describe the netns id in the parent-dev nest
-826e2a736e333cb5a13461fa5098d692e84ccea8 netlink: specs: devlink: add pad to the subsets carrying padded u64s
-2a22788ba265881eb048f224534b7556815026de devlink: validate the port index in the rate set request
-8b853476197ff9c6a970419ff3f3f15c940df6ea Merge branch 'devlink-netlink-spec-fixes'
 2ec28c09b320ba241bea8a70ee5cb9ccf4a099e8 vsock: ignore empty child namespace mode writes
 651010592bdce7005c1179498327e51bfc4fe1a5 net: txgbe: fix FDIR filter restore for VF rules
 46bc52d13594848023e681860df8700c8db14354 ipv4: fib: fix data-race and stale genid check around nh->nh_saddr
-4bb9710c6a68d35207f123aef55dcd50e7195ec5 tipc: replace deprecated strcpy with strscpy in tipc_bearer_get_name()
-9475c1d20e12ec5df491078291bef58ef28f52b5 DO-NOT-MERGE: git markup: net
-027f8d381c0ad3e2b47a5b0e14bffe81f960da5b DO-NOT-MERGE: git markup: fixes other trees
-c36d64ca7993627961481d900787b55389129b51 DO-NOT-MERGE: git markup: fixes net
-99ecb7ff35b2d9a3532473ab83d7d3f0c627b3f4 DO-NOT-MERGE: mptcp: add CI support
-bd89a9fbd228d62783f46eb83fbb9f10f7eaaa8d DO-NOT-MERGE: git markup: end common net net-next
-3bdd0e388f8207d63254c49442fa0151f1f8135c TopGit-driven merge of branches:
-4d0d49f00ad070a7b60e99e691c2d47c983ffcde DO-NOT-MERGE: git markup: net-next
-808208e8886ef5e9e9608295c8c39509e2aac4b0 DO-NOT-MERGE: git markup: fixes net-next
-fcc62a297777cccbcdb8e87feaf284a52ca062d3 mptcp: pm: init and release mptcp_pm_ops
-238823a1322a42b684825e9477d0cd88ae1a2ff4 mptcp: pm: add get_local_id() interface
-c5c648a7fb4f77c6e12450574d286f2b1dcfa64a mptcp: pm: add get_priority() interface
-5d3fcb0eda207ef4689f4cb163bdeb64fb96e1fa mptcp: support MSG_ERRQUEUE on the parent socket
-30bc90442e82eb2039b0a448313a534637bca3c3 mptcp: sockopt: factor inet_flags propagation into a mask
-3614fbbf7b6304900bd9ad3fc1decd1b6c25e22b mptcp: propagate RECVERR sockopts to subflows
-f197517b64ebc88045d20d2b6ed6a87ea064aba6 selftests: mptcp: cover IP_RECVERR sockopt propagation
-ad5d51973b9107d1869e92bab3843ed00edc1463 mptcp: remove thmac from subflow ctx
-eda0a8720074066c69fbff8030742e4d06dad3ff mptcp: split FASTCLOSE key from rcvr_key
-4cbf2cabf128797c12612724ffecd526eb10b316 mptcp: shrink struct mptcp_options_received
-2d78e2053fe5c1c04be8a38216fdaeacf68643fd selftests: mptcp: convert iptables to nftables for mptcp_sockopt.sh
-51641365fc5feb24ab48b630191a16074849ee99 selftests: mptcp: convert iptables to nftables for mptcp_join.sh
-045341fadda8504dd7fc6c65a031987c3b9ea805 DO-NOT-MERGE: git markup: features net-next
-5144396ab79542d7ee276b194ded318179cb2371 DO-NOT-MERGE: git markup: features net-next-next
-9f662411dff69ec5c8d2c5513a92255e371e07f0 bpf: Add mptcp_subflow bpf_iter
-76c65be8081946e60614aec7d1d9148ce01cfaf8 selftests/bpf: More endpoints for endpoint_init
-9b56909958add582bdc8bae95b934b23342da631 selftests/bpf: Drop cgroup_fd of run_mptcpify
-199908433862274b9e261a346eabb371f4a99d7b bpf: Add mptcp packet scheduler struct_ops
-adf3035fcd1e8f6f8d811e1a9b4cf24939ab5225 bpf: Export mptcp packet scheduler helpers
-75f76d38cd44e3727b6b8ea4467d01aac51eabca selftests/bpf: Add bpf scheduler test
-d0d2f7cb836ffaf1f972000a4022629b63916ea3 selftests/bpf: Add bpf_first scheduler & test
-a2de8c8b3ef44890b23dfc878ac41cbc25955913 selftests/bpf: Add bpf_bkup scheduler & test
-1269ca351e1dcf6b20bf7d766889f56832ee00c4 selftests/bpf: Add bpf_rr scheduler & test
-1a8cfcb549b99578641287a9d1be12c2b49b3cdc selftests/bpf: Add bpf_red scheduler & test
-14089fad9fc3c1399617d88afb82d22b0da25676 selftests/bpf: Add bpf_burst scheduler & test
-bcdbe6cbe0664ec28aadd98e2521f5939bec0f2d DO-NOT-MERGE: git markup: features other trees
-577c4ba083ad46d986e09fd1b40400cb2a1cc9cc DO-NOT-MERGE: mptcp: improve code coverage for CI
-ccc3c85911e32abff7e720251833cfdc3827cf84 DO-NOT-MERGE: mptcp: enabled by default
+f987f8bcdc15d8acc8fad05d02d686886f4c2cbc DO-NOT-MERGE: git markup: net
+d4d4cb4eae0d8e85fbb588ea748e23fdd9feb930 DO-NOT-MERGE: git markup: fixes other trees
+cb0c4d58b9f7e70e9f316a6f42b68b1b4ad2871e DO-NOT-MERGE: git markup: fixes net
+7063f4a7a34cd45edee8077846ac294d6213365f DO-NOT-MERGE: mptcp: add CI support
+e913878cbf80069d0b195550047cacb01f000c04 DO-NOT-MERGE: git markup: end common net net-next
+8a52df0c04387457de55a221ab6cfd45d6653c56 DO-NOT-MERGE: git markup: fixes net only
+32f9db12f17fdb6c9ddde5c200c1a242328758d3 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+9f6e359bc4d810a25dcc14084811faa0d3c2e7dc DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============6198945554481230603==--
+--===============5436697511157919231==--
