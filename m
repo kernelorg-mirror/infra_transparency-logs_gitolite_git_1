@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Fri, 18 Sep 2026 01:27:17 -0000
-Message-Id: <178969483761.1088937.9530952402919805984@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 18 Sep 2026 01:29:41 -0000
+Message-Id: <178969498125.1090110.13469311436853152956@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/kbuild-next-speedups
-    old: 0000000000000000000000000000000000000000
-    new: f0cf019e0de13fdf7dbdf21c6c114614d04075ad
+  - ref: refs/heads/experimental
+    old: 1c230a485f25837cb51d6fc79332f30758d9006c
+    new: 50c29ee8d0f88fcec28d492d01eb7ca8715f5961
+    log: |
+         0a361426499e654b42abe9ab3545f35313ead041 erofs-utils: fsck: fix hole handling during extraction
+         7ff508448436f677068f249c1746bead7a3a300c erofs-utils: mkfs: validate chunksize before computing chunkbits
+         384db30badf96db2bb50bedc48ced743e7908509 erofs-utils: lib: fix rebuilding empty chunk-based files
+         50c29ee8d0f88fcec28d492d01eb7ca8715f5961 erofs-utils: fsck: avoid truncating lseek() return values
+         
