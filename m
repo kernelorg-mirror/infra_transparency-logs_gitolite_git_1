@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Fri, 18 Sep 2026 20:48:08 -0000
-Message-Id: <178976448884.2062381.12874549813223561909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 18 Sep 2026 20:52:06 -0000
+Message-Id: <178976472664.2066265.15851354204143590491@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: oupton
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/tags/kvmarm-fixes-7.3-1
-    old: 0000000000000000000000000000000000000000
-    new: 98f10a401dc118b3f6e8021fe74c15bace795568
+  - ref: refs/heads/pending
+    old: a2c258263537e3a78d83c5d4b174314c64b2daa4
+    new: aadf351b717b6b03fccc7b1a584d2e03d89aa0fc
+    log: |
+         aadf351b717b6b03fccc7b1a584d2e03d89aa0fc wifi: ath9k: reject short WMI command responses
+         
