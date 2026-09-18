@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Fri, 18 Sep 2026 17:12:43 -0000
-Message-Id: <178975156399.1902441.3316370530752717180@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Fri, 18 Sep 2026 17:14:53 -0000
+Message-Id: <178975169359.1903231.441752153318303707@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/master
-    old: c67833ce2ff8760d914ba6e3bce4c0170fafcf4f
-    new: 084d21fe4708c1af7532f78f18a29f808474832a
+  - ref: refs/heads/icc-next
+    old: 37cb5b498362f130ca08cce4e8b24228921e113a
+    new: f1d6d76b01f302ee67e262a3ea81a3c4dabe7e99
     log: |
-         12fc9c791485fb1bcf7a7ea7248583400870effc doc/qualification: Add ASCS PICS file
-         92f13ea19b67bc7d6905ea559132303bff6a9f26 doc/qualification: add ASCS PTS tests documentation
-         11bf67364e554be735241d4794d40d0d68be4865 shared/bap: Skip local metadata Config callbacks
-         72a5ce497f34b2e5f1e8e8d831d7f7e5a5ec403b client: Pass unicast preset metadata to config
-         084d21fe4708c1af7532f78f18a29f808474832a test-functional: Cover BAP metadata reconfiguration
+         766856d2274bc768f78225f54991038151b1398f dt-bindings: interconnect: OSM L3: Document Milos OSM L3 compatible
+         041e725a102fbf3a4e484e28abe66575bc515888 Merge branch 'icc-milos' into icc-next
+         07bf225c62c00b9b934b9125e78e2208b961d9c3 Merge branch 'icc-rpm' into icc-next
+         d90166e3be3661e342e5927a87ef7110c4b35a11 Merge branch 'icc-misc' into icc-next
+         f1d6d76b01f302ee67e262a3ea81a3c4dabe7e99 Merge branch 'icc-fixes' into icc-next
          
