@@ -1,59 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============7604454024288709600=="
+Content-Type: multipart/mixed; boundary="===============0950057785337540500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 18 Sep 2026 09:59:05 -0000
-Message-Id: <178972554529.1555616.11986215281579366047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 18 Sep 2026 10:02:54 -0000
+Message-Id: <178972577498.1559056.3031904699778092937@gitolite.kernel.org>
 
---===============7604454024288709600==
+--===============0950057785337540500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-next
-    old: 0e5a521109e0d2fb7ac226bd6301ec1facca1c26
-    new: 3ffac96bf1c54d6db2a99a41209202de1f2400e9
-    log: revlist-0e5a521109e0-3ffac96bf1c5.txt
+  - ref: refs/heads/master
+    old: 61e0e2ee5b4c0ad3bff699e85d1d239b37461246
+    new: 45c99440bffe48758881deada2002b0eb522ac32
+    log: revlist-61e0e2ee5b4c-45c99440bffe.txt
+  - ref: refs/heads/tip/urgent
+    old: ba02763b94a14b357be91cc49107c9e8e4ed0763
+    new: 631819661b396875370f82c33253e46d6a7317d4
+    log: |
+         25283f10871b1dfc6107fe33c06d0ee33c9678f2 Merge branch into tip/master: 'locking/urgent'
+         caa02a7d359e69b6cdd8bb9beb0c778a8037309a Merge branch into tip/master: 'perf/urgent'
+         644765fde4287214bc4094de8fa18e453be452c0 Merge branch into tip/master: 'timers/urgent'
+         5a50ef63f03afd3b3b3c20044ee7f98c66785015 Merge branch into tip/master: 'x86/urgent'
+         631819661b396875370f82c33253e46d6a7317d4 Merge branch into tip/master: 'x86/mm'
+         
 
---===============7604454024288709600==
+--===============0950057785337540500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e5a521109e0-3ffac96bf1c5.txt
+Content-Disposition: attachment; filename=revlist-61e0e2ee5b4c-45c99440bffe.txt
 
-e419e9a6cbfe1d0947dd5ab8dabe9a5ed4b4f572 ASoC: SOF: amd: return -EINVAL for unknown PCI revision in acp7x suspend
-db2167f2e3f72db64d01356cc9f2924d32fd5a51 ASoC: SOF: amd: fix amd_sof_acp_remove() teardown ordering
-b6aaef8ca8c305170de83e621c7e16d56731312a ASoC: SOF: amd: fix amd_sof_acp_probe() error unwind ordering
-203ea76c4b0a84f0c70e0ab27503a29f77e0a471 ASoC: SOF: amd: add ACP7.B/7.F PDM controller scan and pdata propagation
-59c03f40a53e697d9f29359fbf39834a7e15cc5b ASoC: SOF: amd: update SoundWire specific acp descriptor fields for ACP7.B/7.F
-612684a9d2afd1a49017282b2666fb919dbc4f4c ASoC: SOF: amd: enable SoundWire build for ACP7.B/7.F
-750176135630f1eda6e946ecb4155c2b7afa199b ASoC: SOF: amd: wire SoundWire probe and remove into ACP7.B/7.F paths
-db294afbd61aabd857fce39372a1bd1c8b173441 ASoC: SOF: amd: add ACP7.B/7.F clock-stop detection in check_acp_sdw_enable_status
-c9b000c028792c313861b123c508b3dc7f7114ab ASoC: SOF: amd: add ACP7.B/7.F SoundWire IO IRQ handling
-b99242b8d4b34a95f844e5b9e6e02a98fcaddc0d ASoC: SOF: amd: enable SoundWire host wake interrupt in acp_init
-be2823854e00558f46f5bbb124bb3f3a3bb9a94a ASoC: SOF: amd: add SoundWire PM ops for ACP7.B/7.F
-b58852c47ee1ed6280125ad7fa2c558f4ccb48d5 ASoC: SOF: amd: SoundWire and PDM support and fixes for ACP7.B/7.F
-5a3c23d4aa89cdb7a3f2a42465c2cabcb71ebcdd ASoC: mediatek: mt8189: Propagate APLL enable errors
-bd9a8d9def207a8d7eeaa4dda1c53c5b4fca4008 ASoC: mediatek: mt8189: Propagate MCK enable errors
-b6b47040e897f18df1ed53c658ab5159b035b5d1 ASoC: mediatek: mt8189: Validate MCK ID
-29de6666879997c9dc375344fd046363d0c3bcdb ASoC: mediatek: mt8189: Propagate reg_rw clock errors
-ea8c96a05da7b7ba6234a225209ac0c2dcc57e41 ASoC: mediatek: mt8189: Use dev_err_probe() for clock errors
-483e827b005f122755785a3b6094e2bc19eb7685 ASoC: mediatek: mt8189: Propagate runtime resume errors
-e9e9e514eeef7a5c6121ece355f8ea2701e1613f ASoC: mediatek: mt8189: Remove redundant error message
-6347f276da8c6c3e6e8262b30b9cd14dfbc48248 ASoC: mediatek: mt8189: Propagate APLL errors
-65b9d4a783cc266d057a64c1f04f690e9abb1bd3 ASoC: mediatek: mt8189: Propagate MCLK errors
-9c73b5a43c99f905ebeab4744a8ba0b28232b189 ASoC: mediatek: mt8189: Validate sysclk frequency
-242d0280eabba05c085a51ad0a9c9a7a3afa7b03 ASoC: mediatek: mt8189: Propagate TDM clock errors
-197ec30e1b608ade5d2eb9271d01c59480a6f9a1 ASoC: mediatek: mt8189: Validate TDM MCLK frequency
-36929e623f9af0b23c2dc70856af93ab0212d8bf ASoC: mediatek: mt8189: Improve error handling
-d5212d2d50f36a132568534ca637b56ae50f3f02 ASoC: ak4619: Add suspend and resume callbacks
-a603fe4e000366d187849667c9afb38da5259632 ASoC: fix typos in comments
-ebdc596c42626d1a6dcbc7cd7ad3f842b2cb2c70 ASoC: fsl: mpc5200: gate AC97 driver on PPC_MPC52xx
-3ffac96bf1c54d6db2a99a41209202de1f2400e9 Merge remote-tracking branch 'asoc/for-7.4' into asoc-next
+25283f10871b1dfc6107fe33c06d0ee33c9678f2 Merge branch into tip/master: 'locking/urgent'
+caa02a7d359e69b6cdd8bb9beb0c778a8037309a Merge branch into tip/master: 'perf/urgent'
+644765fde4287214bc4094de8fa18e453be452c0 Merge branch into tip/master: 'timers/urgent'
+5a50ef63f03afd3b3b3c20044ee7f98c66785015 Merge branch into tip/master: 'x86/urgent'
+631819661b396875370f82c33253e46d6a7317d4 Merge branch into tip/master: 'x86/mm'
+b10347089ee8b0f345015c61778fecf7fa6cfb9e Merge branch into tip/master: 'irq/core'
+93a88ee0d6616ea8c8d0f1f7d7ea51c994ede984 Merge branch into tip/master: 'irq/drivers'
+5fcbae3c1216cdf047b31a50e7acbe397d59a8d9 Merge branch into tip/master: 'perf/core'
+c77221e737597d93713a194726dda58f7cdac218 Merge branch into tip/master: 'sched/core'
+47dd707a000b4d45f54d0816fbee7c96ed24dbda Merge branch into tip/master: 'timers/core'
+2a8ae8070ebfbf79e4b4304d13bd04e622024543 Merge branch into tip/master: 'x86/boot'
+1b64140f60f499ad91ec6c7ab1b3207dd49f98bf Merge branch into tip/master: 'x86/bugs'
+b308ea5cf9fb04a34935c862bf4354f0a54592e3 Merge branch into tip/master: 'x86/cache'
+4e20bf2a883fd87be59ec5a9476fcdd8fcd4de2d Merge branch into tip/master: 'x86/cleanups'
+353556dbb58c0b5e05aa5488e84b6d2b14d4a6db Merge branch into tip/master: 'x86/cpu'
+5bdae3b93bf70b152cf06d321e85d13407278114 Merge branch into tip/master: 'x86/kdump'
+598975fd502217e1114b90a01b9d5fbeaa6dceca Merge branch into tip/master: 'x86/misc'
+7cc660cb2baf40fe8493e68fb92487427c82f7b4 Merge branch into tip/master: 'x86/platform'
+fcaa87cab08ed0bcd1f061b28777fa5142760464 Merge branch into tip/master: 'x86/sgx'
+45c99440bffe48758881deada2002b0eb522ac32 Merge branch into tip/master: 'x86/tdx'
 
---===============7604454024288709600==--
+--===============0950057785337540500==--
