@@ -1,70 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============3226090103602222688=="
+Content-Type: multipart/mixed; boundary="===============8527019880533811932=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Fri, 18 Sep 2026 10:42:39 -0000
-Message-Id: <178972815994.1591693.16401962566921137000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Fri, 18 Sep 2026 10:47:13 -0000
+Message-Id: <178972843358.1595427.970848783914108690@gitolite.kernel.org>
 
---===============3226090103602222688==
+--===============8527019880533811932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/for-next
-    old: ce389b924bcc71a729014fce496d8fb3918dbc5e
-    new: 20cf9f22822756bcfdbdb198e8123a00e4b659ab
-    log: |
-         1a672a79f917c9d5322b42f30efe27e1679c1612 dt-bindings: arm: samsung: Add compatible for Samsung Galaxy A21s (SM-A217F)
-         3836879a69ffe2b06ddbbb1cd0a98928a1ef6dd1 arm64: dts: exynos: Add initial support for Samsung Galaxy A21s (SM-A217F)
-         b940eb8b2153130a960f9d9da63f27b5001d17f3 arm64: dts: exynos5433: Re-order nodes to match coding style
-         1b1dae647d7395a524dad2a0135bbb07a2b2d519 arm64: dts: exynos5433: Re-order properties to match coding style
-         20cf9f22822756bcfdbdb198e8123a00e4b659ab Merge branch 'next/dt64' into for-next
-         
-  - ref: refs/heads/next/dt64
-    old: 6b68ca6fe0c855971b6dfefcbb287cc530f4774d
-    new: 1b1dae647d7395a524dad2a0135bbb07a2b2d519
-    log: |
-         1a672a79f917c9d5322b42f30efe27e1679c1612 dt-bindings: arm: samsung: Add compatible for Samsung Galaxy A21s (SM-A217F)
-         3836879a69ffe2b06ddbbb1cd0a98928a1ef6dd1 arm64: dts: exynos: Add initial support for Samsung Galaxy A21s (SM-A217F)
-         b940eb8b2153130a960f9d9da63f27b5001d17f3 arm64: dts: exynos5433: Re-order nodes to match coding style
-         1b1dae647d7395a524dad2a0135bbb07a2b2d519 arm64: dts: exynos5433: Re-order properties to match coding style
-         
+  - ref: refs/heads/icc-next
+    old: 7ae6fbdd9651729c5f61499061adbf3eae1684a1
+    new: d883e6777799456aa6a660b8043be2130f4b0b34
+    log: revlist-7ae6fbdd9651-d883e6777799.txt
 
---===============3226090103602222688==
+--===============8527019880533811932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7ae6fbdd9651-d883e6777799.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1789728158 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1789728156-1e6539090831a66e4413481222ba746e1f97b8a9
+51797517fab74cba616b4932cbc2348c0fc04192 interconnect: qcom: Move bcm_div() to common code
+40ea86fa389cf7fbc2280bebef353c36b1ec9b94 interconnect: qcom: icc-rpm: Don't skip small votes
+353627aad099061b72c26e3fc04122f392361efd interconnect: qcom: icc-rpm: Handle icc_link_create() failures
+af505c809c221110498bb7af263c5ab85e4460f4 interconnect: qcom: icc-rpm: Program SMD RPM auxiliary QoS ports
+aaca13afe6157602d168b7d0e1271b2fc4f71bbb interconnect: qcom: msm8996: Configure auxiliary Venus QoS port
+b38bb491923f76b8c1b04dea8d9ef6f601c0a592 interconnect: qcom: msm8976: Configure auxiliary GPU QoS port
+4600051f61cd6db2dd479e9994ce912afe892998 interconnect: qcom: use 64-bit SMD RPM bus votes
+77cac270e34c5f013074ff5a03dea39209df6737 interconnect: Add kernel-doc for devm_of_icc_get(), icc_enable() and icc_disable()
+2cc67425a97eead2e3248b6d5415c13b768ec295 Revert "interconnect: qcom: x1e80100: enable QoS configuration"
+65ec39aad4659acaee136518c4f427a55c933c65 Merge branch 'icc-kuno' into icc-next
+b53c988c1ee36af225614a15e7f8d714a43d59ea Merge branch 'icc-rpm' into icc-next
+601a54f00723b0b653d76caf26a2a78482d95f00 interconnect: exynos: Remove the PM QoS request on unbind
+11a44c6087c64087c99d5d90313473eceb51296c interconnect: qcom: implement get_bw with rpmh_read
+06dc13f681e81c1a21860983a208a8b84a330790 Merge branch 'icc-misc' into icc-next
+d883e6777799456aa6a660b8043be2130f4b0b34 Merge branch 'icc-fixes' into icc-next
 
-ce389b924bcc71a729014fce496d8fb3918dbc5e 20cf9f22822756bcfdbdb198e8123a00e4b659ab refs/heads/for-next
-6b68ca6fe0c855971b6dfefcbb287cc530f4774d 1b1dae647d7395a524dad2a0135bbb07a2b2d519 refs/heads/next/dt64
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmqtFZ4QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1z41D/9qVBURB8c7uQb0rqR0WUJiNNo+n6HWlXZ0
-jmUq6DyBKPaiI/tMnV3UyGhIxboUGzaUsH+csHkitsGzItRpsUhGx6mzFNxmmMjc
-P8rNbsGGwItITO3GVuermOy+ghiJn1A7tNTliWx7Cp+7qKULX3S0svrbJjaxwqf3
-e3ifldHxcZRHg+h/0yW25n2Xn+6f79QsKRtifm9eqpUtBTExd85k8xAX9BViO5sD
-gVqNX4c4WNS1PbVTVscUVDwQmiguEXEeeGwiwHtNza0zf3DiAb1IHnibmE7Xe7Pj
-rdP+6dvp99CWwjQP6I3qq5Vkr/7eukcYZUNHaLuxFmSiD2EsTi6Z+PZ5NxfdDyUX
-/0Wib0ww8F7LIfdPR0GBMny9m4G6Ooq60y57H/e+ne8+OfhlZc/CgoSG3SjKxWpw
-/KtbxLa1iHk/Hs3VKGL3kQDzrtZEL/bYZHyz4DxGckn3VvRO+fvPwl2viE5aWPLG
-2KjsFurkNwnNeZjc2qH86ES1cTebVQjanoCGP1CigK2RXpc/FG0ur4szeLOQyRx/
-WXJMe6k0ZfN55MlKX0yyg6Opikko6aJUJet8MyQ8WH7Df4n+P0CESVkCu8Rp97MF
-c8MP+8w9kOHBsR4Go2kO7d9WIHOr3Fe5QOpoWQp0DA3gktrdXtvQGRnYITj1/1ej
-xTWi2DiUPA==
-=VKSg
------END PGP SIGNATURE-----
-
---===============3226090103602222688==--
+--===============8527019880533811932==--
