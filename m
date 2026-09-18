@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 18 Sep 2026 20:20:56 -0000
-Message-Id: <178976285661.2042970.7797525464980240567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 18 Sep 2026 20:33:28 -0000
+Message-Id: <178976360890.2051047.8301700642841350890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-linus
-    old: d58384c22739848efe14b34e9586e4f1242f33c0
-    new: 8805840aad73df7146778be243a196d48b4f6430
+  - ref: refs/heads/pending
+    old: 7d248cdd4caf67762256c249a3839b2f81ff334b
+    new: a2c258263537e3a78d83c5d4b174314c64b2daa4
     log: |
-         8805840aad73df7146778be243a196d48b4f6430 PCI: of_property: Omit bus properties without a subordinate bus
+         a2c258263537e3a78d83c5d4b174314c64b2daa4 wifi: ath9k: Clean up device initialisation guards
          
