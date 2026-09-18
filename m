@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 18 Sep 2026 21:04:03 -0000
-Message-Id: <178976544339.2074641.10035910247438593797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 18 Sep 2026 21:05:12 -0000
+Message-Id: <178976551276.2077043.6295657438695781402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-7.4
-    old: 195bbe5e1c29aa1349655a6162958149c1176034
-    new: e0d673e5a5c4084f0da90c06ed3b0bc45e47d679
+    old: ca01ebd9e2ed0ea7ed4a068bcd666b0f394581ac
+    new: 648e3c436032b675b339662ea9c0edd9221add76
     log: |
-         b53a09c957b682ce1d1f8e94a362c4466b6b74f6 regulator: axp20x: Remove const from new_desc allocation types
-         e0d673e5a5c4084f0da90c06ed3b0bc45e47d679 regulator: rt6190: Fix runtime PM imbalance in rt6190_out_enable()
+         648e3c436032b675b339662ea9c0edd9221add76 spi: mxic: fix ps_clk leak in runtime resume
          
