@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 18 Sep 2026 00:32:28 -0000
-Message-Id: <178969154823.1039270.7233465895049194062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 18 Sep 2026 00:38:08 -0000
+Message-Id: <178969188873.1043224.8472668417770820538@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: c3e6274180c6ee71335f065f9d1050b3db315ed7
-    new: 547773565fba4902fc23f433433430ad1e0fc579
+  - ref: refs/heads/x86/urgent
+    old: 27600805e62f800bacf990354632eae4e487d34c
+    new: e7d3e2f46dd5a69046e6d95a0f189155a5516b93
     log: |
-         b71a6eb50cc09be6a7f639ce7fe4acd528531640 foo
-         93804fbe0fb8c54b6498f2b58a545131fb731e03 foo
-         547773565fba4902fc23f433433430ad1e0fc579 foo
+         e7d3e2f46dd5a69046e6d95a0f189155a5516b93 x86/microcode/intel: Reject problematic loading on Granite Rapids systems
          
