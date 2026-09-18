@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 18 Sep 2026 19:52:56 -0000
-Message-Id: <178976117650.2023334.7940980989039436020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 18 Sep 2026 20:20:56 -0000
+Message-Id: <178976285661.2042970.7797525464980240567@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 55c5ca9571e3208ab7398870b36d9038b2a1ef8d
-    new: e21cf8191da562cb017154cfef541583ff84fe25
+  - ref: refs/heads/for-linus
+    old: d58384c22739848efe14b34e9586e4f1242f33c0
+    new: 8805840aad73df7146778be243a196d48b4f6430
     log: |
-         f45bee42a611434aac673663232a6b409c159a27 foo
-         e21cf8191da562cb017154cfef541583ff84fe25 foo
+         8805840aad73df7146778be243a196d48b4f6430 PCI: of_property: Omit bus properties without a subordinate bus
          
