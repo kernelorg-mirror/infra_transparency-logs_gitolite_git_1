@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 18 Sep 2026 15:00:10 -0000
-Message-Id: <178974361017.1794308.2405083374011379078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 18 Sep 2026 15:08:40 -0000
+Message-Id: <178974412086.1800621.5686981357425147163@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/main
-    old: e995d8e4b59b4f98f69bc60b0d6c897e7b7b9ab4
-    new: 006bfb67dbf9b64e63468962772c32c781b8b8a7
+  - ref: refs/heads/hwmon-next
+    old: 29e2ca9dd4e6b03a306892afd207a87041540491
+    new: 5e7cede70ad4d0a156dbb99d8c67037733828fe9
     log: |
-         8fe920c980c35bf4d75a80afc1ba38c7309dbbdb ath11k: WCN6855 hw2.0: update board-2.bin
-         006bfb67dbf9b64e63468962772c32c781b8b8a7 Merge branch 'robot/pr-0-1789741422' into 'main'
+         d994dc8851c8a3dcbcfbdbdc7ecc342e54887fa9 hwmon: asus_wmi_sensors: Fix info[] allocation type
+         a2a2ef027301ca7c054dd065adf60b99ac3cb907 hwmon: pwm-fan: Add const to channels allocation type
+         075ae0dfb59c1d55ad1eba1f1ce660440d929311 hwmon: scmi: Fix info[] allocation type
+         5e7cede70ad4d0a156dbb99d8c67037733828fe9 hwmon: hp-wmi-sensors: Fix info_map[] allocation type
          
