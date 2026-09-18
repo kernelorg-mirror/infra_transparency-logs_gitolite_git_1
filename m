@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 18 Sep 2026 10:24:45 -0000
-Message-Id: <178972708521.1576260.6840381163742332924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
+Date: Fri, 18 Sep 2026 10:30:32 -0000
+Message-Id: <178972743226.1582351.6188666393899858397@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/zx2c4/cgit
+user: zx2c4
 changes:
-  - ref: refs/heads/sched/core
-    old: ae8aa2a67de0e1d4fd36ae50dd8652e8d30d29cd
-    new: d33e1908935713542932350345ed97163b81a283
+  - ref: refs/heads/jd/zx2c4-deployment
+    old: 9ac1bcdf7160b6b687e0603fda9967f4dee405d0
+    new: ca62f72b0f47fb8dc22dbe9bc3f37c623192e1e9
     log: |
-         e81ee06308379a5f2ededf997bcf17551bce5db7 sched/fair: Reset NUMA fault locality after scan period update
-         3f88a7957c6a580720a8552bf8ef5926ee1a4901 sched: Restart fair hrtick after same-task repicks
-         b2629e119c7824c1fcac042025ac90ee7a40e18a sched/fair: Remove dead code on enqueue_task_fair()
-         d33e1908935713542932350345ed97163b81a283 sched/core: Remove redundant core_sched_seq
+         2e40a36b56f26593fe8fab4f07ed831395d5f0d2 css: Support for dark mode
+         e5e90bebb589db9eb2db9ea083df4f17e8dcba11 ZX2C4 specific patches.
+         5d2b5d07efbc31f9d04c1058770221c2d92dfe6e Steal kernel.org's libravatar lua.
+         f9506dfe7f21023728e241a31f310b0c717d66f0 css: switch monospace fonts
+         2683435ed07db0cce7ecf99391c4ac87592e3077 html: double escape literal + in URLs
+         ca62f72b0f47fb8dc22dbe9bc3f37c623192e1e9 filters: add syntax-highlighting.js
          
