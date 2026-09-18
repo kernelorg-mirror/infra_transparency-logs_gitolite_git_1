@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6425015740423058965=="
+Content-Type: multipart/mixed; boundary="===============4050701043309093130=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 18 Sep 2026 16:25:30 -0000
-Message-Id: <178974873025.1865158.3040058669018513255@gitolite.kernel.org>
+Date: Fri, 18 Sep 2026 16:25:33 -0000
+Message-Id: <178974873338.1865373.2806878138293957289@gitolite.kernel.org>
 
---===============6425015740423058965==
+--===============4050701043309093130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 26ee8cd69d46a14b37ba5e512084fe80d730127a
     new: 4bb9710c6a68d35207f123aef55dcd50e7195ec5
     log: revlist-26ee8cd69d46-4bb9710c6a68.txt
 
---===============6425015740423058965==
+--===============4050701043309093130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -775,4 +775,4 @@ b1380f907cb0e02f12114a2d94a7e20a59fda723 netlink: specs: devlink: populate multi
 8b853476197ff9c6a970419ff3f3f15c940df6ea Merge branch 'devlink-netlink-spec-fixes'
 4bb9710c6a68d35207f123aef55dcd50e7195ec5 tipc: replace deprecated strcpy with strscpy in tipc_bearer_get_name()
 
---===============6425015740423058965==--
+--===============4050701043309093130==--
