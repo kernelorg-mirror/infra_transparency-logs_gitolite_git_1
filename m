@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 18 Sep 2026 22:47:55 -0000
-Message-Id: <178977167563.2156162.16257979789630337393@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 18 Sep 2026 22:55:08 -0000
+Message-Id: <178977210897.2162418.10756599129670794081@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 4a6764900678c92dc5fa17d59082698ef44260f8
-    new: 56f83557eb189ee6bfebdc6acd8655f938ebb318
+    old: b52be4ae2a19144881ad4c8770721ecf7cf8d1c9
+    new: 96ebe7f871a4ca9c1d76ece0200b4f43e4584c51
     log: |
-         c863bf6a7d7dab8cd9e36b1842c7e58b63bccfdb net: rmnet: annotate data-races around port->data_format
-         0067187dbe15ca963f671fc009801a80939d6c41 net: rmnet: annotate data-races around mux_id
-         d7c9ba103b06eee4a65a686c1d947e68addab390 net: rmnet: no longer rely on RTNL in rmnet_fill_info()
-         56f83557eb189ee6bfebdc6acd8655f938ebb318 Merge branch 'net-rmnet-lockless-rmnet_fill_info'
+         0a5565a4a8881d95c55399ae6f95fb0ce3ceec75 Revert "amdgpu: update GC 11.0.0 firmware"
+         9a7c283fa0037c4db360214192d57aab1272d403 Revert "amdgpu: update GC 11.0.0 firmware"
+         96ebe7f871a4ca9c1d76ece0200b4f43e4584c51 Merge branch 'robot/pr-0-1789771762' into 'main'
          
