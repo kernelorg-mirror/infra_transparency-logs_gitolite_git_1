@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 18 Sep 2026 14:50:48 -0000
-Message-Id: <178974304830.1787344.18061258131679748889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Fri, 18 Sep 2026 14:56:09 -0000
+Message-Id: <178974336978.1791221.12375453979189895629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/master
-    old: 43bf4cbbaf8fa3ca6aee87276efcca86c8e975ef
-    new: 9a4846e75418d90b29719c5de6d48c9e4c8eb9d3
+  - ref: refs/heads/begone
+    old: 4c81cc9f96a4a47a6c1b76685c4ac639ed255dcf
+    new: a0ff73a0331f05a181498430c35273813069b187
     log: |
-         abcc6d852ec49c8ad7bb35b1eddc3a9c9af99822 CVE-2026-90156: Add .vulnerable file
-         b3f21eaeb2100b94e18a4d4caa2a2c2a3938c40b CVE-2026-90168: Add .vulnerable file
-         9a4846e75418d90b29719c5de6d48c9e4c8eb9d3 CVE-2026-90227: Add .vulnerable file
+         a0ff73a0331f05a181498430c35273813069b187 drivers: Kconfig: Simplify dependencies on ARM64 && !CPU_BIG_ENDIAN
          
