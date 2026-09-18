@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0539719134468358601=="
+Content-Type: multipart/mixed; boundary="===============6518698335076003217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 18 Sep 2026 10:56:41 -0000
-Message-Id: <178972900123.1602961.680248196622758403@gitolite.kernel.org>
+Date: Fri, 18 Sep 2026 10:58:54 -0000
+Message-Id: <178972913410.1603956.10968612039352431841@gitolite.kernel.org>
 
---===============0539719134468358601==
+--===============6518698335076003217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 7198071826c4966c98f8655bb2c39f972a815bfa
-    new: d58dffe9ee2c8883193959ff4ef995ec07932874
+  - ref: refs/heads/usb-linus
+    old: ea31c6498c61307dc0d8ce338a7f268cb8cbdd57
+    new: abc36cbda29d8f19cf3a580cd86ca9e865186a41
     log: |
-         d58dffe9ee2c8883193959ff4ef995ec07932874 USB: core: amend usb_get_from_anchor() kernel-doc
+         d84e27d87738634b92001500435ae4dadba10a13 USB: serial: cp210x: add Corsair AX1500i Power Supply
+         afc235a217360c6859068d2e37a4df305c4d1be2 USB: serial: ssu100: fix baud rate overflow
+         ec06546b43b612cefc851558981b4955c0ef9e46 USB: serial: quatech2: fix baud rate overflow
+         abc36cbda29d8f19cf3a580cd86ca9e865186a41 Merge tag 'usb-serial-7.3-rc4' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
          
 
---===============0539719134468358601==
+--===============6518698335076003217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789728887 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1789729015 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1789729000-7f22148e683fa05371f23cf107a038a6553c3b27
+nonce 1789729128-4a4edfdf01015f8a59712dac4511563e69917317
 
-7198071826c4966c98f8655bb2c39f972a815bfa d58dffe9ee2c8883193959ff4ef995ec07932874 refs/heads/usb-next
+ea31c6498c61307dc0d8ce338a7f268cb8cbdd57 abc36cbda29d8f19cf3a580cd86ca9e865186a41 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqtGHcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ULkP/ivGM24b8yf+XBCwIig2
-YNFmbzUtRH2Tlp1vqG+dN5pLpjRnGuqoIlU2/Vfop7j5nF03wgdTmtTRuT9xtkNH
-72Rx0IP+/LrhHhkrFoKrA3ojnyZGokAcZdHB0P0lmqNJpqO12PBqxtyi16NycwXF
-T0xV0rouGRNp5vxjwrC1VjE2rjgTdgVEXrzRBqVAe7C56X/lj2jw0lbAJHdXPAdN
-uLh7fYf7JspSb6Ep5rc2kZSCOP7Pm6SUg5kmawAHb3iXGJNpLKbUZuAjkGqYKKgA
-P+fyxdEx42Bq3gcAsvFN07KYZsjRafwhYSP7NHQh6rwLjt2yK8VE6XpWckKj2G8C
-gI7Xk30zDlGePXLjx74Ma/LycGoafSJnmGHYXv1wtdf0ieXXRwjynxsyyhdBTjpz
-6dTH42E9kSWyM9H/24ljea45PZ/GZwBpqn5fzByQKrxEbiYYDcUfxaihZcXLbWpZ
-IhUqXs25hxz4ZM2b5qATx++QJE2KAQW9HYtUCAoS/KPnHYguK7El1zy7eeKOs9up
-Eo1YAhvNzmrqQdGancFRGSscw3+3LcFdxT3MV9DpjcZYLemz1ViA7sAxROHCn1n7
-xnLHv0P/hj+3VmIu+to8fMFWahpj9wk1EeI+wyidtQnZwuqOdZ6gTHGOZU2AD15h
-OWb6yplq+aqpnKE+deYs/30Y
-=lvOM
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqtGPcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KvsQAI1FOkRpkhWf0XT38Q/H
+xcScOK38KOqW/d6mDV1waMzndovLm/73k5IwBaS3CKO7VBDdSQOmyz5PIqmVvUJa
+fl2AJFOeUfpfxZl2akb4tG1RIz3IPSJzyO0+sUx3oS/jo6+2ISucePSHDhZYUB8Z
+T2mg4M+P9EXssu8MlRun7slipF8tyGDU0vTj+hpj1/ERle1vDwdLILfEjXXSLeLf
+Wcs87PBic48Oxdw1xsoJysd0/pswHcNILP276pJt1X7WNjQlM/qrYZPieumjMTES
+nwvuwEfP1LtE8SBHfxFaio+yACuIJr+/kE38S2Sch58CTu6KaDZaQr/swX2akuzj
+N8+qDxfXhipBQ2E5rYbJBpJAaqwRCOhlZ0hYxNdiw/SULM+9cBhYo3ruI+O8Aj9L
+ad2Ep8r2ajL5NKs+s4supYjuqb5ejnQ/B7XTrJEtlq1VpDFxMA8I/LnkXlaB+zOB
+EcGHiQuZOUY25Fc9pPCf15bpkEWAvXD8CAMM/F3BKnSFt8jyhkrB1dVv2zcGD/hZ
+wmTG3GupnA6uNRorWE27SIeGY4jX1IwCJ8NUlS8uaDrnJWwKPkPIzHbwfWqyfJH0
+wRt20p6zB2hRa0pkbfn1rwJuzDtnWv9yTZn0DLj/uNc5RyOSuBIkq0FP7SjoxNDD
+lhTD6wssxesZ+3GePXATMHPA
+=E4VM
 -----END PGP SIGNATURE-----
 
---===============0539719134468358601==--
+--===============6518698335076003217==--
