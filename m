@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 18 Sep 2026 16:30:09 -0000
-Message-Id: <178974900958.1869308.39642955609862256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
+Date: Fri, 18 Sep 2026 16:31:31 -0000
+Message-Id: <178974909124.1870145.3554730805691032398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
+user: linusw
 changes:
-  - ref: refs/heads/main
-    old: 006bfb67dbf9b64e63468962772c32c781b8b8a7
-    new: add9701c7d0c5032bf8db415a93c810543b6b1ea
+  - ref: refs/heads/b4/ab8500-charger-dt
+    old: 7679100f669c88dda6e4e970aa9c06ab3a40f6c4
+    new: 653f6da03fbb112af1cdb36e3ffcf5d1ddce7537
     log: |
-         a98a6daa9f4dee2f662cc8a48610287189b23499 intel: Update ibt-00a0-01a1-pci.ddc for BE211 - Whale Peak2 (WhP2)
-         add9701c7d0c5032bf8db415a93c810543b6b1ea Merge branch 'main' into 'main'
+         ca5056d210a3a187a77f60648dcd46c5e2b4fe15 power: supply: Correct AB8505 charger device tree
+         0874fc56f4b555589642516c9111b3ec4e7ac779 dt-bindings: power: supply: ab8500: Allow AB8505 interrupts
+         653f6da03fbb112af1cdb36e3ffcf5d1ddce7537 ARM: dts: ux500: Drop AB8505 main charger interrupts
          
