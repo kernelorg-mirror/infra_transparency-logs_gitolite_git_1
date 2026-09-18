@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 18 Sep 2026 12:39:06 -0000
-Message-Id: <178973514659.1683910.5857286782484045814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Fri, 18 Sep 2026 12:39:26 -0000
+Message-Id: <178973516605.1684275.13134550859325663295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/for-next
-    old: 3e1de7f906ab162b23d6fe0eabccf687a98fa25f
-    new: 653c5b4605f65355d3b3f1059784e56c77f146b3
+  - ref: refs/heads/master
+    old: b5a051f6b840d48f159166ef073d3021989bfb50
+    new: 5dd1818b15d98d4a20806cd00b1b40320b06004f
     log: |
-         a4368022a3ac5324356ae8d88e3a42d115956fd6 RDMA/rxe: Use validated num_sge in local buffer
-         f7d28791433d373ecdab7b00f60ddb504e858e0a RDMA/uverbs: Make CQ handle mandatory for WQ creation
-         8d946772ce6b33c7e55d5fb47ad4496360f92a94 RDMA/mlx5: Print err code when create_qp fails
-         6334cdf33fc3c47a8e90af8ea492ad0f75c6d51d RDMA/srpt: Fix srp_sq_size documentation
-         18922a5387b65d023737f6443919cec66755e64a MAINTAINERS: hand over MANA RDMA driver to Wei Hu
-         653c5b4605f65355d3b3f1059784e56c77f146b3 RDMA/hns: Fix the use of uninitialized variable
+         2725ab3f5ad1c5f375c7c9fee4af02a9b138f701 keys: fix lost wakeup when reaping a dead key type
+         0d6a4268b06084baafd8ee5d66955c7e1c2e053b keys: translate request_key_auth pid for the reading procfs instance
+         114f00d738f15dd8c7318369edcdc53dd6d08763 KEYS: trusted: Fix tpm2_load_cmd() boundary check
+         8697c431e297eb0d0ab13dda6bc172b48a34f05c KEYS: encrypted: fix integer overflow of datablob_len
+         5dd1818b15d98d4a20806cd00b1b40320b06004f Merge tag 'for-next-keys-v7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
          
