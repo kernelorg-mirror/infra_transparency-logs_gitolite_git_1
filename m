@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============1025940643762700205=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Fri, 18 Sep 2026 01:41:21 -0000
-Message-Id: <178969568158.1101593.16321146364631203689@gitolite.kernel.org>
-
---===============1025940643762700205==
-Content-Type: text/plain; charset="us-ascii"
+Date: Fri, 18 Sep 2026 01:43:38 -0000
+Message-Id: <178969581879.1103240.10423926999837994447@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,2051 +11,2517 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/akpm/mm
 user: akpm
 changes:
-  - ref: refs/heads/mm-everything
-    old: 9c1449e799f4eac1227127f2c620fc546604d963
-    new: a079faa4543ff5600702e52b9a43203a945ed160
-    log: revlist-9c1449e799f4-a079faa4543f.txt
-  - ref: refs/heads/mm-hotfixes-unstable
-    old: 7736b25e8d78b0ada0c6f2eb5d67c1e4c91dcd9f
-    new: 2e48d8f5093582a110dc422c7cb7d3fd0006ca7d
-    log: revlist-7736b25e8d78-2e48d8f50935.txt
-  - ref: refs/heads/mm-new
-    old: 93f615a221699f986e8d37fc686e9091ba50e1eb
-    new: 79acbe575d99cddfed120131b9ec9296f5f40ae4
-    log: revlist-93f615a22169-79acbe575d99.txt
-  - ref: refs/heads/mm-nonmm-unstable
-    old: 882e4828ce27a343ac2ee13f66ace40174deb825
-    new: 07d8d40e18cf79a77bb46702537de193c9e5b93e
-    log: revlist-882e4828ce27-07d8d40e18cf.txt
-  - ref: refs/heads/mm-unstable
-    old: 1ed9cdd724d46119dd9adf0ffba2f2daaa3335ef
-    new: 72da04a41011d34ba2aabd021a3d0597494caf06
-    log: revlist-1ed9cdd724d4-72da04a41011.txt
-  - ref: refs/heads/vfs.fixes
+  - ref: refs/tags/afs-20170316
     old: 0000000000000000000000000000000000000000
-    new: 1f7745fb3580152ca902ef181b605f33cabfb1d0
-
---===============1025940643762700205==
-Content-Type: text/plain; charset="utf-8"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9c1449e799f4-a079faa4543f.txt
-
-33c8d1fb9cd7d7b35f5afdb7e8885dd7ea4f2d28 selftests/filesystems: fix missing and stale TARGETS entries
-cd1e5c0ff09cbc8a563040950b9370f82c8373dc module: fix lost error code from codetag_load_module()
-3c3af37c1b11d74df0459d711d1ca345b504d1f0 tmpfs: fix unicode_map leaks in casefold option handling
-c0a773630258487b5563495308f3afeff529a351 mm/hugetlb: do not dissolve gigantic pages without runtime support
-6e1a2e31364b65c035ccb6db7f94992f8054a6f7 x86/mm: fix pmd_modify() dropping the dirty bit
-10440b7b0dce2ae690f547b81e3d920d93eb3fe9 selftests/cgroup: account for zswap shrinker writeback
-e7de5f997f88e05da12abf91da0eddfe8d5f71e1 mailmap: update Haowen Bai's email address
-c30605f9ffe646a43c95fc2186e9df0f0eab5c04 ocfs2: make ocfs2_calc_xattr_init() return void
-fd422cad44b7f5a982f77834aea00604929e0465 mm/vmalloc: use dedicated unbound workqueues for vmap drain
-194854944b767ccf48d294eea36e095fdb2fa472 xarray: fix index jumping backwards in xas_find()
-d0d5c4e8faa1a08aaba56111746894d89cc28160 mm/damon/ops-common: use a page-aligned address in damon_ptep_mkold()
-db17de2945f0de1f3cf955de18bbf7527571e268 mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
-d1209b064794e85b7b4b7c5c531f5ae3669624b1 mm/damon/core: allow esz to be set to zero
-80c7022ef89b1bdbeeb1828ccfc3b2eea8844ce9 mm/damon/vaddr: avoid hw-driven pte updates during damon_hugetlb_mkold()
-d22737748571b536c7accf35ac4316f34ad156c6 mm/damon/core: fix unconditionally skip last region
-fb1908c1998d63a014851511a58b67e5a6e65678 mm/hugetlb: preserve mremap address delta when skipping page tables
-5520efb6102d2ac3717a46ee7dd8e8dc47b41511 mm/rmap: fix missing barrier between anon_vma init and vma->anon_vma publish
-b9a65ea705227c70df9cefa7926ea51571ed6619 MAINTAINERS: add Baoquan and Baolin as MGLRU reviewers
-3a2a4241985bbe762d4b29919831516af7338e42 mm/damon/core: reset invalid quota->charge_target_from
-60c8f985f1112932539b79a4080b3589bf1dbbf2 writeback: report a Tasks-RCU quiescent state per cgwb drain pass
-b5cfafc2ca35abe112426319a0e9f816ddceeb64 MAINTAINERS: update Xu Xin's email
-6cf63fd84c60fcf5699b75ea138f09e132cedb4b mm/page_alloc: avoid direct compaction for costly __GFP_NORETRY allocations
-3f8e164a6939189547a7bb01ac656504d6ec7d44 mm: shmem: ignore sysfs configs for shmem forced collapse
-b05e7ac942a2abb67f5f78456dd9f8160187e693 alloc_tag: avoid implicit padding in uapi
-c4bdd860b793a7ed536f6a834a93ab2ff801c615 mm/damon/core: don't skip damos_adjust_quota() while esz is not zero
-595a161cd6b5e67e51bc548d19fe3bad77e70b47 kasan: unpoison task stack below watermark only in generic mode
-2e48d8f5093582a110dc422c7cb7d3fd0006ca7d mm/huge_memory: simplify pgtable deposit detection
-1592dfe58383f375954384d370429857cee2045a mm: use a folio in the softleaf_is_device_private path
-72f1d2b21bbce95ac518c41f60554d4a199519f4 mm: drop stale MAX_ORDER references
-0595ba8ac0b197b8689b3896a656c6bc6f769dc7 mm/vmscan: drop the combined limit gate in __node_reclaim()
-e43bf3426532d5cb1d4bab0b44544cfe4e915a43 mm/vmalloc: avoid false sharing with drain_vmap_work
-44b24750847a8d9ee37ef7c8a4f07e3cf8558ca9 mm/hugetlb: fix resv_huge_pages double decrement in memfd error path
-68bfe022233bdfa516677f2c8902e4672de0c555 selftests/mm: remove the local PKEY_UNRESTRICTED fallback
-912119ef4b6ecb030373bcc2bc4795eca5b94440 mm/mglru: preserve inactive placement when enabling MGLRU
-72b8cbd2550d633fe0fce267aa4370409ad6a2c0 mm/ksm: mark migration stores with WRITE_ONCE()
-fc0f705b2370966155c48f5b5e35ce45b9c3082e alloc_tag: skip percpu counter allocation when profiling is disabled
-90d2994ad86004d6d27a527e3c842a1ba29b6ba6 alloc_tag: remove /proc/allocinfo outside of mod_lock
-6c92a0069d028fd13cd18aac6ae7a5b3bef790d1 mm/hugetlb: use hugetlb_vmemmap_optimizable() in boolean contexts
-010f5562235acca08b913e050f124125017490b3 docs: ksm: fix typos in sysfs knob names
-1c895c1f482309c914100657cd1fc53c328339df mm/ksm: fix advisor_min_pages_to_scan description
-c7e0b9b3bc702184a625756cfeb1cb969efc1fdc selftests/mm: fix line buffer leak in mremap_test is_range_mapped()
-6b36cde16928e0dcc3c0bfcd0e84d41f26230871 mm/memcontrol: fix data-race on reading jiffies_64
-49af2ceeb25c1b58efa0fc633b610d35a2e951f1 mm/vmstat: annotate data race for per-cpu pageset fields
-d461b9c15c7fbd674d27a317847a5b29402ee909 mm: remove unused anon_vma_trylock_write()
-9bdca8864a7762b3d6aa7dea3831f055f5c74b41 mm/swap: remove unused declaration swapcache_clear()
-8fc8127e732e3bfec66c32efff281356eb3feef4 docs: cgroup: document empty-write behavior of memory limit knobs
-3954d256158f29dd946166893e2e80faf0140b25 selftests/mm: khugepaged: remove str_dup() usage
-7e287fcb19bcaf339f052723e74ccbb715dc7d39 mm/memcontrol: remove unused memcg parameter in calculate_high_delay()
-7dc4121e3dab5a8591fa714c640c649fb4c87ab3 mm/page_isolation: fix UBSAN shift-out-of-bounds warning
-c638ff660ceed208656f283f69eab1f27450e1be mm/page_isolation: guard compound_order() against racing
-599d0617b452118226f0119d9da5463ffff14871 selftests/mm: fix incorrect skip output in pkey_sighandler_tests
-da2cb6e124bac96d20f343385d21629c18337a2b mm/sparse: relax struct mem_section size constraints
-c55bcd68c9a5bd1e4e576dff1c9f76e5e3e8b9de mm/sparse-vmemmap: rename HVO order macros
-3d45fa124c6a19d29e45fec9e04a66743e216ab9 mm/mm_init: skip initializing shared vmemmap tail pages
-dda1280b1d77670dbb05525494363b5b214d0fa1 mm/sparse-vmemmap: initialize shared tail vmemmap pages on allocation
-838e8c79b73cbfe24c0b0759e9d32dc2ef33bcc4 mm/sparse-vmemmap: support section-based vmemmap accounting
-fd3dbbffb3a5d9555b52117b7a087887c43a9dd3 mm/mm_init: factor out pfn_to_zone()
-80a5fdcc9cd0a204ee5012a44d8649cfa0f31db5 mm/sparse-vmemmap: move helpers ahead of future callers
-b42801e45e7c596ce15f2c3ac6f1096d2b13f275 mm/sparse-vmemmap: support section-based vmemmap optimization
-7e387d356089f2dd7c1d072f56a2527c87e04f61 mm/sparse: initialize memory sections earlier
-cdecae6d56b41013c20b7de250a8bc5f592712d6 mm/hugetlb: switch HugeTLB to section-based vmemmap optimization
-5d1ca7cf294fe182aa9bf7491cc481235fae562f mm/sparse-vmemmap: remove SPARSEMEM_VMEMMAP_PREINIT support
-eeaf3329ce45ed97639f50525b5536cdd4f26630 mm/sparse: inline usemap allocation into sparse_init_nid()
-4479e9aa2ff4d33fc24d1059672fb6a93bd37342 mm/sparse: remove section_map_size()
-b5bd73838878118a20ce7a272c7215d6e7b6d066 mm/hugetlb: remove HUGE_BOOTMEM_HVO
-a436641daa8c56f295d59322c4247348a7a75ddd mm/hugetlb: remove HUGE_BOOTMEM_CMA
-f265ba7d134fd8e3baa3ba0425c13ab415147047 mm/hugetlb: localize struct huge_bootmem_page
-6b4e8e065c6b54de2b1c9fc06bc0cc1e74fe92e7 mm/hugetlb: localize HUGE_BOOTMEM_ZONES_VALID
-ed21243f76353f63ce189cd013f9ade7970fedb2 selftests/mm: emit TAP header in uffd-wp-mremap
-c83f9b5be263abeebba134912fcfca683a1f225d selftests/mm: emit TAP header and use TAP skip in mremap_test
-1b1d11b817e8f7f687c566550fef8b0386700dea selftests/mm: restore enable_soft_offline in hugetlb-soft-offline
-bd70f1a6600db2a102c2612f3068a1c4f306d980 mm/hugetlb: warn instead of silently bailing gigantic pages without runtime support
-8c316bc2aaf3ca72300f8a46bc769d628a681945 set_memory: add number of pages parameter to set_direct_map APIs
-33caddac21697c6e4d992d3cf754d67d37247f64 mm/vmalloc: set area's page_order after allocation succeeds
-38bc6e4efef5a09b2e903916e795bbc73c9cd182 mm/vmalloc: constify vm parameter of get_vm_area_page_order()
-814209ab67780788d71f6c97de1243105754316a mm/vmalloc: make set_area_direct_map HUGE_VMAP friendly
-906bf87ca57735b249e200eb7e6c223509cf4a37 mm/execmem: use VM_FLUSH_RESET_PERMS for ROX cache allocations
-e41ece75e83b4858afb52dcd6e58cde197381ab8 Revert "arch: introduce set_direct_map_valid_noflush()"
-54e1709fea2a2c16aca8258b5a2c172ebd706a97 zram: fix idle age_sec underflow in idle_store()
-a292e2323c84a5a726d36b2c85fa094ba4e16a29 mm: khugepaged: fix swap entry value to folio_pfn()
-9bf7e3f54928eac25d57abb9ff6cf7afad2d6a99 mm: khugepaged: fix folio is used after pte_unmap_unlock()
-1e7085c83cbc21e845f9f1696867386412c5ec94 mm: khugepaged: fix folio is used after folio_put/unlock()
-d84ccbe542f844f4e100642dfaf3f978c8b2b7db mm: vmalloc: fix vmap_purge_lock livelock under memory pressure
-c25012a1c3df640a87c6083b4e6e77421488994b mm: memcontrol: make obj_cgroup_memcg() handle NULL objcg
-b4780d4c6c8d1116ac2c82217f28ab88a770095a mm: shmem: move unused huge shrinklist queuing past the truncation check
-cc39eb89cecb4a375c446f0bfc814c064d87c863 mm: shmem: make unused huge shrinker memcg aware
-a61f87c9ecadf84e9906fd3f4c813fade430825a mm/list_lru: disable memcg awareness under cgroup_disable=memory
-2c5084d09162b9fcd4027f6a1743cd781d8edaec selftests/cgroup: test_zswap: wait for cgroup to unpopulate in test_zswap_writeback
-9a172bf85844c3d3b5fb120b1a8670681a7abe59 selftests/cgroup: test_zswap: fix implicit unsigned promotion bug in test_no_kmem_bypass
-ebb11f4e2b0fb49ee0fceb5ab5f7b5eaf807a260 mm/memcontrol: fix stuck FLUSHING_CACHED_CHARGE bit on isolated cpus
-75d2edc0ae617e1b63b24aff58d3b5eaa89a8384 memcg: clear FLUSHING_CACHED_CHARGE on cpu offline
-820444789ccddd8177b5de8d06a532cff1a95ce2 mm/mempolicy: take a cpuset cookie for the interleave node count
-f05e257303c6a6962acfbc8b2fb2984a5a381f80 tools/mm/page_owner_sort: fix --sort option being silently ignored
-f400d4ac41376b341f91004ad537e6209800b651 tools/mm/page_owner_sort: add module name sort/cull/filter support
-70266db71436652684501ce29bca1ef9588b1931 tools/mm/page_owner_sort: show available sort keys in usage text
-03b88027e3d37879df701764de0802292805a9d2 memcg: trim the per-cpu charge stock instead of draining it
-4b885525f8a46f1c4fecdb4c85196b146c71fc9c memcg: remove v1 soft limit reclaim
-b69b27140ff00690fad417eed1b552218047b543 memcg: remove mem_cgroup_shrink_node()
-47ed3ba1375ba78d5010193a7dc61bbc1c516ec0 memcg: remove the soft limit reclaim tracepoints
-00b40f8a7da5aa2ba0f3ea026a781c880ae0b6bc memcg: remove the soft limit rbtree
-a65d6ae0e9065012f974df8bbdda0fd2d8eb0eaf memcg: remove lru_gen_soft_reclaim()
-4cbf9f1f43bc5249eb8490f9b1d4a929688b2b85 memcg: remove the per-node soft limit tree fields
-938113f4a173669aabc38848f6eca7aee666ba49 memcg: remove mem_cgroup->soft_limit
-b544f581a14e3254c36f6718691498eaf7bd2d33 memcg: simplify v1 event ratelimiting
-d66861d1fd5933b44dd0fd07be5bb9c48d19152c mm/page_io: convert write completion handlers to folios
-6239dee17f48c11f1668ca63e07a0376f5d868f8 mm: remove PageReclaim
-4bfeb0efcc23fa23ac23dc5749e7ffb8f4847ad6 mm/page_io: use swap entries directly in zeromap helpers
-affa35ddadc34786e717b5a23fc714288f9f3aff mm/page_io: rename bio_associate_blkg_from_page()
-21f153acbe64e4bb66f8e27eb258cf23142bc8cb mm/page_io: refer to folios in swap_writeout() comments
-6d7b0197557c7dc0a46844b1fdf36c803cd2320a mm/swap: rename __swap_writepage() to __swap_writeout()
-b04344ce259d995eca5fa377c4c3883864d68381 mm/mglru: make type fallback logic explicit in isolate_folios()
-8460b91756912086c88c5c44eef0a3d70625170b mm/mglru: make retry logic explicit in isolate_folios()
-3f493ff86a97d06e17a72d6f78dce81fd893ea4e mm: revert slight behavior change for swappiness 1-200
-06848ae2e90b8ee32f486a2614798a9237907a08 mm/memory: simplify error handling in insert_pages()
-f07df3adbf05e8abb94f2ab09803e98d11380dd7 mm/memory: return -ENOMEM for page-table allocation failure in insert_pages()
-eb47f1376d7a2076c02195c874f8197cf8e07952 mm: adjust out-dated document of __GFP_NOFAIL
-5967a23c112042c57b32034f304acdf73b9ae1c0 mm/mempolicy: use SRCU for the weighted interleave state
-9e4b4310cb753cd2688d5fa9f0adce38b6b9b4c1 mm/mempolicy: stop copying the nodemask in the interleave paths
-1c3c812087efb4816ff4989b4191763b07cbc8b2 percpu: fix the comment about which sizes share a slot
-5649ba3d3ffa9bcc8ec19171cbc100440c6e6f79 mm, swap: distinguish a malformed swap entry from a dying device
-de4f22ca1865f6ef67d777ff725b8f218dae2e72 mm: fail the fault on a malformed swap entry instead of retrying it
-84b440e2ce1f341859d81ad4d7b431baa211454b mm/huge_memory: skip zone device folios in madvise_free_huge_pmd()
-e395eac26963d380f1eb9c66b06d5e83e7121273 mm/madvise: skip zone device folios in cold/pageout PMD range
-53666aa3f5c68109a43af91629136eb92b19a09b mm/mempolicy: skip zone device folios when queueing folios
-243c413456e42b0054446c1ef045ae8cff7fc6d5 selftests/mm: khugepaged: consolidate error exits via kselftest helpers
-0f6a48391e691ed4569494d66e89a4973de14938 memcg: acquire peaks_lock when reading memory.peak
-e0532d1b96603b7f7b76e14fb22d4319ac5dfd7e mm, memcg: fix memory.peak reset clobbering other fds' watermark
-fc6ac51e2b17012229d1d2812bee45bf7a70bbbd mm: cma: make mm/cma.h self-contained and conditionalize includes
-06852f53fe605fbd58f1d09c1f060d616de6db4e mm/oom_kill: remove unreachable __GFP_THISNODE check in constrained_alloc()
-686f54fa477cf3947b4566d25c380db9aa6ca7b3 mm/oom_kill, proc: replace magic number 1000 with OOM_SCORE_ADJ_MAX
-ecc48b3c13e5cd981376778b59930f785d4fcea2 mm: replace custom bad page map ratelimiting logic
-be98b1d0ee54da04c614bf34b174279caf27db9e mm/page_alloc: replace custom bad page ratelimiting logic
-78ecdf12ce40c6b1b651c0b124b92b42a6154a47 mm/vmpressure: remove window size TODO
-ac58622a60bdbc691e3a508ff09ba81acfc3e26d tools/testing/selftests/mm: add missing .gitignore entries
-1a90333381a738801d820e1476e5b034f388a58f mm: make per-VMA locks available universally
-9e0988654cc2918e831684d5546cc7ec40cde007 binder: make shrinker rely solely on per-VMA lock
-3f2519e98880571b66d22366f472f09b35f5d64e mm: add RCU-based VMA lookup helper that waits for writers
-b649c70804501fb4bf1279c8b09360c9e3d0a7bd binder: remove mmap_lock fallback
-c1abba9b4e9a643ef9b23582b391e6ee268d5092 tcp: remove mmap_lock fallback path
-aef8730b30a8fcfbd8301521fb3f7c2060fc97e7 mm: memcontrol: raise MEMCG_MAX for charges that fail without reclaiming
-65e7196eec9df86ecf5795de2b230e51a0774574 mm/damon/core-kunit: test probe_hits handling at region split and merge
-fc6efe9c7b838235a503359c91cf88d986b51599 mm/damon/core-kunit: test damon_valid_probe_params()
-01307b9fd7956edff08100335f2444119997a469 docs/mm/damon/design: accurate semantics of nr_snapshots
-b7037c7974dbf0c53f646bcf82870f76988535ad docs/mm/damon/design: difference between watermarks and nr_snapshots
-875a853799a9a7cfdde8c55822ff121a695e6779 docs/mm/damon/design: fix typo of max_nr_snapshots
-2a1383f9a178a151800f112f0018a9529f7f86a8 mm/damon/core: remove unused damon_targets_empty()
-8d95cb7b5ac83fbafd0461ac035908da34da2160 mm/damon/core: remove unused damon_nr_running_ctxs()
-4e3d028e4c659e8b109b68432f7576dd011da44f mm/damon: introduce DAMOS_QUOTA_HUGEPAGE auto tuning
-76f3ecba00291c7b30b3fc5573a0a1ff5fd03817 mm/damon/sysfs: support hugepage_mem_bp quota goal metric
-f28c89d46badc693e643dc0e3ffce37d99fb69ee Docs/mm/damon/design: cocument hugepage_mem_bp target metric
-fd8e179d1d30b7ca1cdea224048fded7ed9b91b1 mm/damon/core: remove declaration of __damon_commit_ctx()
-560412603a406652689a818d3429eb4352a658ea mm/damon/core: introduce damon_set_target_pid()
-621b0fa6964d1882262fb0d57b1a891edc0915b9 mm/damon/ops-common: factor out damon_putback_folio_list()
-23ca5656fa6138bc7d403e5fd58f1947834ba559 selftests/damon/sysfs.py: clean up sh processes used for obsolete_target test
-6d316b0769f448609cf93fbe4b9a03fdb9901bdd mm/damon/tests: use scoped_guard() for damon_test_ops_registration
-7e993ca7b1afb6ddb479192cbf7c3802e6168912 selftests/damon: prevent remaining cross-object state pollution
-bfeb1ec80103c4d9db914618f62fa723f98dd2fd samples/damon/mtier: add comment for struct region_range
-b080b37f00b2c5cc7b2695144b85f0e3f3331e77 mm: fix stale ZONE_DEVICE refcount comment
-b07b163457a278b5e207ffa5f358234b8e805b87 mm: add a set_page_section_from_pfn() helper
-502e866bf71c5c35b2d5488ba05b6aebba7e161c mm: add a template-based fast path for zone-device page init
-ba196c2bacee502eda41bbae54a75c005606648e mm-add-a-template-based-fast-path-for-zone-device-page-init-fix
-f2c9aff6e39f5d0c9d29964455baee14af262c58 mm: extend the template fast path to zone-device compound tails
-a06757c8851277d0efb6bd129c1d3be728f00b1b string: introduce memcpy_nontemporal()
-48ada6e69bead7b48acd740f8129a56de0a03e96 mm: use memcpy_nontemporal() in zone-device template copies
-8fa37339c2f4b0d4ff5f93f739a33fe9daef3962 x86/string: extend memcpy_flushcache() fixed-size fastpaths
-4e1558ab7a547ef209d31d1eae7e96cdca6e2ed3 mm/rmap: remove stale hugetlb check in try_to_unmap_one
-e3c609cd1e856986123176d6872b775d2ee5b67a mm/gup_test: report actual pinned bytes
-7074afd5ef75330502782b4da826bbe7361edac0 mm/huge_memory: do not touch frozen folios in deferred_split_isolate()
-5380bd511cad71cfeab75d5011ff47a9bb1f1e78 mm/huge_memory: dequeue the deferred split after the split freeze
-0a48366acf13a1546612cb94648eac059e307ad2 mm/hugetlb: preserve source surplus accounting during demotion
-aa77e0e9be9fb993c187e54016a73cf797e64941 mm/hugetlb: cap demotion at currently available free pages
-38206596085825bdabc500d173275b6424a53f46 mm: make ptval_to_str() generally available
-68b8d9111b6c65f05bd65115b1c8855b5107fee8 mm: stop using pxd_ERROR()
-72d134089122462bfbd755765d391c9e4caf40d5 loongarch/mm: stop using pte_ERROR()
-c9cbccfe5a035cfb8d8577d01a0bf117e13d4b83 parisc/mm: directly use generic [pmd|pgd]_clear_bad()
-87f3b905d5d6b34b1d762036c69012b7004f91d8 sh/mm: stop using pte_ERROR()
-0abb35be3d4bb96cc795395faa5c8f82232ac233 sh/mm: stop using [p4d|pud|pmd]_ERROR()
-46b7cce6dc97bb669d9c82ddd6f4b214e5f10301 sh/mm: stop using pgd_ERROR()
-b478bcac60a90cffe15f5a22f62c59aa48811aa8 mm: drop pxd_ERROR()
-82b2102c9b18f88709f8b5bddbdf9dc0033dd4a6 mm: add page_counter_margin()
-48d9fc0843f323918a27c53a00134e6d438a0745 mm: distinguish large folio swap allocation failures
-40550aba3f353325dc759b4cd61efeed6e01a6ad mm/vmscan: avoid pointless large folio splits without swap
-9ddc697ab703dad0132c2eeeb296ff607f68051a mm/shmem: split large folios only on -E2BIG
-adb25e9cf2f9e70882b036956a214811910b484a mm: gup: move pmd_protnone() into gup_fast_pmd_leaf()
-203cb8ddb44ab4c3529abc03030303330b5719e2 mm: gup: cleanup the gup_fast_*() call chain
-eb6e2fee9f8d3bca939cd3a186428f870b42e6e3 mm/page_table_check: add explicit pmd_none check in pte_clear_range
-b478ac0f9b9cda18ef4415bd95f90fa3c7526311 mm/page_table_check: skip zero pages
-cc7ecb2dfff017338de12f9118c98847d758708b mm/damon/core: skip applying scheme if region split for quota fails
-3b48cd58f6974876b522972ab9e8a2a7f57a5977 mm/damon/paddr: respect folio end for DAMOS_STAT
-c2c665d3595e38051fcbed06a02a095f198688cb mm/damon/paddr: respect folio end for DAMOS actions except STAT
-e214daa19754788c4f032f9d106261f0674e1c35 mm/damon/vaddr: respect folio end for DAMOS_STAT
-ef02fcc1e32d7410a6237ea2b1dd18704685e361 mm/damon/vaddr: respect folio end for DAMOS_MIGRATE_{HOT,COLD}
-0598008aa1d124aa0001082dabcf31a074e69fb0 mm/damon/core: handle extreme memory state in damon_get_node_mem_bp()
-e8fe2c21931b4021707860d4c0494981e4d9dc2f mm/damon/core: handle extreme memory state in get_node_memcg_used_bp()
-c648f92220b6c2f5b7ddcc1244a6ac02d8b3699a mm/damon/core: handle extreme memory state in get_in_active_mem_bp()
-b5603f2abe51f48e343025d4b69d11ab153bb787 mm/damon/core: introduce DAMON_FILTER_TYPE_PGIDLE_UNSET
-0fe772b61969ec341d0a8ae28db641c633c09a34 mm/damon/paddr: support PGIDLE_UNSET probe filter type
-2f9c363cd9be7d6a4cbd068d157cde36263c96ae mm/damon/sysfs: support pgidle_unset probe filter type
-5f55896487efca681ee724dd3c7e83e1d94f83b5 Docs/mm/damon/design: document pgidle_unset probe filter type
-44c736d5eae70987ec3090b2c06b56fcad0a31d6 mm/damon/core: introduce damon_prep struct
-a751fdd93408bccfd4fe27a061e9b11533fc4ede mm/damon/core: commit preps
-71608434e68296d508b6f1afa240268936b04d12 mm/damon/core: introduce damon_operations->prep_probes()
-442fa6a3db88fccecbca62d49a785d10b25abdb0 mm/damon/paddr: support damon_prep
-a19376580584a6413fd60d437d823586c3cdf22b mm/damon/sysfs: implement preps directory
-88a5ac65ac48d8e4eb914b410d8fe9cba7ba3083 mm/damon/sysfs: implement preps/nr_preps file
-2e4426b1983a8fa7cff3ef7e7682f3ebf2c35980 mm/damon/sysfs: create directories for nr_preps writes
-3cffcdd78f5ce1da8d59e22ea86c4f3db193621c mm/damon/sysfs: implement prep_action file
-879bd9e7ef28c718bced8b2dc32ea72f5fbd0819 mm/damon/sysfs: pass preps to DAMON core
-3ff300a44363228ee1c5d61078d700448c3932d1 selftests/damon/sysfs.sh: test probe prep sysfs files
-78d001c15690e229cebc2e849ef33a376e232c97 Docs/mm/damon/design: document probe preps
-b548e634f5fc10744aab3aba86e7826e8baf6e43 Docs/admin-guide/mm/damon/usage: document probe preps sysfs files
-63fc60f16f3d9f21d416a71907bd199a19dbccad Docs/ABI/damon: document probe prep sysfs files
-a13512c33374da4077377088d353649e6ffd4fc5 mm/list_lru: don't copy stale shrinker id from non-memcg-aware shrinkers
-d42c8fb53f8a136b32941bc4e4f0b0fc2acde06e mm: remove unused mark_page_reserved()
-98f681e46f224be60b3fa1d4b1efe6c89ae245d0 mm: remove unused totalram_pages_inc() and totalram_pages_dec()
-615f7145addf992520e259cccc887d30fdb52bd0 percpu: remove redundant assignments to bits
-706a20a81d1442689b8b2d6b21f73ae99e3c1e46 percpu: remove unnecessary initialization in pcpu_build_alloc_info()
-d6a46e08a6f4bc6d97da94f842773146c0817ab9 percpu: remove unnecessary cpumask_clear() in pcpu_build_alloc_info()
-18bbc378f3e9e8df29e318876f1350238f8b12ef percpu: remove unnecessary return in pcpu_populate_pte()
-f9d9f9b5c7a6f1d66546654ee2b9926fb530e187 zram: remove unreachable kernel_read_file_from_path() return check
-9cf992f2aa2389dc2894e76e0899536dcfffcf6a mm/damon/tests/core-kunit: test committing psi goal to psi goal
-d5ab57585dd0234a9a083c8680329219147067c4 mm/damon/core: handle uninitialized damos_quota_goal->last_psi_total
-26bae3797d37df8e3a94c1d9c9606f70a50b3595 mm/damon/core: copy nid for eligible_mem_bp damos quota goal commit
-229f2b418304657f68da0d89d58d7461cf197fd1 mm/damon/sysfs: set next refresh jiffies per sysfs context
-c53cd090693a0c5ffb32f0292d5c5dd116d76e2d mm/mglru: separate folio generation update from LRU accounting
-b81ceb2e31e9c794ec3138d95ade45f4723bec93 mm/mglru: batch update lrugen->nr_pages in inc_min_seq()
-b9322dc8b87b75f8fc80f4144fd745605864b97d mm/mglru: enhance cold/hot inversion handling in inc_min_seq()
-2e92cf9b5d460d01d151ccb9bbbe4f9f2c64947d mm/mglru: exclude folios promoted by aging from protected in inc_min_seq()
-d8f8e2a26af3b782fde4c4873007b6b09a82277a mm/mglru: make LRU folio prefetch helper an inline function
-aaa5fd1952b57c4febb7c923b722f592e358a149 mm/mglru: move folios from oldest gen to second-oldest gen from head to tail
-d8f895397c634346b03c75098bf450b8a5652eb9 mm/mglru: batch move folios to the second-oldest gen's LRU
-dedf560a028e5bd220c1fe07f4a25370abccc82d mm/damon/tests/core-kunit: test damon_commit_filter()
-7e0d562c505d70506592700903025f74dcb79aca mm/damon/tests/core-kunit: add damon_commit_probes() test
-cbc0f1e458bfbc14fa41ef955a0e7310455c8607 selftests/damon/_damon_sysfs: implement DamonProbes
-b7526fdd3cbcd3c1741c784b835f9eae1cca7732 selftests/damon/drgn_dump_damon_status: dump probes
-0e69314cba2780c4a9930e6d5cee7f7a5c79fdd9 selftests/damon/sysfs.py: extend commit assertion function for probes
-5855bfc57ee6b8d35aef669d351fda4b3e6bcaa8 selftests/damon/sysfs.py: test damon probes
-90096a48b271022d9e972db761b7ad74fa7f1398 mm: move drivers/char/mem.c to mm/char-mem.c
-105563364f204024e7fdfd9863343f0e5f37922d mm: implement file_is_dev_zero() to uniquely identify /dev/zero
-f213dffd6cc0605386dd2e79188482a0c667b2d1 mm/vma: only permit MAP_PRIVATE /dev/zero to be mapped anonymous
-988680dd7b77a1cabfd50dc51291b1e6b7ce9188 mm/vma: make MAP_PRIVATE-mapped /dev/zero mappings truly anonymous
-fc73717a7dfd972461dfbe19dd95ab53b5f8e635 tools/testing/vma: add test to assert MAP_PRIVATE-/dev/zero is anon
-5a3845e6ab47d8a139b1f69005481ade8f808351 tools/testing/selftests/mm: add MAP_PRIVATE-/dev/zero merge tests
-4aea3c84b8783ca614b18c5eaa52dc0722ef33f5 xfs: remove dead kswapd flag inheritance from btree split worker
-6620b285c09689d62199b27136a0e30dd017f78d iomap: simplify writepages reclaim guard
-aba2726522e7223e6dda6ec3cf6178dec5f78cbd mm: replace PF_KSWAPD flag with kthread_func() check
-48aaf236e35aa6698d805bc85de3190a3bef92fb mm: replace PF_KCOMPACTD flag with kthread_func() check
-d5fe7997ff3a514c1408250a6747901ce3281cdb mm: hugetlb: return -ENOSPC on memcg charge failure
-856d03ac309f461f5f2c5856340ac8f592fc56c9 mm: hugetlb: drop refcount before freeing on memcg charge failure
-b5bf8a780ad1cb9c5ad184a0233840579346d2f6 docs/core-api: memory-allocation: add k[mz]alloc_obj() and clarify kmalloc
-1c8aa717b92f077b03201055295a9a600f5a3e19 MAINTAINERS: add memory related docs in core-mm/ to MM - MISC section
-f7ee3e1fefa0db10508ee9631662dd39a981976d mm: trace: decode arm64 and sparc64 VM_ARCH_1 flags
-1cd99eca6b6265f879051cd05d2caa7d7fcb7770 mm: trace: decode MTE and shadow stack VMA flags
-b025a7218030e2c15b66f14f99f62ca50e12d9f4 mm: trace: name protection key encoding bits
-b55385e8bd0e4545cebdb7b2603fef29bb634ab0 mm/damon/core: use damon_nr_samples_per_aggr() for max merge threshold
-1c1b72337058e952bd487b1f6a85163796ea06cd mm/damon/core: remove debug messages
-77242f4c6107ae8db25117b0015aa1fe97d2e6ed mm/damon/core: remove string_choices.h include
-eb7a97f5b51859a96af9207b4baffd159ccdd4f4 mm/damon/vaddr: remove a debug message
-2f47b9bfdaa960c710679594e65144a2116da89a mm/damon/core: validate number of probes in valid_probe_params()
-8b2f8d059674d4ea5536055e716da747144f5fed mm/damon/sysfs: remove probes number validation
-a9026509f4ec96243655c16a6b429b10787bb602 mm/damon/tests/core-kunit: extend set_regions() test for error case
-47693b4f4a091957bea16991c4870b5748b2bf09 mm/damon/tests/core-kunit: test <=0 size damon_set_regions() inputs
-5e7594597b27e403ed692bdd3b6f820018b5a763 mm/damon/tests/core-kunit: test overlapping ranges for set_regions()
-34a81a1c7f949ab3ce71551f4ff6b7c3bb398d39 mm/damon/tests/core-kunit: test damon_nr_samples_per_aggr()
-d721102583760399848a7d60386812f2d3fabbcd selftests/damon/sysfs.sh: test hugepage_mem_bp quota goal
-0d66505064ffd28d6278aa82e51ebd3c21f7cc38 Docs/mm/damon/maintainer-profile: update AI review for Sashiko replies
-04b36c3c44b0da2857c1282b1d2f2bd171878803 Docs/ABI/damon: recommend subsystem doc instead of admin-guide
-af966f1f43d08c7c9b4b5b7f3d7e8b72cb6b3ba8 mm/migrate_device: fix function name in kernel-doc
-991c54617e8c54642747845f00cd313fb3f5d5b6 mm/page_vma_mapped: guard check_pmd() with CONFIG_TRANSPARENT_HUGEPAGE
-402bbb4b708322c531ef321088459ec06cb511cf selftests/mm: remove unreachable returns after ksft exit helpers
-780ebf48bc3703810fe5414f3d6400bf56cf2b97 mm/huge_memory: fix various coding style warnings
-8af3e50719f49ec9d89e4590ccb42209151d7800 mm/page_owner: preserve original free_pid/free_tgid during folio migration
-44f45d69da985cd7dbea3598ea956141d7959f8a mm/hugetlb: charge folios to the target mm's memcg
-91ac26289cecd6b787349b205e179049aac62c4c mm/page-flags: define HWPoison test-and-change helpers unconditionally
-5cfffd173b3ae0597490bb12f37b8e5c3c416c69 nvdimm/pmem: remove test_and_clear_pmem_poison()
-18a73ff0501d48685ab48347c72e08019f87070b mm/memfd: fix hugetlb reservation accounting in error paths
-662b7df07d4b0c1598b369a6a4cda8c131ccd7be mm/damon/core: error damos_commit_quota_goal() for zero target_value
-e74cf1e16f2093097840e12c3e82a704e67177ca Revert "mm/damon/lru_sort: error out for >10000 active_mem_bp"
-51b4873976f94b0837dcc7740b12e0e3da5653d6 Revert "samples/damon/mtier: error out for zero quota goal target values"
-a6a25866447775c02311a573332c84143c6bccd9 mm/damon/core: handle NULL ctx parameter in damon_call()
-22771846226aebbd028e572a4d13faef05b2238c mm/damon/core: set ctx->call_controls_obsolete in damon_new_ctx()
-310edda3a527c13579eb0f5deb8210e764603778 mm/damon/reclaim: remove unnecessary damon_call() param validation
-17cfff8f4b4c89327fccee21a8cd8f9b126e57c3 mm/damon/lru_sort: remove unnecessary damon_call() param validation
-3209b64bbb91d62660213600c8a05f292b82accc mm/memory_hotplug: factor out node_is_memoryless()
-66ad95c9ddad6a98c898fc7e19f758324397fc8d mm-memory_hotplug-factor-out-node_is_memoryless-fix
-5851cd32ffea0f87bcaf7e6815f0db7929528db3 mm: remove PageWriteback
-5e8c90bf97234961cc06f66c80681d57dcb60132 mm/memcontrol: move the lru_zone_size sanity check to the reader side
-09bb9766fa0f2758b294cb4301adb8d1c71a2f7f mm/mglru: introduce helpers for manipulating gen and refs flags
-1d5f80d5f7db12b877d0c5743859ed9260fea202 mm/migrate: copy all referenced state via folio_migrate_lru_refs
-96f43a65cc8e9fc0d4c8560aabed8abac7ed3bc4 mm/mglru: move max_seq read into walk_update_folio
-2a5895af1c8e103d67837a91bdcd452a82e95c36 mm/mglru: use explicit tier range in read_ctrl_pos()
-b5b0b53ab47a90f465af885c69420084d46056b8 mm/mglru: fix potential generation folio number leak
-66faa86ed96b9ab9f448b17f49f283ed38cb001b mm/vmscan: avoid false-positive -Wuninitialized warning, again
-260c3171aee4c06e593b2badace0f3f0dca02794 mm/memory: constrain generic_access_phys() to page boundary
-6c9c4fb7febdfa2ea42360932f2f33cc720a4aed docs/mm: ksm: use the renamed ksm structure names
-ebd88cd633ceb838eb11ae8643255022469eae79 memcg: move per-node objcg to the read-mostly fields
-f947e488fe5061f104a1ad1cc77bea422d8fb0f2 memcg: split mem_cgroup_private_id into two fields
-d7b8c9ae5e807f822540ccb97d75725f65bf6225 memcg: group the write-hot fields of struct mem_cgroup
-993d7cc348b566b5b32593b2c6457a52710e7a38 memcg: group the cold fields of struct mem_cgroup
-105287b69579ea34c855e1cd510e2f3e4acefe3b memcg: group the read-mostly fields of struct mem_cgroup
-ceb73f9361c455b57bca34f00e34e02c831814e2 memcg: group the fields of struct mem_cgroup_per_node
-99b69b6a1c7adc211fe070080bfd348e6564aea2 mm/zswap: convert zswap_store_page() and zswap_compress() to take a folio
-8db11affd719018677cb85bbbf6477339229324b memcg: don't call schedule_work when no spinning is allowed
-0d588fb77562b7bcc90765a6daed1a76fbdb194c mm/memcontrol: skip non-hierarchical memcg-wide stats when v1 is unavailable
-ca21ace824eba5a981e88ac33f457879634ba938 mm/madvise: swap in CoW'd MAP_PRIVATE-file mappings on MADV_WILLNEED
-672e8b1fd08878f757f53c85a60e166f36b9949b mm: memcg: redirect stats updates of dying memcgs for all hierarchies
-4432bbd9e87481454460ac94a2662a04b7248921 mm: workingset: use lruvec_page_state_local() to count lru pages
-7555f1385f82122d14c3cf78c847e377cc368e9c mm: memcg: skip the RCU lock when the memcg is not dying
-9c9e653bfb9a551fadd646e7e702c4c6fdd5be45 mm: memcg: reparent non-hierarchical lruvec stats on cgroup v2
-8a4aa534042d0ca10e2644e94c58fbfd8d5a9e2a mm/execmem: free ROX cache chunks only when they span an entire vm area
-8f4b1e88a13ac9e41c4019758f56049dcc24bddc mm/execmem: handle potential allocation errors in the maple tree
-add68e7e04c7e72fb07496913e7ba69be4f873bc mm/execmem: make sure ROX cache always contains multiples of PMD_SIZE
-86f32044811607318dc101fc7c5d7f888ec7850d mm/vmalloc: add DEFINE_FREE() for vfree()
-c8e7588bf5a50cb83c3a33b18039eaaeea5606ef mm/execmem: use cleanup infrastructure in ROX cache functions
-615b196bd8e7809545cf12b8773b793286667d1d mm: thp: restore SHRINKER_NONSLAB on the deferred split shrinker
-ccac6328b93db7664e9eabb4ba41c1311c609a5e mm: zswap: mark the zswap shrinker SHRINKER_NONSLAB
-a347f2be10338ff311848eb7a2bc3e78cec99351 mm/swap: add folio_swap_entry() and folio_page_swap_entry()
-76d6054cf98b87931e3d9e0c82d55cadea585f50 mm-swap-add-folio_swap_entry-and-folio_page_swap_entry-fix
-ea57198314c484c6287db2eedde1c38eac6b3289 mm/huge_memory: add a comment to the open-coded swap entry
-ee7a64450dedc1e64d474e22a17d9a349446e13c mm/rmap: use folio_page_swap_entry() in ttu_anon_swapbacked_folio()
-dbdf16108b46c6947da7af10ba9f7b76312dfd93 mm/zswap: use folio_swap_entry() in zswap_store_page()
-1c39e74c2cfac93b3b6b12e03b64e5bb18fa08f9 mm/swapfile: use folio_page_swap_entry()
-ccd141e28c19ebd3e25400d7b5845ab1c386647a arm64: mte: make mte_save_tags() and mte_restore_tags() static
-5df5a3af2d21db9cb9e363ea8e5ec168049a3284 arm64: mte: pass the swap entry to mte_save_tags()
-6cbe1c67ee47c0e8f3faa2cb4b713008872a716f mm/swap: remove page_swap_entry()
-5954fc30052aa5c7e85c32355f00f5f315471476 Docs/mm/damon/design: fix broken :ref: usage and a typo
-6a6abf6a84dda031bb480d3e1afd953811994521 mm/damon: move damon_hugetlb_mkold() from vaddr to ops-common
-be057f6d7032358105efd94d3a845a1a6d65991b mm/damon/ops-common: handle hugetlb folios in folio mkold/young rmap walkers
-09264d2de35bb4c1c67e86c62c5083b9dec674eb mm/damon/paddr: support hugetlb folios in access monitoring
-4329c6df7f38a683b9fe24786bfd9e7fcc022e88 selftests/mm: fix size truncation in pagemap_ioctl test
-52f1e394f19937b06872bb9ee86038921ffed837 selftests/mm: mark file-local symbols of pagemap_ioctl.c static
-7b28cc81d3c93938df80bc5efba9b9a2b6e6bed8 selftests/mm: init page sizes early in pagemap_ioctl test
-fb0880694da5d70b217fdd0d976de12ae719dfa9 mm/huge_memory: add folio_reset_partially_mapped()
-ecb13f7a3fa3ca2a81d81374695ddbca9384a144 mm/huge_memory: zap deposited page tables after an RCU grace period
-39cd25b29f159898f1bac030183c76232dc5cf79 mm: enable MMU_GATHER_RCU_TABLE_FREE for most 2-level architectures
-cbe818b7d750546da9cb2fd539fc10c18cfab2d7 mm: enable MMU_GATHER_RCU_TABLE_FREE for MMU riscv
-8517fe7d6c08dc7d2ef1ae2bc5e44110c64a4ebf mm: enable MMU_GATHER_RCU_TABLE_FREE for MMU arm
-616bf18273440817a9259db37d094365b8c9b8c8 mm: enable MMU_GATHER_RCU_TABLE_FREE for arc, microblaze, xtensa
-4f3ba2a79c286d2e561436c4f3aecbde639a89c5 mm: enable MMU_GATHER_RCU_TABLE_FREE for sparc64
-5abf9d5c2e1a954a78afa04dc901d63a6e15b2a9 mm: enable MMU_GATHER_RCU_TABLE_FREE for m68k-coldfire
-97dfa750f4287f19e28d893f288071eed56b0c2b mm: enable MMU_GATHER_RCU_TABLE_FREE for sh-X2
-b90757bf6ab0dc521735e1d340b1a5309be2acd6 mm: enable MMU_GATHER_RCU_TABLE_FREE for m68k-motorola
-fc7dc89b8d52eeffee5138833911831aff824346 mm: enable MMU_GATHER_RCU_TABLE_FREE for sparc32
-ceb365702cc004e7af50d7162ddb4d48cd9ea703 mm: make userland page table freeing RCU-safe
-5389dbded421652d63fed9cb99de541c05ecabba mm: change the contract for free_pgtables(), update docs
-ab94ccd7fb9b79ae228fdcb6862fc6fe48d04ee1 mm: vmscan: avoid anon scanning for GFP_NOIO with low swapcache
-6d5a2e5fc3e73a49d5257d3ab27cb7c70217b77f mm: mglru: clear the reference counter for rejected folios
-f789a51f3b279df6a4287385e16048b5cff6cbf7 mm/nommu: reject wrapping ranges in access_remote_vm()
-68a24a708197a6bcae91b93cb971730a5be8d8bc mm/swap: fix stale comment on swap_info_struct::cluster_info
-577c8190842fbb29c0e241e9eee738ec8b7f7293 mm/swap: scan by cluster in find_next_to_unuse()
-0e5083dbbd2576fa9cfae39a8f184aea9ed99fb0 mm/damon/vaddr: support prep_probes
-7e29386ac4d2441135f27dcf739d8d5ce32598b4 mm/damon/paddr: move probe filter handling to ops-common
-5ad69f456b9e24ebf683e8ecd3229f75ff491707 mm/damon/vaddr: support apply_probe
-5d316e6368575b582c53d1ee59cb0eed3c6b8c8b mm/damon/vaddr: extend apply_probes() for hugetlb
-4610299a9ee550a6e70bd62128f0284f61bdb427 mm/damon/vaddr: support pgidle_unset probe filter type
-e877aeb2d49c4c597916974bacee28cd41a5044d mm: zswap: don't fail a large-folio swapin whose range is not in zswap
-f775430a560cc36dc704c4358df82a5263cf4dc0 mm/hugetlb: fix subpool minimum reservation rollback
-84630d4785703b5f4e1fd9f26e73e8540a653a0f mm/zswap: publish the initial pool with list_add_rcu()
-f6fdbaa986dba7fa51d7f6996e4d28c3d42eae66 mm/memcg: clear folio memcg after changing per memcg stats
-1644d6039971d9bb60b126aa5dc32ffa3ece977f selftests/mm: reject invalid test selections before running tests
-1dd0c6e7ef3e035c77a4c75a29cb933b7131cf1a selftests/mm: only prepare ptrace_scope when memfd_secret is selected
-05c890932cd32d1cb1d1e63f8ebf8e90f8c4911a mm: zswap: convert zswap_invalidate() to take a range
-5a4c27e27e13bd3a941523d7a01a7a7728aace66 mm: zswap: skip xarray walk in zswap_invalidate() when zswap is unused
-c172db005aeafcb7c95a0547c937b77827d87244 mm: zswap: reuse zswap_invalidate() in zswap_store()
-b574df7e33b879aaa3cea96ad93ce3e21bda28d5 mm/khugepaged: drop redundant mm_struct pin in madvise_collapse()
-a07f4953007b8a0e8cbd55e0add184116b36ea94 mm/khugepaged: count collapses where khugepaged makes them
-a86bb0fb759e862ca5525698bda6670c5e1e11a0 mm/khugepaged: rename mthp_present_ptes bitmap to eligible_ptes
-484c7b7b04a37bed8afce2bddb0a43fec8b80f4b mm/collapse: add collapse.h for the collapse interface
-756b956d9c3e3c991b6fd50d6606373cac90e44f mm/collapse: state what a collapse may do in the policy
-4b4218c9134933ce3f0f6fb1416e317f62925ad5 mm/collapse: drop the collapse_possible() wrapper
-6322c1f4875a0021b1479670822790f5d8527971 mm/collapse: name the per-table scan reset for what it resets
-4fe6e362274b6dec927e2ccd392338a0e71d317d mm/collapse: separate scanning a PTE table from collapsing it
-1bb5234f8279a841be124fc9f7fbf66bc543caf0 mm/collapse: open-code collapse_single_pmd() in its two callers
-3094084d99cd5be082dfda393f10a18f82da1874 mm/collapse: work out the orders a VMA allows once per VMA
-38298b1490f87d9b267cb432630f08443cdcd4ab mm/collapse: declare the collapse interface in collapse.h
-c1f7378d7e7aa3b987f6a957f3ad683b5b5592ed mm/collapse: implement MADV_COLLAPSE in madvise.c
-e20d07ec26eb6d32c55115ca09ca5002ddc0ba91 mm/hugetlb: account for allowed nodes when gathering surplus pages
-485d2f906c86f1543bd05449795fe0444eb4f98f selftests/mm: fix ptrace PEEKDATA check in memfd_secret test
-1b451e15a0bce491af4e06b177b1b8d07448b67b mm: page_alloc: add missing hooks to bulk allocation path
-ef5c1f65532b02d1adb98807468a1b4784e9b48e zram: convert to SG-list zsmalloc object read API
-19e3349902c1f419cb989bede7a4cfdab5936cdf zsmalloc: remove old object read API
-80f68acc359a6fbcca685b2a8ad977b477055761 mm, swap: fix potential NULL dereference when trying a sleep table allocation
-cdf64baca16fe951430ce8456ee2649c2ad1d64f mm, swap: move setup_swap_clusters_info() after SWP_SOLIDSTATE initialization
-38029a3a8f54a69959d4d87fd3e09e8fc1f6bb31 mm, swap: return early from swap_extend_table_try_free() on first non-zero entry
-20fd4ad0e1d8e3d537a66cf20104604c48a1e8c2 mm, swap: remove unneeded swap_extend_table_try_free() in swap_dup_entries_cluster()
-718356dddfb430cbfe4962e0423a6b3c738dc93c docs/core-api: memory-allocation: clarify when to use kzalloc_obj and kzalloc
-10cc7f4a619e2304fd4f3498d484e517aeec2faf mm/page_counter: avoid integer overflow in effective_protection()
-42bc8fd786c15f90572ac494028c6da65c98d110 mm/mglru: fix ineffective memory protection for non-kswapd reclaim
-02b5db6910ef4ee8ee2c8d91b89bb63966acf86f tools/testing/vma: cover hole filling through __mmap_region()
-442ec6823e08f03aeab31e31aa73652d89f721c2 mm/zswap: enable zswap_ever_enabled in zswap_pool_create()
-d0b2bc062ca2035d61a0183ea2fb88f3616528fc mm/zswap: release retired pools via queue_rcu_work() instead of synchronize_rcu()
-f0c5a3e52030474a47704ed204292648d0d01112 mm/zswap: replace the zswap_pools list with an allocating xarray
-e692e6029f774e00f895e3f9602562736a9ba25f mm/zswap: reference the pool by id to shrink struct zswap_entry
-8624f0ab4eeb22639521be8721e5d2ad772d9546 mm/damon/api: introduce DAMON_FILTER_TYPE_PGIDLE_SET
-279aad211e4a4874a7fdc0c83a763a81590c5adc mm/damon/paddr: support DAMON_FILTER_TYPE_PGIDLE_SET
-70bdc961c5714aa8ba8a04f089f77194a1e55f95 mm/damon/vaddr: support DAMON_FILTER_TYPE_PGIDLE_SET
-3bdd85526466999add755459c6f5d43273aeae54 mm/damon/sysfs: support DAMON_FILTER_TYPE_PGIDLE_SET
-213c40266342ba7c42fa39dea9c4cbf19a0784b8 Docs/mm/damon/design: update for pgidle_set probe filter
-7dced9c209f49fcbb2dd57cf21b321c1892cee93 mm/sparse-vmemmap: introduce CONFIG_VMEMMAP_OPTIMIZATION
-c7b6fd28361021e01c77a00f8327db0ecbfa42af mm-sparse-vmemmap-introduce-config_vmemmap_optimization-fix
-c5ff08a41fe178fe82b7b142aec0bf545c139143 mm/sparse-vmemmap: factor out shared vmemmap tail page allocation
-828ba3da2d1f00234fd3f7d7bf99643637d27be4 mm/sparse-vmemmap: open-code init_compound_tail()
-bbdb7c530f3bb8e7b74a6ee6d1a70ca340312bf5 mm/sparse-vmemmap: prepare DAX vmemmap population for compound page orders
-92f09577a918c56419c63db4b59f27116ba5de6b mm/sparse-vmemmap: set compound page order for device DAX
-489c4ef0acab3bba9e8be019dd357241bb07de9f mm/sparse-vmemmap: switch device DAX to shared tail vmemmap pages
-b241e42a8344db2a8f0710e78794114fc005fb0e mm/sparse-vmemmap: move vmemmap optimization helpers to a public header
-40a6b04c1cc4f5d03a92b628015ccc702f080e9e powerpc/mm: switch device DAX to shared tail vmemmap pages
-81936c6c96280af1cb7af28519c236abbeaec0a4 mm/sparse-vmemmap: drop the extra tail page from device DAX reservation
-335f19e4048867d3da35c9232fe431040a882bb6 mm/sparse-vmemmap: drop unused section_nr_vmemmap_pages() arguments
-7e90304844bf3c6d387c7cb443d896de2acfb9b4 Documentation/mm: update DAX vmemmap deduplication docs
-27c479a648ecbb09a4929c811b4194978a3977d3 writeback: bound cleanup_offline_cgwb() rescans by rotating scanned inodes
-2e0b99788ec798df7897a59808371eb751df255c lib: fix lock initialization in region allocation benchmark
-c10b3680c61187dd1bddc52651bed4cddf04abb5 kselftest: mm: fix potential failure for merged VMA in guard-regions
-162d496678cca4a145e6e87fbc5b8ab0cfde0b54 mm/damon/api: introduce DAMOS_FILTER_TYPE_PROBE_HITS_WSUM
-423480582fee673c728f8a95914c3204097f7fdc mm/damon/api: clarify DAMOS_FILTER_TYPE_PROBE_HITS_WSUM behavior
-a389eff87449aea6c215ca099cf6fce91265a26d mm/damon/core: extend probe_hits_wsum() for moving sum based calculation
-65293b6d46e113eeef7467da610c608a163e145a mm/damon/core: support probe_hits_wsum damos core filter
-26f26ddf9a170dea100ed4a8d54701aa4ba76f34 mm/damon/sysfs-schemes: rename sysfs_filter->sz_range to range_{min,max}
-70e5bd1986c9e1ce9bf01cd294cb45877049e52b mm/damon/sysfs-schemes: support probe_hits_wsum damos core filter
-4cd2503b859e80dcca9ea6e319dd457f623ab5fb Docs/mm/damon/design: update for probe_hits_wsum DAMOS core filter
-a073a549f6f7126a943046fdc287e51fc40da3ef Docs/admin-guide/mm/damon/usage: update for probe_hits_wsum DAMOS filter
-da8d38f0009659fd66742ef5027a7252b13ef3af selftests/mm: skip khugepaged file tests if mkfs.xfs is unavailable
-691e61bfd61e31d32c9a7417cbacfde669710f75 mm/mempolicy: use vm_normal_folio_pmd() in queue_folios_pmd()
-0adc92f6c1b71b4d817ff1ca799b8356b5bb4cb6 mm/madvise: use vm_normal_folio_pmd() in cold/pageout PMD range
-3d8a3010d66986ec3d002196bfddcfb5dac4726f mm: refactor find_next_best_node to find_next_best_node_in
-cd1f9269a79b6dbaf1d89b4f9efbf978f066f5e6 mm/page_alloc: refactor build_node_zonelist() out of build_zonelists()
-7c7dc265bbbaf08f038afde04393de0ace54b728 compiler.h: add ASSERT_STATIC_STORAGE()
-2227dbfae295602bd01212027b45f0b2787bf200 idr: assert static storage for DEFINE_IDA()
-8bdb09d968916c56059d60c81a15859c243e4b08 maple_tree: assert static storage for DEFINE_MTREE()
-498d87ccc54669df12231b4bfbaf09ad046244d2 kselftest: mm: remove exclusion of building soft-dirty test in arm64
-25cbf46a3d471cf12e24b0925d2ad044478f3059 mm: zswap: return -ENOENT when the swap device is gone
-2ea98cbff77fc49a61202473cd0d29babd4cf8a8 mm/zsmalloc: replace PG_private with pointer comparison
-3cb1bc4b72657087ec49771b78660c0b9bd8a407 perf/ring_buffer: stop using PG_private as AUX page high-order marker
-cac58869dae6ea058331648c4505bbbc5e0ae478 xen/grant-table: stop setting PG_private on pages for grant mapping
-6ee7b2cdc2bad8c48432864dd1acc4ba4b61fd72 fscrypt: stop setting PG_private on bounce page
-bc1f97565bff623dea353f9c7ff7009b88c4f4b8 mm/hugetlb: use direct assignment instead of folio_change_private()
-e5121c19aad3e836ec79552a1efd8d7d2d8c9541 f2fs: stop using PG_private
-230c42a3679788cf304bf99555a5e546a70dbbcc f2fs: convert the ->private flag helpers to folio-only
-5b0d9f42882cfa3a549ec3212840d77edffcea36 erofs: mm/pagemap: add readahead_folio_last() to avoid folio->private
-536f94bcf852dc17d1dfbaada07022079d7cd4d2 erofs: use folio_attach/detach_private() instead of direct assignment
-9190d9a76fbb562a1e24fee79e02affe114692b7 mm/page-flags: check page/folio->private instead of PG_private
-3c1099377dc4a13b08506ba066806bd75db569a5 treewide: remove folio_set/clear_private() usage
-92382fac2e427c6f80c96fd6a2cdfa2450b1abe1 ceph: replace PagePrivate() with page_private()
-8139d47ce650a2c16b69cafeec4d87b15a261501 md/md-bitmap: replace PagePrivate() with page_private()
-677aa575c280bb08eee9edaddc870ec2b8bb73d7 buffer: replace page_buffer() with page_private() and delete it
-0e51ef84d59a96435559a71c33b168eaeca65c5f treewide: remove PagePrivate() and PG_private from comments and docs
-5be102617e1af2be072bb9763bb4478fb7f89f02 mm/page-flags: remove PG_private
-2143e7031ac3321ff536598c23ae7910c4985a11 mm/swap: fix off-by-one in swap cache replace sanity check
-d768f179af838b7bfaafac28efcae8ab556f9bb0 mm/huge_memory: fix rejection of swap cache folios with a mapping
-dc3b26018003173448c7c1478fbf2335e801bb2a mm/huge_memory: invert folio_ref_freeze() check to reduce indentation
-a449ff14f7b989f7e5a3571a81473ba6b7d1b2ae mm/huge_memory: split the routine for splitting anon and file folio
-da699f268cc615d7e107f488b9ef23dc92ca6686 mm/huge_memory: rename __split_unmapped_folio() to __split_frozen_folio()
-132654d6231fbfcbc158e444abd03b96cd01678a mm/huge_memory: consolidate irq and locking for folio split
-840a9ae352128ca2d4814be9d0c3f95638526e24 mm/huge_memory: move EOF trimming into the file split helper
-472e8a833d55f309119c5d7ec29d35ab09c4b952 mm/huge_memory: move unmap and remap into the split helpers
-bac36758e588e842ea766694beadd607e3e62f01 mm/huge_memory: rename remap_page() to remap_anon_folio()
-8bdfcd764acc8e0f7107d4d4a38e254d62581c89 mm/huge_memory: move the racy refcount check into unmap_folio()
-ee0a8563d7d0d8bd383ad6e12ab0e0c4a9cd4a28 mm/huge_memory: move filemap management into the file split helper
-a2c24a3140b2d9680584350fd1f2073e4544e197 mm/huge_memory: move anon_vma handling into the anon split helper
-26953adbdd03e166b6ea022548ca448fff176976 mm/huge_memory: move memcg switch into the file split helper
-e110d5cf783dfe04d3a119f29bb3f960df9cb63a mm/huge_memory: drop the unused do_lru argument of the file split helper
-9cbd5e2292f2a2fe88adaa3025ee2952e653b06f mm/huge_memory: clean up after-split folio freeing in __folio_split
-3db991d444cf9122f1b22583f064e33d7bd05432 mm/huge_memory: count only swap cache refs in anon folio split
-7a341d87eeeca3c2cd2573a653106b88eead0ab1 mm/huge_memory: drop the redundant mapping argument of __split_frozen_folio
-011a59ac657b60fe5dd01fb519ba149770f91c62 selftests/mm: hugetlb_madv_vs_map: add underflow test
-e4058f7b4b91fbfd52ef5a0a2a767ac66aab6b92 mm/vma: fix mmap_prepare file handling, remove file_doesnt_need_get
-fd9c42f3c952b20ad0038bc60c5d5428397fa0f0 mm/vma: predicate setting mmap_prepare VMA fields on new vma alloc
-475282a3641a130f359a5c1e653b1cd93f2e17a4 mm/vma: introduce and use vma_[flags_]can_merge()
-a42daa529e49b7c35e7a6acf15848f524d05c781 mm: consistently validate VMA state after mmap[_prepare] hooks
-413ec8d2299356ff4e574555caa624fbb25b3d94 mm/vma: ensure mmap_prepare doesn't set actions on a mergeable vma
-ec3ffedc5e615544f7e2e94ea2f57f41fea5ac57 mm: make map_kernel_pages_[prepare,complete] internal and unexported
-98256a372490301c9a75d2e4c0714958622c3035 mm/vma: tidy up map kernel pages enum values
-09d91754738ce10196b0062dba03d32c5d2bc514 mm: add mmap action for discontiguous kernel page mapping
-165e38f6a70c9b465e694d6f87e90ea93274afc0 docs: filesystems: update mmap_prepare docs for discontig kernel pgs
-a174ea2c3a6475b404f36b4ff4a77ababdc4330c drivers/usb/mon: update to use mmap_prepare + map kernel pages
-abb8ae552e127969e343dafd9a7780fbdcdd66ad infiniband: update hfi1 to use remap_vmalloc_range()
-a2d50154f54cc6b36a05e50050e504bce6312fb7 selinux: reject writable opens of policy file, drop mmap shared/write check
-ee30f625bce408aa6163ca15887763b26e6facaa ALSA: pcm: use vm_insert_page() to map PCM status page
-b0d4b38f07ca8dc62107171043a1a0022abff8f1 bpf: arena: mark arena_map_mmap() mappings VM_MIXEDMAP
-3d13c2511d426ec71e7408580b0ba0f52a2b9e71 mm/vma: add vma[_flags]_is_kernel_owned() predicates
-2b282a26cc4a179549d3e1100e21f7c240adbb05 mm/vma: only allow mmap to clear VMA_MAYWRITE_BIT if kernel-owned
-56f51db4d2d86e74e52d8edaa98a096f8d5a7589 mm/vma: add and use vma_[flags]_is_fixed_mapping
-478cfaacb94b880affdc5246ad18b03a4bd5b81f scsi: sg: convert mmap hook to mmap_prepare and rework
-8dc78e7100bf2c348146fac448d9bfa6e9e0b1cd fbdev: defio: assert FBINFO_VIRTFB, drop VM_IO, add VM_MIXEDMAP
-f6a2007c6a18b197790d23d76634c1ad3ed000c7 HSI: cmt_speech: convert mmap hook to mmap_prepare, refactor
-1ae91f79d96093397b2cefdbfbc461f103ba2a3b mm/gup: error out early on !VMA_MAYREAD_BIT VMAs
-976ec2991cf9d057923450e8021d649f60452722 uprobes: remove VM_IO, set VM_MIXEDMAP for mapped kernel pages
-b2e6ed5f6428be9f8918ab5bc09aea62a30004f1 mm/mlock: clear VMA_LOCKED_MASK over mmap callback
-3ce84a179083aeb37e2e4d216997f9f35461a87e mm/mlock: eliminate weird VMA_IO_BIT abuse and simplify
-d1b51ae18e27bafca9200939c2ddb8c2effb2dfe mm/vma: enforce that only kernel-owned mappings may set VMA_IO_BIT
-24b0a5563268575f58fe335c7aa390a6128a1be0 mm: remove VMA_IO_BIT check in vma[_flags]_is_kernel_owned()
-f1f0a6b6e734c7ce8a22e7a227dfeecffea20e4d mm: remove hugetlb_inline.h
-fe393d647870204c71c84b308b097d8d0dd36f59 mm: rename is_vm_hugetlb_page() to vma_is_hugetlb()
-4d6b17c42454b61d4c2de042deb72a990b70d701 mm: drop some redundant checks around hugetlb VMAs
-5552eb38935830f92dea58e3684f388214651a8b mm/madvise: update is_valid_guard_vma() to use vma_can_merge()
-853b6ff3b3b5c45bab04f49c57f226097bfd35ef mm/vma: introduce vma[_flags]_is_persistent()
-f575535021c2cc85a0d76adcadd35122b6f68ba2 mm/uffd: use predicates for userfaultfd checks
-7c240519bb967d8cf78de90d03946d4d3c7bf025 mm/madvise: use predicates for madvise(..., MADV_DOFORK)
-b24aaa5c2f09d88e4e8aec8f89389a85bbb74539 mm: eliminate VMA_SPECIAL_FLAGS usage when hugetlb explicitly tested
-4c6f7355ec6b6bc3e4df012348ae041d1f5c4ad4 mm: eliminate VMA_SPECIAL_FLAGS check in lru_gen_look_around()
-59a610687df8869766a2657a607b0e26103ae3d9 mm: avoid use of VMA_SPECIAL_FLAGS in migrate_vma_setup()
-8fa7d7ffc52a5ef548cf176d23fd1750122facce mm: eliminate VM_SPECIAL, VMA_SPECIAL_FLAGS
-3ce79a1b3504e1519ac542e949a1a4747221833d fuse: dax: do not set VM_MIXEDMAP
-f74e16c83aebe9fea7575f66b11d514888708620 mm/huge_memory: remove vma_is_special_huge()
-61939fb09775f8d373053b2c530690137ec540ed mm/vma: introduce and use vma[_flags]_can_gup()
-129943a28e7f81d6d78cf5a3717638f994a8d439 mm/damon/sysfs-schemes: read sysfs_filter->addr_range only once
-da7d655ef815cb8250715dbcd23472cdd6a4367e mm/damon/sysfs-schemes: read sysfs_filter->sz_range only once
-50c16af615f43e378abee344485567b03e938a60 mm/damon/core: return an error from damos_commit_filter_arg()
-0d69700bd5876e47929d93047965a39f1bfb98f3 mm/damon/core: disallow max < min damos filter range arguments commit
-dcc3d3078809b5f5c1bc12033fe6773d263a6dd7 mm/damon/sysfs-schemes: drop centralized filter range arg validations
-52b8ecbaa329e6336284389a0d40eb02b1295255 mm/damon/sysfs-schemes: use switch-case in add_scheme_filters()
-5ad7f1cc9dcbb74dc4a32b44c1c424b3f2cf0622 mm/damon/core-kunit: extend damos_commit_filter_for() for wrong input
-0aff93d5bccd173a55f1c073566a25f20e1e4e03 mm/damon/core-kunit: test invalid damos filter commits
-658d8a9270ad6df6a54655707fd47fd933385270 selftests/damon: stop kdamond on error exits of no-op commit test
-b01fad3437c49e20ac6fa2500c82967d78222fa6 selftests/damon: ignore test-generated damon_dump_output
-711a2cfbe71670b78fa094d1df0f0a26af30827c selftests/damon: add script dir to sys.path for PYTHONSAFEPATH compatibility
-5f77590a98aca456e4be44d7f9358821cbee97c3 mm/damon/tests/core-kunit: improve nr_samples_per_aggr test isolation
-43b472b1f3e09d877a40eac2ff08e3abb62b1ee4 Docs/mm/damon/design: clarify when qt_exceeds increases
-5f037f5a54cf640b2cfe88c6294cdfdde7f31aa4 Docs/mm/damon/design: fix typos in temporal auto-tuning algorithm section
-c2d057098e19d405825d19ebb28b95e66d0e649a proc/task_mmu: handle special PMDs in clear_refs and pagemap
-56267c547714ea84dfd3f035a083c1bc315d3f62 mm/vmalloc: group xa_init with vbq field initializations
-328b9bc39108b31e05f7e34200d5d26eb1ecd03c mm/vmalloc: extract vmap_insert_free_area helper
-8728a7b3ea591ef66489c3c9b1e1837bfde1c53f mm/vmalloc: extract show_busy_info from vmalloc_info_show
-86ac927deaa3f809e63ac7c8fd21bf22c4e98edb mm/secretmem: fix the enable parameter description
-e58d8ae96134fc242e2ca4134b9a387edead0404 mm/madvise: reclaim isolated folios if PTE restart fails
-2c56225bda3456f71567b4d7247d96e1148c5164 selftests/cgroup: ignore memory.reclaim -EAGAIN for zswap writeback test
-b32f8527e69e754ee8d0c9b2b56a3df525a26ebe mm/hmm/test: reject overflowing page counts
-2e8b468f96aded5fae5334b470d4fa424e2b73cc mm/damon/api: introduce DAMON_FILTER_TYPE_HUGEPAGE_SIZE
-8095ce5e4ea9fed29bb20e128400d83b82752072 mm/damon/core: commit hugepage_size type damon filter
-bb0bd686f2b5793d337cc74aa5333c5372cad055 mm/damon/ops-common: support hugepage_size damon filter matching
-75e45831e3b4f1af5fdc2f27a0622c36690f1b0d mm/damon/sysfs: add min,max files under probe filter directory
-111fa8bce554c5800d58259fd06447be99b43538 mm/damon/sysfs: support hugepage_size probe filter
-2049edf7374270dc0cd5dd2460739470d6dbc990 Docs/mm/damon/design: update for hugepage_size probe filter
-b162bcf5116e95dd866825b18cc0c52d039c0c38 Docs/admin-guide/mm/damon/usage: update for hugepage_size
-e08149291dc83088a4b8358f486064fa2c79097c docs-admin-guide-mm-damon-usage-update-for-hugepage_size-fix
-7e82fa418cda4cd20d62a43d90972f7b0b2ec556 docs-admin-guide-mm-damon-usage-update-for-hugepage_size-fix-fix
-72da04a41011d34ba2aabd021a3d0597494caf06 Docs/ABI/damon: update for hugepage_size probe filter
-1bf8ecf9255cedeb5119a4d56a6dc35f07e49045 mm/gup_test: safely calculate GUP batch size
-ad3b16858ba1ecf748fce1a19ca2dcadbcc3cdc7 mm/mglru: restore accidentally removed seq < max_seq check
-62679a9e74f212745b0cbd95cd8c64cd6e980900 mm/hugetlb: fix misspelled parameter names in comment
-6335a5213ada1251ed91864ce0abcb44cfc387a4 mm/page_alloc: apply per-task GFP context in bulk allocator
-a24212b888ee9f6b0e8e235b792d71b2c9cf9847 mm/madvise: use folio_trylock() in the cold/pageout PMD split
-7d8584756237027bcff93316b0249b92c8f9c987 mm: memcontrol: take a const folio in folio_memcg() and friends
-84f3307ef5d8b92d28145f7ceb9850812994fba4 mm: memcontrol: constify obj_cgroup_memcg() and friends
-7422348151f5fa5007b9a6848d9dabd45a7c00da mm: memcontrol: constify the lruvec helpers
-4109c7f12bce4da1684c8e1581a71052736ac8bc mm/page_io: take a const folio in bio_associate_blkg_from_folio()
-24ddce4dd32ebea0695d8d29c917e5a3bfa79412 mm: memcontrol: constify the mem_cgroup accessors
-98a47c89344d0da542e3696da4f9146df6269b85 mm: page_counter: constify page_counter_read() and page_counter_margin()
-4ff57d1487759b6d4364ec50be35c882e87f8f9a mm: memcontrol: constify the reclaim protection helpers
-867bb37ae746d39553bc45f257475032f3b1f395 mm: memcontrol: constify the memcg and lruvec stat readers
-48a0e4d04c16ea178b98a922743a71751b9504f4 mm: memcontrol: constify the swap accounting helpers
-bd937b7e679e31e4e2df76b554bc6c129a9ed608 mm: memcontrol: constify mem_cgroup_swappiness() and mem_cgroup_get_max()
-e06abd6ba6a7d615812f7d9a33a1141f8b6247a9 mm: memcontrol: constify the zswap and socket pressure helpers
-6c688be1a70b4abe476112d0f98cbc27aa2f1114 mm: filemap: move lruvec accounting outside the xarray lock
-5fbff9206c9b1588dd87e04a4f6cb38ff7dcca8c mm/page_alloc: do not boost watermarks in kdump capture kernels
-7af0cf3a11b88a4ae0f237a96b8849913c5605e2 mm: mincore: use per-vma lock during page table walk
-2e2810107472dc561d52b060dcb0f061fbbc88c4 vmcore: convert mmap_vmcore_fault() to use folios
-8503a2ae25921dd0457f3692c7054633e3d4fbc2 mm: swap: move LRU insertion out of the swap cache allocator
-adef8d6aa364197811c9fc36febfb4ef748b0b98 mm: swap: drop dropbehind swap cache folios on writeback completion
-f5571e07cbf371cdef851ca2e939291a79d91a18 mm: zswap: drop cold writeback folios via swap dropbehind
-6da2bdfefa585b04d9b0a0d2f413564ac49f850d mm/vma: const-ify vma_assert_stabilised() and associated functions
-ba11473dcdcb83b9e2acf08eaf712bdf3db3d249 mm: implement and use vma_has_anon_rmap(), silence KCSAN
-9711732e0821d71bbcecad7f80df9e904dce8eca mm: update comments to refer to anon rmap rather than anon_vma
-5940873cc533eeebf691e534a0d2e3f8331689ac mm-update-comments-to-refer-to-anon-rmap-rather-than-anon_vma-fix
-6dc96651a72528d0a77867f80d65a9450746ca58 mm/damon/api: remove NR_DAMOS_FILTER_TYPES
-f5642535439ce72206a4e4fc5240bb480d56c932 mm/damon/core: use abs_diff() in damon_feed_loop_next_input()
-e2d99c1eec0acb5b1ae792ebf5fff0f8ab0e3994 mm/damon/core: use mult_frac() in damon_feed_loop_next_input()
-09b822ffb122121991463c1840a1f6876f57ffd2 mm/damon/core: set damon_ctx->walk_control_obsolete in damon_new_ctx()
-e867f451380e58d1f337fc35861e3518ebf3a5b9 mm/damon/core: document damon_call()/damon_start() race hang issue
-4283e4e18fc60ecce1827c6a541bcc1b34434c3a mm/damon/paddr: remove pa parameter from damon_pa_filter_pass()
-309f4b1b9e4382e6e9e0e4d60cf1dc79aa535589 mm/damon/tests/core-kunit: test eligible_mem_bp commitment
-5400c5dd7b2f232be13a638f45045c712b442909 mm/damon/tests/core-kunit: add probe_hits_wsum damos filter commit test
-d1cea704a50dc9a61e7bb2dd221a1c9d893c3671 selftests/damon/sysfs_memcg_path_leak: fail only for real DAMON leak
-31831d5fb415b2ab1086d29c22863ae993fa9544 Docs/mm/damon/design: clarify bp is basis point
-cbe6cb9063a5c9aded631d7427199ee37dc33b96 Documentation: kmemleak: describe the metadata pool, not the early log
-93052e4bbe0b64cc040d05c912dc220e0b039499 Documentation: kmemleak: fix stale statements about scanning
-bf7f2ce638d270d2ef7b0b6119e0614205c9213a mm: kmemleak: raise min_unref_scans to 3 for verbose auto-scan
-bdaf5fb8af86ef7d1167099d786dc1f85269fb89 mm: memory_failure: clarify the MF_DELAYED definition
-3d63e9d7ec0af23867e555e5b84707fd3d659e1a mm: memory_failure: Allow truncate_error_folio to return MF_DELAYED
-fe716b3801fb88660b04fb7654176d49ebad8dcf mm: shmem: Update shmem handler to the MF_DELAYED definition
-2c19a04f2606e76e210439df4062edbff4f3eb62 mm: memory_failure: Generalize extra_pins handling to all MF_DELAYED cases
-7ccb46cfb808473c90099ed82d8323441ff5e9c6 mm: selftests: Add shmem into memory failure test
-19395b40ec3f65d6fdc6b3abf2dc6a34cfc39f5b mm-selftests-add-shmem-into-memory-failure-test-fix
-5005881abf9730e183983be61a8b1fbec88aa27b selftests/mm: fix soft-dirty kselftest supported check
-fe1512aa4dd3cedd95fd3ea8ae9fcb302e98ff6b riscv: mm: fix concurrency in mark_new_valid_map()
-0d97925af6eadc9dc4b71e8614dddb849d533abf riscv: mm: exclude invalid THP PMDs from page table check
-52321d79c6b59d44365894888cc6f41252ba9d75 sh: remove CONFIG_NUMA and related configuration options
-35cfd83a8e991823cd5523e818974a1f070b4463 sh: mm: remove numa.c
-b0b2d1da104c923d1c27b31b09d6487246cfb9e2 sh: mm: drop allocate_pgdat()
-2d3a0545f7376ed2920acaa17373a063bd9ab40b sh: remove setup_bootmem_node() and plat_mem_setup()
-0c9c8b7f35c226a039438562bdff30c29e709e03 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-aec28daf0bdd60d2b688f08e55310e98401b5a94 sh: drop include/asm/mmzone.h
-04a9878ee5d922e79c15c32a22226f074476cd89 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-a479c009444c42bc463c8bc70d252d51266fe9d9 sh: init: remove call the memblock_set_node()
-786105f9fea14e44c2d72a9517f38ecaeecbfcc4 sh: remove SPARSEMEM related entries from Kconfig
-487ca86a503bd34d254045650e2452a2fcef995c sh: drop include/asm/sparsemem.h
-40a3a8c0850540c6cece7905acb9e0205e172541 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-79acbe575d99cddfed120131b9ec9296f5f40ae4 mm/swap, PM: hibernate: atomically replace hibernation pin
-30b98f8c7551c0a25d6529d1de945a4a87a129e4 drivers/media/v4l2-core/v4l2-vp9.c: reduce inlining
-87a46b5edb5e2add4531c56b9ab825d64b8c4e77 taskstats: copy signal->stats under siglock in taskstats_exit
-9c2073476625fddad02711a5d47c93f54cc71779 checkpatch: skip CamelCase cache for --no-tree without root
-cfc0531a88daaa00e37a33f1a2152acb09da8b31 USB: gadgetfs: do not WARN about excessively large memory allocations
-9383908a4940bced23f695875469b6f6a9f50303 resource: fix lost wakeup when waiting for a muxed region
-52398558b2a974b3ff7a1fdb92994c2c7241f440 fault-inject: fix dentry leak
-8d63ea329e9f4cbb52a08b89ddafc3dd497fe096 mailmap: update email address for Bradley Morgan
-6dd1d5fbbd5f5eb619742ab03d9998937f5a1119 fat: fix fat_ent_write() for reverting the value
-bd18b1526df329d90bb7c8876119066f6de6f56b init: fix early boot crash with bare hostname parameter
-9d0a5fdc3cdef8705e024180a3412549d5ea4a04 ocfs2: fix deadlock in inline-data truncate transactions
-bfbf7e0abcdd5a16931abcac3cff24f99febd904 ocfs2: reject inconsistent local xattr entries
-714dcdf028dac7d4a4b7461990b787558a0c4661 raid/kunit: enable RAID6 PQ and XOR benchmarks if KUNIT_ALL_TESTS=m
-5c441f2bad795d3806cf6cfce4b0bf52a5f6c476 ipc/mqueue: release notification resources during inode eviction
-0bcc005c33b42bb2ed72d0c2aeb878487dde74ee klist: avoid accesses after waking klist_remove()
-79c98221805c6872f785d028f4e96e57a13ea152 lib/group_cpus: snapshot cluster masks to keep grouping hotplug invariant
-03e00fef46d02ffb841cd21aed669c8d612885ad selftests/membarrier: introduce helper to get membarrier command registrations
-01adf35a55e4cc2253f059f91f1c68970abada0c selftests/membarrier: skip unpermitted membarrier command test if preregistered by libc
-601c05df0f769cd26743bccd4023fb09272fe25b selftests/epoll: fix race condition in multi-waiter wakeup tests
-3b23cdeebc9cd67072661e896d742e3eeb038288 ocfs2: exit recovery thread on mount error path
-d7c9c661a0ee4d171168a49c632edc9b26aae1fc ocfs2: free replay slots in ocfs2_recovery_exit()
-c8cbd8bc68ef33fb294c30841a50b5ed220a76df ocfs2: defer suballocator block group reclaim to workqueue
-2e53b41e65265b34bad9b62df1b575ada689c5d3 init: simplify early_hostname()
-013418ac3cc8209ba907fe9b9575bcd16569e8a7 squashfs: fix fragment index table sizing overflow on 32-bit
-11fa3c5542119e0b7c759911eea0dac1cd37ca4e squashfs: make the fragment index table bounds check overflow-safe
-33de903eda5199635d1bb98ae7aaf917d4ed92b0 hung_task: reset warning budget when problem gets resolved
-76f2490a64a6864716b646925e9cbd89b79a5260 hung_task: log summary line when warning budget is exhausted
-57c38c4dc5118439f3a29ae6a88ddade8f1fe6ac init, arch: make CONFIG_COMMAND_LINE_SIZE globally configurable
-025cfd90b0aad5d264235d64f7d64042fe4843ae init/Kconfig: make config INIT_ENV_ARG_LIMIT user-configurable
-21cd376ffef68531c57a039c90958c27977e1dd7 minmax.h: update the stale 'x' versus 'ux' comment
-c683951b86f4beda3753da84cc9b9bf7d997fbe6 lib: cleanup "fake" tristates in Kconfig
-9e5aaaabd1dbdb1ee89ac0f2c7860d2e1caa9214 init/main: fix off-by-one in argv_init cleanup
-47ee549092ab54a612c64d09af3a8968b1c8a100 init/main: fix false-positive kernel panic on environment variable overwrite
-533ef11868f8128de3b332c713c57301c66d9aa0 proc: report SIGEV_NONE in /proc/pid/timers if target task has died
-9e8b8c46ebe5c9ab7d5e8f8fa525bbec60c89cdd selftests/core: fix unshare_test with large fs.nr_open
-9c1075ac1a14bb3b0326137ad0b2ba12cbf2550d lib/tests: add KUnit tests for errseq
-c119d3bdab7f3c6b2ec8941e09f0f713717bf242 xor: add missing vzeroupper to AVX code
-3ee74e77ac3d2004fee60ddc263cdfaf84b81861 raid6: add missing vzeroupper to AVX2 code
-15fc3a8462a09720e2082133eadb3f21690e98aa raid6: add missing vzeroupper to AVX-512 code
-fc35b9a425907c869d2e23746696c1f86f4eb2bb gcov: use strscpy() instead of strcpy() in init_node()
-70cff7fa7c2e680d1c9880e0feeaeacb45797b6d panic: introduce arch_do_panic
-42b922a97dadf5d899ca21f411db0e1c3132da03 s390: implement arch_do_panic
-47aa7336ae195a1954a749da9efdb57b88f65c4a sparc: implement arch_do_panic
-7aabec3579e480faa68fd793c8a890ce1b32b980 lib: decompress_unxz: make it obvious that there is no memory leak
-922302493a4b8344ac401276301b1b97204ad3d6 arch/Kconfig: fix dead conditions by removing dead options
-94805d6119c43e284f4f684e46bc44fa764c044e dyndbg: fix incorrect mod_ct value in dynamic_debug_init()
-2347cceafa52290fc7e702d6b9e602b90d915fbe dyndbg: clean up dynamic_debug_init() to improve readability
-d4c778002474090df7ce9187784c8a0187ecfa2f fork: honor task_struct's declared alignment
-3801a1bb4db0161a0b3b43f02341f6bb3b4be21d taskstats: fold the two pid/tgid handlers into one
-bd3e08a6b7c73da2246c5a8df1610ad404a3b01d ocfs2: restrict OCFS2_INVALID_SLOT suballoc slot to system inodes
-fa19fe15bca8aaebf57ee8ee4b4423d0250770b6 ocfs2: validate suballoc bit during inode read
-17cb256e29c01b163632c761ed6504d88c05b667 ocfs2: validate suballoc slot and bit of xattr and dir index blocks
-a70386413a2acd86e4cd30542c41ee26ad9b7d38 ocfs2: validate suballoc slot and bit of extent and refcount blocks
-9a07ab745652b0d87f72c8a2f63e887c5efac953 panic: remove the unneeded panic_print_get()
-edc0b64b593d664955a2a5260a79299e2f7c48b5 scripts/checkstack.pl: support llvm-objdump disassembly for x86
-80bc0906689cdb9e1633c896b7eca0bca3a9891c selftests: uevent filtering: don't shrink the socket buffer
-552e40d04cdb1dc0ba8b62eb34fc8d9d6d6c0b91 ocfs2: allow xattr bucket entries to span multiple blocks
-4a1d059887036f9e3ee1e167e103c66336c84949 ocfs2: reject inconsistent xattr bucket during defrag
-656dfb0318b5608497a3bc4fe588d6826a82c0d4 fat: calculate data area start without overflow
-1be56e99108ed3beb900e954dae247b30a38ca06 ocfs2: skip uninitialized lockres in ocfs2_mark_lockres_freeing()
-a68ca80059acc7a5e1993e3315fe5a2163cb629a lib/plist: fix plist_requeue() corrupting order in the last bucket
-eeb989ca7ec7398d04adf415e06a68fb6070ae8b mailmap: update email address for Ali Ahmet Memiş
-54f7b7ad2f359c689d6b4e00af55aa84a1c737b1 ocfs2: validate dr_fs_generation of dir index root blocks
-b6ee5d83503210e3d236e33236dbb0095360b99a ocfs2: validate dl_blkno and dl_fs_generation of dir index leaf blocks
-23225bf45d0bafc9f4cd8714227075df2aaee354 checkpatch: add more userspace directories to is_userspace()
-e0e3f7d5f9e2db48ec88ac231f645275e7ad5fd7 checkpatch: ignore <inttypes.h> format macros for userspace tools
-45ba78a9765aeae1bd9690f75578e15a85dce62f checkpatch: add --userspace to force userspace rules
-d01aaf191013d421905fe67284094e519121c1a2 checkpatch: skip kernel specific checks for userspace
-df786565cd1577884dc516e2ab20dd324bd0cd47 module: treat dashes and underscores interchangeably in module_blacklist
-0109c93cc05b8bc214e3c4235c4fd4d48870031e module: extend module_blacklist parameter to built-in modules
-fb7227c1ecf6b28b0ce328022e78db6357d47227 module: rename module_blacklist to module_denylist
-b1a915083b279fe99457a64e7d9f35da85a7ee19 bootconfig: remove redundant assignment in xbc_parse_array()
-c19b7f751cd1fd24ba75bef67c151aedd293ceff tools/bootconfig: fix integer overflow and truncation in size checks
-46c6832862f179f6605f69d50d55e5f517da3ab1 bootconfig: reject unexpected data after null character
-c19f81a64cae147f417bdb18b88ebf2b82379261 tools/bootconfig: consolidate xbc_init() to error message wrapper
-0cefc2cf0b7f67dca76646543e127e24112802c5 bootconfig: skip internal tree sanity checks in kernel
-13dd18e30d804e518940df0d02afb1c6fa186ac7 scripts/spelling.txt: keep British spelling for "initalise"
-e0995c5e89be202cabbd668859483d66317c7f39 lib/decompress_bunzip2: fix off-by-one in run-length bounds check
-9b97b24918df5d7e577165fe7c84a1cae573349b mailmap: update email address for Andrey Golovko
-389aa00eea97413bb8b14deb48879415ef6bcf1c rapidio: mport_cdev: fix use-after-free in mport_mm_close()
-dad37e9b053a642b9bb8d5a4fb8a23357652ceaa lib: validate in-memory LZ4 chunk length
-2cf9ed6d8ef91ec34bd09bc197beedb6166406cb taskstats: drop the unused CPU_DONT_CARE enum member
-c04b0e6b4968c75d7c7bedbea127378c10a70d81 ocfs2: fix chunk number of the first chunk in a local quota file
-c34f9e099ce369db8e727ce7410263f08767b011 resource: replace open coded resource_overlaps()
-6c15b01381f9e3c7f95bacd58cfd8a3d45c0b0ef CREDITS: fix the ordering and other issues
-b7e4f9fb435a5c3d251dc4e12daf9f230f8e97cb panic: fix redirect CPU race in panic_try_force_cpu()
-ed6dd7f698e68c417780467e1e85ced98c7e8ff6 panic: flatten nmi_panic control flow
-160ddcc1eea4616a2c2f5a995c79c07776a6a391 panic: fix va_list reuse in panic_try_force_cpu()
-dbb40b2952ff496cfe8efc6c8a0ba73804d3a074 panic: restore variable arguments to nmi_panic()
-ead89b738238956639da45fb654a98694edd5a33 panic: allow force_cpu redirect from an NMI
-c9b4717bff661eb4b7c7504a878abdd509b9296b panic: kill the "buffer unavailable" redirect fallback
-6f9a4127725f146138af9b3e58a2bf9634b81b44 lib/tests: string_helpers: check null terminator too
-5e4bcce6202c0c17588ace27f2c66dd1fd2a0052 lib/tests: string_helpers: drop unused parameters
-7070e7076caf1a1c2de014ff60c905fb4a21d29c lib/tests: string_helpers: introduce test_string_unescape_one
-e6ff661d08a70c2f66da52a19d7eb7362f368887 lib/string_helpers: use full destination buffer in string_unescape()
-e71bd92ab35e63b6f22aa974d50a50afb0f8553b lib/string_helpers: fix counting of remaining bytes in string_unescape()
-9bf751dcf134a674bc846e429f785f5b2d3bc228 lib: decompress_bunzip2: fix integer overflow in run-length decoding
-ccb16727a66dd9a625bfffc4a9d43fee6d203843 ocfs2: update xattr count before moving bucket entries
-d0823e1498e15ebf133dc5abc408352ad3477319 ocfs2: retain all security xattrs during inode creation
-f499ffa1355d275f700da99b7b963729e7f9f28a kcov: ignore an out-of-range comparison count in write_comp_data()
-07d8d40e18cf79a77bb46702537de193c9e5b93e rapidio: use dmaengine_get_dma_device() instead of chan->device->dev
-a079faa4543ff5600702e52b9a43203a945ed160 foo
-
---===============1025940643762700205==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7736b25e8d78-2e48d8f50935.txt
-
-33c8d1fb9cd7d7b35f5afdb7e8885dd7ea4f2d28 selftests/filesystems: fix missing and stale TARGETS entries
-cd1e5c0ff09cbc8a563040950b9370f82c8373dc module: fix lost error code from codetag_load_module()
-3c3af37c1b11d74df0459d711d1ca345b504d1f0 tmpfs: fix unicode_map leaks in casefold option handling
-c0a773630258487b5563495308f3afeff529a351 mm/hugetlb: do not dissolve gigantic pages without runtime support
-6e1a2e31364b65c035ccb6db7f94992f8054a6f7 x86/mm: fix pmd_modify() dropping the dirty bit
-10440b7b0dce2ae690f547b81e3d920d93eb3fe9 selftests/cgroup: account for zswap shrinker writeback
-e7de5f997f88e05da12abf91da0eddfe8d5f71e1 mailmap: update Haowen Bai's email address
-c30605f9ffe646a43c95fc2186e9df0f0eab5c04 ocfs2: make ocfs2_calc_xattr_init() return void
-fd422cad44b7f5a982f77834aea00604929e0465 mm/vmalloc: use dedicated unbound workqueues for vmap drain
-194854944b767ccf48d294eea36e095fdb2fa472 xarray: fix index jumping backwards in xas_find()
-d0d5c4e8faa1a08aaba56111746894d89cc28160 mm/damon/ops-common: use a page-aligned address in damon_ptep_mkold()
-db17de2945f0de1f3cf955de18bbf7527571e268 mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
-d1209b064794e85b7b4b7c5c531f5ae3669624b1 mm/damon/core: allow esz to be set to zero
-80c7022ef89b1bdbeeb1828ccfc3b2eea8844ce9 mm/damon/vaddr: avoid hw-driven pte updates during damon_hugetlb_mkold()
-d22737748571b536c7accf35ac4316f34ad156c6 mm/damon/core: fix unconditionally skip last region
-fb1908c1998d63a014851511a58b67e5a6e65678 mm/hugetlb: preserve mremap address delta when skipping page tables
-5520efb6102d2ac3717a46ee7dd8e8dc47b41511 mm/rmap: fix missing barrier between anon_vma init and vma->anon_vma publish
-b9a65ea705227c70df9cefa7926ea51571ed6619 MAINTAINERS: add Baoquan and Baolin as MGLRU reviewers
-3a2a4241985bbe762d4b29919831516af7338e42 mm/damon/core: reset invalid quota->charge_target_from
-60c8f985f1112932539b79a4080b3589bf1dbbf2 writeback: report a Tasks-RCU quiescent state per cgwb drain pass
-b5cfafc2ca35abe112426319a0e9f816ddceeb64 MAINTAINERS: update Xu Xin's email
-6cf63fd84c60fcf5699b75ea138f09e132cedb4b mm/page_alloc: avoid direct compaction for costly __GFP_NORETRY allocations
-3f8e164a6939189547a7bb01ac656504d6ec7d44 mm: shmem: ignore sysfs configs for shmem forced collapse
-b05e7ac942a2abb67f5f78456dd9f8160187e693 alloc_tag: avoid implicit padding in uapi
-c4bdd860b793a7ed536f6a834a93ab2ff801c615 mm/damon/core: don't skip damos_adjust_quota() while esz is not zero
-595a161cd6b5e67e51bc548d19fe3bad77e70b47 kasan: unpoison task stack below watermark only in generic mode
-2e48d8f5093582a110dc422c7cb7d3fd0006ca7d mm/huge_memory: simplify pgtable deposit detection
-
---===============1025940643762700205==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-93f615a22169-79acbe575d99.txt
-
-33c8d1fb9cd7d7b35f5afdb7e8885dd7ea4f2d28 selftests/filesystems: fix missing and stale TARGETS entries
-cd1e5c0ff09cbc8a563040950b9370f82c8373dc module: fix lost error code from codetag_load_module()
-3c3af37c1b11d74df0459d711d1ca345b504d1f0 tmpfs: fix unicode_map leaks in casefold option handling
-c0a773630258487b5563495308f3afeff529a351 mm/hugetlb: do not dissolve gigantic pages without runtime support
-6e1a2e31364b65c035ccb6db7f94992f8054a6f7 x86/mm: fix pmd_modify() dropping the dirty bit
-10440b7b0dce2ae690f547b81e3d920d93eb3fe9 selftests/cgroup: account for zswap shrinker writeback
-e7de5f997f88e05da12abf91da0eddfe8d5f71e1 mailmap: update Haowen Bai's email address
-c30605f9ffe646a43c95fc2186e9df0f0eab5c04 ocfs2: make ocfs2_calc_xattr_init() return void
-fd422cad44b7f5a982f77834aea00604929e0465 mm/vmalloc: use dedicated unbound workqueues for vmap drain
-194854944b767ccf48d294eea36e095fdb2fa472 xarray: fix index jumping backwards in xas_find()
-d0d5c4e8faa1a08aaba56111746894d89cc28160 mm/damon/ops-common: use a page-aligned address in damon_ptep_mkold()
-db17de2945f0de1f3cf955de18bbf7527571e268 mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
-d1209b064794e85b7b4b7c5c531f5ae3669624b1 mm/damon/core: allow esz to be set to zero
-80c7022ef89b1bdbeeb1828ccfc3b2eea8844ce9 mm/damon/vaddr: avoid hw-driven pte updates during damon_hugetlb_mkold()
-d22737748571b536c7accf35ac4316f34ad156c6 mm/damon/core: fix unconditionally skip last region
-fb1908c1998d63a014851511a58b67e5a6e65678 mm/hugetlb: preserve mremap address delta when skipping page tables
-5520efb6102d2ac3717a46ee7dd8e8dc47b41511 mm/rmap: fix missing barrier between anon_vma init and vma->anon_vma publish
-b9a65ea705227c70df9cefa7926ea51571ed6619 MAINTAINERS: add Baoquan and Baolin as MGLRU reviewers
-3a2a4241985bbe762d4b29919831516af7338e42 mm/damon/core: reset invalid quota->charge_target_from
-60c8f985f1112932539b79a4080b3589bf1dbbf2 writeback: report a Tasks-RCU quiescent state per cgwb drain pass
-b5cfafc2ca35abe112426319a0e9f816ddceeb64 MAINTAINERS: update Xu Xin's email
-6cf63fd84c60fcf5699b75ea138f09e132cedb4b mm/page_alloc: avoid direct compaction for costly __GFP_NORETRY allocations
-3f8e164a6939189547a7bb01ac656504d6ec7d44 mm: shmem: ignore sysfs configs for shmem forced collapse
-b05e7ac942a2abb67f5f78456dd9f8160187e693 alloc_tag: avoid implicit padding in uapi
-c4bdd860b793a7ed536f6a834a93ab2ff801c615 mm/damon/core: don't skip damos_adjust_quota() while esz is not zero
-595a161cd6b5e67e51bc548d19fe3bad77e70b47 kasan: unpoison task stack below watermark only in generic mode
-2e48d8f5093582a110dc422c7cb7d3fd0006ca7d mm/huge_memory: simplify pgtable deposit detection
-1592dfe58383f375954384d370429857cee2045a mm: use a folio in the softleaf_is_device_private path
-72f1d2b21bbce95ac518c41f60554d4a199519f4 mm: drop stale MAX_ORDER references
-0595ba8ac0b197b8689b3896a656c6bc6f769dc7 mm/vmscan: drop the combined limit gate in __node_reclaim()
-e43bf3426532d5cb1d4bab0b44544cfe4e915a43 mm/vmalloc: avoid false sharing with drain_vmap_work
-44b24750847a8d9ee37ef7c8a4f07e3cf8558ca9 mm/hugetlb: fix resv_huge_pages double decrement in memfd error path
-68bfe022233bdfa516677f2c8902e4672de0c555 selftests/mm: remove the local PKEY_UNRESTRICTED fallback
-912119ef4b6ecb030373bcc2bc4795eca5b94440 mm/mglru: preserve inactive placement when enabling MGLRU
-72b8cbd2550d633fe0fce267aa4370409ad6a2c0 mm/ksm: mark migration stores with WRITE_ONCE()
-fc0f705b2370966155c48f5b5e35ce45b9c3082e alloc_tag: skip percpu counter allocation when profiling is disabled
-90d2994ad86004d6d27a527e3c842a1ba29b6ba6 alloc_tag: remove /proc/allocinfo outside of mod_lock
-6c92a0069d028fd13cd18aac6ae7a5b3bef790d1 mm/hugetlb: use hugetlb_vmemmap_optimizable() in boolean contexts
-010f5562235acca08b913e050f124125017490b3 docs: ksm: fix typos in sysfs knob names
-1c895c1f482309c914100657cd1fc53c328339df mm/ksm: fix advisor_min_pages_to_scan description
-c7e0b9b3bc702184a625756cfeb1cb969efc1fdc selftests/mm: fix line buffer leak in mremap_test is_range_mapped()
-6b36cde16928e0dcc3c0bfcd0e84d41f26230871 mm/memcontrol: fix data-race on reading jiffies_64
-49af2ceeb25c1b58efa0fc633b610d35a2e951f1 mm/vmstat: annotate data race for per-cpu pageset fields
-d461b9c15c7fbd674d27a317847a5b29402ee909 mm: remove unused anon_vma_trylock_write()
-9bdca8864a7762b3d6aa7dea3831f055f5c74b41 mm/swap: remove unused declaration swapcache_clear()
-8fc8127e732e3bfec66c32efff281356eb3feef4 docs: cgroup: document empty-write behavior of memory limit knobs
-3954d256158f29dd946166893e2e80faf0140b25 selftests/mm: khugepaged: remove str_dup() usage
-7e287fcb19bcaf339f052723e74ccbb715dc7d39 mm/memcontrol: remove unused memcg parameter in calculate_high_delay()
-7dc4121e3dab5a8591fa714c640c649fb4c87ab3 mm/page_isolation: fix UBSAN shift-out-of-bounds warning
-c638ff660ceed208656f283f69eab1f27450e1be mm/page_isolation: guard compound_order() against racing
-599d0617b452118226f0119d9da5463ffff14871 selftests/mm: fix incorrect skip output in pkey_sighandler_tests
-da2cb6e124bac96d20f343385d21629c18337a2b mm/sparse: relax struct mem_section size constraints
-c55bcd68c9a5bd1e4e576dff1c9f76e5e3e8b9de mm/sparse-vmemmap: rename HVO order macros
-3d45fa124c6a19d29e45fec9e04a66743e216ab9 mm/mm_init: skip initializing shared vmemmap tail pages
-dda1280b1d77670dbb05525494363b5b214d0fa1 mm/sparse-vmemmap: initialize shared tail vmemmap pages on allocation
-838e8c79b73cbfe24c0b0759e9d32dc2ef33bcc4 mm/sparse-vmemmap: support section-based vmemmap accounting
-fd3dbbffb3a5d9555b52117b7a087887c43a9dd3 mm/mm_init: factor out pfn_to_zone()
-80a5fdcc9cd0a204ee5012a44d8649cfa0f31db5 mm/sparse-vmemmap: move helpers ahead of future callers
-b42801e45e7c596ce15f2c3ac6f1096d2b13f275 mm/sparse-vmemmap: support section-based vmemmap optimization
-7e387d356089f2dd7c1d072f56a2527c87e04f61 mm/sparse: initialize memory sections earlier
-cdecae6d56b41013c20b7de250a8bc5f592712d6 mm/hugetlb: switch HugeTLB to section-based vmemmap optimization
-5d1ca7cf294fe182aa9bf7491cc481235fae562f mm/sparse-vmemmap: remove SPARSEMEM_VMEMMAP_PREINIT support
-eeaf3329ce45ed97639f50525b5536cdd4f26630 mm/sparse: inline usemap allocation into sparse_init_nid()
-4479e9aa2ff4d33fc24d1059672fb6a93bd37342 mm/sparse: remove section_map_size()
-b5bd73838878118a20ce7a272c7215d6e7b6d066 mm/hugetlb: remove HUGE_BOOTMEM_HVO
-a436641daa8c56f295d59322c4247348a7a75ddd mm/hugetlb: remove HUGE_BOOTMEM_CMA
-f265ba7d134fd8e3baa3ba0425c13ab415147047 mm/hugetlb: localize struct huge_bootmem_page
-6b4e8e065c6b54de2b1c9fc06bc0cc1e74fe92e7 mm/hugetlb: localize HUGE_BOOTMEM_ZONES_VALID
-ed21243f76353f63ce189cd013f9ade7970fedb2 selftests/mm: emit TAP header in uffd-wp-mremap
-c83f9b5be263abeebba134912fcfca683a1f225d selftests/mm: emit TAP header and use TAP skip in mremap_test
-1b1d11b817e8f7f687c566550fef8b0386700dea selftests/mm: restore enable_soft_offline in hugetlb-soft-offline
-bd70f1a6600db2a102c2612f3068a1c4f306d980 mm/hugetlb: warn instead of silently bailing gigantic pages without runtime support
-8c316bc2aaf3ca72300f8a46bc769d628a681945 set_memory: add number of pages parameter to set_direct_map APIs
-33caddac21697c6e4d992d3cf754d67d37247f64 mm/vmalloc: set area's page_order after allocation succeeds
-38bc6e4efef5a09b2e903916e795bbc73c9cd182 mm/vmalloc: constify vm parameter of get_vm_area_page_order()
-814209ab67780788d71f6c97de1243105754316a mm/vmalloc: make set_area_direct_map HUGE_VMAP friendly
-906bf87ca57735b249e200eb7e6c223509cf4a37 mm/execmem: use VM_FLUSH_RESET_PERMS for ROX cache allocations
-e41ece75e83b4858afb52dcd6e58cde197381ab8 Revert "arch: introduce set_direct_map_valid_noflush()"
-54e1709fea2a2c16aca8258b5a2c172ebd706a97 zram: fix idle age_sec underflow in idle_store()
-a292e2323c84a5a726d36b2c85fa094ba4e16a29 mm: khugepaged: fix swap entry value to folio_pfn()
-9bf7e3f54928eac25d57abb9ff6cf7afad2d6a99 mm: khugepaged: fix folio is used after pte_unmap_unlock()
-1e7085c83cbc21e845f9f1696867386412c5ec94 mm: khugepaged: fix folio is used after folio_put/unlock()
-d84ccbe542f844f4e100642dfaf3f978c8b2b7db mm: vmalloc: fix vmap_purge_lock livelock under memory pressure
-c25012a1c3df640a87c6083b4e6e77421488994b mm: memcontrol: make obj_cgroup_memcg() handle NULL objcg
-b4780d4c6c8d1116ac2c82217f28ab88a770095a mm: shmem: move unused huge shrinklist queuing past the truncation check
-cc39eb89cecb4a375c446f0bfc814c064d87c863 mm: shmem: make unused huge shrinker memcg aware
-a61f87c9ecadf84e9906fd3f4c813fade430825a mm/list_lru: disable memcg awareness under cgroup_disable=memory
-2c5084d09162b9fcd4027f6a1743cd781d8edaec selftests/cgroup: test_zswap: wait for cgroup to unpopulate in test_zswap_writeback
-9a172bf85844c3d3b5fb120b1a8670681a7abe59 selftests/cgroup: test_zswap: fix implicit unsigned promotion bug in test_no_kmem_bypass
-ebb11f4e2b0fb49ee0fceb5ab5f7b5eaf807a260 mm/memcontrol: fix stuck FLUSHING_CACHED_CHARGE bit on isolated cpus
-75d2edc0ae617e1b63b24aff58d3b5eaa89a8384 memcg: clear FLUSHING_CACHED_CHARGE on cpu offline
-820444789ccddd8177b5de8d06a532cff1a95ce2 mm/mempolicy: take a cpuset cookie for the interleave node count
-f05e257303c6a6962acfbc8b2fb2984a5a381f80 tools/mm/page_owner_sort: fix --sort option being silently ignored
-f400d4ac41376b341f91004ad537e6209800b651 tools/mm/page_owner_sort: add module name sort/cull/filter support
-70266db71436652684501ce29bca1ef9588b1931 tools/mm/page_owner_sort: show available sort keys in usage text
-03b88027e3d37879df701764de0802292805a9d2 memcg: trim the per-cpu charge stock instead of draining it
-4b885525f8a46f1c4fecdb4c85196b146c71fc9c memcg: remove v1 soft limit reclaim
-b69b27140ff00690fad417eed1b552218047b543 memcg: remove mem_cgroup_shrink_node()
-47ed3ba1375ba78d5010193a7dc61bbc1c516ec0 memcg: remove the soft limit reclaim tracepoints
-00b40f8a7da5aa2ba0f3ea026a781c880ae0b6bc memcg: remove the soft limit rbtree
-a65d6ae0e9065012f974df8bbdda0fd2d8eb0eaf memcg: remove lru_gen_soft_reclaim()
-4cbf9f1f43bc5249eb8490f9b1d4a929688b2b85 memcg: remove the per-node soft limit tree fields
-938113f4a173669aabc38848f6eca7aee666ba49 memcg: remove mem_cgroup->soft_limit
-b544f581a14e3254c36f6718691498eaf7bd2d33 memcg: simplify v1 event ratelimiting
-d66861d1fd5933b44dd0fd07be5bb9c48d19152c mm/page_io: convert write completion handlers to folios
-6239dee17f48c11f1668ca63e07a0376f5d868f8 mm: remove PageReclaim
-4bfeb0efcc23fa23ac23dc5749e7ffb8f4847ad6 mm/page_io: use swap entries directly in zeromap helpers
-affa35ddadc34786e717b5a23fc714288f9f3aff mm/page_io: rename bio_associate_blkg_from_page()
-21f153acbe64e4bb66f8e27eb258cf23142bc8cb mm/page_io: refer to folios in swap_writeout() comments
-6d7b0197557c7dc0a46844b1fdf36c803cd2320a mm/swap: rename __swap_writepage() to __swap_writeout()
-b04344ce259d995eca5fa377c4c3883864d68381 mm/mglru: make type fallback logic explicit in isolate_folios()
-8460b91756912086c88c5c44eef0a3d70625170b mm/mglru: make retry logic explicit in isolate_folios()
-3f493ff86a97d06e17a72d6f78dce81fd893ea4e mm: revert slight behavior change for swappiness 1-200
-06848ae2e90b8ee32f486a2614798a9237907a08 mm/memory: simplify error handling in insert_pages()
-f07df3adbf05e8abb94f2ab09803e98d11380dd7 mm/memory: return -ENOMEM for page-table allocation failure in insert_pages()
-eb47f1376d7a2076c02195c874f8197cf8e07952 mm: adjust out-dated document of __GFP_NOFAIL
-5967a23c112042c57b32034f304acdf73b9ae1c0 mm/mempolicy: use SRCU for the weighted interleave state
-9e4b4310cb753cd2688d5fa9f0adce38b6b9b4c1 mm/mempolicy: stop copying the nodemask in the interleave paths
-1c3c812087efb4816ff4989b4191763b07cbc8b2 percpu: fix the comment about which sizes share a slot
-5649ba3d3ffa9bcc8ec19171cbc100440c6e6f79 mm, swap: distinguish a malformed swap entry from a dying device
-de4f22ca1865f6ef67d777ff725b8f218dae2e72 mm: fail the fault on a malformed swap entry instead of retrying it
-84b440e2ce1f341859d81ad4d7b431baa211454b mm/huge_memory: skip zone device folios in madvise_free_huge_pmd()
-e395eac26963d380f1eb9c66b06d5e83e7121273 mm/madvise: skip zone device folios in cold/pageout PMD range
-53666aa3f5c68109a43af91629136eb92b19a09b mm/mempolicy: skip zone device folios when queueing folios
-243c413456e42b0054446c1ef045ae8cff7fc6d5 selftests/mm: khugepaged: consolidate error exits via kselftest helpers
-0f6a48391e691ed4569494d66e89a4973de14938 memcg: acquire peaks_lock when reading memory.peak
-e0532d1b96603b7f7b76e14fb22d4319ac5dfd7e mm, memcg: fix memory.peak reset clobbering other fds' watermark
-fc6ac51e2b17012229d1d2812bee45bf7a70bbbd mm: cma: make mm/cma.h self-contained and conditionalize includes
-06852f53fe605fbd58f1d09c1f060d616de6db4e mm/oom_kill: remove unreachable __GFP_THISNODE check in constrained_alloc()
-686f54fa477cf3947b4566d25c380db9aa6ca7b3 mm/oom_kill, proc: replace magic number 1000 with OOM_SCORE_ADJ_MAX
-ecc48b3c13e5cd981376778b59930f785d4fcea2 mm: replace custom bad page map ratelimiting logic
-be98b1d0ee54da04c614bf34b174279caf27db9e mm/page_alloc: replace custom bad page ratelimiting logic
-78ecdf12ce40c6b1b651c0b124b92b42a6154a47 mm/vmpressure: remove window size TODO
-ac58622a60bdbc691e3a508ff09ba81acfc3e26d tools/testing/selftests/mm: add missing .gitignore entries
-1a90333381a738801d820e1476e5b034f388a58f mm: make per-VMA locks available universally
-9e0988654cc2918e831684d5546cc7ec40cde007 binder: make shrinker rely solely on per-VMA lock
-3f2519e98880571b66d22366f472f09b35f5d64e mm: add RCU-based VMA lookup helper that waits for writers
-b649c70804501fb4bf1279c8b09360c9e3d0a7bd binder: remove mmap_lock fallback
-c1abba9b4e9a643ef9b23582b391e6ee268d5092 tcp: remove mmap_lock fallback path
-aef8730b30a8fcfbd8301521fb3f7c2060fc97e7 mm: memcontrol: raise MEMCG_MAX for charges that fail without reclaiming
-65e7196eec9df86ecf5795de2b230e51a0774574 mm/damon/core-kunit: test probe_hits handling at region split and merge
-fc6efe9c7b838235a503359c91cf88d986b51599 mm/damon/core-kunit: test damon_valid_probe_params()
-01307b9fd7956edff08100335f2444119997a469 docs/mm/damon/design: accurate semantics of nr_snapshots
-b7037c7974dbf0c53f646bcf82870f76988535ad docs/mm/damon/design: difference between watermarks and nr_snapshots
-875a853799a9a7cfdde8c55822ff121a695e6779 docs/mm/damon/design: fix typo of max_nr_snapshots
-2a1383f9a178a151800f112f0018a9529f7f86a8 mm/damon/core: remove unused damon_targets_empty()
-8d95cb7b5ac83fbafd0461ac035908da34da2160 mm/damon/core: remove unused damon_nr_running_ctxs()
-4e3d028e4c659e8b109b68432f7576dd011da44f mm/damon: introduce DAMOS_QUOTA_HUGEPAGE auto tuning
-76f3ecba00291c7b30b3fc5573a0a1ff5fd03817 mm/damon/sysfs: support hugepage_mem_bp quota goal metric
-f28c89d46badc693e643dc0e3ffce37d99fb69ee Docs/mm/damon/design: cocument hugepage_mem_bp target metric
-fd8e179d1d30b7ca1cdea224048fded7ed9b91b1 mm/damon/core: remove declaration of __damon_commit_ctx()
-560412603a406652689a818d3429eb4352a658ea mm/damon/core: introduce damon_set_target_pid()
-621b0fa6964d1882262fb0d57b1a891edc0915b9 mm/damon/ops-common: factor out damon_putback_folio_list()
-23ca5656fa6138bc7d403e5fd58f1947834ba559 selftests/damon/sysfs.py: clean up sh processes used for obsolete_target test
-6d316b0769f448609cf93fbe4b9a03fdb9901bdd mm/damon/tests: use scoped_guard() for damon_test_ops_registration
-7e993ca7b1afb6ddb479192cbf7c3802e6168912 selftests/damon: prevent remaining cross-object state pollution
-bfeb1ec80103c4d9db914618f62fa723f98dd2fd samples/damon/mtier: add comment for struct region_range
-b080b37f00b2c5cc7b2695144b85f0e3f3331e77 mm: fix stale ZONE_DEVICE refcount comment
-b07b163457a278b5e207ffa5f358234b8e805b87 mm: add a set_page_section_from_pfn() helper
-502e866bf71c5c35b2d5488ba05b6aebba7e161c mm: add a template-based fast path for zone-device page init
-ba196c2bacee502eda41bbae54a75c005606648e mm-add-a-template-based-fast-path-for-zone-device-page-init-fix
-f2c9aff6e39f5d0c9d29964455baee14af262c58 mm: extend the template fast path to zone-device compound tails
-a06757c8851277d0efb6bd129c1d3be728f00b1b string: introduce memcpy_nontemporal()
-48ada6e69bead7b48acd740f8129a56de0a03e96 mm: use memcpy_nontemporal() in zone-device template copies
-8fa37339c2f4b0d4ff5f93f739a33fe9daef3962 x86/string: extend memcpy_flushcache() fixed-size fastpaths
-4e1558ab7a547ef209d31d1eae7e96cdca6e2ed3 mm/rmap: remove stale hugetlb check in try_to_unmap_one
-e3c609cd1e856986123176d6872b775d2ee5b67a mm/gup_test: report actual pinned bytes
-7074afd5ef75330502782b4da826bbe7361edac0 mm/huge_memory: do not touch frozen folios in deferred_split_isolate()
-5380bd511cad71cfeab75d5011ff47a9bb1f1e78 mm/huge_memory: dequeue the deferred split after the split freeze
-0a48366acf13a1546612cb94648eac059e307ad2 mm/hugetlb: preserve source surplus accounting during demotion
-aa77e0e9be9fb993c187e54016a73cf797e64941 mm/hugetlb: cap demotion at currently available free pages
-38206596085825bdabc500d173275b6424a53f46 mm: make ptval_to_str() generally available
-68b8d9111b6c65f05bd65115b1c8855b5107fee8 mm: stop using pxd_ERROR()
-72d134089122462bfbd755765d391c9e4caf40d5 loongarch/mm: stop using pte_ERROR()
-c9cbccfe5a035cfb8d8577d01a0bf117e13d4b83 parisc/mm: directly use generic [pmd|pgd]_clear_bad()
-87f3b905d5d6b34b1d762036c69012b7004f91d8 sh/mm: stop using pte_ERROR()
-0abb35be3d4bb96cc795395faa5c8f82232ac233 sh/mm: stop using [p4d|pud|pmd]_ERROR()
-46b7cce6dc97bb669d9c82ddd6f4b214e5f10301 sh/mm: stop using pgd_ERROR()
-b478bcac60a90cffe15f5a22f62c59aa48811aa8 mm: drop pxd_ERROR()
-82b2102c9b18f88709f8b5bddbdf9dc0033dd4a6 mm: add page_counter_margin()
-48d9fc0843f323918a27c53a00134e6d438a0745 mm: distinguish large folio swap allocation failures
-40550aba3f353325dc759b4cd61efeed6e01a6ad mm/vmscan: avoid pointless large folio splits without swap
-9ddc697ab703dad0132c2eeeb296ff607f68051a mm/shmem: split large folios only on -E2BIG
-adb25e9cf2f9e70882b036956a214811910b484a mm: gup: move pmd_protnone() into gup_fast_pmd_leaf()
-203cb8ddb44ab4c3529abc03030303330b5719e2 mm: gup: cleanup the gup_fast_*() call chain
-eb6e2fee9f8d3bca939cd3a186428f870b42e6e3 mm/page_table_check: add explicit pmd_none check in pte_clear_range
-b478ac0f9b9cda18ef4415bd95f90fa3c7526311 mm/page_table_check: skip zero pages
-cc7ecb2dfff017338de12f9118c98847d758708b mm/damon/core: skip applying scheme if region split for quota fails
-3b48cd58f6974876b522972ab9e8a2a7f57a5977 mm/damon/paddr: respect folio end for DAMOS_STAT
-c2c665d3595e38051fcbed06a02a095f198688cb mm/damon/paddr: respect folio end for DAMOS actions except STAT
-e214daa19754788c4f032f9d106261f0674e1c35 mm/damon/vaddr: respect folio end for DAMOS_STAT
-ef02fcc1e32d7410a6237ea2b1dd18704685e361 mm/damon/vaddr: respect folio end for DAMOS_MIGRATE_{HOT,COLD}
-0598008aa1d124aa0001082dabcf31a074e69fb0 mm/damon/core: handle extreme memory state in damon_get_node_mem_bp()
-e8fe2c21931b4021707860d4c0494981e4d9dc2f mm/damon/core: handle extreme memory state in get_node_memcg_used_bp()
-c648f92220b6c2f5b7ddcc1244a6ac02d8b3699a mm/damon/core: handle extreme memory state in get_in_active_mem_bp()
-b5603f2abe51f48e343025d4b69d11ab153bb787 mm/damon/core: introduce DAMON_FILTER_TYPE_PGIDLE_UNSET
-0fe772b61969ec341d0a8ae28db641c633c09a34 mm/damon/paddr: support PGIDLE_UNSET probe filter type
-2f9c363cd9be7d6a4cbd068d157cde36263c96ae mm/damon/sysfs: support pgidle_unset probe filter type
-5f55896487efca681ee724dd3c7e83e1d94f83b5 Docs/mm/damon/design: document pgidle_unset probe filter type
-44c736d5eae70987ec3090b2c06b56fcad0a31d6 mm/damon/core: introduce damon_prep struct
-a751fdd93408bccfd4fe27a061e9b11533fc4ede mm/damon/core: commit preps
-71608434e68296d508b6f1afa240268936b04d12 mm/damon/core: introduce damon_operations->prep_probes()
-442fa6a3db88fccecbca62d49a785d10b25abdb0 mm/damon/paddr: support damon_prep
-a19376580584a6413fd60d437d823586c3cdf22b mm/damon/sysfs: implement preps directory
-88a5ac65ac48d8e4eb914b410d8fe9cba7ba3083 mm/damon/sysfs: implement preps/nr_preps file
-2e4426b1983a8fa7cff3ef7e7682f3ebf2c35980 mm/damon/sysfs: create directories for nr_preps writes
-3cffcdd78f5ce1da8d59e22ea86c4f3db193621c mm/damon/sysfs: implement prep_action file
-879bd9e7ef28c718bced8b2dc32ea72f5fbd0819 mm/damon/sysfs: pass preps to DAMON core
-3ff300a44363228ee1c5d61078d700448c3932d1 selftests/damon/sysfs.sh: test probe prep sysfs files
-78d001c15690e229cebc2e849ef33a376e232c97 Docs/mm/damon/design: document probe preps
-b548e634f5fc10744aab3aba86e7826e8baf6e43 Docs/admin-guide/mm/damon/usage: document probe preps sysfs files
-63fc60f16f3d9f21d416a71907bd199a19dbccad Docs/ABI/damon: document probe prep sysfs files
-a13512c33374da4077377088d353649e6ffd4fc5 mm/list_lru: don't copy stale shrinker id from non-memcg-aware shrinkers
-d42c8fb53f8a136b32941bc4e4f0b0fc2acde06e mm: remove unused mark_page_reserved()
-98f681e46f224be60b3fa1d4b1efe6c89ae245d0 mm: remove unused totalram_pages_inc() and totalram_pages_dec()
-615f7145addf992520e259cccc887d30fdb52bd0 percpu: remove redundant assignments to bits
-706a20a81d1442689b8b2d6b21f73ae99e3c1e46 percpu: remove unnecessary initialization in pcpu_build_alloc_info()
-d6a46e08a6f4bc6d97da94f842773146c0817ab9 percpu: remove unnecessary cpumask_clear() in pcpu_build_alloc_info()
-18bbc378f3e9e8df29e318876f1350238f8b12ef percpu: remove unnecessary return in pcpu_populate_pte()
-f9d9f9b5c7a6f1d66546654ee2b9926fb530e187 zram: remove unreachable kernel_read_file_from_path() return check
-9cf992f2aa2389dc2894e76e0899536dcfffcf6a mm/damon/tests/core-kunit: test committing psi goal to psi goal
-d5ab57585dd0234a9a083c8680329219147067c4 mm/damon/core: handle uninitialized damos_quota_goal->last_psi_total
-26bae3797d37df8e3a94c1d9c9606f70a50b3595 mm/damon/core: copy nid for eligible_mem_bp damos quota goal commit
-229f2b418304657f68da0d89d58d7461cf197fd1 mm/damon/sysfs: set next refresh jiffies per sysfs context
-c53cd090693a0c5ffb32f0292d5c5dd116d76e2d mm/mglru: separate folio generation update from LRU accounting
-b81ceb2e31e9c794ec3138d95ade45f4723bec93 mm/mglru: batch update lrugen->nr_pages in inc_min_seq()
-b9322dc8b87b75f8fc80f4144fd745605864b97d mm/mglru: enhance cold/hot inversion handling in inc_min_seq()
-2e92cf9b5d460d01d151ccb9bbbe4f9f2c64947d mm/mglru: exclude folios promoted by aging from protected in inc_min_seq()
-d8f8e2a26af3b782fde4c4873007b6b09a82277a mm/mglru: make LRU folio prefetch helper an inline function
-aaa5fd1952b57c4febb7c923b722f592e358a149 mm/mglru: move folios from oldest gen to second-oldest gen from head to tail
-d8f895397c634346b03c75098bf450b8a5652eb9 mm/mglru: batch move folios to the second-oldest gen's LRU
-dedf560a028e5bd220c1fe07f4a25370abccc82d mm/damon/tests/core-kunit: test damon_commit_filter()
-7e0d562c505d70506592700903025f74dcb79aca mm/damon/tests/core-kunit: add damon_commit_probes() test
-cbc0f1e458bfbc14fa41ef955a0e7310455c8607 selftests/damon/_damon_sysfs: implement DamonProbes
-b7526fdd3cbcd3c1741c784b835f9eae1cca7732 selftests/damon/drgn_dump_damon_status: dump probes
-0e69314cba2780c4a9930e6d5cee7f7a5c79fdd9 selftests/damon/sysfs.py: extend commit assertion function for probes
-5855bfc57ee6b8d35aef669d351fda4b3e6bcaa8 selftests/damon/sysfs.py: test damon probes
-90096a48b271022d9e972db761b7ad74fa7f1398 mm: move drivers/char/mem.c to mm/char-mem.c
-105563364f204024e7fdfd9863343f0e5f37922d mm: implement file_is_dev_zero() to uniquely identify /dev/zero
-f213dffd6cc0605386dd2e79188482a0c667b2d1 mm/vma: only permit MAP_PRIVATE /dev/zero to be mapped anonymous
-988680dd7b77a1cabfd50dc51291b1e6b7ce9188 mm/vma: make MAP_PRIVATE-mapped /dev/zero mappings truly anonymous
-fc73717a7dfd972461dfbe19dd95ab53b5f8e635 tools/testing/vma: add test to assert MAP_PRIVATE-/dev/zero is anon
-5a3845e6ab47d8a139b1f69005481ade8f808351 tools/testing/selftests/mm: add MAP_PRIVATE-/dev/zero merge tests
-4aea3c84b8783ca614b18c5eaa52dc0722ef33f5 xfs: remove dead kswapd flag inheritance from btree split worker
-6620b285c09689d62199b27136a0e30dd017f78d iomap: simplify writepages reclaim guard
-aba2726522e7223e6dda6ec3cf6178dec5f78cbd mm: replace PF_KSWAPD flag with kthread_func() check
-48aaf236e35aa6698d805bc85de3190a3bef92fb mm: replace PF_KCOMPACTD flag with kthread_func() check
-d5fe7997ff3a514c1408250a6747901ce3281cdb mm: hugetlb: return -ENOSPC on memcg charge failure
-856d03ac309f461f5f2c5856340ac8f592fc56c9 mm: hugetlb: drop refcount before freeing on memcg charge failure
-b5bf8a780ad1cb9c5ad184a0233840579346d2f6 docs/core-api: memory-allocation: add k[mz]alloc_obj() and clarify kmalloc
-1c8aa717b92f077b03201055295a9a600f5a3e19 MAINTAINERS: add memory related docs in core-mm/ to MM - MISC section
-f7ee3e1fefa0db10508ee9631662dd39a981976d mm: trace: decode arm64 and sparc64 VM_ARCH_1 flags
-1cd99eca6b6265f879051cd05d2caa7d7fcb7770 mm: trace: decode MTE and shadow stack VMA flags
-b025a7218030e2c15b66f14f99f62ca50e12d9f4 mm: trace: name protection key encoding bits
-b55385e8bd0e4545cebdb7b2603fef29bb634ab0 mm/damon/core: use damon_nr_samples_per_aggr() for max merge threshold
-1c1b72337058e952bd487b1f6a85163796ea06cd mm/damon/core: remove debug messages
-77242f4c6107ae8db25117b0015aa1fe97d2e6ed mm/damon/core: remove string_choices.h include
-eb7a97f5b51859a96af9207b4baffd159ccdd4f4 mm/damon/vaddr: remove a debug message
-2f47b9bfdaa960c710679594e65144a2116da89a mm/damon/core: validate number of probes in valid_probe_params()
-8b2f8d059674d4ea5536055e716da747144f5fed mm/damon/sysfs: remove probes number validation
-a9026509f4ec96243655c16a6b429b10787bb602 mm/damon/tests/core-kunit: extend set_regions() test for error case
-47693b4f4a091957bea16991c4870b5748b2bf09 mm/damon/tests/core-kunit: test <=0 size damon_set_regions() inputs
-5e7594597b27e403ed692bdd3b6f820018b5a763 mm/damon/tests/core-kunit: test overlapping ranges for set_regions()
-34a81a1c7f949ab3ce71551f4ff6b7c3bb398d39 mm/damon/tests/core-kunit: test damon_nr_samples_per_aggr()
-d721102583760399848a7d60386812f2d3fabbcd selftests/damon/sysfs.sh: test hugepage_mem_bp quota goal
-0d66505064ffd28d6278aa82e51ebd3c21f7cc38 Docs/mm/damon/maintainer-profile: update AI review for Sashiko replies
-04b36c3c44b0da2857c1282b1d2f2bd171878803 Docs/ABI/damon: recommend subsystem doc instead of admin-guide
-af966f1f43d08c7c9b4b5b7f3d7e8b72cb6b3ba8 mm/migrate_device: fix function name in kernel-doc
-991c54617e8c54642747845f00cd313fb3f5d5b6 mm/page_vma_mapped: guard check_pmd() with CONFIG_TRANSPARENT_HUGEPAGE
-402bbb4b708322c531ef321088459ec06cb511cf selftests/mm: remove unreachable returns after ksft exit helpers
-780ebf48bc3703810fe5414f3d6400bf56cf2b97 mm/huge_memory: fix various coding style warnings
-8af3e50719f49ec9d89e4590ccb42209151d7800 mm/page_owner: preserve original free_pid/free_tgid during folio migration
-44f45d69da985cd7dbea3598ea956141d7959f8a mm/hugetlb: charge folios to the target mm's memcg
-91ac26289cecd6b787349b205e179049aac62c4c mm/page-flags: define HWPoison test-and-change helpers unconditionally
-5cfffd173b3ae0597490bb12f37b8e5c3c416c69 nvdimm/pmem: remove test_and_clear_pmem_poison()
-18a73ff0501d48685ab48347c72e08019f87070b mm/memfd: fix hugetlb reservation accounting in error paths
-662b7df07d4b0c1598b369a6a4cda8c131ccd7be mm/damon/core: error damos_commit_quota_goal() for zero target_value
-e74cf1e16f2093097840e12c3e82a704e67177ca Revert "mm/damon/lru_sort: error out for >10000 active_mem_bp"
-51b4873976f94b0837dcc7740b12e0e3da5653d6 Revert "samples/damon/mtier: error out for zero quota goal target values"
-a6a25866447775c02311a573332c84143c6bccd9 mm/damon/core: handle NULL ctx parameter in damon_call()
-22771846226aebbd028e572a4d13faef05b2238c mm/damon/core: set ctx->call_controls_obsolete in damon_new_ctx()
-310edda3a527c13579eb0f5deb8210e764603778 mm/damon/reclaim: remove unnecessary damon_call() param validation
-17cfff8f4b4c89327fccee21a8cd8f9b126e57c3 mm/damon/lru_sort: remove unnecessary damon_call() param validation
-3209b64bbb91d62660213600c8a05f292b82accc mm/memory_hotplug: factor out node_is_memoryless()
-66ad95c9ddad6a98c898fc7e19f758324397fc8d mm-memory_hotplug-factor-out-node_is_memoryless-fix
-5851cd32ffea0f87bcaf7e6815f0db7929528db3 mm: remove PageWriteback
-5e8c90bf97234961cc06f66c80681d57dcb60132 mm/memcontrol: move the lru_zone_size sanity check to the reader side
-09bb9766fa0f2758b294cb4301adb8d1c71a2f7f mm/mglru: introduce helpers for manipulating gen and refs flags
-1d5f80d5f7db12b877d0c5743859ed9260fea202 mm/migrate: copy all referenced state via folio_migrate_lru_refs
-96f43a65cc8e9fc0d4c8560aabed8abac7ed3bc4 mm/mglru: move max_seq read into walk_update_folio
-2a5895af1c8e103d67837a91bdcd452a82e95c36 mm/mglru: use explicit tier range in read_ctrl_pos()
-b5b0b53ab47a90f465af885c69420084d46056b8 mm/mglru: fix potential generation folio number leak
-66faa86ed96b9ab9f448b17f49f283ed38cb001b mm/vmscan: avoid false-positive -Wuninitialized warning, again
-260c3171aee4c06e593b2badace0f3f0dca02794 mm/memory: constrain generic_access_phys() to page boundary
-6c9c4fb7febdfa2ea42360932f2f33cc720a4aed docs/mm: ksm: use the renamed ksm structure names
-ebd88cd633ceb838eb11ae8643255022469eae79 memcg: move per-node objcg to the read-mostly fields
-f947e488fe5061f104a1ad1cc77bea422d8fb0f2 memcg: split mem_cgroup_private_id into two fields
-d7b8c9ae5e807f822540ccb97d75725f65bf6225 memcg: group the write-hot fields of struct mem_cgroup
-993d7cc348b566b5b32593b2c6457a52710e7a38 memcg: group the cold fields of struct mem_cgroup
-105287b69579ea34c855e1cd510e2f3e4acefe3b memcg: group the read-mostly fields of struct mem_cgroup
-ceb73f9361c455b57bca34f00e34e02c831814e2 memcg: group the fields of struct mem_cgroup_per_node
-99b69b6a1c7adc211fe070080bfd348e6564aea2 mm/zswap: convert zswap_store_page() and zswap_compress() to take a folio
-8db11affd719018677cb85bbbf6477339229324b memcg: don't call schedule_work when no spinning is allowed
-0d588fb77562b7bcc90765a6daed1a76fbdb194c mm/memcontrol: skip non-hierarchical memcg-wide stats when v1 is unavailable
-ca21ace824eba5a981e88ac33f457879634ba938 mm/madvise: swap in CoW'd MAP_PRIVATE-file mappings on MADV_WILLNEED
-672e8b1fd08878f757f53c85a60e166f36b9949b mm: memcg: redirect stats updates of dying memcgs for all hierarchies
-4432bbd9e87481454460ac94a2662a04b7248921 mm: workingset: use lruvec_page_state_local() to count lru pages
-7555f1385f82122d14c3cf78c847e377cc368e9c mm: memcg: skip the RCU lock when the memcg is not dying
-9c9e653bfb9a551fadd646e7e702c4c6fdd5be45 mm: memcg: reparent non-hierarchical lruvec stats on cgroup v2
-8a4aa534042d0ca10e2644e94c58fbfd8d5a9e2a mm/execmem: free ROX cache chunks only when they span an entire vm area
-8f4b1e88a13ac9e41c4019758f56049dcc24bddc mm/execmem: handle potential allocation errors in the maple tree
-add68e7e04c7e72fb07496913e7ba69be4f873bc mm/execmem: make sure ROX cache always contains multiples of PMD_SIZE
-86f32044811607318dc101fc7c5d7f888ec7850d mm/vmalloc: add DEFINE_FREE() for vfree()
-c8e7588bf5a50cb83c3a33b18039eaaeea5606ef mm/execmem: use cleanup infrastructure in ROX cache functions
-615b196bd8e7809545cf12b8773b793286667d1d mm: thp: restore SHRINKER_NONSLAB on the deferred split shrinker
-ccac6328b93db7664e9eabb4ba41c1311c609a5e mm: zswap: mark the zswap shrinker SHRINKER_NONSLAB
-a347f2be10338ff311848eb7a2bc3e78cec99351 mm/swap: add folio_swap_entry() and folio_page_swap_entry()
-76d6054cf98b87931e3d9e0c82d55cadea585f50 mm-swap-add-folio_swap_entry-and-folio_page_swap_entry-fix
-ea57198314c484c6287db2eedde1c38eac6b3289 mm/huge_memory: add a comment to the open-coded swap entry
-ee7a64450dedc1e64d474e22a17d9a349446e13c mm/rmap: use folio_page_swap_entry() in ttu_anon_swapbacked_folio()
-dbdf16108b46c6947da7af10ba9f7b76312dfd93 mm/zswap: use folio_swap_entry() in zswap_store_page()
-1c39e74c2cfac93b3b6b12e03b64e5bb18fa08f9 mm/swapfile: use folio_page_swap_entry()
-ccd141e28c19ebd3e25400d7b5845ab1c386647a arm64: mte: make mte_save_tags() and mte_restore_tags() static
-5df5a3af2d21db9cb9e363ea8e5ec168049a3284 arm64: mte: pass the swap entry to mte_save_tags()
-6cbe1c67ee47c0e8f3faa2cb4b713008872a716f mm/swap: remove page_swap_entry()
-5954fc30052aa5c7e85c32355f00f5f315471476 Docs/mm/damon/design: fix broken :ref: usage and a typo
-6a6abf6a84dda031bb480d3e1afd953811994521 mm/damon: move damon_hugetlb_mkold() from vaddr to ops-common
-be057f6d7032358105efd94d3a845a1a6d65991b mm/damon/ops-common: handle hugetlb folios in folio mkold/young rmap walkers
-09264d2de35bb4c1c67e86c62c5083b9dec674eb mm/damon/paddr: support hugetlb folios in access monitoring
-4329c6df7f38a683b9fe24786bfd9e7fcc022e88 selftests/mm: fix size truncation in pagemap_ioctl test
-52f1e394f19937b06872bb9ee86038921ffed837 selftests/mm: mark file-local symbols of pagemap_ioctl.c static
-7b28cc81d3c93938df80bc5efba9b9a2b6e6bed8 selftests/mm: init page sizes early in pagemap_ioctl test
-fb0880694da5d70b217fdd0d976de12ae719dfa9 mm/huge_memory: add folio_reset_partially_mapped()
-ecb13f7a3fa3ca2a81d81374695ddbca9384a144 mm/huge_memory: zap deposited page tables after an RCU grace period
-39cd25b29f159898f1bac030183c76232dc5cf79 mm: enable MMU_GATHER_RCU_TABLE_FREE for most 2-level architectures
-cbe818b7d750546da9cb2fd539fc10c18cfab2d7 mm: enable MMU_GATHER_RCU_TABLE_FREE for MMU riscv
-8517fe7d6c08dc7d2ef1ae2bc5e44110c64a4ebf mm: enable MMU_GATHER_RCU_TABLE_FREE for MMU arm
-616bf18273440817a9259db37d094365b8c9b8c8 mm: enable MMU_GATHER_RCU_TABLE_FREE for arc, microblaze, xtensa
-4f3ba2a79c286d2e561436c4f3aecbde639a89c5 mm: enable MMU_GATHER_RCU_TABLE_FREE for sparc64
-5abf9d5c2e1a954a78afa04dc901d63a6e15b2a9 mm: enable MMU_GATHER_RCU_TABLE_FREE for m68k-coldfire
-97dfa750f4287f19e28d893f288071eed56b0c2b mm: enable MMU_GATHER_RCU_TABLE_FREE for sh-X2
-b90757bf6ab0dc521735e1d340b1a5309be2acd6 mm: enable MMU_GATHER_RCU_TABLE_FREE for m68k-motorola
-fc7dc89b8d52eeffee5138833911831aff824346 mm: enable MMU_GATHER_RCU_TABLE_FREE for sparc32
-ceb365702cc004e7af50d7162ddb4d48cd9ea703 mm: make userland page table freeing RCU-safe
-5389dbded421652d63fed9cb99de541c05ecabba mm: change the contract for free_pgtables(), update docs
-ab94ccd7fb9b79ae228fdcb6862fc6fe48d04ee1 mm: vmscan: avoid anon scanning for GFP_NOIO with low swapcache
-6d5a2e5fc3e73a49d5257d3ab27cb7c70217b77f mm: mglru: clear the reference counter for rejected folios
-f789a51f3b279df6a4287385e16048b5cff6cbf7 mm/nommu: reject wrapping ranges in access_remote_vm()
-68a24a708197a6bcae91b93cb971730a5be8d8bc mm/swap: fix stale comment on swap_info_struct::cluster_info
-577c8190842fbb29c0e241e9eee738ec8b7f7293 mm/swap: scan by cluster in find_next_to_unuse()
-0e5083dbbd2576fa9cfae39a8f184aea9ed99fb0 mm/damon/vaddr: support prep_probes
-7e29386ac4d2441135f27dcf739d8d5ce32598b4 mm/damon/paddr: move probe filter handling to ops-common
-5ad69f456b9e24ebf683e8ecd3229f75ff491707 mm/damon/vaddr: support apply_probe
-5d316e6368575b582c53d1ee59cb0eed3c6b8c8b mm/damon/vaddr: extend apply_probes() for hugetlb
-4610299a9ee550a6e70bd62128f0284f61bdb427 mm/damon/vaddr: support pgidle_unset probe filter type
-e877aeb2d49c4c597916974bacee28cd41a5044d mm: zswap: don't fail a large-folio swapin whose range is not in zswap
-f775430a560cc36dc704c4358df82a5263cf4dc0 mm/hugetlb: fix subpool minimum reservation rollback
-84630d4785703b5f4e1fd9f26e73e8540a653a0f mm/zswap: publish the initial pool with list_add_rcu()
-f6fdbaa986dba7fa51d7f6996e4d28c3d42eae66 mm/memcg: clear folio memcg after changing per memcg stats
-1644d6039971d9bb60b126aa5dc32ffa3ece977f selftests/mm: reject invalid test selections before running tests
-1dd0c6e7ef3e035c77a4c75a29cb933b7131cf1a selftests/mm: only prepare ptrace_scope when memfd_secret is selected
-05c890932cd32d1cb1d1e63f8ebf8e90f8c4911a mm: zswap: convert zswap_invalidate() to take a range
-5a4c27e27e13bd3a941523d7a01a7a7728aace66 mm: zswap: skip xarray walk in zswap_invalidate() when zswap is unused
-c172db005aeafcb7c95a0547c937b77827d87244 mm: zswap: reuse zswap_invalidate() in zswap_store()
-b574df7e33b879aaa3cea96ad93ce3e21bda28d5 mm/khugepaged: drop redundant mm_struct pin in madvise_collapse()
-a07f4953007b8a0e8cbd55e0add184116b36ea94 mm/khugepaged: count collapses where khugepaged makes them
-a86bb0fb759e862ca5525698bda6670c5e1e11a0 mm/khugepaged: rename mthp_present_ptes bitmap to eligible_ptes
-484c7b7b04a37bed8afce2bddb0a43fec8b80f4b mm/collapse: add collapse.h for the collapse interface
-756b956d9c3e3c991b6fd50d6606373cac90e44f mm/collapse: state what a collapse may do in the policy
-4b4218c9134933ce3f0f6fb1416e317f62925ad5 mm/collapse: drop the collapse_possible() wrapper
-6322c1f4875a0021b1479670822790f5d8527971 mm/collapse: name the per-table scan reset for what it resets
-4fe6e362274b6dec927e2ccd392338a0e71d317d mm/collapse: separate scanning a PTE table from collapsing it
-1bb5234f8279a841be124fc9f7fbf66bc543caf0 mm/collapse: open-code collapse_single_pmd() in its two callers
-3094084d99cd5be082dfda393f10a18f82da1874 mm/collapse: work out the orders a VMA allows once per VMA
-38298b1490f87d9b267cb432630f08443cdcd4ab mm/collapse: declare the collapse interface in collapse.h
-c1f7378d7e7aa3b987f6a957f3ad683b5b5592ed mm/collapse: implement MADV_COLLAPSE in madvise.c
-e20d07ec26eb6d32c55115ca09ca5002ddc0ba91 mm/hugetlb: account for allowed nodes when gathering surplus pages
-485d2f906c86f1543bd05449795fe0444eb4f98f selftests/mm: fix ptrace PEEKDATA check in memfd_secret test
-1b451e15a0bce491af4e06b177b1b8d07448b67b mm: page_alloc: add missing hooks to bulk allocation path
-ef5c1f65532b02d1adb98807468a1b4784e9b48e zram: convert to SG-list zsmalloc object read API
-19e3349902c1f419cb989bede7a4cfdab5936cdf zsmalloc: remove old object read API
-80f68acc359a6fbcca685b2a8ad977b477055761 mm, swap: fix potential NULL dereference when trying a sleep table allocation
-cdf64baca16fe951430ce8456ee2649c2ad1d64f mm, swap: move setup_swap_clusters_info() after SWP_SOLIDSTATE initialization
-38029a3a8f54a69959d4d87fd3e09e8fc1f6bb31 mm, swap: return early from swap_extend_table_try_free() on first non-zero entry
-20fd4ad0e1d8e3d537a66cf20104604c48a1e8c2 mm, swap: remove unneeded swap_extend_table_try_free() in swap_dup_entries_cluster()
-718356dddfb430cbfe4962e0423a6b3c738dc93c docs/core-api: memory-allocation: clarify when to use kzalloc_obj and kzalloc
-10cc7f4a619e2304fd4f3498d484e517aeec2faf mm/page_counter: avoid integer overflow in effective_protection()
-42bc8fd786c15f90572ac494028c6da65c98d110 mm/mglru: fix ineffective memory protection for non-kswapd reclaim
-02b5db6910ef4ee8ee2c8d91b89bb63966acf86f tools/testing/vma: cover hole filling through __mmap_region()
-442ec6823e08f03aeab31e31aa73652d89f721c2 mm/zswap: enable zswap_ever_enabled in zswap_pool_create()
-d0b2bc062ca2035d61a0183ea2fb88f3616528fc mm/zswap: release retired pools via queue_rcu_work() instead of synchronize_rcu()
-f0c5a3e52030474a47704ed204292648d0d01112 mm/zswap: replace the zswap_pools list with an allocating xarray
-e692e6029f774e00f895e3f9602562736a9ba25f mm/zswap: reference the pool by id to shrink struct zswap_entry
-8624f0ab4eeb22639521be8721e5d2ad772d9546 mm/damon/api: introduce DAMON_FILTER_TYPE_PGIDLE_SET
-279aad211e4a4874a7fdc0c83a763a81590c5adc mm/damon/paddr: support DAMON_FILTER_TYPE_PGIDLE_SET
-70bdc961c5714aa8ba8a04f089f77194a1e55f95 mm/damon/vaddr: support DAMON_FILTER_TYPE_PGIDLE_SET
-3bdd85526466999add755459c6f5d43273aeae54 mm/damon/sysfs: support DAMON_FILTER_TYPE_PGIDLE_SET
-213c40266342ba7c42fa39dea9c4cbf19a0784b8 Docs/mm/damon/design: update for pgidle_set probe filter
-7dced9c209f49fcbb2dd57cf21b321c1892cee93 mm/sparse-vmemmap: introduce CONFIG_VMEMMAP_OPTIMIZATION
-c7b6fd28361021e01c77a00f8327db0ecbfa42af mm-sparse-vmemmap-introduce-config_vmemmap_optimization-fix
-c5ff08a41fe178fe82b7b142aec0bf545c139143 mm/sparse-vmemmap: factor out shared vmemmap tail page allocation
-828ba3da2d1f00234fd3f7d7bf99643637d27be4 mm/sparse-vmemmap: open-code init_compound_tail()
-bbdb7c530f3bb8e7b74a6ee6d1a70ca340312bf5 mm/sparse-vmemmap: prepare DAX vmemmap population for compound page orders
-92f09577a918c56419c63db4b59f27116ba5de6b mm/sparse-vmemmap: set compound page order for device DAX
-489c4ef0acab3bba9e8be019dd357241bb07de9f mm/sparse-vmemmap: switch device DAX to shared tail vmemmap pages
-b241e42a8344db2a8f0710e78794114fc005fb0e mm/sparse-vmemmap: move vmemmap optimization helpers to a public header
-40a6b04c1cc4f5d03a92b628015ccc702f080e9e powerpc/mm: switch device DAX to shared tail vmemmap pages
-81936c6c96280af1cb7af28519c236abbeaec0a4 mm/sparse-vmemmap: drop the extra tail page from device DAX reservation
-335f19e4048867d3da35c9232fe431040a882bb6 mm/sparse-vmemmap: drop unused section_nr_vmemmap_pages() arguments
-7e90304844bf3c6d387c7cb443d896de2acfb9b4 Documentation/mm: update DAX vmemmap deduplication docs
-27c479a648ecbb09a4929c811b4194978a3977d3 writeback: bound cleanup_offline_cgwb() rescans by rotating scanned inodes
-2e0b99788ec798df7897a59808371eb751df255c lib: fix lock initialization in region allocation benchmark
-c10b3680c61187dd1bddc52651bed4cddf04abb5 kselftest: mm: fix potential failure for merged VMA in guard-regions
-162d496678cca4a145e6e87fbc5b8ab0cfde0b54 mm/damon/api: introduce DAMOS_FILTER_TYPE_PROBE_HITS_WSUM
-423480582fee673c728f8a95914c3204097f7fdc mm/damon/api: clarify DAMOS_FILTER_TYPE_PROBE_HITS_WSUM behavior
-a389eff87449aea6c215ca099cf6fce91265a26d mm/damon/core: extend probe_hits_wsum() for moving sum based calculation
-65293b6d46e113eeef7467da610c608a163e145a mm/damon/core: support probe_hits_wsum damos core filter
-26f26ddf9a170dea100ed4a8d54701aa4ba76f34 mm/damon/sysfs-schemes: rename sysfs_filter->sz_range to range_{min,max}
-70e5bd1986c9e1ce9bf01cd294cb45877049e52b mm/damon/sysfs-schemes: support probe_hits_wsum damos core filter
-4cd2503b859e80dcca9ea6e319dd457f623ab5fb Docs/mm/damon/design: update for probe_hits_wsum DAMOS core filter
-a073a549f6f7126a943046fdc287e51fc40da3ef Docs/admin-guide/mm/damon/usage: update for probe_hits_wsum DAMOS filter
-da8d38f0009659fd66742ef5027a7252b13ef3af selftests/mm: skip khugepaged file tests if mkfs.xfs is unavailable
-691e61bfd61e31d32c9a7417cbacfde669710f75 mm/mempolicy: use vm_normal_folio_pmd() in queue_folios_pmd()
-0adc92f6c1b71b4d817ff1ca799b8356b5bb4cb6 mm/madvise: use vm_normal_folio_pmd() in cold/pageout PMD range
-3d8a3010d66986ec3d002196bfddcfb5dac4726f mm: refactor find_next_best_node to find_next_best_node_in
-cd1f9269a79b6dbaf1d89b4f9efbf978f066f5e6 mm/page_alloc: refactor build_node_zonelist() out of build_zonelists()
-7c7dc265bbbaf08f038afde04393de0ace54b728 compiler.h: add ASSERT_STATIC_STORAGE()
-2227dbfae295602bd01212027b45f0b2787bf200 idr: assert static storage for DEFINE_IDA()
-8bdb09d968916c56059d60c81a15859c243e4b08 maple_tree: assert static storage for DEFINE_MTREE()
-498d87ccc54669df12231b4bfbaf09ad046244d2 kselftest: mm: remove exclusion of building soft-dirty test in arm64
-25cbf46a3d471cf12e24b0925d2ad044478f3059 mm: zswap: return -ENOENT when the swap device is gone
-2ea98cbff77fc49a61202473cd0d29babd4cf8a8 mm/zsmalloc: replace PG_private with pointer comparison
-3cb1bc4b72657087ec49771b78660c0b9bd8a407 perf/ring_buffer: stop using PG_private as AUX page high-order marker
-cac58869dae6ea058331648c4505bbbc5e0ae478 xen/grant-table: stop setting PG_private on pages for grant mapping
-6ee7b2cdc2bad8c48432864dd1acc4ba4b61fd72 fscrypt: stop setting PG_private on bounce page
-bc1f97565bff623dea353f9c7ff7009b88c4f4b8 mm/hugetlb: use direct assignment instead of folio_change_private()
-e5121c19aad3e836ec79552a1efd8d7d2d8c9541 f2fs: stop using PG_private
-230c42a3679788cf304bf99555a5e546a70dbbcc f2fs: convert the ->private flag helpers to folio-only
-5b0d9f42882cfa3a549ec3212840d77edffcea36 erofs: mm/pagemap: add readahead_folio_last() to avoid folio->private
-536f94bcf852dc17d1dfbaada07022079d7cd4d2 erofs: use folio_attach/detach_private() instead of direct assignment
-9190d9a76fbb562a1e24fee79e02affe114692b7 mm/page-flags: check page/folio->private instead of PG_private
-3c1099377dc4a13b08506ba066806bd75db569a5 treewide: remove folio_set/clear_private() usage
-92382fac2e427c6f80c96fd6a2cdfa2450b1abe1 ceph: replace PagePrivate() with page_private()
-8139d47ce650a2c16b69cafeec4d87b15a261501 md/md-bitmap: replace PagePrivate() with page_private()
-677aa575c280bb08eee9edaddc870ec2b8bb73d7 buffer: replace page_buffer() with page_private() and delete it
-0e51ef84d59a96435559a71c33b168eaeca65c5f treewide: remove PagePrivate() and PG_private from comments and docs
-5be102617e1af2be072bb9763bb4478fb7f89f02 mm/page-flags: remove PG_private
-2143e7031ac3321ff536598c23ae7910c4985a11 mm/swap: fix off-by-one in swap cache replace sanity check
-d768f179af838b7bfaafac28efcae8ab556f9bb0 mm/huge_memory: fix rejection of swap cache folios with a mapping
-dc3b26018003173448c7c1478fbf2335e801bb2a mm/huge_memory: invert folio_ref_freeze() check to reduce indentation
-a449ff14f7b989f7e5a3571a81473ba6b7d1b2ae mm/huge_memory: split the routine for splitting anon and file folio
-da699f268cc615d7e107f488b9ef23dc92ca6686 mm/huge_memory: rename __split_unmapped_folio() to __split_frozen_folio()
-132654d6231fbfcbc158e444abd03b96cd01678a mm/huge_memory: consolidate irq and locking for folio split
-840a9ae352128ca2d4814be9d0c3f95638526e24 mm/huge_memory: move EOF trimming into the file split helper
-472e8a833d55f309119c5d7ec29d35ab09c4b952 mm/huge_memory: move unmap and remap into the split helpers
-bac36758e588e842ea766694beadd607e3e62f01 mm/huge_memory: rename remap_page() to remap_anon_folio()
-8bdfcd764acc8e0f7107d4d4a38e254d62581c89 mm/huge_memory: move the racy refcount check into unmap_folio()
-ee0a8563d7d0d8bd383ad6e12ab0e0c4a9cd4a28 mm/huge_memory: move filemap management into the file split helper
-a2c24a3140b2d9680584350fd1f2073e4544e197 mm/huge_memory: move anon_vma handling into the anon split helper
-26953adbdd03e166b6ea022548ca448fff176976 mm/huge_memory: move memcg switch into the file split helper
-e110d5cf783dfe04d3a119f29bb3f960df9cb63a mm/huge_memory: drop the unused do_lru argument of the file split helper
-9cbd5e2292f2a2fe88adaa3025ee2952e653b06f mm/huge_memory: clean up after-split folio freeing in __folio_split
-3db991d444cf9122f1b22583f064e33d7bd05432 mm/huge_memory: count only swap cache refs in anon folio split
-7a341d87eeeca3c2cd2573a653106b88eead0ab1 mm/huge_memory: drop the redundant mapping argument of __split_frozen_folio
-011a59ac657b60fe5dd01fb519ba149770f91c62 selftests/mm: hugetlb_madv_vs_map: add underflow test
-e4058f7b4b91fbfd52ef5a0a2a767ac66aab6b92 mm/vma: fix mmap_prepare file handling, remove file_doesnt_need_get
-fd9c42f3c952b20ad0038bc60c5d5428397fa0f0 mm/vma: predicate setting mmap_prepare VMA fields on new vma alloc
-475282a3641a130f359a5c1e653b1cd93f2e17a4 mm/vma: introduce and use vma_[flags_]can_merge()
-a42daa529e49b7c35e7a6acf15848f524d05c781 mm: consistently validate VMA state after mmap[_prepare] hooks
-413ec8d2299356ff4e574555caa624fbb25b3d94 mm/vma: ensure mmap_prepare doesn't set actions on a mergeable vma
-ec3ffedc5e615544f7e2e94ea2f57f41fea5ac57 mm: make map_kernel_pages_[prepare,complete] internal and unexported
-98256a372490301c9a75d2e4c0714958622c3035 mm/vma: tidy up map kernel pages enum values
-09d91754738ce10196b0062dba03d32c5d2bc514 mm: add mmap action for discontiguous kernel page mapping
-165e38f6a70c9b465e694d6f87e90ea93274afc0 docs: filesystems: update mmap_prepare docs for discontig kernel pgs
-a174ea2c3a6475b404f36b4ff4a77ababdc4330c drivers/usb/mon: update to use mmap_prepare + map kernel pages
-abb8ae552e127969e343dafd9a7780fbdcdd66ad infiniband: update hfi1 to use remap_vmalloc_range()
-a2d50154f54cc6b36a05e50050e504bce6312fb7 selinux: reject writable opens of policy file, drop mmap shared/write check
-ee30f625bce408aa6163ca15887763b26e6facaa ALSA: pcm: use vm_insert_page() to map PCM status page
-b0d4b38f07ca8dc62107171043a1a0022abff8f1 bpf: arena: mark arena_map_mmap() mappings VM_MIXEDMAP
-3d13c2511d426ec71e7408580b0ba0f52a2b9e71 mm/vma: add vma[_flags]_is_kernel_owned() predicates
-2b282a26cc4a179549d3e1100e21f7c240adbb05 mm/vma: only allow mmap to clear VMA_MAYWRITE_BIT if kernel-owned
-56f51db4d2d86e74e52d8edaa98a096f8d5a7589 mm/vma: add and use vma_[flags]_is_fixed_mapping
-478cfaacb94b880affdc5246ad18b03a4bd5b81f scsi: sg: convert mmap hook to mmap_prepare and rework
-8dc78e7100bf2c348146fac448d9bfa6e9e0b1cd fbdev: defio: assert FBINFO_VIRTFB, drop VM_IO, add VM_MIXEDMAP
-f6a2007c6a18b197790d23d76634c1ad3ed000c7 HSI: cmt_speech: convert mmap hook to mmap_prepare, refactor
-1ae91f79d96093397b2cefdbfbc461f103ba2a3b mm/gup: error out early on !VMA_MAYREAD_BIT VMAs
-976ec2991cf9d057923450e8021d649f60452722 uprobes: remove VM_IO, set VM_MIXEDMAP for mapped kernel pages
-b2e6ed5f6428be9f8918ab5bc09aea62a30004f1 mm/mlock: clear VMA_LOCKED_MASK over mmap callback
-3ce84a179083aeb37e2e4d216997f9f35461a87e mm/mlock: eliminate weird VMA_IO_BIT abuse and simplify
-d1b51ae18e27bafca9200939c2ddb8c2effb2dfe mm/vma: enforce that only kernel-owned mappings may set VMA_IO_BIT
-24b0a5563268575f58fe335c7aa390a6128a1be0 mm: remove VMA_IO_BIT check in vma[_flags]_is_kernel_owned()
-f1f0a6b6e734c7ce8a22e7a227dfeecffea20e4d mm: remove hugetlb_inline.h
-fe393d647870204c71c84b308b097d8d0dd36f59 mm: rename is_vm_hugetlb_page() to vma_is_hugetlb()
-4d6b17c42454b61d4c2de042deb72a990b70d701 mm: drop some redundant checks around hugetlb VMAs
-5552eb38935830f92dea58e3684f388214651a8b mm/madvise: update is_valid_guard_vma() to use vma_can_merge()
-853b6ff3b3b5c45bab04f49c57f226097bfd35ef mm/vma: introduce vma[_flags]_is_persistent()
-f575535021c2cc85a0d76adcadd35122b6f68ba2 mm/uffd: use predicates for userfaultfd checks
-7c240519bb967d8cf78de90d03946d4d3c7bf025 mm/madvise: use predicates for madvise(..., MADV_DOFORK)
-b24aaa5c2f09d88e4e8aec8f89389a85bbb74539 mm: eliminate VMA_SPECIAL_FLAGS usage when hugetlb explicitly tested
-4c6f7355ec6b6bc3e4df012348ae041d1f5c4ad4 mm: eliminate VMA_SPECIAL_FLAGS check in lru_gen_look_around()
-59a610687df8869766a2657a607b0e26103ae3d9 mm: avoid use of VMA_SPECIAL_FLAGS in migrate_vma_setup()
-8fa7d7ffc52a5ef548cf176d23fd1750122facce mm: eliminate VM_SPECIAL, VMA_SPECIAL_FLAGS
-3ce79a1b3504e1519ac542e949a1a4747221833d fuse: dax: do not set VM_MIXEDMAP
-f74e16c83aebe9fea7575f66b11d514888708620 mm/huge_memory: remove vma_is_special_huge()
-61939fb09775f8d373053b2c530690137ec540ed mm/vma: introduce and use vma[_flags]_can_gup()
-129943a28e7f81d6d78cf5a3717638f994a8d439 mm/damon/sysfs-schemes: read sysfs_filter->addr_range only once
-da7d655ef815cb8250715dbcd23472cdd6a4367e mm/damon/sysfs-schemes: read sysfs_filter->sz_range only once
-50c16af615f43e378abee344485567b03e938a60 mm/damon/core: return an error from damos_commit_filter_arg()
-0d69700bd5876e47929d93047965a39f1bfb98f3 mm/damon/core: disallow max < min damos filter range arguments commit
-dcc3d3078809b5f5c1bc12033fe6773d263a6dd7 mm/damon/sysfs-schemes: drop centralized filter range arg validations
-52b8ecbaa329e6336284389a0d40eb02b1295255 mm/damon/sysfs-schemes: use switch-case in add_scheme_filters()
-5ad7f1cc9dcbb74dc4a32b44c1c424b3f2cf0622 mm/damon/core-kunit: extend damos_commit_filter_for() for wrong input
-0aff93d5bccd173a55f1c073566a25f20e1e4e03 mm/damon/core-kunit: test invalid damos filter commits
-658d8a9270ad6df6a54655707fd47fd933385270 selftests/damon: stop kdamond on error exits of no-op commit test
-b01fad3437c49e20ac6fa2500c82967d78222fa6 selftests/damon: ignore test-generated damon_dump_output
-711a2cfbe71670b78fa094d1df0f0a26af30827c selftests/damon: add script dir to sys.path for PYTHONSAFEPATH compatibility
-5f77590a98aca456e4be44d7f9358821cbee97c3 mm/damon/tests/core-kunit: improve nr_samples_per_aggr test isolation
-43b472b1f3e09d877a40eac2ff08e3abb62b1ee4 Docs/mm/damon/design: clarify when qt_exceeds increases
-5f037f5a54cf640b2cfe88c6294cdfdde7f31aa4 Docs/mm/damon/design: fix typos in temporal auto-tuning algorithm section
-c2d057098e19d405825d19ebb28b95e66d0e649a proc/task_mmu: handle special PMDs in clear_refs and pagemap
-56267c547714ea84dfd3f035a083c1bc315d3f62 mm/vmalloc: group xa_init with vbq field initializations
-328b9bc39108b31e05f7e34200d5d26eb1ecd03c mm/vmalloc: extract vmap_insert_free_area helper
-8728a7b3ea591ef66489c3c9b1e1837bfde1c53f mm/vmalloc: extract show_busy_info from vmalloc_info_show
-86ac927deaa3f809e63ac7c8fd21bf22c4e98edb mm/secretmem: fix the enable parameter description
-e58d8ae96134fc242e2ca4134b9a387edead0404 mm/madvise: reclaim isolated folios if PTE restart fails
-2c56225bda3456f71567b4d7247d96e1148c5164 selftests/cgroup: ignore memory.reclaim -EAGAIN for zswap writeback test
-b32f8527e69e754ee8d0c9b2b56a3df525a26ebe mm/hmm/test: reject overflowing page counts
-2e8b468f96aded5fae5334b470d4fa424e2b73cc mm/damon/api: introduce DAMON_FILTER_TYPE_HUGEPAGE_SIZE
-8095ce5e4ea9fed29bb20e128400d83b82752072 mm/damon/core: commit hugepage_size type damon filter
-bb0bd686f2b5793d337cc74aa5333c5372cad055 mm/damon/ops-common: support hugepage_size damon filter matching
-75e45831e3b4f1af5fdc2f27a0622c36690f1b0d mm/damon/sysfs: add min,max files under probe filter directory
-111fa8bce554c5800d58259fd06447be99b43538 mm/damon/sysfs: support hugepage_size probe filter
-2049edf7374270dc0cd5dd2460739470d6dbc990 Docs/mm/damon/design: update for hugepage_size probe filter
-b162bcf5116e95dd866825b18cc0c52d039c0c38 Docs/admin-guide/mm/damon/usage: update for hugepage_size
-e08149291dc83088a4b8358f486064fa2c79097c docs-admin-guide-mm-damon-usage-update-for-hugepage_size-fix
-7e82fa418cda4cd20d62a43d90972f7b0b2ec556 docs-admin-guide-mm-damon-usage-update-for-hugepage_size-fix-fix
-72da04a41011d34ba2aabd021a3d0597494caf06 Docs/ABI/damon: update for hugepage_size probe filter
-1bf8ecf9255cedeb5119a4d56a6dc35f07e49045 mm/gup_test: safely calculate GUP batch size
-ad3b16858ba1ecf748fce1a19ca2dcadbcc3cdc7 mm/mglru: restore accidentally removed seq < max_seq check
-62679a9e74f212745b0cbd95cd8c64cd6e980900 mm/hugetlb: fix misspelled parameter names in comment
-6335a5213ada1251ed91864ce0abcb44cfc387a4 mm/page_alloc: apply per-task GFP context in bulk allocator
-a24212b888ee9f6b0e8e235b792d71b2c9cf9847 mm/madvise: use folio_trylock() in the cold/pageout PMD split
-7d8584756237027bcff93316b0249b92c8f9c987 mm: memcontrol: take a const folio in folio_memcg() and friends
-84f3307ef5d8b92d28145f7ceb9850812994fba4 mm: memcontrol: constify obj_cgroup_memcg() and friends
-7422348151f5fa5007b9a6848d9dabd45a7c00da mm: memcontrol: constify the lruvec helpers
-4109c7f12bce4da1684c8e1581a71052736ac8bc mm/page_io: take a const folio in bio_associate_blkg_from_folio()
-24ddce4dd32ebea0695d8d29c917e5a3bfa79412 mm: memcontrol: constify the mem_cgroup accessors
-98a47c89344d0da542e3696da4f9146df6269b85 mm: page_counter: constify page_counter_read() and page_counter_margin()
-4ff57d1487759b6d4364ec50be35c882e87f8f9a mm: memcontrol: constify the reclaim protection helpers
-867bb37ae746d39553bc45f257475032f3b1f395 mm: memcontrol: constify the memcg and lruvec stat readers
-48a0e4d04c16ea178b98a922743a71751b9504f4 mm: memcontrol: constify the swap accounting helpers
-bd937b7e679e31e4e2df76b554bc6c129a9ed608 mm: memcontrol: constify mem_cgroup_swappiness() and mem_cgroup_get_max()
-e06abd6ba6a7d615812f7d9a33a1141f8b6247a9 mm: memcontrol: constify the zswap and socket pressure helpers
-6c688be1a70b4abe476112d0f98cbc27aa2f1114 mm: filemap: move lruvec accounting outside the xarray lock
-5fbff9206c9b1588dd87e04a4f6cb38ff7dcca8c mm/page_alloc: do not boost watermarks in kdump capture kernels
-7af0cf3a11b88a4ae0f237a96b8849913c5605e2 mm: mincore: use per-vma lock during page table walk
-2e2810107472dc561d52b060dcb0f061fbbc88c4 vmcore: convert mmap_vmcore_fault() to use folios
-8503a2ae25921dd0457f3692c7054633e3d4fbc2 mm: swap: move LRU insertion out of the swap cache allocator
-adef8d6aa364197811c9fc36febfb4ef748b0b98 mm: swap: drop dropbehind swap cache folios on writeback completion
-f5571e07cbf371cdef851ca2e939291a79d91a18 mm: zswap: drop cold writeback folios via swap dropbehind
-6da2bdfefa585b04d9b0a0d2f413564ac49f850d mm/vma: const-ify vma_assert_stabilised() and associated functions
-ba11473dcdcb83b9e2acf08eaf712bdf3db3d249 mm: implement and use vma_has_anon_rmap(), silence KCSAN
-9711732e0821d71bbcecad7f80df9e904dce8eca mm: update comments to refer to anon rmap rather than anon_vma
-5940873cc533eeebf691e534a0d2e3f8331689ac mm-update-comments-to-refer-to-anon-rmap-rather-than-anon_vma-fix
-6dc96651a72528d0a77867f80d65a9450746ca58 mm/damon/api: remove NR_DAMOS_FILTER_TYPES
-f5642535439ce72206a4e4fc5240bb480d56c932 mm/damon/core: use abs_diff() in damon_feed_loop_next_input()
-e2d99c1eec0acb5b1ae792ebf5fff0f8ab0e3994 mm/damon/core: use mult_frac() in damon_feed_loop_next_input()
-09b822ffb122121991463c1840a1f6876f57ffd2 mm/damon/core: set damon_ctx->walk_control_obsolete in damon_new_ctx()
-e867f451380e58d1f337fc35861e3518ebf3a5b9 mm/damon/core: document damon_call()/damon_start() race hang issue
-4283e4e18fc60ecce1827c6a541bcc1b34434c3a mm/damon/paddr: remove pa parameter from damon_pa_filter_pass()
-309f4b1b9e4382e6e9e0e4d60cf1dc79aa535589 mm/damon/tests/core-kunit: test eligible_mem_bp commitment
-5400c5dd7b2f232be13a638f45045c712b442909 mm/damon/tests/core-kunit: add probe_hits_wsum damos filter commit test
-d1cea704a50dc9a61e7bb2dd221a1c9d893c3671 selftests/damon/sysfs_memcg_path_leak: fail only for real DAMON leak
-31831d5fb415b2ab1086d29c22863ae993fa9544 Docs/mm/damon/design: clarify bp is basis point
-cbe6cb9063a5c9aded631d7427199ee37dc33b96 Documentation: kmemleak: describe the metadata pool, not the early log
-93052e4bbe0b64cc040d05c912dc220e0b039499 Documentation: kmemleak: fix stale statements about scanning
-bf7f2ce638d270d2ef7b0b6119e0614205c9213a mm: kmemleak: raise min_unref_scans to 3 for verbose auto-scan
-bdaf5fb8af86ef7d1167099d786dc1f85269fb89 mm: memory_failure: clarify the MF_DELAYED definition
-3d63e9d7ec0af23867e555e5b84707fd3d659e1a mm: memory_failure: Allow truncate_error_folio to return MF_DELAYED
-fe716b3801fb88660b04fb7654176d49ebad8dcf mm: shmem: Update shmem handler to the MF_DELAYED definition
-2c19a04f2606e76e210439df4062edbff4f3eb62 mm: memory_failure: Generalize extra_pins handling to all MF_DELAYED cases
-7ccb46cfb808473c90099ed82d8323441ff5e9c6 mm: selftests: Add shmem into memory failure test
-19395b40ec3f65d6fdc6b3abf2dc6a34cfc39f5b mm-selftests-add-shmem-into-memory-failure-test-fix
-5005881abf9730e183983be61a8b1fbec88aa27b selftests/mm: fix soft-dirty kselftest supported check
-fe1512aa4dd3cedd95fd3ea8ae9fcb302e98ff6b riscv: mm: fix concurrency in mark_new_valid_map()
-0d97925af6eadc9dc4b71e8614dddb849d533abf riscv: mm: exclude invalid THP PMDs from page table check
-52321d79c6b59d44365894888cc6f41252ba9d75 sh: remove CONFIG_NUMA and related configuration options
-35cfd83a8e991823cd5523e818974a1f070b4463 sh: mm: remove numa.c
-b0b2d1da104c923d1c27b31b09d6487246cfb9e2 sh: mm: drop allocate_pgdat()
-2d3a0545f7376ed2920acaa17373a063bd9ab40b sh: remove setup_bootmem_node() and plat_mem_setup()
-0c9c8b7f35c226a039438562bdff30c29e709e03 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-aec28daf0bdd60d2b688f08e55310e98401b5a94 sh: drop include/asm/mmzone.h
-04a9878ee5d922e79c15c32a22226f074476cd89 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-a479c009444c42bc463c8bc70d252d51266fe9d9 sh: init: remove call the memblock_set_node()
-786105f9fea14e44c2d72a9517f38ecaeecbfcc4 sh: remove SPARSEMEM related entries from Kconfig
-487ca86a503bd34d254045650e2452a2fcef995c sh: drop include/asm/sparsemem.h
-40a3a8c0850540c6cece7905acb9e0205e172541 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-79acbe575d99cddfed120131b9ec9296f5f40ae4 mm/swap, PM: hibernate: atomically replace hibernation pin
-
---===============1025940643762700205==
-Content-Type: text/plain; charset="utf-8"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-882e4828ce27-07d8d40e18cf.txt
-
-33c8d1fb9cd7d7b35f5afdb7e8885dd7ea4f2d28 selftests/filesystems: fix missing and stale TARGETS entries
-cd1e5c0ff09cbc8a563040950b9370f82c8373dc module: fix lost error code from codetag_load_module()
-3c3af37c1b11d74df0459d711d1ca345b504d1f0 tmpfs: fix unicode_map leaks in casefold option handling
-c0a773630258487b5563495308f3afeff529a351 mm/hugetlb: do not dissolve gigantic pages without runtime support
-6e1a2e31364b65c035ccb6db7f94992f8054a6f7 x86/mm: fix pmd_modify() dropping the dirty bit
-10440b7b0dce2ae690f547b81e3d920d93eb3fe9 selftests/cgroup: account for zswap shrinker writeback
-e7de5f997f88e05da12abf91da0eddfe8d5f71e1 mailmap: update Haowen Bai's email address
-c30605f9ffe646a43c95fc2186e9df0f0eab5c04 ocfs2: make ocfs2_calc_xattr_init() return void
-fd422cad44b7f5a982f77834aea00604929e0465 mm/vmalloc: use dedicated unbound workqueues for vmap drain
-194854944b767ccf48d294eea36e095fdb2fa472 xarray: fix index jumping backwards in xas_find()
-d0d5c4e8faa1a08aaba56111746894d89cc28160 mm/damon/ops-common: use a page-aligned address in damon_ptep_mkold()
-db17de2945f0de1f3cf955de18bbf7527571e268 mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
-d1209b064794e85b7b4b7c5c531f5ae3669624b1 mm/damon/core: allow esz to be set to zero
-80c7022ef89b1bdbeeb1828ccfc3b2eea8844ce9 mm/damon/vaddr: avoid hw-driven pte updates during damon_hugetlb_mkold()
-d22737748571b536c7accf35ac4316f34ad156c6 mm/damon/core: fix unconditionally skip last region
-fb1908c1998d63a014851511a58b67e5a6e65678 mm/hugetlb: preserve mremap address delta when skipping page tables
-5520efb6102d2ac3717a46ee7dd8e8dc47b41511 mm/rmap: fix missing barrier between anon_vma init and vma->anon_vma publish
-b9a65ea705227c70df9cefa7926ea51571ed6619 MAINTAINERS: add Baoquan and Baolin as MGLRU reviewers
-3a2a4241985bbe762d4b29919831516af7338e42 mm/damon/core: reset invalid quota->charge_target_from
-60c8f985f1112932539b79a4080b3589bf1dbbf2 writeback: report a Tasks-RCU quiescent state per cgwb drain pass
-b5cfafc2ca35abe112426319a0e9f816ddceeb64 MAINTAINERS: update Xu Xin's email
-6cf63fd84c60fcf5699b75ea138f09e132cedb4b mm/page_alloc: avoid direct compaction for costly __GFP_NORETRY allocations
-3f8e164a6939189547a7bb01ac656504d6ec7d44 mm: shmem: ignore sysfs configs for shmem forced collapse
-b05e7ac942a2abb67f5f78456dd9f8160187e693 alloc_tag: avoid implicit padding in uapi
-c4bdd860b793a7ed536f6a834a93ab2ff801c615 mm/damon/core: don't skip damos_adjust_quota() while esz is not zero
-595a161cd6b5e67e51bc548d19fe3bad77e70b47 kasan: unpoison task stack below watermark only in generic mode
-2e48d8f5093582a110dc422c7cb7d3fd0006ca7d mm/huge_memory: simplify pgtable deposit detection
-30b98f8c7551c0a25d6529d1de945a4a87a129e4 drivers/media/v4l2-core/v4l2-vp9.c: reduce inlining
-87a46b5edb5e2add4531c56b9ab825d64b8c4e77 taskstats: copy signal->stats under siglock in taskstats_exit
-9c2073476625fddad02711a5d47c93f54cc71779 checkpatch: skip CamelCase cache for --no-tree without root
-cfc0531a88daaa00e37a33f1a2152acb09da8b31 USB: gadgetfs: do not WARN about excessively large memory allocations
-9383908a4940bced23f695875469b6f6a9f50303 resource: fix lost wakeup when waiting for a muxed region
-52398558b2a974b3ff7a1fdb92994c2c7241f440 fault-inject: fix dentry leak
-8d63ea329e9f4cbb52a08b89ddafc3dd497fe096 mailmap: update email address for Bradley Morgan
-6dd1d5fbbd5f5eb619742ab03d9998937f5a1119 fat: fix fat_ent_write() for reverting the value
-bd18b1526df329d90bb7c8876119066f6de6f56b init: fix early boot crash with bare hostname parameter
-9d0a5fdc3cdef8705e024180a3412549d5ea4a04 ocfs2: fix deadlock in inline-data truncate transactions
-bfbf7e0abcdd5a16931abcac3cff24f99febd904 ocfs2: reject inconsistent local xattr entries
-714dcdf028dac7d4a4b7461990b787558a0c4661 raid/kunit: enable RAID6 PQ and XOR benchmarks if KUNIT_ALL_TESTS=m
-5c441f2bad795d3806cf6cfce4b0bf52a5f6c476 ipc/mqueue: release notification resources during inode eviction
-0bcc005c33b42bb2ed72d0c2aeb878487dde74ee klist: avoid accesses after waking klist_remove()
-79c98221805c6872f785d028f4e96e57a13ea152 lib/group_cpus: snapshot cluster masks to keep grouping hotplug invariant
-03e00fef46d02ffb841cd21aed669c8d612885ad selftests/membarrier: introduce helper to get membarrier command registrations
-01adf35a55e4cc2253f059f91f1c68970abada0c selftests/membarrier: skip unpermitted membarrier command test if preregistered by libc
-601c05df0f769cd26743bccd4023fb09272fe25b selftests/epoll: fix race condition in multi-waiter wakeup tests
-3b23cdeebc9cd67072661e896d742e3eeb038288 ocfs2: exit recovery thread on mount error path
-d7c9c661a0ee4d171168a49c632edc9b26aae1fc ocfs2: free replay slots in ocfs2_recovery_exit()
-c8cbd8bc68ef33fb294c30841a50b5ed220a76df ocfs2: defer suballocator block group reclaim to workqueue
-2e53b41e65265b34bad9b62df1b575ada689c5d3 init: simplify early_hostname()
-013418ac3cc8209ba907fe9b9575bcd16569e8a7 squashfs: fix fragment index table sizing overflow on 32-bit
-11fa3c5542119e0b7c759911eea0dac1cd37ca4e squashfs: make the fragment index table bounds check overflow-safe
-33de903eda5199635d1bb98ae7aaf917d4ed92b0 hung_task: reset warning budget when problem gets resolved
-76f2490a64a6864716b646925e9cbd89b79a5260 hung_task: log summary line when warning budget is exhausted
-57c38c4dc5118439f3a29ae6a88ddade8f1fe6ac init, arch: make CONFIG_COMMAND_LINE_SIZE globally configurable
-025cfd90b0aad5d264235d64f7d64042fe4843ae init/Kconfig: make config INIT_ENV_ARG_LIMIT user-configurable
-21cd376ffef68531c57a039c90958c27977e1dd7 minmax.h: update the stale 'x' versus 'ux' comment
-c683951b86f4beda3753da84cc9b9bf7d997fbe6 lib: cleanup "fake" tristates in Kconfig
-9e5aaaabd1dbdb1ee89ac0f2c7860d2e1caa9214 init/main: fix off-by-one in argv_init cleanup
-47ee549092ab54a612c64d09af3a8968b1c8a100 init/main: fix false-positive kernel panic on environment variable overwrite
-533ef11868f8128de3b332c713c57301c66d9aa0 proc: report SIGEV_NONE in /proc/pid/timers if target task has died
-9e8b8c46ebe5c9ab7d5e8f8fa525bbec60c89cdd selftests/core: fix unshare_test with large fs.nr_open
-9c1075ac1a14bb3b0326137ad0b2ba12cbf2550d lib/tests: add KUnit tests for errseq
-c119d3bdab7f3c6b2ec8941e09f0f713717bf242 xor: add missing vzeroupper to AVX code
-3ee74e77ac3d2004fee60ddc263cdfaf84b81861 raid6: add missing vzeroupper to AVX2 code
-15fc3a8462a09720e2082133eadb3f21690e98aa raid6: add missing vzeroupper to AVX-512 code
-fc35b9a425907c869d2e23746696c1f86f4eb2bb gcov: use strscpy() instead of strcpy() in init_node()
-70cff7fa7c2e680d1c9880e0feeaeacb45797b6d panic: introduce arch_do_panic
-42b922a97dadf5d899ca21f411db0e1c3132da03 s390: implement arch_do_panic
-47aa7336ae195a1954a749da9efdb57b88f65c4a sparc: implement arch_do_panic
-7aabec3579e480faa68fd793c8a890ce1b32b980 lib: decompress_unxz: make it obvious that there is no memory leak
-922302493a4b8344ac401276301b1b97204ad3d6 arch/Kconfig: fix dead conditions by removing dead options
-94805d6119c43e284f4f684e46bc44fa764c044e dyndbg: fix incorrect mod_ct value in dynamic_debug_init()
-2347cceafa52290fc7e702d6b9e602b90d915fbe dyndbg: clean up dynamic_debug_init() to improve readability
-d4c778002474090df7ce9187784c8a0187ecfa2f fork: honor task_struct's declared alignment
-3801a1bb4db0161a0b3b43f02341f6bb3b4be21d taskstats: fold the two pid/tgid handlers into one
-bd3e08a6b7c73da2246c5a8df1610ad404a3b01d ocfs2: restrict OCFS2_INVALID_SLOT suballoc slot to system inodes
-fa19fe15bca8aaebf57ee8ee4b4423d0250770b6 ocfs2: validate suballoc bit during inode read
-17cb256e29c01b163632c761ed6504d88c05b667 ocfs2: validate suballoc slot and bit of xattr and dir index blocks
-a70386413a2acd86e4cd30542c41ee26ad9b7d38 ocfs2: validate suballoc slot and bit of extent and refcount blocks
-9a07ab745652b0d87f72c8a2f63e887c5efac953 panic: remove the unneeded panic_print_get()
-edc0b64b593d664955a2a5260a79299e2f7c48b5 scripts/checkstack.pl: support llvm-objdump disassembly for x86
-80bc0906689cdb9e1633c896b7eca0bca3a9891c selftests: uevent filtering: don't shrink the socket buffer
-552e40d04cdb1dc0ba8b62eb34fc8d9d6d6c0b91 ocfs2: allow xattr bucket entries to span multiple blocks
-4a1d059887036f9e3ee1e167e103c66336c84949 ocfs2: reject inconsistent xattr bucket during defrag
-656dfb0318b5608497a3bc4fe588d6826a82c0d4 fat: calculate data area start without overflow
-1be56e99108ed3beb900e954dae247b30a38ca06 ocfs2: skip uninitialized lockres in ocfs2_mark_lockres_freeing()
-a68ca80059acc7a5e1993e3315fe5a2163cb629a lib/plist: fix plist_requeue() corrupting order in the last bucket
-eeb989ca7ec7398d04adf415e06a68fb6070ae8b mailmap: update email address for Ali Ahmet Memiş
-54f7b7ad2f359c689d6b4e00af55aa84a1c737b1 ocfs2: validate dr_fs_generation of dir index root blocks
-b6ee5d83503210e3d236e33236dbb0095360b99a ocfs2: validate dl_blkno and dl_fs_generation of dir index leaf blocks
-23225bf45d0bafc9f4cd8714227075df2aaee354 checkpatch: add more userspace directories to is_userspace()
-e0e3f7d5f9e2db48ec88ac231f645275e7ad5fd7 checkpatch: ignore <inttypes.h> format macros for userspace tools
-45ba78a9765aeae1bd9690f75578e15a85dce62f checkpatch: add --userspace to force userspace rules
-d01aaf191013d421905fe67284094e519121c1a2 checkpatch: skip kernel specific checks for userspace
-df786565cd1577884dc516e2ab20dd324bd0cd47 module: treat dashes and underscores interchangeably in module_blacklist
-0109c93cc05b8bc214e3c4235c4fd4d48870031e module: extend module_blacklist parameter to built-in modules
-fb7227c1ecf6b28b0ce328022e78db6357d47227 module: rename module_blacklist to module_denylist
-b1a915083b279fe99457a64e7d9f35da85a7ee19 bootconfig: remove redundant assignment in xbc_parse_array()
-c19b7f751cd1fd24ba75bef67c151aedd293ceff tools/bootconfig: fix integer overflow and truncation in size checks
-46c6832862f179f6605f69d50d55e5f517da3ab1 bootconfig: reject unexpected data after null character
-c19f81a64cae147f417bdb18b88ebf2b82379261 tools/bootconfig: consolidate xbc_init() to error message wrapper
-0cefc2cf0b7f67dca76646543e127e24112802c5 bootconfig: skip internal tree sanity checks in kernel
-13dd18e30d804e518940df0d02afb1c6fa186ac7 scripts/spelling.txt: keep British spelling for "initalise"
-e0995c5e89be202cabbd668859483d66317c7f39 lib/decompress_bunzip2: fix off-by-one in run-length bounds check
-9b97b24918df5d7e577165fe7c84a1cae573349b mailmap: update email address for Andrey Golovko
-389aa00eea97413bb8b14deb48879415ef6bcf1c rapidio: mport_cdev: fix use-after-free in mport_mm_close()
-dad37e9b053a642b9bb8d5a4fb8a23357652ceaa lib: validate in-memory LZ4 chunk length
-2cf9ed6d8ef91ec34bd09bc197beedb6166406cb taskstats: drop the unused CPU_DONT_CARE enum member
-c04b0e6b4968c75d7c7bedbea127378c10a70d81 ocfs2: fix chunk number of the first chunk in a local quota file
-c34f9e099ce369db8e727ce7410263f08767b011 resource: replace open coded resource_overlaps()
-6c15b01381f9e3c7f95bacd58cfd8a3d45c0b0ef CREDITS: fix the ordering and other issues
-b7e4f9fb435a5c3d251dc4e12daf9f230f8e97cb panic: fix redirect CPU race in panic_try_force_cpu()
-ed6dd7f698e68c417780467e1e85ced98c7e8ff6 panic: flatten nmi_panic control flow
-160ddcc1eea4616a2c2f5a995c79c07776a6a391 panic: fix va_list reuse in panic_try_force_cpu()
-dbb40b2952ff496cfe8efc6c8a0ba73804d3a074 panic: restore variable arguments to nmi_panic()
-ead89b738238956639da45fb654a98694edd5a33 panic: allow force_cpu redirect from an NMI
-c9b4717bff661eb4b7c7504a878abdd509b9296b panic: kill the "buffer unavailable" redirect fallback
-6f9a4127725f146138af9b3e58a2bf9634b81b44 lib/tests: string_helpers: check null terminator too
-5e4bcce6202c0c17588ace27f2c66dd1fd2a0052 lib/tests: string_helpers: drop unused parameters
-7070e7076caf1a1c2de014ff60c905fb4a21d29c lib/tests: string_helpers: introduce test_string_unescape_one
-e6ff661d08a70c2f66da52a19d7eb7362f368887 lib/string_helpers: use full destination buffer in string_unescape()
-e71bd92ab35e63b6f22aa974d50a50afb0f8553b lib/string_helpers: fix counting of remaining bytes in string_unescape()
-9bf751dcf134a674bc846e429f785f5b2d3bc228 lib: decompress_bunzip2: fix integer overflow in run-length decoding
-ccb16727a66dd9a625bfffc4a9d43fee6d203843 ocfs2: update xattr count before moving bucket entries
-d0823e1498e15ebf133dc5abc408352ad3477319 ocfs2: retain all security xattrs during inode creation
-f499ffa1355d275f700da99b7b963729e7f9f28a kcov: ignore an out-of-range comparison count in write_comp_data()
-07d8d40e18cf79a77bb46702537de193c9e5b93e rapidio: use dmaengine_get_dma_device() instead of chan->device->dev
-
---===============1025940643762700205==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ed9cdd724d4-72da04a41011.txt
-
-33c8d1fb9cd7d7b35f5afdb7e8885dd7ea4f2d28 selftests/filesystems: fix missing and stale TARGETS entries
-cd1e5c0ff09cbc8a563040950b9370f82c8373dc module: fix lost error code from codetag_load_module()
-3c3af37c1b11d74df0459d711d1ca345b504d1f0 tmpfs: fix unicode_map leaks in casefold option handling
-c0a773630258487b5563495308f3afeff529a351 mm/hugetlb: do not dissolve gigantic pages without runtime support
-6e1a2e31364b65c035ccb6db7f94992f8054a6f7 x86/mm: fix pmd_modify() dropping the dirty bit
-10440b7b0dce2ae690f547b81e3d920d93eb3fe9 selftests/cgroup: account for zswap shrinker writeback
-e7de5f997f88e05da12abf91da0eddfe8d5f71e1 mailmap: update Haowen Bai's email address
-c30605f9ffe646a43c95fc2186e9df0f0eab5c04 ocfs2: make ocfs2_calc_xattr_init() return void
-fd422cad44b7f5a982f77834aea00604929e0465 mm/vmalloc: use dedicated unbound workqueues for vmap drain
-194854944b767ccf48d294eea36e095fdb2fa472 xarray: fix index jumping backwards in xas_find()
-d0d5c4e8faa1a08aaba56111746894d89cc28160 mm/damon/ops-common: use a page-aligned address in damon_ptep_mkold()
-db17de2945f0de1f3cf955de18bbf7527571e268 mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
-d1209b064794e85b7b4b7c5c531f5ae3669624b1 mm/damon/core: allow esz to be set to zero
-80c7022ef89b1bdbeeb1828ccfc3b2eea8844ce9 mm/damon/vaddr: avoid hw-driven pte updates during damon_hugetlb_mkold()
-d22737748571b536c7accf35ac4316f34ad156c6 mm/damon/core: fix unconditionally skip last region
-fb1908c1998d63a014851511a58b67e5a6e65678 mm/hugetlb: preserve mremap address delta when skipping page tables
-5520efb6102d2ac3717a46ee7dd8e8dc47b41511 mm/rmap: fix missing barrier between anon_vma init and vma->anon_vma publish
-b9a65ea705227c70df9cefa7926ea51571ed6619 MAINTAINERS: add Baoquan and Baolin as MGLRU reviewers
-3a2a4241985bbe762d4b29919831516af7338e42 mm/damon/core: reset invalid quota->charge_target_from
-60c8f985f1112932539b79a4080b3589bf1dbbf2 writeback: report a Tasks-RCU quiescent state per cgwb drain pass
-b5cfafc2ca35abe112426319a0e9f816ddceeb64 MAINTAINERS: update Xu Xin's email
-6cf63fd84c60fcf5699b75ea138f09e132cedb4b mm/page_alloc: avoid direct compaction for costly __GFP_NORETRY allocations
-3f8e164a6939189547a7bb01ac656504d6ec7d44 mm: shmem: ignore sysfs configs for shmem forced collapse
-b05e7ac942a2abb67f5f78456dd9f8160187e693 alloc_tag: avoid implicit padding in uapi
-c4bdd860b793a7ed536f6a834a93ab2ff801c615 mm/damon/core: don't skip damos_adjust_quota() while esz is not zero
-595a161cd6b5e67e51bc548d19fe3bad77e70b47 kasan: unpoison task stack below watermark only in generic mode
-2e48d8f5093582a110dc422c7cb7d3fd0006ca7d mm/huge_memory: simplify pgtable deposit detection
-1592dfe58383f375954384d370429857cee2045a mm: use a folio in the softleaf_is_device_private path
-72f1d2b21bbce95ac518c41f60554d4a199519f4 mm: drop stale MAX_ORDER references
-0595ba8ac0b197b8689b3896a656c6bc6f769dc7 mm/vmscan: drop the combined limit gate in __node_reclaim()
-e43bf3426532d5cb1d4bab0b44544cfe4e915a43 mm/vmalloc: avoid false sharing with drain_vmap_work
-44b24750847a8d9ee37ef7c8a4f07e3cf8558ca9 mm/hugetlb: fix resv_huge_pages double decrement in memfd error path
-68bfe022233bdfa516677f2c8902e4672de0c555 selftests/mm: remove the local PKEY_UNRESTRICTED fallback
-912119ef4b6ecb030373bcc2bc4795eca5b94440 mm/mglru: preserve inactive placement when enabling MGLRU
-72b8cbd2550d633fe0fce267aa4370409ad6a2c0 mm/ksm: mark migration stores with WRITE_ONCE()
-fc0f705b2370966155c48f5b5e35ce45b9c3082e alloc_tag: skip percpu counter allocation when profiling is disabled
-90d2994ad86004d6d27a527e3c842a1ba29b6ba6 alloc_tag: remove /proc/allocinfo outside of mod_lock
-6c92a0069d028fd13cd18aac6ae7a5b3bef790d1 mm/hugetlb: use hugetlb_vmemmap_optimizable() in boolean contexts
-010f5562235acca08b913e050f124125017490b3 docs: ksm: fix typos in sysfs knob names
-1c895c1f482309c914100657cd1fc53c328339df mm/ksm: fix advisor_min_pages_to_scan description
-c7e0b9b3bc702184a625756cfeb1cb969efc1fdc selftests/mm: fix line buffer leak in mremap_test is_range_mapped()
-6b36cde16928e0dcc3c0bfcd0e84d41f26230871 mm/memcontrol: fix data-race on reading jiffies_64
-49af2ceeb25c1b58efa0fc633b610d35a2e951f1 mm/vmstat: annotate data race for per-cpu pageset fields
-d461b9c15c7fbd674d27a317847a5b29402ee909 mm: remove unused anon_vma_trylock_write()
-9bdca8864a7762b3d6aa7dea3831f055f5c74b41 mm/swap: remove unused declaration swapcache_clear()
-8fc8127e732e3bfec66c32efff281356eb3feef4 docs: cgroup: document empty-write behavior of memory limit knobs
-3954d256158f29dd946166893e2e80faf0140b25 selftests/mm: khugepaged: remove str_dup() usage
-7e287fcb19bcaf339f052723e74ccbb715dc7d39 mm/memcontrol: remove unused memcg parameter in calculate_high_delay()
-7dc4121e3dab5a8591fa714c640c649fb4c87ab3 mm/page_isolation: fix UBSAN shift-out-of-bounds warning
-c638ff660ceed208656f283f69eab1f27450e1be mm/page_isolation: guard compound_order() against racing
-599d0617b452118226f0119d9da5463ffff14871 selftests/mm: fix incorrect skip output in pkey_sighandler_tests
-da2cb6e124bac96d20f343385d21629c18337a2b mm/sparse: relax struct mem_section size constraints
-c55bcd68c9a5bd1e4e576dff1c9f76e5e3e8b9de mm/sparse-vmemmap: rename HVO order macros
-3d45fa124c6a19d29e45fec9e04a66743e216ab9 mm/mm_init: skip initializing shared vmemmap tail pages
-dda1280b1d77670dbb05525494363b5b214d0fa1 mm/sparse-vmemmap: initialize shared tail vmemmap pages on allocation
-838e8c79b73cbfe24c0b0759e9d32dc2ef33bcc4 mm/sparse-vmemmap: support section-based vmemmap accounting
-fd3dbbffb3a5d9555b52117b7a087887c43a9dd3 mm/mm_init: factor out pfn_to_zone()
-80a5fdcc9cd0a204ee5012a44d8649cfa0f31db5 mm/sparse-vmemmap: move helpers ahead of future callers
-b42801e45e7c596ce15f2c3ac6f1096d2b13f275 mm/sparse-vmemmap: support section-based vmemmap optimization
-7e387d356089f2dd7c1d072f56a2527c87e04f61 mm/sparse: initialize memory sections earlier
-cdecae6d56b41013c20b7de250a8bc5f592712d6 mm/hugetlb: switch HugeTLB to section-based vmemmap optimization
-5d1ca7cf294fe182aa9bf7491cc481235fae562f mm/sparse-vmemmap: remove SPARSEMEM_VMEMMAP_PREINIT support
-eeaf3329ce45ed97639f50525b5536cdd4f26630 mm/sparse: inline usemap allocation into sparse_init_nid()
-4479e9aa2ff4d33fc24d1059672fb6a93bd37342 mm/sparse: remove section_map_size()
-b5bd73838878118a20ce7a272c7215d6e7b6d066 mm/hugetlb: remove HUGE_BOOTMEM_HVO
-a436641daa8c56f295d59322c4247348a7a75ddd mm/hugetlb: remove HUGE_BOOTMEM_CMA
-f265ba7d134fd8e3baa3ba0425c13ab415147047 mm/hugetlb: localize struct huge_bootmem_page
-6b4e8e065c6b54de2b1c9fc06bc0cc1e74fe92e7 mm/hugetlb: localize HUGE_BOOTMEM_ZONES_VALID
-ed21243f76353f63ce189cd013f9ade7970fedb2 selftests/mm: emit TAP header in uffd-wp-mremap
-c83f9b5be263abeebba134912fcfca683a1f225d selftests/mm: emit TAP header and use TAP skip in mremap_test
-1b1d11b817e8f7f687c566550fef8b0386700dea selftests/mm: restore enable_soft_offline in hugetlb-soft-offline
-bd70f1a6600db2a102c2612f3068a1c4f306d980 mm/hugetlb: warn instead of silently bailing gigantic pages without runtime support
-8c316bc2aaf3ca72300f8a46bc769d628a681945 set_memory: add number of pages parameter to set_direct_map APIs
-33caddac21697c6e4d992d3cf754d67d37247f64 mm/vmalloc: set area's page_order after allocation succeeds
-38bc6e4efef5a09b2e903916e795bbc73c9cd182 mm/vmalloc: constify vm parameter of get_vm_area_page_order()
-814209ab67780788d71f6c97de1243105754316a mm/vmalloc: make set_area_direct_map HUGE_VMAP friendly
-906bf87ca57735b249e200eb7e6c223509cf4a37 mm/execmem: use VM_FLUSH_RESET_PERMS for ROX cache allocations
-e41ece75e83b4858afb52dcd6e58cde197381ab8 Revert "arch: introduce set_direct_map_valid_noflush()"
-54e1709fea2a2c16aca8258b5a2c172ebd706a97 zram: fix idle age_sec underflow in idle_store()
-a292e2323c84a5a726d36b2c85fa094ba4e16a29 mm: khugepaged: fix swap entry value to folio_pfn()
-9bf7e3f54928eac25d57abb9ff6cf7afad2d6a99 mm: khugepaged: fix folio is used after pte_unmap_unlock()
-1e7085c83cbc21e845f9f1696867386412c5ec94 mm: khugepaged: fix folio is used after folio_put/unlock()
-d84ccbe542f844f4e100642dfaf3f978c8b2b7db mm: vmalloc: fix vmap_purge_lock livelock under memory pressure
-c25012a1c3df640a87c6083b4e6e77421488994b mm: memcontrol: make obj_cgroup_memcg() handle NULL objcg
-b4780d4c6c8d1116ac2c82217f28ab88a770095a mm: shmem: move unused huge shrinklist queuing past the truncation check
-cc39eb89cecb4a375c446f0bfc814c064d87c863 mm: shmem: make unused huge shrinker memcg aware
-a61f87c9ecadf84e9906fd3f4c813fade430825a mm/list_lru: disable memcg awareness under cgroup_disable=memory
-2c5084d09162b9fcd4027f6a1743cd781d8edaec selftests/cgroup: test_zswap: wait for cgroup to unpopulate in test_zswap_writeback
-9a172bf85844c3d3b5fb120b1a8670681a7abe59 selftests/cgroup: test_zswap: fix implicit unsigned promotion bug in test_no_kmem_bypass
-ebb11f4e2b0fb49ee0fceb5ab5f7b5eaf807a260 mm/memcontrol: fix stuck FLUSHING_CACHED_CHARGE bit on isolated cpus
-75d2edc0ae617e1b63b24aff58d3b5eaa89a8384 memcg: clear FLUSHING_CACHED_CHARGE on cpu offline
-820444789ccddd8177b5de8d06a532cff1a95ce2 mm/mempolicy: take a cpuset cookie for the interleave node count
-f05e257303c6a6962acfbc8b2fb2984a5a381f80 tools/mm/page_owner_sort: fix --sort option being silently ignored
-f400d4ac41376b341f91004ad537e6209800b651 tools/mm/page_owner_sort: add module name sort/cull/filter support
-70266db71436652684501ce29bca1ef9588b1931 tools/mm/page_owner_sort: show available sort keys in usage text
-03b88027e3d37879df701764de0802292805a9d2 memcg: trim the per-cpu charge stock instead of draining it
-4b885525f8a46f1c4fecdb4c85196b146c71fc9c memcg: remove v1 soft limit reclaim
-b69b27140ff00690fad417eed1b552218047b543 memcg: remove mem_cgroup_shrink_node()
-47ed3ba1375ba78d5010193a7dc61bbc1c516ec0 memcg: remove the soft limit reclaim tracepoints
-00b40f8a7da5aa2ba0f3ea026a781c880ae0b6bc memcg: remove the soft limit rbtree
-a65d6ae0e9065012f974df8bbdda0fd2d8eb0eaf memcg: remove lru_gen_soft_reclaim()
-4cbf9f1f43bc5249eb8490f9b1d4a929688b2b85 memcg: remove the per-node soft limit tree fields
-938113f4a173669aabc38848f6eca7aee666ba49 memcg: remove mem_cgroup->soft_limit
-b544f581a14e3254c36f6718691498eaf7bd2d33 memcg: simplify v1 event ratelimiting
-d66861d1fd5933b44dd0fd07be5bb9c48d19152c mm/page_io: convert write completion handlers to folios
-6239dee17f48c11f1668ca63e07a0376f5d868f8 mm: remove PageReclaim
-4bfeb0efcc23fa23ac23dc5749e7ffb8f4847ad6 mm/page_io: use swap entries directly in zeromap helpers
-affa35ddadc34786e717b5a23fc714288f9f3aff mm/page_io: rename bio_associate_blkg_from_page()
-21f153acbe64e4bb66f8e27eb258cf23142bc8cb mm/page_io: refer to folios in swap_writeout() comments
-6d7b0197557c7dc0a46844b1fdf36c803cd2320a mm/swap: rename __swap_writepage() to __swap_writeout()
-b04344ce259d995eca5fa377c4c3883864d68381 mm/mglru: make type fallback logic explicit in isolate_folios()
-8460b91756912086c88c5c44eef0a3d70625170b mm/mglru: make retry logic explicit in isolate_folios()
-3f493ff86a97d06e17a72d6f78dce81fd893ea4e mm: revert slight behavior change for swappiness 1-200
-06848ae2e90b8ee32f486a2614798a9237907a08 mm/memory: simplify error handling in insert_pages()
-f07df3adbf05e8abb94f2ab09803e98d11380dd7 mm/memory: return -ENOMEM for page-table allocation failure in insert_pages()
-eb47f1376d7a2076c02195c874f8197cf8e07952 mm: adjust out-dated document of __GFP_NOFAIL
-5967a23c112042c57b32034f304acdf73b9ae1c0 mm/mempolicy: use SRCU for the weighted interleave state
-9e4b4310cb753cd2688d5fa9f0adce38b6b9b4c1 mm/mempolicy: stop copying the nodemask in the interleave paths
-1c3c812087efb4816ff4989b4191763b07cbc8b2 percpu: fix the comment about which sizes share a slot
-5649ba3d3ffa9bcc8ec19171cbc100440c6e6f79 mm, swap: distinguish a malformed swap entry from a dying device
-de4f22ca1865f6ef67d777ff725b8f218dae2e72 mm: fail the fault on a malformed swap entry instead of retrying it
-84b440e2ce1f341859d81ad4d7b431baa211454b mm/huge_memory: skip zone device folios in madvise_free_huge_pmd()
-e395eac26963d380f1eb9c66b06d5e83e7121273 mm/madvise: skip zone device folios in cold/pageout PMD range
-53666aa3f5c68109a43af91629136eb92b19a09b mm/mempolicy: skip zone device folios when queueing folios
-243c413456e42b0054446c1ef045ae8cff7fc6d5 selftests/mm: khugepaged: consolidate error exits via kselftest helpers
-0f6a48391e691ed4569494d66e89a4973de14938 memcg: acquire peaks_lock when reading memory.peak
-e0532d1b96603b7f7b76e14fb22d4319ac5dfd7e mm, memcg: fix memory.peak reset clobbering other fds' watermark
-fc6ac51e2b17012229d1d2812bee45bf7a70bbbd mm: cma: make mm/cma.h self-contained and conditionalize includes
-06852f53fe605fbd58f1d09c1f060d616de6db4e mm/oom_kill: remove unreachable __GFP_THISNODE check in constrained_alloc()
-686f54fa477cf3947b4566d25c380db9aa6ca7b3 mm/oom_kill, proc: replace magic number 1000 with OOM_SCORE_ADJ_MAX
-ecc48b3c13e5cd981376778b59930f785d4fcea2 mm: replace custom bad page map ratelimiting logic
-be98b1d0ee54da04c614bf34b174279caf27db9e mm/page_alloc: replace custom bad page ratelimiting logic
-78ecdf12ce40c6b1b651c0b124b92b42a6154a47 mm/vmpressure: remove window size TODO
-ac58622a60bdbc691e3a508ff09ba81acfc3e26d tools/testing/selftests/mm: add missing .gitignore entries
-1a90333381a738801d820e1476e5b034f388a58f mm: make per-VMA locks available universally
-9e0988654cc2918e831684d5546cc7ec40cde007 binder: make shrinker rely solely on per-VMA lock
-3f2519e98880571b66d22366f472f09b35f5d64e mm: add RCU-based VMA lookup helper that waits for writers
-b649c70804501fb4bf1279c8b09360c9e3d0a7bd binder: remove mmap_lock fallback
-c1abba9b4e9a643ef9b23582b391e6ee268d5092 tcp: remove mmap_lock fallback path
-aef8730b30a8fcfbd8301521fb3f7c2060fc97e7 mm: memcontrol: raise MEMCG_MAX for charges that fail without reclaiming
-65e7196eec9df86ecf5795de2b230e51a0774574 mm/damon/core-kunit: test probe_hits handling at region split and merge
-fc6efe9c7b838235a503359c91cf88d986b51599 mm/damon/core-kunit: test damon_valid_probe_params()
-01307b9fd7956edff08100335f2444119997a469 docs/mm/damon/design: accurate semantics of nr_snapshots
-b7037c7974dbf0c53f646bcf82870f76988535ad docs/mm/damon/design: difference between watermarks and nr_snapshots
-875a853799a9a7cfdde8c55822ff121a695e6779 docs/mm/damon/design: fix typo of max_nr_snapshots
-2a1383f9a178a151800f112f0018a9529f7f86a8 mm/damon/core: remove unused damon_targets_empty()
-8d95cb7b5ac83fbafd0461ac035908da34da2160 mm/damon/core: remove unused damon_nr_running_ctxs()
-4e3d028e4c659e8b109b68432f7576dd011da44f mm/damon: introduce DAMOS_QUOTA_HUGEPAGE auto tuning
-76f3ecba00291c7b30b3fc5573a0a1ff5fd03817 mm/damon/sysfs: support hugepage_mem_bp quota goal metric
-f28c89d46badc693e643dc0e3ffce37d99fb69ee Docs/mm/damon/design: cocument hugepage_mem_bp target metric
-fd8e179d1d30b7ca1cdea224048fded7ed9b91b1 mm/damon/core: remove declaration of __damon_commit_ctx()
-560412603a406652689a818d3429eb4352a658ea mm/damon/core: introduce damon_set_target_pid()
-621b0fa6964d1882262fb0d57b1a891edc0915b9 mm/damon/ops-common: factor out damon_putback_folio_list()
-23ca5656fa6138bc7d403e5fd58f1947834ba559 selftests/damon/sysfs.py: clean up sh processes used for obsolete_target test
-6d316b0769f448609cf93fbe4b9a03fdb9901bdd mm/damon/tests: use scoped_guard() for damon_test_ops_registration
-7e993ca7b1afb6ddb479192cbf7c3802e6168912 selftests/damon: prevent remaining cross-object state pollution
-bfeb1ec80103c4d9db914618f62fa723f98dd2fd samples/damon/mtier: add comment for struct region_range
-b080b37f00b2c5cc7b2695144b85f0e3f3331e77 mm: fix stale ZONE_DEVICE refcount comment
-b07b163457a278b5e207ffa5f358234b8e805b87 mm: add a set_page_section_from_pfn() helper
-502e866bf71c5c35b2d5488ba05b6aebba7e161c mm: add a template-based fast path for zone-device page init
-ba196c2bacee502eda41bbae54a75c005606648e mm-add-a-template-based-fast-path-for-zone-device-page-init-fix
-f2c9aff6e39f5d0c9d29964455baee14af262c58 mm: extend the template fast path to zone-device compound tails
-a06757c8851277d0efb6bd129c1d3be728f00b1b string: introduce memcpy_nontemporal()
-48ada6e69bead7b48acd740f8129a56de0a03e96 mm: use memcpy_nontemporal() in zone-device template copies
-8fa37339c2f4b0d4ff5f93f739a33fe9daef3962 x86/string: extend memcpy_flushcache() fixed-size fastpaths
-4e1558ab7a547ef209d31d1eae7e96cdca6e2ed3 mm/rmap: remove stale hugetlb check in try_to_unmap_one
-e3c609cd1e856986123176d6872b775d2ee5b67a mm/gup_test: report actual pinned bytes
-7074afd5ef75330502782b4da826bbe7361edac0 mm/huge_memory: do not touch frozen folios in deferred_split_isolate()
-5380bd511cad71cfeab75d5011ff47a9bb1f1e78 mm/huge_memory: dequeue the deferred split after the split freeze
-0a48366acf13a1546612cb94648eac059e307ad2 mm/hugetlb: preserve source surplus accounting during demotion
-aa77e0e9be9fb993c187e54016a73cf797e64941 mm/hugetlb: cap demotion at currently available free pages
-38206596085825bdabc500d173275b6424a53f46 mm: make ptval_to_str() generally available
-68b8d9111b6c65f05bd65115b1c8855b5107fee8 mm: stop using pxd_ERROR()
-72d134089122462bfbd755765d391c9e4caf40d5 loongarch/mm: stop using pte_ERROR()
-c9cbccfe5a035cfb8d8577d01a0bf117e13d4b83 parisc/mm: directly use generic [pmd|pgd]_clear_bad()
-87f3b905d5d6b34b1d762036c69012b7004f91d8 sh/mm: stop using pte_ERROR()
-0abb35be3d4bb96cc795395faa5c8f82232ac233 sh/mm: stop using [p4d|pud|pmd]_ERROR()
-46b7cce6dc97bb669d9c82ddd6f4b214e5f10301 sh/mm: stop using pgd_ERROR()
-b478bcac60a90cffe15f5a22f62c59aa48811aa8 mm: drop pxd_ERROR()
-82b2102c9b18f88709f8b5bddbdf9dc0033dd4a6 mm: add page_counter_margin()
-48d9fc0843f323918a27c53a00134e6d438a0745 mm: distinguish large folio swap allocation failures
-40550aba3f353325dc759b4cd61efeed6e01a6ad mm/vmscan: avoid pointless large folio splits without swap
-9ddc697ab703dad0132c2eeeb296ff607f68051a mm/shmem: split large folios only on -E2BIG
-adb25e9cf2f9e70882b036956a214811910b484a mm: gup: move pmd_protnone() into gup_fast_pmd_leaf()
-203cb8ddb44ab4c3529abc03030303330b5719e2 mm: gup: cleanup the gup_fast_*() call chain
-eb6e2fee9f8d3bca939cd3a186428f870b42e6e3 mm/page_table_check: add explicit pmd_none check in pte_clear_range
-b478ac0f9b9cda18ef4415bd95f90fa3c7526311 mm/page_table_check: skip zero pages
-cc7ecb2dfff017338de12f9118c98847d758708b mm/damon/core: skip applying scheme if region split for quota fails
-3b48cd58f6974876b522972ab9e8a2a7f57a5977 mm/damon/paddr: respect folio end for DAMOS_STAT
-c2c665d3595e38051fcbed06a02a095f198688cb mm/damon/paddr: respect folio end for DAMOS actions except STAT
-e214daa19754788c4f032f9d106261f0674e1c35 mm/damon/vaddr: respect folio end for DAMOS_STAT
-ef02fcc1e32d7410a6237ea2b1dd18704685e361 mm/damon/vaddr: respect folio end for DAMOS_MIGRATE_{HOT,COLD}
-0598008aa1d124aa0001082dabcf31a074e69fb0 mm/damon/core: handle extreme memory state in damon_get_node_mem_bp()
-e8fe2c21931b4021707860d4c0494981e4d9dc2f mm/damon/core: handle extreme memory state in get_node_memcg_used_bp()
-c648f92220b6c2f5b7ddcc1244a6ac02d8b3699a mm/damon/core: handle extreme memory state in get_in_active_mem_bp()
-b5603f2abe51f48e343025d4b69d11ab153bb787 mm/damon/core: introduce DAMON_FILTER_TYPE_PGIDLE_UNSET
-0fe772b61969ec341d0a8ae28db641c633c09a34 mm/damon/paddr: support PGIDLE_UNSET probe filter type
-2f9c363cd9be7d6a4cbd068d157cde36263c96ae mm/damon/sysfs: support pgidle_unset probe filter type
-5f55896487efca681ee724dd3c7e83e1d94f83b5 Docs/mm/damon/design: document pgidle_unset probe filter type
-44c736d5eae70987ec3090b2c06b56fcad0a31d6 mm/damon/core: introduce damon_prep struct
-a751fdd93408bccfd4fe27a061e9b11533fc4ede mm/damon/core: commit preps
-71608434e68296d508b6f1afa240268936b04d12 mm/damon/core: introduce damon_operations->prep_probes()
-442fa6a3db88fccecbca62d49a785d10b25abdb0 mm/damon/paddr: support damon_prep
-a19376580584a6413fd60d437d823586c3cdf22b mm/damon/sysfs: implement preps directory
-88a5ac65ac48d8e4eb914b410d8fe9cba7ba3083 mm/damon/sysfs: implement preps/nr_preps file
-2e4426b1983a8fa7cff3ef7e7682f3ebf2c35980 mm/damon/sysfs: create directories for nr_preps writes
-3cffcdd78f5ce1da8d59e22ea86c4f3db193621c mm/damon/sysfs: implement prep_action file
-879bd9e7ef28c718bced8b2dc32ea72f5fbd0819 mm/damon/sysfs: pass preps to DAMON core
-3ff300a44363228ee1c5d61078d700448c3932d1 selftests/damon/sysfs.sh: test probe prep sysfs files
-78d001c15690e229cebc2e849ef33a376e232c97 Docs/mm/damon/design: document probe preps
-b548e634f5fc10744aab3aba86e7826e8baf6e43 Docs/admin-guide/mm/damon/usage: document probe preps sysfs files
-63fc60f16f3d9f21d416a71907bd199a19dbccad Docs/ABI/damon: document probe prep sysfs files
-a13512c33374da4077377088d353649e6ffd4fc5 mm/list_lru: don't copy stale shrinker id from non-memcg-aware shrinkers
-d42c8fb53f8a136b32941bc4e4f0b0fc2acde06e mm: remove unused mark_page_reserved()
-98f681e46f224be60b3fa1d4b1efe6c89ae245d0 mm: remove unused totalram_pages_inc() and totalram_pages_dec()
-615f7145addf992520e259cccc887d30fdb52bd0 percpu: remove redundant assignments to bits
-706a20a81d1442689b8b2d6b21f73ae99e3c1e46 percpu: remove unnecessary initialization in pcpu_build_alloc_info()
-d6a46e08a6f4bc6d97da94f842773146c0817ab9 percpu: remove unnecessary cpumask_clear() in pcpu_build_alloc_info()
-18bbc378f3e9e8df29e318876f1350238f8b12ef percpu: remove unnecessary return in pcpu_populate_pte()
-f9d9f9b5c7a6f1d66546654ee2b9926fb530e187 zram: remove unreachable kernel_read_file_from_path() return check
-9cf992f2aa2389dc2894e76e0899536dcfffcf6a mm/damon/tests/core-kunit: test committing psi goal to psi goal
-d5ab57585dd0234a9a083c8680329219147067c4 mm/damon/core: handle uninitialized damos_quota_goal->last_psi_total
-26bae3797d37df8e3a94c1d9c9606f70a50b3595 mm/damon/core: copy nid for eligible_mem_bp damos quota goal commit
-229f2b418304657f68da0d89d58d7461cf197fd1 mm/damon/sysfs: set next refresh jiffies per sysfs context
-c53cd090693a0c5ffb32f0292d5c5dd116d76e2d mm/mglru: separate folio generation update from LRU accounting
-b81ceb2e31e9c794ec3138d95ade45f4723bec93 mm/mglru: batch update lrugen->nr_pages in inc_min_seq()
-b9322dc8b87b75f8fc80f4144fd745605864b97d mm/mglru: enhance cold/hot inversion handling in inc_min_seq()
-2e92cf9b5d460d01d151ccb9bbbe4f9f2c64947d mm/mglru: exclude folios promoted by aging from protected in inc_min_seq()
-d8f8e2a26af3b782fde4c4873007b6b09a82277a mm/mglru: make LRU folio prefetch helper an inline function
-aaa5fd1952b57c4febb7c923b722f592e358a149 mm/mglru: move folios from oldest gen to second-oldest gen from head to tail
-d8f895397c634346b03c75098bf450b8a5652eb9 mm/mglru: batch move folios to the second-oldest gen's LRU
-dedf560a028e5bd220c1fe07f4a25370abccc82d mm/damon/tests/core-kunit: test damon_commit_filter()
-7e0d562c505d70506592700903025f74dcb79aca mm/damon/tests/core-kunit: add damon_commit_probes() test
-cbc0f1e458bfbc14fa41ef955a0e7310455c8607 selftests/damon/_damon_sysfs: implement DamonProbes
-b7526fdd3cbcd3c1741c784b835f9eae1cca7732 selftests/damon/drgn_dump_damon_status: dump probes
-0e69314cba2780c4a9930e6d5cee7f7a5c79fdd9 selftests/damon/sysfs.py: extend commit assertion function for probes
-5855bfc57ee6b8d35aef669d351fda4b3e6bcaa8 selftests/damon/sysfs.py: test damon probes
-90096a48b271022d9e972db761b7ad74fa7f1398 mm: move drivers/char/mem.c to mm/char-mem.c
-105563364f204024e7fdfd9863343f0e5f37922d mm: implement file_is_dev_zero() to uniquely identify /dev/zero
-f213dffd6cc0605386dd2e79188482a0c667b2d1 mm/vma: only permit MAP_PRIVATE /dev/zero to be mapped anonymous
-988680dd7b77a1cabfd50dc51291b1e6b7ce9188 mm/vma: make MAP_PRIVATE-mapped /dev/zero mappings truly anonymous
-fc73717a7dfd972461dfbe19dd95ab53b5f8e635 tools/testing/vma: add test to assert MAP_PRIVATE-/dev/zero is anon
-5a3845e6ab47d8a139b1f69005481ade8f808351 tools/testing/selftests/mm: add MAP_PRIVATE-/dev/zero merge tests
-4aea3c84b8783ca614b18c5eaa52dc0722ef33f5 xfs: remove dead kswapd flag inheritance from btree split worker
-6620b285c09689d62199b27136a0e30dd017f78d iomap: simplify writepages reclaim guard
-aba2726522e7223e6dda6ec3cf6178dec5f78cbd mm: replace PF_KSWAPD flag with kthread_func() check
-48aaf236e35aa6698d805bc85de3190a3bef92fb mm: replace PF_KCOMPACTD flag with kthread_func() check
-d5fe7997ff3a514c1408250a6747901ce3281cdb mm: hugetlb: return -ENOSPC on memcg charge failure
-856d03ac309f461f5f2c5856340ac8f592fc56c9 mm: hugetlb: drop refcount before freeing on memcg charge failure
-b5bf8a780ad1cb9c5ad184a0233840579346d2f6 docs/core-api: memory-allocation: add k[mz]alloc_obj() and clarify kmalloc
-1c8aa717b92f077b03201055295a9a600f5a3e19 MAINTAINERS: add memory related docs in core-mm/ to MM - MISC section
-f7ee3e1fefa0db10508ee9631662dd39a981976d mm: trace: decode arm64 and sparc64 VM_ARCH_1 flags
-1cd99eca6b6265f879051cd05d2caa7d7fcb7770 mm: trace: decode MTE and shadow stack VMA flags
-b025a7218030e2c15b66f14f99f62ca50e12d9f4 mm: trace: name protection key encoding bits
-b55385e8bd0e4545cebdb7b2603fef29bb634ab0 mm/damon/core: use damon_nr_samples_per_aggr() for max merge threshold
-1c1b72337058e952bd487b1f6a85163796ea06cd mm/damon/core: remove debug messages
-77242f4c6107ae8db25117b0015aa1fe97d2e6ed mm/damon/core: remove string_choices.h include
-eb7a97f5b51859a96af9207b4baffd159ccdd4f4 mm/damon/vaddr: remove a debug message
-2f47b9bfdaa960c710679594e65144a2116da89a mm/damon/core: validate number of probes in valid_probe_params()
-8b2f8d059674d4ea5536055e716da747144f5fed mm/damon/sysfs: remove probes number validation
-a9026509f4ec96243655c16a6b429b10787bb602 mm/damon/tests/core-kunit: extend set_regions() test for error case
-47693b4f4a091957bea16991c4870b5748b2bf09 mm/damon/tests/core-kunit: test <=0 size damon_set_regions() inputs
-5e7594597b27e403ed692bdd3b6f820018b5a763 mm/damon/tests/core-kunit: test overlapping ranges for set_regions()
-34a81a1c7f949ab3ce71551f4ff6b7c3bb398d39 mm/damon/tests/core-kunit: test damon_nr_samples_per_aggr()
-d721102583760399848a7d60386812f2d3fabbcd selftests/damon/sysfs.sh: test hugepage_mem_bp quota goal
-0d66505064ffd28d6278aa82e51ebd3c21f7cc38 Docs/mm/damon/maintainer-profile: update AI review for Sashiko replies
-04b36c3c44b0da2857c1282b1d2f2bd171878803 Docs/ABI/damon: recommend subsystem doc instead of admin-guide
-af966f1f43d08c7c9b4b5b7f3d7e8b72cb6b3ba8 mm/migrate_device: fix function name in kernel-doc
-991c54617e8c54642747845f00cd313fb3f5d5b6 mm/page_vma_mapped: guard check_pmd() with CONFIG_TRANSPARENT_HUGEPAGE
-402bbb4b708322c531ef321088459ec06cb511cf selftests/mm: remove unreachable returns after ksft exit helpers
-780ebf48bc3703810fe5414f3d6400bf56cf2b97 mm/huge_memory: fix various coding style warnings
-8af3e50719f49ec9d89e4590ccb42209151d7800 mm/page_owner: preserve original free_pid/free_tgid during folio migration
-44f45d69da985cd7dbea3598ea956141d7959f8a mm/hugetlb: charge folios to the target mm's memcg
-91ac26289cecd6b787349b205e179049aac62c4c mm/page-flags: define HWPoison test-and-change helpers unconditionally
-5cfffd173b3ae0597490bb12f37b8e5c3c416c69 nvdimm/pmem: remove test_and_clear_pmem_poison()
-18a73ff0501d48685ab48347c72e08019f87070b mm/memfd: fix hugetlb reservation accounting in error paths
-662b7df07d4b0c1598b369a6a4cda8c131ccd7be mm/damon/core: error damos_commit_quota_goal() for zero target_value
-e74cf1e16f2093097840e12c3e82a704e67177ca Revert "mm/damon/lru_sort: error out for >10000 active_mem_bp"
-51b4873976f94b0837dcc7740b12e0e3da5653d6 Revert "samples/damon/mtier: error out for zero quota goal target values"
-a6a25866447775c02311a573332c84143c6bccd9 mm/damon/core: handle NULL ctx parameter in damon_call()
-22771846226aebbd028e572a4d13faef05b2238c mm/damon/core: set ctx->call_controls_obsolete in damon_new_ctx()
-310edda3a527c13579eb0f5deb8210e764603778 mm/damon/reclaim: remove unnecessary damon_call() param validation
-17cfff8f4b4c89327fccee21a8cd8f9b126e57c3 mm/damon/lru_sort: remove unnecessary damon_call() param validation
-3209b64bbb91d62660213600c8a05f292b82accc mm/memory_hotplug: factor out node_is_memoryless()
-66ad95c9ddad6a98c898fc7e19f758324397fc8d mm-memory_hotplug-factor-out-node_is_memoryless-fix
-5851cd32ffea0f87bcaf7e6815f0db7929528db3 mm: remove PageWriteback
-5e8c90bf97234961cc06f66c80681d57dcb60132 mm/memcontrol: move the lru_zone_size sanity check to the reader side
-09bb9766fa0f2758b294cb4301adb8d1c71a2f7f mm/mglru: introduce helpers for manipulating gen and refs flags
-1d5f80d5f7db12b877d0c5743859ed9260fea202 mm/migrate: copy all referenced state via folio_migrate_lru_refs
-96f43a65cc8e9fc0d4c8560aabed8abac7ed3bc4 mm/mglru: move max_seq read into walk_update_folio
-2a5895af1c8e103d67837a91bdcd452a82e95c36 mm/mglru: use explicit tier range in read_ctrl_pos()
-b5b0b53ab47a90f465af885c69420084d46056b8 mm/mglru: fix potential generation folio number leak
-66faa86ed96b9ab9f448b17f49f283ed38cb001b mm/vmscan: avoid false-positive -Wuninitialized warning, again
-260c3171aee4c06e593b2badace0f3f0dca02794 mm/memory: constrain generic_access_phys() to page boundary
-6c9c4fb7febdfa2ea42360932f2f33cc720a4aed docs/mm: ksm: use the renamed ksm structure names
-ebd88cd633ceb838eb11ae8643255022469eae79 memcg: move per-node objcg to the read-mostly fields
-f947e488fe5061f104a1ad1cc77bea422d8fb0f2 memcg: split mem_cgroup_private_id into two fields
-d7b8c9ae5e807f822540ccb97d75725f65bf6225 memcg: group the write-hot fields of struct mem_cgroup
-993d7cc348b566b5b32593b2c6457a52710e7a38 memcg: group the cold fields of struct mem_cgroup
-105287b69579ea34c855e1cd510e2f3e4acefe3b memcg: group the read-mostly fields of struct mem_cgroup
-ceb73f9361c455b57bca34f00e34e02c831814e2 memcg: group the fields of struct mem_cgroup_per_node
-99b69b6a1c7adc211fe070080bfd348e6564aea2 mm/zswap: convert zswap_store_page() and zswap_compress() to take a folio
-8db11affd719018677cb85bbbf6477339229324b memcg: don't call schedule_work when no spinning is allowed
-0d588fb77562b7bcc90765a6daed1a76fbdb194c mm/memcontrol: skip non-hierarchical memcg-wide stats when v1 is unavailable
-ca21ace824eba5a981e88ac33f457879634ba938 mm/madvise: swap in CoW'd MAP_PRIVATE-file mappings on MADV_WILLNEED
-672e8b1fd08878f757f53c85a60e166f36b9949b mm: memcg: redirect stats updates of dying memcgs for all hierarchies
-4432bbd9e87481454460ac94a2662a04b7248921 mm: workingset: use lruvec_page_state_local() to count lru pages
-7555f1385f82122d14c3cf78c847e377cc368e9c mm: memcg: skip the RCU lock when the memcg is not dying
-9c9e653bfb9a551fadd646e7e702c4c6fdd5be45 mm: memcg: reparent non-hierarchical lruvec stats on cgroup v2
-8a4aa534042d0ca10e2644e94c58fbfd8d5a9e2a mm/execmem: free ROX cache chunks only when they span an entire vm area
-8f4b1e88a13ac9e41c4019758f56049dcc24bddc mm/execmem: handle potential allocation errors in the maple tree
-add68e7e04c7e72fb07496913e7ba69be4f873bc mm/execmem: make sure ROX cache always contains multiples of PMD_SIZE
-86f32044811607318dc101fc7c5d7f888ec7850d mm/vmalloc: add DEFINE_FREE() for vfree()
-c8e7588bf5a50cb83c3a33b18039eaaeea5606ef mm/execmem: use cleanup infrastructure in ROX cache functions
-615b196bd8e7809545cf12b8773b793286667d1d mm: thp: restore SHRINKER_NONSLAB on the deferred split shrinker
-ccac6328b93db7664e9eabb4ba41c1311c609a5e mm: zswap: mark the zswap shrinker SHRINKER_NONSLAB
-a347f2be10338ff311848eb7a2bc3e78cec99351 mm/swap: add folio_swap_entry() and folio_page_swap_entry()
-76d6054cf98b87931e3d9e0c82d55cadea585f50 mm-swap-add-folio_swap_entry-and-folio_page_swap_entry-fix
-ea57198314c484c6287db2eedde1c38eac6b3289 mm/huge_memory: add a comment to the open-coded swap entry
-ee7a64450dedc1e64d474e22a17d9a349446e13c mm/rmap: use folio_page_swap_entry() in ttu_anon_swapbacked_folio()
-dbdf16108b46c6947da7af10ba9f7b76312dfd93 mm/zswap: use folio_swap_entry() in zswap_store_page()
-1c39e74c2cfac93b3b6b12e03b64e5bb18fa08f9 mm/swapfile: use folio_page_swap_entry()
-ccd141e28c19ebd3e25400d7b5845ab1c386647a arm64: mte: make mte_save_tags() and mte_restore_tags() static
-5df5a3af2d21db9cb9e363ea8e5ec168049a3284 arm64: mte: pass the swap entry to mte_save_tags()
-6cbe1c67ee47c0e8f3faa2cb4b713008872a716f mm/swap: remove page_swap_entry()
-5954fc30052aa5c7e85c32355f00f5f315471476 Docs/mm/damon/design: fix broken :ref: usage and a typo
-6a6abf6a84dda031bb480d3e1afd953811994521 mm/damon: move damon_hugetlb_mkold() from vaddr to ops-common
-be057f6d7032358105efd94d3a845a1a6d65991b mm/damon/ops-common: handle hugetlb folios in folio mkold/young rmap walkers
-09264d2de35bb4c1c67e86c62c5083b9dec674eb mm/damon/paddr: support hugetlb folios in access monitoring
-4329c6df7f38a683b9fe24786bfd9e7fcc022e88 selftests/mm: fix size truncation in pagemap_ioctl test
-52f1e394f19937b06872bb9ee86038921ffed837 selftests/mm: mark file-local symbols of pagemap_ioctl.c static
-7b28cc81d3c93938df80bc5efba9b9a2b6e6bed8 selftests/mm: init page sizes early in pagemap_ioctl test
-fb0880694da5d70b217fdd0d976de12ae719dfa9 mm/huge_memory: add folio_reset_partially_mapped()
-ecb13f7a3fa3ca2a81d81374695ddbca9384a144 mm/huge_memory: zap deposited page tables after an RCU grace period
-39cd25b29f159898f1bac030183c76232dc5cf79 mm: enable MMU_GATHER_RCU_TABLE_FREE for most 2-level architectures
-cbe818b7d750546da9cb2fd539fc10c18cfab2d7 mm: enable MMU_GATHER_RCU_TABLE_FREE for MMU riscv
-8517fe7d6c08dc7d2ef1ae2bc5e44110c64a4ebf mm: enable MMU_GATHER_RCU_TABLE_FREE for MMU arm
-616bf18273440817a9259db37d094365b8c9b8c8 mm: enable MMU_GATHER_RCU_TABLE_FREE for arc, microblaze, xtensa
-4f3ba2a79c286d2e561436c4f3aecbde639a89c5 mm: enable MMU_GATHER_RCU_TABLE_FREE for sparc64
-5abf9d5c2e1a954a78afa04dc901d63a6e15b2a9 mm: enable MMU_GATHER_RCU_TABLE_FREE for m68k-coldfire
-97dfa750f4287f19e28d893f288071eed56b0c2b mm: enable MMU_GATHER_RCU_TABLE_FREE for sh-X2
-b90757bf6ab0dc521735e1d340b1a5309be2acd6 mm: enable MMU_GATHER_RCU_TABLE_FREE for m68k-motorola
-fc7dc89b8d52eeffee5138833911831aff824346 mm: enable MMU_GATHER_RCU_TABLE_FREE for sparc32
-ceb365702cc004e7af50d7162ddb4d48cd9ea703 mm: make userland page table freeing RCU-safe
-5389dbded421652d63fed9cb99de541c05ecabba mm: change the contract for free_pgtables(), update docs
-ab94ccd7fb9b79ae228fdcb6862fc6fe48d04ee1 mm: vmscan: avoid anon scanning for GFP_NOIO with low swapcache
-6d5a2e5fc3e73a49d5257d3ab27cb7c70217b77f mm: mglru: clear the reference counter for rejected folios
-f789a51f3b279df6a4287385e16048b5cff6cbf7 mm/nommu: reject wrapping ranges in access_remote_vm()
-68a24a708197a6bcae91b93cb971730a5be8d8bc mm/swap: fix stale comment on swap_info_struct::cluster_info
-577c8190842fbb29c0e241e9eee738ec8b7f7293 mm/swap: scan by cluster in find_next_to_unuse()
-0e5083dbbd2576fa9cfae39a8f184aea9ed99fb0 mm/damon/vaddr: support prep_probes
-7e29386ac4d2441135f27dcf739d8d5ce32598b4 mm/damon/paddr: move probe filter handling to ops-common
-5ad69f456b9e24ebf683e8ecd3229f75ff491707 mm/damon/vaddr: support apply_probe
-5d316e6368575b582c53d1ee59cb0eed3c6b8c8b mm/damon/vaddr: extend apply_probes() for hugetlb
-4610299a9ee550a6e70bd62128f0284f61bdb427 mm/damon/vaddr: support pgidle_unset probe filter type
-e877aeb2d49c4c597916974bacee28cd41a5044d mm: zswap: don't fail a large-folio swapin whose range is not in zswap
-f775430a560cc36dc704c4358df82a5263cf4dc0 mm/hugetlb: fix subpool minimum reservation rollback
-84630d4785703b5f4e1fd9f26e73e8540a653a0f mm/zswap: publish the initial pool with list_add_rcu()
-f6fdbaa986dba7fa51d7f6996e4d28c3d42eae66 mm/memcg: clear folio memcg after changing per memcg stats
-1644d6039971d9bb60b126aa5dc32ffa3ece977f selftests/mm: reject invalid test selections before running tests
-1dd0c6e7ef3e035c77a4c75a29cb933b7131cf1a selftests/mm: only prepare ptrace_scope when memfd_secret is selected
-05c890932cd32d1cb1d1e63f8ebf8e90f8c4911a mm: zswap: convert zswap_invalidate() to take a range
-5a4c27e27e13bd3a941523d7a01a7a7728aace66 mm: zswap: skip xarray walk in zswap_invalidate() when zswap is unused
-c172db005aeafcb7c95a0547c937b77827d87244 mm: zswap: reuse zswap_invalidate() in zswap_store()
-b574df7e33b879aaa3cea96ad93ce3e21bda28d5 mm/khugepaged: drop redundant mm_struct pin in madvise_collapse()
-a07f4953007b8a0e8cbd55e0add184116b36ea94 mm/khugepaged: count collapses where khugepaged makes them
-a86bb0fb759e862ca5525698bda6670c5e1e11a0 mm/khugepaged: rename mthp_present_ptes bitmap to eligible_ptes
-484c7b7b04a37bed8afce2bddb0a43fec8b80f4b mm/collapse: add collapse.h for the collapse interface
-756b956d9c3e3c991b6fd50d6606373cac90e44f mm/collapse: state what a collapse may do in the policy
-4b4218c9134933ce3f0f6fb1416e317f62925ad5 mm/collapse: drop the collapse_possible() wrapper
-6322c1f4875a0021b1479670822790f5d8527971 mm/collapse: name the per-table scan reset for what it resets
-4fe6e362274b6dec927e2ccd392338a0e71d317d mm/collapse: separate scanning a PTE table from collapsing it
-1bb5234f8279a841be124fc9f7fbf66bc543caf0 mm/collapse: open-code collapse_single_pmd() in its two callers
-3094084d99cd5be082dfda393f10a18f82da1874 mm/collapse: work out the orders a VMA allows once per VMA
-38298b1490f87d9b267cb432630f08443cdcd4ab mm/collapse: declare the collapse interface in collapse.h
-c1f7378d7e7aa3b987f6a957f3ad683b5b5592ed mm/collapse: implement MADV_COLLAPSE in madvise.c
-e20d07ec26eb6d32c55115ca09ca5002ddc0ba91 mm/hugetlb: account for allowed nodes when gathering surplus pages
-485d2f906c86f1543bd05449795fe0444eb4f98f selftests/mm: fix ptrace PEEKDATA check in memfd_secret test
-1b451e15a0bce491af4e06b177b1b8d07448b67b mm: page_alloc: add missing hooks to bulk allocation path
-ef5c1f65532b02d1adb98807468a1b4784e9b48e zram: convert to SG-list zsmalloc object read API
-19e3349902c1f419cb989bede7a4cfdab5936cdf zsmalloc: remove old object read API
-80f68acc359a6fbcca685b2a8ad977b477055761 mm, swap: fix potential NULL dereference when trying a sleep table allocation
-cdf64baca16fe951430ce8456ee2649c2ad1d64f mm, swap: move setup_swap_clusters_info() after SWP_SOLIDSTATE initialization
-38029a3a8f54a69959d4d87fd3e09e8fc1f6bb31 mm, swap: return early from swap_extend_table_try_free() on first non-zero entry
-20fd4ad0e1d8e3d537a66cf20104604c48a1e8c2 mm, swap: remove unneeded swap_extend_table_try_free() in swap_dup_entries_cluster()
-718356dddfb430cbfe4962e0423a6b3c738dc93c docs/core-api: memory-allocation: clarify when to use kzalloc_obj and kzalloc
-10cc7f4a619e2304fd4f3498d484e517aeec2faf mm/page_counter: avoid integer overflow in effective_protection()
-42bc8fd786c15f90572ac494028c6da65c98d110 mm/mglru: fix ineffective memory protection for non-kswapd reclaim
-02b5db6910ef4ee8ee2c8d91b89bb63966acf86f tools/testing/vma: cover hole filling through __mmap_region()
-442ec6823e08f03aeab31e31aa73652d89f721c2 mm/zswap: enable zswap_ever_enabled in zswap_pool_create()
-d0b2bc062ca2035d61a0183ea2fb88f3616528fc mm/zswap: release retired pools via queue_rcu_work() instead of synchronize_rcu()
-f0c5a3e52030474a47704ed204292648d0d01112 mm/zswap: replace the zswap_pools list with an allocating xarray
-e692e6029f774e00f895e3f9602562736a9ba25f mm/zswap: reference the pool by id to shrink struct zswap_entry
-8624f0ab4eeb22639521be8721e5d2ad772d9546 mm/damon/api: introduce DAMON_FILTER_TYPE_PGIDLE_SET
-279aad211e4a4874a7fdc0c83a763a81590c5adc mm/damon/paddr: support DAMON_FILTER_TYPE_PGIDLE_SET
-70bdc961c5714aa8ba8a04f089f77194a1e55f95 mm/damon/vaddr: support DAMON_FILTER_TYPE_PGIDLE_SET
-3bdd85526466999add755459c6f5d43273aeae54 mm/damon/sysfs: support DAMON_FILTER_TYPE_PGIDLE_SET
-213c40266342ba7c42fa39dea9c4cbf19a0784b8 Docs/mm/damon/design: update for pgidle_set probe filter
-7dced9c209f49fcbb2dd57cf21b321c1892cee93 mm/sparse-vmemmap: introduce CONFIG_VMEMMAP_OPTIMIZATION
-c7b6fd28361021e01c77a00f8327db0ecbfa42af mm-sparse-vmemmap-introduce-config_vmemmap_optimization-fix
-c5ff08a41fe178fe82b7b142aec0bf545c139143 mm/sparse-vmemmap: factor out shared vmemmap tail page allocation
-828ba3da2d1f00234fd3f7d7bf99643637d27be4 mm/sparse-vmemmap: open-code init_compound_tail()
-bbdb7c530f3bb8e7b74a6ee6d1a70ca340312bf5 mm/sparse-vmemmap: prepare DAX vmemmap population for compound page orders
-92f09577a918c56419c63db4b59f27116ba5de6b mm/sparse-vmemmap: set compound page order for device DAX
-489c4ef0acab3bba9e8be019dd357241bb07de9f mm/sparse-vmemmap: switch device DAX to shared tail vmemmap pages
-b241e42a8344db2a8f0710e78794114fc005fb0e mm/sparse-vmemmap: move vmemmap optimization helpers to a public header
-40a6b04c1cc4f5d03a92b628015ccc702f080e9e powerpc/mm: switch device DAX to shared tail vmemmap pages
-81936c6c96280af1cb7af28519c236abbeaec0a4 mm/sparse-vmemmap: drop the extra tail page from device DAX reservation
-335f19e4048867d3da35c9232fe431040a882bb6 mm/sparse-vmemmap: drop unused section_nr_vmemmap_pages() arguments
-7e90304844bf3c6d387c7cb443d896de2acfb9b4 Documentation/mm: update DAX vmemmap deduplication docs
-27c479a648ecbb09a4929c811b4194978a3977d3 writeback: bound cleanup_offline_cgwb() rescans by rotating scanned inodes
-2e0b99788ec798df7897a59808371eb751df255c lib: fix lock initialization in region allocation benchmark
-c10b3680c61187dd1bddc52651bed4cddf04abb5 kselftest: mm: fix potential failure for merged VMA in guard-regions
-162d496678cca4a145e6e87fbc5b8ab0cfde0b54 mm/damon/api: introduce DAMOS_FILTER_TYPE_PROBE_HITS_WSUM
-423480582fee673c728f8a95914c3204097f7fdc mm/damon/api: clarify DAMOS_FILTER_TYPE_PROBE_HITS_WSUM behavior
-a389eff87449aea6c215ca099cf6fce91265a26d mm/damon/core: extend probe_hits_wsum() for moving sum based calculation
-65293b6d46e113eeef7467da610c608a163e145a mm/damon/core: support probe_hits_wsum damos core filter
-26f26ddf9a170dea100ed4a8d54701aa4ba76f34 mm/damon/sysfs-schemes: rename sysfs_filter->sz_range to range_{min,max}
-70e5bd1986c9e1ce9bf01cd294cb45877049e52b mm/damon/sysfs-schemes: support probe_hits_wsum damos core filter
-4cd2503b859e80dcca9ea6e319dd457f623ab5fb Docs/mm/damon/design: update for probe_hits_wsum DAMOS core filter
-a073a549f6f7126a943046fdc287e51fc40da3ef Docs/admin-guide/mm/damon/usage: update for probe_hits_wsum DAMOS filter
-da8d38f0009659fd66742ef5027a7252b13ef3af selftests/mm: skip khugepaged file tests if mkfs.xfs is unavailable
-691e61bfd61e31d32c9a7417cbacfde669710f75 mm/mempolicy: use vm_normal_folio_pmd() in queue_folios_pmd()
-0adc92f6c1b71b4d817ff1ca799b8356b5bb4cb6 mm/madvise: use vm_normal_folio_pmd() in cold/pageout PMD range
-3d8a3010d66986ec3d002196bfddcfb5dac4726f mm: refactor find_next_best_node to find_next_best_node_in
-cd1f9269a79b6dbaf1d89b4f9efbf978f066f5e6 mm/page_alloc: refactor build_node_zonelist() out of build_zonelists()
-7c7dc265bbbaf08f038afde04393de0ace54b728 compiler.h: add ASSERT_STATIC_STORAGE()
-2227dbfae295602bd01212027b45f0b2787bf200 idr: assert static storage for DEFINE_IDA()
-8bdb09d968916c56059d60c81a15859c243e4b08 maple_tree: assert static storage for DEFINE_MTREE()
-498d87ccc54669df12231b4bfbaf09ad046244d2 kselftest: mm: remove exclusion of building soft-dirty test in arm64
-25cbf46a3d471cf12e24b0925d2ad044478f3059 mm: zswap: return -ENOENT when the swap device is gone
-2ea98cbff77fc49a61202473cd0d29babd4cf8a8 mm/zsmalloc: replace PG_private with pointer comparison
-3cb1bc4b72657087ec49771b78660c0b9bd8a407 perf/ring_buffer: stop using PG_private as AUX page high-order marker
-cac58869dae6ea058331648c4505bbbc5e0ae478 xen/grant-table: stop setting PG_private on pages for grant mapping
-6ee7b2cdc2bad8c48432864dd1acc4ba4b61fd72 fscrypt: stop setting PG_private on bounce page
-bc1f97565bff623dea353f9c7ff7009b88c4f4b8 mm/hugetlb: use direct assignment instead of folio_change_private()
-e5121c19aad3e836ec79552a1efd8d7d2d8c9541 f2fs: stop using PG_private
-230c42a3679788cf304bf99555a5e546a70dbbcc f2fs: convert the ->private flag helpers to folio-only
-5b0d9f42882cfa3a549ec3212840d77edffcea36 erofs: mm/pagemap: add readahead_folio_last() to avoid folio->private
-536f94bcf852dc17d1dfbaada07022079d7cd4d2 erofs: use folio_attach/detach_private() instead of direct assignment
-9190d9a76fbb562a1e24fee79e02affe114692b7 mm/page-flags: check page/folio->private instead of PG_private
-3c1099377dc4a13b08506ba066806bd75db569a5 treewide: remove folio_set/clear_private() usage
-92382fac2e427c6f80c96fd6a2cdfa2450b1abe1 ceph: replace PagePrivate() with page_private()
-8139d47ce650a2c16b69cafeec4d87b15a261501 md/md-bitmap: replace PagePrivate() with page_private()
-677aa575c280bb08eee9edaddc870ec2b8bb73d7 buffer: replace page_buffer() with page_private() and delete it
-0e51ef84d59a96435559a71c33b168eaeca65c5f treewide: remove PagePrivate() and PG_private from comments and docs
-5be102617e1af2be072bb9763bb4478fb7f89f02 mm/page-flags: remove PG_private
-2143e7031ac3321ff536598c23ae7910c4985a11 mm/swap: fix off-by-one in swap cache replace sanity check
-d768f179af838b7bfaafac28efcae8ab556f9bb0 mm/huge_memory: fix rejection of swap cache folios with a mapping
-dc3b26018003173448c7c1478fbf2335e801bb2a mm/huge_memory: invert folio_ref_freeze() check to reduce indentation
-a449ff14f7b989f7e5a3571a81473ba6b7d1b2ae mm/huge_memory: split the routine for splitting anon and file folio
-da699f268cc615d7e107f488b9ef23dc92ca6686 mm/huge_memory: rename __split_unmapped_folio() to __split_frozen_folio()
-132654d6231fbfcbc158e444abd03b96cd01678a mm/huge_memory: consolidate irq and locking for folio split
-840a9ae352128ca2d4814be9d0c3f95638526e24 mm/huge_memory: move EOF trimming into the file split helper
-472e8a833d55f309119c5d7ec29d35ab09c4b952 mm/huge_memory: move unmap and remap into the split helpers
-bac36758e588e842ea766694beadd607e3e62f01 mm/huge_memory: rename remap_page() to remap_anon_folio()
-8bdfcd764acc8e0f7107d4d4a38e254d62581c89 mm/huge_memory: move the racy refcount check into unmap_folio()
-ee0a8563d7d0d8bd383ad6e12ab0e0c4a9cd4a28 mm/huge_memory: move filemap management into the file split helper
-a2c24a3140b2d9680584350fd1f2073e4544e197 mm/huge_memory: move anon_vma handling into the anon split helper
-26953adbdd03e166b6ea022548ca448fff176976 mm/huge_memory: move memcg switch into the file split helper
-e110d5cf783dfe04d3a119f29bb3f960df9cb63a mm/huge_memory: drop the unused do_lru argument of the file split helper
-9cbd5e2292f2a2fe88adaa3025ee2952e653b06f mm/huge_memory: clean up after-split folio freeing in __folio_split
-3db991d444cf9122f1b22583f064e33d7bd05432 mm/huge_memory: count only swap cache refs in anon folio split
-7a341d87eeeca3c2cd2573a653106b88eead0ab1 mm/huge_memory: drop the redundant mapping argument of __split_frozen_folio
-011a59ac657b60fe5dd01fb519ba149770f91c62 selftests/mm: hugetlb_madv_vs_map: add underflow test
-e4058f7b4b91fbfd52ef5a0a2a767ac66aab6b92 mm/vma: fix mmap_prepare file handling, remove file_doesnt_need_get
-fd9c42f3c952b20ad0038bc60c5d5428397fa0f0 mm/vma: predicate setting mmap_prepare VMA fields on new vma alloc
-475282a3641a130f359a5c1e653b1cd93f2e17a4 mm/vma: introduce and use vma_[flags_]can_merge()
-a42daa529e49b7c35e7a6acf15848f524d05c781 mm: consistently validate VMA state after mmap[_prepare] hooks
-413ec8d2299356ff4e574555caa624fbb25b3d94 mm/vma: ensure mmap_prepare doesn't set actions on a mergeable vma
-ec3ffedc5e615544f7e2e94ea2f57f41fea5ac57 mm: make map_kernel_pages_[prepare,complete] internal and unexported
-98256a372490301c9a75d2e4c0714958622c3035 mm/vma: tidy up map kernel pages enum values
-09d91754738ce10196b0062dba03d32c5d2bc514 mm: add mmap action for discontiguous kernel page mapping
-165e38f6a70c9b465e694d6f87e90ea93274afc0 docs: filesystems: update mmap_prepare docs for discontig kernel pgs
-a174ea2c3a6475b404f36b4ff4a77ababdc4330c drivers/usb/mon: update to use mmap_prepare + map kernel pages
-abb8ae552e127969e343dafd9a7780fbdcdd66ad infiniband: update hfi1 to use remap_vmalloc_range()
-a2d50154f54cc6b36a05e50050e504bce6312fb7 selinux: reject writable opens of policy file, drop mmap shared/write check
-ee30f625bce408aa6163ca15887763b26e6facaa ALSA: pcm: use vm_insert_page() to map PCM status page
-b0d4b38f07ca8dc62107171043a1a0022abff8f1 bpf: arena: mark arena_map_mmap() mappings VM_MIXEDMAP
-3d13c2511d426ec71e7408580b0ba0f52a2b9e71 mm/vma: add vma[_flags]_is_kernel_owned() predicates
-2b282a26cc4a179549d3e1100e21f7c240adbb05 mm/vma: only allow mmap to clear VMA_MAYWRITE_BIT if kernel-owned
-56f51db4d2d86e74e52d8edaa98a096f8d5a7589 mm/vma: add and use vma_[flags]_is_fixed_mapping
-478cfaacb94b880affdc5246ad18b03a4bd5b81f scsi: sg: convert mmap hook to mmap_prepare and rework
-8dc78e7100bf2c348146fac448d9bfa6e9e0b1cd fbdev: defio: assert FBINFO_VIRTFB, drop VM_IO, add VM_MIXEDMAP
-f6a2007c6a18b197790d23d76634c1ad3ed000c7 HSI: cmt_speech: convert mmap hook to mmap_prepare, refactor
-1ae91f79d96093397b2cefdbfbc461f103ba2a3b mm/gup: error out early on !VMA_MAYREAD_BIT VMAs
-976ec2991cf9d057923450e8021d649f60452722 uprobes: remove VM_IO, set VM_MIXEDMAP for mapped kernel pages
-b2e6ed5f6428be9f8918ab5bc09aea62a30004f1 mm/mlock: clear VMA_LOCKED_MASK over mmap callback
-3ce84a179083aeb37e2e4d216997f9f35461a87e mm/mlock: eliminate weird VMA_IO_BIT abuse and simplify
-d1b51ae18e27bafca9200939c2ddb8c2effb2dfe mm/vma: enforce that only kernel-owned mappings may set VMA_IO_BIT
-24b0a5563268575f58fe335c7aa390a6128a1be0 mm: remove VMA_IO_BIT check in vma[_flags]_is_kernel_owned()
-f1f0a6b6e734c7ce8a22e7a227dfeecffea20e4d mm: remove hugetlb_inline.h
-fe393d647870204c71c84b308b097d8d0dd36f59 mm: rename is_vm_hugetlb_page() to vma_is_hugetlb()
-4d6b17c42454b61d4c2de042deb72a990b70d701 mm: drop some redundant checks around hugetlb VMAs
-5552eb38935830f92dea58e3684f388214651a8b mm/madvise: update is_valid_guard_vma() to use vma_can_merge()
-853b6ff3b3b5c45bab04f49c57f226097bfd35ef mm/vma: introduce vma[_flags]_is_persistent()
-f575535021c2cc85a0d76adcadd35122b6f68ba2 mm/uffd: use predicates for userfaultfd checks
-7c240519bb967d8cf78de90d03946d4d3c7bf025 mm/madvise: use predicates for madvise(..., MADV_DOFORK)
-b24aaa5c2f09d88e4e8aec8f89389a85bbb74539 mm: eliminate VMA_SPECIAL_FLAGS usage when hugetlb explicitly tested
-4c6f7355ec6b6bc3e4df012348ae041d1f5c4ad4 mm: eliminate VMA_SPECIAL_FLAGS check in lru_gen_look_around()
-59a610687df8869766a2657a607b0e26103ae3d9 mm: avoid use of VMA_SPECIAL_FLAGS in migrate_vma_setup()
-8fa7d7ffc52a5ef548cf176d23fd1750122facce mm: eliminate VM_SPECIAL, VMA_SPECIAL_FLAGS
-3ce79a1b3504e1519ac542e949a1a4747221833d fuse: dax: do not set VM_MIXEDMAP
-f74e16c83aebe9fea7575f66b11d514888708620 mm/huge_memory: remove vma_is_special_huge()
-61939fb09775f8d373053b2c530690137ec540ed mm/vma: introduce and use vma[_flags]_can_gup()
-129943a28e7f81d6d78cf5a3717638f994a8d439 mm/damon/sysfs-schemes: read sysfs_filter->addr_range only once
-da7d655ef815cb8250715dbcd23472cdd6a4367e mm/damon/sysfs-schemes: read sysfs_filter->sz_range only once
-50c16af615f43e378abee344485567b03e938a60 mm/damon/core: return an error from damos_commit_filter_arg()
-0d69700bd5876e47929d93047965a39f1bfb98f3 mm/damon/core: disallow max < min damos filter range arguments commit
-dcc3d3078809b5f5c1bc12033fe6773d263a6dd7 mm/damon/sysfs-schemes: drop centralized filter range arg validations
-52b8ecbaa329e6336284389a0d40eb02b1295255 mm/damon/sysfs-schemes: use switch-case in add_scheme_filters()
-5ad7f1cc9dcbb74dc4a32b44c1c424b3f2cf0622 mm/damon/core-kunit: extend damos_commit_filter_for() for wrong input
-0aff93d5bccd173a55f1c073566a25f20e1e4e03 mm/damon/core-kunit: test invalid damos filter commits
-658d8a9270ad6df6a54655707fd47fd933385270 selftests/damon: stop kdamond on error exits of no-op commit test
-b01fad3437c49e20ac6fa2500c82967d78222fa6 selftests/damon: ignore test-generated damon_dump_output
-711a2cfbe71670b78fa094d1df0f0a26af30827c selftests/damon: add script dir to sys.path for PYTHONSAFEPATH compatibility
-5f77590a98aca456e4be44d7f9358821cbee97c3 mm/damon/tests/core-kunit: improve nr_samples_per_aggr test isolation
-43b472b1f3e09d877a40eac2ff08e3abb62b1ee4 Docs/mm/damon/design: clarify when qt_exceeds increases
-5f037f5a54cf640b2cfe88c6294cdfdde7f31aa4 Docs/mm/damon/design: fix typos in temporal auto-tuning algorithm section
-c2d057098e19d405825d19ebb28b95e66d0e649a proc/task_mmu: handle special PMDs in clear_refs and pagemap
-56267c547714ea84dfd3f035a083c1bc315d3f62 mm/vmalloc: group xa_init with vbq field initializations
-328b9bc39108b31e05f7e34200d5d26eb1ecd03c mm/vmalloc: extract vmap_insert_free_area helper
-8728a7b3ea591ef66489c3c9b1e1837bfde1c53f mm/vmalloc: extract show_busy_info from vmalloc_info_show
-86ac927deaa3f809e63ac7c8fd21bf22c4e98edb mm/secretmem: fix the enable parameter description
-e58d8ae96134fc242e2ca4134b9a387edead0404 mm/madvise: reclaim isolated folios if PTE restart fails
-2c56225bda3456f71567b4d7247d96e1148c5164 selftests/cgroup: ignore memory.reclaim -EAGAIN for zswap writeback test
-b32f8527e69e754ee8d0c9b2b56a3df525a26ebe mm/hmm/test: reject overflowing page counts
-2e8b468f96aded5fae5334b470d4fa424e2b73cc mm/damon/api: introduce DAMON_FILTER_TYPE_HUGEPAGE_SIZE
-8095ce5e4ea9fed29bb20e128400d83b82752072 mm/damon/core: commit hugepage_size type damon filter
-bb0bd686f2b5793d337cc74aa5333c5372cad055 mm/damon/ops-common: support hugepage_size damon filter matching
-75e45831e3b4f1af5fdc2f27a0622c36690f1b0d mm/damon/sysfs: add min,max files under probe filter directory
-111fa8bce554c5800d58259fd06447be99b43538 mm/damon/sysfs: support hugepage_size probe filter
-2049edf7374270dc0cd5dd2460739470d6dbc990 Docs/mm/damon/design: update for hugepage_size probe filter
-b162bcf5116e95dd866825b18cc0c52d039c0c38 Docs/admin-guide/mm/damon/usage: update for hugepage_size
-e08149291dc83088a4b8358f486064fa2c79097c docs-admin-guide-mm-damon-usage-update-for-hugepage_size-fix
-7e82fa418cda4cd20d62a43d90972f7b0b2ec556 docs-admin-guide-mm-damon-usage-update-for-hugepage_size-fix-fix
-72da04a41011d34ba2aabd021a3d0597494caf06 Docs/ABI/damon: update for hugepage_size probe filter
-
---===============1025940643762700205==--
+    new: a154ab8b57e1b621c400738f22cad3491db71de6
+  - ref: refs/tags/afs-fixes-20140523
+    old: 0000000000000000000000000000000000000000
+    new: 07dbd7e7d042a8e1d8179af19d384e5027273451
+  - ref: refs/tags/afs-fixes-20171124
+    old: 0000000000000000000000000000000000000000
+    new: 061ac5931e49bd86bddc826252dc6de87b75703b
+  - ref: refs/tags/afs-fixes-20171201
+    old: 0000000000000000000000000000000000000000
+    new: 6e472b7e21d1f110537cb1f45da6547cb71eb873
+  - ref: refs/tags/afs-fixes-20180102
+    old: 0000000000000000000000000000000000000000
+    new: a27ee22eafc9305780a10c8fddd5b22e911fedeb
+  - ref: refs/tags/afs-fixes-20180514
+    old: 0000000000000000000000000000000000000000
+    new: 83f4cd8357296010077246d99b19bde44f58daee
+  - ref: refs/tags/afs-fixes-20180529
+    old: 0000000000000000000000000000000000000000
+    new: 02ecc3303a431a7e98593740d7e8e902bec86170
+  - ref: refs/tags/afs-fixes-20190117
+    old: 0000000000000000000000000000000000000000
+    new: e860e5bbf8f93775785e49da9bed96823408ed6a
+  - ref: refs/tags/afs-fixes-20190413
+    old: 0000000000000000000000000000000000000000
+    new: c9d24175cbcda77a259d8f0aebb5c3ae2e0f0913
+  - ref: refs/tags/afs-fixes-20190516
+    old: 0000000000000000000000000000000000000000
+    new: 953cfaa87883fcf12f1894f18da835351284ca28
+  - ref: refs/tags/afs-fixes-20190620
+    old: 0000000000000000000000000000000000000000
+    new: 41da4691881700598745b700398e6481c9d5f517
+  - ref: refs/tags/afs-fixes-20190814
+    old: 0000000000000000000000000000000000000000
+    new: 432745bb95e71abe08c703c25aa12cf63b86e2b7
+  - ref: refs/tags/afs-fixes-20190822
+    old: 0000000000000000000000000000000000000000
+    new: ebe22297acac8669f8b05fafb77abb22c3d57a42
+  - ref: refs/tags/afs-fixes-b-20190516
+    old: 0000000000000000000000000000000000000000
+    new: 99ba6d5f6831c8105da502f8203e84e77e41d2e1
+  - ref: refs/tags/afs-namespace-20180523
+    old: 0000000000000000000000000000000000000000
+    new: 4e0538a40d597866fdcb552d0c0838316a3474cb
+  - ref: refs/tags/afs-next-20171113
+    old: 0000000000000000000000000000000000000000
+    new: bdfecac67287ac4a11bf1aff0964bb3bdf596cfc
+  - ref: refs/tags/afs-next-20180208
+    old: 0000000000000000000000000000000000000000
+    new: 9f1080bfbec7c896085a73f9e63a9c80de3fbc8e
+  - ref: refs/tags/afs-next-20180409-c
+    old: 0000000000000000000000000000000000000000
+    new: 36e4596c245e1418b07d3f024f52d2240c243eda
+  - ref: refs/tags/afs-next-20181024
+    old: 0000000000000000000000000000000000000000
+    new: 57a4b89e8ba2ece6f74634c742f50c1350d469dc
+  - ref: refs/tags/afs-next-20190507
+    old: 0000000000000000000000000000000000000000
+    new: 903e8c7f924634397a76ae5804e5b58958127be5
+  - ref: refs/tags/afs-next-20190628
+    old: 0000000000000000000000000000000000000000
+    new: 797fa9f30692019f645e3f2f01391033bc23f62d
+  - ref: refs/tags/alloc-args-v4.19-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 0180e5682aa39f76cb643a924dfc5a337d505cc4
+  - ref: refs/tags/asn1-fixes-20150805
+    old: 0000000000000000000000000000000000000000
+    new: 236d9d4d3e235819a48587dd3877a4ceed8b8590
+  - ref: refs/tags/blob-stacking-security-next
+    old: 0000000000000000000000000000000000000000
+    new: c737dd246355d1f87ea86df017a77a9b713ec3a9
+  - ref: refs/tags/cap-checkpoint-restore-v5.9
+    old: 0000000000000000000000000000000000000000
+    new: a4a86c876020bdbafd072587238e2a0c593c0da4
+  - ref: refs/tags/clone3-tls-v5.5-rc6
+    old: 0000000000000000000000000000000000000000
+    new: f30ce962133c871878081375bbb7fbcbd4845bfb
+  - ref: refs/tags/clone3-v5.3
+    old: 0000000000000000000000000000000000000000
+    new: 0f290da58bff74179d0516f5949c89821567b375
+  - ref: refs/tags/close-range-cloexec-unshare-v5.11
+    old: 0000000000000000000000000000000000000000
+    new: 3595194dbc9a1e96f837cabc2b5d810b8b450bb3
+  - ref: refs/tags/close-range-openat2-v5.11
+    old: 0000000000000000000000000000000000000000
+    new: 01cd7bb111c0628c3a425f50f77565b2650aa3da
+  - ref: refs/tags/close-range-v5.9
+    old: 0000000000000000000000000000000000000000
+    new: 24a00600553d3a09994944c6d6c1fd70eef31962
+  - ref: refs/tags/copy-struct-from-user-v5.4-rc2
+    old: 0000000000000000000000000000000000000000
+    new: f405c45fc8cf9bde24d0e5cde753013d61505a0e
+  - ref: refs/tags/copy-struct-from-user-v5.4-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 597e78cce06dec5457d956de7054004b2179a9e7
+  - ref: refs/tags/core-process-v5.4
+    old: 0000000000000000000000000000000000000000
+    new: f1c2d0b8d0b0c70b9d4db5c4390dfa6565e008f4
+  - ref: refs/tags/devmem-v4.11-rc7
+    old: 0000000000000000000000000000000000000000
+    new: ac0e6db71dfce4e8ea67312dde613e22dabf82b1
+  - ref: refs/tags/fixes-v5.11
+    old: 0000000000000000000000000000000000000000
+    new: d63bbe23afac82c2d3afcd3e2ca707ca7727e428
+  - ref: refs/tags/for-6.16-rc4-tag
+    old: 0000000000000000000000000000000000000000
+    new: 6a52c4574ade0c1b2c6229e59b58f72f56af82a8
+  - ref: refs/tags/for-6.6-rc4-tag
+    old: 0000000000000000000000000000000000000000
+    new: 8e03904c9b0f671651cf0b6bcc562ebbbd190160
+  - ref: refs/tags/for-gregkh-3.9
+    old: 0000000000000000000000000000000000000000
+    new: 6f3527247f5bd2454081f9858ae4c11ae0a7d3fc
+  - ref: refs/tags/for-linus-2019-11-05
+    old: 0000000000000000000000000000000000000000
+    new: a2b4d9e1d1299ebe3122790acfdc0f9e48f09056
+  - ref: refs/tags/for-linus-2019-11-21
+    old: 0000000000000000000000000000000000000000
+    new: f0c4239656ba572a90ad901d7be1c510b12c67f6
+  - ref: refs/tags/for-linus-20190626
+    old: 0000000000000000000000000000000000000000
+    new: e091263b5a1a1be5c728d9871621b06a028a36bd
+  - ref: refs/tags/for-linus-20190627
+    old: 0000000000000000000000000000000000000000
+    new: e721e6c55a3e7482c2de5a88f6d63e70a8c3c234
+  - ref: refs/tags/for-linus-20190701
+    old: 0000000000000000000000000000000000000000
+    new: 5840526e99c1043c5a35e07ff4812af79409d89b
+  - ref: refs/tags/for-linus-20190715
+    old: 0000000000000000000000000000000000000000
+    new: 2950ee01956f86aadfe16ce58ab4a6621d3d794b
+  - ref: refs/tags/for-linus-20190722
+    old: 0000000000000000000000000000000000000000
+    new: 8830fcf27da918be732528b9e5c6a1b281dd3120
+  - ref: refs/tags/for-linus-20190730
+    old: 0000000000000000000000000000000000000000
+    new: 2f2c8d46a4c4e51f0967a6024d10f55f6bb652f4
+  - ref: refs/tags/for-linus-20190912
+    old: 0000000000000000000000000000000000000000
+    new: 276f7d3fd860c23ae2886dc9e91ed150e51b141f
+  - ref: refs/tags/for-linus-20191003
+    old: 0000000000000000000000000000000000000000
+    new: 73be12741c2ec86b037b6a68aa4ffbe53bc4a63f
+  - ref: refs/tags/for-linus-2020-01-03
+    old: 0000000000000000000000000000000000000000
+    new: d253557789bb06458e34ac6bd228fd5a14ac883e
+  - ref: refs/tags/for-linus-2020-01-18
+    old: 0000000000000000000000000000000000000000
+    new: 29b148bd80539b26ba76c02c28efb6cb9bab84c0
+  - ref: refs/tags/for-linus-2020-03-07
+    old: 0000000000000000000000000000000000000000
+    new: 3b421c04ea1d9e1c382d53ace504e021a8dd1bbb
+  - ref: refs/tags/for-linus-2020-03-10
+    old: 0000000000000000000000000000000000000000
+    new: 1ab63d411e38839b759d023861f9d937a69f3787
+  - ref: refs/tags/for-linus-2020-04-18
+    old: 0000000000000000000000000000000000000000
+    new: 21379a78cf52ad1a176c604273877c77205c9cc8
+  - ref: refs/tags/for-linus-2020-05-13
+    old: 0000000000000000000000000000000000000000
+    new: fc80a5f0afaa7d80a12e36881a1215ef0427cb66
+  - ref: refs/tags/for-linus-2020-06-24
+    old: 0000000000000000000000000000000000000000
+    new: 5d426644da3fcf6d9ef23e725113627cd85fe224
+  - ref: refs/tags/for-linus-2020-07-02
+    old: 0000000000000000000000000000000000000000
+    new: ec0e3b1bafaaf8badce9d24e633a923e2b6b2218
+  - ref: refs/tags/for-linus-2020-08-01
+    old: 0000000000000000000000000000000000000000
+    new: 8fb16e35c0b9933d9a61246550a9ba761ce1297f
+  - ref: refs/tags/for-linus-2020-08-20
+    old: 0000000000000000000000000000000000000000
+    new: 875de717f6a3dc02fa32ca58744e79c1c47dc586
+  - ref: refs/tags/for-linus-2021-01-24
+    old: 0000000000000000000000000000000000000000
+    new: 08f6e2abd1dd5f95caa4810e0f1c066d837efafa
+  - ref: refs/tags/for-linus-2021-03-10
+    old: 0000000000000000000000000000000000000000
+    new: 163d006c29a2fe089170a2c2abac53d1128cca96
+  - ref: refs/tags/for-linus-2021-04-08
+    old: 0000000000000000000000000000000000000000
+    new: 9ec0808a68af96ca2204f51a1b4d41123741f558
+  - ref: refs/tags/for-linus-seccomp-for-linus-seccomp-3.17
+    old: 0000000000000000000000000000000000000000
+    new: 3a0789bc1f3f7bcfe7051821ce54daefbeda95fd
+  - ref: refs/tags/for-linus-timers-conversion-final-v4.15-rc1
+    old: 0000000000000000000000000000000000000000
+    new: c5d575518ce8adc0a8427b743d1a8cd6f5379849
+  - ref: refs/tags/fork-v5.9
+    old: 0000000000000000000000000000000000000000
+    new: 4ce7387cbb5799051a036d29a21f68ad0dae00da
+  - ref: refs/tags/fs.acl.2023-03-06
+    old: 0000000000000000000000000000000000000000
+    new: ed7ffb5e0bad05fcbca283e7d84b4c5d7f812623
+  - ref: refs/tags/fs.acl.rework.prep.v6.1
+    old: 0000000000000000000000000000000000000000
+    new: b025f9b0e46ffd9eb6a494a08243c41e2f79ed6e
+  - ref: refs/tags/fs.acl.rework.v6.2
+    old: 0000000000000000000000000000000000000000
+    new: e96392eafa310d30413d73a54a4cfc93614fd838
+  - ref: refs/tags/fs.acl.v6.3
+    old: 0000000000000000000000000000000000000000
+    new: 97d7c2c27904b62d96c2ba22a3b2a870fdf74bf8
+  - ref: refs/tags/fs.close_range.v5.15
+    old: 0000000000000000000000000000000000000000
+    new: e22c82274ef7bfc38727c1907bc4c42807c80423
+  - ref: refs/tags/fs.fixes.v5.18-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 3e2711a7d51d4ea85173367de612e53c9dbf8e5d
+  - ref: refs/tags/fs.fixes.v5.19-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 05bc2b217d970a9690b53638b6b0c6a744cc60d8
+  - ref: refs/tags/fs.fixes.v6.0-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 0451c060146370957a9cb42efbf88a8be47d7f5e
+  - ref: refs/tags/fs.fixes.v6.0-rc7
+    old: 0000000000000000000000000000000000000000
+    new: fa823f45acd2ea4710ba856fa2e29ffd06350659
+  - ref: refs/tags/fs.fuse.acl.v6.2-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 13824496eb43d6e42ce257c850eb76a3526a79b8
+  - ref: refs/tags/fs.idmapped.docs.v5.13
+    old: 0000000000000000000000000000000000000000
+    new: 82b2739514602957b52ef72daf256c84be399df7
+  - ref: refs/tags/fs.idmapped.fixes.v5.16-rc5
+    old: 0000000000000000000000000000000000000000
+    new: f372b08c1cb657c3b247ee92eb82baca7d5b3338
+  - ref: refs/tags/fs.idmapped.fixes.v6.0-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 8769652cc25da58cdc2e6e5556f6f1d96dbf8b34
+  - ref: refs/tags/fs.idmapped.helpers.v5.13
+    old: 0000000000000000000000000000000000000000
+    new: f52f1d5ff734ba76233fe9dac453d1fa7ac32e26
+  - ref: refs/tags/fs.idmapped.mnt_idmap.v6.2
+    old: 0000000000000000000000000000000000000000
+    new: cee32a54ee25b6cd4ee4d6a794d5087aa74f76a0
+  - ref: refs/tags/fs.idmapped.mount_setattr.v5.13-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 5fc81fcc64725d0c2c86dd5af8d0ca6fd1153e43
+  - ref: refs/tags/fs.idmapped.overlay.acl.v5.20
+    old: 0000000000000000000000000000000000000000
+    new: 65d32810ca94ced7266f6b8eb3de91caf2138070
+  - ref: refs/tags/fs.idmapped.v5.15
+    old: 0000000000000000000000000000000000000000
+    new: 9710c5b8a24bca1554a904c2705f2974c577307d
+  - ref: refs/tags/fs.idmapped.v5.16-rc2
+    old: 0000000000000000000000000000000000000000
+    new: b743d51f044a30cc37198ca3d5f7673dd8f47e8e
+  - ref: refs/tags/fs.idmapped.v5.17
+    old: 0000000000000000000000000000000000000000
+    new: 1c60c243b8df07424908b7505dcec56d820eb605
+  - ref: refs/tags/fs.idmapped.v5.19
+    old: 0000000000000000000000000000000000000000
+    new: 7de0641654581cd20b0c16c6dc7179e8b029c648
+  - ref: refs/tags/fs.idmapped.v6.3
+    old: 0000000000000000000000000000000000000000
+    new: dbe09f4841d5cf01ed652c794635b11afb2fbea3
+  - ref: refs/tags/fs.idmapped.vfsuid.v5.20
+    old: 0000000000000000000000000000000000000000
+    new: 3d3c70e9b307467d86f9277ba7f3d1c31db6daff
+  - ref: refs/tags/fs.misc.2023-03-08
+    old: 0000000000000000000000000000000000000000
+    new: 54712a8412a97f49489a5568019f3e2ffec94343
+  - ref: refs/tags/fs.misc.2023-03-08.2
+    old: 0000000000000000000000000000000000000000
+    new: d4def2235843d6726d3243ef52c5f49382418ffe
+  - ref: refs/tags/fs.misc.2023-03-09
+    old: 0000000000000000000000000000000000000000
+    new: 54a4347d19a860c71a12a3ee11f32c7c7fa380d1
+  - ref: refs/tags/fs.misc.v6.3-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 368f614fd9175a67461da9f12abd43080fe31c85
+  - ref: refs/tags/fs.mount.propagation.fix.v6.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 17d55dc8bd1d851c7d4e4d85140c00cb1d937b2e
+  - ref: refs/tags/fs.mount_setattr.nosymfollow.v5.14
+    old: 0000000000000000000000000000000000000000
+    new: bfbf696159689b006333a230f5d862b5f6a0bb3d
+  - ref: refs/tags/fs.mount_setattr.v5.17-rc4
+    old: 0000000000000000000000000000000000000000
+    new: d0b0b34f5261502342705bde76e2be58d6c3e06a
+  - ref: refs/tags/fs.move_mount.move_mount_set_group.v5.15
+    old: 0000000000000000000000000000000000000000
+    new: 4c2630ca8a505a341b06b00f45fe31ab58802547
+  - ref: refs/tags/fs.openat2.unknown_flags.v5.14
+    old: 0000000000000000000000000000000000000000
+    new: ace8853ac99e3a6ab6b42edd3f6054a4f6b4fdd8
+  - ref: refs/tags/fs.ovl.setgid.v6.2
+    old: 0000000000000000000000000000000000000000
+    new: 7e1ff3db66bf1d6c495fde6cc5f7b3f3792150b4
+  - ref: refs/tags/fs.rt.v5.18
+    old: 0000000000000000000000000000000000000000
+    new: f86c7b35ce9789dbb63ca219330eabae76ff267c
+  - ref: refs/tags/fs.setgid.v6.0
+    old: 0000000000000000000000000000000000000000
+    new: 22a0a5c57b42adbe8541bfde0573b7b1bc7f4fb0
+  - ref: refs/tags/fs.updates.v6.3
+    old: 0000000000000000000000000000000000000000
+    new: 470645f376171e8467c66167d9d75b7b4ec23bba
+  - ref: refs/tags/fs.v5.18
+    old: 0000000000000000000000000000000000000000
+    new: d3b17f65ede4a4a1f56a2a5652bac02e6e0c0aca
+  - ref: refs/tags/fs.v6.3
+    old: 0000000000000000000000000000000000000000
+    new: 27bb6a2bf336d0cce63d0155ca01fa37bbb0f9b5
+  - ref: refs/tags/fs.vfsuid.conversion.v6.2
+    old: 0000000000000000000000000000000000000000
+    new: 4567ab294ccb850150d5eb6dffbcd7c7229835fc
+  - ref: refs/tags/fs.vfsuid.fat.v6.1
+    old: 0000000000000000000000000000000000000000
+    new: b5c3d491b75c93ed1a7f01021e7473f3a50c04f7
+  - ref: refs/tags/fs.vfsuid.ima.v6.2
+    old: 0000000000000000000000000000000000000000
+    new: a3c339ec91b55ef872e8eeb34b6b2be2c4c35bc4
+  - ref: refs/tags/fs.vfsuid.ima.v6.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: f7885b3bf03c5569ef377747ab930113e63c3355
+  - ref: refs/tags/fs.xattr.simple.noaudit-v6.1-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 875e21fe7a482d2b2761f28039e6d92e246932f3
+  - ref: refs/tags/fs.xattr.simple.noaudit/v6.1-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 2ce0189e10a90c5c252ef8e49899c9c2989b8b34
+  - ref: refs/tags/fs.xattr.simple.rework.rbtree.rwlock.v6.2
+    old: 0000000000000000000000000000000000000000
+    new: d6f2fab2436c0b7a40b8b7da4b1e062e6a185810
+  - ref: refs/tags/fscache-20130702
+    old: 0000000000000000000000000000000000000000
+    new: 547b1f273c980ab7829d1bd944949df971a238e7
+  - ref: refs/tags/fscache-fixes-20121220
+    old: 0000000000000000000000000000000000000000
+    new: 33efc8df6ee3cb532751f535452c442f524eea35
+  - ref: refs/tags/fscache-fixes-20140917
+    old: 0000000000000000000000000000000000000000
+    new: 546d24226295147863726d2787a593b53b2cb7ad
+  - ref: refs/tags/fscache-fixes-20141013
+    old: 0000000000000000000000000000000000000000
+    new: e77b193929bb42dad37a6e0a797dcd62b0509e71
+  - ref: refs/tags/fscache-fixes-20150402
+    old: 0000000000000000000000000000000000000000
+    new: ddad4b05c06404558d8ff6bdc9226aad5dfc3162
+  - ref: refs/tags/fscache-fixes-20180725
+    old: 0000000000000000000000000000000000000000
+    new: f44415c954c56d9e01a8c6fc785fea36fe16532d
+  - ref: refs/tags/fscache-fixes-20181130
+    old: 0000000000000000000000000000000000000000
+    new: 6c2eb00e57f21337a34ad530ced8e0848001a7c5
+  - ref: refs/tags/fscache-fixes-for-ceph
+    old: 0000000000000000000000000000000000000000
+    new: 8db93fec1486661ef04c7e827cfa9fc821613d7b
+  - ref: refs/tags/fscache-next-20180406
+    old: 0000000000000000000000000000000000000000
+    new: 6eb8bf71d6aa42e392d1c747eca51aab890afe0d
+  - ref: refs/tags/fw-restrict-3.17
+    old: 0000000000000000000000000000000000000000
+    new: 59f08096d5917c1733622ea33b0fb741bccc40b0
+  - ref: refs/tags/gcc-plugin-cleanup-v4.19-rc1
+    old: 0000000000000000000000000000000000000000
+    new: e445560879e54c07348bdae257d87d818c480512
+  - ref: refs/tags/gcc-plugin-infrastructure-v4.8-rc2
+    old: 0000000000000000000000000000000000000000
+    new: a3fbd9cff4e417c7a6a1195099cbf1a22d79178a
+  - ref: refs/tags/gcc-plugins-v4.10-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 763a786bdc12740036c5dbbb7e59ee1ad76c2228
+  - ref: refs/tags/gcc-plugins-v4.10-rc3
+    old: 0000000000000000000000000000000000000000
+    new: f9267962bf2bfa4263410750ead3ca1b579748ea
+  - ref: refs/tags/gcc-plugins-v4.11-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 533c07f68f5d84f5283154fb695d7c4196d976bd
+  - ref: refs/tags/gcc-plugins-v4.11-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 52a000156b419f200776a4c5bc4dba5fc55bc009
+  - ref: refs/tags/gcc-plugins-v4.12-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 6838dfcf7884db73fb0b99293441a884302f58ec
+  - ref: refs/tags/gcc-plugins-v4.13-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 41fb83c8f7beb4bf492f838016ccd03fbd0fd0b8
+  - ref: refs/tags/gcc-plugins-v4.13-rc2
+    old: 0000000000000000000000000000000000000000
+    new: f3cbb2cc227532051d2719a13f213ad51a4a33de
+  - ref: refs/tags/gcc-plugins-v4.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: fb754ca3a5a860b04d2ea8371b1cfdf52e027ccd
+  - ref: refs/tags/gcc-plugins-v4.16-rc1
+    old: 0000000000000000000000000000000000000000
+    new: e0bda565f08073c64705884e460203c2ca20736e
+  - ref: refs/tags/gcc-plugins-v4.19-rc1-fix
+    old: 0000000000000000000000000000000000000000
+    new: 8da75e734cb8052a81a58dd1515249af6f769d25
+  - ref: refs/tags/gcc-plugins-v4.20-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 8195f4b996af9a10f891bea4e4589afedd8724d3
+  - ref: refs/tags/gcc-plugins-v4.20-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 45c2e99a0ddea6878d14c210b28b9b5b2d47f643
+  - ref: refs/tags/gcc-plugins-v4.21-rc1
+    old: 0000000000000000000000000000000000000000
+    new: bb18eb4bc1bc183381da84d19153899e1fa09518
+  - ref: refs/tags/gcc-plugins-v4.9-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 930a4344280410150107af3104d88befbaf9fb94
+  - ref: refs/tags/gcc-plugins-v4.9-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 694f1626ac552d84257c69d31a6c095c27a2dca9
+  - ref: refs/tags/gcc-plugins-v5.0-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 59f772ab3542e2a6de6a1b6f19ccba931e85a065
+  - ref: refs/tags/gcc-plugins-v5.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 7e2724dcf118f6d0f602021baf84f05f61e2e654
+  - ref: refs/tags/gcc-plugins-v5.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 65c45451de3a921a2e2086a237826bb892c2cf51
+  - ref: refs/tags/gcc-plugins-v5.2-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 44bb6f9b4ba1ac7e0ba4db6c9163c590f742205b
+  - ref: refs/tags/gcc-plugins-v5.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 3c36301d0014c893fcd2ac944a9bcae4cd96e5ea
+  - ref: refs/tags/hardened-usercopy-v4.19-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d47e657bf4355bda30885bdc40c12b64b2f4f587
+  - ref: refs/tags/hwparam-20170420
+    old: 0000000000000000000000000000000000000000
+    new: 5bbc82e12b9de2f62521a336412c040bd73b852e
+  - ref: refs/tags/idmapped-mounts-fat-v5.12
+    old: 0000000000000000000000000000000000000000
+    new: 2a8664191a252ff8056f2f83f293148c9345a4bb
+  - ref: refs/tags/idmapped-mounts-infrastructure-v5.12
+    old: 0000000000000000000000000000000000000000
+    new: 96e33ce944bea0d828bbd3d01a5e83445c94c262
+  - ref: refs/tags/idmapped-mounts-v5.12
+    old: 0000000000000000000000000000000000000000
+    new: 5463abbd368957a504eeb1ec783594d4bc4bb2a2
+  - ref: refs/tags/init_task-20180117
+    old: 0000000000000000000000000000000000000000
+    new: 3b77b0386f3b2744bf795b1f9f058be9256a9419
+  - ref: refs/tags/ipc-7.3-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: b4031675cf87fde644f0e106f0676b1a188933db
+  - ref: refs/tags/kbuild-fixes-v4.11
+    old: 0000000000000000000000000000000000000000
+    new: fe42dfe5656470e9d538d39332956c6bc6bcbd13
+  - ref: refs/tags/kbuild-fixes-v4.12
+    old: 0000000000000000000000000000000000000000
+    new: ea71ba63304f341a161e05822aecf5774221681d
+  - ref: refs/tags/kbuild-fixes-v4.12-2
+    old: 0000000000000000000000000000000000000000
+    new: a5dccea446c98131163e67115bb7b750f12e05ea
+  - ref: refs/tags/kbuild-fixes-v4.13
+    old: 0000000000000000000000000000000000000000
+    new: f90b3694df71ba45331c0230ca7cff778a8b1d0c
+  - ref: refs/tags/kbuild-fixes-v4.14
+    old: 0000000000000000000000000000000000000000
+    new: 55738039b3f03f094cc091ae55121aa37906a668
+  - ref: refs/tags/kbuild-fixes-v4.14-2
+    old: 0000000000000000000000000000000000000000
+    new: 316574086173644a1f91add88ca4f8c16923ca9b
+  - ref: refs/tags/kbuild-fixes-v4.15
+    old: 0000000000000000000000000000000000000000
+    new: 6da07b29141ecb7418fb5cc5a5d67049bf510c24
+  - ref: refs/tags/kbuild-fixes-v4.16
+    old: 0000000000000000000000000000000000000000
+    new: 2628276d426823505e883cd983676f30b87d2a35
+  - ref: refs/tags/kbuild-fixes-v4.16-2
+    old: 0000000000000000000000000000000000000000
+    new: ba4e25d835a25c2501f4560396691cb7f29508c0
+  - ref: refs/tags/kbuild-fixes-v4.16-3
+    old: 0000000000000000000000000000000000000000
+    new: a3db3bfb08130baca73eb13595671d73e5707784
+  - ref: refs/tags/kbuild-fixes-v4.17
+    old: 0000000000000000000000000000000000000000
+    new: e5185d9b3730d75c31c055404fb4e77c577eafc9
+  - ref: refs/tags/kbuild-fixes-v4.17-2
+    old: 0000000000000000000000000000000000000000
+    new: f32972ba5e23058a419963f566e8ca25f32f6e89
+  - ref: refs/tags/kbuild-fixes-v4.18
+    old: 0000000000000000000000000000000000000000
+    new: 2906b8e0c8a9e9aa299cebd822fbb6a351cc4a35
+  - ref: refs/tags/kbuild-fixes-v4.18-2
+    old: 0000000000000000000000000000000000000000
+    new: 8f09b938b0012e6b4775d79b048f8f5a003c42c4
+  - ref: refs/tags/kbuild-fixes-v4.19
+    old: 0000000000000000000000000000000000000000
+    new: dc1c03bc84007b092acf63bfcdea0beffa5e0cad
+  - ref: refs/tags/kbuild-fixes-v4.19-2
+    old: 0000000000000000000000000000000000000000
+    new: 810e7d8c086f03f8c0877e14b76ad83a22a08895
+  - ref: refs/tags/kbuild-fixes-v4.20
+    old: 0000000000000000000000000000000000000000
+    new: eae1315ca403fde6172c43ae0deae7e087f61367
+  - ref: refs/tags/kbuild-fixes-v4.20-2
+    old: 0000000000000000000000000000000000000000
+    new: 792a9761dbcb3a53396424ff2219add5fbd93802
+  - ref: refs/tags/kbuild-fixes-v5.0
+    old: 0000000000000000000000000000000000000000
+    new: cd203b1caf0de30c03de84be3a4c68847712e564
+  - ref: refs/tags/kbuild-fixes-v5.0-2
+    old: 0000000000000000000000000000000000000000
+    new: 0596a1913c54dc6067da7ead81d82fd9ba590d0d
+  - ref: refs/tags/kbuild-fixes-v5.1
+    old: 0000000000000000000000000000000000000000
+    new: 28e3e56db0598157a50661bf969e3825a6dda904
+  - ref: refs/tags/kbuild-fixes-v5.2
+    old: 0000000000000000000000000000000000000000
+    new: 1816b6b8148b4268a7c83a8c2240bb1cd7541c6f
+  - ref: refs/tags/kbuild-fixes-v5.2-2
+    old: 0000000000000000000000000000000000000000
+    new: 44d7e7ea97b22829e32ccc5f29349e5521a550d7
+  - ref: refs/tags/kbuild-misc-v4.12
+    old: 0000000000000000000000000000000000000000
+    new: e582b4143418b8b9c265f66621378627beff428d
+  - ref: refs/tags/kbuild-misc-v4.13
+    old: 0000000000000000000000000000000000000000
+    new: 20bb330601610fe74e66c66b2c300f50c1400f20
+  - ref: refs/tags/kbuild-misc-v4.15
+    old: 0000000000000000000000000000000000000000
+    new: f02cf4685a76286a9bacfadec9ac2ec7a301066b
+  - ref: refs/tags/kbuild-misc-v4.16
+    old: 0000000000000000000000000000000000000000
+    new: 97d1ba48c94330d6dac0c2328ffaf2ec5264ab5b
+  - ref: refs/tags/kbuild-thinar-v4.13
+    old: 0000000000000000000000000000000000000000
+    new: ba878475a831d2f394c798de406d8c7fdb8e66b0
+  - ref: refs/tags/kbuild-uapi-v4.12
+    old: 0000000000000000000000000000000000000000
+    new: 5b0cbaafe9853dd03dfc088cccf3d74dd6062e94
+  - ref: refs/tags/kbuild-v4.12
+    old: 0000000000000000000000000000000000000000
+    new: d93d5dc5f51a956bf8df06bbb3ecfd053e776bae
+  - ref: refs/tags/kbuild-v4.13
+    old: 0000000000000000000000000000000000000000
+    new: c6710bf459573aa3cfa80153278f2ea75187e9f8
+  - ref: refs/tags/kbuild-v4.13-2
+    old: 0000000000000000000000000000000000000000
+    new: 78acbb31bd439115cc797b63c3d32a57361aaacf
+  - ref: refs/tags/kbuild-v4.14
+    old: 0000000000000000000000000000000000000000
+    new: 23336abead2305cefc2a46d17ac3b83923962085
+  - ref: refs/tags/kbuild-v4.15
+    old: 0000000000000000000000000000000000000000
+    new: 9731340836a34c9a9fe593b6a8328e25fde666ad
+  - ref: refs/tags/kbuild-v4.15-2
+    old: 0000000000000000000000000000000000000000
+    new: 2eb0c6cafe54f365df36377e35764f7c9ad4de96
+  - ref: refs/tags/kbuild-v4.16
+    old: 0000000000000000000000000000000000000000
+    new: d38e711af1cae058c9743336cf84a4d78d557544
+  - ref: refs/tags/kbuild-v4.16-2
+    old: 0000000000000000000000000000000000000000
+    new: dd58a3bad600a895985472de81ed13cd911c28a6
+  - ref: refs/tags/kbuild-v4.17
+    old: 0000000000000000000000000000000000000000
+    new: d6dc3fa7bb49287e9a2a1c1c7890b56c170734de
+  - ref: refs/tags/kbuild-v4.17-2
+    old: 0000000000000000000000000000000000000000
+    new: 75bada8b83a992f14b1aec292d75baae6c357af7
+  - ref: refs/tags/kbuild-v4.18
+    old: 0000000000000000000000000000000000000000
+    new: 711d650c6066a0076af1ea507f29fc8a01aef25d
+  - ref: refs/tags/kbuild-v4.18-2
+    old: 0000000000000000000000000000000000000000
+    new: 8e3a95676f78d7e0c93d54aad5b4b910a5321397
+  - ref: refs/tags/kbuild-v4.19
+    old: 0000000000000000000000000000000000000000
+    new: ea581b05f8ebde5d684fda045a865b2a4d65539d
+  - ref: refs/tags/kbuild-v4.19-2
+    old: 0000000000000000000000000000000000000000
+    new: a1acfced8f29bb3cc7021a308198d6c5d73d2216
+  - ref: refs/tags/kbuild-v4.20
+    old: 0000000000000000000000000000000000000000
+    new: 462fa05348a5830a839162d61c86808a07cca5ec
+  - ref: refs/tags/kbuild-v4.20-2
+    old: 0000000000000000000000000000000000000000
+    new: 49b2c4c979092093b9f76426bf78590edc19783d
+  - ref: refs/tags/kbuild-v4.21
+    old: 0000000000000000000000000000000000000000
+    new: d92453ee8ed17710302646c2f704b0dff558caa7
+  - ref: refs/tags/kbuild-v4.21-3
+    old: 0000000000000000000000000000000000000000
+    new: 8c9e1e0f3d7becc784ab41caca54fd42996cd495
+  - ref: refs/tags/kbuild-v5.1
+    old: 0000000000000000000000000000000000000000
+    new: 19711d1e0422c1a59de1eaa05dbf70cab3f05f5d
+  - ref: refs/tags/kbuild-v5.1-2
+    old: 0000000000000000000000000000000000000000
+    new: 59ba79f6142f34001a140879c8590963165a92ea
+  - ref: refs/tags/kbuild-v5.2
+    old: 0000000000000000000000000000000000000000
+    new: 098610fb863a59b1387a4ab21dfb6dd5b9f44123
+  - ref: refs/tags/kbuild-v5.2-2
+    old: 0000000000000000000000000000000000000000
+    new: cce9b86aa5d1e3715d699ab64c800762b1f1272f
+  - ref: refs/tags/kconfig-v4.16
+    old: 0000000000000000000000000000000000000000
+    new: 934afb7d31d62992421504f3b27d8ef6a70713da
+  - ref: refs/tags/kconfig-v4.17
+    old: 0000000000000000000000000000000000000000
+    new: f004e7d3e80775c32a609bcf1f924ae7565ebf87
+  - ref: refs/tags/kconfig-v4.18
+    old: 0000000000000000000000000000000000000000
+    new: 2d3b320ff22a8564e94a861526aca9ac1eb4b4cf
+  - ref: refs/tags/kconfig-v4.19
+    old: 0000000000000000000000000000000000000000
+    new: a6a455a7c1b71c1864e963b5db797cfb223cb385
+  - ref: refs/tags/kconfig-v4.19-2
+    old: 0000000000000000000000000000000000000000
+    new: 4c21508686262d24289a7845e0efb1c82a11965a
+  - ref: refs/tags/kconfig-v4.21
+    old: 0000000000000000000000000000000000000000
+    new: a40c3fd9bf13ab2ed27253d435b3f4ff91d4f397
+  - ref: refs/tags/kconfig-v4.21-2
+    old: 0000000000000000000000000000000000000000
+    new: 348421486a45743581746fad45c426670b83ce5a
+  - ref: refs/tags/kconfig-v5.1
+    old: 0000000000000000000000000000000000000000
+    new: f54378dd13d469fd98345ed8e1d4732c5e61d9be
+  - ref: refs/tags/kconfig-v5.2
+    old: 0000000000000000000000000000000000000000
+    new: 69ab2ac1ecd5163431e8be6dc8c0f399d361d56b
+  - ref: refs/tags/kernel-6.14-rc1.cred
+    old: 0000000000000000000000000000000000000000
+    new: 355d6ff20594d554bcc6c0d512ba32e2cd013305
+  - ref: refs/tags/kernel-6.14-rc1.pid
+    old: 0000000000000000000000000000000000000000
+    new: 9450873d11d0aa354dcd11dbf2166ab57c64dc88
+  - ref: refs/tags/kernel-6.15-rc1.tasklist_lock
+    old: 0000000000000000000000000000000000000000
+    new: 20c285fd33c4f6c60c8698097526d9dbd99fc280
+  - ref: refs/tags/kernel-6.18-rc1.clone3
+    old: 0000000000000000000000000000000000000000
+    new: 7d23b24788884062d6b0dd087c7ac24a0b0af342
+  - ref: refs/tags/kernel-6.19-rc1.cred
+    old: 0000000000000000000000000000000000000000
+    new: 28347147be607d87a7c452580ca9c2c747fb4c58
+  - ref: refs/tags/kernel-7.0-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: 3e23396e7085c9f134b26f6002670a51a2a6849f
+  - ref: refs/tags/kernel-7.1-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: fb2d45575848233c844e59a43bac41f1d605ffdc
+  - ref: refs/tags/kernel-7.2-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: 8dabae51c611444836f2bdf517511a316e46d680
+  - ref: refs/tags/kernel-7.2-rc1.task_exec_state
+    old: 0000000000000000000000000000000000000000
+    new: d72f629726433dd34b82ee31359234a9e00e8c98
+  - ref: refs/tags/kernel-7.3-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: e92e55c93d22ace1412634b98e3d4177ff0cb654
+  - ref: refs/tags/kernel-clone-v5.9
+    old: 0000000000000000000000000000000000000000
+    new: 20c5b30f01e726e7b054bcaeaccc06559f4868f1
+  - ref: refs/tags/kernel.sys.v5.15
+    old: 0000000000000000000000000000000000000000
+    new: 600912f41e0857bc9fff68fb5bfe36be03f7814b
+  - ref: refs/tags/kernel.sys.v5.16
+    old: 0000000000000000000000000000000000000000
+    new: 8e6c11582f22e2075af3f0903b8a3b686ac11f4b
+  - ref: refs/tags/keys-20140314
+    old: 0000000000000000000000000000000000000000
+    new: 16c010981e749194667c7456dc9f9fa3c5e33c64
+  - ref: refs/tags/keys-acl-20190703
+    old: 0000000000000000000000000000000000000000
+    new: 82dbb8d5ef2733de33bf91fcd4ca2d70e36c5c64
+  - ref: refs/tags/keys-devel-20131203
+    old: 0000000000000000000000000000000000000000
+    new: fc6c13b6aa148877cebd4498606033f93419cd4e
+  - ref: refs/tags/keys-devel-20131210
+    old: 0000000000000000000000000000000000000000
+    new: 7b83cc4f1aaf21292a6ddeaeda5999004e38aa54
+  - ref: refs/tags/keys-devel-20131213
+    old: 0000000000000000000000000000000000000000
+    new: 292d4548e90056af0c93071ee541cf63a67aade6
+  - ref: refs/tags/keys-fixes-20140916
+    old: 0000000000000000000000000000000000000000
+    new: dcb7c858457e4bd7563f4afb2d3a745316a3030d
+  - ref: refs/tags/keys-fixes-20141201
+    old: 0000000000000000000000000000000000000000
+    new: 1ecfbeb1c34a410fbd329341804e8fc40392fb39
+  - ref: refs/tags/keys-fixes-20150107
+    old: 0000000000000000000000000000000000000000
+    new: f264be28fc4ea483b12cb111b2cfe03545ba1e71
+  - ref: refs/tags/keys-fixes-20150925
+    old: 0000000000000000000000000000000000000000
+    new: 6f53bbd37d7853b6313e8b9170b4991d7d79a30d
+  - ref: refs/tags/keys-fixes-20160412
+    old: 0000000000000000000000000000000000000000
+    new: bb79cd6f93cefae58645ad26b9a6c84b4006b1b6
+  - ref: refs/tags/keys-fixes-20160512
+    old: 0000000000000000000000000000000000000000
+    new: 2c5ab1d1d56e875f073686456d1e8e18ee3f6bb3
+  - ref: refs/tags/keys-fixes-20170419
+    old: 0000000000000000000000000000000000000000
+    new: cfaaf24a7c5f8fa1414f85b68bcfd712de625f87
+  - ref: refs/tags/keys-fixes-20170927
+    old: 0000000000000000000000000000000000000000
+    new: 20971c6f86fbc1a6d61567e1cf5ea2140fbd3f72
+  - ref: refs/tags/keys-fixes-20171018
+    old: 0000000000000000000000000000000000000000
+    new: da634ef8e90447f59b88953e204d9f2a75ba0249
+  - ref: refs/tags/keys-fixes-20171208
+    old: 0000000000000000000000000000000000000000
+    new: 37b5eee1c5406c93f435bf5ad121cee87477410b
+  - ref: refs/tags/keys-fixes-20180222-2
+    old: 0000000000000000000000000000000000000000
+    new: dce1112695b1001b9470346fa981467c2e889cf5
+  - ref: refs/tags/keys-misc-20160708
+    old: 0000000000000000000000000000000000000000
+    new: d35f82b042462a659f19bed7c6337abd4fa24043
+  - ref: refs/tags/keys-misc-20190619
+    old: 0000000000000000000000000000000000000000
+    new: d5ae2cc40f68162d155be6ae8a5f3e6a5ddde197
+  - ref: refs/tags/keys-namespace-20190627
+    old: 0000000000000000000000000000000000000000
+    new: b2a471a1d2b3453bda8e773cba2e0742f0d450e8
+  - ref: refs/tags/keys-next-20140722
+    old: 0000000000000000000000000000000000000000
+    new: 48fec282ac223825c01c22452e21411e995ed7f0
+  - ref: refs/tags/keys-next-20140725
+    old: 0000000000000000000000000000000000000000
+    new: 6d7348b57e083f046acd31decd5adb9249aeb6e3
+  - ref: refs/tags/keys-next-20140728
+    old: 0000000000000000000000000000000000000000
+    new: abc51a6479f4d16f99cd8b3cd48545729628b280
+  - ref: refs/tags/keys-next-20140801
+    old: 0000000000000000000000000000000000000000
+    new: 9c45c25eb47ad96dd155d1e8a027b8ab0efa0580
+  - ref: refs/tags/keys-next-20140805
+    old: 0000000000000000000000000000000000000000
+    new: cae348ab97156f2332e2d72a84c2c939f902f2f1
+  - ref: refs/tags/keys-next-20140916
+    old: 0000000000000000000000000000000000000000
+    new: e514507bd2b4f48da17332ad8ff24a287e46adca
+  - ref: refs/tags/keys-next-20140922
+    old: 0000000000000000000000000000000000000000
+    new: 3770f88b7c4191608f2de88f0b347ab7b03c2e5f
+  - ref: refs/tags/keys-next-20150123
+    old: 0000000000000000000000000000000000000000
+    new: 4eb169daf61e5ad457d0cebe20b5b5dbf6a4b6f6
+  - ref: refs/tags/keys-next-20151021
+    old: 0000000000000000000000000000000000000000
+    new: 5a9ca358dec8d3afee81d7c8769417e33c8c6bb6
+  - ref: refs/tags/keys-next-20160218
+    old: 0000000000000000000000000000000000000000
+    new: 5777e9575b29a10a6c160b6f9a9e4d891e6f8a60
+  - ref: refs/tags/keys-next-20160229
+    old: 0000000000000000000000000000000000000000
+    new: ef43335f6765813d1703e4a5945fbdb0762d2890
+  - ref: refs/tags/keys-next-20160303
+    old: 0000000000000000000000000000000000000000
+    new: 9ea349efe545dc669eeee9f09fc746d9c3cf638f
+  - ref: refs/tags/keys-next-20160505
+    old: 0000000000000000000000000000000000000000
+    new: 386a62c1b52388f9f559b67d4f40452b0bad241d
+  - ref: refs/tags/keys-next-20160511
+    old: 0000000000000000000000000000000000000000
+    new: 75283abb8870e1a02006bb81150f51e0f904618e
+  - ref: refs/tags/keys-next-20170412
+    old: 0000000000000000000000000000000000000000
+    new: 9b01239b27c772d1262da7ad098ea9ef1ccf46a4
+  - ref: refs/tags/keys-next-20171123
+    old: 0000000000000000000000000000000000000000
+    new: df6fadd380141e3264e6ccf12ad28a1cb370edeb
+  - ref: refs/tags/keys-next-fixes-20140916
+    old: 0000000000000000000000000000000000000000
+    new: 7ca212a870eaba40c18f757e30247c0e111bfe45
+  - ref: refs/tags/keys-next-fixes-20141003
+    old: 0000000000000000000000000000000000000000
+    new: 34ed86a09b9553754f8d1ffa558a95cbaf67bd28
+  - ref: refs/tags/keys-next-fixes-20141006
+    old: 0000000000000000000000000000000000000000
+    new: 4e0190ef8cf887535c074c0a5a3a2d31e7252d7e
+  - ref: refs/tags/keys-next-fixes-20150114
+    old: 0000000000000000000000000000000000000000
+    new: 4da8f582e83aaa624180764cede99433d5773f4b
+  - ref: refs/tags/keys-pefile-20140709
+    old: 0000000000000000000000000000000000000000
+    new: 6c390509387add43369b558d3bdfac9af0828b06
+  - ref: refs/tags/keys-pkcs7-20140708
+    old: 0000000000000000000000000000000000000000
+    new: 6b4e17e9f69eb6baa7a5341af269df244c6e3ae1
+  - ref: refs/tags/keys-pkcs7-20140916
+    old: 0000000000000000000000000000000000000000
+    new: a3c3b56f83382143355a4f48e8c5af986f505625
+  - ref: refs/tags/keys-preparse-1-20140722
+    old: 0000000000000000000000000000000000000000
+    new: b337a1d914ccd281bbdfeb72af308291582c3cf5
+  - ref: refs/tags/keys-request-20190626
+    old: 0000000000000000000000000000000000000000
+    new: 79599a8ed29ac65ffa0a0165636aa4652cc619b1
+  - ref: refs/tags/lkdtm-4.6-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 5186356a8069bdf66cbebccac46a704f29a8e5ca
+  - ref: refs/tags/lkdtm-next
+    old: 0000000000000000000000000000000000000000
+    new: dc94b63ce0f7420e5bf386913ec1de904e6322ff
+  - ref: refs/tags/lkdtm-next-part2
+    old: 0000000000000000000000000000000000000000
+    new: b79d5934d457695cd284b2c282981525275988cd
+  - ref: refs/tags/lkdtm-v4.8-rc1
+    old: 0000000000000000000000000000000000000000
+    new: f035442ff51622831e2e1a8782c5cab79c7fed78
+  - ref: refs/tags/lnfs_base
+    old: 0000000000000000000000000000000000000000
+    new: 3c92ec8ae91ecf59d88c798301833d7cf83f2179
+  - ref: refs/tags/loadpin-security-next
+    old: 0000000000000000000000000000000000000000
+    new: dbc066505608bdca44a11006b83634e7d06a5a84
+  - ref: refs/tags/loadpin-v5.3-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d136a1b792ee3e2b24cf8ca11498e46bf10ea275
+  - ref: refs/tags/lsm-fixes-next
+    old: 0000000000000000000000000000000000000000
+    new: c6cb1ecf0edabf0dbd080e007d085eacd8e9a502
+  - ref: refs/tags/meminit-v5.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 7fed4ab0362963cd4bb76ba71d8f75461794c4e7
+  - ref: refs/tags/meminit-v5.2-rc6
+    old: 0000000000000000000000000000000000000000
+    new: c6d4afaa7b4bebfce9009aec773374ce4839c822
+  - ref: refs/tags/meminit-v5.3-rc2
+    old: 0000000000000000000000000000000000000000
+    new: e94950b2515148b82a657d2a14e52e20cc96de05
+  - ref: refs/tags/mm-everything-2026-09-18-01-36
+    old: 0000000000000000000000000000000000000000
+    new: a079faa4543ff5600702e52b9a43203a945ed160
+  - ref: refs/tags/modsign-pkcs7-20150812
+    old: 0000000000000000000000000000000000000000
+    new: 52589b5347a74993fa3b668fce0556ca99538b9e
+  - ref: refs/tags/modsign-pkcs7-20150812-2
+    old: 0000000000000000000000000000000000000000
+    new: f1cfcda23746a1ee4bbefcb2f0c81233afe51ec9
+  - ref: refs/tags/modsign-pkcs7-20150812-3
+    old: 0000000000000000000000000000000000000000
+    new: 8f0da090359d1bfc802755fee5427635ea1cf504
+  - ref: refs/tags/modsign-pkcs7-20150814
+    old: 0000000000000000000000000000000000000000
+    new: 30238598895ed310ed7d536ff54420e4c173d5ad
+  - ref: refs/tags/namespace-6.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 09ac05a505ab62225ee3985c7736ce9372aefcb4
+  - ref: refs/tags/namespace-6.19-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 19ca3f4c419fe89beda6d67629a3a35f9b319d08
+  - ref: refs/tags/namespaces-7.1-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: 958b8e49fc41ef7d052ea887d0f1848203aab915
+  - ref: refs/tags/next_queue
+    old: 0000000000000000000000000000000000000000
+    new: bc4386f28f980679a8e5fb8c1804e1d2dfaee984
+  - ref: refs/tags/openat2-v5.11
+    old: 0000000000000000000000000000000000000000
+    new: 04876b4c539675be819002cf849fa46e4f18e57a
+  - ref: refs/tags/overflow-v4.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: bda623b9f9d81fdb909495175c4aa4844bafa701
+  - ref: refs/tags/overflow-v4.18-rc1-part2
+    old: 0000000000000000000000000000000000000000
+    new: 8070b50d56d11d5d74ffbc7ada8547bef4862226
+  - ref: refs/tags/ovl-fixes-4.18
+    old: 0000000000000000000000000000000000000000
+    new: 076c3da6e7c3f3d9d1feb75375efd36893bf550a
+  - ref: refs/tags/ovl-fixes-4.19-rc4
+    old: 0000000000000000000000000000000000000000
+    new: aafb34049793ac637a55e3a3fefc0ae89e47bf32
+  - ref: refs/tags/ovl-fixes-4.19-rc7
+    old: 0000000000000000000000000000000000000000
+    new: b0e019b0da6140ba7dcd47495ee327cbd9009c24
+  - ref: refs/tags/ovl-fixes-4.20-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 91b9f14804c921c8ab3dd28884694e32b99bfde1
+  - ref: refs/tags/ovl-fixes-5.11-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 500c35039bb98d7c7b4263fa13c0b74255c364bc
+  - ref: refs/tags/ovl-fixes-5.14-rc6-v2
+    old: 0000000000000000000000000000000000000000
+    new: a2acf44de9128145da811544a72629b3b02be323
+  - ref: refs/tags/ovl-fixes-5.15-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 2b33c189002dedcb9b65eeb477259a9c476e3641
+  - ref: refs/tags/ovl-fixes-5.17-rc3
+    old: 0000000000000000000000000000000000000000
+    new: aa124f82b6b3a8e0420cc46367eb225e4b3577f0
+  - ref: refs/tags/ovl-fixes-5.19-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 16b2723e7eeff547222356d0a07d2f76328f2be0
+  - ref: refs/tags/ovl-fixes-5.2-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 263ad95638614fe80256e1261f813df1b8bb5bc9
+  - ref: refs/tags/ovl-fixes-5.2-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 5dc03e1f0ef737b440725fb5d5493092ebf6ac77
+  - ref: refs/tags/ovl-fixes-5.3
+    old: 0000000000000000000000000000000000000000
+    new: c0a868b9c48c9f11c511574d01d309c624caa6a1
+  - ref: refs/tags/ovl-fixes-5.5-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 057d35ef88173b5060c39a665904c30e28f1de4f
+  - ref: refs/tags/ovl-fixes-5.6-rc6
+    old: 0000000000000000000000000000000000000000
+    new: bb4c47b8280c80684f24cedf25946bd9c0416108
+  - ref: refs/tags/ovl-fixes-5.7-rc7
+    old: 0000000000000000000000000000000000000000
+    new: bc7dae69b29e44d38bb80c7b1ca3809aa563080c
+  - ref: refs/tags/ovl-fixes-5.8-rc6
+    old: 0000000000000000000000000000000000000000
+    new: f8b7b642fac270f69a4287296d922893fae31775
+  - ref: refs/tags/ovl-fixes-6.2-rc6
+    old: 0000000000000000000000000000000000000000
+    new: b84a6753faa1300c944e1c2283870e8977dc2db0
+  - ref: refs/tags/ovl-update-4.19
+    old: 0000000000000000000000000000000000000000
+    new: b59ca93bab1af25857cc44a084979f00de46c57c
+  - ref: refs/tags/ovl-update-4.20
+    old: 0000000000000000000000000000000000000000
+    new: 704fd3f0607db3b1c8453c4542161bac60dfbf46
+  - ref: refs/tags/ovl-update-5.1
+    old: 0000000000000000000000000000000000000000
+    new: 800092a0e064280b0651876d6c89f1cba885ba94
+  - ref: refs/tags/ovl-update-5.10
+    old: 0000000000000000000000000000000000000000
+    new: 091eaefb34ffa7dcf62fe00fbdad4c083eeff81c
+  - ref: refs/tags/ovl-update-5.11
+    old: 0000000000000000000000000000000000000000
+    new: c8fd8ed1140c1c2cab5eb03e647b156cce1dabeb
+  - ref: refs/tags/ovl-update-5.13
+    old: 0000000000000000000000000000000000000000
+    new: ff4a08f183261ec431c0fd2dc79076451fdc1842
+  - ref: refs/tags/ovl-update-5.15
+    old: 0000000000000000000000000000000000000000
+    new: 1dcbc0bda64ffaa8871316da49ad7b0457e387dd
+  - ref: refs/tags/ovl-update-5.16
+    old: 0000000000000000000000000000000000000000
+    new: 4e1b395451feb95ae5afbe6fef356737df92920c
+  - ref: refs/tags/ovl-update-5.19
+    old: 0000000000000000000000000000000000000000
+    new: e2a2faf0ea57b3fcaf9626ec5fdf5cceaa49ea91
+  - ref: refs/tags/ovl-update-5.2
+    old: 0000000000000000000000000000000000000000
+    new: 72c36188eaa43c2d435056640c97179eea8225af
+  - ref: refs/tags/ovl-update-5.6
+    old: 0000000000000000000000000000000000000000
+    new: 29162b73d4971203307cb0529ffdd3294597053b
+  - ref: refs/tags/ovl-update-5.7
+    old: 0000000000000000000000000000000000000000
+    new: 5dfca090a4614b92ea43f38a3e5950ea5df9fcd2
+  - ref: refs/tags/ovl-update-5.8
+    old: 0000000000000000000000000000000000000000
+    new: ee0ccadf96dff82fe96935d2463cf72445349992
+  - ref: refs/tags/ovl-update-6.0
+    old: 0000000000000000000000000000000000000000
+    new: 81948600ae5ca4d78dd7f9fb6179e25cae41f2d9
+  - ref: refs/tags/ovl-update-6.2
+    old: 0000000000000000000000000000000000000000
+    new: 3f946c5007f9fa1f3b20601c703023fb85a768d5
+  - ref: refs/tags/pidfd-fixes-v5.1-rc3
+    old: 0000000000000000000000000000000000000000
+    new: ca2dce8125c8a5c0863a00c7d63dc9ebfba9bc17
+  - ref: refs/tags/pidfd-fixes-v5.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 46339c976725bb667cdf37188c9814b9ad6a7190
+  - ref: refs/tags/pidfd-fixes-v5.2-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 16b03808abff4532ac3df618dce46dc83cfe5aa6
+  - ref: refs/tags/pidfd-updates-v5.3
+    old: 0000000000000000000000000000000000000000
+    new: 7cc402b8d5ed2b9acaac62c748e2113797d48792
+  - ref: refs/tags/pidfd-v5.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 9760c970b59d02fe78fd24e084097d4bc7f44835
+  - ref: refs/tags/pidfd-v5.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: da0bb48ae7b46323e1c053cb6c24b951f61222c7
+  - ref: refs/tags/pidfd.v5.16
+    old: 0000000000000000000000000000000000000000
+    new: 38fe09db549bb7724b5fcc8d742e81a333859fe9
+  - ref: refs/tags/pidfd.v5.17-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 4bd2376b5ac1f84cfa84a506ddf05e1bd658ccfe
+  - ref: refs/tags/pidfd_getfd_v5.6
+    old: 0000000000000000000000000000000000000000
+    new: a9944bb04cd7a0645298aeabcf4a1c43912ea0aa
+  - ref: refs/tags/pstore-v4.10-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 56d9e6e300d2338588069c971a9f4a39a5040d85
+  - ref: refs/tags/pstore-v4.10-rc8
+    old: 0000000000000000000000000000000000000000
+    new: ff0b056426f5437cb4e264a89113199251d023cc
+  - ref: refs/tags/pstore-v4.11-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 62263980fdc271e353e2a563a517b6fad224613c
+  - ref: refs/tags/pstore-v4.12-rc1
+    old: 0000000000000000000000000000000000000000
+    new: ee158a711e0f3e2482c1a8024d9dd510b49718c0
+  - ref: refs/tags/pstore-v4.12-rc2
+    old: 0000000000000000000000000000000000000000
+    new: d1c5445ba22495350f41da3d82335d1e7451c680
+  - ref: refs/tags/pstore-v4.12-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 1c13ed1025d938c50292242f62d93caac2d622d6
+  - ref: refs/tags/pstore-v4.13-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 343d631a7284d81e9638e1d9d57b199cacbf0bdb
+  - ref: refs/tags/pstore-v4.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 2c2dc93c3f70d7ee4f71bec49abdb48ce190c4ce
+  - ref: refs/tags/pstore-v4.16-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 8578e5946f07541a1fde1907932de0b6a2d8ca41
+  - ref: refs/tags/pstore-v4.17-rc1
+    old: 0000000000000000000000000000000000000000
+    new: c541c7e8ed70414751c7260d1bb0828ef091ac46
+  - ref: refs/tags/pstore-v4.17-rc1-fix
+    old: 0000000000000000000000000000000000000000
+    new: c1d5da67e43316d799cf5ec7e95406ed51b80ee9
+  - ref: refs/tags/pstore-v4.19-rc1
+    old: 0000000000000000000000000000000000000000
+    new: aa066e30a66f33aa68fc09c31342c0b2fd80b07d
+  - ref: refs/tags/pstore-v4.19-rc4
+    old: 0000000000000000000000000000000000000000
+    new: f490d41d06d41178e7bacba23d3b6e359b2a3711
+  - ref: refs/tags/pstore-v4.19-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 4cd9f85d2dfb7269bf44408ef84b8010946a621c
+  - ref: refs/tags/pstore-v4.20-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 5142fd22782618a4663db773eacb861788b41dc9
+  - ref: refs/tags/pstore-v4.20-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 3c1010dc466d023922172aa7cba237c792974e77
+  - ref: refs/tags/pstore-v4.21-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 12b8cf5b06f5d93e14ec7c0580cf1faa541ccf54
+  - ref: refs/tags/pstore-v4.8
+    old: 0000000000000000000000000000000000000000
+    new: 29e7ae199633d38ca17eba71edf8f2548cf18950
+  - ref: refs/tags/pstore-v4.8-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 4eacef1fad2fd8a9bfcc3f93bc67656adad7402f
+  - ref: refs/tags/pstore-v4.9-rc1
+    old: 0000000000000000000000000000000000000000
+    new: f7bce275e1be43c642248913e0ccba4340c95c69
+  - ref: refs/tags/pstore-v5.0-rc4
+    old: 0000000000000000000000000000000000000000
+    new: d5e6b4cd2094db838baa384e8482624289f93fba
+  - ref: refs/tags/pstore-v5.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 117b754298369539862160b628a58da901b0ec4c
+  - ref: refs/tags/pstore-v5.2-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 9c0b44186c64ec804118e6dcda14fb3f78b51bec
+  - ref: refs/tags/pstore-v5.3-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 16be824e2554844f19e413734cad70aea5e2eb55
+  - ref: refs/tags/rodata-v4.11-rc1
+    old: 0000000000000000000000000000000000000000
+    new: c05f35ba2456323be2cacaa7b8231b5caf7d7496
+  - ref: refs/tags/ronx-next
+    old: 0000000000000000000000000000000000000000
+    new: 56e087fc2518370801bc95fb46a1ef83d23c6f5f
+  - ref: refs/tags/rslib-v4.18-rc1
+    old: 0000000000000000000000000000000000000000
+    new: ac2424ffc2a054b97d996bd5f1000546e0b1c26e
+  - ref: refs/tags/rxrpc-20140126
+    old: 0000000000000000000000000000000000000000
+    new: 6c23fbe303f390fa8fbee8c2ed2077f8651fb8c0
+  - ref: refs/tags/rxrpc-20140226
+    old: 0000000000000000000000000000000000000000
+    new: c70347a5af43bac72e3fa61a27538a2a2fcfc28e
+  - ref: refs/tags/rxrpc-devel-20140304
+    old: 0000000000000000000000000000000000000000
+    new: f65aafae24f2f257c43a7528fca75e6a963d5e76
+  - ref: refs/tags/rxrpc-fixes-20160809
+    old: 0000000000000000000000000000000000000000
+    new: 353388ee9081b1452b9f872fe501559dbcc2d031
+  - ref: refs/tags/rxrpc-fixes-20171124
+    old: 0000000000000000000000000000000000000000
+    new: b753b72ba8b0ea9b041ea58894f8b855e298687d
+  - ref: refs/tags/rxrpc-fixes-20171129
+    old: 0000000000000000000000000000000000000000
+    new: bd93ae6809dd6266897038e9e99850fcc02a5a07
+  - ref: refs/tags/rxrpc-fixes-20180510
+    old: 0000000000000000000000000000000000000000
+    new: 01406e3d305e6f081a2624eaeae19e7b783907e0
+  - ref: refs/tags/rxrpc-fixes-20180928
+    old: 0000000000000000000000000000000000000000
+    new: 7620cf411493e1c07111785b43f585e8816eeb77
+  - ref: refs/tags/rxrpc-fixes-20181005
+    old: 0000000000000000000000000000000000000000
+    new: f95e88e3de737cf353b26b24401b40cdbcbe3e8b
+  - ref: refs/tags/rxrpc-fixes-20181008
+    old: 0000000000000000000000000000000000000000
+    new: faf0a2897f96435cf5c5837b8580d46dfe8b6eed
+  - ref: refs/tags/rxrpc-fixes-20190730
+    old: 0000000000000000000000000000000000000000
+    new: 171685f99e336e3b3a7014c53f74eb555f27969b
+  - ref: refs/tags/rxrpc-fixes-20190809
+    old: 0000000000000000000000000000000000000000
+    new: e0fab7b9c906312eb4e29d56a21858d3f1cec50e
+  - ref: refs/tags/rxrpc-fixes-20190814
+    old: 0000000000000000000000000000000000000000
+    new: 1848e00ef38e8347503696a42912741e209384fd
+  - ref: refs/tags/rxrpc-fixes-201908207
+    old: 0000000000000000000000000000000000000000
+    new: 7b3187d4868ef678e5ecb40c60ee9fc20fb831e8
+  - ref: refs/tags/rxrpc-fixes-20190827
+    old: 0000000000000000000000000000000000000000
+    new: 304b55103c9e732c88191b0d403081115320e6ec
+  - ref: refs/tags/rxrpc-next-20170829
+    old: 0000000000000000000000000000000000000000
+    new: 637f8067f6649e0d30e2e27914476584826c2731
+  - ref: refs/tags/rxrpc-next-20171018
+    old: 0000000000000000000000000000000000000000
+    new: 20f50c51e98dcb0460da22501d52c93b247fbb9a
+  - ref: refs/tags/rxrpc-next-20171111
+    old: 0000000000000000000000000000000000000000
+    new: 282ba52cda3540ce8aa490afd1a61933a04e638b
+  - ref: refs/tags/rxrpc-next-20180327
+    old: 0000000000000000000000000000000000000000
+    new: 23b876c60ae0705ccbe77542b4c639607df3a479
+  - ref: refs/tags/rxrpc-next-20180330
+    old: 0000000000000000000000000000000000000000
+    new: 84716276eab483ec6faff15ac8acab9d43132f73
+  - ref: refs/tags/rxrpc-next-20180801
+    old: 0000000000000000000000000000000000000000
+    new: c0bf92523b684c85d669c638be9ead77fe8bf6e4
+  - ref: refs/tags/rxrpc-next-20181004
+    old: 0000000000000000000000000000000000000000
+    new: 47bd69a4c1828b5e23440082ff118a3e4369f83e
+  - ref: refs/tags/rxrpc-rewrite-20160304
+    old: 0000000000000000000000000000000000000000
+    new: 36dd3bbcc994393a7f1c8664e9ef1bb26b88df08
+  - ref: refs/tags/rxrpc-rewrite-20160613
+    old: 0000000000000000000000000000000000000000
+    new: b4ceec6a10c6aa7007a663d8eb76bcdda8711c5f
+  - ref: refs/tags/rxrpc-rewrite-20160615
+    old: 0000000000000000000000000000000000000000
+    new: 55747765376ef04373d4f4297ee83157812f9c7a
+  - ref: refs/tags/rxrpc-rewrite-20160622-2
+    old: 0000000000000000000000000000000000000000
+    new: 2d9b78540d0849bf183d62c0ee94e737e27a72c0
+  - ref: refs/tags/rxrpc-rewrite-20160706
+    old: 0000000000000000000000000000000000000000
+    new: 037654adb380c04bb0f65b23ec65f2d6e414485e
+  - ref: refs/tags/rxrpc-rewrite-20160823-1
+    old: 0000000000000000000000000000000000000000
+    new: dfb57f5f0634b301e403aacb2105a1c70e7ffbb9
+  - ref: refs/tags/rxrpc-rewrite-20160823-2
+    old: 0000000000000000000000000000000000000000
+    new: e510f930b58bcee1ec4b74cda07a1ce58885007b
+  - ref: refs/tags/rxrpc-rewrite-20160824-1
+    old: 0000000000000000000000000000000000000000
+    new: 492143b47309a259381360b4b2223459c57dfe34
+  - ref: refs/tags/rxrpc-rewrite-20160824-2
+    old: 0000000000000000000000000000000000000000
+    new: 82d30240caa00e46e1e6b4f1889f41b1212290e8
+  - ref: refs/tags/rxrpc-rewrite-20160830-1
+    old: 0000000000000000000000000000000000000000
+    new: ba7e58f4c564ae363b116034afd2435ab03f888b
+  - ref: refs/tags/rxrpc-rewrite-20160904-1
+    old: 0000000000000000000000000000000000000000
+    new: 371bc4d258883ca5f57bc82b03d0b17ae68019ec
+  - ref: refs/tags/rxrpc-rewrite-20160904-2
+    old: 0000000000000000000000000000000000000000
+    new: ddc96d0b5bdad9cd99dea0f2c259cc1fd610c4b2
+  - ref: refs/tags/rxrpc-rewrite-20160907-1
+    old: 0000000000000000000000000000000000000000
+    new: af2a387108d3ce468ba28f60bd1f4300ee9fde66
+  - ref: refs/tags/rxrpc-rewrite-20160907-2
+    old: 0000000000000000000000000000000000000000
+    new: 044dcbc2ff40f0ba679e537edfa532e0bdaa79c2
+  - ref: refs/tags/rxrpc-rewrite-20160908
+    old: 0000000000000000000000000000000000000000
+    new: 0e047c0c8f09f5de0259bff00e89fb0eebc0d147
+  - ref: refs/tags/rxrpc-rewrite-20160913-1
+    old: 0000000000000000000000000000000000000000
+    new: 00c5c0a1404d1230d87bde41a93d4debf05b63e4
+  - ref: refs/tags/rxrpc-rewrite-20160913-2
+    old: 0000000000000000000000000000000000000000
+    new: 916e9183c64008b02e994e33e869d456ac087a87
+  - ref: refs/tags/rxrpc-rewrite-20160917-1
+    old: 0000000000000000000000000000000000000000
+    new: d7df5fdcae96d1aee5be192ba1d4e40c0f674769
+  - ref: refs/tags/rxrpc-rewrite-20160917-2
+    old: 0000000000000000000000000000000000000000
+    new: 97970e5a785ca93a26dfb34b9cc5c99efd62d558
+  - ref: refs/tags/rxrpc-rewrite-20160922-v2
+    old: 0000000000000000000000000000000000000000
+    new: 66b43e4c7991475693a091c6328e8fda29a78728
+  - ref: refs/tags/rxrpc-rewrite-20160923
+    old: 0000000000000000000000000000000000000000
+    new: bada15b47ca28df1ab1fd6474ded048b66220458
+  - ref: refs/tags/rxrpc-rewrite-20160924
+    old: 0000000000000000000000000000000000000000
+    new: bf119847d72471171b921e2a00479e6fc31527b5
+  - ref: refs/tags/rxrpc-rewrite-20160929
+    old: 0000000000000000000000000000000000000000
+    new: 3d416e0a2d95a4f9abf0a85ccf4377fe03a00aa8
+  - ref: refs/tags/rxrpc-rewrite-20160930
+    old: 0000000000000000000000000000000000000000
+    new: b0f206441d9123d92f9417a3d5a2357222e16977
+  - ref: refs/tags/rxrpc-rewrite-20161004
+    old: 0000000000000000000000000000000000000000
+    new: 3bd6d9f850b7b7097f5ea565a22b6333574311c8
+  - ref: refs/tags/rxrpc-rewrite-20161013
+    old: 0000000000000000000000000000000000000000
+    new: b90c2a1b381149f7a4a519d764a55653de42d8fc
+  - ref: refs/tags/rxrpc-rewrite-20170105
+    old: 0000000000000000000000000000000000000000
+    new: ece966302f4d3c21f8893a1165a538aec566550e
+  - ref: refs/tags/rxrpc-rewrite-20170106
+    old: 0000000000000000000000000000000000000000
+    new: 307cf3fb10bbfdee8f681bb91a00d191ebacb1df
+  - ref: refs/tags/rxrpc-rewrite-20170109
+    old: 0000000000000000000000000000000000000000
+    new: cfeb1d417c0fd59a95d3e9de88c4af4100072ef4
+  - ref: refs/tags/rxrpc-rewrite-20170210
+    old: 0000000000000000000000000000000000000000
+    new: 27ebfaac6f598e57033fe1d6ce8c304ee01ec2e2
+  - ref: refs/tags/rxrpc-rewrite-20170406
+    old: 0000000000000000000000000000000000000000
+    new: 61b0a78cd17696163bda51206318db26278162c8
+  - ref: refs/tags/rxrpc-rewrite-20170606
+    old: 0000000000000000000000000000000000000000
+    new: df641e294ad9824b35a09c2e53c8bccf4cf8fe6b
+  - ref: refs/tags/rxrpc-rewrite-20170607-v2
+    old: 0000000000000000000000000000000000000000
+    new: 8d8e0651af7b32fbb2e2bb09f8253faf7f92487a
+  - ref: refs/tags/rxrpc-rewrite-20170721
+    old: 0000000000000000000000000000000000000000
+    new: fedc064e5d9a03aa7510fb6efd4eb95cf889f7a2
+  - ref: refs/tags/seccomp-3.17
+    old: 0000000000000000000000000000000000000000
+    new: 1d96d4cda9e6fb23ed2f2e555cf878a3a69b07e9
+  - ref: refs/tags/seccomp-3.18
+    old: 0000000000000000000000000000000000000000
+    new: 04bf8c79bb0743862636d6ba22519ef2b5626c1c
+  - ref: refs/tags/seccomp-4.5-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 0ca5933c1df78cb63f9c86dcb3732008bab16732
+  - ref: refs/tags/seccomp-next
+    old: 0000000000000000000000000000000000000000
+    new: 02da80f093021d344efe64ae43cea4e2160910b9
+  - ref: refs/tags/seccomp-next-part2
+    old: 0000000000000000000000000000000000000000
+    new: 86aa887a4108ab4cc9a785989b1b03792ea6470c
+  - ref: refs/tags/seccomp-v4.14-rc2
+    old: 0000000000000000000000000000000000000000
+    new: bfa018779114b7cf4555f73584aeb4c989155115
+  - ref: refs/tags/seccomp-v4.14-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 148fcc5c80a0aaf0430f2aaf5973415eee4e81ba
+  - ref: refs/tags/seccomp-v4.14-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 0ee1c27cda41640781f90d4afd9f80b01c71081b
+  - ref: refs/tags/seccomp-v4.16-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 80415c9de73ce0aaf3eb52f30e17a435242e1d14
+  - ref: refs/tags/seccomp-v4.16-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 9c9ddb66f01d58510a1b1d27af097edd2253ead0
+  - ref: refs/tags/seccomp-v4.8-rc5
+    old: 0000000000000000000000000000000000000000
+    new: aef02657094d68a517f288864679d32babc28659
+  - ref: refs/tags/seccomp-v4.8-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 6a684dd431868f26012c65fa7b779633078ed230
+  - ref: refs/tags/seccomp-v4.9-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 880475c7a9387e629807a351120f21e9cd52f50c
+  - ref: refs/tags/seccomp-v5.1-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 0bddabfb0effa4aa062de1b48bf6cd5226e8c784
+  - ref: refs/tags/secureexec-v4.14-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 7dc8ac0c608091b5f2990cc223aa6929bd64e07e
+  - ref: refs/tags/sent/20230202-fs-move-mount-replace-a5a20f471e04-v4
+    old: 0000000000000000000000000000000000000000
+    new: 1090723f62afbe129b9f20e15a7ec2f620128f54
+  - ref: refs/tags/sent/20230306-fs-documentation-idmapping-update-b420fdde0f59-v1
+    old: 0000000000000000000000000000000000000000
+    new: dce7c365eb6711f83f897fcfd82980b5cc29d725
+  - ref: refs/tags/sent/20230313-fs-nfs-setgid-659410a10b25-v2
+    old: 0000000000000000000000000000000000000000
+    new: a155b4137d74e112ff487e95d65034d130a6aff0
+  - ref: refs/tags/sent/20230605-fs-overlayfs-mount_api-20ea8b04eff4-v1
+    old: 0000000000000000000000000000000000000000
+    new: e83aee7016412a5406c5bc229fb2049ca6c9ca07
+  - ref: refs/tags/sent/20230605-fs-overlayfs-mount_api-20ea8b04eff4-v2
+    old: 0000000000000000000000000000000000000000
+    new: 8bd4c47b2b485ecf9a71f04f69c93b6df721bc64
+  - ref: refs/tags/sent/20230605-fs-overlayfs-mount_api-20ea8b04eff4-v3
+    old: 0000000000000000000000000000000000000000
+    new: 55d98d4510339c8b894c09f6754450d727b0ce1a
+  - ref: refs/tags/sent/20230615-fs-btrfs-mount-api-d048814651b0-v1
+    old: 0000000000000000000000000000000000000000
+    new: 060628c277359be0c5b8f66e22be07dd07747dea
+  - ref: refs/tags/sent/20230616-fs-overlayfs-mount_api-fix-b1caedfaf8ed-v1
+    old: 0000000000000000000000000000000000000000
+    new: 0af4fc45e7d10c12506a4dd2cfb475ac0bc70f39
+  - ref: refs/tags/sent/20230620-fs-overlayfs-mount-api-remount-93b210e6ccd8-v1
+    old: 0000000000000000000000000000000000000000
+    new: 470de8e00e6a0ce39d13262fd6691da838e2d81e
+  - ref: refs/tags/sent/20230625-fs-overlayfs-mount-api-param-993d1caa86ff-v1
+    old: 0000000000000000000000000000000000000000
+    new: d5a3c0790e4f7567c8bc03a19a1da89d5ccac9cf
+  - ref: refs/tags/sent/20230703-vfs-rename-source-a6093ca69595-v1
+    old: 0000000000000000000000000000000000000000
+    new: d0bc891ae5c3da82c52b633f6050e9ea9a6770a0
+  - ref: refs/tags/sent/20230712-vfs-chmod-symlinks-a3ad1923a992-v1
+    old: 0000000000000000000000000000000000000000
+    new: 425a113b821412151cbede8742090de5dccc0281
+  - ref: refs/tags/sent/20230712-vfs-chmod-symlinks-a3ad1923a992-v2
+    old: 0000000000000000000000000000000000000000
+    new: 71ccc166685cf8eebcaf3e66dba4f140dad93422
+  - ref: refs/tags/sent/20230713-vfs-eventfd-signal-0b0d167ad6ec-v2
+    old: 0000000000000000000000000000000000000000
+    new: 4268eb4217ec5341f33a9cf119f3896ca7d1b809
+  - ref: refs/tags/sent/20230724-vfs-fdget_pos-c6540e3ed7d9-v1
+    old: 0000000000000000000000000000000000000000
+    new: d93b6ced730f05d6a90593fe8ca1ebefbc9d867d
+  - ref: refs/tags/sent/20230801-vfs-fs_context-uidgid-7756c8dcb1c0-v1
+    old: 0000000000000000000000000000000000000000
+    new: f3452c3d3328f7aaec91ac4b0a769ee925afec58
+  - ref: refs/tags/sent/20230801-vfs-super-exclusive-c96146d24b29-v1
+    old: 0000000000000000000000000000000000000000
+    new: f46d798965e196749d2d38cb3336d6c6df18bc84
+  - ref: refs/tags/sent/20230801-vfs-super-exclusive-c96146d24b29-v2
+    old: 0000000000000000000000000000000000000000
+    new: 8731747dd5e4623021e349b2d55196ab74de24ae
+  - ref: refs/tags/sent/20230816-vfs-super-fixes-v3-f2cff6192a50-v1
+    old: 0000000000000000000000000000000000000000
+    new: 4c22d17f8df4ca9baa0148004820952d1a0de986
+  - ref: refs/tags/sent/20230828-vfs-super-fixes-147bf51f7b43-v1
+    old: 0000000000000000000000000000000000000000
+    new: 4aaa39570a5235221be5dcef4096e6601b9f06d1
+  - ref: refs/tags/sent/20230829-vfs-super-mtd-1bb602abfc00-v1
+    old: 0000000000000000000000000000000000000000
+    new: e7f04a54204b39126e4365efeb2953cb719412d4
+  - ref: refs/tags/sent/20230907-vfs-ntfs3-kill_sb-52bb6f5230d4-v1
+    old: 0000000000000000000000000000000000000000
+    new: d380f5d64ca3356d205387e33c3646a82fc3c81c
+  - ref: refs/tags/sent/20230927-vfs-super-freeze-eff650f66b06-v1
+    old: 0000000000000000000000000000000000000000
+    new: 1993005ecc36ca1df667de90be498705511490a2
+  - ref: refs/tags/sent/20230927-vfs-super-freeze-eff650f66b06-v2
+    old: 0000000000000000000000000000000000000000
+    new: 6d139f56ba5cee6de1da3f055f00aee3e9dcf77c
+  - ref: refs/tags/sent/20231009-vfs-fixes-reiserfs-3402fe7abb94-v1
+    old: 0000000000000000000000000000000000000000
+    new: 8992bb8fe5ede26fbb61238fe9620af3e1f2a375
+  - ref: refs/tags/sent/20231101-vfs-mnt_idmap-c3b7502f409d-v1
+    old: 0000000000000000000000000000000000000000
+    new: 40df1fb6a21e3188441a2e674e2eab40b4c55956
+  - ref: refs/tags/sent/20231103-vfs-multi-device-freeze-506e2c010473-v2
+    old: 0000000000000000000000000000000000000000
+    new: d29b0a3643b5bf3ee40d8fd36b97b6aba04f131b
+  - ref: refs/tags/sent/20231118-vfs-super-massage-wait-6ad126a1f315-v1
+    old: 0000000000000000000000000000000000000000
+    new: 5596a016b223baea930786a6aa9c90f2f929c430
+  - ref: refs/tags/sent/20231129-vfs-files-fixes-07348f1bc50a-v1
+    old: 0000000000000000000000000000000000000000
+    new: 9183baf4ec366bc6b411d0444b684c33d9c59a03
+  - ref: refs/tags/sent/20240206-vfs-mount-rootfs-70aff2e3956d-v1
+    old: 0000000000000000000000000000000000000000
+    new: 3815c35f9791d86809e65fdcc2df208329929083
+  - ref: refs/tags/sent/20240212-vfs-pidfd_fs-9a6e49283d80-v1
+    old: 0000000000000000000000000000000000000000
+    new: 59b96b5bcb860f4845e1c182b3bb75eb9126ad55
+  - ref: refs/tags/sent/20240524-vfs-open_by_handle_at-73c20767eb4e-v1
+    old: 0000000000000000000000000000000000000000
+    new: 129cc81a309a95c89156cda1f6ab42a76cc22ebe
+  - ref: refs/tags/sent/20240607-vfs-listmount-reverse-0f5d4d8248ee-v1
+    old: 0000000000000000000000000000000000000000
+    new: 2ac575b0efabbf6f2389a4771ca862dee31671e1
+  - ref: refs/tags/sent/20240619-work-ns_ioctl-447979cf0820-v1
+    old: 0000000000000000000000000000000000000000
+    new: e8e37d8bebe8a398d0b1a96b19459096d2eaca10
+  - ref: refs/tags/sent/20240627-work-pidfs-fd415f4d3cd1-v1
+    old: 0000000000000000000000000000000000000000
+    new: 48b2d0c33d556b38850c0f90afaab52933be7f7b
+  - ref: refs/tags/sent/20240704-work-mount-fixes-cb4d784a1fb0-v1
+    old: 0000000000000000000000000000000000000000
+    new: 8f3fdce6b209d4bc94838e961a3e42f9bc466f3c
+  - ref: refs/tags/sent/20240705-work-mount-namespace-126b73a11f5c-v1
+    old: 0000000000000000000000000000000000000000
+    new: cb9411138e437036bcfcbca11c3139cc5ec05806
+  - ref: refs/tags/sent/20240724-work-fcntl-9d2aa275affd-v1
+    old: 0000000000000000000000000000000000000000
+    new: c6cc7169b161bbc09be16861d687d1d8561b94ff
+  - ref: refs/tags/sent/20240731-work-procfs-e82dd889b773-v1
+    old: 0000000000000000000000000000000000000000
+    new: a433fb1d705f4ca4e8187d65b829b07100ea03a4
+  - ref: refs/tags/sent/20240809-work-fop_unsigned-5f6f7734cb7b-v1
+    old: 0000000000000000000000000000000000000000
+    new: c7c4e3339e9761753a2f99cb106adaf16419ed08
+  - ref: refs/tags/sent/20240813-work-f_owner-0fbbc50f9671-v2
+    old: 0000000000000000000000000000000000000000
+    new: 9fa10e066e2d53a3db404e8aad3504ff5b2f4662
+  - ref: refs/tags/sent/20240816-vfs-misc-dio-5cb07eaae155-v1
+    old: 0000000000000000000000000000000000000000
+    new: 6dc0f6586f1eba97101251966afe046bc04eb997
+  - ref: refs/tags/sent/20240820-work-i_state-4e34db39bcf8-v2
+    old: 0000000000000000000000000000000000000000
+    new: 4489e811b6495f756122276561e7c09d11a2ed04
+  - ref: refs/tags/sent/20240820-work-i_state-4e34db39bcf8-v3
+    old: 0000000000000000000000000000000000000000
+    new: abe79bc62cbe739cb6c2087a56c4e2e8e9efad5e
+  - ref: refs/tags/sent/20240827-work-kmem_cache-rcu-f97e35600cc6-v1
+    old: 0000000000000000000000000000000000000000
+    new: 49cd893007c32ca8b4137a077b2eb63945a53b11
+  - ref: refs/tags/sent/20240827-work-kmem_cache-rcu-f97e35600cc6-v2
+    old: 0000000000000000000000000000000000000000
+    new: 9fc781581e80b9f22b1bb728f96e1f6f6acc7309
+  - ref: refs/tags/sent/20240902-work-kmem_cache_args-e9760972c7d4-v3
+    old: 0000000000000000000000000000000000000000
+    new: b518c285e0f2c8480e837552b27d53f213a65df4
+  - ref: refs/tags/sent/20240927-brauner-file-rcuref-bfa4a4ba915b-v2
+    old: 0000000000000000000000000000000000000000
+    new: f31e1b8614093193b6fead9966a794c88648af6c
+  - ref: refs/tags/sent/20241001-brauner-rust-pid_namespace-52b0c92c8359-v4
+    old: 0000000000000000000000000000000000000000
+    new: 82908ec986f15f2a8cd93b22eb4b0c433efbf003
+  - ref: refs/tags/sent/20241008-brauner-open_tree-c32a6e8e5939-v1
+    old: 0000000000000000000000000000000000000000
+    new: 61bcc44bb860d898e72ec93d1208fe7d65a55e75
+  - ref: refs/tags/sent/20241124-work-cred-349b65450082-v1
+    old: 0000000000000000000000000000000000000000
+    new: 7fb1b157e003286a60124a61b300da6593472f75
+  - ref: refs/tags/sent/20241128-work-pidfs-2bd42c7ea772-v2
+    old: 0000000000000000000000000000000000000000
+    new: 949fd1168db902e9f283b9ce6993cceb20040203
+  - ref: refs/tags/sent/20241129-work-pidfs-file_handle-07bdfb860a38-v1
+    old: 0000000000000000000000000000000000000000
+    new: 669ed836cf30db746edf5a81295ae6018d6bc4ea
+  - ref: refs/tags/sent/20241201-work-exportfs-cd49bee773c5-v1
+    old: 0000000000000000000000000000000000000000
+    new: 121022ca1a60a172e78bf8f0ca8acc5c04ede9fb
+  - ref: refs/tags/sent/20250129-work-mnt_idmap-statmount-e57f258fef8e-v2
+    old: 0000000000000000000000000000000000000000
+    new: 49143b703e4790d16a15ad3dbc87dadcf0c529ed
+  - ref: refs/tags/sent/20250214-work-overlayfs-dfcfc4cd7ebd-v3
+    old: 0000000000000000000000000000000000000000
+    new: e25b79e54d96f6b99594ac43f5173bf99ba4028d
+  - ref: refs/tags/sent/20250317-work-pidfs-thread_group-141682f9a50a-v4
+    old: 0000000000000000000000000000000000000000
+    new: d3a1e9ea04f68831454d8d75fba8755165f705c8
+  - ref: refs/tags/sent/20250401-work-freeze-693b5b5a78e0-v2
+    old: 0000000000000000000000000000000000000000
+    new: 06ae08d55d921b14298f71e1dbdd0a30b751ded8
+  - ref: refs/tags/sent/20250407-work-anon_inode-e22bb1a74992-v1
+    old: 0000000000000000000000000000000000000000
+    new: 21b9a1b89a2365bc8d8592d0c6c7de2dcff8d00d
+  - ref: refs/tags/sent/20250411-work-pidfs-enoent-747579160c8c-v2
+    old: 0000000000000000000000000000000000000000
+    new: 53b5f97db6b5171b6b96c2ae8654348ec217c6c9
+  - ref: refs/tags/sent/20250413-work-coredump-0f7fa7e6414c-v2
+    old: 0000000000000000000000000000000000000000
+    new: f1aeaa042ed7f2d987dc9299a08fbfeb499a14ea
+  - ref: refs/tags/sent/20250416-work-mnt_idmap-s_user_ns-eb57ee83e1d6-v2
+    old: 0000000000000000000000000000000000000000
+    new: 7c177acc8b4651c647e94dcc049f5366c1c449a8
+  - ref: refs/tags/sent/20250423-work-pidfs-net-bc0181263d38-v2
+    old: 0000000000000000000000000000000000000000
+    new: 52b291671417544bda84c51336b17ad27fa7ba2b
+  - ref: refs/tags/sent/20250429-work-coredump-socket-87cc0f17729c-v5
+    old: 0000000000000000000000000000000000000000
+    new: 50dc72df386ad538ea761d4700731d784fbb69cb
+  - ref: refs/tags/sent/20250429-work-coredump-socket-87cc0f17729c-v8
+    old: 0000000000000000000000000000000000000000
+    new: 78382d122ba97420863f9e251131f525889a7e3b
+  - ref: refs/tags/sent/20250520-work-coredump-socket-protocol-6980d1f54c2f-v2
+    old: 0000000000000000000000000000000000000000
+    new: e45ae843b6e7a3b58c73136a10855344935becfc
+  - ref: refs/tags/sent/20250606-work-nsfs-3e951f888309-v1
+    old: 0000000000000000000000000000000000000000
+    new: 3a767e732ba404989eaaa7f95f562ec59e53dd4b
+  - ref: refs/tags/sent/20250612-work-coredump-massage-e2b6fd6c0ab3-v1
+    old: 0000000000000000000000000000000000000000
+    new: 2eb2a3824874371b4cbf2e1e212e864251cda094
+  - ref: refs/tags/sent/20250613-work-pidfs-269232caa91f-v2
+    old: 0000000000000000000000000000000000000000
+    new: 7426f95cf1c733164b52e2ebebac5480577d0d0c
+  - ref: refs/tags/sent/20250617-work-pidfs-xattr-1111246fe9b2-v1
+    old: 0000000000000000000000000000000000000000
+    new: 4619759933c1ae01cbbef1b4843334e1b99470aa
+  - ref: refs/tags/sent/20250618-work-pidfs-persistent-251fe3cf5c3b-v2
+    old: 0000000000000000000000000000000000000000
+    new: 03f1dd089e4e1a6c679a3e6f71a11a6123feaa84
+  - ref: refs/tags/sent/20250619-work-pidfs-fhandle-b63ff35c4924-v2
+    old: 0000000000000000000000000000000000000000
+    new: 52bb35df6b671e942bda1cda8374219010eb23d3
+  - ref: refs/tags/sent/20250702-work-fixes-dc3e5adb32f2-v1
+    old: 0000000000000000000000000000000000000000
+    new: 3b5b4ac7b284ab7a165f7732dbe9210e64f3fa93
+  - ref: refs/tags/sent/fs-acl-remove-generic-xattr-handlers-v3
+    old: 0000000000000000000000000000000000000000
+    new: 1e2e96723bc4b93dc05a348f9562386a40194de8
+  - ref: refs/tags/stackleak-v4.20-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 31a868f38dcfcb0086369e65db7cd4b9046dfd95
+  - ref: refs/tags/tag.tmp
+    old: 0000000000000000000000000000000000000000
+    new: 623b0fffc14f742c9710bf5733e5e965e9129f06
+  - ref: refs/tags/threads-v5.10
+    old: 0000000000000000000000000000000000000000
+    new: a95d8805d45a680b71e66ab63ddfaad183fe63af
+  - ref: refs/tags/threads-v5.5
+    old: 0000000000000000000000000000000000000000
+    new: 7ba8056b71cab57289258228b9351f0e7e9134cb
+  - ref: refs/tags/threads-v5.6
+    old: 0000000000000000000000000000000000000000
+    new: 2c3287766e30017eacb268b1c53cde71b25a1abc
+  - ref: refs/tags/threads-v5.7
+    old: 0000000000000000000000000000000000000000
+    new: 46f29ae2ffcc9f83ceff148db063f1e2116f37d6
+  - ref: refs/tags/threads-v5.8
+    old: 0000000000000000000000000000000000000000
+    new: 8854e4d5c800a15b6214ee846879beb7ea483d48
+  - ref: refs/tags/threads-v5.9
+    old: 0000000000000000000000000000000000000000
+    new: 62ab094fb1ca02329cba2dfb264ef51a71bf2779
+  - ref: refs/tags/time-namespace-v5.11
+    old: 0000000000000000000000000000000000000000
+    new: c8bca77fdb6714f51b4fafc3ae00b46be2ec282f
+  - ref: refs/tags/timers-conversion-next
+    old: 0000000000000000000000000000000000000000
+    new: 77f32cf64161e3c7eac8123a1735e4f1868b77be
+  - ref: refs/tags/timers-conversion-next2
+    old: 0000000000000000000000000000000000000000
+    new: 027b7e6c2a70089303e03bf2170559796f157286
+  - ref: refs/tags/timers-conversion-next3
+    old: 0000000000000000000000000000000000000000
+    new: 83ba589279bf89fe33cb33a6aae737bab27ec493
+  - ref: refs/tags/timers-conversion-next4
+    old: 0000000000000000000000000000000000000000
+    new: 88739610f9838493906302ffae178273f98bbadd
+  - ref: refs/tags/timers-conversion-next5
+    old: 0000000000000000000000000000000000000000
+    new: e70a31202b717a320811cb7f91cb16affedd65fb
+  - ref: refs/tags/tmp.vfs-6.16.netfs
+    old: 0000000000000000000000000000000000000000
+    new: a4c983e855d0e1245eeb03e17e5ff6d80a1ced32
+  - ref: refs/tags/usercopy-fix-v4.18-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 1609a58ed00f67366e5b5e899432aa2a48d6b24e
+  - ref: refs/tags/usercopy-v4.11-rc1
+    old: 0000000000000000000000000000000000000000
+    new: fac30a378b3582f209ba3e15405e610224948fc5
+  - ref: refs/tags/usercopy-v4.11-rc1.fix
+    old: 0000000000000000000000000000000000000000
+    new: a1f62109ab1470484ec902617baca642f2355cef
+  - ref: refs/tags/usercopy-v4.12-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 25fc34a7f3c753e7bbb33a1be081ad6ba92d494b
+  - ref: refs/tags/usercopy-v4.16-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 8d778836e1da1fa72275b51aea08dfd012be0258
+  - ref: refs/tags/usercopy-v4.8
+    old: 0000000000000000000000000000000000000000
+    new: 8a041d27d22875dcd3a57a5db8be47a4909568fc
+  - ref: refs/tags/usercopy-v4.8-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 4ee78cb1ac00cbb260cbb075c6521cfa023870e5
+  - ref: refs/tags/usercopy-v4.8-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 31372e8897aaa3a17f8cf14f92030f69b788f781
+  - ref: refs/tags/usercopy-v4.8-rc6-part2
+    old: 0000000000000000000000000000000000000000
+    new: 6c91b185005c47bd9e1b1dcf36376ae1457ff33c
+  - ref: refs/tags/usercopy-v4.8-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 1d35495902f2514affe4c3898ff2a2e54c0ad3e5
+  - ref: refs/tags/usercopy-v5.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: bb9b64d529e0c3a986c825d5490327878d87b6b2
+  - ref: refs/tags/v2.6.36_rc3
+    old: 0000000000000000000000000000000000000000
+    new: ffa29b999bd6be9219b54abec5ca814e7f9c3432
+  - ref: refs/tags/v6.1-rc5-fs.xattr.simple.noaudit
+    old: 0000000000000000000000000000000000000000
+    new: 9904085a7a7105b189c06ac9fa25cab737c40434
+  - ref: refs/tags/v6.5-rc5.vfs.fixes
+    old: 0000000000000000000000000000000000000000
+    new: cc40cfd3873bc0e8f99883f0a6c6887334afb121
+  - ref: refs/tags/v6.5-rc5.vfs.resolve_cached.fix
+    old: 0000000000000000000000000000000000000000
+    new: 9a480d93c11ffff9fb4238666992665eea61447a
+  - ref: refs/tags/v6.6-fs.proc.uapi
+    old: 0000000000000000000000000000000000000000
+    new: 45d1e17992d7659191c4d505ef2b79aaf24efb91
+  - ref: refs/tags/v6.6-rc3.vfs.ctime.revert
+    old: 0000000000000000000000000000000000000000
+    new: 2379208bc5e976dbb1069f120f97194b8af6ad1d
+  - ref: refs/tags/v6.6-rc4.vfs.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 2cb1a00e7805805525e56d23a5261bae0cd0c7f9
+  - ref: refs/tags/v6.6-rc7.vfs.fixes
+    old: 0000000000000000000000000000000000000000
+    new: ea61877f38557b7380211b9d03c2cab1c35e5560
+  - ref: refs/tags/v6.6-vfs.autofs
+    old: 0000000000000000000000000000000000000000
+    new: 3858722b28f43466b10f6a0bb61630d2ed374928
+  - ref: refs/tags/v6.6-vfs.ctime
+    old: 0000000000000000000000000000000000000000
+    new: 902ef4672284dd1bcfa3b4c861d99c18edbfb138
+  - ref: refs/tags/v6.6-vfs.fchmodat2
+    old: 0000000000000000000000000000000000000000
+    new: cf8a11d9196291f05bc807fff5ab017d3ea7dc6f
+  - ref: refs/tags/v6.6-vfs.fs_context
+    old: 0000000000000000000000000000000000000000
+    new: 97f0ebdf9125b4ee2964775d3ba7087badd767fe
+  - ref: refs/tags/v6.6-vfs.misc
+    old: 0000000000000000000000000000000000000000
+    new: 9f03b365408ea95cc819afac8f6b5232be26cdf6
+  - ref: refs/tags/v6.6-vfs.super
+    old: 0000000000000000000000000000000000000000
+    new: b6d2aa2332ac9993f81d6fc45324d3d808a48aa9
+  - ref: refs/tags/v6.6-vfs.super.fixes
+    old: 0000000000000000000000000000000000000000
+    new: cf19b773776006a24476092e11dbd109bfad9840
+  - ref: refs/tags/v6.6-vfs.super.fixes.2
+    old: 0000000000000000000000000000000000000000
+    new: 3c012e45b32b67601c8c53f9d3805ddecbb8f257
+  - ref: refs/tags/v6.6-vfs.tmpfs
+    old: 0000000000000000000000000000000000000000
+    new: 037d2e9f4153db0761025c3b1ad37849a636eae8
+  - ref: refs/tags/v6.7.vfs.autofs
+    old: 0000000000000000000000000000000000000000
+    new: 92e8dbfcadf29b5bd651d28079c95d2dd3236991
+  - ref: refs/tags/v6.7.vfs.ctime
+    old: 0000000000000000000000000000000000000000
+    new: 198b5445c3a5de231a4a42d31deca4c1b4692e7e
+  - ref: refs/tags/v6.7.vfs.iov_iter
+    old: 0000000000000000000000000000000000000000
+    new: e09e1a52c897708dbe9cb2007a8695813f3ee597
+  - ref: refs/tags/v6.7.vfs.misc
+    old: 0000000000000000000000000000000000000000
+    new: aa549e3f85597cd0e6ef21925fe44d5048c930ad
+  - ref: refs/tags/v6.7.vfs.super
+    old: 0000000000000000000000000000000000000000
+    new: 657fcb23ae7e91cec3ba816338b1b82ce3ac12b0
+  - ref: refs/tags/v6.7.vfs.xattr
+    old: 0000000000000000000000000000000000000000
+    new: 03c88ad860b3ed483613582a7cc439ab8ff48747
+  - ref: refs/tags/vfs-6.10-rc2.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 44bce5d0f1aaa5dd07c831a04c73947559b0341e
+  - ref: refs/tags/vfs-6.10-rc4.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 2c3ca160528368d8703053e3ca252927cc5e88eb
+  - ref: refs/tags/vfs-6.10-rc7.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 191bab9a58fcf9f2c071db44ae57515b5d13db2f
+  - ref: refs/tags/vfs-6.10-rc7.fixes.2
+    old: 0000000000000000000000000000000000000000
+    new: 84f10a97ddf4d75c98b4df0cb2d870a0a986d3b8
+  - ref: refs/tags/vfs-6.10-rc8.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 65ca621dfbcd680167da3658fc25dcb43f8cf44b
+  - ref: refs/tags/vfs-6.10.iomap
+    old: 0000000000000000000000000000000000000000
+    new: 5fdc05eb032f8a909b370a26c50e033005ee90da
+  - ref: refs/tags/vfs-6.10.misc
+    old: 0000000000000000000000000000000000000000
+    new: 14f2d31d3f8126ba17110861fe7f298ed437c0eb
+  - ref: refs/tags/vfs-6.10.mount
+    old: 0000000000000000000000000000000000000000
+    new: 6df19c95ebb0ce07b75458c1828f61b215852260
+  - ref: refs/tags/vfs-6.10.netfs
+    old: 0000000000000000000000000000000000000000
+    new: 36a693ff08ee0c0095fe080ae88bfae87a5becca
+  - ref: refs/tags/vfs-6.10.rw
+    old: 0000000000000000000000000000000000000000
+    new: de5652b682e30714281543d864346e319a88964e
+  - ref: refs/tags/vfs-6.11-rc1.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 47d1ea0b39f85254e7b5b26b7c6a65e2691e0808
+  - ref: refs/tags/vfs-6.11-rc1.fixes.2
+    old: 0000000000000000000000000000000000000000
+    new: 237d1001770745df65aa3fe64497774313cc1213
+  - ref: refs/tags/vfs-6.11-rc1.fixes.3
+    old: 0000000000000000000000000000000000000000
+    new: ed94dcd5018aa7edd2d7fcf56913edab9ace81da
+  - ref: refs/tags/vfs-6.11-rc4.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 450edbd77e88a213b6d8d8bf74cc696eb336a5cb
+  - ref: refs/tags/vfs-6.11-rc5.fixes
+    old: 0000000000000000000000000000000000000000
+    new: f5d9f29c116c7456b0969c5015306c44c6740faa
+  - ref: refs/tags/vfs-6.11-rc6.fixes
+    old: 0000000000000000000000000000000000000000
+    new: cffb0e18d83dbc0b73bde13031667ef15c7ce3b2
+  - ref: refs/tags/vfs-6.11-rc7.fixes
+    old: 0000000000000000000000000000000000000000
+    new: cf97c8aae7c30adcd418bd9ce4747ef0229e9b34
+  - ref: refs/tags/vfs-6.11.casefold
+    old: 0000000000000000000000000000000000000000
+    new: cc007142bbd787bf18bf3c04566747c13ed2b251
+  - ref: refs/tags/vfs-6.11.inode
+    old: 0000000000000000000000000000000000000000
+    new: 3151d7926f2096f5336b85fefb05d7430558e8f9
+  - ref: refs/tags/vfs-6.11.iomap
+    old: 0000000000000000000000000000000000000000
+    new: fc9291c8bb78389a295604d51b1231fbc0dd12c2
+  - ref: refs/tags/vfs-6.11.misc
+    old: 0000000000000000000000000000000000000000
+    new: 8bb87c6e5813f4f563bedd4de281e59e1bda5711
+  - ref: refs/tags/vfs-6.11.module.description
+    old: 0000000000000000000000000000000000000000
+    new: eaf39e53b7fff1aa0c8e7ce6230459fdbe93d140
+  - ref: refs/tags/vfs-6.11.mount
+    old: 0000000000000000000000000000000000000000
+    new: aa2448e466fa5db49dd0b8dde6c9817ed3d0fa51
+  - ref: refs/tags/vfs-6.11.mount.api
+    old: 0000000000000000000000000000000000000000
+    new: 7ca33782e3e1d9d6b86b6d4a373396eadf5efc7c
+  - ref: refs/tags/vfs-6.11.nsfs
+    old: 0000000000000000000000000000000000000000
+    new: 9cd70038aee5a097b5f4474d58468a3b8717f2fd
+  - ref: refs/tags/vfs-6.11.pg_error
+    old: 0000000000000000000000000000000000000000
+    new: 6793d99ff0395ee388ed3cd4227f0def46673158
+  - ref: refs/tags/vfs-6.11.pidfs
+    old: 0000000000000000000000000000000000000000
+    new: 10f9e40c8f4e488fecab732a84738bb45305044c
+  - ref: refs/tags/vfs-6.12-rc1.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 04f53f278455c7e361dad5695147c705de6721ec
+  - ref: refs/tags/vfs-6.12-rc2.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 0ec4cdbdf16c34f9baa7e40debf46d5c5bc58b38
+  - ref: refs/tags/vfs-6.12-rc2.fixes.2
+    old: 0000000000000000000000000000000000000000
+    new: 95fd4272f5a9e216e4fffb04d94e054b6c950a04
+  - ref: refs/tags/vfs-6.12-rc5.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 8cd92e76d6bee9cba3271bfa5c4ae41d4fcd13ab
+  - ref: refs/tags/vfs-6.12-rc6.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 0a9324a25d34d9c27841950c1459da89dc1f6029
+  - ref: refs/tags/vfs-6.12-rc6.iomap
+    old: 0000000000000000000000000000000000000000
+    new: dc10579d29c2ec94c4f85a0f01aaabe7a4c8dcf3
+  - ref: refs/tags/vfs-6.12.blocksize
+    old: 0000000000000000000000000000000000000000
+    new: 1faeafc2201055b831b166a2b77a6a9ba3d7d680
+  - ref: refs/tags/vfs-6.12.fallocate
+    old: 0000000000000000000000000000000000000000
+    new: 3d9ec3ec7247aad812cd298eea797af17adbb8f0
+  - ref: refs/tags/vfs-6.12.file
+    old: 0000000000000000000000000000000000000000
+    new: 480a62814933cfd4f7e54537327a80118a2c66b4
+  - ref: refs/tags/vfs-6.12.file.kmem
+    old: 0000000000000000000000000000000000000000
+    new: 395a70c24d9d9b84119853b8b9d34454412f1d43
+  - ref: refs/tags/vfs-6.12.folio
+    old: 0000000000000000000000000000000000000000
+    new: ace444631653dc2b12ef7b55d1b39007032d1671
+  - ref: refs/tags/vfs-6.12.misc
+    old: 0000000000000000000000000000000000000000
+    new: ba5a1b8838cfb6f47c48c930f52a617401d56c80
+  - ref: refs/tags/vfs-6.12.mount
+    old: 0000000000000000000000000000000000000000
+    new: fd810a222308f2dd0f336826878e9b07fc73d677
+  - ref: refs/tags/vfs-6.12.netfs
+    old: 0000000000000000000000000000000000000000
+    new: f45f747b798cefbe3a4044aa605ec9a646f742fe
+  - ref: refs/tags/vfs-6.12.procfs
+    old: 0000000000000000000000000000000000000000
+    new: 4291d8a14d1750bb89ccbd1ed24bd83cb5030a9b
+  - ref: refs/tags/vfs-6.12.xattr
+    old: 0000000000000000000000000000000000000000
+    new: bfa5a978fd081a314c7b1cbc7e074e970c2b5f6a
+  - ref: refs/tags/vfs-6.13-rc1.fixes
+    old: 0000000000000000000000000000000000000000
+    new: a196982d16b9721024fd59139eb1880a1ac21625
+  - ref: refs/tags/vfs-6.13-rc7.fixes
+    old: 0000000000000000000000000000000000000000
+    new: bb556e25bec03c030225ac692abfe072187623fd
+  - ref: refs/tags/vfs-6.13-rc7.fixes.2
+    old: 0000000000000000000000000000000000000000
+    new: a40564e10c582545b6cbf4a2c195671bbd351e63
+  - ref: refs/tags/vfs-6.13.ecryptfs
+    old: 0000000000000000000000000000000000000000
+    new: 545d53ba71126b577b698764b97ee7c692cec6cd
+  - ref: refs/tags/vfs-6.13.ecryptfs.mount.api
+    old: 0000000000000000000000000000000000000000
+    new: 860315e93e6f56ba0ce25246330f77a4328e16aa
+  - ref: refs/tags/vfs-6.13.exec.deny_write_access.revert
+    old: 0000000000000000000000000000000000000000
+    new: 74d6040b2e00c7283841148a29a01b53c1a0eb3a
+  - ref: refs/tags/vfs-6.13.exportfs
+    old: 0000000000000000000000000000000000000000
+    new: 82fc2a052cca18a7b1269395197935014ad7a002
+  - ref: refs/tags/vfs-6.13.file
+    old: 0000000000000000000000000000000000000000
+    new: 3dc82ae6d9c062eaafe316427cf6654bd75207b6
+  - ref: refs/tags/vfs-6.13.for-bpf.file
+    old: 0000000000000000000000000000000000000000
+    new: 3767f44dd605407d935f6495577bd5c1602c6413
+  - ref: refs/tags/vfs-6.13.mgtime
+    old: 0000000000000000000000000000000000000000
+    new: 595eacab9eca85e8d1056c8bf4c58f3a124c29aa
+  - ref: refs/tags/vfs-6.13.misc
+    old: 0000000000000000000000000000000000000000
+    new: d50ca492c680a1815cf56065ac4538242d7fe67b
+  - ref: refs/tags/vfs-6.13.mount.api
+    old: 0000000000000000000000000000000000000000
+    new: 4a185bd50e0a2a5db01d087e414eaef10818eedb
+  - ref: refs/tags/vfs-6.13.netfs
+    old: 0000000000000000000000000000000000000000
+    new: b4c3d845441b7eeaabedadd0d39e80ca4a832741
+  - ref: refs/tags/vfs-6.13.ovl
+    old: 0000000000000000000000000000000000000000
+    new: 6ac4cf97cb77885f0bad41e17617e8dea60169cf
+  - ref: refs/tags/vfs-6.13.pagecache
+    old: 0000000000000000000000000000000000000000
+    new: bdde5c0e6a65daca0b1eb4bdf61b80983257241c
+  - ref: refs/tags/vfs-6.13.pidfs
+    old: 0000000000000000000000000000000000000000
+    new: 26a25658a3e827409d0e4ec63ff4ce6ed9180a28
+  - ref: refs/tags/vfs-6.13.rust.file
+    old: 0000000000000000000000000000000000000000
+    new: f9da2afadc32ad33bbe872e749263876cf8ed483
+  - ref: refs/tags/vfs-6.13.rust.pid_namespace
+    old: 0000000000000000000000000000000000000000
+    new: 25aba14fed25af9fbbf1696c77a74e7fe90e7633
+  - ref: refs/tags/vfs-6.13.tmpfs
+    old: 0000000000000000000000000000000000000000
+    new: 106d14b87fcc40e957e3e2834ead324f15b22cd0
+  - ref: refs/tags/vfs-6.13.untorn.writes
+    old: 0000000000000000000000000000000000000000
+    new: 15ab78972a06d00991efcc2b00f5427ab6cb98c2
+  - ref: refs/tags/vfs-6.13.usercopy
+    old: 0000000000000000000000000000000000000000
+    new: 292a1e738ed206b58191dac8ca17675d6135ca2f
+  - ref: refs/tags/vfs-6.14-final.fixes
+    old: 0000000000000000000000000000000000000000
+    new: b30030cc4ca6a658eeea1b6bac90ab08a3397d6f
+  - ref: refs/tags/vfs-6.14-rc1.afs
+    old: 0000000000000000000000000000000000000000
+    new: 90eff988a1fc1738048a3225897a943ab9d3f6bb
+  - ref: refs/tags/vfs-6.14-rc1.kcore
+    old: 0000000000000000000000000000000000000000
+    new: de49c0967f163dedee260ecc64a91df91e1f3375
+  - ref: refs/tags/vfs-6.14-rc1.libfs
+    old: 0000000000000000000000000000000000000000
+    new: c191a4a24372527a2aba9f04454917fc94c19c18
+  - ref: refs/tags/vfs-6.14-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: 8fced7097870d453295d92d3e2c70d612f2531e2
+  - ref: refs/tags/vfs-6.14-rc1.mount
+    old: 0000000000000000000000000000000000000000
+    new: 029bf945d212c7d3784252d3930d782403511fbb
+  - ref: refs/tags/vfs-6.14-rc1.mount.v2
+    old: 0000000000000000000000000000000000000000
+    new: e42bfe568419f034f57c039d418762b0037c90fb
+  - ref: refs/tags/vfs-6.14-rc1.netfs
+    old: 0000000000000000000000000000000000000000
+    new: 3f5d5e0b683ab733a0f4ceeb4a13029339820d09
+  - ref: refs/tags/vfs-6.14-rc1.pidfs
+    old: 0000000000000000000000000000000000000000
+    new: 53f21c4075f64e828a3f8c8a2bc0c4b5dc4ebf58
+  - ref: refs/tags/vfs-6.14-rc1.statx.dio
+    old: 0000000000000000000000000000000000000000
+    new: 9f0d1d681241158ae4ff5ac9ae849f7cb77fb3c6
+  - ref: refs/tags/vfs-6.14-rc2.fixes
+    old: 0000000000000000000000000000000000000000
+    new: ce5ef52353d891c855ff82e4ef6d13b1d960deaa
+  - ref: refs/tags/vfs-6.14-rc4.fixes
+    old: 0000000000000000000000000000000000000000
+    new: c4531da4d05a32f4bfb20ccd73cf53001fa4cf1c
+  - ref: refs/tags/vfs-6.14-rc5.fixes
+    old: 0000000000000000000000000000000000000000
+    new: f0a63698a75c3600d6e6394cf0e1d6bd49ec87ac
+  - ref: refs/tags/vfs-6.14-rc6.fixes
+    old: 0000000000000000000000000000000000000000
+    new: d69546a70b2514bae50c40568014df4dccb241dd
+  - ref: refs/tags/vfs-6.14-rc7.fixes
+    old: 0000000000000000000000000000000000000000
+    new: dafb0e764c75944981d5eba849f261bab4fd91c3
+  - ref: refs/tags/vfs-6.14-rc7.mount.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 67eecd7ea327415cfdec09cfd11f913df184afa8
+  - ref: refs/tags/vfs-6.15-rc1.afs
+    old: 0000000000000000000000000000000000000000
+    new: cf4869c0bc85343999e492baf1bed7301c8a61dd
+  - ref: refs/tags/vfs-6.15-rc1.async.dir
+    old: 0000000000000000000000000000000000000000
+    new: 815612035ded646beec88dcc281d69c0890bf350
+  - ref: refs/tags/vfs-6.15-rc1.ceph
+    old: 0000000000000000000000000000000000000000
+    new: 0ee1390640af3afb8f63295ad27eeeed19d81c65
+  - ref: refs/tags/vfs-6.15-rc1.config_debug_vfs
+    old: 0000000000000000000000000000000000000000
+    new: 76f7e47fb1841dc2b1001c3da03abea0b990b693
+  - ref: refs/tags/vfs-6.15-rc1.eventpoll
+    old: 0000000000000000000000000000000000000000
+    new: c348f8805b5e610a37cd899236293abfc0756f7c
+  - ref: refs/tags/vfs-6.15-rc1.file
+    old: 0000000000000000000000000000000000000000
+    new: 2436dddde11a67b19d84301c4aded345ffe6af24
+  - ref: refs/tags/vfs-6.15-rc1.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 17d39e93f02096d49811cc5a42f7161776540533
+  - ref: refs/tags/vfs-6.15-rc1.initramfs
+    old: 0000000000000000000000000000000000000000
+    new: d3daf156e5469432a6e1eea4f619191caf520afb
+  - ref: refs/tags/vfs-6.15-rc1.iomap
+    old: 0000000000000000000000000000000000000000
+    new: 92818e45ddec63a610a03675917ad0c807b5acbc
+  - ref: refs/tags/vfs-6.15-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: 461065bde9da864c8e1a7093434a653d65761bfc
+  - ref: refs/tags/vfs-6.15-rc1.mount
+    old: 0000000000000000000000000000000000000000
+    new: 86d4b64e739103af8a5c79175f5d8780e4b322a0
+  - ref: refs/tags/vfs-6.15-rc1.mount.api
+    old: 0000000000000000000000000000000000000000
+    new: ddf081c28e1165fd699c9d7ec23a89c0160fb6c4
+  - ref: refs/tags/vfs-6.15-rc1.mount.namespace
+    old: 0000000000000000000000000000000000000000
+    new: a80516e2fec5d53d9adc3a6cf141fe085be9de54
+  - ref: refs/tags/vfs-6.15-rc1.nsfs
+    old: 0000000000000000000000000000000000000000
+    new: 3708c7f2c5a101f5e32bdd0037db17623079950d
+  - ref: refs/tags/vfs-6.15-rc1.orangefs
+    old: 0000000000000000000000000000000000000000
+    new: b3b431964749d99d529720557d559fe2f8509633
+  - ref: refs/tags/vfs-6.15-rc1.overlayfs
+    old: 0000000000000000000000000000000000000000
+    new: da68fcfea4625933bfaa00a0a44b9707115342f1
+  - ref: refs/tags/vfs-6.15-rc1.pagesize
+    old: 0000000000000000000000000000000000000000
+    new: 252a57da4b1137a6570a56fb1bde1b85298b1342
+  - ref: refs/tags/vfs-6.15-rc1.pidfs
+    old: 0000000000000000000000000000000000000000
+    new: f9f69bdf6ef023e1dde6dbd3e6630cd2c307744f
+  - ref: refs/tags/vfs-6.15-rc1.pipe
+    old: 0000000000000000000000000000000000000000
+    new: 597e3866aa6e1cff1730a4bd50fcb2304ef7a8bc
+  - ref: refs/tags/vfs-6.15-rc1.rust
+    old: 0000000000000000000000000000000000000000
+    new: 02017554c2aacdcdf075775ac1846acdf5f3ec0f
+  - ref: refs/tags/vfs-6.15-rc1.sysv
+    old: 0000000000000000000000000000000000000000
+    new: 866e2bc3d43d2964c71c72c6bc2a275f9dce72b9
+  - ref: refs/tags/vfs-6.15-rc3.fixes
+    old: 0000000000000000000000000000000000000000
+    new: cc6097f1f978c6e2fe72f10732d8809704c622d6
+  - ref: refs/tags/vfs-6.15-rc3.fixes.2
+    old: 0000000000000000000000000000000000000000
+    new: 6c61eb944c82d4d16ce520bf31319eb988ac7d3d
+  - ref: refs/tags/vfs-6.15-rc4.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 0a50572dddfee05a721daa12de588605b3b7c869
+  - ref: refs/tags/vfs-6.15-rc7.fixes
+    old: 0000000000000000000000000000000000000000
+    new: c63e78343025e8c52f348988cb736a03c7b64810
+  - ref: refs/tags/vfs-6.15-rc8.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 046860ddb52a411cdd35836217da7ff86641db46
+  - ref: refs/tags/vfs-6.16-rc1.async.dir
+    old: 0000000000000000000000000000000000000000
+    new: a033ddb631a48b1a15a5c5c6af08271c38f8a395
+  - ref: refs/tags/vfs-6.16-rc1.coredump
+    old: 0000000000000000000000000000000000000000
+    new: ed25331a9c59a874a8df673fee8681b5fdb83dd2
+  - ref: refs/tags/vfs-6.16-rc1.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 3174457fad22763df69f8abb5c71430ba10c287d
+  - ref: refs/tags/vfs-6.16-rc1.iomap
+    old: 0000000000000000000000000000000000000000
+    new: 8f550f8087f026329a2b903a34a2a23252d67a56
+  - ref: refs/tags/vfs-6.16-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: 83485d2013c1b0648727c7f5820cd1c214bd6adb
+  - ref: refs/tags/vfs-6.16-rc1.mount
+    old: 0000000000000000000000000000000000000000
+    new: 27cfd2a5e945318b2548e1b3634a24c2f0b28024
+  - ref: refs/tags/vfs-6.16-rc1.mount.api
+    old: 0000000000000000000000000000000000000000
+    new: 5cd4d2b18d6c41cc5e6995a979a08158468ac339
+  - ref: refs/tags/vfs-6.16-rc1.netfs
+    old: 0000000000000000000000000000000000000000
+    new: f45adcb3c7e4a67d3dc999c5a3da083fbd36b246
+  - ref: refs/tags/vfs-6.16-rc1.pidfs
+    old: 0000000000000000000000000000000000000000
+    new: cbbaffe7a3eccb8d9cc27eddd129818757aecec0
+  - ref: refs/tags/vfs-6.16-rc1.selftests
+    old: 0000000000000000000000000000000000000000
+    new: f168d3a218ed94ecb4d60d6bf9af4bdfbce69780
+  - ref: refs/tags/vfs-6.16-rc1.super
+    old: 0000000000000000000000000000000000000000
+    new: 2778ccaffdb51ddc658835315a4ffb7b129c21ff
+  - ref: refs/tags/vfs-6.16-rc1.writepage
+    old: 0000000000000000000000000000000000000000
+    new: b47ddae791aa345aec2049a1a6520ec7c01eb433
+  - ref: refs/tags/vfs-6.16-rc2.fixes
+    old: 0000000000000000000000000000000000000000
+    new: adf7bc325fc30dd38df92d88fc942a56abc73c7b
+  - ref: refs/tags/vfs-6.16-rc3.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 1f4dd8b748ae75b925f304bf37407d78bc043ceb
+  - ref: refs/tags/vfs-6.16-rc5.fixes
+    old: 0000000000000000000000000000000000000000
+    new: c5bd4d24448bfc57b33affeb38f86bb51bd69012
+  - ref: refs/tags/vfs-6.16-rc7.fixes
+    old: 0000000000000000000000000000000000000000
+    new: bf9ad306bc95ed527f3c9d46ba5ecf10e264f28b
+  - ref: refs/tags/vfs-6.16-rc8.fixes
+    old: 0000000000000000000000000000000000000000
+    new: bbf8d188c1bac61d9d6abaa83c54aef04da6acca
+  - ref: refs/tags/vfs-6.17-rc1.async.dir
+    old: 0000000000000000000000000000000000000000
+    new: f643c1a57ba3c6395533bb51324378fa4f799f3e
+  - ref: refs/tags/vfs-6.17-rc1.bpf
+    old: 0000000000000000000000000000000000000000
+    new: 95ee3ee4d93b24628587cd8550081eb20a60d834
+  - ref: refs/tags/vfs-6.17-rc1.coredump
+    old: 0000000000000000000000000000000000000000
+    new: e232c616de1d078472865f44d019e562fd10665b
+  - ref: refs/tags/vfs-6.17-rc1.fallocate
+    old: 0000000000000000000000000000000000000000
+    new: d883f8d93d95b3def82d01231cd512127582e7ad
+  - ref: refs/tags/vfs-6.17-rc1.fileattr
+    old: 0000000000000000000000000000000000000000
+    new: b396ca627601a2ea51bf53f23096f31b0928dbce
+  - ref: refs/tags/vfs-6.17-rc1.integrity
+    old: 0000000000000000000000000000000000000000
+    new: cfad725589404018153d1142b32ebe3fb3843217
+  - ref: refs/tags/vfs-6.17-rc1.iomap
+    old: 0000000000000000000000000000000000000000
+    new: 6e8cab4c14870b4a36baa4177c68ff1e573f6f1a
+  - ref: refs/tags/vfs-6.17-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: 9951f4fc8846e5bbf065e0bb47bd6599dd695fcb
+  - ref: refs/tags/vfs-6.17-rc1.mmap_prepare
+    old: 0000000000000000000000000000000000000000
+    new: 9621fec9b3f414776ab2a552eb1b4aa35a4871c9
+  - ref: refs/tags/vfs-6.17-rc1.nsfs
+    old: 0000000000000000000000000000000000000000
+    new: c656681fb6c0fd04bb7b58330773940f137d8b54
+  - ref: refs/tags/vfs-6.17-rc1.ovl
+    old: 0000000000000000000000000000000000000000
+    new: 1560242921396ae24dd603243557cc7e05b0338f
+  - ref: refs/tags/vfs-6.17-rc1.pidfs
+    old: 0000000000000000000000000000000000000000
+    new: 11cc0bb4188991ce0c8f7bb1f343745590dc08d6
+  - ref: refs/tags/vfs-6.17-rc1.rust
+    old: 0000000000000000000000000000000000000000
+    new: b6c5a29efd9171e82e0c813c11974aa31898dc5c
+  - ref: refs/tags/vfs-6.17-rc1.super
+    old: 0000000000000000000000000000000000000000
+    new: b5eaa726c43ed91fce149b5db207e37800164a6f
+  - ref: refs/tags/vfs-6.17-rc3.fixes
+    old: 0000000000000000000000000000000000000000
+    new: ad03e75c7c39547fbd676cc4253a9051a814bd15
+  - ref: refs/tags/vfs-6.17-rc6.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 06b0757866d2106d55a65b9e94100f402924a46b
+  - ref: refs/tags/vfs-6.17-rc7.fixes
+    old: 0000000000000000000000000000000000000000
+    new: af843f3e681a3ca7b91c5c52d28efe12a11fca22
+  - ref: refs/tags/vfs-6.17-rc8.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 9493e01a2c394e3220d6e4b273d7740a217d7e6c
+  - ref: refs/tags/vfs-6.18-rc1.afs
+    old: 0000000000000000000000000000000000000000
+    new: 855d20fc917cb11f3be69b96c9c52792193e03cd
+  - ref: refs/tags/vfs-6.18-rc1.async
+    old: 0000000000000000000000000000000000000000
+    new: 63068d08c16db3069c4cf62f5201e1ba0be8c80c
+  - ref: refs/tags/vfs-6.18-rc1.inode
+    old: 0000000000000000000000000000000000000000
+    new: 9434e7c7e2a8b45ca3672934027376e892ecb98e
+  - ref: refs/tags/vfs-6.18-rc1.iomap
+    old: 0000000000000000000000000000000000000000
+    new: 0495f767e9714a5964aa1c6cd608e8f27d957a0a
+  - ref: refs/tags/vfs-6.18-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: aa32706a3e348d1f9f3f3c892d7c534a84104b4a
+  - ref: refs/tags/vfs-6.18-rc1.mount
+    old: 0000000000000000000000000000000000000000
+    new: 24972965245eea87704929118b4d60a3720f8780
+  - ref: refs/tags/vfs-6.18-rc1.pidfs
+    old: 0000000000000000000000000000000000000000
+    new: 95e95031ba7cd1510613ddd8d39766fa0ae6a6d5
+  - ref: refs/tags/vfs-6.18-rc1.procfs
+    old: 0000000000000000000000000000000000000000
+    new: d56950b558f7bf996d099d6d2746c6cf20f5b888
+  - ref: refs/tags/vfs-6.18-rc1.rust
+    old: 0000000000000000000000000000000000000000
+    new: 2ad3d206a1344e201dc6dbf690f54cbc4f606499
+  - ref: refs/tags/vfs-6.18-rc1.workqueue
+    old: 0000000000000000000000000000000000000000
+    new: 1324469d9ae34f5929c47cc28453e37da27e4208
+  - ref: refs/tags/vfs-6.18-rc1.writeback
+    old: 0000000000000000000000000000000000000000
+    new: b1419e62723f98c171c2cc8edbc143b592c3ab78
+  - ref: refs/tags/vfs-6.18-rc2.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 7a9a9f739348636486102307f4f90875a6901ec4
+  - ref: refs/tags/vfs-6.18-rc7.fixes
+    old: 0000000000000000000000000000000000000000
+    new: c6dda665e3740ad7e5f396402261b41809376bd0
+  - ref: refs/tags/vfs-6.18-rc8.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 9f3f2581c6d5c3cf4724b00be484788a8ff3c0b4
+  - ref: refs/tags/vfs-6.19-rc1.autofs
+    old: 0000000000000000000000000000000000000000
+    new: e5990bdeedd53afe8d7c378fec0c3ff3bb391e83
+  - ref: refs/tags/vfs-6.19-rc1.coredump
+    old: 0000000000000000000000000000000000000000
+    new: 02859de05dfaa424189fbbcf749a4537868aeb9c
+  - ref: refs/tags/vfs-6.19-rc1.directory.delegations
+    old: 0000000000000000000000000000000000000000
+    new: 9402f6d5ee9d60eb362fb3898a9ed3848004171f
+  - ref: refs/tags/vfs-6.19-rc1.directory.locking
+    old: 0000000000000000000000000000000000000000
+    new: baeca7abffa1fffd72acd0fff6d751eda61e7fcc
+  - ref: refs/tags/vfs-6.19-rc1.fd_prepare
+    old: 0000000000000000000000000000000000000000
+    new: 402a280c3b13ce652e45b2581b10d1fb17d69000
+  - ref: refs/tags/vfs-6.19-rc1.fd_prepare.fs
+    old: 0000000000000000000000000000000000000000
+    new: 9a1976a0e93c268d300eaa01a2ba7978d13a3db0
+  - ref: refs/tags/vfs-6.19-rc1.fixes
+    old: 0000000000000000000000000000000000000000
+    new: f320f9b11ef65c53a66c934fd0fb2c9b7e7e40fe
+  - ref: refs/tags/vfs-6.19-rc1.folio
+    old: 0000000000000000000000000000000000000000
+    new: 5aef026e3314edd3f52f3bffded54719c0a1a03f
+  - ref: refs/tags/vfs-6.19-rc1.fs_header
+    old: 0000000000000000000000000000000000000000
+    new: fd998799271e6e230d310cf7347c9d8e0a9d310c
+  - ref: refs/tags/vfs-6.19-rc1.guards
+    old: 0000000000000000000000000000000000000000
+    new: 47bc1288bb43dbd1015e14e71f9622fd84bd2e6c
+  - ref: refs/tags/vfs-6.19-rc1.inode
+    old: 0000000000000000000000000000000000000000
+    new: e549053f95fd84ded2622f51cd31a448ed264fee
+  - ref: refs/tags/vfs-6.19-rc1.iomap
+    old: 0000000000000000000000000000000000000000
+    new: 3c20f6c1127bcf0faeed9865b989a2e2a81df6a8
+  - ref: refs/tags/vfs-6.19-rc1.minix
+    old: 0000000000000000000000000000000000000000
+    new: 28f4d048048808e51b78c4d0dc850ba17ce04608
+  - ref: refs/tags/vfs-6.19-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: adcffca4cee7bee4017200d1fa2b1dd714134f8a
+  - ref: refs/tags/vfs-6.19-rc1.ovl
+    old: 0000000000000000000000000000000000000000
+    new: 95d79144e9c9304493727a47e1db0e22accd1426
+  - ref: refs/tags/vfs-6.19-rc1.writeback
+    old: 0000000000000000000000000000000000000000
+    new: a3821679d1acb30a83c3757dd88a47188fa4403c
+  - ref: refs/tags/vfs-6.19-rc5.fixes
+    old: 0000000000000000000000000000000000000000
+    new: e563e5bf536650cd04fa8c050eb32f7743e005ad
+  - ref: refs/tags/vfs-6.19-rc8.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 0d81142e2050eb035b2ca050302941a099a0ede6
+  - ref: refs/tags/vfs-6.7-rc3.fixes
+    old: 0000000000000000000000000000000000000000
+    new: e8c62449f3db988da55f095f1195af5bf2a7916c
+  - ref: refs/tags/vfs-6.7.autofs
+    old: 0000000000000000000000000000000000000000
+    new: 7ac1f8c9161378f7abc9b93e6f81e111bd4efbf3
+  - ref: refs/tags/vfs-6.7.ctime
+    old: 0000000000000000000000000000000000000000
+    new: 79a40dc7d146663a607006b4da88c4d9cf995eb1
+  - ref: refs/tags/vfs-6.7.fsid
+    old: 0000000000000000000000000000000000000000
+    new: 21aec9053fc43fe60ccc34fde7430a59a13623b7
+  - ref: refs/tags/vfs-6.7.iomap
+    old: 0000000000000000000000000000000000000000
+    new: 975b701a1223d9c69c90e0fe8ef563d403026504
+  - ref: refs/tags/vfs-6.7.iov_iter
+    old: 0000000000000000000000000000000000000000
+    new: a401e52723179ae061cd7df71f3d1d3af3264093
+  - ref: refs/tags/vfs-6.7.misc
+    old: 0000000000000000000000000000000000000000
+    new: 57565caeb429000d708a1f0847fed3de7bba5d0e
+  - ref: refs/tags/vfs-6.7.super
+    old: 0000000000000000000000000000000000000000
+    new: 4b4384042ac2712d3e42ce316e476f9bf2e27728
+  - ref: refs/tags/vfs-6.7.xattr
+    old: 0000000000000000000000000000000000000000
+    new: 40822bd6f43c79e066b1d9c49c1d7b493a410a40
+  - ref: refs/tags/vfs-6.8-rc1.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 7d8c9993098187df0ef3d88397b981aab8cc2e11
+  - ref: refs/tags/vfs-6.8-rc1.netfs
+    old: 0000000000000000000000000000000000000000
+    new: ace290afe5fede3429a205a980473cefe6a4fefe
+  - ref: refs/tags/vfs-6.8-rc2.netfs
+    old: 0000000000000000000000000000000000000000
+    new: a8313408edcb7f3685c71b1eaac7c95cb7538453
+  - ref: refs/tags/vfs-6.8-rc5.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 8b2bf3c4c9d52b8541aeaea7ff85ba7ff402b2ea
+  - ref: refs/tags/vfs-6.8-rc6.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 47a5f251b5c362bf14e28b88bb0bf84722900f70
+  - ref: refs/tags/vfs-6.8-rc7.fixes
+    old: 0000000000000000000000000000000000000000
+    new: ab0392083ea9f1e81e74d419a46b53eb57717bf1
+  - ref: refs/tags/vfs-6.8-release.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 3eb49509c2b2d708cf2194faaab443914e01c4f9
+  - ref: refs/tags/vfs-6.8.cachefiles
+    old: 0000000000000000000000000000000000000000
+    new: d97cfe8e52b7dbfa690305cdf4f29e87180c7354
+  - ref: refs/tags/vfs-6.8.iov_iter
+    old: 0000000000000000000000000000000000000000
+    new: 06e2dc886d14b22d44afcad52f47d16a41a7a3df
+  - ref: refs/tags/vfs-6.8.misc
+    old: 0000000000000000000000000000000000000000
+    new: f78b20d2371effbc50999abba4b4b16423f6ff68
+  - ref: refs/tags/vfs-6.8.mount
+    old: 0000000000000000000000000000000000000000
+    new: ec7d54231e08ae7a2755ab803b3cde1cb27115c5
+  - ref: refs/tags/vfs-6.8.netfs
+    old: 0000000000000000000000000000000000000000
+    new: 4e9d87d7bb1c0ec6c0fb8360c55a0d2907c48007
+  - ref: refs/tags/vfs-6.8.rw
+    old: 0000000000000000000000000000000000000000
+    new: 052ea90c358c70720e57a60bd7b3365315d580a9
+  - ref: refs/tags/vfs-6.8.super
+    old: 0000000000000000000000000000000000000000
+    new: 5e0c6bebb7fbf73997c30b449f43184ed6aa0ce0
+  - ref: refs/tags/vfs-6.9-rc1.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 87c9389bd4b13f8809155ec2d5aadeaf56a59040
+  - ref: refs/tags/vfs-6.9-rc3.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 7946736c99bdab4f78cb5840bd699dd43126c7ad
+  - ref: refs/tags/vfs-6.9-rc6.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 89c0910aac4f83c1a10364422ce5642e718772a2
+  - ref: refs/tags/vfs-6.9.file
+    old: 0000000000000000000000000000000000000000
+    new: 021732263ec5662f72c31a410d10c29f6c813f28
+  - ref: refs/tags/vfs-6.9.iomap
+    old: 0000000000000000000000000000000000000000
+    new: 1cd952a9d6210348f21ef1c5be54f244694e61a0
+  - ref: refs/tags/vfs-6.9.misc
+    old: 0000000000000000000000000000000000000000
+    new: caf6388e645fd6feccb15a648e9585f3699132a8
+  - ref: refs/tags/vfs-6.9.ntfs
+    old: 0000000000000000000000000000000000000000
+    new: 35de0dfe632a3d55ead45db4a14164e72e70097c
+  - ref: refs/tags/vfs-6.9.pidfd
+    old: 0000000000000000000000000000000000000000
+    new: d9e357f94ae4bebed6fa2584fd4f33f2e89fea1b
+  - ref: refs/tags/vfs-6.9.rw_hint
+    old: 0000000000000000000000000000000000000000
+    new: f1a7e42c56a5e314ec82646da95762ea7b660bd1
+  - ref: refs/tags/vfs-6.9.super
+    old: 0000000000000000000000000000000000000000
+    new: 47ee94c616804f15fe1202ec20f94110fc5a10d9
+  - ref: refs/tags/vfs-6.9.uuid
+    old: 0000000000000000000000000000000000000000
+    new: f4c8bf83fb781178a6eeefa300f55e8268025740
+  - ref: refs/tags/vfs-7.0-rc1.atomic_open
+    old: 0000000000000000000000000000000000000000
+    new: 5f3b2d5a1663f5f30b73d8f820af6424702342e4
+  - ref: refs/tags/vfs-7.0-rc1.btrfs
+    old: 0000000000000000000000000000000000000000
+    new: 53658d271d1195e26978385f25d905c910b92978
+  - ref: refs/tags/vfs-7.0-rc1.fserror
+    old: 0000000000000000000000000000000000000000
+    new: 3a79128ff33bd53fee9d6cb69a34f825e2e70f8f
+  - ref: refs/tags/vfs-7.0-rc1.initrd
+    old: 0000000000000000000000000000000000000000
+    new: e6499e3d968585b9b1458e03cb5a8396d3b3ea95
+  - ref: refs/tags/vfs-7.0-rc1.iomap
+    old: 0000000000000000000000000000000000000000
+    new: 256a7b9924e156fa171529f65519bd862cafbe23
+  - ref: refs/tags/vfs-7.0-rc1.leases
+    old: 0000000000000000000000000000000000000000
+    new: d6737405ed4054d5378392eec2a2da3e1fd860bd
+  - ref: refs/tags/vfs-7.0-rc1.minix
+    old: 0000000000000000000000000000000000000000
+    new: 56fd314a3fab13be8e9ac20ec6de6e1836b5626e
+  - ref: refs/tags/vfs-7.0-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: ff9e9dba4fff6b1001866d212110fca75fdd1f1a
+  - ref: refs/tags/vfs-7.0-rc1.misc.2
+    old: 0000000000000000000000000000000000000000
+    new: 080b5fc0b125e0564ee7c39119205aa200907524
+  - ref: refs/tags/vfs-7.0-rc1.namespace
+    old: 0000000000000000000000000000000000000000
+    new: 7baa9b5dce8170a7b4adafa0a232b610924e6655
+  - ref: refs/tags/vfs-7.0-rc1.nonblocking_timestamps
+    old: 0000000000000000000000000000000000000000
+    new: d50d40d877d88ea822a9519e3df160c1e8667648
+  - ref: refs/tags/vfs-7.0-rc1.nullfs
+    old: 0000000000000000000000000000000000000000
+    new: d4642daec1e2baa4c229d083c1ba2af6d8d57104
+  - ref: refs/tags/vfs-7.0-rc1.rust
+    old: 0000000000000000000000000000000000000000
+    new: 64e7256897102164efea774e8dfe62fc2eaada0d
+  - ref: refs/tags/vfs-7.0-rc2.fixes
+    old: 0000000000000000000000000000000000000000
+    new: cef0138e95e693a654f0ad7bb4c301aecbcc6a9c
+  - ref: refs/tags/vfs-7.0-rc3.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 8b49fe88ca780e84266d2f786da3e5ef32171d0e
+  - ref: refs/tags/vfs-7.0-rc6.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 3a5afdbafd9728f64d881e8d0a81d97872db2e0f
+  - ref: refs/tags/vfs-7.0-rc8.fixes
+    old: 0000000000000000000000000000000000000000
+    new: ca84badf117549348bf23253f2afe6782f0406bf
+  - ref: refs/tags/vfs-7.1-rc1.bh.metadata
+    old: 0000000000000000000000000000000000000000
+    new: 0ab4460ce6226408745acce1ad29047b7346046f
+  - ref: refs/tags/vfs-7.1-rc1.directory
+    old: 0000000000000000000000000000000000000000
+    new: 4400b3b7c38a3538406c7b204204cb3ca300b92d
+  - ref: refs/tags/vfs-7.1-rc1.fat
+    old: 0000000000000000000000000000000000000000
+    new: c9ca178412f34ba93984d7593f606fe494c83d0c
+  - ref: refs/tags/vfs-7.1-rc1.fixes
+    old: 0000000000000000000000000000000000000000
+    new: c28f040d981ca76a1cbe3ca9d13fc3cbe648ac54
+  - ref: refs/tags/vfs-7.1-rc1.fs_struct
+    old: 0000000000000000000000000000000000000000
+    new: 634c01474ee0b131c9d4cd714b8da0e49392f536
+  - ref: refs/tags/vfs-7.1-rc1.integrity
+    old: 0000000000000000000000000000000000000000
+    new: f4f9c0a960268c25876832c7db48db5d1f788b35
+  - ref: refs/tags/vfs-7.1-rc1.kino
+    old: 0000000000000000000000000000000000000000
+    new: b2b8efbd08e6cced1f6a3d8278095ac6bc562a24
+  - ref: refs/tags/vfs-7.1-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: b02d2d9b3ba82b6a462abd477ed14cf38c57a3dd
+  - ref: refs/tags/vfs-7.1-rc1.mount
+    old: 0000000000000000000000000000000000000000
+    new: 1a33cffa187b530dd7f237c2000fa77657cb727f
+  - ref: refs/tags/vfs-7.1-rc1.mount.v2
+    old: 0000000000000000000000000000000000000000
+    new: de2b2ca0ed5951669378582a8d03771360e6da53
+  - ref: refs/tags/vfs-7.1-rc1.pidfs
+    old: 0000000000000000000000000000000000000000
+    new: 4da8d9dff93b73c14891d37a39a58a6c678741f6
+  - ref: refs/tags/vfs-7.1-rc1.shared.backing_file
+    old: 0000000000000000000000000000000000000000
+    new: 43ae07b12953cbe17a985b8bf5a0b9e5261ec24f
+  - ref: refs/tags/vfs-7.1-rc1.writeback
+    old: 0000000000000000000000000000000000000000
+    new: 3ee94d7962fd946a4209c4900ee2bbfbbd9f5532
+  - ref: refs/tags/vfs-7.1-rc1.xattr
+    old: 0000000000000000000000000000000000000000
+    new: 1b208b90574e11838dc90d4a7a346f70821daddd
+  - ref: refs/tags/vfs-7.1-rc5.fixes
+    old: 0000000000000000000000000000000000000000
+    new: cbb6571f00adf527594746c33621293e83f63940
+  - ref: refs/tags/vfs-7.1-rc7.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 4ca80228ca88cbab15b024eb87f79531605046be
+  - ref: refs/tags/vfs-7.2-rc1.bh
+    old: 0000000000000000000000000000000000000000
+    new: c4231d23938e5c6e3efb8a84e45e9b41ce42c335
+  - ref: refs/tags/vfs-7.2-rc1.casefold
+    old: 0000000000000000000000000000000000000000
+    new: 5d822687f8e7a9ed508bb5b73fd4fa90a6f526e9
+  - ref: refs/tags/vfs-7.2-rc1.directory.delegations
+    old: 0000000000000000000000000000000000000000
+    new: a7e15565268e294de1ce6b56f6eb3e3b6edc43ab
+  - ref: refs/tags/vfs-7.2-rc1.eventpoll
+    old: 0000000000000000000000000000000000000000
+    new: c259ae4b4ae025450466b9dc324e64daec2f75db
+  - ref: refs/tags/vfs-7.2-rc1.exportfs
+    old: 0000000000000000000000000000000000000000
+    new: 4f3ec96d69ffb78260cd04bd26a65ecfde9de6ff
+  - ref: refs/tags/vfs-7.2-rc1.inode
+    old: 0000000000000000000000000000000000000000
+    new: 78fcd640d0bb2c68b3ce6a3ad583b4428310122b
+  - ref: refs/tags/vfs-7.2-rc1.iomap
+    old: 0000000000000000000000000000000000000000
+    new: b827c43e648e8fb7728896c0eaeb088d89b2cde9
+  - ref: refs/tags/vfs-7.2-rc1.kfunc
+    old: 0000000000000000000000000000000000000000
+    new: 69e5cd1262043a6bfdd55693f1950119f50f0f77
+  - ref: refs/tags/vfs-7.2-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: ff01ee92fd1554bdb7e1df2b9532690e425f3b81
+  - ref: refs/tags/vfs-7.2-rc1.openat2
+    old: 0000000000000000000000000000000000000000
+    new: 2f310bb0cd7d95b7f29ffbffa8e2846aea58a7e4
+  - ref: refs/tags/vfs-7.2-rc1.procfs
+    old: 0000000000000000000000000000000000000000
+    new: fef1ec39862add142fe2078106ab54ee8563a0a7
+  - ref: refs/tags/vfs-7.2-rc1.super
+    old: 0000000000000000000000000000000000000000
+    new: 3e57ed20c0db4bc381e695c33b3235c6a948b4f8
+  - ref: refs/tags/vfs-7.2-rc1.writeback
+    old: 0000000000000000000000000000000000000000
+    new: feb500dc97ab9fa92ee34b32e661d52d15b9b36a
+  - ref: refs/tags/vfs-7.2-rc1.xattr
+    old: 0000000000000000000000000000000000000000
+    new: 90272c66977cd3593c735fe51cb0a52cc0e89077
+  - ref: refs/tags/vfs-7.2-rc2.fixes
+    old: 0000000000000000000000000000000000000000
+    new: f46603a51a9b33f9f8d8f0f43f7a8867445db1d9
+  - ref: refs/tags/vfs-7.2-rc5.fixes
+    old: 0000000000000000000000000000000000000000
+    new: e668b4e35f8555738187b691e0accb528132c759
+  - ref: refs/tags/vfs-7.2-rc6.fixes
+    old: 0000000000000000000000000000000000000000
+    new: d78e6c9bec65b9409b2a5a5073a4582a6cee11d4
+  - ref: refs/tags/vfs-7.2-rc8.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 8a6ea31a8ce7e4e1881332474df93fcf937b4b63
+  - ref: refs/tags/vfs-7.3-rc1.binfmt
+    old: 0000000000000000000000000000000000000000
+    new: 92518ec9972157b9c354647f3d8c6bdfe49c76c6
+  - ref: refs/tags/vfs-7.3-rc1.efs
+    old: 0000000000000000000000000000000000000000
+    new: eb846758fe369b98bc552c2a5a81c6b487b0131c
+  - ref: refs/tags/vfs-7.3-rc1.failfs
+    old: 0000000000000000000000000000000000000000
+    new: fb73a9f48f16b4f4a252d33fae7c82ccf9288e86
+  - ref: refs/tags/vfs-7.3-rc1.fat
+    old: 0000000000000000000000000000000000000000
+    new: e097e21d9e2161c41788da16cf790eec09e900c2
+  - ref: refs/tags/vfs-7.3-rc1.freevxfs
+    old: 0000000000000000000000000000000000000000
+    new: ad475400d32938360cf1dd59aefc344accd8a967
+  - ref: refs/tags/vfs-7.3-rc1.iomap
+    old: 0000000000000000000000000000000000000000
+    new: f7bc72c502218a82f4dda47ef280a5d77a55e63e
+  - ref: refs/tags/vfs-7.3-rc1.iomap.final
+    old: 0000000000000000000000000000000000000000
+    new: 74d17767b85d240f214f2e51f4fbef134ad2150a
+  - ref: refs/tags/vfs-7.3-rc1.kfunc
+    old: 0000000000000000000000000000000000000000
+    new: 40ad2c54a4a2e380adb458ac6d412b75f726362b
+  - ref: refs/tags/vfs-7.3-rc1.kthread
+    old: 0000000000000000000000000000000000000000
+    new: 5b20b4cb697b3b5a0e6f3f475f6703d9fa7757a2
+  - ref: refs/tags/vfs-7.3-rc1.lookup
+    old: 0000000000000000000000000000000000000000
+    new: 45f648e081060fd2e3f54c3791ffa04543537270
+  - ref: refs/tags/vfs-7.3-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: 377da60dcc74e4a9235ea73310c895f23a75aa28
+  - ref: refs/tags/vfs-7.3-rc1.mount
+    old: 0000000000000000000000000000000000000000
+    new: fe11e535fe78a40dab915cf8e260a6a995722a41
+  - ref: refs/tags/vfs-7.3-rc1.netfs
+    old: 0000000000000000000000000000000000000000
+    new: ade42121f12f098f968faa71098872493cec7922
+  - ref: refs/tags/vfs-7.3-rc1.nilfs2
+    old: 0000000000000000000000000000000000000000
+    new: 9ad6a740c9dcffed148f377b3f30bcef41bc2135
+  - ref: refs/tags/vfs-7.3-rc1.ovl
+    old: 0000000000000000000000000000000000000000
+    new: b358318b8a1371487c6fa5f77b408e4a68bd3d8c
+  - ref: refs/tags/vfs-7.3-rc1.super
+    old: 0000000000000000000000000000000000000000
+    new: 5330448a643b4c4fbf0f127770c9f333e4d37fcf
+  - ref: refs/tags/vfs-7.3-rc1.sync
+    old: 0000000000000000000000000000000000000000
+    new: 13e76b95ba85f2bc1b70b30b93badbcb6a811a2d
+  - ref: refs/tags/vfs-7.3-rc3.fixes
+    old: 0000000000000000000000000000000000000000
+    new: a272c85459db86193942b78a1167dc075eee2512
+  - ref: refs/tags/vfs-work-mount
+    old: 0000000000000000000000000000000000000000
+    new: c99c2171fc61476afac0dfb59fb2c447a01fb1e0
+  - ref: refs/tags/vfs.misc.fixes.v6.3-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 290089557af9d5f44211d4adcb734b977f8a9cc6
+  - ref: refs/tags/vfs.misc.v6.3-rc2
+    old: 0000000000000000000000000000000000000000
+    new: d39533de224d6678b7fdade1c91bb0c8cf45d449
+  - ref: refs/tags/vfs.open.directory.creat.einval
+    old: 0000000000000000000000000000000000000000
+    new: 4388c773326170639ff7e540509c6c18e694402e
+  - ref: refs/tags/vfs.super.2023-08-21
+    old: 0000000000000000000000000000000000000000
+    new: 240b7afff8abb65145cc29d99edf080268ef3b59
+  - ref: refs/tags/vfs/v6.4-rc1/pipe
+    old: 0000000000000000000000000000000000000000
+    new: 2e99d35ffd9bb4127ca65e4218a6e355a7b3e39f
+  - ref: refs/tags/vfs/v6.4-rc3/misc.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 4720c6a6c70f38420083fc7348a837eda6a90fe3
+  - ref: refs/tags/virt
+    old: 0000000000000000000000000000000000000000
+    new: b8594201b537e589356b2596c53186bdd1f37932
+  - ref: refs/tags/vla-leftovers-v4.19-rc1
+    old: 0000000000000000000000000000000000000000
+    new: a0e2c5fac75b60bd07b99163c1966fd721e2cf6a
+  - ref: refs/tags/vla-v4.20-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 7f71ea8b5a4b29f7248c2fb8a010aa7a49916e30
+  - ref: refs/tags/yama-3.8
+    old: 0000000000000000000000000000000000000000
+    new: 806d5ea19a79ed38cafcd38ed73adf1e60ac65ab
+  - ref: refs/tags/yama-4.0
+    old: 0000000000000000000000000000000000000000
+    new: 38dfa587de769b095125b074f268ce7c46461f8c
