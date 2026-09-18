@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 18 Sep 2026 18:45:39 -0000
-Message-Id: <178975713955.1974977.12730674258344575679@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 18 Sep 2026 18:48:29 -0000
+Message-Id: <178975730927.1976047.6933086113006030474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/bluetooth/bluez
+user: holtmann
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: bf01ca7088d84bd184c143257737bf75b494f170
-    new: 98000157d942e14945a3674cc321a8eeb48d5d97
+  - ref: refs/heads/master
+    old: 084d21fe4708c1af7532f78f18a29f808474832a
+    new: ebbb4ee31ad7011cead3d6394c68d10076ab55fc
     log: |
-         b1c75a77d494298b8dedf46062f2072239bbc33b ACPI: HMAT: preserve hmat_adist_nb notifier block
-         98000157d942e14945a3674cc321a8eeb48d5d97 Merge branch 'acpi-tables' into bleeding-edge
+         ebbb4ee31ad7011cead3d6394c68d10076ab55fc monitor: Add constants for CTE related commands
          
