@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1645134311803322779=="
+Content-Type: multipart/mixed; boundary="===============8089567275005606109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 18 Sep 2026 21:59:41 -0000
-Message-Id: <178976878158.2118138.13245596195901681487@gitolite.kernel.org>
+Date: Fri, 18 Sep 2026 21:59:49 -0000
+Message-Id: <178976878979.2118383.13544123601042669401@gitolite.kernel.org>
 
---===============1645134311803322779==
+--===============8089567275005606109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
+  - ref: refs/heads/tmp.perf-tools-next
     old: 86a27811675a415bd351efca1a194a1a94c082dd
     new: 63394d06643ae1a094bc1af832d9710d7318f1b3
     log: revlist-86a27811675a-63394d06643a.txt
 
---===============1645134311803322779==
+--===============8089567275005606109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ a25262fb1610b7d52bf3ed5a72ebbd33f4252de6 perf evlist: Toggle merged_hybrid_group
 06aa9ab061421a2bdbf3af4b51a06b46ea84fe17 perf test: Expand tests for --hybrid-merge
 63394d06643ae1a094bc1af832d9710d7318f1b3 perf test: Isolate test suite from user .perfconfig natively
 
---===============1645134311803322779==--
+--===============8089567275005606109==--
