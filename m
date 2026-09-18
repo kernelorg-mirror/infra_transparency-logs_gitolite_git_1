@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 18 Sep 2026 00:56:08 -0000
-Message-Id: <178969296887.1058959.17846674682513423240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 18 Sep 2026 00:59:46 -0000
+Message-Id: <178969318639.1060506.15515167805368201656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: 39c6580765dad6477fb2637f6f616e0d276aae65
-    new: b73bcf7c1ffba42894bc9b5cc6fb76ce12a82523
+  - ref: refs/heads/master
+    old: 137fb82b9c1b8b281307a7163ef719af752ee0bc
+    new: ab411db3c3b1fd0c70a36fb32c96b2c60175210b
     log: |
-         d09e8f64653c93da5793c16be19330968f2a32e6 net/mlx5: devcom, Base component size on linked devices
-         e1e29ada2b938b13ba689a06a8bd8604564da2b3 net/mlx5: SD, unload reps on shared FDB create error path
-         bae23d1ae62092c7f0ec6d5f7e1be5d164822638 net/mlx5: LAG, reload IB reps of LAG master before the rest
-         b73bcf7c1ffba42894bc9b5cc6fb76ce12a82523 Merge branch 'net-mlx5-sd-lag-and-devcom-stability-fixes'
+         eab7e9c3384b5be7e7b1665ea7ae5aaca528d9fb tpm: Remove ineffective wmb() from tpm_pm_resume()
+         17a3c33e4947cc75619f858fab59706904bdbf2f tpm: fix build regression for tpm_tis_resume
+         ab411db3c3b1fd0c70a36fb32c96b2c60175210b tpm: remove extraneous #ifdef
          
