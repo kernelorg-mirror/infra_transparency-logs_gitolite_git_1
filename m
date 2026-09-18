@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 18 Sep 2026 12:50:05 -0000
-Message-Id: <178973580581.1693775.3867494193192616668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Fri, 18 Sep 2026 12:54:47 -0000
+Message-Id: <178973608720.1696276.9664514930069864699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 653c5b4605f65355d3b3f1059784e56c77f146b3
-    new: 9dcacdc41083cccff74292851bf9fde999e0731a
+  - ref: refs/heads/kernel-7.1.13/nfs-testing-canary
+    old: 4ef1192916898105e52cbe0a6d735132bd67a205
+    new: 24fab76d9b6b9e102622d7e55b0c2a8a5405ee87
     log: |
-         fad7b0dcb0821c0f201df3d85065145857a6f55b RDMA/core: Fix swapped list_add_tail() arguments in ib_add_sub_device()
-         391c5d826fd0a5dacad54613dbef74c50e966f5c RDMA/restrack: Don't set RESTRACK_DD mark after a failed xa_insert()
-         9dcacdc41083cccff74292851bf9fde999e0731a RDMA/uverbs: Drop restrack ref on ib_init_ucontext() failure in GET_CONTEXT
+         1bf6d4cc378e8736ef51a525e5f1449885847ca6 NFSv4/pnfs: Give the data server cache its own reference
+         24fab76d9b6b9e102622d7e55b0c2a8a5405ee87 NFSv4/pnfs: Let unused data server connections linger
          
