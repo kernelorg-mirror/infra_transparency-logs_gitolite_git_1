@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4929149779866743437=="
+Content-Type: multipart/mixed; boundary="===============1888606871590352554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 18 Sep 2026 06:54:26 -0000
-Message-Id: <178971446656.1416046.16011283220174573502@gitolite.kernel.org>
+Date: Fri, 18 Sep 2026 06:54:52 -0000
+Message-Id: <178971449290.1416343.117335144290056611@gitolite.kernel.org>
 
---===============4929149779866743437==
+--===============1888606871590352554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 84d5b816c601b5f2478ca52d8ad3257a60ce46fa
-    new: 34a1bf1d724ec910914977b8e5ea53af618e76cd
-    log: revlist-84d5b816c601-34a1bf1d724e.txt
+    old: 34a1bf1d724ec910914977b8e5ea53af618e76cd
+    new: 61e0e2ee5b4c0ad3bff699e85d1d239b37461246
+    log: revlist-34a1bf1d724e-61e0e2ee5b4c.txt
+  - ref: refs/heads/tip/urgent
+    old: 0e03855ad159df692ae87623913b03cde9fd1937
+    new: ba02763b94a14b357be91cc49107c9e8e4ed0763
+    log: revlist-0e03855ad159-ba02763b94a1.txt
 
---===============4929149779866743437==
+--===============1888606871590352554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84d5b816c601-34a1bf1d724e.txt
+Content-Disposition: attachment; filename=revlist-34a1bf1d724e-61e0e2ee5b4c.txt
+
+7a69ba07a654d767aa87418778f3e02d379c367f Merge branch into tip/master: 'locking/urgent'
+4171fa538eada318dffeaf67b74b0397087b95d8 Merge branch into tip/master: 'perf/urgent'
+c4e3a372635064764f67b3862b5bc08153d55355 Merge branch into tip/master: 'timers/urgent'
+aa5bd92506a1cc5f5e5f2a9ebe5c257e7d790167 Merge branch into tip/master: 'x86/urgent'
+ba02763b94a14b357be91cc49107c9e8e4ed0763 Merge branch into tip/master: 'x86/mm'
+8a74f051044fb1a347d3b594800c025037131d7e Merge branch into tip/master: 'irq/core'
+fb267ceb2c167e4ee2096f32840a423609d419ef Merge branch into tip/master: 'irq/drivers'
+54c2bca91fe8de3e948c9ec1d16e2cff2d3c123f Merge branch into tip/master: 'perf/core'
+e32c93d7591851bcd2cf02dc6b6a456e8ba7321b Merge branch into tip/master: 'sched/core'
+d57ffa7266975e9bbfaf4c2d9e8d574a07a9b1f7 Merge branch into tip/master: 'timers/core'
+25a66121cb4f0b55afe9ba60c30e61911e4f2cd5 Merge branch into tip/master: 'x86/boot'
+5e2db72de7b75b019e384723ead2b849b0ce3c98 Merge branch into tip/master: 'x86/bugs'
+b3c118e92e211dc52187c79c5c4f859e04b9921b Merge branch into tip/master: 'x86/cache'
+92e7402d71e499884255653c74e7f59e55bed42f Merge branch into tip/master: 'x86/cleanups'
+21fc819635e465845b57fea2fab9ae83d47b569a Merge branch into tip/master: 'x86/cpu'
+a5d15477050adb5790334c96d05aca03a4e235bf Merge branch into tip/master: 'x86/kdump'
+de69a79e48cc2ca628f907b3412492dcb123f661 Merge branch into tip/master: 'x86/misc'
+215c65d201ac3693994aa77955d33415d5806d5a Merge branch into tip/master: 'x86/platform'
+4da8488dc07076546163bb338b6b643a5cf9eb94 Merge branch into tip/master: 'x86/sgx'
+61e0e2ee5b4c0ad3bff699e85d1d239b37461246 Merge branch into tip/master: 'x86/tdx'
+
+--===============1888606871590352554==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0e03855ad159-ba02763b94a1.txt
 
 d042487dc118e494db2e2c1382310255c90ff544 xfrm: iptfs: fix stack OOB read in iptfs_skb_reset_frag_walk()
 89fefad9f971bc637fb22373078144f2563c4be9 xfrm: serialize state GC with device state flush
@@ -256,12 +287,12 @@ f3ef03357396d4b147d8e76c75fb612c2f264ffc mptcp: fix bad accounting in __mptcp_su
 f143ea21cf834b4d57d70b47b99e582461f2dfaf Merge tag 'pwrseq-fixes-for-v7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 4982d3552a3bf94de503acf93433277d08421de6 Merge tag 'sound-7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 b5a051f6b840d48f159166ef073d3021989bfb50 Merge tag 'net-7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-4b31656d917c46c6d9f874162ede4f54b2a5959f fs/resctrl: Avoid extra call to strlen() in schemata_list_add()
-a3f5e6eba41885dcffb635b54d6c4a18aa579cd5 fs/resctrl: Simplify pseudo_lock_measure_trigger()
 5dd1818b15d98d4a20806cd00b1b40320b06004f Merge tag 'for-next-keys-v7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 e7d3e2f46dd5a69046e6d95a0f189155a5516b93 x86/microcode/intel: Reject problematic loading on Granite Rapids systems
-0bcda4287c23d788f6d7b4eba61a11dfe7d10097 Merge branch 'linus'
-ccb0e3d102e31825e9b98fe92f574c069b9bd5d1 Merge branch into tip/master: 'x86/urgent'
-34a1bf1d724ec910914977b8e5ea53af618e76cd Merge branch into tip/master: 'x86/cache'
+7a69ba07a654d767aa87418778f3e02d379c367f Merge branch into tip/master: 'locking/urgent'
+4171fa538eada318dffeaf67b74b0397087b95d8 Merge branch into tip/master: 'perf/urgent'
+c4e3a372635064764f67b3862b5bc08153d55355 Merge branch into tip/master: 'timers/urgent'
+aa5bd92506a1cc5f5e5f2a9ebe5c257e7d790167 Merge branch into tip/master: 'x86/urgent'
+ba02763b94a14b357be91cc49107c9e8e4ed0763 Merge branch into tip/master: 'x86/mm'
 
---===============4929149779866743437==--
+--===============1888606871590352554==--
