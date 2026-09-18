@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6217558499862418366=="
+Content-Type: multipart/mixed; boundary="===============7604454024288709600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 18 Sep 2026 09:57:53 -0000
-Message-Id: <178972547375.1554898.14798447436038678524@gitolite.kernel.org>
+Date: Fri, 18 Sep 2026 09:59:05 -0000
+Message-Id: <178972554529.1555616.11986215281579366047@gitolite.kernel.org>
 
---===============6217558499862418366==
+--===============7604454024288709600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-7.4
-    old: 5b5c1f0d9e75680a18e28d0d6b03aeb19e2bee1f
-    new: ebdc596c42626d1a6dcbc7cd7ad3f842b2cb2c70
-    log: revlist-5b5c1f0d9e75-ebdc596c4262.txt
+  - ref: refs/heads/for-next
+    old: 0e5a521109e0d2fb7ac226bd6301ec1facca1c26
+    new: 3ffac96bf1c54d6db2a99a41209202de1f2400e9
+    log: revlist-0e5a521109e0-3ffac96bf1c5.txt
 
---===============6217558499862418366==
+--===============7604454024288709600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b5c1f0d9e75-ebdc596c4262.txt
+Content-Disposition: attachment; filename=revlist-0e5a521109e0-3ffac96bf1c5.txt
 
 e419e9a6cbfe1d0947dd5ab8dabe9a5ed4b4f572 ASoC: SOF: amd: return -EINVAL for unknown PCI revision in acp7x suspend
 db2167f2e3f72db64d01356cc9f2924d32fd5a51 ASoC: SOF: amd: fix amd_sof_acp_remove() teardown ordering
@@ -54,5 +54,6 @@ e9e9e514eeef7a5c6121ece355f8ea2701e1613f ASoC: mediatek: mt8189: Remove redundan
 d5212d2d50f36a132568534ca637b56ae50f3f02 ASoC: ak4619: Add suspend and resume callbacks
 a603fe4e000366d187849667c9afb38da5259632 ASoC: fix typos in comments
 ebdc596c42626d1a6dcbc7cd7ad3f842b2cb2c70 ASoC: fsl: mpc5200: gate AC97 driver on PPC_MPC52xx
+3ffac96bf1c54d6db2a99a41209202de1f2400e9 Merge remote-tracking branch 'asoc/for-7.4' into asoc-next
 
---===============6217558499862418366==--
+--===============7604454024288709600==--
