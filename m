@@ -1,51 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6921991686305814944=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 18 Sep 2026 09:49:35 -0000
-Message-Id: <178972497515.1547944.3182661662471871216@gitolite.kernel.org>
-
---===============6921991686305814944==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Fri, 18 Sep 2026 09:53:10 -0000
+Message-Id: <178972519068.1551108.817039518527230390@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 6dd5dfdc96dd33a94f3bf2135d2dcb14f3661d1e
-    new: 4a79b1992685552a060ecef666f57e0ea994ab5e
+  - ref: refs/heads/master
+    old: 9695df3b1db4ac4534274d38ee16e3b9b0bf910e
+    new: a9a2152d292fd0bc73814eb4a127278ee7dd3f6a
     log: |
-         b7ad648edf14e4201bb741902eae8178b8327f57 platform/x86: ISST: Avoid model check for recent servers
-         09a9f95fdf82c1e23490ce722c860457b007c41b platform/x86: acer-wmi: use bool for boolean quirk fields
-         2502b3d92132ee70287cf55d5161f52db9319abc platform/x86: acer-wmi: split hwmon from platform profile quirk
-         a3dd4af36d57b9edaa8d2f08f08afcfb94948a07 platform/x86: acer-wmi: enable hwmon on Aspire A315-58G
-         78e9603702af83b0bfc81b611ceface42476c717 platform/x86/intel/pmc: Add rugged Panther Lake support to intel_pmc_core
-         4a79b1992685552a060ecef666f57e0ea994ab5e platform/x86: intel-uncore-freq: Add support for rugged Panther Lake
+         016f22d2268e02df705868110fe4e402b51bfffc crypto: zynqmp-sha - fix NULL pointer dereference in init_tfm
+         654358f71bc10e481c7ecf3b0975b34bee9cdf1a crypto: xilinx - use kfree_sensitive() in cleanup paths
+         1e4d31c4eb86982319245d8973473a621a256842 crypto: xilinx - clear AES key buffer before freeing it
+         178829f1b5b259938188a10f4103fdb901b6435e crypto: qat - fix active_devs leak on crypto alg registration failure
+         5d69ed4cd4f9c68ff9a6ebb2e8a1079223a4ec6e crypto: omap-des - fix crypto engine cleanup
+         be51ea091c6563158531e8c74e040552fdb1e28c crypto: omap-sham - fix crypto engine cleanup
+         a9a2152d292fd0bc73814eb4a127278ee7dd3f6a crypto: atmel-sha - reject initialization without a device
          
-
---===============6921991686305814944==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1789724971 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1789724970-ae48f00903ddcd71ee96fc3b724d4afafbf1b8b7
-
-6dd5dfdc96dd33a94f3bf2135d2dcb14f3661d1e 4a79b1992685552a060ecef666f57e0ea994ab5e refs/heads/review-ilpo-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaq0JLwAKCRBZrE9hU+XO
-Mbz1AQDvUDQrRlV4kP0f31kr7lGt1ZWDq7tjsgpurnKjJN1q7AD/TRorLKHWgiF4
-3QuHpOA3ZD46LLNLn4UiRQoK1/gekgY=
-=pToM
------END PGP SIGNATURE-----
-
---===============6921991686305814944==--
