@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4750261424963183947=="
+Content-Type: multipart/mixed; boundary="===============8789013413446460736=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 18 Sep 2026 05:07:25 -0000
-Message-Id: <178970804520.1251639.13070260895788499849@gitolite.kernel.org>
+Date: Fri, 18 Sep 2026 05:07:29 -0000
+Message-Id: <178970804987.1251855.2420725576666201798@gitolite.kernel.org>
 
---===============4750261424963183947==
+--===============8789013413446460736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 93f615a221699f986e8d37fc686e9091ba50e1eb
-    new: 79acbe575d99cddfed120131b9ec9296f5f40ae4
-    log: revlist-93f615a22169-79acbe575d99.txt
+  - ref: refs/heads/mm-unstable
+    old: 1ed9cdd724d46119dd9adf0ffba2f2daaa3335ef
+    new: 72da04a41011d34ba2aabd021a3d0597494caf06
+    log: revlist-1ed9cdd724d4-72da04a41011.txt
 
---===============4750261424963183947==
+--===============8789013413446460736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-93f615a22169-79acbe575d99.txt
+Content-Disposition: attachment; filename=revlist-1ed9cdd724d4-72da04a41011.txt
 
 33c8d1fb9cd7d7b35f5afdb7e8885dd7ea4f2d28 selftests/filesystems: fix missing and stale TARGETS entries
 cd1e5c0ff09cbc8a563040950b9370f82c8373dc module: fix lost error code from codetag_load_module()
@@ -563,66 +563,5 @@ b162bcf5116e95dd866825b18cc0c52d039c0c38 Docs/admin-guide/mm/damon/usage: update
 e08149291dc83088a4b8358f486064fa2c79097c docs-admin-guide-mm-damon-usage-update-for-hugepage_size-fix
 7e82fa418cda4cd20d62a43d90972f7b0b2ec556 docs-admin-guide-mm-damon-usage-update-for-hugepage_size-fix-fix
 72da04a41011d34ba2aabd021a3d0597494caf06 Docs/ABI/damon: update for hugepage_size probe filter
-1bf8ecf9255cedeb5119a4d56a6dc35f07e49045 mm/gup_test: safely calculate GUP batch size
-ad3b16858ba1ecf748fce1a19ca2dcadbcc3cdc7 mm/mglru: restore accidentally removed seq < max_seq check
-62679a9e74f212745b0cbd95cd8c64cd6e980900 mm/hugetlb: fix misspelled parameter names in comment
-6335a5213ada1251ed91864ce0abcb44cfc387a4 mm/page_alloc: apply per-task GFP context in bulk allocator
-a24212b888ee9f6b0e8e235b792d71b2c9cf9847 mm/madvise: use folio_trylock() in the cold/pageout PMD split
-7d8584756237027bcff93316b0249b92c8f9c987 mm: memcontrol: take a const folio in folio_memcg() and friends
-84f3307ef5d8b92d28145f7ceb9850812994fba4 mm: memcontrol: constify obj_cgroup_memcg() and friends
-7422348151f5fa5007b9a6848d9dabd45a7c00da mm: memcontrol: constify the lruvec helpers
-4109c7f12bce4da1684c8e1581a71052736ac8bc mm/page_io: take a const folio in bio_associate_blkg_from_folio()
-24ddce4dd32ebea0695d8d29c917e5a3bfa79412 mm: memcontrol: constify the mem_cgroup accessors
-98a47c89344d0da542e3696da4f9146df6269b85 mm: page_counter: constify page_counter_read() and page_counter_margin()
-4ff57d1487759b6d4364ec50be35c882e87f8f9a mm: memcontrol: constify the reclaim protection helpers
-867bb37ae746d39553bc45f257475032f3b1f395 mm: memcontrol: constify the memcg and lruvec stat readers
-48a0e4d04c16ea178b98a922743a71751b9504f4 mm: memcontrol: constify the swap accounting helpers
-bd937b7e679e31e4e2df76b554bc6c129a9ed608 mm: memcontrol: constify mem_cgroup_swappiness() and mem_cgroup_get_max()
-e06abd6ba6a7d615812f7d9a33a1141f8b6247a9 mm: memcontrol: constify the zswap and socket pressure helpers
-6c688be1a70b4abe476112d0f98cbc27aa2f1114 mm: filemap: move lruvec accounting outside the xarray lock
-5fbff9206c9b1588dd87e04a4f6cb38ff7dcca8c mm/page_alloc: do not boost watermarks in kdump capture kernels
-7af0cf3a11b88a4ae0f237a96b8849913c5605e2 mm: mincore: use per-vma lock during page table walk
-2e2810107472dc561d52b060dcb0f061fbbc88c4 vmcore: convert mmap_vmcore_fault() to use folios
-8503a2ae25921dd0457f3692c7054633e3d4fbc2 mm: swap: move LRU insertion out of the swap cache allocator
-adef8d6aa364197811c9fc36febfb4ef748b0b98 mm: swap: drop dropbehind swap cache folios on writeback completion
-f5571e07cbf371cdef851ca2e939291a79d91a18 mm: zswap: drop cold writeback folios via swap dropbehind
-6da2bdfefa585b04d9b0a0d2f413564ac49f850d mm/vma: const-ify vma_assert_stabilised() and associated functions
-ba11473dcdcb83b9e2acf08eaf712bdf3db3d249 mm: implement and use vma_has_anon_rmap(), silence KCSAN
-9711732e0821d71bbcecad7f80df9e904dce8eca mm: update comments to refer to anon rmap rather than anon_vma
-5940873cc533eeebf691e534a0d2e3f8331689ac mm-update-comments-to-refer-to-anon-rmap-rather-than-anon_vma-fix
-6dc96651a72528d0a77867f80d65a9450746ca58 mm/damon/api: remove NR_DAMOS_FILTER_TYPES
-f5642535439ce72206a4e4fc5240bb480d56c932 mm/damon/core: use abs_diff() in damon_feed_loop_next_input()
-e2d99c1eec0acb5b1ae792ebf5fff0f8ab0e3994 mm/damon/core: use mult_frac() in damon_feed_loop_next_input()
-09b822ffb122121991463c1840a1f6876f57ffd2 mm/damon/core: set damon_ctx->walk_control_obsolete in damon_new_ctx()
-e867f451380e58d1f337fc35861e3518ebf3a5b9 mm/damon/core: document damon_call()/damon_start() race hang issue
-4283e4e18fc60ecce1827c6a541bcc1b34434c3a mm/damon/paddr: remove pa parameter from damon_pa_filter_pass()
-309f4b1b9e4382e6e9e0e4d60cf1dc79aa535589 mm/damon/tests/core-kunit: test eligible_mem_bp commitment
-5400c5dd7b2f232be13a638f45045c712b442909 mm/damon/tests/core-kunit: add probe_hits_wsum damos filter commit test
-d1cea704a50dc9a61e7bb2dd221a1c9d893c3671 selftests/damon/sysfs_memcg_path_leak: fail only for real DAMON leak
-31831d5fb415b2ab1086d29c22863ae993fa9544 Docs/mm/damon/design: clarify bp is basis point
-cbe6cb9063a5c9aded631d7427199ee37dc33b96 Documentation: kmemleak: describe the metadata pool, not the early log
-93052e4bbe0b64cc040d05c912dc220e0b039499 Documentation: kmemleak: fix stale statements about scanning
-bf7f2ce638d270d2ef7b0b6119e0614205c9213a mm: kmemleak: raise min_unref_scans to 3 for verbose auto-scan
-bdaf5fb8af86ef7d1167099d786dc1f85269fb89 mm: memory_failure: clarify the MF_DELAYED definition
-3d63e9d7ec0af23867e555e5b84707fd3d659e1a mm: memory_failure: Allow truncate_error_folio to return MF_DELAYED
-fe716b3801fb88660b04fb7654176d49ebad8dcf mm: shmem: Update shmem handler to the MF_DELAYED definition
-2c19a04f2606e76e210439df4062edbff4f3eb62 mm: memory_failure: Generalize extra_pins handling to all MF_DELAYED cases
-7ccb46cfb808473c90099ed82d8323441ff5e9c6 mm: selftests: Add shmem into memory failure test
-19395b40ec3f65d6fdc6b3abf2dc6a34cfc39f5b mm-selftests-add-shmem-into-memory-failure-test-fix
-5005881abf9730e183983be61a8b1fbec88aa27b selftests/mm: fix soft-dirty kselftest supported check
-fe1512aa4dd3cedd95fd3ea8ae9fcb302e98ff6b riscv: mm: fix concurrency in mark_new_valid_map()
-0d97925af6eadc9dc4b71e8614dddb849d533abf riscv: mm: exclude invalid THP PMDs from page table check
-52321d79c6b59d44365894888cc6f41252ba9d75 sh: remove CONFIG_NUMA and related configuration options
-35cfd83a8e991823cd5523e818974a1f070b4463 sh: mm: remove numa.c
-b0b2d1da104c923d1c27b31b09d6487246cfb9e2 sh: mm: drop allocate_pgdat()
-2d3a0545f7376ed2920acaa17373a063bd9ab40b sh: remove setup_bootmem_node() and plat_mem_setup()
-0c9c8b7f35c226a039438562bdff30c29e709e03 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-aec28daf0bdd60d2b688f08e55310e98401b5a94 sh: drop include/asm/mmzone.h
-04a9878ee5d922e79c15c32a22226f074476cd89 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-a479c009444c42bc463c8bc70d252d51266fe9d9 sh: init: remove call the memblock_set_node()
-786105f9fea14e44c2d72a9517f38ecaeecbfcc4 sh: remove SPARSEMEM related entries from Kconfig
-487ca86a503bd34d254045650e2452a2fcef995c sh: drop include/asm/sparsemem.h
-40a3a8c0850540c6cece7905acb9e0205e172541 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-79acbe575d99cddfed120131b9ec9296f5f40ae4 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============4750261424963183947==--
+--===============8789013413446460736==--
