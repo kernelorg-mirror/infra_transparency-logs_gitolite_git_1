@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3339151729979365789=="
+Content-Type: multipart/mixed; boundary="===============0436709283668568537=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Sat, 19 Sep 2026 21:38:34 -0000
-Message-Id: <178985391413.3179201.6388917608792746118@gitolite.kernel.org>
+Date: Sat, 19 Sep 2026 22:17:29 -0000
+Message-Id: <178985624926.3206222.3064270770932118673@gitolite.kernel.org>
 
---===============3339151729979365789==
+--===============0436709283668568537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,39 +16,37 @@ repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
 user: linusw
 changes:
   - ref: refs/heads/b4/dma40-fixes
-    old: 202a8485d74b398fa2bdc5e770a22db01b22c8af
-    new: 24ec9f1d3a536bcc6ea2d16ff8abc1de43bccc42
-    log: revlist-202a8485d74b-24ec9f1d3a53.txt
+    old: 24ec9f1d3a536bcc6ea2d16ff8abc1de43bccc42
+    new: 2ff9936c651ad1217823a7046ddb682f9fd88965
+    log: revlist-24ec9f1d3a53-2ff9936c651a.txt
 
---===============3339151729979365789==
+--===============0436709283668568537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-202a8485d74b-24ec9f1d3a53.txt
+Content-Disposition: attachment; filename=revlist-24ec9f1d3a53-2ff9936c651a.txt
 
-73575c7ea40ecfa82b3ab72d42edfd23da5c7cf7 dmaengine: ste_dma40: Fix numerous accumulated bugs
-2c718b16c889b4656570bc8efca956428e5eeb3c dmaengine: ste_dma40: Fix physical cyclic capability
-07ffeb71cc172cd0d20c5dcd59b1282d8e34afb5 dmaengine: ste_dma40: Fix cyclic transfer residue
-1517c23daf64ff83083a822d5760c496e6d74958 dmaengine: ste_dma40: Recover coalesced cyclic callbacks
-74afda725f9bd15dbefde14cb7c00d3531ef0da8 dmaengine: ste_dma40: Fix failed start cleanup
-85616cb96ebaa76cafb9a456e6ad7c2f79310622 dmaengine: ste_dma40: Fix probe runtime PM disable
-6478d1cad03151f5d1c9163d01537179c06771ea dmaengine: ste_dma40: Check runtime PM in IRQ
-4780529a6cceda91bf0a2280887f1508191c966e dmaengine: ste_dma40: Handle runtime PM resume errors
-de0056e39038bbebf762eba31b29a0937cdc4650 dmaengine: ste_dma40: Return IRQ_NONE without interrupt status
-c948c42f92c43163624a12d0f8fc46d8f2afaa5b dmaengine: ste_dma40: Init hardware before registration
-0783488ac4ffd48744d272973ebf4f09006ee6ab dmaengine: ste_dma40: Fix probe IRQ leak
-bffb7113dde775c1f9f8ebbd40d92c27a8bbc1f0 dmaengine: ste_dma40: Fix DMA registration unwind
-ca4781501ced885224f469faf02226c9a1605a5a dmaengine: ste_dma40: Fix LCLA allocation order
-4b75a71e90a5d5d18508936619396bf7ab319b8f dmaengine: ste_dma40: Fix probe LCLA free
-29cdf74c967be6c0ad6782e497b84d576c3a7a73 dmaengine: ste_dma40: Put the LCPA SRAM node
-0c8b036401cc3795df3123d0665672c90664b015 dmaengine: ste_dma40: Fix memcpy channel parsing
-aacdff87bfdf7d3dbbc9a623c04fefe076108a38 dmaengine: ste_dma40: Validate disabled channel indexes
-580ee560990eecf3cb6f94b40b3c607a1fcc364d dmaengine: ste_dma40: Validate DMA specifier length
-19e483160b42f06261a5afa6c45f25e6d51616dd dmaengine: ste_dma40: Reject direction changes after allocation
-7ba12ba2d3d13adb9c6970fae6719a42abc94017 dmaengine: ste_dma40: Fix logical channel bounds check
-81146d6a6810e3e018df937bbc9245fd20f7d53e dmaengine: ste_dma40: Fix event group bounds
-ee4df068fe0a3370bf7278ed9924bf78c9c14927 dmaengine: ste_dma40: Search all blocks for fixed logical channels
-76392660746603ccf32190406d35dbc729a3dfa5 dmaengine: ste_dma40: Validate fixed physical channel indexes
-24ec9f1d3a536bcc6ea2d16ff8abc1de43bccc42 dmaengine: ste_dma40: Validate memcpy configuration
+5e6cd1ab22a5a33f96438b94629901db1f19f15c dmaengine: ste_dma40: Fix cyclic transfer residue
+84ec04f48f5d0cc83b3ec20d986ff6daf94c7d49 dmaengine: ste_dma40: Recover coalesced cyclic callbacks
+8e16bdf0f6deb9833ddee137ae01b227681c5723 dmaengine: ste_dma40: Fix failed start cleanup
+41f7d4f1a3dc419f926cf27926c098ea6845836e dmaengine: ste_dma40: Fix probe runtime PM disable
+f8dfc33ec64699bbcd6db037b84a383a1dbb97a6 dmaengine: ste_dma40: Check runtime PM in IRQ
+5bdc9902713d91079d3961dcfce563ff1a8e718e dmaengine: ste_dma40: Handle runtime PM resume errors
+0b6663fa1666775b8203545b46ebea9e55e8b247 dmaengine: ste_dma40: Return IRQ_NONE without interrupt status
+7fa9e64396dc12c09754081a63ca69340dbae92b dmaengine: ste_dma40: Init hardware before registration
+e3b235b4ae9819ac377b621186c49f3213ed3ddd dmaengine: ste_dma40: Fix probe IRQ leak
+ffdd5bfb5d5355f0dd9db7e79a93531186c36628 dmaengine: ste_dma40: Fix DMA registration unwind
+ecbe6048dcb953029967d59f838c6696d4a94278 dmaengine: ste_dma40: Fix LCLA allocation order
+9a6a1a66f0860858fce4a7bb122561361d89aa8d dmaengine: ste_dma40: Fix probe LCLA free
+80eca19d1206de0c0834010c2fdc770f9e6fffd6 dmaengine: ste_dma40: Put the LCPA SRAM node
+e650d51f1eb8975b065a3b01f07f3d79a56ad60c dmaengine: ste_dma40: Fix memcpy channel parsing
+60e6e2af914c1404bd15d89fe15fa3657611bc57 dmaengine: ste_dma40: Validate disabled channel indexes
+3fd0ec64eeddabc3cf2843b0648b8150a1e1bb6d dmaengine: ste_dma40: Validate DMA specifier length
+26344d24ea626c76257a01abda8314fc41939694 dmaengine: ste_dma40: Reject direction changes after allocation
+c3b6b4340692881dcec22da2e44f18783227d783 dmaengine: ste_dma40: Fix logical channel bounds check
+6737e7be94da7c3dff8bba17aab7809983826c1f dmaengine: ste_dma40: Fix event group bounds
+21bc0346c9ec75c1df321872282dffa14d339500 dmaengine: ste_dma40: Search all blocks for fixed logical channels
+609f0539b54219e381274a1ba2eac9c8dd86b6f5 dmaengine: ste_dma40: Validate fixed physical channel indexes
+2ff9936c651ad1217823a7046ddb682f9fd88965 dmaengine: ste_dma40: Validate memcpy configuration
 
---===============3339151729979365789==--
+--===============0436709283668568537==--
