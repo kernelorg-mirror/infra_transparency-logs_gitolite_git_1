@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 19 Sep 2026 01:25:56 -0000
-Message-Id: <178978115689.2277378.5348434562091865209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
+Date: Sat, 19 Sep 2026 01:53:23 -0000
+Message-Id: <178978280363.2295555.524188568556604032@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+user: herbert
 changes:
-  - ref: refs/heads/main
-    old: c702dd7b3e2faf59509a338726ab345fd5c19762
-    new: e3bfd25626b44b6fa61a13c17178922171d519ce
+  - ref: refs/heads/master
+    old: 53cf0f26eece095a3752642151150404bc3351cc
+    new: 10396a2d6d41d594975b6ece712278570c3c970c
     log: |
-         e3bfd25626b44b6fa61a13c17178922171d519ce net: dsa: motorcomm: avoid unused variable warning
+         10396a2d6d41d594975b6ece712278570c3c970c crypto: s390/hmac - Generate intermediate CV for API partial block handling
          
+  - ref: refs/tags/v7.3-p5
+    old: 0000000000000000000000000000000000000000
+    new: dba7c14b134d0bfd0b16d19f9017edb36f731445
