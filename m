@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4009636151507698413=="
+Content-Type: multipart/mixed; boundary="===============4489343756346843127=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 19 Sep 2026 11:37:14 -0000
-Message-Id: <178981783490.2752908.2152968333689641027@gitolite.kernel.org>
+Date: Sat, 19 Sep 2026 11:37:22 -0000
+Message-Id: <178981784281.2753125.8325944660044951611@gitolite.kernel.org>
 
---===============4009636151507698413==
+--===============4489343756346843127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon
+  - ref: refs/heads/master
     old: c3d85c669d09007aeb9eb9f3d28d8c863401f83f
     new: 40288c9206c17eb66a603262e06a58d300d0f279
     log: revlist-c3d85c669d09-40288c9206c1.txt
 
---===============4009636151507698413==
+--===============4489343756346843127==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -120,4 +120,4 @@ ef31d04b6d8adfc971fc6b9ff76a1d6dc9aeefab Merge tag 'pci-v7.3-fixes-1' of git://g
 71f370e9ee1bdfe1f916547089d93b5265a918e7 Merge tag 'drm-misc-fixes-2026-09-17' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 40288c9206c17eb66a603262e06a58d300d0f279 Merge tag 'drm-fixes-2026-09-19' of https://gitlab.freedesktop.org/drm/kernel
 
---===============4009636151507698413==--
+--===============4489343756346843127==--
