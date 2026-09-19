@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Sat, 19 Sep 2026 05:26:54 -0000
-Message-Id: <178979561458.2454293.3423916627544428796@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 19 Sep 2026 05:29:38 -0000
+Message-Id: <178979577882.2455165.10722371564810454862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: cdeea2971973247e2c95a8fc3d90a445c8f010f5
-    new: e3b6cb020e2f034a98068b2d11bcb3db9fff7e42
+  - ref: refs/heads/x86/urgent
+    old: 96443a53bc3ef4b67dab0c497878fc8d56f799f3
+    new: 63edf5a009ae366369a1b484cd9ae4ee7c51946c
     log: |
-         bfc888f04588f591851e95c974954cfca58e6c19 bpf: Bound ownership depth through local kptrs and graph roots
-         0288ed67482b6e370eb3fa6b07720df435907970 selftests/bpf: Check local object ownership depth
-         e3b6cb020e2f034a98068b2d11bcb3db9fff7e42 Merge branch 'fix-acyclic-ownership-checks'
+         63edf5a009ae366369a1b484cd9ae4ee7c51946c x86/build/64: Prevent native builds from generating EGPR use
          
