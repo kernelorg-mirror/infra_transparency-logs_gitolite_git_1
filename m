@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0661092894150942594=="
+Content-Type: multipart/mixed; boundary="===============4998148433501925002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Sat, 19 Sep 2026 00:49:39 -0000
-Message-Id: <178977897951.2248172.11034313021534303543@gitolite.kernel.org>
+Date: Sat, 19 Sep 2026 00:49:44 -0000
+Message-Id: <178977898466.2248397.9403556321783228897@gitolite.kernel.org>
 
---===============0661092894150942594==
+--===============4998148433501925002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/riscv/linux
 user: pjw
 changes:
-  - ref: refs/heads/for-next
-    old: 77ae27fd98f3b548797c9f22c10ab5cf1c4ada53
+  - ref: refs/heads/fixes
+    old: b94cec5761d22624d109d859467d7d4ce0a1b88b
     new: e1116094833337fe9480fb9527a59c7637b96118
-    log: revlist-77ae27fd98f3-e11160948333.txt
+    log: revlist-b94cec5761d2-e11160948333.txt
 
---===============0661092894150942594==
+--===============4998148433501925002==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-77ae27fd98f3-e11160948333.txt
+Content-Disposition: attachment; filename=revlist-b94cec5761d2-e11160948333.txt
 
+e4637ce34607f1733a34a57294966d26b263e626 ALSA: usb-audio: fix OOB write in snd_usbmidi_us122l_output()
+32d7226e6105c257ef7b3d0ec819f11a81f53b6d ALSA: hda: restore MFG widget enumeration after core split
+c53f5bfc370046e098fe04dc045e9e3cf19df609 ALSA: usb-audio: Add mixer map quirk for Audient iD24
+a0c798ed4103316c23938bdf625af364fbd38016 s390/boot: Fix physical memory search range
+d76181dfabdaa720703167393704efacba343442 s390/boot: Avoid IPL parameter append past command line
+12373ea918a0e72483662095686556eea21d67bc s390/boot: Bound command line facility ranges
+33123ff9cbcb35640f56efb8ede1d6f0d97376fd s390/mm: Simplify crst_table_upgrade()
+98d23edcd41432286cf03672252507a841323c8c s390/zcrypt: Fix uninitialized padding in CRT key structure
 148845aa1921d95ef5dc851c76e6a284f6657df6 dm-crypt: fix a tiny race condition in crypt_dec_pending
 bc9781c0247de107876f32929f1637db93a42b34 dm cache: fix issue with background work locking
 b2fd92f016e9d692fd3c8c08d0ee014e9212279d dm-integrity: require stable writes for internal hash modes
@@ -95,13 +103,6 @@ e8a0095c7df170945b4740eda4e2738a50f97fc6 btrfs: preserve the compression propert
 2625480a1bf79c62ffb09aafdf61778e682da492 hardening: Default randstruct off with rust for better allmodconfig support
 b264d8422779d69febce914efc47a92a85cc382c s390/ctcm: Prevent XID null dereference
 70f3995830d3f1e79faa14eb0605914f778feca9 bonding: alb: fix uninitialized transport header access in alb_determine_nd()
-6809da6e9c08ccc9a09cb0a48c61471679274aaa perf: RISC-V: store available counter mask as bitmap
-248dbaf7770c0843702355a9fb724a882c669062 riscv: report Zfhmin/Zvfhmin when Zfh/Zvfh are present
-f643f520c4c6998fa27dce90dd3b3ff6414e0bae perf: RISC-V: check cpu_hw_evt before dereference in overflow IRQ
-93a27367bacdc32e2cdb478597102175db3fb80c riscv: hwprobe: simplify has_fpu() to check D extension only
-817ecd588fa5820527ee3affa43b5116276d2520 dt-bindings: riscv: cpus: Fix yamllint style issues
-74e26c692c40565448b8a1d1398c69e221a299cf docs/zh_CN: Update arch/riscv/patch-acceptance.rst translation
-2464ac8a6ff8d8a18b50088eb1d1d638f9cee2f1 kselftest/riscv: Replace __ASSEMBLY__ with __ASSEMBLER__
 839f075aabdf5c21048f9801b87c0b841dd3d064 erofs: add sysfs feature entry for xattr prefixes
 f4825922d2fb371e2b969697d792077f1b62b62c scsi: target: iscsi: Reserve a terminator byte for the login payload
 139f57343b3d6b26d9f01580123b2ba2d2150337 scsi: mpi3mr: Fix use-after-free on tgt_dev->starget during target device refresh/update
@@ -182,7 +183,6 @@ ece06de726737e887dc0225c8283477624f8ae21 scsi: bsg: Cap io_uring sense copy to m
 7ac81e2d2240f2c57bd073b0733e0b2abca38e82 dm-ebs: fix incorrect device offset check in ebs_ctr()
 4617721c502b2ddaa4e324e86da4997edf738fa5 ftrace: Synchronize the initialization of ftrace_ops
 af8c27375733fb6a6df9fa484cda77cc3dd0cb80 scsi: megaraid_sas: Limit NVMe request size to the PRP chain frame
-b94cec5761d22624d109d859467d7d4ce0a1b88b riscv: skip software algning code for HAVE_EFFICIENT_UNALIGNED_ACCESS
 8ba27b90095a4c7fcc878dd013969cd6b100cea7 ALSA: hda/realtek: Fix cold-boot headset misdetection on Acer Aspire A515-57G
 e3e4f66cc4b72333d0886ae2673c360248987889 bpf: backtracking shouldn't clear outer frame R1-R5 for callbacks
 7ac9662189069914a088ec61ad85dc46b5cb1563 selftests/bpf: test case for unsafe pruning of bpf_loop checkpoints
@@ -1051,4 +1051,4 @@ fd73f4a6659897191fa0d40695fe370925dd3780 Linux 7.3-rc3
 90f6065b5c2a40e86149e8e59ad0501469a83cc6 riscv: vector: Fix data pointer constraints in context save/restore
 e1116094833337fe9480fb9527a59c7637b96118 riscv: vector: Fix output operands in context save
 
---===============0661092894150942594==--
+--===============4998148433501925002==--
