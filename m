@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 19 Sep 2026 02:55:55 -0000
-Message-Id: <178978655518.2341143.13785726863299770248@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/nilfs2
+Date: Sat, 19 Sep 2026 02:58:35 -0000
+Message-Id: <178978671501.2342053.1358635085206433438@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/vdubeyko/nilfs2
+user: vdubeyko
 changes:
-  - ref: refs/tags/v7.1.13-6
-    old: 0000000000000000000000000000000000000000
-    new: 95e9e45ece22e26bdd63744fe32a857b5f078f85
+  - ref: refs/heads/for-next
+    old: 1458ff8f722393d733fc9d01dd2161a4a01768bf
+    new: 8393ce53a5497552320a34794549c18503dd491b
+    log: |
+         8393ce53a5497552320a34794549c18503dd491b nilfs2: validate file block counts during recovery
+         
