@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
-Date: Sat, 19 Sep 2026 20:12:37 -0000
-Message-Id: <178984875766.3118869.2196226471040938269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Sat, 19 Sep 2026 20:21:22 -0000
+Message-Id: <178984928253.3125650.17210886850492411908@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/linux
-user: david
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/gup-7.4.misc
-    old: 8ad0454e3a34b6cb34ce2f5150743b6a0b98b31d
+  - ref: refs/heads/for-next
+    old: bdaa76cd13c54b1cf0683866026b0e9a40f63a29
     new: 0000000000000000000000000000000000000000
