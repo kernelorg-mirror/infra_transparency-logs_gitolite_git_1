@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Sat, 19 Sep 2026 18:10:44 -0000
-Message-Id: <178984144494.3030648.10353108745941694114@gitolite.kernel.org>
+Date: Sat, 19 Sep 2026 18:14:44 -0000
+Message-Id: <178984168417.3031959.1388222521022492319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: oupton
 changes:
   - ref: refs/heads/fixes
-    old: 089e4f3c4862ba3f29dff2361caa8084879194fd
-    new: 239763bda71627ada388b46ecf7b58aeb585c173
+    old: 239763bda71627ada388b46ecf7b58aeb585c173
+    new: 6b1bca1b1ab77f60a62087337bfe6e2f0efb9e6d
     log: |
-         239763bda71627ada388b46ecf7b58aeb585c173 KVM: arm64: Fix AArch32 DBGBXVR<n> handling
+         6b1bca1b1ab77f60a62087337bfe6e2f0efb9e6d KVM: arm64: Fix AArch32 DBGBXVR<n> handling
          
