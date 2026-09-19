@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 19 Sep 2026 00:00:50 -0000
-Message-Id: <178977605005.2212192.15269992508442873141@gitolite.kernel.org>
+Date: Sat, 19 Sep 2026 00:03:25 -0000
+Message-Id: <178977620572.2213297.250993282880224865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 2566866fc30965d915d0b52b5c3323b362619f0e
-    new: ee319bd3a0e976af5087cbe59ebc50a66f31d202
+    old: ee319bd3a0e976af5087cbe59ebc50a66f31d202
+    new: dd47bcf279f1083f09bf5266890b26263361022b
     log: |
-         310d1ac61a4d5a2ca8356a3a48d263acf54503ce net: ethernet: mtk_eth_soc: unregister net_devices in case of probe failure
-         24fedc7a569bce181728f0dd616504bef9f1513b sfc: add X4D PF support
-         ee319bd3a0e976af5087cbe59ebc50a66f31d202 ipv6: do not let ipv6_find_hdr() return an offset past the packet end
+         dd47bcf279f1083f09bf5266890b26263361022b ip6_gre: Call ip6erspan_tunnel_unlink_md() in ip6erspan_changelink().
          
