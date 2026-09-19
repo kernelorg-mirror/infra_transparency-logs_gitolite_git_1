@@ -1,28 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Sat, 19 Sep 2026 14:18:24 -0000
-Message-Id: <178982750448.2861986.4748361308902397460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Sat, 19 Sep 2026 15:25:08 -0000
+Message-Id: <178983150866.2908949.13261002048047815657@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/for-7.3-fixes
-    old: 9ec7ba20c97d92fa59b351832aeeb934b3b16177
-    new: d781d1b78acf547bafeb1592e8ba4020dce515c6
+  - ref: refs/heads/master
+    old: 6876839fc0612111d461d823b266f125862649f1
+    new: 1b6c16d14f3fbb4e4705b51d53eb4c7d533d2fd8
     log: |
-         3bd46666cfe51e2bd333fb46a0234694ca594230 sched_ext: Pass the initial cmask to cid-form ops.enable()
-         d781d1b78acf547bafeb1592e8ba4020dce515c6 selftests/sched_ext: Check the cmask cid-form ops.enable() receives
-         
-  - ref: refs/heads/for-next
-    old: a2741127181ef85de379aa2971cf736c38c659a6
-    new: d9ecc8c5e754065159bdd5cb580eb9295f7256b2
-    log: |
-         3bd46666cfe51e2bd333fb46a0234694ca594230 sched_ext: Pass the initial cmask to cid-form ops.enable()
-         d781d1b78acf547bafeb1592e8ba4020dce515c6 selftests/sched_ext: Check the cmask cid-form ops.enable() receives
-         d9ecc8c5e754065159bdd5cb580eb9295f7256b2 Merge branch 'for-7.3-fixes' into for-next
+         1e5fa89d81c2fee32a0583a1754476b04797a636 vim: do not start b:undo_ftplugin with a bar
+         1b6c16d14f3fbb4e4705b51d53eb4c7d533d2fd8 vim: add a cut-marker mapping and highlight the marker
          
