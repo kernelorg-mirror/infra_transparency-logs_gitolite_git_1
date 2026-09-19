@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0205703739732603012=="
+Content-Type: multipart/mixed; boundary="===============8401349165196310671=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 19 Sep 2026 11:37:36 -0000
-Message-Id: <178981785616.2753367.13108567688199308712@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
+Date: Sat, 19 Sep 2026 12:00:54 -0000
+Message-Id: <178981925453.2770332.18061635677625342345@gitolite.kernel.org>
 
---===============0205703739732603012==
+--===============8401349165196310671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/ojeda/linux
+user: ojeda
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 3e840df1ff1d41283f48edf5b2a3796316e2faa4
-    new: f4c3b88983f342d6614cb11b53a0640ec8bc8fd2
-    log: revlist-3e840df1ff1d-f4c3b88983f3.txt
+  - ref: refs/heads/rust-next
+    old: fd73f4a6659897191fa0d40695fe370925dd3780
+    new: 40288c9206c17eb66a603262e06a58d300d0f279
+    log: revlist-fd73f4a66598-40288c9206c1.txt
 
---===============0205703739732603012==
+--===============8401349165196310671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e840df1ff1d-f4c3b88983f3.txt
+Content-Disposition: attachment; filename=revlist-fd73f4a66598-40288c9206c1.txt
 
 d042487dc118e494db2e2c1382310255c90ff544 xfrm: iptfs: fix stack OOB read in iptfs_skb_reset_frag_walk()
 89fefad9f971bc637fb22373078144f2563c4be9 xfrm: serialize state GC with device state flush
@@ -284,6 +284,11 @@ b5b00a57868b1eabdf90a29a51f0eb732c609f3a ASoC: sdw_utils: cs_amp: Delete bogus a
 0cde044bc4768203ae70840eafe9df1290d8cb22 ASoC: Fix missing channel fixup for codec end of ch_map
 576725ded009f09a28da19852f7edf62dbc5f94c ASoC: Intel: sof_es8336: Add a quirk for Huawei Matebook B3-420
 704340f1cd0dcef829eb62f5b48ae95a2ce17bdf Merge tag 'x86_urgent_for_7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+451b1c19dc7cbbad194a6e717b6a732c443d7dd5 hwmon: (k10temp) Fix model id range of Zen5 Turin
+26d5ff79768548efb1e604bb6e8697c101e06269 hwmon: (pwm-fan) Stop RPM timer before freeing tach data
+7bae83ffb133bc373d098fa6828cef2ef4da49fe hwmon: (cgbc-hwmon) Fix current sensors ID lookup
+3550d1dbbcb9f51b77e077e8958423ee2c401c6c hwmon: (cgbc-hwmon) Add missing sensors
+06bd6794b5fd2163880ac3bfe973d4cc61f359f3 hwmon: (pmbus/core) increase number of phases and add new mask
 2de887f891662814b1160cbfb8c1bf2a5a46d418 ALSA: hda/realtek: Add mute LED quirk for HP OMEN 15-ax
 beb34fe8312eda37b9cf1568550d722530444822 ALSA: usb-audio: Add capture quirk for Behringer FCA1616
 5f90f85eae4e9d2e9628b2019870994ba830b533 power: sequencing: don't call .post_enable() if pwrseq_unit_enable() failed
@@ -314,6 +319,9 @@ ebdad7d867a59a6fbf01652bbe183cbfc69b0a8f Merge tag 'socfpga_dts_fix_for_v7.3' of
 2d5adffc11cc8d694e309dc38f9a8ae7fa14a65a Merge tag 'renesas-fixes-for-v7.3-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/fixes
 869e97e66d3f5c37a42571154b103c09778e41cb Merge tag 'scmi-ffa-fixes-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
 073a30d75f309812ed61af134f24ffef4107b13a drm/vc4: Use managed KMS polling to fix UAF on unbind
+bdf5f731957de48acada392f28e82bc019713adb hwmon: (gpio-fan) return IRQ_HANDLED from the shared alarm IRQ handler
+0ff9c7775e51ac6d47b1bb5c46f06b1434fe58a8 hwmon: (w83791d) remove fan/pwm 4-5 sysfs group on remove
+c702a5f18b780e477eccbbab558e590e9673e4cb hwmon: (w83793) release probe data through kref
 1c4f6202876a74e752a8cfd3696955f761671c7a ALSA: hda/realtek: Enable mute LEDs on HP OmniBook 7 17-dc0xxx
 5ab3dc647751996784cff20a51f3730f4e88afe4 ALSA: usb-audio: skip the broken mute control on AVerMedia GC553Pro
 164f652b6ef9209437ca016beedfcab626ff4f02 Merge tag 'mm-hotfixes-stable-2026-09-13-21-50' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
@@ -412,6 +420,8 @@ a26204be587c57bd5c54fa513be26c4fd7bf252d Revert "drm/i915/display: Clear SEL_FET
 ce55a6545a375563983ef83eb48915a11493b64e Merge tag 'amlogic-fixes-v7.3-rc' of https://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/fixes
 f0e9f963a3d209d7dc7ddd61116118ab5da2797d drm/xe/i2c: Disable IRQ on unbind
 8d836581f9b1f57ceaa2b47654754ef1260b410b ata: libata-scsi: fix ata_dsm_trim_pages() kernel-doc
+e6cb0b4d4ecb8e71fd2200d907ab2e9663356f69 hwmon: (hp-wmi-sensors) Fix use-after-free in fungible_show()
+1d12fb94ac0975566545871dda100df34df5f845 hwmon: (pmbus/tps53679) Fix TPS53676 phase page decoding
 238650ef6c7c7cca08e032527329424c9fbd70e5 Merge tag 'powerpc-7.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 d034e836eefd7ce75e588f7031cffbeec594f5ac smb: client: fix use-after-free of iface in cifs_try_adding_channels()
 a5e22cba3549b3b9ca592a6bc62329c9b85ce285 ASoC: rt721: Reset codec to fix abnormal sound
@@ -430,6 +440,7 @@ fa899ba9b1bfa0481a477c7a05a1a5d484285e7f ASoC: amd: acp: SoundWire machine drive
 940e8fe8535d22ce67dd2fb9588e6c55a31d7d03 ASoC: adau1977: small fixes to make the driver more usable
 7c7d5e9d7e3942ba5aec9847f61a6e76d7773191 Merge tag 'ipsec-2026-09-16' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
 fefaac1176bf3cf002a8dc83339d6ed6a369941a Merge tag 'wireless-2026-09-16' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+089070b51ccbac411462a30a454690274c6e4270 hwmon: (pmbus/tps53679) Select page 0 for single-page TPS53676
 92b68492eae701e5b0e9d142ffe229921af7b1fa hwmon: (hp-wmi-sensors) Improve raw WMI string handling
 7f4a5ec6258fd7c92633ec4b0493fc51166d9398 net/sched: codel: bound the dropping loop per dequeue call
 f6fb2ac5e19ae4b66112a698050db80e51f841c3 selftests/tc-testing: add codel/fq_codel interval boundary cases
@@ -523,70 +534,5 @@ ef31d04b6d8adfc971fc6b9ff76a1d6dc9aeefab Merge tag 'pci-v7.3-fixes-1' of git://g
 17e7b8eacf4cac800a4fc89a28729df72a2dabda Merge tag 'cifs-fixes-7.3-rc4' of https://git.manguebit.org/linux
 71f370e9ee1bdfe1f916547089d93b5265a918e7 Merge tag 'drm-misc-fixes-2026-09-17' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 40288c9206c17eb66a603262e06a58d300d0f279 Merge tag 'drm-fixes-2026-09-19' of https://gitlab.freedesktop.org/drm/kernel
-015a2a74b81f9e3ff07646f627a795122ecd9e6b hwmon: Add support for currX_emergency and inX_[l]emergency attributes
-edf394551b65c5612d735efbbc4ac41bea84f4d5 dt-bindings: hwmon: tmp102: Document TMP110
-5b64006a2959bb4cf6ccd59d5c9837a7f99e2269 hwmon: (yogafan) Add Lenovo Yoga Pro 9 16IMH9
-fa30d9ae3402ed6158cab2f92d86a83ce72430ae hwmon: Add fan monitoring support for HONOR FMI-XX
-2f5235d5d38e96511bdba93d6a0d319588b2e677 hwmon: (pmbus/tps25990) Rework driver for multi-device support
-4ba104e86fd4982381a7b9b661d02a19d47eb68e dt-bindings: hwmon: pmbus/tps25990: Add TPS1689
-8b628a7c28efa8b07790e89ec8cdef53ab246620 hwmon: (pmbus/tps25990) Add TPS1689 support
-add8e9a302d827a8305e94c8d654215f050686fa dt-bindings: trivial-devices: Add Sensirion STS4x series
-d89c99e6a17c1a41ffd1f0a0c4e9b1346e7457cd hwmon: (sht4x): Add support for Sensirion STS4x temperature sensors
-f2811a40b86b162b3fed53baa0539c647cc28c87 hwmon: (it87) describe per-chip PWM temperature maps
-6f9a0d097646ff1de2524ce349679eed98656ddb hwmon: (it87) prepare for extended PWM temp maps
-828eb46c20889f38576751390beb311f65551193 hwmon: (it87) add IT8613E support
-0837f772b2588c243557e443948e1fa84177a2c5 dt-bindings: hwmon: national,lm90: Fix channel constraints for temperature offset
-542d17db2c13553bb27b9649fdcf6e4b352e4340 hwmon: (lm90) Reject channel 2 on chips with only one remote sensor
-39709b1cf6086acc5f548afe416a6e48d604b83e hwmon: (asus-ec-sensors) add ROG STRIX X670E-A GAMING WIFI
-141c3ebd3638bf6301e39be193a534c4af2c82dd dt-bindings: hwmon: tmp102: move ti,tmp103 out of trivial-devices.yaml
-2e425497a8d414740a4013d6c2d967ab915c0705 dt-bindings: hwmon: tmp102: Document TMP113
-0d554468d85227c64c55aeefeb0eaf8dab6777de hwmon: (dell-smm) Add Dell OptiPlex 7090 to fan control whitelist
-8aa33a49195e53b6fc3ef0489138706e391a9240 hwmon: (dell-smm) Add Latitude 5420 to fan control whitelist
-e7a12912bee30302b83ee299b17d6a4bb05857db hwmon: (spd5118) Select page 0 unconditionally during probe
-11ceaba0f745f85ea914fa66374ea94a42b99e33 hwmon: (spd5118) Avoid probing when 16-bit addressing is enabled
-a2d291ed93f416348101795ac5b664ee0559d75e hwmon: Add Minisforum UM780 XTX EC monitoring and fan control
-aff3319382113a32d18db80ed2c0d074343fe30c dt-bindings: trivial-devices: Add TI TPS53622 and TPS53659
-c0673676750bcc58891cd340554cb8b22b092e97 hwmon: (pmbus/tps53679) Add support for TPS53622 and TPS53659
-0c681ca14cd25f1c1565ed8c2909d14f0037b155 hwmon: (asus-ec-sensors) add ROG STRIX Z490-A GAMING
-f51b6e30f0a8a6374960ad378e60a0621268d093 dt-bindings: hwmon: ti,tmp401: add #thermal-sensor-cells
-e036c190fd14914b5472b26c6268ab0b79e474bb hwmon: (yogafan) Add support for new Lenovo models
-2fcfbdae33d084c880c0e73fbf80624f82f3f09d Documentation: hwmon: nct6775: Document NCT6116D/NCT6122D/NCT6126D support
-860b746178ec0e0f1d9231a91fb906e41c964066 hwmon: (asus_rog_ryujin) Add ROG Ryujin III 360
-68c2bf8e634f7b113ddc55e5da83e95858ddd63a hwmon: fix typos in comments
-93cac835917ceffc85904dd387538e49bf5ae06a docs: hwmon: sysfs-interface: Fix bracket
-dce3fba2373bd653abc2cc8393958a9cd1aead9d hwmon: (pmbus/ltc4286) Add writable shunt_resistor sysfs attribute
-8a2d7d5ef62d93f2ddb6207aa42751b8b4a6abcd dt-bindings: hwmon: Add Axiado AX3000 TSADC
-a24a01d712e66509eff7d330f75d14fc3d4eaed1 hwmon: Add driver for AX3000/AX3005 TSADC
-ca6e9084725b6a39e7f10efab69f2a086b082fa0 hwmon: (hih6130) Replace sprintf() with sysfs_emit()
-149c4a3c2bef1413cf32451f2fb6149c7539cbd8 Documentation: hwmon: (yogafan) Update model reference table and contributors
-988f5c785f4a01d2d5d4ae9bb3eec168e6d5f2fd hwmon: (arctic_fan_controller) Default PWM cache to MCU 40%
-812262cbfbd5ba7e9cd6e7d9e363ebb19580c49c hwmon: (arctic_fan_controller) Dual-license GPL-2.0-or-later OR BSD-2-Clause
-6c0c40a95c3ba50ac74b37a09f393f4dbbac2b36 hwmon: (arctic_fan_controller) Use shared maintainer address
-e6faedad4930dbefad5bba6a3759c24305d9393c Documentation: hwmon: (nct6775) Document NCT6116D/NCT6122D/NCT6126D support
-5a3402360e52de5f1d4edb9bfc941b3041d5824d hwmon: (nct6775) Add support for NCT6126D
-6bb3cfeebf7bf48c3686bbe350de4564de78f02c hwmon: (nct6775) Add support for NCT6122D
-50e7d6d50595522782d904438deee26cca42a049 hwmon: (k10temp) Add support for 1ah/80h
-7881d8fc377d984d3290ad2a46f12d6797b81a2a hwmon: (pmbus/core) Add mapping function to pmbus_read_block_data()
-ad417a56ad300eaf1195d34d944154ff22a43585 dt-bindings: hwmon/pmbus: Document MAX20826 and similar devices
-1b6184cb9aadeb5bdc003e067264966677552245 hwmon: (pmbus) add support for MAX20826 and similar devices
-d30e3fe877fa16f1c466a1dfd3b18a64b870f332 hwmon: (pmbus) Validate number of phases per page
-7105947d693237867398b68501f4ecee21a10fc6 hwmon: (socfpga) add Agilex 5 channel mapping
-aaa7a27523e70f50d9051047c58adb9368ab1a46 dt-bindings: vendor-prefixes: Add Sensylink
-dffdf7a1b5f24791894ea0b575d8fcb57ef81f79 dt-bindings: hwmon: Move LM63 family to a dedicated binding
-7620c8ba5d122bc72ab08a717981089ecf451f9b dt-bindings: hwmon: Add Sensylink CTF2301
-db1ed1df1310a91d50ef89e74bdca8650d1a6dbe hwmon: (lm63) Add Sensylink CTF2301 support
-25a6a66dc6a6940dea5a1bf602ebe87864e7a161 hwmon: (pmbus/max34440): Add support for ADPM12300
-2bb54ebce435861fc20f0797354943680260ade1 hwmon: (dell-smm) Add Dell Precision 3650 Tower to fan control whitelist
-7ae7a4cecdee5d0d3fe03b9cc42c005bc0177377 dt-bindings: trivial-devices: Add TI TPS536C7
-e26e5337a0b4370abefa451c0f1d1a4e5d07790b hwmon: (pmbus/tps53679) Add support for TPS536C7
-7189afebeaec708a01e93788d2f51a24d2346aa7 hwmon: use named initializers for acpi_device_id
-c0dfc4dec40b8bc6fcfd4bca0e6d3b9f7c7bc129 hwmon: (pmbus/tps53679) Select page 0 for single-page TPS536C7
-5c45f7ab41129ba6686cc5f59194d2e75f491edc hwmon: asus_wmi_sensors: Fix info[] allocation type
-a52f2f532a5994716130638db122c928148480f6 hwmon: pwm-fan: Add const to channels allocation type
-c0d3fce95fdf9a4407686a67bab8fcc153bda3ec hwmon: scmi: Fix info[] allocation type
-2925f43254688520d47f2ec02cc180b0a095238c hwmon: hp-wmi-sensors: Fix info_map[] allocation type
-10e252fd3ee4132015356df722d71428384c8940 hwmon: vexpress: point the DT binding reference at the schema
-a7c6a906b7530b8bdec2134c9cd1eaa0269969be dt-bindings: hwmon: pmbus: Add Infineon tda38740 and tda38725
-f4c3b88983f342d6614cb11b53a0640ec8bc8fd2 hwmon: (pmbus/tda38740) Add driver for Infineon TDA38740/TDA38725
 
---===============0205703739732603012==--
+--===============8401349165196310671==--
