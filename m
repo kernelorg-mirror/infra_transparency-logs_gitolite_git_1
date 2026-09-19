@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-Date: Sat, 19 Sep 2026 02:58:35 -0000
-Message-Id: <178978671501.2342053.1358635085206433438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/tftp/tftp-hpa
+Date: Sat, 19 Sep 2026 03:22:43 -0000
+Message-Id: <178978816366.2359391.10222675758720083388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-user: vdubeyko
+repo: pub/scm/network/tftp/tftp-hpa
+user: hpa
 changes:
-  - ref: refs/heads/for-next
-    old: 1458ff8f722393d733fc9d01dd2161a4a01768bf
-    new: 8393ce53a5497552320a34794549c18503dd491b
-    log: |
-         8393ce53a5497552320a34794549c18503dd491b nilfs2: validate file block counts during recovery
-         
+  - ref: refs/tags/tftp-hpa-7.0
+    old: 0000000000000000000000000000000000000000
+    new: ff849662dfaf1de1068d407bee90316710c4cc78
