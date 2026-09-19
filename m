@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4895642389462154557=="
+Content-Type: multipart/mixed; boundary="===============1804253902651382707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 19 Sep 2026 18:01:07 -0000
-Message-Id: <178984086741.3022503.10304099178598666008@gitolite.kernel.org>
+Date: Sat, 19 Sep 2026 18:01:11 -0000
+Message-Id: <178984087116.3022646.13735416965464983557@gitolite.kernel.org>
 
---===============4895642389462154557==
+--===============1804253902651382707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 79acbe575d99cddfed120131b9ec9296f5f40ae4
-    new: 498ee28e5ec4727f829507c4a1bde3ab1b7704cd
-    log: revlist-79acbe575d99-498ee28e5ec4.txt
+  - ref: refs/heads/mm-unstable
+    old: 72da04a41011d34ba2aabd021a3d0597494caf06
+    new: 3318d6fa6ddeb5c116eb100c47e2107022167722
+    log: revlist-72da04a41011-3318d6fa6dde.txt
 
---===============4895642389462154557==
+--===============1804253902651382707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79acbe575d99-498ee28e5ec4.txt
+Content-Disposition: attachment; filename=revlist-72da04a41011-3318d6fa6dde.txt
 
 a363c62a653cc8b3e21da9545fa4e028ef50f9c3 mm/hugetlb: do not dissolve gigantic pages without runtime support
 8c7fdc0b4c64d6583fff3e8f7696237a16ff7c29 selftests/cgroup: account for zswap shrinker writeback
@@ -565,86 +565,5 @@ a705b3f42b9926fb4abb73e35a251d6f00d16a19 docs-admin-guide-mm-damon-usage-update-
 d7820d78cedb5609a5a7f88e69edd1690e011872 Docs/ABI/damon: update for hugepage_size probe filter
 00a66371c747e9acb3e3ceb5d76e4ca3ecd39538 mm/huge_memory: simplify pgtable deposit detection
 3318d6fa6ddeb5c116eb100c47e2107022167722 mm/vmalloc: Use %p for pointer formatting
-8c6b8f78dcad8020944e202676db2a07a9e35de8 mm/gup_test: safely calculate GUP batch size
-3dfad25501f26c39a629f397f103450c92267553 mm/mglru: restore accidentally removed seq < max_seq check
-32a3b73b48721af5c29521d9adde98c62a2ecd3b mm/hugetlb: fix misspelled parameter names in comment
-31e6cbc02f14d3a148abdef54c0ccabf1ac50acc mm/page_alloc: apply per-task GFP context in bulk allocator
-ef3d0a7e87c2dc0d36c13822ba6530a8f7ea8ebc mm/madvise: use folio_trylock() in the cold/pageout PMD split
-1d499021296659b7c60888132b492bac869c1520 mm: memcontrol: take a const folio in folio_memcg() and friends
-adbb7dbebf0c3d9e17a3b707b210fa5996b1a7d8 mm: memcontrol: constify obj_cgroup_memcg() and friends
-f629159b07e2f6d59a9da5b3775b858fd1bb8977 mm: memcontrol: constify the lruvec helpers
-659168e5f80bbfe1f18464d284a06f67733b9435 mm/page_io: take a const folio in bio_associate_blkg_from_folio()
-9b25d34dd273f66d74124ccc65d2dbea0a6c5dd2 mm: memcontrol: constify the mem_cgroup accessors
-d9b0cb31fc4d25f9e1958834b48d2d29dd7da8b2 mm: page_counter: constify page_counter_read() and page_counter_margin()
-e3d78ff208f8c9d6232b2e6848acdffe2def4597 mm: memcontrol: constify the reclaim protection helpers
-4f6f87e8790033376f7fc45506383dbce409df17 mm: memcontrol: constify the memcg and lruvec stat readers
-c66f6b3b54df32df6806b2ca451db4dd9a8e7a86 mm: memcontrol: constify the swap accounting helpers
-c30f4d72e2cc65a738388d07d3c2c5e1ebd9bd01 mm: memcontrol: constify mem_cgroup_swappiness() and mem_cgroup_get_max()
-0f67d13f897b06ead786c95bf9a66d4c1f401f15 mm: memcontrol: constify the zswap and socket pressure helpers
-dc9da2f71e0c6bedd1949032b146ba2a55ff85e1 mm: filemap: move lruvec accounting outside the xarray lock
-bc67877d447bf18f0ac4d7f0a4b65d7824bac1d0 mm/page_alloc: do not boost watermarks in kdump capture kernels
-190697b8dd75df2844b7b8b880450f66b5de2b4f mm: mincore: use per-vma lock during page table walk
-59e51c0a0c08b3047ab67b54fd80f4a41707cdb1 vmcore: convert mmap_vmcore_fault() to use folios
-739e993e3d1ff43a67db1dc229b582b4480be205 mm: swap: move LRU insertion out of the swap cache allocator
-43017565bc191647fd7d24cc3714688e82360c26 mm: swap: drop dropbehind swap cache folios on writeback completion
-eb919baea24cbba87827c6d855040bcfe7eda386 mm: zswap: drop cold writeback folios via swap dropbehind
-ba15d4048ec018a90a6a9d913e0c6feb579593fd mm/vma: const-ify vma_assert_stabilised() and associated functions
-93ad19f1471266cbebd2afaea2bfd5333bf9bfb7 mm: implement and use vma_has_anon_rmap(), silence KCSAN
-142cdb158d5a8e204ddc377e0d8a207b4d42c7b2 mm: update comments to refer to anon rmap rather than anon_vma
-a54fec03379be46c49fb6e1e29d8821490a5d6a9 mm-update-comments-to-refer-to-anon-rmap-rather-than-anon_vma-fix
-f356dff490ac8ea55e90722eef3ca70bef436fee mm/damon/api: remove NR_DAMOS_FILTER_TYPES
-ea2c498021fa93d81df62e0fcba1e803ec7ce3d9 mm/damon/core: use abs_diff() in damon_feed_loop_next_input()
-23343a3b5d7ca59e500ff9530b25060ce1593605 mm/damon/core: use mult_frac() in damon_feed_loop_next_input()
-61eedfdf92fb4fa9d2042cc5d588dec4fcfc3caa mm/damon/core: set damon_ctx->walk_control_obsolete in damon_new_ctx()
-9dfcefa0202efab5b0e232ae08cc6ba680ccaa7f mm/damon/core: document damon_call()/damon_start() race hang issue
-f0f01bafdc9d880df57d88678ec706688a3d375d mm/damon/paddr: remove pa parameter from damon_pa_filter_pass()
-804a23eeaecbc79d9b0327eead3c2c805c82c369 mm/damon/tests/core-kunit: test eligible_mem_bp commitment
-27cb8ea6d21c2b863182c8a3aed60e86d93a9e58 mm/damon/tests/core-kunit: add probe_hits_wsum damos filter commit test
-f11f65da3a80ed06bf4739a8f054d85d3e751b0a selftests/damon/sysfs_memcg_path_leak: fail only for real DAMON leak
-997f6dbe4e9e5575ac29a6b8b2e73beadfcd74fd Docs/mm/damon/design: clarify bp is basis point
-2350b4eec1323ca3989e7c866c119db3d0ae96c8 Documentation: kmemleak: describe the metadata pool, not the early log
-b241c78267e345aeae12f21684889cd07670bcce Documentation: kmemleak: fix stale statements about scanning
-0bb26d208a35c53ba922a2a02a1d2f3c7cc7e6e9 mm: kmemleak: raise min_unref_scans to 3 for verbose auto-scan
-d5f59a8fa7110424e8b3cde67d0692c687b9af06 mm: memory_failure: clarify the MF_DELAYED definition
-22718d3767411b1ddc8b512b0c03c0370886790f mm: memory_failure: Allow truncate_error_folio to return MF_DELAYED
-d11d9b20fd203b83e7f05487b170d65d8e87f68c mm: shmem: Update shmem handler to the MF_DELAYED definition
-c2d45e5ae478059daa89c606ae93a9d1d1d00c87 mm: memory_failure: Generalize extra_pins handling to all MF_DELAYED cases
-8f26c4ed81164eacc18a4a5ded41d3eae7de8a18 mm: selftests: Add shmem into memory failure test
-78f1b61f04b5b8bdca2ba5afcf6a659901577fe6 mm-selftests-add-shmem-into-memory-failure-test-fix
-e84e75d4665bcc54e23a92f43b754d6a6c82fedc mm/hugetlb_cgroup: move per-node usage on cross node migration
-c8ea33bfa962a042109ff110e6ec419def957050 mm/hugetlb_cgroup: move per-node usage on cgroup reparenting
-3ea1dbe96b761c39c8a858b6318246e08f7292ec proc/task_mmu: remove unnecessary helpers
-4b0e29f898dba5da5964631fe5512c1fda8af395 proc/task_mmu: remove unnecessary inlines in function definitions
-853c175f7e479d23c1bafa757680f58c273a5859 proc/task_mmu: clarify shmem mapping walk conditions in smap_gather_stats()
-c60266e330202b5144974f5426e7b45a10b18dde proc/task_mmu: remove special-casing of smap_gather_stats() start parameter
-f741805f3917f643370619f513efd0685ba45698 proc/task_mmu: change proc_get_vma() to stop returning gate VMA at the end
-e3a48f3a49f4aad5a485e45a25492f3095c5a7c9 proc/task_mmu: read proc/pid/smaps_rollup under per-vma lock
-6bb6053540e64be04cf767060a1498f489d5e183 selftests/proc: add /proc/pid/smaps_rollup tearing tests
-e44538252439edae67ad5826ff6af8c859fb43b5 mm/swapops: remove unused is_hwpoison_entry()
-855732161617d175c1b28d54a66f2eaab3f865d6 selftests/mm: make file helpers return errors
-a9a31adc6c3abb59bd6c3a9ee1b7ac97df885ed4 selftests-mm-make-file-helpers-return-errors-fix
-25e517b68def33b01b5e7f5d0f36711edd73b617 tools/lib/mm: add shared file helpers
-478aaddb843e8ea5e8821ddc62f7aedd45c14384 tools/lib/mm: move hugepage_settings out of selftests
-c2c92f28d19481d4a718e7259ef9fb91ea57fe97 tools/mm: move gup_test from selftests/mm to tools/mm
-256786f608dc66c010e8630c869a8cc86ae0236c tools/mm: make gup_bench a benchmark only tool
-4b56fa505d9185d8eece03ea7d292aaaafec72e5 selftests/mm: add a GUP selftest
-b02a5b0ce53e9abbe23ec9fd7472c7a289149a3b mm/shmem: report RCU-tasks quiescent states while undoing a range
-17c4a95d757bbfa4f6ce0ecf2039989963316b4c mm: constify arguments in default pxdp_get()
-59c4e791726d428a28bf35149e43f354d32e8034 mm/alloc_tag: account for reserved tag ids in the kernel tag check
-06e8a9c37b820f28aa55c19bf64a3f9764c9dd5e selftests/mm: fix soft-dirty kselftest supported check
-c0431274ea0f75e3a28828aa6b5570613e134f03 riscv: mm: fix concurrency in mark_new_valid_map()
-8c3ba9e9de68c8d7143cdce8618af2f46fc30fbf riscv: mm: exclude invalid THP PMDs from page table check
-723cb1b03225ca2774831aa876ace14034797b0a sh: remove CONFIG_NUMA and related configuration options
-f448e227ce39ed9bff0e7b02e724a130ba2ba9db sh: mm: remove numa.c
-8b067180258f078fb7fd120224b4b1dbe038e0c7 sh: mm: drop allocate_pgdat()
-8881789c37852c92184e1fae10352829b9335f90 sh: remove setup_bootmem_node() and plat_mem_setup()
-65915613a7257a170e5dcc8c812f1bd1a0231585 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-d463ac17dbeda1b7cd03f75682ec8fb8347af14d sh: drop include/asm/mmzone.h
-7ad4e201d236a4be5b9b103ef3078e4f81a4b0df init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-7af699d2fffb797a4b0803bb1a508e4824a67c4f sh: init: remove call the memblock_set_node()
-05a73acbca88801321908f05c5df241552edd030 sh: remove SPARSEMEM related entries from Kconfig
-d723689492b22f93fef3443c2c0067ba5f97107f sh: drop include/asm/sparsemem.h
-a4339e3a4298a6a5f3c747e985b62f4f59cb5750 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-498ee28e5ec4727f829507c4a1bde3ab1b7704cd mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============4895642389462154557==--
+--===============1804253902651382707==--
