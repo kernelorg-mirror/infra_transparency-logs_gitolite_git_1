@@ -1,31 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============8763090870622584118=="
+Content-Type: multipart/mixed; boundary="===============8127464560457062545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Sat, 19 Sep 2026 00:12:35 -0000
-Message-Id: <178977675501.2221423.5753055844706327522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
+Date: Sat, 19 Sep 2026 00:18:36 -0000
+Message-Id: <178977711615.2225616.6635611220896490215@gitolite.kernel.org>
 
---===============8763090870622584118==
+--===============8127464560457062545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+repo: pub/scm/linux/kernel/git/linkinjeon/smb
 user: linkinjeon
 changes:
-  - ref: refs/heads/ntfs-next
-    old: 27d5cd2d940b53718f66fb682475587aa993d760
-    new: 018344e6f5551c5b555e26bd77e3a9304ef122d0
-    log: revlist-27d5cd2d940b-018344e6f555.txt
+  - ref: refs/heads/master
+    old: 89a312991dc6e638a36adc43ccb91dbc25504c04
+    new: 40288c9206c17eb66a603262e06a58d300d0f279
+    log: revlist-89a312991dc6-40288c9206c1.txt
 
---===============8763090870622584118==
+--===============8127464560457062545==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-27d5cd2d940b-018344e6f555.txt
+Content-Disposition: attachment; filename=revlist-89a312991dc6-40288c9206c1.txt
 
+e615b9fd4d9df602030d9b57a5eca206abbb0aff selftests/bpf: Test inner map identities in callbacks
+519f858317afc52e986817ad63fd68172dd38b6c Merge branch 'misc-bug-fixes-part-4'
+dae8dda341d2d9034a90d59e8a7d502e1263813f tracing: Fix subbuf resize races with trace_pipe_raw readers
+f2b2b645595c82b4e824880f6cb987e077a8da19 ring-buffer: Cap static ring buffer nr_pages
+c843fd3c73c94cb90b01c6bfe8d83796e652864d ring-buffer: Prevent truncation of nr_pages / nr_subbufs
+5cbea500775dd1944995f23320af030b9b24b24b tracing: Fix comment in tracing_buffers_splice_read()
+d80e12156f1fd490adf29a8d28489725a3ac817a ring-buffer: Use a macro for static buffer bits
+408802f1e61dad400ed5d2504165579189cc183f Merge tag 'ceph-for-7.3-rc2' of https://github.com/ceph/ceph-client
+3f17a52d47ed39c89cc8429307cf246e781ec979 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 654ae5d73c05bd2943d65636ce6cd0aa46e62f18 Merge tag 'drm-fixes-2026-09-05' of https://gitlab.freedesktop.org/drm/kernel
 fb3088dc5811a27dcc4775eaf44bd85ade265762 Merge tag 'ieee802154-for-net-2026-09-03' of git://git.kernel.org/pub/scm/linux/kernel/git/wpan/wpan
 5bd9e4e7cdaa03879e9b73b12ab52cceb1edd55b nexthop: Initialize extack in remove_nh_grp_entry()
@@ -742,6 +751,15 @@ bcfe2816e6ec46c3f4c58aa4264476665ddb3f69 tracing: Don't dereference trace_event_
 3ce99a68f7d5b878a7746d479591a18651a8238f Merge tag 'kbuild-fixes-7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 2f0c1cf72f4682178506f513bbf015e591b1aa4a Merge tag 's390-7.3-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 ff4b61e3b7b338a92cbea555013937e69c25fa52 Merge tag 'edac_urgent_for_v7.3_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+6d8c197c9992659a65525a07de4368c8401fdda7 ntfs: use dynamic MFT tail reservation
+b1d732e62a5b3942546e4edaab8976258e779287 ntfs: repack $MFT/$ATTRIBUTE LIST
+631946431ddc66a472c5cc629cd654e62dfa1f88 ntfs: account for MFT records added during allocation
+91709ba5d6d709b2b663287b7e871e2c6b480502 ntfs: protect runlist updates with the runlist lock
+1923eeffa63edeff427d76fc302bc5eb835771ce ntfs: propagate folio errors
+8c5dc7587fdd45f957af81a9adc1e16863f300fc ntfs: ignore interrupted inode reads as corruption
+fc440366c47000b768d013e347f60e81d60328ca ntfs: discard inodes that fail initialization
+0c32a42fd96a0e7c06c8a648a6dd8f1ec0bf643b ntfs: unhash failed inode reads
+229e8188307b9724cc676a49e9600c4acd24b571 ntfs: fix $MFTMirr write offset when it spans multiple folios
 76a986c980bb502c7688d605ac7a67fd257a9a1b ALSA: usb-audio: Clamp implicit feedback packet count to URB capacity
 fd95e68df6fe66344161a1329cbe5e5805e7b704 ALSA: core: Fix potential UAF after asynchronous card release
 6c05d00af307560e6a9f1631d6270d3df5aa2272 ALSA: virtio: reset device before deleting virtqueues
@@ -1032,23 +1050,5 @@ ef31d04b6d8adfc971fc6b9ff76a1d6dc9aeefab Merge tag 'pci-v7.3-fixes-1' of git://g
 17e7b8eacf4cac800a4fc89a28729df72a2dabda Merge tag 'cifs-fixes-7.3-rc4' of https://git.manguebit.org/linux
 71f370e9ee1bdfe1f916547089d93b5265a918e7 Merge tag 'drm-misc-fixes-2026-09-17' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 40288c9206c17eb66a603262e06a58d300d0f279 Merge tag 'drm-fixes-2026-09-19' of https://gitlab.freedesktop.org/drm/kernel
-7ab6ce6967ea806bfe4d38a844a85339456d0cff ntfs: NULL vol->vol_ino in the load_system_files() error teardown
-7d2300bd06c18a2e09792d9920415ed686cbaf4f ntfs: use fatal_signal_pending() for fallocate interruption checks
-128b9e95ff495287ba75215270f87fa573be5752 ntfs: remove unreachable code in load_and_init_attrdef/upcase
-265751c378a22e93824453a6aeb1b1711d43bba8 ntfs: return -EINVAL from ntfs_collate_ntofs_ulongs() on bad length
-b9c3e8e2c82a17810cefc415b423481b1c627e9a ntfs: preserve the truncate error in ntfs_enlarge_attribute()
-31cf62417ee7f5f2bd7c3497e507e7fbab1965c1 ntfs: propagate the map_mft_record() error in ntfs_attrlist_entry_add()
-b5e0b1ac24f7b2a2e9d650ecaf10d318abb05b3b ntfs: propagate the ntfs_attr_iget() error in update_reparse_data()
-38a7d631c6de8b7bba5bcc429ec11a327f760c35 ntfs: fix error handling in ntfs_extent_inode_open and propagate errors
-189c906a2f04841769258e850bd3fc104da7c61f ntfs: avoid truncate and writeback deadlock
-8d88fdd74a6cf1d292a02c54ec590098008ea422 ntfs: fix lookup of POSIX names with Windows-invalid characters
-0376b9ca699a73b53d4f581fd6ec359cadfaee2f ntfs: fix volume flag update races
-4ef82f9ed98ee68427fcae24965232eea6cbb640 ntfs: set the volume dirty bit unconditionally on metadata changes
-109c81146c22ad43be08b727e5ff9e5ae19a938b ntfs: sync the volume dirty bit with the recorded error state
-9b15b083e15be4bc1f1a1f5655b7c08a225a42db ntfs: persist the dirty state after the final put_super() commits
-1b786c177158776d5a71095d6faab89e4fa3cda1 ntfs: do not clear the volume dirty bit during sync
-5237917af61bb28ab50d5722ea3b78cad5f0c8f8 ntfs: check the dirty-state commit on remount and unmount
-3fc7b96f474c25ac38d53e32a0a648f5092a7a89 ntfs: fail remount on sync errors and keep the dirty bit on SB_FORCE
-018344e6f5551c5b555e26bd77e3a9304ef122d0 ntfs: fix directory lookup on large-page systems
 
---===============8763090870622584118==--
+--===============8127464560457062545==--
