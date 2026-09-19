@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5402317177424399426=="
+Content-Type: multipart/mixed; boundary="===============4023051587735296770=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 19 Sep 2026 05:33:24 -0000
-Message-Id: <178979600483.2458584.11687896880166735337@gitolite.kernel.org>
+Date: Sat, 19 Sep 2026 05:33:31 -0000
+Message-Id: <178979601183.2458830.10812903442780470145@gitolite.kernel.org>
 
---===============5402317177424399426==
+--===============4023051587735296770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 72a930db88c446bfd24dc06d9edecb66b266d734
     new: 011a2968cf491043ca0f5e1cbf7ee6298c4a1b28
     log: revlist-72a930db88c4-011a2968cf49.txt
 
---===============5402317177424399426==
+--===============4023051587735296770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ ae7b5234fa8b4150caae67844507c8d765731417 selftests/bpf: Test attaching struct_op
 d7399d91417bc96b20862bea664dfd00821d9445 selftests/bpf: Add test for bpf_tcp_ops header option hooks
 011a2968cf491043ca0f5e1cbf7ee6298c4a1b28 Merge branch 'bpf-a-common-way-to-attach-struct_ops-to-a-cgroup'
 
---===============5402317177424399426==--
+--===============4023051587735296770==--
