@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 20 Sep 2026 00:00:43 -0000
-Message-Id: <178986244301.3279908.13048028938889289705@gitolite.kernel.org>
+Date: Sun, 20 Sep 2026 00:14:29 -0000
+Message-Id: <178986326995.3288057.17398793070977985230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,12 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: c440250e9ca895b4b47f6e9eac93b1bb1b2f96d6
-    new: 5ac134441dc8c70d1a70b0503c1157e6b0463a27
+    old: 5ac134441dc8c70d1a70b0503c1157e6b0463a27
+    new: c327feb929dbf3378b86912a56e41fcb7e941f5a
     log: |
-         52fb7cca01e11b7df9c7c4988d619dddd46cc170 ieee802154: avoid deprecated .ndo_do_ioctl callback
-         d98a52ae914e9fef700047f1eca486087abb13db net: remove ndo_do_ioctl handler
-         5ac134441dc8c70d1a70b0503c1157e6b0463a27 net: hibmcge: fix spelling mistakes in comments and identifiers
+         5f22f5fb90516ed98886c4ae22d27edef92b8d1e r8169: set eee_enable_default base on LPI cap
+         ca44c21fc117215fdd65c087a19c048ccd52a26e net: phy: realtek: add support for RTL8261CE_CG
+         c1edd457d21691550ac225e3315aea33d28f246c net: phy: realtek: add firmware for RTL8261D
+         5a13a6152fd0ef309712c2083bae6bffce3638a5 net: phy: realtek: add support for RTL8261D_VM
+         c327feb929dbf3378b86912a56e41fcb7e941f5a Merge branch 'add-support-for-phy-chip-and-firmware'
          
