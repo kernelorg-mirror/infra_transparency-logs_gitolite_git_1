@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Sun, 20 Sep 2026 09:05:58 -0000
-Message-Id: <178989515869.3663389.9234310867149294233@gitolite.kernel.org>
+Date: Sun, 20 Sep 2026 09:08:16 -0000
+Message-Id: <178989529687.3664271.10145712838941829693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,17 @@ repo: pub/scm/linux/kernel/git/mic/linux
 user: mic
 changes:
   - ref: refs/heads/next
-    old: fc1f26cc8356d71a886b79bfbaa773ffd2c32acd
-    new: c1249ef6ec5563a505e442d05336d8d7ca0eca8b
+    old: c1249ef6ec5563a505e442d05336d8d7ca0eca8b
+    new: 7a44607e61abc93335318a6f175513e83f554170
     log: |
-         256b7e5545316241a274803c505a781efb3ea79f landlock: Work around gcc-16 -Wuninitialized warning
-         7a77de51a59c13a2b6a716b652f8b2c182a358cd landlock: Fix tracepoint fixed-width type names
-         9712465d73ed41e90cc1f97c9a2756016aed4be4 landlock: Fix filesystem denial blocker reporting
-         6f347012f6d18b400409ca97dddc819152fc539a landlock: Fix rule tracepoint context
-         8399a4fb39e44ce765de5c7cbbc6a05aaf194142 landlock: Fix network denial trace context
-         44d6b4b93de40788a74343a01bcf4135ced050d3 landlock: Report the actual ptrace tracer
-         cd53fd358d7cdb9833653214eb5fd7a5f08d4908 landlock: Report the effective signal number
-         a146f3232b75faf2f0a8a2647e3904faa26549bb selftests/landlock: Test filesystem denial blockers
-         33d715726d27b64ea526f5bb6a476445eb1116f2 selftests/landlock: Test network denial context
-         c1249ef6ec5563a505e442d05336d8d7ca0eca8b landlock: Fix tracepoint contract documentation
+         c4e941bb7654bcbdfb0b6f3341dc2acfdf235c8d landlock: Work around gcc-16 -Wuninitialized warning
+         f71ecaece401cef287cdca12aad785fec809cb9e landlock: Fix tracepoint fixed-width type names
+         0de33ca344fbf983d380d78db6eeb6fe312d5a5e landlock: Fix filesystem denial blocker reporting
+         1a985d3890ed8caa428390a5682e957503f14060 landlock: Fix rule tracepoint context
+         98b04ab00f0e738d69bd718228db55483a911b7a landlock: Fix network denial trace context
+         7ad69ac63315506e2091bf46d5c96c49f6ce439e landlock: Report the actual ptrace tracer
+         0889db596a25ecde210e66fa0db70bc6a6d91f6c landlock: Report the effective signal number
+         c6dea91d846f192eb6ddbd44f5fd873035b8b285 selftests/landlock: Test filesystem denial blockers
+         de1ac5c8c7ab75f8126bcd44d69ac64e51010670 selftests/landlock: Test network denial context
+         7a44607e61abc93335318a6f175513e83f554170 landlock: Fix tracepoint contract documentation
          
