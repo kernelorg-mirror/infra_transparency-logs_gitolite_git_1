@@ -1,56 +1,75 @@
-Content-Type: multipart/mixed; boundary="===============9177635576146067243=="
+Content-Type: multipart/mixed; boundary="===============2285321684841658290=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Sun, 20 Sep 2026 17:08:04 -0000
-Message-Id: <178992408434.4008089.9893156206205478636@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Sun, 20 Sep 2026 17:08:21 -0000
+Message-Id: <178992410163.4008321.11615341842906123263@gitolite.kernel.org>
 
---===============9177635576146067243==
+--===============2285321684841658290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
-    old: 771c036d72eefe36aa6c953ecf44bee4c000a368
-    new: e3049c9edd4181e5ce4f83bbac4b611d921f45ff
+    old: c4a51ebfa6e39731802785057a0bd64671b329c6
+    new: ee349535ceea2102c2567ad07e5eedb2f149dbad
     log: |
-         e3049c9edd4181e5ce4f83bbac4b611d921f45ff memory: emif: Remove const from min_tck allocation type
+         802a1a97c41dff82a557223f7a43655fc02920bd clk: samsung: acpm: introduce driver data for SoC-specific clocks
+         13634cde9771811488847ef76cd64a785599fdb5 clk: samsung: acpm: add Exynos850 support
+         826f1cb2c4884d3b074411b97b1949589d59e074 Merge branch 'next/clk' into for-next
+         ca4fb89e677527e32d16c5eb779eb34bccd2b967 dt-bindings: sram: Document samsung,exynos850-acpm-sram
+         089d44f32868e6a5fc3f817073b59b298fbc9e73 arm64: dts: exynos850: Add acpm SRAM node
+         ee349535ceea2102c2567ad07e5eedb2f149dbad Merge branches 'next/dt64' and 'next/drivers' into for-next
+         
+  - ref: refs/heads/next/drivers
+    old: 2f04ec82e51da9d5af5cb48c9f24c0318655b0f7
+    new: ca4fb89e677527e32d16c5eb779eb34bccd2b967
+    log: |
+         ca4fb89e677527e32d16c5eb779eb34bccd2b967 dt-bindings: sram: Document samsung,exynos850-acpm-sram
+         
+  - ref: refs/heads/next/dt64
+    old: 1b1dae647d7395a524dad2a0135bbb07a2b2d519
+    new: 089d44f32868e6a5fc3f817073b59b298fbc9e73
+    log: |
+         089d44f32868e6a5fc3f817073b59b298fbc9e73 arm64: dts: exynos850: Add acpm SRAM node
          
 
---===============9177635576146067243==
+--===============2285321684841658290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1789924082 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1789924082-4c9dd99ce8d9ecf5d951629db0c35c31c4c2de45
+pusher krzk@kernel.org 1789924098 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1789924098-d3f3e96fe1d5d130ef92068072eefb2d2be936d3
 
-771c036d72eefe36aa6c953ecf44bee4c000a368 e3049c9edd4181e5ce4f83bbac4b611d921f45ff refs/heads/for-next
+c4a51ebfa6e39731802785057a0bd64671b329c6 ee349535ceea2102c2567ad07e5eedb2f149dbad refs/heads/for-next
+2f04ec82e51da9d5af5cb48c9f24c0318655b0f7 ca4fb89e677527e32d16c5eb779eb34bccd2b967 refs/heads/next/drivers
+1b1dae647d7395a524dad2a0135bbb07a2b2d519 089d44f32868e6a5fc3f817073b59b298fbc9e73 refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmqwEvIQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD12K1D/9C3PzDF5HvhGm+5tkhTJuctdkyePAdC5eA
-rlScw394ouJqoXKRmqHSK4ZPeLskzu2lpbrR62k8p5xbmyz53Ragqw8HjgODucXn
-cjWljc+/QNQRTDZ6lC901mRkRLoGiblgKQQtQEaeMH6xr92rxQExse3vEQJPz4hA
-Dr2dhg0P7HS7vmLPQTH9NHeWkgpuxlKU3K+a4KKgKhefIor5h3wPTKWblzvt2F2z
-OI3tg38qQIh/zdopduQnB1pWWMlhGebqZ+mWwl5dgFIBGbCFr9lR/CRCgECxmhs2
-wlZ2PAnj1dB67rfAsvOqt1DUsAwaAR36nfQhZKMoQv+GDmveeF4spdZsBQmTQ3Sn
-n8jQCAystHhUnUnE0W175VSuhoUUnIT/dArx2bzEVn1885V6VqzsT2SlVFCgvrCy
-0KeQdQNjrR3gp+iKEsfIkIsBCDC1nDnvzlt9wN40Quxd1M182xenSBJRky0cMc8v
-GfY6x4O/3drRNgQ6idwLGD1dKRphLjqlBctz+fLoPLl9XLZsfTqqMkCEF78EpYXl
-w6LZMelPBPlFwNaldcI35odjZnYMccw+uVLgSCvt+x11untSCCVgMNB/OjozMfCx
-WvOzRIXMKs0FLutfL0O4y+5z+UgahMPgFvJg3XacTwCniZOERE+4TLd4wc0EbOth
-TFY9DRrWzg==
-=PnyH
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmqwEwIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD19jpD/0cQL2RJxrPamalsjbWE+8kvvCOBCf1IMY0
+c/FTiUld9IgKnWTfhUn5D0C0MyTWb2OYSAaRFHCsW6rn2447+QAMdMRjJpsL+epz
+ePfjcT5995byWcCfCKE4NiYu8gm9mD0QO/a7mUglQ7Ya6BPBKGCpc6YqNIaIm7JB
+p22boPF/URK+K2Y9lg/YuxxGEbdjEn7Pqqv9E9/v/etctn+TBT21uACD6uDcl/FY
+J1m4c8WQWu0vAMdfbm8xHYfNBAEWbZrCELiHHNh/ORji0xqPN79JdTj/UNOTk9Gd
+xwhuetRMSGLk6NwVFtlY8R1FTNQEp2k8jgLxJnkfoUFIJA55IW4JJ9b8ikAyD+UO
+WOhfs5oWtApcvtjekDLBPYkbgcQHRheiIJOuqOQ7KFAWE/pm3T/7qvY4ncrXrg63
+N7FpVDTIrFGvKK/7VA5LC0oQ/+OXZ1A6wDFjNkvPnH+jL7hpxeoJn3FfK8ePFW2g
+pF4MvYKmugi04yYTHA21LpPByJIzU7voZUIYIEBag0Nrz7A27c/HYM39/OXAIaXv
+qhDQr6+NEmd4HEKw3Bu8sSYaG46oNxeridN7bOHsCHGZ3PRZfBgP38CebA6F5pGb
+eMPRicWHaEjWoPeFEmo5DbSFlZX6Q61ALegyY3KsVFiVxfUjXcTjK2Z6SmGjXRIZ
+ifbeo6rM3Q==
+=Fj0y
 -----END PGP SIGNATURE-----
 
---===============9177635576146067243==--
+--===============2285321684841658290==--
