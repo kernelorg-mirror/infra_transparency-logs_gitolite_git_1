@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4868203952580466753=="
+Content-Type: multipart/mixed; boundary="===============2018860355757646636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Sun, 20 Sep 2026 18:48:37 -0000
-Message-Id: <178993011799.4084265.2575999290155133806@gitolite.kernel.org>
+Date: Sun, 20 Sep 2026 18:48:57 -0000
+Message-Id: <178993013724.4084557.16196110798025070751@gitolite.kernel.org>
 
---===============4868203952580466753==
+--===============2018860355757646636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ojeda/linux
 user: ojeda
 changes:
-  - ref: refs/heads/rust-fixes
+  - ref: refs/heads/rust-next
     old: 40288c9206c17eb66a603262e06a58d300d0f279
     new: 6a5719cc3ef2e4d9857cc4ae18e6db09d59a8cc9
     log: revlist-40288c9206c1-6a5719cc3ef2.txt
 
---===============4868203952580466753==
+--===============2018860355757646636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -116,4 +116,4 @@ fecbe78ac0e7bb5cdae232444e649a3103d9a917 Merge tag 'sched-urgent-2026-09-20' of 
 a10a019dd4c7c57bef6b8dda962c8881ad220af2 Merge tag 'dmaengine-fix-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 6a5719cc3ef2e4d9857cc4ae18e6db09d59a8cc9 net: qrtr: resend HELLO on MHI resume
 
---===============4868203952580466753==--
+--===============2018860355757646636==--
