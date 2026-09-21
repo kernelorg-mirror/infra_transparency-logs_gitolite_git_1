@@ -1,52 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0858147834751662712=="
+Content-Type: multipart/mixed; boundary="===============3402117016410761356=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Mon, 21 Sep 2026 12:06:46 -0000
-Message-Id: <178999240622.704190.13149934557583553651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Mon, 21 Sep 2026 12:12:10 -0000
+Message-Id: <178999273093.708134.18291422744413696093@gitolite.kernel.org>
 
---===============0858147834751662712==
+--===============3402117016410761356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/merge-2026-09-21
-    old: 0000000000000000000000000000000000000000
-    new: 3b136ea0e92d6243753f1a5d91fd917dfd7bd9fc
+  - ref: refs/heads/scx-proxy-exec-next
+    old: 853ddf9e3b6037ed8b11871711556b366c3ea522
+    new: 4f150479d48b5acd3ff191243bf656036c3bbdd6
+    log: revlist-853ddf9e3b60-4f150479d48b.txt
 
---===============0858147834751662712==
+--===============3402117016410761356==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-853ddf9e3b60-4f150479d48b.txt
 
-certificate version 0.1
-pusher 7BF9099A 1789992360 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1789992360-bd2669f8cbfa452574ccb6b0d4d5e668516a3120
+8d5a9812a8632e7afe59599d5129c1e8030c25fd sched: Make NOHZ CFS bandwidth checks follow proxy donor
+f353b035c471316d8470239c3cc9a0cd0a57756c sched: Add helper to block retained proxy donors
+e4855a510be167fca2822d8a63f1ab42baefeb94 sched: Add sched_ext hooks for proxy execution
+fe6d453548903d05d81128e10b0aaeed52506b5e sched_ext: Block proxy donors before taking control
+33c2cdba0d1931a67c220832e35bc87e8d4d6d29 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
+522101d54cca0838ba8bc48e74d536a5c9acbe1f sched_ext: Move reject DSQ draining into core
+fb79ce84eb25de64e8771383f3b1b0fd491ba530 sched_ext: Generalize the reject DSQ reenqueue path
+15a4dec1b5695b9dfb55f04e5bcdd02c91199917 sched_ext: Handle proxy-exec races in remote DSQ transfers
+3d5229674e4fe017aaf674ee9b2d353d87af095e sched_ext: Split curr|donor references properly
+1e8f4f8a6a47dca506337d5cd02013ec3aed873e sched_ext: Delegate proxy donor admission to BPF schedulers
+4614de29900241f912ecde754f35e03c3e13ab22 sched_ext: Add selftest for blocked donor admission
+0ed2345bfb19df1007202995a7c9f4e63be78484 sched_ext: scx_qmap: Add proxy execution support
+4f150479d48b5acd3ff191243bf656036c3bbdd6 sched: Allow enabling proxy exec with sched_ext
 
-0000000000000000000000000000000000000000 3b136ea0e92d6243753f1a5d91fd917dfd7bd9fc refs/heads/merge-2026-09-21
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmqxHagACgkQ10qiO8sP
-aACofBAAnSQDdYQtU1OZPdES1lxLrV7opxLUIzz1YItW9tzaIt7iQafSUlBa+haP
-4eSwCDV0KLaHl+1EpM7JcVN4YAdLML9CXCH0dyeYO1IQZLxA1FtL3l71zfs6lo2L
-WX0oN20mB/YP/3eHxLB45plMy0/g6ldedt+IsuHTMIrJEpdHmrKgPx0GG6fBImy3
-ME+R+JYjHZqAxgWehg3PlL87c4ZI7ywv4tEDW/hnqedPNkTj2RzN3zGiR3DcRgT/
-30Gk9pwx3l0P/PxAOexPGMrdg2DVbred4um9ISVpKhGyUTXAKcftFOCkb2g31pYj
-Zb2Bn0QhBlUbGpriheZrbfZldQKf25slhdeg6xlLSlkloQgfunmMhfY76iQzDNBM
-6J+PAJwQ7j9FM4dShK9UwH0QUM1edFR5Ji2BZ9ZRTQSHBDrt+hWDzRbEgawwxvUP
-+UfcBlapgUy6UJLwua1nIH2OEendYkE9WmIb0VO6Gdgi0FUVshnGTddQi8/yON5s
-fkS5L1b3ptwZpOPNIuDTMCEiTWn3jiX+80R+8iDDcgnK/lPLXGkeUDhWWDUsYkyt
-BecVweV5FYF1xqufrCaSDNWkrkZoLRKzJ60p9MPNgELwWcPjobw3g/H+lkiT/DER
-FefzyAyn4eDMbWajgL3D3GkEHmbH9K1jpNTJT/TR4x9LbC0HbY0=
-=tnBU
------END PGP SIGNATURE-----
-
---===============0858147834751662712==--
+--===============3402117016410761356==--
