@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Mon, 21 Sep 2026 11:35:27 -0000
-Message-Id: <178999052725.682196.6001387810092447652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
+Date: Mon, 21 Sep 2026 11:42:04 -0000
+Message-Id: <178999092455.686678.13350746540762106736@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/modules/linux
+user: ppavlu
 changes:
-  - ref: refs/heads/dmabuf-size-ceiling-v7.3-rc3
-    old: f959b2ee8a243fba158472a544e241c1bdae80f9
-    new: c5e054ccaedf0778bd70baf19cc9200fe5a7acc1
+  - ref: refs/heads/modules-next
+    old: a22f1497700e1b4b1d6285b7884cc1da3ffbba43
+    new: 37002f9eb9bc4132022d6c0b3548f132299b87c0
     log: |
-         c5e054ccaedf0778bd70baf19cc9200fe5a7acc1 drm/amdkfd: port AMD Infinity Storage file I/O from the amdgpu driver
+         37002f9eb9bc4132022d6c0b3548f132299b87c0 modules/kmod: Allocate argv with kmalloc_array()
          
