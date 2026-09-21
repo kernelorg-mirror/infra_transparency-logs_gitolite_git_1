@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3261283353179545343=="
+Content-Type: multipart/mixed; boundary="===============4366242565220611154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 21 Sep 2026 14:24:43 -0000
-Message-Id: <179000068370.982815.10099728857016621357@gitolite.kernel.org>
+Date: Mon, 21 Sep 2026 14:25:05 -0000
+Message-Id: <179000070528.985004.8638190300124437128@gitolite.kernel.org>
 
---===============3261283353179545343==
+--===============4366242565220611154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon-next
-    old: f4c3b88983f342d6614cb11b53a0640ec8bc8fd2
-    new: 0d1c5c112a4188b296e0a27f10745ae735fef030
-    log: revlist-f4c3b88983f3-0d1c5c112a41.txt
+  - ref: refs/heads/watchdog
+    old: c3d85c669d09007aeb9eb9f3d28d8c863401f83f
+    new: 93f51579e7df248780214094418f205253383cc5
+    log: revlist-c3d85c669d09-93f51579e7df.txt
 
---===============3261283353179545343==
+--===============4366242565220611154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4c3b88983f3-0d1c5c112a41.txt
+Content-Disposition: attachment; filename=revlist-c3d85c669d09-93f51579e7df.txt
 
 21efadc62272cabee9bec27777ae75d84a9ca8a8 Input: adp5588-keys - cache GPIO state before registering the gpiochip
 4d7fa28e151a6a6f24098d9e60f558f8ea61ddaa dt-bindings: input: mediatek,mt6779-keypad: add mt6572
@@ -38,19 +38,55 @@ f84819ef8d66931ee3998fee3c4f03230f4cb6cc Input: zero ff_effect before compat cop
 d1fc569fcbc7be6de06b034cf954a95e30ca1fb2 dmaengine: mmp_pdma: fix wrong extended DRCMR base for SpacemiT K3
 0294b6dd515256c03ea2dbf508ddd3826d788579 dmaengine: ti: k3-udma-glue: fix NULL dereference in k3_udma_glue_release_rx_chn()
 a7df136ec529ee49a789c5029bc37b98b0d4bedd dmaengine: sprd: Fix runtime PM reference leak in probe
+b7c0f8436f077e7f66c9f07714bd57068e2a0c31 drm/msm/adreno: Only check for PAS when a zap shader is present
 aba7b41faeecb7692458095ce6fafc341fe0b80e soundwire: cadence_master: wait and cancel cdns->work before clock stop
 424103642d009f5a7dc33300a49d5606d1bf4fb5 dmaengine: add dma_device_get() helper
 44dab659064eb5c10adb0306510eebe848ed592d dmaengine: Fix device kref underflow in dma_chan_put()
 e873c74132f0c5f1452816cd9bb26208f0bba1e1 dmaengine: fix use-after-free in dma_chan_put() and dma_release_channel()
 dc750422170a563c7a81f6e49d36bb02c62ae37f dmaengine: wait for RCU readers before releasing dma_device
+3fc9f0558c95152b14d31badd5b27e5978bfb204 drm/ci: Update xfails for kms_cursor_legacy regression
+264bf9655c3d067d775a46f05eb8c871c488a864 scsi: pm80xx: Fix the use_msix, use_tasklet and read_wwn parameter descriptions
+779f202a92ef10a426efc07d0f4267918cb07ca3 scsi: qla2xxx: Fix the ql2xfc2target parameter description
+1274045b0eda1df5a5cdd3e63ed48cf013b3b4ea scsi: ibmvfc: Add Kconfig dependency to fix link failure when NVME_FC=m
+0cb1fd924126f1f581621a5e804df98a02be9dff scsi: fnic: Fix missed link-up when critical IRQ targets offline CPU
+3d676e458fe0c566f5a62753dc696b6a862fc412 scsi: core: Validate MODE SENSE lengths in scsi_cdl_enable()
 cee9c863ee68cb27d66745eb03f60e357f4f8ad2 dmaengine: xilinx_dma: Fix hardware buffer descriptor reuse order
 c90b6973daa37f4c283342dff881ae001dea4fe6 dmaengine: sun6i: fix non-atomic read of DMA position registers
 9096bdc8d930147f7c39a493a859acbd3a8485d8 dmaengine: sun6i: fix undefined behaviour in sun6i_dma_tx_status
 f6504be006aa4bb4bd26285f410a885c17920d65 dmaengine: pxa: fix double counting of the hw descriptors
 7ed1e3070c9b4bbd67d5519e14711038dd53ab13 dmaengine: xilinx_dma: Fix hardware buffer descriptor chain after cyclic DMA
+3db7d7d583419f7b1f2e141e36418802dbb25cf8 drm/ttm: fix swapped-out resources never leaving their bulk_move range
+fcfe64715b425262af1b36f498f9197f3537ceed drm/ttm: apply the swapout bulk_move fix to the intended condition
+adf5967331318bcb436fc80069915231ec039352 drm/msm: Fix the separate_gpu_kms parameter description
+8061ee61b9426fe38350fa9eead2d9c50b03deb6 drm/msm/adreno: Fix the skip_gpu parameter description
+01c8d1f385f788f1bbbbb7687c4386d614281218 drm/msm: RCU-free the scheduler-containing ring and VM objects
+143755bdabaa96776c24f878014608e9cb44f930 dma-buf: Make DMABUF_DEBUG default to y on DEBUG_KERNEL kernels
+b344ca94e8cc85796f16ea25e2e5a8e0303fe813 dma-buf: Fix silent overflow for phys vec to sgt
+06dd5e1ae8ce4e129791087c8c66594950f0ba03 dma-buf: Split sgl by largest page-aligned chunk
+9eb1a393c89a79c4210230d23e7d88d239c61d7b drm: Fix drm_pending_vblank_event leak in error path for out_fence_ptr
+a5c41fa7f925fda2db394329fa0b26243fa63a81 Revert "nouveau/gsp: fix suspend/resume regression on r570 firmware"
+12f6eff11ccf9cad3b2dfcdd94184fdb9ffface2 drm/nouveau/gsp/r570: Set GcOff = 0 in fbsr
+24fbd6d4bcf3363ef13ebe0d36dea93f30396c6d drm/nouveau/gsp/r570: Enable S/R Display workaround in GSP
+bbb9293c9bb792f3f16c842f223b8c97bdbaf227 drm/nouveau/gsp: Increase delay for magic sleep in r535_gsp_fini()
+23c240d9509e15f72e4112fc95f0160ab32ec430 smb: client: validate absolute native symlink targets before NT fixups
+3163cd7253432f262c2fa22edb51474d7afc76a0 drm/msm: remove stale perf counter XML TODO
+ed9ad3d4183053d4a8c43960a3d23ea8db71c30d drm/msm/a6xx: Add CX AO Counter registers used for a750 GPUs
+a2b65837980a513cf24825bc4a50b0430e3391e7 drm/msm/a6xx: Use CX AO Counter register for timestamp on a750 GPUs
+ebc5660132ddd244b57f03ed324922013a3d7363 smb/client: send lease break ACKs thru correct session for multiuser mounts
+effce1cb87ee0d8b3a8cbe7722968f4ea7efd360 drm/gud: Ignore damage clips in full update mode
+59ced288fcba9e91bd38e61a972ad782c4edb7d0 drm/gud: fix out-of-bounds write in gud_plane_atomic_check()
+ba970587a0e1203b6a0934b5b9174886b4c4d24c drm/msm/a6xx+: Increase GMU FW init timeout
 48e97c59a49c9e90270f5e3d221db253b76de5da phy: renesas: rcar-gen3-usb2: Avoid long delay in atomic context
 de7f29a1fe1dc2864d8a47f8c39d508442cae167 phy: mediatek: phy-mtk-hdmi-mt8195: Fix PLL calc divisor overflow
 486a70ef848264dcf9a57f0bb0452848db9537de phy: mediatek: phy-mtk-hdmi-mt8195: Fix TMDS clk bit ratio setting
+c65eae6f61d1778ff7a82e4aae4080e26f486af1 smb: client: cancel reconnect work in clean_demultiplex_info()
+5f270f091256da1338c3631083e15d7f83cc05e1 smb: client: fix rlist race and missing initialization
+e75c96157d45e498970158c8f7373d90102e33b9 smb: client: fix smbd_connection leak on cifs_get_tcp_session() error
+ea9dadeac79cef509a4b8b4a3e3b39a741e63313 drm/msm: mark the fbdev framebuffer as system memory
+e249a6e2a130c08bb4d8b0a55cbe29754307e5c9 drm/msm/dp: skip PUSH_IDLE when the link was never enabled
+6fbbf1e152f34ad3913e4a6476680aba672c5068 drm/msm/adreno: fix autosuspend cleanup during teardown
+58995b11dfb7dda095d23f22fa4dc79b923b5adf drm/msm/dp: fix link bandwidth check when wide bus is enabled
+a5b5cc909931572aec446e129c035b76b3f0c1fa drm/msm/dpu: clear pending peripheral flush state
 26eb3d92c7a4d7adb1ae1740ca6e8e100b11d1ec Input: synaptics - disable InterTouch on ThinkPad T440p (board id 2722)
 25e424eb4ae1a662d9c3573218d06ac32f797fc5 Input: i8042 - add quirk for Acer Aspire Go 15 AG15-42P
 930a7312c946bf4731721cadd82bb9a2ada496ca spi: spi-qpic-snand: avoid writing QPIC_EBI2_ECC_BUF_CFG register
@@ -65,10 +101,26 @@ a52ae68a937efc353251aec27fc995ff66cbe1ca Input: eeti_ts - publish the OF module 
 55fc280e951ab2b39f3dcb640edc1b1eebc6d173 Input: tsc2007 - read "ti,poll-period" as u32
 971fa7ea8621e123feb9c8d7dc61be1c656bd945 Input: xpad - add support for Victrix Pro BFG Controller
 309731e95917125bbd13626a7a5600490a5bf44f Input: hp_sdc - shut down kicker timer on module exit
+247a82da6f563dcfd9074a68f99a0c0997d0679c drm/xe/mmio_gem: forbid VMA split
+819f189265a5955da743e78e20a713a038982e89 drm/xe/mmio_gem: use write-back mapping for dummy page
+0c50663403b7aa271b1974ba32ee6c8296711142 drm/xe/mmio_gem: simplify fault handler loop
+37fcbd7b2f8996d783932dab11bc668e169b0de6 drm/xe/mmio_gem: Revoke drm_vma_node on xe_mmio_gem destroy
+de40d31275cd57408ff1fdd97ea117a3f8c50cc5 drm/xe/mmio_gem: cache the dummy page per object
+d0c09528781938362655d9c336364e777119bd6b drm/xe/mmio_gem: fix destroy flow
+3c90e42a01426262f0cd166bc01b45c05562640d drm/xe/shrinker: Return the freed page count through a parameter
+985862be16c7e4da808c51f393d631fb60c0be5c drm/xe/shrinker: Take a runtime PM ref before shrinking non-system memory
+073a30d75f309812ed61af134f24ffef4107b13a drm/vc4: Use managed KMS polling to fix UAF on unbind
 3a35e787ac1acf94d33eebb26fd7248811cc66c9 btrfs: zoned: handle RAID profiles in btrfs_can_activate_zone()
 0594e3423f4ba3137c734371169491f9a98e9af4 btrfs: take commit root semaphore when iterating in mark_block_group_to_copy()
 a1167d9420474ab9ed9efca99d86aeb6217c0265 btrfs: tree-checker: print dev extent offset in error message
 f59d86d25e41c5ac511584d9d6808ee448fd42b0 btrfs: tree-checker: fix error message regarding free space extent items
+2028280686f4fa78e2f1f6dede4b6c1fd782b9e3 drm/msm/dsi: round the byte clock rate after reparenting to the PHY PLL
+f4fae975db08a9aeec0b15e145c7d4d0fe02a0ec drm/msm/hdmi_phy: fix runtime PM cleanup on probe failure
+a15fac810c76397ec9f62a6fc26c4d7ab6e238a7 dt-bindings: display/msm: Use consistent indentation in the example
+e1aeaf79dea51e6065da56924bc07e22d59012ac smb: client: fix unaligned access in WSL reparse point parser
+e1253a82bb4c0fed6706a5839fc8b6e01be1abe2 smb: client: fix fattr leaking on wsl_to_fattr() failure
+3ed11c671ff7ec58c8fd96410233c677df23f407 dma-buf/dma-fence: fix checking signaling bit for timeline and driver name v3
+ee415ce8cba154d07d02a6d2fbb27ff518264c3a drm/i915/display: check configuration index before shifting
 075bc7b1d3dde5ed43fbaabbc1a69f09b7fc3a47 dmaengine: mmp_pdma: fix wrong sg length in mmp_pdma_prep_slave_sg()
 095858324f063dba830041f067872f0a08765d2f spi: virtio: Use the per-transfer bits per word
 8861db305103107199b1426f25fde1fb6d465583 selinux: always fill AVC decision in avc_has_perm_noaudit()
@@ -76,24 +128,65 @@ f59d86d25e41c5ac511584d9d6808ee448fd42b0 btrfs: tree-checker: fix error message 
 78fc54b934bfb2c18aad8154c7302067146946f9 selinux: recheck intermediate backing files on mprotect()
 e0c3e9d76adbe522dd420a766ce42d03ce887c29 i2c: imx: disable autosuspend on remove
 ad34235808b63a70ca4989b7a2852923193d06ef i2c: atr: fix dangling adapter pointer on add failure
+2ab510e63197360945f915dd5631a77c63ac6b27 drm/sched: Fix virtual runtime race
+666f12ae9f504625e5a93581d8fbcba3dd60c294 Merge fdo/drm/drm-fixes into drm-misc-fixes
+5a83606d9f31a38273ee803f3aae2e39247032c5 drm/verisilicon: set blend mode for the cursor plane
+e5d43d7e924d7e1d0c815a5c7407f2a40a6dd2f2 drm/verisilicon: add primary modifier for format tables
+6c62dfd2820f0c32b0083668edbe0baca6e10b92 drm/verisilicon: remove ARGB formats from primary plane
+a26204be587c57bd5c54fa513be26c4fd7bf252d Revert "drm/i915/display: Clear SEL_FETCH_PLANE_CTL on plane disable"
 b61b6f95d6722ddbbbd09e689fa41b55fd36f9a5 futex: Also allocate private hash on vfork()
+f0e9f963a3d209d7dc7ddd61116118ab5da2797d drm/xe/i2c: Disable IRQ on unbind
 cc337324cc6be1ce0ae7e5a068dcb7e99ae1b59c btrfs: fix creation of compressed inline extents that don't save space
 76bf149cd0298544631e756670b89c399c7acbca btrfs: handle lack of space when cleaning up verity items
 d2710c8d938ae6a825a6463158e6e6f31eac792a signal: Prevent exec() race
 acb03d3881818581052924a9bbbe92b8741ed448 exec: Cleanup POSIX timers right after de_thread()
 e922bad8b2d5028c51a096d083fea41cd0987154 spi: spi-zynqmp-gqspi: stop the controller on shutdown
+d034e836eefd7ce75e588f7031cffbeec594f5ac smb: client: fix use-after-free of iface in cifs_try_adding_channels()
+5535d5e61a77ad79118ea7665ce1c14f857f0f12 drm/loongson: Create blend mode property for cursor plane
 a5f7a5bb3b7f28ba7e4fa246775b29a0e5537255 x86/kprobes: Fix crash when probing CS CALL instructions
+b15e54761a0dd5fdf3dc790a031ab0e4185b7612 Merge tag 'drm-msm-fixes-2026-09-16' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
+9413959fa9fe2d94d4814f8cc2b60409f4cd46b5 drm/amd/pm: report energy accumulator for smu 14.0.3
+63e19ef3ddab806c472748c825f4dc88dcd994e8 drm/amd/display: Atomize IRQ register read/modify/write ops
+5f28bb1c2cd9dcdb76a20d61b3ea069b85893c59 drm/amdkfd: implement restore_mqd callbacks for GFX12/12.1
+636139603b99d2e3a18a46cf3f8d39313ce8042e drm/amdgpu: hold a runtime PM reference for P2P dma-buf attachments
+723d4dc628d764b19cf9efca14b82cca5ff020c9 drm/amdgpu: check ras and obj before dereference
+04de4007d32385b8b6a5dd72bff3146dfdc592c3 drm/amdgpu: Fix GPU PCIe link capability reporting
+c883d0a132d430ef7ebb23fd94323be94d0fbdb8 drm/amdkfd: Avoid integer underflow with ffs in EOP ring size calc
+8ee521b8b189799e361d4233c5180ba56656d4d4 drm/amdkfd: Avoid integer underflow in EOP ring size calculation.
+0d2f4cfa564355fcbbc71498fd8ec09243036109 drm/amd/display: Fix NULL dereference in dcn50/dcn60 init_hw
+7f9caa70aef0950e06d395ca0035831214d88187 drm/amdgpu: Skip KFD mapping clear before initialization
+5155002b03b24ba3ef91c5c313b8cf0171b24904 drm/amdgpu: fix rmmio iounmap skipped on device removal
+2ac2fe765ef475f409616ac0b57c4a3922749b0f drm/amd/display: fix MALL hysteresis timer underflow at high refresh rates
 3565893cc72cdf6b795cf6a33e7ff9605322334d btrfs: clear free space tree creation state on rebuild failure
 97fcd34aa9fd73cefe3120ac9a82ca9d7763922f btrfs: abort transaction on failure to update inode for hole punching and reflinking
 aeab4c62875748ecfd390a47ac1d91ea7c9a6abb btrfs: check if there is space for chunk item when validating sys chunk array
 b797b52e88a66598a972111b02ef13edd8d03ed2 btrfs: add "/dev/root" exception for device path update
 72de4807ba84da485dda1a91572d66da9149e95a btrfs: derive f_fsid with dev_t only when temp_fsid is active
+05762c5bc1cfdcac36747994fde2c04387a457f1 smb: client: fix next_buffer UAF and NextCommand bounds in compound PDUs
+b4694f269e66dfcd66991446375285723b6957bd smb: client: validate minimum PDU size before smb2_get_data_area_len()
+f73726b83e4756fdaa099e1bc1143293bd57ad79 smb: client: fix server->total_read for compound encrypted PDUs
+e83330c55edc0c3ac08aa6c95e49e4694c65523b smb: client: fix missing lower-bound check on DFS referral string offsets
+1b3221bb121079ad79a1f3c3aa360ba649832e7a smb: client: reject short Next offsets in parse_server_interfaces()
+eeb5ef6083e1cefa2ef75041b5597ff228b8d7bb smb: client: fix OOB struct field reads in move_smb2_ea_to_cifs()
+b09d092eb24ad0110f16a9b7c1ed5d2a0c1733dc smb: client: fix missing iov bounds check in parse_posix_sids()
+4775c3b7a597907e0b97556c7986fda238a377ae smb: client: fix potential OOB read in smb3_enum_snapshots()
+5f0306e731e2f46e91419eae57eee3a241c055e0 smb: client: fix reparse buffer bounds in cifs_query_reparse_point()
 3d743adf090cd4c9a2120c1e02b0482e88aa0d2d spi: fsl-qspi: Reprogram the clock rate when the operation frequency changes
+c9dc7d730319ad64b51570c5387f1fee7b07b510 PCI: imx6: Move clock enable after core reset assertion
+717e0a25036b6c92cecace30913b2d874a4c22b8 cifs: Fix server use-after-free in cifs_chan_skip_or_disable()
 e7d3e2f46dd5a69046e6d95a0f189155a5516b93 x86/microcode/intel: Reject problematic loading on Granite Rapids systems
+c24f824f0bbfd6e9ab376795d8e5862c66766cfa Merge tag 'drm-xe-fixes-2026-09-17' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+cd011719ba564a5d72ee6474cec2ecd66362d150 Merge tag 'drm-intel-fixes-2026-09-17' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
+94f69bfa1897c9d5a14bb54e3ecc5188a00daf6e Merge tag 'amd-drm-fixes-7.3-2026-09-17' of https://gitlab.freedesktop.org/drm/amdgpu/kernel into drm-fixes
 88aed0422f39b22406f35f1e758cea25e7bbcfb5 perf: Fix null pointer access in is_include_guest_event()
 fe3c73d7bc769e7afc252f867a3421fe168b898d sched/core: Avoid false migration warning for proxy donors
 93f53499d0b945e8ae447f497faf743d60069f61 x86/fred: Reconstruct the #GP context for rejected INT instructions
 96443a53bc3ef4b67dab0c497878fc8d56f799f3 selftests/x86: Check signal state for rejected software interrupts
+ef31d04b6d8adfc971fc6b9ff76a1d6dc9aeefab Merge tag 'pci-v7.3-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+925724c0816e327b6d3a47388cec1203d108ebe7 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+17e7b8eacf4cac800a4fc89a28729df72a2dabda Merge tag 'cifs-fixes-7.3-rc4' of https://git.manguebit.org/linux
+71f370e9ee1bdfe1f916547089d93b5265a918e7 Merge tag 'drm-misc-fixes-2026-09-17' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+40288c9206c17eb66a603262e06a58d300d0f279 Merge tag 'drm-fixes-2026-09-19' of https://gitlab.freedesktop.org/drm/kernel
 63edf5a009ae366369a1b484cd9ae4ee7c51946c x86/build/64: Prevent native builds from generating EGPR use
 518e5b794c06c0f0eb40df3e202274a66202c137 Merge tag 'for-7.3-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 c21eaa72f02fc6e85621cbe09d303d8fb8bd39cd posix-cpu-timers: Prevent freeing a timer which is queued on the expiry list
@@ -116,70 +209,5 @@ fecbe78ac0e7bb5cdae232444e649a3103d9a917 Merge tag 'sched-urgent-2026-09-20' of 
 a10a019dd4c7c57bef6b8dda962c8881ad220af2 Merge tag 'dmaengine-fix-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 6a5719cc3ef2e4d9857cc4ae18e6db09d59a8cc9 net: qrtr: resend HELLO on MHI resume
 93f51579e7df248780214094418f205253383cc5 Linux 7.3-rc4
-8228f9e1776dfd2489e41b9e77f4b447f022b81e hwmon: Add support for currX_emergency and inX_[l]emergency attributes
-568ba1ddff17360c302da412f409b810cf34c206 dt-bindings: hwmon: tmp102: Document TMP110
-226c9c8f2dc91476fa5d8eb4524ee9b99444c105 hwmon: (yogafan) Add Lenovo Yoga Pro 9 16IMH9
-883349254828f295aa3a781de895b6455bdde860 hwmon: Add fan monitoring support for HONOR FMI-XX
-7a537fd5709e2594af29f78c1af4195f330a10bc hwmon: (pmbus/tps25990) Rework driver for multi-device support
-c20a3dacda7b77d02da48c285c4ee9d36485aeb7 dt-bindings: hwmon: pmbus/tps25990: Add TPS1689
-37ff5f168bd97dbc8f075427c9e8f2e01b0be3ec hwmon: (pmbus/tps25990) Add TPS1689 support
-d7fe8d2aecbedf6fbd7cb45a72b01c1992a5add8 dt-bindings: trivial-devices: Add Sensirion STS4x series
-14f3154bf2cd629ba76072d0889112ed427c7a0b hwmon: (sht4x): Add support for Sensirion STS4x temperature sensors
-7fdced7dbc6ab3827f19d1d835bbbc4b5ff3f7ef hwmon: (it87) describe per-chip PWM temperature maps
-ef35fd82128e5ef1980308c5fc2046a6c418555a hwmon: (it87) prepare for extended PWM temp maps
-9650f05c8468ff49367da30b1a4cc024a35ca744 hwmon: (it87) add IT8613E support
-8afa5b92bc4b5be499c4aa132703d056c02c3c35 dt-bindings: hwmon: national,lm90: Fix channel constraints for temperature offset
-5c2689184acd093af63a684cdf16c9ebe62e0497 hwmon: (lm90) Reject channel 2 on chips with only one remote sensor
-960c8d9af2cee6cbc816069ea39948218faacc12 hwmon: (asus-ec-sensors) add ROG STRIX X670E-A GAMING WIFI
-55ba6e99c3295c6ae92c02f7b3a39e19bb843a61 dt-bindings: hwmon: tmp102: move ti,tmp103 out of trivial-devices.yaml
-0daaf93c24da0c14a766cb21af3927c4c2800edf dt-bindings: hwmon: tmp102: Document TMP113
-8826e15c87ce8f6c8b5719ff1e46ff50cf26634e hwmon: (dell-smm) Add Dell OptiPlex 7090 to fan control whitelist
-20666475e5f5b08e5f014191b46b4ff4ac9a280a hwmon: (dell-smm) Add Latitude 5420 to fan control whitelist
-7485f7af2114bae1e3e3c4b3464c2c924d316990 hwmon: (spd5118) Select page 0 unconditionally during probe
-2ab6a60851c83cd5e01634b38afcb6a8b63871f1 hwmon: (spd5118) Avoid probing when 16-bit addressing is enabled
-2a3dd07c4bbd9ec02829a3d130dba52f2fc423e2 hwmon: Add Minisforum UM780 XTX EC monitoring and fan control
-99a4c6d487c96c343ae4ffeb6eb094ac16d3966f dt-bindings: trivial-devices: Add TI TPS53622 and TPS53659
-a2de183f02a6ab35b57c2d6c8145f84f1e632d00 hwmon: (pmbus/tps53679) Add support for TPS53622 and TPS53659
-ab134164c45d44b445b71864e4484092cc1e5a1c hwmon: (asus-ec-sensors) add ROG STRIX Z490-A GAMING
-109b29cc3b42ce8afa19d5c075dabeaf83edeb43 dt-bindings: hwmon: ti,tmp401: add #thermal-sensor-cells
-d3120cf43056bdbe4727e3930f533307e75da327 hwmon: (yogafan) Add support for new Lenovo models
-7f76392a33fb1666a5a8d866f0d02b4f3d7b0fe5 Documentation: hwmon: nct6775: Document NCT6116D/NCT6122D/NCT6126D support
-97ede07db29f27624065875ccc56ea802ee71bec hwmon: (asus_rog_ryujin) Add ROG Ryujin III 360
-1be38457b610deeb0c0fed69da32c06d698621c9 hwmon: fix typos in comments
-d5f318ca404b3305abc29d53afdaec76908312ec docs: hwmon: sysfs-interface: Fix bracket
-6a794891610a37afab2a37f9ec0ee6abf83ce2e6 hwmon: (pmbus/ltc4286) Add writable shunt_resistor sysfs attribute
-add66ea037354bbe57c70efa035c831cfa0de8f0 dt-bindings: hwmon: Add Axiado AX3000 TSADC
-4f608da8557e74a438f266a5615de03766858eb4 hwmon: Add driver for AX3000/AX3005 TSADC
-8c1f4f586eb783f804da956e6e44d7183b92dacb hwmon: (hih6130) Replace sprintf() with sysfs_emit()
-ded1c547e7e9ab408bddc345fb14bfb3ab142ded Documentation: hwmon: (yogafan) Update model reference table and contributors
-b02304b4dfc88eb13e5454a176f4fb4b6d690c48 hwmon: (arctic_fan_controller) Default PWM cache to MCU 40%
-1b7d16cb8db0ed63c8c324f4437f269420f31239 hwmon: (arctic_fan_controller) Dual-license GPL-2.0-or-later OR BSD-2-Clause
-b3d13afdc5c3abfd2404201b13cd0bcfe46dce10 hwmon: (arctic_fan_controller) Use shared maintainer address
-e34690ade18947cac51019c02cd76082ec9ed089 Documentation: hwmon: (nct6775) Document NCT6116D/NCT6122D/NCT6126D support
-98d3a9136c0b3d10366462708c94c6d2fe5d944a hwmon: (nct6775) Add support for NCT6126D
-f7d401dc33767f9d5921e0d37a6bb6922ea231d8 hwmon: (nct6775) Add support for NCT6122D
-6f5e29122f10016c7b4147e287a896615c70b7e6 hwmon: (k10temp) Add support for 1ah/80h
-ea8feb7e801cea4ed5c9fc85a024bb016d8a0daf hwmon: (pmbus/core) Add mapping function to pmbus_read_block_data()
-6d242c55180ffcd57675ee996879b84087e4a798 dt-bindings: hwmon/pmbus: Document MAX20826 and similar devices
-65fd59a1f3872538bf14c69ffefb1d36fc5ff360 hwmon: (pmbus) add support for MAX20826 and similar devices
-27504b52e9a5e07319fea6f361981b9f8e35a24f hwmon: (pmbus) Validate number of phases per page
-d6d694c8257d375c50ce46e0cbe518bec81fbf8a hwmon: (socfpga) add Agilex 5 channel mapping
-d50442352bbbfb0b6d5e6f36f8a6b75c04eae458 dt-bindings: vendor-prefixes: Add Sensylink
-1ae301720fd09f0486fad501b8d027738a23da78 dt-bindings: hwmon: Move LM63 family to a dedicated binding
-9345486435bd6396e33aa020c5d5fd220b90f9ea dt-bindings: hwmon: Add Sensylink CTF2301
-747d25ada30d7259c8e563613c439f634c852e9a hwmon: (lm63) Add Sensylink CTF2301 support
-275ce5fe46e775e92c7716fddda42b88a3be4549 hwmon: (pmbus/max34440): Add support for ADPM12300
-ffd44a45ba7e1dba0fddccbc43acc75e108fb600 hwmon: (dell-smm) Add Dell Precision 3650 Tower to fan control whitelist
-f427ee9e25bf48f96f7d3fe0cc447d891ab74955 dt-bindings: trivial-devices: Add TI TPS536C7
-875b0437a1114b791c1662c58a011cb4409c6db6 hwmon: (pmbus/tps53679) Add support for TPS536C7
-57c421bba7ef4e83f4d9fe3c982233cc85e40ed7 hwmon: use named initializers for acpi_device_id
-7e19424ef2e8814e22c50dab325609c6ca548a16 hwmon: (pmbus/tps53679) Select page 0 for single-page TPS536C7
-5e74e6bdd57adddd72094fbad29af1acf76bd12c hwmon: asus_wmi_sensors: Fix info[] allocation type
-bcb0512f3c3974107c180fd9706d2a803ac0dacf hwmon: pwm-fan: Add const to channels allocation type
-9604275992017485da4ef0449487acf0c6dec117 hwmon: scmi: Fix info[] allocation type
-a41960b5ed4e3463b32dc7cc9ec6559387e4c588 hwmon: hp-wmi-sensors: Fix info_map[] allocation type
-1a33c04089e0a700d206ba1075ff2ba10de34137 hwmon: vexpress: point the DT binding reference at the schema
-9a79123eb19a21d032053e105cf3b980bccd91ee dt-bindings: hwmon: pmbus: Add Infineon tda38740 and tda38725
-0d1c5c112a4188b296e0a27f10745ae735fef030 hwmon: (pmbus/tda38740) Add driver for Infineon TDA38740/TDA38725
 
---===============3261283353179545343==--
+--===============4366242565220611154==--
