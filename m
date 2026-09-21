@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Mon, 21 Sep 2026 10:21:28 -0000
-Message-Id: <178998608880.625612.7794728483143778671@gitolite.kernel.org>
+Date: Mon, 21 Sep 2026 10:22:26 -0000
+Message-Id: <178998614624.626038.11320826320528040094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mediatek/linux
 user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/for-next
-    old: 23a68d23ab27a5dec89ca8bab81636d404b84c73
-    new: 3972dd827dd6da587c7eb0f1a6a34505333e27d9
+  - ref: refs/heads/v7.3-next/dts64
+    old: f0d8c2b05e2d384c0162b41d3728433c1bb23972
+    new: bf89276b2db391cbb25d1a0e898280fe85b16fb5
     log: |
-         ae0968038f994d6e275f5dc94a27325ee751fe58 soc: mediatek: mt8167-mmsys: add routes for all display paths
-         3972dd827dd6da587c7eb0f1a6a34505333e27d9 Merge branch 'v7.3-next/soc' into for-next
+         ee3f4a1785bd73a865a4aa5e1974c6079f96b2bc arm64: dts: mediatek: mt7988a-bpi-r4pro: add names for i2c-to-gpio chip
+         bf89276b2db391cbb25d1a0e898280fe85b16fb5 arm64: dts: mediatek: mt7988a-bpi-r4pro: label gpio-hogs
          
