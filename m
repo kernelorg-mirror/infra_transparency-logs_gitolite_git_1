@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Mon, 21 Sep 2026 15:52:46 -0000
-Message-Id: <179000596631.1069306.7944544103817412154@gitolite.kernel.org>
+Date: Mon, 21 Sep 2026 15:54:57 -0000
+Message-Id: <179000609728.1070231.5721709240323832046@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sunxi/linux
 user: wens
 changes:
-  - ref: refs/heads/sunxi/clk-for-7.4
-    old: 1002cc9d60942f8f294d8de7f2805f82f4ebdda0
-    new: 9ef62592b80c7ffb8cd987d889f659c1dc4f9f16
+  - ref: refs/heads/sunxi/dt-for-7.4
+    old: 913f7eda9f3e3fb1c67285e144e202494d440049
+    new: bd16ea65178f0a7b1265863289e2ce928943ed8b
     log: |
-         9ef62592b80c7ffb8cd987d889f659c1dc4f9f16 clk: sunxi-ng: ccu_common: Use readl_relaxed_poll_timeout_atomic for PLL lock
+         d6067ed771a9be3057122a0949c2c20faa10d91e dt-bindings: vendor-prefixes: Add vendor prefix for Teclast
+         a475523286b9e6c00f350fda53aee02a84df4871 dt-bindings: arm: sunxi: Add two Teclast tablets
+         bd16ea65178f0a7b1265863289e2ce928943ed8b arm64: dts: allwinner: A133: add basic support for Teclast P80 tablet
          
