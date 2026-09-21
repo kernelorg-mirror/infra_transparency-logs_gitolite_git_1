@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8302715174864912879=="
+Content-Type: multipart/mixed; boundary="===============6100593224071018536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 21 Sep 2026 08:46:00 -0000
-Message-Id: <178998036016.543018.10447712767555734638@gitolite.kernel.org>
+Date: Mon, 21 Sep 2026 08:46:39 -0000
+Message-Id: <178998039979.543676.9593520278576734440@gitolite.kernel.org>
 
---===============8302715174864912879==
+--===============6100593224071018536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,48 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 93c0d575cd6f8eecbdb48084cd1af612956d031a
-    new: 431aaf7d26a1abd6e0c6cb0e26039ac860b75799
-    log: revlist-93c0d575cd6f-431aaf7d26a1.txt
+    old: 431aaf7d26a1abd6e0c6cb0e26039ac860b75799
+    new: e934846ac28a05fe27d7c26bd2aceaf004c1b759
+    log: revlist-431aaf7d26a1-e934846ac28a.txt
+  - ref: refs/heads/tip/urgent
+    old: 23769eef844d2c671569022af12e7b54cc47e266
+    new: 75c50e3f760afeaddeaa1e7c5f74194d76021497
+    log: revlist-23769eef844d-75c50e3f760a.txt
+  - ref: refs/tags/v7.3-rc4
+    old: 0000000000000000000000000000000000000000
+    new: dec005ae90a2946656a090f37bf1cfbd22f08e57
 
---===============8302715174864912879==
+--===============6100593224071018536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-93c0d575cd6f-431aaf7d26a1.txt
+Content-Disposition: attachment; filename=revlist-431aaf7d26a1-e934846ac28a.txt
+
+75c50e3f760afeaddeaa1e7c5f74194d76021497 Merge branch into tip/master: 'x86/mm'
+cebac961c925a7c7f49d1e7c3c0a8a9658258a74 Merge branch into tip/master: 'irq/core'
+2352f5e7beb5ab15bce386b25bb05d7efeacb1de Merge branch into tip/master: 'irq/drivers'
+6e7a12fed9ab58699cd5ee7f983e9acd82471042 Merge branch into tip/master: 'objtool/core'
+43df06a61908ec8cafc1bae0af0ee0be575fa664 Merge branch into tip/master: 'perf/core'
+1bbe22be709f23c269c65c5f102a5e260fa48569 Merge branch into tip/master: 'sched/core'
+958ab7bffeab1b12e4f1839606d4b4b9ed9cc620 Merge branch into tip/master: 'timers/core'
+7063d27359c02b23748f1acbd6fb1ce019ec0d69 Merge branch into tip/master: 'timers/nohz'
+7efc51c4d13d191da9655a886bab02cf3bc6eea0 Merge branch into tip/master: 'x86/boot'
+6ef45db5afe905de5fa32976f9a2c37852939c5d Merge branch into tip/master: 'x86/bugs'
+bd925e9246c57987548e4446cd3397c1b4fc2490 Merge branch into tip/master: 'x86/cache'
+59b770a68844294def4a1a60476c83ca84fc6220 Merge branch into tip/master: 'x86/cleanups'
+4eb234e957065fc2523f69225714842862ddc012 Merge branch into tip/master: 'x86/cpu'
+888c32725604b0da473c50104cd76c202f49c21f Merge branch into tip/master: 'x86/kdump'
+20c36c897eb6ab86397684b2c9cd3260193d3828 Merge branch into tip/master: 'x86/misc'
+7f1ee1f98d01269bf379a95f1c487727545806ef Merge branch into tip/master: 'x86/platform'
+c77ebbf4883cbf044c9f8a65ce1faba63097f464 Merge branch into tip/master: 'x86/sev'
+12306f984e4fd39868fc24442b11e38fc4e9dbd8 Merge branch into tip/master: 'x86/sgx'
+e934846ac28a05fe27d7c26bd2aceaf004c1b759 Merge branch into tip/master: 'x86/tdx'
+
+--===============6100593224071018536==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-23769eef844d-75c50e3f760a.txt
 
 21efadc62272cabee9bec27777ae75d84a9ca8a8 Input: adp5588-keys - cache GPIO state before registering the gpiochip
 4d7fa28e151a6a6f24098d9e60f558f8ea61ddaa dt-bindings: input: mediatek,mt6779-keypad: add mt6572
@@ -92,6 +125,6 @@ fecbe78ac0e7bb5cdae232444e649a3103d9a917 Merge tag 'sched-urgent-2026-09-20' of 
 a10a019dd4c7c57bef6b8dda962c8881ad220af2 Merge tag 'dmaengine-fix-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 6a5719cc3ef2e4d9857cc4ae18e6db09d59a8cc9 net: qrtr: resend HELLO on MHI resume
 93f51579e7df248780214094418f205253383cc5 Linux 7.3-rc4
-431aaf7d26a1abd6e0c6cb0e26039ac860b75799 Merge branch 'linus'
+75c50e3f760afeaddeaa1e7c5f74194d76021497 Merge branch into tip/master: 'x86/mm'
 
---===============8302715174864912879==--
+--===============6100593224071018536==--
