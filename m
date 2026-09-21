@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 21 Sep 2026 14:10:14 -0000
-Message-Id: <178999981478.972578.10108148788922506632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 21 Sep 2026 14:12:50 -0000
+Message-Id: <178999997066.973336.2523788946055694479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/master
-    old: f7721562cb4d359413ac8b9a70ed4d7908b68915
-    new: 06d991977eeff5d51327e1e64889e70658e8f7ff
+  - ref: refs/heads/for-next
+    old: 28e78fd0d2c915971508642483b54f1c25bda673
+    new: bec2fa7bdf06d6523e40e05fd93117b0c1c8bd30
     log: |
-         5f639837ba473f0f2e2350657d3941092b30b492 Bluetooth: use assign_bit() where applicable
-         06d991977eeff5d51327e1e64889e70658e8f7ff Bluetooth: btintel: read ROM debug registers on FW download failure
+         53064d23f00f1b921f9f08555bfc5a1b229664a5 dm: use assign_bit() where applicable
+         bec2fa7bdf06d6523e40e05fd93117b0c1c8bd30 dm-verity: add DM_VERITY_VERIFY_ROOTHASH_SIG_FORCE
          
