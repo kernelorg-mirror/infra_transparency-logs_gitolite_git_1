@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 21 Sep 2026 19:40:09 -0000
-Message-Id: <179001960998.1245565.4629807277568857544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Mon, 21 Sep 2026 19:46:28 -0000
+Message-Id: <179001998826.1251754.5774875463742852474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/main
-    old: 2b8daaf611fbade74f26a5b58ec1defe6a02f5e0
-    new: ea47fbe387fd1eac564b49ea39b86d848c0063f4
-    log: |
-         781bd88c531d2449161ba7c5b0c44d5a70d63f39 ath12k: QCC2072 hw1.0: update board-2.bin
-         e88807ffbf0fce50130cf1f7475acfb8ba365c12 ath12k: WCN7850 hw2.0: update board-2.bin
-         ea47fbe387fd1eac564b49ea39b86d848c0063f4 Merge branch 'robot/pr-0-1790017179' into 'main'
-         
+  - ref: refs/heads/kernel-7.1.13/nfs-testing-canary-reduce-ff-layout-contention
+    old: 0000000000000000000000000000000000000000
+    new: 06a145ab06437e2a3ff37d9fbf4d8cff26bbe1dd
