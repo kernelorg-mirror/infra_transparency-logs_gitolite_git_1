@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Mon, 21 Sep 2026 21:41:27 -0000
-Message-Id: <179002688791.1339822.2533605561001975427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 21 Sep 2026 21:46:48 -0000
+Message-Id: <179002720828.1343662.2202829688455203770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/for-next
-    old: 32e0f64640d558a0f5410ac5cdd8ebf371c5e6a6
-    new: 23d8f49fcae5d72b77744c7f349c12462c3bb748
+  - ref: refs/heads/master
+    old: 8715b13c1a800f34f9d8177837e5244ac8288f60
+    new: dbda00ac6f0a17d4c9d446c5c66d53ae9f3a75fc
     log: |
-         c818f4a85a40c12a5536d6016395a7eff5b44f8a arm64: dts: rockchip: Set gpioN aliases on RK3576
-         23d8f49fcae5d72b77744c7f349c12462c3bb748 Merge branch 'v7.4-armsoc/dts64' into for-next
-         
-  - ref: refs/heads/v7.4-armsoc/dts64
-    old: 7aa165b62ccaf340da22c517074e7c6853db55cd
-    new: c818f4a85a40c12a5536d6016395a7eff5b44f8a
-    log: |
-         c818f4a85a40c12a5536d6016395a7eff5b44f8a arm64: dts: rockchip: Set gpioN aliases on RK3576
+         32a7b17bc8e7a198dc5cfb4601e1eef819e8e316 bpf, parisc: Add support for BPF_SDIV and BPF_SMOD in the parisc64 JIT
+         dbda00ac6f0a17d4c9d446c5c66d53ae9f3a75fc bpf, parisc: Add support for BPF_SDIV and BPF_SMOD in the parisc32 JIT
          
