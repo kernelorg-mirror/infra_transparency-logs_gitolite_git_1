@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0602186696083760973=="
+Content-Type: multipart/mixed; boundary="===============3261283353179545343=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 21 Sep 2026 14:24:30 -0000
-Message-Id: <179000067058.982588.12837239646652701135@gitolite.kernel.org>
+Date: Mon, 21 Sep 2026 14:24:43 -0000
+Message-Id: <179000068370.982815.10099728857016621357@gitolite.kernel.org>
 
---===============0602186696083760973==
+--===============3261283353179545343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/hwmon
-    old: 40288c9206c17eb66a603262e06a58d300d0f279
-    new: 93f51579e7df248780214094418f205253383cc5
-    log: revlist-40288c9206c1-93f51579e7df.txt
+  - ref: refs/heads/hwmon-next
+    old: f4c3b88983f342d6614cb11b53a0640ec8bc8fd2
+    new: 0d1c5c112a4188b296e0a27f10745ae735fef030
+    log: revlist-f4c3b88983f3-0d1c5c112a41.txt
 
---===============0602186696083760973==
+--===============3261283353179545343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-40288c9206c1-93f51579e7df.txt
+Content-Disposition: attachment; filename=revlist-f4c3b88983f3-0d1c5c112a41.txt
 
 21efadc62272cabee9bec27777ae75d84a9ca8a8 Input: adp5588-keys - cache GPIO state before registering the gpiochip
 4d7fa28e151a6a6f24098d9e60f558f8ea61ddaa dt-bindings: input: mediatek,mt6779-keypad: add mt6572
@@ -116,5 +116,70 @@ fecbe78ac0e7bb5cdae232444e649a3103d9a917 Merge tag 'sched-urgent-2026-09-20' of 
 a10a019dd4c7c57bef6b8dda962c8881ad220af2 Merge tag 'dmaengine-fix-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 6a5719cc3ef2e4d9857cc4ae18e6db09d59a8cc9 net: qrtr: resend HELLO on MHI resume
 93f51579e7df248780214094418f205253383cc5 Linux 7.3-rc4
+8228f9e1776dfd2489e41b9e77f4b447f022b81e hwmon: Add support for currX_emergency and inX_[l]emergency attributes
+568ba1ddff17360c302da412f409b810cf34c206 dt-bindings: hwmon: tmp102: Document TMP110
+226c9c8f2dc91476fa5d8eb4524ee9b99444c105 hwmon: (yogafan) Add Lenovo Yoga Pro 9 16IMH9
+883349254828f295aa3a781de895b6455bdde860 hwmon: Add fan monitoring support for HONOR FMI-XX
+7a537fd5709e2594af29f78c1af4195f330a10bc hwmon: (pmbus/tps25990) Rework driver for multi-device support
+c20a3dacda7b77d02da48c285c4ee9d36485aeb7 dt-bindings: hwmon: pmbus/tps25990: Add TPS1689
+37ff5f168bd97dbc8f075427c9e8f2e01b0be3ec hwmon: (pmbus/tps25990) Add TPS1689 support
+d7fe8d2aecbedf6fbd7cb45a72b01c1992a5add8 dt-bindings: trivial-devices: Add Sensirion STS4x series
+14f3154bf2cd629ba76072d0889112ed427c7a0b hwmon: (sht4x): Add support for Sensirion STS4x temperature sensors
+7fdced7dbc6ab3827f19d1d835bbbc4b5ff3f7ef hwmon: (it87) describe per-chip PWM temperature maps
+ef35fd82128e5ef1980308c5fc2046a6c418555a hwmon: (it87) prepare for extended PWM temp maps
+9650f05c8468ff49367da30b1a4cc024a35ca744 hwmon: (it87) add IT8613E support
+8afa5b92bc4b5be499c4aa132703d056c02c3c35 dt-bindings: hwmon: national,lm90: Fix channel constraints for temperature offset
+5c2689184acd093af63a684cdf16c9ebe62e0497 hwmon: (lm90) Reject channel 2 on chips with only one remote sensor
+960c8d9af2cee6cbc816069ea39948218faacc12 hwmon: (asus-ec-sensors) add ROG STRIX X670E-A GAMING WIFI
+55ba6e99c3295c6ae92c02f7b3a39e19bb843a61 dt-bindings: hwmon: tmp102: move ti,tmp103 out of trivial-devices.yaml
+0daaf93c24da0c14a766cb21af3927c4c2800edf dt-bindings: hwmon: tmp102: Document TMP113
+8826e15c87ce8f6c8b5719ff1e46ff50cf26634e hwmon: (dell-smm) Add Dell OptiPlex 7090 to fan control whitelist
+20666475e5f5b08e5f014191b46b4ff4ac9a280a hwmon: (dell-smm) Add Latitude 5420 to fan control whitelist
+7485f7af2114bae1e3e3c4b3464c2c924d316990 hwmon: (spd5118) Select page 0 unconditionally during probe
+2ab6a60851c83cd5e01634b38afcb6a8b63871f1 hwmon: (spd5118) Avoid probing when 16-bit addressing is enabled
+2a3dd07c4bbd9ec02829a3d130dba52f2fc423e2 hwmon: Add Minisforum UM780 XTX EC monitoring and fan control
+99a4c6d487c96c343ae4ffeb6eb094ac16d3966f dt-bindings: trivial-devices: Add TI TPS53622 and TPS53659
+a2de183f02a6ab35b57c2d6c8145f84f1e632d00 hwmon: (pmbus/tps53679) Add support for TPS53622 and TPS53659
+ab134164c45d44b445b71864e4484092cc1e5a1c hwmon: (asus-ec-sensors) add ROG STRIX Z490-A GAMING
+109b29cc3b42ce8afa19d5c075dabeaf83edeb43 dt-bindings: hwmon: ti,tmp401: add #thermal-sensor-cells
+d3120cf43056bdbe4727e3930f533307e75da327 hwmon: (yogafan) Add support for new Lenovo models
+7f76392a33fb1666a5a8d866f0d02b4f3d7b0fe5 Documentation: hwmon: nct6775: Document NCT6116D/NCT6122D/NCT6126D support
+97ede07db29f27624065875ccc56ea802ee71bec hwmon: (asus_rog_ryujin) Add ROG Ryujin III 360
+1be38457b610deeb0c0fed69da32c06d698621c9 hwmon: fix typos in comments
+d5f318ca404b3305abc29d53afdaec76908312ec docs: hwmon: sysfs-interface: Fix bracket
+6a794891610a37afab2a37f9ec0ee6abf83ce2e6 hwmon: (pmbus/ltc4286) Add writable shunt_resistor sysfs attribute
+add66ea037354bbe57c70efa035c831cfa0de8f0 dt-bindings: hwmon: Add Axiado AX3000 TSADC
+4f608da8557e74a438f266a5615de03766858eb4 hwmon: Add driver for AX3000/AX3005 TSADC
+8c1f4f586eb783f804da956e6e44d7183b92dacb hwmon: (hih6130) Replace sprintf() with sysfs_emit()
+ded1c547e7e9ab408bddc345fb14bfb3ab142ded Documentation: hwmon: (yogafan) Update model reference table and contributors
+b02304b4dfc88eb13e5454a176f4fb4b6d690c48 hwmon: (arctic_fan_controller) Default PWM cache to MCU 40%
+1b7d16cb8db0ed63c8c324f4437f269420f31239 hwmon: (arctic_fan_controller) Dual-license GPL-2.0-or-later OR BSD-2-Clause
+b3d13afdc5c3abfd2404201b13cd0bcfe46dce10 hwmon: (arctic_fan_controller) Use shared maintainer address
+e34690ade18947cac51019c02cd76082ec9ed089 Documentation: hwmon: (nct6775) Document NCT6116D/NCT6122D/NCT6126D support
+98d3a9136c0b3d10366462708c94c6d2fe5d944a hwmon: (nct6775) Add support for NCT6126D
+f7d401dc33767f9d5921e0d37a6bb6922ea231d8 hwmon: (nct6775) Add support for NCT6122D
+6f5e29122f10016c7b4147e287a896615c70b7e6 hwmon: (k10temp) Add support for 1ah/80h
+ea8feb7e801cea4ed5c9fc85a024bb016d8a0daf hwmon: (pmbus/core) Add mapping function to pmbus_read_block_data()
+6d242c55180ffcd57675ee996879b84087e4a798 dt-bindings: hwmon/pmbus: Document MAX20826 and similar devices
+65fd59a1f3872538bf14c69ffefb1d36fc5ff360 hwmon: (pmbus) add support for MAX20826 and similar devices
+27504b52e9a5e07319fea6f361981b9f8e35a24f hwmon: (pmbus) Validate number of phases per page
+d6d694c8257d375c50ce46e0cbe518bec81fbf8a hwmon: (socfpga) add Agilex 5 channel mapping
+d50442352bbbfb0b6d5e6f36f8a6b75c04eae458 dt-bindings: vendor-prefixes: Add Sensylink
+1ae301720fd09f0486fad501b8d027738a23da78 dt-bindings: hwmon: Move LM63 family to a dedicated binding
+9345486435bd6396e33aa020c5d5fd220b90f9ea dt-bindings: hwmon: Add Sensylink CTF2301
+747d25ada30d7259c8e563613c439f634c852e9a hwmon: (lm63) Add Sensylink CTF2301 support
+275ce5fe46e775e92c7716fddda42b88a3be4549 hwmon: (pmbus/max34440): Add support for ADPM12300
+ffd44a45ba7e1dba0fddccbc43acc75e108fb600 hwmon: (dell-smm) Add Dell Precision 3650 Tower to fan control whitelist
+f427ee9e25bf48f96f7d3fe0cc447d891ab74955 dt-bindings: trivial-devices: Add TI TPS536C7
+875b0437a1114b791c1662c58a011cb4409c6db6 hwmon: (pmbus/tps53679) Add support for TPS536C7
+57c421bba7ef4e83f4d9fe3c982233cc85e40ed7 hwmon: use named initializers for acpi_device_id
+7e19424ef2e8814e22c50dab325609c6ca548a16 hwmon: (pmbus/tps53679) Select page 0 for single-page TPS536C7
+5e74e6bdd57adddd72094fbad29af1acf76bd12c hwmon: asus_wmi_sensors: Fix info[] allocation type
+bcb0512f3c3974107c180fd9706d2a803ac0dacf hwmon: pwm-fan: Add const to channels allocation type
+9604275992017485da4ef0449487acf0c6dec117 hwmon: scmi: Fix info[] allocation type
+a41960b5ed4e3463b32dc7cc9ec6559387e4c588 hwmon: hp-wmi-sensors: Fix info_map[] allocation type
+1a33c04089e0a700d206ba1075ff2ba10de34137 hwmon: vexpress: point the DT binding reference at the schema
+9a79123eb19a21d032053e105cf3b980bccd91ee dt-bindings: hwmon: pmbus: Add Infineon tda38740 and tda38725
+0d1c5c112a4188b296e0a27f10745ae735fef030 hwmon: (pmbus/tda38740) Add driver for Infineon TDA38740/TDA38725
 
---===============0602186696083760973==--
+--===============3261283353179545343==--
