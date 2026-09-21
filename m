@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 21 Sep 2026 22:57:26 -0000
-Message-Id: <179003144670.1394732.17199980241048961989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
+Date: Mon, 21 Sep 2026 23:05:26 -0000
+Message-Id: <179003192691.1401259.3607003067737824964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/i3c/linux
+user: abelloni
 changes:
-  - ref: refs/heads/master
-    old: 76fde7e138d0acd3c181b5587064b5bdc22e0fbd
-    new: 406ec7a51dc677b22c50de5d5ec9f8d98845989c
+  - ref: refs/heads/i3c/next
+    old: 9b347cbde81c6fa5b7e7043e2ca38229d6c299c4
+    new: bf9ec06c90dcd8ccba116fbc065b5d918de47644
     log: |
-         406ec7a51dc677b22c50de5d5ec9f8d98845989c foo
+         bf9ec06c90dcd8ccba116fbc065b5d918de47644 i3c: master: amd: Report direct CCC read length in payload.actual_len
          
