@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4375865512878653513=="
+Content-Type: multipart/mixed; boundary="===============5750757281434969794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 21 Sep 2026 12:17:49 -0000
-Message-Id: <178999306901.712664.2798584382953546231@gitolite.kernel.org>
+Date: Mon, 21 Sep 2026 12:17:57 -0000
+Message-Id: <178999307790.712928.7633552581998087219@gitolite.kernel.org>
 
---===============4375865512878653513==
+--===============5750757281434969794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: dfd8940277c9a07193c2d168760e19d054f5047c
-    new: 617cf01527933b60c761151bd056a321194aa2fa
-    log: revlist-dfd8940277c9-617cf0152793.txt
+  - ref: refs/heads/spi-7.4
+    old: 3c82e199d411af3a0fff00ca3c54baaf04abbbb3
+    new: a124a7c33d24dff2ee4311b560424209098ea78e
+    log: revlist-3c82e199d411-a124a7c33d24.txt
 
---===============4375865512878653513==
+--===============5750757281434969794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dfd8940277c9-617cf0152793.txt
+Content-Disposition: attachment; filename=revlist-3c82e199d411-a124a7c33d24.txt
 
 d042487dc118e494db2e2c1382310255c90ff544 xfrm: iptfs: fix stack OOB read in iptfs_skb_reset_frag_walk()
 89fefad9f971bc637fb22373078144f2563c4be9 xfrm: serialize state GC with device state flush
@@ -301,7 +301,15 @@ e249a6e2a130c08bb4d8b0a55cbe29754307e5c9 drm/msm/dp: skip PUSH_IDLE when the lin
 a5b5cc909931572aec446e129c035b76b3f0c1fa drm/msm/dpu: clear pending peripheral flush state
 26eb3d92c7a4d7adb1ae1740ca6e8e100b11d1ec Input: synaptics - disable InterTouch on ThinkPad T440p (board id 2722)
 25e424eb4ae1a662d9c3573218d06ac32f797fc5 Input: i8042 - add quirk for Acer Aspire Go 15 AG15-42P
-930a7312c946bf4731721cadd82bb9a2ada496ca spi: spi-qpic-snand: avoid writing QPIC_EBI2_ECC_BUF_CFG register
+88c4aff39452d7f0ab59f13730182a43bc7257c6 ASoC: wm_adsp: Firmware search progress log should not look like an error
+d56fe35c1bce1f547eb600695f60c139a508ff6e ASoC: rt712-sdca: reconfigure PLL2 to fix calibration time-out
+4d855d747521505b54457c96bc73577bf74b2374 ASoC: Rename snd_soc_dai_link_ch_map.ch_mask to cpu_ch_mask
+88b14c0d0bab5c0f3e7c641f274e3c70210c0e36 ASoC: Add codec_ch_mask to snd_soc_dai_link_ch_map
+6b382bdfe26a2232091bf743e454e6794295783e ASoC: soc-pcm: Apply snd_soc_dai_link_ch_map.codec_ch_mask to codec params
+290845e151cd4e307cc1f25319583aaceb4eeb30 ASoC: sdw_utils: Set snd_soc_dai_link_ch_map.codec_ch_mask for capture
+b5b00a57868b1eabdf90a29a51f0eb732c609f3a ASoC: sdw_utils: cs_amp: Delete bogus and incorrect capture channel fixup
+0cde044bc4768203ae70840eafe9df1290d8cb22 ASoC: Fix missing channel fixup for codec end of ch_map
+576725ded009f09a28da19852f7edf62dbc5f94c ASoC: Intel: sof_es8336: Add a quirk for Huawei Matebook B3-420
 ed22ad5fdbdbf9b4cb4ad3003f60314b5a5eb89d Input: soc_button_array - fix MS Surface Pro 11 probe failure
 fb5022278b6ea7f1838e3ef78028d5d5e3375f65 Input: soc_button_array - check btns_desc->package.count
 ea48250a0dc9708c198e8665391973bfc6c86fd2 Input: document that no new LED codes should be added
@@ -399,7 +407,6 @@ ee415ce8cba154d07d02a6d2fbb27ff518264c3a drm/i915/display: check configuration i
 f4fafaf02174c32bce2f9bb4196fadf13f1fd96e ksmbd: fix partial normalized name responses
 9fa26285ae70ac2d3d1b47459a6b4463ab053e1c ksmbd: keep compound responses on query info errors
 075bc7b1d3dde5ed43fbaabbc1a69f09b7fc3a47 dmaengine: mmp_pdma: fix wrong sg length in mmp_pdma_prep_slave_sg()
-095858324f063dba830041f067872f0a08765d2f spi: virtio: Use the per-transfer bits per word
 f6e7b42bf05b2427fb8a7a1d1c387a86638bb413 Merge tag 'sysctl-7.03-fixes-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 9a0b159ff18c8f6fcf982bb81e15a9ceb14db43a sched_ext: scx_qmap: Restore unused idle claims from ops.dispatch()
 a9e3760b0838299649c0d57cca44daaf40ba3c33 sched_ext: Maintain an online cid mask in the scheduler arena
@@ -469,8 +476,21 @@ e6cb0b4d4ecb8e71fd2200d907ab2e9663356f69 hwmon: (hp-wmi-sensors) Fix use-after-f
 238650ef6c7c7cca08e032527329424c9fbd70e5 Merge tag 'powerpc-7.3-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 d2710c8d938ae6a825a6463158e6e6f31eac792a signal: Prevent exec() race
 acb03d3881818581052924a9bbbe92b8741ed448 exec: Cleanup POSIX timers right after de_thread()
-e922bad8b2d5028c51a096d083fea41cd0987154 spi: spi-zynqmp-gqspi: stop the controller on shutdown
 d034e836eefd7ce75e588f7031cffbeec594f5ac smb: client: fix use-after-free of iface in cifs_try_adding_channels()
+a5e22cba3549b3b9ca592a6bc62329c9b85ce285 ASoC: rt721: Reset codec to fix abnormal sound
+11fc0048a6930f4fca44fe3bd16a0023e78846a2 ASoC: ux500: Parenthesize MSP_{RX,TX}_CLKPOL_BIT() arguments
+c17ae8c26eac16ad244daef44044d714f68a2ddc ASoC: hdmi-codec: Report a change when the channel status moves
+03a5699a0a04309c597683967aaaf25d1e555ea2 ASoC: codecs: rt712-sdca-dmic: fix uninitialized stream_config->type
+3482062c786ce4233f8ed3224d824184f53ec154 ASoC: cs-amp-lib: Prevent NULL pointer if efi variable is zero length
+29218a4d11a31a8157389bc2b9e62dd768d7ea42 ASoC: amd: acp: bounds-check SoundWire link ID in machine drivers
+0b7d55d3a91200f2b1ed710f525a944b0a7d6369 ASoC: amd: acp: refactor codec config count in SOF SoundWire machine driver
+27098aaf28b96ab4e6891709062c343566d4882b ASoC: amd: acp: fix ffs() operator precedence for SoundWire link ID
+d57616f8be5601d210bbb0f677b9cb88a5186c3c ASoC: amd: acp: fix card name length warning in SOF SoundWire machine driver
+fa899ba9b1bfa0481a477c7a05a1a5d484285e7f ASoC: amd: acp: SoundWire machine driver fixes
+0030f62683d5061d43b80577b7ab27196f1adb4c ASoC: adau1977: make the Kconfig symbols user selectable
+528a0da3e55b24d1113b3658e94cf432e0020913 ASoC: adau1977-spi: drop __maybe_unused and of_match_ptr()
+76a8fe25b97881223976363044924d5cf0511749 ASoC: adau1977-i2c: add OF match table for I2C
+940e8fe8535d22ce67dd2fb9588e6c55a31d7d03 ASoC: adau1977: small fixes to make the driver more usable
 7c7d5e9d7e3942ba5aec9847f61a6e76d7773191 Merge tag 'ipsec-2026-09-16' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
 fefaac1176bf3cf002a8dc83339d6ed6a369941a Merge tag 'wireless-2026-09-16' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 089070b51ccbac411462a30a454690274c6e4270 hwmon: (pmbus/tps53679) Select page 0 for single-page TPS53676
@@ -601,13 +621,9 @@ fecbe78ac0e7bb5cdae232444e649a3103d9a917 Merge tag 'sched-urgent-2026-09-20' of 
 a10a019dd4c7c57bef6b8dda962c8881ad220af2 Merge tag 'dmaengine-fix-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 6a5719cc3ef2e4d9857cc4ae18e6db09d59a8cc9 net: qrtr: resend HELLO on MHI resume
 93f51579e7df248780214094418f205253383cc5 Linux 7.3-rc4
-a389c4dd55d5568571b57dfd7200fd0fe24a55d4 ASoC: stm32: spdifrx: Drop mention of the deprecated and unused call
-08d77e31df21fd16a2430277c09a84296972c86c ASoC: sprd: Replace dma_request_slave_channel() by dma_request_chan()
-77593bbdb8aa546ee1b99c2a7c806a00784c68cf ASoC: soc-generic-dmaengine-pcm: Replace dma_request_slave_channel() by dma_request_chan()
-ca11bc272ab4075afbcbf7d56116244243e1f2e1 ASoC: pxa: Replace dma_request_slave_channel() by dma_request_chan()
-b045248399d0cd8b6188ce1a5b9d722709ad3ddc ASoC: fsl_asrc: Replace dma_request_slave_channel() by dma_request_chan()
-4f846b8b69fd0a114ebba076493ddb62efc9ce51 gpib: fmh_gpib: Replace dma_request_slave_channel() by dma_request_chan()
-ae710b66c715933fb3e9aa53d4a024641921772e dmaengine: Remove deprecated dma_request_slave_channel()
-617cf01527933b60c761151bd056a321194aa2fa ASoC et alia: Convert to use dma_request_chan()
+2c68b2403acd1cbf0b19c71dab9858cd2ca6bbb5 spi: dt-bindings: Clarify what rx-sample-delay-ns describes
+631a5633638136add14406d5bc18ca113492cd77 spi: Parse the rx-sample-delay-ns peripheral property in the core
+38d4b42e4a2af5066b602867042c10c699bd08ad spi: dw: Use the rx-sample-delay-ns value parsed by the core
+a124a7c33d24dff2ee4311b560424209098ea78e spi: Better specification for rx-sample-delay-ns and core parsing
 
---===============4375865512878653513==--
+--===============5750757281434969794==--
