@@ -1,45 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============7143782349282164011=="
+Content-Type: multipart/mixed; boundary="===============5063963977861247557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 21 Sep 2026 07:02:27 -0000
-Message-Id: <178997414764.458464.9973213528591666361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 21 Sep 2026 07:08:39 -0000
+Message-Id: <178997451994.462528.11216620410195726921@gitolite.kernel.org>
 
---===============7143782349282164011==
+--===============5063963977861247557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 63394d06643ae1a094bc1af832d9710d7318f1b3
-    new: 1c12f13c079c35a1e5ef2dd9e6aeea1810c58e87
-    log: revlist-63394d06643a-1c12f13c079c.txt
+  - ref: refs/heads/master
+    old: aa76c4cc68e85a54c3db80dbcdab977a6e50f3fd
+    new: 8d3ee6cdfde3c922a855998ff0fe60818e9afd33
+    log: revlist-aa76c4cc68e8-8d3ee6cdfde3.txt
 
---===============7143782349282164011==
+--===============5063963977861247557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63394d06643a-1c12f13c079c.txt
+Content-Disposition: attachment; filename=revlist-aa76c4cc68e8-8d3ee6cdfde3.txt
 
-d673d25d3e27a97813b7a8af2870f8fd63f052e5 perf dwarf-aux: Add die_has_flex_array() helper
-b827d234695527d7960dd9c825d2aaa43a3b232e perf annotate-data: A small cleanup in __add_member_cb()
-b4ad992f8ff69695109fe9ac656f61a8b7b38742 perf annotate-data: Allow out-of-size access for flex-array types
-aaca646915a1bb531c745b5689d7a9e258f5f87b perf annotate-data: Adjust type offset for flex-array
-268d5c3979251c31305dc8e8afeeaaa296f2e252 perf capstone: Symbolize address operands to match objdump on arm64
-705390bdcf625d7cb573c6d001569b68be0d9755 perf llvm: Fix arm64 adrp instruction disassembly mismatch with objdump
-699c52c69f2a10a6b3b9465883d9e5a285cd7b6f perf annotate-arm64: Generalize arm64_mov__parse to support more instructions
-d9700ad94a9f38a9997386ae349c9de947c87c4f perf annotate-arm64: Handle load and store instructions
-988b4e46980b3d80548dae4b748a8d144f01352c perf annotate: Normalize arch__dwarf_regnum() error return values
-487e428bb30eb1311887f05ece5b2c6beceb42ea perf annotate: Introduce extract_op_location callback for arch-specific parsing
-4c42173d98cbbb53430a8d28a7823afc9e7b8b71 perf dwarf-regs: Adapt get_dwarf_regnum() for arm64
-0ba32f84fcd17a7a92ea1ff251fb2245ff29180a perf annotate: Adapt arch__dwarf_regnum() for arm64
-20aca193502c08d11a4a8ef94c110cb20761b5fb perf annotate-arm64: Implement extract_op_location() callback
-035efae7df32bc2800bbe525b28f5be5dbcaf701 perf annotate: Default to --itrace=i1i for data type profiling
-1c12f13c079c35a1e5ef2dd9e6aeea1810c58e87 perf arm-spe: Set default synthesized event period to 1
+07a36bb696bd2770b3037bd3330dad00ca361805 dt-bindings: input: mediatek,mt6779-keypad: add mt6572
+3217901daa9399ee7faac674f96876c10c69a03b arm64: dts: amlogic: t7: use the real UART pclk
+8e81fc80aaddcfe5f4dd05a42304a707315a927b arm64: dts: amlogic: t7: khadas-vim4: allow the SD card to be power cycled
+271b26a4b59e7bfa0e9965f3ce0ebfb27b328ace arm64: dts: amlogic: t7: fix the pin groups of two PWM outputs
+2e9982db4f9f44d2ee7d2ecb43b0a7234fa7ca4e arm64: dts: amlogic: t7: khadas-vim4: add the PWM-driven supplies
+8ad86ea1fd1e378a3abf1308fe8112cc94c3cb4b arm64: dts: amlogic: t7: fix the pin groups of the vsync PWM
+8e95a93516e39d7b46084ef9c0cda9a4c84aee4d arm64: dts: socfpga: change access permission from 755 to 644
+5eeafa3872828603048f0920f13520c6261f54c4 arm64: dts: renesas: r9a09g057: Switch GBETH TX queue scheduling to WRR
+4ffced4bafa7df99723e9640c1704815555a413a arm64: dts: renesas: r9a09g056: Switch GBETH TX queue scheduling to WRR
+37d9ff431f66fc623e2ff8a2c4ff8defd36775b5 arm64: dts: renesas: r9a09g047: Switch GBETH TX queue scheduling to WRR
+cea1d6a5cc18524e91a16eb0cac01cc3863a5735 arm64: dts: renesas: r9a09g077: Switch GBETH TX queue scheduling to WRR
+7040467278cdb0bf8d4005fd87636f20e1455283 arm64: dts: renesas: r9a09g087: Switch GBETH TX queue scheduling to WRR
+e0545aafa19cb2624d5431ab2f2187b6e1ef39d4 Input: document that no new LED codes should be added
+f822207e2b69be9b026f4beeaee65cb236e52ccb arm64: dts: renesas: r8a779f0: Set UFS lane count
+276ef74ca9d8d3e021bd7520f0dc522022cedc86 Merge tag 'renesas-fixes-for-v7.3-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/fixes
+cff1d43508a76230ea4421c4ed7a7587e6ef4f32 dt-bindings: display/msm: Use consistent indentation in the example
+034a6a8273d871e38aa4c9c050a12fb04688d7e4 Merge tag 'amlogic-fixes-v7.3-rc' of https://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/fixes
+b4cc7f1622160ab4ca9b1d64e9744c1f33468d92 Merge tag 'drm-msm-fixes-2026-09-16' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
+798ecb238ecef63b628fe4b7d5a2161416d75c35 Merge tag 'renesas-fixes-for-v7.3-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/fixes
+60381516979002ce89508520dd625b2f00e4172e Merge tag 'soc-fixes-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+3079f4db2ba7998fea5caf757e0457dd9033c45b Merge tag 'drm-fixes-2026-09-19' of https://gitlab.freedesktop.org/drm/kernel
+f45361aaae180e7fe923a2e6a10954aea6904cfe Merge tag 'input-for-v7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+8d3ee6cdfde3c922a855998ff0fe60818e9afd33 Merge tag 'v7.3-rc4-dts-raw'
 
---===============7143782349282164011==--
+--===============5063963977861247557==--
