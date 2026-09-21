@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Mon, 21 Sep 2026 09:57:41 -0000
-Message-Id: <178998466119.605762.11356743839865686331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Mon, 21 Sep 2026 09:59:33 -0000
+Message-Id: <178998477323.606341.4644167661568158317@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/heads/master
-    old: 4946370d06d51e3f9b003e71da416a6dddf9e4bc
-    new: 64fde2647ddaa9446491543c697d26e94e03363e
+  - ref: refs/heads/for-next
+    old: a51e0770b79bb7a9cc313043ae074b069ba1c0d5
+    new: 3bab8c7e0c6ba187a47163a1f71477213a278c48
     log: |
-         64fde2647ddaa9446491543c697d26e94e03363e README: move SPDX boiler-plate into REUSE.toml
+         3bab8c7e0c6ba187a47163a1f71477213a278c48 ata: libata-scsi: abort multi-sector pass-through commands when multi_count is 0
          
