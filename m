@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 21 Sep 2026 14:02:49 -0000
-Message-Id: <178999936925.964497.7071193952992886744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 21 Sep 2026 14:04:29 -0000
+Message-Id: <178999946993.965284.18060200669833623687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/bugs/207d696650b7037acb3459c8dc40ad8641a3b752e0518d0ae1aeb78b16fb6d32
-    old: 0000000000000000000000000000000000000000
-    new: e678aeb41ba066e90e3c30ca16f4a53e693d3f2a
-  - ref: refs/bugs/3f4e82f0a35bfe5c01a32925b1a1e753760d0a76a0dc33d975828ebeb0800a16
-    old: 0000000000000000000000000000000000000000
-    new: 93e19ee036d2ed9cc9a46d772091052a24a9b6e2
-  - ref: refs/bugs/ef6f95809a827cc444321d0b205e70fbe27da2720fda58c28188686379365d44
-    old: 0000000000000000000000000000000000000000
-    new: 472c6c4fdeb8dab838f46ed97622587d7efca2ff
+  - ref: refs/heads/master
+    old: 019debf20bfd648b40ba10377ee0168db5eb241e
+    new: f7721562cb4d359413ac8b9a70ed4d7908b68915
+    log: |
+         f0ca020cbb9bb7f3f4ea8ba1dfcf30a282aec91e Bluetooth: bnep: fix out-of-bounds reads on short RX/TX frames and control fallthrough
+         37a11129345337efd6eef8e62b03b6348cd0dd8b Bluetooth: btintel_pcie: validate device-supplied DMA indices
+         46f8ffd0a1f1eb6cbc94946a92c11ef601e228a1 Bluetooth: RFCOMM: fix NULL dereference of dlc->session in RFCOMM_CONNINFO
+         6d91041bb38b97e2feb625123cc0529d7b83a0e1 Bluetooth: RFCOMM: Reject short EA=0 frames in rfcomm_recv_frame()
+         f7721562cb4d359413ac8b9a70ed4d7908b68915 Merge branch 'bluetooth' into bluetooth-next
+         
