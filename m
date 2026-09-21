@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 21 Sep 2026 23:27:05 -0000
-Message-Id: <179003322505.1419141.4458091442520559275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 21 Sep 2026 23:39:26 -0000
+Message-Id: <179003396632.1426831.9142342375423694408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 05092b54333c7b17a7715b0f8b52d81a93faba77
-    new: cd7e4b1e479622ffc117bc7215c0796d7acb8dd1
+    old: 0346ec2f080b40d95ed05b853bb9226289e75212
+    new: 31995571219c8ac30913d9c0dccad033fbb0b3da
     log: |
-         cd7e4b1e479622ffc117bc7215c0796d7acb8dd1 tls: drop duplicate check_app_limited in tls_push_sg
+         31995571219c8ac30913d9c0dccad033fbb0b3da net: don't require the hwtstamp NDOs when a PHY provides timestamping
          
