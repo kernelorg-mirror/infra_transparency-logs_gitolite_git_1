@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Mon, 21 Sep 2026 09:10:02 -0000
-Message-Id: <178998180235.564528.15741983658538357287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Mon, 21 Sep 2026 09:15:09 -0000
+Message-Id: <178998210989.570933.877583717375854931@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/b4/gemini-tve200-fix
-    old: 08db46316bd52a0fc931c10da1461f9029b390d2
-    new: cc6e8e44481ed61340dc3829e358397f7774de64
+  - ref: refs/heads/next
+    old: 3fa5aa398edf94653926ad5e68b89f69490481b5
+    new: 4baeac7107a6d0acc3a7923ed0990021b249bc62
     log: |
-         73ab09d39f82992aa783134aa556f63808f9ba62 Fix Gemini TVE200 interrupt triggering
-         9c5a96f9047a71e81e3b778fb63152e8a11565b4 dt-bindings: display: faraday,tve200: Use a level-high interrupt
-         cc6e8e44481ed61340dc3829e358397f7774de64 ARM: dts: gemini: Use a level-high interrupt for TVE200
+         b030ffaedc1d638f232f6992406cdcdcc82d5602 cred: clarify that task_struct::cred is only for the current task
+         4f238e6e1c2cc985ca6885549e05de8fc37ad4fe ns: Free anonymous mount namespaces via ns_common_free()
+         f675d2e9556963133b71df68739b771bf51c3a67 lsm: add LSM blob and hooks for namespaces
+         e26307d83048803274837abf33f65396a88e21ac lsm: add LSM_AUDIT_DATA_NS for namespace audit records
+         4baeac7107a6d0acc3a7923ed0990021b249bc62 Merge branch 'lsm/dev' into master
          
