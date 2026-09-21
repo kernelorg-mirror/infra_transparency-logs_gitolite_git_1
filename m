@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Mon, 21 Sep 2026 16:33:14 -0000
-Message-Id: <179000839430.1102145.3126110328694955071@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Mon, 21 Sep 2026 16:37:06 -0000
+Message-Id: <179000862680.1105434.7606727869627013643@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
+user: khilman
 changes:
-  - ref: refs/heads/block-7.3
-    old: 327c428ba79b13e4cc5253333a9d5c0aa5579bdf
-    new: 687cb38c4330d52d58dbf426a3eb523850052d10
-    log: |
-         687cb38c4330d52d58dbf426a3eb523850052d10 selftests: ublk: fix unused_result error
-         
   - ref: refs/heads/for-next
-    old: 2dd9768a37dbb99398c5e332485dbb107ac397c8
-    new: 0f54ee1f2742e3698afa6c052769b43b24773243
+    old: e1743a4a9b0b1bb6249454263f65889936fe9d6f
+    new: 7cdd46c9d6c5a7f4800195af82bb718081e7c84d
     log: |
-         687cb38c4330d52d58dbf426a3eb523850052d10 selftests: ublk: fix unused_result error
-         0f54ee1f2742e3698afa6c052769b43b24773243 Merge branch 'block-7.3' into for-next
+         b45c06f362ee5ce9ef6402fcf57077a740cf1063 arm: multi_v7_defconfig: Enable SND_ALOOP
+         d1e94aea2b15f076d3f95b309fbb372a8fe2e9f0 ARM: OMAP2+: remove unused ctrl_module_wkup_44xx.h header
+         c3037b5c7c38bdf78c214e7dbe513a553ce8f47b ARM: dts: am335x-bonegreen-eco: Enable 1GHz OPP by increasing vdd_mpu voltage
+         1ff29fa2b59ba012cb05cf28056de22736e19b43 Merge branch 'omap-for-v7.4/defconfig' into tmp/omap-next-20260921.091322
+         3669848e076ef9fdf0bc78f55d44e333f605c40c Merge branch 'omap-for-v7.4/dt' into tmp/omap-next-20260921.091322
+         7cdd46c9d6c5a7f4800195af82bb718081e7c84d Merge branch 'omap-for-v7.4/soc' into tmp/omap-next-20260921.091322
          
