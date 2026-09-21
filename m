@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8904330302763281886=="
+Content-Type: multipart/mixed; boundary="===============0602186696083760973=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 21 Sep 2026 14:23:44 -0000
-Message-Id: <179000062433.982177.4228055421519784037@gitolite.kernel.org>
+Date: Mon, 21 Sep 2026 14:24:30 -0000
+Message-Id: <179000067058.982588.12837239646652701135@gitolite.kernel.org>
 
---===============8904330302763281886==
+--===============0602186696083760973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/hwmon
     old: 40288c9206c17eb66a603262e06a58d300d0f279
     new: 93f51579e7df248780214094418f205253383cc5
     log: revlist-40288c9206c1-93f51579e7df.txt
-  - ref: refs/tags/v7.3-rc4
-    old: 0000000000000000000000000000000000000000
-    new: dec005ae90a2946656a090f37bf1cfbd22f08e57
 
---===============8904330302763281886==
+--===============0602186696083760973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -120,4 +117,4 @@ a10a019dd4c7c57bef6b8dda962c8881ad220af2 Merge tag 'dmaengine-fix-7.3' of git://
 6a5719cc3ef2e4d9857cc4ae18e6db09d59a8cc9 net: qrtr: resend HELLO on MHI resume
 93f51579e7df248780214094418f205253383cc5 Linux 7.3-rc4
 
---===============8904330302763281886==--
+--===============0602186696083760973==--
