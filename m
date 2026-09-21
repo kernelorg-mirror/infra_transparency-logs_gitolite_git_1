@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7113975703698912431=="
+Content-Type: multipart/mixed; boundary="===============7884310232614761890=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 21 Sep 2026 19:10:23 -0000
-Message-Id: <179001782323.1221958.12665327791632034217@gitolite.kernel.org>
+Date: Mon, 21 Sep 2026 19:11:07 -0000
+Message-Id: <179001786779.1222648.14768518848743700493@gitolite.kernel.org>
 
---===============7113975703698912431==
+--===============7884310232614761890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,45 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 3bd2a3ec787ae4fb3ced91f80cb78e8208f34100
-    new: 9188919671f062f507831a0a527bd26d332283e8
-    log: revlist-3bd2a3ec787a-9188919671f0.txt
+    old: 9188919671f062f507831a0a527bd26d332283e8
+    new: c81f6d2398d063009cc9ad2c98f126daaa7669e2
+    log: revlist-9188919671f0-c81f6d2398d0.txt
+  - ref: refs/heads/tip/urgent
+    old: a95e3bb64c21a415ae8fd206ca2343f992b794c5
+    new: 76b42d4a7b98aa60379dd04f42b1f48dad79bdd9
+    log: revlist-a95e3bb64c21-76b42d4a7b98.txt
 
---===============7113975703698912431==
+--===============7884310232614761890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3bd2a3ec787a-9188919671f0.txt
+Content-Disposition: attachment; filename=revlist-9188919671f0-c81f6d2398d0.txt
+
+76b42d4a7b98aa60379dd04f42b1f48dad79bdd9 Merge branch into tip/master: 'x86/mm'
+8214b9b6736e3034b546f029b1c19e8a111d18bb Merge branch into tip/master: 'irq/core'
+9a631fd9b74ad8dc703cc79880642c40cdcc2505 Merge branch into tip/master: 'irq/drivers'
+3f011f184eb0f2128e4e1a4702e545dd1969e9e5 Merge branch into tip/master: 'objtool/core'
+87fc5e867d5f57bc23d54f2d148d45bab9fe0f5e Merge branch into tip/master: 'perf/core'
+ebd816c30bc361de34d65c050693021ac44bb2a3 Merge branch into tip/master: 'sched/core'
+56058f175901bc030895ff8568b2383daed556aa Merge branch into tip/master: 'timers/core'
+496a774a871115133e72da305f5828f75346027e Merge branch into tip/master: 'timers/nohz'
+8d2a8c22af8740dee832e41794cce44bf3a35eab Merge branch into tip/master: 'x86/boot'
+5517f6ed345e8153ffc9228c3fd08b66027230df Merge branch into tip/master: 'x86/bugs'
+266b45e12188a934a7943987302df90186aa04cd Merge branch into tip/master: 'x86/cache'
+468ac67ed72d17693eb15b75b2fcca8e7170a4fe Merge branch into tip/master: 'x86/cleanups'
+95b5f93ba045347b9a8b1d6e0c78b47b80ac5b8c Merge branch into tip/master: 'x86/cpu'
+481c31646533a43e4e3d159af338893a02310db2 Merge branch into tip/master: 'x86/kdump'
+6f91638a6750250484a15de081b160b7c079fbdf Merge branch into tip/master: 'x86/misc'
+b4c99340a95e80fbf0f108731f5f65c99707f3d0 Merge branch into tip/master: 'x86/platform'
+8658a81458e0d4dbaddecd717eed2ff90e0c3188 Merge branch into tip/master: 'x86/sev'
+9cdb1334ebc77dc73dc93f47b54bf94957c40d0f Merge branch into tip/master: 'x86/sgx'
+c81f6d2398d063009cc9ad2c98f126daaa7669e2 Merge branch into tip/master: 'x86/tdx'
+
+--===============7884310232614761890==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a95e3bb64c21-76b42d4a7b98.txt
 
 5b644229bd677d52c4efa5973c1fab842c57f896 xfs: guard against igrab failure in xrep_findparent_from_dcache
 afbccf99f7f82117cba9ad4b0b006692030f49e8 xfs: don't assert when XFS_SCRUB_TYPE_HEALTHY scans return corruption
@@ -53,6 +83,6 @@ ffb48dccce1960a9ea24463a2f3c21d124d6b672 xfs: drop dquot flush lock when we can'
 476582d754cdc5110f806001417fea6c77824c13 xfs: don't let hidden_space go negative in xfs_metafile_resv_init
 fe2f9135df43db849e74f03956d322ac20b59af7 xfs: fix wild memcpy access when formatting ondisk rtrefcount btree roots
 f0100363d8c374bd8e9ea7c9ba02744f0b802ca4 Merge tag 'xfs-fixes-7.3-rc5' of gitolite.kernel.org:/pub/scm/fs/xfs/xfs-linux
-9188919671f062f507831a0a527bd26d332283e8 Merge branch 'linus'
+76b42d4a7b98aa60379dd04f42b1f48dad79bdd9 Merge branch into tip/master: 'x86/mm'
 
---===============7113975703698912431==--
+--===============7884310232614761890==--
