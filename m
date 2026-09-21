@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5835648060027962625=="
+Content-Type: multipart/mixed; boundary="===============2258428911044913091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 21 Sep 2026 07:35:22 -0000
-Message-Id: <178997612202.484431.7733563778461793948@gitolite.kernel.org>
+Date: Mon, 21 Sep 2026 07:35:37 -0000
+Message-Id: <178997613788.484663.13241045742474513587@gitolite.kernel.org>
 
---===============5835648060027962625==
+--===============2258428911044913091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-fixes
-    old: 126f16e0a1b353c2ba5c7e2c8626cfa865934f9f
+  - ref: refs/heads/mips-next
+    old: cee9395acd8043be0644b25c34bfa86623f2b935
     new: 93f51579e7df248780214094418f205253383cc5
-    log: revlist-126f16e0a1b3-93f51579e7df.txt
+    log: revlist-cee9395acd80-93f51579e7df.txt
 
---===============5835648060027962625==
+--===============2258428911044913091==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-126f16e0a1b3-93f51579e7df.txt
+Content-Disposition: attachment; filename=revlist-cee9395acd80-93f51579e7df.txt
 
-0791a234b35d4b72187c497e05817f2c9019c3ab remove old lib/alloc_tag.c
-e14a3454806468b086fe2e4ca2e1bff95b528531 mm/mlock: use the IRQ-safe accessor for NR_MLOCK in __munlock_folio()
-9f0346dcbea363787186c94ef94dd01aaa215afa Merge tag 'driver-core-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
-e6662f2100f8d33b0f4d0047c219efd6bba186ea net/sched: defer qdisc freeing after failed creation
 802eedcc0b25bb3e1b492f0600ab74325274d53b net/mlx5e: Fix missing FEC mode mapping for RS_544_514_INTERLEAVED_QUAD
 b9d755c5a37519fb1354034db1dfeb30e1ba6856 net/mlx5e: Fix setting RS FEC after remapping
 c84ce45a7a3f3f024502c7f53308db9c76e4ae71 net/mlx5e: Fix reporting support for all RS FEC variants
@@ -299,6 +295,10 @@ d1c44a7d085473173bb360b7218a43699c3f56c7 s390/crypto: Fix use of mutex in atomic
 ac1481320110b803ab9b79ab4d2ca11a74fc05f2 s390/crypto: Fix wrong return code to engine in asynch callbacks
 7a08507ea5b4d06ad8d269287913573f34467565 s390/crypto: Map EBUSY to EIO when key conversion fails repeatedly
 dc2136341be9835e70ba7c6b36904cf3683fd029 s390/crypto: Enable CONTEXT_ANALYSIS
+fb5a08026a68be0ec5f660588311fb1091bf5d58 mips: econet: fix unmet dependencies for ECONET
+e261bfd3c042bccd25c82b04de079bdf8bdd8c3a MIPS: config: Add EcoNet EN751221 defconfig
+bbc448c541ed90d52f9ec22f17394304e3bf170e mips: select CONFIG_WEAK_REORDERING_BEYOND_LLSC from CONFIG_EYEQ
+126f16e0a1b353c2ba5c7e2c8626cfa865934f9f MIPS: Octeon: apply USB FDT fixups also when USB is modular
 71c610aeb1770302ac9c9e0b9a4ecd37f1311928 ALSA: us122l: Prevent write upgrades for read mappings
 7284788743121ec8bed556b00f830dc52ad9955d ALSA: hda: Report a change when only the channel status bytes move
 cf4d35896621b7298eef51b7a465e5c0cb22f670 smb: client: fix uid/gid override in getattr with posix extensions
@@ -1051,4 +1051,4 @@ a10a019dd4c7c57bef6b8dda962c8881ad220af2 Merge tag 'dmaengine-fix-7.3' of git://
 6a5719cc3ef2e4d9857cc4ae18e6db09d59a8cc9 net: qrtr: resend HELLO on MHI resume
 93f51579e7df248780214094418f205253383cc5 Linux 7.3-rc4
 
---===============5835648060027962625==--
+--===============2258428911044913091==--
