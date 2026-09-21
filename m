@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 21 Sep 2026 12:19:35 -0000
-Message-Id: <178999317547.713746.10684698109266456401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 21 Sep 2026 12:21:02 -0000
+Message-Id: <178999326215.716504.17380568577832554047@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/for-7.4
-    old: 42bdb61dece4d24ddb8c104054c2a656f45a7a49
-    new: dfd8940277c9a07193c2d168760e19d054f5047c
+  - ref: refs/heads/dm-7.3
+    old: 764b683a6180fd72c931c13fea98d383506a3475
+    new: 3195e0daf590683992edb4eed32269e569e04924
     log: |
-         4454102d6565afedfcde64b222595f067a5b7e93 ASoC: SDCA: Improve scanning the SWFT during FDL
-         dfd8940277c9a07193c2d168760e19d054f5047c ASoC: SDCA: Check return value on a missing FDL_Set_Index Range
+         3195e0daf590683992edb4eed32269e569e04924 dm-crypt: reject the lmk IV mode with AEAD ciphers
          
