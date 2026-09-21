@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2709873145960311633=="
+Content-Type: multipart/mixed; boundary="===============9038194919534529310=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 21 Sep 2026 02:25:36 -0000
-Message-Id: <178995753609.253103.2456768736591219232@gitolite.kernel.org>
+Date: Mon, 21 Sep 2026 02:25:39 -0000
+Message-Id: <178995753924.253216.6274499536569325721@gitolite.kernel.org>
 
---===============2709873145960311633==
+--===============9038194919534529310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.1.13/main
-    old: 619214dcb743f3569b021ffe20e0e3bbc21702e1
+  - ref: refs/tags/v7.1.13-8
+    old: 684687cf82844d662bca9f15d270dbfc695d294d
     new: 562bafb0462d5f8d4157ad35070b9f56bf768ba3
-    log: revlist-619214dcb743-562bafb0462d.txt
+    log: revlist-684687cf8284-562bafb0462d.txt
 
---===============2709873145960311633==
+--===============9038194919534529310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-619214dcb743-562bafb0462d.txt
+Content-Disposition: attachment; filename=revlist-684687cf8284-562bafb0462d.txt
 
 498bcdae7e8efeb0e7ba21c90f399f469629581f mm: expose WB_DONTCACHE_DIRTY in bdi debugfs stats
 a7b2fdb7bd971c10b198eb438469a5a64d682de9 NFSD: interlock the use of NFSD_IO_DIRECT for NFS READ and WRITE
@@ -53,4 +53,4 @@ e3139f5f9e680dfd59689c01e4aa0d8d213a4202 Merge branch 'kernel-7.1.13/nfsd-testin
 14374ca76b1d71b3033900d461c643d1ff865739 Merge branch 'kernel-7.1.13/nfs4_acl-passthru' into kernel-7.1.13/main
 562bafb0462d5f8d4157ad35070b9f56bf768ba3 Merge branch 'kernel-7.1.13/changelog' into kernel-7.1.13/main
 
---===============2709873145960311633==--
+--===============9038194919534529310==--
