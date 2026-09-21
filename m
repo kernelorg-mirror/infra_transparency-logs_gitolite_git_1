@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6944405533119600663=="
+Content-Type: multipart/mixed; boundary="===============6340798056157007681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Mon, 21 Sep 2026 09:15:58 -0000
-Message-Id: <178998215870.572141.15675705556723328601@gitolite.kernel.org>
+Date: Mon, 21 Sep 2026 09:16:03 -0000
+Message-Id: <178998216381.572442.8291248147226829725@gitolite.kernel.org>
 
---===============6944405533119600663==
+--===============6340798056157007681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arighi/linux
 user: arighi
 changes:
-  - ref: refs/heads/scx-proxy-exec-next
+  - ref: refs/heads/scx-proxy-exec
     old: 447ad5d3618e30e2bc96fa2df3f2e44ac92779f9
     new: 853ddf9e3b6037ed8b11871711556b366c3ea522
     log: revlist-447ad5d3618e-853ddf9e3b60.txt
 
---===============6944405533119600663==
+--===============6340798056157007681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ be4aa31a82c0cc1652e13504f4020d6e3a979775 sched_ext: Move reject DSQ draining int
 282b42b5d0db532667651548fe3b64df35fc1722 sched_ext: scx_qmap: Add proxy execution support
 853ddf9e3b6037ed8b11871711556b366c3ea522 sched: Allow enabling proxy exec with sched_ext
 
---===============6944405533119600663==--
+--===============6340798056157007681==--
