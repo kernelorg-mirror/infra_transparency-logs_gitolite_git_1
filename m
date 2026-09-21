@@ -1,43 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============9124682295200446008=="
+Content-Type: multipart/mixed; boundary="===============8310993529722499883=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Mon, 21 Sep 2026 12:12:16 -0000
-Message-Id: <178999273612.708364.17675846042813269586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Mon, 21 Sep 2026 12:13:25 -0000
+Message-Id: <178999280580.708822.13220281309806736420@gitolite.kernel.org>
 
---===============9124682295200446008==
+--===============8310993529722499883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/scx-proxy-exec
-    old: 853ddf9e3b6037ed8b11871711556b366c3ea522
-    new: 4f150479d48b5acd3ff191243bf656036c3bbdd6
-    log: revlist-853ddf9e3b60-4f150479d48b.txt
+  - ref: refs/tags/wireless-next-2026-09-21
+    old: 0000000000000000000000000000000000000000
+    new: 6ddd0ac337ebdab4a01747185c67f715f2355427
 
---===============9124682295200446008==
+--===============8310993529722499883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-853ddf9e3b60-4f150479d48b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8d5a9812a8632e7afe59599d5129c1e8030c25fd sched: Make NOHZ CFS bandwidth checks follow proxy donor
-f353b035c471316d8470239c3cc9a0cd0a57756c sched: Add helper to block retained proxy donors
-e4855a510be167fca2822d8a63f1ab42baefeb94 sched: Add sched_ext hooks for proxy execution
-fe6d453548903d05d81128e10b0aaeed52506b5e sched_ext: Block proxy donors before taking control
-33c2cdba0d1931a67c220832e35bc87e8d4d6d29 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
-522101d54cca0838ba8bc48e74d536a5c9acbe1f sched_ext: Move reject DSQ draining into core
-fb79ce84eb25de64e8771383f3b1b0fd491ba530 sched_ext: Generalize the reject DSQ reenqueue path
-15a4dec1b5695b9dfb55f04e5bcdd02c91199917 sched_ext: Handle proxy-exec races in remote DSQ transfers
-3d5229674e4fe017aaf674ee9b2d353d87af095e sched_ext: Split curr|donor references properly
-1e8f4f8a6a47dca506337d5cd02013ec3aed873e sched_ext: Delegate proxy donor admission to BPF schedulers
-4614de29900241f912ecde754f35e03c3e13ab22 sched_ext: Add selftest for blocked donor admission
-0ed2345bfb19df1007202995a7c9f4e63be78484 sched_ext: scx_qmap: Add proxy execution support
-4f150479d48b5acd3ff191243bf656036c3bbdd6 sched: Allow enabling proxy exec with sched_ext
+certificate version 0.1
+pusher 7BF9099A 1789992765 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1789992765-d0979a2315f2cbd26d638f28bf6177f622130b56
 
---===============9124682295200446008==--
+0000000000000000000000000000000000000000 6ddd0ac337ebdab4a01747185c67f715f2355427 refs/tags/wireless-next-2026-09-21
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmqxHz4ACgkQ10qiO8sP
+aAC5KRAAj0KiphAKVqgBRBPUS5bdscgG6qgAT77G+veT2pKdjDHcpw/H5v1rUGrM
+1YXi8NnBde2SJrfEpQLPQZYDXQ3VzYvAcDI2L6pTzxx7JOuzBUPt1+hSzc8rn0lt
++3QdFoJ+0VasLJi9XX6Pky7I93cx+RSJ8yN6+VaHyJx+kpvf4pd+uKVEbYtX2U6+
+HmMCMDCCg0Y607pSsuv6flhdDhw4DBMjdPsSFHSe6Z6xav+4w2VHw2zOaHfvjvlc
+WHYZJxaQA0rASbdeJ9DgMAokmy7FXe2wmMkpJMQVm/D6rwsLY4ss8AtTboSL/D44
+l+dp4hZ+PqORxqiGIAVFBjZ66YcNQERQjx74vbGf59/h75cSsEnotiKNuwY7eLkf
+2LGdHeR1NDADz6IrDMek07O2KacARfFx+GtlsUxAyNMh/TA3wYunvDsG2BUOPkwa
+GsCNtD+hTVDGBIxI3COJ19osXVhywm+f64FfGV/5U5PlYmZ+ksuzDSEpvP7ktZof
+RLE3Yx2iMWmj+MCW8a0mQVrE9Vqs7LWNrZaEQgPriFKnXM07sYMBczLMebFvVT1p
+GPVee8crEkN8Eip6kcFljhEj/8I5/W141NXQDXh5n4ADZC/pyJ/EMC7yLUVn+84h
+QLY/WLBErF7pVsOMvIFBObLnSArDYTG8Tz+S+acHGJvrGH1pg9A=
+=n94M
+-----END PGP SIGNATURE-----
+
+--===============8310993529722499883==--
