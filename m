@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 21 Sep 2026 10:13:59 -0000
-Message-Id: <178998563915.617501.14784517210283899366@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 21 Sep 2026 10:15:02 -0000
+Message-Id: <178998570250.618486.16122296159977410698@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: 42bdb61dece4d24ddb8c104054c2a656f45a7a49
-    new: dfd8940277c9a07193c2d168760e19d054f5047c
+  - ref: refs/heads/for-7.4
+    old: 001cdc434aa89d1e6c7ea3e5e118167e02dffe20
+    new: 3c82e199d411af3a0fff00ca3c54baaf04abbbb3
     log: |
-         4454102d6565afedfcde64b222595f067a5b7e93 ASoC: SDCA: Improve scanning the SWFT during FDL
-         dfd8940277c9a07193c2d168760e19d054f5047c ASoC: SDCA: Check return value on a missing FDL_Set_Index Range
+         3c82e199d411af3a0fff00ca3c54baaf04abbbb3 spi: spi-master: use literal blocks for commands
          
