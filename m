@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5574039874913444507=="
+Content-Type: multipart/mixed; boundary="===============4404627036674335768=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 21 Sep 2026 17:13:22 -0000
-Message-Id: <179001080238.1131962.11566130535684011903@gitolite.kernel.org>
+Date: Mon, 21 Sep 2026 17:13:28 -0000
+Message-Id: <179001080896.1132249.506529085037465568@gitolite.kernel.org>
 
---===============5574039874913444507==
+--===============4404627036674335768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: 83aa20cc3585da1742a11da47b5bd4bf0394fbce
+  - ref: refs/heads/for-next
+    old: 6e36e099b15bed1e8e5b3e3136c5e3eb56a15aa7
     new: 15972a29ac91dbbf4d33246962b7fcc7b1dea7ed
-    log: revlist-83aa20cc3585-15972a29ac91.txt
+    log: revlist-6e36e099b15b-15972a29ac91.txt
 
---===============5574039874913444507==
+--===============4404627036674335768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83aa20cc3585-15972a29ac91.txt
+Content-Disposition: attachment; filename=revlist-6e36e099b15b-15972a29ac91.txt
 
+34b1847924433ec088709d703bf3f93657e5a686 libbpf: Support selective kernel module BTF loading via bpf_object_open_opts
+66c22d8c0f62a6dfb4e9eaa58fddb804126f683d selftests/bpf: Add tests for selective module BTF loading
+83aa20cc3585da1742a11da47b5bd4bf0394fbce Merge branch 'libbpf-improve-bpf-load-performance-by-selectively-loading-module-btfs'
 06046a8a50e85165cfe4cf1b99ac4c0d43781189 selftests/bpf: Allow privileged preparation for capability tests
 e2b4aaa75040dd68f97dce8a7218e088243666b0 bpf: Record raw memory arguments during argument checking
 fc8dc2be101b038adf6c36c51511a53ca2407199 bpf: Check __uninit kfunc output buffers as write-only
@@ -39,4 +42,4 @@ a25a61385b04c957277bc421d703e79c8ecf4841 selftests/bpf: Cover generic output sta
 ad36589c3f39f982010987448b90d580e0f455d3 selftests/bpf: Cover helper memory access permissions
 15972a29ac91dbbf4d33246962b7fcc7b1dea7ed Merge branch 'fix-generic-__uninit-kfunc-output-buffers'
 
---===============5574039874913444507==--
+--===============4404627036674335768==--
