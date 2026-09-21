@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4024973095420595202=="
+Content-Type: multipart/mixed; boundary="===============6468729891247978375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 21 Sep 2026 07:23:01 -0000
-Message-Id: <178997538157.473517.8497209158496790142@gitolite.kernel.org>
+Date: Mon, 21 Sep 2026 07:23:03 -0000
+Message-Id: <178997538394.473748.17131033885600537633@gitolite.kernel.org>
 
---===============4024973095420595202==
+--===============6468729891247978375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-fixes
-    old: 7362a1553eb09a8cdf8be7e509bd5309a8342486
-    new: 93f51579e7df248780214094418f205253383cc5
-    log: revlist-7362a1553eb0-93f51579e7df.txt
+  - ref: refs/heads/i2c/i2c-next
+    old: 4837329335f55e452aedd6fbe3fd7974fd4893da
+    new: d90867e21bbe8f27d469dedcc1af30e901c5e21f
+    log: revlist-4837329335f5-d90867e21bbe.txt
 
---===============4024973095420595202==
+--===============6468729891247978375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7362a1553eb0-93f51579e7df.txt
+Content-Disposition: attachment; filename=revlist-4837329335f5-d90867e21bbe.txt
 
 d042487dc118e494db2e2c1382310255c90ff544 xfrm: iptfs: fix stack OOB read in iptfs_skb_reset_frag_walk()
 89fefad9f971bc637fb22373078144f2563c4be9 xfrm: serialize state GC with device state flush
@@ -618,5 +618,6 @@ fecbe78ac0e7bb5cdae232444e649a3103d9a917 Merge tag 'sched-urgent-2026-09-20' of 
 a10a019dd4c7c57bef6b8dda962c8881ad220af2 Merge tag 'dmaengine-fix-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 6a5719cc3ef2e4d9857cc4ae18e6db09d59a8cc9 net: qrtr: resend HELLO on MHI resume
 93f51579e7df248780214094418f205253383cc5 Linux 7.3-rc4
+d90867e21bbe8f27d469dedcc1af30e901c5e21f Merge branch 'i2c/i2c-fixes' into i2c/i2c-next
 
---===============4024973095420595202==--
+--===============6468729891247978375==--
