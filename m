@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6407684012500571353=="
+Content-Type: multipart/mixed; boundary="===============4732852458922354620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 21 Sep 2026 06:52:55 -0000
-Message-Id: <178997357572.450720.8512174876467861163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Mon, 21 Sep 2026 06:53:08 -0000
+Message-Id: <178997358839.451053.4280198773222496036@gitolite.kernel.org>
 
---===============6407684012500571353==
+--===============4732852458922354620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 1c12f13c079c35a1e5ef2dd9e6aeea1810c58e87
     log: revlist-63394d06643a-1c12f13c079c.txt
 
---===============6407684012500571353==
+--===============4732852458922354620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ d9700ad94a9f38a9997386ae349c9de947c87c4f perf annotate-arm64: Handle load and st
 035efae7df32bc2800bbe525b28f5be5dbcaf701 perf annotate: Default to --itrace=i1i for data type profiling
 1c12f13c079c35a1e5ef2dd9e6aeea1810c58e87 perf arm-spe: Set default synthesized event period to 1
 
---===============6407684012500571353==--
+--===============4732852458922354620==--
