@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 22 Sep 2026 12:56:42 -0000
-Message-Id: <179008180226.2125224.18324735558673099923@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 22 Sep 2026 12:59:32 -0000
+Message-Id: <179008197214.2126232.14944613639185699059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/spi-7.4
-    old: 1f82e6956faacc6e0c1b402838ba188e19af5a3c
-    new: f6c3117b539d72095404bcd974418f6dfee6d8ac
+  - ref: refs/heads/for-next
+    old: 653c5b4605f65355d3b3f1059784e56c77f146b3
+    new: 9dcacdc41083cccff74292851bf9fde999e0731a
     log: |
-         51e04054e2994ccbf79a2596853e89d539956659 spi: dt-bindings: renesas,sh-msiof: Add support for R-Car X5H
-         8157bb8232a46e3596d396735bfbc3572ea823f5 spi: sh-msiof: Add support for R-Car Gen5
-         f6c3117b539d72095404bcd974418f6dfee6d8ac spi: sh-msiof: Add support for R-Car X5H
+         fad7b0dcb0821c0f201df3d85065145857a6f55b RDMA/core: Fix swapped list_add_tail() arguments in ib_add_sub_device()
+         391c5d826fd0a5dacad54613dbef74c50e966f5c RDMA/restrack: Don't set RESTRACK_DD mark after a failed xa_insert()
+         9dcacdc41083cccff74292851bf9fde999e0731a RDMA/uverbs: Drop restrack ref on ib_init_ucontext() failure in GET_CONTEXT
          
