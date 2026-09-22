@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 22 Sep 2026 23:49:02 -0000
-Message-Id: <179012094248.2612387.16757651090437622059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 22 Sep 2026 23:52:36 -0000
+Message-Id: <179012115618.2615727.4432475397289169370@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: b3696fdef2b2a2700d4ddc80fb1be3bdc9854dc9
-    new: 94809ecf9d2f9cfed27ce5c3db2fbeadd8f90965
+  - ref: refs/heads/master
+    old: a9e86dd9de4f933b69f5cca6293fd4c8919224ec
+    new: 814a81c842bd88f6bd8a4ce550d560df071a5d03
     log: |
-         86187bd3cd5a15b3f5b8023ef7123abc919c9bfe bpf, mips: Factor register moves into helpers
-         07ebb8c386d384d69e6f2c17304f9cb381d4e55a bpf, mips: Add support for BPF_MOVSX in the JITs
-         94809ecf9d2f9cfed27ce5c3db2fbeadd8f90965 Merge branch 'bpf-mips-add-bpf_movsx-support-to-the-jits'
+         814a81c842bd88f6bd8a4ce550d560df071a5d03 bpf, sockmap: Reject max_entries > INT_MAX in sock_map_alloc
          
