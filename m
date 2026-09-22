@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/slab
-Date: Tue, 22 Sep 2026 13:09:45 -0000
-Message-Id: <179008258567.2135719.14704449830131341744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 22 Sep 2026 13:10:20 -0000
+Message-Id: <179008262099.2138380.16783448841590694222@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/slab
-user: harry
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/slab/for-next
-    old: 6932405b8154dd996b892a8a444a5543bb2bc35c
-    new: d7b92c1ee684978c5fed7b3496939d13c8a66b6d
-    log: |
-         d7b92c1ee684978c5fed7b3496939d13c8a66b6d mm/slub: refill prefilled sheaves from the barn
-         
+  - ref: refs/tags/qcom-clk-fixes-for-7.3
+    old: 0000000000000000000000000000000000000000
+    new: 218530d7349d64753ec2857a876c95a3e935f14b
