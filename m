@@ -1,46 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8273788586396442811=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 22 Sep 2026 04:31:40 -0000
-Message-Id: <179005150033.1648122.14692585434998148899@gitolite.kernel.org>
-
---===============8273788586396442811==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Tue, 22 Sep 2026 05:24:00 -0000
+Message-Id: <179005464082.1682164.11892885086332281145@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/for-next/seccomp
-    old: df2908090cda368b01ff43709f51890076c56157
-    new: 832b9b176be06a20747a267db6bc0010a24b74f4
+  - ref: refs/heads/linux-next
+    old: dd886653d2038a510a21bff476fa1be0422a4fb9
+    new: 8f2c2fb94a01320e5136c6e89a47fb12355ad27c
     log: |
-         832b9b176be06a20747a267db6bc0010a24b74f4 seccomp: restore knotif->state when SECCOMP_ADDFD_FLAG_SEND is interrupted
+         dd75508e6fe77116589c49658d0d18897688dc0b virtio: synchronize callbacks after device reset
+         2a12d96dd863cb23eadf07d8845e961580b5fcdf virtio_pci_modern: move avq cleanup from reset to del_vqs
+         ac7360d48607622cd3b1889e2d642a47e458d9e3 virtio_pci: drop callback sync on reset
+         01b8354fa2bc33f411837ac2f6dccfc8dceda96c vhost/vsock: split out vhost_vsock_drop_backends helper
+         a29f2afa2d73c28f2290c7b3232e467d703035b5 vhost/vsock: suppress EHOSTUNREACH fast-fail during CPR pause
+         bb52825eddec2801ae9ace88f53dfee01d22b9bd vhost/vsock: re-scan TX virtqueue on device start
+         5efd97e6f0c745d5cb34e4e3b709200e23d4d7b7 vhost: synchronize with RCU readers when freeing workers
+         8f2c2fb94a01320e5136c6e89a47fb12355ad27c vhost/vsock: add VHOST_RESET_OWNER ioctl
          
-
---===============8273788586396442811==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1790051499 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1790051497-27ad0def2bd4c1529c57c6640e35055e805fceb0
-
-df2908090cda368b01ff43709f51890076c56157 832b9b176be06a20747a267db6bc0010a24b74f4 refs/heads/for-next/seccomp
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCarIEqwAKCRA2KwveOeQk
-u4BmAP4naQMnr7ADKm0fekOgaYUjNRTWDVui59dSaseJxhSQAwD+MI64EohQ9819
-8hAtGblyDbwN0KPbiT7obas5JKYB3AE=
-=K3pf
------END PGP SIGNATURE-----
-
---===============8273788586396442811==--
