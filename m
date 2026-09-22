@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1052779070112617570=="
+Content-Type: multipart/mixed; boundary="===============0226551627541865495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 22 Sep 2026 04:27:53 -0000
-Message-Id: <179005127352.1644491.4781235254836287776@gitolite.kernel.org>
+Date: Tue, 22 Sep 2026 04:28:31 -0000
+Message-Id: <179005131115.1645024.268386021429318217@gitolite.kernel.org>
 
---===============1052779070112617570==
+--===============0226551627541865495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/execve
-    old: ab11176bd3a76058ecafd066d0f9c718dc80f389
+  - ref: refs/heads/for-next/seccomp
+    old: 41fa04327384148b0e2e828c9be9862c5240e9fa
     new: df2908090cda368b01ff43709f51890076c56157
-    log: revlist-ab11176bd3a7-df2908090cda.txt
+    log: revlist-41fa04327384-df2908090cda.txt
 
---===============1052779070112617570==
+--===============0226551627541865495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1790051272 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1790051310 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1790051271-2c905bf3c0b865cc26ef2749be9315d1ce1d0ced
+nonce 1790051308-e29af51733ae79f1e01068124e37abdf7b035232
 
-ab11176bd3a76058ecafd066d0f9c718dc80f389 df2908090cda368b01ff43709f51890076c56157 refs/heads/for-next/execve
+41fa04327384148b0e2e828c9be9862c5240e9fa df2908090cda368b01ff43709f51890076c56157 refs/heads/for-next/seccomp
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCarIDyAAKCRA2KwveOeQk
-u9lPAP9Upe0C9oF9en4lw/CUwPxKOP3gWz6oH9z4VANSCML1ZwD/Z5/oJVOlF6PQ
-iRTvBKSkgA52SpJYk4eHWdtqaW5xtAc=
-=DEf4
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCarID7gAKCRA2KwveOeQk
+u75eAP4rBJWV8veWGWnygnDL2MBvqrg3kixODsV14zm9BjcfeQEA2cDrnrxuBKdf
+M/nSPwk7dV9zXfkkB965Ptmj0vHqFQQ=
+=aqqu
 -----END PGP SIGNATURE-----
 
---===============1052779070112617570==
+--===============0226551627541865495==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ab11176bd3a7-df2908090cda.txt
+Content-Disposition: attachment; filename=revlist-41fa04327384-df2908090cda.txt
 
 0b4268ac77fa6e2c05fc8b90441b0832b211385d mm/kconfig: drop redundant dependency wrappers
 0bd14001eb264247d565a5a44a71675df273640d mm/vma: introduce VMA anon page offset field and add helpers
@@ -1072,4 +1072,4 @@ c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of g
 b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
 
---===============1052779070112617570==--
+--===============0226551627541865495==--
