@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============9030928656342607625=="
+Content-Type: multipart/mixed; boundary="===============4934336883661987589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 22 Sep 2026 13:14:21 -0000
-Message-Id: <179008286186.2140679.6790725784323003513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 22 Sep 2026 13:14:32 -0000
+Message-Id: <179008287209.2140962.17966317181365443764@gitolite.kernel.org>
 
---===============9030928656342607625==
+--===============4934336883661987589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: edd8a9fe2eca009599e013a29c421c7a6b5ad1b9
     log: revlist-1c12f13c079c-edd8a9fe2eca.txt
 
---===============9030928656342607625==
+--===============4934336883661987589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ a5cac2df8b4af0410dd6339e6491cb1e4fbc6986 perf build: Remove leftovers of removed
 1865b4164b515fdbf2cfb7916b942bf335b35b1e perf trace: Free the whole evsel_trace in evsel__put_and_free_priv
 edd8a9fe2eca009599e013a29c421c7a6b5ad1b9 perf evsel: Report an allocation failure as ENOMEM when setting filters
 
---===============9030928656342607625==--
+--===============4934336883661987589==--
