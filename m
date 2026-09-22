@@ -1,26 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Tue, 22 Sep 2026 05:24:00 -0000
-Message-Id: <179005464082.1682164.11892885086332281145@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0770305007887047070=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Tue, 22 Sep 2026 05:26:08 -0000
+Message-Id: <179005476857.1685151.12681782015086964753@gitolite.kernel.org>
+
+--===============0770305007887047070==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/linux-next
-    old: dd886653d2038a510a21bff476fa1be0422a4fb9
-    new: 8f2c2fb94a01320e5136c6e89a47fb12355ad27c
-    log: |
-         dd75508e6fe77116589c49658d0d18897688dc0b virtio: synchronize callbacks after device reset
-         2a12d96dd863cb23eadf07d8845e961580b5fcdf virtio_pci_modern: move avq cleanup from reset to del_vqs
-         ac7360d48607622cd3b1889e2d642a47e458d9e3 virtio_pci: drop callback sync on reset
-         01b8354fa2bc33f411837ac2f6dccfc8dceda96c vhost/vsock: split out vhost_vsock_drop_backends helper
-         a29f2afa2d73c28f2290c7b3232e467d703035b5 vhost/vsock: suppress EHOSTUNREACH fast-fail during CPR pause
-         bb52825eddec2801ae9ace88f53dfee01d22b9bd vhost/vsock: re-scan TX virtqueue on device start
-         5efd97e6f0c745d5cb34e4e3b709200e23d4d7b7 vhost: synchronize with RCU readers when freeing workers
-         8f2c2fb94a01320e5136c6e89a47fb12355ad27c vhost/vsock: add VHOST_RESET_OWNER ioctl
-         
+  - ref: refs/heads/b4/slub_tiny_rework
+    old: 0000000000000000000000000000000000000000
+    new: 303e784c885e665db2ab3db2229d32e1a3d43210
+
+--===============0770305007887047070==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1790054764 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1790054763-0e365ade599b3b14079949089da2f7901926a552
+
+0000000000000000000000000000000000000000 303e784c885e665db2ab3db2229d32e1a3d43210 refs/heads/b4/slub_tiny_rework
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmqyEWwbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiat/kIAJF/qwSJbEfoKvXaiitL
+66lgL3mIMzhb9LsEBZluVk1AtDWQ5xTKayOPh/Ew7k0Dc7HE+jUQSciyLh0xLji8
+rVr+/8O3rSfIVSzjOTQTjBUZsOSIVe1QTHZ/4LjlpqR13GKZ7JAmEttV19xZsVDg
+Z/ns3PdAWD+ATqQOdviCGKZDK1fs3Cit/C+tNWnD5zjTaoNKccy5zZPjys/pPFCj
+yaUlrG+OXwhtQBcCOB3uDx1aBZYW8jsoxUUVGsk3p2RIaRFVTfCapZuUC907c1Ap
+xeEbWvUY4HF+5eeamhbhFsFZs5OeVznZJnPPcj+k6Pt2kL6C9guwZ+O/1+QHs9Yd
+e9E=
+=ZsIT
+-----END PGP SIGNATURE-----
+
+--===============0770305007887047070==--
