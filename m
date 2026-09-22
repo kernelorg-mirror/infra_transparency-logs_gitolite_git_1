@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5525919894867627949=="
+Content-Type: multipart/mixed; boundary="===============6540553294884449061=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 22 Sep 2026 08:35:44 -0000
-Message-Id: <179006614435.1892267.8241207649560482227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 22 Sep 2026 08:37:31 -0000
+Message-Id: <179006625183.1893518.12243198231793538110@gitolite.kernel.org>
 
---===============5525919894867627949==
+--===============6540553294884449061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: fd73f4a6659897191fa0d40695fe370925dd3780
-    new: 37aba16e7943634eb3e5e2e7e850ebb38500d935
+  - ref: refs/heads/master
+    old: c73a0e6b335b2b25fb4d70548a998c750ffeced5
+    new: 7b5385092bf3314e082132408b478c6ae880cb6e
     log: |
-         37aba16e7943634eb3e5e2e7e850ebb38500d935 serial: 8250: Change console_msr_work to IRQ_WORK_LAZY
+         673d1c5ce70ef161c488a57a9cf43c36067e1df8 6.6-stable patches
+         35d05a036f0c267e4e2d8fdeaac9953b042c9747 6.12-stable patches
+         7b5385092bf3314e082132408b478c6ae880cb6e 6.18-stable patches
          
 
---===============5525919894867627949==
+--===============6540553294884449061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790066139 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1790066138-a21ce3fc9630e480568710094e6370891cb3ff7d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790066250 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1790066249-bea482f38355d8b4181fe0e5864dc95838792963
 
-fd73f4a6659897191fa0d40695fe370925dd3780 37aba16e7943634eb3e5e2e7e850ebb38500d935 refs/heads/tty-linus
+c73a0e6b335b2b25fb4d70548a998c750ffeced5 7b5385092bf3314e082132408b478c6ae880cb6e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqyPdsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+10sQAKlocz+wz/UnvrQWKmyl
-KcRvKGVyKDmZKss+YtgseCDZwR4kFvlOAN73aYH7kLBCEHUkCJZMk925Em8UEl96
-FOmGYJvAp4Z6lX+wC6GtCsmN4QSIZGLzb6AnHig85KrVTwStmIflyDwAd5Qix52i
-dEcEdXN5jJC33ZJfBV1mPxkYN/4sdrsK6WR157pgT6PSbYB/ONLME9y3qPVxIV0N
-YVQic9q4N/nGGIIi0vj58qRCC3gF/7+/wTbDXVDKvKpDBGuiFMS22VgHjerI/Fmj
-UaCmiX0jG7LLILCP3C1nnoYG/iaFMunQy1Ne8hZq+Mye4eAJpTeNFca+NwDwKEJq
-y/ZJ632fuAhLDH6g/tmjHwDjmscgEcXBNJK5RczYnLQfNh4whrRD+y6q6oi2RaCc
-cwfEVuXXKr1U9ZxtxacFbzeC/sPuz3LSvw4sMbIgDMGmPE6xSq5ZTIX52kxQkEEV
-cBueJqezpdhwnIPnPhhH31t9YoIKbPOlKwavWmZVjxHgMys/5ReHtCsl9y4QYlzx
-Ac6q6s3m++xOGsbfzyiBWQzJcfF/QQ8m/PdWED4Wpr4kMBpqm1rZXKoVYaXBKfEq
-5hwqUp/O+AJa7Fm5YZ1MjudV2fjX4QNlG035YxigrgJDbKWmsoeUgj0w/08DABcc
-NhvZS53b6RsZj7SDtexhF221
-=Uk5z
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmqyPkobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yPsP/3UPB1ouTdUn1xk47cNk
+Kb/QHXAEW3bsRaySGp5IwEFCfFrLL0TDGTdLEBmJ6Vag1LsToJIAIyw+wmx6dIfY
+yDIEP8+qjDqK7gaPfN5nS8oOehw4Cz3g1KRJhNlSYC3eAprc5f7YiKNzpduCCIb3
+/rFARZ5eFZ+YeC5FTiKuaMiJTxSTTREk0qbkfSJ0dYNpMqKCKcgZx0LufMx/Ugi1
+oLS2uos90wpLb/+/Sx6aGosMo7+iiBMGmGRMCzN36UUJ5eb0o6DT4ARjEaQs6AEE
+4oVWZZ5BkojlFEYQf+dVH9FR9BqDRwTS7p3IN+3nKlmC8nIqkI2HyK/ypumzF2t1
+3xDn9QSU2rSG0URn+MmzF9u/rksG1FfjfI6rQ2lkoFMIPDg0LuwRYmCSYNm4sr4C
+M+VO94zfa7OGv3H8A3bPRRM3OJKOFaRx2x7KosS/Q+6AktDdCsPUHFPl4RtKV8rk
+xTAajE4USLFi+XdvnH6j2BO3FmhznXgGxWY+3DGAYYBcKza7AkuCbnIQOweGnyzq
+/d+D/f8cwAGGAHh6R60wTgD55NCz5mZq/wslSYG7PZQa2L4xRJd5S5NSFsGlXROt
+SsxK465iXDeASjlFXvRUkDZZQZNqkL/1wsd/gHilrauxXtjjA2HnvalzJdUSmwqX
+gElLWOQGXRrkJIxaLAGTdiDo
+=Hu1i
 -----END PGP SIGNATURE-----
 
---===============5525919894867627949==--
+--===============6540553294884449061==--
