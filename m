@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0907118062045289145=="
+Content-Type: multipart/mixed; boundary="===============7032772352789122526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 22 Sep 2026 07:08:53 -0000
-Message-Id: <179006093390.1759965.1395303919298114226@gitolite.kernel.org>
+Date: Tue, 22 Sep 2026 07:09:06 -0000
+Message-Id: <179006094635.1760409.3898453918266145267@gitolite.kernel.org>
 
---===============0907118062045289145==
+--===============7032772352789122526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,41 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 37e59f5ee9b9788e3888aa01dea9803acfd31fa9
-    new: cfd169973e94720ee4abc8416e15d263f314fd6e
-    log: revlist-37e59f5ee9b9-cfd169973e94.txt
+  - ref: refs/heads/perf/core
+    old: 6df2dee5d0cc0de79179923f6269e8a765e2f7d7
+    new: 56575b4d2feba365c31590a8a5dd3f8843c56b58
+    log: revlist-6df2dee5d0cc-56575b4d2feb.txt
 
---===============0907118062045289145==
+--===============7032772352789122526==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-37e59f5ee9b9-cfd169973e94.txt
+Content-Disposition: attachment; filename=revlist-6df2dee5d0cc-56575b4d2feb.txt
 
-397432cab17bccb600fd6c16ed593f1149042268 mm/mremap: account mm->locked_vm correctly for MREMAP_DONTUNMAP
-e1d56f046507befa20a5e0837d8075abdf5848fd mailmap: map Coiby Xu's address
-12e9ac7bc5b254048f886bf421e3a15491106c1f mm, swap: fix SWAP_USAGE_OFFLIST_BIT collision with real usage count
-6e673d0879ef78c395cfe0d3ba316690a60055d8 memcg: avoid charging the root memcg from obj_cgroup_charge_pages()
-e1d469a8d6c63032a5aed3679a13a086b61bd5cc mailmap: update entry for Christopher Obbard
-848d2ce2fce15fbdc083fbf9691bfa72911033c4 mm: filemap: retain mapped dropbehind folios
-641aade99f06df0037e52b5c81645461b7132947 fs: fix missed removal of super_fs_objects_eligible()
-8e2b8614039853e68d5338e37821e8bcee9fc05f fs/dax: check zero or empty entry before converting xarray entry
-0791a234b35d4b72187c497e05817f2c9019c3ab remove old lib/alloc_tag.c
-e14a3454806468b086fe2e4ca2e1bff95b528531 mm/mlock: use the IRQ-safe accessor for NR_MLOCK in __munlock_folio()
-e6662f2100f8d33b0f4d0047c219efd6bba186ea net/sched: defer qdisc freeing after failed creation
-802eedcc0b25bb3e1b492f0600ab74325274d53b net/mlx5e: Fix missing FEC mode mapping for RS_544_514_INTERLEAVED_QUAD
-b9d755c5a37519fb1354034db1dfeb30e1ba6856 net/mlx5e: Fix setting RS FEC after remapping
-c84ce45a7a3f3f024502c7f53308db9c76e4ae71 net/mlx5e: Fix reporting support for all RS FEC variants
-502381cf7310a87275897a5a0a0a2e628179f00e Merge branch 'net-mlx5e-rs-fec-variant-fixes'
-b3c79dee5038c5e8460c59d7d01cb1450bdf5ecb net/mlx5: LAG, use local tracker to update active ports
-e7ee89740800a1cf253713e9249c3ee9203ebe91 net/mlx5e: Fix ETS zero BW reporting when one TC holds 100%
-af3aef0245abbab5e9f6302e7a7d6407187afb71 net/mlx5e: Fix use-after-free race in sample_restore_put()
-7ee07f601f8f507c9faf25c68a49396ab8950596 net/mlx5: E-Switch: fix use-after-free in mlx5_eswitch_termtbl_put
-c0c6f4ba8a37688f7b4d4044898d88f0450d44c2 net/mlx5: E-Switch, prevent mc_list repopulation during vport disable
-df99553f840e4c529c1ba4c29bd39396466ca11a net/mlx5e: Keep HW timestamp stats monotonic across reconfiguration
-094cc07f98dfe70a34e2a1923af17fd29b8cf622 net/sched: fq: clamp quantum and initial_quantum in change path
-4864f58c53eb47257d55e01f47d4a9f355f7f970 net/sched: fq_pie: clamp quantum in change path
-fb9f88a33c516ea5c0bcd9a22ca288b246b34567 net/sched: sfq: clamp quantum in change path
 eb56a495f59baf6cad5ed80e3ffb9078098b1346 net/sched: hhf: clamp quantum in change and init paths
 3c01f1ca5dfc6d6911b0e5b37f5062b1dc451b94 net/sched: dualpi2: clamp psched_mtu at all call sites
 54370e44c002770ae61fc889f28f699e91616ffc net/sched: pie: clamp psched_mtu in pie_drop_early
@@ -63,6 +39,10 @@ e7c93ad4bd51d2c38da48dcdd8ce27bfb2c3771b Merge branch 'net-sched-clamp-quantum-p
 a0d356696f87700c8c2934e3881277b0d37f0b71 sched_ext: scx_qmap: Do not add IMMED to rescue inserts
 63b4ff622244483e7c530e97d787a3d6c2c38a33 sched_ext: scx_qmap: Place only on cids whose caps are in effect
 c6709d5e14072d0e3d02f291daee46a199e5dad3 rust: num: seal Integer
+1fc5a74b108fc90951890ec513ac81869f5eaff1 Merge tag 'kmalloc_obj-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+c3fd8e5fd100f122bad503bdc0e9277219533253 bpf: Reject non-scalar bpf_loop iteration counts
+bde8901ea14244e7195a2d6b6aa2023b28d4233c selftests/bpf: Test pointer bpf_loop iteration count rejection
+fd5348b434c53c34de5a9b3c67a1516309b6a73c Merge branch 'fix-bpf_loop-syzbot-report'
 662ade4de9ff5eceb0820a9f8e9fac70ba6a815b RDMA/ucma: Serialize join and leave on copy_to_user failure
 9a141d3dc869d18b2eab35e999f4790a9b84e40f IB/IPoIB: Avoid restoring OPER_UP after multicast flush
 402a9d6aab7ac787ab075adeb562c3db8b8f564b ALSA: caiaq: Decoupling ep1_in_urb in caiaq dev
@@ -75,6 +55,17 @@ b26a7a80e6bbf8dd17dacb127d12435d79375cf2 ALSA: ctxfi: Fix CA20K2 S/PDIF passthro
 12cba0ce111c2caabf4ff24dc5538959813664c0 ALSA: hda/realtek: Add quirk for HP Omen 16-wd0xxx mute LED
 45b5beb60bf7bd41c55ef17f6f2d28b351fad6c0 ALSA: usb-audio: Add boot quirk for Behringer CM1A
 33fb59da49c4c3f5c2ec9f9d4447a56857a02c02 RDMA/core: fix refcount bug in iwpm_get_nlmsg_request()
+536b523b407397c8d3967c020ce7aad70a0ea030 bpf, riscv: Make arena support depend on ZACAS
+65538a8f02fe6e4f07228a816529b039b544f051 Merge tag 'usb-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+bf979ab8f24657ebc6193183cfef1669029e84a5 Merge tag 'staging-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+d3cbb9af7242873aae6fc2b7e8a991101a322201 Merge tag 'tty-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
+b485131995544741ba6dcc313d7eb573bca7bebc Merge tag 'irq-urgent-2026-09-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+c8990f3179e5636832fc22e6a262de5d50c797e3 Merge tag 'locking-urgent-2026-09-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+88405f0ad1d5c680afe3ea0ce9345fa9e1deaac8 Merge tag 'sched-urgent-2026-09-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+2beb1b31a12b57e19cd5c82ea6d54e56520605e8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
 89ff16f0713917303210c560eec5cd0c13bd651f sched_ext: scx_qmap: Fix pending partition work handoff
 2ac74c6db40adaa29c50cbb281ae9a6f63de18e1 rust: allow `clippy::as_underscore` in the generated bindings
 5ba79d37403d86082ab4083b0f51ec3008a942cb powerpc/ps3: Fix repository.c build failure
@@ -1050,5 +1041,14 @@ fa21bf3dbf96564a26274ef51f87f32cbc6085b7 perf/x86/intel: Ensure guest PEBS path 
 e082befbfde1db7fe50c27d10165ec1a9b8ab53a perf/x86/intel: Don't write PEBS_ENABLED on host<=>guest xfers if CPU has isolation
 f79e070acb4ff4b60f522df3028f5ecff7822931 perf/x86/intel: Don't context switch DS_AREA (and PEBS config) if PEBS is unused
 cfd169973e94720ee4abc8416e15d263f314fd6e perf/x86/intel: Make @data a mandatory param for intel_guest_get_msrs()
+ee48010529cfc505ca51e3506e1a415ee7590f68 perf/x86/amd/uncore: Turn amd_uncore_ctx events into a flexible array
+6a540deac6a1ffbb3acdb38c985fc81fa2211062 perf/x86/intel: Annotate x86_pmu::hybrid_pmu with __counted_by_ptr
+f103fa1ab25a22e44cf4940e5c44dce93adf42b8 Merge branch 'perf/urgent'
+4c453debfeb8150fef5df98b2bdc375728b7765b perf/x86/intel: Invert names of intel_ctrl_{guest,host}_mask
+b5b23ae44d7a5dd64d5769f44681626e228f1132 perf/x86: KVM: Have perf define a dedicated struct for getting guest PEBS data
+61b803f429374a831b38bd3f0ada3ef5248711ea perf/x86/intel: KVM: Handle cross-mapped PEBS PMCs entirely within KVM
+e837342ed1e20bf738f9d2cf5ea22a914699b7b1 KVM: VMX: Drop a redundant pmu->global_ctrl check when processing pebs_enable
+c45909f1a96a4eb3635ccc952dee806ef08655f9 KVM: VMX: Only tell perf to enable PEBS counters for fully enabled PMCs
+56575b4d2feba365c31590a8a5dd3f8843c56b58 perf/x86/intel: Check only PMC bits in PEBS_ENABLED when detecting host PEBS usage
 
---===============0907118062045289145==--
+--===============7032772352789122526==--
