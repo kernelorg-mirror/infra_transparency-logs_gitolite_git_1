@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
-Date: Tue, 22 Sep 2026 14:06:54 -0000
-Message-Id: <179008601466.2189591.17110709891147440893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 22 Sep 2026 14:16:38 -0000
+Message-Id: <179008659844.2196638.6954239880267159376@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/kbd
-user: legion
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: b4b26fbb2d659acb53e5d69e9cdba535aa00f65e
-    new: 534d71ede7a968b29490e24da73e345791ff3f2c
+  - ref: refs/heads/wip/leon-for-next
+    old: 5bb710151753fe53047b1d34b1b54d0f179cec68
+    new: 9c40f13a63a4b87177de3e8c318af25068fc6ab4
     log: |
-         defe9ea8775115eea97411c1fffd3bf6727a16c0 Fix spelling error of "allows doing"
-         534d71ede7a968b29490e24da73e345791ff3f2c * github-pull-161:   Fix spelling error of "allows doing"
+         9c40f13a63a4b87177de3e8c318af25068fc6ab4 RDMA/irdma: Use kvzalloc for lvl2 leafmem allocation
          
