@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2445065789371307761=="
+Content-Type: multipart/mixed; boundary="===============4629153346525785866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 22 Sep 2026 04:27:03 -0000
-Message-Id: <179005122301.1643798.2582299431364264210@gitolite.kernel.org>
+Date: Tue, 22 Sep 2026 04:27:15 -0000
+Message-Id: <179005123533.1644109.5947901438143332908@gitolite.kernel.org>
 
---===============2445065789371307761==
+--===============4629153346525785866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 7cada81883e820152b5cd3da038be10238b79738
+  - ref: refs/heads/for-next/hardening
+    old: 8d799af8b1b6f35fb1879e2e32c0a4d310984c7b
     new: 6e72cefa7a47f33fac62a69b22e02b379b7a754b
-    log: revlist-7cada81883e8-6e72cefa7a47.txt
+    log: revlist-8d799af8b1b6-6e72cefa7a47.txt
 
---===============2445065789371307761==
+--===============4629153346525785866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1790051218 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1790051234 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1790051216-753b0167471cc0d19c9dd8c7f68a9de8b4fa74ff
+nonce 1790051232-206811c92a6c3620fb00d5b68a5c2dfdf0a05943
 
-7cada81883e820152b5cd3da038be10238b79738 6e72cefa7a47f33fac62a69b22e02b379b7a754b refs/heads/for-next/kspp
+8d799af8b1b6f35fb1879e2e32c0a4d310984c7b 6e72cefa7a47f33fac62a69b22e02b379b7a754b refs/heads/for-next/hardening
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCarIDkgAKCRA2KwveOeQk
-u2hvAQCFO786axl/2iSINvNBevuND0F/U9ONCJTY51quZogenQD/V1sskYfv4O8y
-+mzIByvVQdDGmqAdVoX1k9TvE6bcNgI=
-=vY8X
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCarIDogAKCRA2KwveOeQk
+uwnbAP4padI9oWKBr6ZtwbjyrFBQMa91vATHeVV9pMG+bAqt1AD/b9w7vgCVERyZ
+xtT5sn8KASSLyIGgXcJ/iDOBSl289A4=
+=+uhQ
 -----END PGP SIGNATURE-----
 
---===============2445065789371307761==
+--===============4629153346525785866==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7cada81883e8-6e72cefa7a47.txt
+Content-Disposition: attachment; filename=revlist-8d799af8b1b6-6e72cefa7a47.txt
 
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 90cfd27df4ba5f1c18a3454eb4b454bfe6baaf36 EDAC/debugfs: Remove the fake_inject debugfs interface
@@ -436,6 +436,7 @@ f4a771cc684c7354b6200147f7252c58d17408ff tracing: Have show_event_filters/trigge
 c93b3c43df561cd9f592cee20ae058b563f9e5b6 btrfs: detach failed sprout device from transaction update list
 e0b54613aabeb8e9da597f23b90c6a03d0981986 btrfs: restore active device pointers after failed sprout
 e8a0095c7df170945b4740eda4e2738a50f97fc6 btrfs: preserve the compression property when other inode flags change
+2625480a1bf79c62ffb09aafdf61778e682da492 hardening: Default randstruct off with rust for better allmodconfig support
 b264d8422779d69febce914efc47a92a85cc382c s390/ctcm: Prevent XID null dereference
 70f3995830d3f1e79faa14eb0605914f778feca9 bonding: alb: fix uninitialized transport header access in alb_determine_nd()
 f4825922d2fb371e2b969697d792077f1b62b62c scsi: target: iscsi: Reserve a terminator byte for the login payload
@@ -734,4 +735,4 @@ d72e0fb3b00c6a1146bcfd7186ad9f6f609ba236 signalfd: don't dequeue the forced fata
 b9f13e51ad1262dd77b1178c8011153894765c7b randstruct: report bad casts as warnings rather than notes
 6e72cefa7a47f33fac62a69b22e02b379b7a754b coccinelle: kmalloc_obj: Convert multi-byte integral allocations
 
---===============2445065789371307761==--
+--===============4629153346525785866==--
