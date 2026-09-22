@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3473317659245239895=="
+Content-Type: multipart/mixed; boundary="===============4372083007696920373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 22 Sep 2026 06:55:24 -0000
-Message-Id: <179006012452.1748081.748839155988097647@gitolite.kernel.org>
+Date: Tue, 22 Sep 2026 06:55:26 -0000
+Message-Id: <179006012641.1748225.3027687899947786709@gitolite.kernel.org>
 
---===============3473317659245239895==
+--===============4372083007696920373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 185111f116aabf202d12ce440c0f6e9bae073514
-    new: 8d29b5365d528da545c1fe0768a55babadee95d0
-    log: revlist-185111f116aa-8d29b5365d52.txt
+  - ref: refs/heads/mm-unstable
+    old: 8d61431ed2607386b427752505379536eb634ce8
+    new: b959ffd0132472d7f69923378a810a45b3cf48d2
+    log: revlist-8d61431ed260-b959ffd01324.txt
 
---===============3473317659245239895==
+--===============4372083007696920373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-185111f116aa-8d29b5365d52.txt
+Content-Disposition: attachment; filename=revlist-8d61431ed260-b959ffd01324.txt
 
 7459e77a509f3fe4f1cb941260e3792859a366aa module: fix lost error code from codetag_load_module()
 c7118373cf823e885894670cd66572526058fa96 tmpfs: fix unicode_map leaks in casefold option handling
@@ -621,68 +621,5 @@ c51381a2b519311da76a1ebac79101c93cba3e2d selftests/mm: add a GUP selftest
 fa9b2273e7a650861db6cc21b59ad541ceb2d053 mm: constify arguments in default pxdp_get()
 5735379502c0c781763c8efd4bb37c9d82217107 mm/alloc_tag: account for reserved tag ids in the kernel tag check
 b959ffd0132472d7f69923378a810a45b3cf48d2 mm/shmem: don't release a swapin-error marker as a swap entry
-43cd4a99cfe692826f653a63d159a8c6c836649d docs/mm: describe set_memory() and set_direct_map() APIs
-72036c4c2e63c2de3c10292c365cc2e0ce33cdfa selftests/mm: raise the khugepaged test-case cap
-bb422945c6d15a295ac3abfa6c1190e465e7dc61 selftests/mm: skip collapse_compound_extreme() where the PMD is too large
-d2997e78383cffb6ed440a61d70c744ed40092ed selftests/mm: scale khugepaged's collapse wait with the PMD size
-ac1be3cd015bf05c1f98c3a22a4ca619552dd54f selftests/mm: skip khugepaged page cache cases without a PMD folio
-ed1461da1270e8f765e3eeaa7f25512419bc4f8a selftests/mm: make the swap cases' swapout reliable
-a62b88a257520cab835d211a87ce193539ef94c4 selftests/mm: stop khugepaged during the MADV_COLLAPSE cases
-2718f097a9eaceae93aea43ae06550b51ad7f1b7 selftests/mm: move is_backed_by_folio() into vm_util
-0848bc95968e27bf5bb79755ce53544b80dcb98d selftests/mm: add folio-order check for address ranges
-6b97cc0b0cc3aad8e1cf1c877554cb99f8708d89 selftests/mm: add folio-order detection self-check
-c3377c8fb4eff81aa9f91433448332738b3ae7f7 selftests/mm: add khugepaged completion barrier helper
-eea43e5ab927acbc0a1f2a093b086be68dbbe2c4 selftests/mm: add order-parameterized khugepaged collapse cases
-abca8db57163433f7ebf2f370ff570ad029e3ef9 selftests/mm: parameterize the mixed-source collapse case by source order
-42024368093c582db0d216a1490f04cf0917a0be selftests/mm: cover a shared-source collapse write race
-ae0713dfba493bef77221aa8168ecd6ba0635aca selftests/mm: run every supported collapse order by default
-afe3dad832aef4872ee576382509c703c2c449f6 selftests/mm: check that one khugepaged pass collapses one window
-77f1148a3caeeef80b464d7ad1e29717e3f363e0 selftests/mm: add khugepaged race harness
-d023defd8bce842238ea9a8c630d3b0844b5f0ab selftests/mm: race the collapse of windows with holes
-e438b65039c4cbb6c6684e836edfb2bd90f39b12 selftests/mm: add memory-pressure threads to the khugepaged race harness
-ec9ebac9cbaa4cdb4dbb57b711ca57ef55b63b39 selftests/mm: zap whole PTE tables in the khugepaged race harness
-7fd3c49e10e84667911ee41f53d2250409a077dc mm: disallow raw PFN mappings of huge/shared zeropage
-e379cead5335ac6af8d1d74f5385e1823e740f7c mm/damon/core: charge only the part of a region the filter left
-31693f98ef4b1ba7acd0a1b16a06cc7b15445d26 mm/damon/tests/core-kunit: test the size charged for a filter-trimmed region
-2fc8dc9f5c50ef0ced1b5b55a5295fbd03447153 mm/damon/core: skip quota score setup when the quota is full
-ed27af1aa11ac72d3aaf5fcca465f9f1fbdbfe91 mm/damon/sysfs: propagate damon_call() error in turn_damon_on
-f33f5df66dd3045c33bc0b31910af335388fd3ae mm/damon: fix typos in comments
-6f9e75c1b8377f773c5e0d628c1df5c9c6099723 mm/damon: document that a zero sample_interval is accepted
-07e635b9421c97a398b705d3d5af8d6eef7e1fdf mm: kmemleak: move the struct page scan into a helper
-c0e217519e0ce86877dbf5a565bef7883483e4aa mm: kmemleak: scan the struct page array in MAX_SCAN_SIZE batches
-38e48805a09ae9d085135feba02e6751bfb17374 kselftest: mm: return fail when child test result is fail in khugepaged
-bbe530fcc6eb146040286aa2588a8aa5b33cf22b kselftest: mm: fix intermittent failure khugepaged test
-57927c50f5be94f29d993db910aed115fe17a91d mm: vmscan: put rotation-missed folios at the LRU tail
-d83e59bc6c0ecdd6b11548d380e50d27e5cbbb1f memcg: keep swap charging under RCU protection
-c82c882690f54666bcf19af60c38615246040399 memcg: base swap charge accounting on memcgid root status
-d0278a1fcd13a4ce9d545e3b707994d793e2085d memcg: manipulate memcg private ID references by ID
-b779bbaed356c58388cf6b976859d8716e0ec7e9 memcg: move memcg private ID refcount to objcg
-415b12521126e4799b4384a45f127e69fb19fe44 mm/sparse: move mem_section init to sparse_extreme_init()
-af79d865b19c74033eadb347e4961424785fc77b mm/sparse: refactor sparse_sections_init()
-9859d14171492f7e1a9c6ca4df4e110f6cfc2279 mm/sparse: move initialization of section metadata to sparse_metadata_init()
-5f10f07d6d83d6acdcc5edfbac5fd53831d8d407 mm/sparse: rename and cleanup sparse_init_nid()
-9d9d6ed81716371432013fc7439eef6c78f20332 mm/sparse: cleanup sparse_init_one_section()
-1f0dcb40ae66143cd0f2eeed6cf3e49482e5ce67 mm/sparse: rename __highest_present_section_nr to __highest_used_section_nr
-1982125629729c7943a2914a5109069b7419020a mm/sparse: remove pfn_in_present_section()
-307e6be07e91fbe6046e0314f3f92a26986ea454 mm/sparse: move __highest_used_section_nr handling
-0e7a7445602e15547198c432b07ae67d74525600 scripts/gdb: mm.py: remove fallbacks for SECTION_HAS_MEM_MAP and SECTION_IS_EARLY
-bde59377497acad169122f49a87794d7d5669456 mm/sparse: remove SECTION_MARKED_PRESENT
-1b0c2313006dc773b3ba974b97faa524fdffd7b9 mm/sparse: remove flags parameter from sparse_init_one_section()
-2ea3170625c86917458eadaa6619bd507cbff531 fs/proc/page: clarify comment in get_max_dump_pfn()
-a9de41b5131c8b05be2d5843bb497d44c9f1bbcd mm/memory_hotplug: drop CONFIG_HAVE_ARCH_PFN_VALID handling from pfn_to_online_page()
-60cb51e2566455595c837238c98aa73ac91b0b4d selftests/mm: fix soft-dirty kselftest supported check
-f8237828c67618670e1429b9d17f40d8049d5382 riscv: mm: fix concurrency in mark_new_valid_map()
-8794c47fe761c88ce1a8e7df82dee7c8a39c6ce0 riscv: mm: exclude invalid THP PMDs from page table check
-81447f035d0f0097697bc65aaa30821e68f17328 sh: remove CONFIG_NUMA and related configuration options
-0b7c222c4a8849908ccb01e30713889331bb6ffd sh: mm: remove numa.c
-e12d0b4f99013f73ce767c4e5cda81601875b866 sh: mm: drop allocate_pgdat()
-fb57f20ca8ee00d8558ed94f354fc20aa3ba9de1 sh: remove setup_bootmem_node() and plat_mem_setup()
-1580e7ecfe14ddc753d869d27cc3180d9fa23e33 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-9685ff5a60f38c1678ad126813464c525c8a1c96 sh: drop include/asm/mmzone.h
-8be3a505b0445ad665ea1240ba7892d6cce0834c init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-f669b547110346776835273dc1b12bff273737df sh: init: remove call the memblock_set_node()
-71c633232991b10aa146426b7975f95666fa1356 sh: remove SPARSEMEM related entries from Kconfig
-fa222574edb1000ff90dfe0ff2c250b719f5e83d sh: drop include/asm/sparsemem.h
-8d29b5365d528da545c1fe0768a55babadee95d0 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============3473317659245239895==--
+--===============4372083007696920373==--
