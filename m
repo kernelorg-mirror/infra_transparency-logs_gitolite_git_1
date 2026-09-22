@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Tue, 22 Sep 2026 00:09:51 -0000
-Message-Id: <179003579170.1448859.8080713091752936020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 22 Sep 2026 00:14:20 -0000
+Message-Id: <179003606088.1452594.14802094789321973615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/mm-everything-2026-09-21-23-27
-    old: 0000000000000000000000000000000000000000
-    new: e2d07c8e981b3b742f587b13f8491c6db717f40f
-  - ref: refs/tags/mm-everything-2026-09-21-23-34
-    old: 0000000000000000000000000000000000000000
-    new: bc605a72412a920d89a5d059cb56a24645433c90
-  - ref: refs/tags/mm-hotfixes-stable-2026-09-21-17-08
-    old: 0000000000000000000000000000000000000000
-    new: e88e631a05f54d4b98b346c15a3c26e2ea973455
+  - ref: refs/heads/main
+    old: eb01d9350463fd35018370ff1cd3571521f3d84d
+    new: 4c1b44ac2221bfecabf3b772c4c04c1a90048328
+    log: |
+         4c1b44ac2221bfecabf3b772c4c04c1a90048328 bnge: update HSI
+         
