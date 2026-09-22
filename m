@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6501766913713501375=="
+Content-Type: multipart/mixed; boundary="===============5133720501792493881=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/alarsson/linux-sparc
-Date: Tue, 22 Sep 2026 15:28:11 -0000
-Message-Id: <179009089197.2254481.13800022529312343790@gitolite.kernel.org>
+Date: Tue, 22 Sep 2026 15:29:00 -0000
+Message-Id: <179009094094.2255038.6706965537405040317@gitolite.kernel.org>
 
---===============6501766913713501375==
+--===============5133720501792493881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/alarsson/linux-sparc
 user: alarsson
 changes:
-  - ref: refs/heads/for-next
-    old: 5b2a3b1a98fb47c593144c2770e012d463952b70
+  - ref: refs/heads/for-linus
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-5b2a3b1a98fb-cee9395acd80.txt
+    log: revlist-254f49634ee1-cee9395acd80.txt
 
---===============6501766913713501375==
+--===============5133720501792493881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b2a3b1a98fb-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============6501766913713501375==--
+--===============5133720501792493881==--
