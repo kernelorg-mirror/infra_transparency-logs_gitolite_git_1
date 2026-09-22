@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 22 Sep 2026 00:36:18 -0000
-Message-Id: <179003737801.1471777.15951723107489727493@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 22 Sep 2026 00:37:47 -0000
+Message-Id: <179003746759.1472446.778990844858352554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 114bd09838ac6954baaf110aebc4d5503057f88a
-    new: 1b4efa0399f549d9b9bf82b3e2450e10a06d65b8
+    old: be581d6635579489eadff9cea4caee142ec6d8bc
+    new: 10de7ed8ef4840da9ca21de4c29578657ac367db
     log: |
-         1b4efa0399f549d9b9bf82b3e2450e10a06d65b8 net/sched: Avoid quadratic handle scan in qdisc_alloc_handle
+         10de7ed8ef4840da9ca21de4c29578657ac367db net/mlx5e: fix swapped IPv6 IPsec policy masks
          
