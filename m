@@ -1,59 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============5522510435094499493=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Tue, 22 Sep 2026 08:49:48 -0000
-Message-Id: <179006698861.1905234.4345564883152028847@gitolite.kernel.org>
-
---===============5522510435094499493==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 22 Sep 2026 08:53:31 -0000
+Message-Id: <179006721107.1909716.17190165086901866717@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/main
-    old: 8effab902fa344ea463d229b0cda986d22134264
-    new: 7f93ca31f7fd9b42e7d692f59514436d448ac908
+  - ref: refs/heads/gpio/for-next
+    old: b5c26686305e070ecb8a4af3acbc4aa92266029e
+    new: b399579a8e7b2a442f456df86cafc33628da420d
     log: |
-         6bdcdb31318c10e6369cff8e5b32c37397e98091 wifi: mac80211: validate TX status rate metadata
-         e588e83e5c7a0f6d7a77dbbb58927c8c8cfd598e wifi: mac80211: shut down RX BA session timer on teardown
-         a10a2f80476d166fd81c361ec0319493671b694e wifi: mac80211: keep fallback association elements alive
-         cc45f313d85533d647ce619326302aad6f797c14 wifi: cfg80211: preserve hidden-group beacon IE ownership
-         7f93ca31f7fd9b42e7d692f59514436d448ac908 wifi: mac80211: prevent AP VLAN tx from other interfaces
+         b399579a8e7b2a442f456df86cafc33628da420d gpio: dln2: use assign_bit() where applicable
          
-
---===============5522510435094499493==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1790066946 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1790066945-537e3f22f67be92d39f99b68f43d79f8e10c5c29
-
-8effab902fa344ea463d229b0cda986d22134264 7f93ca31f7fd9b42e7d692f59514436d448ac908 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmqyQQIACgkQ10qiO8sP
-aACDNQ/+IB8D6q498Wu8t7zu3z3drC5H5CpPncuhWip5iWA4QhIZ6qFfVZ7xn/+4
-yi4fYr7KqsgPyd25fGtyWhocTEZshg9s6HkV7RwLLliWzaiU3hUGwTYaE22kW87o
-GwzGazH8B7QK1qEgxg3W/fj0/NueCivqHT7FL/me/JUTWBzhrzzYfshZpRZQI3NY
-MuulL+uMp+X0z3kVNteqT4shw35MMb9esoyztnRAG1ClbZ5adiznrhMLlIHeVS4X
-dk5EZyfZ2kkaPDvrZ4QDipf/maS9c2/Pwb1TEM/GMI/L+PF0kzzD/Oa+nsJXnUT4
-J+g+MumpsRw1VKB00Xqa4AzVapTrxPfcreb9hKtf+VM0MAibEDw1vPdQmarG+Efs
-OBscbMgt3s3kljO23GQaCCgBIxotZl8Rp5bRgoLhDpBxRUlK5ypWUbxZZ1R+wWZ7
-ngp1suZpXdaXtxIeXF4woixMhP5ijY/dlexp/te578lHe1iRZsf9LELNutwO2aBh
-2qNZiDBi0NAu0fzkYvkLcrQdd7r+NAYAdn//X5RzFJylAKZxanKZbJSf1G83pTs3
-w3ZbPYXU9eZTEXHtNItVdMj4CC8HT8MN9xW8/OlTvFraZVkyJCQuf62NDw+oLD/o
-H6wJ0nED0u9/El9Mjwq8IQ6MqL2H+j9/lMONwwLz6ktKCFEbW2g=
-=y2II
------END PGP SIGNATURE-----
-
---===============5522510435094499493==--
+  - ref: refs/heads/pinctrl-qcom/for-current
+    old: dcb5df182b37587d5ad6bb4388751bf5180957ac
+    new: c6c159fcdb4e9a678eda0831f971e4a3a488ec47
+    log: |
+         c6c159fcdb4e9a678eda0831f971e4a3a488ec47 pinctrl: qcom: ipq5018: add missing pwm3 function on gpio13
+         
+  - ref: refs/heads/pinctrl-qcom/for-next
+    old: d29bfb93a19771b822dab6d7adbbbaf188cb1db5
+    new: 4d7c9430a26aea6a69521af3aa2d78dd5bc8d3ed
+    log: |
+         4d7c9430a26aea6a69521af3aa2d78dd5bc8d3ed pinctrl: qcom: tlmm-test: Add const to reg_names allocation type
+         
+  - ref: refs/heads/pwrseq/for-current
+    old: 93f51579e7df248780214094418f205253383cc5
+    new: 58a00330248154461c52a6f3bd5c01e5b67f9560
+    log: |
+         58a00330248154461c52a6f3bd5c01e5b67f9560 power: sequencing: pcie-m2: Add Lenovo ThinkPad T14s gen6 WCN7850 subsystem PCI ids
+         
