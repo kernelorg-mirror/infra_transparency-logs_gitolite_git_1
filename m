@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 22 Sep 2026 07:09:17 -0000
-Message-Id: <179006095753.1760692.13932559580427853992@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 22 Sep 2026 07:58:41 -0000
+Message-Id: <179006392187.1794288.7512599199871645764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/sched/core
-    old: 07527a12c85e9dc42e2ced906f3bba13b8e76465
-    new: c8e9b2fdb17508eb2f8497677d9005afb78d8271
+  - ref: refs/heads/master
+    old: c81f6d2398d063009cc9ad2c98f126daaa7669e2
+    new: e3faa27398694aef7afae76ae344ce182504e5e4
     log: |
-         4d1f39b9f1594bf5739c1103f6928112bda6075e sched: Restart fair hrtick after same-task repicks
-         1dbcb20c00a49f0dfa6c14fd886dd7bcfa7460a7 sched/fair: Remove dead code on enqueue_task_fair()
-         4272210c76abd5b5247ca423504df5ed4d4611e3 sched/core: Remove redundant core_sched_seq
-         a1c78251cb06dbb3b8176fab3fcf2fa153289f16 sched/fair: Drop idle recency from slow-path CPU selection
-         70e891282f59334432bcae7c4361f4c37062bf65 sched/fair: Randomize equally shallow slow-path candidates
-         c8e9b2fdb17508eb2f8497677d9005afb78d8271 sched: Replace __ASSEMBLY__ with __ASSEMBLER__ in sched.h header
+         ea6fd393cb9e6811a748c7551de0dd3090f9dcde x86/mm/pat: Use pr_warn() for early W^X warnings
+         c9fc85f1e44e4e933c7e6702b100b9505715f6a8 x86/virt/tdx: Formalize SEAMCALL leaf version encoding support
+         6c43c72748fffd29dec15cd1f31e9a32949bc437 x86/sev: Make vTPM SVSM calls preemption-safe
+         250ee734115bca1c1f7a38d838909aa83cce87ae x86/sev: Report MSR_AMD64_SEV in sysfs
+         c1362660b28ae7aa29ea2fd092f3560be0eacad1 Merge branch into tip/master: 'x86/urgent'
+         ff3001978577b8553d021e2b6eb7ae3f1ed4983d Merge branch into tip/master: 'x86/mm'
+         aab924be203f818f5b0343a5c29b10e06ab30f83 Merge branch into tip/master: 'x86/sev'
+         e3faa27398694aef7afae76ae344ce182504e5e4 Merge branch into tip/master: 'x86/tdx'
          
