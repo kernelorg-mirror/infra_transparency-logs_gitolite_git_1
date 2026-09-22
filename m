@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/da.gomez/linux
-Date: Tue, 22 Sep 2026 12:53:38 -0000
-Message-Id: <179008161838.2121898.14166588212386211839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 22 Sep 2026 12:56:42 -0000
+Message-Id: <179008180226.2125224.18324735558673099923@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/da.gomez/linux
-user: da.gomez
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/rxarray-next
-    old: 0000000000000000000000000000000000000000
-    new: b124eb00642305f1fd30f4e07812e2e7cf5a141b
+  - ref: refs/heads/spi-7.4
+    old: 1f82e6956faacc6e0c1b402838ba188e19af5a3c
+    new: f6c3117b539d72095404bcd974418f6dfee6d8ac
+    log: |
+         51e04054e2994ccbf79a2596853e89d539956659 spi: dt-bindings: renesas,sh-msiof: Add support for R-Car X5H
+         8157bb8232a46e3596d396735bfbc3572ea823f5 spi: sh-msiof: Add support for R-Car Gen5
+         f6c3117b539d72095404bcd974418f6dfee6d8ac spi: sh-msiof: Add support for R-Car X5H
+         
