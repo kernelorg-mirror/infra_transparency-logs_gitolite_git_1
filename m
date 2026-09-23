@@ -1,25 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 23 Sep 2026 17:38:57 -0000
-Message-Id: <179018513781.3431298.8316359024798497181@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4454411719315158960=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Wed, 23 Sep 2026 17:43:39 -0000
+Message-Id: <179018541930.3435072.5067035372564952181@gitolite.kernel.org>
+
+--===============4454411719315158960==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/pending
-    old: 10cfa109c880092df32e396647b4afdca9be8350
-    new: d0840bedbd9aefe136fc1d9f217bd0b7ec1ab9a4
+  - ref: refs/heads/b4/slub_tiny_rework
+    old: ece2c06c4c1394af0bed3c31b4a5546ead31320e
+    new: c3bdab180da6e18b3b10dbd4488ae9267423de9f
     log: |
-         bbcfe9e6e768431c4b6e5c8399357bdffd066a67 wifi: ath12k: move dp_profile_params to dp.h
-         fd172c58817817533342252b43f481d3591b402d wifi: ath12k: convert DP_TX_COMP_RING_SIZE to inline helper
-         d88247b97938d46469aa6f5d938f731786a5dbaa wifi: ath12k: convert DP_RXDMA_MONITOR_BUF_RING_SIZE to inline helper
-         fa45c05f199de55f532cedc0e13037f1bb520055 wifi: ath12k: convert DP_RXDMA_MONITOR_DST_RING_SIZE to inline helper
-         dd3e1b891464653ece9f5dae80f723e641af5e36 wifi: ath12k: convert ATH12K_NUM_POOL_TX_DESC to inline helper
-         acab855d1489498b6e2223154bf575cef222eb60 wifi: ath12k: convert ATH12K_RX_DESC_COUNT to inline helper
-         d0840bedbd9aefe136fc1d9f217bd0b7ec1ab9a4 wifi: ath12k: convert DP_RX_RELEASE_RING_SIZE to inline helper
+         ab5492067073da1d1abad65aa0058820edb666a6 mm, slab: add slab_tiny boot param
+         c3bdab180da6e18b3b10dbd4488ae9267423de9f mm, slab: deprecate CONFIG_SLUB_TINY and reduce its Kconfig effects
          
+
+--===============4454411719315158960==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1790185415 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1790185415-82dc6a923a30c309febe1d6ed954117dadd1a469
+
+ece2c06c4c1394af0bed3c31b4a5546ead31320e c3bdab180da6e18b3b10dbd4488ae9267423de9f refs/heads/b4/slub_tiny_rework
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmq0D8cbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYia/dcIAIRFJuMdrRWwmWVG61je
+hC9isAi5CxTVroKqMZiloW+Sjl27b9LblsiO+sBcTpFkINFsAdyWnH+yGpBd7lFD
+vetN9SFQ1v7AANWQ+Icw076tOHdf6zbmt0EjyBX8oF+KWrWNawFQ/Xi4M3o4IEmT
+sFwon0KB0XqBsM3W4QWgXCcgOVaGpphqEuO/3ynd2h89bQc5q3DKpQRIYTXWRGta
+vM23Y9wXc6d7XW4LTFCI4s8mRwBtROH4TF9I2WxAeowaxhPi9XLsK0z7EesTq9Fc
+1CQjYUP4sD1vNqr4U6CcYUzNslCQ1H6s+diK77MHs1oXNrjT0NDgqPJre2KD/eZR
+e44=
+=+C22
+-----END PGP SIGNATURE-----
+
+--===============4454411719315158960==--
