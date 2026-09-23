@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Wed, 23 Sep 2026 00:27:47 -0000
-Message-Id: <179012326716.2642299.16979931634896533478@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 23 Sep 2026 00:33:03 -0000
+Message-Id: <179012358315.2646210.8680003470911629086@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: aegl
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/edac-for-next
-    old: 2a11decdb2ddf456d743417d5d86b55c52baf101
-    new: feddf350407a6cdb7ce8418bbe70d13e8bf79d6e
+  - ref: refs/heads/kvm-arm64/vgic-last_lr_irq-fixes
+    old: 7a3c66d929658d7d0576bd3b5b8b00fd09df1444
+    new: 974ac774b8f1a5ed058f00d2d5f8e159401cb47e
     log: |
-         f0d8c34b3b5e845113581d7d3b24ddaa61bce1f0 EDAC/i10nm: Fix mdev reference leak in i10nm_get_ddr_munits()
-         feddf350407a6cdb7ce8418bbe70d13e8bf79d6e Merge branch 'edac-drivers' into edac-for-next
+         bdd9cb8cfdff23fb6b075100f5c3eb9c2c858bc0 KVM: arm64: vgic: Allow last_lr_irq to be NULL when LRs are not overflowing
+         5df84ea46fa92576a694d79e794fc3be038fb158 KVM: arm64: vgic: Take a refcount on IRQs referenced by last_lr_irq
+         e33ee28ea5da74dd16596450edde897c9f77094a KVM: arm64: vgic: Stop the VM when disabling LPIs
+         bb947993dbea70c6df8c989a76c602a1921609ac KVM: arm64: Turn vcpu->arch.pause into a refcount
+         974ac774b8f1a5ed058f00d2d5f8e159401cb47e KVM: arm64: Move OUTSIDE_GUEST_MODE past context being saved
          
