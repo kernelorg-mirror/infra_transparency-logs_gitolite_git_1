@@ -1,23 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 23 Sep 2026 22:30:24 -0000
-Message-Id: <179020262488.3649025.2936494599188663085@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 23 Sep 2026 22:37:30 -0000
+Message-Id: <179020305009.3653283.13477151098944483176@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: fe2ec83746e501645709761605c2464a44fd2929
-    new: 62f4c998b297cf233997a2b4cd6fc2d2df0319c9
+    old: be64d3ad44932fc358148fe060b33e1d451c6a7e
+    new: e5b19ced6d4bc78b9d2117d4d9c7447bc3b3072e
     log: |
-         4485a01f4df1c9683d8ffe3e4ade6c33c9572d3c parisc: unwind: Replace open-coded binary search with bsearch()
-         cb917b1e1c23f6f9b73802cd576b48bd606458c0 parisc: remove unused <asm/compat_ucontext.h> header
-         289e99e7a263c6fd6a5d07d6d8f2156b70f3a9d5 parisc: parse early parameters in setup_arch()
-         94b7e3a7e871ae27d4935c76959dfc61829f27f9 parisc: Increase kernel stack size to 32kb
-         62f4c998b297cf233997a2b4cd6fc2d2df0319c9 Merge tag 'parisc-for-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+         9ca6467440bff1caa841b03976e7225c652ce5e7 foo
+         c2a884933787e531c084cf2dba7c1317a7794ca0 foo
+         e0ea034d0ba54e1e9264c80eb6d67b604a77c845 foo
+         cf9510953589a1eb2c08d1db7415f2ea9cadc15e foo
+         72c469a7326883b1ef0cb4c8542f3c6ad551fcef foo
+         448286d76d154ed73ad96adf013fddfa1b94c066 foo
+         2431100c96d2a6baf29f0526a1a58433a2af1210 foo
+         a75bfedf1586173132fdeb7f0ea36214ae7b7683 foo
+         2f0f5f17e1eb18c05e5519043e2043cf6d724d82 foo
+         44c7b024dc03e68ccbedd28023360a61eb33ceb6 foo
+         4d74a1227c14c467861352ffd85f799c2b30bae2 foo
+         e5b19ced6d4bc78b9d2117d4d9c7447bc3b3072e foo
          
