@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 23 Sep 2026 23:41:41 -0000
-Message-Id: <179020690178.3700659.59049223971422351@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 23 Sep 2026 23:45:37 -0000
+Message-Id: <179020713726.3704148.16846065708040693625@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 944ae66642b726bd6b25ae71b1e9ff88a0e0bdb0
-    new: 1196e46f6d42ac490e245f3917af330530a176f0
+    old: 9c572a83037a7dcd653ba3a9cc468c16b857d0c9
+    new: cfa165cbfbed9d0f4bbc22fef4309f595a3ab187
     log: |
-         1196e46f6d42ac490e245f3917af330530a176f0 ppp_synctty: remove redundant skb null check in ppp_sync_txmunge()
+         cfa165cbfbed9d0f4bbc22fef4309f595a3ab187 net/sched: act_gate: budget the per-entry list in get_fill_size
          
