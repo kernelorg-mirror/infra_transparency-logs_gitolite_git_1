@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 23 Sep 2026 14:55:11 -0000
-Message-Id: <179017531109.3303558.9151799748010463328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 23 Sep 2026 14:55:55 -0000
+Message-Id: <179017535548.3304132.8732318819867630098@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/main
-    old: 797d34e622b2262ca0777e98fd40b1d29034169d
-    new: eb37893c0eba887601953355d1f7f2acb3ca8a6a
+  - ref: refs/heads/bleeding-edge
+    old: 278647a37210121e12c6206a07abbcfef58ce05b
+    new: 03446808508c2972304c304e83b9627ca1b86f4c
     log: |
-         0029ab7d31385de7f05cdfceae1232f27a55312c iwlwifi: Add cc/Qu/QuZ firmwares for core24.80-41 release
-         72caed25761a6d12e429a6f3e3c376a2fa187975 iwlwifi: update ty/So/Ma firmwares for core24.80-41 release
-         723c52333487e67712e9c760e111a5aa5a098eee iwlwifi: Add Hr/Gf firmware for core24.80-41 release
-         092f5591c5856c09d18fbde447bb4bc9142d4729 iwlwifi: Update Bz/Fm firmware for core24.80-41 release
-         b72356140866169b692ad33a69a0e5b6e596ebd6 iwlwifi: add Bz/Sc FW for core24.80-41 release
-         eb37893c0eba887601953355d1f7f2acb3ca8a6a Merge branch 'robot/pr-0-1790150614' into 'main'
+         b9026ef6189ef44b32b4163431c8666be3cbd881 ACPI: WMI: use IS_ENABLED() to simplify built-in or module check
+         03446808508c2972304c304e83b9627ca1b86f4c Merge branch 'acpi-misc' into bleeding-edge
          
