@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 23 Sep 2026 01:15:43 -0000
-Message-Id: <179012614351.2683838.6846140930701953022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 23 Sep 2026 01:16:39 -0000
+Message-Id: <179012619931.2684760.17112642405447901275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 17741334d00bf5ebd37f8c1c36bc9c146a351deb
-    new: 0bf6bb567f0edaa771e7dd208ef98da50e6a4485
+    old: 6598456d72e48d779445bfec8f72114747f8b8d7
+    new: 08dfb3106c0de3a2bf0adb0191264bfff03ed821
     log: |
-         35e6f970f553954d92ba20afa885139a8e7dd0d7 net/mlx5: Bridge, don't fail switchdev events of sibling eswitch ports
-         2e51097c982b7b22382fda3202ba29f0ea33e8c0 net/mlx5: Bridge, don't fail unlink of untracked/unsupported peer ports
-         1c34493df92146304e63cc51b9ca60fca847dd43 Merge branch 'net-mlx5-bridge-fix-remaining-switchdev-ownership-gaps-on-merged-eswitch'
-         0bf6bb567f0edaa771e7dd208ef98da50e6a4485 net/mlx5: Fix rev_entry reference leak in mlx5_tc_ct_shared_counter_get()
+         d9750b3c4c277b061df694f563a58c6df7b84912 net: stmmac: dwmac-sun8i: Fix EPHY clock leak in get_ephy_nodes()
+         08dfb3106c0de3a2bf0adb0191264bfff03ed821 net: dsa: vitesse-vsc73xx: Fix SPI device reference leak in vsc73xx_spi_probe()
          
