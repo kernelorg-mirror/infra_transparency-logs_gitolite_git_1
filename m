@@ -1,28 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 23 Sep 2026 11:26:27 -0000
-Message-Id: <179016278775.3138693.14145106685492148419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 23 Sep 2026 11:27:58 -0000
+Message-Id: <179016287862.3139259.6832936876626839303@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/block-7.3
-    old: 2a42e6fe1293f2e2d579c9fe5bbab056dd8b880e
-    new: 9d2c70986bb7838c1c441a93bda415eecb52f3dd
+  - ref: refs/heads/master
+    old: 27d02612811aa9f1186a1b6ed326fa889c0947dd
+    new: 35d927447e841d54b695969f3cb906a9d0c22ac7
     log: |
-         ab6c756f28c741d704a7c3e04814bfc3adf6f818 blk-mq: set RQF_USE_SCHED when the operation is known
-         9d2c70986bb7838c1c441a93bda415eecb52f3dd blk-mq: allow cached requests to be used for flush operations
-         
-  - ref: refs/heads/for-next
-    old: 4386c81b8d8fa7d447bcf0f5a2a38a6edd16eb26
-    new: c519208853a69c590c3cb8a54cc0a82533dd9896
-    log: |
-         ab6c756f28c741d704a7c3e04814bfc3adf6f818 blk-mq: set RQF_USE_SCHED when the operation is known
-         9d2c70986bb7838c1c441a93bda415eecb52f3dd blk-mq: allow cached requests to be used for flush operations
-         c519208853a69c590c3cb8a54cc0a82533dd9896 Merge branch 'block-7.3' into for-next
+         cca4980630b3c7a85f53cb43c6018184ce5d4e37 perf/core: Fix a refcount leak in attach_perf_ctx_data()
+         36bb85cf36cab15fb611cb44b78a5df06e4e69a2 perf/core: Fix NULL pmu_ctx passed to pmu->sched_task()
+         3d8d74100954a3b17e5c5e37adfe14e16b1db103 perf/core: Run sched_task() for PMUs with only CPU-wide events
+         24b620729e53d978b3e425f55bc66efd3bab1f59 perf/core: Fill branch entries with a single assignment
+         df53fbc909cd7a3c973aaff716983c2791ba879a Merge branch 'perf/urgent' into perf/core, to resolve conflict
+         35d927447e841d54b695969f3cb906a9d0c22ac7 Merge branch 'perf/core'
          
