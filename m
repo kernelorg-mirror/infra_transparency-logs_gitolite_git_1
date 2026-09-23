@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3439965295650468918=="
+Content-Type: multipart/mixed; boundary="===============6121700836669688688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 23 Sep 2026 01:43:36 -0000
-Message-Id: <179012781619.2705802.13970728329595976809@gitolite.kernel.org>
+Date: Wed, 23 Sep 2026 01:43:39 -0000
+Message-Id: <179012781947.2705917.8479829946591836950@gitolite.kernel.org>
 
---===============3439965295650468918==
+--===============6121700836669688688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.1.13/nfs-testing-canary
-    old: 24fab76d9b6b9e102622d7e55b0c2a8a5405ee87
-    new: f3cc8ed4511ba23c7e40e579fded47e65e99d5ac
-    log: revlist-24fab76d9b6b-f3cc8ed4511b.txt
+  - ref: refs/heads/kernel-7.1.13/nfs-testing-canary-reduce-i_lock-contention
+    old: b0395b07fc9c35420efc3a44dae8e3834247859a
+    new: 1563e91ef957517254e596acf5aa8135db21d4be
+    log: revlist-b0395b07fc9c-1563e91ef957.txt
 
---===============3439965295650468918==
+--===============6121700836669688688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24fab76d9b6b-f3cc8ed4511b.txt
+Content-Disposition: attachment; filename=revlist-b0395b07fc9c-1563e91ef957.txt
 
 8dd948bd86c63e3328d3e4b66cfe4397caf2ea2f SUNRPC: reject a client-side TLS alert record that is not two octets
 fe76dd79e6108163709301dc35b1387980e1b74b SUNRPC: treat every client-side TLS error alert as fatal
@@ -84,5 +84,13 @@ e141c8602822acc2d7accb65d7f098c35af5113b NFSv4/flexfiles: give each direction it
 ea4fdd794d68d1ac17ad510d59cd3b66d47984ed NFSv4/flexfiles: drop NFS4_FF_MIRROR_STAT_AVAIL
 939cdfc868f125aa8494b5125dbb1c2766ec8eaa NFSv4/flexfiles: rotate LAYOUTSTATS reporting across a mirror's stripes
 f3cc8ed4511ba23c7e40e579fded47e65e99d5ac NFSv4/flexfiles: take the report decision out of the critical section
+3e2fee262503f67c677aabb6ff0bfc5e1190e7a2 NFS: don't take inode->i_lock twice per direct I/O for the opening owner
+448227ee68caf2cc5335016109b5752d837e869f NFS: take inode->i_lock in O_DIRECT write completion only when needed
+cc27c3bc43a1210fb788856ea68fd26aecf861b1 NFS: skip inode->i_lock for WRITE replies that cannot change the inode
+d85762b33105635474c749842f0c117cfc2cc1d8 NFS: don't take inode->i_lock to re-mark a stale atime
+cf373019080c2f97134186b67ca75f446ef213b5 NFS: check for a delegated atime before taking inode->i_lock
+88c2a569f91ec76e3d3aa5499feaef8524ac002f NFS: skip inode->i_lock when a delegated timestamp is already current
+7414428831e4e5d16590113c1edd545101f64a49 pNFS/flexfiles: don't take inode->i_lock to release empty commit info
+1563e91ef957517254e596acf5aa8135db21d4be pNFS/flexfiles: look up the cached layout segment without inode->i_lock
 
---===============3439965295650468918==--
+--===============6121700836669688688==--
