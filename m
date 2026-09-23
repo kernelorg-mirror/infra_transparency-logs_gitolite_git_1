@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 23 Sep 2026 14:40:37 -0000
-Message-Id: <179017443782.3292554.1809393590955072003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Wed, 23 Sep 2026 14:47:30 -0000
+Message-Id: <179017485088.3296972.15361120936559654719@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 0b9828c7231e2e46b25d286da555510a79c0d6fa
-    new: e9438ab5328a177c9c0e5df87eb92a7162841e98
+  - ref: refs/heads/hwmon-next
+    old: bf92ea2a46120fd0809f24d39ad3482d0f20876b
+    new: e083a0c7507ed23c36799d1583f1f5b5160ad957
     log: |
-         1feb5d39b05afd902ed9fc902ec5b15be03a4bdb gpio: cdev: fix kernel stack leak to user-space in error path
-         e9438ab5328a177c9c0e5df87eb92a7162841e98 gpio: zynq: fix runtime PM leak on request error path
-         
-  - ref: refs/heads/gpio/for-next
-    old: b399579a8e7b2a442f456df86cafc33628da420d
-    new: 209fcf625880cd1128bc98ca835d4cb5c3b8e136
-    log: |
-         209fcf625880cd1128bc98ca835d4cb5c3b8e136 gpio: siox: normalize return value of gpio_get()
+         ecd9148130ae314e57f17e60bf819ccaaa4cd071 hwmon: add Axiado AX3000 and AX3005 PWM fan controller driver
+         456d8684b893d50ea781c7ed092efea12616eccf hwmon: (nct6683) Add MSI B850M to list of tested boards
+         e083a0c7507ed23c36799d1583f1f5b5160ad957 hwmon: (nct6683) Add more MSI boards to list of tested boards
          
