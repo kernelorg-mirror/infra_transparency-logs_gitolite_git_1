@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Wed, 23 Sep 2026 20:51:12 -0000
-Message-Id: <179019667207.3576646.11008524632215317185@gitolite.kernel.org>
+Date: Wed, 23 Sep 2026 20:56:00 -0000
+Message-Id: <179019696004.3580196.9097283039919274597@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/deller/parisc-linux
 user: deller
 changes:
-  - ref: refs/heads/parisc-7.3-2
+  - ref: refs/tags/parisc-for-7.3-rc5
     old: 0000000000000000000000000000000000000000
-    new: 94b7e3a7e871ae27d4935c76959dfc61829f27f9
+    new: 83e42305d4b94de3c5a1e4bbe534c704dedf3b8a
