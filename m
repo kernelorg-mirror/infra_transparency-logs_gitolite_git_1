@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 23 Sep 2026 12:52:19 -0000
-Message-Id: <179016793961.3206164.11544434227153266789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/maintainer-container/maintainer-container
+Date: Wed, 23 Sep 2026 12:57:29 -0000
+Message-Id: <179016824993.3210022.5148357001267497654@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/utils/maintainer-container/maintainer-container
+user: mricon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: c1212a3c7ccd468a82945f33acb912015ef17706
-    new: e43913aabd35eef837edef29e93f15e15bdeeacd
-    log: |
-         e43913aabd35eef837edef29e93f15e15bdeeacd RDMA/mlx5: Use DEFINE_RAW_FLEX for leftovers flow attributes
-         
+  - ref: refs/heads/master
+    old: 0000000000000000000000000000000000000000
+    new: 4b34d395401036b4ad86d0d6c03009eb27cf230b
