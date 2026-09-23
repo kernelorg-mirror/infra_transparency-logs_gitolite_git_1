@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
-Date: Wed, 23 Sep 2026 06:49:23 -0000
-Message-Id: <179014616349.2927222.15291953228331543255@gitolite.kernel.org>
+Date: Wed, 23 Sep 2026 06:55:03 -0000
+Message-Id: <179014650354.2932566.14358931776873453570@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/mricon/korg-helpers
 user: mricon
 changes:
   - ref: refs/heads/master
-    old: 241d2dc621db428049b8ab73296c14c44273c9cf
-    new: b5ffded0e60c396312aef1a2627d8b5e70830adb
+    old: b5ffded0e60c396312aef1a2627d8b5e70830adb
+    new: 19b2ad24fc056e1bf4fee1898d36381dd13c663d
     log: |
-         b5ffded0e60c396312aef1a2627d8b5e70830adb Add get-verified-shallow-tar for CI build trees
+         19b2ad24fc056e1bf4fee1898d36381dd13c663d get-verified-shallow-tar: resolve TARGETDIR to an absolute path
          
