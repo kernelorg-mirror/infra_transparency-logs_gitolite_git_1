@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4487025836377774113=="
+Content-Type: multipart/mixed; boundary="===============5797704326952730171=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 23 Sep 2026 02:42:38 -0000
-Message-Id: <179013135873.2752167.17050297137740061801@gitolite.kernel.org>
+Date: Wed, 23 Sep 2026 02:42:43 -0000
+Message-Id: <179013136344.2752415.6063816793047768426@gitolite.kernel.org>
 
---===============4487025836377774113==
+--===============5797704326952730171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: ece4961542d2e459f9e2cbfe239d64d49e42b2ba
-    new: 5c2b48d7d3c62c95bfaa0c1bcbe048747b0dc38d
-    log: revlist-ece4961542d2-5c2b48d7d3c6.txt
+  - ref: refs/heads/7.4/scsi-staging
+    old: c3cff7fac01638ab58e85fe7df41a04fa25c5bae
+    new: f09d2c7485b32adb82336d0d748935c8237a649e
+    log: revlist-c3cff7fac016-f09d2c7485b3.txt
 
---===============4487025836377774113==
+--===============5797704326952730171==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1790131352 -0400
+pusher 75C5DE3D 1790131361 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1790131352-6baf9febba204bee1f7b21e9a57c880b17b51a20
+nonce 1790131361-4770d2db4608f872527648e3ad595e41852bc7d3
 
-ece4961542d2e459f9e2cbfe239d64d49e42b2ba 5c2b48d7d3c62c95bfaa0c1bcbe048747b0dc38d refs/tags/mkp-scsi-staging
+c3cff7fac01638ab58e85fe7df41a04fa25c5bae f09d2c7485b32adb82336d0d748935c8237a649e refs/heads/7.4/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqzPJkACgkQ7ulgGnXF
-3j3YYxAAmmaPaV2rfYZ5g1ELZtpudyZfHOFXuMCjbeHNOy6+xPesNhdU8leEjx3M
-ZrNP6GvJe/G/ApHshmwMUD+ccez9+1mCD2wgSCcNmarAurdyGebXrfuuFlXM5cp7
-nlN1XgscrrHtsf+k+zLGrwJ8AGJQBPfNoqeI3kFIWzt7qRFskfyEoWk8D9sSJp0T
-u9njpeJtiq/bPbWYaDngunJ3EDjpUS69dAxpd8detaXpvsGp0BBNFuTxbn0YX+v1
-MiMlNDJ7NNwlbPnsVDL6xWDsSRCMbrSSHUwcrin0kvY8KVQQ7yjNZZCJlC7oJMPE
-D1NXHLjvxF8PKoRCmtupsnYhbj9Iza7jLiwdMm4FOhLGmCNwnPq3D0r1oQFwSt78
-P9cOJAp61w9aYqsQEcEdRBrgMbyLhKZng2VvtH4yO574tLwJ1rRc2D+Y8WVk7PWm
-WLPM7gzBxATAEK7dIdCx3GouTHNhht0k4N7+jTpC9ave3DNFkyluubVj4c8VHZgy
-sUeBSqg4aU3FE6IXMbVNtogarx8MIMer5VMwoDJn1J1pkuzAHnNED5lx8uLnnsM7
-jm4+thOqrQGHNFjzg6pivGHWX2SYVDs9UKMWCetKLwKTSG0iit6b6z2jEDIH2fN5
-XuUb1p/2JdnfEGiffccWrYbMngAPcgY94Q6iYc0tZFyBw+rqZ/A=
-=0vXw
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmqzPKEACgkQ7ulgGnXF
+3j3j+w//UMy9+8oa3COUTvneYys70ntad/wYEF6E5uM9lMaPM2o6/yqfQxoeb1f+
+bG+ebLp0ykWnDvnLNeruOtZeydYOINpOO7eHzYNj0amNwiO73pGUQk5hNmf4k4IO
+ReVjj8LLoKhY+TrEROtUO1qmdCCzvvCRoCQhyMoKfwXwXNXQ8uKKtW9YZgcK6u3s
+iIz6BBErH82cgj9oNCrXvn8gN89JMwo8lTJa8cWXUikNh4LYyyU3n7i7AbddPpHM
+zC5pBmG9wTDm0CtV1vlaW89oGhA45fgUuDQMZK0td8sYgkvhttafmfEB9wHy02gg
+L0mH7crMrqOAzAn1yIDxix7lNO8jWqaquKIVZSMH5Gwr6Smtqr0+CWMcm27Kn9w+
+CHlinxqIZPPMYjssUmPFEOIw5Tp/je2JaXqNrnik/LmvcXQR7X8W6U91FRL7b23f
+cO9BSjKFeDAGRTSurLuwIelNVCF5n0jC3pfvMDAMtFy8KSypGfKYwagdpKkTbl53
+IsE8TpruLCrzvOXvw/Xh7uMpvnIcNVHdTcawCJRLCwNS74rLuIAsuBz/3igLQVHA
+e0zvYGVX3UVG7c92wGfjPLEIyyF4xSachC8dRwQvDTIJqymVN4eslRXd92pA5kZE
+wgxa1mpXvQ8lHd5s2F99ixXiNjz6iw7VbQ44omcjfVj6QQv0YYc=
+=HmWg
 -----END PGP SIGNATURE-----
 
---===============4487025836377774113==
+--===============5797704326952730171==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ece4961542d2-5c2b48d7d3c6.txt
+Content-Disposition: attachment; filename=revlist-c3cff7fac016-f09d2c7485b3.txt
 
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 90cfd27df4ba5f1c18a3454eb4b454bfe6baaf36 EDAC/debugfs: Remove the fake_inject debugfs interface
@@ -741,4 +741,4 @@ df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
 3b7ccba37858dd3d7d3780eb42ab943152e5b7ec scsi: core: Fix additional sense code definition
 f09d2c7485b32adb82336d0d748935c8237a649e scsi: target: core: Use assign_bit() where applicable
 
---===============4487025836377774113==--
+--===============5797704326952730171==--
