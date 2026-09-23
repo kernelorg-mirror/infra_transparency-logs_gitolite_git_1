@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 23 Sep 2026 21:37:48 -0000
-Message-Id: <179019946865.3610433.1304267223188332251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 23 Sep 2026 21:41:22 -0000
+Message-Id: <179019968297.3613843.15752672224252464804@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
   - ref: refs/heads/for-7.4
-    old: 3944065c67f5209953cdc64bf7ab81a13845b516
-    new: 05a3330f490cfa266831c0fc7f8c6df942866d59
+    old: 83701fdb2d8d644c547773791da48d6ecb3a5e1d
+    new: 3246de5077648a427eeb69ec970348774da5df68
     log: |
-         05a3330f490cfa266831c0fc7f8c6df942866d59 regulator: dt-bindings: ti,tps6586x: Convert to DT schema
+         3246de5077648a427eeb69ec970348774da5df68 ASoC: dt-bindings: realtek,rt5677: Add MCLK1 clock property
          
