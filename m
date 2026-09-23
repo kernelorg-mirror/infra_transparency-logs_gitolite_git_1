@@ -1,43 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============7638692151513180617=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 23 Sep 2026 22:20:47 -0000
-Message-Id: <179020204759.3641507.2130367245512519354@gitolite.kernel.org>
-
---===============7638692151513180617==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 23 Sep 2026 22:30:24 -0000
+Message-Id: <179020262488.3649025.2936494599188663085@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/work.mount.knullfs
-    old: 0000000000000000000000000000000000000000
-    new: 99445ad428fdeca5bd0712a033e18cc56b8b0402
-
---===============7638692151513180617==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 0x91C61BC06578DCA2! 1790202046 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-nonce 1790202045-370aae7d0621aa45e82ead2c318545095afbdbfd
-
-0000000000000000000000000000000000000000 99445ad428fdeca5bd0712a033e18cc56b8b0402 refs/heads/work.mount.knullfs
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCarRQvgAKCRCRxhvAZXjc
-onNzAP9XC2SpwMjwOi1+8eVX0wLkg5V6SwGEs0mBw0eQZN6OYgD/QO1F1i1zVizn
-MIltU5fnUEc6TANeY+PM/KxltnC0Cgc=
-=F2Fx
------END PGP SIGNATURE-----
-
---===============7638692151513180617==--
+  - ref: refs/heads/master
+    old: fe2ec83746e501645709761605c2464a44fd2929
+    new: 62f4c998b297cf233997a2b4cd6fc2d2df0319c9
+    log: |
+         4485a01f4df1c9683d8ffe3e4ade6c33c9572d3c parisc: unwind: Replace open-coded binary search with bsearch()
+         cb917b1e1c23f6f9b73802cd576b48bd606458c0 parisc: remove unused <asm/compat_ucontext.h> header
+         289e99e7a263c6fd6a5d07d6d8f2156b70f3a9d5 parisc: parse early parameters in setup_arch()
+         94b7e3a7e871ae27d4935c76959dfc61829f27f9 parisc: Increase kernel stack size to 32kb
+         62f4c998b297cf233997a2b4cd6fc2d2df0319c9 Merge tag 'parisc-for-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+         
