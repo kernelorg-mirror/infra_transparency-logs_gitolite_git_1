@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Wed, 23 Sep 2026 17:35:04 -0000
-Message-Id: <179018490407.3429156.2707740503961394819@gitolite.kernel.org>
+Date: Wed, 23 Sep 2026 17:35:27 -0000
+Message-Id: <179018492786.3429666.15366220776797760016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,63 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
 user: linusw
 changes:
-  - ref: refs/heads/ux500-dts-for-soc
-    old: 07f7a23377f1e6c74fba49c5ed7924e78517e666
-    new: 2eb92e6b94b612eccb53366f65018ae5e8d072d5
-    log: |
-         0c248f234355499539b76d1bb4f7a1b6165b0570 ARM: dts: ux500: Add new AB8500/AB8505 regulators
-         d02aac22bd659a361d09b99166d93fd7f7040046 ARM: dts: ux500: Fix up regulator assignments
-         2d9e6962a23ff99e80cf1d21f08824fcf754846a ARM: dts: ux500: Add sound DAI provider cells
-         f9b2262d1edba1b6c0abc12118105f8fa200980a ARM: dts: ux500: Convert HREF audio to audio-graph-card2
-         2eb92e6b94b612eccb53366f65018ae5e8d072d5 ARM: dts: ux500: Add Samsung phone audio graphs
-         
+  - ref: refs/tags/sent/20260618-ux500-power-domains-v7-1-3c9d095828c2-v2
+    old: 0000000000000000000000000000000000000000
+    new: 0f9167e9217c92876dc09f1f7844350f80b0afdb
+  - ref: refs/tags/sent/20260618-ux500-power-domains-v7-1-3c9d095828c2-v3
+    old: 0000000000000000000000000000000000000000
+    new: d978d2de8ed9195f822040aaa77431ca065bb664
+  - ref: refs/tags/sent/20260820-dma40-fixes-b99af66002bf-v3
+    old: 0000000000000000000000000000000000000000
+    new: ec55cb0192b69896266ffee0dab2f8a470450374
+  - ref: refs/tags/sent/20260820-dma40-fixes-b99af66002bf-v4
+    old: 0000000000000000000000000000000000000000
+    new: 65f60e00b9fae06c8967f52a8357a5dfd8d0cc76
+  - ref: refs/tags/sent/20260820-dma40-fixes-b99af66002bf-v5
+    old: 0000000000000000000000000000000000000000
+    new: d1555d4d7b557c6187f4f1aa4a1810d27cf54973
+  - ref: refs/tags/sent/20260820-ux500-dts-snowball-regulator-b35d2252bd57-v1
+    old: 0000000000000000000000000000000000000000
+    new: 0a0a3280f2977310903f2d97823ac0f498eabef7
+  - ref: refs/tags/sent/20260820-ux500-dts-snowball-regulator-b35d2252bd57-v2
+    old: 0000000000000000000000000000000000000000
+    new: 7c2ae88ca76fd29fcd1b09741beba366dfbe0e09
+  - ref: refs/tags/sent/20260820-ux500-dts-snowball-regulator-b35d2252bd57-v3
+    old: 0000000000000000000000000000000000000000
+    new: 3a623c654797cf0abb924fd0d65110dfc2adc749
+  - ref: refs/tags/sent/20260820-ux500-dts-snowball-regulator-b35d2252bd57-v4
+    old: 0000000000000000000000000000000000000000
+    new: e2c229cea64f5ce4cd1aa795066a84277c2f3482
+  - ref: refs/tags/sent/20260825-ab8500-codec-fixes-14c651213640-v1
+    old: 0000000000000000000000000000000000000000
+    new: 616aaeea3bc7aa8a5b540be36f5423da21864a57
+  - ref: refs/tags/sent/20260825-ux500-msp-fixes-58d434a9bac3-v1
+    old: 0000000000000000000000000000000000000000
+    new: db1a27725cf5dd42433c12199b9f8a28b1dcb568
+  - ref: refs/tags/sent/20260825-ux500-msp-fixes-58d434a9bac3-v2
+    old: 0000000000000000000000000000000000000000
+    new: ef983510e2607157970b462cc37117f0c87a893d
+  - ref: refs/tags/sent/20260903-ux500-simple-sound-d077d5486a72-v1
+    old: 0000000000000000000000000000000000000000
+    new: bf2cbbfe503ef059683c4305224214356526902f
+  - ref: refs/tags/sent/20260903-ux500-simple-sound-d077d5486a72-v2
+    old: 0000000000000000000000000000000000000000
+    new: 60107b1dca2a659d7e0a2cf2cee568a2edc695fd
+  - ref: refs/tags/sent/20260915-ab8500-charger-dt-99c2c4623a80-v1
+    old: 0000000000000000000000000000000000000000
+    new: 1afd8d774195059af576e9ffb8088862999cbeb8
+  - ref: refs/tags/sent/20260915-ab8500-charger-dt-99c2c4623a80-v2
+    old: 0000000000000000000000000000000000000000
+    new: b5925dc79df7ee4b87801dae690882720b6f9dad
+  - ref: refs/tags/sent/20260915-ab8500-charging-c02f3519a3ab-v1
+    old: 0000000000000000000000000000000000000000
+    new: 09d8fe2d7ded3a722c5ca18adbe76e2e29bd6f54
+  - ref: refs/tags/sent/20260918-dma40-dt-disabled-channels-21b1ccdd8e7b-v1
+    old: 0000000000000000000000000000000000000000
+    new: 004145715208acd3991fe0f9e06638cdece91e9a
+  - ref: refs/tags/sent/20260918-dmaengine-fixes-5c893ce71049-v1
+    old: 0000000000000000000000000000000000000000
+    new: 87a85b9da989dad7a0192a3515b150c51440e561
+  - ref: refs/tags/ux500-dts-for-7.4
+    old: 0000000000000000000000000000000000000000
+    new: 633ea32b35131ba6e07df08b3deafb52847105b1
