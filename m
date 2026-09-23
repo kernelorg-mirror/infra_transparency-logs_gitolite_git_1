@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 22 Sep 2026 23:53:47 -0000
-Message-Id: <179012122792.2616421.866115249194754641@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mattst88/alpha
+Date: Wed, 23 Sep 2026 00:00:34 -0000
+Message-Id: <179012163437.2622857.17332446275008486814@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/mattst88/alpha
+user: mattst88
 changes:
-  - ref: refs/heads/for-next
-    old: 94809ecf9d2f9cfed27ce5c3db2fbeadd8f90965
-    new: ddaa827dcea4544ccfffa1dd85ab0ea35cd06e6d
-    log: |
-         ddaa827dcea4544ccfffa1dd85ab0ea35cd06e6d selftests/bpf: Fix csum_partial() dropping trailing byte on odd length
-         
+  - ref: refs/heads/alpha-lazy-tlb
+    old: 0000000000000000000000000000000000000000
+    new: a56239fb588c3a97dc0791f52629c275bf754d69
