@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 23 Sep 2026 14:55:55 -0000
-Message-Id: <179017535548.3304132.8732318819867630098@gitolite.kernel.org>
+Date: Wed, 23 Sep 2026 15:01:29 -0000
+Message-Id: <179017568962.3316497.12008120817683519240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
   - ref: refs/heads/bleeding-edge
-    old: 278647a37210121e12c6206a07abbcfef58ce05b
-    new: 03446808508c2972304c304e83b9627ca1b86f4c
+    old: 03446808508c2972304c304e83b9627ca1b86f4c
+    new: cbb9847ab4cf5f57f998ca80c421a09a1d2015db
     log: |
-         b9026ef6189ef44b32b4163431c8666be3cbd881 ACPI: WMI: use IS_ENABLED() to simplify built-in or module check
-         03446808508c2972304c304e83b9627ca1b86f4c Merge branch 'acpi-misc' into bleeding-edge
+         a0039113053d4d3f629ea1b9cd74130ca597f14a ACPI: PM: Add quirk for Acer Swift 3 SF314-56G (MX250)
+         cbb9847ab4cf5f57f998ca80c421a09a1d2015db Merge branch 'acpi-pm' into bleeding-edge
          
