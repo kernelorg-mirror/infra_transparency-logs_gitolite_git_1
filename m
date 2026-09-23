@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 23 Sep 2026 23:54:38 -0000
-Message-Id: <179020767887.3710041.12783856450940615913@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 23 Sep 2026 23:54:55 -0000
+Message-Id: <179020769515.3710334.16029852106648546620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: ab1404ac81154a89fb61ac50ae9a04cd8d4834dc
-    new: 7104a370714346b667712913dc16abf14bbc97ed
+  - ref: refs/heads/pending
+    old: 361706aabb3f276407e00d71cfb7eb5c9c353ce9
+    new: 64f7353a978e55d82f9bd041348bb9d58c69cdec
     log: |
-         fdfec06ac1eb5cdbc18d556c70a7b26837208218 MAINTAINERS: add Nicolai Buchwitz as GENET maintainer
-         7e87508b5c4d81210d0a736ed01962e52f5c4c56 net: bcmgenet: stop Tx NAPI before disabling the queues
-         7104a370714346b667712913dc16abf14bbc97ed veth: manage XDP program pointers during channel resize
+         58a1d3093cebd22cd067d62d76ad9beca600be71 wifi: ath12k: use per-device max QMI chunk size
+         2f11cbf3cc6433e9bcb0483ba614c8dba96343d0 wifi: ath12k: clear chunk paddr and size in ath12k_qmi_free_target_mem_chunk()
+         64f7353a978e55d82f9bd041348bb9d58c69cdec wifi: ath12k: align QMI target memory to 64 KB
          
