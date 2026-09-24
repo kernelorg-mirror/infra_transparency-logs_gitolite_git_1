@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 24 Sep 2026 01:45:08 -0000
-Message-Id: <179021430816.3805729.600547181228017378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
+Date: Thu, 24 Sep 2026 01:51:28 -0000
+Message-Id: <179021468880.3810081.5214099066157253839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
+user: kuninori.morimoto.gx
 changes:
-  - ref: refs/heads/for-next
-    old: 91f8613d95ad8cd99d8baf094806d1ef98bc6380
-    new: 11300f54bd887d15357741ac53db524b710ac484
-    log: |
-         11300f54bd887d15357741ac53db524b710ac484 selftests/bpf: Refactor cb_refs selftests
-         
+  - ref: refs/heads/renesas-lts/v6.18.52-2026-09-15-sparrow-hawk
+    old: 0000000000000000000000000000000000000000
+    new: c977822bd6cca6c270da55276300598b379b1bba
+  - ref: refs/heads/renesas-lts/v6.18.53-2026-09-24-sparrow-hawk
+    old: 0000000000000000000000000000000000000000
+    new: a099d7b2c40668a0330d1ee0025507365c46629f
