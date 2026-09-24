@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 24 Sep 2026 17:52:42 -0000
-Message-Id: <179027236201.343981.8213370628883753713@gitolite.kernel.org>
+Date: Thu, 24 Sep 2026 17:58:11 -0000
+Message-Id: <179027269198.348094.1639275805122501836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 06e3f54e8b22040ada01a28343badf1990b4dd7d
-    new: 83769c23fb1879edc916a526ba424285033baf2d
+    old: 83769c23fb1879edc916a526ba424285033baf2d
+    new: 488089055b61be8f7e97817d4608844f0fba2648
     log: |
-         83769c23fb1879edc916a526ba424285033baf2d gve: DQO: fix header length used by gve_can_send_tso() for UDP GSO
+         3b430ea6234087957b0d3cd181e3116722b59819 gve: fix TX drop when GSO MSS is too small for hw
+         296c83b5ccc808c080865eb20fd7a477b0355bb7 gve: DQO: reject TSO packets with an out of range MSS
+         488089055b61be8f7e97817d4608844f0fba2648 Merge branch 'gve-dqo-fix-handling-of-out-of-range-tso-mss'
          
