@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 24 Sep 2026 00:46:41 -0000
-Message-Id: <179021080174.3750927.13587727135104355508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 24 Sep 2026 00:47:51 -0000
+Message-Id: <179021087104.3751450.16936100410318001605@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: 0a2de6c7cdedcf9fb7622888a2715cd94aca7773
-    new: 6f5021d32914a99c0a7df8f0fc9c4605f43ae3f4
+  - ref: refs/heads/pending
+    old: 64f7353a978e55d82f9bd041348bb9d58c69cdec
+    new: c53bd186dd0de49622f5eae06369d1e7f27c2a97
     log: |
-         6f5021d32914a99c0a7df8f0fc9c4605f43ae3f4 octeontx2-af: remove duplicate SCTP port flags
+         c53bd186dd0de49622f5eae06369d1e7f27c2a97 wifi: ath11k: fix reg_info_store leak in ath11k_service_ready_ext_event()
          
