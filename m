@@ -1,51 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2158296390926296335=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/slab
-Date: Thu, 24 Sep 2026 08:44:02 -0000
-Message-Id: <179023944230.4107759.13966754287911009079@gitolite.kernel.org>
-
---===============2158296390926296335==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 24 Sep 2026 08:53:23 -0000
+Message-Id: <179024000303.4114861.6703723287986468477@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: kkd
 changes:
-  - ref: refs/heads/slab/for-next-fixes
-    old: 4ebdb8a6231bde47d21597d5d0a193dcf85164ac
-    new: af2fb3ee6679b517e2fdbd3ba16ec276a8b74312
+  - ref: refs/heads/for-next
+    old: 24629aac43d2884109ae47a993fd51b504e2b09b
+    new: 35a0673aee2236ec192ac0e9105ca72e71cafdc7
     log: |
-         af2fb3ee6679b517e2fdbd3ba16ec276a8b74312 mm/slab: do not wake up kswapd in __kfree_rcu_sheaf()
+         c43c348a84460b003fa757dd43d8c89848ae220d bpf: Keep target extended until its last freplace link detaches
+         01d37848bf5b4827a66f24f9654919936e12fa8e selftests/bpf: Verify is_extended with multiple freplace links
+         35a0673aee2236ec192ac0e9105ca72e71cafdc7 Merge branch 'bpf-keep-target-extended-until-its-last-freplace-link-detaches'
          
-
---===============2158296390926296335==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1790239439 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mm/slab.git
-nonce 1790239438-c7004a7963887970c5a2c8a281cbadb4d620e556
-
-4ebdb8a6231bde47d21597d5d0a193dcf85164ac af2fb3ee6679b517e2fdbd3ba16ec276a8b74312 refs/heads/slab/for-next-fixes
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmq04s8bFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYia36sIAIrVhuy6o88DgSa6y/CU
-pBKWslT7RLJJ/EOB7hh8CZsJ3pZvX+dkZacdomqPURKLZXyt0pnlC4sOIKp+Jf8g
-lqsd9/U3qOQsvQ5FY5NGsoVCfZ83tGAyzg2cE/hQtkz9ISvE6PkkjC/JzKdMXNPX
-zmVwmL9ZO3AAEiGLALLSe/2+j1rucaZubdzH5lEeT3nqZpq/w+/1viR8DMDVPXzk
-d0T99y/lwZcNYT6gVdg0hznr5dBq2ayMI+K1Yj28tg0vKl8VVHcSmMwrH05SFx64
-sAiYm822AwKKTatCnkuOCXkUzAJ1P2zSXynPx8AfF0pf1bmgpdsiQzliUUBT0Sj7
-Axo=
-=6qcW
------END PGP SIGNATURE-----
-
---===============2158296390926296335==--
+  - ref: refs/heads/master
+    old: 24629aac43d2884109ae47a993fd51b504e2b09b
+    new: 35a0673aee2236ec192ac0e9105ca72e71cafdc7
+    log: |
+         c43c348a84460b003fa757dd43d8c89848ae220d bpf: Keep target extended until its last freplace link detaches
+         01d37848bf5b4827a66f24f9654919936e12fa8e selftests/bpf: Verify is_extended with multiple freplace links
+         35a0673aee2236ec192ac0e9105ca72e71cafdc7 Merge branch 'bpf-keep-target-extended-until-its-last-freplace-link-detaches'
+         
