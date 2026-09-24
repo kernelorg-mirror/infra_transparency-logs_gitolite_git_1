@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6555711085162163709=="
+Content-Type: multipart/mixed; boundary="===============7048238674604406953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 24 Sep 2026 05:41:14 -0000
-Message-Id: <179022847447.3974663.16345098590344104317@gitolite.kernel.org>
+Date: Thu, 24 Sep 2026 05:41:17 -0000
+Message-Id: <179022847771.3974870.3816427100391122223@gitolite.kernel.org>
 
---===============6555711085162163709==
+--===============7048238674604406953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: b4d936547f5a3ca5563f48ee81f153c928336027
     new: 24629aac43d2884109ae47a993fd51b504e2b09b
     log: revlist-b4d936547f5a-24629aac43d2.txt
 
---===============6555711085162163709==
+--===============7048238674604406953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ b018e998e645c107d742935c1483cd77452e1787 selftests/bpf: Add tests for callx thro
 fd318eab4b0905ffeb2fe1e93ad0d2e217f1f584 bpf, docs: Document callx instruction
 24629aac43d2884109ae47a993fd51b504e2b09b Merge branch 'bpf-indirect-calls-of-bpf-subprogs-callx'
 
---===============6555711085162163709==--
+--===============7048238674604406953==--
