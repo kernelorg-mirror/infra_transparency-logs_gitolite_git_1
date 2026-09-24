@@ -1,50 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============5764532883487308827=="
+Content-Type: multipart/mixed; boundary="===============2293925396467990768=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
-Date: Thu, 24 Sep 2026 08:15:38 -0000
-Message-Id: <179023773868.4087959.17858862210899229893@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
+Date: Thu, 24 Sep 2026 08:33:53 -0000
+Message-Id: <179023883354.4099536.16731272499646737375@gitolite.kernel.org>
 
---===============5764532883487308827==
+--===============2293925396467990768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/liveupdate/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
+user: linusw
 changes:
-  - ref: refs/heads/next
-    old: 89cc6d7c15e7a289f4c522070dcab6dcb42ae13e
-    new: 1f18d740165163910df64d3063e1ad31648bc5e0
-    log: revlist-89cc6d7c15e7-1f18d7401651.txt
+  - ref: refs/heads/b4/dma40-fixes
+    old: 1ce2c5045cd40d832793e1b8fd82091e27743779
+    new: b0ae056acbb8c7575aa11ca51b7713256946d594
+    log: revlist-1ce2c5045cd4-b0ae056acbb8.txt
 
---===============5764532883487308827==
+--===============2293925396467990768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89cc6d7c15e7-1f18d7401651.txt
+Content-Disposition: attachment; filename=revlist-1ce2c5045cd4-b0ae056acbb8.txt
 
-acff3a35a49097424762f255afdaf2a122e926a3 PCI: liveupdate: Set up FLB handler for the PCI core
-ced0d433a98ccc33495a985580bfefb62d73b16c PCI: liveupdate: Track outgoing preserved PCI devices
-d96e637021905ee22ef75f3608b46287b3d44508 PCI: liveupdate: Track incoming preserved PCI devices
-4d9305a6938a66ccc1154dc5fa5a8a9ac56eb549 PCI: liveupdate: Document driver binding responsibilities
-8db5cb4011d0ebde5fbadf1236dfcb23bb8ce007 PCI: liveupdate: Preserve bus numbers during Live Update
-a7709b31ea29cb7d65b75beb844e0b92a20d4ab0 PCI: liveupdate: Auto-preserve upstream bridges across Live Update
-d2cc005d11de82f352e1f30f7b9aa2a4c463dec0 PCI: Refactor matching logic for pci_dev_acs_ops
-bd5970669fa8a2c1bc04c3fa516a0667a090c604 PCI: liveupdate: Adopt ACS controls in incoming preserved devices
-48928296f529d15ecf66c263f3cc5fc657894e26 PCI: liveupdate: Adopt ARI Forwarding Enable on preserved bridges
-09907e211d2d63cc74f5a00e5949866f1078da76 PCI: liveupdate: Freeze preservation status during shutdown
-7f44eb94b1a85d2827610726e43de5554795cbdc PCI: liveupdate: Do not disable bus mastering on preserved devices during kexec
-c08eff447b966b21511c997272612e9665b0bd6e Documentation: PCI: Add documentation for Live Update
-84f928af8d1d3076a23047feaa45eb257d93144e Merge patch series "PCI: liveupdate: PCI core support for Live Update"
-079d98485aedab3508c2df4822b46524c3551e6c Merge branch 'kexec-fixes' into kexec-next
-de789e1266c7af51a754f0118098fe5096eff5e2 Merge branch 'kexec-7.4' into kexec-next
-7121e0b0b5e97d945c58e833075c2b9d7204082a Merge branch 'kexec-next' into next
-2584746f3a9fb28299a81855ea251a8eeb22c437 Merge branch 'liveupdate-7.4' into next
-7ea348388212f79578642b81164b6102388ffa57 Merge branch 'luo-internal-api' into next
-fc11ec5df09e1cf4e6abb06ad65a0b31045e4fd3 Merge branch 'lu-pci-preservation' into next
-1f18d740165163910df64d3063e1ad31648bc5e0 Merge branch 'kho-bootmem' into next
+53965dea328c6195b16b95838b81a74381f11770 dmaengine: ste_dma40: Fix numerous accumulated bugs
+4a0619c0251d1c1dc873bd1f98010645e7991185 dmaengine: ste_dma40: Fix physical cyclic capability
+f5a9514edbdcd48c3aa9d6f28cc7af756d73233c dmaengine: ste_dma40: Fix cyclic transfer residue
+074566e9f39bd04e3f02a18d181e66ac64870148 dmaengine: ste_dma40: Recover coalesced cyclic callbacks
+e0bb63b4e0e36fdc8c6a46b5b737d22aa159309f dmaengine: ste_dma40: Fix failed start cleanup
+24f4a0024e1b7a51fd8c36fe96a240786adbd291 dmaengine: ste_dma40: Fix probe runtime PM disable
+a2c3cf42f2a6bee679f3e2fb52072bba7a48bb6e dmaengine: ste_dma40: Check runtime PM in IRQ
+739bd9a39f791bd1053d027adac58719f478ffed dmaengine: ste_dma40: Handle runtime PM resume errors
+d63b9ebed78a58d95e1bad8430c537802010233a dmaengine: ste_dma40: Return IRQ_NONE when no interrupt is pending
+3b191e687695abc59616841344aff3b11e908588 dmaengine: ste_dma40: Init hardware before registration
+3998e15fac4287a9199aba8217ad912c8bae3a61 dmaengine: ste_dma40: Fix probe IRQ leak
+1e55bc92e3a4a88d1c3fcd0b8573ba4dfe358e94 dmaengine: ste_dma40: Fix DMA registration unwind
+e7adab4e9b1b3e9137964ab56534f3de9a36907a dmaengine: ste_dma40: Fix LCLA allocation order
+19a26f45ec000dd9a0ad40f4fae64c9765892188 dmaengine: ste_dma40: Fix probe LCLA free
+c30a79a23672763c83c73d27b20eb73a1a7f1d4d dmaengine: ste_dma40: Put the LCPA SRAM node
+34956e3612380b01b1f4bbc547e1267f659996f8 dmaengine: ste_dma40: Fix memcpy channel parsing
+264bcfb9db47e58a03659bb08cec35bccb05c415 dmaengine: ste_dma40: Validate disabled channel indexes
+239b6977b0878fa809e0078760f851602b30fd64 dmaengine: ste_dma40: Validate DMA specifier length
+4009e5860975509e5a6acc46d938057d142440f0 dmaengine: ste_dma40: Reject direction changes after allocation
+5199bf719296ea502719bd101a05bbb17bc437d6 dmaengine: ste_dma40: Fix logical channel bounds check
+6ff9932cf2b08d44cf7b522391471c60ace6f7ed dmaengine: ste_dma40: Fix event group bounds
+ebe6ccaf5fae077b4f2c320da1caa9399d1f5cc1 dmaengine: ste_dma40: Search all blocks for fixed logical channels
+f97c9d98815e8356704413ec0101eae525c1d780 dmaengine: ste_dma40: Validate fixed physical channel indexes
+b0ae056acbb8c7575aa11ca51b7713256946d594 dmaengine: ste_dma40: Validate memcpy configuration
 
---===============5764532883487308827==--
+--===============2293925396467990768==--
