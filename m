@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 24 Sep 2026 18:17:54 -0000
-Message-Id: <179027387424.365039.9745112107977004713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/nilfs2
+Date: Thu, 24 Sep 2026 18:19:23 -0000
+Message-Id: <179027396319.365795.9283957553794401091@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/vdubeyko/nilfs2
+user: vdubeyko
 changes:
-  - ref: refs/heads/spi-7.4
-    old: cb5a15943d7d9c78cc5bef86ee080010c1029c70
-    new: 2f06fa7a4150debe9c89c13a1d6ee13ffd881271
+  - ref: refs/heads/for-next
+    old: 2cb947450e0e5a88bb6bb5fca6dbfda1910e74b0
+    new: ff1227f70eead8704ecfec69259fb4c041f92cda
     log: |
-         2f06fa7a4150debe9c89c13a1d6ee13ffd881271 spi: dw: use DW_SPI_ISR directly
+         ff1227f70eead8704ecfec69259fb4c041f92cda nilfs2: fix deadlock between nilfs_evict_inode() and find_inode()
          
