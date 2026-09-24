@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4412938128930556794=="
+Content-Type: multipart/mixed; boundary="===============5182113450903435026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 24 Sep 2026 10:43:43 -0000
-Message-Id: <179024662388.11895.4035539395868788989@gitolite.kernel.org>
+Date: Thu, 24 Sep 2026 10:44:56 -0000
+Message-Id: <179024669691.12549.509028959186700549@gitolite.kernel.org>
 
---===============4412938128930556794==
+--===============5182113450903435026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,26 +16,29 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: d52badab83f73eb71ae6317b12849c728e84104e
-    new: e2441b57273c9d97e0b8e6b37a495a5082a1a2a4
-    log: revlist-d52badab83f7-e2441b57273c.txt
+    old: e2441b57273c9d97e0b8e6b37a495a5082a1a2a4
+    new: 0c98395a6f12385c274b9aaa864175a6d04bfbad
+    log: revlist-e2441b57273c-0c98395a6f12.txt
 
---===============4412938128930556794==
+--===============5182113450903435026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d52badab83f7-e2441b57273c.txt
+Content-Disposition: attachment; filename=revlist-e2441b57273c-0c98395a6f12.txt
 
-fda2571ddf9f327c23494cc7e654bc988acdaf88 tpm: fix off-by-four bounds check in tpm2_get_random()
-506626cd7f6a70444269bec1a1a7812c5eeef6a3 tpm: Remove ineffective wmb() from tpm_pm_resume()
-e4823038dd29ed644677ef036c21f4206ab72f09 char: tpm: Use SIMPLE_DEV_PM_OPS for ibmvtpm power management
-442371c79ad0e84fe373fc548770b5e1f1957e4e keys/trusted_keys: return immediately after TPM unseal failure
-4d5701b80380833e9bba0c37b55b6d534fc184e7 keys/trusted_keys: move TPM-specific fields into struct trusted_key_tpm
-13eb4d61f616a90ba3c1c99ffbc2e288cd43238e keys: finalize persistent keyring timeout after link attempt
-0a27c1decad8bafe45494a14e692897d6663efa6 tpm: tis_i2c: Deassert optional reset line before probing
-74fb436f31309d2e4efe41ddf7ca13f1b824c063 tpm: Disable TPM on null key name mismatch
-e019c3982f41f8e3ba51fad6e18c81cc219f7fe6 tpm: use DEFINE_SIMPLE_DEV_PM_OPS and pm_sleep_ptr()
-ae809f1adc6233c78c86941ec7682769e980a2f1 tpm: fix build regression for tpm_tis_resume
-e2441b57273c9d97e0b8e6b37a495a5082a1a2a4 tpm: remove extraneous #ifdef
+1574054321520cbc2566af8306c99aa4c4b89294 keys/trusted_keys: return immediately after TPM unseal failure
+39a1f11ee9c2a4f654d0a5e098cc6f9c064902d8 keys/trusted_keys: move TPM-specific fields into struct trusted_key_tpm
+270a52c6edfe489578e6bf2d12c19af1bcf6f717 keys: finalize persistent keyring timeout after link attempt
+57c3bba3614d523a949d971b8e19f1c92eac63c8 tpm: Fix heap buffer overflow in tpm_transmit_cmd()
+c5d1f660ddce3ba9fa78dbbd4837c98e2ab0ec0e tpm: Call cmd_ready/go_idle for each command transmission
+1d941fecdb529376b521cd97f696fe78722a6485 tpm: Fix auth session leak in tpm2_get_random() error path
+b31de8a0a8f895f1753441e92d4bc7bf3562225a tpm: fix off-by-four bounds check in tpm2_get_random()
+30ae33fa00725bb9b9c9d3f44e56170429c331c0 tpm: Remove ineffective wmb() from tpm_pm_resume()
+8d1c6c60a346efd799ea946d2a4bbba74454fe3c char: tpm: Use SIMPLE_DEV_PM_OPS for ibmvtpm power management
+7533a2a1fabcbaa91a10977d12ffe9735548bc86 tpm: tis_i2c: Deassert optional reset line before probing
+fcab0cf7e38c3fb74a0193090768f23008caef9c tpm: Disable TPM on null key name mismatch
+fd679a6074174cd9644c2148fa77ada75c2e16d4 tpm: use DEFINE_SIMPLE_DEV_PM_OPS and pm_sleep_ptr()
+98560fb160156416e1c2821a1b60c9dad1630eb9 tpm: fix build regression for tpm_tis_resume
+0c98395a6f12385c274b9aaa864175a6d04bfbad tpm: remove extraneous #ifdef
 
---===============4412938128930556794==--
+--===============5182113450903435026==--
