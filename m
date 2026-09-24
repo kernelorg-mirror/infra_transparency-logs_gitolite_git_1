@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1738246120688076183=="
+Content-Type: multipart/mixed; boundary="===============0349217076218345733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 24 Sep 2026 16:01:43 -0000
-Message-Id: <179026570329.253785.8559020775815727637@gitolite.kernel.org>
+Date: Thu, 24 Sep 2026 16:01:46 -0000
+Message-Id: <179026570622.254003.2086259671814556730@gitolite.kernel.org>
 
---===============1738246120688076183==
+--===============0349217076218345733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 4f3a5eae895b9995e93425a75235d8f1f3268caa
     new: 740eb74b8d2e3b7850e55b15257c8c0b0fc4a125
     log: revlist-4f3a5eae895b-740eb74b8d2e.txt
 
---===============1738246120688076183==
+--===============0349217076218345733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ dfb463b07117ca09552ff63bc94ea549884ec04f selftests/bpf: Add LOC_PARAM, LOC_PROTO
 ce2913d959a2355b868ad250ee9639252b4ab08d Documentation/bpf: Describe new location-related BTF kinds
 740eb74b8d2e3b7850e55b15257c8c0b0fc4a125 Merge branch 'support-inline-functions-in-btf'
 
---===============1738246120688076183==--
+--===============0349217076218345733==--
