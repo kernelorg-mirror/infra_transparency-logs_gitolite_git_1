@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 24 Sep 2026 18:06:07 -0000
-Message-Id: <179027316715.355965.14146533831809693877@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 24 Sep 2026 18:06:10 -0000
+Message-Id: <179027317046.356188.17983951452213455351@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/kernel-7.1.13/nfs-testing-canary-rdma-ds-connect
-    old: f1535b74bd78cd774b5c7e5d1d4bdb188b9f25c5
-    new: bfd1c58765af5980565a0db31ff154b36da97fe2
+  - ref: refs/heads/main
+    old: 72b5b9a28b996e09b8b5b944370c79851bb68f52
+    new: fc6d80eb504458d6416b75a94188b268c95c6533
     log: |
-         cabe0f112d7f83544eb10eeeb28cb07a2e433a97 NFSv4/flexfiles: rotate LAYOUTSTATS reporting across a mirror's stripes
-         2a35f7b731ce724a22c8f30685df250ce329045c NFSv4/flexfiles: take the report decision out of the critical section
-         f69bdc329580f6f849db32fdb2d9e218f59563ba NFSv4/flexfiles: report LAYOUTSTATS once per deviceid, summed over its stripes
-         3ca4a8dab51112f3e1a4f34fa6e7caa2e22415a3 xprtrdma: Allow reclaim when allocating a transport's initial requests
-         cec01f3e9e217bc373e44b91e32eb122afd8ae16 SUNRPC: Do not abandon the remaining nconnect transports after one fails
-         bfd1c58765af5980565a0db31ff154b36da97fe2 pNFS: Report a data server left on a non-preferred transport
+         72f9dd522f8d6c5a00be9695c7bb74631eb5069e llc: fix skb UAF and leaks on llc_mac_hdr_init() failure
+         ac704ff08e511c87643799c385f55ecd69b85e03 bridge: check llc_mac_hdr_init() return value in br_send_bpdu()
+         907b978e82cb4c1c245fc2985bb27c5d5c88c8f6 net/sched: sch_teql: fix shadowed err in __teql_resolve()
+         cd5dd68267c4238795fadaf02b3575ca3f8a6500 vlan: ensure sufficient headroom in vlan_dev_hard_header()
+         1078a38344a852eefafcc61c42dcc333b53c7478 Merge branch 'vlan-ensure-sufficient-headroom-in-vlan_dev_hard_header'
+         fc6d80eb504458d6416b75a94188b268c95c6533 tcp: prevent collapsing skbs across boundary in rtx queue
          
