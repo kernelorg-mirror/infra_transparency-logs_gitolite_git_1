@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8817044457715637345=="
+Content-Type: multipart/mixed; boundary="===============2531050674998510647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 24 Sep 2026 19:07:32 -0000
-Message-Id: <179027685219.404955.6072991223688622695@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 24 Sep 2026 19:07:38 -0000
+Message-Id: <179027685862.405190.5840644017969318957@gitolite.kernel.org>
 
---===============8817044457715637345==
+--===============2531050674998510647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 4c09f6c47b7694f8c2dea1aa65f7b92dd8213d46
     log: revlist-edd8a9fe2eca-4c09f6c47b76.txt
 
---===============8817044457715637345==
+--===============2531050674998510647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ b3adb8632b58c04bf57cc5285862531aeaf7cc32 perf test: Remove redundant shellcheck 
 565cd0ec87b7769546a50dcb709a257c68346dff perf build: Follow sourced files when running shellcheck
 4c09f6c47b7694f8c2dea1aa65f7b92dd8213d46 perf annotate: Fix NULL pointer dereference in loongarch_call__parse
 
---===============8817044457715637345==--
+--===============2531050674998510647==--
