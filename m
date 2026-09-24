@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Thu, 24 Sep 2026 21:14:40 -0000
-Message-Id: <179028448083.504368.15828628480763792073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 24 Sep 2026 21:15:18 -0000
+Message-Id: <179028451886.506754.16870824391232785099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/for-7.4
-    old: a87743bd9e9bef4b69d6fcce992cdaaa8edb78e3
-    new: 7a919c7f86de8a0bbfd5da4eacdb67833dfe3e5a
+  - ref: refs/heads/master
+    old: 9080c4187e7f2e16684d76e9bee0ebb195109cbe
+    new: 45fa0c0bd69ad55b864049ff1fd79f38b0359313
     log: |
-         7a919c7f86de8a0bbfd5da4eacdb67833dfe3e5a sched_ext: Test scx_has_subs() inline before calling sub-sched hooks
-         
-  - ref: refs/heads/for-next
-    old: b1f28cbe97c37c01dfb5878c67bbafe0eec4f96a
-    new: 3034afc27bd532ff4bf5fea8af12f2592d4cff62
-    log: |
-         7a919c7f86de8a0bbfd5da4eacdb67833dfe3e5a sched_ext: Test scx_has_subs() inline before calling sub-sched hooks
-         3034afc27bd532ff4bf5fea8af12f2592d4cff62 Merge branch 'for-7.4' into for-next
+         9ed640ee09ab25433f57f4eb2f6dd2e1be0140e0 bpf: Report BPF_F_PREORDER in cgroup program queries
+         47211d1200f0875102ed43b631242a1293938863 selftests/bpf: Test querying BPF_F_PREORDER cgroup attachments
+         c39bf6b6705f227ebdd191453122ac3db956db0e bpftool: Add support for BPF_F_PREORDER cgroup attach flag
+         45fa0c0bd69ad55b864049ff1fd79f38b0359313 Merge branch 'bpf-expose-cgroup-preorder-attachment-state-to-userspace'
          
