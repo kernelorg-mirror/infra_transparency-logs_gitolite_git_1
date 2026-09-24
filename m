@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 24 Sep 2026 00:20:44 -0000
-Message-Id: <179020924421.3730378.11074859484363626794@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 24 Sep 2026 00:20:58 -0000
+Message-Id: <179020925825.3730973.3456959611738418669@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 932b5e305d648e5b950254f34ee05ae399d32224
-    new: b84a81f54ed2485f000d75a8522a3c89f911043e
+  - ref: refs/heads/main
+    old: a9e94a7faa5691ca4fc48e27eebb5d42fde00e2a
+    new: 0a2de6c7cdedcf9fb7622888a2715cd94aca7773
     log: |
-         717c79db82fd3bc6a87b5b070397a6fc588d6779 Drop two 6.6 commits that broke the build
-         2b71d21110abc491a13814b6df866198673b9b50 Drop mmc SDIO IRQ commit that broke the 5.15 and 5.10 builds
-         b84a81f54ed2485f000d75a8522a3c89f911043e Fixes for all trees
+         0a2de6c7cdedcf9fb7622888a2715cd94aca7773 dt-bindings: net: nvidia,tegra234-mgbe: Add missing properties
          
