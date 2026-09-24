@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6692585685936128196=="
+Content-Type: multipart/mixed; boundary="===============2555494648593201065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Thu, 24 Sep 2026 11:06:25 -0000
-Message-Id: <179024798502.31010.1567670359762373995@gitolite.kernel.org>
+Date: Thu, 24 Sep 2026 11:06:36 -0000
+Message-Id: <179024799614.31266.14322476199466003874@gitolite.kernel.org>
 
---===============6692585685936128196==
+--===============2555494648593201065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-next-unstable
+  - ref: refs/heads/kbuild-for-next
     old: 47ef078cf9ad37a35b20094a824ec09b845532ff
     new: 36d4a11b56aa98da4b4652a2e34d229ffcf36070
     log: revlist-47ef078cf9ad-36d4a11b56aa.txt
 
---===============6692585685936128196==
+--===============2555494648593201065==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -714,4 +714,4 @@ df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
 c0a50a8604054d83be35a81261de431e4f06dfd0 Merge tag 'kbuild-fixes-7.3-1' into kbuild-next
 36d4a11b56aa98da4b4652a2e34d229ffcf36070 kbuild: Remove alignment on .modinfo section
 
---===============6692585685936128196==--
+--===============2555494648593201065==--
