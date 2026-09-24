@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/slab
-Date: Thu, 24 Sep 2026 17:42:17 -0000
-Message-Id: <179027173763.335560.811820295038922646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 24 Sep 2026 17:45:31 -0000
+Message-Id: <179027193116.338704.2475624434593793472@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/slab
-user: harry
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/slab/for-next
-    old: 1b87ea06a34b213e45e3e0c4effd5043f15046ed
-    new: 662d8eb097ec7514091bbcf5d0d776890c3d1be4
+  - ref: refs/heads/main
+    old: 8e1937fed6738460554ec123c64839e2445e7d53
+    new: 56d82862a0a243ac14ba11b6d7b57ddc2d064b95
     log: |
-         662d8eb097ec7514091bbcf5d0d776890c3d1be4 slab: Remove slab_folio()
+         56d82862a0a243ac14ba11b6d7b57ddc2d064b95 af_packet: fix integer overflow in prb_calc_retire_blk_tmo()
          
