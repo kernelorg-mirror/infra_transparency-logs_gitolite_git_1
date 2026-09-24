@@ -1,24 +1,45 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 24 Sep 2026 19:06:58 -0000
-Message-Id: <179027681867.404474.13527812125454093367@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8817044457715637345=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 24 Sep 2026 19:07:32 -0000
+Message-Id: <179027685219.404955.6072991223688622695@gitolite.kernel.org>
+
+--===============8817044457715637345==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: be190d999369fad147e94124cbab0b28583496e7
-    new: ea6e98472c65a713421ac9bdaa13834073437844
-    log: |
-         d06607bafb36abc14ed34c8adfb1239bebcd83d1 ASoC: amd: acp: fix TAS2783 SoundWire codec unmet dependencies
-         0bc42544a4a06e8d76eb412d2b1414db910a311d ASoC: rt712-sdca-dmic: fix drvdata type in the gain controls
-         55c9c04e847fafbf319e7053993959eb3c3a9f13 ASoC: dt-bindings: es8316: Document jack detect inversion
-         f6a447b32a3995c09ffca38a9b3adb9bf833cf50 ASoC: dt-bindings: qcom,sm8250: Add RubikPi 3 sound card
-         7f8dd07370f8c17f8f98f0fa98691635828b0dac ASoC: qcom: common: Add generic headset jack helpers
-         ea6e98472c65a713421ac9bdaa13834073437844 ASoC: qcom: sc8280xp: Add per-DAI board configuration
-         
+  - ref: refs/heads/tmp.perf-tools-next
+    old: edd8a9fe2eca009599e013a29c421c7a6b5ad1b9
+    new: 4c09f6c47b7694f8c2dea1aa65f7b92dd8213d46
+    log: revlist-edd8a9fe2eca-4c09f6c47b76.txt
+
+--===============8817044457715637345==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-edd8a9fe2eca-4c09f6c47b76.txt
+
+d8fd56321d7bb5df31cdf33e9acbd62f4606b483 perf unwind-libdw: Fix reading the stack of a 32-bit task
+ed1293302f811fa709897d4a90ad78592938e4aa perf loongarch: Fix discarded const qualifier in _get_field()
+06d5ce78e4fea2cf0738da903aa248a81101c155 perf mem: Fix size tracking for mem_lvl's in perf_script__meminfo_scnprintf()
+f6659329a4cd3a0d335e3830426f10dd440afd2b perf mem: Add support for printing PERF_MEM_LVLNUM_L0
+6cdecad561fffb7c44241ad35a8bdb6a0ed30b5b perf header: Support memory ranges
+41544ef9c945078b0f38320189d2f8cdbe5e8e6a perf tools: Show memory region in perf-c2c subcommand
+8eca6fa643b8b0d2474ca0a7e722cfa0ba9a6156 perf tools: Show memory region in perf-script subcommand
+dd0b7ec38dedc2c433ab6d265c72fb7652400888 perf c2c: Print memory region data with stdio output
+239cc2aec32e5a43c5bede56ab685a64456777b8 perf stat: Document task-clock/cpu-clock in TIMINGS
+36fe49925529d2cdc976b1d6e92288edeada92ec perf evsel: Improve callchain warning for s390
+51e0169d68c1eb58590f6a10722cfb3168a26109 perf buildid-list: Fix empty output for AUX data
+604a7971f35d861f526462182242453a69ad7abd perf jevents: Rename OMR offcore_rsp attribute to offmodule_rsp
+b3adb8632b58c04bf57cc5285862531aeaf7cc32 perf test: Remove redundant shellcheck source paths
+565cd0ec87b7769546a50dcb709a257c68346dff perf build: Follow sourced files when running shellcheck
+4c09f6c47b7694f8c2dea1aa65f7b92dd8213d46 perf annotate: Fix NULL pointer dereference in loongarch_call__parse
+
+--===============8817044457715637345==--
