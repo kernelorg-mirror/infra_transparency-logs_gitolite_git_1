@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5163710846753879504=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 24 Sep 2026 15:21:56 -0000
-Message-Id: <179026331637.221856.9251406492515741930@gitolite.kernel.org>
-
---===============5163710846753879504==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 24 Sep 2026 15:28:15 -0000
+Message-Id: <179026369581.225943.5913168772247019961@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: 343471a922557d0d715a3434b4b43d09aaef03fe
-    new: bff0eb168e9e62a7fd76bb372ab4558c057f7cd8
+  - ref: refs/heads/pending
+    old: a8020d048d72a9d73d0d2976941d94c4957643f8
+    new: 4898bb64758ec8c84b482864335f6ee796c570ae
     log: |
-         bff0eb168e9e62a7fd76bb372ab4558c057f7cd8 some more 7.2.4 cve ids assigned
+         4d615c8070904fae7dc306db0839414458d81b16 wifi: ath12k: fix out-of-bounds access on TX stats arrays
+         7cf5f0e088298ba7b55a2b706bee4bb63a0a69a0 wifi: ath12k: rename wbm_status to htt_status in HTT TX completion
+         eb4de30420af8a40831e52e26dca344fbdb11d69 wifi: ath12k: add TCL ring TX buffer allocation failure counter
+         3bd2457570ab0a4ca5e7e354e7b6d8703ece6c93 wifi: ath12k: add device DP stats reset support via debugfs
+         a557d48cfae3b21e1f91247b4acfe1ea8fbf2c4e wifi: ath12k: add WBM RX error drop statistics
+         0762d8fbd8c0edd4ba0bace491767381f21ead84 wifi: ath12k: track per-ring RX sent-to-stack count
+         9ca6dd5f806c4fa53bf9f8321b6db781ce8a3efb wifi: ath12k: fix 1-based ring index in REO Rx Received debugfs output
+         4898bb64758ec8c84b482864335f6ee796c570ae wifi: ath12k: add WBM SW desc fallback counter
          
-
---===============5163710846753879504==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790263315 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1790263315-14456a2c36cf4fa56e989dd14d3f4ae9399b3155
-
-343471a922557d0d715a3434b4b43d09aaef03fe bff0eb168e9e62a7fd76bb372ab4558c057f7cd8 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq1QBMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9NYP/RxanwkMms/8SCmaM+OQ
-AAqAeTkLts2trH8iLP/1Zvd6izxZ/2jt5T8jBoUx2v/+yT+/rs8cic8uhvBuH4sD
-fw1t4kzmYwcZ4WVW7mK7qs1VnwrA4SUVN++gnqT9gMlMJX/hwmZK00ilB1sW5lpT
-dE2MaovJq1WwpExWi1vZJniHZYHsGJyUi1ocJHZ5+CeOdSlu0nFHoCvfkhG9Z6BM
-sIQiPuqf0G8XuZCXTwnlvRusC5J9NDpTFAoO50DSstw5bdBqzQGHAXDYnIIf5Glm
-BeO5HwwUD/NZOYR/Pv9L0RCknTV0hTNssVdorUop73rrSwXpfA3xhJ2Zqm26DVoD
-RkzFTgtatoSBFIwl6bw3PkiJPODyV+DDyVVeaJUbyUm/odIdYxtPT68U6Lgct+qW
-fjMLEviQaUpI9o6+WO+0VUZHshCy/m+WPdXo/7GBciP197xkoZGp2pxrt0Qinmq2
-IdKDLEBjJ/+2yHVXAHHIcFivInVTdsMwJT4DPGwIOFRaMFznDybtX/r9a+Lx2ZOZ
-VaZyUL4Ry30W420m0qH9C2LnN4oCgqcF8IsZUnRI3ctXLzV9MBSMm7Y01ulQV6Pz
-eRGbITrJvA3orlG9LqyfhUUH3NKzn0jIMYHPBtvCGwfIolATgUf0HBkO9dRRPTu2
-sbInvmd6shPlsbboYZb1hexH
-=hJZz
------END PGP SIGNATURE-----
-
---===============5163710846753879504==--
