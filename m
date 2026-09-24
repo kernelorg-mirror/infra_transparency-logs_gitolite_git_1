@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7619979373798689856=="
+Content-Type: multipart/mixed; boundary="===============5776320773926768095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 24 Sep 2026 00:23:13 -0000
-Message-Id: <179020939311.3732440.15557434034481449322@gitolite.kernel.org>
+Date: Thu, 24 Sep 2026 00:23:18 -0000
+Message-Id: <179020939868.3732692.4027914260945449094@gitolite.kernel.org>
 
---===============7619979373798689856==
+--===============5776320773926768095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/clk-for-7.4
-    old: 00c90797607cf10f23ec5cf5aa4d2ef74366a2f2
-    new: 748f9caa7ab158598295f6c195e8a2bcbbace841
-    log: revlist-00c90797607c-748f9caa7ab1.txt
+  - ref: refs/heads/for-next
+    old: f8d1e2925a569470ec637dd77e5cabec6fb76eac
+    new: e56aa9deb8c76ebcfad381d19bf25c0fa44d252a
+    log: revlist-f8d1e2925a56-e56aa9deb8c7.txt
 
---===============7619979373798689856==
+--===============5776320773926768095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-00c90797607c-748f9caa7ab1.txt
+Content-Disposition: attachment; filename=revlist-f8d1e2925a56-e56aa9deb8c7.txt
 
+1827e076cf0e1ad0e9f20a35ed53b8d4d0039a34 dt-bindings: arm: qcom,ids: Add SoC ID for SM8975
+f255e2055701285d6b5f11d2a6facc6614c51ed7 soc: qcom: socinfo: Add SM8975 SoC ID
+9b963b8288f7e10b696e887a35f1bea6eefc847b dt-bindings: arm: cpus: Add Oryon PartNum 3 CPU compatibles
 5cea6b0bbf1ca6e2b20262b4790aa7b7db48ec04 dt-bindings: clock: qcom: Add Hawi CAMCC compatible strings
+89da0a958bc8d11284cac0e9cce73cbbb1d18d91 dt-bindings: clock: qcom: Add Maili Graphics Clock Controllers
 221a5cea8358c4c0aab5063a6a9732783b045ff3 dt-bindings: clock: qcom: Add Maili Graphics Clock Controllers
 04bce37fdd63c116ce3d9ae309dca5bad7acf3e7 Merge branch '20260730-gpucc-hawi-v2-1-7bf618ab8a34@oss.qualcomm.com' into clk-for-7.4
 96352d319e81d9804f0010e2e12c9d3103eaecd1 clk: qcom: Add support for Hawi GPUCC
@@ -54,5 +58,12 @@ e32faed77b268c13c924a5c35f9fe82f3791690c driver: core: platform: add subsys_plat
 7e27206f05525dfa6b3f939b347f5ed9cb45a040 Merge branch '20260915-camcc-hawi-v3-1-5b57f45477f1@oss.qualcomm.com' into HEAD
 5e5669f4519779ac9c1ac3aa8adba62167744cfd clk: qcom: Add support for the camera clock controller (CAMCC) on Hawi
 748f9caa7ab158598295f6c195e8a2bcbbace841 clk: qcom: Fix CLK_GLYMUR_GPUCC default and CLK_GLYMUR_EVACC duplicate
+dc6654f121407d85a09dc0fde2cc5f8d20113d12 Merge branch '20260730-gpucc-hawi-v2-1-7bf618ab8a34@oss.qualcomm.com' into HEAD
+f2938fd83ee17d6ace96eac9b992b5676bb5479b Merge branch '20260915-camcc-hawi-v3-1-5b57f45477f1@oss.qualcomm.com' into HEAD
+681ad0a8fac47460f6d278645f335ea39d06d99d dt-bindings: usb: qcom,snps-dwc3: Add Hawi compatible
+0dd1df954a04b5cbd3aa7029f2dfdafe15a176cf arm64: dts: qcom: hawi: Add header file for IPCC physical client IDs
+704e191149d37d721e9d062f3d2a710ca7b4b1ce arm64: dts: qcom: Introduce Hawi SoC
+a22f9a319f29e222571b9b968e059b8eba06fd60 arm64: dts: qcom: hawi: Add base MTP board
+e56aa9deb8c76ebcfad381d19bf25c0fa44d252a Merge branches 'arm64-defconfig-for-7.4', 'arm64-fixes-for-7.3', 'arm64-for-7.4', 'clk-fixes-for-7.3', 'clk-for-7.4', 'drivers-fixes-for-7.3' and 'drivers-for-7.4' into for-next
 
---===============7619979373798689856==--
+--===============5776320773926768095==--
