@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 24 Sep 2026 19:19:10 -0000
-Message-Id: <179027755079.414776.9517257369976033986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Thu, 24 Sep 2026 19:29:46 -0000
+Message-Id: <179027818605.422057.71908258152973099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/x86/mm
-    old: ea6fd393cb9e6811a748c7551de0dd3090f9dcde
-    new: 4f8c177caac8ecdedeb95caa673214fc3f6a75cb
+  - ref: refs/heads/for-next
+    old: 61fb00d6efeeeb9fd65c81db3bd8b2ac140f573c
+    new: 6f114ae7b6006ca7cf72e3e3348d263bbfec4525
     log: |
-         4f8c177caac8ecdedeb95caa673214fc3f6a75cb x86/mm: Fix void/int conditional in pgd_clear()
+         6f114ae7b6006ca7cf72e3e3348d263bbfec4525 tools/nolibc: fix verrx() and errx() message formatting
          
