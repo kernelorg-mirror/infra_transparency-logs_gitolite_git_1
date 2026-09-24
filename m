@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-Date: Thu, 24 Sep 2026 01:51:28 -0000
-Message-Id: <179021468880.3810081.5214099066157253839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 24 Sep 2026 01:56:30 -0000
+Message-Id: <179021499089.3813867.7541059321584676148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-user: kuninori.morimoto.gx
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/renesas-lts/v6.18.52-2026-09-15-sparrow-hawk
-    old: 0000000000000000000000000000000000000000
-    new: c977822bd6cca6c270da55276300598b379b1bba
-  - ref: refs/heads/renesas-lts/v6.18.53-2026-09-24-sparrow-hawk
-    old: 0000000000000000000000000000000000000000
-    new: a099d7b2c40668a0330d1ee0025507365c46629f
+  - ref: refs/heads/master
+    old: 11300f54bd887d15357741ac53db524b710ac484
+    new: b4d936547f5a3ca5563f48ee81f153c928336027
+    log: |
+         3941710a504a70502f3848145cee200807aae876 bpf: Fix range_tree_clear inconsistency on kmalloc_nolock failure in arena
+         b51b058999e0c8ae6fc7b43ef31930e19c768859 bpf: Fix range_tree_set inconsistency on kmalloc_nolock failure in arena
+         b4d936547f5a3ca5563f48ee81f153c928336027 Merge branch 'bpf-arena-fix-range_tree-consistency-on-allocation-failure'
+         
