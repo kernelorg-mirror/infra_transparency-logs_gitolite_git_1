@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 24 Sep 2026 20:06:00 -0000
-Message-Id: <179028036098.450304.13633162410178821190@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Thu, 24 Sep 2026 20:13:26 -0000
+Message-Id: <179028080631.454977.2340390907263270747@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/tags/net-7.3-rc5
-    old: dedb8f0a29dc4733ba8b7e56cb5c982811a33b5a
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/todo
+    old: dbcb82ed21d3b7f588044b4d32af524e6ce64323
+    new: 2be4355e06fbd393d3ea017cde2d6a703d4a045d
+    log: |
+         2be4355e06fbd393d3ea017cde2d6a703d4a045d What's cooking (2026/09 #09)
+         
