@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 24 Sep 2026 23:26:09 -0000
-Message-Id: <179029236921.610245.13941030568578454599@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Thu, 24 Sep 2026 23:51:26 -0000
+Message-Id: <179029388625.627510.14065892401043855578@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/heads/hwmon
-    old: 5607c41cee5e272f5bbc0e6e66046e685b19fa0c
-    new: eddb0aaacce4baa9d8176eb2f4bd9e99e867f8fc
+  - ref: refs/heads/pmdfree
+    old: 9c26a717a6985b106ab675001d7b6be4d9c1a7f6
+    new: 4993fe3770179689fb86381e07553f1df26ea3e0
     log: |
-         08e6615c909b2504a5862764f3a7fca00c7ab066 hwmon: (k10temp) Stop matching Hygon devices
-         f58c16056f8585ebafb0f1f5d90c23085443a4b9 hwmon: (lm95245) Fix negative temperature conversion
-         eddb0aaacce4baa9d8176eb2f4bd9e99e867f8fc hwmon: (lm70) Fix rounding of negative temperatures
+         4993fe3770179689fb86381e07553f1df26ea3e0 x86/mm: Drop unnecessary PMD page copy when freeing
          
