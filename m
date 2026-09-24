@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 24 Sep 2026 11:20:53 -0000
-Message-Id: <179024885357.44358.16782555009924011903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 24 Sep 2026 11:25:52 -0000
+Message-Id: <179024915241.48147.13874507228294268335@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: 77b1718e39e5c9f6956fb60807326af20baf889d
-    new: 58eb1b3325edac42dc6df72c80962bd53a3c8ca7
+  - ref: refs/heads/master
+    old: a18c2c39e35e7a6d121882e8ea1da56d96dda604
+    new: ecebb81a304f9d5a76006c364133b414b3268376
     log: |
-         58eb1b3325edac42dc6df72c80962bd53a3c8ca7 rds: ib: Clear the sg list when mapping an MR fails
+         ecebb81a304f9d5a76006c364133b414b3268376 tpm: use DEFINE_SIMPLE_DEV_PM_OPS and pm_sleep_ptr()
          
