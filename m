@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Thu, 24 Sep 2026 10:55:39 -0000
-Message-Id: <179024733917.22902.2987978910601099843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 24 Sep 2026 11:02:15 -0000
+Message-Id: <179024773580.27137.14538054706824703593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/next
-    old: bb6cbbb42c3a4b1d949dbe0efdd5f7c952a9d7b0
-    new: fa6266d3e33f631534e9f8097948780747aac04f
+  - ref: refs/heads/main
+    old: 3cd204d4c66fd748edb7ddb072978ae4005c400f
+    new: 77b1718e39e5c9f6956fb60807326af20baf889d
     log: |
-         fa6266d3e33f631534e9f8097948780747aac04f efivarfs: add nostatfs mount option to skip QueryVariableInfo()
+         77b1718e39e5c9f6956fb60807326af20baf889d bna: prevent IOC timer rearm during teardown
          
