@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8299720377842937515=="
+Content-Type: multipart/mixed; boundary="===============5842577870533997453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 24 Sep 2026 18:07:45 -0000
-Message-Id: <179027326505.357390.13807022884199837979@gitolite.kernel.org>
+Date: Thu, 24 Sep 2026 18:07:48 -0000
+Message-Id: <179027326809.357586.12379513359202443478@gitolite.kernel.org>
 
---===============8299720377842937515==
+--===============5842577870533997453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 44e4e52c11d97a9076c611270e52c6965e3255ee
     new: ce5cbbef271efd5968e8027ffefddb3246e9bc29
     log: revlist-44e4e52c11d9-ce5cbbef271e.txt
 
---===============8299720377842937515==
+--===============5842577870533997453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ ecc441fc774ec3b875f4a5e0cd75ade5e902e283 bpf: Size the per-frame verifier struct
 17d6fa978c00f17069f5fd7bfcb6989c6d7c4977 selftests/bpf: Test the 2 KiB stack budget
 ce5cbbef271efd5968e8027ffefddb3246e9bc29 Merge branch 'raise-bpf-program-stack-size-to-2kib'
 
---===============8299720377842937515==--
+--===============5842577870533997453==--
