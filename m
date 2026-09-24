@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Thu, 24 Sep 2026 16:38:01 -0000
-Message-Id: <179026788170.285083.7555900142173637107@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Thu, 24 Sep 2026 16:42:31 -0000
+Message-Id: <179026815148.288660.8895573342008083870@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
+repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
-  - ref: refs/heads/for-7.3-fixes
-    old: 9e594241e91e9bbe7db60c1930659c0b70d82729
-    new: 1765a153d985c231357145e26798f9408db10e42
+  - ref: refs/heads/for-7.4
+    old: e9b9ad3c138020dffcaddede86d91c984682806b
+    new: a7ce51ccf7b9ce0deaec7b58e39afb842e36c5c8
     log: |
-         1765a153d985c231357145e26798f9408db10e42 cgroup/pids: Restore pids.events notifications in local mode
+         a7ce51ccf7b9ce0deaec7b58e39afb842e36c5c8 sched_ext: Place dsq_vtime next to dsq_priq
          
   - ref: refs/heads/for-next
-    old: d39f9312d6863595917933835db0644b637a9dda
-    new: fe7bf02d8ad7cf8d34b63933695a48f827b9aafc
+    old: 6e378d677a5f5255e8ff24cb44c72dc4f30921e1
+    new: cec3f542b07f68b76f32e4a8ed980d51b7f51be9
     log: |
-         1765a153d985c231357145e26798f9408db10e42 cgroup/pids: Restore pids.events notifications in local mode
-         fe7bf02d8ad7cf8d34b63933695a48f827b9aafc Merge branch 'for-7.3-fixes' into for-next
+         a7ce51ccf7b9ce0deaec7b58e39afb842e36c5c8 sched_ext: Place dsq_vtime next to dsq_priq
+         cec3f542b07f68b76f32e4a8ed980d51b7f51be9 Merge branch 'for-7.4' into for-next
          
