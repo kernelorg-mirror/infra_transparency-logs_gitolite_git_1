@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Thu, 24 Sep 2026 16:11:26 -0000
-Message-Id: <179026628697.262979.4084707144821805573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 24 Sep 2026 16:13:09 -0000
+Message-Id: <179026638947.263780.38120387344148097@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-7.3-fixes
-    old: c774ec8f0a5d02a06d34c27f5a7de7e333b91265
-    new: 9e594241e91e9bbe7db60c1930659c0b70d82729
+  - ref: refs/heads/main
+    old: 7c9f391ec89cb621d7af375ace2eb9a6248e5b9d
+    new: 26cc0e69cce062cd3aa6fae33074684669c35a71
     log: |
-         9e594241e91e9bbe7db60c1930659c0b70d82729 cgroup/pids: Restore pids.events notifications in local mode
-         
-  - ref: refs/heads/for-next
-    old: 08ad3cb552fb27f05a03507b7945f864686685b5
-    new: d39f9312d6863595917933835db0644b637a9dda
-    log: |
-         9e594241e91e9bbe7db60c1930659c0b70d82729 cgroup/pids: Restore pids.events notifications in local mode
-         d39f9312d6863595917933835db0644b637a9dda Merge branch 'for-7.3-fixes' into for-next
+         c2cdef41e0b4d8ed23a5b41e6ad4e64594e055e4 net: dsa: mt7530: fix NULL dereference on unbind of MT7531 and MT7621
+         0d80ba0a204c6a16bd7778b50de578dff107c0fe net: dsa: mt7530: leave the MDIO IRQ mappings to regmap-irq
+         0b2bbfee2bcb80017d4d47e94f8dc92151dcdd6f Merge branch 'net-dsa-mt7530-fix-two-crashes-on-driver-unbind'
+         26cc0e69cce062cd3aa6fae33074684669c35a71 mctp: route: iterate socket tag list in mctp_lookup_prealloc_tag()
          
