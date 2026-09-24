@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 24 Sep 2026 15:28:15 -0000
-Message-Id: <179026369581.225943.5913168772247019961@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 24 Sep 2026 15:29:54 -0000
+Message-Id: <179026379470.226459.17820545642726519234@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/pending
-    old: a8020d048d72a9d73d0d2976941d94c4957643f8
-    new: 4898bb64758ec8c84b482864335f6ee796c570ae
+  - ref: refs/heads/main
+    old: 1c85ea5df86bed136589a2866c22f394020d3fdf
+    new: 447cb143d024d97257cefcdb2192e4b7d2fe47ac
     log: |
-         4d615c8070904fae7dc306db0839414458d81b16 wifi: ath12k: fix out-of-bounds access on TX stats arrays
-         7cf5f0e088298ba7b55a2b706bee4bb63a0a69a0 wifi: ath12k: rename wbm_status to htt_status in HTT TX completion
-         eb4de30420af8a40831e52e26dca344fbdb11d69 wifi: ath12k: add TCL ring TX buffer allocation failure counter
-         3bd2457570ab0a4ca5e7e354e7b6d8703ece6c93 wifi: ath12k: add device DP stats reset support via debugfs
-         a557d48cfae3b21e1f91247b4acfe1ea8fbf2c4e wifi: ath12k: add WBM RX error drop statistics
-         0762d8fbd8c0edd4ba0bace491767381f21ead84 wifi: ath12k: track per-ring RX sent-to-stack count
-         9ca6dd5f806c4fa53bf9f8321b6db781ce8a3efb wifi: ath12k: fix 1-based ring index in REO Rx Received debugfs output
-         4898bb64758ec8c84b482864335f6ee796c570ae wifi: ath12k: add WBM SW desc fallback counter
+         d3630df401a8ee91117db26b14a64520aa44fbdb selftests: drv-net: Move _set_ethtool_feat() into lib
+         a57ddd89900480dc90fd9f553f7f71a8e875bf67 selftests: drv-net: Check the features set by set_ethtool_feat()
+         efc7f4646c1d4d45dd4cdab6a94275484e3287d0 selftests: drv-net: Add VLAN test
+         447cb143d024d97257cefcdb2192e4b7d2fe47ac Merge branch 'selftests-drv-net-add-vlan-test'
          
