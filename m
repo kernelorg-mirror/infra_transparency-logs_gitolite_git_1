@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 25 Sep 2026 16:18:06 -0000
-Message-Id: <179035308664.1532990.13776151431164000232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 25 Sep 2026 16:18:41 -0000
+Message-Id: <179035312186.1533506.11413046015464754603@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 906af9e1c974a43eda25526c1046f0f4814961f1
-    new: 528b1475f9cffbaffb37f490e86780662471ef3f
+  - ref: refs/heads/bleeding-edge
+    old: 725ba1d0850b3725cf678ae55ccb1f91f2e77073
+    new: 6c743bf1a00df5cec8684f3518e91b50854ebeb0
     log: |
-         a6ac1e9ca936b20fc450dda79ab834e93678f8d8 perf dwarf-aux: Bound the type chases for broken debug info
-         3dfdd195c7e45f5a6b85dd2b6e3722610dbd5bf5 perf dwarf-aux: Add die_same_file() and die_get_type_die()
-         14ca0a28de37849afdda6ffd4c9047f58d8906c2 perf annotate-data: Resolve type DIEs in the debug file they came from
-         02ee4666a0cdeaa1cda4c46293aa367a344971ca perf annotate-data: Bound the member nesting recursion
-         010147f87a0c0e940fe8bf14abbd20c0224d58de perf mem record: Request PERF_SAMPLE_CPU by default
-         528b1475f9cffbaffb37f490e86780662471ef3f perf mem record: Use the IBS swfilt filter when available
+         f282a47f5f241a421033c602bd4eff92ad76cbea Merge ACPICA material for 7.4 to satisfy dependencies
+         46c263c213876bdc2297ef61aa90f0b210ebac73 ACPI: PCC: Preserve shared memory signature in OpRegion handler
+         fa9c7ee692988edddc1da74bc5257d53dd3c7130 ACPI: PCC: Free channel on OpRegion deactivation
+         c0232f00f703a409bb6e6080d94f6dc7fdebe5ca ACPI: PCC: Cache OpRegion command timeout
+         6c743bf1a00df5cec8684f3518e91b50854ebeb0 Merge branch 'acpi-pcc' into bleeding-edge
          
