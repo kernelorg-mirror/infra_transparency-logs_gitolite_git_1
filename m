@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6310352685045866134=="
+Content-Type: multipart/mixed; boundary="===============4356014130174874878=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 25 Sep 2026 18:36:08 -0000
-Message-Id: <179036136812.1645487.16491654543457724544@gitolite.kernel.org>
+Date: Fri, 25 Sep 2026 18:36:36 -0000
+Message-Id: <179036139636.1645813.9613292541029888716@gitolite.kernel.org>
 
---===============6310352685045866134==
+--===============4356014130174874878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 630761837841036e97af4af09a77fda2e6a28347
-    new: 5975296ca0f7041785dc9aca00e1b8a076c98054
-    log: revlist-630761837841-5975296ca0f7.txt
+    old: 5975296ca0f7041785dc9aca00e1b8a076c98054
+    new: a14fcf2723ccb9dafc0c1e1c2f07314871b032ae
+    log: revlist-5975296ca0f7-a14fcf2723cc.txt
+  - ref: refs/heads/tip/urgent
+    old: 5f3dfdb7269d96a92c3d8c342a0c355d393c1233
+    new: 9db48721d4567aa77d840d1537405eb3df3df957
+    log: revlist-5f3dfdb7269d-9db48721d456.txt
 
---===============6310352685045866134==
+--===============4356014130174874878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-630761837841-5975296ca0f7.txt
+Content-Disposition: attachment; filename=revlist-5975296ca0f7-a14fcf2723cc.txt
+
+9864d9f8b951dd37f4fc49f4393deba54e3b1a7a Merge branch into tip/master: 'perf/urgent'
+55fdf9b7f44973972871fa9431a646f4e1ef825e Merge branch into tip/master: 'sched/urgent'
+3d191cd0773e9ce9026c8c44c0119a05cbb64deb Merge branch into tip/master: 'x86/urgent'
+9db48721d4567aa77d840d1537405eb3df3df957 Merge branch into tip/master: 'x86/mm'
+091e8c5bf0bc45a0f6d03e0c6d90faee0ca71b2b Merge branch into tip/master: 'irq/core'
+d6f1f18b17f6044a05d65fd6f052ec1510552409 Merge branch into tip/master: 'irq/drivers'
+7b98692dca811096fb3f278fc5e9c1185a664c05 Merge branch into tip/master: 'objtool/core'
+71cc66e386e0cf48a2b0c811be244dbcc23f5288 Merge branch into tip/master: 'perf/core'
+75047fdb12c07f98ff9dfe94ca8cc09e0f915403 Merge branch into tip/master: 'sched/core'
+4cc3b18ea3aec75a901bc9328c1475a046cbebf9 Merge branch into tip/master: 'timers/core'
+44c6f4bb494b28e7d7077c47dcf104d04d6e84ba Merge branch into tip/master: 'timers/nohz'
+fc157bdcf62598d165caf3d40fc0e6c7c21ccfb9 Merge branch into tip/master: 'x86/asm'
+4d212491360ab904302cb7074eac80bc9b7e3939 Merge branch into tip/master: 'x86/boot'
+04f053197b92f6b647d48df8a11c0737e67669cd Merge branch into tip/master: 'x86/bugs'
+998ebb58cdf927d0ecddecf4f9685b91daba1685 Merge branch into tip/master: 'x86/cache'
+8fbf69d8cfaf408a40a5c929be303a23294dace9 Merge branch into tip/master: 'x86/cleanups'
+ee5e6f49d5961a588740bf097104277858dc6f8c Merge branch into tip/master: 'x86/cpu'
+f0d0961e7bf03c742263115fdb472a50d26f0861 Merge branch into tip/master: 'x86/kdump'
+261727010617c3f4c7aa067eba90ecb945c2bce6 Merge branch into tip/master: 'x86/misc'
+7ffb49a3ffa7de9ac213b58b8846e032f259a48e Merge branch into tip/master: 'x86/platform'
+cbb50c4c88e8726196e51e4d1e2995e9d9b962fa Merge branch into tip/master: 'x86/sev'
+1df53d82358b811b750d5dad44fbfe607d942262 Merge branch into tip/master: 'x86/sgx'
+a14fcf2723ccb9dafc0c1e1c2f07314871b032ae Merge branch into tip/master: 'x86/tdx'
+
+--===============4356014130174874878==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5f3dfdb7269d-9db48721d456.txt
 
 3b55f350c68a0aceff108f47f9d31f47ebffaf7b bpf: Fix bpf_skb_change_tail wrt csum partial skbs
 15e2565f1c43771af0bc5324971cabaad79ac286 selftests/bpf: Add test for bpf_skb_change_tail on csum partial skbs
@@ -345,30 +379,9 @@ f2c53ea949c5048f96b3dbb5a5ee7131ce4ff2de Merge tag 'net-7.3-rc5' of git://git.ke
 e8dfd03a1c51c4e84fbf2e5ef5cd7d33cc8b7578 Merge tag 'cgroup-for-7.3-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 ee9c669f9bf5fd2c24206746ded9382fe810df89 Merge tag 'sched_ext-for-7.3-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 165768bb70265b5c38cf0b73fafd75be235f8b14 Merge tag 'firewire-fixes-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
-df935e26ca9a8fd4ac7431b73348938250f80c6e perf/x86/amd/uncore: Turn amd_uncore_ctx events into a flexible array
-52a6457f59adf70d624ef1b1bed8d55cb7b73af6 perf/x86/intel: Annotate x86_pmu::hybrid_pmu with __counted_by_ptr
-b7b84fff2bd630b593ee47a733381e3886aac1a7 perf/x86/intel: Invert names of intel_ctrl_{guest,host}_mask
-a634e4536ec22a17e2391fd5ed38c06ad99cbf99 perf/x86: KVM: Have perf define a dedicated struct for getting guest PEBS data
-31f7cf337ce717666ce29fbd793f06435eb48408 perf/x86/intel: KVM: Handle cross-mapped PEBS PMCs entirely within KVM
-57c76478333012159b5cbec89527f925011cdefd KVM: VMX: Drop a redundant pmu->global_ctrl check when processing pebs_enable
-193ef44e32619550478fce9d0b91edc0046ed8c3 KVM: VMX: Only tell perf to enable PEBS counters for fully enabled PMCs
-ba29babd881e09a7bb8b01fcfeda3d637d8115c5 perf/x86/intel: Check only PMC bits in PEBS_ENABLED when detecting host PEBS usage
-4a8557a4e5d2d5f96a989a428e38569451e74405 perf/x86/amd/uncore: Remove redundant event slot scan
-6350de8671b94afb7691d110f63bcda42f658a69 perf/x86/amd/uncore: Free counter slot by index
-c72945693b90423f1b46ac2dbc8749c2b7804fc8 sched: Restart fair hrtick after same-task repicks
-819224e506bc7c2d61ec6a58ec6e876b505abce9 sched/fair: Remove dead code on enqueue_task_fair()
-fbbc63fed0b09c8c5cf3972db8922ae98406ceec sched/core: Remove redundant core_sched_seq
-abe440b3770fce8eb8ee92a563dfb55a7b9a1c0e sched/fair: Drop idle recency from slow-path CPU selection
-c9ce69fc43bd07dbed9d23a504e56f84604ecf42 sched/fair: Randomize equally shallow slow-path candidates
-aae2a33ea66299f39252bc1891bb4f05f631255d sched/eevdf: Ensure that vprot will never go above a min slice
-4bf32ec3327d2d2286e96508cd128ce1592f43ce sched/eevdf: Align update_protect_slice to set_protect_slice
-e4c353c3933968fe8efecb269fdbe3baa1d1ddd0 sched: Clarify WF_SYNC wakeup semantics
-d2e0100827578641df2f85546bdb57bb1d8ff55b sched/eevdf: Handle more short slice waking cases
-3e59ae54a1a73bffc008e05a0fc7aa42dedcd451 Merge branch 'linus'
-f2ea5672a95dc5c4dbbebfb5ca5918713816f409 Merge branch into tip/master: 'x86/mm'
-05df6fe260eb8886595cb0ced45db96d324769a6 Merge branch into tip/master: 'perf/core'
-f5e8705787622598484250825bb3cd04b78d9d28 Merge branch into tip/master: 'sched/core'
-627ea30aca3b309af40cdd07a35eb1027ba4a0bc sched/wait: Clarify WF_SYNC wakeup semantics
-5975296ca0f7041785dc9aca00e1b8a076c98054 Merge branch into tip/master: 'sched/core'
+9864d9f8b951dd37f4fc49f4393deba54e3b1a7a Merge branch into tip/master: 'perf/urgent'
+55fdf9b7f44973972871fa9431a646f4e1ef825e Merge branch into tip/master: 'sched/urgent'
+3d191cd0773e9ce9026c8c44c0119a05cbb64deb Merge branch into tip/master: 'x86/urgent'
+9db48721d4567aa77d840d1537405eb3df3df957 Merge branch into tip/master: 'x86/mm'
 
---===============6310352685045866134==--
+--===============4356014130174874878==--
