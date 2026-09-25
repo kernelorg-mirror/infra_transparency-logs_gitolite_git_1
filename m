@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5641939433369157795=="
+Content-Type: multipart/mixed; boundary="===============9116510842442557633=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 25 Sep 2026 03:12:35 -0000
-Message-Id: <179030595540.779002.15409813627459103488@gitolite.kernel.org>
+Date: Fri, 25 Sep 2026 03:12:38 -0000
+Message-Id: <179030595805.779166.9180587568803002173@gitolite.kernel.org>
 
---===============5641939433369157795==
+--===============9116510842442557633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.1.13/nfs-testing-canary-reduce-i_lock-contention
-    old: c06cabbc89d276bca201e7afd8b474b4689725d3
-    new: 2894b8952dcf41acaee4ce7908cc6e6d7f780fb5
-    log: revlist-c06cabbc89d2-2894b8952dcf.txt
+  - ref: refs/heads/kernel-7.1.13/nfs-testing-canary-reduce-ff-layout-contention
+    old: 3c675ba65faf0294adfa3d91335cc3b6a94b0689
+    new: 2ec05ff02df95a87777c64b3155f97edcacd3454
+    log: revlist-3c675ba65faf-2ec05ff02df9.txt
 
---===============5641939433369157795==
+--===============9116510842442557633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c06cabbc89d2-2894b8952dcf.txt
+Content-Disposition: attachment; filename=revlist-3c675ba65faf-2ec05ff02df9.txt
 
 d795a13ba754b9b768ba6d83ef23c0dc14e7ed49 NFS/localio: detect a short read or write before the iterator has moved
 959ad2b148193a3af80bfe42847abdc330c3cdfc NFS/localio: report the stability a DIO WRITE actually has
@@ -55,5 +55,12 @@ ec54d06a1940874b722690add0a80233dd5fb484 NFS: skip inode->i_lock when a delegate
 0dfaac9408b39821261b6c42d287ca3a6cda31ce pNFS/flexfiles: don't take inode->i_lock to release empty commit info
 dd8608fd35e5e9d2d5b6aaffb9426cacda190a10 pNFS/flexfiles: look up the cached layout segment without inode->i_lock
 2894b8952dcf41acaee4ce7908cc6e6d7f780fb5 NFS: invalidate LOCALIO direct-write post-op attributes at completion
+434b6711a34a5e2b2ebe4fea4aabd736bc663362 pNFS/flexfiles: don't dirty the layout segment on every data server RPC
+c98f3672d2756b316251e347ae4f3ca91ff5d418 NFS: only account read_io/write_io when an I/O mdsthreshold is in use
+fac3c02a1c17b83f907d55190813c4f21ef98d44 NFS: finish stable O_DIRECT writes without the nfsiod round trip
+d1be673ab1afcc96b33a3c70484b313eddd76a14 NFS: admit O_DIRECT I/O without taking inode->i_rwsem
+e7fc96bcc598cf7ab6cd67f1771427007dd018a2 pNFS/flexfiles: give the read-mostly layout segment fields their own cacheline
+8905c9fbda2e720ec544725593b69d5909e0df38 pNFS/flexfiles: bound data server RPCs with pg_bsize instead of a per-page test
+2ec05ff02df95a87777c64b3155f97edcacd3454 pNFS: hand the page I/O descriptor's layout segment reference to the header
 
---===============5641939433369157795==--
+--===============9116510842442557633==--
