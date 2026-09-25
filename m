@@ -1,59 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============4139077730760631933=="
+Content-Type: multipart/mixed; boundary="===============7451852328403675446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 25 Sep 2026 10:40:09 -0000
-Message-Id: <179033280996.1160287.1070137648203751204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 25 Sep 2026 10:46:51 -0000
+Message-Id: <179033321102.1164723.2723191891473042075@gitolite.kernel.org>
 
---===============4139077730760631933==
+--===============7451852328403675446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: 63f09baec0c5bc890658f6e36ca4d9bc96219387
-    new: 858ae62998526917d0e18529d82f68a97d820f28
-    log: |
-         ebba46434e1acc5841e1cf330bcdc7799d2fcbf9 reserve some ids
-         4873255812d0b5caf142e1a871be6e4e82773a5b assign some more 7.2.7 cve ids
-         3c6aece72d9c4945b664c2d3734434ec48480e55 sign the new mbox files
-         858ae62998526917d0e18529d82f68a97d820f28 strip the new mbox files
-         
+  - ref: refs/heads/perf/core
+    old: df53fbc909cd7a3c973aaff716983c2791ba879a
+    new: 6350de8671b94afb7691d110f63bcda42f658a69
+    log: revlist-df53fbc909cd-6350de8671b9.txt
 
---===============4139077730760631933==
+--===============7451852328403675446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-df53fbc909cd-6350de8671b9.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790332803 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1790332805-ed7824f483ede011083b13dd18e95626a966bc1b
+df935e26ca9a8fd4ac7431b73348938250f80c6e perf/x86/amd/uncore: Turn amd_uncore_ctx events into a flexible array
+52a6457f59adf70d624ef1b1bed8d55cb7b73af6 perf/x86/intel: Annotate x86_pmu::hybrid_pmu with __counted_by_ptr
+b7b84fff2bd630b593ee47a733381e3886aac1a7 perf/x86/intel: Invert names of intel_ctrl_{guest,host}_mask
+a634e4536ec22a17e2391fd5ed38c06ad99cbf99 perf/x86: KVM: Have perf define a dedicated struct for getting guest PEBS data
+31f7cf337ce717666ce29fbd793f06435eb48408 perf/x86/intel: KVM: Handle cross-mapped PEBS PMCs entirely within KVM
+57c76478333012159b5cbec89527f925011cdefd KVM: VMX: Drop a redundant pmu->global_ctrl check when processing pebs_enable
+193ef44e32619550478fce9d0b91edc0046ed8c3 KVM: VMX: Only tell perf to enable PEBS counters for fully enabled PMCs
+ba29babd881e09a7bb8b01fcfeda3d637d8115c5 perf/x86/intel: Check only PMC bits in PEBS_ENABLED when detecting host PEBS usage
+4a8557a4e5d2d5f96a989a428e38569451e74405 perf/x86/amd/uncore: Remove redundant event slot scan
+6350de8671b94afb7691d110f63bcda42f658a69 perf/x86/amd/uncore: Free counter slot by index
 
-63f09baec0c5bc890658f6e36ca4d9bc96219387 858ae62998526917d0e18529d82f68a97d820f28 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq2T4MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qC0P/2TTGqO7TgMFd7b7/lNl
-o7k7Q+ochQUQKdOaVLLUvJ3ALR/43h3k56StUgBHkQL0M55XDQM6hSU7Rutohw6H
-hOxs7O9Kx2hA2ZUZ5BMDNIsGTdoVDtRbY6UpFAooQ0QVaZWVem0AuscKkBtwGKzS
-0cr/mbKG3xaBV6jo2YwhMwEjEyK8XtxG5muan/RYc4CP+tBW0OWXm0cl/aGT8e3U
-b8j05IfNiTKFa/m/ERrTG6gWuqtJjlY4nty3fl71MxrJ111P/0sATZcor8n4ix5/
-53LDsXcjVygoK/7qsLDLep7s6FiIuOWXbBIgIOk2D1/Y9f/4LMMZmJvMUUFWX3FY
-g5CNq4LvxYMWdmXNAw2fhPKNpVDanveEmlzzmX+vlykInr9saiZj2bf21Cavt+K4
-fxq+1Q8NTnfYq2DeQu9qTRZBs97IyXs52NOdQdJrIpLgxFYe0yoWsETe97bZ0RQR
-urmqGpAhpt1alntzJKYtpgqXgzz2Sc1NfxcCWByiDtRIPLG4Ha3yHd5gKqp6dwTn
-WYQsmYORRjSt8i7RUvXSpBeEuFYYIkPflapmIqaYZ8nKIms94QNFlZ/6Yyn1zGwo
-XYF4q+Dpa4ugxWcr9dYe1zOOHJvnnPN7NiGx315+bvQcy9XM/wA970M6vJMT6uNq
-uOdcrMHw8JSiyHsyVeY38yfB
-=EHp4
------END PGP SIGNATURE-----
-
---===============4139077730760631933==--
+--===============7451852328403675446==--
