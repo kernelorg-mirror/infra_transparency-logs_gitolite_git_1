@@ -1,54 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6503094903762046535=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
 Date: Fri, 25 Sep 2026 21:18:00 -0000
-Message-Id: <179037108024.1770156.2904368494736198546@gitolite.kernel.org>
-
---===============6503094903762046535==
-Content-Type: text/plain; charset="us-ascii"
+Message-Id: <179037108028.1770162.11223340459065429222@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/scx-proxy-exec
-    old: e5c89eada028f7438c952b1a4836175ae469fad6
-    new: ca1ad117e328021c54088eeaef32523b8bc123a9
-    log: revlist-e5c89eada028-ca1ad117e328.txt
-
---===============6503094903762046535==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e5c89eada028-ca1ad117e328.txt
-
-6b8d2bc44fbb6d232382141ae70d4ecc28a9dc36 selftests/sched_ext: Fix rt_stall runner abort
-efa7bc7d719558483b14e1c44bcce11532a44581 sched_ext: Avoid relocking DSQ during remote consumption
-84a0d325b0b709962772e66a804677ceaca417e2 sched_ext: Avoid relocking DSQ during remote DSQ moves
-e9b9ad3c138020dffcaddede86d91c984682806b sched_ext: Update scx_dispatch_dequeue() comments
-a87743bd9e9bef4b69d6fcce992cdaaa8edb78e3 sched_ext: Place dsq_vtime next to dsq_priq
-7a919c7f86de8a0bbfd5da4eacdb67833dfe3e5a sched_ext: Test scx_has_subs() inline before calling sub-sched hooks
-c11a0111462e5d8e0b1cd659e3b877cb1e6f56ac sched: Restart fair hrtick after same-task repicks
-182ea3d5b2c9e6320853726b4ee8f69048b99429 sched: Add proxy donor confirmation callback
-aa21a14726fdecdff1945d88fa972c39240691b1 sched/core: Drop mutex locks before proxy rescheduling
-f14346ad22d0a7401770e60cade6060447f7d51c sched/core: Dequeue waking proxy donors before reset
-637bceb9c3800bb438c81d12d2f95801e8c6add4 sched/core: Mark wakeups completed through ttwu_runnable()
-e1b7f3dbbb16054baa07b5fd5f65b18683a4e1e5 sched: Add helper to block retained proxy donors
-d265227b595133c82e4f0ec73de27dc7c032f116 sched: Add sched_ext hooks for proxy execution
-1478b250f1507c8711fc7d8c7ec73b7720314546 sched_ext: Block proxy donors before taking control
-cb969ab24af24f8f4edfa2bb361615b6f81052f7 sched_ext: Fix ops.running/stopping() pairing for proxy-exec donors
-80f45e3ee8690d76cd470c512fe5d1bb412a6fa7 sched_ext: Move reject DSQ draining into core
-44cd3eae48039700b78c53d93a40e6a2e726033b sched_ext: Generalize the reject DSQ reenqueue path
-9d846251ea81102d99ef9400e5f57d8a924206b9 sched_ext: Handle proxy-exec races in remote DSQ transfers
-a35dd8f7b5c8e52cb3f1e1cb382fe5866a1246e4 sched_ext: Split curr|donor references properly
-3032f350a7ec496022bbb79f67bcd45f657cf1d3 sched_ext: Track proxy execution for NOHZ_FULL
-284db8b48059b2603024dc85b5801b11e5433482 sched_ext: Delegate proxy donor admission to BPF schedulers
-d90cdc7b81c3d45e4c8bfc01dfec830a3885cbbb sched_ext: Add selftest for blocked donor admission
-c91d53012af08882240be0cfa631713d451702b9 sched_ext: scx_qmap: Add proxy execution support
-ca1ad117e328021c54088eeaef32523b8bc123a9 sched: Allow enabling proxy exec with sched_ext
-
---===============6503094903762046535==--
+  - ref: refs/tags/scsi-fixes
+    old: 29f673b77cfc7a7b32ef5f3ba8b0fb5abed04ee9
+    new: b91b581d094cafbe44b0018f7df96b1448749432
+    log: |
+         b52d695d062095327b944acf7daabbc816ab319b scsi: ufs: core: Keep internal commands dispatchable during error handling
+         c9ee6511332687ea714ad8ab86a53cb837d86eea scsi: ufs: pltfrm: Add quirk for R-Car S4 lacking lanes-per-direction
+         bce07e2f37b5e4a427d36fd6b1c14067b27591db scsi: libiscsi_tcp: Check the data direction of a Data-In PDU
+         f06a44e235ef188689ba23ffc72e9e89b10951a9 scsi: devinfo: Add BLIST_SKIP_IO_HINTS for EMC Symmetrix
+         278210c60c6f6958bd2eeaa2120c862683b83d09 scsi: leapraid: Avoid -Wformat-security warning
+         7c431d61b69a3fd0784c20aa4cd0b8fb501b5653 scsi: block: Fix zones_cond out-of-bounds write on zone report
+         b6ec0f79745967c751c85df373062c8d15e45fc4 scsi: sd_zbc: Reject disks with too many zones
+         42d1221d321e55afc7bba9109a77aaf5a817c8a3 scsi: megaraid_sas: Protect megasas_get_ctrl_info() in megasas_resume()
+         
