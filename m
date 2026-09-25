@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8520717380470356613=="
+Content-Type: multipart/mixed; boundary="===============5533522923961904582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 25 Sep 2026 23:10:34 -0000
-Message-Id: <179037783410.1854071.8134480966553315922@gitolite.kernel.org>
+Date: Fri, 25 Sep 2026 23:10:58 -0000
+Message-Id: <179037785898.1854361.14186928816882756069@gitolite.kernel.org>
 
---===============8520717380470356613==
+--===============5533522923961904582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-keys
-    old: 27d14d3b15d5691bcbf0683883a2ea12469edbea
-    new: 8df62b8fe4f1e137aa19809ff6e8abf84b955cac
-    log: revlist-27d14d3b15d5-8df62b8fe4f1.txt
+  - ref: refs/heads/for-next-tpm
+    old: ecebb81a304f9d5a76006c364133b414b3268376
+    new: c77c3cb66073ea06337c63e0f83c976cd52073c0
+    log: revlist-ecebb81a304f-c77c3cb66073.txt
 
---===============8520717380470356613==
+--===============5533522923961904582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27d14d3b15d5-8df62b8fe4f1.txt
+Content-Disposition: attachment; filename=revlist-ecebb81a304f-c77c3cb66073.txt
 
 21efadc62272cabee9bec27777ae75d84a9ca8a8 Input: adp5588-keys - cache GPIO state before registering the gpiochip
 4d7fa28e151a6a6f24098d9e60f558f8ea61ddaa dt-bindings: input: mediatek,mt6779-keypad: add mt6572
@@ -772,5 +772,15 @@ f14572c203d57492e1d4e5d7851a3b143e083b82 Merge tag 'cifs-fixes-7.3-rc5' of https
 30a619d986e7609e5324ed294e1f4dda3ece14d7 keys: finalize persistent keyring timeout after link attempt
 9d88653796b988fa5a9180a707a6dacb5d6d1ef9 KEYS: trusted: Fix blob allocation size in tpm2_key_decode()
 8df62b8fe4f1e137aa19809ff6e8abf84b955cac KEYS: trusted: Reject short TPM2 public areas
+78a4776471b7edffbe4df16a82d6ab5c7f457605 keys/trusted_keys: move TPM-specific fields into struct trusted_key_tpm
+09897e05a6d9a7366f1c955e60cdb527031fcb83 tpm: Fix heap buffer overflow in tpm_transmit_cmd()
+d151e8a04b720b9897c77c70e8ad31e1d02ad92f tpm: Call cmd_ready/go_idle for each command transmission
+4bdae8f088737543b3b92129a92682bfb5b23a03 tpm: Fix auth session leak in tpm2_get_random() error path
+0d44db3deca0351ef844c15dc98457e797a51393 tpm: fix off-by-four bounds check in tpm2_get_random()
+91170115a8943540e8bd599b138521b587770b60 tpm: Remove ineffective wmb() from tpm_pm_resume()
+1f2374947fbaaf685cac4c09f1707c8f605756c9 char: tpm: Use SIMPLE_DEV_PM_OPS for ibmvtpm power management
+18e537173d48d27a04f49dfa58435c218d2b303a tpm: tis_i2c: Deassert optional reset line before probing
+0b27cb9fe81c128335e6871ee5c0e453a51cc1ba tpm: Disable TPM on null key name mismatch
+c77c3cb66073ea06337c63e0f83c976cd52073c0 tpm: use DEFINE_SIMPLE_DEV_PM_OPS and pm_sleep_ptr()
 
---===============8520717380470356613==--
+--===============5533522923961904582==--
