@@ -1,56 +1,130 @@
-Content-Type: multipart/mixed; boundary="===============2777922757074366508=="
+Content-Type: multipart/mixed; boundary="===============3967728195626765979=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 25 Sep 2026 14:43:14 -0000
-Message-Id: <179034739442.1397016.12163911801592884059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 25 Sep 2026 14:43:37 -0000
+Message-Id: <179034741790.1397350.3298172944357200132@gitolite.kernel.org>
 
---===============2777922757074366508==
+--===============3967728195626765979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: eff9a59d4b52bc082d85442dd00ec3477d5f12b6
-    new: e7348381bf228e9b2d4128b63ee6b80de630d9f4
-    log: |
-         e7348381bf228e9b2d4128b63ee6b80de630d9f4 merge staging into queue: 7.2 6.18 6.12 6.6 6.1 5.15 5.10
-         
+    old: f10a979d01fe1619016a90198b2c9fdeb7a46de6
+    new: f26e8a9e29caa7a5b240164f4cf6eb224fe17d69
+    log: revlist-f10a979d01fe-f26e8a9e29ca.txt
 
---===============2777922757074366508==
+--===============3967728195626765979==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790347389 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1790347391-2f7489bcdcba568a385eb5578980755d2087bcf9
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790347411 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1790347414-ddbb2566d84397c59cd54fb0edd2c1db88708222
 
-eff9a59d4b52bc082d85442dd00ec3477d5f12b6 e7348381bf228e9b2d4128b63ee6b80de630d9f4 refs/heads/master
+f10a979d01fe1619016a90198b2c9fdeb7a46de6 f26e8a9e29caa7a5b240164f4cf6eb224fe17d69 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq2iH0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9wQP/ihrmCZsJIdc0d4qWL7V
-BmI+o8kCE37bf1UdX8gc1DYofqsnq4rhrby1Bj48gNS82V2kLedJ9aLTRNGfHaK0
-Cdmkj6lwhHlgneHobeXtoc54Ym96J8hmaUO7pwsHwn4K3Mrq7jkzkolXtRXCN8R/
-XgYCoPSPFh/HEL/PwM0zmF5OHjA+GQMu/NL6lLSLnFkUBbO7/pIXwX61hrJe7pIX
-7I9SZqrjZRj0sDdK6neXoLfkEzRbVHTZQ+YqF3vKLxeixpoQK1rxMjB77Z6o/ZPI
-HqMviVHaJweoP7u5+mje16VfFYQLB0HHqosSWcE76ozdXfBYxFj8WMxUJ4Rc3gV9
-BkrtS1dPfBtDkiqUzEz3pXPJ9W36HOXI5A1rntb9nJUmBIhnWiuGcKCKcUBXGFsP
-HXT8QtycY2fNktQqfJtz+mucN7HQCSPF/5RMhYJ9GXf4WpJT69C1QqvSN8+Ftbiu
-pRwnTeVwYed3gXNoAqTCb6dXpde2gjMvwrlIGJ5YfGBjcK2L5/qvAYbUufdyj9qF
-mbF5Iwod3uZjle0/QyA2o0Uz7v/C5MKxq4mvLSsucm4SzSwpipyq5QiwqQGIsadl
-+0Os4lDpd/MlyYYSTt/QjxI9cXq73QymE+m+s93uaA9fBzvV+PN8VV4eSLTD39LB
-v+It4kX5KWb+zd29xjZQ53W1
-=6wHf
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq2iJMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+v+kP/08ZsI8t/a7PkiDIYj0D
+1ngQSGGtp7mWcFfI+EVDcVwD8ONu2oJK2RfrWivEweDfRg8DRDs6/3pfb7jxkUso
+qHR67/ivnSuL2cwoj1FLGt+EpkhAEULqFibwIvFIbFaVJvAigP+JcuhiUoJLQ4Vz
+hd4WhixbnwYpk3oF1Up8qsKssK7Z7AX1NwfiD4k6r6W1tlV862KBHh4cgmuR5fF8
+DdqoVJD0/JXTAMnCmmIgOAvobgH2ECgmQdJhlgB9B5ozu3siU8KQvLuKKg5znzEb
+5td/Sdy/nrBCbO8wLH0ZuSPUJkGmO429slxo7pSFW+rcbdVgTi4JGIImC3rLHmco
+r5oewjcgjWq3AxZvT1ohYF5KJkisVY2rSCvMaPlAawsbKCaezvLGrlepL8YGMJq3
+TsFEANe59+DW4NU3nJOxSyVfaM3w5xHWAb7DtePLFU/FnG4G24IKrCeInvt+Rqry
+JQpMQpHWK6gU/YqdJLYv+841W3y/jvUY1XIY8YSbsHBYOBkVaMwhWUuVln7qslpE
+q/65NKpfPXY5QLlC/53Mb9Q/uto87vmiYI2Hy/IRLNQPOFGz5Tb+/9IDUqiOxPgm
+mwlpAu6ABoexYtmr2e6B51H9rlUls3G49pW8cIiJcVvhSSVUxszUspu8JDtTAuNo
+rCwm3tSAvDsFe3lpL1yOxZW6
+=RkKm
 -----END PGP SIGNATURE-----
 
---===============2777922757074366508==--
+--===============3967728195626765979==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f10a979d01fe-f26e8a9e29ca.txt
+
+9ce92038b0a83d678c4d233ac70831a591502827 CVE-2026-100075: Add CVSS 3.1 score (9.8 CRITICAL)
+6421c9ee4bedf5ccd407838d2c8a928da48bf70e CVE-2026-98156: Add CVSS 3.1 score (7.8 HIGH)
+3f9e81a2a975bf96fd1367408a992b30d86b4125 CVE-2026-98154: Add CVSS 3.1 score (7.0 HIGH)
+985b6dcf7670f871dc0d511a4b0adedb44631b27 CVE-2026-98108: Add CVSS 3.1 score (7.5 HIGH)
+d84d14036d06cecb3e4c9c8ca5d51ae572593d54 CVE-2026-98150: Add CVSS 3.1 score (7.0 HIGH)
+bbba3a4a091d83dc5ed8a57d0d8a94c763b3f51f CVE-2026-98143: Add CVSS 3.1 score (7.8 HIGH)
+7eda164e628361fa96cfade18d790d3245fcadf8 CVE-2026-98130: Add CVSS 3.1 score (8.1 HIGH)
+930a2744c91f4851be041fa713ea50c4713807d3 CVE-2026-98116: Add CVSS 3.1 score (7.8 HIGH)
+8ccf561d3d5890b57ec11b4362c48135209934b9 CVE-2026-98073: Add CVSS 3.1 score (7.8 HIGH)
+5642673b7eb34f12f6b356be2280c1b2475ba916 CVE-2026-98069: Add CVSS 3.1 score (8.1 HIGH)
+65cfd84a942c36c4217ee54849b762926200b18c CVE-2026-98122: Add CVSS 3.1 score (7.8 HIGH)
+21d9ca907016e69151f98abb875f1bab8733e9a7 CVE-2026-98112: Add CVSS 3.1 score (7.8 HIGH)
+29a595cbd4ae6144ea1469168984ff3bcddee481 CVE-2026-98096: Add CVSS 3.1 score (7.4 HIGH)
+ff4f0701e4d969354822acfe930603ec78936155 CVE-2026-98115: Add CVSS 3.1 score (8.8 HIGH)
+dc55c2741727ecc7416809af548f1f3b83b263b1 CVE-2026-98070: Add CVSS 3.1 score (8.1 HIGH)
+3a4293cfb1699ec965c8ba5420922aca21ced32e CVE-2026-98083: Add CVSS 3.1 score (7.0 HIGH)
+df488c713a797237f0dee6b0b873f9faa6712203 CVE-2026-97990: Add CVSS 3.1 score (7.5 HIGH)
+cf8937b10cabb09234e23961233f67689397b8bf CVE-2026-98056: Add CVSS 3.1 score (7.5 HIGH)
+146302254674fe79b26c940e678f8a22f1c0a936 CVE-2026-98050: Add CVSS 3.1 score (7.5 HIGH)
+2ba17d10952093420fee34695daef49cb4dd0588 CVE-2026-98041: Add CVSS 3.1 score (7.0 HIGH)
+d09dcfc04a88c543aa2e854351e55f9a89e365f8 CVE-2026-98052: Add CVSS 3.1 score (7.8 HIGH)
+3ff5e5b6c2063c9332a87ba7afa526ce15e40170 CVE-2026-97953: Add CVSS 3.1 score (7.0 HIGH)
+de40322154264c4a4e3f7363c83071dbe69e31e6 CVE-2026-98030: Add CVSS 3.1 score (7.0 HIGH)
+731fb405602449a70874067e498e7dbd355864be CVE-2026-98029: Add CVSS 3.1 score (7.0 HIGH)
+296cadb7669d84826aa0c22884d5734dc84df7ff CVE-2026-98027: Add CVSS 3.1 score (7.0 HIGH)
+a7f3f6e68e68aafaa2a88fe1b575052b94f044be CVE-2026-98023: Add CVSS 3.1 score (7.8 HIGH)
+0664dc4905b5d07702c432c21afb9ee1911f1ee2 CVE-2026-98002: Add CVSS 3.1 score (7.8 HIGH)
+4e58e9e5d56db01d0d64e1166265d67758b564f4 CVE-2026-98017: Add CVSS 3.1 score (7.8 HIGH)
+2766c6c6bf5f1f1459976584404bad762bac2804 CVE-2026-97991: Add CVSS 3.1 score (7.8 HIGH)
+e9fc2ca36c39f9cfd145d3752bb902259833741e CVE-2026-97957: Add CVSS 3.1 score (8.8 HIGH)
+4e0ba6658495d5fb12492baa44f9e87b29927aad CVE-2026-97971: Add CVSS 3.1 score (7.8 HIGH)
+f618dc9893466b58f2047c7376676c3d805edda9 CVE-2026-97940: Add CVSS 3.1 score (7.8 HIGH)
+b9a059456b4c639ef1c30ccb3fcc73805f24bcd3 CVE-2026-97937: Add CVSS 3.1 score (7.8 HIGH)
+bc4edb1cbc2e260799f4486667142de5887f4109 CVE-2026-97941: Add CVSS 3.1 score (7.8 HIGH)
+393c447c94e76e8a2728a31bc2cf446e4c4e8155 CVE-2026-97931: Add CVSS 3.1 score (7.0 HIGH)
+42a33df2890de6add1914e3d050c867a9512fd3e CVE-2026-97926: Add CVSS 3.1 score (7.0 HIGH)
+276475c445eeef11a74f0a9f7255a3c16ed55449 CVE-2026-97903: Add CVSS 3.1 score (7.8 HIGH)
+16a69c25cdbe2f29a12d300a4a29bfae93b637ab CVE-2026-97910: Add CVSS 3.1 score (7.8 HIGH)
+a1c9403e2d2dc930fe8bd10a53b31115173e5383 CVE-2026-97911: Add CVSS 3.1 score (7.8 HIGH)
+2501184b4ec18348f7573eff5fb52d91fbb1b29c CVE-2026-97595: Add CVSS 3.1 score (7.5 HIGH)
+8bc94204e2674318373a3aabd1fdfecf76b1ca91 CVE-2026-97612: Add CVSS 3.1 score (7.8 HIGH)
+3c1a9654aebf08697ec5aec097c3cf606ada56e5 CVE-2026-97611: Add CVSS 3.1 score (7.8 HIGH)
+f49eca420cbf1718b1433ef966091d6f9ee71af0 CVE-2026-97609: Add CVSS 3.1 score (7.0 HIGH)
+e3a2035b7940d7ea068599b6202ef2b7764aea5a CVE-2026-97584: Add CVSS 3.1 score (7.8 HIGH)
+a085c51efcb0d00f3357a8249c9fddf8ec84ea6e CVE-2026-97608: Add CVSS 3.1 score (7.0 HIGH)
+dacff04d9f6237735c0a337ab1c906fe4de92547 CVE-2026-97602: Add CVSS 3.1 score (7.8 HIGH)
+fafb6c9f3213fc23ad7530f16d1bcd1a26ce6807 CVE-2026-97589: Add CVSS 3.1 score (7.0 HIGH)
+99a39d038cc970fa48eae8803a7b64b8a8ed1d40 CVE-2026-97594: Add CVSS 3.1 score (7.8 HIGH)
+f7456f5ad424acd65016d46fa6e54e10c70dec53 CVE-2026-97583: Add CVSS 3.1 score (7.5 HIGH)
+da81f165d3a8ec189888dcbbbd1889d6e2b29486 CVE-2026-97580: Add CVSS 3.1 score (7.8 HIGH)
+d693a465af087b1d9da8f3620ad01920d6a492b3 CVE-2026-97577: Add CVSS 3.1 score (7.8 HIGH)
+0fb7e6fa9e1df05364dfc36aea30929d898e6d8a CVE-2026-97579: Add CVSS 3.1 score (7.8 HIGH)
+6fdee353eadaa2af92ebd958ca087cace26a2f0a CVE-2026-97578: Add CVSS 3.1 score (7.8 HIGH)
+8ee874cbe9b08ed1a544771207de269087ed7687 CVE-2026-97573: Add CVSS 3.1 score (8.1 HIGH)
+dd2f854c567c3584ccf9bb34a593612a1e4f9000 CVE-2026-97570: Add CVSS 3.1 score (8.1 HIGH)
+f5fbe474b26bbb57b9dadf25d144a28c6496f8b6 CVE-2026-97562: Add CVSS 3.1 score (7.5 HIGH)
+7a0f6db602c7b498070ee68055407a896d1b1bc4 CVE-2026-97576: Add CVSS 3.1 score (7.8 HIGH)
+d877b3af9b2be33052c4b0966680bc9f8a7d20c7 CVE-2026-97523: Add CVSS 3.1 score (7.5 HIGH)
+20ff98d3a0d58d3f9c19544798f5a0a9024cbb9f CVE-2026-97557: Add CVSS 3.1 score (7.5 HIGH)
+1a8c594e548c8c7d3e7cd28d6644504fa9acb569 CVE-2026-97575: Add CVSS 3.1 score (7.8 HIGH)
+815e7da2e536cbdf502b84820de8e4e4d75281dc CVE-2026-97555: Add CVSS 3.1 score (8.8 HIGH)
+b4004e20d0c07fcafaf526eb5ff5d88692b6901f CVE-2026-97548: Add CVSS 3.1 score (7.8 HIGH)
+3850cda8258c33bd4556135b458c112f5f912128 CVE-2026-97536: Add CVSS 3.1 score (7.5 HIGH)
+103faa2abf2e7cf489d13bd20c42391873a95527 CVE-2026-97525: Add CVSS 3.1 score (8.2 HIGH)
+3dfcf4ea4e5040d02978adc16797073c07e3c014 CVE-2026-97524: Add CVSS 3.1 score (7.5 HIGH)
+dc780f96070e9529c213591c89d1ec5b33f5664e CVE-2026-97531: Add CVSS 3.1 score (7.5 HIGH)
+6fc6050a966cae1b3f5ea1cae5b4917ab69f8c0c CVE-2026-97528: Add CVSS 3.1 score (8.8 HIGH)
+837ade5c087ecc060c55c11aaeaddc5b5a7f0a6c CVE-2026-97527: Add CVSS 3.1 score (8.8 HIGH)
+f26e8a9e29caa7a5b240164f4cf6eb224fe17d69 updates based on cvss update.
+
+--===============3967728195626765979==--
