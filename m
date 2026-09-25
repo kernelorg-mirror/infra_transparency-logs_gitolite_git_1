@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 25 Sep 2026 15:34:05 -0000
-Message-Id: <179035044544.1494172.16668363448603026897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Fri, 25 Sep 2026 15:34:19 -0000
+Message-Id: <179035045903.1494415.14004824195590684415@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 2d3135cdedfe26e0867a3f45a273dcdbf3bdbe86
-    new: bbdded9a41fb38aee3bf2640021d35bbdb3c5f5f
+  - ref: refs/heads/for-next
+    old: 8d37f20173a2760718bb02b58bafc5a7cac93d67
+    new: 0fc424b6a8ef447450f6087db42abce3a6feb328
     log: |
-         bbdded9a41fb38aee3bf2640021d35bbdb3c5f5f perf test workload: Use unsigned int in code_with_type instead of uint
+         0fc424b6a8ef447450f6087db42abce3a6feb328 gpio: wcove: use regmap_assign_bits() for conditional set/clear
          
