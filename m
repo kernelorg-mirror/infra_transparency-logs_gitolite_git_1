@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4005011055564561468=="
+Content-Type: multipart/mixed; boundary="===============8321379884228937862=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 25 Sep 2026 15:26:27 -0000
-Message-Id: <179034998741.1488810.10376631837171823188@gitolite.kernel.org>
+Date: Fri, 25 Sep 2026 15:26:31 -0000
+Message-Id: <179034999116.1488996.3426128372089850449@gitolite.kernel.org>
 
---===============4005011055564561468==
+--===============8321379884228937862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 10cfa109c880092df32e396647b4afdca9be8350
+  - ref: refs/heads/pending
+    old: 4898bb64758ec8c84b482864335f6ee796c570ae
     new: 8637c54300cf71fb7e0f8f402b4393e0b73d0a11
-    log: revlist-10cfa109c880-8637c54300cf.txt
+    log: revlist-4898bb64758e-8637c54300cf.txt
 
---===============4005011055564561468==
+--===============8321379884228937862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10cfa109c880-8637c54300cf.txt
+Content-Disposition: attachment; filename=revlist-4898bb64758e-8637c54300cf.txt
 
 bf7c19e231e2f48cafddbe3f4c2a2f5b6184b55f wifi: ath12k: move dp_profile_params to dp.h
 eaff19e86c2dbde320ccc8812cafb0a366dc65f4 wifi: ath12k: convert DP_TX_COMP_RING_SIZE to inline helper
@@ -53,4 +53,4 @@ c8f83d3389d1d1b318ac3bd2ae3d60c2862c90b4 wifi: ath12k: fix out-of-bounds access 
 640240adbde5ecbbbc5afab5d72d89d7dd68347f wifi: ath12k: fix 1-based ring index in REO Rx Received debugfs output
 8637c54300cf71fb7e0f8f402b4393e0b73d0a11 wifi: ath12k: add WBM SW desc fallback counter
 
---===============4005011055564561468==--
+--===============8321379884228937862==--
