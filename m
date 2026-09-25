@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0333235794121443038=="
+Content-Type: multipart/mixed; boundary="===============8394996565573769051=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Fri, 25 Sep 2026 14:13:59 -0000
-Message-Id: <179034563908.1314630.5603687452633420347@gitolite.kernel.org>
+Date: Fri, 25 Sep 2026 14:14:03 -0000
+Message-Id: <179034564326.1314847.1335859461225306980@gitolite.kernel.org>
 
---===============0333235794121443038==
+--===============8394996565573769051==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,36 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-7.4
-    old: f5ef6bed353063f3f55b7ca1f8ededb69f10d2b8
-    new: a78e41fea74fd7ddf8a6a3d2c2d7ec289f0a33d7
-    log: revlist-f5ef6bed3530-a78e41fea74f.txt
+  - ref: refs/heads/for-next
+    old: c32ec1a7017c83b4808c1d8f8c32059b4014a0cc
+    new: 458e7ecd1e75bc5a63025337798d2227a4b0aed4
+    log: revlist-c32ec1a7017c-458e7ecd1e75.txt
 
---===============0333235794121443038==
+--===============8394996565573769051==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f5ef6bed3530-a78e41fea74f.txt
+Content-Disposition: attachment; filename=revlist-c32ec1a7017c-458e7ecd1e75.txt
 
-348a2ae162e5ec2dbab12c226b8240b8271ca444 dt-bindings: clock: qcom: Add GCC video axi reset clocks for Nord
-d9776bd14b982d1df5363088ccdae13410f8c1b1 dt-bindings: clock: qcom: Add video clock controller on Nord SoC
-5897855b0cb5847747f2823dcbbe9b2812c7d0ce dt-bindings: clock: qcom: Add support for Camera Clock Controller for Nord
+9c50d323ca4fe6213b827dc8b13dbb4916613319 dt-bindings: clock: qcom: Add MSM8952 global clock controller
+f24ddc5b6e0620b9ee6a7857e0913a8d059980eb ARM/arm64: defconfig: Drop redundant Qualcomm clock entries
+8ad8005f249ba3cf23c83eb361bf3ac3e0d6c23a arm64: defconfig: Switch Qualcomm SDM845, SM8150 and SM8250 drivers to modules
+7e29666ed24150cfd84e78acda12a103da6170e5 Merge branch '20260921-msm8952-initial-support-v3-1-b96fd3fe298b@mainlining.org' into clk-for-7.4
+f7215f06836bdb293be35e25acd2b52875be075e clk: qcom: Add global clock controller driver for MSM8952
+062b9e57433b77d1971dac83b1b4d243831194be dt-bindings: clock: qcom,rpmcc: Add MSM8952 compatible
+689364ac19e4680e09d100c743f8797da127609a clk: qcom: fix SM6115 lpasscc register offset
+9a120c3a256ddc3dc902a1af8c713abbd32e66c8 dt-bindings: arm: qcom,ids: Add SoC ID for SM7250
+478e7cece2ebceaa6ccb147485447756b502c350 dt-bindings: arm: qcom,ids: Add SoC ID for SM8975
+021af7dbae6d49bc07b87863e991890ce2f60337 firmware: qcom: tzmem: Use DO_ONCE_SLEEPABLE() in qcom_tzmem_enable()
+abb698e1a973869a3f82a604d5ef7c6066f60725 firmware: qcom_scm: handle empty PAS resource table
+8b5af44f53ad08ebdf1872c36ae2b998bf22bb72 firmware: qcom_scm: align PAS resource table retry
+a3100d704fe85f1e07f6ae9b9ff142eddc458454 dt-bindings: firmware: qcom,scm: Document MSM8952 SCM
+dc9a8a8660c804fcb83cbdecbc122bf411257a74 soc: qcom: ubwc: Add UBWC config for MSM8952
+0feb7b39ba2bfe0bc4ab9abc84b55aa79e676133 soc: qcom: use assign_bit() where applicable
+1517efff0e9d21cc4c9cc7ffa1fcc30225e6b069 soc: qcom: pmic_glink: Avoid losing early rpmsg probe
+a97cccbf7a3025df41fa49d894c4e118594f046d dt-bindings: sram: describe the IPQ5424 IMEM as mmio-sram
+1d2399ee88d24b9c14d8020e36ac5e3c43bd2588 dt-bindings: cache: qcom,llcc: Add Nord compatible
+cb85751e5e47ecc68806f6d78b0bbae6e699ee09 soc: qcom: llcc: Add LLCC configuration for Nord
 b8009b661da71d345e671a21f0cdd5dfc3785fa8 dt-bindings: arm: cpus: Add Oryon PartNum 3 CPU compatibles
 691a5772431aac2b36e1d9e6f855b2e2900db828 Merge branch '20260730-gpucc-hawi-v2-1-7bf618ab8a34@oss.qualcomm.com' into HEAD
 aa713844406b50324e889f1f7024be116f119eb7 Merge branch '20260915-camcc-hawi-v3-1-5b57f45477f1@oss.qualcomm.com' into HEAD
@@ -84,5 +100,6 @@ a88a75904f540518986f40b3e9e0162a671071b7 arm64: dts: qcom: qcs8550: Add IMDT QCS
 4ce3c32570a1efa5a096499ea03f5be2bd560731 arm64: dts: qcom: qcs8550: Add IMDT QCS8550 SBC
 1ad5224efa2233ffb80a5445d9553027bb22938b arm64: dts: qcom: qcm6490-idp: Add IPA node
 a78e41fea74fd7ddf8a6a3d2c2d7ec289f0a33d7 arm64: dts: qcom: shikra: Add support for AudioCoreCC and AudioCoreCSR nodes
+458e7ecd1e75bc5a63025337798d2227a4b0aed4 Merge branches 'arm64-defconfig-for-7.4', 'arm64-fixes-for-7.3', 'arm64-for-7.4', 'clk-fixes-for-7.3', 'clk-for-7.4', 'drivers-fixes-for-7.3' and 'drivers-for-7.4' into for-next
 
---===============0333235794121443038==--
+--===============8394996565573769051==--
