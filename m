@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Fri, 25 Sep 2026 13:58:00 -0000
-Message-Id: <179034468052.1302875.11922094626337357403@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 25 Sep 2026 14:03:49 -0000
+Message-Id: <179034502940.1306967.14893004973557732417@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: masneyb
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/clk-next
-    old: 3a7da2927834f9fbf79772e6418df0303877bcb8
-    new: 0f5cf38af7beb9dd3ca6fa468dd765bf54e9e249
+  - ref: refs/heads/hwmon
+    old: eddb0aaacce4baa9d8176eb2f4bd9e99e867f8fc
+    new: e463cd582ca125e359ad1a66cb076434c14638b2
     log: |
-         faa5022a9b122262152e7328142a6f628d2bea9d MAINTAINERS: name the clk/linux clk-next branch
-         af384d6e0573b416a7a28e0ab6300d797cae369d clk: starfive: jh7110-vout: Allow pixel clock rate propagation
-         0f5cf38af7beb9dd3ca6fa468dd765bf54e9e249 Merge branch 'clk-pile' into clk-next
+         e463cd582ca125e359ad1a66cb076434c14638b2 hwmon: (coretemp) Refresh the temperature on the first read
          
