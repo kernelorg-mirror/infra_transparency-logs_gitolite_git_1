@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0691194076228240612=="
+Content-Type: multipart/mixed; boundary="===============5641939433369157795=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 25 Sep 2026 03:12:32 -0000
-Message-Id: <179030595277.778907.4389463567401839993@gitolite.kernel.org>
+Date: Fri, 25 Sep 2026 03:12:35 -0000
+Message-Id: <179030595540.779002.15409813627459103488@gitolite.kernel.org>
 
---===============0691194076228240612==
+--===============5641939433369157795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.1.13/nfs-testing-canary
-    old: 2a35f7b731ce724a22c8f30685df250ce329045c
-    new: 39d96f0f07dde65c1e7fe52d1bf71b6534d6aee3
-    log: revlist-2a35f7b731ce-39d96f0f07dd.txt
+  - ref: refs/heads/kernel-7.1.13/nfs-testing-canary-reduce-i_lock-contention
+    old: c06cabbc89d276bca201e7afd8b474b4689725d3
+    new: 2894b8952dcf41acaee4ce7908cc6e6d7f780fb5
+    log: revlist-c06cabbc89d2-2894b8952dcf.txt
 
---===============0691194076228240612==
+--===============5641939433369157795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a35f7b731ce-39d96f0f07dd.txt
+Content-Disposition: attachment; filename=revlist-c06cabbc89d2-2894b8952dcf.txt
 
 d795a13ba754b9b768ba6d83ef23c0dc14e7ed49 NFS/localio: detect a short read or write before the iterator has moved
 959ad2b148193a3af80bfe42847abdc330c3cdfc NFS/localio: report the stability a DIO WRITE actually has
@@ -46,5 +46,14 @@ ec194b7e2973be33b55696e2cdd70704490f685f NFSv4/flexfiles: give each direction it
 46b18979a34c3c433cb3679c9000ca4ee3c5a310 NFSv4/flexfiles: drop NFS4_FF_MIRROR_STAT_AVAIL
 84b40f2d37bba3c40e2004fea249e497845871ee NFSv4/flexfiles: rotate LAYOUTSTATS reporting across a mirror's stripes
 39d96f0f07dde65c1e7fe52d1bf71b6534d6aee3 NFSv4/flexfiles: take the report decision out of the critical section
+09c0cd37b74b2e4ad9c513514003a41d4f7d2071 NFS: don't take inode->i_lock twice per direct I/O for the opening owner
+47dbaa0e3c8795d24dadd515219fc244e6b042e6 NFS: take inode->i_lock in O_DIRECT write completion only when needed
+2de64db8888ce65d892546c3b70b97bc80d33e0e NFS: skip inode->i_lock for WRITE replies that cannot change the inode
+e1f30844eea1d46f2c608aeedb35a1aca5ae7287 NFS: don't take inode->i_lock to re-mark a stale atime
+1ac4369dea9e0d9acee8048c464025992d296b23 NFS: check for a delegated atime before taking inode->i_lock
+ec54d06a1940874b722690add0a80233dd5fb484 NFS: skip inode->i_lock when a delegated timestamp is already current
+0dfaac9408b39821261b6c42d287ca3a6cda31ce pNFS/flexfiles: don't take inode->i_lock to release empty commit info
+dd8608fd35e5e9d2d5b6aaffb9426cacda190a10 pNFS/flexfiles: look up the cached layout segment without inode->i_lock
+2894b8952dcf41acaee4ce7908cc6e6d7f780fb5 NFS: invalidate LOCALIO direct-write post-op attributes at completion
 
---===============0691194076228240612==--
+--===============5641939433369157795==--
