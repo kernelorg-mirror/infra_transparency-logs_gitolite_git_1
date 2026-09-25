@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Thu, 24 Sep 2026 23:51:26 -0000
-Message-Id: <179029388625.627510.14065892401043855578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 25 Sep 2026 00:11:41 -0000
+Message-Id: <179029510126.641651.9468297088342557489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/pmdfree
-    old: 9c26a717a6985b106ab675001d7b6be4d9c1a7f6
-    new: 4993fe3770179689fb86381e07553f1df26ea3e0
+  - ref: refs/heads/master
+    old: ee9c669f9bf5fd2c24206746ded9382fe810df89
+    new: 165768bb70265b5c38cf0b73fafd75be235f8b14
     log: |
-         4993fe3770179689fb86381e07553f1df26ea3e0 x86/mm: Drop unnecessary PMD page copy when freeing
+         c6b51091cafff9ce6c03c1416aa13864d17ab97c firewire: cdev: fix back-transition for iso_resource_auto client resource
+         165768bb70265b5c38cf0b73fafd75be235f8b14 Merge tag 'firewire-fixes-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
          
