@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Fri, 25 Sep 2026 16:15:50 -0000
-Message-Id: <179035295041.1532031.4585756122938338671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 25 Sep 2026 16:17:58 -0000
+Message-Id: <179035307885.1532714.10430282078973518785@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/socfpga_dts_for_v7.4
-    old: 30992cbca72d3bc8c17093b814f7ee6e49abce2e
-    new: 4f4037d145f7ff312fd08b031e3a7a9a5ad19ed4
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 906af9e1c974a43eda25526c1046f0f4814961f1
+    new: 528b1475f9cffbaffb37f490e86780662471ef3f
     log: |
-         55f00c6c16a674887c8d4440d3a14c7abed3c717 dt-bindings: firmware: Add interrupt specification for Intel Stratix 10 Service Layer
-         4ca4b35f9dbfbd8c505ff791716eb358999fe468 dts: stratix10: Add support for SDM mailbox interrupt for Intel Stratix10 SoCFPGA
-         116516add141095098ce697650991f5702d72016 dts: agilex: Add support for SDM mailbox interrupt for Intel Agilex SoCFPGA
-         be8eebf225003e958fc5900eab5f6bb601e0ad6f dt-bindings: arm: altera: Add Agilex5 SoCDK TSN Config2 board
-         4f4037d145f7ff312fd08b031e3a7a9a5ad19ed4 arm64: dts: socfpga: agilex5: Add SoCDK TSN Config2 board
+         a6ac1e9ca936b20fc450dda79ab834e93678f8d8 perf dwarf-aux: Bound the type chases for broken debug info
+         3dfdd195c7e45f5a6b85dd2b6e3722610dbd5bf5 perf dwarf-aux: Add die_same_file() and die_get_type_die()
+         14ca0a28de37849afdda6ffd4c9047f58d8906c2 perf annotate-data: Resolve type DIEs in the debug file they came from
+         02ee4666a0cdeaa1cda4c46293aa367a344971ca perf annotate-data: Bound the member nesting recursion
+         010147f87a0c0e940fe8bf14abbd20c0224d58de perf mem record: Request PERF_SAMPLE_CPU by default
+         528b1475f9cffbaffb37f490e86780662471ef3f perf mem record: Use the IBS swfilt filter when available
          
