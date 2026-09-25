@@ -1,27 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 25 Sep 2026 12:42:35 -0000
-Message-Id: <179034015532.1248776.14075616917070977210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Fri, 25 Sep 2026 12:44:08 -0000
+Message-Id: <179034024876.1249577.12581534170868685794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: fcf1fccdc9d5d7fe463c6c1869c9af6edbdd59eb
-    new: d227b45fc162ce9134bb96f33f71e6952ec36ea5
+  - ref: refs/heads/b4/mali-c55-renesas-dts
+    old: 4d34d94315fcb660e8ebfff61703c007cf60e338
+    new: de4ee5ee69f393f70aacd60494437253c8c9c4fb
     log: |
-         fe529886843f451ad6da7e65d53325432e0f80fb perf llvm: Fix memory leak of args->fileloc in symbol__disassemble_llvm()
-         1a097d93caf62c4e6c834bff81609512070e5008 perf jevents: Limit the number of JSON reading workers
-         da5f6a6a3221d3841dd0b12f9de8e5d0a2453f21 perf test: Fix errors when deleting data in 'perf record' tests
-         79b617136e9d2da52f61cb67f2b30d769312c379 perf test: Fix record tests on Intel Broadwell
-         9d86dd191dbd2636619543d2e84c85d7e465b8c9 perf test: Fix record tests on hybrid machines
-         97e94e5c5af1aef53f2fefd00641a5407cf282a9 perf test: Fix PMU metric parsing tests for unknown literals
-         60d454456f1d3cb1e09f1e07763d96f80dc4c567 perf tools: Remove unused empty help-unknown-cmd.h header
-         7e27239d2230394a797e2791bccf7ad24fc45c43 perf symbols: Apply the symfs flat layout to the composed filename
-         d227b45fc162ce9134bb96f33f71e6952ec36ea5 perf machine: Add session back pointer to fix out of bounds read
+         a78fa82cb71b3808c4e79a5e836c6c4b9ef457a9 arm64: dts: renesas: Enable ISP and IVC on RZ/V2H EVK
+         6f100bad0c228eddcb0bb59ec87a939edd0a7bbd dt-bindings: media: renesas,r9a09g057-ivc: Describe additional interrupts
+         54d2ea97bc41cf4e465aae17c2ded07e1d7fdeee dt-bindings: media: arm,mali-c55: Describe DMA line-tick interrupts
+         fd710d1af243c954c182bdb6775a763927a76bf3 arm64: dts: renesas: r9a09g057: Add IVC and ISP nodes
+         de4ee5ee69f393f70aacd60494437253c8c9c4fb arm64: dts: renesas: r9a09g057h44-rzv2h-evk: Add ISP and IVC nodes
          
