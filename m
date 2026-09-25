@@ -1,23 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Fri, 25 Sep 2026 12:44:08 -0000
-Message-Id: <179034024876.1249577.12581534170868685794@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7853000370699645538=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 25 Sep 2026 12:46:03 -0000
+Message-Id: <179034036380.1252474.15674182025593019286@gitolite.kernel.org>
+
+--===============7853000370699645538==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/mali-c55-renesas-dts
-    old: 4d34d94315fcb660e8ebfff61703c007cf60e338
-    new: de4ee5ee69f393f70aacd60494437253c8c9c4fb
+  - ref: refs/heads/master
+    old: 26a2a9360567bef153f85ced621e0ff3c3732877
+    new: aa36469a60dfa95b336d76095e08f6b8e56737be
     log: |
-         a78fa82cb71b3808c4e79a5e836c6c4b9ef457a9 arm64: dts: renesas: Enable ISP and IVC on RZ/V2H EVK
-         6f100bad0c228eddcb0bb59ec87a939edd0a7bbd dt-bindings: media: renesas,r9a09g057-ivc: Describe additional interrupts
-         54d2ea97bc41cf4e465aae17c2ded07e1d7fdeee dt-bindings: media: arm,mali-c55: Describe DMA line-tick interrupts
-         fd710d1af243c954c182bdb6775a763927a76bf3 arm64: dts: renesas: r9a09g057: Add IVC and ISP nodes
-         de4ee5ee69f393f70aacd60494437253c8c9c4fb arm64: dts: renesas: r9a09g057h44-rzv2h-evk: Add ISP and IVC nodes
+         aa36469a60dfa95b336d76095e08f6b8e56737be updates based on new .vulnerable files
          
+
+--===============7853000370699645538==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790340357 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1790340360-dc667550f9a99e3ff583ccb74eae51711e8c0ccc
+
+26a2a9360567bef153f85ced621e0ff3c3732877 aa36469a60dfa95b336d76095e08f6b8e56737be refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq2bQUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VboP/iuZVafgO9eEbo/zjaWL
+THGy7cFjOC3oiz15PBu8gknQfITB3j0d7ymya1jMRzDUlhdwU0ZBTx0863Ik2xq9
+L/6wvJlUygNpePll/oG7Ju8lx28a7vuWxo4jeB9KmiEYTugLoroz2WwPmNXtIAP0
+bYgQlaeQFcQpSaIsz8vgYEvAOUbZisWRSBN+Yt/dlFwXkN5aUFSNAAHIk8pkXY+v
+S9rogoncAyNxb/cM4Sxj1JxlAA/KdwfJ4fkYT8wGQJe6ypi+8XR1NAhEXjeJ8aEZ
++hS1+ka48GhhW2OVwRchRoMP6bwym3Vn57P9c19FTPvAAUELfMoZn6dSvdC1K2ge
+zoTPre6Ntry7RTdjezf38nrctf8YOM9GQ6SLT+RQptaAXhBW/dL1UqdgD4RdRXv8
+J6MqufaM8p+zEHX8XgvpkNd3E8tQdyG7ED+dD5SCBTqgv70MyLaDsRjIdF+beiqh
+sAyLrhhJGEEzzJfpxqUMnzCcgY+m6PRBBI4YlpMtI0eR2/0yXBeiJMu9OKNFwoZd
+hH609aLuuzW3XxqsKIkU3ZwQ9L6UT1NHjxMxV1f4EQoEWhDHmdLnM5HALLq79653
+oVtbhbQFoexcyouZsmu362P55GwlsD5AeeI/xigU0kyPJyjrBvTy2lYeKNg8Zzj+
+etnjeTWryG/lFFY3XVuy3k+E
+=0iq8
+-----END PGP SIGNATURE-----
+
+--===============7853000370699645538==--
