@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4128154414544479369=="
+Content-Type: multipart/mixed; boundary="===============5445070076480602844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 25 Sep 2026 13:30:59 -0000
-Message-Id: <179034305941.1284624.8265514875275055977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 25 Sep 2026 13:31:14 -0000
+Message-Id: <179034307491.1285030.2414902551460683565@gitolite.kernel.org>
 
---===============4128154414544479369==
+--===============5445070076480602844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: aa9265d5073cb01b89f31ae030442873d4a259d3
     log: revlist-d227b45fc162-aa9265d5073c.txt
 
---===============4128154414544479369==
+--===============5445070076480602844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ f4a58c7164957e73df36ed24c42b0b9b713a43b3 perf tests c2c: Report skip when the wo
 0d91c10f8897c222f25d2d61d04a82dbb8d35892 perf tests c2c: Add function view stdio coverage
 aa9265d5073cb01b89f31ae030442873d4a259d3 perf evlist: Don't restrict uncore events to PMU CPUs
 
---===============4128154414544479369==--
+--===============5445070076480602844==--
