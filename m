@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 25 Sep 2026 16:59:06 -0000
-Message-Id: <179035554638.1567654.15836697593744950750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 25 Sep 2026 17:05:54 -0000
+Message-Id: <179035595457.1573855.8743288466168676989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 6c743bf1a00df5cec8684f3518e91b50854ebeb0
-    new: 6bd7a6cf6805e03acb59985cddfef8fc49bb5cc9
+  - ref: refs/heads/for-7.3
+    old: fbb13f2483e5aff94e1829bb6dd1d0514ddcfccf
+    new: c5a8fc2abe05cf6db71f57ff0177fddc59861a1a
     log: |
-         62d6cb1f7de0f88c6f13415e0cdb413b09cdf348 ACPI: Add stub for acpi_find_child_device()
-         c83c8d2675c85327a8357ccfd93e2ee66260a6ae Merge branch 'acpi-driver' into bleeding-edge
-         33392343c74e417375b87032c66078a3bbc1dc91 PM: sleep: Add DPM watchdog to prepare/late/early/noirq/complete phases
-         6bd7a6cf6805e03acb59985cddfef8fc49bb5cc9 Merge branch 'pm-sleep' into bleeding-edge
+         c5a8fc2abe05cf6db71f57ff0177fddc59861a1a ASoC: Intel: bytcr_rt5651: Add quirk for Chuwi Hi8 with generic DMI strings
          
