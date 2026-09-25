@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 25 Sep 2026 15:33:37 -0000
-Message-Id: <179035041790.1493482.9528508347992984184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 25 Sep 2026 15:34:00 -0000
+Message-Id: <179035044012.1493846.6836109540015870216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 44bc8278c35744ca84d56f190df5d81a6eea263b
-    new: f4cb9de4d06b930bbce7a8d4b64229c7cecf479d
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 2d3135cdedfe26e0867a3f45a273dcdbf3bdbe86
+    new: bbdded9a41fb38aee3bf2640021d35bbdb3c5f5f
     log: |
-         84df269bb21ec433e04537281336ce085ff9dd6e driver core/ACPI: Introduce companion_bus_register()
-         f4cb9de4d06b930bbce7a8d4b64229c7cecf479d Merge branch 'acpi-bus' into bleeding-edge
+         bbdded9a41fb38aee3bf2640021d35bbdb3c5f5f perf test workload: Use unsigned int in code_with_type instead of uint
          
