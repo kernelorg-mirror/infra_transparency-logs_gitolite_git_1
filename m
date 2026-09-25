@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 25 Sep 2026 02:37:13 -0000
-Message-Id: <179030383334.752772.11135155472456890169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 25 Sep 2026 02:50:19 -0000
+Message-Id: <179030461999.764097.7568205671718479984@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: kkd
 changes:
-  - ref: refs/heads/for-next
-    old: ba5cb7d17288178fe3b8ebb39cfc19ba7dbddd79
-    new: 51455305b0d6ab5a3432e0d7858f4e73f397cc95
-    log: |
-         5a84b4424db8ae07f0ac682ab031c37a91dce50b bpf: Fix uninit read for non-fetch atomics on partially spilled slots
-         51455305b0d6ab5a3432e0d7858f4e73f397cc95 selftests/bpf: Test non-fetch atomic on a narrow stack spill
-         
   - ref: refs/heads/master
-    old: ba5cb7d17288178fe3b8ebb39cfc19ba7dbddd79
-    new: 51455305b0d6ab5a3432e0d7858f4e73f397cc95
+    old: 5fc5768c7ca92895ccd1de94dc521e5a55ae7896
+    new: ad139384ecddb6f3e7e3c3c12765aafae0e39670
     log: |
-         5a84b4424db8ae07f0ac682ab031c37a91dce50b bpf: Fix uninit read for non-fetch atomics on partially spilled slots
-         51455305b0d6ab5a3432e0d7858f4e73f397cc95 selftests/bpf: Test non-fetch atomic on a narrow stack spill
+         ad139384ecddb6f3e7e3c3c12765aafae0e39670 bpf: Fix overflow of jump offset in constant blinding
          
