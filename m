@@ -1,23 +1,54 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Fri, 25 Sep 2026 14:18:23 -0000
-Message-Id: <179034590321.1318471.5211195111036362502@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4937167951473336285=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 25 Sep 2026 14:19:16 -0000
+Message-Id: <179034595616.1319037.2457176670135909876@gitolite.kernel.org>
+
+--===============4937167951473336285==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 26d9c85d8a17f0546c2c901a0c846c4333bf7ca3
-    new: 7fbd9a5319c33204a719294d90c08abb15a5a46c
+  - ref: refs/heads/work.mount.knullfs
+    old: 727cc9812017874b1782a1431ff8f4a13c01f193
+    new: 1d3534f6da27a04045e2d3b2ed915babd6e5bffa
     log: |
-         1a61afc42cff8397cbc430666cf4ce9dec72e076 dt-bindings: remoteproc: qcom,pas: add #cooling-cells property
-         2ff581c2185c3797fae2725537c7de1da3bc89fd soc: qcom: Add QMI TMD support for remote thermal mitigation
-         8eef721027127b7bd8ec06246bf1bbd975dc5f64 remoteproc: qcom: pas: add support for TMD thermal cooling devices
-         586a2fadadb160295a93e5d5d32db1a2558a4d3f remoteproc: qcom_q6v5_pas: enable QMI TMD cooling support
-         7fbd9a5319c33204a719294d90c08abb15a5a46c Merge branches 'rpmsg-next', 'rproc-fixes' and 'rproc-next' into for-next
+         7656dd9b241d98d1056206d096bc5117ea45eabb namespace: don't inherit MNT_UMOUNT in clone_mnt()
+         1984683adadb51d4d0ae5d80b006983b7f7b0842 namespace: refuse to copy an unmounted mount tree
+         23f997ff3f89ec6af33630a98795652ea01ea1e3 namespace: check the target before walking it in do_mount_setattr()
+         06ca0a9c6bebf038e62a6fee61f864c3cdd4ba0d namespace: prevent UMOUNT_CONNECTED reference count cycles
+         01320036697621856240a32e81cee24ae426d3e1 selftests/filesystems: check that a loop mount below a dead mount is released
+         2779b8d282944be265989e97c180d5109139e7d3 selftests/filesystems: check the two-step cycle over crossed loop images
+         6bfe02ede30de0d5b3906e59cc802a2b3d7f4030 selftests/filesystems: check that the holders let go of a dead mount
+         14c065f1b91af26db63b56d30f12f49c67bcc3bc selftests/filesystems: check that an unmounted mount tree is refused
+         1d3534f6da27a04045e2d3b2ed915babd6e5bffa namespace: prevent UMOUNT_CONNECTED reference count cycles
          
+
+--===============4937167951473336285==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 0x91C61BC06578DCA2! 1790345954 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+nonce 1790345953-17c1279cc76f279365522e377e6c23f6d1226679
+
+727cc9812017874b1782a1431ff8f4a13c01f193 1d3534f6da27a04045e2d3b2ed915babd6e5bffa refs/heads/work.mount.knullfs
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCaraC4gAKCRCRxhvAZXjc
+or8oAQCf1JkXaxtHmW0rCTv7DYODfpwhHFhPfH+spttGNmKbdQD/caHgy7/yiPja
+TJNSCaXR+4TXdpajm6rTRz72DEORpAA=
+=vUyC
+-----END PGP SIGNATURE-----
+
+--===============4937167951473336285==--
