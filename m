@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 25 Sep 2026 10:08:38 -0000
-Message-Id: <179033091881.1135032.3454592229246635800@gitolite.kernel.org>
+Date: Fri, 25 Sep 2026 10:08:42 -0000
+Message-Id: <179033092243.1135223.5666188550877475098@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: 5626653a4bdf32812d66b970860677cd9d7a2190
-    new: 286ece639c3753ff929b219452391134e611823a
+  - ref: refs/heads/regulator-7.4
+    old: 05a3330f490cfa266831c0fc7f8c6df942866d59
+    new: b9205f0837ca91a0bbe6aa9002207656840c1406
     log: |
-         286ece639c3753ff929b219452391134e611823a ASoC: use regmap_assign_bits() for conditional set/clear
+         b9205f0837ca91a0bbe6aa9002207656840c1406 regulator: core: Fix coupled regulators reference leak on removal
          
