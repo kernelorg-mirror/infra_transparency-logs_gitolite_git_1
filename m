@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Fri, 25 Sep 2026 19:07:29 -0000
-Message-Id: <179036324949.1670332.17994395612569832755@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Fri, 25 Sep 2026 19:08:03 -0000
+Message-Id: <179036328305.1670647.15299329301339588000@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
+user: pcmoore
 changes:
-  - ref: refs/heads/for-next
-    old: 9d5381596b0c4b03c7cd1babed9748189abf6ad2
-    new: d5a69c7cd397fc087381418f713079800a4fc358
+  - ref: refs/heads/next
+    old: c826e60aeda518dded246fc9ee154dc31d01773d
+    new: f2b37cf384b0111b975239f4dc75930368023058
     log: |
-         59951bd9c6b63d4d98539db96becef729ad60b4a regulator: core: Export helpers used by regulator couplers
-         9048d2416b0923e88c07db585fd47034c6b95dad regulator: Allow mtk-regulator-coupler to be built as a module
-         476d1015f221f0c0af794eff159c5a8624de6d71 Merge regulator-linus into regulator-next
-         d5a69c7cd397fc087381418f713079800a4fc358 Merge regulator/for-7.4 into regulator-next
+         1ca924044bf0de879a1648be93a56939652267d3 selinux: fix data race on AVC latest_notif
+         f2b37cf384b0111b975239f4dc75930368023058 Automated merge of 'dev' into 'next'
+         
+  - ref: refs/heads/stable-7.3
+    old: 93f51579e7df248780214094418f205253383cc5
+    new: 1ca924044bf0de879a1648be93a56939652267d3
+    log: |
+         1ca924044bf0de879a1648be93a56939652267d3 selinux: fix data race on AVC latest_notif
          
