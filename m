@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 25 Sep 2026 18:26:34 -0000
-Message-Id: <179036079471.1638029.11272394626505967196@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 25 Sep 2026 18:33:30 -0000
+Message-Id: <179036121073.1642245.11301360855193956842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-next
-    old: 0767f530c0e72a19f8d07560a2187867a4bddfcb
-    new: e1ae9e412b9f1c79a1a9e8cc7dfdb83443546bdb
+  - ref: refs/heads/sched/core
+    old: e4c353c3933968fe8efecb269fdbe3baa1d1ddd0
+    new: 627ea30aca3b309af40cdd07a35eb1027ba4a0bc
     log: |
-         7c7df141dcabaa5370b5e52a9d64e2c1ea13a338 ASoC: sdw_utils: clear stale RT711 device reference on exit
-         6f15577d8f4639a82522838bb505e5ff65f30088 Merge asoc-linus into asoc-next
-         e1ae9e412b9f1c79a1a9e8cc7dfdb83443546bdb Merge asoc/for-7.4 into asoc-next
+         627ea30aca3b309af40cdd07a35eb1027ba4a0bc sched/wait: Clarify WF_SYNC wakeup semantics
          
