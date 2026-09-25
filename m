@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1922058447276078552=="
+Content-Type: multipart/mixed; boundary="===============2178357770096914701=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 25 Sep 2026 15:59:34 -0000
-Message-Id: <179035197472.1517331.8304919650883443077@gitolite.kernel.org>
+Date: Fri, 25 Sep 2026 15:59:49 -0000
+Message-Id: <179035198993.1517641.1816678975307949497@gitolite.kernel.org>
 
---===============1922058447276078552==
+--===============2178357770096914701==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/task_h_load
-    old: 4cbbcdc1a5585407e918e633887e57d978ddf0c6
-    new: ef80f56c1c38450739648c841c00fbd2f6f6d860
-    log: revlist-4cbbcdc1a558-ef80f56c1c38.txt
+  - ref: refs/heads/sched/hackery
+    old: 312c23a8d476a8f31cad58181b12950e9662a45c
+    new: 193edb2bf5d205a9e179533a7da45096eeb4aa6a
+    log: revlist-312c23a8d476-193edb2bf5d2.txt
 
---===============1922058447276078552==
+--===============2178357770096914701==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4cbbcdc1a558-ef80f56c1c38.txt
+Content-Disposition: attachment; filename=revlist-312c23a8d476-193edb2bf5d2.txt
 
-a0d356696f87700c8c2934e3881277b0d37f0b71 sched_ext: scx_qmap: Do not add IMMED to rescue inserts
-63b4ff622244483e7c530e97d787a3d6c2c38a33 sched_ext: scx_qmap: Place only on cids whose caps are in effect
-c6709d5e14072d0e3d02f291daee46a199e5dad3 rust: num: seal Integer
-1fc5a74b108fc90951890ec513ac81869f5eaff1 Merge tag 'kmalloc_obj-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-c3fd8e5fd100f122bad503bdc0e9277219533253 bpf: Reject non-scalar bpf_loop iteration counts
-bde8901ea14244e7195a2d6b6aa2023b28d4233c selftests/bpf: Test pointer bpf_loop iteration count rejection
-fd5348b434c53c34de5a9b3c67a1516309b6a73c Merge branch 'fix-bpf_loop-syzbot-report'
-662ade4de9ff5eceb0820a9f8e9fac70ba6a815b RDMA/ucma: Serialize join and leave on copy_to_user failure
 9a141d3dc869d18b2eab35e999f4790a9b84e40f IB/IPoIB: Avoid restoring OPER_UP after multicast flush
 402a9d6aab7ac787ab075adeb562c3db8b8f564b ALSA: caiaq: Decoupling ep1_in_urb in caiaq dev
 07b01b0d8ac4b5f89cbe74e52376221f21db260d ALSA: usb: ua101: Avoid embedded URBs
@@ -1045,10 +1037,18 @@ aae2a33ea66299f39252bc1891bb4f05f631255d sched/eevdf: Ensure that vprot will nev
 4bf32ec3327d2d2286e96508cd128ce1592f43ce sched/eevdf: Align update_protect_slice to set_protect_slice
 d2e0100827578641df2f85546bdb57bb1d8ff55b sched/eevdf: Handle more short slice waking cases
 e4c353c3933968fe8efecb269fdbe3baa1d1ddd0 sched: Clarify WF_SYNC wakeup semantics
-9ac61917cc989efc2498bfac95f049914f9f8105 Merge branch 'tip/sched/urgent'
-8d7696335f650f113df4d2aa07f08f79feae3469 sched: Rename/clarify sched_class::task_tick(.queued) argument
-d1373fcff1552e3eee8276b6deb576352599de74 sched/fair: Fold cfs_rq_of(se) into for_each_sched_entity()
-aa6f1753373d8612e13fadcf5731d841c014dc81 sched/fair: Extend for_each_sched_entity() with a back-link
-ef80f56c1c38450739648c841c00fbd2f6f6d860 sched/fair: Rework/fix task_h_load()
+1877c4c28846a81f1d7abfc3a559dc55ab1b8d7a Merge branch 'tip/sched/urgent'
+ef64ed98e72391246dbb0e7ee85e31280e5fb4a6 sched/core: Fix pick_next_task() self recursion
+f98d3fa9a251bcb466f135eef21affd9c883f150 sched/core: Introduce rq_drop_lock()
+c6221276059da715f170568c929e488cf2486070 sched/core: Decompose update_rq_clock()
+a11e5a23e1b478f084d92cb156e5ca03b4ac5560 sched/core: Make __update_rq_clock() skip updates on UPDATED
+de7a51d0ecd7bf31c00b86c7b5354876d8d4b90c sched/core: Abstract/fix rq_clock_start_loop_update()
+dc7b97b4d05b7b7ba44eb853e5ba30b08772ffe4 sched/core: New rq_{pin,drop,repin,unpin}_lock() semantics
+0f0edea1b2fe90aaf3c8114e797e106b1f1040de sched/core: Simplify/fix time updates
+b220328937d56181a6865aa7042c06c64cdbebee sched/core: Allow newidle for core-sched
+1adb27e44bab495c058ba445c6136ed3e5d3f901 sched/rt: Add early exit on balance path
+fc05ecc0097a91fb3ca673628d10990facb1faeb sched/fair: Reflow pick_task_fair() / newidle
+3aca692045e6d3837c2ccca292c54818100caa55 sched/fair: Push sched_balance_newidle() unlock down
+193edb2bf5d205a9e179533a7da45096eeb4aa6a sched: Remove sched_class::balance()
 
---===============1922058447276078552==--
+--===============2178357770096914701==--
