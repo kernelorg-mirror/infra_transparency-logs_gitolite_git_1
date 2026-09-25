@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6094159314657048606=="
+Content-Type: multipart/mixed; boundary="===============7884858776186823181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 25 Sep 2026 15:03:11 -0000
-Message-Id: <179034859180.1469492.17956746579953621273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Fri, 25 Sep 2026 15:03:17 -0000
+Message-Id: <179034859713.1469690.1998176447706768452@gitolite.kernel.org>
 
---===============6094159314657048606==
+--===============7884858776186823181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 2d3135cdedfe26e0867a3f45a273dcdbf3bdbe86
     log: revlist-fcf1fccdc9d5-2d3135cdedfe.txt
 
---===============6094159314657048606==
+--===============7884858776186823181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ f4a58c7164957e73df36ed24c42b0b9b713a43b3 perf tests c2c: Report skip when the wo
 aa9265d5073cb01b89f31ae030442873d4a259d3 perf evlist: Don't restrict uncore events to PMU CPUs
 2d3135cdedfe26e0867a3f45a273dcdbf3bdbe86 perf bench numa: Add NULL check after calloc()
 
---===============6094159314657048606==--
+--===============7884858776186823181==--
