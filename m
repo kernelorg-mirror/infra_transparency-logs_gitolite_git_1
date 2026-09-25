@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7182077421060249184=="
+Content-Type: multipart/mixed; boundary="===============4567326298075779451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 25 Sep 2026 21:02:49 -0000
-Message-Id: <179037016918.1758187.6635853669974571095@gitolite.kernel.org>
+Date: Fri, 25 Sep 2026 21:02:52 -0000
+Message-Id: <179037017227.1758377.15227057934523881983@gitolite.kernel.org>
 
---===============7182077421060249184==
+--===============4567326298075779451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: b9f30c763c7ecec41fd3f71b8a5a44971c3fddbf
     new: fff8738e870968f36e08f62464335f632b869a37
     log: revlist-b9f30c763c7e-fff8738e8709.txt
 
---===============7182077421060249184==
+--===============4567326298075779451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ db8c58c83f5a651051ce83aa681e3d68ad17503a selftests/bpf: Add tests for the indire
 91ed1942edef5dab681fafed2b15af27ce74a7b4 selftests/bpf: Add a test for an exception callback behind a dead subprog
 fff8738e870968f36e08f62464335f632b869a37 Merge branch 'misc-bpf-gotox-fixes'
 
---===============7182077421060249184==--
+--===============4567326298075779451==--
