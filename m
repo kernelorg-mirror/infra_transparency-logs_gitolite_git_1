@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5863345064527674276=="
+Content-Type: multipart/mixed; boundary="===============5602119741052352796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 25 Sep 2026 07:22:06 -0000
-Message-Id: <179032092658.1011971.7911251008010474023@gitolite.kernel.org>
+Date: Fri, 25 Sep 2026 07:22:08 -0000
+Message-Id: <179032092878.1012089.17414706181733284291@gitolite.kernel.org>
 
---===============5863345064527674276==
+--===============5602119741052352796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,45 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 8d29b5365d528da545c1fe0768a55babadee95d0
-    new: 2589c5593c200e5146db848730baa1d7dd0c9f4e
-    log: revlist-8d29b5365d52-2589c5593c20.txt
+  - ref: refs/heads/mm-unstable
+    old: b959ffd0132472d7f69923378a810a45b3cf48d2
+    new: e8d0f6a1b2a447d02845984fa6288787543cb03c
+    log: revlist-b959ffd01324-e8d0f6a1b2a4.txt
 
---===============5863345064527674276==
+--===============5602119741052352796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d29b5365d52-2589c5593c20.txt
+Content-Disposition: attachment; filename=revlist-b959ffd01324-e8d0f6a1b2a4.txt
 
+d860c67c051685abb0460b593b193f0f45f4fa92 ring-buffer: Check resize_disabled before publishing the new subbuf order
+1a296bfd3e775e515233f746218824fc7dd5ff16 wifi: mt76: mt7921: skip unknown CLC firmware records
+7825de3f75d184612d77655669a04ea0da252c17 wifi: mt76: mt792x: fix NULL dereference in ACPI SAR init during probe
+856c562c94964a74f63c6d5f38a1509a59a2357d media: ipu-bridge: do not use the CVS device lookup for IVSC
+d681d7ef617ef83d6a4de36e5cb4418ef602e122 Merge misc regression fixes that seem to have fallen through the cracks
+c65eae6f61d1778ff7a82e4aae4080e26f486af1 smb: client: cancel reconnect work in clean_demultiplex_info()
+5f270f091256da1338c3631083e15d7f83cc05e1 smb: client: fix rlist race and missing initialization
+e75c96157d45e498970158c8f7373d90102e33b9 smb: client: fix smbd_connection leak on cifs_get_tcp_session() error
+22098763a10d9c1340827fcf6edab66f153b27f0 Merge tag 'trace-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+ea9dadeac79cef509a4b8b4a3e3b39a741e63313 drm/msm: mark the fbdev framebuffer as system memory
+e249a6e2a130c08bb4d8b0a55cbe29754307e5c9 drm/msm/dp: skip PUSH_IDLE when the link was never enabled
+6fbbf1e152f34ad3913e4a6476680aba672c5068 drm/msm/adreno: fix autosuspend cleanup during teardown
+58995b11dfb7dda095d23f22fa4dc79b923b5adf drm/msm/dp: fix link bandwidth check when wide bus is enabled
+fd73f4a6659897191fa0d40695fe370925dd3780 Linux 7.3-rc3
+a5b5cc909931572aec446e129c035b76b3f0c1fa drm/msm/dpu: clear pending peripheral flush state
+26eb3d92c7a4d7adb1ae1740ca6e8e100b11d1ec Input: synaptics - disable InterTouch on ThinkPad T440p (board id 2722)
+25e424eb4ae1a662d9c3573218d06ac32f797fc5 Input: i8042 - add quirk for Acer Aspire Go 15 AG15-42P
+88c4aff39452d7f0ab59f13730182a43bc7257c6 ASoC: wm_adsp: Firmware search progress log should not look like an error
+d56fe35c1bce1f547eb600695f60c139a508ff6e ASoC: rt712-sdca: reconfigure PLL2 to fix calibration time-out
+4d855d747521505b54457c96bc73577bf74b2374 ASoC: Rename snd_soc_dai_link_ch_map.ch_mask to cpu_ch_mask
+88b14c0d0bab5c0f3e7c641f274e3c70210c0e36 ASoC: Add codec_ch_mask to snd_soc_dai_link_ch_map
+6b382bdfe26a2232091bf743e454e6794295783e ASoC: soc-pcm: Apply snd_soc_dai_link_ch_map.codec_ch_mask to codec params
+290845e151cd4e307cc1f25319583aaceb4eeb30 ASoC: sdw_utils: Set snd_soc_dai_link_ch_map.codec_ch_mask for capture
+b5b00a57868b1eabdf90a29a51f0eb732c609f3a ASoC: sdw_utils: cs_amp: Delete bogus and incorrect capture channel fixup
+0cde044bc4768203ae70840eafe9df1290d8cb22 ASoC: Fix missing channel fixup for codec end of ch_map
+576725ded009f09a28da19852f7edf62dbc5f94c ASoC: Intel: sof_es8336: Add a quirk for Huawei Matebook B3-420
+930a7312c946bf4731721cadd82bb9a2ada496ca spi: spi-qpic-snand: avoid writing QPIC_EBI2_ECC_BUF_CFG register
+ed22ad5fdbdbf9b4cb4ad3003f60314b5a5eb89d Input: soc_button_array - fix MS Surface Pro 11 probe failure
 fb5022278b6ea7f1838e3ef78028d5d5e3375f65 Input: soc_button_array - check btns_desc->package.count
 ea48250a0dc9708c198e8665391973bfc6c86fd2 Input: document that no new LED codes should be added
 7bc369cb3d3f3656eb77285628ee264264d28ad4 Input: xpad - fix PDP Marvel Xbox 360 controller
@@ -1022,33 +1050,5 @@ ba1ddbc7ff13c153a23f9ecddbd5bd2bc15641ab mm/sparse: remove SECTION_MARKED_PRESEN
 35326cd11ff3481c42fb955a3a98d31741cfd1e2 fs/proc/page: clarify comment in get_max_dump_pfn()
 732d13c05e3e1dc784f975783b4aaa020686ed91 mm/memory_hotplug: drop CONFIG_HAVE_ARCH_PFN_VALID handling from pfn_to_online_page()
 e8d0f6a1b2a447d02845984fa6288787543cb03c mm: fix typos in various comments
-5524db38455cfcd580a610456f776142b2e4d571 mm: memcontrol: drop kmemcg_id and use mem_cgroup_id() for list_lru indexing
-81a48bb3d5338a218fd625618dbc7fdc59ce0813 mm-memcontrol-drop-kmemcg_id-and-use-mem_cgroup_id-for-list_lru-indexing-fix
-4dd35dd9f3f8f424e6a214697e47d772c613de92 mm: list_lru: keep per-memcg lists with nokmem for NONSLAB-backed lrus
-baec715cd0669a372608f5bf4bbfb2cf0d0dbacf mm: thp: restore SHRINKER_NONSLAB on the deferred split shrinker
-542aff03555b08ebb3b9ffa47e2d671438f94917 mm: zswap: mark the zswap shrinker SHRINKER_NONSLAB
-ea6702660a45c73613f092263f8fa6e002b6c37f mm/hugetlb: fix overbroad MMU notifiers for unshared PMDs
-7cdcd89ed3214d315b6807330d110a0b81d0b8f7 selftests/mm: fix mlock2 errno handling and false PASS on ENOSYS
-58f8ff5d3e4bc6bff3184b9a562fc2c00d81983e kselftest: mm: prevent random failure of huge page split for khugepaged
-3ed1dbd29f56ba052e442d434e1f918d5a49ec42 kselftest: mm: replace usage of /proc/self/smaps for __check_pmd_huge()
-20147ab08dfdd9a4148fabda18130c661cb9d814 kselftest: mm: integrate huge page checks
-49e00009a5c22186927a8b4cfe0ddb1b9b2f09b8 kselftest: mm: remove check_huge_shmem()
-b5ea5c53058f8dc19f229e1d109defe908b1ec47 mm: remove the unused zone->unaccepted_cleanup
-f0284d9baaf7144fa87bc9ef9f3c64ccfd9600e1 arm64/mm: move __check_safe_pte_update()
-c92c80a2b8b1012ad62952abdce9527ed725872d arm64/mm: standardize printing for pgtable entries
-0f76fe5b9789b28a5f27dc8d688c8557cb2f8e03 selftests/mm: fix soft-dirty kselftest supported check
-0a8d5c708b1ae3c4ecd6253fbb49327124e64145 riscv: mm: fix concurrency in mark_new_valid_map()
-53d0bf55176f6a25c8e4e722711ae798f51219c2 riscv: mm: exclude invalid THP PMDs from page table check
-db90c35db7817e88255182d1fe68a804393b5e54 sh: remove CONFIG_NUMA and related configuration options
-3192d7fadef33312c9a633e7a51dce9072bccba6 sh: mm: remove numa.c
-07b7324741001cebdb8a7896cd5e074956223460 sh: mm: drop allocate_pgdat()
-724809ea2ac06cedaa99e5664579fdb1a694ea2e sh: remove setup_bootmem_node() and plat_mem_setup()
-bdafeb18362ce4391fc56d060c8cec156b84a96b sh: drop dead code guarded by #ifdef CONFIG_NUMA
-a1214df3d4ff7b6d74d0a96a5e221efbbc4f4dbb sh: drop include/asm/mmzone.h
-e2a47c89ea5e9a6228b7038f63eacce534969a55 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-0be9796d96320f65ecf20c72ed9c118c5f993934 sh: init: remove call the memblock_set_node()
-a9a467e357e32ee9864fcea745671657f51ea508 sh: remove SPARSEMEM related entries from Kconfig
-be5ed09d05b22a865b8b77ef88c7877d9d448e67 sh: drop include/asm/sparsemem.h
-2589c5593c200e5146db848730baa1d7dd0c9f4e mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============5863345064527674276==--
+--===============5602119741052352796==--
