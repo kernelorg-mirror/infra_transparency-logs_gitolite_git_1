@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8654893174396449812=="
+Content-Type: multipart/mixed; boundary="===============2221022251903382241=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Fri, 25 Sep 2026 16:38:19 -0000
-Message-Id: <179035429903.1551539.3967012325883163424@gitolite.kernel.org>
+Date: Fri, 25 Sep 2026 16:38:20 -0000
+Message-Id: <179035430092.1551741.4766807486292567512@gitolite.kernel.org>
 
---===============8654893174396449812==
+--===============2221022251903382241==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-7.4
-    old: a78e41fea74fd7ddf8a6a3d2c2d7ec289f0a33d7
-    new: 7ce6844c0d6ade683fc741c9409a406eb754ed11
-    log: |
-         e8493dd1265294c999cb5badbc26c6b42ea5c499 arm64: dts: qcom: hawi: Sort IPCC client IDs
-         5105107939b082a98446018e5679d16724fcc75f arm64: dts: qcom: hawi: Fix PCIe IOMMU maps
-         2b5d5dea36d4d45246cef89611c8e7a6002aa6a3 arm64: dts: qcom: hawi: Enable SoCCP by default
-         7ce6844c0d6ade683fc741c9409a406eb754ed11 arm64: dts: qcom: hawi: Trivial fix
-         
-  - ref: refs/heads/clk-for-7.4
-    old: 51ff9ffa18758c465a1a67ca36a78c2a8a5f3b2e
-    new: 1fb6a543e7df78047afb07a58832fd4fa42151be
-    log: revlist-51ff9ffa1875-1fb6a543e7df.txt
-  - ref: refs/heads/drivers-for-7.4
-    old: cb85751e5e47ecc68806f6d78b0bbae6e699ee09
-    new: 99fda744d8ae70c1bd34064496b80a6f7591e4e5
-    log: |
-         99fda744d8ae70c1bd34064496b80a6f7591e4e5 firmware: qcom: scm: Hide QCOM_SCM instead of depending on ARCH_QCOM
-         
+  - ref: refs/heads/for-next
+    old: e34ee27e2513ca76dc6f6bfdbb1a992cc6a38f20
+    new: 7d3fb8930218282f988d771843c6b52629a0bb68
+    log: revlist-e34ee27e2513-7d3fb8930218.txt
 
---===============8654893174396449812==
+--===============2221022251903382241==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51ff9ffa1875-1fb6a543e7df.txt
+Content-Disposition: attachment; filename=revlist-e34ee27e2513-7d3fb8930218.txt
 
 55388f587b3301dffdb30074d00f069d80d29341 dt-bindings: clock: qcom: gcc-sdm845: Require CX power domain
 80d35f528a46b5f1e9777ce83de48fd9efa7c422 dt-bindings: clock: qcom: gcc-sm8150: Add CX power domain
@@ -69,8 +54,13 @@ e4e6177235c6e0342357c48497d6b1a546c0ae57 clk: qcom: gcc-sm8650: Tie the CX power
 f593d28a9193f1b5a96eb69bc5eb4dda2eaebebf clk: qcom: gcc-sm8750: Tie the CX power domain to controller
 965dd2be7d35b2474251ee60d44addb257c9c85f clk: qcom: gcc-x1e80100: Tie the CX power domain to controller
 a032e3f9c241b9c148f6ef235df8adc8db61eb29 clk: qcom: gcc: Fix GPLL enable register offset for Nord SoC
+e8493dd1265294c999cb5badbc26c6b42ea5c499 arm64: dts: qcom: hawi: Sort IPCC client IDs
+5105107939b082a98446018e5679d16724fcc75f arm64: dts: qcom: hawi: Fix PCIe IOMMU maps
+2b5d5dea36d4d45246cef89611c8e7a6002aa6a3 arm64: dts: qcom: hawi: Enable SoCCP by default
+7ce6844c0d6ade683fc741c9409a406eb754ed11 arm64: dts: qcom: hawi: Trivial fix
 1333903b9cae880835245bc769253f5bfa98802a dt-bindings: clock: qcom,rpmhcc: Document RPMHCC bindings for SM7250
 d98bd51a6dc6d62df12bee0ae29db9bb1013bc3e clk: qcom: rpmh: Add SM7250 rpmh clocks
+99fda744d8ae70c1bd34064496b80a6f7591e4e5 firmware: qcom: scm: Hide QCOM_SCM instead of depending on ARCH_QCOM
 751af359058d29f019cd548f435152397592284d dt-bindings: clock: qcom: Add EMAC CNOC APB clocks for Nord
 4abe035a0ff25081564ff3a5932c59200e9e2aa5 clk: qcom: segcc-nord: Add EMAC CNOC APB clocks for Nord SoC
 205f73205e4ca9756da40b6bfdcaeeedb9194ece dt-bindings: clock: qcom: nord-negcc: Add the secondary QUSB2 PHY reset
@@ -143,5 +133,6 @@ d0c66a44fcc5f11783b2ec98b026a436a01ee19f clk: qcom: gpucc-x1p42100: Use common p
 b81602789b9de6f6145366f498f9411b423c1e7f clk: qcom: videocc-sm7150: Use common probe handling for always-on clocks
 ec0454e13dc7fa01476e8630035ec4eac4bba1e7 clk: qcom: videocc-sm8250: Use common probe handling for always-on clocks
 1fb6a543e7df78047afb07a58832fd4fa42151be clk: qcom: videocc-sm8350: Use common probe handling for always-on clocks
+7d3fb8930218282f988d771843c6b52629a0bb68 Merge branches 'arm64-defconfig-for-7.4', 'arm64-fixes-for-7.3', 'arm64-for-7.4', 'clk-fixes-for-7.3', 'clk-for-7.4', 'drivers-fixes-for-7.3' and 'drivers-for-7.4' into for-next
 
---===============8654893174396449812==--
+--===============2221022251903382241==--
