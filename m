@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6442123725197931458=="
+Content-Type: multipart/mixed; boundary="===============0639896300075383214=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 25 Sep 2026 15:46:05 -0000
-Message-Id: <179035116519.1506502.1624299737041374967@gitolite.kernel.org>
+Date: Fri, 25 Sep 2026 15:48:46 -0000
+Message-Id: <179035132697.1507432.10665806124091886812@gitolite.kernel.org>
 
---===============6442123725197931458==
+--===============0639896300075383214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-7.4
-    old: b4136c0d69ead737197af741e20edd1c3574f6b4
-    new: 27f7c1ad8da626f1785db2ec234558d07120403b
-    log: revlist-b4136c0d69ea-27f7c1ad8da6.txt
+  - ref: refs/heads/for-next
+    old: c82b61455a76c9ca3ee37ac67f0f4a34a4dbdb04
+    new: fd0669fcf6be5f64bbecb9b31dc4a14b7ece46ed
+    log: revlist-c82b61455a76-fd0669fcf6be.txt
 
---===============6442123725197931458==
+--===============0639896300075383214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4136c0d69ea-27f7c1ad8da6.txt
+Content-Disposition: attachment; filename=revlist-c82b61455a76-fd0669fcf6be.txt
 
 8ca84987c11d11e0ba60f202e3199b3b80c87721 ASoC: adau17x1: return cache sync errors from resume
 7142c34ed92fddca7038787b8695d22c661dc6ec ASoC: ak4642: return cache sync errors from resume
@@ -41,5 +41,7 @@ a5735b341c6e8cff5f5f9480295012a5ceebb665 ASoC: rt1318: return cache sync errors 
 70fe8997b03078ff8253d985a161fef310f7c346 ASoC: rt5660: return cache sync errors from resume
 9f2933d9a437302d5ae32eb9022efef049d8ab22 ASoC: rt5665: return cache sync errors from resume
 27f7c1ad8da626f1785db2ec234558d07120403b ASoC: codecs: propagate component resume cache sync failures
+4bf0056588d2b550af6130ece9b92bc62f48f455 Merge asoc-linus into asoc-next
+fd0669fcf6be5f64bbecb9b31dc4a14b7ece46ed Merge asoc/for-7.4 into asoc-next
 
---===============6442123725197931458==--
+--===============0639896300075383214==--
