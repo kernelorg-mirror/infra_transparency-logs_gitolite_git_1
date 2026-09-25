@@ -1,44 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============5445070076480602844=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 25 Sep 2026 13:31:14 -0000
-Message-Id: <179034307491.1285030.2414902551460683565@gitolite.kernel.org>
-
---===============5445070076480602844==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Fri, 25 Sep 2026 13:56:41 -0000
+Message-Id: <179034460176.1302255.12875763918457983758@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/clk/linux
+user: masneyb
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: d227b45fc162ce9134bb96f33f71e6952ec36ea5
-    new: aa9265d5073cb01b89f31ae030442873d4a259d3
-    log: revlist-d227b45fc162-aa9265d5073c.txt
-
---===============5445070076480602844==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d227b45fc162-aa9265d5073c.txt
-
-e223a41c429bad47ed44907a14e8de8901eb93ce perf trace-event: Report tracepoint format errors with NULL and errno
-d9eba1d5b56e8a62158aa797d45e4e988aa60844 perf trace-event: Reuse an already parsed tracepoint format
-5a3d7afdfb6c430e1377d779df4e16ec56e22e32 perf trace-event: Free the global trace_event when a command ends
-0cf5416f48be1198da1561897d77bbc203693164 perf trace: Free the host machine allocation
-5d0e31779bca09f5baed745e175347fbad7d040b perf thread: Free the comm read from procfs
-8c74fcecb46c964af42385e492b43382ef0517d9 tools include: Add missing stdarg.h include
-c9dd729e80aa3e9998da377648408e9a556346ee perf synthetic-events: Fix repeated word in log message
-d55214860794ba5509d8ad861a5b2d97a7af3521 perf tools: Fix typos in comments
-4c32b6d6bd657f16e7183cc90db0f85bc35d9e87 perf sched: Make output_name variable static
-b36a6f180baad35a962677ae181681ca60dda35b perf c2c: Fix documented default coalesce fields
-f4a58c7164957e73df36ed24c42b0b9b713a43b3 perf tests c2c: Report skip when the workload fails
-89cfd46b7e6cab1d9fee534d4aca946c12065895 perf c2c: Add stdio support for the function view
-0d91c10f8897c222f25d2d61d04a82dbb8d35892 perf tests c2c: Add function view stdio coverage
-aa9265d5073cb01b89f31ae030442873d4a259d3 perf evlist: Don't restrict uncore events to PMU CPUs
-
---===============5445070076480602844==--
+  - ref: refs/heads/clk-pile
+    old: a1d0465f027d341c6855324a5c63e54780ce20f3
+    new: af384d6e0573b416a7a28e0ab6300d797cae369d
+    log: |
+         faa5022a9b122262152e7328142a6f628d2bea9d MAINTAINERS: name the clk/linux clk-next branch
+         af384d6e0573b416a7a28e0ab6300d797cae369d clk: starfive: jh7110-vout: Allow pixel clock rate propagation
+         
