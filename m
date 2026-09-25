@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 25 Sep 2026 17:37:05 -0000
-Message-Id: <179035782561.1597979.15041926728800103627@gitolite.kernel.org>
+Date: Fri, 25 Sep 2026 17:48:44 -0000
+Message-Id: <179035852456.1605378.1711034968127800507@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,13 @@ repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
   - ref: refs/heads/asoc-7.4
-    old: cc466c77059ea6ce734f909ff4b156b036334cc3
-    new: f0cc352be29ba616e0682f66f551d3f3029886fd
+    old: f0cc352be29ba616e0682f66f551d3f3029886fd
+    new: 9a69c8c783e405412de78b01195bb8e5b896b1a6
     log: |
-         f0cc352be29ba616e0682f66f551d3f3029886fd ASoC: wcd9335: Fix device reference leak in wcd9335_slim_status()
+         7f05596bd4047e4623eeb1f3c6921d6f71481c3b ASoC: mediatek: mt8183: Fix wrong clock cleanup on clk_set_parent() failure
+         4a0f9566ae0c3ad32620254342b266f37f4757de ASoC: mediatek: mt8183: Fix clock handling in mux disable path
+         30cf48383006579d7cd35380cc6e766260b72bff ASoC: mediatek: mt8183: Fix APLL enable error handling
+         21cc0c50d395b8b8311c0b6c713038d9d9607063 ASoC: mediatek: mt8183: Use dev_err_probe() for error handling
+         f7bcb8c94ccb8a8b231a353c628b0104951ab6d0 ASoC: mediatek: mt8183: Drop redundant probe error messages
+         9a69c8c783e405412de78b01195bb8e5b896b1a6 ASoC: mediatek: mt8183: Fix clock error handling
          
