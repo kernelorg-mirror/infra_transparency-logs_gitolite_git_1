@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Fri, 25 Sep 2026 14:54:19 -0000
-Message-Id: <179034805945.1461735.9964478445576880672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Fri, 25 Sep 2026 14:59:04 -0000
+Message-Id: <179034834450.1464972.10247991900786609796@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/mtd/fixes
-    old: 44b8a0bf5f96e8393312fc34b956766882341f16
-    new: 1c1a342aceec79528b3ba51f376eca2be5928fe7
+  - ref: refs/heads/for-next
+    old: b46e0966741143366b5e9aafd3e85e297fd2f365
+    new: ab38882862f7ca0fec35b1c85a48fb51b0ae9c65
     log: |
-         1c1a342aceec79528b3ba51f376eca2be5928fe7 mtd: spinand: Do not update the QE bit on devices without one
+         c1338aae7b4054e26f322155423f6aba90aeea23 fuse: don't BUG when the copy buffer is exhausted
+         ab38882862f7ca0fec35b1c85a48fb51b0ae9c65 fuse: return -E2BIG for an oversized SETXATTR over io-uring
          
