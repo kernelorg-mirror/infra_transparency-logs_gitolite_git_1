@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9116510842442557633=="
+Content-Type: multipart/mixed; boundary="===============0303841743124480020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 25 Sep 2026 03:12:38 -0000
-Message-Id: <179030595805.779166.9180587568803002173@gitolite.kernel.org>
+Date: Fri, 25 Sep 2026 03:12:40 -0000
+Message-Id: <179030596066.779259.18121720662046144771@gitolite.kernel.org>
 
---===============9116510842442557633==
+--===============0303841743124480020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.1.13/nfs-testing-canary-reduce-ff-layout-contention
-    old: 3c675ba65faf0294adfa3d91335cc3b6a94b0689
-    new: 2ec05ff02df95a87777c64b3155f97edcacd3454
-    log: revlist-3c675ba65faf-2ec05ff02df9.txt
+  - ref: refs/heads/kernel-7.1.13/nfs-testing-canary-rdma-ds-connect
+    old: 8d3aae76fc4e22330511c0a957b8ab2ecb96198b
+    new: 10b06c3d0e4452065b7590155bda89840f718e4f
+    log: revlist-8d3aae76fc4e-10b06c3d0e44.txt
 
---===============9116510842442557633==
+--===============0303841743124480020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c675ba65faf-2ec05ff02df9.txt
+Content-Disposition: attachment; filename=revlist-8d3aae76fc4e-10b06c3d0e44.txt
 
 d795a13ba754b9b768ba6d83ef23c0dc14e7ed49 NFS/localio: detect a short read or write before the iterator has moved
 959ad2b148193a3af80bfe42847abdc330c3cdfc NFS/localio: report the stability a DIO WRITE actually has
@@ -46,21 +46,8 @@ ec194b7e2973be33b55696e2cdd70704490f685f NFSv4/flexfiles: give each direction it
 46b18979a34c3c433cb3679c9000ca4ee3c5a310 NFSv4/flexfiles: drop NFS4_FF_MIRROR_STAT_AVAIL
 84b40f2d37bba3c40e2004fea249e497845871ee NFSv4/flexfiles: rotate LAYOUTSTATS reporting across a mirror's stripes
 39d96f0f07dde65c1e7fe52d1bf71b6534d6aee3 NFSv4/flexfiles: take the report decision out of the critical section
-09c0cd37b74b2e4ad9c513514003a41d4f7d2071 NFS: don't take inode->i_lock twice per direct I/O for the opening owner
-47dbaa0e3c8795d24dadd515219fc244e6b042e6 NFS: take inode->i_lock in O_DIRECT write completion only when needed
-2de64db8888ce65d892546c3b70b97bc80d33e0e NFS: skip inode->i_lock for WRITE replies that cannot change the inode
-e1f30844eea1d46f2c608aeedb35a1aca5ae7287 NFS: don't take inode->i_lock to re-mark a stale atime
-1ac4369dea9e0d9acee8048c464025992d296b23 NFS: check for a delegated atime before taking inode->i_lock
-ec54d06a1940874b722690add0a80233dd5fb484 NFS: skip inode->i_lock when a delegated timestamp is already current
-0dfaac9408b39821261b6c42d287ca3a6cda31ce pNFS/flexfiles: don't take inode->i_lock to release empty commit info
-dd8608fd35e5e9d2d5b6aaffb9426cacda190a10 pNFS/flexfiles: look up the cached layout segment without inode->i_lock
-2894b8952dcf41acaee4ce7908cc6e6d7f780fb5 NFS: invalidate LOCALIO direct-write post-op attributes at completion
-434b6711a34a5e2b2ebe4fea4aabd736bc663362 pNFS/flexfiles: don't dirty the layout segment on every data server RPC
-c98f3672d2756b316251e347ae4f3ca91ff5d418 NFS: only account read_io/write_io when an I/O mdsthreshold is in use
-fac3c02a1c17b83f907d55190813c4f21ef98d44 NFS: finish stable O_DIRECT writes without the nfsiod round trip
-d1be673ab1afcc96b33a3c70484b313eddd76a14 NFS: admit O_DIRECT I/O without taking inode->i_rwsem
-e7fc96bcc598cf7ab6cd67f1771427007dd018a2 pNFS/flexfiles: give the read-mostly layout segment fields their own cacheline
-8905c9fbda2e720ec544725593b69d5909e0df38 pNFS/flexfiles: bound data server RPCs with pg_bsize instead of a per-page test
-2ec05ff02df95a87777c64b3155f97edcacd3454 pNFS: hand the page I/O descriptor's layout segment reference to the header
+36a0d15d141e38e6cf98f9162a846055580857ac xprtrdma: Allow reclaim when allocating a transport's initial requests
+c52afad2e27781af24946d7ec3cf8bed6f9064a1 SUNRPC: Do not abandon the remaining nconnect transports after one fails
+10b06c3d0e4452065b7590155bda89840f718e4f pNFS: Report a data server left on a non-preferred transport
 
---===============9116510842442557633==--
+--===============0303841743124480020==--
