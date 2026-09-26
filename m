@@ -1,65 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6289997932755096388=="
+Content-Type: multipart/mixed; boundary="===============2155406249768018829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-next
-Date: Sat, 26 Sep 2026 15:19:54 -0000
-Message-Id: <179043599465.2685141.352053024335314136@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Sat, 26 Sep 2026 15:20:00 -0000
+Message-Id: <179043600074.2685387.10741471709752970873@gitolite.kernel.org>
 
---===============6289997932755096388==
+--===============2155406249768018829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-next
+repo: pub/scm/linux/kernel/git/sashal/linus-next
 user: sashal
 changes:
-  - ref: refs/heads/all-next
+  - ref: refs/heads/linus-next
     old: 2eb2da7b4124e6230d8b06dfb04c59b63e4a9982
     new: ecb54a2122946f843e5b572a25430d0e403509ea
     log: revlist-2eb2da7b4124-ecb54a212294.txt
-  - ref: refs/heads/bpf-next
-    old: 0bb2c3b57fb5bf34e92f110cd3c30db4393f5d7d
-    new: 809f177ca108562d0ec54cb8f167f4357fa5c6ae
-    log: |
-         ea9358e1270ab2c3ba6f36bd9bdda68617665516 selftests/bpf: Fix gcc -Wreturn-type error in the tail call subprog test
-         809f177ca108562d0ec54cb8f167f4357fa5c6ae Merge 'bpf-next' from https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next.git (for-next)
-         
-  - ref: refs/heads/fixes-next
-    old: 9e413287d8fc9265392b7e4fd84287b86835b1d6
-    new: 5449634efe2f8c5c3d06f145eb8b5db05b8822a0
-    log: revlist-9e413287d8fc-5449634efe2f.txt
-  - ref: refs/heads/graphics-next
-    old: b63a161078419592c16d20fb2372d69188bfe615
-    new: dd13c20603c3e44c3f61f7e8ff1cc9fab60e1b18
-    log: |
-         b816da5d5df1461446a0a5f3fe2b4948a659a790 drm/vc4: Fix firmware reference leak in vc4_drm_bind()
-         dd13c20603c3e44c3f61f7e8ff1cc9fab60e1b18 Merge 'drm-misc-fixes' from https://gitlab.freedesktop.org/drm/misc/kernel.git (for-linux-next-fixes)
-         
-  - ref: refs/heads/net-next
-    old: 1b9713bd190b80e91e1c8d7b045ad4638563d550
-    new: ce7b93caab2dd4eb3ca13e24a834bcc33e9339bb
-    log: |
-         ea9358e1270ab2c3ba6f36bd9bdda68617665516 selftests/bpf: Fix gcc -Wreturn-type error in the tail call subprog test
-         ce7b93caab2dd4eb3ca13e24a834bcc33e9339bb Merge 'bpf-next' from https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next.git (for-next)
-         
-  - ref: refs/heads/storage-next
-    old: e364ae81cded29e02f8b4f28fcc7b2cd6b4432d0
-    new: 03b285cb6293d742292119823cdac09f272bbf6d
-    log: |
-         6147f16c23efb58a98fdfc71b794b063dc01c767 Merge branch 'misc' into for-next
-         03b285cb6293d742292119823cdac09f272bbf6d Merge 'scsi' from https://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi.git (for-next)
-         
-  - ref: refs/heads/tracing-next
-    old: 2665dfd08f5a643250405846150b40e1488f9bdf
-    new: 957346c5c3d8f2788324e8a2c1a734cee54c6cb1
-    log: |
-         ea9358e1270ab2c3ba6f36bd9bdda68617665516 selftests/bpf: Fix gcc -Wreturn-type error in the tail call subprog test
-         957346c5c3d8f2788324e8a2c1a734cee54c6cb1 Merge 'bpf-next' from https://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next.git (for-next)
-         
 
---===============6289997932755096388==
+--===============2155406249768018829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -159,73 +120,4 @@ a1e73937fdc161b12ed5e0d8508eeb8cced60383 Merge branch 'tools-next' into all-next
 053232f20e2c3da56d420381cd4e700a1a9f37c9 Merge branch 'wireless-next' into all-next
 ecb54a2122946f843e5b572a25430d0e403509ea Add merge report for 2026-09-26 (5 interventions)
 
---===============6289997932755096388==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e413287d8fc-5449634efe2f.txt
-
-86c6254d54a217c36419687d98604e66e55444cc module: fix lost error code from codetag_load_module()
-da9d7b629d742e97d1ee1a7d28ec86d36b1596be mm: shmem: ignore sysfs configs for shmem forced collapse
-22c0ce124de29a2cd28c1a66fd11b62008be820e alloc_tag: avoid implicit padding in uapi
-e00b1d9e992121a39760aff43021afeafcb748f3 mm/damon/core: don't skip damos_adjust_quota() while esz is not zero
-5341cd0f0f24765c3d9a9f599d85cf39d372a25a kasan: unpoison task stack below watermark only in generic mode
-784876a49d552aaf62783646fc64d848503ee717 MAINTAINERS: split up MEMORY MANAGEMENT - MEMORY POLICY AND MIGRATION
-64ed9e89f4fbfefb2634e04d87486567fcc8f1b3 MAINTAINERS: move memory tiering under MEMORY MANAGEMENT - NUMA PLACEMENT
-0520e409d61f8964e7895f5ba1180416ed4168f8 MAINTAINERS: make Gregory a co-maintainer of MEMORY MANAGEMENT - NUMA PLACEMENT
-677834b23003d97b190ce926f894d35fbfbe8e9a MAINTAINERS: add Heming Zhao as ocfs2 reviewer
-bc37b22ef09df25db3158896ca3f0be1f4ffbd1b mm/vma: predicate setting mmap_prepare VMA fields on new vma alloc
-861ccdacefbbb6437aaed6ddeb06e36dc9327efc mm/vmalloc: use dedicated unbound workqueues for vmap drain
-b20c3e5ffad0bf4a591b11cbb1fbd7044242204e xarray: fix index jumping backwards in xas_find()
-9f6cd0bdaca281a3b8089e18acf7de0afbc89ae6 mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
-d8c1f8f94bda433d9dac441ddc18ee077cbbd6e1 mm/page_alloc: avoid direct compaction for costly __GFP_NORETRY allocations
-807ac797cb608dbc56861acfefd13adf500a65d2 mm/mremap: fix locked_vm leak from MREMAP_DONTUNMAP self-merge
-1cf64625d7540b502f0618577523fa2120adb482 mm/mremap: fix locked_vm leak by splitting VMA for MREMAP_DONTUNMAP
-7d42bef655c1addff0f4b01de358c5c535aad685 mailmap: update addresses for John Garry
-279ad5e21f12ef6e2254c58deb95c9fd7d4224a3 mm: don't schedule deferred kernel page table freeing while booting
-8c87da8ce0e5dccb91ab9415a52870c9adf2001c Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/slab.git slab/for-next-fixes into for-next-fixes
-38cd3936a9f49b4fa690ec49dfc3eece3d954470 Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-hotfixes-unstable into for-next-fixes
-706700b13699124843f00e1e45088d4420998998 Merge 'btrfs-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git (next-fixes)
-0c8acfea52285e0358dcce838165bd93080311c7 Merge 'vfs-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git (fixes)
-e70b1cde3fcbc46b75c31c856742a49a7a5dc308 Merge 'mm-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/mm/linux.git (for-next-fixes)
-df7c698eb3e289a05853112756b130840255448a Merge 'arc-current' from https://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc.git (for-curr)
-f620ae9fedfb3b126cc400445fc3393298ea01eb Merge 'arm64-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux (for-next/fixes)
-5ba1679bafcd8d3839eaa62c80434c5ebb016848 Merge 'net' from https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git (main)
-94013518edf93cf8d1028436821a8ab2e0867d35 Merge 'bluetooth-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth.git (master)
-4c18e2362e48eef2e26fab515e3daf8f7571b7a5 Merge 'iwlwifi' from https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next.git (fixes)
-72cedb431bbe34b9403597086dfda40e0148710d Merge 'sound-current' from https://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git (for-linus)
-11c469e1011573668f9da11b0ece55b378e58b25 Merge 'sound-asoc-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git (for-linus)
-42bfb89b6a102092cefbab3d91597ab79d393edf Merge 'regmap-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git (for-linus)
-1209863bf8705e2cf418bf0f91cde6cb10b66a0e Merge 'pci-current' from https://git.kernel.org/pub/scm/linux/kernel/git/pci/pci.git (for-linus)
-e90301b294bdc26079b866f94ea1575c1bafef30 Merge 'driver-core.current' from https://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core.git (driver-core-linus)
-e4bcc8383da670bf3b018df76a6c9d2c9c1d1dc6 Merge 'tty.current' from https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty.git (tty-linus)
-410896b3a7a38d67381a927550653c086d30ae30 Merge 'usb.current' from https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git (usb-linus)
-db04ac077ca18820cd67b5b9e393a752bfc298c1 Merge 'iio-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git (fixes-togreg)
-ed5d9672797075b4d7cefe7b0b00f09cc43446a1 Merge 'watchdog-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git (watchdog)
-ff6ae2c0894163b5db4548537e633b76f0210467 Merge 'thunderbolt-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt.git (fixes)
-ba3694a08142f95aded0a0b1b9b84deaaa960757 Merge 'libcrypto-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git (libcrypto-fixes)
-73db544f48c0d48e7f8b6109efb1c317f6db2b7e Merge 'mtd-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux.git (mtd/fixes)
-b1fa939b81199674e3054016622cb941a44eec0e Merge 'v4l-dvb-fixes' from git://linuxtv.org/media-ci/media-pending.git (fixes)
-d35c5b5e2da3a798d69dbb8c547f6618d3e9ff35 Merge 'omap-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/khilman/linux-omap.git (fixes)
-6a1c27b819f75e3375ba245b85faa64548f076e9 Merge 'tegra-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux.git (fixes)
-86e667d82c4bfad77191d9e7e8fe26957a523f80 Merge 'kvm-fixes' from git://git.kernel.org/pub/scm/virt/kvm/kvm.git (master)
-1dc4bbbe505c792450e6cfa14c38e0d7b4b17718 Merge 'hwmon-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git (hwmon)
-05f79f0cfdf7d3a7bacd6bd5536c0522e9746384 Merge 'dma-mapping-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux.git (dma-mapping-fixes)
-a68bb2c71abab61c87cb866fe70c6981dc249ad4 Merge 'pinctrl-qcom-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git (pinctrl-qcom/for-current)
-2715d39eae3af9abaefa81c09d6c7231de8e285d Merge 'devicetree-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git (dt/linus)
-70ec265f8aabb479140f0fdddb166c7949e4993e Merge 'rtc-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux.git (rtc-fixes)
-11a5f831509d9baaec7f8e38d221c5b0c6a63986 Merge 'hyperv-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git (hyperv-fixes)
-1252be21c8f0bf7beb2142fa15f4aa03ad8655b0 Merge 'risc-v-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git (fixes)
-03b95bf91010d4b5237e77ee2427258ee22d5f36 Merge 'riscv-dt-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git (riscv-dt-fixes)
-dd170bace82052791e252ef397cd2c8958bbd998 Merge 'gpio-intel-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-gpio-intel.git (fixes)
-02edd16bed20a5b38eb6c24c0e13c3466a746676 Merge 'battery-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply.git (fixes)
-d27cfd0a0a84c679874843963f078f9a5ce0c5c5 Merge 'pmdomain-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm.git (fixes)
-a068a96b5025a855471fa0da359a669aff900978 Merge 'i2c-andi-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux.git (i2c/i2c-fixes)
-abe03c2682b0dd277ee69477ff31379fef0ca17a Merge 'clk-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/clk/linux.git (clk-fixes)
-672c954f2dbd355bd45598894ebce6ef8ba73fa4 Merge 'pwrseq-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git (pwrseq/for-current)
-70648690f544c1ec6269fb28f1fc03c137707aed Merge 'tip-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git (tip/urgent)
-991bd3c9fa1cfaa463fa083c275d1839e45a07e2 Merge 'kexec-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux.git (kexec-fixes)
-2f9a2874e412eb0a8b966e704a87820ef8b0eef6 Merge 'mm-nonmm-hotfixes-unstable' from https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm (mm-nonmm-hotfixes-unstable)
-5449634efe2f8c5c3d06f145eb8b5db05b8822a0 Merge 'drm-misc-fixes' from https://gitlab.freedesktop.org/drm/misc/kernel.git (for-linux-next-fixes)
-
---===============6289997932755096388==--
+--===============2155406249768018829==--
