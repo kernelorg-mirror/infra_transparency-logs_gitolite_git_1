@@ -1,200 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============6654246843826603481=="
+Content-Type: multipart/mixed; boundary="===============6757829417487327672=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Sat, 26 Sep 2026 21:07:11 -0000
-Message-Id: <179045683154.3037053.12146023482734610651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
+Date: Sat, 26 Sep 2026 22:37:57 -0000
+Message-Id: <179046227784.3104165.17072025753843249465@gitolite.kernel.org>
 
---===============6654246843826603481==
+--===============6757829417487327672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
+user: linusw
 changes:
-  - ref: refs/heads/linus-next
-    old: cd651b908c592d1d86b273f5d70919cff88c42a8
-    new: 911cb9efdccbd58e6bbecf3b2265ca81a3682b29
-    log: revlist-cd651b908c59-911cb9efdccb.txt
+  - ref: refs/heads/b4/dma40-fixes
+    old: b0ae056acbb8c7575aa11ca51b7713256946d594
+    new: 98f675cd4068c3cedd45cdf9510e85731c0e8cfc
+    log: revlist-b0ae056acbb8-98f675cd4068.txt
 
---===============6654246843826603481==
+--===============6757829417487327672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd651b908c59-911cb9efdccb.txt
+Content-Disposition: attachment; filename=revlist-b0ae056acbb8-98f675cd4068.txt
 
-e6bae5034ef4a61f3f062b18140d4f58c8b9a149 ata: libata-core: Extend Samsung LPM quirk to AMD controllers
-88a0474d92ba102fff860db3cae9da87a0964fbf ata: libata: Correct libata.force parameter documentation
-80320b278fea07ffcda3f57b67b61658e0a4e1ca ata: libata-scsi: bound the ATA passthru sense descriptor writes
-113dcdfadf30ea11fbbdfcd4f6ea87687655cc5b MAINTAINERS: name the libata/linux for-next branch
-b1d0b4093fe6055c9e534387ccdc28a5278e99ff perf tools: Bump the minimum Python version to 3.9
-31c88350b7dd1522792f726f79607f31bb55c50f cgroup/cpuset: Return PERR_NOCPUS in remote_partition_enable() on subpartitions_cpus conflict
-fd179f8a05be3ccae366b9b96e176b51fbe54aab Merge tag 'ata-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-7d5a36a5490d496e17823085fbe7ec6c0a7bf43d EDAC/altera: Fix device node reference leaks in the SDMMC ECC setup
-b9df7b06780b4a80a2336567c31319e253eac4f3 Merge branch 'for-7.3-fixes' into for-next
-801ed6d7b5b4ccdfb8fcdcf8c22ac79bc19926d9 media: ipu6: Fix releasing resources at failing streamon
-ddbb07718e0703e2b617e4948d96e031a94574f0 media: ipu6: Move streaming control to CSI-2 receiver driver
-303cf660222aeac6f83b22d42f3cf2b71714df48 media: ipu6: Stream number on CSI-2 receiver source pads is always 0
-c1dfb84cfd1115a695ed4a709725a7725f24a1b6 media: ipu6: Rename misnamed out_free_watermark label in video init
-299063801099a74fcaf09b963e0e46c0b927d3a8 media: ipu6: Always request a capture ack
-b6393200e25e73f75a86e451b766d19644236543 media: ipu6: Clean up link frequency calculation
-15e40a37bcb15a361ab90a23f1cb14fccdf1e68e media: ipu6: Get watermark configuration directly from ipdata
-d27f7ea737cec914b92e1952ba47f384d2989f08 media: ipu6: Collect IPU streams into CSI-2 receiver sub-device context
-6fb254ed658925b89ebd8b30ab49cf1a08e41437 media: ipu6: Start streaming once all streams have started, stop when not
-bac027175ada974b3fde9eb0690ca5d698e0a6d1 perf synthetic-events: Check schedstat domain allocation failure
-c4925cc8b8b1647b3cf9a9d8e84ac4c9f1e962c5 perf python: Update syscall helpers and expose arch_strerrno
-514ecdfd0073686e2a61681fe6f9e08870d9a89a perf python: Update callchain stubs and session thread lookup
-2dfe9eaec5c28f8f885c17d5b643299f685451b7 perf python: Clean up pylint warnings in ilist.py
-2997739214ce6e0825f127e1a71d0f82526aa83a perf python: Clean up pylint warnings in treport.py
-62dfb55494e4cb62a2ab127224c8dcbd18499a0b perf python: Clean up pylint warnings in tracepoint.py
-abbcb48f33e6eba5bb955c4af431d2920779c0f7 perf python: Clean up pylint warnings in twatch.py
-4b15226c14df50c8c9ca67e35295bf8c7ae71574 perf python: Improve perf script -l descriptions
-7a481f6c712a1505f67b97add508bb9d393c9d22 perf python: Expose addr location, transaction, and context_switch
-f66944587d18a84504d9c9782295944fbd29036f perf python: Add Intel PT call_return and itrace capability
-ca23ecf8eedbcdb2ae366b38599722af31adef89 perf python: Allow KeyboardInterrupt to propagate in LiveSession
-db5a60750133d1789c1254fcae55dbf542ef0aa6 perf pmu-events: Clean up mypy and pylint issues
-1331150d7d68f447fce2e209f316a1f83c5fe9f7 perf test: Clean up mypy and pylint issues in shell test libraries
-b3e9c396d0acab27e6fd52edbb67f01ef0465782 perf build: Make mypy build test opt-out (NO_MYPY=1)
-5fe83fb352c8d50fadd814228ae1022d34073d60 perf build: Make pylint build test opt-out (NO_PYLINT=1)
-af2f226e8c29fc4dfa381043b7de2c145532bbae perf Makefile: Install standalone Python scripts during transition
-4425182d426b2180e98d0b537f46cdb03078876d perf python: Port stat-cpi to perf module
-6ceccefad0751966ec63713e2855095caf296c54 perf python: Port mem-phys-addr to perf module
-c3034e70c6d4a2883a51e852a60b2c0ffa64703d perf python: Port stackcollapse to perf module
-eb08738a7f65fbb629f7acf499a742f1a708f1ad perf python: Port flamegraph to perf module
-e1e4bd6f8b6bddeafd3d1b5d3f756981b4b3dde2 perf python: Port gecko to perf module
-eeb70645a8097437c06cebccda4115f366b928c3 perf python: Port event_analyzing_sample to perf module
-3d69731960a5e55beecd9b395001b24a3c0b542e perf python: Port syscall-counts to perf module
-712af96a53eddfba4ec93bd59e69a4b5a4815890 perf python: Port syscall-counts-by-pid to perf module
-b76c43d09b06da1bd8ff5be1ecfb532f6bf0a444 perf python: Port failed-syscalls-by-pid to perf module
-4e3fe6987cbad8ab1c97815f4f27b2417d303233 perf python: Port failed-syscalls from Perl to perf module
-b83f0bacf5e4f9369257f5c1191df02ab1be5602 perf python: Port sctop to perf module
-47b00c38780d27bedb91b8090f74e0523ccbc95e perf python: Port rw-by-file from Perl to perf module
-d935308817b348443acad0a7dbb82689f0e48475 perf python: Port rw-by-pid from Perl to perf module
-605fd1c8b7e6677428cd8395b8191d0846e18adf perf python: Port rwtop from Perl to perf module
-b103b3338b99c3edfe982ef1e6198db8aaa039b6 perf python: Port futex-contention to perf module
-164c7edd80e10f40aaf2a7817f1a23015f2fc9dc perf python: Port task-analyzer to perf module
-56d9f05dce1dd091c0ca2683aaa2d70fdc1884a3 perf python: Port sched-migration and SchedGui to perf module
-97c70711fc5b7446e66340dcf8b40dd31c27b5d3 perf python: Port wakeup-latency from Perl to perf module
-45266bbeead70f2d4f02f5255ed4cb35fd74778a perf python: Port compaction-times to perf module
-c1864af54c89adb9f32737a07831398f5eea4981 perf python: Port net_dropmonitor to perf module
-b08e799dee7356902db12d3d516125531ad5485d perf python: Port netdev-times to perf module
-8c302c91402a3f543e661ace28bacf49f803b88b perf python: Port check-perf-trace to perf module
-279b402e5143214c077f1a95132134c27d907e4c perf python: Port arm-cs-trace-disasm to perf module
-d5934ca319a08e41498e47210285b73970cf074a perf python: Port powerpc-hcalls to perf module
-d4ce72e9e238fd703306b66a33eb41391e6e5a5a perf python: Port intel-pt-events and libxed to perf module
-915d6b14dc0c8971ce33f27c527d21e1ea63d906 perf test: Migrate Intel PT virtual LBR test to Python API
-62d350135e676a11775bf7b85f1ed75a476d811c perf python: Port export-to-sqlite to perf module
-b1f968c9656a8a874f566340ae501f888e700ad0 perf python: Port export-to-postgresql to perf module
-3df7d85a242fb93cfa63466b8fc9fc44aad19b92 perf python: Move and clean up exported-sql-viewer.py
-5084b5f91a70e0aa2811c7c894ac19424bfc4194 perf python: Move and clean up parallel-perf.py
-0d0f9e540d940a48b91cbea1657794d44b25aedf perf: Remove libpython support and legacy Python scripts
-1b6cc87452e90e32789bffcb6c163dfdeb03e8e4 Merge ras/edac-urgent into for-next
-1b7e0280e247b93db9e7b4473adb7fb633e06154 perf Makefile: Update Python script installation path
-fd38cbee26944f8f2bcbea23d71a23b4b1813e9e selftests/resctrl: Introduce linked list management for IMC counters
-a7f2fe32a8066f28c2f5ad90441cc6efc3aa8272 selftests/resctrl: Replace counter index references with pointers
-8459ea00c0abad92cbe4a9b836c4c979823dbb59 selftests/resctrl: Enable dynamic management of IMC counters via linked list
-b02aa1d1343f580e5a43789b392e0c813bc1cba9 perf script: Support standalone scripts and remove embedded scripting
-d9ad300f52657e5ee1000476053260f22e21bea3 perf Documentation: Update for standalone Python scripts
-5cadf7545cc6528cc41d9d8dac52faf331cbc878 sched_ext: Add a CID NUMA node lookup kfunc
-30af56a227e27b892d34bc44c23298b5274913e3 selftests/ftrace: skip gcov symbols when picking a function to probe
-d36b1f2e2d1cee992fffd42a79697f518b12a509 Merge branch 'for-7.4' into for-next
-94480606a677deb68d5622cf0ded88626514b3f2 sched_ext: Add a size argument to scx_bpf_cid_topo() so struct scx_cid_topo can grow
-6a602002449e0f2732e5343fe1bd202ef6a60c84 Merge remote-tracking branch 'origin/master' into arch-next
-e150bb17cb760d8d6de8ee3011fe800cc7569b6a Merge remote-tracking branch 'origin/master' into block-next
-93282937f5a72a67f530e3a4fc30e158d7ba434f Merge remote-tracking branch 'origin/master' into bpf-next
-34a22f4dd752d81f3b903519fa6a1b45ce886f7f Merge remote-tracking branch 'origin/master' into bus-next
-77c41e12da5c0f8624aed207721ff2e0c786008d Merge remote-tracking branch 'origin/master' into clock-next
-4509bdb54731b832498560d261d6d83d869ce741 Merge remote-tracking branch 'origin/master' into cluster-next
-f82d5211a3f600eba7640f9a6020e72eb4a0995c Merge remote-tracking branch 'origin/master' into core-next
-8800fd6c425c62c748e65c1d05a65d557f865b9d Merge remote-tracking branch 'origin/master' into crypto-next
-263148f4fcc87796eed5235b43d52a0ad3294790 Merge 'cgroup' from https://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup.git (for-next)
-c0bd8b1a2e6575179b0b66fc8e07b2bc417e2a18 Merge remote-tracking branch 'origin/master' into docs-next
-38e526fba8b6d228db0638eeaa40a9430803d725 Merge remote-tracking branch 'origin/master' into dt-next
-264e4451be26b35814f72277725c1660279992bf Merge remote-tracking branch 'origin/master' into firmware-next
-ce408b9e564c0c8e20fedc850306ae7644bbc61d Merge remote-tracking branch 'origin/master' into fixes-next
-e3d53f83701eefa90cbb07f626da2beb91b67ec7 sched_ext: Merge branch 'for-7.3-fixes' into for-7.4
-42bcba32daea891db29f665bcac1beead27a02d6 Merge branch 'for-7.4' into for-next
-0eacb34be9b796e6daeb3873c760069718368148 Merge remote-tracking branch 'origin/master' into fpga-next
-dc8b984f77fa7bba898daccdb8a5b20d0f87d05a Merge remote-tracking branch 'origin/master' into fs-next
-207a073909634da597d27917c7d3bfadaac782cd Merge remote-tracking branch 'origin/master' into gpio-next
-6c7f2fb332b8ffa0e286ff71ff69ef0fbd1a20be Merge remote-tracking branch 'origin/master' into graphics-next
-1cabea214b5498537bb942458ae9db76549fdaec Merge remote-tracking branch 'origin/master' into hwmon-next
-7e46cde42240cef5e890d658e3d79bb3680364a8 Merge remote-tracking branch 'origin/master' into iio-next
-24aee43a9649835b79cd40600828e431a4df804d Merge remote-tracking branch 'origin/master' into input-next
-1a299c30ca4816841d27641ac752929a1bb93fa8 Merge remote-tracking branch 'origin/master' into kbuild-next
-a90f94e1e9c04024a36fa918ef14166fb2eec96c Merge remote-tracking branch 'origin/master' into lib-next
-9b3d072816ae954575b124d5b0c3e74700d5c966 Merge remote-tracking branch 'origin/master' into media-next
-1afbb983fd341188d1c3a475563b9771a0ff61a1 Merge remote-tracking branch 'origin/master' into misc-next
-b1b326aae21ca643aa7cce475c609bf8883ec516 Merge remote-tracking branch 'origin/master' into mm-next
-56edf7d6e6af1c2ee26cb6672cd1bed01515ca62 Merge 'v4l-dvb' from git://linuxtv.org/media-ci/media-pending.git (next)
-037444c28dd242d60c113a634a86a4659e885d0c Merge remote-tracking branch 'origin/master' into net-next
-675dfc95552abf8a87f7b9d89d56a6674367f790 Merge remote-tracking branch 'origin/master' into platform-next
-c8b0327d54d220720e76cb7e60ed024f40a17cae Merge remote-tracking branch 'origin/master' into pm-next
-08933da1b72b77e5d32b6d0f29e819eb852ebb22 Merge remote-tracking branch 'origin/master' into power-next
-142a67bb44fd7177e7588c90d726b97ce8881ca9 Merge remote-tracking branch 'origin/master' into ras-next
-fa76fffae7f9c36d4e60ebbf305c7d9e4bd10b29 Merge 'edac' from https://git.kernel.org/pub/scm/linux/kernel/git/ras/ras.git (edac-for-next)
-0f89dda34d921837a236576e611c2f8d50d7f898 Merge remote-tracking branch 'origin/master' into rust-next
-a54af34ce3a6c90a6ac9823526cec59996162ab5 Merge remote-tracking branch 'origin/master' into sched-next
-fc0e9901b13b2a28016831221b1ab53e5e62d217 Merge 'sched-ext' from https://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext.git (for-next)
-fae061b337ca0da9ea775f9ecf54a5d8dffbb7e9 Merge remote-tracking branch 'origin/master' into security-next
-8ed988ed1fcf8faa6138c2d7302182199b000d41 Merge remote-tracking branch 'origin/master' into soc-next
-a03ad4ad3d649251e3260d8859674a041712c6a3 Merge remote-tracking branch 'origin/master' into sound-next
-8a5f616ba8be4b1e22d7dab8011eca1496d0d940 Merge remote-tracking branch 'origin/master' into staging-next
-e7a813a3d0d9ab1b804b78f64599d6d50c643f2f Merge remote-tracking branch 'origin/master' into storage-next
-ebd32baff999d19010f0934ccb8414be811bcad2 Merge remote-tracking branch 'origin/master' into subsystem-next
-8e57e8fc0f395e822b4bd67459a35afdd5dca15d Merge remote-tracking branch 'origin/master' into testing-next
-37fad88c3a88769562530635120aa28725f8070c Merge 'kselftest' from https://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest.git (next)
-753ff634d7e9f35050c958792ef27c0bbc58c761 Merge remote-tracking branch 'origin/master' into tools-next
-21396a40dc40b876049a15d38ea001eefae3c25d Merge 'perf' from https://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools-next.git (perf-tools-next)
-bff1b98a04ce93401b880ecd45c777855c445998 Merge remote-tracking branch 'origin/master' into tracing-next
-9ebf333d7c87f2f825ca75f327fea70b15cb2cfb Merge remote-tracking branch 'origin/master' into virt-next
-48537531eb5a6518851aa666be829c3dab59d13a Merge remote-tracking branch 'origin/master' into wireless-next
-500963e425c21586889f253d35e48b4766d07136 Merge remote-tracking branch 'origin/master' into all-next
-08ff594380434271faf5af4088a3741639c1f63d Merge branch 'arch-next' into all-next
-4ac8d561d35df69f3944b2cbd38c6cac94644c7c Merge branch 'block-next' into all-next
-476c642b255b531fa3fe63d631a4f4ac50942841 Merge branch 'bpf-next' into all-next
-e98ac4941979415a1e79102a6c5759eb86035ecf Merge branch 'bus-next' into all-next
-ab03263bb7b09f0e683b5768ceec7380046976a4 Merge branch 'clock-next' into all-next
-52328e3f4718ef759fd977c4020a03cef25cffe9 Merge branch 'cluster-next' into all-next
-caf8b22dbe19069ca1054f7dd9bf432b8c17854b Merge branch 'core-next' into all-next
-45d87fa0c693a9b404f22b5789cebce3f492959c Merge branch 'crypto-next' into all-next
-273b258d195203521587b2f2ef41987cb4624ed3 Merge branch 'docs-next' into all-next
-77b7747b13b39d7453e9495293a47e5652f7b59c Merge branch 'dt-next' into all-next
-2021b8d29396734ec2deb9fb5cd432e6e7b2cf28 Merge branch 'firmware-next' into all-next
-da8b8bb58fb521229e4e2243b23d8f4200fec8d5 Merge branch 'fixes-next' into all-next
-d53d4e450ecb705a2ddb641bb48421495215c6e4 Merge branch 'fpga-next' into all-next
-c1cd97248c858510190c0c98902727b622295e79 Merge branch 'fs-next' into all-next
-562b493a4c192879762b972c3cc0d17d0da5cf8e Merge branch 'gpio-next' into all-next
-ff56ce35348d948641e88cf1f759370234b2530f Merge branch 'graphics-next' into all-next
-dc93cb4ce18fc15e4857abdbc1a6437b26e15ede Merge branch 'hwmon-next' into all-next
-2897f4f2c09b05e73f70e05e98211ca52ee02edb Merge branch 'iio-next' into all-next
-93dcb41eef78bc695fc1d70da2d8cec979fe78a3 Merge branch 'input-next' into all-next
-a6d9c57491b04ef76078b06e37c578222f3e1817 Merge branch 'kbuild-next' into all-next
-fe0583f8f4e69953bc7a19d6b0391092033a9a3f Merge branch 'lib-next' into all-next
-436e309f7050cb3a5eed8bfdc055865ac6725ba1 Merge branch 'media-next' into all-next
-a5521648491c87b21ffedfe38cd2d6e38fd427a7 Merge branch 'misc-next' into all-next
-01706e95531f58227707fb0f1ab51b38ccbc8e15 Merge branch 'mm-next' into all-next
-4e1026e16e93676bd77306207a5a3d5e696456a0 Merge branch 'net-next' into all-next
-2484b37df1c1e5e0eb984ade1a23fdf09f2ca895 Merge branch 'platform-next' into all-next
-f84a91eb102fcbaa61c9b785d79bd6a1dd276048 Merge branch 'pm-next' into all-next
-4855df441f35372f5b77fc9ec9c4071f97bc49f9 Merge branch 'power-next' into all-next
-90810259a5b599bfc07ebc0204ab22b3a46429be Merge branch 'ras-next' into all-next
-556176f85f4d1a74ed3bc140449f6590e3d93d03 Merge branch 'rust-next' into all-next
-e41b5b110bbb763e34b3d5538161d03cee3671e2 Merge branch 'sched-next' into all-next
-9853df4855b86dd998d148f04b93e3583e50c160 Merge branch 'security-next' into all-next
-089009360124aaf566e00494368b3a52f3b9b871 Merge branch 'soc-next' into all-next
-f87538c18f71ec289c43adf99c9d56f727cf27f9 Merge branch 'sound-next' into all-next
-b04ef7dee11199dcc79e3507de3cce461ba23f93 Merge branch 'staging-next' into all-next
-119a3d0635b352e1272eef41f27097ae1ee302c8 Merge branch 'storage-next' into all-next
-9e73a5b43e592aa5561e9d5bb2f3a90f3b9e1bce Merge branch 'subsystem-next' into all-next
-1dd8e28f1883f999dba0ec4aa4e085602a37e8b8 Merge branch 'testing-next' into all-next
-cb4c3b39cb5a483ec7791eb5fb028a3aa3dbeb0d Merge branch 'tools-next' into all-next
-835a9186f94bb35ded11ddb9ead8833faf0ff710 Merge branch 'tracing-next' into all-next
-dc248128d7d55db04b604fe6f3136790ba6dfbbe Merge branch 'virt-next' into all-next
-c18d223f61f3025336062bcbd191aa525c074aa2 Merge branch 'wireless-next' into all-next
-911cb9efdccbd58e6bbecf3b2265ca81a3682b29 Add merge report for 2026-09-26 (0 interventions)
+2d9fd5212d2700412af03f855f4d15d7b6eb9f8c dmaengine: ste_dma40: Fix numerous accumulated bugs
+b2ca1c95f7d290d30c932cb9cb54376ca49e6c04 dmaengine: ste_dma40: Fix physical cyclic capability
+9f4df8d9fee3ced0ecb52c6ec8ee317bd4e63049 dmaengine: ste_dma40: Fix cyclic transfer residue
+3bcdd86e67e83d8bb049159f11f4dab7d5ab26d6 dmaengine: ste_dma40: Recover coalesced cyclic callbacks
+835249ba6ec5df685b162c5d1a734487420f7caa dmaengine: ste_dma40: Fix failed start cleanup
+9d22aa88220f47e9ba2cf00942061375cca54223 dmaengine: ste_dma40: Fix probe runtime PM disable
+b7babb55e96acb816a191e1ea162da88fd7681e8 dmaengine: ste_dma40: Check runtime PM in IRQ
+7592ed37814637b50d1147fc03bfb0d4effb197d dmaengine: ste_dma40: Handle runtime PM resume errors
+68e289fdec708e2763b04c782bf97447abaeb310 dmaengine: ste_dma40: Return IRQ_NONE when no interrupt is pending
+8759be9a30c206b3cb4d619b38b2bbee82abc80b dmaengine: ste_dma40: Init hardware before registration
+7dab0e8cc1ee57f71da5ed89e4c009ec37b747b1 dmaengine: ste_dma40: Fix probe IRQ leak
+8c181ab12dbbce0ae94b3577cb40e206c7c1f1cb dmaengine: ste_dma40: Fix DMA registration unwind
+fd0d4535878ed21c4364e12fc21e62fc063a8040 dmaengine: ste_dma40: Fix LCLA allocation order
+1a480f82c097469179085e58de5cec696660975c dmaengine: ste_dma40: Fix probe LCLA free
+5662d42542a94abc65fbc16fd354feb80822c17b dmaengine: ste_dma40: Put the LCPA SRAM node
+db67d8a2c7d0e0bd62194d4bf3c41d1a868f2365 dmaengine: ste_dma40: Fix memcpy channel parsing
+bc0c00954d8b81b6a9e1734f122da55484c7cbcd dmaengine: ste_dma40: Validate disabled channel indexes
+9cb9f28aa79ac26188384bb94ee089832865fa1d dmaengine: ste_dma40: Validate DMA specifier length
+df3e3b6c3cd80c3e25a5c98386a5d40598897a5b dmaengine: ste_dma40: Reject direction changes after allocation
+9275224b59c5766a10d9d2ccf5e9dcae83c11eb6 dmaengine: ste_dma40: Fix logical channel bounds check
+59d550d9d1a35a4b99e562e63b32a0d82c2cae54 dmaengine: ste_dma40: Fix event group bounds
+32ba2b568dc13679d7896610379be87c4c725ca6 dmaengine: ste_dma40: Search all blocks for fixed logical channels
+e115e2cb9403b3a3d4b29cd6a29c41c5138d9baf dmaengine: ste_dma40: Validate fixed physical channel indexes
+98f675cd4068c3cedd45cdf9510e85731c0e8cfc dmaengine: ste_dma40: Validate memcpy configuration
 
---===============6654246843826603481==--
+--===============6757829417487327672==--
