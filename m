@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 26 Sep 2026 00:22:19 -0000
-Message-Id: <179038213987.1907909.10147404057130629106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 26 Sep 2026 00:28:22 -0000
+Message-Id: <179038250208.1911981.8856760989773411731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: aadf655e8ea9a8ffa24bb8d69f504572e8d18181
-    new: 0bb8eab29b55045281a4963d4557f2776cdf8cfa
+    old: 4a2e500fcd62d5cec48082b93238f0e33faef9fb
+    new: 0fd5dfa99cfc7555fe7eb034136e0bad12c5e2c1
     log: |
-         0bb8eab29b55045281a4963d4557f2776cdf8cfa net/sched: cls_api: reclaim an empty proto on the error path
+         e0edf25f141a7acc03748902bcb43974bd885353 net/sched: cls_flower: exact-match ERSPAN key when no mask supplied
+         0fd5dfa99cfc7555fe7eb034136e0bad12c5e2c1 net: sfp: ignore LOS also on Hisense GPON modules
          
