@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6185467361038866222=="
+Content-Type: multipart/mixed; boundary="===============6622431572437190137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 26 Sep 2026 12:43:29 -0000
-Message-Id: <179042660935.2563233.5389483832878985501@gitolite.kernel.org>
+Date: Sat, 26 Sep 2026 12:43:52 -0000
+Message-Id: <179042663227.2563862.11741272471944148748@gitolite.kernel.org>
 
---===============6185467361038866222==
+--===============6622431572437190137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: f07317a8d57f382ec505597816271dd72ffa20c7
-    new: c3cff7fac01638ab58e85fe7df41a04fa25c5bae
-    log: revlist-f07317a8d57f-c3cff7fac016.txt
+  - ref: refs/heads/for-next
+    old: 9a9fae6db87f8cf8a94a94aa7900ab73951c530b
+    new: 6147f16c23efb58a98fdfc71b794b063dc01c767
+    log: revlist-9a9fae6db87f-6147f16c23ef.txt
 
---===============6185467361038866222==
+--===============6622431572437190137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f07317a8d57f-c3cff7fac016.txt
+Content-Disposition: attachment; filename=revlist-9a9fae6db87f-6147f16c23ef.txt
 
 72c54bd0cbb2e0c35f4acd056e91c596469edc5f scsi: core: Define all additional sense codes and their qualifiers
 84517868c12dd4e06c1a08793f5687ec43961dd4 scsi: core: constants: Use defined sense codes
@@ -79,5 +79,6 @@ ea8dfd05a0fcabe3ea8bb8a3b9e45b5170a210a2 scsi: mpi3mr: Fix memory leak on operat
 c90693e02d10e9318f2f7cc480e9b05430628738 scsi: mpi3mr: Fix SAS PHY cleanup in host addition error paths
 e6687d574bbe142751bcfa6dd0f42d5abd1c2756 scsi: mpi3mr: Driver version update to 8.18.0.8.50
 c3cff7fac01638ab58e85fe7df41a04fa25c5bae Merge patch series "mpi3mr: Few Enhancements and minor fixes"
+6147f16c23efb58a98fdfc71b794b063dc01c767 Merge branch 'misc' into for-next
 
---===============6185467361038866222==--
+--===============6622431572437190137==--
