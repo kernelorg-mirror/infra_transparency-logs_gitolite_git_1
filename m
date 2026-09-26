@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8940311243395197742=="
+Content-Type: multipart/mixed; boundary="===============6669863040129861806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Sat, 26 Sep 2026 15:52:54 -0000
-Message-Id: <179043797407.2720818.13218237636723128182@gitolite.kernel.org>
+Date: Sat, 26 Sep 2026 15:52:55 -0000
+Message-Id: <179043797532.2720953.8133242391942794376@gitolite.kernel.org>
 
---===============8940311243395197742==
+--===============6669863040129861806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
+  - ref: refs/heads/docs-next
     old: 322695d64f868da8d1091ea93c7c8f47bcc41220
     new: 4f041d7b65b8007403cce30ecf69ad42d48ec315
     log: revlist-322695d64f86-4f041d7b65b8.txt
 
---===============8940311243395197742==
+--===============6669863040129861806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -76,4 +76,4 @@ cfb2e42aed6e71fcf05bb42e6d2639f4d8dac909 docs: ABI: TMR manager: use literal blo
 af10d9c17a4836830d834bab67ce1e802e836eec docs: ABI: sysfs-class-firmware-attributes: use literal blocks for console commands
 4f041d7b65b8007403cce30ecf69ad42d48ec315 docs: ABI: sysfs-driver-xdata: use literal blocks for console commands
 
---===============8940311243395197742==--
+--===============6669863040129861806==--
