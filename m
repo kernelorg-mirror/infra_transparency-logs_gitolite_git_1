@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Sat, 26 Sep 2026 19:35:17 -0000
-Message-Id: <179045131759.2946661.5768686553601835321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Sat, 26 Sep 2026 19:35:51 -0000
+Message-Id: <179045135108.2947293.12003972052678966823@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/for-7.4
-    old: 7a919c7f86de8a0bbfd5da4eacdb67833dfe3e5a
-    new: 5cadf7545cc6528cc41d9d8dac52faf331cbc878
+  - ref: refs/heads/next
+    old: 9793a67915f2191eb00d04d23d496d278c43ca02
+    new: 30af56a227e27b892d34bc44c23298b5274913e3
     log: |
-         5cadf7545cc6528cc41d9d8dac52faf331cbc878 sched_ext: Add a CID NUMA node lookup kfunc
-         
-  - ref: refs/heads/for-next
-    old: 3034afc27bd532ff4bf5fea8af12f2592d4cff62
-    new: d36b1f2e2d1cee992fffd42a79697f518b12a509
-    log: |
-         5cadf7545cc6528cc41d9d8dac52faf331cbc878 sched_ext: Add a CID NUMA node lookup kfunc
-         d36b1f2e2d1cee992fffd42a79697f518b12a509 Merge branch 'for-7.4' into for-next
+         fd38cbee26944f8f2bcbea23d71a23b4b1813e9e selftests/resctrl: Introduce linked list management for IMC counters
+         a7f2fe32a8066f28c2f5ad90441cc6efc3aa8272 selftests/resctrl: Replace counter index references with pointers
+         8459ea00c0abad92cbe4a9b836c4c979823dbb59 selftests/resctrl: Enable dynamic management of IMC counters via linked list
+         30af56a227e27b892d34bc44c23298b5274913e3 selftests/ftrace: skip gcov symbols when picking a function to probe
          
