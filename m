@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0273169280296166562=="
+Content-Type: multipart/mixed; boundary="===============7511056971402497434=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 26 Sep 2026 19:19:25 -0000
-Message-Id: <179045036569.2917703.1962166470131655148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 26 Sep 2026 19:19:40 -0000
+Message-Id: <179045038069.2918021.12245697116785122895@gitolite.kernel.org>
 
---===============0273169280296166562==
+--===============7511056971402497434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: d9ad300f52657e5ee1000476053260f22e21bea3
     log: revlist-528b1475f9cf-d9ad300f5265.txt
 
---===============0273169280296166562==
+--===============7511056971402497434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -78,4 +78,4 @@ b1f968c9656a8a874f566340ae501f888e700ad0 perf python: Port export-to-postgresql 
 b02aa1d1343f580e5a43789b392e0c813bc1cba9 perf script: Support standalone scripts and remove embedded scripting
 d9ad300f52657e5ee1000476053260f22e21bea3 perf Documentation: Update for standalone Python scripts
 
---===============0273169280296166562==--
+--===============7511056971402497434==--
