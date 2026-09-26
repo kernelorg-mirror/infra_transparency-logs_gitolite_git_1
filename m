@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0620372595037510594=="
+Content-Type: multipart/mixed; boundary="===============3790677931206966474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Sat, 26 Sep 2026 01:33:24 -0000
-Message-Id: <179038640493.1959867.1403960906883298410@gitolite.kernel.org>
+Date: Sat, 26 Sep 2026 01:34:31 -0000
+Message-Id: <179038647172.1960485.382898573499809151@gitolite.kernel.org>
 
---===============0620372595037510594==
+--===============3790677931206966474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-urgent
-    old: 9868f5c077dfe0b606331f2e782484f91a5789a5
-    new: eef3b67f9c6782127163b631c9043011a68016e2
-    log: revlist-9868f5c077df-eef3b67f9c67.txt
+  - ref: refs/heads/edac-for-next
+    old: 01c8b24a06d1b10618d259b8dece48dab50d9605
+    new: 90de6cb30b0fa69a6b9b48948341f895d72d9e05
+    log: revlist-01c8b24a06d1-90de6cb30b0f.txt
 
---===============0620372595037510594==
+--===============3790677931206966474==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9868f5c077df-eef3b67f9c67.txt
+Content-Disposition: attachment; filename=revlist-01c8b24a06d1-90de6cb30b0f.txt
 
-e384abeb559d10d6505aec053ede9368d81d4c71 mm/huge_memory: bypass THP tuneables for huge pfnmap mappings
-397432cab17bccb600fd6c16ed593f1149042268 mm/mremap: account mm->locked_vm correctly for MREMAP_DONTUNMAP
 e1d56f046507befa20a5e0837d8075abdf5848fd mailmap: map Coiby Xu's address
 12e9ac7bc5b254048f886bf421e3a15491106c1f mm, swap: fix SWAP_USAGE_OFFLIST_BIT collision with real usage count
 6e673d0879ef78c395cfe0d3ba316690a60055d8 memcg: avoid charging the root memcg from obj_cgroup_charge_pages()
@@ -239,6 +237,7 @@ b83641e0ab8b20eefcc4cdc5a059f897375291a2 net: ipv4: Fix UDP length overflow with
 4ff75f130d1b84f65a6f35a8a0cbca52130127ef net: usb: qmi_wwan: add Quectel RG660QB
 b7c0f8436f077e7f66c9f07714bd57068e2a0c31 drm/msm/adreno: Only check for PAS when a zap shader is present
 8d6cd188508513503805c156165de38e4e4a8615 ipv6: flowlabel: cap duplicate leases per socket
+9868f5c077dfe0b606331f2e782484f91a5789a5 EDAC/altera: Use parent device for devres in altr_portb_setup()
 fcf57d066444dfa5cb46080b1b61cde517249530 ALSA: hda/realtek: Add quirk for HP Elite Dragonfly Max G2 speaker
 aefdbd574a362dcf7569bada6d72f64a006b9fb9 x86/amd_node: Fix potential NULL pointer dereference
 d2929113b15bfc06793b852aeba3d2db6d79fcc9 x86/MCE/AMD: Fix inverted interrupt enablement during storm handling
@@ -1050,5 +1049,6 @@ a10a019dd4c7c57bef6b8dda962c8881ad220af2 Merge tag 'dmaengine-fix-7.3' of git://
 b62a264163ca51bee04785c581344751812395df EDAC/altera: Drop __init from ECC setup paths for re-probe safety
 3e4a10a4718e3d963ee4d6c5f26bc5ad57c1d2b1 EDAC/altera: Fix memory leak on dci allocation failure
 eef3b67f9c6782127163b631c9043011a68016e2 EDAC/altera: Fix use-after-free in error paths
+90de6cb30b0fa69a6b9b48948341f895d72d9e05 Merge ras/edac-urgent into for-next
 
---===============0620372595037510594==--
+--===============3790677931206966474==--
