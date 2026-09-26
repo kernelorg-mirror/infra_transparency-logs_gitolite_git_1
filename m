@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 26 Sep 2026 07:48:51 -0000
-Message-Id: <179040893168.2236600.8982256182728625842@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
+Date: Sat, 26 Sep 2026 08:01:25 -0000
+Message-Id: <179040968526.2248873.9795374860808796972@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/tegra/linux
+user: thierry.reding
 changes:
-  - ref: refs/heads/master
-    old: a6ffb09f6d1a09b6b9632f81c225a0db1f5f2adb
-    new: e3539894b9c98f41cfca929dafab5968edefc4b1
-    log: |
-         24356e7269d8f1d724e62ebe715623d5b824f3df patches/mm: update
-         e3539894b9c98f41cfca929dafab5968edefc4b1 patches/next: rebase to latest mm-new
-         
+  - ref: refs/heads/fixes
+    old: 05a895905c90cffadd29a50078093a15b271f8b4
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
+  - ref: refs/heads/for-7.3/arm64/dt
+    old: b86eaddf467a9ddb69dbaa46eea9dda7f93347a3
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
+  - ref: refs/heads/for-7.3/soc
+    old: c5c95dbdc9011a56359df4dc00be829bbcc0b036
+    new: cee9395acd8043be0644b25c34bfa86623f2b935
