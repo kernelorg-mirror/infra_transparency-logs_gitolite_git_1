@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 26 Sep 2026 00:34:07 -0000
-Message-Id: <179038284758.1915571.6693765583409423617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 26 Sep 2026 00:36:49 -0000
+Message-Id: <179038300994.1918441.17831403917438105414@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 0bb8eab29b55045281a4963d4557f2776cdf8cfa
-    new: 0e7fe2b0ca45343b53345edc174898b448ccdaa4
+    old: 0fd5dfa99cfc7555fe7eb034136e0bad12c5e2c1
+    new: a0dfaa3ecdce8119514806ead63f2eedc778421a
     log: |
-         0e7fe2b0ca45343b53345edc174898b448ccdaa4 net: bcmgenet: allocate RX buffers as page fragments
+         a0dfaa3ecdce8119514806ead63f2eedc778421a net: pcs: lynx: enable autonegotiation for 10g-qxgmii and usxgmii
          
