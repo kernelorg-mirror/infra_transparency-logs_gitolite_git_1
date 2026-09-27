@@ -1,30 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1435986726047349860=="
+Content-Type: multipart/mixed; boundary="===============2695869736805652857=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-next
-Date: Sun, 27 Sep 2026 15:20:07 -0000
-Message-Id: <179052240701.4099354.2546117193550645066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Sun, 27 Sep 2026 15:20:19 -0000
+Message-Id: <179052241927.4099633.12939372293849294365@gitolite.kernel.org>
 
---===============1435986726047349860==
+--===============2695869736805652857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-next
+repo: pub/scm/linux/kernel/git/sashal/linus-next
 user: sashal
 changes:
-  - ref: refs/heads/all-next
+  - ref: refs/heads/linus-next
     old: bcd9de3939e8be6e34398ad51268ceeab7e8cb37
     new: abed2dfe37b7ea36b56f4ed2756e55820b91a435
     log: revlist-bcd9de3939e8-abed2dfe37b7.txt
-  - ref: refs/heads/graphics-next
-    old: f1472ab5827d6779593b7fcf83e0aa27f5642eac
-    new: ff03ffb1ad286b48530aff916e27d32bcc5e7add
-    log: revlist-f1472ab5827d-ff03ffb1ad28.txt
 
---===============1435986726047349860==
+--===============2695869736805652857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -85,22 +81,4 @@ c43996892610f03fd4ec33e6297a1a0203306855 Merge branch 'virt-next' into all-next
 e0cea0ccede7a726390101ee9670dc4a89aca054 Merge branch 'wireless-next' into all-next
 abed2dfe37b7ea36b56f4ed2756e55820b91a435 Add merge report for 2026-09-27 (7 interventions)
 
---===============1435986726047349860==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f1472ab5827d-ff03ffb1ad28.txt
-
-2473f671402c5872f6a1ae9e83310df8072c266c fbdev: atafb: fix sparse warnings
-6a894d182d5630f90a5f0626d75351cbf281c7b2 Merge 'drm-misc-fixes' from https://gitlab.freedesktop.org/drm/misc/kernel.git (for-linux-next-fixes)
-8b385292f91d2a2b6e29eb536e84654a0efe84a2 Merge 'drm' from https://gitlab.freedesktop.org/drm/kernel.git (drm-next)
-07e2d0fcaa74a2ddb064995b3b4eeab95b178368 Merge 'drm-misc' from https://gitlab.freedesktop.org/drm/misc/kernel.git (for-linux-next)
-032afcc4d1afa62e64e1fa15045d6289aba2a7d2 Merge 'drm-intel' from https://gitlab.freedesktop.org/drm/i915/kernel.git (for-linux-next)
-9357eacddf2bba925f7341f032cef8d7556ebef2 Merge 'drm-msm' from https://gitlab.freedesktop.org/drm/msm.git (msm-next)
-00a1846349222daf4de2891ef6428d708767fba9 Merge 'drm-xe' from https://gitlab.freedesktop.org/drm/xe/kernel.git (drm-xe-next)
-f72b3b5d1dc4203c4f572de2750b2c1215dbb07f Merge 'drm-rust' from https://gitlab.freedesktop.org/drm/rust/kernel.git (for-linux-next)
-5dfe9a9111aa4e34551f0b17af5b9491e586be51 Merge 'fbdev' from https://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev.git (for-next)
-27cebf66db73721a54c8ee5fe7bf6672c249c949 Merge 'backlight' from https://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight.git (for-backlight-next)
-ff03ffb1ad286b48530aff916e27d32bcc5e7add Merge 'auxdisplay' from https://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-auxdisplay.git (for-next)
-
---===============1435986726047349860==--
+--===============2695869736805652857==--
