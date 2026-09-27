@@ -1,84 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============2695869736805652857=="
+Content-Type: multipart/mixed; boundary="===============2175813762441430676=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Sun, 27 Sep 2026 15:20:19 -0000
-Message-Id: <179052241927.4099633.12939372293849294365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 27 Sep 2026 15:47:48 -0000
+Message-Id: <179052406833.4125612.1410826994030107231@gitolite.kernel.org>
 
---===============2695869736805652857==
+--===============2175813762441430676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/linus-next
-    old: bcd9de3939e8be6e34398ad51268ceeab7e8cb37
-    new: abed2dfe37b7ea36b56f4ed2756e55820b91a435
-    log: revlist-bcd9de3939e8-abed2dfe37b7.txt
+  - ref: refs/heads/master
+    old: fd179f8a05be3ccae366b9b96e176b51fbe54aab
+    new: efb44d93a620c294c049db37c810c8ab7ee1122d
+    log: revlist-fd179f8a05be-efb44d93a620.txt
 
---===============2695869736805652857==
+--===============2175813762441430676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bcd9de3939e8-abed2dfe37b7.txt
+Content-Disposition: attachment; filename=revlist-fd179f8a05be-efb44d93a620.txt
 
-2473f671402c5872f6a1ae9e83310df8072c266c fbdev: atafb: fix sparse warnings
-6a894d182d5630f90a5f0626d75351cbf281c7b2 Merge 'drm-misc-fixes' from https://gitlab.freedesktop.org/drm/misc/kernel.git (for-linux-next-fixes)
-8b385292f91d2a2b6e29eb536e84654a0efe84a2 Merge 'drm' from https://gitlab.freedesktop.org/drm/kernel.git (drm-next)
-07e2d0fcaa74a2ddb064995b3b4eeab95b178368 Merge 'drm-misc' from https://gitlab.freedesktop.org/drm/misc/kernel.git (for-linux-next)
-032afcc4d1afa62e64e1fa15045d6289aba2a7d2 Merge 'drm-intel' from https://gitlab.freedesktop.org/drm/i915/kernel.git (for-linux-next)
-9357eacddf2bba925f7341f032cef8d7556ebef2 Merge 'drm-msm' from https://gitlab.freedesktop.org/drm/msm.git (msm-next)
-00a1846349222daf4de2891ef6428d708767fba9 Merge 'drm-xe' from https://gitlab.freedesktop.org/drm/xe/kernel.git (drm-xe-next)
-f72b3b5d1dc4203c4f572de2750b2c1215dbb07f Merge 'drm-rust' from https://gitlab.freedesktop.org/drm/rust/kernel.git (for-linux-next)
-5dfe9a9111aa4e34551f0b17af5b9491e586be51 Merge 'fbdev' from https://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev.git (for-next)
-27cebf66db73721a54c8ee5fe7bf6672c249c949 Merge 'backlight' from https://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight.git (for-backlight-next)
-ff03ffb1ad286b48530aff916e27d32bcc5e7add Merge 'auxdisplay' from https://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-auxdisplay.git (for-next)
-c8a6d6039295d61ef1d6b7a37d25c0aa571bd8b9 Merge branch 'arch-next' into all-next
-b724ca354c507a6437f3b4a002e979e0ab494257 Merge branch 'block-next' into all-next
-45bd08e9dc55b94a7fb9c649f24239358c53b002 Merge branch 'bpf-next' into all-next
-ecc1189fc92e1514755b5d03795bc9c1a38dc8bc Merge branch 'bus-next' into all-next
-7b708cbf7bd97b730a998806ae21bea78be71395 Merge branch 'clock-next' into all-next
-6478458b73f1891c4d63ac43aa3762fd888a286f Merge branch 'cluster-next' into all-next
-c2dff09dd8819f35b769b8802d81bcd11c7f1dfe Merge branch 'core-next' into all-next
-dbca3144145d52b39e7bc9336006ac68c4bc0fc4 Merge branch 'crypto-next' into all-next
-8b1d20402961bc4a6eac6540d47f47f715611f60 Merge branch 'docs-next' into all-next
-bcb7d8e59fada79619ee41957e06b171e955b949 Merge branch 'dt-next' into all-next
-775fe8f417276b88648687c0f93277454ba0a832 Merge branch 'firmware-next' into all-next
-6646f2477d23874b85aaf8ff617d8e7d10272068 Merge branch 'fixes-next' into all-next
-c33ef44ecbec10ce46bc4cde8ea88e0b9287dd97 Merge branch 'fpga-next' into all-next
-88aa442cc56b7e7eb11570d826361853b76e14d6 Merge branch 'fs-next' into all-next
-4dcaa35c6a047743695a398040d1332df48e92d5 Merge branch 'gpio-next' into all-next
-c75d95c5ebc8550f417333bdbe9094108eb6ef67 Merge branch 'graphics-next' into all-next
-f5e0f5572c0271e7ab43321e1e4f9ee64b53d875 Merge branch 'hwmon-next' into all-next
-8ba3cba1da49240bf53b911a3d7d7558a90c63ea Merge branch 'iio-next' into all-next
-f4ef8bc99b128a4e8b9356055a758e567dad2d35 Merge branch 'input-next' into all-next
-5e70ce0bad5def38edf4e1bf58d567d2fe916249 Merge branch 'kbuild-next' into all-next
-e50d1f9e2dc11d496df3ce577ef75f3dcc0f44b9 Merge branch 'lib-next' into all-next
-b9a18b77f9272fb70188e5e2b2426fcb9b2b773d Merge branch 'media-next' into all-next
-a18c3259d3498dbe045ab71c30f1cf6946d39715 Merge branch 'misc-next' into all-next
-f2dda4487886c7a380c0d59fa8f158e6b52c1a4a Merge branch 'mm-next' into all-next
-edc71e0c6ae868de36af3eea8444e765183ca35e Merge branch 'net-next' into all-next
-4748e58098c0b930ec00a70a17255e0ea498ac98 Merge branch 'platform-next' into all-next
-044631a337a27fe4a31afaec258d4748d160d804 Merge branch 'pm-next' into all-next
-4ad71ad5be24e9f2ef40a04e076a9793e045b6c8 Merge branch 'power-next' into all-next
-c54c22d7a32ad8d86823f4adab1ea54d73a207a7 Merge branch 'ras-next' into all-next
-bb6b94145cda6d9ecb97046447692cf77d36ee3a Merge branch 'rust-next' into all-next
-fd61c141b1d738ee9fe53b203c053f172128eb41 Merge branch 'sched-next' into all-next
-a5ae2d0f010966f6eba47744a344ad2b62427916 Merge branch 'security-next' into all-next
-e0b0301ee8d9f4acc192ff47fd6b415cffa0efab Merge branch 'soc-next' into all-next
-f00e03503c22a69bb491e9d070e9b9a2c00a5b77 Merge branch 'sound-next' into all-next
-df99ce511b0bae3b27aa962971c116b427c5ae79 Merge branch 'staging-next' into all-next
-dd9f9212ef2105ff144bd761a0f0e5c75b5c28cb Merge branch 'storage-next' into all-next
-9bf133dd4387851e3f674c04a0d335e70eaf8a87 Merge branch 'subsystem-next' into all-next
-0467b7ad80129905f9db3390cac8ad4734042171 Merge branch 'testing-next' into all-next
-f800f64b85759d8642f4e5e2ba67681934d1552c Merge branch 'tools-next' into all-next
-0415c4487ee87f2a2b4a812295fd31d4cc86dfda Merge branch 'tracing-next' into all-next
-c43996892610f03fd4ec33e6297a1a0203306855 Merge branch 'virt-next' into all-next
-e0cea0ccede7a726390101ee9670dc4a89aca054 Merge branch 'wireless-next' into all-next
-abed2dfe37b7ea36b56f4ed2756e55820b91a435 Add merge report for 2026-09-27 (7 interventions)
+6c43c72748fffd29dec15cd1f31e9a32949bc437 x86/sev: Make vTPM SVSM calls preemption-safe
+0d6526f82c3cdefcca47f73f5fc08dc6f335eac6 sched/cache: Keep nr_pref_llc_running in the runnable domain, to fix LLC mis-scheduling bug
+d6013e2465d98d524b030a81c1223882a1bb7e4c sched/cache: Honor migrate_llc_task semantics in active load balance, to fix LLC mis-scheduling bug
+28f9c0e0a0b94c5d3e1b634db545f6e1f94858c5 sched/cache: Decouple sched_cache_group from mm to fix UAF
+b636fef85bda7d1bab9c0a45067ab1508d79d946 sched/cache: Introduce task_struct->sched_cache_grp to fix UAF
+65efcccddc83d6a19e8a2e2a6117811e39e589bf sched/cache: Skip kernel threads for cache aware scheduling to rubustify the code
+3cb0243767fd033bdce95f4f1b5882172a2f8119 sched/cache: Refresh LLC capacity across CPU hotplug, to fix capacity underestimation bug
+cec38d5c098a350dcf084d345025136ade7e6d1e perf/x86/intel: Ensure KVM guest PEBS path doesn't set unwanted PERF_GLOBAL_CTRL bits
+4b64dbdc5861477f148e13d1ed127e7fe7182e4f perf/x86/intel: Don't write PEBS_ENABLED on host<=>guest xfers if CPU has PEBS isolation, to fix stuck PEBS_ENABLED
+d06260e99eb93d2942b7af4ccd789eb8a6c829d3 perf/x86/intel: Don't pointlessly context switch DS_AREA (and PEBS config) if PEBS is unused
+a391618e1d563f099e4c2a704f45d08329ccdf7c perf/x86/intel: Make @data a mandatory param for intel_guest_get_msrs()
+89dc568e8c0be60e05e5fcd0b528c79077d7b84b perf/x86/intel: Fix GRT PEBS load/store direction for latency events, to fix sample classification
+e961d6db42d1f1b66c81438969a648f08573bd9c perf/x86/intel: Fix CMT PEBS load/store direction for latency events, to fix sample classification
+8302c5f475fa5a4ed36a7d32c7b965023d5d7066 perf/x86/intel: Fix DKT PEBS load/store direction for latency events, to fix sample classification
+335b0642812ee0f2b7798b634ce507b8b7c9fe0c perf/x86/intel: Update arw_latency_data() mem-op direction handling
+7c944595cc43a664019edc22505b6d6f6039be5e perf/x86/intel: Remove incorrect LionCove PEBS data-source constraints
+9f93d33ad65af9853974c1ec4ba1f937e8ba1376 perf/x86/intel: Remove incorrect Panther Cove PEBS data-source constraints
+0ac5d6ca2c3b7d047963b67dccef17902dc6c017 perf/x86/intel: Fix Panther Cove PEBS data-source snoop states
+858b37ca19d3f695f7fa94cd14be5a856fd8e7d7 perf/x86/intel: Delete dead NVL PEBS data-source initcall
+04a7ef3b7aa3af34202285043e3423a2e3983595 perf/x86/intel: Constrain Panther Cove UOPS_DISPATCHED events to PMCs 0-3
+ff1621adfdd7cfb73f2ccdd3856cd3462ac98ac5 perf/x86/intel: Fix precise OMR event scheduling for DMR/NVL
+0102c8c7fdfc4bd700971daff2b94470f4eafae4 perf/x86/intel: Rename DMR offcore_rsp attribute to offmodule_rsp
+d4d9ccbad527af115b8e83a7a2b74785c0e8dfea perf/x86/intel: Rename NVL offcore_rsp attribute to offmodule_rsp
+cca4980630b3c7a85f53cb43c6018184ce5d4e37 perf/core: Fix a refcount leak in attach_perf_ctx_data()
+36bb85cf36cab15fb611cb44b78a5df06e4e69a2 perf/core: Fix NULL pmu_ctx passed to pmu->sched_task()
+3d8d74100954a3b17e5c5e37adfe14e16b1db103 perf/core: Run sched_task() for PMUs with only CPU-wide events
+24b620729e53d978b3e425f55bc66efd3bab1f59 perf/core: Fill branch entries with a single assignment
+b8d1d5b63a8ef532038eebd9d97d406860385668 x86/mce: Fix hardware debug register corruption on task migration
+a0bb6fac53fa7cf1cadb487b43d4c9276a6b82e3 sched/core: Account PSI IRQ time to the execution context, not the scheduling context
+5ccda18d1ba2ecf436102a211baf1fbd5d81703f Merge tag 'perf-urgent-2026-09-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+673dab7eac1618b6622bbee9eb2aaa47817631e3 Merge tag 'sched-urgent-2026-09-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+efb44d93a620c294c049db37c810c8ab7ee1122d Merge tag 'x86-urgent-2026-09-27' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============2695869736805652857==--
+--===============2175813762441430676==--
