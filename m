@@ -1,103 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Sun, 27 Sep 2026 21:18:47 -0000
-Message-Id: <179054392740.302231.15228516142914259735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/tftp/tftp-hpa
+Date: Sun, 27 Sep 2026 21:19:30 -0000
+Message-Id: <179054397067.302746.5856797714278875600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/network/tftp/tftp-hpa
+user: hpa
 changes:
-  - ref: refs/tags/gemini-dts-for-7.4
-    old: 0000000000000000000000000000000000000000
-    new: 0bd3c4fb6372de2a1e253602384d7939a7a10e7b
-  - ref: refs/tags/sent/20260203-gemini-usb-fotg2-3873e0d9288a-v1
-    old: 0000000000000000000000000000000000000000
-    new: f9385d20666a538ced8ff00de21c786ffc0ca3d8
-  - ref: refs/tags/sent/20260203-gemini-usb-fotg2-3873e0d9288a-v2
-    old: 0000000000000000000000000000000000000000
-    new: 259544494bd1686f02f672ce4d043df49e7bdfaa
-  - ref: refs/tags/sent/20260203-gemini-usb-fotg2-3873e0d9288a-v3
-    old: 0000000000000000000000000000000000000000
-    new: ddc860a529c5bbf0e923e08ef4a2e9d83ae56092
-  - ref: refs/tags/sent/20260305-aarch64-clear-pages-c-590dae98c333-v2
-    old: 0000000000000000000000000000000000000000
-    new: 2ad8d63f153e920ab7e528b8988b147a62e6853b
-  - ref: refs/tags/sent/20260509-ks8995-to-ksz8-15f3f9c8271f-v10
-    old: 0000000000000000000000000000000000000000
-    new: 52f274ea7d48f4e34d4e2276da8a7e40038e4efe
-  - ref: refs/tags/sent/20260509-ks8995-to-ksz8-15f3f9c8271f-v11
-    old: 0000000000000000000000000000000000000000
-    new: b48c9ec1c01337346030701c7031ae63249d4f83
-  - ref: refs/tags/sent/20260509-ks8995-to-ksz8-15f3f9c8271f-v12
-    old: 0000000000000000000000000000000000000000
-    new: a84b50fc8ec2e209c4a01f68e04e4d48b1219642
-  - ref: refs/tags/sent/20260509-ks8995-to-ksz8-15f3f9c8271f-v13
-    old: 0000000000000000000000000000000000000000
-    new: ae916176c54e16864e92f25ccd5ac46c862559e5
-  - ref: refs/tags/sent/20260509-ks8995-to-ksz8-15f3f9c8271f-v14
-    old: 0000000000000000000000000000000000000000
-    new: dfd527d573cccd42101051e056930afeb99d22a2
-  - ref: refs/tags/sent/20260509-ks8995-to-ksz8-15f3f9c8271f-v15
-    old: 0000000000000000000000000000000000000000
-    new: 05c21a73e3869924dad95ad1352408f718903690
-  - ref: refs/tags/sent/20260509-ks8995-to-ksz8-15f3f9c8271f-v8
-    old: 0000000000000000000000000000000000000000
-    new: 21e34e8d5bafd4ae5f4c4ee200f0a130dced1959
-  - ref: refs/tags/sent/20260509-ks8995-to-ksz8-15f3f9c8271f-v9
-    old: 0000000000000000000000000000000000000000
-    new: d74a64612135c56a79bd84f9d3f3813657b184c2
-  - ref: refs/tags/sent/20260622-arm-generic-irq-entry-v7-1-ff6c1d6c9c48-v3
-    old: 0000000000000000000000000000000000000000
-    new: d3c26631670e68de0dcb9875970a6cfdef94bf1a
-  - ref: refs/tags/sent/20260830-mmc-credit-ossman-147a6f6ce81e-v1
-    old: 0000000000000000000000000000000000000000
-    new: 095d0d38ef652a09fe0b76acbb49053314f929d1
-  - ref: refs/tags/sent/20260901-gemini-ethernet-fixes-e6d2e7c53c1b-v1
-    old: 0000000000000000000000000000000000000000
-    new: 6cfa1ab56a2de629d04212b570a048aa40c3da62
-  - ref: refs/tags/sent/20260901-gemini-ethernet-fixes-e6d2e7c53c1b-v2
-    old: 0000000000000000000000000000000000000000
-    new: 89393a8012626a31ae8a4f7d9c21c7f1018e1dca
-  - ref: refs/tags/sent/20260903-drm-panels-sofef0-73886714ac49-v1
-    old: 0000000000000000000000000000000000000000
-    new: 4462787718179237a3f39618c3b0ef7ddb8809af
-  - ref: refs/tags/sent/20260908-b4-gemini-ethernet-fixes-2-d4c2ee15d11a-v1
-    old: 0000000000000000000000000000000000000000
-    new: f900b79f72ad500c5a9d3532a8ad565632776b5a
-  - ref: refs/tags/sent/20260908-b4-gemini-ethernet-fixes-2-d4c2ee15d11a-v2
-    old: 0000000000000000000000000000000000000000
-    new: aa74916433571101c7aeed6dd1c4f2b2e96447e9
-  - ref: refs/tags/sent/20260914-fotg210-ehci-fixes-18d074ae390e-v1
-    old: 0000000000000000000000000000000000000000
-    new: 088a3a61ab7d387c0450c91d710c4f5dd5c871a7
-  - ref: refs/tags/sent/20260914-fotg210-ehci-fixes-18d074ae390e-v2
-    old: 0000000000000000000000000000000000000000
-    new: 899008b903b37c391533593ebb7042293694a50e
-  - ref: refs/tags/sent/20260919-gemini-ethernet-fixes-3-f0403653f23a-v1
-    old: 0000000000000000000000000000000000000000
-    new: a4a1a72187d2946f2c523f8d0c22563b2ba2a76b
-  - ref: refs/tags/sent/20260921-gemini-tve200-fix-7df25be273fb-v1
-    old: 0000000000000000000000000000000000000000
-    new: 7a94be61ac71858d6356eb78fc412b91efcd3086
-  - ref: refs/tags/sent/20260922-mali-c55-renesas-dts-74d4727f59e5-v1
-    old: 0000000000000000000000000000000000000000
-    new: 73a3158549ae2f90ef9a20c3b6c8a4abe0f2837d
-  - ref: refs/tags/sent/20260922-mali-c55-renesas-dts-74d4727f59e5-v2
-    old: 0000000000000000000000000000000000000000
-    new: 52c7e019b48bd0207705059a19894819bebf1da0
-  - ref: refs/tags/sent/20260923-mali-c55-tpg-capture-be029caacc1e-v1
-    old: 0000000000000000000000000000000000000000
-    new: 607774193eb84c7a8db7d8a42f78981cebfd831c
-  - ref: refs/tags/v7.3-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 5e036ce12de91c6fd674dad33b169c6150be2a7a
-  - ref: refs/tags/v7.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c2cd463d6ee7d55a3ec0719d93c49ff99022d58f
-  - ref: refs/tags/v7.3-rc4
-    old: 0000000000000000000000000000000000000000
-    new: dec005ae90a2946656a090f37bf1cfbd22f08e57
+  - ref: refs/heads/master
+    old: 328e3a1a23e4f90d64f722e4722bb4192b6ea13b
+    new: 8868f39c0e4629021b518bf354406d1f0550bd25
+    log: |
+         af23362c585b4904e51354d1e3faacc01ee85296 release.sh: add signing and .xz files
+         c805d0f734055270c17af454f9dd0e44d609fc4e tftp: add --verbosity level, remove mention of --verbose=level
+         9281b923b016d6b9e2f48e33c147604e03cd6790 tests: control the verbosity of test-tftp.sh.
+         cb11a421a1fc32835a188399902afbfee11ace62 tests: redirect tftpd log output to a file
+         c1fd01143f5208a202becc6b50499efbffd96445 tests: allow the user to set output verbosity, control log locations
+         6ed2c710af84b52f6f587d116b546b03b35eaa4f tftpd: add $(X) to in.tftpd in install target
+         8868f39c0e4629021b518bf354406d1f0550bd25 tftpd: revamp logging framework, add --std{out,err}=tag
+         
