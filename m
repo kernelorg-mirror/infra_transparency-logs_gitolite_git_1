@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1223188856212025072=="
+Content-Type: multipart/mixed; boundary="===============3976028790162123128=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 27 Sep 2026 22:50:16 -0000
-Message-Id: <179054941642.372443.16067734541367693941@gitolite.kernel.org>
+Date: Sun, 27 Sep 2026 22:50:24 -0000
+Message-Id: <179054942429.372663.17511617098013338294@gitolite.kernel.org>
 
---===============1223188856212025072==
+--===============3976028790162123128==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 77be3641f3e3a56e42a5ed889372ef395a933f3c
+  - ref: refs/heads/main
+    old: df2908090cda368b01ff43709f51890076c56157
     new: 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e
-    log: revlist-77be3641f3e3-72d3fcf802c4.txt
+    log: revlist-df2908090cda-72d3fcf802c4.txt
 
---===============1223188856212025072==
+--===============3976028790162123128==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-77be3641f3e3-72d3fcf802c4.txt
+Content-Disposition: attachment; filename=revlist-df2908090cda-72d3fcf802c4.txt
 
-230234d12ce42ab04132a32c3a848f07a5d27a71 tracing: Free histogram the field rejected for a bad modifier
 06f5634ec5584954177f9a22e36b3bfb398a971b tracing: Keep the entry count when the histogram stats allocation fails
 3d617bfd79330ae3acf94862c18bb3ccf5f5a0f9 tracing: Let histogram values keep the percent and graph modifiers
 89b000ba0796593aa61f6eec24d369337594588b tracing: Fix typo "availabe" in comment
@@ -55,6 +54,7 @@ ebc5660132ddd244b57f03ed324922013a3d7363 smb/client: send lease break ACKs thru 
 1235ff329981ecde9ccbf49b83bd4d71e827d541 Merge tag 'platform-drivers-x86-v7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 827751b699b79a6e569983359c02dce67f81b94c Merge tag 'riscv-for-linus-7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 525f0f99a4f775060288b3069e12b1d3e2b576da Merge tag 'drm-fixes-2026-09-12' of https://gitlab.freedesktop.org/drm/kernel
+77be3641f3e3a56e42a5ed889372ef395a933f3c debugfs: don't warn about uninitialized debugfs for an error parent
 2725ab3f5ad1c5f375c7c9fee4af02a9b138f701 keys: fix lost wakeup when reaping a dead key type
 0d6a4268b06084baafd8ee5d66955c7e1c2e053b keys: translate request_key_auth pid for the reading procfs instance
 114f00d738f15dd8c7318369edcdc53dd6d08763 KEYS: trusted: Fix tpm2_load_cmd() boundary check
@@ -1051,4 +1051,4 @@ b1fa457bddf009907b023bc0c09ba4eca3191a8e Merge tag 'cgroup-for-7.3-rc4-fixes-2' 
 d266640c6c760c9bc215bf5a3ece122ca488b6f5 Merge tag 'driver-core-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e Linux 7.3-rc5
 
---===============1223188856212025072==--
+--===============3976028790162123128==--
