@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Sun, 27 Sep 2026 16:35:33 -0000
-Message-Id: <179052693360.4187202.10311202173978690639@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Sun, 27 Sep 2026 16:39:39 -0000
+Message-Id: <179052717964.2469.2684031670771661841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/next
-    old: c345ec7f39efd4419f825141ec344456a494de54
-    new: 5c49bb52faf38ddf9c3383807b1d814ef8769b80
+  - ref: refs/heads/kernel-7.1.13/main.NFSD_TCP_WRITE_ZEROCOPY
+    old: 90059375b6370b68c9ed305874092614bf561a6f
+    new: 5119bf775071a89f8f8508bbed6867e150b9f957
     log: |
-         7ef1b9e11dd7b3832124e26a6fee703b342d6f7f KVM: arm64: Report SMCCC_VERSION and SMCCC_ARCH_FEATURES as implemented
-         67d00fcc00761e9fe4debeac781eb4f992dd8506 KVM: arm64: selftests: Check the mandatory SMCCC_ARCH_FEATURES queries
-         0dea17ffe6757a6249d143e607e786144aceee9c KVM: arm64: Disable stage-2 ptdump of pKVM
-         8642afb74be6de014e49937c2c4de7576f45531c KVM: arm64: Remove PAGE_SIZE alignment for hyp event ELF sections
-         5c49bb52faf38ddf9c3383807b1d814ef8769b80 Merge branch kvm-arm64/misc-7.4 into kvmarm-master/next
+         5119bf775071a89f8f8508bbed6867e150b9f957 NFSD_TCP_WRITE_ZEROCOPY: record that tardis1's NVMe is PRP-only
          
