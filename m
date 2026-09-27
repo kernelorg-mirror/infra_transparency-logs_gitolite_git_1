@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Sun, 27 Sep 2026 01:49:37 -0000
-Message-Id: <179047377749.3269096.1214702840965605492@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-next
+Date: Sun, 27 Sep 2026 01:58:05 -0000
+Message-Id: <179047428536.3281354.12466726862256544921@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/sashal/linux-next
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: a80d4468480090f2932f6cb85a72e50ea4be81e2
-    new: cc43480ac04cf909387d8b722f7491905ef7a7c3
+  - ref: refs/heads/all-next
+    old: cc210d4aab1ec11743cc7445247bb18f70b19824
+    new: 4e896f2dc30f2701dfd931fa61f1abe5cd890169
     log: |
-         5ec5719651e2682ac1bdd085cbe857f1ef78b96a firewire: core: add __counted_by_ptr to struct fw_packet
-         cc43480ac04cf909387d8b722f7491905ef7a7c3 firewire: core: add __counted_by_ptr attribute to struct fw_device
+         4e896f2dc30f2701dfd931fa61f1abe5cd890169 Add merge report for 2026-09-27 (0 interventions)
          
