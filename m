@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7823109221337362744=="
+Content-Type: multipart/mixed; boundary="===============2843137787462539441=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 27 Sep 2026 07:37:32 -0000
-Message-Id: <179049465290.3567641.9609115018770411927@gitolite.kernel.org>
+Date: Sun, 27 Sep 2026 07:38:06 -0000
+Message-Id: <179049468610.3569093.843898591380490689@gitolite.kernel.org>
 
---===============7823109221337362744==
+--===============2843137787462539441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: a14fcf2723ccb9dafc0c1e1c2f07314871b032ae
-    new: 541479901e2854e3971b76d0f7325f72ca1cf331
-    log: revlist-a14fcf2723cc-541479901e28.txt
+    old: 541479901e2854e3971b76d0f7325f72ca1cf331
+    new: 880fe354bd08985a6c839c81868f554310163d5a
+    log: revlist-541479901e28-880fe354bd08.txt
+  - ref: refs/heads/tip/urgent
+    old: 9db48721d4567aa77d840d1537405eb3df3df957
+    new: 9f6ccce50b2a5fe6d5475cf20e0cf294254f8778
+    log: revlist-9db48721d456-9f6ccce50b2a.txt
 
---===============7823109221337362744==
+--===============2843137787462539441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a14fcf2723cc-541479901e28.txt
+Content-Disposition: attachment; filename=revlist-541479901e28-880fe354bd08.txt
+
+830f458f89ea8a4aae75e8a7091cb3ce49137865 Merge branch into tip/master: 'perf/urgent'
+d06444e80ad1c163372265417ecc60dbf08c2db2 Merge branch into tip/master: 'sched/urgent'
+d2b74b27219b27d6c538efd80df57f11ff089c78 Merge branch into tip/master: 'x86/urgent'
+9f6ccce50b2a5fe6d5475cf20e0cf294254f8778 Merge branch into tip/master: 'x86/mm'
+fda6bf998a988056508ae0783b43e282b7839d9b Merge branch into tip/master: 'irq/core'
+d6e3ed1456660ccbbdeb966ee77f7ec407903ec3 Merge branch into tip/master: 'irq/drivers'
+2eee94ec82f2710008c767576e1198d99588fc45 Merge branch into tip/master: 'objtool/core'
+8125fe4650111b37a138aad3a295f6a6a9d613bb Merge branch into tip/master: 'perf/core'
+c52f8663285418dcbd64e7f0abe03e6bbc15b1af Merge branch into tip/master: 'sched/core'
+47cc618d6d34f6a86626cc285c088dc1362ffaf5 Merge branch into tip/master: 'timers/core'
+21403e108ca313bfdd221bd045a1314ff6e45c37 Merge branch into tip/master: 'timers/nohz'
+129da97eb06274df1792b1db47d088644fe0b1a1 Merge branch into tip/master: 'x86/asm'
+b63989d6d79fd459617813c79868118d0290754b Merge branch into tip/master: 'x86/boot'
+830e592163772e44d80903d9860e3418581182e8 Merge branch into tip/master: 'x86/bugs'
+f7955ae16d237a82f5ff94455fccab1a24d8620c Merge branch into tip/master: 'x86/cache'
+fea331bd2abe22d54176a5d725e61b1c1f2a5625 Merge branch into tip/master: 'x86/cleanups'
+98c60def6043eb57931138a1b3abef6e6f2938b9 Merge branch into tip/master: 'x86/cpu'
+e069a267b1ebc8ea600b7e3dd122cfcb885d9ce9 Merge branch into tip/master: 'x86/kdump'
+130d72d715ad455ace5d6f08eba27f2198145b61 Merge branch into tip/master: 'x86/misc'
+609e262b1ac3152135ce7ddf7923d110c139e908 Merge branch into tip/master: 'x86/platform'
+c16d22880b919a0df4b60cd6783a10a2375b12ae Merge branch into tip/master: 'x86/sev'
+00eb1704f17b2c1dec154f6750f7dcd934418aaf Merge branch into tip/master: 'x86/sgx'
+880fe354bd08985a6c839c81868f554310163d5a Merge branch into tip/master: 'x86/tdx'
+
+--===============2843137787462539441==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9db48721d456-9f6ccce50b2a.txt
 
 d215f014b3526a9898d87bfb4b866287f0864cc9 KVM: s390: Fix dirty marking in adapter_indicators_set*()
 ae12d2f9c119639a142d92c4a37c30277e8576da KVM: s390: Fix compile warning for kvm_s390_update_cmma_dirty()
@@ -232,7 +266,6 @@ f14572c203d57492e1d4e5d7851a3b143e083b82 Merge tag 'cifs-fixes-7.3-rc5' of https
 a9ed3aa9b87ee41e8ab3ff471b1331c154767e45 Merge tag 'drm-misc-fixes-2026-09-24' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 75467f60a3d14f08f86f2b353298d2826382ff23 Merge tag 'ipe-pr-20260925' of git://git.kernel.org/pub/scm/linux/kernel/git/wufan/ipe
 6812ce4e4379ffc99c52401ec28f0d7ffbc36206 Merge tag 'drm-fixes-2026-09-26' of https://gitlab.freedesktop.org/drm/kernel
-a17d099481bd11f0911993a8e69992269f92ad12 x86/resctrl: Update documented unit for the "activity" event
 12c1f6e03f944e399bd2c88441dca5dc702b95a5 KVM: SEV: Free have_run_cpus during VM destruction even if VM is no longer SEV
 93de2a6a4b91b72607136dd656edf03fb399d27f KVM: SEV: Do cache maintenance on the source VM during intra-host migration
 c2f24f140c2ee6c00775c2a93c6ac931acec2b60 Merge tag 'kvm-x86-fixes-7.3-rc5' of https://github.com/kvm-x86/linux into HEAD
@@ -240,7 +273,9 @@ eff8d2791c086388ba5bae36385afd9bc6f0507e Merge tag 'for-linus' of git://git.kern
 efb27d47677397961c9017c0f8f469eb25a15d68 Merge tag 'probes-fixes-v7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 fddfc3ec31799a932bb92f1b8a84cb3d1f963be9 Merge tag 'pci-v7.3-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 fd179f8a05be3ccae366b9b96e176b51fbe54aab Merge tag 'ata-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-e904c7a3da8d6a08e4970c67684eff54472af460 Merge branch 'linus'
-541479901e2854e3971b76d0f7325f72ca1cf331 Merge branch into tip/master: 'x86/cache'
+830f458f89ea8a4aae75e8a7091cb3ce49137865 Merge branch into tip/master: 'perf/urgent'
+d06444e80ad1c163372265417ecc60dbf08c2db2 Merge branch into tip/master: 'sched/urgent'
+d2b74b27219b27d6c538efd80df57f11ff089c78 Merge branch into tip/master: 'x86/urgent'
+9f6ccce50b2a5fe6d5475cf20e0cf294254f8778 Merge branch into tip/master: 'x86/mm'
 
---===============7823109221337362744==--
+--===============2843137787462539441==--
