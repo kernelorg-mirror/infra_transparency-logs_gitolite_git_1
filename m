@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8467588732764156199=="
+Content-Type: multipart/mixed; boundary="===============4382264516126496626=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Sun, 27 Sep 2026 14:24:12 -0000
-Message-Id: <179051905249.4051202.3262208764994766607@gitolite.kernel.org>
+Date: Sun, 27 Sep 2026 14:24:26 -0000
+Message-Id: <179051906691.4051477.14735936055366185068@gitolite.kernel.org>
 
---===============8467588732764156199==
+--===============4382264516126496626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,42 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: af32c3cb72529b14bfb2685bbdaa2b1514496b58
-    log: |
-         f136640782e13480ca0f52759483f476d93a1b61 m68k: Use generic BASE_BAUD in asm/serial.h
-         daf59a78072d36e449b3f78c70c971f00f87fe29 m68k: Add include guard to asm/serial.h
-         dd22510518598ad0b0341168075b77b647954ff0 m68k: Add support for SVEthLANa
-         cf83dfb2f22b5517c9033b1357cca412a4ae0fe3 m68k: defconfig: Enable PATA_CSWARP
-         6cdbe63badcb524c88f2c8b3cee08f2ffc099a1b m68k: apollo: Fix interrupt setup
-         87a981f18ffba758badf3dfc9c3efcd7beca19bb zorro: Use assign_bit() where applicable
-         6fcfce65d445ba6436ffea16ed36b7557cad5968 m68k: defconfig: Update defconfigs for v7.3-rc1
-         af32c3cb72529b14bfb2685bbdaa2b1514496b58 m68k: defconfig: Enable ATARI_SVETHLANA and ETHOC
-         
-  - ref: refs/heads/for-v7.4
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: af32c3cb72529b14bfb2685bbdaa2b1514496b58
-    log: |
-         f136640782e13480ca0f52759483f476d93a1b61 m68k: Use generic BASE_BAUD in asm/serial.h
-         daf59a78072d36e449b3f78c70c971f00f87fe29 m68k: Add include guard to asm/serial.h
-         dd22510518598ad0b0341168075b77b647954ff0 m68k: Add support for SVEthLANa
-         cf83dfb2f22b5517c9033b1357cca412a4ae0fe3 m68k: defconfig: Enable PATA_CSWARP
-         6cdbe63badcb524c88f2c8b3cee08f2ffc099a1b m68k: apollo: Fix interrupt setup
-         87a981f18ffba758badf3dfc9c3efcd7beca19bb zorro: Use assign_bit() where applicable
-         6fcfce65d445ba6436ffea16ed36b7557cad5968 m68k: defconfig: Update defconfigs for v7.3-rc1
-         af32c3cb72529b14bfb2685bbdaa2b1514496b58 m68k: defconfig: Enable ATARI_SVETHLANA and ETHOC
-         
-  - ref: refs/heads/master
-    old: af603e3278d558258b21125822229de0625182b1
-    new: 7190784b9781f2612c346f069cd2621ad20e164d
-    log: revlist-af603e3278d5-7190784b9781.txt
+  - ref: refs/heads/m68k-queue
+    old: 91895a15dd0dc36a54d40d67ae631af21b4da416
+    new: 648185d2222c75fda7490f30afa58ce35c552493
+    log: revlist-91895a15dd0d-648185d2222c.txt
 
---===============8467588732764156199==
+--===============4382264516126496626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af603e3278d5-7190784b9781.txt
+Content-Disposition: attachment; filename=revlist-91895a15dd0d-648185d2222c.txt
 
 d042487dc118e494db2e2c1382310255c90ff544 xfrm: iptfs: fix stack OOB read in iptfs_skb_reset_frag_walk()
 89fefad9f971bc637fb22373078144f2563c4be9 xfrm: serialize state GC with device state flush
@@ -650,12 +624,14 @@ fecbe78ac0e7bb5cdae232444e649a3103d9a917 Merge tag 'sched-urgent-2026-09-20' of 
 a10a019dd4c7c57bef6b8dda962c8881ad220af2 Merge tag 'dmaengine-fix-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 6a5719cc3ef2e4d9857cc4ae18e6db09d59a8cc9 net: qrtr: resend HELLO on MHI resume
 93f51579e7df248780214094418f205253383cc5 Linux 7.3-rc4
-229ac5d4eaf1a3d9f8e51bae611ae5e202f9ec29 Merge tag 'v7.3-rc4'
-fc0d2c20ecbdc7cd970c6fb879967a2085ccffce m68k: Use generic BASE_BAUD in asm/serial.h
-5b453d82b77cd4a4789438d2c427533bcb6f5945 m68k: Add include guard to asm/serial.h
-b5c9c2af4ccd819cd66a5899b7d3926354fca9cf m68k: Add support for SVEthLANa
-100297ab6bc4c942205a0f8607d20011ee6d1a65 m68k: defconfig: Enable PATA_CSWARP
-a9c01633fc899a7ff669b44dfdc9db3ff4e8e532 m68k: apollo: Fix interrupt setup
-7190784b9781f2612c346f069cd2621ad20e164d zorro: Use assign_bit() where applicable
+aec88d95e754f6ed4a9db62f147d3959e53d001b m68k: Use generic BASE_BAUD in asm/serial.h
+bd60f71ce3be9b824ba46be55e17d4b332fd9f9f m68k: Add include guard to asm/serial.h
+b3a4b5e4d176d2b7e23ffbcb850358f4e4c88e4b m68k: Add support for SVEthLANa
+e1c601061f314b28e49459e67e3d19b23b1c6a3f m68k: defconfig: Enable PATA_CSWARP
+ddffb85ff85feb29415505046d361748636c5995 m68k: apollo: Fix interrupt setup
+1916f892eb1a1c5751dccb9772862e4174d00d7a zorro: Use assign_bit() where applicable
+ac42da4db55429ddc6a54009a8db6de7d39cd407 m68k: atari: usb: Add ISP1160 USB host controller support
+db409b255793c7a949b8daba3c825c33ea8b2618 m68k: atari: Update Kconfig.bus help text
+648185d2222c75fda7490f30afa58ce35c552493 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8467588732764156199==--
+--===============4382264516126496626==--
