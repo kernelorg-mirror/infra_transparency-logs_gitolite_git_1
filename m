@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7599084222580482741=="
+Content-Type: multipart/mixed; boundary="===============9164019527206906685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Sun, 27 Sep 2026 20:40:12 -0000
-Message-Id: <179054161215.274884.6239939034661206117@gitolite.kernel.org>
+Date: Sun, 27 Sep 2026 20:40:18 -0000
+Message-Id: <179054161867.275088.3951599585573516343@gitolite.kernel.org>
 
---===============7599084222580482741==
+--===============9164019527206906685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ojeda/linux
 user: ojeda
 changes:
-  - ref: refs/heads/rust-next
+  - ref: refs/heads/rust-fixes
     old: 93f51579e7df248780214094418f205253383cc5
     new: d266640c6c760c9bc215bf5a3ece122ca488b6f5
     log: revlist-93f51579e7df-d266640c6c76.txt
 
---===============7599084222580482741==
+--===============9164019527206906685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -675,4 +675,4 @@ b1fa457bddf009907b023bc0c09ba4eca3191a8e Merge tag 'cgroup-for-7.3-rc4-fixes-2' 
 64d34cef2a32331fedabf25ea8fa8a30128af9f7 Merge tag 'i2c-fixes-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 d266640c6c760c9bc215bf5a3ece122ca488b6f5 Merge tag 'driver-core-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 
---===============7599084222580482741==--
+--===============9164019527206906685==--
