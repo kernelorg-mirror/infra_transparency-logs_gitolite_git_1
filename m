@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Sun, 27 Sep 2026 19:52:27 -0000
-Message-Id: <179053874772.239942.15059363576671952825@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sun, 27 Sep 2026 20:27:07 -0000
+Message-Id: <179054082739.264782.11946719635556777282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/renesas/x5h/rtc-experimental
-    old: f6bc4015236c7ad6cac6171d66e9f85c96548db8
-    new: 16f3e775b777d547cde4597d9587b702366e0337
+  - ref: refs/heads/master
+    old: b575ec11b1c47b04d4b9aed4b8c3eb5092b15948
+    new: cd8d4206b956a44aeff4cf2edb94e180c5a668c0
     log: |
-         97b93c6045e26df94a2a8b13fc7653e948e174b4 dt-bindings: rtc: rzn1: Describe resets property
-         49b2952bf3b82ad39dd1df19053c5fc6f002065e dt-bindings: rtc: rzn1: add R-Car X5H support
-         ae4f83de733493e74da7c92c2c6b68a36878491a rtc: rzn1: add R-Car X5H support
-         e87b9ece43558e1026c58588a9ee869876633a51 pmdomain: renesas: r8a78000: Add RTCA support
-         16f3e775b777d547cde4597d9587b702366e0337 X5H DTS{I}
+         cd8d4206b956a44aeff4cf2edb94e180c5a668c0 foo
          
