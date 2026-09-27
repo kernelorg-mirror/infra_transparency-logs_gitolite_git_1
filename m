@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1533968410966049764=="
+Content-Type: multipart/mixed; boundary="===============6501656310650520274=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Sun, 27 Sep 2026 12:30:14 -0000
-Message-Id: <179051221470.3934360.104184256046932671@gitolite.kernel.org>
+Date: Sun, 27 Sep 2026 12:31:42 -0000
+Message-Id: <179051230275.3938888.4816207881785895830@gitolite.kernel.org>
 
---===============1533968410966049764==
+--===============6501656310650520274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wsa/linux
 user: wsa
 changes:
-  - ref: refs/heads/renesas/x5h/i2c-experimental
-    old: a6364e50d23519af352e9a98a364d1f34b0a23cf
-    new: 691f170881376da38900acf16f6ba38d22fe3e34
-    log: revlist-a6364e50d235-691f17088137.txt
+  - ref: refs/heads/renesas/x5h/base-experimental
+    old: b6baa87a93fb39a29c8f77b45c9c64b72d2e9bb6
+    new: 61382c1026cdebbf608e3aecb95c11d1cdbb9bb2
+    log: revlist-b6baa87a93fb-61382c1026cd.txt
 
---===============1533968410966049764==
+--===============6501656310650520274==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6364e50d235-691f17088137.txt
+Content-Disposition: attachment; filename=revlist-b6baa87a93fb-61382c1026cd.txt
 
 cfc1e9a543e3589ba200795b6e7fd8ef4314efdf ARM: socfpga: select the PL310 erratum 753970 workaround
 5f8cb07d7a8573753c5d31dc76b51cab8e5e9460 arm64: dts: socfpga: change access permission from 755 to 644
@@ -1002,11 +1002,5 @@ af53158f111d3e9627c3c4354366e4c4d5461f83 --- R-Car X5H pin control fixes -------
 76819c23dbf558dea125ec4b839819ee88375550 [TEST] arm64: dts: renesas: ironhide: Add serial port control
 f95618fee306f7197c6a2c65e0a9a68f9c6d0eb3 [TEST] arm64: dts: renesas: ironhide: Enable MSIOF0 and MSIOF6
 61382c1026cdebbf608e3aecb95c11d1cdbb9bb2 --- R-Car X5H Ironhide pin control -------------------------------
-a25290136befd5863a6ee55e181fda1026556a65 dmaengine: sh: rcar-dmac: fix style in struct initialization
-3954e64fca8a30c7b3f0c0e4f5590c4843f68a29 dmaengine: sh: rcar-dmac: SMMU doesn't need IPMMU workaround
-00721e0a1cd4c5934bcb1d8b8d50906379d43459 dt-bindings: renesas,rcar-dmac: Add support for R-Car X5H SoC
-f041664ad484d6eab433268f11d1e2accda5019f dmaengine: sh: rcar-dmac: Add support for R-Car Gen5 SoCs
-bab5305a24c07e5af6189625484f81673777831a arm64: dts: renesas: r8a78000: I2C
-691f170881376da38900acf16f6ba38d22fe3e34 arm64: dts: renesas: ironhide: I2C
 
---===============1533968410966049764==--
+--===============6501656310650520274==--
