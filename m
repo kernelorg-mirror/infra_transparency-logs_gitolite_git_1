@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sun, 27 Sep 2026 01:33:29 -0000
-Message-Id: <179047280912.3246722.10511662638663143106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Sun, 27 Sep 2026 01:37:17 -0000
+Message-Id: <179047303737.3255846.10014143356265830953@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/kernel-7.1.13/main.NFSD_TCP_WRITE_ZEROCOPY
-    old: 3350af53be4bd670e89d3d57f02ecbae530178d6
-    new: db063de487eea104ff21d5994a3ff23f90d65162
+  - ref: refs/heads/for-next
+    old: 4eea44fefc15929ac2de10bd9b12319ea42e0e0f
+    new: a80d4468480090f2932f6cb85a72e50ea4be81e2
     log: |
-         db063de487eea104ff21d5994a3ff23f90d65162 NFSD_TCP_WRITE_ZEROCOPY: test xeu rx_ip_align on the 64K page arm64 kernel
+         7497e4a0ea66dbfdbfcd698bd8d0e3a8114beda1 firewire: cdev: hold client reference for fw_iso_resource_auto lifetime
+         a80d4468480090f2932f6cb85a72e50ea4be81e2 firewire: cdev: fix client refcount leak in iso_resource_auto_work()
          
