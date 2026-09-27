@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1861345744530047150=="
+Content-Type: multipart/mixed; boundary="===============1791524816397982978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 27 Sep 2026 08:47:56 -0000
-Message-Id: <179049887621.3679268.2958771783628113879@gitolite.kernel.org>
+Date: Sun, 27 Sep 2026 08:47:58 -0000
+Message-Id: <179049887879.3679704.4527325157383299610@gitolite.kernel.org>
 
---===============1861345744530047150==
+--===============1791524816397982978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: b4fc90c82982d98959af08b4320420bcfc01303b
-    new: 1c2b8d2725f84b43fabe3b3e9628c91db8ca6c65
-    log: revlist-b4fc90c82982-1c2b8d2725f8.txt
+  - ref: refs/heads/mm-unstable
+    old: 09d9672a5d4f5bea0730a26f2c3eb94fe194a6bc
+    new: aca5319962bc5514351d3bc25ddc021ac1df4dfc
+    log: revlist-09d9672a5d4f-aca5319962bc.txt
 
---===============1861345744530047150==
+--===============1791524816397982978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4fc90c82982-1c2b8d2725f8.txt
+Content-Disposition: attachment; filename=revlist-09d9672a5d4f-aca5319962bc.txt
 
 c79cf15eb35a4c703bf18f8c33c47e80dd660f8e module: fix lost error code from codetag_load_module()
 72c3d682c165b836b54a3d07a01f72e39c47022c mm: shmem: ignore sysfs configs for shmem forced collapse
@@ -674,29 +674,5 @@ c374a01b6fcab533efca5943c088ea0d16741338 fs/proc/page: clarify comment in get_ma
 8dd8ffa81f1700aef4208b72fc16db00729f3e17 mm: fix typos in various comments
 72a7dc3e0ee8d9452e67cdd4176d48e9d1508285 mm/hugetlb: fix overbroad MMU notifiers for unshared PMDs
 aca5319962bc5514351d3bc25ddc021ac1df4dfc selftests/mm: fix mlock2 errno handling and false PASS on ENOSYS
-d98282e82a5fc33a5afb979f51caf3760c579319 kselftest: mm: prevent random failure of huge page split for khugepaged
-6c54c8c01dd20a82f98f465fbfae2f25bdfd404a kselftest: mm: replace usage of /proc/self/smaps for __check_pmd_huge()
-a322de41e598a1901efe6d9892a5320706afe6eb kselftest: mm: integrate huge page checks
-9ab6b6d24691a6ae59cb9b185936e957c0d6ecbc kselftest: mm: remove check_huge_shmem()
-93fc0b1eced0f128ecb895c8f688d07cf4db7a51 mm: remove the unused zone->unaccepted_cleanup
-50d846e47891112cdfadfb8a675656b79f5d3a29 arm64/mm: move __check_safe_pte_update()
-ee0ea40f4e674ba573ddc174c42bfb465c1ffd5c arm64/mm: standardize printing for pgtable entries
-9db66636d6d06e9d6428e3ada5dd9cf11feeef17 arch, mm: promote DEBUG_WX to CHECK_WX
-1ee120ff8423c683174a0ebcc6fc468fdb361eca mm/vmalloc: do not warn on -ENOMEM from va_clip() in pcpu_get_vm_areas()
-377d8387e956a7f5e0bb98d47424dca353af158e mm/vma: don't remove VMA from rmap if pgoff unchanged
-204b773073bc61cf525224c0f951daac68147c1d selftests/mm: fix soft-dirty kselftest supported check
-e5d6972658ade76490b91940e79bcacc8c13d61b riscv: mm: fix concurrency in mark_new_valid_map()
-40c6a81ee771a3f470d5432108fa1013b8d76d70 riscv: mm: exclude invalid THP PMDs from page table check
-c3ba5b36d790f410e2e31ff7d36a58e3fe33a47e sh: remove CONFIG_NUMA and related configuration options
-231e01f9b4fd625acc3020eab27dfdffcbaa3060 sh: mm: remove numa.c
-caab449133e62cdd2d4549fe292a260b5a41e170 sh: mm: drop allocate_pgdat()
-7b27fea069633ff9472a36beec06bfb4e07a5d09 sh: remove setup_bootmem_node() and plat_mem_setup()
-511a8749984b2d581434a8121bd9a381303bcbbb sh: drop dead code guarded by #ifdef CONFIG_NUMA
-a97ffbaf201830e1c49b5e1122714ac4cf1798f3 sh: drop include/asm/mmzone.h
-92c79787b099215ee0b2d255b6676e42a8ec1481 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-6e15042bae48e28e2e10f65adec941533a6d12aa sh: init: remove call the memblock_set_node()
-6ec3e5161f8c897bf2d7de04f22cbc4e690ff345 sh: remove SPARSEMEM related entries from Kconfig
-1e2a1944825059586aa53783fe0be2bd8996a6ef sh: drop include/asm/sparsemem.h
-1c2b8d2725f84b43fabe3b3e9628c91db8ca6c65 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============1861345744530047150==--
+--===============1791524816397982978==--
