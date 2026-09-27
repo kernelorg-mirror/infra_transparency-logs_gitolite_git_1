@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6975059917922175837=="
+Content-Type: multipart/mixed; boundary="===============2711795058679882207=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sun, 27 Sep 2026 23:41:05 -0000
-Message-Id: <179055246581.408764.13954943651525533235@gitolite.kernel.org>
+Date: Sun, 27 Sep 2026 23:41:32 -0000
+Message-Id: <179055249270.409052.16348395210011590404@gitolite.kernel.org>
 
---===============6975059917922175837==
+--===============2711795058679882207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-fixes
-    old: cb97bf3d4f91453b881acaf8e9f0cc47bb40b604
-    new: 840d8acc87925deb3c75566fde9ca81d2f47f98c
-    log: revlist-cb97bf3d4f91-840d8acc8792.txt
+  - ref: refs/heads/i2c/i2c-next
+    old: ac1b85433cf4f22ecd3cda3dbd999072325c96f9
+    new: 8fff664178a9a1f2e5920912348702231154611c
+    log: revlist-ac1b85433cf4-8fff664178a9.txt
 
---===============6975059917922175837==
+--===============2711795058679882207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb97bf3d4f91-840d8acc8792.txt
+Content-Disposition: attachment; filename=revlist-ac1b85433cf4-8fff664178a9.txt
 
 34b8b2d78b6276dc2dc4ebc06625a39956f266e4 remoteproc: qcom: q6v5_pas: Don't enable handover IRQ on attach
 b853857293584dd1f52183f70a2bdeca692a1e71 remoteproc: qcom_q6v5_mss: Don't require PAS for memory protection
@@ -677,5 +677,6 @@ d266640c6c760c9bc215bf5a3ece122ca488b6f5 Merge tag 'driver-core-7.3-rc5' of git:
 b7e6df2f52ed5c02838832f53c171a5645f9b376 i2c: xiic: preserve PEC byte length in SMBus block read setup
 e6fe3ea04f0113fe4d47c03d76e03805a4768ca7 i2c: xiic: defer RX_FULL until all trailing bytes are in FIFO
 840d8acc87925deb3c75566fde9ca81d2f47f98c i2c: xiic: don't clobber msg->len to signal block-read completion
+8fff664178a9a1f2e5920912348702231154611c Merge branch 'i2c/i2c-fixes' into i2c/i2c-next
 
---===============6975059917922175837==--
+--===============2711795058679882207==--
