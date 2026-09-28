@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1402802928438002673=="
+Content-Type: multipart/mixed; boundary="===============3741823857429790238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/fustini/linux
-Date: Mon, 28 Sep 2026 15:44:12 -0000
-Message-Id: <179061025231.1190017.10695570577500675949@gitolite.kernel.org>
+Date: Mon, 28 Sep 2026 15:44:16 -0000
+Message-Id: <179061025690.1190252.4337561939974472531@gitolite.kernel.org>
 
---===============1402802928438002673==
+--===============3741823857429790238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/fustini/linux
 user: fustini
 changes:
-  - ref: refs/heads/riscv-config-for-next
-    old: 020e209272bee0b8add8cba21125e4744f034b26
+  - ref: refs/heads/riscv-config-fixes
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-020e209272be-cee9395acd80.txt
+    log: revlist-254f49634ee1-cee9395acd80.txt
 
---===============1402802928438002673==
+--===============3741823857429790238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-020e209272be-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============1402802928438002673==--
+--===============3741823857429790238==--
