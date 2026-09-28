@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8080088202370561052=="
+Content-Type: multipart/mixed; boundary="===============4951908375112433311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 28 Sep 2026 17:04:25 -0000
-Message-Id: <179061506583.1257382.18087919943295703900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 28 Sep 2026 17:04:36 -0000
+Message-Id: <179061507635.1257655.12190538750927752136@gitolite.kernel.org>
 
---===============8080088202370561052==
+--===============4951908375112433311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 8a0b9c9ff582258aafc6d6c8fe3fb104d9686a7b
     log: revlist-3fe817049318-8a0b9c9ff582.txt
 
---===============8080088202370561052==
+--===============4951908375112433311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -62,4 +62,4 @@ a86bd28b6e71101a1b11b7768f9bbc648b7b14d3 perf vendor events intel: Fix sierrafor
 f37e7dfbd34c4e48d2bea4c5e0e64c398671e87b perf vendor events intel: Fix skylakex umask encoding.
 8a0b9c9ff582258aafc6d6c8fe3fb104d9686a7b perf vendor events intel: Fix snowridgex umask encoding.
 
---===============8080088202370561052==--
+--===============4951908375112433311==--
