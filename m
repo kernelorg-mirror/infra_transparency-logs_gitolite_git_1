@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8399084306082268741=="
+Content-Type: multipart/mixed; boundary="===============0783955611268936950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 28 Sep 2026 21:01:53 -0000
-Message-Id: <179062931303.1444367.2579972029741330275@gitolite.kernel.org>
+Date: Mon, 28 Sep 2026 21:02:25 -0000
+Message-Id: <179062934595.1444675.9463581373503953530@gitolite.kernel.org>
 
---===============8399084306082268741==
+--===============0783955611268936950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-7.4
-    old: bb65a2665f5891bb74fb679b5601750eec4bea62
-    new: 7103a8c7b2ce196aded3bdfd8c4cf5afef4a90ff
-    log: revlist-bb65a2665f58-7103a8c7b2ce.txt
+  - ref: refs/heads/for-next
+    old: 65546aaf0515257141b1f308dc456b349984de12
+    new: 3432b35716f98f274b9567c157cf14a56d257a15
+    log: revlist-65546aaf0515-3432b35716f9.txt
 
---===============8399084306082268741==
+--===============0783955611268936950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb65a2665f58-7103a8c7b2ce.txt
+Content-Disposition: attachment; filename=revlist-65546aaf0515-3432b35716f9.txt
 
 37e117c23563d6428a97395c23aa9af196cdbda4 ASoC: soc-dai: use snd_soc_dai_stream_active()
 d4c557f621dbfffa121dedfa421d79667ff396ad ASoC: soc-dai: add snd_soc_dai_id()
@@ -38,5 +38,7 @@ d47f591c9a8d39b79cbce24055f78dfa8153bf11 ASoC: soc-dai: add snd_soc_dai_get_bclk
 a6e3975afc97fc766bf943997b78026e8ed9fd6b ASoC: add new DAI functions
 082723fee626532f176727b6438b666a96d5246c ASoC: codecs: wcd9335: Fix SLIM interface device leak in wcd9335_slim_status()
 7103a8c7b2ce196aded3bdfd8c4cf5afef4a90ff ASoC: soc-generic-dmaengine-pcm: use dmaengine_get_dma_device() for DMA device
+2b6899f559708066147bb7c5b0afbb10f1bc2dd2 Merge asoc-linus into asoc-next
+3432b35716f98f274b9567c157cf14a56d257a15 Merge asoc/for-7.4 into asoc-next
 
---===============8399084306082268741==--
+--===============0783955611268936950==--
