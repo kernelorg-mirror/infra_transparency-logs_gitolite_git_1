@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6743427433263868603=="
+Content-Type: multipart/mixed; boundary="===============8283681596649734471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 28 Sep 2026 09:20:35 -0000
-Message-Id: <179058723511.885699.15202162301886646213@gitolite.kernel.org>
+Date: Mon, 28 Sep 2026 09:20:46 -0000
+Message-Id: <179058724620.885930.5179357038208156743@gitolite.kernel.org>
 
---===============6743427433263868603==
+--===============8283681596649734471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 7190784b9781f2612c346f069cd2621ad20e164d
-    new: 0820a9e63d8896f698396354e77f75e0b0bc534c
-    log: revlist-7190784b9781-0820a9e63d88.txt
+  - ref: refs/heads/m68k-queue
+    old: 648185d2222c75fda7490f30afa58ce35c552493
+    new: 56394e1b823c20e272c1b7ccbe58a20d40fbf25c
+    log: revlist-648185d2222c-56394e1b823c.txt
 
---===============6743427433263868603==
+--===============8283681596649734471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7190784b9781-0820a9e63d88.txt
+Content-Disposition: attachment; filename=revlist-648185d2222c-56394e1b823c.txt
 
 34b8b2d78b6276dc2dc4ebc06625a39956f266e4 remoteproc: qcom: q6v5_pas: Don't enable handover IRQ on attach
 b853857293584dd1f52183f70a2bdeca692a1e71 remoteproc: qcom_q6v5_mss: Don't require PAS for memory protection
@@ -675,6 +675,14 @@ b1fa457bddf009907b023bc0c09ba4eca3191a8e Merge tag 'cgroup-for-7.3-rc4-fixes-2' 
 64d34cef2a32331fedabf25ea8fa8a30128af9f7 Merge tag 'i2c-fixes-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 d266640c6c760c9bc215bf5a3ece122ca488b6f5 Merge tag 'driver-core-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e Linux 7.3-rc5
-0820a9e63d8896f698396354e77f75e0b0bc534c Merge tag 'v7.3-rc5'
+1d9e6cdbd11ae4f2e5fc909d0e6e29fb2913ab0b m68k: Use generic BASE_BAUD in asm/serial.h
+832583ac68eb11e34ccfe04c006e717a77fb534d m68k: Add include guard to asm/serial.h
+f308c1a6b784d5eda1215216474cb497eb91257a m68k: Add support for SVEthLANa
+e140f17e966e4ebcfad89bcd3c437f6acd07389a m68k: defconfig: Enable PATA_CSWARP
+9c9771aa18fe3ade5a7f674dcafef06a9967e230 m68k: apollo: Fix interrupt setup
+9be205efc3fe7d5f3f2995fe31f2cee5780b5432 zorro: Use assign_bit() where applicable
+f045a7187edcd7bd8d9e1a42b020696b84e9227a m68k: atari: usb: Add ISP1160 USB host controller support
+6fe352f8cebfa2423d3c4a4587449782c6ffe54f m68k: atari: Update Kconfig.bus help text
+56394e1b823c20e272c1b7ccbe58a20d40fbf25c m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6743427433263868603==--
+--===============8283681596649734471==--
