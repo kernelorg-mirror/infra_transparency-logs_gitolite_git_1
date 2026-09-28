@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4803204492051248812=="
+Content-Type: multipart/mixed; boundary="===============8219765667541859289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 28 Sep 2026 09:00:29 -0000
-Message-Id: <179058602996.870520.2151097786692100517@gitolite.kernel.org>
+Date: Mon, 28 Sep 2026 09:00:32 -0000
+Message-Id: <179058603229.870628.6645809553462296748@gitolite.kernel.org>
 
---===============4803204492051248812==
+--===============8219765667541859289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 1c2b8d2725f84b43fabe3b3e9628c91db8ca6c65
-    new: f4e9810097537d862c128935c36216bcf0c31cb2
-    log: revlist-1c2b8d2725f8-f4e981009753.txt
+  - ref: refs/heads/mm-unstable
+    old: aca5319962bc5514351d3bc25ddc021ac1df4dfc
+    new: 57e4ac91fc62d75d84b5a03827a19ceb4094ecd9
+    log: revlist-aca5319962bc-57e4ac91fc62.txt
 
---===============4803204492051248812==
+--===============8219765667541859289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c2b8d2725f8-f4e981009753.txt
+Content-Disposition: attachment; filename=revlist-aca5319962bc-57e4ac91fc62.txt
 
 31238ba260408e8e215905ea0c231793ebb957df mm/vmalloc: use dedicated unbound workqueues for vmap drain
 149cc05ee0ef32cf11c6cb1c460d42a7f73f27cd xarray: fix index jumping backwards in xas_find()
@@ -676,22 +676,5 @@ cb485a92f073ecccfa415ef0f12d6ef5f82a20de mm: remove the unused zone->unaccepted_
 074f83f66cf2331ad4ac24348a44508248a4c6bf arm64/mm: move __check_safe_pte_update()
 9a8c4c72e847e2e27260375b038799185a6f7aa5 arm64/mm: standardize printing for pgtable entries
 57e4ac91fc62d75d84b5a03827a19ceb4094ecd9 arch, mm: promote DEBUG_WX to CHECK_WX
-6cf08a010867205d6367f929f2c1ea313306431d mm/vmalloc: do not warn on -ENOMEM from va_clip() in pcpu_get_vm_areas()
-e4b84c6aa6b6a9a688f82b978820e8f01d4aa5ef mm/vma: don't remove VMA from rmap if pgoff unchanged
-5e465beedef1bcedf081d104b9d2d2dfe005cadc dax/device: defer publishing the dynamic pgmap
-aca03b24a1319befbc8181d7ccb718769f20b9f2 selftests/mm: fix soft-dirty kselftest supported check
-79bc9dc0836a1a6093e2d8beaf0326dc84bf23e0 riscv: mm: fix concurrency in mark_new_valid_map()
-08ce32d8dffd2d93389ede3c2e70ec8429f3f7b7 riscv: mm: exclude invalid THP PMDs from page table check
-6c77e9beea7832a2f715caee353a4e9cab0fcf6b sh: remove CONFIG_NUMA and related configuration options
-6b5e2eb457cfc5019b771e14e7b307b334aa6b2a sh: mm: remove numa.c
-ce0da3ee0abc7a3d4ef6cba82d6fbce448403ed7 sh: mm: drop allocate_pgdat()
-57d8aa945964d8d59516548363676c8e44c744f1 sh: remove setup_bootmem_node() and plat_mem_setup()
-ce3776c05be78de4f5acd50f61dbdce5a39c86bb sh: drop dead code guarded by #ifdef CONFIG_NUMA
-8eb91f4a29a32ad1e50805650bc1387f66810583 sh: drop include/asm/mmzone.h
-59e52341c7603a91566c28c2dc54d8c6fbf23019 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-fe654641ef59134925017f11bd926346f696105a sh: init: remove call the memblock_set_node()
-763b5e698ae8e5d4cf90bdf899914c7454ec4994 sh: remove SPARSEMEM related entries from Kconfig
-e22e632de7159dcac82e72f9cab1a4fe6ed12a73 sh: drop include/asm/sparsemem.h
-f4e9810097537d862c128935c36216bcf0c31cb2 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============4803204492051248812==--
+--===============8219765667541859289==--
