@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 28 Sep 2026 11:14:55 -0000
-Message-Id: <179059409536.966186.5684697753067499607@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 28 Sep 2026 11:16:37 -0000
+Message-Id: <179059419721.968999.4906369160257825398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/fix-p2p-acs-v8
-    old: 0000000000000000000000000000000000000000
-    new: 46e872c393576746c230483bb308895d4d540e6e
+  - ref: refs/heads/master
+    old: c91372915525d15e41a179d740885769bf888fb4
+    new: b310a64dd43109986be1487cdb0ff209a49ad8dc
+    log: |
+         b310a64dd43109986be1487cdb0ff209a49ad8dc Fixes for all trees
+         
