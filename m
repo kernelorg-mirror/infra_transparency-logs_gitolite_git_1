@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2079605917329051954=="
+Content-Type: multipart/mixed; boundary="===============1165543360157595305=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tenstorrent/linux
-Date: Mon, 28 Sep 2026 15:49:02 -0000
-Message-Id: <179061054207.1195218.4295870380231060532@gitolite.kernel.org>
+Date: Mon, 28 Sep 2026 15:49:11 -0000
+Message-Id: <179061055112.1195616.3810524844209308043@gitolite.kernel.org>
 
---===============2079605917329051954==
+--===============1165543360157595305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tenstorrent/linux
 user: fustini
 changes:
-  - ref: refs/heads/tenstorrent-clk-fixes
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+  - ref: refs/heads/tenstorrent-clk-for-next
+    old: 23c8ebc952849b3ba47d04d0ec95daf5cc136061
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-6de23f81a5e0-cee9395acd80.txt
+    log: revlist-23c8ebc95284-cee9395acd80.txt
 
---===============2079605917329051954==
+--===============1165543360157595305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de23f81a5e0-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-23c8ebc95284-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============2079605917329051954==--
+--===============1165543360157595305==--
