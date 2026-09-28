@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 28 Sep 2026 22:04:45 -0000
-Message-Id: <179063308508.1490879.2984930393303739896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Mon, 28 Sep 2026 22:15:50 -0000
+Message-Id: <179063375079.1500444.2425549256812281875@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/tags/v7.1.13-15
-    old: 0000000000000000000000000000000000000000
-    new: 00740e4db96671efa7cc7da123d7b45307dbf1ea
+  - ref: refs/tags/linux-6.1.y-cip-rebase
+    old: 40eaa85017d6b0d82e9f622493c117f6ee5d2abc
+    new: 0000000000000000000000000000000000000000
