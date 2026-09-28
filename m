@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 28 Sep 2026 13:42:17 -0000
-Message-Id: <179060293740.1088967.2288367165172742356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
+Date: Mon, 28 Sep 2026 13:44:30 -0000
+Message-Id: <179060307056.1089793.245803909244164761@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/sysctl/sysctl
+user: joel.granados
 changes:
-  - ref: refs/heads/for-next
-    old: 0a5ca0871ecc4e0679ff42fffa4f55a66c5b54af
-    new: c8f40ddb982378d6e2ede046b3f648b8c236f49f
+  - ref: refs/heads/sysctl-next
+    old: 6b6806e5d992859ff0bac5556b8f9fefefecb00a
+    new: 4991c8b72b564cd16cb48124f880617fd49f1013
     log: |
-         7f7400bd60c3ccaf823bb7a245da67d27e2face5 spi: spi-qpic-snand: drop ecceng_to_qspi() macro
-         fa217719f89d35e6eb3f9227762b974e769c35f7 Merge spi-linus into spi-next
-         c8f40ddb982378d6e2ede046b3f648b8c236f49f Merge spi/for-7.4 into spi-next
+         b60237dc2146b45b0a6f72d2645220bd9fb4cb81 sysctl: Negate before converting in the int read path
+         4991c8b72b564cd16cb48124f880617fd49f1013 time/jiffies: Saturate in mult_hz() instead of wrapping
          
