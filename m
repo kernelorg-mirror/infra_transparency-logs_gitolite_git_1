@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8913023346340690695=="
+Content-Type: multipart/mixed; boundary="===============7797638248475153105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 28 Sep 2026 07:52:33 -0000
-Message-Id: <179058195302.818611.2221203098674471999@gitolite.kernel.org>
+Date: Mon, 28 Sep 2026 07:53:26 -0000
+Message-Id: <179058200696.819251.13059296930840404401@gitolite.kernel.org>
 
---===============8913023346340690695==
+--===============7797638248475153105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,50 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: f23427766130102c4295e26a54246010c0bd2deb
-    new: 72bdcf14cc7daa1a9665aa08cc754c959839ea47
-    log: revlist-f23427766130-72bdcf14cc7d.txt
+    old: 72bdcf14cc7daa1a9665aa08cc754c959839ea47
+    new: 72c51a366945f7056b4c690ffcafefdd9c9a39ec
+    log: revlist-72bdcf14cc7d-72c51a366945.txt
+  - ref: refs/heads/tip/urgent
+    old: e04ada8d8bc1fbb9a20f3923271104f68e6c2e78
+    new: e72a1cb2b33e5006c51f06293ee0885ef3e00888
+    log: revlist-e04ada8d8bc1-e72a1cb2b33e.txt
+  - ref: refs/tags/v7.3-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 5a956dde5526a634dca7ccad27c051ebcc306089
 
---===============8913023346340690695==
+--===============7797638248475153105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f23427766130-72bdcf14cc7d.txt
+Content-Disposition: attachment; filename=revlist-72bdcf14cc7d-72c51a366945.txt
+
+4184e9ffab3d7ed8ad732a3f6259e17a4714ab06 Merge branch into tip/master: 'x86/urgent'
+e72a1cb2b33e5006c51f06293ee0885ef3e00888 Merge branch into tip/master: 'x86/mm'
+9d95e51a64ef0ce0b8762d86ad00a5b5d6532306 Merge branch into tip/master: 'perf/merge'
+199c33cfcb2a655c9acae0bb376ab1786348bf8d Merge branch into tip/master: 'irq/core'
+f3df6f2eabbedc139ebf424f4a13552f1190f438 Merge branch into tip/master: 'irq/drivers'
+b3c6a3382904124b1986645823154d36269969a2 Merge branch into tip/master: 'objtool/core'
+6aebd71978da5a3765b86743c2dc5d1c1d4c6d2f Merge branch into tip/master: 'sched/core'
+4f69e38ee8a6cb774cf4873bcb654a04bc3535ad Merge branch into tip/master: 'timers/core'
+cc4c43727cb5f7cc5b4c3cd65c739944b96edc5d Merge branch into tip/master: 'timers/nohz'
+a4b6642fcffc9ed3fa98574c0ad9ad04a769ea8c Merge branch into tip/master: 'x86/asm'
+0835433fcf54642ba76763f2420da8b17be67b51 Merge branch into tip/master: 'x86/boot'
+4d1d504a0b82f67f430509dc3e33cf0207126820 Merge branch into tip/master: 'x86/bugs'
+7867485c90d9af79104a5fd6db05bcd8eb6d7a03 Merge branch into tip/master: 'x86/cache'
+f26a3a61675b4af5a0ae769495b6c7e2e44d3e69 Merge branch into tip/master: 'x86/cleanups'
+c71dcd7630ee08ef594a5e654a5517ddda66c810 Merge branch into tip/master: 'x86/cpu'
+4d0b142496b508a18fd159bcca1eab8ba160bc13 Merge branch into tip/master: 'x86/kdump'
+9b8c289c508f8d7751b884c7b0c6991d955a4ac7 Merge branch into tip/master: 'x86/misc'
+f9d3f23c7f7235c5c9a8b49fc901544b8c9c3879 Merge branch into tip/master: 'x86/platform'
+9df9d6c8c0c20e5df33f0e92b4ebac4ccaadb19b Merge branch into tip/master: 'x86/sev'
+cc405afd53f2807902acd97935a717bf59f9bce2 Merge branch into tip/master: 'x86/sgx'
+72c51a366945f7056b4c690ffcafefdd9c9a39ec Merge branch into tip/master: 'x86/tdx'
+
+--===============7797638248475153105==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e04ada8d8bc1-e72a1cb2b33e.txt
 
 77be3641f3e3a56e42a5ed889372ef395a933f3c debugfs: don't warn about uninitialized debugfs for an error parent
 cb97bf3d4f91453b881acaf8e9f0cc47bb40b604 i2c: qcom-geni: Fix hardcoded clock index in SE_GENI_CLK_SEL
@@ -40,29 +75,8 @@ b1fa457bddf009907b023bc0c09ba4eca3191a8e Merge tag 'cgroup-for-7.3-rc4-fixes-2' 
 64d34cef2a32331fedabf25ea8fa8a30128af9f7 Merge tag 'i2c-fixes-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 d266640c6c760c9bc215bf5a3ece122ca488b6f5 Merge tag 'driver-core-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e Linux 7.3-rc5
-c7243accb48a7987b2e80751f712c3f4fe2b3714 x86/cpu: Constify struct x86_cpu_id
 d2457a7e2727dc747a61a50d65c2f259afce8c45 x86/mm: Don't apply va_align to hugetlb mappings on AMD F15h
-313b652837d0541684680a7d07a95c5560441d4f sched/core: Drop mutex locks before proxy rescheduling
-8f8c0417e97382c3473ef56b0cd472badb40e4a0 sched/core: Dequeue waking proxy donors before reset
-a49653d0abebee32bf3ecf650fae9f9dd8298135 sched/core: Mark wakeups completed through ttwu_runnable()
-57c75e3ae38c40acb5882a57c36f2d5234e066d0 sched: Add helper to block retained proxy donors
-be100c77178ef2299a080eb698720832a870248b sched: Add sched_ext hooks for proxy execution
-a8d0854a76a876ea474e17322acb680716a09da2 sched/cputime: Add kcpustat_field_total helper
-cfb463b7172dca2f29b2221b71b54890f268e3fb cpumask: Introduce cpumask_intersects_and
-06a49ef784acf91cee78d50c5307d400f86ccafb sched/docs: Document cpu_preferred_mask and Preferred CPU concept
-518b32bd5bb373aa334e4b73d359689071d50b5c cpumask: Introduce cpu_preferred_mask
-62082451655747dae25496d126e58f985df29f50 sysfs: Add preferred CPU file
-d8a3da0de8433d494db1ff5ec541559c764da4ab sched/core: Try to use a preferred CPU in is_cpu_allowed
-4ee29b029058a8f06fbb91425e1d9351e8015b53 sched/fair: Load balance only among preferred CPUs
-74699f56ebcfe0f401ee6ce4c5a72822101bb222 sched/core: Push current task from non preferred CPU
-68957caaa9c0e127bc87fee64e45be843f6c5c91 sched/debug: Add migration stats due to non preferred CPUs
-9a8e740ee9f69ec857ffa0c76cf1a01d1cb7360f virt: Introduce steal governor driver
-4b9302d494fffee7318bd9cdd2021198b6a7badd virt/steal_governor: Add control knobs for handling steal values
-27d47ebce4d6490ce093031a48cc2d81bf9997a3 virt/steal_governor: Implement steal_governor policy loop
-1fb28c664a19df8d45a6afa04d28d102b04ea680 virt/steal_governor: Enable the driver
-228484f9245e3b60b1d58383d1a6854bb861e1e2 Merge branch 'linus'
-5c1a34e459a334544bb2033b030f13031d1af875 Merge branch into tip/master: 'x86/urgent'
-acf501fc352438feb3aab36d6f22fbb9f6e12d94 Merge branch into tip/master: 'sched/core'
-72bdcf14cc7daa1a9665aa08cc754c959839ea47 Merge branch into tip/master: 'x86/cleanups'
+4184e9ffab3d7ed8ad732a3f6259e17a4714ab06 Merge branch into tip/master: 'x86/urgent'
+e72a1cb2b33e5006c51f06293ee0885ef3e00888 Merge branch into tip/master: 'x86/mm'
 
---===============8913023346340690695==--
+--===============7797638248475153105==--
