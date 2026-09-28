@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 28 Sep 2026 21:50:59 -0000
-Message-Id: <179063225945.1480067.412786445436280050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
+Date: Mon, 28 Sep 2026 21:52:40 -0000
+Message-Id: <179063236063.1480730.16403380690821774677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/oupton/linux
+user: oupton
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: a85ce03a58fff93a9660c036c1fe35187b3525e4
-    new: f1850e443b0e4f2429ddf42a8d5033ea54ae8a90
-    log: |
-         f1850e443b0e4f2429ddf42a8d5033ea54ae8a90 docs: admin-guide: Handle TAINT_FORCED_BIND when parsing /proc/sys/kernel/tainted
-         
+  - ref: refs/heads/kvm-arm64/vgic-lpi-migration
+    old: 0000000000000000000000000000000000000000
+    new: 10ba5793c3e60d5a0a443b728422f668bf6c0b35
