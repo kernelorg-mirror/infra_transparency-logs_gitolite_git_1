@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 28 Sep 2026 18:49:10 -0000
-Message-Id: <179062135060.1343016.10487962500985867710@gitolite.kernel.org>
+Date: Mon, 28 Sep 2026 18:49:51 -0000
+Message-Id: <179062139123.1343375.7139897715653306185@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-7.4
-    old: 3e71ea6dca1d585692b645aaf3b8cc58f6e5eb35
-    new: bb65a2665f5891bb74fb679b5601750eec4bea62
+  - ref: refs/heads/for-next
+    old: 218646ff9da8aa1b965e9d038c2d41390cc15552
+    new: 65546aaf0515257141b1f308dc456b349984de12
     log: |
          a99aacfb67df669aafd16bef787b68fb58442e9a regmap: Allow a base register to be specified for the RAM regmap
          b26da6db3da90a2ad84f686c6635c45697c3fb06 regmap: Test rbtree and maple caches for very high register numbers
@@ -23,4 +23,6 @@ changes:
          c257e3bcb36f4597d6dbb6fbc546e466ef53e385 ASoC: amd: acp-es8336: Use an owned codec device reference
          095025078dc3a1b4f0fcdc8b8d9dcb4d192a2a14 ASoC: amd: acp3x-es83xx: Keep an owned codec device reference
          bb65a2665f5891bb74fb679b5601750eec4bea62 ASoC: amd: Fix borrowed ACPI codec device references
+         54e48425af0b6943feb265e509f1be4fa223c183 Merge asoc-linus into asoc-next
+         65546aaf0515257141b1f308dc456b349984de12 Merge asoc/for-7.4 into asoc-next
          
