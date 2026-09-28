@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 28 Sep 2026 18:34:46 -0000
-Message-Id: <179062048675.1330385.11692699150670828211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
+Date: Mon, 28 Sep 2026 18:35:44 -0000
+Message-Id: <179062054453.1333026.14131253841973755739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/zx2c4/cgit
+user: zx2c4
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: 166e2e681851401fbee2f0f2a8433e7ec40f6421
-    new: ab2766a603e1758104b1b66a4f1ecc0f43d932dd
+  - ref: refs/heads/ch/git-2-56
+    old: ee69c212afad7229a6f0791a895c6dda6fa21d54
+    new: fdcffee768503c6634cb7c40e3039abbce1c81a3
     log: |
-         7845324094fcf88060170b44661519e57b179b61 ASoC: dt-bindings: fsl,imx-asrc: update port binding to support multiple paths
-         33598785b31c1a550e193b7c7dc5402fa5d04a13 ASoC: dt-bindings: fsl,easrc: add ports binding for multiple conversion paths
-         76915128bde26af7e357dfd4501f5e329d1364be ASoC: fsl_asrc/fsl_easrc: move DMA params into pair/context struct
-         6aef9cb5c7977dae92a90e6e732f14e3784660cf ASoC: fsl_asrc: expose individual DAIs per conversion path
-         788e893edb6a18a042afed661d3fabc2c0c101c9 ASoC: fsl_easrc: expose individual DAIs per conversion path
-         ab2766a603e1758104b1b66a4f1ecc0f43d932dd ASoC: fsl_asrc/fsl_easrc: expose per-pair/context DAIs and fix DMA race
+         2e40a36b56f26593fe8fab4f07ed831395d5f0d2 css: Support for dark mode
+         bd308735b3cfd40a57b20723a6e6862bf8303dc0 cgit: Fix guessing default branch
+         599e3df55ff0ce7387172c16cba269d545019ed3 html: use buffered stdio
+         156e859aad4c98a169ce4c49e839cae41a28f432 ui-shared: fix the Expires header on error pages
+         2a299e141eac453fbb19078bd71651873ae95ae7 git: update to v2.55.0
+         fdcffee768503c6634cb7c40e3039abbce1c81a3 git: update to v2.56.0
          
