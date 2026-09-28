@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4301014871044155902=="
+Content-Type: multipart/mixed; boundary="===============6116737217293160007=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 28 Sep 2026 14:55:50 -0000
-Message-Id: <179060735024.1149250.11464093324660968372@gitolite.kernel.org>
+Date: Mon, 28 Sep 2026 14:56:31 -0000
+Message-Id: <179060739122.1149926.9052271911957148527@gitolite.kernel.org>
 
---===============4301014871044155902==
+--===============6116737217293160007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 165768bb70265b5c38cf0b73fafd75be235f8b14
-    new: 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e
-    log: revlist-165768bb7026-72d3fcf802c4.txt
+  - ref: refs/heads/readfile
+    old: bc43e73c7a04c8f0368bf8f36dd70a91d937d3b8
+    new: 6bef7ca9c2748586ea35e0c39e9bb597ee0475b9
+    log: revlist-bc43e73c7a04-6bef7ca9c274.txt
 
---===============4301014871044155902==
+--===============6116737217293160007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790607346 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790607370 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1790607348-b6d60a7c118de1054077147e2bb5a2d76f0929f9
+nonce 1790607372-f3f2ffb73ee6fca12292e63544ec875427752b1e
 
-165768bb70265b5c38cf0b73fafd75be235f8b14 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e refs/heads/main
+bc43e73c7a04c8f0368bf8f36dd70a91d937d3b8 6bef7ca9c2748586ea35e0c39e9bb597ee0475b9 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq6f/IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mzMP/REAChnGOHcJXtkqx904
-OktWMm74xA2u4hahj0ma4OjPFkP94X3S1FBISfzm+llks6O+G3oH2rLV/YgwnZkV
-PG/F9pGYGaoOse6zat+AgdkFlVioHO8L5uIv8w/otGmM4StQvCgnOFpWt2F4g44b
-R9jsOnrRCFA+TyR2QqLYAeAdFsL8B1Wrhq79c5sl9BX7Z8xFcJlZF+uWgvv9U/cS
-rlZMFcKXJ6Ltz83cnIMuqW8f7HlWjWXbbnr7sko3TJ4Oun4+ojQLg5C+u8ZAAiZE
-t+bUrPB4/Xqa7+OGeBiptmZnVFs97V04PfJy27/6egzrQ5DkVU8b+EU+KoiyfldC
-9hKt0zwBgjPGn9ayV88YEvcwsFF0iaB4gOw4LP9evQlx4zwsxmkBsULQQbcLU0Dx
-8mwmkn3WkwVfLtsp4eY8B7HfsmbY7CIYf1YA86DmbOK+6mQ6mcihpqgl6RKSWmw8
-qrZCj54HTBFk4ZgmtOk9l+lRAaFh+utSu4LiK7knC2au2dpTADe1QVYvKMHQ+HR4
-JWjr+/FFGIcPKAEw75K3TSYIGOP753qCQkpkso+Ebp3h17K6Yh93ZIemtr2NWer2
-Gy54vMPNx4qsZT3T3Ze66VeM/eLtuTLHq+rTWN8YHvXvxF0Bs93xb8588vf4oWj0
-waHZuyvOSQ4IBjpKPNX7hRt7
-=Ajth
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq6gAobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mxMP/24D8uTA6R/Gf6p0vLrf
+BKr6Y1MKekN6mFZxuHm4pU/wY8FPSXIEeRjYklq8Jq0yErfarDsrmAa0f/5QKJRU
+Swdd2mW3eajtO3tK0cUq8o+N89vRgJ9WSyzU+miJT2x94+W8W10yNHLmCL3p+fP/
+76e7kzfGHVVAWzOdJfhaL8n0LuWrpb6oxGl9G0hkNPC45ysfo1kDABYgWXINs8hX
+yH7xm+ogD+jfj38nmS/jv30BGaSZWOXJS8st0/iY/mPRbNszB149GPe9lyuwh//6
+/KcS+TKny6fBhdCcnJoRuNBHvWHrvSlshCjSqg2P3VVI5tvGw5mamW4fbpmbQxKf
+TRv+KO8J6hkX/f6HLOaJ5eatryoybjiuF6GFIxV70/z7HMzUL/1G/S9mX6jLp+K0
+sPcebXjOHgIPwp7QPKcjXHAEEvO5LqvoLoUf5FzPYOCfHaXDJ48c6m0JGqddN7D9
+2052pAWLLkHJnmOqfqpq4+aJs0oQmsjsCW2+ZXyuZlDPd9IpJP86KnZFT/gC5CWi
+qcfQB0IMHc9abZRlAq57Y6RT+DC1UJsQCkx8Ia1/kQACcBikMmXaqzcgwYjhWzgS
+G4kK7pIBy+FnE87w2Bc3MYwlbg2CPYcToLCDUyDC18CNAeskp31zy7Bn7qn0Rh/t
+2TZbMWVXcI1LeuiNlY8rRMwG
+=BZPg
 -----END PGP SIGNATURE-----
 
---===============4301014871044155902==
+--===============6116737217293160007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-165768bb7026-72d3fcf802c4.txt
+Content-Disposition: attachment; filename=revlist-bc43e73c7a04-6bef7ca9c274.txt
 
 d215f014b3526a9898d87bfb4b866287f0864cc9 KVM: s390: Fix dirty marking in adapter_indicators_set*()
 ae12d2f9c119639a142d92c4a37c30277e8576da KVM: s390: Fix compile warning for kvm_s390_update_cmma_dirty()
@@ -313,5 +313,9 @@ b1fa457bddf009907b023bc0c09ba4eca3191a8e Merge tag 'cgroup-for-7.3-rc4-fixes-2' 
 64d34cef2a32331fedabf25ea8fa8a30128af9f7 Merge tag 'i2c-fixes-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 d266640c6c760c9bc215bf5a3ece122ca488b6f5 Merge tag 'driver-core-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e Linux 7.3-rc5
+d299081e5e1656bc5a3541164232db6490f1a91f readfile: implement readfile syscall
+47a5768e9ee83fd300d9e01b8daf1e45b7bbdd17 arch: wire up the readfile syscall
+6a0ec9fe8cc872b14b9eb98bb3bfa988a7918722 readfile.2: new page describing readfile(2)
+6bef7ca9c2748586ea35e0c39e9bb597ee0475b9 selftests: add readfile(2) selftests
 
---===============4301014871044155902==--
+--===============6116737217293160007==--
