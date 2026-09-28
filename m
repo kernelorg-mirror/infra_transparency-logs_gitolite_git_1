@@ -1,43 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5927716773293729512=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Mon, 28 Sep 2026 18:41:46 -0000
-Message-Id: <179062090603.1338003.17260156138825852047@gitolite.kernel.org>
-
---===============5927716773293729512==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Mon, 28 Sep 2026 18:42:23 -0000
+Message-Id: <179062094388.1338517.800626181299537734@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/old-testing
-    old: fa58ecada1f89e546deba1e5821e3b421d7d774e
-    new: 0000000000000000000000000000000000000000
-
---===============5927716773293729512==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1790620903 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1790620903-142c0d9d3849e6b0a1e10862297d619bac4a57ef
-
-fa58ecada1f89e546deba1e5821e3b421d7d774e 0000000000000000000000000000000000000000 refs/heads/old-testing
------BEGIN PGP SIGNATURE-----
-
-iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCarq05xMcbWtsQHBlbmd1
-dHJvbml4LmRlAAoJEMw6ZPquma3SHZEA/3Csf9hKLKn7Y1nlDtFAmsLiboKq1lWk
-i84Xs5SlIpNmAP46mnzJiQe6uZizu4HPqGWPArsh2b51fTtFaN9nbQ/5DA==
-=gyKN
------END PGP SIGNATURE-----
-
---===============5927716773293729512==--
+  - ref: refs/heads/for-7.4
+    old: 9fa10e3bc7ec61010aa91cfca6118218e3bab773
+    new: 80b97ad2dfd8c812596ca86821cbe68f496da13d
+    log: |
+         80b97ad2dfd8c812596ca86821cbe68f496da13d sched_ext: cid: Represent clusters explicitly
+         
+  - ref: refs/heads/for-next
+    old: 73dc1c370432bd3ad089e50194dc9eb2d0c8c7da
+    new: 8bf10d67a9343c69e66d6eaa06795e7c4e8b81c9
+    log: |
+         80b97ad2dfd8c812596ca86821cbe68f496da13d sched_ext: cid: Represent clusters explicitly
+         8bf10d67a9343c69e66d6eaa06795e7c4e8b81c9 Merge branch 'for-7.4' into for-next
+         
