@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 28 Sep 2026 20:45:32 -0000
-Message-Id: <179062833261.1431964.13968766066410793949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 28 Sep 2026 20:50:52 -0000
+Message-Id: <179062865228.1435757.6521897893768910035@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/kvm-arm64-set-id-regs-aarch64
-    old: 39e4a27117b69ac82dcba1f512cc362ded5ce44a
-    new: 1048d77848f0e8399037e59f805dfe8e5f9620e4
+  - ref: refs/heads/200GbE
+    old: a7bfaba4823e3c165bb2004c74eff7c096672bc7
+    new: fe7a1505b4bd3087e78d07de1e0e89ca5f1ed34c
     log: |
-         721ead4acca04982aca13a456122233290e5f517 KVM: selftests: arm64: Improve diagnostics from set_id_regs
-         3d5b44ecd13276cc6d84844c54d2852ebddcec5e KVM: selftests: arm64: Report set_id_reg reads of test registers as tests
-         4dedd2242a4cee37ce3504c9233ec84888763bd4 KVM: selftests: arm64: Report register reset tests individually
-         1048d77848f0e8399037e59f805dfe8e5f9620e4 KVM: selftests: arm64: Make set_id_regs bitfield validity checks non-fatal
+         2d9a9b72ee3b03ea875f598cdb4d00f8d2296d2d idpf: fix possible race on remove during a reset
+         499995b293a9c3a389863266c8ae406ad1494cce ice: fix use-after-free in dynamic port cleanup
+         e548f7cbca7d4d54cb59ae8be7fdb06f2dc61035 ice: Restore Ordered MMIO Writes for Tx Doorbells
+         41ea6c149448e42edd7efc25c9aaa017282263fd ice: fix metadata_dst refcount handling on representor teardown
+         60b63b3a1158f32166eaf164264f35d4cbd06087 iavf: fix VF stats not updating due to PTP command preemption
+         fe7a1505b4bd3087e78d07de1e0e89ca5f1ed34c iavf: cap advertised max_pkt_size at the single-buffer HW limit
          
