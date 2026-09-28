@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 28 Sep 2026 18:25:07 -0000
-Message-Id: <179061990765.1324808.15847796438662242389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 28 Sep 2026 18:32:16 -0000
+Message-Id: <179062033696.1329548.13333531721221332414@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: f721b1bfc994db6e3b4818aaf506ebf12ded4042
-    new: aac0570893bdbf8021342033f64962cec2c83d56
+  - ref: refs/heads/spi-7.4
+    old: 8db44cca03df066186d6220bfad9fa482d7cdc13
+    new: f3c0a2b557ea87cbd802b278783c32484a063ded
     log: |
-         4e09815a96a6a93573844a3a18bd04a70032a71d Merge remote-tracking branch 'wireless/main'
-         f7a2b6683b8e763711276d178a722bca7e30c68d Merge remote-tracking branch 'wireless-next/main'
-         3376eaa11f2da28055e125c68b5f59e2c2ccd02b Merge remote-tracking branch 'mhi/mhi-next'
-         7df4246d85646078d6ea25dea7f28c2265fcfbf4 Add localversion-wireless-testing-ath
-         aac0570893bdbf8021342033f64962cec2c83d56 MIPS: generic: Remove undefined image 'ramdisk'
+         f3c0a2b557ea87cbd802b278783c32484a063ded spi: spi-qpic-snand: fix read location register usage in qcom_spi_config_cw_read()
          
-  - ref: refs/tags/ath-202609281815
-    old: 0000000000000000000000000000000000000000
-    new: aac0570893bdbf8021342033f64962cec2c83d56
