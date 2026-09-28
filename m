@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 28 Sep 2026 12:45:11 -0000
-Message-Id: <179059951168.1037718.2840930272160547174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Mon, 28 Sep 2026 12:47:10 -0000
+Message-Id: <179059963022.1038749.8476300230614441806@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/main
-    old: 9b858e5bb58d7bf1fc4d8818cb9100aed6d46f6a
-    new: e8f6c9c36b0c4284a800487239b6a5317b469cf1
+  - ref: refs/heads/stm32-next
+    old: 34bf9ed9b5ac28e26741eb2f83fe4ed1e4d0c74f
+    new: 281ab10cc888af02c8f27e009b93a882bf58d6c6
     log: |
-         28b21de3602284fade6d98ea194ce2523034168b qcom: Add gpu firmwares for Hawi and Maili chipsets
-         e8f6c9c36b0c4284a800487239b6a5317b469cf1 Merge branch 'robot/pr-0-1790598170' into 'main'
+         9a7f28a06dcf8a2519f247dc1c199ce7bf23eed6 arm64: dts: st: add sdmmc2 pins_b for stm32mp25
+         281ab10cc888af02c8f27e009b93a882bf58d6c6 arm64: dts: st: enable eMMC on stm32mp257f-dk
          
