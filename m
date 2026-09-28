@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1439511174110243462=="
+Content-Type: multipart/mixed; boundary="===============3431066543536564761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 28 Sep 2026 06:08:26 -0000
-Message-Id: <179057570602.742639.18408462377828497330@gitolite.kernel.org>
+Date: Mon, 28 Sep 2026 06:08:44 -0000
+Message-Id: <179057572455.742922.12612610116966165739@gitolite.kernel.org>
 
---===============1439511174110243462==
+--===============3431066543536564761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 7bc21b740291c06b6437fd7ed7fab2d707b35cff
     new: 014d795c73837ea2339a4ea8e8f82c6e959b845d
     log: revlist-7bc21b740291-014d795c7383.txt
 
---===============1439511174110243462==
+--===============3431066543536564761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ab61766635328afe458ef61fa953a72bd765e559 Merge branch 'net-macb-rework-hardware-
 a72690652227ef7a5031268568f178bd3eee5585 ice: dpll: fix kernel-doc parameter descriptions
 014d795c73837ea2339a4ea8e8f82c6e959b845d idpf: fix kernel-doc parameter descriptions
 
---===============1439511174110243462==--
+--===============3431066543536564761==--
