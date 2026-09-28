@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 28 Sep 2026 13:17:45 -0000
-Message-Id: <179060146513.1067268.2243932040228644232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 28 Sep 2026 13:20:11 -0000
+Message-Id: <179060161100.1070073.17703360537301980200@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/dt/next
-    old: 7766b5b6b0e48cc6d493068e00243540582c0560
-    new: fa2f7a195ed2ac9f9221051d190b882cb1cdd550
+  - ref: refs/heads/main
+    old: e8f6c9c36b0c4284a800487239b6a5317b469cf1
+    new: d091548b0825f449581e4f58f94fb793d03cdf3e
     log: |
-         fa2f7a195ed2ac9f9221051d190b882cb1cdd550 dt-bindings: display: faraday,tve200: Use a level-high interrupt
-         
-  - ref: refs/heads/for-next
-    old: 7766b5b6b0e48cc6d493068e00243540582c0560
-    new: fa2f7a195ed2ac9f9221051d190b882cb1cdd550
-    log: |
-         fa2f7a195ed2ac9f9221051d190b882cb1cdd550 dt-bindings: display: faraday,tve200: Use a level-high interrupt
+         5e7b5bc6a938f8d222b9283873c97be3d4a36c43 Revert "qcom: update ADSP firmware for qcs615 platform"q
+         d091548b0825f449581e4f58f94fb793d03cdf3e Merge branch 'robot/pr-1-1790599378' into 'main'
          
