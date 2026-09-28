@@ -1,28 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Mon, 28 Sep 2026 21:58:47 -0000
-Message-Id: <179063272702.1484759.4325916594067909453@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4858254914598111972=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Mon, 28 Sep 2026 22:04:20 -0000
+Message-Id: <179063306018.1489493.4416932930066876970@gitolite.kernel.org>
+
+--===============4858254914598111972==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/netfs-next-3
-    old: 8a6830ba2eb354f528aecc16758268c32b70d1ca
-    new: 84e37ba1b78fd6133a20e105cc0f079c3e9ffa44
-    log: |
-         36ee6317f57ed5ce2ae81da62bd15e908a40ff8f Add a function to kmap one page of a multipage bio_vec
-         afe50065152ee4f2d87a2da0445c47cdfeec4fd3 iov_iter: Add a segmented queue of bio_vec[]
-         cd54202cb4fc9eb1bb07a74e90c9321131091eeb netfs: Add some tools for managing bvecq chains
-         eefb0fc928a71c3d95eda338c8e7e722d15f9ecc afs: Use a bvecq to hold dir content rather than folioq
-         96358795959cf169beceab238c9c93681a08bd0f cifs: Use a bvecq for buffering instead of a folioq
-         07538c141e66feb4f14ca61071cc9eea7633f39c smbdirect: Support ITER_BVECQ in smbdirect_map_sges_from_iter()
-         7b75f8fc661cc4d8811e66de5bb2bafe284b810d netfs: Switch folioq to bvecq
-         388c127cbd8d6416477cb56c5fd4df03d1904b09 smbdirect: Remove support for ITER_FOLIOQ from smbdirect_map_sges_from_iter()
-         482b9513ae3d4a61e8f4e983d4694d566d59fc89 iov_iter: Remove ITER_FOLIOQ
-         84e37ba1b78fd6133a20e105cc0f079c3e9ffa44 netfs: Remove folio_queue
-         
+  - ref: refs/heads/kernel-7.1.13/snitzer-nfs-fixes
+    old: 91975b1852818584c215cea5b39dd2eae1f18bf5
+    new: da7652d5f36cf0ae26796dd3cd5e256593698a3b
+    log: revlist-91975b185281-da7652d5f36c.txt
+
+--===============4858254914598111972==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-91975b185281-da7652d5f36c.txt
+
+4a84f9676679d093111bd83f08caad32e2381ad9 NFS/localio: fix nfs_local_dio_misaligned tracepoint
+a2d169459f3b6ebf8340508716776008e8821218 NFS/localio: detect a short read or write before the iterator has moved
+2a01ffee4209284c9afbed8abbb855c928dc62e8 NFS/localio: report the stability a DIO WRITE actually has
+f22f95109a4c077717ee6a1da6dd2b746c3e3d29 pNFS/flexfiles: honor FF_FLAGS_NO_IO_THRU_MDS over the mdsthreshold hint
+991fd86c9384d05b884e423889ad4a89ab6e5369 pNFS/flexfiles: don't read through MDS when previous layout forbid it
+05222e19837b08da66020ad1819b3eee5173eac3 pNFS/flexfiles: don't reset to MDS for v4 error when previous layout forbid it
+c077b26e9eeccfed9fd2453c41d0a6a5762f8ddb NFS: don't release the open context of a failed write from writeback
+b8781960c7a4eec2b517444608bc07a32c9d8291 NFS: don't run the release of a WRITE or COMMIT in the submitter
+428f74f9e0cd80e5537804fe84e3fbd6df3c76df NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
+da7652d5f36cf0ae26796dd3cd5e256593698a3b workqueue: Fix NULL current_pwq deref in mem-reclaim helper
+
+--===============4858254914598111972==--
