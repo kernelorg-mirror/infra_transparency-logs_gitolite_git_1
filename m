@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Mon, 28 Sep 2026 23:24:02 -0000
-Message-Id: <179063784245.1594013.16241967482734213619@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 28 Sep 2026 23:27:41 -0000
+Message-Id: <179063806168.1597357.15749837899674712441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/mediatek-drm-fixes
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: bce7698e2e6565bb765bd0522337f29f5f312624
+  - ref: refs/heads/main
+    old: 22b9a9e5e2460f19709b62b95ea4343971ddbaf5
+    new: 087827628ad3d9cab31365114e8b4d6d153dfa36
     log: |
-         bce7698e2e6565bb765bd0522337f29f5f312624 drm/mediatek: Add missing IS_ERR check for ovl_adaptor platform device
+         087827628ad3d9cab31365114e8b4d6d153dfa36 hinic3: handle auxiliary device ID allocation failure
          
