@@ -1,44 +1,84 @@
-Content-Type: multipart/mixed; boundary="===============0783955611268936950=="
+Content-Type: multipart/mixed; boundary="===============2207975978303268085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 28 Sep 2026 21:02:25 -0000
-Message-Id: <179062934595.1444675.9463581373503953530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Mon, 28 Sep 2026 21:09:45 -0000
+Message-Id: <179062978521.1448942.6487827978462574038@gitolite.kernel.org>
 
---===============0783955611268936950==
+--===============2207975978303268085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 65546aaf0515257141b1f308dc456b349984de12
-    new: 3432b35716f98f274b9567c157cf14a56d257a15
-    log: revlist-65546aaf0515-3432b35716f9.txt
+  - ref: refs/heads/master
+    old: a4bab1c12fd528ccaafee00360e07463873404a9
+    new: 98e6b5081a77412c9c6933692a8bfaa08b69b337
+    log: |
+         39d91d2956ce9645f898ecea5bc04bc9a9c43507 KVM: SEV: Nullify "have run CPUs" mask pointer when freeing it
+         98e6b5081a77412c9c6933692a8bfaa08b69b337 KVM: SEV: Do cache maintenance on the source VM *before* clearing SEV state
+         
+  - ref: refs/tags/for-linus
+    old: 13ffe36f07ce5552be25ff00791bd5ddc925944f
+    new: 09cd246747bbb81c517155e664aae2dcd271d5a4
+    log: revlist-13ffe36f07ce-09cd246747bb.txt
 
---===============0783955611268936950==
+--===============2207975978303268085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-65546aaf0515-3432b35716f9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-37e117c23563d6428a97395c23aa9af196cdbda4 ASoC: soc-dai: use snd_soc_dai_stream_active()
-d4c557f621dbfffa121dedfa421d79667ff396ad ASoC: soc-dai: add snd_soc_dai_id()
-724da1c8b6302ff27b260d9d8b85ba63289f697e ASoC: soc-dai: add snd_soc_dai_to_component()
-e90c0220073862ccf66ea187d305971ba796e088 ASoC: soc-dai: add snd_soc_dai_to_driver()
-f54b3dd4aa3519ef930faa3a6ba6d1c5d719ccf6 ASoC: soc-dai: add snd_soc_dai_{to/from}_list()
-ee4f730ac8f76d89ca529f04794921872f0beb4f ASoC: soc-dai: add snd_soc_dai_get_symmetric_xxx()
-9ec8ccc97dd9bd089078574e0eab859c9ce95456 ASoC: soc-dai: add snd_soc_dai_{set/to}_priv()
-d47f591c9a8d39b79cbce24055f78dfa8153bf11 ASoC: soc-dai: add snd_soc_dai_get_bclk[_ratio]()
-885ce49a700c91eb6e173755fdf5dbcd88befa33 ASoC: soc-dai: rename snd_soc_dai_action() to snd_soc_dai_active_update()
-a6e3975afc97fc766bf943997b78026e8ed9fd6b ASoC: add new DAI functions
-082723fee626532f176727b6438b666a96d5246c ASoC: codecs: wcd9335: Fix SLIM interface device leak in wcd9335_slim_status()
-7103a8c7b2ce196aded3bdfd8c4cf5afef4a90ff ASoC: soc-generic-dmaengine-pcm: use dmaengine_get_dma_device() for DMA device
-2b6899f559708066147bb7c5b0afbb10f1bc2dd2 Merge asoc-linus into asoc-next
-3432b35716f98f274b9567c157cf14a56d257a15 Merge asoc/for-7.4 into asoc-next
+certificate version 0.1
+pusher Paolo Bonzini <pbonzini@redhat.com> 1790629777 -0400
+pushee gitolite.kernel.org:/pub/scm/virt/kvm/kvm.git
+nonce 1790629776-dee96498eef75b70ee08d75b62d713ff93acb68d
 
---===============0783955611268936950==--
+a4bab1c12fd528ccaafee00360e07463873404a9 98e6b5081a77412c9c6933692a8bfaa08b69b337 refs/heads/master
+13ffe36f07ce5552be25ff00791bd5ddc925944f 09cd246747bbb81c517155e664aae2dcd271d5a4 refs/tags/for-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQFIBAABCAAyFiEE8TM4V0tmI4mGbHaCv/vSX3jHroMFAmq615EUHHBib256aW5p
+QHJlZGhhdC5jb20ACgkQv/vSX3jHroOenwf+OvUFdWZ0B0M44mYXAkCvGmv/TGSh
+rHl5F4nuZuk0jpa2QsUBs64tWbHvphgDv7ljZdTV+QfngH8s6Pxh+3fLN1XlkdMK
+93QzNQuf66AnFVvF4q9aXStOg4HdE06JOavRJMutqiBp6bZ6A6AZzqI+F0fhMwbH
+O+SZVbfQ78KhG/cO4W2ENAcrlu4R+z0ZvRQYiTAbHZ9eI/Db+BTRYw5YUMQxEGve
+7YJiCpiS3DcZq46HhPtQ2U7FAEbOuMOne8n1OZuqc9DH/GOK8xB1H9rxhplZ2MZ6
+Gw3VZSoewZh3fdniL0B/qUW5xWXOp2LGyK4AREbXUO35W3eZLdzAVcAYdA==
+=8NXC
+-----END PGP SIGNATURE-----
+
+--===============2207975978303268085==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-13ffe36f07ce-09cd246747bb.txt
+
+8264c0d73f07f6c3e6768d5a41b56c621f912a37 KVM: Reject attempts to lock all vCPUs if vCPU creation is in-progress
+e3995b05e95d03953954dd60ba803ebfa7755253 KVM: arm64: vgic: Rely on vCPU creation check in "trylock all vCPUs"
+10f4082b754f18ed82f94d47f0e959ef80038895 KVM: RISC-V: Use kvm_is_vcpu_creation_in_progress() instead of open-coded equivalent
+6418b715d5a24fa952e8c4baa587dd812dd4765b KVM: Protect all of kvm_vm_ioctl_create_vcpu() with kvm->lock
+c5866d42f7116ab609e3ab6b4b699282e8287e3f KVM: Move check for existing vCPU ID to the top of vCPU creation
+700f8d24436c45cb3cc8956f35c90a1b6a6487c2 Revert "KVM: Check for duplicate vcpu_id as early as possible"
+41e005e2c5126ccb906d6374b3b97fcb223f7f8f KVM: WARN if vCPU creation is in-progress when locking all vCPUs
+b6249c1d5665098c8bf12f8d3e4712bf04c775bc KVM: x86/mmu: Bail from shadow walks if the root is invalid or a dummy
+60d93c27859fb3ec5b5a689e24de303f166477d0 KVM: SVM: Preserve TLB control (i.e. pending TLB flush) on failed VMRUN
+e27fc915c8f575ab5630e27d97465c2077d4b9d1 KVM: SVM: Update control fields on #VMEXIT if and only if VMRUN succeeded
+64c5b15af71ba3c26b2088bdbb0bbab3dbe58e2c KVM: SVM: Don't mark ASID fields as dirty when setting control.tlb_ctl
+73392706d0e0f3aff299321de41d73abe3f53d9d KVM: SVM: Sync guest's PERF_CNTR_GLOBAL_CTL from h/w only on successful VMRUN
+9e06bbb9ade7cdf28d4a3b5b14e5812881c8df85 KVM: SVM: Use the active VMCB's MSR bitmap when checking if MSR is intercepted
+2abb25273c82061dd4670690c81c319c03740bf6 KVM: nVMX: Force MSR bitmap refresh if runtime eVMCS controls are modified
+8916c7a87455370b25523d5b1b9015b5244d18c8 KVM: selftests: Add x2APIC MSR test for inhibiting APICv while nested
+0c19bc0ef11d8ea7f929a3ec3ce549cfe0781859 KVM: selftests: Run the nested x2APIC with and without APICv being inhibited in L2
+2f00ba93cc285092cd3b7ffebbc9abb6004f55e7 KVM: selftests: Verify that L0's TPR doesn't get clobbered
+9b2f8146fcef9faa73f9dc1bad9a8d6c585cfec8 KVM: selftests: Extend nested x2APIC test to validate disabling x2APIC virt
+a4bab1c12fd528ccaafee00360e07463873404a9 KVM: selftests: Extend nested x2APIC test to validate using eVMCS for vmcs12
+39d91d2956ce9645f898ecea5bc04bc9a9c43507 KVM: SEV: Nullify "have run CPUs" mask pointer when freeing it
+98e6b5081a77412c9c6933692a8bfaa08b69b337 KVM: SEV: Do cache maintenance on the source VM *before* clearing SEV state
+
+--===============2207975978303268085==--
