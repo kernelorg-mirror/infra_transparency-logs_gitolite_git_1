@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2294466385017498046=="
+Content-Type: multipart/mixed; boundary="===============7507465893108722038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Mon, 28 Sep 2026 18:55:12 -0000
-Message-Id: <179062171216.1349789.7208368262816383318@gitolite.kernel.org>
+Date: Mon, 28 Sep 2026 18:55:16 -0000
+Message-Id: <179062171660.1350000.793566338105675112@gitolite.kernel.org>
 
---===============2294466385017498046==
+--===============7507465893108722038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arighi/linux
 user: arighi
 changes:
-  - ref: refs/heads/scx-proxy-exec
+  - ref: refs/heads/scx-proxy-exec-next
     old: 35fd3687fe2b21f7461464ffc9f1ec1001d8c91e
     new: d6888df993d1b04e763a97e0af89b5c1e98cbf37
     log: revlist-35fd3687fe2b-d6888df993d1.txt
 
---===============2294466385017498046==
+--===============7507465893108722038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ a1b3125f80b10c1856ffd800da1a44688f1be47a sched_ext: Delegate proxy donor admissi
 f3568a5a44f4810622887a344fd10e8b7fa776a2 sched_ext: scx_qmap: Add proxy execution support
 d6888df993d1b04e763a97e0af89b5c1e98cbf37 sched: Allow enabling proxy exec with sched_ext
 
---===============2294466385017498046==--
+--===============7507465893108722038==--
