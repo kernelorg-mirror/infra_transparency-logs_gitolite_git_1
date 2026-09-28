@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Mon, 28 Sep 2026 23:19:11 -0000
-Message-Id: <179063755170.1589952.12180621569225087506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 28 Sep 2026 23:22:52 -0000
+Message-Id: <179063777239.1593160.12951617525178370379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bcain/linux
-user: bcain
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/bcain-qcs6490-sept27-2026
-    old: 0000000000000000000000000000000000000000
-    new: 0fd1c29dd95a7e738319721d93699a0657abcb0d
+  - ref: refs/heads/spi-7.4
+    old: f3c0a2b557ea87cbd802b278783c32484a063ded
+    new: cecb86a37ac0bdd69edc2b70c160b436ec6bea16
+    log: |
+         cecb86a37ac0bdd69edc2b70c160b436ec6bea16 spi: dt-bindings: microchip,pic32mzda-spi: Convert to DT schema
+         
