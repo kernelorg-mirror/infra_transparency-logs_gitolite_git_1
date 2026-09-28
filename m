@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 28 Sep 2026 15:58:09 -0000
-Message-Id: <179061108972.1203729.10385231368628166809@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Mon, 28 Sep 2026 16:00:41 -0000
+Message-Id: <179061124146.1206969.9206079119701321709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/fixes
-    old: 4396d70bb7fec531bcf934fed016b2f3300c670b
-    new: 29ee8cf18a21b02cd0b2e35f741b61cd1fe3e14e
+  - ref: refs/heads/thermal/bleeding-edge
+    old: e856ca3013b3074fd07cb81c90b1de332f69153c
+    new: 1cbd621557073309e26448caab4eb4514b0e0588
     log: |
-         b38af5386a74416e898955443f2e26547b358cb2 mmc: mtk-sd: Cancel request timeout work on remove
-         e1c6c10a6a70a69e29b04fcc1ebe4b9bcbc7a49a mmc: sdhci-sprd: disable runtime PM on remove
-         0f4d4424fc1d651ec3fa63a0a8060ba9087eb0ec mmc: cavium-octeon: destroy slot platform devices on remove
-         29ee8cf18a21b02cd0b2e35f741b61cd1fe3e14e mmc: cavium-thunderx: destroy slot platform devices on remove
+         4f6d1a9ea172c22e6c67e2ec06fb0f20e07e7225 thermal: of: Match trip property helper types
+         ddb39deb06e0f816bba0cbcc3a658661df308f8d dt-bindings: thermal: Add Google GS101 TMU
+         4ba80a1b40bc427a31f8520eb6453e4c12d272d4 thermal: samsung: Add Exynos ACPM TMU driver GS101
+         c0acd2e26f95323955870bd2977dc81c40422970 MAINTAINERS: Add entry for Samsung Exynos ACPM thermal driver
+         d8933a06697dbe8775e344fd72f364f588b350f5 arm64: dts: exynos: gs101: Add thermal management unit
+         1cbd621557073309e26448caab4eb4514b0e0588 arm64: defconfig: enable Exynos ACPM thermal support
          
