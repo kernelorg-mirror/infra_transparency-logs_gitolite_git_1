@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3762601865683087278=="
+Content-Type: multipart/mixed; boundary="===============3223297947869099142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Mon, 28 Sep 2026 19:48:14 -0000
-Message-Id: <179062489413.1387162.15919534531919338343@gitolite.kernel.org>
+Date: Mon, 28 Sep 2026 19:48:17 -0000
+Message-Id: <179062489730.1387429.14391851141578162115@gitolite.kernel.org>
 
---===============3762601865683087278==
+--===============3223297947869099142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frank.li/linux
 user: frank.li
 changes:
-  - ref: refs/heads/for-next
-    old: bf184a29ad1b33bd8922029eb0ca3f2866007258
-    new: 5d034f17b24642b2a764c0e3a68b4c6937c9ba75
-    log: revlist-bf184a29ad1b-5d034f17b246.txt
+  - ref: refs/heads/imx/dt64
+    old: 39be5a7e3ecc08098c039561237499aa595700da
+    new: 8c40f32361d566c0882e9d92abab36256b268291
+    log: revlist-39be5a7e3ecc-8c40f32361d5.txt
 
---===============3762601865683087278==
+--===============3223297947869099142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf184a29ad1b-5d034f17b246.txt
+Content-Disposition: attachment; filename=revlist-39be5a7e3ecc-8c40f32361d5.txt
 
 c4e5f1a143799651aba2c4f66860b63b56786306 arm64: dts: imx8dxl-evk: fix reserved memory node names for remoteproc
 c712a46c10d38ce7869a9d81d7986e844a4e9f24 arm64: dts: imx8qm-mek: fix reserved memory node names for remoteproc
@@ -49,6 +49,5 @@ fbbb3324b517f7cc59d424bbb90266cc1b13943d arm64: dts: imx8mn-solidsense-n8-compac
 6bccdc6afffa4345331d46adc880bef56537421e arm64: dts: imx8mm-var-dart: configure SAI3 synchronous RX mode
 395280622de0c67814d8b5f06366217b3a9f70c0 arm64: dts: imx8mm-var-dart: add TPM support
 8c40f32361d566c0882e9d92abab36256b268291 arm64: dts: imx8mm-var-dart: increase PHY reset deassert delay
-5d034f17b24642b2a764c0e3a68b4c6937c9ba75 Merge branch 'imx/dt64' into for-next
 
---===============3762601865683087278==--
+--===============3223297947869099142==--
