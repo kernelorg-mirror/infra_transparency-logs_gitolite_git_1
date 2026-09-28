@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2991126499098034559=="
+Content-Type: multipart/mixed; boundary="===============4857889577258659035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 28 Sep 2026 17:09:47 -0000
-Message-Id: <179061538783.1262026.5073118575478186277@gitolite.kernel.org>
+Date: Mon, 28 Sep 2026 17:09:51 -0000
+Message-Id: <179061539102.1262213.18283627466007624565@gitolite.kernel.org>
 
---===============2991126499098034559==
+--===============4857889577258659035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 4bb9710c6a68d35207f123aef55dcd50e7195ec5
     new: 014d795c73837ea2339a4ea8e8f82c6e959b845d
     log: revlist-4bb9710c6a68-014d795c7383.txt
 
---===============2991126499098034559==
+--===============4857889577258659035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -974,4 +974,4 @@ ab61766635328afe458ef61fa953a72bd765e559 Merge branch 'net-macb-rework-hardware-
 a72690652227ef7a5031268568f178bd3eee5585 ice: dpll: fix kernel-doc parameter descriptions
 014d795c73837ea2339a4ea8e8f82c6e959b845d idpf: fix kernel-doc parameter descriptions
 
---===============2991126499098034559==--
+--===============4857889577258659035==--
