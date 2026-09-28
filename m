@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5871070726234644220=="
+Content-Type: multipart/mixed; boundary="===============0501558108250619268=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 28 Sep 2026 16:33:30 -0000
-Message-Id: <179061321081.1232813.4784752821347262936@gitolite.kernel.org>
+Date: Mon, 28 Sep 2026 16:34:01 -0000
+Message-Id: <179061324134.1233127.10710420349734424511@gitolite.kernel.org>
 
---===============5871070726234644220==
+--===============0501558108250619268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 873ba60d7f2e52a171845ca290cf366878864b1e
+  - ref: refs/heads/togreg
+    old: e5b9e42a20392b669097c8c4aa09c3aed82ba10c
     new: a3b3580713f3ac5a32dc2874ee546828977a1d68
-    log: revlist-873ba60d7f2e-a3b3580713f3.txt
+    log: revlist-e5b9e42a2039-a3b3580713f3.txt
 
---===============5871070726234644220==
+--===============0501558108250619268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-873ba60d7f2e-a3b3580713f3.txt
+Content-Disposition: attachment; filename=revlist-e5b9e42a2039-a3b3580713f3.txt
 
 250db4e304e294580bbc44a444a6bf3a267981d9 iio: magnetometer: ak8975: use temporary variable for struct device
 b3f6dc30e26eb26885a21c067d70054fb5afe0d6 iio: magnetometer: ak8975: add scan mask index enum
@@ -79,4 +79,4 @@ f8031c14f468c911937399d0cc48fa7cd2c74a20 iio: pressure: dps310: take the lock on
 ebc026be1b719e47bd7f2f1e72fabc875b590f87 iio: dac: ad5758: Reject out-of-range raw values
 a3b3580713f3ac5a32dc2874ee546828977a1d68 iio: dac: ad5758: Fix the offset calculation
 
---===============5871070726234644220==--
+--===============0501558108250619268==--
