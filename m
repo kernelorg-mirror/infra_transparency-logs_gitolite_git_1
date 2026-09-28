@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 28 Sep 2026 07:00:26 -0000
-Message-Id: <179057882607.780975.355715388061412355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Mon, 28 Sep 2026 07:10:34 -0000
+Message-Id: <179057943472.788259.111331659513858147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/testing
-    old: 014d795c73837ea2339a4ea8e8f82c6e959b845d
-    new: 13fa4e5b8a1f723c9c0caa60c7e6aa669381d27f
+  - ref: refs/heads/at91-fixes
+    old: cee9395acd8043be0644b25c34bfa86623f2b935
+    new: afb1ecfeda3fc31d6300a176f4854cc62e289bf3
     log: |
-         13fa4e5b8a1f723c9c0caa60c7e6aa669381d27f docs: xfrm: Fix the two aevent sysctl paths
+         afb1ecfeda3fc31d6300a176f4854cc62e289bf3 ARM: configs: sama5: enable current Microchip KSZ DSA symbols
          
