@@ -1,33 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============6067166743523522919=="
+Content-Type: multipart/mixed; boundary="===============4558022521496806362=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 28 Sep 2026 14:34:34 -0000
-Message-Id: <179060607458.1130264.3183579561546115740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Mon, 28 Sep 2026 14:34:41 -0000
+Message-Id: <179060608169.1130512.17688946571087012316@gitolite.kernel.org>
 
---===============6067166743523522919==
+--===============4558022521496806362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
   - ref: refs/heads/renesas-r8a78000-dt-binding-defs
-    old: 0f63ba15dde8748ed3818fa6553c81b5296318f1
+    old: 88656a46dfa3ecd0c878a0dc6916a1f399818334
     new: 6c09280e00e4bb7a43badcec9dec8d41fbb9b5e0
-    log: revlist-0f63ba15dde8-6c09280e00e4.txt
+    log: revlist-88656a46dfa3-6c09280e00e4.txt
   - ref: refs/tags/renesas-r8a78000-dt-binding-defs-tag3
     old: 0000000000000000000000000000000000000000
     new: 18fb71184c4973ab8739cb25a7fe1db5abb08257
 
---===============6067166743523522919==
+--===============4558022521496806362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f63ba15dde8-6c09280e00e4.txt
+Content-Disposition: attachment; filename=revlist-88656a46dfa3-6c09280e00e4.txt
 
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 7711f4417f1870e4bfbee1a7d501f789255bc7aa Merge tag 'gpio-updates-for-v7.3-rc1-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1054,4 +1054,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 6c09280e00e4bb7a43badcec9dec8d41fbb9b5e0 dt-bindings: clock: renesas,r8a78000-cpg: Add MSIOF clocks
 
---===============6067166743523522919==--
+--===============4558022521496806362==--
