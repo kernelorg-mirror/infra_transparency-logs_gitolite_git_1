@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 28 Sep 2026 14:23:57 -0000
-Message-Id: <179060543760.1121019.461104003514438931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
+Date: Mon, 28 Sep 2026 14:25:06 -0000
+Message-Id: <179060550624.1123724.5192560093337539530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/linkinjeon/smb
+user: linkinjeon
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: 082723fee626532f176727b6438b666a96d5246c
-    new: 7103a8c7b2ce196aded3bdfd8c4cf5afef4a90ff
+  - ref: refs/heads/ksmbd-for-next
+    old: 1af064c3bfd9e31a6a92c15ed9fa5dfd86e9d3dc
+    new: d30f0c30c87d62a7be7fdad295a01860a0d846ef
     log: |
-         7103a8c7b2ce196aded3bdfd8c4cf5afef4a90ff ASoC: soc-generic-dmaengine-pcm: use dmaengine_get_dma_device() for DMA device
+         d30f0c30c87d62a7be7fdad295a01860a0d846ef ksmbd: fix OOB read and cross-share confusion in ksmbd_validate_name_reconnect()
          
