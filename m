@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/tftp/tftp-hpa
-Date: Mon, 28 Sep 2026 00:49:34 -0000
-Message-Id: <179055657485.454982.1281448660961334182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
+Date: Mon, 28 Sep 2026 00:53:51 -0000
+Message-Id: <179055683137.458390.4788927899015888585@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/tftp/tftp-hpa
-user: hpa
+repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
+user: kuninori.morimoto.gx
 changes:
-  - ref: refs/heads/master
-    old: 8868f39c0e4629021b518bf354406d1f0550bd25
-    new: b2d41cb94b675f9954e84d25a25fca0901dd1066
-    log: |
-         85588ce4c80fe2a6d6b28bf68a8e137a7718f8a1 tftpd: add sample systemd activation script from Debian
-         b2d41cb94b675f9954e84d25a25fca0901dd1066 version, CHANGES: the next release is presumed 7.3, update CHANGES
-         
+  - ref: refs/heads/renesas-lts/v6.18.54-2026-09-28-sparrow-hawk
+    old: 0000000000000000000000000000000000000000
+    new: cb486d3fdfe21415b979c91da1280331b5078b23
