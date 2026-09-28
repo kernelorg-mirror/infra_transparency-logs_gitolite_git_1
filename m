@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0332894040536657487=="
+Content-Type: multipart/mixed; boundary="===============8554080193591957510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/fustini/linux
-Date: Mon, 28 Sep 2026 15:43:51 -0000
-Message-Id: <179061023145.1189455.7150642548282470915@gitolite.kernel.org>
+Date: Mon, 28 Sep 2026 15:43:56 -0000
+Message-Id: <179061023624.1189643.3473162953661346527@gitolite.kernel.org>
 
---===============0332894040536657487==
+--===============8554080193591957510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/fustini/linux
 user: fustini
 changes:
-  - ref: refs/heads/thead-dt-for-next
-    old: 15d32aaf6300b832814a9930fdbd20efdbc9adcf
+  - ref: refs/heads/thead-dt-fixes
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
     new: cee9395acd8043be0644b25c34bfa86623f2b935
-    log: revlist-15d32aaf6300-cee9395acd80.txt
+    log: revlist-dc59e4fea9d8-cee9395acd80.txt
 
---===============0332894040536657487==
+--===============8554080193591957510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15d32aaf6300-cee9395acd80.txt
+Content-Disposition: attachment; filename=revlist-dc59e4fea9d8-cee9395acd80.txt
 
 a288cd69f7dea3cd232b721f935c379b74a69814 Merge tag 'pwm/for-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
 d0d82a84c965915ac13d08b726b4cb440d90b122 Merge tag 'pwrseq-updates-for-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 78bb208b99e7d3314f670710fa9ee0a793682bca Merge tag 'i2c-fixes-7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 
---===============0332894040536657487==--
+--===============8554080193591957510==--
