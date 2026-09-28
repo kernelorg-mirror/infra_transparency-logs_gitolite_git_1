@@ -1,54 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============2083075467054681138=="
+Content-Type: multipart/mixed; boundary="===============8638719541736236066=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 28 Sep 2026 11:17:16 -0000
-Message-Id: <179059423665.969427.18319754803591073737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 28 Sep 2026 11:21:49 -0000
+Message-Id: <179059450920.973314.14782535816495438015@gitolite.kernel.org>
 
---===============2083075467054681138==
+--===============8638719541736236066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/fix-p2p-acs-v8
-    old: 46e872c393576746c230483bb308895d4d540e6e
-    new: 9c77f073d992c3d4c264925ceda4d315d9c714c6
-    log: revlist-46e872c39357-9c77f073d992.txt
+  - ref: refs/heads/for-next
+    old: 9dcacdc41083cccff74292851bf9fde999e0731a
+    new: 2d6920c925d34b5fdda1c804fa86506e353af130
+    log: revlist-9dcacdc41083-2d6920c925d3.txt
 
---===============2083075467054681138==
+--===============8638719541736236066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46e872c39357-9c77f073d992.txt
+Content-Disposition: attachment; filename=revlist-9dcacdc41083-2d6920c925d3.txt
 
-a8f9e1654bd33b2b18d6688b2d93a44436b2b9c9 PCI/P2PDMA: Route peer-to-peer DMA by TLP class
-6674f6016872a86a6d7749126cb4550113974a44 PCI/P2PDMA: Document the TLP attribute assumptions
-7f663a379cae3eef01da3acfb5fbbc1a2de9a94c PCI/P2PDMA: Derive routing from directional ACS controls
-3dc3c582880a2ad1a0ad1e16b1c7226eb44f3a4a PCI: Reject unreadable ACS controls in isolation checks
-76d19186acd3db0f87a40b9fe12c82b1dd41f060 PCI/P2PDMA: Evaluate ACS controls at the path divergence
-9f51a3f30071016e2eea5c8953e97cf561716353 PCI/P2PDMA: Document directional ACS routing
-add46bd70c1594c6dfd627398c1ee6c8d8398126 PCI/P2PDMA: Collect the path's ACS controls before deciding
-7e5644690e60c54c4c1ab23d56710e3b4a96d32d PCI/P2PDMA: Answer routing per TLP class
-b756a29bd63dec44d9c076221e9657343df50200 PCI/P2PDMA: Route Relaxed Ordering Completions directly
-5d739fe40db3b6233b92f1a5b84da05ae2db99eb PCI/P2PDMA: Reject Translated Requests blocked by Translation Blocking
-ec5835b7eefc6a120917519babb87df6a2fa47fe PCI/P2PDMA: Route Translated Requests under Direct Translated P2P
-35a2ce18c3dce4732dc6f775a7599eee2360c6f3 PCI/P2PDMA: Log detailed ACS routing diagnostics
-97d929d8139257ab82791e32b566cfb1096a3060 PCI/P2PDMA: Add KUnit tests for the ACS routing decisions
-96a7c48ff17d05dd978b3787613a119b79756a2f PCI/P2PDMA: Test the ACS P2P routing walk
-8d81e2c77b1462e8fa797c58ae9167310bd6878b PCI: Add KUnit coverage for ACS isolation checks
-6b68450196d83987c6763da2da72a1e9d9587d90 PCI/P2PDMA: Document TLP-class routing
-0cd703ac593716ec9067a25d621405eb4fab99ae dma-buf: Let importers ask how peer-to-peer traffic is routed
-f08fbb526ca0e8a97190bd398e8c278551d9047b vfio/pci: Hand out the P2PDMA provider behind a dma-buf
-db20870d15d5617fd314361cd3e161fbf8057fc0 RDMA/uverbs: Hand out the P2PDMA provider behind a dma-buf
-5e78778469a21bbc442e48495b4dfea875eb7fd3 RDMA/mlx5: Ask P2PDMA whether ATS takes a direct peer-to-peer route
-082d16ea3c26d0a76cd6addfb8886ab848ce56e3 PCI/P2PDMA: Let a client declare that it selects ATS per mapping
-7d62bd02b162aff920a754f125511ab58e76451d RDMA/mlx5: Declare to P2PDMA that ATS is selected per memory key
-f79c0b931fbca9ca4fb8be53ca0ed48d457bd669 PCI/P2PDMA: Evaluate the ATS path for clients with ATS enabled
-9c77f073d992c3d4c264925ceda4d315d9c714c6 PCI/P2PDMA: Test the routing of clients with ATS enabled
+b63d21631f836528ef660d7b5a0d84890ff6dbd5 RDMA/core: Fix partial copy of IPv6 flow_lbl in LAG hash skb
+8a8088b899e4cdfe558428cd6113d45df81625be RDMA/irdma: avoid use-after-free in icrdma_remove
+c6aa5feb52106664df44ef3c8c1da48f703ef8f0 RDMA/mlx5: Use unsigned comparison in the CQ cleanup loop
+c5fe428bb23edc833ebcf99de0ea92c1625a3c7b RDMA/mlx4: Use unsigned comparison in the CQ cleanup loop
+b934024d3aafb9de938a6eb424bbb485e2053450 RDMA/mthca: Use unsigned comparison in the CQ cleanup loop
+ebb65190349537933a796ee662d05d0464bd4066 RDMA/hns: Use unsigned comparison in the CQ cleanup loop
+ba88a28b47a703c3637ead33b1c70afab0803513 RDMA/core: Force disconnect if DREP and DREQ fail
+5bb710151753fe53047b1d34b1b54d0f179cec68 RDMA/irdma: Fix erroneous -ENOMEM for large MR registration
+9c40f13a63a4b87177de3e8c318af25068fc6ab4 RDMA/irdma: Use kvzalloc for lvl2 leafmem allocation
+2a770e6a64d66fc3a7317669ecca9773d8339ead RDMA/irdma: check vport device allocation
+5fb3051aa4611ae18e304814fb1b74a30065fd85 RDMA/cxgb4: Fix neigh reference leak in rx_pkt()
+5eb6ecb612841927b5ede554a0e9d88240934282 RDMA/cxgb4: Fix skb reference leak in rx_pkt()
+65f3eab431944415bbe5e3af1bbb2736d4bb1523 RDMA/mlx5: Fix RQ resource reference leak in mlx5_ib_wq_event()
+ef15197f81ffedf29560edf2221199d92fd83dc2 RDMA/siw: Fix qp use-after-free in siw_get_base_qp()
+d1fa82ef992bc18850d27bc0bdc7a5cd0821d7b3 RDMA/multicast: Fix rb-tree corruption on MGID reassignment in join_handler
+193aaf5b57f05d9f0403cfdaff3eda3b8d11ec13 RDMA/mlx5: Guard steering anchor resource destruction on create error
+9a413ed37d54b305666844d17fc49b8f3773c9d2 RDMA/erdma: Unwind kernel QP initialization failures
+97ff4e6cd8d87ecad9da8902d38adc97a9c7150b RDMA/erdma: Support non-contiguous kernel QP buffers
+717ba25e0904bf3cdf331dc0d8ad71c88b71f696 RDMA/erdma: Support non-contiguous kernel CQ buffers
+30cc22441650413ad8412e3e2b11961459c331ba RDMA/erdma: Unify userspace and kernel queue buffer management
+337b40e287b7e93d1bb350180b529ae927ab7099 RDMA/erdma: Move kernel QP helpers after memory helpers
+e43913aabd35eef837edef29e93f15e15bdeeacd RDMA/mlx5: Use DEFINE_RAW_FLEX for leftovers flow attributes
+2d6920c925d34b5fdda1c804fa86506e353af130 RDMA/irdma: Free IRQ when CEQ vector mapping fails
 
---===============2083075467054681138==--
+--===============8638719541736236066==--
