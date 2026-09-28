@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Mon, 28 Sep 2026 23:49:47 -0000
-Message-Id: <179063938797.1613205.1120191124420433498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 28 Sep 2026 23:52:25 -0000
+Message-Id: <179063954554.1616317.6258143652405884925@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/next
-    old: f2e9991100c903ec2d8eb62c3a1d6e0b9c67432e
-    new: d27812db9db56163995a60aff68781bdab39187f
+  - ref: refs/heads/main
+    old: a7bfaba4823e3c165bb2004c74eff7c096672bc7
+    new: 6b2462f07cb74cd0a5cb868b36c09e9f51f56d3f
     log: |
-         371c2ad1624283b6c7a62a28199f5161d388a738 cxl/acpi: Check ACPI companion before use
-         d27812db9db56163995a60aff68781bdab39187f Merge branch 'for-7.4/cxl-fixes' into cxl-for-next
+         6b2462f07cb74cd0a5cb868b36c09e9f51f56d3f MAINTAINERS: add missing entry for b53.rst
          
