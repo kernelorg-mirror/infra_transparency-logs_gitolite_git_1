@@ -1,20 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 29 Sep 2026 10:50:26 -0000
-Message-Id: <179067902661.2114307.14585648413207867582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 29 Sep 2026 11:12:01 -0000
+Message-Id: <179068032157.2128516.1505057211018190728@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/main
-    old: 0923198be4ae714b46350f742cb19ccd75bfeafa
-    new: 54518e0e827f4ca9229ae657022c60bf60f5c1bf
+  - ref: refs/heads/for-next
+    old: 1bbc033983b76f41d51d4a48838bf94c5e6b6f50
+    new: d842c03f89aef141874149f8dc8a28c104455f32
     log: |
-         d031465acc362866f27e4f8f79cfecf1037fe2e5 net/sched: fq_codel: match the no-drop threshold to the packet size
-         54518e0e827f4ca9229ae657022c60bf60f5c1bf net/sched: sch_codel: match the no-drop threshold to the packet size
+         2d1d019ddd292ac4e570f044e936acf974a0f866 ALSA: usb-audio: Re-read descriptors for Xiaomi 2717:d005
+         d842c03f89aef141874149f8dc8a28c104455f32 ALSA: usb-audio: Add quirk for inverted sample rates on NUX NAI-24
+         
+  - ref: refs/heads/master
+    old: c42f79b7d74d2a84c2dec2326bb98bc67c65dcdb
+    new: ace676838098008fca9c683ae932e8588ed16187
+    log: |
+         2d1d019ddd292ac4e570f044e936acf974a0f866 ALSA: usb-audio: Re-read descriptors for Xiaomi 2717:d005
+         ace676838098008fca9c683ae932e8588ed16187 Merge branch 'for-next'
          
