@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-Date: Tue, 29 Sep 2026 22:54:36 -0000
-Message-Id: <179072247601.2669643.9804124665685312284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 29 Sep 2026 22:58:22 -0000
+Message-Id: <179072270227.2673094.3360373258909875505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-user: kuninori.morimoto.gx
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/renesas-slts-v6.12.111
-    old: 0000000000000000000000000000000000000000
-    new: abce549e7093f285350fe18de80b59aec16327f8
-  - ref: refs/tags/renesas-slts-dev-v6.12.111
-    old: 0000000000000000000000000000000000000000
-    new: 35b1aa6ebaa8be8d2830c4e04947035f1410eb13
+  - ref: refs/heads/dev
+    old: 55bef2817981eb4c0077bc9ee53ebbcf4e27229e
+    new: 2bb03be6fb53cc32f9c263a04a0cddaf95af80bd
+    log: |
+         103befc8d7330d70e8368a8b33e7020a84e6ae38 EXP ARC: arch_cmpxchg_relaxed to use size of pointed type not pointer
+         a3a206c4fd2f5d5089971df34c45cc544895fa3d squash! EXP rcu: Print CPU that preempted stalled reader wants to run on
+         2bb03be6fb53cc32f9c263a04a0cddaf95af80bd squash! rcu: Add running and boosted indications to RCU task stall dump
+         
