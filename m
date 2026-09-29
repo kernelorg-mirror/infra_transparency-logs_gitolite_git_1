@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 29 Sep 2026 13:51:26 -0000
-Message-Id: <179068988661.2254157.12204224950430909356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 29 Sep 2026 13:52:10 -0000
+Message-Id: <179068993082.2254524.12532510255007503276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/kvm-arm64-set-id-regs-aarch64
-    old: 1048d77848f0e8399037e59f805dfe8e5f9620e4
-    new: fd069f49c4bb3b2510d210d604c5f7afbae2071c
+  - ref: refs/heads/for-7.3
+    old: de0be324fcb97a49caad131c23ad33265dd4b0b8
+    new: b2047b8cadadccb1c9269ce756c399cd9aef2c82
     log: |
-         fd069f49c4bb3b2510d210d604c5f7afbae2071c KVM: selftests: arm64: Make set_id_regs bitfield validity checks non-fatal
+         b2047b8cadadccb1c9269ce756c399cd9aef2c82 ASoC: codecs: lpass-wsa-macro: rewrite the interpolator volume after enabling clocks
          
