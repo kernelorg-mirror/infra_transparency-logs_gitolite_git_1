@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Tue, 29 Sep 2026 08:57:33 -0000
-Message-Id: <179067225345.2022908.7229315819198790857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 29 Sep 2026 09:15:23 -0000
+Message-Id: <179067332317.2036101.6176832730410943295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for-7.4
-    old: 6b28e0e7a07353544de517c2c06357260637a6df
-    new: cfce1dc635041d6b9dd5fad5367a331faaf644fe
+  - ref: refs/heads/main
+    old: 37e02c42a00be692c06343e11779aadc45f45971
+    new: 0f17d2e3dd9cda3ee6d94033d5e5489af168920d
     log: |
-         cfce1dc635041d6b9dd5fad5367a331faaf644fe ata: libata: Fix scsi_done() documentation
+         0f17d2e3dd9cda3ee6d94033d5e5489af168920d pfcp: fix socket lifetime on netdevice registration failure
          
