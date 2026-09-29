@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 29 Sep 2026 22:16:28 -0000
-Message-Id: <179072018837.2639398.17174812111974096011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 29 Sep 2026 22:17:27 -0000
+Message-Id: <179072024720.2640003.5176391708693864380@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: efa134b97d817ca8e8eaf1c084e03682f511a3b5
-    new: 97dab6516cd4237e195b89a75629eed559dec090
+  - ref: refs/heads/spi-7.4
+    old: 1f07c6fecb38c2839bc71bb4f8b6637684fdd33e
+    new: 69338914b1d98d2c0dcd6e9617c56907a1b3e2db
     log: |
-         314273e538395df818dbcf46108590d3b47d6ef1 foo
-         97dab6516cd4237e195b89a75629eed559dec090 foo
+         69338914b1d98d2c0dcd6e9617c56907a1b3e2db spi: ingenic: remove dmaengine_desc_free()
          
