@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5284181038013154216=="
+Content-Type: multipart/mixed; boundary="===============4795206991748010296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 29 Sep 2026 21:18:21 -0000
-Message-Id: <179071670159.2596377.5003173861482395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 29 Sep 2026 21:18:30 -0000
+Message-Id: <179071671001.2596672.11148703599094554330@gitolite.kernel.org>
 
---===============5284181038013154216==
+--===============4795206991748010296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 45d15e89a783a0a279b7a54f9018c230127380d7
     log: revlist-0ae6fc78c5ce-45d15e89a783.txt
 
---===============5284181038013154216==
+--===============4795206991748010296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -82,4 +82,4 @@ a8876927a752936eb7b6ffcc0f865c29e27a4321 perf tools: Looks symbol file first whe
 74ce97dcac6e874a1ea077b8b0e07cfe03c0b199 perf debuginfo: Update debuginfo__new() to take DSO
 45d15e89a783a0a279b7a54f9018c230127380d7 perf symbols: Don't let a module's last symbol overlap the next module
 
---===============5284181038013154216==--
+--===============4795206991748010296==--
