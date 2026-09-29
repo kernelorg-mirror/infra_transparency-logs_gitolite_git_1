@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6074917519404128982=="
+Content-Type: multipart/mixed; boundary="===============7182561574823190818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 29 Sep 2026 20:17:09 -0000
-Message-Id: <179071302965.2550942.11762793268842298535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 29 Sep 2026 20:17:35 -0000
+Message-Id: <179071305538.2551323.5110800778630426972@gitolite.kernel.org>
 
---===============6074917519404128982==
+--===============7182561574823190818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 50ec225320c4fcf4afe1aef0140cc01d971cdea9
     log: revlist-8a0b9c9ff582-50ec225320c4.txt
 
---===============6074917519404128982==
+--===============7182561574823190818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ ad32bb10e4fecf5e0df8da9d316881db175b8c3f perf tools: Export dso__get_filename() 
 a8876927a752936eb7b6ffcc0f865c29e27a4321 perf tools: Looks symbol file first when check debuginfo
 50ec225320c4fcf4afe1aef0140cc01d971cdea9 perf tools: Update debuginfo__new() to take DSO
 
---===============6074917519404128982==--
+--===============7182561574823190818==--
