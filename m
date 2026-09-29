@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 29 Sep 2026 22:17:27 -0000
-Message-Id: <179072024720.2640003.5176391708693864380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Tue, 29 Sep 2026 22:25:00 -0000
+Message-Id: <179072070017.2644669.1682712550834955880@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/spi-7.4
-    old: 1f07c6fecb38c2839bc71bb4f8b6637684fdd33e
-    new: 69338914b1d98d2c0dcd6e9617c56907a1b3e2db
+  - ref: refs/heads/kernel-7.1.13/nfsd-testing
+    old: 57d66376e0ff2c1808248c7e93eac1ad18fbfce5
+    new: cb4e05e2ed4bc8ddd2ef48530aec66d1ad1eac6d
     log: |
-         69338914b1d98d2c0dcd6e9617c56907a1b3e2db spi: ingenic: remove dmaengine_desc_free()
+         cb4e05e2ed4bc8ddd2ef48530aec66d1ad1eac6d NFSD: Move version-specific ACCESS maps into per-version code
          
