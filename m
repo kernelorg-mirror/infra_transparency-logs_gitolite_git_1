@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 29 Sep 2026 13:32:20 -0000
-Message-Id: <179068874078.2239549.5261821605066714569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 29 Sep 2026 13:32:23 -0000
+Message-Id: <179068874330.2239737.2708578924888237559@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/fixes
-    old: 29ee8cf18a21b02cd0b2e35f741b61cd1fe3e14e
-    new: aa0a37b5024d921e96ac4f8f487c8bfbf1f1a582
+  - ref: refs/heads/main
+    old: 2a5043c8b7d09f2fc76c19270fd687b774c5a68b
+    new: ee1972def665f4ea965bd654925711261a9ad241
     log: |
-         aa0a37b5024d921e96ac4f8f487c8bfbf1f1a582 memstick: core: wait for request completion before freeing card
+         ee1972def665f4ea965bd654925711261a9ad241 net: downgrade BUG_ON EIOCBQUEUED in sock_sendmsg_nosec
          
