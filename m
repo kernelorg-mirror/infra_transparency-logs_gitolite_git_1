@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1175772853824306540=="
+Content-Type: multipart/mixed; boundary="===============2214467310698288130=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 29 Sep 2026 14:54:34 -0000
-Message-Id: <179069367486.2304217.717650903494958540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 29 Sep 2026 14:54:57 -0000
+Message-Id: <179069369773.2304553.17261487145089670292@gitolite.kernel.org>
 
---===============1175772853824306540==
+--===============2214467310698288130==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 6375e61c01e93e35ee7acd336a689ac1fae4b509
     new: 6474fa070f2b8013b4b87350b775b8c3be6e8aac
     log: revlist-6375e61c01e9-6474fa070f2b.txt
-  - ref: refs/tags/next-20260629
-    old: 758ee0279ff3463f564cbb36687f4faa035b7878
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260929
     old: 0000000000000000000000000000000000000000
     new: 5d173c41a798290ea0c4ce336282635c93554a83
 
---===============1175772853824306540==
+--===============2214467310698288130==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1057,4 +1054,4 @@ dc9465eccd17f936ec3d0c828a16f6992cb2f422 Merge branch 'for-next' of https://gith
 05e4a8f6bdaa5990958df0bb868e3519d7c1fb3f Merge branch 'headers' of git://git.infradead.org/users/willy/pagecache.git
 6474fa070f2b8013b4b87350b775b8c3be6e8aac Add linux-next specific files for 20260929
 
---===============1175772853824306540==--
+--===============2214467310698288130==--
