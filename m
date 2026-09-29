@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8348508945373149771=="
+Content-Type: multipart/mixed; boundary="===============8473174483382245567=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Tue, 29 Sep 2026 12:40:03 -0000
-Message-Id: <179068560336.2200993.17303810976315534635@gitolite.kernel.org>
+Date: Tue, 29 Sep 2026 12:40:38 -0000
+Message-Id: <179068563852.2202166.16687470362983451240@gitolite.kernel.org>
 
---===============8348508945373149771==
+--===============8473174483382245567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jack/linux-fs
 user: jack
 changes:
-  - ref: refs/heads/fast_track
-    old: 883b776abe48fed8ef615f4ff7e91113a6c4dffb
-    new: 94386ca68a92aee9b10de45201df36ef5b5ff210
-    log: revlist-883b776abe48-94386ca68a92.txt
+  - ref: refs/heads/for_next
+    old: f622f21cddacf8a0ef3b0344382924dc52c72a72
+    new: 5efe3cbf742edbdfa6d989617b540fc2a08cd787
+    log: revlist-f622f21cddac-5efe3cbf742e.txt
 
---===============8348508945373149771==
+--===============8473174483382245567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-883b776abe48-94386ca68a92.txt
+Content-Disposition: attachment; filename=revlist-f622f21cddac-5efe3cbf742e.txt
 
-7ed1e3070c9b4bbd67d5519e14711038dd53ab13 dmaengine: xilinx_dma: Fix hardware buffer descriptor chain after cyclic DMA
 e08aca85c02ff290f785f07acae758f0daf5f49e RDMA/efa: Keep admin queues alive while IRQ is registered
 e22a3627b7151754f07f90ea3d1ab6e85f5d93f4 RDMA/efa: Keep EQ resources alive while IRQ is registered
 3db7d7d583419f7b1f2e141e36418802dbb25cf8 drm/ttm: fix swapped-out resources never leaving their bulk_move range
@@ -1050,5 +1049,6 @@ b1fa457bddf009907b023bc0c09ba4eca3191a8e Merge tag 'cgroup-for-7.3-rc4-fixes-2' 
 d266640c6c760c9bc215bf5a3ece122ca488b6f5 Merge tag 'driver-core-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e Linux 7.3-rc5
 94386ca68a92aee9b10de45201df36ef5b5ff210 udf: don't let a stale metadata buffer overwrite expanded file data
+5efe3cbf742edbdfa6d989617b540fc2a08cd787 Merge udf bdev aliases fix.
 
---===============8348508945373149771==--
+--===============8473174483382245567==--
