@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 29 Sep 2026 00:42:07 -0000
-Message-Id: <179064252786.1653801.3198536986724789683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 29 Sep 2026 00:42:15 -0000
+Message-Id: <179064253574.1654023.8855464947786025548@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: 0456d187c006be73d376969a65eeb5f300a5ebf6
-    new: 04c824940d52871c49866a4ac67b504146f7cf35
+  - ref: refs/heads/master
+    old: 6944fe025a71112c8fc1b29df40bfcf4c8234525
+    new: f4fd3d9e59e5b42abcaef601fc333102943e85f7
     log: |
-         04c824940d52871c49866a4ac67b504146f7cf35 net/mlx5: Fix slab-out-of-bounds when handling team device events
+         f4fd3d9e59e5b42abcaef601fc333102943e85f7 foo
          
