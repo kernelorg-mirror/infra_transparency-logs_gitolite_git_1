@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 29 Sep 2026 22:39:17 -0000
-Message-Id: <179072155795.2657301.8819033195866078714@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Tue, 29 Sep 2026 22:45:51 -0000
+Message-Id: <179072195197.2663548.2822283917754222568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/100GbE
-    old: 433f02c92f34ead00618f7d05ec9a722ffec6359
-    new: ce0e3e4b98c2f80221965ba16c583bd886828823
+  - ref: refs/heads/arm64-for-7.4
+    old: 83d1b5902238fbd97f9939b73abaa2695bfa7d8e
+    new: 300f5c59beb257550ae3863aeeed2ba63871dae8
     log: |
-         2270d2bf1606fb622737efd4a9ab18551a19034b ice: drop pf == NULL check in ice_pf_state_is_nominal()
-         ce0e3e4b98c2f80221965ba16c583bd886828823 ice: simplify ice_vc_dis_qs_msg() a little
+         d84010928d902c959243b90d64f9a1a7aba08920 dt-bindings: arm: qcom: add Lenovo ThinkPad T14s Gen 7 (Mahua)
+         300f5c59beb257550ae3863aeeed2ba63871dae8 arm64: dts: qcom: Add Lenovo ThinkPad T14s Gen 7
+         
+  - ref: refs/heads/drivers-for-7.4
+    old: dd647489dadd1f9460fa7280f08e4b65cb9aa349
+    new: b091834a9520fb9d959b4a9947b25d1368249773
+    log: |
+         b091834a9520fb9d959b4a9947b25d1368249773 firmware: qcom: scm: Allow QSEECOM on ThinkPad T14s Gen 7
          
