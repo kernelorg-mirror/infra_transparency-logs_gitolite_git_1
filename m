@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Tue, 29 Sep 2026 18:04:20 -0000
-Message-Id: <179070506007.2447710.4745389914541252475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 29 Sep 2026 18:07:43 -0000
+Message-Id: <179070526355.2451091.16003599486705411519@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/driver-core-next
-    old: a85ce03a58fff93a9660c036c1fe35187b3525e4
-    new: f1850e443b0e4f2429ddf42a8d5033ea54ae8a90
+  - ref: refs/heads/wip/leon-for-next
+    old: 90e9b6357bec75f627cde1a85b5887215c80aad8
+    new: eb6aed55cc01521608bea0ae57fb25984fa1162e
     log: |
-         f1850e443b0e4f2429ddf42a8d5033ea54ae8a90 docs: admin-guide: Handle TAINT_FORCED_BIND when parsing /proc/sys/kernel/tainted
+         b840f0890ad06f2e79ad5a47e3283d2f46dc8a4c RDMA/efa: Use device ABI MR permissions instead of verbs flags
+         eb6aed55cc01521608bea0ae57fb25984fa1162e RDMA/efa: Pass relaxed ordering flag to device
          
