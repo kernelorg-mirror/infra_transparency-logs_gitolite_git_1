@@ -1,85 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4795206991748010296=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 29 Sep 2026 21:18:30 -0000
-Message-Id: <179071671001.2596672.11148703599094554330@gitolite.kernel.org>
-
---===============4795206991748010296==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 29 Sep 2026 21:34:31 -0000
+Message-Id: <179071767190.2607277.2199070217946569797@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 0ae6fc78c5ce0dfd18d8712a50f0fd4602eff103
-    new: 45d15e89a783a0a279b7a54f9018c230127380d7
-    log: revlist-0ae6fc78c5ce-45d15e89a783.txt
-
---===============4795206991748010296==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ae6fc78c5ce-45d15e89a783.txt
-
-b1f035ad79a591f792bfa097fae075f78f29dd46 tools feature gettid: Undef _GNU_SOURCE before defining it
-51d3e358fef9c406e7ad4026637c8d7e73ff0501 perf tools: Put Python egg info in output directory
-5479e1a13b7592c5010b95b11a1167989dfd6bf1 perf tools: Put Python bytecode in output directory
-da39380560de588b5e16efc334f62ecc6dd9af40 perf python: Fix arm-cs-trace-disasm type error
-5dd1a045e576323a10d0c7ca6dbc0f0b81ed9b5c perf test: Record kcore for the CoreSight callchain test
-81e47a0414d3e2dde71ec81c3ed8c8cb3074b478 MAINTAINERS: Update John Garry's address for from arm64 perf tools
-ea2058a975c549bc2cae3ae42490c3f5a846ad81 perf build: Improve fix for "argument list too long" error
-58bf7b7af359d4c6f1af29fd8d2067bbcff1d8c7 perf test code-reading: Fix duplicate kernel maps and machine leak
-fb0da4af899ab1d6a66d29b21189bda3c68c2ce0 perf build: Clean libperf-gtk.so in 'make clean'
-a0091f09e5397952a5752eb9627e52269a9620d6 perf vendor events intel: Update alderlake events from 1.40 to 1.41
-7fd043816c61b5d7344e583d746fb290dd47d4c9 perf vendor events intel: Update alderlaken events from 1.40 to 1.41
-2b12b8bf92459d66c595c0533f21e944ff81aa92 perf vendor events intel: Update arrowlake events from 1.20 to 1.21
-ee13d8c531984ce2deacbbffa3c623515987ec74 perf vendor events intel: Update broadwell metrics to TMA 5.2
-b78bcf59ac75d9fb7655657b2612a9f574a72af8 perf vendor events intel: Update cascadelakex metrics to TMA 5.2
-3c989481ee3cc22ac5d34e73862a4016af770710 perf vendor events intel: Update emeraldrapids events from 1.24 to 1.25
-035dc9982c110644938efa91a6015e0b9019d46d perf vendor events intel: Update graniterapids events from 1.20 to 1.21
-c225d9a622c6a60ff630924d8c0186136d4a2338 perf vendor events intel: Update haswell metrics to TMA 5.2
-83b7b391a51d70fe42d3754d62207626e7426a85 perf vendor events intel: Update icelake events to 1.25 and TMA metrics to 5.2
-4afb18fd056b93553948ea19dceb5f7cf5f7046a perf vendor events intel: Update icelakex events to 1.31 and TMA metrics to 5.2
-83d8372bc46066b8c02dc1145d83c3bff4e3a993 perf vendor events intel: Update ivybridge metrics to TMA 5.2
-e4fe54fc315fee32ea998ac9143f8b0f1661951e perf vendor events intel: Update ivytown metrics to TMA 5.2
-6c2d93b774bf6bf0371d997a68e5720236575d50 perf vendor events intel: Update jaketown metrics to TMA 5.2
-f7f0779ce2908dc481a82d426fe58fad4b72cb3d perf vendor events intel: Update meteorlake events from 1.22 to 1.23
-75a7e246ac17dc923c6c1fa0ee5a2b18b0e53ec7 perf vendor events intel: Update novalake events from 1.00 to 1.04
-159acdd8e2577942365c702263e7a539c74c99f5 perf vendor events intel: Update pantherlake events from 1.07 to 1.08
-aac1a3ddb26ee370bc6709c10a80e888f9fa575c perf vendor events intel: Update rocketlake events from 1.04 to 1.06
-79d665f0308564e18af93cdf3a9df0654c4f6d80 perf vendor events intel: Update sandybridge metrics to TMA 5.2
-31efbec2161d2d31b020b086958e41f35f070a38 perf vendor events intel: Update sapphirerapids events from 1.39 to 1.40
-45ed5b582b7599d92a3b13b18afde98466005ec5 perf vendor events intel: Update skylake metrics to TMA 5.2
-180c401ee7edb822dc235d0d7abe3b3e5e0f7ab6 perf vendor events intel: Update tigerlake events to 1.20 and TMA metrics to 5.2
-b26183fade24530141a2c7a22ca47e1ab0f7989e perf vendor events intel: Fix clearwaterforest umask encoding.
-f2844acc9dfc330b6e4b4731c18ddafe10b2f99c perf vendor events intel: Fix lunarlake umask encoding.
-a86bd28b6e71101a1b11b7768f9bbc648b7b14d3 perf vendor events intel: Fix sierraforest umask encoding.
-f37e7dfbd34c4e48d2bea4c5e0e64c398671e87b perf vendor events intel: Fix skylakex umask encoding.
-8a0b9c9ff582258aafc6d6c8fe3fb104d9686a7b perf vendor events intel: Fix snowridgex umask encoding.
-7619d7e8d2a79a587d7f3bf0fc31e15e75bd4f96 perf test probe_vfs_getname: Also look for the probe line in do_getname()
-9bb41680990c40e4561c1b4356012d8ab1aab113 perf arm-spe: Add Neoverse V3AE data source decoding
-7c89ea1bd4c612eb5cc2e6c01f77ebfc21d5c95d perf evsel: Clamp sample_id size for ksymbol, bpf, and text_poke events
-ac6e4e290bd8a0ae9c12c148b62f2be4b5d7a422 perf python sctop: Fix offline interval printing and test flakiness
-2fc36cce77d8d94e4a17bc41ac9438bdb64ceb89 perf python stat-cpi: Fix live mode signal races and test flakiness
-acdfc9b2fe2d83684ae66a87b5c78412d52d5d4c perf test: Deflake Intel PT Python shell tests under load
-959c63291e52beaebd3307be7de32dc012c85e97 perf test: Deflake failed-syscalls Python shell tests under load
-66d7274859b983a018ea672ef4790ce9b5c715d9 perf test: Reduce overhead and contention in Python shell tests
-4b34e3ad4cbb91ff5d6f99bb9c7dd85694c15bec perf python event_analyzing_sample: Default to in-memory SQLite database
-3d13b3f1f3a7cd33d1847a4b87c3198089b6c4a7 perf python: Initialize debug output on module load
-ab20a3090d338c4f161cb1a68e64a7f8914569ea perf pmu: Fix race with concurrent tracepoint creation and removal in perf list
-d1cf0bd01e4089f705435b4289e965deb52bffa8 perf tools: Add dso->dbginfo_type field
-0f3c94f4684b27aed38171057d579c6ac293abb7 perf tools: Factor out dso__find_dbginfo_type()
-58645c1e2d2a286284300ff2faa1f42d7a053f05 perf tools: Check system path when check debuginfo
-ad32bb10e4fecf5e0df8da9d316881db175b8c3f perf tools: Export dso__get_filename() with type argument
-4642e6e5e8adeee680327efeaeb6011585cf7705 perf tools: Add dso__put_filename()
-262746cfb2b24664be697eda61a8f58f4aff6ea0 perf tools: Avoid repeated failing search for debuginfo
-a8876927a752936eb7b6ffcc0f865c29e27a4321 perf tools: Looks symbol file first when check debuginfo
-74ce97dcac6e874a1ea077b8b0e07cfe03c0b199 perf debuginfo: Update debuginfo__new() to take DSO
-45d15e89a783a0a279b7a54f9018c230127380d7 perf symbols: Don't let a module's last symbol overlap the next module
-
---===============4795206991748010296==--
+  - ref: refs/heads/arm64-gcs
+    old: 9f75484d7cea0b30251de60b28cdb308ea01c5a0
+    new: 7f50ee83de7f3cae7dfa69f8daa6caf1c5d12ca3
+    log: |
+         2fd830fe021f8ffbef8a5298ab8dc7d5b78172c3 KVM: selftests: arm64: Check that invalid feature combinations are rejected
+         dfd1a5279bcb23ed32e5ffdb660f1fc5354941d1 KVM: selftests: arm64: Add GCS registers to get-reg-list
+         651712b001dbc95fe7302520d084c551db046f94 KVM: selftests: arm64: Add GCS to set_id_regs
+         105ef8546d9b3b064c25c48c3981a1c37b8d6953 KVM: selftests: arm64: Only restore SPSR_EL1 and ELR_EL1 if they change
+         b91b36a3f2a14e72b0a722e58c31cf0b282b61d9 tools: Synchronise the kernel esr.h
+         7f50ee83de7f3cae7dfa69f8daa6caf1c5d12ca3 KVM: selftests: arm64: Add GCS EXLOCK exception emulation test
+         
