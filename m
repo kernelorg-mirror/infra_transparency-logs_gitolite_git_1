@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0603579771508357375=="
+Content-Type: multipart/mixed; boundary="===============2023486257936351347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 29 Sep 2026 19:15:10 -0000
-Message-Id: <179070931064.2505684.12379251191755446383@gitolite.kernel.org>
+Date: Tue, 29 Sep 2026 19:15:28 -0000
+Message-Id: <179070932838.2506083.5299828431532324449@gitolite.kernel.org>
 
---===============0603579771508357375==
+--===============2023486257936351347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-keys
-    old: 521b241fd305007ae55638827914d57626da5337
-    new: e7ac8fd885298225076abd92b82c1f31a6bc8320
-    log: revlist-521b241fd305-e7ac8fd88529.txt
+  - ref: refs/heads/for-next-tpm
+    old: bef073c3550e78e793300be070726879d305b458
+    new: 015fb29a748342a186f37b602ac70017098c8251
+    log: revlist-bef073c3550e-015fb29a7483.txt
 
---===============0603579771508357375==
+--===============2023486257936351347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-521b241fd305-e7ac8fd88529.txt
+Content-Disposition: attachment; filename=revlist-bef073c3550e-015fb29a7483.txt
 
 d215f014b3526a9898d87bfb4b866287f0864cc9 KVM: s390: Fix dirty marking in adapter_indicators_set*()
 ae12d2f9c119639a142d92c4a37c30277e8576da KVM: s390: Fix compile warning for kvm_s390_update_cmma_dirty()
@@ -229,10 +229,9 @@ b1fa457bddf009907b023bc0c09ba4eca3191a8e Merge tag 'cgroup-for-7.3-rc4-fixes-2' 
 d266640c6c760c9bc215bf5a3ece122ca488b6f5 Merge tag 'driver-core-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e Linux 7.3-rc5
 6f8319e3e9a44dd537d17f41565a8453c560a581 Merge tag 'mm-hotfixes-stable-2026-09-27-19-12' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-ab36951527b57cea3d1b78cf426fc21d23a516ed keys/trusted_keys: return immediately after TPM unseal failure
-010efc1922ad5ed1f1ea58d164a903cede8341e8 keys: finalize persistent keyring timeout after link attempt
-25d6a2c5965b7dd4f284365a1b7f525d839f86d3 KEYS: trusted: Fix blob allocation size in tpm2_key_decode()
-1c5264b465ad0d2706e03dd0ca648cdffd7ccf0a KEYS: trusted: Reject short TPM2 public areas
-e7ac8fd885298225076abd92b82c1f31a6bc8320 assoc_array: discard shortcut when collapsing a leaf-only node
+1a70f0b71826fb764e8490dda55bb1b853e0d1de tpm: Fix heap buffer overflow in tpm_transmit_cmd()
+1e2f9a611b334ce6ed1dc4a9e1587c7a11d2be30 tpm: Fix auth session leak in tpm2_get_random() error path
+9b522400bf5c082feb9a0037a053ea822a2c7e4d tpm: fix off-by-four bounds check in tpm2_get_random()
+015fb29a748342a186f37b602ac70017098c8251 tpm: Disable TPM on null key name mismatch
 
---===============0603579771508357375==--
+--===============2023486257936351347==--
