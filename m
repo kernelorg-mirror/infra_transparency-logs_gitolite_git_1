@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8397587580921099785=="
+Content-Type: multipart/mixed; boundary="===============6509803102091827400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Tue, 29 Sep 2026 15:03:20 -0000
-Message-Id: <179069420023.2312196.14071094831404066677@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Tue, 29 Sep 2026 15:03:38 -0000
+Message-Id: <179069421831.2312475.450922480790975640@gitolite.kernel.org>
 
---===============8397587580921099785==
+--===============6509803102091827400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 6f8319e3e9a44dd537d17f41565a8453c560a581
     log: revlist-72d3fcf802c4-6f8319e3e9a4.txt
 
---===============8397587580921099785==
+--===============6509803102091827400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ b3f0c1a4e41f356c3126a676ad55c0f6881e7514 MAINTAINERS: make Gregory a co-maintain
 976d5e0ddac885b0219252f004f6c561c344df9d mm/vma: predicate setting mmap_prepare VMA fields on new vma alloc
 6f8319e3e9a44dd537d17f41565a8453c560a581 Merge tag 'mm-hotfixes-stable-2026-09-27-19-12' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============8397587580921099785==--
+--===============6509803102091827400==--
