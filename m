@@ -1,26 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Tue, 29 Sep 2026 22:59:35 -0000
-Message-Id: <179072277510.2673881.2031803900716581597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
+Date: Tue, 29 Sep 2026 23:00:28 -0000
+Message-Id: <179072282818.2676292.3605088903954369584@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
+user: kuninori.morimoto.gx
 changes:
-  - ref: refs/heads/for-7.4
-    old: c6fe97c34a1a928bd1f6bbf47e6fe7130c501338
-    new: f2f095c87603b8dfb6752e130d902970371c3852
-    log: |
-         f2f095c87603b8dfb6752e130d902970371c3852 sched_ext: Work around pahole 1.32 dropping scx_bpf_task_set_lazy_resched() from BTF
-         
-  - ref: refs/heads/for-next
-    old: dbb05d74550d17111a437760722753fad7d1f168
-    new: 91a186b9e599f08f79abfbdbbbcf22443f966a6a
-    log: |
-         f2f095c87603b8dfb6752e130d902970371c3852 sched_ext: Work around pahole 1.32 dropping scx_bpf_task_set_lazy_resched() from BTF
-         91a186b9e599f08f79abfbdbbbcf22443f966a6a Merge branch 'for-7.4' into for-next
-         
+  - ref: refs/heads/renesas-slts/v6.12.111-2026-09-29-sparrow-hawk
+    old: 0000000000000000000000000000000000000000
+    new: ad00942536b37fe92d15f8ba8ed2010467cb8463
