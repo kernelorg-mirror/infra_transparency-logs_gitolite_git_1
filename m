@@ -1,36 +1,59 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 29 Sep 2026 12:09:43 -0000
-Message-Id: <179068378367.2177460.5026571631846705397@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6253160101354890139=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 29 Sep 2026 12:16:47 -0000
+Message-Id: <179068420773.2183721.6930940739824075240@gitolite.kernel.org>
+
+--===============6253160101354890139==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 53cd4fb62b027bc25437c06a1e3a002574c00972
-    new: 8a937b74de272becd891fb0d1530fc5bb0514e7e
+    old: 9a50db1d0292071d21bb9f2ab0b7b976d312e40c
+    new: 54e874eba3e7db85395a2e6eabf5a94763c54d4c
     log: |
-         973f2a29ff90f20e72f3ce4b72e8b662ae090d22 Skip broken tests on zfs (+compression)
-         923ccd08023daae653a8b00b8d1c7ed10ba91e69 setpriv: match Landlock fs rights exactly
-         ac280f2f34588d1a22a699b3e55fc147b27e6a2e wall: fix off-by-one in is_gr_member() group matching
-         172b3ee3ba309d07e4b01ca67d80458f9ec36055 Merge branch 'fix/setpriv-landlock-fs-exact-match' of https://github.com/Ar-maan05/util-linux
-         397aab9967ee131e6274571447949b8aa7c67ff0 Merge branch 'wall-is_gr_member-off-by-one' of https://github.com/gmkbenjamin/util-linux
-         8a937b74de272becd891fb0d1530fc5bb0514e7e lslogins: avoid one-past-the-end write in get_sgroups()
+         bc7feb8452d20a5f2058aba1be48fdfa9a42c935 fix up CVE-2026-80728
+         b1203be048a646b94333d132cecc00c76e31bfd5 fix up CVE-2026-74732
+         c4fe198371caed9a1b7ef1b43985a9e0e87db394 mark CVE-2026-74732 as rejected
+         54e874eba3e7db85395a2e6eabf5a94763c54d4c strip the new mbox file
          
-  - ref: refs/heads/stable/v2.41
-    old: ba905a1874959c70fd706aa7d49df61076864e0a
-    new: 56e83de535ae1df9228d3b1cbf978b3e36b5d959
-    log: |
-         56e83de535ae1df9228d3b1cbf978b3e36b5d959 wall: fix off-by-one in is_gr_member() group matching
-         
-  - ref: refs/heads/stable/v2.42
-    old: a3205a6fd4cc0e03e787b09e614058527f63ac54
-    new: b7c52e8505ddf430a4860d0973dd5eb419b747c4
-    log: |
-         b7c52e8505ddf430a4860d0973dd5eb419b747c4 wall: fix off-by-one in is_gr_member() group matching
-         
+
+--===============6253160101354890139==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790684201 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1790684204-dd8485803b7f4630b6537909fc397bc8c59c13a3
+
+9a50db1d0292071d21bb9f2ab0b7b976d312e40c 54e874eba3e7db85395a2e6eabf5a94763c54d4c refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq7rCkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YlYP/ROnUpt4MUJShFzHcUMM
+C70IcwpigK6/KH+OfqjbMNzoPvoVo/3oMNW6ZsT10fJNXe+YzOZTtOsRdwpYGroT
+HBUhmn+Otz8g4SdUFykOHDLwe8qJD9GJDST0KgCMmX32wzGnSSRNV6YwtE84dlk0
+TY6v1eTPhX2mwCA/ZP7JRlKf2lYYTviTGUcHHPlLWQnCUUMez/WKTHwvspFK7WQL
+QN9yORVU0SnFktFu5Kuoik4eolcBVOs88zQA0TMJ3PojtUWmjLGvFzUtC4d5/dut
+Kwwi0+SNfsOIYYHdNukwUE4Vfn2FoeocKsLEVIYHW9hUlycu8tdxs0n1CLtQzL9E
+4NssxvUuo2TTaWh5369e4LtoiWknIZo9C2GuFJkY+YNGOFqloGJi4bGR5baW1fok
+2DjZ4LpAtvekwL3cGqoe3IkGJDMg1r9tv8PKLTvM8DJpcYbnQTrUwqevBZld69cr
+RHdrifHBRYlU3tiD64fVzbkDplyXtY+kVxiC5wDio6hQrJwp5pgcCrb3ewN9lpzi
+psa6PExfH0DrDBWmUSbEZk7w0OxhvysRPUGXXmu5pSa1cahi7o7gCjaKxl12Ksbt
+9qAw2a1YVhv1YntqUdYmj5EnQcd0j8qjZWn03/O14veFSUsehEGIHT70erLAg1at
+bls/IY8q9BfIgyNUVq733kVn
+=OSMU
+-----END PGP SIGNATURE-----
+
+--===============6253160101354890139==--
