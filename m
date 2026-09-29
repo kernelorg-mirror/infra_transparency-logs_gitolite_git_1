@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 29 Sep 2026 17:34:46 -0000
-Message-Id: <179070328669.2426301.18014984029396101439@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/nilfs2
+Date: Tue, 29 Sep 2026 17:50:20 -0000
+Message-Id: <179070422008.2438984.15064692791016771259@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/vdubeyko/nilfs2
+user: vdubeyko
 changes:
   - ref: refs/heads/for-next
-    old: de44fdc205bb04df746e0f1eb481bea146fa1778
-    new: eaa5b2c458258622fd4b5f75eaa9c5aedd3f7916
+    old: ff1227f70eead8704ecfec69259fb4c041f92cda
+    new: 6faad04a002603d800134398fcd042b403b32d35
     log: |
-         0bebef817d4816a95a5d13a00210908f96596552 ASoC: tas2781: Add TAS2573 calibration support
-         a5194161ede67a08ba86c363709e39312131df93 Merge asoc-linus into asoc-next
-         eaa5b2c458258622fd4b5f75eaa9c5aedd3f7916 Merge asoc/for-7.4 into asoc-next
+         6faad04a002603d800134398fcd042b403b32d35 nilfs2: clear dirty flag on bdev buffers on log write failure
          
