@@ -1,41 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6509803102091827400=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
-Date: Tue, 29 Sep 2026 15:03:38 -0000
-Message-Id: <179069421831.2312475.450922480790975640@gitolite.kernel.org>
-
---===============6509803102091827400==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Tue, 29 Sep 2026 15:06:55 -0000
+Message-Id: <179069441503.2315856.5800550714654354965@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fwctl/fwctl
-user: jgg
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/linus
-    old: 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e
-    new: 6f8319e3e9a44dd537d17f41565a8453c560a581
-    log: revlist-72d3fcf802c4-6f8319e3e9a4.txt
-
---===============6509803102091827400==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72d3fcf802c4-6f8319e3e9a4.txt
-
-c79cf15eb35a4c703bf18f8c33c47e80dd660f8e module: fix lost error code from codetag_load_module()
-72c3d682c165b836b54a3d07a01f72e39c47022c mm: shmem: ignore sysfs configs for shmem forced collapse
-347c6ed8cf7768883252e106994de62c7947f0a0 alloc_tag: avoid implicit padding in uapi
-52ae167ce16609c7e6fffef588b3c2c26de2db19 mm/damon/core: don't skip damos_adjust_quota() while esz is not zero
-22ab0647764c38924669673634ae333578d77768 kasan: unpoison task stack below watermark only in generic mode
-711d886fe76e28854814759f51ee175e279ef8c7 MAINTAINERS: split up MEMORY MANAGEMENT - MEMORY POLICY AND MIGRATION
-4050a73a90f456887dc35d5bbfa4f4790eb5c2cf MAINTAINERS: move memory tiering under MEMORY MANAGEMENT - NUMA PLACEMENT
-b3f0c1a4e41f356c3126a676ad55c0f6881e7514 MAINTAINERS: make Gregory a co-maintainer of MEMORY MANAGEMENT - NUMA PLACEMENT
-6cc8f549f6888e36036ab14d84a8ec46b4a393c0 MAINTAINERS: add Heming Zhao as ocfs2 reviewer
-976d5e0ddac885b0219252f004f6c561c344df9d mm/vma: predicate setting mmap_prepare VMA fields on new vma alloc
-6f8319e3e9a44dd537d17f41565a8453c560a581 Merge tag 'mm-hotfixes-stable-2026-09-27-19-12' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-
---===============6509803102091827400==--
+  - ref: refs/heads/for-next
+    old: b03d22ec8186f3f6b40b95a5a678100cf80116cb
+    new: 3fa6f22c1dc835fe1757b06e7d51d8c424ac978a
+    log: |
+         731383dcf511c4d9ee00b3dc9f4f65689e233401 printk: Use two irq_works instead per-CPU
+         267f1127c0f4035448acc6f2c3321eb38e54eecc printk_ringbuffer: Avoid needless read of prb_desc
+         ae30792e536c80aed87fb11ec9140e55ed99da09 printk: increase the ring buffer for more than 16 CPUs by default
+         3fa6f22c1dc835fe1757b06e7d51d8c424ac978a Merge branch 'for-7.4' into for-next
+         
