@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 29 Sep 2026 20:03:45 -0000
-Message-Id: <179071222529.2540016.7776212445555514216@gitolite.kernel.org>
+Date: Tue, 29 Sep 2026 20:05:24 -0000
+Message-Id: <179071232486.2542562.3816420244158073393@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: tglx
 changes:
   - ref: refs/heads/timers/core
-    old: 3945c4a3ea151f777b4b098ebeecd2f85c20244f
-    new: b03638013add0609d35aaa8291548dea92cb9484
+    old: b03638013add0609d35aaa8291548dea92cb9484
+    new: 348f54c435bf3177baa78201952810b255d44b30
     log: |
-         a252cb93e1568d9f0754b9b2ac4829d896daa14e selftests: timers: Count what tick is worth in the drift estimate
-         b03638013add0609d35aaa8291548dea92cb9484 selftests: timers: Measure the CPU timers on the clock they count
+         348f54c435bf3177baa78201952810b255d44b30 selftests/timers: clocksource-switch: Fix unchecked open()/read()
          
