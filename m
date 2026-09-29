@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 29 Sep 2026 16:46:21 -0000
-Message-Id: <179070038125.2391268.5155353987031288536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Tue, 29 Sep 2026 16:53:02 -0000
+Message-Id: <179070078203.2395378.1280659088946350984@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/clk/linux
+user: masneyb
 changes:
-  - ref: refs/heads/main
-    old: 2b34bff32c6953278be74f2ea331111af574704c
-    new: b64812cb6cec118f6c59a4ec2bd4848db17f6bb2
+  - ref: refs/heads/clk-pile
+    old: 7b283b8ce37d40d22f41bdc20b407cd76fe86e68
+    new: 64461f89a37a788789a1ce22979e3c0695ae0497
     log: |
-         4f9d491b291277157c4ecb97240da7d8e9161b39 Merge remote-tracking branch 'wireless/main'
-         938372a76c125361054cbbc5eda243d0614e0eff Merge remote-tracking branch 'wireless-next/main'
-         911754b6b9fd39cf73abda490632e5f350b6dc41 Merge remote-tracking branch 'mhi/mhi-next'
-         3606b79428765b8e8ce6134680865cebef8ecf15 Add localversion-wireless-testing-ath
-         b64812cb6cec118f6c59a4ec2bd4848db17f6bb2 MIPS: generic: Remove undefined image 'ramdisk'
+         109124b8ff43fb911d5b8790bb5e4c5684f72d88 clk: validate spread spectrum configuration
+         93e5dc301c87fe6b7bae0b087a15be69e521e657 dt-bindings: clock: ti,da850-pll: Convert to DT schema
+         26881ca4ad352d4003c6d6acc1343ecd1823953f dt-bindings: clock: ti,dra7-atl-clock: convert to DT schema
+         f31b15c9bbb03b1560fbd137439cd9fba037bace dt-bindings: clock: ti,dra7-atl: convert to dt-schema
+         307bee2e5a6ede1c50dcbf1ef803c7be44fbbcb6 dt-bindings: clock: ti,DM814x-ADPLL: Convert to DT schema
+         64461f89a37a788789a1ce22979e3c0695ae0497 dt-bindings: clock: ti,dm816-fapll-clock: Convert to DT schema
          
-  - ref: refs/tags/ath-202609291632
-    old: 0000000000000000000000000000000000000000
-    new: b64812cb6cec118f6c59a4ec2bd4848db17f6bb2
