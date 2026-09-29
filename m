@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 29 Sep 2026 18:07:43 -0000
-Message-Id: <179070526355.2451091.16003599486705411519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 29 Sep 2026 18:12:15 -0000
+Message-Id: <179070553562.2454753.15706196584425703688@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 90e9b6357bec75f627cde1a85b5887215c80aad8
-    new: eb6aed55cc01521608bea0ae57fb25984fa1162e
+  - ref: refs/heads/for-7.4
+    old: 0bebef817d4816a95a5d13a00210908f96596552
+    new: 995b96380ba5d98131acc162608da3538e1395d8
     log: |
-         b840f0890ad06f2e79ad5a47e3283d2f46dc8a4c RDMA/efa: Use device ABI MR permissions instead of verbs flags
-         eb6aed55cc01521608bea0ae57fb25984fa1162e RDMA/efa: Pass relaxed ordering flag to device
+         995b96380ba5d98131acc162608da3538e1395d8 ASoC: pcm6240: do not free an unrequested IRQ
          
