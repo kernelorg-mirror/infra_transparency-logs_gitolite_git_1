@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5910345515688747528=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 29 Sep 2026 08:43:56 -0000
-Message-Id: <179067143620.2010621.7669419819431371473@gitolite.kernel.org>
-
---===============5910345515688747528==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 29 Sep 2026 08:48:42 -0000
+Message-Id: <179067172257.2015728.12506755665037548491@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: b87ef340f5a0f70d6550d889346fc0dc36dc4dad
-    new: 2bec56ef5f3963e4489249540b90984b6957ea80
+  - ref: refs/heads/main
+    old: c66d93e68728cfb5f40b40d0f24129d7768faf43
+    new: 09c188c249be1d7b7ce0a919d8997aa5004398fd
     log: |
-         2bec56ef5f3963e4489249540b90984b6957ea80 6.12-stable patches
+         3251a68930f83359f9a4c8b5bf45b5f1c983adb3 eth: mpnic: add scaffolding for Meta Platforms NIC
+         cda700bcb2367da673fad182b00427ac9ae158a3 eth: mpnic: add register init for the device
+         2cf67a26922471bdd21aa1576a414f11a34992df eth: mpnic: allocate MSI-X vectors
+         3d4e4ad43aa455353067cf004d0618009ac39205 eth: mpnic: implement Tx queue allocation and cleanup
+         bd7ce2b2afeae7a9fa8fa28602ba515c8656ce3a eth: mpnic: start and stop the Tx HW queues
+         1b8d005bd3340ae249271c779672c7355a39f144 eth: mpnic: add a netdevice and basic Tx handling
+         4b26e9cdad78bfa4e1ff80690589f0244ba07e4d eth: mpnic: implement Rx queue allocation and cleanup
+         a9a9bb5416148f415a8c847048feb017d4f1b089 eth: mpnic: add basic Rx handling
+         09c188c249be1d7b7ce0a919d8997aa5004398fd Merge branch 'eth-mpnic-initial-support-for-meta-platforms-nic'
          
-
---===============5910345515688747528==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790671432 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1790671434-32c9ee065c45f757f5cecf881cd6348c123ec7f4
-
-b87ef340f5a0f70d6550d889346fc0dc36dc4dad 2bec56ef5f3963e4489249540b90984b6957ea80 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq7ekgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++igP/1h6NQDJ/qi1EY2xO+1x
-Ddmk0gV3zCGEVwANitjRH2XhuDwcR9jDH7Ru+ERxKSQhniP7JomxZAp5XlVjjv1W
-wanAiuQ4tgM0zppGZ/gAkhH427FYNU1f/WAbahPUOrZtywrPYE6YZT6XgIQ4krFo
-yZZ+xj8E7CWooK55VR6s9AEodyk4Yh2JA4tWz0Ri+r3bsEHPtV68LHmr5jbnz//6
-Ycm4/Z46X9JE8nGF18B843kXn9K4B4uhvQoqO71czGD4BeXRhkaVakevWLKHbVDF
-r9myX9qURT7IznQ4aNvEum2Q5utwVDnsbR83dTFq+LNfVYFNLf1h2Jo+fRkBb7Sj
-S7OzkSImwRq6wNpxQIUrgMC/VbfHA0+vpG0wO09fZ8crfx2B4bVOxAXtPRdxsVts
-IzdvAngyIsbYjpQhJwrbl+jBJPGWBWRdVODlf0W7fJ6n/N2Om7nYCUuw109WcFEA
-FGxn9xpoZoy9R9G/wGEfWyKTgVWSj5AjhI3j4G0E30kx7UZ3SSBl25P+1bw+Ga/M
-9weJF0wBakyCEu9mRWl6s27vVO/KCg7s7eiDB/3JE5x54enqcDNR1fr7reWap6jO
-dfqx8/7h1KmZlgGW0esBnLPekkKEQ/oDgjSoxnI8M0mLp6NUQBwUwE13qC5ZfD0L
-0tt42yQ6CAdpI5MwhF6ORNmw
-=7dO9
------END PGP SIGNATURE-----
-
---===============5910345515688747528==--
