@@ -1,73 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/glaubitz/sh-linux
-Date: Tue, 29 Sep 2026 07:05:13 -0000
-Message-Id: <179066551310.1934760.2163124161712817596@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3238700756204065972=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 29 Sep 2026 07:11:44 -0000
+Message-Id: <179066590417.1939106.14559183297060183684@gitolite.kernel.org>
+
+--===============3238700756204065972==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/glaubitz/sh-linux
-user: glaubitz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/v7.1
-    old: 0000000000000000000000000000000000000000
-    new: b3f94b2b3f3e51ab880a51fc6510e1dafba654ed
-  - ref: refs/tags/v7.1-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 9e0898f1c0f134c6bad146ca8578f73c3e40ac0a
-  - ref: refs/tags/v7.1-rc3
-    old: 0000000000000000000000000000000000000000
-    new: bb1459368dd795c43380057523f571d5eb0ddded
-  - ref: refs/tags/v7.1-rc4
-    old: 0000000000000000000000000000000000000000
-    new: aa61612ab641d7d62b0b6889f2c7c9251489f6e3
-  - ref: refs/tags/v7.1-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 9e171fc1d7d7ab847a750c03571c87ac3c17bd84
-  - ref: refs/tags/v7.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3bc831df9ee16fceee851872315161377ca1417d
-  - ref: refs/tags/v7.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b7e5ac83cb16f7ffd11dc23736f84276602100ed
-  - ref: refs/tags/v7.2
-    old: 0000000000000000000000000000000000000000
-    new: 237a1c39e8dfd3e1c6f1f023eea37a48ec04cc63
-  - ref: refs/tags/v7.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 728e68a889bcf257b1e67298b12c360e5c3a13e0
-  - ref: refs/tags/v7.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 4c45e14df2f4e77982ad70d6d8e3fe750edd4c37
-  - ref: refs/tags/v7.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 1137d8b5df06137fb49513cc923b3b24d94cb809
-  - ref: refs/tags/v7.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 6946cd5d0aa4dd10a414ddcb7a10844fdb0ad345
-  - ref: refs/tags/v7.2-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a8e429896436e8c2d288181f875f92af8204bc58
-  - ref: refs/tags/v7.2-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d7dd96eb916519208210bb4a0408fcf4f7fdce5d
-  - ref: refs/tags/v7.2-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 2ee859ebf156157609f71060ae472711c8cbc326
-  - ref: refs/tags/v7.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e5e04726cdd043e309677071ab1b65a4b18f422b
-  - ref: refs/tags/v7.3-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 5e036ce12de91c6fd674dad33b169c6150be2a7a
-  - ref: refs/tags/v7.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c2cd463d6ee7d55a3ec0719d93c49ff99022d58f
-  - ref: refs/tags/v7.3-rc4
-    old: 0000000000000000000000000000000000000000
-    new: dec005ae90a2946656a090f37bf1cfbd22f08e57
-  - ref: refs/tags/v7.3-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 5a956dde5526a634dca7ccad27c051ebcc306089
+  - ref: refs/heads/master
+    old: 8c0f190619a7317d00710cea6f809c4120a7acfe
+    new: 4b0a676072990af28646f5218c72780d9744c2cd
+    log: |
+         4b0a676072990af28646f5218c72780d9744c2cd 5.10-stable patches
+         
+
+--===============3238700756204065972==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790665901 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1790665901-7f17f4d329f0f222779adbd77b29f3e6c88f4b3c
+
+8c0f190619a7317d00710cea6f809c4120a7acfe 4b0a676072990af28646f5218c72780d9744c2cd refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq7ZK0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZokP/i/VQNoNddLniQXYunAL
+apxBJ15GEvZWTvtb2ijcXMhj2AvDhKW2zfmX2a/YI8W4P+nt3O6nRVNrMp4Zg5N5
+1IsMuo80Qmi9sa8Bal9to2q57yPAJV7IoKmQVLuoCXgyU4wCtw0+U5y18Ja4wdCG
+uHNBmoXtIOJb0lffGUsOt8q4e8a6Fmmti33JrRI2w8NIumRiQfokLDytWAZd4Mjb
+emSmkijo2E09VDbhtBQ4EA1OMScE28JV+c9GkmFHt8AyWUE6D9SEcJcRxm2lsIdH
+iiASC0WJ3fNV1yg2S3TpoH4aqCIdaeVxkjvgTwwRxePzIncRtlbho9qpQXCe6qjs
+Ta0Ui5CpLiEjx+MR/m9DVmcEyR8y8wpvmzVQh8H4+8ubyzY3xC2ks7bs6JCypFof
+kvgdHXz8AEmVfXk2q/D1FBf8Bd43JhLGooU4vZ0SzvKlOKLFech8+dhtGDSrjbqJ
+gytJuzG4KLKecK2gDpDPm/H2UVZhWKlmpzkosg5eytETIVQvXj8tHYfW1Er/IQbF
+tzwA8U3sWJ5SygdpFQpgMgqsBcWIBRJXFFrgHdhTB11Y2cnbS6S7G+75Yccf5i/3
+fAPynnCVarhxC+hxUkcjOTKaMbQoXO3aDoU64wGbVxDccywm6pkm/MEYmforP8Yw
+SjGHtUnEhbDcYi907Q0/sYXX
+=+P7z
+-----END PGP SIGNATURE-----
+
+--===============3238700756204065972==--
