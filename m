@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5955738254300202867=="
+Content-Type: multipart/mixed; boundary="===============3219573006351304688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 29 Sep 2026 11:51:52 -0000
-Message-Id: <179068271204.2160222.17286387525891492307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 29 Sep 2026 11:52:49 -0000
+Message-Id: <179068276978.2160710.15989685298437934411@gitolite.kernel.org>
 
---===============5955738254300202867==
+--===============3219573006351304688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: ab2766a603e1758104b1b66a4f1ecc0f43d932dd
-    new: 22a310fa928d5c604ab591f6df885b41410f3d82
-    log: revlist-ab2766a603e1-22a310fa928d.txt
+  - ref: refs/heads/master
+    old: ccfb786541be11ffe80b6432e656a1283e5d7166
+    new: 4df5109ba7e0d86323fc300101ac809974a99875
+    log: |
+         4df5109ba7e0d86323fc300101ac809974a99875 5.10-stable patches
+         
 
---===============5955738254300202867==
+--===============3219573006351304688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab2766a603e1-22a310fa928d.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f38638f5181ab0545ca36f2ac3b0d2cf3404b1b7 ASoC: codecs: ak4619: Add optional powerdown GPIO
-b224c8932773c63f4905d217544ab67bfef1c64e ASoC: dt-bindings: asahi-kasei,ak4619: Add powerdown GPIO
-d733add0b2db8bf0d7159133adc2bd2c688367dd ASoC: codecs: ak4619: Add PDN pin handling
-677507a5303a6716d9e0bbf3a8ba8c0f27391ab2 ASoC: SDCA: allow building without ACPI
-0985313a2a9d2e84d6a6b1041c88b5c57ee46dfa ASoC: SDCA: export PM helpers keyed on sdca_class_drv
-a60f1ac41fe0a2ea83f57ce252caf6f08ae48d62 ASoC: SDCA: expose class SoundWire probe/remove as library
-3273ec3e149ade420500014d442e4159bcc0d264 ASoC: SDCA: add class_ops with populate_function
-e0e876c99f280fd00156a6a11eace1f91ea883f5 ASoC: SDCA: class_function: xlate sound-dai cell by entity index
-a36d24da5cf96d8129948fece042c331ab769d3e ASoC: dt-bindings: qcom: add Tambora WCD9378 SDCA codec
-0c30b8ca84aeea378d23874e7b14108021288b18 ASoC: codecs: add Qualcomm Tambora (WCD9378) SDCA codec
-22a310fa928d5c604ab591f6df885b41410f3d82 ASoC: Qualcomm Tambora (WCD9378) SDCA codec
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790682766 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1790682768-d4cab29db4e54ad79e472baf2fd04e38a60e162e
 
---===============5955738254300202867==--
+ccfb786541be11ffe80b6432e656a1283e5d7166 4df5109ba7e0d86323fc300101ac809974a99875 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq7po4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bOcQAMFquDGft9htbAv+QVuD
+8iFfA9QRUYAd9O/by2C6VTuvj9luugXxnsRDNze3MKPLZaOjoGhEExydMjum0A+I
+QQqOtwTykxdY0wEuAfsZJbsYTwu+sKkjr0u1P0yh7CKuS6ns34txFNRKmUuxErle
+hqhWs4UdKld1M7SYIrfkYyPPU6oVyAqqvBhGtEl6V/SOU529V5Q3J9P0fY27qsJf
+TGvx2ClqU737ThOghjf7VOJs1Hk/jRUWc1ovgXnXvhG6zNNimKg3+x60ZqfDZoQg
+Mc+It+vWr98RmWtgFcxjq26cpXhcv/e+4Zer38sBI1E3VbG0KVsCvEg8X62WMFUK
+cNWdx793u3U56Xcvb3vjkTJUze6xbkLmERDNtsZ8+4aredHjGgABk9/dUPuPLcmj
+G8GfMunDiHfit5XvUnhH6mDE0VI3qLDV46hWOsIS1Qv8GKjgtLf/Exqi2oVe19Ff
+mGGffr6lfSvr/tNNAiRcmhqv4KiUxM9znEPw38QYAvwWfali9297qMuykXcJ9F0h
+4/n52HADuP7w+N/lczePxqtDXP7FF0l5cCTZm7Px06I8Ok0Dd4/hlnGdsU5TqrVr
+6neUlnCuTHwHJOoL53cUWQu1/zIwi4HwLfQkFQgHn4q6PiReCeXEwkoh1J8PPlTO
+V6Kbhw2uOwz7DonJBtkKxDRf
+=m1qq
+-----END PGP SIGNATURE-----
+
+--===============3219573006351304688==--
