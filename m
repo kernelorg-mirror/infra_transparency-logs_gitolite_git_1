@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 29 Sep 2026 19:07:30 -0000
-Message-Id: <179070885085.2498241.884370490991127806@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 29 Sep 2026 19:08:28 -0000
+Message-Id: <179070890876.2498738.480589637704593868@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/timers/core
-    old: 5dffe33bfdafcc768d090c55479f515585509ffa
-    new: bb41ece16463b76b4d73fc47e6648fd823236765
+  - ref: refs/heads/for-next-keys
+    old: 78a4776471b7edffbe4df16a82d6ab5c7f457605
+    new: 521b241fd305007ae55638827914d57626da5337
     log: |
-         1159ad0a6aaa414dc726a33ccdcb702752d1b8eb timers: Mark racy updates to hlist_node::pprev field
-         bb41ece16463b76b4d73fc47e6648fd823236765 timers/migration: Mark racy updates to tmigr_event::ignore field
+         521b241fd305007ae55638827914d57626da5337 assoc_array: discard shortcut when collapsing a leaf-only node
          
