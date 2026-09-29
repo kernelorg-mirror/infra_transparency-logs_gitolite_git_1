@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 29 Sep 2026 11:19:50 -0000
-Message-Id: <179068079034.2132909.3932073927766022357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 29 Sep 2026 11:27:42 -0000
+Message-Id: <179068126272.2139676.5728269166211605558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 09c188c249be1d7b7ce0a919d8997aa5004398fd
-    new: e542bad8d52e0a7f0d47647c2d20612fcdc80c09
+  - ref: refs/heads/for-7.4
+    old: 166e2e681851401fbee2f0f2a8433e7ec40f6421
+    new: ab2766a603e1758104b1b66a4f1ecc0f43d932dd
     log: |
-         b6f74dff6d26c4727d679f69da980836f092fb56 net: use two lockdep classes for the netdev instance lock
-         e542bad8d52e0a7f0d47647c2d20612fcdc80c09 selftests: net: add test for netdev instance lock ordering on unregister
+         7845324094fcf88060170b44661519e57b179b61 ASoC: dt-bindings: fsl,imx-asrc: update port binding to support multiple paths
+         33598785b31c1a550e193b7c7dc5402fa5d04a13 ASoC: dt-bindings: fsl,easrc: add ports binding for multiple conversion paths
+         76915128bde26af7e357dfd4501f5e329d1364be ASoC: fsl_asrc/fsl_easrc: move DMA params into pair/context struct
+         6aef9cb5c7977dae92a90e6e732f14e3784660cf ASoC: fsl_asrc: expose individual DAIs per conversion path
+         788e893edb6a18a042afed661d3fabc2c0c101c9 ASoC: fsl_easrc: expose individual DAIs per conversion path
+         ab2766a603e1758104b1b66a4f1ecc0f43d932dd ASoC: fsl_asrc/fsl_easrc: expose per-pair/context DAIs and fix DMA race
          
