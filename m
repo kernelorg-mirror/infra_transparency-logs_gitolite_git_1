@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============6218762427331461652=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 29 Sep 2026 11:45:30 -0000
-Message-Id: <179068233096.2155528.17459647191619129043@gitolite.kernel.org>
-
---===============6218762427331461652==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Tue, 29 Sep 2026 11:47:07 -0000
+Message-Id: <179068242744.2156581.15893361305369339017@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 9770148ff23750ced7e855cf3380b28db1b84a8c
-    new: ccfb786541be11ffe80b6432e656a1283e5d7166
+  - ref: refs/heads/for-7.4/block
+    old: ce054fbe9a4bf4ffefef0f8e2504ea54da058ed2
+    new: 67b7a2728e4873e64405c5564fe50f7123012b71
     log: |
-         ccfb786541be11ffe80b6432e656a1283e5d7166 6.18-stable patches
+         020185c5f4a5590267b825dffda05eb5d45dfa5f rust: block: mq: use vertical import style
+         06e75dbe894f260651627c35e0f36536c4894536 rust: block: mq: remove redundant imports and format
+         a463f71c492336f9650bae7d7166b66ee87461e9 rust: block: rnull: use vertical import style
+         e502b667ee70a7fa2a578e7722672ecd4fe0eb81 rust: block: fix `Send` bound for `GenDisk`
+         67a11f2e076016f054dc4a4a637d9b37530b7908 rust: block: gen_disk: set fops.owner from driver module pointer
+         c595572d0e49c79fcefe8db8e3e4f4e6e1fab734 rust: block: Fix GenDiskBuilder block size documentation
+         7ac697d4a08f01e7aefdeb1f3e1d6f71b2cdac0d rnull: fix geometry store check-then-act across lock scopes
+         0cd698e89375d0dfc257f9ae978420aa7fe5359d rnull: configfs: add power to configfs features
+         67b7a2728e4873e64405c5564fe50f7123012b71 rust: block: require `Sync` for `Operations::QueueData`
          
-
---===============6218762427331461652==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790682326 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1790682329-533169647118c45c13eb9d3d66ecfbdf402a07b1
-
-9770148ff23750ced7e855cf3380b28db1b84a8c ccfb786541be11ffe80b6432e656a1283e5d7166 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq7pNYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6kgP/13YRx3ER+zl6MuF+AoZ
-Zc2VKI7KmqDN0HZ9RWTDoXcagLLlz7fNdSuJjDESD0ynXTLzbh+PUxubxiT7NdOT
-ZKKUdJNErwcVf1DjBQoSocY6GVuzcSRTeEOWO9AB3tXfdcf3HS8BiOai52p0D2J6
-kDYpHGjtszzDeTAlt5rnFhFfQUTJYXclDyY9bv9JOy+wtMtr0ncptppzEaI6mdoU
-cQ771I6VN3tnR01GnZbz4lHd6nZUUWnxCrHzuqWj1+Cpfe0I+NTlIo7BKkLgBCey
-hc5il0L1mPFxcA+g/E5Q3mMSTNTTDNqawp6dfYXwozmdCUeu5zulSnu4RdeCgu6M
-huyWcEC5GBO17iUiG/9O4RM3tmH4q/8TC1yNH1k8y2Nhl9XiF+mRx3WDl3bjB/mr
-OSVNb9f3RZXiyIUUY4J1lc1tcraesxuSB7k/mvhoPql7pUXSatNepen3pcz35lFi
-N2ayLQPWSWHxZ4Z6gotMi6nAZ1ZTd16k49+k3Pa/JUPsvuT4wZF6uBTwKDSAtfc8
-0rcWgHM98ODZC5nnIu2WiLlzPTw9hJ/0r5Vjl2eIesdysexRYNBv4/XnWpW+IvFp
-lQH7SZMeCX9ZHDGExdbD1RWz3KYtfAe2nON4QVXU8jeF3fGCXhanG4M15Y81jByW
-GcEv16ygAmBsQbDAPKYCvkAF
-=Lj1U
------END PGP SIGNATURE-----
-
---===============6218762427331461652==--
+  - ref: refs/heads/for-next
+    old: e680312dd3990197297b485e27b53c33d371c279
+    new: 0d6f15eb70176bc3c8e0b39caf1275ec9ed595e4
+    log: |
+         020185c5f4a5590267b825dffda05eb5d45dfa5f rust: block: mq: use vertical import style
+         06e75dbe894f260651627c35e0f36536c4894536 rust: block: mq: remove redundant imports and format
+         a463f71c492336f9650bae7d7166b66ee87461e9 rust: block: rnull: use vertical import style
+         e502b667ee70a7fa2a578e7722672ecd4fe0eb81 rust: block: fix `Send` bound for `GenDisk`
+         67a11f2e076016f054dc4a4a637d9b37530b7908 rust: block: gen_disk: set fops.owner from driver module pointer
+         c595572d0e49c79fcefe8db8e3e4f4e6e1fab734 rust: block: Fix GenDiskBuilder block size documentation
+         7ac697d4a08f01e7aefdeb1f3e1d6f71b2cdac0d rnull: fix geometry store check-then-act across lock scopes
+         0cd698e89375d0dfc257f9ae978420aa7fe5359d rnull: configfs: add power to configfs features
+         67b7a2728e4873e64405c5564fe50f7123012b71 rust: block: require `Sync` for `Operations::QueueData`
+         0d6f15eb70176bc3c8e0b39caf1275ec9ed595e4 Merge branch 'for-7.4/block' into for-next
+         
