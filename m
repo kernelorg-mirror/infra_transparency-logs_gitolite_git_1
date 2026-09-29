@@ -1,41 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============2728114957121354718=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 29 Sep 2026 13:58:05 -0000
-Message-Id: <179069028535.2259146.7011527445570232234@gitolite.kernel.org>
-
---===============2728114957121354718==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 29 Sep 2026 14:00:12 -0000
+Message-Id: <179069041243.2262095.1834276612690614584@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e
-    new: 6f8319e3e9a44dd537d17f41565a8453c560a581
-    log: revlist-72d3fcf802c4-6f8319e3e9a4.txt
-
---===============2728114957121354718==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72d3fcf802c4-6f8319e3e9a4.txt
-
-c79cf15eb35a4c703bf18f8c33c47e80dd660f8e module: fix lost error code from codetag_load_module()
-72c3d682c165b836b54a3d07a01f72e39c47022c mm: shmem: ignore sysfs configs for shmem forced collapse
-347c6ed8cf7768883252e106994de62c7947f0a0 alloc_tag: avoid implicit padding in uapi
-52ae167ce16609c7e6fffef588b3c2c26de2db19 mm/damon/core: don't skip damos_adjust_quota() while esz is not zero
-22ab0647764c38924669673634ae333578d77768 kasan: unpoison task stack below watermark only in generic mode
-711d886fe76e28854814759f51ee175e279ef8c7 MAINTAINERS: split up MEMORY MANAGEMENT - MEMORY POLICY AND MIGRATION
-4050a73a90f456887dc35d5bbfa4f4790eb5c2cf MAINTAINERS: move memory tiering under MEMORY MANAGEMENT - NUMA PLACEMENT
-b3f0c1a4e41f356c3126a676ad55c0f6881e7514 MAINTAINERS: make Gregory a co-maintainer of MEMORY MANAGEMENT - NUMA PLACEMENT
-6cc8f549f6888e36036ab14d84a8ec46b4a393c0 MAINTAINERS: add Heming Zhao as ocfs2 reviewer
-976d5e0ddac885b0219252f004f6c561c344df9d mm/vma: predicate setting mmap_prepare VMA fields on new vma alloc
-6f8319e3e9a44dd537d17f41565a8453c560a581 Merge tag 'mm-hotfixes-stable-2026-09-27-19-12' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-
---===============2728114957121354718==--
+  - ref: refs/heads/main
+    old: 33b68e2c701198457657c2e656ef9a9cc4272d01
+    new: 27bac57ed81494fe6d23f8e2995dbf7d83cd110e
+    log: |
+         9705050407445dcb46c01a1b28e8b70e1d2f1a94 qcom: add ADSP firmware for eliza platform
+         27bac57ed81494fe6d23f8e2995dbf7d83cd110e Merge branch 'robot/pr-0-1790664884' into 'main'
+         
