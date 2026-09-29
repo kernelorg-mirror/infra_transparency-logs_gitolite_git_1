@@ -1,26 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 29 Sep 2026 15:01:06 -0000
-Message-Id: <179069406665.2311031.9995951778105139639@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3626967084581752552=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 29 Sep 2026 15:03:01 -0000
+Message-Id: <179069418189.2311852.5757000183665883203@gitolite.kernel.org>
+
+--===============3626967084581752552==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: jgg
 changes:
-  - ref: refs/heads/master
-    old: 33a010a5ca195ad92d56828fa129e229a31b8db8
-    new: 6091d27713956d154745a4773129be308bafcfd8
-    log: |
-         baa53af641c9e3644e717b8dfd1b95a55a0c111b Bluetooth: btintel_pcie: fix TX descriptor bounds check
-         ac022970e9fb0a5f7e7d1f6c8e104c1ed924dd1c Bluetooth: RFCOMM: connect the session socket without rfcomm_mutex
-         1465494e8d07426fa41c0021530cccb2a1ac38fa Bluetooth: btintel_pcie: Add shared HW reset for clean start
-         09adcc874570d1f00a43597a818eb961c66957a6 Merge branch 'bluetooth' into bluetooth-next
-         20dfccf8d854ca2a91c5ddd44b39d1dceead8ded Bluetooth: btintel_pcie: fix stale cache in set_dxstate fallback check
-         79463c0de429c562198f5cf451022ce5d54826f2 Bluetooth: btintel_pcie: fix PM flow for S0ix, S3 and S4
-         7ec2ab118e34fd7eb15b5c9c5274a6507fa91782 Bluetooth: btintel_pcie: verify and serialize D-state transitions
-         6091d27713956d154745a4773129be308bafcfd8 Bluetooth: btintel_pcie: clear the GP0 cause with a W1C write
-         
+  - ref: refs/heads/linus
+    old: 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e
+    new: 6f8319e3e9a44dd537d17f41565a8453c560a581
+    log: revlist-72d3fcf802c4-6f8319e3e9a4.txt
+
+--===============3626967084581752552==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-72d3fcf802c4-6f8319e3e9a4.txt
+
+c79cf15eb35a4c703bf18f8c33c47e80dd660f8e module: fix lost error code from codetag_load_module()
+72c3d682c165b836b54a3d07a01f72e39c47022c mm: shmem: ignore sysfs configs for shmem forced collapse
+347c6ed8cf7768883252e106994de62c7947f0a0 alloc_tag: avoid implicit padding in uapi
+52ae167ce16609c7e6fffef588b3c2c26de2db19 mm/damon/core: don't skip damos_adjust_quota() while esz is not zero
+22ab0647764c38924669673634ae333578d77768 kasan: unpoison task stack below watermark only in generic mode
+711d886fe76e28854814759f51ee175e279ef8c7 MAINTAINERS: split up MEMORY MANAGEMENT - MEMORY POLICY AND MIGRATION
+4050a73a90f456887dc35d5bbfa4f4790eb5c2cf MAINTAINERS: move memory tiering under MEMORY MANAGEMENT - NUMA PLACEMENT
+b3f0c1a4e41f356c3126a676ad55c0f6881e7514 MAINTAINERS: make Gregory a co-maintainer of MEMORY MANAGEMENT - NUMA PLACEMENT
+6cc8f549f6888e36036ab14d84a8ec46b4a393c0 MAINTAINERS: add Heming Zhao as ocfs2 reviewer
+976d5e0ddac885b0219252f004f6c561c344df9d mm/vma: predicate setting mmap_prepare VMA fields on new vma alloc
+6f8319e3e9a44dd537d17f41565a8453c560a581 Merge tag 'mm-hotfixes-stable-2026-09-27-19-12' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+
+--===============3626967084581752552==--
