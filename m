@@ -1,28 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 29 Sep 2026 14:08:50 -0000
-Message-Id: <179069093042.2270050.11521891954760719577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Tue, 29 Sep 2026 14:19:33 -0000
+Message-Id: <179069157315.2277413.12941343979399808343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/for-next
-    old: b9548b04b7fd156c0f02f503e4c9ec92ee9eb294
-    new: de44fdc205bb04df746e0f1eb481bea146fa1778
+  - ref: refs/heads/feature/cache
+    old: 37340feeafc03c732cabfb72f3554ec7c05ae296
+    new: 31109ddc8472adc7dda3f1f02757124bbc7a907a
     log: |
-         677507a5303a6716d9e0bbf3a8ba8c0f27391ab2 ASoC: SDCA: allow building without ACPI
-         0985313a2a9d2e84d6a6b1041c88b5c57ee46dfa ASoC: SDCA: export PM helpers keyed on sdca_class_drv
-         a60f1ac41fe0a2ea83f57ce252caf6f08ae48d62 ASoC: SDCA: expose class SoundWire probe/remove as library
-         3273ec3e149ade420500014d442e4159bcc0d264 ASoC: SDCA: add class_ops with populate_function
-         e0e876c99f280fd00156a6a11eace1f91ea883f5 ASoC: SDCA: class_function: xlate sound-dai cell by entity index
-         a36d24da5cf96d8129948fece042c331ab769d3e ASoC: dt-bindings: qcom: add Tambora WCD9378 SDCA codec
-         0c30b8ca84aeea378d23874e7b14108021288b18 ASoC: codecs: add Qualcomm Tambora (WCD9378) SDCA codec
-         22a310fa928d5c604ab591f6df885b41410f3d82 ASoC: Qualcomm Tambora (WCD9378) SDCA codec
-         9da69e00c79f9a9b5e277488f7de39f7dcf09d3b Merge asoc-linus into asoc-next
-         de44fdc205bb04df746e0f1eb481bea146fa1778 Merge asoc/for-7.4 into asoc-next
+         34c31520d60700ec69bbe8961e06013c8a65f038 f2fs: cache: introduce metadata_cache sysfs node
+         e752cb1ad84720d4f6118c14dbad970c931cb0f5 f2fs: cache: shrink meta and node caches in f2fs_balance_fs_bg
+         22b2dad4b9984c58acbebd60f1d6442a5092ca88 f2fs: cache: wake up f2fs_writeback when exceeding threshold
+         b864fa434c11f7ae68403888554f49a6dd5e6493 f2fs: cache: fix to support asynchronous write_end_io
+         ba78f3542bb1fda3afbcb3f1269ec7a35fba9dae f2fs: introduce max_atc_write_bio_entry_cnt
+         d0f8f190820ed7dd3c14df7af19d0dabff8dfa4e f2fs: fix to check continuousness in f2fs_sync_meta_pages() correctly
+         f1c8b95a093ba2dad194cc77b1b78a1282f47300 f2fs: remove invalid error path in __write_node_folio()
+         b0fe9a88e735979e799812e0dedade88f7455e09 f2fs: cache: pin cached block during clear_and_wake_up_bit in end_cache_writeback
+         31109ddc8472adc7dda3f1f02757124bbc7a907a f2fs: cache: pin cached block during clear_and_wake_up_bit in unlock_cache
          
