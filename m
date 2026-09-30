@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7279961183043304514=="
+Content-Type: multipart/mixed; boundary="===============1445034926479798462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:01:33 -0000
-Message-Id: <179080929392.3757720.122116250496652596@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:01:36 -0000
+Message-Id: <179080929694.3757863.13708005269759902529@gitolite.kernel.org>
 
---===============7279961183043304514==
+--===============1445034926479798462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-next
-    old: e151adc76c16357d3f9751252c342f9a86ead0f1
-    new: db01cdf9c45d7a392f8f6e07ffe3cda4bf31cbc9
-    log: revlist-e151adc76c16-db01cdf9c45d.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-testing-canary
+    old: 0f0cf9526f6379628eeedce5ece5da1a4d18a5b5
+    new: 747a0d0356a8a64fa4a94a9b82cb38171854f989
+    log: revlist-0f0cf9526f63-747a0d0356a8.txt
 
---===============7279961183043304514==
+--===============1445034926479798462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e151adc76c16-db01cdf9c45d.txt
+Content-Disposition: attachment; filename=revlist-0f0cf9526f63-747a0d0356a8.txt
 
 1d6b8efd7f90fbf8cb492ee24f244dc7823a5654 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 f9984a688b111bc6a7a7beda3d58ee5f5354fbbb sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -421,18 +421,9 @@ e7a36ff9c8906c3517006c8a5addf2e35efb0b81 sunrpc: pin svc_xprt across the asynchr
 d1bff14739dd817908bc205e6ee0ff908db551c7 nfsd: avoid leaking pre-allocated openowner on unconfirmed retry race
 69623e4df100e9852b28ff260ab5f7a20b4e11f1 nfsd: reset write verifier on deferred writeback errors
 ffd39eeaeea5f9a6c691224300be2d0468757b56 svcrdma: wake sq waiters when the transport closes
-ca639e7a362c5f356c9d0663f5f705cb91a0fc18 nfsd: fix possible fh_compose of wrong dentry in nfsd4_create_file()
-6442a050599be683a7873ddc55a52d6eef41c31d nfsd: ensure nfsd_file_do_acquire() does not use a non-opened file
-257e4d274254f6ff07e0bb74151ee7c60f7b6ad5 NFSD: check truncate permission under inode lock
-476f736b536384e444dfde3a84bc7cc3c43e9e70 nfsd: fix partial-write detection in nfsd_direct_write
-b0a5f094acf5270311040f23a6b2d85a351d7c9b nfsd: hold rcu across localio cmpxchg retry
-e37496a9e5232a02e57fd480a75998c75181f1e7 NFS/localio: fix ref leak on nfs_uuid_add_file failure
-c10e66f7223daf0894b6c8254ef30cff95294108 nfsd: guard nfsd_serv deref in nfsd_file_net_dispose
-88163f873524caa4d56eb9f1d9d212587a2c67a1 nfsd: fix refcount leak in nfsd_file_lru_add on insertion failure
-2429cb416887935ebe86fef95e6f6a90d0456a8f nfsd: fix fcache_disposal UAF by inlining dispose state into nfsd_net
-cce1e879c581241afca4399d64d9c524ec54fb6d nfsd: close shrinker/GC/fsnotify vs per-net shutdown race in filecache
-373b70058e722c8f83de3487c54854af7ddb9eea NFSD: remove flawed WARN_ON_ONCE from nfsd_mode_check
-6d33a8f5cff2bbd21437c716440f80ca0031fc38 nfsd: move nfsd_debugfs_init() after nfsd4_init_slabs() in init_nfsd()
-db01cdf9c45d7a392f8f6e07ffe3cda4bf31cbc9 nfsd: initialize DRC hash table before registering shrinker
+1edde54b5abd9d7297a7efa5ae20c4c93acfde4f svcrdma: cap per-xprt sc_send_ctxts free list at sc_max_requests
+e8381a4f872e0b00d7df1b5ecab411a1af5d21c3 svcrdma: track sc_send_ctxts_depth at alloc/destroy and gate _get on it
+05e886df1631a1bf8f2e448cd7cd641fd78e7904 svcrdma: loosen sc_send_ctxts_depth cap to 4*sc_max_requests
+747a0d0356a8a64fa4a94a9b82cb38171854f989 svcrdma: set WQ_HIGHPRI flag for the svcrdma_wq
 
---===============7279961183043304514==--
+--===============1445034926479798462==--
