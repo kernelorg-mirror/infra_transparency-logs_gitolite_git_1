@@ -1,43 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============6609737775131641507=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 30 Sep 2026 15:44:48 -0000
-Message-Id: <179078308888.3430337.17349367948022778633@gitolite.kernel.org>
-
---===============6609737775131641507==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+Date: Wed, 30 Sep 2026 15:46:31 -0000
+Message-Id: <179078319127.3433228.10979880048470973747@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/iwlwifi/backport-iwlwifi
+user: egrumbach
 changes:
-  - ref: refs/heads/work.mount.slots
-    old: 0000000000000000000000000000000000000000
-    new: 6909dd50bee42c1fb1b570889470d3f8ecdef18d
-
---===============6609737775131641507==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 0x91C61BC06578DCA2! 1790783081 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-nonce 1790783080-772e88766f2d62961898d843322f73b45c34d781
-
-0000000000000000000000000000000000000000 6909dd50bee42c1fb1b570889470d3f8ecdef18d refs/heads/work.mount.slots
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCar0uaQAKCRCRxhvAZXjc
-otaIAP4qx0ioaAyJUcaGve1HeRhzbusHAtMnKdul9cODyb61hwEA7blq4X2eWi5d
-hHg7AfH1934V+EbwzHUKw9AsKe2AYAI=
-=661k
------END PGP SIGNATURE-----
-
---===============6609737775131641507==--
+  - ref: refs/heads/master
+    old: 94c2d7cc507a6a4174f086557b317f2c544f48ed
+    new: 62e2fcea6f758b6bdf930d514e997874e86d6d0e
+    log: |
+         da037afbd732031a2951e866f28c05018894d146 wifi: mac80211: add key link_id to debugfs
+         a1b05653823feea1726344fdfd1feb25700ede14 wifi: ieee80211: add MIC Padding For Protected Control Frames Only field
+         b992ff8fd0b81102d6fa7286ff4fbb5a89212ab9 wifi: mac80211: store CIP capabilities instead of MIC padding
+         a950102d1a9b3b3149230c31379883a46c16555e wifi: iwlwifi: mld: set CIP MIC compute pad delay to zero if possible
+         62e2fcea6f758b6bdf930d514e997874e86d6d0e wifi: mac80211_hwsim: support CIP on more interface types
+         
