@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4684793223899264264=="
+Content-Type: multipart/mixed; boundary="===============8975953762229923733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:01:07 -0000
-Message-Id: <179080926753.3756024.8228941498866229716@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:01:10 -0000
+Message-Id: <179080927061.3756240.1904592689437786361@gitolite.kernel.org>
 
---===============4684793223899264264==
+--===============8975953762229923733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.18-3
-    old: 81eefd495de52a5ca03c7572c089e6c8dcb87540
-    new: 3ac6eb963d62711f6bad9309f3e0dae8ce48f347
-    log: revlist-81eefd495de5-3ac6eb963d62.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.19
+    old: 5eea6a19638401ff9f16414fe99e154249cd29d7
+    new: 8d1e1cc696fa34d13c691d6dfac561a77808a287
+    log: revlist-5eea6a196384-8d1e1cc696fa.txt
 
---===============4684793223899264264==
+--===============8975953762229923733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81eefd495de5-3ac6eb963d62.txt
+Content-Disposition: attachment; filename=revlist-5eea6a196384-8d1e1cc696fa.txt
 
 1d6b8efd7f90fbf8cb492ee24f244dc7823a5654 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 f9984a688b111bc6a7a7beda3d58ee5f5354fbbb sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -276,5 +276,41 @@ ce38c71d107adf0413da4abc6a06fea2818b3c81 nfsd: discard nfserr_dropit
 26cdfdf11ab22e7b84610f91b0a8c614e113b6e8 NFSD: Never cache a COMPOUND when the SEQUENCE operation fails
 0242f5340b06088a0d838afbf15f21f1c1a17e89 nfsd: ensure SEQUENCE replay sends a valid reply.
 3ac6eb963d62711f6bad9309f3e0dae8ce48f347 Revert "SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it"
+b462da6e21e0cb5bad6edb2346cccd0c0b9c7d7d svcrdma: Release transport resources synchronously
+049bbc0c4a13dce89c77879b4981d4ca3a16b9b2 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
+574b54f9e3c628ae5c9d5faa04bdd7f4b4b185f4 NFSD: Add array bounds-checking in nfsd_iter_read()
+b1e1fdfab84f101307edc1031efcb8f19c1ea9f2 nfsd: delete unreachable confusing code in nfs4_open_delegation()
+b666cc97c4327fa3c4c3fd83bec88a8131b93305 NFSD: Update comment documenting unsupported fattr4 attributes
+4f75526bf0a92c8d7d8dcaa5f0fba3fa68ae252b svcrdma: Increase the server's default RPC/RDMA credit grant
+1a26dfb00878c169ba6fda59fd882d5d35d86da5 NFSD/blocklayout: Extract extent mapping from proc_layoutget
+c5387fc673ac417e3746f4e4579f7805cfaa046c NFSD/blocklayout: Introduce layout content structure
+5a3a245d0cb943dfa926bac94236f36326d56184 NFSD/blocklayout: Support multiple extents per LAYOUTGET
+bb2b1d3100aea4e89491d6baaeb3c22e34eac2e0 NFSD: pass nfsd_file to nfsd_iter_read()
+100b87d7f45faed08c2820d09917da4784a7e3d6 NFSD: Relocate the xdr_reserve_space_vec() call site
+cfdf5ab855ca31a056791e50a71dfcff2bf43769 NFSD: Implement NFSD_IO_DIRECT for NFS READ
+e2f320ee0df3cedb95dc0921003c23767fa0967e SUNRPC: Improve "fragment too large" warning
+e058999e5f8a54935801d5bd5e9608b2c2bdb9d0 sunrpc: allocate a separate bvec array for socket sends
+bea3c54a7df7aee29ade3acc980db5bc1313b331 NFSD: Add a subsystem policy document
+dba8e70fa1bb2b303e9449e430b2f70c838edd6d NFS: nfsd-maintainer-entry-profile: Inline function name prefixes
+32c0bb3daa788b28dff2a96bacbb617a450ae18b nfsd: stop pretending that we cache the SEQUENCE reply.
+31376923df63a281863a76970444aeadb04c8846 lib/crypto: md5: Add MD5 and HMAC-MD5 library functions
+6e7b86c0addcd03512e53b19251068df9b49e05e crypto: md5 - rename the shash ops to crypto_md5_*
+0a76e44c7f6757a62ee4e7d00fde8470e82a9d4c nfsd: Use MD5 library instead of crypto_shash
+08efe401100a75503ed29ebb6e8f86cce5aaa712 MAINTAINERS: add a nfsd blocklayout reviewer
+4526d2e3b87096473ed5303bc70bbb960bbea2df lockd: don't allow locking on reexported NFSv2/3
+03ce8f996c5b65713a0e940c121c60451b00c1f9 xdrgen: Generalize/harden pathname construction
+dbd29830e14dcde62fadffd43581b09ab1a11333 xdrgen: Make the xdrgen script location-independent
+c0d04def4435fca583184da6343efed6c383dcae xdrgen: Fix the variable-length opaque field decoder template
+a2b74827313a80b1ee4c08e88bfd3825dc91e8f8 xdrgen: handle _XdrString in union encoder/decoder
+a4a45527af00335ee836142f5de72039de57898f NFSD: don't start nfsd if sv_permsocks is empty
+76ada5e9d2ea5c5d0c2ee78bad5cd0425f65a928 xdrgen: Fix union declarations
+dbd968e6b33608032f6cf7a6cdb9f7d464ab09be xdrgen: Don't generate unnecessary semicolon
+238d078385b495a79c8a1ea0b13dbdea635cdd44 NFSD: Add trace point for SCSI fencing operation.
+6973ad8ae292b678d0b95e4482a0ffeb53174003 NFSD: Make FILE_SYNC WRITEs comply with spec
+3109c7e1a5e3eb3c1adc15ec06be9c00cef118ad NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
+80986f679e824fdf7b1f0cc231487c4cc27153e3 NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
+17d8f656bad74d796d48bd37ef5746e1ee2ed97a NFSD: Add toctree entry for NFSD IO modes docs
+0048974bd538ca17eb17cbac531cacd3fab8fe6b NFSD: nfsd-io-modes: Wrap shell snippets in literal code blocks
+8d1e1cc696fa34d13c691d6dfac561a77808a287 NFSD: nfsd-io-modes: Separate lists
 
---===============4684793223899264264==--
+--===============8975953762229923733==--
