@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Wed, 30 Sep 2026 17:10:51 -0000
-Message-Id: <179078825127.3496282.2413995152597664812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Wed, 30 Sep 2026 17:10:57 -0000
+Message-Id: <179078825722.3496485.10808831504852557895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/libcrypto-next
-    old: 69897f5e8552af8835a2c8a36aa7d597e1cf6689
-    new: 9ca77aa621027149c43551308112eba06b1de3af
+  - ref: refs/heads/dev
+    old: a4b9fb9e69116e9ce35e1de2ca2bd940552b8d1d
+    new: 7566fec606d233f803e61f5ce37c54fbcdb00010
     log: |
-         c91dcfe66f755bfaa71114272b1bd1bc6997c195 lib/crypto: x86/aes: Set RNDKEY in aes_cbc_encrypt_aesni()
-         f410daa32cfcd94263f156662a1ad2097505443c crypto: aes - Boost priority of encryption modes further
-         9ca77aa621027149c43551308112eba06b1de3af crypto: x86/aesni-intel - Add transitional selections
+         4faeea625cf730bb20f609f061ff81c9b6852931 f2fs: quota: fix unused-label warning
+         7566fec606d233f803e61f5ce37c54fbcdb00010 f2fs: reject device aliasing without a multi-device configuration
          
