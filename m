@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3080144879049559981=="
+Content-Type: multipart/mixed; boundary="===============0227987947955655244=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:20:08 -0000
-Message-Id: <179081040874.3774481.3795334178365748463@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:20:12 -0000
+Message-Id: <179081041228.3774649.12429036723152134137@gitolite.kernel.org>
 
---===============3080144879049559981==
+--===============0227987947955655244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.110/block-DIO-alignment-fixes
-    old: 50eac33eb6909b23426637fd8814dd053eba1ec8
-    new: 89c5bd720a7f8cd7c63d90ae8bb4348e09e0214d
-    log: revlist-50eac33eb690-89c5bd720a7f.txt
+  - ref: refs/heads/kernel-6.12.110/nfsd-next-thru-nfsd-6.18-3
+    old: 746533c9a85dc87a65de2884c80dd0511d6ab96f
+    new: b62a735d4cf009cd0e17cc699ef0ca6f24c38254
+    log: revlist-746533c9a85d-b62a735d4cf0.txt
 
---===============3080144879049559981==
+--===============0227987947955655244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-50eac33eb690-89c5bd720a7f.txt
+Content-Disposition: attachment; filename=revlist-746533c9a85d-b62a735d4cf0.txt
 
 635d81dc567a386c4473f2f6b36370e60bcecc83 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 c660611d0c0ca7dc3bfca9546646bc4083cfa553 sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -224,16 +224,54 @@ a191446bfccf11145dc315a0c82ce18ce35cad99 9p: simplify v9fs_vfs_atomic_open_dotl(
 d691f8e1d70812033324107f10ee3b496d81e8f5 simplify fuse_atomic_open()
 0f8a876a2819ace1bff13f8eb8c548680090dd3e simplify gfs2_atomic_open()
 12260e002b811960ef3c413bd2a38bbd5862e1d8 slightly simplify nfs_atomic_open()
-1cc3b6d6c18285aa77ad505fbf8c42a586dfacf0 block: better split mq vs non-mq code in add_disk_fwnode
-609ac19739073a77a1f19330c6ac855ccbf9d645 block: limit disk max sectors to (LLONG_MAX >> 9)
-ca9a8520ab1edc0107cad021d204e1e94be6c1b7 block: make segment size limit workable for > 4K PAGE_SIZE
-454d77423edb0d96343583069fd49e1c7e1d4f5b block: rename min_segment_size
-8f4ef36fbcdba8a3a93e808b12b64e85333cbeef block: use bvec iterator helper for bio_may_need_split()
-b788cacba1bad75c345c8279e1d61a93781ac850 block: don't initialize bi_vcnt for cloned bio in bio_iov_bvec_set()
-a9656e4a472000dd19b0cc83bfcc9474867b2d71 block: account for bi_bvec_done in bio_may_need_split()
-501161719fe3aa80169e51697548d7cb000a841b block: don't set BIO_QUIET for BLK_STS_AGAIN
-835798eb95063479009095da8f516d8f252942f6 block: add a bio_endio_status helper
-aa3414ea66d293945b8034c7b80ed55c566d06d3 block: check bio split for unaligned bvec
-89c5bd720a7f8cd7c63d90ae8bb4348e09e0214d block: use blkdev_iov_iter_get_pages status for errors
+664fa0e953531fee33bf1c21fbd93956c67203c7 timekeeping: Add interfaces for handling timestamps with a floor value
+1144eb8aa1c03d4e6c6fe24d288e0d2873d009de timekeeping: Add percpu counter for tracking floor swap events
+094852c5102d373a5f196a17d0e20e513b05b2d5 fs: add infrastructure for multigrain timestamps
+e780927f611b127973c0e47466438844cf1a752a fs: have setattr_copy handle multigrain timestamps appropriately
+861069ddc440ef09cdb6443f76303f9dc6994768 fs: handle delegated timestamps in setattr_copy_mgtime
+4d523e0bf5a6857cc1b7cf4f1c0babce6dd260f1 fs: tracepoints around multigrain timestamp events
+ec33f154709905e0a29964e3b9893b8eea2d2dce fs: add percpu counters for significant multigrain timestamp events
+e4990e3cb5d5cc2028b6f664afc3a8a041f83e00 Documentation: add a new file documenting multigrain timestamps
+e60704cb7577b0583acc3989d2435c4a4e47ebca xfs: switch to multigrain timestamps
+4cab54ebdea0c84606cc36d1bec81fd48bab6c58 ext4: switch to multigrain timestamps
+1001bde41adb738d277f9216a1e841bcf072d4d3 btrfs: convert to multigrain timestamps
+2a4397379737e64eac51c446bf16e8ca9bcdd092 tmpfs: add support for multigrain timestamps
+12a6029d87b053c7a866de4d96e67b52dd422f4e NFSD: Relocate the fh_want_write() and fh_drop_write() helpers
+94fbde2139af4bd7637e1f7bb338800a13e7e5d2 NFSD: Move the fh_getattr() helper
+e662e9ac9cfcb4fd96dff99595ba6f8d323a0243 sunrpc: delay pc_release callback until after the reply is sent
+bb87688e14fb9133652453674ab3ddfa23f7da22 nfsd: discard nfsd_file_get_local()
+91a14bd65e8f9e23e05b9512180fa29fe98ae963 sunrpc: Change ret code of xdr_stream_decode_opaque_fixed
+1312a9742ba8c12022806899bae362d7ef2ce54c NFSD: Minor cleanup in layoutcommit decoding
+33bea4b2d601dce3dbcc6a1e5addd8fab371bcb3 nfsd: fix assignment of ia_ctime.tv_nsec on delegated mtime update
+c74102efb1e23350b04e8325da5e0d75b3cc46fe nfsd: ignore ATTR_DELEG when checking ia_valid before notify_change()
+0b1636abab072ecb63dd962a188b5d44fc20000f vfs: add ATTR_CTIME_SET flag
+1ec408ef0c136f52fddb87761b25cc2dc3492615 nfsd: use ATTR_CTIME_SET for delegated ctime updates
+a445dbd73e6e7e76c23ac1cf28c09559827eac3e nfsd: track original timestamps in nfs4_delegation
+c333bedca8ce0a2188c3cce7eca21d3d4d1c6624 nfsd: fix SETATTR updates for delegated timestamps
+1a6df16650af3a974f1085f9491ed6a9b5456c3b nfsd: fix timestamp updates in CB_GETATTR
+273d8313da1bc97c92e5f684dae2f5eabdd6e886 nfsd: freeze c/mtime updates with outstanding WRITE_ATTRS delegation
+78ae8962341b1a7a8ed4a25244222aef22a080fa lockd: Remove space before newline
+9c34072333186ce422eeaa6a1c5ea37c554621d3 nfsd: Replace open-coded conversion of bytes to hex
+b696be17f5dd33b49eac53e82921f880389371aa nfsd: Eliminate an allocation in nfs4_make_rec_clidname()
+b0957f64d4c1090cf56045fb34954a427430ee68 sunrpc: fix pr_notice in svc_tcp_sendto() to show correct length
+c4b5ff5c4fb3b986d3c99f70332841b5ed392cbc sunrpc: eliminate return pointer in svc_tcp_sendmsg()
+3fd1c384699c1a1d3b42f25df579c9a08d42db2e NFSD: Drop redundant conversion to bool
+516bf38621405cda6cfe947883c2052765204d90 NFSD: Delay adding new entries to LRU
+b1c7ec64efd71bbce37dc7abe2fcae0237c56b4f NFSD: Reduce DRC bucket size
+690493f6a5b68567716d45f7129846b93f6186d7 nfsd: Don't force CRYPTO_LIB_SHA256 to be built-in
+4acd8061ef6c304c0400883ab8a124cdae9ed0b5 sunrpc: fix "occurence"->"occurrence"
+1758e837a78ed21475647b64222f238bc3e68e33 NFSD: Disallow layoutget during grace period
+515264a9722ff70f1c7d3ca5474d3159c95bb9b7 NFSD: Allow layoutcommit during grace period
+250c1fbcf4822246f3d3e4fd770cf319e4bc38e7 nfsd: delete unnecessary NULL check in __fh_verify()
+c9a796983e25158e777bb885a45abc3d2d287fc3 NFSD: Do the grace period check in ->proc_layoutget
+3a5939eb7dbd3f7a654dce700a71e36ebebf1a9f NFSD: Add io_cache_{read,write} controls to debugfs
+1d46b4d271ab746c5d16db450f88ba75b031a615 SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it
+8e3b82cda9574ce706b64b1f38b5424f44d9ca79 nfsd: discard nfserr_dropit
+81af56000f80028ab0cd3f57e403a508f5a39da4 NFSD: Define actions for the new time_deleg FATTR4 attributes
+5eb60e6b19d4c7a6bd5c5da559a48069f7e04a4d nfsd: Avoid strlen conflict in nfsd4_encode_components_esc()
+75b4670cbb396e8063bb8435767ed0f8daeab47e Revert "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
+89e76464647be52c5062dca729bb3f5a654f41ee NFSD: Never cache a COMPOUND when the SEQUENCE operation fails
+6d6ef5b28b48fbae84d7279b7ac53bda57851b13 nfsd: ensure SEQUENCE replay sends a valid reply.
+b62a735d4cf009cd0e17cc699ef0ca6f24c38254 Revert "SUNRPC: Make RPCSEC_GSS_KRB5 select CRYPTO instead of depending on it"
 
---===============3080144879049559981==--
+--===============0227987947955655244==--
