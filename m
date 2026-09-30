@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1587185686316758539=="
+Content-Type: multipart/mixed; boundary="===============5823974861980409445=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:00:28 -0000
-Message-Id: <179080922869.3754112.11765175120745311066@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:00:31 -0000
+Message-Id: <179080923175.3754236.15150970498272016251@gitolite.kernel.org>
 
---===============1587185686316758539==
+--===============5823974861980409445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.17-1
-    old: 009345c59c7b58ea939be62196d7c4fcb7126e23
-    new: 509b40303973794b43d768fc1230e93c6005cd69
-    log: revlist-009345c59c7b-509b40303973.txt
+  - ref: refs/heads/kernel-6.12.93/nfs-next-thru-nfs-for-6.17-3
+    old: b502a8ad5c48f80f6e498f59ba2fd57f1aa45382
+    new: 4f963034c8b808f8157255a6b59fc1526a65514d
+    log: revlist-b502a8ad5c48-4f963034c8b8.txt
 
---===============1587185686316758539==
+--===============5823974861980409445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-009345c59c7b-509b40303973.txt
+Content-Disposition: attachment; filename=revlist-b502a8ad5c48-4f963034c8b8.txt
 
 1d6b8efd7f90fbf8cb492ee24f244dc7823a5654 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 f9984a688b111bc6a7a7beda3d58ee5f5354fbbb sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -127,5 +127,43 @@ e05869fcf260468a05a04cfb915e8e74584de053 sunrpc: fix handling of unknown auth st
 feede576d63cbb754f550b7d6cd0451c363c80f7 sunrpc: make svc_tcp_sendmsg() take a signed sentp pointer
 8e781cd6f3d900a0da4bd25e4c17188a8bc45ebd nfsd: don't set the ctime on delegated atime updates
 509b40303973794b43d768fc1230e93c6005cd69 nfsd: avoid ref leak in nfsd_open_local_fh()
+fda50c6dc09a76bcef2f76a4f266824815ed4bd3 nfs: Add timecreate to nfs inode
+1ca1cf93ef5292d531a2ffa92d4489fdb4c7b354 NFS: Return the file btime in the statx results when appropriate
+db8e74bfa2b68da2134dcfed9edc965a594fd53b nfs: use lock_two_nondirectories()
+e24cc76bb2ab1527c894c393cb67fdd291e55bd8 pnfs: add pnfs_ds_connect trace point
+df9960026f35d41c26595194b774a5a50f691d6a NFS: remove unused wpages field from struct nfs_server
+d2420c7ea722c532f874d7d1e52d360f7230ef0f NFS: remove unused time_delta field from struct nfs_server
+528a3aadb338d071144fab0ed862481a410b5361 NFS: remove unused pnfs_ld_data field from struct nfs_server
+04273c5a72f9c6d537facd7e7113185c98c2361b nfs: add cache_validity to the nfs_inode_event tracepoints
+fb764f866b64f97a7528eea2a24c5efac43c5d15 nfs: add a tracepoint to nfs_inode_detach_delegation_locked
+2e501293e408547a8eeaf027f0d3cee3be17154e nfs: new tracepoint in nfs_delegation_need_return
+081aea3f1aeac32666f636d06d1afa7ff1dc8242 nfs: new tracepoint in match_stateid operation
+7dcba66918307258715c31915c9b850cdcfdfcf5 NFS: Allow folio migration for the case of mode == MIGRATE_SYNC
+7cf88835d9ffe1324871d001b78ee0e8c7dfe966 NFS: support the kernel keyring for TLS
+545ca9c8cd2b1354e51db7ccdcc415942d86a7ee nfs: create a kernel keyring
+42e2e03a04a63546282b5291c5ada3e21c191559 SUNRPC: Remove unused xdr functions
+2e1a4f134c06f114f87e53cb18f3f907f4a10a40 NFS: Remove unused function nfs_umount
+53bcd9c6dfc3d7ea58b69d99e9f3c67cfb71733c pNFS: Fix extent encoding in block/scsi layout
+2b847f695e511f0014cae68d2088372a8f137fcb pNFS: Add prepare commit trace to block/scsi layout
+81ac542e5155409a54b911f65ad9a91496918518 NFS: pass struct nfs_client_initdata to nfs4_set_client
+0c2d60e170211b7d2d6271584addb7908eef9541 NFS: drop __exit from nfs_exit_keyring
+fc2a575defad6a2f4d40ba81b251d64f86a88de0 NFS: cleanup error handling in nfs4_server_common_setup
+d23f7ace80cd20fb47132ad27a004327a74e5b6b NFS: cleanup nfs_inode_reclaim_delegation
+e661fa8f1f3cd14e7d33ffeee30916e23e5ec126 NFS: move the delegation_watermark module parameter
+90853e44fe69b395caebdb9f911c1cf76e44381d NFS: track active delegations per-server
+848ea4e202a88a92844963ddd6523c5798c20048 NFS: use a hash table for delegation lookup
+c22c46c4a653436a4ad64614ed54bdb966fc5165 NFS: Clean up pnfs_put_layout_hdr()/pnfs_destroy_layout_final()
+b39078d8f56d3a505f8756106f5de8e141780c6b SUNRPC: Silence warnings about parameters not being described
+53294d13b9fb2299e74cd671aaa28273bb4aac6e nfs/localio: use read_seqbegin() rather than read_seqbegin_or_lock()
+0eae3ad4d2f644b6c2805dc535b1d17a97695c59 NFSv4: Remove duplicate lookups, capability probes and fsinfo calls
+b02e319edc9b5bd8dd5ebf97deb52d2bda85e5e0 NFS/localio: nfs_close_local_fh() fix check for file closed
+6f2c002ccffe0d3d54eed1bd43fc47e604252660 NFS/localio: nfs_uuid_put() fix races with nfs_open/close_local_fh()
+26df3933f69af14d9e9f84402e94f83084e8c986 NFS/localio: nfs_uuid_put() fix the wake up after unlinking the file
+daeffc7382e78a181a182aa15452c23c7477ba6f nfs/localio: avoid bouncing LOCALIO if nfs_client_is_local()
+a17c7928ef253360a1806d15967dc249bbe95af2 NFS: Protect against 'eof page pollution'
+ec72cd58d9c7cdecc46f5cca00460d6578f5747b NFSv4.2: Protect copy offload and clone against 'eof page pollution'
+2878b5c4074dd250dbd0c2065314da701ee5a8a0 NFS: Fix the marking of the folio as up to date
+4cf5e9c9e89d061a85cd735009f23750f0dd5e22 Revert "SUNRPC: Don't allow waiting for exiting tasks"
+4f963034c8b808f8157255a6b59fc1526a65514d nfs/localio: restore creds before releasing pageio data
 
---===============1587185686316758539==--
+--===============5823974861980409445==--
