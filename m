@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 30 Sep 2026 13:18:37 -0000
-Message-Id: <179077431747.3305556.17920383750116374296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 30 Sep 2026 13:20:16 -0000
+Message-Id: <179077441669.3308109.815977319235692690@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/arm64-gcs
-    old: 7f50ee83de7f3cae7dfa69f8daa6caf1c5d12ca3
-    new: c1ba9ace2952d46620d2fd57077baf9e2bde0026
+  - ref: refs/heads/main
+    old: 27bac57ed81494fe6d23f8e2995dbf7d83cd110e
+    new: 34afe324e80278a2db531f558330b6ca4f114b66
     log: |
-         3dea09a83071e8d623fed1ffff5a82a668088116 KVM: selftests: arm64: Check that invalid feature combinations are rejected
-         1da58bd7be541c27c2aec17c1d817f3f547c068f KVM: selftests: arm64: Add GCS registers to get-reg-list
-         768b0b5d5e8226bc6625765fc745b773215e7a1d KVM: selftests: arm64: Add GCS to set_id_regs
-         5eff53af8e03af480714d003cef4d0591759d8d1 KVM: selftests: arm64: Only restore SPSR_EL1 and ELR_EL1 if they change
-         4d76c5108a47f849bbb2ce007cbd63563202c5e2 tools: Synchronise the kernel esr.h
-         c1ba9ace2952d46620d2fd57077baf9e2bde0026 KVM: selftests: arm64: Add GCS EXLOCK exception emulation test
+         01d600e69036bc0e61d66001ddcf2d828a4d6392 linux-firmware: Add ISH firmware files for Intel Nova Lake-H/S platforms
+         f4f49d688ecbf712bca7dd204325f4d96290c4aa Merge branch 'robot/pr-0-1790735780' into 'main'
+         675924146dabb3f17282e152636fe4c7aad76707 cirrus: cs35l41: Add support for Lenovo Yoga Slim 7 Carbon 14ACN6
+         34afe324e80278a2db531f558330b6ca4f114b66 Merge branch 'robot/pr-0-1790693129' into 'main'
          
