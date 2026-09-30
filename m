@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 30 Sep 2026 13:26:02 -0000
-Message-Id: <179077476205.3313978.9623706606379481242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Wed, 30 Sep 2026 13:28:57 -0000
+Message-Id: <179077493779.3314887.2129762253561800395@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 82b748439324b6364cc7fc71f0ca5f886c779553
-    new: 9d3259e41ccd5016cd2c6d013232b89df6d73011
-    log: |
-         9d3259e41ccd5016cd2c6d013232b89df6d73011 IB/hfi1: Shutdown self-rearming timers before freeing
-         
+  - ref: refs/heads/b4/rust-dyndbg
+    old: 0000000000000000000000000000000000000000
+    new: 8d3e0685c6f97f4b02dcb87274268a7ff4d7bd47
