@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8975953762229923733=="
+Content-Type: multipart/mixed; boundary="===============1658013828630594199=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:01:10 -0000
-Message-Id: <179080927061.3756240.1904592689437786361@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:01:13 -0000
+Message-Id: <179080927338.3756427.13585912520415033363@gitolite.kernel.org>
 
---===============8975953762229923733==
+--===============1658013828630594199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.19
-    old: 5eea6a19638401ff9f16414fe99e154249cd29d7
-    new: 8d1e1cc696fa34d13c691d6dfac561a77808a287
-    log: revlist-5eea6a196384-8d1e1cc696fa.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.19-1
+    old: d45515c93406e4beb46afc7bf8c70b7adb4c72df
+    new: e0662eb6570a128c0ff432cd40b4edeac59239fb
+    log: revlist-d45515c93406-e0662eb6570a.txt
 
---===============8975953762229923733==
+--===============1658013828630594199==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5eea6a196384-8d1e1cc696fa.txt
+Content-Disposition: attachment; filename=revlist-d45515c93406-e0662eb6570a.txt
 
 1d6b8efd7f90fbf8cb492ee24f244dc7823a5654 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 f9984a688b111bc6a7a7beda3d58ee5f5354fbbb sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -312,5 +312,7 @@ dbd968e6b33608032f6cf7a6cdb9f7d464ab09be xdrgen: Don't generate unnecessary semi
 17d8f656bad74d796d48bd37ef5746e1ee2ed97a NFSD: Add toctree entry for NFSD IO modes docs
 0048974bd538ca17eb17cbac531cacd3fab8fe6b NFSD: nfsd-io-modes: Wrap shell snippets in literal code blocks
 8d1e1cc696fa34d13c691d6dfac561a77808a287 NFSD: nfsd-io-modes: Separate lists
+116d4927947b9ce09953c67203de0efa238d1033 nfsd: fix memory leak in nfsd_create_serv error paths
+e0662eb6570a128c0ff432cd40b4edeac59239fb NFSD: Clear TIME_DELEG in the suppattr_exclcreat bitmap
 
---===============8975953762229923733==--
+--===============1658013828630594199==--
