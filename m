@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chleroy/linux
-Date: Wed, 30 Sep 2026 18:00:59 -0000
-Message-Id: <179079125989.3534904.4204285694688158235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Wed, 30 Sep 2026 18:09:56 -0000
+Message-Id: <179079179695.3539545.17456126455735760073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chleroy/linux
-user: chleroy
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/soc_fsl
-    old: 7b3b0598c00e67f2df85d0b4cd99eaa3be6c9bfd
-    new: a78c582cc04536bd3894b678324a34ba55abe167
-    log: |
-         a78c582cc04536bd3894b678324a34ba55abe167 bus: fsl-mc: drop the fwnode links of the dpmacs nodes
-         
+  - ref: refs/tags/iio-fixes-late-7.3
+    old: 0000000000000000000000000000000000000000
+    new: 73322f941f1d38eaf8c279f106d2d7b742d8bc29
