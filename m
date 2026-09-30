@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4267481949464549743=="
+Content-Type: multipart/mixed; boundary="===============1879907139300079545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:20:02 -0000
-Message-Id: <179081040297.3773354.6420474080190578457@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:20:05 -0000
+Message-Id: <179081040580.3774335.8474240283255782564@gitolite.kernel.org>
 
---===============4267481949464549743==
+--===============1879907139300079545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.110/nfs-for-7.2-fixes
-    old: 0e8e3386fa3c5fa5ff2e78f8e2cd1b46c8934145
-    new: bc54208ba3d6df1a527801bdcd6ee29ebff69042
-    log: revlist-0e8e3386fa3c-bc54208ba3d6.txt
+  - ref: refs/heads/kernel-6.12.110/nfs-testing-canary
+    old: 4f8585e400337ec2e779083d056e564531c48383
+    new: 6051b533b577fed5359884486ba806e4e120bf63
+    log: revlist-4f8585e40033-6051b533b577.txt
 
---===============4267481949464549743==
+--===============1879907139300079545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e8e3386fa3c-bc54208ba3d6.txt
+Content-Disposition: attachment; filename=revlist-4f8585e40033-6051b533b577.txt
 
 635d81dc567a386c4473f2f6b36370e60bcecc83 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 c660611d0c0ca7dc3bfca9546646bc4083cfa553 sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -331,5 +331,12 @@ cf076aa7cf7feb66d6f0c72de145fb869a1dd51b sunrpc: fix uninitialized xprt_create_a
 cb064f8a7cf64f3385ee9067b29c205ee24f4d3d NFSv4.1/pNFS: fix LAYOUTCOMMIT retry loop on OLD_STATEID
 21faaa4ffb504b66553fe8aa86f1db03a5c2526a NFS: correct CONFIG_NFS_V4 macro name in #endif comment
 bc54208ba3d6df1a527801bdcd6ee29ebff69042 NFS: Use common error handling code in nfs_alloc_server()
+d2ea3b6420e88001fb8719b469e9ce5f3c0c6431 NFS/localio: issue IO inline when not in a memory-reclaim context
+763bbf189ef9c19cf349b391105892fb981487b5 NFS/localio: remove dead FLUSH_SYNC handling from nfs_local_commit
+48147c9c7c32b2dfbfe4c10484a24ebf3b06ed9e NFS/localio: issue commit inline when not in a memory-reclaim context
+30ec5c6e1d81395ea7d7feb58d00d3bbcb7f2f26 NFS/localio: fix nfs_local_dio_misaligned tracepoint
+5d58af22ad6e48b27e97359ba6b837c78c8350a6 NFS: don't release the open context of a failed write from writeback
+be6a8e1d2654a61b638e0a4efef7c3ba83543ffa NFS: don't run the release of a WRITE or COMMIT in the submitter
+6051b533b577fed5359884486ba806e4e120bf63 NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
 
---===============4267481949464549743==--
+--===============1879907139300079545==--
