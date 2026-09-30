@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4031238636610701854=="
+Content-Type: multipart/mixed; boundary="===============8261698221285376268=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:00:42 -0000
-Message-Id: <179080924211.3754636.16051979309622913476@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:00:45 -0000
+Message-Id: <179080924516.3754795.10290741969500920383@gitolite.kernel.org>
 
---===============4031238636610701854==
+--===============8261698221285376268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfs-next-thru-nfs-for-6.19-2
-    old: 4c8e6bc741dd62ca5ea92d7dd507254df747d776
-    new: 0bb30cdf250a4a3841277252f13712d8c6585a19
-    log: revlist-4c8e6bc741dd-0bb30cdf250a.txt
+  - ref: refs/heads/kernel-6.12.93/nfs-next-thru-nfs-for-7.0-1
+    old: 38d031be81b2af0ac30989e7f03199ab7f4e9e30
+    new: 0a40fb5211877cf3dcbf5697b9c1da1298a2fa70
+    log: revlist-38d031be81b2-0a40fb521187.txt
 
---===============4031238636610701854==
+--===============8261698221285376268==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c8e6bc741dd-0bb30cdf250a.txt
+Content-Disposition: attachment; filename=revlist-38d031be81b2-0a40fb521187.txt
 
 1d6b8efd7f90fbf8cb492ee24f244dc7823a5654 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 f9984a688b111bc6a7a7beda3d58ee5f5354fbbb sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -252,5 +252,62 @@ f010889dae69c8b618ddbcc6376b3ee5b293acdb nfs/localio: remove alignment size chec
 d05b239540adc6de7f1aa502a264951594298a2f NFS/localio: Stop further I/O upon hitting an error
 23939c95487068be3371f20174bf6148d6da21d5 NFS/localio: Deal with page bases that are > PAGE_SIZE
 0bb30cdf250a4a3841277252f13712d8c6585a19 NFS: Fix size read races in truncate, fallocate and copy offload
+3fa23c64bae408e13679b52250a7958f30617a13 NFS: remove __nfs_client_for_each_server
+f70c41c2dd97d7bbbf31e04f769c5f421ffebad8 NFS: remove nfs_client_mark_return_unused_delegation_types
+57e02fdcef200e1923370307399546a116269470 NFS: remove nfs_client_mark_return_all_delegations
+836268b2dd74908e09b8f820153b86e2f1121fdf NFS: remove the NULL inode check in nfs4_inode_return_delegation_on_close
+44d2e42189044be007a787e9af081bdb89f03f09 NFS: remove nfs_inode_detach_delegation
+987ff526901d479577049e14125539d81b33ce1c NFS: remove nfs_start_delegation_return
+b15ab772a56cef04576d443245f2fce79d41e96f NFS: assert rcu_read_lock is held in nfs_start_delegation_return_locked
+553a673c6371aed702337e5c64f816a21c8dc422 NFS: drop the _locked postfix from nfs_start_delegation_return
+eac25dd8867e5d23968b43be8dbea1c4bcc26748 NFS: remove NFS_DELEGATION_INODE_FREEING
+fd5e205eaec0fe34ed9e0e82a7ec5a14813dfceb NFS: open code nfs_delegation_need_return
+a9acf80275470cb740406b24b19342770303265a NFS: remove nfs_free_delegation
+b8e7a9f1ed288a5d2b3d3019ce8360f9e0eae62d NFS: rewrite nfs_delegations_present in terms of nr_active_delegations
+d28c792c90ba04a5f650e8648bc1bfb0e9d018aa NFS: move delegation lookup into can_open_delegated
+bb8b38f7107677d85956fd5ffcddc4795e2cd623 NFS: return bool from nfs_detach_delegation{,_locked}
+042ac332086396dc2f990bee352f55d670973711 NFS: move the deleg_cur check out of nfs_detach_delegation_locked
+dc955de696cc6d45d6925f4c4321e75c5a432bf9 NFS: simplify the detached delegation check in update_open_stateid
+e5175d475765e99c8b4d5f7a3ac13b3f8c23e7da NFS: take a delegation reference in nfs4_get_valid_delegation
+da0666499d037b8bd848abde60657586f28c9543 NFS: don't consume a delegation reference in nfs_end_delegation_return
+7b2c6c5c2937be38b232ed71ff356c47efe2683b NFS: use refcount_inc_not_zero nfs_start_delegation_return
+75dd4118dc12f37b06670f296aff01160f5f1338 NFS: use a local RCU critical section in nfs_start_delegation_return
+d4a5195d025511f3ab6eccdabc8c30513acb613a NFS: reformat nfs_mark_delegation_revoked
+3a91114c46e2c9cdf78397b9bc44760d3349ea87 NFS: add a separate delegation return list
+39579ef16cdf857a541845cab07da59c314317b1 NFS: return delegations from the end of a LRU when over the watermark
+a1ff4f00d0fc8a9a179846e816945740addd760c NFS: make nfs_mark_return_unreferenced_delegations less aggressive
+082c3b9b1d5e119d6ecef0f11cc3cfad34ddc8cc NFS/localio: Handle short writes by retrying
+284fe2da153a642b3ae034fddacd9a9d8b8a2374 NFS/localio: Cleanup the nfs_local_pgio_done() parameters
+7c8d62f3898a9785e78e7afab2aa55690a2be84f NFS/localio: prevent direct reclaim recursion into NFS via nfs_writepages
+5e780070390303677bf9d788e8d25f8ab40f384e NFS/localio: use GFP_NOIO and non-memreclaim workqueue in nfs_local_commit
+a401567050c85f7203985e4aacb4b2024567c96e NFS/localio: remove -EAGAIN handling in nfs_local_doio()
+30318d2062fbe10b37da7d7a08d8f5c9425d479d NFS/localio: switch nfs_local_do_read and nfs_local_do_write to return void
+9b9aa67f5b2899fe1788e504e0e437630abda102 NFS: Move nfs40_call_sync_ops into nfs40proc.c
+d682cc4735c7cfb33b1df93d1b796a63b93e8cef NFS: Split out the nfs40_reboot_recovery_ops into nfs40client.c
+ab81dcbe7da546740031c7916e9ed8109ff7659c NFS: Split out the nfs40_nograce_recovery_ops into nfs40proc.c
+1ecd4c24032d8b6492ef0b2bfca191f8df2933d6 NFS: Split out the nfs40_state_renewal_ops into nfs40proc.c
+3c7fc5a6a8f73516acd80fe3eb9eb86aacdcb285 NFS: Split out the nfs40_mig_recovery_ops to nfs40proc.c
+fb2c63babece6006fd78becf35f515a200e48f11 NFS: Move the NFS v4.0 minor version ops into nfs40proc.c
+93cc6c5345e63f264afc0e917c0e366a6ca339b2 NFS: Make the various NFS v4.0 operations static again
+ebf95ed0db63aba9f67f278bca9ae58eac59da2a NFS: Move nfs40_shutdown_client into nfs40client.c
+92625334d4b255ed91ec47cb72ec11a372467fa4 NFS: Move nfs40_init_client into nfs40client.c
+1bddfb2a24df3b3edbddbd3ff29198b52ac5d26b NFS: Move NFS v4.0 pathdown recovery into nfs40client.c
+45ea86e05e3ead341ac7de7596493603bc0e8784 NFS: Pass a struct nfs_client to nfs4_init_sequence()
+fa0382c31483fcbc992ddfa12444d1dcdb46a6cc NFS: Move sequence slot operations into minorversion operations
+5696346a1a46e016826157a94ece1c3786376617 NFS: Add a way to disable NFS v4.0 via KConfig
+a4605c5ddbb9beb396f99c7ad2477df84ac031e4 NFS: Merge CONFIG_NFS_V4_1 with CONFIG_NFS_V4
+d1dfed495b3e8e00faa784ea8ffccabefb98837f NFS: return void from nfs4_inode_make_writeable
+b66dbc53c4fb8662b8a59f78c722005222e0eded NFS: return void from ->return_delegation
+968a4cea9b8385685888d3ddee66df7d31afff99 NFS: use bool for the issync argument to nfs_end_delegation_return
+ed8afd3424be24decf970c06d25956c72f5b390e NFS: remove the delegation == NULL check in nfs_end_delegation_return
+cca8cf0319eef327c1117cc2a6435994813b5e2a NFS: fold nfs_abort_delegation_return into nfs_end_delegation_return
+2b6f4496fc8142459b6871f9a689cf50d554a967 NFS: simplify error handling in nfs_end_delegation_return
+31a3903d02cd12bb4a043f5eeafcff74cf4b8813 NFS: fix delayed delegation return handling
+9ba787716c5bdbd9e2f839f7d101feb4691a097d nfs: unify security_inode_listsecurity() calls
+fd4bc82ae2df0092b551a8abe919a7cb65859305 NFSv4: pass lease period in seconds to nfs4_set_lease_period()
+5f3d590300b66d7021e47a6f538b1041fe71ae2d NFSv4: limit lease period in nfs4_set_lease_period()
+e3be0cba8cb179da7cc799d135eda86d17b3abcf sunrpc: rpc_debug and others are defined even if CONFIG_SUNRPC_DEBUG unset
+821752020d6a0a0b26778e62fc2b1ef275f693e5 SUNRPC: Change list definition method
+0a40fb5211877cf3dcbf5697b9c1da1298a2fa70 nfs: nfs4proc: Convert comma to semicolon
 
---===============4031238636610701854==--
+--===============8261698221285376268==--
