@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0515357080706250584=="
+Content-Type: multipart/mixed; boundary="===============2924774438820781418=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 30 Sep 2026 18:27:04 -0000
-Message-Id: <179079282493.3553621.3207821210438553080@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 18:27:22 -0000
+Message-Id: <179079284246.3553892.10626921731898584423@gitolite.kernel.org>
 
---===============0515357080706250584==
+--===============2924774438820781418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-7.4
-    old: 69338914b1d98d2c0dcd6e9617c56907a1b3e2db
-    new: 93914f1718676aec13ccd3787642c8b05e2b8309
-    log: revlist-69338914b1d9-93914f171867.txt
+  - ref: refs/heads/for-next
+    old: b03f6ec4bc891b6ba1c93b3981a4e77d1339de35
+    new: 05538caf13d7f6d3b802705d345ecbfb3dfea6b1
+    log: revlist-b03f6ec4bc89-05538caf13d7.txt
 
---===============0515357080706250584==
+--===============2924774438820781418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-69338914b1d9-93914f171867.txt
+Content-Disposition: attachment; filename=revlist-b03f6ec4bc89-05538caf13d7.txt
 
 34b8b2d78b6276dc2dc4ebc06625a39956f266e4 remoteproc: qcom: q6v5_pas: Don't enable handover IRQ on attach
 b853857293584dd1f52183f70a2bdeca692a1e71 remoteproc: qcom_q6v5_mss: Don't require PAS for memory protection
@@ -720,5 +720,7 @@ ed48805373b9782ea421cf258990cb2e8083fa4b spi: realtek: Add support for RTD1625 S
 929b82c85fc10e18804c7743587c5ac84e07310b spi: dw: Support DMA with a single channel
 8cc7be24bc5e4b4074146486f434dbeada994f6a spi: dw: Add DMA support for enhanced memory operations
 93914f1718676aec13ccd3787642c8b05e2b8309 Add enhance SPI DMA support for JHB100 SFC
+b4841387c0ff61aabe5c99f2f1ec6a6b36b28e09 Merge spi-linus into spi-next
+05538caf13d7f6d3b802705d345ecbfb3dfea6b1 Merge spi/for-7.4 into spi-next
 
---===============0515357080706250584==--
+--===============2924774438820781418==--
