@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5548284723979190046=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 30 Sep 2026 12:08:05 -0000
-Message-Id: <179077008560.3249266.5705076202897148399@gitolite.kernel.org>
-
---===============5548284723979190046==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 30 Sep 2026 12:08:46 -0000
+Message-Id: <179077012604.3249799.16582425775392346192@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 5490e53d00a51c08166c99edfa6159de3fa15792
-    new: 4c8664c23f49cbea0d182270cfb67d9925b8fb8a
+  - ref: refs/heads/wip/leon-for-next
+    old: a57bf5ee252f5dc87745d4a1f474239e863081cd
+    new: e95d076bc1fca7cc36fc8f2f0e9687f79fd314bd
     log: |
-         4c8664c23f49cbea0d182270cfb67d9925b8fb8a 7.2-stable patches
+         7e4d9504904f6e1ab9ea5bc2dfd1366c08483162 RDMA/efa: Use __GFP_RETRY_MAYFAIL for ring allocations
+         49c5691ad76f000e66c4f2635d5f196db5d038f9 RDMA/rtrs-clt: Don't WARN on unexpected info-response opcode
+         c1fcde82f7b68181553af7efb4410df04109a9a8 RDMA/rtrs-clt: Validate peer-supplied IO completion msg_id
+         aac27aa8c5cfe3c3c6029b9c0f1113e0a53329de RDMA/siw: Fix length of first chunk in siw_try_1seg()
+         f5d4cc88371feb9c5f96b6fb7fce5e8cb08ecb6a RDMA/selftests: Fix the kernel config fragment
+         a1c9d476c2316685f85fffb6450ad88d01836357 RDMA/hfi1: shut down the trap timer before unregistering
+         e95d076bc1fca7cc36fc8f2f0e9687f79fd314bd RDMA/hfi1: quiesce SDMA asynchronous cleanup on exit
          
-
---===============5548284723979190046==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790770080 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1790770082-ea4079e9534c32b24865326157856ee4a82d59d3
-
-5490e53d00a51c08166c99edfa6159de3fa15792 4c8664c23f49cbea0d182270cfb67d9925b8fb8a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq8+6AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tJIQAMW18fD/bmZa86gXiYqc
-KCPomF+jMD65ATrfJ5NXRWeyA3SDJo6YTvO4CewOhTFjtlpODvMVIhJv19ykIws5
-H1ms+XE3ubNj7mZtktGdMNFClR8VEOAHWrBp2tHhVSOhVcgsCYs9ApnpU9m9E3KO
-VA4yF2AuKvZyT/wZx4oobUoBXeWnH7yooTUpJC4NrHtjNvV7R4+dMPDpgkjPlsGq
-mGtIYayjUD5Qs/r7xzDZL6WtU1QJujUlwjOYbFfcq4dxKePZkJGLOI41FmEZxx9t
-KyNkXYu1r7JB5UOUn/HHcGHdq52sv8NusWMmRSnbHi6qXXbQ+BeMO2FsE/9Apirz
-dPr7qdUJsIx2Bn4BD/H7ILrZYkZ2Ldp4ywuFwePfVEGB41Je/NPgzifsZBAyVDaT
-HSMdD6hXm3buzX3e53StObU6WT/eZSowJQH1cD2IyCrUt9fHUrZ9Mi/oVYwO6Cwd
-CNMlJEkWU2Fg/xU+W9tliqTgrxGJtIngOLVj/GFlAv0LkAJJK+pDUJZiycoW7kza
-G6+3V9vBMJJ7xNBM6SyYXaliU9yW1l4kqy4nwqjT2MWneUAxsSQzBYDKCDS5M07z
-V55/nVPZutJiBu7K3MhHJic1g5cnxPs7NQzKQ9Tv8Ib9zPCb+EvBnqsKuGmT+nWL
-X7q8B8sf7nWdV0zBtTBK18o5
-=w2Ek
------END PGP SIGNATURE-----
-
---===============5548284723979190046==--
