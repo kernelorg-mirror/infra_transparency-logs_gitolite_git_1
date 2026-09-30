@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0257458692167404912=="
+Content-Type: multipart/mixed; boundary="===============2241013386581886755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:19:29 -0000
-Message-Id: <179081036957.3770752.17977405144756635954@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:19:32 -0000
+Message-Id: <179081037265.3770865.2041834218618762190@gitolite.kernel.org>
 
---===============0257458692167404912==
+--===============2241013386581886755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.110/dontcache
-    old: 6863d1669289a3c5e5a7286f9cd7c6a37229d3f0
-    new: 744404d10399cf3647060445cfe64510f0f23bd1
-    log: revlist-6863d1669289-744404d10399.txt
+  - ref: refs/heads/kernel-6.12.110/xfs
+    old: 625538398d7f2e379768cf1b7100ea6dc3efc911
+    new: 7d9696b913620962b8c7f2597a6ebfe74ced657d
+    log: revlist-625538398d7f-7d9696b91362.txt
 
---===============0257458692167404912==
+--===============2241013386581886755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6863d1669289-744404d10399.txt
+Content-Disposition: attachment; filename=revlist-625538398d7f-7d9696b91362.txt
 
 635d81dc567a386c4473f2f6b36370e60bcecc83 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 c660611d0c0ca7dc3bfca9546646bc4083cfa553 sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -97,5 +97,9 @@ de26c5d849e697ef90bfb078f0c3eb7c6b026f18 xfs: cleanup xfs_vn_getattr
 766c0a2a90f2e35e8bc0285656a095cfdb815868 xfs: report the correct read/write dio alignment for reflinked inodes
 a9a5bc787a25189f441e701696003a48b6469a2d xfs: report larger dio alignment for COW inodes
 744404d10399cf3647060445cfe64510f0f23bd1 mm/filemap: fix miscalculated file range for filemap_fdatawrite_range_kick()
+df31178bec0a771fedad510fa4b8072b0c50643f xfs: apply rt extent alignment constraints to CoW extsize hint
+aa61670a92ec9e551b01ddbf7d1781f714663967 xfs: rearrange code in xfs_inode_item_precommit
+4cdd21d1a4a33733430f26c8df637325533a33d5 xfs: rework datasync tracking and execution
+7d9696b913620962b8c7f2597a6ebfe74ced657d xfs: eliminate lockdep false positives in xfs_attr_shortform_list
 
---===============0257458692167404912==--
+--===============2241013386581886755==--
