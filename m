@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8037576246311512373=="
+Content-Type: multipart/mixed; boundary="===============1922127555395280152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:01:24 -0000
-Message-Id: <179080928471.3757151.18123854329620739195@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:01:27 -0000
+Message-Id: <179080928776.3757357.17594081831359669362@gitolite.kernel.org>
 
---===============8037576246311512373==
+--===============1922127555395280152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-vfs-7.0-rc1.atomic_open
-    old: 7d825f2e6c220c1fa242920f2508230069ee2de9
-    new: 78df791ff1b033b1a0f8601672e513bde53d3d44
-    log: revlist-7d825f2e6c22-78df791ff1b0.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-7.1-2
+    old: 72dbac7b60d58a4dec7471954dfcef4bbc33f754
+    new: 2ddbe813c3a8a599cf6ac29a58fa3ae06c1a5c6b
+    log: revlist-72dbac7b60d5-2ddbe813c3a8.txt
 
---===============8037576246311512373==
+--===============1922127555395280152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d825f2e6c22-78df791ff1b0.txt
+Content-Disposition: attachment; filename=revlist-72dbac7b60d5-2ddbe813c3a8.txt
 
 1d6b8efd7f90fbf8cb492ee24f244dc7823a5654 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 f9984a688b111bc6a7a7beda3d58ee5f5354fbbb sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -361,5 +361,43 @@ af25f9070eb52e8e23e0b11928fa63c8d8fbb773 VFS: move dentry_create() from fs/open.
 9e422919d69261a7a8d8c82448f45090845ddb9d VFS: Prepare atomic_open() for dentry_create()
 de9573653bb910562591ffbe4fd6a0b1c7e31c1e VFS/knfsd: Teach dentry_create() to use atomic_open()
 78df791ff1b033b1a0f8601672e513bde53d3d44 fs/namei: fix kernel-doc markup for dentry_create
+84c20c776ca39b9d21f0265f12d6cad263b2d834 nfsd/sunrpc: add svc_rqst->rq_private pointer and remove rq_lease_breaker
+cb2d9dc6d672e857f98eb143f4551045c9671942 nfsd/sunrpc: move rq_cachetype into struct nfsd_thread_local_info
+58edae91ecf46ddc128374c359fe65070973af6a sunrpc/cache: improve RCU safety in cache_list walking.
+f13948883345ff0c1bc73dc2c7f891d968af4ce1 sunrpc: Kill RPC_IFDEBUG()
+a929fd4918045e5054c730f70d0d862f4f78e986 sunrpc: Fix compilation error (`make W=1`) when dprintk() is no-op
+463add81c30a3f21eba29a42bb1d74ab0d1abbdf NFSD: fix nfs4_file access extra count in nfsd4_add_rdaccess_to_wrdeleg
+d188464014e7b40c71e005cb0ccbc2fec057c8fd sunrpc: Add XPT flags missing from SVC_XPRT_FLAG_LIST
+caf3a40283e879853dd15cf21d05bfe8b691249a sunrpc: convert queue_lock from global spinlock to per-cache-detail lock
+0b769dae4f2c09bd67f4c0a9dc90fbccdec24fb1 sunrpc: convert queue_wait from global to per-cache-detail waitqueue
+86c9a5e659abdb9039927f0e2bc40f1657a65aaf sunrpc: split cache_detail queue into request and reader lists
+18346e75dbe44566d53138794d15d7734fe360e8 nfsd: convert global state_lock to per-net deleg_lock
+f08c4c9982aa5d809dd154357d7e40535187b47f nfsd: use dynamic allocation for oversized NFSv4.0 replay cache
+0177c715fa08d67813580cdb100e2d02f6ed66b0 NFSD: Add a key for signing filehandles
+2e0d03d795512dfa35c629bf66114a45d4bb4627 NFSD/export: Add sign_fh export option
+be95327d4d5d2035b443c8ed7747279080fa5b4c NFSD: Sign filehandles
+3b1e676ba0bcdb3277848aa03cf8ce6c33dfc165 SUNRPC: Tighten bounds checking in svc_rqst_replace_page
+b7f54ed100d8b0a04535df26719aded1dcbc3d93 SUNRPC: Allocate a separate Reply page array
+85733da17c4f4181db35c9531745fd3cae819789 SUNRPC: Handle NULL entries in svc_rqst_release_pages
+cfe0413ac16b73ce95b9f02509386961e3459c21 svcrdma: preserve rq_next_page in svc_rdma_save_io_pages
+250b2bb34e9726939da8303e2922fe4f909eeb8b SUNRPC: Track consumed rq_pages entries
+9863efec440baf0defa71122b6015a1d33665cd9 SUNRPC: Optimize rq_respages allocation in svc_alloc_arg
+19cc639af7d2cad64d9449a59ee6f22a781f7ca3 svcrdma: Add fair queuing for Send Queue access
+c17feeaf043e2bf207f85a1995b39fa96d7356a9 svcrdma: Clean up use of rdma->sc_pd->device in Receive paths
+f86eecf12d203cf6951656ddafde13917ab8e4f4 svcrdma: Clean up use of rdma->sc_pd->device
+4b801ff615481f55eb36d681271636a1db0aab02 svcrdma: Add Write chunk WRs to the RPC's Send WR chain
+2570b7ca7ce4a2a98befd72cccabc39b7b2e8c77 svcrdma: Factor out WR chain linking into helper
+62d8213767c41a0d535071118990847a02c2631a SUNRPC: xdr.h: fix all kernel-doc warnings
+d468f22b4cf1efe5769161f36ab212c00e5ee6c8 SUNRPC: Add svc_rqst_page_release() helper
+ee4031a92bc9c6f1a1aef684028a77e5fbf809c7 NFSD: use per-operation statidx for callback procedures
+5fa67eb0e90621dcaa5b4a4bfa99133795c21590 NFSD: convert callback RPC program to per-net namespace
+ea62e61450dd942bd04138cd22d250cdd3fe839f nfsd: fix comment typo in nfs3xdr
+683e16932ed67bcc2b0682c15982fb52332532e3 nfsd: fix comment typo in nfsxdr
+5796ed2b785b706e3d809256ff39886bcbcfb6f8 nfsd: fix file change detection in CB_GETATTR
+f113cfb0cdf6cb49d05c45e04e16f6fc55acff1b nfsd: update mtime/ctime on CLONE in presense of delegated attributes
+bb5c2bc72c63120a1a235d5a4739d462645d0657 nfsd: update mtime/ctime on COPY in presence of delegated attributes
+45e2d6e510ffe1b71ff7583318dbd7bcbd2617e5 sunrpc: start cache request seqno at 1 to fix netlink GET_REQS
+b894cccf1bbe180e9817aca009c255cc59075945 sunrpc: prevent out-of-bounds read in __cache_seq_start()
+2ddbe813c3a8a599cf6ac29a58fa3ae06c1a5c6b NFSD: Report whether fh_key was actually updated
 
---===============8037576246311512373==--
+--===============1922127555395280152==--
