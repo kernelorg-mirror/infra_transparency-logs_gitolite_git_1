@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 30 Sep 2026 00:55:04 -0000
-Message-Id: <179072970441.2761778.8310676035757462665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Wed, 30 Sep 2026 00:55:14 -0000
+Message-Id: <179072971402.2762034.16503460015925173313@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/main
-    old: 19419faf58dfe5bcc8a9e60e622976c5f8e3ddc1
-    new: ea4d4b5dddb5121e64f56fd8e0720bd8b447b63d
+  - ref: refs/heads/feature/cache
+    old: 31109ddc8472adc7dda3f1f02757124bbc7a907a
+    new: c36078f3364793b78ee8bfefe9d6a1dbbf1d8ba4
     log: |
-         ea4d4b5dddb5121e64f56fd8e0720bd8b447b63d net: cap skb->queue_mapping when the tx queue is picked
+         cb6329582e960fb18b162b0493d92eaf8f04e8e5 f2fs: cache: pin cached block in f2fs_end_cache_writeback()
+         c36078f3364793b78ee8bfefe9d6a1dbbf1d8ba4 f2fs: cache: pin cached block in f2fs_unlock_cache()
          
