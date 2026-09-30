@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1879907139300079545=="
+Content-Type: multipart/mixed; boundary="===============3080144879049559981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:20:05 -0000
-Message-Id: <179081040580.3774335.8474240283255782564@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:20:08 -0000
+Message-Id: <179081040874.3774481.3795334178365748463@gitolite.kernel.org>
 
---===============1879907139300079545==
+--===============3080144879049559981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.110/nfs-testing-canary
-    old: 4f8585e400337ec2e779083d056e564531c48383
-    new: 6051b533b577fed5359884486ba806e4e120bf63
-    log: revlist-4f8585e40033-6051b533b577.txt
+  - ref: refs/heads/kernel-6.12.110/block-DIO-alignment-fixes
+    old: 50eac33eb6909b23426637fd8814dd053eba1ec8
+    new: 89c5bd720a7f8cd7c63d90ae8bb4348e09e0214d
+    log: revlist-50eac33eb690-89c5bd720a7f.txt
 
---===============1879907139300079545==
+--===============3080144879049559981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f8585e40033-6051b533b577.txt
+Content-Disposition: attachment; filename=revlist-50eac33eb690-89c5bd720a7f.txt
 
 635d81dc567a386c4473f2f6b36370e60bcecc83 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 c660611d0c0ca7dc3bfca9546646bc4083cfa553 sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -224,119 +224,16 @@ a191446bfccf11145dc315a0c82ce18ce35cad99 9p: simplify v9fs_vfs_atomic_open_dotl(
 d691f8e1d70812033324107f10ee3b496d81e8f5 simplify fuse_atomic_open()
 0f8a876a2819ace1bff13f8eb8c548680090dd3e simplify gfs2_atomic_open()
 12260e002b811960ef3c413bd2a38bbd5862e1d8 slightly simplify nfs_atomic_open()
-30de96e995b1851a85cf0061f068725ecaf946aa fs/nfs: fix missing declaration of nfs_idmap_cache_timeout
-63c5b7f61ee5d9f2ce5884a4be1bc729b4d11f3e Pass parent directory inode and expected name to ->d_revalidate()
-92011cb4fc0960d90c40a798612fbee60fb9525f afs_d_revalidate(): use stable name and parent inode passed by caller
-f9c644c5f29432bbe4297f9f622bb4129aa112ad ceph_d_revalidate(): use stable parent inode passed by caller
-11b99a347407aeecbea659915a558c64e2023cbe ceph_d_revalidate(): propagate stable name down into request encoding
-cffa28b58f8f793992652d76da6027cb31d11933 fscrypt_d_revalidate(): use stable parent inode passed by caller
-3f2df7f60e0779cdd302ea6f0a6d69b76ce1ce61 exfat_d_revalidate(): use stable parent inode passed by caller
-1733b4847b12fae32002685bda439dc95727ce91 vfat_revalidate{,_ci}(): use stable parent inode passed by caller
-2105387e9f148fe3d8a3714a8f6614ee81af7418 fuse_dentry_revalidate(): use stable parent inode and name passed by caller
-13a972916d6d4a3c797845b2cbb9c8db7755810a gfs2_drevalidate(): use stable parent inode and name passed by caller
-7fdf79baa90fcc590aa05c04434deb2932f865bf nfs{,4}_lookup_validate(): use stable parent inode passed by caller
-76bdabc50b2672665c19df8a9686ffa7fb0d8f09 nfs: fix ->d_revalidate() UAF on ->d_name accesses
-07593f7cfa47edd8d3672891318855bd0495d4f4 ocfs2_dentry_revalidate(): use stable parent inode and name passed by caller
-cc4edfcb51fc3cb0bc23505075ead3a04565c720 orangefs_d_revalidate(): use stable parent inode and name passed by caller
-a1c1e08b1581f1044e7c3c3a61bf5ae9fedf4324 nfs: constify path argument of __vfs_getattr()
-9bd0b445e0a3b1ce1dc42cd95a5b1edd8c4f3e2c NFSv4.1: pass transport for callback shutdown
-b78cdc41eb24e5902d9eb6a41f4fb37fe79a4279 SUNRPC: cleanup common code in backchannel request
-a04b7a846a25ff3ef3b288977f2667b68359c21b SUNRPC: new helper function for stopping backchannel server
-57ac9971890bbc87521da1f2bb9298fef5c5294b NFSv4.1: protect destroying and nullifying bc_serv structure
-a997fbd30284e3793ae287a798b4d8d6ef25c0aa nfs/localio: fix regression due to out-of-order __put_cred
-6ede8c8df7f488706a3d6f75023ec3a72b5be31a nfs/localio: remove alignment size checking in nfs_is_local_dio_possible
-02385f949ca06c0fa66c20085a7e0e4764fc7318 nfs/localio: remove 61 byte hole from needless ____cacheline_aligned
-f7ecb50c89b2ab95d7a34ec177571bbde0877fe2 NFS/localio: Stop further I/O upon hitting an error
-efe2f5b62b45a62dbccf7e90a24e3fdc32535607 NFS/localio: Deal with page bases that are > PAGE_SIZE
-f2be4c9bf2465e316dc034c40336f11fd82405d3 NFS: Fix size read races in truncate, fallocate and copy offload
-7db2ba77d46e5ac652614130f9b03d0430716617 NFS: remove __nfs_client_for_each_server
-d6ae17ec788024b926e66021a93f87fc0c364098 NFS: remove nfs_client_mark_return_unused_delegation_types
-759cccc3e653df4af7233552e7d2097d60b3e0e1 NFS: remove nfs_client_mark_return_all_delegations
-e70f3fd1d9f75e132be40646f963bff4c4afd900 NFS: remove the NULL inode check in nfs4_inode_return_delegation_on_close
-0516c4dcc7ff67bd4f23cced859dcce57ae3dd9e NFS: remove nfs_inode_detach_delegation
-b753addbb73d53f58f914a88977195235603ae12 NFS: remove nfs_start_delegation_return
-89d55c69809c7e02a52c75d58d8305aa7fb77dbf NFS: assert rcu_read_lock is held in nfs_start_delegation_return_locked
-62d28733f77ad6aa02a0557e1da683c5fddb7055 NFS: drop the _locked postfix from nfs_start_delegation_return
-5e2796afad1389fc29e0b1d0b6fc2d08b03e9ac2 NFS: remove NFS_DELEGATION_INODE_FREEING
-4a68736cb65fe9017f1abc09d1327be271038b76 NFS: open code nfs_delegation_need_return
-bc71530efa91d6368ad1261ea8b9a9c25d976a5c NFS: remove nfs_free_delegation
-7f8ee6c0ff1abf097c9fe62beb54d5fa0ba34373 NFS: rewrite nfs_delegations_present in terms of nr_active_delegations
-51f759d9602333f8a0cc23749e5fc5580bdac1a1 NFS: move delegation lookup into can_open_delegated
-e2bc192eb3e00f2b4bb0da3b30fefc6bba6069f8 NFS: return bool from nfs_detach_delegation{,_locked}
-ed4b39300bf0dd9d4de119c97971349ed978985d NFS: move the deleg_cur check out of nfs_detach_delegation_locked
-39f9159362c7d7829eeea4784662752c0c5ceb7d NFS: simplify the detached delegation check in update_open_stateid
-9aea0fb8183b9b0ceccb253916f2ac8d6123e93e NFS: take a delegation reference in nfs4_get_valid_delegation
-dd2a1ea1e815dd894e80c5497e5a170d9990ca45 NFS: don't consume a delegation reference in nfs_end_delegation_return
-f648c578041d26fd5529d14672b4f94a1fe4d261 NFS: use refcount_inc_not_zero nfs_start_delegation_return
-2a4273a6b1675887baf2c6cd74c250aa4973718f NFS: use a local RCU critical section in nfs_start_delegation_return
-e73b1554b1c36c6934dc65303359f27046bfc1a0 NFS: reformat nfs_mark_delegation_revoked
-fede7eddb0bfb2efc0b6c0318f03354669955efb NFS: add a separate delegation return list
-742bee8db38a21fe53d3c7f455650d9e9e0b1702 NFS: return delegations from the end of a LRU when over the watermark
-75af57067186ff64fe81664c16414394664ea602 NFS: make nfs_mark_return_unreferenced_delegations less aggressive
-908511646f14bdf15d55cdedfcf1674431f63300 NFS/localio: Handle short writes by retrying
-bf957eac9b6279e4e7b85b300fabba0316577743 NFS/localio: Cleanup the nfs_local_pgio_done() parameters
-f0e0beb9ee3e4cab1b7f34a58d6a677a531a030d NFS/localio: prevent direct reclaim recursion into NFS via nfs_writepages
-5c65c12245adb7f2a1b7626c88745dcd747dfbb4 NFS/localio: use GFP_NOIO and non-memreclaim workqueue in nfs_local_commit
-aecc3b9e968940d35755b346307f4ad5ebfc0311 NFS/localio: remove -EAGAIN handling in nfs_local_doio()
-18ee9364f8172fb14e0305dbd1373210e7e67311 NFS/localio: switch nfs_local_do_read and nfs_local_do_write to return void
-efd3e70ff9eb467c6d80a25cf7f757716ea72d0a NFS: Move nfs40_call_sync_ops into nfs40proc.c
-253fcf7add77649365abae4c136802069b2a8fcf NFS: Split out the nfs40_reboot_recovery_ops into nfs40client.c
-56573db6c824b147b0b3c109bb0fb6da218fb525 NFS: Split out the nfs40_nograce_recovery_ops into nfs40proc.c
-5dc44d4cfd9c8d64af13d0cb33136c28c56a6535 NFS: Split out the nfs40_state_renewal_ops into nfs40proc.c
-f921d259ae49884d6f477c8d7dbbedc94ce44311 NFS: Split out the nfs40_mig_recovery_ops to nfs40proc.c
-d00826ee34957233c5bb3787f4839fb62924928a NFS: Move the NFS v4.0 minor version ops into nfs40proc.c
-1f29bbf204cfdc30cf95971a0195ed70fea2302f NFS: Make the various NFS v4.0 operations static again
-1bf6f0893954effdbda98ccc5c98e29de62446c9 NFS: Move nfs40_shutdown_client into nfs40client.c
-a48b00a204079a580fd1286686aa02b9a6c9292a NFS: Move nfs40_init_client into nfs40client.c
-b410cf9fff32481479f6b42fdd1297570d3b8b0b NFS: Move NFS v4.0 pathdown recovery into nfs40client.c
-47b1b584a340f22ca40c00582d044d6a59c3c1a5 NFS: Pass a struct nfs_client to nfs4_init_sequence()
-772f33242db34e15c3d3065f4fbc777ff73785fc NFS: Move sequence slot operations into minorversion operations
-3afcfea53b156067695542fcf990f378889f5b01 NFS: Add a way to disable NFS v4.0 via KConfig
-e48a0104932c6c72e9a343324237b1849648424f NFS: Merge CONFIG_NFS_V4_1 with CONFIG_NFS_V4
-77da239e6d7a4cf47046dc62df787f93afa33caa NFS: return void from nfs4_inode_make_writeable
-d54964437beb5474385090a0f8e7f39ee0f5283a NFS: return void from ->return_delegation
-47ac37e9c54577759c5e66aa53a226836705a0f5 NFS: use bool for the issync argument to nfs_end_delegation_return
-04f2e9b86aef3aacdd03bcb569a80a9e019e2ea8 NFS: remove the delegation == NULL check in nfs_end_delegation_return
-42badd4b25024953e2772bcfeaa8c7aa78f630ce NFS: fold nfs_abort_delegation_return into nfs_end_delegation_return
-300d861d7c383eb1e107e582a791cfe5a7f36b1b NFS: simplify error handling in nfs_end_delegation_return
-e1187b0b7616c51b62ba172aa511cd5116a43173 NFS: fix delayed delegation return handling
-b7806cd8907149d6121ed999de49c387f25a46bf nfs: unify security_inode_listsecurity() calls
-9dec1ccbbecc63801bd2eca0326f8e1890ef3dd1 NFSv4: pass lease period in seconds to nfs4_set_lease_period()
-ba80744a39937a3f22ca7315138e21dde4734404 NFSv4: limit lease period in nfs4_set_lease_period()
-bb57f875e98b0b3d6c45f0f926bc714ed6e83919 sunrpc: rpc_debug and others are defined even if CONFIG_SUNRPC_DEBUG unset
-fc69cfa8ff2ea69223561d7d2bc91a8f4bc0993c SUNRPC: Change list definition method
-fca1b934b80d92ce79c278c5b858d479e47c9a5e nfs: nfs4proc: Convert comma to semicolon
-a37b7c03c05abe4d638293ace7aa1528e6a4b797 NFS: Fix NFS KConfig typos
-a3c11d81f92b75f322c2205862384830e46ca266 NFSv4/pnfs: If the server is down, retry the layout returns on reboot
-e3a5aa570f2b675da07bcc6efc828e9766d52ef3 NFS: improve "Server wrote zero bytes" error
-d503c580fedede864a624241828d4cde750c9088 nfs: fix utimensat() for atime with delegated timestamps
-ca023f5b6996c019a04346d55505a876c3ff6982 nfs: update inode ctime after removexattr operation
-f964040d97ccc503f7023b1de804d5b50c6a66a9 xprtrdma: Close sendctx get/put race that can block a transport
-7cc83ee5facd34457d906ab6c834c54112ed7975 xprtrdma: Decouple frwr_wp_create from frwr_map
-c3a2f52d22c0bab53b1dc333a5e173bbce789f9a xprtrdma: Replace rpcrdma_mr_seg with xdr_buf cursor
-56e80c1e34d9bfd4838a6ed076666cc3b7d8afc2 xprtrdma: Scale receive batch size with credit window
-7ca967f1e33e3c4a0b446dfb4bc5d77672ef1aac NFS/blocklayout: print each device used for SCSI layouts
-c05c24273ccf189584b069066f5bcb99c3b48bf2 pnfs/flexfiles: validate ds_versions_cnt is non-zero
-61e8e509ac5a74687a3bc41c9e2e4f5f11abde67 NFSv4.1: Apply session size limits on clone path
-afbd63adad71875bc115b5151fd4c3c3cc985aa3 nfs: use memcpy_and_pad in decode_fh
-fedaa5ca0be98389ccca0c1f7f979b53dc177a43 NFS: fix writeback in presence of errors
-085ce8f32339602dc4db3229df83af0f55be142b NFSv4.2: fix CLONE/COPY attrs in presence of delegated attributes
-d06793b42fbadce0e341e2b31522e6848884b9e0 NFS: remove redundant __private attribute from nfs_page_class
-83bac107d83795bcb0f4b6aa48426ea8666468f4 NFS: Fix RCU dereference of cl_xprt in nfs_compare_super_address
-070b258d14cc277a7629385200ed3ff2894da03c NFS: write_completion: dereference loop-local req, not hdr->req
-9020facc7471449a8a5441d9b4ee18f69887ad99 sunrpc: Fix error handling in rpc_sysfs_xprt_switch_add_xprt_store()
-bd434e9c84e8631ad721e9c5e4471507e77dc580 NFS: show redacted cert_serial and privkey_serial in mount options
-2272be19de13cb5eec09f947e4dec54e0ceb227e NFS: fix eof updates after NFSv4.2 fallocate/zero-range
-cf076aa7cf7feb66d6f0c72de145fb869a1dd51b sunrpc: fix uninitialized xprt_create_args structure
-cb064f8a7cf64f3385ee9067b29c205ee24f4d3d NFSv4.1/pNFS: fix LAYOUTCOMMIT retry loop on OLD_STATEID
-21faaa4ffb504b66553fe8aa86f1db03a5c2526a NFS: correct CONFIG_NFS_V4 macro name in #endif comment
-bc54208ba3d6df1a527801bdcd6ee29ebff69042 NFS: Use common error handling code in nfs_alloc_server()
-d2ea3b6420e88001fb8719b469e9ce5f3c0c6431 NFS/localio: issue IO inline when not in a memory-reclaim context
-763bbf189ef9c19cf349b391105892fb981487b5 NFS/localio: remove dead FLUSH_SYNC handling from nfs_local_commit
-48147c9c7c32b2dfbfe4c10484a24ebf3b06ed9e NFS/localio: issue commit inline when not in a memory-reclaim context
-30ec5c6e1d81395ea7d7feb58d00d3bbcb7f2f26 NFS/localio: fix nfs_local_dio_misaligned tracepoint
-5d58af22ad6e48b27e97359ba6b837c78c8350a6 NFS: don't release the open context of a failed write from writeback
-be6a8e1d2654a61b638e0a4efef7c3ba83543ffa NFS: don't run the release of a WRITE or COMMIT in the submitter
-6051b533b577fed5359884486ba806e4e120bf63 NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
+1cc3b6d6c18285aa77ad505fbf8c42a586dfacf0 block: better split mq vs non-mq code in add_disk_fwnode
+609ac19739073a77a1f19330c6ac855ccbf9d645 block: limit disk max sectors to (LLONG_MAX >> 9)
+ca9a8520ab1edc0107cad021d204e1e94be6c1b7 block: make segment size limit workable for > 4K PAGE_SIZE
+454d77423edb0d96343583069fd49e1c7e1d4f5b block: rename min_segment_size
+8f4ef36fbcdba8a3a93e808b12b64e85333cbeef block: use bvec iterator helper for bio_may_need_split()
+b788cacba1bad75c345c8279e1d61a93781ac850 block: don't initialize bi_vcnt for cloned bio in bio_iov_bvec_set()
+a9656e4a472000dd19b0cc83bfcc9474867b2d71 block: account for bi_bvec_done in bio_may_need_split()
+501161719fe3aa80169e51697548d7cb000a841b block: don't set BIO_QUIET for BLK_STS_AGAIN
+835798eb95063479009095da8f516d8f252942f6 block: add a bio_endio_status helper
+aa3414ea66d293945b8034c7b80ed55c566d06d3 block: check bio split for unaligned bvec
+89c5bd720a7f8cd7c63d90ae8bb4348e09e0214d block: use blkdev_iov_iter_get_pages status for errors
 
---===============1879907139300079545==--
+--===============3080144879049559981==--
