@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2933450743739784854=="
+Content-Type: multipart/mixed; boundary="===============6448568922159774404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:01:18 -0000
-Message-Id: <179080927879.3756717.17125772933854948047@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:01:21 -0000
+Message-Id: <179080928181.3756893.15372266922767388542@gitolite.kernel.org>
 
---===============2933450743739784854==
+--===============6448568922159774404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-6.19-3
-    old: 31e3937fea42b8dde2c1d86443813a046920b760
-    new: 0d0395942346601936f6f2d0e5b57ba83ad3209b
-    log: revlist-31e3937fea42-0d0395942346.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-next-thru-nfsd-7.0-2
+    old: 306b7c87cecada3e7cb67cf93e171c51244685bd
+    new: 6a32782fff452b9389b7bc6c2893caf62e077749
+    log: revlist-306b7c87ceca-6a32782fff45.txt
 
---===============2933450743739784854==
+--===============6448568922159774404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-31e3937fea42-0d0395942346.txt
+Content-Disposition: attachment; filename=revlist-306b7c87ceca-6a32782fff45.txt
 
 1d6b8efd7f90fbf8cb492ee24f244dc7823a5654 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 f9984a688b111bc6a7a7beda3d58ee5f5354fbbb sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -317,5 +317,45 @@ fbe44246608546fcd6f4ef88d70dba2cb06c3135 nfsd: fix memory leak in nfsd_create_se
 f3bd06d98644d558ace782ee781bdbf28fd28e1d nfsd: fix nfsd_file reference leak in nfsd4_add_rdaccess_to_wrdeleg()
 39621e19b08ae77b1b24aee388954cb28e204a3c nfsd: use ATTR_DELEG in nfsd4_finalize_deleg_timestamps()
 0d0395942346601936f6f2d0e5b57ba83ad3209b NFSD: net ref data still needs to be freed even if net hasn't startup
+6b4498852c64543a25a8dc7df741d8081e877142 NFSD: Clean up nfsd4_check_open_attributes()
+fc3761205b5562bd849c8881b6b202ab7673aeae xdrgen: improve error reporting for invalid void declarations
+08609e2e0300828fbedf7be84e27e699f3af7d8f NFSD: Add instructions on how to deal with xdrgen files
+485209da95af142927c45fed5d47cde119dc15a3 xdrgen: Generate "if" instead of "switch" for boolean union enumerators
+ead139ab7e3a0b004a73b548e3475f115a3bbec7 xdrgen: Address some checkpatch whitespace complaints
+b098eef4503c869b7758b5a2585e9856638e9cfd locks: ensure vfs_test_lock() never returns FILE_LOCK_DEFERRED
+ce49710f0280923d5767599c8b10acfa417490c8 nfsd: prefix notification in nfsd4_finalize_deleg_timestamps() with "nfsd: "
+25367099c696c98c95f190c9b7c04f4c91a08679 xdrgen: Emit the program number definition
+2ea337a2f5df693d4c0103aff3d23c684df97ac9 nfsd: use workqueue enable/disable APIs for v4_end_grace sync
+12b3f4f6a88a1bd8a046614481622d8bf0c29305 xdrgen: Implement short (16-bit) integer types
+1b81314b05c0fbb59cc8670b515f9b5c3de1a84a NFSD: fix setting FMODE_NOCMTIME in nfs4_open_delegation
+534b0cda208ab4701eeaff45d3af6ba65a087d99 xdrgen: Remove inclusion of nlm4.h header
+cd8f4ee2ce9edbb7c8a56c12b451c28d9a353667 xdrgen: Improve parse error reporting
+bda76b22f85f62ab321d89264b5f033a6f244892 xdrgen: Extend error reporting to AST transformation phase
+ccbbbc8db8cacd9a6f0b5048b8f33fb7609d418d xdrgen: Emit a max_arg_sz macro
+68470f69a39f23a36575b4b641a269d41d9adc31 xdrgen: Add enum value validation to generated decoders
+00374783f02eb7c777ffa065c2261943c5fcce3c sunrpc: split svc_set_num_threads() into two functions
+29aea208e4c9f1b56f88621c99137698f13ab77f sunrpc: remove special handling of NULL pool from svc_start/stop_kthreads()
+f5ed2f459593f5f4eea775822903d428d7b6ce22 sunrpc: track the max number of requested threads in a pool
+aba113290cfda11077e59e37b2cb5da29de24e8f sunrpc: introduce the concept of a minimum number of threads per pool
+e42bd074143c3f213e000464a0a985d21a45b8e9 sunrpc: split new thread creation into a separate function
+b77bf8dd4133b9f5f7662122c4e70c7f20fd8ead sunrpc: allow svc_recv() to return -ETIMEDOUT and -EBUSY
+c0ae5ab7c23adf83be3fb79c69e3e6accaf902ed nfsd: adjust number of running nfsd threads based on activity
+a97a3464cd9f450dbb7b9d73900bc513455ccac5 nfsd: add controls to set the minimum number of threads per pool
+0c95e876fb5b2cef8ff1868aeacc2a967fda4004 nfsd: cancel async COPY operations when admin revokes filesystem state
+746ff8f9e97a391cf970d18f20a2870083538f66 xdrgen: Implement pass-through lines in specifications
+7f909080c7bd971f54758affafb4787c9e4aed9c NFSD: Add a Kconfig setting to enable support for NFSv4 POSIX ACLs
+e74e1e64272920e263eb31104c98778dcb503a6c Add RPC language definition of NFSv4 POSIX ACL extension
+b3c0280dec51ddbbf79370f65b7550c5cc36cbac NFSD: Add nfsd4_encode_fattr4_acl_trueform
+90d44bdfc0c1396ea79a1226397ec60cc2af943e NFSD: Add nfsd4_encode_fattr4_acl_trueform_scope
+0970122dc710ed633255c877946bdd16709bf0c6 NFSD: Add nfsd4_encode_fattr4_posix_default_acl
+918e20e19547b9d4791ca4025a75c95f374b844d NFSD: Add nfsd4_encode_fattr4_posix_access_acl
+128b373d8a0a09a4bcdefd11d568ff81e48252d6 NFSD: Do not allow NFSv4 (N)VERIFY to check POSIX ACL attributes
+00d7bd043068c7beebd2b4ba60eaa045606082a0 NFSD: Refactor nfsd_setattr()'s ACL error reporting
+b71cc48afcda861bbb53d781f198c51f949f349d NFSD: Add support for XDR decoding POSIX draft ACLs
+81b1c1068130a40c18758262dafedf8863edbe9f NFSD: Add support for POSIX draft ACLs for file creation
+71e52bb8fc57155612534512ff6df8dd61145847 NFSD: Add POSIX draft ACL support to the NFSv4 SETATTR operation
+39e58862c424e3e431db7abc77c9b28ced53a36d NFSD: Add POSIX ACL file attributes to SUPPATTR bitmasks
+43492c671af18c7aa9ffed1207902a7c6ec2a9ec nfsd: report the requested maximum number of threads instead of number running
+6a32782fff452b9389b7bc6c2893caf62e077749 NFSD: Defer sub-object cleanup in export put callbacks
 
---===============2933450743739784854==--
+--===============6448568922159774404==--
