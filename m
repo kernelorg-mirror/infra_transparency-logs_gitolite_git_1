@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4545908198968884650=="
+Content-Type: multipart/mixed; boundary="===============3361772863258897341=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 30 Sep 2026 23:41:11 -0000
-Message-Id: <179081167178.3793304.12804670853764849342@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:41:14 -0000
+Message-Id: <179081167459.3793496.10861511052662783693@gitolite.kernel.org>
 
---===============4545908198968884650==
+--===============3361772863258897341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 014d795c73837ea2339a4ea8e8f82c6e959b845d
     new: b38dd3a0cf1d136b610ff4d59214a8169286eb08
     log: revlist-014d795c7383-b38dd3a0cf1d.txt
 
---===============4545908198968884650==
+--===============3361772863258897341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -216,4 +216,4 @@ f1c3b87896e656c1940a1dc3e2f286e000c62da8 ice: size ring stats arrays from the fi
 bf515c9fae875c95e033407d963b19e32c8f2820 seg6: reallocate the skb head on L2 encapsulation only when needed
 b38dd3a0cf1d136b610ff4d59214a8169286eb08 net: usb: ax88172a: improve MAC address read error handling
 
---===============4545908198968884650==--
+--===============3361772863258897341==--
