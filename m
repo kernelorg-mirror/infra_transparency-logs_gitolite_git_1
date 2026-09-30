@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3027649996290808615=="
+Content-Type: multipart/mixed; boundary="===============2476318490509140426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:20:18 -0000
-Message-Id: <179081041826.3774996.13905490883166005234@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:20:20 -0000
+Message-Id: <179081042098.3775139.1933279661648626774@gitolite.kernel.org>
 
---===============3027649996290808615==
+--===============2476318490509140426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.110/nfsd-next-thru-nfsd-6.19-1
-    old: 82e56b60576e014c9815e4b8b6ba7761eb6d3817
-    new: 51016a9fd887ea55b1e92d3e6a315be580447c45
-    log: revlist-82e56b60576e-51016a9fd887.txt
+  - ref: refs/heads/kernel-6.12.110/nfsd-next-thru-nfsd-6.19-2
+    old: 9ccfa97451bef3d78604054d97cce60317bf2cd0
+    new: 62469257a670ed7e0803f5812032a43e05c88a21
+    log: revlist-9ccfa97451be-62469257a670.txt
 
---===============3027649996290808615==
+--===============2476318490509140426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82e56b60576e-51016a9fd887.txt
+Content-Disposition: attachment; filename=revlist-9ccfa97451be-62469257a670.txt
 
 635d81dc567a386c4473f2f6b36370e60bcecc83 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 c660611d0c0ca7dc3bfca9546646bc4083cfa553 sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -309,5 +309,7 @@ b02c9f7f4d4d39a6857c2024d1164d992d5cfe9c NFSD: nfsd-io-modes: Wrap shell snippet
 ebdce76952e220342305d8b7f3e885c9d874b590 NFSD: nfsd-io-modes: Separate lists
 6ce564cabc39b006d26815505ddc6a34f9053433 nfsd: fix memory leak in nfsd_create_serv error paths
 51016a9fd887ea55b1e92d3e6a315be580447c45 NFSD: Clear TIME_DELEG in the suppattr_exclcreat bitmap
+d2e89bcd18fdd21285e6ea7b8b24d2ee890e1784 nfsd: fix nfsd_file reference leak in nfsd4_add_rdaccess_to_wrdeleg()
+62469257a670ed7e0803f5812032a43e05c88a21 nfsd: use ATTR_DELEG in nfsd4_finalize_deleg_timestamps()
 
---===============3027649996290808615==--
+--===============2476318490509140426==--
