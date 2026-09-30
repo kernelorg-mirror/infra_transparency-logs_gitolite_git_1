@@ -1,85 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5748902287244771158=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Wed, 30 Sep 2026 12:50:55 -0000
-Message-Id: <179077265503.3284492.6463196479230266879@gitolite.kernel.org>
-
---===============5748902287244771158==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 30 Sep 2026 12:55:25 -0000
+Message-Id: <179077292546.3288209.14655983249000099293@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/netfs-next-3
-    old: e2f9194449737e6fcf6a7663a4f71215ba226a6d
-    new: de8091623a49316b214498f5910fbdde04b34072
+  - ref: refs/heads/bleeding-edge
+    old: 4397d72f5f625c2c312fb902f257dbc29c36f84a
+    new: b7961b596a65033b0139070c2b056c130580087a
     log: |
-         6600c885787663b01d6696bffa73fc97e845bb1a iov_iter: Add a segmented queue of bio_vec[]
-         d96d58b91d5c2ac405b6e80eca373ca6f7b3adbd netfs: Add some tools for managing bvecq chains
-         f3229fca33cfc038cc4e90c35cc89575cb5132af afs: Use a bvecq to hold dir content rather than folioq
-         4681b1bbe0aedcdc44081e4f2354d6122066827b cifs: Use a bvecq for buffering instead of a folioq
-         5ac147dfb789a39351f597f34a359ca51337ccf3 smbdirect: Support ITER_BVECQ in smbdirect_map_sges_from_iter()
-         ed21de52ff5ab9bc6c6431967d245eb2066e26a3 netfs: Switch folioq to bvecq
-         ad145666daa61004240aa64c11d54ecae34ceac5 smbdirect: Remove support for ITER_FOLIOQ from smbdirect_map_sges_from_iter()
-         32786b0169aced15460aa39a3c25436277d8e32a iov_iter: Remove ITER_FOLIOQ
-         de8091623a49316b214498f5910fbdde04b34072 netfs: Remove folio_queue
+         4c91a2f4805c3b44849526330c4600d4bd2de176 PM: runtime: Correct pm_runtime_autosuspend_expiration() doc
+         f667dd6713d6c5b1140d7e8d73b776f898dfb654 PM: runtime: More kerneldoc formatting
+         437b4ed6cb5848027fe9b9c8d0da495eef7f8de3 PM: runtime: Misc improvements to runtime_pm.rst
+         86122467eea539ac13d40b6938abd1fbb40fb640 PM: runtime: Add "Section" hyperlinks
+         aedc51762a0d3d4a50d1542b59aafcd6060c4b39 PM: runtime: Clarify ->runtime_idle() callback return value handling
+         dd2f2b9b1082c1e4283cb5e0aea0bc8ebd966c81 PM: runtime: Clarify driver callback expectations and structure Section 2
+         b7961b596a65033b0139070c2b056c130580087a Merge branch 'pm-runtime' into bleeding-edge
          
-  - ref: refs/remotes/linus/HEAD
-    old: 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e
-    new: 551c722f40809618230001baccf219193e22fc5a
-    log: revlist-72d3fcf802c4-551c722f4080.txt
-  - ref: refs/remotes/linus/master
-    old: 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e
-    new: 551c722f40809618230001baccf219193e22fc5a
-    log: revlist-72d3fcf802c4-551c722f4080.txt
-
---===============5748902287244771158==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72d3fcf802c4-551c722f4080.txt
-
-b5965c4221165045e19736794ca5f48ae3d67142 mtd: block2mtd: Fix divide error when erase_size is zero
-63d6cace2c4a7f36c1cb44f1bb5e0f3ef19e5c7f mtd: spinand: Enable QE on all dies
-26300879cd8e4612dce66bb8f6ff7cd35fcf3e59 mtd: core: avoid double-free of OTP NVMEM device
-12b31d1acd20b3185bb5f0748db0cf6874c8e9d1 mtd: core: call _get_device() with the master MTD
-39b975ff208610301bc400460ec245caeffa4ee0 mtd: cfi_cmdset_0001: shrink do_write_buffer() stack frame
-200c32e3cd53132fbf99f1e2a5751f556755cf6d mtd: mtd_intel_dg: reset poll counter for each erase
-b890e6163761ddb580cc74f43e15f8bbde15647e mtd: spinand: fix NULL pointer dereference with no ECC engine
-636fe10d8f3559210ff63108a208d39ea2e9c3bd mtd: spinand: fix zero oobavail when no ECC engine is used
-37adc9c5789c76db3b1ee7aeec3999b8503020d0 mtd: rawnand: vf610_nfc: fix reads on chips with more than 64 bytes of OOB
-68fe2faf5c69d0e21f94cd695d28f0ba677d484f mtd: rawnand: vf610_nfc: fix false bitflips on reads of erased pages
-21f027016b1290d13c30b198ae7a00e6b3d1d5a5 mtd: rawnand: cadence: Initialize IRQ state before requesting IRQ
-86ad6489e38c76c06c0b4a4229391a794023b5e0 ARC: cleanup dead ARC_CANT_LLSC option in Kconfig
-04eb7b5e043fbccf83d27a9be5c3973c2dbb110f arc: remove unused profile.h includes
-d12c6a6f0c8fd5b5b41120f7be319f743dae3b4f arc: kernel: Fix clk reference leak in show_cpuinfo()
-44b8a0bf5f96e8393312fc34b956766882341f16 mtd: spi-nor: core: Fix mutex leak in spi_nor_rww_start_exclusive()
-0ee5c5d804d592a8328a425b9274487d393d3a05 rtc: dev: zero-initialize struct rtc_wkalrm to prevent information leak
-b430d1f6d80c005b486f028910e1ac3c91812710 rtc: efi: restore alarm support with runtime capability probe
-6a4117eee82dd85f11bf898bf66026764011eeb6 rtc: ac100: Assign .num before accessing .hws
-fcf0b58e976e83adf246b014518e49c662b96f5e rtc: ac100: Fix clock provider use-after-free on probe failure
-ac41b05d15db3134e839148290d67415ee0bdb58 rtc: mpfs: fix unchecked devm_clk_get() error pointer in probe()
-055ef5ce9f67a6a3a1363fa663007f8196cc0fb8 rtc: spear: initialize IRQ state before requesting alarm IRQ
-f050c3e61d2a1aaece3170d459e4ce5fa2486c12 ARC: arch_cmpxchg_relaxed to use size of pointed type not pointer
-1c1a342aceec79528b3ba51f376eca2be5928fe7 mtd: spinand: Do not update the QE bit on devices without one
-c79cf15eb35a4c703bf18f8c33c47e80dd660f8e module: fix lost error code from codetag_load_module()
-72c3d682c165b836b54a3d07a01f72e39c47022c mm: shmem: ignore sysfs configs for shmem forced collapse
-347c6ed8cf7768883252e106994de62c7947f0a0 alloc_tag: avoid implicit padding in uapi
-52ae167ce16609c7e6fffef588b3c2c26de2db19 mm/damon/core: don't skip damos_adjust_quota() while esz is not zero
-22ab0647764c38924669673634ae333578d77768 kasan: unpoison task stack below watermark only in generic mode
-711d886fe76e28854814759f51ee175e279ef8c7 MAINTAINERS: split up MEMORY MANAGEMENT - MEMORY POLICY AND MIGRATION
-4050a73a90f456887dc35d5bbfa4f4790eb5c2cf MAINTAINERS: move memory tiering under MEMORY MANAGEMENT - NUMA PLACEMENT
-b3f0c1a4e41f356c3126a676ad55c0f6881e7514 MAINTAINERS: make Gregory a co-maintainer of MEMORY MANAGEMENT - NUMA PLACEMENT
-6cc8f549f6888e36036ab14d84a8ec46b4a393c0 MAINTAINERS: add Heming Zhao as ocfs2 reviewer
-976d5e0ddac885b0219252f004f6c561c344df9d mm/vma: predicate setting mmap_prepare VMA fields on new vma alloc
-6f8319e3e9a44dd537d17f41565a8453c560a581 Merge tag 'mm-hotfixes-stable-2026-09-27-19-12' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-b004c4b1c4180fc7f2326de4ac941d5edfe16076 Merge tag 'arc-fixes-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
-a243ede718463c7b481878656f1ff32a0ce0fd54 Merge tag 'mtd/fixes-for-7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
-551c722f40809618230001baccf219193e22fc5a Merge tag 'rtc-7.3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
-
---===============5748902287244771158==--
