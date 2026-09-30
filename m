@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3819457324794554898=="
+Content-Type: multipart/mixed; boundary="===============6905131239551712364=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:20:32 -0000
-Message-Id: <179081043239.3776154.15254350002553396888@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:20:35 -0000
+Message-Id: <179081043541.3776331.12508633490528130253@gitolite.kernel.org>
 
---===============3819457324794554898==
+--===============6905131239551712364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.110/nfsd-7.1-2
-    old: 609d754fe9afb53545e7e53558b5f2c4fe4c9629
-    new: 21d3f8f1400475a9a7264af46c3972f8aac6f611
-    log: revlist-609d754fe9af-21d3f8f14004.txt
+  - ref: refs/heads/kernel-6.12.110/nfsd-7.2
+    old: fb58ce1e85b6e48e2783851c00fd858826db42ab
+    new: d876441d6e4cc74ca037bee69e5d865282041730
+    log: revlist-fb58ce1e85b6-d876441d6e4c.txt
 
---===============3819457324794554898==
+--===============6905131239551712364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-609d754fe9af-21d3f8f14004.txt
+Content-Disposition: attachment; filename=revlist-fb58ce1e85b6-d876441d6e4c.txt
 
 635d81dc567a386c4473f2f6b36370e60bcecc83 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 c660611d0c0ca7dc3bfca9546646bc4083cfa553 sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -392,5 +392,16 @@ e9e4e342359c741b4aa698502efc336ce12d4b5d nfsd: update mtime/ctime on COPY in pre
 c5d0a8193ebcfc88f176627d7716479525c296e3 sunrpc: start cache request seqno at 1 to fix netlink GET_REQS
 476f9651e1a9eb106e3a610a86d115c5ce292bdc sunrpc: prevent out-of-bounds read in __cache_seq_start()
 21d3f8f1400475a9a7264af46c3972f8aac6f611 NFSD: Report whether fh_key was actually updated
+c491ede1d43798bc4c2bfa897e08fa410458047a sunrpc: skip svc_xprt_enqueue when no work is pending
+d3b8dd6e8dc2792747db976b43f43b2f37fc58e8 sunrpc: skip svc_xprt_enqueue in svc_xprt_received when idle
+44ff8f49eb882afdc69310d7f9262127d9d3b840 sunrpc: skip svc_xprt_enqueue when transport is busy
+647d82e2cc94643f2b303530fc7d2ced3c2b6e19 nfsd: move struct nfsd_genl_rqstp to nfsctl.c
+5bc006899f5edd5fddcc4bab667a26549b7076c6 NFSD: Increase the default max_block_size to 4MB
+6c907356d0de479ca8154e313a5bba6ecc6c842e svcrdma: Release write chunk resources without re-queuing
+d45b65b112e30bed68a9a4a4d395cca63d6ab007 Revert "NFSD: Defer sub-object cleanup in export put callbacks"
+6bea2bebe7abd29bae9d7b8108bbd5da4f8b9717 sunrpc: harden rq_procinfo lifecycle to prevent double-free
+47fe3dce1eeff5db21c4049ccb24d816a29778e8 nfsd: fix dead ACL conflict guard in nfsd4_create
+c9cc479c6f9f81150303f535945af0e8341e6794 nfsd: fix inverted cp_ttl check in async copy reaper
+d876441d6e4cc74ca037bee69e5d865282041730 svcrdma: wake sq waiters when the transport closes
 
---===============3819457324794554898==--
+--===============6905131239551712364==--
