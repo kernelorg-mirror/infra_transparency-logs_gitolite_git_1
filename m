@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7395665647257843836=="
+Content-Type: multipart/mixed; boundary="===============4267481949464549743=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:20:00 -0000
-Message-Id: <179081040006.3772106.7770423149710032033@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:20:02 -0000
+Message-Id: <179081040297.3773354.6420474080190578457@gitolite.kernel.org>
 
---===============7395665647257843836==
+--===============4267481949464549743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.110/nfs-for-7.1-2
-    old: ef7151a4d35b0527fc244a267f8cc84eaa925039
-    new: 070b258d14cc277a7629385200ed3ff2894da03c
-    log: revlist-ef7151a4d35b-070b258d14cc.txt
+  - ref: refs/heads/kernel-6.12.110/nfs-for-7.2-fixes
+    old: 0e8e3386fa3c5fa5ff2e78f8e2cd1b46c8934145
+    new: bc54208ba3d6df1a527801bdcd6ee29ebff69042
+    log: revlist-0e8e3386fa3c-bc54208ba3d6.txt
 
---===============7395665647257843836==
+--===============4267481949464549743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef7151a4d35b-070b258d14cc.txt
+Content-Disposition: attachment; filename=revlist-0e8e3386fa3c-bc54208ba3d6.txt
 
 635d81dc567a386c4473f2f6b36370e60bcecc83 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 c660611d0c0ca7dc3bfca9546646bc4083cfa553 sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -324,5 +324,12 @@ fedaa5ca0be98389ccca0c1f7f979b53dc177a43 NFS: fix writeback in presence of error
 d06793b42fbadce0e341e2b31522e6848884b9e0 NFS: remove redundant __private attribute from nfs_page_class
 83bac107d83795bcb0f4b6aa48426ea8666468f4 NFS: Fix RCU dereference of cl_xprt in nfs_compare_super_address
 070b258d14cc277a7629385200ed3ff2894da03c NFS: write_completion: dereference loop-local req, not hdr->req
+9020facc7471449a8a5441d9b4ee18f69887ad99 sunrpc: Fix error handling in rpc_sysfs_xprt_switch_add_xprt_store()
+bd434e9c84e8631ad721e9c5e4471507e77dc580 NFS: show redacted cert_serial and privkey_serial in mount options
+2272be19de13cb5eec09f947e4dec54e0ceb227e NFS: fix eof updates after NFSv4.2 fallocate/zero-range
+cf076aa7cf7feb66d6f0c72de145fb869a1dd51b sunrpc: fix uninitialized xprt_create_args structure
+cb064f8a7cf64f3385ee9067b29c205ee24f4d3d NFSv4.1/pNFS: fix LAYOUTCOMMIT retry loop on OLD_STATEID
+21faaa4ffb504b66553fe8aa86f1db03a5c2526a NFS: correct CONFIG_NFS_V4 macro name in #endif comment
+bc54208ba3d6df1a527801bdcd6ee29ebff69042 NFS: Use common error handling code in nfs_alloc_server()
 
---===============7395665647257843836==--
+--===============4267481949464549743==--
