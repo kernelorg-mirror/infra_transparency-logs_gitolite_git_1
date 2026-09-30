@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Wed, 30 Sep 2026 17:21:58 -0000
-Message-Id: <179078891868.3504132.11793125341576948651@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 17:22:02 -0000
+Message-Id: <179078892206.3504333.18083321958511080346@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/tags/libcrypto-updates-for-linus
-    old: 9933209bdf27fa8af1194a64ab44ede7f470b58b
+  - ref: refs/tags/libcrypto-tests-for-linus
+    old: e624cc15596f6e036823ad5636399b972a827ff8
     new: 0000000000000000000000000000000000000000
