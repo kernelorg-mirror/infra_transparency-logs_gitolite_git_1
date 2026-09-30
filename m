@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4735657051549548112=="
+Content-Type: multipart/mixed; boundary="===============8092330041558872980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:00:36 -0000
-Message-Id: <179080923624.3754360.9004995898792815464@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:00:39 -0000
+Message-Id: <179080923940.3754509.16078865654069414491@gitolite.kernel.org>
 
---===============4735657051549548112==
+--===============8092330041558872980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfs-next-thru-nfs-for-6.18-3
-    old: b4abf0cb2d4aacace7dfd1abebbdfcf965113563
-    new: 790ef0120c39529a5b7b8a4bbce49649560d7643
-    log: revlist-b4abf0cb2d4a-790ef0120c39.txt
+  - ref: refs/heads/kernel-6.12.93/nfs-next-thru-nfs-for-6.19-1
+    old: 009dc99abc357af6fae9a59805bafa0c3162e4a1
+    new: 00c2c092bd7926cfd981dcd10240747834f8a5da
+    log: revlist-009dc99abc35-00c2c092bd79.txt
 
---===============4735657051549548112==
+--===============8092330041558872980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4abf0cb2d4a-790ef0120c39.txt
+Content-Disposition: attachment; filename=revlist-009dc99abc35-00c2c092bd79.txt
 
 1d6b8efd7f90fbf8cb492ee24f244dc7823a5654 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 f9984a688b111bc6a7a7beda3d58ee5f5354fbbb sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -227,5 +227,27 @@ ce208d5d0efc6bc0e0c06dbf71ef507817add0b8 nfs/localio: do not issue misaligned DI
 34cce504685609dc02b4daf8499265298f300463 simplify fuse_atomic_open()
 1fa61eb4f4849e1d1ad1b2c05d2f41cf314591c2 simplify gfs2_atomic_open()
 790ef0120c39529a5b7b8a4bbce49649560d7643 slightly simplify nfs_atomic_open()
+c81062e3e384cd7798223bc53f2a4b17fc6d3429 fs/nfs: fix missing declaration of nfs_idmap_cache_timeout
+e5b01d61f06c60bda2f6d81d64e2f4222b7f1477 Pass parent directory inode and expected name to ->d_revalidate()
+ec5cec1328fe5774e1edd625b58414a65ebcf390 afs_d_revalidate(): use stable name and parent inode passed by caller
+5a169463996f33d3e1a056b2390cb1c33153df9d ceph_d_revalidate(): use stable parent inode passed by caller
+ae1695af45b8af442bed1149ccf2afa0bce506f2 ceph_d_revalidate(): propagate stable name down into request encoding
+ffe8b7c5f83edb2f1a9b0a80e2f4d2f3f45677b1 fscrypt_d_revalidate(): use stable parent inode passed by caller
+affa1aa449a14d5f075c750b157c5bd6baefd235 exfat_d_revalidate(): use stable parent inode passed by caller
+6a1b3063b21e18cd738b2b39aff868ee034e89e4 vfat_revalidate{,_ci}(): use stable parent inode passed by caller
+677aa6795651c46601cc221d8993c253822c2262 fuse_dentry_revalidate(): use stable parent inode and name passed by caller
+96aa7738c84e2d263ac8a007e5538affd85fd4ed gfs2_drevalidate(): use stable parent inode and name passed by caller
+c15ff6bf2c65b59a20272872e2c9b72195e8e8db nfs{,4}_lookup_validate(): use stable parent inode passed by caller
+c9e41b67f5f38726e5c8954824817a94b3ed04a1 nfs: fix ->d_revalidate() UAF on ->d_name accesses
+299effd50b215c16910204a50bf3bd2fd9c35e07 ocfs2_dentry_revalidate(): use stable parent inode and name passed by caller
+de725d5b2b21d746b1aabc65765865ef23a3e972 orangefs_d_revalidate(): use stable parent inode and name passed by caller
+8369b99ea9b634b95812c18842771cc3328ce260 nfs: constify path argument of __vfs_getattr()
+51543d7dc3c4d879a006f1ddc2951bc5eaccddd2 NFSv4.1: pass transport for callback shutdown
+4c1a242ebc6e34158dc273225bc9e66cb167cb9c SUNRPC: cleanup common code in backchannel request
+de72ce794ae574640530ac183a007a610b6f10d6 SUNRPC: new helper function for stopping backchannel server
+5cc9e403dc8279d4dc4dc93b852aaf42dfa235bf NFSv4.1: protect destroying and nullifying bc_serv structure
+36df31b7409ccb92a5276d97ef213c2f1bd36089 nfs/localio: fix regression due to out-of-order __put_cred
+f010889dae69c8b618ddbcc6376b3ee5b293acdb nfs/localio: remove alignment size checking in nfs_is_local_dio_possible
+00c2c092bd7926cfd981dcd10240747834f8a5da nfs/localio: remove 61 byte hole from needless ____cacheline_aligned
 
---===============4735657051549548112==--
+--===============8092330041558872980==--
