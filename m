@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2417990636161059237=="
+Content-Type: multipart/mixed; boundary="===============3776566507366930264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:00:23 -0000
-Message-Id: <179080922313.3753676.12810450560543390821@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:00:25 -0000
+Message-Id: <179080922593.3753940.3835446293156886580@gitolite.kernel.org>
 
---===============2417990636161059237==
+--===============3776566507366930264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/dontcache
-    old: 72a8643352b931c743c80cdea4306790893fc4dc
-    new: 689d7bb917d944c884b53608ee3c8a02f4a657ae
-    log: revlist-72a8643352b9-689d7bb917d9.txt
+  - ref: refs/heads/kernel-6.12.93/xfs
+    old: 587107ed74e36d852ff42bc34b9a40f015cf1288
+    new: c80d68be62a34cc1d678f56261342d60b818712f
+    log: revlist-587107ed74e3-c80d68be62a3.txt
 
---===============2417990636161059237==
+--===============3776566507366930264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72a8643352b9-689d7bb917d9.txt
+Content-Disposition: attachment; filename=revlist-587107ed74e3-c80d68be62a3.txt
 
 1d6b8efd7f90fbf8cb492ee24f244dc7823a5654 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 f9984a688b111bc6a7a7beda3d58ee5f5354fbbb sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -97,5 +97,9 @@ fc1938d4f9f6d591b2b57b1dad549a91f77bd2eb iomap: don't lose folio dropbehind stat
 707922d96dbc44d2abf97b176d1ffba5887dd90f xfs: report the correct read/write dio alignment for reflinked inodes
 1d96ab38f2c5f36ef8e36a7e39fa76dddd689419 xfs: report larger dio alignment for COW inodes
 689d7bb917d944c884b53608ee3c8a02f4a657ae mm/filemap: fix miscalculated file range for filemap_fdatawrite_range_kick()
+05ae04aee3d217337a567a30b7c1137a3cc1696c xfs: apply rt extent alignment constraints to CoW extsize hint
+7c5e178575466964ca33798d6c86634679be32a8 xfs: rearrange code in xfs_inode_item_precommit
+6184a4fc53665a25fc11b2bb5fc744c8de69936d xfs: rework datasync tracking and execution
+c80d68be62a34cc1d678f56261342d60b818712f xfs: eliminate lockdep false positives in xfs_attr_shortform_list
 
---===============2417990636161059237==--
+--===============3776566507366930264==--
