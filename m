@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2689479470753107747=="
+Content-Type: multipart/mixed; boundary="===============9065490360756333583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:00:57 -0000
-Message-Id: <179080925786.3755454.4843758490854455088@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:01:01 -0000
+Message-Id: <179080926102.3755627.9592424400764235174@gitolite.kernel.org>
 
---===============2689479470753107747==
+--===============9065490360756333583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfs-for-7.2-fixes
-    old: 44e49d545b4c0ebadc408319cb68cf798c362536
-    new: 55a9e7e7894e359ff45953b22e9145ff614e66bd
-    log: revlist-44e49d545b4c-55a9e7e7894e.txt
+  - ref: refs/heads/kernel-6.12.93/nfs-testing-canary
+    old: 09c2cda51c7e4e479d1247af451b2d6fb0b94d1f
+    new: 0a1df270b52ff7c2c92916d5db52dfbedbc5cc9a
+    log: revlist-09c2cda51c7e-0a1df270b52f.txt
 
---===============2689479470753107747==
+--===============9065490360756333583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44e49d545b4c-55a9e7e7894e.txt
+Content-Disposition: attachment; filename=revlist-09c2cda51c7e-0a1df270b52f.txt
 
 1d6b8efd7f90fbf8cb492ee24f244dc7823a5654 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 f9984a688b111bc6a7a7beda3d58ee5f5354fbbb sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -356,5 +356,12 @@ c6406db92f45106d14053258ce054bc6ba6a4bd6 NFSv4/pNFS: reject zero-length r_addr i
 c7e44ed8c582a1df6fb47ad75dd39fac054d8bab SUNRPC: pin upper rpc_clnt across the TLS connect_worker
 2e78b89f0949a5b4862e50dd73ab5c2f9dad8f96 NFSv4: include MAY_WRITE in open permission mask for O_TRUNC
 55a9e7e7894e359ff45953b22e9145ff614e66bd NFS: Charge unstable writes by request size, not folio size
+e30489cd3e163f039649312186c83682ed39399a NFS/localio: issue IO inline when not in a memory-reclaim context
+d0dd3610d21d618e4d357a3cc95e42c3211db3d7 NFS/localio: remove dead FLUSH_SYNC handling from nfs_local_commit
+fedc74a4227dd9b705c5de5ad2dde89ead12798f NFS/localio: issue commit inline when not in a memory-reclaim context
+f68e4787d855cb660453bd9efd52baf915210a5b NFS/localio: fix nfs_local_dio_misaligned tracepoint
+137eec693c97732c7d675a773b252aa541e3e19e NFS: don't release the open context of a failed write from writeback
+39e1c66c47198a268dbee77ae606a88ad86a8bd9 NFS: don't run the release of a WRITE or COMMIT in the submitter
+0a1df270b52ff7c2c92916d5db52dfbedbc5cc9a NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
 
---===============2689479470753107747==--
+--===============9065490360756333583==--
