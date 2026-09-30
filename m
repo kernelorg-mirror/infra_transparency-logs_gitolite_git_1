@@ -1,82 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4931114424222440585=="
+Content-Type: multipart/mixed; boundary="===============2486052561138416246=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Wed, 30 Sep 2026 18:48:04 -0000
-Message-Id: <179079408462.3568730.1553471190281632825@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Wed, 30 Sep 2026 19:14:12 -0000
+Message-Id: <179079565268.3585842.4775005098408217296@gitolite.kernel.org>
 
---===============4931114424222440585==
+--===============2486052561138416246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/for-next
-    old: 23d8f49fcae5d72b77744c7f349c12462c3bb748
-    new: dbf70310fa4f5cc3eecaea857a419ab68d5b9a8e
-    log: revlist-23d8f49fcae5-dbf70310fa4f.txt
-  - ref: refs/heads/master
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e
-    log: revlist-cee9395acd80-72d3fcf802c4.txt
-  - ref: refs/heads/v7.4-armsoc/dts32
-    old: 5c44a0abd4334e5be2d8d485dd73a387c6eabb04
-    new: b86f1ad2e69b3ef2c1bb46f2b585ac8aff44cad2
-    log: |
-         b86f1ad2e69b3ef2c1bb46f2b585ac8aff44cad2 ARM: dts: rockchip: Remove cap-mmc-highspeed from Omega4 sdmmc0
-         
-  - ref: refs/heads/v7.4-armsoc/dts64
-    old: c818f4a85a40c12a5536d6016395a7eff5b44f8a
-    new: c1e23f3425c49fe22e9598f8eea2fcf693950d50
-    log: |
-         dd0c1c534957a1e297460edd1428b251e78b4fc5 arm64: dts: rockchip: Add missing audio codec supplies to Pinebook Pro
-         7c841000c377a3997e64f45c938dd77bfbd74cc6 arm64: dts: rockchip: Remove broken-cd on Rock 5 ITX SDIO
-         c7502a43087748277cf5c55d5a414672e82426c6 arm64: dts: rockchip: Remove cap-mmc-highspeed from SD-only slots
-         afcfb6982a13fb4b3e0045f96c7aa6d64063a034 arm64: dts: rockchip: Add PWM fan to Radxa ROCK 3B
-         9f587b25d9db29d180a1e483651dddc80f898db6 arm64: dts: rockchip: Add supplies for es8316 on RockPro64
-         55010621f40c5b129fb0972f07e9d8d52aa6a765 dt-bindings: arm: rockchip: Add DFRobot UNIHIKER M10 V1.2
-         a2ff7779dd92246bd3e34a2f9600dade3794e6d2 arm64: dts: rockchip: Add DFRobot UNIHIKER M10 V1.2
-         bdcf29a379afecc02c3e99c0d1745363ad7a7407 dt-bindings: arm: rockchip: Add FriendlyElec NanoPi R28S
-         fdb087806e808ccc4963e2e5225fe16581ecb421 arm64: dts: rockchip: Split out the common NanoPi RK3528 parts
-         c1e23f3425c49fe22e9598f8eea2fcf693950d50 arm64: dts: rockchip: Add devicetree for the FriendlyElec NanoPi R28S
-         
+  - ref: refs/heads/rust-sync
+    old: 5c95fd8418b9d066eff3477adfa2442124e01061
+    new: 25da26c2d429677c6261db38d9f62185630cb5f7
+    log: revlist-5c95fd8418b9-25da26c2d429.txt
 
---===============4931114424222440585==
+--===============2486052561138416246==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23d8f49fcae5-dbf70310fa4f.txt
+Content-Disposition: attachment; filename=revlist-5c95fd8418b9-25da26c2d429.txt
 
-dd0c1c534957a1e297460edd1428b251e78b4fc5 arm64: dts: rockchip: Add missing audio codec supplies to Pinebook Pro
-7c841000c377a3997e64f45c938dd77bfbd74cc6 arm64: dts: rockchip: Remove broken-cd on Rock 5 ITX SDIO
-c7502a43087748277cf5c55d5a414672e82426c6 arm64: dts: rockchip: Remove cap-mmc-highspeed from SD-only slots
-b86f1ad2e69b3ef2c1bb46f2b585ac8aff44cad2 ARM: dts: rockchip: Remove cap-mmc-highspeed from Omega4 sdmmc0
-afcfb6982a13fb4b3e0045f96c7aa6d64063a034 arm64: dts: rockchip: Add PWM fan to Radxa ROCK 3B
-9f587b25d9db29d180a1e483651dddc80f898db6 arm64: dts: rockchip: Add supplies for es8316 on RockPro64
-55010621f40c5b129fb0972f07e9d8d52aa6a765 dt-bindings: arm: rockchip: Add DFRobot UNIHIKER M10 V1.2
-a2ff7779dd92246bd3e34a2f9600dade3794e6d2 arm64: dts: rockchip: Add DFRobot UNIHIKER M10 V1.2
-bdcf29a379afecc02c3e99c0d1745363ad7a7407 dt-bindings: arm: rockchip: Add FriendlyElec NanoPi R28S
-fdb087806e808ccc4963e2e5225fe16581ecb421 arm64: dts: rockchip: Split out the common NanoPi RK3528 parts
-c1e23f3425c49fe22e9598f8eea2fcf693950d50 arm64: dts: rockchip: Add devicetree for the FriendlyElec NanoPi R28S
-86571120017402a007d5a36a1909a3e156dddb11 Merge branch 'v7.4-armsoc/dts32' into for-next
-dbf70310fa4f5cc3eecaea857a419ab68d5b9a8e Merge branch 'v7.4-armsoc/dts64' into for-next
-
---===============4931114424222440585==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cee9395acd80-72d3fcf802c4.txt
-
-06f5634ec5584954177f9a22e36b3bfb398a971b tracing: Keep the entry count when the histogram stats allocation fails
-3d617bfd79330ae3acf94862c18bb3ccf5f5a0f9 tracing: Let histogram values keep the percent and graph modifiers
-89b000ba0796593aa61f6eec24d369337594588b tracing: Fix typo "availabe" in comment
-0999d3e16d13b6299fd7cc7a7fb2825c18e90dd0 tracing: Fix typo "preceeded" in comment
-6ede78d0563a2a3ae3e46f9c07cedb5d79645429 tracing: Set the trace clock before registering the histogram trigger
-0fe23b8eaba0d3372c66b7b31204408da0715edc tracing: Take the reference before publishing the named histogram trigger
 92383cef66791a0c63a2f27755cadbdb2fbf270b tracing: Undo the registration when enabling the histogram trigger fails
 a5e70ba87ca8ebc79b4e63de302d03b0625fe153 tracing: Fix memory corruption from the histogram stacktrace modifier
 7f711e62355bb3123a2ca2f97a2facbfebc678c6 tracing: Fix memory corruption from a "STACKTRACE" histogram key
@@ -1095,5 +1044,11 @@ b1fa457bddf009907b023bc0c09ba4eca3191a8e Merge tag 'cgroup-for-7.3-rc4-fixes-2' 
 64d34cef2a32331fedabf25ea8fa8a30128af9f7 Merge tag 'i2c-fixes-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 d266640c6c760c9bc215bf5a3ece122ca488b6f5 Merge tag 'driver-core-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e Linux 7.3-rc5
+40023159f229e32f9f7a3ea040082a67f2ff1cb1 irq: Make refcount_interrupt kunit test selectable
+834f3b48736a294c8f8bfce030a0f6c44ab03b5b irq: Add {over,under}flow detection for local_interrupt_{enable,disable}
+83914e0421f296411c5640af3d25f582a7e5bd31 selftests/bpf: Use the new NMI_BITS definition
+eb8178d32f799409175bf3342e43aa298cb4c3b5 irq: Explain better on NMI_MASK overflow condition
+f845f598e42801633593095b668ed1d6e3043e75 irq: Add max local_interrupt_disable() nesting level kunit test case
+25da26c2d429677c6261db38d9f62185630cb5f7 rust: sync: export lock::do_unlocked
 
---===============4931114424222440585==--
+--===============2486052561138416246==--
