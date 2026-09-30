@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1664049991990805560=="
+Content-Type: multipart/mixed; boundary="===============2689479470753107747=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:00:54 -0000
-Message-Id: <179080925433.3755299.16743826731329112990@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:00:57 -0000
+Message-Id: <179080925786.3755454.4843758490854455088@gitolite.kernel.org>
 
---===============1664049991990805560==
+--===============2689479470753107747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfs-for-7.1-2
-    old: 176a76e66448198477febd3f4a7f146e69ed3b6d
-    new: 89630ff2a23e0521927ee9afd1069257470a6e52
-    log: revlist-176a76e66448-89630ff2a23e.txt
+  - ref: refs/heads/kernel-6.12.93/nfs-for-7.2-fixes
+    old: 44e49d545b4c0ebadc408319cb68cf798c362536
+    new: 55a9e7e7894e359ff45953b22e9145ff614e66bd
+    log: revlist-44e49d545b4c-55a9e7e7894e.txt
 
---===============1664049991990805560==
+--===============2689479470753107747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-176a76e66448-89630ff2a23e.txt
+Content-Disposition: attachment; filename=revlist-44e49d545b4c-55a9e7e7894e.txt
 
 1d6b8efd7f90fbf8cb492ee24f244dc7823a5654 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 f9984a688b111bc6a7a7beda3d58ee5f5354fbbb sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -330,5 +330,31 @@ ba79c36aba53772446351ca434d93785430bc703 NFS: fix writeback in presence of error
 96ac1ead74ac72f4a0f5e14f5e5a79814adc64ec NFS: remove redundant __private attribute from nfs_page_class
 5be66b378ba5777fe9bec8d010f95cdf8d56b42c NFS: Fix RCU dereference of cl_xprt in nfs_compare_super_address
 89630ff2a23e0521927ee9afd1069257470a6e52 NFS: write_completion: dereference loop-local req, not hdr->req
+d2889bb31804a82bada021eb6f16d0027001238c sunrpc: Fix error handling in rpc_sysfs_xprt_switch_add_xprt_store()
+4cd5708782c0b1e46cba54a2914904025ca14a01 NFSv4/flexfiles: reject zero filehandle version count
+2257059f2a79508fbe99031077ea1ff3bdbf88c4 pNFS/filelayout: fix cheking if a layout is striped
+67836dfaccbdc7bfdd26c9e0e369c1acda4fd80f NFS: show redacted cert_serial and privkey_serial in mount options
+bfd893f27ce413455d1113c285467ffac96dbbcc NFS: fix eof updates after NFSv4.2 fallocate/zero-range
+7f42e76214e5e12dc53bd3d3b8db62e6ed55176c pNFS: Fix use-after-free in pnfs_update_layout()
+9018b12612110a0ff233d2a78d3905fbf6b95091 nfs: keep PG_UPTODATE clear after read errors in page groups
+4d62dd75cf8cefbdfd15fabae635a6bb3dbe7c94 sunrpc: fix uninitialized xprt_create_args structure
+75abc4ad940646b2da0c99b5a1ed9e4c85933a26 NFSv4/flexfiles: honor FF_FLAGS_NO_IO_THRU_MDS on fatal DS connect errors
+3c9d12d5cf3ca2a666739410bef6f5e7171be438 NFSv4/flexfiles: honor FF_FLAGS_NO_IO_THRU_MDS in pg_get_mirror_count_write
+ad7861fc4e6346866cc452075b9d6551be0bef43 NFSv4.1/pNFS: fix LAYOUTCOMMIT retry loop on OLD_STATEID
+22a51c5afcbc2511ac9c0eeea6ba2815363a7d21 nfs: use nfsi->rwsem to protect traversal of the file lock list
+339ec2f53fc7cf98113e2b78446b239bfb31af7c NFS: correct CONFIG_NFS_V4 macro name in #endif comment
+4488854a467bdbec691268dc6d293b2b638b6d19 xprtrdma: Fix ep kref imbalance on ADDR_CHANGE
+c78abaf23c4e31b203b6739a76122b133b44e706 xprtrdma: Initialize re_id before removal registration
+c2164f97accf5229d3d18404e95893297cc11eb7 xprtrdma: Check frwr_wp_create() during connect
+9e1a60c182e7b0ab3f170099ad3bef109c3df36d xprtrdma: Fix bcall rep leak and unbounded peek
+7a717399239cfc8522c975b70cbe4464940b5955 xprtrdma: Sanitize the reply credit grant after parsing
+3bac1edfa39ea9469f90b83be883df9782d33a8f xprtrdma: Repost Receive buffers for malformed replies
+c6406db92f45106d14053258ce054bc6ba6a4bd6 NFSv4/pNFS: reject zero-length r_addr in nfs4_decode_mp_ds_addr
+12ea55f228371fdcd6a05104f0904e6f9548e9e7 NFS: Prevent resource leak in nfs_alloc_server()
+12a11f5309a627c89775d31a39df8df7aa9948bb NFS: Use common error handling code in nfs_alloc_server()
+3c3bec302e4de7de199ec48640d90b1f3a7c1180 SUNRPC: release lower rpc_clnt if killed waiting for XPRT_LOCKED
+c7e44ed8c582a1df6fb47ad75dd39fac054d8bab SUNRPC: pin upper rpc_clnt across the TLS connect_worker
+2e78b89f0949a5b4862e50dd73ab5c2f9dad8f96 NFSv4: include MAY_WRITE in open permission mask for O_TRUNC
+55a9e7e7894e359ff45953b22e9145ff614e66bd NFS: Charge unstable writes by request size, not folio size
 
---===============1664049991990805560==--
+--===============2689479470753107747==--
