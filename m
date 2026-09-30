@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3852674218979303852=="
+Content-Type: multipart/mixed; boundary="===============3141722841763003695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Wed, 30 Sep 2026 14:14:01 -0000
-Message-Id: <179077764125.3353250.12181620309699927572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Wed, 30 Sep 2026 14:14:18 -0000
+Message-Id: <179077765862.3353623.6350578558223992640@gitolite.kernel.org>
 
---===============3852674218979303852==
+--===============3141722841763003695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 551c722f40809618230001baccf219193e22fc5a
     log: revlist-6f8319e3e9a4-551c722f4080.txt
 
---===============3852674218979303852==
+--===============3141722841763003695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ b004c4b1c4180fc7f2326de4ac941d5edfe16076 Merge tag 'arc-fixes-7.3' of git://git.
 a243ede718463c7b481878656f1ff32a0ce0fd54 Merge tag 'mtd/fixes-for-7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 551c722f40809618230001baccf219193e22fc5a Merge tag 'rtc-7.3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 
---===============3852674218979303852==--
+--===============3141722841763003695==--
