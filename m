@@ -1,45 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============2808637105110370072=="
+Content-Type: multipart/mixed; boundary="===============2316766659613062475=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-Date: Wed, 30 Sep 2026 07:45:49 -0000
-Message-Id: <179075434903.3062138.12784236803133182052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
+Date: Wed, 30 Sep 2026 07:56:22 -0000
+Message-Id: <179075498262.3069506.4556762088001800614@gitolite.kernel.org>
 
---===============2808637105110370072==
+--===============2316766659613062475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
-user: mkorenbl
+repo: pub/scm/linux/kernel/git/mm/linux
+user: david
 changes:
-  - ref: refs/heads/next
-    old: 8fc055e58ab52f7151fe6810e7202b40d044608c
-    new: f0daaf0755f3a2599fece92bd01e74f3a91887c1
-    log: revlist-8fc055e58ab5-f0daaf0755f3.txt
+  - ref: refs/heads/master
+    old: 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e
+    new: 551c722f40809618230001baccf219193e22fc5a
+    log: revlist-72d3fcf802c4-551c722f4080.txt
 
---===============2808637105110370072==
+--===============2316766659613062475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8fc055e58ab5-f0daaf0755f3.txt
+Content-Disposition: attachment; filename=revlist-72d3fcf802c4-551c722f4080.txt
 
-0c1afc61a227649fd3a9b78b7db0fb9b1c473cd2 wifi: iwlwifi: pcie: drop gen1_2 prefix from several functions
-870957bb2d1c797f8b53e9c62fc42c1f63e0a28d wifi: iwlwifi: Revert "wifi: iwlwifi: gen1_2: move gen specific code to a function"
-3c8c62c364f021bc561fb2b75fd9b901c8895e26 wifi: iwlwifi: Revert "wifi: iwlwifi: pcie: move generation specific files to a folder"
-4eca64fefdd55c09508744771146a8a8b08acc92 wifi: iwlwifi: send standalone SAR to firmware
-183765e0f9b54b31795098f5c502f03245a1e72b wifi: iwlwifi: uefi: Fix SAR enable check to use mode parameter correctly
-ed7f362931168b6d4935f7e7f2b6cca219ab09fa wifi: iwlwifi: fw: harden UEFI reduced-power TLV parsing
-9fa50d56ca8cd16e4cf68f3f3fd1a42cef428586 wifi: iwlwifi: fw: add Samsung to TAS and PPAG allow lists
-63a44aabe6af70ca715fa8acad9d67f9c62f5202 wifi: iwlwifi: pcie: order RX reads after the write pointer
-0d07bd9927387ce72eab050f92cefde8c1ab5047 wifi: iwlwifi: pcie: remove iwl_dbgfs_fh_reg_read
-a0e936595606d81473805de522f19cb700aea81e wifi: iwlwifi: open code iwl_trans_sync_nmi_with_addr()
-d8f1710c1b407499e282114eba1cc062fe724f06 wifi: iwlwifi: move iwl_force_nmi() to where it belongs
-b974365116569fbedbd1fa45294c68e5702eaa74 wifi: iwlwifi: add support for the new MPDU descriptor
-1d56fa8bdac944a6e352f6d47e79ad93b4387503 wifi: iwlwifi: support RX BAID modify command version 3
-629d26049b3fd6cd4c58e0508337baae638921df wifi: iwlwifi: drop the orphaned nic_access annotations
-f0daaf0755f3a2599fece92bd01e74f3a91887c1 wifi: iwlwifi: disable HE ER mode
+b5965c4221165045e19736794ca5f48ae3d67142 mtd: block2mtd: Fix divide error when erase_size is zero
+63d6cace2c4a7f36c1cb44f1bb5e0f3ef19e5c7f mtd: spinand: Enable QE on all dies
+26300879cd8e4612dce66bb8f6ff7cd35fcf3e59 mtd: core: avoid double-free of OTP NVMEM device
+12b31d1acd20b3185bb5f0748db0cf6874c8e9d1 mtd: core: call _get_device() with the master MTD
+39b975ff208610301bc400460ec245caeffa4ee0 mtd: cfi_cmdset_0001: shrink do_write_buffer() stack frame
+200c32e3cd53132fbf99f1e2a5751f556755cf6d mtd: mtd_intel_dg: reset poll counter for each erase
+b890e6163761ddb580cc74f43e15f8bbde15647e mtd: spinand: fix NULL pointer dereference with no ECC engine
+636fe10d8f3559210ff63108a208d39ea2e9c3bd mtd: spinand: fix zero oobavail when no ECC engine is used
+37adc9c5789c76db3b1ee7aeec3999b8503020d0 mtd: rawnand: vf610_nfc: fix reads on chips with more than 64 bytes of OOB
+68fe2faf5c69d0e21f94cd695d28f0ba677d484f mtd: rawnand: vf610_nfc: fix false bitflips on reads of erased pages
+21f027016b1290d13c30b198ae7a00e6b3d1d5a5 mtd: rawnand: cadence: Initialize IRQ state before requesting IRQ
+86ad6489e38c76c06c0b4a4229391a794023b5e0 ARC: cleanup dead ARC_CANT_LLSC option in Kconfig
+04eb7b5e043fbccf83d27a9be5c3973c2dbb110f arc: remove unused profile.h includes
+d12c6a6f0c8fd5b5b41120f7be319f743dae3b4f arc: kernel: Fix clk reference leak in show_cpuinfo()
+44b8a0bf5f96e8393312fc34b956766882341f16 mtd: spi-nor: core: Fix mutex leak in spi_nor_rww_start_exclusive()
+0ee5c5d804d592a8328a425b9274487d393d3a05 rtc: dev: zero-initialize struct rtc_wkalrm to prevent information leak
+b430d1f6d80c005b486f028910e1ac3c91812710 rtc: efi: restore alarm support with runtime capability probe
+6a4117eee82dd85f11bf898bf66026764011eeb6 rtc: ac100: Assign .num before accessing .hws
+fcf0b58e976e83adf246b014518e49c662b96f5e rtc: ac100: Fix clock provider use-after-free on probe failure
+ac41b05d15db3134e839148290d67415ee0bdb58 rtc: mpfs: fix unchecked devm_clk_get() error pointer in probe()
+055ef5ce9f67a6a3a1363fa663007f8196cc0fb8 rtc: spear: initialize IRQ state before requesting alarm IRQ
+f050c3e61d2a1aaece3170d459e4ce5fa2486c12 ARC: arch_cmpxchg_relaxed to use size of pointed type not pointer
+1c1a342aceec79528b3ba51f376eca2be5928fe7 mtd: spinand: Do not update the QE bit on devices without one
+c79cf15eb35a4c703bf18f8c33c47e80dd660f8e module: fix lost error code from codetag_load_module()
+72c3d682c165b836b54a3d07a01f72e39c47022c mm: shmem: ignore sysfs configs for shmem forced collapse
+347c6ed8cf7768883252e106994de62c7947f0a0 alloc_tag: avoid implicit padding in uapi
+52ae167ce16609c7e6fffef588b3c2c26de2db19 mm/damon/core: don't skip damos_adjust_quota() while esz is not zero
+22ab0647764c38924669673634ae333578d77768 kasan: unpoison task stack below watermark only in generic mode
+711d886fe76e28854814759f51ee175e279ef8c7 MAINTAINERS: split up MEMORY MANAGEMENT - MEMORY POLICY AND MIGRATION
+4050a73a90f456887dc35d5bbfa4f4790eb5c2cf MAINTAINERS: move memory tiering under MEMORY MANAGEMENT - NUMA PLACEMENT
+b3f0c1a4e41f356c3126a676ad55c0f6881e7514 MAINTAINERS: make Gregory a co-maintainer of MEMORY MANAGEMENT - NUMA PLACEMENT
+6cc8f549f6888e36036ab14d84a8ec46b4a393c0 MAINTAINERS: add Heming Zhao as ocfs2 reviewer
+976d5e0ddac885b0219252f004f6c561c344df9d mm/vma: predicate setting mmap_prepare VMA fields on new vma alloc
+6f8319e3e9a44dd537d17f41565a8453c560a581 Merge tag 'mm-hotfixes-stable-2026-09-27-19-12' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+b004c4b1c4180fc7f2326de4ac941d5edfe16076 Merge tag 'arc-fixes-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
+a243ede718463c7b481878656f1ff32a0ce0fd54 Merge tag 'mtd/fixes-for-7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
+551c722f40809618230001baccf219193e22fc5a Merge tag 'rtc-7.3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 
---===============2808637105110370072==--
+--===============2316766659613062475==--
