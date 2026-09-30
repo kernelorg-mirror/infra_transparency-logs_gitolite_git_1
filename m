@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4229824086516859791=="
+Content-Type: multipart/mixed; boundary="===============3585757890238307563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 30 Sep 2026 07:33:09 -0000
-Message-Id: <179075358945.3051491.12173701112403831789@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 07:33:35 -0000
+Message-Id: <179075361515.3051908.11519258934636041681@gitolite.kernel.org>
 
---===============4229824086516859791==
+--===============3585757890238307563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,50 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: d6291d47c4895a58104e3f2bbcb39a24d0ff5a64
-    new: 3f2d79f7a2dfef07766daa1afe810257241774c5
-    log: revlist-d6291d47c489-3f2d79f7a2df.txt
+    old: 3f2d79f7a2dfef07766daa1afe810257241774c5
+    new: 1aeb52f7869a680c042fc9ae806281e8f60469f7
+    log: revlist-3f2d79f7a2df-1aeb52f7869a.txt
+  - ref: refs/heads/tip/urgent
+    old: b79506676c2f0d490bf493b5377e532f912880eb
+    new: 3ebb3531c6d0d533fddc65fa3bed174291d71956
+    log: revlist-b79506676c2f-3ebb3531c6d0.txt
 
---===============4229824086516859791==
+--===============3585757890238307563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d6291d47c489-3f2d79f7a2df.txt
+Content-Disposition: attachment; filename=revlist-3f2d79f7a2df-1aeb52f7869a.txt
+
+ae382f7e7587c9ca4246e83ff1572a639c10f462 Merge branch into tip/master: 'timers/urgent'
+d2cfd545289e643118560e58e308134895ae4906 Merge branch into tip/master: 'x86/urgent'
+3ebb3531c6d0d533fddc65fa3bed174291d71956 Merge branch into tip/master: 'x86/mm'
+0d0dbe33f66ea3c2d8d3e5b5c81d7c5dfccbac7b Merge branch into tip/master: 'perf/merge'
+edc815d407ac790669c4934eacf30b21e06e98b7 Merge branch into tip/master: 'irq/core'
+c26dcf01fbd93bb9c4669e2276fd80cadab8972f Merge branch into tip/master: 'irq/drivers'
+1d2df4033bdd991f944f1ad660f62d9b92d3f60c Merge branch into tip/master: 'objtool/core'
+e6fa156b797041b0ae602f2fc9d570b551eb6b7f Merge branch into tip/master: 'sched/core'
+39c9d90a4ab3c66c04b78b8deaa84d6cc82b5bbf Merge branch into tip/master: 'timers/core'
+cfb1a4d3eff43b4ba4433c8efe05a195f89b5af8 Merge branch into tip/master: 'timers/nohz'
+7fef30eaf50a70faf9bfad8c4af97f9cdfeca17c Merge branch into tip/master: 'timers/vdso'
+c7a11be94641fded1f2366c09eb5b751ccacd75b Merge branch into tip/master: 'x86/asm'
+696bde80e4348002bebe493d690f43fc7c135473 Merge branch into tip/master: 'x86/boot'
+3bdf0aa1c71680a9f8611f73dd13335737555d3c Merge branch into tip/master: 'x86/bugs'
+b37e66128de3a3090aca0faa17bcb41b04b346b0 Merge branch into tip/master: 'x86/cache'
+6c62009e23049c4655cfb04d7de99d041bda21bf Merge branch into tip/master: 'x86/cleanups'
+a36381ab3e354f9817e29ecd452f2411738572d8 Merge branch into tip/master: 'x86/cpu'
+9480a3b481b9861bcf2d83cdad794abd23eee507 Merge branch into tip/master: 'x86/kdump'
+2999c93fe695a0b24886e5418ca44556e5ff3311 Merge branch into tip/master: 'x86/microcode'
+7b4dc5266914f94243431256f7c22ef30c930567 Merge branch into tip/master: 'x86/misc'
+ebd4d4b5eb088248a86fb38037de20d92c4e0ec1 Merge branch into tip/master: 'x86/platform'
+ada3e71e6b53aa49e1186fdb5789b9aca6912315 Merge branch into tip/master: 'x86/sev'
+4fc213d7612a00dcdfb13647be435dbcc729212d Merge branch into tip/master: 'x86/sgx'
+1aeb52f7869a680c042fc9ae806281e8f60469f7 Merge branch into tip/master: 'x86/tdx'
+
+--===============3585757890238307563==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b79506676c2f-3ebb3531c6d0.txt
 
 b5965c4221165045e19736794ca5f48ae3d67142 mtd: block2mtd: Fix divide error when erase_size is zero
 63d6cace2c4a7f36c1cb44f1bb5e0f3ef19e5c7f mtd: spinand: Enable QE on all dies
@@ -61,43 +96,11 @@ b3f0c1a4e41f356c3126a676ad55c0f6881e7514 MAINTAINERS: make Gregory a co-maintain
 976d5e0ddac885b0219252f004f6c561c344df9d mm/vma: predicate setting mmap_prepare VMA fields on new vma alloc
 6f8319e3e9a44dd537d17f41565a8453c560a581 Merge tag 'mm-hotfixes-stable-2026-09-27-19-12' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 b004c4b1c4180fc7f2326de4ac941d5edfe16076 Merge tag 'arc-fixes-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
-75990fb534e858ac61ae7651c4695e0905a04443 tick/nohz: Remove redundant local_irq_save()/restore()
-d305927765cf6025bc11db9d96c06ea663230ddd tick/nohz: Avoid unused timekeeping_max_deferment() calls
-d166a1cd901615280be050929e5a5c9e4d300a62 hrtimer: Mark data-racy accesses to hrtimer_sleeper ->task field
-cefc1a24ace53c9b26f5adee1f60a439cc0d53a4 aio: Use accessor for hrtimer_sleeper ->task field
-66b29025b6761d9e0a8bd4d1b813b1f2c3c1a28e wait: Use accessor for hrtimer_sleeper ->task field
-851c30277918e1f1aad12394235d87c00afec464 io-uring/rw: Use accessor for hrtimer_sleeper ->task field
-fa3d486086d6948a6cf09b6d94cb1f56df2b1a6b futex: Use accessor for hrtimer_sleeper ->task field in waitwake.c
-9b7bcd671e9c979f16c48589f4b9b6c684ab052f timers: Use accessor for hrtimer_sleeper ->task field in sleep_timeout.c
-3990d196954a06cf9fb1bb4efd142d57c30a8e21 net: pktgen: Use accessor for hrtimer_sleeper ->task field
-9cd2f4e304d921459a9348323aff518aee7fdc06 rtmutex: Use accessor for hrtimer_sleeper ->task field
-7eed1771a6e84101c7cdf8b7d487f01b6420ba8c futex: Use accessor for hrtimer_sleeper ->task field in requeue
-15f84398330ce1c0aa3e1e3edd0c915324bed26b hrtimer: Update hrtimer_resolution only if value changes
-ad80926d780340ab08799cdb38be010e0dce8ec0 hrtimer: Mark the hrtimer_sleeper structure's ->task field __private
-5dffe33bfdafcc768d090c55479f515585509ffa hrtimer: Apply READ_ONCE() to lockless base->running loads
-1159ad0a6aaa414dc726a33ccdcb702752d1b8eb timers: Mark racy updates to hlist_node::pprev field
-bb41ece16463b76b4d73fc47e6648fd823236765 timers/migration: Mark racy updates to tmigr_event::ignore field
-bc5b66c300b87544e6861b8dff8c45958603cba5 timekeeping: Use READ_ONCE/WRITE_ONCE() for ktime_sec to prevent tearing
-2927f7ca78448781e11a4623d347cd653c28adf6 time: Prevent time64_to_tm() day truncation on 32-bit
-3945c4a3ea151f777b4b098ebeecd2f85c20244f time/kunit: Add time64_to_tm() case beyond 32-bit day count
-37db375ad90467d7e3ce4e450b3d1c4f297d4ed3 vdso/math64: Use OPTIMIZER_HIDE_VAR() in __iter_div_u64_rem()
-5c82c995b63748cfa5026f4ca813eee754263f62 vdso/math64: Add and use __iter_div64_u64_rem()
-4e6aa9d672875aaa20cfb64ffb6fcd79e5165522 vdso/vsyscall: Keep the CLOCK_AUX base scaled
-ca46a07c4b68246c4e400ce3649ab7228a878d8f vdso/gettimeofday: Assert that the clockid fits into the u32 bitmask
-a252cb93e1568d9f0754b9b2ac4829d896daa14e selftests: timers: Count what tick is worth in the drift estimate
-b03638013add0609d35aaa8291548dea92cb9484 selftests: timers: Measure the CPU timers on the clock they count
-348f54c435bf3177baa78201952810b255d44b30 selftests/timers: clocksource-switch: Fix unchecked open()/read()
 a243ede718463c7b481878656f1ff32a0ce0fd54 Merge tag 'mtd/fixes-for-7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 28fa9af353bed2bb738c46e31f9b7d0347b759d1 hrtimer: Use the mask to clear TIF_HRTIMER_REARM from the exit work
 551c722f40809618230001baccf219193e22fc5a Merge tag 'rtc-7.3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
-edb2b6d8ea88659679787231253e1acefca63f28 x86/platform/olpc: Use named initializers for acpi_device_id
-2c6a75adb15f8fbeb7a8cc6b1f35beb21db20762 x86/um: Remove unused <asm/required-features.h> header
-decee821b42d6eee87515a9503c215e78d6c07e8 Merge branch 'linus'
-30742c61b4592570077c59e0328b8d34df19547d Merge branch into tip/master: 'timers/urgent'
-22f49eb607641f3d69587c785f4b6ecd44e50b88 Merge branch into tip/master: 'timers/core'
-58c4bc2022c130ef37db47f934604a8ac3149a6a Merge branch into tip/master: 'timers/nohz'
-ea661b66e9462905b11f6861c0a1442acdab9f3f Merge branch into tip/master: 'timers/vdso'
-46797dee83f7788aa84ac62704a24c404fc5925f Merge branch into tip/master: 'x86/cleanups'
-3f2d79f7a2dfef07766daa1afe810257241774c5 Merge branch into tip/master: 'x86/platform'
+ae382f7e7587c9ca4246e83ff1572a639c10f462 Merge branch into tip/master: 'timers/urgent'
+d2cfd545289e643118560e58e308134895ae4906 Merge branch into tip/master: 'x86/urgent'
+3ebb3531c6d0d533fddc65fa3bed174291d71956 Merge branch into tip/master: 'x86/mm'
 
---===============4229824086516859791==--
+--===============3585757890238307563==--
