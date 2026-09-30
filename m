@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1099879772810621701=="
+Content-Type: multipart/mixed; boundary="===============1664049991990805560=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:00:51 -0000
-Message-Id: <179080925154.3755122.3066059376167954980@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:00:54 -0000
+Message-Id: <179080925433.3755299.16743826731329112990@gitolite.kernel.org>
 
---===============1099879772810621701==
+--===============1664049991990805560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfs-for-7.1-1
-    old: a24932222a7a7b49f819d38aee13dea7754821dc
-    new: 5be66b378ba5777fe9bec8d010f95cdf8d56b42c
-    log: revlist-a24932222a7a-5be66b378ba5.txt
+  - ref: refs/heads/kernel-6.12.93/nfs-for-7.1-2
+    old: 176a76e66448198477febd3f4a7f146e69ed3b6d
+    new: 89630ff2a23e0521927ee9afd1069257470a6e52
+    log: revlist-176a76e66448-89630ff2a23e.txt
 
---===============1099879772810621701==
+--===============1664049991990805560==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a24932222a7a-5be66b378ba5.txt
+Content-Disposition: attachment; filename=revlist-176a76e66448-89630ff2a23e.txt
 
 1d6b8efd7f90fbf8cb492ee24f244dc7823a5654 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 f9984a688b111bc6a7a7beda3d58ee5f5354fbbb sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -329,5 +329,6 @@ ba79c36aba53772446351ca434d93785430bc703 NFS: fix writeback in presence of error
 7f6d200a54f414d243b753491854051cac48adad NFSv4.2: fix CLONE/COPY attrs in presence of delegated attributes
 96ac1ead74ac72f4a0f5e14f5e5a79814adc64ec NFS: remove redundant __private attribute from nfs_page_class
 5be66b378ba5777fe9bec8d010f95cdf8d56b42c NFS: Fix RCU dereference of cl_xprt in nfs_compare_super_address
+89630ff2a23e0521927ee9afd1069257470a6e52 NFS: write_completion: dereference loop-local req, not hdr->req
 
---===============1099879772810621701==--
+--===============1664049991990805560==--
