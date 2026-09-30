@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 30 Sep 2026 01:30:48 -0000
-Message-Id: <179073184800.2796029.13587113325084435885@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 01:45:47 -0000
+Message-Id: <179073274708.2806309.7489751812698032077@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,11 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 549f5f48f10ef5affc48aebed52c686338fdb899
-    new: 91abd4483880ba78f67042099f0a6d1b26c23973
+    old: 91abd4483880ba78f67042099f0a6d1b26c23973
+    new: 0737138c551e5adeef911579d5860ee5b70a1d3a
     log: |
-         fee9c17671b6fc008398ad389434eeb134e028fe net: stmmac: sun8i: reset the MAC after PHY initialization
-         1cf9c2ac57fdb89f93976bd698c93a8fa2129e03 dt-bindings: net: allwinner: add H616 EMAC1
-         61240e48a67de166ddf29a93e0bdf603be04e0c8 net: stmmac: sun8i: add support for Allwinner H616 EMAC1
-         91abd4483880ba78f67042099f0a6d1b26c23973 Merge branch 'net-stmmac-add-allwinner-h616-emac1-support'
+         efd90b64ce25697da8131708bd30b90b5758d22f net: macb: never give hardware a NULL RX buffer
+         9ea465c4fbaf4c77bd86a0e91e610a713592a1c8 net: macb: propagate RX ring refill errors
+         4fcaed2cb1d8fc66b93920cef25da242d5051867 net: macb: quiesce IRQs and drain BH on interface close
+         0737138c551e5adeef911579d5860ee5b70a1d3a Merge branch 'net-macb-fix-close-races-and-rx-refill-error-handling'
          
