@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Wed, 30 Sep 2026 19:49:34 -0000
-Message-Id: <179079777485.3611794.13203058223289248639@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
+Date: Wed, 30 Sep 2026 19:51:49 -0000
+Message-Id: <179079790934.3614636.13299625571881610731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
-user: pcmoore
+repo: pub/scm/linux/kernel/git/superm1/linux
+user: superm1
 changes:
-  - ref: refs/heads/next
-    old: f2b37cf384b0111b975239f4dc75930368023058
-    new: 7425bfb7df782cef691da7cdc974737cab560f25
+  - ref: refs/heads/bleeding-edge
+    old: 8f83f0474eb9744dc675a9af46c17ef2d03fea76
+    new: f0c0bc81d0e86b9a5ad61da576a91355c2976028
     log: |
-         28b7260548af3d35773477993ad4e4de41578dd7 selinux: preserve NATIVE_LABELS on already-initialized sb in set_mnt_opts
-         7425bfb7df782cef691da7cdc974737cab560f25 Automated merge of 'dev' into 'next'
+         d2016678ceee0c6636391a1818f38068f65ade69 ACPI: CPPC: Refactor boost ratio handling
+         001ee4a7ccbf2208789f726417c5ad3be5f15791 cpufreq/acpi-cpufreq: Use amd_get_boost_ratio()
+         f0c0bc81d0e86b9a5ad61da576a91355c2976028 cpufreq/amd-pstate: Get Highest Freq for a CPU
          
