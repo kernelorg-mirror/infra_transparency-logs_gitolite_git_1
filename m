@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5543762107580910668=="
+Content-Type: multipart/mixed; boundary="===============2882434797775856397=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 30 Sep 2026 08:54:20 -0000
-Message-Id: <179075846015.3111507.16431898680981791512@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 08:54:22 -0000
+Message-Id: <179075846230.3111691.7445560417924498200@gitolite.kernel.org>
 
---===============5543762107580910668==
+--===============2882434797775856397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,48 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 2ddb90ee544ae97215afc4698dc223293997cc43
-    new: 36487c3ed2f46edcc7761d96b7c3674cd6bd2bb0
-    log: revlist-2ddb90ee544a-36487c3ed2f4.txt
+  - ref: refs/heads/mm-unstable
+    old: 90ddfbd1963659ca4a5d3d7f20717a4222682a8e
+    new: c5d06644a7525baec96f05918c413dfbabcde297
+    log: revlist-90ddfbd19636-c5d06644a752.txt
 
---===============5543762107580910668==
+--===============2882434797775856397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ddb90ee544a-36487c3ed2f4.txt
+Content-Disposition: attachment; filename=revlist-90ddfbd19636-c5d06644a752.txt
 
+1e3b08de63274d0b009e99ef51cd6a9c0c6bf08c Revert "drm/virtio: Allow importing prime buffers when 3D is enabled"
+846b3c64fe3e77d9db20a7e3e62dbbb637c773e1 drm/virtio: fix NULL pointer dereference on fence allocation failure
+6947b78df4d25bd1e86b26870b614ea54c625b1e drm/virtio: Add pixel blend mode property to cursor plane
+598c1c3e895590f845e04455d5580ea28ffde666 drm/virtio: sync shmem backing on guest-bound transfers
+ae2c5bf969573708cd5b6bb6393631255d83c3fe pinctrl: tegra238: Fix register bank for AON pin groups
+0b9828c7231e2e46b25d286da555510a79c0d6fa Merge tag 'v7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux into gpio/for-current
+ada667890773e033d2f40dc94176e3beb930b516 drm/bridge: samsung-dsim: fix TE GPIO lifetime for host attach
+7a6d08ee0f0e30023d18779bb314db8fd9a3b6d4 ovpn: preserve IPv6 scope id for netlink peer endpoints
+77393b4d72dfeb764b2af2b848acc659f6fcfd0a ovpn: skip UDP source validation for unspecified addresses
+7c66b7a4ae80a9309e6dc1d24b7b6b897e6348eb ovpn: track UDP socket route key for peer dst cache
+fa603710bdb9aea33c0d9cc2c05ed24d84f58753 ovpn: validate peer state before caching UDP dst
+aea934a221ec6a867221e5b765f65f1857befd53 ovpn: replace bind when learning local endpoint
+7d8104988f423572df1f3347ce578037b1043f34 ovpn: replace bind when clearing stale local source
+b43beccb3713fafada57814b0a652f4a876eb75f ovpn: always unhash old VPN addresses before rehashing
+d25e885b31a0f2808d936f95c9a558a8a792669b ovpn: reject duplicate peer VPN addresses
+025af3a0a892514f9f27f186338ba3d44365547a ovpn: reject multipeer peers without VPN addresses
+5940f3407b78062442cb01f541ef6eed709fc380 ovpn: reject invalid peer VPN addresses
+006208026819d5e9e5ec07b3e73d95960a059327 selftests: ovpn: validate peer VPN addresses
+ec2ee09cb943a075c9b947a59ff7db0e3af66e75 Merge tag 'kvmarm-fixes-7.3-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+072b2abae978b57291d1db31a7f75e8db5f9ff85 Merge tag 'kvm-riscv-fixes-7.3-1' of https://github.com/kvm-riscv/linux into HEAD
+e6bae5034ef4a61f3f062b18140d4f58c8b9a149 ata: libata-core: Extend Samsung LPM quirk to AMD controllers
+88a0474d92ba102fff860db3cae9da87a0964fbf ata: libata: Correct libata.force parameter documentation
+ea4debcd8016f73c5dee3a29250a3d7977f015ef drm/xe/gt_throttle: Report power brake as a throttle reason on CRI
+c7a925c84704ec431598f9411dd89c0e16ae34ae drm/xe/tlb_inval: Treat wedged-device invalidations as complete
+be1df8badae513e01d9575398438716cfae18655 drm/xe: Keep walking on SVM eviction failure
+24a22fb3c731474b68e986af6804db450fb88617 drm/xe/vm: nuke PTs only after unlinking contested VMAs
+f0ca020cbb9bb7f3f4ea8ba1dfcf30a282aec91e Bluetooth: bnep: fix out-of-bounds reads on short RX/TX frames and control fallthrough
+37a11129345337efd6eef8e62b03b6348cd0dd8b Bluetooth: btintel_pcie: validate device-supplied DMA indices
+46f8ffd0a1f1eb6cbc94946a92c11ef601e228a1 Bluetooth: RFCOMM: fix NULL dereference of dlc->session in RFCOMM_CONNINFO
+6d91041bb38b97e2feb625123cc0529d7b83a0e1 Bluetooth: RFCOMM: Reject short EA=0 frames in rfcomm_recv_frame()
+94b7e3a7e871ae27d4935c76959dfc61829f27f9 parisc: Increase kernel stack size to 32kb
 79a9172f3ab4ad8392c5e5c8944b9b7710ade620 bpf: Reject non-negative offsets in stack_slot_obj_get_spi()
 8244668cbbffc8e242b2c5204a2dea20bfca096c selftests/bpf: Reject iterator destruction through fp+0
 0b6e06f9501aacaa3aa555de510eef81371ded95 Merge branch 'bpf-reject-non-negative-stack-object-offsets'
@@ -1019,36 +1050,5 @@ fda64418aefe46cc9764168d0a2af62a7d2f42a0 usb: cdns3: don't use GFP_DMA when call
 613be618f31786b6ded4636cb80203148a38d15b media: nxp: imx8-isi: don't use GFP_DMA when calling dma_alloc_coherent()
 18f2a0d784955a1ea2edeba40ecfedd90d5cf4e1 mtd: rawnand: gpmi: don't use GFP_DMA when calling dma_alloc_coherent()
 c5d06644a7525baec96f05918c413dfbabcde297 usb: cdns2: don't use GFP_DMA when calling dma_alloc_coherent()
-5e95baa628c2d7cb08a06cd04ddd1bf81974990b mm/memory: remove unused vmf_insert_mixed_mkwrite()
-4510377e0db321b407fb98b383d5e973492c8903 mm/damon/core: introduce damos_quota_goal->complement
-faeced4fb20704b6f94ec09e5efa1ef61fbfe139 mm-damon-core-introduce-damos_quota_goal-complement-fix
-187646e6179ecd83fde81c5b49a7be30a33765e6 mm/damon/core: add complement argument to damos_new_quota_goal()
-e841d0f7c9169ddc0ca5d61af03d78a3fbc7e3b6 mm/damon/sysfs-schemes: support quota goal complement flag
-50ba082aab48dfae82f40fca9690c755b458aa15 mm/damon/tests/core-kunit: test quota_goal->complement commit
-6ae26f5344c363880a44e81c83e85914df8a5823 selftests/damon/sysfs.sh: test quota goal complement flag file
-f81638d54b2b847f5ec12e93d2098dcfdb805908 Docs/mm/damon/design: document damos quota goal complement flag
-2f875b8c38a0aaa066e67d0663b17d29486d5302 Docs/admin-guide/mm/damon/usage: update for quota goal complement file
-805bb123b99472cde6e86826726f26f218bf3ba7 Docs/ABI/damon: update for quota goal metric complement sysfs file
-a95bfa41aed3b082c126541ce866aba68f72201b zram: fix short reads from block_state
-ff1f39c120a57d35d140ebfc904164b8687f8e02 mm/sparse-vmemmap: drop VMEMMAP_POPULATE_DAX
-60600551e649f33d63f6bd40b516d8829fea6e20 mm/sparse-vmemmap: support device DAX in common vmemmap path
-26b5441ecdfcbb74c4a22ca026ca72fefc32eeb1 mm/sparse-vmemmap: drop Device DAX-specific population path
-7edc16049132e75bf3a92cbc3081a58c876ba557 mm/sparse-vmemmap: remove the unused ptpfn argument
-733f6962d9b6a6396bc8356192e0a1fa7114fc91 mm/sparse-vmemmap: open-code vmemmap_populate_address()
-1add79552d36835d01eae9a2f83cbd6e931cfd00 mm/mm_init: add zone mismatch warning during page init
-34b292a730f47d275299a29a00e68916a16e1e2b selftests/mm: fix soft-dirty kselftest supported check
-1b5e4da9a6de11217a25fcc23e09e507d923ecd7 riscv: mm: fix concurrency in mark_new_valid_map()
-ec1bfa7b1ef082c6958765e78e3200e6c5e93114 riscv: mm: exclude invalid THP PMDs from page table check
-2756f113840a3c57270d1b3dc134b09c996891a9 sh: remove CONFIG_NUMA and related configuration options
-9ff43a5904839da6ff80293a1533c1bd7dbe165c sh: mm: remove numa.c
-94b6d68c6df890aa38e76d7a133c024590125522 sh: mm: drop allocate_pgdat()
-5f9fe3e7e2566f4731583a4da47e87616cb82034 sh: remove setup_bootmem_node() and plat_mem_setup()
-33177fa34da70b4be5bdb593a13f0c30dcfbdcde sh: drop dead code guarded by #ifdef CONFIG_NUMA
-fd16701088a6dc45c7fac1a2578a5ca0642540d3 sh: drop include/asm/mmzone.h
-481b6ce0c648d25d95bfe2d387d60990b7b92ac7 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-12938bbc40779e6afccf3ba5b930fee4ee550c28 sh: init: remove call the memblock_set_node()
-573021ca05644825b4a6375f31188fe60d6d7693 sh: remove SPARSEMEM related entries from Kconfig
-ccb6008fb580040448f14569deb8abcf8d9135b8 sh: drop include/asm/sparsemem.h
-36487c3ed2f46edcc7761d96b7c3674cd6bd2bb0 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============5543762107580910668==--
+--===============2882434797775856397==--
