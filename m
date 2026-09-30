@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6899642579192697416=="
+Content-Type: multipart/mixed; boundary="===============8260239438024882400=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 30 Sep 2026 21:33:20 -0000
-Message-Id: <179080400015.3690666.16384689247008938404@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 21:33:48 -0000
+Message-Id: <179080402802.3691040.6217298730606515938@gitolite.kernel.org>
 
---===============6899642579192697416==
+--===============8260239438024882400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,124 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/for-next
-    old: 55d05b596923df9445a9f6179b8807d6d4c5a50d
-    new: 8147b3ee1381211a34df80119596791b964d1c54
-    log: revlist-55d05b596923-8147b3ee1381.txt
+  - ref: refs/heads/next-fixes
+    old: 50a31f73ef35e06375895ba37814acc3bd9479db
+    new: a3dde27c5da2dce0b7d120342cafa19bf59f42f8
+    log: revlist-50a31f73ef35-a3dde27c5da2.txt
 
---===============6899642579192697416==
+--===============8260239438024882400==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55d05b596923-8147b3ee1381.txt
+Content-Disposition: attachment; filename=revlist-50a31f73ef35-a3dde27c5da2.txt
 
+3d617bfd79330ae3acf94862c18bb3ccf5f5a0f9 tracing: Let histogram values keep the percent and graph modifiers
+89b000ba0796593aa61f6eec24d369337594588b tracing: Fix typo "availabe" in comment
+0999d3e16d13b6299fd7cc7a7fb2825c18e90dd0 tracing: Fix typo "preceeded" in comment
+6ede78d0563a2a3ae3e46f9c07cedb5d79645429 tracing: Set the trace clock before registering the histogram trigger
+0fe23b8eaba0d3372c66b7b31204408da0715edc tracing: Take the reference before publishing the named histogram trigger
+92383cef66791a0c63a2f27755cadbdb2fbf270b tracing: Undo the registration when enabling the histogram trigger fails
+a5e70ba87ca8ebc79b4e63de302d03b0625fe153 tracing: Fix memory corruption from the histogram stacktrace modifier
+7f711e62355bb3123a2ca2f97a2facbfebc678c6 tracing: Fix memory corruption from a "STACKTRACE" histogram key
+911002e99e15f640f1fdc6d276206beaef59e790 tracing: Restore :mod: trailer after parsing in ftrace_set_clr_event()
+7e645147dfba67edb3ed3090a1ed1d89df77fc27 tracing: Fix ring_buffer_read_page_size() kernel-doc
+ed0aff60f83a9bdc2f6556376ac79c96b3ce7e80 tracing: Take trace_array reference when opening a tracer options file
+23c240d9509e15f72e4112fc95f0160ab32ec430 smb: client: validate absolute native symlink targets before NT fixups
+815e07c8fe885a87751c2496a30ae0dcd4118210 ring-buffer: Acquire the lock with irqsave in rb_wake_up_waiters()
+3163cd7253432f262c2fa22edb51474d7afc76a0 drm/msm: remove stale perf counter XML TODO
+ed9ad3d4183053d4a8c43960a3d23ea8db71c30d drm/msm/a6xx: Add CX AO Counter registers used for a750 GPUs
+a2b65837980a513cf24825bc4a50b0430e3391e7 drm/msm/a6xx: Use CX AO Counter register for timestamp on a750 GPUs
+3026c6e4f223bdded6448fefe53ff85d9cbe51bd Merge tag 'slab-for-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/mm/slab
+79a71cc2568f4b5d42284da2aa26f3b4f47ce01b KVM: x86/pmu: Move Intel PMU global MSRs to intel_is_valid_msr()
+f13368e0acffd6d6289629705cb821d921104725 KVM: selftests: Use __GLIBC__, not _GNU_SOURCE, to detect actual glibc
+8cd280282d1239bca68f8c3632ef1ac8556a396b KVM: Never clear KVM_REQ_VM_DEAD from a vCPU's requests
+ebc5660132ddd244b57f03ed324922013a3d7363 smb/client: send lease break ACKs thru correct session for multiuser mounts
+42f961c42b6b29532c7c75e028b4192ed333fbcb Merge tag 'io_uring-7.3-20260911' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+35ef102063fd6f39e045e6d4e92ac04d3d29c0bf Merge tag 'block-7.3-20260911' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+707662b40a82c96e416fe17f3c116a4d648f1fdb Merge tag 'ata-7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+1235ff329981ecde9ccbf49b83bd4d71e827d541 Merge tag 'platform-drivers-x86-v7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+827751b699b79a6e569983359c02dce67f81b94c Merge tag 'riscv-for-linus-7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+525f0f99a4f775060288b3069e12b1d3e2b576da Merge tag 'drm-fixes-2026-09-12' of https://gitlab.freedesktop.org/drm/kernel
+77be3641f3e3a56e42a5ed889372ef395a933f3c debugfs: don't warn about uninitialized debugfs for an error parent
+2725ab3f5ad1c5f375c7c9fee4af02a9b138f701 keys: fix lost wakeup when reaping a dead key type
+0d6a4268b06084baafd8ee5d66955c7e1c2e053b keys: translate request_key_auth pid for the reading procfs instance
+114f00d738f15dd8c7318369edcdc53dd6d08763 KEYS: trusted: Fix tpm2_load_cmd() boundary check
+8697c431e297eb0d0ab13dda6bc172b48a34f05c KEYS: encrypted: fix integer overflow of datablob_len
+0fb234ce373a331a21c1d33cffef28e53cee4ddb Merge tag 'spi-fix-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+114f73092b5d1bbea2554a6a784f5ebb53d47bdb Merge tag 'regulator-fix-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+5225b8eec4c9bb21aecff6295fab6346a3c3738e mailmap: update entry for Jens Axboe
+764dcebb033764633700a036c7351a7c6350eec6 neighbour: Add missing RCU annotation for neightbl_dump_info().
+6d79b223ec44ada58ad37db42f539b60985a7722 neighbour: Enforce min/max to NDTPA_INTERVAL_PROBE_TIME_MS.
+7b430fcfc972f61b09cc19ca95997586af4a147d neighbour: Don't render blackhole_netdev via RTM_GETNEIGHTBL.
+979aabdad8dd03394467ee484a1a70f3d40b19ba neighbour: Skip default parms when resumed in neightbl_dump_info().
+e6b6078ea1731b05b3b552497b3bce4bf8b014ae Merge branch 'neighbour-small-fixes-for-rtm_-get-set-neightbl'
+c60ae98c5aa64021751b38ab1313b19d620bf640 9p: Fix v9fs_issue_write() to update i_size and remote_i_size
+5cddf63367ef894ba0026dfa2d524346f7048de9 ALSA: hda/realtek: Add quirk for HP Victus 15-fa1xxx (MB 8BB1) mute LED
+221253723dc58bb901c3f27a7659823e63fc598c ALSA: bcd2000: Fix race between rawmidi and disconnect
+effce1cb87ee0d8b3a8cbe7722968f4ea7efd360 drm/gud: Ignore damage clips in full update mode
+59ced288fcba9e91bd38e61a972ad782c4edb7d0 drm/gud: fix out-of-bounds write in gud_plane_atomic_check()
+52311be52f66f1a3c71bc808d156482feb1eb79f Merge tag 'powerpc-7.3-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+f6e213d5a2a94255b31926f0e9f7c1eb234bbf22 Merge tag 'iommu-fixes-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
+31a4327ffe2d8cbd0f51a3af6a3ffc5ecd7fdbee Merge tag 'fbdev-for-7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
+4d85a45df03118ade0eb34486fb7948bca17acf8 Merge tag 'erofs-for-7.3-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+95deca8dd9a91063babb2ef3a69f5248b1fa824e Merge tag 'for-7.3-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+cba2348ab114391f5b1a00fa65c5b739f13f0563 Merge tag 'xfs-fixes-7.3-rc3' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+ba970587a0e1203b6a0934b5b9174886b4c4d24c drm/msm/a6xx+: Increase GMU FW init timeout
+0d7823cd4cda35f2060a685fa276ff7709915abc bpf: Allow terminal gotox instructions
+ac781acaef4904b9be64a7b5755c778e5d76ede6 selftests/bpf: Test terminal gotox instructions
+b4dcc18b97913888e8d009624e07c8014ce41b84 ftrace: Use rcu_assign_pointer() for tmp_ops filter hash
+bcfe2816e6ec46c3f4c58aa4264476665ddb3f69 tracing: Don't dereference trace_event_file in deferred trigger free
+85136bf22404474a815fc0ed26ec0d1cbc1bc3f9 bpf: Avoid soft lockup in __htab_map_lookup_and_delete_batch()
+06bb43d8c79762fa3452f292cd080e54bef5d431 kbuild: don't delete in-flight filechk temporaries in asm-headers
+4f73462856576797b8f3c55564a9be99f76dc67b scripts/sorttable: Mark long_size as __maybe_unused
+281b61d408d4c39544583e393c6707af0ef5ee50 scripts/mksysmap: drop the MODULE_INFO() symbols from kallsyms
+59351365ac271b5e0eb180f211c531476a36221f scripts/mksysmap: fix escape of '$' in the __pi_ pattern
+75f8cf22463d82bb1fb0239a3d485fc8f4c8ef03 bpf: Fix out-of-bounds read of rtt_min in sock_ops
+3ce99a68f7d5b878a7746d479591a18651a8238f Merge tag 'kbuild-fixes-7.3-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
+7d70a0b02d262971201fdd1e221586bdd95c2910 bpf: Use kvfree() in xdp_test_run_teardown()
+2f0c1cf72f4682178506f513bbf015e591b1aa4a Merge tag 's390-7.3-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+ff4b61e3b7b338a92cbea555013937e69c25fa52 Merge tag 'edac_urgent_for_v7.3_rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+6d8c197c9992659a65525a07de4368c8401fdda7 ntfs: use dynamic MFT tail reservation
+b1d732e62a5b3942546e4edaab8976258e779287 ntfs: repack $MFT/$ATTRIBUTE LIST
+631946431ddc66a472c5cc629cd654e62dfa1f88 ntfs: account for MFT records added during allocation
+91709ba5d6d709b2b663287b7e871e2c6b480502 ntfs: protect runlist updates with the runlist lock
+1923eeffa63edeff427d76fc302bc5eb835771ce ntfs: propagate folio errors
+8c5dc7587fdd45f957af81a9adc1e16863f300fc ntfs: ignore interrupted inode reads as corruption
+fc440366c47000b768d013e347f60e81d60328ca ntfs: discard inodes that fail initialization
+0c32a42fd96a0e7c06c8a648a6dd8f1ec0bf643b ntfs: unhash failed inode reads
+229e8188307b9724cc676a49e9600c4acd24b571 ntfs: fix $MFTMirr write offset when it spans multiple folios
 76a986c980bb502c7688d605ac7a67fd257a9a1b ALSA: usb-audio: Clamp implicit feedback packet count to URB capacity
 fd95e68df6fe66344161a1329cbe5e5805e7b704 ALSA: core: Fix potential UAF after asynchronous card release
 6c05d00af307560e6a9f1631d6270d3df5aa2272 ALSA: virtio: reset device before deleting virtqueues
 48e97c59a49c9e90270f5e3d221db253b76de5da phy: renesas: rcar-gen3-usb2: Avoid long delay in atomic context
 de7f29a1fe1dc2864d8a47f8c39d508442cae167 phy: mediatek: phy-mtk-hdmi-mt8195: Fix PLL calc divisor overflow
 486a70ef848264dcf9a57f0bb0452848db9537de phy: mediatek: phy-mtk-hdmi-mt8195: Fix TMDS clk bit ratio setting
+086fd27ee9c41f1a3ae040ffe5c9c00b45296f82 Merge tag 'core-urgent-2026-09-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+f10ae89f3d7994e680a1190c27f383f76f5ea73e Merge tag 'irq-urgent-2026-09-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+feb66eea6b095e488755052e96f1e0d8b51e42c4 Merge tag 'objtool-urgent-2026-09-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+85855f85de484c464adb39076ebcb090c7eeb3b5 Merge tag 'perf-urgent-2026-09-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 c7a1c6e8004ab12a9c9bfdcb603f60f9bf4a3cee sched_ext: Close the pre-enable ops error claim window
+b2a8a7669e9befcec50fec990e1e1ee96f040cdf Merge tag 'sched-urgent-2026-09-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+c874ace034a9cb647fe5e2a28fdb262b49c846e4 Merge tag 'timers-urgent-2026-09-13' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+6a0b3fb48d485754661dd648a0cf9533cfcfa3e5 Merge tag 'bootconfig-fixes-v7.3-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+180534c09b2dd877c3ec83c900253765923c2e42 Merge tag 'rust-fixes-7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 1e713f9bb2ac583521f06b0eb4e22440b1e3d078 ALSA: pcm: set timer->private_data before registering the PCM timer
+442ffa742daa65a0e8fe003abe9fbe472366e4de tracing/remotes: Account for ring buffer page header in size calculation
+d059d8bf2c9b5d563d15e7552d73e17d7535013a tracing/remotes: Catch nr_page_va overflow in ring_buffer_desc sizing
+d860c67c051685abb0460b593b193f0f45f4fa92 ring-buffer: Check resize_disabled before publishing the new subbuf order
+1a296bfd3e775e515233f746218824fc7dd5ff16 wifi: mt76: mt7921: skip unknown CLC firmware records
+7825de3f75d184612d77655669a04ea0da252c17 wifi: mt76: mt792x: fix NULL dereference in ACPI SAR init during probe
+856c562c94964a74f63c6d5f38a1509a59a2357d media: ipu-bridge: do not use the CVS device lookup for IVSC
+d681d7ef617ef83d6a4de36e5cb4418ef602e122 Merge misc regression fixes that seem to have fallen through the cracks
 c65eae6f61d1778ff7a82e4aae4080e26f486af1 smb: client: cancel reconnect work in clean_demultiplex_info()
 5f270f091256da1338c3631083e15d7f83cc05e1 smb: client: fix rlist race and missing initialization
 e75c96157d45e498970158c8f7373d90102e33b9 smb: client: fix smbd_connection leak on cifs_get_tcp_session() error
+22098763a10d9c1340827fcf6edab66f153b27f0 Merge tag 'trace-v7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 ea9dadeac79cef509a4b8b4a3e3b39a741e63313 drm/msm: mark the fbdev framebuffer as system memory
 e249a6e2a130c08bb4d8b0a55cbe29754307e5c9 drm/msm/dp: skip PUSH_IDLE when the link was never enabled
 6fbbf1e152f34ad3913e4a6476680aba672c5068 drm/msm/adreno: fix autosuspend cleanup during teardown
 58995b11dfb7dda095d23f22fa4dc79b923b5adf drm/msm/dp: fix link bandwidth check when wide bus is enabled
+fd73f4a6659897191fa0d40695fe370925dd3780 Linux 7.3-rc3
 a5b5cc909931572aec446e129c035b76b3f0c1fa drm/msm/dpu: clear pending peripheral flush state
 26eb3d92c7a4d7adb1ae1740ca6e8e100b11d1ec Input: synaptics - disable InterTouch on ThinkPad T440p (board id 2722)
 25e424eb4ae1a662d9c3573218d06ac32f797fc5 Input: i8042 - add quirk for Acer Aspire Go 15 AG15-42P
@@ -946,93 +1038,6 @@ b1fa457bddf009907b023bc0c09ba4eca3191a8e Merge tag 'cgroup-for-7.3-rc4-fixes-2' 
 64d34cef2a32331fedabf25ea8fa8a30128af9f7 Merge tag 'i2c-fixes-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 d266640c6c760c9bc215bf5a3ece122ca488b6f5 Merge tag 'driver-core-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e Linux 7.3-rc5
-aa98d2da191dc95b1d49983bad683ce9ccb7bdb6 btrfs: free unlinked replace target on initialization failure
-fbf8cda1796ed4f945cffdb3af7cd3073b6cbf4c btrfs: roll back sprout setup after device add failure
-03b6463e76c93e4ab21af2986714ef0d3c6452ff btrfs: refactor read_key_bytes() to remove the dest_folio parameter
-646c82ee14a23c846ed58f95cabcc2fa35e3dbb5 btrfs: replace btrfs_repair_io_failure() to use bio for page iteration
-37e78c8a6a5d82756e9f3429ef1d773d5c07228b btrfs: enhance btrfs_data_csum_ok() to use bio for page iteration
-aa5cf1defb101618e88e45d3de93821dbfe7cffd btrfs: use a shared helper to calculate data checksum for a bio
-84c47359fc80b38be1edf14180605e328bb2969b btrfs: remove on-stack paddrs[] array usage
-24bb0ce51985ec253383b59f7133ed1057af394a btrfs: skip extent tree lock in the shrinker for inodes without extent maps
-0e9d525c9decb26190c05abfe6ff95d3cce6e42c btrfs: remove unused variable flags from btrfs_read_qgroup_config()
-e3ff62f7e4e8f56dfcb488d76b627dc3053fa0e4 btrfs: qgroup: use atomic operations for btrfs_fs_info::qgroup_flags
-dc395dd7b79656a3dac8590bdb15abde7568caba btrfs: reject new qgroup rescan during subvolume dropping
-d3e5caaa71ec13a267f39244bcc4ca73a221c57c btrfs: avoid long stall when dropping a non-shared large subvolume
-965877eb94c8e6c065292bfd1065f522fde1017e btrfs: remove runtime tweakable feature sysfs interface
-74f0c0edcd07b18d82de5e76e59e979e69816664 btrfs: use ordered extent to grab the logical address for submission
-644ec5de5acef3c13506f062459e33a78e50b00c btrfs: tree-checker: reject file extent items for special files
-51ddcd0e62144bc208ad7d53458326e5b1980320 btrfs: consume given iter directly instead of copying in csum_one_bio()
-53b64c42171be51856b48dfcaf586fc6cbc3659a btrfs: use bio::remaining for async checksumming synchronization
-6fec67244ac20cb74216ea1f4b30c9f64289165d btrfs: fix typos and repeated words in comments
-c0552f54c3e7842b0a775bb3b0a081044be0645e btrfs: split btrfs_insert_delayed_dir_index() into prealloc and commit phases
-4c717901c2e23ca36f988270a63801d64c9a70af btrfs: pre-allocate delayed dir index before btree modification
-515079a778a42d00def587b8c83ad8a3fc6b6b0f btrfs: handle ENOMEM from btrfs_insert_dir_item() without aborting
-39ac2fba40583e8d4c1764b079e4c3572a37f0c1 btrfs: pre-allocate delayed dir index for non-overwrite rename
-fa2357812db8ab30f70f479701d892899247c305 btrfs: zstd: avoid a copy in zstd_decompress_bio()
-07b46b7b721d838be5ac0c9d2533f64e141db340 btrfs: replace is_data_bbio() with is_data_inode() for direct usage
-e6511e5107e5c400a8305fa29b0ac7c75e2855a2 btrfs: use kvmalloc() for b-tree split_item()
-85c82632b7d2893b1acd4a35fdc2c6f43d9601a2 btrfs: tree-log: use kvmalloc() for overwrite_item()
-41a3d31a401597b4f7f7bbdb3cbeae47e6e3e5aa btrfs: use kvmalloc() for uncompress_inline()
-d7f3b2c4dd8eafc66680034affc2efd1a67329ef btrfs: use kvmalloc() to allocate compression workspace buffer for zlib and zstd
-fdcb76991d976473f084e23e63a68d7b76be9301 btrfs: tests: rename process_page_range() to process_folio_range()
-0357398b250725628a2c18f04fda27bc2670a759 btrfs: tests: convert test_find_delalloc() to use folios
-7b97da893d8acd3a8e4106e4397d2c0890da1d7f btrfs: tests: use eb folio helpers in extent buffer memory checks
-cb808751b3047381a4785836d838941f3a27fd29 btrfs: convert btrfs_compr_pool_scan() to use folios
-84e3d269ef2ff5ef376b275902fe38d84c3e6934 btrfs: convert heuristic_collect_sample() to use folios
-596b09f209138c759b1e5dec5ea8ab1d594c3250 btrfs: fix stale function references in compression comments
-cb96b5e10a2cc5c844b4617c6f83c96968210f5d btrfs: use folios for reading super blocks from the block device
-91f6fd9efe2599d991bb0382e2ff029c52043529 btrfs: use u64 for the page indices in heuristic_collect_sample()
-eac9d298bdc59bbae84ada71a0448340f41fb1a5 btrfs: increment extent count once when logging extents during fast fsync
-747d4cf25961598c6d18fbab5a81cd295513092f btrfs: tree-checker: cache accessor return value in CHECK_FE_ALIGNED()
-789bd264cae48413bd57d33e16c43e658d48da51 btrfs: cleanup and rename submit_extent_folio()
-2776e8a389246ac34847163acb5d511277517153 btrfs: fix off-by-one end related to inode_need_compress()
-f0bc2b9a1c9a2f9e392aeb0d6f5be8022333f781 btrfs: simplify heuristic_collect_sample() to handle large folios better
-d95288aa39bd2bb2caa3cb4868ada0d1d3614812 btrfs: add missing unlikely to a couple error checks during sys chunk array validation
-ed03cc2d619a612bb40a9367c31dce87513ff884 btrfs: remove redundant eb generation check in btrfs_buffer_uptodate()
-137effd10f7a63e31d915e851c2c9fa5a94874cc btrfs: remove duplicate error message when writing super blocks
-b3f5fe826871e5b7371c38e4ae5d19086df86bb2 btrfs: keep unused block groups queued when a pass fails
-d8cd855dc3330d003be0d222a082dff572639e08 btrfs: pre-flush reflink source before taking inode locks
-8b81e056e49634d04aa3fbc9d217a7eb4ba8ec82 btrfs: skip unlocked reflink source flush if the inode has writers
-875054e31724462f438d156a001e1ec58eccb84a btrfs: downgrade the reflink source inode lock for tree walking
-b3b24c384dd8ecaac1ba0193dec395894eede19b btrfs: fix off by one super block end offset calculation when writing super blocks
-6f35e18e0a94613e040621eb20accec106e2a8d7 btrfs: clear BTRFS_ROOT_IN_TRANS_SETUP on early exit from record_root_in_trans()
-1bc0b46531b1f4c639f359a74a6e55da68eeea98 btrfs: fix barrier usage in btrfs_record_root_in_trans()
-12e0fd2dd9b38c8e8ce574ea386fa8e7232c59e3 btrfs: assert reloc mutex is held in record_root_in_trans()
-8afffb0fb70ef2ef43b8beaf7f509a044bc18a39 btrfs: fix dangling nodes in tree-mod-log after error in btrfs_tree_mod_log_insert_root()
-44b3fa4811ab514d5e92dcffbcbbed7960c981ca btrfs: scrub: fix local_root reference leak in scrub_print_warning_inode()
-4ed5343aaa5d3b00fdcff50b72ce82b427887cd0 btrfs: zoned: fix block group reference leak in btrfs_repair_one_zone()
-56be0384a653c27fd1515becb9cbbcfd80a661f4 btrfs: always return -EIOCBQUEUED after btrfs_uring_read_extent_endio
-239dbe7e616b6cbb6b07eb437da7d2803e156b7d btrfs: free iov when btrfs_uring_read_extent() fails
-37ae5d05f79487977b64b102ede17431bf970ee3 btrfs: unlock inode and extent in caller when io_uring read extent fails
-268083051933bb93fe7860639943b0dd5f53b18a btrfs: don't stash io_uring encoded data across -EAGAIN
-7775ab7579ca39188072cb384b120150d4f9b88c btrfs: drop unused uring encoded IO REISSUE stash helpers
-d320f08ce090e0702a0decd3f020469fc9dd1680 btrfs: use assign_bit() where applicable
-0e2c2d085293e97524e5ff10bd2511bbe28376a6 btrfs: fix xattr replace when multiple xattrs are packed in the same item
-c803a3956678a2405ff952a56c7a3f160ac5dc30 btrfs: simplify dir item location setup in btrfs_insert_xattr_item()
-0f952bdbdfc750734d876df57bc00938a934dc82 btrfs: fix lost error return value in btrfs_listxattr()
-ae8acaa0db35482d6768078edaba071068c54d91 btrfs: move __TRANS_* and TRANS_* flags out of transaction.h
-4a6c18b225d67cf5f67d3b898f21d5c622dad069 btrfs: remove __TRANS_FREEZABLE
-1e57075aad6b38215412b518403c22c7422ca6b1 btrfs: remove __TRANS_* flags
-043a43e38e6c62b60d81ffcc4c09039787f98e95 btrfs: allocate additional SYSTEM space earlier
-7780115d3115dbf5f953395b291f553809e3691c btrfs: commit after deleting an unused block group if system space is low
-158763c20c573304abe6aa7c732644bb8a2c360c btrfs: zoned: fix double list add in btrfs_load_block_group_zone_info
-a901bba92957563b7ecd4779f2a117de491032fd btrfs: === misc-next on b-for-next ===
-0ceedc1572cec8f8249d9b21e90b33a8292888fa btrfs: stop enabling the v1 space cache from the on-disk state
-68ee583b1d04a96135931959ce4fa697a4151cc0 btrfs: remove the v1 space cache writeout from the transaction commit
-abdda43999227aea9a3cde8dd21e9ebc5d4bfe01 btrfs: remove the free space cache endio workqueue
-257d4b16d77bb2947b3a25030998bf6d49c84fcd btrfs: remove the v1 space cache write path
-a31da8d977cf9e3f9912701366cd8ac9e3aa1d66 btrfs: rename cache_write_mutex to dirty_bgs_update_mutex
-da9a050baf01eff1075ffab8a3dfeb5de9feec98 btrfs: drop the transaction handle from the prealloc helpers
-32c745fd0c5d6a3445446de8262c92db32774030 btrfs: remove the v1 space cache load path
-ca4f022682f7252c984159853d1e006cd6de70ce btrfs: remove btrfs_disk_cache_state
-71f6afa2c289d24b9a56f0e0269019648ade2e9d btrfs: remove the SPACE_CACHE mount option flag
-f84e1c65542ddde195561960fab02389642f6760 btrfs: replace btrfs_set_free_space_cache_v1_active() with a cleanup helper
-f6ea070a748ed3199b1096ba412514f06b6fc20e btrfs: remove the free space cache trimming ranges
-a1a7d608c84d8d15e45c853dceddaa5eeaf20041 btrfs: remove BTRFS_RESERVE_FLUSH_FREE_SPACE_INODE
-9a9ea6d4dab9a000c990e4f6f9c856e41265bdbb btrfs: remove the free space inode ordered extent special cases
-ae2b863aaf06b4bb0dff01a90da8e9e3d3f62738 btrfs: remove the free space inode special cases from the COW paths
-1f7f2df27c958a47bfa833fbac0db16c45cd4143 btrfs: stop special-casing free space inodes in the delalloc accounting
-8e56d0dd65313ac4cfb4e1533ff53e6e9c33691a btrfs: stop reading free space inodes from the commit root
 f61fb1feb9ce3bf1055c45d3150fcdf9e87d09e0 btrfs: use kvmalloc() for b-tree split_item()
 9693a85a134b7e71deb273f1b9d10c1289e9cad7 btrfs: tree-log: use kvmalloc() for overwrite_item()
 a8b2f051020777081f4a65243dcdc9ca0fad5f62 btrfs: use kvmalloc() for uncompress_inline()
@@ -1044,11 +1049,6 @@ a04b077d0bb1b422128eb2d4a3c8f275f5d2e84c btrfs: unlock inode and extent in calle
 f2ef04a338a4bb85445d22e192e1f396004d4118 btrfs: don't stash io_uring encoded data across -EAGAIN
 823b8041984fa4964dc6f895b9c3fcca30a3ca97 btrfs: fix xattr replace when multiple xattrs are packed in the same item
 1281d7e2f6fc82aa3b5b4fbc8b7d4d2f56471109 btrfs: fix lost error return value in btrfs_listxattr()
-18e08c2bc22c8c1c1ad9420fb7d132881510f69e Merge branch 'misc-7.3' into for-next-current-v7.2-20260930
-199491e50425c5550853b78d22550e23c5c5dc12 Merge branch 'b-for-next' into for-next-next-v7.3-20260930
-b92ba181fc57c81b5ce2138add16a9c679f6e296 Merge branch 'misc-7.3' into for-next-next-v7.3-20260930
-558d6cf81382a0cd6c514957ecc333724d6f919f Merge branch 'misc-next' into for-next-next-v7.3-20260930
-2a2ebc26e4b232da17c3e7070b74a63e3ef2b1e5 Merge branch 'for-next-current-v7.2-20260930' into for-next-20260930
-8147b3ee1381211a34df80119596791b964d1c54 Merge branch 'for-next-next-v7.3-20260930' into for-next-20260930
+a3dde27c5da2dce0b7d120342cafa19bf59f42f8 Merge branch 'misc-7.3' into next-fixes
 
---===============6899642579192697416==--
+--===============8260239438024882400==--
