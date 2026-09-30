@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8261698221285376268=="
+Content-Type: multipart/mixed; boundary="===============1957708190070934922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:00:45 -0000
-Message-Id: <179080924516.3754795.10290741969500920383@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:00:47 -0000
+Message-Id: <179080924789.3754969.1538463589715866818@gitolite.kernel.org>
 
---===============8261698221285376268==
+--===============1957708190070934922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfs-next-thru-nfs-for-7.0-1
-    old: 38d031be81b2af0ac30989e7f03199ab7f4e9e30
-    new: 0a40fb5211877cf3dcbf5697b9c1da1298a2fa70
-    log: revlist-38d031be81b2-0a40fb521187.txt
+  - ref: refs/heads/kernel-6.12.93/nfs-next-thru-nfs-for-7.0-2
+    old: a276aa430dbba461963fefcc0e1e0a8368764eb9
+    new: f17e42f65416b49863cf7cd6dc25287e76ccbacd
+    log: revlist-a276aa430dbb-f17e42f65416.txt
 
---===============8261698221285376268==
+--===============1957708190070934922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-38d031be81b2-0a40fb521187.txt
+Content-Disposition: attachment; filename=revlist-a276aa430dbb-f17e42f65416.txt
 
 1d6b8efd7f90fbf8cb492ee24f244dc7823a5654 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 f9984a688b111bc6a7a7beda3d58ee5f5354fbbb sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -309,5 +309,6 @@ fd4bc82ae2df0092b551a8abe919a7cb65859305 NFSv4: pass lease period in seconds to 
 e3be0cba8cb179da7cc799d135eda86d17b3abcf sunrpc: rpc_debug and others are defined even if CONFIG_SUNRPC_DEBUG unset
 821752020d6a0a0b26778e62fc2b1ef275f693e5 SUNRPC: Change list definition method
 0a40fb5211877cf3dcbf5697b9c1da1298a2fa70 nfs: nfs4proc: Convert comma to semicolon
+f17e42f65416b49863cf7cd6dc25287e76ccbacd NFS: Fix NFS KConfig typos
 
---===============8261698221285376268==--
+--===============1957708190070934922==--
