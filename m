@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Wed, 30 Sep 2026 17:35:01 -0000
-Message-Id: <179078970146.3513763.1454955617049456436@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 17:38:59 -0000
+Message-Id: <179078993953.3517103.6905626879405789167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tj/cgroup
 user: tj
 changes:
-  - ref: refs/heads/for-7.4
-    old: a6d4aee572e81144d6f0867a9c1af3020869d406
-    new: 5ffe20411787dd9947a35669ef8cb9484053efcf
+  - ref: refs/heads/for-7.3-fixes
+    old: 31c88350b7dd1522792f726f79607f31bb55c50f
+    new: e06b678e3b4e12fdaa0b51a7a5a54abc5dbd6469
     log: |
-         5ffe20411787dd9947a35669ef8cb9484053efcf cgroup/cpuset: Use cpuset_v2() in cpuset_num_cpus()
+         e06b678e3b4e12fdaa0b51a7a5a54abc5dbd6469 cgroup/cpuset: Don't access cpuset_cgrp_subsys.root in is_in_v2_mode()
          
   - ref: refs/heads/for-next
-    old: 8deb0752fa76101ff2a0c5cdaf837d95ed0d0046
-    new: 8c69128c1a881e2e82e80f60bce8934856ab5f9d
+    old: 8c69128c1a881e2e82e80f60bce8934856ab5f9d
+    new: 4d3ec270cf2c369064e97be01c925c99f363bd98
     log: |
-         5ffe20411787dd9947a35669ef8cb9484053efcf cgroup/cpuset: Use cpuset_v2() in cpuset_num_cpus()
-         8c69128c1a881e2e82e80f60bce8934856ab5f9d Merge branch 'for-7.4' into for-next
+         e06b678e3b4e12fdaa0b51a7a5a54abc5dbd6469 cgroup/cpuset: Don't access cpuset_cgrp_subsys.root in is_in_v2_mode()
+         4d3ec270cf2c369064e97be01c925c99f363bd98 Merge branch 'for-7.3-fixes' into for-next
          
