@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6122744732142945121=="
+Content-Type: multipart/mixed; boundary="===============3678459238270687399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 30 Sep 2026 21:18:57 -0000
-Message-Id: <179080313706.3679414.3025883559842957614@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 21:19:02 -0000
+Message-Id: <179080314206.3679627.3400107595644791869@gitolite.kernel.org>
 
---===============6122744732142945121==
+--===============3678459238270687399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/perf-tools-next
     old: 45d15e89a783a0a279b7a54f9018c230127380d7
     new: 705da5b15ab89ba97b11eedbe507c2fd83d31cb9
     log: revlist-45d15e89a783-705da5b15ab8.txt
 
---===============6122744732142945121==
+--===============3678459238270687399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ ccccf88a19322349612d631503af64592e263754 perf python: Avoid shadowing exception 
 9910ee15c9fc024e713b66403edf23976d33a857 perf sched stats: Reject mismatched or incomplete snapshots
 705da5b15ab89ba97b11eedbe507c2fd83d31cb9 perf trace: Bound the fixed size augmented argument beautifiers
 
---===============6122744732142945121==--
+--===============3678459238270687399==--
