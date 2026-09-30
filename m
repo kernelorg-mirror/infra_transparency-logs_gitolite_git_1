@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8092330041558872980=="
+Content-Type: multipart/mixed; boundary="===============4031238636610701854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:00:39 -0000
-Message-Id: <179080923940.3754509.16078865654069414491@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:00:42 -0000
+Message-Id: <179080924211.3754636.16051979309622913476@gitolite.kernel.org>
 
---===============8092330041558872980==
+--===============4031238636610701854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfs-next-thru-nfs-for-6.19-1
-    old: 009dc99abc357af6fae9a59805bafa0c3162e4a1
-    new: 00c2c092bd7926cfd981dcd10240747834f8a5da
-    log: revlist-009dc99abc35-00c2c092bd79.txt
+  - ref: refs/heads/kernel-6.12.93/nfs-next-thru-nfs-for-6.19-2
+    old: 4c8e6bc741dd62ca5ea92d7dd507254df747d776
+    new: 0bb30cdf250a4a3841277252f13712d8c6585a19
+    log: revlist-4c8e6bc741dd-0bb30cdf250a.txt
 
---===============8092330041558872980==
+--===============4031238636610701854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-009dc99abc35-00c2c092bd79.txt
+Content-Disposition: attachment; filename=revlist-4c8e6bc741dd-0bb30cdf250a.txt
 
 1d6b8efd7f90fbf8cb492ee24f244dc7823a5654 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 f9984a688b111bc6a7a7beda3d58ee5f5354fbbb sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -249,5 +249,8 @@ de72ce794ae574640530ac183a007a610b6f10d6 SUNRPC: new helper function for stoppin
 36df31b7409ccb92a5276d97ef213c2f1bd36089 nfs/localio: fix regression due to out-of-order __put_cred
 f010889dae69c8b618ddbcc6376b3ee5b293acdb nfs/localio: remove alignment size checking in nfs_is_local_dio_possible
 00c2c092bd7926cfd981dcd10240747834f8a5da nfs/localio: remove 61 byte hole from needless ____cacheline_aligned
+d05b239540adc6de7f1aa502a264951594298a2f NFS/localio: Stop further I/O upon hitting an error
+23939c95487068be3371f20174bf6148d6da21d5 NFS/localio: Deal with page bases that are > PAGE_SIZE
+0bb30cdf250a4a3841277252f13712d8c6585a19 NFS: Fix size read races in truncate, fallocate and copy offload
 
---===============8092330041558872980==--
+--===============4031238636610701854==--
