@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1922127555395280152=="
+Content-Type: multipart/mixed; boundary="===============4218132757630964096=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 30 Sep 2026 23:01:27 -0000
-Message-Id: <179080928776.3757357.17594081831359669362@gitolite.kernel.org>
+Date: Wed, 30 Sep 2026 23:01:30 -0000
+Message-Id: <179080929084.3757560.18368939272612211350@gitolite.kernel.org>
 
---===============1922127555395280152==
+--===============4218132757630964096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-7.1-2
-    old: 72dbac7b60d58a4dec7471954dfcef4bbc33f754
-    new: 2ddbe813c3a8a599cf6ac29a58fa3ae06c1a5c6b
-    log: revlist-72dbac7b60d5-2ddbe813c3a8.txt
+  - ref: refs/heads/kernel-6.12.93/nfsd-7.2
+    old: bdab09f9751e2aaa187fe846897e6a0458997535
+    new: ffd39eeaeea5f9a6c691224300be2d0468757b56
+    log: revlist-bdab09f9751e-ffd39eeaeea5.txt
 
---===============1922127555395280152==
+--===============4218132757630964096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72dbac7b60d5-2ddbe813c3a8.txt
+Content-Disposition: attachment; filename=revlist-bdab09f9751e-ffd39eeaeea5.txt
 
 1d6b8efd7f90fbf8cb492ee24f244dc7823a5654 sunrpc: Replace the rq_pages array with dynamically-allocated memory
 f9984a688b111bc6a7a7beda3d58ee5f5354fbbb sunrpc: Replace the rq_bvec array with dynamically-allocated memory
@@ -399,5 +399,27 @@ bb5c2bc72c63120a1a235d5a4739d462645d0657 nfsd: update mtime/ctime on COPY in pre
 45e2d6e510ffe1b71ff7583318dbd7bcbd2617e5 sunrpc: start cache request seqno at 1 to fix netlink GET_REQS
 b894cccf1bbe180e9817aca009c255cc59075945 sunrpc: prevent out-of-bounds read in __cache_seq_start()
 2ddbe813c3a8a599cf6ac29a58fa3ae06c1a5c6b NFSD: Report whether fh_key was actually updated
+93f844bec5ed4d69ca5aae3920082dd2e898fe45 sunrpc: skip svc_xprt_enqueue when no work is pending
+b83631b2cdcb8f484bcd3aebebbabcaf20a0dae8 sunrpc: skip svc_xprt_enqueue in svc_xprt_received when idle
+57afde78c2cbd7c3b82b7691a1817a8c13f2f2c4 sunrpc: skip svc_xprt_enqueue when transport is busy
+0037bf819fc3f87329518b4d9318794d68471068 NFSD: Fix delegation reference leak in nfsd4_revoke_states
+792b5db7006181d28102ee2235cc1b38ea0ba68c nfsd: move struct nfsd_genl_rqstp to nfsctl.c
+2cf599db7134446c7670f3517d421c130ea2bffb NFSD: Handle layout stid in nfsd4_drop_revoked_stid()
+3bfe39a24d3de857032871576e760599e98819b7 NFSD: Increase the default max_block_size to 4MB
+f6986859f7083e62cb33223e630e70af731e2505 svcrdma: Release write chunk resources without re-queuing
+d1acbdd2f8b417c701bcb70b1dbb90cf836254f0 Revert "NFSD: Defer sub-object cleanup in export put callbacks"
+534955f340620b617aedcf1144e7eee27b63fd0d SUNRPC: Bound-check xdr_buf_to_bvec() stores before writing
+3ebe3f5b8d3517ba28e0eddb17feebf89968413e SUNRPC: Return an error from xdr_buf_to_bvec() on overflow
+fffa3de0ecff5f08cf476ef489f2e8d0f5b7f2fa sunrpc: harden rq_procinfo lifecycle to prevent double-free
+5303d21c5003087ca1bcd47138acd24a27e2c28c NFSD: Fix SECINFO_NO_NAME decode error cleanup
+9614074f6eb8a2d422dec5b1f0709d4d78e1d01f nfsd: fix dead ACL conflict guard in nfsd4_create
+ef81556e9105b4dfe7f0ab06e16441eec549e450 nfsd: fix inverted cp_ttl check in async copy reaper
+961ecf0273b6d35f260e8d738b88960f5eaef349 nfsd: check get_user() return when reading princhashlen
+0ce45692eac21de71e2fb1c0a114fe2e8c6e2815 nfsd: fix posix_acl leak on SETACL decode failure
+e7a36ff9c8906c3517006c8a5addf2e35efb0b81 sunrpc: pin svc_xprt across the asynchronous TLS handshake callback
+9158ebbe0a5916656dc7710f28df9293d05f6c0f sunrpc: wait for in-flight TLS handshake callback when cancel loses race
+d1bff14739dd817908bc205e6ee0ff908db551c7 nfsd: avoid leaking pre-allocated openowner on unconfirmed retry race
+69623e4df100e9852b28ff260ab5f7a20b4e11f1 nfsd: reset write verifier on deferred writeback errors
+ffd39eeaeea5f9a6c691224300be2d0468757b56 svcrdma: wake sq waiters when the transport closes
 
---===============1922127555395280152==--
+--===============4218132757630964096==--
