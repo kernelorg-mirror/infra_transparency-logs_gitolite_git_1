@@ -1,56 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============7950764539067566946=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 30 Sep 2026 15:07:10 -0000
-Message-Id: <179078083071.3398373.14634300753045950895@gitolite.kernel.org>
-
---===============7950764539067566946==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 30 Sep 2026 15:08:08 -0000
+Message-Id: <179078088859.3398988.17783901882284980466@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 3bd1347f2bc28adf59e99c48486f7b13582919f5
-    new: da2b6101af52b6b7311d12c7c205f40d1d0274a8
+  - ref: refs/heads/for-linus
+    old: a154f7b9f197b3d5e41fa3ad62083f5aa93b1fe8
+    new: 819f6aacbb1d1621c6a62721e708835fe1fb75d8
     log: |
-         da2b6101af52b6b7311d12c7c205f40d1d0274a8 6.12-stable patches
+         4fa0c91c2c4c604e6080690a698d4c6405ba96ca ALSA: ctxfi: Fix silent playback on Titanium HD (SB1270)
+         ece609abc95cc0f75e633d93f3d868b030d9a8fe ALSA: hda/realtek: Add mute LED quirk for HP Pavilion 14-dv1001TU
+         97384ef06c4fa79f7265ecd65c240bf40a8a9c41 ALSA: hda/realtek: Fix mute and micmute LEDs on HP ENVY x360 15-ey0xxx
+         819f6aacbb1d1621c6a62721e708835fe1fb75d8 ALSA: hda/realtek: Add micmute LED quirk for Acer Swift SFG16-72
          
-
---===============7950764539067566946==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790780826 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1790780829-9612bb9810d7eb9cdc9630f5feaf121d7da2e1cc
-
-3bd1347f2bc28adf59e99c48486f7b13582919f5 da2b6101af52b6b7311d12c7c205f40d1d0274a8 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq9JZobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0ToP+gJjj6aNUS00ayozleVX
-e0Gn0TGvTuNloeZ6WfJ5HIuVLQa8h7wBNt2KtGQShWF4OurjsLIIVFTQgEy1eidd
-t5w5XhsTqryB8ig6UFYF+uAarVDKiyfzi48y+QqqM/IYrZsW3byQ3g70KC31sghM
-39+KDH1aW9wB5gHGp0aJNJwE+aWRFyAvMPI37Pum94/Q4X6AMUJ8iMhfL8evv3S2
-r0VlQcNhebIPIrNeQAFotvIOx3BX4WlckE1uaVuV8eo/XZKcyS0dQZ4eSJtdY7wV
-VwAKsqXgFqXeMtl/jNCo2pVEXmdEvL5GOeepIGDAKtnKKLdGGzM13oNtJXWY0CXA
-XCHCMM6RjZ64VuzCE2IuK3I0AE6GFRMSnnsqPhMqgtC3pu2W+nJA6k2GJQdApxpF
-pM7k57EZCuo+gyzOGTnDJW0HGUQWSnHubjgLuf1XXYzglIXxKdcfrbh+Hnza1MVs
-tQxpzVy3Mk+PgaPrygtvK0BGuC9KNdlyPwlUot5DQ8iTZZy0sGDEKjmESc2ryf01
-C/LfiUfJJt+shyQI40a73Q+bcc40k1fK/IHp66ny0ognIbDck0Nt/W4W3OaVA2/y
-TBQc/FrnuCdFQTl2ID7z1ETQBU5/Y6dcXJkUhJUT80vI4J/QdG0BcTIFE/fDpNnO
-ipCLEWx6kcFeintnY2d9hwkq
-=+lqk
------END PGP SIGNATURE-----
-
---===============7950764539067566946==--
+  - ref: refs/heads/master
+    old: bde6bed34104463c3c2e8109a5a0212ea9e2cc30
+    new: 2c04159728e5e0f930f62c177a19a1629c15eb33
+    log: |
+         4fa0c91c2c4c604e6080690a698d4c6405ba96ca ALSA: ctxfi: Fix silent playback on Titanium HD (SB1270)
+         b221368d9531ff1098a1aa637f8768a9590a5ef8 Merge branch 'for-linus'
+         ece609abc95cc0f75e633d93f3d868b030d9a8fe ALSA: hda/realtek: Add mute LED quirk for HP Pavilion 14-dv1001TU
+         41825bad384262fa0a28fba4dac6a9211f09e269 Merge branch 'for-linus'
+         97384ef06c4fa79f7265ecd65c240bf40a8a9c41 ALSA: hda/realtek: Fix mute and micmute LEDs on HP ENVY x360 15-ey0xxx
+         819f6aacbb1d1621c6a62721e708835fe1fb75d8 ALSA: hda/realtek: Add micmute LED quirk for Acer Swift SFG16-72
+         2c04159728e5e0f930f62c177a19a1629c15eb33 Merge branch 'for-linus'
+         
