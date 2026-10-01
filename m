@@ -1,60 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2076243327922065610=="
+Content-Type: multipart/mixed; boundary="===============8592924069158198855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 01 Oct 2026 12:49:58 -0000
-Message-Id: <179085899853.207440.10477424104187627516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Thu, 01 Oct 2026 12:50:05 -0000
+Message-Id: <179085900591.209584.8316343248677449163@gitolite.kernel.org>
 
---===============2076243327922065610==
+--===============8592924069158198855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: d008f97d7a00f74cfe81051211d51150adc6a967
-    new: ba495d6beea0beb443efac16f12d2c436fe665be
+  - ref: refs/heads/driver-core-testing
+    old: f1850e443b0e4f2429ddf42a8d5033ea54ae8a90
+    new: 5ec78be9552035e1e71de218f968c03c44181bf0
     log: |
-         adbaeff63d227a1530bfba8bfd5d04cf53639d67 greybus: fix typo "registerd" in comment
-         db5bcf57dd05f5c7c33f886bda2eb6f981fe7f15 pps: generators: fix use-after-free when closing a removed device
-         0751b2cccbeef8c521a9e9d82a4ac7d2f1bf74cc pps: generators: don't use the driver's info after unregister
-         59ccfc55476764a05dd9775ee6c9489045bdf7d9 pps: generators: stop the generator on unregister
-         ba495d6beea0beb443efac16f12d2c436fe665be pps: generators: wake up PPS_GEN_FETCHEVENT readers on unregister
+         493daf5bf2b9e931c93ef9223c840b0a6bb35474 interconnect: debugfs: replace writable string helper
+         98421ba5925fd95db714727f7ae82e87e571979b soundwire: debugfs: replace writable string helper
+         5ec78be9552035e1e71de218f968c03c44181bf0 debugfs: make debugfs_create_str() read-only
          
 
---===============2076243327922065610==
+--===============8592924069158198855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790858992 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1790858995-c330d73239d34aea7e21f85b72ec5e48a852fbbb
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790859000 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1790859003-b5cd4c5bf02b67c87f970d8aaa528d7532e2366b
 
-d008f97d7a00f74cfe81051211d51150adc6a967 ba495d6beea0beb443efac16f12d2c436fe665be refs/heads/char-misc-testing
+f1850e443b0e4f2429ddf42a8d5033ea54ae8a90 5ec78be9552035e1e71de218f968c03c44181bf0 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq+VvAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fYwP/i9J9rcathdEH9+0wq1f
-zxTPDKprSJze14YUmYJXTaaP521Jc1l51H4tVrBls/FBXx7Go6+55VhOGM4fS1aP
-XM+vHJ8PAJ6CgHqOIyAolTFr9zqAtCUjGk5OeXviNjreExtSbY/6wnooE+MDlNrl
-0gkDZ+RJwsDkSycnjKKMoOgTC1tSQBrf6Sn0gXspPZj5PlVtnf8msI/WZzBfPAYt
-79nYFlPbGVwLudD19gesd6172n6J3jchLzQi/CIjcV0DhHNHXkQW6O6e2va+6SaI
-HkIp94a9tMTb/RrZGfcvrohE42+0vNQPPAbIQc+cK3Eydjyc7tnS2vRRSWYKWipR
-71cA47uAC54QH3fmfj/q/YGUHgNRiqea9hFR+6826SOsAMCYYObWTdbOyHAzyxeQ
-m+3jfdYE6NVPU7tDMIY7V3IPrEjDY5NCepQyT2ocoukVrREHLYoJZ90C/HKnEXOo
-ULYklnrLtwLV0AbgY2j2+VTX8QZwKxYBqQRVC3ySSYpYMkEP32Os+SgLAeifZekp
-AgXX2LU67cCvJp/cPySqYxZGJI25GHuGMb0B1rHC0wtHTIo5Kr91L9aT+o/0xbNQ
-L4BmaAWy3ORYvDtEgB9QvoD5Mb2MpTAjCnCqGMRBCbDEC83b1cXFBS2F/eJW6s4C
-nm6ydFjyk4BNNvTqtaXPkNsE
-=HnQU
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq+VvgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C90P/A0PagPz7CaRcQKNLNHd
+3d280li69tDQll8m+jPN9qWT2Cwp0BJIEKAzoj5jmHz3iTpCmeRLhqPlkOINP9+k
+brQsEI7czw81Ddlbj78IWXMQj1aqeQccmVhbRwPGidjDJRhjY5UnRFUmWPrzXLni
+bp1yRtuLILCieWfRtuomsY+aPxxmddv8BTJL1qSMWpyrGV/IvI2QnilEjvGwRVZ0
+YAw/JHmHGLZ+l71fDd0ahPMMcfbyjfgsaCOjAEWHhqgxxOi8OBC6Ge82qfD+c72Z
+sXBx/aHssCNnOpTDnWQYVfV0na40GwThlE+XIZupVLrE3CPnHkhv1bljWYEdHgQ4
+oTZFW6nEMIgg9shD0nJvTZLRYw8klXn8GcrXAatQaJ7TO2psny7TSD1+rfeamwZs
+RzgVIb41ID91MY0PznPwfSVFEFIZUWu2Lm1Q0yWOedloE0xeF1f3TNPN7nTEggFZ
+b3zmX67HMAjq9B6f7AUpIX7QiLBuDWFN1A1aWkQN7FtzLGjT9EwFVlaYShqdQPm5
+Q0FDs3F1m1AhdTpPhBMhpDmLOyA/IWT7515M99oFwhBXxGioYpghkddJvvcpCF8m
+aQgE+4LbDqyLc5eB35YTg1JxbZG1+he4l3l3QmkTMVmtmOf61zGahoT+SJ8KpUMw
+qSSJ+mKOOclh5u/RQAVJuy+w
+=VBwf
 -----END PGP SIGNATURE-----
 
---===============2076243327922065610==--
+--===============8592924069158198855==--
