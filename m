@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 01 Oct 2026 23:00:51 -0000
-Message-Id: <179089565155.696109.6473175018842565325@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 01 Oct 2026 23:07:27 -0000
+Message-Id: <179089604700.700549.15624777326929115604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/main
-    old: d24e8ac715de2e16a53c144005b1863660a5fbea
-    new: 8e9cb398593c1a4bfd50ac221f4ae5ab2a69a5ae
+  - ref: refs/heads/controller/vmd
+    old: 63236e16a071e69ca1cac7c14f3d541ad881cd65
+    new: 4f29ac9b9d0faa0a90251b89f6676f26ddc3b920
     log: |
-         af0524bf4ce1a4cbd2946aa81751582951cfcab5 ibmveth: h_free logical LAN on open-fail after register
-         84bec0bf035258a1073ffd6f6dc8ea61806aa7d4 ibmveth: fix TX LTB and filter unwind on open-fail
-         8e9cb398593c1a4bfd50ac221f4ae5ab2a69a5ae Merge branch 'ibmveth-fix-open-fail-unwind-after-lan-registration'
+         8429232f15ba52da2348c927d6125195832abe77 PCI: vmd: Flush DMA writes before handling MSI on Meteor Lake
+         4f29ac9b9d0faa0a90251b89f6676f26ddc3b920 PCI: vmd: Flush DMA writes before handling MSI on Arrow Lake
          
