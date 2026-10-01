@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2170077795520661136=="
+Content-Type: multipart/mixed; boundary="===============4201010495673501698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 01 Oct 2026 09:06:07 -0000
-Message-Id: <179084556737.29803.2210407829480320726@gitolite.kernel.org>
+Date: Thu, 01 Oct 2026 09:06:55 -0000
+Message-Id: <179084561500.30267.15112111945607298389@gitolite.kernel.org>
 
---===============2170077795520661136==
+--===============4201010495673501698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/tty-linus
-    old: 5dad87615c9861cfa366ca984b52f581e861df20
-    new: abfafa6fc3c17b7dffa5dce3acc8dba70ed656b9
+    old: abfafa6fc3c17b7dffa5dce3acc8dba70ed656b9
+    new: 8aebfde6e84dceb7d47fe8001e50b754eb45d5df
     log: |
-         db0949bbd06db0a75b4b1076f1e25194be7d956a tty: serial: max3100: shut down timer before freeing port
-         8167c1f071426706c233e93ecfd13aba7d5c06c8 tty: serial: mpc52xx_uart: move static declarations up.
-         8df07fe93573e9e548d6645273e9bcb6eb74059e tty: fix saved termios reset race
-         abfafa6fc3c17b7dffa5dce3acc8dba70ed656b9 serial: sc16is7xx: fix TX gap caused by kfifo circular buffer wrap-around
+         8aebfde6e84dceb7d47fe8001e50b754eb45d5df serial: tegra: don't clear the Tx FIFO on an Rx-only reset
          
 
---===============2170077795520661136==
+--===============4201010495673501698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790845561 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790845609 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1790845564-1b40316da78284a21f3f3931862dcfdf1de0c97f
+nonce 1790845612-36c3b6dd6f53cf277468ba197aebc7566ca65a48
 
-5dad87615c9861cfa366ca984b52f581e861df20 abfafa6fc3c17b7dffa5dce3acc8dba70ed656b9 refs/heads/tty-linus
+abfafa6fc3c17b7dffa5dce3acc8dba70ed656b9 8aebfde6e84dceb7d47fe8001e50b754eb45d5df refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq+InkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u2QQALnSDecm6miKW8e25K5m
-E8aLvGxa+tcbi1sWsVr8zoWALLIYU6/kHli3wALs+flZWySSDO+LsBs/Wikh91Lz
-pr10vCgozyaZ5KpBm2IjYoDj5/i48t2mlZVqNNRm0NdyzVnaDgrtjO1yiTmKML/W
-Bj3ayG8kS1LdkOYRkJyxkEghVom9IkHKed9sXv5wC5fJqTQI6sEC/5IXx+AnZbPX
-S5frWtJUV327n61yzVf9+QwKYp5F5TNXhuVTDTmDQKVbnn5gdQFiwpWSh9lsZC8v
-QJRO3Gl2rEp1+WzIYz0WF9e5nS9PtMlcAuwQzvIk6iEdEfvQNstnrokkb1mka8nR
-kYnu4Cg0AHdvd+Yn+wwYLED4/nHBz/4hCAIrCDP1XbRvpo2l8y6us4Tmkaaz2in3
-pUmqBsIFc52WaaHZqBt3UNea4XhxMss1++L9chTr0scqEcJBDUphvbH0PpJSfVoZ
-650/FEwm5caxUlzHkR21mz22DQWM+6pmPpXTZVSkLKSJlAFCukRFBTK1yFK+fiNd
-LtURmszvRiYhiUyEv0PB7QjSXLSU70EwjBix/NuzgSyAt37YfP3c2g2e4bXUiqg9
-nveq9YdV7zrlOIa2Np50oM8gtDbFrqwT5fatGt4jZpsey20NZw/qWv6za6ib1dB5
-vUg6J5neDMwIhBcm0sKVhvTK
-=qyN2
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq+IqkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4LAQAJY/pOzzZQF19zGCAcyg
+0MP+lGmXkOLlzpWHDlYyBlig7YFzRwp6A7uZRS6vLSV5MQdotFdjJlBNo1Z1qWln
+Ne26LQ6K7N1SbYF+motpNg4iBnw/7en1KgakBOKP3xx3+4eyqn0kgKKba/wnzgmY
+Je7UV3AGElY0eFMjj2RJWtlFIPy6jdQYFPe2SmjIDBBznLWUjXmSfMLnuF0ImqZP
+WG4M3/9xZKDt4/0ouCPeIWTEEm6Tya2Z2ujjEd8JVARJ4008qZbwegOOg1A+t14E
+UFyQUr9EIeor99D0hVyudbMx2I3921H2b1FJIYUDB9d3cffwFZ+QCPo+EuYKBv9q
+e3MK5SXKZ0fxC1RRSLa4A55MkHEJDjkOeRXrbHUI3Yz8iQDscK0YOODzS9vUS7Rj
+I1UQagLdqqpXIDSQ8ocWJBZdB0HJ1GoO2IRvwzu3PtBUqGgGQtSswh8IaSyrnCTV
+ruZ6ALWaHXwKjjsYw9Dw9eF3y588XjTREt3tM+uH0QZi6x81XAe7+9BKt5NYhxks
+PnA+fuRC2YpflDG/1YIcsQzLvCTZQ7x8X3tNLHGQWLy/NvZBgUWbKsgZiFRvsIOb
+RNAokaYS9tz81PJcAHw1dxPvzcP2fZnx3ULUjntbixUoA5dHLMaTcqQ1U5MZ3KYq
+XZtT20rL5V8P9SquFZ6naQ75
+=tKzX
 -----END PGP SIGNATURE-----
 
---===============2170077795520661136==--
+--===============4201010495673501698==--
