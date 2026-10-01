@@ -1,58 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1230028991597176778=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 01 Oct 2026 09:16:13 -0000
-Message-Id: <179084617378.39237.2147324090788347743@gitolite.kernel.org>
-
---===============1230028991597176778==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Thu, 01 Oct 2026 09:18:18 -0000
+Message-Id: <179084629879.39982.6483187384247951856@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/tty-linus
-    old: d9feaa93328a6f885afb8ac6374897fafc294222
-    new: 39495ef5d6f8019e62d65807f217a7ca8232727a
+  - ref: refs/heads/stm32-next
+    old: e6cdc9f49eebe486c256e134be84175865a357e9
+    new: ec9921187d0680b490840940bdf00d546e621656
     log: |
-         226bd5603371cd9f6642cbb9e9a677f445de3530 vc_screen: reload vc pointer before if (ret) in vcs_write() to avoid UAF
-         0928ed9bd7946baee911efa401088697836e3b1e vt: skip screen update for DEC alignment test on backgroup consoles
-         39495ef5d6f8019e62d65807f217a7ca8232727a vt: selection: Fix unsigned underflow and slab-out-of-bounds read in paste_selection()
+         512ccbb8f50607e70bbc38ff10b49838f548c5af arm64: dts: st: add sdmmc2 pins_b for stm32mp25
+         cefb3fb64acef76da211117ea8d198a7484f7bf1 arm64: dts: st: enable eMMC on stm32mp257f-dk
+         f29638135596889a185a81ee26392d5322f9de73 arm64: dts: st: move Engicam MicroGEA-STM32MP257D-RMM display to an overlay
+         5d21980578057d070c767eb15e03c6bbc757f154 arm64: dts: st: add Engicam MicroGEA-STM32MP257D-RMM LVDS display overlay
+         541f03ad0f8a5f8c9f8397916bae1cf95f5f6569 arm64: dts: st: add digital temperature sensor on stm32mp251
+         54a69aec3650b8a75481fe104d44ba7eda3e6b33 arm64: defconfig: enable Moortec MR75203 PVT controller
+         c11998649a26e08aaf277cc169cb33e3ec77f369 arm64: dts: st: fix sai3b unit address on stm32mp251
+         ec9921187d0680b490840940bdf00d546e621656 arm64: dts: st: fix sai3b unit address on stm32mp231
          
-
---===============1230028991597176778==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790846167 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1790846171-f29bad7d7e3d4d3d114f5104f3727dcd82d9097e
-
-d9feaa93328a6f885afb8ac6374897fafc294222 39495ef5d6f8019e62d65807f217a7ca8232727a refs/heads/tty-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq+JNcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5IQQAMmENOZnVw4b3xV/zulC
-OZ6dTSW8+xYnMl7tVkhOLRow0w1xxGt5iRk4hOlYUhBO5VrV2SUV5R5d5ejf2AGW
-W/dSuwkBGiKsh7IEr0trnAJP3J4/FtjAu40SsmX1PmCw3UBMcDtbBmTGkjicNtX8
-0F+4l1wvPbFYDaUFUyQjEp/EelY0wXYuAu1RzcciC1R6esOvVNqDfH5NGTq0U/NP
-hUV8Gu0i8r7CyI7inO5GJLulJpeWYaZlahu7H445cFIx7A5xn4J79I9vIeyGPyJz
-WEJGGz5gw4a4QyGSbOEL6IE2aHm8ZzGnJNns1YjGxiKdFTueaPcwvIAl+uCu4bx2
-9Wz5glqaZgkd0+rF+s+bvBy9mk0CulJi2p6bq/g5KbnUfzpcGLYUazek9en6YKy7
-gFVfs2AxGg7U/2A+K6WrvDEoLgwPsspjTSnPjOwxjUDudTxkPhfK/XhYg6UEcaPt
-wXYuJxfLQA9hM0R0+pvjH3/G9JGfut0q16H1q7Ds5fWJ/tqH+Zl6xhnF91JsLybo
-Xa46IeHPJDGyLtJ020LmYNlSORX3tUacikkWIdLvMrW/4tiCuapny94R9zISQb9M
-gjDXWRGjdCeYZmaoeKzzE64C0fF59dx7S9EzzTEBEOuDFb9mjwqEtX304Git90fl
-wn+YidaBIA/GIxHOzeqka8dA
-=/UXa
------END PGP SIGNATURE-----
-
---===============1230028991597176778==--
