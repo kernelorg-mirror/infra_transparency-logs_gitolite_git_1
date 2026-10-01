@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3572783906839990604=="
+Content-Type: multipart/mixed; boundary="===============0807076885282661774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 01 Oct 2026 00:23:17 -0000
-Message-Id: <179081419789.3834662.1596189228302105335@gitolite.kernel.org>
+Date: Thu, 01 Oct 2026 00:23:19 -0000
+Message-Id: <179081419959.3834847.13469977797203540319@gitolite.kernel.org>
 
---===============3572783906839990604==
+--===============0807076885282661774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-7.4
-    old: 300f5c59beb257550ae3863aeeed2ba63871dae8
-    new: 5ad7eb6a944eea8471f496442c9a3609a286437f
-    log: revlist-300f5c59beb2-5ad7eb6a944e.txt
+  - ref: refs/heads/for-next
+    old: e081f1e68766ca772101bf1f9e14368166fe0ae7
+    new: fd557d97ea0ec84ad753160ff72f5cce2d1cb4f4
+    log: revlist-e081f1e68766-fd557d97ea0e.txt
 
---===============3572783906839990604==
+--===============0807076885282661774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-300f5c59beb2-5ad7eb6a944e.txt
+Content-Disposition: attachment; filename=revlist-e081f1e68766-fd557d97ea0e.txt
 
 7086cc13810b9f68257c40cfd1abbb675ea381e9 arm64: dts: qcom: shikra-cqs/cqm: Add Type-C support on primary controller
 b62af30ebdb4ae4ec6230c5e39eea97f65b9f5ea arm64: dts: qcom: msm8953: Add Motorola One
@@ -52,5 +52,6 @@ df50f5c5690a472d750a0e327ac4d05a4a9c8b79 arm64: dts: qcom: sm8550: Add GCC CX po
 108a8d51fba8432c5d5253dec1c565ffe7c1edbc arm64: dts: qcom: sm8650: Add GCC CX power domain
 ee35c132956f4797ed6be33c451decb94d1752af arm64: dts: qcom: sm8750: Add GCC CX power domain
 5ad7eb6a944eea8471f496442c9a3609a286437f arm64: dts: qcom: talos: Add GCC CX power domain
+fd557d97ea0ec84ad753160ff72f5cce2d1cb4f4 Merge branches 'arm32-for-7.4', 'arm64-defconfig-for-7.4', 'arm64-fixes-for-7.3', 'arm64-for-7.4', 'clk-fixes-for-7.3', 'clk-for-7.4', 'drivers-fixes-for-7.3' and 'drivers-for-7.4' into for-next
 
---===============3572783906839990604==--
+--===============0807076885282661774==--
