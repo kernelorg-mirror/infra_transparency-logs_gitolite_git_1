@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1868170141241393497=="
+Content-Type: multipart/mixed; boundary="===============7267510529390405436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 01 Oct 2026 12:01:20 -0000
-Message-Id: <179085608058.169088.10283067378064095322@gitolite.kernel.org>
+Date: Thu, 01 Oct 2026 12:01:30 -0000
+Message-Id: <179085609058.169397.14806968774731296097@gitolite.kernel.org>
 
---===============1868170141241393497==
+--===============7267510529390405436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/urgent
-    old: ae7667cd64af17eec9ff02f4b65cb458f2ef24d9
-    new: fcbe4307bda074abc8132bfe746eeb0e502d74ab
-    log: revlist-ae7667cd64af-fcbe4307bda0.txt
+  - ref: refs/heads/locking/core
+    old: ec4fad7c2bdc80c62fa73f799b77ad299f73dcc3
+    new: 5b5224220747029bbaee8ab851cc6c599c48eded
+    log: revlist-ec4fad7c2bdc-5b5224220747.txt
 
---===============1868170141241393497==
+--===============7267510529390405436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae7667cd64af-fcbe4307bda0.txt
+Content-Disposition: attachment; filename=revlist-ec4fad7c2bdc-5b5224220747.txt
 
 3d617bfd79330ae3acf94862c18bb3ccf5f5a0f9 tracing: Let histogram values keep the percent and graph modifiers
 89b000ba0796593aa61f6eec24d369337594588b tracing: Fix typo "availabe" in comment
@@ -1049,6 +1049,6 @@ b1fa457bddf009907b023bc0c09ba4eca3191a8e Merge tag 'cgroup-for-7.3-rc4-fixes-2' 
 64d34cef2a32331fedabf25ea8fa8a30128af9f7 Merge tag 'i2c-fixes-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 d266640c6c760c9bc215bf5a3ece122ca488b6f5 Merge tag 'driver-core-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e Linux 7.3-rc5
-fcbe4307bda074abc8132bfe746eeb0e502d74ab futex: Fix mm reuse handling for FUT_OFF_MMSHARED
+5b5224220747029bbaee8ab851cc6c599c48eded refcount: Use CONFIG_BUG_ON_DATA_CORRUPTION for UAF-related errors
 
---===============1868170141241393497==--
+--===============7267510529390405436==--
