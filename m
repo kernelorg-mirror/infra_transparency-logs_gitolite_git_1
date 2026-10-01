@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5046896340298009079=="
+Content-Type: multipart/mixed; boundary="===============5347570499917234841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 01 Oct 2026 05:14:39 -0000
-Message-Id: <179083167985.4052172.16319019016156228424@gitolite.kernel.org>
+Date: Thu, 01 Oct 2026 05:15:40 -0000
+Message-Id: <179083174047.4054543.11323747265564058545@gitolite.kernel.org>
 
---===============5046896340298009079==
+--===============5347570499917234841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: abc36cbda29d8f19cf3a580cd86ca9e865186a41
-    new: aef5a7e207656ad6abdeeaa0bfc8ee9a1f9c02f6
+  - ref: refs/heads/usb-testing
+    old: d58dffe9ee2c8883193959ff4ef995ec07932874
+    new: 647f31f34d4010fa565de284ef4a5bbd099f6575
     log: |
-         20388c8d1d74c203fec8194c45cd31afdfab934e usb: gadget: aspeed-vhub: cancel wake work on device removal
-         9cd072788c76595529eb38f42bf94d23852f8534 usb: gadget: f_fs: Fix NULL pointer dereference in FUNCTIONFS_ENDPOINT_DESC
-         dc614d6bc991740d41d5a99ac7765c4b675dda88 USB: cdc-acm: skip URB restart in port_shutdown if disconnected
-         0e8baa78d872f2db440d8b9ded946ab8dceb89eb usb: core: clear both ep_in and ep_out for non-ep0 control endpoints
-         9062d50e75c24dc7911be05c9b1719b3b256af15 usb: gadget: f_uac1_legacy: validate bRequest index in generic_{set,get}_cmd
-         6c51f09c6db5868a5090e8dd4d7764660c87f1ad usb: typec: ucsi: Get the connector fwnode based on reg value
-         a107edec57659c5a1a2f016311b944af58c904c9 usb: dwc3: gadget: fix IRQ storm on invalid event buffer count
-         e5052f2c5c73c1dcca42bafc0bc737af2b2af059 usb: cdns3: Fix NULL pointer dereference in cdns3_pci_probe
-         aef5a7e207656ad6abdeeaa0bfc8ee9a1f9c02f6 usb: typec: port-mapper: Only match USB4 port if host interface is available
+         20b73dc5c5d2f5b0800bff62cd4586d3472b4dc6 USB: gadget: core: Improve documentation for usb_ep_disable()
+         4ea75eeaf4e55ef0447037f552abbaba4af06144 USB: gadgetfs: Fix races and locking in asynchronous I/O
+         6f41c4ff394f502d9ed7b15ce862bc494f553a6f USB: gadgetfs: Fix test for copying data in asynchronous I/O
+         dfb7052396e3591c0ff8212e7d1eb86f403412e5 USB: gadgetfs: Wait for work routines before unloading
+         42411ff1a7bbd1da609cdc18c0f2c43cd39d2b31 usb: typec: mux: ps883x: support TYPEC_DP_STATE_F
+         d9eadbba6663a5361699310959422a85e128e416 usb: typec: mux: ps883x: add a delay after writing config regs
+         647f31f34d4010fa565de284ef4a5bbd099f6575 usb: typec: mux: ps883x: disable USB4 on incomplete USB4 platforms
          
 
---===============5046896340298009079==
+--===============5347570499917234841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790831673 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790831734 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1790831676-b4976e0f4017cf5a08078a31e7593f4b5d536c07
+nonce 1790831737-6df6281593f46c5fae47d2935a9ae0a7d2c70cad
 
-abc36cbda29d8f19cf3a580cd86ca9e865186a41 aef5a7e207656ad6abdeeaa0bfc8ee9a1f9c02f6 refs/heads/usb-linus
+d58dffe9ee2c8883193959ff4ef995ec07932874 647f31f34d4010fa565de284ef4a5bbd099f6575 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq97DkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+10YQANhg9RZYq8MxGw9HjEtW
-wd1tz3Oeiqr1OjsxFkHrJmRjJVUXRYaVg3KqqjmfkSx7z0tXwGJQ9LK/aE5KJUiK
-rFNWVCHV7gNEd8DhacAlOYcH83SEoGJosNnFqRndG2nXo3dx9bnQiICx9P7KCPJi
-yQ9WgaHmE7ezzpH+CRhl+KSdf+BzJq6q17ZT2NTw+RlfJSewyPhHr0wZ/I/UdxN6
-xZE+enEZwumZzmPWoD2Ua2b8jK69NKDZbgvG66r6rsGIbn6cdGszAb3EwpOTpWKt
-QD4teP+5fbewhffAly+r8llkscTwWkwmYssXBEeyk1PXkFzTTFTlVEgRAHRm6TEs
-RJnh2ypPMBw3cPCBj9ddabv8MbCsetng/YDRsSteo8qzVLRkt1xoMhW633SJb+2T
-Rl2tssW3vIC5Ul6zQ737/Pc1vJJg+bnKIgXRbpv1/g8j6+dvcAcqoLOWBk6TqXMe
-VPMKYZHkcdM2JqwXSfo7wo9BU2AsZ8kivd+y2jyr+c2LlMQHeky9ZqxW5+zD2Mj5
-m7w36NToEQ+tOpVELv79AEIhqCqRTlvBx6/p+5q7YnOc9nb95icVRHngkqXlGFD6
-thInNAcfBqihXaqyTwB8JXWLTul+p6XTkEOGYfCRy22VIsnhMHKU5DUU0+K5z/cO
-Kx2u/OiXL9BfS2SfIdh+2HwS
-=sruu
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq97HYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hyUP/AwnGk6/M53xIi9+7cpi
+PVsUFYMuteVCWQ2OKPu5rFO5yCn+gk2/7HCGYe1XshiMWfUUPIyBYiLmdMDFeMJQ
+cN99KStyu0nXo25bzwFoSMIlrbMPvrFfw3UD0E4PHbnNo554SaAQs25j9xsImMnd
+IV93IKR6UO+TJ9Z/0QG4VpIJUi+uNjrV70SbJ5z+fULLqcg+ZmePXNghIQrhX6vs
+o4/ubqyBnUr0VP3AYTt1hW37AbYnN5pAmdP0qzEoo3sJnDSEPOkaPKxJJkITLIf4
+g7xk19EaRlPjl4dVof6yvyapmL1sGkCGa/DqGDMDaYjoe9Uro7NeaLhCo9ugjD9/
+ZI/bqW95SUUnz5mxAOiEDVVf+2XTqib5G99bHvtR97G+XdWoZN2kE37jeOSs5vyT
+tz0Bo2DC7b45h4KZNWnhSjNLNotkptjcw3l750xu2hWgb/lLxqxFvTjH/w3yISif
+Xkt6hKb2h7AOibSQS/PofbnozTPT9GYhLQdyZAYLcHzJ5O3drHjJXiC/YmNCWfNW
+QiVdkqZ9MdQZl0ioOmgePLa41kI7Z0ehGjYQU/jfL80RLuZSl/CthlGAaRMnyTx/
+Dr8jVg2/Psvqqq+TSPzv9Dh8ktloD+/1Tp5k93HZwc1+zWZbRNSD7+AeC4W+aQq0
+/cTuI/UYw5HJe04hNK0Vw0ee
+=+EBa
 -----END PGP SIGNATURE-----
 
---===============5046896340298009079==--
+--===============5347570499917234841==--
