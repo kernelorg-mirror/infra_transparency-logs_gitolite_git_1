@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3606441918260332647=="
+Content-Type: multipart/mixed; boundary="===============8899678877842854072=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 01 Oct 2026 11:51:04 -0000
-Message-Id: <179085546445.160205.9676196743927050440@gitolite.kernel.org>
+Date: Thu, 01 Oct 2026 11:53:05 -0000
+Message-Id: <179085558517.161053.15906693308970748661@gitolite.kernel.org>
 
---===============3606441918260332647==
+--===============8899678877842854072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,68 +16,48 @@ repo: pub/scm/linux/kernel/git/soc/soc
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/soc/dt
-    old: a7441fda77a3213d441464c4dc0989fe08167315
-    new: f9ff7e72a671a6006e8da2b80ba3e4a6316e9ab9
-    log: revlist-a7441fda77a3-f9ff7e72a671.txt
-  - ref: refs/heads/rockchip/dt64
+  - ref: refs/heads/soc/defconfig
+    old: 176c06fb3d88cb8d603d83c99ac51d2c419fe136
+    new: d1b0914f0dacf0d3387eed11bac12b49e8594eb0
+    log: |
+         6f422914412bde4c431706079525c581bf439e03 arm64: defconfig: enable the necessary drivers for the Ayaneo Pocket S2
+         6708289cc13812cebedcc396a42f62d3f92b2dbd arm64: defconfig: Enable QMP PCIe Multi-PHY driver
+         897cf6d54f366885e190e75b3a221e7b3ae35065 arm64: defconfig: Enable PMIC5 Gen3 ADC thermal monitor
+         d1b0914f0dacf0d3387eed11bac12b49e8594eb0 Merge tag 'qcom-arm64-defconfig-for-7.4' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/qcom/linux into soc/defconfig
+         
+  - ref: refs/heads/qcom/defconfig
     old: 0000000000000000000000000000000000000000
-    new: 7aa165b62ccaf340da22c517074e7c6853db55cd
+    new: 897cf6d54f366885e190e75b3a221e7b3ae35065
 
---===============3606441918260332647==
+--===============8899678877842854072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1790855462 +0200
+pusher krzk@kernel.org 1790855583 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1790855461-fd09e2447aeab135bae17a5078594dcaa3a08f5f
+nonce 1790855583-e696fb1fba33179915179ae0b1b5cdbdd8a59f9e
 
-a7441fda77a3213d441464c4dc0989fe08167315 f9ff7e72a671a6006e8da2b80ba3e4a6316e9ab9 refs/heads/soc/dt
-0000000000000000000000000000000000000000 7aa165b62ccaf340da22c517074e7c6853db55cd refs/heads/rockchip/dt64
+176c06fb3d88cb8d603d83c99ac51d2c419fe136 d1b0914f0dacf0d3387eed11bac12b49e8594eb0 refs/heads/soc/defconfig
+0000000000000000000000000000000000000000 897cf6d54f366885e190e75b3a221e7b3ae35065 refs/heads/qcom/defconfig
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmq+SSYQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1+kpD/9DBc/r4odiLT6tkQGD7chyyQ9zwQMB1CN+
-zOd94mxp3QYEYQ3q1/f2VlfoYfhC0ul9JyX5a4tTpGI47pK2wYJUTQ1Vujsc6X+6
-0j6IAIlSS8UpvG/kuvgGRsFC4DBns/LUbwzUHhTixu9KPu4FTcQzUQg+0Rshrm5E
-dgUSriZM932LUGDBp0tVs3HJhZkjduaRjoZYj9hEDlmG/HxpeQClvnRWlVlulGlv
-Ulp/npry9ilvXna/dYB5Cj3Npo+2IR+U4yB/D+dZyPDA+tjasoTj2ZO972Tpg1NQ
-n5dH2bNVBAOBComjVm2Rgn6D1MPIHt3jHP7YvJKrMHTVEZocksaNBbIK7sDYFe8v
-yeX9hFeLvSxQjMlktUOEKxG/3/yMOlJev+RJWExhzucIcHq7NCnQwwUClecCuTj7
-M+4LA8Y1d2zeMRYzHDIGx+S8Xop7bgJ9zObCulYeuJojxWaMdgLCk1T8BESID5bs
-OJYd5BGG7z44bjAMr3iN/s57mI6wChflNOpLnlA5t4bxy8UScQZSxnohJkTWqLVr
-1uM6vAbB+9bdOrYeECMDSXFXMSgzW/xI0FhaUgfFYeFYvCOtAmgbFyF2bkTMgS4x
-rwc326K4LNvnmCp4I/Mv9mBrbw0mtTRr3fsgsMV7fIiYeBRr+KuaFa0NchS5pkpA
-NClzUm08Dg==
-=eLq/
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmq+SZ8QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD10IrD/4+pZ+FLjRh8yIcm9kakfHS4gH3Ht+mWVZW
+yuUpEwiVRIlCuVQJ9papGxUjjxshy03dZd+AoPR2GWneB2GWPNNyjDab1HwCrNpf
+rBfWrWHOJ97IL0uy9BW6z6D6TAh/cS7PnyUKHf28oR2iZlGe+4mMlPtVbRXGpv9e
+x9/yca+PkpWAqb+gQHM5smTr+UEqqvK+Rf7l2Jg4DTnsX33VmgXIIs2rS2XJKV7f
+Jo+9e6vDkRbY1N48oC6XEncmklwEggLFQYh1vd2sx4RALM0aH0Kj1s0QLfgHBFWE
+QJ4qi4HLfm9Bf3LUy3xyvSe/Efk87d+RnF6Twor6oWv4i0wmNvg7d/CmlBzDIo6i
+Afas0cf390jvlxROsU4yGCUZ0v7kwuKjzU2SijAOR1EAFfV//VQWKpMRK3CvRJ1R
+G348GdciFSPcAkXsoRo/yzy6GMRlVcsyHE2LXn2vYS5VZWbuWFOwb5Leu1Df1yhy
+Afp74T08/cWU+I5sDf/CH/1wJV12hSIVNuAExWpev4gET9AJ7hGuP+gDEkLr4YZW
+aOGuKnV2ocd+l4bOeEE5yZvodazTQ30tQ6MXZZgDWM1bfKHzwkFl3QlpiaM2PeKp
+wXtknG3io409tkNrJ9t5AQmbfFyDccoA+mJ7pbWijuB4g/aGiiSExYP+U/h9ekqp
+f/afvXv44g==
+=f0bp
 -----END PGP SIGNATURE-----
 
---===============3606441918260332647==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a7441fda77a3-f9ff7e72a671.txt
-
-a3827558c623db5a4f7033f3cffe214577470df9 arm64: dts: rockchip: correct rk3576 SDGMAC GRF reg size
-3bcd04b3e009fdd5b051c95f31c742bc9257fcb9 arm64: dts: rockchip: fix an error and a typo in the CM5-IO comment
-0d170ee38e7a943248082cdb4b3e40b45a96e2f6 arm64: dts: rockchip: Correct Device Orientation on Gameforce Ace
-05956cc8d96b41cee78322d5fd96365e1755cfd5 arm64: dts: rockchip: Remove unneeded vcc_3v3_pcie20 on NanoPC-T6
-d10b733bec0bb2949beec3bbc3625a9909711602 arm64: dts: rockchip: Fix PCIe 2 pinctrl names and sorting on NanoPC-T6
-21431b76fc0380bb60ec6792492fbdc282847120 arm64: dts: rockchip: Fix hym8563 pinctrl name and sorting on NanoPC-T6
-d936b4164c9fef5e3d5a12a4f260c7bd2413f83c arm64: dts: rockchip: Don't pull up rtc int pin on NanoPC-T6
-6c4aacc5956924fd38703b95df7d67a650fb2db9 arm64: dts: rockchip: Sort usb nodes on NanoPC-T6
-7ac01d4ea7a2c0074d3c92da0272baa6c1591b66 arm64: dts: rockchip: Improve sound config on NanoPC-T6
-e4392d3f56f686082f62e27131f4ac233ee05ac7 arm64: dts: rockchip: Drop duplicate USB nodes on NanoPC-T6 LTS
-7c40dc4055b6868c5ee7c4e30fd483544a25a58c arm64: dts: rockchip: add i2c2 scl timing to rk3399pro-vmarc-som
-685b81f8c717b0f7ec7219f35ead626758ef3aec arm64: dts: rockchip: add CAN-FD nodes for RK3588
-0fb792388d2d39e35b7b366f491f846a7ebd8630 arm64: dts: rockchip: Enable CAN controller on RK3588-Tiger-Haikou
-db7e3af507ea357d69116c3b785c5ce3b17428c2 dt-bindings: arm: rockchip: Add LubanCat 5IO board
-f7b576f3535665840709efc85a5e2ebe6abc331c arm64: dts: rockchip: Add LubanCat 5IO board
-b217437b8f20cbc745d789ea99244274b9dc592f arm64: dts: rockchip: enable CAN0 on RK3588 Jaguar
-7aa165b62ccaf340da22c517074e7c6853db55cd arm64: dts: rockchip: support CAN1-CAN2-UART4 adapter for RK3588 Jaguar
-f9ff7e72a671a6006e8da2b80ba3e4a6316e9ab9 Merge tag 'v7.4-rockchip-dts64-1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into soc/dt
-
---===============3606441918260332647==--
+--===============8899678877842854072==--
