@@ -1,59 +1,80 @@
-Content-Type: multipart/mixed; boundary="===============0573902961360026124=="
+Content-Type: multipart/mixed; boundary="===============2217282620079983778=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 01 Oct 2026 12:38:29 -0000
-Message-Id: <179085830938.199011.18282785316141694572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 01 Oct 2026 12:39:19 -0000
+Message-Id: <179085835943.199474.16142436862001571299@gitolite.kernel.org>
 
---===============0573902961360026124==
+--===============2217282620079983778==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/soc/soc
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 2390a07e8e1ffca3d15a6c6b3098190450a508e7
-    new: 2fcc8b9687af998b74ce6b0d349167eae7931558
-    log: |
-         d835f4b1add32d6cf125114e1f7a51931b290ccd binder: use irrefutable let patterns
-         32d0ed324f6fc9428f2942c48ea5d2530e08665a rust_binder: never return 0 from next_debug_id
-         831f1ddd64fa194eb7ddbb67ece363a57daa1537 rust_binder: track caller location in BinderError
-         2fcc8b9687af998b74ce6b0d349167eae7931558 rust_binderfs: add transaction_report feature entry
-         
+  - ref: refs/heads/for-next
+    old: 712b27836b59885bd976028fbda24d05f8f91487
+    new: 230a13446da17ef9a6fe171a17e72df239f33035
+    log: revlist-712b27836b59-230a13446da1.txt
+  - ref: refs/heads/soc/arm
+    old: 0000000000000000000000000000000000000000
+    new: af4f7acd7b73780c7fece5d156e7d9a7791a60af
 
---===============0573902961360026124==
+--===============2217282620079983778==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790858303 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1790858306-b12bb503599296a1cb26b38215fa02cfed916e7b
+pusher krzk@kernel.org 1790858357 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
+nonce 1790858356-19bf21003246c69115dca00672c9068e8f7d9d9d
 
-2390a07e8e1ffca3d15a6c6b3098190450a508e7 2fcc8b9687af998b74ce6b0d349167eae7931558 refs/heads/char-misc-testing
+712b27836b59885bd976028fbda24d05f8f91487 230a13446da17ef9a6fe171a17e72df239f33035 refs/heads/for-next
+0000000000000000000000000000000000000000 af4f7acd7b73780c7fece5d156e7d9a7791a60af refs/heads/soc/arm
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq+VD8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PX0P+gKl33xi8bfQ9gGTv+Bg
-nzZZLEsuie6OZ18H/MJiWIOK6XYDm1GSMmXcB//qiH1JXD/d/tNISwq3L1dqKCkq
-etrEiqIeiEH8j8l+3Nzu0WFVel9jTgc3KwVTeYf7E23kSdh3Q9uMgOMEqfIn6Ruq
-W7lJZpb9+eV5aVbmrfD9AYIJJWXkcQJBtvayeWbbead81erJaEVSoj+tYggMGFBD
-gIBa9FS/hiNi0KBMLPMwVqfmEA4CVVu9+4Bw9mx18k9h8Yr629WZMMx81G7wPgl1
-YWKFqqDtaOPc8ZdI2OXqR9taHL9z4b8d83IQZFHgsmKCON3v3mpMx9GCankOg2tQ
-CHnE118YcGE9az/36+rQAqv5AHvrHjyyv5UhNJhSqdCyP9iM/QeXfP1GPcJpY7UK
-7Q9FzCAa1vlAmiO2hSq7q33nanhTwqNIJoPq8SRwO2raYu7bfV0lLfksSK0L7zrR
-FDvq3Usc+VeUAxVq2Mo/qSJjfcVxfmYGfByHOOb13N5aVgGWPMfv+0qfJ4/d4zQV
-LFg+swvUxZU2AeehnYK6+qovMypNOJabG0NXn23+y+ZltfSkgnRnnfvc1RTO/pI7
-FBgYMEQJef1/HjqHpa5iadh3A6oAx9+e//j092QlP8o7G97HqmPZq8UfyMslPBav
-M1JL2dajSCoE2PTJOxEPCOuf
-=ZZOy
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmq+VHUQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1/BrEACA3Lr2XZo4W/OWKyK5twKY82OBFstoACaR
+ZJhi8hViyMC5sN3lhht5V2UyVqVRiCFS0qks0Ju2X4ZzGYC7UXGZwYDuAHAm0CBh
+kLeddhp2w89wF7O0LF/0zD83nwbawzjMxHjXaxgGeDas/6fPMNZShiqmz9m1NbBs
+huLwH4zkZLZgpt19ILNkLlqlikjAwtLcDgk822Up+IMuqEEdw2KQCBC+PZXD1fQn
+4humbdpj2zSHDsG1HvfWnFubk1x+TXw83CN6xuMSDHZPNuL1fjTvHC6MtMQ0BI4v
+DSsFyXgkvmftWRfgAt2UlRsBpi0ezSgm757+G6iLc5rlORozvyidjtkWE05MeG/t
+oLPosOjSswzUYOVhbi+oxzScMIUNM5XhxK4feYqh9YZeLs2rlt/RFtZGrDG4YHM9
+vexSuvQea6UN/hGkwoQ2843MjY6X3BzKM/3RSGJDpMYe+JyzbX4LAeaB5DvaHAby
+QNqqdfbsTaJAEPDkjSeo0xe/qs19ISntXlaEsPLr/v6cBkhlUZrwRDlCxl7Vl80l
+Ra5TKa1lVR7Dm0a0+Ao9c/MOkBO67AOSMK4MJzx4+icU6KEc67LqTx4r88/rpr6V
+c0Y/593fmCiUGNhnFI9lH+s/YAyDCA+LkrlSVormqM6Zx5wthnr7RtD/MXDcVOkL
+6saknazXrw==
+=uD/y
 -----END PGP SIGNATURE-----
 
---===============0573902961360026124==--
+--===============2217282620079983778==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-712b27836b59-230a13446da1.txt
+
+95664df86fdf6e70e411ad9e3910b402489a22c3 ARM: remove sa1100 platform
+21b5f207cb8b1d0a819dd1799ef8c56178d5b1d7 ARM: remove footbridge
+538532cd1532f44e7c2519ecd3dfbcbed08061e2 ARM: remove legacy pxa board files
+f98cb2a43e0efa32ed8723df8d687acdb69dab06 ARM: orion/dove/mv78xx0: remove all board files
+4fa61946d7c3e6da57a6db11551fa2ac17078370 ARM: orion5x: fold plat-orion/pcie.c and hw_pci into pci.c
+cbd33c61480b8fa64046d956f4f68bca5cf68fbe ARM: omap2: remove omap24xx support
+104a7a07163962fe259a2e5272fb70446f19793b ARM: imx: remove i.MX31 SoC support
+1fbbfb51f20f3d0a1da6b542d7f29acc29815403 ARM: versatile: remove Integrator/CM1136JF-S option
+2e1031df3c5f64f96660074f695e3b24e4bd3018 ARM: imx: remove nommu support
+31431dc97977003efbd4fb25e77aec8744338280 ARM: lpc18xx: remove entire platform
+6fa463cad26fed984b62a764345e65a98fd0a30a ARM: stm32: remove stm32f4/f7/h7 MCU support
+1b983b0549163d4016574b0043664cdb47eea8cd ARM: versatile: remove mps2 support
+1b9867b95e1e4a88c80b2e5612b7092b90ae3f88 ARM: at91: remove samv7 support
+af4f7acd7b73780c7fece5d156e7d9a7791a60af ARM: axxia: remove entire platform
+230a13446da17ef9a6fe171a17e72df239f33035 Merge branch 'soc/arm' into for-next
+
+--===============2217282620079983778==--
