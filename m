@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 01 Oct 2026 13:52:17 -0000
-Message-Id: <179086273772.255374.3906075928160494999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Thu, 01 Oct 2026 13:54:05 -0000
+Message-Id: <179086284552.256421.6689031597073312573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: 11c18f4809bfd1f9ffb6db6a7808b19f21324c8c
-    new: bf933ad6c4defde6c3d3efc6cf6b9f152d78c64f
+  - ref: refs/heads/for-7.4/block
+    old: 67b7a2728e4873e64405c5564fe50f7123012b71
+    new: 06dad60393f20985cc5f24eeed63f965d366c4a0
     log: |
-         bf933ad6c4defde6c3d3efc6cf6b9f152d78c64f Fixes for all trees
+         06dad60393f20985cc5f24eeed63f965d366c4a0 rust: block: implement `Send` and `Sync` for `TagSet`
+         
+  - ref: refs/heads/for-next
+    old: 0183ac11c13abc35710b3356919f42806bd961e8
+    new: a4272c83d7116c37ba1ad1515499e279a805b1db
+    log: |
+         06dad60393f20985cc5f24eeed63f965d366c4a0 rust: block: implement `Send` and `Sync` for `TagSet`
+         a4272c83d7116c37ba1ad1515499e279a805b1db Merge branch 'for-7.4/block' into for-next
          
