@@ -1,55 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
-Date: Thu, 01 Oct 2026 09:52:24 -0000
-Message-Id: <179084834490.67839.3276833784198595021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Thu, 01 Oct 2026 09:55:08 -0000
+Message-Id: <179084850847.70697.3788730362887862517@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bigeasy/staging
-user: bigeasy
+repo: pub/scm/linux/kernel/git/clk/linux
+user: jbrunet
 changes:
-  - ref: refs/heads/perf_hw_bp
-    old: 0000000000000000000000000000000000000000
-    new: afc8f2d543889aa36993faff6f409e494757980f
-  - ref: refs/tags/v7.2
-    old: 0000000000000000000000000000000000000000
-    new: 237a1c39e8dfd3e1c6f1f023eea37a48ec04cc63
-  - ref: refs/tags/v7.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 728e68a889bcf257b1e67298b12c360e5c3a13e0
-  - ref: refs/tags/v7.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 4c45e14df2f4e77982ad70d6d8e3fe750edd4c37
-  - ref: refs/tags/v7.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 1137d8b5df06137fb49513cc923b3b24d94cb809
-  - ref: refs/tags/v7.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 6946cd5d0aa4dd10a414ddcb7a10844fdb0ad345
-  - ref: refs/tags/v7.2-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a8e429896436e8c2d288181f875f92af8204bc58
-  - ref: refs/tags/v7.2-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d7dd96eb916519208210bb4a0408fcf4f7fdce5d
-  - ref: refs/tags/v7.2-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 2ee859ebf156157609f71060ae472711c8cbc326
-  - ref: refs/tags/v7.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e5e04726cdd043e309677071ab1b65a4b18f422b
-  - ref: refs/tags/v7.3-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 5e036ce12de91c6fd674dad33b169c6150be2a7a
-  - ref: refs/tags/v7.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c2cd463d6ee7d55a3ec0719d93c49ff99022d58f
-  - ref: refs/tags/v7.3-rc4
-    old: 0000000000000000000000000000000000000000
-    new: dec005ae90a2946656a090f37bf1cfbd22f08e57
-  - ref: refs/tags/v7.3-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 5a956dde5526a634dca7ccad27c051ebcc306089
+  - ref: refs/heads/clk-next
+    old: 44bdc3ffaeea6b5aae2e17ead10c351b875409d9
+    new: 0ae89e93b3cc3a9f94d3e8efd2bd257f36ab94b9
+    log: |
+         6c8177988fcc07bcdf2991102638b7db80e92bb7 clk: nuvoton: ma35d1: Keep the clock count in the driver
+         2d9a942a7562e3cde3c9de0335147c5faa8d1eaa dt-bindings: clock: ma35d1: Document the missing crystal inputs
+         c8a24538bd57ae545e7b8f9c8eb1c2f19a65a085 dt-bindings: clock: ma35d1: Drop CLK_MAX_IDX define
+         a05842820a01081012c3df0db3fabe07e36b163e dt-bindings: clock: ma35d1: Add missing WDT/WWDT parent clocks
+         e9b3fde31626b9c5725856417308598ce1cc8541 clk: nuvoton: ma35d1: Add missing WDT/WWDT parent clocks
+         0ae89e93b3cc3a9f94d3e8efd2bd257f36ab94b9 Merge branch 'clk-pile' into clk-next
+         
