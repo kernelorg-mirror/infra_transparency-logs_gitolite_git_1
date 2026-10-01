@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 01 Oct 2026 16:48:56 -0000
-Message-Id: <179087333627.417336.15560126398816103270@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Thu, 01 Oct 2026 16:50:01 -0000
+Message-Id: <179087340159.418037.8879599224145931964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: pjw
 changes:
-  - ref: refs/heads/for-next
-    old: 1518c0d3f67e728674194fb43911d6bd0ad3773a
-    new: ed5f8f8b115db9cb3fc986687eaf957b29551e1d
+  - ref: refs/heads/fixes
+    old: 4735883c0d4bc3dae51b92218f00b2faff7d49b8
+    new: d54627b733080c424b14e24e29efb526576f8379
     log: |
-         53cdc4266b935724bb2f89e9229c6f92476a1575 spi: sg2044-nor: Return transfer errors
-         ed400c241b3cd80fcec6974b87eefdad1b1dd146 spi: sg2044-nor: Honor SPI clock limits
-         60391428ecb9bcc7ca368626a07d5a3c7cf1f40f Merge spi-linus into spi-next
-         ed5f8f8b115db9cb3fc986687eaf957b29551e1d Merge spi/for-7.4 into spi-next
+         d7a50931398d6ac35f2a2cbd2f944410b75d7e6f RISC-V: errata: Add SiFive MAL-9092 workaround
+         d54627b733080c424b14e24e29efb526576f8379 RISC-V: Clear HSTATUS.HU on CPU initialization
          
