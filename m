@@ -1,63 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============4215422520839773676=="
+Content-Type: multipart/mixed; boundary="===============7833235495892139920=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 01 Oct 2026 12:18:25 -0000
-Message-Id: <179085710533.183340.11681856463301783425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Thu, 01 Oct 2026 12:20:17 -0000
+Message-Id: <179085721716.185884.8599481427575463167@gitolite.kernel.org>
 
---===============4215422520839773676==
+--===============7833235495892139920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/soc/dt
-    old: 29d85a0933e6bc4fe0723ab93b3e7c73ab549bfb
-    new: 497b269da564db66af3d1b0191c0b8e9339b1b69
-    log: |
-         54087b4bac55d854bad0e6e5a81c58d79778d83a arm64: dts: fvp: Add cpu-map property
-         4fcea5b932ce516b4bf6e1bc0b8ac991418888d8 arm64: dts: fvp: Add EL2 Generic watchdog
-         d8e88ad6f769ec55d3d8510dc53c2b08ddfea645 arm64: dts: fvp: Add additional PCIe memory region
-         497b269da564db66af3d1b0191c0b8e9339b1b69 Merge tag 'juno-updates-7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into soc/dt
-         
-  - ref: refs/heads/arm-juno/dt
-    old: 0000000000000000000000000000000000000000
-    new: d8e88ad6f769ec55d3d8510dc53c2b08ddfea645
+  - ref: refs/heads/vfs-7.4.mount
+    old: b4698e50d4601f43d21759203be5b0b3c123e383
+    new: cbade031e2ebb3ca0a423b1804ce87908b27c229
+    log: revlist-b4698e50d460-cbade031e2eb.txt
 
---===============4215422520839773676==
+--===============7833235495892139920==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1790857103 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1790857103-76ea8b56a003bb72bab7e352a252133ff74c5d3d
+pusher 0x91C61BC06578DCA2! 1790857216 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+nonce 1790857215-3bcb3bb8d66ba53e959fa534f0e1379445e4406e
 
-29d85a0933e6bc4fe0723ab93b3e7c73ab549bfb 497b269da564db66af3d1b0191c0b8e9339b1b69 refs/heads/soc/dt
-0000000000000000000000000000000000000000 d8e88ad6f769ec55d3d8510dc53c2b08ddfea645 refs/heads/arm-juno/dt
+b4698e50d4601f43d21759203be5b0b3c123e383 cbade031e2ebb3ca0a423b1804ce87908b27c229 refs/heads/vfs-7.4.mount
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmq+T48QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD19jvD/0TUOD2APEJM18Ydfzr7HRIpM+ldXxtJ9G9
-0VSeZrpkl1kgk6wtwp/HjUtm7dNQ6bV4UUzB0yCBErHnEFidw7Y4JfUEWjDkabif
-oWVfx7W95OaJWjWR4QrsPzgbLgegy88wMnlhBhMmfZHixwhGxcgDDAuDFpQGdyFr
-+y77hK3NVZ5UPOxdGRy4aPiiDjDJq3p5J8Sgf0VIGH4BBM6gsYxp974+Y9WehHDg
-xgnZOUICLCOI/TkI8dA/q8Bnvt7QtFAgYXxQl/ULX9QmfT1XZqAZaihkqIli7OP9
-Ay6H1q9wwAWPYHoG3BPp+RZ8A51YCxShAybQ4BfXzu73aL8CAvxMi3R3TN+Oet5Y
-J3NXNHgg9bPbl4+5hOxy3aDELMMgZ+r6GQFnyliU0t2Z1lt2+HYdHVWFSpos5RYE
-DBx2Vjr4DRiq5Klxn5Rhfro9tHDhQd0E7Rqm8ffamOpc18E0FAVA/CCztHR3iOwL
-sXeIjWt1JLdntAqvD5pr/rE8TT4Ef1lWVKaxuM/qWIaol/xSvPuxWSegOmcUyjmp
-X+GnvyFep8XxUcV7zyf031oL3M0b9uDXmNPVlNNA5ZhWgDho3kvlJdXossw+rT++
-QtjSx3B8KZewidORL6cAk072ib6WyVaBWekq5Igbx/z2k6CXwbhiLmn0eCa76yqw
-kZI3X1rTNQ==
-=Jsz1
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCar5QAAAKCRCRxhvAZXjc
+og9WAP4km/S20jBJLXHQHkCOdKbsB/aVLZLx4A+vLpvp3lWbsAEAz+CgQqupG9w/
+z36grz7TGW0JcuAdA77gzPIZSYSPSAc=
+=E7y7
 -----END PGP SIGNATURE-----
 
---===============4215422520839773676==--
+--===============7833235495892139920==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b4698e50d460-cbade031e2eb.txt
+
+bd2feb7796b6585938a4241e7b7c4148a6f7b762 namespace: queue a mount only once for mount notifications
+32bf92416614a1e3ff3524fc6b780259c7aad3ef namespace: check a submount for references right before unmounting it
+520b5a15fc9db81404e337e2904bebaf147b2b03 selftests/filesystems: check that a busy submount survives a synchronous umount
+c640a01a78e42302879006ed7b7d5a9a943ba815 namespace: check a recursive bind mount for mount namespace loops
+7c07b183000eb0ae21408581df88cffbcd38d8a0 selftests/filesystems: check that a recursive bind mount can't pin the caller's mount namespace
+0febe278ec45b1ccdbe9bd5ff1ba365d8fd55e2a namespace: keep covered mounts covered in OPEN_TREE_NAMESPACE
+fe187cbb48323aecb6fe58906341bc6478b6f2f0 selftests/filesystems: check that OPEN_TREE_NAMESPACE keeps mounts covered
+8714b44adac7b10506e1db3ef1710689751f0f10 namespace: look at the topmost mount for a mount namespace file
+c518a195f631cbf03444078d564d378cd9fa4a32 selftests/filesystems: check that a mount namespace file on top doesn't bury a mount
+6b7c001eb5857fa09041f47673666060a2e5fc1c namespace: check the mounts before reading their parents in pivot_root()
+d791606bb915a8f27e36657696fd1d9a216c5c08 namespace: don't reconfigure internal superblocks via remount and umount
+5e83e3a38b4d1ee99b044b968b78e3ca0935bab3 selftests/filesystems: check that the nullfs root can't be reconfigured
+1a116222acdcc1bc1a8350727ae6f28907d44594 namespace: remove the fsnotify marks of a mount namespace in process context
+75f4197f1e11d2eb75c2d6f916a7d4764db621e5 dcache: don't put a mountpoint on a dentry that's being removed
+0b6f31a3c0b16066f812e94b52a704174a6f23cd unshare: don't drop active namespace references that were never taken
+b138e16fb1e81376cea89f727dda7bfccd140de4 namespace: don't let a pseudo dentry become the root of a mount
+cbade031e2ebb3ca0a423b1804ce87908b27c229 Merge patch series "mount: more bugfixes, the Oprah edition"
+
+--===============7833235495892139920==--
