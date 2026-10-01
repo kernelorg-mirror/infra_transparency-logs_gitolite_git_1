@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Thu, 01 Oct 2026 08:41:26 -0000
-Message-Id: <179084408655.11795.18192881612446616969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Thu, 01 Oct 2026 08:55:47 -0000
+Message-Id: <179084494724.22097.9941304945340710061@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/clk/linux
+user: jbrunet
 changes:
-  - ref: refs/tags/v7.3-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 5e036ce12de91c6fd674dad33b169c6150be2a7a
-  - ref: refs/tags/v7.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c2cd463d6ee7d55a3ec0719d93c49ff99022d58f
-  - ref: refs/tags/v7.3-rc4
-    old: 0000000000000000000000000000000000000000
-    new: dec005ae90a2946656a090f37bf1cfbd22f08e57
-  - ref: refs/tags/v7.3-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 5a956dde5526a634dca7ccad27c051ebcc306089
+  - ref: refs/heads/clk-pile
+    old: 5795c6059d10afbc0fbcfe3cd95676be69b30bcb
+    new: d7e7f791c1997f500ad8a9b1f7e0855d61011fd0
+    log: |
+         d7e7f791c1997f500ad8a9b1f7e0855d61011fd0 clk: clk-gpio: do not blame the DT property on probe deferral
+         
