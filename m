@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3263837394296589557=="
+Content-Type: multipart/mixed; boundary="===============7975908991383936299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 01 Oct 2026 10:40:23 -0000
-Message-Id: <179085122381.102584.13978476225265231275@gitolite.kernel.org>
+Date: Thu, 01 Oct 2026 10:42:18 -0000
+Message-Id: <179085133845.103579.3197413745678691712@gitolite.kernel.org>
 
---===============3263837394296589557==
+--===============7975908991383936299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/soc/soc
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/soc/defconfig
+  - ref: refs/heads/soc/drivers
     old: 0000000000000000000000000000000000000000
-    new: 176c06fb3d88cb8d603d83c99ac51d2c419fe136
-  - ref: refs/heads/renesas/defconfig
+    new: 829945bdb7b3aee2e4381325b04b0b1d313292f1
+  - ref: refs/heads/renesas/drivers
     old: 0000000000000000000000000000000000000000
-    new: 74463c1be2ad066b436209d01dcdf8e717896504
+    new: 10eeafc3e90ebbe6627a7d471b86af889d7b07e5
 
---===============3263837394296589557==
+--===============7975908991383936299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1790851221 +0200
+pusher krzk@kernel.org 1790851336 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1790851221-2b11108a2fb5d59eb7b829498f6a3a2ea282461e
+nonce 1790851336-eeb547596a5ba8a7a77ab2acb733889575551129
 
-0000000000000000000000000000000000000000 176c06fb3d88cb8d603d83c99ac51d2c419fe136 refs/heads/soc/defconfig
-0000000000000000000000000000000000000000 74463c1be2ad066b436209d01dcdf8e717896504 refs/heads/renesas/defconfig
+0000000000000000000000000000000000000000 829945bdb7b3aee2e4381325b04b0b1d313292f1 refs/heads/soc/drivers
+0000000000000000000000000000000000000000 10eeafc3e90ebbe6627a7d471b86af889d7b07e5 refs/heads/renesas/drivers
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmq+OJUQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1wNBD/0U2I2GiJ2YmJd5sJk4IJ6JRH88kWQBUw0u
-vPZwx5mMm8FsOVxEaAshqYA1eRFVRStj8UKjyat3L71p23cu66x9vgsPF2ImPNLd
-IvEHnetR1sbA03aXgCIk2QbL41fzZfxuVdIx0m6Fqea7FO8QlqzjVQ7mKlbzlqgJ
-Fk2YeFUZv5tlcQ+lHaf1vD4qwMeoXkbubdGUahzakdCcSuOi0MR8W11W7nzFvSPj
-s3FUk1tvZ36SObDZCZBfTVdNx/PvL2qFo36ILcTpKaO3fxpyd/2sZjP3XoQp6TnV
-5WDYrxtAg0xv8Zw7mSBTKgV143p4XgCmJh7oYVcSXQlsY6bxGYNprqzCeplZBfPC
-6dGAWmvu7oeg8CS9pi1xeUJi0PDGkJ540ZET5Jgr1LRPrJZpjlt4VcUw1cwbRFyy
-mCQImfeTY+mVZLNWlvgOGqsEhCyArG++w7eXGTyaM7jCofwvodnktdXqpY+2V4KN
-4YaITWtIk/kqJdSxdvJmjl6j/nycKz//7VHiSPYT4cqTYtovZ3L9bhmD4hSHMnDn
-zVnK8QqNqRYX097gUTYPPDEWwyT64CPlAyxvrC0Ei/ow46Z2L5NnZ+00EFhEcKtb
-X/CAKQ767vjnT/SmD4/vjc1VyDBgdXPPvXNxXxxp21gyDrOsnVu5HzTpiygY0T5/
-rVVqUvuw2Q==
-=YBbx
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmq+OQgQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1zfPD/9nz5ZGNJoa1bCDOCtFBiparVnjqWz/Ufod
+Yh7YLPbN4S8xZNdxjOjvLV2EQuRO9YvvarzULXDCHHE0VuTBLGSpIVu1vdiVStVG
+2Km5glCMUw3Vr27XNgBPHP8yWHOXMcUMdMhNq97g/7DmQGw2xtSBwg4fdWzzezBL
+EwUx/NT9GRFEQRk3sSDJHCQFWqWT9tyc0JcV2QH623CNvgBeHLTliQYQyEZN7KTX
+ZewwUkGRvvbeBJ+StWQuOdv8xSQoFIo9UOCJ4m7VnRqDDuVOPhDwMz2lFxhlyS/h
+Uqas8LVN6ZDuMvdaKKSq+AOBvIW7i1I5uaJZOgofKb/eTxVDnc/qZwngjw+hVLmO
+s6tdPpvZvi0Uh5rCmBCkP+AFM6WG0pjDNGoYjQx7kimXm5qonP9TjlI8BqjiuDqK
+FiKXKNp5pSw/fyNgutitO2P1XpvA9EkwBPHFvSx0excDGEfcXhspDq8TQy+ssULN
+YPGFG6rLyQy4/5QK+6SkY+zugJFYCuMVjqdRkugMVd6T11MuzaJPnrMlkI/qlZ6o
++T8mk2twLBMmtgiKMX7CBe4oyJP4Nq2Vl3aTyl1gUkwm/A320Hlju3Cf8ITPuAu7
+DcNRgzGgHx6B4lwRoLWctJVNuxB4e+0gCWJJ7x7Xyv5H1w9Ri6xrBdWcYBpqRq5j
+IA5nuCR4GQ==
+=yhR5
 -----END PGP SIGNATURE-----
 
---===============3263837394296589557==--
+--===============7975908991383936299==--
