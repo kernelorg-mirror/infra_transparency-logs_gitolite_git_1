@@ -1,63 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============2527484491307478742=="
+Content-Type: multipart/mixed; boundary="===============0992009320820928835=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 01 Oct 2026 12:10:53 -0000
-Message-Id: <179085665356.177940.17969217308876270685@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/spacemit/linux
+Date: Thu, 01 Oct 2026 12:11:55 -0000
+Message-Id: <179085671575.178444.7208044491336087270@gitolite.kernel.org>
 
---===============2527484491307478742==
+--===============0992009320820928835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/spacemit/linux
+user: dlan
 changes:
-  - ref: refs/heads/soc/dt
-    old: 587262c89de87437cd825750b9336e456ba4d149
-    new: 29d85a0933e6bc4fe0723ab93b3e7c73ab549bfb
-    log: |
-         f97be0d722ebef4de65a39813778f6ba62c2ac1e dt-bindings: arm: mediatek: Add MT8127 Amazon ford
-         5e23e7d730c6e984e4f03c3b25e2188de9f4ba99 ARM: dts: mediatek: mt8127: Add watchdog support
-         2e195497fc9fc0dd89cf95dab80a2d0486dab65b ARM: dts: mediatek: Add basic support for Amazon ford board
-         29d85a0933e6bc4fe0723ab93b3e7c73ab549bfb Merge tag 'mtk-dts32-for-v7.4' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mediatek/linux into soc/dt
-         
-  - ref: refs/heads/mediatek/dt32
-    old: 0000000000000000000000000000000000000000
-    new: 2e195497fc9fc0dd89cf95dab80a2d0486dab65b
+  - ref: refs/heads/for-next
+    old: 4b98722be2911a922fb29b54adccdee46f6a9f41
+    new: 8154bde1241afb206f665450d15501369a29f9b7
+    log: revlist-4b98722be291-8154bde1241a.txt
 
---===============2527484491307478742==
+--===============0992009320820928835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-4b98722be291-8154bde1241a.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1790856651 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1790856651-5781b9123cb309ee0c633756d986bab064929acd
+0317df585ea57f408396c998c7064d1c509a6573 riscv: dts: spacemit: set console baud rate on OrangePi RV2
+62a66f4fa30e710e1354612ceffb2a6758b0ba7e riscv: dts: spacemit: k3: move USB3 phy to board level
+25660e0e745483db4aeb26453a830c3484c99b56 riscv: dts: spacemit: k3: add USB3 B and C controllers for Pico-ITX board
+f5c5ccfbf8853e17f11781d582608ee6a9b6a209 riscv: dts: spacemit: k3: add rfkill node for Bluetooth on Pico-ITX board
+576b75232fb9c32ac5f33eaa0115ee0a949acd67 riscv: dts: spacemit: k3: add rfkill node for WLAN on the K3 Pico-ITX board
+4618b1af3bb70e1395fbd04ab8f77cab3f050c89 riscv: dts: spacemit: k3-com260: keep dldo4 enabled
+42bdf20b8a88dc3ab0f32e21d203994b70a56a21 riscv: dts: spacemit: k3-com260-ifx: Add USB nodes
+0bf66816dd7ac1cc47bc6d56119ae7ab53407a29 dt-bindings: timer: thead,c900-aclint-mtimer: Add SpacemiT K3
+451590effc5706b7af9007328975b7fbbc5d1b82 dt-bindings: interrupt-controller: thead,c900-aclint-mswi: Add SpacemiT K3
+ea38fdb55d2e2eb3016a64d3d87f66b3677a92b2 dt-bindings: interrupt-controller: thead,c900-aclint-sswi: Add SpacemiT K3
+015366119396049b1753186c58771c73ce7c37c7 dt-bindings: timer: sifive,clint: Remove spacemit,k3-clint
+ed7d08fd03309a4f295a76273277fec98dd54ba1 irqchip/aclint-sswi: Add support for SpacemiT K3
+7c6d53827c9dd70c46acc5821ee611858d94a4f4 riscv: dts: spacemit: k3: Replace incorrect CLINT node with ACLINT nodes
+8154bde1241afb206f665450d15501369a29f9b7 Merge branch 'spacemit-misc-for-next' into spacemit-for-next
 
-587262c89de87437cd825750b9336e456ba4d149 29d85a0933e6bc4fe0723ab93b3e7c73ab549bfb refs/heads/soc/dt
-0000000000000000000000000000000000000000 2e195497fc9fc0dd89cf95dab80a2d0486dab65b refs/heads/mediatek/dt32
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmq+TcsQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1yqwD/4tY0X3OSaiAeGZQvKszx+eoX0K8YTb1D2I
-Eb9r9UGOFhVKwGztlXRDTOt/+vcnf7tYKHj3CjAaI4pVpZnfMoiCmL93Q1TAkiog
-jJj1mWXKA3yX7X5ZK1EnAd9gknt+FSb0LfJjPLs7c3F4SIZFzTsE5fdZ0CL2oBkg
-P8OUAf735LNHkOJ7vN6BKCVhJRthKv/sbXXhK14RirtrwOyjdXSmP/zk8602I1V8
-n/eJuWDHpo5MpK9ALMxnIHpcWqhuXOMVvgwnUIrSszRJJkWdDIZzD6PQt61me+XJ
-tVrpnr32Be0eXIf45TlA98ogrBm9XVF4V9pYFtFZN0nA6kRn03EyD4ogdymWW09U
-dxD2XE2XI4Z3o99RMbIOh7IFm5zOBUUevxqfgWUtFmjrer/FIOmtoLzQOH2o6e7x
-r3TJNuZ1VJCR6fdnZX8y+PpocWb8yideBgpXH2B8k7R4eKRBPfOH9NQFqfq+cLD3
-9Yr22gJfWsCict6Ls/f/R5nTDpyM7mZZz49e1objlKNm40+VukaGmcpXU/UCm1bk
-xDVA+zHE1Ik1Auskjv2caP+EcXIUp9B6560D8eigfpwlpM+qJjeVELLo5wMabpO/
-imseijIbXUkhyQuO0Be+1jRlyw3qP/kIJkZRqjXFCLY1hACrXcy0r1zVUWvJi8WL
-fPAuWRxKOQ==
-=dzkq
------END PGP SIGNATURE-----
-
---===============2527484491307478742==--
+--===============0992009320820928835==--
