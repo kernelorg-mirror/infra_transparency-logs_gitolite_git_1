@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============9062002541517514581=="
+Content-Type: multipart/mixed; boundary="===============9000463799408153758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 01 Oct 2026 16:04:19 -0000
-Message-Id: <179087065978.379080.5612877352126630268@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 01 Oct 2026 16:04:30 -0000
+Message-Id: <179087067081.379364.17333970024314220998@gitolite.kernel.org>
 
---===============9062002541517514581==
+--===============9000463799408153758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 148cd3adf2df9e53fd9b3070ae1178d4876f8c67
     log: revlist-705da5b15ab8-148cd3adf2df.txt
 
---===============9062002541517514581==
+--===============9000463799408153758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -52,4 +52,4 @@ cd116fcbc0bec7340a659e62210b963c49f93c1e perf test: Update attr.py to use argpar
 76e042d3e781841e283d81553f10a1987a852647 perf build: Clear GTK4 instead of setting unused NO_GTK4 when gtk4 is missing
 148cd3adf2df9e53fd9b3070ae1178d4876f8c67 perf build: Fix clean and install target dependencies
 
---===============9062002541517514581==--
+--===============9000463799408153758==--
