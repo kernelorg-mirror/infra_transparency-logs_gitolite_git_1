@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Thu, 01 Oct 2026 17:56:07 -0000
-Message-Id: <179087736798.476250.7745659229468081156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
+Date: Thu, 01 Oct 2026 18:06:06 -0000
+Message-Id: <179087796619.483387.11333332179493407385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/superm1/linux
+user: superm1
 changes:
-  - ref: refs/heads/for-7.4
-    old: 5a711e2fc9d48e54d7ad4279cfaf4cf8d084452f
-    new: d5632ae015028376668ef29e3a24c099611a55c7
+  - ref: refs/heads/linux-next
+    old: c8663e0457e6e6c72006478f4b6da99060030ec1
+    new: b3f9051ae263940af4a69212c88fd094401cf92d
     log: |
-         d5632ae015028376668ef29e3a24c099611a55c7 cgroup: Track the effective css in each cgroup
-         
-  - ref: refs/heads/for-next
-    old: b39049c04ce69cbc039a4b002c911d7a9768a213
-    new: f754f57f2956139c2a3a19c35ef61161daa0e1ec
-    log: |
-         d5632ae015028376668ef29e3a24c099611a55c7 cgroup: Track the effective css in each cgroup
-         f754f57f2956139c2a3a19c35ef61161daa0e1ec Merge branch 'for-7.4' into for-next
+         50fb9e04c9b1fe822baccba57801e2bc7795552e cpufreq/amd-pstate: Restore previous EPP if profile_name allocation fails
+         b400642c5e93863ec17ea15fcbd3efc81c299531 cpufreq/amd-pstate: Skip auto_sel write when it already matches the mode
+         b667a680917119827916bf2eb7d6f8de9c47531f cpufreq/amd-pstate: Fix TOCTOU when changing driver mode via sysfs
+         52763c00945ab30241d9c097547600b9e234e559 cpufreq: amd-pstate: Update Zen6 client EPP tuning values
+         4817d3e2b90dac50eb11cee32a0cf92d294261ea ACPI: CPPC: Refactor boost ratio handling
+         f9da951d309b24aea5052b76ab9438d7854a17ae cpufreq/acpi-cpufreq: Use amd_get_boost_ratio()
+         b3f9051ae263940af4a69212c88fd094401cf92d cpufreq/amd-pstate: Get Highest Freq for a CPU
          
