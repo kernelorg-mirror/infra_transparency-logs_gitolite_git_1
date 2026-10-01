@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1707554363354443149=="
+Content-Type: multipart/mixed; boundary="===============1643681592213343025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 01 Oct 2026 16:25:14 -0000
-Message-Id: <179087191431.398591.11688836337482490682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 01 Oct 2026 16:25:34 -0000
+Message-Id: <179087193431.399216.6602839782112278777@gitolite.kernel.org>
 
---===============1707554363354443149==
+--===============1643681592213343025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 6c2cb8b8b843d216ab549b678a0d8831c43153e0
     new: 9f24d789f03b22941b905ded43cb5ff8eea9ce62
     log: revlist-6c2cb8b8b843-9f24d789f03b.txt
-  - ref: refs/tags/next-20260701
-    old: 1cdcb13c59e8f1c278afede638379bd00b1b7bce
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20261001
     old: 0000000000000000000000000000000000000000
     new: 721d0f3dc344254842e46bf935ab1e985198a1e1
 
---===============1707554363354443149==
+--===============1643681592213343025==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1057,4 +1054,4 @@ d8568d3318d4aa52c2b6b60a8a7e8dcaad836760 Merge branch 'headers' of git://git.inf
 7cca939fc6f6cd53d53351a5c5afa3949924e046 Revert "vdso/gettimeofday: Assert that the clockid fits into the u32 bitmask"
 9f24d789f03b22941b905ded43cb5ff8eea9ce62 Add linux-next specific files for 20261001
 
---===============1707554363354443149==--
+--===============1643681592213343025==--
