@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4155380535347882633=="
+Content-Type: multipart/mixed; boundary="===============1015455033437119704=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 01 Oct 2026 05:32:53 -0000
-Message-Id: <179083277339.4066689.4612056961471306484@gitolite.kernel.org>
+Date: Thu, 01 Oct 2026 05:36:53 -0000
+Message-Id: <179083301367.4070256.14243206702501362143@gitolite.kernel.org>
 
---===============4155380535347882633==
+--===============1015455033437119704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: e94cda6551d4716b17353fc458baa9e85ddea9ff
-    new: b91144fb9a206ee0aa7b718489e67a0e36a064ff
+    old: b91144fb9a206ee0aa7b718489e67a0e36a064ff
+    new: 42109294df788906342c1711d4d43a26e52fa301
     log: |
-         1372c8614d687b5239aae372fbd197fecab9127e staging: rtl8723bs: remove commented out code in rtw_recv.c
-         99a7a783d9d99ee1e77edfbea82bbddf3e1f6f9c staging: rtl8723bs: remove commented out code in os_dep/ files
-         b91144fb9a206ee0aa7b718489e67a0e36a064ff staging: rtl8723bs: remove commented out code in hal/ files
+         d92301f372591e72ec02e6c716b2af076749a687 staging: rtl8723bs: remove unused EF2Byte and EF4Byte definitions
+         10384f596649f4de26932846463d1b105d3a217a staging: rtl8723bs: remove commented out code in rtw_mlme_ext.c
+         42109294df788906342c1711d4d43a26e52fa301 staging: rtl8723bs: remove commented out code in core/ files.
          
 
---===============4155380535347882633==
+--===============1015455033437119704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790832767 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790833007 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1790832770-00182f755e49bb0f309541a1a2d3e4e83d670a8a
+nonce 1790833010-cd529e89acc97a49c8870ed9cd719bc2def32892
 
-e94cda6551d4716b17353fc458baa9e85ddea9ff b91144fb9a206ee0aa7b718489e67a0e36a064ff refs/heads/staging-testing
+b91144fb9a206ee0aa7b718489e67a0e36a064ff 42109294df788906342c1711d4d43a26e52fa301 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq98H8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GEAQAIlGxQ+INg44dUXJMxL7
-RywVKSK3zssjPe8RGjae7+jsFhSNO4rfpsmCilsv51X0TKiKlbsllHPDULdDMIPg
-e/jIfy7ph4Wnssrd3J2gOThboSpeN97HcT/um9oBXbySA2UJg7iI1MGQOl5BYNSH
-fZP19nQZqADOPBQEAkmy9AwV8srb8pvd+SLugYb38dWW0Pv6NH8khZLZXHcos0ic
-y9sTCz/TXMdXX9c584bsysabAeHoUL/sBi/xr8XReyH5+eyo1d9hNoPPEwJWKRGS
-U6TvWBsnrWZOoWmjWR57JcGc+sw55S7w/Ey+ncrO0rNKafXzZulbCmRkN6k4gsR/
-53aDstWGhd60YP6hZhdsFfivlJKHSR4+eiIxZgSQCR8Pu1j7DiEgwRaL+UsmPEgj
-Lt0v02mvSXZYfeSwAsMfYsHgnjrIafpHqfEp3bLYmutB6jEwx/XOdMVSSJMcbCX+
-V8ihyoX064N7wVlZf+a+FwHYixkOBg247s3n4qh4KzxCI2Z/LjxHiFEWSU4/thzq
-f7wM2NmXVHRXQPMiXpSd73UPzJFl2KM+ovEhtNvKNzFMoaJtwkYC8PY/CtKyN5Y1
-e+1oFGf2VAPbHLBhotq9Kv9grcCUj6xhSghp9GFU5rYKNKSWM5aohbWhWC0c4RTH
-dV2JIX5cZaT/jBzpp7IwaHxG
-=t1k6
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq98W8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VxsQALWq+qJYyJfwf4eFgC3y
++8/nndm58lzhfq88xkC/eqBg5QmGOOWhLpDe5l4SvvVzfsHYmslswJ5hamSjYjb7
+Eq9FmT9mv0XARZN7mGMd0w0VT5dZBnPEZlav1TtCn2kCWUP9YlBRcwLJrfqP+R5+
+S2XB7aKhV1jzw4KWWDNZ4I7drbEI4g02i7Z2dFMvvzBmY/Z1dhNGTeXgD/tRYS+P
+rpEfgB8G9zj3K8U7/gqyi6v4jMJf3NfAXPos7m83I1/CoCvGWVzjpXxfnpVxBv2q
+KJ3ovT3tj/i2y0RyVn95+a8cO0g6EApi/fio5bfizlteUV5xIlRSic6aLFwyllC1
+zFNwPR0tuhIics6XJEhazDQCsiLCG5diZOC1MAjqwxbeTsHPAeLVdwKnmZ3FMfUg
+bNVexTMEiHe40/nbZsPb8BCJXeJWrrO7UIUarEyVt1E0ztaM+AeIu8hmjkhP4sch
+xJgofsuKEBCGo6TS1gggFvn4K7IlfMdP9kqw/LwBrq9z90OOezj/9ETCSR9ltjHT
+U7uUg5x6vozrRlKD3+bp8zonPQFYtjwbBjEoIjbzspAi+ADUgXTbWOcx5KAR/huB
+hzIjVVyyoqawNMPI2xB76VcWAAohEQke/j2+4iuAMILKznMWa5LW6qtqftlJsNHV
+1sT20+CQ+cQ0q8gbzehlMT5G
+=xJ5Z
 -----END PGP SIGNATURE-----
 
---===============4155380535347882633==--
+--===============1015455033437119704==--
