@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 01 Oct 2026 23:52:39 -0000
-Message-Id: <179089875975.733257.1964413949179773223@gitolite.kernel.org>
+Date: Thu, 01 Oct 2026 23:54:15 -0000
+Message-Id: <179089885538.734041.4491753280845997531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: iwamatsu
 changes:
-  - ref: refs/heads/linux-5.10.y-cip
-    old: f6113c696e05dfdbf7af35c27b98b5084cc04b75
-    new: d6fc24f245633ae986b666cb0ba3bfff8170a93b
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 5295a825b55f77c82959ec1621b377915f57fca5
+    new: e0e9022bac5b09d00b45cb97cde01d2068ca2529
     log: |
-         c7a8246a6592128a3f50e15db3c30e5dab9a70c8 arm64: dts: renesas: r8a774a1: Add missing iommus properties
-         4ce8c48b9b0785da26a6f70f3eb57ab0bff4f00a arm64: dts: renesas: r8a774b1: Add missing iommus properties
-         65a5053440bbf199bec8a1fd041cc8b9fabfd040 arm64: dts: renesas: r8a774c0: Add missing iommus properties
-         d6fc24f245633ae986b666cb0ba3bfff8170a93b arm64: dts: renesas: r8a774e1: Add missing iommus properties
+         7cb4b1c919fe1fca640beaf89228da5fd1b12d30 arm64: dts: renesas: r8a774a1: Add missing iommus properties
+         6d9ae2c5274d185fcf9e61db7be0a36ab3a6cee7 arm64: dts: renesas: r8a774b1: Add missing iommus properties
+         8cd91022fed113579545d5fa18c32ed6169c824e arm64: dts: renesas: r8a774c0: Add missing iommus properties
+         e0e9022bac5b09d00b45cb97cde01d2068ca2529 arm64: dts: renesas: r8a774e1: Add missing iommus properties
          
