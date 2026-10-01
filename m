@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 01 Oct 2026 05:55:37 -0000
-Message-Id: <179083413796.4085889.4542673989823479109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Thu, 01 Oct 2026 06:11:07 -0000
+Message-Id: <179083506793.4096788.10847552811552861489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/x86/cache
-    old: a17d099481bd11f0911993a8e69992269f92ad12
-    new: 50e5282df427830fcd810e553f0e355d9cccb3e2
+  - ref: refs/heads/opp/linux-next
+    old: 1f6de65e3314519ce462bfd3a1d29e918f97e4e5
+    new: 706081c6b9327dd611dd72b20130a77f0f059b6e
     log: |
-         50e5282df427830fcd810e553f0e355d9cccb3e2 x86,fs/resctrl: Add event group descriptions for Intel Diamond Rapids
+         706081c6b9327dd611dd72b20130a77f0f059b6e OPP: Fix the return value in dev_pm_opp_get_of_node() kernel-doc
          
