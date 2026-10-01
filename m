@@ -1,62 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0135523963111689029=="
+Content-Type: multipart/mixed; boundary="===============0607897421641923433=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 01 Oct 2026 12:13:30 -0000
-Message-Id: <179085681078.179371.14912921681731395263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 01 Oct 2026 12:14:45 -0000
+Message-Id: <179085688504.179880.16756511680064462897@gitolite.kernel.org>
 
---===============0135523963111689029==
+--===============0607897421641923433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/soc/drivers
-    old: 59797443846bc2451c35816026bbb79d281c9f23
-    new: 92af626bb688b53a3c8c4d9ecea35888d3156299
+  - ref: refs/heads/staging-testing
+    old: 94f8dd8b96b03a24d9831ecc564eefa95f2edb80
+    new: eb903412616ff46a88d30fefb1c550d89a7c3d55
     log: |
-         6c5388154299ee0b5ab2c654d5f3631bafd524a7 soc: mediatek: mtk-regulator-coupler: Add support for MT8189
-         96c2b43b1fb305e91700f64e9f758fc140c66b83 soc: mediatek: mt8167-mmsys: add routes for all display paths
-         92af626bb688b53a3c8c4d9ecea35888d3156299 Merge tag 'mtk-soc-for-v7.4' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mediatek/linux into soc/drivers
+         eb903412616ff46a88d30fefb1c550d89a7c3d55 staging: rtl8723bs: make rtl8723_dequeue_writeport() return bool
          
-  - ref: refs/heads/mediatek/drivers
-    old: 0000000000000000000000000000000000000000
-    new: 96c2b43b1fb305e91700f64e9f758fc140c66b83
 
---===============0135523963111689029==
+--===============0607897421641923433==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1790856809 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1790856808-f463d73b658e349bb3e68e42a335d68f7a78cd7f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790856879 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1790856882-08fbf20afbdac1e3591797f1547748c067a5f508
 
-59797443846bc2451c35816026bbb79d281c9f23 92af626bb688b53a3c8c4d9ecea35888d3156299 refs/heads/soc/drivers
-0000000000000000000000000000000000000000 96c2b43b1fb305e91700f64e9f758fc140c66b83 refs/heads/mediatek/drivers
+94f8dd8b96b03a24d9831ecc564eefa95f2edb80 eb903412616ff46a88d30fefb1c550d89a7c3d55 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmq+TmkQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD18VKD/wMUF3HrUa5pulgoMKDjvYt1GjFO2dIg4dN
-vYSLRY8StEgnAp8REGg0Pr5k0MQNhGeGvdHjGG9i1HYT9w3Sq0C+pRWeaExBKJsS
-Kg3rDVGBwjVCR4uVykDlskedM3rXEUSeoknyl1YOOPaAsPgdIx1qTE00aBbn5NfQ
-QstXvua0mv30/TrWdLmKtVaQGNHQDdudQ0bXsxZZ1IiQqg1C/s+fLVO4LlvXt/vl
-5slbukO574X5pgvG4BzEVLyW2/Pkv08v/9VphyXoSvABMC5xY/t9MkuJCUeyteaV
-9tungvdUlhJLp6q4lHigKafjtSaIyLs8xoBv7OdAH/5xzj0kdXmI3ya0LwikL1DY
-f1fOxGnfKe+5MteOeoIik5rAwg+AO0+/AZgoj4o7E2LXFzGJidKRnqrE8eMui2q8
-zqctcR3+rQ77vHxWJOrsehashmm5rOSYqKmxDan6GpNXTEs1Z/qsqUH8akJ+g8N3
-uDFZvNS1aokCYwXD5bGOxvJN4WDoJKjZO0a6llW0ZbA8qTqSwiA+zXKFRKIuhRgu
-twDBt5J9REfZ0mtRHTNbqKTz1kcZLj3g6GVwcEn4U8XnpbHmEm9R8uLJlnyUlVsk
-FAHsYEoYCm6Njjvv1bLPQNiFtTU7y05MMj/TRBPFVWtclL18yTlRB8cYQ1fYDQ5Y
-47Zll8StWg==
-=fiNk
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq+Tq8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DuYP/A+8KEyCfN6gdsDW+Pab
+Mpr42boaQiVmJh8Lo0SAGFfaeuZBSwek0NW6g+McOrwvshiT/fLHnI4W40dGGpXO
+qRiMugoD5sy1OO9d21/43B2sQuwv1NNYlqJN0Ic2zmWSVtkW/VVNRXHAOH40ZPti
+1i8MsWjKdLA/hKYiyouMDx2MzgqVDRRUlzrczzaD61a2ORkJWAJV2CSn8/qGoZbI
+R76FFOLCvSyN34JFaroqXDJONttghdE0HUI+49cBB4eZHL4i4ngHGAT9X04D2PDG
+5kpi4rhEY6Glivqbz2lhKnZI0CIkBitM+kO0RXyvpeYl61NesQBTK+ZLj8ygBetI
+JRWX4VhgDpxjXqjyUJYrULMclhb2srU9xN6sIX/YXs6iMt4KtGNAXL1RIc9imDxl
+2kJAfgjdUr/PA7yOvKJOaIVrny8+GADMLjXkJ91Vr7NqFx9FABoIrWQdYtoedbhj
+soji/901GrQczC7Q+gEUBYQoAm67feWDjjeeG9eFogueqpOGHRFeE2t521Y57pe3
+RKpSG9BqqeUbRIyoqR+sVba6PjnbmtVVtBa+eGts2e49+dnwfgjmJyz/aDAAKxIa
+0B2caxm7IUP9N2sL097xf+jWMiq0Gaagi4mbL41CGyEvI7DmouTl/Dd/bLgrcmv/
+b5vWXkUGf4zbx6bUDYWPvs+x
+=sz22
 -----END PGP SIGNATURE-----
 
---===============0135523963111689029==--
+--===============0607897421641923433==--
