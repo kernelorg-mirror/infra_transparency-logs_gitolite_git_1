@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6450683607533163761=="
+Content-Type: multipart/mixed; boundary="===============5176660476855450256=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 01 Oct 2026 07:07:27 -0000
-Message-Id: <179083844770.4136160.7394270901724443781@gitolite.kernel.org>
+Date: Thu, 01 Oct 2026 07:07:29 -0000
+Message-Id: <179083844988.4136312.7539514779139827411@gitolite.kernel.org>
 
---===============6450683607533163761==
+--===============5176660476855450256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 36487c3ed2f46edcc7761d96b7c3674cd6bd2bb0
-    new: 21c3620df8ad362e9f2069ac35577c2a2f782f33
-    log: revlist-36487c3ed2f4-21c3620df8ad.txt
+  - ref: refs/heads/mm-unstable
+    old: c5d06644a7525baec96f05918c413dfbabcde297
+    new: b2b4b29b76dabdee576eba66953a66ca61c5fca0
+    log: revlist-c5d06644a752-b2b4b29b76da.txt
 
---===============6450683607533163761==
+--===============5176660476855450256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36487c3ed2f4-21c3620df8ad.txt
+Content-Disposition: attachment; filename=revlist-c5d06644a752-b2b4b29b76da.txt
 
 f3f61c753cafd222c59006be2027996acecbcf53 mm/vmalloc: use dedicated unbound workqueues for vmap drain
 43dba8c6f8311add67f489ab9e2ae2ddb73c2a1e xarray: fix index jumping backwards in xas_find()
@@ -720,30 +720,5 @@ da228679f6d1a9bd54e6dbc46da63fe33e7faea2 mm/damon/sysfs-schemes: support quota g
 22a0b961fdd662aee13a649eeb153de4297405d4 Docs/mm/damon/design: document damos quota goal complement flag
 5c29d758d295991f1b87dd3cff5676cedbd2d710 Docs/admin-guide/mm/damon/usage: update for quota goal complement file
 b2b4b29b76dabdee576eba66953a66ca61c5fca0 Docs/ABI/damon: update for quota goal metric complement sysfs file
-dd8afa50b4de7902a7255fbd4a7b970ad105a2b7 zram: fix short reads from block_state
-308453845e0afee8356f981b51d9902b5738b896 mm/sparse-vmemmap: drop VMEMMAP_POPULATE_DAX
-b21ecb7e9b47133e581e1f97097f172acc02afcf mm/sparse-vmemmap: support device DAX in common vmemmap path
-6c8bb0c492277c6401981a67e22cf691c7692846 mm/sparse-vmemmap: drop Device DAX-specific population path
-d7480d3b25016abe1052881906ea3d67a464d5d3 mm/sparse-vmemmap: remove the unused ptpfn argument
-03b5ef4481ebd62dd9f5f9a37dc69e2b1340275e mm/sparse-vmemmap: open-code vmemmap_populate_address()
-e24ce831914c50db50939e08dd04b7e1e2711c80 mm/mm_init: add zone mismatch warning during page init
-614f0c3b9e7d803da45b2905521083b8de35a62c tools/cgroup: sum shrinker object counts across NUMA nodes
-3592d9754969184de78546436acdc98c40c6fd39 selftests: run tests on nommu architecture
-2842e18b07e72c39649cd6c908d1f8ce6ac1664c selftests/nommu: add nommu mmap and mremap behavior tests
-5b0e8ea931a9eb206531584acea26c2adca88431 mm: make swapoff interruptible when unusing mms/shmem
-4269a81bd780ceb5b69fa1bf17e61b8671987bed selftests/mm: fix soft-dirty kselftest supported check
-222f022ea2cff264bbbe37b2ca0ae9748258413f riscv: mm: fix concurrency in mark_new_valid_map()
-3ac6512bbf9cacbcba9ea127570f597ace037825 riscv: mm: exclude invalid THP PMDs from page table check
-704ef1350077e2e619c52c7e1fc3bb777146e277 sh: remove CONFIG_NUMA and related configuration options
-f091ae7f6f556d7abc5c006a73f812eb2ed4b13d sh: mm: remove numa.c
-ce2e9baacae9bb9d08117db3c76c1bd844a33f64 sh: mm: drop allocate_pgdat()
-60fec24eebee28e2f31d2ae38d8f4f1072c14ab5 sh: remove setup_bootmem_node() and plat_mem_setup()
-ccc13cc0dd41cb25c4f6b12afba6b484ea7fdafa sh: drop dead code guarded by #ifdef CONFIG_NUMA
-f95dc6334f8fdad943abe80eaf9ce5fac3e72094 sh: drop include/asm/mmzone.h
-ab22a3c604324076365361571ac7a36747403e3b init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-348bb9b882f52c9e3fd102cac0f677d7968f2aa5 sh: init: remove call the memblock_set_node()
-dda7d31bfa0c9d6cf1f1ca56af0d4a31aeaf54ce sh: remove SPARSEMEM related entries from Kconfig
-d26db4e63a130e0e732fe330c0f25f03ee8cbe5c sh: drop include/asm/sparsemem.h
-21c3620df8ad362e9f2069ac35577c2a2f782f33 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============6450683607533163761==--
+--===============5176660476855450256==--
