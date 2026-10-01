@@ -1,63 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============8899678877842854072=="
+Content-Type: multipart/mixed; boundary="===============2550593716379550949=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 01 Oct 2026 11:53:05 -0000
-Message-Id: <179085558517.161053.15906693308970748661@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/spacemit/linux
+Date: Thu, 01 Oct 2026 11:55:30 -0000
+Message-Id: <179085573075.163775.11698138724671449089@gitolite.kernel.org>
 
---===============8899678877842854072==
+--===============2550593716379550949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/spacemit/linux
+user: dlan
 changes:
-  - ref: refs/heads/soc/defconfig
-    old: 176c06fb3d88cb8d603d83c99ac51d2c419fe136
-    new: d1b0914f0dacf0d3387eed11bac12b49e8594eb0
-    log: |
-         6f422914412bde4c431706079525c581bf439e03 arm64: defconfig: enable the necessary drivers for the Ayaneo Pocket S2
-         6708289cc13812cebedcc396a42f62d3f92b2dbd arm64: defconfig: Enable QMP PCIe Multi-PHY driver
-         897cf6d54f366885e190e75b3a221e7b3ae35065 arm64: defconfig: Enable PMIC5 Gen3 ADC thermal monitor
-         d1b0914f0dacf0d3387eed11bac12b49e8594eb0 Merge tag 'qcom-arm64-defconfig-for-7.4' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/qcom/linux into soc/defconfig
-         
-  - ref: refs/heads/qcom/defconfig
-    old: 0000000000000000000000000000000000000000
-    new: 897cf6d54f366885e190e75b3a221e7b3ae35065
+  - ref: refs/heads/dt-for-next
+    old: 4947ee60bf48caddf5caefc08dbbc84d09fbbc6b
+    new: 7c6d53827c9dd70c46acc5821ee611858d94a4f4
+    log: revlist-4947ee60bf48-7c6d53827c9d.txt
 
---===============8899678877842854072==
+--===============2550593716379550949==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-4947ee60bf48-7c6d53827c9d.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1790855583 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1790855583-e696fb1fba33179915179ae0b1b5cdbdd8a59f9e
+0317df585ea57f408396c998c7064d1c509a6573 riscv: dts: spacemit: set console baud rate on OrangePi RV2
+62a66f4fa30e710e1354612ceffb2a6758b0ba7e riscv: dts: spacemit: k3: move USB3 phy to board level
+25660e0e745483db4aeb26453a830c3484c99b56 riscv: dts: spacemit: k3: add USB3 B and C controllers for Pico-ITX board
+f5c5ccfbf8853e17f11781d582608ee6a9b6a209 riscv: dts: spacemit: k3: add rfkill node for Bluetooth on Pico-ITX board
+576b75232fb9c32ac5f33eaa0115ee0a949acd67 riscv: dts: spacemit: k3: add rfkill node for WLAN on the K3 Pico-ITX board
+4618b1af3bb70e1395fbd04ab8f77cab3f050c89 riscv: dts: spacemit: k3-com260: keep dldo4 enabled
+42bdf20b8a88dc3ab0f32e21d203994b70a56a21 riscv: dts: spacemit: k3-com260-ifx: Add USB nodes
+0bf66816dd7ac1cc47bc6d56119ae7ab53407a29 dt-bindings: timer: thead,c900-aclint-mtimer: Add SpacemiT K3
+451590effc5706b7af9007328975b7fbbc5d1b82 dt-bindings: interrupt-controller: thead,c900-aclint-mswi: Add SpacemiT K3
+ea38fdb55d2e2eb3016a64d3d87f66b3677a92b2 dt-bindings: interrupt-controller: thead,c900-aclint-sswi: Add SpacemiT K3
+015366119396049b1753186c58771c73ce7c37c7 dt-bindings: timer: sifive,clint: Remove spacemit,k3-clint
+ed7d08fd03309a4f295a76273277fec98dd54ba1 irqchip/aclint-sswi: Add support for SpacemiT K3
+7c6d53827c9dd70c46acc5821ee611858d94a4f4 riscv: dts: spacemit: k3: Replace incorrect CLINT node with ACLINT nodes
 
-176c06fb3d88cb8d603d83c99ac51d2c419fe136 d1b0914f0dacf0d3387eed11bac12b49e8594eb0 refs/heads/soc/defconfig
-0000000000000000000000000000000000000000 897cf6d54f366885e190e75b3a221e7b3ae35065 refs/heads/qcom/defconfig
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmq+SZ8QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD10IrD/4+pZ+FLjRh8yIcm9kakfHS4gH3Ht+mWVZW
-yuUpEwiVRIlCuVQJ9papGxUjjxshy03dZd+AoPR2GWneB2GWPNNyjDab1HwCrNpf
-rBfWrWHOJ97IL0uy9BW6z6D6TAh/cS7PnyUKHf28oR2iZlGe+4mMlPtVbRXGpv9e
-x9/yca+PkpWAqb+gQHM5smTr+UEqqvK+Rf7l2Jg4DTnsX33VmgXIIs2rS2XJKV7f
-Jo+9e6vDkRbY1N48oC6XEncmklwEggLFQYh1vd2sx4RALM0aH0Kj1s0QLfgHBFWE
-QJ4qi4HLfm9Bf3LUy3xyvSe/Efk87d+RnF6Twor6oWv4i0wmNvg7d/CmlBzDIo6i
-Afas0cf390jvlxROsU4yGCUZ0v7kwuKjzU2SijAOR1EAFfV//VQWKpMRK3CvRJ1R
-G348GdciFSPcAkXsoRo/yzy6GMRlVcsyHE2LXn2vYS5VZWbuWFOwb5Leu1Df1yhy
-Afp74T08/cWU+I5sDf/CH/1wJV12hSIVNuAExWpev4gET9AJ7hGuP+gDEkLr4YZW
-aOGuKnV2ocd+l4bOeEE5yZvodazTQ30tQ6MXZZgDWM1bfKHzwkFl3QlpiaM2PeKp
-wXtknG3io409tkNrJ9t5AQmbfFyDccoA+mJ7pbWijuB4g/aGiiSExYP+U/h9ekqp
-f/afvXv44g==
-=f0bp
------END PGP SIGNATURE-----
-
---===============8899678877842854072==--
+--===============2550593716379550949==--
