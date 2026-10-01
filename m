@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Thu, 01 Oct 2026 16:28:18 -0000
-Message-Id: <179087209872.400830.8822547458571158708@gitolite.kernel.org>
+Date: Thu, 01 Oct 2026 16:34:09 -0000
+Message-Id: <179087244972.404927.17430607688300109798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: oupton
 changes:
-  - ref: refs/tags/kvmarm-fixes-7.3-2
-    old: 0000000000000000000000000000000000000000
-    new: 6b98f106491069d9e4c1543a47ff77e3744e8d96
+  - ref: refs/heads/fixes
+    old: bc502b86a3cfd89e6740f877c90d06b02635935d
+    new: 71cc2c67fb8f8d5aa8154eb482e9846d2214f11b
+    log: |
+         71cc2c67fb8f8d5aa8154eb482e9846d2214f11b KVM: arm64: Use stage-1 leaf size for VM_PFNMAP
+         
