@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1789140834791204065=="
+Content-Type: multipart/mixed; boundary="===============0844561439269982078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 02 Oct 2026 05:14:06 -0000
-Message-Id: <179091804664.998292.5468494184373071935@gitolite.kernel.org>
+Date: Fri, 02 Oct 2026 05:14:38 -0000
+Message-Id: <179091807814.998587.15717128875612626871@gitolite.kernel.org>
 
---===============1789140834791204065==
+--===============0844561439269982078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 4dfbc1889cb93d7a2296b90f8ccca876b996c7dc
-    new: ad3bbb1480cca102a3f4a0103b48607580df4b4d
-    log: revlist-4dfbc1889cb9-ad3bbb1480cc.txt
+    old: ad3bbb1480cca102a3f4a0103b48607580df4b4d
+    new: 8f511d67b4fb0463b64c6b27390a0f3480b3ec36
+    log: revlist-ad3bbb1480cc-8f511d67b4fb.txt
+  - ref: refs/heads/tip/urgent
+    old: 3ebb3531c6d0d533fddc65fa3bed174291d71956
+    new: 254979e0c666240a3afc2f8092a329ca0a161a50
+    log: revlist-3ebb3531c6d0-254979e0c666.txt
 
---===============1789140834791204065==
+--===============0844561439269982078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4dfbc1889cb9-ad3bbb1480cc.txt
+Content-Disposition: attachment; filename=revlist-ad3bbb1480cc-8f511d67b4fb.txt
+
+44c6eceb7061d7d3f62ad77924fd67ffe2b06787 Merge branch into tip/master: 'timers/urgent'
+72d05b7a4145c33f1530502f33e95d550221d3d0 Merge branch into tip/master: 'x86/urgent'
+254979e0c666240a3afc2f8092a329ca0a161a50 Merge branch into tip/master: 'x86/mm'
+050862c52d588bde8022f5899e8cde73409107f4 Merge branch into tip/master: 'perf/merge'
+7929945efac393ce226baedfb2524adea9c93bda Merge branch into tip/master: 'irq/core'
+d6ebc0590eb90ea8ba63e0210634a99c653dc13d Merge branch into tip/master: 'irq/drivers'
+2867fd7ce04387b88cf034e878d9e4e5b6a4cd9a Merge branch into tip/master: 'objtool/core'
+535b373232e9b33fe6409388efaa708d260b93fd Merge branch into tip/master: 'sched/core'
+53a4e101eaf3d9a499fba909c39fdc9096c30064 Merge branch into tip/master: 'timers/core'
+ea7e794521fc650b159ed0530d3d29d2dbaf6872 Merge branch into tip/master: 'timers/nohz'
+bd3600d6096000a28ba55f5ec61dd9b8c25ecacc Merge branch into tip/master: 'x86/asm'
+189af25fced58a0f7072662c86bb9d367638b12b Merge branch into tip/master: 'x86/boot'
+2d8232e1d19f52b484cbaeea4149b62fa1cfd988 Merge branch into tip/master: 'x86/bugs'
+abc9103a8c2d759ee7858c136f7cc450e6e2da5b Merge branch into tip/master: 'x86/cache'
+e147c86a4c06f491e178e201feab0589d48902f6 Merge branch into tip/master: 'x86/cleanups'
+785b44355f1a44f8422fb9451357f6339c39c0ec Merge branch into tip/master: 'x86/cpu'
+465987a15df3731591b13dbceddb24ed1b0ba936 Merge branch into tip/master: 'x86/kdump'
+6a78822c547c7c84a4714e3545e901ffd55a4f86 Merge branch into tip/master: 'x86/microcode'
+e4bd657935a58d7ba3fffed1692ddaa5c0584ecc Merge branch into tip/master: 'x86/misc'
+3aaecc9687d217d74a17eb196eabf9f80a74cb97 Merge branch into tip/master: 'x86/platform'
+d6a38799a631c7825f70687a21a362fddf0dfb84 Merge branch into tip/master: 'x86/sev'
+4d874ef0df1f32147e55fe255d36b904f2c817bb Merge branch into tip/master: 'x86/sgx'
+8f511d67b4fb0463b64c6b27390a0f3480b3ec36 Merge branch into tip/master: 'x86/tdx'
+
+--===============0844561439269982078==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3ebb3531c6d0-254979e0c666.txt
 
 814f2da6995772c07a7c9c2cc6028b6e3f3ecc9c of/overlay: put property on deadprops only after changeset add succeeds
 44081d708b5b885487bac792db78324b7b4c267d of/overlay: only treat a positive changeset id as registered
@@ -169,7 +203,6 @@ be35a3e003941fc25b4e72d8d4fd44f8a98ac1af Merge tag 'wireless-2026-09-30' of http
 8f1c2a10500a84a621ff13073f96deea0753ed42 net: mvneta: clear XDP pfmemalloc flag between frames
 7375d38364a9aa66fb31716bcefef38aecad75d8 net: usb: qmi_wwan: add Rolling Wireless RN947R
 5cd9813d848d6565f0ca7825a8405c4e48441cf9 Merge tag 'audit-pr-20260930' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-50e5282df427830fcd810e553f0e355d9cccb3e2 x86,fs/resctrl: Add event group descriptions for Intel Diamond Rapids
 6e0022b5ae3dc5b833af0fcc1578dc20a1d6bc71 net: phy: aquantia: fix system interface type not updated in forced mode
 e23a64eb244356ee47c0620f0722d51bd88db522 Merge tag 'nf-26-09-30' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 d92b5ac5aeba1ffc734576e30a5bca882722de76 x86/mm: Fix spurious warning on __add_pages() failure
@@ -181,10 +214,8 @@ a940b03cee1524c10c16e0f73ec878bbd36202a2 Merge tag 'for-linus' of git://git.kern
 bd35955b089ad881f57a5a2619687c804d057fec Merge tag 'libcrypto-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 100638f0f016cb0e6c75e95ff2b0495bca0b3054 Merge tag 'pm-7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 ce1e0223d8ad4211275c82a17ed6d43ab81e13d9 Merge tag 'devicetree-fixes-for-7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-27441d76b3d6604de9162c4c24d034bcfe3249de x86/asm: Remove CR4 read fault handler
-ad9f7bcbdbe19dbc26e14419fcb9c494db5e6159 Merge branch 'linus'
-907d90a7039d27238ec71dd93cb53967e0929cc1 Merge branch into tip/master: 'x86/mm'
-153a8b18bfc2e125c86f62a957c49c73eec47be8 Merge branch into tip/master: 'x86/cache'
-ad3bbb1480cca102a3f4a0103b48607580df4b4d Merge branch into tip/master: 'x86/cleanups'
+44c6eceb7061d7d3f62ad77924fd67ffe2b06787 Merge branch into tip/master: 'timers/urgent'
+72d05b7a4145c33f1530502f33e95d550221d3d0 Merge branch into tip/master: 'x86/urgent'
+254979e0c666240a3afc2f8092a329ca0a161a50 Merge branch into tip/master: 'x86/mm'
 
---===============1789140834791204065==--
+--===============0844561439269982078==--
