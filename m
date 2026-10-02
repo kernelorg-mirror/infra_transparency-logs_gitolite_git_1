@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 02 Oct 2026 00:11:12 -0000
-Message-Id: <179089987265.770294.9819440552041837548@gitolite.kernel.org>
+Date: Fri, 02 Oct 2026 00:15:28 -0000
+Message-Id: <179090012849.773913.4215549845475667235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: f49defea7668d8c68ec19fa085ef3da6075561c7
-    new: 58328b5b58062ec14bc832a2db0a028345055b88
+    old: 58328b5b58062ec14bc832a2db0a028345055b88
+    new: cb259191b179ff59e44b296bd011452b9967b9f2
     log: |
-         526025d552baf36b6dcb348fd8ec1287063e44f5 dpaa2-eth: use the DPMAC id as the devlink physical port number
-         aed5a323ec37af3ff230b7cf16045a44136aded3 dpaa2-eth: mark DPNIs without a DPMAC as virtual devlink ports
-         58328b5b58062ec14bc832a2db0a028345055b88 Merge branch 'dpaa2-eth-devlink-port-number-from-the-dpmac'
+         c7fca8aae6fe944493fd6a8ed3316b0fb673f7a7 net/rds: restrict the rdma_cm ids to IB devices
+         00d77b18186637646ac71a0c9e7e74931d3a180d net/rds: log the port a listener actually bound
+         cb259191b179ff59e44b296bd011452b9967b9f2 Merge branch 'net-rds-restrict-the-rdma_cm-ids-to-ib-devices'
          
