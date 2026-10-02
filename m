@@ -1,53 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============0134527206046175519=="
+Content-Type: multipart/mixed; boundary="===============4461272047106282322=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Fri, 02 Oct 2026 10:07:27 -0000
-Message-Id: <179093564744.1218103.11542025252283842711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 02 Oct 2026 10:08:41 -0000
+Message-Id: <179093572113.1218734.16651117419904111927@gitolite.kernel.org>
 
---===============0134527206046175519==
+--===============4461272047106282322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/next
-    old: 7687cd01a980ac59572031b1e3cbe30bf09e90fa
-    new: fb050251fd4fe3b4d0231495651901626c2a1464
-    log: revlist-7687cd01a980-fb050251fd4f.txt
-  - ref: refs/heads/renesas-dts-for-v7.4
-    old: c9bbb744bec0c9a24c3c5cec4d23b21ef1dfc1ee
-    new: d99e991749f3b12a3a8b23224725dbc1ca15f6bf
-    log: |
-         ad9c6b66002df6e8b5051658455ddd7902b4f957 arm64: dts: renesas: Add support for solidrun rzg2l som and hb-iiot evb
-         b248095f2f3ed44ef05c14fdba8e6171feb6506d arm64: dts: renesas: Add support for solidrun rzv2l som and hb-iiot evb
-         f3e0f4771bbb6051dd864ecead7c5a804d853698 arm64: dts: renesas: Add support for solidrun rzg2lc som and hb-iiot evb
-         7b6dce2bd6579e06b6133517fb1192114b121623 arm64: dts: renesas: rzg2l(c)/rzv2l hb-iiot: Add dsi panel dt overlay
-         1e4130c6208d9675d55c9f0e3fa6699c623388e5 arm64: dts: renesas: Add support for solidrun hb-ripple with rzg2l som
-         4500dc6146cbead06fba02d093546cd480b531f8 arm64: dts: renesas: Add support for solidrun hb-ripple with rzv2l som
-         3c896a2e21cc5a579233cc10542d77c8ae0a6d81 arm64: dts: renesas: Add support for solidrun hb-ripple with rzg2lc som
-         d99e991749f3b12a3a8b23224725dbc1ca15f6bf arm64: dts: renesas: Add support for solidrun rzg2ul som on hb-ripple
-         
+  - ref: refs/heads/vfs-7.4.netfs
+    old: 9f2bc5158b1e23c1a0762c65e6800581cfffdc34
+    new: d238145f73edb59616ec9046fbb5438b2d9145a1
+    log: revlist-9f2bc5158b1e-d238145f73ed.txt
 
---===============0134527206046175519==
+--===============4461272047106282322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7687cd01a980-fb050251fd4f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ad9c6b66002df6e8b5051658455ddd7902b4f957 arm64: dts: renesas: Add support for solidrun rzg2l som and hb-iiot evb
-b248095f2f3ed44ef05c14fdba8e6171feb6506d arm64: dts: renesas: Add support for solidrun rzv2l som and hb-iiot evb
-f3e0f4771bbb6051dd864ecead7c5a804d853698 arm64: dts: renesas: Add support for solidrun rzg2lc som and hb-iiot evb
-7b6dce2bd6579e06b6133517fb1192114b121623 arm64: dts: renesas: rzg2l(c)/rzv2l hb-iiot: Add dsi panel dt overlay
-1e4130c6208d9675d55c9f0e3fa6699c623388e5 arm64: dts: renesas: Add support for solidrun hb-ripple with rzg2l som
-4500dc6146cbead06fba02d093546cd480b531f8 arm64: dts: renesas: Add support for solidrun hb-ripple with rzv2l som
-3c896a2e21cc5a579233cc10542d77c8ae0a6d81 arm64: dts: renesas: Add support for solidrun hb-ripple with rzg2lc som
-d99e991749f3b12a3a8b23224725dbc1ca15f6bf arm64: dts: renesas: Add support for solidrun rzg2ul som on hb-ripple
-a026b73d0bc9623dbc56fa5c2b51b13f71241f5b Merge branch 'renesas-fixes-for-v7.3' into renesas-next
-fb050251fd4fe3b4d0231495651901626c2a1464 Merge branches 'renesas-arm-defconfig-for-v7.4', 'renesas-drivers-for-v7.4' and 'renesas-dts-for-v7.4' into renesas-next
+certificate version 0.1
+pusher 0x91C61BC06578DCA2! 1790935719 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+nonce 1790935719-0bd42c5d9eefa38bf3232ff1163ba6273a66e64f
 
---===============0134527206046175519==--
+9f2bc5158b1e23c1a0762c65e6800581cfffdc34 d238145f73edb59616ec9046fbb5438b2d9145a1 refs/heads/vfs-7.4.netfs
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCar+CpwAKCRCRxhvAZXjc
+olqYAQD5wyc2sZj29N0Px6/yPRHDD1us4DaH8TeryfkNIa+MkgD/VGzf4jqrjYsI
+y/SEwV3AhSWT235ZAhU3rSfscT6ECgw=
+=vvC9
+-----END PGP SIGNATURE-----
+
+--===============4461272047106282322==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9f2bc5158b1e-d238145f73ed.txt
+
+a6a7576e126e157801de04a7b5cd96d6db77e144 Add a function to kmap one page of a multipage bio_vec
+05f94143ca30a9c6a89146400d3cbf5817bfe9ab iov_iter: Add a segmented queue of bio_vec[]
+5091a6740f0fc0bcb0b9c1fc763663005a8bafea netfs: Add some tools for managing bvecq chains
+798d6509752eb9e88286d169a4b447c1aa492c6b afs: Use a bvecq to hold dir content rather than folioq
+7deef575739ce383c320a93ffc61cf0b707aa7dc cifs: Use a bvecq for buffering instead of a folioq
+d3fa88864261992c3c9cb6e94a609363ac808e27 smbdirect: Support ITER_BVECQ in smbdirect_map_sges_from_iter()
+ca592f678e70c0439b6291b4b6d8902e149cd856 netfs: Switch folioq to bvecq
+ddd28c53caf699c42c21b5a8d317ce5635764936 smbdirect: Remove support for ITER_FOLIOQ from smbdirect_map_sges_from_iter()
+507b92a6436588343c0ae96d71768a4d78dccdcb iov_iter: Remove ITER_FOLIOQ
+11d5d7233260bd5851e6e33a50f19f6e5a668223 netfs: Remove folio_queue
+220ec92c4873017251ba3eccc425a406fd4d7ab1 Merge patch series "netfs, iov_iter: Use a chain of bio_vec arrays instead of folio_queue"
+d238145f73edb59616ec9046fbb5438b2d9145a1 cachefiles: Fix unset error when calling netfs_prepare_write_failed()
+
+--===============4461272047106282322==--
