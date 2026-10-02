@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 02 Oct 2026 12:37:01 -0000
-Message-Id: <179094462119.1334196.11710321754115810301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Fri, 02 Oct 2026 12:49:30 -0000
+Message-Id: <179094537010.1341873.16971829472836451092@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/tags/v7.1.13-19
-    old: 0000000000000000000000000000000000000000
-    new: 44f2b1f0dcd49f3a37cd3b92b85edfbc34f8bd7a
+  - ref: refs/heads/v2.3.x
+    old: 6276b2514c8fb269de05c5d6427a68aff9bdc3d4
+    new: 85c9ebcbe91089af678415e999d9b1bb2209df07
+    log: |
+         85c9ebcbe91089af678415e999d9b1bb2209df07 dbus: fix the license of gpiodbus.h
+         
