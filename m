@@ -1,58 +1,86 @@
-Content-Type: multipart/mixed; boundary="===============1054529432336764136=="
+Content-Type: multipart/mixed; boundary="===============0168157636364781792=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 02 Oct 2026 18:02:12 -0000
-Message-Id: <179096413212.1593429.15432899075166681153@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Fri, 02 Oct 2026 18:10:44 -0000
+Message-Id: <179096464487.1600244.12187222541685350630@gitolite.kernel.org>
 
---===============1054529432336764136==
+--===============0168157636364781792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 705da5b15ab89ba97b11eedbe507c2fd83d31cb9
-    new: 2ed38aa8a52d3e245a9f71b98825ad7f77956d50
-    log: revlist-705da5b15ab8-2ed38aa8a52d.txt
+  - ref: refs/heads/master
+    old: d24e8ac715de2e16a53c144005b1863660a5fbea
+    new: 5e0f8396d4805a3e7f753fa58c8c55f1f3cc2160
+    log: revlist-d24e8ac715de-5e0f8396d480.txt
 
---===============1054529432336764136==
+--===============0168157636364781792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-705da5b15ab8-2ed38aa8a52d.txt
+Content-Disposition: attachment; filename=revlist-d24e8ac715de-5e0f8396d480.txt
 
-1c443dfc3202048b2cb1d3c2534b39b28701e929 perf trace: Copy sockaddr arguments by their length
-19f06a89db48fa16a4dfb478ce44e9a54f2a2781 perf trace: Start BPF summary before starting workload
-a8741aebcfc8993cbb3da51aed2a1d847880901c perf trace: Stop at internal fields when walking syscall arguments
-1cd82fa9a3e41f8244e1c0b014506feb6f0ca787 perf trace: Don't allocate syscall arg formats for internal fields
-4399da3abc90407d91b8d3183bd4b79c58c425c3 perf trace: Only take augmented arguments from the BPF output event
-6207f43d91fc67215b5f51167fc1cf39e37f853c perf trace: Split unaugmented sys_exit program
-1538ba71a684ddca3c2fe5f19533f92f5aba5d8f perf trace: Use the CPU map index for the BPF output event's fds
-6a1ef8dac488e565ddeab1f00cadfeb4abcca8e1 perf trace: Destroy the BPF skeleton if it fails to load
-1fdf657871b9240edcaaf1d15caaac5b78a84317 perf thread_map: Add thread_map__tgid()
-559e1b470d32751b08a6f986451448625d5af09f perf trace: Filter the target's tasks in BPF
-64af93d323675947243e5eead3898d9e496cedcd perf trace: Open the BPF output event on every CPU for task targets
-8ac7d7555c2ad5c65d51d6ffacb9eccab29c03fa perf trace: Do not return 0 from syscall tracepoint BPF
-9ab6ea11e8adde1189d688b6e04953e22c7ca55c perf trace: Remove unused code
-e827cc9413abc43d93044bb23066fa81bbcb04be perf trace: Add an option to disable syscall augmentation
-2e679233920068e1df5820fad830c17f88ac9538 perf test common: Only disable probes in clear_all_probes
-c7525971318aec314e037a9ac0006ecc072bd5e6 perf test probe_vfs_getname: Scope probe name to PID and make non-exclusive
-5df51199975e605ec4f0cca86fbd1c6ebf59c58c perf test record+probe_libc_inet_pton: Scope event to PID and make non-exclusive
-e4ed3ba7e2d5a548220511b8e64d2902318348e7 perf test trace_summary: Improve error diagnostics
-81513edaeb6f014490f140c8ecb654497f0ad88e perf test trace_btf_general: Drop --max-events=1 and make non-exclusive
-816737751b2854ad2c5870c5f2d21ba57e17bd4c perf test: Remove exclusive tag from 'perf trace' tests
-4aa0d846693d24603c90c66f053dd5fcf24c0f2b perf test uprobe_from_different_cu: Scope probe name to PID
-cd116fcbc0bec7340a659e62210b963c49f93c1e perf test: Update attr.py to use argparse
-857dad68dcb3a4f91eb356891d2da82322a740c2 perf build: Run shellcheck, mypy, and remaining pylint checks in parallel
-76e042d3e781841e283d81553f10a1987a852647 perf build: Clear GTK4 instead of setting unused NO_GTK4 when gtk4 is missing
-148cd3adf2df9e53fd9b3070ae1178d4876f8c67 perf build: Fix clean and install target dependencies
-1858a4df3ecbbdf5dce6d4df9edbebed403015ed perf trace: Only call bpf_get_current_pid_tgid() when filtering tasks
-21c09c18b40c0fbb16175d4b9cc3e62939b3fd95 perf trace: Increase TRACE_AUG_MAX_BUF to 128 and document beauty_map encoding
-2ed38aa8a52d3e245a9f71b98825ad7f77956d50 perf python: Track linked libraries as extension dependencies
+814f2da6995772c07a7c9c2cc6028b6e3f3ecc9c of/overlay: put property on deadprops only after changeset add succeeds
+44081d708b5b885487bac792db78324b7b4c267d of/overlay: only treat a positive changeset id as registered
+1d62f0f2bc7edb12ed09f71203df0e47fa4efca4 of/overlay: don't leak fragment references when changeset init fails
+21c89ff1fc86ffa517f3a9ca1ba5c48e9e37c1ba of/overlay: don't create "//" paths for fragments targeting the root
+3fabd8ec206bd48a45ef77aed170d25b322ad9a2 Revert "HID: logitech: add Bolt receiver support for Logitech HID++ devices"
+5acb2dace582f061aab5e14c399ac9480315f44b HID: multitouch: stop the release timer from being rearmed on remove
+53f7f7955a684e820bdd6bd6792c45c4b434f637 HID: universal-pidff: Add support for Turtle Beach VelocityOne Race
+5e5c3b9db1c5910d6a9175c97b76a95566e4dc32 HID: Intel-thc-hid: Intel-quicki2c: Fix buffer overflow
+a1cdd72371270640bd357bd3e3b2ec0be17c9536 HID: Intel-thc-hid: Intel-quickspi: Fix buffer overflow
+3afefbfe55c2a8a0c4bdf6f4cc1f773da120027c HID: bpf: cast size to ssize_t when checking hid_bpf_hw_request
+3f35b678a1d6b4c2dc773ad73623b1515cfc5bc5 selftest/hid: add test for negative return codes for hid_bpf_hw_request
+8264c0d73f07f6c3e6768d5a41b56c621f912a37 KVM: Reject attempts to lock all vCPUs if vCPU creation is in-progress
+e3995b05e95d03953954dd60ba803ebfa7755253 KVM: arm64: vgic: Rely on vCPU creation check in "trylock all vCPUs"
+10f4082b754f18ed82f94d47f0e959ef80038895 KVM: RISC-V: Use kvm_is_vcpu_creation_in_progress() instead of open-coded equivalent
+6418b715d5a24fa952e8c4baa587dd812dd4765b KVM: Protect all of kvm_vm_ioctl_create_vcpu() with kvm->lock
+c5866d42f7116ab609e3ab6b4b699282e8287e3f KVM: Move check for existing vCPU ID to the top of vCPU creation
+700f8d24436c45cb3cc8956f35c90a1b6a6487c2 Revert "KVM: Check for duplicate vcpu_id as early as possible"
+41e005e2c5126ccb906d6374b3b97fcb223f7f8f KVM: WARN if vCPU creation is in-progress when locking all vCPUs
+b6249c1d5665098c8bf12f8d3e4712bf04c775bc KVM: x86/mmu: Bail from shadow walks if the root is invalid or a dummy
+60d93c27859fb3ec5b5a689e24de303f166477d0 KVM: SVM: Preserve TLB control (i.e. pending TLB flush) on failed VMRUN
+e27fc915c8f575ab5630e27d97465c2077d4b9d1 KVM: SVM: Update control fields on #VMEXIT if and only if VMRUN succeeded
+64c5b15af71ba3c26b2088bdbb0bbab3dbe58e2c KVM: SVM: Don't mark ASID fields as dirty when setting control.tlb_ctl
+73392706d0e0f3aff299321de41d73abe3f53d9d KVM: SVM: Sync guest's PERF_CNTR_GLOBAL_CTL from h/w only on successful VMRUN
+9e06bbb9ade7cdf28d4a3b5b14e5812881c8df85 KVM: SVM: Use the active VMCB's MSR bitmap when checking if MSR is intercepted
+2abb25273c82061dd4670690c81c319c03740bf6 KVM: nVMX: Force MSR bitmap refresh if runtime eVMCS controls are modified
+8916c7a87455370b25523d5b1b9015b5244d18c8 KVM: selftests: Add x2APIC MSR test for inhibiting APICv while nested
+0c19bc0ef11d8ea7f929a3ec3ce549cfe0781859 KVM: selftests: Run the nested x2APIC with and without APICv being inhibited in L2
+2f00ba93cc285092cd3b7ffebbc9abb6004f55e7 KVM: selftests: Verify that L0's TPR doesn't get clobbered
+b630929bcc4c867c9abc8cd5a0ebee3bb5ce5dcd KVM: selftests: Extend nested x2APIC test to validate disabling x2APIC virt
+b0bc51910f0391fea09c0a1d32352fec2acb2686 KVM: selftests: Extend nested x2APIC test to validate using eVMCS for vmcs12
+8abbc76120a74bfba1851bd97528099d715e45c6 KVM: SEV: Nullify "have run CPUs" mask pointer when freeing it
+973ea70393e885e540f714904e51bc6cac80e3d7 KVM: SEV: Do cache maintenance on the source VM *before* clearing SEV state
+f341dc4d934a69ffbe6c21e3609ee725790188f1 cpufreq: intel_pstate: Fix max_freq fallback in cpufreq_update_pressure()
+e079ef0b1c40c7a4a1be0c1ac5dbff95685c3beb KVM: arm64: vgic: Allow last_lr_irq to be NULL when LRs are not overflowing
+19bc5d79ece613f242b5ec03921a3b465321bfed KVM: arm64: vgic: Take a refcount on IRQs referenced by last_lr_irq
+751f4641560be8568dcc5af400c0e55a283abf51 KVM: arm64: vgic-its: Fix MOVALL handling of source redistributor
+4bdd2b3a708c1feb701cb8b62feb8ad2fd77bb07 KVM: arm64: Apply the fine-grained UNDEFs without FEAT_FGT
+80ae56184b57176b908cd6a7ececf274a7e4b3c7 KVM: arm64: Clear HCR_EL2.RW for 32-bit non-protected vCPUs
+04447b95c62bef2b3591486c66244c49591a3dbd KVM: arm64: Use the host's HCR_EL2 for non-protected VMs in pKVM
+afb4334fb52c7b416bbc9c4b166f6806509f734b KVM: arm64: selftests: Check a feature hidden in an ID register is UNDEF
+1a70f0b71826fb764e8490dda55bb1b853e0d1de tpm: Fix heap buffer overflow in tpm_transmit_cmd()
+1e2f9a611b334ce6ed1dc4a9e1587c7a11d2be30 tpm: Fix auth session leak in tpm2_get_random() error path
+9b522400bf5c082feb9a0037a053ea822a2c7e4d tpm: fix off-by-four bounds check in tpm2_get_random()
+015fb29a748342a186f37b602ac70017098c8251 tpm: Disable TPM on null key name mismatch
+226154ea87952ad7141ce2dcf52a6c2edd71b8fe crypto: x86/aes-gcm - fix always true check for last AAD segment
+572af6872e520c7102e58362ef7cd7c2ed4342be crypto: aes - Fix undesired override of some optimized AES modes
+77f21a59e8cf7efcc1c4b3e9176e8b99993a7ae4 of: Put coreboot node after compatibility check
+30724547b221e0e670ddfef140fc7d816b2aaec6 of/irq: Fix remaining refcount leaks in of_irq_init()
+71cc2c67fb8f8d5aa8154eb482e9846d2214f11b KVM: arm64: Use stage-1 leaf size for VM_PFNMAP
+f9bfc323e76120c2cd1fdea93bbf315eec5eb934 Merge tag 'kvmarm-fixes-7.3-2' of https://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+a940b03cee1524c10c16e0f73ec878bbd36202a2 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+bd35955b089ad881f57a5a2619687c804d057fec Merge tag 'libcrypto-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
+100638f0f016cb0e6c75e95ff2b0495bca0b3054 Merge tag 'pm-7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+ce1e0223d8ad4211275c82a17ed6d43ab81e13d9 Merge tag 'devicetree-fixes-for-7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+17a58009754886eeacb9b826aa6d7bf5e294454d Merge tag 'for-next-tpm-v7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+5e0f8396d4805a3e7f753fa58c8c55f1f3cc2160 Merge tag 'hid-for-linus-2026100201' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 
---===============1054529432336764136==--
+--===============0168157636364781792==--
