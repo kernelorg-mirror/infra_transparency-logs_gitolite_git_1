@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sven/linux
-Date: Fri, 02 Oct 2026 19:06:32 -0000
-Message-Id: <179096799283.1641931.11976855645328567357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Fri, 02 Oct 2026 19:11:24 -0000
+Message-Id: <179096828422.1645715.10332101847086983922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sven/linux
-user: sven
+repo: pub/scm/linux/kernel/git/clk/linux
+user: masneyb
 changes:
-  - ref: refs/tags/apple-soc-drivers-7.4
-    old: 0000000000000000000000000000000000000000
-    new: 122cc06df56a24d3826bce6b6234805c6aae4305
+  - ref: refs/heads/clk-pile
+    old: 2fdfb2abce2fcc157de840949fa3e6af9e915363
+    new: ca4983a301063d9cf8d0ef556883f90a94a0bd32
+    log: |
+         ca4983a301063d9cf8d0ef556883f90a94a0bd32 dt-bindings: clock: anlogic,dr1v90-cru: make external clocks optional
+         
