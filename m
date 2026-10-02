@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/davem/net
-Date: Fri, 02 Oct 2026 10:38:49 -0000
-Message-Id: <179093752976.1240106.6454826077249963305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chleroy/linux
+Date: Fri, 02 Oct 2026 10:54:45 -0000
+Message-Id: <179093848524.1250934.11122711248867606439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/davem/net
-user: davem
+repo: pub/scm/linux/kernel/git/chleroy/linux
+user: chleroy
 changes:
-  - ref: refs/heads/main
-    old: 232d49dd4b40a666283de9e722899f088ed581b2
-    new: 71a77ab76e74131a101f4d2d2afb0dcbf81b4e3c
+  - ref: refs/heads/soc_fsl
+    old: a78c582cc04536bd3894b678324a34ba55abe167
+    new: 9119147edf2a028bbe2ad7fadea62af743ddc6e6
     log: |
-         71a77ab76e74131a101f4d2d2afb0dcbf81b4e3c net: allwinner: remove dmaengine_desc_free()
+         9119147edf2a028bbe2ad7fadea62af743ddc6e6 bus: fsl-mc: drop the fwnode links of the dpmacs nodes
          
