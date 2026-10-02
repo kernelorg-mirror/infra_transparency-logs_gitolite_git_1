@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Fri, 02 Oct 2026 13:33:53 -0000
-Message-Id: <179094803350.1380590.14079133456123461228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chleroy/linux
+Date: Fri, 02 Oct 2026 13:35:12 -0000
+Message-Id: <179094811251.1382974.4162935823367434175@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/chleroy/linux
+user: chleroy
 changes:
-  - ref: refs/tags/stm32-dt-for-v7.4-1
-    old: 0000000000000000000000000000000000000000
-    new: de7e3b9f106541dd18cc5c3f2cd496b4c0f700e9
+  - ref: refs/heads/soc_fsl
+    old: 31053c50487aa7c5fca9a139f28edb35287a1f45
+    new: df0fd0f5af4ddd84a76e21da8e6b489928c5e300
+    log: |
+         df0fd0f5af4ddd84a76e21da8e6b489928c5e300 bus: fsl-mc: Annotate fsl_mc_io.portal_virt_addr with __counted_by_ptr
+         
