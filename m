@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8053882714970151348=="
+Content-Type: multipart/mixed; boundary="===============1012648107650927251=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 02 Oct 2026 09:16:06 -0000
-Message-Id: <179093256664.1178091.13498745591052828115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 02 Oct 2026 09:16:29 -0000
+Message-Id: <179093258920.1178365.9304004104520274912@gitolite.kernel.org>
 
---===============8053882714970151348==
+--===============1012648107650927251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 39495ef5d6f8019e62d65807f217a7ca8232727a
-    new: 6c95ca52f27855dd2fb74131c8d4e8325d2af7de
+  - ref: refs/heads/master
+    old: 009e359596e1e79a54dee050239f479498070d75
+    new: bd65ee04b79c91187c35a364e69768bae95f8488
     log: |
-         6c95ca52f27855dd2fb74131c8d4e8325d2af7de tty: add missing driver flag kernel-doc colon
+         bd65ee04b79c91187c35a364e69768bae95f8488 drop neighbour patches from 6.12
          
 
---===============8053882714970151348==
+--===============1012648107650927251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790932560 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1790932563-540abf9ef3423601b43b6aebebaf5b9be9aa0786
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790932584 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1790932587-46ea631a783e0c2e43ba9fbfb57e9f6fd3b0fe8f
 
-39495ef5d6f8019e62d65807f217a7ca8232727a 6c95ca52f27855dd2fb74131c8d4e8325d2af7de refs/heads/tty-linus
+009e359596e1e79a54dee050239f479498070d75 bd65ee04b79c91187c35a364e69768bae95f8488 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq/dlAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+k20P/jchs35xunvUIClt5PiW
-8co2ozPt8QML35elb6CMNn1D/szEJRl+TuHuj3FpXRIuJ/RWNAZEZvUwChTmbwlv
-26GhtpJb4M4yEu3mjxgSbWuLioileuhl2lIfotq3rfLeCfqND1YTefa1KsxJC2GL
-7pdO06PGnTzlAcsZBYRpRK3lIe3299tGcdu7Ds0Ly/pbms8p+ni4r2Y9pUKY9J+6
-mrJZTDSRSwOgveEEObeeTwionGsu46S8UQF/rmpTHvYu95w0tUjiQ7GD4wsXNnnS
-IN/URjOq+H2nMGR9bSnYbmnj5u4EhHsHqs/TnluXeD9uZoO1sG9/uXVw4S+v9i9T
-7Z9wjLIlHy/cNVrLbT9RlUw55jiMcj5kmz0UJZp2f1aUOPsMs+MFo6jwrNzlCz8C
-oW3QkPsUSLFHFqBEWSk2Asii+/IFSCaBd5UyjmJt0Naq9vTlITBuRcmlBMC06ayP
-NbSc87yX0ZE9/NKq13fuDU0fNvbLBX+66nrgi87OXyo8me+S13ito6+pn8t4bm+J
-k+TX88ApPwv6OQu4JQhRkczmumBArE/W9WJVwDCzhqRvyh9guapVC4SVFYV4Cco3
-VXRRhbY0ueRe3vJEGJdznaGPEtmve1pr8ppvosZH9FqbLBBKmzfeEO1Om6ZD9z3e
-5SzLuQR/Yic6PuRZ3qbTktId
-=3bYm
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq/dmgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V08QAKcVX2NSArxZN/a1jJo+
+lKHJQqZFuM+2gvb6mXO8qk8Ln+vQjVtQGMVXycT1+D+n87nZOU+VXYZv36eMIuyZ
+lHK5qVdh97YtTht+oAUJHhRGbK/a3481MyZAFKwMLEH7fJgb63XVTXvgr0jnlZCP
+lwq/3Z+12D9hiaFCS5aNQwdQduZ+G4dC97sfOQLJEXIQXBL0SZu7QXOJvNw0An4B
+yhCFsOxdpP1fZR+jUGFw3EmyrT3rO5kEIZXrn4poo/rIoKSpDlDonUs6EAPtQvjI
+Qz9ouspIACZuKoQLcXnOEKLJsHurn7f9BT+Y8JQjyRZV8w1fkbToi71AWdUK72hD
+mmP2pKq8Rz5zwHFWVZcM6Ny9OCcRpvvO+az8lrZOqAYdifvapPCmYU2MDpQqPAqy
+rQt1QIZSUUiUXdOKZUQJoPgIY+1zMs5J/6kIKthV0Y6mChNlu6ML3YdjlrQf93Zh
+6FYQc8cQK2yNcxXryx5SujDEjON4o9Da5DJpLwsGoem/T/pdzv2xwgMukgLUnW/6
+qdoq0IU9qR8AsuXBqbBE83cmq3hKa7MqGfo1KOKOhrAoJhHXOSL9nPMXFW23sHI+
+i/vpePd5u/7uI82OnecjzA5qNF6NVLuHq1WN7Kv4yxAK3K9PuYQ40XAuMYKnW8Lj
+oEpP9CrrIoJWhOv7M0RhznKx
+=91ee
 -----END PGP SIGNATURE-----
 
---===============8053882714970151348==--
+--===============1012648107650927251==--
