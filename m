@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0257259957642217469=="
+Content-Type: multipart/mixed; boundary="===============1054529432336764136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 02 Oct 2026 18:01:36 -0000
-Message-Id: <179096409600.1592768.1373051034145333663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 02 Oct 2026 18:02:12 -0000
+Message-Id: <179096413212.1593429.15432899075166681153@gitolite.kernel.org>
 
---===============0257259957642217469==
+--===============1054529432336764136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 2ed38aa8a52d3e245a9f71b98825ad7f77956d50
     log: revlist-705da5b15ab8-2ed38aa8a52d.txt
 
---===============0257259957642217469==
+--===============1054529432336764136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ cd116fcbc0bec7340a659e62210b963c49f93c1e perf test: Update attr.py to use argpar
 21c09c18b40c0fbb16175d4b9cc3e62939b3fd95 perf trace: Increase TRACE_AUG_MAX_BUF to 128 and document beauty_map encoding
 2ed38aa8a52d3e245a9f71b98825ad7f77956d50 perf python: Track linked libraries as extension dependencies
 
---===============0257259957642217469==--
+--===============1054529432336764136==--
