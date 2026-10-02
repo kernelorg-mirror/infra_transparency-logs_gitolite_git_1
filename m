@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 02 Oct 2026 01:38:31 -0000
-Message-Id: <179090511145.845678.9190561712842396830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 02 Oct 2026 01:41:50 -0000
+Message-Id: <179090531006.848899.2585379173466694501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 57e97b20befc189c21dcd342dcd6afd238685485
-    new: c7d0de0be146f831523aba0de9f092a7f17f8ac2
+  - ref: refs/heads/main
+    old: fe8a42931853be7e78564fa6359f4c0197429d1e
+    new: 071876fd50482a68603a9460d80dd6dd58827ee1
     log: |
-         0e7b7518b5b517fd5ec331b215144440cf658b6f foo
-         e3e7b2b656d1764603dbc585c845312c8d440be7 foo
-         c7d0de0be146f831523aba0de9f092a7f17f8ac2 foo
+         071876fd50482a68603a9460d80dd6dd58827ee1 ref_tracker: Don't use __GFP_NOFAIL for PF_MEMALLOC thread.
          
