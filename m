@@ -1,59 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============0039573444112930145=="
+Content-Type: multipart/mixed; boundary="===============4043745976353580736=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 02 Oct 2026 11:12:27 -0000
-Message-Id: <179093954756.1266250.1293749970819457676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/spacemit/linux
+Date: Fri, 02 Oct 2026 11:13:50 -0000
+Message-Id: <179093963086.1267066.608386690859776211@gitolite.kernel.org>
 
---===============0039573444112930145==
+--===============4043745976353580736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/spacemit/linux
+user: dlan
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 6a7b4134fb7ad56c62dcce032607eda51f2ced24
-    new: 099460e42aa8c2ff941d2650a047937073ef9f7f
-    log: |
-         4662ced8affc9ba69afad78d5dc2cf498d23c1f2 slimbus: fix typos in comments
-         8f98e648e358a199d655cb79b0500cb2f24fc00f slimbus: qcom-ngd-ctrl: use platform_device_set_fwnode()
-         4092b51ecccc34236cdfd3a2104052a445d2d6dc slimbus: qcom-ngd-ctrl: Remove redundant dev_err_probe()
-         099460e42aa8c2ff941d2650a047937073ef9f7f slimbus: qcom-ngd-ctrl: Implement disable_stream callback
-         
+  - ref: refs/heads/dt-for-next
+    old: 7c6d53827c9dd70c46acc5821ee611858d94a4f4
+    new: cc6371a7f5195387584e56054f3af671ff7354dc
+    log: revlist-7c6d53827c9d-cc6371a7f519.txt
 
---===============0039573444112930145==
+--===============4043745976353580736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-7c6d53827c9d-cc6371a7f519.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790939541 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1790939544-282e1f55aa6dec6894f303481ccec51ec0060aa4
+789eed2d8bfa83d79e24d185f736b038a121b3ce riscv: dts: spacemit: set console baud rate on OrangePi RV2
+a87ca1e5b5d28dee5af42f59f3c6f833c5ad1da0 riscv: dts: spacemit: k3: move USB3 phy to board level
+2b9612eceb96fb23bb81b044ce13f3bf5bab954f riscv: dts: spacemit: k3: add USB3 B and C controllers for Pico-ITX board
+ea5cef6d5f3b734c427ed44794550e1b13be926c riscv: dts: spacemit: k3: add rfkill node for Bluetooth on Pico-ITX board
+2f3b7240a4c27745ec327f3f1a2f28d897e6aab6 riscv: dts: spacemit: k3: add rfkill node for WLAN on the K3 Pico-ITX board
+f314c98807c12272a1902aeda9c648d81b39bad2 riscv: dts: spacemit: k3-com260: keep dldo4 enabled
+bd56cb9b84f74ef472c71285fee9e28ee414b10a riscv: dts: spacemit: k3-com260-ifx: Add USB nodes
+dad085951db1098a0294da7d78aca1594b0f33f7 riscv: dts: spacemit: k3-com260-ifx: Add rfkill nodes
+73329198cdc273008bd273b0c5ad4c65251cb49e dt-bindings: timer: thead,c900-aclint-mtimer: Add SpacemiT K3
+c9bae665035f345ca050e98d6f4d6830c3d74f84 dt-bindings: interrupt-controller: thead,c900-aclint-mswi: Add SpacemiT K3
+08257b5b3d38b3e19b61b807850f5a637fd1421b dt-bindings: interrupt-controller: thead,c900-aclint-sswi: Add SpacemiT K3
+5397ba147c28427d3728812dec999fdab0f53619 dt-bindings: timer: sifive,clint: Remove spacemit,k3-clint
+b424b3b0ab920a25c23fbd7d226a0174b38d0de7 irqchip/aclint-sswi: Add support for SpacemiT K3
+cc6371a7f5195387584e56054f3af671ff7354dc riscv: dts: spacemit: k3: Replace incorrect CLINT node with ACLINT nodes
 
-6a7b4134fb7ad56c62dcce032607eda51f2ced24 099460e42aa8c2ff941d2650a047937073ef9f7f refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq/kZUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EO8P/1ynTOiG+kBI9NBSWqYh
-KwhNNPsd2rpS/jOVNDCcY7iljbovkY8ZyqLnf9I0pA3NinC1SvbfiiEh6eXukTjV
-KWEBSTFY2VPAtLEx7HpQexe31NqSUVW52RkVeHv9maMiTmk5R7CP7pGPW+4ASHmE
-IRGCXKCUNF/MLMSTsC3ubl6l7ZFvJL5WCNynwbn/dB9wy1m7U1JjXXBxLO6q5bid
-un7jzJwK1fSLSuIRR2reLiWQM7XUt5HkL73KszxCUy9fsexWFEpB+Y72FGnVKwwE
-x5GHZlJHSYuOvFLXIoBeTwdGP+iw06LsfZb2sUfz9dZBVPel/WIro8qJbBin2gJ9
-V/tqPa7ZEtoudgv+EM/vUgo/d+vp96yfAxNRNyHs4bOrCYH7v2RzYnk3FchuHr2r
-qpQjP9Z60I3lhN7x99ZMY/Fx/GwyRMl6d/5cxfP89bU7Ak/QadKV1Zu73E5/+Te+
-c3qKXCZcYJCP9VlGfcmwtuPMbvWNxkC3DH1z10SyYudFfDv1ysBvdnyeVVqWR3wZ
-9/JJY6BBN+/rEAuo0ofvm7h5JUpdIiY0+D+RCb/V7BZUOCF7CUpnM06FoLrUA6kJ
-itkq4zEl45pNsi4tLZr/xPFbzo2oGUnxWb0pEzKqsU7Us4FqmVOg96A57DPTvPFQ
-Ule90J34z4DFMtwD7Gqhmj2J
-=Ksks
------END PGP SIGNATURE-----
-
---===============0039573444112930145==--
+--===============4043745976353580736==--
