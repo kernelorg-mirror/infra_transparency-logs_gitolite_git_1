@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 02 Oct 2026 00:09:31 -0000
-Message-Id: <179089977136.767440.4078181222038945820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 02 Oct 2026 00:11:12 -0000
+Message-Id: <179089987265.770294.9819440552041837548@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/v7.1.13-18
-    old: 0000000000000000000000000000000000000000
-    new: b2608d3cd58bbde7071cd47728b3ee86e473dd7d
+  - ref: refs/heads/main
+    old: f49defea7668d8c68ec19fa085ef3da6075561c7
+    new: 58328b5b58062ec14bc832a2db0a028345055b88
+    log: |
+         526025d552baf36b6dcb348fd8ec1287063e44f5 dpaa2-eth: use the DPMAC id as the devlink physical port number
+         aed5a323ec37af3ff230b7cf16045a44136aded3 dpaa2-eth: mark DPNIs without a DPMAC as virtual devlink ports
+         58328b5b58062ec14bc832a2db0a028345055b88 Merge branch 'dpaa2-eth-devlink-port-number-from-the-dpmac'
+         
