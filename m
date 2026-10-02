@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0808075665218632802=="
+Content-Type: multipart/mixed; boundary="===============3006366064842773079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 02 Oct 2026 08:18:09 -0000
-Message-Id: <179092908987.1132454.17679480497703231014@gitolite.kernel.org>
+Date: Fri, 02 Oct 2026 08:18:12 -0000
+Message-Id: <179092909203.1132620.15275456977054829979@gitolite.kernel.org>
 
---===============0808075665218632802==
+--===============3006366064842773079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 21c3620df8ad362e9f2069ac35577c2a2f782f33
-    new: 9a0542b19a541eda3f82934ee747c61ec3f18847
-    log: revlist-21c3620df8ad-9a0542b19a54.txt
+  - ref: refs/heads/mm-unstable
+    old: b2b4b29b76dabdee576eba66953a66ca61c5fca0
+    new: 40cdf2b57d6c6914170fbbd006aff29febfb3382
+    log: revlist-b2b4b29b76da-40cdf2b57d6c.txt
 
---===============0808075665218632802==
+--===============3006366064842773079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21c3620df8ad-9a0542b19a54.txt
+Content-Disposition: attachment; filename=revlist-b2b4b29b76da-40cdf2b57d6c.txt
 
 96ac38e9c8cb1674783f5eed8adc2b533d80c269 mm/vmalloc: use dedicated unbound workqueues for vmap drain
 8e1b0e4fc7140073381fb3d140872f1aecbd9e98 xarray: fix index jumping backwards in xas_find()
@@ -729,24 +729,5 @@ c8df7f10e01272ab93b29814c620d5cb35e89e50 zram: fix short reads from block_state
 33607100d7e8a4932417e678087a4c206d981766 mm/sparse-vmemmap: open-code vmemmap_populate_address()
 89ffc0ff2b1d09b51f7b5f1ec78c0d9e5c980fa7 mm/mm_init: add zone mismatch warning during page init
 40cdf2b57d6c6914170fbbd006aff29febfb3382 tools/cgroup: sum shrinker object counts across NUMA nodes
-e620619a5a2be8a2a8040dd0ed94f10235d2db9f selftests: run tests on nommu architecture
-ad45f0441c1dffde83ca9add6cac8fdf30cd2c93 selftests/nommu: add nommu mmap and mremap behavior tests
-c585990c6595025608fc2c29d5b56f3c1e81e315 mm: make swapoff interruptible when unusing mms/shmem
-bc6147de8cf4c48e37d40dc35ba98f19baf1e7a4 mm/swap: submit the last readahead batch before unplugging
-bc78946b0fb8f146e16f30b6aded035af0e48a5a selftests/mm: mrelease_test: fix retry limit
-b077b1e29440dd56360dad05fd8a181f537b2481 selftests/mm: fix soft-dirty kselftest supported check
-af815d1631fb032e27e738897cf91f01dc62e782 riscv: mm: fix concurrency in mark_new_valid_map()
-96e427d961bbff394ab0efca0399e81e2c827e08 riscv: mm: exclude invalid THP PMDs from page table check
-a9090663f52e1a61587eebf00c80e3914e46e28a sh: remove CONFIG_NUMA and related configuration options
-10fcc186b4a6ddd32d43e25ec5b0a15f3af807eb sh: mm: remove numa.c
-f51ab76cffbc59200eec0f7e72b011e51985a04d sh: mm: drop allocate_pgdat()
-eb1fae2e0a26c00c639d4491b51d317960d991b1 sh: remove setup_bootmem_node() and plat_mem_setup()
-a359f1823bb1d2c9eaec4e6ad6fa739eebdfc305 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-43c0fe248da15b499ae8d81edc0b37f56f57ed7b sh: drop include/asm/mmzone.h
-a6740b8782331889532474a32ed376a8d1f89185 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-60aaaa11155772efc3a125f566a50df8603a1fad sh: init: remove call the memblock_set_node()
-2f8140a89b567b30c73452370942cd90f99ff957 sh: remove SPARSEMEM related entries from Kconfig
-896a2c4a4a5ad730ec45661b0c3ca9d6ed75cc35 sh: drop include/asm/sparsemem.h
-9a0542b19a541eda3f82934ee747c61ec3f18847 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============0808075665218632802==--
+--===============3006366064842773079==--
