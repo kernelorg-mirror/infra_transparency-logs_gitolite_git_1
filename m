@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 02 Oct 2026 17:18:51 -0000
-Message-Id: <179096153163.1561289.2610710860841325156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Fri, 02 Oct 2026 17:26:02 -0000
+Message-Id: <179096196285.1567809.12327047302840286218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 148cd3adf2df9e53fd9b3070ae1178d4876f8c67
-    new: 2ed38aa8a52d3e245a9f71b98825ad7f77956d50
+  - ref: refs/heads/riscv-soc-fixes
+    old: dc59e4fea9d83f03bad6bddf3fa2e52491777482
+    new: 5857cd51c200b6924ada0b385162ba4e776e0db1
     log: |
-         1858a4df3ecbbdf5dce6d4df9edbebed403015ed perf trace: Only call bpf_get_current_pid_tgid() when filtering tasks
-         21c09c18b40c0fbb16175d4b9cc3e62939b3fd95 perf trace: Increase TRACE_AUG_MAX_BUF to 128 and document beauty_map encoding
-         2ed38aa8a52d3e245a9f71b98825ad7f77956d50 perf python: Track linked libraries as extension dependencies
+         5857cd51c200b6924ada0b385162ba4e776e0db1 cache: Make cpu_cache_invalidate_memregion() error out if there are no handlers
          
