@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============6318362763786163062=="
+Content-Type: multipart/mixed; boundary="===============5540141827536850126=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Fri, 02 Oct 2026 06:38:21 -0000
-Message-Id: <179092310167.1058842.4877103706374877599@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
+Date: Fri, 02 Oct 2026 06:46:05 -0000
+Message-Id: <179092356531.1065784.6281633868601880863@gitolite.kernel.org>
 
---===============6318362763786163062==
+--===============5540141827536850126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ojeda/linux
-user: ojeda
+repo: pub/scm/linux/kernel/git/mm/linux
+user: david
 changes:
-  - ref: refs/heads/rust-fixes
+  - ref: refs/heads/master
     old: 551c722f40809618230001baccf219193e22fc5a
     new: ce1e0223d8ad4211275c82a17ed6d43ab81e13d9
     log: revlist-551c722f4080-ce1e0223d8ad.txt
 
---===============6318362763786163062==
+--===============5540141827536850126==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -180,4 +180,4 @@ bd35955b089ad881f57a5a2619687c804d057fec Merge tag 'libcrypto-fixes-for-linus' o
 100638f0f016cb0e6c75e95ff2b0495bca0b3054 Merge tag 'pm-7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 ce1e0223d8ad4211275c82a17ed6d43ab81e13d9 Merge tag 'devicetree-fixes-for-7.3-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 
---===============6318362763786163062==--
+--===============5540141827536850126==--
