@@ -1,36 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6143509172058354006=="
+Content-Type: multipart/mixed; boundary="===============2209298218502431908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Fri, 02 Oct 2026 21:45:15 -0000
-Message-Id: <179097751594.1768229.17696059757277423081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 02 Oct 2026 21:47:18 -0000
+Message-Id: <179097763851.1769160.9894660823419044366@gitolite.kernel.org>
 
---===============6143509172058354006==
+--===============2209298218502431908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fsverity/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/for-current
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: 4ec9b3758dcb0c2c58bbdc6f97126c67e820ee99
-    log: revlist-cee9395acd80-4ec9b3758dcb.txt
+  - ref: refs/heads/for-next
+    old: e25be1ba74f2251b4badc1402c392f0abd62cb0a
+    new: bdb122e397cb06a0235039f1b10560712526a137
+    log: revlist-e25be1ba74f2-bdb122e397cb.txt
 
---===============6143509172058354006==
+--===============2209298218502431908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cee9395acd80-4ec9b3758dcb.txt
+Content-Disposition: attachment; filename=revlist-e25be1ba74f2-bdb122e397cb.txt
 
-3d617bfd79330ae3acf94862c18bb3ccf5f5a0f9 tracing: Let histogram values keep the percent and graph modifiers
-89b000ba0796593aa61f6eec24d369337594588b tracing: Fix typo "availabe" in comment
-0999d3e16d13b6299fd7cc7a7fb2825c18e90dd0 tracing: Fix typo "preceeded" in comment
-6ede78d0563a2a3ae3e46f9c07cedb5d79645429 tracing: Set the trace clock before registering the histogram trigger
-0fe23b8eaba0d3372c66b7b31204408da0715edc tracing: Take the reference before publishing the named histogram trigger
 92383cef66791a0c63a2f27755cadbdb2fbf270b tracing: Undo the registration when enabling the histogram trigger fails
 a5e70ba87ca8ebc79b4e63de302d03b0625fe153 tracing: Fix memory corruption from the histogram stacktrace modifier
 7f711e62355bb3123a2ca2f97a2facbfebc678c6 tracing: Fix memory corruption from a "STACKTRACE" histogram key
@@ -42,6 +37,7 @@ ed0aff60f83a9bdc2f6556376ac79c96b3ce7e80 tracing: Take trace_array reference whe
 3163cd7253432f262c2fa22edb51474d7afc76a0 drm/msm: remove stale perf counter XML TODO
 ed9ad3d4183053d4a8c43960a3d23ea8db71c30d drm/msm/a6xx: Add CX AO Counter registers used for a750 GPUs
 a2b65837980a513cf24825bc4a50b0430e3391e7 drm/msm/a6xx: Use CX AO Counter register for timestamp on a750 GPUs
+7ba5290db6bf365e46fb70bf13dc2a47048165ea arm64: dts: imx8mp-var-dart-sonata: Fix Sonata SD I/O supply
 3026c6e4f223bdded6448fefe53ff85d9cbe51bd Merge tag 'slab-for-7.3-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/mm/slab
 79a71cc2568f4b5d42284da2aa26f3b4f47ce01b KVM: x86/pmu: Move Intel PMU global MSRs to intel_is_valid_msr()
 f13368e0acffd6d6289629705cb821d921104725 KVM: selftests: Use __GLIBC__, not _GNU_SOURCE, to detect actual glibc
@@ -174,7 +170,6 @@ beb34fe8312eda37b9cf1568550d722530444822 ALSA: usb-audio: Add capture quirk for 
 5f90f85eae4e9d2e9628b2019870994ba830b533 power: sequencing: don't call .post_enable() if pwrseq_unit_enable() failed
 115b303e8e093d964089ec6f3c40d984d77b33d0 power: sequencing: fix NULL-pointer dereference in pwrseq_unit_new()
 242da4318d97380741516b595af3920207b2f0f1 power: sequencing: fix NULL-pointer dereference in pwrseq_device_register()
-8dc2615d5702059b2b71fca6f93c0d7d10ae54cb arm64: dts: renesas: r8a779f0: Set UFS lane count
 692f32609a30f75ca3401e25b504bfd06bd5662a pinctrl: meson: Fix typo in s4 group name
 50fd0ada8d37587223001600933270b59cb30e19 gpio: virtuser: skip free_irq when no IRQ is installed
 51ae99659469edba2e83931efa26b77d36ca02c2 pinctrl: generic: serialise pinctrl_generic_dt_node_to_map()
@@ -199,10 +194,6 @@ de40d31275cd57408ff1fdd97ea117a3f8c50cc5 drm/xe/mmio_gem: cache the dummy page p
 d0c09528781938362655d9c336364e777119bd6b drm/xe/mmio_gem: fix destroy flow
 3c90e42a01426262f0cd166bc01b45c05562640d drm/xe/shrinker: Return the freed page count through a parameter
 985862be16c7e4da808c51f393d631fb60c0be5c drm/xe/shrinker: Take a runtime PM ref before shrinking non-system memory
-8c8a0cac6ff08791c39dc095d5cde95f6feec4a6 Merge tag 'socfpga_fix_for_v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into arm/fixes
-ebdad7d867a59a6fbf01652bbe183cbfc69b0a8f Merge tag 'socfpga_dts_fix_for_v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into arm/fixes
-2d5adffc11cc8d694e309dc38f9a8ae7fa14a65a Merge tag 'renesas-fixes-for-v7.3-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/fixes
-869e97e66d3f5c37a42571154b103c09778e41cb Merge tag 'scmi-ffa-fixes-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
 073a30d75f309812ed61af134f24ffef4107b13a drm/vc4: Use managed KMS polling to fix UAF on unbind
 bdf5f731957de48acada392f28e82bc019713adb hwmon: (gpio-fan) return IRQ_HANDLED from the shared alarm IRQ handler
 0ff9c7775e51ac6d47b1bb5c46f06b1434fe58a8 hwmon: (w83791d) remove fan/pwm 4-5 sysfs group on remove
@@ -372,7 +363,6 @@ e5d43d7e924d7e1d0c815a5c7407f2a40a6dd2f2 drm/verisilicon: add primary modifier f
 6c62dfd2820f0c32b0083668edbe0baca6e10b92 drm/verisilicon: remove ARGB formats from primary plane
 53cf0f26eece095a3752642151150404bc3351cc crypto: caam - map job ring registers without claiming region
 a26204be587c57bd5c54fa513be26c4fd7bf252d Revert "drm/i915/display: Clear SEL_FETCH_PLANE_CTL on plane disable"
-ce55a6545a375563983ef83eb48915a11493b64e Merge tag 'amlogic-fixes-v7.3-rc' of https://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into arm/fixes
 b61b6f95d6722ddbbbd09e689fa41b55fd36f9a5 futex: Also allocate private hash on vfork()
 f0e9f963a3d209d7dc7ddd61116118ab5da2797d drm/xe/i2c: Disable IRQ on unbind
 a13f7f5d14af9baf34eb12c25962f8d3542b281d pinctrl: sunxi: keep a shadow copy of the data register output latches
@@ -1049,6 +1039,16 @@ b1fa457bddf009907b023bc0c09ba4eca3191a8e Merge tag 'cgroup-for-7.3-rc4-fixes-2' 
 64d34cef2a32331fedabf25ea8fa8a30128af9f7 Merge tag 'i2c-fixes-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 d266640c6c760c9bc215bf5a3ece122ca488b6f5 Merge tag 'driver-core-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e Linux 7.3-rc5
-4ec9b3758dcb0c2c58bbdc6f97126c67e820ee99 fsverity: RCU-delay the freeing of struct fsverity_info
+c108feca0a096f8db25d1b69130035025e9e936d optee: register TEE devices only once fully initialized
+3c0d2f1f431c51a11253f28763be723ac782fd7a tee: optee: ffa: support shared memory offsets on large-page kernels
+1d0f326d2d5b8b88bd6bde2bddbf415be4b90524 Merge tag 'qcom-clk-fixes-for-7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
+26fb480bee21a025b89fc2307b09a29d21ee0d9e Merge tag 'qcom-arm64-fixes-for-7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
+8166a325157ad6e4b4c3ae8295ad800461e4b081 Merge tag 'imx-fixes-7.3' of https://git.kernel.org/pub/scm/linux/kernel/git/frank.li/linux into arm/fixes
+e984d7bf468948179c6db506e74a8ed2896f29d6 Merge tag 'optee-fixes-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/jenswi/linux-tee into arm/fixes
+f2e695a6c27241374c9b007b718361badccb2f63 MAINTAINERS: update my email address
+cc1fd1595846e1d524c2c7f7cffdc6d3499b916d Merge tag 'v7.3-rc5' into for-next
+c1b88c88ff65353a5432250319dc8e200ba52e95 Merge tag 'v7.3-rc5' into for-next
+120aa4dee9b6ac0eeb7bfc5040a233fce8e2e61f Merge branch 'arm/fixes' into for-next
+bdb122e397cb06a0235039f1b10560712526a137 soc: document merges
 
---===============6143509172058354006==--
+--===============2209298218502431908==--
