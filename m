@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fustini/linux
-Date: Fri, 02 Oct 2026 06:29:33 -0000
-Message-Id: <179092257394.1051588.10971460614344176731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Fri, 02 Oct 2026 06:31:17 -0000
+Message-Id: <179092267799.1054407.17983299187992192511@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fustini/linux
-user: fustini
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/thead-dt-for-next
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: d43b33e0253cf9dea8d5f2502db2175f2fde779a
+  - ref: refs/heads/b4/rust-dyndbg
+    old: e0f643bcb55eadaa7c1b9d23ea0569cf7b5377a8
+    new: 455dc868b8bce1724156c72696d8df25e44aeee3
     log: |
-         2c8613ec65f47f745bcab346f7637817f47b157f dt-bindings: riscv: thead: add Milk-V Meles
-         8360e1bcc246d4c44b7308ba5c7a25255de3ba55 riscv: dts: thead: add Milk-V Meles
-         a7f2539005c43f94ea5a931f8ab534488b335880 riscv: dts: thead: enable AP6256 Wi-Fi on Milk-V Meles
-         d43b33e0253cf9dea8d5f2502db2175f2fde779a riscv: dts: thead: enable HDMI on Milk-V Meles
+         60370ce43b4dd222cb06278eb0078ccbb04b7a8d dyndbg: use u32 for struct _ddebug bitfields
+         6a7ff830435a505db63541af0e6ee8f61f46d56c dyndbg: make _ddebug::flags its own field
+         326af866862abcd2e505b821f186d39b5d188c32 dyndbg: use READ_ONCE()/WRITE_ONCE() to access descriptor flags
+         67c86fbea0c93f28d02bf0810b500c629a278be7 rust: sync: atomic: Add Atomic<u{8,16}>
+         80f148ab32b7b894b122042db8e6bcd3bd91ea2f rust: print: use CStr for __LOG_PREFIX
+         8b3d623ad93f00d164479609f44c7418f2733581 rust: add support for dynamic debug
+         d6082a5a8839ca430f405400335177b3c3667832 samples: rust_print: add a debug message
+         b237203783afb69ce470672567533a11f8099e18 rust: print: enable dynamic debug for pr_debug!()
+         37f2c7cb7f50692279e993451b69b94856c115d3 rust: device: remove logging methods
+         455dc868b8bce1724156c72696d8df25e44aeee3 rust: device: enable dynamic debug for dev_dbg!()
          
