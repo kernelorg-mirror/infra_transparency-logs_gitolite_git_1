@@ -1,51 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0495543182144043225=="
+Content-Type: multipart/mixed; boundary="===============0526875681688568360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-next
-Date: Fri, 02 Oct 2026 16:56:49 -0000
-Message-Id: <179096020933.1545820.18091835503943550424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 02 Oct 2026 17:03:57 -0000
+Message-Id: <179096063787.1550169.2382518469417929058@gitolite.kernel.org>
 
---===============0495543182144043225==
+--===============0526875681688568360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-next
-user: sashal
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/bus-next
-    old: c54b19a3439bdb6ab83998fef852019a657e6566
-    new: 68890fc567104c4f2257741680fc0cbff0760178
-    log: revlist-c54b19a3439b-68890fc56710.txt
+  - ref: refs/heads/master
+    old: ce1e0223d8ad4211275c82a17ed6d43ab81e13d9
+    new: 5e0f8396d4805a3e7f753fa58c8c55f1f3cc2160
+    log: revlist-ce1e0223d8ad-5e0f8396d480.txt
 
---===============0495543182144043225==
+--===============0526875681688568360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c54b19a3439b-68890fc56710.txt
+Content-Disposition: attachment; filename=revlist-ce1e0223d8ad-5e0f8396d480.txt
 
-5f7775e2a346257aa13128feb2f640cb5a2d6e5b Merge branches 'rproc-next', 'rproc-fixes' and 'rpmsg-next' into for-next
-b229ecb3e8801bf90a8b204c6cfff79f0f58b941 Merge 'pci-current' from https://git.kernel.org/pub/scm/linux/kernel/git/pci/pci.git (for-linus)
-b9da6b1d1b9b9daa5af82090a943647f4d432a17 Merge 'usb.current' from https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git (usb-linus)
-066baae0f3bd86c759c9316f50fe902e2d1be3cf Merge 'usb-serial-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial.git (usb-linus)
-51a0d8eb8e7416cdfbed5feaf5babedc2e56d73c Merge 'i2c-andi-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux.git (i2c/i2c-fixes)
-366ba971d1f1a8b75910689d8947e456bdec86b5 Merge 'pci' from https://git.kernel.org/pub/scm/linux/kernel/git/pci/pci.git (next)
-6e74e161b895dd1df030133c3c17639812127c40 Merge 'i2c-andi' from https://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux.git (i2c/i2c-next)
-2a53c056990e796ec6ec7b9135422a1630c6aed9 Merge 'i2c-rust' from https://github.com/ikrtn/rust-for-linux (rust-i2c-next)
-502a64a35ed78aaefb27128cbe629ad3ac9bf40d Merge 'i3c' from https://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux.git (i3c/next)
-ecf686a713d24cebcb1e3afde27bde9280999f03 Merge 'ieee1394' from https://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394.git (for-next)
-d8cda59ee593ec5cbf6c9a5feeb64736a08d84eb Merge 'spi' from https://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git (for-next)
-ba7fe8141b268543be3093de574dfc76229760b0 Merge 'usb' from https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git (usb-next)
-8efd7c70d6dc50688fcd3167fb096c351a533ec6 Merge 'thunderbolt' from https://git.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt.git (next)
-aa706ad2dbf27c6910a7699a7d1778af3473010c Merge 'usb-serial' from https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial.git (usb-next)
-d3080d3fc7885cddd9657df6808e14883bfae379 Merge 'icc' from https://git.kernel.org/pub/scm/linux/kernel/git/djakov/icc.git (icc-next)
-3f7e67dabd041d1a7551a775f9172917cdc3df05 Merge 'phy-next' from https://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git (next)
-a7786c4898de98d6638d458ad568231ad9be6747 Merge 'w1' from https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-w1.git (for-next)
-6247fede200749a466a2f5d6cafe7d4af2ef6e57 Merge 'mux' from https://gitlab.com/peda-linux/mux.git (for-next)
-6242dadec31be48428d8fa624c2855a9388fba8e Merge 'rpmsg' from https://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux.git (for-next)
-28b5958b1790b57428f201946f0a9c042ee166cf Merge 'slimbus' from https://git.kernel.org/pub/scm/linux/kernel/git/srini/slimbus.git (for-next)
-68890fc567104c4f2257741680fc0cbff0760178 Merge 'mhi' from https://git.kernel.org/pub/scm/linux/kernel/git/mani/mhi.git (mhi-next)
+3fabd8ec206bd48a45ef77aed170d25b322ad9a2 Revert "HID: logitech: add Bolt receiver support for Logitech HID++ devices"
+5acb2dace582f061aab5e14c399ac9480315f44b HID: multitouch: stop the release timer from being rearmed on remove
+53f7f7955a684e820bdd6bd6792c45c4b434f637 HID: universal-pidff: Add support for Turtle Beach VelocityOne Race
+5e5c3b9db1c5910d6a9175c97b76a95566e4dc32 HID: Intel-thc-hid: Intel-quicki2c: Fix buffer overflow
+a1cdd72371270640bd357bd3e3b2ec0be17c9536 HID: Intel-thc-hid: Intel-quickspi: Fix buffer overflow
+3afefbfe55c2a8a0c4bdf6f4cc1f773da120027c HID: bpf: cast size to ssize_t when checking hid_bpf_hw_request
+3f35b678a1d6b4c2dc773ad73623b1515cfc5bc5 selftest/hid: add test for negative return codes for hid_bpf_hw_request
+1a70f0b71826fb764e8490dda55bb1b853e0d1de tpm: Fix heap buffer overflow in tpm_transmit_cmd()
+1e2f9a611b334ce6ed1dc4a9e1587c7a11d2be30 tpm: Fix auth session leak in tpm2_get_random() error path
+9b522400bf5c082feb9a0037a053ea822a2c7e4d tpm: fix off-by-four bounds check in tpm2_get_random()
+015fb29a748342a186f37b602ac70017098c8251 tpm: Disable TPM on null key name mismatch
+17a58009754886eeacb9b826aa6d7bf5e294454d Merge tag 'for-next-tpm-v7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+5e0f8396d4805a3e7f753fa58c8c55f1f3cc2160 Merge tag 'hid-for-linus-2026100201' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 
---===============0495543182144043225==--
+--===============0526875681688568360==--
