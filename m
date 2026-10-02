@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Fri, 02 Oct 2026 13:22:56 -0000
-Message-Id: <179094737646.1372502.3681533478936067435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Fri, 02 Oct 2026 13:25:45 -0000
+Message-Id: <179094754535.1375438.16852343587074324876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: almagui
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/master
-    old: c23e8b30c6dee2f7fd8aa07e9c49e8e4f31bc16c
-    new: 028149ba6ff52521ec41e776642aa5c54f71c5ab
-    log: |
-         028149ba6ff52521ec41e776642aa5c54f71c5ab pahole: Sync with libbpf mainline
-         
+  - ref: refs/heads/stm32-dt-for-v7.4
+    old: 0000000000000000000000000000000000000000
+    new: f831584128ac2a36fb4fa62fe106793d08c2dbf1
