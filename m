@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============2462749822123849273=="
+Content-Type: multipart/mixed; boundary="===============8821968047579275210=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 02 Oct 2026 06:26:55 -0000
-Message-Id: <179092241535.1049843.3039721409196454909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 02 Oct 2026 06:28:55 -0000
+Message-Id: <179092253541.1051104.9343378541801984238@gitolite.kernel.org>
 
---===============2462749822123849273==
+--===============8821968047579275210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: bf933ad6c4defde6c3d3efc6cf6b9f152d78c64f
-    new: 009e359596e1e79a54dee050239f479498070d75
+    old: a7880f1e9619c8cf3e761aec0f4838f4e10fd54e
+    new: 367329ef6f8c5d99fc3d6fddf269f5735b211cc3
     log: |
-         009e359596e1e79a54dee050239f479498070d75 drop queue-6.12/xfs-drop-dquot-flush-lock-when-we-can-t-find-a-buffer-to-flush.patch
+         367329ef6f8c5d99fc3d6fddf269f5735b211cc3 update the .vulnerable file for CVE-2026-97415
          
 
---===============2462749822123849273==
+--===============8821968047579275210==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790922406 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1790922409-5d02626da4edc6626d92c997e788757fd199ad34
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1790922530 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1790922534-2a9d75387205ddd50ac265020dc9636944e6c7c8
 
-bf933ad6c4defde6c3d3efc6cf6b9f152d78c64f 009e359596e1e79a54dee050239f479498070d75 refs/heads/master
+a7880f1e9619c8cf3e761aec0f4838f4e10fd54e 367329ef6f8c5d99fc3d6fddf269f5735b211cc3 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq/TqYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9BUP/RUsud6rlowABDXqaZpM
-pEqrvJUId3lEuhTLzsEmxHdBnTGU9Hrz04GnAmSjMrFBOWnHo4hPRYw9y0MdLwlX
-cC1wufGrEcUKG7uTBCjL/KXadcg/4HmsnBb8PKQ82XB7wA54MhbcZPbwi3mACesu
-0IMRFPoIrzWEFJfxDeZpcu3MoosBS+tpAhcH7wGyNmkGYay9yRkVHQMqeJitM59b
-CZMb2L6K50tSUi6VFIlRQBcLDeauFG2HQnRDQR2s42oFAs+KWw9WoWckZZvHcTck
-OhDQSHHKqg3GTvk19Fy5nD4WYQkrEzYcaA2qDOd7tleDnvHg3ejFYZewC20BqfUA
-eJLFngk7FuDrsy2LIr1Upas4AZkQzhV5IjUfvRC5B1A7AymSNSC3LWdJhbV22lbj
-3F3Ww9gwCPp/8SWlil4bKZUIJeX8xuogBkN2vIruTyXuHvXJC7ead0+9UToKbciX
-3IOMhtwhlzhtUvU8lTZYLlL0V98FMat58eJyOHtMyd04gm+S0Dr94sM7KtnuzwWM
-DRSH8QhDyG11CMX4nBVxJpcK5dydFsXIQ27yJUGm6+zhPhjOWiTwQoozjjkhuiyh
-72T9smEpucrmtJIC1wEVLteKWaEKOzCFFoCiL89/xYulQWRuM/5Hgxvkdz3yP2xh
-dcWVvrPT183VZsNZzw9i3fMI
-=bGcD
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmq/TyIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+s6EP/i01ighgLDbYVpe0/Nhs
+qoGvV9PqrJrQfJMb6WX3+fkw3wEqxYMhvASD8Ufck4FB2Idpgio9j0pGMViy/16/
+JOcl1P4fLSU7jZE5O0abaJ3yY/JNAuGWfXNvivhcwot5mZYasPlZFPI3RiRmScwS
+vRuYxzin9x/SddPB6BXukrbvaR7uc5hLy2hp9JLIK0QvxakrGFPEO4Lk60SxH/oX
+RiCd+yMxObgm6UrTf+Jzb76yPIzRTdf2V6qgfoF7GyKvtd6tJrvkVcA2f8N8kY0C
+0ry93/iLhC+wQqu3vVHfoYvNsXWWUura1fOrvyevYw7toxDfnmvcjhx8+oVzisSu
+srQ6BHiKEQzMZ3iQr7MZFSUqWi6c9y3KmCJZ5x/9cx2qRclBWbHzItrIaj0O5T/B
+GfXUJkatVELlLBalGHF0thAxa2ecZZGO7Q9NSQWhdA90oQEoESsFM4wmY+PF6mPu
+8dg0z7eL5y2SciJIdH9U1z1Z26bWHqLBpWV7z2a0vWrUcVAcnk6J2k0EFL0vx0ju
+yeo41dC55tjUIR7zwREeE8E8ND4/gZ8FXxV9mhWzKbI23ohNFpNcw+RHG4K/Q5xF
+1xQssEQoa4vac+ORZ6WTeuRlkBzufnu6QmaHfJOY059Ix4uFDvvjZIgv+nPTLQlH
+GJcSvQ6WFMa5HfQn5zNHtuqD
+=A3HQ
 -----END PGP SIGNATURE-----
 
---===============2462749822123849273==--
+--===============8821968047579275210==--
