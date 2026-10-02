@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7418329653011753531=="
+Content-Type: multipart/mixed; boundary="===============6069270079343748047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Fri, 02 Oct 2026 13:48:13 -0000
-Message-Id: <179094889370.1391660.2121454835573795315@gitolite.kernel.org>
+Date: Fri, 02 Oct 2026 13:48:18 -0000
+Message-Id: <179094889819.1391854.8256575452833876357@gitolite.kernel.org>
 
---===============7418329653011753531==
+--===============6069270079343748047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arighi/linux
 user: arighi
 changes:
-  - ref: refs/heads/scx-proxy-exec-next
+  - ref: refs/heads/scx-proxy-exec
     old: d6888df993d1b04e763a97e0af89b5c1e98cbf37
     new: 3450cafe157356331c23bafa4950eddbe0f14d3b
     log: revlist-d6888df993d1-3450cafe1573.txt
 
---===============7418329653011753531==
+--===============6069270079343748047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e28807c846081ab04ba5eb77e588878ee3811961 sched_ext: Introduce scx_bpf_cgroup_nr_
 6c9775aab51f280be5b7ea486426f3d9cfd8ca6e virtio_console: allocate the port_buffer with the caller's gfp
 3450cafe157356331c23bafa4950eddbe0f14d3b sched_ext: Keep proxy donors with slice left on the local DSQ
 
---===============7418329653011753531==--
+--===============6069270079343748047==--
