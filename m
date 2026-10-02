@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 02 Oct 2026 11:51:37 -0000
-Message-Id: <179094189770.1297012.3221720187158136392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 02 Oct 2026 11:54:27 -0000
+Message-Id: <179094206712.1298001.9430461406136029613@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/spi-7.4
-    old: ed400c241b3cd80fcec6974b87eefdad1b1dd146
-    new: d220c9443db6e5f20a60cad55c6a0ae7a75c63b8
-    log: |
-         d220c9443db6e5f20a60cad55c6a0ae7a75c63b8 Documentation: devres: Remove non-existent SPI register helpers
-         
+  - ref: refs/tags/asoc-fix-v7.3-rc5
+    old: 0000000000000000000000000000000000000000
+    new: db6c96894094e2783866348df73981d96534fd8b
