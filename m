@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 02 Oct 2026 00:15:28 -0000
-Message-Id: <179090012849.773913.4215549845475667235@gitolite.kernel.org>
+Date: Fri, 02 Oct 2026 00:29:27 -0000
+Message-Id: <179090096792.782064.9336908282505315356@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 58328b5b58062ec14bc832a2db0a028345055b88
-    new: cb259191b179ff59e44b296bd011452b9967b9f2
+    old: cb259191b179ff59e44b296bd011452b9967b9f2
+    new: 264f8ac8ec51b4c1adbf29fd333b4eb5abc569b9
     log: |
-         c7fca8aae6fe944493fd6a8ed3316b0fb673f7a7 net/rds: restrict the rdma_cm ids to IB devices
-         00d77b18186637646ac71a0c9e7e74931d3a180d net/rds: log the port a listener actually bound
-         cb259191b179ff59e44b296bd011452b9967b9f2 Merge branch 'net-rds-restrict-the-rdma_cm-ids-to-ib-devices'
+         264f8ac8ec51b4c1adbf29fd333b4eb5abc569b9 net: usb: asix: remove redundant PHY address short-read check
          
