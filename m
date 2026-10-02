@@ -1,19 +1,34 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 02 Oct 2026 00:41:39 -0000
-Message-Id: <179090169935.793647.18319023610895047854@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 02 Oct 2026 00:41:47 -0000
+Message-Id: <179090170764.793911.5846538861938233268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/main
-    old: c47befeabc3383e3f08e653cf9c3a6ee340c7917
-    new: 1b7bc043cd1ba1d97f890b71c9a706022b06196e
-    log: |
-         1b7bc043cd1ba1d97f890b71c9a706022b06196e net: octeontx2-af: quiesce devlink health work on teardown
-         
+  - ref: refs/tags/v7.2
+    old: 0000000000000000000000000000000000000000
+    new: 237a1c39e8dfd3e1c6f1f023eea37a48ec04cc63
+  - ref: refs/tags/v7.2-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 2ee859ebf156157609f71060ae472711c8cbc326
+  - ref: refs/tags/v7.2-rc6
+    old: 0000000000000000000000000000000000000000
+    new: d7dd96eb916519208210bb4a0408fcf4f7fdce5d
+  - ref: refs/tags/v7.2-rc5
+    old: 0000000000000000000000000000000000000000
+    new: a8e429896436e8c2d288181f875f92af8204bc58
+  - ref: refs/tags/v7.2-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 6946cd5d0aa4dd10a414ddcb7a10844fdb0ad345
+  - ref: refs/tags/v7.2-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 1137d8b5df06137fb49513cc923b3b24d94cb809
+  - ref: refs/tags/v7.2-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 728e68a889bcf257b1e67298b12c360e5c3a13e0
