@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 02 Oct 2026 12:20:14 -0000
-Message-Id: <179094361488.1319179.8843837864332474882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 02 Oct 2026 12:26:16 -0000
+Message-Id: <179094397641.1325026.4777974712740243073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/main
-    old: 50c28bbf4158b310fa8463e8937a61940bff76c4
-    new: 9136d4730ac9afc81bed41367e65bfc98c230bc3
+  - ref: refs/heads/dm-7.4
+    old: 99909b74fb34174b22965c397782cd1a370517ff
+    new: c0df022cb0fa2bbee74bd9b90c66790bcd4e3050
     log: |
-         360b6a1c56daffaff796511a91c43172bd83bc6e qcom: update ADSP firmware for x1e80100 platform
-         9136d4730ac9afc81bed41367e65bfc98c230bc3 Merge branch 'robot/pr-0-1790660961' into 'main'
+         a279804752e6c767b7f9ecbb32a15bdfd2b80aea dm: fix a bug in dm_accept_partial_bio
+         78a6afc2999d26e5a30a56db77db34c22b88f5d5 dm-writecache: report I/O error if flush failed
+         c1ab80af0d99a906b60b769f2e692c37d2db1323 dm-writecache: fix a quirk in statistics
+         b15dc73f60ebf02410bc7014ce34fb7fd1040045 dm-writecache: fix a crash if we attempt to use non-dax device
+         8a0cc5f3446a324b13f62020eeddb32d6ba1c2db dm-writecache: fix uncommitted_blocks underflow
+         c0df022cb0fa2bbee74bd9b90c66790bcd4e3050 dm-writecache: fix REQ_FUA processing
          
