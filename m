@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 02 Oct 2026 01:17:58 -0000
-Message-Id: <179090387832.829608.7261110744177977719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 02 Oct 2026 01:30:59 -0000
+Message-Id: <179090465923.840992.10882004688883816388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 7efc07ad22c390289ec16dc676ac290a3827fac6
-    new: fe8a42931853be7e78564fa6359f4c0197429d1e
+    old: 2d3b94c6076a95553876a3c45c122edf62c27449
+    new: 28bc1ef699610ee09ce3d46a00552f5a0a0144bd
     log: |
-         fe8a42931853be7e78564fa6359f4c0197429d1e docs: netdev: additional info requirements for bug fixes
+         28bc1ef699610ee09ce3d46a00552f5a0a0144bd net/packet: guard the ll header push in packet_rcv_spkt()
          
