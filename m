@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5826579570928484236=="
+Content-Type: multipart/mixed; boundary="===============2563350969554226289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 02 Oct 2026 21:36:16 -0000
-Message-Id: <179097697664.1759196.17511446020658743074@gitolite.kernel.org>
+Date: Fri, 02 Oct 2026 21:36:20 -0000
+Message-Id: <179097698059.1759415.4548982546766557033@gitolite.kernel.org>
 
---===============5826579570928484236==
+--===============2563350969554226289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: a1739a8ca372d042c34577754435241690bbda33
     new: 2b5440b31cafad2fb4b4a83efb780a6d7430a385
     log: revlist-a1739a8ca372-2b5440b31caf.txt
 
---===============5826579570928484236==
+--===============2563350969554226289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -854,4 +854,4 @@ d2dbe503fd806082acb0ca79a9d6641822988c2c Merge tag 'pci-v7.3-fixes-3' of git://g
 ff47652a4b66c067c765a7ad464d930b5a9367cc Merge tag 'cifs-fixes-7.3-rc6' of https://git.manguebit.org/linux
 2b5440b31cafad2fb4b4a83efb780a6d7430a385 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf 7.3-rc5
 
---===============5826579570928484236==--
+--===============2563350969554226289==--
