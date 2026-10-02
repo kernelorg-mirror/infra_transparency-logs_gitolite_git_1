@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8311577541613237518=="
+Content-Type: multipart/mixed; boundary="===============1999294466453768704=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 02 Oct 2026 02:17:52 -0000
-Message-Id: <179090747245.874648.13140506082299932101@gitolite.kernel.org>
+Date: Fri, 02 Oct 2026 02:17:55 -0000
+Message-Id: <179090747531.874840.10031823124180968401@gitolite.kernel.org>
 
---===============8311577541613237518==
+--===============1999294466453768704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.111/nfsd-testing-canary-dontcache
-    old: 99a3a856442f5c985b42fe2ffc9a03fb3338654a
-    new: b84156b6129772277bd102bccbb0eede3cafcec8
-    log: revlist-99a3a856442f-b84156b61297.txt
+  - ref: refs/heads/kernel-6.12.111/nfsd-testing-canary-dontcache-LOCALIO
+    old: ad4d2f60bf625de8ee5d76973b87699866790eb2
+    new: 534135a58888f625b62e46886a05a629f240f910
+    log: revlist-ad4d2f60bf62-534135a58888.txt
 
---===============8311577541613237518==
+--===============1999294466453768704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-99a3a856442f-b84156b61297.txt
+Content-Disposition: attachment; filename=revlist-ad4d2f60bf62-534135a58888.txt
 
 24146a22f171d79bf239258a9383f05950bf8543 NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
 69acafea5e035a97bfa3499b2a849ab3f1938108 NFSD: only split a direct-mode WRITE for a worthwhile direct middle
@@ -38,5 +38,10 @@ da81c5e365ee0a085808375a992c4f20ef524bc0 NFSD: add tracing for how direct-mode R
 b9a5f46592d141e5fb5381810a15d2f5816f4f24 NFSD: Enable return of an updated stable_how to NFS clients
 f299aa635b123241bf96268970f657034804c7a7 NFSD: add io_cache_write modes that persist each direct-mode WRITE
 b84156b6129772277bd102bccbb0eede3cafcec8 nfsd: fetch direct I/O alignment for files handed to the filecache
+83cb6a7219fef6a414240c82235e55f5d2a8e354 Merge branch 'kernel-6.12.111/nfs-testing-canary' into kernel-6.12.111/nfsd-testing-canary-dontcache-LOCALIO base
+daf7093172ca05f3ac1d8e93f701a5b09df40bd9 NFS: invalidate LOCALIO direct-write post-op attributes at completion
+d99816c1b0783a4db23904de80204ecaacc069a8 nfs_common: share direct I/O write split and boundary-page helpers
+e3c8b734ec266252a7af89ce66e790d37b0735a2 NFS/localio: split direct writes using NFSD provided nfs_common code
+534135a58888f625b62e46886a05a629f240f910 NFS/localio: persist a synchronous direct write once, after all its segments
 
---===============8311577541613237518==--
+--===============1999294466453768704==--
