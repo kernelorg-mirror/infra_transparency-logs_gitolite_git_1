@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 02 Oct 2026 02:23:23 -0000
-Message-Id: <179090780341.881394.13843943291351537958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 02 Oct 2026 03:16:08 -0000
+Message-Id: <179091096812.918143.6785563825641582889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
   - ref: refs/heads/master
-    old: c7d0de0be146f831523aba0de9f092a7f17f8ac2
-    new: 43844e7c1bfbfb564120bd148ebd4a544498d43d
+    old: 927f2d4f4af4aa7b7162a35e571bfd1932988f7f
+    new: 0118d8c9f490c54e2955738cb08b7ae685dd5125
     log: |
-         43844e7c1bfbfb564120bd148ebd4a544498d43d foo
+         0118d8c9f490c54e2955738cb08b7ae685dd5125 tpm: reject duplicate PCR banks in tpm2_get_pcr_allocation
          
