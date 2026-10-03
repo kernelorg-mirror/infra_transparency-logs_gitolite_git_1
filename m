@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1483919615278531403=="
+Content-Type: multipart/mixed; boundary="===============1728073283486886121=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sat, 03 Oct 2026 08:32:44 -0000
-Message-Id: <179101636495.2301938.4973018942978238717@gitolite.kernel.org>
+Date: Sat, 03 Oct 2026 08:33:17 -0000
+Message-Id: <179101639703.2302340.13369770145407797313@gitolite.kernel.org>
 
---===============1483919615278531403==
+--===============1728073283486886121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e
-    new: e767a4ea70a3992c37ed604157d32f0dfbf9b1e3
-    log: revlist-72d3fcf802c4-e767a4ea70a3.txt
+  - ref: refs/heads/readfile
+    old: 6bef7ca9c2748586ea35e0c39e9bb597ee0475b9
+    new: 11addd8274e24972dce622b52f1b77a4e7be44fe
+    log: revlist-6bef7ca9c274-11addd8274e2.txt
 
---===============1483919615278531403==
+--===============1728073283486886121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791016364 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791016377 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1791016363-33d8e4b2b2c3178b4e3359660a3e19052e8dca2b
+nonce 1791016376-22ee92911b5adff21be2d3b2803585b2be20d6d4
 
-72d3fcf802c45d00b300f25b848a93c3a2bd7c7e e767a4ea70a3992c37ed604157d32f0dfbf9b1e3 refs/heads/main
+6bef7ca9c2748586ea35e0c39e9bb597ee0475b9 11addd8274e24972dce622b52f1b77a4e7be44fe refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrAvawbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rR0P/i7AbwO44xXgtNePrt1M
-0OFS4MplA1NQpedGchvtEYZ0DciOLQ1BsC86wCO0F84h4xW06eEfkl+lOEreUz/H
-bFPNKyXO7VaRbVN8LwgA2dxxZcx26ozcUZ9tEcvUutatybkp7hfKpONragallGjq
-cWCxbFP/Q8ak4Ce0mpbY9xfDiAlgWXEvN05G5O4wD5Te2Q7LMgtAUiRESfGhf/Kr
-lHqFda7d7G+CPW9Lt/XoI1KHV+tYH12XMkW7Iea6nQ4V5upHy7vEYwkNuUfWMdm0
-qx2NdWtW++9iNkmqrJt6XXtmJEQowdGAyLOtwRufTjv3priboavTNvmckfuLc73g
-0Otg5Zq0XTpA7g+6dxjf6Ya5DLPm4WwR7J3THErX6nHqw7G1B0eZQys0WrFucOSu
-bwCaaYrNsmP6EvkjEKh+8Mo2M1SeXzJPR71X5CZ0C9BS28L7nNKjGn8TMo3514sk
-5k/lDA4HQqTvHl3nuGBsUemJYs5WJnhuID6UlOMlAaOmGjT8bUCSKTSNvhwBbHaT
-+LfKM903keQTa/tz7Y9u81f0Jg5CrJ2Aq08nOCC0nsUXp6+jegoX6s4oFcpSpWU8
-hvQImKsI2rklx4a0GSjTeCHImSU7rB24oX7AcqCv00yzYXp9ICq9vKa2b4tOFXA4
-Qww58uRvmm2r9P+KrnKWbI6d
-=ip2h
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrAvbkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HPkQAMleu6/WUIrs52dN29kr
+6f3Jus3W3My6NKx0pLnrovtlVr1ufx0gzt+bz+HPCFcr38qsaN3mhI48PVUgMVhw
+KOdk2Tp7r3sX68X2Dff9eyNtGrnhnWz0kZfHqGEez/5nOPlgtP1eZLYBOW8MIWdu
+BbWRdvayif3FXzMNxrZyvZfyrKrqfIjRPVnIsCPaW2wx/C/LIGXynY5diJp+xpUo
+jZi/siPlXhgGpCCllrrxXJOzqT+PD/KgiySt0HC8zRSLHEObNdcQjttH5uPt5C7X
+BWh3PGD+21JpwLYwfQts7Yk9pa30GJM3QkAVGy0HT9StbUqElkET4ZafOYzeJBbh
+UmQkuG318Ss3yZGANJjcECnsTZKx6w9eTyrrkPXYiqNid+cQiRINvNXy6Y4+hTEP
+ZummPxBCxa4zFgnHWfn+RbnoljqKHBB2Ost50ZXVqklviXvHkiYGNNT/L3cIXE6O
+DwPQdKcBpkn84GISwicdtU4fcJ2+BdF8fOQT0hmAjcQyEfZ7Bb9piw8StWQTgRGw
+jS7cyZ+PIP0r+kKFmBwdg6pZdf0c40i10hjlphEY2bbhRakt8Cw/t/BcRFV8iZ1n
+uEdEfr+mKFH+hNfzEN8y3GtMb5N1iLCHDMgyUrnwyLI/WOzwaqT23kMJTKb4NjEr
+ZSY7Nxq/txX1feD5V4XJ6iRf
+=ftDC
 -----END PGP SIGNATURE-----
 
---===============1483919615278531403==
+--===============1728073283486886121==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72d3fcf802c4-e767a4ea70a3.txt
+Content-Disposition: attachment; filename=revlist-6bef7ca9c274-11addd8274e2.txt
 
 1b48c13075829ee4961feeabd816dac1c9111959 virt: vmgenid: remap memory as decrypted
 9f8139c6145cf17d690d6c414d43b4c0bef632fb virt: vmgenid: set driver_data before registering notification handlers
@@ -397,5 +397,9 @@ d2dbe503fd806082acb0ca79a9d6641822988c2c Merge tag 'pci-v7.3-fixes-3' of git://g
 8f150ccedfbd610aa25509ff42365d70fb20478f Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 ff47652a4b66c067c765a7ad464d930b5a9367cc Merge tag 'cifs-fixes-7.3-rc6' of https://git.manguebit.org/linux
 e767a4ea70a3992c37ed604157d32f0dfbf9b1e3 Merge tag 'probes-fixes-v7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+5090e91778857ac6a4d8ff36d44d61c6e6715060 readfile: implement readfile syscall
+7b9f97742347fc59ba86530648c46676ef458e5c arch: wire up the readfile syscall
+34163e897b36d0fb20434b809891b7e165d79f58 readfile.2: new page describing readfile(2)
+11addd8274e24972dce622b52f1b77a4e7be44fe selftests: add readfile(2) selftests
 
---===============1483919615278531403==--
+--===============1728073283486886121==--
