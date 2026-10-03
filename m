@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Sat, 03 Oct 2026 00:50:25 -0000
-Message-Id: <179098862578.1908046.8843294749409752034@gitolite.kernel.org>
+Date: Sat, 03 Oct 2026 00:50:29 -0000
+Message-Id: <179098862928.1908241.7598602692733920181@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,31 @@ repo: pub/scm/linux/kernel/git/tegra/linux
 user: thierry.reding
 changes:
   - ref: refs/heads/fixes
-    old: 266c0b45f35dc82bc49653049ea5a389d01cede4
-    new: cee9395acd8043be0644b25c34bfa86623f2b935
+    old: cee9395acd8043be0644b25c34bfa86623f2b935
+    new: d0577ed3f2b95b7e13b55161f18564c2de8d021f
+    log: |
+         dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
+         a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
+         4ee64cda9866f4ef19f2802443548e942ad24a23 arm64: tegra: Reorder reg and reg-names to match bindings
+         b86eaddf467a9ddb69dbaa46eea9dda7f93347a3 arm64: tegra: Add PCIe root ports on Tegra264
+         2f4a0fb66d313f03832f061bc3ec25b33c8198c9 soc/tegra: fuse: Add missing newline to APBMISC error message
+         c5c95dbdc9011a56359df4dc00be829bbcc0b036 soc/tegra: pmc: Fix uninitialised clock rate
+         3ada4a29ff6a7ba6b7094d9889f11ebb1189c41a Merge branch for-7.3/soc into fixes
+         d0577ed3f2b95b7e13b55161f18564c2de8d021f Merge branch for-7.3/arm64/dt into fixes
+         
   - ref: refs/heads/for-7.3/arm64/dt
-    old: b86eaddf467a9ddb69dbaa46eea9dda7f93347a3
-    new: cee9395acd8043be0644b25c34bfa86623f2b935
+    old: cee9395acd8043be0644b25c34bfa86623f2b935
+    new: b86eaddf467a9ddb69dbaa46eea9dda7f93347a3
+    log: |
+         dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
+         a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
+         4ee64cda9866f4ef19f2802443548e942ad24a23 arm64: tegra: Reorder reg and reg-names to match bindings
+         b86eaddf467a9ddb69dbaa46eea9dda7f93347a3 arm64: tegra: Add PCIe root ports on Tegra264
+         
   - ref: refs/heads/for-7.3/soc
-    old: c5c95dbdc9011a56359df4dc00be829bbcc0b036
-    new: cee9395acd8043be0644b25c34bfa86623f2b935
+    old: cee9395acd8043be0644b25c34bfa86623f2b935
+    new: c5c95dbdc9011a56359df4dc00be829bbcc0b036
+    log: |
+         2f4a0fb66d313f03832f061bc3ec25b33c8198c9 soc/tegra: fuse: Add missing newline to APBMISC error message
+         c5c95dbdc9011a56359df4dc00be829bbcc0b036 soc/tegra: pmc: Fix uninitialised clock rate
+         
