@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8695795079511170947=="
+Content-Type: multipart/mixed; boundary="===============0279127875679903266=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 03 Oct 2026 02:35:55 -0000
-Message-Id: <179099495555.1981911.16073266160909783480@gitolite.kernel.org>
+Date: Sat, 03 Oct 2026 02:38:29 -0000
+Message-Id: <179099510929.1983274.2135602813157564875@gitolite.kernel.org>
 
---===============8695795079511170947==
+--===============0279127875679903266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-tpm
-    old: 015fb29a748342a186f37b602ac70017098c8251
-    new: ff47652a4b66c067c765a7ad464d930b5a9367cc
-    log: revlist-015fb29a7483-ff47652a4b66.txt
+  - ref: refs/heads/master
+    old: 7d3e5c5a41be157b03a00bf431cd55646b42cf88
+    new: 1d2f6d38f213e027c7b4b4a079f6ee4af12c694d
+    log: revlist-7d3e5c5a41be-1d2f6d38f213.txt
 
---===============8695795079511170947==
+--===============0279127875679903266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-015fb29a7483-ff47652a4b66.txt
+Content-Disposition: attachment; filename=revlist-7d3e5c5a41be-1d2f6d38f213.txt
 
 1b48c13075829ee4961feeabd816dac1c9111959 virt: vmgenid: remap memory as decrypted
 9f8139c6145cf17d690d6c414d43b4c0bef632fb virt: vmgenid: set driver_data before registering notification handlers
@@ -254,6 +254,10 @@ e079ef0b1c40c7a4a1be0c1ac5dbff95685c3beb KVM: arm64: vgic: Allow last_lr_irq to 
 afb4334fb52c7b416bbc9c4b166f6806509f734b KVM: arm64: selftests: Check a feature hidden in an ID register is UNDEF
 b004c4b1c4180fc7f2326de4ac941d5edfe16076 Merge tag 'arc-fixes-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
 684b413b5483f57c890c171b9400076a0143b918 virtio_blk: set the zone write granularity
+1a70f0b71826fb764e8490dda55bb1b853e0d1de tpm: Fix heap buffer overflow in tpm_transmit_cmd()
+1e2f9a611b334ce6ed1dc4a9e1587c7a11d2be30 tpm: Fix auth session leak in tpm2_get_random() error path
+9b522400bf5c082feb9a0037a053ea822a2c7e4d tpm: fix off-by-four bounds check in tpm2_get_random()
+015fb29a748342a186f37b602ac70017098c8251 tpm: Disable TPM on null key name mismatch
 a243ede718463c7b481878656f1ff32a0ce0fd54 Merge tag 'mtd/fixes-for-7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 226154ea87952ad7141ce2dcf52a6c2edd71b8fe crypto: x86/aes-gcm - fix always true check for last AAD segment
 2cf81fc9505b148b1b70068303ea6ea4b1212403 net/packet: prevent TX_RING byte count overflow
@@ -348,5 +352,23 @@ ac7445c28e7a28d5131bc9f9a143261e79495027 Merge tag 'random-7.3-rc6-for-linus' of
 d2dbe503fd806082acb0ca79a9d6641822988c2c Merge tag 'pci-v7.3-fixes-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 8f150ccedfbd610aa25509ff42365d70fb20478f Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 ff47652a4b66c067c765a7ad464d930b5a9367cc Merge tag 'cifs-fixes-7.3-rc6' of https://git.manguebit.org/linux
+e93b70da5c041574d2f6b11e5b10d714b0bfdc63 keys/trusted_keys: return immediately after TPM unseal failure
+996e8b0da2e12deb914676b4f3ddcc9a9075e4d1 keys: finalize persistent keyring timeout after link attempt
+e84d3683a422ce0a355a5302ba45d472733ae661 KEYS: trusted: Fix blob allocation size in tpm2_key_decode()
+b784fde357466777101b08f45761cd040dffdf66 KEYS: trusted: Reject short TPM2 public areas
+dbc422c21b07403985b4cb0a23f73b653f305f95 assoc_array: discard shortcut when collapsing a leaf-only node
+0732f0ea022a1a5f79ad63b438e91774fdc647f4 keys/trusted_keys: move TPM-specific fields into struct trusted_key_tpm
+7d5621307c719eb51e7c436a6b0ef6aac8a05246 tpm: Call cmd_ready/go_idle for each command transmission
+a2471495b658e14e20baee35915dfe3360549791 tpm: Remove ineffective wmb() from tpm_pm_resume()
+0873a222f224026039547eac856b3e856ba1e359 tpm: tis_i2c: Deassert optional reset line before probing
+5c297183f37eee25ab6766d2e91914213f0ee7a0 char: tpm: Use SIMPLE_DEV_PM_OPS for ibmvtpm power management
+413b3aed604a722d0c955e77d5c43ef295713307 tpm: use DEFINE_SIMPLE_DEV_PM_OPS and pm_sleep_ptr()
+2704998eb7310b5650f1c14fa4f03bb48d1b8c3e keys/trusted/tpm2: Validate TPM2_Create object sizes separately
+652dca272503dbc73e7b7dc905dd068a2a3238e5 keys: Protect key_user lifetime during ownership changes
+4d041ae0ee89ef5e655992c3ee0bebfac1582eb3 keys: Serialize ownership transfers with key accounting
+620603e1c9ef43ebca000091adc348e39ffa0278 security: keys: Fix comment of search_process_keyrings_rcu()
+cbae6a9e0a4cb8b2b0fd87d8f8ac45502d292f93 tpm: reject duplicate PCR banks in tpm2_get_pcr_allocation
+4fc58e39706bd1efab033c701743d10042d8ecdf KEYS: Fix add_key() race with keyring restriction
+1d2f6d38f213e027c7b4b4a079f6ee4af12c694d tpm: tpm2_probe: propagate transport errors
 
---===============8695795079511170947==--
+--===============0279127875679903266==--
