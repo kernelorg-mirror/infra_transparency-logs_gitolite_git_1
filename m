@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
-Date: Sat, 03 Oct 2026 19:47:35 -0000
-Message-Id: <179105685515.2962266.4591808021641442245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Sat, 03 Oct 2026 20:00:58 -0000
+Message-Id: <179105765833.2972512.17146789977310803618@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lenb/linux
-user: lenb
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/heads/x86_energy_perf_policy
-    old: 0000000000000000000000000000000000000000
-    new: fba1487bcd745e67dadd28ec8c092bc86c79d85b
+  - ref: refs/heads/tmp.next
+    old: 5368a7d254e8846e7e674b0a47f894e217e96258
+    new: 1e342ac44979748bcf5bb37f84ea055e7f4d7184
+    log: |
+         1e342ac44979748bcf5bb37f84ea055e7f4d7184 dwarf_loader: Limit parameter location analysis to x86_64 and arm64
+         
