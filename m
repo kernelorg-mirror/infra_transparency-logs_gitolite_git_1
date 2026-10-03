@@ -1,22 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 03 Oct 2026 18:08:54 -0000
-Message-Id: <179105093412.2891483.13226849525388010569@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7388582151797906295=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sat, 03 Oct 2026 18:46:09 -0000
+Message-Id: <179105316908.2919511.14107312618127436112@gitolite.kernel.org>
+
+--===============7388582151797906295==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 25d576ed11108470d0999054265108400db1b881
-    new: a74306e2e676f9775457366fc047a660fbf02f26
-    log: |
-         59e0cc31cc5c43586c6eaada62c2c863bfbcbfb5 clk: ti: composite: resolve parent clocks by name again
-         d558af8ee0bb1b2e88e696be84adb93cf2b7be6f clk: spacemit: k3: add CPU PLL rate tables
-         81493c1dd1b1ebecb2843a7815973a5bd9a37e5a Merge tag 'tags/spacemit-clk-fixes-for-7.3-1' into clk-fixes
-         a74306e2e676f9775457366fc047a660fbf02f26 Merge tag 'clk-fixes-for-linus-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-         
+  - ref: refs/heads/perf-tools-next
+    old: 2ed38aa8a52d3e245a9f71b98825ad7f77956d50
+    new: 1dc462fc214907671600172280c2e79ef9fe6fcf
+    log: revlist-2ed38aa8a52d-1dc462fc2149.txt
+
+--===============7388582151797906295==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2ed38aa8a52d-1dc462fc2149.txt
+
+019b53caa674b6a13250214de471d85819748c3b perf session: Don't flush remaining events once processing is done
+d1ec67bdf540a56df22a52ef000e1347535dc1a1 perf python: Quietly stop processing events when a callback raises
+2c672ffdad4bc79e49c2187bcbe43a428a440889 perf python: Lazily copy events and samples from process_events
+09d0ea3517bb57b6fe315e2395a891d558fcdc42 perf python: Lazily resolve sample callchains
+055c721d38a49ea37fe058f6259ed85bf89cdfec perf python: Release the GIL while processing session events
+ab8834953ba082788d78bdf1af95f7a71db646a6 perf list: Add a --tui option to launch ilist
+ba5992c94a828e7fee5fd6a139219a2c99e7cc92 perf test: Add a test for the ilist script
+b379b70b7b7b41ff3a8ec91f1506ee66dca80df4 perf treport: Show the profile while it loads
+434735dfa2ae5b53ac4b73b00877d0124ccb2151 perf test: Add a test for the treport script
+e7a72d6919804e5e5a10e13d71e259acbc7510bc perf timechart: Add an interactive --tui mode
+1dc462fc214907671600172280c2e79ef9fe6fcf perf test: Add a test for perf timechart --tui
+
+--===============7388582151797906295==--
