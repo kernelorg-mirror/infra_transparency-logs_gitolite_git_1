@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0386577447497368830=="
+Content-Type: multipart/mixed; boundary="===============8990079430457973856=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 03 Oct 2026 08:24:13 -0000
-Message-Id: <179101585373.2292282.250902964652010480@gitolite.kernel.org>
+Date: Sat, 03 Oct 2026 08:24:15 -0000
+Message-Id: <179101585596.2292456.8603716411155504343@gitolite.kernel.org>
 
---===============0386577447497368830==
+--===============8990079430457973856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 9a0542b19a541eda3f82934ee747c61ec3f18847
-    new: 763ad0211c7b587344f03bc4d1299810aeb736f4
-    log: revlist-9a0542b19a54-763ad0211c7b.txt
+  - ref: refs/heads/mm-unstable
+    old: 40cdf2b57d6c6914170fbbd006aff29febfb3382
+    new: 33eb75fed9eef7a57e3f77c37c160d3e9ec55f2e
+    log: revlist-40cdf2b57d6c-33eb75fed9ee.txt
 
---===============0386577447497368830==
+--===============8990079430457973856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a0542b19a54-763ad0211c7b.txt
+Content-Disposition: attachment; filename=revlist-40cdf2b57d6c-33eb75fed9ee.txt
 
+1b48c13075829ee4961feeabd816dac1c9111959 virt: vmgenid: remap memory as decrypted
+9f8139c6145cf17d690d6c414d43b4c0bef632fb virt: vmgenid: set driver_data before registering notification handlers
+c72f9f7bd23c91e944910d9bcbf12503d21a4a1f nvme-pci: add NVME_QUIRK_DMAPOOL_ALIGN_512 for Micron 4100AT
+62b70e6c87121ae5b79ca20c3a5b005590336ec5 nvme-fc: do not warn on controller removal race
+2f271b812170d4cad578bae1f91db72f3c2e36e7 nvmet: preserve device path on allocation failure
+327c428ba79b13e4cc5253333a9d5c0aa5579bdf blk-cgroup: save IRQ state in blkg_tryget_closest()
 403f45735f383eea48bae0e05744c3b610d495bb virt: vmgenid: move to using dev_set/get_drvdata
 9a7d3340cd0f615a05c81c8f972cbffc8eb96230 siphash: clean up kernel-doc comments
 3d0a9e74ce9401c4e287df72cc75c9d4b25b4060 random: vDSO: fix repeated word 'to' in comment
@@ -1033,22 +1039,5 @@ e6c457bb36a054e804293d6f4ea18f1bcf4743a9 mm/sparse-vmemmap: remove the unused pt
 17a702fb8e27a5f8d52eb6f9c5ce4030f177d3b0 mm: make swapoff interruptible when unusing mms/shmem
 8b50fb0f096e3d5a5b91d287fdc75dd5dea69f2c mm/swap: submit the last readahead batch before unplugging
 33eb75fed9eef7a57e3f77c37c160d3e9ec55f2e mm/page_alloc: avoid direct reclaim and compaction for costly __GFP_NORETRY allocations
-890d2a2d17bc519270cffcaa135402c90c577828 selftests/mm: mrelease_test: fix retry limit
-56d7564bbad6281a37c1e1f7024296407997ffe6 mm: kmsan: fix iounmap metadata teardown
-0ca41b73e56ab560e3c863a5e4430e8d20f3f865 mm: kmsan: fix ioremap error cleanup
-71e9b9a425fe94883fb63c67b8b9c7289071f939 selftests/mm: fix soft-dirty kselftest supported check
-e07647a98f504283d36192274042e8a3ec7261d7 riscv: mm: fix concurrency in mark_new_valid_map()
-1144df27cac46e3f1157c0addfc964197d0d649e riscv: mm: exclude invalid THP PMDs from page table check
-3216e01c3320b7d092635b40636857db0cecfc69 sh: remove CONFIG_NUMA and related configuration options
-4fa1fe687d4feff217aff610906f38e9729a5cdb sh: mm: remove numa.c
-65f4f066e19dab64156200903a1cc36454728645 sh: mm: drop allocate_pgdat()
-0f618a364e236e0253c8a92d34adc055a50394e7 sh: remove setup_bootmem_node() and plat_mem_setup()
-b06941e763bb1293eece01eb4ab6ea0b221fbf0e sh: drop dead code guarded by #ifdef CONFIG_NUMA
-0e30a47b5fe261f07e3f7bb92138773e2279742b sh: drop include/asm/mmzone.h
-007b95d39cc35d7dd29950090500f8946e52515e init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-a73f7e8a82bfd90aeecca5f9e6e1c02323f813ee sh: init: remove call the memblock_set_node()
-86bb95be860a51698dd3e2918e3be74857e6c4f2 sh: remove SPARSEMEM related entries from Kconfig
-b020ef177e3a91495c0a453a52873d3c828ca4b8 sh: drop include/asm/sparsemem.h
-763ad0211c7b587344f03bc4d1299810aeb736f4 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============0386577447497368830==--
+--===============8990079430457973856==--
