@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 03 Oct 2026 23:43:07 -0000
-Message-Id: <179107098712.3125601.13203537833841893280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Sat, 03 Oct 2026 23:56:06 -0000
+Message-Id: <179107176628.3135565.5057042839442717633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
   - ref: refs/heads/master
-    old: be5483ee17a18b8b1cce7502a07ecfb3c56be869
-    new: d2cbbb9c3f21d4c9e2ca14fd6c14a6cd213b0d5b
+    old: 1cd7d1bb47dbc1bf01bb37ae173e0a8cd6a919fa
+    new: 18d5f35d139d59abcfeac1044b059ab2887416fa
     log: |
-         d2cbbb9c3f21d4c9e2ca14fd6c14a6cd213b0d5b foo
+         de7ffca1cdb1ca061c4711d4146e7480762ca595 Check thread attestation only when a message is opened
+         18d5f35d139d59abcfeac1044b059ab2887416fa Show From, Subject and Attestation above the message, hide the rest
          
