@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1679357720370674429=="
+Content-Type: multipart/mixed; boundary="===============7776415837031799802=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sat, 03 Oct 2026 17:50:28 -0000
-Message-Id: <179104982803.2879919.6498085856691257144@gitolite.kernel.org>
+Date: Sat, 03 Oct 2026 17:51:06 -0000
+Message-Id: <179104986694.2880419.7416437026365193585@gitolite.kernel.org>
 
---===============1679357720370674429==
+--===============7776415837031799802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev
-    old: a7d28aa0e9b2c983b915d091f9596f0e3b253355
-    new: 6ad72f8c839a25b83d5aeaa65c233602151bca44
-    log: revlist-a7d28aa0e9b2-6ad72f8c839a.txt
+  - ref: refs/heads/master
+    old: 73e3f0710014fe6d4ed98cfc02292f6121db7558
+    new: 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e
+    log: revlist-73e3f0710014-72d3fcf802c4.txt
 
---===============1679357720370674429==
+--===============7776415837031799802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a7d28aa0e9b2-6ad72f8c839a.txt
+Content-Disposition: attachment; filename=revlist-73e3f0710014-72d3fcf802c4.txt
 
+06f5634ec5584954177f9a22e36b3bfb398a971b tracing: Keep the entry count when the histogram stats allocation fails
+3d617bfd79330ae3acf94862c18bb3ccf5f5a0f9 tracing: Let histogram values keep the percent and graph modifiers
 89b000ba0796593aa61f6eec24d369337594588b tracing: Fix typo "availabe" in comment
 0999d3e16d13b6299fd7cc7a7fb2825c18e90dd0 tracing: Fix typo "preceeded" in comment
 6ede78d0563a2a3ae3e46f9c07cedb5d79645429 tracing: Set the trace clock before registering the histogram trigger
@@ -1048,7 +1050,5 @@ b1fa457bddf009907b023bc0c09ba4eca3191a8e Merge tag 'cgroup-for-7.3-rc4-fixes-2' 
 64d34cef2a32331fedabf25ea8fa8a30128af9f7 Merge tag 'i2c-fixes-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 d266640c6c760c9bc215bf5a3ece122ca488b6f5 Merge tag 'driver-core-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e Linux 7.3-rc5
-cfcd32c286408abf903e140ad2acf1f9fccfe177 erofs: fix xattrs handling when metadata compression is used
-6ad72f8c839a25b83d5aeaa65c233602151bca44 MAINTAINERS: erofs: update my email address
 
---===============1679357720370674429==--
+--===============7776415837031799802==--
