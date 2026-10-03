@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6099996307893277664=="
+Content-Type: multipart/mixed; boundary="===============2916431633078813718=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 03 Oct 2026 09:49:24 -0000
-Message-Id: <179102096409.2358177.6874301022444110936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sat, 03 Oct 2026 09:50:05 -0000
+Message-Id: <179102100585.2360478.8516588202575637413@gitolite.kernel.org>
 
---===============6099996307893277664==
+--===============2916431633078813718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 1dc462fc214907671600172280c2e79ef9fe6fcf
     log: revlist-2ed38aa8a52d-1dc462fc2149.txt
 
---===============6099996307893277664==
+--===============2916431633078813718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ b379b70b7b7b41ff3a8ec91f1506ee66dca80df4 perf treport: Show the profile while it
 e7a72d6919804e5e5a10e13d71e259acbc7510bc perf timechart: Add an interactive --tui mode
 1dc462fc214907671600172280c2e79ef9fe6fcf perf test: Add a test for perf timechart --tui
 
---===============6099996307893277664==--
+--===============2916431633078813718==--
