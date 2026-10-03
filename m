@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5025928719806345892=="
+Content-Type: multipart/mixed; boundary="===============7989264957714511345=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sat, 03 Oct 2026 08:40:09 -0000
-Message-Id: <179101680934.2309041.11467195510341646855@gitolite.kernel.org>
+Date: Sat, 03 Oct 2026 08:40:53 -0000
+Message-Id: <179101685311.2309662.6237413288460304679@gitolite.kernel.org>
 
---===============5025928719806345892==
+--===============7989264957714511345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/aisle-tty-vcc
-    old: 31b5c9816bc1a305f48a07103cef4419393c05c3
-    new: 3c99dfcec536e175f0c5a965280bdbb4c920e025
-    log: revlist-31b5c9816bc1-3c99dfcec536.txt
+  - ref: refs/heads/b4/bind_taint
+    old: 259f7ab9968b5d272a0ceecc7aecdd6d113a030e
+    new: 9567aae4a1782fbb72c551d9dc054743e918abc8
+    log: revlist-259f7ab9968b-9567aae4a178.txt
 
---===============5025928719806345892==
+--===============7989264957714511345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791016791 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791016826 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1791016790-ab56a06f959d166bb8f2b9a6ec8a1c367bc336f6
+nonce 1791016825-db8bcb936ec25d608ad594bd3d11cd497ecf1d0a
 
-31b5c9816bc1a305f48a07103cef4419393c05c3 3c99dfcec536e175f0c5a965280bdbb4c920e025 refs/heads/b4/aisle-tty-vcc
+259f7ab9968b5d272a0ceecc7aecdd6d113a030e 9567aae4a1782fbb72c551d9dc054743e918abc8 refs/heads/b4/bind_taint
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrAv1cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WSkP/2PeVfwvYeSmDfYwr5eO
-mabEfdA4I6AilD4b9ohUoG5EWEGqurjvkVWpN5pdXBrshhBdgOCIzDeElI3GOTn8
-6BqJuOJECPrk2MPy4IrauCtZmoJfDQ3/TI6jF8oMRdz1DiDk7gsSXJFediFXzAfW
-JhvG/UlFaBV9op4mDMNoPBfXlKvFGMYnwDhJhrGJUdMBpbtVXLsGg562AcGL2Lw9
-8teJw8rWl5P35Yq+o6hvB4CtD71yTqFPhgzQfJUPXZzwpHy2KBEc7+IDVYgIWpJz
-AR4fOlQgkr9s82ujS1fnuwNjKRUWRk7CgTj285GzSzY97idS3a01UAK3l7tNgZw+
-H4uM2gmd9Symb/aqXL12GAZAvwp2fq4puh0HtdPG2SgQw+8WkquOpYZZhy5tAI5P
-acsHdyxLzWDIqI357v2fJw1gSLWWhNTkZ1JAIP54MG9mXgic3359NahTpTS8a1zN
-bIMMqd5geV04BWhmwFb4T//f3lN3eeLGMOM64e/zeVgPh8Hl3CD3+R/7qLzm2LwW
-g8/Dtn41CgzxmICln5pDd7Z1f3i5Y7EdOHkRulgOcRs+WjpIbcM39mOoWyE+Iaek
-0p/InZxF+x3viirZS8cjyxLTfLTJ0wXzZhC1ooNRvXQX+0SKJP/s4eOXJvMf5aTj
-f88phzCCfu9ZTtK8FCVbF9cU
-=S6BD
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrAv3obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+03MP/2SLpwOvHx0pGE+GpI+s
+m+9Mws4opRvBcWX6ENuzcK+ue6nfBOfJgrntz5eJBEGh8ZtyzhMXp1Sp0yI4qdz3
+yrTLH4OlMVzvHNIYl+EQX9xeoeNaFVqlc/qewI3hBJ75qRqNjHh9D10gYnavP/TM
+F/lNbJmaroSkDPl80lkYu8678HNMYw7rqMA3XBBT54ZmTI9KmNqrSdMe1ZDBbhXO
+pzpFq7krSfBfIvfTnHI+K9kQhEmgjMliXNv0J/kxoJf31sYTiy1Vm34dJvpfJo6r
+IocZ51o92eopQbfEk/u8CJQowEyF9UuRbglmvJCe6hmoZcvGiHUr/G7Xz4HsK1WP
+DPd29y7dcw/Bh4oKCm3YmKv18y/KYoFvB84KvsiWvuzKxyDyrHw79e9Qi+LfWOXf
+Qo6Z/IRYC5E7U2p8SfHAb0xKkESVOrOGbkSg+rya1793X9gROgTtAtQbgsOh5VJs
+AEXXPWx/Y8xVOVxhMGOhrAQ/elwmStVDhQXRnBsJS4D9w13v1YfjToBuVmzSJTmv
+8OWF4ymN3YUU6uuHnqlbL65sYG9ahd/ObpIzD5rXPJcPhzk9XdNTIW0YeYbPPGYo
+30n3lnR/NDtYJmaIuYi3OzrZIU3L4LzMLfnZ4iKpp8FnVGXJIF1nNDH3TlCvgZwf
+6bbRwuqcX447miETiABSVbiB
+=kuPn
 -----END PGP SIGNATURE-----
 
---===============5025928719806345892==
+--===============7989264957714511345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-31b5c9816bc1-3c99dfcec536.txt
+Content-Disposition: attachment; filename=revlist-259f7ab9968b-9567aae4a178.txt
 
-f0ef4b1eaed000a304726a43091588e8426ba08a net: stmmac: do not overwrite phc_index when no PTP clock is registered
 2842ce397dd09882530b42f7fdb0c855767eb24e net: bridge: vlan: fix bugs caused by switchdev deletion errors
 b52d695d062095327b944acf7daabbc816ab319b scsi: ufs: core: Keep internal commands dispatchable during error handling
 ceac0de741bfb47ca255eee075257b3bb31f0651 netlink: do not free nlk->groups while lockless readers can use it
@@ -1078,8 +1077,9 @@ d2dbe503fd806082acb0ca79a9d6641822988c2c Merge tag 'pci-v7.3-fixes-3' of git://g
 8f150ccedfbd610aa25509ff42365d70fb20478f Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 ff47652a4b66c067c765a7ad464d930b5a9367cc Merge tag 'cifs-fixes-7.3-rc6' of https://git.manguebit.org/linux
 e767a4ea70a3992c37ed604157d32f0dfbf9b1e3 Merge tag 'probes-fixes-v7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-dadc59f02ae155dcd1e7be447a4dea0079001598 tty: vcc: Some small vcc bugfixes found by code scans
-d32e5228b301d8abf69e5fb18dd9b43f7bfff33d tty: vcc: zero-initialize control packet in vcc_send_ctl()
-3c99dfcec536e175f0c5a965280bdbb4c920e025 tty: vcc: hold port lock when clearing tty pointer in vcc_cleanup
+7147601d3ef0fd44b9d99fe3b58a7c06889c2f69 driver core: add TAINT_FORCED_BIND for when userspace manually messes with devices and drivers
+c82167292e54b21c0947448c66b9c164d84ce32a module: pull out add_taint_module() to be public
+bbab65f19ee86eb8a47ecb48621c1f60fc217631 module: fix up documentation for add_taint() and add_taint_module()
+9567aae4a1782fbb72c551d9dc054743e918abc8 driver core: add TAINT_FORCED_BIND for when userspace manually messes with devices and drivers
 
---===============5025928719806345892==--
+--===============7989264957714511345==--
