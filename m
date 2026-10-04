@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Sun, 04 Oct 2026 19:54:39 -0000
-Message-Id: <179114367923.3987222.3638996006497129313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 04 Oct 2026 19:57:50 -0000
+Message-Id: <179114387003.3990428.1060890178142637473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/next
-    old: 86394ffa43adb8bd2abdb51d84458f67a353d112
-    new: e41ceb82523a695015ba2edd21e9656a47227009
+  - ref: refs/heads/master
+    old: 072d543317bb93fa01c765e08f916534966be63d
+    new: 0cee821dee7acd9a58b269966e473ef902338e2e
     log: |
-         d56ae624591606655ac5657b206d01230b5f7a06 lib/ucs2_string: Drop arbitrary input size limit and associated WARN()
-         4c0209bc31d26d1205fe0db29f33ce0290daf3d1 lib/ucs2_string: Suppress modinfo when __DISABLE_EXPORTS is set
-         0f5a86b29fcc1c1f4e4be5d5899de52217ecd5be lib/ucs2_string: Split out ucs2_as_utf8_l() taking a separate limit
-         899ff1dbc8842b4b6d1b8ade94a86a2336bbc86c efi/libstub: Use ucs2_string library for UTF-16 to UTF-8 conversion
-         1fe625b5df3d28f504677f067ab0be5d4bde10f3 efi/libstub: Avoid efi_puts() for compile time constant strings
-         48cfc2f96bff6d16b4aca30c97f1a592aa218857 efi/libstub: Output UTF-16 directly from vsnprintf()
-         615afe6fa3bbe2e81fd9c7893c5a50b123246605 efi/libstub: Add support for printing human readable GUIDs
-         13e7fd357fc537be221dbf5600fc663727733dbc efi/libstub: Add efi_snprintf() to construct wide strings
-         0f7d63d9a725e60d509d8dc363a8fd5cbeae51b6 efi/libstub: add initial Boot Loader Interface support
-         e41ceb82523a695015ba2edd21e9656a47227009 Merge branch 'bootloader-info' into next
+         53c7829b515e35f56a0024e0e43a2f613881ebee src/bin/git-brebase: Use $dir/onto to remember the target commit
+         52f631da9da78d9aa3c73c93b826b12fbc5b3bcd src/bin/git-brebase: Rename $dir/branch to $dir/head-name
+         77123ee4cea760196d6f882f43c0c61f920fe800 src/bin/git-brebase: Store the BISECT_HEAD in $dir/bisect-head
+         25119eb72d10f72f76670300a41f988a5cf23102 src/bin/git-brebase: srcfix
+         9c684bc8d50a630a81a069981033a108dbc45a92 src/bin/git-brebase: Store --pre-exec and --post-exec commands in files
+         fb6a155a7295f2d41dfc90b8a04597df242303b0 src/bin/git-brebase: Store the last good HEAD in $dir/good-head
+         0717c910abbd7849e1829da40905ba5823e23900 src/bin/git-brebase: Store the bisect/bad commit in $dir/bisect-bad
+         0cee821dee7acd9a58b269966e473ef902338e2e etc/shellcheck/shellcheckrc: disable=SC2001
          
