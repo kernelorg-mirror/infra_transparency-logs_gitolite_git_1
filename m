@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9026522384541151646=="
+Content-Type: multipart/mixed; boundary="===============2682799769230437231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Sun, 04 Oct 2026 10:50:02 -0000
-Message-Id: <179111100291.3595763.13980574615855651652@gitolite.kernel.org>
+Date: Sun, 04 Oct 2026 11:02:28 -0000
+Message-Id: <179111174854.3604285.10984430946462981495@gitolite.kernel.org>
 
---===============9026522384541151646==
+--===============2682799769230437231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,49 +17,46 @@ user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/soc/dt
-    old: 497b269da564db66af3d1b0191c0b8e9339b1b69
-    new: 4caeb987ea5d234a5610739f833a12ee0fc46e37
+    old: 4caeb987ea5d234a5610739f833a12ee0fc46e37
+    new: 6f0747138b41ad001688e881787e247db3015087
     log: |
-         a2dd0d9654e9e68b901fe63fe60cab8f4b4aa039 ARM: dts: ux500: Make panel regulators have unique names
-         18fb6f060ebaf10aa69f7411868dcde376c528c2 ARM: dts: ux500: Harmonize GPIO key names
-         72c808001efa2a4146821ecb6f70645c15eb9629 ARM: dts: ux500: Add the Imagis ISA to Janice DTS
-         07f7a23377f1e6c74fba49c5ed7924e78517e666 ARM: dts: ux500: Add the Imagis ISA to Gavini DTS
-         0c248f234355499539b76d1bb4f7a1b6165b0570 ARM: dts: ux500: Add new AB8500/AB8505 regulators
-         d02aac22bd659a361d09b99166d93fd7f7040046 ARM: dts: ux500: Fix up regulator assignments
-         2d9e6962a23ff99e80cf1d21f08824fcf754846a ARM: dts: ux500: Add sound DAI provider cells
-         f9b2262d1edba1b6c0abc12118105f8fa200980a ARM: dts: ux500: Convert HREF audio to audio-graph-card2
-         2eb92e6b94b612eccb53366f65018ae5e8d072d5 ARM: dts: ux500: Add Samsung phone audio graphs
-         4caeb987ea5d234a5610739f833a12ee0fc46e37 Merge tag 'ux500-dts-for-7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-nomadik into soc/dt
+         e9e7cec189c0300e8756024c84b2bbd9371b2bc7 ARM: dts: gemini: Rename power controller node to poweroff
+         5bf1bb010712bba28eda926ed453db3cab91381a ARM: dts: gemini: Use a level-high interrupt for TVE200
+         6f0747138b41ad001688e881787e247db3015087 Merge tag 'gemini-dts-for-7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-integrator into soc/dt
          
+  - ref: refs/heads/gemini/dt
+    old: 0000000000000000000000000000000000000000
+    new: 5bf1bb010712bba28eda926ed453db3cab91381a
 
---===============9026522384541151646==
+--===============2682799769230437231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1791110996 +0200
+pusher krzk@kernel.org 1791111746 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1791110995-c027d83fa52bd5c5b6ba72e78ce42ea4ded069b6
+nonce 1791111746-f4e6f403eba09aba1e92eba0efaf18b114f87f3a
 
-497b269da564db66af3d1b0191c0b8e9339b1b69 4caeb987ea5d234a5610739f833a12ee0fc46e37 refs/heads/soc/dt
+4caeb987ea5d234a5610739f833a12ee0fc46e37 6f0747138b41ad001688e881787e247db3015087 refs/heads/soc/dt
+0000000000000000000000000000000000000000 5bf1bb010712bba28eda926ed453db3cab91381a refs/heads/gemini/dt
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrCL1QQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD16NfD/9ffN7jz5ahRllBJiKuo9FIqsFWZnFJFbms
-y99RVU+jJXyLQfLv1KWConNfgqaa+uWQ/CYilfYgHEb2WKy6Vcg1yKsh4eF6ANl+
-K3Oz2LMIk3ggv+EX6wQGeFhs7uADPPLStsKdoetFKp31QSPSxej1fvAdbXQqAGlJ
-AQJxIS39twie9C0A2Ws0X6cdWf3bKU4sl7rk+qqKAjKgIN1juah6GH4K98kgTEy0
-r1U3qEVx2Oua5y6QZYbbJ1lSturMfMbipo2zHbjwq8//lpS1H9mb8oL6v/pFWB05
-c0ziOQft3im6SDeg3z9ul1KsWPNpmjNYZuzto6wFoX1w59hRI00tSckLcio8Y/BR
-5AjPQOcRkiWutP7CzbE1wm3ASRETOvAFNRmu2nSmMARkMxe40NqrxZkVQKnBmqVP
-d2XFDqRGzxy4uQb0eeKOSImwXeqLJiV6xKElP9xdOjOcl4/t02y1qb6d3ScHSggv
-kGiwlvNAJEK8QuBztLZjYzRpFP7Xl5jrTfqlW0SOo9RrAU+KNPTK8jrzMMSekmcP
-zuQh+/kIcXuxN2oUBKCmS+j9ZNXy4ONhfilAwJMZYLdjN06axQqKmX7rp1Frlnlv
-AcBEVYhYEE1ZOM7rpidLApDNntgJ9pLmcvx9PtzSY2n0XJfsAXokxPedJCjRHXJK
-V4dqm6G18w==
-=qkcn
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrCMkIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1wAsEACKXo3Z6e2YXbNF/4cI84KHmglYertaTiti
+FNH1C4dP7bIsMUK/RuIqUpE0DtZP5WbOVleYITCkxO48v5aXCw5xG0YjZjulzvI1
+lZJnPk4BdGG7OXKrHBF4jyeTY82WKpbQY6IQtgAWU4TB62J4YqqISATfKBvumufv
+CPmtDJKQPZu3farsymh1dA/3dyxdEbub8M0clVcCYnW9M4+LpOvlBsm/+EwUVVDb
+mhE1q/4e4jWuBPqn8Me+LE9qALQkQmUu7jr9/FSkxJQyx0VuLgNm42ZQuYtrxKm8
+PPxHCDesQOS7f/WVzwMCpaQJFjwUPy0ww0OxX3UR+wOAhvmd0EpJMcIyOCbeO+0N
+N/g4tnCDpYouep0KbOkyCeHIXWuRBOSFqL1CuiciyYghlgrS6GiM32JgYjHsAWOM
+3MXcCOWBwMCfSz2F3Snz0Dw7gJqmWh3aqXLNMuPGkekhGPcuWnj3jmif4sV4Cp+N
+cn6zPkfs3CO/aNjzvCRMEwd/Qi3ZeL7grDpxMx8jJIXsIJi1mpGqNrR6LGM15/LD
+/xVMJ9ReIqoalBt9H+qthff2UyTSQORx3Offu5ayfm6EW4g3UJJtcdxqI7gBmziR
+4uAi4GJlUzNAzEGRIDHRehluy28UGjRLplrn+XJsPDqWf5cgj5cgOFBu3dtk3h3W
+gFDHIZZIBg==
+=vVWT
 -----END PGP SIGNATURE-----
 
---===============9026522384541151646==--
+--===============2682799769230437231==--
