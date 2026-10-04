@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4701097351002904505=="
+Content-Type: multipart/mixed; boundary="===============0921056871771448937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sun, 04 Oct 2026 06:07:20 -0000
-Message-Id: <179109404030.3392739.17898290200471201811@gitolite.kernel.org>
+Date: Sun, 04 Oct 2026 06:08:36 -0000
+Message-Id: <179109411614.3393266.11067936181607803886@gitolite.kernel.org>
 
---===============4701097351002904505==
+--===============0921056871771448937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: e767a4ea70a3992c37ed604157d32f0dfbf9b1e3
-    new: 6addb4f385570ebc11c4eb499a4f1c149f313e84
-    log: revlist-e767a4ea70a3-6addb4f38557.txt
+  - ref: refs/heads/b4/aisle-tty-vcc
+    old: 3c99dfcec536e175f0c5a965280bdbb4c920e025
+    new: aac4db5d573d35cab8962410ff0b3debb8ef874a
+    log: revlist-3c99dfcec536-aac4db5d573d.txt
 
---===============4701097351002904505==
+--===============0921056871771448937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791094017 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791094099 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1791094016-2d1e16b2737824c60925f708b2a52d2a8e6460f1
+nonce 1791094098-844eed1725693003bd2d1df00dfd35df7f5ae913
 
-e767a4ea70a3992c37ed604157d32f0dfbf9b1e3 6addb4f385570ebc11c4eb499a4f1c149f313e84 refs/heads/main
+3c99dfcec536e175f0c5a965280bdbb4c920e025 aac4db5d573d35cab8962410ff0b3debb8ef874a refs/heads/b4/aisle-tty-vcc
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrB7QEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RvUQAIaq9JmliQO30To0h/tK
-7K8Jn5jmCXzo7nOhQTGlcmkZFOPtXP0uuPmeaDP89cXeu2+HJ60X2iiKj2/Booh8
-jbStXgwiYUDShORXh2/i9H/TIH9xy5n7qHTLECPECLMKEC4LPQjTxaF8Gp0AjGXr
-YjT9mRZilE6UPR4BV4z2URdNIfO+1G/VZu6BTtMYzcGXoV8ksKUUXyhwYyprbInW
-MniHytNNt7TILL2dVxyKizpMKv4cdLgV5oGnKew7MFSzIS/B43CQKmpFu+C3ZI6C
-5PdMSJM5Q8mXpgr4OApQR9gl0VLYMxDY5+NdwehO5vhACpsybJwNTyyEDFygk5l/
-KxCBqf7mFEkcd2aHVLpPYebJdmBRKjmcut+MtcXYc2dQW2w/b6Ez6oO27nNihlcg
-St+YJIK8Rs5HwtEfJfcWpaLk0j2lsR8VEzhpR9nM3iJrPiniQqrH+P10BtYKoet6
-3qUXkzYf+QqpFQTV0/ekZLSF6AFFoZXXINXNizv80s0trGvBO1twI1BPA3j73sLQ
-h0yRIUX2r93hQUAuQ+asIg72fYN30g3L3IxuRBQaRiJ4XK384AVAQCXi+p8P4n0d
-uVhDUn650K1kbfsXS6+h/V4quJs/YSnupGy+BXcFsppTz7VNGBe18pPV1FfWRKTc
-jFyGkoebapJrdfZVeP4ZJGVD
-=jobI
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrB7VMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gHQP/2ep3rFyS9tbDb7IJUFf
+gIVka/09r+Jte5CSNzFBFoo9CrcFJI+3SPLrCEkxzyoQnHvIxLhXFi3+XEOsNDTB
+R0UA1WtAKlGp8PcXX1Vb2jpMJOhbHeGQ5ACY3wU/2crV/eEV+ryFZ7hjbKQY0H7r
+fEbtJoZ04IZ5kOxYRTA2PqiZ9f9VYH2AoHgI96yQlU8XbPETM6tFEXCSLmVlCNep
+GYyDRyGOSLTTxJxZiaH77CfSH5/NSOSAoyY+UfTJLjukUCSlykCFO+PGn3j4UCcx
+0yvyG0kb0IjxfGIh68fzyLG1PqxlQ+YTkwLvdzroO6bTP7S3gj5Zk0AG3/cUuQJb
+Aqs8OQfQXTvc8QbNiSHVQvcKLq922Ee81VkHq16DacGAUP5Uue9juLRy8hc3gGQN
+jb6pKgM4Q/A1HFmR83AXoDfqO4ZwRfzIoohIVY0GNWsD99tS+OBZUsnmmMHMHy18
+z6rVec4pNtugJGL9R/79ICevyno9QeZ0jKYEOiG2YfHGT1c6RDfRRCNWxV0jwve3
+waTpTIUEMVxpfktwUuEWp6vpDjMEz3A86i/tayC0MdcusKgwDJEsCo01bwCPjOs9
+bqYkl9vCMCJ0HE+QvxKboFGAVOFfLa8I9JW7ELzNdZxuhUQKn3/m5sUklqePstmQ
+XmItBX8hS4z/6fzcC+94vWrx
+=ItNa
 -----END PGP SIGNATURE-----
 
---===============4701097351002904505==
+--===============0921056871771448937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e767a4ea70a3-6addb4f38557.txt
+Content-Disposition: attachment; filename=revlist-3c99dfcec536-aac4db5d573d.txt
 
 f0ea4824deebf21dacfbe397c4b0a5fd3e745a8d iio: health: max30102: fix NULL dereference in interrupt handler
 56c423b233b214182c58c99861899327b45b0d6c iio: pressure: bmp280: fix out-of-bounds access in sampling frequency lookup
@@ -294,5 +294,6 @@ f7c918b8d9f789e79ebedbc7660b682aa1984210 Merge tag 'drm-fixes-2026-10-03' of htt
 25d576ed11108470d0999054265108400db1b881 Merge tag 'char-misc-7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 a74306e2e676f9775457366fc047a660fbf02f26 Merge tag 'clk-fixes-for-linus-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 6addb4f385570ebc11c4eb499a4f1c149f313e84 Merge tag 'edac_urgent_for_v7.3_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
+aac4db5d573d35cab8962410ff0b3debb8ef874a tty: vcc: Some small vcc bugfixes found by code scans
 
---===============4701097351002904505==--
+--===============0921056871771448937==--
