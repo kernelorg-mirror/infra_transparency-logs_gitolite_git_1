@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5339179609041211643=="
+Content-Type: multipart/mixed; boundary="===============4865934396695569977=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Sun, 04 Oct 2026 14:23:22 -0000
-Message-Id: <179112380205.3743696.17093964548453237119@gitolite.kernel.org>
+Date: Sun, 04 Oct 2026 14:24:19 -0000
+Message-Id: <179112385988.3744429.13182256721690662279@gitolite.kernel.org>
 
---===============5339179609041211643==
+--===============4865934396695569977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: 39ec460b56b26319d1f31b459e8be7ea34ae9c67
     new: 246d9fa6b83d2d3c524aad28de1ab5db5cecf048
     log: revlist-39ec460b56b2-246d9fa6b83d.txt
 
---===============5339179609041211643==
+--===============4865934396695569977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ eea8bdcb59e02729a33a8666f7b0b5e30e6cb736 Merge tag 'cocci-7.3-rc1' of git://git.
 cee9395acd8043be0644b25c34bfa86623f2b935 Linux 7.3-rc1
 246d9fa6b83d2d3c524aad28de1ab5db5cecf048 clk: imx: composite-93: return timeout from gate enable
 
---===============5339179609041211643==--
+--===============4865934396695569977==--
