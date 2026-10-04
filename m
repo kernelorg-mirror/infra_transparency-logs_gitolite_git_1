@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Sun, 04 Oct 2026 16:18:20 -0000
-Message-Id: <179113070052.3826807.7655901377385239583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sun, 04 Oct 2026 16:22:57 -0000
+Message-Id: <179113097726.3830971.14223599946944747407@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/kbuild-next-unstable
-    old: 26d665bef44fa15f7551ee1efc19a1df331d6bbc
-    new: a7d32fa14bc74d1786a2f0513b6f0815bd4be311
+  - ref: refs/heads/regulator-7.3
+    old: 2f15518682c779b1014552cb2ccb4a2052f85f27
+    new: c71deb641a41a4eb9dd96b266fb0696e8cc3c19a
     log: |
-         fe366c131a13a5e126cee05f677afc8b731964d2 .gitignore: ignore pacman package signatures
-         a7d32fa14bc74d1786a2f0513b6f0815bd4be311 .gitignore: drop Module.markers
+         ea97a3fd7b0e6051221b56ef5d2a5681c359236b regulator: of: fill in supply names in of_regulator_bulk_get_all()
+         2a84b7105648dd7c9b68b99790617f2961fc007d regulator: of: state who owns the array from of_regulator_bulk_get_all()
+         c71deb641a41a4eb9dd96b266fb0696e8cc3c19a regulator: of: Fixes to of_regulator_bulk_get_all()
          
