@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5395562998605644979=="
+Content-Type: multipart/mixed; boundary="===============3275681595160635060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 04 Oct 2026 06:44:01 -0000
-Message-Id: <179109624156.3418987.4766693408523304327@gitolite.kernel.org>
+Date: Sun, 04 Oct 2026 06:44:05 -0000
+Message-Id: <179109624552.3419246.14874831617881374307@gitolite.kernel.org>
 
---===============5395562998605644979==
+--===============3275681595160635060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,63 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: df2908090cda368b01ff43709f51890076c56157
+  - ref: refs/heads/usb-linus
+    old: a93862fa670a9c99fd9a24fb2ef69e4f948d9bd5
     new: 6addb4f385570ebc11c4eb499a4f1c149f313e84
-    log: revlist-df2908090cda-6addb4f38557.txt
+    log: revlist-a93862fa670a-6addb4f38557.txt
 
---===============5395562998605644979==
+--===============3275681595160635060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791096233 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791096244 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1791096233-47763d560f7846881f6c4435845dc5d86f2a73a9
+nonce 1791096243-9a3ab1d51da089cd69d7c22c2c6fc17c38d40468
 
-df2908090cda368b01ff43709f51890076c56157 6addb4f385570ebc11c4eb499a4f1c149f313e84 refs/heads/main
+a93862fa670a9c99fd9a24fb2ef69e4f948d9bd5 6addb4f385570ebc11c4eb499a4f1c149f313e84 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrB9akbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LH4P/imzdvfiUwRuHB8UI+O9
-eEGYtuJNBOmrFPbnnPGbACzHQugqn2hgrJ43voCBmH+0HeYsNhRCojcgZ1ZhT3gj
-wbGkpwOtEUGgbJ+TcDmiwUzT+vRhRLfphihA4I2U3gAjXQC3G/MHV7ay52XkEcgf
-dujGRdWbrcDxh3xfEIaSDmLQp2YewfqnBjuZ8nsuTsVn32+tw8VpnyqQEvLpXtp0
-Gzc7pGz+fJ0rv2heTAOUzjEzrmf7GfpyHNL7Jh2HjZhDx0jD1fejVeNKqVj8Upm+
-k4NxWDidcvJhHdPBOxxLqd3PhrFttR77QuPIZCKekIbKf41p+8UQmpeWeBhdYKEe
-Cdw+4HnnQJffnjCMPk6JZGnKgCN7OTeZChRgqJ9TKwITWfMtt+aH36nLd+2CUgJF
-EoBdHJUBCTPQ4QWs/AAMEsejHU0FTjdV5yX4glHabcqMazaPtND/c10M8zmXkw6q
-fyKJPrr848zg5oKI/lCbK4uIRtYQ3wkZJ516bhYBI/R/98Akhe7lp93Eg87iCZsK
-mriTDpJSAHyhn7p1B9BWq1t1LnSK1LSPAvGAY4ZjSgJ1rksEfa/nAOTgC2bFlXkV
-LIxZkUM4GBtnC1Zl1EitQd+Y05vmRBKXslgOzGcQdvaeFpFKjbkdv8ULEx2uK7il
-ecXLnYxkvbgcf6Jd9z8Ya3JL
-=inop
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrB9bQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+G6EQALqLcWcnfth/daRA6Qwg
+k82f92f0H9eY+xunqdXvYX9RBb/LyozPGg7aAS/FoVHkytk/YJxuqQXcFHOiamdX
+HyJQReygoIZ3GzmWRJuRts1PDpTXZCA+3G5ErgXQqGFpt6SlxXVzSSQdrj6ofx/H
+nTJKwzFwxNeLGEuuhjvWEom2LiJ2OVHEMuC8tL+D887eb8Q/gwPLfq5clT0eBZTj
+/DGHZC10+lgk1y6okrjpjbSpAA7L6atdeNBRmJhVnQemIHnXcDY8CPwL3eA0/g6i
+z9NktIRRZsINeEUCTd4Fq3QK568hZKGnrD0UYV3SG8QEbDFKUhUCe2RGzk4pN35G
+BZG/K59e5+AVrc6HRKhattPGLyS9wQiXt3urELTQGLWsOvKCXQf14mM/U2g99pU5
+/+M8+0ncC/a5P5KOL4heeQQGJ9A5Bh7IqjCIQVvbAqAu8MU1PFmCbv1GxlkSl4Tw
+0Gor7jmoTYivyuEyX9i5mezhg+n4DKu0xCQDHq2bGVVt0R8I4ZVDZ45dY9cLvX3u
+gYjOXirhGUVRO71Edv8x/b1l7GzLmWhKGUm8RrOexVTd2hHoWjurgNoWaOLsLBfR
+dIY18M+d3Yz00D4t2bJZXimFC78p1YACYk84yIGHEc3gAOvKW1KMsGKqjLPhOrSr
++CZiSfZzQKqJ6eQTnCYUKQEd
+=lo8F
 -----END PGP SIGNATURE-----
 
---===============5395562998605644979==
+--===============3275681595160635060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df2908090cda-6addb4f38557.txt
+Content-Disposition: attachment; filename=revlist-a93862fa670a-6addb4f38557.txt
 
+fc3ae66514ca5e87251f79044236e3e8babd24a3 netfs: Fix netfs_read_gaps() to use separate sink folios
+065f3ce5936e68da75f3dc18201d290073d78f3c xfs: call xfs_dquot_set_prealloc_limits if we installed default rtb limits
+41c4c41cf6c44f98db2916e1781f537d9ba6461a xfs: fix rtgroup repair estimations
+d7b92cbe566f6fe54368f62e4b515d9f80c43a18 xfs: don't cross reference rmapbt with bitmaps if they're incomplete
+ab1c416d2377cdc16123ef521aac4da1c468c3d4 xfs: don't let memory failures leak blocks and kill repairs
+d80993655f7be2a461c0a63e2022da5757f47dac xfs: don't merge different file IO error types
+f8f6382ff13109e19d0fc1d0224ff7d29641e56a xfs: fix blockgc group quota scanning when usrquota isn't enforced
+65f39d09d73718611cee40399179323b5d4ead00 xfs: fix cursor and pointer handling when recovering iunlink buckets
+ffb48dccce1960a9ea24463a2f3c21d124d6b672 xfs: drop dquot flush lock when we can't find a buffer to flush
+476582d754cdc5110f806001417fea6c77824c13 xfs: don't let hidden_space go negative in xfs_metafile_resv_init
+fe2f9135df43db849e74f03956d322ac20b59af7 xfs: fix wild memcpy access when formatting ondisk rtrefcount btree roots
+e9d810279f84b30738f7790c0ed15f8dd5b9024a gpio: arizona: Fix runtime PM leak in arizona_gpio_direction_out()
+02af7eac17bc62a72335c1fc8c4af4471654f6cc gpio: mvebu: keep resume masks within the irqchip cache
+c51e89c5b5db3e1927738fad7cd18b66dde68aed netfs, afs: Fix symlink reading
+7459c021874246c196f397686e100702f059b9e7 fs: avoid repeated scans in evict_inodes()
+f6988c90671e83db79df1b7b9d6fdb0e5947fd84 writeback: bound cleanup_offline_cgwb() rescans by rotating scanned inodes
 9ca4ba24259183ce15665be86b2956cd896c4687 net: macb: fix ordering around PTP timestamp read
 95b2e0361c88753afa030c10698be0a1a5b67650 ALSA: seq: Serialize compat port-info ioctls
 14cb1e7702e5cb3c58888f6aed498381a73927d2 net: mvpp2: prevent buffer overflow in page_pool allocation
@@ -179,7 +195,6 @@ f615c80a5d3e16eee2377c63e20ae79038ae3376 Merge patch series "binfmt: fixes for k
 fe3c73d7bc769e7afc252f867a3421fe168b898d sched/core: Avoid false migration warning for proxy donors
 93f53499d0b945e8ae447f497faf743d60069f61 x86/fred: Reconstruct the #GP context for rejected INT instructions
 96443a53bc3ef4b67dab0c497878fc8d56f799f3 selftests/x86: Check signal state for rejected software interrupts
-abc36cbda29d8f19cf3a580cd86ca9e865186a41 Merge tag 'usb-serial-7.3-rc4' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
 406aa2b186d3f13a35bc1ad6aff4274917851bc4 perf/arm-cmn: Fix multi-filter encoding
 bb756b11ad63832ebee58caf9e8f9381eaecff9f arm64: io: Reject non-user protection in ioremap_prot()
 baaa9b126b875b40ffd9356da52c7c871917e5bb arm64: Add override for WFxT
@@ -629,7 +644,6 @@ e47a1958e12abc3a17b5231a4f21c8f1bf662e08 net: ipconfig: bound DHCP option constr
 0a8224058a5835297dcf4a46bbcd16f77a9fe424 drm/imagination: Fix page count for page table for map() interface
 45585c3aa285854face65293acc95eff73063d6d drm/imagination: clamp freelist reconstruction requests
 00efbbd40bd5fd92c67b7cf1aab8904fa59a96f6 bonding: crypto offload enabled, non-offload slave failover, rekey failed
-47c73a43c1de51ed54b621d570c5cdf20549c5b7 thunderbolt: stream: Announce support for FMODE_NOWAIT
 36c2009d90f2210ef92e6f4f2850e8b57b09e754 net: atl1c: fix soft lockup on out-of-range tpd_cons read
 374bf9e4b90f979e052332c4faca2d745c491a12 net: atl1e: fix soft lockup on out-of-range hw_next_to_clean read
 43e746821f5f5afbbf68e388bf9fbe221e03bfca net: atl1: fix soft lockup on out-of-range cmb_tpd_next_to_clean read
@@ -806,7 +820,6 @@ a215720959c5450b3699e243904b39c3f8f68888 Input: s6sy761 - fix resume ordering an
 56e236759f0a8dc910c2ae7cd3c161f298ee5794 wifi: mac80211: reject invalid 320 MHz CSA bandwidth
 6f63e919fe1e335b8abcb3a28bfd4804a98d875a wifi: mac80211: fix slab-out-of-bounds read in ieee80211_monitor_select_queue()
 c034e8a46e4cb703018fe7e10fe5a3a974d6a7c3 drm/i915/vrr: Disable DC balance by default
-395e9f2967a7ac6898026e8f136c369805dc2fd9 thunderbolt: Disable CL states for the Anker Prime TB5 dock
 e0cb0570d0ebce6f452ab492e8743f6f7eb2558e ALSA: hda/realtek: Add quirk for IPASON SmartBook S1
 ae0f12706433995336784a0966d42d2f7f7b5dac ALSA: hda/realtek: Add quirk for Acer Nitro ANV16-41
 86f86e6fdedc33c5b8d38b9208b350f8accf57ee ALSA: ua101: reject mismatched capture/playback packet sizes
@@ -973,20 +986,8 @@ be35a3e003941fc25b4e72d8d4fd44f8a98ac1af Merge tag 'wireless-2026-09-30' of http
 7375d38364a9aa66fb31716bcefef38aecad75d8 net: usb: qmi_wwan: add Rolling Wireless RN947R
 5cd9813d848d6565f0ca7825a8405c4e48441cf9 Merge tag 'audit-pr-20260930' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 19465a9aeb664f1d710d0d22c07c31bfb7c85446 smb: client: split cifsFileInfo bitfields to avoid shared-byte RMW races
-20388c8d1d74c203fec8194c45cd31afdfab934e usb: gadget: aspeed-vhub: cancel wake work on device removal
-9cd072788c76595529eb38f42bf94d23852f8534 usb: gadget: f_fs: Fix NULL pointer dereference in FUNCTIONFS_ENDPOINT_DESC
-dc614d6bc991740d41d5a99ac7765c4b675dda88 USB: cdc-acm: skip URB restart in port_shutdown if disconnected
-0e8baa78d872f2db440d8b9ded946ab8dceb89eb usb: core: clear both ep_in and ep_out for non-ep0 control endpoints
-9062d50e75c24dc7911be05c9b1719b3b256af15 usb: gadget: f_uac1_legacy: validate bRequest index in generic_{set,get}_cmd
-6c51f09c6db5868a5090e8dd4d7764660c87f1ad usb: typec: ucsi: Get the connector fwnode based on reg value
-a107edec57659c5a1a2f016311b944af58c904c9 usb: dwc3: gadget: fix IRQ storm on invalid event buffer count
-e5052f2c5c73c1dcca42bafc0bc737af2b2af059 usb: cdns3: Fix NULL pointer dereference in cdns3_pci_probe
-aef5a7e207656ad6abdeeaa0bfc8ee9a1f9c02f6 usb: typec: port-mapper: Only match USB4 port if host interface is available
-b263ff9b0fc5c1f371d65c4eb196b31263d039ff USB: gadget: dummy-hcd: Fix wait for outstanding request completions
 9ee4266827cfb67b9fbb89136ea6a8f3d7809f5c ALSA: hda/realtek: Add ALC235 support for headset mode
 6e0022b5ae3dc5b833af0fcc1578dc20a1d6bc71 net: phy: aquantia: fix system interface type not updated in forced mode
-a3e981f42557d7bb4cb212462de463e0b6b8875b Revert "usb: dwc3: gadget: fix IRQ storm on invalid event buffer count"
-1ff77cbefe5a653ea12874c213ea4bd0d72c1067 usb: dwc3: gadget: fix IRQ storm on invalid event buffer count
 db0949bbd06db0a75b4b1076f1e25194be7d956a tty: serial: max3100: shut down timer before freeing port
 8167c1f071426706c233e93ecfd13aba7d5c06c8 tty: serial: mpc52xx_uart: move static declarations up.
 8df07fe93573e9e548d6645273e9bcb6eb74059e tty: fix saved termios reset race
@@ -998,7 +999,6 @@ d9feaa93328a6f885afb8ac6374897fafc294222 serial: sc16is7xx: reduce TX refill rat
 0928ed9bd7946baee911efa401088697836e3b1e vt: skip screen update for DEC alignment test on backgroup consoles
 39495ef5d6f8019e62d65807f217a7ca8232727a vt: selection: Fix unsigned underflow and slab-out-of-bounds read in paste_selection()
 e23a64eb244356ee47c0620f0722d51bd88db522 Merge tag 'nf-26-09-30' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-a93862fa670a9c99fd9a24fb2ef69e4f948d9bd5 Merge tag 'thunderbolt-for-v7.3-rc6' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 573371caf7aea8582212da81dcead2c3f48fac4b arm64: errata: Factor out broken AMU const counter cap
 45f7304679875eb000d67e194090ee7abd05c89c arm64: errata: Add Cortex-A725 erratum 3821522 workaround
 8e242ada093af7d2ee82037f09c287fbc6f1e3f5 Merge tag 'iio-fixes-late-7.3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
@@ -1082,4 +1082,4 @@ f7c918b8d9f789e79ebedbc7660b682aa1984210 Merge tag 'drm-fixes-2026-10-03' of htt
 a74306e2e676f9775457366fc047a660fbf02f26 Merge tag 'clk-fixes-for-linus-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 6addb4f385570ebc11c4eb499a4f1c149f313e84 Merge tag 'edac_urgent_for_v7.3_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 
---===============5395562998605644979==--
+--===============3275681595160635060==--
