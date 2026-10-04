@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7786325704215913724=="
+Content-Type: multipart/mixed; boundary="===============0254081416788847088=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 04 Oct 2026 18:09:49 -0000
-Message-Id: <179113738972.3910625.2003101212105896662@gitolite.kernel.org>
+Date: Sun, 04 Oct 2026 18:10:41 -0000
+Message-Id: <179113744131.3913249.17660560161049966503@gitolite.kernel.org>
 
---===============7786325704215913724==
+--===============0254081416788847088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-keys
-    old: cc0bd1cc37fc99004644260230e59cc9719af752
-    new: 2bf15f3189c7a6772d55aee8e3b045a62e5ab2f4
-    log: revlist-cc0bd1cc37fc-2bf15f3189c7.txt
+  - ref: refs/heads/master
+    old: 29dccb55a5e99b65d281ecb13fa3ef2129981bba
+    new: f8533df5bce51118e7021568f66530b2ae02cd17
+    log: revlist-29dccb55a5e9-f8533df5bce5.txt
 
---===============7786325704215913724==
+--===============0254081416788847088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cc0bd1cc37fc-2bf15f3189c7.txt
+Content-Disposition: attachment; filename=revlist-29dccb55a5e9-f8533df5bce5.txt
 
 f0ea4824deebf21dacfbe397c4b0a5fd3e745a8d iio: health: max30102: fix NULL dereference in interrupt handler
 56c423b233b214182c58c99861899327b45b0d6c iio: pressure: bmp280: fix out-of-bounds access in sampling frequency lookup
@@ -288,5 +288,18 @@ a27611f8994c9a4772156432badb533af33fd32d Merge tag 'perf-urgent-2026-10-04' of g
 dd3ea3fcba7c75493760cdbccd35f029597e8d5e KEYS: Fix add_key() race with keyring restriction
 031742ea278c81c67d8fae17919c2b25aeceb85a keys: Protect key_user lifetime during ownership changes
 2bf15f3189c7a6772d55aee8e3b045a62e5ab2f4 keys: Serialize ownership transfers with key accounting
+e94da103e34f6e9b526bf0d4c905c2a4e634feaf keys/trusted_keys: return immediately after TPM unseal failure
+0b42fc0b103183ff5e2bbc7c3cd1200a1435355d KEYS: trusted: Fix blob allocation size in tpm2_key_decode()
+00eea7758578352fba4155438387ff0c6d323ea4 KEYS: trusted: Reject short TPM2 public areas
+57aa45fc2284aa66d9ad4cedf5b9aaf567e774eb tpm: reject duplicate PCR banks in tpm2_get_pcr_allocation
+810478906707671e00f383afef3eb1656ee174f8 tpm: tpm2_probe: propagate transport errors
+543a70bf561da21ade5a52f96717ea705725c7fc tpm: Call cmd_ready/go_idle for each command transmission
+b14f23158b3c6f66e72a5f528bb75978d0cccaaf tpm: Remove ineffective wmb() from tpm_pm_resume()
+c7956fa705b7a352aab6eadd62b0a4d399510a02 tpm: tis_i2c: Deassert optional reset line before probing
+70dfe519352713eea32563adf3d5566e05a0b478 char: tpm: Use SIMPLE_DEV_PM_OPS for ibmvtpm power management
+df8f42be7f09ff32081d0b3555bc9fe6bca50942 tpm: use DEFINE_SIMPLE_DEV_PM_OPS and pm_sleep_ptr()
+555b8855f47fa56787aa562080056a4bc6ed63dd keys/trusted_keys: move TPM-specific fields into struct trusted_key_tpm
+0e482006429300b6ebe0665d447d159806e0182e keys/trusted/tpm2: Validate TPM2_Create object sizes separately
+f8533df5bce51118e7021568f66530b2ae02cd17 security: keys: Fix comment of search_process_keyrings_rcu()
 
---===============7786325704215913724==--
+--===============0254081416788847088==--
