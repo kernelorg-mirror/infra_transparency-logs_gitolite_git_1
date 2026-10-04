@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 04 Oct 2026 20:02:31 -0000
-Message-Id: <179114415156.3994608.17774920217173327333@gitolite.kernel.org>
+Date: Sun, 04 Oct 2026 20:05:24 -0000
+Message-Id: <179114432470.3997894.6742057044616771012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/master
-    old: 0cee821dee7acd9a58b269966e473ef902338e2e
-    new: 655a8cb50b2ef82137bb26a989817dfe1d58837d
+    old: 655a8cb50b2ef82137bb26a989817dfe1d58837d
+    new: 3a98c1cc990b9835150ca97ee8316ec5862250e9
     log: |
-         655a8cb50b2ef82137bb26a989817dfe1d58837d src/bin/git-brebase: srcfix
+         3a98c1cc990b9835150ca97ee8316ec5862250e9 src/bin/git-brebase: srcfix
          
