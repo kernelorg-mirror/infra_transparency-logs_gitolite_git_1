@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3295461642594658329=="
+Content-Type: multipart/mixed; boundary="===============8606119092591356430=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/will/linux
-Date: Sun, 04 Oct 2026 22:06:45 -0000
-Message-Id: <179115160584.4087413.9619851529802707144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Sun, 04 Oct 2026 22:07:13 -0000
+Message-Id: <179115163316.4087826.12806059991981421711@gitolite.kernel.org>
 
---===============3295461642594658329==
+--===============8606119092591356430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/will/linux
+repo: pub/scm/linux/kernel/git/arm64/linux
 user: will
 changes:
   - ref: refs/heads/for-next/perf
@@ -20,7 +20,7 @@ changes:
     new: 652ab8ee0d27f21a5f402a0b6ac227c8bbfdd64c
     log: revlist-cee9395acd80-652ab8ee0d27.txt
 
---===============3295461642594658329==
+--===============8606119092591356430==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ d4b7b0c77142b3bc535192fa65130474a129c487 perf: xgene: initialize lock before req
 848468c86f716e4552bd478d2f3c3f5d81bec7ac perf/marvell: cn10k_tad: Publish the OF module alias
 652ab8ee0d27f21a5f402a0b6ac227c8bbfdd64c drivers/perf: apple_m1: Add macOS 27 M2 Event
 
---===============3295461642594658329==--
+--===============8606119092591356430==--
