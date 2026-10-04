@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sun, 04 Oct 2026 15:51:42 -0000
-Message-Id: <179112910233.3807145.628494001345520114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
+Date: Sun, 04 Oct 2026 16:02:17 -0000
+Message-Id: <179112973787.3814363.7263905271532735110@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/liveupdate/linux
+user: tatashin
 changes:
-  - ref: refs/heads/pending
-    old: e5ff27718101cde2a3eedd2b7aa8eb6f83065852
-    new: c14729cf77394228558c5c9aea05a95743273b25
+  - ref: refs/heads/lu-pci-preservation
+    old: c360ce4e8db0c44a17d29ad7413cb4addc238ad1
+    new: 15f2d6b187221596f01ecd413fe14deeeedf83a4
     log: |
-         c14729cf77394228558c5c9aea05a95743273b25 wifi: ath9k: refuse spectral scan control while the hardware is disabled
+         15f2d6b187221596f01ecd413fe14deeeedf83a4 Merge patch series "PCI: liveupdate: PCI core support for Live Update"
          
