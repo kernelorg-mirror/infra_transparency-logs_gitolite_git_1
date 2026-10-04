@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0650916742581007054=="
+Content-Type: multipart/mixed; boundary="===============3901507469437821106=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 04 Oct 2026 06:43:01 -0000
-Message-Id: <179109618152.3417990.10363509343309141623@gitolite.kernel.org>
+Date: Sun, 04 Oct 2026 06:43:04 -0000
+Message-Id: <179109618469.3418225.2651878795609409953@gitolite.kernel.org>
 
---===============0650916742581007054==
+--===============3901507469437821106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,62 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: df2908090cda368b01ff43709f51890076c56157
+  - ref: refs/heads/char-misc-linus
+    old: 8e242ada093af7d2ee82037f09c287fbc6f1e3f5
     new: 6addb4f385570ebc11c4eb499a4f1c149f313e84
-    log: revlist-df2908090cda-6addb4f38557.txt
+    log: revlist-8e242ada093a-6addb4f38557.txt
 
---===============0650916742581007054==
+--===============3901507469437821106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791096175 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791096183 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1791096174-3f94372790e148aee813673f13a6dd66613449a1
+nonce 1791096183-35941a49d3ddcf588b44074c7bee813a24174b6b
 
-df2908090cda368b01ff43709f51890076c56157 6addb4f385570ebc11c4eb499a4f1c149f313e84 refs/heads/main
+8e242ada093af7d2ee82037f09c287fbc6f1e3f5 6addb4f385570ebc11c4eb499a4f1c149f313e84 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrB9W8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bJsP+wb1EtGoOYdSBq2ncIYF
-CRrfVUHnAVU+EQXg7Y3Vq8JO6Z/5anQyaDDG3FqB4QZdQa26/xftEDugVzvONtbv
-H5uxsrMH2TvDE3A8jFWRm2DexBzELjQqYcy2clas3ExsnX3OQ/NOO+FnRp9NX7D5
-1JYjqeiJ3tzz05z5vLW8MeV0+M/6MsprC0X0pIWBMuh8utHVwciBnlKxo2muso+G
-Ufa9iIxHNYBKCn6vQgALUNMAYMqjaaTJuFhqws8kbupN0hqb+iyVMvZhcWodzRfa
-SfWtuUszl6rLq0JzWWwIhvIFlf7fEh0E6eSlvn4xjQbXzwI85PGSIaPvHEDfKSE4
-zPegZhX3zXsytL83h709oDkA6cNWC5CSWQIEqFgqqzwf3YcKKklzJNZWo8thPDsR
-z37D+D6qmDxaTfY3RY+8yePkTMF6XebQqBFOmp3GzOc1//LwtNiHmu/ujzSNc3lE
-SUicvnujQEWtesT6cgixLqZF0YT0Yj0k7BjtoXW3s9+mjiFDBWfzATCnHgE2hxF/
-4fXf3ynbgE2S+SHcIkkrx4hFMqqvr2249GsYHlsAQaTqkl0Yc2hUtrqldoN1DznJ
-dRgNB80cqFPu4uHZAXqD/WOfnodBLatXLrQe1e+y7G8/894GSpgEWV0brfsLCMjT
-chNs52OR6cR7U+kai1gPSs3k
-=nnn3
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrB9XcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sYMP/39zYgbjZGmbVspdT5nh
+NA2Txrgia0dKeGgT+eGFgBC2197+6Kx3GOwD1HXARyK/YBXFrrh3UfekmKxylEVH
+0FF6P6US697DIflOnfGOG3HjVqRzBsfu1Qj2tbNxzunJhilWGQXG4reiwqpgSfMx
+SR2pxzfRrEAmcGzLb0f7hZj0cPnPIK736amExdII5KKoX/zLMyIK7M6lj9okKHVK
+dzxXsui1n4xKrO//P2q5wPgVr57qZWw5ADTipiTb3P8BpGo+73gh87mJpxA7ddp6
+uCO4+w7xk8itrB5P+7k4ypbXZbc2WaPCXUcuBTzLEifaAqPY9fl1t4PyjyYNsDTD
+jpUG5KQbzZh3Ab8cDas7bPt++Z3XC7n5PQ+K6jdOofDAu6Y+js3SgulFfTPCPEwv
+7/AdfYjrnH9ZJh942dcFEPx3TqreWIqOba/Saqtw3huCTsS+nVc/iH2H8YrUPGI8
+2Ryb2cLLTSqLG0s/ZOhZijvbfCPjKo9TlAiExtbQRlDXU5asq/Dui2pnZYiHLejm
+EqfCV+SMqkV6YtKmJlemDKF5Kx3euIqiesyYO03cqn4cZJK52tSMzXzdIX2MplTy
+8LRa00iPaMW1ijqPKPcs3c0TclS+zCazICneq3A02kwKoStf7jYUNRKQGcUFGLFF
+Nk5p2NaF0AoHy2NwjryPMmpX
+=HPIB
 -----END PGP SIGNATURE-----
 
---===============0650916742581007054==
+--===============3901507469437821106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df2908090cda-6addb4f38557.txt
+Content-Disposition: attachment; filename=revlist-8e242ada093a-6addb4f38557.txt
 
+065f3ce5936e68da75f3dc18201d290073d78f3c xfs: call xfs_dquot_set_prealloc_limits if we installed default rtb limits
+41c4c41cf6c44f98db2916e1781f537d9ba6461a xfs: fix rtgroup repair estimations
+d7b92cbe566f6fe54368f62e4b515d9f80c43a18 xfs: don't cross reference rmapbt with bitmaps if they're incomplete
+ab1c416d2377cdc16123ef521aac4da1c468c3d4 xfs: don't let memory failures leak blocks and kill repairs
+d80993655f7be2a461c0a63e2022da5757f47dac xfs: don't merge different file IO error types
+f8f6382ff13109e19d0fc1d0224ff7d29641e56a xfs: fix blockgc group quota scanning when usrquota isn't enforced
+65f39d09d73718611cee40399179323b5d4ead00 xfs: fix cursor and pointer handling when recovering iunlink buckets
+ffb48dccce1960a9ea24463a2f3c21d124d6b672 xfs: drop dquot flush lock when we can't find a buffer to flush
+476582d754cdc5110f806001417fea6c77824c13 xfs: don't let hidden_space go negative in xfs_metafile_resv_init
+fe2f9135df43db849e74f03956d322ac20b59af7 xfs: fix wild memcpy access when formatting ondisk rtrefcount btree roots
+e9d810279f84b30738f7790c0ed15f8dd5b9024a gpio: arizona: Fix runtime PM leak in arizona_gpio_direction_out()
+02af7eac17bc62a72335c1fc8c4af4471654f6cc gpio: mvebu: keep resume masks within the irqchip cache
+c51e89c5b5db3e1927738fad7cd18b66dde68aed netfs, afs: Fix symlink reading
+7459c021874246c196f397686e100702f059b9e7 fs: avoid repeated scans in evict_inodes()
+f6988c90671e83db79df1b7b9d6fdb0e5947fd84 writeback: bound cleanup_offline_cgwb() rescans by rotating scanned inodes
 9ca4ba24259183ce15665be86b2956cd896c4687 net: macb: fix ordering around PTP timestamp read
 95b2e0361c88753afa030c10698be0a1a5b67650 ALSA: seq: Serialize compat port-info ioctls
 14cb1e7702e5cb3c58888f6aed498381a73927d2 net: mvpp2: prevent buffer overflow in page_pool allocation
@@ -308,7 +323,6 @@ b74aad23d99b279bb34d135795f39a6d8ecdc075 drm/virtio: fix memory leak of fence ev
 6a5719cc3ef2e4d9857cc4ae18e6db09d59a8cc9 net: qrtr: resend HELLO on MHI resume
 93f51579e7df248780214094418f205253383cc5 Linux 7.3-rc4
 ae2c5bf969573708cd5b6bb6393631255d83c3fe pinctrl: tegra238: Fix register bank for AON pin groups
-64c82e7bd9c82b0c9276297df34a3579e8658f55 iio: adc: pac1934: check ACPI label duplication
 a961417c5ae77bbb728a23d9577ecd8f4d8a4b5a Input: synaptics - add LEN205b entry to smbus_pnp_ids for ThinkPad T490
 495cd7f858b45d2ffa9b685bba3a8c23c1ca4dd3 Input: i8042 - add nomux quirk for Fujitsu LIFEBOOK U7410
 0b9828c7231e2e46b25d286da555510a79c0d6fa Merge tag 'v7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux into gpio/for-current
@@ -884,7 +898,6 @@ d031465acc362866f27e4f8f79cfecf1037fe2e5 net/sched: fq_codel: match the no-drop 
 54518e0e827f4ca9229ae657022c60bf60f5c1bf net/sched: sch_codel: match the no-drop threshold to the packet size
 a92193c91e8839fe5fc209616ea95465ae4b919d io_uring: fix task_work add use-after-free with SQPOLL
 b2047b8cadadccb1c9269ce756c399cd9aef2c82 ASoC: codecs: lpass-wsa-macro: rewrite the interpolator volume after enabling clocks
-540f55de8c9f79c83f13e44910955faf82b0d79c Merge tag 'icc-7.3-rc5' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 b5c4823cf3e49b3419a3bc8c6715101e1ac6cc59 ALSA: usb-audio: Apply boot quirk for Behringer models generically
 a154f7b9f197b3d5e41fa3ad62083f5aa93b1fe8 ALSA: usb-audio: Apply IGNORE_CTL_ERROR quirk to all Audient devices
 e079ef0b1c40c7a4a1be0c1ac5dbff95685c3beb KVM: arm64: vgic: Allow last_lr_irq to be NULL when LRs are not overflowing
@@ -948,18 +961,6 @@ b5d59e7270d078ab28a9c4b4d11dc3eb24671988 smb: client: only require read lease fo
 dd05add7b2b6004c5fa3a1f276f56d8668f86b65 netfs: zero the tail of a short DIO/unbuffered read
 75aa4b4d557114276bb72e19a9bce5cb27b5e4b8 smb: client: distinguish real EOF from a stale remote_i_size on read
 53c5c2c1095eb21e214811fec16cd75f89d72ee2 smb: client: require stable pages for signed connections
-c1774272c76e92fc3df10a8fedfc033716e55d1b iio: imu: inv_icm42607: propagate runtime suspend errors
-87775fff21b14cd37604530b1783f0a9db8f95a7 iio: imu: inv_icm42607: restore runtime PM on system resume errors
-e8dd273d199f5bbe295a8e3d8b777c5505b6b2e1 iio: proximity: isl29501: Fix return type of isl29501_register_write
-9db3deeb2de485a9d412f0825f9ab4c8e2bccf44 iio: adc: stm32-adc: fix check on internal channel availability
-c5de6a6f855fdcf1e0ea549fb227a316db51c405 iio: adc: stm32-adc: fix possible division by zero in processed channel
-9ec6ecc95dda6d91fa6f671cd972dd4bfc05ba38 iio: adc: ad7173: Fix digital filter configuration
-d615210564205993e8f0e7ccb57cc2e66b7d5706 iio: adc: ad4030: fix invalid oversampling_ratio validation
-49ee1c6a3ebda6b7de06b2961b0e09c1c3fe536a iio: adc: ade9000: fix NULL pointer dereference in clkout registration
-52da294027f53e7084c18dd4b4f73354a40382f3 iio: cdc: ad7150: fix OF matching and publish module aliases
-84bb0fc46ccf6a545b8fdf57cda83770186ed8dd iio: buffer: serialize buffer teardown with mode claims
-dd30c10ff60d2b30386c23bb7c61cc97f2385c97 iio: accel: kxcjk-1013: reject duplicate event disable
-9ee8306121495d2a25aa5d1bfd519f2748786b83 iio: adc: ad_sigma_delta: fix use-after-free on unbind
 77f21a59e8cf7efcc1c4b3e9176e8b99993a7ae4 of: Put coreboot node after compatibility check
 be35a3e003941fc25b4e72d8d4fd44f8a98ac1af Merge tag 'wireless-2026-09-30' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 30724547b221e0e670ddfef140fc7d816b2aaec6 of/irq: Fix remaining refcount leaks in of_irq_init()
@@ -1001,7 +1002,6 @@ e23a64eb244356ee47c0620f0722d51bd88db522 Merge tag 'nf-26-09-30' of git://git.ke
 a93862fa670a9c99fd9a24fb2ef69e4f948d9bd5 Merge tag 'thunderbolt-for-v7.3-rc6' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-linus
 573371caf7aea8582212da81dcead2c3f48fac4b arm64: errata: Factor out broken AMU const counter cap
 45f7304679875eb000d67e194090ee7abd05c89c arm64: errata: Add Cortex-A725 erratum 3821522 workaround
-8e242ada093af7d2ee82037f09c287fbc6f1e3f5 Merge tag 'iio-fixes-late-7.3' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 703033e2350c8c9fcacd652f36675e1327221b10 Merge tag 'sysctl-7.03-fixes-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 d24e8ac715de2e16a53c144005b1863660a5fbea Merge tag 'net-7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 f1d565dc92955f05383794e0fa27e61ee0555027 ALSA: core: Define auto-cleanup for snd_card_free()
@@ -1082,4 +1082,4 @@ f7c918b8d9f789e79ebedbc7660b682aa1984210 Merge tag 'drm-fixes-2026-10-03' of htt
 a74306e2e676f9775457366fc047a660fbf02f26 Merge tag 'clk-fixes-for-linus-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 6addb4f385570ebc11c4eb499a4f1c149f313e84 Merge tag 'edac_urgent_for_v7.3_rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 
---===============0650916742581007054==--
+--===============3901507469437821106==--
