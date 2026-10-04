@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Sun, 04 Oct 2026 08:53:07 -0000
-Message-Id: <179110398768.3516021.10036912038392895821@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Sun, 04 Oct 2026 08:53:42 -0000
+Message-Id: <179110402286.3516353.17644481476916790139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/next-7.4+fixes-7.3-2
-    old: b0c183e566afedea509953a86428aa56eb34cef5
-    new: 354d3c964091847ddfc7a34be4e7f182c56572dc
+  - ref: refs/heads/driver-core-next
+    old: f1850e443b0e4f2429ddf42a8d5033ea54ae8a90
+    new: 7db73c69c8311bfe72b3acbd6807d57cd755bdc7
     log: |
-         a32c01324eb494dda811912eb847b0e907cd7270 KVM: arm64: vgic-v3: Roll back assignments from the new region
-         8d0ac33045370988a58a40a8a4a7d8b5c763eb09 KVM: arm64: selftests: Pass guest code to vm_gic_create_with_vcpus()
-         d3db911d8dfb2ef9b02fdce548df792be253fa41 KVM: arm64: selftests: Test VGICv3 redistributor region retry
-         4d9b3c71bc4f44954b38d4918f5a9779d2e501ec Merge branch kvm-arm64/rd-assignment-fixes into kvmarm-master/next
-         fa22cd9947fc245d71bc40482f7f78eb0d5a4af0 Merge branch kvm-arm64/misc-7.4 into kvmarm-master/next
-         354d3c964091847ddfc7a34be4e7f182c56572dc Merge tag 'kvmarm-fixes-7.3-2' into kvmarm-master/next
+         493daf5bf2b9e931c93ef9223c840b0a6bb35474 interconnect: debugfs: replace writable string helper
+         98421ba5925fd95db714727f7ae82e87e571979b soundwire: debugfs: replace writable string helper
+         5ec78be9552035e1e71de218f968c03c44181bf0 debugfs: make debugfs_create_str() read-only
+         036b815d6de0ae9fddf93255c0e013e4f29e741c MAINTAINERS: add myself as driver core maintainer
+         2581f023a5a67dda50c481b6c53838ee1a1c997e rust: scatterlist: return u32 from SGEntry::dma_len()
+         7db73c69c8311bfe72b3acbd6807d57cd755bdc7 rust: io: convert ResourceSize into a transparent newtype
          
