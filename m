@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
-Date: Sun, 04 Oct 2026 20:55:42 -0000
-Message-Id: <179114734211.4036612.9403785388790656984@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sun, 04 Oct 2026 20:59:57 -0000
+Message-Id: <179114759775.4037930.18301578260525491599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lindholm/alpha
-user: lindholm
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: 33465f6ab697abceafd9a340067a544d551c4412
-    new: e946efcc89066c5d80acbae42d015a4da33a11de
+  - ref: refs/heads/master
+    old: be4963d11875b6d0c041b6b8e2eaabbbc9ff91b4
+    new: 1c89340d30cf6ca05df107d4ed139549af1d153e
     log: |
-         bdc408b88dd21dbf7ff9902480fc3dd028194b27 alpha: replace dead links in Kconfig help text
-         da210b890122cc4382f19e66ca05a4e415f4a8d3 alpha: correct system descriptions in Kconfig help text
-         8fdc2bca3db3779f43689cfb5e1c572bbdb2b8c2 alpha: link platform help text to the alphalinux.org wiki
-         e946efcc89066c5d80acbae42d015a4da33a11de alpha: default NR_CPUS to 32 for Wildfire
+         1b1cb554addc75d8b3ad93c9a145c3121a692468 foo
+         85a0f6b6e3c3d93526c7d46fb7eab6a42f5c2d88 foo
+         1c89340d30cf6ca05df107d4ed139549af1d153e foo
          
