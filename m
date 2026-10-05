@@ -1,46 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Mon, 05 Oct 2026 14:46:15 -0000
-Message-Id: <179121157512.747328.14206101803989655024@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6179760435639281779=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 05 Oct 2026 14:49:20 -0000
+Message-Id: <179121176002.748531.4185173587425084783@gitolite.kernel.org>
+
+--===============6179760435639281779==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/block-7.3
-    old: 58304e139cb3fa640da74bc02101f0926d0607e2
-    new: 41cab3a71dc7be62114d91cc849424879062d324
+  - ref: refs/heads/master
+    old: 5f8c08a74c51be2c720fb354b59cc1d84f2d2df1
+    new: 283ca3618e75acc9378f190f82c3a7014c0624f1
     log: |
-         d99bc5b456fd63be46c8bda20dbf6ede93d2fc11 nvmet: return Invalid Field for invalid NSIDs feature 82h
-         564e46d9f6e87912effa03f123d37a511d520f09 nvme: fix swapped ZRASF zone state values for full and read only
-         b3ce7572130f7bdc71581d798df3fbfc3b64e7a5 nvme-multipath: revalidate head zones after unfreezing the head queue
-         4aa9c0f377a4de5e8fddce76b34ee4529639a1ff nvmet: use the local P2P device on metadata allocation failure
-         5755f1bd0217ffe3c5cf85467bf6b0680f398265 Revert "nvme: do not reset controllers in NVME_CTRL_NEW state"
-         41cab3a71dc7be62114d91cc849424879062d324 Merge tag 'nvme-7.3-2026-10-05' of git://git.infradead.org/nvme into block-7.3
+         283ca3618e75acc9378f190f82c3a7014c0624f1 5.10-stable patches
          
-  - ref: refs/heads/for-7.4/io_uring
-    old: 68477e4c562e3ec1333f64e010d75b3a257e7997
-    new: 37c3cab82dd6d3d315dc76d0eeeefdbc97a75f92
-    log: |
-         7e3d3ed4c2e9e6c6aaf2be44f9651ae6d54cbf92 io_uring: cleanup __io_prep_rw
-         37c3cab82dd6d3d315dc76d0eeeefdbc97a75f92 io_uring: cleanup the io_uring_attr_pi definition
-         
-  - ref: refs/heads/for-next
-    old: 0f7ca97b533a23053fb098f0f38252cd66f72601
-    new: 36c9b20d68881aa27e4b86716dfbdf8f677b8553
-    log: |
-         d99bc5b456fd63be46c8bda20dbf6ede93d2fc11 nvmet: return Invalid Field for invalid NSIDs feature 82h
-         564e46d9f6e87912effa03f123d37a511d520f09 nvme: fix swapped ZRASF zone state values for full and read only
-         b3ce7572130f7bdc71581d798df3fbfc3b64e7a5 nvme-multipath: revalidate head zones after unfreezing the head queue
-         4aa9c0f377a4de5e8fddce76b34ee4529639a1ff nvmet: use the local P2P device on metadata allocation failure
-         5755f1bd0217ffe3c5cf85467bf6b0680f398265 Revert "nvme: do not reset controllers in NVME_CTRL_NEW state"
-         41cab3a71dc7be62114d91cc849424879062d324 Merge tag 'nvme-7.3-2026-10-05' of git://git.infradead.org/nvme into block-7.3
-         148c9d9b7d00fbf37e3989d93a357be487b8f8cd Merge branch 'block-7.3' into for-next
-         7e3d3ed4c2e9e6c6aaf2be44f9651ae6d54cbf92 io_uring: cleanup __io_prep_rw
-         37c3cab82dd6d3d315dc76d0eeeefdbc97a75f92 io_uring: cleanup the io_uring_attr_pi definition
-         36c9b20d68881aa27e4b86716dfbdf8f677b8553 Merge branch 'for-7.4/io_uring' into for-next
-         
+
+--===============6179760435639281779==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791211758 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1791211758-46d8c184b2df7ba9b4bcf7c5bc21a48c90e5f270
+
+5f8c08a74c51be2c720fb354b59cc1d84f2d2df1 283ca3618e75acc9378f190f82c3a7014c0624f1 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrDuO4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6c4P/AtrQzpfKWyw5OVBBsRi
+9Mzomq8uB1IuLfn6/CmuDg6+w01hRgDFoDXEKdmmMGoR7SyFHBKXWqNhmLhsyWTJ
+A4HRysP3JDHBgo0ILxvRvFihFefAtNOv3F9gT1lNvVbhjKpk75XVcqqMy3BbTOSw
+6fb9r1LwMH9k0K3cmYSiY3jGUPc6j1CAnNfB0x35HcJEKds4jw7CmYqNGTeRRe+B
+83LTVx+G1e9zBs65AVF2K+TM7/mbBLEmjX+Xrj+UFvYk/OkJjSL3xm/rJX4QX4+h
+JRZGEDf96o7dz9gzL21UbK9eclewgnKw3OEH4Q9jkWN9Yz0ibFfSM7k1SwQ/jv0A
+IZE6i8/KsNCSbmcAsvfbiM570cbheASdO16mG2y+c328LkFcdP5aYlkRQF7Rurq5
+Vm7wDzs7Kbx/12fdNMRTVXNWIj6OobK0I++0Zer9MTVwsgewlyr5LYZUrxDcL93y
+JOQjbNX8idqkLz3eIT9F5R/4E+OXtfrcqJK2kW96HCeljMWo+gdavePm3m5pK1+c
+OX2b3bcKqtIwvsZkg5ha13hX074eLLDhZrVyl8dZm7lm2MIYB91Qd1stwghzzfDc
+BnPHLQDBCaSiQRwl9MLzpdgx3rh6liL91vrG63k7FKXeR3nX+TACxYwPQMh7fEZY
+ultgiHeA7Uh7gx9UictlzuV2
+=9qRA
+-----END PGP SIGNATURE-----
+
+--===============6179760435639281779==--
