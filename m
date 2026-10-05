@@ -1,30 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============4202988557253269546=="
+Content-Type: multipart/mixed; boundary="===============9048823085553736644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 05 Oct 2026 14:06:45 -0000
-Message-Id: <179120920517.715221.1812793729558517007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 05 Oct 2026 14:08:20 -0000
+Message-Id: <179120930057.717025.556321182605980459@gitolite.kernel.org>
 
---===============4202988557253269546==
+--===============9048823085553736644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/next-fixes
-    old: a3dde27c5da2dce0b7d120342cafa19bf59f42f8
-    new: 0fa3769cd09cb78cd601ed2042e505cc28c37e2d
-    log: revlist-a3dde27c5da2-0fa3769cd09c.txt
+  - ref: refs/heads/master
+    old: cbceb2fcd5e158663c8c1d5e53ea91cbe8fb0797
+    new: f828fc51d7eb7ca7bc204ab09af9ade63bca21d6
+    log: revlist-cbceb2fcd5e1-f828fc51d7eb.txt
+  - ref: refs/tags/renesas-devel-2026-10-05-v7.3-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 248ca6e4172373febc812ff95a66f675905da483
+  - ref: refs/tags/v7.3-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 4eeccbed21e50c19f97be9d325511f3de6343f2d
 
---===============4202988557253269546==
+--===============9048823085553736644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a3dde27c5da2-0fa3769cd09c.txt
+Content-Disposition: attachment; filename=revlist-cbceb2fcd5e1-f828fc51d7eb.txt
 
 f0ea4824deebf21dacfbe397c4b0a5fd3e745a8d iio: health: max30102: fix NULL dereference in interrupt handler
 56c423b233b214182c58c99861899327b45b0d6c iio: pressure: bmp280: fix out-of-bounds access in sampling frequency lookup
@@ -622,14 +628,6 @@ a27611f8994c9a4772156432badb533af33fd32d Merge tag 'perf-urgent-2026-10-04' of g
 06ac073129191a01d77933ed381f89c67674db6f Merge tag 'x86-urgent-2026-10-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7704c4c5bb127673b4f0ead839919db573559e38 Merge tag 'i2c-fixes-7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 a90ee4305c4a5df72c11b31dacfdc76e00fcf78a Linux 7.3-rc6
-3e6ff34afc7ec7a6156e58502b5a56771517cf93 btrfs: clear BTRFS_ROOT_IN_TRANS_SETUP on early exit from record_root_in_trans()
-1fd742c7479961da6d0bb794ef8ac6b7b9442847 btrfs: scrub: fix local_root reference leak in scrub_print_warning_inode()
-80a8dbb30d2b00b9c671b02bd73f700f6d20100f btrfs: always return -EIOCBQUEUED after btrfs_uring_read_extent_endio
-a8ea92830b3e0e163d4e829bdcb17ca83c0f951c btrfs: free iov when btrfs_uring_read_extent() fails
-b6e8add5d79d1f6f819a054c833bab452bd7365d btrfs: unlock inode and extent in caller when io_uring read extent fails
-51562a8cb11628d3a5e105b4c347ec5473e5745f btrfs: don't stash io_uring encoded data across -EAGAIN
-858bee1c77857aabcc2327cd32dd8266332de332 btrfs: fix xattr replace when multiple xattrs are packed in the same item
-41c8899d59898f6fa51ceebd2b6e55257191a8ee btrfs: fix lost error return value in btrfs_listxattr()
-0fa3769cd09cb78cd601ed2042e505cc28c37e2d Merge branch 'misc-7.3' into next-fixes
+f828fc51d7eb7ca7bc204ab09af9ade63bca21d6 Merge tag 'v7.3-rc6' into renesas-devel
 
---===============4202988557253269546==--
+--===============9048823085553736644==--
