@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 05 Oct 2026 05:12:37 -0000
-Message-Id: <179117715763.203073.3653327458299075794@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/patatt/patatt
+Date: Mon, 05 Oct 2026 05:17:02 -0000
+Message-Id: <179117742264.206646.2026695749890218580@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/utils/patatt/patatt
+user: mricon
 changes:
-  - ref: refs/heads/master
-    old: 62088a3e03227e4ace5214d28c7fc6ede3d8c76d
-    new: 89234d075a71d3d56bcff5c3b95f51a5278ba585
+  - ref: refs/heads/main
+    old: 274198d9d5cc315c9588bf84cc7b53a7261726e4
+    new: 53c1505f740c6b1652226c3ad7c319a110492816
     log: |
-         6f448d9abbbaf4862cb36c54b3f1902b88d181d8 tpm: tpm_nsc: fix NULL pointer dereference on init failure
-         476a3645812befbb220215ec896392c479539224 tpm: tpm_nsc: stop using the cleanup callback as dev.release
-         89234d075a71d3d56bcff5c3b95f51a5278ba585 tpm: fix zero-length read discarding the pending response
+         53c1505f740c6b1652226c3ad7c319a110492816 Fix bad PGP signatures being reported as missing keys
          
