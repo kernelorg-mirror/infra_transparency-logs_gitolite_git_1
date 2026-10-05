@@ -1,25 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Mon, 05 Oct 2026 11:46:19 -0000
-Message-Id: <179120077935.570364.5592441117991530798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Mon, 05 Oct 2026 12:24:02 -0000
+Message-Id: <179120304211.595443.17173999176526030683@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: borntraeger
+repo: pub/scm/linux/kernel/git/ti/linux
+user: nmenon
 changes:
-  - ref: refs/heads/next
-    old: 044ae0767d8cc1fc2a53930361f05c9ed2c3c081
-    new: ef7078796fd14476a370c5d26909e5627c2cf55d
-    log: |
-         deaf98ff52ed9226dc84d7abb315d67fc6398c12 KVM: Introduce file_to_kvm_<arch>() infrastructure
-         8b5cb9769ca70a4f08c1d3c390285632995b248f KVM: Add file back-pointer to struct kvm
-         77037cf77a3c1b575e514a483527d88c12bb682c KVM: x86: Use file_to_kvm_x86() in SEV
-         5c3ea6d3e836debc1f7f5518a5ec0c7e058fb04a KVM/vfio: Use file-based reference counting for KVM
-         00aa2c8a02b8f5214f41f50b67bf43d9380471a0 KVM: Restrict kvm_get_kvm/kvm_put_kvm export to internal KVM modules
-         c22295d0d75f5590fdde5493cb90e2d50d5f508e KVM: Remove unused file_is_kvm
-         ef7078796fd14476a370c5d26909e5627c2cf55d Merge branch 'vfio_file_reference' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into kvms390/next
-         
+  - ref: refs/tags/ti-driver-soc-for-v7.4
+    old: 0000000000000000000000000000000000000000
+    new: cd9663d27f93be1cd3e62d976cb2f18568eeed2e
+  - ref: refs/tags/ti-k3-config-for-v7.4
+    old: 0000000000000000000000000000000000000000
+    new: cc4b65fd3f52f59ca58be68275d4765a052569af
+  - ref: refs/tags/ti-k3-dt-for-v7.4
+    old: 0000000000000000000000000000000000000000
+    new: 845669b891a6ddab3a92a58b13a6adffcac79ad7
+  - ref: refs/tags/ti-k3-maintainer-for-v7.4
+    old: 0000000000000000000000000000000000000000
+    new: 156a2e753a0337ad37cdcf53b96980167b071349
+  - ref: refs/tags/ti-keystone-dt-for-v7.4
+    old: 0000000000000000000000000000000000000000
+    new: 33d48cdd7c2c34e8f816ae5104e72e8b2bf543de
