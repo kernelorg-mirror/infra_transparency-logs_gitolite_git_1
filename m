@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 05 Oct 2026 16:03:21 -0000
-Message-Id: <179121620161.809587.16539499501542869861@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 05 Oct 2026 16:06:01 -0000
+Message-Id: <179121636126.812706.6603178065395377578@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-7.4
-    old: 9a773d9d21fa909e8babbe11e93c811cf1a6d22d
-    new: 157f7cba77a9dd3c3de9219c0d0fa2bb93d1a144
+  - ref: refs/heads/for-next
+    old: 2964a4aae2e04ecccd1512cf44aec025d1f77992
+    new: 8acd6469f42784f38872ad83b14c41152d986b63
     log: |
-         58e7bca5cf264e910ad9199cfc40246e0a2834f4 ASoC: codecs: es8375: use devm_clk_get_optional() for mclk
-         157f7cba77a9dd3c3de9219c0d0fa2bb93d1a144 ASoC: codecs: rk3308: add support for codec revision B
+         8acd6469f42784f38872ad83b14c41152d986b63 ALSA: hda/realtek: Fix audio after Windows reboot on ASUS Q423SA
+         
+  - ref: refs/heads/master
+    old: b32b09043f45283fe2aecbff5bba1455d5c8b356
+    new: e7791060bf5f5acfd35fd31d1163f42b4880859e
+    log: |
+         8acd6469f42784f38872ad83b14c41152d986b63 ALSA: hda/realtek: Fix audio after Windows reboot on ASUS Q423SA
+         e7791060bf5f5acfd35fd31d1163f42b4880859e Merge branch 'for-next'
          
