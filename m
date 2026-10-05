@@ -1,53 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============8768946820144061369=="
+Content-Type: multipart/mixed; boundary="===============3642158231694083744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 05 Oct 2026 10:21:31 -0000
-Message-Id: <179119569142.503165.7526821356792788134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Mon, 05 Oct 2026 10:23:52 -0000
+Message-Id: <179119583222.503885.14531689175801580017@gitolite.kernel.org>
 
---===============8768946820144061369==
+--===============3642158231694083744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/tags/samsung-clk-7.4
-    old: 0000000000000000000000000000000000000000
-    new: 58609b473dc38e4a34aa63a662536b0abce52be8
+  - ref: refs/heads/next
+    old: 46fc5849823a67a4b480dec59266969a1b7f8a42
+    new: ea01f446f0682a5e7bd7a275889a890b7e0c6e02
+    log: revlist-46fc5849823a-ea01f446f068.txt
 
---===============8768946820144061369==
+--===============3642158231694083744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-46fc5849823a-ea01f446f068.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1791195689 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1791195689-98b4f56ccc4d6eedf284c9d52c3b71e9aa1274ed
+af00a892e6515e3f08f2079578695389b01ba3a2 phy: hdmi: Add optional FRL TxFFE config options
+a673b3d18e37e573d52bf41c47e75d46982f2fae phy: rockchip: samsung-hdptx: Handle PHY config after module reload
+192244b9cb5d15288f318f20ad202f2274359474 phy: rockchip: samsung-hdptx: Add support for FRL TxFFE level control
+6f61db971065919bd6ca2d62fdc4be158857c403 dt-bindings: phy: Add nvidia,tegra264-mphy
+256cb243f4c21b5ba845885df9d1e79ce29eb706 phy: tegra: Add Tegra264 MPHY driver
+c5e6a552846b253294d0b37f447aeea20c1938a1 dt-bindings: phy: Document MT8196 MediaTek PCI-Express Gen4 S-PHY
+e9434ed4effaf46351fce729380d3c8d7d918f20 phy: mediatek: Add support for PCI-Express Gen4 S-PHY
+40c95f05093129e75f0180938de53dac65ce7e75 dt-bindings: phy: rockchip-inno-csi-dphy: add rk3576 variant
+47de65075563915363ed25affff41b9b4d004d4f phy: rockchip: phy-rockchip-inno-csidphy: add support for rk3576 variant
+e22b112f2fa565fd7d2715ac9d1bc3ba1a3c2427 dt-bindings: phy: aspeed: Document AST2700 USB3.2 PHY
+ad72aff5b4b5396a2a443a8f838fcfb8067dc603 phy: aspeed: Add AST2700 USB3.2 PHY driver
+ea01f446f0682a5e7bd7a275889a890b7e0c6e02 MAINTAINERS: Add ASPEED USB3 PHY driver
 
-0000000000000000000000000000000000000000 58609b473dc38e4a34aa63a662536b0abce52be8 refs/tags/samsung-clk-7.4
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrDeikQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD10TPD/0fD/fjrnYDf2RVYCxTs1q+y0Y6h4bvlG+v
-r4LTLKkvqJb5ncBge5DbvhV5EVEgJUKCU1oqYCVq5ntRETxlpAtCVjRb3WH8qJog
-hcYyD/KMYqfWVOSXqY7JwmznuZ5f+bpRsEdSa9JApV+76CAVbqRpr2AEE7gE/bAB
-1gkloxKiwTFvz8TPvM7rKdHdJvIaHBsJZb002KRWgbWJ3xdxe1x/n/ucQKfXqlk5
-RC0912khPwoJdys082VpiDrpPGWShwd1+p4KLnRVL9xLoaWSUxT8jIEQ9v29s6Hu
-UlZttvBJl40U9/bSoNIkuy5tZOW2lvphTKsXU5UUx+WGfM1moDpWgUM4cHlzuhaD
-VKIK+trKTkB7atz8t+VChSfcO+uA+c/80HXF8LsCSAGl+AKX87dlPJe1SrxtzKkq
-DFq7VeeuLzaSV4m/Kdvtf319I1PALI2LH6x0gymdi1uF1vx9G5UUt5BMkHC1dSHx
-2cYHYEklgE/ZML29XZawXiX2RJk/BeGeBtKeOsGSPGRY5ZUQE4x+Gj0VNXbiNlba
-C5nWFpmNQcEpiwPfv+3cLBRm2XSSCin+fd29R6NJ2mugFBqHyT36EDjojmbeUrF0
-OeTeMsRw5eMM81JN1BgrIeWBZ7BTFdV6XN/pbyGpQDGqo/uQsYDFSh/Q9niwVLEs
-R8kcRg7mQw==
-=453z
------END PGP SIGNATURE-----
-
---===============8768946820144061369==--
+--===============3642158231694083744==--
