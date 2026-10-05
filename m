@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 05 Oct 2026 22:58:30 -0000
-Message-Id: <179124111001.1173575.14531131832632972515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 05 Oct 2026 22:58:32 -0000
+Message-Id: <179124111214.1173762.1581777707358360153@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: af7886fcfb6633472c24c5f782fbbbf32f4b55cc
-    new: fe4114221364899ab33c3f9574da6b108d3fa79e
+    old: ecf5985006dd0505b2f700ef22fb9beac0ad3457
+    new: 9a550198d4243228b1258bf865044951eee27af3
     log: |
-         fe4114221364899ab33c3f9574da6b108d3fa79e net/mlx5: Lag, split aggregate speed into oper and max helpers
+         a9d60b086944155e0e1c2265d739d3455154ab10 net-sysfs: release queue trackers before allowing reuse
+         9a550198d4243228b1258bf865044951eee27af3 ipv4: use zero IPID for atomic datagrams on connected sockets
          
