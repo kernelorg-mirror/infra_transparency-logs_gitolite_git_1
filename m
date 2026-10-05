@@ -1,53 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============6041096625763843449=="
+Content-Type: multipart/mixed; boundary="===============6921631169131901084=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 05 Oct 2026 09:35:10 -0000
-Message-Id: <179119291088.464460.2880024301164656862@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Mon, 05 Oct 2026 09:41:34 -0000
+Message-Id: <179119329400.468776.16034695090869563687@gitolite.kernel.org>
 
---===============6041096625763843449==
+--===============6921631169131901084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: fe5030c8cc7156223f48530e9b49aa87c0305bcd
-    new: cf963c9359dd6c5d0bc6af16df5cf1f691bba4f3
+  - ref: refs/heads/for-next/hardening
+    old: 760f96b7f54beb8dc6f85d97ac7854fddba86835
+    new: 0f82b48209e85a1f049df20455703a2767f65cfd
     log: |
-         c8daf7af939af546fcca72242ffcbafab1ac5047 tools/power/x86/intel-speed-select: Correct macro name in debug output
-         a641389b578dfb4b5eafef3a85e037897ddccd29 tools/power/x86/intel-speed-select: Fix signed shift UB in BIT() macro
-         8cecef628e7ca1957b802dd568a2c2673796459e tools/power/x86/intel-speed-select: Clean all the produced files
-         638c97e9264dda44c6474aed8075909100781389 tools/power/x86/intel-speed-select: Increase wait time after SST PP level switch
-         ba4bb65333654ecb71381ab87484203e21b31c65 tools/power/x86/intel-speed-select: v1.27 release
-         4bb28bbf7b789b5c754f88118b31293c2ce0cafb platform/wmi: Remove dependency on CONFIG_X86
-         2e9a81b026e96d38d5681e7a7c8e093ead9de58d ACPI: video: Remove CONFIG_X86 handling from nvidia_wmi_ec_supported()
-         cf963c9359dd6c5d0bc6af16df5cf1f691bba4f3 platform/x86: wmi-bmof: Move to generic WMI code
+         633c60a2e87345bd70ced5a28561991fa5b0b1f3 MAINTAINERS: Add stackinit KUnit test to HARDENING
+         6bf37b9c59dc8e7a765a5c7c4ff01ccf8106b122 kunit/stackinit: Cover declarations bypassed by goto and switch
+         0f82b48209e85a1f049df20455703a2767f65cfd kunit/stackinit: Clean up XFAIL under instrumentation
          
 
---===============6041096625763843449==
+--===============6921631169131901084==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1791192898 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1791192898-acb228237d3e7feaf670485820cc523632d66c38
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1791193292 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1791193279-9b93e7f872a1037f368ae59e436a7a3a36bd2d97
 
-fe5030c8cc7156223f48530e9b49aa87c0305bcd cf963c9359dd6c5d0bc6af16df5cf1f691bba4f3 refs/heads/for-next
+760f96b7f54beb8dc6f85d97ac7854fddba86835 0f82b48209e85a1f049df20455703a2767f65cfd refs/heads/for-next/hardening
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCasNvUQAKCRBZrE9hU+XO
-MV5qAQDjGRBg4qI26k/9klZUF6Z8KBkR51ym6aYszA5n9goSrQD/bzA3bmY0ZBGo
-Bme7B5qGnyWLI3BKTCnfaLzgYORcMAM=
-=fUF6
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCasNwzAAKCRA2KwveOeQk
+u2mRAP4sKcmNMX0D35pFLw/WSvhixWaQJodTl7MX2XrfsFuv5wEArTmdPz4qY2nw
+LgzMs112JS3qjM+XjEAc1cAYXQkMDAQ=
+=Ycgq
 -----END PGP SIGNATURE-----
 
---===============6041096625763843449==--
+--===============6921631169131901084==--
