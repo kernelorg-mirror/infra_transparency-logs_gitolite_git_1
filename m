@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0217071998306295170=="
+Content-Type: multipart/mixed; boundary="===============1638912313173718164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 05 Oct 2026 14:50:28 -0000
-Message-Id: <179121182832.751141.1312110300162192063@gitolite.kernel.org>
+Date: Mon, 05 Oct 2026 14:55:52 -0000
+Message-Id: <179121215281.755216.18024905502748709123@gitolite.kernel.org>
 
---===============0217071998306295170==
+--===============1638912313173718164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,33 +16,35 @@ repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
   - ref: refs/heads/nfsd-testing
-    old: ee791ecdff6410f241e180338694033889b37607
-    new: 82e23bd883b39ab41153cdae2b492d01c2e30995
-    log: revlist-ee791ecdff64-82e23bd883b3.txt
+    old: 82e23bd883b39ab41153cdae2b492d01c2e30995
+    new: f58e28b7b1accb462ec995f3a0bb8b87806dd29a
+    log: revlist-82e23bd883b3-f58e28b7b1ac.txt
 
---===============0217071998306295170==
+--===============1638912313173718164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee791ecdff64-82e23bd883b3.txt
+Content-Disposition: attachment; filename=revlist-82e23bd883b3-f58e28b7b1ac.txt
 
-f79d4c5406d301a824e69f92c869c4ed36103de1 nfsd: Fix out-of-bounds read in clientstr_hashval()
-a5e1689a44d08e18f0d6444ebf63fd0888484e68 nfsd: hold client reference while reaping async copies
-b6f92914b730be145a03b4f32d2b793f13574711 nfsd: avoid dereferencing callback connection after unlocking
-59c01a70a3836fa74d1e697868c8f778bf87304d nfsd: drain pNFS fence work during state teardown
-5c687105e4f244ac5986f5840b0fe0a2f1eed6dc nfsd: fix READ payload landing one page ahead of the XDR accounting
-9b8a9951201129fbddc57fb5cb62bfc88326a967 nfsd: pin OPEN stateid referenced by LOCK stateid
-834a0c54e509e752f4eafac9747e773483635681 nfsd: bounds-check opnum before testing spo_must_allow
-99c4bfa96861b50dde6b385c8b1b04db728d0f04 nfsd: update existing connection flags under client lock
-deecfc926d822e8ecde10e7b0c88d8cdbafcc289 SUNRPC: preserve RQ_SECURE across request deferral
-f4c8980e15fd8e8d97092dc5412bfa8597fa621f nfsd: use direct I/O only for the last operation in a COMPOUND
-7edd19e6312c88f836998e63e4861776a95219e7 nfsd: account for page_base when advancing rq_next_page
-b2fd280590b873ac1fb0906209bccdc3a48abbe4 nfsd: locate the READ sink page from the reply buffer
-0d80bb6e426d7ff706967d9b5289a1149f43127d nfsd: keep spliced pages below rq_next_page when a READ fails
-aaae45d848e0a37ececfed5818b378da8eb49bd1 nfsd: remove unreachable cancel of the layout fence work
-c17446725860f86a5939e8657056d4b1a8203e63 sunrpc: preserve rq_daddrlen across request deferral
-bf69d1ce8070d4cc6125c24fb212a1771f027226 sunrpc: assign RQ_LOCAL from the transport on every receive
-2cacc2c84dad594541decc753c6532bcc64b0988 SUNRPC: wake a thread after re-queueing transports in svc_clean_up_xprts()
-82e23bd883b39ab41153cdae2b492d01c2e30995 lockd: make the nlm_file reference count atomic
+cf66d0b6984e7d00d5a97cb4350fc3b097c335fe sunrpc: reject AUTH_TLS on backchannel to prevent NULL-deref in svcauth_tls_accept
+33274d73b34a2115fa0f8b02da403525d311148e SUNRPC: offer RPC-with-TLS only on services that implement it
+3dbd014ea64fb5e82fc8ba12b06751998fbbaa4b nfsd: Fix out-of-bounds read in clientstr_hashval()
+4c1cd7909224974988472cb3f268d34f8a2a901e nfsd: hold client reference while reaping async copies
+54fe40bb5e28efb02f9f9eaebc6cabbca0f67775 nfsd: avoid dereferencing callback connection after unlocking
+830e7740ea3b39a996c327f48d1c72d623e3b79f nfsd: drain pNFS fence work during state teardown
+89d2ffe45a2fcfa5ece9bc8b22c29853eb27cd09 nfsd: fix READ payload landing one page ahead of the XDR accounting
+710294b6da10c124489d44fe0545b37ad492f7d0 nfsd: pin OPEN stateid referenced by LOCK stateid
+c777446e56476ea4182d0622e6a64f929532cf97 nfsd: bounds-check opnum before testing spo_must_allow
+6cc7661cab3cf45ab05338bdf9c55843f84318ad nfsd: update existing connection flags under client lock
+d7ebe0bf26dc5609c4d78fe1051427890f5bf3f8 SUNRPC: preserve RQ_SECURE across request deferral
+4c10c32dd2974d60bc8f7cab741be597386fa5fc nfsd: use direct I/O only for the last operation in a COMPOUND
+f4489805f09ab7329ece4c98c4d87b3eea86bc96 nfsd: account for page_base when advancing rq_next_page
+eccab9447f7067ce23b7610589d3e1d23161bf78 nfsd: locate the READ sink page from the reply buffer
+2dcdd490599471ffa1fc3f4aeca46a7ba1569fd5 nfsd: keep spliced pages below rq_next_page when a READ fails
+f3299e4184af25781bdbac76542ee31de03f14e4 nfsd: remove unreachable cancel of the layout fence work
+8c2fe2d658d840f2a8db6e7940a48e730aca7a58 sunrpc: preserve rq_daddrlen across request deferral
+94eb89b2837c8f941efd75442626a220777b2520 sunrpc: assign RQ_LOCAL from the transport on every receive
+5bf64b6b9099be94627be83231ed705d7ed35b1f SUNRPC: wake a thread after re-queueing transports in svc_clean_up_xprts()
+f58e28b7b1accb462ec995f3a0bb8b87806dd29a lockd: make the nlm_file reference count atomic
 
---===============0217071998306295170==--
+--===============1638912313173718164==--
