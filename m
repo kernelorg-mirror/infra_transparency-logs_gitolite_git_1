@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 05 Oct 2026 04:25:19 -0000
-Message-Id: <179117431996.171991.8090347216208914283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Mon, 05 Oct 2026 05:12:37 -0000
+Message-Id: <179117715763.203073.3653327458299075794@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/seen
-    old: aee75e1a29e1b47d6b8db552995c8e1fc1747a60
-    new: abfd68d5dec1e3667eece8441b5a9849fc9869d2
+  - ref: refs/heads/master
+    old: 62088a3e03227e4ace5214d28c7fc6ede3d8c76d
+    new: 89234d075a71d3d56bcff5c3b95f51a5278ba585
     log: |
-         a7fcda44dc43226dd932d748d2d19c6ae344d1d4 fsmonitor: check the untracked cache after a trivial response
-         abfd68d5dec1e3667eece8441b5a9849fc9869d2 Merge branch 'ik/fsmonitor-untracked-cache-trivial-response' into seen
-         
-  - ref: refs/notes/amlog
-    old: d86213a05c330f1ba00b13dc9375771ecb88de59
-    new: 26c00769e62b31c182beb398dea02964895b10e5
-    log: |
-         26c00769e62b31c182beb398dea02964895b10e5 amlog
+         6f448d9abbbaf4862cb36c54b3f1902b88d181d8 tpm: tpm_nsc: fix NULL pointer dereference on init failure
+         476a3645812befbb220215ec896392c479539224 tpm: tpm_nsc: stop using the cleanup callback as dev.release
+         89234d075a71d3d56bcff5c3b95f51a5278ba585 tpm: fix zero-length read discarding the pending response
          
