@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 05 Oct 2026 03:44:45 -0000
-Message-Id: <179117188514.141881.14897428527971004697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 05 Oct 2026 03:56:10 -0000
+Message-Id: <179117257087.151475.7685153461982633526@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: 0b9e9b00a1869fbed368937be07c3ff9181001e0
-    new: 62088a3e03227e4ace5214d28c7fc6ede3d8c76d
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: d82d896f00e7bf697b61d5df0555941afa8d0657
+    new: f3932095df4ca583605abc6bf2a0e1cdfc9ae116
     log: |
-         62088a3e03227e4ace5214d28c7fc6ede3d8c76d tpm: clean up error checking in setup_ring()
+         02c5d7bfa8724789f6620f7787532666edc891a1 rust: cpufreq: reject NULL from cpufreq_cpu_get()
+         e5b33fa47792375ca7fc49ccadee87d8e4b72929 cpufreq: sparc-us2e: fix frequency table index copy-paste error
+         f0a750dad7da1c653e85f0698063235453b43831 cpufreq: tegra194: fix double-pointer error in get_cpu_ndiv
+         fdbe4cae71c8196cd7681ad47254b5b0560d3c1e cpufreq: sti: avoid NULL dereference in dev_err()
+         53732733c7af437b0ed710a1df91a67a0d3dfc07 rust: rcpufreq_dt: add module alias
+         f3932095df4ca583605abc6bf2a0e1cdfc9ae116 cpufreq: Use %pe to print error pointers symbolically
          
