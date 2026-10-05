@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 05 Oct 2026 13:27:01 -0000
-Message-Id: <179120682156.642518.8802922437499370598@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/fsverity/linux
+Date: Mon, 05 Oct 2026 13:29:58 -0000
+Message-Id: <179120699843.643717.11645436119072515507@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/fs/fsverity/linux
+user: ebiggers
 changes:
   - ref: refs/heads/for-next
-    old: b42663cecdf4403a230baafb31bae136e90fd142
-    new: 2964a4aae2e04ecccd1512cf44aec025d1f77992
+    old: b08e4ee274917074633a41b3598d5541cee2b914
+    new: f9e450420da2624c93ce9585deebfabb87932774
     log: |
-         2964a4aae2e04ecccd1512cf44aec025d1f77992 ALSA: n64: don't use GFP_DMA when calling dma_alloc_coherent()
-         
-  - ref: refs/heads/master
-    old: 7d57ddcf9d02928b17603cdc174d0586877fb203
-    new: b32b09043f45283fe2aecbff5bba1455d5c8b356
-    log: |
-         2964a4aae2e04ecccd1512cf44aec025d1f77992 ALSA: n64: don't use GFP_DMA when calling dma_alloc_coherent()
-         b32b09043f45283fe2aecbff5bba1455d5c8b356 Merge branch 'for-next'
+         1ab73b0f96a5e0ef641f41476139027aad9de2b6 fsverity: report validation errors through fserror to fsnotify
+         7a59a56fe4f3eda430c5aeda3c4bb4913da2395c fsverity: expose ensure_fsverity_info()
+         ad7be74b38d83a31cd76c9cdc1bcc4cddbf03bd6 fsverity: pass digest size and hash of the all-zeroes block to ->write
+         9e74c01463f608d72f2da55d0ffe870f03edd124 fsverity: hoist pagecache_read from f2fs/ext4 to fsverity
+         85cdd23fcae7fb71f4832b2a6f89db0ed121db28 fsverity: don't allow setting DAX file attribute on fsverity files
+         f9e450420da2624c93ce9585deebfabb87932774 fsverity: hoist statx reporting of fs-verity flag
          
