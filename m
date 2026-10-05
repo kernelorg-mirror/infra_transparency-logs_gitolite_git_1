@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Mon, 05 Oct 2026 08:50:58 -0000
-Message-Id: <179119025822.427644.11362860368033716998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kexec/kexec-tools
+Date: Mon, 05 Oct 2026 08:52:29 -0000
+Message-Id: <179119034931.428397.1813597391261307819@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fsverity/linux
-user: ebiggers
+repo: pub/scm/utils/kernel/kexec/kexec-tools
+user: horms
 changes:
-  - ref: refs/heads/for-current
-    old: 4ec9b3758dcb0c2c58bbdc6f97126c67e820ee99
-    new: e58c3805ed325fe2d4ae2dd467c0486cc860b733
+  - ref: refs/heads/main
+    old: c1a526c87eb14d14cdc2d3f7ee0648e7c159ee95
+    new: e128675241fa7777dcce613a2df191458c320f5b
     log: |
-         e58c3805ed325fe2d4ae2dd467c0486cc860b733 fsverity: RCU-delay the freeing of struct fsverity_info
+         e128675241fa7777dcce613a2df191458c320f5b arm-zImage: prepare for more malloc requirements of zstd
+         
+  - ref: refs/heads/master
+    old: c1a526c87eb14d14cdc2d3f7ee0648e7c159ee95
+    new: e128675241fa7777dcce613a2df191458c320f5b
+    log: |
+         e128675241fa7777dcce613a2df191458c320f5b arm-zImage: prepare for more malloc requirements of zstd
          
