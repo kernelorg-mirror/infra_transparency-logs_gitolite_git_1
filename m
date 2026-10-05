@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7920498515897575854=="
+Content-Type: multipart/mixed; boundary="===============7923903127338320399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 05 Oct 2026 16:59:59 -0000
-Message-Id: <179121959942.851203.5464545780281065998@gitolite.kernel.org>
+Date: Mon, 05 Oct 2026 17:00:01 -0000
+Message-Id: <179121960196.851666.15071193317161401219@gitolite.kernel.org>
 
---===============7920498515897575854==
+--===============7923903127338320399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: f49defea7668d8c68ec19fa085ef3da6075561c7
     new: 8b4e7209c842d8cb9516f1f5ef0a88aa2d8831a6
     log: revlist-f49defea7668-8b4e7209c842.txt
 
---===============7920498515897575854==
+--===============7923903127338320399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -76,4 +76,4 @@ fbb46fde69651a5d4b3cbbbf9d2d24f5b18fe38f net: lan966x: add PCIe FDMA XDP support
 cfb7793d1bc0f7d90571611979654cf1b3886b29 Merge branch 'net-lan966x-add-support-for-pcie-fdma'
 8b4e7209c842d8cb9516f1f5ef0a88aa2d8831a6 net: phy: realtek: add MDI-X support for RTL8365MB-VC
 
---===============7920498515897575854==--
+--===============7923903127338320399==--
