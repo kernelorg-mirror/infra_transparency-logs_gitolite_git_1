@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6879034092528417231=="
+Content-Type: multipart/mixed; boundary="===============5704671991197876637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
-Date: Mon, 05 Oct 2026 17:19:03 -0000
-Message-Id: <179122074303.866550.2814992631241320487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Mon, 05 Oct 2026 17:22:02 -0000
+Message-Id: <179122092205.869667.2880441454940053310@gitolite.kernel.org>
 
---===============6879034092528417231==
+--===============5704671991197876637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+repo: pub/scm/fs/xfs/xfsprogs-dev
 user: aalbersh
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: caca7f14b449c94583a263e5d4e51354e86529f8
     log: revlist-d67bdf8007b6-caca7f14b449.txt
 
---===============6879034092528417231==
+--===============5704671991197876637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ e58810a53900f5b026d0d1792268c209412a4661 xfs_db: remove a double-whitespace in r
 92d45f837671ff8b81bf9b62cf91219da4b79bee libxfs: Return -ENOMEM on actual cache node allocation failures
 caca7f14b449c94583a263e5d4e51354e86529f8 libxfs: do not allow cache growth to overflow
 
---===============6879034092528417231==--
+--===============5704671991197876637==--
