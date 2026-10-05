@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/da.gomez/linux
-Date: Mon, 05 Oct 2026 13:26:11 -0000
-Message-Id: <179120677189.641886.9532081294561994522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 05 Oct 2026 13:26:38 -0000
+Message-Id: <179120679860.642197.5238656980105324897@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/da.gomez/linux
-user: da.gomez
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/rxarray-next
-    old: 7cd95b07614c5526c45a7808ddd317e277be4167
-    new: 6fb8e1791b6b6b6250a6b3b1579ae40eb3e50b42
+  - ref: refs/heads/pending
+    old: c14729cf77394228558c5c9aea05a95743273b25
+    new: eaa3e4df5fb900159ecdf69d5e9a19da40e60e86
     log: |
-         a20a9ee3c1dc0be3c30e744d1b592745eb0cb469 Rust XArray
-         6fb8e1791b6b6b6250a6b3b1579ae40eb3e50b42 rust: rxarray: add rust xarray support
+         eaa3e4df5fb900159ecdf69d5e9a19da40e60e86 wifi: ath10k: clear QMI if failed during init
          
