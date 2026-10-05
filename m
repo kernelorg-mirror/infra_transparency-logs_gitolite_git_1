@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Mon, 05 Oct 2026 17:55:09 -0000
-Message-Id: <179122290925.894129.9444428022547699105@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 05 Oct 2026 18:05:16 -0000
+Message-Id: <179122351649.901184.17793989787505363573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/sub-cid-sched
-    old: 0000000000000000000000000000000000000000
-    new: ab70cc94c6e1d685d061217812c15d7502eead7f
+  - ref: refs/heads/pending
+    old: 129324b60343dec19d45dcf87736f129b18b95bb
+    new: 1606f6eeef30f540a6b6ba9ac47b86fa72198228
+    log: |
+         1606f6eeef30f540a6b6ba9ac47b86fa72198228 Revert "wifi: ath12k: add panic handler"
+         
