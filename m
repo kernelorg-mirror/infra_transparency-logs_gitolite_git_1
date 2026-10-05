@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8231803740942047550=="
+Content-Type: multipart/mixed; boundary="===============3925910233485783102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 05 Oct 2026 09:20:04 -0000
-Message-Id: <179119200418.452354.9703968230957368170@gitolite.kernel.org>
+Date: Mon, 05 Oct 2026 09:20:06 -0000
+Message-Id: <179119200640.453119.12555438213117621364@gitolite.kernel.org>
 
---===============8231803740942047550==
+--===============3925910233485783102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 763ad0211c7b587344f03bc4d1299810aeb736f4
-    new: 0aaec43576cd41474a8e90c919631c0c9fc88417
-    log: revlist-763ad0211c7b-0aaec43576cd.txt
+  - ref: refs/heads/mm-unstable
+    old: 33eb75fed9eef7a57e3f77c37c160d3e9ec55f2e
+    new: a2696c34a32c2530e6c94cc1bd9c96ee941458bc
+    log: revlist-33eb75fed9ee-a2696c34a32c.txt
 
---===============8231803740942047550==
+--===============3925910233485783102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-763ad0211c7b-0aaec43576cd.txt
+Content-Disposition: attachment; filename=revlist-33eb75fed9ee-a2696c34a32c.txt
 
 23e1f68f808a12e6c65fb87c3ebf5bc9bf20daaa mm/vmalloc: use dedicated unbound workqueues for vmap drain
 9a96cebeb914de31fa302b756ab19bca054d4ae3 xarray: fix index jumping backwards in xas_find()
@@ -733,26 +733,5 @@ c02ed52169c4f79dcea2da5de9fbb54a79a43513 mm/swap: submit the last readahead batc
 b0105771014b31f1d5588fdf72d4eec2b39f9242 mm/page_alloc: avoid direct reclaim and compaction for costly __GFP_NORETRY allocations
 3919e048646e96afb32104d976bda03f1837a393 MAINTAINERS: cover all hugetlb headers under HUGETLB SUBSYSTEM
 a2696c34a32c2530e6c94cc1bd9c96ee941458bc mm/hugetlb_cgroup: add trailing #endif comment for include guard
-8114c73141bc367fcd5b91f638e2cffca4590029 selftests/mm: mrelease_test: fix retry limit
-281fa47311b469c59e9c94e70a85c546a40e6826 mm: kmsan: fix iounmap metadata teardown
-0504de609e3dadb1d0af0dd21cbb52818e5c7925 mm: kmsan: fix ioremap error cleanup
-5186259db9b5c27ad057e13e741641e005ad22f7 mm/vmalloc: bail out early on invalid page_shift in __vmap_pages_range_noflush()
-2abbbf10729bcb922daff638da724a8daa945a0c docs: hugetlbpage.rst: fix typo in per-node attribute description
-a3e46b375f0f7ccd06b56afb80d608ccfff1bec3 selftests/mm: hugetlb-read-hwpoison: add setup of HugeTLB pages
-5a15985b14ccdfbde5b2bac20f7af6e0783bed48 selftests/mm: hugetlb_madv_vs_map: fix TAP plan mismatches
-23e5ae4f685531da221d3ce11b831b429bae9163 selftests/mm: fix soft-dirty kselftest supported check
-757524959e3f7c0c37ae8b0c22aed021d16810c8 riscv: mm: fix concurrency in mark_new_valid_map()
-9f4a88b8d01a6597705e5c55225f4b60f2883603 riscv: mm: exclude invalid THP PMDs from page table check
-17649b41051fa740673ae0db64c9df257ca3ea30 sh: remove CONFIG_NUMA and related configuration options
-dbcd6e84a00122a250fc3bb71856ebec0500a0c5 sh: mm: remove numa.c
-32b657575e6902c04a0763eead1479c0a970e0ab sh: mm: drop allocate_pgdat()
-f757e857cc7ae4c029197978503eb4311ede97c5 sh: remove setup_bootmem_node() and plat_mem_setup()
-202d7d7c98f39fde8c2a5ed7422116e42aea8224 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-b1ffa235d4d95357638665b6c36d26a474928e1e sh: drop include/asm/mmzone.h
-4d8d15bf6bacccd330b9f257a886252ae61ec5f1 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-003d2f91a8f6a82f2ee9e39f5995dae9c04a726d sh: init: remove call the memblock_set_node()
-5f73665d26f43fe63c3a69b83cfe4fbd9d842c76 sh: remove SPARSEMEM related entries from Kconfig
-82ec158f687365951657ceb84426cb7031919aa3 sh: drop include/asm/sparsemem.h
-0aaec43576cd41474a8e90c919631c0c9fc88417 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============8231803740942047550==--
+--===============3925910233485783102==--
