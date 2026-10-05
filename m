@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8078882281957104846=="
+Content-Type: multipart/mixed; boundary="===============3763742203731889412=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 05 Oct 2026 15:14:50 -0000
-Message-Id: <179121329059.768514.4943224628872853434@gitolite.kernel.org>
+Date: Mon, 05 Oct 2026 15:17:30 -0000
+Message-Id: <179121345043.771690.13891976730465684950@gitolite.kernel.org>
 
---===============8078882281957104846==
+--===============3763742203731889412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 2eb9786cdcad94dea602c74bbdf2291848a3f7d9
-    new: 11a6f4c1ebd017552c2332ca8493cc917c386ac0
+    old: 11a6f4c1ebd017552c2332ca8493cc917c386ac0
+    new: e99ba1361769a9accf5199204d4adeb94aa6da1e
     log: |
-         11a6f4c1ebd017552c2332ca8493cc917c386ac0 drop a bunch of broken smb patches
+         e99ba1361769a9accf5199204d4adeb94aa6da1e drop queue-6.12/smb-client-flush-and-commit-data-before-querying-allocated-ranges.patch
          
 
---===============8078882281957104846==
+--===============3763742203731889412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791213287 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791213449 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1791213286-9aa24cfd47804900bfcc9b1d229a4e6ddaaed64f
+nonce 1791213448-b82dd3f213960b6b0f53ea52fb22d58f7829dc03
 
-2eb9786cdcad94dea602c74bbdf2291848a3f7d9 11a6f4c1ebd017552c2332ca8493cc917c386ac0 refs/heads/master
+11a6f4c1ebd017552c2332ca8493cc917c386ac0 e99ba1361769a9accf5199204d4adeb94aa6da1e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrDvucbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ChQP/jOqb2cDmUHX487uTFwb
-HN3FYFktoIpMrcxrVzlLn5xNuAbomnwMRc9mLQbaXwtPcpHSyrRVzwzfYKHPSDGC
-4ZQRjTBEUSSHdPbjGgfagSKH6H02tZGgcHkjm0AgLAJPnc3i4xNHPs80bqIE2T4k
-BXZSWCX6ZTIQbVXi80dG0eQmobfMeVCwfCGyZ0Uz7pqLJ+qf49t66B3xR4vcLX4W
-7UL+4cuuTm5w8fpdUSLnoALswSCGQXT6tM2sHzcoENmJ2RRdI7W5dOv7Xy0QDmC9
-/KX750eLtg7W1FDEwb7jBKdD2tchCbOdf34m/ssVms3XGSYONDb9EzI2Y+bnzEPS
-Os75I5vBl/Fky7dLtT+0BJPlWV1A9LFhpxT9q0xXiNCO5LIdSlt0hCI6s8KDC7pK
-YA9ozUV51/4SjNMLioEXP6B+MrevEk6b3fLIbtia0YVDxjzOfwx3buS7w+Orh2Vr
-TcVIuCHe1dsQ2aH3njvp7OyZ6citpEmuHFwzeyxBREnn4rdQyWWDeJvgRIJgN3uz
-bbpsY2lSFdDRtLqNaldNcUIIqbx3TthyWhuCEDPjhG5/Yxit6/ilgjcSFpCfh1xS
-9RZKXx3+GAHyEbt2F5qsAxockUfH1JLUybnj/+TCRwsUrSC/REXsl9bFMkdIpEBO
-wYjz5nAAszIoQeHHEsWcRmBg
-=B/Ty
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrDv4kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dUoP/3FmH1I0tGG88vDuHZvX
+Jxicwsh11s6AstA0cOlbkMG9hg/zq2Ft3mfNKBWqLgOgrpp+SN8h59SrVP0PjsAz
+jCvMMH20UVUzM7YwAm5/TxI/l3N4eh9ihmUyme5GYldWK56PiA1bm0MpY/3FeZer
+/JOa3D43LxP4aXt6L79NDLo90CFMYIa8zSdYYSmtyyHyzaKwT7lgj61UNkc45cHU
+pQSPcYLqI8g8dto0GxXUj6O1A4ibyub/1VHLlyPIyfV7EAAwpQQ52n1jhlFg5CFX
+7RpUSVe0PVL7BxLMsrlyWbQ9r5aEMGChHIAS01yOQUnL+6Lgb6O7I2jJWHiqX6PY
+m+oygxy3JgM/uGtKnuNBMCTXsZJAusDrnbS7khSv2oSjAfx+fsi/yqECEdjzIiUC
+lGqwNVc7FpqaVA3JOxns2SDoQMu65HBvEQndNK3ht0XNqfS4B6t9QmwDPBvgKC2e
+hvlpqgWX6uXZZQ3rOpzep7D3E+vt08Mv+WrIx0X2oa+13oIUxcbefQX4bbn345Og
+WgXrATs4LW3/n7SJVzNekfGksDTkHxLp52QJGdAp15+fYe2QaHekxFOLVd+RjQ9J
+i5Kdv5Y/Hgur6K/7UTB7Dae0ET6eirdILJ9Ud3/TzxfW40ePhhCkEhi6gUVw+AKD
+4B+c/rj4d2J6XNsN8uBqY5xE
+=6ung
 -----END PGP SIGNATURE-----
 
---===============8078882281957104846==--
+--===============3763742203731889412==--
