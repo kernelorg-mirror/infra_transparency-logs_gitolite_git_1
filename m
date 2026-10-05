@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Mon, 05 Oct 2026 15:06:24 -0000
-Message-Id: <179121278436.763506.13382085217096326642@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 05 Oct 2026 15:08:40 -0000
+Message-Id: <179121292012.764219.4820770444789215955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next
-    old: a2a94b6a6f0187b5d3b298b4f12a031335f5698f
-    new: fd26798a69439d6693a1f83b0763031b306cfb4f
+  - ref: refs/heads/ath-next
+    old: f49defea7668d8c68ec19fa085ef3da6075561c7
+    new: 129324b60343dec19d45dcf87736f129b18b95bb
     log: |
-         92c93e8b27c26cb3c2571e704eed6c3eb4d6f1b9 arm64: dts: altera: Move all SoCFPGA files to dts/altera
-         fd26798a69439d6693a1f83b0763031b306cfb4f MAINTAINERS: Drop arm64 dts/intel path from ARM/SOCFPGA ARCHITECTURE
+         e56c9d429ba004d5416b03091fd7656187cdcaf1 wifi: ath11k: fix unbalanced IRQ enable/disable during suspend/resume
+         13b15eabe2c541b80406166964cdc8ccb5e9c32a wifi: ath12k: Reserve space for a string terminator
+         81394dfb9a7905472957628b560ae894eae3a30f wifi: ath9k: delete channel-context timers on deinit
+         59411703660919197234fa0ec80ee1a5bcbe4276 wifi: ath9k: refuse spectral scan control while the hardware is disabled
+         129324b60343dec19d45dcf87736f129b18b95bb wifi: ath10k: clear QMI if failed during init
          
