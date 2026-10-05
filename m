@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8145248238350503782=="
+Content-Type: multipart/mixed; boundary="===============6730430714096304827=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 05 Oct 2026 10:12:17 -0000
-Message-Id: <179119513716.494766.16287089226661624071@gitolite.kernel.org>
+Date: Mon, 05 Oct 2026 10:12:20 -0000
+Message-Id: <179119514013.495009.5505559474207831025@gitolite.kernel.org>
 
---===============8145248238350503782==
+--===============6730430714096304827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-fixes
-    old: c98bf3b86609a18ab16d067280257326e557c636
-    new: ae8364085574203e7f4ea961921a1c7493bcb6de
-    log: revlist-c98bf3b86609-ae8364085574.txt
+  - ref: refs/heads/i2c/i2c-next
+    old: f8a274a09c4f58611bc839cb0d33b2763366f807
+    new: bd258cab67d66d2a520de885f9f92c2abfa89a09
+    log: revlist-f8a274a09c4f-bd258cab67d6.txt
 
---===============8145248238350503782==
+--===============6730430714096304827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c98bf3b86609-ae8364085574.txt
+Content-Disposition: attachment; filename=revlist-f8a274a09c4f-bd258cab67d6.txt
 
 f0ea4824deebf21dacfbe397c4b0a5fd3e745a8d iio: health: max30102: fix NULL dereference in interrupt handler
 56c423b233b214182c58c99861899327b45b0d6c iio: pressure: bmp280: fix out-of-bounds access in sampling frequency lookup
@@ -619,5 +619,6 @@ a27611f8994c9a4772156432badb533af33fd32d Merge tag 'perf-urgent-2026-10-04' of g
 7704c4c5bb127673b4f0ead839919db573559e38 Merge tag 'i2c-fixes-7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 a90ee4305c4a5df72c11b31dacfdc76e00fcf78a Linux 7.3-rc6
 ae8364085574203e7f4ea961921a1c7493bcb6de i2c: qcom-geni: release runtime PM reference when set_rate fails
+bd258cab67d66d2a520de885f9f92c2abfa89a09 Merge branch 'i2c/i2c-fixes' into i2c/i2c-next
 
---===============8145248238350503782==--
+--===============6730430714096304827==--
