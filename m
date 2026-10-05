@@ -1,61 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============3170923775177570883=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 05 Oct 2026 14:58:35 -0000
-Message-Id: <179121231582.756139.294229289050521770@gitolite.kernel.org>
-
---===============3170923775177570883==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 05 Oct 2026 14:59:32 -0000
+Message-Id: <179121237254.756945.4864940565254416714@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 283ca3618e75acc9378f190f82c3a7014c0624f1
-    new: 2eb9786cdcad94dea602c74bbdf2291848a3f7d9
+  - ref: refs/heads/p2pdma
+    old: b9964341607f7954184f7ce5e7d8b937e44952b7
+    new: e37cc328febd1651cecf34cf2534374008e72463
     log: |
-         c315d50c653fd374a5f00f0fb5170c15de142f28 5.15-stable patches
-         44e60114359529bad3142d5b8b8f49140823f1b1 6.1-stable patches
-         30627ae7d8799e726299a7f41d58ea737a4aef89 6.6-stable patches
-         de632e73b9b80c50c6a375e0f99d0694e00f322f 6.12-stable patches
-         bb9ad42895309bb76cd77ebbbfc6c0c8fc124430 6.18-stable patches
-         2eb9786cdcad94dea602c74bbdf2291848a3f7d9 7.2-stable patches
+         0b9df403ddfa6949ecd05bb7b218a5e685a5d016 PCI/P2PDMA: Add Intel Haswell client host bridge to allowlist
+         78ba1abbaf3957918a65c35e646fdaefb3fd0a50 PCI/P2PDMA: Update DMABUF lifecycle docs after move_notify() rename
+         4d260b89bf48b0e6d5d17037b112067458d21b85 PCI/P2PDMA: Do not tear down the allocate attribute on registration failure
+         136001a9a6bbb56efe653081bb49657e01f278c6 PCI/P2PDMA: Wait for RCU readers before freeing state
+         a82fd0e0a9f3cd65d16f8f02e0a246b21448c842 PCI/P2PDMA: Restrict the p2pmem search to pool-backed providers
+         b8474814000e1a4c018da6bd7f68976a9f141be9 PCI/P2PDMA: Safely terminate ACS redirect lists
+         e37cc328febd1651cecf34cf2534374008e72463 PCI/P2PDMA: Gate the host bridge whitelist warning on verbose
          
-
---===============3170923775177570883==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791212314 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1791212313-3d60244443add21745cf40f7b0ef1b1a5ba6f682
-
-283ca3618e75acc9378f190f82c3a7014c0624f1 2eb9786cdcad94dea602c74bbdf2291848a3f7d9 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrDuxobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8XIQAKHW6fEwlSsYZ06V75m9
-dzV1hqI1K+u1ST+MKluMc9HhWMMFDjqo9OtgWBo9BIaE0ZaHzJmdKWzkvm0wwCkL
-S1NgQ84dwgCKOJB3dE0/tQ/kDCuKwAXYgYpo4tCGvZq8d2/aJ59wlLOFi5/D/d0T
-vu9w/5tLFZjQBmtEeKbTbeqosS23uu0/a4Tn32XYHFezBgX9k9dHfU5NzkaAIm6+
-ImM54oY9vyjfL136+UnB8O2/h1gZjyRvVolqoQiNDJEOuRLJrDHHEir8HiXoI6Bd
-9oRVKR8g2rCX4iT0bENJkJZkjQ2d8m9l+xO9CEOMaCoS6R48z825GFIQbUpCZ1Go
-nslIyWRRIELiFS9Um/VTtw1b9RV+a9XGEWABEM41SozGJchbXn4HgSdpqrVP25pX
-1HQbeczZDr3UcAsC4/ydGHuAH8xYRU8WPIKQ+2N0mGatZmBB3JdthSBKV3U2Wyhr
-L7L9KuDWMo6/cpXefcwNTu0o2Ny7glQ7khcpkiyzCYwAQ+XwZYs0uieFunX1AswU
-t4xds9bELjSdmcNo6WK351Hdyw1+YU3sNcRCo1AzsEnb76+xd+vMfB/6HCWUoPpZ
-/fv68chjraGGLFbVZlEaElsjaksnNkJCX6fpz/RVSTA4nUIEk/GxnGbIYfJkAMgg
-mgl7Y1rKfvZnB0l4srLu5/2N
-=Vz4a
------END PGP SIGNATURE-----
-
---===============3170923775177570883==--
