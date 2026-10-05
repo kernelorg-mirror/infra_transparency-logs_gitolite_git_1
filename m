@@ -1,52 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============0740372465082969865=="
+Content-Type: multipart/mixed; boundary="===============5781298145611170116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 05 Oct 2026 10:42:01 -0000
-Message-Id: <179119692135.519999.6475851393445391312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 05 Oct 2026 10:47:00 -0000
+Message-Id: <179119722012.523623.7756167900058662970@gitolite.kernel.org>
 
---===============0740372465082969865==
+--===============5781298145611170116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 6addb4f385570ebc11c4eb499a4f1c149f313e84
-    new: a90ee4305c4a5df72c11b31dacfdc76e00fcf78a
-    log: revlist-6addb4f38557-a90ee4305c4a.txt
-  - ref: refs/tags/v7.3-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 4eeccbed21e50c19f97be9d325511f3de6343f2d
+    old: 604225a135b21dbba6894016d15756baa0f54a27
+    new: b4257b35dd82fcb095c3956067aebbfe412130fd
+    log: |
+         25d6aaf3530cbb03a96b91d0cf2ed1545a231034 5.10-stable patches
+         6b7169a4fdda812d31bdf80138ec535e45249854 5.15-stable patches
+         034edaa658d2a15b6cbcc4939f9d8df08805260b 6.1-stable patches
+         3c815a0119456b09bb91aaa97d021f79813bc3ff 6.6-stable patches
+         e962f41abe3f92d43d4c090106bf23ef1074772e 6.12-stable patches
+         b4257b35dd82fcb095c3956067aebbfe412130fd 6.18-stable patches
+         
 
---===============0740372465082969865==
+--===============5781298145611170116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6addb4f38557-a90ee4305c4a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b7e6df2f52ed5c02838832f53c171a5645f9b376 i2c: xiic: preserve PEC byte length in SMBus block read setup
-e6fe3ea04f0113fe4d47c03d76e03805a4768ca7 i2c: xiic: defer RX_FULL until all trailing bytes are in FIFO
-840d8acc87925deb3c75566fde9ca81d2f47f98c i2c: xiic: don't clobber msg->len to signal block-read completion
-d2457a7e2727dc747a61a50d65c2f259afce8c45 x86/mm: Don't apply va_align to hugetlb mappings on AMD F15h
-e3ee38c1bc0b11a8d3e63dce7050759b61864286 x86/mm: Drop unnecessary PMD page copy when freeing
-a661c34fe693c8f9ef29b45ee71cfa1fe593502b {x86,um}/uapi/ptrace: Guard register offset macros with __ASSEMBLER__ or __FRAME_OFFSETS
-28fa9af353bed2bb738c46e31f9b7d0347b759d1 hrtimer: Use the mask to clear TIF_HRTIMER_REARM from the exit work
-c98bf3b86609a18ab16d067280257326e557c636 i2c: at91: release DMA channels when probe defers
-ffb684f2aa141eeb0caa6308422e7e05d1ded7c4 perf: Fix race between perf_event_exit_task() and perf_pending_task()
-b9d1fdc6f4ac1b6e49f9deafaf137da1407d9af1 perf: Replace perf_event_header__init_id with full header init
-357e8a77a501d96c9517f01f4a211eed5e9c9184 perf: Require kernel access for text poke events
-26f6b6357b1b06e6aaa9b8d796989cca785d8e1d irq: Make refcount_interrupt kunit test selectable
-f35e3b5784221654f9cdbd6222275a7fa203f6c3 futex: Fix private hash use-after-free on resize
-1c915d6007fab5b87a8c2516dfd37dd614875f9c Merge tag 'locking-urgent-2026-10-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a27611f8994c9a4772156432badb533af33fd32d Merge tag 'perf-urgent-2026-10-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-942e4a0e46bfd0efd3f87f70bf186c54aaaeb138 Merge tag 'timers-urgent-2026-10-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-06ac073129191a01d77933ed381f89c67674db6f Merge tag 'x86-urgent-2026-10-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-7704c4c5bb127673b4f0ead839919db573559e38 Merge tag 'i2c-fixes-7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
-a90ee4305c4a5df72c11b31dacfdc76e00fcf78a Linux 7.3-rc6
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791197218 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1791197216-78de1f424258b4a86e839074e0a6f88e6f6ec8b1
 
---===============0740372465082969865==--
+604225a135b21dbba6894016d15756baa0f54a27 b4257b35dd82fcb095c3956067aebbfe412130fd refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrDgCIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YMoP/iolojyY7SWamcd9mFYI
+zofwgwC4zxsm49tEwVungh9TM4aECO+ratLpE8bSOQpAucDE/RLCZvnIVJilz8QD
+hEOdtypLu3fUBioRWx8//wnfsxskwt7mkOV9r8APNGhrLtPt2PCLaGJYX8oKenwQ
+TUUfkWNoRuF3dGnZKYTlb/TWfTg7uj8HXRR7wLo19LUDx8Zg13mmpVgkXO476dGW
+FAA7HFkkgfRrhexWLa4gIXPGJttXxaWs68BGZV7/N/Kq4Rx1YuSLsxZiy5T+PZSP
+IN52xcHL5k05X7PxZyMsHnYmrYe3O10AZoht/CVaX/44sVAoqKMzy4vLhX/KIvkS
+kHTOi+lEqwK5S9K5Yk9tBV1mcGXnQIpp5G9R1+kXEsGXGXouYRIeg+VpAqLCSMLu
+U+X85+pScUTGf4QobzSpp9P+7cQ39D0Jr7YNXjDbOee+urfXaD/9SV7NPeHOUE50
+hVSX/bk2Hrd1B4HThicnKRqHoPZ7eXONIkTKPxbJ7LLR92XmIBGb89RGPpD2Jonq
+XMtZGfxF8Qok19Fndaw+q0o4OYZJB5iPRlk8EkJBHwD6oj0UGBQCl2zKkm8cHw7K
+PhiIGv1ntD+Y/zUts/zMLCMo6ABsAjS1hyK9nSUeXpP6q3GNVE9PqHa/zblMcO7W
+uhAW6Q/L/5w1Lvj9X2RjU1FM
+=Kmnm
+-----END PGP SIGNATURE-----
+
+--===============5781298145611170116==--
