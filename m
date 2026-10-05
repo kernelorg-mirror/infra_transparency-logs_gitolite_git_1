@@ -1,36 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============9048823085553736644=="
+Content-Type: multipart/mixed; boundary="===============1435615701495514631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 05 Oct 2026 14:08:20 -0000
-Message-Id: <179120930057.717025.556321182605980459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 05 Oct 2026 14:08:29 -0000
+Message-Id: <179120930960.717324.9417767293750286607@gitolite.kernel.org>
 
---===============9048823085553736644==
+--===============1435615701495514631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/master
-    old: cbceb2fcd5e158663c8c1d5e53ea91cbe8fb0797
-    new: f828fc51d7eb7ca7bc204ab09af9ade63bca21d6
-    log: revlist-cbceb2fcd5e1-f828fc51d7eb.txt
-  - ref: refs/tags/renesas-devel-2026-10-05-v7.3-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 248ca6e4172373febc812ff95a66f675905da483
-  - ref: refs/tags/v7.3-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 4eeccbed21e50c19f97be9d325511f3de6343f2d
+  - ref: refs/heads/for-next
+    old: 8147b3ee1381211a34df80119596791b964d1c54
+    new: 58386dacfe93231d6042bc656ff016f26fb7931a
+    log: revlist-8147b3ee1381-58386dacfe93.txt
 
---===============9048823085553736644==
+--===============1435615701495514631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cbceb2fcd5e1-f828fc51d7eb.txt
+Content-Disposition: attachment; filename=revlist-8147b3ee1381-58386dacfe93.txt
 
 f0ea4824deebf21dacfbe397c4b0a5fd3e745a8d iio: health: max30102: fix NULL dereference in interrupt handler
 56c423b233b214182c58c99861899327b45b0d6c iio: pressure: bmp280: fix out-of-bounds access in sampling frequency lookup
@@ -628,6 +622,128 @@ a27611f8994c9a4772156432badb533af33fd32d Merge tag 'perf-urgent-2026-10-04' of g
 06ac073129191a01d77933ed381f89c67674db6f Merge tag 'x86-urgent-2026-10-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7704c4c5bb127673b4f0ead839919db573559e38 Merge tag 'i2c-fixes-7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 a90ee4305c4a5df72c11b31dacfdc76e00fcf78a Linux 7.3-rc6
-f828fc51d7eb7ca7bc204ab09af9ade63bca21d6 Merge tag 'v7.3-rc6' into renesas-devel
+12c54059fbd5f56a6936568385c23e9cf84f9290 btrfs: free unlinked replace target on initialization failure
+a9dffe3a29d1f7164d4d3f31c2fa5bfb3d7c7741 btrfs: roll back sprout setup after device add failure
+05427bbab2b897ede14d7bb5b3f78a9b7dc6f4d8 btrfs: refactor read_key_bytes() to remove the dest_folio parameter
+a544b9acaaeeb42085fc8c8d9bdacab57412c702 btrfs: replace btrfs_repair_io_failure() to use bio for page iteration
+edab876670633bf9e017465da95cf67495490e80 btrfs: enhance btrfs_data_csum_ok() to use bio for page iteration
+87558759c4ae91ddd5116f35408a16778028341a btrfs: use a shared helper to calculate data checksum for a bio
+fac54040fdfd9562ca64b0863fc479fefc07953c btrfs: remove on-stack paddrs[] array usage
+acc5a94be748ad5a8a2c7316a6b69f29cd54dc21 btrfs: skip extent tree lock in the shrinker for inodes without extent maps
+e1c571fb31071d8259fe6921cefa0be47b697f70 btrfs: remove unused variable flags from btrfs_read_qgroup_config()
+2cc84f48c92a5813211e02d82c2d98277ef7efb2 btrfs: qgroup: use atomic operations for btrfs_fs_info::qgroup_flags
+f46067ff82216421fce4644d6c4144c41565be9e btrfs: reject new qgroup rescan during subvolume dropping
+258140610f5c5815b11b3b067027ea5ef285e09d btrfs: avoid long stall when dropping a non-shared large subvolume
+e7604236364e0d1bde6530f813999618d01575a0 btrfs: remove runtime tweakable feature sysfs interface
+427166a5c5fa93bb67f75f6bf3c04e04857f3762 btrfs: use ordered extent to grab the logical address for submission
+700dccaf961625ee7eb1c6090ad82db1ab31aecd btrfs: tree-checker: reject file extent items for special files
+5a11eb41d7e41634c36819f2f61accd4290b21fd btrfs: consume given iter directly instead of copying in csum_one_bio()
+4d545c829d38b331bbe7f20dad2406b0a85c42c0 btrfs: use bio::remaining for async checksumming synchronization
+d2834defdaddea866a9d8752f2e5326d25ed0e61 btrfs: fix typos and repeated words in comments
+646e42a8176fff566dc1cae47dcc3575b1b8fc68 btrfs: split btrfs_insert_delayed_dir_index() into prealloc and commit phases
+24ba760dd1323e6abc215bb34cbfbcb818f930fc btrfs: pre-allocate delayed dir index before btree modification
+193c06d080e4a6010f9f53092393948e99651968 btrfs: handle ENOMEM from btrfs_insert_dir_item() without aborting
+f010405fd03f36e3e360df518d82866b611094cb btrfs: pre-allocate delayed dir index for non-overwrite rename
+05aa3fd3d32e976b459a402783cb126adf915a89 btrfs: zstd: avoid a copy in zstd_decompress_bio()
+fe8d1d428095939eeab7033f6a24034bcdbec179 btrfs: replace is_data_bbio() with is_data_inode() for direct usage
+3366cd3f4e0ef75fe6590ebbf2e193d6cebd9cd1 btrfs: use kvmalloc() for b-tree split_item()
+9a0d1d4266b2eeecf7271b3fa16e56328f003303 btrfs: tree-log: use kvmalloc() for overwrite_item()
+3310142daf74387b315b0e0f693249a79b3205e2 btrfs: use kvmalloc() for uncompress_inline()
+50d96714783a73df4c9348b62411e55b73c1984b btrfs: use kvmalloc() to allocate compression workspace buffer for zlib and zstd
+a2e895f97d28ab36e656981d19547ad262d7d395 btrfs: tests: rename process_page_range() to process_folio_range()
+8295ed1313ff5042ce4a350fb268100cae5eaad9 btrfs: tests: convert test_find_delalloc() to use folios
+2bdda6a82a92da9bb6c0777f4633068a88057bac btrfs: tests: use eb folio helpers in extent buffer memory checks
+764c043f75304f507f699f1de8902932e1372de9 btrfs: convert btrfs_compr_pool_scan() to use folios
+1076754193e15a5b9a77362e8f3f0f07de607986 btrfs: convert heuristic_collect_sample() to use folios
+450056964990b9b80d66707d70c8f72805d48bb4 btrfs: fix stale function references in compression comments
+5244ae0ca9fdda9d00b07b3e596fa8b616f4d4c0 btrfs: use folios for reading super blocks from the block device
+3257bb466c90ae5b55ce2f8f4cbeb070ca3f2ccd btrfs: use u64 for the page indices in heuristic_collect_sample()
+558f1efa0be93d2b2ab72e5995ce4ef844310135 btrfs: increment extent count once when logging extents during fast fsync
+772ce50024754cfceec329c90a08060fe30dc013 btrfs: tree-checker: cache accessor return value in CHECK_FE_ALIGNED()
+45a830700f969e4e9ffd35ea8557e14219d8943d btrfs: cleanup and rename submit_extent_folio()
+a25d1c3ec36eba6f86539d4144e5c20ce6ca75f2 btrfs: fix off-by-one end related to inode_need_compress()
+0b35c64dd93432672fc86742b40bf57885cb354f btrfs: simplify heuristic_collect_sample() to handle large folios better
+c601771da75ce5c861d0375981c71af0ab04d036 btrfs: add missing unlikely to a couple error checks during sys chunk array validation
+e9be3371aadfd5537ec4a3fb950929337f9e8822 btrfs: remove redundant eb generation check in btrfs_buffer_uptodate()
+78707dfe12511ca69ff8a21d875e7d2f0d974229 btrfs: remove duplicate error message when writing super blocks
+54c3224ec08c23c2de578ec0ce8016e8d03f30ce btrfs: keep unused block groups queued when a pass fails
+4baa6aeb7c133029f9ab752ed247626878023a9c btrfs: pre-flush reflink source before taking inode locks
+2e2b9dafb9c4399691770dccbf475431b150e1bf btrfs: skip unlocked reflink source flush if the inode has writers
+cb7aa86934af9743d734ee334ef5956cc73c6c31 btrfs: downgrade the reflink source inode lock for tree walking
+a724036bef86fdbac33ed4261784c858a9715cd3 btrfs: fix off by one super block end offset calculation when writing super blocks
+fc6b28f8f6702548b744cd497b90466c73bbd5dd btrfs: clear BTRFS_ROOT_IN_TRANS_SETUP on early exit from record_root_in_trans()
+1272caa2355c4b4f04ef815dc0a84a6d141a0e8b btrfs: fix barrier usage in btrfs_record_root_in_trans()
+d9c8e85b54407bfd0ca910431092e92cd0da4cfd btrfs: assert reloc mutex is held in record_root_in_trans()
+f2029cc700bcae7b3922df37737de9beaf00ebbe btrfs: fix dangling nodes in tree-mod-log after error in btrfs_tree_mod_log_insert_root()
+368eab553987f5f5a81728ecb16ac036958ad464 btrfs: scrub: fix local_root reference leak in scrub_print_warning_inode()
+8cf5bb8185b59871ac35d957e4c599082887c7a6 btrfs: zoned: fix block group reference leak in btrfs_repair_one_zone()
+e5db3b8bf51645eec74b764d7abd33d121010ff6 btrfs: always return -EIOCBQUEUED after btrfs_uring_read_extent_endio
+7ecf77911f079387ef57c75061bf076301f32a16 btrfs: free iov when btrfs_uring_read_extent() fails
+893888aacad9edd440f9f032f565c6a1d6ae735f btrfs: unlock inode and extent in caller when io_uring read extent fails
+45c8254fc6a011418537ff14c91091701caae360 btrfs: don't stash io_uring encoded data across -EAGAIN
+bd9f9e65cd333767183789987600769e3d458692 btrfs: drop unused uring encoded IO REISSUE stash helpers
+69d1d6b2298a021522c66116c1a976f443ce88dc btrfs: use assign_bit() where applicable
+2e3ba1d34045091d215f3349bb5f78b6715803d5 btrfs: fix xattr replace when multiple xattrs are packed in the same item
+d1393dec6708acc22dbff9a93efb1eb69cfcdc4e btrfs: simplify dir item location setup in btrfs_insert_xattr_item()
+fae988e0ff3cca20d7a6885641ea5c1dfb164855 btrfs: fix lost error return value in btrfs_listxattr()
+108adb951efeeb05e986d96fd5b3560530dbf6f7 btrfs: move __TRANS_* and TRANS_* flags out of transaction.h
+d1147f07098c35bf32ed2d4f6d928de04fe12f6b btrfs: remove __TRANS_FREEZABLE
+7d337327c4e2d908906678a865d778502b80c742 btrfs: remove __TRANS_* flags
+e518b02aa180b0d38eec91f7076eccee9d277bec btrfs: allocate additional SYSTEM space earlier
+829a603879cdefaea974d7e8c5f61ae5bd03f711 btrfs: commit after deleting an unused block group if system space is low
+f21258bad4a869bf062efc0b7f3d62923952e68d btrfs: zoned: fix double list add in btrfs_load_block_group_zone_info
+f98420abf1f4624f74813171d2d7676f90b49d64 btrfs: fix incomplete iteration over fs state when logging messages
+b808fd87b919f472658a17a1aee89ce8b771113a btrfs: fix duplicated code in fs state string in logged messages
+84876d94a29a2584f05ceea2f122b445b366bc8f btrfs: add missing code for no delayed iput fs state in log messages
+29789fe4537c9076dc1af3733efb58131a32c42f btrfs: remove unnecessary pointer increment in btrfs_state_to_string()
+1b333a14dba071ca60e480b3d2ec75c35dcac354 btrfs: avoid overhead when logging messages if fs state is clean
+0f20cc7d73ae9a756eea41275c01400295477cf2 btrfs: fix off-by-one end offset check in report_setget_bounds()
+1d847d8ea62ad52820d45c0631a567d2ebba980a btrfs: remove fs_info argument from btrfs_block_rsv_add()
+593434ce1a03604e515cac9939fd8dc3e0e1996c btrfs: remove fs_info argument from btrfs_block_rsv_refill()
+2db0587a55de1443288814076da555b81513b38a btrfs: remove pointless qgroup assignment in block_rsv_release_bytes()
+b0dd496840cb09558cb0ccb8ca93ac5ee8a7897e btrfs: remove unnecessary forward struct declarations in volumes.h
+841069d71d292a07365c783409bbffc701593475 btrfs: qgroup: do not treat "ret > 0" as error when deleting a qgroup
+ea4df940d915223d646bf7f56e3307da448fd442 btrfs: qgroup: use qgroup_mark_inconsistent() in quick_update_accounting()
+9e51a8c52e6cfa076ef8ffc5333e7e7f12588acd btrfs: qgroup: do not leak -ENOENT from btrfs_remove_qgroup()
+05d60d2ee801a182f4e215c57248b422982c4caf btrfs: raid56: do not verify the content if there is no data checksum
+c9fc5d2dca3bdd3333d33fbcfec3d98dda0676e2 btrfs: always use the second newest slot for rescue=usebackuproot
+7b3a628a46ef89a5cc460ad364f968d218fa05c0 btrfs: introduce more accurate usebackuproot options
+d3d323ee695c22b290b7788d9c0147bdc5a1250c btrfs: qgroup: fix swapped blocks existence check when tracing after COW
+bdb1657cfc2b10a219ee9ea6d041af763567a257 btrfs: qgroup: abort transaction on failure to add qgroup relation
+a5bc90e5d662026fefd6749c3969e51773cd295c btrfs: qgroup: fix leak of qgroups in rb tree after failure to enable quotas
+3902947e16a68cc30722dac65419f51ef472ae02 btrfs: qgroup: merge error labels in btrfs_quota_enable()
+df020224c5610e702a75b95ea0f99631e3592ef6 btrfs: abort transaction on qgroup failures in create_pending_snapshot()
+dc16dcbc185cca7fd0132888118b75c39adee6e4 btrfs: qgroup: fix off-by-one max level check in qgroup_trace_new_subtree_blocks()
+3e6ff34afc7ec7a6156e58502b5a56771517cf93 btrfs: clear BTRFS_ROOT_IN_TRANS_SETUP on early exit from record_root_in_trans()
+1fd742c7479961da6d0bb794ef8ac6b7b9442847 btrfs: scrub: fix local_root reference leak in scrub_print_warning_inode()
+80a8dbb30d2b00b9c671b02bd73f700f6d20100f btrfs: always return -EIOCBQUEUED after btrfs_uring_read_extent_endio
+a8ea92830b3e0e163d4e829bdcb17ca83c0f951c btrfs: free iov when btrfs_uring_read_extent() fails
+b6e8add5d79d1f6f819a054c833bab452bd7365d btrfs: unlock inode and extent in caller when io_uring read extent fails
+51562a8cb11628d3a5e105b4c347ec5473e5745f btrfs: don't stash io_uring encoded data across -EAGAIN
+858bee1c77857aabcc2327cd32dd8266332de332 btrfs: fix xattr replace when multiple xattrs are packed in the same item
+41c8899d59898f6fa51ceebd2b6e55257191a8ee btrfs: fix lost error return value in btrfs_listxattr()
+f0e93b6e4dbf0a90de7b7ac0a896f05def620122 btrfs: === misc-next on b-for-next ===
+8a46b706513420ad3799dc6211ecaa08e865f8a0 btrfs: stop enabling the v1 space cache from the on-disk state
+9e351847eab816f82f621c666825b466af7c05d2 btrfs: remove the v1 space cache writeout from the transaction commit
+da540d382c3ef6b2bf3819b7a99172744f460a73 btrfs: remove the free space cache endio workqueue
+ee9d4f8d46f613cd8268260600e7dc24dc846fdd btrfs: remove the v1 space cache write path
+5ea7c62027dd4ef3c941f1c1c97e0fca83640373 btrfs: rename cache_write_mutex to dirty_bgs_update_mutex
+e9f7b93f5de4f050027dc3c1589987f051204d5a btrfs: drop the transaction handle from the prealloc helpers
+3d813fe45a2b846c12d12e5ee0756e730d75f1d8 btrfs: remove the v1 space cache load path
+9fa1e3490c87ac62f1681fcd7d0d1c25cdf3918e btrfs: remove btrfs_disk_cache_state
+4a9741f76343403c34783b270664578229d4995e btrfs: remove the SPACE_CACHE mount option flag
+471f7550882e9a352b5ba534ac765e7cc274aa6b btrfs: replace btrfs_set_free_space_cache_v1_active() with a cleanup helper
+454b732a3a0ea2edb1fe766105de667d8116e0d5 btrfs: remove the free space cache trimming ranges
+639800df8ba93b8580cc4fc929d8f155b086cf01 btrfs: remove BTRFS_RESERVE_FLUSH_FREE_SPACE_INODE
+cf0d6a4b6917265af9a4812d6053737e9f548e2a btrfs: remove the free space inode ordered extent special cases
+c303afcc051bdbaa1eef7f612a34c3bb68e145b4 btrfs: remove the free space inode special cases from the COW paths
+3c3d460d22df0a8f22a0fd34afa593f4c56e2ffa btrfs: stop special-casing free space inodes in the delalloc accounting
+9f11e00e8027e6566b85bbbd626a7d3b500026f3 btrfs: stop reading free space inodes from the commit root
+1b169be7376cba28726a025c301641cdb215f9df Merge branch 'misc-7.3' into for-next-current-v7.2-20261005
+1d889d01ac075ead1d3ad164f420412b3b2001b2 Merge branch 'b-for-next' into for-next-next-v7.3-20261005
+716a37d8b12b71e800ed2b5428361ea9e6f6486c Merge branch 'misc-7.3' into for-next-next-v7.3-20261005
+c220a0e18d801c2329c7c781d6d34ace672b7914 Merge branch 'misc-next' into for-next-next-v7.3-20261005
+f869fa701d1ee2295059a550028f8fd443acfbe3 Merge branch 'for-next-current-v7.2-20261005' into for-next-20261005
+58386dacfe93231d6042bc656ff016f26fb7931a Merge branch 'for-next-next-v7.3-20261005' into for-next-20261005
 
---===============9048823085553736644==--
+--===============1435615701495514631==--
