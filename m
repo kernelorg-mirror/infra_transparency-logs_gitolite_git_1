@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 05 Oct 2026 07:46:25 -0000
-Message-Id: <179118638560.374967.4998275959403670997@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chleroy/linux
+Date: Mon, 05 Oct 2026 07:50:05 -0000
+Message-Id: <179118660561.378021.17597488855169819487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/chleroy/linux
+user: chleroy
 changes:
-  - ref: refs/heads/master
-    old: e8c0cb4a5e7b52dd515de0a924d8795db0fd70cd
-    new: c230335669cee44455c07477d58d80bd2fe89c45
+  - ref: refs/heads/soc_fsl
+    old: df0fd0f5af4ddd84a76e21da8e6b489928c5e300
+    new: c4ddf1eb1d321e40d82fb89d34b61edb3f927198
     log: |
-         8fdf36ba3cd87b976d1f59009532a9669c49e710 src/bin/git-brebase: Quote the here-document delimiter
-         c230335669cee44455c07477d58d80bd2fe89c45 src/bin/git-brebase: Use git-rev-parse(1) instead of 'git rev-list -1'
+         899559907f9d8bce0720f6d4336b2871e83957ae soc: fsl: dpio: Fix cleanup on IRQ registration failure
+         c4ddf1eb1d321e40d82fb89d34b61edb3f927198 soc: fsl: dpio: Free the IRQ before releasing the I/O object
          
