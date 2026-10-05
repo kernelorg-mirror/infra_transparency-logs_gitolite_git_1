@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2291158028073113064=="
+Content-Type: multipart/mixed; boundary="===============7936086297055801548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 05 Oct 2026 18:19:27 -0000
-Message-Id: <179122436776.909912.12408087681078798833@gitolite.kernel.org>
+Date: Mon, 05 Oct 2026 18:20:31 -0000
+Message-Id: <179122443128.912521.7080285692198373542@gitolite.kernel.org>
 
---===============2291158028073113064==
+--===============7936086297055801548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-urgent
-    old: 5f43a2d35d5e748c09a50a98fc766dc95bb3a6bd
-    new: 7484bc43ba6b8e189b482db5b75e7842890a82b1
-    log: revlist-5f43a2d35d5e-7484bc43ba6b.txt
+  - ref: refs/heads/edac-for-next
+    old: 898e6a2c5ce0e4aba55d126bbe610f0f77e71226
+    new: 0489f2176209b710890096699c4b869f1db91df4
+    log: revlist-898e6a2c5ce0-0489f2176209.txt
 
---===============2291158028073113064==
+--===============7936086297055801548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f43a2d35d5e-7484bc43ba6b.txt
+Content-Disposition: attachment; filename=revlist-898e6a2c5ce0-0489f2176209.txt
 
-64dc6f1db7e620f2e9337bb181f305fb0561da79 KVM: arm64: Return -EINVAL for an empty SMCCC filter range at base 0
 0a46eb5719fa57cc9d06025dcd8ba271643dee61 KVM: arm64: selftests: Test empty SMCCC filter range at base 0
 3a8c562892b96f35bba1e00d5e455a15963bbb92 KVM: arm64: Transfer the hyp stack pages out of the host stage-2
 5a8b505ede133fb30ca3b3a19d0db00c08237615 KVM: arm64: Match hyp text by physical address in fix_host_ownership()
@@ -1050,5 +1049,6 @@ a27611f8994c9a4772156432badb533af33fd32d Merge tag 'perf-urgent-2026-10-04' of g
 7704c4c5bb127673b4f0ead839919db573559e38 Merge tag 'i2c-fixes-7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 a90ee4305c4a5df72c11b31dacfdc76e00fcf78a Linux 7.3-rc6
 7484bc43ba6b8e189b482db5b75e7842890a82b1 EDAC/amd64: Mask UMC chip select to the four implemented selects
+0489f2176209b710890096699c4b869f1db91df4 Merge ras/edac-urgent into for-next
 
---===============2291158028073113064==--
+--===============7936086297055801548==--
