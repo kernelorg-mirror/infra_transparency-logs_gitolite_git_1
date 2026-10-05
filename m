@@ -1,25 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 05 Oct 2026 09:48:14 -0000
-Message-Id: <179119369416.474197.7510472450694823856@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1494000647297770207=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Mon, 05 Oct 2026 09:51:29 -0000
+Message-Id: <179119388922.477410.9231647265432739640@gitolite.kernel.org>
+
+--===============1494000647297770207==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 717273665856652571bc644dfe1d4f7e09bbf118
-    new: 1d3cd2beba5b0cd4a32417116004e3a160654679
+  - ref: refs/heads/for-next/kspp
+    old: 760f96b7f54beb8dc6f85d97ac7854fddba86835
+    new: 0f82b48209e85a1f049df20455703a2767f65cfd
     log: |
-         35749c713da33d41dc8a442da39742c7f7267b12 blkdev: check blkdev_find_size return value in blkdev_get_size
-         6722d695c71403f6abf3ebf11fcdca90fcbf527c Merge branch 'branch-02' of https://github.com/Leefancy/util-linux
-         d7584fe53dab5e974597d18fe13c8a76ac56eee7 lib/blkdev: improve coding style
-         6f630b6c2b2719d705bfdb03a3cabf7b011574e8 lib/blkdev: use uint64_t for sizes
-         052be81c432eaed145c105ff385451bc7180732b lib/fileutils: add ul_safe_statx() and ul_safe_stat()
-         105ace26eb6e59b2565e1d0ceff28b2a9ae51583 Merge branch 'PR/blkdev-size' of https://github.com/karelzak/util-linux-work
-         1d3cd2beba5b0cd4a32417116004e3a160654679 Merge branch 'PR/fileutils-safe-stat' of https://github.com/karelzak/util-linux-work
+         633c60a2e87345bd70ced5a28561991fa5b0b1f3 MAINTAINERS: Add stackinit KUnit test to HARDENING
+         6bf37b9c59dc8e7a765a5c7c4ff01ccf8106b122 kunit/stackinit: Cover declarations bypassed by goto and switch
+         0f82b48209e85a1f049df20455703a2767f65cfd kunit/stackinit: Clean up XFAIL under instrumentation
          
+
+--===============1494000647297770207==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1791193876 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1791193875-c57c97db1d43116ddf8a3db6c5b8f929903a147f
+
+760f96b7f54beb8dc6f85d97ac7854fddba86835 0f82b48209e85a1f049df20455703a2767f65cfd refs/heads/for-next/kspp
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCasNzFAAKCRA2KwveOeQk
+u3sWAQDWMiQna769F0fhJImdNDWZj5kamZvFTuqwPwwJnz4RIQD9GbZzaOntRmBS
+p2SDFdGan7XH1onjg78lNRamRAmK/wI=
+=le+i
+-----END PGP SIGNATURE-----
+
+--===============1494000647297770207==--
