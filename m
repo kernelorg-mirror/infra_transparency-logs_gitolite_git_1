@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chleroy/linux
-Date: Mon, 05 Oct 2026 07:50:05 -0000
-Message-Id: <179118660561.378021.17597488855169819487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Mon, 05 Oct 2026 07:53:51 -0000
+Message-Id: <179118683119.379791.17344110509528475156@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chleroy/linux
-user: chleroy
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/soc_fsl
-    old: df0fd0f5af4ddd84a76e21da8e6b489928c5e300
-    new: c4ddf1eb1d321e40d82fb89d34b61edb3f927198
+  - ref: refs/heads/b4/rust-kunit-assertion
+    old: f72cd14d37a9483b1e310e75dc9e583adb82a6d2
+    new: e8ef2ab596ea6cb29ff501ab4abf4757bf950871
     log: |
-         899559907f9d8bce0720f6d4336b2871e83957ae soc: fsl: dpio: Fix cleanup on IRQ registration failure
-         c4ddf1eb1d321e40d82fb89d34b61edb3f927198 soc: fsl: dpio: Free the IRQ before releasing the I/O object
+         849f3415181794612268f2d334f2167663ed77fc prep: string stream
+         8a5e2c33cda8086d83458a7733f7910b5f0291ae kunit assert
+         50f03cfd35e9494b24134c137853c98a134b6823 unary
+         592a444e11675d150e8a95f1b88e01176a02af8f impl
+         b1f6b44f2151569e88b5bb5e652e31aebffa0d19 kunit: msg
+         e8ef2ab596ea6cb29ff501ab4abf4757bf950871 x
          
