@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 05 Oct 2026 10:28:48 -0000
-Message-Id: <179119612806.507584.2871492927970097169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/patatt/patatt
+Date: Mon, 05 Oct 2026 10:29:18 -0000
+Message-Id: <179119615822.508180.17622818305979196242@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/utils/patatt/patatt
+user: mricon
 changes:
-  - ref: refs/heads/for-next
-    old: 3bc4fc135ec741c5657cba6b2300bf8bf81179d2
-    new: 6f4cbf5f913fc1c01de3776147ced4fb7680f29b
+  - ref: refs/heads/main
+    old: 53c1505f740c6b1652226c3ad7c319a110492816
+    new: e0f3d6158281191d972f729ad3aecb24d4492d24
     log: |
-         6f4cbf5f913fc1c01de3776147ced4fb7680f29b ALSA: usb-audio: add sample-rate quirk for Yamaha 01V96i
-         
-  - ref: refs/heads/master
-    old: d3c4a244411275c3d3351b1e36467f4e81873e76
-    new: 0d1d50a24776a6de1410dad087a9ce104c622e35
-    log: |
-         6f4cbf5f913fc1c01de3776147ced4fb7680f29b ALSA: usb-audio: add sample-rate quirk for Yamaha 01V96i
-         0d1d50a24776a6de1410dad087a9ce104c622e35 Merge branch 'for-next'
+         0e8f52eee99957e82c16c18473be7f309c84caee Track uv.lock for reproducible checks
+         5ba45852765821173e3740110f7562acab2ca8d7 Tighten local type and lint checks
+         ca8a7d31413149e765cc81d72916d967ffeeb256 Reduce dictionary lookups
+         6624df4521b8a0cac7bca931594c4ab8f4e2e8e1 Import PyNaCl unconditionally
+         56fe68321d363503038fb4bd25412e5e2225c278 Merge patch series "Harden local checks"
+         e0f3d6158281191d972f729ad3aecb24d4492d24 Bump minimum supported Python version to 3.9
          
