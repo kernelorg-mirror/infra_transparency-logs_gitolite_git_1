@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3341047734368489584=="
+Content-Type: multipart/mixed; boundary="===============7548940089172128485=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 06 Oct 2026 16:18:39 -0000
-Message-Id: <179130351909.1957424.16663107827633708190@gitolite.kernel.org>
+Date: Tue, 06 Oct 2026 16:18:41 -0000
+Message-Id: <179130352170.1957611.17575028016283607415@gitolite.kernel.org>
 
---===============3341047734368489584==
+--===============7548940089172128485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 8b4e7209c842d8cb9516f1f5ef0a88aa2d8831a6
     new: a5e7d8e446af9803e37a3b6a4d416fb41178348f
     log: revlist-8b4e7209c842-a5e7d8e446af.txt
 
---===============3341047734368489584==
+--===============7548940089172128485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -114,4 +114,4 @@ a032c035272aff415a3ac7ec48bd16aada5fc4bf nfp: flower: remove merge entry when co
 7770df9c56abe4b10b8861b9dd2bc931d0472a67 Merge tag 'batadv-next-pullrequest-20260930' of https://git.open-mesh.org/batadv
 a5e7d8e446af9803e37a3b6a4d416fb41178348f Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 
---===============3341047734368489584==--
+--===============7548940089172128485==--
