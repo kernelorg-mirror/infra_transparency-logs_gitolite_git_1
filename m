@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Tue, 06 Oct 2026 10:25:03 -0000
-Message-Id: <179128230362.1684330.13336530641260552263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Tue, 06 Oct 2026 10:28:15 -0000
+Message-Id: <179128249508.1686257.5338784774903111415@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/for-next
-    old: 317e7abcaf60b79765dcf35c014edac8b9d37a6e
-    new: ca75b38b1a3c2eabe81d231dae4ea180cf6287cd
+  - ref: refs/heads/next
+    old: 1e50ed98255b2bf68fa881595c44c6be2a037ac0
+    new: 8ea857a2bb547e388e86ca42c58a97e162e09f83
     log: |
-         ca75b38b1a3c2eabe81d231dae4ea180cf6287cd platform/chrome: cros_usbpd_notify: Only use drvdata when parent is GOOG0004
+         d83fe67339f2032d8facf0fe8a047a4c5d15394f efi/libstub: Fix error unwind freeing fdt in allocate_new_fdt_and_exit_boot()
+         fd4465f49b53c7379d10610f8edb71f77366a5b7 efi/riscv: libstub: Don't set image_size in handle_kernel_image()
+         8ea857a2bb547e388e86ca42c58a97e162e09f83 efi/libstub: Free cmdline_ptr in efi_pe_entry
          
