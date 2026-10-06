@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Tue, 06 Oct 2026 12:09:25 -0000
-Message-Id: <179128856550.1758264.8249496787480648745@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Tue, 06 Oct 2026 12:14:32 -0000
+Message-Id: <179128887290.1762057.17340983171828858468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/tags/thunderbolt-for-v7.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 2564cf977d3ac987f966d407e6eefc94f7f41419
+  - ref: refs/heads/libcrypto-next
+    old: 6a50ce0af5c91fd665d65d357af8ae55db1df7d0
+    new: 375ef45744758c49724dca0481402356edcafb45
+    log: |
+         375ef45744758c49724dca0481402356edcafb45 lib/crypto: poly1305: Use memzero_explicit() in poly1305_final()
+         
