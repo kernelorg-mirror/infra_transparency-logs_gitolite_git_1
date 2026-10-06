@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7715064526225982564=="
+Content-Type: multipart/mixed; boundary="===============8029849440206402596=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 06 Oct 2026 00:51:49 -0000
-Message-Id: <179124790941.1258058.14002493486973268590@gitolite.kernel.org>
+Date: Tue, 06 Oct 2026 00:52:12 -0000
+Message-Id: <179124793253.1258395.6954243367803108222@gitolite.kernel.org>
 
---===============7715064526225982564==
+--===============8029849440206402596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/hardening
+  - ref: refs/heads/for-next/kspp
     old: 0f82b48209e85a1f049df20455703a2767f65cfd
     new: 29a86e8818a8b7043643b85b0603eb9f4c225b55
     log: |
@@ -24,24 +24,24 @@ changes:
          29a86e8818a8b7043643b85b0603eb9f4c225b55 devres: Provide kmalloc_obj*-style API for devm_kmalloc
          
 
---===============7715064526225982564==
+--===============8029849440206402596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1791247908 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1791247931 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1791247894-7902f1a271fb9d717999f83ac8c090e3952b6791
+nonce 1791247929-a09d886b7c7a72457b48c0a9443ad0ebb6e49c15
 
-0f82b48209e85a1f049df20455703a2767f65cfd 29a86e8818a8b7043643b85b0603eb9f4c225b55 refs/heads/for-next/hardening
+0f82b48209e85a1f049df20455703a2767f65cfd 29a86e8818a8b7043643b85b0603eb9f4c225b55 refs/heads/for-next/kspp
 -----BEGIN PGP SIGNATURE-----
 
-iHQEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCasRGJAAKCRA2KwveOeQk
-u8DJAPj9zzLMVXLkYn/hdmu2nVcevNsfp+RSGK9YLQpXhsEdAP9XYzoELdSS1y8H
-H1H+j3YkCoGjJ6ukCa9UVP1MRKN5Ag==
-=drQ6
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCasRGOwAKCRA2KwveOeQk
+u9djAP4oyYfDc1Ylbxznyhcm/xFVjy5OaZDvZ6Rm2lFXJKNMbQEA4zf1iKpIljF0
+g3lG2+AG1vsau/ptGLtm32NZzHMOOww=
+=f+Pm
 -----END PGP SIGNATURE-----
 
---===============7715064526225982564==--
+--===============8029849440206402596==--
