@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3865665473515837344=="
+Content-Type: multipart/mixed; boundary="===============8500427882843378795=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 06 Oct 2026 02:32:53 -0000
-Message-Id: <179125397306.1340655.17780649477609767725@gitolite.kernel.org>
+Date: Tue, 06 Oct 2026 02:32:57 -0000
+Message-Id: <179125397781.1340862.7303445855238765222@gitolite.kernel.org>
 
---===============3865665473515837344==
+--===============8500427882843378795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 5c2b48d7d3c62c95bfaa0c1bcbe048747b0dc38d
-    new: 70916314bb299507ae5ba90931d1a45120b3331f
-    log: revlist-5c2b48d7d3c6-70916314bb29.txt
+  - ref: refs/heads/7.4/scsi-staging
+    old: f09d2c7485b32adb82336d0d748935c8237a649e
+    new: 2f4880c22e838d54eae9ab153b0f8dce60531bf1
+    log: revlist-f09d2c7485b3-2f4880c22e83.txt
 
---===============3865665473515837344==
+--===============8500427882843378795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1791253970 -0400
+pusher 75C5DE3D 1791253975 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1791253970-82b15d0dd807bb84f904b58b70215a067defb774
+nonce 1791253975-e2d87c3ab5284b77241475d9b43262b0b7898ec1
 
-5c2b48d7d3c62c95bfaa0c1bcbe048747b0dc38d 70916314bb299507ae5ba90931d1a45120b3331f refs/tags/mkp-scsi-staging
+f09d2c7485b32adb82336d0d748935c8237a649e 2f4880c22e838d54eae9ab153b0f8dce60531bf1 refs/heads/7.4/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrEXdIACgkQ7ulgGnXF
-3j3cEBAAnfeNP3hwh06Ykx+Op2oAhzPna4sE4pBp1lVPeRYyEa/VYJXzsm1Ho5zU
-Y10Mtc4vwiS5/jikKkaDrNEDI86j4MXycQHGwwFcEl+yMV7AH+yNDYUCEjwvZwtJ
-BU4LN7ubStN4YamTe1/KRQ3x6/eWguGBL/mSYi+ppcPpMu2HGLWx3TCaXW81wXJh
-bFjhujdlhiyBxmvXZUCl3jc3X2E09Ym1gGudBaSdz8QDy53kgC+LB1PxD1gJsg5k
-lZ2fQrRZqPHMiprSFyyP6/b9YTcQ+jP8BvTJC8wPFoAfKo1zecEv8nZcs9yXLde6
-2eC8drXVxEQ6VNjcw8+TkNih+fGJNqWn6oSF0NTYPWBEewfWUgXzPMbqUOG1ixxs
-rtAz1EP5C+KuU40sDNzzSpkDV8571+JwRzn4xwcuYKo7ABB/ZTYiE9d+3TeIzp1d
-Pi4aL6x3zKIPhXEHp65aqqqQxyuFqEEyvqZmCmrhch444tyzfjbpX99G3PlWKVLu
-lau7SjUvyyNYy9wTFrMxiuSnEHZf1hOxbFN7uVoEQqomw37ww6KLpVYIqGby7bmf
-W82AH+Ss0ETk6VM8/fzQL/xcHDqf8bfMjjK0UYLj2//nPDmXCK90yD2EhDNSeGrR
-MGxOu+UP3RJS7ZIXSNZ115CAMjwsgwkWyikK49/Q1GPDeSzSE1g=
-=aPU2
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrEXdgACgkQ7ulgGnXF
+3j00MA//ZtdhhdKTwPpIE6fJlnp17vFOoqgBxsPDZos0H/wic3IwbPPbJHSjDSSt
+pD0nr0vvkg9ZVGePiCebwzl+Wj+Onj74HtkROF8A31STyukMcLAxXEEEbNL5NHli
+15vpy5RQuEDbkVLA2lztk6FzHzVtbEQCnBT6+UoiZrQMKSUhYIWt6chVmP4p+3Dr
+te0Mzmx3xCwEZLujmdwXAe2gl92UImxcD/Iunb3TYMDEpdX3V4jv/UKZrePrY5lv
+rcOnRoL1aHRgLrQmf8vcsZ+cqpzgUBtJKVdQYW80cQ4z5afJ8NJC7G8EHvME3x7t
+iHrBQVPePAj3pQH/Vx4o3lhnb9e/nwfV4aq6PECi6Qd3VnQsZF6xM7GYUn1qQjNy
+HMPBiDKKbvI6f35DNx6kne7j/I7rpR/07C19ZavHqqp7Pqj8BzSdR3hX5pKWQm5j
+CmNVUUpzbPy29VgBBM2KGq/caBOch70lgEux4ssom8kPqqylDADyH/DVxTLnDpV+
+GLagVCjBsK5wBlVweCYxwdiWDiYS/d9Y4zkgGWLuGXQvAvAx2kxC+x8BlUPJTV78
+GatTX5fn1799hPb4q8njFrfpCs9duX/axwFb6ReMupQdis57+K+nKHI2Qyg9tvAY
+T9U+N8tP5O0RpW2VGk0SNDIJrBGscQBa3vsx6laekx1syt5NfqA=
+=Ll6q
 -----END PGP SIGNATURE-----
 
---===============3865665473515837344==
+--===============8500427882843378795==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c2b48d7d3c6-70916314bb29.txt
+Content-Disposition: attachment; filename=revlist-f09d2c7485b3-2f4880c22e83.txt
 
 0b1a79f2791a06f139dce5450e487307cf0e241f scsi: dc395x: sync the waiting_timer before freeing the host
 d1fa5cea5dcd72a9ec21b835c572a28c0c3f4fbf scsi: ufs: core: Fast-abort unsupported Query IDNs
@@ -90,4 +90,4 @@ bdb20c40e22f1b08fdd76a2600e9ac4e9093371c Merge patch series "scsi: st: Restore d
 6697e9f202c1cfca257f3cc173551547181c3d4b scsi: bfa: Use snprintf() in bfa_fcs_fabric_psymb_init()
 2f4880c22e838d54eae9ab153b0f8dce60531bf1 scsi: ufs: rpmb: Fix power-on UNIT ATTENTION retry
 
---===============3865665473515837344==--
+--===============8500427882843378795==--
