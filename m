@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 06 Oct 2026 11:02:51 -0000
-Message-Id: <179128457118.1710979.8570945080890067628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 06 Oct 2026 11:03:13 -0000
+Message-Id: <179128459355.1711270.5155176454972502141@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-7.4
-    old: 37bc964c2da721eb5b96604529bb4f592e0e4c90
-    new: a143fa85c78d91ace08acc50c274adc38183a3b9
-    log: |
-         a143fa85c78d91ace08acc50c274adc38183a3b9 spi: rtk-nor: Fix incorrect boolean return value
-         
+  - ref: refs/heads/regulator-7.4
+    old: 0024b542e18ad519bb77a3b4a344253641077009
+    new: 77a89ad048926841e844a6c709f9c002e1b0eb74
