@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1309775449612489807=="
+Content-Type: multipart/mixed; boundary="===============6710262089233812847=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 06 Oct 2026 16:16:31 -0000
-Message-Id: <179130339187.1955653.11303655860429563208@gitolite.kernel.org>
+Date: Tue, 06 Oct 2026 16:16:34 -0000
+Message-Id: <179130339476.1956026.6848090390954618379@gitolite.kernel.org>
 
---===============1309775449612489807==
+--===============6710262089233812847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: 5926a7da87895b1e1e1b3789ef364a11cc54d210
     new: 42bcac323cc3b16566fed8c5b250318ad02a0de0
     log: revlist-5926a7da8789-42bcac323cc3.txt
 
---===============1309775449612489807==
+--===============6710262089233812847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791303386 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791303394 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1791303386-df0b1882bf9b44ce961a1412432c69c9ff98452d
+nonce 1791303393-677c20d02b4828914a339d266e88cca1e883490f
 
-5926a7da87895b1e1e1b3789ef364a11cc54d210 42bcac323cc3b16566fed8c5b250318ad02a0de0 refs/heads/usb-next
+5926a7da87895b1e1e1b3789ef364a11cc54d210 42bcac323cc3b16566fed8c5b250318ad02a0de0 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrFHtobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eaAP/3Q2ZjrKu54rqrXGt9iQ
-avGqP2jvBfh0+A7Fw/3SoHA7TuiHUslX0RFShGkFcPOPmfrsF6gzusFRdy2joqHx
-2aXLPCRrNg5FRYBKLks/2DmqHRccWnkJH/mKC9hzWZSL8Zuf51mipWjpXjhJpRau
-oyogCHPYtB6Clnij/tdCboJlKQg0FnV+UgvRnopEiH9ukSLf3gXlZgaus/BiIu+b
-t4O8jelyuSgks1ZXDjYr+YhnjBDPTimIVvN6okWeaTesrtP+2CzHJUdqKLKeQ1TO
-fLpxlNR6rminQTjI35xUXMG83Pic8ViBijAnUJGVrDoJ+XfmLt3/vZ6Qtef3o9vR
-QBVVVSaI2v7qZMVnKGhUbUYlVbe+oJBoGIxtAjWXwLm27bvnnP1FcIRPAyG3gOzp
-PtbmQNplCiyJpd+qx9kzlbcz+Tt+klOgpaYsLsTNbsT4Ph9zx3DhsCGdP67iH17W
-LuRAmJ8ZPRf5nZna9q7tIaJEPGF5Ag2TvMNrOF1UJ2a/3m11MMsM7N2XTRq6wMvE
-acgwjAXfpvTPspc7usNLnruB1Yaxoo72NCz//ca6RV9VcjpGnChhTAuDDr+rTWtW
-BaT78AvocyxSw02pG9amy+ntRVIE2Y4X0uRAB2HfbUgDFkRBWRf0vPhnMYeml5X7
-HYpJYm7BeRfyXnwGYUM+Zd6L
-=58+A
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrFHuIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZUwP+gJlWl2+hh6IV7S//LXy
+768nzWwbvj+AV99CNDbuuCn1J+/5iGXFjHJso2XXljr/byWXG6jyEivrewgOII3w
+o5NmlHIAZGXf3BH6kC5FaRwhS5Q8kwJafU/9YMPPzBnuhSGBV6VO70JhPlVXvLEz
+NUSc5d1EaeQBzAC5loYWqTjDCi5D8H8oNMBJjASY580jdECDQ7L3nRn/iR+gayHY
+SwoQDiCjyJV2wM+3+l5BIL7MLYaRMFJOni9TzvrH/xyOWusVZT22QhiFIZxlRBiU
+w9y+DAAIyLZlDZh3lJzmZxHwfyC+8Jt/WfkazQC6eNxch+z4Jx7VR0Ojp/LgEUNs
+P1GkN2pc7V1/tgAhZizjoy3Wp1QJYbnfkfRnY09MOHI+G0/dvPmlNczu8qioI/9W
+NTOIIPfcEokvY3vUA1x56tVwtkxmkdd2hBiL+alnauuihmGe0ne5LYt5DxU/l7et
+ZItynyzGnx6DvcZEL4XydPOWQ2RZPe+UzDgRTxlPgjb0cIrD3uytG373g1qycSUY
+b0UDRQXDhprcaDXxNIwMX+cKCidq5yEMdAvOodhgprsigP7+/noF5R2LqDPojlhD
+jhUPwZ2zpP6wSn37e2/4+VHc91Pxe8e9hfkohSI3wHmWb0am9VJIQO1pzH+ST1nX
+xdqApfGJ6e57OC5XECvr7BkM
+=VKIv
 -----END PGP SIGNATURE-----
 
---===============1309775449612489807==
+--===============6710262089233812847==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -83,4 +83,4 @@ d224aacc8cf333700257fe0936f701848c2ea1b8 thunderbolt: Fix sideband register acce
 a93a8e3200002f0c345fec4c340390e9a60aabc7 thunderbolt: stream: Make read return framing error to the userspace
 42bcac323cc3b16566fed8c5b250318ad02a0de0 Merge tag 'thunderbolt-for-v7.4-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
 
---===============1309775449612489807==--
+--===============6710262089233812847==--
