@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 06 Oct 2026 14:12:56 -0000
-Message-Id: <179129597634.1857885.1925393640796225822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 06 Oct 2026 14:14:05 -0000
+Message-Id: <179129604596.1858596.12143266962492514121@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: 8acd6469f42784f38872ad83b14c41152d986b63
-    new: 5cc1749b5f154a2cb97439cf084afce788f36102
-    log: |
-         5cc1749b5f154a2cb97439cf084afce788f36102 ALSA: hda/realtek: Drop unneeded DAC override for HONOR MagicBook Pro 16 2024
-         
   - ref: refs/heads/master
-    old: e7791060bf5f5acfd35fd31d1163f42b4880859e
-    new: d237497068a0cf891eb42cd17e41311866edd32f
+    old: 22430ae5d90ab288b0ee2ad99ae941f4a666b694
+    new: 69f80fef3153299d9c72c53d1d71eef6354b6926
     log: |
-         5cc1749b5f154a2cb97439cf084afce788f36102 ALSA: hda/realtek: Drop unneeded DAC override for HONOR MagicBook Pro 16 2024
-         d237497068a0cf891eb42cd17e41311866edd32f Merge branch 'for-next'
+         bc8ce2cea5f77c4bd1a5184705e300e83546c0c4 ata: libata-scsi: do not lose CHECK CONDITION for failed ATAPI commands
+         69f80fef3153299d9c72c53d1d71eef6354b6926 Merge tag 'ata-7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
          
