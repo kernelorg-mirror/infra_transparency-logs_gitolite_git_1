@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 06 Oct 2026 11:34:53 -0000
-Message-Id: <179128649345.1733661.1463346489503377231@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/spacemit/linux
+Date: Tue, 06 Oct 2026 11:50:14 -0000
+Message-Id: <179128741414.1745982.11706744446359299623@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/spacemit/linux
+user: dlan
 changes:
-  - ref: refs/heads/master
-    old: 23f51d4a1d113ac323062b22bba8558b190e9595
-    new: aff02dc078d2fa232bf8e07f13e48c0874263376
+  - ref: refs/heads/dt-for-next
+    old: cc6371a7f5195387584e56054f3af671ff7354dc
+    new: d05c6236496071916e19012cda7149465f15e66e
     log: |
-         aff02dc078d2fa232bf8e07f13e48c0874263376 fix some typos
+         d05c6236496071916e19012cda7149465f15e66e riscv: dts: spacemit: set ETH MAC from eeprom for OrangePi
          
