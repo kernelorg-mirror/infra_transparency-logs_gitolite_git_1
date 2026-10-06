@@ -1,43 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1935110751818086466=="
+Content-Type: multipart/mixed; boundary="===============6108331699022173141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 06 Oct 2026 12:26:37 -0000
-Message-Id: <179128959733.1774512.10687385475986374814@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 06 Oct 2026 12:27:05 -0000
+Message-Id: <179128962523.1774880.7187925230659350604@gitolite.kernel.org>
 
---===============1935110751818086466==
+--===============6108331699022173141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: bf1ee2bd5c2da8992f33c8950ef194aaff74ed6c
     new: eea3fef32a9cf36abcb5975a5a594e4135a6b026
     log: revlist-bf1ee2bd5c2d-eea3fef32a9c.txt
-  - ref: refs/heads/stable
-    old: a90ee4305c4a5df72c11b31dacfdc76e00fcf78a
-    new: 2c3418fffa9d037b2038a6db48be63f9e2291806
-    log: |
-         1ca924044bf0de879a1648be93a56939652267d3 selinux: fix data race on AVC latest_notif
-         28b7260548af3d35773477993ad4e4de41578dd7 selinux: preserve NATIVE_LABELS on already-initialized sb in set_mnt_opts
-         25bf14f817168079f731975b8998fc2af380f29e keys: finalize persistent keyring timeout after link attempt
-         dd3ea3fcba7c75493760cdbccd35f029597e8d5e KEYS: Fix add_key() race with keyring restriction
-         67f0943b394d920b6c142aad8c6af94340342ae7 Merge tag 'selinux-pr-20261005' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-         2c3418fffa9d037b2038a6db48be63f9e2291806 Merge tag 'keys-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-         
-  - ref: refs/tags/next-20260706
-    old: 7db38cb7e7b4b57324cef58254bfa92a5d555c5a
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20261006
     old: 0000000000000000000000000000000000000000
     new: e634eccf3de1b1c5c676e73c21f5e763d161e477
 
---===============1935110751818086466==
+--===============6108331699022173141==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1068,4 +1054,4 @@ ca4d66dc1793d3d45029d257e617edcbb30f90fa Merge branch 'pwrseq/for-next' of https
 632ca24ed188d9085daeffbebbbfd4770df832a7 Merge branch 'headers' of git://git.infradead.org/users/willy/pagecache.git
 eea3fef32a9cf36abcb5975a5a594e4135a6b026 Add linux-next specific files for 20261006
 
---===============1935110751818086466==--
+--===============6108331699022173141==--
