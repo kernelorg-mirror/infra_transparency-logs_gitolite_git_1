@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6751758518340194570=="
+Content-Type: multipart/mixed; boundary="===============2141928111674674112=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 06 Oct 2026 02:32:35 -0000
-Message-Id: <179125395553.1340110.12099949433667282495@gitolite.kernel.org>
+Date: Tue, 06 Oct 2026 02:32:40 -0000
+Message-Id: <179125396079.1340307.16988319792698472960@gitolite.kernel.org>
 
---===============6751758518340194570==
+--===============2141928111674674112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: be2e2c8364fb663969442c57570c6c655a8ae4a4
-    new: 889f1c56328b0deea8a54bbbedde96ee9993a890
-    log: revlist-be2e2c8364fb-889f1c56328b.txt
+  - ref: refs/heads/7.4/scsi-queue
+    old: c3cff7fac01638ab58e85fe7df41a04fa25c5bae
+    new: 698577ef1a023b7c894b9728d57f43d89de3c821
+    log: revlist-c3cff7fac016-698577ef1a02.txt
 
---===============6751758518340194570==
+--===============2141928111674674112==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1791253952 -0400
+pusher 75C5DE3D 1791253958 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1791253952-4268025a217c96ccd7f2b273134f621a499315c2
+nonce 1791253958-07a4f1d187dde628db19c6302706b73d688e4547
 
-be2e2c8364fb663969442c57570c6c655a8ae4a4 889f1c56328b0deea8a54bbbedde96ee9993a890 refs/tags/mkp-scsi-queue
+c3cff7fac01638ab58e85fe7df41a04fa25c5bae 698577ef1a023b7c894b9728d57f43d89de3c821 refs/heads/7.4/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrEXcEACgkQ7ulgGnXF
-3j3cohAAqs6Tp3I+pWb1qGGlRHRLHskAvb1GBJTBoY6g+mDUCY87n4vBWp0LwTVU
-X7D0qQ98shbyHy7yGCM1ODVkI8pZyUA4lh3HKEFLXuIrJ1YMQnPJhveXUdUaXsU8
-HCSC84dD1JmSsYS/tvLbyoEw3W/2jDKU9Dco656LvV1niMSD+iwzmCpNL3/eEGya
-s18hImn9+/4gkid8wPNVB/d5vNlJCeBtbOGwsw7dlImw5KmDPz4DKIVqbpcWrRc5
-vpPhhIU/fI8e7Zep1jPxZ/NitC3MqMC5AT31vs+v3O5f/6BGVh5Duwov44Tu7Sy+
-ISRj9ZCWrnH6UeKP50KxCHuq/4rrhK5ewqmvseeYdswW+67f3JdWIjcr7fC/8m05
-odlC14WW/vZ1YOREIsAQCvM6k8YMXu+KxtRiuS6bosadBS3KdLdVLzjuDdG2HUa+
-F0CTlKR/CVnLdL8yUuOGZzlaCZwUWVXKJ4n0ZedkJ+FOSn8BrYi6Nw3EPiFBXFRY
-1hnDZ9h9LB6kejl92CLb6cjdZCjTqCOQgMb2hBGrJMOPqPYXLW8hEeZsQxq/XnFV
-yV3MoTB/fivwPsqrlcTZJ7+hZAq1vR1yDUpJ6OOaMUfLLYBJF6hW0y119e6pA5pL
-FKVJdMl+mUB5ZrZ8bgoynmbleSPVkR6rCkkPBLWS0xAMjSgJ4Ks=
-=otzw
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrEXccACgkQ7ulgGnXF
+3j2Cfw//R2xYKBqabAPpVMW8z+wKS+ITIoBK9V87hto4jqg4yx+65JM/kRdXoSB/
+fHb8sUUW8+z8GVpLX/X3hjQEGm+lc1YMQWw6jcu0sfekVcPBXD5hv6IVuxA7VqgW
+HcNt1ZgC2H2xNlKJo+VinMm8zQev8mES6RBVUboCQivHl8gOjHpQVpmc8CIqJyBJ
+ZrfZH1cuWByz3EbORshKd1F30dM+ooVQvirCl9lfDTKoLgB/8iSshBZjH++yfRRJ
+Ju17X84f+5qlAmYzv1r++ugX7rZM4oFD/yJIaT4gZI29ZC/SR2lpuTL71YzNsVzC
+C6KJUhjx3atvcqRpCf0Uf6tQngNoMoQTrf1pwRRAeveYLYkOV/NtMAwBbEkHeijY
+kvouJ+SjZR4PDN2uRtsqfjyzCJpMmPG8qzHA2Aus+IGFe0nXGdTGi0QCm39ZaAHD
+G/hX/66rh0KF0ji+1KYKXJLo+ydeGvexYlkPov2IZrUfIQ5DY1V3W7DTNQiriVWv
+LCkgumX/aC5Pn1v1tj9wgoUynelUYYIWcfnhlcDiuyVSlxGCkDleTvTaKvq4fCWA
+6n+hX5weXdXFn//XawX4BmU6noU1S71H+hbm0SbKJTdpA5Iq9Y4tsOX1ZRKEm2tA
+EWnpEB0/8mNWkw19nkJLLVjTYgHW2OlQ/x9NdXhUHsXMTnUYvgc=
+=bFpm
 -----END PGP SIGNATURE-----
 
---===============6751758518340194570==
+--===============2141928111674674112==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-be2e2c8364fb-889f1c56328b.txt
+Content-Disposition: attachment; filename=revlist-c3cff7fac016-698577ef1a02.txt
 
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 90cfd27df4ba5f1c18a3454eb4b454bfe6baaf36 EDAC/debugfs: Remove the fake_inject debugfs interface
@@ -749,4 +749,4 @@ d0105247ca7e281aac61216d8a641576200f262f scsi: hpsa: Make buff allocation type u
 55b6593276c8aeeb7dff2507028166337c13a30e scsi: ufs: qcom: Enable MCQ support for sa8255p
 698577ef1a023b7c894b9728d57f43d89de3c821 scsi: mpi3mr: Fix merge error
 
---===============6751758518340194570==--
+--===============2141928111674674112==--
