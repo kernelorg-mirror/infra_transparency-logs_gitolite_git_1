@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7825373286627139600=="
+Content-Type: multipart/mixed; boundary="===============0990661635960368823=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 06 Oct 2026 06:09:53 -0000
-Message-Id: <179126699382.1491822.16252274086550027946@gitolite.kernel.org>
+Date: Tue, 06 Oct 2026 06:10:14 -0000
+Message-Id: <179126701489.1494082.8560664872558562697@gitolite.kernel.org>
 
---===============7825373286627139600==
+--===============0990661635960368823==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: c3cff7fac01638ab58e85fe7df41a04fa25c5bae
-    new: 698577ef1a023b7c894b9728d57f43d89de3c821
-    log: revlist-c3cff7fac016-698577ef1a02.txt
+  - ref: refs/heads/for-next-base
+    old: cee9395acd8043be0644b25c34bfa86623f2b935
+    new: df2908090cda368b01ff43709f51890076c56157
+    log: revlist-cee9395acd80-df2908090cda.txt
 
---===============7825373286627139600==
+--===============0990661635960368823==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c3cff7fac016-698577ef1a02.txt
+Content-Disposition: attachment; filename=revlist-cee9395acd80-df2908090cda.txt
 
 749c5102487b558cc7d73961a6d0da2fceaa022d EDAC/mpc85xx: Orphan it
 90cfd27df4ba5f1c18a3454eb4b454bfe6baaf36 EDAC/debugfs: Remove the fake_inject debugfs interface
@@ -707,16 +707,5 @@ c4a3928e7d0c08f2946ec3cf2814ba7738a08347 Merge tag 'perf-urgent-2026-09-06' of g
 2beb1b31a12b57e19cd5c82ea6d54e56520605e8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 b1e00ffaf91c41eb752a1c200295c9ab7abfae1d Merge tag 'trace-v7.3-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 df2908090cda368b01ff43709f51890076c56157 Linux 7.3-rc2
-0b5b2fb484f3ba1b33ce8e1281ca172e3c8d1885 Merge tag 'v7.3-rc2' into 7.4/scsi-staging
-3b7ccba37858dd3d7d3780eb42ab943152e5b7ec scsi: core: Fix additional sense code definition
-f09d2c7485b32adb82336d0d748935c8237a649e scsi: target: core: Use assign_bit() where applicable
-0b1a79f2791a06f139dce5450e487307cf0e241f scsi: dc395x: sync the waiting_timer before freeing the host
-d1fa5cea5dcd72a9ec21b835c572a28c0c3f4fbf scsi: ufs: core: Fast-abort unsupported Query IDNs
-00eec343c7306be7f1103f5002abd77496937ff9 scsi: ufs: core: Dynamically disable timestamp on unsupported devices
-6efee14ca0aed33103ea17f4367da173f893442f scsi: ufs: core: Always notify POST_CHANGE even on gear switch failure
-7dec5cedf7b248036da606c16f9f3f9aa350b417 scsi: ufs: core: Serialize AHIT register access between sysfs and host driver
-d0105247ca7e281aac61216d8a641576200f262f scsi: hpsa: Make buff allocation type unsigned
-55b6593276c8aeeb7dff2507028166337c13a30e scsi: ufs: qcom: Enable MCQ support for sa8255p
-698577ef1a023b7c894b9728d57f43d89de3c821 scsi: mpi3mr: Fix merge error
 
---===============7825373286627139600==--
+--===============0990661635960368823==--
