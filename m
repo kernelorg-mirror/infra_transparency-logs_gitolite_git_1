@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 06 Oct 2026 13:42:43 -0000
-Message-Id: <179129416369.1834103.14151784343222904205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 06 Oct 2026 13:43:35 -0000
+Message-Id: <179129421501.1834576.1388622231710043879@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/i2c/i2c-next
-    old: bd258cab67d66d2a520de885f9f92c2abfa89a09
-    new: 749091d3cffca7bfd64da805ddea51de1b51369a
+  - ref: refs/heads/ath-current
+    old: d24e8ac715de2e16a53c144005b1863660a5fbea
+    new: 05165f7b3b9ab6817fe216c24f90755b7c5e15f3
     log: |
-         249fa862deccee0de8071e61fe9946f2fdeb3a8e i2c: acpi: Force ASUE140D touchpads to 100 kHz
-         749091d3cffca7bfd64da805ddea51de1b51369a Merge branch 'i2c/i2c' into i2c/i2c-next
+         05165f7b3b9ab6817fe216c24f90755b7c5e15f3 Revert "wifi: ath12k: add panic handler"
          
