@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 06 Oct 2026 16:11:23 -0000
-Message-Id: <179130308315.1951047.6151825747451253377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 06 Oct 2026 16:13:42 -0000
+Message-Id: <179130322271.1951845.10293950968116067741@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/regulator-7.4
-    old: d344f1af5c7c2e7b3e40f284bcc1a3dd47358723
-    new: 5cc16216213f7d363d69d1db82eba240027911db
+  - ref: refs/heads/for-7.4
+    old: 0504e71cc7b8fab13dc5c3387ba22d9f2500c37c
+    new: 9867312e9fd2a29f69c9b425e10a7be555b773d3
     log: |
-         53063f38ce083c59a3a7d5885bd9ffd5f920e4e3 regulator: dt-bindings: nvidia,tegra-regulators-coupling: Convert to DT schema
-         27321a6290a5c7f1cf9091969b9ecad5e5b96abd regulator: dt-bindings: Reference Tegra regulator coupling schema
-         5cc16216213f7d363d69d1db82eba240027911db regulator: dt-bindings: Tegra coupling DT conversions and cleanup
+         9867312e9fd2a29f69c9b425e10a7be555b773d3 ASoC: amd: acp-legacy-mach: skip dai link for amp reference stream
          
