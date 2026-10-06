@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Tue, 06 Oct 2026 17:15:31 -0000
-Message-Id: <179130693117.2005590.10726187378168517583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 06 Oct 2026 17:17:49 -0000
+Message-Id: <179130706968.2006418.6944818322917052003@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
-user: vudentz
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 68d479844d570e736bb9ce0162a728f5a1b1b29c
-    new: b3209804a9ace55b7872351a912b63da27aea59b
+  - ref: refs/heads/portdrv
+    old: 3339ada3739beed56245148ad769d03e59b2351e
+    new: 4fe37866b0d92cdc45b62954a76489a9d9f8bd73
     log: |
-         b02edd9b31ae15fe6c3b195e3543b391eb691726 Bluetooth: MGMT: Fix advertising instances with Global Advertising
-         348eba92b2fd0bdc913b64a2f5b7b585852f54cc Bluetooth: HCI: Fix tracking of instances sharing handle 0x00
-         ab7b947266c247ac1de6c492aab3e640bc1d7748 Bluetooth: MGMT: Fix pending state of instances added without HCI traffic
-         b3209804a9ace55b7872351a912b63da27aea59b Bluetooth: MGMT: Fix leaking instance on Add Extended Advertising Parameters
+         6347fd9aee19cff3d4a087aba36927997b733f36 PCI: Assume control of portdrv-related features only when portdrv enabled
+         0a1fdf4546ccf2f02845135fa5b36ed90685b220 PCI/ACPI: Tidy _OSC control bit checking
+         4fe37866b0d92cdc45b62954a76489a9d9f8bd73 PCI/ACPI: Centralize pcie_ports_native checking
          
