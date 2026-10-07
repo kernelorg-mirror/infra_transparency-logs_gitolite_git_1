@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Wed, 07 Oct 2026 18:43:41 -0000
-Message-Id: <179139862179.3148996.791656252959141915@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 07 Oct 2026 18:49:40 -0000
+Message-Id: <179139898070.3152975.7955133973539329656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/for-7.4/cxl-zero-size-decoder
-    old: 0000000000000000000000000000000000000000
-    new: fef22d37d47043b63e4007f2f5fe762fa21fae0c
+  - ref: refs/heads/master
+    old: 73d7f86a117a7ec5b32f82e50bf4decdc2cef5a5
+    new: d84171e6cd68a5ab95d0f3a384279c36bd108a13
+    log: |
+         d84171e6cd68a5ab95d0f3a384279c36bd108a13 a2dp: Fix crash on NULL stream in transport_cb
+         
