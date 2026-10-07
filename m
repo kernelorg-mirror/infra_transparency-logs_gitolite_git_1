@@ -1,28 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 07 Oct 2026 23:15:08 -0000
-Message-Id: <179141490892.3346743.9404198566652261978@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3203381546453659810=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/synthmerge
+Date: Wed, 07 Oct 2026 23:18:32 -0000
+Message-Id: <179141511219.3348161.8752321669448744953@gitolite.kernel.org>
+
+--===============3203381546453659810==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/andrea/synthmerge
+user: andrea
 changes:
   - ref: refs/heads/main
-    old: 45ad84d2800e4a092fb8d96006a533b2d0ab13f6
-    new: 6a8b493c68e079d63586860e772a7e7eea3b2ea0
-    log: |
-         07cc2b151a262c3e81be6608bb84a4f112fec445 ipv4: Rename ipv4_neigh_lookup() to ipv4_dst_neigh_lookup().
-         3e33cdcf54ee1143b47b2ee324fc20923ac6fcf3 ipv6: Rename ip6_neigh_lookup() to __ip6_dst_neigh_lookup().
-         33ea2463c432eeee551d63652cc99ac791c15351 ipv4: Add wrappers for neigh_lookup() and neigh_create().
-         616b2143f901435fa9f01c8be6e3baff2290196a ipv6: Add wrappers for neigh_lookup() and (__)?neigh_create().
-         98071355ffc9ccbcd63cddc83a98250524eb1526 mlxsw: spectrum: Resolve neigh_table right before neigh_lookup().
-         0e59523b440c90ed1899476f32ad4e949282f43e ipv6: Use ipv6_neigh_lookup() and friends.
-         f2f25d59f56a0a225447af203d73e51b4f7f92f5 ipv4: Use ipv4_neigh_lookup() and friends.
-         29ff0101dc00817831c6fb522301a5d9d40fd1a9 neighbour: Remove __neigh_lookup() and __neigh_lookup_errno().
-         023753192e3c2089f5236ad758b59e52fad4ead0 neighbour: Check n->parms->tbl under tbl->lock in ___neigh_create().
-         6a8b493c68e079d63586860e772a7e7eea3b2ea0 Merge branch 'neighbour-add-ipv4-ipv6-specific-wrappers-for-neigh_lookup-and-friends'
-         
+    old: ba23c0eabb4626486d443482a3e46ae1cfb3f1f9
+    new: c74af727d3b1c46ce92581a94e2f0475927aef9a
+    log: revlist-ba23c0eabb46-c74af727d3b1.txt
+
+--===============3203381546453659810==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ba23c0eabb46-c74af727d3b1.txt
+
+1cce73fd249cc443a0f8df5075aedc9cb43ebfa1 git_diff: use %B in git show to include commit body
+3ceaaa644c748487f40c40336122892ee15806d8 git_diff: filter body and consolidate bench code
+4ef9ec1b52e6805c19262bd771859d769c6ef860 git_diff: filter all trailer paragraphs
+57ceb7caefbe0c1769f1d16e5edd4a0283d9b933 smerge-mode: import smerge-mode.el
+f39581954b77631826f9ca9f0f2a407d0f8b1bd8 smerge-mode: re-apply synthmerge support
+b32aa350915041ba2449787b61bfd4b6ee35ae38 patch_locator: use pre-relocation conflicts for clean hunk offsets
+ca649bea9e97cad6e8fccb69ab58fc156f743e7b patch_locator: remove unused raw boundary variables
+5af9681577e1e6f3f6ba34df1a90bdf32f511879 patch_locator: restructure conflict relocation logic
+4207eb3cd35d05446839db945a928a8cf4ebe0e4 api_client: remove redundant tcp_keepalive configuration
+e4edbfa3d3f0beb8015cb0a5f756b3b4357aa7ff Improve timeout diagnostics for API requests
+ecc5507b8a394bb9c3ae609a6c88071939df6c03 Fix timeout retry for connection failures
+cf2a348bc6b19f77aac76777aca0b42f40f688b1 Add User Agent
+b0849041c872bbd6dae13ee325278e51ee12212f Update benchmark results
+c74af727d3b1c46ce92581a94e2f0475927aef9a version
+
+--===============3203381546453659810==--
