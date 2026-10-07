@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Wed, 07 Oct 2026 10:53:25 -0000
-Message-Id: <179137040574.2790297.11636249826426602431@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
+Date: Wed, 07 Oct 2026 11:02:15 -0000
+Message-Id: <179137093558.2796938.3571200223704370292@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/vkoul/dmaengine
+user: vkoul
 changes:
   - ref: refs/heads/next
-    old: a597e5c260f33118c9f22264f4441a739d408eaa
-    new: 5c08eac4778ce603690ab3c25c83fe6865057ef5
+    old: 0ac4a90c4805b41013044fdefff051ae59a54302
+    new: 53b32375c9caf793ff392f762236c90f2a062ae5
     log: |
-         49930b1b557ceb698e0ab7f985ea41c99dc8bf22 KVM: arm64: timers: Compute an offset-applied CVAL from the current count
-         1dbb5a2b5a21a62a223a2a2a0d775d417dca4242 KVM: arm64: nv: Read a guest hypervisor's CNTV_CVAL_EL0 from memory on x1e
-         46e0f2c9d7d6f99a8f16290d4d4e2f3129edfa54 KVM: arm64: selftests: Test a timer set past the counter's wrap
-         5c08eac4778ce603690ab3c25c83fe6865057ef5 Merge branch kvm-arm64/misc-7.4 into kvmarm-master/next
+         38d97b1122e02f6b8859e660990aaeda1c32e00f dt-bindings: dma: dma40: Restore disabled-channels
+         15728ab23d00b19013a6cf5f8ed28d4f2ee5410a dmaengine: ste_dma40: Search all blocks for fixed logical channels
+         53b32375c9caf793ff392f762236c90f2a062ae5 dmaengine: ppc4xx: fix typo "contoller" in comment
          
