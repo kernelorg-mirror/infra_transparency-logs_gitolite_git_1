@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 07 Oct 2026 23:44:40 -0000
-Message-Id: <179141668029.3367570.1456589504790501324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 07 Oct 2026 23:46:37 -0000
+Message-Id: <179141679735.3370503.3727821783405569136@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: fd4e7f1137291c7446278a0189f8064f29b5a605
-    new: 9b6c20f788472d2042717a3c2f1bc60b2b77083e
+    old: 2a1359aa651f5e08b9c4ae3aafbb47ee64c5d281
+    new: f9d58127380a5370b207279a215ff1d8ce37a018
     log: |
-         9b6c20f788472d2042717a3c2f1bc60b2b77083e net: usb: ax88179_178a: fix rx frame length for non-last packets
+         f9d58127380a5370b207279a215ff1d8ce37a018 net: axienet: do not report TX completions as NAPI work
          
