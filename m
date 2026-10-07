@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 07 Oct 2026 19:46:30 -0000
-Message-Id: <179140239066.3193021.7261576791865514404@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 07 Oct 2026 20:01:39 -0000
+Message-Id: <179140329939.3203436.13569927919061219825@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: bedbe4b6e72b9ca78681d533f0f1cd4721a23d51
-    new: b4b034c05931a43e3f166d8306b5f0c7f6ea1ced
+  - ref: refs/heads/experimental
+    old: efccbd40785491a0ad85229d82cf6d3eb92423b6
+    new: 758218599b378ab3d861b8ab51d2c130a89f0ac2
     log: |
-         b4b034c05931a43e3f166d8306b5f0c7f6ea1ced src/bin/grepc_*: Use true/false instead of yes/no for booleans
+         758218599b378ab3d861b8ab51d2c130a89f0ac2 erofs-utils: avoid unsigned long if possible (incomplete)
          
