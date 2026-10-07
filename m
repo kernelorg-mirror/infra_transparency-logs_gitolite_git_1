@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 07 Oct 2026 07:28:30 -0000
-Message-Id: <179135811079.2638374.7116276193001415522@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 07 Oct 2026 07:54:34 -0000
+Message-Id: <179135967498.2655872.4055003291029337940@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: be370cdffc707858b5fa317f27de66b17bfe4687
-    new: 9c409f671d813a177e6e6847e4f74566da690c3d
+  - ref: refs/heads/aer
+    old: 4a0d7cc16d4aa458ecb3033b1fef2f563507a13a
+    new: e86ac10110d00e6c3801f38bde1863951315222b
     log: |
-         df592eea4e8feeec9d883a150266847e2fe79939 src/bin/git-bisect-rebase: --keep-base: Disallow option
-         893589118b25c8c52dc32f811e96be544dcf757b src/bin/git-bisect-rebase: Disallow more git-rebase(1) options
-         9c409f671d813a177e6e6847e4f74566da690c3d src/bin/git-bisect-rebase: --interactive: Disallow option
+         622a70a52523008c7d7d3e1fa68d3729f5a982f3 PCI/AER: Document that aer_recover_queue() takes ownership of aer_regs
+         e86ac10110d00e6c3801f38bde1863951315222b PCI/AER: Fix struct pci_dev reference leak in aer_process_err_devices()
          
