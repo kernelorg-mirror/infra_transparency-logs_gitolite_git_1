@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 07 Oct 2026 23:41:36 -0000
-Message-Id: <179141649671.3366531.14123819184063403998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 07 Oct 2026 23:44:40 -0000
+Message-Id: <179141668029.3367570.1456589504790501324@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 991a02c881995d8b5220b35aa435ff5fff926e63
-    new: 2a1359aa651f5e08b9c4ae3aafbb47ee64c5d281
+    old: fd4e7f1137291c7446278a0189f8064f29b5a605
+    new: 9b6c20f788472d2042717a3c2f1bc60b2b77083e
     log: |
-         2a1359aa651f5e08b9c4ae3aafbb47ee64c5d281 sfc: handle rhashtable walk errors in mport lookup
+         9b6c20f788472d2042717a3c2f1bc60b2b77083e net: usb: ax88179_178a: fix rx frame length for non-last packets
          
