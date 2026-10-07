@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/alarsson/linux-sparc
-Date: Wed, 07 Oct 2026 09:13:53 -0000
-Message-Id: <179136443365.2713391.1128721977721240475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Wed, 07 Oct 2026 09:23:36 -0000
+Message-Id: <179136501609.2720573.18416959655222880547@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/alarsson/linux-sparc
-user: alarsson
+repo: pub/scm/linux/kernel/git/clk/linux
+user: jbrunet
 changes:
-  - ref: refs/heads/for-next
-    old: 6982cb1c57c88e60277b5375d7de3c894fd6da02
-    new: 1ea502a48efc2b3bf20403de5c9693c63e8c3211
+  - ref: refs/heads/clk-pile
+    old: ca4983a301063d9cf8d0ef556883f90a94a0bd32
+    new: da51c9a6f60ab1eead089c23448c9ee6a192635b
     log: |
-         ca0a9905074e1a24d5570fc2b667de926c831cd6 sparc64: increase kernel thread stack size to 32K
-         1ea502a48efc2b3bf20403de5c9693c63e8c3211 sparc64: remove dead THREAD_SIZE branches for non-8K pages
+         da51c9a6f60ab1eead089c23448c9ee6a192635b clk: lmk04832: Handle reset GPIO lookup errors
          
