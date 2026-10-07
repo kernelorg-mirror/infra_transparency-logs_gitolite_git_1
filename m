@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 07 Oct 2026 00:32:00 -0000
-Message-Id: <179133312005.2324661.10430005058646155881@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Wed, 07 Oct 2026 00:32:13 -0000
+Message-Id: <179133313329.2325017.11118603838406246177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/main
-    old: c1c1f0a31712f4e0a9af74892932f1ba66387400
-    new: 388e1d3a179fc9cb32c39bbba29a20171157382d
+  - ref: refs/heads/kernel-6.12.111/block-DIO-alignment-fixes
+    old: 48da37c10956140db602702881907ccff01ea5a4
+    new: 4704fc769c01d57fcf3ae0e5309581421c7a82bc
     log: |
-         388e1d3a179fc9cb32c39bbba29a20171157382d net: devmem: use page_pool_put_netmem_bulk
+         4704fc769c01d57fcf3ae0e5309581421c7a82bc dm-delay: do not round a short delay up to the next timer tick
          
