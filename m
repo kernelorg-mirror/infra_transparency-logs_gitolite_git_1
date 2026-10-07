@@ -1,30 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 07 Oct 2026 10:24:55 -0000
-Message-Id: <179136869557.2769220.1057938699895358359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Wed, 07 Oct 2026 10:30:16 -0000
+Message-Id: <179136901642.2775080.8781407418241494402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/for-linus
-    old: fd99864b0ac936e870c7ae28354c5cd3dad5efd0
-    new: 61d44a2c07b2ad3f7db167f17ff2461ffe78441c
+  - ref: refs/heads/bugfix/common
+    old: ccfc52932f67e9ed0acae8ce8b5f098e03ea1d21
+    new: e0bc8c0fb667e618c185b879f89c77c9ce8f434a
     log: |
-         e130c54fbb603f9aeacf5029789b4a2c8c48f416 spi: sg2044-nor: Return transfer errors
-         61d44a2c07b2ad3f7db167f17ff2461ffe78441c spi: sg2044-nor: Honor SPI clock limits
-         
-  - ref: refs/heads/for-next
-    old: b3862a871d18ee817708ad2be28d19663bb1635c
-    new: 25cac58b4ba390dc3d8ea06e9230b7774e848644
-    log: |
-         921ecc459d4f0b32bdcdb01316dc61f6bc55dc2b spi: dt-bindings: nuvoton,ma35d1-qspi: Drop redundant SPI example
-         e130c54fbb603f9aeacf5029789b4a2c8c48f416 spi: sg2044-nor: Return transfer errors
-         61d44a2c07b2ad3f7db167f17ff2461ffe78441c spi: sg2044-nor: Honor SPI clock limits
-         68ea52380d440ba7c7c2b903d9e6fa3f65c5460e Merge spi-linus into spi-next
-         25cac58b4ba390dc3d8ea06e9230b7774e848644 Merge spi/for-7.4 into spi-next
+         aabab7828b5747412382ddc6b7f8d1d52bb36330 Revert "f2fs: skip node_change lock for inline data writes"
+         e0bc8c0fb667e618c185b879f89c77c9ce8f434a f2fs: zone: fix to avoid bio split on sequential zone
          
