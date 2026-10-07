@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 07 Oct 2026 13:25:16 -0000
-Message-Id: <179137951690.2913130.5890494633459150518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Wed, 07 Oct 2026 13:26:10 -0000
+Message-Id: <179137957039.2913830.4495348144767941301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/tags/for-7.3-rc2-tag
-    old: 819d915fdc8b5743552399157db71add42f85a0e
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/kbuild-for-next
+    old: 946bc3a27efb2ce599c048545c050f871b716c05
+    new: 251653f815e102a0edce94a04677fe7e874881c8
+    log: |
+         c8dd1aa0274d8ad3df82ec1b064065f410ce99ed gen_init_cpio: stop parsing on lines with a missing argument list
+         72a61a7fef954152abd9df9def4f94816eb344ca checkkconfigsymbols.py: Parse Git status output line by line
+         251653f815e102a0edce94a04677fe7e874881c8 Merge branch 'kbuild-next-unstable' into kbuild-for-next
+         
