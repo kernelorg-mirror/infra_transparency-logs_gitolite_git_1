@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 07 Oct 2026 07:09:14 -0000
-Message-Id: <179135695439.2624922.17202510098304252036@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 07 Oct 2026 07:28:30 -0000
+Message-Id: <179135811079.2638374.7116276193001415522@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: cce713d008bdcca5e46541de86eab79b80d394bc
-    new: 95cc3927ce26cadc325833a16b13c2a3c08353de
+  - ref: refs/heads/master
+    old: be370cdffc707858b5fa317f27de66b17bfe4687
+    new: 9c409f671d813a177e6e6847e4f74566da690c3d
     log: |
-         95cc3927ce26cadc325833a16b13c2a3c08353de cpufreq: qcom-nvmem: Add IPQ9650 support
+         df592eea4e8feeec9d883a150266847e2fe79939 src/bin/git-bisect-rebase: --keep-base: Disallow option
+         893589118b25c8c52dc32f811e96be544dcf757b src/bin/git-bisect-rebase: Disallow more git-rebase(1) options
+         9c409f671d813a177e6e6847e4f74566da690c3d src/bin/git-bisect-rebase: --interactive: Disallow option
          
