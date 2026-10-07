@@ -1,29 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 07 Oct 2026 09:45:28 -0000
-Message-Id: <179136632884.2739121.10388191922358870428@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Wed, 07 Oct 2026 10:04:53 -0000
+Message-Id: <179136749364.2751248.7899992964985009071@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/for-next
-    old: 5cc1749b5f154a2cb97439cf084afce788f36102
-    new: eb6237f64909d54540267581967293f2d423bb4c
+  - ref: refs/heads/next
+    old: 1cd82903f6d7f05da39bab5c661452939062e505
+    new: 64b9e6eff524804de6ec7a7be83131ec3d8ae17f
     log: |
-         ccfe6ab672c020fca56988e634088bfb7764e2a7 ALSA: caiaq: Allow zero-length packet handling for EP1
-         eb6237f64909d54540267581967293f2d423bb4c ALSA: hda: Discard pm_runtime_put_autosuspend() return value
-         
-  - ref: refs/heads/master
-    old: d237497068a0cf891eb42cd17e41311866edd32f
-    new: 0a07cd0a7a110fef16e47d969d675a55502b5814
-    log: |
-         ccfe6ab672c020fca56988e634088bfb7764e2a7 ALSA: caiaq: Allow zero-length packet handling for EP1
-         64efd91aa90a1aeac0bcc9435716d838f3ae2e86 Merge branch 'for-next'
-         eb6237f64909d54540267581967293f2d423bb4c ALSA: hda: Discard pm_runtime_put_autosuspend() return value
-         0a07cd0a7a110fef16e47d969d675a55502b5814 Merge branch 'for-next'
+         95662f21d6aa38e3294b002a11000fa984418740 landlock: Rename quiet_masks to quiet_access
+         395c985dac578159ab8cce7c690481a2c7ff8655 landlock: Wrap per-layer access masks in struct layer_config
+         3efe2f87c5005ec64ae75b4b8cc02f88128d64af landlock: Enforce namespace use restrictions
+         b6a56b30b9d5a0225aaa1676997913c63d9dc8a4 landlock: Enforce capability restrictions
+         886ee9a20b2813ef070b5cd0926924b786988fe7 selftests/landlock: Add namespace restriction tests
+         6931f6e6bcd313c17656cf4656ab9b857b6895e4 selftests/landlock: Add capability restriction tests
+         a040fdff996b055b8281734303281db224df7889 samples/landlock: Add capability and namespace restriction support
+         64b9e6eff524804de6ec7a7be83131ec3d8ae17f landlock: Add documentation for capability and namespace restrictions
          
