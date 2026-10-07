@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6993171370539433627=="
+Content-Type: multipart/mixed; boundary="===============2237669445392370226=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 07 Oct 2026 16:25:43 -0000
-Message-Id: <179139034394.3052779.4735058443429464669@gitolite.kernel.org>
+Date: Wed, 07 Oct 2026 16:27:02 -0000
+Message-Id: <179139042235.3053295.15951204496371719014@gitolite.kernel.org>
 
---===============6993171370539433627==
+--===============2237669445392370226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 29204da843d668f089b88bba4e3394ed2a812f9e
-    new: 10fc4db8dc5352dbd4467894dffd3b0b0d93434e
-    log: revlist-29204da843d6-10fc4db8dc53.txt
+  - ref: refs/heads/tip/urgent
+    old: 5d7010dcd9a664cf0ce860c90c42a235b6089812
+    new: 3daee811941009ed41edd3490447549119f70b44
+    log: revlist-5d7010dcd9a6-3daee8119410.txt
 
---===============6993171370539433627==
+--===============2237669445392370226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-29204da843d6-10fc4db8dc53.txt
+Content-Disposition: attachment; filename=revlist-5d7010dcd9a6-3daee8119410.txt
 
 764b683a6180fd72c931c13fea98d383506a3475 dm-integrity: fix buffer overflow in inline mode with large tag size
 3195e0daf590683992edb4eed32269e569e04924 dm-crypt: reject the lmk IV mode with AEAD ciphers
@@ -42,6 +42,6 @@ b6e8add5d79d1f6f819a054c833bab452bd7365d btrfs: unlock inode and extent in calle
 41c8899d59898f6fa51ceebd2b6e55257191a8ee btrfs: fix lost error return value in btrfs_listxattr()
 0f2732620d6ec49d3e6c06831575eaec6bc99d42 Merge tag 'for-7.3/dm-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 7b63ef2d55f24519e7e9e5f4d15dbea03f126e40 Merge tag 'for-7.3-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-10fc4db8dc5352dbd4467894dffd3b0b0d93434e Merge branch 'linus'
+3daee811941009ed41edd3490447549119f70b44 Merge branch into tip/master: 'x86/urgent'
 
---===============6993171370539433627==--
+--===============2237669445392370226==--
