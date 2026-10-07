@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 07 Oct 2026 01:42:14 -0000
-Message-Id: <179133733446.2390699.2276224667393121860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 07 Oct 2026 01:43:52 -0000
+Message-Id: <179133743238.2391313.11005337557336926913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 81d705e38978656f7f2d643faef4faf3d90af770
-    new: ea311fea32363f331ec091e1287727ce972c7ddc
+    old: 0984ebc631792acf8fff105112ee74a6b8f1efcc
+    new: 5857e5a196b069766a39ceb754736326a43bc6bc
     log: |
-         ea311fea32363f331ec091e1287727ce972c7ddc net: bcmasp: fix lost TX wakeup race with lockless queue API
+         5857e5a196b069766a39ceb754736326a43bc6bc net: bcmgenet: if UMAC was suspended in SW_RESET, restore it to SW_RESET
          
