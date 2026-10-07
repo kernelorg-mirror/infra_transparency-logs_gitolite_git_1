@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8570966918760074372=="
+Content-Type: multipart/mixed; boundary="===============5505808001961403677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 07 Oct 2026 05:57:46 -0000
-Message-Id: <179135266662.2568886.11268829911110979920@gitolite.kernel.org>
+Date: Wed, 07 Oct 2026 05:57:48 -0000
+Message-Id: <179135266896.2569046.15357533003917737646@gitolite.kernel.org>
 
---===============8570966918760074372==
+--===============5505808001961403677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 3fa97dbf7e37bff1e4dbe8bfd026c1b4a13e186e
-    new: de3c5f0e6ebc5e0885d99043e071320cbb6ffbde
-    log: revlist-3fa97dbf7e37-de3c5f0e6ebc.txt
+  - ref: refs/heads/mm-unstable
+    old: 55ff3dc8fced48c98667c19769c55103a23eabce
+    new: a663a4c75b63341fa6cc16e15feb29f36321f5f2
+    log: revlist-55ff3dc8fced-a663a4c75b63.txt
 
---===============8570966918760074372==
+--===============5505808001961403677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3fa97dbf7e37-de3c5f0e6ebc.txt
+Content-Disposition: attachment; filename=revlist-55ff3dc8fced-a663a4c75b63.txt
 
 838bb60dc21553e32df90f2f3bac5b905376e7aa mm/mremap: fix locked_vm leak from MREMAP_DONTUNMAP self-merge
 597e4b9ab48a3f841080f627722064853d3f650e mm/mremap: fix locked_vm leak by splitting VMA for MREMAP_DONTUNMAP
@@ -738,19 +738,5 @@ b53b10306b2c67271155903f9fecccfddb56652a mm/vmalloc: bail out early on invalid p
 9b15003dec5b93df1a5a57927eca401e80a6da23 docs: hugetlbpage.rst: fix typo in per-node attribute description
 9ce32bd30049c6c107bd16b7b5127d2a5b73ca07 selftests/mm: hugetlb-read-hwpoison: add setup of HugeTLB pages
 a663a4c75b63341fa6cc16e15feb29f36321f5f2 selftests/mm: hugetlb_madv_vs_map: fix TAP plan mismatches
-edc3d6edd22377178e5a855651c006bac21a1fc1 selftests/mm: fix soft-dirty kselftest supported check
-79544d47f95c505b2c7d72c3a8990fa3ed0b9f9c riscv: mm: fix concurrency in mark_new_valid_map()
-366d6d6913c9f21f6f21406857e0ec45e9743dda riscv: mm: exclude invalid THP PMDs from page table check
-4497761c09471eefe0b111069853581b89ea8640 sh: remove CONFIG_NUMA and related configuration options
-aba2becf6f2743f9ef872cebd1d5766f5406df50 sh: mm: remove numa.c
-55d08aec6c9197c3675033a851f19eb1d036791f sh: mm: drop allocate_pgdat()
-3edf60d8d6c4f422872957f56fc3d0d2b3863ca9 sh: remove setup_bootmem_node() and plat_mem_setup()
-241ffd1cc810b47eda103f74a6fd198c3fcc0b25 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-de38ee6ade2c74a33ef16e08ee39f72757d767c7 sh: drop include/asm/mmzone.h
-50492fc5bc48b197dc81bee5e5196e82484d6e00 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-1d96f8faf8e28454baa3d06bc2733fa4e318ac28 sh: init: remove call the memblock_set_node()
-c571a05766ae2690bf54704409bb9796b6280696 sh: remove SPARSEMEM related entries from Kconfig
-64e4e98286ae7b7bfc48ae1daa446aaf2077326d sh: drop include/asm/sparsemem.h
-de3c5f0e6ebc5e0885d99043e071320cbb6ffbde mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============8570966918760074372==--
+--===============5505808001961403677==--
