@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 07 Oct 2026 11:15:27 -0000
-Message-Id: <179137172751.2808452.4784238805418718509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Wed, 07 Oct 2026 11:20:02 -0000
+Message-Id: <179137200209.2809932.7299054987336206079@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/for-7.4
-    old: d344f1af5c7c2e7b3e40f284bcc1a3dd47358723
-    new: 5cc16216213f7d363d69d1db82eba240027911db
+  - ref: refs/heads/driver-core-testing
+    old: 7db73c69c8311bfe72b3acbd6807d57cd755bdc7
+    new: 753689e4d79dccdfd51c02d5f14a5a58eb7ce75d
     log: |
-         53063f38ce083c59a3a7d5885bd9ffd5f920e4e3 regulator: dt-bindings: nvidia,tegra-regulators-coupling: Convert to DT schema
-         27321a6290a5c7f1cf9091969b9ecad5e5b96abd regulator: dt-bindings: Reference Tegra regulator coupling schema
-         5cc16216213f7d363d69d1db82eba240027911db regulator: dt-bindings: Tegra coupling DT conversions and cleanup
+         753689e4d79dccdfd51c02d5f14a5a58eb7ce75d kobject: Fix the kobj_set_name reference in kset_register() kernel-doc
          
