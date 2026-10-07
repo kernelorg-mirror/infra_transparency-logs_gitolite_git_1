@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Wed, 07 Oct 2026 16:45:59 -0000
-Message-Id: <179139155986.3068044.1845685701107176782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/ripgrep-edit
+Date: Wed, 07 Oct 2026 17:08:53 -0000
+Message-Id: <179139293350.3082399.1323403588190924147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: pjw
+repo: pub/scm/linux/kernel/git/andrea/ripgrep-edit
+user: andrea
 changes:
-  - ref: refs/heads/fixes
-    old: 405290be962b32eec842776fbe3bdf81f15b1676
-    new: 59052a88ba5fe4a7bb34b3a0a42aa5d453d3bb97
+  - ref: refs/heads/main
+    old: 67dc0088ff421b3db3be9bdfe449670633f59403
+    new: 29c405561c121f2d856ffd387a9a119d416e866c
     log: |
-         298510bbc7c3017c0faf481c6ea66f1065b657b4 riscv: errata: select RISCV_ALTERNATIVE_EARLY for THEAD GHOSTWRITE
-         07e23d0b6f58eec351e52058b9a0a8af7b019c09 riscv: fix NR_CPUS range leaking 64-bit default onto 32-bit builds
-         adadf6df0bd55aa40ccbc6519fb443133e103227 riscv: ptrace: reject CFI regset access when extensions are absent
-         59052a88ba5fe4a7bb34b3a0a42aa5d453d3bb97 riscv: ptrace: Zero-initialize regset buffers before copyin
+         c221d983f1e2b29e4ecce88a97de73e8098ec020 clippy: remove redundant clone in splice
+         ef621bf5dbdcc59fbb5ef74e80b011c73809e189 rg-edit.el: Enable lexical binding
+         a0e2d15248fa31e38f59c2cb18a81bef8ff1a47d clippy: remove redundant borrow warning messages
+         29c405561c121f2d856ffd387a9a119d416e866c version
          
