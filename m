@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5552362206471003749=="
+Content-Type: multipart/mixed; boundary="===============3360619249944437911=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Wed, 07 Oct 2026 20:49:06 -0000
-Message-Id: <179140614629.3237274.2673127182000123862@gitolite.kernel.org>
+Date: Wed, 07 Oct 2026 20:49:45 -0000
+Message-Id: <179140618547.3237625.6707151126177710486@gitolite.kernel.org>
 
---===============5552362206471003749==
+--===============3360619249944437911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,37 @@ repo: pub/scm/linux/kernel/git/wireless/wireless
 user: jberg
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 3d33b79b92865486ea4bf1864446e693c1c6cfc9
-    new: 9727d1c4e1c971fc42b049b645fdda6852758835
-    log: |
-         9727d1c4e1c971fc42b049b645fdda6852758835 Revert "wifi: libertas: reject short monitor TX frames"
-         
+  - ref: refs/tags/wireless-2026-10-07
+    old: 0000000000000000000000000000000000000000
+    new: 8ab96dc14e57155600d03815c58cbccd5ecb3bf7
 
---===============5552362206471003749==
+--===============3360619249944437911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1791406094 +0200
+pusher 7BF9099A 1791406137 +0200
 pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1791406094-16fd5e6ecd8aac21bee37f6827eb09f1b6b1b095
+nonce 1791406136-fedfa6464ebdc52c69eed9eee1398e5b4668f168
 
-3d33b79b92865486ea4bf1864446e693c1c6cfc9 9727d1c4e1c971fc42b049b645fdda6852758835 refs/heads/main
+0000000000000000000000000000000000000000 8ab96dc14e57155600d03815c58cbccd5ecb3bf7 refs/tags/wireless-2026-10-07
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmrGsA4ACgkQ10qiO8sP
-aAAzCA//cj9/eT61vwHRzc2t6VY2b/9RWgnOPMKVkoW5V9gcGl5HSMFWHvc8PsQz
-+XmeNtiSUsyJyFhXFHSVYeZrcnDpPnpCytq+XaCd8kdof0iiZWraJa0TJf4pHTlx
-BpZx05p/L0O9DfMKY0g8biZTqvxsA9EfvM9/uI21EWMW6Ub+G2WbzjlreJFHJYs2
-2UfvsXHQx+EEJktt16KN9jcYHM/XbxVfRxSEPklyacctx5E1sEy47kFKZ2SDnBvl
-0f1M5x3SucM0xNWq+Wi5rB8iPNsJWQCcuNW+BN8eODwFthQFpqqlrxqSRMMjNJ3X
-asnVeA8JfTrucckOn13aOwHauj21LcZURMU6Ylq0ASIUzseySOmGtfW17GlAvO+J
-6veUBlJ6muMxNSYGDfUWueUlsqDpRWJNAMV0O0kVgTlre//MQxErwjggBh5t4bFF
-AxEHoumIO3yl0GdEd55qO3zpZiX20/xXPFH33BfJJeZjbpFnUce5qUWXryUUqmD6
-PSCn1cPyYXZ2yP1m+6zg73enkcfxyLQYY/Ayrza4rEs1uQwFuhMqvsrKyiUb6YSQ
-Z2lcSQChN1zJwpeUcdxCrSOgrSgwra4tAPr9alGXnBjyhD3WpYwDfrulH8oaa9LL
-ZsQjN69RQrfzDYZ0tCsQIIPTi6XlQwxYkYecPySVAIBeBsUSPvM=
-=+nZQ
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmrGsDkACgkQ10qiO8sP
+aADiphAAn4M7GVjwRN6i8M0uUUvqj2vY148+zh/Nsh94h6KzVV8xlkTLXzr+IE2d
+H49kzM2m6sE4rtqNiPHFYPU5PW/UW5CM7LnQQPk0lZ+71bBZulONDOmWUAxHzdjv
+ULi6cLHRbxSEmYgqW6mDZveZ1gQNd7d2ZBauBxx8ffB/DhaB5VX1hM5C/+4TYILP
+Cnx/1SZ/WL/iMRTZl14Rf4zn3JUYT61XTi7a4IokAjgHtrn57UOZjbuHG0O4iPHM
+SbEwPJb3lvpTurWV2mHumYIYVWxgFk+XzNGBtVAqMle9FiE4r8ZYmqbMEw3hTycA
+fvjADwZJ11VCcsj5zyJKw1SktGRp/g7ozRVnKts/YufxsacVXosCSKUKUGHlPPgm
+yQpRVhZ3Sd9w3ydNB9Tz+PAd1AkdSb19bt75Kf0IWS8VfJSAqV6JnCF2i7cebGet
+FYlmy3GtkYOBLOuAZ+IblwDhjbmRNif7QbPpViTyQeelS+fmB1jTjS0wgHTEYvkG
+r0neWEKBtoUqKHL1ndVyl4hi9wVK/R/mfQDD+ML2PiDGGaGMnwXxOxu8XAN6M0K7
+UgH0tlXvi5PSNaodf97IRe9DukL4w9L0RsWc1ZrDwv2ngNcrqIgd4q8wwaONqV+9
+v2e24pXojbZRksAammZYCW31H+s/BqaQj6U3PsTs/e5fqW3l/3Q=
+=1ATO
 -----END PGP SIGNATURE-----
 
---===============5552362206471003749==--
+--===============3360619249944437911==--
