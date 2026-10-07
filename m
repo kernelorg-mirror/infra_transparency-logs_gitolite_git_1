@@ -1,18 +1,18 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 07 Oct 2026 11:05:29 -0000
-Message-Id: <179137112977.2800395.5662445520400844666@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 07 Oct 2026 11:06:00 -0000
+Message-Id: <179137116087.2800719.16164274881905818835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 71b7e4222e3026d0f3a40ad128f1ffdda60212fa
+  - ref: refs/heads/perf-tools-next
+    old: 1dc462fc214907671600172280c2e79ef9fe6fcf
     new: bc01105ed65d15787b2eb93ac26e8624a2139e35
     log: |
          f8596112cbad0072cdc957c0ea06695afda246dc perf test attr: Propagate the return value from the test to the wrapper
