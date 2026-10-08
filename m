@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
-Date: Thu, 08 Oct 2026 19:06:09 -0000
-Message-Id: <179148636967.28384.9872984409309823216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Thu, 08 Oct 2026 19:10:00 -0000
+Message-Id: <179148660039.29541.10417380234268409247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lindholm/alpha
-user: lindholm
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
   - ref: refs/heads/for-next
-    old: e946efcc89066c5d80acbae42d015a4da33a11de
-    new: 496e328c6107ebdcd0a0d70eae52595b64b52a57
+    old: 1f504981f9acd19d13d8028c33d61c0cd3b918e4
+    new: 21e83e04785891a60afa2a1e6140c20324a99b22
     log: |
-         fb4af09349bcaf5afc5224a870797795781e415d alpha: add missing page_table_check_pte_clear() to ptep_get_and_clear()
-         337a66d996807c90eda801772752487f36e536f4 alpha: handle VM_FAULT_HWPOISON in do_page_fault()
-         b35a0d2644e46c1da9e6214fe31fa587d44402a2 alpha: describe the PTE read and write enable bits
-         57864b3e4cddea31771ca096748a1f676827dbed alpha: define granularity hint PTE bits
-         f06ff6cdcc11eef3e3c0137cb0c82c6e6466f197 alpha: align hugetlb mappings in arch_get_unmapped_area()
-         496e328c6107ebdcd0a0d70eae52595b64b52a57 alpha: implement hugetlb support
+         b59cabf9b4acb65f3f9968087ca0e18010d85076 io_uring: do not charge the SQ/CQ rings to RLIMIT_MEMLOCK
+         9f0c88b7f8842bd7bca9dae45a713e967cf224cd io_uring/kbuf: don't charge provided buffer rings to RLIMIT_MEMLOCK
+         21e83e04785891a60afa2a1e6140c20324a99b22 Merge branch 'io_uring-7.3' into for-next
+         
+  - ref: refs/heads/io_uring-7.3
+    old: c746673517c6ce9f5400cc0ea23e10ef5382eddb
+    new: 9f0c88b7f8842bd7bca9dae45a713e967cf224cd
+    log: |
+         b59cabf9b4acb65f3f9968087ca0e18010d85076 io_uring: do not charge the SQ/CQ rings to RLIMIT_MEMLOCK
+         9f0c88b7f8842bd7bca9dae45a713e967cf224cd io_uring/kbuf: don't charge provided buffer rings to RLIMIT_MEMLOCK
          
