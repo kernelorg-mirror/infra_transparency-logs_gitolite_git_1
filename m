@@ -1,91 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4859713794493687840=="
+Content-Type: multipart/mixed; boundary="===============6177787297791947978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 08 Oct 2026 17:00:17 -0000
-Message-Id: <179147881762.4127032.8238228236966230060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Thu, 08 Oct 2026 17:09:37 -0000
+Message-Id: <179147937714.4132338.14578518548349358100@gitolite.kernel.org>
 
---===============4859713794493687840==
+--===============6177787297791947978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/seen
-    old: 290690c36bbcfb3b3a376fa10e5221e236cad4b1
-    new: 3e34fb3a303fa6997602fe7d4f9c26377ada234e
-    log: revlist-290690c36bbc-3e34fb3a303f.txt
-  - ref: refs/notes/amlog
-    old: c6f00fbf6470461069e861aa13eea2546c3c3edc
-    new: 3fde826e49f37ed8e5aded99670f8f0b2ce49f96
-    log: revlist-c6f00fbf6470-3fde826e49f3.txt
+  - ref: refs/heads/cpu-hotplug
+    old: 52064e72018be0debae172c90ee6ba894aef8cae
+    new: b7125a8bd3acfcbfdc9237eeca243496b564d82f
+    log: revlist-52064e72018b-b7125a8bd3ac.txt
 
---===============4859713794493687840==
+--===============6177787297791947978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-290690c36bbc-3e34fb3a303f.txt
+Content-Disposition: attachment; filename=revlist-52064e72018b-b7125a8bd3ac.txt
 
-93fdd305e649967c434ceff7b75901a96ddb2cbd fetch: add remote.<name>.refmap
-94f50da6c391b760a691b1a23a3f8b84097657ef fetch: infer branches to fetch from a refmap-only remote
-a6dc30a4dc1cb2db2c73ba83aca0f23afa8e1f2a remote: add "git remote add --limited-fetch"
-bd93b8b1faf48378d700df5353e342a53c7bbdbf remote: default to --limited-fetch in a shallow repository
-778d260c316b9c72b06ad5edcb5535e7ee4a7804 commit-graph: require resolved packfile paths for `stdin_packs`
-623d2c71255977544086c9be76dfeff43cdbaf88 commit-graph: stop depending on `struct odb_source`
-45b1324139d0428348a15ac09fd58f47f9435476 odb/source-files: introduce `struct odb_files_dir`
-8db128e611a7a9fa8e47f383e31128cc4a47ceb7 odb: refactor `odb_for_each_alternate()` to yield dirs
-4a9e8cab7db78eace06ecb86b5932dbd48a933c7 odb: refactor `odb_find_source()` to yield dirs
-5c869c96a4e4d9f494699e69f06fff9e68f0b5ba odb/source-files: add the ability to have multiple object dirs
-f80a79e23345c647209c33701df0e608696325ae tmp-objdir: absorb logic to set and restore primary sources
-622a625abb97c8f3df091fde6a655950386c1cea tmp-objdir: manage quarantine as an object directory
-a26ff4e576de7478e2fefd938bcc57951a2ffb0a tmp-objdir: replace primary source at creation time
-6066be88b4a311cb3134d51f43db4ea10d08da2b odb/source: make `will_destroy` an implementation detail
-c96b05a9c26b5edb3e8c1b9491b386ddc70035f8 odb/source-files: extract reading alternates
-cbfd4cb86f78054a0b824b86f058240c162612e0 odb/source-files: move alternates into the backend
-0ba59c845312f5b098b4ab27ae2f60988954d7b5 odb/source: drop `read_alternates` callback
-d17ce4aa0ae835653da91f0b9240ddc748a23b5a Merge branch 'ps/odb-files-alternates' into seen
-eede8db30d9525610b43dd1a19decb187f7e77e3 Merge branch 'ss/history-sign-rewrites' into seen
-50298393de03f35d26e0996d960ce9d0f8f0f3a6 Merge branch 'ik/fsmonitor-untracked-cache-trivial-response' into seen
-3bf390d8ed03e0558b1123703ac1cbf41f47e994 Merge branch 'hn/status-push-rebased-on-newer-upstream' into seen
-b0c303ff6f21c7e3c54e849da4ad99c5208fbb71 Merge branch 'je/status-merge-specific-help' into seen
-d6350dd7e01958215d342689b568354035a5fc0f Merge branch 'je/doc-promote-git-help' into seen
-5cc0394a287b219ad49d90dd3da136fe71cc80a1 Merge branch 'kk/fetch-write-commit-graph-incremental' into seen
-a6786ae5ce0b45bc00b6a7c493ee7596dd929c0d ###
-a0306c761661f78d6bd65671e09b617b737abc30 Merge branch 'tb/repack-cruft-less-midx-corner-cases' into seen
-23652ab5fccf8007d3d6976b62127aa29f3ac493 Merge branch 'ch/fetch-followremotehead-lazy-validation' into seen
-3e34fb3a303fa6997602fe7d4f9c26377ada234e Merge branch 'hn/fetch-refmap' into seen
+dfa0a9d76ecddbaf1846c28215e9c0ea121233e9 cpu/hotplug: Clean up cmpxchg() logic in cpuhp_can_boot_ap()
+f2903e379e56b5f4a5769ff0a6110cea6dc4f470 cpu/hotplug: Avoid trying to bring up CPUs that are already online
+e25458327b0fcff6115d7ec1e729b390455b4b66 cpu/hotplug: Avoid busy-polling on archs where cpu_relax() is a no-op
+11e7a3ce732efefe94f5f7a1add0bd743b772a77 cpu/hotplug: Propagate bring-up status to arch_cpuhp_cleanup_kick_cpu()
+a000afe0f7d0e07fd4d3c5de103af76bba13b060 arm64: cpufeature: Check arm64_ftr_regs[] before the first store
+9b4c2c97e9e65e405c9b69ec22f183ad0f4778e8 arm64: cpufeature: Add read_cpuid_with_overrides()
+4796df1987d97e3cf6835695b937b61afe2b8c2c arm64: cpufeature: Read MPAMIDR_EL1 in __cpuinfo_store_cpu()
+29e2d0af15890de64c80bf6183b69bad732b9a06 arm64: cpufeature: Store every ID register with its overrides applied
+9e5a82cb06cccd6a848a8bf0ecfde31339ba6a16 arm64: smp: Tidy up smp_prepare_cpus()
+a06b279bc866e441e2e66aa1cb002676b17b3cff arm64: smp: Tidy up cpuinfo init and cpufeature updates
+917725f08da3a2c975f11ff48561d179d656e8e6 arm64: smp: Defer update of secondary CPU capabilities
+18edbb59bb94c90f1d13a16a28017b7189d39c81 arm64: smp: Don't bother printing the I-cache policy for each CPU
+64f05c414492741d8ab5e7ed8eb12a36b934229b arm64: smp: Defer RCU registration during secondary CPU bringup
+6dd6992cbb7cc22e89d554c97b614af2c1149004 arm64: smp: Use generic HOTPLUG_CORE_SYNC_FULL machinery for CPU onlining
+e804045e36a4cd76c6b9a5764260cab1c23259f2 arm64: smp: Use generic HOTPLUG_SPLIT_STARTUP machinery for CPU onlining
+8da8641fb90a583643530170ab3366b46c46be5f arm64: cpu_ops: Make 'cpu_operations' pointer global instead of per-cpu
+2f7e52495f2095e93eccfc640c8a0e58e715af42 arm64: cpu_ops: Introduce get_secondary_cpu_ops()
+a3b9220910d40d841aa698aec66d62108936c0cd firmware/psci: Cache PSCI v0.2+ version number to avoid redundant SMCs
+925254b4d4fd4584de1431f840af0f474a896b31 firmware/psci: Extend ->cpu_on() callback to take an additional argument
+3404d028a58c08677970efbb5258b4b061859988 arm64: cpu_ops: Expose optional argument to target cpu in ->cpu_boot()
+c94bd28191cd376b3967c8bb64f74f94f7cba259 arm64: smp: Pass secondary CPU boot parameters via firmware if possible
+818e27b967d8f36c1281bfe478e239ff8e77d3ea arm64: smp: Use generic HOTPLUG_PARALLEL machinery for CPU onlining
+b7125a8bd3acfcbfdc9237eeca243496b564d82f arm64: smp: Harden parallel CPU bringup against broken PSCI firmware
 
---===============4859713794493687840==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6f00fbf6470-3fde826e49f3.txt
-
-8baaf914b247a885be5f8f92b3bec820b783c7bb amlog
-0fcd5a4dcf36e7dcf53fcc84d905a58b90865aac Notes added by 'git notes add'
-2b768fcccb716306aac84674330c1d42184c9d3e Notes added by 'git notes add'
-8b711d15aefaf45db2e16f564c104238d424e4c6 Notes added by 'git notes add'
-d694ef75a83dece48970da84c7adb02602b0ffae Notes added by 'git notes add'
-c93f9db36ac39573b09bccb4049217041db3696a Notes added by 'git notes add'
-c41e74f3ce2dcd6b2516c9d2ad91e54521b534ec Notes added by 'git notes add'
-aad0f3def09a559d7c6cbafe1e73c9dddd165507 Notes added by 'git notes add'
-abaf73209bdc4827bb0d4ac70cb381717e77dd68 Notes added by 'git notes add'
-07716d7b1bcd4e41f2d1feae6655184a640579ca Notes added by 'git notes add'
-6d12f0c3bb09735fd794fd0c55ba9d0379f6ada4 Notes added by 'git notes add'
-2d4615b9fe13d1a906bc12e0bdf220007f252d98 Notes added by 'git notes add'
-e3440a61163dc7f2adf4f6fce38f1fde5145508c Notes added by 'git notes add'
-d910e5ec6fd11ca73645adc894e1c26aea4e09e6 Notes added by 'git notes add'
-abbd9ed64c77fcf845e477a0a68a026c936d0dfe Notes added by 'git notes add'
-4693b4c05d349bb65dee25ee315c0abb6dd7cab8 Notes added by 'git notes add'
-f4df7eaa29dc15211eb5421c117723f5b66c8ac1 Notes added by 'git notes add'
-4b4d2a03b14afb47a793d7f86285dde221a0dc82 Notes added by 'git notes add'
-122326e18ea7b8c0d45f49881d855a5f20d3a77b Notes added by 'git notes add'
-3ccf1b530b73b3ddbe7ee79963302efeb4c61a0e Notes added by 'git notes add'
-fb502a1ea16f9ecb6e080aa0a8bc7b973302ad72 Notes added by 'git notes add'
-3fde826e49f37ed8e5aded99670f8f0b2ce49f96 Notes added by 'git notes add'
-
---===============4859713794493687840==--
+--===============6177787297791947978==--
