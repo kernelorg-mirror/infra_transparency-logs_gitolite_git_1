@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Thu, 08 Oct 2026 16:25:49 -0000
-Message-Id: <179147674918.4101675.4423935041677756527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Thu, 08 Oct 2026 16:30:34 -0000
+Message-Id: <179147703427.4104864.17431919483185056799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/socfpga_dts_for_v7.4
-    old: c5a2c63982af3a7a1d56a784f5b8d9fbe8cce20f
-    new: 1c4d22949a77d82505188bf36a4bcae0cbdf699e
+  - ref: refs/heads/kbuild-for-next
+    old: 527493bccf6072510380b64f2e694ee83d635926
+    new: 20cb500b2dfd87e055b2a494665121d0c7d20f76
     log: |
-         1c4d22949a77d82505188bf36a4bcae0cbdf699e arm64: dts: altera: Move all SoCFPGA files to dts/altera
+         bd6a4ec4d89c8f3ca0a2f276802242a0c57c3693 scripts/Kconfig.toolchain: Drop compiler symbols from dependencies
+         4b606bb09b5749aae80e94f3fe229283b52928ec kconfig: Improve ergonomics around disabling warnings with cc-option
+         20cb500b2dfd87e055b2a494665121d0c7d20f76 Merge branch 'kbuild-next-speedups' into kbuild-for-next
          
