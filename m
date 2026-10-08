@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 08 Oct 2026 11:33:16 -0000
-Message-Id: <179145919696.3884807.5571927943137417424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Thu, 08 Oct 2026 11:35:50 -0000
+Message-Id: <179145935050.3888086.5391474577661354962@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
-  - ref: refs/heads/regulator-7.4
-    old: 5cc16216213f7d363d69d1db82eba240027911db
-    new: e46eeb24d707d4ea6985bfa511948a3b62974c09
+  - ref: refs/heads/for-7.4
+    old: 5ff1a5ca9f58681f870501ac58c4293306fdce0e
+    new: f52260f49b107fddbcf7c75f9cf2347a5031f0f7
     log: |
-         e46eeb24d707d4ea6985bfa511948a3b62974c09 regulator: dt-bindings: sy8827n: support standard properties
+         f52260f49b107fddbcf7c75f9cf2347a5031f0f7 regmap: debugfs: Use __free(kfree) for regmap_reg_ranges_read_file
          
