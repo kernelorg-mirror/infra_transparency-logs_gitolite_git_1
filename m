@@ -1,21 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 08 Oct 2026 12:41:38 -0000
-Message-Id: <179146329856.3937106.18077286595730465899@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 08 Oct 2026 12:41:45 -0000
+Message-Id: <179146330540.3937416.6836378548265474240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 52e7d73a0d4548e1e8c044f10303a972b07135ef
-    new: 8c3ce6554a5b995599b84388347b301553e9efd5
+  - ref: refs/heads/for-linus
+    old: 61d44a2c07b2ad3f7db167f17ff2461ffe78441c
+    new: 00765a3467b992d0eb56704a28887256317eb4bd
     log: |
-         e46eeb24d707d4ea6985bfa511948a3b62974c09 regulator: dt-bindings: sy8827n: support standard properties
-         0385461943bed36c254759c2d45ce1d570188764 Merge regulator-linus into regulator-next
-         8c3ce6554a5b995599b84388347b301553e9efd5 Merge regulator/for-7.4 into regulator-next
+         00765a3467b992d0eb56704a28887256317eb4bd spi: dt-bindings: snps,dw-apb-ssi: Add Synaptics sl2610 spi
+         
+  - ref: refs/heads/for-next
+    old: 66af9cc0c92af23054a1970935ec30b3d9582edd
+    new: 85b0e19de168d82cbd879a4c8e13fabad5ef4dd8
+    log: |
+         00765a3467b992d0eb56704a28887256317eb4bd spi: dt-bindings: snps,dw-apb-ssi: Add Synaptics sl2610 spi
+         fbb8f7f94bd418be3f531fb512f61151ea1d02d7 Merge spi-linus into spi-next
+         85b0e19de168d82cbd879a4c8e13fabad5ef4dd8 Merge spi/for-7.4 into spi-next
          
