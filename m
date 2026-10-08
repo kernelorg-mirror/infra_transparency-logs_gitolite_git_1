@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-Date: Thu, 08 Oct 2026 12:52:38 -0000
-Message-Id: <179146395865.3945618.9660740641606601803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 08 Oct 2026 13:19:37 -0000
+Message-Id: <179146557730.3963043.12352342008198420841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-user: zx2c4
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/stable
-    old: ae8a019af5f72c7a3eb9a4c3e0d3fbb6c437589e
-    new: 2a73c9b2c0ca737696b1bacc7559fcaf619e302e
+  - ref: refs/heads/riscv-soc-fixes
+    old: 5857cd51c200b6924ada0b385162ba4e776e0db1
+    new: 3a25c1c77dc3769cb83c236ab33f7aa1fa17726c
     log: |
-         2a73c9b2c0ca737696b1bacc7559fcaf619e302e wireguard: noise: reject response consumption after intermediate initiation
+         3a25c1c77dc3769cb83c236ab33f7aa1fa17726c soc: mpfs: use kref cleanup on probe failure
          
