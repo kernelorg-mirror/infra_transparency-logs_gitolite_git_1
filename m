@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6496608853825827543=="
+Content-Type: multipart/mixed; boundary="===============0274474383987159035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Thu, 08 Oct 2026 13:26:57 -0000
-Message-Id: <179146601708.3969434.4028423797216784473@gitolite.kernel.org>
+Date: Thu, 08 Oct 2026 13:31:19 -0000
+Message-Id: <179146627976.3973122.17452547378706945966@gitolite.kernel.org>
 
---===============6496608853825827543==
+--===============0274474383987159035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: cem
 changes:
-  - ref: refs/heads/xfs-7.4-merge
+  - ref: refs/heads/for-next
     old: 197f678cccbaaf8a5f52a91e6fc914d4c57be7f7
     new: 1d55a10278054fbebb9f571c99c32dac42327361
     log: revlist-197f678cccba-1d55a1027805.txt
 
---===============6496608853825827543==
+--===============0274474383987159035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ e029aeece84b0fe4f0aa6b1dd64c0c1c49281cde xfs: factor out xfs_dir2_sf_copy_entrie
 1e3f1adf6d533b503bc2356129bd7e27c199ad5b xfs: factor out xrep_reset_fork_to_extents helper for scrub/repair
 1d55a10278054fbebb9f571c99c32dac42327361 xfs: re-use refcount scrub/repair code for rtrefcount
 
---===============6496608853825827543==--
+--===============0274474383987159035==--
