@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 08 Oct 2026 21:55:11 -0000
-Message-Id: <179149651138.151347.14494150535694980656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Thu, 08 Oct 2026 22:22:45 -0000
+Message-Id: <179149816506.171526.3798802331141010357@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/main
-    old: 24247053afda2bab6b4ace42402dbf9f3b1305d6
-    new: 3d352ef53349097f8d922f559c3ea96012c7ddd0
+  - ref: refs/heads/master
+    old: d08b516c366546d85371eee1d1f0cc87e94780b5
+    new: 9f0bf9c87fd256d7a5d1dd5d1697dc1cd31a10fc
     log: |
-         575bbe3f83565d18caa73e9b9458f754dd286f48 ath12k: WCN7850 hw2.0: update board-2.bin
-         3d352ef53349097f8d922f559c3ea96012c7ddd0 Merge branch 'robot/pr-0-1791489659' into 'main'
+         9f0bf9c87fd256d7a5d1dd5d1697dc1cd31a10fc src/bin/git-bisect-rebase--callback: Use --git-path consistently
          
