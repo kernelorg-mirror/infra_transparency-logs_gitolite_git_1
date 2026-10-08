@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6344642896624071561=="
+Content-Type: multipart/mixed; boundary="===============1673290936326880760=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Thu, 08 Oct 2026 00:58:28 -0000
-Message-Id: <179142110825.3421794.16556142089227377211@gitolite.kernel.org>
+Date: Thu, 08 Oct 2026 00:58:50 -0000
+Message-Id: <179142113086.3422105.2596769332167566346@gitolite.kernel.org>
 
---===============6344642896624071561==
+--===============1673290936326880760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chao/linux
 user: chao
 changes:
-  - ref: refs/heads/bugfix/common
-    old: e0bc8c0fb667e618c185b879f89c77c9ce8f434a
-    new: 9a8b06556db211fa49d8d54687b6f7ede0db6d29
-    log: revlist-e0bc8c0fb667-9a8b06556db2.txt
+  - ref: refs/heads/feature/cache
+    old: 7dc3f50cdf628dec7763bb41685f05d25f93124f
+    new: 656478d816348a87c73f4cd14ec14d36eb9cbce8
+    log: revlist-7dc3f50cdf62-656478d81634.txt
 
---===============6344642896624071561==
+--===============1673290936326880760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e0bc8c0fb667-9a8b06556db2.txt
+Content-Disposition: attachment; filename=revlist-7dc3f50cdf62-656478d81634.txt
 
 5edbb590dbd79005db12e06d629612ad44c936af Revert "f2fs: skip node_change lock for inline data writes"
 b9b036bd1e2cfbc189d5811d62d8711e216c40b3 f2fs: zone: fix to avoid bio split on sequential zone
@@ -38,7 +38,6 @@ ba56b711b6079da6b4ba8e23670fd364f6a550f6 f2fs: cache: count the temporary pins a
 5880bce4d8b5c028a4ed49ac607caeafddc3c6ad f2fs: disallow mmap write and data-modifying fallocate on atomic files
 e3fa7ab467bafea3c6a42d045e11561941da3764 f2fs: check every cur_*_segno[] entry on readonly images
 ce439a2b06906635cef7f12c043a37cb1b5332c6 f2fs: bound the SIT/NAT bitmaps by the checkpoint pack
-260d76efdb3627a1a48963b77a9824b692783605 f2fs: use bio_in_atomic() in f2fs_write_end_io()
-9a8b06556db211fa49d8d54687b6f7ede0db6d29 f2fs: use bio_in_atomic() in f2fs_read_end_io()
+656478d816348a87c73f4cd14ec14d36eb9cbce8 f2fs: introduce metadata cache
 
---===============6344642896624071561==--
+--===============1673290936326880760==--
