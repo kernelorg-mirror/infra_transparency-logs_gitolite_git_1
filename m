@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Thu, 08 Oct 2026 15:59:15 -0000
-Message-Id: <179147515570.4081285.12112675720575922165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Thu, 08 Oct 2026 16:25:49 -0000
+Message-Id: <179147674918.4101675.4423935041677756527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/master
-    old: 65ac890492c96b88d10d8c92342a1b00ff603dba
-    new: 8e0b3b316b6c306c80d8ce2ff7858c6d428e9fd6
+  - ref: refs/heads/socfpga_dts_for_v7.4
+    old: c5a2c63982af3a7a1d56a784f5b8d9fbe8cce20f
+    new: 1c4d22949a77d82505188bf36a4bcae0cbdf699e
     log: |
-         320ca8cd1c47abb17f21580acfd736fc1e8cf715 Change my email address
-         edf007c0e6ea979dafe297982347668d12482345 ci: Do not use 'docs' target
-         76d7089b816bfa1637b1e9dfaa74659026025197 ci: Default steps to run on bash
-         a698a2c4d6b6da1832082aeefeeab21e3717cefc ci: Allow different ref for setup-os
-         50950dbeadec90658c10a70d4e44b109e6d25a50 ci: Only allow publishing docs from master branch or valid tag
-         8e0b3b316b6c306c80d8ce2ff7858c6d428e9fd6 libkmod: add mask command
+         1c4d22949a77d82505188bf36a4bcae0cbdf699e arm64: dts: altera: Move all SoCFPGA files to dts/altera
          
