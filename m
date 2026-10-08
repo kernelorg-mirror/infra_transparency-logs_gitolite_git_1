@@ -1,28 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Thu, 08 Oct 2026 21:34:51 -0000
-Message-Id: <179149529181.133682.17054421136738553334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Thu, 08 Oct 2026 21:38:59 -0000
+Message-Id: <179149553902.137233.5568868109871103713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/master
-    old: 6453a5a484eb95e3c2ea42dc6e8e5ef320cf5ed2
-    new: 43736857f1741b137247cb4ea4d5fc29c3f58a01
+  - ref: refs/heads/b4/rust-dyndbg
+    old: aa2f12a993587f011b8066a21931d13ddabde76a
+    new: abd83226b364e869659cd351fa7b7b1758e961d2
     log: |
-         86b46c3c4bba08bda51cad607e738509bebec7e4 src/bin/git-bisect-rebase: Keep $dir/ if the rebase finds a conflict
-         013b5d027a3cc124f1a45d90b681fadd2fe2b4c9 src/bin/git-bisect-rebase: Reorder case/esac entries
-         000304083a03bbd42e9c9b8191ebbe9c85042a45 src/bin/git-bisect-rebase--callback: disable=SC2064
-         596b13d79b6f34f9bb70a8a6c98a6265ae9f9386 src/bin/git-bisect-rebase: Avoid a file by using a pipe
-         7660b3f69bbfad3a50b31c05c29ea2bd0ec135e5 src/bin/git-bisect-rebase: Group options in the usage message
-         a4c26e94d3f530dec50f4352fe97a97dce2eebd5 src/bin/git-bisect-rebase: --abort: Add option
-         79d790bc3ee01355b261a00b7bea667f7274371e src/bin/git-bisect-rebase: Use <arg> instead of ARG for arguments
-         29a82ce632b322dea3aaef5d2c85e6192f1ef5ee src/bin/git-bisect-rebase{,--continue}: Split part of the script to a helper
-         52fc140e00837ddc87a5f4127ab773c0c841c114 src/bin/git-bisect-rebase: Terminate the script with 'exit 0'
-         43736857f1741b137247cb4ea4d5fc29c3f58a01 src/bin/git-bisect-rebase: --continue: Add option
+         eac3931b352d85fd2a69aeb9651d8b4e8e26dcce rust: add support for dynamic debug
+         96315c62d086a7dc92f83353c3f8c4fa97f5bc81 dyndbg: use u32 for struct _ddebug bitfields
+         f806eea59683238a6f340d23070dd6ad552a6b41 dyndbg: make _ddebug::flags its own field
+         95790a4be8b3d8f49494b23b24b1492a92733946 dyndbg: use READ_ONCE()/WRITE_ONCE() to access descriptor flags
+         9ddeea50c517b46417c77406734731c2df8e63a7 rust: sync: atomic: Add Atomic<u{8,16}>
+         d076b2ecd793adf9845e8dd484c82107e1b29e90 rust: num: Add Bounded::USABLE_BITS
+         d3a3607eef45e49624b23cc5efa7ea901a7b5c22 rust: print: use CStr for __LOG_PREFIX
+         f0010e65815766a0537bd5586bf2742c5d29ab52 rust: add support for dynamic debug
+         90108b4044d0083a02536af315009101b5befe08 samples: rust_print: add debug messages
+         81623488917883bebc3780dc67aa2f30ffde86ec rust: print: enable dynamic debug for pr_debug!()
+         18d2380959052176146d5111e27deb7ea20fd6a6 rust: device: remove logging methods
+         abd83226b364e869659cd351fa7b7b1758e961d2 rust: device: enable dynamic debug for dev_dbg!()
          
