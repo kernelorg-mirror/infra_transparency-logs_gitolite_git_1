@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 08 Oct 2026 18:59:11 -0000
-Message-Id: <179148595141.22029.2997346248389289104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
+Date: Thu, 08 Oct 2026 19:06:09 -0000
+Message-Id: <179148636967.28384.9872984409309823216@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/lindholm/alpha
+user: lindholm
 changes:
-  - ref: refs/heads/dev
-    old: 50c29ee8d0f88fcec28d492d01eb7ca8715f5961
-    new: 5fcb2f76f7b95df87f5c6d3a580e4d756ceaa1c8
+  - ref: refs/heads/for-next
+    old: e946efcc89066c5d80acbae42d015a4da33a11de
+    new: 496e328c6107ebdcd0a0d70eae52595b64b52a57
     log: |
-         8e6d02ab628d0e1b643a17bc28e86df4d27b5f1b erofs-utils: mkfs: fix segfault with `--compress-hints`
-         efccbd40785491a0ad85229d82cf6d3eb92423b6 erofs-utils: lib: close source fd on early errors in erofs_mkfs_begin_nondirectory()
-         758218599b378ab3d861b8ab51d2c130a89f0ac2 erofs-utils: avoid unsigned long if possible (incomplete)
-         0331433764f6ae95912800c658556f0cb1ddfd24 erofs-utils: lib: get rid of unused erofs_ftype_to_dtype()
-         d96eb058996e46076f65b177d8547f2578ca1d08 erofs-utils: tar: Fix printing uninitialized memory from xattr value
-         5fcb2f76f7b95df87f5c6d3a580e4d756ceaa1c8 erofs-utils: lib: fail instead of hanging on short reads in erofs_io_xcopy()
+         fb4af09349bcaf5afc5224a870797795781e415d alpha: add missing page_table_check_pte_clear() to ptep_get_and_clear()
+         337a66d996807c90eda801772752487f36e536f4 alpha: handle VM_FAULT_HWPOISON in do_page_fault()
+         b35a0d2644e46c1da9e6214fe31fa587d44402a2 alpha: describe the PTE read and write enable bits
+         57864b3e4cddea31771ca096748a1f676827dbed alpha: define granularity hint PTE bits
+         f06ff6cdcc11eef3e3c0137cb0c82c6e6466f197 alpha: align hugetlb mappings in arch_get_unmapped_area()
+         496e328c6107ebdcd0a0d70eae52595b64b52a57 alpha: implement hugetlb support
          
