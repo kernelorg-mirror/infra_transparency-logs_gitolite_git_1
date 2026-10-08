@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 08 Oct 2026 19:15:50 -0000
-Message-Id: <179148695095.35611.14149075713107990951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 08 Oct 2026 19:17:24 -0000
+Message-Id: <179148704422.36581.8369446983248709188@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/experimental
-    old: 8c46e4a24ba5e29c8b91cf1af2c4af2e287977da
-    new: 1c44a9ce1edd4543c54f3249298630e8276398aa
+  - ref: refs/heads/for-linus
+    old: cee9395acd8043be0644b25c34bfa86623f2b935
+    new: 8c7a395358ff82b3728ba8e91cd435878a801f40
     log: |
-         c8c8be06e649e9d14edc57e55c733831c5896bbd erofs-utils: lib: tar: fix source path leak
-         1c44a9ce1edd4543c54f3249298630e8276398aa erofs-utils: lib: fix null memcpy source in xattr listing
+         8c7a395358ff82b3728ba8e91cd435878a801f40 PCI/AER: Skip error recovery on false alarms
          
