@@ -1,45 +1,103 @@
-Content-Type: multipart/mixed; boundary="===============3370146242321118917=="
+Content-Type: multipart/mixed; boundary="===============4200472383421300561=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 08 Oct 2026 11:36:37 -0000
-Message-Id: <179145939709.3888614.18361700561781234588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Thu, 08 Oct 2026 11:43:50 -0000
+Message-Id: <179145983076.3892804.1116236926997828464@gitolite.kernel.org>
 
---===============3370146242321118917==
+--===============4200472383421300561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/master
-    old: 0c2669a9f4a1d607e7591ae50ccf3c432a0aff08
-    new: 47324d3a5b3abd781295044d01d92d09f184e872
-    log: revlist-0c2669a9f4a1-47324d3a5b3a.txt
+  - ref: refs/heads/devel
+    old: 7c402485c56380fdc06e00c6fcdae903f63d9c89
+    new: 2430546e8d00b1a00fa85f71b666777bc9e3db27
+    log: revlist-7c402485c563-2430546e8d00.txt
+  - ref: refs/heads/fixes
+    old: 1cca81a683da7f0ef2fbaf34442376044cbbad22
+    new: 85b3a4d5032df9140867253dfc7611a30be7fdc6
+    log: revlist-1cca81a683da-85b3a4d5032d.txt
+  - ref: refs/heads/for-next
+    old: 173753cb47947b5fde337cb10fcfb15578a9ca81
+    new: e4a19465ea9be9bc01c49a9307272c9d40cb93e7
+    log: revlist-173753cb4794-e4a19465ea9b.txt
 
---===============3370146242321118917==
+--===============4200472383421300561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c2669a9f4a1-47324d3a5b3a.txt
+Content-Disposition: attachment; filename=revlist-7c402485c563-2430546e8d00.txt
 
-58a00330248154461c52a6f3bd5c01e5b67f9560 power: sequencing: pcie-m2: Add Lenovo ThinkPad T14s gen6 WCN7850 subsystem PCI ids
-ff82fc3a4a1d417dee1229681cc5285986edb1fa gpio: xilinx: fix runtime PM leak on request error path
-0d6c5794fd633427f0d4ad8b51d94061295649da power: sequencing: pcie-m2: Fix leaking array from of_regulator_bulk_get_all()
-4d69e74034b208588636ecc177e0dd43a7696af3 gpio: exar: initialize the ID before registering its cleanup
-7efa1a1953cd6b20b23a3524d5b4b81789c6ef25 gpio: mpsse: fix race when arming the IRQ poll worker
-838bb60dc21553e32df90f2f3bac5b905376e7aa mm/mremap: fix locked_vm leak from MREMAP_DONTUNMAP self-merge
-597e4b9ab48a3f841080f627722064853d3f650e mm/mremap: fix locked_vm leak by splitting VMA for MREMAP_DONTUNMAP
-29e0dd1f2ef82d0931ed1a4e6b1d8aa04650835d mailmap: update addresses for John Garry
-2fb552b0bee70c24c092720028ab4620f5eb2646 mm: don't schedule deferred kernel page table freeing while booting
-28eed9906e01d01cbdfb352e799413b2e8b33b76 selftests/mm: cleanup -Wformat issues in hugetlb-mmap
-d3ed3a40951c964d30dc7fc63d13e87a873ea300 drivers/char/mem: mmap readonly MAP_SHARED-/dev/zero correctly
-80ce29104123be4d61b5912dae543c70af0fcb75 mailmap: update entry for Andy Yan
-b732c98215831db36eff1cbbcd0df2f98b765f4e Merge tag 'mm-hotfixes-stable-2026-10-07-21-48' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-156c9ca041377f9ffa5967c7debc5fd0f667d395 Merge tag 'gpio-fixes-for-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-47324d3a5b3abd781295044d01d92d09f184e872 Merge tag 'pwrseq-fixes-for-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+a67c78364f8b3312d36c3518fe839af8f8385101 dt-bindings: pinctrl: qcom,hawi-lpass-lpi-pinctrl: Add Hawi LPI pinctrl
+6f168dea0db7bf35089a7fe942f1df6214464fcc pinctrl: qcom: hawi-lpass-lpi: add Hawi LPASS LPI TLMM
+25f42a33ecf914e6d8da6eed2cdf7ad86c9a904b dt-bindings: pinctrl: qcom,pmic-gpio: Document PMAU0102 GPIO support
+1cc8b87bd9719f5c496d27a1b4d2892947ba70d5 pinctrl: qcom: spmi-gpio: Add PMAU0102 GPIO support
+7d65a9c8fa31e04f41bec15fc4a4f51e207d2aba dt-bindings: pinctrl: qcom: Add Kuno TLMM
+d0344c6510d050ee79c6aa3997f2c641168ebf08 pinctrl: qcom: Add Kuno pinctrl driver
+d4f74023be11eb9aea9a8c0b0582f20aa2c2640b dt-bindings: pinctrl: qcom,sc8280xp-tlmm: allow gpio-line-names
+fd702f895c5addaf9dea1a9d765209592e469cf0 pinctrl: qcom: Drop marketing name-prefixed duplicate defines
+2f006f5c617a56afe7683b607727349e0aea7814 dt-bindings: pinctrl: qcom: Add MSM8952 pinctrl
+b53a6210af0fe559670e298349968beae2c7448b pinctrl: qcom: Add MSM8952 tlmm pinctrl driver
+d29bfb93a19771b822dab6d7adbbbaf188cb1db5 pinctrl: qcom: lpass-lpi: Include value in debugfs output
+4d7c9430a26aea6a69521af3aa2d78dd5bc8d3ed pinctrl: qcom: tlmm-test: Add const to reg_names allocation type
+2430546e8d00b1a00fa85f71b666777bc9e3db27 Merge tag 'pinctrl-qcom-updates-for-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into devel
 
---===============3370146242321118917==--
+--===============4200472383421300561==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1cca81a683da-85b3a4d5032d.txt
+
+fbfd6d0d3596d072f7546b25228e4eb599f68a95 pinctrl: qcom: nord: Split QUP1 SE2/SE3 into lane-pair functions
+818103dc7f5998a0d7957fb71d4deecdf4d579e1 pinctrl: qcom: ipq5210: Publish the OF module alias
+68ab4a6a84b92f52650508acb60317eb76454250 pinctrl: qcom: nord: fix GPIO interrupt target width
+9d4c3e0c6a53eb390d58b8d7aaf08885e46f93fd pinctrl: qcom: hawi: Fix intr_target_width
+912df33f296e6c4ced8c0a5e7998d570a0b82214 pinctrl: qcom: maili: Fix intr_target_width
+dcb5df182b37587d5ad6bb4388751bf5180957ac pinctrl: qcom: qcs8300: Fix intr_target_width
+c6c159fcdb4e9a678eda0831f971e4a3a488ec47 pinctrl: qcom: ipq5018: add missing pwm3 function on gpio13
+8157cd417d72137ba0bd4c8c8355a67223f1ad95 Merge tag 'v7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux into pinctrl-qcom/for-current
+19fc4240358be2a25ce8e0a49a2819588ed61c5d pinctrl: qcom: spmi-gpio: make direction changes exclusive
+65db42a9fae05c46a5df5b7ca5c175b80f9c4278 pinctrl: qcom: ipq5018: update PWM groups and corresponding pin functions
+709ba1c547eaf37da36ded2ecf3ea4e304cdfa9a pinctrl: qcom: ipq5018: replace gcc_plltest with pwm2 on gpio12
+85b3a4d5032df9140867253dfc7611a30be7fdc6 Merge tag 'pinctrl-qcom-fixes-for-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into fixes
+
+--===============4200472383421300561==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-173753cb4794-e4a19465ea9b.txt
+
+a67c78364f8b3312d36c3518fe839af8f8385101 dt-bindings: pinctrl: qcom,hawi-lpass-lpi-pinctrl: Add Hawi LPI pinctrl
+6f168dea0db7bf35089a7fe942f1df6214464fcc pinctrl: qcom: hawi-lpass-lpi: add Hawi LPASS LPI TLMM
+25f42a33ecf914e6d8da6eed2cdf7ad86c9a904b dt-bindings: pinctrl: qcom,pmic-gpio: Document PMAU0102 GPIO support
+1cc8b87bd9719f5c496d27a1b4d2892947ba70d5 pinctrl: qcom: spmi-gpio: Add PMAU0102 GPIO support
+7d65a9c8fa31e04f41bec15fc4a4f51e207d2aba dt-bindings: pinctrl: qcom: Add Kuno TLMM
+d0344c6510d050ee79c6aa3997f2c641168ebf08 pinctrl: qcom: Add Kuno pinctrl driver
+fbfd6d0d3596d072f7546b25228e4eb599f68a95 pinctrl: qcom: nord: Split QUP1 SE2/SE3 into lane-pair functions
+d4f74023be11eb9aea9a8c0b0582f20aa2c2640b dt-bindings: pinctrl: qcom,sc8280xp-tlmm: allow gpio-line-names
+818103dc7f5998a0d7957fb71d4deecdf4d579e1 pinctrl: qcom: ipq5210: Publish the OF module alias
+fd702f895c5addaf9dea1a9d765209592e469cf0 pinctrl: qcom: Drop marketing name-prefixed duplicate defines
+2f006f5c617a56afe7683b607727349e0aea7814 dt-bindings: pinctrl: qcom: Add MSM8952 pinctrl
+b53a6210af0fe559670e298349968beae2c7448b pinctrl: qcom: Add MSM8952 tlmm pinctrl driver
+d29bfb93a19771b822dab6d7adbbbaf188cb1db5 pinctrl: qcom: lpass-lpi: Include value in debugfs output
+68ab4a6a84b92f52650508acb60317eb76454250 pinctrl: qcom: nord: fix GPIO interrupt target width
+9d4c3e0c6a53eb390d58b8d7aaf08885e46f93fd pinctrl: qcom: hawi: Fix intr_target_width
+912df33f296e6c4ced8c0a5e7998d570a0b82214 pinctrl: qcom: maili: Fix intr_target_width
+dcb5df182b37587d5ad6bb4388751bf5180957ac pinctrl: qcom: qcs8300: Fix intr_target_width
+4d7c9430a26aea6a69521af3aa2d78dd5bc8d3ed pinctrl: qcom: tlmm-test: Add const to reg_names allocation type
+c6c159fcdb4e9a678eda0831f971e4a3a488ec47 pinctrl: qcom: ipq5018: add missing pwm3 function on gpio13
+8157cd417d72137ba0bd4c8c8355a67223f1ad95 Merge tag 'v7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux into pinctrl-qcom/for-current
+19fc4240358be2a25ce8e0a49a2819588ed61c5d pinctrl: qcom: spmi-gpio: make direction changes exclusive
+65db42a9fae05c46a5df5b7ca5c175b80f9c4278 pinctrl: qcom: ipq5018: update PWM groups and corresponding pin functions
+709ba1c547eaf37da36ded2ecf3ea4e304cdfa9a pinctrl: qcom: ipq5018: replace gcc_plltest with pwm2 on gpio12
+85b3a4d5032df9140867253dfc7611a30be7fdc6 Merge tag 'pinctrl-qcom-fixes-for-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into fixes
+2430546e8d00b1a00fa85f71b666777bc9e3db27 Merge tag 'pinctrl-qcom-updates-for-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into devel
+e4a19465ea9be9bc01c49a9307272c9d40cb93e7 Merge branch 'devel' into for-next
+
+--===============4200472383421300561==--
