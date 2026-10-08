@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 08 Oct 2026 02:02:20 -0000
-Message-Id: <179142494034.3476154.3779251170088205236@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 08 Oct 2026 02:02:22 -0000
+Message-Id: <179142494227.3476363.3259834785199550762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 3917a13917e6266d33cc933530c0f492a394efbc
-    new: e357e76b6ca59d61d622556a5d2e3c1030c14f96
+    old: f202578efc738b883cfa04889eb97328914265a7
+    new: 1d6500523b8d5112afe0118173ebc8c1ca23784e
     log: |
-         8c37b775c92eb03e9209605a816c2a5fc8f3a64c e1000e: fix IRQ leak when request_irq() fails in e1000_request_msix()
-         e357e76b6ca59d61d622556a5d2e3c1030c14f96 e1000e: Fix out-of-bounds MMIO access by validating BAR0 size
+         1d6500523b8d5112afe0118173ebc8c1ca23784e e1000e: add system to disable K1 list
          
