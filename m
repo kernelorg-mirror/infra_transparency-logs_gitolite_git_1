@@ -1,25 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Thu, 08 Oct 2026 22:44:51 -0000
-Message-Id: <179149949155.189129.4992761704410374305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Thu, 08 Oct 2026 22:52:07 -0000
+Message-Id: <179149992733.195731.12689906019566257897@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/tags/mm-everything-2026-10-08-22-36
-    old: 0000000000000000000000000000000000000000
-    new: 3527d15c302cbddce68ccd386a01c10fa130f9a4
-  - ref: refs/tags/v7.3-rc4
-    old: 0000000000000000000000000000000000000000
-    new: dec005ae90a2946656a090f37bf1cfbd22f08e57
-  - ref: refs/tags/v7.3-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 5a956dde5526a634dca7ccad27c051ebcc306089
-  - ref: refs/tags/v7.3-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 4eeccbed21e50c19f97be9d325511f3de6343f2d
+  - ref: refs/heads/test
+    old: ac7360d48607622cd3b1889e2d642a47e458d9e3
+    new: c69023b5e16e5ffe9368603dca76d85bd544ee57
+    log: |
+         01b8354fa2bc33f411837ac2f6dccfc8dceda96c vhost/vsock: split out vhost_vsock_drop_backends helper
+         a29f2afa2d73c28f2290c7b3232e467d703035b5 vhost/vsock: suppress EHOSTUNREACH fast-fail during CPR pause
+         bb52825eddec2801ae9ace88f53dfee01d22b9bd vhost/vsock: re-scan TX virtqueue on device start
+         5efd97e6f0c745d5cb34e4e3b709200e23d4d7b7 vhost: synchronize with RCU readers when freeing workers
+         8f2c2fb94a01320e5136c6e89a47fb12355ad27c vhost/vsock: add VHOST_RESET_OWNER ioctl
+         c69023b5e16e5ffe9368603dca76d85bd544ee57 tools/virtio: add missing device-id/virtio.h wrapper header
+         
+  - ref: refs/heads/vhost
+    old: ac7360d48607622cd3b1889e2d642a47e458d9e3
+    new: c69023b5e16e5ffe9368603dca76d85bd544ee57
+    log: |
+         01b8354fa2bc33f411837ac2f6dccfc8dceda96c vhost/vsock: split out vhost_vsock_drop_backends helper
+         a29f2afa2d73c28f2290c7b3232e467d703035b5 vhost/vsock: suppress EHOSTUNREACH fast-fail during CPR pause
+         bb52825eddec2801ae9ace88f53dfee01d22b9bd vhost/vsock: re-scan TX virtqueue on device start
+         5efd97e6f0c745d5cb34e4e3b709200e23d4d7b7 vhost: synchronize with RCU readers when freeing workers
+         8f2c2fb94a01320e5136c6e89a47fb12355ad27c vhost/vsock: add VHOST_RESET_OWNER ioctl
+         c69023b5e16e5ffe9368603dca76d85bd544ee57 tools/virtio: add missing device-id/virtio.h wrapper header
+         
