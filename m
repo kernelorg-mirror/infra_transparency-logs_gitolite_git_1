@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Thu, 08 Oct 2026 18:29:08 -0000
-Message-Id: <179148414871.4192829.7790562491481138413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 08 Oct 2026 18:32:00 -0000
+Message-Id: <179148432064.2065.8715600886532290077@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/dmabuf-size-ceiling-v7.3-rc3
-    old: b10aa212a3c82831fb155714f9e6fc52595f95d4
-    new: b94e3ad66b1016639fa7e30853523145ce619ba2
+  - ref: refs/heads/main
+    old: 2b82e16d6084cbc651e3c902198f1945408ee1a5
+    new: 6785011f8b16abf40b1e9d8b2e332232b3e68822
     log: |
-         f6b75290a2d4b1603dff8b7816dcc1c285f9fd7c nvme-pci: wait for mapping-induced DMA-BUF migration
-         17295c4c472cfa568bd2287728bc953c468c74d3 selftests/dmabuf: add GPU/NVMe PCI peer policy diagnostic
-         f48d662547a958bed869525bc11007d644e2af71 selftests/dmabuf: explain fallback routes and accept opt-in Vulkan/RM probes
-         b94e3ad66b1016639fa7e30853523145ce619ba2 selftests/dmabuf: explain GTT latency and CPU cache bypass limits
+         ab9414ed70bd783e902a85c350620dee269bcb2b net: skbuff: don't leave stale bytes in skb_copy_and_csum_bits()
+         089e58805c452e52179482b1025a8e309a57f801 xen/netfront: drop RX packets with a short Ethernet header
+         513e23857a3a64fa73a1deb36a385eecd4ad7690 net/packet: call packet_parse_headers after virtio_net_hdr_to_skb
+         93ccaf1c26e2133396173b76a071e59024daa622 xen/netfront: don't leak the skb when xennet_fill_frags() fails
+         f8c8bd159a9bf626dd4921b7746ff481fce8c758 ptp: ocp: fix PCIe delay estimation calculation
+         6785011f8b16abf40b1e9d8b2e332232b3e68822 ipv4: validate checksum_start before completing checksum
          
