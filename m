@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0411144022114653692=="
+Content-Type: multipart/mixed; boundary="===============5910828462445387928=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 08 Oct 2026 09:51:25 -0000
-Message-Id: <179145308573.3810679.9092040195934246871@gitolite.kernel.org>
+Date: Thu, 08 Oct 2026 09:51:27 -0000
+Message-Id: <179145308778.3810789.1249494097176429498@gitolite.kernel.org>
 
---===============0411144022114653692==
+--===============5910828462445387928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: de3c5f0e6ebc5e0885d99043e071320cbb6ffbde
-    new: a92f009ac1c21986ff1ea0706419e545a4739513
-    log: revlist-de3c5f0e6ebc-a92f009ac1c2.txt
+  - ref: refs/heads/mm-unstable
+    old: a663a4c75b63341fa6cc16e15feb29f36321f5f2
+    new: fb0fbeb378bcc7fd59bcdd484f5905a0e1b48972
+    log: revlist-a663a4c75b63-fb0fbeb378bc.txt
 
---===============0411144022114653692==
+--===============5910828462445387928==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de3c5f0e6ebc-a92f009ac1c2.txt
+Content-Disposition: attachment; filename=revlist-a663a4c75b63-fb0fbeb378bc.txt
 
 15f6afdf05c6fe4f5e6a47d6d57dd5c64a96ebdb mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
 ddcd7e92df6f63a335cc7e91a52386c05f4c506c mm/vmalloc: use dedicated unbound workqueues for vmap drain
@@ -525,20 +525,5 @@ aedb605f24a39ed4106566434c56c1c42dac83f7 mm/collapse: open-code collapse_single_
 16697708188deb2a20887111e721358dfbd3d3da mm/collapse: work out the orders a VMA allows once per VMA
 a757ffc8725149f44ef20570c31f51c202e32d6a mm/collapse: declare the collapse interface in collapse.h
 fb0fbeb378bcc7fd59bcdd484f5905a0e1b48972 mm/collapse: implement MADV_COLLAPSE in madvise.c
-84bcd0dbc50d362c70de04955aa8c41ca61781b0 selftests/mm: check MREMAP_DONTUNMAP mlock accounting
-fa2e4a000aa5612d200790835d9d4a7307733a10 selftests/mm: fix soft-dirty kselftest supported check
-65209391b3ee9074e4d1de772cfda08c60156d20 riscv: mm: fix concurrency in mark_new_valid_map()
-acd392152ec2e62a8a17168dd978512e1124dabc riscv: mm: exclude invalid THP PMDs from page table check
-d2d1063aa9387fbc40213e3f825b1507118bb087 sh: remove CONFIG_NUMA and related configuration options
-9547c6d1282e8672eb01caffc4a2fc66c6e4f6b4 sh: mm: remove numa.c
-d808c77c5bed0e0fba383739bc4a16d2dfa5621c sh: mm: drop allocate_pgdat()
-d57b4f1f3f02cc896b4aa29ad63bca60325f7292 sh: remove setup_bootmem_node() and plat_mem_setup()
-ffe4dd65ebfbcaa813054f6facce9af73609e268 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-73dc020ec87ccf2650373d66435a53e794e8918a sh: drop include/asm/mmzone.h
-0daa8e62c8006c2ec995edce403556b66029c7d5 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-66b084030132005a042b3df89b81870c69c82887 sh: init: remove call the memblock_set_node()
-4227e99e7d9ac2b3a69d1312cdfb37b0f607d1be sh: remove SPARSEMEM related entries from Kconfig
-d49e6ad829fce3aa89890d5f53db2f5bdfc5d7fd sh: drop include/asm/sparsemem.h
-a92f009ac1c21986ff1ea0706419e545a4739513 mm/swap, PM: hibernate: atomically replace hibernation pin
 
---===============0411144022114653692==--
+--===============5910828462445387928==--
