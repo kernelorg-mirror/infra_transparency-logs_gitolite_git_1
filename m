@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Thu, 08 Oct 2026 22:24:27 -0000
-Message-Id: <179149826766.172625.4896333638138366355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Thu, 08 Oct 2026 22:27:36 -0000
+Message-Id: <179149845662.175751.10723404804145114015@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/dmabuf-size-ceiling-v7.3-rc3
-    old: b94e3ad66b1016639fa7e30853523145ce619ba2
-    new: 856b6583ab2f4581e81670845eadb69de7a68b30
+  - ref: refs/heads/for-usb-next
+    old: 7ac4e491bbbe172ddaa1fefd327143a56006e2b9
+    new: 26e4f050fa57cfe19f4a179c2fc89ccd60ea4926
     log: |
-         0ef20ee9758604e6fee0a2e533598124f2962466 nvme-pci: wait for mapping-induced DMA-BUF migration
-         04d09cdf1e79caac0a7c97c93b2d8ee56cebb6b0 selftests/dmabuf: add GPU/NVMe PCI peer policy diagnostic
-         d8b4c3e38662d6fbb9ea5fdee9152ac9b63317f2 selftests/dmabuf: explain fallback routes and add optional route probes
-         856b6583ab2f4581e81670845eadb69de7a68b30 selftests/dmabuf: explain host-memory migration costs
+         0062ed0b593cb3a42a4afb0d37ba454f12352ebc usb: xhci: Fix bounce buffer overflow
+         26e4f050fa57cfe19f4a179c2fc89ccd60ea4926 xhci: Prevent invalid vdev dereference during sideband unregister
          
