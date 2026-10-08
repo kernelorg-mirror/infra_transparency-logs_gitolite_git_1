@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Thu, 08 Oct 2026 12:44:00 -0000
-Message-Id: <179146344090.3938651.3971407916964991252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Thu, 08 Oct 2026 12:52:38 -0000
+Message-Id: <179146395865.3945618.9660740641606601803@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/next
-    old: 53b32375c9caf793ff392f762236c90f2a062ae5
-    new: 82eed160cfa7a296ae4eb5acb8dd8f493323eea7
+  - ref: refs/heads/stable
+    old: ae8a019af5f72c7a3eb9a4c3e0d3fbb6c437589e
+    new: 2a73c9b2c0ca737696b1bacc7559fcaf619e302e
     log: |
-         82eed160cfa7a296ae4eb5acb8dd8f493323eea7 dmaengine: qcom: bam_dma: free interrupt before the clock in error path
+         2a73c9b2c0ca737696b1bacc7559fcaf619e302e wireguard: noise: reject response consumption after intermediate initiation
          
