@@ -1,19 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 08 Oct 2026 00:56:50 -0000
-Message-Id: <179142101041.3421158.4665064397535424291@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6344642896624071561=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Thu, 08 Oct 2026 00:58:28 -0000
+Message-Id: <179142110825.3421794.16556142089227377211@gitolite.kernel.org>
+
+--===============6344642896624071561==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/main
-    old: 7fadfc8dc63fe77b3a2dd1e023915f6fad7efdac
-    new: a51d233ccd4889aadb71dace863525cc2b00271e
-    log: |
-         a51d233ccd4889aadb71dace863525cc2b00271e bnxt_en: fix DMA mapping length for padded small packets
-         
+  - ref: refs/heads/bugfix/common
+    old: e0bc8c0fb667e618c185b879f89c77c9ce8f434a
+    new: 9a8b06556db211fa49d8d54687b6f7ede0db6d29
+    log: revlist-e0bc8c0fb667-9a8b06556db2.txt
+
+--===============6344642896624071561==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e0bc8c0fb667-9a8b06556db2.txt
+
+5edbb590dbd79005db12e06d629612ad44c936af Revert "f2fs: skip node_change lock for inline data writes"
+b9b036bd1e2cfbc189d5811d62d8711e216c40b3 f2fs: zone: fix to avoid bio split on sequential zone
+e881f4730f758cdb6db84cbda1b3d22b26aa497c f2fs: cache: introduce metadata_cache sysfs node
+7f35dce566fbd470c57fe83dd9ebba856e78539c f2fs: cache: shrink meta and node caches in f2fs_balance_fs_bg
+d7f084b1ad936874405f93ee5e57d89452c4870f f2fs: cache: wake up f2fs_writeback when exceeding threshold
+614313cdbc24aeae5c02c7eef54e7c07a5cf5228 f2fs: cache: support asynchronous write_end_io
+806e5fee1be897150498bd51993b6a873aa0f139 f2fs: introduce max_atc_write_bio_entry_cnt
+ba56b711b6079da6b4ba8e23670fd364f6a550f6 f2fs: cache: count the temporary pins apart from the regular references
+8a821f907a06564ca66c49061f15993aa9870d97 f2fs: convert inline quota files when turning quota on
+5880bce4d8b5c028a4ed49ac607caeafddc3c6ad f2fs: disallow mmap write and data-modifying fallocate on atomic files
+e3fa7ab467bafea3c6a42d045e11561941da3764 f2fs: check every cur_*_segno[] entry on readonly images
+ce439a2b06906635cef7f12c043a37cb1b5332c6 f2fs: bound the SIT/NAT bitmaps by the checkpoint pack
+260d76efdb3627a1a48963b77a9824b692783605 f2fs: use bio_in_atomic() in f2fs_write_end_io()
+9a8b06556db211fa49d8d54687b6f7ede0db6d29 f2fs: use bio_in_atomic() in f2fs_read_end_io()
+
+--===============6344642896624071561==--
