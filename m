@@ -1,23 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Thu, 08 Oct 2026 08:44:12 -0000
-Message-Id: <179144905229.3759805.12508018368917470587@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/kapi
+Date: Thu, 08 Oct 2026 08:48:18 -0000
+Message-Id: <179144929809.3763329.17092302479761458850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/sashal/kapi
+user: sashal
 changes:
-  - ref: refs/heads/netfs-next-4
-    old: 71248f374f2b8d4f4cafc20f12b29f3cb0c8b18d
-    new: 3efd2626624210837c7b9d0c370d6bd3ee68c4ee
+  - ref: refs/heads/spec
+    old: 2859f40b03c0dbd0a7ac0a0829efcb6053e1d548
+    new: ef777ef05ebcc5ea5393b4bd5af6fc3ad1b3aec9
     log: |
-         06e7818e730e670ea22f169b64b4d99c04010688 netfs: Add some tools for managing a position in a bvecq chain
-         d1d543083d572bfec2c341ac76c48961630bfc90 netfs: Provide a func to load the readahead buffers into a bvecq chain
-         1661dc2ac6bc3d3187887836caf506c55c0d19c1 netfs: Use bvecq_pos to hold the buffer positions
-         38d95a0a8e45923f49d9a989fd57cc0d0ca66103 netfs: Remove the rolling_buffer implementation
-         3efd2626624210837c7b9d0c370d6bd3ee68c4ee netfs: Remove netfs_extract_user_iter()
+         ce4c52682d78fc08c9b1e2217aae6f00fa02bab3 kernel/api: introduce kernel API specification framework
+         6d009bd85fa4e6dbad869e1cb707404968f3f20d kernel/api: enable kerneldoc-based API specifications
+         89224dc705016dd40cce6c924148e31f0a0dbbb0 kernel/api: add debugfs interface for kernel API specifications
+         fe1d9958459e22cb4860abf92fa7c70bffc5fef4 tools/kapi: add kernel API specification extraction tool
+         84545c5491770e7f835c6d9a175686c931a459dd kernel/api: add API specification for sys_open
+         856d40153ab75e6911227f8ad63fc3251a6d3bc9 kernel/api: add API specification for sys_close
+         8c3c7bf8ae5549e6d72a9579aa17b7848fdbc496 kernel/api: add API specification for sys_read
+         fee17ba499173269b25d7f01d877f06bbadd5fc6 kernel/api: add API specification for sys_write
+         20ed30c4a64973085f74e0b4343bf9ea5b783862 kernel/api: add runtime verification selftest
+         eddd14da6bede7b3f321fa6412ab7836b0a1ecfe kernel/api: add API specification for sys_madvise
+         ef777ef05ebcc5ea5393b4bd5af6fc3ad1b3aec9 kernel/api: add syscall enter/exit tracepoints
          
