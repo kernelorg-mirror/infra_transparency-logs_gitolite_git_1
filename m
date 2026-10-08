@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Thu, 08 Oct 2026 22:31:40 -0000
-Message-Id: <179149870023.179605.6325694726804249323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Thu, 08 Oct 2026 22:33:54 -0000
+Message-Id: <179149883456.180336.928504819824073191@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/linux-next
-    old: 8f2c2fb94a01320e5136c6e89a47fb12355ad27c
-    new: c69023b5e16e5ffe9368603dca76d85bd544ee57
+  - ref: refs/heads/master
+    old: ccc1457b2819110b3c0fc29f6025a83b41a35af2
+    new: ea4609e71f017efea04d985e5168370efb109e6d
     log: |
-         c69023b5e16e5ffe9368603dca76d85bd544ee57 tools/virtio: add missing device-id/virtio.h wrapper header
+         084ab38e93e601cc02d8fc42003a29630b5c6572 src/bin/git-bisect-rebase--continue: Terminate the script with 'exit 0'
+         ea4609e71f017efea04d985e5168370efb109e6d src/bin/git-bisect-rebase--continue: Remove unused function
          
