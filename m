@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 08 Oct 2026 10:12:22 -0000
-Message-Id: <179145434208.3827338.14544850957646603934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
+Date: Thu, 08 Oct 2026 10:17:18 -0000
+Message-Id: <179145463881.3831147.9165597620044273357@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/mszyprowski/linux
+user: mszyprowski
 changes:
-  - ref: refs/heads/for-next
-    old: 1c36207da79455402d981125fa09716991364e66
-    new: b3e7ddd694f8429217ba509b55b910a0e4361dfb
+  - ref: refs/heads/dma-mapping-fixes
+    old: 057e5e07420c753f248f9ce148040ab6dcf8359f
+    new: 911655ab1dfb9d526978a75df3b210132620d30a
     log: |
-         6cf3ab38b0d53d41f00fe594b2986849bdf994ae ALSA: hda/hdmi: clamp num_cvts against cvt_nids[] in hdmi_read_pin_conn
-         b3e7ddd694f8429217ba509b55b910a0e4361dfb ALSA: hda/hdmi: clamp sad_count in ELD proc write handler
-         
-  - ref: refs/heads/master
-    old: b02139a6777287bd37ee9c6501b864ec505ea897
-    new: 1010878ae729201a5b536962d959bc9bee3934f8
-    log: |
-         6cf3ab38b0d53d41f00fe594b2986849bdf994ae ALSA: hda/hdmi: clamp num_cvts against cvt_nids[] in hdmi_read_pin_conn
-         b3e7ddd694f8429217ba509b55b910a0e4361dfb ALSA: hda/hdmi: clamp sad_count in ELD proc write handler
-         1010878ae729201a5b536962d959bc9bee3934f8 Merge branch 'for-next'
+         911655ab1dfb9d526978a75df3b210132620d30a swiotlb: fix default_swiotlb_limit() for non-growable default pool
          
