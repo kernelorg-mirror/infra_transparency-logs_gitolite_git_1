@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Thu, 08 Oct 2026 21:45:13 -0000
-Message-Id: <179149591370.143221.2159414376145082173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 08 Oct 2026 21:47:26 -0000
+Message-Id: <179149604608.144416.14552328698496226496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: 43736857f1741b137247cb4ea4d5fc29c3f58a01
-    new: d08b516c366546d85371eee1d1f0cc87e94780b5
+  - ref: refs/heads/pending
+    old: c73d8ebc9b146fda8c9874978dd5e46117236eb0
+    new: 2435cd2b7c71280e1a4cab1558168313150aaf4b
     log: |
-         d08b516c366546d85371eee1d1f0cc87e94780b5 src/bin/git-bisect-rebase: --quit: Add option
+         2435cd2b7c71280e1a4cab1558168313150aaf4b wifi: ath6kl: don't take RTNL in del_virtual_intf
          
