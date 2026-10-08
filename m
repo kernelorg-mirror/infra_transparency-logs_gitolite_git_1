@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 08 Oct 2026 21:53:51 -0000
-Message-Id: <179149643163.148796.5836834478261241387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 08 Oct 2026 21:55:11 -0000
+Message-Id: <179149651138.151347.14494150535694980656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: aef1259b4b46428149b35c8aaf37ea49b0b36881
-    new: db8e01936ccdcd1bd9a28714a7fd670c47c1428a
+  - ref: refs/heads/main
+    old: 24247053afda2bab6b4ace42402dbf9f3b1305d6
+    new: 3d352ef53349097f8d922f559c3ea96012c7ddd0
     log: |
-         db8e01936ccdcd1bd9a28714a7fd670c47c1428a foo
+         575bbe3f83565d18caa73e9b9458f754dd286f48 ath12k: WCN7850 hw2.0: update board-2.bin
+         3d352ef53349097f8d922f559c3ea96012c7ddd0 Merge branch 'robot/pr-0-1791489659' into 'main'
          
