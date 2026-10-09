@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3520685609060866049=="
+Content-Type: multipart/mixed; boundary="===============4359253235205999244=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 09 Oct 2026 07:29:22 -0000
-Message-Id: <179153096217.620786.1625239515002711983@gitolite.kernel.org>
+Date: Fri, 09 Oct 2026 07:29:24 -0000
+Message-Id: <179153096415.620965.7019540922527050619@gitolite.kernel.org>
 
---===============3520685609060866049==
+--===============4359253235205999244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 881ebf66c046705bc70a4a826504f20ec4a9d08b
-    new: 8b38ed9ab5b09c8ba168cbcc49524e9b380ee5c4
-    log: revlist-881ebf66c046-8b38ed9ab5b0.txt
+  - ref: refs/heads/mm-unstable
+    old: e1f80b32e7ae9015c85e3e35dcafe890eda74ea0
+    new: 634cbf5b794b734c78631b92e381cfc85f357bbe
+    log: revlist-e1f80b32e7ae-634cbf5b794b.txt
 
---===============3520685609060866049==
+--===============4359253235205999244==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-881ebf66c046-8b38ed9ab5b0.txt
+Content-Disposition: attachment; filename=revlist-e1f80b32e7ae-634cbf5b794b.txt
 
 4c770a1ca293b56d77d6375d534f128b7fc9b774 mm: trace: decode arm64 and sparc64 VM_ARCH_1 flags
 a971ac3a0af7cbc6c4980cdd41d6574bb694ee79 mm: trace: decode MTE and shadow stack VMA flags
@@ -522,19 +522,5 @@ f3f8af48f335c88b3096881c58bd0edaa7374a4e mm/collapse: work out the orders a VMA 
 21ba336a717e6b30354fade63929ff91597766ea mm/collapse: declare the collapse interface in collapse.h
 7fea65044f62933615c84d4b943fef67856a8022 mm/collapse: implement MADV_COLLAPSE in madvise.c
 634cbf5b794b734c78631b92e381cfc85f357bbe mm/swap, PM: hibernate: atomically replace hibernation pin
-dcd2c1d7c9809af5e9b4ab31239fcb6451674c80 selftests/mm: check MREMAP_DONTUNMAP mlock accounting
-918fc80b58238fad8e993955cfba103c74339a92 selftests/mm: build the page fragment test with the kernel
-a90405bdda2bcb289a23b6b74c6d113130335a05 riscv: mm: fix concurrency in mark_new_valid_map()
-fa7c37a7c6319dfcc823f50d4120f0e7eba1d5a5 riscv: mm: exclude invalid THP PMDs from page table check
-e388e6bef3400f1e8c54b269a4d07a230c2f255d sh: remove CONFIG_NUMA and related configuration options
-b134edb2d499e5c8219c30df5b143c3d563c2085 sh: mm: remove numa.c
-77637282b3fb04d4a15d092f928770bf09ab7ac1 sh: mm: drop allocate_pgdat()
-8137d3448065b914a4b260b2a0aa4916d81776e8 sh: remove setup_bootmem_node() and plat_mem_setup()
-a1547e2048f1a60c7f2005070bcc1fc8fa261f62 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-2045e284d11f7970e35d1d71b19f87afdf5cc23a sh: drop include/asm/mmzone.h
-0f9bfbcaa5c3c15de19b360d91058182d96d6d32 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-403b3e97cb6b26f261a663f7665f9aad116bb9ae sh: init: remove call the memblock_set_node()
-9db034bb1aad86d57238aa9b05a9c209ed5e21ea sh: remove SPARSEMEM related entries from Kconfig
-8b38ed9ab5b09c8ba168cbcc49524e9b380ee5c4 sh: drop include/asm/sparsemem.h
 
---===============3520685609060866049==--
+--===============4359253235205999244==--
