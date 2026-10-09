@@ -1,27 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Fri, 09 Oct 2026 15:04:21 -0000
-Message-Id: <179155826145.1036266.14012611761200838330@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
+Date: Fri, 09 Oct 2026 15:12:31 -0000
+Message-Id: <179155875136.1043563.10709830733348962395@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/mszyprowski/linux
+user: mszyprowski
 changes:
-  - ref: refs/heads/rtc-next
-    old: 237378fd6be421eb729808010953f50463687ccf
-    new: 8a017ab98412c997b9ce6b57a6941e229bf7f89a
+  - ref: refs/heads/dma-mapping-for-next
+    old: 09614367edb2b2a258775411d98ede1c0ed44c02
+    new: af3857eac74e8a957740c083ca7e381e5bf82265
     log: |
-         953c3d2b5836b6cb6fb987823fa573f38041e636 dt-bindings: rtc: abx80x: document ABX81X RTCs
-         07c57022afb3afc0d7c20efef45a4d3c7389b1c0 rtc: abx80x: fix error check after i2c_smbus_read in read_alarm()
-         74bff654a4ced9f5fc6bac9931a5d251f7795db4 rtc: abx80x: add mutex protection for register writes
-         632916c7bde35495f2f6776d8e335c3ec6e306ec rtc: abx80x: properly handle shared IRQs
-         00b978f8008e8107da149532cfdcd996e06ac657 rtc: abx80x: add irq to struct abx80x_priv
-         724320a613251470a1b3bc56a81596f4d23a6e88 rtc: abx80x: use regmap instead of I2C specific API
-         0ba70c2b1e3e394bfea1258f27323a9b3a2f6025 rtc: abx80x: replace read-modify-write pattern with regmap helpers
-         3fcf5a97957b8b5f5b0c2d95a0666ebdef7687d0 rtc: abx80x: create abx80x_i2c_probe()
-         8a017ab98412c997b9ce6b57a6941e229bf7f89a rtc: abx80x: add support for ABX81X
+         5e3bc6b44c8853bcc7782eac122c5baf2d02f399 dma-direct: Restore arch_dma_alloc() for the DMA_ATTR_NO_KERNEL_MAPPING case
+         0875ed8eea3b68e293f7fbc516df6bcfe33deb01 dma: swiotlb: use KiB in restricted pool allocation log
+         5b944c36746be496346cdb63ebb31522791d403c dma: swiotlb: Rename swiotlb_size_or_default()
+         d5093dbca79110c3180fa7119533cff86affdf0d dma: swiotlb: Consolidate slab rounding
+         af3857eac74e8a957740c083ca7e381e5bf82265 dma: swiotlb: Track whether the pool size was explicitly set
          
