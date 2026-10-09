@@ -1,368 +1,250 @@
-Content-Type: multipart/mixed; boundary="===============4737125776431218463=="
+Content-Type: multipart/mixed; boundary="===============5640052124768512003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
-Date: Fri, 09 Oct 2026 23:44:13 -0000
-Message-Id: <179158945392.1483568.8477237098480757999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 09 Oct 2026 23:53:37 -0000
+Message-Id: <179159001785.1490578.12203878689197105523@gitolite.kernel.org>
 
---===============4737125776431218463==
+--===============5640052124768512003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
-user: djwong
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/djwong-wtf
-    old: b1da9f5bfe900634916bd29ca4a6599b2916184f
-    new: 7d321233e2dcfd7710d1754056543927be6604ea
-    log: revlist-b1da9f5bfe90-7d321233e2dc.txt
-  - ref: refs/heads/enable-metadir
-    old: 4c55ca733ed6e61091309a05cced056d0faa3cd3
-    new: e3cb18b5162d5c2fc47683ec9da07c9c98102514
-    log: revlist-4c55ca733ed6-e3cb18b5162d.txt
-  - ref: refs/heads/for-next
-    old: d67bdf8007b6049f2e88a3ebc5de2c3209bae237
-    new: caca7f14b449c94583a263e5d4e51354e86529f8
-    log: revlist-d67bdf8007b6-caca7f14b449.txt
-  - ref: refs/heads/libxfs-7.3-sync
-    old: 95e155f2e4f96866f453079fe8c677ccca815e01
-    new: e47ceb65254a88655c2d996cb738f7c6dfc1cdb5
-    log: revlist-95e155f2e4f9-e47ceb65254a.txt
-  - ref: refs/heads/quotactl-cleanups
-    old: 047d4f8f678a04cea8714955ab8ef85c4a7beb28
-    new: d97bfb4887b2c476ce7a83164ae4e80601c235b1
-    log: revlist-047d4f8f678a-d97bfb4887b2.txt
-  - ref: refs/heads/xfs-codex-fixes
-    old: 7de0222d94fb6d2160e35fc6c81c36ffed1781e8
-    new: e00c55db8ee4bfd9294c08ae9500d2f10fdc0ce2
-    log: revlist-7de0222d94fb-e00c55db8ee4.txt
-  - ref: refs/tags/origin/for-next_2026-10-09
-    old: 0000000000000000000000000000000000000000
-    new: fe82f6187ee7c38e0ae2ca266fc861f8d134970f
-  - ref: refs/tags/libxfs-7.3-sync_2026-10-09
-    old: 0000000000000000000000000000000000000000
-    new: cdfcc205191922d7ed16b3f66654b50619ae6070
-  - ref: refs/tags/quotactl-cleanups_2026-10-09
-    old: 0000000000000000000000000000000000000000
-    new: 4aac9bbd50c39adc8334a0b5a707836c57e4fe15
-  - ref: refs/tags/enable-metadir_2026-10-09
-    old: 0000000000000000000000000000000000000000
-    new: a18314b841deee96af53bd7efb0c565ebce6c9ce
-  - ref: refs/tags/xfs-codex-fixes_2026-10-09
-    old: 0000000000000000000000000000000000000000
-    new: ee576e6ee0d6f4501e7157949833f3f689e817b4
-  - ref: refs/tags/djwong-wtf_2026-10-09
-    old: 0000000000000000000000000000000000000000
-    new: b8537133a05c9169b4adfefa1eb8a9be2be63a02
+  - ref: refs/heads/jch
+    old: 17f7a4c8bf4db3814570baf13ed409902645617d
+    new: 5afb269628db42385a916055704e34eab17d8480
+    log: revlist-17f7a4c8bf4d-5afb269628db.txt
+  - ref: refs/heads/next
+    old: 3575e65682c012b5f902adc09f1a0a92c8a512dc
+    new: 5a00b4a6e9018ab0c167cfe4744dcb5e8b73a9b2
+    log: |
+         e2d64bd041a7836e25eca884a48932133ed51b8d t5551: fix quoting in curl version bug prereq
+         6faaf59b8b977c263ab534c5b33ac4768d68b565 t0450: use test_path_is_file and test_path_is_missing
+         fbbc33935a25cef04374de911b7b9f73e6e8c70c doc: don't require a SYNOPSIS in section 7
+         49e646f1c9a2f130690b92773fe3c2095dcbbacb doc: fix shattered.io link
+         728abc1d8e4a3448278680854a4e65e6d56ee696 Merge branch 'jk/t5551-test-shell-quote-fix' into next
+         5c36b1a53d243fd315a12a78420c65ccc15b3415 Merge branch 'je/doc-section-7-synopsis' into next
+         5154632e88c902606122255b4d785ca08f6bbf8f Merge branch 'ma/t0450-use-test-path-is-file' into next
+         5a00b4a6e9018ab0c167cfe4744dcb5e8b73a9b2 Merge branch 'dk/fix-shattered-io-link' into next
+         
+  - ref: refs/heads/seen
+    old: ac18e84ea68a6a8f9393943915cbc849858443a3
+    new: a0e64e689c1cb6fd76c574f2d007aad26731776f
+    log: revlist-ac18e84ea68a-a0e64e689c1c.txt
+  - ref: refs/notes/amlog
+    old: 7dcdba1211e66e753d8993ba1f88f65f5fb3f4fb
+    new: a48a7bf9ce97b3d3073a8504342ceb349e689095
+    log: revlist-7dcdba1211e6-a48a7bf9ce97.txt
 
---===============4737125776431218463==
+--===============5640052124768512003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b1da9f5bfe90-7d321233e2dc.txt
+Content-Disposition: attachment; filename=revlist-17f7a4c8bf4d-5afb269628db.txt
 
-d28edf8b3722d2b3f8ae23bd225c733184b0802e xfs_healer: correct xfd_ API usage
-fde1eeed253a927a922e04ba007a586b7e4f6cde xfs_healer: fail earlier on non-xfs filesystems
-8a4a368b497dd5891808f9333c42a33d1df77d20 libxfs: refactor the reinit case in libxfs_buftarg_init
-08c91516ffa7480f1b551b177b89231e6b63e815 libxfs: split error injection option parsing out of libxfs_buftarg_init
-8f9506e2dafc95ab786d237b15b1ee04931b9be6 libxfs: remove buftarg member aliases
-35e136a42548ff1c0a881fb69b443b89aa1e34ac libxfs: unify buftarg handling with the kernel
-55ec0ef299d57842eed0286fd0cddd67e7995189 libxfs: make the size check in rtmount_init internal RT device aware
-c189d771732e403a59405a25848f6b4a039cfdbd libxfs: don't clear ->dev in libxfs_device_close
-45c2b2ae6968316f0251c2539f5b7880aeb9c0df libxfs: fix buftarg initialization for the RT device
-d69aadab419eb9cc1c2564497c605161f83a3af9 libxfs: rename bt_bdev*
-5f82a09e37bc670ec707f7a5dc7234024255d21a libfrog: improve ramdisk handling in platform_flush_device
-e58810a53900f5b026d0d1792268c209412a4661 xfs_db: remove a double-whitespace in rdump_regfile_data
-196c46c1bd31f93b612e7477ad92474397e803d4 libxfs: change cache_node_allocate function signature
-92d45f837671ff8b81bf9b62cf91219da4b79bee libxfs: Return -ENOMEM on actual cache node allocation failures
-caca7f14b449c94583a263e5d4e51354e86529f8 libxfs: do not allow cache growth to overflow
-676a9c053b3ba8161fca1b84933b6ceae8bed9e3 xfs: add xfs_metadir_create_file helper
-2e7c01836b4a8b13db04392298cb0324b55ab9d8 xfs: create quota metadir inodes using xfs_metadir_create_file
-039f190df8c004f08003c3cd902440070a2511c5 xfs: create rtgroup metadir inodes using xfs_metadir_create_file
-66b6ae4030d3b50b8419ffbfcadff39d9e801aa1 xfs: mark internal metadir file creation helpers static
-1fb40116a1cb7a570741eb3bce54f8c44a84c902 xfs: use kmalloc_objs() instead of kmalloc() in xfs_da_grow_inode_int
-7e1b9fbf6f7f7ff2f85966c073a6e7219111dcdd xfs: remove spurious XBF_DONE clearing on readahead validation failure
-3b0f5adc26cf82f6fbe80d57ec2b66f1d8b20dbc xfs: hide b_flags manipulation from code outside of xfs_buf.c
-8317b413b71acd8cbce7dd54edd14199c4f4bd35 xfs: validate attr entry pointer before field access
-7a50f7491532e94fe34c9a222e441e31fb951424 xfs: don't hold buffer locks across sync transaction commit in xfs_sync_sb_buf
-f9854a98e80c1f5de81d925f8bfd03fe500bf4e9 treewide: refresh kmalloc_obj() conversions
-c48eb55c29558fc8d0a7184213b6820d1987d94b xfs: fix exchange-range reflink flag clearing issue with INO1_WRITTEN
-42ea0afbd33c43e525615682a5d669f4debfeee1 xfs: initialise error in xfs_defer_finish_one()
-e0d9ad61164ee1ca740e8c9fd8c01259e9deb7a8 xfs: give the deferred barrier op type a name
-be2bf6513b91041f1f8e62e2441beb6d0290269f xfs: report the error that made deferred work shut down the fs
-4206701dbeff6c3188c3ab1241e43ae56c8b6f43 xfs: correct the parent pointer space reservation comment
-df60f4e15e3d9eb4fe118cd34f17aaed7329cf63 xfs: initialise args->total for parent pointer updates
-d56a38d3997d44c3eba349bcbabab4785ea1449b xfs: assert the reservation covers each da fork growth
-67b7f1c5690db6096111227361b35256617a905a xfs: fix the rtrmap and rtrefcount _maxlevels_ondisk functions
-4e62b4fbc6d81fbc7ce0c2600167f9224de6287f xfs: fix xfs_rtrmapbt_mem_cursor for non-rmap filesystems
-ebdfbefc27296b81b1ad63444f346c4bdbbaf702 xfs: preserve owner on in-memory btree creation
-7894dd5000ed483204cb634b8fd60c0e495e4fc2 xfs: don't leak new_bp if xfs_btree_bload_drop_buf fails
-1b259d3bc94262a525b514d0cb3003317930ff6f xfs: fix under-reservation of blocks when repairing sf directories
-c4a973b97ebd10b14a130f4894d203bb341a6efb xfs: remove duplicate INO1_WRITTEN check
-870cb9fc67cad146246d2bb8539ccf0caccf0045 xfs: fix typos and repeated words in comments
-7c246421a1879040be771eff16a0523f875ec8a7 xfs: don't let hidden_space go negative in xfs_metafile_resv_init
-e47ceb65254a88655c2d996cb738f7c6dfc1cdb5 xfs: fix wild memcpy access when formatting ondisk rtrefcount btree roots
-285528d26493bc482b3c1b843ee2cb31e7e9659c misc: convert as many xfsquotactl callsites to xfrog_quotactl as possible
-d97bfb4887b2c476ce7a83164ae4e80601c235b1 quotactl: deploy typechecked helpers
-fc3637078d311bbebe74704dc110d053013a9863 tools: add a new script to generate fixes tags
-fa203a842061403b459803a2bd7d28e56680999d mkfs: add config file for the 2026 LTS kernel
-e3cb18b5162d5c2fc47683ec9da07c9c98102514 mkfs: enable metadata directory trees by default
-7226e6f920383ba9896c89d3966fba624bcc0192 xfs: clean up after failed metafile relinking
-7904e764f64aa492942aebf90913e977ebc60736 xfs: pass xfs_trans_resv object to reservation calculation helpers
-cc18734117b50f7dd756cfb2cea23a7906cc1b00 xfs: fix xfs_rename_space_res for non-pptr filesystems
-d8c3d81857169141634bce9709a8f75fb17c4b9e xfs: fix ondisk symlink target validation in xrep_dinode_check_dfork
-6c9f6c471e4e705ab464ea37ae0174d815ec9e93 xfs: avoid cross-rtgroup reaping after a repair
-e00c55db8ee4bfd9294c08ae9500d2f10fdc0ce2 xfs: refactor inode forkoff to byte conversions
-b054a4e424c8f119e0beb7346a29c63a2c46fe40 xfs_repair: allow sysadmins to add free inode btree indexes
-91e4e3b2ad065ce82e6a31fcfd9042b604bf9440 xfs_repair: allow sysadmins to add reflink
-8d5e1c03bce434619176d5cb09a7913ac9676bcb xfs_repair: allow sysadmins to add reverse mapping indexes
-b7ca5361231fe2960191ee29675373b92bf24870 xfs_repair: upgrade an existing filesystem to have parent pointers
-36fc1c0cd9a6f56cb158c15ec1f26715411706b5 xfs_repair: allow sysadmins to add metadata directories
-80a9b2d58d009e5d1cc6406c0b802653e0fed22c xfs_repair: upgrade filesystems to support rtgroups when adding metadir
-ab0070a3010cc26bc36533f581f1a25398555fa5 xfs_repair: allow sysadmins to add realtime reverse mapping indexes
-0de5834a833b53b9e6d4e02f9a66fbe02737a97d xfs_repair: allow sysadmins to add realtime reflink
-6fbc530087ce135ff424343d2be137b028e09857 xfs_repair: skip free space checks when upgrading
-4a0eafc2483c97cf22cf4f40b715c54256db61de xfs_repair: allow adding rmapbt to reflink filesystems
-547c79f48f39c22970f1c45a329f5ea54380feb8 xfs_db: add merkle tree geometry calculations
-174157e0ee67197ed5d6ac17204816e7a6c447f5 xfs: upgrade filesystem features
-55eaa9e5fc99061b374c6e8648a1ad523a9fe741 xfs_scrub: retry threaded phase4 repairs
-1d39d29c6c053993f683d20cb18d004fa50b3f96 xfs_scrub: quiet down unicrash warnings about weird names
-99bd2ee80266d77541a580f579827bd53d8b8d75 xfs_scrub: complain about case-insensitive names
-7d321233e2dcfd7710d1754056543927be6604ea xfs_scrub/healer: enable everything via a systemd preset file
+778d260c316b9c72b06ad5edcb5535e7ee4a7804 commit-graph: require resolved packfile paths for `stdin_packs`
+623d2c71255977544086c9be76dfeff43cdbaf88 commit-graph: stop depending on `struct odb_source`
+45b1324139d0428348a15ac09fd58f47f9435476 odb/source-files: introduce `struct odb_files_dir`
+8db128e611a7a9fa8e47f383e31128cc4a47ceb7 odb: refactor `odb_for_each_alternate()` to yield dirs
+4a9e8cab7db78eace06ecb86b5932dbd48a933c7 odb: refactor `odb_find_source()` to yield dirs
+5c869c96a4e4d9f494699e69f06fff9e68f0b5ba odb/source-files: add the ability to have multiple object dirs
+f80a79e23345c647209c33701df0e608696325ae tmp-objdir: absorb logic to set and restore primary sources
+622a625abb97c8f3df091fde6a655950386c1cea tmp-objdir: manage quarantine as an object directory
+a26ff4e576de7478e2fefd938bcc57951a2ffb0a tmp-objdir: replace primary source at creation time
+6066be88b4a311cb3134d51f43db4ea10d08da2b odb/source: make `will_destroy` an implementation detail
+c96b05a9c26b5edb3e8c1b9491b386ddc70035f8 odb/source-files: extract reading alternates
+cbfd4cb86f78054a0b824b86f058240c162612e0 odb/source-files: move alternates into the backend
+0ba59c845312f5b098b4ab27ae2f60988954d7b5 odb/source: drop `read_alternates` callback
+b1be790f3871c400269fc576cf0002650e636d5a t7004: check a missing key without deleting gpghome
+144d8e373f179690ee725949a9200b1676ec1173 remove_branch_state: convert boolean argument to flags
+98684b7ce5321518803b1ffa3b91ff22fb0c05b8 merge: remember conflict labels
+46a2c11f72afe1c335f39228ab19201811b0f62b t1300: test list with missing global config
+844fb6da4517f42a4eca631ab2e7cfaba1d8e2bd config: read global scope via config_sequence
+b6d18b5d68a0c8682b53c5e18d9c58421356e2c7 status: suggest `git merge --continue`, not `git commit`
+8d459dbabfa670c67a8e2ae59778daf886ba3c78 Merge branch 'ps/meson-improvements' into jch
+ce2127993bfc842e5c00c1d0111b9c1bf4e1c02e Merge branch 'td/ci-large-test-resources' into jch
+e1051cb417c1e70798fa89d653270537badaba44 Merge branch 'tb/t5520-reflog-expire' into jch
+0129759ab83c83a74e01c6128d0cfc14c3e347e0 Merge branch 'ps/reftable-reflog-timezone' into jch
+fb6256e4e3842c7a94047f3c6e44e7b1180250a4 Merge branch 'jk/xdiff-size_t' into jch
+b5561830bf2e72f75abe652dd6b08c3732c6c182 Merge branch 'dk/stash-apply-index-incore' into jch
+fffb99af358151180bd3b6cda505d5df7f67aac1 Merge branch 'ap/var-broken-down-idents' into jch
+2c289f01e93afb4e9c26ebd28407c2e23d87c159 Merge branch 'bc/git-contacts-stdin' into jch
+a678fbe50e262b3981da2a77c39a154216c95771 Merge branch 'hn/object-name-push-short' into jch
+0d33935e3bdc9dafdd1ce552dc4cdcbc75329a5a Merge branch 'ps/parse-options-subcommand-groups' into jch
+f401c0cb8a888fc0e3a5e8f66f6ae1b1afbd660a Merge branch 'kz/doc-user-manual-typo' into jch
+b258603882cbb4927a565d82228de652d1595ae2 Merge branch 'mg/doc-remote-set-head' into jch
+2d45cdc1c556f5254730b9c58596939ded1f30e3 Merge branch 'kh/doc-trailers-cmd-examples' into jch
+a742ef5f62bf3a4f5e5c0f024db8f248101b8e97 Merge branch 'kh/format-patch-range-diff-notes' into jch
+18bdc2d91f039d9b1eb503a08e597ad84e83ff6e Merge branch 'pw/stash-all-parseopt-fix' into jch
+80f4b8f6fce25e893c16a9ce7a19442481f2f464 Merge branch 'gm/filter-branch-state-map-fix' into jch
+c8608e21552c9d2d137ce722ed45de745f66e4be Merge branch 'tz/doc-override-less-env' into jch
+1ff7cfbe1be6e59a18d9f9fed2480b42e2e1383a Merge branch 'jk/t5551-test-shell-quote-fix' into jch
+c6b4f074ce7514f271621ae8ac5ac91fa6239e15 Merge branch 'je/doc-section-7-synopsis' into jch
+1b242b805de0e9fe356156d078442817e193c780 Merge branch 'ma/t0450-use-test-path-is-file' into jch
+031336d6045b520550c5d892421152c0e2d61137 Merge branch 'dk/fix-shattered-io-link' into jch
+b811e07ce06fe3b721790406c80f09586608a6e7 ### match next
+94223ac06babac8f024d2ee8ddc474b0e093c33d Merge branch 'kn/packed-refs-verbatim-write' into jch
+b73640a4766642f25b6dd9715b300a52f8a7f2c6 Merge branch 'jk/test-lazy-prereq-heredoc' into jch
+22f885a0bf2cbf5387057277f924bb938bf454f6 Merge branch 'ps/packfile-stale-delta-base-cache-fix' into jch
+2a10cd7318aedb7aad5a74cf1947b2302d734241 Merge branch 'kk/fetch-write-commit-graph-incremental' into jch
+ee11ddff627c5926c18fbb5f0506a670f8845847 Merge branch 'ch/fetch-followremotehead-lazy-validation' into jch
+e47a8727e1fc5484de8ad9637cf99e2b474bfb7d Merge branch 'ps/odb-files-alternates' into jch
+cf447aca3c807861ec018e9b279acb7f16cc8c92 Merge branch 'je/status-merge-specific-help' into jch
+657b5ef85b047530df54790783cd6a7b80560341 Merge branch 'hn/t7004-flaky-gpg-test-fix' into jch
+43f67b613d1438cb4d4958f939db3035e3f2526c Merge branch 'ij/subtree-reject-v2-config' into jch
+aced30c0d29abacf6554e3d63fafe519985bae57 Merge branch 'ap/http-preserve-wwwauth-redirect' into jch
+e94a78f963f5d68555dd5665dd7f78b9f4b0a0d8 Merge branch 'vv/branch-recurse-no-start-ref' into jch
+d58344bf7ff2c2f094fddae9ef6aa364e9e88a1e Merge branch 'dw/config-read-both-global' into jch
+319a25277a66f944e039208136d7f2ca7c2c20b3 Merge branch 'pp/midx-write-skip-empty' into jch
+c7793ebf25860e815f3b677e41173dd626a2c42e Merge branch 'hn/range-diff-matched-only' into jch
+e0af43fdd9e2669ecaaee221e4f8c26717889ed5 Merge branch 'dm/libsecret-explicit-load' into jch
+4e01386cfb531e19452db901915ff6944f71b851 Merge branch 'cc/lazy-fetch-trusted-bit' into jch
+e7a949062b240ea914f01c333a46c3235b95980a Merge branch 'pw/checkout-m-conflict-labels' into jch
+b284489bc9ad523dfd47ba432f1df1b901e19cb2 Merge branch 'ps/repo-ref-storage-format-fix' into jch
+5afb269628db42385a916055704e34eab17d8480 Merge branch 'pw/stash-change-check-only-once' into jch
 
---===============4737125776431218463==
+--===============5640052124768512003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c55ca733ed6-e3cb18b5162d.txt
+Content-Disposition: attachment; filename=revlist-ac18e84ea68a-a0e64e689c1c.txt
 
-d28edf8b3722d2b3f8ae23bd225c733184b0802e xfs_healer: correct xfd_ API usage
-fde1eeed253a927a922e04ba007a586b7e4f6cde xfs_healer: fail earlier on non-xfs filesystems
-8a4a368b497dd5891808f9333c42a33d1df77d20 libxfs: refactor the reinit case in libxfs_buftarg_init
-08c91516ffa7480f1b551b177b89231e6b63e815 libxfs: split error injection option parsing out of libxfs_buftarg_init
-8f9506e2dafc95ab786d237b15b1ee04931b9be6 libxfs: remove buftarg member aliases
-35e136a42548ff1c0a881fb69b443b89aa1e34ac libxfs: unify buftarg handling with the kernel
-55ec0ef299d57842eed0286fd0cddd67e7995189 libxfs: make the size check in rtmount_init internal RT device aware
-c189d771732e403a59405a25848f6b4a039cfdbd libxfs: don't clear ->dev in libxfs_device_close
-45c2b2ae6968316f0251c2539f5b7880aeb9c0df libxfs: fix buftarg initialization for the RT device
-d69aadab419eb9cc1c2564497c605161f83a3af9 libxfs: rename bt_bdev*
-5f82a09e37bc670ec707f7a5dc7234024255d21a libfrog: improve ramdisk handling in platform_flush_device
-e58810a53900f5b026d0d1792268c209412a4661 xfs_db: remove a double-whitespace in rdump_regfile_data
-196c46c1bd31f93b612e7477ad92474397e803d4 libxfs: change cache_node_allocate function signature
-92d45f837671ff8b81bf9b62cf91219da4b79bee libxfs: Return -ENOMEM on actual cache node allocation failures
-caca7f14b449c94583a263e5d4e51354e86529f8 libxfs: do not allow cache growth to overflow
-676a9c053b3ba8161fca1b84933b6ceae8bed9e3 xfs: add xfs_metadir_create_file helper
-2e7c01836b4a8b13db04392298cb0324b55ab9d8 xfs: create quota metadir inodes using xfs_metadir_create_file
-039f190df8c004f08003c3cd902440070a2511c5 xfs: create rtgroup metadir inodes using xfs_metadir_create_file
-66b6ae4030d3b50b8419ffbfcadff39d9e801aa1 xfs: mark internal metadir file creation helpers static
-1fb40116a1cb7a570741eb3bce54f8c44a84c902 xfs: use kmalloc_objs() instead of kmalloc() in xfs_da_grow_inode_int
-7e1b9fbf6f7f7ff2f85966c073a6e7219111dcdd xfs: remove spurious XBF_DONE clearing on readahead validation failure
-3b0f5adc26cf82f6fbe80d57ec2b66f1d8b20dbc xfs: hide b_flags manipulation from code outside of xfs_buf.c
-8317b413b71acd8cbce7dd54edd14199c4f4bd35 xfs: validate attr entry pointer before field access
-7a50f7491532e94fe34c9a222e441e31fb951424 xfs: don't hold buffer locks across sync transaction commit in xfs_sync_sb_buf
-f9854a98e80c1f5de81d925f8bfd03fe500bf4e9 treewide: refresh kmalloc_obj() conversions
-c48eb55c29558fc8d0a7184213b6820d1987d94b xfs: fix exchange-range reflink flag clearing issue with INO1_WRITTEN
-42ea0afbd33c43e525615682a5d669f4debfeee1 xfs: initialise error in xfs_defer_finish_one()
-e0d9ad61164ee1ca740e8c9fd8c01259e9deb7a8 xfs: give the deferred barrier op type a name
-be2bf6513b91041f1f8e62e2441beb6d0290269f xfs: report the error that made deferred work shut down the fs
-4206701dbeff6c3188c3ab1241e43ae56c8b6f43 xfs: correct the parent pointer space reservation comment
-df60f4e15e3d9eb4fe118cd34f17aaed7329cf63 xfs: initialise args->total for parent pointer updates
-d56a38d3997d44c3eba349bcbabab4785ea1449b xfs: assert the reservation covers each da fork growth
-67b7f1c5690db6096111227361b35256617a905a xfs: fix the rtrmap and rtrefcount _maxlevels_ondisk functions
-4e62b4fbc6d81fbc7ce0c2600167f9224de6287f xfs: fix xfs_rtrmapbt_mem_cursor for non-rmap filesystems
-ebdfbefc27296b81b1ad63444f346c4bdbbaf702 xfs: preserve owner on in-memory btree creation
-7894dd5000ed483204cb634b8fd60c0e495e4fc2 xfs: don't leak new_bp if xfs_btree_bload_drop_buf fails
-1b259d3bc94262a525b514d0cb3003317930ff6f xfs: fix under-reservation of blocks when repairing sf directories
-c4a973b97ebd10b14a130f4894d203bb341a6efb xfs: remove duplicate INO1_WRITTEN check
-870cb9fc67cad146246d2bb8539ccf0caccf0045 xfs: fix typos and repeated words in comments
-7c246421a1879040be771eff16a0523f875ec8a7 xfs: don't let hidden_space go negative in xfs_metafile_resv_init
-e47ceb65254a88655c2d996cb738f7c6dfc1cdb5 xfs: fix wild memcpy access when formatting ondisk rtrefcount btree roots
-285528d26493bc482b3c1b843ee2cb31e7e9659c misc: convert as many xfsquotactl callsites to xfrog_quotactl as possible
-d97bfb4887b2c476ce7a83164ae4e80601c235b1 quotactl: deploy typechecked helpers
-fc3637078d311bbebe74704dc110d053013a9863 tools: add a new script to generate fixes tags
-fa203a842061403b459803a2bd7d28e56680999d mkfs: add config file for the 2026 LTS kernel
-e3cb18b5162d5c2fc47683ec9da07c9c98102514 mkfs: enable metadata directory trees by default
+cea766adaf22d87848485f155ffd55c1a01a2b64 blame: harden ignore-revs parser and tag peeling
+a56420d1601e265988b3b3195e2c2ed28f80a960 blame: ignore revs in HEAD:.git-blame-ignore-revs
+8032bb14908258364a6b4b3e454a4be843c769a9 t5004: skip SHA-1-only test in SHA-256 repository
+3380da2be395fbca8bb31bfeb00fcdb3bc355d70 ci: fix "fedora-breaking-changes-meson" job
+13dc7f869fb9bf962d6fd19fc516899c7ac91e30 ci: drop unused "linux-clang" logic
+114cf789ae2836079137c764f1ceb9644c6d1a8f ci: switch away from unsupported i386/ubuntu image
+237f09ae8a844e1406ff9ec3ea0ebfeb8be1b706 ci: rename linux-TEST-vars job
+35d666d7c0eb6220aa3f1c6dfbfc46ca41e68191 ci: switch away from EOL'd Ubuntu version in linux-exotic
+57ddf64d903993f3c6d6f513b76bd80a2908a88e ci: drop now-dead Python 2 coverage
+08fcc64e35961c3270fef4aaad12c9164988bbe5 ci: improve reftable test coverage
+144d8e373f179690ee725949a9200b1676ec1173 remove_branch_state: convert boolean argument to flags
+98684b7ce5321518803b1ffa3b91ff22fb0c05b8 merge: remember conflict labels
+bf0c39c4166a0c11ac754341b26e893b8e67bc89 doc: add new gitmergeconflicts man page
+e6e54bfd08eddb8bda974d4e31b9778d3b90601e doc: git-merge: link to new merge conflicts guide
+caa078b3fbce074de6668b93c70ee3f9f5b9e5c0 doc: git-rebase: link to new merge conflicts guide
+fc9863a0f6305170e35637d64269806c61dcd42c doc: git-revert: link to new merge conflicts guide
+ef85c912d6a4b3662e8ec4a8dabe995ea6eaf547 doc: git-cherry-pick: link to new merge conflicts guide
+d8ec5fc90ec60ba169c87645b875303da2f9677d doc: git-pull: link to new merge conflicts guide
+46a2c11f72afe1c335f39228ab19201811b0f62b t1300: test list with missing global config
+844fb6da4517f42a4eca631ab2e7cfaba1d8e2bd config: read global scope via config_sequence
+b6d18b5d68a0c8682b53c5e18d9c58421356e2c7 status: suggest `git merge --continue`, not `git commit`
+8d459dbabfa670c67a8e2ae59778daf886ba3c78 Merge branch 'ps/meson-improvements' into jch
+ce2127993bfc842e5c00c1d0111b9c1bf4e1c02e Merge branch 'td/ci-large-test-resources' into jch
+e1051cb417c1e70798fa89d653270537badaba44 Merge branch 'tb/t5520-reflog-expire' into jch
+0129759ab83c83a74e01c6128d0cfc14c3e347e0 Merge branch 'ps/reftable-reflog-timezone' into jch
+fb6256e4e3842c7a94047f3c6e44e7b1180250a4 Merge branch 'jk/xdiff-size_t' into jch
+b5561830bf2e72f75abe652dd6b08c3732c6c182 Merge branch 'dk/stash-apply-index-incore' into jch
+fffb99af358151180bd3b6cda505d5df7f67aac1 Merge branch 'ap/var-broken-down-idents' into jch
+2c289f01e93afb4e9c26ebd28407c2e23d87c159 Merge branch 'bc/git-contacts-stdin' into jch
+a678fbe50e262b3981da2a77c39a154216c95771 Merge branch 'hn/object-name-push-short' into jch
+0d33935e3bdc9dafdd1ce552dc4cdcbc75329a5a Merge branch 'ps/parse-options-subcommand-groups' into jch
+f401c0cb8a888fc0e3a5e8f66f6ae1b1afbd660a Merge branch 'kz/doc-user-manual-typo' into jch
+b258603882cbb4927a565d82228de652d1595ae2 Merge branch 'mg/doc-remote-set-head' into jch
+2d45cdc1c556f5254730b9c58596939ded1f30e3 Merge branch 'kh/doc-trailers-cmd-examples' into jch
+a742ef5f62bf3a4f5e5c0f024db8f248101b8e97 Merge branch 'kh/format-patch-range-diff-notes' into jch
+18bdc2d91f039d9b1eb503a08e597ad84e83ff6e Merge branch 'pw/stash-all-parseopt-fix' into jch
+80f4b8f6fce25e893c16a9ce7a19442481f2f464 Merge branch 'gm/filter-branch-state-map-fix' into jch
+c8608e21552c9d2d137ce722ed45de745f66e4be Merge branch 'tz/doc-override-less-env' into jch
+1ff7cfbe1be6e59a18d9f9fed2480b42e2e1383a Merge branch 'jk/t5551-test-shell-quote-fix' into jch
+c6b4f074ce7514f271621ae8ac5ac91fa6239e15 Merge branch 'je/doc-section-7-synopsis' into jch
+1b242b805de0e9fe356156d078442817e193c780 Merge branch 'ma/t0450-use-test-path-is-file' into jch
+031336d6045b520550c5d892421152c0e2d61137 Merge branch 'dk/fix-shattered-io-link' into jch
+b811e07ce06fe3b721790406c80f09586608a6e7 ### match next
+94223ac06babac8f024d2ee8ddc474b0e093c33d Merge branch 'kn/packed-refs-verbatim-write' into jch
+b73640a4766642f25b6dd9715b300a52f8a7f2c6 Merge branch 'jk/test-lazy-prereq-heredoc' into jch
+22f885a0bf2cbf5387057277f924bb938bf454f6 Merge branch 'ps/packfile-stale-delta-base-cache-fix' into jch
+2a10cd7318aedb7aad5a74cf1947b2302d734241 Merge branch 'kk/fetch-write-commit-graph-incremental' into jch
+ee11ddff627c5926c18fbb5f0506a670f8845847 Merge branch 'ch/fetch-followremotehead-lazy-validation' into jch
+e47a8727e1fc5484de8ad9637cf99e2b474bfb7d Merge branch 'ps/odb-files-alternates' into jch
+cf447aca3c807861ec018e9b279acb7f16cc8c92 Merge branch 'je/status-merge-specific-help' into jch
+657b5ef85b047530df54790783cd6a7b80560341 Merge branch 'hn/t7004-flaky-gpg-test-fix' into jch
+43f67b613d1438cb4d4958f939db3035e3f2526c Merge branch 'ij/subtree-reject-v2-config' into jch
+aced30c0d29abacf6554e3d63fafe519985bae57 Merge branch 'ap/http-preserve-wwwauth-redirect' into jch
+e94a78f963f5d68555dd5665dd7f78b9f4b0a0d8 Merge branch 'vv/branch-recurse-no-start-ref' into jch
+d58344bf7ff2c2f094fddae9ef6aa364e9e88a1e Merge branch 'dw/config-read-both-global' into jch
+319a25277a66f944e039208136d7f2ca7c2c20b3 Merge branch 'pp/midx-write-skip-empty' into jch
+c7793ebf25860e815f3b677e41173dd626a2c42e Merge branch 'hn/range-diff-matched-only' into jch
+e0af43fdd9e2669ecaaee221e4f8c26717889ed5 Merge branch 'dm/libsecret-explicit-load' into jch
+4e01386cfb531e19452db901915ff6944f71b851 Merge branch 'cc/lazy-fetch-trusted-bit' into jch
+e7a949062b240ea914f01c333a46c3235b95980a Merge branch 'pw/checkout-m-conflict-labels' into jch
+b284489bc9ad523dfd47ba432f1df1b901e19cb2 Merge branch 'ps/repo-ref-storage-format-fix' into jch
+5afb269628db42385a916055704e34eab17d8480 Merge branch 'pw/stash-change-check-only-once' into jch
+5dc6d61b8575ce6a8646a0a394cff2b002b8891d Merge branch 'tb/midx-incremental-custom-base' into seen
+7bedeac62b9a1b03fc88b14d436882eea8f5777a Merge branch 'mm/line-log-limited-ops' into seen
+f8baf6abca5d8cde7cae3a2cbaae2a4347f37be8 Merge branch 'kj/repo-info-more-path-keys' into seen
+1aeedbdf709755c523f004f10336226049a1f46e Merge branch 'pz/fetch-submodule-errors-config' into seen
+db12c4c73a0099895491397b97e081ba02966de9 Merge branch 'bc/restrict-hex-to-lowercase' into seen
+d810565d5167b22f9124208095c64ffbb5ea4ba4 Merge branch 'kh/format-rev-more-options' into seen
+e242ccdc75823c99f3badcaef1d3f9021428d564 Merge branch 'ws/squelch-svn-migrate' into seen
+1e482caa229f8567a9e1bb4635af784174d7cc6c Merge branch 'll/doc-pushcert-if-asked' into seen
+72fafd8c97582837e8952c7fc4a22af8ed5cf98b Merge branch 'tc/last-modified-bloom' into seen
+cc148d4847687f41398eece83ed4436165cc2968 Merge branch 'cc/early-scan-options' into seen
+c84380b2f13237b93cdb62dc45096bec828f476d Merge branch 'mm/diff-process-hunks' into seen
+c364566ac0c3842f59b7a626ffe423070ccd4d35 Merge branch 'tc/push-force-if-includes-fixes' into seen
+4f097861ec599b1d2e76ade6a746d264e6e8fc82 Merge branch 'tb/rerere-wait-for-merge-rr-lock' into seen
+6f831602635e2a10f2ed09891b2f6ea870d6e87b Merge branch 'jc/advice-config-set-global' into seen
+89b04a9dea6b0f997ef9e5bce3762890351ce31b Merge branch 'bs/runtime-prefix-obsd-getexecpath' into seen
+47313850bf610d79e9ac5488e4fd41628d7c1006 Merge branch 'mh/rust-crate-subdir' into seen
+c8662f8f86104010cc36e02db525c07d3cd84e2c Merge branch 'ec/commit-fixup-options' into seen
+f6e7578006abdcbf8e383bd3d61958c7519ea237 Merge branch 'mc/refs-hook-report-old-values' into seen
+70068413b61174b3a32ebedf3b44ba7805111753 Merge branch 'hn/shallow-history-advice' into seen
+b44cf3bb483b107973b0e6761ea2c4ce012e4dac Merge branch 'td/ls-files-untracked-cache' into seen
+ecc3df20951c9e3ec4e90402dbc56e6eb6e1cfb7 Merge branch 'am/p4-apply-commit-shell-injection-fix' into seen
+039ee871395faf334013173f4f0c23fe7f56f740 Merge branch 'hn/ci-leak-sanitizer-annotations' into seen
+3779f9590f8af9dcd287d97018ba15b632261c0a Merge branch 'ss/history-sign-rewrites' into seen
+4d3351524cecbd0dc1849ec0fd87d747ddf2589c Merge branch 'ik/fsmonitor-untracked-cache-trivial-response' into seen
+5cf450aaa3f7524020771510d782ec5d2d1d27f6 Merge branch 'hn/status-push-rebased-on-newer-upstream' into seen
+a970767e555ba2d94c8892c6c35da9be63cd325a Merge branch 'je/doc-promote-git-help' into seen
+f4e208ddb8d08ae6140e690f97a28971ee388866 Merge branch 'tb/repack-cruft-less-midx-corner-cases' into seen
+67123179712d6989090579dd581b50d136347647 Merge branch 'ps/ci-housekeeping-and-modernizations' into seen
+b37b6f9b51dec2083ff71a60a0f058756dd7fe42 Merge branch 'qs/repack-kept-pack-fix' into seen
+d2b0b1ca8fb5b81bc9bcc0fd75a22c68ad6afa73 Merge branch 'ss/repack-drop-filtered-dry-run' into seen
+24c71b108861257e7048b99d8e21c2861c97f473 Merge branch 'rm/blame-default-ignore-revs' into seen
+c05f5afc676950087fab25b80de89bf28b6e3efb Merge branch 'je/doc-merge-conflicts' into seen
+a0e64e689c1cb6fd76c574f2d007aad26731776f Merge branch 'ps/setup-enforce-repo-passed-to-create-repository-has-no-state' into seen
 
---===============4737125776431218463==
+--===============5640052124768512003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d67bdf8007b6-caca7f14b449.txt
+Content-Disposition: attachment; filename=revlist-7dcdba1211e6-a48a7bf9ce97.txt
 
-d28edf8b3722d2b3f8ae23bd225c733184b0802e xfs_healer: correct xfd_ API usage
-fde1eeed253a927a922e04ba007a586b7e4f6cde xfs_healer: fail earlier on non-xfs filesystems
-8a4a368b497dd5891808f9333c42a33d1df77d20 libxfs: refactor the reinit case in libxfs_buftarg_init
-08c91516ffa7480f1b551b177b89231e6b63e815 libxfs: split error injection option parsing out of libxfs_buftarg_init
-8f9506e2dafc95ab786d237b15b1ee04931b9be6 libxfs: remove buftarg member aliases
-35e136a42548ff1c0a881fb69b443b89aa1e34ac libxfs: unify buftarg handling with the kernel
-55ec0ef299d57842eed0286fd0cddd67e7995189 libxfs: make the size check in rtmount_init internal RT device aware
-c189d771732e403a59405a25848f6b4a039cfdbd libxfs: don't clear ->dev in libxfs_device_close
-45c2b2ae6968316f0251c2539f5b7880aeb9c0df libxfs: fix buftarg initialization for the RT device
-d69aadab419eb9cc1c2564497c605161f83a3af9 libxfs: rename bt_bdev*
-5f82a09e37bc670ec707f7a5dc7234024255d21a libfrog: improve ramdisk handling in platform_flush_device
-e58810a53900f5b026d0d1792268c209412a4661 xfs_db: remove a double-whitespace in rdump_regfile_data
-196c46c1bd31f93b612e7477ad92474397e803d4 libxfs: change cache_node_allocate function signature
-92d45f837671ff8b81bf9b62cf91219da4b79bee libxfs: Return -ENOMEM on actual cache node allocation failures
-caca7f14b449c94583a263e5d4e51354e86529f8 libxfs: do not allow cache growth to overflow
+9b4572c5a9030b2325c5605345e6949414cf14cc amlog
+71acc24c856615e7348e678853de60e513f42ac0 Notes added by 'git notes add'
+76dfe08ddd999f6a5baff52beb4de688d2b0749c Notes added by 'git notes add'
+4e4a4bdec6ea93abd4246056a6965565c8fa0c1d Notes added by 'git notes add'
+bce6fdf8c01288ca111d7c21b9b53e9e248796e0 Notes added by 'git notes add'
+7647cdd7678ccee0249595e2ff341a2f6feac771 Notes added by 'git notes add'
+0183a40128afca3ddfc1c0c21d3cb64c17989861 Notes added by 'git notes add'
+a46296d1ba806e5139ac8ec4a7b8365b6749ac68 Notes added by 'git notes add'
+7a6515022c7cdd2b39defc68330269786c914746 Notes added by 'git notes add'
+249c9ce37897529c80dd8c5f44fb10b3645978cc Notes added by 'git notes add'
+6eb9111e8c2774c9bcc5f76785aca7dbfd107e15 Notes added by 'git notes add'
+5109b6ecd613f75965efe2fea050bcc7e13962b3 Notes added by 'git notes add'
+20d0896a8f06228e1179ff9b0615bce78da3614a Notes added by 'git notes add'
+d9b82aa7300b6cb16a3a581b5a89dffe2d05f3e9 Notes added by 'git notes add'
+69099d9759d6ee11c9dd2bc546356720cc766bf8 Notes added by 'git notes add'
+e0a5ca5e17b4e265085060b0c28ee4ea1a74bdfb Notes added by 'git notes add'
+8c40927ecb639ed121de3b6a9c7d0f4b9ab26f43 Notes added by 'git notes add'
+fbdb9ab8e70dd451ac6acf0ffae577dc55e9ba39 Notes added by 'git notes add'
+5d8388ca0e718c0f44a8d315caa525f10e7ce740 Notes added by 'git notes add'
+4eb8fe2cd00632aa07b1fdfabfc9e378f1d2fb5d Notes added by 'git notes add'
+fef69e553ac96843f94cda7008357845f357f721 Notes added by 'git notes add'
+b120fc154e7808f5d36aa3fc358266ad06c574c2 Notes added by 'git notes add'
+7bc44e39f61d988a15bea4a0a8d75d7f8d601ee9 Notes added by 'git notes add'
+855d2b8564f3a788b0d5ee2832f6b8bb2b44b243 Notes added by 'git notes add'
+8461dd8e089bce717230b878da3f6ea1c5e6d7c7 Notes added by 'git notes add'
+6789233675f0aa91a24db879d0e62ddd17ee54c6 Notes added by 'git notes add'
+b8ef0b1f45076d7d9e05a2e8640734386cd1a1a8 Notes added by 'git notes add'
+617441f3d147b811a974dec290e54d096a403988 Notes added by 'git commit --amend'
+18d12dea21e8829e8be4594c044c438b68128696 Notes added by 'git notes add'
+a48a7bf9ce97b3d3073a8504342ceb349e689095 Notes added by 'git notes add'
 
---===============4737125776431218463==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-95e155f2e4f9-e47ceb65254a.txt
-
-d28edf8b3722d2b3f8ae23bd225c733184b0802e xfs_healer: correct xfd_ API usage
-fde1eeed253a927a922e04ba007a586b7e4f6cde xfs_healer: fail earlier on non-xfs filesystems
-8a4a368b497dd5891808f9333c42a33d1df77d20 libxfs: refactor the reinit case in libxfs_buftarg_init
-08c91516ffa7480f1b551b177b89231e6b63e815 libxfs: split error injection option parsing out of libxfs_buftarg_init
-8f9506e2dafc95ab786d237b15b1ee04931b9be6 libxfs: remove buftarg member aliases
-35e136a42548ff1c0a881fb69b443b89aa1e34ac libxfs: unify buftarg handling with the kernel
-55ec0ef299d57842eed0286fd0cddd67e7995189 libxfs: make the size check in rtmount_init internal RT device aware
-c189d771732e403a59405a25848f6b4a039cfdbd libxfs: don't clear ->dev in libxfs_device_close
-45c2b2ae6968316f0251c2539f5b7880aeb9c0df libxfs: fix buftarg initialization for the RT device
-d69aadab419eb9cc1c2564497c605161f83a3af9 libxfs: rename bt_bdev*
-5f82a09e37bc670ec707f7a5dc7234024255d21a libfrog: improve ramdisk handling in platform_flush_device
-e58810a53900f5b026d0d1792268c209412a4661 xfs_db: remove a double-whitespace in rdump_regfile_data
-196c46c1bd31f93b612e7477ad92474397e803d4 libxfs: change cache_node_allocate function signature
-92d45f837671ff8b81bf9b62cf91219da4b79bee libxfs: Return -ENOMEM on actual cache node allocation failures
-caca7f14b449c94583a263e5d4e51354e86529f8 libxfs: do not allow cache growth to overflow
-676a9c053b3ba8161fca1b84933b6ceae8bed9e3 xfs: add xfs_metadir_create_file helper
-2e7c01836b4a8b13db04392298cb0324b55ab9d8 xfs: create quota metadir inodes using xfs_metadir_create_file
-039f190df8c004f08003c3cd902440070a2511c5 xfs: create rtgroup metadir inodes using xfs_metadir_create_file
-66b6ae4030d3b50b8419ffbfcadff39d9e801aa1 xfs: mark internal metadir file creation helpers static
-1fb40116a1cb7a570741eb3bce54f8c44a84c902 xfs: use kmalloc_objs() instead of kmalloc() in xfs_da_grow_inode_int
-7e1b9fbf6f7f7ff2f85966c073a6e7219111dcdd xfs: remove spurious XBF_DONE clearing on readahead validation failure
-3b0f5adc26cf82f6fbe80d57ec2b66f1d8b20dbc xfs: hide b_flags manipulation from code outside of xfs_buf.c
-8317b413b71acd8cbce7dd54edd14199c4f4bd35 xfs: validate attr entry pointer before field access
-7a50f7491532e94fe34c9a222e441e31fb951424 xfs: don't hold buffer locks across sync transaction commit in xfs_sync_sb_buf
-f9854a98e80c1f5de81d925f8bfd03fe500bf4e9 treewide: refresh kmalloc_obj() conversions
-c48eb55c29558fc8d0a7184213b6820d1987d94b xfs: fix exchange-range reflink flag clearing issue with INO1_WRITTEN
-42ea0afbd33c43e525615682a5d669f4debfeee1 xfs: initialise error in xfs_defer_finish_one()
-e0d9ad61164ee1ca740e8c9fd8c01259e9deb7a8 xfs: give the deferred barrier op type a name
-be2bf6513b91041f1f8e62e2441beb6d0290269f xfs: report the error that made deferred work shut down the fs
-4206701dbeff6c3188c3ab1241e43ae56c8b6f43 xfs: correct the parent pointer space reservation comment
-df60f4e15e3d9eb4fe118cd34f17aaed7329cf63 xfs: initialise args->total for parent pointer updates
-d56a38d3997d44c3eba349bcbabab4785ea1449b xfs: assert the reservation covers each da fork growth
-67b7f1c5690db6096111227361b35256617a905a xfs: fix the rtrmap and rtrefcount _maxlevels_ondisk functions
-4e62b4fbc6d81fbc7ce0c2600167f9224de6287f xfs: fix xfs_rtrmapbt_mem_cursor for non-rmap filesystems
-ebdfbefc27296b81b1ad63444f346c4bdbbaf702 xfs: preserve owner on in-memory btree creation
-7894dd5000ed483204cb634b8fd60c0e495e4fc2 xfs: don't leak new_bp if xfs_btree_bload_drop_buf fails
-1b259d3bc94262a525b514d0cb3003317930ff6f xfs: fix under-reservation of blocks when repairing sf directories
-c4a973b97ebd10b14a130f4894d203bb341a6efb xfs: remove duplicate INO1_WRITTEN check
-870cb9fc67cad146246d2bb8539ccf0caccf0045 xfs: fix typos and repeated words in comments
-7c246421a1879040be771eff16a0523f875ec8a7 xfs: don't let hidden_space go negative in xfs_metafile_resv_init
-e47ceb65254a88655c2d996cb738f7c6dfc1cdb5 xfs: fix wild memcpy access when formatting ondisk rtrefcount btree roots
-
---===============4737125776431218463==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-047d4f8f678a-d97bfb4887b2.txt
-
-d28edf8b3722d2b3f8ae23bd225c733184b0802e xfs_healer: correct xfd_ API usage
-fde1eeed253a927a922e04ba007a586b7e4f6cde xfs_healer: fail earlier on non-xfs filesystems
-8a4a368b497dd5891808f9333c42a33d1df77d20 libxfs: refactor the reinit case in libxfs_buftarg_init
-08c91516ffa7480f1b551b177b89231e6b63e815 libxfs: split error injection option parsing out of libxfs_buftarg_init
-8f9506e2dafc95ab786d237b15b1ee04931b9be6 libxfs: remove buftarg member aliases
-35e136a42548ff1c0a881fb69b443b89aa1e34ac libxfs: unify buftarg handling with the kernel
-55ec0ef299d57842eed0286fd0cddd67e7995189 libxfs: make the size check in rtmount_init internal RT device aware
-c189d771732e403a59405a25848f6b4a039cfdbd libxfs: don't clear ->dev in libxfs_device_close
-45c2b2ae6968316f0251c2539f5b7880aeb9c0df libxfs: fix buftarg initialization for the RT device
-d69aadab419eb9cc1c2564497c605161f83a3af9 libxfs: rename bt_bdev*
-5f82a09e37bc670ec707f7a5dc7234024255d21a libfrog: improve ramdisk handling in platform_flush_device
-e58810a53900f5b026d0d1792268c209412a4661 xfs_db: remove a double-whitespace in rdump_regfile_data
-196c46c1bd31f93b612e7477ad92474397e803d4 libxfs: change cache_node_allocate function signature
-92d45f837671ff8b81bf9b62cf91219da4b79bee libxfs: Return -ENOMEM on actual cache node allocation failures
-caca7f14b449c94583a263e5d4e51354e86529f8 libxfs: do not allow cache growth to overflow
-676a9c053b3ba8161fca1b84933b6ceae8bed9e3 xfs: add xfs_metadir_create_file helper
-2e7c01836b4a8b13db04392298cb0324b55ab9d8 xfs: create quota metadir inodes using xfs_metadir_create_file
-039f190df8c004f08003c3cd902440070a2511c5 xfs: create rtgroup metadir inodes using xfs_metadir_create_file
-66b6ae4030d3b50b8419ffbfcadff39d9e801aa1 xfs: mark internal metadir file creation helpers static
-1fb40116a1cb7a570741eb3bce54f8c44a84c902 xfs: use kmalloc_objs() instead of kmalloc() in xfs_da_grow_inode_int
-7e1b9fbf6f7f7ff2f85966c073a6e7219111dcdd xfs: remove spurious XBF_DONE clearing on readahead validation failure
-3b0f5adc26cf82f6fbe80d57ec2b66f1d8b20dbc xfs: hide b_flags manipulation from code outside of xfs_buf.c
-8317b413b71acd8cbce7dd54edd14199c4f4bd35 xfs: validate attr entry pointer before field access
-7a50f7491532e94fe34c9a222e441e31fb951424 xfs: don't hold buffer locks across sync transaction commit in xfs_sync_sb_buf
-f9854a98e80c1f5de81d925f8bfd03fe500bf4e9 treewide: refresh kmalloc_obj() conversions
-c48eb55c29558fc8d0a7184213b6820d1987d94b xfs: fix exchange-range reflink flag clearing issue with INO1_WRITTEN
-42ea0afbd33c43e525615682a5d669f4debfeee1 xfs: initialise error in xfs_defer_finish_one()
-e0d9ad61164ee1ca740e8c9fd8c01259e9deb7a8 xfs: give the deferred barrier op type a name
-be2bf6513b91041f1f8e62e2441beb6d0290269f xfs: report the error that made deferred work shut down the fs
-4206701dbeff6c3188c3ab1241e43ae56c8b6f43 xfs: correct the parent pointer space reservation comment
-df60f4e15e3d9eb4fe118cd34f17aaed7329cf63 xfs: initialise args->total for parent pointer updates
-d56a38d3997d44c3eba349bcbabab4785ea1449b xfs: assert the reservation covers each da fork growth
-67b7f1c5690db6096111227361b35256617a905a xfs: fix the rtrmap and rtrefcount _maxlevels_ondisk functions
-4e62b4fbc6d81fbc7ce0c2600167f9224de6287f xfs: fix xfs_rtrmapbt_mem_cursor for non-rmap filesystems
-ebdfbefc27296b81b1ad63444f346c4bdbbaf702 xfs: preserve owner on in-memory btree creation
-7894dd5000ed483204cb634b8fd60c0e495e4fc2 xfs: don't leak new_bp if xfs_btree_bload_drop_buf fails
-1b259d3bc94262a525b514d0cb3003317930ff6f xfs: fix under-reservation of blocks when repairing sf directories
-c4a973b97ebd10b14a130f4894d203bb341a6efb xfs: remove duplicate INO1_WRITTEN check
-870cb9fc67cad146246d2bb8539ccf0caccf0045 xfs: fix typos and repeated words in comments
-7c246421a1879040be771eff16a0523f875ec8a7 xfs: don't let hidden_space go negative in xfs_metafile_resv_init
-e47ceb65254a88655c2d996cb738f7c6dfc1cdb5 xfs: fix wild memcpy access when formatting ondisk rtrefcount btree roots
-285528d26493bc482b3c1b843ee2cb31e7e9659c misc: convert as many xfsquotactl callsites to xfrog_quotactl as possible
-d97bfb4887b2c476ce7a83164ae4e80601c235b1 quotactl: deploy typechecked helpers
-
---===============4737125776431218463==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7de0222d94fb-e00c55db8ee4.txt
-
-d28edf8b3722d2b3f8ae23bd225c733184b0802e xfs_healer: correct xfd_ API usage
-fde1eeed253a927a922e04ba007a586b7e4f6cde xfs_healer: fail earlier on non-xfs filesystems
-8a4a368b497dd5891808f9333c42a33d1df77d20 libxfs: refactor the reinit case in libxfs_buftarg_init
-08c91516ffa7480f1b551b177b89231e6b63e815 libxfs: split error injection option parsing out of libxfs_buftarg_init
-8f9506e2dafc95ab786d237b15b1ee04931b9be6 libxfs: remove buftarg member aliases
-35e136a42548ff1c0a881fb69b443b89aa1e34ac libxfs: unify buftarg handling with the kernel
-55ec0ef299d57842eed0286fd0cddd67e7995189 libxfs: make the size check in rtmount_init internal RT device aware
-c189d771732e403a59405a25848f6b4a039cfdbd libxfs: don't clear ->dev in libxfs_device_close
-45c2b2ae6968316f0251c2539f5b7880aeb9c0df libxfs: fix buftarg initialization for the RT device
-d69aadab419eb9cc1c2564497c605161f83a3af9 libxfs: rename bt_bdev*
-5f82a09e37bc670ec707f7a5dc7234024255d21a libfrog: improve ramdisk handling in platform_flush_device
-e58810a53900f5b026d0d1792268c209412a4661 xfs_db: remove a double-whitespace in rdump_regfile_data
-196c46c1bd31f93b612e7477ad92474397e803d4 libxfs: change cache_node_allocate function signature
-92d45f837671ff8b81bf9b62cf91219da4b79bee libxfs: Return -ENOMEM on actual cache node allocation failures
-caca7f14b449c94583a263e5d4e51354e86529f8 libxfs: do not allow cache growth to overflow
-676a9c053b3ba8161fca1b84933b6ceae8bed9e3 xfs: add xfs_metadir_create_file helper
-2e7c01836b4a8b13db04392298cb0324b55ab9d8 xfs: create quota metadir inodes using xfs_metadir_create_file
-039f190df8c004f08003c3cd902440070a2511c5 xfs: create rtgroup metadir inodes using xfs_metadir_create_file
-66b6ae4030d3b50b8419ffbfcadff39d9e801aa1 xfs: mark internal metadir file creation helpers static
-1fb40116a1cb7a570741eb3bce54f8c44a84c902 xfs: use kmalloc_objs() instead of kmalloc() in xfs_da_grow_inode_int
-7e1b9fbf6f7f7ff2f85966c073a6e7219111dcdd xfs: remove spurious XBF_DONE clearing on readahead validation failure
-3b0f5adc26cf82f6fbe80d57ec2b66f1d8b20dbc xfs: hide b_flags manipulation from code outside of xfs_buf.c
-8317b413b71acd8cbce7dd54edd14199c4f4bd35 xfs: validate attr entry pointer before field access
-7a50f7491532e94fe34c9a222e441e31fb951424 xfs: don't hold buffer locks across sync transaction commit in xfs_sync_sb_buf
-f9854a98e80c1f5de81d925f8bfd03fe500bf4e9 treewide: refresh kmalloc_obj() conversions
-c48eb55c29558fc8d0a7184213b6820d1987d94b xfs: fix exchange-range reflink flag clearing issue with INO1_WRITTEN
-42ea0afbd33c43e525615682a5d669f4debfeee1 xfs: initialise error in xfs_defer_finish_one()
-e0d9ad61164ee1ca740e8c9fd8c01259e9deb7a8 xfs: give the deferred barrier op type a name
-be2bf6513b91041f1f8e62e2441beb6d0290269f xfs: report the error that made deferred work shut down the fs
-4206701dbeff6c3188c3ab1241e43ae56c8b6f43 xfs: correct the parent pointer space reservation comment
-df60f4e15e3d9eb4fe118cd34f17aaed7329cf63 xfs: initialise args->total for parent pointer updates
-d56a38d3997d44c3eba349bcbabab4785ea1449b xfs: assert the reservation covers each da fork growth
-67b7f1c5690db6096111227361b35256617a905a xfs: fix the rtrmap and rtrefcount _maxlevels_ondisk functions
-4e62b4fbc6d81fbc7ce0c2600167f9224de6287f xfs: fix xfs_rtrmapbt_mem_cursor for non-rmap filesystems
-ebdfbefc27296b81b1ad63444f346c4bdbbaf702 xfs: preserve owner on in-memory btree creation
-7894dd5000ed483204cb634b8fd60c0e495e4fc2 xfs: don't leak new_bp if xfs_btree_bload_drop_buf fails
-1b259d3bc94262a525b514d0cb3003317930ff6f xfs: fix under-reservation of blocks when repairing sf directories
-c4a973b97ebd10b14a130f4894d203bb341a6efb xfs: remove duplicate INO1_WRITTEN check
-870cb9fc67cad146246d2bb8539ccf0caccf0045 xfs: fix typos and repeated words in comments
-7c246421a1879040be771eff16a0523f875ec8a7 xfs: don't let hidden_space go negative in xfs_metafile_resv_init
-e47ceb65254a88655c2d996cb738f7c6dfc1cdb5 xfs: fix wild memcpy access when formatting ondisk rtrefcount btree roots
-285528d26493bc482b3c1b843ee2cb31e7e9659c misc: convert as many xfsquotactl callsites to xfrog_quotactl as possible
-d97bfb4887b2c476ce7a83164ae4e80601c235b1 quotactl: deploy typechecked helpers
-fc3637078d311bbebe74704dc110d053013a9863 tools: add a new script to generate fixes tags
-fa203a842061403b459803a2bd7d28e56680999d mkfs: add config file for the 2026 LTS kernel
-e3cb18b5162d5c2fc47683ec9da07c9c98102514 mkfs: enable metadata directory trees by default
-7226e6f920383ba9896c89d3966fba624bcc0192 xfs: clean up after failed metafile relinking
-7904e764f64aa492942aebf90913e977ebc60736 xfs: pass xfs_trans_resv object to reservation calculation helpers
-cc18734117b50f7dd756cfb2cea23a7906cc1b00 xfs: fix xfs_rename_space_res for non-pptr filesystems
-d8c3d81857169141634bce9709a8f75fb17c4b9e xfs: fix ondisk symlink target validation in xrep_dinode_check_dfork
-6c9f6c471e4e705ab464ea37ae0174d815ec9e93 xfs: avoid cross-rtgroup reaping after a repair
-e00c55db8ee4bfd9294c08ae9500d2f10fdc0ce2 xfs: refactor inode forkoff to byte conversions
-
---===============4737125776431218463==--
+--===============5640052124768512003==--
