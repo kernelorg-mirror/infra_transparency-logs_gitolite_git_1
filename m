@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2413433977505762174=="
+Content-Type: multipart/mixed; boundary="===============8205946314942201557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 09 Oct 2026 17:31:31 -0000
-Message-Id: <179156709163.1166496.8492856209795478819@gitolite.kernel.org>
+Date: Fri, 09 Oct 2026 17:31:34 -0000
+Message-Id: <179156709485.1166688.10352127831361203721@gitolite.kernel.org>
 
---===============2413433977505762174==
+--===============8205946314942201557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: a5e7d8e446af9803e37a3b6a4d416fb41178348f
     new: d8674294aefef02266c4d47ad10131f1bffbe534
     log: revlist-a5e7d8e446af-d8674294aefe.txt
 
---===============2413433977505762174==
+--===============8205946314942201557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -868,4 +868,4 @@ f91afd7f713309d97427bdf0c9301fd5133a26ba net: stmmac: move XPCS lifetime managem
 af32da41b0327b9c6a37856ba82b6760d6c8d10e Merge tag 'net-7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 d8674294aefef02266c4d47ad10131f1bffbe534 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============2413433977505762174==--
+--===============8205946314942201557==--
