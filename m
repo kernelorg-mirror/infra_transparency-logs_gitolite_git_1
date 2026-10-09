@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4959885136485098803=="
+Content-Type: multipart/mixed; boundary="===============6985615008751439626=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Fri, 09 Oct 2026 12:16:47 -0000
-Message-Id: <179154820722.865039.11903065571521307836@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Fri, 09 Oct 2026 12:17:04 -0000
+Message-Id: <179154822499.865536.17474879054646657475@gitolite.kernel.org>
 
---===============4959885136485098803==
+--===============6985615008751439626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: af32da41b0327b9c6a37856ba82b6760d6c8d10e
     log: revlist-551c722f4080-af32da41b032.txt
 
---===============4959885136485098803==
+--===============6985615008751439626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -818,4 +818,4 @@ fe4167bf53b61405f97614f644f6a63a5d6ad034 Merge branch 'wireguard-fixes-for-7-3-r
 37f12441f557468a56c1e27790413aa78c82afa2 Merge branch 'net-macb-fix-software-fcs-handling-of-shared-and-requeued-skbs'
 af32da41b0327b9c6a37856ba82b6760d6c8d10e Merge tag 'net-7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============4959885136485098803==--
+--===============6985615008751439626==--
