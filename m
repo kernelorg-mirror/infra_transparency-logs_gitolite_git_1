@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Fri, 09 Oct 2026 15:27:40 -0000
-Message-Id: <179155966021.1055393.9051528723816263692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mchehab/linux-media
+Date: Fri, 09 Oct 2026 15:39:40 -0000
+Message-Id: <179156038019.1063018.13605107975992425615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/mchehab/linux-media
+user: mchehab
 changes:
-  - ref: refs/heads/b4/rust-clockid
-    old: 8aaeb43a5dab7c2344e34233fdf81d453ff9137a
-    new: 10aaf484a80d67c3e3aa454a4f73dc58b69f045d
-    log: |
-         10aaf484a80d67c3e3aa454a4f73dc58b69f045d aux0
-         
+  - ref: refs/tags/media/v7.3-3
+    old: 0000000000000000000000000000000000000000
+    new: 76c59f448351053ffb9672874529e66e67a6a40b
