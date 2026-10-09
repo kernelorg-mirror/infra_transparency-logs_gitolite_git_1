@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1460556861238279757=="
+Content-Type: multipart/mixed; boundary="===============6622000813881846410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 09 Oct 2026 05:04:59 -0000
-Message-Id: <179152229904.461748.175810124199421309@gitolite.kernel.org>
+Date: Fri, 09 Oct 2026 05:05:49 -0000
+Message-Id: <179152234962.464500.9541696789015037400@gitolite.kernel.org>
 
---===============1460556861238279757==
+--===============6622000813881846410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,50 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 48437a9ff10dc31e479822d5efbf637690a215e9
-    new: 0a8c1e3029055b09314b7d60c8180e22b59e4f72
-    log: revlist-48437a9ff10d-0a8c1e302905.txt
+    old: 0a8c1e3029055b09314b7d60c8180e22b59e4f72
+    new: 6b27d3127c0512c57c02018f0bfb9d5ecdf457ae
+    log: revlist-0a8c1e302905-6b27d3127c05.txt
+  - ref: refs/heads/tip/urgent
+    old: 3daee811941009ed41edd3490447549119f70b44
+    new: 1e23b5e1feca3e0c8c90193ec2b93f1a9c316663
+    log: revlist-3daee8119410-1e23b5e1feca.txt
 
---===============1460556861238279757==
+--===============6622000813881846410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48437a9ff10d-0a8c1e302905.txt
+Content-Disposition: attachment; filename=revlist-0a8c1e302905-6b27d3127c05.txt
+
+1e23b5e1feca3e0c8c90193ec2b93f1a9c316663 Merge branch into tip/master: 'x86/urgent'
+5e88a33559708d2078e77c18376a7a4e710f0574 Merge branch into tip/master: 'irq/core'
+829286f8aa8a587c67260974cac199c77d7175e6 Merge branch into tip/master: 'irq/drivers'
+5fd5bda66da8349d18b7581605c71a1d40ca0b25 Merge branch into tip/master: 'locking/core'
+3f2dcc930b7731d870c1c2685b3b06e356012bfc Merge branch into tip/master: 'objtool/core'
+c605642a1d1580d465ee8fe3e64d165cf027e91b Merge branch into tip/master: 'perf/core'
+2ef801e1ff077887f8d7cbc3b33e8a951eb78922 Merge branch into tip/master: 'perf/merge'
+34aa69b0f1876821a6aa6d5c7f479b5a5f4f936d Merge branch into tip/master: 'sched/core'
+40dc92273d0a611efa9d9058365dd917817758f8 Merge branch into tip/master: 'timers/core'
+90b04cf6e196cd7b229571a9e869eccb394a0d3b Merge branch into tip/master: 'timers/nohz'
+a78d07d4010cbcb44748fb2a8645c8e834a71a0e Merge branch into tip/master: 'x86/asm'
+08c41320f0dcc9c368b8daba705cdb5487fc0eae Merge branch into tip/master: 'x86/boot'
+c5c4041ae83b72b7315a952ecd4b6bf1b0ea7707 Merge branch into tip/master: 'x86/bugs'
+e145cd981a918b0fc1a9cc7b7b760341ac6a5bd5 Merge branch into tip/master: 'x86/cache'
+d8f3659aa1c5a41141dfd2a26171dbea13efb011 Merge branch into tip/master: 'x86/cleanups'
+e53e32c8191e7c4be0b8303315bf5a81a6946f1f Merge branch into tip/master: 'x86/cpu'
+cd723afbb084f5a9f0e8316d3c11169cea167128 Merge branch into tip/master: 'x86/kdump'
+8b74f035e459ceeefe22bfac14c0f6b64fde4167 Merge branch into tip/master: 'x86/microcode'
+74cd04a313bba68eebc9a28a9ae98dbcac276c71 Merge branch into tip/master: 'x86/misc'
+69e1e9695e49ee1b30b3c37119b8ac118eeb052c Merge branch into tip/master: 'x86/mm'
+690a215c8c8df7daaaa1e3ced6106ecdd1b08763 Merge branch into tip/master: 'x86/platform'
+10c3dbfc0f6c56e3f53c6742912128eee9e2a784 Merge branch into tip/master: 'x86/sev'
+18db62782d7b7c93fb5e1f81b026456a6e175b67 Merge branch into tip/master: 'x86/sgx'
+6b27d3127c0512c57c02018f0bfb9d5ecdf457ae Merge branch into tip/master: 'x86/tdx'
+
+--===============6622000813881846410==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3daee8119410-1e23b5e1feca.txt
 
 93847823b6761e1791a7db10f55bbd4f79fa0dbc tee: qcomtee: fix kernel-doc warnings
 35ce3c571297aee13c6da604d022929fd1aa9efb arm64: dts: qcom: x1-denali: Fix microphone distortion
@@ -221,6 +256,6 @@ fe4167bf53b61405f97614f644f6a63a5d6ad034 Merge branch 'wireguard-fixes-for-7-3-r
 9151d6c42799105e109c8b54dbaad91ce0e17c47 net: macb: copy shared skbs before appending the FCS
 37f12441f557468a56c1e27790413aa78c82afa2 Merge branch 'net-macb-fix-software-fcs-handling-of-shared-and-requeued-skbs'
 af32da41b0327b9c6a37856ba82b6760d6c8d10e Merge tag 'net-7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-0a8c1e3029055b09314b7d60c8180e22b59e4f72 Merge branch 'linus'
+1e23b5e1feca3e0c8c90193ec2b93f1a9c316663 Merge branch into tip/master: 'x86/urgent'
 
---===============1460556861238279757==--
+--===============6622000813881846410==--
