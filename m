@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Fri, 09 Oct 2026 08:19:13 -0000
-Message-Id: <179153395383.664191.9612822656686241211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chleroy/linux
+Date: Fri, 09 Oct 2026 08:25:23 -0000
+Message-Id: <179153432388.672374.15807570364936877036@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/chleroy/linux
+user: chleroy
 changes:
-  - ref: refs/heads/next
-    old: ea01f446f0682a5e7bd7a275889a890b7e0c6e02
-    new: 8f56fdf3d8cb9f1dbdc93bf9ac816698aa6f70b7
-    log: |
-         d940f4f05123ecdc3d1226df76ce652c1b4d845c dt-bindings: phy: tegra194: Add compatible for Tegra238
-         c0c4091bbaa3c6dc05ecf8a639cec25eca933bfe phy: tegra: xusb: Use dev_err_probe()
-         8f56fdf3d8cb9f1dbdc93bf9ac816698aa6f70b7 phy: tegra: Add support for Tegra238 XUSB pad controller
-         
+  - ref: refs/tags/soc_fsl-6.12-2
+    old: 0000000000000000000000000000000000000000
+    new: 8b18b059c579c5b70d410047f389bed9f1a8ad20
