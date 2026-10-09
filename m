@@ -1,63 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============3746965061130401534=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 09 Oct 2026 13:56:42 -0000
-Message-Id: <179155420228.956374.6907038949418686385@gitolite.kernel.org>
-
---===============3746965061130401534==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Fri, 09 Oct 2026 13:59:16 -0000
+Message-Id: <179155435697.957301.16445864375175430835@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/master
-    old: fa49b9a0070e64b345b42121bcb5c2f2293d5cda
-    new: 16d7736aa9900ca99fe89019a5ef6c82fca54d01
+  - ref: refs/heads/features
+    old: 74a31be974dde1d12ed9db131b413c519f8fc429
+    new: 9fd7fca66735307fd7afa3450882a55ef80f2add
     log: |
-         054cfbd324a96b8d15d31303583117f06b954061 5.10-stable patches
-         439008a3e63a1526c8743cd8a2ad89cc2ccd1dfa 5.15-stable patches
-         7feef6cd526d7a7ee2bd13ece7521098f5072f85 6.1-stable patches
-         d952ab6eff60aa26533e660a3e4ca47cf42e8eb6 6.6-stable patches
-         4208dc0a498c4b4b5bf065869fce88b4f8f0b5b3 6.12-stable patches
-         1f3472c590d8a6fc79268f550117bd81595feea4 6.18-stable patches
-         c96438a9c04c51a19292bb01e5043bf9ba6ba5d5 7.2-stable patches
-         16d7736aa9900ca99fe89019a5ef6c82fca54d01 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         833ee20e712bd0c71435feddaa7b578799fe50c6 s390/dis: Mark non-NUL-terminated character arrays with __nonstring
+         99a95985dfc85eecad97f0991a2401d2fcef294c s390/cpum_cf: Check session mask before cpu offline
+         c8b2bb9385d08fbb734146b7902838ca79097127 s390/cpum_cf: Honor hwctr session cpu mask during hotplug
+         f28aeaecc28dec067fbe24abdbd48f4c584a517f Merge branch 'cpum_cf'
+         0c920885e593ee0be7579c22adf7f6a1bbef71be s390/appldata: Emulate virtual timer with delayed work
+         13efc382cc7cc0dfba557b55dc65477c2d24ddf3 s390/vtime: Remove vtimer infrastructure
+         87c3772e1adcbfa220635b7db8086cbc2067f09d Merge branch 'vtimer'
+         7b88e8b6d714cd1b2b6185e2963c8ec4d98542d0 s390/zcrypt: Guard domain index uses against speculative bypass
+         9fd7fca66735307fd7afa3450882a55ef80f2add s390/zcrypt: Fix out-of-bounds ptr advance in cca_query_crypto_facility()
          
-
---===============3746965061130401534==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791554197 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1791554199-6b4ae4496c20e7f1c8c448507a567f2c2000bec8
-
-fa49b9a0070e64b345b42121bcb5c2f2293d5cda 16d7736aa9900ca99fe89019a5ef6c82fca54d01 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrI8pUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FP0QAJL8lv49E56uIqP2HYkR
-9RVsp6bPtfPOKo7r5AbKRgX8s9ass0V7O8F4TzMvxEXuhZtA4XZfzGcrragP5P1q
-ZS79sguHFvhqrxTn+yfH7g78VBxCHofeWBzNPUdM6JGLv39Hr6Mcxss4tuof8HNd
-b0ULmD0XPG166nYsMoI9JGtmCjViYR2ZvtVPMDQM+KqWKXgVkCFEBNWo560D793p
-TObNFT+25l0VkF4uM5wpjXvUwSMjkP0zUuuznQTkiKjVhnx0ZLwjyWneJ4EaLaIB
-dUcj9zKBoFA1cPK5Z8ZyW4uJiVef6+mJNkt6OBy2VZaY4i8ucmisPYIzofm1L6Ew
-tyE3PDbVkVHhYnohAjBlMk+TnlZGT0Jz4xXH2+6W96Z6c5mGXeOzo5mh4ZyX3Cep
-ilhquqBgZCYz7Dxx5lCJ6cSIJpXeQgjbR8E+5FPDYl3oCk7mvo94S4Tchnlz8MmM
-pMz422ofO/+3V6f3BsjMZzkzkqUjmmyWzLVa5fpcwaIREOcyRwsySQOwJYr9AxgZ
-6A/b+mUJ2LpdObRMf+oDdlZufFyCQPC1pcl08PPLCDfTt5wXUU4gvhPYvXcoVRqL
-d/2LpSD98l1WS4ReFIvtXbAikVpfAuIllei5zXiSeq+QecGx0imwJjDGlOxlOLuz
-2I0n4ymwOmH/auXnNZGheL85
-=7hWS
------END PGP SIGNATURE-----
-
---===============3746965061130401534==--
