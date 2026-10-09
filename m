@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Fri, 09 Oct 2026 20:40:53 -0000
-Message-Id: <179157845378.1326863.16990380591059045660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 09 Oct 2026 20:45:10 -0000
+Message-Id: <179157871006.1330080.17834935490322122272@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/kbuild-next-unstable
-    old: a8f72a75b38a153d32a59b2ebca1d7079db1dd1a
-    new: 3bf2237f59af842e546fa4b2c146198db95d1519
+  - ref: refs/heads/main
+    old: 7be47f171be4138285f59f58e1a8aa601f57350e
+    new: 7ed3971bbabb0aac566a8f98ae5e5b92f6afedb3
     log: |
-         d26ab84593e63bc5395ed9b518502830fda3367c clang-tools: Import os for broken pipe handling
-         3bf2237f59af842e546fa4b2c146198db95d1519 scripts/make_fit: Ignore schema checks when decomposing DTBs
+         f45ea109af7559233c76366d20f9b0b54eefc4c3 amdgpu: DMCUB updates for various ASICs
+         7ed3971bbabb0aac566a8f98ae5e5b92f6afedb3 Merge branch 'amd-staging' into 'main'
          
