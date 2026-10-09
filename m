@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5006628113161005729=="
+Content-Type: multipart/mixed; boundary="===============5876081740011437968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Fri, 09 Oct 2026 07:57:02 -0000
-Message-Id: <179153262209.646043.7062883230072831711@gitolite.kernel.org>
+Date: Fri, 09 Oct 2026 07:59:05 -0000
+Message-Id: <179153274500.646796.9977340003577039227@gitolite.kernel.org>
 
---===============5006628113161005729==
+--===============5876081740011437968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/master
-    old: 93f51579e7df248780214094418f205253383cc5
-    new: a90ee4305c4a5df72c11b31dacfdc76e00fcf78a
-    log: revlist-93f51579e7df-a90ee4305c4a.txt
+  - ref: refs/heads/linux-next
+    old: 1b2f77d8f93c9170504229a537e7985865abd89a
+    new: 71d59fc2a5e357ac03bb2ee1522a7c1f8bd0c34f
+    log: revlist-1b2f77d8f93c-71d59fc2a5e3.txt
 
---===============5006628113161005729==
+--===============5876081740011437968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-93f51579e7df-a90ee4305c4a.txt
+Content-Disposition: attachment; filename=revlist-1b2f77d8f93c-71d59fc2a5e3.txt
 
-cfe80c3837f93202970b6d8f706f79c5c7396f17 KVM: arm64: Check every private mapping is hyp-owned at pKVM init
-33346f8960c7bb6a3b4e273b5cfe25c5a8be349f KVM: arm64: nv: Fix life cycle of the nested_mmus array
-e5843f4effaa2ffac3e789ecd4456403564961d4 KVM: arm64: nv: Delay freeing of shadow S2 structures until VM destruction
-49d9d295d69d07e850cae35933ba8519e2915f26 KVM: arm64: Don't WARN on an unknown VM ioctl in protected mode
-96e6757cb0674acb86ee8b558ee6bffe0eec0bb0 KVM: selftests: fix steal_time for arm64 with host page size > 4K
-089e4f3c4862ba3f29dff2361caa8084879194fd KVM: arm64: Fix FGT mapping for HFGITR_EL2.nGCSEPP
 7de9a6fb44eae4f05e68c805d58b9c618815adfa sched_ext: Wait for SCX_OPSS_DISPATCHING before reenqueueing a task
 b52d695d062095327b944acf7daabbc816ab319b scsi: ufs: core: Keep internal commands dispatchable during error handling
 c9ee6511332687ea714ad8ab86a53cb837d86eea scsi: ufs: pltfrm: Add quirk for R-Car S4 lacking lanes-per-direction
@@ -1050,5 +1044,11 @@ a27611f8994c9a4772156432badb533af33fd32d Merge tag 'perf-urgent-2026-10-04' of g
 06ac073129191a01d77933ed381f89c67674db6f Merge tag 'x86-urgent-2026-10-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7704c4c5bb127673b4f0ead839919db573559e38 Merge tag 'i2c-fixes-7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 a90ee4305c4a5df72c11b31dacfdc76e00fcf78a Linux 7.3-rc6
+5d12c51bd98cdb5a32cbfb606963b05740ec42f2 xen/pcifront: Fix PCI device reference leak in AER handling
+9b4df0baa2aa03d22310e59846ca628f7afd4115 xen/blkback: Prevent missed completion when draining I/O
+f3e27b7955727a4d7c0e9264a2a209fbba788bdc xen-blkfront: unbind irq before tearing down ring and shadow requests
+fe2eea9afbc4727ec972ec8dd4ff1480a5333bab xen: remove unused hvm_vcpu.h header
+2176dea8d8c19cb43a9b3651bfa1cb21eab1b31a xen/gntdev: prevent private mappings from becoming writable
+71d59fc2a5e357ac03bb2ee1522a7c1f8bd0c34f xen: fix typos in comments
 
---===============5006628113161005729==--
+--===============5876081740011437968==--
