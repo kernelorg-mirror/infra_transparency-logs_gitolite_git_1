@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Fri, 09 Oct 2026 14:15:50 -0000
-Message-Id: <179155535015.986574.7069019572459253998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Fri, 09 Oct 2026 14:16:20 -0000
+Message-Id: <179155538089.987039.4483300160355742205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 9cb04e601a89b6a6675f39865a149a54c9f651fb
-    new: 839c7cdc250c715dc3c0f1b5a780edc1c26a107a
+    old: 97a128698d9dcacb9a15cdc5080718a644b12637
+    new: 73e05fa751f21278814116d413c7fc59b1e13f4e
     log: |
          f664d75735b01ae278db9d95161f8df311ebb545 Bluetooth: 6lowpan: Drain RCU readers on registration failure
          b019e48cee2dc91c373b95b86c4f709a874855a6 Bluetooth: 6lowpan: Pin module for 6lowpan_control debugfs file
@@ -23,4 +23,5 @@ changes:
          da8aab8ed08d51c33aef93119db5e6f943b8770a Bluetooth: hci_vhci: Pin module for debugfs file operations
          0d5d090d235dfabcbe6410aed9af0958895317de Bluetooth: L2CAP: Hold the listener while notifying child teardown
          839c7cdc250c715dc3c0f1b5a780edc1c26a107a Bluetooth: selftest: Pin module for selftest debugfs file operations
+         73e05fa751f21278814116d413c7fc59b1e13f4e Merge branch 'bluetooth' into bluetooth-next
          
