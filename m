@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3624086160653536422=="
+Content-Type: multipart/mixed; boundary="===============9085583545892753091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 09 Oct 2026 20:29:39 -0000
-Message-Id: <179157777973.1316183.15966752540877636505@gitolite.kernel.org>
+Date: Fri, 09 Oct 2026 20:29:43 -0000
+Message-Id: <179157778312.1316382.457373762065815021@gitolite.kernel.org>
 
---===============3624086160653536422==
+--===============9085583545892753091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: e1d84a37cba984388988d2f1ddc84561413f0db2
     new: 15b578b1715d9a318c804350d98af87c203672bc
     log: revlist-e1d84a37cba9-15b578b1715d.txt
 
---===============3624086160653536422==
+--===============9085583545892753091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -79,4 +79,4 @@ aa8964a8e5f1fe3e5e182990bf8ae4ac122da749 selftests/bpf: Tests for immediate domi
 8b93e9f92c16603d4df321cb1edb86a2137ab5eb selftests/bpf: Tests for SCEV analysis and loop widening
 15b578b1715d9a318c804350d98af87c203672bc Merge branch 'bpf-use-scalar-evolution-to-widen-bounded-loops'
 
---===============3624086160653536422==--
+--===============9085583545892753091==--
