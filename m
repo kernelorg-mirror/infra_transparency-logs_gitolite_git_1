@@ -1,26 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Fri, 09 Oct 2026 21:43:39 -0000
-Message-Id: <179158221972.1381747.7359150147349666664@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3440575054284569035=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 09 Oct 2026 21:52:29 -0000
+Message-Id: <179158274960.1388557.5488007801341069101@gitolite.kernel.org>
+
+--===============3440575054284569035==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-7.4
-    old: 2da613c9f89b56140977c9f349c6f1d557c95064
-    new: 0ded98e4c014d8bc9ced2dc7a4d1fb290a594d48
-    log: |
-         0ded98e4c014d8bc9ced2dc7a4d1fb290a594d48 sched_ext: scx_qmap: Reset a child's cpuperf targets once its PERF revoke takes effect
-         
-  - ref: refs/heads/for-next
-    old: c3c4c33c8f0d09293b93be1d615ca2cfd33ddec0
-    new: a52cbf0bdbbfc3c72ab7a9b78c3d966574f941dc
-    log: |
-         0ded98e4c014d8bc9ced2dc7a4d1fb290a594d48 sched_ext: scx_qmap: Reset a child's cpuperf targets once its PERF revoke takes effect
-         a52cbf0bdbbfc3c72ab7a9b78c3d966574f941dc Merge branch 'for-7.4' into for-next
-         
+  - ref: refs/heads/work.fixes.rcu
+    old: 0000000000000000000000000000000000000000
+    new: fbfbaaae03105becd03674a03cfa242f8a6e991c
+
+--===============3440575054284569035==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 0x91C61BC06578DCA2! 1791582748 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+nonce 1791582747-2e219ae017c723b345bc1b65897ae8d8a817c3f2
+
+0000000000000000000000000000000000000000 fbfbaaae03105becd03674a03cfa242f8a6e991c refs/heads/work.fixes.rcu
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCasliHAAKCRCRxhvAZXjc
+ogydAQDXFihsInzaAUwnKKPvuAGaXNOrHDi5fZq8osL6hYBpYQEAlElaAXbEm84g
+4/s7EndO7ZZ0C9DUBg0rM81Wyt2gAwQ=
+=BZu2
+-----END PGP SIGNATURE-----
+
+--===============3440575054284569035==--
