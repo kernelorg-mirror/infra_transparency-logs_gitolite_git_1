@@ -1,16 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kup/kup
-Date: Fri, 09 Oct 2026 14:14:38 -0000
-Message-Id: <179155527826.983822.11012391119072425704@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
+Date: Fri, 09 Oct 2026 14:15:50 -0000
+Message-Id: <179155535015.986574.7069019572459253998@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kup/kup
-user: mricon
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
+user: vudentz
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 0000000000000000000000000000000000000000
-    new: 6279470619b36e6f6de32ff4d18cae75b7fef5c6
+  - ref: refs/heads/master
+    old: 9cb04e601a89b6a6675f39865a149a54c9f651fb
+    new: 839c7cdc250c715dc3c0f1b5a780edc1c26a107a
+    log: |
+         f664d75735b01ae278db9d95161f8df311ebb545 Bluetooth: 6lowpan: Drain RCU readers on registration failure
+         b019e48cee2dc91c373b95b86c4f709a874855a6 Bluetooth: 6lowpan: Pin module for 6lowpan_control debugfs file
+         2820ae3262bd7558e0e73d5b534edb9f4a5c25e5 Bluetooth: btmtk: fix skb double free on ISO padding failure
+         f0352b2c4a5b3538c1705712b2786e1de82c8a12 Bluetooth: hci_debugfs: Pin module for debugfs file operations
+         9cbb87f8951d85fb2006eff26c4dcc455cd9a819 Bluetooth: hci_sync: Protect IRK identity reads with RCU
+         da8aab8ed08d51c33aef93119db5e6f943b8770a Bluetooth: hci_vhci: Pin module for debugfs file operations
+         0d5d090d235dfabcbe6410aed9af0958895317de Bluetooth: L2CAP: Hold the listener while notifying child teardown
+         839c7cdc250c715dc3c0f1b5a780edc1c26a107a Bluetooth: selftest: Pin module for selftest debugfs file operations
+         
