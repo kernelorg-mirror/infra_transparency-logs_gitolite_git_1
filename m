@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Fri, 09 Oct 2026 20:40:47 -0000
-Message-Id: <179157844732.1326642.17631148668315555844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Fri, 09 Oct 2026 20:40:53 -0000
+Message-Id: <179157845378.1326863.16990380591059045660@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/master
-    old: b111351fd617f57692aebc80db61e871d8ce52c9
-    new: 7428ca2df9356363079db0f48412c20cbdb9471f
+  - ref: refs/heads/kbuild-next-unstable
+    old: a8f72a75b38a153d32a59b2ebca1d7079db1dd1a
+    new: 3bf2237f59af842e546fa4b2c146198db95d1519
     log: |
-         c31e9091e646b61cfce3634baac03636f2760ac8 org.bluez.Bearer: Add Role property
-         76890c8fd3255bd1b0d64e3c35abb38ef3d87b22 bearer: Add Role property
-         2515706490c2d569885cd553a553de12cb2fc867 client: Print LE.Role in info
-         926bbc5dfe29a19d579d29fd81d7c5a5952a3ecd doc: Add functional-bearer documentation
-         ce448a8a7a3bf538c443235c9c7b38d4aea841cf test: functional: add bearer tests
-         7428ca2df9356363079db0f48412c20cbdb9471f device: Fix LE bearer Connect not replying
+         d26ab84593e63bc5395ed9b518502830fda3367c clang-tools: Import os for broken pipe handling
+         3bf2237f59af842e546fa4b2c146198db95d1519 scripts/make_fit: Ignore schema checks when decomposing DTBs
          
