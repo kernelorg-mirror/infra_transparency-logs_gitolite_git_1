@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
-Date: Fri, 09 Oct 2026 00:08:30 -0000
-Message-Id: <179150451083.248902.1750156568931808852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 09 Oct 2026 00:27:12 -0000
+Message-Id: <179150563244.262290.9519876750796467253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bmc/linux
-user: arj
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/tags/nuvoton-arm64-7.4-devicetree-0
-    old: 0000000000000000000000000000000000000000
-    new: 62d5596d75d1bbc9602051585edb947ba3e4f77f
+  - ref: refs/heads/pwrctrl
+    old: 843ce6fd1dc049037974575b283e25b6337b75c1
+    new: 05503ec0125c9215d38b4696e39ba36decd1f6ee
+    log: |
+         05503ec0125c9215d38b4696e39ba36decd1f6ee PCI/pwrctrl: Only destroy devices created by pwrctrl core
+         
