@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Fri, 09 Oct 2026 15:22:02 -0000
-Message-Id: <179155932283.1051278.11321161606642965143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
+Date: Fri, 09 Oct 2026 15:24:15 -0000
+Message-Id: <179155945525.1052135.7943626669867595058@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/mszyprowski/linux
+user: mszyprowski
 changes:
-  - ref: refs/heads/linux-next
-    old: cfaf31becde901f7a2376d36db628f8be0bc7283
-    new: 61b6d1df1d6234c38a6ea7e4f58e7da035ef6ab4
-    log: |
-         61b6d1df1d6234c38a6ea7e4f58e7da035ef6ab4 xen-blkfront: Fix IO race during unplug
-         
+  - ref: refs/tags/v7.3-rc4
+    old: 0000000000000000000000000000000000000000
+    new: dec005ae90a2946656a090f37bf1cfbd22f08e57
+  - ref: refs/tags/v7.3-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 5a956dde5526a634dca7ccad27c051ebcc306089
+  - ref: refs/tags/v7.3-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 4eeccbed21e50c19f97be9d325511f3de6343f2d
