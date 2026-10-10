@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sat, 10 Oct 2026 18:35:18 -0000
-Message-Id: <179165731800.2441049.1049085957590109896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sat, 10 Oct 2026 20:00:51 -0000
+Message-Id: <179166245183.2515043.16857608163934035032@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/pending
-    old: a853140aa59037779b2846fb68a967fd5c1b6d91
-    new: 7606c56f538d47f5166a4eea2e6db1a5590c9799
+  - ref: refs/heads/master
+    old: 5155dfbd227919a0463e5d322d5073ee7debde67
+    new: 12ffae24d2491ff1c1c871e295ba069e27dba087
     log: |
-         7606c56f538d47f5166a4eea2e6db1a5590c9799 wifi: ath12k: assign device id from the WSI index
+         12ffae24d2491ff1c1c871e295ba069e27dba087 src/bin/git-bisect-rebase: Use consistent conditions
          
