@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7913584136686286697=="
+Content-Type: multipart/mixed; boundary="===============4505179391222858505=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Sat, 10 Oct 2026 08:12:50 -0000
-Message-Id: <179161997007.1918289.14941977247590634579@gitolite.kernel.org>
+Date: Sat, 10 Oct 2026 08:13:23 -0000
+Message-Id: <179162000376.1918882.304436216503383799@gitolite.kernel.org>
 
---===============7913584136686286697==
+--===============4505179391222858505==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/alloc-token
-    old: 24e3a89d54050da5c7e28b343028d5f5809e460b
-    new: a9f247a29f5e72247cc32dc5e8a549e7988f86f8
-    log: revlist-24e3a89d5405-a9f247a29f5e.txt
+  - ref: refs/heads/next
+    old: a8488ecbd7ba44d65b912dfe88a73f438eba2447
+    new: 99b6fcce87037cfb6b5e177848342e97f5141205
+    log: revlist-a8488ecbd7ba-99b6fcce8703.txt
 
---===============7913584136686286697==
+--===============4505179391222858505==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-24e3a89d5405-a9f247a29f5e.txt
+Content-Disposition: attachment; filename=revlist-a8488ecbd7ba-99b6fcce8703.txt
 
+b9d755c5a37519fb1354034db1dfeb30e1ba6856 net/mlx5e: Fix setting RS FEC after remapping
+c84ce45a7a3f3f024502c7f53308db9c76e4ae71 net/mlx5e: Fix reporting support for all RS FEC variants
+502381cf7310a87275897a5a0a0a2e628179f00e Merge branch 'net-mlx5e-rs-fec-variant-fixes'
+b3c79dee5038c5e8460c59d7d01cb1450bdf5ecb net/mlx5: LAG, use local tracker to update active ports
+e7ee89740800a1cf253713e9249c3ee9203ebe91 net/mlx5e: Fix ETS zero BW reporting when one TC holds 100%
+af3aef0245abbab5e9f6302e7a7d6407187afb71 net/mlx5e: Fix use-after-free race in sample_restore_put()
+7ee07f601f8f507c9faf25c68a49396ab8950596 net/mlx5: E-Switch: fix use-after-free in mlx5_eswitch_termtbl_put
+c0c6f4ba8a37688f7b4d4044898d88f0450d44c2 net/mlx5: E-Switch, prevent mc_list repopulation during vport disable
+df99553f840e4c529c1ba4c29bd39396466ca11a net/mlx5e: Keep HW timestamp stats monotonic across reconfiguration
+094cc07f98dfe70a34e2a1923af17fd29b8cf622 net/sched: fq: clamp quantum and initial_quantum in change path
+4864f58c53eb47257d55e01f47d4a9f355f7f970 net/sched: fq_pie: clamp quantum in change path
+fb9f88a33c516ea5c0bcd9a22ca288b246b34567 net/sched: sfq: clamp quantum in change path
+eb56a495f59baf6cad5ed80e3ffb9078098b1346 net/sched: hhf: clamp quantum in change and init paths
+3c01f1ca5dfc6d6911b0e5b37f5062b1dc451b94 net/sched: dualpi2: clamp psched_mtu at all call sites
+54370e44c002770ae61fc889f28f699e91616ffc net/sched: pie: clamp psched_mtu in pie_drop_early
 8382abec0f1568d0a5590d75a3df92f23fcf5196 net/sched: drr: clamp quantum in change class
 1c38487f46b243bfeefec0c0c86023a3904f2214 net/sched: ets: clamp quantum in parse and fallback paths
 8f0229bef3cba996bd40e40aafc512150016b696 selftests: tc-testing: update ETS test 41f5 for clamped quanta
@@ -1034,21 +1049,6 @@ fecbe78ac0e7bb5cdae232444e649a3103d9a917 Merge tag 'sched-urgent-2026-09-20' of 
 a10a019dd4c7c57bef6b8dda962c8881ad220af2 Merge tag 'dmaengine-fix-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 6a5719cc3ef2e4d9857cc4ae18e6db09d59a8cc9 net: qrtr: resend HELLO on MHI resume
 93f51579e7df248780214094418f205253383cc5 Linux 7.3-rc4
-bcb8a72e9aa0dd53500c7662f41705912b969c94 x86: Implement _THIS_IP_ using inline asm for 32-bit
-3c20c0eb28eac3a53ee5cba18fb06040efa4fa2a powerpc: Implement _THIS_IP_ using inline asm
-dcd348c5b5f87f3b7bd474e0ca3dad3839a459ae arm: Implement _THIS_IP_ using inline asm
-04b288b9c186b61dcc2d9117a2c1c57e04a54421 mips: Implement _THIS_IP_ using inline asm
-bc80bcfea37835018841d0f3e34c81a9180405ec m68k: Implement _THIS_IP_ using inline asm
-55c34c0abee3ee99fcb019a7f9eb9a0d257855b6 openrisc: Implement _THIS_IP_ using inline asm
-2756a778298bc67fbd3c1fdb0666bb3631ae5004 alpha: Implement _THIS_IP_ using inline asm
-1025c938806742d95945f25ed1eb1283aa617f08 sparc: Implement _THIS_IP_ using inline asm
-b23725585243bfa14bc5feb13d69100ef8a0dbcd arc: Implement _THIS_IP_ using inline asm
-1b09c289752d6627cac6d0b9ee96993787b2591a hexagon: Implement _THIS_IP_ using inline asm
-dab56ca9faeb7c5798534469ed2b692add31e3ab parisc: Implement _THIS_IP_ using inline asm
-ab913ffa354d4c23c24d32e6da7c034a05b0461b sh: Implement _THIS_IP_ using inline asm
-9c8c056f2748dc557270ab61dee9ffc3d77a93cf xtensa: Implement _THIS_IP_ using inline asm
-14cf00f8117c17d7c8cf2e166f6d553c57230e19 microblaze: Implement _THIS_IP_ using inline asm
-7a121e0fa4e6cbfaa28d8496ae7d0fb9139f0d9b loongarch: Implement _THIS_IP_ using inline asm
-a9f247a29f5e72247cc32dc5e8a549e7988f86f8 csky: Implement _THIS_IP_ using inline asm
+99b6fcce87037cfb6b5e177848342e97f5141205 kcsan: Avoid division by zero in kcsan_prandom_u32_max()
 
---===============7913584136686286697==--
+--===============4505179391222858505==--
