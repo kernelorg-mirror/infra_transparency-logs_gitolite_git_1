@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0207933565521417603=="
+Content-Type: multipart/mixed; boundary="===============8543938753628894730=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sat, 10 Oct 2026 21:39:28 -0000
-Message-Id: <179166836856.2590522.9448993832787705553@gitolite.kernel.org>
+Date: Sat, 10 Oct 2026 21:39:46 -0000
+Message-Id: <179166838669.2590801.4922534485457201551@gitolite.kernel.org>
 
---===============0207933565521417603==
+--===============8543938753628894730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/dev
     old: c3998d00cbbadf0fb41f77eb1604d56c722ac954
     new: cd0f17a0406f7a77bc240e425f5b0e1e1d2a83b4
     log: revlist-c3998d00cbba-cd0f17a0406f.txt
-  - ref: refs/tags/v7.3-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 4eeccbed21e50c19f97be9d325511f3de6343f2d
 
---===============0207933565521417603==
+--===============8543938753628894730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -629,4 +626,4 @@ a90ee4305c4a5df72c11b31dacfdc76e00fcf78a Linux 7.3-rc6
 0c4e5b4161ac55911c77154b67e043a277985fa0 MAINTAINERS: erofs: add dev branch to git tree entry
 cd0f17a0406f7a77bc240e425f5b0e1e1d2a83b4 MAINTAINERS: erofs: update my email address
 
---===============0207933565521417603==--
+--===============8543938753628894730==--
