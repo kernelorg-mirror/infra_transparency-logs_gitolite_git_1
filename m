@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sat, 10 Oct 2026 00:19:54 -0000
-Message-Id: <179159159452.1516689.16305783585236979823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sat, 10 Oct 2026 00:26:01 -0000
+Message-Id: <179159196131.1522958.10953706959180342707@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/dev
-    old: 3aa18794d06695b29d42e6cf24e0851c73ab0393
-    new: 2c4925768252397b03d47704f70891ce2b47e774
+  - ref: refs/heads/todo
+    old: b3d9cd276f9277495f728df9e14e107763027921
+    new: 2296dc5fa3975dae8299f84bde5c340081d206a4
     log: |
-         2c4925768252397b03d47704f70891ce2b47e774 EXP rcu: Send resched_cpu() to idle CPUs having preempted RCU readers
+         2e6dc6eb0d558350862b4584760fa4d9c169eea4 CannedResponses: don't just reroll
+         2296dc5fa3975dae8299f84bde5c340081d206a4 What's cooking (2026/10 #04)
          
