@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 10 Oct 2026 14:43:56 -0000
-Message-Id: <179164343665.2243404.11703468456485486945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Sat, 10 Oct 2026 14:44:24 -0000
+Message-Id: <179164346409.2243903.8431268423605324806@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/master
-    old: 35159bff6d45ad110590e330e8421e0476352437
-    new: be4bf1b9c7804d9e9951778f5ae17ae9192cf6a3
+  - ref: refs/heads/i2c/i2c
+    old: ef3af9bb58a9f758622980c09974a9bb13f304f6
+    new: e7d5d642c089cec5592c295c5fe9c03cb0b62384
     log: |
-         be4bf1b9c7804d9e9951778f5ae17ae9192cf6a3 src/bin/git-bisect-rebase*: Use exec(1) where appropriate
+         4906001042f89cc98f3b310254ab48a16132b17e i2c: imx-lpi2c: use dmaengine_get_dma_device() for DMA mapping
+         e7d5d642c089cec5592c295c5fe9c03cb0b62384 i2c: designware: size the RX FIFO threshold to the queued transfer
          
