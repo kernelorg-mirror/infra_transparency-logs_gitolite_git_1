@@ -1,23 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Sat, 10 Oct 2026 10:59:47 -0000
-Message-Id: <179162998714.2053516.9908394459096768352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sat, 10 Oct 2026 11:13:29 -0000
+Message-Id: <179163080928.2071773.1195617173520465379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: jbrunet
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/clk-next
-    old: 269ab31cf5c0fb31fe3ca1979147735ab66dcdce
-    new: 4d459d5f7e5e4b7150da3f2faea4c18cfdfe20bc
+  - ref: refs/heads/for-next
+    old: e483b7b9b80e07332e812965843d372b7c706811
+    new: b41b8b1d1609e85bdde5c935d265de7f0b463f81
     log: |
-         43e1705ecab981c66baee89041e6f728c0436f19 clk: meson: t7: keep the memory fabric clocks running
-         f25652a1c0d0b0d2cf6615f1aa693f7f941aff6a dt-bindings: clock: Add Amlogic A9 SCMI clock controller
-         363f97a1ce635b86be7fd263d56a040fbd87bdbb clk: meson: t7: don't mark sys_ampipe_nand as critical
-         5c62aa19243710057517a487e5fb388ab25f560a Merge tag 'clk-meson-v7.4-1' of https://github.com/BayLibre/clk-meson into clk-amlogic
-         4d459d5f7e5e4b7150da3f2faea4c18cfdfe20bc Merge branch 'clk-amlogic' into clk-next
+         fc411363b8231315e5260662bac5223636321983 arm64: dts: rockchip: Add the fan tachometers to Kobol Helios64
+         5f48abc96182700a006b25b9bfbf80c19455760a arm64: dts: rockchip: add pcie30phy data-lanes on rk3588 coolpi-cm5-evb
+         9997707b967a129edf8fa336568a93dec1325d7d arm64: dts: rockchip: fix M.2 E-key reset pinctrl on rk3588 rock-5-itx
+         99feb764fa6c3b260e03903f5d30e15428fedc08 arm64: dts: rockchip: remove FRL GPIO for 100ASK DshanPi A1
+         b41b8b1d1609e85bdde5c935d265de7f0b463f81 Merge branch 'v7.4-armsoc/dts64' into for-next
+         
+  - ref: refs/heads/v7.4-armsoc/dts64
+    old: 34e9692a96b4373b2df99a7acb83b60b1076d661
+    new: 99feb764fa6c3b260e03903f5d30e15428fedc08
+    log: |
+         fc411363b8231315e5260662bac5223636321983 arm64: dts: rockchip: Add the fan tachometers to Kobol Helios64
+         5f48abc96182700a006b25b9bfbf80c19455760a arm64: dts: rockchip: add pcie30phy data-lanes on rk3588 coolpi-cm5-evb
+         9997707b967a129edf8fa336568a93dec1325d7d arm64: dts: rockchip: fix M.2 E-key reset pinctrl on rk3588 rock-5-itx
+         99feb764fa6c3b260e03903f5d30e15428fedc08 arm64: dts: rockchip: remove FRL GPIO for 100ASK DshanPi A1
          
