@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sat, 10 Oct 2026 21:32:59 -0000
-Message-Id: <179166797972.2585989.12772152262452034967@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sat, 10 Oct 2026 21:37:47 -0000
+Message-Id: <179166826758.2589746.13653508494072084857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/dev
-    old: 6ad72f8c839a25b83d5aeaa65c233602151bca44
-    new: c3998d00cbbadf0fb41f77eb1604d56c722ac954
+  - ref: refs/heads/master
+    old: 12ffae24d2491ff1c1c871e295ba069e27dba087
+    new: 3f31339771ad7b3e428516539266b4c8a574fa46
     log: |
-         8f8ab14e69f05bb0ba4f3476be2f29ab5ef57c2a erofs: fix xattrs handling when metadata compression is used
-         2527da5995da7f00130f11e84fe66144e60a70c9 MAINTAINERS: erofs: add dev branch to git tree entry
-         c3998d00cbbadf0fb41f77eb1604d56c722ac954 MAINTAINERS: erofs: update my email address
+         d757466587ece62af602a79b0f1e1bfb6140cbef man/man1/git-bisect-rebase.1: EXAMPLES: Clarify when the algorithm ends
+         7769aa3229f07508b319a654911e0bf545b2a07c src/bin/git-bisect-rebase: If <branch> was specified, respect it in $dir/orig-head
+         f93d776061bcbf7e300fc90b2651aafb00f7dade src/bin/git-bisect-rebase*: Pass --verify to git-rev-parse(1) also on trusted input
+         3f31339771ad7b3e428516539266b4c8a574fa46 src/bin/git-bisect-rebase: --continue, --quit: Make error message consistent with git-rebase(1)
          
