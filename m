@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 10 Oct 2026 22:46:09 -0000
-Message-Id: <179167236935.2647690.7017432863434228334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sat, 10 Oct 2026 23:03:21 -0000
+Message-Id: <179167340193.2666641.778076973161199962@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 8dcc44bc7318d92325a286a7d0487542e082b631
-    new: 4c1ab24f38eb471d094f46e67e442e67046993b5
+  - ref: refs/heads/asoc-7.4
+    old: 611680f6050a66b84e5cc0af33862a83d1f7a200
+    new: 0688699b3612ebd44118a033ab3101f087d7a832
     log: |
-         4c1ab24f38eb471d094f46e67e442e67046993b5 src/bin/git-bisect-rebase: --abort: Make error message consistent with git-rebase(1)
+         0688699b3612ebd44118a033ab3101f087d7a832 ASoC: SOF: Intel: Make sure that link and host DMA is coupled after use
          
