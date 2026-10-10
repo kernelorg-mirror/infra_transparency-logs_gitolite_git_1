@@ -1,32 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Sat, 10 Oct 2026 11:13:29 -0000
-Message-Id: <179163080928.2071773.1195617173520465379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sat, 10 Oct 2026 11:22:44 -0000
+Message-Id: <179163136403.2078570.1154927037473349249@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
   - ref: refs/heads/for-next
-    old: e483b7b9b80e07332e812965843d372b7c706811
-    new: b41b8b1d1609e85bdde5c935d265de7f0b463f81
+    old: 8362d65141d275d2907f1610a3cd2becb7ae2c83
+    new: 947037990e050a3cb116631ff29a9cb621068162
     log: |
-         fc411363b8231315e5260662bac5223636321983 arm64: dts: rockchip: Add the fan tachometers to Kobol Helios64
-         5f48abc96182700a006b25b9bfbf80c19455760a arm64: dts: rockchip: add pcie30phy data-lanes on rk3588 coolpi-cm5-evb
-         9997707b967a129edf8fa336568a93dec1325d7d arm64: dts: rockchip: fix M.2 E-key reset pinctrl on rk3588 rock-5-itx
-         99feb764fa6c3b260e03903f5d30e15428fedc08 arm64: dts: rockchip: remove FRL GPIO for 100ASK DshanPi A1
-         b41b8b1d1609e85bdde5c935d265de7f0b463f81 Merge branch 'v7.4-armsoc/dts64' into for-next
+         570373542e8fad56f9f7355a615bfdbb2dd24b56 ALSA: hda/scodec: imply SERIAL_MULTI_INSTANTIATE for AW88399
+         947037990e050a3cb116631ff29a9cb621068162 MAINTAINERS: add entry for AW88399 HDA side codec driver
          
-  - ref: refs/heads/v7.4-armsoc/dts64
-    old: 34e9692a96b4373b2df99a7acb83b60b1076d661
-    new: 99feb764fa6c3b260e03903f5d30e15428fedc08
+  - ref: refs/heads/master
+    old: e1b6a47c6c296b922038b90ceb04960d4791addc
+    new: 98016a1b4a0dff3d275f84d7e004ab40454f39e1
     log: |
-         fc411363b8231315e5260662bac5223636321983 arm64: dts: rockchip: Add the fan tachometers to Kobol Helios64
-         5f48abc96182700a006b25b9bfbf80c19455760a arm64: dts: rockchip: add pcie30phy data-lanes on rk3588 coolpi-cm5-evb
-         9997707b967a129edf8fa336568a93dec1325d7d arm64: dts: rockchip: fix M.2 E-key reset pinctrl on rk3588 rock-5-itx
-         99feb764fa6c3b260e03903f5d30e15428fedc08 arm64: dts: rockchip: remove FRL GPIO for 100ASK DshanPi A1
+         570373542e8fad56f9f7355a615bfdbb2dd24b56 ALSA: hda/scodec: imply SERIAL_MULTI_INSTANTIATE for AW88399
+         947037990e050a3cb116631ff29a9cb621068162 MAINTAINERS: add entry for AW88399 HDA side codec driver
+         98016a1b4a0dff3d275f84d7e004ab40454f39e1 Merge branch 'for-next'
          
