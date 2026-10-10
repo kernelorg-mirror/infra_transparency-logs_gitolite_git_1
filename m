@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9017632951422935221=="
+Content-Type: multipart/mixed; boundary="===============0520996296726408889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 10 Oct 2026 16:38:33 -0000
-Message-Id: <179165031374.2341531.11301441475150738808@gitolite.kernel.org>
+Date: Sat, 10 Oct 2026 16:38:37 -0000
+Message-Id: <179165031701.2341735.7910602044033732973@gitolite.kernel.org>
 
---===============9017632951422935221==
+--===============0520996296726408889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 6335e6719fd323c345427b7cf2d5d17c28fdbc41
     new: 5ce194eeb35a4d0fa4a59122e85f7862d44a4883
     log: revlist-6335e6719fd3-5ce194eeb35a.txt
 
---===============9017632951422935221==
+--===============0520996296726408889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ d65dc83603eb6b3c639c66baf4b96593d9814d3d bpf: mptcp: Don't support BPF_TCP_OPS_F
 11f1c0b8a43af7ffc2d65beb77c7f572d8567a61 selftest: bpf: Add test for bpf_tcp_ops.{enqueue,dequeue}_rcvq().
 5ce194eeb35a4d0fa4a59122e85f7862d44a4883 Merge branch 'bpf-add-bpf_tcp_ops-hooks-for-tcp-autolowat'
 
---===============9017632951422935221==--
+--===============0520996296726408889==--
