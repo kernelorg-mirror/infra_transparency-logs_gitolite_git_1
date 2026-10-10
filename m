@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9058842686654398665=="
+Content-Type: multipart/mixed; boundary="===============5658501885588228880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 10 Oct 2026 14:40:06 -0000
-Message-Id: <179164320683.2241768.1860650775929794013@gitolite.kernel.org>
+Date: Sat, 10 Oct 2026 14:40:54 -0000
+Message-Id: <179164325477.2242451.11223308651260077431@gitolite.kernel.org>
 
---===============9058842686654398665==
+--===============5658501885588228880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,50 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6b27d3127c0512c57c02018f0bfb9d5ecdf457ae
-    new: 599248677b65b3052f764de5029e085c02bf4989
-    log: revlist-6b27d3127c05-599248677b65.txt
+    old: 599248677b65b3052f764de5029e085c02bf4989
+    new: 1beba326a131f8e055ead95eb5e99c0006ff22ba
+    log: revlist-599248677b65-1beba326a131.txt
+  - ref: refs/heads/tip/urgent
+    old: 1e23b5e1feca3e0c8c90193ec2b93f1a9c316663
+    new: 695843eb6064c743b17d95e4f2b807012e3b75ec
+    log: revlist-1e23b5e1feca-695843eb6064.txt
 
---===============9058842686654398665==
+--===============5658501885588228880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b27d3127c05-599248677b65.txt
+Content-Disposition: attachment; filename=revlist-599248677b65-1beba326a131.txt
+
+695843eb6064c743b17d95e4f2b807012e3b75ec Merge branch into tip/master: 'x86/urgent'
+15205c3f4e44ee3e6f279accb2914500ac609d0f Merge branch into tip/master: 'irq/core'
+b77173284ef5987642ae616c5e6b806303f9fcd7 Merge branch into tip/master: 'irq/drivers'
+7f931711c4e4008cce580f7fb32ad0b1ef7a6d41 Merge branch into tip/master: 'locking/core'
+b20591bc0aeb7fa169dacf4d53cea5dc9df065ca Merge branch into tip/master: 'objtool/core'
+f487c19aa4567efe38ca4f04e0dceef3da024d80 Merge branch into tip/master: 'perf/core'
+98f58a303c4c553ac67dabf9a83df3f96d5d0f87 Merge branch into tip/master: 'perf/merge'
+662d90fdb671db3a136f9fdffea28132bb8db79b Merge branch into tip/master: 'sched/core'
+d306dddc830a80d722e5ded3f2a7e307c4a7092a Merge branch into tip/master: 'timers/core'
+e4beab97d71c6f0982c2e2c3723171ddff861bab Merge branch into tip/master: 'timers/nohz'
+99472a953f7cb06bdd84517d0aa4619e9afecb5e Merge branch into tip/master: 'x86/asm'
+908db041b8b715501dd27898fbe26364c7d2ef14 Merge branch into tip/master: 'x86/boot'
+c281998a2b07ee0e7e40f9516d40798c6921a170 Merge branch into tip/master: 'x86/bugs'
+8b6ae0f9d2065fa5a2bf109f3dab54184731fb18 Merge branch into tip/master: 'x86/cache'
+b6b2f8f2c0ad541f62161a895b5fbc76bfe58d7b Merge branch into tip/master: 'x86/cleanups'
+985a5ee011744e3042f3b432954730f904bf4463 Merge branch into tip/master: 'x86/cpu'
+44408088fb82bc6fecd75f86901a79251db3d7b0 Merge branch into tip/master: 'x86/kdump'
+35954c1ca4f94184d45fe380511099169d3330df Merge branch into tip/master: 'x86/microcode'
+3683503ba23c5f0548ace74b549578c70ef88057 Merge branch into tip/master: 'x86/misc'
+afe402dd3332936579c679ba2ee663db1a1d5531 Merge branch into tip/master: 'x86/mm'
+736cbd437c8e5a2a840b26134e74972bd2f2923d Merge branch into tip/master: 'x86/platform'
+7c81bc2414b0b86f96456120786766dfe2dd04db Merge branch into tip/master: 'x86/sev'
+f4ae12e911b66bdc016d5c0f0cb3ebfa16c194d6 Merge branch into tip/master: 'x86/sgx'
+1beba326a131f8e055ead95eb5e99c0006ff22ba Merge branch into tip/master: 'x86/tdx'
+
+--===============5658501885588228880==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1e23b5e1feca-695843eb6064.txt
 
 057e5e07420c753f248f9ce148040ab6dcf8359f iommu/dma: skip swiotlb bounce for DMA_ATTR_MMIO in iommu_dma_map_phys
 51c2db3ef0cb89a49ab7f47a40efd5d5b074ce8d pmdomain: imx8m-blk-ctrl: Serialize power on/off across sibling domains
@@ -131,8 +166,6 @@ c8d4256f1081c191773de9f46e2ad8f5e8d05d30 Merge tag 'dma-mapping-7.3-2026-10-09' 
 f7bec60381da152e110bb71358c0903f9bc1826e Merge tag 'media/v7.3-3' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 b71ccf604fbdf78450d3b17b5d69365caba29061 Merge tag 'mmc-v7.3-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 3857c2fe5449541e24afc5efdb0f81a8a8f9a3a0 Merge tag 'pci-v7.3-fixes-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-2c10b3fa5bdf61e344bc522e6c2e00d870ce7ab8 fs/resctrl: Ensure default group reports tasks on monitor-only systems
-a85ac6826129a6b21e5b44e39d2df6c7e5fae406 Merge branch 'linus'
-599248677b65b3052f764de5029e085c02bf4989 Merge branch into tip/master: 'x86/cache'
+695843eb6064c743b17d95e4f2b807012e3b75ec Merge branch into tip/master: 'x86/urgent'
 
---===============9058842686654398665==--
+--===============5658501885588228880==--
