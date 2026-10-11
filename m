@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Sun, 11 Oct 2026 06:26:26 -0000
-Message-Id: <179169998668.3095487.9795774125219012879@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sun, 11 Oct 2026 06:35:44 -0000
+Message-Id: <179170054403.3102408.9244977817534623245@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: kkd
 changes:
-  - ref: refs/tags/xfs-fixes-7.3-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 97edf3817185993bbad37367870b24c002a3c1ee
+  - ref: refs/heads/for-next
+    old: 5ce194eeb35a4d0fa4a59122e85f7862d44a4883
+    new: 4cce28612bf7811c326b99a92e19eef0e3f81b28
+    log: |
+         4cce28612bf7811c326b99a92e19eef0e3f81b28 bpf: Use div64_u64{,_rem}() in scev.c
+         
+  - ref: refs/heads/master
+    old: 5ce194eeb35a4d0fa4a59122e85f7862d44a4883
+    new: 4cce28612bf7811c326b99a92e19eef0e3f81b28
+    log: |
+         4cce28612bf7811c326b99a92e19eef0e3f81b28 bpf: Use div64_u64{,_rem}() in scev.c
+         
