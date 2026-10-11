@@ -1,58 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6626243600882799171=="
+Content-Type: multipart/mixed; boundary="===============8948032454085042143=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 11 Oct 2026 05:11:52 -0000
-Message-Id: <179169551279.3033717.1170238620064537663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Sun, 11 Oct 2026 05:14:11 -0000
+Message-Id: <179169565121.3034746.10817942962790302857@gitolite.kernel.org>
 
---===============6626243600882799171==
+--===============8948032454085042143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/usb-next
-    old: 42bcac323cc3b16566fed8c5b250318ad02a0de0
-    new: 648b08aa37c1b24a61662ad78964f2bca659ca26
-    log: |
-         96a8479804e3f7af43e639e9df39f562f1a75fd5 thunderbolt: Do not RPM complete unrelated subtrees on unplug
-         e8d3b929bf8f33070327afa1d58ae4876fcc546a Merge tag 'thunderbolt-for-v7.3-rc7' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/westeri/thunderbolt into usb-next
-         648b08aa37c1b24a61662ad78964f2bca659ca26 USB: cdc-acm: fix urb leak on disconnect
-         
+  - ref: refs/heads/for-linus-7.4
+    old: a90ee4305c4a5df72c11b31dacfdc76e00fcf78a
+    new: 61b6d1df1d6234c38a6ea7e4f58e7da035ef6ab4
+    log: revlist-a90ee4305c4a-61b6d1df1d62.txt
 
---===============6626243600882799171==
+--===============8948032454085042143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-a90ee4305c4a-61b6d1df1d62.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791695508 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1791695511-330ef9260f29687c7e6dbf6994bd515c283371f6
+5d12c51bd98cdb5a32cbfb606963b05740ec42f2 xen/pcifront: Fix PCI device reference leak in AER handling
+9b4df0baa2aa03d22310e59846ca628f7afd4115 xen/blkback: Prevent missed completion when draining I/O
+f3e27b7955727a4d7c0e9264a2a209fbba788bdc xen-blkfront: unbind irq before tearing down ring and shadow requests
+fe2eea9afbc4727ec972ec8dd4ff1480a5333bab xen: remove unused hvm_vcpu.h header
+2176dea8d8c19cb43a9b3651bfa1cb21eab1b31a xen/gntdev: prevent private mappings from becoming writable
+71d59fc2a5e357ac03bb2ee1522a7c1f8bd0c34f xen: fix typos in comments
+992df081bc8878d11e1eb5ae4a609910fd35c62b xen/scsifront: check for a NULL shadow entry on a backend response
+908019e5999161ca89da310c05ddbf7fc89c129e xen/privcmd: Only claim ioreqs matching an ioeventfd
+fcc43d1d6bf5fbd41e1e308b17187f9b759df56a x86/PVH: don't truncate initrd address/size
+6f165abe2b40ede71c98956cd74cd17c18505e75 xen/gntdev: Fix gntdev_dmabuf ref leak in dmabuf_exp_wait_released()
+3b4854b69ee70fffb2fa7acac09e715a7efcbae1 xen/pcifront: check that an AER callback exists before calling it
+cfaf31becde901f7a2376d36db628f8be0bc7283 xen-pciback: Fix pcistub_device ref leak in pcistub_get_gsi_from_sbdf()
+61b6d1df1d6234c38a6ea7e4f58e7da035ef6ab4 xen-blkfront: Fix IO race during unplug
 
-42bcac323cc3b16566fed8c5b250318ad02a0de0 648b08aa37c1b24a61662ad78964f2bca659ca26 refs/heads/usb-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrLGpQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0ZsQAMK4gwY7PFKvex6i30ag
-NRwTSYWzrxUxeOTKxpxw5LhZCzkn12Wa5pG9Sqak4wCwi6I7KFY85RmOn/gOGT5L
-tfzWNlUNW92Lo7tB8dVpYjNPZyTrxGAdUO7d4YtqJHuyKee675ZFcM5LXvcVDwDp
-oznctMa1xoZPIsdHyViGqBl7rHaIg1w+qU0uDGcc31Y69mMEdfkEtszrFe6sK2rR
-o2G4w3o2dwA53DFMSzxlQhpR3cD/0zIT15/AQ7a1QF1PkdPQVtg55MeLD6pIpdO9
-r+lmCFAQZ7aPe4AaA6fG2z1qI0gW8yZdsHIY5gktSh1PNkDNjSChRPtkPA2KjbMZ
-U5UiPph5p9YeLrsWD1FiLTwTuv3iDLw5u9d6mEcrEbn+4PB5VkbL0BxH/9+/e9kx
-8MgjTWMcW2WEZPBipNzdvHMSi+62seFEzmxiYknN55ab7z/Co1qN1TCstoUYLM8p
-Tx/CTdAPyacXf1uYZeel08WQa0HipIDltCW6ganTb87RESLeDsdLfR+FnjeTNjKo
-BSsj6F0J+NKpIefXAZguRj6wpiG6POuteUt1nhDMkIAAGxGxKrlEPQd5G74V901V
-ySxqh2VU6JtezFCtfC2gHoTSfks8p1+SiXbf1djzkSEbj1FfbmOZOB44zFunUzjS
-uUG8nnXe9wjww7E5Orpu0UrT
-=gMF0
------END PGP SIGNATURE-----
-
---===============6626243600882799171==--
+--===============8948032454085042143==--
