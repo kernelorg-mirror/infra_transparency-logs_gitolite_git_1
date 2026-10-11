@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 11 Oct 2026 00:24:11 -0000
-Message-Id: <179167825100.2733468.10302899989285484556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Sun, 11 Oct 2026 00:25:58 -0000
+Message-Id: <179167835877.2736574.6590142294324005900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/rcu/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: cbc1181fac1b4642d31a562648b1ca2b85d6caee
-    new: 4a21eb2a4ba871bcce20e8332aac91745ecb9d25
+  - ref: refs/heads/rcu/next-7.5
+    old: 362ab0edf801167367c55f4f0e003916eba105e3
+    new: efb99fa128642fdcaf4a8761c5dc4876fd133bfd
     log: |
-         11b50835f25f7e61dd165895529912e5b113177c foo
-         8ca913f05bc9be3ecb934baa3ed1fc4d5bf693b0 foo
-         f03467c8736b4add06629c60c6ecfed54f8c50d0 foo
-         c3f525b1872d1021f26fe160d1e32cdbbc370de7 foo
-         4a21eb2a4ba871bcce20e8332aac91745ecb9d25 foo
+         11760c3fbfb248504207deadbc527b47a278ca3c doc: Update recent SRCU API additions to whatisRCU.rst
+         23b0727957badaa78c70da8ec75246f506cf67f3 tools/rcu: Add new APIs to rcu-updaters.sh
+         efb99fa128642fdcaf4a8761c5dc4876fd133bfd rcuscale: Consolidate per-writer arrays into struct writer_state
          
