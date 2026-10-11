@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7124909128294904205=="
+Content-Type: multipart/mixed; boundary="===============5204766269457871526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 11 Oct 2026 07:13:41 -0000
-Message-Id: <179170282139.3134872.2493688756205896672@gitolite.kernel.org>
+Date: Sun, 11 Oct 2026 07:14:28 -0000
+Message-Id: <179170286818.3135389.1046438919719957331@gitolite.kernel.org>
 
---===============7124909128294904205==
+--===============5204766269457871526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,50 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 1beba326a131f8e055ead95eb5e99c0006ff22ba
-    new: 7c09d1f56807c99623317d63512dd49558c996b6
-    log: revlist-1beba326a131-7c09d1f56807.txt
+    old: 7c09d1f56807c99623317d63512dd49558c996b6
+    new: 2fa289ad7557761c8f018a88953ed89071d4967c
+    log: revlist-7c09d1f56807-2fa289ad7557.txt
+  - ref: refs/heads/tip/urgent
+    old: 695843eb6064c743b17d95e4f2b807012e3b75ec
+    new: 2f149e464062e13636a3b6dece46282978ce6013
+    log: revlist-695843eb6064-2f149e464062.txt
 
---===============7124909128294904205==
+--===============5204766269457871526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1beba326a131-7c09d1f56807.txt
+Content-Disposition: attachment; filename=revlist-7c09d1f56807-2fa289ad7557.txt
+
+2f149e464062e13636a3b6dece46282978ce6013 Merge branch into tip/master: 'x86/urgent'
+4927c37cc4d69c1302cff2f69e939d2b94020ea8 Merge branch into tip/master: 'irq/core'
+44fa7c96c930eaf9c99473c074ee09fece0c2341 Merge branch into tip/master: 'irq/drivers'
+509d42ad4bf831e8e7fd8ee309006629ec6d2b72 Merge branch into tip/master: 'locking/core'
+88a39a80ad61c96bfe03abc62039e02e02592e1b Merge branch into tip/master: 'objtool/core'
+ee340c6da8096bef2f60de813f51d5a13db2fe60 Merge branch into tip/master: 'perf/core'
+3e5e663194bfb54a82d7a18efac088915e3817c6 Merge branch into tip/master: 'perf/merge'
+a550caf3f72ca3b5a859ac3d3780b6a4c1ec2a3a Merge branch into tip/master: 'sched/core'
+10afa14bb1ed86499b98763d28238c1a6bcfa050 Merge branch into tip/master: 'timers/core'
+7f180f064dce5c5f048621d5b99b831608d29ffc Merge branch into tip/master: 'timers/nohz'
+10fb917eb03d8f3c6462f110d82172d2e54d0d7d Merge branch into tip/master: 'x86/asm'
+2053c85e08fcaf58b7b50b5f015eff90274dad9b Merge branch into tip/master: 'x86/boot'
+18ee0ddd2da963a019d8958dfc4e6079808502a3 Merge branch into tip/master: 'x86/bugs'
+ab98b6fa43a46c6f92b134ac4acdc5c64aa991e4 Merge branch into tip/master: 'x86/cache'
+a94d7a66d1e1e71a41c01c91d0a4863118a24648 Merge branch into tip/master: 'x86/cleanups'
+ca59e0e694bd6d674355ca3c7476ba061df19ea0 Merge branch into tip/master: 'x86/cpu'
+ba98d4423ff7dd58bdb4f61de4cfd011445cefe4 Merge branch into tip/master: 'x86/kdump'
+75b89fb33afef1d91e06e7bb8923d9a73feaf942 Merge branch into tip/master: 'x86/microcode'
+f214025ea85e0a84294f6097efcbf9d40112e5ea Merge branch into tip/master: 'x86/misc'
+08bfd0a83b4afa3f4ab29ca4a2d0b6e861b3b0d5 Merge branch into tip/master: 'x86/mm'
+af98fe4a8ee11cc12aace5fb89087ec358e3e97d Merge branch into tip/master: 'x86/platform'
+75cbe0c0944b00d6dd90a05267304ff60d57875b Merge branch into tip/master: 'x86/sev'
+7b89a9bac2dc54f325d88eeae50b993dd38764bf Merge branch into tip/master: 'x86/sgx'
+2fa289ad7557761c8f018a88953ed89071d4967c Merge branch into tip/master: 'x86/tdx'
+
+--===============5204766269457871526==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-695843eb6064-2f149e464062.txt
 
 94cf5971b1d04c6382437387c4dc3836cc7a1437 drm/vc4: drain the hangcheck timer and works on V3D unbind
 b816da5d5df1461446a0a5f3fe2b4948a659a790 drm/vc4: Fix firmware reference leak in vc4_drm_bind()
@@ -75,6 +110,6 @@ c61e23ed14359e6289c08e55940dd3401fe27db0 Merge tag 'drm-misc-fixes-2026-10-09' o
 b62f58bd7187ddbefa66913ec742137680ca5b22 Merge tag 'i2c-fixes-7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 bb934c29fda8dcd409145a0deddc1a8095fec930 Merge tag 'drm-fixes-2026-10-11' of https://gitlab.freedesktop.org/drm/kernel
 a5ebb76233b79db01e82e061173cb73c6d2b5c6b Merge tag 'edac_urgent_for_v7.3_rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-7c09d1f56807c99623317d63512dd49558c996b6 Merge branch 'linus'
+2f149e464062e13636a3b6dece46282978ce6013 Merge branch into tip/master: 'x86/urgent'
 
---===============7124909128294904205==--
+--===============5204766269457871526==--
