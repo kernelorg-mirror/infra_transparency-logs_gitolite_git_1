@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8948032454085042143=="
+Content-Type: multipart/mixed; boundary="===============6255007589639357692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Sun, 11 Oct 2026 05:14:11 -0000
-Message-Id: <179169565121.3034746.10817942962790302857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sun, 11 Oct 2026 05:16:34 -0000
+Message-Id: <179169579495.3037762.890965211515233814@gitolite.kernel.org>
 
---===============8948032454085042143==
+--===============6255007589639357692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus-7.4
-    old: a90ee4305c4a5df72c11b31dacfdc76e00fcf78a
-    new: 61b6d1df1d6234c38a6ea7e4f58e7da035ef6ab4
-    log: revlist-a90ee4305c4a-61b6d1df1d62.txt
+  - ref: refs/heads/usb-testing
+    old: 648b08aa37c1b24a61662ad78964f2bca659ca26
+    new: 8f0d16174102863936d583c90258ea02bf06205c
+    log: |
+         8f0d16174102863936d583c90258ea02bf06205c usb: core: don't set drvdata to NULL in usb_unbind_interface()
+         
 
---===============8948032454085042143==
+--===============6255007589639357692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a90ee4305c4a-61b6d1df1d62.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-5d12c51bd98cdb5a32cbfb606963b05740ec42f2 xen/pcifront: Fix PCI device reference leak in AER handling
-9b4df0baa2aa03d22310e59846ca628f7afd4115 xen/blkback: Prevent missed completion when draining I/O
-f3e27b7955727a4d7c0e9264a2a209fbba788bdc xen-blkfront: unbind irq before tearing down ring and shadow requests
-fe2eea9afbc4727ec972ec8dd4ff1480a5333bab xen: remove unused hvm_vcpu.h header
-2176dea8d8c19cb43a9b3651bfa1cb21eab1b31a xen/gntdev: prevent private mappings from becoming writable
-71d59fc2a5e357ac03bb2ee1522a7c1f8bd0c34f xen: fix typos in comments
-992df081bc8878d11e1eb5ae4a609910fd35c62b xen/scsifront: check for a NULL shadow entry on a backend response
-908019e5999161ca89da310c05ddbf7fc89c129e xen/privcmd: Only claim ioreqs matching an ioeventfd
-fcc43d1d6bf5fbd41e1e308b17187f9b759df56a x86/PVH: don't truncate initrd address/size
-6f165abe2b40ede71c98956cd74cd17c18505e75 xen/gntdev: Fix gntdev_dmabuf ref leak in dmabuf_exp_wait_released()
-3b4854b69ee70fffb2fa7acac09e715a7efcbae1 xen/pcifront: check that an AER callback exists before calling it
-cfaf31becde901f7a2376d36db628f8be0bc7283 xen-pciback: Fix pcistub_device ref leak in pcistub_get_gsi_from_sbdf()
-61b6d1df1d6234c38a6ea7e4f58e7da035ef6ab4 xen-blkfront: Fix IO race during unplug
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791695786 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1791695789-789497b4b9595efe91afbb4e9425fd62c9e45e54
 
---===============8948032454085042143==--
+648b08aa37c1b24a61662ad78964f2bca659ca26 8f0d16174102863936d583c90258ea02bf06205c refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrLG6obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U00QAI8m5+jLY0SLS37mXG6u
+7a1ldS8TV020V9aDv1gh3IzNqGwg4QFGoyno91hXJSqZZnO3VRrVnoYW5EkR3DM+
+ljlE7MYyS/WSfjrknMzqbpFhhOcVjJpgBZvwa8Iw7iNCFIlf3qVrt/pnMbE8p5OU
+QrgqPneIFEPr53letEPh7/ghjda3MZT5TZudgeMDIvK80/KZK+5tzl1D+jheekpT
+SKlGc54W56KfdHq8JTrOwgm/hFBrWu433w8bvZV3DsWMXdqR1auyOo3qHZ88d71u
+Ltc4c7WFif+n6OATrmDgTEbtq24lxetiM6MU3LYMpulhdxPQMGgV4xxNy0MzcN1e
+8A59MJS7xx6D13ZfvHnWLwilIkAP5UQSy9OOETJTXlN0bzS9ESquatyAnHV86dcc
+iyRIEvWfRhfATn1upDr7EejJzsrahOBsMd0bAdJkj0oo1usZEX//W21wun0VuhEY
+tPL5vdh1Xg4DACkeFMnU7HDj+6vij0bvSCF9CWXy+9DPpgzpinUW5p9kL3kukoia
+S1a5j3ETMbKLGWK/G+XeZdSF7o/4BIDCqAzcTnY++NMo07emnDw1YaYW6PAPF8qW
+4C0PCE+DxUVWRBnlshFfSMg7x0w529DCZSHUWh7xDQYx9h5ZhynDWPjg7HY65XTd
+my1Zk0Rw+ayUOJMMVBPOrKq/
+=DdTP
+-----END PGP SIGNATURE-----
+
+--===============6255007589639357692==--
