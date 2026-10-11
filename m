@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 11 Oct 2026 17:07:59 -0000
-Message-Id: <179173847979.3739007.7319770580301877487@gitolite.kernel.org>
+Date: Sun, 11 Oct 2026 17:13:40 -0000
+Message-Id: <179173882034.3742852.16500520558195602741@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/master
-    old: 4c1ab24f38eb471d094f46e67e442e67046993b5
-    new: 8afa46e2ada9331c44d91026f1214b8ad4c1cfaf
+    old: 8afa46e2ada9331c44d91026f1214b8ad4c1cfaf
+    new: 255ff7841d2e82a3e0c02d688121422a61d7f472
     log: |
-         58f6956b30e53fee2412f317f471f1ad1ea12442 man/man3head/sysexits.h.3head: tfix
-         8afa46e2ada9331c44d91026f1214b8ad4c1cfaf man/man2type/file_attr.2type: Add page
+         b85bdd41e9cb7ec7b9c0190ce8face936fc97bb5 man/man5/proc_ioports.5: wfix
+         255ff7841d2e82a3e0c02d688121422a61d7f472 man/man2/ioperm.2: wfix
          
