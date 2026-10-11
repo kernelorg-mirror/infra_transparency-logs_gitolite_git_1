@@ -1,75 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3516020372249010172=="
+Content-Type: multipart/mixed; boundary="===============4876628248822987417=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 11 Oct 2026 13:53:02 -0000
-Message-Id: <179172678201.3583649.6102010275832862023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 11 Oct 2026 13:54:46 -0000
+Message-Id: <179172688697.3584518.1085418099677754470@gitolite.kernel.org>
 
---===============3516020372249010172==
+--===============4876628248822987417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
-    old: 02ee864e8d2142c5648998944c3306ea6a763c26
-    new: 1dabdb6790c1215d078a13b747eb15d4b1986462
-    log: revlist-02ee864e8d21-1dabdb6790c1.txt
+  - ref: refs/heads/master
+    old: 420e48e642832177470e6b3a564362bcada69036
+    new: 9df89e76a6932b4151a42274c18e8c7f7afc8dc6
+    log: |
+         9df89e76a6932b4151a42274c18e8c7f7afc8dc6 merge staging into queue: 7.2 6.18 6.12 6.6 6.1 5.15 5.10
+         
 
---===============3516020372249010172==
+--===============4876628248822987417==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791726777 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1791726776-f59a262508bced945e7230d1cb7c524d2fe5c0fd
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791726884 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1791726883-f9ec129762aeac6a7587365d3334558474278889
 
-02ee864e8d2142c5648998944c3306ea6a763c26 1dabdb6790c1215d078a13b747eb15d4b1986462 refs/heads/usb-testing
+420e48e642832177470e6b3a564362bcada69036 9df89e76a6932b4151a42274c18e8c7f7afc8dc6 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrLlLkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+weUQAI1JxymMRHfANEMd5E1q
-b6qpP6r+52lbfEXtWjwDWK3/n4GswZDOVjXx4UYYFmhjsb10u7mR+QXQNQV2tZe3
-HCxulbu5ZLxFQTZAYj0ajv6t2LEfUGV0nlYEEHnxGlEfl+9mdWFJ2C/gvy2XDHaP
-fi0gkFOHxj76iCB0WIxwobrxR0B6OBls9S5B5K4gXdDqNhgf0d+QhFuuMzT3XOdY
-LC4wPqSac6/80P7qQzNWtYkQKdDM/NKji0V+zTdtUcJ3pyovURDG4NedT4e1VQRD
-BliVuXxmyy1zJ/sQOy322KXmV8MK9HYxRy9KXloxaeJ/nsPZvgibMItBfPLzNXFT
-ujwvB+jOkLwJAIw5BU/eikgBRZXws42EnWt8DkE6fRuggr5FEo0/5Gd63K37Z2YI
-2kq4olvS+E/ljsZ3GSau+mjspB24n8yZbkqhyRJfNpBRKpmv1oPb7au+HRM5oTvA
-MD//NVQm8OKM+k2/KU+s75k/C4wJIqq441ulUijWbew2YhzhTeLWL7zt/2Q0A5lq
-vWLw4U6HhyynlKtpJAwXQl1zkTwycDLkN1e3V2wfrX/nQ9U1adVcMijV2UDKzUbV
-91lseAxZ8Flx12B1PB+Oibo5dAS789tujMH30yNh3Zt6UfeW2I6L++TuAfzIhbTb
-kvRd8OwGUuZ6Bo21j4wixOkw
-=ch09
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrLlSQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lYgQAIIyzaH3lGPA9D3te8VJ
+q8qusCYgVADv5FBGKzInTb0RAKBw7JjGkjSehrAgvdYjTwzaxIVvOObLUHwQv1dY
+aKS+UVyRoqje8PlVbOA6iXwhj53CU4fXFkzMCQBEwiZV2WFDBGwFoCi51Dxc8jnm
+m4Ms1GHg9nuZFdVY1FmxfZFbls8D94jNU7cqvAADua7Pn9uEH+LzA8/SrAB6nZUj
+pj6c8B97kjh4aEUzOMvrIpgFNQg0kAI6E73J3BKKZNSBFPdVaUmrLEFZYwm5g5an
+C9E7cUhgiWEuoN5qpUTCyW/Y+OjD+gM7YSqzhnW0SYC2OWZd4vwObB/ce5UeT/Yq
+Lztt7cwegQvym4S/b3MVKWkWBMapin5P2LTnCVWRDN5nXN83XYqDHcRdRFHIH3SR
+jRagH2lNWRy7On8cDFPouliOfn7p6JbCrQrCgulbnZGvwn7B3WbEfI/n/Ly/moNg
+7f3tX7JBMiRkytnvbF4+W19HjFsn44vsqXgtsjU4M6OVh9G+nij1jsKy1jqmLsa6
+9RaBiXFq6K/QMTcTWXk3B1sp69vVDxHKeyVCCiKaJzYPKmpYL8jvAyQpyaJBN8j5
+F6CdZ0UZE+F8jdvxo40zY6lLbTb7fXTemC0UcxPzSLeWKsNeYoRoxuroqR4Q2fLR
+vToeX/hB1OjVi1AGWqlenvrn
+=g9Wy
 -----END PGP SIGNATURE-----
 
---===============3516020372249010172==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-02ee864e8d21-1dabdb6790c1.txt
-
-24d2a690fb83c40913c0b3f38151ae3997a5898f usb: xhci: return an error if the host is not halted
-bbb013bc73bd32d95d2aa3f130db323336759c2a usb: xhci: Unlock for command abort polling
-d7458590f585aea58f24047195f163adc6ecb045 usb: xhci: fix typos in comments
-e3e3a104759392c8641f60b2de1f4231aba99e46 xhci: check device notification type before forwarding wake event
-47f4e983b5de7616fb11d5f537fc9a605387d136 xhci: dbc: lock the minor IDR on registration failure
-535faefca4029de000a4f76b7025e683e918f413 usb: xhci: Guarantee URB giveback on Ring Underrun/Overrun
-6814c2152d5dd385165f03da0d9d0f7bca918df9 usb: xhci: Don't set the skip flag on non-isoc endpoints
-f7845f604ea111ab097db0876dd1a8a433ef018e usb: xhci: Shorten the TD skipping loop
-0c6d9901ea97bda748f63882ee75ae26f90043d3 usb: xhci: Rework and improve the TD matching and skipping logic
-68c5cb7574c567e83ba95258cb146db95e069a87 usb: xhci: Fix bounce buffer overflow
-fd616dc74e8f58f351f2b295620027116cd6e92e xhci: Prevent invalid vdev dereference during sideband unregister
-29381088ac50a4910d18a5f8079d9bd505f839be usb: xhci-pci: Add AMD 600 series to xhci-pci-prom21
-033d24c2052ce9433754e2e85da7e5483707fd83 dt-bindings: usb: generic-xhci: add Axiado AX3005 xHCI variant
-1dabdb6790c1215d078a13b747eb15d4b1986462 usb: xhci-pci: Add TUSB73x0 definitions
-
---===============3516020372249010172==--
+--===============4876628248822987417==--
