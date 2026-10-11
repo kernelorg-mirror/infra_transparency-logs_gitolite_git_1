@@ -1,41 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3132546195978195902=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
-Date: Sun, 11 Oct 2026 15:12:19 -0000
-Message-Id: <179173153931.3650613.10915184939922438144@gitolite.kernel.org>
-
---===============3132546195978195902==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 11 Oct 2026 15:13:09 -0000
+Message-Id: <179173158933.3651038.13316992670074306988@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lindholm/alpha
-user: lindholm
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: c9b1f734af65a23545112d6ce8fc821debb0161a
-    new: 8f5dbfb93440d1aba216a1a34369a65654b94be9
-    log: revlist-c9b1f734af65-8f5dbfb93440.txt
-
---===============3132546195978195902==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9b1f734af65-8f5dbfb93440.txt
-
-53ab52cfe5ce62a667de1d59c0f5cb9474049d6c alpha: load the MMU context when switch_mm() switches the current task
-01df8f401888efdd150276bcc5a9726441e41a4b alpha: run check_mmu_context() from finish_arch_post_lock_switch()
-ef43cfc28c420892895f4f23b593a3c6a97b06fd alpha: only use a targeted tbi() when the target mm is really current
-738cf8f7a78ff9bbbc300654dbdf9b6e746e51d8 alpha: invalidate the local context in flush_tlb_page()
-62c92086f30e8b111d2f2c58e4a82225f7e41c0e alpha: fix the local TLB invalidate in flush_tlb_page()
-3faee097b939e43309e24b1f1fdfe3b2eef6b5eb alpha: fix the local TLB invalidate in the UP flush_tlb_page()
-b2c3b654bb643c7e5b7ce27bbd17e5d3908d9ae9 alpha: invalidate the local context in flush_tlb_mm()
-f19ae6f51a38605d6282da41d2940985cbea7183 alpha: invalidate the local context in flush_icache_user_page()
-471e7f9c890bad80e25eda27d81c6c78204736cc alpha: do not clear remote MMU contexts in migrate_flush_tlb_page()
-982c55c57d88bd7f1637dc7cbc8f24ffeb297916 alpha: do not skip TLB shootdown IPIs for kthread-borrowed mms
-8f5dbfb93440d1aba216a1a34369a65654b94be9 selftests/seccomp: add Alpha support to seccomp_bpf
-
---===============3132546195978195902==--
+  - ref: refs/heads/master
+    old: a5ebb76233b79db01e82e061173cb73c6d2b5c6b
+    new: b88c841d11641923fa3a4da011d7202cd89df68a
+    log: |
+         f321cc430c49b6c1be0d53f2ef19d8342d8029cc Input: ati_remote2 - fix type confusion in device attribute handlers
+         f9282b8aa85a8c97c50d656db75feb6d76fc7cbe Input: xpad - add support for Corsair Novablade Pro
+         41363c27b8509bd4efcba244803edac9ba25d1b5 Input: xpad - add support for 8BitDo Pro 2 Wired Controller for Xbox
+         b88c841d11641923fa3a4da011d7202cd89df68a Merge tag 'input-for-v7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+         
