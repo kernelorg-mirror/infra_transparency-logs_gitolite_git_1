@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Sun, 11 Oct 2026 01:18:21 -0000
-Message-Id: <179168150137.2780526.4418974770736116211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sun, 11 Oct 2026 01:21:31 -0000
+Message-Id: <179168169162.2783888.10164514519405155316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
   - ref: refs/heads/dev
-    old: 98431d2cd1ebb267430d7672ba575fb030d2d6ce
-    new: 1cae92a58966f19d3e43fe34e9c4f315d4e9b822
+    old: 96aaeadd587ee111e53032f63b93e54a8b476483
+    new: 7b658ac03f03258af2016b878e700a7b1da83d1f
     log: |
-         1cae92a58966f19d3e43fe34e9c4f315d4e9b822 exfat: clean stale bdev buffers of newly allocated clusters
+         f707ba2e1f3117eacbac76f360c3c06e19adab1e fixup! EXP rcu: Send resched_cpu() to idle CPUs having preempted RCU readers
+         7b658ac03f03258af2016b878e700a7b1da83d1f fixup! EXP rcu: Send resched_cpu() to idle CPUs having preempted RCU readers
          
