@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1057471159262452185=="
+Content-Type: multipart/mixed; boundary="===============5511042814714872616=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Sun, 11 Oct 2026 12:09:50 -0000
-Message-Id: <179172059077.3384285.9045699208910590461@gitolite.kernel.org>
+Date: Sun, 11 Oct 2026 12:10:04 -0000
+Message-Id: <179172060456.3386478.8837628839318110569@gitolite.kernel.org>
 
---===============1057471159262452185==
+--===============5511042814714872616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 0820a9e63d8896f698396354e77f75e0b0bc534c
-    new: 1981a7f307cc5451455eb7629477231f9332d72d
-    log: revlist-0820a9e63d88-1981a7f307cc.txt
+  - ref: refs/heads/m68k-queue
+    old: 56394e1b823c20e272c1b7ccbe58a20d40fbf25c
+    new: 313e4f2b82e2acf142f5c041713df192929957c0
+    log: revlist-56394e1b823c-313e4f2b82e2.txt
 
---===============1057471159262452185==
+--===============5511042814714872616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0820a9e63d88-1981a7f307cc.txt
+Content-Disposition: attachment; filename=revlist-56394e1b823c-313e4f2b82e2.txt
 
 f0ea4824deebf21dacfbe397c4b0a5fd3e745a8d iio: health: max30102: fix NULL dereference in interrupt handler
 56c423b233b214182c58c99861899327b45b0d6c iio: pressure: bmp280: fix out-of-bounds access in sampling frequency lookup
@@ -622,6 +622,14 @@ a27611f8994c9a4772156432badb533af33fd32d Merge tag 'perf-urgent-2026-10-04' of g
 06ac073129191a01d77933ed381f89c67674db6f Merge tag 'x86-urgent-2026-10-04' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7704c4c5bb127673b4f0ead839919db573559e38 Merge tag 'i2c-fixes-7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
 a90ee4305c4a5df72c11b31dacfdc76e00fcf78a Linux 7.3-rc6
-1981a7f307cc5451455eb7629477231f9332d72d Merge tag 'v7.3-rc6'
+5bcdb61b043751ecc18b32ddcc5764a2914448db m68k: Use generic BASE_BAUD in asm/serial.h
+47439b2f2af5f61f079bf997900aa977b13431c1 m68k: Add include guard to asm/serial.h
+b6cac0627b6c4e9fca23ebb65f248282b0cd6f52 m68k: Add support for SVEthLANa
+739033ed85fd2a1c4cf3497c9a57f6623f03666d m68k: defconfig: Enable PATA_CSWARP
+1bf10884f5fe342e49a9a9525f8418f2fc112f51 m68k: apollo: Fix interrupt setup
+88933b7070eb66cf6f2e919e0a5d6f4f5be0eb8a zorro: Use assign_bit() where applicable
+ecde4cece28bc8c604d529634ceb08b2c3d01576 m68k: atari: usb: Add ISP1160 USB host controller support
+8adf88e04af9a48b2d7497c52b3c19c6df0f5fd5 m68k: atari: Update Kconfig.bus help text
+313e4f2b82e2acf142f5c041713df192929957c0 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============1057471159262452185==--
+--===============5511042814714872616==--
