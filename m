@@ -1,63 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============9184276454592617754=="
+Content-Type: multipart/mixed; boundary="===============6523702152235404447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sun, 11 Oct 2026 10:02:19 -0000
-Message-Id: <179171293998.3278658.15247527391576410729@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Sun, 11 Oct 2026 10:04:13 -0000
+Message-Id: <179171305336.3279441.8080413239740698801@gitolite.kernel.org>
 
---===============9184276454592617754==
+--===============6523702152235404447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: c37c4b2d6f50c2ca835834e90d8d428568f21c23
-    new: b04106548526c4ea7ab7f0c146fda3307501f2a7
-    log: |
-         398ef4993fb7c3b08a6d5752506217a8140b3a54 5.10-stable patches
-         9c5ae7e914613c01a00e0ab502d87cb3c1517210 5.15-stable patches
-         fad0463b17f44bfafda1ef98f3d9d1e2bf832368 6.1-stable patches
-         52ab355bb5ad1b17c2eb3a98a2a615bccb9ab83e 6.6-stable patches
-         506eaff792d5cc5f80cc7f2fba40284470ea4550 6.12-stable patches
-         51cc45c9c0401a29ff9ae7a19fb455c3d74eca2f 6.18-stable patches
-         e708bd47bb124a6abb1c8d44704d0ba15d083ed1 7.2-stable patches
-         b04106548526c4ea7ab7f0c146fda3307501f2a7 drop a broken rust binder commit
-         
+  - ref: refs/heads/next
+    old: d5d1817cfebf76602d7ad8ce0417b3f722dcd6d5
+    new: dd0bc00e3e9201fd49b62ff9cc07890c89003afe
+    log: revlist-d5d1817cfebf-dd0bc00e3e92.txt
 
---===============9184276454592617754==
+--===============6523702152235404447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d5d1817cfebf-dd0bc00e3e92.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791712934 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1791712933-391d8b3ec79bfa8a97ee22a5a6376cb618c36e9b
+a378f75269a483c44df3e435ae84fe74cec6f086 Merge branch kvm-arm64/doc-7.4 into kvmarm-master/next
+827b245c96a031c5529ba075503e112c287c6ea8 Merge branch kvm-arm64/selftests-7.4 into kvmarm-master/next
+325addcdbf7ad4f3ce043876ef38a8c11311be35 Merge branch kvm-arm64/hyp-type-checking-7.4 into kvmarm-master/next
+c439fc93416c02781102589bc60c1e5ef8ba01b6 Merge branch kvm-arm64/gicv5-7.4 into kvmarm-master/next
+643d913c7f77472b1e34399c4f955468fb0e3a9e Merge branch kvm-arm64/s2-rmap into kvmarm-master/next
+62449bbaef54cb8170390689569f7fa150abf16a Merge branch kvm-arm64/pre-faulting into kvmarm-master/next
+fddb6720020f3b7552f1d17f08cc063dc2e0a9d0 Merge branch kvm-arm64/misc-7.4 into kvmarm-master/next
+30418882acd5cf90c7cf0b7b90f3bc963de88cc8 Merge branch kvm-arm64/immutable-idregs-7.4 into kvmarm-master/next
+1d800989ce1c579a98f6e4591ed22ed837769aab Merge branch kvm-arm64/s390-7.4 into kvmarm-master/next
+65f95b2874a15bba193afbacc1bfaaa6e57ff8f4 Merge branch kvm-arm64/mmu-fixes-7.4 into kvmarm-master/next
+0ff05136bb0e9b71847eb3a6ea33e512000eb875 Merge branch kvm-arm64/pkvm-state-7.4 into kvmarm-master/next
+fa1219ec8c03d09b7a62046ea9680c0cf141bc4a Merge branch kvm-arm64/pkvm-allocator-7.4 into kvmarm-master/next
+4c2f074d71a763e257319dd7e3b93c40e7e518d8 Merge branch kvm-arm64/pkvm-tracing-7.4 into kvmarm-master/next
+6ec57ccbc5c94b9b588eac1b6f12d1ce8480dfef Merge branch kvm-arm64/rd-assignment-fixes into kvmarm-master/next
+dd0bc00e3e9201fd49b62ff9cc07890c89003afe Merge branch kvm-arm64/cca-7.4 into kvmarm-master/next
 
-c37c4b2d6f50c2ca835834e90d8d428568f21c23 b04106548526c4ea7ab7f0c146fda3307501f2a7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrLXqYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+saUQAJ+Rd7Z9OOXicNpT1tXW
-Z2bUMIG5aIbC6wt11Xqxe1gcSKkWkNNFIrbDRv6HVU+CLXWHH+tbd5mdm677eeps
-7pWYis/jLTWUaW0StgwBHUhLkRCsScOZ0zth2qH5XqRqUJ8UMkxFPcGuYTV8IB7Q
-T+2aIxz7/F+0g5BRvEDar4oN53WQVNlsCs2Uk5U7V8mkJWcPIIYErwraM82Ag+Nx
-DYTuk9Utf4VAAzU/VCF5/idYTgspJ7u3+81JzSzBiKyR2LinAeYJRF8Va4mVCcxG
-UHXnS9O6O9ouI5Bh9UpIpe1e7Xi/r2W5v8xM4eqAMV8GtKujbNQ918qoWWTmz96q
-YnQTvz5gGEwl16XkgsAgkEaRVm130bLc8BiI/Au+FmCMgDzIxb/NxqN2ktKivkYO
-i0zmhEwYMOEwHEyJLDFSYVYZcyHPmOMSHdwXkIdQdAWpbfZFThSyAS7nADBrcddC
-+zTAspaQZfUW3raoGVASM/1uus7vBvxb+k2Wirk90IGf4IDcl7M+jT3YJKM9snmw
-i/7vbGcyNPqgL3iAoBNuoQF9F9B3J1sZUcUTLrBYWrEPFIXnKOLh2MrGO0BzI8dB
-r9P0wmn/p5icm23jp55FBF2FiaEDROvOBUb37G02vVz/7oLHk79cx2KmU/wPMEZ4
-T21IGolDW+MIRnp9I8/EPWf3
-=9r7X
------END PGP SIGNATURE-----
-
---===============9184276454592617754==--
+--===============6523702152235404447==--
