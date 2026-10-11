@@ -1,29 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sun, 11 Oct 2026 08:54:49 -0000
-Message-Id: <179170888937.3213175.14765916870524853087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Sun, 11 Oct 2026 09:13:38 -0000
+Message-Id: <179171001881.3235345.11882896533379544812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/heads/for-next
-    old: 7ca1731b8a129cafe258c578fa87b7c414c6d004
-    new: f21d232b2ba3997c1fd33cbe37ff47f72d2a9f2a
+  - ref: refs/heads/rev
+    old: c43f534532d03cc5070cc987c0ca067f7cff24b4
+    new: cd168cb88494da140c129b4c20b2906da536f792
     log: |
-         dd83323e4d5e22bd04f7506a9ec33533465c8393 ALSA: hda/realtek: Fix mute LEDs on HP ENVY 17-cr1xxx
-         f21d232b2ba3997c1fd33cbe37ff47f72d2a9f2a ALSA: hda/cs8409: Fix for Dell Cirrus audio jack detect
-         
-  - ref: refs/heads/master
-    old: bb8bea5b2b76abb5fbd614823930ace4e2f54de1
-    new: fabadc51737e7e36b165399957afe9ef39b22424
-    log: |
-         dd83323e4d5e22bd04f7506a9ec33533465c8393 ALSA: hda/realtek: Fix mute LEDs on HP ENVY 17-cr1xxx
-         23037e59de46f83d4c363ef10511f79d5b79c43f Merge branch 'for-next'
-         f21d232b2ba3997c1fd33cbe37ff47f72d2a9f2a ALSA: hda/cs8409: Fix for Dell Cirrus audio jack detect
-         fabadc51737e7e36b165399957afe9ef39b22424 Merge branch 'for-next'
+         0d0772ff843bb6ae5371b3823a145c21831324b0 revocable: Revocable resource management
+         989ae5a80270b9b44095217514989fda13bb082a revocable: Add KUnit test cases
+         23eedc372c6159ebcd84b39e81f327e974da08e9 gpio: Leverage revocable for accessing struct gpio_chip
+         27399cb909bd17f281819ed73a5c326945ae9488 reset: Add KUnit test cases
+         cd168cb88494da140c129b4c20b2906da536f792 reset: Leverage revocable for accessing struct reset_controller_dev
          
