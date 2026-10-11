@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Sun, 11 Oct 2026 01:21:31 -0000
-Message-Id: <179168169162.2783888.10164514519405155316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Sun, 11 Oct 2026 01:22:16 -0000
+Message-Id: <179168173614.2784246.2041414856347645006@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/dev
-    old: 96aaeadd587ee111e53032f63b93e54a8b476483
-    new: 7b658ac03f03258af2016b878e700a7b1da83d1f
-    log: |
-         f707ba2e1f3117eacbac76f360c3c06e19adab1e fixup! EXP rcu: Send resched_cpu() to idle CPUs having preempted RCU readers
-         7b658ac03f03258af2016b878e700a7b1da83d1f fixup! EXP rcu: Send resched_cpu() to idle CPUs having preempted RCU readers
-         
+  - ref: refs/heads/rcu/dqs
+    old: 0000000000000000000000000000000000000000
+    new: bff7ded0a87f91a2f3198f35e46bb3de784ccb05
