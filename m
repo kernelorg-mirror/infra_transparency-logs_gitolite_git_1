@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2368047039460075814=="
+Content-Type: multipart/mixed; boundary="===============2888081762385761426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 12 Oct 2026 04:13:35 -0000
-Message-Id: <179177841569.24093.18160980520443751458@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 04:13:38 -0000
+Message-Id: <179177841887.24283.9737914236711124015@gitolite.kernel.org>
 
---===============2368047039460075814==
+--===============2888081762385761426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/configs
-    old: 19e34237692a614d5fb6720b11064e48aec00d8d
-    new: aeae028226bf3c769ecea86340c38ffb99d1aa3e
-    log: revlist-19e34237692a-aeae028226bf.txt
+  - ref: refs/heads/kernel-7.3/block-DIO-alignment-fixes
+    old: 05d40a3953ec2a45c851b135538c343a1b04ccff
+    new: 71129deb9a346c9e0a7c0d65edfcde23b6ea191e
+    log: revlist-05d40a3953ec-71129deb9a34.txt
 
---===============2368047039460075814==
+--===============2888081762385761426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19e34237692a-aeae028226bf.txt
+Content-Disposition: attachment; filename=revlist-05d40a3953ec-71129deb9a34.txt
 
 02a3178319639f650428164d4d003de4dc03e326 scsi: ufs: core: Hold a clock reference across the probe
 85de8b3a5eaa23d153aff4c7c83dddbc949064c9 scsi: qedi: Initialize callback state before registration
@@ -89,29 +89,9 @@ d6d3455d8751854e0d1820f14184682e23ac4475 Merge tag 'landlock-7.3-rc7' of git://g
 24a19b953e2a3d0ea5a8c4951a0ab8f32720c907 Linux 7.3-rc7
 184b019fcf1294989be629c7658a42d51fe0779f Merge tag 'v7.3-rc7' into kernel-7.3/baseline
 94efc66616c0fa5c45029c25b9edd4b145108765 redhat/marker: v7.3-rc7
-ba6227830f55b85c8eefef4b2adb46e573872e08 redhat: various "fixes" to allow building ARK kernel on EL8 buildhost
-47cd7b63af9989a3695dc20c6e645973a465e23b redhat: reenable 'with_tools' now that tools compilation is fixed for el8
-cac6b776bb5eaa6455032e6e1c834314bf674e49 redhat: fix EL8 build so that it generates symvers.gz
-b38f6026309424beed11f294c9dec7be536647eb redhat: add tools-tracing-rtla-fix-el8-compiler-errors.patch
-dff02036d3673fc97c1dd680631de954a3de761c redhat: various hacks to get kernel.spec.template compatible with EL8
-061ef805fd9c4cfa34ce1c4d42fa841d40f0a24b redhat/kernel.spec: fix kernel_meta_package
-c949a9591568b2ad58ee2c8af190daa3c55e6995 redhat/kernel.spec: for .el8 verify that gettid() is missing
-c0b7532fbf721f26e95b2f3bf8ccd0ed6c542af2 redhat/configs: enable CONFIG_MLX4 for x86_64 only
-3c0644ad7a366a13fa5c1fbace393e6390a0d17e redhat/configs: turn off CONFIG_PSI_DEFAULT_DISABLED
-766a1c0b41a08eb988f8b61341383baade391f25 redhat/configs: enable CONFIG_LATENCYTOP
-d5e44eb8fbd4e2002f709a4fc098334cf04a4eea redhat/configs: switch THP default from always to madvise
-1b584d8c4fd308746dcb85032c4785a53f8ca36e redhat/configs: disable CONFIG_NFS_FSCACHE
-d786eea7a0c282085ad1f095bb3b481a05633a9c redhat/configs: disable CONFIG_NFS_V4_0
-db91d0f680508515f1a5ae7b4660cac605c3f210 redhat/configs: disable CONFIG_NFSD_V4_POSIX_ACLS
-f1657771405a39e4f8fdcfa87bab41f6ddafb316 tools: fix libcpupower Python bindings build to use python3-config
-b62b66925e346f8c05afaafa4a1ea350566bcee0 redhat: disable building rt-64k on arm; re-enable building debug kernels
-54dd24c51f694c3ad6f6e28ba12dade2802a55b1 redhat/configs: disable rxrpc and AFS which depends on it
-53a7ffec47bce287c03e47d717042fe55453881c Revert "[redhat] configs: Compress UEFI/PE kernels with zstd"
-85726afe572d9f0fa345f3216f28f42239887c30 redhat/configs: sign modules with RSA, not ML-DSA-87
-3416012e0ea317a415f4bd813221e4515ed80e94 redhat/configs: remove all s390 config infra
-48a51f8f25756b6effaa04ce5fb7e30e8e3931b6 kernel.spec: remove all s390 files and enablement
-f9aa4b09db152eecf534704fdfe7342bdbbdb36d kernel.spec: relax --with tools BuildRequires for libtraceevent-devel
-44fcb58752a6055d9b18be4bd3a0190815342f76 redhat: build the aarch64 rhel config with 16K pages too
-aeae028226bf3c769ecea86340c38ffb99d1aa3e redhat/configs: enable PNFS_BLOCK_LAYOUT and PNFS_SCSI_LAYOUT
+7ff2f505a43f86dd566e51e3275bcd8f0e66c399 brd: iterate the bio by byte position, not bi_sector
+33ed288eb0ba3efb2001e56ce652e45783ad561e zram: handle sub-page bvec segments without corrupting data
+493ad58252005e5692c96fcac33fcb52bdcc3734 null_blk: keep each memory-backed copy within one block
+71129deb9a346c9e0a7c0d65edfcde23b6ea191e dm-delay: do not round a short delay up to the next timer tick
 
---===============2368047039460075814==--
+--===============2888081762385761426==--
