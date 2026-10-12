@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4615611896048338758=="
+Content-Type: multipart/mixed; boundary="===============4334864173129281729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 12 Oct 2026 18:20:07 -0000
-Message-Id: <179182920762.807634.18252652455931330262@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 18:20:42 -0000
+Message-Id: <179182924202.808282.16283266544779664936@gitolite.kernel.org>
 
---===============4615611896048338758==
+--===============4334864173129281729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-tpm
-    old: 32a2ee9e92cee8c33fcc2923fdb1a91a19359750
-    new: cf507674f8f73bf85902530942e2e22ebeb79442
-    log: revlist-32a2ee9e92ce-cf507674f8f7.txt
+  - ref: refs/heads/for-next-keys
+    old: f96ea2afa2b2eb1b754ab192415c6c7104ea42d8
+    new: a626e44fd64c456d373ae8c28b939197b9446a02
+    log: revlist-f96ea2afa2b2-a626e44fd64c.txt
 
---===============4615611896048338758==
+--===============4334864173129281729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32a2ee9e92ce-cf507674f8f7.txt
+Content-Disposition: attachment; filename=revlist-f96ea2afa2b2-a626e44fd64c.txt
 
 93847823b6761e1791a7db10f55bbd4f79fa0dbc tee: qcomtee: fix kernel-doc warnings
 35ce3c571297aee13c6da604d022929fd1aa9efb arm64: dts: qcom: x1-denali: Fix microphone distortion
@@ -470,5 +470,12 @@ c0aecb2ce19751467550665d89e15b9eaa6cc696 tpm: tpm2_probe: propagate transport er
 6fbba3c44a6e816ebc6ce1c4dac444ed99dabe46 tpm: tpm_nsc: fix NULL pointer dereference on init failure
 15e0dc93dae4cd10829c1909e5c7a5e46fc78150 tpm: tpm_nsc: stop using the cleanup callback as dev.release
 cf507674f8f73bf85902530942e2e22ebeb79442 tpm: fix zero-length read discarding the pending response
+5988ed5c6c2e53dddd955648ae859a060a860e16 keys/trusted_keys: return immediately after TPM unseal failure
+04f62b19a3f1922598724acc0fa6b717d2853042 KEYS: trusted: Fix blob allocation size in tpm2_key_decode()
+6162d0d4900f296143d14824315d980ba3e4cdd9 KEYS: trusted: Reject short TPM2 public areas
+162000ec1a28c6b87291d451354f52d28ac92e45 KEYS: Fix key_reject_and_link() race with keyring restriction
+7ab5e97c46ac25194a812c07f2b1ba5486914bfd keys: Protect the type name while describing a key
+9650032323a2997976a633910735157b96c4af1a keys: Avoid the owner account dereference in named keyring lookup
+a626e44fd64c456d373ae8c28b939197b9446a02 keys: Check the authorization payload in process keyring searches
 
---===============4615611896048338758==--
+--===============4334864173129281729==--
