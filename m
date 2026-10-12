@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Mon, 12 Oct 2026 20:30:18 -0000
-Message-Id: <179183701856.906757.16851227226579498671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/tftp/tftp-hpa
+Date: Mon, 12 Oct 2026 20:36:45 -0000
+Message-Id: <179183740586.911084.3339847051269438166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
-user: vudentz
+repo: pub/scm/network/tftp/tftp-hpa
+user: hpa
 changes:
   - ref: refs/heads/master
-    old: 6c60a37ec244f8bf89d50d7b97e2c14977d9317a
-    new: 23ad91f6a21a830b67f5eee790caa0053bd6537d
+    old: a2533cde74f474a8db81dc1eeff0028e44a3aef1
+    new: 403faaa22e9147e1ce562cc1ef27edcadbac8754
     log: |
-         17ce39455aab287f455cf48a125d01eb0959c319 Bluetooth: MGMT: Allow connection rate request as peripheral
-         23ad91f6a21a830b67f5eee790caa0053bd6537d Bluetooth: MSFT: Serialize handle map cleanup with event processing
+         403faaa22e9147e1ce562cc1ef27edcadbac8754 tftpd: add --logformat option
          
