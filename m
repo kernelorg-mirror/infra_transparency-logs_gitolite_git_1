@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5606936227057270513=="
+Content-Type: multipart/mixed; boundary="===============7167802028919861329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 12 Oct 2026 04:14:09 -0000
-Message-Id: <179177844940.26029.9325252865028929906@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 04:14:12 -0000
+Message-Id: <179177845240.26168.1366304377245118753@gitolite.kernel.org>
 
---===============5606936227057270513==
+--===============7167802028919861329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-ff-layout-contention
-    old: d889639e439fd6441ed5737e9091862837e322f9
-    new: 47752bbd5dc49c6af788fed93c124436381898d7
-    log: revlist-d889639e439f-47752bbd5dc4.txt
+  - ref: refs/heads/kernel-7.3/nfs-testing-canary-rdma-ds-connect
+    old: b0c284b995d4e5b64d3a178ed8e6eef59fc2dac0
+    new: fa1ef9da5f5462fef2a3aac8e9280df7ba22ed5e
+    log: revlist-b0c284b995d4-fa1ef9da5f54.txt
 
---===============5606936227057270513==
+--===============7167802028919861329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d889639e439f-47752bbd5dc4.txt
+Content-Disposition: attachment; filename=revlist-b0c284b995d4-fa1ef9da5f54.txt
 
 02a3178319639f650428164d4d003de4dc03e326 scsi: ufs: core: Hold a clock reference across the probe
 85de8b3a5eaa23d153aff4c7c83dddbc949064c9 scsi: qedi: Initialize callback state before registration
@@ -160,20 +160,8 @@ bec5c13108d77e6423a4a250389420b539b07f31 NFSv4/flexfiles: pair the in-flight cou
 e7d46dda63057dfe11cd86f33ae2a8bd70326e29 NFSv4/flexfiles: drop NFS4_FF_MIRROR_STAT_AVAIL
 62b8befaf13b57340c05cba054c5bfb719bf3363 NFSv4/flexfiles: rotate LAYOUTSTATS reporting across a mirror's stripes
 b5705b0e853c0ab8f89041e9ea879f39f1937c01 NFSv4/flexfiles: take the report decision out of the critical section
-d4178e53e2ff44d089d6110e608adc42bd8d44ed NFS: don't take inode->i_lock twice per direct I/O for the opening owner
-b9fcbe68aab64f2c055b3bbecfa3e0c13420633c NFS: take inode->i_lock in O_DIRECT write completion only when needed
-c26c7b587dd423d8ead64f3bda3ce80974cc26fe NFS: skip inode->i_lock for WRITE replies that cannot change the inode
-be3036517986021e02e74c265f689cae3fc9db21 NFS: don't take inode->i_lock to re-mark a stale atime
-feb97c1e226a1cf3d0bbdf2f8608e639d1f1dcc2 NFS: check for a delegated atime before taking inode->i_lock
-40cf374a230111fce2d0445157475fd515c1c774 NFS: skip inode->i_lock when a delegated timestamp is already current
-ee921888719fcf4d74474a29a20b5c251b17c00a pNFS/flexfiles: don't take inode->i_lock to release empty commit info
-7953bbea2e3fbdea5f78ee8a9467087549344a00 pNFS/flexfiles: look up the cached layout segment without inode->i_lock
-986c0cfd48de6a22ae1e40d6ac345acbee9ae9be pNFS/flexfiles: don't dirty the layout segment on every data server RPC
-c29ce5162f3a3168edceedc63f6344903fde90f4 NFS: only account read_io/write_io when an I/O mdsthreshold is in use
-09ec9dd2b838ad6fea069101965c8067f6024204 NFS: finish stable O_DIRECT writes without the nfsiod round trip
-75ceffc7b0bc44ca35085a1da400d1800f3e0817 NFS: admit O_DIRECT I/O without taking inode->i_rwsem
-7d47658bfa8a11cb54f295a4430b107fb1f45c5f pNFS/flexfiles: give the read-mostly layout segment fields their own cacheline
-fe791515cb20c5fdf846044d9b7c8f091a6f1503 pNFS/flexfiles: bound data server RPCs with pg_bsize instead of a per-page test
-47752bbd5dc49c6af788fed93c124436381898d7 pNFS: hand the page I/O descriptor's layout segment reference to the header
+9693aaccba0dec6c0af61130f9abc82c5eff063b xprtrdma: Allow reclaim when allocating a transport's initial requests
+2bac439fe1d64f16519a1ef12eedffc94c15d3f2 SUNRPC: Do not abandon the remaining nconnect transports after one fails
+fa1ef9da5f5462fef2a3aac8e9280df7ba22ed5e pNFS: Report a data server left on a non-preferred transport
 
---===============5606936227057270513==--
+--===============7167802028919861329==--
