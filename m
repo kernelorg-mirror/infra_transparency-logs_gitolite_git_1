@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5238860856406542791=="
+Content-Type: multipart/mixed; boundary="===============8646158133294126784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 12 Oct 2026 04:51:18 -0000
-Message-Id: <179178067830.55746.9035853741373788422@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 04:51:21 -0000
+Message-Id: <179178068125.55917.16141655655578645785@gitolite.kernel.org>
 
---===============5238860856406542791==
+--===============8646158133294126784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-testing
-    old: 1c0968754f4598507a43094fec9a13d53caf6989
-    new: 8a24a7cb074f94025beb08ad7ac7ca83bd47cbdb
-    log: revlist-1c0968754f45-8a24a7cb074f.txt
+  - ref: refs/heads/kernel-7.3/nfsd-testing-canary-dontcache
+    old: f796eb6c5440456650635f0526ace88cbbdbfeae
+    new: a980c57c2a10e0640a99d6c0b29584c86a827947
+    log: revlist-f796eb6c5440-a980c57c2a10.txt
 
---===============5238860856406542791==
+--===============8646158133294126784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c0968754f45-8a24a7cb074f.txt
+Content-Disposition: attachment; filename=revlist-f796eb6c5440-a980c57c2a10.txt
 
 5d43281c985ea401b05e6347fec14c1117ac6dff nfsd: honour client-provided attributes for NFS4_CREATE_EXCLUSIVE4_1
 7c55f1aaeddc04db92b1c925ba31735288a3bbf0 nfsd: move check_nfsd_access() call into nfsd_cross_mnt()
@@ -212,5 +212,17 @@ d0108ec9115daaf65daab83492553499c491a113 nfsd: Fix id-to-name cache entry leak i
 d0660c25145667e7336fb6b935e06d93841daa90 SUNRPC: use assign_bit() where applicable
 93a58ff96b8823019e608526657fb1bd5ba472c1 nfsd: use direct I/O only for the last operation in a COMPOUND
 8a24a7cb074f94025beb08ad7ac7ca83bd47cbdb SUNRPC: preserve RQ_SECURE across request deferral
+439974b97e65b10cf43a3ac7c26a2737065a5cdc NFSD: cut a misaligned direct-mode WRITE at page boundaries
+203a065757553e78e5ee413282afe91abe885d50 NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
+805098d657b357bf0f540a50fa4434ca23f27ec0 NFSD: only split a direct-mode WRITE for a worthwhile direct middle
+964344ecdb2a7a5a321d985d0275019814c7ca51 NFSD: add direct_misaligned_dontcache debugfs knob
+f9c872f57cb8200a808516ddee7c6fd6a46823d5 NFSD: do not use direct I/O for a READ smaller than its alignment
+5204b88704818080cabb48491caf70f1d36562ab NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
+90fec379f51215161f0c5fd985214cfbee6bbb9b mm: add folio_mark_dropbehind() to mark a folio dropbehind and account it
+b2accabec9847ecbb0ef50c8c765a81c89b28725 mm: expose WB_DONTCACHE_DIRTY in bdi debugfs stats
+f0d519461f7deddd4964bb550f20fc2301d6fc9c NFSD: keep boundary page of a split direct-mode WRITE until both writers complete
+8616cd29092c41aa5ce8faaac7464594316176be NFSD: add tracing for how direct-mode READ and WRITE are serviced
+09f61823daf09308c7bb817ab4a75a541cbd25d4 NFSD: Enable return of an updated stable_how to NFS clients
+a980c57c2a10e0640a99d6c0b29584c86a827947 NFSD: add io_cache_write modes that persist each direct-mode WRITE
 
---===============5238860856406542791==--
+--===============8646158133294126784==--
