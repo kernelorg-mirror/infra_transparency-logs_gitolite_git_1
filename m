@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 12 Oct 2026 07:30:54 -0000
-Message-Id: <179179025442.295496.8396995333680252845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
+Date: Mon, 12 Oct 2026 07:31:34 -0000
+Message-Id: <179179029448.295821.16277910719487332420@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/livepatching/livepatching
+user: pmladek
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: d37e98844afea39a9614cac0de837701263c90f7
-    new: aea64024ac37d29e99b82b315a56a9145dc0bc23
+  - ref: refs/heads/for-7.4/trivial
+    old: e0c1c9cad4afbb4099cb488a7e2ba4531993cd3a
+    new: 9f0deab7285811d13b61bb441653de9e5ce0a1d0
     log: |
-         aea64024ac37d29e99b82b315a56a9145dc0bc23 RDMA/mlx5: Cancel deferred page-fault EQ work before teardown
+         9f0deab7285811d13b61bb441653de9e5ce0a1d0 livepatch: Add Joe and Song as maintainers
          
