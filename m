@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 12 Oct 2026 13:58:30 -0000
-Message-Id: <179181351057.590863.15952202999228927919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 12 Oct 2026 14:00:32 -0000
+Message-Id: <179181363233.594062.9367905951493415399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/main-pending
-    old: 7973bd23f874c87a524729a02d454d55e61dbcac
-    new: d0400e57ab3faa649a4f3aa5fa463826b33e8201
+  - ref: refs/heads/wip/leon-for-next
+    old: a0ab2bb269e7fd8523f87950b91a42a36c7f8f2a
+    new: 023b4b6ea490b3eebba34df7d151374e5c5c6851
     log: |
-         0116c744ad3d5c86147a3ba5561bdf620c4928c7 wifi: ath12k: skip hardware rfkill setup on Microsoft Surface devices
-         d0400e57ab3faa649a4f3aa5fa463826b33e8201 Merge branch 'pending' into main-pending
+         023b4b6ea490b3eebba34df7d151374e5c5c6851 RDMA/irdma: Check MR contiguity before PBLE alloc
          
-  - ref: refs/tags/ath-pending-202610121348
-    old: 0000000000000000000000000000000000000000
-    new: d0400e57ab3faa649a4f3aa5fa463826b33e8201
