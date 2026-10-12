@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7065159492939010390=="
+Content-Type: multipart/mixed; boundary="===============1404642277782782703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Mon, 12 Oct 2026 05:56:09 -0000
-Message-Id: <179178456931.223655.2755884856901739234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 12 Oct 2026 06:12:08 -0000
+Message-Id: <179178552845.234289.15703880891963483285@gitolite.kernel.org>
 
---===============7065159492939010390==
+--===============1404642277782782703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: maddy
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next-test
-    old: b3d75e2bc299a759de2fd11649c7ed275b1b2067
-    new: 129f5d395fd66b6587a5ac156b232cca060d6512
+  - ref: refs/heads/master
+    old: 6bb5268c7e7453c2a9479cc01908b2e467fa3773
+    new: fc40340c024154b369e0ab78d4fffd2fe1feebf8
     log: |
-         ff9d9df1deb10c657ff00fc7b94f154fb4552721 powerpc/numa: Simplify find_primary_domain_index
-         e18351513a8e7ba08d9735056864f0c0095676d0 powerpc/numa: Allow cpu_to_coregroup_id without PPC_SPLPAR
-         129f5d395fd66b6587a5ac156b232cca060d6512 powerpc/numa: Support coregroup on PowerNV
+         fc40340c024154b369e0ab78d4fffd2fe1feebf8 6.12-stable patches
          
 
---===============7065159492939010390==
+--===============1404642277782782703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1791784564 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1791784563-498172027328837e56c0b297e561b9657a5908cd
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791785526 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1791785525-422ec2d272cfacdaca3e120a95337b713b3fabf0
 
-b3d75e2bc299a759de2fd11649c7ed275b1b2067 129f5d395fd66b6587a5ac156b232cca060d6512 refs/heads/next-test
+6bb5268c7e7453c2a9479cc01908b2e467fa3773 fc40340c024154b369e0ab78d4fffd2fe1feebf8 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmrMdnQACgkQpnEsdPSH
-ZJR68g//dZ1x4OHURW1gCODVGPDwUwYsg5Rj062sur4SlwMI/zDSVytWNC6VFYTj
-4wdALv81FkJH4QVwzoaIINITxKvu4k8OeTqT6TKYz+SvrjMM6Rtvc1f2bU3X8Mdg
-m2+ZkUsYlJ5fyFBPXgBjeTsjjfOr11nXpXrSVPB8J2+rHfvrBxC285zR2ibscaqo
-5qBIha7/fPFxFCV1Qcgqn7PY90WJveks3JVOVJMTNUjv2RCUwcgX4Pn6IptRXQ34
-Hd3w96z+D8u7PpH+/anaDyb210sTqcOhL5JU/LWQV9xZiF61+j09H9/oDcMSQbn7
-qnhDCCog9v5Ma8u4PO4p44IJV0esJsoPKjANWHLZWIGV5p88s/vSeEc/IL+4fzHq
-OQYWdHrprnxpP8QvWznPyd05HiQfLbyk6qRkWjJDS6fQ7W2/cu+liLsHs5Pitlm7
-tinu+EyIP8lm54pq3oQgiqACGym1+8TFk69vWIYlFB8gNH3+eCULDwPQ2ozUwkkz
-WLVUp3Mv5W8WLDxBvyPFp7ljOQECcdAqbDA8Hd+qa1fVbIx/fNVhHsmxQrmb4S8d
-M8mxqLYSmv7cvUMLHbtRxYbeuoELuCvNidM1KAck2/W37865d0iUZ2dEMLqnGdnI
-P3COIJsDWVKRTPJNdjKr0VrYIKL9IhjAQwYhQ7M+JwiiDelGRl0=
-=D2Vp
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrMejYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SuAQAIp1Xf0r2Lfibnah12DR
+Zjmrz3pyjKAkL3rw/u1g5IMwfR/9w0iwdhIvDiJgE87On0sXWa4pQx9I4/m44cvu
+QXnc3OketMX8vi+p+fiDImqxKhFrpH27lIl1SOpu53Fwevan1vJUUiQaOIHa3YRz
+y3JXEY6nz0DFeq2Vk/mi6O8v4URaEZocdmskdrSCEZ80iM6nTmWAiELkX7JUz24T
+OwXZPx9cby53IRf4L45+EuFxJnGwRs8CI9ioC6nCRYsIP6AWL/neJqjdud77XjG9
+ng3KRM9Xrueg/sXuqVHFogZIXjXjRS6w3x2ASd9yT6lENdiJjwblYfew/yYWjcBN
+9yDdUc0vCBDeIrjKLEWqLPY3mXrbmV4sFwmUzVsmmj8BRIB2xmFBQNrFQR8Qqww4
+OuO5gSXtliLt8y3HlzeOU63V2wb4z5P/DrtmtQOWcXCj+TN0ImnS2nQ3NgekMFl/
+x5wOd6LK24JPJiHVFo09IZ1/ZB0dz2IBVLX1fSQAnWcBva58bRkxeq4Cv3LUwxqq
+HTJULcYA2aS8GNmhv1H01K6+npQ/pijY5P11hLqeaPoCqiO+Zjd3skVrlYp0Ja3n
+b5d4CxSdJiQD9HNqMEg4UGX5BWxZQZiMuJx7hYy7qWrrd7NpxmMEMYp+Lf0nZQ5e
+R2bkYXLsyi4gnekrOgiziuWZ
+=5wiY
 -----END PGP SIGNATURE-----
 
---===============7065159492939010390==--
+--===============1404642277782782703==--
