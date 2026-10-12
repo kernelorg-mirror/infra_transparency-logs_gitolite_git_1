@@ -1,43 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============7530381139310235108=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 12 Oct 2026 11:49:14 -0000
-Message-Id: <179180575439.491437.7220997337403770156@gitolite.kernel.org>
-
---===============7530381139310235108==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Mon, 12 Oct 2026 11:55:33 -0000
+Message-Id: <179180613394.497899.17568984892029259712@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/work.namei.reval
-    old: 0000000000000000000000000000000000000000
-    new: 159baf029b6aaa4ffdd0d8efafea3d0b008db6f3
-
---===============7530381139310235108==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 0x91C61BC06578DCA2! 1791805753 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-nonce 1791805752-f38f80a7791f890b0ed404e8d81a5164eef201ec
-
-0000000000000000000000000000000000000000 159baf029b6aaa4ffdd0d8efafea3d0b008db6f3 refs/heads/work.namei.reval
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCaszJOQAKCRCRxhvAZXjc
-or6oAP0drYf6l/dkNRkIsoci5ip3+vR8E8oN5/vMNoUlR/f4WwD9EHQ7+3F06YtF
-Rh7Q/2jRFD4nJRqSuO/32zy/URvw3wM=
-=2D4M
------END PGP SIGNATURE-----
-
---===============7530381139310235108==--
+  - ref: refs/heads/b4/mali-c55-renesas-dts
+    old: 51f68782b90ba93010e169188419ceb999f3a725
+    new: f5f1c1f48c29b2311a518d54a5ba0ca48f961bc7
+    log: |
+         65db30428617ee0e130b2175ffeaed1985972ccf arm64: dts: renesas: Enable ISP and IVC on RZ/V2H EVK
+         857e53c3887dd6a3536a47ca175e68172b0c17f1 dt-bindings: media: renesas,r9a09g057-ivc: Describe additional interrupts
+         52aec9774b5e862f51d3f5c341c7058ad167cd73 dt-bindings: media: arm,mali-c55: Describe DMA line-tick interrupts
+         623508fdecfcf1dff009fc59a263b1eeb1bbe8f2 dt-bindings: media: arm,mali-c55: Add power domain
+         dcca9b5f5a595a8e343f795245c7dee7972f3763 arm64: dts: renesas: r9a09g057: Add IVC and ISP nodes
+         f5f1c1f48c29b2311a518d54a5ba0ca48f961bc7 arm64: dts: renesas: r9a09g057h44-rzv2h-evk: Add ISP and IVC nodes
+         
