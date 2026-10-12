@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Mon, 12 Oct 2026 18:38:43 -0000
-Message-Id: <179183032304.821554.4669945208810561035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 12 Oct 2026 18:39:20 -0000
+Message-Id: <179183036020.822030.6908271234815467892@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-7.3-fixes
-    old: 069403dff337feb192bfc70fb28ddc8a171e20c1
-    new: 5bdeca322a6f8d10acaf67cccab1f69747ee7be3
+  - ref: refs/heads/nfsd-testing
+    old: ac2a96f48467f86017c792d816b40e1241c3515e
+    new: c807415bc69013a5f162264ee0e14f8742c182f7
     log: |
-         dcf7f650a24897d59b071f7f9a454d8b0b188b27 sched_ext: Propagate every bypass depth change to the descendants
-         5bdeca322a6f8d10acaf67cccab1f69747ee7be3 sched_ext: Fix the bypass dispatch claim for schedulers bypassed by an ancestor
-         
-  - ref: refs/heads/for-next
-    old: b712eb43b0faa71ff0deb79163a52894a7a5b0e1
-    new: 0d629cc4a1c1813820dc4634d48d6eeae6daca9e
-    log: |
-         dcf7f650a24897d59b071f7f9a454d8b0b188b27 sched_ext: Propagate every bypass depth change to the descendants
-         5bdeca322a6f8d10acaf67cccab1f69747ee7be3 sched_ext: Fix the bypass dispatch claim for schedulers bypassed by an ancestor
-         0d629cc4a1c1813820dc4634d48d6eeae6daca9e Merge branch 'for-7.3-fixes' into for-next
+         b8f09a7389a548188f5ce42bf51baf4700f44560 NFSD: Take a file unhashed during construction back off the LRU
+         815ff218c71c66113f99d4c7d0f3574b93badb43 nfsd: do not allocate blocks for an RW layout with a minlength of zero
+         c807415bc69013a5f162264ee0e14f8742c182f7 nfsd: pin source client while using COPY_NOTIFY stateid
          
