@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8646158133294126784=="
+Content-Type: multipart/mixed; boundary="===============8312978859683357493=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 12 Oct 2026 04:51:21 -0000
-Message-Id: <179178068125.55917.16141655655578645785@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 04:51:24 -0000
+Message-Id: <179178068419.56118.9687546632546256236@gitolite.kernel.org>
 
---===============8646158133294126784==
+--===============8312978859683357493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-testing-canary-dontcache
-    old: f796eb6c5440456650635f0526ace88cbbdbfeae
-    new: a980c57c2a10e0640a99d6c0b29584c86a827947
-    log: revlist-f796eb6c5440-a980c57c2a10.txt
+  - ref: refs/heads/kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO
+    old: 3678a7c33fd2e9aa1ffcec447f25b09363099d10
+    new: 6d7dfb5ca8db052c70b3a6b67c86a923b7f4c791
+    log: revlist-3678a7c33fd2-6d7dfb5ca8db.txt
 
---===============8646158133294126784==
+--===============8312978859683357493==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f796eb6c5440-a980c57c2a10.txt
+Content-Disposition: attachment; filename=revlist-3678a7c33fd2-6d7dfb5ca8db.txt
 
+01c159083cfe97e484c90978c2cfb7e2e3f8005a NFS: don't release the open context of a failed write from writeback
+977c34cb8b14b652adac9c690a1757649ea0e6c2 NFS: don't run the release of a WRITE or COMMIT in the submitter
+54c29d0898e05cca62b41925b19e192f9507af81 NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
+b9072da39a2d18ccf13258af55b6f6fe3c14d737 workqueue: Fix NULL current_pwq deref in mem-reclaim helper
 5d43281c985ea401b05e6347fec14c1117ac6dff nfsd: honour client-provided attributes for NFS4_CREATE_EXCLUSIVE4_1
 7c55f1aaeddc04db92b1c925ba31735288a3bbf0 nfsd: move check_nfsd_access() call into nfsd_cross_mnt()
 eca516dd34db921a7f1e8a17d68d5cc56c56f9d8 nfsd: correctly handle CREATE of mounted-on files
@@ -224,5 +228,12 @@ f0d519461f7deddd4964bb550f20fc2301d6fc9c NFSD: keep boundary page of a split dir
 8616cd29092c41aa5ce8faaac7464594316176be NFSD: add tracing for how direct-mode READ and WRITE are serviced
 09f61823daf09308c7bb817ab4a75a541cbd25d4 NFSD: Enable return of an updated stable_how to NFS clients
 a980c57c2a10e0640a99d6c0b29584c86a827947 NFSD: add io_cache_write modes that persist each direct-mode WRITE
+813372001b911aaf245e38a80ba1e6bea7992a32 Merge branch 'kernel-7.3/snitzer-nfs-fixes-canary' into kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO base
+68df8620f23f5e1562f1237e70538932e56cb8cb NFS: invalidate LOCALIO direct-write post-op attributes at completion
+93274bb7d8cbba1435e0e9b47708aa245b3dbf22 nfs_common: share direct I/O write split and boundary-page helpers
+e755012dfb853ee8a2ebf52147c1f87e4253dc55 NFS/localio: split direct writes using NFSD provided nfs_common code
+4bdb5b1105b24b22de3f493ee68da61491c587ce NFS/localio: persist a synchronous direct write once, after all its segments
+2589e2af50902c5ecca86e2126d19155499a8d22 nfs_common: fix the skip accounting in nfs_dio_iter_aligned()
+6d7dfb5ca8db052c70b3a6b67c86a923b7f4c791 NFS/localio: complete a direct write that shares a page before it returns
 
---===============8646158133294126784==--
+--===============8312978859683357493==--
