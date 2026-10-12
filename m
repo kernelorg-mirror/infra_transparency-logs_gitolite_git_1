@@ -1,20 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 12 Oct 2026 15:25:37 -0000
-Message-Id: <179181873774.662993.14505148347009344809@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5882627663487445653=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 12 Oct 2026 15:28:03 -0000
+Message-Id: <179181888310.664009.12912874235483151378@gitolite.kernel.org>
+
+--===============5882627663487445653==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev
-    old: 5fcb2f76f7b95df87f5c6d3a580e4d756ceaa1c8
-    new: 1c44a9ce1edd4543c54f3249298630e8276398aa
+  - ref: refs/heads/master
+    old: 3c8ac4f8dfc3b9c62a8a35d9ffd7b57875abd22d
+    new: 9224e50aef38a4243d68a6aab6b727689b4ce039
     log: |
-         c8c8be06e649e9d14edc57e55c733831c5896bbd erofs-utils: lib: tar: fix source path leak
-         1c44a9ce1edd4543c54f3249298630e8276398aa erofs-utils: lib: fix null memcpy source in xattr listing
+         9224e50aef38a4243d68a6aab6b727689b4ce039 5.10-stable patches
          
+
+--===============5882627663487445653==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791818890 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1791818881-71e24a02875e358245d4fc58b372b412283508ed
+
+3c8ac4f8dfc3b9c62a8a35d9ffd7b57875abd22d 9224e50aef38a4243d68a6aab6b727689b4ce039 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrM/IobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t2kP/i6M7vcBi+keRvzMMDhT
+kk3zR4ER7IvTNHL351tsM61RLJlSWCawi0fIe4UwuS2XGL6Ijnq9BzBrExRJ9xNx
+a4n9J53CrXggoY8Swww+qEvH0DZquGcy1tKsStGRCPXti8AJjvUmHaRMK530mpSF
+RJ+QAv0et3FFmJfpejdUxql/ILrin3mvtLJc0iiNnxIc1HaieDk90yDCWYkVCD7I
+v7CAFByn7jp4PL4CvTlesk0a/mqFPXGY3xSMVXXSonb39AN0wdU8sBWd7s7nfXt4
+dLpdPfNS/j3i6s6geYkWzZJjqerflCLKe9vn9q5W8xOFqhziYre6Yh45D02CrWkX
+6N/VuM8HNY2flUQsKCfZ+47xp4oYtOfoEHyxrtSOSc15P7Rt4JetpBjAjzgvyoiz
+CGR9j7TSDav2uDW+mfqZw8u7waf/TTpOwR6NO2n30g4QmrrZZDVJzq6jKKGRGqCV
+ai+g1xDnHlJspeCviuTbVPGqNRIREW7bvZUNGZbeBAv4LZ0hlg8qSVqLEL8jvivD
+B7+xkFarQHPJBn4IbsZnJs/zlXxNr8699OmPYQ42LRL41oPUwsIJjJ98Cg4rsDUd
+BDlSL22LQNGEdopEuwlE+40L4rN2h9DjLM3bRu5RCQbiXuag1pDOQCOc/RAKiJw1
+fAeMqe8eD7MvQM/dtYxaDSBs
+=x5Tr
+-----END PGP SIGNATURE-----
+
+--===============5882627663487445653==--
