@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2888081762385761426=="
+Content-Type: multipart/mixed; boundary="===============1683075691056381060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 12 Oct 2026 04:13:38 -0000
-Message-Id: <179177841887.24283.9737914236711124015@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 04:13:41 -0000
+Message-Id: <179177842172.24425.11011404726891136326@gitolite.kernel.org>
 
---===============2888081762385761426==
+--===============1683075691056381060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/block-DIO-alignment-fixes
-    old: 05d40a3953ec2a45c851b135538c343a1b04ccff
-    new: 71129deb9a346c9e0a7c0d65edfcde23b6ea191e
-    log: revlist-05d40a3953ec-71129deb9a34.txt
+  - ref: refs/heads/kernel-7.3/trond-nfs-next
+    old: abd753273fa0b77b420fa4dabd491b7f95d76520
+    new: 8ed84ae4d26a6885be7dd8995bb73d8b7d1cefe9
+    log: revlist-abd753273fa0-8ed84ae4d26a.txt
 
---===============2888081762385761426==
+--===============1683075691056381060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05d40a3953ec-71129deb9a34.txt
+Content-Disposition: attachment; filename=revlist-abd753273fa0-8ed84ae4d26a.txt
 
 02a3178319639f650428164d4d003de4dc03e326 scsi: ufs: core: Hold a clock reference across the probe
 85de8b3a5eaa23d153aff4c7c83dddbc949064c9 scsi: qedi: Initialize callback state before registration
@@ -89,9 +89,6 @@ d6d3455d8751854e0d1820f14184682e23ac4475 Merge tag 'landlock-7.3-rc7' of git://g
 24a19b953e2a3d0ea5a8c4951a0ab8f32720c907 Linux 7.3-rc7
 184b019fcf1294989be629c7658a42d51fe0779f Merge tag 'v7.3-rc7' into kernel-7.3/baseline
 94efc66616c0fa5c45029c25b9edd4b145108765 redhat/marker: v7.3-rc7
-7ff2f505a43f86dd566e51e3275bcd8f0e66c399 brd: iterate the bio by byte position, not bi_sector
-33ed288eb0ba3efb2001e56ce652e45783ad561e zram: handle sub-page bvec segments without corrupting data
-493ad58252005e5692c96fcac33fcb52bdcc3734 null_blk: keep each memory-backed copy within one block
-71129deb9a346c9e0a7c0d65edfcde23b6ea191e dm-delay: do not round a short delay up to the next timer tick
+8ed84ae4d26a6885be7dd8995bb73d8b7d1cefe9 NFSv4: Fix a regression in the handling of CB_RECALL_ANY
 
---===============2888081762385761426==--
+--===============1683075691056381060==--
