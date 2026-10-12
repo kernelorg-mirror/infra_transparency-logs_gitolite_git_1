@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 12 Oct 2026 18:39:20 -0000
-Message-Id: <179183036020.822030.6908271234815467892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 12 Oct 2026 18:41:28 -0000
+Message-Id: <179183048853.825081.2755749261579977661@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: ac2a96f48467f86017c792d816b40e1241c3515e
-    new: c807415bc69013a5f162264ee0e14f8742c182f7
+  - ref: refs/heads/wip/leon-for-next
+    old: 023b4b6ea490b3eebba34df7d151374e5c5c6851
+    new: 39d3758108bb0ef9da484062d65288bbe9cada0e
     log: |
-         b8f09a7389a548188f5ce42bf51baf4700f44560 NFSD: Take a file unhashed during construction back off the LRU
-         815ff218c71c66113f99d4c7d0f3574b93badb43 nfsd: do not allocate blocks for an RW layout with a minlength of zero
-         c807415bc69013a5f162264ee0e14f8742c182f7 nfsd: pin source client while using COPY_NOTIFY stateid
+         39d3758108bb0ef9da484062d65288bbe9cada0e RDMA/siw: Enforce IB_ACCESS_REMOTE_READ for read responses
          
