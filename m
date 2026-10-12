@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7612144423920183690=="
+Content-Type: multipart/mixed; boundary="===============8529428298236140754=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 12 Oct 2026 05:04:40 -0000
-Message-Id: <179178148081.67113.16467286447010587009@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 05:04:43 -0000
+Message-Id: <179178148345.67256.2896963658124179148@gitolite.kernel.org>
 
---===============7612144423920183690==
+--===============8529428298236140754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO
-    old: e80bc052793109a2f583a1661fa712118ba4da89
-    new: c789c9ddce7685782ce8f2cb342d7dda4bd04a83
-    log: revlist-e80bc0527931-c789c9ddce76.txt
+  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-i_lock-contention
+    old: 27dc275f58c458b9864167c4f611de2be9ea0e62
+    new: 5f945dec00c0be1ed69aed68f63044537f584567
+    log: revlist-27dc275f58c4-5f945dec00c0.txt
 
---===============7612144423920183690==
+--===============8529428298236140754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e80bc0527931-c789c9ddce76.txt
+Content-Disposition: attachment; filename=revlist-27dc275f58c4-5f945dec00c0.txt
 
 d92ed10c3510f560a981e6cf2633db7f6df1380b NFSv4/pnfs: Give the data server cache its own reference
 71c98b9985541b309d725bda3bcae634105d26b8 NFSv4/pnfs: Let unused data server connections linger
@@ -50,6 +50,5 @@ d53c87c8005c02c1194ef9ff907ff6ac421b8c7b NFS: check for a delegated atime before
 6a2192f77131be3abc88196cabe11a9f425d0215 NFS: skip inode->i_lock when a delegated timestamp is already current
 0e1f8f0b1ccfc1f457d7c7608f4768f77d1d0d3f pNFS/flexfiles: don't take inode->i_lock to release empty commit info
 5f945dec00c0be1ed69aed68f63044537f584567 pNFS/flexfiles: look up the cached layout segment without inode->i_lock
-c789c9ddce7685782ce8f2cb342d7dda4bd04a83 Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO' into kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO
 
---===============7612144423920183690==--
+--===============8529428298236140754==--
