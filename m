@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Mon, 12 Oct 2026 17:52:43 -0000
-Message-Id: <179182756322.786297.17900636230980484852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Mon, 12 Oct 2026 17:53:14 -0000
+Message-Id: <179182759472.786681.9102742321910264968@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/virt/kvm/kvm
-user: bonzini
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/queue
-    old: 4e0ab192f240755ad8670f30467374a04d83709f
-    new: 5159fcf4126295aa554644c2b18e8462db4bce77
+  - ref: refs/heads/for-7.4
+    old: d5632ae015028376668ef29e3a24c099611a55c7
+    new: 316b06ccee04ad871f6233ad7a3884b0ea457360
     log: |
-         0d22ab95051473affa742c8a41e626b3f4141a16 KVM: Make device name configurable
-         29d054cda1fdb22b094fc57932901d5bc7c46a63 KVM: uapi: remove dead #defines
-         5159fcf4126295aa554644c2b18e8462db4bce77 KVM: Replace CONFIG_KVM_MMIO with __KVM_NO_MMIO
+         61c77b323c8da2ba6a35a4e50019e5f31f8729b8 selftests: memcg: Don't close an uninitialized fd
+         316b06ccee04ad871f6233ad7a3884b0ea457360 selftests/cgroup: Free the paths returned by cg_control()
+         
+  - ref: refs/heads/for-next
+    old: 75b768f035ccafe5c76ea10883474fdecccef56f
+    new: 7fd642134dc2c87b80fefc8d19de956dea88b0eb
+    log: |
+         61c77b323c8da2ba6a35a4e50019e5f31f8729b8 selftests: memcg: Don't close an uninitialized fd
+         316b06ccee04ad871f6233ad7a3884b0ea457360 selftests/cgroup: Free the paths returned by cg_control()
+         7fd642134dc2c87b80fefc8d19de956dea88b0eb Merge branch 'for-7.4' into for-next
          
