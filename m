@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0473131404540831086=="
+Content-Type: multipart/mixed; boundary="===============6917543527193566524=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 12 Oct 2026 05:04:54 -0000
-Message-Id: <179178149455.67958.11595389442070650409@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 05:04:57 -0000
+Message-Id: <179178149718.68177.5179984739480025733@gitolite.kernel.org>
 
---===============0473131404540831086==
+--===============6917543527193566524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/main
+  - ref: refs/tags/v7.3-3
     old: 95aeb353309ec61b97c2e486304d7a1cdbb80d39
     new: 60353445470cd32d52c4d7346b7619ee833b7363
     log: revlist-95aeb353309e-60353445470c.txt
 
---===============0473131404540831086==
+--===============6917543527193566524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -76,4 +76,4 @@ ba44e438700ed21573cffef56afc7f5b47220945 Merge branch 'kernel-7.3/nfs-testing-ca
 85666408500d234db9d6283177eb18fa4bad1903 Merge branch 'kernel-7.3/nfs-testing-canary-nfs4_acl-passthru' into kernel-7.3/main
 60353445470cd32d52c4d7346b7619ee833b7363 Merge branch 'kernel-7.3/changelog' into kernel-7.3/main
 
---===============0473131404540831086==--
+--===============6917543527193566524==--
