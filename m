@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0131625177599891549=="
+Content-Type: multipart/mixed; boundary="===============1902978154703424648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 12 Oct 2026 04:13:51 -0000
-Message-Id: <179177843124.24972.12990078258851657517@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 04:13:54 -0000
+Message-Id: <179177843436.25124.2439699520203862708@gitolite.kernel.org>
 
---===============0131625177599891549==
+--===============1902978154703424648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-testing
-    old: fc5c0d8cf073b8bb3aa8effb84489e265e9afbca
-    new: 1c0968754f4598507a43094fec9a13d53caf6989
-    log: revlist-fc5c0d8cf073-1c0968754f45.txt
+  - ref: refs/heads/kernel-7.3/nfsd-testing-canary-dontcache
+    old: 622fe612632ff7e7f1cf49808894b3a00ae4345b
+    new: f796eb6c5440456650635f0526ace88cbbdbfeae
+    log: revlist-622fe612632f-f796eb6c5440.txt
 
---===============0131625177599891549==
+--===============1902978154703424648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc5c0d8cf073-1c0968754f45.txt
+Content-Disposition: attachment; filename=revlist-622fe612632f-f796eb6c5440.txt
 
 02a3178319639f650428164d4d003de4dc03e326 scsi: ufs: core: Hold a clock reference across the probe
 85de8b3a5eaa23d153aff4c7c83dddbc949064c9 scsi: qedi: Initialize callback state before registration
@@ -95,5 +95,17 @@ f64c93eff933088796c7832ed0d2cd64b3178877 NFSD: Replace nfsd_write()'s "stable" a
 62bbb1b42541016b755bd172b484093e24947e8c NFSD: Move version-specific ACCESS maps into per-version code
 7b3ed07e10e02c5ceb9426c8f8ef1326c1545bdd nfsd: use direct I/O only for the last operation in a COMPOUND
 1c0968754f4598507a43094fec9a13d53caf6989 SUNRPC: preserve RQ_SECURE across request deferral
+a787c3ae48a3768fbd5f7f902f2923b8f215ffad NFSD: cut a misaligned direct-mode WRITE at page boundaries
+b598f97a1697359a3acd992b3c395b68891a5b4a NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
+63472394b78c1e20072616c35950c2b67e1754a1 NFSD: only split a direct-mode WRITE for a worthwhile direct middle
+4a1552528fa88be905f2dc3c8df524cb0afa904c NFSD: add direct_misaligned_dontcache debugfs knob
+170347722e240253e7ba17ddeab3be4c51a611b8 NFSD: do not use direct I/O for a READ smaller than its alignment
+7149a82181e6548f8e2316989d877ca337db9c7b NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
+1ea4b87fb254165792f749a49ee652f5d4b6f859 mm: add folio_mark_dropbehind() to mark a folio dropbehind and account it
+8241545786cf1e590d2630ce44474706f7fbea3e mm: expose WB_DONTCACHE_DIRTY in bdi debugfs stats
+9f2da2933eb4e80d3ed7896ca06ee9a0ef36a8e6 NFSD: keep boundary page of a split direct-mode WRITE until both writers complete
+caae4d635163ad57e00b03b9c8b2d6ede9391ceb NFSD: add tracing for how direct-mode READ and WRITE are serviced
+0ebee56134376555d82891f1bf57fe89a1b96087 NFSD: Enable return of an updated stable_how to NFS clients
+f796eb6c5440456650635f0526ace88cbbdbfeae NFSD: add io_cache_write modes that persist each direct-mode WRITE
 
---===============0131625177599891549==--
+--===============1902978154703424648==--
