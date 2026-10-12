@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7938193977284246962=="
+Content-Type: multipart/mixed; boundary="===============1914459341589191077=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 12 Oct 2026 20:00:56 -0000
-Message-Id: <179183525627.884285.1384751123130712144@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 20:01:01 -0000
+Message-Id: <179183526110.884472.8798235733418880067@gitolite.kernel.org>
 
---===============7938193977284246962==
+--===============1914459341589191077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
-  - ref: refs/heads/stable-7.3
-    old: 28b7260548af3d35773477993ad4e4de41578dd7
-    new: 24a19b953e2a3d0ea5a8c4951a0ab8f32720c907
-    log: revlist-28b7260548af-24a19b953e2a.txt
+  - ref: refs/heads/next
+    old: 7ab68f08381f2edb0e9b33256f3204d7e5f93f3d
+    new: 12802add29de8a556006f144f4000fc1fcffd5a2
+    log: revlist-7ab68f08381f-12802add29de.txt
 
---===============7938193977284246962==
+--===============1914459341589191077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28b7260548af-24a19b953e2a.txt
+Content-Disposition: attachment; filename=revlist-7ab68f08381f-12802add29de.txt
 
-057e5e07420c753f248f9ce148040ab6dcf8359f iommu/dma: skip swiotlb bounce for DMA_ATTR_MMIO in iommu_dma_map_phys
 3fabd8ec206bd48a45ef77aed170d25b322ad9a2 Revert "HID: logitech: add Bolt receiver support for Logitech HID++ devices"
 e9438ab5328a177c9c0e5df87eb92a7162841e98 gpio: zynq: fix runtime PM leak on request error path
 11ea5a63d30ad6d305b1c22301cd99ff45a98c8d tty: n_gsm: fix missing modem controls after DLCI open in convergence layer type 2
@@ -1050,5 +1049,6 @@ d5b6dc381db93ff2d1888f7d99c06e0bd85f4083 Merge tag 'scsi-fixes' of git://git.ker
 f47959816751f02a711aab27cf1c805bd4964819 Merge tag 'spi-fix-v7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 d6d3455d8751854e0d1820f14184682e23ac4475 Merge tag 'landlock-7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 24a19b953e2a3d0ea5a8c4951a0ab8f32720c907 Linux 7.3-rc7
+12802add29de8a556006f144f4000fc1fcffd5a2 Automated merge of 'dev' into 'next'
 
---===============7938193977284246962==--
+--===============1914459341589191077==--
