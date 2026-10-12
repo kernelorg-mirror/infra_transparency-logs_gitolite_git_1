@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 12 Oct 2026 21:36:53 -0000
-Message-Id: <179184101373.957599.6102706462625673606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 12 Oct 2026 21:39:32 -0000
+Message-Id: <179184117222.958623.7360126908580749368@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: 0688699b3612ebd44118a033ab3101f087d7a832
-    new: 5962ff04fe3924fdcccc6194a182797c3ad072fb
+  - ref: refs/heads/pm
+    old: 8f23d7dc6cd3bad251c46d406acfa4b7e9f52453
+    new: 8e923e51892c7da91687dd5b8081ddb1f0fb395a
     log: |
-         78a914d191f428ed088441083cca44ca1c1ec491 ASoC: codecs: rt5645: Simplify optional GPIO error handling
-         5962ff04fe3924fdcccc6194a182797c3ad072fb ASoC: codecs: rt5659: propagate GPIO errors
+         8e923e51892c7da91687dd5b8081ddb1f0fb395a PCI: Avoid D3 on PLX PEX 8532/8533/8548 downstream ports
          
