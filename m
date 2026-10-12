@@ -1,55 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7688112294807185659=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/uml/linux
-Date: Mon, 12 Oct 2026 15:04:20 -0000
-Message-Id: <179181746084.644603.2934247324641177405@gitolite.kernel.org>
-
---===============7688112294807185659==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 12 Oct 2026 15:05:30 -0000
+Message-Id: <179181753001.647254.8355765710243590548@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/uml/linux
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/next
-    old: 2f88f5689de1a039764d00f466209acf0c010eaf
-    new: 4ad423aa2108485f8bc5dde51fdf9c1ed979ee4b
+  - ref: refs/heads/for-next
+    old: 682d6bb5f783adea7fa2a5b05166bff01b338081
+    new: 8d70e364e866bdfca81eee24d0688fac9472cfb9
     log: |
-         4ad423aa2108485f8bc5dde51fdf9c1ed979ee4b um: place large BSS inputs in an output section
+         293821f3c53eb89d1ee6a92925750164d04826be ALSA: usb-audio: Add iface reset quirk for TASCAM US-16x08
+         dbfd3fb74ce4adb7a87da975ba0250b8aa6c571e ALSA: hda/conexant: Add quirk for Acer Aspire Go 16 mic mute LED
+         8d70e364e866bdfca81eee24d0688fac9472cfb9 ALSA: hda: cs35l41: Fix ACPI device reference leak on probe failure
          
-
---===============7688112294807185659==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1791817407 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/uml/linux.git
-nonce 1791817407-cd7ea2b9ae2df603d14f3bdec57a236be54d2286
-
-2f88f5689de1a039764d00f466209acf0c010eaf 4ad423aa2108485f8bc5dde51fdf9c1ed979ee4b refs/heads/next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmrM9r8ACgkQ10qiO8sP
-aADQPhAAnNj7ouOttxQdwPPtXnyyzQSgy4PL8eAw8qz/+Hqp7TMTDx16OYYUBDfG
-DT7Lc1kvXxx6j0mLpFoQdQHUgbzLRUf1XPnNK8mwQXfPpShG/pppoA3eV6mkUJpM
-U1lAXchHMg0hPzEBezpWgQois9PJyfRsVdWNveBPEAuXx1A1uLdZJNzvUtOiFL8Z
-GfER2S8QyIHcEKDvB0YlYtcO5KddJTjfI2nzc2PcoVg3u9tSPlQk6HzGoRtQw+sB
-7Tn7exkRZl1nZSi6N/EO1ibA1w0C0lKVp5GEHkVfcvEPV678Ea3dRfz5dFUPGx/P
-/XRl6NdR9BOF0l5liLc6YIU8DTRQllMi2ck9yW6apDw0HlZXAp8iPzwyJRXrqOkl
-CWZinxxrrcivraEr3HsWdRIpqHXUP+m41x+PeUTl4vqQoocL0CIF+mEGGDCyMSrg
-jf0CrngM8JNUuAS9cYaJwEJVnuF7GVfIM3RIq2Rl7U+f1vY6CLl8FW4z68xoev6K
-g2B4hjv808swS0tvGAEJcfwDn3GKjhfMz8YDWrrPxKOfLyGynLUaF7xrzXXcabIQ
-RwTxH+x/O9oJsM/0hePnf2zjUTSKkpduUPhz5uZPJn5+0aIb3SbLQCdfXNMXFDb8
-frblrXGLEmESG+krpi2TuxMjKW5XExm75WzdVYTdc72Yw0ZOm2w=
-=LtKb
------END PGP SIGNATURE-----
-
---===============7688112294807185659==--
+  - ref: refs/heads/master
+    old: 68b0f0b04d6d29c8c00780c91e51ccf2cf3eb7e4
+    new: 24b1514794dc7fafb96139e5b7a19bae8fac9c9a
+    log: |
+         293821f3c53eb89d1ee6a92925750164d04826be ALSA: usb-audio: Add iface reset quirk for TASCAM US-16x08
+         301cc0fd11516fcd3d9c0241398939a14715945d Merge branch 'for-next'
+         dbfd3fb74ce4adb7a87da975ba0250b8aa6c571e ALSA: hda/conexant: Add quirk for Acer Aspire Go 16 mic mute LED
+         8d70e364e866bdfca81eee24d0688fac9472cfb9 ALSA: hda: cs35l41: Fix ACPI device reference leak on probe failure
+         24b1514794dc7fafb96139e5b7a19bae8fac9c9a Merge branch 'for-next'
+         
