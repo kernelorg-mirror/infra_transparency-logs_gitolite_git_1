@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5225105312642848461=="
+Content-Type: multipart/mixed; boundary="===============1689529547460597196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 12 Oct 2026 07:26:44 -0000
-Message-Id: <179179000495.291591.16710009719096622801@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 07:27:14 -0000
+Message-Id: <179179003436.291941.15294539060917430306@gitolite.kernel.org>
 
---===============5225105312642848461==
+--===============1689529547460597196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,19 +16,59 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 2fa289ad7557761c8f018a88953ed89071d4967c
-    new: fb30883e3d72b3f20bbd80885b4afd64ed7686f4
-    log: revlist-2fa289ad7557-fb30883e3d72.txt
+    old: fb30883e3d72b3f20bbd80885b4afd64ed7686f4
+    new: 1e0a4fb7a5f6cabedf19fe9bf7bc198cadf2e842
+    log: revlist-fb30883e3d72-1e0a4fb7a5f6.txt
+  - ref: refs/heads/tip/urgent
+    old: 2f149e464062e13636a3b6dece46282978ce6013
+    new: 36c9f3e4e07720009b994854ae5c8732189b3ecc
+    log: revlist-2f149e464062-36c9f3e4e077.txt
+  - ref: refs/tags/v7.3-rc7
+    old: 0000000000000000000000000000000000000000
+    new: ec8bf8280261294a9b9b4520414b42704c7f9f6b
 
---===============5225105312642848461==
+--===============1689529547460597196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2fa289ad7557-fb30883e3d72.txt
+Content-Disposition: attachment; filename=revlist-fb30883e3d72-1e0a4fb7a5f6.txt
 
+36c9f3e4e07720009b994854ae5c8732189b3ecc Merge branch into tip/master: 'x86/mm'
+f5c618d593c6918e3e92049336f645a6e849a48a Merge branch into tip/master: 'perf/merge'
+a2915716032e554837eb410482b08d9e3adbec86 Merge branch into tip/master: 'irq/core'
+90ae2cf93965c2c610c9c82450bd0adab3e0c9fd Merge branch into tip/master: 'irq/drivers'
+792fb71ee325648397d41d91341b2a1c48d40fcb Merge branch into tip/master: 'locking/core'
+478f9e2650291e961e6cf8df3d6b1aec0aec8277 Merge branch into tip/master: 'objtool/core'
+227838dc809720586260f1360b01fa873b999834 Merge branch into tip/master: 'sched/core'
+c326df57c0fac835735178925bec023e6a0ab0d7 Merge branch into tip/master: 'timers/core'
+1996f87063c3b6f4d3a034e3b662839b89ed6100 Merge branch into tip/master: 'timers/nohz'
+5a6c0d60aa8c6af64bb00cc6a8af51404ea9418c Merge branch into tip/master: 'x86/asm'
+942d0bcd0fd70412b7dfced6451a87527932ebcf Merge branch into tip/master: 'x86/boot'
+1db228f691a407e7eb7b78ce57f2a9da69217448 Merge branch into tip/master: 'x86/bugs'
+0b5754c53550d21093dddba11417c0b81d8177d4 Merge branch into tip/master: 'x86/cache'
+5d2a4562de6015dc9c86b49f1ecad2142ac0b5d5 Merge branch into tip/master: 'x86/cleanups'
+17423b042ade5f98a8f2cb1533a316dea4c9b156 Merge branch into tip/master: 'x86/cpu'
+0958e19105050b804e08c8850c64bb720a85d7ce Merge branch into tip/master: 'x86/kdump'
+2ff60ea1fef08dcfb501a6f9b1531f55871ac0b7 Merge branch into tip/master: 'x86/microcode'
+c6fb9aee9809acf90e0d19f8847b018b480b8c61 Merge branch into tip/master: 'x86/misc'
+1bf4c6665232be9eed6a2f41ed037f044befc306 Merge branch into tip/master: 'x86/platform'
+49d05ef3ae664a4ea6758b7ae5abad6e8d957172 Merge branch into tip/master: 'x86/sev'
+bb8d591a52b51c1b21c01ff03629bc49f98a0a55 Merge branch into tip/master: 'x86/sgx'
+1e0a4fb7a5f6cabedf19fe9bf7bc198cadf2e842 Merge branch into tip/master: 'x86/tdx'
+
+--===============1689529547460597196==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2f149e464062-36c9f3e4e077.txt
+
+ebaf7c9bbb1e16523d7036e7e1225ad2dfcc6482 x86/mm/pat: Fix effective RW computation in lookup_address_in_pgd_attr()
+ea6fd393cb9e6811a748c7551de0dd3090f9dcde x86/mm/pat: Use pr_warn() for early W^X warnings
+4f8c177caac8ecdedeb95caa673214fc3f6a75cb x86/mm: Fix void/int conditional in pgd_clear()
 02a3178319639f650428164d4d003de4dc03e326 scsi: ufs: core: Hold a clock reference across the probe
 85de8b3a5eaa23d153aff4c7c83dddbc949064c9 scsi: qedi: Initialize callback state before registration
 2f15518682c779b1014552cb2ccb4a2052f85f27 regulator: tps6594-regulator: Fix n_linear_ranges for TPS65224 BUCK2-4
+d92b5ac5aeba1ffc734576e30a5bca882722de76 x86/mm: Fix spurious warning on __add_pages() failure
 d99bc5b456fd63be46c8bda20dbf6ede93d2fc11 nvmet: return Invalid Field for invalid NSIDs feature 82h
 564e46d9f6e87912effa03f123d37a511d520f09 nvme: fix swapped ZRASF zone state values for full and read only
 b3ce7572130f7bdc71581d798df3fbfc3b64e7a5 nvme-multipath: revalidate head zones after unfreezing the head queue
@@ -86,6 +126,6 @@ d5b6dc381db93ff2d1888f7d99c06e0bd85f4083 Merge tag 'scsi-fixes' of git://git.ker
 f47959816751f02a711aab27cf1c805bd4964819 Merge tag 'spi-fix-v7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 d6d3455d8751854e0d1820f14184682e23ac4475 Merge tag 'landlock-7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 24a19b953e2a3d0ea5a8c4951a0ab8f32720c907 Linux 7.3-rc7
-fb30883e3d72b3f20bbd80885b4afd64ed7686f4 Merge branch 'linus'
+36c9f3e4e07720009b994854ae5c8732189b3ecc Merge branch into tip/master: 'x86/mm'
 
---===============5225105312642848461==--
+--===============1689529547460597196==--
