@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 12 Oct 2026 01:51:29 -0000
-Message-Id: <179176988999.4120615.8935750236733294832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Mon, 12 Oct 2026 02:54:29 -0000
+Message-Id: <179177366984.4161538.4851326926500551920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
 changes:
-  - ref: refs/heads/master
-    old: 8c2299c497ef3b0c80a6d1589bfe8c015f8db966
-    new: 9acb489c0860a6fc649088627ce9c620056a348d
-    log: |
-         a1f1f41573d901de6e0fbd8eaac316aae0b49caa foo
-         f7e54c2ecd90435bbb0ab7bf7795a0851c1aca0a foo
-         9acb489c0860a6fc649088627ce9c620056a348d foo
-         
+  - ref: refs/heads/dev/v7.3-rc2/aria-kcfi/v1
+    old: 0000000000000000000000000000000000000000
+    new: b322f980f5aa4ef7bbecc75fde8f3c5474092b7b
