@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6522701035925732432=="
+Content-Type: multipart/mixed; boundary="===============7931685246184702862=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 12 Oct 2026 04:14:03 -0000
-Message-Id: <179177844367.25642.8504462133981458504@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 04:14:06 -0000
+Message-Id: <179177844640.25866.10169104982700276096@gitolite.kernel.org>
 
---===============6522701035925732432==
+--===============7931685246184702862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO
-    old: b3586d1170bdbefa08497864b23ae8db34ed3f20
-    new: 3036e43b848f851ea9006c8da5825e2ad4244be0
-    log: revlist-b3586d1170bd-3036e43b848f.txt
+  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-i_lock-contention
+    old: 1aba91e3ac51060269e1a318fb3ccd51e5fbcf15
+    new: 7953bbea2e3fbdea5f78ee8a9467087549344a00
+    log: revlist-1aba91e3ac51-7953bbea2e3f.txt
 
---===============6522701035925732432==
+--===============7931685246184702862==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3586d1170bd-3036e43b848f.txt
+Content-Disposition: attachment; filename=revlist-1aba91e3ac51-7953bbea2e3f.txt
 
 02a3178319639f650428164d4d003de4dc03e326 scsi: ufs: core: Hold a clock reference across the probe
 85de8b3a5eaa23d153aff4c7c83dddbc949064c9 scsi: qedi: Initialize callback state before registration
@@ -89,24 +89,6 @@ d6d3455d8751854e0d1820f14184682e23ac4475 Merge tag 'landlock-7.3-rc7' of git://g
 24a19b953e2a3d0ea5a8c4951a0ab8f32720c907 Linux 7.3-rc7
 184b019fcf1294989be629c7658a42d51fe0779f Merge tag 'v7.3-rc7' into kernel-7.3/baseline
 94efc66616c0fa5c45029c25b9edd4b145108765 redhat/marker: v7.3-rc7
-28ab319f173a93acd952252fbbebfddf5b2a65f7 nfsd: fetch direct I/O alignment for files handed to the filecache
-8585c4b305a4f3136e7ac1078508183534b62a50 NFS: Move definition of enum nfs3_stable_how
-f64c93eff933088796c7832ed0d2cd64b3178877 NFSD: Replace nfsd_write()'s "stable" argument with "iocb_flags"
-62bbb1b42541016b755bd172b484093e24947e8c NFSD: Move version-specific ACCESS maps into per-version code
-7b3ed07e10e02c5ceb9426c8f8ef1326c1545bdd nfsd: use direct I/O only for the last operation in a COMPOUND
-1c0968754f4598507a43094fec9a13d53caf6989 SUNRPC: preserve RQ_SECURE across request deferral
-a787c3ae48a3768fbd5f7f902f2923b8f215ffad NFSD: cut a misaligned direct-mode WRITE at page boundaries
-b598f97a1697359a3acd992b3c395b68891a5b4a NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
-63472394b78c1e20072616c35950c2b67e1754a1 NFSD: only split a direct-mode WRITE for a worthwhile direct middle
-4a1552528fa88be905f2dc3c8df524cb0afa904c NFSD: add direct_misaligned_dontcache debugfs knob
-170347722e240253e7ba17ddeab3be4c51a611b8 NFSD: do not use direct I/O for a READ smaller than its alignment
-7149a82181e6548f8e2316989d877ca337db9c7b NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
-1ea4b87fb254165792f749a49ee652f5d4b6f859 mm: add folio_mark_dropbehind() to mark a folio dropbehind and account it
-8241545786cf1e590d2630ce44474706f7fbea3e mm: expose WB_DONTCACHE_DIRTY in bdi debugfs stats
-9f2da2933eb4e80d3ed7896ca06ee9a0ef36a8e6 NFSD: keep boundary page of a split direct-mode WRITE until both writers complete
-caae4d635163ad57e00b03b9c8b2d6ede9391ceb NFSD: add tracing for how direct-mode READ and WRITE are serviced
-0ebee56134376555d82891f1bf57fe89a1b96087 NFSD: Enable return of an updated stable_how to NFS clients
-f796eb6c5440456650635f0526ace88cbbdbfeae NFSD: add io_cache_write modes that persist each direct-mode WRITE
 506713bd244d2b30e916e90346f5f2f8ab2dbd0f nfs: make nfs_page pin-aware
 d60037e25680cf60abc0ba3adb668d09ff4dcf62 nfs: track number of pinned pages in nfs_page
 965d37cdc66d1d0de71350b3597c5842e7989efb nfs: introduce nfs_release_request_list helper
@@ -186,13 +168,5 @@ feb97c1e226a1cf3d0bbdf2f8608e639d1f1dcc2 NFS: check for a delegated atime before
 40cf374a230111fce2d0445157475fd515c1c774 NFS: skip inode->i_lock when a delegated timestamp is already current
 ee921888719fcf4d74474a29a20b5c251b17c00a pNFS/flexfiles: don't take inode->i_lock to release empty commit info
 7953bbea2e3fbdea5f78ee8a9467087549344a00 pNFS/flexfiles: look up the cached layout segment without inode->i_lock
-ace96f50cf8154f6430ecba51f42f920e484ee02 Merge branch 'kernel-7.3/snitzer-nfs-fixes' into kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO base
-4a990460a1365cfd65a802db1b0cf076a0cab0c5 NFS: invalidate LOCALIO direct-write post-op attributes at completion
-bcf0cf15db39049c48f3306131164efedb472f88 nfs_common: share direct I/O write split and boundary-page helpers
-19f157948b472016d212a30dc24a85ad7de3e5f4 NFS/localio: split direct writes using NFSD provided nfs_common code
-fab61d3ae90867fea8ed1764652eb8ab4a5d31aa NFS/localio: persist a synchronous direct write once, after all its segments
-5b43c6fcd7d0e92a2e80eb72cebf735c9bc85013 nfs_common: fix the skip accounting in nfs_dio_iter_aligned()
-3678a7c33fd2e9aa1ffcec447f25b09363099d10 NFS/localio: complete a direct write that shares a page before it returns
-3036e43b848f851ea9006c8da5825e2ad4244be0 Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO' into kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO
 
---===============6522701035925732432==--
+--===============7931685246184702862==--
