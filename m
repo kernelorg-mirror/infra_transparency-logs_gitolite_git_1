@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7891583199210599059=="
+Content-Type: multipart/mixed; boundary="===============3120973183768533731=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 12 Oct 2026 03:13:21 -0000
-Message-Id: <179177480142.4176087.11728085216983541872@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 03:14:32 -0000
+Message-Id: <179177487281.4176566.8912203799333281667@gitolite.kernel.org>
 
---===============7891583199210599059==
+--===============3120973183768533731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: b64d21116374688c33302a6704387c27d1156d72
-    new: eafb6de800781f0a1be5cdd98d150620041d8b27
-    log: revlist-b64d21116374-eafb6de80078.txt
+  - ref: refs/heads/nfsd-testing
+    old: f27ad2d5441154f0178599c8ab2b1166acc543b2
+    new: d918c664efd5ec6a7309e98f567fb018bcde0e11
+    log: revlist-f27ad2d54411-d918c664efd5.txt
 
---===============7891583199210599059==
+--===============3120973183768533731==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b64d21116374-eafb6de80078.txt
+Content-Disposition: attachment; filename=revlist-f27ad2d54411-d918c664efd5.txt
 
 cfcfe0b38a66bbc4122c78a2b75e1b97b3534761 nfsd: propagate SETXATTR value decode errors
 b01319947c69b0e3ea0fcd4b675eb892f9cad8a0 NFSD: copy SETXATTR data from all XDR buffer segments
@@ -67,5 +67,69 @@ fdb474ac9609765394532b836a5cf04458233c8e NFSD: Use xdrgen XDR functions for NFSv
 f08cfa10c4c26daa1fb60dcdf9812a59c3f5f0e5 NFSD: Use xdrgen XDR functions for NFSv2 READDIR results
 8ca3b74c0c447af17d0e27e76658a3d4cae3c5ba nfsd: Fix id-to-name cache entry leak in idtoname_parse()
 eafb6de800781f0a1be5cdd98d150620041d8b27 SUNRPC: use assign_bit() where applicable
+333e152fdf197c5b91b2eb882800def196ce1258 NFSD: Make the DRC size limit independent of page size
+3ea7ea62ad4a7d0cae6b21c32bf7541a5161484d NFSD: Remove hard cap on duplicate reply cache size
+efec55256395d02b6da1a2b96ce0ee2cf20668bc SUNRPC: Assign a unique identifier to each svc_xprt
+deb0ca494607578e94ac69b63b0e5e2dad98f0b0 NFSD: Track transport in DRC entries
+868d6abdaec26ad3fb84856eb7005c6c0892aba6 NFSD: Prepare bucket pruning for additional eviction reasons
+de27ce107dafbffb5af9fcd7d75bb1e6373364f0 NFSD: Add tracepoints for DRC entry eviction
+582d1474de9f5723c5943c5ee2fb7a38a90fcccd NFSD: Record DRC population in lookup tracepoints
+27e6eccc664f78efcaf0c042fd534249ac767b5c SUNRPC: Publish reply positions for upper-layer consumers
+dc2635c2132211e0fb27a50c1dc0b04b9e5966fd SUNRPC: Publish TCP reply positions
+8d5586f0e8a4edc024ecf9715cd3b9b36f5d7393 svcrdma: Publish RDMA reply positions
+addd0dadda7a2a6016009b56f39174a3e45e096f NFSD: Evict acknowledged DRC entries
+2389b65ee7501cc843620ec7ddc0fa9e75b1b1f4 NFSD: Remove DRC checksum and payload_misses stat
+9327e369a44e15d077bf42ad82bd19a056f3aee1 SUNRPC: fire svc_xprt_free tracepoint before dropping the netns
+ff721bbda912d9905a0c6dac6d97118f8f88c4ec SUNRPC: fire svc_defer_queue tracepoint before publishing the request
+d46ab1b108530e64f3ca6fbd1c8aec049cbe61c4 svcrdma: fix a page leak in backchannel sends
+79fd675d128b349fc3e0bdd1a8fd1fa8cf37b7bc svcrdma: release a send context stranded by a partial post
+fdd77bfedaad7da8aa522daa2ea9432bb3c2189d svcrdma: release a receive context stranded by a partial Read post
+bf728c17da9ed4da48dfce3160ee194510e226a5 NFSD: Don't start nfsd threads from a pool_threads write
+0691f128eacc17f6ed4ad5828e24eec74074824e nfsd: clear NFSD_NET_UP before dropping the generic resource reference
+d420ae4b5a8be323721adf7d78c502b7fd516ee2 nfsd: make max_blksize a per-namespace setting
+373fa2cc776b99506b5dbc6278a0590754983133 nfsd: move the control plane to a per-namespace mutex
+7b38454e4a489c000f4bac9227821b379b9bde4c nfsd: rename nfsd_mutex to nfsd_global_mutex
+065a53614d363db2f289bbc67128416216013583 nfsd: give the open file cache its own mutex
+16a52e7aaea1c8db49e322620c124cdbdc41ca8e selftests/nfsd: factor the netlink plumbing into a shared header
+20bf29d6b6c380f86038e4123591d161d4e408cb selftests/nfsd: add cross-namespace isolation tests
+192731fc60ed5c5dae229a762d9acf0f037901d6 selftests/nfsd: add a cross-namespace control-plane soak
+e1e833f78ab7d3b2a4b0a56e8f4f142ddc8250e0 SUNRPC: in svcauth_gss_wrap_integ() resync rq_next_page after the GSS wrap
+a768c7fdd9a484416bba9f5c44ce4b2ce5237250 NFSD: read max_blksize under nfsd_mutex in write_maxblksize()
+41f2b729382f17455cc31adac0263f089b7b1ea0 lockd: allow SERVER_SET without a gracetime attribute
+226f4b4e66a9bd0d199f7f1544e6087f95eada75 selftests/nfsd: add lockd netlink configuration tests
+08f14c4fe8cf6cc58b730262bbbc8e0601562d41 nfsd: remove the nfsdcltrack usermodehelper tracking backend
+39a298ecca7a4c0a16192b22960cbf693d2bf5c3 nfsd: remove CONFIG_NFSD_LEGACY_CLIENT_TRACKING
+0b8342d7170589faa5f51d689844ca5eb4044d96 nfs_common: Do not encode an ACL with fewer than three entries
+67127c073631242660d77a443feab93b664535c4 nfs_common: Do not stream-encode an ACL with fewer than three entries
+475b39ea44c1b758a9034fb1584bd5aa09b92c5b sunrpc: reject AUTH_TLS on backchannel to prevent NULL-deref in svcauth_tls_accept
+b15a07adee12faf2e3de293009431bd248a8bcdb SUNRPC: offer RPC-with-TLS only on services that implement it
+d9dfe57dc3d12abd00d99088593245ef7cf5ae29 nfsd: Fix out-of-bounds read in clientstr_hashval()
+bfe48bef138a5c545be00cd933638749ca9e8b03 nfsd: hold client reference while reaping async copies
+44aeff86347642d1a855cc04d4bb333e9b0db968 nfsd: avoid dereferencing callback connection after unlocking
+1a636b3a900864fb794b7cc892a2240a5c21ebd5 nfsd: drain pNFS fence work during state teardown
+b28541a58669302ce8fa758663c501090ebff771 nfsd: fix READ payload landing one page ahead of the XDR accounting
+811956a4f00a41a9daa990a33e79cbfaaa180c40 nfsd: pin OPEN stateid referenced by LOCK stateid
+ec67eba25e77f6070e7dbf69b8ddb78857a6e0fa nfs/localio: hold auth domain while opening a local filehandle
+df004101fb88d9f0831437fdb6b71e276c6128db nfsd: bounds-check opnum before testing spo_must_allow
+ef641d7b51c2531eee53f0ccae494a71bfb3420b nfsd: update existing connection flags under client lock
+cc67eec2f9151dc8e0162ba15015d56c5985f843 SUNRPC: preserve RQ_SECURE across request deferral
+486641d8033c086cf20faefd81d0338bdfe1894f nfsd: use direct I/O only for the last operation in a COMPOUND
+107f253f2712ea79a2d85f51e6c20cc0f9d7bae1 nfsd: account for page_base when advancing rq_next_page
+12d46e3c5cbb3ef565d1919576d4d647a243afcc nfsd: locate the READ sink page from the reply buffer
+926b6bc6fe9b73d3cddf543df5b2c168026dfded nfsd: keep spliced pages below rq_next_page when a READ fails
+1a314f2213d05ceb727d972fbdcca29bcc0b70ba nfsd: remove unreachable cancel of the layout fence work
+1fef141ebdebe9af9c3ea4574dd9d91d6b544db4 sunrpc: preserve rq_daddrlen across request deferral
+7574d6d7210ec5e5b4fc55ece462f3e8b4d9d64f sunrpc: assign RQ_LOCAL from the transport on every receive
+664cc8f6143593d165549a837098275be4ed9b6c SUNRPC: wake a thread after re-queueing transports in svc_clean_up_xprts()
+ed875cb1ff7def64ab2040c2daf2d1e0b4213ebd lockd: make the nlm_file reference count atomic
+ec58d8e30820af983c105a0ec7d40880e6e56e38 NFSD: Release the replay owner when an OPEN replay fails
+d660ed70e05cf4e8a3948228016e21ec75751945 NFSD: Save the stateowner reply when a seqid-mutating operation fails
+9bb0e79920d4ea5757a426bda3ecb04ab3e6c6f6 nfsd: do not return overlapping extents in a block layout
+8484db3dbaf637fa9e2e258150d7b72e84ac7f9b SUNRPC: reset the svc decode stream after unwrapping a privacy request
+04a8f951be33b3cb12627c4e03e5843631051820 NFSD: Report WND4_CANCELLED for an OPEN with WANT_CANCEL
+11aaa97a7ecae3c748a9ea69221406ec57ce54fb NFSD: Report the correct value in an OPEN response's ond_why field
+f38901d9caa7f9a6ffaf3e3ac3285dd5e09de688 NFSD: Report WND4_CONTENTION for a recently recalled file
+95fc0d8f175d0a1d7a77b7bca1479677f0372c3b NFSD: Report unsupported delegation upgrade and downgrade
+d918c664efd5ec6a7309e98f567fb018bcde0e11 NFSD: Honor OPEN4_SHARE_ACCESS_WANT_READ_DELEG on a read-write OPEN
 
---===============7891583199210599059==--
+--===============3120973183768533731==--
