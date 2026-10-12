@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6890051570718103466=="
+Content-Type: multipart/mixed; boundary="===============6136649030055318697=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 12 Oct 2026 12:14:34 -0000
-Message-Id: <179180727464.511659.16682617785577973859@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 12:14:42 -0000
+Message-Id: <179180728225.511855.12599936924852511312@gitolite.kernel.org>
 
---===============6890051570718103466==
+--===============6136649030055318697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 50dba3e474f7c3932cba85ebd9a7188e7b8dd6d4
-    new: beaba65d5704418b6fa03c96a389bc2c2b6702b8
-    log: revlist-50dba3e474f7-beaba65d5704.txt
+  - ref: refs/heads/mm-unstable
+    old: 02e1e7a87a2dfc68a85cd1204607bb86460ffeed
+    new: 4a28cc6bc038b2b357d448c472a949d9bb2c404f
+    log: revlist-02e1e7a87a2d-4a28cc6bc038.txt
 
---===============6890051570718103466==
+--===============6136649030055318697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-50dba3e474f7-beaba65d5704.txt
+Content-Disposition: attachment; filename=revlist-02e1e7a87a2d-4a28cc6bc038.txt
 
 bded036c47696d7de38520cfbba8531d44671918 mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
 bec05593ec8087ebd00a64120afc4df2867db512 mm/vmalloc: use dedicated unbound workqueues for vmap drain
@@ -322,24 +322,5 @@ e1fe00c49e019e71b02fd6785e5b2aefed50e1d6 arm64/mm: fix destructor for unconstruc
 cc65e13b7a6f104b3f268bd9cd322cb3d5901aae mm/hugetlb: prefix log messages via pr_fmt
 12d72f8dc293e7b02c0563a83dbe9821205bbe0d mm/madvise: add cond_resched() in THP branch of madvise_cold_or_pageout_pte_range()
 4a28cc6bc038b2b357d448c472a949d9bb2c404f mm/rmap: don't discard lazyfree THPs at PMD level
-eae90912262bfbf8067af4c344be7585c1059157 selftests/mm: check MREMAP_DONTUNMAP mlock accounting
-212dfa1f6549428e5b8fdf851cd9531bc04f8b72 mm: zswap: use separate compression and decompression requests
-fac0316771377c5c0ba0bb16eda0e65b82ffd82d mm: zswap: use stack requests for synchronous decompression
-cd04b7fcffd86084b7c41e58dad7ae1de4de959e mm/hugetlb: move hugetlb_sysfs_initialized into hugetlb_register_all_nodes()
-e4fb434b3b6de1ad21225b49dbf4682a1f13bf60 mm: shmem: assign a lock class to the unused huge shrinklist
-7542b44a6134d8200f44bc675ab3e586d0f9b9a2 selftests/mm: fix uffd move-pmd test crash on 64K base page systems
-a1bfd287d706d0e8ec0b1efe34de5dd60f67ca04 fs/proc/task_mmu: fix lost maps entries above 2^63
-94746e8f046f541c3223857a7760f3848824e502 riscv: mm: fix concurrency in mark_new_valid_map()
-b98ba165c40bc175700a56d05bb1f50db8efbe9b riscv: mm: exclude invalid THP PMDs from page table check
-8da00952b1b983d60822830016253c82cbf6f459 sh: remove CONFIG_NUMA and related configuration options
-5aa55c09f0758469c61e2238c317eb2fcda63719 sh: mm: remove numa.c
-433e3fea90714758dbfb45a9f4c2bda5ce30ec02 sh: mm: drop allocate_pgdat()
-65cbfc85b6cdde13fb68b648f7a17c07fcf2d18a sh: remove setup_bootmem_node() and plat_mem_setup()
-0b94522d55cdcf797cbec0e00aaa72b2e0ea6c72 sh: drop dead code guarded by #ifdef CONFIG_NUMA
-68bbb5d61dd6766e351033335651deab05f702c5 sh: drop include/asm/mmzone.h
-f9be961eae8fc32258f5aa61f4a00198aef4752e init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-e4859e40da1416055de281eb85ee3096b2880dc6 sh: init: remove call the memblock_set_node()
-dd00bd11822c06fbe3b89b2f4c5840b4f46dfe80 sh: remove SPARSEMEM related entries from Kconfig
-beaba65d5704418b6fa03c96a389bc2c2b6702b8 sh: drop include/asm/sparsemem.h
 
---===============6890051570718103466==--
+--===============6136649030055318697==--
