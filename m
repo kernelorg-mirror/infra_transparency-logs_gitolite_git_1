@@ -1,46 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3390060391204733485=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 12 Oct 2026 12:41:59 -0000
-Message-Id: <179180891957.535553.1737940371290415607@gitolite.kernel.org>
-
---===============3390060391204733485==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 12 Oct 2026 12:49:05 -0000
+Message-Id: <179180934576.539702.8320545230777271736@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
-git_push_cert_status: E
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/work.namei.reval
-    old: 159baf029b6aaa4ffdd0d8efafea3d0b008db6f3
-    new: 77a30dfe72b1977ed5608e6bdd1b55a8ee2cb511
+  - ref: refs/heads/master
+    old: 085a8a32bb2235a6c7ae51a9202601dd79eb6111
+    new: fc9a6819d9e00903aec87c0f660debe81400780d
     log: |
-         77a30dfe72b1977ed5608e6bdd1b55a8ee2cb511 namei: don't follow a symlink that lost its mounts
+         7cba8299ee8e9d4eb2a267b3c4361b533e936983 lib/strutils: add ul_path_is_within()
+         891dfd9f089d3bcb8c8e2631d077953165b9249f umount: honor --graceful for --recursive and --all-targets
+         b3b8a8c4a20e92dbd7109fa68e2af01666726836 umount: support --recursive on a non-mountpoint directory
+         b049c1999707d610b3be68657335071d4e91d246 more: fix long option names in man page
+         3cd490bcdae4ebfb19850c5de54bc21d9202ed2a more: don't duplicate the first file's banner above piped stdin
+         93a473054898d7fad78fa202d3118e328a797dae Merge branch 'umount/recursive-nonmountpoint' of https://github.com/nzec/util-linux
+         2e6689c71be0a5f5d589251ce87d84e43986fcf3 Merge branch 'more/man-option-names' of https://github.com/nzec/util-linux
+         fc9a6819d9e00903aec87c0f660debe81400780d Merge branch 'more/stdin-banner' of https://github.com/nzec/util-linux
          
-
---===============3390060391204733485==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 0x91C61BC06578DCA2! 1791808918 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-nonce 1791808918-e568306ed10ae37e057f0d6afd33b63e59c75d9f
-
-159baf029b6aaa4ffdd0d8efafea3d0b008db6f3 77a30dfe72b1977ed5608e6bdd1b55a8ee2cb511 refs/heads/work.namei.reval
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCaszVlgAKCRCRxhvAZXjc
-ovlEAQDBr39wG1b4eKeN4Wyyjv7slPlnM8BRkkXTr01YtUis/wD9Ekg3i6WDDY4F
-OqlaIQV8icUhLjOSI5YyWE/m4rn60w4=
-=hYAO
------END PGP SIGNATURE-----
-
---===============3390060391204733485==--
