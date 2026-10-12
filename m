@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Mon, 12 Oct 2026 05:39:24 -0000
-Message-Id: <179178356480.209227.2549154338409499292@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 12 Oct 2026 05:41:47 -0000
+Message-Id: <179178370766.212247.12258475230027140951@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ojeda/linux
-user: ojeda
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/rust-next
-    old: a12f22b2c9398541d75d86d18be0a9ec92909fe0
-    new: daff0977b2e36c777a00b4ca9fabc019834e60aa
+  - ref: refs/heads/master
+    old: 9acb489c0860a6fc649088627ce9c620056a348d
+    new: d3930d011ed0fd5ea615df586a8d2a47c738bc1d
     log: |
-         cad3f4daef8a8793a953c632c2fcb0a6560da46a rust: time: make Delta::ZERO generic over the time unit
-         daff0977b2e36c777a00b4ca9fabc019834e60aa rust: time: add Delta::as_jiffies_unsigned()
+         d3930d011ed0fd5ea615df586a8d2a47c738bc1d foo
          
