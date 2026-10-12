@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3366851565898047959=="
+Content-Type: multipart/mixed; boundary="===============2272677464102154820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 12 Oct 2026 22:17:35 -0000
-Message-Id: <179184345510.992669.7504127433992013405@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 22:17:39 -0000
+Message-Id: <179184345913.992943.1435633820354923515@gitolite.kernel.org>
 
---===============3366851565898047959==
+--===============2272677464102154820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-fixes
-    old: ae8364085574203e7f4ea961921a1c7493bcb6de
-    new: aaabefc79b0ff0018e8e3832169bbe359d0551fc
-    log: revlist-ae8364085574-aaabefc79b0f.txt
+  - ref: refs/heads/i2c/i2c-next
+    old: 99a6264ead82de863887c8efe42e637ec61eac44
+    new: 7631b68e40e484600e7bfe1de39010c055354643
+    log: revlist-99a6264ead82-7631b68e40e4.txt
 
---===============3366851565898047959==
+--===============2272677464102154820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae8364085574-aaabefc79b0f.txt
+Content-Disposition: attachment; filename=revlist-99a6264ead82-7631b68e40e4.txt
 
 93847823b6761e1791a7db10f55bbd4f79fa0dbc tee: qcomtee: fix kernel-doc warnings
 35ce3c571297aee13c6da604d022929fd1aa9efb arm64: dts: qcom: x1-denali: Fix microphone distortion
@@ -473,5 +473,6 @@ f47959816751f02a711aab27cf1c805bd4964819 Merge tag 'spi-fix-v7.3-rc6' of git://g
 d6d3455d8751854e0d1820f14184682e23ac4475 Merge tag 'landlock-7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 24a19b953e2a3d0ea5a8c4951a0ab8f32720c907 Linux 7.3-rc7
 aaabefc79b0ff0018e8e3832169bbe359d0551fc i2c: viai2c-wmt: Fix clock leak in wmt_i2c_probe()
+7631b68e40e484600e7bfe1de39010c055354643 Merge branch 'i2c/i2c-fixes' into i2c/i2c-next
 
---===============3366851565898047959==--
+--===============2272677464102154820==--
