@@ -1,20 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Mon, 12 Oct 2026 07:32:22 -0000
-Message-Id: <179179034225.296243.12441823891668678668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 12 Oct 2026 07:42:46 -0000
+Message-Id: <179179096678.304002.8225033523813954854@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/livepatching/livepatching
-user: pmladek
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
   - ref: refs/heads/for-next
-    old: d323f4a24262dc3ba292cec9f2150316ddad3eda
-    new: f663062d717eac2c01f77eaf321fa630528e672d
+    old: f21d232b2ba3997c1fd33cbe37ff47f72d2a9f2a
+    new: f0e9db0f84249b65a72b5fba43e91212281ad378
     log: |
-         9f0deab7285811d13b61bb441653de9e5ce0a1d0 livepatch: Add Joe and Song as maintainers
-         f663062d717eac2c01f77eaf321fa630528e672d Merge branch 'for-7.4/trivial' into for-next
+         f9e882ac8257bc55a8c99399e504e434d9e72eb9 ALSA: timer: Pin the module for userspace timer controllers
+         f0e9db0f84249b65a72b5fba43e91212281ad378 ALSA: virtio: reset I/O message fill level on prepare
+         
+  - ref: refs/heads/master
+    old: fabadc51737e7e36b165399957afe9ef39b22424
+    new: a8043871d0748de357d9577ed1f911f6c58fdbe9
+    log: |
+         f9e882ac8257bc55a8c99399e504e434d9e72eb9 ALSA: timer: Pin the module for userspace timer controllers
+         f0e9db0f84249b65a72b5fba43e91212281ad378 ALSA: virtio: reset I/O message fill level on prepare
+         a8043871d0748de357d9577ed1f911f6c58fdbe9 Merge branch 'for-next'
          
