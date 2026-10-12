@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5534577266771155194=="
+Content-Type: multipart/mixed; boundary="===============3824474635936127764=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 12 Oct 2026 04:14:15 -0000
-Message-Id: <179177845549.26385.5315643629819453770@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 04:14:18 -0000
+Message-Id: <179177845848.26552.11872900236708985944@gitolite.kernel.org>
 
---===============5534577266771155194==
+--===============3824474635936127764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-testing-canary-nfs4_acl-passthru
-    old: 7d76cdd3b2b5bc3709be20d8b0ca75a38c2e6187
-    new: e828e8c29fb7fbcaa48cd8270e7d15622be81b43
-    log: revlist-7d76cdd3b2b5-e828e8c29fb7.txt
+  - ref: refs/heads/kernel-7.3/changelog
+    old: 91a1481fa6d0a702c106e8cf064a59988ddaa536
+    new: b3c3354c580528a41869ab82dccd8a47c627babc
+    log: revlist-91a1481fa6d0-b3c3354c5805.txt
 
---===============5534577266771155194==
+--===============3824474635936127764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d76cdd3b2b5-e828e8c29fb7.txt
+Content-Disposition: attachment; filename=revlist-91a1481fa6d0-b3c3354c5805.txt
 
 02a3178319639f650428164d4d003de4dc03e326 scsi: ufs: core: Hold a clock reference across the probe
 85de8b3a5eaa23d153aff4c7c83dddbc949064c9 scsi: qedi: Initialize callback state before registration
@@ -89,16 +89,13 @@ d6d3455d8751854e0d1820f14184682e23ac4475 Merge tag 'landlock-7.3-rc7' of git://g
 24a19b953e2a3d0ea5a8c4951a0ab8f32720c907 Linux 7.3-rc7
 184b019fcf1294989be629c7658a42d51fe0779f Merge tag 'v7.3-rc7' into kernel-7.3/baseline
 94efc66616c0fa5c45029c25b9edd4b145108765 redhat/marker: v7.3-rc7
-ccc93bf348e6cff0e53fa5f7444ce572eedf1dfd exportfs: add ability to advertise NFSv4 ACL passthru support
-1da4a156662dd5b822be52feefce18feb5136156 NFSD: factor out nfsd_supports_nfs4_acl() to nfsd/acl.h
-dd22b838d89ddebc06195249922a16574a3e8e38 NFS/NFSD: data structure enablement for nfs4_acl passthru support
-8892cd2477fb862b98de89c5755937574e4813bd NFSD: prepare to support SETACL nfs4_acl passthru
-f7ef1edb1f5325232600bc1373efd19dbeb16cc1 NFSD: add NFS4 reexport support for SETACL nfs4_acl passthru
-0ae64610d5601abc9edcc0f1377f0de70bf7d848 NFSD: add NFS4 reexport support for GETACL nfs4_acl passthru
-fce62d36dc27af481487db564b2dc04a26821c3f NFSD: add NFS4ACL_DACL and NFS4ACL_SACL passthru support
-aa60021a834a3bb84a1f8d496dea484b5f8a3287 NFSD: avoid extra nfs4_acl passthru work unless needed
-5b2352a09344c7ff9177a61c41d0a0d4f1d150a2 NFSv4: add reexport support for SETACL nfs4_acl passthru
-739820a220b240eece57ba1c336d9bd1d6e504b5 NFSv4: add reexport support for GETACL nfs4_acl passthru
-e828e8c29fb7fbcaa48cd8270e7d15622be81b43 NFSv4: set EXPORT_OP_NFSV4_ACL_PASSTHRU flag
+228faf108055b2f4608a98139940fe455aeebedb backfill redhat/kernel.changelog-9.99 updates from previous kernels
+06816793f36216bf8149fdac366402fb80879767 backfill changelog updates from previous 7.0.10 kernels
+e171329affce1bca705b74d2d5687ab33ddfabd5 backfill changelog updates from previous 7.1.5 kernels
+b4aa807bc7a57714779f279602107d5b6cb1244f backfill changelog updates from previous 7.1.8 kernels
+437d374c17b64f41a5ecb2cf1ef52725baddc4f6 redhat: move .gitlab-ci.yml to redhat/upstream-ci.yml.disabled
+d6d6d62df8beb2de13b1c6a80565676304e073d6 backfill changelog updates from previous 7.1.13 kernels
+b076f83137faad9b409d54a75508104e12553fe1 kernel-7.3-1
+b3c3354c580528a41869ab82dccd8a47c627babc kernel-7.3-2
 
---===============5534577266771155194==--
+--===============3824474635936127764==--
