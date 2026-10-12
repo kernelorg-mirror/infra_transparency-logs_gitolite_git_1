@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 12 Oct 2026 14:00:32 -0000
-Message-Id: <179181363233.594062.9367905951493415399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Mon, 12 Oct 2026 14:01:09 -0000
+Message-Id: <179181366991.594497.3973134597298272302@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/clk/linux
+user: jbrunet
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: a0ab2bb269e7fd8523f87950b91a42a36c7f8f2a
-    new: 023b4b6ea490b3eebba34df7d151374e5c5c6851
+  - ref: refs/heads/clk-pile
+    old: 8ebee4049bb55abce37a7a0ff8ad44f4c354da49
+    new: 57e9b2c1105645bbaba28cefb9765b5024055f2d
     log: |
-         023b4b6ea490b3eebba34df7d151374e5c5c6851 RDMA/irdma: Check MR contiguity before PBLE alloc
+         57e9b2c1105645bbaba28cefb9765b5024055f2d clk: stm32: fix clock array size for STM32MP21
          
