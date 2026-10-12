@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4259806095776186518=="
+Content-Type: multipart/mixed; boundary="===============1844213456453483599=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 12 Oct 2026 08:17:52 -0000
-Message-Id: <179179307268.330663.6172955960793588746@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 08:17:56 -0000
+Message-Id: <179179307691.330861.15830682334239848177@gitolite.kernel.org>
 
---===============4259806095776186518==
+--===============1844213456453483599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 1981a7f307cc5451455eb7629477231f9332d72d
-    new: c97e04597297e7483fde771c23d3cdb9c9e22f44
-    log: revlist-1981a7f307cc-c97e04597297.txt
+  - ref: refs/heads/m68k-queue
+    old: 313e4f2b82e2acf142f5c041713df192929957c0
+    new: f091f17d59bdf58ec4f9165bfa3c255eda9adb39
+    log: revlist-313e4f2b82e2-f091f17d59bd.txt
 
---===============4259806095776186518==
+--===============1844213456453483599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1981a7f307cc-c97e04597297.txt
+Content-Disposition: attachment; filename=revlist-313e4f2b82e2-f091f17d59bd.txt
 
 93847823b6761e1791a7db10f55bbd4f79fa0dbc tee: qcomtee: fix kernel-doc warnings
 35ce3c571297aee13c6da604d022929fd1aa9efb arm64: dts: qcom: x1-denali: Fix microphone distortion
@@ -473,6 +473,14 @@ d5b6dc381db93ff2d1888f7d99c06e0bd85f4083 Merge tag 'scsi-fixes' of git://git.ker
 f47959816751f02a711aab27cf1c805bd4964819 Merge tag 'spi-fix-v7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 d6d3455d8751854e0d1820f14184682e23ac4475 Merge tag 'landlock-7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 24a19b953e2a3d0ea5a8c4951a0ab8f32720c907 Linux 7.3-rc7
-c97e04597297e7483fde771c23d3cdb9c9e22f44 Merge tag 'v7.3-rc7'
+2194a42eeb76bd689da1f53a37e830e236f38165 m68k: Use generic BASE_BAUD in asm/serial.h
+69eb319060915b9c6328a0931b624454e0d43da3 m68k: Add include guard to asm/serial.h
+01009b1587e239d560343bbfa30a254efac0c245 m68k: Add support for SVEthLANa
+2129150142ce8d938fe00b3b841de9f41a4f14bc m68k: defconfig: Enable PATA_CSWARP
+a23f0f24bd576dc5519fdbcf86626c728e11b435 m68k: apollo: Fix interrupt setup
+e78bc4da3c7520d15f2a2e20539375d314463c44 zorro: Use assign_bit() where applicable
+b6cc880d381022eb98f7b31df4bf49f987d8d7c2 m68k: atari: usb: Add ISP1160 USB host controller support
+1320a5608759bf185e51db9a9288e6b57e80186c m68k: atari: Update Kconfig.bus help text
+f091f17d59bdf58ec4f9165bfa3c255eda9adb39 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4259806095776186518==--
+--===============1844213456453483599==--
