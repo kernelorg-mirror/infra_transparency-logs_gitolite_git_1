@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8556920374468762163=="
+Content-Type: multipart/mixed; boundary="===============6712054593711364756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 12 Oct 2026 04:13:45 -0000
-Message-Id: <179177842522.24599.8816457922604861668@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 04:13:48 -0000
+Message-Id: <179177842820.24823.8430991786624526551@gitolite.kernel.org>
 
---===============8556920374468762163==
+--===============6712054593711364756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/anna-nfs-next
-    old: 0561406a04313c1bbef2882921680a44c61c7743
-    new: 96b6fea50afbf82ce1d1a6abc1fd3d17ebfda29a
-    log: revlist-0561406a0431-96b6fea50afb.txt
+  - ref: refs/heads/kernel-7.3/snitzer-nfs-fixes
+    old: f7b9d0b7b42e5993c2e103be916d2e3083635fa1
+    new: f7797c024ef84e0aff1fbd694202ede49f5b7fe1
+    log: revlist-f7b9d0b7b42e-f7797c024ef8.txt
 
---===============8556920374468762163==
+--===============6712054593711364756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0561406a0431-96b6fea50afb.txt
+Content-Disposition: attachment; filename=revlist-f7b9d0b7b42e-f7797c024ef8.txt
 
 02a3178319639f650428164d4d003de4dc03e326 scsi: ufs: core: Hold a clock reference across the probe
 85de8b3a5eaa23d153aff4c7c83dddbc949064c9 scsi: qedi: Initialize callback state before registration
@@ -140,5 +140,11 @@ fd0c4b28f6abf7c8b8dda0aabbd7582f49ac28ea NFS/localio: report the stability a DIO
 9dd610acaea9ceac690b98ff8deab2891300d5d6 pNFS/flexfiles: don't read through MDS when previous layout forbid it
 ac4e34d3e6604edd747128e654c8c61490389c80 pNFS/flexfiles: don't reset to MDS for v4 error when previous layout forbid it
 96b6fea50afbf82ce1d1a6abc1fd3d17ebfda29a NFS: return DENIED in decode_lock_denied if we cannot decode owner
+52d9c92a6bb920de9a56b569ea9cd71e0032f6e0 NFSv4/pnfs: Give the data server cache its own reference
+48843be6673bd68f8b5dd4114661c13b7e649f47 NFSv4/pnfs: Let unused data server connections linger
+f48291871d8c76003a7619d4308ca8c4d30d6942 NFS: don't release the open context of a failed write from writeback
+caf77b5006c248bf5cdac8ac5eb3e9633be977f0 NFS: don't run the release of a WRITE or COMMIT in the submitter
+f801d418634dab98331cef68a49f0fc0b6007528 NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
+f7797c024ef84e0aff1fbd694202ede49f5b7fe1 workqueue: Fix NULL current_pwq deref in mem-reclaim helper
 
---===============8556920374468762163==--
+--===============6712054593711364756==--
