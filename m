@@ -1,26 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
-Date: Mon, 12 Oct 2026 09:50:32 -0000
-Message-Id: <179179863219.401152.14444628246544259475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Mon, 12 Oct 2026 09:51:34 -0000
+Message-Id: <179179869431.402083.11516299936264590249@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/liveupdate/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/next
-    old: 80cf37169daef112b6bea9ae7d9808355a045475
-    new: 947b44098d0e13ffc983100c860fbcbc5cb518e5
+  - ref: refs/heads/devel
+    old: 2430546e8d00b1a00fa85f71b666777bc9e3db27
+    new: 4f0dbdbdb3ad122e8bbfb1d722fd584bac7124db
     log: |
-         22626c347d250797fa76616feeb55ba9f6c0192c memblock: get rid of CONFIG_MEMBLOCK_KHO_SCRATCH
-         48edec475144a9acb9515d37475bda4752912727 memblock: rename KHO_SCRATCH to KHO_NOPRSRV
-         8ebd2eb87f50b7bdd5a87929da320514ca91726f kho: rename KHO scratch to KHO bootmem
-         10823ced2f18bd6779959744fb13e5974ca75a6a kho: rename kho_scratch= commandline parameter to kho_bootmem=
-         d5d21fffbff6d18fd9e746e31d8e5cdaff0f0b9d Merge patch series "kho: rename "scratch" to "bootmem""
-         00661eb63a6fc3e5b8be1ea17a53743b57ed7294 Merge branch 'liveupdate-7.4' into next
-         4160097bb9bead78c9193c851ff7ccda1cbf6386 Merge branch 'luo-internal-api' into next-troll
-         947b44098d0e13ffc983100c860fbcbc5cb518e5 Merge branch 'lu-pci-preservation' into next-troll
+         4f0dbdbdb3ad122e8bbfb1d722fd584bac7124db dt-bindings: pinctrl: brcm,nsp-gpio: Convert to DT schema
+         
+  - ref: refs/heads/fixes
+    old: 85b3a4d5032df9140867253dfc7611a30be7fdc6
+    new: c5895eadf287116434b7b01d67b92e8146f7ff61
+    log: |
+         c5895eadf287116434b7b01d67b92e8146f7ff61 pinctrl: sunxi: dt: do not accumulate npins across probe attempts
+         
+  - ref: refs/heads/for-next
+    old: e4a19465ea9be9bc01c49a9307272c9d40cb93e7
+    new: bdacd2542f3c1b2b411fa86ee1f39de19cce6562
+    log: |
+         4f0dbdbdb3ad122e8bbfb1d722fd584bac7124db dt-bindings: pinctrl: brcm,nsp-gpio: Convert to DT schema
+         c5895eadf287116434b7b01d67b92e8146f7ff61 pinctrl: sunxi: dt: do not accumulate npins across probe attempts
+         bdacd2542f3c1b2b411fa86ee1f39de19cce6562 Merge branch 'devel' into for-next
          
