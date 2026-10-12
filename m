@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6691192862394794662=="
+Content-Type: multipart/mixed; boundary="===============7871856512901175728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 12 Oct 2026 04:13:57 -0000
-Message-Id: <179177843737.25289.14846097252772665917@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 04:14:00 -0000
+Message-Id: <179177844043.25405.2316830547564674789@gitolite.kernel.org>
 
---===============6691192862394794662==
+--===============7871856512901175728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO
-    old: 84bc9545a202d6290309f4e0833cb36af9961a04
-    new: 3678a7c33fd2e9aa1ffcec447f25b09363099d10
-    log: revlist-84bc9545a202-3678a7c33fd2.txt
+  - ref: refs/heads/kernel-7.3/nfs-testing-canary
+    old: be53b37f9083e7637d24ba8d3b84b3ec56e613f2
+    new: b5705b0e853c0ab8f89041e9ea879f39f1937c01
+    log: revlist-be53b37f9083-b5705b0e853c.txt
 
---===============6691192862394794662==
+--===============7871856512901175728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84bc9545a202-3678a7c33fd2.txt
+Content-Disposition: attachment; filename=revlist-be53b37f9083-b5705b0e853c.txt
 
 02a3178319639f650428164d4d003de4dc03e326 scsi: ufs: core: Hold a clock reference across the probe
 85de8b3a5eaa23d153aff4c7c83dddbc949064c9 scsi: qedi: Initialize callback state before registration
@@ -89,24 +89,6 @@ d6d3455d8751854e0d1820f14184682e23ac4475 Merge tag 'landlock-7.3-rc7' of git://g
 24a19b953e2a3d0ea5a8c4951a0ab8f32720c907 Linux 7.3-rc7
 184b019fcf1294989be629c7658a42d51fe0779f Merge tag 'v7.3-rc7' into kernel-7.3/baseline
 94efc66616c0fa5c45029c25b9edd4b145108765 redhat/marker: v7.3-rc7
-28ab319f173a93acd952252fbbebfddf5b2a65f7 nfsd: fetch direct I/O alignment for files handed to the filecache
-8585c4b305a4f3136e7ac1078508183534b62a50 NFS: Move definition of enum nfs3_stable_how
-f64c93eff933088796c7832ed0d2cd64b3178877 NFSD: Replace nfsd_write()'s "stable" argument with "iocb_flags"
-62bbb1b42541016b755bd172b484093e24947e8c NFSD: Move version-specific ACCESS maps into per-version code
-7b3ed07e10e02c5ceb9426c8f8ef1326c1545bdd nfsd: use direct I/O only for the last operation in a COMPOUND
-1c0968754f4598507a43094fec9a13d53caf6989 SUNRPC: preserve RQ_SECURE across request deferral
-a787c3ae48a3768fbd5f7f902f2923b8f215ffad NFSD: cut a misaligned direct-mode WRITE at page boundaries
-b598f97a1697359a3acd992b3c395b68891a5b4a NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
-63472394b78c1e20072616c35950c2b67e1754a1 NFSD: only split a direct-mode WRITE for a worthwhile direct middle
-4a1552528fa88be905f2dc3c8df524cb0afa904c NFSD: add direct_misaligned_dontcache debugfs knob
-170347722e240253e7ba17ddeab3be4c51a611b8 NFSD: do not use direct I/O for a READ smaller than its alignment
-7149a82181e6548f8e2316989d877ca337db9c7b NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
-1ea4b87fb254165792f749a49ee652f5d4b6f859 mm: add folio_mark_dropbehind() to mark a folio dropbehind and account it
-8241545786cf1e590d2630ce44474706f7fbea3e mm: expose WB_DONTCACHE_DIRTY in bdi debugfs stats
-9f2da2933eb4e80d3ed7896ca06ee9a0ef36a8e6 NFSD: keep boundary page of a split direct-mode WRITE until both writers complete
-caae4d635163ad57e00b03b9c8b2d6ede9391ceb NFSD: add tracing for how direct-mode READ and WRITE are serviced
-0ebee56134376555d82891f1bf57fe89a1b96087 NFSD: Enable return of an updated stable_how to NFS clients
-f796eb6c5440456650635f0526ace88cbbdbfeae NFSD: add io_cache_write modes that persist each direct-mode WRITE
 506713bd244d2b30e916e90346f5f2f8ab2dbd0f nfs: make nfs_page pin-aware
 d60037e25680cf60abc0ba3adb668d09ff4dcf62 nfs: track number of pinned pages in nfs_page
 965d37cdc66d1d0de71350b3597c5842e7989efb nfs: introduce nfs_release_request_list helper
@@ -164,12 +146,19 @@ f48291871d8c76003a7619d4308ca8c4d30d6942 NFS: don't release the open context of 
 caf77b5006c248bf5cdac8ac5eb3e9633be977f0 NFS: don't run the release of a WRITE or COMMIT in the submitter
 f801d418634dab98331cef68a49f0fc0b6007528 NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
 f7797c024ef84e0aff1fbd694202ede49f5b7fe1 workqueue: Fix NULL current_pwq deref in mem-reclaim helper
-ace96f50cf8154f6430ecba51f42f920e484ee02 Merge branch 'kernel-7.3/snitzer-nfs-fixes' into kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO base
-4a990460a1365cfd65a802db1b0cf076a0cab0c5 NFS: invalidate LOCALIO direct-write post-op attributes at completion
-bcf0cf15db39049c48f3306131164efedb472f88 nfs_common: share direct I/O write split and boundary-page helpers
-19f157948b472016d212a30dc24a85ad7de3e5f4 NFS/localio: split direct writes using NFSD provided nfs_common code
-fab61d3ae90867fea8ed1764652eb8ab4a5d31aa NFS/localio: persist a synchronous direct write once, after all its segments
-5b43c6fcd7d0e92a2e80eb72cebf735c9bc85013 nfs_common: fix the skip accounting in nfs_dio_iter_aligned()
-3678a7c33fd2e9aa1ffcec447f25b09363099d10 NFS/localio: complete a direct write that shares a page before it returns
+6f2ea8c76e82940b27b1113fd19d9bbac1fbb4fa nfs4.2: add UNCACHEABLE_DIRENT_METADATA attribute support
+a1c52aa917a1aa532003949ca44acc4138fe2f02 nfs4.2: request UNCACHEABLE_DIRENT_METADATA only for directories
+135e8d5fb12a8ae7f03434b1b01f430dd5e975f7 nfs4.2: honor UNCACHEABLE_DIRENT_METADATA by refetching readdir
+cc6808595e8665ed9106bd8eb4cad5530cbf4ea3 NFSv4/flexfiles: move layoutstats accounting to a per-stripe lock
+78760235a7d8f2adbd8889821f0d5e82f4f7ef60 NFSv4/flexfiles: drop the now-unused per-mirror lock
+3cd6ea676b3af4557d4c8d7fa9dbc27f7bcd943d NFSv4/flexfiles: cacheline align the per-stripe layoutstats
+d706b9cb0dbb9d9a096ef07f3235a231516b225a NFSv4/flexfiles: make dss_info->start_time write-once
+1d3b73c049d4d1d41d9803fb26d99e9fdbcc0f0f NFSv4/flexfiles: drop the redundant atomic from the busy timer
+bec5c13108d77e6423a4a250389420b539b07f31 NFSv4/flexfiles: pair the in-flight count with the layoutstats updates
+83a6eeb6bcfd09c65974fbf6c7b9bec9872ae98a NFSv4/flexfiles: derive ffil_ops_requested rather than storing it
+8980957af0a64a8821678d118c1887e206b11ee3 NFSv4/flexfiles: give each direction its own lock and cacheline
+e7d46dda63057dfe11cd86f33ae2a8bd70326e29 NFSv4/flexfiles: drop NFS4_FF_MIRROR_STAT_AVAIL
+62b8befaf13b57340c05cba054c5bfb719bf3363 NFSv4/flexfiles: rotate LAYOUTSTATS reporting across a mirror's stripes
+b5705b0e853c0ab8f89041e9ea879f39f1937c01 NFSv4/flexfiles: take the report decision out of the critical section
 
---===============6691192862394794662==--
+--===============7871856512901175728==--
