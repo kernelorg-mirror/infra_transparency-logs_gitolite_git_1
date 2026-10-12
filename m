@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6503530827174658852=="
+Content-Type: multipart/mixed; boundary="===============3744960166605509067=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 12 Oct 2026 04:57:41 -0000
-Message-Id: <179178106117.61957.3967294159765355090@gitolite.kernel.org>
+Date: Mon, 12 Oct 2026 04:58:19 -0000
+Message-Id: <179178109986.62373.8484005202754348293@gitolite.kernel.org>
 
---===============6503530827174658852==
+--===============3744960166605509067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/hardening
+  - ref: refs/heads/for-next/kspp
     old: 29a86e8818a8b7043643b85b0603eb9f4c225b55
     new: e3f8dfafd7d6ef905afd6603b0b57984abd0677b
     log: revlist-29a86e8818a8-e3f8dfafd7d6.txt
 
---===============6503530827174658852==
+--===============3744960166605509067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1791781056 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1791781098 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1791781054-e799a6b04b283c678f292fb668c78cb82ecb6f4d
+nonce 1791781096-ad938c43e083d9f344e93525d3dfe7285ca51abe
 
-29a86e8818a8b7043643b85b0603eb9f4c225b55 e3f8dfafd7d6ef905afd6603b0b57984abd0677b refs/heads/for-next/hardening
+29a86e8818a8b7043643b85b0603eb9f4c225b55 e3f8dfafd7d6ef905afd6603b0b57984abd0677b refs/heads/for-next/kspp
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCasxowAAKCRA2KwveOeQk
-u7R0AQDqCgd+vTORaRjbMR83DAOtFoqxXe+Eoa0aB0aLk+432QD+MBxbJ/B4YqzU
-nKmRMAAZHTYUetogG9x+0bSMf+zvDw4=
-=ymtH
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCasxo6gAKCRA2KwveOeQk
+uxuYAP9ps38vp/1y/q7cC1PtMs/Ac7v7TCFG1MaaktyQfxsgVQD7BPPEldSrMn6S
++FHGNFkCXdfHhiM5VsdL1A9MngkVrwc=
+=SIk7
 -----END PGP SIGNATURE-----
 
---===============6503530827174658852==
+--===============3744960166605509067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -61,4 +61,4 @@ c8cd1725d259b31b5bfa362696985deb8c9a8039 bpf: Remove dead newline stripping from
 9ac219976ecfd0ad9c54050ed14f1da5d197cb69 nvdimm: ndtest: Return the string length from flags_show()
 e3f8dfafd7d6ef905afd6603b0b57984abd0677b docs: core-api: Document the seq_buf API
 
---===============6503530827174658852==--
+--===============3744960166605509067==--
