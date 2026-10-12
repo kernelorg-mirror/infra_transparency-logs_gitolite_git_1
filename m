@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 12 Oct 2026 17:53:14 -0000
-Message-Id: <179182759472.786681.9102742321910264968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Mon, 12 Oct 2026 17:55:51 -0000
+Message-Id: <179182775131.789842.409912161240128321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
+repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
   - ref: refs/heads/for-7.4
-    old: d5632ae015028376668ef29e3a24c099611a55c7
-    new: 316b06ccee04ad871f6233ad7a3884b0ea457360
+    old: 8b3eaeb72e8a2eb8250e67b45e98e02ffcb5bd63
+    new: d1350c523f481769182604d758ecfcdf3597b402
     log: |
-         61c77b323c8da2ba6a35a4e50019e5f31f8729b8 selftests: memcg: Don't close an uninitialized fd
-         316b06ccee04ad871f6233ad7a3884b0ea457360 selftests/cgroup: Free the paths returned by cg_control()
+         d1350c523f481769182604d758ecfcdf3597b402 selftests/sched_ext: Fix build error in dequeue_remote selftest
          
   - ref: refs/heads/for-next
-    old: 75b768f035ccafe5c76ea10883474fdecccef56f
-    new: 7fd642134dc2c87b80fefc8d19de956dea88b0eb
+    old: 9bbb84e7eef6148e09ede8803d7a1f2b896ac16f
+    new: b712eb43b0faa71ff0deb79163a52894a7a5b0e1
     log: |
-         61c77b323c8da2ba6a35a4e50019e5f31f8729b8 selftests: memcg: Don't close an uninitialized fd
-         316b06ccee04ad871f6233ad7a3884b0ea457360 selftests/cgroup: Free the paths returned by cg_control()
-         7fd642134dc2c87b80fefc8d19de956dea88b0eb Merge branch 'for-7.4' into for-next
+         d1350c523f481769182604d758ecfcdf3597b402 selftests/sched_ext: Fix build error in dequeue_remote selftest
+         b712eb43b0faa71ff0deb79163a52894a7a5b0e1 Merge branch 'for-7.4' into for-next
          
