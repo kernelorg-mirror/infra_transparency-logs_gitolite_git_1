@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/tftp/tftp-hpa
-Date: Mon, 12 Oct 2026 21:03:45 -0000
-Message-Id: <179183902591.930354.3777119629087373638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
+Date: Mon, 12 Oct 2026 21:07:06 -0000
+Message-Id: <179183922688.933924.7187479607291823685@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/tftp/tftp-hpa
-user: hpa
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
+user: vudentz
 changes:
-  - ref: refs/heads/master
-    old: 0659f23cbbf8a853a82cd4117795a519900fba41
-    new: f2d2b5d88ca3f329abe32f6366eae78a2ccb0ae7
-    log: |
-         f2d2b5d88ca3f329abe32f6366eae78a2ccb0ae7 tftp: fix type of r_timeout
-         
+  - ref: refs/tags/for-net-2026-10-12
+    old: 0000000000000000000000000000000000000000
+    new: b9d0daea5993ed3da297d64e22a573a396c5522a
