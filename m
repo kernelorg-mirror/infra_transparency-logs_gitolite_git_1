@@ -1,52 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============2008202518023441938=="
+Content-Type: multipart/mixed; boundary="===============1482300331729633579=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 13 Oct 2026 14:22:17 -0000
-Message-Id: <179190133732.1775141.13555327874731991742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Tue, 13 Oct 2026 14:22:22 -0000
+Message-Id: <179190134227.1775443.3382868103173338003@gitolite.kernel.org>
 
---===============2008202518023441938==
+--===============1482300331729633579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/qcom/drivers
-    old: d3bacfccd82c974a541398a5ce310de7546b525f
-    new: 87802d4dc4850bf27b3955ee9162b1e52c99da1a
-    log: revlist-d3bacfccd82c-87802d4dc485.txt
+  - ref: refs/heads/fix-p2p-acs-v11
+    old: 077d7ea75584c9b4dcb50809976fba26181637d2
+    new: 520a3e0b4015d73b421f11bcadae65b4e14bce6e
+    log: revlist-077d7ea75584-520a3e0b4015.txt
 
---===============2008202518023441938==
+--===============1482300331729633579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3bacfccd82c-87802d4dc485.txt
+Content-Disposition: attachment; filename=revlist-077d7ea75584-520a3e0b4015.txt
 
-b6fe0b2ca99c29d211cacffd17bcd0e2f69049c2 dt-bindings: arm: qcom,ids: Add SoC ID for SM7250
-4f7b5ac0c4d841d9356af9f9d2698ab6caecf529 soc: qcom: socinfo: Add SM7250 SoC ID
-34da43344c042bf276abace745d7cf6af27699df soc: qcom: geni-se: Fix endian conversion for serial_protocol comparison
-570b3d23794bff9ba8dd99dbd5293dc158a7dbce soc: qcom: geni-se: Widen fw_size to u32 to prevent wrap-around
-091269da39eb0a52cca2549e9ba522ab7b841ff2 soc: qcom: geni-se: Fix fw_end computed before round-up; propagate size to caller
-f38399670d0701ede4f8da397807aa64d7dc98be soc: qcom: geni-se: Fix write to read-only firmware buffer
-c708b7141c6a9fd9d20b827a4fefc24ed65327ce soc: qcom: llcc-qcom: Handle errors from optional IRQ lookup
-c7c56b6ec077cb96657494b8c18c2c78625035b1 soc: qcom: pmic_glink: Fix device access from worker during suspend
-b2370c0f8960dbe9bc0b5169944c58239964a738 soc: qcom: rpmh-internal: fix kernel-doc issues in rpmh-internal.h
-5e1fccb482a9b92e465fe1fd689f4e8cefd15a08 soc: qcom: rpmh: fix kernel-doc issues in rpmh.c
-8f206c85f3c383605a5bc3640f9e5aa1d9d8a51a soc: qcom: rpmh-rsc: fix kernel-doc issues in rpmh-rsc.c
-5909d98ef551f13efcd4e2a366eebffaf3c29d3b soc: qcom: ubwc: Add configuration for Hawi
-77a717ae0e07303d4ece8382cbf203e0c0c5c25f soc: qcom: ubwc: Add configuration for Maili
-f3c95a76d2ee9c17034e9d96917b37d194dd9f91 soc: qcom: smem: Fix signedness bug in smem_dram_parse()
-bb5c846a74ca119679fdc3241888a3de179d02c2 soc: qcom: apr: clean up failed service registrations
-7cabc842d0f2540f1d7734e7bb41d740560a036f soc: qcom: smp2p: fix __iomem annotation on entry->value pointer
-c373463f8c08d46dd6a0d3b385037da790e186e7 firmware: qcom: scm: Use devm_of_reserved_mem_device_init()
-618aedff70fbecb502a3f312a8b292e8478a93c7 firmware: QCOM interfaces should depend on ARCH_QCOM
-3ae4bd9cdcd25bb8ac9b9951934bedd404935545 soc: qcom: ubwcg: Add Nord UBWC config
-a5c8d6d13a0417e19bb0c771f28474d997c21d11 MAINTAINERS: add Abel as reviewer for linux-arm-msm
-72961dcd01a295caf6fbf9d1cc5bd3482dd91b07 firmware: qcom: scm: Allow QSEECOM on Yoga Slim 7x Gen11
-87802d4dc4850bf27b3955ee9162b1e52c99da1a firmware: qcom: scm: Allow QSEECOM on Asus Zenbook A14 (UX3407NA)
+527067912d8c365604fa5dd6c7f24865aed17059 PCI/P2PDMA: Evaluate ACS controls at the path divergence
+fe4cd58279f466102633aaa61e72e1416f39b8ad PCI/P2PDMA: Document directional ACS routing
+8a7902bfc1cd7fb051a584ed9cde4765bf7f4788 PCI/P2PDMA: Collect the path's ACS controls before deciding
+0e75131322b90f96256e14f8244239a463a43a7c PCI/P2PDMA: Answer routing per TLP class
+8a4cf4c6b1fd923e560c2278fe53d55dd6933260 PCI/P2PDMA: Route Relaxed Ordering Completions directly
+7b899877aadb34823703a229ff414964cf57128f PCI/P2PDMA: Reject Translated Requests blocked by Translation Blocking
+7063f41be37f081f13ecd89dc43808c623abac7e PCI/P2PDMA: Route Translated Requests under Direct Translated P2P
+0fefa9639bdd9ef1d6934c8647b34f9236fb7e25 PCI/P2PDMA: Log detailed ACS routing diagnostics
+c9f00282339e55858a987f2e0135fdb9f99e4c50 PCI/P2PDMA: Add KUnit tests for the ACS routing decisions
+197eeafca40aaaeae5dcc6078b98e25321aea79f PCI/P2PDMA: Test the ACS P2P routing walk
+1546e0f12e96ad2304e0e415093ae704a1bbdccb PCI: Add KUnit coverage for ACS isolation checks
+33ce9d7ec9a3827a0307bbb3a6c7c6b34f2e6e2c PCI/P2PDMA: Document TLP-class routing
+e63dcb61e0501f191ea38a96ca06ad7a4f590938 PCI/P2PDMA: Let a client declare that it selects ATS per mapping
+fa7ec40e047af258f2b9d111d19c9e7945e27890 PCI/P2PDMA: Evaluate the ATS path for clients with ATS enabled
+520a3e0b4015d73b421f11bcadae65b4e14bce6e PCI/P2PDMA: Test the routing of clients with ATS enabled
 
---===============2008202518023441938==--
+--===============1482300331729633579==--
