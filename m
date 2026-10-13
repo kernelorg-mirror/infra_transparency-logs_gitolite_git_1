@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 13 Oct 2026 11:08:45 -0000
-Message-Id: <179188972569.1617205.9745493593091684055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 13 Oct 2026 11:24:16 -0000
+Message-Id: <179189065674.1627777.4927023246459171756@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/i2c/i2c-next
-    old: 938e0b26aa40c8d6c74f656965362e2309105b9d
-    new: 2e0b8c407b52a2e428213ae9b95563de0ccca3f5
+  - ref: refs/heads/master
+    old: 6bff738f9275d58094ff9b446996ff24cf464e94
+    new: 290c0f4f2fafa56be4a68fc33bd8d4cb96bf5987
     log: |
-         195f3d74b5de98969dc4fad956393bb00787efd1 i2c: qcom-cci: Fix HALT_ACK reset request being dropped
-         2e0b8c407b52a2e428213ae9b95563de0ccca3f5 Merge branch 'i2c/i2c-fixes' into i2c/i2c-next
+         290c0f4f2fafa56be4a68fc33bd8d4cb96bf5987 Fixes for all trees
          
