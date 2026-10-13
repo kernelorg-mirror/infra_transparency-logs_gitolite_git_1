@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 13 Oct 2026 01:05:18 -0000
-Message-Id: <179185351890.1124853.17243935027880784467@gitolite.kernel.org>
+Date: Tue, 13 Oct 2026 01:05:27 -0000
+Message-Id: <179185352770.1125404.2842481710015481586@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 5949d1910f13c20f6ebcd26eec9e0c02cb4951aa
+  - ref: refs/heads/pending
+    old: 4665a21621f237568069e20eda4df29aa8842eb9
     new: 4aa45334eb23d40bf31c43405daea9b73469f2a6
     log: |
          ebc938ba1d5ff33652013b99c7b9a74f05690336 wifi: ath12k: Fix NAPI resource leaks in AHB external IRQ paths
