@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 13 Oct 2026 13:42:27 -0000
-Message-Id: <179189894789.1739582.11032492211526824706@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Tue, 13 Oct 2026 13:42:40 -0000
+Message-Id: <179189896012.1739829.9514265260006812798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/for-next
-    old: 0d5e3fc78a6f2522e6339743b8e5ecc02351a9dd
-    new: 763187dbbf83764a57d5811168ef9de7b9a60e2d
+  - ref: refs/heads/probes/for-next
+    old: 06e0d3b89da12f24ed5ed434acc8e2cb504f5e4f
+    new: d4d028a7ae6401ce70825a3eb663f0a2dfc49db6
     log: |
-         f6b6c87262da0ce58e9f24883cf6f7b2a3f2c338 btf: Fix size/vlen validation for BTF_KIND_LOC_PARAM
-         35369ca4954c65f6423d02fad624997d72beec30 selftests/bpf: Fix btf_inline to use .text section as base
-         add69af5068df37c4c6e2808e9bd1332138f1180 selftests/bpf: Enable CONFIG_DEBUG_INFO_BTF_INLINE for CI
-         763187dbbf83764a57d5811168ef9de7b9a60e2d Merge branch 'inline-btf-followups'
+         3ccfe2a1a85f3639d770c9efe153ffdc58c60ac1 tracing/probes: Clarify btf_find_struct_member() container parameter and add kernel-doc
+         d4d028a7ae6401ce70825a3eb663f0a2dfc49db6 ftrace/selftests: Change non-unique test symbol to init_once
          
