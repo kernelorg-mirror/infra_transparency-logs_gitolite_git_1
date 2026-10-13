@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 13 Oct 2026 15:29:23 -0000
-Message-Id: <179190536353.1833180.12672106318237485969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Tue, 13 Oct 2026 15:33:26 -0000
+Message-Id: <179190560692.1836580.17813988515250034369@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/tags/riscv-dt-for-v7.4
-    old: 0000000000000000000000000000000000000000
-    new: 27cd809653b4c90630b559bb6dbbfad77668963b
+  - ref: refs/heads/for-next
+    old: f93bbb22a68319fd051e090e2315a5117e024ca8
+    new: 334714e4bdf8868c17a7650a7502ba1c90a8721f
+    log: |
+         334714e4bdf8868c17a7650a7502ba1c90a8721f dm-verity: clear LSM integrity state on suspend
+         
