@@ -1,27 +1,58 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 13 Oct 2026 13:58:35 -0000
-Message-Id: <179189991569.1754350.9988596887508393996@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9083418980473258915=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 13 Oct 2026 14:00:11 -0000
+Message-Id: <179190001126.1756989.15019588547163337133@gitolite.kernel.org>
+
+--===============9083418980473258915==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.4
-    old: c1e321bd5ce6ae3702db65837cfe0c792634d603
-    new: e7860dc5d8d45f6a0e98bfe542c7b776c5ede2a4
+  - ref: refs/heads/char-misc-testing
+    old: ba9d2c7ea7f8fd02726241e9b93a2a31d30c77ea
+    new: 9040ecb593ad6354d34b287d5d83532538e7ea3c
     log: |
-         0f2bec6921f0971c2fc2f8bb5a93229b6546dded ASoC: core: Add component constructor
-         4e2db62172b5e260550202f2cc6b97db6de98477 ASoC: core: Rename and export soc_component_add()
-         857469990ee1a69bec3fb60e757c7a62582a5f44 ASoC: dmaengine: Switch to snd_snd_component_new()
-         c0e1ffec60ce10101643f8bf7e45f42b0fdaa002 ASoC: topology-test: Switch to snd_snd_component_new()
-         6cb74a0741dac2a242eefb00f7052cc85b7cffc8 ASoC: Intel: catpt: Switch to snd_snd_component_new()
-         d7065004a33aedc864fa49b3a59c7f7cd79be900 ASoC: Intel: avs: Switch to snd_snd_component_new()
-         146caaa16f85b895cd2a6370092961da784e16b7 ASoC: core: Remove unused component-register members
-         4f173a0fee694626d13494cba5f95cd49b1e28a2 ASoC: core: Create new components in sane state
-         e7860dc5d8d45f6a0e98bfe542c7b776c5ede2a4 ASoC: codecs: wcd939x: read the SoundWire port switches per channel
+         aeef0f8a3af2e3003c1c4019cf8fcb5f4b14f17f rust: error: implement ZeroableOption for Error
+         dfc769a5cfad66a4655060e42d9099d57d1cfbb6 rust_binder: store Option<Error> in TransactionInfo
+         9040ecb593ad6354d34b287d5d83532538e7ea3c rust_binder: consolidate transaction failure prints
          
+
+--===============9083418980473258915==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791900016 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1791900008-e30d67c8404e13748aeefc8a3dd7bb8682f45188
+
+ba9d2c7ea7f8fd02726241e9b93a2a31d30c77ea 9040ecb593ad6354d34b287d5d83532538e7ea3c refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrOOXAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7wgP/jECRUEkHy1C3PARE0Qo
+oNFtoEHprSt+Y0f5So+u+4HvqjiyEeDMn2gADmuHMLmonvxo1IWFq0XgBAP80umf
+JvzqsYk2ABhMWRD+FtxEeUD8aejgZgtCAFQ9yWUruXCk/c0POJJYNaiL7Nxlgnp7
+wMDF/da5p7GUDMJRqKF4vLnAnLQPn629bkdhU22DwBlT2pY9GJjj6XJFxmiIlHw5
+EswuUGv0RF6w2hPRfVaShgCUKjp71Q5De9lTY4s9nC8vJfyhGqdV9NYuEeJEL/Np
+GhTvzUUSsnbssEBG/Qy7Dk0eFDObCPMqJ7LgaH6pHdy8v57a66hDYbf6sFZKY4Y4
+zN++4lZX8usQvEliY/xgpxRWCTVFmQYtA2w26+QhvJPf9Cfxw7ycdzVYxuuucUY5
+GuRo3On2RQRF6nCA6L6lpLeD31zwBPj1hN5nSTjI9jSltPfouJBK3pVzP6JcAYjT
+b/rM/wFazzdiECe6JthfYGQHjowM9edQXs1sXdueteJvYy0v57uwiJg2GWlu5Mwl
+VPzlDzdPOGaOI2IxQZ6K6Xo1dPyMi5TUiK78tA5olTFpgjgPA4R9a52A9eqYfgJu
+7X0u98PtEcxHYyqKGZIBotoVArgg+W2UPrnQ9D3O54r7A0FNWBSDYSa5WSBnMzBc
+sclz8Dt1s6iTNCr1V6Cwy5oJ
+=MBk3
+-----END PGP SIGNATURE-----
+
+--===============9083418980473258915==--
