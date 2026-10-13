@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 13 Oct 2026 11:24:16 -0000
-Message-Id: <179189065674.1627777.4927023246459171756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 13 Oct 2026 11:25:38 -0000
+Message-Id: <179189073847.1630817.8019413369822826809@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: 6bff738f9275d58094ff9b446996ff24cf464e94
-    new: 290c0f4f2fafa56be4a68fc33bd8d4cb96bf5987
+  - ref: refs/heads/wip/leon-for-next
+    old: 2e0df4424434f27576ee2b7495de01f2c14c47d9
+    new: 466612f8a8020c6b3af6377c730775a4c630f12c
     log: |
-         290c0f4f2fafa56be4a68fc33bd8d4cb96bf5987 Fixes for all trees
+         f74eac4fc6c56274fb96c2c44ffad8f01c325f17 RDMA/siw: Enforce IB_ACCESS_REMOTE_READ for read responses
+         466612f8a8020c6b3af6377c730775a4c630f12c RDMA/efa: Fix race between admin command timeout and completion
          
