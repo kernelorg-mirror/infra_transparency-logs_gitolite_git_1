@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5154003051621000197=="
+Content-Type: multipart/mixed; boundary="===============3013291986605171355=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Tue, 13 Oct 2026 12:24:24 -0000
-Message-Id: <179189426405.1678256.13930204154192665162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Tue, 13 Oct 2026 12:24:25 -0000
+Message-Id: <179189426573.1678440.8457276168040396324@gitolite.kernel.org>
 
---===============5154003051621000197==
+--===============3013291986605171355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 24a19b953e2a3d0ea5a8c4951a0ab8f32720c907
     log: revlist-af32da41b032-24a19b953e2a.txt
 
---===============5154003051621000197==
+--===============3013291986605171355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -242,4 +242,4 @@ f47959816751f02a711aab27cf1c805bd4964819 Merge tag 'spi-fix-v7.3-rc6' of git://g
 d6d3455d8751854e0d1820f14184682e23ac4475 Merge tag 'landlock-7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 24a19b953e2a3d0ea5a8c4951a0ab8f32720c907 Linux 7.3-rc7
 
---===============5154003051621000197==--
+--===============3013291986605171355==--
