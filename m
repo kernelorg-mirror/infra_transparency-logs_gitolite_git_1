@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 13 Oct 2026 13:58:21 -0000
-Message-Id: <179189990130.1754081.9879418517299539293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 13 Oct 2026 13:58:35 -0000
+Message-Id: <179189991569.1754350.9988596887508393996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/kunit-parallel
-    old: 230563f91cc408375efb3af2b4e040d4deb2f2e6
-    new: 2bd8730978727b0cdcac1d05a2b52c46d1f408d1
+  - ref: refs/heads/for-7.4
+    old: c1e321bd5ce6ae3702db65837cfe0c792634d603
+    new: e7860dc5d8d45f6a0e98bfe542c7b776c5ede2a4
     log: |
-         7932ae9aeeca0af3c3b3e2b38f07aa432601156a kunit: tool: Boot with a larger log buffer when listing tests
-         fd4e29f843c7926efcb7871d15f09af98ef9abb3 kunit: tool: Add an outfile argument to run_kernel()
-         ea92e9f4c3ca62cafbee7f1cd55c53acbe385221 kunit: tool: Allow several run_kernel() calls to be in flight at once
-         d0c3bd5c07a4e823a850c5e480f484d6d148f440 kunit: tool: Serialise output written from multiple threads
-         2bd8730978727b0cdcac1d05a2b52c46d1f408d1 kunit: tool: Add --parallel to run suites in concurrent kernels
+         0f2bec6921f0971c2fc2f8bb5a93229b6546dded ASoC: core: Add component constructor
+         4e2db62172b5e260550202f2cc6b97db6de98477 ASoC: core: Rename and export soc_component_add()
+         857469990ee1a69bec3fb60e757c7a62582a5f44 ASoC: dmaengine: Switch to snd_snd_component_new()
+         c0e1ffec60ce10101643f8bf7e45f42b0fdaa002 ASoC: topology-test: Switch to snd_snd_component_new()
+         6cb74a0741dac2a242eefb00f7052cc85b7cffc8 ASoC: Intel: catpt: Switch to snd_snd_component_new()
+         d7065004a33aedc864fa49b3a59c7f7cd79be900 ASoC: Intel: avs: Switch to snd_snd_component_new()
+         146caaa16f85b895cd2a6370092961da784e16b7 ASoC: core: Remove unused component-register members
+         4f173a0fee694626d13494cba5f95cd49b1e28a2 ASoC: core: Create new components in sane state
+         e7860dc5d8d45f6a0e98bfe542c7b776c5ede2a4 ASoC: codecs: wcd939x: read the SoundWire port switches per channel
          
