@@ -1,52 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1305172634691450887=="
+Content-Type: multipart/mixed; boundary="===============3316260608701256405=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Tue, 13 Oct 2026 13:11:28 -0000
-Message-Id: <179189708821.1714296.18412671322662131513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Tue, 13 Oct 2026 13:16:30 -0000
+Message-Id: <179189739017.1718024.5575857327883044708@gitolite.kernel.org>
 
---===============1305172634691450887==
+--===============3316260608701256405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/b4/rust-dyndbg
-    old: 936c54d9e63c809f9177183fb8c711b99b67dc68
-    new: 7ab7c21d9e16f79660bb2b8dce6d5d553839f4f7
-    log: revlist-936c54d9e63c-7ab7c21d9e16.txt
+  - ref: refs/heads/fix-p2p-acs-v11
+    old: 9c21fddad0728e14741e1da9f47f1dff7d0ad525
+    new: 077d7ea75584c9b4dcb50809976fba26181637d2
+    log: revlist-9c21fddad072-077d7ea75584.txt
 
---===============1305172634691450887==
+--===============3316260608701256405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-936c54d9e63c-7ab7c21d9e16.txt
+Content-Disposition: attachment; filename=revlist-9c21fddad072-077d7ea75584.txt
 
-1d09c9ee13be740ec0bbf976f14b6f942396cabd rust: num: add cv! macro to create values from constant expressions
-8d26ced7b496f4cb9c5eafbad7ee21adf0fb6673 rust: bitmap: use function-level cfg on kunit test
-931790a91378f6513ba82730eb5607479c3184a0 rust: bitmap: restrict bitmap length to at most i32::MAX
-bf461edb197bd7c0462c1d13bb1c3b51d6892fd3 rust: sizes: add sub-1K size constants
-d21cfabdd8aee0a837d31d945844e5c177154389 rust: sizes: implement SizeConstants for Alignment
-b666bd22be8f211aceeeb8fbc827ebdb7abe98c0 rust: bitmap: add contiguous area operations
-3132a951a7e4ec2e18bc314877137deee96ab83e rust: id_pool: add contiguous ID reservation
-1c41fdbf078ef8605f5e453363ea5cfa2b90926d userprogs
-89f0dddb42989fffcaa30e6e86e61f2b4d33f3ea rust: add support for dynamic debug
-9af36400133dc6a756b4c80c159cddfa81b9ab88 rust: print: use `CStr` for __LOG_PREFIX
-8db6a2365a6ffacbb0d9ebf00aa63b5eebdabf56 rust: sync: atomic: Add Atomic<u{8,16}>
-cfd83a29d41fcd5b88bc4bf04d256febe282f988 rust: num: Add Bounded::USABLE_BITS
-cfc02a13b95d1378c1c90a621e3de0c8e99ac099 samples: rust_print: add debug messages
-bd02691dabd81ff68f4d4e2885defd8bb3c12a79 dyndbg: use u32 for struct _ddebug bitfields
-ad2a0cb9b16b14ed21d7b402ad5f54006647e4b7 dyndbg: make _ddebug::flags its own field
-a879532cf7d0c6dc89cf3cf6593c0c8344e6ebf3 dyndbg: use READ_ONCE()/WRITE_ONCE() to access descriptor flags
-3eb869e0f93da0bab1e22af7f38655e005f319ec dyndbg: always declare __dynamic_*_dbg() helpers
-08a0d64012352071143205aaba16dcd3dc1aaa12 rust: add support for dynamic debug
-6a91a8a1ca406d5f20872c6f0114686df1b79d72 rust: print: enable dynamic debug for pr_debug!()
-02ad6bb2398cce3209d1f191553916e60cf77664 rust: device: remove logging methods
-707a7433f697b62bac733615b0fc18a776f6798c rust: device: enable dynamic debug for dev_dbg!()
-7ab7c21d9e16f79660bb2b8dce6d5d553839f4f7 x
+0659f302d40a5031ef8bd56f79ee08be8e58658f PCI/P2PDMA: Route peer-to-peer DMA by TLP class
+7b0c5066721f0b9387d5da60eb9038f9c2146306 PCI/P2PDMA: Honor device-specific ACS redirection
+3fe3588c507c6d582acc08416a101e53968a4ec8 PCI/P2PDMA: Document the TLP attribute assumptions
+89045434ce78f577e811cdc922262d5217ad6d40 PCI/P2PDMA: Derive routing from directional ACS controls
+b007955b511fa518d19320c2351fa5525d5ca538 PCI: Reject unreadable ACS controls in isolation checks
+23a98759d7b273296a764f998f9e1b72697f0f3b PCI/P2PDMA: Evaluate ACS controls at the path divergence
+3ca756bdde4a961c5bc4fc455f816963cad17a01 PCI/P2PDMA: Document directional ACS routing
+4c484e1c520667966b9e24186ec50d664ab3267a PCI/P2PDMA: Collect the path's ACS controls before deciding
+5ca7df3edc12543dce69eccfdcb5be3eb8110e1a PCI/P2PDMA: Answer routing per TLP class
+1e2b7e1d86cbe7720baf2e2d831d6c7650cf63b4 PCI/P2PDMA: Route Relaxed Ordering Completions directly
+97d6f6613fa00afa1b42fd587127176eccd08639 PCI/P2PDMA: Reject Translated Requests blocked by Translation Blocking
+8cbdb04d479cafaf62f1d409157c458aeee4f954 PCI/P2PDMA: Route Translated Requests under Direct Translated P2P
+40f9c00229bca9ff3b94df0151d87b745edda30a PCI/P2PDMA: Log detailed ACS routing diagnostics
+30987b4053cc2e049ac4f9fa7accd2661aea8ba3 PCI/P2PDMA: Add KUnit tests for the ACS routing decisions
+33410f2205c8e7dddb9be7b4c5d611c2d90aaefa PCI/P2PDMA: Test the ACS P2P routing walk
+52d94f5e1ace9c4188cd8795737a4eec94cf3a50 PCI: Add KUnit coverage for ACS isolation checks
+1cac8f1dff975c91aa8d46c1ab3865a18095ed1a PCI/P2PDMA: Document TLP-class routing
+884e907492b99f242f440f0e1007fb8531f37450 PCI/P2PDMA: Let a client declare that it selects ATS per mapping
+ac9d043d4e22101b165180d2b454978d93186066 PCI/P2PDMA: Evaluate the ATS path for clients with ATS enabled
+077d7ea75584c9b4dcb50809976fba26181637d2 PCI/P2PDMA: Test the routing of clients with ATS enabled
 
---===============1305172634691450887==--
+--===============3316260608701256405==--
