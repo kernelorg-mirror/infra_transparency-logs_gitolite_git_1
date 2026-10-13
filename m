@@ -1,57 +1,75 @@
-Content-Type: multipart/mixed; boundary="===============7905644342718947681=="
+Content-Type: multipart/mixed; boundary="===============0155825058875276349=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 13 Oct 2026 06:02:41 -0000
-Message-Id: <179187136103.1379140.10742594873842185734@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Tue, 13 Oct 2026 06:07:18 -0000
+Message-Id: <179187163805.1382974.11692683504855577402@gitolite.kernel.org>
 
---===============7905644342718947681==
+--===============0155825058875276349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 27e8be8565d1d593e5adae14e5737a3a09594139
-    new: 89ea35c8f005378a814495f90d2ff59fa1a7c236
+  - ref: refs/heads/merge
+    old: f77e26926610c4e49e41aeb5edca70abd2a81e1e
+    new: 780b8d04da91ebc4b055058b99889f8b81ab1f3d
     log: |
-         aba6c959d94b88f0e58e71b8f03861af68258851 drop a metric ton of duplicated 7.2 patches
-         89ea35c8f005378a814495f90d2ff59fa1a7c236 fix up 6.18 patch to work with quilt
+         8fa763bc3ee9bd215476ab91ee480c649eaa4b29 powerpc: fix NMI exit ordering: restore soft masks after irqentry_nmi_exit()
+         de5a7fedf5061bdf6823eb509353bd7c128e34b5 powerpc/kasan: fix r2 corruption in mem*() on GENERIC_ENTRY with old compilers
+         66236558dfac63d9bea5b0b6a66a4d717529c118 powerpc/syscall: Avoid atomic test_and_clear_thread_flag on fast path
+         b3d75e2bc299a759de2fd11649c7ed275b1b2067 powerpc/fadump: collect dump when CPU_STATE_DATA is less than reserved
+         ff9d9df1deb10c657ff00fc7b94f154fb4552721 powerpc/numa: Simplify find_primary_domain_index
+         e18351513a8e7ba08d9735056864f0c0095676d0 powerpc/numa: Allow cpu_to_coregroup_id without PPC_SPLPAR
+         129f5d395fd66b6587a5ac156b232cca060d6512 powerpc/numa: Support coregroup on PowerNV
+         780b8d04da91ebc4b055058b99889f8b81ab1f3d Automatic merge of 'next' into merge (2026-10-13 10:56)
+         
+  - ref: refs/heads/next
+    old: 0b8b0c17a8998709ecb2852d56442ea981102941
+    new: 129f5d395fd66b6587a5ac156b232cca060d6512
+    log: |
+         8fa763bc3ee9bd215476ab91ee480c649eaa4b29 powerpc: fix NMI exit ordering: restore soft masks after irqentry_nmi_exit()
+         de5a7fedf5061bdf6823eb509353bd7c128e34b5 powerpc/kasan: fix r2 corruption in mem*() on GENERIC_ENTRY with old compilers
+         66236558dfac63d9bea5b0b6a66a4d717529c118 powerpc/syscall: Avoid atomic test_and_clear_thread_flag on fast path
+         b3d75e2bc299a759de2fd11649c7ed275b1b2067 powerpc/fadump: collect dump when CPU_STATE_DATA is less than reserved
+         ff9d9df1deb10c657ff00fc7b94f154fb4552721 powerpc/numa: Simplify find_primary_domain_index
+         e18351513a8e7ba08d9735056864f0c0095676d0 powerpc/numa: Allow cpu_to_coregroup_id without PPC_SPLPAR
+         129f5d395fd66b6587a5ac156b232cca060d6512 powerpc/numa: Support coregroup on PowerNV
          
 
---===============7905644342718947681==
+--===============0155825058875276349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791871365 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1791871356-f492da5d4444a4483b614ca03b38c2740b821f07
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1791871633 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1791871632-cac483c2b2b966ce4f2c2dd4e4a738ef23763ca2
 
-27e8be8565d1d593e5adae14e5737a3a09594139 89ea35c8f005378a814495f90d2ff59fa1a7c236 refs/heads/master
+f77e26926610c4e49e41aeb5edca70abd2a81e1e 780b8d04da91ebc4b055058b99889f8b81ab1f3d refs/heads/merge
+0b8b0c17a8998709ecb2852d56442ea981102941 129f5d395fd66b6587a5ac156b232cca060d6512 refs/heads/next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrNyYUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xAAP/j0aE10bszK2uAhThbHm
-TjQiIg4imI/Uqw2mWcRk6I/QwY8QmyIUi9gytuUf1NuxZS4bbSzubu3qSUCv2rCi
-1whrOMJwRmXG9w1gl7OQMzAdR2g5hS1YuXLArjKKkN5Sji0gMfjRjqdCxmriXXz3
-VHZKyXnlaA3ug76kJLAWymjRbZFjwqFJ63oLSvYQy8ovLb/ze95orK7tv3Zz1p3V
-Wu6Az/5LDxA5inHHmViDqB0B8htWfBcPvyHs7eLcQZGekGUq9MvFyNkSFC6xluCQ
-MDgpt2ldp+y6dC7+3gUDS8SUucsg8S7xPDmKpCItuJdmLyPYxSwwjW/n3qBl1Fvl
-vk/YBJIaP/zQxhHlXP2STH4rJcs3xscuCNqzRjKXnnlEoAveprHC8OeusSyyNauP
-HKpowz2a0/QnIVShH5GHBI1+3HVzk0aspu4JqxSxoVKAbgFBUtL1ZEjU9HDhdJGI
-nDuP6Sq00AJwod0rQ5YK9+OvLSDLoyogwxZjtpyuNL++xYdk3rKB8SaDxwf52PeT
-3Xx9qj1iSc0BCs/4J0iQYwUrA4hS6cYz9EjkT9CE8PJ6sOmkRfZuMYADHVP1YtaE
-b2I7S4E2B58PKf27EhSgg8Nxnc58fyA/JrT/F9mxiIoqsOT6Gqy3T710wQBD5OTS
-L1WIVprPNbi6DmlnuqBVVZ/X
-=haUJ
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmrNypEACgkQpnEsdPSH
+ZJT1wA/+KzjauEJpqKL9TU2j2lHqB6/MnXg/TkGN92qtQgG1B9K8Tipfm0rMzhvU
+K1JaFWh7zMR4/cOiy9E6/MbnFCRGx7aeU/vpjTmTMVCVtWvUm+sxiBSynE+XeDgE
+fqXdW8f3QaVWwekoozTtzhFo/aqpqJckMug/+nj89bnK2BbhYO/d+GrloIQb8I17
+ev+yiQen2qm9YxZL7ouzIhnwGGEikXvLt6BB6lWL9cpum7lBDggg5GW1nvcW1Duz
+nEnCEkP8PJeGwdr5FBblB1L5yA3m3+CUsE8VeHcaG4deHdAHjLJqF1rJaqHxad+7
+88KKrlw2HyWON3rKUcwhigy4bU885HVc0utsZNwZBHJf6tZadNKsFs50KbNLTsqe
+1hJqkiRuP0jfiX5PM1q9l5Y0rVaaFqdgmqJWPFCDH0DpU2Zc7X98tuWn9Z9Czoeb
+XsJ5hp6BWF5YngsLjiAjXbY91JDDNH3IqV6D9fu6IXydxJOG0SSNfuckvrBvwGoz
+lhS1ZJAZRlYGc0p4EnJKWtXDAO/Wv1G4oxTz0/tRo2W8QXlQXR9x5uldR37P0a6X
+Y1DFWUXxkixPVlz2XSyYMA/KdcmMnSgjNfjYpOsAh0z8f4s6oTsj/EcWe/LibEns
+lC/uztTfIocBcZL+VyUfFWJpLFFkDUH3Ir7Ep94Yik+I9AJXx8c=
+=2NXj
 -----END PGP SIGNATURE-----
 
---===============7905644342718947681==--
+--===============0155825058875276349==--
