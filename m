@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/memblock
-Date: Tue, 13 Oct 2026 10:05:31 -0000
-Message-Id: <179188593137.1560147.16675911968624858203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 13 Oct 2026 10:05:36 -0000
+Message-Id: <179188593669.1560645.15043845644787354476@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/memblock
-user: rppt
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: 80b1dad1d6f535d85b5b8dcea6f3d598847a7e63
-    new: 7a3477ec5793ab8c25be4db3e7dfe8a461bc775c
+  - ref: refs/heads/main
+    old: 0b3fc7fe6f3f68569b9f9139893491b61a4b45b9
+    new: d538cc3ec0bc4cb7b40981b3213a6c6671959ed5
     log: |
-         aedb8dde08f8cd93ce1cc3a23273f2ff7238f832 memblock: drop for_each_memblock_type() and open code its users
-         7a3477ec5793ab8c25be4db3e7dfe8a461bc775c memblock: use binary search to locate candidate regions
+         d538cc3ec0bc4cb7b40981b3213a6c6671959ed5 calipso: hash the cache key, not the option start, in calipso_cache_add()
          
