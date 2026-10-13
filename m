@@ -1,141 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============5876247983151748784=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 13 Oct 2026 12:46:30 -0000
-Message-Id: <179189559024.1696351.13290955533270008854@gitolite.kernel.org>
-
---===============5876247983151748784==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
+Date: Tue, 13 Oct 2026 12:53:13 -0000
+Message-Id: <179189599351.1700356.7163942180600394759@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/linkinjeon/exfat
+user: linkinjeon
 changes:
-  - ref: refs/heads/gregkh-fm
-    old: 3caaf4a7f2019834ba0398b898e8f2ecc9ba76ba
-    new: 8934b436d9fae1a88948fcd0479ae7f626180e7d
-    log: revlist-3caaf4a7f201-8934b436d9fa.txt
-
---===============5876247983151748784==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791895597 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1791895589-c6540411dc5bd61842113382a86e8f5033fd2dd7
-
-3caaf4a7f2019834ba0398b898e8f2ecc9ba76ba 8934b436d9fae1a88948fcd0479ae7f626180e7d refs/heads/gregkh-fm
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrOKC0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ulwP/idSgxhUXGLoZjNqbKZj
-27HC1Y+/p53OTVA3sOTZ2PcXtoJ8hOf3OqNCm5bGMjOofkEUsYVJfNWCfYpKiz7C
-CjbUh59K9PSEsdQrHdby1WGKC1QeQ3J4qbPPcLjJbfshw0szMtNpYve0m88XCb/x
-18wAd6vu6yreBghaf1NdWWzc5/fuLeQuI0gOJpjUTjmn5NVlLOqhMoKWEg/zcY6J
-YCeaeuHiksv17mvDABiHCevENKxbLonsJp6UxGNtohWhEmUtc5ZHgS8cKwRCat8M
-0Awij5T+i3kkvN/46JRw6IeAEgP8HAo2oMm78MqGqiQrs1qgm7KTKfU/M5sUIQYs
-9p/0+p28OXTbyJ83WEufGn63QTySVBOX3fv1SgZ+/84SkrOBssjWiPDoCm0JzZ7o
-13ZQ+pUNd5kmIKQ5HmcRrujWBuahGeclrDzQuciIrIQ8SsBmvbSVvKxODMHeC6De
-6f/5sYO9e8YkbFnRp7WXx03DNQmRwR/pgP51yal4nZBruTBxv18mWO23ZUSVlRTT
-AUdItNMNyyth3tW7mAnCWksz6O2Cn0TI1G8z9ovyIdsqQ4F4OYGLVf+d/NIwa95t
-asC2Zza8zRpqm/h64KDAmcdQ2zz8NiKSCE1wRk+2LFob4518/XPOhpq8r/g5DCz2
-vEXO0yEXCr0y8SGTX0p+90PD
-=rLOQ
------END PGP SIGNATURE-----
-
---===============5876247983151748784==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3caaf4a7f201-8934b436d9fa.txt
-
-6ba3ef784b688e2e95ff8bc51b3174aecac38ee2 updates based on new stable releases.
-8054365df5e105d301cbad4ab95c378af4d8893f sasha: review v7.2.9
-8755b9f24953f439bffa8153628cca5005d8ba81 CVE-2026-80650: add holes for atomisp absence
-afa6933998933972c142c4e266a6216544608fb2 add .vulnerable id for CVE-2026-89793
-c2bfa0b75420cb909bf039c6da1d477e37f53432 updates after new .vulnerable files being added
-cd9221f62e00399813b306fde6f39cf441e8358f proposed: Add Allen's v7.2.[8/9] results
-a1c54304ab41299c79dc7936a2e4155ef543a46f add 7.2.8 review from greg
-b13c5206612215e9cea54deb4bc7f17a0e50e7d2 assign some 7.2.8 cve ids
-c235e20e44289ffce76b52cadddacecf2ca610cc strip the new mbox files
-72210f34b9c5aea46910617abab18608513dba22 CVE-2026-98366: Add CVSS 3.1 score (7.8 HIGH)
-a2a4cbab2504499159464a400010d86eb7a41880 CVE-2026-98339: Add CVSS 3.1 score (8.8 HIGH)
-5782cfb0aca5fc828ea17d27e3e7ad6d3bf7c222 CVE-2026-98364: Add CVSS 3.1 score (7.8 HIGH)
-9d89d75b0df4912732ce4c039cfeeadf766337b6 CVE-2026-98361: Add CVSS 3.1 score (7.8 HIGH)
-06b09ece8a22e12d54d94162ceb59400200967b3 CVE-2026-98360: Add CVSS 3.1 score (7.0 HIGH)
-8373dde0917cdb89f61fe93f34cadcdeab4d0bef CVE-2026-98290: Add CVSS 3.1 score (7.5 HIGH)
-f3e61a4179cb678c557ef16543fabcad8e11eb61 CVE-2026-98348: Add CVSS 3.1 score (7.1 HIGH)
-f7fdf658d046096038eee83cc090633dbd3725c9 CVE-2026-98369: Add CVSS 3.1 score (7.8 HIGH)
-a14db188484ab36af36e5dd5137b607365bd839a CVE-2026-98367: Add CVSS 3.1 score (7.8 HIGH)
-c9c00c390e113acd804d7cb9d7bc4d6a3d5b4471 CVE-2026-98359: Add CVSS 3.1 score (7.0 HIGH)
-8d0aaac4b5cde3ac70437ecd692d3e99182eeb9d CVE-2026-98341: Add CVSS 3.1 score (7.8 HIGH)
-838b630e251f13b417ee94e0e4dbb10b13cdba81 CVE-2026-98368: Add CVSS 3.1 score (7.8 HIGH)
-e0f48149f7fa1d2962b30bc2b46a35166a019051 CVE-2026-98365: Add CVSS 3.1 score (9.8 CRITICAL)
-52a2f80820ff922c99bb53bbed0b4b29aff310d5 CVE-2026-98320: Add CVSS 3.1 score (7.8 HIGH)
-759fe81fc655c2b645ab0cf9f0bc21ecb90fa32d CVE-2026-98357: Add CVSS 3.1 score (8.1 HIGH)
-587e8394e8aa8c713a414fa6077bb74eefff0639 CVE-2026-98318: Add CVSS 3.1 score (7.8 HIGH)
-eb515ebd44448a2288693cf243252046de224755 CVE-2026-98349: Add CVSS 3.1 score (7.1 HIGH)
-9472933b1362b2b14cf40bafd78a00c5dc5a1d64 CVE-2026-98324: Add CVSS 3.1 score (7.8 HIGH)
-3abfaf73043914c747e50c0c2ef669ddd6267f5c CVE-2026-98323: Add CVSS 3.1 score (9.8 CRITICAL)
-0cecb28753206a52b14539de9494e74eef79ffdc CVE-2026-98330: Add CVSS 3.1 score (7.0 HIGH)
-dda46995225d716e396bea10f5b6d308ae1113dc CVE-2026-98331: Add CVSS 3.1 score (7.0 HIGH)
-7b567f86adb4b3ca60b72feb4401d2e69b53893f CVE-2026-98311: Add CVSS 3.1 score (7.8 HIGH)
-a1ca1921328c50f7f880c5169227a1dc2039ae84 CVE-2026-98315: Add CVSS 3.1 score (7.8 HIGH)
-e7a0a38817a5162b0fb1500a03de77a4cd93af81 CVE-2026-98305: Add CVSS 3.1 score (7.8 HIGH)
-303a2824a5611677e1c5e23077a03a25361c08ab CVE-2026-98281: Add CVSS 3.1 score (7.8 HIGH)
-a283bb76326e6848485ff8f4eb9010b973a48e74 CVE-2026-98261: Add CVSS 3.1 score (8.1 HIGH)
-3ed825b023ab33c3db938d77cff70cb5354c27cd CVE-2026-98276: Add CVSS 3.1 score (7.8 HIGH)
-6b217945112f819a58be3417e756cb90913c9b22 CVE-2026-98283: Add CVSS 3.1 score (8.8 HIGH)
-36db570c06fc0e13641924ce94dbe6b072cd84c9 CVE-2026-98282: Add CVSS 3.1 score (8.8 HIGH)
-20dba37175115ff22e7c5d08d02b61fcac7a8181 CVE-2026-98251: Add CVSS 3.1 score (7.8 HIGH)
-fcc146b06d6ac924842b9039fc6c33127c9f6f53 CVE-2026-98257: Add CVSS 3.1 score (7.5 HIGH)
-6df4a1114552847dd3f048805f6b68ae95442130 CVE-2026-98230: Add CVSS 3.1 score (7.0 HIGH)
-b48581fdd26609fbd0fc887f6383a20dcfe826ea CVE-2026-98258: Add CVSS 3.1 score (7.8 HIGH)
-61ca0fd57f735b7d0ab5fd3eca1f5ea55810f058 CVE-2026-98260: Add CVSS 3.1 score (7.8 HIGH)
-e5a82f6f8b8d4152b3bd3150d445d28b6c798335 CVE-2026-98254: Add CVSS 3.1 score (7.8 HIGH)
-576611550ec4f849406200101e7b31d623f7be76 CVE-2026-98241: Add CVSS 3.1 score (7.8 HIGH)
-111a848684e54cf61e3d0d3664c47bb02051c60a CVE-2026-98252: Add CVSS 3.1 score (7.0 HIGH)
-8f2532298a44db59338206e87cc2a8c8a453bbec CVE-2026-98164: Add CVSS 3.1 score (7.1 HIGH)
-5c71549f27681ffc3d1b0f102fac23900a31c2f5 CVE-2026-98253: Add CVSS 3.1 score (7.8 HIGH)
-1b6f13de71ad34f33a5bc3f3a80382fff57f2127 CVE-2026-98256: Add CVSS 3.1 score (7.8 HIGH)
-c6aae0f8e128fa1f798741c6550860ba154afc34 CVE-2026-98166: Add CVSS 3.1 score (7.8 HIGH)
-68fb3cdf83492c302d237e78c8ff35099aed66da CVE-2026-98243: Add CVSS 3.1 score (7.1 HIGH)
-e8ec9b63aabb4ae6fb1b01adb9de9b9b66f91eac CVE-2026-98239: Add CVSS 3.1 score (8.1 HIGH)
-b5293c736252a11335178135db82b7c9bf937d30 CVE-2026-98216: Add CVSS 3.1 score (7.1 HIGH)
-86e903675c38653e86788d076076841a7695d3bb CVE-2026-98229: Add CVSS 3.1 score (7.8 HIGH)
-c481e4684c1eeb1c16dabd679db3a2a58fe8be04 CVE-2026-98228: Add CVSS 3.1 score (7.8 HIGH)
-94f3b47d11bfac000ab6a7caed5919cbe5e7ed3f CVE-2026-98180: Add CVSS 3.1 score (7.1 HIGH)
-7e5b80b778c005c809fbe4eac531e540e2dc2734 CVE-2026-98173: Add CVSS 3.1 score (7.5 HIGH)
-c6138db241b66120821748e315b649e3a6f8895b CVE-2026-98174: Add CVSS 3.1 score (7.5 HIGH)
-407885c977fbc0d54d47fe949d123ce1051d0d4e CVE-2026-98197: Add CVSS 3.1 score (7.0 HIGH)
-dba0d7537ce19dfbdc497be034bf46cc5d549007 CVE-2026-98169: Add CVSS 3.1 score (7.1 HIGH)
-5250f0bb7e6b0cf166234a56293d0687c36f580c CVE-2026-98175: Add CVSS 3.1 score (7.5 HIGH)
-02b2cdd7e6071bd872f82b40f2f048dbf6f02444 CVE-2026-98171: Add CVSS 3.1 score (8.8 HIGH)
-119dab827308d2f628807b262dcbf9b3ae810677 CVE-2026-98163: Add CVSS 3.1 score (7.8 HIGH)
-10a4914c66308e02eedc11b7effcc2b88b53f340 CVE-2026-98176: Add .vulnerable file
-d8f91a8b35fd1d1d49c7edb61da00263a66073c1 CVE-2026-98177: Add .vulnerable file
-e9757b660d39249455b5e46b0ac397c579f76264 CVE-2026-98266: Add .vulnerable file
-9d2f404474cc4bcd4ca01da2c3e3250c42e31d4a updates based on cvss and .vulnerable file updates
-7665dbf0c213570bb56d83fd433cf036374d03a5 assign some cve ids on request
-e65245d833add2ba0bda9658cba6581a4ad7a71b strip the new mbox files
-2c0023655b75f0f6a47e4d5b440f17ba156d1bda issue some CVE ids on request
-09bc3fd0c2a1c3ad6ed5c55ae451aac4ca6a6c13 strip the new mbox files
-51d0a1628767051ef603dade82a45a24d8730b0c proposed: Add Ruiqi's results for v7.2.9
-1ba860a5747f2eb897c9a8466df9556eef35a120 updates based on new stable releases
-b3dd75ace018d7588a9d02db03acd15bb68c3826 assign a cve id on request
-9dcf5d4159c7ad47f44ada03272d775f6493a672 proposed: Add Ruiqi's results for v7.2.10
-1f0dd5ed255d882156785c295acec6e009c9e3fc fix up range for CVE-2026-93275
-3f516d9705bb0cab1695b1455bafd374d10f3885 tools: symbool: initial addition
-836e4f9794d4fe864d87d38a2a71750987f4dfbc tools: add run_symbool function
-8c1130125bd821c311317489748bfd055c338f9b tools: bippy: add call to symbool
-8934b436d9fae1a88948fcd0479ae7f626180e7d tools: scripts: add symbool symlink
-
---===============5876247983151748784==--
+  - ref: refs/heads/dev
+    old: 1cae92a58966f19d3e43fe34e9c4f315d4e9b822
+    new: 8e431c3bce0bb51802fc79b10225cc90a15f15d1
+    log: |
+         8e431c3bce0bb51802fc79b10225cc90a15f15d1 exfat: free clusters beyond EOF when a write fails or is short
+         
