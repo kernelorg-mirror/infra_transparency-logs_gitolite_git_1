@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 13 Oct 2026 09:46:14 -0000
-Message-Id: <179188477475.1544482.13730818260998538116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 13 Oct 2026 09:47:56 -0000
+Message-Id: <179188487638.1545194.7730337759782512474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: 55b8aa71c5220034c40fdebc49ce50c5aee52c91
-    new: 50f413b83b31ea8d8ee4276165ab95ed5ab0e10f
+  - ref: refs/heads/main
+    old: b7ad72414c673ce1fa1f463e807cd4f34f8be9bf
+    new: 8bf659bd54e1f00e34cf5244b1d289c506fa47c0
     log: |
-         50f413b83b31ea8d8ee4276165ab95ed5ab0e10f ALSA: pcm: Protect delay DMA sync against concurrent HW_FREE
-         
-  - ref: refs/heads/master
-    old: 595963d9508ca9fbf63e03c48bdf553a3c66b749
-    new: 55c96cbd514a514772e69609c8baa2f95165f1b9
-    log: |
-         50f413b83b31ea8d8ee4276165ab95ed5ab0e10f ALSA: pcm: Protect delay DMA sync against concurrent HW_FREE
-         55c96cbd514a514772e69609c8baa2f95165f1b9 Merge branch 'for-next'
+         8bf659bd54e1f00e34cf5244b1d289c506fa47c0 netlink: reset skb headers before unicast and multicast filtering
          
