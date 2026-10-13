@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 13 Oct 2026 09:58:57 -0000
-Message-Id: <179188553791.1553884.1045969962613013050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/memblock
+Date: Tue, 13 Oct 2026 10:05:31 -0000
+Message-Id: <179188593137.1560147.16675911968624858203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/mm/memblock
+user: rppt
 changes:
-  - ref: refs/heads/controller/dwc-qcom
-    old: 626acf6efc69c666ffee50bf18e7b95e68670c6a
-    new: 5121d76cb9dde74662962cd5678a64abeaf3b3e4
+  - ref: refs/heads/for-next
+    old: 80b1dad1d6f535d85b5b8dcea6f3d598847a7e63
+    new: 7a3477ec5793ab8c25be4db3e7dfe8a461bc775c
     log: |
-         967a73293ae5f57af68e815942078e110c1f6d08 PCI: qcom: Block accesses to downstream devices on link down
-         5af84e8928cb2ccc9696d90a0096a43c5bab5913 PCI: qcom: Skip system suspend/resume for firmware-managed PCIe
-         5121d76cb9dde74662962cd5678a64abeaf3b3e4 PCI: qcom: Honor IOMMU provider's #iommu-cells in qcom_pcie_config_sid_1_9_0()
+         aedb8dde08f8cd93ce1cc3a23273f2ff7238f832 memblock: drop for_each_memblock_type() and open code its users
+         7a3477ec5793ab8c25be4db3e7dfe8a461bc775c memblock: use binary search to locate candidate regions
          
