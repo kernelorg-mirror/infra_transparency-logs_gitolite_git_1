@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6608589890157280200=="
+Content-Type: multipart/mixed; boundary="===============0707680557005954814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 13 Oct 2026 22:18:32 -0000
-Message-Id: <179192991270.2139978.15031443980354716703@gitolite.kernel.org>
+Date: Tue, 13 Oct 2026 22:18:35 -0000
+Message-Id: <179192991510.2140169.16154441401502809667@gitolite.kernel.org>
 
---===============6608589890157280200==
+--===============0707680557005954814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: d8674294aefef02266c4d47ad10131f1bffbe534
     new: 05b5019b01fb9443b09ae4ed34af1135a80a84c8
     log: revlist-d8674294aefe-05b5019b01fb.txt
 
---===============6608589890157280200==
+--===============0707680557005954814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ a52629f85a3a97f76a12b9cb97717a36318a708e net: sparx5: Add TAS offload support
 e4f25fd86c9925df67c803a8ec4e0273606ec0e5 Merge branch 'net-sparx5-add-tas-offload'
 05b5019b01fb9443b09ae4ed34af1135a80a84c8 net: alacritech: fix dma_free_coherent() in error path
 
---===============6608589890157280200==--
+--===============0707680557005954814==--
