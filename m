@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4410938252429168336=="
+Content-Type: multipart/mixed; boundary="===============3485219203084212768=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 13 Oct 2026 13:46:20 -0000
-Message-Id: <179189918034.1743868.10921912785079176579@gitolite.kernel.org>
+Date: Tue, 13 Oct 2026 13:46:24 -0000
+Message-Id: <179189918465.1743989.11232062569828896266@gitolite.kernel.org>
 
---===============4410938252429168336==
+--===============3485219203084212768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: beaba65d5704418b6fa03c96a389bc2c2b6702b8
-    new: 0e199ae6e803e76ebf128e009d336e5917221e63
-    log: revlist-beaba65d5704-0e199ae6e803.txt
+  - ref: refs/heads/mm-unstable
+    old: 4a28cc6bc038b2b357d448c472a949d9bb2c404f
+    new: 7186f1bd21b9094cc063c10f8492fd135522d3cb
+    log: revlist-4a28cc6bc038-7186f1bd21b9.txt
 
---===============4410938252429168336==
+--===============3485219203084212768==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-beaba65d5704-0e199ae6e803.txt
+Content-Disposition: attachment; filename=revlist-4a28cc6bc038-7186f1bd21b9.txt
 
 60e58be27d5e16d35e0728298f994dcae9f208a5 mm/damon/sysfs-schemes: read sysfs_filter->addr_range only once
 af19aff38d6faea35b10f26cca32d0e54f8aea5e mm/damon/sysfs-schemes: read sysfs_filter->sz_range only once
@@ -336,7 +336,5 @@ bf3480322a65cea3f4598c873648e4362edbe3ff mm: zswap: use stack requests for synch
 32adc64c426132918113357fb3b9275f2912b97f mm/hugetlb: move hugetlb_sysfs_initialized into hugetlb_register_all_nodes()
 83624a31b06351952b805cd6ef8bce8c92e120c8 selftests/mm: fix uffd move-pmd test crash on 64K base page systems
 7186f1bd21b9094cc063c10f8492fd135522d3cb fs/proc/task_mmu: fix lost maps entries above 2^63
-aa3b034f69686e7f393b9857cd529d348aa53da7 riscv: mm: fix concurrency in mark_new_valid_map()
-0e199ae6e803e76ebf128e009d336e5917221e63 riscv: mm: exclude invalid THP PMDs from page table check
 
---===============4410938252429168336==--
+--===============3485219203084212768==--
