@@ -1,22 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Tue, 13 Oct 2026 20:43:46 -0000
-Message-Id: <179192422611.2072384.4249548209370173859@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7853070397170868298=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 13 Oct 2026 20:43:53 -0000
+Message-Id: <179192423355.2072554.4842473654352931033@gitolite.kernel.org>
+
+--===============7853070397170868298==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/b4/rust-dyndbg
-    old: cf57f71a8c27f0e265c1af5e4663425acf8a347f
-    new: d338e675bf4d31243a9a264ce3f6c2047d0503b5
-    log: |
-         5bfb69c65a572812bccf569b616e5246d728d0e5 rust: add dynamic debug infrastructure
-         c517ed82c7a46a73d381906ad83a0825a2216d7c rust: print: enable dynamic debug for pr_debug!()
-         66ce469690886833511e25f4fa9ee743c34b3f44 rust: device: remove logging methods
-         d338e675bf4d31243a9a264ce3f6c2047d0503b5 rust: device: enable dynamic debug for dev_dbg!()
-         
+  - ref: refs/heads/work.fs.reveal
+    old: 0000000000000000000000000000000000000000
+    new: e1799b058d64696824a7aa325875d16b82fd2932
+
+--===============7853070397170868298==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 0x91C61BC06578DCA2! 1791924232 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+nonce 1791924220-0024608b05aa7627287293b9e169bb56780ad15e
+
+0000000000000000000000000000000000000000 e1799b058d64696824a7aa325875d16b82fd2932 refs/heads/work.fs.reveal
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCas6YCAAKCRCRxhvAZXjc
+og4MAQDUf2iVPmeq4ieWuw6kao8z7TsBE8/Yx9cz577LhQ/fOQD9FkU2vPjF7sZM
+OhWkMDzH1Xj7dZ+hMjIkbYrvXa/rLgE=
+=mROK
+-----END PGP SIGNATURE-----
+
+--===============7853070397170868298==--
