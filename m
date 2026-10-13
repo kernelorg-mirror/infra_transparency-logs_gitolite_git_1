@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 13 Oct 2026 14:05:54 -0000
-Message-Id: <179190035400.1761870.6026381027298646434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 13 Oct 2026 14:05:59 -0000
+Message-Id: <179190035967.1762086.17377996702073741705@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: bc01105ed65d15787b2eb93ac26e8624a2139e35
-    new: 3b05843302202598a6d25f3e2543c8182e6a930c
+  - ref: refs/heads/for-7.3
+    old: 8ac49fbf00e580e8ee1a66b120f8b33d9ab81901
+    new: 2a31b5378c6db9c4a8d399e5d10d32cd4b732bef
     log: |
-         3b05843302202598a6d25f3e2543c8182e6a930c perf test attr: Source setup_python.sh instead of calling python
+         2a31b5378c6db9c4a8d399e5d10d32cd4b732bef ASoC: amd: yc: disable MSI on resume
          
