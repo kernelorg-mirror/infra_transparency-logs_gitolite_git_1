@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Tue, 13 Oct 2026 16:27:57 -0000
-Message-Id: <179190887714.1881713.17690074201926292770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 13 Oct 2026 16:31:11 -0000
+Message-Id: <179190907167.1885059.8630877677093995507@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/b4/kbuild-error-propagation
+  - ref: refs/heads/rcu-free-v3
     old: 0000000000000000000000000000000000000000
-    new: e7f0b27fbbf1115d93bd108f00ebe7a0428e7e38
+    new: 549531755d329ec48439e3263535351ba1c5acd5
