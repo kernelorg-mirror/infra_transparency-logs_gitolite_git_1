@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Tue, 13 Oct 2026 12:53:13 -0000
-Message-Id: <179189599351.1700356.7163942180600394759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 13 Oct 2026 13:01:44 -0000
+Message-Id: <179189650427.1707176.15569330549607224406@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 changes:
-  - ref: refs/heads/dev
-    old: 1cae92a58966f19d3e43fe34e9c4f315d4e9b822
-    new: 8e431c3bce0bb51802fc79b10225cc90a15f15d1
+  - ref: refs/heads/for-7.4
+    old: 88c3e297eeeaa8512964aae38e699ae0de1b3d53
+    new: 90001ddc6cbe4d3fbc69f72ca4bad54e70a4c064
     log: |
-         8e431c3bce0bb51802fc79b10225cc90a15f15d1 exfat: free clusters beyond EOF when a write fails or is short
+         54f4db17f9d335bf2ed84c70906b95487d0ef1a0 spi: tle62x0: Use kstrtoul() instead of simple_strtoul()
+         9efc388655e4abc428368b6d5f47ddc051539faf spi: omap2-mcspi: Use snprintf() instead of sprintf()
+         506fbac9274c0cfd3dc1b529ab5be0ddf9085e34 spi: s3c64xx: Use snprintf() instead of sprintf()
+         90001ddc6cbe4d3fbc69f72ca4bad54e70a4c064 spi: use kstrtoul() and snprintf()
          
