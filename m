@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Tue, 13 Oct 2026 20:34:56 -0000
-Message-Id: <179192369647.2065143.1750605978289764205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 13 Oct 2026 20:42:49 -0000
+Message-Id: <179192416996.2071860.6060654235860280343@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-user: andy
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/fixes
-    old: 6da1f3437435c82eaa15b121022474bb358ffe20
-    new: 3fd4bf93d586cb07304cdcb5e8b3c51ac1d8284f
+  - ref: refs/heads/spi-7.4
+    old: dcdf23067adf6ccee5c0e2649430f00f484827f0
+    new: 9d71f9fe5b5de916bded51343138b09b1eb103ed
     log: |
-         3fd4bf93d586cb07304cdcb5e8b3c51ac1d8284f gpiolib: acpi: Fix GPIO lookup using relative path
+         9d71f9fe5b5de916bded51343138b09b1eb103ed spi: meson-spicc: fix invalid DMA unmap on mapping failure
          
