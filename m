@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============2909760996953001488=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 13 Oct 2026 10:50:50 -0000
-Message-Id: <179188865029.1600029.10237619827588165138@gitolite.kernel.org>
-
---===============2909760996953001488==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
+Date: Tue, 13 Oct 2026 10:51:00 -0000
+Message-Id: <179188866023.1600368.2949109588080394762@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ojeda/linux
+user: ojeda
 changes:
-  - ref: refs/heads/master
-    old: a8a62ada5448a1c6688afbad453a03b343697bfb
-    new: 3a03beaeae1d07f9316e1f5dc05e2c306c403989
+  - ref: refs/heads/rust-next
+    old: 969a0af79da8ab33f2887376cb69ace62a9285b0
+    new: d74163675800c63577f99f99d6b4918994796e68
     log: |
-         3a03beaeae1d07f9316e1f5dc05e2c306c403989 5.15-stable patches
+         1d09c9ee13be740ec0bbf976f14b6f942396cabd rust: num: add cv! macro to create values from constant expressions
+         8d26ced7b496f4cb9c5eafbad7ee21adf0fb6673 rust: bitmap: use function-level cfg on kunit test
+         916cf073e88d55f77ccdb85efb163e7bb60a9c48 rust: bitmap: restrict bitmap length to at most i32::MAX
+         ace37c646d7f29aab17d8da33db6de5fcd498e8b rust: sizes: add sub-1K size constants
+         da4d55c6e46d06fd52c74cbea78a23b9e44a3669 rust: sizes: implement SizeConstants for Alignment
+         9736af80d7714052e004c2e2c73700668077b0b1 rust: bitmap: add contiguous area operations
+         d74163675800c63577f99f99d6b4918994796e68 rust: id_pool: add contiguous ID reservation
          
-
---===============2909760996953001488==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791888657 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1791888648-5e224bba5235f316937ebc5a0c174b8f361e9abe
-
-a8a62ada5448a1c6688afbad453a03b343697bfb 3a03beaeae1d07f9316e1f5dc05e2c306c403989 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrODREbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/WgP/jo+L8pMqHqZNixyOcW3
-hyhamzWQqk14f242Fon2Lo947Vix7HHQBHfkLJrgZ5R2OE8z3LKMyt8tO9H0Gcgb
-oOaN94bq3s1bRFPj2mQnqDlu1pgAlAZ7sxKaxe2dl+pW+pN8AEMZY/ZOxYU6f3j3
-Nb9yFuHeZ+xVhFLhZrxRlsOdiH00PRM+nirtaQnDjSbFOQ7XyZYY8BGRjusBx8ZC
-fFYSgWCpcNSxbAWWI0qzlJAX+uWZi4gU2kdku678EcLdQIg/PWC/qosWZmIaZorl
-4ZJa1qI+05cWnOxv4N+Srt7QQ8XGaFQY++zmjBa12T2GoCBqyy7HpHoERaRaXfLc
-pJV/yQUAXA9NaxGcBkWULRa4LCh+kM7p6jOYL889Ps7CjfcMOme71x+arrcO7Bnd
-GGAYBy7xVHANqXwNvssJnnfTyrj9axja/vpfvQujqIOEetvLLgbMnKqXJPXzpQdj
-BschEwNyDBhfz7XXQz24RTynHAtQqFQzEoBjBOiQgDNjTtDi9+tHz85Prw8Yvve1
-IhojZUV2DCMv1t4DoegGLKLb0KRzOvpxjlBy/XBLaB2wwrGvKB7vkz1jFqQG+VXQ
-TamcnTnShKYAKoCJE4EegR6JGWjVp1PxyKxd9CJy02O0OO1sXKH1ojMICGbknDp4
-b7lV4dZiZtDeOyZb/qI129bd
-=34g0
------END PGP SIGNATURE-----
-
---===============2909760996953001488==--
