@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Tue, 13 Oct 2026 14:42:08 -0000
-Message-Id: <179190252896.1793139.7902170631648304735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Tue, 13 Oct 2026 14:43:24 -0000
+Message-Id: <179190260454.1793605.5171328746536339974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: borntraeger
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/queue
-    old: b6d6730ceb362363da407e7b6dbdea0605e88a4c
-    new: 74153e116543bc017aff93720fcc603cb0e8598c
+  - ref: refs/heads/riscv-soc-drivers-for-next
+    old: 96b35a1251dc9977967286623fd15fcef34feeb1
+    new: 6f77194e1147d85c10b4964edee7091c701a25c2
+    log: |
+         6f77194e1147d85c10b4964edee7091c701a25c2 soc: mpfs: use kref cleanup on probe failure
+         
