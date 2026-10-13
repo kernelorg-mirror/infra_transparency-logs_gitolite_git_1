@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7079827592062857840=="
+Content-Type: multipart/mixed; boundary="===============1501041143322953561=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 13 Oct 2026 13:53:37 -0000
-Message-Id: <179189961780.1749799.6285022350474645976@gitolite.kernel.org>
+Date: Tue, 13 Oct 2026 13:53:51 -0000
+Message-Id: <179189963126.1750103.15542212458553351494@gitolite.kernel.org>
 
---===============7079827592062857840==
+--===============1501041143322953561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 4278202648dca9ccf812e4ae592c4868897984f1
-    new: 7e170600b36298cba2ba7a0c63d1cebea7970708
-    log: revlist-4278202648dc-7e170600b362.txt
+  - ref: refs/heads/char-misc-testing
+    old: a3eeef8c16fba745254516a86015f7fe27847a6c
+    new: 9c325b21bba99e597771137fc11b9427c86618d8
+    log: revlist-a3eeef8c16fb-9c325b21bba9.txt
 
---===============7079827592062857840==
+--===============1501041143322953561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791899622 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791899637 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1791899614-1cb412f9903f0a21ad200b1d40ac94adc0935a47
+nonce 1791899628-8aaf103636f1d366adba589db1e4a06e4b16a0cb
 
-4278202648dca9ccf812e4ae592c4868897984f1 7e170600b36298cba2ba7a0c63d1cebea7970708 refs/heads/char-misc-next
+a3eeef8c16fba745254516a86015f7fe27847a6c 9c325b21bba99e597771137fc11b9427c86618d8 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrON+cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2qsQAInAaIr3pFbufO9m8MsG
-wIKOAT1znekPcoEibEgC72lxfNPAsDQdYaaVRBtt3GQMX0ZQS3UaE6G0N7uhDeZ9
-eJirwXCNcuNvm5RjJPSQVzrxQs6RUf/j/H4iHPGJBGNLdVfEe7IFvAYLsyCsFnqD
-b0F0y653QR54x7/FiPAqg/XBl18OHOlnWfBYLDj11WMS+8NGolu8zbhtYj5StgQG
-O4WHq29Q2JZiOsRn0VpdBGwz7DaFRJdMWJ908Dtk7KMIywvIEkKhK/gRuRniJ/lT
-3luC1C6R/q3kQM3SL6S7q3dDEcHeP65eX0i9Eg+IBD3ZwljhayTNiXlDqQttsY94
-U1XMUgIlZ0n+R5FftA22VxNfwS74uuero6NeEEWb1cl4kSYZ6QJwE6mtkLs0dLR6
-N5Ck2EBZYMlHkxvHI4c7wnvhE2ZPBp7+BXqslF7klsYIhr7BvpONQu1Irv82f1Qi
-306fA0BojZp/TxxoAW94YJf5uQm0XVBKvfjOmq+G9NIZc7O55Nps6s+8SOj76Shv
-p0krjFISpWaxWgD4dlSI/949qUO5b8rlaWp+l8bMdeJqMyrBaGl7GYndV0XOBdug
-Bj5SyHnCZUswqUmAjnorJgVR5dh2REz3/zTXeEmBSTq13hqg/cra07ClWBbGh3+W
-AlXot2FDiXqduNpQgG+XeMFw
-=GiRF
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrON/UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CkIP/RnVczVxRtYfQd/Jx46W
+fx3+lQiHDbqpY9NLh9Lflzmy6p24ovujQe9/dfx9ZCoyDKHtEpGSoARAZqGbu203
+k6pXTnFP550nqV1lGDDn8yaOc8yPtV7nK0xYYMXBe8G5gaZ+01drTFHt7SGEl/O8
+nQnwX1YRNIVIM8ZLM8QGDCQ7WYHRXijMCeIJgBrFUcyjEcHffQre+1mi9sO/1+6L
+kKqgU5XrOEbtQwNr2lo4XvIEjSLMCz/f6JwYJbJxTaCaBf4biFNdJ/R8CkETp9iE
+Aflxdw4eKeEu/axyTuFB5SNmzFC5LckpbCnphcUN2LiMf3BuTCQDemJiRelZrfOT
+8BqLqW7OKb9mC349y/f3b7QLbFPZ3yMKZ9nsvCGN9/idGKbdY6UTc8p2FjPHooco
+CTb1p/cMMWWD/9FqHUOAAoDGYVAP+9NgvxbI242yPx0O3PCC60DWLVGailQJkEyD
+aZrzRZywgpG3XRJj+EYsMi/HvY2jtp0Au6tJxg2OM/BjEECgZTDH21PYhAk8Fwlg
+v4Wt9llr9lU4aRnahh47c7aaC1jB5ulIzEdLkBcw9rkMmRFsRgemmM612AgtL3Jx
+tvdE5BCbgWx3AdLVN3Msbkyty+WPJcp+0yEMHkf1Esbi8lcZbsHdVH4kbmaw4NW5
+llrGWaZFEMeum6idThDTjEzF
+=D72w
 -----END PGP SIGNATURE-----
 
---===============7079827592062857840==
+--===============1501041143322953561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4278202648dc-7e170600b362.txt
+Content-Disposition: attachment; filename=revlist-a3eeef8c16fb-9c325b21bba9.txt
 
+83c29a55b89e0de6e15bcc6c21b16b4b75ec3e89 bus: mhi: host: pci_generic: Add IP_CTRL channel for Sierra EM919x/EM929x
 b62f6c2765dce3bc8701d2222e7361edc59aa932 interconnect: qcom: Enable Shikra interconnect driver by default for ARCH_QCOM
 bd2b723bae9e156405f32d245a60ef90b1abb6c1 interconnect: qcom: Make important drivers default
 c8604ebb5d9cd4c22e1fb55c4fadcaa14981198e interconnect: qcom: Add missing depends to Hawi, Maili, Nord and Shikra
@@ -80,6 +81,11 @@ cc91c1b99101f2dcd2f624a27bec6f6f557e5421 interconnect: qcom: msm8976: Configure 
 041e725a102fbf3a4e484e28abe66575bc515888 Merge branch 'icc-milos' into icc-next
 07bf225c62c00b9b934b9125e78e2208b961d9c3 Merge branch 'icc-rpm' into icc-next
 e0667aa9c6f997e827ba9444d19550dea95d2169 interconnect: qcom: Skip get_bw on QoS programming providers
+95601e9948b42f82600ff2d9e0c2f699a067d561 bus: mhi: host: pci_generic: Fix runtime PM imbalance for no_m3 devices
+b1b35aa26037c2b93ff30087636aee7c87983878 bus: mhi: host: Fix typo "intented" in comment
+ba9eee2d6f7926ca665d94bd4b8b8c962dec37eb bus: mhi: host: Use %p for pointer formatting
+3ae2c076ed38afe76b4c223fbc2e87738a5b44dd bus: mhi: ep: Use IRQF_NO_AUTOEN flag in request_irq()
+710bf7329abf86e37db529f19c8f394099238892 bus: mhi: host: pci_generic: Add DUN channel configuration
 a3281934612608db9e1d24aaf913c846e913de89 coresight: trbe: Hide enable_sink sysfs file
 cdffc9152b11fb99431704dd81b1391ade04d688 interconnect: qcom: fix endian annotations of BCM aux data
 0fd42eec3e7f8cbb94eee72879c5dc56f8c3504e interconnect: mediatek: fix Makefile typo for mt8196
@@ -99,7 +105,20 @@ f5e6bb291eca5237557341595e156c7e0725948d coresight: etm4x: rename local config a
 da1ffcf6bb43b43cc272131ce8e5b18935876fb2 coresight: etm3x: rename local config as curr_config referring drvdata->curr_config
 3663b4e9875b297914626e09e5bd898e3a6ce55d coresight: etm3x: rename drvdata->config to sysfs_config
 343cfcbb3ecfdb80aa576a428cfa3b65ad783842 coresight: tnoc: Constify amba_id table
+f6985f512f82757f4aad13bad87039c9190b1466 bus: mhi: host: pci_generic: Add Quectel RM500Q-AE support
+dd93cef28dcb604375236a9cfa8c683e25b66e33 bus: mhi: host: clients: Add loopback driver with sysfs interface
+f9ff616f57471389893475166f10765d77854e9a bus: mhi: ep: Add mhi_ep_queue_buf() API for raw buffer queuing
+0b1883ca75c0005ab5ca52c7bc1a26329bc39746 bus: mhi: ep: clients: Add loopback driver for data path testing
+4278202648dca9ccf812e4ae592c4868897984f1 Merge tag 'mhi-for-v7.4' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mani/mhi into char-misc-next
 48671c0fac5ca5a8a3dda9b32c67344d4e198094 Merge tag 'icc-7.4-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
 7e170600b36298cba2ba7a0c63d1cebea7970708 Merge tag 'coresight-next-v7.4' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/coresight/linux into char-misc-next
+471ce96a9c415b8a67bd5081ac2089a458cacc2f comedi: dt2811: fix shift-out-of-bounds in IRQ check
+6b795870cf764379a4631b99c3c20dadc206c064 comedi: comedi_bond: Refactor strlcat() to seq_buf in do_dev_config()
+790ea6844593bcd03b0379986fc821d8c511746e comedi: comedi_parport: validate the IRQ supplied by userspace
+71424db0ebb5f484fa3f386910f8ce9da95b8b2e comedi: ni_atmio16d: validate the IRQ supplied by userspace
+81026c2b3f9096cdfdfa02918f94865629fb7f90 comedi: dt2814: validate the IRQ supplied by userspace
+797d56d7f90864e67424f8e82639a9b3aedf37e0 comedi: dmm32at: validate the IRQ supplied by userspace
+23c6fc62e754f8bc412ceb5c0d9aaa14f2c9ff31 comedi: pcmmio: validate the IRQ supplied by userspace
+9c325b21bba99e597771137fc11b9427c86618d8 comedi: pcmuio: validate the IRQs supplied by userspace
 
---===============7079827592062857840==--
+--===============1501041143322953561==--
