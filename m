@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Tue, 13 Oct 2026 12:15:43 -0000
-Message-Id: <179189374354.1672398.10315102040769903086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Tue, 13 Oct 2026 12:18:50 -0000
+Message-Id: <179189393053.1673676.1679398681224244766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/thermal-v7.4-rc1
+  - ref: refs/heads/kvm-arm64/cross-vcpu-sync
     old: 0000000000000000000000000000000000000000
-    new: ed7946c3c67f1c3566163b9b75bb8586e5bd5659
+    new: edc82f221b75cc205f6b63e4272561661bae5eec
