@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 13 Oct 2026 14:08:51 -0000
-Message-Id: <179190053181.1763331.18376023331820449388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 13 Oct 2026 14:11:26 -0000
+Message-Id: <179190068600.1766663.15121453834351310592@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: bc01105ed65d15787b2eb93ac26e8624a2139e35
-    new: 3b05843302202598a6d25f3e2543c8182e6a930c
-    log: |
-         3b05843302202598a6d25f3e2543c8182e6a930c perf test attr: Source setup_python.sh instead of calling python
-         
+  - ref: refs/heads/controller/rockchip
+    old: 0000000000000000000000000000000000000000
+    new: 579de1638a0a75c8858f7e366bdb3485157855a8
