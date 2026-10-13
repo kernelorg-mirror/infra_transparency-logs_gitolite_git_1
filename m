@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 13 Oct 2026 01:32:48 -0000
-Message-Id: <179185516843.1145623.15290909489665406786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 13 Oct 2026 01:42:40 -0000
+Message-Id: <179185576067.1153924.15033164637013878234@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/tags/ath-next-20261012
-    old: 0000000000000000000000000000000000000000
-    new: 8b02bcf987072ac6624498fc5c2d861b86fe7e9b
+  - ref: refs/heads/master
+    old: 371f783b5fddce941fbefa06c4c091071fe8263d
+    new: 27e8be8565d1d593e5adae14e5737a3a09594139
+    log: |
+         27e8be8565d1d593e5adae14e5737a3a09594139 Fixes for all trees
+         
