@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Tue, 13 Oct 2026 11:41:30 -0000
-Message-Id: <179189169035.1645985.13937248136569070005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
+Date: Tue, 13 Oct 2026 11:42:10 -0000
+Message-Id: <179189173043.1646468.7009187841122259281@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/mszyprowski/linux
+user: mszyprowski
 changes:
-  - ref: refs/heads/dma-debug-fixes-v1
-    old: 0000000000000000000000000000000000000000
-    new: 0cb101029c1d391a71a0b469173655beae9dc3c2
+  - ref: refs/heads/dma-mapping-for-next
+    old: af3857eac74e8a957740c083ca7e381e5bf82265
+    new: 352665c55877368854f87724698dad0b453444eb
+    log: |
+         9441e7eca18c8004d1afe57b2f9b27717549562a tools/dma: fix building with O=
+         352665c55877368854f87724698dad0b453444eb tools/dma: fix building from the top level with O=
+         
