@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8928970723552655762=="
+Content-Type: multipart/mixed; boundary="===============6285151900994622932=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 13 Oct 2026 21:28:20 -0000
-Message-Id: <179192690098.2103104.7351116255060159586@gitolite.kernel.org>
+Date: Tue, 13 Oct 2026 21:28:24 -0000
+Message-Id: <179192690469.2103344.5162210442820024318@gitolite.kernel.org>
 
---===============8928970723552655762==
+--===============6285151900994622932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/clk-for-7.4
-    old: 4ba7bf34e60fec198b1b76470ba02b495c45788e
-    new: 5c32769895e75914e03031b3483775dabcfac264
-    log: revlist-4ba7bf34e60f-5c32769895e7.txt
+  - ref: refs/heads/for-next
+    old: d628f8fa591e8e78995afd179e6ee021135cba6c
+    new: f5672a3dff0291d6a45eb0c258b9d2baeb4dc577
+    log: revlist-d628f8fa591e-f5672a3dff02.txt
 
---===============8928970723552655762==
+--===============6285151900994622932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ba7bf34e60f-5c32769895e7.txt
+Content-Disposition: attachment; filename=revlist-d628f8fa591e-f5672a3dff02.txt
 
 e8d919bc9a4cb27793d2aae12bb81f432c3f71a0 clk: qcom: gcc-eliza: Tie the CX power domain to controller
 b080163dce8ce06167fa7c88eaefd4282955f616 clk: qcom: gcc-kaanapali: Tie the CX power domain to controller
@@ -123,5 +123,7 @@ eaeb4cea2c45b10c265dbfad1c5d378f00b49152 Merge branch '20260811-ipq9650_icc-v2-1
 c91ba2e1b7df08af950de391e59208356ecf3ed7 clk: qcom: ipq9650: Use icc-clk for enabling NoC related clocks
 104480aa6684d532012ed97b38dc788e7a000267 Merge branch '20260922-maili_camcc-v4-1-87704b664dde@oss.qualcomm.com' into clk-for-7.4
 5c32769895e75914e03031b3483775dabcfac264 clk: qcom: Add support for camera clock controller on Maili
+e284de4dfc0132764ef0e051a7024932b130c5e7 soc: qcom: rpmh-rsc: Update CMD_MSGID_LEN to 4 bytes for read request
+f5672a3dff0291d6a45eb0c258b9d2baeb4dc577 Merge branches 'arm32-for-7.4', 'arm64-defconfig-for-7.4', 'arm64-fixes-for-7.3', 'arm64-for-7.4', 'clk-fixes-for-7.3', 'clk-for-7.4', 'drivers-fixes-for-7.3' and 'drivers-for-7.4' into for-next
 
---===============8928970723552655762==--
+--===============6285151900994622932==--
