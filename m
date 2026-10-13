@@ -1,43 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============5555048840735490536=="
+Content-Type: multipart/mixed; boundary="===============0937263496678870680=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Tue, 13 Oct 2026 13:38:44 -0000
-Message-Id: <179189872482.1735542.14197104347874080075@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Tue, 13 Oct 2026 13:40:51 -0000
+Message-Id: <179189885126.1738685.14051640974244388776@gitolite.kernel.org>
 
---===============5555048840735490536==
+--===============0937263496678870680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/rust-dyndbg
-    old: 7ab7c21d9e16f79660bb2b8dce6d5d553839f4f7
-    new: fef578eab2b69747f0662e8fb629e52f86e1da26
-    log: revlist-7ab7c21d9e16-fef578eab2b6.txt
+  - ref: refs/heads/staging-testing
+    old: b269cadb8e3d23b6f34030fb03b5c322b6ba19fe
+    new: ec1ecf4f23c5c8187f25a367be70fe585e5e4a08
+    log: |
+         b8cb5f7f6de5dc33e82a477e5c81a965949f829c greybus: Discard pm_runtime_put_autosuspend() return value
+         6b4b1460f052b9467038efbea9d69d632caed82b staging: fbtft: update outdated struct fbtft_ops comment
+         f0a9ff09ee6de4b89ac5ede2af47c81432391bb8 staging: nvec: fix GPIO descriptor documentation
+         d32a1e175c299eea372a8954c086bcdedbe54e53 staging: octeon: fix misuse of kernel-doc comment
+         ec1ecf4f23c5c8187f25a367be70fe585e5e4a08 staging: greybus: replace PTR_ERR() with %pe in error messages
+         
 
---===============5555048840735490536==
+--===============0937263496678870680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7ab7c21d9e16-fef578eab2b6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-58d0b045c3a32566d384dcbb880a62608aafe465 rust: add support for dynamic debug
-4dcf3a168691a947565808d153fbed45b562f8ac rust: print: use `CStr` for __LOG_PREFIX
-f054a3435cb22138edb3189cc9b2a20803d1817e rust: sync: atomic: Add Atomic<u{8,16}>
-7ea7a84f9de2d1141b07f521164c3263c877d6cb rust: num: Add Bounded::USABLE_BITS
-d24d9316615c1dec2051495dc4800906a0c8fc2b samples: rust_print: add debug messages
-e4e8a9fa98111b0e3e3c498de326d6846ff0e065 dyndbg: use u32 for struct _ddebug bitfields
-efc9809ad98b5c7005bdb41021c51c3c557ad2a5 dyndbg: make _ddebug::flags its own field
-a26095ef940e50fd490e51b44bdfb943700e9024 dyndbg: use READ_ONCE()/WRITE_ONCE() to access descriptor flags
-05e353ec539b797316d989201a58c8113c0fc00b dyndbg: always declare __dynamic_*_dbg() helpers
-d94319a3c806cb70df7929675a1e1d8ee0b1be0e rust: add dynamic debug infrastructure
-7119ce6b812a663d96f7566932933239941c4e42 rust: print: enable dynamic debug for pr_debug!()
-54fb640d8c642284f61a2b5ac1342e9191b6c51f rust: device: remove logging methods
-fef578eab2b69747f0662e8fb629e52f86e1da26 rust: device: enable dynamic debug for dev_dbg!()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791898856 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1791898848-e28e7f02174c1f164d807eb1d3f1ac62083d0ca5
 
---===============5555048840735490536==--
+b269cadb8e3d23b6f34030fb03b5c322b6ba19fe ec1ecf4f23c5c8187f25a367be70fe585e5e4a08 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrONOgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z3cQAKOwmahb5fZDCVdCspBT
+Ne+qAsEM8gloQ0upxIkTSqiQysgmYdc52ooUxY0Ul0PUB+HY48BhlXpWHISAyK/X
+OCVGbeihcukKC6qcQegcW7kVdq9jvRhRqPzClA/MYaJWIHxZ7cfjmnYEQT2IYga5
+5lnLo16JYokl6Y99Gyhwb6xhVnyh5aLqEXK/uX0yfYM817MHCx1pMqcWZ2G9H01g
+NYt0gczLE1apFFzISJlSwE0pNGHCcgRS4KsLe6dlNNzsJ8iaOxt6quyKmkjBHCeW
+d03myM+YDMLEFiYvHGsTiELUZlq9c41+8lOe8/iCowcuwyH30LaYkwyJAFJUiue3
+BCpmikvt1wcdZ2lmwrGHaTTuqVR3Dr2lOp+uRB5GZ+Jmc8eVuQslh9V6+wJVqdA7
+6xk5kTYdstpXiLBkIhZCmdCugLS6Sj3ljW/ImPgjeSrK/5V4MYoreAxe5ix4wt9a
+MrH8iawMncwQLGkb4Dyl18lAS75gr2JyxCxPnZrfkNH1JtlB1FnhtO0dtVES2Y69
+vMWot35xYumdOdapsLucTxUv07AWmvloUKR/Isdr/JAj1qamJLtoAZ1RRkf9c/Yg
+MigXheVt/lv0jHvftoNE7UkGKPyJ0k1dhyFzSVX11Wbg+7OmJHohdUGJlUOYPLQe
+KXmGYkZB2zO2CL1321xfJiFv
+=B+hQ
+-----END PGP SIGNATURE-----
+
+--===============0937263496678870680==--
