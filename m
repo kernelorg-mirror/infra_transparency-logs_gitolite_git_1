@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5378561158370007377=="
+Content-Type: multipart/mixed; boundary="===============3968021365702558113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Tue, 13 Oct 2026 08:49:38 -0000
-Message-Id: <179188137878.1502359.16874495387066818867@gitolite.kernel.org>
+Date: Tue, 13 Oct 2026 08:49:52 -0000
+Message-Id: <179188139213.1502600.11207394805578445091@gitolite.kernel.org>
 
---===============5378561158370007377==
+--===============3968021365702558113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-kvm
-    old: c5959723aaae06aa617253528e6b228b3c858215
+  - ref: refs/heads/loongarch-next
+    old: a2628ce4ddb6873e35380a42396d17a66e704a1a
     new: 34f4ce22cf25802d8026c60c13c2db81f8c8e3a0
-    log: revlist-c5959723aaae-34f4ce22cf25.txt
+    log: revlist-a2628ce4ddb6-34f4ce22cf25.txt
 
---===============5378561158370007377==
+--===============3968021365702558113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5959723aaae-34f4ce22cf25.txt
+Content-Disposition: attachment; filename=revlist-a2628ce4ddb6-34f4ce22cf25.txt
 
 b48820de8c1a596c5b99775524dfce73c6576c5d tty: port: fix tty_port_tty_vhangup() race
 f658e6bcd00a4eafaa9c98c0b7483cc2c5dac539 serial: revert guards in uart_wait_modem_status()
@@ -1051,4 +1051,4 @@ ef859f31c27edb2718e310deac6ad11923a9bce4 LoongArch: KVM: Remove duplicated check
 4012f1f9ffe90d06e43a716859aa3be14d0c287b LoongArch: KVM: Allow to set pv_feature until vCPU run
 34f4ce22cf25802d8026c60c13c2db81f8c8e3a0 KVM: LoongArch: selftests: Enable HW PTW by auto detection method
 
---===============5378561158370007377==--
+--===============3968021365702558113==--
