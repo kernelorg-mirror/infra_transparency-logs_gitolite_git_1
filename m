@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 13 Oct 2026 18:57:47 -0000
-Message-Id: <179191786771.1994628.13322283934851446289@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 13 Oct 2026 19:02:14 -0000
+Message-Id: <179191813414.1998142.10067707086273478734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/kselftest-lib-no-modules
+  - ref: refs/heads/efiloader-kexec
     old: 0000000000000000000000000000000000000000
-    new: 50fab3e57ed30d08834b71d8082c905bb94995ca
+    new: 999744c2ba34d3be3b312eccb65e11d746a145f1
