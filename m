@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 13 Oct 2026 08:30:10 -0000
-Message-Id: <179188021037.1488461.7285680389196114759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mdraid/linux
+Date: Tue, 13 Oct 2026 08:37:36 -0000
+Message-Id: <179188065676.1494495.13159141499240155558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/mdraid/linux
+user: yukuai
 changes:
-  - ref: refs/heads/main
-    old: 383a6f47ba18e4d5efd9e0841ff4a0bce88f8785
-    new: 15980c983529328f5d81139c0b1f7fb505cd96e9
+  - ref: refs/heads/md-7.4
+    old: 4c90b76e0198deb89376988daa8d96b48bea7fcf
+    new: d1472ca2ca5de8ecd2b358411eb14c031404ecf0
     log: |
-         bdeb9f0f93f18d10b281217e66e81838527ce55a nvidia: Update and add missing firmware files for Tegra SoCs
-         15980c983529328f5d81139c0b1f7fb505cd96e9 Merge branch 'tegra-firmware-refresh' into 'main'
+         d1472ca2ca5de8ecd2b358411eb14c031404ecf0 md: don't hand out the array before md_alloc() has added mddev->kobj
          
+  - ref: refs/tags/md-7.4-20261013
+    old: 0000000000000000000000000000000000000000
+    new: d1472ca2ca5de8ecd2b358411eb14c031404ecf0
