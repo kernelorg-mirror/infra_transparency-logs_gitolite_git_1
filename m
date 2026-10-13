@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5377688029147306303=="
+Content-Type: multipart/mixed; boundary="===============1797602896925735444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 13 Oct 2026 10:32:41 -0000
-Message-Id: <179188756153.1581963.10551324192514509606@gitolite.kernel.org>
+Date: Tue, 13 Oct 2026 10:32:51 -0000
+Message-Id: <179188757173.1582158.12393661662047689078@gitolite.kernel.org>
 
---===============5377688029147306303==
+--===============1797602896925735444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/urgent
-    old: fcbe4307bda074abc8132bfe746eeb0e502d74ab
-    new: 8bd4c3879e3ca68b9ff30614e9d486c816cbecff
-    log: revlist-fcbe4307bda0-8bd4c3879e3c.txt
+  - ref: refs/heads/perf/urgent
+    old: 39356a599824cadcb897079f1c028abb0cf1544a
+    new: 1cc4714bbc249d4baadca4451abb5e363b40b4b3
+    log: revlist-39356a599824-1cc4714bbc24.txt
 
---===============5377688029147306303==
+--===============1797602896925735444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fcbe4307bda0-8bd4c3879e3c.txt
+Content-Disposition: attachment; filename=revlist-39356a599824-1cc4714bbc24.txt
 
 5330036bc68d23672bfcc16c60c54701ae123083 iio: buffer: Ensure bounce buffer used for unaligned case is zeroed.
 0f3f427076240e75ff265e61645627a71ca4918c iio: adc: xilinx-xadc: free IRQ before cancelling the unmask worker on unbind
@@ -1049,6 +1049,6 @@ d5b6dc381db93ff2d1888f7d99c06e0bd85f4083 Merge tag 'scsi-fixes' of git://git.ker
 f47959816751f02a711aab27cf1c805bd4964819 Merge tag 'spi-fix-v7.3-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 d6d3455d8751854e0d1820f14184682e23ac4475 Merge tag 'landlock-7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 24a19b953e2a3d0ea5a8c4951a0ab8f32720c907 Linux 7.3-rc7
-8bd4c3879e3ca68b9ff30614e9d486c816cbecff entry: Account the deferred hrtimer rearm as hardirq context for lockdep
+1cc4714bbc249d4baadca4451abb5e363b40b4b3 perf/x86/intel/uncore: Fix DMR CXL CM invert filter
 
---===============5377688029147306303==--
+--===============1797602896925735444==--
