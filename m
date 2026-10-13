@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1969576750700918881=="
+Content-Type: multipart/mixed; boundary="===============7254823605635280606=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 13 Oct 2026 15:20:59 -0000
-Message-Id: <179190485902.1827253.14936183365738256607@gitolite.kernel.org>
+Date: Tue, 13 Oct 2026 15:21:13 -0000
+Message-Id: <179190487345.1827585.12253488083426859302@gitolite.kernel.org>
 
---===============1969576750700918881==
+--===============7254823605635280606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: heiko
 changes:
-  - ref: refs/heads/features
-    old: 9fd7fca66735307fd7afa3450882a55ef80f2add
-    new: 0171afd5e9112f6a63cf9bc6d4674cb984f645af
-    log: revlist-9fd7fca66735-0171afd5e911.txt
+  - ref: refs/heads/for-next
+    old: e5daa8eb073652d663db84d88bb039aac751b19c
+    new: 95f4659d8181efe6064a867508d7194c1854a1de
+    log: revlist-e5daa8eb0736-95f4659d8181.txt
 
---===============1969576750700918881==
+--===============7254823605635280606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9fd7fca66735-0171afd5e911.txt
+Content-Disposition: attachment; filename=revlist-e5daa8eb0736-95f4659d8181.txt
 
 946b9dcff33bd4669464674ae1c00683b875be55 s390/ptrace: Preserve ILC when updating system call number
 4044466ff004c7ad5fd47be717cd933077e6e874 s390/extable: Fix mvcos instruction decoding
@@ -79,5 +79,7 @@ f1214789a14bd7f1db98a25ba1e69406ca7395da Merge branch 'percpu-improvements'
 13b4c925e7a98e071e9c182235e31d7088a72c28 s390/entry: Last breaking event vs invalid kernel stack
 2dad5d5928f6678ea7a2dd372cbe5501e93ee2cc s390/entry: Save lowcore on invalid kernel stack
 0171afd5e9112f6a63cf9bc6d4674cb984f645af Merge branch 'stack-register'
+8b697f6e5d1d5e5f675d9f490f32c58e4e81c346 Merge branch 'fixes' into for-next
+95f4659d8181efe6064a867508d7194c1854a1de Merge branch 'features' into for-next
 
---===============1969576750700918881==--
+--===============7254823605635280606==--
