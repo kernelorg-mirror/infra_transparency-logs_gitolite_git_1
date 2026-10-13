@@ -1,26 +1,49 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 13 Oct 2026 14:51:24 -0000
-Message-Id: <179190308499.1800676.5368392198185863043@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7471046635242488877=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Tue, 13 Oct 2026 14:52:54 -0000
+Message-Id: <179190317445.1801428.10129204876551356230@gitolite.kernel.org>
+
+--===============7471046635242488877==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/main
-    old: 4d3befe102a7e28e8db876ae37d2a7956bef133a
-    new: 2d57db8fbf72b1872e7411e917166bd12ed5bc98
-    log: |
-         9748cd0f9020e14f1320f3872d1943d35c54edcb Merge remote-tracking branch 'wireless/main'
-         5aa429b43065e54104ac12022ee037ed2d4f4e09 Merge remote-tracking branch 'wireless-next/main'
-         4366f04801563cce1345d33095fbeb1ee1c28fce Merge remote-tracking branch 'mhi/mhi-next'
-         6aa07b510814f083cdc9e566a8912b74fa919ce7 Add localversion-wireless-testing-ath
-         2d57db8fbf72b1872e7411e917166bd12ed5bc98 MIPS: generic: Remove undefined image 'ramdisk'
-         
-  - ref: refs/tags/ath-202610131442
-    old: 0000000000000000000000000000000000000000
-    new: 2d57db8fbf72b1872e7411e917166bd12ed5bc98
+  - ref: refs/heads/thermal/bleeding-edge
+    old: 4e7c11014494b39a11b4d2b418862aa7c7910edd
+    new: efcd295581a6766a9c11a95dc7e628736c326634
+    log: revlist-4e7c11014494-efcd295581a6.txt
+
+--===============7471046635242488877==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4e7c11014494-efcd295581a6.txt
+
+50a2c5d4062a95146f71f974e1feb2ec5c786ccd thermal/drivers/samsung: Add Exynos ACPM TMU driver GS101
+05657c7822f2e8f21ccd6c11f2eb207896f5f87a MAINTAINERS: Add entry for Samsung Exynos ACPM thermal driver
+f4428025c8b54d8a6e0fb15589e08b097b7b9a76 tools/thermal/tmon: Fix signed shift UB in binding display
+481860eba83b3fe27ca9be6f7f5bb4c8febc6572 thermal: gov_power_allocator: Use common error handling code in power_allocator_bind()
+51c262cf2aa9dfd97591e570d4e82af493ad1689 thermal/drivers/qcom-spmi-temp-alarm: Fix temp_map indexing
+aaa6c8dec49339710f9fd2a2af5646cf4111dbd4 thermal/drivers/ti-soc-thermal: Cancel pending alert work on remove
+579821504e0969fece0ef0ddc65a3c4c1384e099 thermal/drivers/rzg3e: Propagate reset assertion failure from suspend
+9e8f9a14ed91de20002297fe1dbaa16cb93baff6 thermal/drivers/sprd: validate the sensor id from the device tree
+90022530403f9e76f2259c12349bdf438dbc556b thermal/drivers/airoha: Fix AN7583 ADC mux field mapping
+9d2bd62e61e852dd661f7d6208ab486cf7bda9fb thermal/drivers/airoha: Serialise access to the shared ADC
+10739487137928a130e0eb625226b546bc41f882 dt-bindings: arm: airoha: Use one thermal sensor cell for AN7583
+93902703fd0c222f12f4d89d68207f9ec9974189 thermal/drivers/airoha: Register a thermal zone per AN7583 sensor
+aa3e31b2778672074dc347ed072834bdc1150d25 tools/thermal/tmon: Fix string truncation warning in optarg copy
+42191654cfd25f609f1696f6b48abf1ef100fd2a dt-bindings: thermal: amlogic: describe bus clock for t7-thermal
+6d185eb97fdd281aad71b86d5ce8d96e8aaa6e0e thermal/drivers/amlogic: Switch to clk_bulk API to support multiple clocks
+abf4e0107b007706938cbb9200c038c5a1708907 dt-bindings: thermal: tsens: Add MSM8952
+a0466185d35665c5f19ed1dd6fef76368f96f541 thermal/qcom/tsens: Add support for MSM8952 tsens
+e36fd6a31677f8ec11f493c084479cb99d26af1c thermal/fw: Fix kernel-doc parameter names
+efcd295581a6766a9c11a95dc7e628736c326634 thermal: ti-soc-thermal: Fix the return value in ti_bandgap_get_sensor_data() kernel-doc
+
+--===============7471046635242488877==--
