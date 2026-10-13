@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7471046635242488877=="
+Content-Type: multipart/mixed; boundary="===============3073182816489960397=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Tue, 13 Oct 2026 14:52:54 -0000
-Message-Id: <179190317445.1801428.10129204876551356230@gitolite.kernel.org>
+Date: Tue, 13 Oct 2026 14:53:23 -0000
+Message-Id: <179190320347.1801818.9150622360298235083@gitolite.kernel.org>
 
---===============7471046635242488877==
+--===============3073182816489960397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/thermal/linux
 user: daniel.lezcano
 changes:
-  - ref: refs/heads/thermal/bleeding-edge
-    old: 4e7c11014494b39a11b4d2b418862aa7c7910edd
+  - ref: refs/heads/thermal/linux-next
+    old: 7b0773292ecd296ab8881fa2fe4b8ab1df500dee
     new: efcd295581a6766a9c11a95dc7e628736c326634
-    log: revlist-4e7c11014494-efcd295581a6.txt
+    log: revlist-7b0773292ecd-efcd295581a6.txt
 
---===============7471046635242488877==
+--===============3073182816489960397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e7c11014494-efcd295581a6.txt
+Content-Disposition: attachment; filename=revlist-7b0773292ecd-efcd295581a6.txt
 
 50a2c5d4062a95146f71f974e1feb2ec5c786ccd thermal/drivers/samsung: Add Exynos ACPM TMU driver GS101
 05657c7822f2e8f21ccd6c11f2eb207896f5f87a MAINTAINERS: Add entry for Samsung Exynos ACPM thermal driver
@@ -46,4 +46,4 @@ a0466185d35665c5f19ed1dd6fef76368f96f541 thermal/qcom/tsens: Add support for MSM
 e36fd6a31677f8ec11f493c084479cb99d26af1c thermal/fw: Fix kernel-doc parameter names
 efcd295581a6766a9c11a95dc7e628736c326634 thermal: ti-soc-thermal: Fix the return value in ti_bandgap_get_sensor_data() kernel-doc
 
---===============7471046635242488877==--
+--===============3073182816489960397==--
