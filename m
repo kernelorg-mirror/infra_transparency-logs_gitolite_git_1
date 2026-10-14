@@ -1,43 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============6572227509734248476=="
+Content-Type: multipart/mixed; boundary="===============0815587615977546940=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 14 Oct 2026 17:30:58 -0000
-Message-Id: <179199905871.3043678.3859598644196732090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Wed, 14 Oct 2026 17:33:49 -0000
+Message-Id: <179199922904.3044722.17203966108793727639@gitolite.kernel.org>
 
---===============6572227509734248476==
+--===============0815587615977546940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/master
-    old: 39d60a31eb6736cddc4eb7045aa453d4b4db9c65
-    new: 556b40e6647d386604bceb9e090ae59d735be68e
-    log: revlist-39d60a31eb67-556b40e6647d.txt
+  - ref: refs/heads/for-kernelci
+    old: e4f71a658972c4ddbfb6b79dbe31040117575615
+    new: d820e3baa4044204570f7a32097d24353b8f15fd
+    log: revlist-e4f71a658972-d820e3baa404.txt
+  - ref: refs/heads/for-next/core
+    old: e4f71a658972c4ddbfb6b79dbe31040117575615
+    new: d820e3baa4044204570f7a32097d24353b8f15fd
+    log: revlist-e4f71a658972-d820e3baa404.txt
+  - ref: refs/heads/for-next/secondary-boot-prep
+    old: 0000000000000000000000000000000000000000
+    new: e21f4de88acaa9f417b8bde54a9c33b4cec33f10
+  - ref: refs/heads/for-next/sysreg
+    old: 0000000000000000000000000000000000000000
+    new: 4a90fba44e3b0c86fc61b749ccb08b06a08d6288
 
---===============6572227509734248476==
+--===============0815587615977546940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39d60a31eb67-556b40e6647d.txt
+Content-Disposition: attachment; filename=revlist-e4f71a658972-d820e3baa404.txt
 
-c2cbff2ea768c105c220d1f1e3a5166e7fb2bb23 send-receive: switch the database to plain sqlite3
-a71f0769e1ebf02664e2d6797bd029d2b56e168c send-receive: add a tool to migrate the old database to sqlite3
-83bf92d73aed5a84eb559ea68555089f889198d2 send-receive: split get_frompair() out of get_smtp()
-e6d63f9149cdc8dca12726971028a10860264499 send-receive: use patatt's typed field getters
-8bb7a77f6967f28ab19584de5a06ef6d435bd655 send-receive: never bcc alwaysbcc on challenge mails
-6a8fea15033e6c126eb0cc1ce2b2bff71ff6441b send-receive: reject requests without an action
-50b442d9f6a25b9036433c75cc5b93a8c5fccc58 send-receive: prepare everything before sending, archive only what went out
-a650c10d1571fdff9f2773322a701615fb1a1dfa send-receive: re-encode the body when moving From: into it
-961c947a33fbf3c3ff4baa4f89826ab3feb0f3e7 send-receive: drop dead code and tighten the JSON type
-93d077d030fae7e941e73e0d52893a12ac176df1 send-receive: make mypy happy with the new code
-7b98855f5efb37f34ce648d377204f5101d7d3e7 send-receive: stop ezpi from changing other tests' header encoding
-72c8d6d11d284a4be688b1490dc483052f90b8c3 send-receive-migrate: keep the id counter when the old table is empty
-556b40e6647d386604bceb9e090ae59d735be68e send-receive: test the newer-database refusal and a failed challenge mail
+72add8bf4d57af2358e42753a39b068ddaf486bd arm64: cpufeature: Check arm64_ftr_regs[] before the first store
+cd9df8b01977929b46759376fd418621be9251f0 arm64: cpufeature: Add read_cpuid_with_overrides()
+342e62ded77c6ee16d80d48b8e1d2c4ba3b42ab5 arm64: cpufeature: Read MPAMIDR_EL1 in __cpuinfo_store_cpu()
+fbb6e57083114b1bd3ba6b35f4cb6a1146b5e453 arm64: cpufeature: Store every ID register with its overrides applied
+9ddba588450f0a9d92e92fd00a8627a8c828709a arm64: smp: Tidy up smp_prepare_cpus()
+f0a14972b5b5080272a5410f6e2da173de397711 arm64: smp: Tidy up cpuinfo init and cpufeature updates
+c8491bbf35e5e1e30f349e7629bae2e5e2eeddda arm64: smp: Defer update of secondary CPU capabilities
+6a52689f698a1755b0fa3cafb7bdf2b6356da731 arm64: smp: Don't bother printing the I-cache policy for each CPU
+e21f4de88acaa9f417b8bde54a9c33b4cec33f10 arm64: smp: Defer RCU registration during secondary CPU bringup
+af0010f2961083bf32370846556ef9e5c4773994 arm64: sysreg: Fix three incorrect enum values
+5fee8b920a06eb0e1475613872b8e47d65787a6e arm64: sysreg: Fix the names of two misspelt fields
+cbaca3920f6489bdf40bd7fb1e7c5b53dd39c28e arm64: sysreg: Mark fields the architecture dropped as RES0
+4a90fba44e3b0c86fc61b749ccb08b06a08d6288 perf: arm_brbe: Remove the check for TME transaction states
+3c4a05b0085cbeb93e040267deba0520ac089589 Merge branches 'for-next/misc', 'for-next/be-gone', 'for-next/smccc-bus', 'for-next/preemptible-this-cpu', 'for-next/cpu-errata', 'for-next/mpam', 'for-next/kselftest', 'for-next/efi', 'for-next/secondary-boot-prep' and 'for-next/sysreg', remote-tracking branch 'arm64/for-next/perf' into for-next/core
+d820e3baa4044204570f7a32097d24353b8f15fd Merge branch 'for-next/fw-rmi' into for-next/core
 
---===============6572227509734248476==--
+--===============0815587615977546940==--
