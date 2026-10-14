@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6542360973003133621=="
+Content-Type: multipart/mixed; boundary="===============5509060927310018932=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 14 Oct 2026 03:55:16 -0000
-Message-Id: <179195011685.2390931.7049009894799732500@gitolite.kernel.org>
+Date: Wed, 14 Oct 2026 03:55:22 -0000
+Message-Id: <179195012274.2391212.6996172019321425081@gitolite.kernel.org>
 
---===============6542360973003133621==
+--===============5509060927310018932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,66 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 698577ef1a023b7c894b9728d57f43d89de3c821
-    new: 2f4880c22e838d54eae9ab153b0f8dce60531bf1
-    log: revlist-698577ef1a02-2f4880c22e83.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 70916314bb299507ae5ba90931d1a45120b3331f
+    new: 77673edd821b7211df049aaa65eb0e95a1b338f6
+    log: revlist-70916314bb29-77673edd821b.txt
 
---===============6542360973003133621==
+--===============5509060927310018932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1791950115 -0400
+pusher 75C5DE3D 1791950120 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1791950114-3d126a45af9ffd94db0a4ac5842c861d78b03b62
+nonce 1791950120-ca694339d0483d7ea936f66352b55c0608a934c2
 
-698577ef1a023b7c894b9728d57f43d89de3c821 2f4880c22e838d54eae9ab153b0f8dce60531bf1 refs/heads/queue
+70916314bb299507ae5ba90931d1a45120b3331f 77673edd821b7211df049aaa65eb0e95a1b338f6 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrO/SMACgkQ7ulgGnXF
-3j3i9A//eeuNV2yO1ycnBUpwd3/D82x4kcObsPiqoUJ0XmxYokuENsSvMpZDUUAK
-CaNwgZ4IXAnAZauJ/1Rjq/Pxm4IEEpG3iCMQSJPFDlkuFAsihDaSw4nU/wjMoXKW
-K9aGeyRp/hMnagdlBGhU+Oo1YyLYXlbge4PfUu4B7m170pv23azXS4k1Gn5PC04+
-WZ5UlHsILyaxM04pToEdPUwiy7y1eVzu8yK9B12bDuvffx7qGM3RD/fauajes5OG
-GXQSPvYkuY7lsy/V3tGztSDt6PVZbX44GQ3VY+NtyMT074Wqo+CTRlG7z+2Ces7z
-wz4qTECvv+3al5E/u0qNEFWRw8jT+29k0Ab2u7UpvhjMpDGnX6n9UC0GVPhdyo3v
-5ChX5CPvrICIAOjRrH7M2sVNDkvycMLjYVmY+Xs54+u2v/71uNqvPcK49jEyys1b
-0lTddprbnhFHgwhWcCAS2a+hIlvZp72ePVHjxr6EuEmkvhuXMQ8SSt17si1Ry7hD
-9CFrS2tvV2/oq20irnFai5KQvjrXhn0trgOonG7uODUMxQI4z72aV6r6YNV26qzX
-3pA0YEyHD1G4PEcPAySbKpBjLr9AVLObUXU8o6/PGyVaymfUaw4Xr1GpXhJ79ZD7
-3J0NZCsNUrrpoIXd3IeNGmhjOQYgmVhNTPz4R+sSgSCrn9VK07w=
-=zIHJ
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrO/SgACgkQ7ulgGnXF
+3j2f6g//akmwyfCPkZijhwqxZZnsKzmlhV6ndMzIKRee3l3S26+ODwaypH0DtsGn
+1L0GHdMXnM+oPmP3yWwrHaF5TlEYBcjYJHseSMedsSNYr7v1/xd6u2KQfqsDJMDM
+ZYfkWYhxBDTPkXD5h3xZod6kSzGALHML2ehdIoOxcjR6EqxN70glohVzUvRHDvFG
+NCKu9+dC3c1Wm/aKiFQuWKndnNf0knFHH1Vda7JR9wYqpgOmfj/gZq2BMh58QbCk
+9kUW0BdLnfpBCvJ6dF2bEO+/yKNEnKNgWugnCXBGXpmhDYBsmOVBm+J9lYKNh1wr
+BqpXu0rujwb93oc/lcSml46n6p/rpGoalr/hBqdQkZU5PvC7Q1cMKHMFJSqAlK+N
+4S2dLv3ru6OoQIml1zXvVLYg/bpRfkNiHpXS1rNis03JN5olzgdW+/BdflKJ6T5u
+rO+RqD93lne8B8ZSgdo+JjcUry31mFrSk5FxN4jFV8DEUS2ZrJIHcNh8Y7nvy0fl
+dfhxGaJRcj5f8McFwalcBRHJkvkNPORbORGkuLWCZyoxzlPIRNMHj2AuBxq9HNTU
+NhyZHxULD2TrLJcV9arjuRTKWRBhediv2Ld+lusfV54gvplrwiLffAMYUAUMPimy
+FyZA51rB6M6pjt66fvBmdbZrJI735ZGNBct0C7lWbFgEaNZL9Mk=
+=bCsR
 -----END PGP SIGNATURE-----
 
---===============6542360973003133621==
+--===============5509060927310018932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-698577ef1a02-2f4880c22e83.txt
+Content-Disposition: attachment; filename=revlist-70916314bb29-77673edd821b.txt
 
-931a0649b9a8da36d63b108262ba82a41cd5ded3 scsi: core: Fix scsi_done() documentation
-d2398f2e2e5d3ad3ff0542fb12009b709045dbd8 scsi: core: Micro-optimize the hot path
-45ce384be0cd83116f8440378beef138b9e92a2b scsi: scsi_debug: Refuse a zoned device with a non-zero lowest aligned LBA
-e5ebe632be40c60ca8d96c8265c9c8c8136aff4a scsi: scsi_debug: Make atomic writes and ZBC emulation mutually exclusive
-a349876633f7a583429367daf16f9a4282118255 scsi: scsi_debug: Refuse a negative physblk_exp
-c9aedbcbff0fe31fabdea09600609eb30e05441d scsi: scsi_debug: Take the zone metadata lock before the data lock
-1809f9bf3da24d513613e3bfbb97db91fd4928b4 scsi: scsi_debug: Evaluate scsi_debug_lbp() only once
-92feb036a2d33c7b78b8daa2384f5c70d6679a91 scsi: scsi_debug: Avoid 32-bit overflow in WRITE SCATTERED offsets
-7c000c4ad2c0a7b2da06ffe28f5a7489fc52ca2d scsi: scsi_debug: Report the residual of a write
-63cb3900be261fccc05cadcf3402058418a5fada scsi: scsi_debug: Enforce physical block alignment of zoned writes
-b8fad9f02485f179e35bc4677386b6608d8cefb0 scsi: scsi_debug: Do not write a partial physical block to a zoned device
-cb2d2a7c80c62d1e5e476609706f29dd9584d0e0 scsi: scsi_debug: Advance the write pointer over the data written
-b81608b17c5d04c797e6fc1cfb95182c842a4db9 scsi: scsi_debug: Refuse a short WRITE ATOMIC (16) before writing it
-491bd55c35cbb1ce059f22e7f3c6284551970fef scsi: scsi_debug: Map the region written by WRITE ATOMIC (16)
-a6c339feb830daa097ccc4c50c339c1733c12d42 scsi: scsi_debug: Validate the access parameters of WRITE ATOMIC (16)
-e16f7b7dee2f817746dde8ab56a4025f32bb7160 Merge patch series "scsi: scsi_debug: fix zoned write validation"
-8d1cc285194dbcba88c136e1ff7c25cb10e38a5b scsi: st: Restore changed drive settings after reset also for MTLOAD and MTRETEN
-54ee0ee9bdeb7e9d3b70cc5c2bdf7e58c4423e8d scsi: st: Record the tape position after a successful MTLOAD
-614f374472127b8e279fc14bb6c45a23319f6b96 scsi: st: Restore the drive buffering mode after reset
-5ba8c6e5ae6556f8e282e7a84dc8d9eb3fb432de scsi: st: Relock the door after a reset
-bdb20c40e22f1b08fdd76a2600e9ac4e9093371c Merge patch series "scsi: st: Restore drive settings and state after reset and MTLOAD"
-80f75e32786a63fd650500f26dbfdb51e9158846 scsi: MAINTAINERS: Remove Avri Altman as UFS reviewer
-0a5b53c1e7276ffacf5153d06d442c4d7ab0c41d scsi: bfa: Use snprintf() in bfa_fcs_fabric_nsymb_init()
-6697e9f202c1cfca257f3cc173551547181c3d4b scsi: bfa: Use snprintf() in bfa_fcs_fabric_psymb_init()
-2f4880c22e838d54eae9ab153b0f8dce60531bf1 scsi: ufs: rpmb: Fix power-on UNIT ATTENTION retry
+e7d41f493e736fdf6d1fba40f0f24e9f4bfe6337 scsi: MAINTAINERS: Add Bean Huo and Stanley Jhu as UFS reviewers
+fb20fe062b008eba371c5265440b6bbad5690405 scsi: ufs: ufs-qcom: Don't define variable in the middle of the code
+beba4caa4550288dd617f428bd5037b51527e32c scsi: ufs: docs: Describe how to test with QEMU
+2f50ca3d46b4d5916874ba19612498c0a9c1f5f9 scsi: scsi_debug: Fix a locking bug in resp_write_same()
+2bc11c1d4571c7a2fd302dc26e984c2079798c75 scsi: scsi_debug: Split resp_write_same()
+06bce26589f430b620c9a6041a4e04b378586def scsi: scsi_debug: Split corrupt_lbas()
+06c3166f2566a3f5407077fff046d1ad3ed9fcfe scsi: scsi_debug: Split resp_read_dt0()
+6544f731e470028b3832986ed13eeac332b823f8 scsi: scsi_debug: Split resp_write_dt0()
+20a26ca89e7175b9dc1f9e1454585a4a5b6aac95 scsi: scsi_debug: Split resp_atomic_write()
+0f81d5ea524d1706e0eedbbaaa34bd80a95e2b1d scsi: scsi_debug: Improve lock context annotations
+aea9bae78b4070ea981af45f75e65f275cf85533 scsi: core: Enable lock context analysis for the scsi_debug driver
+700608d6e962f3f05e7eca2345331f145138fb79 Merge patch series "scsi_debug: Enable lock context analysis"
+aef36d2e16f49e48e3569c547fe60edf5c2145a3 scsi: lpfc: Fix use-after-free in lpfc_cmpl_ct_cmd_vmid()
+86866706d0a9bf0dc4261b6b05b7ec42459e5931 scsi: lpfc: Early return out of lpfc_els_abort() when HBA_SETUP flag is not set
+e7e065ec672af054c50eb270b5a6b178fd46b291 scsi: lpfc: Fix kernel oops when unmapping SCSI DMA buffers for an aborted cmd
+57b0a51937ef4a94cb6c86d42136d122be841694 scsi: lpfc: Check fc4_xpt_flags before decrementing ndlp kref on FDISC error
+5750b941ac75ad03570923d0f17331b6d832c69e scsi: lpfc: Rework I/O flush ordering when unloading driver
+75ae9d50b8430246871af493f02bfff38257ee7b scsi: lpfc: Refactor calls on fc_disctmo to lpfc_set_disctmo in RSCN handler
+8dbdaf88f4b991cb5b0e178fa18deefcb1380207 scsi: lpfc: Update correct ndlp refcnt when rejecting an unsolicited PLOGI
+3aeac6a2c2efb253bfa0d1ad8eba01d46a89d479 scsi: lpfc: Update lpfc version to 15.0.0.1
+9621cbd332862eb6651e2aba24ed18f66560de66 Merge patch series "lpfc: Update lpfc to revision 15.0.0.1"
 
---===============6542360973003133621==--
+--===============5509060927310018932==--
