@@ -1,23 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Wed, 14 Oct 2026 17:49:19 -0000
-Message-Id: <179200015987.3056250.15273642678177310901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Wed, 14 Oct 2026 17:50:51 -0000
+Message-Id: <179200025154.3059081.13933088186327221975@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/docs/linux
-user: corbet
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/docs-next
-    old: 8fdbd353e6928492fdc46c359aabd2bfb7630fba
-    new: 90d9f76ccb72ec024ef476b4229f3dd1957d7b26
+  - ref: refs/heads/master
+    old: 7f0b4c25fdab38f1c2dd11f8ec17db3f48891192
+    new: 29ee387509a184c3bfff9e26831aacc7b2edc02a
     log: |
-         1e035297ffdadf2184c3c773b8c098e372324aaf docs: remove Assisted-by references
-         14acc1f60509b9baac2874e3e029edba7ec141d3 docs/ja_JP: translate submitting-patches.rst (review and report tags)
-         b4f053ce51ee4b9490923dfffc80e9d5d124a01d docs: kernel-parameters: don't mix cmdline options & build options
-         3179c85ef46e9a1e0e47f22074cbfbc90b554fe9 docs: kernel-parameters: adjust reserve_mem build option
-         90d9f76ccb72ec024ef476b4229f3dd1957d7b26 docs: add AGENTS.md as a symlink to README
+         2e3600723a99f131d704ca0f1acf36dcf7af9dac Input: keyboard - use named initializers for acpi_device_id
+         e7f8b63997e3dbbeb2f3f845a84ea6cc924f6c1e Input: misc - use named initializers for acpi_device_id
+         4aaa4f16c9c8599632b1ee2fda1af50d659c4413 Input: mouse - cyapa: use named initializers for acpi_device_id
+         29ee387509a184c3bfff9e26831aacc7b2edc02a Input: touchscreen - use named initializers for acpi_device_id
+         
+  - ref: refs/heads/next
+    old: 7f0b4c25fdab38f1c2dd11f8ec17db3f48891192
+    new: 29ee387509a184c3bfff9e26831aacc7b2edc02a
+    log: |
+         2e3600723a99f131d704ca0f1acf36dcf7af9dac Input: keyboard - use named initializers for acpi_device_id
+         e7f8b63997e3dbbeb2f3f845a84ea6cc924f6c1e Input: misc - use named initializers for acpi_device_id
+         4aaa4f16c9c8599632b1ee2fda1af50d659c4413 Input: mouse - cyapa: use named initializers for acpi_device_id
+         29ee387509a184c3bfff9e26831aacc7b2edc02a Input: touchscreen - use named initializers for acpi_device_id
          
