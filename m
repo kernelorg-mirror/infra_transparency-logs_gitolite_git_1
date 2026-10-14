@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4493401199429229736=="
+Content-Type: multipart/mixed; boundary="===============8529979070203708382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 14 Oct 2026 22:16:45 -0000
-Message-Id: <179201620590.3257593.4953682730543084743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Wed, 14 Oct 2026 22:22:24 -0000
+Message-Id: <179201654465.3261604.12789234358990027724@gitolite.kernel.org>
 
---===============4493401199429229736==
+--===============8529979070203708382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 3b05843302202598a6d25f3e2543c8182e6a930c
-    new: f05a73d434c7d1b8e90cf005e3e836ce37d507bc
-    log: revlist-3b0584330220-f05a73d434c7.txt
+  - ref: refs/heads/master
+    old: 3e1ee800e52a0f53d7d9a7809be1ffc80ec1788f
+    new: 22348afe338c0f6d540c0d7ef0db749eaa51b218
+    log: revlist-3e1ee800e52a-22348afe338c.txt
 
---===============4493401199429229736==
+--===============8529979070203708382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b0584330220-f05a73d434c7.txt
+Content-Disposition: attachment; filename=revlist-3e1ee800e52a-22348afe338c.txt
 
-f814d9e6cdbef6413a72d6dd6d5e4e79e815cf44 perf symbol: Fix symbol loading from libbfd
-35477b351e6a697c85dc7d37e5081621889f8e40 perf symbol: Add missing symsrc__destroy() for libbfd
-b5a2e41c6f56598dfe4506b1102186fc41e328f8 perf symbol: Set dso symtab type for libbfd
-7efc2d8b812d6b8423adb0b3861e67583276ba55 perf test: Update PE file test for other locations
-d04c16d096d156064a87f61294f545782bb02f18 perf tools: Remove redundant dso data init
-17f857eb98b7eff5b2bae9d026853725d7329c17 perf tools: Check ELF section type with name
-816c89a5dcc07c93827eee25a45758361e70344e perf tools: Try linked debug files for DSO debug info
-904d2fa63c6dc4ef1b0dc18a1f1278709fa1d8d5 perf symbol: Update symtab type of vmlinux from build-id cache
-534ed38ca4b166f30b7217e8e02fd4c623215bbd perf symbol: Set binary/symtab type for split kallsyms
-de350107ad7d1b74ba9972ce04e22aa2209d5e1c perf symbol: Get rid of machine_or_dso_e_machine()
-3759ca226d57d06c4c52a1e64890faf58a29ebf1 perf tools: Factor out dso__find_binary_type()
-8797f8ee48d2935f0335da0935d65ddbc0dc7665 perf symbol: Set binary type for JIT map DSOs
-13cfbe6a93b2850c9d4a2ff693975b12eb80f9b3 perf symbol: Do not set binary type from symtab type
-8f69eb85410d30917e2f40e86446ee423f0bd23d perf annotate: Simplify symbol__disassemble() with dso binary_type
-f05a73d434c7d1b8e90cf005e3e836ce37d507bc perf test: Fix dso data tests
+a6b4ebfc16fbd1aa271cf08c35abbe71942b82ca f2fs/024: add missing execute permission
+650bb021929cb7a480555c176f8688c266f510c1 common: fix spelling of SCRATCH_DEV_POOL
+dfdd743084dfc12f8755512e32443d161aa4752b common/rc: remove trailing space from _mread() default map_len
+128ec7a21f60a7b76044c22185b11c7f0df1f64e f2fs/009: fix race condition in orphan inode test
+a90ba59dca447d29b6e1cb308a91ba4d3c671d7f common/scsi_debug: don't slow down I/O
+78f86c0dc9ec7be0ef635561e46d00cb27fbe6a2 common: factor out a _bdev_disk_name helper
+76f16d87f1567ba173dc129fdf0b18f3320feba5 common: add a _sysfs_block_integrity_path helper
+1b04c87913d836f9b985989b3c126dad68c24136 add a "pi" group
+44da803a375a5012e7d76e224121a4545a0c2a02 generic: test I/O on devices with T10 protection information
+cde58dc40cd118855abc674b40260c24f2076c3c generic: test corruption detection using T10 protection information
+c8bce2ea53562192fc6ef3f5f9bec2e19ecd833c statx.h: update to latest kernel UAPI
+9adaa029b909d0ba1b6f7a532a8919f51bf2dadb min_dio_alignment: add a -r option to query read alignment
+104eabdc9af4ab138759dde8780385a5a8b87fdd generic/091: enable sub-block reads
+42ead55fbe17cfa3b4ebcc8cdf65f12d48f97a6c generic/263: enable sub-block reads
+b7bea12549dcd55e1d0e56c8d2da970367588f35 generic/760: enable sub-block reads
+06b50754a606d7573e4a13b87664772cc987eba1 common: strip attr 2.6.0 --restore safety warnings
+41791dc85838d564630f87508d609a7a1853f068 generic/590,735,795: add missing _require_scratch check
+39d4f2f0f91b4c3bf2c70bf310c515c70ed8fcdb f2fs/015,016: add missing _require_scratch checks
+078b7e600fdf0cbd81d9e9d0baec28d69d857fd4 common/btrfs: require scratch before checking encoded reads
+052ac516dbba0155c96690a216d8149bd43dfa65 btrfs/273: add missing _require_scratch check
+56c60b693f40dc0e08c303e99f416e422b144aeb overlay/081: add missing _require_scratch check
+a322765c02446c165fda4649682b1f87663066f9 btrfs: test that we don't create pointless compressed inline extents
+02257f07bef2b8a5cf671c720e79ae662c7de165 common/btrfs: exercise all algorithms in _btrfs_stress_remount_compress()
+dd295117cd2d43bffa03b9a25303039233d73ff9 common/btrfs: exercise all algorithms in _btrfs_stress_defrag()
+77a27475bb0e5c00fde4eeb68ced40291d9f9649 btrfs/255: add _cleanup function to kill the balance stress process
+22348afe338c0f6d540c0d7ef0db749eaa51b218 generic: test bdev freeze count leak on nested thaw
 
---===============4493401199429229736==--
+--===============8529979070203708382==--
