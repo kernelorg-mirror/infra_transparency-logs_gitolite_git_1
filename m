@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0252334896581748535=="
+Content-Type: multipart/mixed; boundary="===============3169774914873554664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Wed, 14 Oct 2026 07:48:07 -0000
-Message-Id: <179196408780.2552516.11148162590386335786@gitolite.kernel.org>
+Date: Wed, 14 Oct 2026 07:48:54 -0000
+Message-Id: <179196413487.2552820.9603753484317745447@gitolite.kernel.org>
 
---===============0252334896581748535==
+--===============3169774914873554664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/thermal/linux
 user: daniel.lezcano
 changes:
-  - ref: refs/heads/thermal/bleeding-edge
+  - ref: refs/heads/thermal/linux-next
     old: efcd295581a6766a9c11a95dc7e628736c326634
     new: 2dc1f296b5754dd2441fc8b6613a362a47f6b98f
     log: revlist-efcd295581a6-2dc1f296b575.txt
 
---===============0252334896581748535==
+--===============3169774914873554664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ b1bf55053abed0d72738bcc12297bfa09f45eeb4 thermal/drivers/airoha: Serialise acces
 82bb005cd9cf5a9df4cfe4a52db90346ac5fd17a thermal: ti-soc-thermal: Fix the return value in ti_bandgap_get_sensor_data() kernel-doc
 2dc1f296b5754dd2441fc8b6613a362a47f6b98f thermal/drivers/rzg3e: Propagate reset assertion failure from suspend
 
---===============0252334896581748535==--
+--===============3169774914873554664==--
