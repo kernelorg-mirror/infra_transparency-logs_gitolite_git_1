@@ -1,20 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 14 Oct 2026 12:55:49 -0000
-Message-Id: <179198254956.2831589.17133912738509632082@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 14 Oct 2026 12:55:51 -0000
+Message-Id: <179198255125.2831778.12194858478223739875@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/controller/dwc-qcom
-    old: 817c16e46609d60c22679d9145a39e28b1f6e164
-    new: b41d4c09797a626a555f333c13df5bfaf8e7ebb2
+  - ref: refs/heads/for-next
+    old: a68a688ce220f1b359bec53fa38d1504314dc70f
+    new: ad28d2f607d1792c04531f2c5fd9ac0bf5bdcc9c
     log: |
-         78f27ea27d9870806f51b6f44db7ef6df62f7891 PCI: qcom: Ignore -ENODEV after Root Port reset
-         b41d4c09797a626a555f333c13df5bfaf8e7ebb2 PCI: qcom: Skip DWC MSI host initialization when msi-map is present
+         9e4b51e048d2c402ae8954080bc45576d23a20dd ALSA: hda/realtek: Fix speaker and mic mute LEDs on IdeaPad Pro 5 14IAH10
+         fd65108f5001ffb416dc9bd37ec1893f55cff24a ALSA: cs46xx: fix unit mismatch in DSP code area bounds check
+         d1e57f8fb7a6b6d32a4aaa31fd6fc4c77339608f ALSA: pcm: Unlink substreams before releasing them
+         ad28d2f607d1792c04531f2c5fd9ac0bf5bdcc9c ALSA: pcm: Serialize and check HW_REFINE ioctls
+         
+  - ref: refs/heads/master
+    old: b6fa1d885bdf30afea411129c9cb80f5a37ded1e
+    new: bd7b028696e577729dc9d91a579ca3e1cd131ea5
+    log: |
+         9e4b51e048d2c402ae8954080bc45576d23a20dd ALSA: hda/realtek: Fix speaker and mic mute LEDs on IdeaPad Pro 5 14IAH10
+         fd65108f5001ffb416dc9bd37ec1893f55cff24a ALSA: cs46xx: fix unit mismatch in DSP code area bounds check
+         d1e57f8fb7a6b6d32a4aaa31fd6fc4c77339608f ALSA: pcm: Unlink substreams before releasing them
+         ad28d2f607d1792c04531f2c5fd9ac0bf5bdcc9c ALSA: pcm: Serialize and check HW_REFINE ioctls
+         bd7b028696e577729dc9d91a579ca3e1cd131ea5 Merge branch 'for-next'
          
