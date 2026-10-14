@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0145860369220372531=="
+Content-Type: multipart/mixed; boundary="===============5648390140892660466=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 14 Oct 2026 07:54:19 -0000
-Message-Id: <179196445966.2556587.907629319873107024@gitolite.kernel.org>
+Date: Wed, 14 Oct 2026 07:58:18 -0000
+Message-Id: <179196469898.2560161.10717768052708110499@gitolite.kernel.org>
 
---===============0145860369220372531==
+--===============5648390140892660466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,104 +16,109 @@ repo: pub/scm/linux/kernel/git/leon/linux-rdma
 user: leon
 changes:
   - ref: refs/heads/rxe-rust-v1
-    old: bb839a6cc0506a07f63d8931ee7cf500e82f362a
-    new: da27263143fbcc4104a3ec04c3bd57ba6188e0a4
-    log: revlist-bb839a6cc050-da27263143fb.txt
+    old: da27263143fbcc4104a3ec04c3bd57ba6188e0a4
+    new: 51164760f7c1e7761e793acedc65c2c014d0e92f
+    log: revlist-da27263143fb-51164760f7c1.txt
 
---===============0145860369220372531==
+--===============5648390140892660466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb839a6cc050-da27263143fb.txt
+Content-Disposition: attachment; filename=revlist-da27263143fb-51164760f7c1.txt
 
-30967ee69efbac1dfde50c458d573bdf1cd879f9 RDMA/core: Free unpublished port statistics after initial-read failure
-86881b681a28ae6fcabe75432b4ea07fd3f904a5 RDMA/core: Preserve the selected source GID on failed AH modification
-b0fe40471f78364f411f84f0fbdff2d4f270298e RDMA/rdmavt: Retain source GID ownership across AH modification
-d00b35c33a64f2c3cbbcf3d5da5fed2e4b9981b2 RDMA/uverbs: Initialize QP event ownership before provider publication
-ef78645843b741949409dff586479c1a4d6abbbc xfrm: Serialize bundle MTU cache updates with metric publication
-7f93ca36f01935b4ce061eca48636fd1da42da16 RDMA/mlx5: Count an ODP page only when installing its DMA mapping
-b6120e894d849b53da69d1b34f615401183e9128 mm/hmm: Reject secret memory in HMM page walks
-91db85ba3c49fdd981dbc62f545b34afcc15c260 RDMA/rxe: Bound ODP accesses to each mapped system page
-c8af28c5162a9b563d1ec0cc36d8c96cf295b89f RDMA/rxe: Translate ODP IOVAs before accessing userspace pages
-93740e91a4cc20e54fc691821e40ff05c819c2bf RDMA/rxe: Wait for retained MR references before cleanup
-5f472ede541569f00899c6d7008731afbf70393d RDMA/rxe: Allow read prefetch of read-only ODP registrations
-07756bccff641ea11c9245d4ee4b6518707fe5f0 RDMA/rxe: Reject poisoned pages before ODP CPU accesses
-f496d91535c7d4efb7fd0d0e1f200766299963b1 RDMA/rxe: Flush the data cache after ODP writes
-f764a5201479fdd183061151840a1038638e1b63 RDMA/rxe: Validate translated zero-based window extents
-965035cbc7613b7bdc10d4d74c0fe49ec310eed0 RDMA/rxe: Reject whole-MR flushes authorized by window keys
-405cccd34c2d358bedfc25940d8542bcddad8e01 RDMA/rxe: Recover supported machine checks during ODP reads
-f92188049504dd7925ac73518f5db55c53527eaf RDMA/rxe: Require complete persistent coverage of pinned pages
-19521562bed15ff50f8a2a43cd5139e9b3366338 RDMA/rxe: Keep the duplicate device alive while reporting it
-631d4fada1c20248c54b6ff82c665ff185f07b37 RDMA/rxe: Separate tunnel membership from namespace lifetime
-071875d8f0f512f5d410e333f846abd8b2e573d8 objtool/rust: Recognize division and remainder panic functions
-1bf605f4c30441e9d6b7d93234ebf8ad199c5b22 rust: macros: Support late initialization of built-in modules
-17df8c50c01c44c4effa7082a7e32ef4f364c47e rust: sync: Support unsigned byte atomics
-2345747ad2938ab948f5d0329cd28c060eb9666f rust: sync: Allow zero initialization of atomic zeroable values
-4c72af20e0c38ecbe29cda44441399ca7746c863 rust: alloc: Support zeroed optional pinned boxes
-d1b4b528d6d3b777340ef3d2297f330c192d2325 rust: sync: Expose conditional refcount acquisition
-bc6b41b591b00319198228607f8d864526b6da4d rust: crc32: Provide a safe slice-based CRC accumulator
-cbad57931ce8b92ebb76eaacb6d0a5ffe4e44272 rust: random: Fill byte slices through the kernel generator
-db321f7f3ff9f061917224379b8fe013fba33264 rust: hash: Bound integer hash widths before calling the core
-b267c82b1360b0b5fc68cfbf88db095b030d5955 rust: cpu: Expose the architecture cache line size
-690c90150a5c512b52588a894229961186f407a2 rust: task: Expose conditional rescheduling to sleepable callers
-38c5380b735ccfd8f488b01ebb3c669ba541cd6a rust: time: Expose microsecond and nanosecond jiffy conversions
-453bd3facf1f00b6221577173175941b5f43c658 rust: time: Transfer owned events through jiffy timers
-a5784a96d0d56ae867146657678a769c995ae117 rust: ratelimit: Add a pinned per-object rate limiter
-d4332aaabe05deab0393b6a95dbe99046af7bdf0 rust: workqueue: Add ownership for immediate unbound work
-c78dad7ef05aa925c9781f90b1f734118fe4590f rust: uaccess: Split userspace writers into bounded fields
-a2a15453e6aa3116b3600a770c957cd7394e886c rust: sysfs: Add bounded output buffers for sysfs attributes
-a557c99c6a3d1f44eab6c2a5619bf11094ad7f39 rust: mm: Own user-mappable memory with bounded shared access
-831118432387f66b052af623604989bf5111d4be rust: net: Add owned socket buffers with bounded access
-65bac005376c4208f4e6a399b695d9b9ea61405d rust: net: Add namespace references and typed per-namespace state
-5856c448c1dcf82ba2d6a4f851e1472e778b449e rust: net: Add borrowed network devices and notifier registrations
-ac9352c2f054090baf12bc114e6ab53bf8f44ec7 rust: net: Own kernel UDP sockets and their namespace lifetimes
-508ff80daaf69a7ed475a98034ef0f16fe97e2f2 rust: net: Transfer packets with owned metadata and completions
-32d799fe3f9cba47d287184ee34c937d7b3f0f9b udp: Drain receive state before releasing closed tunnel sockets
-cd923565484f7b3060c3d86179f4c911688b03c5 rust: net: Own UDP tunnels through namespace registrations
-6b4ba2da0b4307ecf686fea4ef239ce159be1322 rust: net: Add owned routes and prepared UDP packets
-a6bb4aadd27a4714718af9b73dc604f9ba9ce429 RDMA/core: Track virtual DMA mappings for bounded software access
-04b8212f78c80ff7aac5418efdb4a52a0f49151f RDMA/mlx5: Clear cached ODP PFNs without DMA mappings
-0c32dba458cb7e7eb61bf2b4c28cb41e3b573ea8 RDMA/core: Stabilize virtual-DMA ODP PFNs under the umem lock
-c997de82537dc35919ebf50a97bf234b2bdf9ef8 RDMA/core: Report link registration conflicts to callers
-58db57b71b39db59e86160b11eb83e712d17fbf4 RDMA/core: Pass link registrations to creation callbacks
-8e17818853e4901e343e54dc5ec4f256e2d60204 RDMA/core: Serialize node description access through common helpers
-5656ebaf928b3a305f469c0c1948d30d859d2283 rust: rdma: Add borrowed RDMA core devices
-debfd7344b33b01303f3e31acaa3c81257fe4f3d rust: rdma: Add bounded virtual DMA memory access
-2d315996c504c44ed264ff968c5f923ac1479f29 rust: rdma: Guard CPU access to on-demand user memory
-a3ce249fe7258768f10f853925298839a90190f8 rust: rdma: Add bounded access to pinned user memory
-0fb669dfcbfb2d621230cf988550ac5db95b1ee3 RDMA/uverbs: Decode capability FDs only for the named context method
-7077cbe3d269f0a2ee6537ef407181577d6afa9c rust: rdma: Own pinned provider data across device callbacks
-2f83f1f8265b2a3fa105943cc30c8d7af54b3a36 rust: rdma: Own link registrations and device references
-9109bb12fe211b404f0330302a38bdc490284ca5 rust: rdma: Add scoped GID-cache and netdev access
-ec48317eb3695b30d099a2791fcddfbfcc83c0cc RDMA/core: Keep the sampled GID netdevice through L2 lookup
-2772f3a1a5713710e12f428e0d1039555eb731a0 rust: rdma: Own protection domains and address handles
-7350ba42d091c4f059cf8cba0984fecb3db4e87f rust: rdma: Own memory regions and windows
-7aea8161711f4e539f1c6f865c1cf4708bf69f29 RDMA/uverbs: Keep CQ resize responses inside serialization
-df55d050151e4050b010f4e59bb9d74d7eb738e5 RDMA/core: Select the CQ workqueue before arming notifications
-6f815f427f2dd542c33ccde0eff0a7acf742d0e2 rust: rdma: Own completion queues and shared receive queues
-cf1569afcc0f1bf881f1aafe094231f2091e54f4 rust: rdma: Add queue-pair attributes and send requests
-ed13f028e4161816e0acf7e5bf221e3d4daaf677 RDMA/srpt: Use the event QP during creation callbacks
-0566df226ca691f2e8b99d402a87d6c34139076a rust: rdma: Own queue pairs through native provider references
-038831ea13f2c28978f19a40f5581b907bbd08d0 rust: rdma: Own software device initialization and publication
-b9126997868f449170bde11d5a02e235fad2138a RDMA/rxe: Add Rust opcode tables and checked RoCEv2 wire codecs
-a4a845ba0d8b9b91699812d93613fdaa55561696 RDMA/rxe: Add Rust object identities, snapshots and ABI encoders
-06446d25aa60333b5e6e4ba0d8d8f94adc26ba63 RDMA/rxe: Add Rust queue storage, user mappings and work posting
-25e2d4326fa2876616600098d769c0913f995759 RDMA/uverbs: Serialize SRQ posting with modification
-fd1b8b905803996c0c219ea6acb8986ed59b2090 RDMA/rxe: Add Rust completion and shared receive queues
-559d9db13d9c2e3e0dfa961c65d8210c8b38f00f RDMA/rxe: Add Rust PD, context and address-handle state
-258988b87b327e62bacf63cfccb384de2502ef30 RDMA/rxe: Add Rust MR region state and bounded data access
-cfeed026f7c35068c69e374413a9453f1b678e88 RDMA/rxe: Add Rust MR registry, memory windows and ODP prefetch
-c15475f9bc9708f106a057531002946b82b8fd07 RDMA/rxe: Add Rust QP ownership, task scheduling and send state
-5e26423b86a04ae571dba7391e07c3d3668019cb RDMA/rxe: Add requester segmentation and bounded retransmission
-cad335882c722fd1029afd06715580ce2eef584c RDMA/rxe: Add send completion, ACK sequencing and retry control
-5ab8b3590df276d878f2ef1f57f4814b86ee6837 RDMA/rxe: Add responder state, replay slots and data movement
-d539b8dcc5399e4d418f621ac76e26c47bc6bf40 RDMA/rxe: Add responder admission and the receive state machine
-6118f7e9020046bf3abd6325cff48e82b76f178f RDMA/rxe: Add Rust receive validation and dispatch
-241694f0a7bbd6abfbdc47ff627dc2efb3189114 RDMA/rxe: Add Rust netdev notifier, transmit, tunnels and multicast
-f2ab7d9bb6da2fbbe05e291bedc76089ac969a0e RDMA/rxe: Add Rust device registration, port state and statistics
-3891faf701f0cb027efba844b6afbd85eb5b242e RDMA/rxe: Build the driver from the Rust implementation
-c0761aefd4b3c02b06dc22e47f4e97187d45e354 RDMA/rxe: Remove the C implementation
-0d7c48091e02f537507f15f788282a3f627ab8c8 selftests/rdma: Check RXE binding leases after registration failures
-da27263143fbcc4104a3ec04c3bd57ba6188e0a4 Documentation: RDMA: Describe the Rust RXE ownership model
+f74eac4fc6c56274fb96c2c44ffad8f01c325f17 RDMA/siw: Enforce IB_ACCESS_REMOTE_READ for read responses
+466612f8a8020c6b3af6377c730775a4c630f12c RDMA/efa: Fix race between admin command timeout and completion
+724a39b36af94787d32094da87729f24a28888b7 RDMA/bnxt_re: Use kvzalloc for QP table allocation
+978361dd2ccff357d4fe6aac6ce057d1bfae8312 RDMA/bnxt_re: Unpublish QP table before freeing it
+10567a07920105117b7dcbfa454e01e960f37d28 RDMA/rxe: Implement RXE with safe Rust ownership
+688f6fc0dbc10c4f9a2b9acc8ffb3057a3e37a03 RDMA/core: Free unpublished port statistics after initial-read failure
+453cd153e1b4abac9c4751545b6046356cf5b5fb RDMA/core: Preserve the selected source GID on failed AH modification
+fdb9c0b5704253e7f6d028be6d1a916fa970da49 RDMA/rdmavt: Retain source GID ownership across AH modification
+d60ff395211e20739522d20122f8c14746e31f3f RDMA/uverbs: Initialize QP event ownership before provider publication
+043065ac3334af0b61f322281099187aeb3b4555 xfrm: Serialize bundle MTU cache updates with metric publication
+6b88f10a5815cdb2ece081173fc53a08aa823acd RDMA/mlx5: Count an ODP page only when installing its DMA mapping
+f58ca7b35a5da69b52f22501d06d27198ed2b971 mm/hmm: Reject secret memory in HMM page walks
+94f941a820cdbaa923d816c6a3c05d112144bdc9 RDMA/rxe: Bound ODP accesses to each mapped system page
+f77b166b63f4e83eecde84dc3fce3d2c0393aa92 RDMA/rxe: Translate ODP IOVAs before accessing userspace pages
+1c592a9d0dd26b8444dfd7f7549449d3d6463d03 RDMA/rxe: Wait for retained MR references before cleanup
+328fe91d4f10fa7163267ecb9ecede395d7d0a15 RDMA/rxe: Allow read prefetch of read-only ODP registrations
+4fdeed3a84dca2b903dd26a42a3cc1b5272d3e9a RDMA/rxe: Reject poisoned pages before ODP CPU accesses
+5049ffbf52ac693a7983854be6a861071dae3747 RDMA/rxe: Flush the data cache after ODP writes
+5346cfe406737d32236c1499da10971e29ded1b2 RDMA/rxe: Validate translated zero-based window extents
+3b13c608f238b6d7439e95c141118ef56f8b0148 RDMA/rxe: Reject whole-MR flushes authorized by window keys
+d3ea19642031447efe25c55709643ac4b3e10a76 RDMA/rxe: Recover supported machine checks during ODP reads
+58297c064242a7f69edb2aafe083c400b83f755e RDMA/rxe: Require complete persistent coverage of pinned pages
+880abeb07f6247742d1b7f1b21d4db290f25aa33 RDMA/rxe: Keep the duplicate device alive while reporting it
+bacaeaef78f954f39b07f2d55a0121dbe86c7ad4 RDMA/rxe: Separate tunnel membership from namespace lifetime
+f645c33f8507e6a359a716867b628783252f6190 objtool/rust: Recognize division and remainder panic functions
+d712241491bfb06a6388949bea6c38585da50674 rust: macros: Support late initialization of built-in modules
+8c1240bbd25ffd0e5257fbb93d2ddd35775824f5 rust: sync: Support unsigned byte atomics
+cc95b40e93a2a86aebd2fd260c0811c643896cf7 rust: sync: Allow zero initialization of atomic zeroable values
+e96e5706b8f81f342f36c39c3f079d94812b7540 rust: alloc: Support zeroed optional pinned boxes
+6cc6313c3f08b18a03803649dbadf02b9bdf7592 rust: sync: Expose conditional refcount acquisition
+dc539f5acb030bfa992dabb7606d7626a4c21973 rust: crc32: Provide a safe slice-based CRC accumulator
+c99cf92c69e030f353a5f5c04a8de4e5b281b473 rust: random: Fill byte slices through the kernel generator
+6747e84fc88f9c850fde0e6d45b44cabd2a48238 rust: hash: Bound integer hash widths before calling the core
+6b6c0542fbf7bb2a5e14ea763ab4d9de36f13eed rust: cpu: Expose the architecture cache line size
+78928f603391e5777a3d88725ea53894d44de42a rust: task: Expose conditional rescheduling to sleepable callers
+3fa669123bcdc755875950aa3d350e7f34f68c97 rust: time: Expose microsecond and nanosecond jiffy conversions
+e3e2b13df2a0defc71d8d7100139d763dc435fba rust: time: Transfer owned events through jiffy timers
+84e1d8d194b4204b666dcfc7fc703bd440255732 rust: ratelimit: Add a pinned per-object rate limiter
+5c2ee3e49bdd78cca8e9c512ec2bd1d491c178e1 rust: workqueue: Add ownership for immediate unbound work
+132832454bd24bc7a463b66b1f3205613c8f37f3 rust: uaccess: Split userspace writers into bounded fields
+b170c2273fd3c84d7a2995450331d443db94c46c rust: sysfs: Add bounded output buffers for sysfs attributes
+bacb59741a671b3eacfe93c1451a71517965d4b4 rust: mm: Own user-mappable memory with bounded shared access
+c6c37614c138cb1a4ea6fe38e3e33704555a8f13 rust: net: Add owned socket buffers with bounded access
+18ca8df30d1223d0414fc52d5dfa66663c34a077 rust: net: Add namespace references and typed per-namespace state
+531c279cddb8800204946f36129f80f7ce3e914b rust: net: Add borrowed network devices and notifier registrations
+21ddb51dcc8a8c97c9c6f28f822c9f643fe971e6 rust: net: Own kernel UDP sockets and their namespace lifetimes
+7d931c89c6d6afb6790ed32b92fc41385fc71ff9 rust: net: Transfer packets with owned metadata and completions
+8e596a31d02a915ba2ea2607d3913c943304d7d0 udp: Drain receive state before releasing closed tunnel sockets
+3951bb687fb7f6983eec4f25f0a78b9f025c2be7 rust: net: Own UDP tunnels through namespace registrations
+4158ebccf6e61fc7b770ccce878846e83d7614af rust: net: Add owned routes and prepared UDP packets
+c58e3105e814f06b5d5475bdadad34e75d2ae6d8 RDMA/core: Track virtual DMA mappings for bounded software access
+965765786b5b855eaa979cd4b26cac510d4e701e RDMA/mlx5: Clear cached ODP PFNs without DMA mappings
+ce5df8afbcd5ecec57702be952508d31da7a7bb8 RDMA/core: Stabilize virtual-DMA ODP PFNs under the umem lock
+4dff9873bcc7aa8697ae9ae97564bc6f8e9d27d1 RDMA/core: Report link registration conflicts to callers
+e8dead76c2668886648f6e7f3a56b8ed31c89196 RDMA/core: Pass link registrations to creation callbacks
+588b5bfc6a942fb6e282bd63e4223e1292b46cc5 RDMA/core: Serialize node description access through common helpers
+aebaedb0e0d8df9e31383cd2c547a9dbb110dc08 rust: rdma: Add borrowed RDMA core devices
+f5a1ddd2003f987cec21145dd3898388a9d2b16d rust: rdma: Add bounded virtual DMA memory access
+7b9bb2062f2e1f3f9c683573adaf7702f5bbe2ca rust: rdma: Guard CPU access to on-demand user memory
+4966d4f03fdc231a14e2b7c6db283114111b6213 rust: rdma: Add bounded access to pinned user memory
+f7187bfc7ab0f04a05684c04f8a0ea0ba4f3574a RDMA/uverbs: Decode capability FDs only for the named context method
+765dae76681da197c4fd0f489068cbad371c59f5 rust: rdma: Own pinned provider data across device callbacks
+1d535f5b0564260712129be194fc6e0d95294f3a rust: rdma: Own link registrations and device references
+0c269ab9bd5e66ddeb064ee786658551bf009da7 rust: rdma: Add scoped GID-cache and netdev access
+189914783495c27643af6f4637ad1a3af19d948a RDMA/core: Keep the sampled GID netdevice through L2 lookup
+6aa447caf59b10cd8dd511aace13e722f5f6e631 rust: rdma: Own protection domains and address handles
+8cfb0ae83a9a7737616de320fcc3c30f2eae9ef0 rust: rdma: Own memory regions and windows
+1949df67c2e27eff27b4d14d49fd63e16ef4d455 RDMA/uverbs: Keep CQ resize responses inside serialization
+e7b5d47c04d5caed2bf0d3b87df0b98a64fe71f8 RDMA/core: Select the CQ workqueue before arming notifications
+3be33783d2c82d3f96684569a5b2d99ecb70c0a1 rust: rdma: Own completion queues and shared receive queues
+5a5bce93cce380b7a6d1da4ebe2089b8d93d53e6 rust: rdma: Add queue-pair attributes and send requests
+1bfcb40ba429cba135dfaf7a944a1964205fbfbc RDMA/srpt: Use the event QP during creation callbacks
+bdbc05468e32fe193047733eb1bd05d7e591c474 rust: rdma: Own queue pairs through native provider references
+16fbd3ef292975ab0e922de843c9598eebc7b23d rust: rdma: Own software device initialization and publication
+07e4bf0c6fd210747ca5352889b40482abe065d0 RDMA/rxe: Add Rust opcode tables and checked RoCEv2 wire codecs
+1d12b97d316131baba5662661779913669b99eff RDMA/rxe: Add Rust object identities, snapshots and ABI encoders
+72185c48c60789bd8e13b036c0ebcc5d73aa9708 RDMA/rxe: Add Rust queue storage, user mappings and work posting
+04158189636cfd034eee0c313ed8b55265aa8567 RDMA/uverbs: Serialize SRQ posting with modification
+b0e0606011fff3eca1fe08c2e67201c14eb3057d RDMA/rxe: Add Rust completion and shared receive queues
+3835228649869073cbe95d1ba68accbb9f83f343 RDMA/rxe: Add Rust PD, context and address-handle state
+54c14524bd7893c3f2be9094ecb3b75b3d3545d7 RDMA/rxe: Add Rust MR region state and bounded data access
+70ae011cf9de5ce1c7480728d45003c4d2e5121b RDMA/rxe: Add Rust MR registry, memory windows and ODP prefetch
+964c6b11258a846be9287dc619c9aead5006a0a3 RDMA/rxe: Add Rust QP ownership, task scheduling and send state
+7debba1bd3c60c57501df3cab7b74e0dcf77f94a RDMA/rxe: Add requester segmentation and bounded retransmission
+041f9887419db95d41066fe078b6d28f3736e786 RDMA/rxe: Add send completion, ACK sequencing and retry control
+5beac31c7fd46c286a354555015344eeef1a815f RDMA/rxe: Add responder state, replay slots and data movement
+f13eeb60e606967947431594210d583c1bb120f7 RDMA/rxe: Add responder admission and the receive state machine
+d9e487ce827965f56ce8e45cdd5c5923c36eeec7 RDMA/rxe: Add Rust receive validation and dispatch
+83b6f1d6861700af6a0557c5b530d1436c5d0f2c RDMA/rxe: Add Rust netdev notifier, transmit, tunnels and multicast
+6741f18216ba3bb9d5c904b2597631bcd5947fe8 RDMA/rxe: Add Rust device registration, port state and statistics
+9d1be180742546f99c057adc65746430337d621e RDMA/rxe: Build the driver from the Rust implementation
+ec0963d9dd4163b452d06f6977742c0f92f4a5b7 RDMA/rxe: Remove the C implementation
+1b8488cec66ac7ece787da997f98636ba79b2fb7 selftests/rdma: Check RXE binding leases after registration failures
+51164760f7c1e7761e793acedc65c2c014d0e92f Documentation: RDMA: Describe the Rust RXE ownership model
 
---===============0145860369220372531==--
+--===============5648390140892660466==--
