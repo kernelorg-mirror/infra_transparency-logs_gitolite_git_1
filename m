@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 14 Oct 2026 20:39:53 -0000
-Message-Id: <179201039329.3184169.1983666227459117665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Wed, 14 Oct 2026 20:51:31 -0000
+Message-Id: <179201109130.3193788.10797179122427736097@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/aspm
-    old: 5b2d6122ae06f1452d307f95729bdbcbcf9cfb87
-    new: 115aee6fe83679d2a0afa47dde028a59843d1441
+  - ref: refs/heads/next-integrity
+    old: 1dc317438308c79cf90a6f14d3e4116347ea3716
+    new: e8386a3360adb6ec327def1557d2c0fd62c49386
     log: |
-         115aee6fe83679d2a0afa47dde028a59843d1441 PCI/ASPM: Always disable ASPM when driver requests it
+         e8386a3360adb6ec327def1557d2c0fd62c49386 ima: recover number of violations after kexec
          
