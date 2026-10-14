@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1520127027328042670=="
+Content-Type: multipart/mixed; boundary="===============4494223000879484452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 14 Oct 2026 11:33:43 -0000
-Message-Id: <179197762399.2768967.9794147689187685073@gitolite.kernel.org>
+Date: Wed, 14 Oct 2026 11:34:06 -0000
+Message-Id: <179197764676.2769379.15432572142282640171@gitolite.kernel.org>
 
---===============1520127027328042670==
+--===============4494223000879484452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 698577ef1a023b7c894b9728d57f43d89de3c821
-    new: 2f4880c22e838d54eae9ab153b0f8dce60531bf1
-    log: revlist-698577ef1a02-2f4880c22e83.txt
+  - ref: refs/heads/for-next
+    old: 0476d7b6fd57896c78d3bcd457cc2dcfe1dc6423
+    new: 2b1060a8368e0d393e0aefa455c16403f41ed12c
+    log: revlist-0476d7b6fd57-2b1060a8368e.txt
 
---===============1520127027328042670==
+--===============4494223000879484452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-698577ef1a02-2f4880c22e83.txt
+Content-Disposition: attachment; filename=revlist-0476d7b6fd57-2b1060a8368e.txt
 
 931a0649b9a8da36d63b108262ba82a41cd5ded3 scsi: core: Fix scsi_done() documentation
 d2398f2e2e5d3ad3ff0542fb12009b709045dbd8 scsi: core: Micro-optimize the hot path
@@ -51,5 +51,15 @@ bdb20c40e22f1b08fdd76a2600e9ac4e9093371c Merge patch series "scsi: st: Restore d
 0a5b53c1e7276ffacf5153d06d442c4d7ab0c41d scsi: bfa: Use snprintf() in bfa_fcs_fabric_nsymb_init()
 6697e9f202c1cfca257f3cc173551547181c3d4b scsi: bfa: Use snprintf() in bfa_fcs_fabric_psymb_init()
 2f4880c22e838d54eae9ab153b0f8dce60531bf1 scsi: ufs: rpmb: Fix power-on UNIT ATTENTION retry
+8c8222c255772713eb36cde695777a1fce224917 scsi: xen/scsifront: Check for a NULL shadow entry on a backend response
+c9e9f024dd4f61f0f6636c9f2ed0830f87060e11 scsi: st: Save the visited block for the partition the drive is in
+71caf7f84bd62a4bf91cc95abd2de690afb8d15f scsi: st: Fix use-after-free race between st_remove() and st_open()
+04a67a8b1a4460345d22fe75d93430cbf7e651d7 scsi: target: Disable interrupts while holding delayed_cmd_lock
+e15b81f602edbdee39c335546f25486a1747f3f0 scsi: target: iscsi: Fix race in discovery auth updates
+8ee2a09a1dbb257c9e828ad2497f8e4832dfb142 scsi: libiscsi: Reject a negative task index from parse_pdu_itt
+c5958c770b2a0ee492414e26b07da9164a0d1f5d scsi: libiscsi: Validate the ITT reflected in a Reject PDU
+11bffcd9cb346732eab2914ef44fe777a3f0b585 scsi: libiscsi: Validate the task named by a management response
+fa56d629d861ce7ddeb90605d6a42892b064f86f Merge branch 'misc' into for-next
+2b1060a8368e0d393e0aefa455c16403f41ed12c Merge branch 'fixes' into for-next
 
---===============1520127027328042670==--
+--===============4494223000879484452==--
