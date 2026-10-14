@@ -1,44 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============0019360611567217413=="
+Content-Type: multipart/mixed; boundary="===============3533403053445301783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 14 Oct 2026 13:40:32 -0000
-Message-Id: <179198523270.2869381.15258839698292674283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Wed, 14 Oct 2026 13:43:08 -0000
+Message-Id: <179198538845.2870770.10211113078600683486@gitolite.kernel.org>
 
---===============0019360611567217413==
+--===============3533403053445301783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: 2702a7ca23f7e124f972e9e4ce33385da20e9894
-    new: 392771995174023c98c3592fafe97e6a456308f6
-    log: revlist-2702a7ca23f7-392771995174.txt
+  - ref: refs/heads/for-7.4/io_uring-dmabuf
+    old: 1127f017f33d9e9dbbadd1c230a0640f9a326055
+    new: 62e4bf5b25d4458cf8aa9dece9022359f39f2294
+    log: revlist-1127f017f33d-62e4bf5b25d4.txt
+  - ref: refs/heads/for-next
+    old: e8b704b323f93c6b860b955d9f19c3a8877a163e
+    new: 75b36d2f2b09e3bc3294e37e693d6bf0bdf6c5e7
+    log: revlist-e8b704b323f9-75b36d2f2b09.txt
 
---===============0019360611567217413==
+--===============3533403053445301783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2702a7ca23f7-392771995174.txt
+Content-Disposition: attachment; filename=revlist-1127f017f33d-62e4bf5b25d4.txt
 
-5bd6d05197affaf5a2d7fae0e06e7373fd839b7c ASoC: codecs: wm8990: Fix definition of right input PGA controls
-75e0b607e3456c9eb15dfb783984f814a89cbcaf ASoC: codecs: wm8990: Fix definition of LOMIX AINLMUX Bypass Volume control
-2dfecdc25d4937a36675c0c36ee0addc99e1e7f9 ASoC: codecs: wm8991: Fix definition of right input PGA controls
-fee722db39c2a1f18c944f747271fd1e131910a6 ASoC: codecs: wm8991: Fix definition of LOMIX AINLMUX Bypass Volume control
-c1af9e2272f025ff75be76e03413074d5e7801c9 ASoC: codecs: wm8983: Fix definition of ADC 128x Oversampling control
-a747ec6e12cf7a71e42567a479af18b930890d9d ASoC: codecs: wm8985: Fix definition of ADC 128x Oversampling control
-291d81d628f3453026b029507a26b856056e4fdc ASoC: codecs: wm8994: Fix definition of WM8958 noise gate hold time controls
-71911bf5bb3fe97da2124d17fc1dd3dbb9379e03 ASoC: codecs: wm8955: Fix definition of Treble Cutoff control
-22bfcedd3febd6acc63ecf8bfd9638210e4b9a5e ASoC: codecs: wm_hubs: Fix definition of MIXINR to MIXOUTR volume control
-121963197200ca89050f05a704f53c281702ec16 ASoC: codecs: wm8737: Fix definition of zero cross switches
-96d30816a9a4fa6b3cc470f82d0f53e8a6425ab9 ASoC: codecs: wm5100: Fix definition of EQ3 Band 1 Volume control
-8c299077c787c151c5c88928467d8e8d85cebdb7 ASoC: codecs: wm8750: Fix definition of ALC Capture NG Type control
-22d50113078dfbeff0d005d64fd9cc680249831c ASoC: codecs: wm8510: Fix definition of ADC Inversion Switch control
-392771995174023c98c3592fafe97e6a456308f6 ASoC: codecs: Fix Wolfson control definitions that write another control's bits
+0d3120db2cbe0a8793650e19f0923968a406ca2e dma-buf: introduce initial file I/O infrastructure
+aeb3bb52052b3548b3acf0cc5606dbb5babb228b iov_iter: add iterator type for dmabuf maps
+801503b9a66f7c2423b5e495d8e77e0f4447e5d4 block: always adjust bi_offset on bio_advance_iter
+d88e44f43e939e6ac0ca8302c6f3c957b33aa5fe block: introduce dma map backed bio type
+839231d193932ca0d592c2859669066f7c43731c block: add dma-buf support for raw bdev
+a03648e2efda070322cd4066abf4dff15be093c4 nvme-pci: rename nvme_pci_sgl_set_data to nvme_pci_dma_iter_set_sgl
+ce5e386c110815e3a29e3ba27d97575c28589c39 nvme-pci: implement dma-buf backed requests
+d5c8cfd41d2575c65c3f1d543017949e578a92d3 nvme-pci: add SGL support for the dmabuf path
+727a66ad21b013555eedfd84559cd4707717463c io_uring/rsrc: introduce buf registration structure
+a5819c456b716fa8bcb7792b942ab02b15e07fc5 io_uring/rsrc: extend buffer update
+13b1690bb4767d3f1c847baf71a704c5f2da99e2 io_uring/rsrc: add uncloneable regbuf flag
+d218f3e381908da0e68429f3a4b764e666564c60 io_uring/rsrc: add regbuf import flags
+62e4bf5b25d4458cf8aa9dece9022359f39f2294 io_uring/rsrc: add dmabuf backed registered buffers
 
---===============0019360611567217413==--
+--===============3533403053445301783==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e8b704b323f9-75b36d2f2b09.txt
+
+0d3120db2cbe0a8793650e19f0923968a406ca2e dma-buf: introduce initial file I/O infrastructure
+aeb3bb52052b3548b3acf0cc5606dbb5babb228b iov_iter: add iterator type for dmabuf maps
+801503b9a66f7c2423b5e495d8e77e0f4447e5d4 block: always adjust bi_offset on bio_advance_iter
+d88e44f43e939e6ac0ca8302c6f3c957b33aa5fe block: introduce dma map backed bio type
+839231d193932ca0d592c2859669066f7c43731c block: add dma-buf support for raw bdev
+a03648e2efda070322cd4066abf4dff15be093c4 nvme-pci: rename nvme_pci_sgl_set_data to nvme_pci_dma_iter_set_sgl
+ce5e386c110815e3a29e3ba27d97575c28589c39 nvme-pci: implement dma-buf backed requests
+d5c8cfd41d2575c65c3f1d543017949e578a92d3 nvme-pci: add SGL support for the dmabuf path
+727a66ad21b013555eedfd84559cd4707717463c io_uring/rsrc: introduce buf registration structure
+a5819c456b716fa8bcb7792b942ab02b15e07fc5 io_uring/rsrc: extend buffer update
+13b1690bb4767d3f1c847baf71a704c5f2da99e2 io_uring/rsrc: add uncloneable regbuf flag
+d218f3e381908da0e68429f3a4b764e666564c60 io_uring/rsrc: add regbuf import flags
+62e4bf5b25d4458cf8aa9dece9022359f39f2294 io_uring/rsrc: add dmabuf backed registered buffers
+75b36d2f2b09e3bc3294e37e693d6bf0bdf6c5e7 Merge branch 'for-7.4/io_uring-dmabuf' into for-next
+
+--===============3533403053445301783==--
