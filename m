@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 14 Oct 2026 21:56:13 -0000
-Message-Id: <179201497353.3241981.5657030175528755465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 14 Oct 2026 22:08:22 -0000
+Message-Id: <179201570257.3249833.14789157650636683572@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: abelloni
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/sven/dt
-    old: 0000000000000000000000000000000000000000
-    new: a8ac6027e82415f431bbba49ab535c44f2edaf4d
+  - ref: refs/heads/master
+    old: 763187dbbf83764a57d5811168ef9de7b9a60e2d
+    new: 3ead4ead078f676da5b0cda0eed1584c8d3468bd
+    log: |
+         3ead4ead078f676da5b0cda0eed1584c8d3468bd libbpf: Start v1.9 development cycle
+         
