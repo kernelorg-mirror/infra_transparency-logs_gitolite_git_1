@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6630205094066028532=="
+Content-Type: multipart/mixed; boundary="===============0295524665681564049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
-Date: Wed, 14 Oct 2026 12:53:00 -0000
-Message-Id: <179198238068.2827926.2789404104819571953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Wed, 14 Oct 2026 12:53:58 -0000
+Message-Id: <179198243899.2828390.2581352218328536282@gitolite.kernel.org>
 
---===============6630205094066028532==
+--===============0295524665681564049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+repo: pub/scm/fs/xfs/xfsprogs-dev
 user: aalbersh
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: 989686ca4e7462902796e2d9563e016f85ee4173
     log: revlist-caca7f14b449-989686ca4e74.txt
 
---===============6630205094066028532==
+--===============0295524665681564049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ fa19604607c14af0bf4ddd45921dee0ade28416f libxfs: use xfs_trans.h from the kernel
 6c62ff9b47e99de465a9eea049c9c8aea7e44d40 misc: convert as many xfsquotactl callsites to xfrog_quotactl as possible
 989686ca4e7462902796e2d9563e016f85ee4173 quotactl: deploy typechecked helpers
 
---===============6630205094066028532==--
+--===============0295524665681564049==--
