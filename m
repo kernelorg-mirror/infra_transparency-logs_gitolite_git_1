@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 14 Oct 2026 10:28:16 -0000
-Message-Id: <179197369686.2673450.6497663815031317410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 14 Oct 2026 10:32:24 -0000
+Message-Id: <179197394434.2676994.2286467269100485292@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-7.4
-    old: e7860dc5d8d45f6a0e98bfe542c7b776c5ede2a4
-    new: ad6be54d13496a0b5c6d1edeea99504e438cdb7a
+    old: 90001ddc6cbe4d3fbc69f72ca4bad54e70a4c064
+    new: 2da46f1e9b980a38bc6afd417322ca4963725e16
     log: |
-         ad6be54d13496a0b5c6d1edeea99504e438cdb7a firmware: cs_dsp: clear dsp->running on the cs_dsp_run() error path
+         2da46f1e9b980a38bc6afd417322ca4963725e16 spi: spi-qpic-snand: skip BBM copy on regular raw reads
          
