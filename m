@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 14 Oct 2026 23:04:19 -0000
-Message-Id: <179201905978.3295896.12163344364307614464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Wed, 14 Oct 2026 23:06:36 -0000
+Message-Id: <179201919610.3319198.4195431471366226067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/200GbE
-    old: 05b5019b01fb9443b09ae4ed34af1135a80a84c8
-    new: 518bf436318e8d1162391cd77d69d65198a4a25b
+  - ref: refs/heads/driver-core-testing
+    old: d4ffc4896b3e709c6a5d7e5a78a1fddfc774fa25
+    new: 20dacc0138e3a5532c701798d22ed985fd43a1e6
     log: |
-         fbd3a301b1378423a5cfc23a42e3c0b04e26192c net: selftests: use skb_share_check() in the loopback receive hook
-         a7a89019bac0e8810bde7f1419f4adf9adc23d41 net: stmmac: selftests: use skb_share_check() in the loopback receive hook
-         16fb7aa6955a0af9f67ca42a61d9be58dfc9382a net/mlx5e: use skb_share_check() in the loopback selftest hook
-         518bf436318e8d1162391cd77d69d65198a4a25b Merge branch 'net-use-skb_share_check-in-loopback-selftest-hooks'
+         af61396a992b15848b61c7b214e96582e4289e4a driver core: fix parent lock use-after-free on USB disconnect
+         277d13e909dc015612a7b99218fa80646d268b9e driver core: take parent lock on deferred probe
+         20dacc0138e3a5532c701798d22ed985fd43a1e6 driver core: take parent lock in async device attach
          
