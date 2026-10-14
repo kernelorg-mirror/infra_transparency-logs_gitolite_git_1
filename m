@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Wed, 14 Oct 2026 15:58:46 -0000
-Message-Id: <179199352621.2968996.16466790052997160501@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 14 Oct 2026 16:04:37 -0000
+Message-Id: <179199387775.2972976.4494439745171229793@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: a101347c14c48a6ea60f9af11df8ad3b2f4a602e
-    new: 23d0516587f896f5f16a47c97ddb41d28e6289ff
+  - ref: refs/heads/master
+    old: f50823250e5b7005b64fd6cc894277f5d7e2f687
+    new: b8faf7b8158b8f3936fc133ea055239f6da4462d
     log: |
-         00e100cfbf7bc159e462df16832cddeaf2cab770 rpmsg: mtk: release channel OF node on device teardown
-         7dd4cffdf4c2a496ccf783303a03d687a2127baf rpmsg: virtio: fix error handling in TX buffer wait
-         23d0516587f896f5f16a47c97ddb41d28e6289ff Merge branches 'rproc-next', 'rproc-fixes' and 'rpmsg-next' into for-next
+         b8faf7b8158b8f3936fc133ea055239f6da4462d keys: make keyring indexes independent of kernel addresses
          
