@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6106043966161047633=="
+Content-Type: multipart/mixed; boundary="===============4493401199429229736=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 14 Oct 2026 22:16:22 -0000
-Message-Id: <179201618242.3257250.13018184198651747726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 14 Oct 2026 22:16:45 -0000
+Message-Id: <179201620590.3257593.4953682730543084743@gitolite.kernel.org>
 
---===============6106043966161047633==
+--===============4493401199429229736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: f05a73d434c7d1b8e90cf005e3e836ce37d507bc
     log: revlist-3b0584330220-f05a73d434c7.txt
 
---===============6106043966161047633==
+--===============4493401199429229736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ de350107ad7d1b74ba9972ce04e22aa2209d5e1c perf symbol: Get rid of machine_or_dso_
 8f69eb85410d30917e2f40e86446ee423f0bd23d perf annotate: Simplify symbol__disassemble() with dso binary_type
 f05a73d434c7d1b8e90cf005e3e836ce37d507bc perf test: Fix dso data tests
 
---===============6106043966161047633==--
+--===============4493401199429229736==--
