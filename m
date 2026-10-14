@@ -1,91 +1,93 @@
-Content-Type: multipart/mixed; boundary="===============1047136030886107075=="
+Content-Type: multipart/mixed; boundary="===============8318565393896284487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 14 Oct 2026 13:14:18 -0000
-Message-Id: <179198365867.2846229.10372131972985465747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 14 Oct 2026 13:14:31 -0000
+Message-Id: <179198367197.2846448.7048762659077240068@gitolite.kernel.org>
 
---===============1047136030886107075==
+--===============8318565393896284487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: 36844ea19656fb41278799ef3d5cd52120d89149
-    new: 8db79ea07a67b126c773da6efdc00066000daeb8
-    log: revlist-36844ea19656-8db79ea07a67.txt
+  - ref: refs/heads/char-misc-next
+    old: 7e170600b36298cba2ba7a0c63d1cebea7970708
+    new: 3de5aa458dede472a253266d02902bd95af8e849
+    log: revlist-7e170600b362-3de5aa458ded.txt
 
---===============1047136030886107075==
+--===============8318565393896284487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791983665 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1791983657-e60aee1b08050ac1dcec9942fdbfc8f6a60347aa
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791983678 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1791983670-6aecaa7fcd4e8ddb6c303fec2ac3f9bbe1a15c8f
 
-36844ea19656fb41278799ef3d5cd52120d89149 8db79ea07a67b126c773da6efdc00066000daeb8 refs/heads/tty-next
+7e170600b36298cba2ba7a0c63d1cebea7970708 3de5aa458dede472a253266d02902bd95af8e849 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrPgDEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Tg4QAK5iEmOIARCCdz6iFacP
-nK1YzN9LmBo6PAbLT/HrIcYoJq5oOau27VQsPXd8QFlUGXV2zcVYXDbBlShUW/cZ
-qxMrlcnHj/TqjSjNrACFNVobzhQZgeMXdqYjM0dYQcES1Lr0nMEUPhKpOyKX9HVI
-eyci3XBarHjUqq2NM6VCbkKXpEmMELUC5dbEMC9eyg36Zo5iUO6fh7AC40MlF3+R
-+dcuRL4N1+pDfAOV8OP5G4x1d6yApKNnZM5bISa3n6TCgVJxlZu+dEk03nw38ox6
-vtXef56zx9BxkU7fMsCnUcZ5Jdzf99HUSv4+C48dqitxgIMxTb5rDvNlQhHIQ1YQ
-nvElxsuifVHOu91D1rWev5DPUco0Z8I8S2PViHdhEz84cv237/rv0Gqsp6/BKSr2
-SZQ4+f6GpgOj9dnwf29/a0fXK12mr/c0kDYIG2aSGtoCOFw2umF3+mLUgilkiI/b
-T64NIymA7w7juWHoMwbhDOm2PQuiYP7f99+QlG8UdBCUQFHSMMljHA5LhyUFrzcp
-olwR2h6tMmYnG/FWYjrDjc5DU8JvvkhJrcLmVzdKbxx399cAaZklLRMntmddSNL0
-0Vx7DD9qt7S+mLIP37UJ6juM3u6gG4RSe0Ia7YkwhKUafjEkMHbX51Kvrq7QelMa
-7g/FQx3Ee08AHxsdGNxukBbn
-=+YRd
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrPgD4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MWQP+wdovQKOmiHPx3NKO22T
+Ez3SiUK7LHAX6fTrscH2TXS0XZe91yzvEQqyzMARke+uYwzw4FUvyZmPSJBNxVox
+XfGjFtHAJS3DqZ9xco/xBaHNRrKwxlcT+4i2dSdH4oq3xx3hfFuIMmtZAn4BJf+i
+uNPfS+glJJhLuK2Mb/fJs34NNdwCQ7ab3wPLEbeJCYoWDPZrDLhpOjqDXr4NS7kH
+78wpvf14MkjR5Q+FxfZJxY+vWt7cdmYCPjPakFZ5E2+6qVgMH97/7duLNBuE8s+u
+dsLoj/xMA4Rf3EQmy69sGW3becDAHqaPmsWpZDlPXSNhhjhQWyuEMeFdSFJOgtdy
+wZvz3CsIuEqIC/t8B/zpCuIP2q8fh9T6BvxOi1DSGr9knSsHyiTInJuvA+TU5tcd
+YojCI+ZranxRdQhJqodUxAoH7uz7oD1tNaEomRIfb+umKwmPtu9WgEp28dtJvKtZ
+2T4wayfNaQo+0UMuEk+rO9hqeoKH6FmwWzE+M+5XQ1716NsDqkTVfU0C8ViYWLx2
+EtPh1p6cf8BMf+2hh5TVg9hM4KOHGPlI+dS7QCN3TzHB+opZnF9p9gr0mJemDqIq
+oxAWU60KfZ60tCg3R2YkDcLufNb6dBIDtQVjvbtj+c7lN2Mwqt8vSxrFtJleWHD+
+dfuP85MKpx+t5B/Jz27MQD2A
+=Ud21
 -----END PGP SIGNATURE-----
 
---===============1047136030886107075==
+--===============8318565393896284487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36844ea19656-8db79ea07a67.txt
+Content-Disposition: attachment; filename=revlist-7e170600b362-3de5aa458ded.txt
 
-e95442c31ae65b57ddffdfa609531c549055f308 serial: qcom-geni: power the console back up on system resume
-ca576923c39863ac528427b563ea2f6631703d22 serial: 8250_bcm2835aux: Add support for RTS/CTS auto flow control
-8bb50e95c0abd44607bc60a43032c1dbf7470d5a serial: sc16is7xx: fix data corruption due to unexpected xon/xoff
-408001136ba84c1dd69dd084f61fcbad590ab5f5 tty: serial: pch_uart: use dmaengine_submit() instead of ->tx_submit()
-810d467c11f0c85107874d08dfdd11acba6aa0c0 serial: core: shut down initialized port on removal
-831e5c42fd922072a4c80d69e369dc5a60f38f25 serial: hvc: use modern IRQ acquisition API
-1c41d09dcd07ee9648e20aa8238e404c2e6a12fb serial: sc16is7xx: declare MCR and IER as volatile registers
-7662a02e53a6143c12508f0cc3b2c7c08c2afa84 tty: serial: move sdio_uart from mmc/core to tty/serial
-3b2de448ec0332c1cb8c38b4c5ff0c8e860befbc serial: max310x: don't clobber the TX break bit in set_termios
-4efacb600bf98b13e0659f05afa4549795277e35 serial: max310x: fix breaks not reaching the wire in RS485 mode
-56051740bf9720335a1a56e87a99e3491c33ce54 serial: max310x: centralize the RS485 transceiver programming
-7784d6aee59a142505072b3fbea97932b2fd1fa0 serial: max310x: fix RS485 delays being programmed as bit-times
-c3ad42ccd303113a08bd0b441fb5b3380f29c5bf serial: max310x: don't power down the port mid-transmission on close
-7b07356e820e9543cb5b64d009c345303aad0c65 serial: max310x: support active-low RTS on the hardware path
-c06fcc258db0c0c7f607e64a7ce6a157bb2414b1 serial: max310x: schedule tx_work directly from the IRQ handler
-33632215e1bbc6109173b761e0c9bc5c4fcdbeee serial: max310x: drive RTS in software when hardware delays are too short
-ae588038e31c9dbd6836cb12bbdd82af0271c373 serial: max310x: don't transmit while an RS485 reconfigure is pending
-e1f46a09df93650288babb23de6e34bff73e80e6 serial: core: fix TIOCSSERIAL and TIOCSERCONFIG on uninitialised ports
-106eec1cdb616f475183db60c5f396202ad1332d serial: 8250: drop err label from serial8250_register_8250_port()
-4f28e10f18d6a30652ebd64589d35be515006141 serial: 8250_exar: remove useless void * casts
-33d337816e00994daaf670243186d9e537ee090d serial: 8250_exar: store the GPIO platform device in struct exar8250
-3e3ae95a3d84a6028f37a07ab7ad78bb14689f2e serial: 8250_lpss: do not touch uninitialized line in ehl_serial_exit()
-8276a44f0a0b68c07b2331cc0058036ac4c4190d serial: 8250_omap: set priv->line before enabling the IRQ
-d6a0791098bedea41e813db646d21c9ba30004ec serial: 8250: make port operations work on struct uart_8250_port
-6ae994d513a6ace5462137e1025a4e7086b87348 Revert "serial: 8250_port: Drop duplicate NULL check"
-8a9750209596be35d109de5aa89623b049855c67 serial: amba-pl011: honour delay_rts_before_send for every write
-171bb8a67cc1af7c88a65961adfb028430e0b783 serial: ma35d1: Do not force-enable an unselected console
-97f85204275ae4d7fb530e451f3acc65c1ec1155 serial: amba-pl011: keep transmitter enabled when disabling RS485
-f3dc727da3af64abc12b625bbf1eb68d55d882cc serial: pmac_zilog: push received data to the port that received it
-8db79ea07a67b126c773da6efdc00066000daeb8 serial: pmac_zilog: report received breaks
+471ce96a9c415b8a67bd5081ac2089a458cacc2f comedi: dt2811: fix shift-out-of-bounds in IRQ check
+6b795870cf764379a4631b99c3c20dadc206c064 comedi: comedi_bond: Refactor strlcat() to seq_buf in do_dev_config()
+790ea6844593bcd03b0379986fc821d8c511746e comedi: comedi_parport: validate the IRQ supplied by userspace
+71424db0ebb5f484fa3f386910f8ce9da95b8b2e comedi: ni_atmio16d: validate the IRQ supplied by userspace
+81026c2b3f9096cdfdfa02918f94865629fb7f90 comedi: dt2814: validate the IRQ supplied by userspace
+797d56d7f90864e67424f8e82639a9b3aedf37e0 comedi: dmm32at: validate the IRQ supplied by userspace
+23c6fc62e754f8bc412ceb5c0d9aaa14f2c9ff31 comedi: pcmmio: validate the IRQ supplied by userspace
+9c325b21bba99e597771137fc11b9427c86618d8 comedi: pcmuio: validate the IRQs supplied by userspace
+a8af929e9d751a85e9f46e8515cbe266249465a2 misc: issei: Fix issei architecture deps
+2b23952d70d43321a90dd8a06bcaab04a1a73118 misc: tifm: don't clear dev->driver in tifm_device_remove()
+1d2a50533aac7046488da78b0d25f69673cbb028 mei: vsc: Fix packet CRC computed over pointer size
+a017697fe2af572738441215efd7555e13ecfa9f misc: fix typos in comments
+0ada43e79a5f23154c5146c3eaf595c9c1146976 drivers/misc: Stop using 32-bit MSR interfaces
+ba9d2c7ea7f8fd02726241e9b93a2a31d30c77ea rust: miscdevice: add registration data to MiscDevice
+aeef0f8a3af2e3003c1c4019cf8fcb5f4b14f17f rust: error: implement ZeroableOption for Error
+dfc769a5cfad66a4655060e42d9099d57d1cfbb6 rust_binder: store Option<Error> in TransactionInfo
+9040ecb593ad6354d34b287d5d83532538e7ea3c rust_binder: consolidate transaction failure prints
+6b2175ccecaed99489ce0616115f09215a5c934c accessibility: speakup: refactor deprecated strcpy
+e1301ab8a8411fccc7effe0711fc09939a94953c speakup: Fix NULL pointer dereference on VT switch + selection
+23de9e6a25d19e57875a7ca9daed2aeaf31d3bdc speakup: Drop now-unused serialio operations
+97a551fa49682a33cc2fb6c5699a9175663803cf accessibility: speakup: Use isdigit() in handle_goto()
+b67eeae485e22893b678229169024a73b87cf113 tools: hv: remove unused rte_smp_mb()
+eddbbe3ecb2236b214c2f1f732d2737d6bca567c altera: drop unneeded semicolon
+fe26c195c265c033e474d015061a0183c7a02193 char: scx200_gpio: check cdev_add() return value
+305876de50cc691ffdcb6aa7fd9805c8e6ff789e char: xillybus: Improve control of execution flow with mutexes
+ca263d97a83cd6e2e646197e46396519ac57dcb6 char: xillybus: Remove duplicate error path code
+9db7ade8f83bb6ad464e67d409048a31b0a0b596 char: xillybus: Avoid possible bandwidth inefficiency
+f82830f5607ba19978d1fc6a7a978cefb9843cfc char: xillybus: Use unsigned arithmetic for jiffies differences
+04b47d20053f9274e4c7033ad42135c690e4e6c0 char: xillybus: Integer arithmetic improvements
+1ce74f6f221642501dd4ebf4e83af4bc0c3729d0 char: xillybus: Add defensive sanity checks
+7dc112d608d103acaf3dff76eed7c1483c1b94a2 char: xillybus: Ignore and report unsolicited interrupts
+3de5aa458dede472a253266d02902bd95af8e849 comedi: addi_apci_3xxx: fix subdevice count underallocation
 
---===============1047136030886107075==--
+--===============8318565393896284487==--
