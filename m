@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 14 Oct 2026 15:48:57 -0000
-Message-Id: <179199293761.2961420.7430369648247573566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Wed, 14 Oct 2026 15:55:49 -0000
+Message-Id: <179199334914.2967485.11486115725627744086@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/pending
-    old: cd026e68fdbf88b9cc522b76c7a9d92c9a41f709
-    new: 76833bf0abb13356abac97ef09cd0bd111040450
+  - ref: refs/heads/rpmsg-next
+    old: c39c2cdbde1f2ad9e2886167e55ad6b4c4907d7f
+    new: 7dd4cffdf4c2a496ccf783303a03d687a2127baf
     log: |
-         506db3d20a780d50221c41261798dd2654bef590 wifi: ath12k: store station pointer only in dp_peer
-         76833bf0abb13356abac97ef09cd0bd111040450 wifi: ath12k: move is_authorized flag to ath12k_sta
+         00e100cfbf7bc159e462df16832cddeaf2cab770 rpmsg: mtk: release channel OF node on device teardown
+         7dd4cffdf4c2a496ccf783303a03d687a2127baf rpmsg: virtio: fix error handling in TX buffer wait
          
