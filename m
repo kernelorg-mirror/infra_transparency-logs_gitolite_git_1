@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0352519800498597391=="
+Content-Type: multipart/mixed; boundary="===============0731037240805436490=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 14 Oct 2026 03:55:02 -0000
-Message-Id: <179195010294.2389697.14896651552731454787@gitolite.kernel.org>
+Date: Wed, 14 Oct 2026 03:55:08 -0000
+Message-Id: <179195010847.2390583.13124838398622549676@gitolite.kernel.org>
 
---===============0352519800498597391==
+--===============0731037240805436490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,70 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 469fa055664bfd8717b087a80d59c03055789c17
-    new: 11bffcd9cb346732eab2914ef44fe777a3f0b585
-    log: |
-         8c8222c255772713eb36cde695777a1fce224917 scsi: xen/scsifront: Check for a NULL shadow entry on a backend response
-         c9e9f024dd4f61f0f6636c9f2ed0830f87060e11 scsi: st: Save the visited block for the partition the drive is in
-         71caf7f84bd62a4bf91cc95abd2de690afb8d15f scsi: st: Fix use-after-free race between st_remove() and st_open()
-         04a67a8b1a4460345d22fe75d93430cbf7e651d7 scsi: target: Disable interrupts while holding delayed_cmd_lock
-         e15b81f602edbdee39c335546f25486a1747f3f0 scsi: target: iscsi: Fix race in discovery auth updates
-         8ee2a09a1dbb257c9e828ad2497f8e4832dfb142 scsi: libiscsi: Reject a negative task index from parse_pdu_itt
-         c5958c770b2a0ee492414e26b07da9164a0d1f5d scsi: libiscsi: Validate the ITT reflected in a Reject PDU
-         11bffcd9cb346732eab2914ef44fe777a3f0b585 scsi: libiscsi: Validate the task named by a management response
-         
+  - ref: refs/tags/mkp-scsi-queue
+    old: 889f1c56328b0deea8a54bbbedde96ee9993a890
+    new: 0266edc6049d5aef224d06a296900667f0206fb0
+    log: revlist-889f1c56328b-0266edc6049d.txt
 
---===============0352519800498597391==
+--===============0731037240805436490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1791950101 -0400
+pusher 75C5DE3D 1791950106 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1791950101-f7730d93748edd0c79d49a02091442d7afee4bb5
+nonce 1791950106-cf4111c5824a929c977c74f9ce7ca9f417e4862e
 
-469fa055664bfd8717b087a80d59c03055789c17 11bffcd9cb346732eab2914ef44fe777a3f0b585 refs/heads/fixes
+889f1c56328b0deea8a54bbbedde96ee9993a890 0266edc6049d5aef224d06a296900667f0206fb0 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrO/RUACgkQ7ulgGnXF
-3j19cRAAk+XjX8TVVVJOUUUoFKEi1CxAvKYRWsT5tMj3rq00wvAOxfJCdKmAP79y
-jI+GsNjDy9mtU8SYxrlAdkVbWfCvnLFegr/g/710mmUCBKxXsQXu911ru4+WogL1
-pMkr/HUxd4sGt++8zt2oxEFJZNt/OpNnWhNgkKfpf9uHXBnSIzIGcOKHrJqQclgA
-vT1xRtvqMBNuqPjUEHm6XPHFWbj0GORSS/uKVpJG0TmMdCeIz0PeVyIPKROyOl+R
-54nMuqkqhQH10+a0Vj1OEVoIaPi3BuTTak5+HaQvFpMKgl4QdXmFC9jzmyCDVugX
-OATxEGJdDXqvHg5zDsmzGzO/8ZHF9b4ILfWZ/iPuHQ4Px5HJnRPTZSqDq5uowWiA
-nf6mJhyckm6yRH84WNpLozkhbuoTPVTfig3k9xt58LoRsAtRth1H5WMKXsS6Ddrw
-zOA8+9yWIqmEn9p1cP8xWo5i7Qq2kICl5/fMr+QMA1SpfBh3j1aIYODSXTk+6rqp
-Z/QJDuNZkZFNgzS9dsSrqLH685Ro+xXFZrd5W+ESHy1ypCtGeJ6smuJIhYmoJOd1
-/peH2SiEvlc4RtvLz5I6pQQGx7A3RsgDArCwO++d8Yc+Bs4reku0aENGsUCiHzZ2
-mIQSstue+FsHpBuSMOWHinMEg0ojIo3RlGUTsIPOz1NqFM+Jskk=
-=OUJ8
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrO/RoACgkQ7ulgGnXF
+3j38MRAAiI7TpN/2idBg5ClGft96Lzim5B+5ZKbIFyL/++/6L3L7U/9gRDaE9EP8
+dgEg0XNjKUEwxmb1p0PsXpb3D3cLv6jBwYNIiVRYQGdERIK3uE0D8glAldnhUloO
+JOEKOusYmJiTKTLP9aMjGiQGVIW5fyjQhVW5gXZn00EWI0fGo4McLbHObuji2cPK
+LQxrNJAVoMrE4OupwhL4yX2ZJLoqwBf7U6ZGDM7eVasomMlTiRkXBb4zocLygUbe
+8jVHQMPbk43uQRGPkzBL9kryQW6d1Q3MY/9gN7A71oFKGcyZMYBAE2kHNO3TmIzp
+etIcsQ0M1sWPuGSu5RoaEJStpN1LYQSG2bbVcKPkadbnKUO1RCY/ZBQHrhTLBpnW
+lqSKg3l/4I7dbdaKhfICZVI9mTDHTxQqpg//Y4aBCwOolLHt00KX2lMvZzOcYavP
+JlpGX8aGe5F4EshlfQGSgurH+HnjrJeK5weW/SwCHZ3kCosOn2VDqc9YGq05OAJo
+tGBW91Uc59o0HjEPewGCd4/d3Z3OiyLY3itp7KZm0DEdPRcSARx+X1sETyOdzxd5
+B6qoC2gU97Yw/C2/sGLedDGcDIdxsbDteVxd1btMGggbDy6m27YBjSe5qDVkyoIx
+HCJ8E4nMXxF8NWV4HWAfiUCDXMQEuEl7QCx3OlPB32lYuBeKrOM=
+=yRkm
 -----END PGP SIGNATURE-----
 
---===============0352519800498597391==--
+--===============0731037240805436490==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-889f1c56328b-0266edc6049d.txt
+
+931a0649b9a8da36d63b108262ba82a41cd5ded3 scsi: core: Fix scsi_done() documentation
+d2398f2e2e5d3ad3ff0542fb12009b709045dbd8 scsi: core: Micro-optimize the hot path
+45ce384be0cd83116f8440378beef138b9e92a2b scsi: scsi_debug: Refuse a zoned device with a non-zero lowest aligned LBA
+e5ebe632be40c60ca8d96c8265c9c8c8136aff4a scsi: scsi_debug: Make atomic writes and ZBC emulation mutually exclusive
+a349876633f7a583429367daf16f9a4282118255 scsi: scsi_debug: Refuse a negative physblk_exp
+c9aedbcbff0fe31fabdea09600609eb30e05441d scsi: scsi_debug: Take the zone metadata lock before the data lock
+1809f9bf3da24d513613e3bfbb97db91fd4928b4 scsi: scsi_debug: Evaluate scsi_debug_lbp() only once
+92feb036a2d33c7b78b8daa2384f5c70d6679a91 scsi: scsi_debug: Avoid 32-bit overflow in WRITE SCATTERED offsets
+7c000c4ad2c0a7b2da06ffe28f5a7489fc52ca2d scsi: scsi_debug: Report the residual of a write
+63cb3900be261fccc05cadcf3402058418a5fada scsi: scsi_debug: Enforce physical block alignment of zoned writes
+b8fad9f02485f179e35bc4677386b6608d8cefb0 scsi: scsi_debug: Do not write a partial physical block to a zoned device
+cb2d2a7c80c62d1e5e476609706f29dd9584d0e0 scsi: scsi_debug: Advance the write pointer over the data written
+b81608b17c5d04c797e6fc1cfb95182c842a4db9 scsi: scsi_debug: Refuse a short WRITE ATOMIC (16) before writing it
+491bd55c35cbb1ce059f22e7f3c6284551970fef scsi: scsi_debug: Map the region written by WRITE ATOMIC (16)
+a6c339feb830daa097ccc4c50c339c1733c12d42 scsi: scsi_debug: Validate the access parameters of WRITE ATOMIC (16)
+e16f7b7dee2f817746dde8ab56a4025f32bb7160 Merge patch series "scsi: scsi_debug: fix zoned write validation"
+8d1cc285194dbcba88c136e1ff7c25cb10e38a5b scsi: st: Restore changed drive settings after reset also for MTLOAD and MTRETEN
+54ee0ee9bdeb7e9d3b70cc5c2bdf7e58c4423e8d scsi: st: Record the tape position after a successful MTLOAD
+614f374472127b8e279fc14bb6c45a23319f6b96 scsi: st: Restore the drive buffering mode after reset
+5ba8c6e5ae6556f8e282e7a84dc8d9eb3fb432de scsi: st: Relock the door after a reset
+bdb20c40e22f1b08fdd76a2600e9ac4e9093371c Merge patch series "scsi: st: Restore drive settings and state after reset and MTLOAD"
+80f75e32786a63fd650500f26dbfdb51e9158846 scsi: MAINTAINERS: Remove Avri Altman as UFS reviewer
+0a5b53c1e7276ffacf5153d06d442c4d7ab0c41d scsi: bfa: Use snprintf() in bfa_fcs_fabric_nsymb_init()
+6697e9f202c1cfca257f3cc173551547181c3d4b scsi: bfa: Use snprintf() in bfa_fcs_fabric_psymb_init()
+2f4880c22e838d54eae9ab153b0f8dce60531bf1 scsi: ufs: rpmb: Fix power-on UNIT ATTENTION retry
+
+--===============0731037240805436490==--
