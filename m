@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5676494167311185861=="
+Content-Type: multipart/mixed; boundary="===============7587237889770958820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/cpunoise
-Date: Wed, 14 Oct 2026 16:09:31 -0000
-Message-Id: <179199417158.2976774.3136184374181117025@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/dynticks-testing
+Date: Wed, 14 Oct 2026 16:09:46 -0000
+Message-Id: <179199418659.2977045.15561965768082181222@gitolite.kernel.org>
 
---===============5676494167311185861==
+--===============7587237889770958820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/cpunoise
+repo: pub/scm/linux/kernel/git/frederic/dynticks-testing
 user: frederic
 changes:
   - ref: refs/heads/master
-    old: bf9e08a3f1644c6c2524632817c766481b35326c
+    old: 64441350999124f44f43f491b8f05fcaea39d0a3
     new: d44dffc8e1efd0aa912e3e22955623b4c448394c
-    log: revlist-bf9e08a3f164-d44dffc8e1ef.txt
+    log: revlist-644413509991-d44dffc8e1ef.txt
 
---===============5676494167311185861==
+--===============7587237889770958820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf9e08a3f164-d44dffc8e1ef.txt
+Content-Disposition: attachment; filename=revlist-644413509991-d44dffc8e1ef.txt
 
 0beec433f0bb9bc9f7b04f281f265e7eb9d752d6 Add time unit
 2c8f99b0bb6f128998f96693f3fe824e52c8c9e9 Refactoring: noise_parse.py, use space instead of tabs
@@ -46,4 +46,4 @@ bb4957fa110daf617c1d89359c8b86bba4b0e98f cpunoise: Add sched_wakeup
 3cdacfdb29db80ec6c5237fde80067bf094ccc56 Add LICENSE
 d44dffc8e1efd0aa912e3e22955623b4c448394c Merge branch 'add-license' into 'master'
 
---===============5676494167311185861==--
+--===============7587237889770958820==--
