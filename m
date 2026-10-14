@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6243098855850841249=="
+Content-Type: multipart/mixed; boundary="===============0002843506137069153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 14 Oct 2026 08:24:58 -0000
-Message-Id: <179196629831.2578292.17432987031411219650@gitolite.kernel.org>
+Date: Wed, 14 Oct 2026 08:28:21 -0000
+Message-Id: <179196650150.2581703.15694920715196944043@gitolite.kernel.org>
 
---===============6243098855850841249==
+--===============0002843506137069153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: cem
 changes:
-  - ref: refs/heads/xfs-7.4-merge
-    old: 15ccd92a782a0253f4a17895f3d3f71e5c1d1973
+  - ref: refs/heads/for-next
+    old: 0be6da616ab5031ea6419dc4fe0bf0e378fb6757
     new: ec8f62cc109a3f596b3c65dc0f1011c209239051
-    log: revlist-15ccd92a782a-ec8f62cc109a.txt
+    log: revlist-0be6da616ab5-ec8f62cc109a.txt
 
---===============6243098855850841249==
+--===============0002843506137069153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15ccd92a782a-ec8f62cc109a.txt
+Content-Disposition: attachment; filename=revlist-0be6da616ab5-ec8f62cc109a.txt
 
 1fc241cdeab276dc6c3ec14840faa706ed7712ff xfs: check for termination during rmap btree walk
 4439b626fb5104204952aa2f169451688fb6be26 xfs: don't subtract excess usage twice when computing agf_btreeblks
@@ -68,4 +68,4 @@ ce58cff1077dfb9ec3d0e6f5da1b06a85be035bb xfs: refactor inode forkoff to byte con
 b47fb1ed0221fd21e696b468ed9eb40dd3c21f4d xfs: add missing cursor stat checks after xfs_btree_delete
 ec8f62cc109a3f596b3c65dc0f1011c209239051 xfs: don't limit software atomic writes by the group alignment
 
---===============6243098855850841249==--
+--===============0002843506137069153==--
