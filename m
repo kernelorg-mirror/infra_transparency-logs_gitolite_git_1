@@ -1,93 +1,94 @@
-Content-Type: multipart/mixed; boundary="===============8318565393896284487=="
+Content-Type: multipart/mixed; boundary="===============7796311335091577249=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 14 Oct 2026 13:14:31 -0000
-Message-Id: <179198367197.2846448.7048762659077240068@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Wed, 14 Oct 2026 13:14:47 -0000
+Message-Id: <179198368785.2846761.12770765856673641963@gitolite.kernel.org>
 
---===============8318565393896284487==
+--===============7796311335091577249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 7e170600b36298cba2ba7a0c63d1cebea7970708
-    new: 3de5aa458dede472a253266d02902bd95af8e849
-    log: revlist-7e170600b362-3de5aa458ded.txt
+  - ref: refs/heads/staging-next
+    old: dbc2fa996f44602af72ea56efa68c043407eaaac
+    new: ec1ecf4f23c5c8187f25a367be70fe585e5e4a08
+    log: revlist-dbc2fa996f44-ec1ecf4f23c5.txt
 
---===============8318565393896284487==
+--===============7796311335091577249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791983678 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1791983670-6aecaa7fcd4e8ddb6c303fec2ac3f9bbe1a15c8f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791983694 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1791983686-637fa64deb040b4c7031173ca751b62c0f71e883
 
-7e170600b36298cba2ba7a0c63d1cebea7970708 3de5aa458dede472a253266d02902bd95af8e849 refs/heads/char-misc-next
+dbc2fa996f44602af72ea56efa68c043407eaaac ec1ecf4f23c5c8187f25a367be70fe585e5e4a08 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrPgD4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MWQP+wdovQKOmiHPx3NKO22T
-Ez3SiUK7LHAX6fTrscH2TXS0XZe91yzvEQqyzMARke+uYwzw4FUvyZmPSJBNxVox
-XfGjFtHAJS3DqZ9xco/xBaHNRrKwxlcT+4i2dSdH4oq3xx3hfFuIMmtZAn4BJf+i
-uNPfS+glJJhLuK2Mb/fJs34NNdwCQ7ab3wPLEbeJCYoWDPZrDLhpOjqDXr4NS7kH
-78wpvf14MkjR5Q+FxfZJxY+vWt7cdmYCPjPakFZ5E2+6qVgMH97/7duLNBuE8s+u
-dsLoj/xMA4Rf3EQmy69sGW3becDAHqaPmsWpZDlPXSNhhjhQWyuEMeFdSFJOgtdy
-wZvz3CsIuEqIC/t8B/zpCuIP2q8fh9T6BvxOi1DSGr9knSsHyiTInJuvA+TU5tcd
-YojCI+ZranxRdQhJqodUxAoH7uz7oD1tNaEomRIfb+umKwmPtu9WgEp28dtJvKtZ
-2T4wayfNaQo+0UMuEk+rO9hqeoKH6FmwWzE+M+5XQ1716NsDqkTVfU0C8ViYWLx2
-EtPh1p6cf8BMf+2hh5TVg9hM4KOHGPlI+dS7QCN3TzHB+opZnF9p9gr0mJemDqIq
-oxAWU60KfZ60tCg3R2YkDcLufNb6dBIDtQVjvbtj+c7lN2Mwqt8vSxrFtJleWHD+
-dfuP85MKpx+t5B/Jz27MQD2A
-=Ud21
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrPgE4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FSMQAMgzbI/JyqtpiHMkhFxI
+q03QTnTl2g5W/kE8ZDCseE6r2RlNZyYm5/uzaOR6h+P/D3xcBf7rdAbdrs3Z/Djp
+OWlErQzuwdWx7kvlAALLlasovPbBp7l5j73mFarta92qxdi/gqOh308D6CEkRQw+
+y51zKLVB3Ab8r0aFnE8cezeLNT3/5vsSYzPwpyCQngwZXd4Y9xhA4jJC3grvviv1
+63+LuWW2VdkEbmRnqsqeO/Uf0nJ48yIgIfjZtPZvQoejogt/z39klNH4o1VmQ2/t
+oZUJCGxe7w/csC/JjIBmVEHzJhYq8N+l2oelwRbug//O05wBnC1HqXiCzSzGUENN
+YNdIS1xTn6A2KHInis+kPb3wZ0MLfIm1KJQRKyGvsgtAPRN7OcP+vSNhaTHGSL+B
+tgeC+9A7D6zHnGfFqXHTgKJ6GPBAfWO00KvKFDLkv6jb5C2i+uGxLwsWdZKi6I7l
+k6JtddYwNa/ResmwHFtx8d1UBJLrbV+3g+Mmi0FNsxqf12CDK8Q+nPoCAmNOUjhf
+yfH9T3by9LPuxtALqtWOC5WGdpw+WnDzP5wtPIJB+5dwJr4Snju2aNSmdpHnHmPp
++/Qf55nG3a0cCzCYaUYcJBnQCMkof5mybYSgHWQS5uH6mg6yrjUveFviungnyBjB
+v3rRbZFejhKrswYJQRbs9wvQ
+=q67N
 -----END PGP SIGNATURE-----
 
---===============8318565393896284487==
+--===============7796311335091577249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e170600b362-3de5aa458ded.txt
+Content-Disposition: attachment; filename=revlist-dbc2fa996f44-ec1ecf4f23c5.txt
 
-471ce96a9c415b8a67bd5081ac2089a458cacc2f comedi: dt2811: fix shift-out-of-bounds in IRQ check
-6b795870cf764379a4631b99c3c20dadc206c064 comedi: comedi_bond: Refactor strlcat() to seq_buf in do_dev_config()
-790ea6844593bcd03b0379986fc821d8c511746e comedi: comedi_parport: validate the IRQ supplied by userspace
-71424db0ebb5f484fa3f386910f8ce9da95b8b2e comedi: ni_atmio16d: validate the IRQ supplied by userspace
-81026c2b3f9096cdfdfa02918f94865629fb7f90 comedi: dt2814: validate the IRQ supplied by userspace
-797d56d7f90864e67424f8e82639a9b3aedf37e0 comedi: dmm32at: validate the IRQ supplied by userspace
-23c6fc62e754f8bc412ceb5c0d9aaa14f2c9ff31 comedi: pcmmio: validate the IRQ supplied by userspace
-9c325b21bba99e597771137fc11b9427c86618d8 comedi: pcmuio: validate the IRQs supplied by userspace
-a8af929e9d751a85e9f46e8515cbe266249465a2 misc: issei: Fix issei architecture deps
-2b23952d70d43321a90dd8a06bcaab04a1a73118 misc: tifm: don't clear dev->driver in tifm_device_remove()
-1d2a50533aac7046488da78b0d25f69673cbb028 mei: vsc: Fix packet CRC computed over pointer size
-a017697fe2af572738441215efd7555e13ecfa9f misc: fix typos in comments
-0ada43e79a5f23154c5146c3eaf595c9c1146976 drivers/misc: Stop using 32-bit MSR interfaces
-ba9d2c7ea7f8fd02726241e9b93a2a31d30c77ea rust: miscdevice: add registration data to MiscDevice
-aeef0f8a3af2e3003c1c4019cf8fcb5f4b14f17f rust: error: implement ZeroableOption for Error
-dfc769a5cfad66a4655060e42d9099d57d1cfbb6 rust_binder: store Option<Error> in TransactionInfo
-9040ecb593ad6354d34b287d5d83532538e7ea3c rust_binder: consolidate transaction failure prints
-6b2175ccecaed99489ce0616115f09215a5c934c accessibility: speakup: refactor deprecated strcpy
-e1301ab8a8411fccc7effe0711fc09939a94953c speakup: Fix NULL pointer dereference on VT switch + selection
-23de9e6a25d19e57875a7ca9daed2aeaf31d3bdc speakup: Drop now-unused serialio operations
-97a551fa49682a33cc2fb6c5699a9175663803cf accessibility: speakup: Use isdigit() in handle_goto()
-b67eeae485e22893b678229169024a73b87cf113 tools: hv: remove unused rte_smp_mb()
-eddbbe3ecb2236b214c2f1f732d2737d6bca567c altera: drop unneeded semicolon
-fe26c195c265c033e474d015061a0183c7a02193 char: scx200_gpio: check cdev_add() return value
-305876de50cc691ffdcb6aa7fd9805c8e6ff789e char: xillybus: Improve control of execution flow with mutexes
-ca263d97a83cd6e2e646197e46396519ac57dcb6 char: xillybus: Remove duplicate error path code
-9db7ade8f83bb6ad464e67d409048a31b0a0b596 char: xillybus: Avoid possible bandwidth inefficiency
-f82830f5607ba19978d1fc6a7a978cefb9843cfc char: xillybus: Use unsigned arithmetic for jiffies differences
-04b47d20053f9274e4c7033ad42135c690e4e6c0 char: xillybus: Integer arithmetic improvements
-1ce74f6f221642501dd4ebf4e83af4bc0c3729d0 char: xillybus: Add defensive sanity checks
-7dc112d608d103acaf3dff76eed7c1483c1b94a2 char: xillybus: Ignore and report unsolicited interrupts
-3de5aa458dede472a253266d02902bd95af8e849 comedi: addi_apci_3xxx: fix subdevice count underallocation
+d355fbb22519c61501e203b54589dd0ee8e99f76 staging: rtl8723bs: rename phy_status_rpt_8192cd_t to rtl8723bs_phy_status_rpt.
+f56356ba219dec8acdd967a1dc2bb40c58890ab5 staging: rtl8723bs: Eliminate dead enum hal_status abstraction
+759e162171f3de2fdc07fb43c98d988f0c648804 staging: rtl8723bs: remove unused BoardType field and its parser
+10e066f8fe5153710722719a452a68495c712683 staging: rtl8723bs: remove multiple blank lines in rtw_recv.h
+c6131b7a0776eaebdc30189ac02b871e9d89bf71 staging: rtl8723bs: remove unused driver_stopped pointer from HAL
+61d39f2c35bf04549ef4210b4a5f8ffc2df029d1 staging: rtl8723bs: rename dot118021x_UncstKey to dot118021x_uncst_key
+ed8ae033bdce922e7e8fd3d66ee728c1cf6e53d2 staging: rtl8723bs: condense NDIS encryption status enum
+a7fe96e04160cae30b7543c5d8d23aaeefea328d staging: rtl8723bs: remove dead antenna diversity infrastructure (FAT/SWAT)
+4cac37ada4488d3b988a1cf3e656a101e2c210ca staging: rtl8723bs: align arguments with open parenthesis
+2abd5824f23a47f63b13977e2f0c5b47b43dc191 staging: rtl8723bs: fix logical continuation style
+4cd5b75819e108dd725b001ba6c2fd61f419a930 staging: rtl8723bs: remove multiple blank lines
+13f2b41cf3fd35fe9eca0f12d5e621145e6789c6 staging: rtl8723bs: use explicit types for lengths in rtw_security.c
+4751a8a7f9a509ddbeb533ceb9138fc6ea585cb1 staging: rtl8723bs: use bool for flags in rtw_security.c
+59ffe9fef1b166e9152f7862819dd4d8710f8bf5 staging: rtl8723bs: use u8 for frame types in rtw_security.c
+5c3a64105d2ff21f77b3735a3427259d43a3847b staging: rtl8723bs: use explicit types for math variables and iterators
+4771c78a190e34a9fd04e218358419d30e789ee8 staging: rtl8723bs: use u32 for payload_length in rtw_security.c
+68163adbb0def589178c74f13a6ffa37ca8cef9f staging: rtl8723bs: use u32 for length variables in rtw_BIP_verify()
+05d9b0b4e461be0a142eded4d796a19eb3a97045 staging: rtl8723bs: hal: fix a multi-line comment in hal_btcoex.c
+b8569e8d510963a97a194012aa202fe3d4965605 staging: rtl8723bs: remove comparisons to true/false in rtw_mlme_ext.c
+5fb21929ddef7806c9ef76819613b14a0d8c4e6e staging: rtl8723bs: remove extern from recv and sta_info prototypes
+62632f80ad1a593fda39c13eb82b9b34aa2a4a0f staging: rtl8723bs: rename CamelCase variable wRxSeqInitialValue
+d3babb4eda4b674ea196b2f1827b78ab067a40e2 staging: rtl8723bs: use errno in rtw_register_tx_alive()
+7a14346c4025037023911e09a3eb8af262014c46 staging: rtl8723bs: return bool from check_pending_xmitbuf
+f1124ffde0749eaf910ad1e7ab4c7e9ed0449a9b staging: rtl8723bs: remove unused EEPROM definitions
+e6b71a873954d6193e1f40b1f095138ef9c73d71 staging: rtl8723bs: remove unused PCI ASPM OSC definitions
+9ebd27164586bb47b8091471da189067b735d28c staging: rtl8723bs: remove unused defines in HalBtcOutSrc.h
+67584d074bb1f5644708f72adedd3ca25a11280a staging: rtl8723bs: remove commented out code in hal/ files
+b269cadb8e3d23b6f34030fb03b5c322b6ba19fe staging: rtl8723bs: remove unused defines in odm.h
+b8cb5f7f6de5dc33e82a477e5c81a965949f829c greybus: Discard pm_runtime_put_autosuspend() return value
+6b4b1460f052b9467038efbea9d69d632caed82b staging: fbtft: update outdated struct fbtft_ops comment
+f0a9ff09ee6de4b89ac5ede2af47c81432391bb8 staging: nvec: fix GPIO descriptor documentation
+d32a1e175c299eea372a8954c086bcdedbe54e53 staging: octeon: fix misuse of kernel-doc comment
+ec1ecf4f23c5c8187f25a367be70fe585e5e4a08 staging: greybus: replace PTR_ERR() with %pe in error messages
 
---===============8318565393896284487==--
+--===============7796311335091577249==--
