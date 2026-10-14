@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0112518140260585705=="
+Content-Type: multipart/mixed; boundary="===============0252334896581748535=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Wed, 14 Oct 2026 07:47:58 -0000
-Message-Id: <179196407872.2552264.4399616894322913219@gitolite.kernel.org>
+Date: Wed, 14 Oct 2026 07:48:07 -0000
+Message-Id: <179196408780.2552516.11148162590386335786@gitolite.kernel.org>
 
---===============0112518140260585705==
+--===============0252334896581748535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/thermal/linux
 user: daniel.lezcano
 changes:
-  - ref: refs/tags/thermal-v7.4-rc1
-    old: 314e021c405efeb02035e60fc38e9b90f0a5acd9
-    new: ad1d1e3ed3369f7d91b636baad7daa69c4c5ac24
-    log: revlist-314e021c405e-ad1d1e3ed336.txt
+  - ref: refs/heads/thermal/bleeding-edge
+    old: efcd295581a6766a9c11a95dc7e628736c326634
+    new: 2dc1f296b5754dd2441fc8b6613a362a47f6b98f
+    log: revlist-efcd295581a6-2dc1f296b575.txt
 
---===============0112518140260585705==
+--===============0252334896581748535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-314e021c405e-ad1d1e3ed336.txt
+Content-Disposition: attachment; filename=revlist-efcd295581a6-2dc1f296b575.txt
 
 b17d799ce49bfaad68be5ff3df995b3bd021a9d7 thermal/drivers/sprd: validate the sensor id from the device tree
 4a0f3193c68eb41882ccf7c298f5cd0b17efb8ab thermal/drivers/airoha: Fix AN7583 ADC mux field mapping
@@ -40,4 +40,4 @@ b1bf55053abed0d72738bcc12297bfa09f45eeb4 thermal/drivers/airoha: Serialise acces
 82bb005cd9cf5a9df4cfe4a52db90346ac5fd17a thermal: ti-soc-thermal: Fix the return value in ti_bandgap_get_sensor_data() kernel-doc
 2dc1f296b5754dd2441fc8b6613a362a47f6b98f thermal/drivers/rzg3e: Propagate reset assertion failure from suspend
 
---===============0112518140260585705==--
+--===============0252334896581748535==--
