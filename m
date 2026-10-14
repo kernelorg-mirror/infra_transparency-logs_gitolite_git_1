@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 14 Oct 2026 13:05:45 -0000
-Message-Id: <179198314571.2839719.496986884117083583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
+Date: Wed, 14 Oct 2026 13:07:50 -0000
+Message-Id: <179198327063.2840418.3859524495544745132@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/mszyprowski/linux
+user: mszyprowski
 changes:
-  - ref: refs/heads/kselftest-lib-no-modules
-    old: 0000000000000000000000000000000000000000
-    new: fd2ec1c2f2aa9affa36159c4b50fbd5ab2110359
+  - ref: refs/heads/dma-mapping-for-next
+    old: 3faa52b77c912a8e9bb0cea39af4204153a22fea
+    new: 4733f2966433b7f926f70c9dc461c33cd5c10835
+    log: |
+         4733f2966433b7f926f70c9dc461c33cd5c10835 dma-debug: Skip cacheline tracking for MMIO mappings
+         
