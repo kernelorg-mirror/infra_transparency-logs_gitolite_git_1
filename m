@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 14 Oct 2026 15:56:57 -0000
-Message-Id: <179199341740.2968277.17822908920784574593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Wed, 14 Oct 2026 15:58:46 -0000
+Message-Id: <179199352621.2968996.16466790052997160501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/spi-7.4
-    old: 9d71f9fe5b5de916bded51343138b09b1eb103ed
-    new: 17515973d1e6435e6b6bf3c1ea81d28228cdb5b5
+  - ref: refs/heads/for-next
+    old: a101347c14c48a6ea60f9af11df8ad3b2f4a602e
+    new: 23d0516587f896f5f16a47c97ddb41d28e6289ff
     log: |
-         ea9854a169e9c1437df8829bea21c2f2e80b137c spi: cadence-xspi: reject SDMA transfers larger than the requested length
-         ef9690269999ddf9b204731baca1bd6b7aea1aa7 spi: cadence-xspi: fix stack buffer overflow in the Marvell b0 path
-         17515973d1e6435e6b6bf3c1ea81d28228cdb5b5 spi: cadence-xspi: two memory-safety fixes in the slave-DMA paths
+         00e100cfbf7bc159e462df16832cddeaf2cab770 rpmsg: mtk: release channel OF node on device teardown
+         7dd4cffdf4c2a496ccf783303a03d687a2127baf rpmsg: virtio: fix error handling in TX buffer wait
+         23d0516587f896f5f16a47c97ddb41d28e6289ff Merge branches 'rproc-next', 'rproc-fixes' and 'rpmsg-next' into for-next
          
