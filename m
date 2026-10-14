@@ -1,68 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3533403053445301783=="
+Content-Type: multipart/mixed; boundary="===============0565020159569830090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 14 Oct 2026 13:43:08 -0000
-Message-Id: <179198538845.2870770.10211113078600683486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 14 Oct 2026 13:43:20 -0000
+Message-Id: <179198540064.2870969.14943861684063454696@gitolite.kernel.org>
 
---===============3533403053445301783==
+--===============0565020159569830090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.4/io_uring-dmabuf
-    old: 1127f017f33d9e9dbbadd1c230a0640f9a326055
-    new: 62e4bf5b25d4458cf8aa9dece9022359f39f2294
-    log: revlist-1127f017f33d-62e4bf5b25d4.txt
-  - ref: refs/heads/for-next
-    old: e8b704b323f93c6b860b955d9f19c3a8877a163e
-    new: 75b36d2f2b09e3bc3294e37e693d6bf0bdf6c5e7
-    log: revlist-e8b704b323f9-75b36d2f2b09.txt
+  - ref: refs/heads/master
+    old: 807c7222de5b49a2fdca7fe288e4a7815182d2e9
+    new: c11c33d629b18733e3d29b768a3bb57586e68b8b
+    log: |
+         c11c33d629b18733e3d29b768a3bb57586e68b8b cve_utils: only accept vulns directories that contain the CVE data
+         
 
---===============3533403053445301783==
+--===============0565020159569830090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1127f017f33d-62e4bf5b25d4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-0d3120db2cbe0a8793650e19f0923968a406ca2e dma-buf: introduce initial file I/O infrastructure
-aeb3bb52052b3548b3acf0cc5606dbb5babb228b iov_iter: add iterator type for dmabuf maps
-801503b9a66f7c2423b5e495d8e77e0f4447e5d4 block: always adjust bi_offset on bio_advance_iter
-d88e44f43e939e6ac0ca8302c6f3c957b33aa5fe block: introduce dma map backed bio type
-839231d193932ca0d592c2859669066f7c43731c block: add dma-buf support for raw bdev
-a03648e2efda070322cd4066abf4dff15be093c4 nvme-pci: rename nvme_pci_sgl_set_data to nvme_pci_dma_iter_set_sgl
-ce5e386c110815e3a29e3ba27d97575c28589c39 nvme-pci: implement dma-buf backed requests
-d5c8cfd41d2575c65c3f1d543017949e578a92d3 nvme-pci: add SGL support for the dmabuf path
-727a66ad21b013555eedfd84559cd4707717463c io_uring/rsrc: introduce buf registration structure
-a5819c456b716fa8bcb7792b942ab02b15e07fc5 io_uring/rsrc: extend buffer update
-13b1690bb4767d3f1c847baf71a704c5f2da99e2 io_uring/rsrc: add uncloneable regbuf flag
-d218f3e381908da0e68429f3a4b764e666564c60 io_uring/rsrc: add regbuf import flags
-62e4bf5b25d4458cf8aa9dece9022359f39f2294 io_uring/rsrc: add dmabuf backed registered buffers
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791985404 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1791985397-2f6b7c17004227980caf0f7b38b4338fedd568f7
 
---===============3533403053445301783==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8b704b323f9-75b36d2f2b09.txt
+807c7222de5b49a2fdca7fe288e4a7815182d2e9 c11c33d629b18733e3d29b768a3bb57586e68b8b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
 
-0d3120db2cbe0a8793650e19f0923968a406ca2e dma-buf: introduce initial file I/O infrastructure
-aeb3bb52052b3548b3acf0cc5606dbb5babb228b iov_iter: add iterator type for dmabuf maps
-801503b9a66f7c2423b5e495d8e77e0f4447e5d4 block: always adjust bi_offset on bio_advance_iter
-d88e44f43e939e6ac0ca8302c6f3c957b33aa5fe block: introduce dma map backed bio type
-839231d193932ca0d592c2859669066f7c43731c block: add dma-buf support for raw bdev
-a03648e2efda070322cd4066abf4dff15be093c4 nvme-pci: rename nvme_pci_sgl_set_data to nvme_pci_dma_iter_set_sgl
-ce5e386c110815e3a29e3ba27d97575c28589c39 nvme-pci: implement dma-buf backed requests
-d5c8cfd41d2575c65c3f1d543017949e578a92d3 nvme-pci: add SGL support for the dmabuf path
-727a66ad21b013555eedfd84559cd4707717463c io_uring/rsrc: introduce buf registration structure
-a5819c456b716fa8bcb7792b942ab02b15e07fc5 io_uring/rsrc: extend buffer update
-13b1690bb4767d3f1c847baf71a704c5f2da99e2 io_uring/rsrc: add uncloneable regbuf flag
-d218f3e381908da0e68429f3a4b764e666564c60 io_uring/rsrc: add regbuf import flags
-62e4bf5b25d4458cf8aa9dece9022359f39f2294 io_uring/rsrc: add dmabuf backed registered buffers
-75b36d2f2b09e3bc3294e37e693d6bf0bdf6c5e7 Merge branch 'for-7.4/io_uring-dmabuf' into for-next
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrPhv0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++V8P/3w2RICeG9mZXnZFhugH
+qfpWzcMrLZlDI8hzcGa/xpvdy0ObIB6N72cSsIJdJu6zxkTodHVjLaLHv4P1RpNP
+8w6od3YyuSRpqYOLo9FsfCZf05g9lFOT0Q6C9qCwhga6gZF8Mjg7Nz7pHXhhMJdf
+yz6kgzBVR4QE74zjMAfGtw8wX9nq/NguVQMtq4T4UkwSJ5c0ZkrShzU8YEoFkqUv
+d6UERiCiN8A5VcOaEqLTqkJwYHgDrB2KX9cSABuAfFrFACt430Ff3ppc6bqnTWwR
+uBeRYpv+JZxrKQeW2bHVBPDW1GthS17OEVmWM5Toq/zOZBFMDJ5LU346u4JXl3CX
+ly84qSEnDmKR82QAt2nvYcBrHcKuVYYJdxVtTMTivFhNEpPF+2CJAebOIC/SqdgT
+ND/DSRWQlKSSKeHvl+HOIRM1uwFLJq0yYRso9+Jh3kJWfrrR71sl+US1SMXjxS9i
+aLv3wSKCWrb66081M4ZtKoWVAgAHmL/q9wFzTljBP+Wde+0Emy9qwoeFayh3TTY0
+uQ228uPXtAfpisMyhAAyIrDczmZIL2DRpmtBJ+fasgJ6KjKXSdPxwC/rED72XbrP
+6+XIAG7mLtvlaZ+lSV/RRUzrEM2eYgICKAzKQ96GIUZS1BlzyxH6BbFjP5GRRzTW
+woBvJz7HI6u+0Accb6Wq2jIX
+=aorZ
+-----END PGP SIGNATURE-----
 
---===============3533403053445301783==--
+--===============0565020159569830090==--
