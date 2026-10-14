@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4634176077949352831=="
+Content-Type: multipart/mixed; boundary="===============5377394287938935482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 14 Oct 2026 01:51:26 -0000
-Message-Id: <179194268673.2304617.7286641513035762356@gitolite.kernel.org>
+Date: Wed, 14 Oct 2026 01:51:30 -0000
+Message-Id: <179194269043.2304709.3374129796297827376@gitolite.kernel.org>
 
---===============4634176077949352831==
+--===============5377394287938935482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 0e199ae6e803e76ebf128e009d336e5917221e63
-    new: ad9f2d463666c64e94b04be5263c9bf8f9f96fb7
-    log: revlist-0e199ae6e803-ad9f2d463666.txt
+  - ref: refs/heads/mm-unstable
+    old: 7186f1bd21b9094cc063c10f8492fd135522d3cb
+    new: 1d0b04a60516de48250b04227dcf483c6c09aab1
+    log: revlist-7186f1bd21b9-1d0b04a60516.txt
 
---===============4634176077949352831==
+--===============5377394287938935482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e199ae6e803-ad9f2d463666.txt
+Content-Disposition: attachment; filename=revlist-7186f1bd21b9-1d0b04a60516.txt
 
 3ae8955f5f41adb29ae56d4a2be4406efabd0163 mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
 6b7c5bf0ebb71201482261639f3ca6496d2148bc mm/vmalloc: use dedicated unbound workqueues for vmap drain
@@ -201,10 +201,5 @@ fb67fa43b77d502eebb78f9f10e6376258a68a4f mm/rmap: don't discard lazyfree THPs at
 cb606e0215db217d6daea2df6654b2a58f081695 selftests/mm: fix uffd move-pmd test crash on 64K base page systems
 1a0bcbbf9c59a738f38650e278699d098ded931e fs/proc/task_mmu: fix lost maps entries above 2^63
 1d0b04a60516de48250b04227dcf483c6c09aab1 mm: page_alloc: make defrag_mode retries follow the promoted order
-8bfadf03db72747cd53deba50c934edd7cdb3fcf userfaultfd: fix UFFDIO_MOVE livelock on large folio with extra references
-2acf92ee46b9f50ad6afd8ff279f62f99db0fcf3 mm/percpu: account full object size for percpu memory allocations
-ab5e8a84ecd3988d5896331ac5b41b115b1a5df0 mm/madvise: atomically clear the young bit on THP MADV_COLD
-b29fb67caf845d303135828f2994f372170ff138 riscv: mm: fix concurrency in mark_new_valid_map()
-ad9f2d463666c64e94b04be5263c9bf8f9f96fb7 riscv: mm: exclude invalid THP PMDs from page table check
 
---===============4634176077949352831==--
+--===============5377394287938935482==--
