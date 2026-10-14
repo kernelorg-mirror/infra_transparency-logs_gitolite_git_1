@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5509060927310018932=="
+Content-Type: multipart/mixed; boundary="===============1872505685183104017=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 14 Oct 2026 03:55:22 -0000
-Message-Id: <179195012274.2391212.6996172019321425081@gitolite.kernel.org>
+Date: Wed, 14 Oct 2026 03:55:26 -0000
+Message-Id: <179195012698.2391442.10683972132300860516@gitolite.kernel.org>
 
---===============5509060927310018932==
+--===============1872505685183104017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 70916314bb299507ae5ba90931d1a45120b3331f
-    new: 77673edd821b7211df049aaa65eb0e95a1b338f6
-    log: revlist-70916314bb29-77673edd821b.txt
+  - ref: refs/heads/7.4/scsi-staging
+    old: 2f4880c22e838d54eae9ab153b0f8dce60531bf1
+    new: 9621cbd332862eb6651e2aba24ed18f66560de66
+    log: revlist-2f4880c22e83-9621cbd33286.txt
 
---===============5509060927310018932==
+--===============1872505685183104017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1791950120 -0400
+pusher 75C5DE3D 1791950125 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1791950120-ca694339d0483d7ea936f66352b55c0608a934c2
+nonce 1791950125-2add3186274fb96db1bd148701a1d034a398e147
 
-70916314bb299507ae5ba90931d1a45120b3331f 77673edd821b7211df049aaa65eb0e95a1b338f6 refs/tags/mkp-scsi-staging
+2f4880c22e838d54eae9ab153b0f8dce60531bf1 9621cbd332862eb6651e2aba24ed18f66560de66 refs/heads/7.4/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrO/SgACgkQ7ulgGnXF
-3j2f6g//akmwyfCPkZijhwqxZZnsKzmlhV6ndMzIKRee3l3S26+ODwaypH0DtsGn
-1L0GHdMXnM+oPmP3yWwrHaF5TlEYBcjYJHseSMedsSNYr7v1/xd6u2KQfqsDJMDM
-ZYfkWYhxBDTPkXD5h3xZod6kSzGALHML2ehdIoOxcjR6EqxN70glohVzUvRHDvFG
-NCKu9+dC3c1Wm/aKiFQuWKndnNf0knFHH1Vda7JR9wYqpgOmfj/gZq2BMh58QbCk
-9kUW0BdLnfpBCvJ6dF2bEO+/yKNEnKNgWugnCXBGXpmhDYBsmOVBm+J9lYKNh1wr
-BqpXu0rujwb93oc/lcSml46n6p/rpGoalr/hBqdQkZU5PvC7Q1cMKHMFJSqAlK+N
-4S2dLv3ru6OoQIml1zXvVLYg/bpRfkNiHpXS1rNis03JN5olzgdW+/BdflKJ6T5u
-rO+RqD93lne8B8ZSgdo+JjcUry31mFrSk5FxN4jFV8DEUS2ZrJIHcNh8Y7nvy0fl
-dfhxGaJRcj5f8McFwalcBRHJkvkNPORbORGkuLWCZyoxzlPIRNMHj2AuBxq9HNTU
-NhyZHxULD2TrLJcV9arjuRTKWRBhediv2Ld+lusfV54gvplrwiLffAMYUAUMPimy
-FyZA51rB6M6pjt66fvBmdbZrJI735ZGNBct0C7lWbFgEaNZL9Mk=
-=bCsR
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrO/S0ACgkQ7ulgGnXF
+3j0/WA//UlOX9JbDeeeq8cBUqljM+324lm6rG5JXv/t2Kiq62YwoYHF/IcdmwTGj
+ALOortiM0QldysGvsr7/Co9yc1OAQ9Ui8dTIApfqksjBgVzlPPNW8siEvg8wUtbJ
+WzDKE1Qs/tII1cnR6rYTbV6oHWypX5B6A1jXtdMOYBAnXMUaVortlp3k788a/zyw
+oPUx526bBmXh/mgyAzqqfBYXbO9s09oBuG3WBrNhTGU0xDwdJMTk5RgYd9yY7P8d
+12RQS/jyaGYWy+vYBo3gwHB7hLylv/bXupvonUJaCZksmpIl5I+nzmRJDmFmeClO
+pTg//g1hSVduZGubRNrmIM69d/UjtHooQhdQPtWbLvVA/cDmT5MdYarBJOrPz70P
+m/iUZxc8VKybTQFo/4LcfpiLYppl7uAhNasyGRADe9wOX4I7bL1mbXxCJ2l5azF4
+LBlXJ5E4YouQvt/TYRXhvER+b27XA6L9NDaDG56un5Ju22iKVRN3ezJOs6OjrN+R
+i1KEMvsplrTqwNWelvKEoklq+1806d51M4iasJNei+Mj7j5DLNWptI3HmDAdkqDy
+LEwR5onFBdr6EJo9XJ5M+Q+ZdIoaNz5JmPsUrSMoye3fgqB8aBDTtRpKxDCc1oaG
+OHvDLLlAmiD72zIiNnYKpLTrHeR8bV3Fs++eoDre0iHBl/FaXfM=
+=2qyf
 -----END PGP SIGNATURE-----
 
---===============5509060927310018932==
+--===============1872505685183104017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70916314bb29-77673edd821b.txt
+Content-Disposition: attachment; filename=revlist-2f4880c22e83-9621cbd33286.txt
 
 e7d41f493e736fdf6d1fba40f0f24e9f4bfe6337 scsi: MAINTAINERS: Add Bean Huo and Stanley Jhu as UFS reviewers
 fb20fe062b008eba371c5265440b6bbad5690405 scsi: ufs: ufs-qcom: Don't define variable in the middle of the code
@@ -78,4 +78,4 @@ e7e065ec672af054c50eb270b5a6b178fd46b291 scsi: lpfc: Fix kernel oops when unmapp
 3aeac6a2c2efb253bfa0d1ad8eba01d46a89d479 scsi: lpfc: Update lpfc version to 15.0.0.1
 9621cbd332862eb6651e2aba24ed18f66560de66 Merge patch series "lpfc: Update lpfc to revision 15.0.0.1"
 
---===============5509060927310018932==--
+--===============1872505685183104017==--
