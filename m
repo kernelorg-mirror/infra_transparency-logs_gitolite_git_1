@@ -1,27 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 14 Oct 2026 18:36:22 -0000
-Message-Id: <179200298237.3092002.12933511486390417572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 14 Oct 2026 18:36:33 -0000
+Message-Id: <179200299393.3092259.18124535244696143693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/controller/brcmstb
-    old: 1e840300326d6977cce6211e62e94022d569ac73
-    new: 8a1c4ba99946d5e0e07c357792deea666df23f5f
+  - ref: refs/heads/kvm-arm64/cross-vcpu-sync
+    old: 649956d3a89f8519238fd54ddbf02da83d500336
+    new: c84bfa686250d9a4fb79c84aecb1e94a43d528fd
     log: |
-         f0486008f1cfaef895b4f52bb506a065b5441644 PCI: brcmstb: Use flags u32 instead of bools
-         c6faa405df5596104fb5274b21f69e7af304ae02 PCI: brcmstb: Add Broadcom quirks macro
-         86ddadf13a31cccc6b2ac3f6dfad423ea8998039 PCI: brcmstb: Declare and assign quirk OB_WIN_32BIT_ADDR
-         2ed8567ad8cb675b11a6cdd5e5d54fb4efe32a7b PCI: brcmstb: Declare and assign quirk OB_WIN_MAXSZ_128MB
-         2a3c8e29ee4edd3bc3005cfdd0bf3449336241fd PCI: brcmstb: Declare and assign flag IS_BMIPS
-         45245b4e84aca7ee4ef7654b63d7a6c0e24cad6b PCI: brcmstb: Declare and assign quirk 32BIT_PCI_OPS
-         4e49ef31f10b696483271194014b67e2768ecd49 PCI: brcmstb: Declare and assign quirk NO_RGR1_TIMER
-         94ac85ea1e88402ed5c2e27e33b2dea621ac2078 PCI: brcmstb: Declare and assign quirk EARLY_PERST_ASSERT
-         8a1c4ba99946d5e0e07c357792deea666df23f5f PCI: brcmstb: Declare and assign quirk PERST_PCIE_REV_CUTOFF
+         8b8495c8d2e3f23d894de76fbf116f7798134083 KVM: arm64: nv: Move L2->L1 switch on interrupt early
+         ab502ebe2909f131a4fcad06284f14db6c260a8c KVM: arm64: Tighten OUTSIDE_GUEST_MODE and IN_GUEST_MODE publication
+         c2b081bed2155f4ae87547a1da5699aa62f358a3 KVM: arm64: Turn vcpu->arch.pause into a counter
+         bbf0ad4c40c566257ba027b97795ef672b73155c KVM: arm64: Add helpers to halt a vCPU
+         7c806fd1be78cd2e92799fb1a2fae817ff900f2d KVM: arm64: vgic: Stop the target vcpu when disabling LPIs
+         c84bfa686250d9a4fb79c84aecb1e94a43d528fd KVM: arm64: vgic-its: Stop the VM when handling MOVALL
          
