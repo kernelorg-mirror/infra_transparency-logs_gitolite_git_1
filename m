@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 14 Oct 2026 16:23:40 -0000
-Message-Id: <179199502088.2989501.16442141964968889091@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Wed, 14 Oct 2026 16:23:54 -0000
+Message-Id: <179199503465.2989888.17370193204365507891@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/pwrctrl
-    old: 05503ec0125c9215d38b4696e39ba36decd1f6ee
-    new: e95b940b2114e03d1763a022bfda75d8a15702d8
+  - ref: refs/heads/scx-numa-balancing
+    old: cdc2939be3d7a421d763d7946f7ef10298669ff7
+    new: 60719ecd86c5d28b715a872e63e82470b0f5bebd
     log: |
-         e95b940b2114e03d1763a022bfda75d8a15702d8 PCI/pwrctrl: Power off child devices on power-on failure
+         60719ecd86c5d28b715a872e63e82470b0f5bebd selftests/sched_ext: Test the NUMA memory target kfunc
          
