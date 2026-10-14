@@ -1,53 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============0016021483480016265=="
+Content-Type: multipart/mixed; boundary="===============4595803611028468236=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Wed, 14 Oct 2026 16:15:56 -0000
-Message-Id: <179199455687.2983535.14799387735343237450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Wed, 14 Oct 2026 16:17:59 -0000
+Message-Id: <179199467977.2984388.1959448633054071217@gitolite.kernel.org>
 
---===============0016021483480016265==
+--===============4595803611028468236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/scx-numa-balancing
-    old: 752170734b2d6bca2cd2565ae6961c6bfe28af86
-    new: a2ef550f8d7bf7a7736a256d713ad5a55b760b61
-    log: revlist-752170734b2d-a2ef550f8d7b.txt
+  - ref: refs/heads/patches-in-queue
+    old: 6837b66c9505af28e7d3524a92239d93e6180361
+    new: 6ff57d00f98e92637370e4884f09c621fdb1e7a5
+    log: revlist-6837b66c9505-6ff57d00f98e.txt
 
---===============0016021483480016265==
+--===============4595803611028468236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-752170734b2d-a2ef550f8d7b.txt
+Content-Disposition: attachment; filename=revlist-6837b66c9505-6ff57d00f98e.txt
 
-e6ac89b8b1c12e9104df45a14a26e2dfa96ded06 sched_ext: Generate qseq from a per-task counter
-a546831dff38b624240a90a6ff6d2b43d9226d51 sched_ext: Clear a sub-scheduler's caps before ops.sub_detach()
-457fff158adcd2a60f2a908957e193cb78649dbf sched_ext: Add ops.sub_cid_sched_updated() to report the sched running on a cid
-9a206b2c7bd2e4b3e0deb04740b044d96c1d66b3 sched_ext: scx_qmap: Size the cid range buffer for large machines
-3d7c2f550eefe30e90fbb031897b0170d8dee303 sched_ext: scx_qmap: Show actual cid use per participant
-da3bad759ef2df9db38ad851a061d719091d74dd sched_ext: Add ops.sub_child_ecaps_updated() to report a child's effective cap changes
-0ded98e4c014d8bc9ced2dc7a4d1fb290a594d48 sched_ext: scx_qmap: Reset a child's cpuperf targets once its PERF revoke takes effect
-7a9df76679633cf26e0fea882a684012c6ec245a sched_ext: Fix stall when a task enqueued with SCX_ENQ_LAST lands back on its CPU's local DSQ
-069403dff337feb192bfc70fb28ddc8a171e20c1 sched_ext: Fix use-after-free of a destroyed user DSQ by a deferred reenqueue
-8b3eaeb72e8a2eb8250e67b45e98e02ffcb5bd63 sched_ext: Merge branch 'for-7.3-fixes' into for-7.4
-d1350c523f481769182604d758ecfcdf3597b402 selftests/sched_ext: Fix build error in dequeue_remote selftest
-690828160e5d7500aa5a77584e5556cc59bf289a sched/core: Avoid false migration warning for proxy donors
-1297d1ac8d5fb61412549c8a9cbc74046fdebb36 virtio_console: allocate the port_buffer with the caller's gfp
-8b6891629cc93468e0eecf9a59ea83f4043104d4 sched_ext: Don't leave balance callbacks queued across a pick retry
-7ab553756463ed6dcf6bc116d66f24b67365a909 sched_ext: Keep proxy donors with slice left on the local DSQ
-28c2d6b3a8f417489b7b17fbf0a9ef54c2a5b197 sched/numa: Let other scheduling classes drive NUMA scanning
-e858065f9f1cfe190d1c21e1cbf3964fc74aad2f sched/numa: Leave the placement of a BPF-scheduled task to its scheduler
-33c09ee34feaa88084195c3373acfa6a9dc8afd0 sched_ext: Report preferred NUMA nodes through ops.set_numa_node()
-40a4757d3ac041184df8ecffcdc92683bc8a6bc4 selftests/sched_ext: Test preferred NUMA node notifications
-b2a554ca1dcd82299547c2dbd97cf0e16b3bb6df sched/numa: Let a BPF scheduler request a page migration node
-7b101b8705f7de889d3a4d5fbde2712445bdc3a7 sched/numa: Expose task_scan_start()
-04888324f1cc37b430cfc2bd20cae4a309366294 sched_ext: Add a kfunc to request a NUMA memory target
-a2ef550f8d7bf7a7736a256d713ad5a55b760b61 selftests/sched_ext: Test the NUMA memory target kfunc
+ad1c4f1f3561aadf4a049c5defe1909e4d497d5a fstests: btrfs: add a new test case to verify degraded RMW writes
+83d0e8eb4e88abfe18086d7575cf2aa590208410 fstests: btrfs: add a test case for deleting partially owned qgroup
+4c8396e1b55cf416f59f0ea092927963ba2cd364 fstests: btrfs: test if btrfs control file rejects unknown ioctls
+10c451127e02e675414d61a76b893a0b0bac3235 fstests: generic: add a test case to check fsverity reads
+1d3c2050fc3d5b4397d6b6c73f781ca0f48f9c58 generic/622: increase sleep time for lazytime expiration
+0273012b9e8b7197174dc1be81358a024a74cfe0 xfs: test libxfs handling of missing RT devices
+a952ecb1ccf14522f9d3f1d9d21ce18330d5b409 src/locktest.c: fix build failure of struct delegation
+46955fcfe5791c2d2236ec19cd66cd2080b36e14 btrfs: test setting attribute on nodatasum file that has inherited compression
+c464a8b02e3c0694b379f073b768e2311ecb2c9d generic: regression test for refluxfs fixes
+e185be955e4224193c10065bf073f1de1f6e4046 common/xfs: add zoned/rtstart info to mkfs filter output
+1984e2f4b080ab568b93f74a2d0e90fecb53318b xfs: basic functional testing of media verification command
+1cfd8c36b0b134e796d48832ed0a833fa0214b8c xfs: test mkfs.xfs config file generation
+5539523a6cb4e9e55e70b77515148a608dde6685 generic: add regression test for exchangerange-to-eof reflux
+a0b9df430a3c9784ee5d7d248ad0e41debf1e039 xfs: add regression test for swapext reflux
+bc07ae55d06a3e61c9c7018fe752f3593a9437c3 xfs: test rt group superblock repair
+6ff57d00f98e92637370e4884f09c621fdb1e7a5 xfs: test unlinked inode list checking and repair with loops
 
---===============0016021483480016265==--
+--===============4595803611028468236==--
