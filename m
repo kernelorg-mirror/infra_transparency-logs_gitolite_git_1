@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 14 Oct 2026 17:13:29 -0000
-Message-Id: <179199800963.3029630.18076169838344694410@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 14 Oct 2026 17:15:00 -0000
+Message-Id: <179199810001.3030118.233859394916873328@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/kdevops
-    old: b4bae4e15458a5d319eb98781f6c0595e9508fe5
-    new: 435d4d3abe3117dfed2f87834a69762466b26042
+  - ref: refs/heads/master
+    old: 9dc7e40962f11d1d9a5568f8a7633a695288329c
+    new: dd9d5ba1fa4f682b082b1275a8c38523d95a58fd
     log: |
-         8a87ec106a5d2b15d0e4c52e67364e22a694caa4 NFSD: Add per-export read/write I/O mode settings
-         cb5acaa6953be92b708e948cf38a56e8638a0081 NFSD: Apply per-export I/O modes to READ and WRITE
-         435d4d3abe3117dfed2f87834a69762466b26042 NFSD: Document per-export riomode= and wiomode= options
+         02aa5ea219edb9d4c4bae700fd978de8da5d787a monitor: Add Minimum Supported Connection Interval
+         8ebf7ffe7bc6ceb15d908073673f251ca3939df0 emulator: Add Minimum Supported Connection Interval
+         0a48b5ef5e3d55e3ce0cf1a462ff49c3f465f329 test: functional: connect instead of pairing a bonded BAP device
+         dd9d5ba1fa4f682b082b1275a8c38523d95a58fd mgmt-tester: Add host-resolved RPA scan checks
          
