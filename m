@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 14 Oct 2026 12:41:53 -0000
-Message-Id: <179198171385.2820170.1733580940222882605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Wed, 14 Oct 2026 12:43:44 -0000
+Message-Id: <179198182414.2820856.17329371612949805204@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/controller/dwc-qcom
-    old: 5121d76cb9dde74662962cd5678a64abeaf3b3e4
-    new: 817c16e46609d60c22679d9145a39e28b1f6e164
+  - ref: refs/heads/ntfs-next
+    old: fbe5f7d6fa28d47965b48f54fd98885e7176932b
+    new: e845077350df3862c733ed10a950d49ef4d64b0c
     log: |
-         817c16e46609d60c22679d9145a39e28b1f6e164 PCI: qcom-ep: deinitialize endpoint on remove
+         e9e16513a4854995f8cd77a9964b80bdb489060c ntfs: avoid unnecessary padding in uapi structure
+         17138f2b83517d8df906e82593f40b33d7676f98 ntfs: support FS_IOC_GETFSUUID
+         e845077350df3862c733ed10a950d49ef4d64b0c ntfs: report birth time for symbolic links
          
