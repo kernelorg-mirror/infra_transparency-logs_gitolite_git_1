@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 14 Oct 2026 05:26:42 -0000
-Message-Id: <179195560259.2454292.12503063138259387752@gitolite.kernel.org>
+Date: Wed, 14 Oct 2026 06:08:32 -0000
+Message-Id: <179195811210.2481867.13875783377083122550@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: mani
 changes:
-  - ref: refs/heads/controller/dwc-imx6
-    old: 5a642c81b31bbd426edceb071ba50839c225220a
-    new: 2aed243fe21ec77c5682aa8ee6a5912d94b3a4ff
-    log: |
-         2aed243fe21ec77c5682aa8ee6a5912d94b3a4ff PCI: imx6: Use dev_err_probe() in error path of pci_pwrctrl_power_on_devices()
-         
+  - ref: refs/heads/controller/dwc-ultrarisc
+    old: 0000000000000000000000000000000000000000
+    new: 8da2b970ed4c8188ef464cee060707f2370e015c
