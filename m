@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5933111012997847792=="
+Content-Type: multipart/mixed; boundary="===============2552747112916327667=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 14 Oct 2026 08:31:58 -0000
-Message-Id: <179196671818.2584945.5214717273967756323@gitolite.kernel.org>
+Date: Wed, 14 Oct 2026 08:32:26 -0000
+Message-Id: <179196674639.2585516.17872586514580704953@gitolite.kernel.org>
 
---===============5933111012997847792==
+--===============2552747112916327667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,50 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 7abc52da724b95eee09c77a1da04c49aec6d31b7
-    new: d1b481603b6e362a5fb307c7b97169604ff085c4
-    log: revlist-7abc52da724b-d1b481603b6e.txt
+    old: d1b481603b6e362a5fb307c7b97169604ff085c4
+    new: 6ff90f554839bbf0356f9486b01d30cb447d4079
+    log: revlist-d1b481603b6e-6ff90f554839.txt
+  - ref: refs/heads/tip/urgent
+    old: ec37745bb735edd25ab0306a2065a45cebc2105e
+    new: eb4c2a1ff4869699c80e0a166d7b6ac1098f6fcb
+    log: revlist-ec37745bb735-eb4c2a1ff486.txt
 
---===============5933111012997847792==
+--===============2552747112916327667==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7abc52da724b-d1b481603b6e.txt
+Content-Disposition: attachment; filename=revlist-d1b481603b6e-6ff90f554839.txt
+
+042acfe5b0e1fd2c62bb839ef6340b0411438cbf Merge branch into tip/master: 'x86/urgent'
+eb4c2a1ff4869699c80e0a166d7b6ac1098f6fcb Merge branch into tip/master: 'x86/mm'
+6d55ea82b3eaf8fe8d422c3c48ba1233374b8ae8 Merge branch into tip/master: 'perf/merge'
+246900d4e77f2b21f66c116773701b641116683d Merge branch into tip/master: 'irq/core'
+bc87b5be267cd36c25e41b5a97e83d9d75bede0f Merge branch into tip/master: 'irq/drivers'
+e32a829150343cf462e1e9dc7a13db6b6a0ff5a1 Merge branch into tip/master: 'locking/core'
+ec51bfc125aa398e76a336c29f80dee246299b27 Merge branch into tip/master: 'objtool/core'
+7bac62f071d89ec4c7811ec3ef0a02f2e31da525 Merge branch into tip/master: 'sched/core'
+ebdde10521c5feab655e434f7bcbc394eeeb0720 Merge branch into tip/master: 'timers/core'
+102150f2f1b4051acc0ba9446502cb09bb7f1689 Merge branch into tip/master: 'timers/nohz'
+0ba2d83daf0adb93e9d2959fad7b1aa0334b3fe2 Merge branch into tip/master: 'x86/asm'
+14202e0cb0110b685d93134149b1d929c658578f Merge branch into tip/master: 'x86/boot'
+9c575c9993c4b99cb1261a8a6a7d497f5e6d436b Merge branch into tip/master: 'x86/bugs'
+d459f1a50c67ec16df852eba4c063afe309f49d1 Merge branch into tip/master: 'x86/cache'
+4ab9beb8e1eb3c4fca0b51572de0e8d411d38dde Merge branch into tip/master: 'x86/cleanups'
+83f159800d77d285bb953a1d6b120c5757957abe Merge branch into tip/master: 'x86/core'
+751e9e222e6abc3d2f5ac72711d72252bf7f24dd Merge branch into tip/master: 'x86/cpu'
+c4c36eb07a34c48001b45e4ad9380c439b994b1c Merge branch into tip/master: 'x86/kdump'
+2356351f5ed95e8d162f8e9d5f9da887f9819a9d Merge branch into tip/master: 'x86/microcode'
+47182f367ceb823c9f6d6d6fa7fa5825045ce60f Merge branch into tip/master: 'x86/misc'
+5b5181339002a4c5a111ac1fb4104dab36bebb75 Merge branch into tip/master: 'x86/platform'
+1668d263b6489844dd8561e75442b168309021dc Merge branch into tip/master: 'x86/sev'
+6fc079e69a53bff42b85a49409a87f0531a1ae56 Merge branch into tip/master: 'x86/sgx'
+6ff90f554839bbf0356f9486b01d30cb447d4079 Merge branch into tip/master: 'x86/tdx'
+
+--===============2552747112916327667==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ec37745bb735-eb4c2a1ff486.txt
 
 f444a42dce5caf5856b5289c48e0d48e531649d3 power: supply: max17042_battery: Fix vmin assigned instead of vmax in DT parsing
 45d4af4e80a25881b6b75e8e34872c555c43a41d power: supply: Fix maintenance charge table kernel-doc
@@ -54,6 +89,7 @@ cbc08c20479c6da3db077f9b170bb8cc2d09df20 Merge tag 'turbostat-2026.09.28' of git
 ca3e345926b00bd59106c1bf2022b1daf4164a67 Merge tag 'bootconfig-fixes-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 d77bd0d469e1923e587bb919301c0bb29093e30a Merge tag 'for-v7.3-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 4056b3c9d3c92ea45955641dbafeb9b960e146ef Merge tag 'nios2_update_for_v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux
-d1b481603b6e362a5fb307c7b97169604ff085c4 Merge branch 'linus'
+042acfe5b0e1fd2c62bb839ef6340b0411438cbf Merge branch into tip/master: 'x86/urgent'
+eb4c2a1ff4869699c80e0a166d7b6ac1098f6fcb Merge branch into tip/master: 'x86/mm'
 
---===============5933111012997847792==--
+--===============2552747112916327667==--
