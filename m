@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 14 Oct 2026 20:36:28 -0000
-Message-Id: <179201018895.3182966.4188754739383566057@gitolite.kernel.org>
+Date: Wed, 14 Oct 2026 20:39:53 -0000
+Message-Id: <179201039329.3184169.1983666227459117665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/controller/xilinx-dma-pl
-    old: 0346bd527dff238db0acfe8ca6c4dfc6c2ea1c52
-    new: 73d3d81832708137ba6332fc011663feaf97deee
+  - ref: refs/heads/aspm
+    old: 5b2d6122ae06f1452d307f95729bdbcbcf9cfb87
+    new: 115aee6fe83679d2a0afa47dde028a59843d1441
     log: |
-         73d3d81832708137ba6332fc011663feaf97deee PCI: xilinx-xdma: Fix device node reference leak in xilinx_pl_dma_pcie_init_irq_domain()
+         115aee6fe83679d2a0afa47dde028a59843d1441 PCI/ASPM: Always disable ASPM when driver requests it
          
