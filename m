@@ -1,32 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 14 Oct 2026 12:55:51 -0000
-Message-Id: <179198255125.2831778.12194858478223739875@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9194502339634264004=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 14 Oct 2026 12:58:55 -0000
+Message-Id: <179198273567.2832810.1786647210354825848@gitolite.kernel.org>
+
+--===============9194502339634264004==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: a68a688ce220f1b359bec53fa38d1504314dc70f
-    new: ad28d2f607d1792c04531f2c5fd9ac0bf5bdcc9c
-    log: |
-         9e4b51e048d2c402ae8954080bc45576d23a20dd ALSA: hda/realtek: Fix speaker and mic mute LEDs on IdeaPad Pro 5 14IAH10
-         fd65108f5001ffb416dc9bd37ec1893f55cff24a ALSA: cs46xx: fix unit mismatch in DSP code area bounds check
-         d1e57f8fb7a6b6d32a4aaa31fd6fc4c77339608f ALSA: pcm: Unlink substreams before releasing them
-         ad28d2f607d1792c04531f2c5fd9ac0bf5bdcc9c ALSA: pcm: Serialize and check HW_REFINE ioctls
-         
   - ref: refs/heads/master
-    old: b6fa1d885bdf30afea411129c9cb80f5a37ded1e
-    new: bd7b028696e577729dc9d91a579ca3e1cd131ea5
+    old: 628273c573efbb0addf0033494fa7efa49927a2b
+    new: c807065c29dd57877760523ef9453c21c6e15b89
     log: |
-         9e4b51e048d2c402ae8954080bc45576d23a20dd ALSA: hda/realtek: Fix speaker and mic mute LEDs on IdeaPad Pro 5 14IAH10
-         fd65108f5001ffb416dc9bd37ec1893f55cff24a ALSA: cs46xx: fix unit mismatch in DSP code area bounds check
-         d1e57f8fb7a6b6d32a4aaa31fd6fc4c77339608f ALSA: pcm: Unlink substreams before releasing them
-         ad28d2f607d1792c04531f2c5fd9ac0bf5bdcc9c ALSA: pcm: Serialize and check HW_REFINE ioctls
-         bd7b028696e577729dc9d91a579ca3e1cd131ea5 Merge branch 'for-next'
+         c807065c29dd57877760523ef9453c21c6e15b89 cve/schema: fix up .sha1 description
          
+
+--===============9194502339634264004==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1791982740 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1791982732-2054f3b0867b8af4758d0d0bfa992bac18a951b6
+
+628273c573efbb0addf0033494fa7efa49927a2b c807065c29dd57877760523ef9453c21c6e15b89 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrPfJQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pKgP/0B+sk9CbJtYeQfuA6ZW
+OjcaTWfnyM/CScyefpvyzx6+jYgcG7L+8Tm+eXekmLMiBhKOk/Fe32i2rOg5wkhh
+IFlyhJxt02qPKN8y4+koJu3LnECUtZHcxStZ4MzocNF+yYo6sqPRzA4kPqA02Pa+
+hF+eZWQOSBaXJ4wvI7c24dlJupAVTe5M28uguNaWu6MulO8EUuCyRXvn6NzbYo+Y
+/UBm7I1qQ/qwGLfkfdwHykg1P4ecghQt/4EJvFc0UDxu3/eQr75HQOuuW0VU3MVM
+tZpUG/9bUU07wecWAsCkpP/i9F9C2x7nQwr6SD6U+L49b6rck859XlpyrU39cylc
+iWumFF6v92memnhtPOgz9BFTR3gSbxqBebgmka6gIqqWmskXOynGwyEHZ1a1AsWk
+Ley8giqr7LPvnpj1Z7qL8hM1eE7sx1wB9OJuikkoSvuGEzzDU2k8NyCSMaEJwZHp
+a/j+6kAja1QL57nUT8c66RCaMc9nYubeBx8GKhfwb5cxmR0jwvBBDG6xa5fdQk1+
+hwax/DqBzCjYEMGiSbwhpNN5Kn+kVduq5cJ40hfjs5COkAIJmLHZojz3xg0aIBk2
+vpcsj7viiRIA0hUmCQ6gT2F6oQs1/+iDRCONHNX+M8Pz1TK9t5qussDuUnSE58aM
+ss1/IvjJv3/HwSj9V8BZ4RyN
+=8rk3
+-----END PGP SIGNATURE-----
+
+--===============9194502339634264004==--
