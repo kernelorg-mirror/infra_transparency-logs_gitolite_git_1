@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 15 Oct 2026 14:26:02 -0000
-Message-Id: <179207436275.213915.11071969432450165388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/AARCHMRS
+Date: Thu, 15 Oct 2026 14:26:33 -0000
+Message-Id: <179207439386.214432.15451710920879994280@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/maz/AARCHMRS
+user: maz
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: 2923259d08b097bb3c39733f67e635a542ad8917
-    new: ac24731d0072411562d294b870f9b267dabc40a2
+  - ref: refs/heads/master
+    old: 47b5446cf08ef6a46c86147c7deb0d56caf99d93
+    new: 1346b16d47619400448f3cb6d4f22d62d3b76848
     log: |
-         684c52dd270286dde0685e4bbfbd1b731c050de9 ASoC: SOF: amd: fix trailing blank line at EOF in acp_asp_mailbox.c
-         3bf175cf275f89282897a872d5c9b7e81fd78e72 ASoC: amd: acp: move ACP7X_PDM_DMIC0/1 to acp-mach-common.h
-         ac24731d0072411562d294b870f9b267dabc40a2 ASoC: SOF/amd: Fixups for ACP7.B support and ASP carveout
+         b8b6041da4f27c5fd8974532ac8a0c40a5405450 AARCHMRS_OPENSOURCE_A_profile_FAT-2026-06
+         1346b16d47619400448f3cb6d4f22d62d3b76848 AARCHMRS_OPENSOURCE_A_profile_FAT-2026-09
          
