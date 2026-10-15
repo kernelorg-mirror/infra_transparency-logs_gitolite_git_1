@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nvdimm/nvdimm
-Date: Thu, 15 Oct 2026 23:42:33 -0000
-Message-Id: <179210775385.656091.9414463987758518267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 15 Oct 2026 23:47:43 -0000
+Message-Id: <179210806323.660022.1799170044364884239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nvdimm/nvdimm
-user: aschofie
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/libnvdimm-for-next
-    old: 855a46681e0ba601952c346e5b62d867e51ecb23
-    new: c0962f508e80d73aab8406b716496d40eb4bfc14
+  - ref: refs/heads/kernel-7.3/snitzer-nfs-fixes-canary
+    old: 2ad74e0dd1cc335cdd571b454981969fec86663b
+    new: 68f35fcb64abdc5af08739153bf9abc9aca34f51
     log: |
-         c0962f508e80d73aab8406b716496d40eb4bfc14 libnvdimm: Handle negative return from nvdimm_clear_poison() in nsio_rw_bytes()
+         406320bfbd8a73fcf3ec2bdb6540f7dcdd48eaa5 NFS: don't release the open context of a failed write from writeback
+         331709c0b50e31eb0b803b82d985371e5bd061b1 NFS: don't run the release of a WRITE or COMMIT in the submitter
+         14fe01549f64df2cb32269c71e81ad84b5dca750 NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
+         68f35fcb64abdc5af08739153bf9abc9aca34f51 workqueue: Fix NULL current_pwq deref in mem-reclaim helper
          
