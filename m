@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 15 Oct 2026 10:30:49 -0000
-Message-Id: <179206024992.4051787.11520722744107314234@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Thu, 15 Oct 2026 10:31:43 -0000
+Message-Id: <179206030330.4052287.16694202678592006508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/broonie/regulator
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 6329e8232aa8f579522fbd5308890e13b9f2624e
-    new: a39a3a32785ee2804ed8516b0cb1585b88c2ba51
+  - ref: refs/heads/for-7.4
+    old: e46eeb24d707d4ea6985bfa511948a3b62974c09
+    new: 98a375660baf9c0f459489efac9eb4898bbad832
     log: |
-         a39a3a32785ee2804ed8516b0cb1585b88c2ba51 net: ipv6: seg6: report lwtunnel setup errors via extack
+         c299083f5d00f28903e54afce869370fc20fa055 regulator: dt-bindings: ti,lp872x: Deprecate ti,dvs-gpio and ti,update-config
+         3fa475838a7cdb2065f1b2679480f7656d8ded47 regulator: dt-bindings: ti,lp872x: Document input supplies
+         2411d590ac107d59303cf0cda560ad6747f892e2 regulator: lp872x: Fold driver header into driver file
+         67b4e8a9426ba24383038fb74fa147d253943ade regulator: lp872x: Remove redundant regmap wrappers
+         58f1f2c36970366a8194e3b0ddbd72b8d25b0689 regulator: lp872x: Remove platform_data based probing
+         646e25232f754d82f79c364d54cf02d9bf40d291 regulator: lp872x: Add support for input and regulator power supplies
+         399bc14dec564e41e19798a0728a331031d5f6a1 regulator: lp872x: Use macro to fill regulator descriptor
+         98a375660baf9c0f459489efac9eb4898bbad832 lp872x: remove platform_data based probing and adjustments
          
