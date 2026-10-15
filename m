@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0365825823487311160=="
+Content-Type: multipart/mixed; boundary="===============1538154796309198976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 15 Oct 2026 01:17:35 -0000
-Message-Id: <179202705563.3424492.1126383160776859626@gitolite.kernel.org>
+Date: Thu, 15 Oct 2026 01:17:39 -0000
+Message-Id: <179202705993.3424645.7091152376130734291@gitolite.kernel.org>
 
---===============0365825823487311160==
+--===============1538154796309198976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: ad9f2d463666c64e94b04be5263c9bf8f9f96fb7
-    new: 71a9b024444eba184335b67867897714e4da143c
-    log: revlist-ad9f2d463666-71a9b024444e.txt
+  - ref: refs/heads/mm-unstable
+    old: 1d0b04a60516de48250b04227dcf483c6c09aab1
+    new: 5ba29027115bc6717b8d6dc3296aae0240933811
+    log: revlist-1d0b04a60516-5ba29027115b.txt
 
---===============0365825823487311160==
+--===============1538154796309198976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad9f2d463666-71a9b024444e.txt
+Content-Disposition: attachment; filename=revlist-1d0b04a60516-5ba29027115b.txt
 
 7d6d4e23f8b044c44a6735b00cd4a81b48df67e8 mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
 6dd47dc196110c15cf369c15adb06ebd6a5b46ab mm/vmalloc: use dedicated unbound workqueues for vmap drain
@@ -223,7 +223,5 @@ aecf11e162d9378ddc467dac9912114bff0fddb2 mm/madvise: atomically clear the young 
 e7fd8a371c3c716a8f630b558590a4fe60e1b547 mm/vmscan: fix missing NR_ISOLATED counter update in MGLRU reclaim path
 366f8946b4f549242df029174609d5a1302240a7 ipc/shm: fix RSS accounting for hugetlb shared memory
 5ba29027115bc6717b8d6dc3296aae0240933811 mm: vmscan: don't count per-node proactive reclaim as memory pressure
-b19004d9a24dc7045f4b46fe340fe934590bbfd6 riscv: mm: fix concurrency in mark_new_valid_map()
-71a9b024444eba184335b67867897714e4da143c riscv: mm: exclude invalid THP PMDs from page table check
 
---===============0365825823487311160==--
+--===============1538154796309198976==--
