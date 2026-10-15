@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 15 Oct 2026 14:12:03 -0000
-Message-Id: <179207352350.202050.6870564563887051654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Thu, 15 Oct 2026 14:20:51 -0000
+Message-Id: <179207405154.209066.14959935391803874391@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/main
-    old: 73022f605c447f31610b94ed4a983d2b4bf2c721
-    new: 36e6e826f7cd49f94e76fbfdc6f2873385c456d6
+  - ref: refs/heads/master
+    old: 8e0b3b316b6c306c80d8ce2ff7858c6d428e9fd6
+    new: b816b05ede7d73aaba232bd8b93fac2e415b7f75
     log: |
-         70f63dc608725c0b32507f22eb6d3028efb3ed09 bnxt_en: Add helper to fill SW USO payload BDs
-         b0f7f9c87817da1c72d093d3e5f249d45d8edf88 bnxt_en: Pad short SW USO segments to BNXT_MIN_PKT_SIZE
-         36e6e826f7cd49f94e76fbfdc6f2873385c456d6 Merge branch 'bnxt_en-fix-sw-uso-padding'
+         18bf5e4542fd19c4e7bcd63bbfe992cf78bc4dc1 ci: Add missing pkgconf in Archlinux
+         b816b05ede7d73aaba232bd8b93fac2e415b7f75 Disable mbedtls >= 4.0
          
