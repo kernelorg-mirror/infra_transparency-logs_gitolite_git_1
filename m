@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 15 Oct 2026 20:34:19 -0000
-Message-Id: <179209645977.508815.9686589599018221387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Thu, 15 Oct 2026 20:41:07 -0000
+Message-Id: <179209686799.515200.6665814023202059302@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/for-7.4/block
-    old: 1b1be9ea4e34ccede1e7cf9ff2b6317328a5b6ad
-    new: aaf49023041bc1f887a028a164d3bac714b65508
+  - ref: refs/heads/i2c/i2c-fixes
+    old: 195f3d74b5de98969dc4fad956393bb00787efd1
+    new: d33373c565af9c8a28776af02bd20ba6e5724211
     log: |
-         aaf49023041bc1f887a028a164d3bac714b65508 ublk: hold RCU read lock in ublk_try_buf_match()
-         
-  - ref: refs/heads/for-next
-    old: b3a9f56309ac3eb09a51b90197ac0b8682b4a5a5
-    new: 4dc428c3687c85a7fdd28b8d1b6d099bdd54c863
-    log: |
-         aaf49023041bc1f887a028a164d3bac714b65508 ublk: hold RCU read lock in ublk_try_buf_match()
-         4dc428c3687c85a7fdd28b8d1b6d099bdd54c863 Merge branch 'for-7.4/block' into for-next
+         d33373c565af9c8a28776af02bd20ba6e5724211 i2c: xiic: restore non-managed runtime PM to fix clk WARN flood
          
