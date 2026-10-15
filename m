@@ -1,100 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============4135454677759322445=="
+Content-Type: multipart/mixed; boundary="===============3440308191391341090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 15 Oct 2026 22:16:54 -0000
-Message-Id: <179210261428.590290.9129448425423453705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 15 Oct 2026 22:17:36 -0000
+Message-Id: <179210265611.590724.8780975924503275887@gitolite.kernel.org>
 
---===============4135454677759322445==
+--===============3440308191391341090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-7.4/block
-    old: aaf49023041bc1f887a028a164d3bac714b65508
-    new: 341a043c2486f17d3169b2aac0e6967053e51cd1
-    log: revlist-aaf49023041b-341a043c2486.txt
-  - ref: refs/heads/for-next
-    old: 4dc428c3687c85a7fdd28b8d1b6d099bdd54c863
-    new: 76ba3e7c75978c3e4aa00744b5be55f8b945075d
-    log: revlist-4dc428c3687c-76ba3e7c7597.txt
+  - ref: refs/heads/asoc-7.4
+    old: f15b2df0b940cb2c01797f78791de3279d514086
+    new: 5c92a5c561d5a0f1923724c240b9796a28537b4b
+    log: revlist-f15b2df0b940-5c92a5c561d5.txt
 
---===============4135454677759322445==
+--===============3440308191391341090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aaf49023041b-341a043c2486.txt
+Content-Disposition: attachment; filename=revlist-f15b2df0b940-5c92a5c561d5.txt
 
-cf23a7bc34e46f4a58c077607bdb9c3c9a00baad nvme: use assign_bit() where applicable
-25f82e8212fb0b121879bea8023a166de40f5f41 nvme-multipath: expose path_state via sysfs
-d9cc476535d29a44df3f2aa3b14af9a833fddf90 nvme-multipath: add iopolicies sysfs attribute
-1826a8e0b6d69a346b5193637cf45bb8a84e0223 dt-bindings: nvme: Add apple,t8132-nvme-ans2 compatible
-304bc392dbfb7fc173b46b3bebf17a4b023c2e07 nvme: apple: add t8132 (M4) ANS2 NVMe support
-87a1ac965502858f9207153a92c3aef8ecf6d4ae nvme-tcp: store and use the caller's network namespace
-c58465c1e3d6f6fa720c922781cad4330a573cfb nvme-tcp: refactor I/O queue setup path
-61b0ed3be81b612ed4e33841a840aab27610499e nvme-tcp: parallelize I/O queue allocation and startup
-e98e45e9465bfd0b1635d70001ca8b294a29b98f nvmet: Add traffic based keep alive support to configfs
-9e7fe5ade9fd1058be20ff8cc43a944ef435662c nvmet: introduce struct nvmet_passthru
-5e12d81874a135258217252cf9980b2294ef8958 nvmet: fix use-after-free in passthru I/O hotpath
-909307cea08aff4e486cdb7491de5c76a2c31341 nvme-rdma: don't complete a request after a bogus remote invalidation
-53283a76180388c2bfc46eca2ef3ff2c131f5fc7 nvme-multipath: report "none" iopolicy for discovery subsystems
-0374b39b72feb9139fd74b979d37200a1f22ca76 nvme-multipath: fix path state evaluation for failfast and ANA
-970ce28526c879678439770b8262830822515971 nvme-multipath: add fail_on_ctrl_loss sysfs attribute
-f316aa7f018840523939183425394931b373e4d7 nvmet: fix use-after-free of the old registrant in nvmet_pr_preempt()
-d9e84d4e19994818b80846bd2abb7b396e4116a9 nvmet: fix preempt of another registrant by the reservation holder
-53f6efe00cea0c0cf7bd99debe3cdac8567170b5 nvmet-auth: serialize access to DH-HMAC-CHAP state to fix UAF
-f9e43d924bc74feeb56197de82b2845de2a4b85a nvme-auth: fail when the controller does not authenticate itself
-9d820d55b3cb4859c7cf42a74dc78f6154f97398 nvmet: free the bvec on file namespace range errors
-44512543ff0413031516a02cde67323a55e0f769 nvmet: require authentication before property set
-165301b5e2fd765fa05ea1044bbca8ba79820197 nvmet-fc: don't drop the last assoc reference in nvmet_fc_delete_ctrl()
-c9359401036e8294c007a10e8c8d8da7030fcc76 nvmet-auth: reject undersized AUTH_SEND payloads
-6908a702955929b0876baac9fdc57070780a76f0 nvme: pass partition flags to passthrough checks
-3cf6de080d97d0d9641fbdb613d546c0734905dd nvme: bound FDP config log reads to the received buffer
-31b8a6af19b73e6167c4b655cd5e86681bac1c41 nvmet: zns: don't leak stale memory in zone management receive
-bbca7c312ab25efd0024eb87545c51a76ab2ea39 nvme: make the DH-HMAC-CHAP secret attributes readable by root only
-2e8e30b3cf9f165e1a1d079331543cb7f2ad0e0c Revert "nvme-pci: clamp max_hw_sectors based on DMA optimized limitation"
-341a043c2486f17d3169b2aac0e6967053e51cd1 Merge tag 'nvme-7.4-2026-10-15' of git://git.infradead.org/nvme into for-7.4/block
+c307f91273ef5edbcb489dd3a4d4a4c6206404b7 Merge asoc-linus into asoc-next
+ac32e27bace1bfa2e39e2c212e813f157968736f Merge asoc/for-7.4 into asoc-next
+7ef99fcfbbac20ebec10d21a37aeaf8321de7829 ASoC: soc-link: Correct stream stop operations in snd_soc_link_trigger
+223ec2a93bec6c5ee859094c826fec78516a0bb3 ASoC: ops: Fix return value in snd_soc_limit_volume()
+1641c1ba27abcd3ea3bba1232d9d817092f1b757 ASoC: soc-topology-test: Check return value of kunit_device_register()
+77dfd98b1642b9bc6c2312bd8b805c321fb878b0 ASoC: soc-card-test: Check return value of kunit_device_register()
+fc081cdfc6b370f6b6853cdeb4313f92561770d1 ASoC: soc-ac97: Fix error handling in snd_soc_new_ac97_component()
+9d4bab22932fb6202a4a4e9cbe5e719ad6b3a438 ASoC: soc-ac97: Fix debug message
+9df30adce80dd6b0646e58c12a4cf7c6c88d0778 ASoC: soc-component: Fix return type of snd_soc_pcm_component_pointer()
+568406bc832e7e9e333e2ab05aafd0b83ffb9610 ASoC: soc-dapm: Remove widget from cache on removal
+f500b6437f205dc824d3045c109f5f9ca377b3cb ASoC: Series of loose fixes
+3901d17c976fcc4cf5930ba0350b779034091b80 ASoC: soc-component: tidyup be_hw_params_fixup() define position
+0ce431a9fc6941792ccf9fdc3e7e52f9823ccade ASoC: soc-component: replace bool member to bit field
+ed2c53c841fe2390e60f52d5a95c815d7b5c37f5 ASoC: soc-component: move snd_soc_add_component_controls()
+ee0daa7a3101dbefd728d19b514785b5f0b3da2c ASoC: soc-component: move snd_soc_component_fixup_controls()
+81db2fed151e1dcc38e5f1bc9dfb61c22d0ffb28 ASoC: soc-component: move soc_component_to_node() to soc-component.c
+78a856d727c9bf99c6f0cd643e087061b82c54ca ASoC: soc-component: move snd_soc_is_matching_component() to soc-component.c
+8b1121c5dff073a55d6e4833c2c9cabb29f09746 ASoC: soc-component: move soc_{probe/remove}_component() to soc-component.c
+5c904834414c9faa66d507cc3e77ed2197ba6a99 ASoC: soc-component: move snd_soc_component_to_dapm() to soc-component.c
+3f78fa38938a972f90fef8d4d2010e5f6fa4557a ASoC: soc-component: move snd_soc_component_cache_sync() to soc-component.c
+614749f16e94a23f0c46fb04f694f9415540d394 ASoC: soc-component: move snd_soc_component_active() to soc-component.c
+8c186bc6b77be4913f5869a68d547dc52976fa9d ASoC: soc-component: move component_list to soc-component.c
+1fec554d55aa41830d7a3c54fce904bbff7e056f ASoC: soc-component: move snd_soc_lookup_component() to soc-component.c
+19224d29ffb4e341400cbfcafe07b19a2af97b72 ASoC: soc-component: rename snd_soc_component_async_complete()
+5c92a5c561d5a0f1923724c240b9796a28537b4b ASoC: soc-component: move snd_soc_component_xxx() to soc-component.c
 
---===============4135454677759322445==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4dc428c3687c-76ba3e7c7597.txt
-
-cf23a7bc34e46f4a58c077607bdb9c3c9a00baad nvme: use assign_bit() where applicable
-25f82e8212fb0b121879bea8023a166de40f5f41 nvme-multipath: expose path_state via sysfs
-d9cc476535d29a44df3f2aa3b14af9a833fddf90 nvme-multipath: add iopolicies sysfs attribute
-1826a8e0b6d69a346b5193637cf45bb8a84e0223 dt-bindings: nvme: Add apple,t8132-nvme-ans2 compatible
-304bc392dbfb7fc173b46b3bebf17a4b023c2e07 nvme: apple: add t8132 (M4) ANS2 NVMe support
-87a1ac965502858f9207153a92c3aef8ecf6d4ae nvme-tcp: store and use the caller's network namespace
-c58465c1e3d6f6fa720c922781cad4330a573cfb nvme-tcp: refactor I/O queue setup path
-61b0ed3be81b612ed4e33841a840aab27610499e nvme-tcp: parallelize I/O queue allocation and startup
-e98e45e9465bfd0b1635d70001ca8b294a29b98f nvmet: Add traffic based keep alive support to configfs
-9e7fe5ade9fd1058be20ff8cc43a944ef435662c nvmet: introduce struct nvmet_passthru
-5e12d81874a135258217252cf9980b2294ef8958 nvmet: fix use-after-free in passthru I/O hotpath
-909307cea08aff4e486cdb7491de5c76a2c31341 nvme-rdma: don't complete a request after a bogus remote invalidation
-53283a76180388c2bfc46eca2ef3ff2c131f5fc7 nvme-multipath: report "none" iopolicy for discovery subsystems
-0374b39b72feb9139fd74b979d37200a1f22ca76 nvme-multipath: fix path state evaluation for failfast and ANA
-970ce28526c879678439770b8262830822515971 nvme-multipath: add fail_on_ctrl_loss sysfs attribute
-f316aa7f018840523939183425394931b373e4d7 nvmet: fix use-after-free of the old registrant in nvmet_pr_preempt()
-d9e84d4e19994818b80846bd2abb7b396e4116a9 nvmet: fix preempt of another registrant by the reservation holder
-53f6efe00cea0c0cf7bd99debe3cdac8567170b5 nvmet-auth: serialize access to DH-HMAC-CHAP state to fix UAF
-f9e43d924bc74feeb56197de82b2845de2a4b85a nvme-auth: fail when the controller does not authenticate itself
-9d820d55b3cb4859c7cf42a74dc78f6154f97398 nvmet: free the bvec on file namespace range errors
-44512543ff0413031516a02cde67323a55e0f769 nvmet: require authentication before property set
-165301b5e2fd765fa05ea1044bbca8ba79820197 nvmet-fc: don't drop the last assoc reference in nvmet_fc_delete_ctrl()
-c9359401036e8294c007a10e8c8d8da7030fcc76 nvmet-auth: reject undersized AUTH_SEND payloads
-6908a702955929b0876baac9fdc57070780a76f0 nvme: pass partition flags to passthrough checks
-3cf6de080d97d0d9641fbdb613d546c0734905dd nvme: bound FDP config log reads to the received buffer
-31b8a6af19b73e6167c4b655cd5e86681bac1c41 nvmet: zns: don't leak stale memory in zone management receive
-bbca7c312ab25efd0024eb87545c51a76ab2ea39 nvme: make the DH-HMAC-CHAP secret attributes readable by root only
-2e8e30b3cf9f165e1a1d079331543cb7f2ad0e0c Revert "nvme-pci: clamp max_hw_sectors based on DMA optimized limitation"
-341a043c2486f17d3169b2aac0e6967053e51cd1 Merge tag 'nvme-7.4-2026-10-15' of git://git.infradead.org/nvme into for-7.4/block
-76ba3e7c75978c3e4aa00744b5be55f8b945075d Merge branch 'for-7.4/block' into for-next
-
---===============4135454677759322445==--
+--===============3440308191391341090==--
