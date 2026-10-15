@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 15 Oct 2026 14:00:15 -0000
-Message-Id: <179207281505.193525.2624137461542273377@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/mail/kremail
+Date: Thu, 15 Oct 2026 14:03:55 -0000
+Message-Id: <179207303546.195047.1431472240547503497@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/utils/mail/kremail
+user: mricon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 66196a559be5963b1ced18418c876caf9bfb76e6
-    new: c887e53e1c852b88bd5442d1bf4717ee3e7aadda
+  - ref: refs/heads/master
+    old: c79cf9aa95dec1292988e4c7a02f469db7d534d4
+    new: e8b432d1d15a1ca96b2e99fc6e74f015e38f1ac1
     log: |
-         9e61a2ac6590e9c42d2eeef687749781334b300f RDMA/rxe: refuse to destroy a QP with type 2 MWs still bound
-         33afe9909f213d8bb8e80f0b93382dde0f56e2c7 RDMA/rxe: reject IB_WR_REG_MR from user QPs in rxe_reg_fast_mr()
-         7797bbb0e86f0062fe58480a0116c86e4ec0d0d1 RDMA/rxe: bound the ODP page index against the umem in rxe_check_pagefault()
-         47a9c0338f2e0d4178d77b0d2f529fe1fde84642 RDMA/rxe: validate inline sge_offset in finish_packet() before indexing inline_data[]
-         56a27df6cedd4f3918969d61c7b9d3cc177b2d1b RDMA/rxe: Fix out-of-range unsigned-to-signed conversion for RDMA message in 2GiB size
-         c887e53e1c852b88bd5442d1bf4717ee3e7aadda RDMA/rxe: bound the WQE opcode before indexing rxe_wr_opcode_info[]
+         f657ecd00d83c5448d130faeffd4d95304371534 tools: list-sanity-check.py: don't crash when cert.expiration raises
+         20c3499b3cc392a6895d02701eccd935522da3a8 tools: list-sanity-check.py: don't crash when cert.user_ids raises
+         a3bbcced1d82c11e1ad0ce0510e6063c475ec74e tests: cover list-sanity-check on SHA-1-only certs
+         c1788bdd12835061ea207da8df30ed56887d84a2 tools: list-sanity-check.py: colour the status tags
+         d3c8ff1694bc5d5285331e8f70b7ff74d4a37986 openpgp: don't crash config checks on SHA-1-only certs
+         90db1bf1dce505772d00914f919655c6f3659733 openpgp: freeze the subscriber when encryption fails
+         eedd919f0ed500ff6c655dcf8532b0d34466c6a0 tools: apply ruff format and UP032 fixes
+         00dccde06b9082dc597e13620168ba5db0bbe046 tests: add private_keydir to test_live_data's fake config
+         66e76970c9a30e693fd5c89ad4fabacbf28f0421 tools: fix type-checker errors
+         e8b432d1d15a1ca96b2e99fc6e74f015e38f1ac1 Add distro-matrix.sh with an AlmaLinux 10 lane
          
