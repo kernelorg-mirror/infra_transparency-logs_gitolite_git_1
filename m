@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 15 Oct 2026 10:06:56 -0000
-Message-Id: <179205881697.3935300.15656112709856899138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 15 Oct 2026 10:07:17 -0000
+Message-Id: <179205883737.3935614.30650511548517549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/main
-    old: 052b8920dd3c71438951113cad1d80a23cab7daa
-    new: 89771ce4f8f67dcffae561b2ccac95c0f6e3aa01
+  - ref: refs/heads/irq/drivers
+    old: 254772534e40060abe5321093400947e03b13d54
+    new: 5b6e2a46b80ddbc93e72eb4f01519b0c8c3e0ef0
     log: |
-         89771ce4f8f67dcffae561b2ccac95c0f6e3aa01 net: bcmgenet: unshare the skb before writing the control block
+         5b6e2a46b80ddbc93e72eb4f01519b0c8c3e0ef0 irqchip/meson-gpio: Allow the GPIO interrupts to wake the system
          
