@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Thu, 15 Oct 2026 06:34:34 -0000
-Message-Id: <179204607441.3650271.6882523354665360375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/memblock
+Date: Thu, 15 Oct 2026 06:41:18 -0000
+Message-Id: <179204647812.3656744.16002267584271086699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ojeda/linux
-user: ojeda
+repo: pub/scm/linux/kernel/git/mm/memblock
+user: rppt
 changes:
-  - ref: refs/heads/rust-fixes
-    old: 4056b3c9d3c92ea45955641dbafeb9b960e146ef
-    new: 0fcb05b72344f40806cbe810de8872f1698bf053
+  - ref: refs/heads/for-next
+    old: 7a3477ec5793ab8c25be4db3e7dfe8a461bc775c
+    new: 7933ad3f669670ca5f5f13de2b5cb0f92b91abf5
     log: |
-         da619121a5d271e78ec709a1f9a3c5f99b9e10ad lib/crypto: poly1305: Use memzero_explicit() in poly1305_final()
-         24f07e8c07a0c0dd275331cbb41c79a78741eef9 lib/crypto: arm64: Fix lost Poly1305 carry when resuming NEON state
-         7b817748bf083ad715a8d70de63f2184178cc372 lib/crypto: tests: Add Poly1305 split-update carry regression test
-         0fcb05b72344f40806cbe810de8872f1698bf053 Merge tag 'libcrypto-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
+         7933ad3f669670ca5f5f13de2b5cb0f92b91abf5 memblock: use binary search to locate candidate regions
          
