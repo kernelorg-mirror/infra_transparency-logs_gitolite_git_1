@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2620540016914972766=="
+Content-Type: multipart/mixed; boundary="===============5040626963573314706=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 15 Oct 2026 11:10:32 -0000
-Message-Id: <179206263204.4083171.15530126296495394142@gitolite.kernel.org>
+Date: Thu, 15 Oct 2026 11:11:15 -0000
+Message-Id: <179206267594.4083962.945245753136308590@gitolite.kernel.org>
 
---===============2620540016914972766==
+--===============5040626963573314706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-7.4
-    old: 2702a7ca23f7e124f972e9e4ce33385da20e9894
-    new: 2923259d08b097bb3c39733f67e635a542ad8917
-    log: revlist-2702a7ca23f7-2923259d08b0.txt
+  - ref: refs/heads/for-next
+    old: fa1e575d7990b508862196189748c6f4507f044a
+    new: 686b3eff603871bd500434e00ff15394a0c782bc
+    log: revlist-fa1e575d7990-686b3eff6038.txt
 
---===============2620540016914972766==
+--===============5040626963573314706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2702a7ca23f7-2923259d08b0.txt
+Content-Disposition: attachment; filename=revlist-fa1e575d7990-686b3eff6038.txt
 
 5bd6d05197affaf5a2d7fae0e06e7373fd839b7c ASoC: codecs: wm8990: Fix definition of right input PGA controls
 75e0b607e3456c9eb15dfb783984f814a89cbcaf ASoC: codecs: wm8990: Fix definition of LOMIX AINLMUX Bypass Volume control
@@ -41,5 +41,7 @@ a747ec6e12cf7a71e42567a479af18b930890d9d ASoC: codecs: wm8985: Fix definition of
 22d50113078dfbeff0d005d64fd9cc680249831c ASoC: codecs: wm8510: Fix definition of ADC Inversion Switch control
 392771995174023c98c3592fafe97e6a456308f6 ASoC: codecs: Fix Wolfson control definitions that write another control's bits
 2923259d08b097bb3c39733f67e635a542ad8917 ASoC: codecs: da7213: Get MCLK in I2C probe
+e292532b28d79054df2b1a01d1f4d80ccb3dd168 Merge asoc-linus into asoc-next
+686b3eff603871bd500434e00ff15394a0c782bc Merge asoc/for-7.4 into asoc-next
 
---===============2620540016914972766==--
+--===============5040626963573314706==--
