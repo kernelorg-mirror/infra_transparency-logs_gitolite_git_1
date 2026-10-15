@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4477716196409893212=="
+Content-Type: multipart/mixed; boundary="===============6092900056160444730=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Thu, 15 Oct 2026 12:15:03 -0000
-Message-Id: <179206650363.4134811.11537503027917862287@gitolite.kernel.org>
+Date: Thu, 15 Oct 2026 12:15:11 -0000
+Message-Id: <179206651157.4139576.4313229484806670503@gitolite.kernel.org>
 
---===============4477716196409893212==
+--===============6092900056160444730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvms390/linux
 user: borntraeger
 changes:
-  - ref: refs/heads/queue
+  - ref: refs/heads/next
     old: 74153e116543bc017aff93720fcc603cb0e8598c
     new: e93fb70b748982fda5e6d97721df35194cacfc4a
     log: revlist-74153e116543-e93fb70b7489.txt
 
---===============4477716196409893212==
+--===============6092900056160444730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -317,4 +317,4 @@ dcd1a3a29250a971e6dc86a6f5e4e16749d6006d s390/hwcaps: Report SAE support as hwca
 ffae233b4d536c7eb6bbad21bc8afa41f6be2929 MAINTAINERS: Add entry for ARM on s390 KVM
 e93fb70b748982fda5e6d97721df35194cacfc4a arm64: Use proper include variant
 
---===============4477716196409893212==--
+--===============6092900056160444730==--
