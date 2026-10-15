@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9105066388161946786=="
+Content-Type: multipart/mixed; boundary="===============2622853971413502954=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Thu, 15 Oct 2026 01:39:21 -0000
-Message-Id: <179202836101.3442653.9897364960305137267@gitolite.kernel.org>
+Date: Thu, 15 Oct 2026 01:40:16 -0000
+Message-Id: <179202841614.3444993.11128687471404853401@gitolite.kernel.org>
 
---===============9105066388161946786==
+--===============2622853971413502954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,77 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/tags/linux-can-next-for-7.4-20261015
-    old: 0000000000000000000000000000000000000000
-    new: 0b046db1facbd157b16feb449d2bf051893eafce
+  - ref: refs/heads/main
+    old: d8674294aefef02266c4d47ad10131f1bffbe534
+    new: 518bf436318e8d1162391cd77d69d65198a4a25b
+    log: revlist-d8674294aefe-518bf436318e.txt
+  - ref: refs/heads/master
+    old: d8674294aefef02266c4d47ad10131f1bffbe534
+    new: 518bf436318e8d1162391cd77d69d65198a4a25b
+    log: revlist-d8674294aefe-518bf436318e.txt
 
---===============9105066388161946786==
+--===============2622853971413502954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1792028356 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1792028412 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1792028356-4aebef548e62cf927ef906b1e467d4e928220a22
+nonce 1792028412-199701f7e724dccb2e44764b39edbb5d1fee9ca5
 
-0000000000000000000000000000000000000000 0b046db1facbd157b16feb449d2bf051893eafce refs/tags/linux-can-next-for-7.4-20261015
+d8674294aefef02266c4d47ad10131f1bffbe534 518bf436318e8d1162391cd77d69d65198a4a25b refs/heads/main
+d8674294aefef02266c4d47ad10131f1bffbe534 518bf436318e8d1162391cd77d69d65198a4a25b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCatAuxBMcbWtsQHBlbmd1
-dHJvbml4LmRlAAoJEMw6ZPquma3SihABAOenw71zb4jw0EJzG0nXoVL1BYNf8ZgE
-ewD91ZxN6sVdAP4q5AoQPJNDbUWtR7zPHHMaJiHR8buHDsGpZotpQOIdDg==
-=Sg/3
+iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCatAu/BMcbWtsQHBlbmd1
+dHJvbml4LmRlAAoJEMw6ZPquma3SjscBAPoGb6N0Ywp3KT0Rml23ppKvKdoQQ/Ae
+K3Aa2qdYrtbnAQC/j2bRGQU1EtFCKGYdZho8a4pk8hATbqSNZfTAlW1RDA==
+=Nx6W
 -----END PGP SIGNATURE-----
 
---===============9105066388161946786==--
+--===============2622853971413502954==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d8674294aefe-518bf436318e.txt
+
+3a82195416fd71fdd6cb4ff80f611ec28073be16 net: devmem: check uid and netns in net_devmem_get_binding()
+29f144016f03608abfddcd6ebaeabafd7aeaadd2 net/mlx5: allocate DMA pool structs on the pool's NUMA node
+d128212667593c548a3c67d30031063ed46c29b7 net: stmmac: set real_num_tx_queues to max(offset + count)
+ac1ca0c3e139a2ebef2fc6c570af6647329726f1 net: stmmac: align real_num_tx_queues to mqprio configuration
+47891d501e345629536481ffc57e2e4b2f2d4770 net: stmmac: add tc mqprio hw queue priority offload
+d0bd617658ddfa5a115e64d1ab687bf155f6331f Merge branch 'net-stmmac-introduce-hw-queue-priority-offload'
+0b3fc7fe6f3f68569b9f9139893491b61a4b45b9 bnge: skip dev_addr when building the VNIC unicast list
+d538cc3ec0bc4cb7b40981b3213a6c6671959ed5 calipso: hash the cache key, not the option start, in calipso_cache_add()
+ffe378c06c10b97806e2109a5d619a48a9c2940c ipv6: Report netns cookie in fib6_table_lookup tracepoint
+c436a624f89e56978659a12e01fe8b2fda2b3a6d ipv4: Pass netns to fib_table_lookup()
+a780f51d5bc81616abdc3529748b12f39c497192 ipv4: Report netns cookie in fib_table_lookup tracepoint
+6607154049fd5af948f855682b95502b7534bf15 Merge branch 'report-netns-cookie-in-fib-lookup-tracepoints'
+0063f777b58db3fa455089566f200ae019614945 net: ag71xx: Use default NAPI weight
+32a8010d2c30c7aa3bd732048c3b366dd3d48c6e sfc: fix stale kernel-doc member names in net_driver.h
+26a8396802ea06c27c014f6d40eaa5ac4ef99a7a net: natsemi: xtsonic: make probe function static
+d7804253678eb18d2be950e0542364b50be096a9 net: stmmac: ptp: switch to gettimex64() interface
+8edbf6c23363563e508a61f3f26f4e4b6eec9dd5 tcp_bic: fix divide by zero on max_increment == 0
+f09eb97322b16a6f709a47599c95b62f786905f9 tcp_hybla: fix divide by zero on rtt0 == 0
+7d52b5d16afc1cf8484ae321658e217a80e3ff4d tcp_cubic: fix divide by zero and endless loop on bad module params
+59e344304c1a80fb9898223020cf3b10ed3a0da4 Merge branch 'tcp-fix-a-few-divide-by-zero-in-congestion-control-modules'
+cc9dcb0e7a428ca43259bbee3350d786681265a3 net: core: use the packet's L3 protocol for the GSO size limit
+0bba48256b0aa86e84a08d69b4410018bd8ffc67 net: core: factor out the GSO device limit check
+c4076626ba520ecf710755046bf5ae6f2fd5b965 net: gso: support re-segmentation of TCP GSO skbs
+335a0378a7556eb818df5cc03281319d7c15ee20 net: gso: clear the GSO state of the last output segment
+32bfd220cd6f70698f9b8828302a9b85065c95c1 net: core: re-segment oversized TCP GSO skbs
+a374c5bb41d1ea72e732153d6a8d17b4e2434d3f net: net_test: add tests for TCP re-segmentation
+4e72c178f424e58d58c53949041e061eacafbc5d Merge branch 'net-re-segment-oversized-tcp-gso-skbs'
+48b7611964e1fa74ec2abd410f66881fc7087428 net: sparx5: Add registers used by TAS
+966285085456a20491cd5714f53d8a917266867e net: sparx5: Move TAS link speed configuration to sparx5_tas.c
+a52629f85a3a97f76a12b9cb97717a36318a708e net: sparx5: Add TAS offload support
+e4f25fd86c9925df67c803a8ec4e0273606ec0e5 Merge branch 'net-sparx5-add-tas-offload'
+05b5019b01fb9443b09ae4ed34af1135a80a84c8 net: alacritech: fix dma_free_coherent() in error path
+fbd3a301b1378423a5cfc23a42e3c0b04e26192c net: selftests: use skb_share_check() in the loopback receive hook
+a7a89019bac0e8810bde7f1419f4adf9adc23d41 net: stmmac: selftests: use skb_share_check() in the loopback receive hook
+16fb7aa6955a0af9f67ca42a61d9be58dfc9382a net/mlx5e: use skb_share_check() in the loopback selftest hook
+518bf436318e8d1162391cd77d69d65198a4a25b Merge branch 'net-use-skb_share_check-in-loopback-selftest-hooks'
+
+--===============2622853971413502954==--
