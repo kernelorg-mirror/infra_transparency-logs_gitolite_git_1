@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 15 Oct 2026 15:38:17 -0000
-Message-Id: <179207869767.276571.1580981394743416224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Thu, 15 Oct 2026 15:38:27 -0000
+Message-Id: <179207870770.276777.2356483898150852068@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/tags/v7.3-rc7
-    old: 0000000000000000000000000000000000000000
-    new: ec8bf8280261294a9b9b4520414b42704c7f9f6b
+  - ref: refs/heads/wip/leon-for-next
+    old: 9bcf45bfcaf83aed81b5fb12f0edf4c16e73e02e
+    new: 9165b3f7372bc1547549687f3a113c047ed94a36
+    log: |
+         9165b3f7372bc1547549687f3a113c047ed94a36 RDMA/irdma: Check MR contiguity before PBLE alloc
+         
