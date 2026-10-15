@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Thu, 15 Oct 2026 17:21:19 -0000
-Message-Id: <179208487968.362929.7907314981846555454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 15 Oct 2026 17:23:37 -0000
+Message-Id: <179208501767.363641.6381460974338351441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
-user: jgg
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: dea7d35179f52fb1f11f4e17361c1eaa880f3fa1
-    new: 04bcf84613346b973a8cc0c59238b6b5bc902688
-    log: |
-         04bcf84613346b973a8cc0c59238b6b5bc902688 iommupt: Do not allow PTEs to be split when dirty logging
-         
+  - ref: refs/heads/keys-rhashtable
+    old: 0000000000000000000000000000000000000000
+    new: 7651c9a17409038df209edecd5827e936d95c1d2
