@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============3080749117170094162=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 15 Oct 2026 12:25:16 -0000
-Message-Id: <179206711629.64462.8494324760804868554@gitolite.kernel.org>
-
---===============3080749117170094162==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 15 Oct 2026 12:27:38 -0000
+Message-Id: <179206725829.65619.14735463393294488891@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: c8aa1b8aca0767ab61b1a3f5d95e24854e0a8c8c
-    new: 3e4821a459a048be2402c55f5bc1b2008f3a7337
+  - ref: refs/heads/irq/drivers
+    old: 64212d63193cfd81849f5948365c7b0ecd011745
+    new: 9376df3496753563e3d7f7cb5d91525f9a6e9497
     log: |
-         3e4821a459a048be2402c55f5bc1b2008f3a7337 move queues back in place
+         5919f587ea37bf59a6fd7a2b91aef7b45c626343 irqchip: Use named initializers for acpi_device_id
+         ad38b8836a828042262532c8f77659820be01d3d irqchip/al-fic: Fix coding style issues
+         e86459748d3119e18faee281408f5452865bfea4 irqchip/al-fic: Use %pe to print init error
+         da0b1e5f7a124c5c506baef32ed7a90aa03cf516 irqchip/al-fic: Use %pOF and raise init log level
+         455c9664aa6940b44a4d0e92f6a5850afb1d8435 irqchip/al-fic: Keep the device_node instead of a cached name string
+         8db4c1dede9b7adb53e2ff3e448718d5e924ec35 irqchip/al-fic: Switch to shared parent interrupt
+         485ab2a36d36edb2bb630d2491d2ab7ed11178fc dt-bindings: interrupt-controller: amazon,al-fic: Add mask selection
+         3d41f28682aa8375a025bc999e403852a78c092c irqchip/al-fic: Support error and fatal outputs and FIC v2
+         0b9bc458d9607388576c759483d0ff2d4957cd93 irqchip/al-fic: Add support for FIC v3
+         9376df3496753563e3d7f7cb5d91525f9a6e9497 irqchip/al-fic: Support per-child affinity via interrupt redirection
          
-
---===============3080749117170094162==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792067120 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1792067113-17b59e02341bdf7d92ba74bc1ea4b3798b726c25
-
-c8aa1b8aca0767ab61b1a3f5d95e24854e0a8c8c 3e4821a459a048be2402c55f5bc1b2008f3a7337 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrQxjAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4W0QAKlV1WOpPdbPL6PuBvW+
-/44FMeEVpr70h7E6p9KHm5GiN2xOMp32jukXYTdocBnB/qL1n/boxi2RMhSFd1tT
-KlsEnJvGIEn6flpik4EEEFLuB0WsG/DQycwA+iQz878tUtgJIb3HrP3TT8jcWZpl
-KUeweRI1AwaqSEIv/2OfYFiNr1r0jDsp8FYoACrt++997BVVJTllDqo67dJsJgYK
-TXr+1fLXpztDC4tKKJmdpAg5J2yapAfBomevUMNh7M+amWFqYQtTni0cxEy6D5k5
-pv/yxMD+33jf37TjkyWGdWyaL1EZ71uGF4caFACFFVtHngZUgFAw1cjJTh/jR8+i
-2DPNWDWfEDg/PQEO61fUhrT8uZ8g5QE3wdGWLwPQe9HAju2jfHRzE/7FB17dFF5J
-0q7wIE/38YZQEWOttY50qrBhqVe+QYn7bc2Rq/ZeplRQ7Lm8qjm8QrwATs4PoD90
-j5NdWALyCt4fLTqHO2UfibYXhe/ttzrY6cEDJoHepkJM1xGck+9QjH6lGIiHed2y
-XFdH/mUYdDDMgYIJaGp8LQJAOU9JpeURQdem0sCUWx3PJVAl9TivOj0TqKyhGstI
-LOCyjUCvacF+RbG38hMrU9JNrVYjHSwO9thjRguM0T7xHBfMu3iVtp6Y3Dpu4f5C
-jglBxCv35qRr9yBP4jyKtIuw
-=H50+
------END PGP SIGNATURE-----
-
---===============3080749117170094162==--
