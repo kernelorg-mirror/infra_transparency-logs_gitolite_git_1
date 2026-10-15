@@ -1,41 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============7852822913591210258=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 15 Oct 2026 23:08:47 -0000
-Message-Id: <179210572782.629617.4604125059197664167@gitolite.kernel.org>
-
---===============7852822913591210258==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Thu, 15 Oct 2026 23:08:48 -0000
+Message-Id: <179210572883.629748.763905838996494625@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: abelloni
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/soc/dt
-    old: 50b3a2fb236e28474ababc6b05faf75a9747e871
-    new: 946fdcc11334871aa3383f7a7eab9250ae102829
-    log: revlist-50b3a2fb236e-946fdcc11334.txt
-
---===============7852822913591210258==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-50b3a2fb236e-946fdcc11334.txt
-
-ef473a83c63e3173ac472e42727e990b923b99db ARM: dts: helios4: fix lm75 supply name
-337d10963f601d5a3dfb4b7aa273ca8c0b4d5172 ARM: dts: armada-385-clearfog-gtr: fix vmmc property name
-9a72f1cde47aac05ba9f81d4cdde2e71003800f2 ARM: dts: marvell: add missing SDHCI clock-names
-a56183c7f15215d804290808a2b5a1fa997aa9cd ARM: dts: armada-395-gp: drop unsupported SDHCI clock-frequency
-008e9faadef8c0aaa9b8a3ff05a2126e3c5b08b7 ARM: dts: armada-388-helios4: fix vmmc property name
-a132798a133e76a7bb575ba95b2b64eadd245438 ARM: dts: helios4: fix vbus-supply for USB2 PHY
-5df4320a30a87f9bb918ace7b389026917c8d896 ARM: dts: helios4: fix spi1 location
-1dd243147c2fa918eb19cc4f5d67907ff99e7e06 ARM: dts: marvell: Replace spaces indentation with tabs
-5fd49345707706b66039ee331a10797e16912e39 ARM: dts: helios4: use national,lm75 compatible
-a7b2dbf2a48d30e49f141883e605874595d5942e ARM: dts: helios4: add #phy-cells to USB nop phys
-946fdcc11334871aa3383f7a7eab9250ae102829 Merge tag 'mvebu-dt-7.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu into soc/dt
-
---===============7852822913591210258==--
+  - ref: refs/heads/dev
+    old: 3368225b737b7aec2ea05e4fc83485986fd4f8b5
+    new: f5924de8867c09206ba631b9faed63862ec00a10
+    log: |
+         080833a32fd5dc10b3acf2fa9af9b3213e6cb617 f2fs: bound the SIT/NAT bitmaps by the checkpoint pack
+         b001d9bed52321a7856134685cc3bffcd1cfc93c f2fs: avoid unnecessary reads in f2fs_update_meta_block()
+         53b12b63304b34a3850a901c4de3cc6ad08e0aee f2fs: return -EIO for a lost inode block after cp_error
+         f6f8f34480c78eade6542faea6386c47c9b4c6b3 f2fs: quota: fix quota flush failure during filesystem freeze
+         f5924de8867c09206ba631b9faed63862ec00a10 f2fs: release a removed xattr node in roll-forward recovery
+         
