@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 15 Oct 2026 09:30:41 -0000
-Message-Id: <179205664197.3791337.16692834608727586315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Thu, 15 Oct 2026 09:38:33 -0000
+Message-Id: <179205711314.3795992.3676151065965845251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/usb-next
-    old: e7daa54802c566ed3f22e81513f84c8c9197c5d1
-    new: d446199711161e35c7f97f1556753c81546fe0e2
+  - ref: refs/heads/master
+    old: 666d66df25253070cb297cb920b0bcfcfe5eb871
+    new: a29888556578e4695bca25a2807308e9050ee2ac
     log: |
-         b88f018678f3565d1773b0ea61583eac1398a599 USB: serial: mxuport: clean up product ID definitions and device table
-         4707336330a423191fc28ead250b1963d35719c5 USB: serial: mxuport: clean up firmware version handling
-         a3ad29ec47d3bb4fb3fa20bf8fcc0a466052dd2c USB: serial: mxuport: add MUX50U-based device support
-         296ebbfc856e25bf0f10af648b3fe899a381bfce USB: serial: add generic write control callbacks
-         83b54ef616b729a6100d418970246e58d10d163f USB: serial: mxuport: handle SEND_NEXT transmit flow control
-         d446199711161e35c7f97f1556753c81546fe0e2 USB: serial: mxuport: support RS485 mode configuration
+         9260491bbfa6037067ca02002ff0f6195efaea4f hwrng: imx-rngc - Use optional clock
+         4ad7c1bd5f3dcd3fd6efbb068d6ee2a68dddfece crypto: qat - initialise state_lock on every path in adf_devmgr_add_dev()
+         4921634ac0a9a65aaa5e41308aabda3d3f562ee3 crypto: qat - fix use of destroyed vf2pf_lock on VF restart
+         cc29ce88b1b5e7bda883037ba9f94cb857ec8531 hwrng: intel - simplify intel_rng_mod_init()
+         a7ea3d63e89712c6c167595370eb42674e56b5bc hwrng: cctrng - simplify cctrng_probe()
+         a29888556578e4695bca25a2807308e9050ee2ac hwrng: amd - use PMBASE_OFFSET consistently
          
