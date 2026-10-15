@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 15 Oct 2026 16:09:21 -0000
-Message-Id: <179208056171.301764.6544015470045241854@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 15 Oct 2026 16:11:52 -0000
+Message-Id: <179208071220.305076.11553214373246657839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/tags/net-7.3-rc8
-    old: 8f0575c8f55e98108bc0bd1b2774b86803930eb3
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: a5e144985d6855c84b56ea5443fd6333490ce8ec
+    new: 7f34009230b796a06198da2c7204fd4efab9a2a1
+    log: |
+         7f34009230b796a06198da2c7204fd4efab9a2a1 selftests/bpf: Clean up sa_family_t-stringifier
+         
