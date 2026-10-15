@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 15 Oct 2026 10:15:13 -0000
-Message-Id: <179205931385.3947210.1543860167189662634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 15 Oct 2026 10:15:41 -0000
+Message-Id: <179205934175.3962420.14157175566267920764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/notes/signatures/tar
-    old: faf3902933453a3a0c5c9cfcb948c945622f6b4d
-    new: 5854b40819b39340d2dc3d0709ba8b2949f51893
+  - ref: refs/heads/main
+    old: 00d8d01ff8d337c08de9368072f090b5f3a66bcb
+    new: 6329e8232aa8f579522fbd5308890e13b9f2624e
     log: |
-         5854b40819b39340d2dc3d0709ba8b2949f51893 Notes added by 'git notes add'
+         6329e8232aa8f579522fbd5308890e13b9f2624e hinic3: use skb_put_padto()
          
