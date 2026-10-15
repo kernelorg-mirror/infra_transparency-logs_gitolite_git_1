@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Thu, 15 Oct 2026 14:20:51 -0000
-Message-Id: <179207405154.209066.14959935391803874391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
+Date: Thu, 15 Oct 2026 14:21:02 -0000
+Message-Id: <179207406223.209343.16511877560542397990@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/robh/linux
+user: robh
 changes:
-  - ref: refs/heads/master
-    old: 8e0b3b316b6c306c80d8ce2ff7858c6d428e9fd6
-    new: b816b05ede7d73aaba232bd8b93fac2e415b7f75
-    log: |
-         18bf5e4542fd19c4e7bcd63bbfe992cf78bc4dc1 ci: Add missing pkgconf in Archlinux
-         b816b05ede7d73aaba232bd8b93fac2e415b7f75 Disable mbedtls >= 4.0
-         
+  - ref: refs/tags/v7.3-rc7
+    old: 0000000000000000000000000000000000000000
+    new: ec8bf8280261294a9b9b4520414b42704c7f9f6b
