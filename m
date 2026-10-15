@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 15 Oct 2026 14:21:02 -0000
-Message-Id: <179207406223.209343.16511877560542397990@gitolite.kernel.org>
+Date: Thu, 15 Oct 2026 14:21:06 -0000
+Message-Id: <179207406670.209560.6988693973771938715@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/tags/v7.3-rc7
-    old: 0000000000000000000000000000000000000000
-    new: ec8bf8280261294a9b9b4520414b42704c7f9f6b
+  - ref: refs/heads/dt/next
+    old: 5ef299ffb56531b3a4f2b311000da76beed403ee
+    new: 0296643f62d6225f81f87050923ae677cf52078d
+    log: |
+         e8b2cbfafc4e844509a862b056528e8a0750d3d9 dt-bindings: interrupt-controller: qcom,pdc: Document SM7250 PDC
+         16f30811a93561a53307955b96573a0f24404d9f dt-bindings: gpu: img,powervr-rogue: add spacemit,k1-gpu and spacemit,k3-gpu
+         0296643f62d6225f81f87050923ae677cf52078d dt-bindings: bus: Add HiSilicon local bus
+         
+  - ref: refs/heads/for-next
+    old: 5ef299ffb56531b3a4f2b311000da76beed403ee
+    new: 0296643f62d6225f81f87050923ae677cf52078d
+    log: |
+         e8b2cbfafc4e844509a862b056528e8a0750d3d9 dt-bindings: interrupt-controller: qcom,pdc: Document SM7250 PDC
+         16f30811a93561a53307955b96573a0f24404d9f dt-bindings: gpu: img,powervr-rogue: add spacemit,k1-gpu and spacemit,k3-gpu
+         0296643f62d6225f81f87050923ae677cf52078d dt-bindings: bus: Add HiSilicon local bus
+         
