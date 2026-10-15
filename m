@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8288083730454652257=="
+Content-Type: multipart/mixed; boundary="===============9073745253778094521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 15 Oct 2026 03:05:37 -0000
-Message-Id: <179203353773.3506337.11726825596764177188@gitolite.kernel.org>
+Date: Thu, 15 Oct 2026 03:05:41 -0000
+Message-Id: <179203354194.3506586.12039595920347478683@gitolite.kernel.org>
 
---===============8288083730454652257==
+--===============9073745253778094521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 77673edd821b7211df049aaa65eb0e95a1b338f6
-    new: 641f991d94a27bc0d84096b39c18e71bb92dd423
-    log: revlist-77673edd821b-641f991d94a2.txt
+  - ref: refs/heads/7.4/scsi-staging
+    old: 9621cbd332862eb6651e2aba24ed18f66560de66
+    new: db8b4d2bf2d3e02b4ff78bbf69d00e11795840de
+    log: revlist-9621cbd33286-db8b4d2bf2d3.txt
 
---===============8288083730454652257==
+--===============9073745253778094521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1792033535 -0400
+pusher 75C5DE3D 1792033540 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1792033535-577c8426c44e01792b41c6bc8f5ad920965aa4b0
+nonce 1792033540-0bd5a9f677ea76376d22b1cb3f9026d4fb653af4
 
-77673edd821b7211df049aaa65eb0e95a1b338f6 641f991d94a27bc0d84096b39c18e71bb92dd423 refs/tags/mkp-scsi-staging
+9621cbd332862eb6651e2aba24ed18f66560de66 db8b4d2bf2d3e02b4ff78bbf69d00e11795840de refs/heads/7.4/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrQQv8ACgkQ7ulgGnXF
-3j3uXhAAlXJvK5pUVJRBBv9iHPYEH3H74wgUd/fxXvdb/Cl/hU3K8pnqnLJMJOqW
-hz2lx/EQUNK4ft9YbEF9HFcK6kYPHKLBLVv55yZHQ3UjwlqpEZAdXpg72I8mcoQk
-n8VKzNTaZwnUsY/vT28Ey0hzbqHeHfIVq9htTJzmDZARNVweyT9ESDBEcme1SiXk
-dMQ/j4fTsjfM3DFJjMOoqAVon9v0yLRV3xyoMWlfJftkhXIW2RR8Hq19xbwJ7X+G
-ZA3Q8IlpUd8ort1h8ltnEWH2o9NcXzlpXCtVJF74xoJHmJZQPxELHazQHfqQpu7m
-stSrnHbOx6fZ78ASEgoer+lqaJ6wvgJoOk5JYxaRtawVRQH50uoR1eYG1nMzRAUB
-MoktYdcTPZ4MdD/HNfQ78oj6VZ0SOy0/jhtWLdxGU3os9c+zrpEIYhGSNtDWmIb2
-2+FBZMFEuphYSIIMfjbcoAJh85g7n/mIfavmGwZjWX+mY/czJVwxGEO1rN1iqBYf
-eZtsu8KHtt/OfYWr+WqMu5oCIiHx4TUSDhgHlP0I9kieuTt9iVZW+uy11J/ZSDTz
-zpj9kFP9YdTYM+5+L/Tq1mw2e8V0O6hiNRgu+wKnIxZNfpwNMfIf1vqBul7M1gXH
-aiEumzuC+wNnPtpofjbCxkNBMX18NYffJ4KpF9FKaJz6FrW+Ujs=
-=XrlU
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrQQwQACgkQ7ulgGnXF
+3j0jPQ/9GPCqlAmlLKGG2rEA+tafn3/ik5W88XB2mOkNy68JlDJs3pid1lzVhcwA
+7bQfK6QoeqGHrwvKCdb9tgd09Y5EqX/5XxRAI+8JGxnLoBDVnhnqB+h94Z4tY1kQ
+rfqDzqvjMbk8kZQErtfFnv3MKytCQzULapHBT9Fm/8ITR/bRmaokqX5YvAaAfGFy
+fiR8ScLmqKsdP5oVGN1ROae5cVEZ7bi9/Wn/xa4A30GR5Nr4t/5eDz/l0q2CEpVD
+0OxkjDhaEOnpV3xslrk0qFnMv1k+C4PcY7m/ZJTXrlYno0vx/AbtBO3e5NYVmdE1
+r51LqB5F3Az/6fBGWlgyYnWtR2lohFGfcga+5bPbwABkpqMQhVG4fIe9pv+7O2gJ
+uixbAt+bNJyVp/AfVXbJM93g6tABXO4LfSsE01whIO5nNuY5jB9licf9ZwJMiDbp
+vcRhqxCPv++MLX2rcQOcCwOhj0lywkYqZUw9NdK14YPKttpMOW+0NTPr7ZlHvKYO
+ujcuaO5GOz92dOvhBUwmMpDL6n+eCcSOfrvgk8cRxLHLel+HtpBOV5ilkpIrAkfs
+aGNl0OZlaXGmG/3+O+Sv5cnSNaDFEWvRJLs76y0VMsWn1CONXdCNVutQHFuQ/ISK
+vb5WMPz1JHA5WV5/G/CoQPH1vID8dI7jJvqXg7Yv8WRN/1er2Zs=
+=+vxu
 -----END PGP SIGNATURE-----
 
---===============8288083730454652257==
+--===============9073745253778094521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-77673edd821b-641f991d94a2.txt
+Content-Disposition: attachment; filename=revlist-9621cbd33286-db8b4d2bf2d3.txt
 
 b633249f58832e6aeefa606d6d5aec76abfe6d89 scsi: target: iscsi: Use crypto library API
 4d7f9c3fdce773f6c69d17c1d4a05bd5e17f4b99 scsi: libsas: Fix out-of-bounds memcpy() in sas_ssp_task_response()
@@ -115,4 +115,4 @@ e24eedc81ec4fe16f943a02b3617e2175c961c84 scsi: snic: Enable lock context analysi
 782a516e8f432f5ded4adab206bb809e29593c54 scsi: drivers: Enable lock context analysis
 db8b4d2bf2d3e02b4ff78bbf69d00e11795840de Merge patch series "scsi: Enable context analysis for most drivers"
 
---===============8288083730454652257==--
+--===============9073745253778094521==--
