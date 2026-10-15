@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7776114154710072804=="
+Content-Type: multipart/mixed; boundary="===============2448897120128409063=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 15 Oct 2026 12:14:50 -0000
-Message-Id: <179206649049.4133477.4690659809506923789@gitolite.kernel.org>
+Date: Thu, 15 Oct 2026 12:14:53 -0000
+Message-Id: <179206649318.4133714.8446939750703279629@gitolite.kernel.org>
 
---===============7776114154710072804==
+--===============2448897120128409063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.15.y
-    old: a051a4bf909f76f470ccb3761ee0cf6e2395616e
-    new: 792fbe1537d8daeca9bd1917e84078b5432aadc2
-    log: |
-         f982682fd54dc7ecd88424f8f6881561c411ab0d netfilter: nfnetlink_queue: unbreak SCTP traffic
-         0fab003ef4698e0628060a45a48f14b43ba2a40a ipv4: validate checksum_start before completing checksum
-         95a8c8fa9f27dce64c40c41c062de7728bf34ab5 ipv4: free inet_opt and ireq_opt after an RCU grace period
-         792fbe1537d8daeca9bd1917e84078b5432aadc2 Linux 5.15.223
-         
+  - ref: refs/tags/v5.15.223
+    old: 0000000000000000000000000000000000000000
+    new: 139a64161c0209818ac3506a4eea4473aa2d8018
 
---===============7776114154710072804==
+--===============2448897120128409063==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792066496 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792066499 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1792066488-567f8292589776f81fb152dcbd1dbd539613d424
+nonce 1792066491-3e8f9dea9784c8345049398b38f415b0f785ad93
 
-a051a4bf909f76f470ccb3761ee0cf6e2395616e 792fbe1537d8daeca9bd1917e84078b5432aadc2 refs/heads/linux-5.15.y
+0000000000000000000000000000000000000000 139a64161c0209818ac3506a4eea4473aa2d8018 refs/tags/v5.15.223
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrQw8AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OqEQAKcLOi0zc/JbULjfedJH
-UOAiztlXCSbXReO2GZzgFRPiPkO82YV5tnHlD2LliPBAMZfPZ6mhS+lGZek6PNNP
-WwfxPhtyemSzdMr87AwmIhI+xLUGM+EVEIR7iS3sw9bRtFoFzHGUzPypDCFt1bFZ
-OxfZ8PdFPz0IO+HGe2jhHXoScqlcfpN8Stm3rg5JP12x0ezsbCmy4IXKQ1FlBw3Y
-0WCLveWKaODMQ1J22/NZruS4VpUOwWxV614PCjcZu7N/k6pofPf/RO4j80IMRlbX
-/koRNPZvLQnUk5Bblrb1DzuOWWMifpUIjxzHuCJtenklCLu7iPPFczSz0fcQZx1Z
-dKjVIzea9TXGmh14r4hEUfBp6S18nYz+dNenj/sgtxp+yYImelxcnyTtPa2CER3R
-7j7Or4EDLKNklTJuRvwynsX/FzLfL4jM2hs5UN9zg+18rbY/3gpNV9zCiZnmHcsS
-FN2tAoG3D4HbKttykBYEw6Zvzvl7I6kefUR+H56+ZbaAECE7KUy0CifeM/lzjKEf
-BNNI9bHJZOdR3FZN0avD1BG8QLLNbEyjC8p8f14wtyWXm65r1FlbU5SkJm3Y2f10
-zeGD28C7svYs9Xhu7983tGa4/s+9F9lUeoqVU+McAXX/aVbprGdabtXcNJg42aCb
-bm61YWSMyekGI6Hd0RauYxqu
-=WoFv
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrQw8MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uZkP/0mtWcO4sjd9lvLCwCyR
+KeJksnio/LBmj+Sqk860ZC/9IzLsNco0E5t/8lEcCJ3nVovmqcU9lqpDxnN6AJrM
+ELL25u8joc+rLepHoxr9HRrCDmjvT2J53Mjdieblq9eA7+arD5Jlj1KFYLZgqmFC
+Xu8Fbwuc1WM4p6a5H2vgjPA0S+vBTQNVzJbPBGntRFD1GKsqJs5g5XzIal0mAvhS
+z5V/NrNMNz9p9G2DgKHBZ73qKsupcFmNtayHFS/QBVE9g1YHPPDs4iBa9VqPFdwp
+MRGFrgQJ7mIS6mMcO2TdhZHinEYc45A2bzmpmql9fUa50xlyMaVnj9HBJvWdLHTT
+Ks4/JVI3MmNzA5ORnzWkmWEZudAV/Ey5ODIEbaZP85gh7grZRoM3xd7pRBjRnBhA
+G4mbP4rAbr3b/VdMnYPwqR7SatCEFNhQ0VxtZ/Ei/Xrw91zjwe139ieMe7rgh9VR
+Q8IAiblamFXwIxras5sV1PSs2PGWLBu43y/jka2c1Pf6q1Ujh9TZtwCcExoKlUzM
+KPDSA/xhnEulVNniD77QCIbmPVk0SA9Uf+8eA6C53ez02Kw2UccFjw1xumH5orr4
+wve7XG0g8CNa4uDcbfjeGuzMHHcYix1oHDHBM3hW8Ag/kIhPPGGQ9Y/bIw9S2gD/
+pORCwMlEs02rXL9uGwJRU6EJ
+=hxkX
 -----END PGP SIGNATURE-----
 
---===============7776114154710072804==--
+--===============2448897120128409063==--
