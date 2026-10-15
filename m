@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 15 Oct 2026 19:50:24 -0000
-Message-Id: <179209382496.476678.9597893587039097923@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 15 Oct 2026 19:52:19 -0000
+Message-Id: <179209393981.477813.1926397897904137982@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 045958acaa75205b31578cb22c4345e28dd2e4bf
-    new: 62f482ff73bf3ae88b0c899115527752cf9cbf13
+  - ref: refs/heads/for-next
+    old: 6904743ab77e0684dff319f3806ef982e5eea6cf
+    new: 8ea1086f3ffff73262eb20ebc6d1d708b72b6b20
     log: |
-         3ba149029a4389d1723194ebe34a63aedbc6a610 Revert "iommu/amd: Remove redundant check in irq_remapping_select()"
-         4bcfe29021993cb167fd9bbdb849f7d7247a166f iommupt/kunit: Use if_changed_rule for the kunit
-         62f482ff73bf3ae88b0c899115527752cf9cbf13 Merge tag 'iommu-fixes-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
+         8ea1086f3ffff73262eb20ebc6d1d708b72b6b20 ALSA: pcm: Call snd_pcm_sync_stop outside spinlock in snd_pcm_drop()
+         
+  - ref: refs/heads/master
+    old: 818efbf473592f9530ea42aa2e8fb36a12df8169
+    new: 2d5b15b2e95e5a06c290f92c00012c6b99f45853
+    log: |
+         8ea1086f3ffff73262eb20ebc6d1d708b72b6b20 ALSA: pcm: Call snd_pcm_sync_stop outside spinlock in snd_pcm_drop()
+         2d5b15b2e95e5a06c290f92c00012c6b99f45853 Merge branch 'for-next'
          
