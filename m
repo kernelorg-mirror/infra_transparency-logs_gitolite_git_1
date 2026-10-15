@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2622853971413502954=="
+Content-Type: multipart/mixed; boundary="===============3054100950230572672=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Thu, 15 Oct 2026 01:40:16 -0000
-Message-Id: <179202841614.3444993.11128687471404853401@gitolite.kernel.org>
+Date: Thu, 15 Oct 2026 01:40:26 -0000
+Message-Id: <179202842611.3445318.10250737575899179441@gitolite.kernel.org>
 
---===============2622853971413502954==
+--===============3054100950230572672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,77 +16,76 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: d8674294aefef02266c4d47ad10131f1bffbe534
-    new: 518bf436318e8d1162391cd77d69d65198a4a25b
-    log: revlist-d8674294aefe-518bf436318e.txt
-  - ref: refs/heads/master
-    old: d8674294aefef02266c4d47ad10131f1bffbe534
-    new: 518bf436318e8d1162391cd77d69d65198a4a25b
-    log: revlist-d8674294aefe-518bf436318e.txt
+  - ref: refs/heads/testing
+    old: ec2634225bf22a34a79e6557fd34cdf1282658c7
+    new: 8348b75aa230036a14d805eec574aeb0e1b95f86
+    log: revlist-ec2634225bf2-8348b75aa230.txt
 
---===============2622853971413502954==
+--===============3054100950230572672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1792028412 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1792028423 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1792028412-199701f7e724dccb2e44764b39edbb5d1fee9ca5
+nonce 1792028422-bdb17aa5ed300d7c9251df3f8e497f2395196f0b
 
-d8674294aefef02266c4d47ad10131f1bffbe534 518bf436318e8d1162391cd77d69d65198a4a25b refs/heads/main
-d8674294aefef02266c4d47ad10131f1bffbe534 518bf436318e8d1162391cd77d69d65198a4a25b refs/heads/master
+ec2634225bf22a34a79e6557fd34cdf1282658c7 8348b75aa230036a14d805eec574aeb0e1b95f86 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCatAu/BMcbWtsQHBlbmd1
-dHJvbml4LmRlAAoJEMw6ZPquma3SjscBAPoGb6N0Ywp3KT0Rml23ppKvKdoQQ/Ae
-K3Aa2qdYrtbnAQC/j2bRGQU1EtFCKGYdZho8a4pk8hATbqSNZfTAlW1RDA==
-=Nx6W
+iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCatAvBxMcbWtsQHBlbmd1
+dHJvbml4LmRlAAoJEMw6ZPquma3SPsYA/2vUggKWCoYwjbxjlkWiVlzHmQRyib07
+hqX7hPVn2JIxAP0ZwJXGrspkqiGshU9WJ1vEg3B4l3ZAnQb0nTfvPyLFBA==
+=cdk5
 -----END PGP SIGNATURE-----
 
---===============2622853971413502954==
+--===============3054100950230572672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8674294aefe-518bf436318e.txt
+Content-Disposition: attachment; filename=revlist-ec2634225bf2-8348b75aa230.txt
 
-3a82195416fd71fdd6cb4ff80f611ec28073be16 net: devmem: check uid and netns in net_devmem_get_binding()
-29f144016f03608abfddcd6ebaeabafd7aeaadd2 net/mlx5: allocate DMA pool structs on the pool's NUMA node
-d128212667593c548a3c67d30031063ed46c29b7 net: stmmac: set real_num_tx_queues to max(offset + count)
-ac1ca0c3e139a2ebef2fc6c570af6647329726f1 net: stmmac: align real_num_tx_queues to mqprio configuration
-47891d501e345629536481ffc57e2e4b2f2d4770 net: stmmac: add tc mqprio hw queue priority offload
-d0bd617658ddfa5a115e64d1ab687bf155f6331f Merge branch 'net-stmmac-introduce-hw-queue-priority-offload'
-0b3fc7fe6f3f68569b9f9139893491b61a4b45b9 bnge: skip dev_addr when building the VNIC unicast list
-d538cc3ec0bc4cb7b40981b3213a6c6671959ed5 calipso: hash the cache key, not the option start, in calipso_cache_add()
-ffe378c06c10b97806e2109a5d619a48a9c2940c ipv6: Report netns cookie in fib6_table_lookup tracepoint
-c436a624f89e56978659a12e01fe8b2fda2b3a6d ipv4: Pass netns to fib_table_lookup()
-a780f51d5bc81616abdc3529748b12f39c497192 ipv4: Report netns cookie in fib_table_lookup tracepoint
-6607154049fd5af948f855682b95502b7534bf15 Merge branch 'report-netns-cookie-in-fib-lookup-tracepoints'
-0063f777b58db3fa455089566f200ae019614945 net: ag71xx: Use default NAPI weight
-32a8010d2c30c7aa3bd732048c3b366dd3d48c6e sfc: fix stale kernel-doc member names in net_driver.h
-26a8396802ea06c27c014f6d40eaa5ac4ef99a7a net: natsemi: xtsonic: make probe function static
-d7804253678eb18d2be950e0542364b50be096a9 net: stmmac: ptp: switch to gettimex64() interface
-8edbf6c23363563e508a61f3f26f4e4b6eec9dd5 tcp_bic: fix divide by zero on max_increment == 0
-f09eb97322b16a6f709a47599c95b62f786905f9 tcp_hybla: fix divide by zero on rtt0 == 0
-7d52b5d16afc1cf8484ae321658e217a80e3ff4d tcp_cubic: fix divide by zero and endless loop on bad module params
-59e344304c1a80fb9898223020cf3b10ed3a0da4 Merge branch 'tcp-fix-a-few-divide-by-zero-in-congestion-control-modules'
-cc9dcb0e7a428ca43259bbee3350d786681265a3 net: core: use the packet's L3 protocol for the GSO size limit
-0bba48256b0aa86e84a08d69b4410018bd8ffc67 net: core: factor out the GSO device limit check
-c4076626ba520ecf710755046bf5ae6f2fd5b965 net: gso: support re-segmentation of TCP GSO skbs
-335a0378a7556eb818df5cc03281319d7c15ee20 net: gso: clear the GSO state of the last output segment
-32bfd220cd6f70698f9b8828302a9b85065c95c1 net: core: re-segment oversized TCP GSO skbs
-a374c5bb41d1ea72e732153d6a8d17b4e2434d3f net: net_test: add tests for TCP re-segmentation
-4e72c178f424e58d58c53949041e061eacafbc5d Merge branch 'net-re-segment-oversized-tcp-gso-skbs'
-48b7611964e1fa74ec2abd410f66881fc7087428 net: sparx5: Add registers used by TAS
-966285085456a20491cd5714f53d8a917266867e net: sparx5: Move TAS link speed configuration to sparx5_tas.c
-a52629f85a3a97f76a12b9cb97717a36318a708e net: sparx5: Add TAS offload support
-e4f25fd86c9925df67c803a8ec4e0273606ec0e5 Merge branch 'net-sparx5-add-tas-offload'
-05b5019b01fb9443b09ae4ed34af1135a80a84c8 net: alacritech: fix dma_free_coherent() in error path
-fbd3a301b1378423a5cfc23a42e3c0b04e26192c net: selftests: use skb_share_check() in the loopback receive hook
-a7a89019bac0e8810bde7f1419f4adf9adc23d41 net: stmmac: selftests: use skb_share_check() in the loopback receive hook
-16fb7aa6955a0af9f67ca42a61d9be58dfc9382a net/mlx5e: use skb_share_check() in the loopback selftest hook
-518bf436318e8d1162391cd77d69d65198a4a25b Merge branch 'net-use-skb_share_check-in-loopback-selftest-hooks'
+8c3a9ca69222a69ec079f52b205ac1b456e9d93d can: replace ARPHRD_CAN type checks with can_get_ml_priv()
+81020dd2d8b3d081b0f540d61734bfde01925e83 can: proc: reset pkg_stats atomics individually
+0de96110f9317338cb86a4fe6caea78b554104ff can: proc: remove pointers from CAN specific proc output
+c1586a025fcba510ed5a17fd76f0a21d1e0ec437 can: isotp: check the frame type, not just the length
+e797e15ccc3afabd6d1256d7c9201820caef840d can: isotp: fix filter removal race between release and netns change
+e7457f8482a168b5786c4911aa5ff1e28705d7be can: bcm: fix filter removal race between release and netns change
+4592be1a522dcaa63eb857833964a1a10196b54f can: raw: take rtnl_lock() before leaving the notifier list
+3d1f4c5b8bf84a0b07b75e2a9de13dd45f4ba9b7 Merge patch series "can: take rtnl_lock() before leaving the notifier list"
+de2a94e77b3db99015fbe97d8696379c25a0eed0 can: skb: make echo skb freeing safe in any IRQ context
+a34bff1a6d44ab9217be4c14b2b49c5587175d24 dt-bindings: can: renesas,rcar-canfd: Document RZ/G3S SoC
+2cc55f77b5f85bfe40fcf7b5d7b7e42ebe78a48a can: skb: make CAN skb allocation failure paths IRQ-safe
+fc06939c2ac7fab4a29c91a3e79a2896e3526d75 can: rcar_canfd: Fix typos in macro names
+ef8803ed8f29a4a2a1cd617a55ddf5ba379a2fde can: dev: can_put_echo_skb(): free skb on invalid echo index
+519df0572d91a61c8b9e171a9f9b6caa096f63e7 can: rcar_canfd: Allow the CAN FD clock to be sourced from fck
+095549b880f5a656c627e50b402a6d8ceccf8954 Merge patch series "can: skb: make echo skb freeing safe in any IRQ context"
+855565755b5924c30d96b93d6c6ba22dd827d4c0 can: rcar_canfd: Do not set registers selecting the CAN mode
+9cecdb928a6b9ee219785ee915a92d448f81e7dd can: rcar_canfd: Add support for Renesas RZ/G3S
+c026bb1e040641f1bcdf1a309214c5e700f9d9d4 Merge patch series "can: rcar_canfd: Add support for Renesas RZ/G3S"
+2b4a5055d517b11bf4a5671cef32e4d77bc45626 dt-bindings: can: renesas,rcar-canfd: Restrict resets in top-level
+5ae95f9a7ae6ea3ce907e0a9db3fff43f16f7bc1 dt-bindings: can: renesas,rcar-canfd: Document RZ/G3L SoC
+7607859918aeb41f7c5acdffff8bbbb8864bcfcf can: rcar_canfd: Derive max_channels from the device tree
+6ccde57807a3d9a3cf3799e60d8067829a74e4df dt-bindings: net: can: convert grcan to DT schema
+692b6739391e274b2c1f00623de3096d1d2087b5 can: rcar_canfd: Add support for Renesas RZ/G3L
+cee4ffbaf12652a8fd85fc96fce4690dd3afcdc9 can: grcan: update the binding file reference in the driver comment
+36d64e58310344158f1a697fe5423000d3dfbde9 Merge patch series "Add support for Renesas RZ/G3L CANFD"
+b45f07a4db7cd9198935d6facdf0d5720a516960 Merge patch series "dt-bindings: net: can: grcan: convert to DT schema"
+d099c42f2d14a410995f294ef762df253ef523d5 can: remove Softing CANcard driver
+2635966b3c171fae2120749707d618693e12afe7 can: Convert to DEFINE_SIMPLE_DEV_PM_OPS()
+057bd6168d9819e85b5b17c382f00b0f43487613 can: cc770: don't discard the IRQ lookup error in probe
+f9cc1dfe54f30c830d16dc6bae3fa52338162766 can: cc770: fix the clock divider check on the platform bus
+7e69f36409ab2ab5c2e894cc969591a889d2f138 can: ems_usb: use usb_kill_urb() to stop the intr URB
+f6b4b6d603423344cb36b6960922b8f1aa9d0f8a can: esd: acc_start_xmit(): avoid use-after-free of skb after can_put_echo_skb()
+15a960a6d9649616ae96f4d9acb10e19e24b1dda can: flexcan: flexcan_setup_stop_mode_gpr: fix OF node reference leak
+48b2ba6f6dd4230e709b34f25cf930078179b50f can: kvaser_usb: refactor endpoint lookup
+0b0ce2a7e820be5d08cae81c107ae9598322c943 can: kvaser_usb: validate command format before parsing in hydra receive path
+39434c061fa68f738ddc98dec42079edb81e7169 can: kvaser_pciefd: fix use-after-free in bec poll timer
+faea52db6fc8c394353ed9ca60bee1f3b5350863 can: mcp251xfd: mcp251xfd_probe(): reject devices without match data
+cda1e44eef4ebc78960af107b8173857c8b1905d can: sun4i_can: sun4ican_probe(): fix clk leak
+d2ef0ce242ae9051e79e86bc8d3d6dc9412f3255 can: ucan: fix repeated word 'is' in comment
+8348b75aa230036a14d805eec574aeb0e1b95f86 can: xilinx_can: set CAN FD flags on received frames
 
---===============2622853971413502954==--
+--===============3054100950230572672==--
