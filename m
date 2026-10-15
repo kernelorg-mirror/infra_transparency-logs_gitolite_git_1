@@ -1,49 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============3654905162937025938=="
+Content-Type: multipart/mixed; boundary="===============1036373389159742447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Thu, 15 Oct 2026 01:07:51 -0000
-Message-Id: <179202647184.3415386.15385661278761867379@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Thu, 15 Oct 2026 01:08:44 -0000
+Message-Id: <179202652432.3416183.2690214411973449462@gitolite.kernel.org>
 
---===============3654905162937025938==
+--===============1036373389159742447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: ef16259088f99c5997e198561bdcbb89ab70fd0f
-    new: 56a1b1018838ce281eb47c74e0a118a210a804cf
-    log: |
-         e2cd253cb31bb0da4bcc512e20bfeebf76880891 lkdtm: Make UNSET_SMEP built-in-only and unexport native_write_cr4()
-         2f70a9b7e9c74b92a85a2584090f0f5c4cbaa4be overflow: Match arithmetic in both parts of __builtin_choose_expr
-         b1d7c3483c02d22f7b3070ea7299dd366d5b69d0 Compiler Attributes: Add __require_explicit_initialization macro
-         56a1b1018838ce281eb47c74e0a118a210a804cf seq_file: Require explicit initialization of struct seq_operations
-         
+  - ref: refs/heads/cleanup
+    old: ea2850565f84df46d975eb2ed5bf759294297134
+    new: c2a24f66710b772806ce9c729f9c1a2fc3344ce9
+    log: revlist-ea2850565f84-c2a24f66710b.txt
 
---===============3654905162937025938==
+--===============1036373389159742447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ea2850565f84-c2a24f66710b.txt
 
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1792026470 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1792026469-a1c2691b81ad6b0732fad2a355f897347a984f8d
+5edbb590dbd79005db12e06d629612ad44c936af Revert "f2fs: skip node_change lock for inline data writes"
+b9b036bd1e2cfbc189d5811d62d8711e216c40b3 f2fs: zone: fix to avoid bio split on sequential zone
+e881f4730f758cdb6db84cbda1b3d22b26aa497c f2fs: cache: introduce metadata_cache sysfs node
+7f35dce566fbd470c57fe83dd9ebba856e78539c f2fs: cache: shrink meta and node caches in f2fs_balance_fs_bg
+eeadc4807c95448b1a4a0ac0b69a3bcefcbbf5fc f2fs: cache: wake up f2fs_writeback when exceeding threshold
+bd09975045fb9a134135824d4ffc08109ddd79f5 f2fs: cache: support asynchronous write_end_io
+f32744a8b83d91f803f9fc6b9850516c0b48177f f2fs: introduce max_atc_write_bio_entry_cnt
+8596baf652f4e01f8cdc4fe20f0be59c02e6a867 f2fs: cache: count the temporary pins apart from the regular references
+a85e09bd6cc80059b9e0ef5cd1467719aa3129a8 f2fs: convert inline quota files when turning quota on
+beafa2721b6379fc6a7ace842f7d5c8dc27d5aa0 MAINTAINERS: f2fs: add dev branch to git tree entry
+b3c9843589257631bac18f30655e82d88970688a f2fs: remove mappedtodisk flag usage in mmap write path
+2eebc31ae5f53e1066bb6238c8087c23b688ad17 f2fs: allow pinning empty compressed files
+c04f209773ecb31e592cababce0d6658ee0b8d58 f2fs: read i_size once in f2fs_vm_page_mkwrite
+9c4ee79190c8c23a9fb5c07d3bc87eaac514b2bb f2fs: check every cur_*_segno[] entry on readonly images
+0354a04b8c34e26cc66d0f43785d388163b6bacc f2fs: allow empty strings for journaled quota options
+a45c9a0055f5ccff0c5c546e0478604b990f23ab f2fs: fix termination of f2fs_sync_meta_caches()
+92154fe28c3701bebf75176dc5522bec62519a8f f2fs: fix defragment writeback range truncation on 32-bit
+06dfe4a7eb696d868b196c2a49873142f19bd862 f2fs: disallow mmap write and data-modifying fallocate on atomic files
+e74476ad8162c1facc74b74ce2d1372492df872e f2fs: fix to invalidate curseg if change_curseg() fails
+e4582e5f3b439228d4e900edcf8225aa89be32b4 f2fs: fix to use bio_in_atomic() in f2fs_write_end_io()
+a605d5d71a6d280c43c7ede9778dda63fb5c3f22 f2fs: fix to use bio_in_atomic() in f2fs_read_end_io()
+97d93f475e5707a519ca7b890c6dfec8363f9be3 f2fs: remove invalid error path in __write_node_folio()
+c2a24f66710b772806ce9c729f9c1a2fc3344ce9 mailmap: update entry for Chao Yu
 
-ef16259088f99c5997e198561bdcbb89ab70fd0f 56a1b1018838ce281eb47c74e0a118a210a804cf refs/heads/for-next/kspp
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCatAnZgAKCRA2KwveOeQk
-uwt4AQDt8FhJVK3umYU8RMY6uoj8Owr/M4mVVcfuE/5ET2n1lQEA7vcOEK5rrxpP
-NauLUKql73d4bkwHtCwIwcAm8M42pwI=
-=mc6p
------END PGP SIGNATURE-----
-
---===============3654905162937025938==--
+--===============1036373389159742447==--
