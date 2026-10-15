@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 15 Oct 2026 16:53:30 -0000
-Message-Id: <179208321070.339668.8057071333701594615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/slab
+Date: Thu, 15 Oct 2026 16:54:51 -0000
+Message-Id: <179208329142.340261.9358975429360223203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/mm/slab
+user: harry
 changes:
-  - ref: refs/heads/dev
-    old: e455328a66a5f4827d4ba96acfe50dbbb0e13b8d
-    new: 3368225b737b7aec2ea05e4fc83485986fd4f8b5
+  - ref: refs/heads/slab/for-7.4/misc
+    old: 10a5ff7555ae3042393d8a662a25dca9b38ea415
+    new: ee2d6ec47c62aa299fc7236ee408226dbc72c2e3
     log: |
-         3368225b737b7aec2ea05e4fc83485986fd4f8b5 f2fs: release a removed xattr node in roll-forward recovery
+         ee2d6ec47c62aa299fc7236ee408226dbc72c2e3 mm/slub: initialize the free pointer of the bootstrap kmem_cache_node
          
