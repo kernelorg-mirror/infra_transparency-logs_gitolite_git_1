@@ -1,56 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============9029623705586301300=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 15 Oct 2026 05:59:58 -0000
-Message-Id: <179204399830.3626459.6877563465340336202@gitolite.kernel.org>
-
---===============9029623705586301300==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
+Date: Thu, 15 Oct 2026 06:34:34 -0000
+Message-Id: <179204607441.3650271.6882523354665360375@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ojeda/linux
+user: ojeda
 changes:
-  - ref: refs/heads/master
-    old: 49f71fd6e32d5f99aaefcc4d22637385f43237cc
-    new: 7eb3e52225beecfaecce12aff6cdd5b6a1eab61c
+  - ref: refs/heads/rust-fixes
+    old: 4056b3c9d3c92ea45955641dbafeb9b960e146ef
+    new: 0fcb05b72344f40806cbe810de8872f1698bf053
     log: |
-         7eb3e52225beecfaecce12aff6cdd5b6a1eab61c 6.6-stable patches
+         da619121a5d271e78ec709a1f9a3c5f99b9e10ad lib/crypto: poly1305: Use memzero_explicit() in poly1305_final()
+         24f07e8c07a0c0dd275331cbb41c79a78741eef9 lib/crypto: arm64: Fix lost Poly1305 carry when resuming NEON state
+         7b817748bf083ad715a8d70de63f2184178cc372 lib/crypto: tests: Add Poly1305 split-update carry regression test
+         0fcb05b72344f40806cbe810de8872f1698bf053 Merge tag 'libcrypto-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
          
-
---===============9029623705586301300==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792044004 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1792043996-5ab3896ce97a5daf9812e319936ddf6929012018
-
-49f71fd6e32d5f99aaefcc4d22637385f43237cc 7eb3e52225beecfaecce12aff6cdd5b6a1eab61c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrQa+QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CqwP/i3DXuIhGTzNWHymCxjx
-0Yi0zwQIuqvAGxKJImcOG+fuhBDELp+krHdzCdxzIfyZSEVe8+Qqkqy77Bi2Zk8d
-mZo/dYXci0Ebva/76pZb8ZAdXYWrbQGMexLjk64nWgYVmMUkbF3IiD78WRmOAH+0
-a41Oglt8G4VARo4rEz9zpmD/3I0z7/YsZlnModC5ST6ZSksPJO4snhdhbzn9cJbJ
-KQBgjgKevWz/8oUqoFjFXqQUKGYbRZs/C401y6+OYeWwRbIPjOO5pj75AGbZiccB
-R2e3cS357wIBGUZ/lgecvawXgU7iles/Mt9qA0ztY7hNoeY/kZGAZLk2My2nOUMP
-ukW3nTSJ5mXMGX4MVeTyO1W8dvs9s8sIie02zeV5mY5qZje7nhbDPIqxZTOAdGEZ
-ZCNxk1gwLVDJu4de8AoK5Z7NqzahxwHG5YJY6NYEcks1EhuWAJVUiReDM0mec93m
-Xt+OWoaXcKb+RUhAJORpvc7XTTqUdUzklGOI1ClWMdTgixZcEqN80e/worTxn2lD
-m3egIug1e6zAcDtRbDYMVi9ZrMB0DWgT7Qp44Lpi19U80YiWmnABhTulx3rWpRoG
-+FM/h+zNqGCMi4jitJty0s75tM+ufZ5K/Xh6r1chtQUS1CrMLTVlSTgOUOeGUC4C
-DKObM096KXRSWlHcdWzpjMng
-=8gTa
------END PGP SIGNATURE-----
-
---===============9029623705586301300==--
