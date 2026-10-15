@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 15 Oct 2026 13:26:17 -0000
-Message-Id: <179207077763.168200.8934491551666451015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 15 Oct 2026 13:33:15 -0000
+Message-Id: <179207119578.172154.18060909150680646762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/for-7.4
-    old: 9d71f9fe5b5de916bded51343138b09b1eb103ed
-    new: c126e07bde21c518f1356937ac240500d1bc81c0
+  - ref: refs/heads/tmp.perf-tools-next
+    old: f05a73d434c7d1b8e90cf005e3e836ce37d507bc
+    new: cb9dba6f4764fc68ab75c36e332887332339f9c3
     log: |
-         ea9854a169e9c1437df8829bea21c2f2e80b137c spi: cadence-xspi: reject SDMA transfers larger than the requested length
-         ef9690269999ddf9b204731baca1bd6b7aea1aa7 spi: cadence-xspi: fix stack buffer overflow in the Marvell b0 path
-         17515973d1e6435e6b6bf3c1ea81d28228cdb5b5 spi: cadence-xspi: two memory-safety fixes in the slave-DMA paths
-         7db773075501248893c22b11bedc6745d6d0be45 spi: jcore: fix divide-by-zero when speed_hz is zero
-         c126e07bde21c518f1356937ac240500d1bc81c0 spi: omap2-mcspi: handle DMA setup failures
+         6acdf93f8df09a8d5cfd0823ff2e0b8be14e85ad perf tools: Factor out dso__find_binary_type()
+         95f2cc56f46fd831e9e24e95e15e0388ebcfb7a6 perf symbol: Set binary type for JIT map DSOs
+         eccce8cfafdacbcc65cf0e517c93f56b2c3fdb8f perf symbol: Do not set binary type from symtab type
+         bd934f263dccad5bce0c29d162a86bcf9f8f47b4 perf annotate: Simplify symbol__disassemble() with dso binary_type
+         cb9dba6f4764fc68ab75c36e332887332339f9c3 perf test: Fix dso data tests
          
