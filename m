@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 15 Oct 2026 16:28:29 -0000
-Message-Id: <179208170985.318192.16942362591978783563@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/slab
+Date: Thu, 15 Oct 2026 16:28:47 -0000
+Message-Id: <179208172715.318553.15120077589769854188@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/mm/slab
+user: harry
 changes:
-  - ref: refs/heads/for-next
-    old: 7f34009230b796a06198da2c7204fd4efab9a2a1
-    new: 33cbc5c2cadfe3b43f024e89880dd8fe2efb3a2e
+  - ref: refs/heads/slab/for-7.4/misc
+    old: 13564e1cfc847aa540019b55a1f8e588670892fe
+    new: 10a5ff7555ae3042393d8a662a25dca9b38ea415
     log: |
-         33cbc5c2cadfe3b43f024e89880dd8fe2efb3a2e selftests/bpf: Create the vxlan devices of test_tunnel with their MAC
+         10a5ff7555ae3042393d8a662a25dca9b38ea415 mm/slub: initialize the free pointer of the bootstrap kmem_cache_node
          
