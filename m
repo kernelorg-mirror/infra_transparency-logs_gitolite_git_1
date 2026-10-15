@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Thu, 15 Oct 2026 19:30:53 -0000
-Message-Id: <179209265341.461102.16126359584593386843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 15 Oct 2026 19:35:58 -0000
+Message-Id: <179209295898.464985.3505428200941671187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
-user: pcmoore
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/next
-    old: 108a678a9e83be924c0aff26aae11c8de9074d96
-    new: 16fb389af74fde2324710a036fde68d89f4958c5
+  - ref: refs/heads/master
+    old: 3e4821a459a048be2402c55f5bc1b2008f3a7337
+    new: 107366da2ecd5106363a3e5c355160c6dca49fcc
     log: |
-         24a342d38dba17a2c95fb3af2be50d2a483e325b Automated merge of 'audit/topic-7.3-audit_fsopen' into 'next'
-         16fb389af74fde2324710a036fde68d89f4958c5 Automated merge of 'audit/dev' into 'next'
+         0d8c12c8738495a0b6d838c2637d3467937988f6 6.6: put the child node on the rockchip subdomain error path
+         107366da2ecd5106363a3e5c355160c6dca49fcc Fixes for all trees
          
