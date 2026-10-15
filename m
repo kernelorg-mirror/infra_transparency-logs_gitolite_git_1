@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Thu, 15 Oct 2026 14:49:45 -0000
-Message-Id: <179207578511.231508.2878840921115648446@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/slab
+Date: Thu, 15 Oct 2026 14:50:48 -0000
+Message-Id: <179207584868.234195.263153890432257309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/mm/slab
+user: harry
 changes:
-  - ref: refs/heads/next
-    old: da0ad36d2e95fb029c3a14ad99a78beebc29507f
-    new: 086802f3320a09bc18ec3b648c11cf351252c770
+  - ref: refs/heads/slab/for-7.4/misc
+    old: 6d9bc3d860e64e2c5dbfd7531954df9ea8c388aa
+    new: 13564e1cfc847aa540019b55a1f8e588670892fe
     log: |
-         086802f3320a09bc18ec3b648c11cf351252c770 lkdtm: Add more EFI runtime tests
+         13564e1cfc847aa540019b55a1f8e588670892fe mm/slab: sample slab_state once in kmem_cache_destroy()
          
