@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2108776903825220826=="
+Content-Type: multipart/mixed; boundary="===============2058456584789764987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 15 Oct 2026 21:47:27 -0000
-Message-Id: <179210084780.567003.12857284455452608630@gitolite.kernel.org>
+Date: Thu, 15 Oct 2026 21:47:30 -0000
+Message-Id: <179210085021.567191.954695258023259954@gitolite.kernel.org>
 
---===============2108776903825220826==
+--===============2058456584789764987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 518bf436318e8d1162391cd77d69d65198a4a25b
     new: 36e6e826f7cd49f94e76fbfdc6f2873385c456d6
     log: revlist-518bf436318e-36e6e826f7cd.txt
 
---===============2108776903825220826==
+--===============2058456584789764987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ a388f17e23b7e305cb306aafd73bb10d6b8ca452 wwan: wwan_hwsim: Pin module for debugf
 b0f7f9c87817da1c72d093d3e5f249d45d8edf88 bnxt_en: Pad short SW USO segments to BNXT_MIN_PKT_SIZE
 36e6e826f7cd49f94e76fbfdc6f2873385c456d6 Merge branch 'bnxt_en-fix-sw-uso-padding'
 
---===============2108776903825220826==--
+--===============2058456584789764987==--
