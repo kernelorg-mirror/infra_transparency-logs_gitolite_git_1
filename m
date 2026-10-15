@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Thu, 15 Oct 2026 10:37:54 -0000
-Message-Id: <179206067415.4057523.7573945804573132200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 15 Oct 2026 10:38:43 -0000
+Message-Id: <179206072324.4058069.17111023956859986203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvms390/linux
-user: borntraeger
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/queue
-    old: b4336c46728ad6581a4cb895e9c76be8c48f41e4
-    new: 7e576babc550c5f1209a2e408668181e25965406
+  - ref: refs/heads/main
+    old: d8839381c196c86015b79b1a465f5e59e8206f1f
+    new: a388f17e23b7e305cb306aafd73bb10d6b8ca452
     log: |
-         6e4764b38ba82b9927ed94958d0c9f5af8d928cd MAINTAINERS: Add entry for ARM on s390 KVM
-         7e576babc550c5f1209a2e408668181e25965406 arm64: Use proper include variant
+         a388f17e23b7e305cb306aafd73bb10d6b8ca452 wwan: wwan_hwsim: Pin module for debugfs file operations
          
