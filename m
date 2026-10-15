@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Thu, 15 Oct 2026 19:11:51 -0000
-Message-Id: <179209151174.446071.16427535889720544237@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 15 Oct 2026 19:18:44 -0000
+Message-Id: <179209192436.450236.10015306592263638338@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-7.3-fixes
-    old: 2935062be77113c1c4565ca9d0c72180449aafee
-    new: 43e1ef14a47257ebf7e3bb3ab9a6df9c6f817c5f
+  - ref: refs/heads/asoc-7.4
+    old: 56047769960a9eda5e60f659e1f1b8b777955eec
+    new: 97019e26268060f2fe55046e6af4e20690f5f973
     log: |
-         43e1ef14a47257ebf7e3bb3ab9a6df9c6f817c5f sched_ext: Fix use-after-free of a local reenq node left on an inactive cpu
-         
-  - ref: refs/heads/for-next
-    old: 3a6263321af3180642fdb49cedf20b9a976e2335
-    new: 5668d80333f83ffa5b1da78dae93a0a5cc05f81a
-    log: |
-         43e1ef14a47257ebf7e3bb3ab9a6df9c6f817c5f sched_ext: Fix use-after-free of a local reenq node left on an inactive cpu
-         5668d80333f83ffa5b1da78dae93a0a5cc05f81a Merge branch 'for-7.3-fixes' into for-next
+         85bc213f96ac03d74a3e531968c68861e5598281 ASoC: Intel: avs: Unprepare a stream when recovery occurs
+         6e6aedb1f8767e343707d89651a2051bff28be07 ASoC: Intel: avs: Verify sizes of configs coming from topology
+         05c2975b4267246219e7aead0467626107e204e9 ASoC: Intel: avs: Prevent module info underflow
+         b437bdbdd53fef57170e8ac939730cbfe8fa652f ASoC: Intel: avs: Fix for recovery procedure and new size-checks
+         4b963ac3e207aed376811245c091be62e26ee470 ASoC: codecs: wsa885x: Reset registers on teardown for B2B playback
+         d1e5723b5bc258a0329ddcdac6ddf05b471d1c78 ASoC: qcom: sc8280xp: add Maili sound card configuration
+         97019e26268060f2fe55046e6af4e20690f5f973 This series resends the self-contained ASoC changes from the earlier Hawi/Maili LPASS audio submission.
          
