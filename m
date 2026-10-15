@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Thu, 15 Oct 2026 08:03:03 -0000
-Message-Id: <179205138355.3720707.1606267294527716508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
+Date: Thu, 15 Oct 2026 08:04:09 -0000
+Message-Id: <179205144933.3721249.10809818691982190528@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/mm/linux
+user: david
 changes:
-  - ref: refs/tags/hyperv-fixes-signed-20261015
-    old: 0000000000000000000000000000000000000000
-    new: 8a43c2499315a223b0336d3fbde9a44b91d47bf6
+  - ref: refs/heads/master
+    old: 4056b3c9d3c92ea45955641dbafeb9b960e146ef
+    new: 0fcb05b72344f40806cbe810de8872f1698bf053
+    log: |
+         da619121a5d271e78ec709a1f9a3c5f99b9e10ad lib/crypto: poly1305: Use memzero_explicit() in poly1305_final()
+         24f07e8c07a0c0dd275331cbb41c79a78741eef9 lib/crypto: arm64: Fix lost Poly1305 carry when resuming NEON state
+         7b817748bf083ad715a8d70de63f2184178cc372 lib/crypto: tests: Add Poly1305 split-update carry regression test
+         0fcb05b72344f40806cbe810de8872f1698bf053 Merge tag 'libcrypto-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
+         
