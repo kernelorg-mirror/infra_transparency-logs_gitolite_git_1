@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 15 Oct 2026 13:33:27 -0000
-Message-Id: <179207120799.172431.12135024985542989958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Thu, 15 Oct 2026 13:36:54 -0000
+Message-Id: <179207141425.175710.10901952201433060125@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: f05a73d434c7d1b8e90cf005e3e836ce37d507bc
-    new: cb9dba6f4764fc68ab75c36e332887332339f9c3
+  - ref: refs/heads/master
+    old: 397464709a204da9b8dc3b01d6ea42539d951cd2
+    new: ff8b09806b7b18884ad8d3a2b3d702da534a4e21
     log: |
-         6acdf93f8df09a8d5cfd0823ff2e0b8be14e85ad perf tools: Factor out dso__find_binary_type()
-         95f2cc56f46fd831e9e24e95e15e0388ebcfb7a6 perf symbol: Set binary type for JIT map DSOs
-         eccce8cfafdacbcc65cf0e517c93f56b2c3fdb8f perf symbol: Do not set binary type from symtab type
-         bd934f263dccad5bce0c29d162a86bcf9f8f47b4 perf annotate: Simplify symbol__disassemble() with dso binary_type
-         cb9dba6f4764fc68ab75c36e332887332339f9c3 perf test: Fix dso data tests
+         4268806901dca8351fc2f25dcbaa665701fd49bc Bluetooth: btintel_pcie: Add initial YoYo debug support
+         d52ecdd482cfa4cd4da448ada4fee4f864f98daa Bluetooth: btintel_pcie: Validate the YoYo DEBUG_INFO TLV
+         ff8b09806b7b18884ad8d3a2b3d702da534a4e21 Bluetooth: btintel_pcie: Configure YoYo DBGC buffer allocations
          
