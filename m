@@ -1,42 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============3128138876540677153=="
+Content-Type: multipart/mixed; boundary="===============2118352141877404492=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 15 Oct 2026 21:43:35 -0000
-Message-Id: <179210061508.562106.14920535465829843070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 15 Oct 2026 21:43:53 -0000
+Message-Id: <179210063301.562396.17443140728944829881@gitolite.kernel.org>
 
---===============3128138876540677153==
+--===============2118352141877404492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 883097e0b7f6b6a92684e1338be2a7f92661632e
-    new: 76d6ad4220457ce11f013db8170c014c12608c34
-    log: revlist-883097e0b7f6-76d6ad422045.txt
+  - ref: refs/heads/main
+    old: 518bf436318e8d1162391cd77d69d65198a4a25b
+    new: 36e6e826f7cd49f94e76fbfdc6f2873385c456d6
+    log: revlist-518bf436318e-36e6e826f7cd.txt
 
---===============3128138876540677153==
+--===============2118352141877404492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-883097e0b7f6-76d6ad422045.txt
+Content-Disposition: attachment; filename=revlist-518bf436318e-36e6e826f7cd.txt
 
-22630dc586c5641bbaa24e26deb3a665397db173 idpf: ignore Tx timestamp replies once removal has started
-8a7669d2cae07d950fc76a94bf105a7e15cd72b1 idpf: ignore link events once removal has started
-999ab44c9a3237318ab77d4e98e8cb2bda43e111 idpf: keep the mailbox up while tearing down vports on shutdown
-79f8c1f85d16293e0c52c048d6991ff2bf2946a6 idpf: fix use-after-free in the PTP auxiliary worker
-d73f2363be368ad04c2986f09f0d9a57a55de44c idpf: release PTP before freeing vports on the init task error path
-dc34aed6da23d0314b62b767c19b89af45355525 ice: Protect the control PF pointer with RCU and a rwsem
-9e8a2de0aacffaefc5bd3e0568976ae8152bfbf7 ice: Cache struct ice_hw pointer for split register reads
-d311eb3e6b074aa71a25bdc1038daccc0ed8ebcc ice: Reject PTP access without a control PF
-529f3b4ce19b202ff44982736754597e039e6ed1 ice: Clear the control PF pointer when the control PF is removed
-7dcb630fa6d914e413ea12d1a45b2b64de5c0fe0 ice: Document control PF lock ordering
-680e4720ac9a5fad45bd4144de6ef0dfddb07bf0 ice: Annotate PTP control PF lock handoff
-76d6ad4220457ce11f013db8170c014c12608c34 ice: Release control PF lock before RCU wait
+0c20cb4cfb40cf270d6c4c2c2ff5e5d72322644a net: axienet: free outstanding TX buffers in axienet_dma_bd_release()
+1b1c0e87cfe78d731bbab99c9c018655980b6790 veth: clear rx queue hint in veth_xmit
+870143cfdac1cad166d1dc03fbef915fac0c229a rxrpc: Revert "rxrpc: rxperf: Fix missing decoding of terminal magic cookie"
+a7c8c3ab072375fc667ee294b58bcb9071d6e3ca rxrpc: Fix rxperf test rxgk key kvno to be 0
+7801c42c3bb737cfb06194a383873fcad8daacf5 rxrpc: Fix update of call->tx_pending without holding lock
+af208f36ae22440cf6011a43cb3064fd525d85b4 rxrpc: Fix lack of short-send handling in rxrpc_kernel_send_data()
+3e6af08a571fe2943a006acf3e890f36322602bc afs: Fix afs to abort the rxrpc call on send error
+7f15923909866e76608ea6474368570938e783fc rxrpc: Fix aborting in rxperf test server
+ef369cacbd524931199078427ae152c63a826189 rxrpc: Fix sendmsg length
+41eb0af096ba8754e584d47e6de42f1e4980ceae rxrpc: Fix double IRQ enablement
+18a71e111c7505e16c2de91480561fc491f41341 rxrpc: Fix return in rxrpc_recvmsg_data() for service calls
+0e96012d3df7098dbde46ec94cc3402f97487d1b Merge branch 'rxrpc-miscellaneous-fixes'
+dd0425c502fced67222e61d3dcc853cc15eda32c net/mlx5e: TC, free NIC flow parse attributes after offload
+3636705910f925190c949513cc5d8fa5d3f3ed92 net/mlx5: HWS, shrink FTE action array to fit
+00d8d01ff8d337c08de9368072f090b5f3a66bcb Merge branch 'net-mlx5-less-memory-per-offloaded-tc-rule'
+6329e8232aa8f579522fbd5308890e13b9f2624e hinic3: use skb_put_padto()
+a39a3a32785ee2804ed8516b0cb1585b88c2ba51 net: ipv6: seg6: report lwtunnel setup errors via extack
+d8839381c196c86015b79b1a465f5e59e8206f1f dt-bindings: net: ethernet-controller: Allow "ethernet-N" node names
+a388f17e23b7e305cb306aafd73bb10d6b8ca452 wwan: wwan_hwsim: Pin module for debugfs file operations
+73022f605c447f31610b94ed4a983d2b4bf2c721 net: ibm: emac: size RX buffers for the MTU
+70f63dc608725c0b32507f22eb6d3028efb3ed09 bnxt_en: Add helper to fill SW USO payload BDs
+b0f7f9c87817da1c72d093d3e5f249d45d8edf88 bnxt_en: Pad short SW USO segments to BNXT_MIN_PKT_SIZE
+36e6e826f7cd49f94e76fbfdc6f2873385c456d6 Merge branch 'bnxt_en-fix-sw-uso-padding'
 
---===============3128138876540677153==--
+--===============2118352141877404492==--
