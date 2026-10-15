@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1621287361447545939=="
+Content-Type: multipart/mixed; boundary="===============3765569185241352378=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
-Date: Thu, 15 Oct 2026 11:39:07 -0000
-Message-Id: <179206434730.4104722.7164309598439317393@gitolite.kernel.org>
+Date: Thu, 15 Oct 2026 11:39:14 -0000
+Message-Id: <179206435447.4105047.4250161419016995920@gitolite.kernel.org>
 
---===============1621287361447545939==
+--===============3765569185241352378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvms390/linux
 user: borntraeger
 changes:
-  - ref: refs/heads/queue
+  - ref: refs/heads/next
     old: 7e576babc550c5f1209a2e408668181e25965406
     new: 74153e116543bc017aff93720fcc603cb0e8598c
     log: revlist-7e576babc550-74153e116543.txt
 
---===============1621287361447545939==
+--===============3765569185241352378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ bac9a581778625d0417c6f2d2a123a1f3141dfa1 s390: Introduce Start Arm Execution ins
 325380d8e78936b65d30e29d6be478bdd03c87d8 KVM: s390: arm64: Integrate arm on s390
 74153e116543bc017aff93720fcc603cb0e8598c MAINTAINERS: Add entry for ARM on s390 KVM
 
---===============1621287361447545939==--
+--===============3765569185241352378==--
