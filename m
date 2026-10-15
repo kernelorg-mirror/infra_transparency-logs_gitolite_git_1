@@ -1,53 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============5210221170986363617=="
+Content-Type: multipart/mixed; boundary="===============7776114154710072804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 15 Oct 2026 12:14:44 -0000
-Message-Id: <179206648426.4133314.15542563211007564140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Thu, 15 Oct 2026 12:14:50 -0000
+Message-Id: <179206649049.4133477.4690659809506923789@gitolite.kernel.org>
 
---===============5210221170986363617==
+--===============7776114154710072804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.15.223
-    old: 0000000000000000000000000000000000000000
-    new: 6bb1ac7d89f34c8ad3a604e3bef022557745a3fb
+  - ref: refs/heads/linux-5.15.y
+    old: a051a4bf909f76f470ccb3761ee0cf6e2395616e
+    new: 792fbe1537d8daeca9bd1917e84078b5432aadc2
+    log: |
+         f982682fd54dc7ecd88424f8f6881561c411ab0d netfilter: nfnetlink_queue: unbreak SCTP traffic
+         0fab003ef4698e0628060a45a48f14b43ba2a40a ipv4: validate checksum_start before completing checksum
+         95a8c8fa9f27dce64c40c41c062de7728bf34ab5 ipv4: free inet_opt and ireq_opt after an RCU grace period
+         792fbe1537d8daeca9bd1917e84078b5432aadc2 Linux 5.15.223
+         
 
---===============5210221170986363617==
+--===============7776114154710072804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792066490 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1792066483-c7b75e64fd504de80963abeb172b3d8eea79c707
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792066496 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1792066488-567f8292589776f81fb152dcbd1dbd539613d424
 
-0000000000000000000000000000000000000000 6bb1ac7d89f34c8ad3a604e3bef022557745a3fb refs/tags/v5.15.223
+a051a4bf909f76f470ccb3761ee0cf6e2395616e 792fbe1537d8daeca9bd1917e84078b5432aadc2 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrQw7obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2/gP/As5tiBdeS9BM2bqKYwB
-6/YdMhJENnLUPLgnjLeWZOFvRgSabQEF0JE/LjV4KxtPk9XK/aUOV0Z+/GJuHjmD
-S+p5TdAOY6u6HEDYjKwNYiQEHWKsNPrHNAN0ysqMomha29sW0CT4VFNT28DDzVoY
-rRc1sMUAMV+UJ0EBx84e3a/yPxRKyYYZgp5DwekILyK1iDu2NtzeFI++4rh0dgpa
-J9O895KhMGPJaeM4gLownLvMeIQ1ZZqze+6FEcRCeEU7R0RCQA5U0K9nB1DbU4G7
-gQBuVPt168iqLwG3SnGKKun+VH5W9RRlOUGD1GklD1XhrDz4jV55QyPe39S3KwWN
-OPhDy3zE9vsyDrBlT6OpnxDd+cq1Jv+annLzFQ4m6GGb1J/gsTQ7M3Xv1SRM0gor
-c9hkp/cECi+W/RIkP+9MP9dVBR84XztpPB4wHjnd62tt9g9NbRUz0qmlzGK1K6zo
-tP9alUCyLfZJQ59ppXGobjLb+Xzi38PbC2k5tO92ffKbE0ywr7JFTNLRHv0OtlAL
-E+SUcwmwzBafby54CaCXfyZ2ILz0AjLngCaBMxzspVZcWM+kovcekwB6mlMp5qrb
-ElyIxDs2cSLJn23wrS6P6hLV3xZgjVey9jpWQWU6N5MKIh6hKC2puQzLUYNKHYiN
-vyiKH0n+FgiND+oejG8R3oeW
-=wPgJ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrQw8AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OqEQAKcLOi0zc/JbULjfedJH
+UOAiztlXCSbXReO2GZzgFRPiPkO82YV5tnHlD2LliPBAMZfPZ6mhS+lGZek6PNNP
+WwfxPhtyemSzdMr87AwmIhI+xLUGM+EVEIR7iS3sw9bRtFoFzHGUzPypDCFt1bFZ
+OxfZ8PdFPz0IO+HGe2jhHXoScqlcfpN8Stm3rg5JP12x0ezsbCmy4IXKQ1FlBw3Y
+0WCLveWKaODMQ1J22/NZruS4VpUOwWxV614PCjcZu7N/k6pofPf/RO4j80IMRlbX
+/koRNPZvLQnUk5Bblrb1DzuOWWMifpUIjxzHuCJtenklCLu7iPPFczSz0fcQZx1Z
+dKjVIzea9TXGmh14r4hEUfBp6S18nYz+dNenj/sgtxp+yYImelxcnyTtPa2CER3R
+7j7Or4EDLKNklTJuRvwynsX/FzLfL4jM2hs5UN9zg+18rbY/3gpNV9zCiZnmHcsS
+FN2tAoG3D4HbKttykBYEw6Zvzvl7I6kefUR+H56+ZbaAECE7KUy0CifeM/lzjKEf
+BNNI9bHJZOdR3FZN0avD1BG8QLLNbEyjC8p8f14wtyWXm65r1FlbU5SkJm3Y2f10
+zeGD28C7svYs9Xhu7983tGa4/s+9F9lUeoqVU+McAXX/aVbprGdabtXcNJg42aCb
+bm61YWSMyekGI6Hd0RauYxqu
+=WoFv
 -----END PGP SIGNATURE-----
 
---===============5210221170986363617==--
+--===============7776114154710072804==--
