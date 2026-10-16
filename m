@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6291362642342682429=="
+Content-Type: multipart/mixed; boundary="===============3626862619617363955=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 16 Oct 2026 19:50:13 -0000
-Message-Id: <179218021346.1623104.17136640384979909680@gitolite.kernel.org>
+Date: Fri, 16 Oct 2026 19:50:16 -0000
+Message-Id: <179218021661.1623341.2317744964395566869@gitolite.kernel.org>
 
---===============6291362642342682429==
+--===============3626862619617363955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 837e5176bb157d7bc1f6cb8b5a33be6edf327542
     new: 645f5fcf7a5582f5d6ed2322f41cb34076c63b2c
     log: revlist-837e5176bb15-645f5fcf7a55.txt
 
---===============6291362642342682429==
+--===============3626862619617363955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ b68782116bfdcdd05949a662c14d5fa644d10ab8 selftests/bpf: Test trampoline args aro
 8395b40318816ded8e4c55f07741dd5594ee9b9b selftests/bpf: Test trampolines on more BPF functions with stack args
 645f5fcf7a5582f5d6ed2322f41cb34076c63b2c Merge branch 'bpf-follow-up-by-value-struct-and-__int128-argument-support'
 
---===============6291362642342682429==--
+--===============3626862619617363955==--
