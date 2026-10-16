@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 16 Oct 2026 15:14:45 -0000
-Message-Id: <179216368594.1393236.4864962172507503492@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Fri, 16 Oct 2026 15:14:58 -0000
+Message-Id: <179216369881.1393552.3293009081200800831@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/main
-    old: 6b3e73774815910a39d8ca75b9ad7df963f61d50
-    new: 9b6fb15a5cc632aaddb4bbd349e637f49cf4fecc
-    log: |
-         9b6fb15a5cc632aaddb4bbd349e637f49cf4fecc net: ethernet: micrel: ks8842: use dmaengine_submit() instead of ->tx_submit()
-         
+  - ref: refs/heads/renesas-drivers
+    old: 0000000000000000000000000000000000000000
+    new: 7c5978e33c0df274c11d6c041098bb11d8cf6769
+  - ref: refs/heads/topic/rcar-x5h-ironhide-scmi-cpg-mdlc-remapping-v4
+    old: 0000000000000000000000000000000000000000
+    new: 6851f2a7fd6b27b19717c66c305017021840f955
