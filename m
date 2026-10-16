@@ -1,58 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============2759050856752186751=="
+Content-Type: multipart/mixed; boundary="===============1587622621907456875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Fri, 16 Oct 2026 22:24:18 -0000
-Message-Id: <179218945846.1738652.1373658855813396067@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Fri, 16 Oct 2026 22:24:41 -0000
+Message-Id: <179218948102.1738918.6872247726097260793@gitolite.kernel.org>
 
---===============2759050856752186751==
+--===============1587622621907456875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/core/hotplug
-    old: 39457fd5677475e9580d6093531b552c950d009f
-    new: 7669746fd7a063da96baac91aad258f887d968a6
-    log: revlist-39457fd56774-7669746fd7a0.txt
+  - ref: refs/heads/scx-proxy-exec
+    old: 7ab553756463ed6dcf6bc116d66f24b67365a909
+    new: 671afade4ec7d323d5d3d98846eb420f026da4f1
+    log: revlist-7ab553756463-671afade4ec7.txt
 
---===============2759050856752186751==
+--===============1587622621907456875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39457fd56774-7669746fd7a0.txt
+Content-Disposition: attachment; filename=revlist-7ab553756463-671afade4ec7.txt
 
-fe752c13fe20104b7963690a5e47d979fcdcd012 perf: RISC-V: Move CPUHP_AP_PERF_RISCV_STARTING post stop_machine()
-5f397b4a25be78c6beaa7015e2da08df5cc70325 ARM: l2c: Move CPUHP_AP_ARM_L2X0_STARTING post stop_machine()
-8ef9b48890c826b7de4d37d331cdd12bf18d24e2 clocksource/drivers/exynos_mct: Move CPUHP_AP_EXYNOS4_MCT_TIMER_STARTING post stop_machine()
-8e2c5ff20b5c85c4dac39eb8d289738a7eb6a933 clocksource/drivers/arm_arch_timer: Move CPUHP_AP_ARM_ARCH_TIMER_STARTING post stop_machine()
-954fd203df631b2a25ba45809328141651c504df clocksource/drivers/arm_arch_timer: Move CPUHP_AP_ARM_ARCH_TIMER_STARTING post stop_machine()
-c0f21376b2e500cb5459ca86b86335dae16e46f3 clocksource/drivers/arm_global_timer: Move CPUHP_AP_ARM_GLOBAL_TIMER_STARTING post stop_machine()
-3079fb6c64bdae4cb3e6bf8cbbc63919bd794128 clocksource/drivers/jcore: Move CPUHP_AP_JCORE_TIMER_STARTING post stop_machine()
-3cbb2069fcd78b5f0116c46eb657e7a3a3ca2e1f ARM: smp_twd: Move CPUHP_AP_ARM_TWD_STARTING post stop_machine()
-44e67bd1b0cfd43c5a693699c8da27c952e7bd9c clocksource/drivers/qcom: Move CPUHP_AP_QCOM_TIMER_STARTING post stop_machine()
-61e2e6672b673cb5968d134362343886aa764943 clocksource/drivers/timer-tegra: Move CPUHP_AP_TEGRA_TIMER_STARTING post stop_machine()
-edec2cae710b7dfc64c85dff05b7561878930abc clocksource/drivers/armada: Move CPUHP_AP_ARMADA_TIMER_STARTING post stop_machine()
-e0fca919bee6d6653e30a644931394823a796d92 LoongArch: Move CPUHP_AP_LOONGARCH_ARCH_TIMER_STARTING post stop_machine()
-aca9a3cafa718afb5124edf73f2ece796df081f7 clocksource/drivers/mips-gic-timer: Move CPUHP_AP_MIPS_GIC_TIMER_STARTING post stop_machine()
-c422bdcdc166407dd981b7063cb985b0bf88486a clocksource/drivers/arc_timer: Move CPUHP_AP_ARC_TIMER_STARTING post stop_machine()
-7afd4dd7c1e2e7527eb6e28e9247711c0ed76f5b clocksource/drivers/rtl-otto: Move CPUHP_AP_REALTEK_TIMER_STARTING post stop_machine()
-259dcd0f3df2fab861decbe010be90eeede83403 clocksource/drivers/timer-riscv: Move CPUHP_AP_RISCV_TIMER_STARTING post stop_machine()
-fd6cc7a7ac278a94ceecef08aa91c8f34bf57e4a clocksource: clint: Move CPUHP_AP_CLINT_TIMER_STARTING post stop_machine()
-9d5f1643bcfa8f00c6084ba8888c8df53d85c424 clocksource/drivers/c-sky: Move CPUHP_AP_CSKY_TIMER_STARTING post stop_machine()
-60862b2054e0946a127736486a9891bc089eb98d clocksource/drivers/timer-ti-dm: Move CPUHP_AP_TI_GP_TIMER_STARTING post stop_machine()
-bc6960385eb6c3234b1fd6a7860a952268edc2fc clocksource: hyper-v: Move CPUHP_AP_HYPERV_TIMER_STARTING post stop_machine()
-fab40e01cb081a82e0de0cb88bf4a1fa18d60496 clocksource/dummy_timer: Move CPUHP_AP_DUMMY_TIMER_STARTING post stop_machine()
-37767d20b451bc698705da44127494d00ebb6116 ARM: xen: Move CPUHP_AP_ARM_XEN_STARTING post stop_machine()
-92aefceba9ff98f928ca45fef186d253a82158f4 ARM: xen: Move CPUHP_AP_ARM_XEN_RUNSTATE_STARTING and CPUHP_AP_ARM64_ISNDEP_STARTING post stop_machine()
-37d8ca44774333a3765dd22e1ab95abcaa88693c smp: Move CPUHP_AP_SMPCFD_DYING post stop_machine()
-21900ebe8f48a6d86bcddaeefc32811910e9dbbb hrtimer: Move CPUHP_AP_HRTIMERS_DYING post stop_machine()
-891a1d6f5fca7d4d2facc0ce8a3c578b35785fee irq_work: Introduce irq_work_kick_cpu()
-f3ca627ddfa41a6b80f909941849cdcbbd94869a tick-sched: Convert ad-hoc implementation of irq_work_kick_cpu()
-7669746fd7a063da96baac91aad258f887d968a6 tick: Move CPUHP_AP_TICK_DYING post stop_machine()
+dcf7f650a24897d59b071f7f9a454d8b0b188b27 sched_ext: Propagate every bypass depth change to the descendants
+5bdeca322a6f8d10acaf67cccab1f69747ee7be3 sched_ext: Fix the bypass dispatch claim for schedulers bypassed by an ancestor
+6ac4544eff796666ce6fbcc4be8181c81dfccc85 sched_ext: idle: Respect task affinity in restricted CPU selection
+18f5c699d1d0a003b2959af5871b33ac9a2400ec sched_ext: Rename scx_reenq_wait_dispatching() to scx_wait_dispatching()
+2935062be77113c1c4565ca9d0c72180449aafee sched_ext: Wait for SCX_OPSS_DISPATCHING before moving tasks off DSQs
+a5ba5c61951dc00d296c79e96f0259b87861ce8c sched_ext: Merge branch 'for-7.3-fixes' into for-7.4
+09d17543c3194ee68f2f2576a98d0db1f37de16d selftests/sched_ext: Fix reload_loop error-path use-after-free
+883c9e8104cfb522a227eeddd95f8077cb77d286 sched_ext: Add SCX_ECODE_RSN_CGROUP_OFFLINE to user_exit_info.h
+0aeb67fee3cae416fa200d458a3010516ed426e9 selftests/sched_ext: Fail loudly when EXIT_KIND is missing from BTF
+bb905626a48c0da2268030871b1cb1a1e7cc78fd selftests/sched_ext: Add SCX_ASSERT_ALIVE and adopt it
+cce3a39cebca074e0994e2fbce7a6062b80e42d8 selftests/sched_ext: Bound exit waits
+6052353d2f32fd876ac0846b089f292dd5793141 selftests/sched_ext: Report reload_loop attach failures
+67d0d8d018f35beaa58a5e62a1d9c83414e570cd sched_ext: Keep proxy donors with slice left on the local DSQ
+181b9419428210367b8972876e5d033986043f49 sched/core: Avoid false migration warning for proxy donors
+f3a311922a1c90e61262ab12ec136c529e7faeb7 virtio_console: allocate the port_buffer with the caller's gfp
+8cdba2616aef162eaa99cb499915096e29abd923 sched_ext: Don't leave balance callbacks queued across a pick retry
+671afade4ec7d323d5d3d98846eb420f026da4f1 sched_ext: Keep local DSQ heads through proxy idle
 
---===============2759050856752186751==--
+--===============1587622621907456875==--
