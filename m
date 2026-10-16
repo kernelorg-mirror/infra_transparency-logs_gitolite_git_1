@@ -1,50 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============4592674185412042754=="
+Content-Type: multipart/mixed; boundary="===============6443847995425266233=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 16 Oct 2026 16:02:07 -0000
-Message-Id: <179216652726.1435004.1837736968375807974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 16 Oct 2026 16:04:59 -0000
+Message-Id: <179216669937.1436085.14218836720363156990@gitolite.kernel.org>
 
---===============4592674185412042754==
+--===============6443847995425266233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev-test
-    old: d0b9ce579367606ea2a178ec57aa6ddfcb327192
-    new: 82c43597a68e7c4137462e1f185cb92b5009d273
-    log: revlist-d0b9ce579367-82c43597a68e.txt
+  - ref: refs/heads/usb-testing
+    old: 04ac7b445880b0878c83e6e89d961455cbea0427
+    new: 893584e7e390c44bf547235749c72f931108a2d7
+    log: revlist-04ac7b445880-893584e7e390.txt
 
---===============4592674185412042754==
+--===============6443847995425266233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0b9ce579367-82c43597a68e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9367a4f9ee417f20b9a01782cf525b05576158c6 f2fs: use BIT_ULL for mount option bitmasks
-313048fd7a44c3ef82a663ad4c92fd1db713aee3 f2fs: introduce reserve_shrink mount option for filesystem shrinkage
-4d1d83f1d08d9f8b9fee2d52d304a1663261f99b f2fs: expose resizable_tail feature via sysfs
-e77a210415848b2f8b1e76173f9689b0ae889ea4 f2fs: don't use truncate_inode_pages_final() on live inodes
-3eda3d6b973d19c2fc6642e579b07f40b0f5e3f3 f2fs: extend folio state for large folio write path
-c2af8f70064fef75c37787c816fce060d12b9ea9 f2fs: carry subpage offset and count in write IO
-e3c9c7acd04cfa93f5c45b4a4ecf2e1aa25c13d9 f2fs: support regular file buffered writes on large folios
-b2e28f56c8c3a0a9ae395c81e1710894b4a4ee6f f2fs: support atomic file large folios buffered write
-616b620e25196ffad0d3ffb63c115645fe9f37a2 f2fs: support large folio writeback
-389dbdc950810254c0e373fe86dec3497006f00f f2fs: account large folio dirty data at block granularity
-94e6433b5e19be1d2803545984b652f01367015d f2fs: prepare mmap write faults for large folios
-8c4673fb028cccf89b1b1a10db2a8b0c8d3d624c f2fs: make GC migration large-folio aware
-b387e073a809c7ee2dfb6d1dd3a1706e7c98e7db f2fs: optimize small block size large folio read
-7bfdb40fb45ba71c8dc1319eca62623ee0180720 f2fs: support partial uptodate large folio read
-f00cf531b278c3f593037855baa918d5000ca53a f2fs: handle partial truncate of large folio dirty subpages
-1e00e0953a69b901f5a89330ddaf59d026d1c665 f2fs: wait for folio writeback before ffs_detach_free
-681b8e22d43451cb47149f030290645c9cdf67f1 f2fs: fix zeroing paths for large folios
-96d76be82aebae0af009ec0c8615f4f576d40e12 f2fs: handle block cloning within the same large folio
-be02ddc86822a626ce9c0afb2a9afacc1d4dc032 f2fs: allow large folio support to writeable files
-82c43597a68e7c4137462e1f185cb92b5009d273 f2fs: make compressed files compatible with large folio
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792166702 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1792166696-a0ae21f1497fb764b7efaab56aa6d231d9743c06
 
---===============4592674185412042754==--
+04ac7b445880b0878c83e6e89d961455cbea0427 893584e7e390c44bf547235749c72f931108a2d7 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrSSy8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+duIQALfyoU6NquNqzSfjYdAd
+pv6XddkPyQZpOclBPm7nhTmH/MZtCQq72Kpfq2fV15jo2uhUNxybjd6/WFzmvsyJ
+kj4WyK4h3dToodwvnQfvTDHDceKN6Am6s17mNvRquosyR9F6oqcO0qdT607h0HZy
+oPRvQ5dkl+RYH9VdY/W20lunnVxZVl8e+5sJ5/rUStCDXZh+MctNcoamV2EEpRdj
+IZknexelx4Kt6RLsRBe/uRKbkDpWlOjDXancTz6nCDNHxjd9KFru8cPqKfGzQv0I
+0AwGwHvpbmL4lPAL58Gl2G07Lcuh6FjNsmSPdiw2XtlDjS5qMH528kLVKwGQicKe
+s6mXfxGquDepQUXeOuzjrI/wjwE0ce5n3MhwL16QMQ5NNHWjLptLFPRZeKYM96Qr
+PTyoy/T2XnrVJZGEGqlXYclbPHsZk53+1R0O3fSAYEs8zV/DZO0/RUEJI3RWFT8T
+Asx3usdoUGwvUdkx8UFUQXm0LOzN94kr/u6CxdS9JU60OoD6Z7iyCXJtUdL+Y2UA
+5VASUBOxPZwNO7K7DI1YxnSlHnkafG3EhzvCHGo2dxErsDQWtqkoxF8oJtiCMxxq
+VTShhdEst50f+QKpIdx509yydjC3Ap2LshFjt9rWbn35zTcUTKzqthGpWFOhqVqW
+SwzDRfLENkvHK45pJSzyNoKV
+=S9hp
+-----END PGP SIGNATURE-----
+
+--===============6443847995425266233==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-04ac7b445880-893584e7e390.txt
+
+5a64bd5ade3d1996717482fb83b3421324d34d36 USB: serial: usb_wwan: replace __get_free_page() with kmalloc()
+931aad81f3f2d26276fff6b7bda6793267a65725 USB: serial: option: add Rolling Wireless RN947R
+87c56085bcdfec305f5c350fe1c58a62a7f65843 USB: serial: option: add support for ASR 1286:4e3c modem
+c78dd373b5c56a5a02da591b583c6b48d0d62954 USB: serial: usb_wwan: fix urb leak on disconnect
+e7daa54802c566ed3f22e81513f84c8c9197c5d1 USB: serial: sierra: fix urb leak on write completion
+b88f018678f3565d1773b0ea61583eac1398a599 USB: serial: mxuport: clean up product ID definitions and device table
+4707336330a423191fc28ead250b1963d35719c5 USB: serial: mxuport: clean up firmware version handling
+a3ad29ec47d3bb4fb3fa20bf8fcc0a466052dd2c USB: serial: mxuport: add MUX50U-based device support
+296ebbfc856e25bf0f10af648b3fe899a381bfce USB: serial: add generic write control callbacks
+83b54ef616b729a6100d418970246e58d10d163f USB: serial: mxuport: handle SEND_NEXT transmit flow control
+d446199711161e35c7f97f1556753c81546fe0e2 USB: serial: mxuport: support RS485 mode configuration
+893584e7e390c44bf547235749c72f931108a2d7 Merge tag 'usb-serial-7.4-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
+
+--===============6443847995425266233==--
