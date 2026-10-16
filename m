@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 16 Oct 2026 17:11:51 -0000
-Message-Id: <179217071101.1493542.7113932299414633959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
+Date: Fri, 16 Oct 2026 17:13:15 -0000
+Message-Id: <179217079509.1494116.3120664124157451172@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/linkinjeon/smb
+user: linkinjeon
 changes:
-  - ref: refs/heads/for-linus
-    old: 6563dc03745a959fee1f5a1ee6a00355bcaadf7f
-    new: e8df1d194c39b7a5159d570798941851f70a8668
+  - ref: refs/heads/ksmbd-for-next
+    old: bf3465919b0337dfef8798da01469145887c4ef5
+    new: a6b10fa5c285aae4689e8cf78df5cf4211e3b433
     log: |
-         0f8b5d90d179b9639be1dbeff59d6d971e6b0527 PCI: Ignore Immediate Readiness on Samsung 990 PRO and 990 EVO Plus NVMe
-         e8df1d194c39b7a5159d570798941851f70a8668 PCI: Don't treat ~0 as ready in pci_dev_wait() with RRS SV
+         0fc548309344b4b8cabb9c0d0c22bb2325278859 ksmbd: enforce a global limit on live sessions
+         1e1ccba80ac8e00bab2df187e375a896827a1ee7 ksmbd: defer connection scavenging while session locks are busy
+         dc0293a16ed65e69bac0dd127977d0f7d2434c74 ksmbd: hold a connection reference for each session channel
+         a6b10fa5c285aae4689e8cf78df5cf4211e3b433 ksmbd: reclaim ended sessions before new session setup
          
