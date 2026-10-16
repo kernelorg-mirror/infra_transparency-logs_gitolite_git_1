@@ -1,32 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 16 Oct 2026 08:21:05 -0000
-Message-Id: <179213886594.1055078.7440639285064827201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Fri, 16 Oct 2026 08:22:18 -0000
+Message-Id: <179213893864.1055523.55577459549172382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/for-next
-    old: 7f21312381fee99f58b383fa07374da3c614aec4
-    new: d9f52113f263498f000cecce5c4a82b7d2abf9d2
+  - ref: refs/heads/for-7.4/nintendo
+    old: 3774b1dd8cbce8dd75dd677fd68c5a2dc70860c6
+    new: 77c7155e2707ba5b1d56f3dc1acead48cf17f98d
     log: |
-         a46d9d8ed0e85e348075ab84bddd2388c28c5057 ALSA: usb-audio: Add mic volume quirk for Logitech Brio 100
-         e05347e54ae3dd0f44cf332d7cb4e29e027e170c ALSA: hda/realtek: Add HP ENVY Laptop 13-ba1xxx quirk
-         1f21537b11863e74d752cab3edbb78cc6efe92fc ALSA: pcm: allow capture reads while draining
-         d9f52113f263498f000cecce5c4a82b7d2abf9d2 ALSA: pcm: refresh linked pointers before draining
+         9417132df63e5cd7230433af05198538e759f3ae HID: nintendo: Add preliminary Switch 2 controller driver
+         6efbb82b5271a502e67e7510fe374025c64cdfc9 HID: nintendo: Add rumble support for Switch 2 controllers
+         3d484527b0e5a0425e817e24463ff7f37aeb6e1a HID: nintendo: Add unified report format support
+         77c7155e2707ba5b1d56f3dc1acead48cf17f98d HID: nintendo: Patch NYXI Hyperion 3 descriptor
          
-  - ref: refs/heads/master
-    old: e63fb68740142fcc68c2341c73ddd30b9f7036e9
-    new: a9b20ead86162671e8f721bbf5590b2ac33bf943
+  - ref: refs/heads/for-next
+    old: d0cbcb66c4b6e45a85e793116727c0c65b2d212e
+    new: 3351d2a7f2effac3e650aa05e9a4d656c7da44b7
     log: |
-         a46d9d8ed0e85e348075ab84bddd2388c28c5057 ALSA: usb-audio: Add mic volume quirk for Logitech Brio 100
-         e05347e54ae3dd0f44cf332d7cb4e29e027e170c ALSA: hda/realtek: Add HP ENVY Laptop 13-ba1xxx quirk
-         1f21537b11863e74d752cab3edbb78cc6efe92fc ALSA: pcm: allow capture reads while draining
-         d9f52113f263498f000cecce5c4a82b7d2abf9d2 ALSA: pcm: refresh linked pointers before draining
-         a9b20ead86162671e8f721bbf5590b2ac33bf943 Merge branch 'for-next'
+         9417132df63e5cd7230433af05198538e759f3ae HID: nintendo: Add preliminary Switch 2 controller driver
+         6efbb82b5271a502e67e7510fe374025c64cdfc9 HID: nintendo: Add rumble support for Switch 2 controllers
+         3d484527b0e5a0425e817e24463ff7f37aeb6e1a HID: nintendo: Add unified report format support
+         77c7155e2707ba5b1d56f3dc1acead48cf17f98d HID: nintendo: Patch NYXI Hyperion 3 descriptor
+         3351d2a7f2effac3e650aa05e9a4d656c7da44b7 Merge branch 'for-7.4/nintendo' into for-next
          
