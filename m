@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9094547872535246370=="
+Content-Type: multipart/mixed; boundary="===============1752479588185097512=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 16 Oct 2026 15:03:14 -0000
-Message-Id: <179216299481.1382347.4823726089992261876@gitolite.kernel.org>
+Date: Fri, 16 Oct 2026 15:03:19 -0000
+Message-Id: <179216299957.1382558.7417458398714726904@gitolite.kernel.org>
 
---===============9094547872535246370==
+--===============1752479588185097512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 71a9b024444eba184335b67867897714e4da143c
-    new: 63562804f25cb5b6f5e4f5e3a9f0d1c3c6868596
-    log: revlist-71a9b024444e-63562804f25c.txt
+  - ref: refs/heads/mm-unstable
+    old: 5ba29027115bc6717b8d6dc3296aae0240933811
+    new: 437a7e839def0f505277022622fc59a8b071d6cf
+    log: revlist-5ba29027115b-437a7e839def.txt
 
---===============9094547872535246370==
+--===============1752479588185097512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71a9b024444e-63562804f25c.txt
+Content-Disposition: attachment; filename=revlist-5ba29027115b-437a7e839def.txt
 
 5e29348e69d2510fd5e4d0e6700c4aa70cf4e449 mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
 d3f64655df64aa6a74eb13795594c0bae7908fd5 mm/vmalloc: use dedicated unbound workqueues for vmap drain
@@ -239,7 +239,5 @@ f8c5900936b9dcdfc64c98cd596e5ea891c94da6 mm: vmscan: don't count per-node proact
 fea2bcac1ef7c481133d988024d2864f84730a08 mm/vma: avoid spurious write locks when mm->mm_lock_seq overflows
 386f8aac560221f02b1845ef47f6cc86c6ec6a58 mm: stop recalculating min_free_kbytes once set by userspace
 437a7e839def0f505277022622fc59a8b071d6cf mm/swap: fix swap_cache_get_folio() returning a folio that left the swap cache
-b8c90a6c7b0ce501d44eb632efd0a5c62ea0512d riscv: mm: fix concurrency in mark_new_valid_map()
-63562804f25cb5b6f5e4f5e3a9f0d1c3c6868596 riscv: mm: exclude invalid THP PMDs from page table check
 
---===============9094547872535246370==--
+--===============1752479588185097512==--
