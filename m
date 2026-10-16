@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 16 Oct 2026 02:33:53 -0000
-Message-Id: <179211803361.801621.15245858080639702173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 16 Oct 2026 02:35:11 -0000
+Message-Id: <179211811177.804181.10817721887254910617@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: dcedbe1c56619de39c57aa261c40641a7d7f24a9
-    new: 1e3977788651df3611ee88876ea6d979b91a9108
+  - ref: refs/heads/main
+    old: d5455717ead0affc6116809d8c6e71f95c63e8e1
+    new: 38c1a7096dfb2188f55f342b835f14c362c59409
     log: |
-         3679e1476d0190ab2b42e21bac5277b6d3948030 foo
-         189450e8ef5001d3c9bf4adb2e67a8e3fd8924b6 foo
-         1e3977788651df3611ee88876ea6d979b91a9108 foo
+         9ff0f3abf72d11793662a04fcfd59c9341804b1e amdgpu: DMCUB updates for various ASICs
+         38c1a7096dfb2188f55f342b835f14c362c59409 Merge branch 'amd-staging' into 'main'
          
