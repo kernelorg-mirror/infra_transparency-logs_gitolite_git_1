@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 16 Oct 2026 00:05:00 -0000
-Message-Id: <179210910074.674457.11692473619368470715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 16 Oct 2026 00:08:19 -0000
+Message-Id: <179210929932.677916.1320981131979140200@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 045958acaa75205b31578cb22c4345e28dd2e4bf
-    new: ee3deb0151d3604ff5d4474262f6d942bd3f372f
+  - ref: refs/heads/arm64-gcs-store-gcscre0
+    old: 63a9ff2c212c293effc81503655c66943e8ec482
+    new: b88e4f7359aa8d93a083ee6fad75c77f8834657c
     log: |
-         ad1320865b1826ffa2e81e37c49535751e81335c sctp: hold shkey across socket migration
-         52ffeaa358d1f3d91aa87a26ad90d77769cff74b sctp: re-point retained control chunks on association migration
-         ee3deb0151d3604ff5d4474262f6d942bd3f372f Merge branch 'sctp-re-point-retained-control-chunks-on-association-migration'
+         5eb23256915c44e9112d84b41a6d9dd8848873bb arm64/gcs: Ignore attempts to change GCS mode during signal return
+         583b1347b0fd8adbb8dd5f8b16cc0555b5546ba7 arm64/gcs: Move gcs_check_locked() out of the header
+         b88e4f7359aa8d93a083ee6fad75c77f8834657c arm64/gcs: Store GCSCRE0_EL1 values instead of userspace mode
          
