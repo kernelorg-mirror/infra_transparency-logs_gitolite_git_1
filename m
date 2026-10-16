@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Fri, 16 Oct 2026 13:33:56 -0000
-Message-Id: <179215763632.1311350.7616633609570361110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Fri, 16 Oct 2026 13:34:08 -0000
+Message-Id: <179215764852.1311603.18100305529233993290@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/trace/fixes
-    old: a244c241593b5b38a08f0df2cb43c26574efbdcb
-    new: c47a7b11bcb3d45e29723afcf6336866476b1d08
+  - ref: refs/heads/for-next
+    old: 1a4aeb6d6a08af1a2e2c52c84170561625819377
+    new: 2f9efb1efe4e026e44b7693e67f54344ae022deb
     log: |
-         3cc117514d69067a94d6c7479730dce41e678f50 tracing: Fix crash in print_graph_function_event()
-         803aa6fc2dbea25ab9d3ed19eca1c96d0ab17445 tracing: Keep the predicate limit separate from program capacity
-         c47a7b11bcb3d45e29723afcf6336866476b1d08 tracing: Check operator stack capacity before pushing
+         2f9efb1efe4e026e44b7693e67f54344ae022deb gfs2: remove unnecessary check in gfs2_freeze_lock_shared
          
