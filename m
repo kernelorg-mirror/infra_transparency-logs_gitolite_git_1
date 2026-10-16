@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4883002149423611589=="
+Content-Type: multipart/mixed; boundary="===============3564236497872128371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 16 Oct 2026 09:17:15 -0000
-Message-Id: <179214223517.1101291.12609150487690811897@gitolite.kernel.org>
+Date: Fri, 16 Oct 2026 09:17:34 -0000
+Message-Id: <179214225416.1101557.11428857223035887264@gitolite.kernel.org>
 
---===============4883002149423611589==
+--===============3564236497872128371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,31 +16,104 @@ repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/vfs-7.4.lookup
-    old: 8e16857499e9e788529a257d516fffd82da7b50c
-    new: 31fbbc8bb1ca256f3d27d1172ad3493d46d29c73
-    log: |
-         31fbbc8bb1ca256f3d27d1172ad3493d46d29c73 VFS: d_duplicate: repair comments to avoid kernel-doc warnings
-         
+  - ref: refs/tags/vfs-7.3-rc8.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 5ee8362be8d18529c85ac127671405aaa0918293
+  - ref: refs/tags/ipc-7.4-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: 024fe5cccaac349ad226ca0896142f3640d2e3c7
+  - ref: refs/tags/kernel-7.4-rc1.signal
+    old: 0000000000000000000000000000000000000000
+    new: bb1d57e1c3c27e969a0e739bf81483d7621690c8
+  - ref: refs/tags/namespace-7.4-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: f9c971f00304d97959f64905e4e7422e34ae3dd9
+  - ref: refs/tags/vfs-7.4-rc1.bfs
+    old: 0000000000000000000000000000000000000000
+    new: 57be0f00d9de8f87f08caa03690c7b4bcc6356f1
+  - ref: refs/tags/vfs-7.4-rc1.bh
+    old: 0000000000000000000000000000000000000000
+    new: a8866ba3884daf477204872237483852f27df6ac
+  - ref: refs/tags/vfs-7.4-rc1.binfmt
+    old: 0000000000000000000000000000000000000000
+    new: 5f385e276ab768518b001bafd382f906b5955e84
+  - ref: refs/tags/vfs-7.4-rc1.close_range
+    old: 0000000000000000000000000000000000000000
+    new: 3ba3243be8a8ecb6ba0820e7ab4fb101183cc16e
+  - ref: refs/tags/vfs-7.4-rc1.coredump
+    old: 0000000000000000000000000000000000000000
+    new: 2bf927a453d48f4587f28db7fe463ac85caa6bd3
+  - ref: refs/tags/vfs-7.4-rc1.file
+    old: 0000000000000000000000000000000000000000
+    new: 15e33b25f42ab5f1319d1115262637ce862eb2d9
+  - ref: refs/tags/vfs-7.4-rc1.idmap
+    old: 0000000000000000000000000000000000000000
+    new: 58e4b20c8da6bb34dfbb636e9e8b1c091a355902
+  - ref: refs/tags/vfs-7.4-rc1.iomap
+    old: 0000000000000000000000000000000000000000
+    new: ab6d992365215b6bbe84012e981b9769f53784b6
+  - ref: refs/tags/vfs-7.4-rc1.kernfs
+    old: 0000000000000000000000000000000000000000
+    new: 406556f50b8919791660338c8cbdae959c9548f9
+  - ref: refs/tags/vfs-7.4-rc1.lookup
+    old: 0000000000000000000000000000000000000000
+    new: 56c5d86fc69aaafcd2d5fffa45a8c10612d0cdcf
+  - ref: refs/tags/vfs-7.4-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: acc8df7dda7bf3568b634ff48ac54af0853cef36
+  - ref: refs/tags/vfs-7.4-rc1.mount
+    old: 0000000000000000000000000000000000000000
+    new: 4ca03b8f7c11bc0ed19d9c23497e5ed2f8523386
+  - ref: refs/tags/vfs-7.4-rc1.netfs
+    old: 0000000000000000000000000000000000000000
+    new: b0b4894bc66f20d5a539f4a239eeab603601b3ca
+  - ref: refs/tags/vfs-7.4-rc1.shared.net-next.pidfd
+    old: 0000000000000000000000000000000000000000
+    new: 77418c9ce61759d19defa03e4f31db68d552057a
+  - ref: refs/tags/vfs-7.4-rc1.shared.super
+    old: 0000000000000000000000000000000000000000
+    new: 956c57f4bf45da5916ba7f4723b661cbced6e297
+  - ref: refs/tags/vfs-7.4-rc1.sync_close
+    old: 0000000000000000000000000000000000000000
+    new: db8ab2c6934d65c5aeab4d04d518781f1fafb2f9
 
---===============4883002149423611589==
+--===============3564236497872128371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 0x91C61BC06578DCA2! 1792142234 +0200
+pusher 0x91C61BC06578DCA2! 1792142251 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-nonce 1792142233-e928c2022a101ced676f7d463dbaffd262afd74a
+nonce 1792142250-0d140fc39d41f94d609911631bf960763d73f6f7
 
-8e16857499e9e788529a257d516fffd82da7b50c 31fbbc8bb1ca256f3d27d1172ad3493d46d29c73 refs/heads/vfs-7.4.lookup
+0000000000000000000000000000000000000000 5ee8362be8d18529c85ac127671405aaa0918293 refs/tags/vfs-7.3-rc8.fixes
+0000000000000000000000000000000000000000 024fe5cccaac349ad226ca0896142f3640d2e3c7 refs/tags/ipc-7.4-rc1.misc
+0000000000000000000000000000000000000000 bb1d57e1c3c27e969a0e739bf81483d7621690c8 refs/tags/kernel-7.4-rc1.signal
+0000000000000000000000000000000000000000 f9c971f00304d97959f64905e4e7422e34ae3dd9 refs/tags/namespace-7.4-rc1.misc
+0000000000000000000000000000000000000000 57be0f00d9de8f87f08caa03690c7b4bcc6356f1 refs/tags/vfs-7.4-rc1.bfs
+0000000000000000000000000000000000000000 a8866ba3884daf477204872237483852f27df6ac refs/tags/vfs-7.4-rc1.bh
+0000000000000000000000000000000000000000 5f385e276ab768518b001bafd382f906b5955e84 refs/tags/vfs-7.4-rc1.binfmt
+0000000000000000000000000000000000000000 3ba3243be8a8ecb6ba0820e7ab4fb101183cc16e refs/tags/vfs-7.4-rc1.close_range
+0000000000000000000000000000000000000000 2bf927a453d48f4587f28db7fe463ac85caa6bd3 refs/tags/vfs-7.4-rc1.coredump
+0000000000000000000000000000000000000000 15e33b25f42ab5f1319d1115262637ce862eb2d9 refs/tags/vfs-7.4-rc1.file
+0000000000000000000000000000000000000000 58e4b20c8da6bb34dfbb636e9e8b1c091a355902 refs/tags/vfs-7.4-rc1.idmap
+0000000000000000000000000000000000000000 ab6d992365215b6bbe84012e981b9769f53784b6 refs/tags/vfs-7.4-rc1.iomap
+0000000000000000000000000000000000000000 406556f50b8919791660338c8cbdae959c9548f9 refs/tags/vfs-7.4-rc1.kernfs
+0000000000000000000000000000000000000000 56c5d86fc69aaafcd2d5fffa45a8c10612d0cdcf refs/tags/vfs-7.4-rc1.lookup
+0000000000000000000000000000000000000000 acc8df7dda7bf3568b634ff48ac54af0853cef36 refs/tags/vfs-7.4-rc1.misc
+0000000000000000000000000000000000000000 4ca03b8f7c11bc0ed19d9c23497e5ed2f8523386 refs/tags/vfs-7.4-rc1.mount
+0000000000000000000000000000000000000000 b0b4894bc66f20d5a539f4a239eeab603601b3ca refs/tags/vfs-7.4-rc1.netfs
+0000000000000000000000000000000000000000 77418c9ce61759d19defa03e4f31db68d552057a refs/tags/vfs-7.4-rc1.shared.net-next.pidfd
+0000000000000000000000000000000000000000 956c57f4bf45da5916ba7f4723b661cbced6e297 refs/tags/vfs-7.4-rc1.shared.super
+0000000000000000000000000000000000000000 db8ab2c6934d65c5aeab4d04d518781f1fafb2f9 refs/tags/vfs-7.4-rc1.sync_close
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCatHrmgAKCRCRxhvAZXjc
-ormQAP44NYxcrhIRbmug2EPZra1fWNvJfo6rXN9TsDq9/pyotAEA1EgIXfp6UVj3
-UUSXf1Dc9jLPxIoqi9HAuKHx1CMUqQA=
-=JroP
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCatHrqwAKCRCRxhvAZXjc
+ous2AQCz1kPl1Y7e5Osr7URjTK/YQqu+E2TJWgLmJ4jnbIZbtgEA7iIfNECrEuYP
+Osxw+/CbG1amrcyy9K/PAVycblzfdgg=
+=pge4
 -----END PGP SIGNATURE-----
 
---===============4883002149423611589==--
+--===============3564236497872128371==--
