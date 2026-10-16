@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6885836705334590123=="
+Content-Type: multipart/mixed; boundary="===============6917710536581361187=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 16 Oct 2026 20:36:44 -0000
-Message-Id: <179218300495.1658635.7659070902845721472@gitolite.kernel.org>
+Date: Fri, 16 Oct 2026 20:36:47 -0000
+Message-Id: <179218300794.1658826.10896035306804494788@gitolite.kernel.org>
 
---===============6885836705334590123==
+--===============6917710536581361187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 36e6e826f7cd49f94e76fbfdc6f2873385c456d6
     new: 95a5c641fc7becab441bf244baa73b0b0f8b7dea
     log: revlist-36e6e826f7cd-95a5c641fc7b.txt
 
---===============6885836705334590123==
+--===============6917710536581361187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -969,4 +969,4 @@ ac1f6e58cb77bb66b8811f7d98703e0f076a8f65 net: bgmac: enable interrupts only afte
 17baf30a0e64cde0e8a30723b7c6d06417152514 net: phy: qcom: at803x: Apply IPQ5018 analog settings at probe
 95a5c641fc7becab441bf244baa73b0b0f8b7dea usbnet: fix smp_processor_id() use in preemptible context
 
---===============6885836705334590123==--
+--===============6917710536581361187==--
