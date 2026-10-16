@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-Date: Fri, 16 Oct 2026 21:44:39 -0000
-Message-Id: <179218707932.1707402.9799524341430616969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 16 Oct 2026 21:46:51 -0000
+Message-Id: <179218721132.1712029.2546113075589189830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-user: vdubeyko
+repo: pub/scm/linux/kernel/git/broonie/regulator
+user: broonie
 changes:
-  - ref: refs/heads/for-v7.4
-    old: 0000000000000000000000000000000000000000
-    new: de7f49c12566cc5c7437a2f26c6c754b9d4d5648
+  - ref: refs/heads/for-7.4
+    old: 98a375660baf9c0f459489efac9eb4898bbad832
+    new: ba83dd4a47bb47da3d2791b2ad6cd816a851b5d0
+    log: |
+         ba83dd4a47bb47da3d2791b2ad6cd816a851b5d0 regulator: rpi-panel-attiny: Fix probe failure after a host cold boot
+         
