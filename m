@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4106861277562923946=="
+Content-Type: multipart/mixed; boundary="===============4539747262580902408=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 16 Oct 2026 20:15:10 -0000
-Message-Id: <179218171000.1642857.15482946954728836305@gitolite.kernel.org>
+Date: Fri, 16 Oct 2026 20:15:14 -0000
+Message-Id: <179218171403.1643047.15636920296358296494@gitolite.kernel.org>
 
---===============4106861277562923946==
+--===============4539747262580902408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: 045958acaa75205b31578cb22c4345e28dd2e4bf
     new: 191aa41548b2d2b6af534a6d5cf84a552435c74c
     log: revlist-045958acaa75-191aa41548b2.txt
 
---===============4106861277562923946==
+--===============4539747262580902408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ a7c6027ed8f5713f2214ef138b18e7082145a7a7 Merge branch 'net-fix-sk_mc_loop-with-r
 65cf6863606b0507a7c3bd1711317e4f5d6b8b7e RDS/IB: validate receive fragment completions
 191aa41548b2d2b6af534a6d5cf84a552435c74c MAINTAINERS: add Bobby Eshleman as vsock reviewer
 
---===============4106861277562923946==--
+--===============4539747262580902408==--
