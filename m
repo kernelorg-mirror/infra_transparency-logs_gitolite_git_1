@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 16 Oct 2026 00:44:25 -0000
-Message-Id: <179211146594.706533.6334972199775645020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 16 Oct 2026 00:47:26 -0000
+Message-Id: <179211164600.710032.11786615184312801558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/i2c/i2c-next
-    old: 82c35b1ade5fa258131aed7ed42f066518a09657
-    new: 21ea5f3c38c36de5e768c5964a4035a04b4adb47
+  - ref: refs/heads/main
+    old: 1800f27a5ef86c158b618a1325f4cdd538b799a0
+    new: 8241cd8ebe015017d05684b2bf3f5d3076caa915
     log: |
-         f3d2de4afedbfd0905039ff6faa01d417ba467df i2c: acpi: Fix adapter reference leak in i2c_acpi_new_device_by_fwnode()
-         21ea5f3c38c36de5e768c5964a4035a04b4adb47 Merge branch 'i2c/i2c-2' into i2c/i2c-next
+         8241cd8ebe015017d05684b2bf3f5d3076caa915 net: dccp: uapi: clean up kernel-doc comments
          
