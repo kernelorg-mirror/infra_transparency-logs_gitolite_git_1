@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 16 Oct 2026 01:26:54 -0000
-Message-Id: <179211401450.749922.7785472594278964505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 16 Oct 2026 01:28:22 -0000
+Message-Id: <179211410292.750765.14451040458002246994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/arm64-gcs-store-gcscre0
-    old: c25af8e895c642514f94752d7b06f7f364dba710
-    new: 2c325459b6e3f8a8d4f063bef10064fe3cc7c17c
+  - ref: refs/heads/main
+    old: 50f2103fce43922b6e562937b2d2fc62089ff7ec
+    new: b2039a6dd36b5c89142bfb95bc0205be8abcc600
     log: |
-         df5ef4cc1a470435de31cd398883f59c996e624b arm64/gcs: Ignore attempts to change GCS mode during signal return
-         bd236a7e88dc13902a8ef810d714d67a604a0ecb arm64/gcs: Move gcs_check_locked() out of the header
-         2c325459b6e3f8a8d4f063bef10064fe3cc7c17c arm64/gcs: Store GCSCRE0_EL1 values instead of userspace mode
+         4fc1d5bb448dfab391a96f949d02ad03ad8cda5c bnx2x: fix header length calculation for encapsulated TSO
+         b2039a6dd36b5c89142bfb95bc0205be8abcc600 ipv4: use RCU protection in inet_netconf_get_devconf()
          
