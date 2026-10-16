@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Fri, 16 Oct 2026 17:06:46 -0000
-Message-Id: <179217040626.1489048.13336818837433978141@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Fri, 16 Oct 2026 17:07:56 -0000
+Message-Id: <179217047688.1489618.593453569871203474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: c181ce359fad6dd521da7fb08784bb383a5f142f
-    new: 3bb69a486f4f64a8aa5c5e227d984ccd4081d0b0
-    log: |
-         3bb69a486f4f64a8aa5c5e227d984ccd4081d0b0 Update ABAB231F97DF5881 (Tony Luck)
-         
+  - ref: refs/heads/rockchip/dts64
+    old: 0000000000000000000000000000000000000000
+    new: 7aa165b62ccaf340da22c517074e7c6853db55cd
