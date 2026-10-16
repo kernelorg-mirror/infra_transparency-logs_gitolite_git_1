@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 16 Oct 2026 16:55:42 -0000
-Message-Id: <179216974235.1480408.2180457326699119898@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Fri, 16 Oct 2026 16:58:29 -0000
+Message-Id: <179216990964.1481311.2798263474089463889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: aaae5e500a460d99a15313ae79f739fa653148e4
-    new: 242d8416f60cef4864d1a9de0943bd3f299e960c
-    log: |
-         60bbe76a3f9ea4760f53a09cd2f00e211f7db9e3 bpf: Allow ksock connect/send calls from wq
-         242d8416f60cef4864d1a9de0943bd3f299e960c selftests/bpf: Test ksock connect/send calls from wq
-         
+  - ref: refs/heads/dev.2026.10.16a
+    old: 1468f6acb32add422b8f4dcebc0d75e7fd4b95aa
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/dev.2026.10.14a
+    old: 0000000000000000000000000000000000000000
+    new: 1a09530e35bf96053326b1a7b19a466c6238ad6b
