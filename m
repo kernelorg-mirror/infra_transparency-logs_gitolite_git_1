@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Fri, 16 Oct 2026 06:14:51 -0000
-Message-Id: <179213129124.958997.11764464776171685957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Fri, 16 Oct 2026 06:19:25 -0000
+Message-Id: <179213156552.962570.44370541010200071@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/tags/opp-updates-7.4
+  - ref: refs/heads/b4/vdso-cleanup
     old: 0000000000000000000000000000000000000000
-    new: d781f311346164638379f610a2e4da5ca48f6c26
+    new: 3906a429ab99d242df5eda184c329bab01b25901
