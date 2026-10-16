@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Fri, 16 Oct 2026 12:25:04 -0000
-Message-Id: <179215350436.1261703.16130126677054090242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Fri, 16 Oct 2026 12:32:11 -0000
+Message-Id: <179215393160.1266449.3828821697708322519@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/master
-    old: a29888556578e4695bca25a2807308e9050ee2ac
-    new: 178aff4cf425b3fc51ff09c571fa1bfbc1eb8ea4
+  - ref: refs/heads/for-next
+    old: e3aab97021eb2bb144737622cab73ca1bec01469
+    new: fb3747fa3b40db5d1eb5bd9a725dfc8da8ffad75
     log: |
-         fed9c1930e1dcec978ff323a6ea9dd783a63b8b3 MAINTAINERS: delete entry for John Allen
-         c577e8d88783aa1c6e337dbc37fc739cfd40d93e crypto: atmel-tdes - use separate DMA scatterlists
-         a9c624fa9ea0e27d044decfebb8befdef0e08299 crypto: atmel-tdes - reuse fast in atmel_tdes_crypt_start()
-         178aff4cf425b3fc51ff09c571fa1bfbc1eb8ea4 crypto: atmel-tdes - consolidate error paths in atmel_tdes_dma_init()
+         f89b16b586bf314fb57a0a37fc3d18fbeb074151 Merge branch 'for-7.3/upstream-fixes' into for-next
+         fb3747fa3b40db5d1eb5bd9a725dfc8da8ffad75 Merge branches 'for-7.4/apple', 'for-7.4/asus', 'for-7.4/core' and 'for-7.4/lenovo' into for-next
          
