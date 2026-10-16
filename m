@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Fri, 16 Oct 2026 00:27:32 -0000
-Message-Id: <179211045291.693471.5672030308814570409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 16 Oct 2026 00:34:31 -0000
+Message-Id: <179211087104.697641.13535033929916400728@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/for-7.4/io_uring
-    old: 1e15ff04f83dd14932078b30992cfa6ca7237ba6
-    new: 89f193dc3ef462059387e9691bf6af4b1808379a
+  - ref: refs/heads/master
+    old: ecc80f7631c689e23254260fcc002a342c94be92
+    new: 70024d04ea27a92132eb83b12911dc8de2bfad4b
     log: |
-         89f193dc3ef462059387e9691bf6af4b1808379a io_uring/timeout: don't lose a cancel as io-wq arms a timeout
-         
-  - ref: refs/heads/for-next
-    old: 9bc01bd9294f84766e5a00d1683e784fe30a7a31
-    new: 305bce0e751374d0fe25b99a10de9b5bf6e5d636
-    log: |
-         89f193dc3ef462059387e9691bf6af4b1808379a io_uring/timeout: don't lose a cancel as io-wq arms a timeout
-         305bce0e751374d0fe25b99a10de9b5bf6e5d636 Merge branch 'for-7.4/io_uring' into for-next
+         c87652656a55e5e8cf994364314a75fa95fb2d69 selftests/bpf: Fix prog_tests framework subtest count checks
+         cc4b1c161d92992544cc571a2475baa5b072e120 selftests/bpf: Skip expected_msgs subtests when stdout is not saved
+         7ebf808caa76c500d52a714f7dc39a1f4952c4d3 selftests/bpf: Skip compare_text subtest when stdout is not saved
+         70024d04ea27a92132eb83b12911dc8de2bfad4b Merge branch 'selftests-bpf-fix-prog_tests-framework-self-tests'
          
