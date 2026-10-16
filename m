@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 16 Oct 2026 18:51:55 -0000
-Message-Id: <179217671559.1572743.1402460900290189335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cris/linux
+Date: Fri, 16 Oct 2026 18:52:27 -0000
+Message-Id: <179217674747.1573090.11272510496105040493@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/cris/linux
+user: cris
 changes:
-  - ref: refs/heads/for-next
-    old: 2d1f101ee619435873ed8a23fcb3bd09204a5024
-    new: 837e5176bb157d7bc1f6cb8b5a33be6edf327542
-    log: |
-         d9efbaed7e614278002c4c1e476b62b3f20ed5df bpf, x86: Support fetching AND/OR/XOR atomics in arena
-         9e35f216e5c5c834a81f1c7a410531271d7a987a selftests/bpf: Test fetching AND/OR/XOR atomics in arena
-         837e5176bb157d7bc1f6cb8b5a33be6edf327542 Merge branch 'bpf-x86-support-fetching-and-or-xor-atomics-in-arena'
-         
+  - ref: refs/heads/scmi_telemetry_ng_V14
+    old: 0000000000000000000000000000000000000000
+    new: 849573c4cf29dc95c8d8db7fdc5f7e0476df376c
