@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 16 Oct 2026 01:04:40 -0000
-Message-Id: <179211268040.729948.1369956373539641015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 16 Oct 2026 01:06:00 -0000
+Message-Id: <179211276083.732721.4404983927606509884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 393acb51d048087ca82a66ecfd6449575a7eb2db
-    new: cdcb648a97ebc247eea3a9a7d15916613f640527
+  - ref: refs/heads/arm64-gcs-store-gcscre0
+    old: b88e4f7359aa8d93a083ee6fad75c77f8834657c
+    new: c25af8e895c642514f94752d7b06f7f364dba710
     log: |
-         cdcb648a97ebc247eea3a9a7d15916613f640527 net/mlx5e: Rename state_destroy to rx_mode_active in flow steering
+         b38de2482e92cb69a3df5710449bc7223cb92237 arm64/gcs: Ignore attempts to change GCS mode during signal return
+         0e313ca48ec39c36917c20847d9e8ec4a07c9cbf arm64/gcs: Move gcs_check_locked() out of the header
+         c25af8e895c642514f94752d7b06f7f364dba710 arm64/gcs: Store GCSCRE0_EL1 values instead of userspace mode
          
