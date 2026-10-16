@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1587622621907456875=="
+Content-Type: multipart/mixed; boundary="===============0920119782994237207=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Fri, 16 Oct 2026 22:24:41 -0000
-Message-Id: <179218948102.1738918.6872247726097260793@gitolite.kernel.org>
+Date: Fri, 16 Oct 2026 22:24:48 -0000
+Message-Id: <179218948823.1739118.16041042456112641530@gitolite.kernel.org>
 
---===============1587622621907456875==
+--===============0920119782994237207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arighi/linux
 user: arighi
 changes:
-  - ref: refs/heads/scx-proxy-exec
+  - ref: refs/heads/for-next
     old: 7ab553756463ed6dcf6bc116d66f24b67365a909
     new: 671afade4ec7d323d5d3d98846eb420f026da4f1
     log: revlist-7ab553756463-671afade4ec7.txt
 
---===============1587622621907456875==
+--===============0920119782994237207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ f3a311922a1c90e61262ab12ec136c529e7faeb7 virtio_console: allocate the port_buffe
 8cdba2616aef162eaa99cb499915096e29abd923 sched_ext: Don't leave balance callbacks queued across a pick retry
 671afade4ec7d323d5d3d98846eb420f026da4f1 sched_ext: Keep local DSQ heads through proxy idle
 
---===============1587622621907456875==--
+--===============0920119782994237207==--
