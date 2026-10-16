@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 16 Oct 2026 02:00:04 -0000
-Message-Id: <179211600471.776439.10466422645290215199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 16 Oct 2026 02:05:40 -0000
+Message-Id: <179211634023.781330.10994447920558169893@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: a7c6027ed8f5713f2214ef138b18e7082145a7a7
-    new: 65cf6863606b0507a7c3bd1711317e4f5d6b8b7e
+    old: 9214626223a04a992746ee81c98347d6b739a309
+    new: de3ef6921c00f0af5bdfffc795b7c1d6886b5d6f
     log: |
-         5bef8649bb9ac4b2a014bcc227202ebd2df824be sctp: hold transport reference across connect wait
-         65cf6863606b0507a7c3bd1711317e4f5d6b8b7e RDS/IB: validate receive fragment completions
+         9c7e89fc1b6844757fda56601804109600f6bb61 ncsi: Fix use-after-free in the VLAN id list removal
+         de3ef6921c00f0af5bdfffc795b7c1d6886b5d6f macsec: check for duplicate SCIs before registering the device
          
