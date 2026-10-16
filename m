@@ -1,340 +1,333 @@
-Content-Type: multipart/mixed; boundary="===============2910981501039271377=="
+Content-Type: multipart/mixed; boundary="===============5907083739805360387=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Fri, 16 Oct 2026 15:01:01 -0000
-Message-Id: <179216286136.1381367.5934536499745656413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Fri, 16 Oct 2026 15:03:08 -0000
+Message-Id: <179216298857.1382112.10215714229165213995@gitolite.kernel.org>
 
---===============2910981501039271377==
+--===============5907083739805360387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: abelloni
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/for-next
-    old: c4a4fc516b8ad90b36bb3e490cad069c203cfbba
-    new: 07dbfd47e6599e4a97097fe2573d3304f95721fb
-    log: revlist-c4a4fc516b8a-07dbfd47e659.txt
+  - ref: refs/heads/damon/next
+    old: 1ad26d14e3c8321ee49809e9588d3aef30d5ed24
+    new: 361f4b2dd140c1b49f9e00342a6df378570315a3
+    log: revlist-1ad26d14e3c8-361f4b2dd140.txt
 
---===============2910981501039271377==
+--===============5907083739805360387==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4a4fc516b8a-07dbfd47e659.txt
+Content-Disposition: attachment; filename=revlist-1ad26d14e3c8-361f4b2dd140.txt
 
-7061674069cb2524e7bc58173d4c816ed6529da6 ARM: dts: xilinx: Replace spaces indentation with tabs
-c25898eb51eb51a6c48d72dd1afd5739d61a376e dt-bindings: clock: qcom: Add Hawi GPU clock controllers
-348a2ae162e5ec2dbab12c226b8240b8271ca444 dt-bindings: clock: qcom: Add GCC video axi reset clocks for Nord
-d9776bd14b982d1df5363088ccdae13410f8c1b1 dt-bindings: clock: qcom: Add video clock controller on Nord SoC
-5897855b0cb5847747f2823dcbbe9b2812c7d0ce dt-bindings: clock: qcom: Add support for Camera Clock Controller for Nord
-01e2f07c44fc46180bdb10e70506f8acf44a53dd riscv: dts: spacemit: k3: Drop guest properties from M-level IMSIC
-69f95409f0053f787ad60175944080621a8b7d95 riscv: dts: spacemit: k3: fix IMSIC num-guest-ids
-d4871c29f21dda76990cd3138c72ceb71c856b93 riscv: dts: spacemit: sort nodes on OrangePi RV2
-ac436e6879f5bf25e971d80f96f9392b61ff54c6 riscv: dts: spacemit: enable onboard eeprom for OrangePi
-3215a35fac45165506e86de212306c5d0e73eaf9 MAINTAINERS: Add Troy Mitchell as a SpacemiT SoC reviewer
-97bd8165a3f734fe97664e186406686bfa34f42f riscv: dts: spacemit: Add K3 I2C6 pinctrl state
-ad17d98848df3907d6732673a139e9ed832b547d riscv: dts: spacemit: Add CTF2301 on K3 CoM260
-c37ee906b45bc06782fa1b69f3a53bace67ace66 riscv: dts: spacemit: k3: add i2s0-i2s5 nodes
-f55a54f07a367ed5c73ae53398a60c01219a6df3 MAINTAINERS: update RISC-V Microchip maintainers
-bd81fd41a70811d3423f2701e9ce85a003175d7b MAINTAINERS: add entry for SpacemiT reset controller driver
-2961d968d0cf1f8f696e822b900943d6c1072a66 riscv: dts: spacemit: k1-musepi-pro: add cpu scaling
-e56e2800e994d251486a3988209e07a711eb95b7 riscv: dts: spacemit: orangepi-rv2: Add cpu scaling for K1 SoC
-4947ee60bf48caddf5caefc08dbbc84d09fbbc6b riscv: dts: spacemit: orangepi-r2s: Add cpu scaling for K1 SoC
-5cea6b0bbf1ca6e2b20262b4790aa7b7db48ec04 dt-bindings: clock: qcom: Add Hawi CAMCC compatible strings
-89da0a958bc8d11284cac0e9cce73cbbb1d18d91 dt-bindings: clock: qcom: Add Maili Graphics Clock Controllers
-b8009b661da71d345e671a21f0cdd5dfc3785fa8 dt-bindings: arm: cpus: Add Oryon PartNum 3 CPU compatibles
-691a5772431aac2b36e1d9e6f855b2e2900db828 Merge branch '20260730-gpucc-hawi-v2-1-7bf618ab8a34@oss.qualcomm.com' into HEAD
-aa713844406b50324e889f1f7024be116f119eb7 Merge branch '20260915-camcc-hawi-v3-1-5b57f45477f1@oss.qualcomm.com' into HEAD
-d1fd0cfc0a1908110a87730d078c488c5453fcd2 dt-bindings: usb: qcom,snps-dwc3: Add Hawi compatible
-2876557e9cf792e61d7f50123c670a2669613f2b arm64: dts: qcom: hawi: Add header file for IPCC physical client IDs
-6045db811eb48eacb333b02d4d2e010c7653eec9 arm64: dts: qcom: Introduce Hawi SoC
-403055d350d6cb1e71303a0c6d347fc8b20270b8 arm64: dts: qcom: hawi: Add base MTP board
-abbbaa99ac664cd54deb3bf0cf83540903a4129f dt-bindings: arm: qcom: document the Valve Deckard headset
-f905cb6e600a299cdefc8763878f9739c78b77b3 arm64: dts: qcom: sm8650: Add initial Valve Deckard devicetree
-d132100e3866ec820eb55884d9b77900805e8ee1 arm64: dts: qcom: x1e80100-dell-inspiron-14-plus-7441: add PWM backlight
-52c679ecfd03312c585bfbfe1c7a0d3a9c25cf0e arm64: dts: qcom: x1e80100-dell-inspiron-14-plus-7441: fix touchscreen i2c address
-7d9a52228d9ad386a72db81972c9e55587fbe180 dt-bindings: embedded-controller: qcom,hamoa-crd-ec: Add Purwa IOT EVK
-99957ef86571fddb13bbbf25ee46c5fd910c0b55 arm64: dts: qcom: purwa-evk: add DP0/DP1 audio playback support
-6767b89b2947b981017cc429f0605342b7eb341e arm64: dts: qcom: sdm845-oneplus-common: Configure MBHC thresholds
-69c05e679e2bf2601f9115e4e24de2778bcba5fe arm64: dts: qcom: nord: Add PMU node
-dfd81990d6129052e391968afed2fb2f27f8353d arm64: dts: qcom: nord: Add LLCC node
-099cd579fa73c142fde2f7e3ea473f334792a249 arm64: dts: qcom: x1-crd: Mark the EC reset gpio as reserved
-0297c8e98a054fc2a0afcb96114f57603a02594e arm64: dts: qcom: x1e001de-devkit: Mark the EC reset gpio as reserved
-07321595ce693eea5854120869a8b1560d7b14d6 arm64: dts: qcom: x1e78100-t14s: Mark the EC reset gpio as reserved
-5630150c90db33df906d26cc4b6ff56315471352 arm64: dts: qcom: x1e80100-dell-xps13-9345: Mark the EC reset gpio as reserved
-fc29959413b0e9f7a7d4e1ffa02fa2465461a6f2 arm64: dts: qcom: honor-magicbook-art-14: Mark the EC reset gpio as reserved
-a92ac66d35dfd8438b6e40bfb956ff69365798ac arm64: dts: qcom: x1e80100-yoga-slim7x: Mark the EC reset gpio as reserved
-c1d21b09a46896a0bc57a5183128b6bf31d9e43e arm64: dts: qcom: medion-sprchrgd-14-s1: Mark the EC reset gpio as reserved
-fd7d7b5d307f3a475e9555dfd89ff80cfae46b3c arm64: dts: qcom: x1e80100-qcp: Mark the EC reset gpio as reserved
-94a0d3a2595821878de98d495e89691f694a2083 arm64: dts: qcom: x1-asus-vivobook-s15: Mark the EC reset gpio as reserved
-48213677c9173680de328785768ea56315bfdd53 arm64: dts: qcom: x1-asus-zenbook-a14: Mark the EC reset gpio as reserved
-2c376a1b675075018c77d040ba1595db896a75f6 arm64: dts: qcom: x1-dell-thena: Mark the EC reset gpio as reserved
-4ea8c5b790dd884bb5118336dfcb2c648cb40b2d arm64: dts: qcom: x1-hp-omnibook-x14: Mark the EC reset gpio as reserved
-d15d83967b113e43a4811164ada19909d99c93a7 arm64: dts: qcom: x1p42100-thinkbook-16: Mark the EC reset gpio as reserved
-7034bec693b752bcd7ebb4fa00dc3b429b4dc4f7 dt-bindings: vendor-prefixes: Add General Mobile
-1907d59cfd0f10184af6e2d6d7f0344c261411ad dt-bindings: arm: qcom: Document MSM8952 SoC binding
-17769685ec79467bc88c3b28d94ae109dd47fe50 Merge branch '20260801-nord_videocc_camcc-v2-1-674d7718e41f@oss.qualcomm.com' into HEAD
-4b891a4f67f246c84914b29073072ee9281b9b1a arm64: dts: qcom: nord: Add more clock controller nodes
-17c72724208d4ff27dce6bf969b95f319ece213f arm64: dts: qcom: kaanapali: add the GPU SMMU node
-e542d1037a160bd784df7d81cbb34c3ce6a0df55 arm64: dts: qcom: kaanapali: Add QFPROM node
-58a9a6b6f9c3636a6c246ddee1396a530d13a96d arm64: dts: qcom: Add GPU support for Kaanapali
-be93aa15e479cdf2572d6632d8244381f3cea3ba arm64: dts: qcom: kaanapali: Add GPU cooling
-f60d37e1038a280d8843482c44381925253f0081 arm64: dts: qcom: kaanapali-mtp: Enable GPU
-b44bdf6eca3ee0a308300a13828cff0211a7d8d4 arm64: dts: qcom: kaanapali-qrd: Enable GPU
-2cbc3fca923e18f2c54de37c6c069dbbe3f8576e arm64: dts: qcom: kodiak: enable inline crypto engine for SDHC
-a66ba83f6255dc8cc3f1b21bb359fd58f910b13d arm64: dts: qcom: monaco: enable inline crypto engine for SDHC
-b71eec32fd68b7fe65af8f6f6059eb52ee312869 arm64: dts: qcom: purwa-iot-evk: Update TSENS thermal zone
-d973b84acf63e1be8b4f2c3a2b6618bb0ffb917a arm64: dts: qcom: monaco-arduino-monza: Add sleep button
-ab10953c2678614fb1246d0c7dc07b26407ff055 arm64: dts: qcom: monaco-arduino-monza: Add GPIO line names
-fdf4f4cd7e48b093bcf937486a462050f6be757e dt-bindings: embedded-controller: qcom,hamoa-crd-ec: add Lenovo Yoga Slim 7x
-af7ef48feed13ece4fe2a6f61c6e41cefdcc5d46 arm64: dts: qcom: x1e80100-lenovo-yoga-slim7x: Add Embedded Controller node
-bb93d264a93b3a22a1d7e13e9a895a37a20796a2 arm64: dts: qcom: milos: Add CPU-to-DDR BWMON support
-4b8c947ac77b61fe9251a6db68221a513616988b dt-bindings: arm: qcom: Add Xiaomi 11 Lite 5G NE
-9935964e6e43ca768e740d1eb32f478a93043b05 arm64: dts: qcom: sm7325: Add Xiaomi 11 Lite 5G NE
-ef9979d6b1bebc3f6c8630a08aae1eefeaf22036 arm64: dts: qcom: glymur: Add SD Card support
-51fe74e44c69e695884817eab9cc6ddf9bc011fa arm64: dts: qcom: glymur-crd: Enable SD card
-a88a75904f540518986f40b3e9e0162a671071b7 arm64: dts: qcom: qcs8550: Add IMDT QCS8550 SoM
-4ce3c32570a1efa5a096499ea03f5be2bd560731 arm64: dts: qcom: qcs8550: Add IMDT QCS8550 SBC
-1ad5224efa2233ffb80a5445d9553027bb22938b arm64: dts: qcom: qcm6490-idp: Add IPA node
-a78e41fea74fd7ddf8a6a3d2c2d7ec289f0a33d7 arm64: dts: qcom: shikra: Add support for AudioCoreCC and AudioCoreCSR nodes
-e8493dd1265294c999cb5badbc26c6b42ea5c499 arm64: dts: qcom: hawi: Sort IPCC client IDs
-5105107939b082a98446018e5679d16724fcc75f arm64: dts: qcom: hawi: Fix PCIe IOMMU maps
-2b5d5dea36d4d45246cef89611c8e7a6002aa6a3 arm64: dts: qcom: hawi: Enable SoCCP by default
-7ce6844c0d6ade683fc741c9409a406eb754ed11 arm64: dts: qcom: hawi: Trivial fix
-c8e3d40457f1a66c637181c04c72c91fb7bafab1 arm64: dts: qcom: shikra: Add SD Card support
-87494196c2f551710b4ae90ea78912d4d3abcc6b arm64: dts: qcom: shikra-evk: Enable SD card
-f765b95e39380ec1ef8213aaece1cf3a0d975bed arm64: dts: qcom: monaco-arduino-monza: microcontroller LEDs
-4e7a6ce7925c463f9e888c87a1a40e68db8a32a9 arm64: dts: qcom: monaco-arduino-monza: Rework fan cooling map
-f1e325d194fb0d719d848a42ec522e0f70250e44 arm64: dts: qcom: shikra: Add CAMSS node for Shikra
-7a3fcdb8d28fa5f162003b4f28f0160c82ee62af arm64: dts: qcom: shikra: Add CCI definitions for Shikra
-e1f5d59e0eca23e2e69353f769bfaa187ad94ab8 arm64: dts: qcom: shikra: Add mclks pin configuration for Shikra
-9cd1efbde98772e08a79a7b5d655cae60b38264e arm64: dts: qcom: shikra-cqm-cqs-evk-imx577-camera: Add DT overlay for Shikra
-a4be00ccf9e0bdcfd407397368e0599c559d90be arm64: dts: qcom: shikra-iqs-evk-imx577-camera: Add DT overlay for Shikra
-6baef5b6e13d74ddda929d3a9c40b855622205a1 arm64: dts: qcom: ipq5424: Add the IMEM node
-68a2de06e17d12b3b552f2106fa21f5007abc7e5 arm64: dts: qcom: ipq5424: add support to get watchdog bootstatus from IMEM
-058ee00216a1356e710446b59a800065d2abbd80 dt-bindings: vendor-prefixes: Add Chip Wealth Technology
-3f0facd87c3cc4d09a24a671ecf6d1a61c9f184f dt-bindings: arm: qcom: Add AYN QCS8550 Devices
-60df2a3676cd8e4245f75e92d90dbd0909e7a98f arm64: dts: qcom: Add AYN QCS8550 Common
-c0de507417c54578547746de4b188aa88539dd77 arm64: dts: qcom: Add AYN Odin 2 Mini
-0398b1a6d1fa94ee878ef80ddc13cf3516ea3b4f arm64: dts: qcom: Add AYN Odin 2 Portal
-ac99695769bab4d9e21b0458e0f7b0c2165fe2de arm64: dts: qcom: Add AYN Thor
-9f06fcd862b586678438881b5f73e373b6ba2dc2 arm64: dts: qcom: Correct white-space style
-e57d572ed779eb53e7eb5b8f9546731eff21bc93 arm64: dts: qcom: sdm845-lg: fix sdcard pinctrl nodes
-457cf65a7997e398d8d6cef08601b4ea61b58e38 arm64: dts: qcom: lemans-evk: fix SerDes PHY regulator supplies
-0d567fb7def9564d15c334ec0fa5f5f6a0114ffa arm64: dts: qcom: lemans-ride-common: fix SerDes PHY regulator supplies
-de7bc562fc363421902db7bdda8e347cc78a5173 arm64: dts: qcom: monaco-evk: fix SerDes PHY regulator supplies
-e55080f068f3f6b733235fd7618c12e61744244b arm64: dts: qcom: qcs8300-ride: fix SerDes PHY regulator supplies
-1f6925d80ae327ab4e18e21b7c87c57b793c462c arm64: dts: qcom: ipq9574-rdp-common: Enable quad SPI mode for SPI-NAND
-4d36e6d8c5a489c85d9440fc7330beee9b74f6f0 arm64: dts: qcom: ipq5424-rdp466: Enable quad SPI mode for SPI-NAND
-be63397b43a4b1b3c4fbdb149413dacd8ad5a844 arm64: dts: qcom: ipq5332-rdp-common: Enable quad SPI mode for SPI-NAND
-9e39531ce39a98a77ddcf58f838a50dbf164092c arm64: dts: qcom: sm8750: Add GPU and GMU nodes
-c4dc1775c7723e9ed1ff74b649fe72d8aa741eb1 arm64: dts: qcom: sm8750: Add GPU cooling
-d5eee07a7818e9e65b21d61ef622cd517ab49ddf arm64: dts: qcom: sm8750-mtp: Enable Adreno 830 GPU
-c9cf34cb19f87cd0637a9f1aecd46640c19d76ca arm64: dts: qcom: sm8750-qrd: Enable Adreno 830 GPU
-542991a1d77e5fea5263c2406773a0cd09a8ec48 ARM: dts: qcom: msm8974: add MDSS reset
-691767f7d313417a79c44f6e77318c0db83be5ec arm64: dts: qcom: qcs6490-rb3gen2: Increase MCP2518FD SPI frequency to 17MHz
-3135ba5478a2876bee9dea90f5dba04bc16dd593 arm64: dts: qcom: shikra: Add support for usb nodes
-ab6a07a8de6f4df3eecb733d0620019734592f31 arm64: dts: qcom: sm8150: describe download mode register
-d27d7fe39ada945129f075698ea4f50bb6df8eb8 arm64: dts: qcom: kodiak: Use hyphen in rpmhpd OPP node names
-a469c17e9119a239b85f5ae578d39f17d140572c arm64: dts: qcom: lemans: Use hyphen in rpmhpd OPP node names
-d4c3b99c2fd062253af9cdc6bae26bba98afca1e arm64: dts: qcom: sdm845-oneplus: Move touchscreen y-axis to the right place
-33bacf8b8e69aa27c0e12892911709a549b00093 arm64: dts: qcom: sdm845-oneplus: Define touchscreen in the detail
-1658af4d25bd3133d1b3403ccdda6214d40c0ebb dt-bindings: vendor-prefixes: Add LeEco
-51c5d61ba73bde54d7900276cb1c0e37d416adfb dt-bindings: arm: qcom: Document Motorola Moto One
-147a652d5257cca0cda8a7ad5f4f69ed0eff4a2f dt-bindings: arm: qcom: Document LeEco Le2
-c2cec02793328f09dd80387d23d7a9562fd80f36 dt-bindings: arm: qcom: Document Xiaomi Redmi 9T
-d48e40f83e5e19183bef2ff7b2b2b8455619bef0 dt-bindings: arm: qcom: document the Ayaneo Pocket DS
-ea55bba4c68a49fcb527da6c71dd48879b705fd1 dt-bindings: vendor-prefixes: Add Retroid Pocket
-198d38cc6e6f40835b7191950e7c84f34bd08adf dt-bindings: arm: qcom: Add Retroid Pocket QCS8550 Devices
-4b78717a5bf295076eb1717ad1c53614d141d151 arm64: dts: qcom: Replace spaces indentation with tabs
-82f9b9a3472fb1dbc7881fc06e24807f9e2699e5 arm64: dts: qcom: qcm6490-fairphone-fp5: Add parent supply for regulators
-0d30774864138136e46e2f209515f7b332cd5c48 arm64: dts: qcom: sm6350: Add CAMSS node
-3fbf3b85bf861e1f4eb32312a1e3f22ffc8e6ca1 arm64: dts: qcom: agatti: Add memory-region for audio PD
-4368f1e36171a016cb8704e09815ade929e45708 dt-bindings: arm: qcom: Add Glymur QCB
-96da1df561b97f5ba09c60378c8030566dcbbcf7 dt-bindings: embedded-controller: Add Glymur QCB EC
-6d5e851353aa114cdeda4e4c6efcb87dc46bf047 dt-bindings: arm: qcom: Document Kalambo SoC and board
-0f14172198733b780f22d546516ccf8a7ed77733 dt-bindings: arm: qcom: Document Samsung Galaxy A52/A72
-48ae6ce490040f040708e03dd536abdf7e25883e arm64: dts: qcom: msm8939: Add venus node
-e8f3e34074cb9bbb29d6e042c60a05abe4d6412f arm64: dts: qcom: msm8939-longcheer-l9100: Enable venus node
-bb92958ea1012d8fdee55fa9254e420b8fb1b6f8 arm64: dts: qcom: msm8939-asus-z00t: add Venus
-852f2692b8ecb8ea48595ed24ade3b44cfc3f4ae ARM: dts: qcom: msm8960: add RPM clock controller and fix USB clocks
-f3da0adc48f09ea11d38781e062a47f22c31d8fd ARM: dts: qcom: msm8960: add SCM
-c55503516d8ac3957f2181de021ce97ec1b008f4 ARM: dts: qcom: msm8960: add SMEM & hwlock
-0abc6d0c187f390353559571aa7c57d0cb933b23 ARM: dts: qcom: msm8960: add SMSM & SPS
-6453789d4362f325cfe4f95afc34663e6966c4b6 ARM: dts: qcom: msm8960: add Riva
-54d08947a7eb9163938853bf00588ebcf64f6561 ARM: dts: qcom: msm8960: huashan: enable Wi-Fi and Bluetooth
-99f8d632f69ce29d5cd1326439f03d5a53373600 arm64: dts: qcom: milos: add CPU OPP table with DDR & L3 bandwidths
-7be419ca859f1625f589063814b365f59761c732 dt-bindings: arm: qcom: Add Advantech SOM-DB5830
-37f28aec2091c949a0e2ba76ad6b5eda34301e0a arm64: dts: qcom: hamoa: Add Advantech SOM-DB5830
-9b8dc188ffa62e053b0d0fc3ccca76cad62213b0 arm64: dts: qcom: shikra: Enable USB controllers on CQM, CQS, and EVKs
-a6ffb0b51502d9803e43db9b44791f992f39bc46 arm64: dts: qcom: Correct inconsistent indentation
-926c325da50588399a9ab08cc01b17600c1eb0c7 arm64: dts: qcom: monaco: Add compatible to the PCIe Root Port
-253afe26cdea0372755e5ba1c7a6f72ee730b50d arm64: dts: qcom: monaco-evk: Describe the PCIe M.2 Key E connector
-bda6d233a6ea408817fa5fb5727d11fa2349d9a5 arm64: dts: qcom: purwa-iot-evk: use on-board crystal for PS8830 retimers
-723ce02feb131a81224a281872028d584b69b0ca arm64: dts: qcom: hamoa-iot-evk: use on-board crystal for PS8830 retimers
-b33a372231750a87fc2d1e5c5cba228c0ad19db5 arm64: dts: qcom: hamoa-iot-evk: switch typec0 to PS8830 retimer
-9910a98c1341dfec409b4a1f7ce57ced7c143b5e arm64: dts: qcom: qcs6490-rb3gen2-industrial-mezzanine: Add PCIe wake GPIO
-511c4fea32708a065e03503c0e4d44f48990c530 arm64: dts: qcom: sdm845-xiaomi-beryllium: Extend the xbl_mem region
-38458f12419f456b16385c118bcacd76899d99b9 arm64: dts: qcom: sdm845-xiaomi-polaris: Extend the xbl_mem region
-abbd64633d146ee5e5468b7f159da1af2deab7cf arm64: dts: qcom: msm8996: Fix PCIe WAKE# GPIO polarity
-038962c94d64057eeb5896b0843feadb22e1c59e arm64: dts: qcom: sdm845: Fix PCIe WAKE# GPIO polarity
-ec43b2715f1f59e3f8b44b1bbf64eb8a9ee41727 arm64: dts: qcom: sc8180x: Fix PCIe WAKE# GPIO polarity
-ccf7f47dbe15d2c2bf57e7c443e9e485d2290c2d ARM: dts: qcom: sdx55: Fix PCIe WAKE# GPIO polarity
-463d931d6a66a0cd63511119a5c0ffdbbafd1772 arm64: dts: qcom: sm8150: Fix PCIe WAKE# GPIO polarity
-adf55ad00669f91bb22a1ca16c6cc983fe223668 arm64: dts: qcom: sm8250: Fix PCIe WAKE# GPIO polarity
-5f567203d2023e9cde835f9a68cb0b46edfc7dec arm64: dts: qcom: sm8350: Fix PCIe WAKE# GPIO polarity
-5ef7bf7c449976279935e55338e116665e4b5ae9 arm64: dts: qcom: sm8450: Fix PCIe WAKE# GPIO polarity
-237d776b74916f6b85f54e2ee1b83bbb0b3ec180 arm64: dts: qcom: sm8550: Fix PCIe WAKE# GPIO polarity
-6ade8b5856b6cd442145bcf81d067ff771b73b6d arm64: dts: qcom: sm8650: Fix PCIe WAKE# GPIO polarity
-eec036783b2e633302bcf277ae36742dfd3402fc arm64: dts: qcom: sm8750: Fix PCIe WAKE# GPIO polarity
-ab288a0e4f040ede3e0f4c3e5fc02f25cad0bded arm64: dts: qcom: kaanapali: Fix PCIe WAKE# GPIO polarity
-31110ffaa8ee76c57855ef17be6ed9cd87b70e70 arm64: dts: qcom: sar2130p: Fix PCIe WAKE# GPIO polarity
-04bc4263d8b7a604eb7aea02989b3448abe6cb79 arm64: dts: qcom: monaco: Fix PCIe WAKE# GPIO polarity
-cd8d4803bba672a4d03ce508fc9d2c459eb85c55 arm64: dts: qcom: lemans: Fix PCIe WAKE# GPIO polarity
-e622c5d6553b8a83af04115c87f006406baf2675 arm64: dts: qcom: talos: Fix PCIe WAKE# GPIO polarity
-450a0bfdb1b66da50ef98eefe1ff45b7be21e9a7 arm64: dts: qcom: sa8540p-ride: Fix PCIe WAKE# GPIO polarity
-b2b980536b5a4a5420175dfbef7f481408761b7b arm64: dts: qcom: kodiak: Fix PCIe WAKE# GPIO polarity
-e1e7e255a164cf5c4ab80bb136a4fbdfbb72df3d arm64: dts: qcom: qcs6490-vicharak-axon-mini: Move PCIe phy and GPIOs to root port node
-9f614fc7197e56797fd8cd9d0e5dc0045e2905c1 arm64: dts: qcom: msm8998: Move PCIe phy and GPIOs to root port node
-1c8f96f67858fba43eb7356be26ccf5d4a019d55 arm64: dts: qcom: qcs404: Move PCIe phy and GPIOs to root port node
-0384f5b00e222a53ccb5f2e6b1ce246c3b11512c arm64: dts: qcom: sar2130p: Move PCIe phy and GPIOs to root port node
-dea048d7c7ce0f6e659824af6c760f8c82850f49 arm64: dts: qcom: sc8180x: Move PCIe phy and GPIOs to root port node
-6b4a3c676e28a92697570e0cd7593ad73eb7840f arm64: dts: qcom: sdm845: Move PCIe phy and GPIOs to root port node
-9e753907e6ba0190d2ccae8ad3efb21d467b4628 arm64: dts: qcom: sm8150: Move PCIe phy and GPIOs to root port node
-69c776ac585d3124c68bd8e5c39a99cd7a90dcb3 arm64: dts: qcom: sm8250: Move PCIe phy and GPIOs to root port node
-23658da80a4f40e0c8adb7c1214f4e6d7f29c20d arm64: dts: qcom: sm8350: Move PCIe phy and GPIOs to root port node
-2fd4f062b950e6f46a5f44965c02c14c194a034e arm64: dts: qcom: sm8450: Move PCIe phy and GPIOs to root port node
-1518512ca05b3ad6c819026f09e932e99fba0ac6 arm64: dts: qcom: talos: Move PCIe phy and GPIOs to root port node
-c51818ded215b07e4fd6468cc28a1a4e7bd1231f arm64: dts: qcom: sm8650: Move PCIe phy and GPIOs to root port node
-acb0ce210eed553242dc35795bf70abede7f35d0 arm64: dts: qcom: msm8996: Move PCIe phy and GPIOs to root port node
-e3a8a50e2a0416305c580121c7346520a4bf462d arm64: dts: qcom: lemans: Move PCIe phy and GPIOs to root port node
-bbc442a64823f1483177b387ca5fc06c563b2e2f arm64: dts: qcom: sm8550: Move PCIe phy and GPIOs to root port node
-3719685788549ee7545e5b0b8fb954487c4b71ce arm64: dts: qcom: sdm670: add default uart pinctrl nodes
-ec67dd5c5eac15e08ff5a19dc4ec502dc01ee32e arm64: dts: qcom: sdm670: add debug uart soc node
-8adbd3b5ba2a610cc37a2c9daf009a2a3a3c1f8f arm64: dts: qcom: sdm670-google-common: enable debug uart
-8a8e78e4667264fa680b37c1b6ae6caa75bb735c arm64: dts: qcom: ipq9574: add reset to SDHC
-117d8d40be1ded4f35f3252efa83607a7134d5e0 arm64: dts: qcom: ipq9574: Wire up USB3 PHY PIPE clock to GCC
-475aab59d9870d250f521e202d191899c50a3ded arm64: dts: qcom: sm8150: Use SM8150_CX for the SDHC power domain
-37e8a61bf7214306889777edd8bd3df53b52d287 arm64: dts: qcom: glymur-asus-zenbook-a16: Remove RTC-through-EFIvars
-0529f2070f5cb68ef44a3e0d188b90d9f268b080 dt-bindings: clock: qcom: Add Maili camera clock controllers
-ddb07998b8e9b9b04013f787a4523f23efb6857e dt-bindings: interconnect: Add Qualcomm IPQ9650 support
-abc607b415739de6e2dcb3f073ccc60a13913b9c Merge branch '20260811-ipq9650_icc-v2-1-55b8efbd62c6@oss.qualcomm.com' into arm64-for-7.4
-5187d5790a7945362ca8133b937c0af8b770542e arm64: dts: qcom: ipq9650: add interconnect-cells to GCC node
-d6aeb78f093fabbacfa39e8c6c1fd1536145384f arm64: dts: qcom: ipq9650: add the PCIe support
-6ac7b21d2ef8a503c5d33a09ce59307565d1ce9d arm64: dts: qcom: ipq9650-rdp488: enable PCIe support
-83d1b5902238fbd97f9939b73abaa2695bfa7d8e Merge branch '20260922-maili_camcc-v4-1-87704b664dde@oss.qualcomm.com' into arm64-for-7.4
-d84010928d902c959243b90d64f9a1a7aba08920 dt-bindings: arm: qcom: add Lenovo ThinkPad T14s Gen 7 (Mahua)
-300f5c59beb257550ae3863aeeed2ba63871dae8 arm64: dts: qcom: Add Lenovo ThinkPad T14s Gen 7
-7086cc13810b9f68257c40cfd1abbb675ea381e9 arm64: dts: qcom: shikra-cqs/cqm: Add Type-C support on primary controller
-b62af30ebdb4ae4ec6230c5e39eea97f65b9f5ea arm64: dts: qcom: msm8953: Add Motorola One
-88e66b7b609ea27e1ceddd1bd2c581a4a29f0574 arm64: dts: qcom: msm8976: Add LeEco Le2
-76fbf547548ccd1a650c096836d8cf01f3ce3ce6 arm64: dts: qcom: sm6115: Add Xiaomi Redmi 9T
-da02352dd9294feb0c6c23ba37be80f01b4e8b81 arm64: dts: qcom: sm8550: add UART11 node
-b1d387319cdfc4d745553ce4e1f735e3a3b730c0 arm64: dts: qcom: qcs8550: add basic devicetree for Ayaneo Pocket DS gaming console
-5df998721b264a401f343ceeec78191d6f1cc96d arm64: dts: qcom: qcs8550-ayaneo-pocket-ds: add the lower DSI panel
-9b9ac54e7eec72fb1569cdf391ae087ef486fe97 arm64: dts: qcom: qcs8550: Add Retroid Pocket 6
-d4b2991e1d1985e0d502539a6c9ad670f209a885 arm64: dts: qcom: qcs8550: Add Retroid Pocket Nova
-b3e06ee996cd12e96a77000c181f01fc37cca9c8 arm64: dts: qcom: shikra: Update rpm-stats compatible to SoC specific
-fab66eeb06b3ca0ee1bcc0a04905b5de87749659 arm64: dts: qcom: Add Glymur QCB
-9339897ad7eded77adf834e032482f7609911448 arm64: dts: qcom: kaanapali: Add GCC CX power domain
-f5d35c78bcb6b96a4ad9b60e31657a9a389c8de5 arm64: dts: qcom: monaco: Add GCC CX power domain
-787e304c81502bdf6993270d746d482891b91f70 arm64: dts: qcom: sar2130p: Add GCC CX power domain
-56002ee061ac5a73fb280065369133bfde40396e arm64: dts: qcom: sdm670: Add GCC CX power domain
-dbd1f3e15714b470cd5801122d6a81e02fda92bb arm64: dts: qcom: sdx75: Add GCC CX power domain
-f1579fca044a69dae2e134b315d4ee10ca5ccdde arm64: dts: qcom: sm4450: Add GCC CX power domain
-b00fe15b094e8d50f24d43431de5486257b2b756 arm64: dts: qcom: sm6350: Add GCC CX power domain
-b1542c3e23012ffce3b5d7a5b6e87f0faf3a015a arm64: dts: qcom: sm8150: Add GCC CX power domain
-389a0144c511316cf21d5dc2aa30028de87f9d00 arm64: dts: qcom: sm8250: Add GCC CX power domain
-fb1adf2ef0574dd1f9d4481dbeb0d443300d779c arm64: dts: qcom: sm8350: Add GCC CX power domain
-f1586048fb1dabb91c82fbe11557e505587973d3 arm64: dts: qcom: sm8450: Add GCC CX power domain
-df50f5c5690a472d750a0e327ac4d05a4a9c8b79 arm64: dts: qcom: sm8550: Add GCC CX power domain
-108a8d51fba8432c5d5253dec1c565ffe7c1edbc arm64: dts: qcom: sm8650: Add GCC CX power domain
-ee35c132956f4797ed6be33c451decb94d1752af arm64: dts: qcom: sm8750: Add GCC CX power domain
-5ad7eb6a944eea8471f496442c9a3609a286437f arm64: dts: qcom: talos: Add GCC CX power domain
-7ee8eb0ebeef2e7bbf2ec8ebc43bf43f2a10a1d7 arm64: dts: qcom: shikra: fix sdhc interrupts property
-90ae3eb55ad64dc05ab7ad4a667c921d0504ccc4 arm64: dts: qcom: shikra: Remove cdsp compute-cb@9
-b88bb4c312be5a9680a94b15683ebbec955246dd arm64: dts: qcom: pm4125: Add VADC and temp alarm nodes
-78d661f880e632c288473668b757eb16107969af arm64: dts: qcom: pm8005: Add temp alarm node
-d6e6847f049d593425f0af29336c996f20c2706a arm64: dts: qcom: shikra-cqs/cqm: Add PMIC thermal support for Shikra CQ2390M SoM platform
-d053e38e614fb2e383b298ce8fc308a780d7f209 arm64: dts: qcom: shikra-cqs/cqm: Add PMIC thermal support for Shikra IQ2390S SoM platform
-2c8613ec65f47f745bcab346f7637817f47b157f dt-bindings: riscv: thead: add Milk-V Meles
-8360e1bcc246d4c44b7308ba5c7a25255de3ba55 riscv: dts: thead: add Milk-V Meles
-a7f2539005c43f94ea5a931f8ab534488b335880 riscv: dts: thead: enable AP6256 Wi-Fi on Milk-V Meles
-d43b33e0253cf9dea8d5f2502db2175f2fde779a riscv: dts: thead: enable HDMI on Milk-V Meles
-2414ca8f5a0cafdfdb2b5899fd173adc09b5adf1 MAINTAINERS: Move RISC-V T-Head SoC tree to kernel.org
-789eed2d8bfa83d79e24d185f736b038a121b3ce riscv: dts: spacemit: set console baud rate on OrangePi RV2
-a87ca1e5b5d28dee5af42f59f3c6f833c5ad1da0 riscv: dts: spacemit: k3: move USB3 phy to board level
-2b9612eceb96fb23bb81b044ce13f3bf5bab954f riscv: dts: spacemit: k3: add USB3 B and C controllers for Pico-ITX board
-ea5cef6d5f3b734c427ed44794550e1b13be926c riscv: dts: spacemit: k3: add rfkill node for Bluetooth on Pico-ITX board
-2f3b7240a4c27745ec327f3f1a2f28d897e6aab6 riscv: dts: spacemit: k3: add rfkill node for WLAN on the K3 Pico-ITX board
-f314c98807c12272a1902aeda9c648d81b39bad2 riscv: dts: spacemit: k3-com260: keep dldo4 enabled
-bd56cb9b84f74ef472c71285fee9e28ee414b10a riscv: dts: spacemit: k3-com260-ifx: Add USB nodes
-dad085951db1098a0294da7d78aca1594b0f33f7 riscv: dts: spacemit: k3-com260-ifx: Add rfkill nodes
-73329198cdc273008bd273b0c5ad4c65251cb49e dt-bindings: timer: thead,c900-aclint-mtimer: Add SpacemiT K3
-c9bae665035f345ca050e98d6f4d6830c3d74f84 dt-bindings: interrupt-controller: thead,c900-aclint-mswi: Add SpacemiT K3
-08257b5b3d38b3e19b61b807850f5a637fd1421b dt-bindings: interrupt-controller: thead,c900-aclint-sswi: Add SpacemiT K3
-5397ba147c28427d3728812dec999fdab0f53619 dt-bindings: timer: sifive,clint: Remove spacemit,k3-clint
-b424b3b0ab920a25c23fbd7d226a0174b38d0de7 irqchip/aclint-sswi: Add support for SpacemiT K3
-cc6371a7f5195387584e56054f3af671ff7354dc riscv: dts: spacemit: k3: Replace incorrect CLINT node with ACLINT nodes
-2186ec5f59c23fcf0bf896ca0543b6a1135d7bb5 riscv: dts: starfive: Correct pwm nodes
-daa0db717771d43c25d98c2798fa6a7b0252deb7 arm64: dts: rockchip: Rename rk3328 HDMI audio card
-946482033221ce5055721997888739cd57e3e5b2 arm64: dts: rockchip: Rename rk3399 HDMI audio card
-8043ed0f40fe2b49df1c2c25409ab6bd3f88e806 arm64: dts: rockchip: Rename rk3566 and rk3568 HDMI audio cards
-d3d3b67505fa5f10af587a6fc8e6d4640010d52e arm64: dts: rockchip: Rename rk3576 HDMI audio card
-d1b7c3228041f4b3ad888abe6a31f6494279e979 arm64: dts: rockchip: Rename rk3588 HDMI audio cards
-30fcc62cf5d27fe264145bb743407af62f8ff240 arm64: dts: rockchip: fix missing sdmmc cd pinctrl on rk3588s-nanopi-r6
-1d974afb0ea4e1ffc03535a2b2ae5a84d35738d7 arm64: dts: rockchip: fix missing pcie rst pinctrl on rk3588s-nanopi-r6
-2d4c429e561b21c07f95ed41481a5d1062659c9e arm64: dts: rockchip: remove pull up on rtc int pin on rk3588s-nanopi-r6
-3ac1a8d422126ea08f6ce32c0a05e181e08d9299 arm64: dts: rockchip: add pcie2x1l2 clkreq on rk3588s-nanopi-r6
-92507cbe7581c519da115128a2ce6930dd9dd6fb arm64: dts: rockchip: remove always-on and boot-on from vdd_npu_s0 reg on rk3588s-nanopi-r6
-1faf8018879fc0e4a76958f2122f6ab7aac5957a arm64: dts: rockchip: remove useless vcc_3v3_pcie20 from rk3588s-nanopi-r6
-e7fd313ef4e5907a0bd769101de48ae354b7fcca arm64: dts: rockchip: add gmac1 phy-supply to rk3588s-nanopi-r6
-9518c669aa24574445e874c89313a133c276513b arm64: dts: rockchip: remove bogus vcc5v0_usb regulator from rk3588s-nanopi-r6
-92b4f18f9a07786f9146788ca5e18cb9469bd1cf arm64: dts: rockchip: add comment about gmac phy-mode to rk3588s-nanopi-r6
-c08257d642ac9d821710852f514577d331a13390 arm64: dts: rockchip: refactor rk3588s-nanopi-r6 to support M6 boards
-bd3edfb61ee0b68dc95aa7ddd53cef65b5bdb3f7 dt-bindings: arm: rockchip: add FriendlyElec NanoPi M6
-2640aea473b463e260ba2f52833e7c1fc2074246 arm64: dts: rockchip: add support for NanoPi M6 board
-23eab1a5e36099fd1269f8a18dc389e04dc19011 arm64: dts: rockchip: fix analog headphone output on rk3399-firefly
-9416a641cfe5b75dd9178c15960ee741c1091b45 arm64: dts: rockchip: disable unused i2s0 on rk3399-firefly
-86936f4c25cdb2d138a09dbcbbdd587c3d73cc1f arm64: dts: rockchip: enable HDMI audio on rk3399-firefly
-3789de522b6902dba9285d69fb22bf2700e9ca4e dt-bindings: arm: rockchip: add RK3588 DP carrier from Theobroma Systems
-24ce4253f5f6e65e9faa3f63712cf0aa82d52349 arm64: dts: rockchip: add RK3588 DP carrier from Theobroma Systems
-bda971ceb9aa263512b46a785abc9218d3e08d17 arm64: dts: rockchip: Enable the NPU on ODROID-M2
-e95e4fcdc4541e999888f297174e8f6f5f5f899a arm64: dts: rockchip: Use GPIO function for PCIe reset on Orange Pi 5 Pro
-1e0a0365c73177d55365cdde3a1a179b4897a77b arm64: dts: rockchip: Add buttons to Kobol Helios64
-21792937b01b9c36c9a1c4d039f3e1883856157c dt-bindings: soc: rockchip: add rk3576 csidphy grf syscon
-e68360ded44be19051df2cb7e121ba7afd52035e arm64: dts: rockchip: add csi dphy nodes to rk3576
-5a610d237f689cde0a37a8fb3fb7c5a47fef0f84 arm64: dts: rockchip: add mipi csi-2 receiver nodes to rk3576
-c9f69938f459e80471759008ce7504a637e801f6 arm64: dts: rockchip: add vicap node to rk3576
-eea8ce042825cea71009cffc13bf564afaf7dbe4 arm64: dts: rockchip: add radxa camera 4k on rock 4d
-d05c6236496071916e19012cda7149465f15e66e riscv: dts: spacemit: set ETH MAC from eeprom for OrangePi
-d5eefaf546eb83f98206137a5784b6b8510e4fe5 Merge branch 'spacemit-misc-for-next' into spacemit-for-next
-0fe449e8ff7b383a8375e85ebca40133a02f3348 riscv: dts: sophgo: Enable SPI NOR on SRD3-10
-a3a8c25c59f8024eb70a460767ff0d7bcb213338 riscv: dts: sophgo: Limit SG2042 SPI NOR to 12.5 MHz
-627e4e43e555ba252f93784eafff74ed82234c63 riscv: dts: sophgo: add Milk-V Duo 256M ethernet support overlay
-673f8e66d5edf424eaf599c8051e0f6962605861 riscv: dts: sophgo: cv180x: Fix internal ephy node name
-6645398c46219e97fd153ae6188ae86c493d2d6a riscv: dts: sophgo: cv1800b-milkv-duo: drop reserved memory node
-60e4cafd30908e7d8cdfdb4fa1a74dabed9f47b5 riscv: dts: sophgo: sg2002-milkv-duo256m: drop reserved memory node
-682baba589548b8f8df05e0a330b2ad2b8ada3e3 arm64: dts: rockchip: fix adc button voltage on Radxa E52C
-34e9692a96b4373b2df99a7acb83b60b1076d661 arm64: dts: rockchip: enable NPU on Radxa E52C
-fc411363b8231315e5260662bac5223636321983 arm64: dts: rockchip: Add the fan tachometers to Kobol Helios64
-5f48abc96182700a006b25b9bfbf80c19455760a arm64: dts: rockchip: add pcie30phy data-lanes on rk3588 coolpi-cm5-evb
-9997707b967a129edf8fa336568a93dec1325d7d arm64: dts: rockchip: fix M.2 E-key reset pinctrl on rk3588 rock-5-itx
-99feb764fa6c3b260e03903f5d30e15428fedc08 arm64: dts: rockchip: remove FRL GPIO for 100ASK DshanPi A1
-49b9e84fcd80bcc16f78ad8386b83f76f61f3a4d dt-bindings: arm: rockchip: Add Radxa E54C
-ae965b9856f033145e292b0c29082a26bcc45efd arm64: dts: rockchip: Add Radxa E54C
-82b40b6bfec8f4bf3c9e7b9b43d6087e0720b248 Merge tag 'v7.4-rockchip-dts64-3' of https://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into soc/dt
-e3e57716f242861c65fc115bccb73b8d4735c0ee Merge tag 'zynqmp-dt-for-7.4' of https://github.com/Xilinx/linux-xlnx into soc/dt
-e75d731806607a31bac33c7cf98a94c0a924b5ea Merge tag 'qcom-arm32-for-7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into soc/dt
-5728b672ffa613d11c3c003fd7270d52e250a5f9 Merge tag 'qcom-arm64-for-7.4-2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into soc/dt
-c4ee37d50d683deded2ca31cd3225da11b63e280 Merge tag 'thead-dt-for-v7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/fustini/linux into soc/dt
-62c27ed02e298b236d42443e76437da9d181c8ad Merge tag 'spacemit-dt-for-7.4-1' of https://git.kernel.org/pub/scm/linux/kernel/git/spacemit/linux into soc/dt
-5d299ec9395e2458fb6d6f4b643340a7ad4ceb5e Merge tag 'riscv-sophgo-dt-for-v7.4' of https://github.com/sophgo/linux into soc/dt
-928fdc6ff69b4205aef17a3f9823a2207395dd10 Merge tag 'riscv-dt-for-v7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into soc/dt
-07dbfd47e6599e4a97097fe2573d3304f95721fb Merge branch 'soc/dt' into soc/for-next
+5e29348e69d2510fd5e4d0e6700c4aa70cf4e449 mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
+d3f64655df64aa6a74eb13795594c0bae7908fd5 mm/vmalloc: use dedicated unbound workqueues for vmap drain
+cc6175230031ff4906770cf59af6c68ed407184d mm/vmalloc: avoid false sharing with drain_vmap_work
+5bbc58ebaff63e0050cd4959c7f1ffc81ea6f8e4 xarray: fix index jumping backwards in xas_find()
+9b621f000db44c935cf022de3483b68baa11a95c assoc_array: discard shortcut when collapsing a leaf-only node
+0519458b16ad5894ac416b034f1e1354df35c321 userfaultfd: clear the inherited uffd bit in move_swap_pte()
+bace19483cc671751c71df54559d989c2a53604c mm/khugepaged: flush deferred unmaps before dropping a failed folio
+6c026e0021fbe16796e324bfb70063b7ec872c86 lib/base64: silence clang-24 -Wconstant-conversion with diag pragmas
+b30a812e68feabf495eb1cf7480979d486b864dd mm: memory: fix truncation removing mapped folios
+9f50d0c6ba6b6bd0780334040e13fbeca239cafc mm: fix address wraparound when scanning large folio PTEs
+98e1e82b18d1b6e01aeb5ed3d0bf57e7e001c3b5 mm/vma: don't leak the commit charge on mmap failure
+de5a435b49d5e15cc85a7249da5b88a08f57bd6f mm/hugetlb: fix use-after-free of a new anon folio
+93b028222339f22030788442cdf907c0c5bd4f58 mm/hugetlb: fix use-after-free in hugetlb_mfill_atomic_pte()
+39c3690ec84855c872772be4369f2a86d8b5e6ab mm/hugetlb: unmap the page where the other VMA maps it
+792207465062d3215ecd44b32f4aa0d91cbf2c20 mm/hugetlb: don't clear the resv_map of a VMA whose lock is held
+8e123639a0d1400d5e40939c3532134ce9700409 mm/hugetlb: fix endless write fault on a leftover uffd bit
+060aa672b996b759dd6ba880fd2b5b7cebba3f2e mm/hugetlb: tolerate uffd bits set without uffd for PROT_NONE PTEs
+d29769bda4c8117649adc320132554b0dfbe8618 mm/hugetlb: tolerate UFFD_WP markers outside uffd-wp VMAs
+ee500dee4764f2220fdcf5d5fe9450448908ff15 mm/hugetlb: don't leave a uffd-wp marker when zapping an RWP entry
+d494e8ab017b2d9de5263e10b63d2d884baa5c81 mm/mremap: fix calling fixup_hugetlb_reservations() on the wrong VMA
+720c30fd974f6dd6bacf28823464e5826868d9ff iov_iter: validate extracted segment for bvec alignment
+057f7a09458ded6e32cec83c3aa97954f281b29d foo
+4c2e7864690212ce8ea8d9e7be1b3c87e52aa98c mm/hugetlb: account migration target folio in per-node NR_HUGETLB vmstat
+b7db9ad899df6880f9df18776a8e12ec4c784fb6 mm/memcg: migrate per-node hugetlb lruvec stat together with hugetlb folio
+e84d1501753099afdb194b4daf86dda636a75be7 kselftest: mm: return fail when child test result is fail in khugepaged
+a9bd1bc3d25a19ba4def74ebcba0922416eaa768 kselftest: mm: fix intermittent failure khugepaged test
+a015968d6edb5bcac006681a8f1dd897b23e6481 memcg: keep swap charging under RCU protection
+980cb8ea2e8fadb63ca8acb2ddad0ae2be5e4ac1 memcg: base swap charge accounting on memcgid root status
+a7d6feb0f78114a9caf3600b85f178da4f5c4f54 memcg: manipulate memcg private ID references by ID
+769e19d4bdb730de524295255dfac26788653ca3 memcg: move memcg private ID refcount to objcg
+ad5b70812c34ce9b711f2d978e083fc826120b48 mm: fix typos in various comments
+428189ca0364b15633f2010516d6ba5ed5841cae mm/hugetlb: fix overbroad MMU notifiers for unshared PMDs
+dacdb265ea731ba06602d2233b21892a0e6d69a6 selftests/mm: fix mlock2 errno handling and false PASS on ENOSYS
+4d3468ca3855ca7833d81b8b089151e77f06bdbc kselftest: mm: prevent random failure of huge page split for khugepaged
+c49eaea80983770b2496e4525eb2097e11da717f kselftest: mm: replace usage of /proc/self/smaps for __check_pmd_huge()
+012ae5db6fec165b0118a841f4dce4b685672794 kselftest: mm: integrate huge page checks
+ea00c5b1096d8d2254857ecfa61dee5be5dee56c kselftest: mm: remove check_huge_shmem()
+7838c868fa5ba8f5692a53eeeefe37106866cd4b mm: remove the unused zone->unaccepted_cleanup
+6822007f848447c9d00eb02b3f3ad313b4480503 arm64/mm: move __check_safe_pte_update()
+76590279c819727b1d10bfdb5ce0a195f603b7a6 arm64-mm-move-__check_safe_pte_update-fix
+8e25f4f33dd74121cbe8336259e68fefd9f8bcc8 arm64/mm: standardize printing for pgtable entries
+303b73d12c24364ed0cf7b260c7a8a11f9933392 arch, mm: promote DEBUG_WX to CHECK_WX
+04b385696d0de51ce8895dad203ea005b9a3c344 mm/vmalloc: do not warn on -ENOMEM from va_clip() in pcpu_get_vm_areas()
+fee41d6eea6741d642d5b78c1423cc5c44dcd51b mm/truncate: align truncation boundaries to mapping minimum folio order
+ebc6842873a2f8fa480502825f911a70647e945e mm/truncate: look up the end-edge straddler by index
+5e3c0502cf1d7361c0513ab904a94feb3bae4542 mm/truncate: fix data loss when splitting straddling large folios fails
+721037678dd8b1e92681ce3876d1835e30d91cb4 mm/truncate: clarify return value of truncate_inode_partial_folio()
+2c7033a846a749c0b07b98f64ccc14d39fe9ee72 mm/damon/core: preserve the quota passed to damon_new_scheme()
+a66d3aefd57fa76d5e9e279bd700fe3003676eab mm/damon/tests/core-kunit: test preservation of quota state
+d59684f02b4e07bfd2a31f54de9626522940e587 mm/damon/core: prevent size quota overflow in the temporal goal tuner
+7217362274d4bec9ccfd203bb177726aee09af10 mm/damon/tests/core-kunit: test the temporal tuner's size quota conversion
+dfe1ceb15aa06621be546650cc9f056ceca04e85 mm/damon/api: remove unused NR_DAMOS_* enumerators
+679a577e5d1d52f198fa803940ab472484439577 mm/damon/core: reduce stack usage further
+fb6aa3a8b1fa72adba544c6d6bdc663a74f7d8fb mm/damon/tests/core-kunit: test PSI goal values with explicit samples
+4205e8eb1481379028ad29c2066d3ec40974e96c mm/vmalloc: fix vmalloc_dump_obj address alignment for last-page lookups
+b36d262b55492dfea533defafde3d2cbef355424 mm/vmalloc: fix vmalloc_dump_obj cross-zone VA lookup
+942ba3efef829224f18f650ef8483a7cb6aa82b2 gpu: ipu-v3: don't use GFP_DMA when calling dma_alloc_coherent()
+e7559ef6e89a0bdba8080c4f254a11a12edfd872 drm/sti: don't use GFP_DMA when calling dma_alloc_wc()
+e34d1fce850bffa3b459aa664b232bfd76cdb28d spi: spi-ti-qspi: don't use GFP_DMA when calling dma_alloc_coherent()
+06967d088fdb7e4ee7c90e58c0830ef6b10d7ffe fbdev: fsl-diu-fb: don't use GFP_DMA when calling dmam_alloc_coherent()
+52dbd3fa5f5aed91658d09f34ca9ba1c1f2cc9aa usb: gadget: lpc32xx_udc: don't use GFP_DMA when calling dma_alloc_coherent()
+e1263cad51fc51c4647e8a10b7b88995bfe845f4 usb: cdns3: don't use GFP_DMA when calling dma_alloc_coherent()
+baad358b5e2086b5197606d185301a4a2c907a62 media: staging: imx: don't use GFP_DMA when calling dma_alloc_coherent()
+c8833c1a6f5dcfa583838198e09f73ced5dcec37 spi: atmel: don't use GFP_DMA when calling dma_alloc_coherent()
+8946d21a6372d57a7ead05fd7a9f073d7d653eee media: imx7-media-csi: don't use GFP_DMA when calling dma_alloc_coherent()
+74caaf3d80459f428fe6690cfdab5308cbbbc74f media: nxp: imx8-isi: don't use GFP_DMA when calling dma_alloc_coherent()
+63a16e879ae41d60dae682439c4d444f71324e85 mtd: rawnand: gpmi: don't use GFP_DMA when calling dma_alloc_coherent()
+4b0ec12b2b3ed537feaa3a29eb5a4b1b42eccf48 usb: cdns2: don't use GFP_DMA when calling dma_alloc_coherent()
+e0c61f7dd46f67bb6e5861b6497a4529ddb322da mm/damon/core: introduce damos_quota_goal->complement
+b6ffca40390c20211c4ae27f9382dc34d3e37083 mm-damon-core-introduce-damos_quota_goal-complement-fix
+6527fafc4cfd77b35614c98543ce7a3236e08e32 mm/damon/core: add complement argument to damos_new_quota_goal()
+63c4a798f9e76a4d155c63a835131615ddaff6c0 mm/damon/sysfs-schemes: support quota goal complement flag
+e693fab0887b8208e26e53e51229f4362ca138ee mm/damon/tests/core-kunit: test quota_goal->complement commit
+43ddd0220819dc294857b5624ddc47fefbaebe91 selftests/damon/sysfs.sh: test quota goal complement flag file
+5900e02acfd1db9389b5b562a8490b41422480af Docs/mm/damon/design: document damos quota goal complement flag
+66c7bf360c9b3e5ddd0707d6f1219580a1a1d0bb Docs/admin-guide/mm/damon/usage: update for quota goal complement file
+0c8a34a58decb058515307cc69dd8e596f99014b Docs/ABI/damon: update for quota goal metric complement sysfs file
+c7f7955528fe536a954ec0297f623ca683226ef8 zram: fix short reads from block_state
+26f5b0e7716dc823d03965910c141c74d5140e05 sh: remove CONFIG_NUMA and related configuration options
+693c20fe479d88c06b525f066dee68a430389302 sh: mm: remove numa.c
+4a6564cd0c6faf9d2fe2e61dceeac32bb0310874 sh: mm: drop allocate_pgdat()
+b3977a7020851d6060eeea2d77ab8e4ab4a6a86d sh: remove setup_bootmem_node() and plat_mem_setup()
+052934d54b8da13733ba13e6656933788d55077f sh: drop dead code guarded by #ifdef CONFIG_NUMA
+6d5f7bd71cd154df16e3b37ce09bdc94a820aa54 sh: drop include/asm/mmzone.h
+a2586af215b235c6710e2a07bfd1ed773175ce49 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
+215be148227124dc758ca8f385ddb8628630180c sh: init: remove call the memblock_set_node()
+0f9c5467907cf81d1e8849b92a908936f55c2d46 sh: remove SPARSEMEM related entries from Kconfig
+a7b702365c2ff4853a1819986410c272aa0df196 sh: drop include/asm/sparsemem.h
+7af91ab1361c4d8affdb470d765302065ac9affb mm/sparse: move mem_section init to sparse_extreme_init()
+b5aa9eb2854f2bb591a9905e3f7a906c6f4a0dd1 mm/sparse: refactor sparse_sections_init()
+ba51413699d25235061582486a84df0e5b9de256 mm/sparse: move initialization of section metadata to sparse_metadata_init()
+84332d5f0a90810c207ce89319a4d7091c326a02 mm/sparse: rename and cleanup sparse_init_nid()
+a16e1e51304c92c04bbe8fd1aff41120590e78fe mm/sparse: cleanup sparse_init_one_section()
+c34ce6d82b74fa04f0249de30e340a7fc960c4e2 mm/sparse: rename __highest_present_section_nr to __highest_used_section_nr
+e2fc8f82f8029107e94f50be58c5bf1eb258bade mm/sparse: remove pfn_in_present_section()
+3581c443a6ce76fbfed056b4b46393ae2aa6fc19 mm/sparse: move __highest_used_section_nr handling
+96a75dacf638e5a244207abf3b08c9c536295ed0 scripts/gdb: mm.py: remove fallbacks for SECTION_HAS_MEM_MAP and SECTION_IS_EARLY
+b78c6d9e5f07a8503ab4a71ae569f86989dbec63 mm/sparse: remove SECTION_MARKED_PRESENT
+533c01511c1919a0522264b327615f3e4f900ae3 mm/sparse: remove flags parameter from sparse_init_one_section()
+bc047cfbe52fb006b2f7dd471ceb7f306889a244 fs/proc/page: clarify comment in get_max_dump_pfn()
+f0c40bbdff4747dfbbb920e566348cb187a9c700 mm/memory_hotplug: drop CONFIG_HAVE_ARCH_PFN_VALID handling from pfn_to_online_page()
+f70fc712b4e0b4a252f7d2de551a812a796cba66 vmcoreinfo: export SECTION_HAS_MEM_MAP
+942ae0da25f84f51b22149d483e3ca09ce3fd702 mm: disallow ioremap'ing ordinary RAM in generic_access_phys()
+ea95e3d3997258272428b4b14bf8fe9540727279 mm/vma: fix mmap_prepare file handling, remove file_doesnt_need_get
+749f0012b71224a7c9d7c0e3a648390158f4b2d1 mm/vma: introduce and use vma_[flags_]can_merge()
+ad564f5a149637d3199533f166613e3fe7d80240 mm: consistently validate VMA state after mmap[_prepare] hooks
+35a525b849bce7ace3d0b76d60732b00cfcff43e mm/vma: ensure mmap_prepare doesn't set actions on a mergeable vma
+71cd3abb0eb69711ca69f657ed7f1f5390fde597 mm: make map_kernel_pages_[prepare,complete] internal and unexported
+e9f396a915878fd6dc4cce8f88290f2d4169ea22 mm/vma: tidy up map kernel pages enum values
+8aa9c5e73ed50d67d2e3653f396e6f478f3115b2 mm: assert mmap lock held, use new flags API in vm_insert_page[s]
+4e1c7285117dfdebecc20dec7b9f9ba09c4042c4 mm: add mmap action for discontiguous kernel page mapping
+ab38c9cf8828e8343c1da23227bbfd01a118ccb3 docs: filesystems: update mmap_prepare docs for discontig kernel pgs
+8ade21d7a0fc1680b3b36d48af6c71e772f13289 drivers/usb/mon: update to use mmap_prepare + map kernel pages
+ed6bc2ce5635e49c815987769320483a1d97b779 infiniband: update hfi1 to use remap_vmalloc_range()
+c516ea470dee8cb1863626c490f6c136c45db99e selinux: reject writable opens of policy file, drop mmap shared/write check
+e49902d4c8e7db42a5f2ad22cac19dbda32dd61c ALSA: pcm: use vm_insert_page() to map PCM status page
+bf4876ffa8b4f2c05d345acb478fac278978c220 bpf: arena: mark arena_map_mmap() mappings VM_MIXEDMAP
+09fad88042f4856e9b1a11f75956d4fe368e6ec3 mm/vma: add vma[_flags]_is_mm_managed() predicates
+34eb60706e764eec0a89f61f732d418724317c9c mm/vma: only allow mmap to clear VMA_MAYWRITE_BIT if not mm-managed
+794bc93c95599defe0c62caa05cb73ed6a06281f mm/vma: add and use vma_[flags]_is_fixed_mapping
+7e310ec9c6d4f4bbd030c4cb5e86f9616da11a69 scsi: sg: convert mmap hook to mmap_prepare and rework
+2c8db66d6865ee2c01557907d19e6a0857db79a8 fbdev: defio: assert FBINFO_VIRTFB, drop VM_IO, add VM_MIXEDMAP
+bf8623e7ec4e4cfee3a38dee4f8f9e27e51c7061 HSI: cmt_speech: convert mmap hook to mmap_prepare, refactor
+db8b5ede96ce3db5092b02b99678a09795c3e0c5 mm/gup: error out early on !VMA_MAYREAD_BIT VMAs
+6581de6be9dceb8407d4c560a01a7a4223f5e586 uprobes: remove VM_IO, set VM_MIXEDMAP for mapped kernel pages
+d643deecdad19f6407494f3aeedc762accef73ac mm/mlock: clear VMA_LOCKED_MASK over mmap callback
+508281ecb52b59b537af542e2c8e27b63c9458ea mm/mlock: eliminate weird VMA_IO_BIT abuse and simplify
+0fa21230e2b5d79b6205875b33d83d98e05698b6 mm/vma: enforce that mm-managed mappings may not set VMA_IO_BIT
+d3099967f0897d1880da917348394a8234df4063 mm: remove VMA_IO_BIT check in vma[_flags]_is_mm_managed()
+0c84d556641b55dac487b38bd565db374c81b0ab mm: remove hugetlb_inline.h
+ed7ed7a6ec6d7debed13a9c0dee26480aa214442 mm: rename is_vm_hugetlb_page() to vma_is_hugetlb()
+c821b2c4f92e52a8c3ff431688283a24663c46f4 mm: drop some redundant checks around hugetlb VMAs
+5cb7fb8fed637e869b84dd62662d2d8977665585 mm/vma: introduce vma[_flags]_is_mm_backed()
+ef925352eceb171b0496f01bc6a380473b1905e7 mm/madvise: update is_valid_guard_vma() to use vma_is_mm_backed()
+e1d6e47bca91a83d6aa62ddcdb2a287ff1d716b2 mm/uffd: use predicates for userfaultfd checks
+63a1fe5f2a2eea81e66643c332bf2c1b878dd57d mm/madvise: use predicates for madvise(..., MADV_DOFORK)
+614081da1c0e2132be105067f7bc808fa30424a8 mm: eliminate VMA_SPECIAL_FLAGS usage when hugetlb explicitly tested
+0448920ac72873ba12037b5ccdf28867762b865a mm: eliminate VMA_SPECIAL_FLAGS check in lru_gen_look_around()
+b6597fb309374663f47733697e896ef2721af3e1 mm: avoid use of VMA_SPECIAL_FLAGS in migrate_vma_setup()
+09b265a99126e7eb35332b3b4b7dcee140e4fad9 mm: eliminate VM_SPECIAL, VMA_SPECIAL_FLAGS
+bd427d3aafff135b5a535be6492f8321dc56bf5a fuse: dax: do not set VM_MIXEDMAP
+fc915ea0bc35b87760b5c384cdf9f09fbe92965d mm/huge_memory: remove vma_is_special_huge()
+c5506a980b823f10d6947fa21a5dfd86573bf45d hugetlbfs: fix stale comment in hugetlbfs_file_mmap()
+f4fcb9d52e492f459a2369e69fed6e4833bc3dfc mm/vma: const-ify vma_assert_stabilised() and associated functions
+3253900866f2291e628f7058ff9888914cff292e mm: implement and use vma_has_anon_rmap(), silence KCSAN
+b1c7c0b3971a2f91e0bbb96b73866eec5f4101a7 mm: update comments to refer to anon rmap rather than anon_vma
+b41cd8eef2cb925b8d389cc75eeac5c0faf56fbb mm/vma: don't remove VMA from rmap if pgoff unchanged
+595842f32ca9283f903813e9d08480d76a30200d mm/sparse-vmemmap: drop VMEMMAP_POPULATE_DAX
+0b6f687fc35721093770bf7d711f0e6949444221 mm/sparse-vmemmap: support device DAX in common vmemmap path
+1af99e9e5a1e3429a1dbe02b3d73fd0009be841a mm/sparse-vmemmap: drop Device DAX-specific population path
+9038daf6b782147714d3c34c74b56a3e90c03ab7 mm/sparse-vmemmap: remove the unused ptpfn argument
+62cb0a9ee245d0a6478b6a120192b1b40ce05b41 mm/sparse-vmemmap: open-code vmemmap_populate_address()
+1feb4235c707090c479b8d8bbb9e3129151d8c14 mm/mm_init: add zone mismatch warning during page init
+5570d4ace60c8c70204d9ba17c9ff3bdde07a556 fixup! mm/mm_init: add zone mismatch warning during page init
+12ac1732535da0485d232d8d5f424ad9e5adf795 tools/cgroup: sum shrinker object counts across NUMA nodes
+650b2be79ed590bc707072044386c2022eedc913 mm: make swapoff interruptible when unusing mms/shmem
+c205a62a77053068bdb5360d3170495ae6b4f826 mm/swap: submit the last readahead batch before unplugging
+081dbdde1384d7f00345571b9cd2ff6a09ba6eb4 mm/page_alloc: avoid direct reclaim and compaction for costly __GFP_NORETRY allocations
+97080252122d051e5b75f1f711b7a0c3b283a3e9 MAINTAINERS: cover all hugetlb headers under HUGETLB SUBSYSTEM
+da7dc6d62a58daa02ef4ca9ee69e3357fcbc5ccc mm/hugetlb_cgroup: add trailing #endif comment for include guard
+31d7d6db43f5bdd6428493e4d0e67a56169cb040 selftests/mm: mrelease_test: fix retry limit
+02d031cbb43a0c94e5f02bb59688a4732e96fff0 mm: kmsan: fix iounmap metadata teardown
+c440df71631cbf9b952dcdc749aef1e5dbd295cc mm: kmsan: fix ioremap error cleanup
+31cacdeb4ce2664f5e7060ad1dca22372143d56f mm/vmalloc: bail out early on invalid page_shift in __vmap_pages_range_noflush()
+19c6004742b67050cc97185c2018844b24fa0396 docs: hugetlbpage.rst: fix typo in per-node attribute description
+b8087df966c385657ca32a2e0d7928de141f4bf8 selftests/mm: hugetlb-read-hwpoison: add setup of HugeTLB pages
+45bb1a915a23f64d16fa44d4192882be5bdfc2dd selftests/mm: hugetlb_madv_vs_map: fix TAP plan mismatches
+d3697293b72a5ae44d16fa555c704b617068f474 mm/hugetlb: use kvmalloc_objs for hugetlb_fault_mutex_table
+a2b2f5aa137aad9de4c26599df0a8aed13194cab selftests: run tests on nommu architecture
+7e32e1a38e12520d3d2d7ea86592ba33d4924a47 selftests/nommu: add nommu mmap and mremap behavior tests
+d2609d2e84b2f4b8b2d8d46437a269077550d1ea mm/damon/ops-common: fix age_in_sec overflow on 32-bit
+d2be2c748ee86de4d876cb7fda43dac304cbe20c mm/damon: use damon_get_monitor_folio() for hugetlb entries
+bfb60766a3063eb7f9f57e0a8ef0feafcf8f2bb9 mm/damon/tests/core-kunit: add test for unconditionally skipping the last region
+fad97f1c448cce32774fea0db1d888e4c7f04b46 mm/memfd: fix hugetlb reservation accounting in error paths
+3371863548500cc25cff8861feaceef1c212199b mm/swap, PM: hibernate: atomically replace hibernation pin
+dacde678dd6e5188be037f3476e81aafbf96f276 mm: fix missing page-table destructor in pagetable_free()
+7d17885155069a6e456f5498ea1b35ac26449c8b arm64/mm: fix destructor for unconstructed hotplug page tables
+01312e92f46d8601da57bdb16a334b50971f6b0b mm/hugetlb: prefix log messages via pr_fmt
+5a6e978d4a87b759c0fa03df37570fb56f0944fe mm/madvise: add cond_resched() in THP branch of madvise_cold_or_pageout_pte_range()
+69a9158ce1fd88a13704c66ac7120b4427eb7473 mm/rmap: don't discard lazyfree THPs at PMD level
+619f64238b108432994f43a6755e5dded0ba4d71 selftests/mm: check MREMAP_DONTUNMAP mlock accounting
+43034b348279bd984355df96faf32dfa2eecdc65 mm: zswap: use separate compression and decompression requests
+923056ae92c69a6c5891765e725097875d99ba1f mm: zswap: use stack requests for synchronous decompression
+8760bb0917945e6e5cb889509cdc4b5b035ac898 mm/hugetlb: move hugetlb_sysfs_initialized into hugetlb_register_all_nodes()
+210f4f618111e93ed50e3b42b7a031f9bf56284d selftests/mm: fix uffd move-pmd test crash on 64K base page systems
+96c6f831dc4b844f8554fa21726efb3b33eda015 fs/proc/task_mmu: fix lost maps entries above 2^63
+f4753928a04f4dccb127f4547f2fa89573e72016 mm: page_alloc: make defrag_mode retries follow the promoted order
+c6307cfd99989e3b861026cb1e23e97db9c63aac mm: page_alloc: make defrag_mode retries follow the promoted order
+494d3a206e7d3195410c271fefd67b835f73dba5 mm: nommu: set MMF_OOM_SKIP in exit_mmap()
+5ae687d4ddd7ea4c2f5f7d04513e78828b592f0f mm/hugetlb: use sizeof(buf) in string_get_size() calls
+30a65a31a4b8729d99df86b265da16a131046cd1 mm/userfaultfd: only allocate anon_vma in CoW mappings
+d1831a631b73fdd9487225c7a30dcf32306a4999 mm/khugepaged: drop redundant mm_struct pin in madvise_collapse()
+f3f1830b2917348a040c60642f564abe02fd6861 mm/khugepaged: count collapses where khugepaged makes them
+9aeaacc5156fccb0ca0edb7b9015d0377a827380 mm/khugepaged: rename mthp_present_ptes bitmap to eligible_ptes
+cd62dff417ce56eefae0a48f4243be7b3000e7ae mm/collapse: add collapse.h for the collapse interface
+b7a4008e95725ce911275fea80ea849e544b0cab mm/collapse: state what a collapse may do in the policy
+56faa0c0559b8a89c00e29ce4237435030d0311d mm/collapse: drop the collapse_possible() wrapper
+3ee66680d22bccce17c141fdcb0d4795a6d58f99 mm/collapse: name the per-table scan reset for what it resets
+de778b53898f8d6f2d3281e613a8fdc79bdea6b5 mm/collapse: call collapse_file() from collapse_single_pmd()
+273af160903ec527d5f3727cb58ffa72c01e083b mm/collapse: separate scanning a PTE table from collapsing it
+88050d75848a752e27eeff4a0b54575338c4c17a selftests/mm: mremap_test: Validate the preamble region before mapping it
+ba239ee3aa657bfae78f15aca3ca2aff0b8412b1 selftests/mm: report the configuration check on stderr
+76f49bc9ece361c266e6100ff51ff5ff6b321020 mm/mlock: use a long for the page count in mlock_fixup()
+6226d2d1e4840d08b7090a5a19df1627a5b4a71e userfaultfd: fix UFFDIO_MOVE livelock on large folio with extra references
+c0ae2b8e3bb246f3b86c5f7c24da6ad75af36eae mm/percpu: account full object size for percpu memory allocations
+047625cf61be3fcdcca906547c2b7a264da74e69 mm/madvise: atomically clear the young bit on THP MADV_COLD
+abeb035afbd8296bf0ce8396934a5502d2aeff1e mm/vmscan: fix missing NR_ISOLATED counter update in MGLRU reclaim path
+1774494f352daa25c37c4efc8962951eb09276ab ipc/shm: fix RSS accounting for hugetlb shared memory
+f8c5900936b9dcdfc64c98cd596e5ea891c94da6 mm: vmscan: don't count per-node proactive reclaim as memory pressure
+3160314593ca8d5be69047274572c6fc4ffc91ce MAINTAINERS: exclude DAMON docs from MEMORY MANAGEMENT - MISC
+fea2bcac1ef7c481133d988024d2864f84730a08 mm/vma: avoid spurious write locks when mm->mm_lock_seq overflows
+386f8aac560221f02b1845ef47f6cc86c6ec6a58 mm: stop recalculating min_free_kbytes once set by userspace
+437a7e839def0f505277022622fc59a8b071d6cf mm/swap: fix swap_cache_get_folio() returning a folio that left the swap cache
+b8c90a6c7b0ce501d44eb632efd0a5c62ea0512d riscv: mm: fix concurrency in mark_new_valid_map()
+63562804f25cb5b6f5e4f5e3a9f0d1c3c6868596 riscv: mm: exclude invalid THP PMDs from page table check
+4ea7da13580cbd384b0b337bc68e27de8bad47d7 === mark start of DAMON hack tree ===
+636f97d0cafe920847cbcfbdfa5035f50364750b add -damon suffix to the version name
+33f04117bd315116ec19d54c6ffa34caed115702 === temporal fixes ===
+081504477c6a9e10d831b4c0d8ddf1fd27640c81 Revert "kselftest/runner.sh: Propagate SIGTERM to runner child"
+9559c77d7d67afd83f4c7d68fe7c35179bbdc690 === hotfix: posted ===
+614e450ac0de240b3bdea2a79d29e62cb0251790 === hotfix rfc ===
+80847e2dec26b7c51d09823a70ff6b3a5f99fd0e === non-hotfix ===
+eb8f201c9c0382ac8c487d53f6b22ca8cdd3fe0e ==== 7.4-rc1 repost ====
+6ebc49da684b8df4d3c02a3b9f6fe3b8b1e20874 ==== [PATCH 0/3] Docs/admin-guide/mm/damon: Minor fixes ====
+5cad6c101df3df8a46842def782cf143c414ceee Docs/admin-guide/mm/damon: Fix various typos
+68bda46337333095c86897c5de08ce5a1fe2b055 Docs/admin-guide/mm/damon/lru_sort: Fix copy-paste mistakes
+18ee446267ecdd21635eb2ba09ad8e2ac658d8d2 Docs/admin-guide/mm/damon/usage: Fix incorrect option syntax in perf example
+99748519a295bd66419a45d201f28a4bbd6e324c mm/damon/reclaim: fix typo and grammar
+38b3709936fad3182ff92b811b3a6319f8fe00b4 mm/damon/lru_sort: fix grammar and stlye
+a1927e87161ca9388faa4535b9b0a30a65f0ba0a ==== [PATCH v4 0/2] mm/damon/core: Iterate over installed probes instead of DAMON_MAX_PROBES ====
+ab5306df397e9026ad7f5de5315710d5a4fa2259 mm/damon/core: Use only installed probe in damon_merge_two_regions()
+7ddfb63aa17d8e38e03578c09c49394dc73e7b39 mm/damon/core: Copy only installed probe in damon_split_region_at()
+a041d1455078e2fdc226c0735f3f21666e9dd6f5 mm/damon/stat: avoid 32-bit overflow in idle percentiles
+f6c9cc0076a8b698c45bee5ae2f21acca252466f === non-hotfix: rfc ===
+0cf24658d153922c5c8787171e712084ab567714 === hacks in progress ===
+14d8b873debd338a85676c4bb14e988f740dd21e ==== CONFIG_DAMON_AUTOTUNE_PARAMS ====
+ed3db743acb58e4a22a80c215c32ed49b990827e mm/damon/Kconfig: add CONFIG_DAMON_AUTOTUNE_PARAMS
+c42c6d1a8ee37517faf596cf874389419bf436a4 ==== fault/report-based monitoring for per-cpu and write ====
+f84904100c70433df276c3c9d548424edc2eda2e mm/damon/core: implement damon_report_access()
+4fecdae164e3fe21acd652533cb3683e833978ad mm/damon: (fixup) fix typos
+b9a30f3697d8b37615dc6f9eddfcdf9853668c82 mm/damon: define struct damon_sample_control
+1d3a00eed520a6c474741801e3c2765a6da0ae72 mm/damon/core: commit damon_sample_control
+c73f7d2745cd7644e9f4b0e42c28980e63ee8114 mm/damon/core: implement damon_report_page_fault()
+2c915869a32eb5d08348bfa96784961844cc4dc6 mm/{mprotect,memory}: (no upstream-aimed hack) implement MM_CP_DAMON
+31311115a7be145039de589c92e77fd34ffb4378 mm/damon/paddr: support page fault access check primitive
+a30d0005cde1abb0af2b4e0d7a162b1c856a9e28 mm/damon/core: apply access reports to high level snapshot
+62f24d90821cdaae32ea7102f9157a116f6cf724 mm/damon/sysfs: implement monitoring_attrs/sample/ dir
+87c609fb3c1d487f2fbd5038a5fadc90afdc44e8 mm/damon/sysfs: implement sample/primitives/ dir
+ea6d699eab2e19d6f702f32f9b1491fa212b2800 mm/damon/sysfs: connect primitives directory with core
+8938cd29ba6541a9c6fbc394de07c36b362d00f9 Docs/mm/damon/design: document page fault sampling primitive
+f2dcb992454ea763aaad69ac5521b53334093294 Docs/admin-guide/mm/damon/usage: document sample primitives dir
+e59b4f83dcf1f0066d7d21a09109c29a41b244f5 mm/damon: extend damon_access_report for origin CPU reporting
+c467c6500a31abf23d2668fe423c7e6ecb69b9ff mm/damon/core: report access origin cpu of page faults
+240fe72bd1d9ffe109fcd876455b0365f0355b3a mm/damon: implement sample filter data structure for cpus-only monitoring
+3dae0ad654052f41250d607376ccbd787a951628 mm/damon/core: implement damon_sample_filter manipulations
+2215ec5cacbab5e01857502fd6851310adac1f0d mm/damon/core: commit damon_sample_filters
+a521b1d2d04a840e590d07bf978595d456f40ab8 mm/damon/core: apply sample filter to access reports
+99ae994adc7de67bef3751691a77c83cd3452e46 mm/damon/sysfs: implement sample/filters/ directory
+9bb8889041128380c144fe320deda80c39f2fad3 mm/damon/sysfs: implement sample filter directory
+bf945e17957529b514d970ffd668950f7f773713 mm/damon/sysfs: implement type, matching, allow files under sample filter dir
+257b4742be137f717e21a23762ffed9c7db93f94 mm/damon/sysfs: implement cpumask file under sample filter dir
+1c7b1d6615ca048093ee26dac2a895294f6693e7 mm/damon/sysfs: connect sample filters with core layer
+a16ee6c0a81b427390b1277539a039a02cfe33e8 Docs/mm/damon/design: document sample filters
+bfc31a16a58f1cf04c8541047496ab7fb386327d Docs/admin-guide/mm/damon/usage: document sample filters dir
+5a044bf3da7bce44c4b7115b0ea16c1eb9cca418 mm/damon: extend damon_access_report for access-origin thread info
+34d468548737b28a738d9bf707873010f6977fa0 mm/damon/core: report access-generated thread id of the fault event
+66f82cf6396b812a7be04d8a2ddd0e1ab05460ae mm/damon: extend damon_sample_filter for threads
+038771305067ff22cba66005e3f87feb9fc1024d mm/damon/core: support threads type sample filter
+57459e94c1e2d59cf59fefbcba01ab8e47c5d95e mm/damon/sysfs: support thread based access sample filtering
+6aac7f849eba7b7bed85b4cd4848bf78a1fa951c Docs/mm/damon/design: document threads type sample filter
+a0492c45e64de08e4659f6d386c994e917006b01 Docs/admin-guide/mm/damon/usage: document tids_arr file
+7aa8df1f19de8e524356d852b54fb229cc0cf382 mm/damon: support reporting write access
+4ee392e65db1ac29a73aa6c2860adeae90f9dc0d mm/damon/core: report whether the page fault was for writing
+9bfe908f0febb1ee34c4c52d699c87a7f3fdfaf1 mm/damon/core: support write access sample filter
+50d890e58e2e51f966f5b00b6b9452819b49deaa mm/damon/sysfs: support write-type access sample filter
+0db200778b3aa511c53f9f842572ebdabaf9196f Docs/mm/damon/design: document write access sample filter type
+8a0c6ae6a867d13314d0620cba64fdf2115c7a16 mm/damon/core: elaborate access reports dropping behavior
+cfacc556644a9a562a52f1819b4e0ee830153412 ===== fault-based vaddr monitoring =====
+9ff1c73bef65ea455d3a04879525dd7160800692 mm/damon: rename damon_access_report->addr to ->paddr
+e97b6b2ff8def1ad59a530636d688005b4e9b383 mm/damon: extend damon_access_report for virtual address
+87236573fb05254a63914dc2c4b982e3673956d8 mm/damon/core: set damon_access_report->vaddr from page fault report
+4c80475504da01687fc086c8662a3b95172c95a2 mm/damon/core: support vaddr reports
+880338cb5a442d026bd79320f1b2eb7a18178842 mm/damon/sysfs: move sample directory code to sysfs-sample.c
+01e6e1797e49a1f8f449a2b7fb04eaa6fd048c0b ==== docs for DAMON and mm ====
+4b2dd1767bb730cf04a73387ca56a022cedac4de Docs/mm/damon/design: add table of contents for overall and DAMOS
+fb2afa91f6aaa44cca9e0f7d684346619af62ba8 Docs/process/2.Process: Update mm tree URL
+026453ddf243c9fcccb59f0974d30ed76e4bc262 Docs/mm/damon/design: add API link to damon_ctx
+3e14ba1ead1d259b9d49c4ae386f912c2fb9ca3f ==== ACMA ====
+12915c7a4c7360a8a5972f81522f7e15977401c9 mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
+2b929b146dd387ce26475a515e9b4d8feee3276e mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
+a2be890e4cbde255cdc0863f6d944463913235c2 mm/page_reporting: implement a function for reporting specific pfn range
+5ad5c68d0c0512c3b2df48140d511bb34f4ddd1a mm/damon/acma: implement scale down feature
+318cf6f04b9ad554a945b2b5b285cd8df00aa652 mm/damon/acma: implement scale up feature
+98c1910b63a8bc59e4ad0b1a89c04878d3971bf4 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
+3fa93482c65c313bfd5c4b1f974cdad27b802a1b mm/damon/acma: assume damon_stop() to always succeed
+b057dc295f7a05f6fc6b65c7329f8946fc19566a === commits aiming not to be posted ===
+e45438844e68e22d2350d7d6718efbcc5fc70f81 mm/damon/core: add todo for DAMOS interval validation
+651887134aa79c748c19b543e5b0a614ce008b7a ==== uncategorized ====
+40f02be34a14a6587bc8b2eb1c2381cf16ee8b6f mm/damon/core: add an hacking idea concept interface prototype
+964a8628ed572761997009193fec37923c95b44e mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
+6743433909b73cd93200d2ba4b55a755fe3f4a30 mm/damon: unconditionally trace damon_region_aggregated
+f253c9ef7fb91ebc0c02a1538a254baf2c8d350e mm/internal: update vma_address_end() comment for removed vma_address()
+361f4b2dd140c1b49f9e00342a6df378570315a3 mm/hugetlb_cma: remove two unused include files
 
---===============2910981501039271377==--
+--===============5907083739805360387==--
