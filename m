@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 16 Oct 2026 15:13:08 -0000
-Message-Id: <179216358867.1392085.2966486476991111694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 16 Oct 2026 15:14:45 -0000
+Message-Id: <179216368594.1393236.4864962172507503492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 66009a73eee97a5c10d7fce3575a393f3b86c77c
-    new: e357c9257b9f5e33aa40c7d76d5c2af19c539f96
+  - ref: refs/heads/main
+    old: 6b3e73774815910a39d8ca75b9ad7df963f61d50
+    new: 9b6fb15a5cc632aaddb4bbd349e637f49cf4fecc
     log: |
-         f9a08376602967a93087e6d6d60cad4475ceb6d1 patches/next: add new_ctx patch from Adrian
-         244d87c06c55671e045f4f83c3fefb5539cd8b46 todo/stable: update
-         e357c9257b9f5e33aa40c7d76d5c2af19c539f96 patches/next: move Adrian's patch to the head of the queue
+         9b6fb15a5cc632aaddb4bbd349e637f49cf4fecc net: ethernet: micrel: ks8842: use dmaengine_submit() instead of ->tx_submit()
          
