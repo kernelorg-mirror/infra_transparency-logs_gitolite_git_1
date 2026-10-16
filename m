@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 16 Oct 2026 01:13:02 -0000
-Message-Id: <179211318201.737534.9481670872979535111@gitolite.kernel.org>
+Date: Fri, 16 Oct 2026 01:17:33 -0000
+Message-Id: <179211345308.741348.4910271241154673121@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: cdcb648a97ebc247eea3a9a7d15916613f640527
-    new: 9272297df14124fe603c81e40b52ff0c5dd88652
+    old: 9272297df14124fe603c81e40b52ff0c5dd88652
+    new: ce7db1caaa68f5715e62a69cd84ed89813cea99f
     log: |
-         9272297df14124fe603c81e40b52ff0c5dd88652 net: usb: lan78xx: reject invalid EEPROM write requests
+         ce7db1caaa68f5715e62a69cd84ed89813cea99f net: phy: marvell: add LED support for 88E1116R PHY
          
