@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5606453547268096886=="
+Content-Type: multipart/mixed; boundary="===============7760141046005429178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Sat, 17 Oct 2026 22:21:29 -0000
-Message-Id: <179227568994.2832418.2983965285685907468@gitolite.kernel.org>
+Date: Sat, 17 Oct 2026 22:21:46 -0000
+Message-Id: <179227570607.2832645.10766960331280469857@gitolite.kernel.org>
 
---===============5606453547268096886==
+--===============7760141046005429178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-next
-    old: 2b358510d5cc56164f83110ca1499c95a5a352cd
+  - ref: refs/heads/kbuild-next-unstable
+    old: 46d4ccf3b621368af5e98187e9e21dccd8beb5cc
     new: 997208ce9f43f01febac956cf9aeffe89945e3c1
-    log: revlist-2b358510d5cc-997208ce9f43.txt
+    log: revlist-46d4ccf3b621-997208ce9f43.txt
 
---===============5606453547268096886==
+--===============7760141046005429178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b358510d5cc-997208ce9f43.txt
+Content-Disposition: attachment; filename=revlist-46d4ccf3b621-997208ce9f43.txt
 
 5fe4dd59664105a9ea1a9468aa7391806b80364a kbuild: do not allocate .modinfo in vmlinux
 6f014bf46faf1645b6336f47390167de5c88e9d1 kallsyms: index symbols by token to speed up table compression
@@ -42,6 +42,7 @@ c4c24fd63a8d56cfefd78678758f9be72e17c90a scripts/Kconfig.toolchain: Drop compile
 7202c08793a243fb4c7f9a1b170e052b2f038b33 kconfig: Improve ergonomics around disabling warnings with cc-option
 0d4d70da348b066b02f5aa4b893b13c4e32dc838 kbuild: Mark the gzip recipes as recursive
 ae5f6044c4cdffe2b3361b15c1d6fc67b339f2a4 kbuild: Mark the initcall ordering recipe as recursive
+2b358510d5cc56164f83110ca1499c95a5a352cd kbuild: AutoFDO: Update split machine function argument for upstream rename
 997208ce9f43f01febac956cf9aeffe89945e3c1 Merge branch 'kbuild-next-speedups' into kbuild-next
 
---===============5606453547268096886==--
+--===============7760141046005429178==--
