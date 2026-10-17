@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 17 Oct 2026 04:12:21 -0000
-Message-Id: <179221034161.1989273.16256996874504113595@gitolite.kernel.org>
+Date: Sat, 17 Oct 2026 04:13:53 -0000
+Message-Id: <179221043359.1989766.460844062051906038@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,16 +12,16 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/keys-rhashtable
-    old: 027e2c893a1639b6ece2f7a3b7a9041107e26787
-    new: ae1d6d86a52daf6ed4ff9e015d2915f7099ff205
+    old: ae1d6d86a52daf6ed4ff9e015d2915f7099ff205
+    new: afddf7f7fb3d9d105453c2910e81b8a7bc2ae61b
     log: |
-         a0329b767426ac95a8bc2753959f6e6e10e214e3 KEYS: Widen key datalen and quotalen to unsigned int
-         b28ba08d9df64f06dd208d35eb631597e5f34c48 KEYS: Prevent integer overflow in key_alloc()
-         94dba5829259806d0e356ac7a85bd9d86a9cbd2b KEYS: Prevent integer overflow in key_payload_reserve()
-         a6797f1b0ca9e62c645da3cb321886850c73931f KEYS: Prevent integer overflow in keyctl_chown_key()
-         212bd6da766046c8b2953112df874bee75b8e0f8 keys: reclaim link quota during keyring garbage collection
-         f818e163e0744f36a0cd1e24ebe0e12b9df16927 keys: verify key identity on unlink and move
-         16f2dcbdff26d441ec8cac8ad606fb510740b925 keys: Add keyring_is_empty() for {fs,dm}-verity
-         ae3546d2e3edc98ef6057e370d9468b841cb749a KEYS: Replace assoc_array with struct keyring_index
-         ae1d6d86a52daf6ed4ff9e015d2915f7099ff205 lib: Remove unused assoc_array
+         c2d91194e4b02c137c854b9a2a65683b02c29953 KEYS: Widen key datalen and quotalen to unsigned int
+         2ba70364ce200ad5d9befd3fa387eb5c4517a80b KEYS: Prevent integer overflow in key_alloc()
+         109f013b6473f7d4472c84291892b01846b13bd6 KEYS: Prevent integer overflow in key_payload_reserve()
+         71c7b427478ea316c4b8fefac33d03397a28c419 KEYS: Prevent integer overflow in keyctl_chown_key()
+         e076ee07f8280152f7bf13ed6d2f35319ae461d2 KEYS: reclaim link quota during keyring garbage collection
+         ecb8be65139be541999a39bac4b9c18cad193d6a KEYS: verify key identity on unlink and move
+         2cc105c68bc2c2d4f81bbc2ae56677fcd63cfc67 KEYS: Add keyring_is_empty() for {fs,dm}-verity
+         0adcda15c385f791098fbd4ab653739cd85fad5c KEYS: Replace assoc_array with struct keyring_index
+         afddf7f7fb3d9d105453c2910e81b8a7bc2ae61b lib: Remove unused assoc_array
          
