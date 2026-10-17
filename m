@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4667829010640703163=="
+Content-Type: multipart/mixed; boundary="===============1045006355793483305=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 17 Oct 2026 19:22:02 -0000
-Message-Id: <179226492248.2703952.6846829591640087874@gitolite.kernel.org>
+Date: Sat, 17 Oct 2026 19:22:13 -0000
+Message-Id: <179226493353.2704193.2605582993723429080@gitolite.kernel.org>
 
---===============4667829010640703163==
+--===============1045006355793483305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/perf-tools-next
     old: cb9dba6f4764fc68ab75c36e332887332339f9c3
     new: ba2a0285a6266fc551f8fb900b94ab681ba09a23
     log: revlist-cb9dba6f4764-ba2a0285a626.txt
 
---===============4667829010640703163==
+--===============1045006355793483305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ b3abf1281a6168ecb0789b9a1b858e3863611cd4 perf tests: Mark the C tests mapping pe
 4456c404c6bb2e978769f5f27090deee3457f95c perf mutex: Add a robust, process-shared mutex initializer
 ba2a0285a6266fc551f8fb900b94ab681ba09a23 perf test: Take turns using the perf mlock budget in the mmaping tests
 
---===============4667829010640703163==--
+--===============1045006355793483305==--
