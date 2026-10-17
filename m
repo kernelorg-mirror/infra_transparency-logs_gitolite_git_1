@@ -1,25 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 17 Oct 2026 01:29:18 -0000
-Message-Id: <179220055842.1871278.15504078354051373786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 17 Oct 2026 01:32:01 -0000
+Message-Id: <179220072160.1874365.6380514873797042971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/keys-rhashtable
-    old: 0724a622e7a8457d8d501bbba92a1a550db0f2cb
-    new: e89f11e62260699b6a2a9a0755198997df44d551
+  - ref: refs/heads/main
+    old: 00accbd9d5021b942a16078bd5717d7865f6971c
+    new: 02a7e17717379afb05911dbfc37a8a819a5470ac
     log: |
-         d566d0cb92c8f25bfbf278e9ab7d217131a4e004 keys: widen quota and payload lengths to 32 bits
-         70578ede91b37d64aec429d17bc85feb8d0a5a9e keys: prevent overflow in quota accounting
-         3ba399edd01cfd1d21bec016c3c90d51199d17ed keys: reclaim link quota during keyring garbage collection
-         a5823bf76574a29a7a273094e6fe70252eb2eecb keys: verify key identity on unlink and move
-         f1a08ff676f5e1ba23770fe2f577930426556de9 keys: Add keyring_is_empty() for {fs,dm}-verity
-         44164d22ac5a2451f8267d8377a4afd33806db14 KEYS: Replace assoc_array with struct keyring_index
-         e89f11e62260699b6a2a9a0755198997df44d551 lib: Remove unused assoc_array
+         86a30c4348497bcddcf2796258955bbaaf58c9a3 dpaa2-ptp: fix support for PTP_EXTTS_REQUEST2 ioctl
+         8e96c4d393168661704d850bcf818e46efb8ef24 net: enetc: fix support for PTP_EXTTS_REQUEST2 ioctl
+         d347ab5cf809365e7b3749dc91d77e89e4b7ec3f ptp: qoriq: fix support for PTP_EXTTS_REQUEST2 ioctl
+         23e687079e89a4552272636c48af96872bb7061b Merge branch 'net-freescale-fix-ptp_extts_request2-for-qoriq-1588'
+         29afe67082b2d33ab2e90c56c337235d725f023f mptcp: reset msk state on early connect failure
+         7538fa33bb2f66b8b809ff39d58308be48e197a0 mptcp: fix subflow bitfield misuse
+         c9c90cf437a9e6597611b6d3aad6e255fad22867 mptcp: hold MP_JOIN msk ref when cloning reqsk
+         2093bc7fa50056fef8620d2b82bcb2e9a0a5575d mptcp: fix MP_CAPABLE token migration when cloning reqsk
+         22e692960d2e2d7a5390c65d552201ebd8949cc2 Merge branch 'mptcp-misc-fixes-for-v7-3-rc8'
+         02a7e17717379afb05911dbfc37a8a819a5470ac vlan: restore HW VLAN tag insertion with reorder_hdr off
          
