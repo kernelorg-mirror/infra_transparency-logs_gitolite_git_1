@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0743844103815758448=="
+Content-Type: multipart/mixed; boundary="===============2485460999183264953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Sat, 17 Oct 2026 11:10:37 -0000
-Message-Id: <179223543750.2351828.17827847625514026931@gitolite.kernel.org>
+Date: Sat, 17 Oct 2026 11:10:51 -0000
+Message-Id: <179223545165.2352439.17927714021229765175@gitolite.kernel.org>
 
---===============0743844103815758448==
+--===============2485460999183264953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wsa/linux
 user: wsa
 changes:
-  - ref: refs/heads/renesas/x5h/i2c-experimental
-    old: 691f170881376da38900acf16f6ba38d22fe3e34
-    new: 0a9a7feae4e42471606a9154beab657e68c496d3
-    log: revlist-691f17088137-0a9a7feae4e4.txt
+  - ref: refs/heads/renesas/x5h/base-experimental
+    old: 61382c1026cdebbf608e3aecb95c11d1cdbb9bb2
+    new: 6851f2a7fd6b27b19717c66c305017021840f955
+    log: revlist-61382c1026cd-6851f2a7fd6b.txt
 
---===============0743844103815758448==
+--===============2485460999183264953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-691f17088137-0a9a7feae4e4.txt
+Content-Disposition: attachment; filename=revlist-61382c1026cd-6851f2a7fd6b.txt
 
+87cd6b717e4069dca34e0866e57eaeb44d3b173e net: ipv6: keep room for the mac header in dst_dev_overhead()
+0e2bec77ea62895416600c90588f593516572bca net: bcmgenet: fix 64-bit RTNL stats reading in ethtool on 32-bit systems
+3aeaa609fda19c09d5298c9fedaaa3b6229601b5 net: bcmgenet: initialize u64 stats seq counter for all queues
+cbbc1aee7776c7fa1d89e6cb963a23e58c495dca net: bcmgenet: do not skip WoL power up on GENET V1
+273941c85fc2632cd3e56ddff737b9245de7697d net: bcmgenet: validate Ethernet address in bcmgenet_set_mac_addr
+d64e277b955be4506931802837499b62c8f3968a net: bcmgenet: mask DMA_TIMEOUT_MASK when reading DMA_RING0_TIMEOUT
+fc05ea1b941148d6d72f8cefa64e11e7119bae8b Merge branch 'net-bcmgenet-collection-of-bug-fixes'
 4bdee8060d1e4581624e68fbd369b1afb14df4bc net: airoha: npu: cancel wdt_work after releasing the WDT IRQ
 a3f315be9d30eeb6938d11fa17fd4b32d52f7c42 ip_gre: Reject enabling collect metadata through changelink
 0f2fd31f63c65c409bd336af3a42d478a9207c1f net: usb: qmi_wwan: add Quectel EG120K-EA
@@ -1043,12 +1050,5 @@ b5b13f02a357f708fce9ba36aeac771902134c1e [TEST] arm64: dts: renesas: ironhide: A
 2edb4dcf037099910e4108dee77b6a05488b96dc [TEST] arm64: dts: renesas: ironhide: Enable HSCIF1
 0d21fe6080eccc9b75a4a82349a580dfd22d237e [TEST] arm64: dts: renesas: ironhide: Enable MSIOF0 and MSIOF6
 6851f2a7fd6b27b19717c66c305017021840f955 --- R-Car X5H Ironhide pin control -------------------------------
-91cd0a1a24bd1edb518e3a6fbae8eb5f9bea544a dmaengine: sh: rcar-dmac: fix style in struct initialization
-2e900b7dedf06911d6f129e84c9422442e9b452c dmaengine: sh: rcar-dmac: SMMU doesn't need IPMMU workaround
-bf518eaacfe9d879de1212daa7db1777eceb6880 dt-bindings: renesas,rcar-dmac: Add support for R-Car X5H SoC
-8dc67f7706a833627a2662659dcedb056a24da0d dmaengine: sh: rcar-dmac: Add support for R-Car Gen5 SoCs
-e41ad8f6f4faa4ec8f7f1dfcb6169bbabc3e1202 arm64: dts: renesas: r8a78000: add DMA properties to I2C
-42528cb55c5e07d98543b06d5b1536c93f9dfb81 arm64: dts: renesas: ironhide: enable I2C
-0a9a7feae4e42471606a9154beab657e68c496d3 enable debug output
 
---===============0743844103815758448==--
+--===============2485460999183264953==--
