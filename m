@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 17 Oct 2026 00:49:33 -0000
-Message-Id: <179219817391.1841734.12279293379392695468@gitolite.kernel.org>
+Date: Sat, 17 Oct 2026 00:51:32 -0000
+Message-Id: <179219829204.1844665.17519359599030161305@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 001e9181ada8481cfc5dc6f46c9bf8d24efbb57c
-    new: befe96ed37d59b2940801e1682a0f410191da573
+    old: befe96ed37d59b2940801e1682a0f410191da573
+    new: f42d67a5044e9a36eb9c2a0967e9492e52a1949b
     log: |
-         befe96ed37d59b2940801e1682a0f410191da573 ipconfig: fix use-after-free of device list after ic_close_devs()
+         f42d67a5044e9a36eb9c2a0967e9492e52a1949b selftests: net: bareudp: Add stream tests with software GSO
          
