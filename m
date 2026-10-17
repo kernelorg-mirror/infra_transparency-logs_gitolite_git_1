@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Sat, 17 Oct 2026 17:07:35 -0000
-Message-Id: <179225685525.2606523.7098227564896856889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 17 Oct 2026 17:22:35 -0000
+Message-Id: <179225775544.2616951.13474601488850187931@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/quilt-attach-ecaps
-    old: 15e4cd6ba573f4675e8b7f96f6b6500ac05d17d2
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: ab21f979d6f2351db7f6b6f0e5e026eefd9965e8
+    new: 5256161e3573e0e35ac5e12f8ca904cf51e77f5b
+    log: |
+         af873495cbcb066ab029f7f63b94410d4db47628 bpf: Fix verifier WARN on narrow read of bpf_tcp_sock u64 fields
+         5256161e3573e0e35ac5e12f8ca904cf51e77f5b selftests/bpf: Test narrow read of bpf_tcp_sock u64 fields
+         
