@@ -1,24 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 17 Oct 2026 23:52:56 -0000
-Message-Id: <179228117674.2896406.4220058788748189359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Sat, 17 Oct 2026 23:58:08 -0000
+Message-Id: <179228148896.2900280.7837707203313084880@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 2b8d4cd20ac83792dc19e8c8bed3f7bbdb4efa5d
-    new: 28691515f54f03f23636cbf1ee2cd60fc31e2353
+  - ref: refs/heads/seen
+    old: c645a5db002ded161115dc8f6c15a40acfdde2b2
+    new: 7e61ed228e13e2be03121dab643a63c36be22a22
     log: |
-         850040f34265ff5616aca6eea8f234db4a1d85b7 iio: common: scmi_sensors: fix truncating 64-bit divisions
-         303aea88b22326d2291bf066e151b2b30c7639ea iio: light: vcnl4035: Fix reversed ALS mode bit
-         b3fc05a231c6bc82f9dd9f07605a21a00f51ad3a iio: atlas-ezo: Fix humidity channel read support
-         f0f1dc2a6855f478eb1cadbeb25c4831bdd9620c iio: acpi: Accept comma separated values in ROTM strings
-         436b9770b9d33b95c432d625126b9a1a1b27c400 iio: magnetometer: mmc35240: leave cache-only mode before the cache sync
-         28691515f54f03f23636cbf1ee2cd60fc31e2353 iio: magnetometer: mmc5633: leave cache-only mode before the cache sync
+         c7124011e925ff8927b0d38afd56127df133b645 github-ci: update macos jobs to macos-15
+         24a5986f2f0e751ef12487b31ab9d88b272c27d0 Merge branch 'jc/ci-update-macos-15' into seen
+         93be798a80b759741681c9964c9079d02a6764c7 refs/files: keep root refs out of loose ref cache
+         7e61ed228e13e2be03121dab643a63c36be22a22 Merge branch 'ak/refs-files-root-refs-cache' into seen
+         
+  - ref: refs/notes/amlog
+    old: 838b4e07e08330fb15ae475e86eacdb0febad614
+    new: ea8aed4dd130081d4218a20d7e6f5826105d2102
+    log: |
+         b2ec6d58f07bd64ccf25ba5432b6f32e34a6a62e Notes added by 'git notes add'
+         26458afe7eab95d700fb9dd9d23a5cb189455803 Notes added by 'git commit --amend'
+         ea8aed4dd130081d4218a20d7e6f5826105d2102 Notes added by 'git notes add'
          
