@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============6998297243737621037=="
+Content-Type: multipart/mixed; boundary="===============6725800257197109818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sat, 17 Oct 2026 10:42:27 -0000
-Message-Id: <179223374748.2274239.1442608959702879943@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Sat, 17 Oct 2026 10:46:27 -0000
+Message-Id: <179223398799.2334559.11388055932847789732@gitolite.kernel.org>
 
---===============6998297243737621037==
+--===============6725800257197109818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 0fcb05b72344f40806cbe810de8872f1698bf053
+  - ref: refs/heads/main
+    old: 24a19b953e2a3d0ea5a8c4951a0ab8f32720c907
     new: 58161ead29e50d70a317ea26b472e0c7508e69da
-    log: revlist-0fcb05b72344-58161ead29e5.txt
+    log: revlist-24a19b953e2a-58161ead29e5.txt
 
---===============6998297243737621037==
+--===============6725800257197109818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792233746 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1792233745-00a0f55e69fcb55e08e582271ea64f5ba15e31bc
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792233986 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1792233986-51d26e94e6f7773ac306e9dbba8120327d67ce4d
 
-0fcb05b72344f40806cbe810de8872f1698bf053 58161ead29e50d70a317ea26b472e0c7508e69da refs/heads/master
+24a19b953e2a3d0ea5a8c4951a0ab8f32720c907 58161ead29e50d70a317ea26b472e0c7508e69da refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrTURIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c2IP/3r8LzjLki36hU/b7wq0
-hSWg5Jta5D5m5G/HOyujXnct79fNkeGqlXiRNKrwCcguRM3s2dAZGCgyzlDxOK5J
-IqYEsG8Yb6S8Pt9I85/O9nt7CwhhAQcDTRBRZqiNgaSpd9pZzkpatHRC9LSd151n
-qzwHzWGVvdLoSHGYBL87r/mqO41h6wW9XPEzdSITURCcc+5vQ0dfeyrDFfolQTmK
-OF8SgYzq20JtUv7miryspaVKREaSrjyUzHXiU0jubAvFdfcYuxOBsBD/O6mMGYYx
-c1sCKDFifWEi0nsKq/tXXX7B0da4yxXhGfO2Fvs5foUJNSLP8Zjy6oKLqtxI6BoH
-hAlNfJHGg5pFUFABVJ+RCBph/S01sL9Uy3K/y3Z6EP6uFbaxq0Pkt1EnyvhtTBHq
-MUqfWaMvrdMPcR7WiyZyFNBg6i69/zICdBopAKsXIzGeeVo9DrShtZOlaVwL3BF0
-DJ+/EjvUtSOh+2skAqNbDRcRPrVrEOpJlvM1xawuo4+uSpVFowbPrp7aJNNED/RM
-BZBEoAx55fWw2iTnPrL5jnj4HOikzxKusZtuEsrOpAPlf0uWYkizzfDk8Jzbbg7Z
-eQzD0taBVRAGkaB5w+vTDaVi799SibfIS1yNorlyLrvq9K4OEMweWzdpfAGOvCqz
-Y2EAETuXrn/nrSoOXjAPwsKG
-=9qNo
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrTUgIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XQEP/inkDOo95J069IixJZ1V
+hS0uBqbMBHWT5+jhgzV3zheC9tsLiNRBR6ObfsCe5X7epKc+78lNHxvoXOvfOCcw
+zQHOsOHuU77ua70IxleQNO8VmNKk3OAZmh2UaOIoSv4V3ZZx3YMB0mld7X5wjfNP
+QqQf9fo/x4hQJfOVwX5eQP0E4qgbhUpcx7MVmYbRLzMrYo0AbbtYNJ7FsNhJoje3
+dWm3Q8oQFJg0vDI7K7OHikiILnmbbMn6kpAQ9eqr3XDi28qmGLcHvdB7vyorPPk1
+VW58pVD7vuTOaEEsguaS8aoL1BVDCICHaBMIcmb0e0Bef79FkwKOasOspqLjk2NC
++RcVwzS/3daj/vvLJfC/gVN1TeFCbfDqp+dh0kukPLPfNP9UF1VjV3DNeweZmwHL
+Jrk75w4CgdsCsRS5aDUwkJrQEebiIrXpRhHGfXwREkAfmHJDIJStPOacM4AA+yJW
+szutygX5ILYv+eH69lgtIezyVKwcGvMiIxXr7oCtO35MAI6YTiT/FdQaqw53fGUS
+ihm4AjhDUGXaAPOJhJyvcMvP1+Lsf4gNHBCOiye1sZaS3p6GomPS6T1XCr2diI2i
+pEZ7+c8m1sWnqU8JKP7BEkr8HaW6qafM6pUlMBDKMv0iXQTYdRBpv7c/a4UOybS/
+V3LyHxKBB8lv0FyFn7Lvjg/O
+=NEkk
 -----END PGP SIGNATURE-----
 
---===============6998297243737621037==
+--===============6725800257197109818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fcb05b72344-58161ead29e5.txt
+Content-Disposition: attachment; filename=revlist-24a19b953e2a-58161ead29e5.txt
 
 dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
 a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
@@ -66,6 +66,9 @@ b86eaddf467a9ddb69dbaa46eea9dda7f93347a3 arm64: tegra: Add PCIe root ports on Te
 fbfd6d0d3596d072f7546b25228e4eb599f68a95 pinctrl: qcom: nord: Split QUP1 SE2/SE3 into lane-pair functions
 818103dc7f5998a0d7957fb71d4deecdf4d579e1 pinctrl: qcom: ipq5210: Publish the OF module alias
 0f70fd6f4c1d6c1f2ea298d8dd07c4a4d5dff9af riscv: dts: microchip: beaglev-fire: remove double definition of gpio interrupts
+f444a42dce5caf5856b5289c48e0d48e531649d3 power: supply: max17042_battery: Fix vmin assigned instead of vmax in DT parsing
+45d4af4e80a25881b6b75e8e34872c555c43a41d power: supply: Fix maintenance charge table kernel-doc
+a58cbc8b36ec0cd00d2ba3de7d003de818a27523 power: supply: ds2780: Fix ds2780_get_capacity() returning raw value
 c5c95dbdc9011a56359df4dc00be829bbcc0b036 soc/tegra: pmc: Fix uninitialised clock rate
 32ea0a33e3a0fb7c10c601b43e1b2f6c06a3f5fd Drivers: hv: Avoid infinite retry loop in init_vp_index()
 0cdd57a4c56115af5d736b5b2d9310ad91494abc x86/hyperv: Fix stale comments after stimer message mode removal
@@ -85,16 +88,37 @@ ca039df94983c441fdee0e2488263fc744e8ecb6 PCI: hv: Warn when wait_for_response() 
 c6c159fcdb4e9a678eda0831f971e4a3a488ec47 pinctrl: qcom: ipq5018: add missing pwm3 function on gpio13
 8157cd417d72137ba0bd4c8c8355a67223f1ad95 Merge tag 'v7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux into pinctrl-qcom/for-current
 19fc4240358be2a25ce8e0a49a2819588ed61c5d pinctrl: qcom: spmi-gpio: make direction changes exclusive
+86a24feec1919b7858bb1062d5160f0e12aa5c7d KVM: SVM: Add paranoid helper for checking if vCPU is AVIC-addressable
+12e0d427c335f6f140087def6b2002419ee5f6b0 KVM: SVM: Use "is AVIC-addressable" helper to sanity check load()/put()
+88c15bbd43ae95a2c81f3f21a7fd8f4fb0914902 KVM: SVM: Clear AVIC Physical ID table entry if vCPU creation fails
+97818b2fa7082e940ddd36dab12a68615300e798 KVM: SEV: Fix page dirtying in sev_gmem_post_populate()
+b3e6212dea2e4328a841ceb37f377583176dc735 KVM: x86: Use active memslots for the per-vCPU MMIO cache
 65db42a9fae05c46a5df5b7ca5c175b80f9c4278 pinctrl: qcom: ipq5018: update PWM groups and corresponding pin functions
+c24362650f7a8573dc9a9991a034b8500af8eb19 tools/power turbostat: Read complete CPU lists
+1de8307e861759386057f8683bdf0594b2c803f0 tools/power turbostat: Warn, but don't Err on out-dated perf systems
+148aefa949b1da358c0ebd89e61b3efd48782b82 tools/power turbostat: add NULL check after calloc()
+485c59972808078570d21317de8275af47a18696 tools/power turbostat: Sanity check GFX%rc6 and SAM%mc6 percentages
+767c64414c4c5fffd6cbc3a1cf1fb8138b28645b tools/power turbostat: Fix fd_perf leak on reset
+5e940dd96bef6ca03b3b1b4740351237e5ec17e3 tools/power turbostat: Fix CWF PMT off-by-one
+11741cc90f9176746b8595beab4fec8d736ebd18 tools/power turbostat: Fix PMT error path fd handling
+154b96dab83fd953b9b82c8bcfa041cd6a9d74d3 tools/power turbostat: Fix add_counter issue if > 24 counters.
+d3eea584b56fecf5c3fba0979f0da28a6600d6a3 turbostat 2026.09.28
+6bca94e64255053ab2aa56f2588fda73d399b790 power: supply: generic-adc-battery: Fix temperature IIO channel conversion
+5b4bd13e0552926648a46c2c9a12a24dfaee3715 power: supply: core: prevent unregistering a power supply while a callback runs
 709ba1c547eaf37da36ded2ecf3ea4e304cdfa9a pinctrl: qcom: ipq5018: replace gcc_plltest with pwm2 on gpio12
 1cca81a683da7f0ef2fbaf34442376044cbbad22 pinctrl: amd: Clear S4 wake bits when firmware has _AEI
 d1a4549a3645e55cc9ade09e360280590b3c9559 workqueue: Fix NULL current_pwq deref in mem-reclaim helper
 746de48c3a250f0c264105dcbfcdf0c5001e970b ASoC: SOF: ipc4-topology: Fix shift-out-of-bounds for aggregated ALH capture
 f90f8afb61beb268ca8092e7f3a826b520d3e8da ASoC: SOF: sof-client: Use event-handler mutex consistently
 85b3a4d5032df9140867253dfc7611a30be7fdc6 Merge tag 'pinctrl-qcom-fixes-for-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into fixes
+bb44efdb084a0fd600b64f2aaed5d932caa0c944 Merge tag 'kvm-x86-fixes-7.3-rc6' of https://github.com/kvm-x86/linux into HEAD
+da619121a5d271e78ec709a1f9a3c5f99b9e10ad lib/crypto: poly1305: Use memzero_explicit() in poly1305_final()
+24f07e8c07a0c0dd275331cbb41c79a78741eef9 lib/crypto: arm64: Fix lost Poly1305 carry when resuming NEON state
+7b817748bf083ad715a8d70de63f2184178cc372 lib/crypto: tests: Add Poly1305 split-update carry regression test
 7a9df76679633cf26e0fea882a684012c6ec245a sched_ext: Fix stall when a task enqueued with SCX_ENQ_LAST lands back on its CPU's local DSQ
 069403dff337feb192bfc70fb28ddc8a171e20c1 sched_ext: Fix use-after-free of a destroyed user DSQ by a deferred reenqueue
 e415915c5258ec7da3d783fba5e9983d03a76d07 Revert "drm/virtio: Add pixel blend mode property to cursor plane"
+a1ddc2721467fb68241372db77657fd0dcf6cda5 bootconfig: give the footer size static_assert a message
 d610d871b18ee36ace235b0c01388518b9643976 Merge tag 'tegra-for-7.3-soc-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into arm/fixes
 2f46e80fa993fdee5e4fc5da80436e3e21bc2bd0 Merge tag 'riscv-dt-fixes-for-v7.3-rc' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into arm/fixes
 182d918a68f69b693e59c64af2572bdde07cbed2 Merge tag 'omap-for-v7.3/fixes-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/khilman/linux-omap into arm/fixes
@@ -112,6 +136,7 @@ ffbfd3f98f4393e91dffce3a46ccb7cf5329cf2f drm/xe: Don't transfer shrinker pages f
 98d446b7c013254a8a7b49720557676a3a851fde net/rds: don't let the rdma_cm destroy an id RDS still owns on route failure
 8e2fbe0e75d38690d551456658194c632933cb57 Merge branch 'net-rds-rdma-cm-event-handler-fixes-for-non-ib-devices'
 8240e19d329e9e1502fc96608d8afe6861e9df90 accel/amdxdna: Fix Kconfig invalid configuration
+e90ab3669181c6469e3647ef2b30ae408275f496 KVM: x86/mmu: Cope with the SS bit being set in #NPF exit codes
 f6be9f558a83fe30a03bd3adae461c821a0cef8c ASoC: Intel: avs: Reset the stream unless it is already prepared
 0936bbd35a247665c64886135835faa3c3f4f29f ASoC: stm32: spdifrx: fix synchronization state check
 dcf7f650a24897d59b071f7f9a454d8b0b188b27 sched_ext: Propagate every bypass depth change to the descendants
@@ -143,6 +168,12 @@ d2ce8fcd778ee6d92748c92d23a56d4416c29d86 drm/xe: Bump LRU for external objects o
 18f5c699d1d0a003b2959af5871b33ac9a2400ec sched_ext: Rename scx_reenq_wait_dispatching() to scx_wait_dispatching()
 2935062be77113c1c4565ca9d0c72180449aafee sched_ext: Wait for SCX_OPSS_DISPATCHING before moving tasks off DSQs
 8907eb42c08b8eebe0f81fee256b34b5675d0e5a drm/virtio: Reset device before deleting virtqueues on freeze
+b963f2345fa20417401c51a69dedb6a58eea33a9 nios2: fix __wsum type degradation in csum_fold()
+03741bcea0a9ec4c8f386fd5c6051c1a14070240 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+cbc08c20479c6da3db077f9b170bb8cc2d09df20 Merge tag 'turbostat-2026.09.28' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
+ca3e345926b00bd59106c1bf2022b1daf4164a67 Merge tag 'bootconfig-fixes-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+d77bd0d469e1923e587bb919301c0bb29093e30a Merge tag 'for-v7.3-rc' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
+4056b3c9d3c92ea45955641dbafeb9b960e146ef Merge tag 'nios2_update_for_v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux
 d8e5fc3002294a28af53e97f6c83a35956e738f3 nbcon/reboot: Switch NBCON consoles into the emergency mode in emergency_restart()
 26401a4999f1596a515b2e704e7066ac09306488 drm/exec: don't immediately add prelocked obj to array of locked objs
 19ed235c1adcaf40f05997dfe8b96eb209effd35 printk: fix kernel-doc name for nbcon_write_context_is_braille
@@ -153,6 +184,7 @@ c8f4cfe1cf93bce924e27f2abead7a4c4a487505 KVM: nVMX: Reset MMU back to the root M
 8bb1858db453cd4250e3b633f5d2d09206024ca6 drm/i915/dmc: Harden DMC firmware payload parsing
 7dedc5bb11f95e96fe80757c924d8d9aa7327759 drm/i915/dmc: Add sanity check for DMC load address
 6a8bf59de3ef47ff51face6ea826395a1098baa0 drm/i915/cx0_phy: Fix ARL-S host bridge detection
+0fcb05b72344f40806cbe810de8872f1698bf053 Merge tag 'libcrypto-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 c347fef5f8f8927985bd67835331ce4cf7ff43a4 drm/panthor: fix immortalis condition
 4c435828932bf46f29860e4a0375bcae101b778a ocfs2/dlm: Protect the recovery list during debugfs reads
 f1365f97fb7498d805981102eee22d362ae643f2 samples: pidfd: fix userprogs typo
@@ -270,4 +302,4 @@ e2c278bc37b52222e53d5f88971ffcfacd6c97be Merge tag 'trace-v7.3-rc7' of git://git
 a3bb7a0184fbf9fed14aacb9773fe9f6f2097c1b Merge tag 'sound-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 58161ead29e50d70a317ea26b472e0c7508e69da Merge tag 'drm-fixes-2026-10-17' of https://gitlab.freedesktop.org/drm/kernel
 
---===============6998297243737621037==--
+--===============6725800257197109818==--
