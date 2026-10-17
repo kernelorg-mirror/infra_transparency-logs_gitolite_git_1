@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 17 Oct 2026 22:56:03 -0000
-Message-Id: <179227776387.2856698.11344209169691179463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Sat, 17 Oct 2026 22:57:52 -0000
+Message-Id: <179227787235.2857358.13108132466993820382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/testing
-    old: 350779f0f721d2ea2382d824e83b053a9684ed33
-    new: 634108ef8ec1be65256ce08f9944977e73628289
+  - ref: refs/heads/for-next
+    old: 9c034b714ff97bbb0b9b9946857f7244db11eea0
+    new: 9f7f7a85945156d5c7626390a8c46d43d5159abc
     log: |
-         7434b5771bffb9bb5080cb9b92c254b81e309c81 dt-bindings: iio: proximity: Add Vishay VCNL36829
-         3e4da62d6b4fdd909097e8d0b4b6e13ff48f4ffe iio: proximity: Add driver for Vishay VCNL36829
-         c0aaf4842071c151be01b272fe4a3092610a435d iio: light: cm32181: add support for the CM32183
-         634108ef8ec1be65256ce08f9944977e73628289 iio: dac: ad5686: fix channels member name in kernel-doc
+         f444a42dce5caf5856b5289c48e0d48e531649d3 power: supply: max17042_battery: Fix vmin assigned instead of vmax in DT parsing
+         45d4af4e80a25881b6b75e8e34872c555c43a41d power: supply: Fix maintenance charge table kernel-doc
+         a58cbc8b36ec0cd00d2ba3de7d003de818a27523 power: supply: ds2780: Fix ds2780_get_capacity() returning raw value
+         6bca94e64255053ab2aa56f2588fda73d399b790 power: supply: generic-adc-battery: Fix temperature IIO channel conversion
+         5b4bd13e0552926648a46c2c9a12a24dfaee3715 power: supply: core: prevent unregistering a power supply while a callback runs
+         6a559552107ab6b470af0cb5e6aab3aad17c19cc Merge power-supply fixes branch
+         9f7f7a85945156d5c7626390a8c46d43d5159abc power_supply: serialize property access with unregister
          
