@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 17 Oct 2026 04:56:53 -0000
-Message-Id: <179221301386.2029882.10631609972394582896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sat, 17 Oct 2026 05:07:34 -0000
+Message-Id: <179221365414.2037289.8301069734670461185@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/master
-    old: fb26a047edb94bc7c344f46f19b1ad16cf64c7d1
-    new: a97bbf6bf60e676685d3d93327716ff30ed25bd5
+  - ref: refs/heads/controller/dwc
+    old: efadda401c5c8e2390ba66508eba154dbd0db5a9
+    new: fd3186c0bbb157375532695ab365afe4a2e6fa24
     log: |
-         be5f3f9b2d8c0ad79c719994012df64e846fb797 foo
-         a97bbf6bf60e676685d3d93327716ff30ed25bd5 foo
+         440b83f5b733ac4e6f6e3f0706bd718879859d9d PCI: dwc: Correct PCIE_DW_PLAT_EP reference in Kconfig help
+         37042d66d842ecc68c6cb26c8fa6e92e91e04a50 PCI: dwc: Rename dw_pcie_allocate_domains() to dw_pcie_allocate_msi_domains()
+         8f0b8cc3a655f56b71e6246d9ddcba71b8b3eefb PCI: dwc: Rename pp->irq_domain to pp->msi_irq_domain
+         fd3186c0bbb157375532695ab365afe4a2e6fa24 PCI: dwc: Describe DWC PCIe fields with full masks and FIELD_PREP()
          
