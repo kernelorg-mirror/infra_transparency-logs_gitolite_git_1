@@ -1,55 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0891858327539427337=="
+Content-Type: multipart/mixed; boundary="===============0934669105698738916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Sat, 17 Oct 2026 12:50:37 -0000
-Message-Id: <179224143731.2421466.14255799274935224663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
+Date: Sat, 17 Oct 2026 13:04:07 -0000
+Message-Id: <179224224771.2429414.11541131443822265551@gitolite.kernel.org>
 
---===============0891858327539427337==
+--===============0934669105698738916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/linkinjeon/smb
+user: linkinjeon
 changes:
-  - ref: refs/heads/feature/cache
-    old: 040608ca805c86f57a3f00d10eb2ed2b1a77d572
-    new: 066d48c618aca724d1d8b1e9ecd069bbf7192ed6
-    log: revlist-040608ca805c-066d48c618ac.txt
+  - ref: refs/heads/ksmbd-for-next
+    old: 5898182b0168588d033946d3fa123f366c1e825b
+    new: 54e9324af7ed1f8ecd5fb32c19c1f10e0f8885c2
+    log: revlist-5898182b0168-54e9324af7ed.txt
 
---===============0891858327539427337==
+--===============0934669105698738916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-040608ca805c-066d48c618ac.txt
+Content-Disposition: attachment; filename=revlist-5898182b0168-54e9324af7ed.txt
 
-1854eebcc09a501ae4147484423df99ea22655dd f2fs: cache: wake up f2fs_writeback when exceeding threshold
-e496e8f2afc1761b016cdb879f4903752a3502f1 f2fs: cache: support asynchronous write_end_io
-67612a7257e07feff494b818835389fe609c0a23 f2fs: introduce max_write_bio_{folio,entry}_cnt module parameters
-ca39c75957a1ec2e012251620229809ef5278fdd f2fs: remove max_atc_write_bio_size
-6726bbc5d2f08844dcfa81bef6abed603cae9670 f2fs: cache: count the temporary pins apart from the regular references
-282c5c00ce696ebf280016bd0da93e508d497f72 f2fs: convert inline quota files when turning quota on
-a7ab04509cc3382234aad923ea1a9d2d8d89bd81 MAINTAINERS: f2fs: add dev branch to git tree entry
-75ec31781d7f677ae903787fd63ef207514dc7f2 f2fs: remove mappedtodisk flag usage in mmap write path
-9dde4bdb6917466e8aefe9c97c3143fd60ea90cc f2fs: allow pinning empty compressed files
-ebdbf64ceab0e5c8536a29340e8ac4931562ce20 f2fs: read i_size once in f2fs_vm_page_mkwrite
-32b85cca0ffecda0904a8bf738824f52d1b6793b f2fs: check every cur_*_segno[] entry on readonly images
-d7d5d3c38e713c6a549edd5aa2c5dba3e2781595 f2fs: allow empty strings for journaled quota options
-0dd388309a3cd68caeae9a429ac71979811ebcac f2fs: fix termination of f2fs_sync_meta_caches()
-8a13dd461f95bdfc39c6b5c08b9fe765d9dfe649 f2fs: fix defragment writeback range truncation on 32-bit
-a3d6a1e752dfe19638c81b1d9ea001ca4ac7f74b f2fs: disallow mmap write and data-modifying fallocate on atomic files
-fc302a6a39215927857d4b83f99a77f862fcd726 f2fs: fix to invalidate curseg if change_curseg() fails
-c390af3c3e0b7ea40b65e0bb01915177b136419f f2fs: fix to use bio_in_atomic() in f2fs_write_end_io()
-9aa9359331e3f3180f1117d31a1d68e9891dc080 f2fs: fix to use bio_in_atomic() in f2fs_read_end_io()
-ce800c0440905adec782ac4453b38b0a3ce47c76 f2fs: opt in to multigrain timestamps
-c2f936976bc82b6e8529283c9ab14703461f9a64 f2fs: bound the SIT/NAT bitmaps by the checkpoint pack
-45ac1969dcafbacbf25e88bcc94aabf01e7e18da f2fs: avoid unnecessary reads in f2fs_update_meta_block()
-a9bc6996fc8a9f5f6c84d512f80686eb0456abf0 f2fs: return -EIO for a lost inode block after cp_error
-c3efe44b3405650cd36e7c81eb8f0e658c74cd1e f2fs: quota: fix quota flush failure during filesystem freeze
-d838786a1df61c937f2c9fa598a041d90329a910 f2fs: release a removed xattr node in roll-forward recovery
-066d48c618aca724d1d8b1e9ecd069bbf7192ed6 f2fs: introduce metadata cache
+3f392e333b8b7bc95dff156463fe374ac8e043f6 ksmbd: validate security descriptor offsets before pointer arithmetic
+9ec81becbe62c897f64918cbf0ac4f3976ad960d ksmbd: release connection lock while draining old session
+387b42815e3ff0ae43050a24e82fae97a2b5d98c ksmbd: serialize oplock break ACK state updates
+2a92e0c1f7bc8e5170100b9328a8387a3f61be24 ksmbd: track delivery of queued TCP writes
+424911a9c3642cdf33caf690b21ba9ff9a26c5ce ksmbd: retry break notifications on another connection
+3903cc1cf81e2395a3f2b2e0b89c6d9e07cefa3e ksmbd: keep lease tables until their last lease is closed
+60ed80dc885a43e1925a19ee829d119532f627b5 ksmbd: index byte-range locks independently of their connection
+b8558e3316c8009169dd3491462abcb3175f5ea8 ksmbd: rebind completed CREATE replays without draining the old channel
+c3288c857be3d32deade7c036615b7356d19e8fb ksmbd: track SMB2 locks above OFFSET_MAX in server lock table
+bf6c2a46cc3314cebec7cf7a572bb78262cdba2b ksmbd: expire unacknowledged oplock breaks
+f5aaa6e964b0fabb1aeebd087db4fc09d28bec22 ksmbd: expire unacknowledged lease breaks
+b8068d1e6bf5eab41944b5c798ffec5b5572f582 ksmbd: support SMB2 quota query and set information
+62b24865b094547e594401bd023cd4b1127eeb7b ksmbd: validate POSIX negotiate contexts
+fc8ed717f35275712a05a69431634cec605c229a ksmbd: validate POSIX create contexts
+5a19c34b3cb23457e834c9ec4c9006f1f01f3793 ksmbd: enforce POSIX append-only writes
+63dd7e7a74826b22351247e7fde7ac790fd389d5 ksmbd: apply byte-range lock checks per open
+2b2ed0cc7336435cb769f68259f488b04fadb6d6 ksmbd: use requested mode in POSIX creates
+e584ac31b1e7c2c0c609357376c226f155e61e15 ksmbd: apply POSIX mode ACEs in security updates
+6efc486dc4128b81163c7fcec705c4f85afb5d38 ksmbd: correct POSIX file metadata in responses
+0bb73ff11e68cbe1ab668a581fd1fa3279d652e4 ksmbd: include filenames in POSIX query info
+26f3ac0a05fbbc456c2a74d487624355d8b8196e ksmbd: require POSIX opens for file and directory queries
+c68e8c6116f722b0528193b09a7d3a79184e2886 ksmbd: query POSIX filesystem info through the open file
+77d9ec22d3f3a30ce18fad8ef152da9fd6b04707 ksmbd: correct POSIX filesystem block size and response length
+9a222d4d0cfdd11418331ba3ca2c0fe25025c337 ksmbd: reject FSCTL_SET_ZERO_DATA on a directory handle
+6c9534e73506b2f45069964322e4ca2af04589af ksmbd: defer connection scavenging while session locks are busy
+225acd53bab16083272f2b3c5235af4faddc7267 ksmbd: hold a connection reference for each session channel
+34eb25e89f595564abbfd833cfbb9fd0b776afa5 ksmbd: limit sessions on each connection
+54e9324af7ed1f8ecd5fb32c19c1f10e0f8885c2 ksmbd: reclaim ended sessions on logoff, setup and expiration
 
---===============0891858327539427337==--
+--===============0934669105698738916==--
