@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sat, 17 Oct 2026 13:26:05 -0000
-Message-Id: <179224356558.2446285.241798871207497617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sat, 17 Oct 2026 13:27:33 -0000
+Message-Id: <179224365324.2446960.5622639762707942316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: 2b1060a8368e0d393e0aefa455c16403f41ed12c
-    new: 72171dda0de3d8b8ceb87e1810202bedcddd2316
+  - ref: refs/heads/experimental
+    old: 5cd5e054ab65f51a275cb0d4c96dda68fe517a34
+    new: 96a0c19e399c2b0a5c054af185f7ce37ecebce1d
     log: |
-         81e097a064b28b4a1f6ca1a8b433e659c1bd64c0 scsi: libsas: Fix SMP IO deadlock during HA resume
-         ec6b083915e8146e147314a5f4f1285d07b57bfc scsi: bsg: Pass reply_len to bsg_setup_queue() to fit UFS ARPMB replies
-         72171dda0de3d8b8ceb87e1810202bedcddd2316 Merge branch 'fixes' into for-next
+         96a0c19e399c2b0a5c054af185f7ce37ecebce1d erofs-utils: xattr: initialize shared_xattrs in erofs_xattr_init()
          
