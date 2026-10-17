@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2403849609477211899=="
+Content-Type: multipart/mixed; boundary="===============8858947347067572653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sat, 17 Oct 2026 11:14:33 -0000
-Message-Id: <179223567321.2353753.6315717607130907438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sat, 17 Oct 2026 11:19:53 -0000
+Message-Id: <179223599343.2357519.3435301373253541896@gitolite.kernel.org>
 
---===============2403849609477211899==
+--===============8858947347067572653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 993224fb7222a4ffc995d6cfd2e95c1265f00145
-    new: 18763247759cfcae248b4dfa2c7660db399724f1
+  - ref: refs/heads/staging-testing
+    old: cccafd0f36d8c30d4dcbdce26971dab15e8ab25b
+    new: 73883f977783b1f5d3b97b87692fbdb59332ecc7
     log: |
-         18763247759cfcae248b4dfa2c7660db399724f1 update url for .reference for CVE-2026-99999
+         69bf6c34492c7bc5fdb4edd57c595ade13f18b18 staging: greybus: Remove unused header declaration to_fw_mgmt_connection
+         58c928a77cbf808b5ff49668e0f82a9414479cea staging: greybus: uart: fix argument alignment
+         73883f977783b1f5d3b97b87692fbdb59332ecc7 staging: greybus: Align function arguments
          
 
---===============2403849609477211899==
+--===============8858947347067572653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792235669 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1792235669-9109474206a0db1a41f773f1e92ed3e7235b5ce1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792235988 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1792235987-e8568924ad7256409ddc8ffd78e23e22c2777f71
 
-993224fb7222a4ffc995d6cfd2e95c1265f00145 18763247759cfcae248b4dfa2c7660db399724f1 refs/heads/master
+cccafd0f36d8c30d4dcbdce26971dab15e8ab25b 73883f977783b1f5d3b97b87692fbdb59332ecc7 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrTWJYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U+YP/iivYCI9mf5xht4quQZP
-51y9y4xLwUHRXIbf+XydZF2d4iAx4K77nxqxhEhLLMm2ZCWGC0MMXDxs94VZ9kN8
-tFtxV5zAwp33Gbi5HBjALwGZBw3PtgHLgIijrpHrn0BHxR4kQi246z/KQcpz9nkX
-8cnv/Lss7lnaw0k2EewHHK/saov/jeIRLdnMjG0rAi7A6M/Zcfzzbxp7Qprh1LSY
-GjXgAIww9+WMJxNLgtJp7Qfj5SoI7pOr1W8NoX4ciQA7qJAnv2mquQR1pi965NxO
-B3/HezKIFygiynlgPF7RMZgV41TFnjXbFDbK9oovJPDd62BKsGDXf2iOPTiKwPFj
-xH2NMW6tuua02Sgxpn2oiRfOtTI1rD4G+YQ4YGflNPsR9kZSm/17uIlb2HdKCgAL
-qUCp+VH0EDfkJ6tsLpIoW1UjSuFZIIw3i3FUBjQVCeuQj5Zfo/5HzqmtfZ/g/3Ko
-ujdRsFH59AxQrEQkFa+Itk0LM213Y30zBqE1uENVfEx1jtCohCg6IAg1orSOAu8v
-mkaHnrHESJC/dBsoKyf2froA8Z0YJCfX1zOrG2z4pSmoP/zUPyjwxBDfs9Lu4Wht
-kGFIcT+simgq/fpROCvyOHONXtIxp+yay4X/cadB8PoUZLDiQRC5dcDzQaH5B3PV
-Lo/ZK911cvX1wQgEqZONdFBQ
-=zTSy
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrTWdQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kKoQAM3fAGFGlxkWhsVAVKvi
+LGf1fTmMsFjhjR8eUutTEdjhcBsPAhOl+vSX3D7b5QlrkMTdi0c5zj+0S4n0RUtZ
+r570ClomGbtV50hTlGupjvEVsINxWDNjV3Sxql+Gc6VtY+AbBj5xlBfoxuWhvksz
+TljVgOLDdYJ8wBHUfFsPLgu/hRJzYwVxQd+caiGsCAMjpFIWgEma+518ZH7JDeXx
+Lw20p/V6iEGyhhIVQaImZSYsIF8pMcbzBIAJjd+Ho+xSkOpL3AvElH5vC9qaqXGE
+oimRxHPZ6z0SuKBHDyWIrP+OaUXvozcT3YS+X9cKhdUwbgaXTCn9BVenwKLJx7Dh
+qcrgeJxLhWiFkzH29h8UXbtHbIkRZIJgsYfvtxdpmTbN8joY0A3FKF2piT+OqFwX
+6USDT5O3YUu3ExkFNHvxodjC30ppuJnNuBDqGpT08T1i0ZIuS58Tr+2DbKfAniah
+W61BhqBluP2f4u9TLtXCdq++Tw2sLgHd+/dStcM4p/hV9gRgebdGAtFJ+cW9wsdz
+MVUXF4Bs8yAWrSXd+32iXY3hKVdzP/9DNF1jfnGhnjgwqkEL4lcLXwcaQ6iADjvk
+/l+LHCoJ54DeLtIU17R+hE9uWhphM3L6uu9DNhVlomZjxDUewmyRbtqKPr0zFzL1
+ECQDtEiRZcRjr600yxLueffz
+=Op4M
 -----END PGP SIGNATURE-----
 
---===============2403849609477211899==--
+--===============8858947347067572653==--
