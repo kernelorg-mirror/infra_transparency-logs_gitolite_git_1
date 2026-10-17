@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 17 Oct 2026 18:19:02 -0000
-Message-Id: <179226114268.2658567.6474298529045646277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sat, 17 Oct 2026 18:41:10 -0000
+Message-Id: <179226247045.2675026.15197197958549208859@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: ceb05f22e5cdc3f8bd3f7d5dcfc57843942191dd
-    new: 64683b0bac09ad4936c1b927fabb8ebef108a45c
+  - ref: refs/heads/master
+    old: fffd9d50dbf3fff652860abb70f4a6dd451bac70
+    new: 056eb59493164739daf3b48f7d36bf8b5848eac8
     log: |
-         64683b0bac09ad4936c1b927fabb8ebef108a45c iio: accel: adxl345: select IIO_BUFFER and IIO_KFIFO_BUF
+         056eb59493164739daf3b48f7d36bf8b5848eac8 foo
          
