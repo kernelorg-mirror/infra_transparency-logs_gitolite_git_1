@@ -1,35 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Sat, 17 Oct 2026 22:12:19 -0000
-Message-Id: <179227513996.2825209.6835542487344818573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Sat, 17 Oct 2026 22:18:36 -0000
+Message-Id: <179227551659.2829256.1826621510305621233@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/for-7.3-fixes
-    old: ff0545e0c263727b200f60af47d0364e4d041bde
-    new: 680edc7f23ad71e0ecce8a2364af3ae7f30dd11a
+  - ref: refs/heads/kbuild-next
+    old: a7d32fa14bc74d1786a2f0513b6f0815bd4be311
+    new: 2b358510d5cc56164f83110ca1499c95a5a352cd
     log: |
-         680edc7f23ad71e0ecce8a2364af3ae7f30dd11a sched_ext: Don't queue balance callbacks from a core-sched pick
-         
-  - ref: refs/heads/for-7.4
-    old: db87a8f530b62d43033ff41172d479d2ccd6fee3
-    new: 9c0af54cb49ce84d05ff40dfc7c8b6daa4450809
-    log: |
-         ff0545e0c263727b200f60af47d0364e4d041bde sched_ext: Don't leave balance callbacks queued across a pick retry
-         680edc7f23ad71e0ecce8a2364af3ae7f30dd11a sched_ext: Don't queue balance callbacks from a core-sched pick
-         9c0af54cb49ce84d05ff40dfc7c8b6daa4450809 sched_ext: Merge branch 'for-7.3-fixes' into for-7.4
-         
-  - ref: refs/heads/for-next
-    old: 3499908e695587029477ad4a433afd908654da07
-    new: b11249f4de5bb0d0fe271221c05970e793ca7e07
-    log: |
-         680edc7f23ad71e0ecce8a2364af3ae7f30dd11a sched_ext: Don't queue balance callbacks from a core-sched pick
-         9c0af54cb49ce84d05ff40dfc7c8b6daa4450809 sched_ext: Merge branch 'for-7.3-fixes' into for-7.4
-         b11249f4de5bb0d0fe271221c05970e793ca7e07 Merge branch 'for-7.4' into for-next
+         c8dd1aa0274d8ad3df82ec1b064065f410ce99ed gen_init_cpio: stop parsing on lines with a missing argument list
+         72a61a7fef954152abd9df9def4f94816eb344ca checkkconfigsymbols.py: Parse Git status output line by line
+         2160297cabd4bd121ef2e7327c6a6f376c0fbf3c kconfig: cleanup stale comment about 'keys' array
+         52f26261e27dbdb7c6dea75d8f1a92ea805b2c58 kconfig: fix infinite loop in conf_choice() when no choice value is visible
+         a8f72a75b38a153d32a59b2ebca1d7079db1dd1a kconfig: use the value argument in sym_get_near_range_bound()
+         d26ab84593e63bc5395ed9b518502830fda3367c clang-tools: Import os for broken pipe handling
+         3bf2237f59af842e546fa4b2c146198db95d1519 scripts/make_fit: Ignore schema checks when decomposing DTBs
+         46d4ccf3b621368af5e98187e9e21dccd8beb5cc localmodconfig: Explicitly report boolean configs during integrity check
+         2b358510d5cc56164f83110ca1499c95a5a352cd kbuild: AutoFDO: Update split machine function argument for upstream rename
          
