@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 17 Oct 2026 23:11:20 -0000
-Message-Id: <179227868042.2868211.12562737142577566095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Sat, 17 Oct 2026 23:17:28 -0000
+Message-Id: <179227904809.2872141.11665035127648228309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 14265c34a21884789d862d527271fbfc69ecc896
-    new: 2b8d4cd20ac83792dc19e8c8bed3f7bbdb4efa5d
+  - ref: refs/heads/for-next
+    old: 9f7f7a85945156d5c7626390a8c46d43d5159abc
+    new: 6c8098e04ee4d233399e40e7311715844910f8f8
     log: |
-         2b8d4cd20ac83792dc19e8c8bed3f7bbdb4efa5d iio: imu: inv_mpu6050: fix swapped accel and gyro startup times
+         6c8098e04ee4d233399e40e7311715844910f8f8 power: supply: qcom_battmgr: report full batteries
          
