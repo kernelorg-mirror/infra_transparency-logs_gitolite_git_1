@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1859518386628552644=="
+Content-Type: multipart/mixed; boundary="===============8918792689123415102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 17 Oct 2026 05:42:07 -0000
-Message-Id: <179221572731.2063378.15676383508226017516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 17 Oct 2026 05:48:05 -0000
+Message-Id: <179221608508.2067388.13980007155982451019@gitolite.kernel.org>
 
---===============1859518386628552644==
+--===============8918792689123415102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 893584e7e390c44bf547235749c72f931108a2d7
-    new: b1e4892f63c52d395060e413715f957ca771170d
+  - ref: refs/heads/master
+    old: 3609997fa66070caca63857d344864a5a27f8574
+    new: b450b80dda79ee4a5e98496a1bd287e0c609613f
     log: |
-         b1e4892f63c52d395060e413715f957ca771170d USB: core: document purpose of interface parent reference
+         b450b80dda79ee4a5e98496a1bd287e0c609613f more fuzz cleanup
          
 
---===============1859518386628552644==
+--===============8918792689123415102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792215732 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1792215726-51c5f8740e76e3992376a814b267255085e950fd
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792216089 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1792216083-5642820e5c88d02d93817cfa173ee474bcd5ec0c
 
-893584e7e390c44bf547235749c72f931108a2d7 b1e4892f63c52d395060e413715f957ca771170d refs/heads/usb-next
+3609997fa66070caca63857d344864a5a27f8574 b450b80dda79ee4a5e98496a1bd287e0c609613f refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrTCrQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IOYP/2fb5x9vbdSu0iQ2MpeS
-4ZApM6/H1+veMVkTVW9qeVHiUQ5ZEB/qjyoQrkGTGDBEIG/pJKyiM7tQ3XaeQrdK
-ANq9Dj2ifejhQ96vlMpzCBoWrw91Ls4RUkLVE61p6Def8dhSgjDj+HiRP+FPNyuy
-O3gHv+e21tdnTw8CZ4UwjSZ5MQ7LBYxjr06mm+TsTZ6ZfCnal9NredLBEoP3H/dx
-J+0FDTy1FhpMNaoC0S4t54kUGn/g6ddJURN1UkGRH+WjosKhZnHfWVypR/EQD7UD
-l6kb6SwoEqG3O5feau9RA6eveGwV+I/9bGQZcZ7B1wb0JeEEE8zUtTmpecnaIUJ4
-wgi6PzXwmlbUW+T4opADfLuPzlEXkhT5bUMd5Lrhn4uiYiuVAD/EO+tsO2g+dV2L
-J8yYcSk2v/g86Xkma5oUIps97hu8u/aT+5lxjOz1n6fMcV05uCyP6fJpN1yaVDD1
-emN6yT6BPNhuh0ujyjY911PQgTN5YrFqhaYxe8VZYCqd7hwR/JgqltVGpROIO/Xn
-xxVBMazSC4NGy3S1ROhe0l3E+Rytzjmc9fjhhHkJdb/sETR14NcOzublc+BzjPF1
-IVub/xV3zvlGO530E6QOzfW6DZHX+B1FefbXzwsAYurrRwIWmPpcMfEjXPjU/C4p
-xFxb4ZYuaxJbNbrNwtYq3Nzd
-=97Zs
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrTDBobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CDQQAMFv8kFipccL2YTNmA47
++dHisaFUIV7wl0KE9HIPTT8nVuFVhkownbLxNpm6iCt31jbl7bPOfsVTdyjYxk3v
+hwKCx/sW3IeGgnIjxVQDbvHTYGmrRD3imwPHz4FohOkBCL+Q/d5nkg0jIyzDHutS
+mQ2frlONihf6eIKX9mzVoIqwixO+/Lva1mBbWqAc8MnKlvuHPFYwBM2fJdOXWz3N
+mq+GdG7CmcnfCRrfwMcFqdUuU1KvKT/1NQcMtiM3TR297xkoWddQnThTIhjnb2yf
+hmsvDPk1ONOXMZFvD0GAHjS8KqWPcMNlpOJn0ZDJ6SRIgwAECxj7P/+lfvPdrvjh
+ux34NY4lDm7VKMMt+1qqVFFnalw+0iA+TrF0BZx9c/7lKajcZfKzbxvzWyLQL2VE
++E2UcPQSw5xbfg8E8yAb/VLdL87cusJ1M2T9RS7PAJgwkA9TKdYZ5gXZGTy4aE5o
+SqrbXL4blC73ZCuxjTUc60IgcjUlrt9azjKOXNzfpsK4AUcymWHCxAN5gURVOyY3
+aP8djBGqncLDhLjS7oIY/5f10JsntwRTVPm6pRz1bF2MY/zy5zEgJfdwU8je8LlP
+OXRBWkkd7jjibm38WjjWtvW2hiYhIrogXHA3k/ykbMQ2fKN4CkmyP9k5Rekxf6hi
+8lo+WvWyP/Y6DQX7Je5cqxwt
+=reLU
 -----END PGP SIGNATURE-----
 
---===============1859518386628552644==--
+--===============8918792689123415102==--
