@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4296515711832136654=="
+Content-Type: multipart/mixed; boundary="===============1339487028109127772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 17 Oct 2026 17:43:52 -0000
-Message-Id: <179225903299.2632218.18069100909214649968@gitolite.kernel.org>
+Date: Sat, 17 Oct 2026 17:43:57 -0000
+Message-Id: <179225903725.2632428.5245768758129996186@gitolite.kernel.org>
 
---===============4296515711832136654==
+--===============1339487028109127772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 63562804f25cb5b6f5e4f5e3a9f0d1c3c6868596
-    new: 48fe11c8d0f1e4e59426a3606f20ac1130b6d8dc
-    log: revlist-63562804f25c-48fe11c8d0f1.txt
+  - ref: refs/heads/mm-unstable
+    old: 437a7e839def0f505277022622fc59a8b071d6cf
+    new: b306deee4cba9b6965a31b7d644f2a92574cd322
+    log: revlist-437a7e839def-b306deee4cba.txt
 
---===============4296515711832136654==
+--===============1339487028109127772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63562804f25c-48fe11c8d0f1.txt
+Content-Disposition: attachment; filename=revlist-437a7e839def-b306deee4cba.txt
 
 a25ce6299a2f983f410b51b4d6d9623bf4ca74cb mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
 b2b5c61bd1a8cd59e029258f354b4675a03a123e mm/vmalloc: use dedicated unbound workqueues for vmap drain
@@ -246,7 +246,5 @@ d79c41502f914b8d4600de021b13b4982e9a08b8 resource: report a devm_request_resourc
 33d2389a8868eec4b456fec73b3fceee829dc75e mm: warn on unaligned compound zone device ranges
 6b674937955b7778f63b88de46fe5252c31588c1 selftests/mm: skip hugetlb cgroup v2 tests without the needed controllers
 b306deee4cba9b6965a31b7d644f2a92574cd322 mm/page_vma_mapped: continue past nonmatching huge PMDs
-d6e5ebff344042c3d6d3e0e121f991c1f506afe3 riscv: mm: fix concurrency in mark_new_valid_map()
-48fe11c8d0f1e4e59426a3606f20ac1130b6d8dc riscv: mm: exclude invalid THP PMDs from page table check
 
---===============4296515711832136654==--
+--===============1339487028109127772==--
