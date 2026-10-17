@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 17 Oct 2026 16:13:44 -0000
-Message-Id: <179225362416.2565761.1621488951884390014@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Sat, 17 Oct 2026 16:14:39 -0000
+Message-Id: <179225367992.2566357.13211941104960673776@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: 0ce5ed82db4092d86ced0b817786cae8ebe6a9f2
-    new: 3d9a6bcc85b6e3990289207eb80d88c6668bed44
+  - ref: refs/heads/pending
+    old: 5f8feb20a48c8e87fc7235e034c604424aa0106a
+    new: a657d6d67110b07d07c38f4e870df99eb74c5c33
     log: |
-         87df0c6a009e09dc438e7ff0bd2b3281ce0000d6 patches/next: use lowercase subjects
-         0586012db7a12ac47a3e9f437674ae98a842ac8e patches/next: add cpu cycle based monitoring interface usage
-         3d9a6bcc85b6e3990289207eb80d88c6668bed44 patches/next: update lru_sort doc fix from Manuel
+         a657d6d67110b07d07c38f4e870df99eb74c5c33 wifi: wil6210: Replace %pK with %p
          
