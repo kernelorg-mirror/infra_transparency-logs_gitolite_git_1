@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 17 Oct 2026 01:47:01 -0000
-Message-Id: <179220162136.1887681.15213257895155393761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 17 Oct 2026 01:47:15 -0000
+Message-Id: <179220163573.1887955.178560350606546956@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 645f5fcf7a5582f5d6ed2322f41cb34076c63b2c
-    new: 458575e1f2ddea944d679fe778c92e370a9b61a4
+  - ref: refs/heads/main
+    old: b4423835d9c528c242531c7ba455b4f687906acb
+    new: 8b0244ca4fa4e717ffe6874f7eadc59ebb6ae5ba
     log: |
-         458575e1f2ddea944d679fe778c92e370a9b61a4 bpf: Don't echo user-supplied map info fields back to userspace
+         fa38468cd26b4db34ab2b335f1904c19721f94b8 net: phy: refuse a second attach before touching the PHY
+         7151b86654fa635101cabe7f55511f54c3adcf84 net: phy: put the driver module the attach took
+         8b0244ca4fa4e717ffe6874f7eadc59ebb6ae5ba Merge branch 'net-phy-fix-a-second-attach-of-an-attached-phy-and-the-module-put-on-detach'
          
