@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8689424310384848585=="
+Content-Type: multipart/mixed; boundary="===============1444376545762612548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 17 Oct 2026 22:04:45 -0000
-Message-Id: <179227468504.2818682.2326990662623767281@gitolite.kernel.org>
+Date: Sat, 17 Oct 2026 22:04:48 -0000
+Message-Id: <179227468823.2818862.16065701881377368850@gitolite.kernel.org>
 
---===============8689424310384848585==
+--===============1444376545762612548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 5256161e3573e0e35ac5e12f8ca904cf51e77f5b
     new: c058636f788f8751e419b407206516280226e568
     log: revlist-5256161e3573-c058636f788f.txt
 
---===============8689424310384848585==
+--===============1444376545762612548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ cd0490e671d70326d70c7d36e82388939fd9b071 bpf: Assume no bounds for a writable tp
 5bdd61e98da5468140aff5b5abc0e8544deaf2ee bpf: Free what map_free() unlinks for sleepable readers
 c058636f788f8751e419b407206516280226e568 Merge branch 'bpf-memory-safety-lifetime-and-locking-fixes'
 
---===============8689424310384848585==--
+--===============1444376545762612548==--
