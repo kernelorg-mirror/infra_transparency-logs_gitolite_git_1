@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Sun, 18 Oct 2026 08:24:14 -0000
-Message-Id: <179231185470.3258888.13208716584664984649@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Sun, 18 Oct 2026 08:27:47 -0000
+Message-Id: <179231206747.3262364.13337871646307779395@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/for-next
-    old: f9532b372e415e8198287ce010efa22f337857b5
-    new: 700ce4da6f6f172435349b687d2d916e791c6330
+  - ref: refs/heads/core/hotplug
+    old: 7669746fd7a063da96baac91aad258f887d968a6
+    new: e17d3128d0a2350760b4664fda05a76be69ecf2f
     log: |
-         700ce4da6f6f172435349b687d2d916e791c6330 selftests/nolibc: explicitly disable position independent executables
+         905e94085db926c09ae7042725cf508db8f295c9 x86/boot/tboot: Move CPUHP_AP_X86_TBOOT_DYING post stop_machine()
+         e17d3128d0a2350760b4664fda05a76be69ecf2f ARM: mm: Move CPUHP_AP_ARM_CACHE_B15_RAC_DYING post stop_machine()
          
