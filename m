@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 18 Oct 2026 11:33:14 -0000
-Message-Id: <179232319429.3397963.7486656049532125863@gitolite.kernel.org>
+Date: Sun, 18 Oct 2026 11:59:56 -0000
+Message-Id: <179232479649.3415486.2729848977527565635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
   - ref: refs/heads/wip/leon-for-next
-    old: 59df57262e6fa9e6f4aa76d6d324134777c702a0
-    new: 2854f9025d4ef6c4566f71e52d7f496d9a0f5737
+    old: 2854f9025d4ef6c4566f71e52d7f496d9a0f5737
+    new: fdfd099222d9de9e2f1b8d69e94494c5489272cc
     log: |
-         4a953ee228f5544a3e5515eed88bf09d1a5adb94 RDMA/uverbs: Fix uobject leak in DMABUF release
-         2854f9025d4ef6c4566f71e52d7f496d9a0f5737 RDMA/uverbs: Fix DMABUF use-after-free during ufile cleanup
+         d01ee4c84193196b6e4be4caf1ff8fdcc441ed96 RDMA/core: Preserve the selected source GID on failed AH modification
+         d74bdcfa89fa45d3a506cddc37b3bf1b76cea0ce RDMA/core: Free unpublished port statistics after initial-read failure
+         fdfd099222d9de9e2f1b8d69e94494c5489272cc RDMA/core: Reject LAG selection when source MAC lookup fails
          
