@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 18 Oct 2026 12:13:27 -0000
-Message-Id: <179232560787.3426421.14283957203633307432@gitolite.kernel.org>
+Date: Sun, 18 Oct 2026 12:17:28 -0000
+Message-Id: <179232584826.3429878.14637719083154870014@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
   - ref: refs/heads/wip/leon-for-next
-    old: 9ffd2aa8b53b044a61f939e8fba5ec250c5fddd9
-    new: 4b8f20dc8d25f575e8b8bb5abb09ab803a7e1a3f
+    old: 4b8f20dc8d25f575e8b8bb5abb09ab803a7e1a3f
+    new: d89ac72bd2deff15756cde6d5d70b41ae1b94290
     log: |
-         4b8f20dc8d25f575e8b8bb5abb09ab803a7e1a3f RDMA/srp: Avoid reading uninitialized has_port on srp_parse_in() failure
+         d89ac72bd2deff15756cde6d5d70b41ae1b94290 dt-bindings: infiniband: Convert hisilicon,hns-roce-v1 to DT schema
          
