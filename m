@@ -1,27 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 18 Oct 2026 12:57:59 -0000
-Message-Id: <179232827975.3459031.3631201498174578441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Sun, 18 Oct 2026 13:15:34 -0000
+Message-Id: <179232933408.3471941.12483058790237198854@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
   - ref: refs/heads/for-next
-    old: 59df57262e6fa9e6f4aa76d6d324134777c702a0
-    new: 7d7214b39b14c9763c14445b139f63369063b65e
+    old: 7b00b66bdb92a0028ecb7fe343d4517dc1e95017
+    new: ae20f20e962cffe9a3baf189b12eb176f4058c63
     log: |
-         4a953ee228f5544a3e5515eed88bf09d1a5adb94 RDMA/uverbs: Fix uobject leak in DMABUF release
-         2854f9025d4ef6c4566f71e52d7f496d9a0f5737 RDMA/uverbs: Fix DMABUF use-after-free during ufile cleanup
-         d01ee4c84193196b6e4be4caf1ff8fdcc441ed96 RDMA/core: Preserve the selected source GID on failed AH modification
-         d74bdcfa89fa45d3a506cddc37b3bf1b76cea0ce RDMA/core: Free unpublished port statistics after initial-read failure
-         fdfd099222d9de9e2f1b8d69e94494c5489272cc RDMA/core: Reject LAG selection when source MAC lookup fails
-         9ffd2aa8b53b044a61f939e8fba5ec250c5fddd9 RDMA/irdma: Fix PBLE_LEVEL_2 FRWR generation
-         4b8f20dc8d25f575e8b8bb5abb09ab803a7e1a3f RDMA/srp: Avoid reading uninitialized has_port on srp_parse_in() failure
-         d89ac72bd2deff15756cde6d5d70b41ae1b94290 dt-bindings: infiniband: Convert hisilicon,hns-roce-v1 to DT schema
-         7d7214b39b14c9763c14445b139f63369063b65e RDMA/rxe: Clear pkt->qp before the early drop exits in rxe_rcv()
+         0ee7441e3cb247624f76cbcbb944d4c1483879d6 firewire: core: use workqueue to cancel all pending transactions on card removal
+         b71530e1d005ac626c39ceb3c0c0fd2503451a19 firewire: core: check precondition when scheduling error callbacks
+         ae20f20e962cffe9a3baf189b12eb176f4058c63 firewire: core: use context analysis to check lock state when scheduling error callbacks
          
