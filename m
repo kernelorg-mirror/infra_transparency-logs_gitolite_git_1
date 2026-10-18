@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 18 Oct 2026 19:41:52 -0000
-Message-Id: <179235251205.3810452.11556005809040613157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Sun, 18 Oct 2026 19:42:18 -0000
+Message-Id: <179235253894.3810888.1463143291326027061@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: andrii
 changes:
   - ref: refs/heads/master
-    old: 2c7935600733c2168b81d3f0f31247ed20d54be0
-    new: 0007654a7bf13ef2a19afd398bbc6507087f19fd
-    log: |
-         0007654a7bf13ef2a19afd398bbc6507087f19fd lib/buildid: reject file offsets that do not fit in pgoff_t
-         
+    old: fb4bbaf11e3c506b070bb1fe2bb410b3d26f48cb
+    new: ff47652a4b66c067c765a7ad464d930b5a9367cc
