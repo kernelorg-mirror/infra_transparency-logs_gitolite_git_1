@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4637091768725734798=="
+Content-Type: multipart/mixed; boundary="===============7655006419211980386=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sun, 18 Oct 2026 09:12:20 -0000
-Message-Id: <179231474061.3296977.1880127044696911798@gitolite.kernel.org>
+Date: Sun, 18 Oct 2026 09:14:21 -0000
+Message-Id: <179231486116.3297777.3337185967041181012@gitolite.kernel.org>
 
---===============4637091768725734798==
+--===============7655006419211980386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-7.4
-    old: ba982c33278c1fc739c8c220f410d6539de9d9b9
-    new: 2d26ecb9830e3d2f9b6c853054cd16e1a1e8e6d4
-    log: revlist-ba982c33278c-2d26ecb9830e.txt
+  - ref: refs/heads/for-next
+    old: 2450a9bcd3423612f614ea15ff44966fed189191
+    new: cf8c1e5892eca07a46e7f1d9d7f66c4eac267c59
+    log: revlist-2450a9bcd342-cf8c1e5892ec.txt
 
---===============4637091768725734798==
+--===============7655006419211980386==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba982c33278c-2d26ecb9830e.txt
+Content-Disposition: attachment; filename=revlist-2450a9bcd342-cf8c1e5892ec.txt
 
 1ba2cb30eeab2b9b9d576f87a80a750f04b4bfa7 ASoC: amd: Explain component open return value handling
 ec2e1434c7f78f59ef26d12d3ed6560de9202e6c ASoC: apple: Explain DAI startup return value handling
@@ -56,5 +56,7 @@ f5f5bfcecf65a2a20ed391490b31ac7f6008a5be ASoC: dt-bindings: ti,pcm1681: Document
 22a72cf1d60c55e5cd3d03fcfdb5a92af0dc590e ASoC: dt-bindings: qcom,sm8250: Add Nord sound card
 6e539c02b04bd6700eab5d5115639646118f7fde ASoC: qcom: sc8280xp: Add Nord sound card support
 2d26ecb9830e3d2f9b6c853054cd16e1a1e8e6d4 ASoC: qcom: Add Nord audio support
+1b57b1cf77f9bfac397561b4a33795e558ee72e9 Merge asoc-linus into asoc-next
+cf8c1e5892eca07a46e7f1d9d7f66c4eac267c59 Merge asoc/for-7.4 into asoc-next
 
---===============4637091768725734798==--
+--===============7655006419211980386==--
