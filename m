@@ -1,41 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1724554802771280261=="
+Content-Type: multipart/mixed; boundary="===============4969474049382454798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
-Date: Sun, 18 Oct 2026 18:54:50 -0000
-Message-Id: <179234969046.3775657.15758920539877581421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sun, 18 Oct 2026 18:59:22 -0000
+Message-Id: <179234996249.3779299.1384162105311473900@gitolite.kernel.org>
 
---===============1724554802771280261==
+--===============4969474049382454798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lindholm/alpha
-user: lindholm
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: 740217bd7ed9caaaa59dec061ba7e836e208939e
-    new: 71cf9644bcb35e686c3e12a703325335a0925946
-    log: revlist-740217bd7ed9-71cf9644bcb3.txt
+  - ref: refs/heads/keys-rhashtable
+    old: 67da11ee5f9bcc83da4e2243276955cfb6a096dc
+    new: 6a2c9f9494af0f3a8ea8b849e0db0b0a52575035
+    log: revlist-67da11ee5f9b-6a2c9f9494af.txt
 
---===============1724554802771280261==
+--===============4969474049382454798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-740217bd7ed9-71cf9644bcb3.txt
+Content-Disposition: attachment; filename=revlist-67da11ee5f9b-6a2c9f9494af.txt
 
-bceba446fa2bc66a905ec0bbf6fd80e98701c1d1 alpha: fix stale user_stack_pointer()
-501bcb5953cc4d56537a321c00f9193e9fd68718 alpha: stop storing the user stack pointer in pt_regs
-c5280a56dc4cbcbbfd3256a0fd58071587e928b0 alpha: use user_stack_pointer() in KSTK_ESP() and dump_elf_thread()
-9280e99d87ddd8c6c7fd83f9ea1585967b3dcd60 alpha: add HAVE_PERF_REGS and HAVE_PERF_USER_STACK_DUMP support
-1a85a03fc2fe180c1ddc91b4a801d313321d9e53 alpha: fill in pc for software event samples
-2c8792df90e565d5a280549f37f5c5563f76ebe3 alpha: move Tsunami machine check handling to err_tsunami.c
-6634cb1490ba8d3d7fccfbbf4028e702da4e2e8f alpha: describe the Tsunami system machine check frame
-a182df7ceae5d75a7fdc5dc211ccebdd821697bf alpha: bound EV6 logout decoding by the processor area
-ea2b073b4f31f334354479b993160788610c779d alpha: decode and acknowledge Tsunami system machine checks
-73b8c00851e27ac3497d50d4ecc59892b0cc5577 alpha: decode Clipper environmental events
-71cf9644bcb35e686c3e12a703325335a0925946 alpha: add bounded Clipper console-log scanning
+bad009f72be925e4551e87beacaf8e025fbb23ee KEYS: Change the type of key->quotalen to unsigned int
+8ec3a79785389328fcc1e70dcce687584d08ff98 KEYS: Change the type of key->datalen to unsigned int
+246706765faeb92b59a1a860f3cc3addb6cad373 KEYS: Reject @desclen values over U16_MAX in key_alloc()
+b905ce8120629b9800a94a69bab6551b2169b40b KEYS: Prevent overflow of user->qnkeys in key_alloc()
+2b0f4b6643bc18c8c232cd1de322d15734654d10 KEYS: Prevent overflow of quota in key_alloc()
+afe7e9e927a6ba62e667cd51f19ec027493c43a6 KEYS: Prevent overflow of user->qnbytes in key_alloc()
+fb9bcb76e8e62b6d8f5eee62b06414b9ca78aa5b KEYS: Reject @datalen values over INT_MAX
+71113887bf6b06ad825a1f3feca7590367569485 KEYS: Check payload quota growth before addition
+ffaf6e0c93beb72816326eeb60c8ca655b66775e KEYS: verify key identity on unlink and move
+cbd1fc19cc331fcf668f49d15d9e980c7ce42378 KEYS: Add keyring_is_empty() for {fs,dm}-verity
+a911ea894665197bc2a51a60d1036e508f0249c5 KEYS: Replace assoc_array with struct keyring_index
+6a2c9f9494af0f3a8ea8b849e0db0b0a52575035 lib: Remove unused assoc_array
 
---===============1724554802771280261==--
+--===============4969474049382454798==--
