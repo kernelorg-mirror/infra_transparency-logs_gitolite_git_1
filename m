@@ -1,42 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============4969474049382454798=="
+Content-Type: multipart/mixed; boundary="===============0628803267353153922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 18 Oct 2026 18:59:22 -0000
-Message-Id: <179234996249.3779299.1384162105311473900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 18 Oct 2026 19:05:44 -0000
+Message-Id: <179235034489.3785513.15900139165948622994@gitolite.kernel.org>
 
---===============4969474049382454798==
+--===============0628803267353153922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/keys-rhashtable
-    old: 67da11ee5f9bcc83da4e2243276955cfb6a096dc
-    new: 6a2c9f9494af0f3a8ea8b849e0db0b0a52575035
-    log: revlist-67da11ee5f9b-6a2c9f9494af.txt
+  - ref: refs/heads/master
+    old: a0ff06b3a7bd3aa0cd99d0294e60b3ed28c9bfac
+    new: 8486d357129126e27fb5d4e02622566bafc77035
+    log: revlist-a0ff06b3a7bd-8486d3571291.txt
 
---===============4969474049382454798==
+--===============0628803267353153922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67da11ee5f9b-6a2c9f9494af.txt
+Content-Disposition: attachment; filename=revlist-a0ff06b3a7bd-8486d3571291.txt
 
-bad009f72be925e4551e87beacaf8e025fbb23ee KEYS: Change the type of key->quotalen to unsigned int
-8ec3a79785389328fcc1e70dcce687584d08ff98 KEYS: Change the type of key->datalen to unsigned int
-246706765faeb92b59a1a860f3cc3addb6cad373 KEYS: Reject @desclen values over U16_MAX in key_alloc()
-b905ce8120629b9800a94a69bab6551b2169b40b KEYS: Prevent overflow of user->qnkeys in key_alloc()
-2b0f4b6643bc18c8c232cd1de322d15734654d10 KEYS: Prevent overflow of quota in key_alloc()
-afe7e9e927a6ba62e667cd51f19ec027493c43a6 KEYS: Prevent overflow of user->qnbytes in key_alloc()
-fb9bcb76e8e62b6d8f5eee62b06414b9ca78aa5b KEYS: Reject @datalen values over INT_MAX
-71113887bf6b06ad825a1f3feca7590367569485 KEYS: Check payload quota growth before addition
-ffaf6e0c93beb72816326eeb60c8ca655b66775e KEYS: verify key identity on unlink and move
-cbd1fc19cc331fcf668f49d15d9e980c7ce42378 KEYS: Add keyring_is_empty() for {fs,dm}-verity
-a911ea894665197bc2a51a60d1036e508f0249c5 KEYS: Replace assoc_array with struct keyring_index
-6a2c9f9494af0f3a8ea8b849e0db0b0a52575035 lib: Remove unused assoc_array
+2e42cade8ff1ff579e77976d9869db4df1feaf74 regmap: irq: Free the irqdomain we create
+aaabefc79b0ff0018e8e3832169bbe359d0551fc i2c: viai2c-wmt: Fix clock leak in wmt_i2c_probe()
+8cb5c17be3a2fadc41075d04ce1c24c831546aaf i2c: qcom-geni: Restore the source-clock selection policy
+834035934cef9e60169de682f4dc9feafd49e51a regmap: Remove debugfs before cache teardown
+abff0a48b110fe52d43999b4cb7c793a510a6bf1 regmap: Drop map lock during cache init and exit
+d5a821f66047c2effd06147b84775f9b2ce0f4aa regmap: Fix cache lifecycle locking and teardown
+195f3d74b5de98969dc4fad956393bb00787efd1 i2c: qcom-cci: Fix HALT_ACK reset request being dropped
+8980bc573ae2d2b9d86d76aeb86c76e1597070bf spi: tegra114: assert CS GPIO for every transfer in a message
+d33373c565af9c8a28776af02bd20ba6e5724211 i2c: xiic: restore non-managed runtime PM to fix clk WARN flood
+59eb22641f0c526dd064390b11cff99ae87c2858 spi: imx: fix slab corruption from undersized DMA bounce buffers
+4eac392e48fc0ddc6d5ac10d57aac7245c17d0d9 spi: spi-fsl-lpspi: pass struct fsl_lpspi_data instead of struct spi_controller if possible
+b0f0c761ed3fa10754dc9295db85374a173123b7 spi: spi-fsl-lpspi: directly return ret in fsl_lpspi_transfer_one()
+72732cbee632b1be22b636813c9be3df55c72bd9 Merge tag 'i2c-fixes-7.3-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
+3d679a244e0deb65d31cb02f1d1dcb790fcfcae2 Merge tag 'regmap-fix-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
+8486d357129126e27fb5d4e02622566bafc77035 Merge tag 'spi-fix-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 
---===============4969474049382454798==--
+--===============0628803267353153922==--
