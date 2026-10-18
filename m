@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Sun, 18 Oct 2026 15:16:32 -0000
-Message-Id: <179233659252.3617423.10117255074143858646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Sun, 18 Oct 2026 15:17:32 -0000
+Message-Id: <179233665213.3617854.9360729088359737574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fsverity/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/tags/fsverity-for-linus
-    old: daf7a6f38d6e8a60917ee56a396d09c85704c4c3
-    new: b3a4735b0ce901e99f5d08175353a2f7cbaf52bb
+  - ref: refs/heads/x86-pie-v4
+    old: 3f486af5d6cc9644ec7b7c07bd2e56a257e9bca0
+    new: 216a3b273e8799fc66b8782b7622e9b03a9b4c0d
     log: |
-         b08e4ee274917074633a41b3598d5541cee2b914 MAINTAINERS: List the fsverity branches
-         1ab73b0f96a5e0ef641f41476139027aad9de2b6 fsverity: report validation errors through fserror to fsnotify
-         7a59a56fe4f3eda430c5aeda3c4bb4913da2395c fsverity: expose ensure_fsverity_info()
-         ad7be74b38d83a31cd76c9cdc1bcc4cddbf03bd6 fsverity: pass digest size and hash of the all-zeroes block to ->write
-         9e74c01463f608d72f2da55d0ffe870f03edd124 fsverity: hoist pagecache_read from f2fs/ext4 to fsverity
-         85cdd23fcae7fb71f4832b2a6f89db0ed121db28 fsverity: don't allow setting DAX file attribute on fsverity files
-         f9e450420da2624c93ce9585deebfabb87932774 fsverity: hoist statx reporting of fs-verity flag
+         216a3b273e8799fc66b8782b7622e9b03a9b4c0d x86/entry: Simplify __HANDLE_INTR_SAFERET and make it PC relative
          
