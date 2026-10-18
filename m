@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5656800715643350020=="
+Content-Type: multipart/mixed; boundary="===============1134821036453605755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 18 Oct 2026 00:41:07 -0000
-Message-Id: <179228406758.2932160.14040221957034501239@gitolite.kernel.org>
+Date: Sun, 18 Oct 2026 00:41:10 -0000
+Message-Id: <179228407070.2932460.2709418683790226641@gitolite.kernel.org>
 
---===============5656800715643350020==
+--===============1134821036453605755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: c058636f788f8751e419b407206516280226e568
     new: a6303535c2ad9d49598d52556183911f02287791
     log: revlist-c058636f788f-a6303535c2ad.txt
 
---===============5656800715643350020==
+--===============1134821036453605755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ ab08863c58b1a96ff8378e373cb3d277cbe65b68 bpf: Use memmove() to store bytes in an
 a6f8a67c13ddd5fcfee0fae61ec5787ee6729ab3 bpf: Refuse packet slices for packet-changing helpers
 a6303535c2ad9d49598d52556183911f02287791 Merge branch 'bpf-memory-safety-lifetime-and-locking-fixes-followups'
 
---===============5656800715643350020==--
+--===============1134821036453605755==--
