@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 18 Oct 2026 12:17:28 -0000
-Message-Id: <179232584826.3429878.14637719083154870014@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sun, 18 Oct 2026 12:25:03 -0000
+Message-Id: <179232630300.3435037.6255576631507297169@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 4b8f20dc8d25f575e8b8bb5abb09ab803a7e1a3f
-    new: d89ac72bd2deff15756cde6d5d70b41ae1b94290
+  - ref: refs/heads/asoc-7.4
+    old: 2d26ecb9830e3d2f9b6c853054cd16e1a1e8e6d4
+    new: 73be2ee656f2722d498504259b9f1fdef8419431
     log: |
-         d89ac72bd2deff15756cde6d5d70b41ae1b94290 dt-bindings: infiniband: Convert hisilicon,hns-roce-v1 to DT schema
+         e06bf60ee5bffa9eeacff0bf8b03d4572b04f67d ASoC: codecs: sta32x: Fix definition of limiter threshold controls
+         77623752c156763d7a80414afe5b769ba4532bd3 ASoC: codecs: sta350: Fix definition of limiter threshold controls
+         f28c09b7e62fb5ead65bdfab93012a86d64b6540 ASoC: tlv320aic32x4: Fix definition of TAS2505 HP Driver Gain Volume control
+         73be2ee656f2722d498504259b9f1fdef8419431 ASoC: codecs: Fix more control definitions that write another control's bits
          
