@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Sun, 18 Oct 2026 15:24:55 -0000
-Message-Id: <179233709594.3622976.3325870038206164205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sun, 18 Oct 2026 15:26:53 -0000
+Message-Id: <179233721319.3625919.11546553331735679098@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/tags/i2c-fixes-7.3-rc8
-    old: 0000000000000000000000000000000000000000
-    new: f5d2420ed03dce1c695a31985e92a4bdb2591d8d
+  - ref: refs/heads/master
+    old: 73a5accbfd210bda7e88e969310f15f8e515dc86
+    new: 8cebaa3be829c88a59957900f8de98fed09daefe
+    log: |
+         8cebaa3be829c88a59957900f8de98fed09daefe locking/atomic: arc, hexagon, openrisc: Define arch_cmpxchg_local()
+         
