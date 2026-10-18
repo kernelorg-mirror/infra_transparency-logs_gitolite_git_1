@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 18 Oct 2026 12:25:03 -0000
-Message-Id: <179232630300.3435037.6255576631507297169@gitolite.kernel.org>
+Date: Sun, 18 Oct 2026 12:25:23 -0000
+Message-Id: <179232632302.3436401.12300855373617173096@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: 2d26ecb9830e3d2f9b6c853054cd16e1a1e8e6d4
-    new: 73be2ee656f2722d498504259b9f1fdef8419431
+  - ref: refs/heads/spi-7.4
+    old: 6c59290d62e7dac745a2cbf6a40d2e1f8dedb73f
+    new: 84182c48999f856c3865e4a537c244f9569c9f6c
     log: |
-         e06bf60ee5bffa9eeacff0bf8b03d4572b04f67d ASoC: codecs: sta32x: Fix definition of limiter threshold controls
-         77623752c156763d7a80414afe5b769ba4532bd3 ASoC: codecs: sta350: Fix definition of limiter threshold controls
-         f28c09b7e62fb5ead65bdfab93012a86d64b6540 ASoC: tlv320aic32x4: Fix definition of TAS2505 HP Driver Gain Volume control
-         73be2ee656f2722d498504259b9f1fdef8419431 ASoC: codecs: Fix more control definitions that write another control's bits
+         84182c48999f856c3865e4a537c244f9569c9f6c spi: ch341: handle transfers without a TX or RX buffer
          
