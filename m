@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Sun, 18 Oct 2026 04:26:27 -0000
-Message-Id: <179229758730.3095071.11475733535568155192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 18 Oct 2026 05:12:39 -0000
+Message-Id: <179230035929.3126546.2112442043199580491@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: f5d35ce9180d921cdc3fbcd37f922a277b034904
-    new: 7b00b66bdb92a0028ecb7fe343d4517dc1e95017
+  - ref: refs/heads/master
+    old: 58161ead29e50d70a317ea26b472e0c7508e69da
+    new: 32c52ec87d6245ee2d12ed5dd509e40062939b50
     log: |
-         036b476129dc217d928f316dec1191142805d6d2 firewire: core: don't disable error work for transaction
-         7b00b66bdb92a0028ecb7fe343d4517dc1e95017 firewire: core: reuse helper function for scheduling error callbacks
+         32c52ec87d6245ee2d12ed5dd509e40062939b50 x86/insn-eval: Fix shadowed segment index in get_seg_reg_override_idx()
          
