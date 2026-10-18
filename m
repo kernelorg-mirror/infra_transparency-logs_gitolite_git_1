@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0503195512231654370=="
+Content-Type: multipart/mixed; boundary="===============4451697383269538518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sun, 18 Oct 2026 22:57:31 -0000
-Message-Id: <179236425190.3947747.5156784260385808002@gitolite.kernel.org>
+Date: Sun, 18 Oct 2026 22:57:34 -0000
+Message-Id: <179236425475.3947873.9758090007383530779@gitolite.kernel.org>
 
---===============0503195512231654370==
+--===============4451697383269538518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-testing-canary-dontcache
-    old: c96c11e9eb039bbea2035dfc10e2261df1f54798
-    new: 1842647450ad323ac9037fd8479c2e0d16584e04
-    log: revlist-c96c11e9eb03-1842647450ad.txt
+  - ref: refs/heads/kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO
+    old: eee3cc1c055eab486126c287c65ec6ecc7a8cb8d
+    new: 6ef04578e819d1b0702c057268f1257b9b31b9ee
+    log: revlist-eee3cc1c055e-6ef04578e819.txt
 
---===============0503195512231654370==
+--===============4451697383269538518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c96c11e9eb03-1842647450ad.txt
+Content-Disposition: attachment; filename=revlist-eee3cc1c055e-6ef04578e819.txt
 
 954e461ee5d6c1763e142d4ac1d35179edf5eef6 NFSD: cut a misaligned direct-mode WRITE at page boundaries
 c6f4eb03a2cce80a39651f289e357a29bb5d49a8 NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
@@ -38,5 +38,13 @@ f9f3de3ea8014befabe1b766db122e09c549d330 mm: add folio_mark_dropbehind() to mark
 269015efb7fc64d75d2f5c0e6a79eb7d3278c838 mm, iomap: keep a partly covered page until an uncached write completes it
 9d2a8ed03991bd88b125459db687a6309e3d7835 mm, iomap: let an uncached writer complete its shared pages itself
 1842647450ad323ac9037fd8479c2e0d16584e04 NFSD: drop a shared boundary page only once both WRITEs have written it
+6653f59b7e55a774f25253827e23642bc45f12ee Merge branch 'kernel-7.3/snitzer-nfs-fixes-canary' into kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO base
+3e3d1a17cb0de02681f08ac86459f4c47f9ec6dd NFS: invalidate LOCALIO direct-write post-op attributes at completion
+b67bcef5d178e1e21cf46a7c7d34ecd72a743d09 nfs_common: share direct I/O write split and boundary-page helpers
+0ad62a36ddf8988ce13ba2019dc3f1e493ea4e65 nfs_common: share the rule for persisting a split direct write once
+02db255ed326558e47fe5efbb26581fa66d14af6 NFS/localio: split direct writes using NFSD provided nfs_common code
+7c8fd0e3c3a2052ffcbfe7066c3a16c8132af676 NFS/localio: persist a synchronous direct write once, after all its segments
+0d9126f7e988881392dd5031edb651aca242a832 nfs_common: fix the skip accounting in nfs_dio_iter_aligned()
+6ef04578e819d1b0702c057268f1257b9b31b9ee NFS/localio: complete a direct write that shares a page before it returns
 
---===============0503195512231654370==--
+--===============4451697383269538518==--
