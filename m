@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============8312942966144130592=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 18 Oct 2026 15:11:42 -0000
-Message-Id: <179233630217.3613647.16100850846869955378@gitolite.kernel.org>
-
---===============8312942966144130592==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/fs/fsverity/linux
+Date: Sun, 18 Oct 2026 15:16:32 -0000
+Message-Id: <179233659252.3617423.10117255074143858646@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/fs/fsverity/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 1c8c691bbe2c291c0834064d3e4f1f5fd65b3445
-    new: 09474508a25136186da7e4fcbdce5d8e6a6f5842
+  - ref: refs/tags/fsverity-for-linus
+    old: daf7a6f38d6e8a60917ee56a396d09c85704c4c3
+    new: b3a4735b0ce901e99f5d08175353a2f7cbaf52bb
     log: |
-         09474508a25136186da7e4fcbdce5d8e6a6f5842 add 7.2.9 review from greg
+         b08e4ee274917074633a41b3598d5541cee2b914 MAINTAINERS: List the fsverity branches
+         1ab73b0f96a5e0ef641f41476139027aad9de2b6 fsverity: report validation errors through fserror to fsnotify
+         7a59a56fe4f3eda430c5aeda3c4bb4913da2395c fsverity: expose ensure_fsverity_info()
+         ad7be74b38d83a31cd76c9cdc1bcc4cddbf03bd6 fsverity: pass digest size and hash of the all-zeroes block to ->write
+         9e74c01463f608d72f2da55d0ffe870f03edd124 fsverity: hoist pagecache_read from f2fs/ext4 to fsverity
+         85cdd23fcae7fb71f4832b2a6f89db0ed121db28 fsverity: don't allow setting DAX file attribute on fsverity files
+         f9e450420da2624c93ce9585deebfabb87932774 fsverity: hoist statx reporting of fs-verity flag
          
-
---===============8312942966144130592==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792336298 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1792336298-d2f88385ad87216f8db75fd8a75160c1a88a1871
-
-1c8c691bbe2c291c0834064d3e4f1f5fd65b3445 09474508a25136186da7e4fcbdce5d8e6a6f5842 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrU4aobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+12gP/2ziMP40deVEzO0jF9rd
-CpF16qVgw0AMDtHQ2Sy+fxNorLpZDKgbxZBvCQSugpJmIQGQ4pQZyk1xH5b8GM32
-hAHCe2sPJUoURDWTpc5EtM9uq75TzCMJujzE4YaH9P76eXrZMlJkRGJOE5NODgtJ
-1wP8bdVtD05yuaB+oa6g2twmaydY0xDj+Ttt9FZR4CJKGq1ijzTghN72pHDaglWf
-u1ASy4+i8hz0B8/+x1O5foPn0fJSI47+ISUVovnUlYpWxqjXQAfs8F+jU/hYDrTj
-gSPWZyxJ/HYjhMOJm0/EbBlWRVIN2x43sG2CcrP9+Wmvu8UjtKmUkqPLKlWEBN1A
-O21nFC2X8/L0+gv+MtWlYVGDDF+BMJjoSwKxFwATV+TePpPENvB/Y5Oh6oz+JXuB
-W2K7kKyy3byRgUT6+vPXHdjlcAnUG92to8tRB/ZkFn4qwQZgo8UQdlMFnVCA8IMd
-pLkUaQS2C1mPFCE59dOhpBA5nq4Bg6NSPRhYgB53jazg+7Vy1UVQHXTXDJa9A7oF
-pKEpfSkFk1Wgx89rPv3d+GPh1CPEMfEg2h9sCsD+xeUiMefGiRglBEHrSYglx5qq
-6RBD3bFZbUuQW8qwp4l1dE0/7AaeJok4WSdtdiPV60PZtAaYm7HdWlnBMfohnX83
-DurMfE9mbEySKZscr+FnbUG3
-=pm8V
------END PGP SIGNATURE-----
-
---===============8312942966144130592==--
