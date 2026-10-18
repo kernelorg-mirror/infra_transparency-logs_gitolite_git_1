@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 18 Oct 2026 12:28:42 -0000
-Message-Id: <179232652219.3437882.10889492434534497213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 18 Oct 2026 12:46:41 -0000
+Message-Id: <179232760176.3451109.10795956903284355933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: d89ac72bd2deff15756cde6d5d70b41ae1b94290
-    new: 7d7214b39b14c9763c14445b139f63369063b65e
+  - ref: refs/heads/master
+    old: 93a3643779fe7b8d5226da3ff2af60415fdaf2b4
+    new: 706ae33ef50bce9d84dc20eb6601c4298917389e
     log: |
-         7d7214b39b14c9763c14445b139f63369063b65e RDMA/rxe: Clear pkt->qp before the early drop exits in rxe_rcv()
+         706ae33ef50bce9d84dc20eb6601c4298917389e Fixes for all trees
          
