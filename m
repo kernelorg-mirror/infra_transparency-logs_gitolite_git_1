@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 18 Oct 2026 04:17:44 -0000
-Message-Id: <179229706495.3088177.10446424879614531113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Sun, 18 Oct 2026 04:26:27 -0000
+Message-Id: <179229758730.3095071.11475733535568155192@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/master
-    old: 76effaafb1babc4deba7993390a930271307bc0c
-    new: 842302d93de30a807e11b8d042380b0545f145bb
+  - ref: refs/heads/for-next
+    old: f5d35ce9180d921cdc3fbcd37f922a277b034904
+    new: 7b00b66bdb92a0028ecb7fe343d4517dc1e95017
     log: |
-         842302d93de30a807e11b8d042380b0545f145bb foo
+         036b476129dc217d928f316dec1191142805d6d2 firewire: core: don't disable error work for transaction
+         7b00b66bdb92a0028ecb7fe343d4517dc1e95017 firewire: core: reuse helper function for scheduling error callbacks
          
