@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6022284831678208301=="
+Content-Type: multipart/mixed; boundary="===============3476469191896793880=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 18 Oct 2026 08:03:12 -0000
-Message-Id: <179231059285.3242059.18294867538890741311@gitolite.kernel.org>
+Date: Sun, 18 Oct 2026 08:03:40 -0000
+Message-Id: <179231062059.3242337.2151550618027126003@gitolite.kernel.org>
 
---===============6022284831678208301==
+--===============3476469191896793880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
+  - ref: refs/heads/char-misc-next
     old: 3de5aa458dede472a253266d02902bd95af8e849
     new: 10c833da4dde3d9bb19e2092a33abafdaa16a341
     log: revlist-3de5aa458ded-10c833da4dde.txt
 
---===============6022284831678208301==
+--===============3476469191896793880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792310586 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792310619 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1792310586-699e2e9e5d02d58ef3d84f6a8dd1149375ff3973
+nonce 1792310619-e79d00cb7cf901dbe48b41af888a89e89f0f31b2
 
-3de5aa458dede472a253266d02902bd95af8e849 10c833da4dde3d9bb19e2092a33abafdaa16a341 refs/heads/char-misc-testing
+3de5aa458dede472a253266d02902bd95af8e849 10c833da4dde3d9bb19e2092a33abafdaa16a341 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrUfTobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+g7IQAIHlHF6brjPdnzKuoUBu
-RUrEkSsn16bM84f90CyeMb5WeIgje78B7AK+gS1yYittUtYMqNkMf0QD1uDq9diH
-4ZkqSVexROGIetK9OX+s0QUYJOdWg15AsDqwCPe8xQSTFlF1lUMMKQJ0YXjDt0dn
-WELhL8ekwliUp/q6Hpwo7ifRdLY/4sSF/nDIYDDUopvxYXk7smon5e1a6lNK7Fe8
-4bD6RMotVVCH5YYgjI4egSqilTKdHZ9m10HSGu76XaMEtIfEsFWO5ru7gGpKb60A
-bgIHlpB+2cIQTiJprBvWLIRCx9GvaRL8+m2UFX6vlQ91TMUGcyDfxHJtbFGSrwfh
-ChLLz2iB9/XrGoMxQr8ybTLHUwMfA9SyI7y/U+P6I//hSDuWFS4m9PuiXq3461PJ
-2AAUZZS/35FEcVwDZCAfI33Yp5sx46IZvci0E8MIDc5CLzswIZ96z9JUBpoW3fkq
-1YzRk2oJSM/IXHofbPVYBs1z3A20NXqgPL6/f9dYHdQCSAAB73Hz42egnMQUwNCD
-JenWRmmLe7z3+/Lcq0vMuKtgqkpyY/zVgkyWuDJRrvEeLPzEtZGqgXwYPLaPOSSG
-OY3AtRfg9zjqdjhRg3brDa4sJTDiCnqBztavzEIR8rjEYrOfSfe7z1+oJRChWPJG
-bsWwwaHjyanmNAW2n5KTG9NT
-=KPag
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrUfVsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bm8P/2g0gfl9olhOrCilTpKa
+R7hbL7Dr/ohE4gUnJLO1w9AkhS/fr4PrLpSbMl2rkb5KtSlg6LQ5vTHGwRbcWNxf
+WemXsOAT064Yb2cDJVzkAzAHcpFWdSFweKJN/2AaPAgORzoMU23cRj8dWMoG5bFA
+xVhUeUs5koYweg57zXmu4LFL2VuU7wTcg9hMVmKnmMSTZ6HRe8cBJ4Nbg5yOnB/L
+N9Gl6e7i20SnYOlk3/USauyrtq/ywR6cuL9zVfVdKblLThx7NOJZOJQMR//AGxWN
+t3kl0ULZY/aI4bbDb7dkxwEm7tcxgghBjOUDyZI21a8i2fSAwnN1vEOkCjhQC2nr
+YreI6uqegXHo3DVNvTReWe4i5GRquKcJPnnf9rPo8kHr25UNvk/YFRz9mbp2EUpt
+Q/7ZMKEP6hMecnfNpMJB4dUQm8bsiAT8Xil3TA1qWCleLxmW3ywdMnghZn9EaYxJ
+9oGbsTyQNGCG2fzGVwZ0/lzxLVto17USFwouDZbv5N4Zg047MeXFb9g3RDjkHWd0
+th20XAA/jqFrPozY91XssU9+yRjZF/QDgpqvNyinDpEbrPcIPPbRYAhgK/YSoFls
+kL7SuMrqPvS7b6SewR78axCIE7PbrkeDLlWQQqeBudVj+8sOgwDEwo0fz0aJmObt
+6KEHT3Xyhe3cQvJNvjpLVyTY
+=Q8+b
 -----END PGP SIGNATURE-----
 
---===============6022284831678208301==
+--===============3476469191896793880==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -76,4 +76,4 @@ c8f1aa63942f5e06cbecf3390fd57c92a4f44dd5 iio: adc: qcom-spmi-iadc: Remove regmap
 8f70c729e68c3e02ccca6d13c733175489fdc069 MAINTAINERS: Add Abel as SPMI co-maintainer
 10c833da4dde3d9bb19e2092a33abafdaa16a341 Merge tag 'spmi-for-next' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sboyd/spmi into char-misc-next
 
---===============6022284831678208301==--
+--===============3476469191896793880==--
