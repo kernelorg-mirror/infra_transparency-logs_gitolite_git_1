@@ -1,19 +1,79 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Sun, 18 Oct 2026 06:45:56 -0000
-Message-Id: <179230595619.3190898.3801039855311967653@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6022284831678208301=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sun, 18 Oct 2026 08:03:12 -0000
+Message-Id: <179231059285.3242059.18294867538890741311@gitolite.kernel.org>
+
+--===============6022284831678208301==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/smb
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: 28628ce7d7a77db537556d1437410a3dca4e35f5
-    new: ed4d42fc9315196df3f4ecdedfe940d1885e0526
-    log: |
-         ed4d42fc9315196df3f4ecdedfe940d1885e0526 ksmbd: inherit FileIds in related compound requests
-         
+  - ref: refs/heads/char-misc-testing
+    old: 3de5aa458dede472a253266d02902bd95af8e849
+    new: 10c833da4dde3d9bb19e2092a33abafdaa16a341
+    log: revlist-3de5aa458ded-10c833da4dde.txt
+
+--===============6022284831678208301==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792310586 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1792310586-699e2e9e5d02d58ef3d84f6a8dd1149375ff3973
+
+3de5aa458dede472a253266d02902bd95af8e849 10c833da4dde3d9bb19e2092a33abafdaa16a341 refs/heads/char-misc-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrUfTobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+g7IQAIHlHF6brjPdnzKuoUBu
+RUrEkSsn16bM84f90CyeMb5WeIgje78B7AK+gS1yYittUtYMqNkMf0QD1uDq9diH
+4ZkqSVexROGIetK9OX+s0QUYJOdWg15AsDqwCPe8xQSTFlF1lUMMKQJ0YXjDt0dn
+WELhL8ekwliUp/q6Hpwo7ifRdLY/4sSF/nDIYDDUopvxYXk7smon5e1a6lNK7Fe8
+4bD6RMotVVCH5YYgjI4egSqilTKdHZ9m10HSGu76XaMEtIfEsFWO5ru7gGpKb60A
+bgIHlpB+2cIQTiJprBvWLIRCx9GvaRL8+m2UFX6vlQ91TMUGcyDfxHJtbFGSrwfh
+ChLLz2iB9/XrGoMxQr8ybTLHUwMfA9SyI7y/U+P6I//hSDuWFS4m9PuiXq3461PJ
+2AAUZZS/35FEcVwDZCAfI33Yp5sx46IZvci0E8MIDc5CLzswIZ96z9JUBpoW3fkq
+1YzRk2oJSM/IXHofbPVYBs1z3A20NXqgPL6/f9dYHdQCSAAB73Hz42egnMQUwNCD
+JenWRmmLe7z3+/Lcq0vMuKtgqkpyY/zVgkyWuDJRrvEeLPzEtZGqgXwYPLaPOSSG
+OY3AtRfg9zjqdjhRg3brDa4sJTDiCnqBztavzEIR8rjEYrOfSfe7z1+oJRChWPJG
+bsWwwaHjyanmNAW2n5KTG9NT
+=KPag
+-----END PGP SIGNATURE-----
+
+--===============6022284831678208301==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3de5aa458ded-10c833da4dde.txt
+
+82f4c1948a4f951d7d501757a31c6a10eccd37ae spmi: pmic-arb: return 0 in spmi_pmic_arb_register_buses() on success
+36bb69cf0fdddbd40961818409849aad17ea01eb MAINTAINERS: Add Qualcomm SPMI controller entry
+84c72fc05f73df3473b3bfac89c0a7eae765513a spmi: mtk-pmif: Add workaround for FSM lockup/error in read operation
+f7aa9de4f2b197cdd704cdc476901b68ee128433 spmi: Fix potential use-after-free by grabbing of_node reference
+91363e6bcd543eed5d22fe2e1cb5fdffa1c78958 spmi: Remove redundant dev_name() print in spmi_device_add()
+33cc7810a0ae1f8d57dbec88e5a2843060457550 spmi: Print error status with %pe format
+91396478267ec6e9ec73a62de2e5c56a2d963ad2 spmi: Remove unneeded goto in spmi_device_add() error path
+6e19e5d699f37e01f4e6c7b25f17cd603195d27c spmi: Implement spmi_subdevice_alloc_and_add() and devm variant
+939e80cef9a757ca3a08cd1c8665726837405c0f spmi: Add helper to get a parent SPMI device
+1e048fe2908c59c5f0cacd61e4be30d5bbc45f0e nvmem: qcom-spmi-sdam: Migrate to devm_spmi_subdevice_alloc_and_add()
+c3e4860e172b11ef57316f78142e3e3da374e523 power: reset: qcom-pon: Migrate to devm_spmi_subdevice_alloc_and_add()
+1b6603de9a71908ead619c6e8a397cac0e6625c3 phy: qualcomm: eusb2-repeater: Migrate to devm_spmi_subdevice_alloc_and_add()
+27a2dca1241cb4a485cec844185d20b42370ed76 misc: qcom-coincell: Migrate to devm_spmi_subdevice_alloc_and_add()
+6507e23579d4c8241b0fa33df6a4f330a3f0174f iio: adc: qcom-spmi-iadc: Migrate to devm_spmi_subdevice_alloc_and_add()
+c8f1aa63942f5e06cbecf3390fd57c92a4f44dd5 iio: adc: qcom-spmi-iadc: Remove regmap R/W wrapper functions
+636c4c026f47f0a7a009b1e39e310afca640a047 spmi: mtk-pmif: Fix clock reference leak in mtk_spmi_bus_probe()
+8f70c729e68c3e02ccca6d13c733175489fdc069 MAINTAINERS: Add Abel as SPMI co-maintainer
+10c833da4dde3d9bb19e2092a33abafdaa16a341 Merge tag 'spmi-for-next' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sboyd/spmi into char-misc-next
+
+--===============6022284831678208301==--
