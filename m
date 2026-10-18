@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sun, 18 Oct 2026 15:02:14 -0000
-Message-Id: <179233573409.3605477.15615802142590477540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sun, 18 Oct 2026 15:02:55 -0000
+Message-Id: <179233577507.3605786.49373429003759590@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/tags/libcrypto-for-linus
-    old: 0000000000000000000000000000000000000000
-    new: cb8fd1e32b974ffc30dc19d91a28b5ab308d9e0a
+  - ref: refs/heads/master
+    old: a6303535c2ad9d49598d52556183911f02287791
+    new: 73a5accbfd210bda7e88e969310f15f8e515dc86
+    log: |
+         73a5accbfd210bda7e88e969310f15f8e515dc86 bpf, x86: Mask the shift counts of the magic number division
+         
