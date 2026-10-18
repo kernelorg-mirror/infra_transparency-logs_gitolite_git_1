@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 18 Oct 2026 12:25:23 -0000
-Message-Id: <179232632302.3436401.12300855373617173096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 18 Oct 2026 12:28:42 -0000
+Message-Id: <179232652219.3437882.10889492434534497213@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/spi-7.4
-    old: 6c59290d62e7dac745a2cbf6a40d2e1f8dedb73f
-    new: 84182c48999f856c3865e4a537c244f9569c9f6c
+  - ref: refs/heads/wip/leon-for-next
+    old: d89ac72bd2deff15756cde6d5d70b41ae1b94290
+    new: 7d7214b39b14c9763c14445b139f63369063b65e
     log: |
-         84182c48999f856c3865e4a537c244f9569c9f6c spi: ch341: handle transfers without a TX or RX buffer
+         7d7214b39b14c9763c14445b139f63369063b65e RDMA/rxe: Clear pkt->qp before the early drop exits in rxe_rcv()
          
