@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Sun, 18 Oct 2026 17:23:57 -0000
-Message-Id: <179234423737.3712094.2875541625962047010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Sun, 18 Oct 2026 17:43:09 -0000
+Message-Id: <179234538997.3725857.10242533051005934508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: andrii
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: ff47652a4b66c067c765a7ad464d930b5a9367cc
-    new: fb4bbaf11e3c506b070bb1fe2bb410b3d26f48cb
+  - ref: refs/heads/for-7.4
+    old: 6c59290d62e7dac745a2cbf6a40d2e1f8dedb73f
+    new: 84182c48999f856c3865e4a537c244f9569c9f6c
     log: |
-         fb4bbaf11e3c506b070bb1fe2bb410b3d26f48cb lib/buildid: reject file offsets that do not fit in pgoff_t
+         84182c48999f856c3865e4a537c244f9569c9f6c spi: ch341: handle transfers without a TX or RX buffer
          
