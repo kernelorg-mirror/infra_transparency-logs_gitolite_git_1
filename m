@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Sun, 18 Oct 2026 01:50:21 -0000
-Message-Id: <179228822127.2980905.7019380862113480334@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Sun, 18 Oct 2026 01:58:20 -0000
+Message-Id: <179228870070.2985620.6361628172767468924@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/smb
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: 3fa755b64bc40d94bf10eba0c9b1924b31c7fffd
-    new: 28628ce7d7a77db537556d1437410a3dca4e35f5
-    log: |
-         28628ce7d7a77db537556d1437410a3dca4e35f5 ksmbd: inherit FileIds in related compound requests
-         
+  - ref: refs/heads/sub-attach-ecaps-v3
+    old: 0000000000000000000000000000000000000000
+    new: 1da1baf72aec2be0e77973d5014db437b001d054
