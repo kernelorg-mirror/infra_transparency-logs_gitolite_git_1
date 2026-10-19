@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8668948664939998212=="
+Content-Type: multipart/mixed; boundary="===============8726052292256539716=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 19 Oct 2026 01:17:02 -0000
-Message-Id: <179237262205.4056910.7926854491247663236@gitolite.kernel.org>
+Date: Mon, 19 Oct 2026 01:17:05 -0000
+Message-Id: <179237262511.4057166.3623518522560606571@gitolite.kernel.org>
 
---===============8668948664939998212==
+--===============8726052292256539716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-next
-    old: d0660c25145667e7336fb6b935e06d93841daa90
-    new: f602e15f0c45b44af7ca365cfb2513f5b0f15df0
-    log: revlist-d0660c251456-f602e15f0c45.txt
+  - ref: refs/heads/kernel-7.3/nfsd-testing
+    old: 5b9cd799447bb201510e22e16a164060c6a25a2b
+    new: 3ca5a1d22e37e00bbb9716d80b5ebcc9a2725840
+    log: revlist-5b9cd799447b-3ca5a1d22e37.txt
 
---===============8668948664939998212==
+--===============8726052292256539716==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0660c251456-f602e15f0c45.txt
+Content-Disposition: attachment; filename=revlist-5b9cd799447b-3ca5a1d22e37.txt
 
 dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
 a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
@@ -501,5 +501,13 @@ dcd671d4e0d2a0092fa839c03bfe527b37a2b1ef NFSD: Add a streaming directory reader
 64a91f85f335a0b687ba36feb484305d9f5d95f3 NFSD: Use xdrgen XDR functions for NFSv2 READDIR results
 56e4313ff07603783924a4a894721b46933abafc nfsd: Fix id-to-name cache entry leak in idtoname_parse()
 f602e15f0c45b44af7ca365cfb2513f5b0f15df0 SUNRPC: use assign_bit() where applicable
+dc72e0c735c3515b453f20dfe9101555632c0898 nfsd: use direct I/O only for the last operation in a COMPOUND
+99b203647dca42737e68e4296720e0c3692e8de8 SUNRPC: preserve RQ_SECURE across request deferral
+6a446fa097d35b4f7608dd360187794860e4722b NFSD: cut a misaligned direct-mode WRITE at page boundaries
+330413ae0d43ade84587bd84dc24aed5d39fd582 NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
+d69748de71d5cc970f8b67ac66e05087c84e2a95 NFSD: only split a direct-mode WRITE for a worthwhile direct middle
+a8bd96a549297d08a1c2aace0f92e83e013f0199 NFSD: add direct_misaligned_dontcache debugfs knob
+fde9b2859c501bbaa32c648c06ad6dbda32068a6 NFSD: do not use direct I/O for a READ smaller than its alignment
+3ca5a1d22e37e00bbb9716d80b5ebcc9a2725840 NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
 
---===============8668948664939998212==--
+--===============8726052292256539716==--
