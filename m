@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7360613912394280956=="
+Content-Type: multipart/mixed; boundary="===============4228516347955694758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 19 Oct 2026 01:17:28 -0000
-Message-Id: <179237264844.4058572.17067748774043951911@gitolite.kernel.org>
+Date: Mon, 19 Oct 2026 01:17:31 -0000
+Message-Id: <179237265132.4058799.5594525702457708037@gitolite.kernel.org>
 
---===============7360613912394280956==
+--===============4228516347955694758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-testing-canary-nfs4_acl-passthru
-    old: e828e8c29fb7fbcaa48cd8270e7d15622be81b43
-    new: 9d4e04164c83bbbc4d0da4bfb9684ac4baf00443
-    log: revlist-e828e8c29fb7-9d4e04164c83.txt
+  - ref: refs/heads/kernel-7.3/changelog
+    old: 8d6a2c34e705da0443b3727f87594430a063fe9b
+    new: cd7e43dd7a029b79582b75d92935024a652abd68
+    log: revlist-8d6a2c34e705-cd7e43dd7a02.txt
 
---===============7360613912394280956==
+--===============4228516347955694758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e828e8c29fb7-9d4e04164c83.txt
+Content-Disposition: attachment; filename=revlist-8d6a2c34e705-cd7e43dd7a02.txt
 
 dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
 a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
@@ -317,16 +317,17 @@ f909e534f5e34feb2ea2701d54df63e21aa506fc Merge tag 'scsi-fixes' of git://git.ker
 c03c1a14507dfaf8b856c2608f9ac216021fc222 Linux 7.3
 0095199fb1aacf73649d9b5abc0413115c0a89d6 Merge tag 'v7.3' into kernel-7.3/baseline
 b2f51d1f929536d8d741595ec011718797a10539 redhat/marker: v7.3
-7bbf7bb8bde01b60481a5a0f7264ebd2dd1b5aed exportfs: add ability to advertise NFSv4 ACL passthru support
-9c3ec241fe98e1824b9ecfdd9d7fa68f01482050 NFSD: factor out nfsd_supports_nfs4_acl() to nfsd/acl.h
-9c030b0f1b7ca39e26c1525bd38d148de2ad4a09 NFS/NFSD: data structure enablement for nfs4_acl passthru support
-ea6eeca4ae6324a5a1780b602c87559fef787410 NFSD: prepare to support SETACL nfs4_acl passthru
-aef7ce06ff2c4ef4886499f438e1416ea6dde0bd NFSD: add NFS4 reexport support for SETACL nfs4_acl passthru
-ae89e2bf18dfb68f62ef7450fb0635860245983c NFSD: add NFS4 reexport support for GETACL nfs4_acl passthru
-ab56dbb2b1b33d7eaa63ad74b83d074c539c207b NFSD: add NFS4ACL_DACL and NFS4ACL_SACL passthru support
-cf5693dc2cb46503163dfbc3af6bb56039c2b4aa NFSD: avoid extra nfs4_acl passthru work unless needed
-dfbed016e75bd8509ff09df5641f76a5a4055258 NFSv4: add reexport support for SETACL nfs4_acl passthru
-90df87d51c8da713f1085f66f019bc4a6b704500 NFSv4: add reexport support for GETACL nfs4_acl passthru
-9d4e04164c83bbbc4d0da4bfb9684ac4baf00443 NFSv4: set EXPORT_OP_NFSV4_ACL_PASSTHRU flag
+c8bc802b4a99daf4cf11c742dbc04f27b6178f51 backfill redhat/kernel.changelog-9.99 updates from previous kernels
+48b7babb222c5ce96308c55de3cb09a348ef3a0f backfill changelog updates from previous 7.0.10 kernels
+0e95203e784554eb2ca43a60060165ea7c71c9a7 backfill changelog updates from previous 7.1.5 kernels
+28c67bf1aa1682863b1fb9e325136283e5ad8a3b backfill changelog updates from previous 7.1.8 kernels
+92117207da417be4d7e85d810e083fa24d5a7a36 redhat: move .gitlab-ci.yml to redhat/upstream-ci.yml.disabled
+c393f2ce5eff6557cbf2f140a9e18daaac0c2cdd backfill changelog updates from previous 7.1.13 kernels
+7fcfb0c3e5d694b3543da383017c0ebbcd0a9603 kernel-7.3-1
+1e1d3643371bbe9cc739f98414cc72e19f55e377 kernel-7.3-2
+61af5523d311751762dec0950b948660b1336302 kernel-7.3-3
+389d2ec68763b7502ceb145f0686337c77401792 kernel-7.3-4
+77a3c8cba0bcbd031eff870c57256c7f9033f6cb kernel-7.3-5
+cd7e43dd7a029b79582b75d92935024a652abd68 kernel-7.3-6
 
---===============7360613912394280956==--
+--===============4228516347955694758==--
