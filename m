@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Mon, 19 Oct 2026 05:08:27 -0000
-Message-Id: <179238650723.29362.16461320786362475543@gitolite.kernel.org>
+Date: Mon, 19 Oct 2026 05:08:50 -0000
+Message-Id: <179238653084.29602.3732234854406328475@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/chao/linux
 user: chao
 changes:
   - ref: refs/heads/feature/cache
-    old: 9de5dc7c80801662b83c95cdf0872488ccef50e2
-    new: 974ac3c80a600a3bc33324e96498ec4342937092
+    old: 974ac3c80a600a3bc33324e96498ec4342937092
+    new: a5a883607e886a6df274961e72e113d8a85407fe
     log: |
-         974ac3c80a600a3bc33324e96498ec4342937092 f2fs: zone: don't fail to grab GC target block on zoned device
+         a5a883607e886a6df274961e72e113d8a85407fe f2fs: zone: fix to don't fail to grab GC target block on zoned device
          
