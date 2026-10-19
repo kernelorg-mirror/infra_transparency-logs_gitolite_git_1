@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 19 Oct 2026 02:16:41 -0000
-Message-Id: <179237620165.4105527.4526550355063197450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
+Date: Mon, 19 Oct 2026 02:54:38 -0000
+Message-Id: <179237847809.4130009.6009822704600663846@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/linkinjeon/smb
+user: linkinjeon
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 83884813d17aaba5251539ad0835e00e222cc5d8
-    new: 2ef6f5c4ee56e90c237c5f7687f09e635f7d30a9
+  - ref: refs/heads/ksmbd-for-next
+    old: ed4d42fc9315196df3f4ecdedfe940d1885e0526
+    new: ef31cbea834b8825d59976242b588aeb869fc2fd
     log: |
-         2ef6f5c4ee56e90c237c5f7687f09e635f7d30a9 iio: humidity: am2315: fix negative temperature decoding
+         805589d5f0ec1d6b9b6c431f2764730090910777 ksmbd: avoid restoring only in-memory EOF after allocation change
+         ef31cbea834b8825d59976242b588aeb869fc2fd ksmbd: round SetAllocation to the advertised allocation unit
          
