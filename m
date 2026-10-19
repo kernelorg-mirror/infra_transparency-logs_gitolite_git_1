@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 19 Oct 2026 00:55:48 -0000
-Message-Id: <179237134806.4034867.10321499717387672138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Mon, 19 Oct 2026 00:58:00 -0000
+Message-Id: <179237148024.4035984.3555524052140952352@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/rcu/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: d136c6878ace96a5a067e7837d26e36bf27cdd52
-    new: 0444d5e0dca44dc4ce410d8566603e3ebe292fd5
+  - ref: refs/heads/rcu/next-7.5
+    old: 9c3b2575bc33ec33cb5ec9365eb96d608645ac3f
+    new: d97263e1404c2e302ecd1203b45331ebc4c09e02
     log: |
-         0444d5e0dca44dc4ce410d8566603e3ebe292fd5 foo
+         d97263e1404c2e302ecd1203b45331ebc4c09e02 doc: Fix stale RCU_GP_WAIT_FQS value in stallwarn.rst
          
