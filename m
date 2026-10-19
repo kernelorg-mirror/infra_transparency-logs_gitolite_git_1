@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3466950202025742292=="
+Content-Type: multipart/mixed; boundary="===============4217029556351313402=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 19 Oct 2026 06:01:46 -0000
-Message-Id: <179238970625.179493.7570544165468259197@gitolite.kernel.org>
+Date: Mon, 19 Oct 2026 06:03:38 -0000
+Message-Id: <179238981821.180206.7944315666299439410@gitolite.kernel.org>
 
---===============3466950202025742292==
+--===============4217029556351313402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,17 +16,57 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: aacd2a9507b9fad8eb505c0e493b88779fe35d74
-    new: f7ad4fd199b90dae4d391cf26c0b23c360cec7df
-    log: revlist-aacd2a9507b9-f7ad4fd199b9.txt
+    old: f7ad4fd199b90dae4d391cf26c0b23c360cec7df
+    new: c803a3f002ec36285d15c462ac3519198207bb3a
+    log: revlist-f7ad4fd199b9-c803a3f002ec.txt
+  - ref: refs/heads/tip/urgent
+    old: aa4ed52ee9be72d2b807ae13dd4ec3f0bc0c1b85
+    new: 5f68525de8f13335cf22f6127005e65c7c68b48f
+    log: revlist-aa4ed52ee9be-5f68525de8f1.txt
+  - ref: refs/tags/v7.3
+    old: 0000000000000000000000000000000000000000
+    new: 091b06388b117fefdcb63336ac09956a4914b961
 
---===============3466950202025742292==
+--===============4217029556351313402==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aacd2a9507b9-f7ad4fd199b9.txt
+Content-Disposition: attachment; filename=revlist-f7ad4fd199b9-c803a3f002ec.txt
+
+5f68525de8f13335cf22f6127005e65c7c68b48f Merge branch into tip/master: 'x86/mm'
+388a334a79e0320e45754b215cf37e3fad3d140f Merge branch into tip/master: 'perf/merge'
+2344be20e7ae5e503af271831ad14a3cdedded20 Merge branch into tip/master: 'irq/core'
+37bc7db6ba531077c7588593d22a24191be6295b Merge branch into tip/master: 'irq/drivers'
+a11907c8bba7d45b9e0dee0dfdc841a2b9b6ca96 Merge branch into tip/master: 'locking/core'
+4967317ba9596dd49dcdf21734e32dd030ea579d Merge branch into tip/master: 'objtool/core'
+f3eb31a0a04dc5496979c38a730963d120c7d917 Merge branch into tip/master: 'perf/core'
+06591adbea5fd972a2a7e48d73fdd481f5fbb96e Merge branch into tip/master: 'sched/core'
+fa50caa80392d313d4a23d73df03f45afcb7ce3b Merge branch into tip/master: 'timers/clocksource'
+c8819c441c9fbfa11dd377f983c7996bb1683034 Merge branch into tip/master: 'timers/core'
+722cf787e5d2b251c34e17b0866a7e3e29b48cfc Merge branch into tip/master: 'timers/nohz'
+e65e51c1eade82b3bb138ab6a07b7211bdecd16e Merge branch into tip/master: 'timers/vdso'
+c8c7858244ab67a9b2590423433b77dc05feaef1 Merge branch into tip/master: 'x86/asm'
+834d5ee34725236d47b5316d8a6bc9a3ec422292 Merge branch into tip/master: 'x86/boot'
+382e5cba8504549740921aaea280126ed0ae586c Merge branch into tip/master: 'x86/bugs'
+42514619a7e165c5008af9264db4964b1086ac03 Merge branch into tip/master: 'x86/cache'
+3cbc9918ed521529c28fe268efff658978996455 Merge branch into tip/master: 'x86/cleanups'
+c53bb1693c6e58051eceafdc32772baa491fae09 Merge branch into tip/master: 'x86/cpu'
+a3340eead77c6a3910196bcc90342cf039179dae Merge branch into tip/master: 'x86/kdump'
+dca854fa1c324e9c80b7b83a2f31169ddece525a Merge branch into tip/master: 'x86/microcode'
+4447a1735161d32513c29537c801bc246aa94d3c Merge branch into tip/master: 'x86/misc'
+e29fb28673c135b241f61b89fe79902ba39c6eaf Merge branch into tip/master: 'x86/platform'
+7b3a28d68a74ecaa03aba8de6ad79be81ecefc6e Merge branch into tip/master: 'x86/sev'
+d59acecc9d09fd7644ef8d9cfea12a9fe4463c7e Merge branch into tip/master: 'x86/sgx'
+c803a3f002ec36285d15c462ac3519198207bb3a Merge branch into tip/master: 'x86/tdx'
+
+--===============4217029556351313402==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-aa4ed52ee9be-5f68525de8f1.txt
 
 2e42cade8ff1ff579e77976d9869db4df1feaf74 regmap: irq: Free the irqdomain we create
+41d1119e2f8577b4bd01d31321c6761af9140ce7 x86/kcfi: Emit the FineIBT paranoid "cs" prefix as a byte
 aaabefc79b0ff0018e8e3832169bbe359d0551fc i2c: viai2c-wmt: Fix clock leak in wmt_i2c_probe()
 8cb5c17be3a2fadc41075d04ce1c24c831546aaf i2c: qcom-geni: Restore the source-clock selection policy
 834035934cef9e60169de682f4dc9feafd49e51a regmap: Remove debugfs before cache teardown
@@ -60,6 +100,6 @@ a0ff06b3a7bd3aa0cd99d0294e60b3ed28c9bfac Merge tag 'firewire-fixes-7.3-final' of
 8486d357129126e27fb5d4e02622566bafc77035 Merge tag 'spi-fix-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 f909e534f5e34feb2ea2701d54df63e21aa506fc Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 c03c1a14507dfaf8b856c2608f9ac216021fc222 Linux 7.3
-f7ad4fd199b90dae4d391cf26c0b23c360cec7df Merge branch 'linus'
+5f68525de8f13335cf22f6127005e65c7c68b48f Merge branch into tip/master: 'x86/mm'
 
---===============3466950202025742292==--
+--===============4217029556351313402==--
