@@ -1,33 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============8174688514664760766=="
+Content-Type: multipart/mixed; boundary="===============4890282824182465550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 19 Oct 2026 18:28:37 -0000
-Message-Id: <179243451759.762797.5073278647646032549@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 19 Oct 2026 18:29:47 -0000
+Message-Id: <179243458723.763510.14096793500253102683@gitolite.kernel.org>
 
---===============8174688514664760766==
+--===============4890282824182465550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: d0db3d89effa1ebff996584671f03cad9409f257
-    new: d5d6ab681f71ea11653e76311910b70ee38e6da6
-    log: revlist-d0db3d89effa-d5d6ab681f71.txt
+    old: 0b9bc2a3c36b742f372ce72d6bd3049841a48dc1
+    new: e7295d8301c4d643fec9ff2988ac861c4b0e77f0
+    log: revlist-0b9bc2a3c36b-e7295d8301c4.txt
   - ref: refs/tags/v7.3
     old: 0000000000000000000000000000000000000000
     new: 091b06388b117fefdcb63336ac09956a4914b961
 
---===============8174688514664760766==
+--===============4890282824182465550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d0db3d89effa-d5d6ab681f71.txt
+Content-Disposition: attachment; filename=revlist-0b9bc2a3c36b-e7295d8301c4.txt
 
 93de2a6a4b91b72607136dd656edf03fb399d27f KVM: SEV: Do cache maintenance on the source VM during intra-host migration
 c2f24f140c2ee6c00775c2a93c6ac931acec2b60 Merge tag 'kvm-x86-fixes-7.3-rc5' of https://github.com/kvm-x86/linux into HEAD
@@ -1052,6 +1052,6 @@ a0ff06b3a7bd3aa0cd99d0294e60b3ed28c9bfac Merge tag 'firewire-fixes-7.3-final' of
 8486d357129126e27fb5d4e02622566bafc77035 Merge tag 'spi-fix-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 f909e534f5e34feb2ea2701d54df63e21aa506fc Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 c03c1a14507dfaf8b856c2608f9ac216021fc222 Linux 7.3
-d5d6ab681f71ea11653e76311910b70ee38e6da6 selinux: add a SELinux specific README.md and SECURITY.md
+e7295d8301c4d643fec9ff2988ac861c4b0e77f0 lsm: add a LSM specific README.md and SECURITY.md
 
---===============8174688514664760766==--
+--===============4890282824182465550==--
