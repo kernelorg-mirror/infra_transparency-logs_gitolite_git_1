@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8726052292256539716=="
+Content-Type: multipart/mixed; boundary="===============4890652118141480783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 19 Oct 2026 01:17:05 -0000
-Message-Id: <179237262511.4057166.3623518522560606571@gitolite.kernel.org>
+Date: Mon, 19 Oct 2026 01:17:08 -0000
+Message-Id: <179237262816.4057307.10724354534790488408@gitolite.kernel.org>
 
---===============8726052292256539716==
+--===============4890652118141480783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-testing
-    old: 5b9cd799447bb201510e22e16a164060c6a25a2b
-    new: 3ca5a1d22e37e00bbb9716d80b5ebcc9a2725840
-    log: revlist-5b9cd799447b-3ca5a1d22e37.txt
+  - ref: refs/heads/kernel-7.3/nfsd-testing-canary-dontcache
+    old: 1842647450ad323ac9037fd8479c2e0d16584e04
+    new: c05296845cbab3f7ff353f997a3ba55c09b4b402
+    log: revlist-1842647450ad-c05296845cba.txt
 
---===============8726052292256539716==
+--===============4890652118141480783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5b9cd799447b-3ca5a1d22e37.txt
+Content-Disposition: attachment; filename=revlist-1842647450ad-c05296845cba.txt
 
 dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
 a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
@@ -509,5 +509,11 @@ d69748de71d5cc970f8b67ac66e05087c84e2a95 NFSD: only split a direct-mode WRITE fo
 a8bd96a549297d08a1c2aace0f92e83e013f0199 NFSD: add direct_misaligned_dontcache debugfs knob
 fde9b2859c501bbaa32c648c06ad6dbda32068a6 NFSD: do not use direct I/O for a READ smaller than its alignment
 3ca5a1d22e37e00bbb9716d80b5ebcc9a2725840 NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
+d26b191fac08853906ad6671c459c554b983c2cb NFSD: add tracing for how direct-mode READ and WRITE are serviced
+731e0231a64554e9f64cedd330dc6b44b3b0397a mm: expose WB_DONTCACHE_DIRTY in bdi debugfs stats
+c98b5d9ea3b6da7fe479028aa70348b9bacb70c5 mm: add folio_mark_dropbehind() to mark a folio dropbehind and account it
+6fe8d226248d57eb179d44962ee67457d60ad4a3 mm, iomap: keep a partly covered page until an uncached write completes it
+cff513ba313c91b53d6c010683eca8fc62637960 mm, iomap: let an uncached writer complete its shared pages itself
+c05296845cbab3f7ff353f997a3ba55c09b4b402 NFSD: drop a shared boundary page only once both WRITEs have written it
 
---===============8726052292256539716==--
+--===============4890652118141480783==--
