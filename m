@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6504316901691902929=="
+Content-Type: multipart/mixed; boundary="===============4138015444653607749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 19 Oct 2026 01:17:19 -0000
-Message-Id: <179237263968.4058007.2444875637585117435@gitolite.kernel.org>
+Date: Mon, 19 Oct 2026 01:17:22 -0000
+Message-Id: <179237264263.4058169.14159046174766305196@gitolite.kernel.org>
 
---===============6504316901691902929==
+--===============4138015444653607749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-i_lock-contention
-    old: a29c0e19a33d3cf86b1cb637b197de2928ac160b
-    new: e9421df383e301e10b625a672245034a6d8c9060
-    log: revlist-a29c0e19a33d-e9421df383e3.txt
+  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-ff-layout-contention
+    old: 7dd5db51a755d30245e881d05fc5bdc9df9a3040
+    new: e32982faf5290279a86319310aaeb522f3602644
+    log: revlist-7dd5db51a755-e32982faf529.txt
 
---===============6504316901691902929==
+--===============4138015444653607749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a29c0e19a33d-e9421df383e3.txt
+Content-Disposition: attachment; filename=revlist-7dd5db51a755-e32982faf529.txt
 
 dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
 a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
@@ -403,5 +403,12 @@ b43652984d889ec4db64c0e052ca38201a9289b2 NFS: check for a delegated atime before
 f5291370637e81e2f56e1f035e2ae422c8426145 NFS: skip inode->i_lock when a delegated timestamp is already current
 8a1747c8c7179c67b70d720de6214accec5c660b pNFS/flexfiles: don't take inode->i_lock to release empty commit info
 e9421df383e301e10b625a672245034a6d8c9060 pNFS/flexfiles: look up the cached layout segment without inode->i_lock
+41b4bb082e239f48864829acf9ab0056ab272105 pNFS/flexfiles: don't dirty the layout segment on every data server RPC
+49202a822113f53e007df4cb920a6b413787bc15 NFS: only account read_io/write_io when an I/O mdsthreshold is in use
+68afe8cb5004b510b00cbab950fbfe1cb3d70d97 NFS: finish stable O_DIRECT writes without the nfsiod round trip
+12d2fd5e523b6fc63318536b8d9caff47d8cf12f NFS: admit O_DIRECT I/O without taking inode->i_rwsem
+3f46013bc402c9c99e8eeca7f7fb53055153d26a pNFS/flexfiles: give the read-mostly layout segment fields their own cacheline
+985e32c56def42351df12538cfa4e3c78c078e64 pNFS/flexfiles: bound data server RPCs with pg_bsize instead of a per-page test
+e32982faf5290279a86319310aaeb522f3602644 pNFS: hand the page I/O descriptor's layout segment reference to the header
 
---===============6504316901691902929==--
+--===============4138015444653607749==--
