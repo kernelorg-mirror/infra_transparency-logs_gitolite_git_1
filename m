@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1363342114697785214=="
+Content-Type: multipart/mixed; boundary="===============6004790190238498003=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 19 Oct 2026 23:04:37 -0000
-Message-Id: <179245107769.974739.8974430212031050857@gitolite.kernel.org>
+Date: Mon, 19 Oct 2026 23:04:40 -0000
+Message-Id: <179245108008.974926.11535481383582845667@gitolite.kernel.org>
 
---===============1363342114697785214==
+--===============6004790190238498003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 191aa41548b2d2b6af534a6d5cf84a552435c74c
     new: 78731b46967e3e7102b5cd5062bef185f3404b5c
     log: revlist-191aa41548b2-78731b46967e.txt
 
---===============1363342114697785214==
+--===============6004790190238498003==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ d0eb9632fd987bf3029fc0c845b65ba6b661a41f selftests: net: add a test for GRO of G
 07bd391eb9572e74f073c49acef327611234f9bb octeontx2-af: Fix CQ enable state tracking after AQ writes
 78731b46967e3e7102b5cd5062bef185f3404b5c bnxt_en: don't leave an XDP program installed when the open fails
 
---===============1363342114697785214==--
+--===============6004790190238498003==--
