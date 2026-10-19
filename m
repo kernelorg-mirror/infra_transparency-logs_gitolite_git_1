@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Mon, 19 Oct 2026 06:11:37 -0000
-Message-Id: <179239029757.187267.12282881919544245231@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
+Date: Mon, 19 Oct 2026 06:12:43 -0000
+Message-Id: <179239036343.187783.13275867487570029509@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+user: herbert
 changes:
-  - ref: refs/heads/rcu/next-7.5
-    old: d97263e1404c2e302ecd1203b45331ebc4c09e02
-    new: 8a1f3ea72377bedf69a402849b6c215df326a1ba
-    log: |
-         8a1f3ea72377bedf69a402849b6c215df326a1ba rcutorture: Fix busted_srcud crash on module unload
-         
+  - ref: refs/tags/v7.4-p1
+    old: 0000000000000000000000000000000000000000
+    new: 216921c87e00979700adfbf821c0dc39208d4431
