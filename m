@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============5046033618049243656=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 19 Oct 2026 00:50:27 -0000
-Message-Id: <179237102742.4030761.1854168833828783429@gitolite.kernel.org>
-
---===============5046033618049243656==
-Content-Type: text/plain; charset="us-ascii"
+Date: Mon, 19 Oct 2026 00:50:31 -0000
+Message-Id: <179237103107.4030911.7096849259584400787@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,37 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.93/nfsd-testing-canary-dontcache-LOCALIO
-    old: fb0557949f635077b58980d37d0bfd877f23ebe2
-    new: 4f00159e3d63815f12b1f685a0dabe956ce5dac9
-    log: revlist-fb0557949f63-4f00159e3d63.txt
-
---===============5046033618049243656==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fb0557949f63-4f00159e3d63.txt
-
-fda27ea27ed880b12934d07b2fe8b3b38a2c7add NFSD: cut a misaligned direct-mode WRITE at page boundaries
-505ca8abef9214ca0a4823218e0a7dbc78bdccc1 NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
-d9e112b910da0885067ac71be327a5a15bda3902 NFSD: only split a direct-mode WRITE for a worthwhile direct middle
-fed6744645baa151cf132ae6143d7c14be53f03a NFSD: add direct_misaligned_dontcache debugfs knob
-baf5b3575bf39a37952abe66b273993203561655 NFSD: do not use direct I/O for a READ smaller than its alignment
-852da22b5801ea853474d76294f2cd4feb2d9700 NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
-1fc005d424e83b757b5236c38ecbd350911ed540 NFSD: add tracing for how direct-mode READ and WRITE are serviced
-89e5fb9872ef56348e7da232119883274d836c21 mm: expose WB_DONTCACHE_DIRTY in bdi debugfs stats
-5379b1d28489f6c44f09aeb094da319d090b8bd8 mm: add folio_mark_dropbehind() to mark a folio dropbehind and account it
-4fb6f95c2b4c2baff446afe3f9db812e81509df0 mm, iomap: keep a partly covered page until an uncached write completes it
-b2cd522991458f2adbda293bbc237182b980a3b4 mm, iomap: let an uncached writer complete its shared pages itself
-af5dc7bdbf687e97bda9729dd7d74a3377044d6a NFSD: drop a shared boundary page only once both WRITEs have written it
-813909eb63655e05367ef09992a92d637cb56b1a nfsd: fetch direct I/O alignment for files handed to the filecache
-a4bedf7c1d7a76e9523a6d951de61f38bd5f3cb4 Merge branch 'kernel-6.12.93/nfs-testing-canary' into kernel-6.12.93/nfsd-testing-canary-dontcache-LOCALIO base
-2970d6492e35ad9176c06ef4da8a75d341077c55 NFS: invalidate LOCALIO direct-write post-op attributes at completion
-989443f323ef5c7dcb976590ccf3864116a5893d nfs_common: share direct I/O write split and boundary-page helpers
-2c2f7c188281d8af9652ec7dbfdbbe3915632ba5 nfs_common: share the rule for persisting a split direct write once
-05e7c27c563a425ec90f8d74a54081a8a1ece753 NFS/localio: split direct writes using NFSD provided nfs_common code
-c15ede5ac84e054b732c700fd31fd574a2351fa7 NFS/localio: persist a synchronous direct write once, after all its segments
-febd6746a2d9ef21477e570e5bc336b0b7ca9968 nfs_common: fix the skip accounting in nfs_dio_iter_aligned()
-4f00159e3d63815f12b1f685a0dabe956ce5dac9 NFS/localio: complete a direct write that shares a page before it returns
-
---===============5046033618049243656==--
+  - ref: refs/heads/kernel-6.12.93/changelog
+    old: 9f8c8ebf3e9a221a8ee066437f4ed21fc4e5c476
+    new: 422047a3bfeda5fea012ca333fa2017a3f0494d2
+    log: |
+         422047a3bfeda5fea012ca333fa2017a3f0494d2 kernel-6.12.93-14
+         
