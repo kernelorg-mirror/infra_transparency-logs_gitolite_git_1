@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 19 Oct 2026 21:55:16 -0000
-Message-Id: <179244691670.924792.11845943793143646804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 19 Oct 2026 22:09:38 -0000
+Message-Id: <179244777855.933318.16785156303568933513@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
-user: pcmoore
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/topic-7.4-audit_fsopen
+  - ref: refs/tags/x86_asm_for_v7.4_rc1
     old: 0000000000000000000000000000000000000000
-    new: 5d59024a6cc9aa9300da59fbf7e2c29f1f2393c6
+    new: 81d5f735b596e82e083e8bfc497d87fedb9907c0
