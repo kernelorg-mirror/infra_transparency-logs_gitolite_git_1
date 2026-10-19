@@ -1,16 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 19 Oct 2026 01:17:39 -0000
-Message-Id: <179237265933.4059247.13081560183672472178@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 19 Oct 2026 01:22:40 -0000
+Message-Id: <179237296019.4062866.17368623571382022248@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: kkd
 changes:
-  - ref: refs/tags/v7.3-6
-    old: 0000000000000000000000000000000000000000
-    new: 5c960358e6bc2506b62e6bab099542af7a4c211d
+  - ref: refs/heads/for-next
+    old: 27dc4fc4ae7b01efb68561f98c5f373e55fb71c2
+    new: 0f9b1e9ef584522b645a97eff8d1c8d0dcab3afb
+    log: |
+         0f9b1e9ef584522b645a97eff8d1c8d0dcab3afb selftests/bpf: Add bpf_proactive_reclaim test
+         
+  - ref: refs/heads/master
+    old: 27dc4fc4ae7b01efb68561f98c5f373e55fb71c2
+    new: 0f9b1e9ef584522b645a97eff8d1c8d0dcab3afb
+    log: |
+         0f9b1e9ef584522b645a97eff8d1c8d0dcab3afb selftests/bpf: Add bpf_proactive_reclaim test
+         
