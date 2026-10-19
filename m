@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
-Date: Mon, 19 Oct 2026 16:46:38 -0000
-Message-Id: <179242839868.680207.14487974654004222551@gitolite.kernel.org>
+Date: Mon, 19 Oct 2026 16:47:30 -0000
+Message-Id: <179242845053.680680.2948857283219944018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,30 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/lindholm/alpha
 user: lindholm
 changes:
-  - ref: refs/tags/alpha-for-v7.4-tag
+  - ref: refs/heads/alpha-for-v7.4
     old: 0000000000000000000000000000000000000000
-    new: 2b33f0a9d788cc1a7bbce0cceaff9ba883a9ca4f
-  - ref: refs/tags/v7.2
-    old: 0000000000000000000000000000000000000000
-    new: 237a1c39e8dfd3e1c6f1f023eea37a48ec04cc63
-  - ref: refs/tags/v7.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 1137d8b5df06137fb49513cc923b3b24d94cb809
-  - ref: refs/tags/v7.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 6946cd5d0aa4dd10a414ddcb7a10844fdb0ad345
-  - ref: refs/tags/v7.2-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a8e429896436e8c2d288181f875f92af8204bc58
-  - ref: refs/tags/v7.2-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d7dd96eb916519208210bb4a0408fcf4f7fdce5d
-  - ref: refs/tags/v7.2-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 2ee859ebf156157609f71060ae472711c8cbc326
-  - ref: refs/tags/v7.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e5e04726cdd043e309677071ab1b65a4b18f422b
-  - ref: refs/tags/v7.3-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 5e036ce12de91c6fd674dad33b169c6150be2a7a
+    new: 71cf9644bcb35e686c3e12a703325335a0925946
