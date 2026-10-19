@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/misc
-Date: Mon, 19 Oct 2026 09:10:30 -0000
-Message-Id: <179240103093.318150.17830146392818212779@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 19 Oct 2026 09:22:12 -0000
+Message-Id: <179240173296.325934.13157763690049150098@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/misc
+repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 53192cbf824ec0f6891aa017a7562c6800e53e34
-    new: d8673d1fa5b8b573ae4d98d1d2c8846586b22142
+    old: 7ec48f396a1d89532c0537bc38b408b8c31ee37f
+    new: 07bd391eb9572e74f073c49acef327611234f9bb
     log: |
-         d8673d1fa5b8b573ae4d98d1d2c8846586b22142 web: net-next is closed (for v7.4 merge window)
+         07bd391eb9572e74f073c49acef327611234f9bb octeontx2-af: Fix CQ enable state tracking after AQ writes
          
