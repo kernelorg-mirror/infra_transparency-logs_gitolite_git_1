@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 19 Oct 2026 17:16:28 -0000
-Message-Id: <179243018890.705230.379858792614640580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 19 Oct 2026 17:18:57 -0000
+Message-Id: <179243033769.706098.14970956003330247792@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/controller/dwc-rcar-gen4
-    old: 8b25a47f320d7744327af2287041105f35a4c5b3
-    new: 6b8c12d354dfa9c80d82eea8c0c45d331a28be11
+  - ref: refs/heads/wip-rm-mmx
+    old: 6f82cce65eef74ed32bdf4f86b884f3fabe950c6
+    new: d63d433983ab046e8d08ef70e347e104fc7ce8b4
     log: |
-         6b8c12d354dfa9c80d82eea8c0c45d331a28be11 PCI: rcar-gen4: Add missing PM ops
+         d63d433983ab046e8d08ef70e347e104fc7ce8b4 lib/raid: x86: remove MMX optimized code
          
