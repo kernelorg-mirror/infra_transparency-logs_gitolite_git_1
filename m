@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1958299307968555139=="
+Content-Type: multipart/mixed; boundary="===============2174409598211832278=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 19 Oct 2026 13:26:58 -0000
-Message-Id: <179241641896.518151.11092158575247130976@gitolite.kernel.org>
+Date: Mon, 19 Oct 2026 13:27:36 -0000
+Message-Id: <179241645687.518585.4930667991279864258@gitolite.kernel.org>
 
---===============1958299307968555139==
+--===============2174409598211832278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-tpm
-    old: 41a5eab14ea9494bac8130c3dda7a8b77003efdb
-    new: 17a7501b9612a52b38bc57e33c7b64636d438bc0
-    log: revlist-41a5eab14ea9-17a7501b9612.txt
+  - ref: refs/heads/keys-rhashtable
+    old: fe71af039ae79d57d3b8b28cd98fed59f92f5079
+    new: 113c43d5d87a32eb78d21ea11d4683ff0a37d885
+    log: revlist-fe71af039ae7-113c43d5d87a.txt
 
---===============1958299307968555139==
+--===============2174409598211832278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41a5eab14ea9-17a7501b9612.txt
+Content-Disposition: attachment; filename=revlist-fe71af039ae7-113c43d5d87a.txt
 
 2e42cade8ff1ff579e77976d9869db4df1feaf74 regmap: irq: Free the irqdomain we create
 746de48c3a250f0c264105dcbfcdf0c5001e970b ASoC: SOF: ipc4-topology: Fix shift-out-of-bounds for aggregated ALH capture
@@ -174,5 +174,17 @@ dc49d862b478fc381ebb035cb7c260ee9513e356 tpm: Remove ineffective wmb() from tpm_
 3ed5fd7e03bf34dac43a174c148a3fb5fb953bfa tpm: tis_i2c: Deassert optional reset line before probing
 062da600b7239c4dd586d5722ae4c755640229a2 char: tpm: Use SIMPLE_DEV_PM_OPS for ibmvtpm power management
 17a7501b9612a52b38bc57e33c7b64636d438bc0 tpm: use DEFINE_SIMPLE_DEV_PM_OPS and pm_sleep_ptr()
+eb5248c356b8703f01f259b813c1054899ea6c6a KEYS: Change the type of key->quotalen to unsigned int
+27d5edf96485a50d02587e131f25763d69970787 KEYS: Change the type of key->datalen to unsigned int
+e43b0affebc3d6c4c39f9c2ed17f52e7c2d0e348 KEYS: Reject @desclen values over U16_MAX in key_alloc()
+fd5f6238c768475723d483dad472657805f544d7 KEYS: Prevent overflow of user->qnkeys in key_alloc()
+b69d1e6be3677cd80d8ac3739b9b5a48c5b8ac19 KEYS: Prevent overflow of quota in key_alloc()
+9ebd9b60b4bf6a0c45f251c6969ce789973fcc74 KEYS: Prevent overflow of user->qnbytes in key_alloc()
+b2b816fb7dc1e2c6630fb5efbd2589c874a44623 KEYS: Reject @datalen values over INT_MAX
+399c207f62b1dccea61d309512d71c79c82d7ac9 KEYS: Prevent overflow of the quota in key_payload_reserve()
+e0f48ee030c75673483545523027e5b6ed63f8f6 KEYS: verify key identity on unlink and move
+c67a819a5adc56ebca6bfa3776b028e3acbf6469 KEYS: Add keyring_is_empty() for {fs,dm}-verity
+bb9f3f519020df6f24fe821787e1399ac25ee26c KEYS: Replace assoc_array with struct keyring_index
+113c43d5d87a32eb78d21ea11d4683ff0a37d885 lib: Remove unused assoc_array
 
---===============1958299307968555139==--
+--===============2174409598211832278==--
