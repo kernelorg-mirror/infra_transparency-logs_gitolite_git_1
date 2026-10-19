@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
-Date: Mon, 19 Oct 2026 20:14:03 -0000
-Message-Id: <179244084351.844834.17629385666185816828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Mon, 19 Oct 2026 20:17:32 -0000
+Message-Id: <179244105259.848361.7790167468347995080@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtraceevent
-user: rostedt
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/libtraceevent
-    old: 51d47b0eb2b40d4273fb461782fe9a01db0f901c
-    new: 832df70cf769037c9118dbe779a0ddb2ac3af622
+  - ref: refs/heads/rtc-next
+    old: 82e7babfb39fc5a4f58f2fe725876363810f35bb
+    new: bd55831c0bfc0aa745753db972253aba2d452da3
     log: |
-         6e2d8dde3c920ab14bfcc0b76155a0321e2cbee7 libtraceveent: Add printable characters
-         405415f24420e110c8551fc3c05831eee2d6aee7 libtraceevent: Reject non-text symbol arithmetic
-         9cc94d547a238cf7b9acd1aa23ec86cea47d467a libtraceevent: Avoid racing recursive builds of both libraries
-         5cc0dad5cdca6224e40c1866b065d5ebac62e804 libtraceevent utest: Handle short reads when reading BTF
-         832df70cf769037c9118dbe779a0ddb2ac3af622 libtraceevent utest: Avoid host-specific getname_flags output
+         ec55c6e9c5cfb8956c6a779acb45b3e0ecd705c7 selftest: rtc: rtctest: don't mention skipping twice
+         7980352c78f5aac7160941569826a260c6232589 selftest: rtc: rtctest: make missing UIEs really skip
+         bd55831c0bfc0aa745753db972253aba2d452da3 selftest: rtc: rtctest: skip properly if setting alarm fails
          
