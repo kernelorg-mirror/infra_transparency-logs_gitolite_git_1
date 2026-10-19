@@ -1,28 +1,46 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Mon, 19 Oct 2026 15:09:13 -0000
-Message-Id: <179242255342.597915.3297214255294954616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 19 Oct 2026 15:10:00 -0000
+Message-Id: <179242260061.598386.9370573098505652754@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mptcp/linux
-user: matttbe
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/export-net
-    old: 1db411479f2e17c5d2794b9e1518fad992383e5c
-    new: b1dde53019645069c17fb0a9dd4a17c3dde245d2
+  - ref: refs/heads/for-linus
+    old: e45d0fad00bacca06a55dee30197367916a85b41
+    new: bb4834d5242c4829c0d8467ee68eb25a9bafc38d
     log: |
-         f6e8f3353c76a1f8f92e26f1026fe72cda0b23bd DO-NOT-MERGE: git markup: net
-         bfb8ae08c312d83914782ca65c389903ef30d52c DO-NOT-MERGE: git markup: fixes other trees
-         88721d982bb4702b702c406d1a1c9a46c5538609 mptcp: options: mpc: avoid printing uninit data
-         b3c40ac98e27329a42d95ef9c735df215d61ed91 mptcp: options: dss: avoid printing uninit csum
-         1411f0f52d6faeccccd9257eaec7de2cf04d8fe7 DO-NOT-MERGE: git markup: fixes net
-         124e35658b1f3c17d21b04c85fb2022f819eddc3 DO-NOT-MERGE: mptcp: add CI support
-         150a2cf3ae839b55c9c459893ab817d80ef64d2d DO-NOT-MERGE: git markup: end common net net-next
-         6fa3dda4792140a12037a9c1300c974ff4987c72 DO-NOT-MERGE: git markup: fixes net only
-         771dc0d2108321eee555362f3eb15276e1101393 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
-         b1dde53019645069c17fb0a9dd4a17c3dde245d2 DO-NOT-MERGE: mptcp: enabled by default (net)
+         069003afab42b5a9394faa6985a3d76bd4700e72 ALSA: pcmtest: Pin the module while pattern files are open
+         d5dd05c1f72a95d8ab06828d7272a185ad2b9185 ALSA: pcm: Remove channel-map controls before freeing substreams
+         e88f4749c02fba11c62e880c29d35d254b7e69d0 ALSA: usb-audio: Avoid applying boot quirk for Behringer UMC204HD
+         8b479b265301e97bfbec0ef25de1c1f7eb4d2f74 ALSA: jack: Pin the module while debugfs files are open
+         bb4834d5242c4829c0d8467ee68eb25a9bafc38d ALSA: pcm: Protect channel-map reads against runtime detach
+         
+  - ref: refs/heads/for-next
+    old: e45d0fad00bacca06a55dee30197367916a85b41
+    new: bb4834d5242c4829c0d8467ee68eb25a9bafc38d
+    log: |
+         069003afab42b5a9394faa6985a3d76bd4700e72 ALSA: pcmtest: Pin the module while pattern files are open
+         d5dd05c1f72a95d8ab06828d7272a185ad2b9185 ALSA: pcm: Remove channel-map controls before freeing substreams
+         e88f4749c02fba11c62e880c29d35d254b7e69d0 ALSA: usb-audio: Avoid applying boot quirk for Behringer UMC204HD
+         8b479b265301e97bfbec0ef25de1c1f7eb4d2f74 ALSA: jack: Pin the module while debugfs files are open
+         bb4834d5242c4829c0d8467ee68eb25a9bafc38d ALSA: pcm: Protect channel-map reads against runtime detach
+         
+  - ref: refs/heads/master
+    old: adfda783ef52e41d3cc28c0a2ed99389d0a9df95
+    new: 28fc7849e4d4a34ae9cb5a28640902f4889e1206
+    log: |
+         069003afab42b5a9394faa6985a3d76bd4700e72 ALSA: pcmtest: Pin the module while pattern files are open
+         d5dd05c1f72a95d8ab06828d7272a185ad2b9185 ALSA: pcm: Remove channel-map controls before freeing substreams
+         e88f4749c02fba11c62e880c29d35d254b7e69d0 ALSA: usb-audio: Avoid applying boot quirk for Behringer UMC204HD
+         6c82aee11273267ab18834a4a30598bbd5e98368 Merge branch 'for-linus'
+         8b479b265301e97bfbec0ef25de1c1f7eb4d2f74 ALSA: jack: Pin the module while debugfs files are open
+         ade16f5986255ed0fc61931d331a8e5d756b7da3 Merge branch 'for-linus'
+         bb4834d5242c4829c0d8467ee68eb25a9bafc38d ALSA: pcm: Protect channel-map reads against runtime detach
+         28fc7849e4d4a34ae9cb5a28640902f4889e1206 Merge branch 'for-linus'
          
