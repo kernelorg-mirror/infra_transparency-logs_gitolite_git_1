@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 19 Oct 2026 13:32:24 -0000
-Message-Id: <179241674469.522295.13512473647314620179@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Mon, 19 Oct 2026 13:39:29 -0000
+Message-Id: <179241716911.526592.9310483841885134967@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/main
-    old: 98c2ad4f5d805dbc1ea436a334ee59311806a48c
-    new: ecb8b18051a1b928ade055fcdabc06186a89493f
-    log: |
-         ecb8b18051a1b928ade055fcdabc06186a89493f net: stmmac: unwind the WoL IRQ after a safety IRQ request failure
-         
+  - ref: refs/tags/gfs2-for-7.4
+    old: 0000000000000000000000000000000000000000
+    new: 3fc6ea39cbdd9b7249b4c2d59f71ff2ca50a6a96
