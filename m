@@ -1,56 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============7045832847900572269=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 19 Oct 2026 14:15:50 -0000
-Message-Id: <179241935026.557069.3677355521337630731@gitolite.kernel.org>
-
---===============7045832847900572269==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Mon, 19 Oct 2026 14:18:57 -0000
+Message-Id: <179241953770.558232.16776194643052736938@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: ef102550f35d59d6ce4eaf549aa6e640d5f33184
-    new: 3a0b17d6d08e72581e5db5d9d574622b91810a9e
+  - ref: refs/heads/keys-rhashtable
+    old: 113c43d5d87a32eb78d21ea11d4683ff0a37d885
+    new: 1cb2fc7398e12a3b472e30cd5efa5f3b903caa6a
     log: |
-         3a0b17d6d08e72581e5db5d9d574622b91810a9e 7.2-stable patches
+         1ac6a4b346ec25e2e8051579de0e32b35e73b50c KEYS: Change the type of key->quotalen to unsigned int
+         5967213f99158edd06b60f66eebdfefbd8aa21fb KEYS: Change the type of key->datalen to unsigned int
+         50f641b432d5603e978506582de11a99edaef8f0 KEYS: Reject @desclen values over U16_MAX in key_alloc()
+         6ae9b28b57d749b2f413aeb84809802173254bdb KEYS: Prevent overflow of user->qnkeys in key_alloc()
+         2ab947c76bbb2311abaca7c77913c035a951f051 KEYS: Prevent overflow of quota in key_alloc()
+         84d4fa013d449e3fffc732687683922a445cb2b2 KEYS: Prevent overflow of user->qnbytes in key_alloc()
+         a0b7af5123c6b1bcee1b1f7d67332cff3d0a8ba8 KEYS: Reject @datalen values over INT_MAX
+         2951300b6a4499c29fabe3d0748646a4acebae3c KEYS: Verify the key identity in __keyctl_unlink
+         c7752f5517166ee7a20424225aa2e8a878f84f8b KEYS: Add keyring_is_empty() for {fs,dm}-verity
+         0d07ee35466775852d7a82c176038d23c3ecfbdf KEYS: Replace assoc_array with struct keyring_index
+         1cb2fc7398e12a3b472e30cd5efa5f3b903caa6a lib: Remove unused assoc_array
          
-
---===============7045832847900572269==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792419349 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1792419347-098ffc1048e8525923d104beadaa6102b0ef6447
-
-ef102550f35d59d6ce4eaf549aa6e640d5f33184 3a0b17d6d08e72581e5db5d9d574622b91810a9e refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrWJhUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yo0QAM1HG5h/PwW2Ia1Kroa5
-ipHKmqxLrisWytwEvS3eIvE8vnoY9UZDjBio5bpUiNKPGCu5wfaLgpfgkc/sz+El
-bp+lhHl9P3s/cKe2Rdr3ZMeSV1TM3ys9H1zb5hYbxB5wqIhiLJsO+HiK8NG5G7GW
-luK3tnexjmwVZaFnUuRmpOdR5ZVd9okjB59zUhKeU3iQM0HAuSPiufb9bMXsg/sQ
-O9FpS7YV37VFgyOcvTbiJcE37FkB/6bQRiT/4WIZhpx4Jrrj7VaQR8zsFgRKiyC7
-hQOAeNivBSqSxnzHMUgbjiVl3+SH2/ek4BKKFG6WLfwXd8v+8/N8De9eyEhyAA3o
-misOlssqV7dzvBFlBOxJK3DFNeq2m2k3iFu4rVJkbZ/ATOhyaTlmb9D+aV1wf8BB
-vki6uSEK35YqWcaBQ5MIvXrieJvQbcDyj/bskz9XaPFdHcAdn8tkTJIa8UjNn89x
-MpxyMgbyfik/ewkQF7Aeqk69kyKELbLudEEHMAcRkrsxfV6/XZNoeJrsjG+Om777
-/9UFkFTYWL12e1Y/jsHpN9JvfEB+HciyzElr/FkUZFG0GufYEioEpHRAtpkyelgl
-vLEd9QnLoDqUoubT+NBGrSY4lX7J/qJJebG2tQle0uNee97cj2a6QCZOquxVpGf8
-1KuuR9PNUF926d6NL2NddaiS
-=JVN6
------END PGP SIGNATURE-----
-
---===============7045832847900572269==--
