@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2358314378724726060=="
+Content-Type: multipart/mixed; boundary="===============4098300650107359688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 19 Oct 2026 01:16:55 -0000
-Message-Id: <179237261531.4056531.633268110801726171@gitolite.kernel.org>
+Date: Mon, 19 Oct 2026 01:16:58 -0000
+Message-Id: <179237261842.4056717.4561587282931907537@gitolite.kernel.org>
 
---===============2358314378724726060==
+--===============4098300650107359688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/anna-nfs-next
-    old: 066c173205722ef05b5898f351d6c0b37e55ec8a
-    new: 9f5f99378ccbc0c2a2f0fa4f45751a361ba9c143
-    log: revlist-066c17320572-9f5f99378ccb.txt
+  - ref: refs/heads/kernel-7.3/snitzer-nfs-fixes-canary
+    old: 68f35fcb64abdc5af08739153bf9abc9aca34f51
+    new: c0c4fcd143f7ac71dcea2f5b67325fcca37563de
+    log: revlist-68f35fcb64ab-c0c4fcd143f7.txt
 
---===============2358314378724726060==
+--===============4098300650107359688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-066c17320572-9f5f99378ccb.txt
+Content-Disposition: attachment; filename=revlist-68f35fcb64ab-c0c4fcd143f7.txt
 
 dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
 a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
@@ -376,5 +376,8 @@ e50086ef44c6ac16d6147b559398891260f916f9 NFS: allocate the .nfs keyring per netw
 4cacafddaa4d90fd4b9cece853d18560e2c4e7a6 xprtrdma: prevent disconnect feedback during endpoint teardown
 a56cd039122c9acd71e947e8850169ee8f4e1e3f nfs: set gencount on protocol-specific remove
 9f5f99378ccbc0c2a2f0fa4f45751a361ba9c143 xprtrdma: trim head iovec when the payload arrives via a Write chunk
+59b334307187a5fcf07059c1ea56f38ff110ed53 NFS: don't release the open context of a failed write from writeback
+6e8406693532edcc75efcd24a49d32cbb93a556e NFS: don't run the release of a WRITE or COMMIT in the submitter
+c0c4fcd143f7ac71dcea2f5b67325fcca37563de NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
 
---===============2358314378724726060==--
+--===============4098300650107359688==--
