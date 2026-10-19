@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5900225369465129598=="
+Content-Type: multipart/mixed; boundary="===============6559909245160256032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 19 Oct 2026 12:44:40 -0000
-Message-Id: <179241388059.478126.5999891718493421897@gitolite.kernel.org>
+Date: Mon, 19 Oct 2026 12:48:34 -0000
+Message-Id: <179241411402.481825.13439979380794689468@gitolite.kernel.org>
 
---===============5900225369465129598==
+--===============6559909245160256032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/smccc/fixes
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
+  - ref: refs/heads/for-next/ffa/fixes
+    old: 3bb3e80faf21e432f6e6d89c55fb587c323b8813
     new: c03c1a14507dfaf8b856c2608f9ac216021fc222
-    log: revlist-cee9395acd80-c03c1a14507d.txt
+    log: revlist-3bb3e80faf21-c03c1a14507d.txt
 
---===============5900225369465129598==
+--===============6559909245160256032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cee9395acd80-c03c1a14507d.txt
+Content-Disposition: attachment; filename=revlist-3bb3e80faf21-c03c1a14507d.txt
 
 12c1f6e03f944e399bd2c88441dca5dc702b95a5 KVM: SEV: Free have_run_cpus during VM destruction even if VM is no longer SEV
 93de2a6a4b91b72607136dd656edf03fb399d27f KVM: SEV: Do cache maintenance on the source VM during intra-host migration
@@ -1051,4 +1051,4 @@ a0ff06b3a7bd3aa0cd99d0294e60b3ed28c9bfac Merge tag 'firewire-fixes-7.3-final' of
 f909e534f5e34feb2ea2701d54df63e21aa506fc Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 c03c1a14507dfaf8b856c2608f9ac216021fc222 Linux 7.3
 
---===============5900225369465129598==--
+--===============6559909245160256032==--
