@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8728846716805936120=="
+Content-Type: multipart/mixed; boundary="===============7180611603638993807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 19 Oct 2026 23:06:43 -0000
-Message-Id: <179245120346.979658.3379854152435439690@gitolite.kernel.org>
+Date: Mon, 19 Oct 2026 23:06:45 -0000
+Message-Id: <179245120581.979867.1744367769930633508@gitolite.kernel.org>
 
---===============8728846716805936120==
+--===============7180611603638993807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
+  - ref: refs/heads/200GbE
     old: 95a5c641fc7becab441bf244baa73b0b0f8b7dea
     new: d1241cdbbcf7bfac3e53482b2054504628f9f047
     log: revlist-95a5c641fc7b-d1241cdbbcf7.txt
 
---===============8728846716805936120==
+--===============7180611603638993807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ ecb8b18051a1b928ade055fcdabc06186a89493f net: stmmac: unwind the WoL IRQ after a
 da499b55271396746f903d49b47f8bfdd95ab22d Merge branch 'stmmac-some-xdp-fixes-in-xdp_tx-path'
 d1241cdbbcf7bfac3e53482b2054504628f9f047 net: stmmac: leave the datapath running for normal-size MTU changes
 
---===============8728846716805936120==--
+--===============7180611603638993807==--
