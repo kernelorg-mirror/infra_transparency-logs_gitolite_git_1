@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8645363944671543029=="
+Content-Type: multipart/mixed; boundary="===============4626847072670423320=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 19 Oct 2026 19:46:23 -0000
-Message-Id: <179243918339.823027.17512015762416152138@gitolite.kernel.org>
+Date: Mon, 19 Oct 2026 19:46:26 -0000
+Message-Id: <179243918628.823276.6411055988648779677@gitolite.kernel.org>
 
---===============8645363944671543029==
+--===============4626847072670423320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 25bb03f0a47b622b9025a1558bf2095ec1f55d26
     new: 0867b7bfa9de65674c6e599fa21b762b71011b14
     log: revlist-25bb03f0a47b-0867b7bfa9de.txt
 
---===============8645363944671543029==
+--===============4626847072670423320==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ a8471eb0747f083ae5bde949e667d3d799d65cf7 bpf: Set up the arena base only in func
 fb854e2e54a7b0d19f6d93342ae0a64954411869 selftests/bpf: Test an arena kfunc argument passed from a subprogram
 0867b7bfa9de65674c6e599fa21b762b71011b14 Merge branch 'fix-some-arena-paper-cuts'
 
---===============8645363944671543029==--
+--===============4626847072670423320==--
