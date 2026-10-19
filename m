@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8183660909462602199=="
+Content-Type: multipart/mixed; boundary="===============6504316901691902929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 19 Oct 2026 01:17:17 -0000
-Message-Id: <179237263701.4057792.13097902757637878518@gitolite.kernel.org>
+Date: Mon, 19 Oct 2026 01:17:19 -0000
+Message-Id: <179237263968.4058007.2444875637585117435@gitolite.kernel.org>
 
---===============8183660909462602199==
+--===============6504316901691902929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO
-    old: 5ed7d7087a4b0fece02f6872152c6e1855223e1a
-    new: 66edd20e3872d0a6da2afa155977cc06caabdf88
-    log: revlist-5ed7d7087a4b-66edd20e3872.txt
+  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-i_lock-contention
+    old: a29c0e19a33d3cf86b1cb637b197de2928ac160b
+    new: e9421df383e301e10b625a672245034a6d8c9060
+    log: revlist-a29c0e19a33d-e9421df383e3.txt
 
---===============8183660909462602199==
+--===============6504316901691902929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ed7d7087a4b-66edd20e3872.txt
+Content-Disposition: attachment; filename=revlist-a29c0e19a33d-e9421df383e3.txt
 
 dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
 a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
@@ -379,204 +379,6 @@ a56cd039122c9acd71e947e8850169ee8f4e1e3f nfs: set gencount on protocol-specific 
 59b334307187a5fcf07059c1ea56f38ff110ed53 NFS: don't release the open context of a failed write from writeback
 6e8406693532edcc75efcd24a49d32cbb93a556e NFS: don't run the release of a WRITE or COMMIT in the submitter
 c0c4fcd143f7ac71dcea2f5b67325fcca37563de NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
-935ee90fd7d066fde91fce16e26b28d5a468c7c8 nfsd: honour client-provided attributes for NFS4_CREATE_EXCLUSIVE4_1
-1588bb5aa72def659a619eb7fbbdd33a1b377f45 nfsd: move check_nfsd_access() call into nfsd_cross_mnt()
-f75128a993bca2310347082cb2bcb01729c960bd nfsd: correctly handle CREATE of mounted-on files
-8f699504fe921563c1d7a9ef43c8e5007ab6f5f0 nfsd: replace fh_fill_both_attrs() with fh_fill_post_noop()
-ab430757fc8590f1c4671fa08482a631afa4c1c2 nfsd: move fh_want_write() after preamble in nfsd4_create_file()
-e1e940ea1dfcced1bdc39b3b7b413185fb2f4024 nfsd: move more nfs-specific code into preamble of nfsd4_create_file()
-b8d30d0e1199ecd4bac248db6a3880c6944e813a nfsd: remove subtlety from nfsd4_create_file()
-3a07b592a189f9b777386331e7c91c14be9125fe nfsd: in nfsd4_create_file() let VFS report if file was created.
-12ca11281d6cf2126953b2e7cea8755f4507063f nfsd: nfsd4_create_file(): Move NFSD_MAY_CREATE check earlier
-682d947724fcf654c18a52aee1a19c21ec2d3d49 nfsd: fh_want_write) failure need not be immediately fatal for nfsd4_create_file()
-e4093f8be61cde658b5c5274bb156c6336b91c97 nfsd: (almost) always open file in nfsd4_create_file()
-6391b186c0ef0d68cefca8579a8acc8c5b11cc87 nfsd: reduce range of directory lock in nfsd4_create_file()
-4551838ddbf8f5b7c5dc2a834f8761ea52add8e7 nfsd: open-code nfsd4_vfs_create() into nfsd4_create_file()
-301c6a730d4d43c39791b15de2f8e0a082d537ec nfsd: move some code out of the d_really_is_negative() branch in nfsd4_create_file()
-ab74ae05326800df46d8dd9935bf8f8fdfe65a3a nfsd: reduce want-write range in nfsd4_create_file()
-ca6721bbe1887bef426048d94014ce19aabb872e nfsd: move v0 checking out of nfsd_check_obj_isreg()
-7f1256903fa3250b9c460d0f16716a2df482e044 nfsd: separate out VFS-specific code from nfsd4_create_file()
-d906a11778f49314922b6646d67c8918441d2697 NFSD: Move XDR encoding helpers out of xdr4.h
-abf83c62b3514c2633f46a4692230e63a1b9acdb NFSD: Move pre-xdr'ed status codes out of nfsd.h
-fb73215427b5b038e695a85f2ce84381d3ddc159 NFSD: Remove two unused NFSv4 constants
-1f89c131671a26840ee91d155a87d73d9a0cb317 NFSD: Relocate NFSv4-internal constants to state.h
-4e5cac2f642a966b3f03888be6a470374ea8c262 NFSD: Evacuate NFSv4 entry-point prototypes from nfsd.h
-cee603a70fbbe611c252d5dd24ba30759de917b2 NFSD: Move nfsd_v4client() out of nfsd.h
-c475048f547290cefec281e0c34a51689729e369 NFSD: Map flex file layout IDs through the request's user namespace
-1c59d7c3b7d2c30976b5968e482d08045d6b03a9 NFS: Add linux/nfs_fh.h
-a4c40809c783f489d3e58701beba3ffe2d9c6c41 lockd: Switch linux/nfs.h to linux/nfs_fh.h
-9d7269e61ff28f0c0d1f06a5faf15e75534bbe27 NFSD: Use struct knfsd_fh in struct pnfs_ff_layout
-7999f93001bb32457bc5687999dec399466b0d86 nfs_common: Remove unused nfs_ssc_client_ops infrastructure
-f16055acbfeba2571c4d3e95c760fc407aa95a41 NFSD: Hoist nfs42_ssc_open() into fs/nfs_common/nfs_ssc.c
-03ba3b591019f329001059fd26d78c46e88cba14 nfs_common: Synchronize access to the SSC client ops table
-65655ae387a79afb59b67be0124118f94f74713b NFSD: Split linux/nfs_ssc.h
-df4a8bdd772e11cc49e43bbdf92a75e26693a262 NFS: Move definition of enum nfs3_stable_how
-e61d2e1c4909301a133c462bccb75ea5019fd03c NFSD: Replace nfsd_write()'s "stable" argument with "iocb_flags"
-31edce03ef5b384a996dc6adc0477691eb86dfea nfsd: fix race between client_info_show() and free_client()
-db9df3d60614ada317592f14b7b06c9fff182065 NFSD: Move the RPC program definition for LOCALIO
-74902932ee4510ba1558f410cbb6a7314a7233c2 nfs_common: Remove "#include <linux/nfs.h>" from linux/nfslocalio.h
-53ad1b72e52e296697d24d92eac68b2a0dfe7a1c NFSD: Tighten header includes in localio.c
-9f3946d92bacacdfa63a3fa0bc6f422e79279ef5 NFSD: Name the fh_maxsize value that carries no NFS version
-e00ba607b181c47ef49bb83d74f16a60e289cbc7 NFSD: Don't apply NFS version-specific behavior to LOCALIO requests
-c05219007db6a1a89ea06519070c34fd45f04ccf NFSD: Budget the CB_SEQUENCE opcode and referring call array count
-b94e4a23fa99b342b651dc969a4402abe4d81958 NFSD: Budget the CB_RECALL truncate field
-19f6f9b3c8697f7dfaf97e119482edcf78d92b0b NFSD: Budget the CB_LAYOUTRECALL recall stateid
-cad29a3f2a01f8669fd7d44ddb2bc4e8eaa2ac8e NFSD: Budget the CB_OFFLOAD opcode
-ac720556dc9d5f881374f24d0b0ff824997798c2 NFSD: Budget the CB_NOTIFY_LOCK opcode
-6aef9fbe15507cb9eade6256b62d16b8bb69d00b NFSD: Budget the CB_RECALL_ANY opcode
-29c2afdf326cf3f9558a5ecbde2de86ef80c7054 NFSD: Correct locking documentation for delegation sc_status
-1acc230c8b229c5b7e38e2ddccfe576d732aeecc NFSD: Destroy a recalled delegation the client does not hold
-09de5cc24630000656ef579e594f1d3d40599c1d NFSD: Send referring calls with CB_RECALL
-0f21a2712cd84e181b4ebf0458001250b881fa9e NFSD: Point contributors and sashiko.dev to the nfsd-testing branch
-63868d83c70047be24b73e2b41ecdae9a8159e0d SUNRPC: Do not credit control-record octets to the RPC stream
-260aa4704000d9d1c4790042d348d6cf5362d0dd SUNRPC: Reject a TLS alert record that is not two octets
-36d34d578fba572795831f4bbb8394429e4915f1 SUNRPC: Treat every TLS error alert as fatal
-4e6c937ed6a80f8c5d408262b3bdbb03685433c7 SUNRPC: Resume receiving after a TLS control record
-af17659cf84992182d58686acab6aaf072cdcaff NFSD: Replace NFS3_ACCESS_FULL in nfsd4_access()
-e7618e420ac3bb7fc683ebe7dec07b1ade7b056c NFSD: Move version-specific ACCESS maps into per-version code
-102e55db0004306a56c46fafc72801da4d6899b7 NFSD: Make the write verifier reset helper available outside vfs.c
-283e49ebc184ffd47f86f7609355fa92d6dc3502 NFSD: Move NFSv4-specific CLONE logic into nfsd4_clone()
-d3de7510c7db856a269a7900403e512b7d13a2ee NFSD: Remove xdr-related headers from fs/nfsd/vfs.c
-4fa267581e6f0638d20969a1938e8cd71c8761e0 nfsd: pass caller-provided attrmask storage into nfsd4_setup_notify_entry4()
-3d107fbf9c7326cff68de28e99c4dbbb51e667fe nfsd: back CB_NOTIFY notify_mask words with per-delegation storage
-91f453822a74d9636b185889b36267564e54635e sunrpc: treat empty auth.unix.gid replies as negative entries
-d937d59c68d43289ba40f794ce93fd0b67eb39cc sunrpc: honor the netlink unix_gid NEGATIVE flag
-a632af6fb2d09e57b991e2817a762b244ca8a08c SUNRPC: Reject a socket that already has an svc_sock attached
-c88aa7e07d6689e493e901d77cf7b2468d8f5af4 NFSD: Fail a pool_threads read whose reply does not fit
-151b92791ceaf94639655f0b165c2e4d50e070dc nfsd: preflight SEQUENCE replies before accepting a slot
-005441720426b5b57b2e71e0f9a40edf7dee6352 nfsd: set op->status when an operation's header cannot be encoded
-bd919674a94c5a7f4c6eca437ebf8bce20f79422 NFSD: Do not send CB_RECALL_ANY to NFSv4.0 clients
-2f6e8115051e127e4f9d86baeb07c494e8033949 NFSD: Count the delegations held by each client
-a86994bf08f4cbbf180c0368e5a1d8bc0b726856 NFSD: Name directory delegations in the CB_RECALL_ANY type mask
-b8435ec016c807f59641821aba967dd94bb4c56f NFSD: Send a meaningful CB_RECALL_ANY keep count
-d80c6852378cdcf311b017903903878ca0033ef2 NFSD: Count delegations per network namespace
-92ddaf36e252e4a5af46cdb2b6924c1f75aead81 NFSD: Give delegations their own state shrinker
-678c0a7d42d3b64f5f16612902944e89bc42d5cc NFSD: Pace the state shrinker's scan requests
-42f2c551a78803ce3379a38542959be5acc496d5 NFSD: Apportion CB_RECALL_ANY recalls among clients
-d40c910be99f31dea9b7cfedf565cffe07b98980 NFSD: Move the nfs3.h include out of nfsd.h
-f5de9018dbb3afb5ad7c188b25b55fa7122519f5 NFSD: Include <linux/nfs_fh.h> where struct nfs_fh is used
-d7d7e6956a80344ef924382c1a54e258a94c65b1 NFSD: Clean up header guards in fs/nfsd/xdr.h
-3545004ad9574cce7143c0e450543388bbd35fb9 NFSD: Resolve the recall-any mask names in the trace format
-93f70542585fba925dfcf66a528007bec8d5a966 SUNRPC: Separate the TLS control-record receive from its policy
-1cfa740ff41e47a44b6763c28c6e385fc49aacee SUNRPC: Close the transport on an unhandled TLS record type
-7690e1f2e4312288868b3bf91535f0bc124c6101 SUNRPC: Flush a received record's pages once it is complete
-d3c323edaae4865a61d218d10f301820dd518e5f SUNRPC: Receive RPC records with ->read_sock
-943cb1ac0f021f36e6fa47f35e7860d2668f76a5 SUNRPC: Bypass sock_recvmsg() for the TLS control-record receive
-8234c26f325e3ae8f332be89b63cfe9d47b52d96 NFSD: docs: Fix pNFS SCSI Kconfig symbol
-c75ce1cb2ddcc3549d39a1e7f3e8cf281b88ffe4 lockd: Fix use-after-free in nlmsvc_retry_blocked
-3131fb7660de740c891d48008500288c94b9760f lockd: Serialize block retries against host teardown
-1231ad010c4798aead6c5c8c8654c9c350714928 NFSD: Fix out-of-bounds read in the rpc_status dump
-36ea7e289bda344907de4686ca09c0bc77b7beb3 NFSD: Fix POSIX ACL leak in unexecuted NFSv4 COMPOUND operations
-f36440fbfe7888b338ee7d0de2cf1fbe4e04d851 nfsd: don't modify a session slot when replaying its cached reply
-37ebb4e159ede2ca5ed6231e133050fdaf9620ea NFS: Import NFS3ERR definitions
-81a48bf2a7077c74af50c4ebd494f826bf4543ed NFSD: Rework be32 nfserr definitions
-ca39c27cf397ee49f59461ca54fb979ab630342a NFSD: Replace the use of include/trace/misc/nfs.h
-9a50f82267e7cbca4c8d710e6d30863422793672 nfsd: hold cl_lock in client_has_openowners()
-6b7234c80159531d75a964c3b400590d2757ca63 svcrdma: Grant credits from the clamped sc_max_requests
-5e1cc4ffac62d132e420e15da286755fc90c0fe9 svcrdma: Clear XPT_DATA when the last receive context is consumed
-e8a0a37a4c94e1c0596494825cfb5bd79fdc702b SUNRPC: Skip xpt_reserved accounting for non-UDP transports
-0d785d946198f3dd5b6aed8628dfe8afb91e86d1 NFSD: Return NFSERR_ISDIR for NFSv2 READ and WRITE on a non-regular file
-b353d6c35b9309fdf0ddcfb3e9b46f7ee09206db NFSD: cap the number of listeners accepted in listener_set
-c5ca98e5251d618419d1ff8d104e345d7faf6671 NFSD: validate transport name in listener_set before serv creation
-97f70c96c24cb8041cf94e3130e1e86498d3cc10 SUNRPC: keep the first error in svc_register()
-2e825b3c4b05ee72e546c58a6ef6686321ca0d70 SUNRPC: bound the local rpcbind client timeout to 1s
-d3d895425094f6dd676ddd04cf465b1d1be0f742 NFSD: report listener creation failures through extack
-804a36cf2b3b09cea590bafb931817b4f71c049d SUNRPC: report local rpcbind calls that get no answer
-da54fe15ba6e8f0bef177f3348f6bfe2d8c18547 SUNRPC: stop svc_register() once rpcbind stops answering
-14cbea8cb9efced8835372792e3608bddff2b217 SUNRPC: stop the svc_unregister() sweep once rpcbind stops answering
-f47f5b9a7c9150d8c67009cb42521045f7985126 SUNRPC: stop unregistering listeners once rpcbind stops answering
-5540f6a6658ac8d0d9e1a7a6bdcd0501c4e50bb4 NFSD: stop registering with rpcbind after a failure in listener_set
-5b9363e8e2fa944175f0315199f20751c565676c selftests/nfsd: exercise listener_set request validation
-e4a41ed24365fde16bf3c2af1fdd2c57e4dfa96d selftests/nfsd: add a per-netns rpcbind stub and the listener round-trips
-aa34d2e954cc9e7e2de00fa0ad401ee08e4eaa63 selftests/nfsd: check that listener_set asks rpcbind once
-26cbf417a9acb3af904bf6d926dba0d4f42422f1 selftests/nfsd: check that listener removal asks rpcbind once
-3430c88d80fcf13a07c289facae178eca290b411 NFSD: Don't complete a cld upcall the daemon has not read
-5c0c0d4fddf4ffebded8005146d7fa1998f4a70d NFSD: Move the cld upcall message out of the caller's stack frame
-16fad9e6b46056411a91c278131df7a88667af3b NFSD: Complete a cld upcall when copying its reply fails
-d0e1f6f604e9eddcc27871db35fba9e36f2fe9bf NFSD: Reject an oversized principal hash from nfsdcld
-a90c1af9e3cb7373b472b201f3427aa62c169a85 pnfs/blocklayout: Complete a device upcall only on its own reply
-ef3e4c540b8b4afa41029ded32d8e63435d82221 NFSD: Set nn->cld_net before registering the cld pipe
-5af137148e3cdd86f14dff1addf58d92ddc6f9ae NFSD: Complete a cld upcall when the daemon closes the pipe
-42768304441cf477ed0cfa68f6b56c1269fe374f pnfs/blocklayout: Complete a device upcall when the pipe is closed
-c1c0de10a3395b02f53bed6bfbc796634a090341 SUNRPC: Copy the deferred RPC Call from the head buffer
-0742f4624d74154063fc5f150cb3a3edcb5feb84 nfsd: don't offer flexfiles layouts when NFSv3 isn't being served
-d46146905b865e5676c78e94028efbdd906557fb nfsd: shorten extack string returned with dodgy listener
-796265b2e7e237c3d6466f191918aa1539965fb1 NFSD: return NFS4ERR_EXIST for a guarded OPEN of a non-regular object
-f70e0e33b6ecfad0266bfd5dca855cb38b69f96c SUNRPC: fix netns use-after-free in write_gssp()
-cef787495e235ea0b5cbbc18675ebc68604e8e24 SUNRPC: Carry a generated-codec context pointer in struct xdr_stream
-2daed9aaf88cb527247a807666dcbeaeb3753fc1 SUNRPC: Bind the svc_rqst to its XDR streams
-b10bcdf85b3466a7a6952e4675ea5519dc7c9cfa SUNRPC: Add svcxdr_encode_opaque_payload()
-a38e5fdea05d8f4f1a24fad943bb5f4541454039 xdrgen: Pass the containing struct name to member codec emitters
-8832a3f8811c6efc885465011e4b905637e71f0e xdrgen: Add a "pragma pages" directive
-b610a582af995cc49eac814bf66a27d9e77b6903 SUNRPC: Add svcxdr_decode_opaque_payload()
-d9e3de9e4ff072d0da89d15cd7dc1bebec719736 xdrgen: Extend the pages directive to page-resident arguments
-322fe95145140042ede4fd21937972d15eb765a6 xdrgen: Add hook-driven aggregate codec for variable-length arrays
-719a46fe23825acde29c6892ea3292cc498e78f4 xdrgen: Extend the aggregate codec to optional-data list members
-ec55c61cbe9588913ff5aa10802b5c51c546c555 xdrgen: Stream optional-data aggregate lists during encode
-37fb2f4cc02483a6f47c566041ce6d17a199991a xdrgen: Reject a "pragma pages" union arm declared as an opaque
-ef263699736cf46966659ee942f13571855a9b5a xdrgen: Report unsupported client-side directives without a traceback
-022cdff765fd26cf88faff23f7c682245fcbf840 xdrgen: Document that aggregate members of a struct share an element type
-152e56792f4e0ba2948f80350f7857c8cfe939bd xdrgen: Update the aggregate_members comment for optional-data lists
-e619b09ff0b952b1316cb16ee4bbb4818add9319 nfsd: fetch direct I/O alignment for files handed to the filecache
-10c3e138b0467f36e6339d6035aafe1e9f0bc3e9 svcrdma: Fix svc_rdma_recv_cid_init() kernel-doc
-ef4aa51fb97c277457f3b73a1e886b7ecc8d6beb SUNRPC: fix oversized GSS proxy token copy
-cc390b889a1e762571c1d3d97e7d6628d090515b SUNRPC: trace an accepted transport before publishing it
-67394cca4508538dff41b8b16df66435858d4505 sunrpc: pin gss module across auth_domain RCU free
-b34c9d566988f09d40efbf4ba5b2dc58e892f9d5 nfsd: propagate SETXATTR value decode errors
-b2940791609af595f10094c973ab363dd7fedaae NFSD: copy SETXATTR data from all XDR buffer segments
-6eb12cea82eb18af1a9ca0a2a084ac5d550a67ce nfsd: zero NFSv4 COMPOUND tag padding
-3493b8d28a8319499f3da8ebc2ddd42b63d2ce6f nfsd: clear XDR padding in GETXATTR replies
-4ba89be916b2e92d3285666d648ab3bebb1a348b SUNRPC: allow a service to opt out of rpcbind registration
-4a05d66371c7ab40e5405564c794a9e1f8773a9d NFSD: add a userspace-rpcbind flag to listener_set
-f5f7a2ebebca21163c009509b3a7020b04681318 NFSD: honour the userspace-rpcbind flag in listener_set
-9097350c7aa8bd8e682469c1ae84e8f95f0edc5b NFSD: report registerable programs in the listener_set reply
-b214c93d934511f3bb64139a465b9d7ace076bff selftests/nfsd: exercise the userspace-rpcbind listener_set flag
-2f68f7d966670b2efc918fa654cf771625145c24 nfsd: use xdr_encode_opaque_fixed for all GETXATTR fragments
-87556e32543e88affaad58a82d4330b9e1b86000 NFSD: map fh_verify() status codes for NFS_ACLv2 replies
-7a6785d4a0482ff40120b52668b7fa1d06849e81 NFSD: map fh_verify() status codes for NFS_ACLv3 replies
-764f37e415fc930815adaf66e714db3c2f56a7ee Documentation: Add the RPC language description of NFSv2
-a3c7620df29fe68f992681f494f58d016a4eb74e NFSD: Add infrastructure for generating NFSv2 XDR encoders and decoders
-b1e6a8c060efd4de731b50553686779fe92437f2 NFSD: Use xdrgen-generated NFSv2 protocol definitions
-d05bf667a84d0fd377c967beb1e4d9a01b9c554a NFSD: Remove '#include "xdr.h"' from fs/nfsd/xdr3.h
-aca7f114c3099fc5aff9918134e3a3685bec3468 NFSD: Relocate the NFSv2 XDR storage union into nfsproc.c
-ec167e931fb09d64f479bc144d786322bb8383f9 NFSD: Use xdrgen XDR functions for the NFSv2 NULL procedure
-36540b31bd3dbf7cde161872c7970ae0f0a3d1cb NFSD: Use xdrgen XDR functions for NFSv2 GETATTR procedure
-7c0ff9d29938a7aad6e70be53bae705d2e9195bf NFSD: Use xdrgen XDR functions for NFSv2 SETATTR procedure
-449187eda63d27af1e016668b99a06de2043039d NFSD: Use xdrgen XDR functions for the NFSv2 ROOT procedure
-291e214ee36574187069a3fe57373835468dbc9f NFSD: Use xdrgen XDR functions for the NFSv2 LOOKUP procedure
-392ceaa4a3419e3cb7290908e1c071b6e539e6a0 NFSD: Use xdrgen XDR functions for NFSv2 READLINK procedure
-d96d4933ac1e4bc8095711ccfc1a2f0178c5ac40 NFSD: Use xdrgen XDR functions for NFSv2 READ procedure
-a20b649adae44150951998d675935013822cb4db NFSD: Use xdrgen XDR functions for the NFSv2 WRITECACHE procedure
-e8943637a1617b9b32a43e7478783a5a222ca412 NFSD: Use xdrgen XDR functions for NFSv2 WRITE procedure
-e43b14c98c2784770ed80dfb8cb43adbdefb6882 NFSD: Refactor nfsd_proc_create()
-634789e658e5f63b6fa8db76ff80021dcb634ca3 NFSD: Use xdrgen XDR functions for NFSv2 CREATE procedure
-1eb538ac1f0cd874493bbbe0046516ea15e6cad5 NFSD: Use xdrgen XDR functions for the NFSv2 REMOVE procedure
-dc09fc0d73b6c9e4c8af0f819d44a9a65769b03b NFSD: Use xdrgen XDR functions for the NFSv2 RENAME procedure
-b43f9ea3e73497fce95449b75862fe77769a7458 NFSD: Use xdrgen XDR functions for the NFSv2 LINK procedure
-4d15ed07e89b4947c700fffdddc8d49e2380f18a NFSD: Use xdrgen XDR functions for NFSv2 SYMLINK procedure
-4121d745f26bb2489cf9e3bce93597e00dcf2ac4 NFSD: Use xdrgen XDR functions for NFSv2 MKDIR procedure
-3acf0f5fa1f108f205298be23f1ebd42ea5f3b0d NFSD: Use xdrgen XDR functions for NFSv2 RMDIR procedure
-33aeb1b4dac8848ba3380ffe8819f238cadc4647 NFSD: Use xdrgen XDR functions for the NFSv2 STATFS procedure
-6f9bafef6d7c36e74d0945eaf10badd483d42c6b NFSD: Use xdrgen XDR functions for NFSv2 READDIR arguments
-dcd671d4e0d2a0092fa839c03bfe527b37a2b1ef NFSD: Add a streaming directory reader
-9636be663fa12a9735a54926da3a7c10e2e1b632 NFSD: Refactor NFSv2 directory cookie encoding
-64a91f85f335a0b687ba36feb484305d9f5d95f3 NFSD: Use xdrgen XDR functions for NFSv2 READDIR results
-56e4313ff07603783924a4a894721b46933abafc nfsd: Fix id-to-name cache entry leak in idtoname_parse()
-f602e15f0c45b44af7ca365cfb2513f5b0f15df0 SUNRPC: use assign_bit() where applicable
-dc72e0c735c3515b453f20dfe9101555632c0898 nfsd: use direct I/O only for the last operation in a COMPOUND
-99b203647dca42737e68e4296720e0c3692e8de8 SUNRPC: preserve RQ_SECURE across request deferral
-6a446fa097d35b4f7608dd360187794860e4722b NFSD: cut a misaligned direct-mode WRITE at page boundaries
-330413ae0d43ade84587bd84dc24aed5d39fd582 NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
-d69748de71d5cc970f8b67ac66e05087c84e2a95 NFSD: only split a direct-mode WRITE for a worthwhile direct middle
-a8bd96a549297d08a1c2aace0f92e83e013f0199 NFSD: add direct_misaligned_dontcache debugfs knob
-fde9b2859c501bbaa32c648c06ad6dbda32068a6 NFSD: do not use direct I/O for a READ smaller than its alignment
-3ca5a1d22e37e00bbb9716d80b5ebcc9a2725840 NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
-d26b191fac08853906ad6671c459c554b983c2cb NFSD: add tracing for how direct-mode READ and WRITE are serviced
-731e0231a64554e9f64cedd330dc6b44b3b0397a mm: expose WB_DONTCACHE_DIRTY in bdi debugfs stats
-c98b5d9ea3b6da7fe479028aa70348b9bacb70c5 mm: add folio_mark_dropbehind() to mark a folio dropbehind and account it
-6fe8d226248d57eb179d44962ee67457d60ad4a3 mm, iomap: keep a partly covered page until an uncached write completes it
-cff513ba313c91b53d6c010683eca8fc62637960 mm, iomap: let an uncached writer complete its shared pages itself
-c05296845cbab3f7ff353f997a3ba55c09b4b402 NFSD: drop a shared boundary page only once both WRITEs have written it
 dc4048b95a46b366dc6b028c13c303f0589ed7c2 NFSv4/pnfs: Give the data server cache its own reference
 62843081b2afe39b5d1707b0dbe1b32a62e1bc87 NFSv4/pnfs: Let unused data server connections linger
 708a700035d370f1e17bc26c39c5579eeddbc417 nfs4.2: add UNCACHEABLE_DIRENT_METADATA attribute support
@@ -601,14 +403,5 @@ b43652984d889ec4db64c0e052ca38201a9289b2 NFS: check for a delegated atime before
 f5291370637e81e2f56e1f035e2ae422c8426145 NFS: skip inode->i_lock when a delegated timestamp is already current
 8a1747c8c7179c67b70d720de6214accec5c660b pNFS/flexfiles: don't take inode->i_lock to release empty commit info
 e9421df383e301e10b625a672245034a6d8c9060 pNFS/flexfiles: look up the cached layout segment without inode->i_lock
-a2a7cb2800bb1a5399998c078df46ca4a84c9a4d Merge branch 'kernel-7.3/snitzer-nfs-fixes-canary' into kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO base
-5ca47b519dfc4be91da0b459e6ab8052fdc53dbf NFS: invalidate LOCALIO direct-write post-op attributes at completion
-64292255392b744a34ea1c3ad91b1a8015bda828 nfs_common: share direct I/O write split and boundary-page helpers
-226f4b08046f291e2b45e71a705bd446bf62f5a3 nfs_common: share the rule for persisting a split direct write once
-87c31061bc754519e150ca719bc827323d25c8e4 NFS/localio: split direct writes using NFSD provided nfs_common code
-3bce2fe312645dd64e05c6967224262b65eb8059 NFS/localio: persist a synchronous direct write once, after all its segments
-275d80a16f46e02ad16fc283c0d55e07c2f820be nfs_common: fix the skip accounting in nfs_dio_iter_aligned()
-0f14eed6968ea601ebf24f40bd2c95a12e26084c NFS/localio: complete a direct write that shares a page before it returns
-66edd20e3872d0a6da2afa155977cc06caabdf88 Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO' into kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO
 
---===============8183660909462602199==--
+--===============6504316901691902929==--
