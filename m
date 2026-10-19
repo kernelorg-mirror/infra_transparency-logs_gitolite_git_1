@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0387053637959188060=="
+Content-Type: multipart/mixed; boundary="===============0379037565160738981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 19 Oct 2026 13:25:04 -0000
-Message-Id: <179241630473.516410.124581516379224388@gitolite.kernel.org>
+Date: Mon, 19 Oct 2026 13:25:29 -0000
+Message-Id: <179241632949.517060.989977675078853497@gitolite.kernel.org>
 
---===============0387053637959188060==
+--===============0379037565160738981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-keys
-    old: a626e44fd64c456d373ae8c28b939197b9446a02
-    new: 7aeba11531ecfd40d16d5614810ac5a02408c8ff
-    log: revlist-a626e44fd64c-7aeba11531ec.txt
+  - ref: refs/heads/for-next-tpm
+    old: cf507674f8f73bf85902530942e2e22ebeb79442
+    new: 41a5eab14ea9494bac8130c3dda7a8b77003efdb
+    log: revlist-cf507674f8f7-41a5eab14ea9.txt
 
---===============0387053637959188060==
+--===============0379037565160738981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a626e44fd64c-7aeba11531ec.txt
+Content-Disposition: attachment; filename=revlist-cf507674f8f7-41a5eab14ea9.txt
 
 dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
 a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
@@ -203,5 +203,15 @@ a325d7234218c3c29f40b0d7c267834b11bb9d90 keys: Check the authorization payload i
 e2917e389e340565c399815087a90155b9cb3be4 keys/trusted/tpm2: Validate TPM2_Create object sizes separately
 9a4952c2d5b06d63fea7af7c85f76d4a33c3b3d3 security: keys: Fix comment of search_process_keyrings_rcu()
 7aeba11531ecfd40d16d5614810ac5a02408c8ff keys/trusted_keys: reuse TPM version in option handling
+d65bfb5e7833b8ad289236857bb7e771b4e15f1e tpm: reject duplicate PCR banks in tpm2_get_pcr_allocation
+3cec43543b31361558863dc6d8129beebb01c850 tpm: tpm2_probe: propagate transport errors
+4f248483587d8371bd7e7e45fc037c5008bdea8f tpm: tpm_nsc: fix NULL pointer dereference on init failure
+065f809a782b15cddaa6b48123540cb49ff5e035 tpm: tpm_nsc: stop using the cleanup callback as dev.release
+47d263030033e3b2da43e2585a2cfe310cc3e1f6 tpm: fix zero-length read discarding the pending response
+2dce0ebf49f22f1ed253bfab77fbcb5837c64e38 tpm: Call cmd_ready/go_idle for each command transmission
+ce73e2157f9c491275f8d8d0c59c60293b9cb1e6 tpm: Remove ineffective wmb() from tpm_pm_resume()
+4c8bcb46b669399fe497aff8f3cfbe49858c9ad2 tpm: tis_i2c: Deassert optional reset line before probing
+25a24c0cd7d0a6a6dfe4197d12ed413b1179cffd char: tpm: Use SIMPLE_DEV_PM_OPS for ibmvtpm power management
+41a5eab14ea9494bac8130c3dda7a8b77003efdb tpm: use DEFINE_SIMPLE_DEV_PM_OPS and pm_sleep_ptr()
 
---===============0387053637959188060==--
+--===============0379037565160738981==--
