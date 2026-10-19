@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3914318901961665040=="
+Content-Type: multipart/mixed; boundary="===============8088732476977274129=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 19 Oct 2026 01:16:49 -0000
-Message-Id: <179237260920.4056178.12993544708562467396@gitolite.kernel.org>
+Date: Mon, 19 Oct 2026 01:16:52 -0000
+Message-Id: <179237261210.4056307.11175781130991430881@gitolite.kernel.org>
 
---===============3914318901961665040==
+--===============8088732476977274129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/block-DIO-alignment-fixes
-    old: 71129deb9a346c9e0a7c0d65edfcde23b6ea191e
-    new: 8492321514fa70fb0fb57d3008b8dd7d3671ad6a
-    log: revlist-71129deb9a34-8492321514fa.txt
+  - ref: refs/heads/kernel-7.3/trond-nfs-next
+    old: 8ed84ae4d26a6885be7dd8995bb73d8b7d1cefe9
+    new: 863694c47a755fc55e99afdd9a56b6b94a6fcc29
+    log: revlist-8ed84ae4d26a-863694c47a75.txt
 
---===============3914318901961665040==
+--===============8088732476977274129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-71129deb9a34-8492321514fa.txt
+Content-Disposition: attachment; filename=revlist-8ed84ae4d26a-863694c47a75.txt
 
 dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
 a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
@@ -317,9 +317,6 @@ f909e534f5e34feb2ea2701d54df63e21aa506fc Merge tag 'scsi-fixes' of git://git.ker
 c03c1a14507dfaf8b856c2608f9ac216021fc222 Linux 7.3
 0095199fb1aacf73649d9b5abc0413115c0a89d6 Merge tag 'v7.3' into kernel-7.3/baseline
 b2f51d1f929536d8d741595ec011718797a10539 redhat/marker: v7.3
-8a2d2351516c2a283ea19af0c0dd61f6ecc52d1a brd: iterate the bio by byte position, not bi_sector
-ad4d17257bb1332ac14d6427d78e41e98dda7502 zram: handle sub-page bvec segments without corrupting data
-817ef53eb893658c2fda559f26fd8b4dba0670db null_blk: keep each memory-backed copy within one block
-8492321514fa70fb0fb57d3008b8dd7d3671ad6a dm-delay: do not round a short delay up to the next timer tick
+863694c47a755fc55e99afdd9a56b6b94a6fcc29 NFSv4: Fix a regression in the handling of CB_RECALL_ANY
 
---===============3914318901961665040==--
+--===============8088732476977274129==--
