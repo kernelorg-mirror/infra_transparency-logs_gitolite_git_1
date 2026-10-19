@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Mon, 19 Oct 2026 12:28:50 -0000
-Message-Id: <179241293009.465302.11954604652700409965@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Mon, 19 Oct 2026 12:29:48 -0000
+Message-Id: <179241298838.465853.14673504951868555911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: acme
 changes:
-  - ref: refs/heads/b4/genexis-xg6846b-bcmbca-xrdp-reset
-    old: f576cbf2d1f356edfa8a9a7774037a6f28209ac2
-    new: 4f6c29902094ed177cf8095876771fc6abd2421f
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 1c90f0a3c8a1c4e38f9edd97af9e20848805a7fb
+    new: aa68bfb7b04dbeee303e8105094baed5e75a7255
     log: |
-         87635041bca0487ae2c117202a1169b5a67ca537 BCMBCA PMB reset controller
-         1156b58482f544def3e71b82e7fff01dc68d8560 dt-bindings: mfd: Describe the BCM6846 PMC complex
-         bf7d1dfc7dd187ceb8eb7924a9e044a286bb558c dt-bindings: soc: Describe the BCM6846 Processor Monitor Bus
-         3a55a316b673ad0fc431ba052f20a0ab0010fa82 dt-bindings: reset: Describe the BCMBCA PMB reset controller
-         e4a67e8e937cbeec85fa63a48804dc966ce2681d bus: Add a shared BCMBCA PMC3 PMB transport
-         4f6c29902094ed177cf8095876771fc6abd2421f reset: Add BCMBCA block resets through the PMB
+         5927da00783dc8e5a20e059ba2762cdcff1fd3b6 perf timechart: Fix task row type narrowing in goto_task()
+         dd1c6ac2f70f6a5b2d57bec2584de7bc7c144508 perf treport: Fix profile builder type narrowing in progress callback
+         aa68bfb7b04dbeee303e8105094baed5e75a7255 perf test: Avoid stack trace noise in verbose=1 failure snippets
          
