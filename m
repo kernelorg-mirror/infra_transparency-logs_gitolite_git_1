@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 19 Oct 2026 17:15:51 -0000
-Message-Id: <179243015153.704828.9991621322658605809@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 19 Oct 2026 17:16:28 -0000
+Message-Id: <179243018890.705230.379858792614640580@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/master
-    old: 17a7501b9612a52b38bc57e33c7b64636d438bc0
-    new: 2885a524c520de7f8be63d23aea90f98427b3240
+  - ref: refs/heads/controller/dwc-rcar-gen4
+    old: 8b25a47f320d7744327af2287041105f35a4c5b3
+    new: 6b8c12d354dfa9c80d82eea8c0c45d331a28be11
     log: |
-         2885a524c520de7f8be63d23aea90f98427b3240 keys: Protect the read method check against type removal
+         6b8c12d354dfa9c80d82eea8c0c45d331a28be11 PCI: rcar-gen4: Add missing PM ops
          
