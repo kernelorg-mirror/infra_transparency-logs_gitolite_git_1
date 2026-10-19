@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 19 Oct 2026 21:08:36 -0000
-Message-Id: <179244411683.888847.7303357969621575962@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 19 Oct 2026 21:09:21 -0000
+Message-Id: <179244416193.889325.18321565689193190446@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 2ef902a078a5f9b600c192d1a3cca8f3dbc52563
-    new: 4825be966115568cf22c93c8c3249db18b56c5f2
+  - ref: refs/heads/hwmon-next
+    old: 400be69515c327ced60082b27ede902a8d93cbdb
+    new: 0b6eda22f9ab67ddb2a872b0c3fc578ad9f4e27e
+    log: |
+         fcf9aa9beb773bed9d2183bf34f822de12b2c91c hwmon: (mcp9982) Update the interval cache only after successful writes
+         817ac527100c8e20684211eb919ffd6d875adc7a hwmon: (sht3x) Return the consumed count for heater writes
+         0b6eda22f9ab67ddb2a872b0c3fc578ad9f4e27e hwmon: (acpi_power_meter) Fix 18.45 TW bug
+         
