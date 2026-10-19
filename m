@@ -1,30 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============7912423634557656071=="
+Content-Type: multipart/mixed; boundary="===============3970375203542287719=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 19 Oct 2026 14:50:35 -0000
-Message-Id: <179242143598.584588.17637713239048192616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 19 Oct 2026 14:55:49 -0000
+Message-Id: <179242174952.588559.5565654714490713095@gitolite.kernel.org>
 
---===============7912423634557656071==
+--===============3970375203542287719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/x86-pie-v4
-    old: 1abf4915b934f55c588e220cfc73188a5d4f13a7
-    new: 6a0fa5d8e005033f0d73c2cbabb5e555ea8575d2
-    log: revlist-1abf4915b934-6a0fa5d8e005.txt
+  - ref: refs/heads/master
+    old: 32c52ec87d6245ee2d12ed5dd509e40062939b50
+    new: c03c1a14507dfaf8b856c2608f9ac216021fc222
+    log: revlist-32c52ec87d62-c03c1a14507d.txt
+  - ref: refs/tags/v7.3
+    old: 0000000000000000000000000000000000000000
+    new: 091b06388b117fefdcb63336ac09956a4914b961
 
---===============7912423634557656071==
+--===============3970375203542287719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1abf4915b934-6a0fa5d8e005.txt
+Content-Disposition: attachment; filename=revlist-32c52ec87d62-c03c1a14507d.txt
 
 2e42cade8ff1ff579e77976d9869db4df1feaf74 regmap: irq: Free the irqdomain we create
 4505a262deae7df06e33617dfc104d5541eec91d x86/kcfi: Decode the kCFI check from the trap address
@@ -70,27 +73,5 @@ a0ff06b3a7bd3aa0cd99d0294e60b3ed28c9bfac Merge tag 'firewire-fixes-7.3-final' of
 8486d357129126e27fb5d4e02622566bafc77035 Merge tag 'spi-fix-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 f909e534f5e34feb2ea2701d54df63e21aa506fc Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 c03c1a14507dfaf8b856c2608f9ac216021fc222 Linux 7.3
-16cf914f6d5e1ccf2e033435abbf59bd5f110599 x86/idt: Move idt_table to __ro_after_init section
-20fecd2fc62004c33751f25d6e711c2eb92fcb02 x86: Drop redundant __end_rodata_hpage_align section boundary marker
-4fd5b1ff1259ef540296f3bebabf323be5cd13fb x86: Combine .data with .bss in kernel mapping
-4e2cc8aa9e9315d38eb38ba633e1d9c74add1be3 x86: Make the 64-bit bzImage always physically relocatable
-c9352fac591ed6ad2c9097318ba4ada284724926 x86/efistub: Simplify early remapping of kernel text
-c9f8582ec0166159f7be965fb3f714f350ae1cc9 alloc_tag: Use __ prefixed ELF section names
-6c4946800c9e0442d7fbc3a7fc78915e9103d1db tools/objtool: Treat indirect ftrace calls as direct calls
-dce71ccf1684de04a41d7da0cce28c014d7378b3 x86: Use PIE codegen for the relocatable 64-bit kernel
-04283719ba88b3b97176355abb8d2abdef5a93de x86/pm-trace: Use RIP-relative accesses for .tracedata
-60aee4318ce34e68540772a2cdb3f57b04d4c9d1 x86/kvm: Use RIP-relative addressing
-3e04b99a7676184747bd44ec28ed72711ed907cd x86/rethook: Use RIP-relative reference for fake return address
-c2e25e9721e11eea8bebe974d2768d569c7c0727 x86/sync_core: Use RIP-relative addressing
-f900eba5e513f0a644627e6f02473d3240675d5f x86/entry_64: Use RIP-relative addressing
-1e07f87f4b8822c70c07e825f6808e7159d6ba44 x86/hibernate: Prefer RIP-relative accesses
-79011f91dcd3d74e99e309f56bea694a60b531f5 x64/acpi: Use PIC-compatible references in wakeup_64.S
-f286097e2d25bf2499731c11d7c79f9f4ac3f6d1 x86/kexec: Use 64-bit wide absolute reference from relocated code
-4e7f55d4cacf5f9d6536c4d94d4e86cf5851d22a x86/head64: Avoid absolute references in startup asm
-76a977aaaacd6e87d597fd881ab897091248f2fe x86/boot: Store virtual KASLR seed in boot_params
-aaf5ec13d15232060afd8b0821a9e537bdd84e68 x86/boot: Use relative references to seed the initial page tables
-cb9cdcc5fb1f8e8998d40be6df491daa02154113 x86/boot: Apply ELF PIE relocation fixups during startup
-869b0b4d4c6cf98e86deebdff3a1eeef1f6a4e31 x86/kernel: Switch to PIE linking for the relocatable kernel
-6a0fa5d8e005033f0d73c2cbabb5e555ea8575d2 x86/entry: Simplify __HANDLE_INTR_SAFERET and make it PC relative
 
---===============7912423634557656071==--
+--===============3970375203542287719==--
