@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8392379170462324328=="
+Content-Type: multipart/mixed; boundary="===============3914318901961665040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 19 Oct 2026 01:16:46 -0000
-Message-Id: <179237260610.4055974.8207358622674674369@gitolite.kernel.org>
+Date: Mon, 19 Oct 2026 01:16:49 -0000
+Message-Id: <179237260920.4056178.12993544708562467396@gitolite.kernel.org>
 
---===============8392379170462324328==
+--===============3914318901961665040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/configs
-    old: 41155d9ad2cb5b8e6559a425034d6bc3621a76fe
-    new: af299e25bb3b7a6f706f3f816ea2b1c30fc60baf
-    log: revlist-41155d9ad2cb-af299e25bb3b.txt
+  - ref: refs/heads/kernel-7.3/block-DIO-alignment-fixes
+    old: 71129deb9a346c9e0a7c0d65edfcde23b6ea191e
+    new: 8492321514fa70fb0fb57d3008b8dd7d3671ad6a
+    log: revlist-71129deb9a34-8492321514fa.txt
 
---===============8392379170462324328==
+--===============3914318901961665040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-41155d9ad2cb-af299e25bb3b.txt
+Content-Disposition: attachment; filename=revlist-71129deb9a34-8492321514fa.txt
 
 dd3b6f7adcc559647f8215a1c73d19af27a8d20a arm64: tegra: Add PWM controllers on Tegra264
 a93db5724ada1c09a434f43258db4545a893a1af arm64: tegra: Add PWM fan on Jetson AGX Thor DevKit
@@ -317,31 +317,9 @@ f909e534f5e34feb2ea2701d54df63e21aa506fc Merge tag 'scsi-fixes' of git://git.ker
 c03c1a14507dfaf8b856c2608f9ac216021fc222 Linux 7.3
 0095199fb1aacf73649d9b5abc0413115c0a89d6 Merge tag 'v7.3' into kernel-7.3/baseline
 b2f51d1f929536d8d741595ec011718797a10539 redhat/marker: v7.3
-3215e725d31e3d50d3e63ca174c75610f0e78f44 redhat: various "fixes" to allow building ARK kernel on EL8 buildhost
-6a797bf98ebca390fbae7d55cf328bcd93778200 redhat: reenable 'with_tools' now that tools compilation is fixed for el8
-79b8d821415da8ea07326143511d3d916341000d redhat: fix EL8 build so that it generates symvers.gz
-67ffcb80c502e3231c10ead4e9147d0518b52de1 redhat: add tools-tracing-rtla-fix-el8-compiler-errors.patch
-0d0eb3be37e463b48c32b46044673e6d74acac5b redhat: various hacks to get kernel.spec.template compatible with EL8
-21edf8eab296eb96d70d2b51e9a4e6bda937fe23 redhat/kernel.spec: fix kernel_meta_package
-d2395b6f6d74d7d828658326505c8e4912101dac redhat/kernel.spec: for .el8 verify that gettid() is missing
-debe59e524ca427145d5c58646905867ee178dc4 redhat/configs: enable CONFIG_MLX4 for x86_64 only
-c62a2585b7d572938115d13e7588b458d8bada2d redhat/configs: turn off CONFIG_PSI_DEFAULT_DISABLED
-a9f1cc2f9874a2211fbccf1d5837fdf7f8cf5dd2 redhat/configs: enable CONFIG_LATENCYTOP
-414a35365334f86f0dbf873c21f02e10910dba68 redhat/configs: switch THP default from always to madvise
-e6830c348caef275b87275c2f22d6a47bd256798 redhat/configs: disable CONFIG_NFS_FSCACHE
-03fc157cc756b5b20c32a2b293719ff520d687ec redhat/configs: disable CONFIG_NFS_V4_0
-14912a4efd38104625f5caeff8c4fec3d52cbc61 redhat/configs: disable CONFIG_NFSD_V4_POSIX_ACLS
-7e00adc48853b8e476372dd80fab246c9721b783 tools: fix libcpupower Python bindings build to use python3-config
-e598c9839c62de6f1594c1e65b9e4dd16f657b3c redhat: disable building rt-64k on arm; re-enable building debug kernels
-9be19bb7ce366850675bf19993f35c5fcdf3ada2 redhat/configs: disable rxrpc and AFS which depends on it
-afcbe09caf2aa33e94888eb54fefbfc0faaef373 Revert "[redhat] configs: Compress UEFI/PE kernels with zstd"
-fb52f37a084fde0996fa059780dca20dfde7e8fe redhat/configs: sign modules with RSA, not ML-DSA-87
-d5f85c490554f1893de335f9f18aa32ae22816b6 redhat/configs: remove all s390 config infra
-825be66bde07a21fccdbe52ed348d1e9b47e79ba kernel.spec: remove all s390 files and enablement
-5f27ed8e891c410a7da5e2742019c91cb1e5eb39 kernel.spec: relax --with tools BuildRequires for libtraceevent-devel
-a2bd870a995f09c9904b207cbe723f2fdd26d71f redhat: build the aarch64 rhel config with 16K pages too
-26c210fc0074242cfb26b8187a86a45f9a2efda4 redhat/configs: enable PNFS_BLOCK_LAYOUT and PNFS_SCSI_LAYOUT
-25889701a8b4705739f8b0a792c09ae000c6b2c8 redhat/configs: remove all riscv config infra
-af299e25bb3b7a6f706f3f816ea2b1c30fc60baf kernel.spec: remove all riscv files and enablement
+8a2d2351516c2a283ea19af0c0dd61f6ecc52d1a brd: iterate the bio by byte position, not bi_sector
+ad4d17257bb1332ac14d6427d78e41e98dda7502 zram: handle sub-page bvec segments without corrupting data
+817ef53eb893658c2fda559f26fd8b4dba0670db null_blk: keep each memory-backed copy within one block
+8492321514fa70fb0fb57d3008b8dd7d3671ad6a dm-delay: do not round a short delay up to the next timer tick
 
---===============8392379170462324328==--
+--===============3914318901961665040==--
