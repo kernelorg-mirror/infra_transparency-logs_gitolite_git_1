@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Mon, 19 Oct 2026 23:43:34 -0000
-Message-Id: <179245341441.1006129.12725483592231577016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 19 Oct 2026 23:43:52 -0000
+Message-Id: <179245343271.1006369.5299229042999775945@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/smb
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: 1db57ad99d46c3fb23b4520d10fa2997b99a1dba
-    new: c63783b00894564f977d82d3835035ce28c62643
-    log: |
-         c63783b00894564f977d82d3835035ce28c62643 ksmbd: accept share config responses from ksmbd-tools before 3.5.3
-         
+  - ref: refs/tags/x86_boot_for_v7.4_rc1
+    old: 0000000000000000000000000000000000000000
+    new: 88c9c462f275b783beab8e37cd8ce2a22661831c
