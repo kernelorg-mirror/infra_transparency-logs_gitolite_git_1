@@ -1,105 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============4217029556351313402=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 19 Oct 2026 06:03:38 -0000
-Message-Id: <179238981821.180206.7944315666299439410@gitolite.kernel.org>
-
---===============4217029556351313402==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Mon, 19 Oct 2026 06:06:25 -0000
+Message-Id: <179238998519.183463.5809757636218164929@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/master
-    old: f7ad4fd199b90dae4d391cf26c0b23c360cec7df
-    new: c803a3f002ec36285d15c462ac3519198207bb3a
-    log: revlist-f7ad4fd199b9-c803a3f002ec.txt
-  - ref: refs/heads/tip/urgent
-    old: aa4ed52ee9be72d2b807ae13dd4ec3f0bc0c1b85
-    new: 5f68525de8f13335cf22f6127005e65c7c68b48f
-    log: revlist-aa4ed52ee9be-5f68525de8f1.txt
-  - ref: refs/tags/v7.3
-    old: 0000000000000000000000000000000000000000
-    new: 091b06388b117fefdcb63336ac09956a4914b961
-
---===============4217029556351313402==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f7ad4fd199b9-c803a3f002ec.txt
-
-5f68525de8f13335cf22f6127005e65c7c68b48f Merge branch into tip/master: 'x86/mm'
-388a334a79e0320e45754b215cf37e3fad3d140f Merge branch into tip/master: 'perf/merge'
-2344be20e7ae5e503af271831ad14a3cdedded20 Merge branch into tip/master: 'irq/core'
-37bc7db6ba531077c7588593d22a24191be6295b Merge branch into tip/master: 'irq/drivers'
-a11907c8bba7d45b9e0dee0dfdc841a2b9b6ca96 Merge branch into tip/master: 'locking/core'
-4967317ba9596dd49dcdf21734e32dd030ea579d Merge branch into tip/master: 'objtool/core'
-f3eb31a0a04dc5496979c38a730963d120c7d917 Merge branch into tip/master: 'perf/core'
-06591adbea5fd972a2a7e48d73fdd481f5fbb96e Merge branch into tip/master: 'sched/core'
-fa50caa80392d313d4a23d73df03f45afcb7ce3b Merge branch into tip/master: 'timers/clocksource'
-c8819c441c9fbfa11dd377f983c7996bb1683034 Merge branch into tip/master: 'timers/core'
-722cf787e5d2b251c34e17b0866a7e3e29b48cfc Merge branch into tip/master: 'timers/nohz'
-e65e51c1eade82b3bb138ab6a07b7211bdecd16e Merge branch into tip/master: 'timers/vdso'
-c8c7858244ab67a9b2590423433b77dc05feaef1 Merge branch into tip/master: 'x86/asm'
-834d5ee34725236d47b5316d8a6bc9a3ec422292 Merge branch into tip/master: 'x86/boot'
-382e5cba8504549740921aaea280126ed0ae586c Merge branch into tip/master: 'x86/bugs'
-42514619a7e165c5008af9264db4964b1086ac03 Merge branch into tip/master: 'x86/cache'
-3cbc9918ed521529c28fe268efff658978996455 Merge branch into tip/master: 'x86/cleanups'
-c53bb1693c6e58051eceafdc32772baa491fae09 Merge branch into tip/master: 'x86/cpu'
-a3340eead77c6a3910196bcc90342cf039179dae Merge branch into tip/master: 'x86/kdump'
-dca854fa1c324e9c80b7b83a2f31169ddece525a Merge branch into tip/master: 'x86/microcode'
-4447a1735161d32513c29537c801bc246aa94d3c Merge branch into tip/master: 'x86/misc'
-e29fb28673c135b241f61b89fe79902ba39c6eaf Merge branch into tip/master: 'x86/platform'
-7b3a28d68a74ecaa03aba8de6ad79be81ecefc6e Merge branch into tip/master: 'x86/sev'
-d59acecc9d09fd7644ef8d9cfea12a9fe4463c7e Merge branch into tip/master: 'x86/sgx'
-c803a3f002ec36285d15c462ac3519198207bb3a Merge branch into tip/master: 'x86/tdx'
-
---===============4217029556351313402==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa4ed52ee9be-5f68525de8f1.txt
-
-2e42cade8ff1ff579e77976d9869db4df1feaf74 regmap: irq: Free the irqdomain we create
-41d1119e2f8577b4bd01d31321c6761af9140ce7 x86/kcfi: Emit the FineIBT paranoid "cs" prefix as a byte
-aaabefc79b0ff0018e8e3832169bbe359d0551fc i2c: viai2c-wmt: Fix clock leak in wmt_i2c_probe()
-8cb5c17be3a2fadc41075d04ce1c24c831546aaf i2c: qcom-geni: Restore the source-clock selection policy
-834035934cef9e60169de682f4dc9feafd49e51a regmap: Remove debugfs before cache teardown
-abff0a48b110fe52d43999b4cb7c793a510a6bf1 regmap: Drop map lock during cache init and exit
-d5a821f66047c2effd06147b84775f9b2ce0f4aa regmap: Fix cache lifecycle locking and teardown
-195f3d74b5de98969dc4fad956393bb00787efd1 i2c: qcom-cci: Fix HALT_ACK reset request being dropped
-8980bc573ae2d2b9d86d76aeb86c76e1597070bf spi: tegra114: assert CS GPIO for every transfer in a message
-8c8222c255772713eb36cde695777a1fce224917 scsi: xen/scsifront: Check for a NULL shadow entry on a backend response
-c9e9f024dd4f61f0f6636c9f2ed0830f87060e11 scsi: st: Save the visited block for the partition the drive is in
-71caf7f84bd62a4bf91cc95abd2de690afb8d15f scsi: st: Fix use-after-free race between st_remove() and st_open()
-04a67a8b1a4460345d22fe75d93430cbf7e651d7 scsi: target: Disable interrupts while holding delayed_cmd_lock
-e15b81f602edbdee39c335546f25486a1747f3f0 scsi: target: iscsi: Fix race in discovery auth updates
-8ee2a09a1dbb257c9e828ad2497f8e4832dfb142 scsi: libiscsi: Reject a negative task index from parse_pdu_itt
-c5958c770b2a0ee492414e26b07da9164a0d1f5d scsi: libiscsi: Validate the ITT reflected in a Reject PDU
-11bffcd9cb346732eab2914ef44fe777a3f0b585 scsi: libiscsi: Validate the task named by a management response
-81e097a064b28b4a1f6ca1a8b433e659c1bd64c0 scsi: libsas: Fix SMP IO deadlock during HA resume
-ec6b083915e8146e147314a5f4f1285d07b57bfc scsi: bsg: Pass reply_len to bsg_setup_queue() to fit UFS ARPMB replies
-d33373c565af9c8a28776af02bd20ba6e5724211 i2c: xiic: restore non-managed runtime PM to fix clk WARN flood
-59eb22641f0c526dd064390b11cff99ae87c2858 spi: imx: fix slab corruption from undersized DMA bounce buffers
-4eac392e48fc0ddc6d5ac10d57aac7245c17d0d9 spi: spi-fsl-lpspi: pass struct fsl_lpspi_data instead of struct spi_controller if possible
-b0f0c761ed3fa10754dc9295db85374a173123b7 spi: spi-fsl-lpspi: directly return ret in fsl_lpspi_transfer_one()
-7f9f2d6abc40f79e802b4063859eda343043b85c firewire: core: fix race condition in split transaction handling
-cf20e7f96ae688dd8611dd6dce8cb4a036fecc72 Merge tag 'locking-urgent-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-8573787061f1a59fd73fc683c3c5cfd6bd07ea9f Merge tag 'perf-urgent-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-88328f850d956d267d11e2ee225ee1eaa902b8e0 Merge tag 'sched-urgent-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-23a38e7bb2f9ad99c317a9f4e4c349054de9dfff Merge tag 'x86-urgent-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-53cbbb09c1b87425cd7184f81ecdb830aa3b0b87 Merge tag 'x86-core-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a0ff06b3a7bd3aa0cd99d0294e60b3ed28c9bfac Merge tag 'firewire-fixes-7.3-final' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
-72732cbee632b1be22b636813c9be3df55c72bd9 Merge tag 'i2c-fixes-7.3-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
-3d679a244e0deb65d31cb02f1d1dcb790fcfcae2 Merge tag 'regmap-fix-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-8486d357129126e27fb5d4e02622566bafc77035 Merge tag 'spi-fix-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-f909e534f5e34feb2ea2701d54df63e21aa506fc Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-c03c1a14507dfaf8b856c2608f9ac216021fc222 Linux 7.3
-5f68525de8f13335cf22f6127005e65c7c68b48f Merge branch into tip/master: 'x86/mm'
-
---===============4217029556351313402==--
+  - ref: refs/heads/testing
+    old: f9a11716c8445b496e9fafeec7e8412d384d02e2
+    new: dcf413245c8c2351f7f80502f89c344256f61a66
+    log: |
+         c8c2c8a2bbe4319f63d029d161aaee2b17687371 xfrm: state: reject mark with bits outside its mask on add
+         07d7b25224f503e76e63eb6947a0b9e0da7998a8 xfrm: state: reject mark with bits outside its mask on ALLOCSPI
+         b3056e57b0657a4401349187c620d0fa1b8914c8 xfrm: policy: reject mark with bits outside its mask on add
+         6362f459bfc485d805f0439ae4566c1b014abfa4 xfrm: state: exact mark/mask match for SPI-keyed control-plane SA lookups
+         3eb841b771e81e0692b3ebfc75fdb774022cc4f6 xfrm: fix use-after-free of migrated state in xfrm_do_migrate_state()
+         da94223774ea012188ef76f89e0bd642b39ba517 xfrm: fix hw offload state leak on xfrm_do_migrate_state() error path
+         a46232c697c809aaa2b0ad18157b49d66201fd7f xfrm: include mark in MIGRATE_STATE SA collision check
+         24bc5e549913c37fa30693fd3a62a16757c14327 xfrm: pass extack through to xfrm_init_replay() from xfrm_init_state()
+         dcf413245c8c2351f7f80502f89c344256f61a66 docs: xfrm: include mark in XFRM_MSG_MIGRATE_STATE EEXIST tuple
+         
