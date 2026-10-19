@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 19 Oct 2026 03:19:19 -0000
-Message-Id: <179237995952.4149023.3130038674594225770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Mon, 19 Oct 2026 04:53:08 -0000
+Message-Id: <179238558874.18882.17068945283216218777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: kkd
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/for-next
-    old: 44b6b1dfb259e8baa5226679945fb6c25d11c207
-    new: 4f842631f178f41baa2d2d444a277d54c07666a1
+  - ref: refs/heads/feature/cache
+    old: 066d48c618aca724d1d8b1e9ecd069bbf7192ed6
+    new: 9de5dc7c80801662b83c95cdf0872488ccef50e2
     log: |
-         e2c978ad415ce223e71f6ddaa92778225eca0bef selftests/bpf: Run the cpumask map insert tests only for the test task
-         4f842631f178f41baa2d2d444a277d54c07666a1 bpf: Refuse the prologue for an extension if callers keep packet pointers
-         
-  - ref: refs/heads/master
-    old: 44b6b1dfb259e8baa5226679945fb6c25d11c207
-    new: 4f842631f178f41baa2d2d444a277d54c07666a1
-    log: |
-         e2c978ad415ce223e71f6ddaa92778225eca0bef selftests/bpf: Run the cpumask map insert tests only for the test task
-         4f842631f178f41baa2d2d444a277d54c07666a1 bpf: Refuse the prologue for an extension if callers keep packet pointers
+         9de5dc7c80801662b83c95cdf0872488ccef50e2 f2fs: zone: don't fail to grab GC target block on zoned device
          
