@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
-Date: Tue, 20 Oct 2026 10:43:31 -0000
-Message-Id: <179249301184.1568151.12473632541830271736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Tue, 20 Oct 2026 10:44:21 -0000
+Message-Id: <179249306196.1569094.16082369797355818262@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/kbd
-user: legion
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/master
-    old: 9c3a59b5ba52e065e5a5398e728e2b1a41c4983e
-    new: 991f1caa678cbb5e486c5d847e1617f275e7184b
-    log: |
-         991f1caa678cbb5e486c5d847e1617f275e7184b vlock: ensure locked VT is active when locking all consoles
-         
+  - ref: refs/tags/kcsan-20261020-v7.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d5caab5cd78a7984f9a9f4d246541ab9e09f3388
