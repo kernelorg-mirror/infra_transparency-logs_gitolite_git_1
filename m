@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 20 Oct 2026 02:58:12 -0000
-Message-Id: <179246509299.1163737.17909592078341817020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 20 Oct 2026 03:37:06 -0000
+Message-Id: <179246742686.1190895.13738787652687060171@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/main
-    old: c0b628de2243f0d5d1c0e79e8acf9411f6b6f835
-    new: 044ad3c90d9d2df2c5cb3325ae17b4e9603a311f
-    log: |
-         f67b3ed1308d7a282e2d6202d61af052ab0da39e net/sched: act_api: reject duplicate actions in a batch
-         044ad3c90d9d2df2c5cb3325ae17b4e9603a311f selftests: tc-testing: add duplicate action delete batch test
-         
+  - ref: refs/tags/x86_cpu_for_v7.4_rc1
+    old: 0000000000000000000000000000000000000000
+    new: 7a7e43df2eb8c9f832e789a4ae1d17376c0a47fc
