@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4021448091973591791=="
+Content-Type: multipart/mixed; boundary="===============4896316190939314802=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 20 Oct 2026 19:03:43 -0000
-Message-Id: <179252302382.1955886.556852357306764891@gitolite.kernel.org>
+Date: Tue, 20 Oct 2026 19:03:46 -0000
+Message-Id: <179252302634.1956106.16681049496091306898@gitolite.kernel.org>
 
---===============4021448091973591791==
+--===============4896316190939314802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: d1241cdbbcf7bfac3e53482b2054504628f9f047
     new: 94c02e9b3e6da00382d5f750a07613e68a6255e1
     log: revlist-d1241cdbbcf7-94c02e9b3e6d.txt
 
---===============4021448091973591791==
+--===============4896316190939314802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -113,4 +113,4 @@ ff5a2a7acec1bcd0921f986c8fd1c0285ed97b50 net: ethernet: mtk_wed: Fix dma_unmap_s
 ccd0742641dcbfd7ceab49fba841211be204e12b neighbour: Floor neigh_periodic_work() interval at 1s.
 94c02e9b3e6da00382d5f750a07613e68a6255e1 Merge branch 'neighbour-misc-follow-ups-on-per-netns-neigh_table-series'
 
---===============4021448091973591791==--
+--===============4896316190939314802==--
