@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 20 Oct 2026 08:29:40 -0000
-Message-Id: <179248498077.1464755.12921652846659499519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mchehab/linux-media
+Date: Tue, 20 Oct 2026 08:33:19 -0000
+Message-Id: <179248519911.1468195.2363952215587918117@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/mchehab/linux-media
+user: mchehab
 changes:
-  - ref: refs/heads/main
-    old: 044ad3c90d9d2df2c5cb3325ae17b4e9603a311f
-    new: 305deb54c6c287e586bed92da2375ae1220e8dde
-    log: |
-         305deb54c6c287e586bed92da2375ae1220e8dde net: stmmac: xgmac: do not treat TBU as a TX event
-         
+  - ref: refs/tags/media/v7.4-1
+    old: 0000000000000000000000000000000000000000
+    new: 0da9932322ac7ed3508a0f4b5b6f5aa189e57ca2
