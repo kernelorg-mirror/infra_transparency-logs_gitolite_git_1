@@ -1,23 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Tue, 20 Oct 2026 11:59:41 -0000
-Message-Id: <179249758136.1625200.4875649055272568387@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3359235832662227937=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 20 Oct 2026 12:05:02 -0000
+Message-Id: <179249790250.1629637.10943962860822060797@gitolite.kernel.org>
+
+--===============3359235832662227937==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/bugfix/common
-    old: 88fa00a6e578ab31d0576cb99647b1db7962523e
-    new: 41addd843d26dc8cc71aab7f8dda8d0b9435e36f
-    log: |
-         3de9a0849edaedecd01d9dc60883baf2461252f2 f2fs: return -EIO from fsync if checkpoint was skipped due to cp_error
-         5aa7906f1bffadc5250ce199b043ac426673d08a f2fs: cache: fix to initialize f2fs_writeback info at mount time
-         28ceeff7bab832de8f6cb16d2bea05f498dfe766 f2fs: fix to account entry_cnt for all write bios
-         ea769ea084f9fb8aee4267666df3eb7231635bb7 f2fs: introduce max_write_bio_{folio,entry}_cnt module parameters
-         41addd843d26dc8cc71aab7f8dda8d0b9435e36f f2fs: remove max_atc_write_bio_size
-         
+  - ref: refs/heads/review-ilpo-next
+    old: e3ced58a52f15e3d251f3a9ac8e82c15ee8a359b
+    new: 893018d51f27ec0449155b0afe371aaf65380630
+
+--===============3359235832662227937==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1792497897 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1792497897-ec5572a9254b8fa83f1979d4114b70306821c606
+
+e3ced58a52f15e3d251f3a9ac8e82c15ee8a359b 893018d51f27ec0449155b0afe371aaf65380630 refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCatdY7wAKCRBZrE9hU+XO
+MStIAQDX14hIAePEuYM+Z393TzXs513774GTrTQD0aPoL1lQDAEAgo4KNRxdVzte
+bys1bJcQFX/bISb/Y/b42+/uWF/Oqw8=
+=F8RV
+-----END PGP SIGNATURE-----
+
+--===============3359235832662227937==--
