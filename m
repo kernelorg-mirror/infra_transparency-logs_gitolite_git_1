@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Tue, 20 Oct 2026 20:45:19 -0000
-Message-Id: <179252911973.2042412.13533609946990043134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 20 Oct 2026 20:45:20 -0000
+Message-Id: <179252912081.2042518.859250950164262097@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korgalore/korgalore
-user: mricon
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/stable-0.7.y
+  - ref: refs/tags/timers-clocksource-2026-10-20
     old: 0000000000000000000000000000000000000000
-    new: ea22e7c8701e566328f197c748718cd689f9ea28
+    new: 9b0069a0ce3d3c688922838f1cb4e4b4332e7a17
