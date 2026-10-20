@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 20 Oct 2026 00:16:07 -0000
-Message-Id: <179245536784.1033273.6468172930919966925@gitolite.kernel.org>
+Date: Tue, 20 Oct 2026 00:18:41 -0000
+Message-Id: <179245552150.1034136.6983068176051677199@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: b2914fb67fbbfcd7ab1a855c167595b363212613
-    new: 2ad9c9142d59f5748cce5da44ec46a14fdb66467
+  - ref: refs/heads/master
+    old: 2ad9c9142d59f5748cce5da44ec46a14fdb66467
+    new: 1907a7d0a1788ba794eff7e75cb140599bef34e2
     log: |
-         19a17b5b2b01f6b5ba8f8d493629c759f90906d5 bpf: Refuse CO-RE relocations for a signed program
-         25a2e54999b0b93e8ecebb5863e3ecbcafb0ed18 selftests/bpf: Test that a signed program with CO-RE relocations is refused
-         2ad9c9142d59f5748cce5da44ec46a14fdb66467 Merge branch 'refuse-co-re-relocations-for-a-signed-program'
+         05bee0638bacf4e9298bbf0bfef749b6a8ff4478 bpf: Revalidate faulted arena pages before installing user mappings
+         7244a2e58d2167292972f9380abb3a4d17a343e3 bpf: Fix arena race between page free and alloc leading to incoherency
+         6c372031078cfa4c1ee1a789d29108af794ec1ab selftests/bpf: Add arena allocation race tests
+         1907a7d0a1788ba794eff7e75cb140599bef34e2 Merge branch 'bpf-fix-arena-memory-incoherence'
          
