@@ -1,25 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 20 Oct 2026 02:18:01 -0000
-Message-Id: <179246268115.1135028.12983572815568085693@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-next
+Date: Tue, 20 Oct 2026 02:23:51 -0000
+Message-Id: <179246303127.1139347.8019859272089835335@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/sashal/linux-next
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: c6b97e579ea3803c9343c01cafc9d0af821952e6
-    new: 17ec1b9b3f529fdb10ea41ea8d3ba4aa18c8e0b7
+  - ref: refs/heads/all-next
+    old: 101c0a50967971b40aebdeacb6980cf449e1249c
+    new: 7b540dad44d205ac9e21eb06653406796eaec1e8
     log: |
-         c73695b5c2973839ffa5a8f0ad994b6131700fbd ovpn: Fix the return value in ovpn_bind_from_sockaddr() kernel-doc
-         1926cf58b0a8f74ad488ef4d14ed02b88fbfe229 ovpn: remove unused work field from struct ovpn_socket
-         fbe0f84135140565258e5bbee9c7e1f2826ee8ef ovpn: remove redundant peer NULL checks in crypto post functions
-         5a5c645415c216f381cdab654bc012546f0d07ff selftests: ovpn: enable TCP_NODELAY on TCP sockets
-         03b7050e67e2d5335cfcec428934d9728d968764 selftests: ovpn: wait for the TCP server key setup before traffic
-         b2ed202907d654337d72825d743a833009010740 MAINTAINERS: ovpn: add Ralf Lici as reviewer
-         17ec1b9b3f529fdb10ea41ea8d3ba4aa18c8e0b7 Merge tag 'ovpn-net-next-20261012' of https://github.com/OpenVPN/ovpn-net-next
+         c6b97e579ea3803c9343c01cafc9d0af821952e6 selftests: net: fix race condition in icmp.sh causing CKI sporadic failures
+         346ae0dd9f7a019805c91e00d90f74ba136336ca Merge 'net-next' from https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next.git (main)
+         8d8f5b49e5a4c937e54cf1a14a1ba9d4bf313a99 Merge branch 'net-next' into all-next
+         7b540dad44d205ac9e21eb06653406796eaec1e8 Add merge report for 2026-10-20 (0 interventions)
+         
+  - ref: refs/heads/net-next
+    old: 7c6ae6158f1405e12daa7a8b6fc2e0ca05ea17c9
+    new: 346ae0dd9f7a019805c91e00d90f74ba136336ca
+    log: |
+         c6b97e579ea3803c9343c01cafc9d0af821952e6 selftests: net: fix race condition in icmp.sh causing CKI sporadic failures
+         346ae0dd9f7a019805c91e00d90f74ba136336ca Merge 'net-next' from https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next.git (main)
          
