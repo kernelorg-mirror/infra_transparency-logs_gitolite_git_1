@@ -1,20 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 20 Oct 2026 20:45:46 -0000
-Message-Id: <179252914690.2043196.8707259787685837873@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3537298122183508703=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 20 Oct 2026 20:48:55 -0000
+Message-Id: <179252933556.2044149.11184107756068039470@gitolite.kernel.org>
+
+--===============3537298122183508703==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 69ab87acc614cbe0bd08a65ece6e1aabee805106
-    new: e64bff85e3c8fb6e0f55e00b2c4d219a0edb33a8
+  - ref: refs/heads/work.namei.detach_mounts.v17
+    old: 5ddbdf54a90d59f6b82193315a17352be05b68c1
+    new: b568b67fdae47287caedc0548cc1ca900ac0aff3
     log: |
-         b59787892d04a5647a7e662fbb02cd0abdb1a993 net: axienet: release every RX buffer in axienet_dma_bd_release()
-         e64bff85e3c8fb6e0f55e00b2c4d219a0edb33a8 net: Port skb_segment tests of the test_bpf module to KUnit
+         b568b67fdae47287caedc0548cc1ca900ac0aff3 fixup! namespace: let a cover go with the dentry of a removed name
          
+
+--===============3537298122183508703==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 0x91C61BC06578DCA2! 1792529334 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+nonce 1792529334-acd01fe78b97379cae57346c6146376bfcc8b3d7
+
+5ddbdf54a90d59f6b82193315a17352be05b68c1 b568b67fdae47287caedc0548cc1ca900ac0aff3 refs/heads/work.namei.detach_mounts.v17
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCatfTtgAKCRCRxhvAZXjc
+ov6GAP49C6IplvUkP23xuXk4WNC7Magb8G4BqEoqGrdi/AispgEAwniR2IeXJWS1
+OqZ8AappH8z+czFSq6EVuEQY+/Zt4ws=
+=CITx
+-----END PGP SIGNATURE-----
+
+--===============3537298122183508703==--
