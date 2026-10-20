@@ -1,43 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============7239203582060067862=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 20 Oct 2026 14:52:53 -0000
-Message-Id: <179250797391.1758721.10719724614049103564@gitolite.kernel.org>
-
---===============7239203582060067862==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 20 Oct 2026 14:54:50 -0000
+Message-Id: <179250809005.1759470.7563583901852288935@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/vfs-7.5.super.ro
-    old: 0000000000000000000000000000000000000000
-    new: 1de025868031ae87a4e88cb608041dc03767f6e1
-
---===============7239203582060067862==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 0x91C61BC06578DCA2! 1792507970 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-nonce 1792507969-1b1a1810460237084e82e48e00dc6c2b5c3f4e19
-
-0000000000000000000000000000000000000000 1de025868031ae87a4e88cb608041dc03767f6e1 refs/heads/vfs-7.5.super.ro
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCateAQgAKCRCRxhvAZXjc
-opJpAPwO8lANZfBxM6hmddpXFfPSgu46/mfn0I1TGEalqa4ZsQEAvwZye+Cdj7YQ
-+O3lhTBiqyVvACCAsm31R8V6S4Qitwg=
-=StoW
------END PGP SIGNATURE-----
-
---===============7239203582060067862==--
+  - ref: refs/heads/asoc-7.4
+    old: 73be2ee656f2722d498504259b9f1fdef8419431
+    new: 6cc7db9fdd06c992ee38793b2d556524fc0cf574
+    log: |
+         ff404ef11b975baf38c4472c51a6674c239e8021 ASoC: cs42l56: Remove the ADC Mute Switch control
+         6cc7db9fdd06c992ee38793b2d556524fc0cf574 ASoC: cs35l56: Wait for firmware timer expiry before system suspend
+         
