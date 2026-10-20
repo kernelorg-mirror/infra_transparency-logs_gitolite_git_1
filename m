@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 20 Oct 2026 11:14:47 -0000
-Message-Id: <179249488779.1593108.13166503121287550310@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 20 Oct 2026 11:23:48 -0000
+Message-Id: <179249542891.1599532.10927669216418687978@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: dborkman
 changes:
-  - ref: refs/heads/main
-    old: 643f9c0bd87767f2076dca3acd850f3a95f4ad34
-    new: f09123082704b08d56fd044a2166e3e39fa68563
+  - ref: refs/heads/master
+    old: f25f6319e248034f3df83352e450ab3172eece43
+    new: b71326388a8a24674846c1d8d3b6dd831d9843a9
     log: |
-         f09123082704b08d56fd044a2166e3e39fa68563 net: ag71xx: align the IP header behind DSA tags
+         b71326388a8a24674846c1d8d3b6dd831d9843a9 tools/bpf: Remove legacy BPF tools
          
