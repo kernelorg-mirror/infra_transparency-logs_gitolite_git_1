@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Tue, 20 Oct 2026 19:10:39 -0000
-Message-Id: <179252343988.1963628.8216788473176456778@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 20 Oct 2026 19:16:18 -0000
+Message-Id: <179252377883.1967916.3796240345980474386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/b4/rust-dyndbg
-    old: 1239a30d8e3d48e661b6bd72e08930b21322c681
-    new: 6cc8ab8947c8369e9ccc743f9daee2873cb30c99
+  - ref: refs/heads/master
+    old: 6be7c6139d7734d84afddf989fa2874935b6d85b
+    new: ce4c1158edb292caca0ce4a6087e5edecc1b0371
     log: |
-         61926a481db95fc14c82b4121dc8e9c838accfe6 rust: add dynamic debug infrastructure
-         39d2d047ef861d5211eae832f7dcefafeb02ba11 rust: print: enable dynamic debug for pr_debug!()
-         024d961a9de93018c9ffa8154c60c1517adac400 rust: device: remove logging methods
-         6cc8ab8947c8369e9ccc743f9daee2873cb30c99 rust: device: enable dynamic debug for dev_dbg!()
+         a4d0c2d220582f17205278dc1c621ea40c933b88 tests: run base-suggestion tests in a fixture repo
+         3e0b17d9fda94103d90375d63aceaada6446ddc5 review: confirm the typed base, not the pre-filled one
+         738c3c6fa252ebd2b310766f40abecbbc93d106f shazam: merge from the nearest annotated tag, not the series base
+         d1d6fa839ff4897e0db9a26ae91186aa8dc993c2 review: pre-fill HEAD as the base when the series applies there
+         ce4c1158edb292caca0ce4a6087e5edecc1b0371 review: merge takes from the nearest annotated tag, pinned at confirm
          
