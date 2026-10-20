@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 20 Oct 2026 07:40:07 -0000
-Message-Id: <179248200761.1370356.7945969636305323833@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0508437776712709281=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 20 Oct 2026 07:45:58 -0000
+Message-Id: <179248235850.1374930.8472686546319623311@gitolite.kernel.org>
+
+--===============0508437776712709281==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6ac0d7ba21d52e51efe3bc81cc89de3c44bd1fa6
-    new: f34e7e887549eceae6bde4b120d510bfbe2963b9
+  - ref: refs/heads/master
+    old: 18b00fe65177a44b4173b7bac21380ef7cadebfd
+    new: 7fb00dc4d45b47dc830feaff897c8e7d6059b080
     log: |
-         ba16ad3c87691468bcbbecef7e0ceab059eea222 net: macb: close race between NAPI polls & ndo_stop
-         435345c6518071ce38d534acfdf49a79e879e55d net: macb: introduce macb_context struct for buffer management
-         b8ab596dabde5053c994872761a1d26b6a1f54c6 net: macb: avoid macb_init_rx_buffer_size() modifying state
-         9bfec20d011f2d44fa2f616ce7f5a8bf5512f646 net: macb: make `struct macb` subset reachable from macb_context struct
-         dd1aaefee4f63917b05180514df75cb9a9b41539 net: macb: change caps helpers signatures
-         ed16494c2c50efc4666bd3618f6644062e44a1fd net: macb: change function signatures to take contexts
-         88e99640fcd05a0ff5f9694e5c4b2f00c2edeb55 net: macb: introduce macb_context_alloc() helper
-         dcc3288b9433a47b41c8226d69381b827b3e3b65 net: macb: use context swapping in .set_ringparam()
-         a98375924d64cba336ab31b426756c946667fdaf net: macb: use context swapping in .ndo_change_mtu()
-         f34e7e887549eceae6bde4b120d510bfbe2963b9 Merge branch 'net-macb-implement-context-swapping'
+         7fb00dc4d45b47dc830feaff897c8e7d6059b080 drop some mptcp patches from 6.12
          
+
+--===============0508437776712709281==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792482354 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1792482350-e92e34c04526e22813adea8cbe1061a25b021feb
+
+18b00fe65177a44b4173b7bac21380ef7cadebfd 7fb00dc4d45b47dc830feaff897c8e7d6059b080 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrXHDIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MUUP/07WvRft305h3V9/rgdh
+cUNRmkRIJUdrLzeyDmv1tLNWtqK2EtVG9A8dO/FSgkJDQfgEM/SqPKtUsowUUNdg
+c0yLX/5c+Kg++++nzwUKzOWCKWGNsQ0g265iMoMHoG8egg4GTinzUgduthpF+95M
+b2CS4/IeIiitRTj6jaqhYtUCEgcevIzkNbzsymvtUdupRMWfkmNdTG8Pr7Wh1ipz
+yGWykhgJb3L7D9aZBW3DM73jwpgM46Ecmr9xIZVeBAThoUk4k/1MLM9gqiPgq8Aw
+TL5FnWZHof37mcvbOo0MuMiL1bsTqAB9nuyO9lIlp8NfiH9BI85cJ/nDtsjCPGo4
+c1kwJP6krp1fyfbzYQ1T9KGhneoJtXIX71bwxSVUpLJuiTAci82wxgFpo7uqei7x
+JXFLvYIKbag6TXLIqXftlO08xLpG2fhboXB/GEhb0wU2XBXO2SluBWAino7hggyu
+dq0JwJMl9IvzzF/jFcEfvZjTBDvduAH2wyy8ptZvNwBkLMbixq/2q/tr1qe4DFRc
+hED6S/CkG3jwav3WlWFF0SCwhtCmH4JtNUJnVcn8d2Py96xUhtZHZS3sQ8WoVoE/
+GqDbMtz+1trc5ko2G2mV3Igd/pgQZ2oOPAIk8CIRbiXk303qil2wQalV0I5KkwNS
+IwqJIgIeBgbe4VLPUJUGKNO/
+=GifD
+-----END PGP SIGNATURE-----
+
+--===============0508437776712709281==--
