@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1523014268558422998=="
+Content-Type: multipart/mixed; boundary="===============3454053563329534189=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 20 Oct 2026 15:17:42 -0000
-Message-Id: <179250946276.1779142.13021904583376698085@gitolite.kernel.org>
+Date: Tue, 20 Oct 2026 15:18:26 -0000
+Message-Id: <179250950613.1779587.5479270312630615077@gitolite.kernel.org>
 
---===============1523014268558422998==
+--===============3454053563329534189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-tpm
-    old: 17a7501b9612a52b38bc57e33c7b64636d438bc0
-    new: 33ae6a70b09f38f5691c4123891f27660b9ed7e3
-    log: revlist-17a7501b9612-33ae6a70b09f.txt
+  - ref: refs/heads/keys-rhashtable
+    old: 18b8c5578af2ecaa72d3e1aba60348d63221ad0a
+    new: ca924a830e81eed024c9b19a9793b23fd9ba7464
+    log: revlist-18b8c5578af2-ca924a830e81.txt
 
---===============1523014268558422998==
+--===============3454053563329534189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17a7501b9612-33ae6a70b09f.txt
+Content-Disposition: attachment; filename=revlist-18b8c5578af2-ca924a830e81.txt
 
 0b157166e612b70f98a332b6c7be7eac6f8e9593 KEYS: Fix key_reject_and_link() race with keyring restriction
 fced7238b7e80cf8aa688d5af976e4aa6e33c329 keys: Protect the type name while describing a key
@@ -47,5 +47,11 @@ b748d0cae218d108e5fc510a689f1b14a1f34c82 tpm: Call cmd_ready/go_idle for each co
 4aa14b620a7af1ac6117919d581c5e0868c30a73 tpm: tis_i2c: Deassert optional reset line before probing
 a0c0b7e1d8e54fa05917e2b67256219d0bc09beb char: tpm: Use SIMPLE_DEV_PM_OPS for ibmvtpm power management
 33ae6a70b09f38f5691c4123891f27660b9ed7e3 tpm: use DEFINE_SIMPLE_DEV_PM_OPS and pm_sleep_ptr()
+08972162b707d8e6238286f32b36d1563e2f64ac KEYS: Expand key->{datalen,quotalen} to unsigned int
+88560f587b2b3205e2543377a1378ef0a11159a6 KEYS: Reject descriptions larger than KEY_MAX_DESC_SIZE
+534926e9a4b22ab9e548aa7ce9f659eba2c7f4c7 KEYS: Verify the key identity in __key_unlink_begin
+0f5f8e1d006d5f932f76ab52643bd28dae0dcf3d KEYS: Add keyring_is_empty() for {fs,dm}-verity
+d306bad693829f58fafb16eac8f58bf86aa87efc KEYS: Replace assoc_array with struct keyring_index
+ca924a830e81eed024c9b19a9793b23fd9ba7464 lib: Remove unused assoc_array
 
---===============1523014268558422998==--
+--===============3454053563329534189==--
