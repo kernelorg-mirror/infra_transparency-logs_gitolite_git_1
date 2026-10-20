@@ -1,21 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 20 Oct 2026 20:59:30 -0000
-Message-Id: <179252997049.2054027.2781223556623261774@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2275814948899037864=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 20 Oct 2026 21:03:56 -0000
+Message-Id: <179253023648.2057695.16537038081114934512@gitolite.kernel.org>
+
+--===============2275814948899037864==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 2e97d370b39f039b86dd9e2aaae0322f814dcfba
-    new: d4bccf4ee7162c5688b53fe8096b046b89c20c11
-    log: |
-         df4761bd441cf9dcf70543d1db1f9206151d286c bpf: Support 32-bit linear scalar evolution
-         d4394fc6a1ed97bb1ae40fb6a8947d5bb138db6f selftests/bpf: Tests for 32-bit scalar evolution bounds computation
-         d4bccf4ee7162c5688b53fe8096b046b89c20c11 Merge branch 'bpf-support-32-bit-linear-scalar-evolution'
-         
+  - ref: refs/heads/work.namei.detach_mounts.v16
+    old: 0000000000000000000000000000000000000000
+    new: ae7cf077b0a2289a549ecc75293cebaec977f4db
+
+--===============2275814948899037864==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 0x91C61BC06578DCA2! 1792530235 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+nonce 1792530234-e7cf36dec3d7678e35d7eab7614265610335a554
+
+0000000000000000000000000000000000000000 ae7cf077b0a2289a549ecc75293cebaec977f4db refs/heads/work.namei.detach_mounts.v16
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCatfXOwAKCRCRxhvAZXjc
+oh04AQD7Lw9EC8vSDZLyPgaUQKl1rV6tYdEwQF1Qk2HuyEwsVAEAkNL7lMCd7p3n
+QKnPVnCzXRqZhhQOxHm7PmZPyNN5WAI=
+=vU2z
+-----END PGP SIGNATURE-----
+
+--===============2275814948899037864==--
