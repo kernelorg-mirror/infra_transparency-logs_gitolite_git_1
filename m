@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 20 Oct 2026 19:16:18 -0000
-Message-Id: <179252377883.1967916.3796240345980474386@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 20 Oct 2026 19:18:26 -0000
+Message-Id: <179252390654.1968614.8220333668359778766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 6be7c6139d7734d84afddf989fa2874935b6d85b
-    new: ce4c1158edb292caca0ce4a6087e5edecc1b0371
+  - ref: refs/heads/kdevops
+    old: 8b885ab8e6ae856a5d05d070b06a31e626a4dd80
+    new: 3273f59f63d3d9aeeea0b935d336dacf4f500d3e
     log: |
-         a4d0c2d220582f17205278dc1c621ea40c933b88 tests: run base-suggestion tests in a fixture repo
-         3e0b17d9fda94103d90375d63aceaada6446ddc5 review: confirm the typed base, not the pre-filled one
-         738c3c6fa252ebd2b310766f40abecbbc93d106f shazam: merge from the nearest annotated tag, not the series base
-         d1d6fa839ff4897e0db9a26ae91186aa8dc993c2 review: pre-fill HEAD as the base when the series applies there
-         ce4c1158edb292caca0ce4a6087e5edecc1b0371 review: merge takes from the nearest annotated tag, pinned at confirm
+         b1c587b4c40f4d10f1314b5f25ebce059c6c8f89 nfsd: add NFSD_CMD_FILEHANDLE_GET for root filehandle lookup
+         3273f59f63d3d9aeeea0b935d336dacf4f500d3e nfsd: add NFSD_CMD_FILEHANDLE_GET for root filehandle lookup
          
