@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Tue, 20 Oct 2026 20:39:42 -0000
-Message-Id: <179252878299.2035492.6199579542640534807@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 20 Oct 2026 20:40:21 -0000
+Message-Id: <179252882186.2037965.17841509154950932694@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/tags/irq-drivers-2026-10-20
     old: 0000000000000000000000000000000000000000
-    new: 61e1a43ca5825acb137a10ac7d52746632bfb124
+    new: 3cec42c7e201727f521da727dc3853eec89cc25b
