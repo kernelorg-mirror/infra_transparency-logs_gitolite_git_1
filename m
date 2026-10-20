@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 20 Oct 2026 20:44:31 -0000
-Message-Id: <179252907148.2039796.9526314878615626066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/korgalore/korgalore
+Date: Tue, 20 Oct 2026 20:45:19 -0000
+Message-Id: <179252911973.2042412.13533609946990043134@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/utils/korgalore/korgalore
+user: mricon
 changes:
-  - ref: refs/heads/main
-    old: 2ffc339492fff15ae2479b61247dbb390332a606
-    new: f434191f93884c9de58c38f18ac7fc7f1fdf9e42
-    log: |
-         8ff017b891e89276c15f06dfd7155981d572af77 ipv6: account route exceptions to the netns of their dst
-         f434191f93884c9de58c38f18ac7fc7f1fdf9e42 net: phy: marvell: keep WOL_EIE across interrupt reconfiguration
-         
+  - ref: refs/heads/stable-0.7.y
+    old: 0000000000000000000000000000000000000000
+    new: ea22e7c8701e566328f197c748718cd689f9ea28
