@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5067428342556638023=="
+Content-Type: multipart/mixed; boundary="===============0796348956049568445=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 20 Oct 2026 06:15:10 -0000
-Message-Id: <179247691011.1305622.6619908589687071751@gitolite.kernel.org>
+Date: Tue, 20 Oct 2026 06:15:15 -0000
+Message-Id: <179247691532.1305794.12497163627059738798@gitolite.kernel.org>
 
---===============5067428342556638023==
+--===============0796348956049568445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 48fe11c8d0f1e4e59426a3606f20ac1130b6d8dc
-    new: 59d7f9ec14ad4b6f38c04d254f8f2bfb991e888e
-    log: revlist-48fe11c8d0f1-59d7f9ec14ad.txt
+  - ref: refs/heads/mm-unstable
+    old: b306deee4cba9b6965a31b7d644f2a92574cd322
+    new: 3eb3e848d72cde2156447cc960ca321bb2ac41a9
+    log: revlist-b306deee4cba-3eb3e848d72c.txt
 
---===============5067428342556638023==
+--===============0796348956049568445==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-48fe11c8d0f1-59d7f9ec14ad.txt
+Content-Disposition: attachment; filename=revlist-b306deee4cba-3eb3e848d72c.txt
 
 6856deebcceb8f6c1e84fb2939a816ea7290e439 mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
 85fe0cf9c95038801f97f183f377b5ee0e361461 mm/vmalloc: use dedicated unbound workqueues for vmap drain
@@ -260,6 +260,5 @@ b7f8529922a5ad034097e1f7d9482c5da21affa6 riscv: mm: exclude invalid THP PMDs fro
 b36b71cb22027228fcc0f3a64c0f36900142c637 mm/shrinker: allocate shrinker_info_unit from a dedicated kmem_cache
 880a2031a540df2a9d0c9e218465b3a8011c2c26 mm/damon/core: remove unreachable damos charge_{target,addr}_from
 3eb3e848d72cde2156447cc960ca321bb2ac41a9 tools/testing/shared: catch a failed posix_memalign()
-59d7f9ec14ad4b6f38c04d254f8f2bfb991e888e riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============5067428342556638023==--
+--===============0796348956049568445==--
