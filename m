@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4860314389467478813=="
+Content-Type: multipart/mixed; boundary="===============1254155142572321430=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Tue, 20 Oct 2026 17:51:51 -0000
-Message-Id: <179251871129.1899765.14524987102394279300@gitolite.kernel.org>
+Date: Tue, 20 Oct 2026 17:51:57 -0000
+Message-Id: <179251871787.1899958.15218047042499032474@gitolite.kernel.org>
 
---===============4860314389467478813==
+--===============1254155142572321430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-fixes-unstable
+  - ref: refs/heads/kbuild-fixes
     old: fd73f4a6659897191fa0d40695fe370925dd3780
-    new: 362a583e13a08a7fbb4f98bb735141c3dca19e02
-    log: revlist-fd73f4a66598-362a583e13a0.txt
+    new: 997208ce9f43f01febac956cf9aeffe89945e3c1
+    log: revlist-fd73f4a66598-997208ce9f43.txt
 
---===============4860314389467478813==
+--===============1254155142572321430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd73f4a66598-362a583e13a0.txt
+Content-Disposition: attachment; filename=revlist-fd73f4a66598-997208ce9f43.txt
 
 f9f31f5f13b5e5459e2d3322fe6b5e19d511919a kconfig: error out for recursive range
 72c442e5bad35552d902312402121682f05220ac scripts/mkcompile_h: Update LINUX_COMPILE_HOST command substitution syntax
@@ -88,6 +88,5 @@ d26ab84593e63bc5395ed9b518502830fda3367c clang-tools: Import os for broken pipe 
 ae5f6044c4cdffe2b3361b15c1d6fc67b339f2a4 kbuild: Mark the initcall ordering recipe as recursive
 2b358510d5cc56164f83110ca1499c95a5a352cd kbuild: AutoFDO: Update split machine function argument for upstream rename
 997208ce9f43f01febac956cf9aeffe89945e3c1 Merge branch 'kbuild-next-speedups' into kbuild-next
-362a583e13a08a7fbb4f98bb735141c3dca19e02 kbuild: pass -fno-pic when probing for -mfentry
 
---===============4860314389467478813==--
+--===============1254155142572321430==--
