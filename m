@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Tue, 20 Oct 2026 00:39:50 -0000
-Message-Id: <179245679003.1050955.2879104564092817183@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 20 Oct 2026 00:40:26 -0000
+Message-Id: <179245682617.1053550.16587611630752308384@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/smb
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: c63783b00894564f977d82d3835035ce28c62643
-    new: 86b19896c779479a98549d7fb6a740a8275e3a8c
+  - ref: refs/heads/main
+    old: 78731b46967e3e7102b5cd5062bef185f3404b5c
+    new: c0b628de2243f0d5d1c0e79e8acf9411f6b6f835
     log: |
-         b3d9e1f9f83fe6d328ac4cb6bb22150d90468d63 ksmbd: reserve space for the UTF-16 terminator in stream info
-         99fde156aa1aa766c4678d8347658b68f82c9c67 ksmbd: inherit FileIds in related compound requests
-         98f214e394f6c629d091f0b461290dc49078e027 ksmbd: avoid restoring only in-memory EOF after allocation change
-         6d4de3b42e5b0d53ff60fb087d95c605c9234b28 ksmbd: round SetAllocation to the advertised allocation unit
-         1062fd925348461d400715d461b0ed5623bfc775 ksmbd: accept share config responses from ksmbd-tools before 3.5.3
-         01385c237078f1f8c4efaf48a757db7757914878 ksmbd: defer connection scavenging while session locks are busy
-         f2edba7f690396450bdf8f8d9e83b09a6c63ef8c ksmbd: hold a connection reference for each session channel
-         d5d86462d04812aba7c7b579125e588e08183d52 ksmbd: limit sessions on each connection
-         ac7063e1dc845e20c08ebbbb2b373bf08d4d2d50 ksmbd: reclaim ended sessions on logoff and expiration
-         86b19896c779479a98549d7fb6a740a8275e3a8c ksmbd: drain session procfs readers before dropping table references
+         5820ca58b409402505b9e904d1ded4908e0b6b81 netdevsim: reject cls_bpf programs bound to another device
+         d305547d1632a242818c5ebb430c85121a2ed434 net/sched: cls_bpf: accept dev-bound programs on shared blocks
+         866363c3cc40147d0501a1a6dae485e13852d150 selftests: net: exercise dev-bound cls_bpf on shared blocks
+         c0b628de2243f0d5d1c0e79e8acf9411f6b6f835 Merge branch 'net-sched-cls_bpf-accept-dev-bound-programs-on-shared-blocks'
          
