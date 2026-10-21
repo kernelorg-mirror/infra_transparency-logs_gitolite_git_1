@@ -1,41 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============1691832658231527089=="
+Content-Type: multipart/mixed; boundary="===============4678699203889018075=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 21 Oct 2026 08:11:37 -0000
-Message-Id: <179257029767.2563900.11125838504396177048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/uml/linux
+Date: Wed, 21 Oct 2026 08:12:44 -0000
+Message-Id: <179257036479.2564376.17806285438465651677@gitolite.kernel.org>
 
---===============1691832658231527089==
+--===============4678699203889018075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/uml/linux
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 750b8ba54a292e732c8d11df0219d8db9f9a98f5
-    new: 121277d6a7d282e2a37d0ce20407dc4d74d1c231
-    log: revlist-750b8ba54a29-121277d6a7d2.txt
+  - ref: refs/tags/uml-for-7.4
+    old: 0000000000000000000000000000000000000000
+    new: bd579b34c4405e848b4cd44ce706084b1840e3ac
 
---===============1691832658231527089==
+--===============4678699203889018075==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-750b8ba54a29-121277d6a7d2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-511b1f95a433a0c0b488dc6d26c6743668bfd4b3 hexdump: bound sparse skips by the remaining length
-e1006e0b336fdd2797926cca08cfd39114e8a118 libmount: remove built-in ntfs mounttype mapping
-e22ae9e247ecd180329d44dd4a16c626e3214a5a libmount: add config file support
-98a61f351954f945ac302e10426408878e7f72f4 libmount: separate filesystem type from mount type
-57b9cb8e217a3d3e5761374e035f72aa47d19bd3 libmount: add helper= to filesystem type configuration
-63fcad461029e4d7c0eb08090177be568e3f3127 mount, umount: document the config file
-1887e44b48c72da18fbd85ed326492e38bd14f56 tests: add libmount config file tests
-c4960f4410e5154cef852526cf4eb71623a8a4eb tests: add mount(8) filesystem type config test
-09c9794e90f2dbf84f14d7147a68957930231f01 lib/configs: document the order of the returned file list
-598d996e3ee2ece0e9c15a43c5984259bccf38cd Merge branch 'PR/libmount-mounttype' of https://github.com/karelzak/util-linux-work
-121277d6a7d282e2a37d0ce20407dc4d74d1c231 Merge branch 'hexdump-sparse-length' of https://github.com/mabunemeh/util-linux
+certificate version 0.1
+pusher 7BF9099A 1792570322 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/uml/linux.git
+nonce 1792570321-23b3e125c22254ed36fce7cac1c343355a434061
 
---===============1691832658231527089==--
+0000000000000000000000000000000000000000 bd579b34c4405e848b4cd44ce706084b1840e3ac refs/tags/uml-for-7.4
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmrYc9IACgkQ10qiO8sP
+aABC7g//ZD6RdaJHlM1ILqpR9PYx1AEt/M9TxCjWQgXn6KQilPcyI/47sXNN3xaY
+WT39z6u6iVE+Ni4IcawYN4d5RJwXDuDPFPUZMA/i61EtOiN1+dVK2VilXehfn4sP
+DMevwMuMeCQ7kbMsFzNh67Xi0LfdEtR30nBEPXUCT8mf/KWT/GBSW4v58u+LRUS8
+jKxOpWYkmuR3ThyUimZllKQWV3kR/P7viH3mniHDZL25s/IJ6DBn8JB49eFdwFGl
+kJgTt7bm6PapU/DV/++wBKoHq/Iy3Tq4vArmsdmIV4m2s9cHkIrH/8vTdOIXbRCZ
+UjIPgijarT3wUip15KgUuAs0/YYBmdRvSssZf+KKvaIVBAAMzsSejVwJGMdeLZjM
+wkUWQFk4O8C+AzzcGX2N0E0APg2Smc9o9mshOGrpsPnukdrPr2Kz+l815F3+gTN6
+M+E8BSp+4MXb88H7QM3eaRRwLW3H14wDCdwCb599zbHANxBTeNSlE5WGYCrNcgmH
+9qweAHkP4RGuYLFbo3LUoiHMjoQWa3vyvD9hhtM2mNLRkGpGpwQw+WtLG5wYhJYb
+9ClwBzNxTW1jbpGstfJmV55CMWnlZUCmMW/M6/h+K0EdIRFxafHkrA15iDzWtZP+
+umAd2Dcfbx+HA7Jh0cTysCQdnW+h8dSHcnM7wrsQ5iYlY/wJsh8=
+=mCB7
+-----END PGP SIGNATURE-----
+
+--===============4678699203889018075==--
