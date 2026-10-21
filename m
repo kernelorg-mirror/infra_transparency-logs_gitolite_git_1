@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 21 Oct 2026 15:06:00 -0000
-Message-Id: <179259516019.82629.14933256350674297080@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Wed, 21 Oct 2026 15:06:25 -0000
+Message-Id: <179259518545.82983.13623010549272416374@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/master
-    old: b5f3cea924e31a3d68206c57dc32c0d58f6aaa40
-    new: 64a9cac0518475717c7ea0bd4f25c6471e63fd5a
+  - ref: refs/heads/b4/genexis-xg6846-smp-v7.3-rc1
+    old: 68a1ede5a2531ebc6f1d9bd1c51306a3f9bacc91
+    new: 158b8b3c6a2523238539b5b1efb2bd1c2cd912b6
     log: |
-         ecb8135571e435bc38c86d363f231681562c9ba6 x86/apic: Rename init_apic_mappings() to apic_finalize_early_init()
-         90f8b3e500657beeeb0f67bbb27c53b9707202a2 x86/apic: Consolidate early APIC initialization into apic_early_init()
-         98dff3f1bc033da4d4811d8f335fe7311dbf54df x86/apic: Remove redundant check from x2apic_phys_probe()
-         37b841b51a2689da002350c295deac91946c0881 x86/apic: Switch to x2apic driver early if x2apic is enabled
-         e7cad586d73276cbd4466de81b2092287d7475c0 timers: Clear pending_map on CPU hotplug
-         7dbc307b6c72a5412e3f4e9fa2e0e926925fc5d6 sched/mmcid: Fix affinity-triggered switch back to per-task mode
-         6936eb53f2184fb8cd33cf0792cdbecb2acf43f5 Merge branch into tip/master: 'sched/urgent'
-         a3a99c87d6f1aa0ab74f9f8fa1efc1792aba6793 Merge branch into tip/master: 'timers/urgent'
-         64a9cac0518475717c7ea0bd4f25c6471e63fd5a Merge branch into tip/master: 'x86/apic'
+         5fdab1aaaa550ab03bca519822594316d16c7bb6 ARM: bcm: Enable CFE SMP on BCMBCA
+         7477f1f5ed0e09f240316e8dcf17c6c4dbe3d5cb dt-bindings: arm: cpus: Add brcm,bca-smp enable method
+         460d42f3cd91a9a49f2195894c6b0f24b0921b61 ARM: bcm: Add CFE SMP support for BCMBCA
+         158b8b3c6a2523238539b5b1efb2bd1c2cd912b6 ARM: dts: broadcom: Use CFE CPU bring-up on the XG6846B
          
