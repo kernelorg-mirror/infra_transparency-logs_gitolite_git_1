@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 21 Oct 2026 14:21:56 -0000
-Message-Id: <179259251692.12451.2443904346051105876@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtracefs
+Date: Wed, 21 Oct 2026 14:22:17 -0000
+Message-Id: <179259253750.14073.4219227755654792271@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/libs/libtrace/libtracefs
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: f4fdfd910ad15e5477c68f2eec208581e3f2239e
-    new: 73e93dfd1167cfce66ce1b09466fc97fa6dedd6d
+  - ref: refs/heads/libtracefs
+    old: bb68bb3abc35142eeaba41abf43da07abcd4bb25
+    new: 581ee98aaf61d622179a8e9b03090134426f28fd
     log: |
-         acbe866a91a76737d343bae63de782e73234a537 src/liburing-ffi.map: add io_uring_buf_ring_head
-         73e93dfd1167cfce66ce1b09466fc97fa6dedd6d Merge branch 'ffi-map-buf-ring-head' of github.com:ilyas-mallah/liburing
+         49bb5f29368d1aac6092e9b0a34827373822080f libtracefs utest: Only use online CPUs during tests
+         3667d2548792287e53b1735b2a65995beb516c7a libtracefs: Use LIBTRACEFS_STATIC for utest
+         581ee98aaf61d622179a8e9b03090134426f28fd libtracefs: Support EXTRA_LIBS for utest
          
