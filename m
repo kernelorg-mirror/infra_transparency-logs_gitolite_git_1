@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 21 Oct 2026 01:12:07 -0000
-Message-Id: <179254512783.2254033.11465404134657907927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
+Date: Wed, 21 Oct 2026 01:15:40 -0000
+Message-Id: <179254534055.2257397.4220651052742682520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/linkinjeon/smb
+user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 1ed0f78b25b4d796399fefab58b4409c4af06b4f
-    new: 59414ec9919bb79cfc22fb7d97a2fa0a38824d0d
+  - ref: refs/heads/ksmbd-for-next
+    old: da25995071e5e0f3aa9a41160b00b2f833127b3e
+    new: 8323aab48525b83f750e712f66e6e9387b550cf4
     log: |
-         59414ec9919bb79cfc22fb7d97a2fa0a38824d0d foo
+         de0cffef897c1c232ed973f89928cd6c93d0b1e3 ksmbd: deny access for an empty DACL instead of granting the request
+         8323aab48525b83f750e712f66e6e9387b550cf4 ksmbd: reject FILE_ATTRIBUTE_TEMPORARY on directories
          
