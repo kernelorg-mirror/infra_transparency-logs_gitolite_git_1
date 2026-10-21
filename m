@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1582560018442088504=="
+Content-Type: multipart/mixed; boundary="===============1127472358553710637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Wed, 21 Oct 2026 14:40:54 -0000
-Message-Id: <179259365437.58143.9808491286296415091@gitolite.kernel.org>
+Date: Wed, 21 Oct 2026 14:41:06 -0000
+Message-Id: <179259366651.58515.6087479857952046336@gitolite.kernel.org>
 
---===============1582560018442088504==
+--===============1127472358553710637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,66 +16,56 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: a7bfaba4823e3c165bb2004c74eff7c096672bc7
-    new: abeacca61eea4f6803df4a595b656ea45c2d3249
-    log: revlist-a7bfaba4823e-abeacca61eea.txt
-  - ref: refs/heads/master
-    old: a7bfaba4823e3c165bb2004c74eff7c096672bc7
-    new: abeacca61eea4f6803df4a595b656ea45c2d3249
-    log: revlist-a7bfaba4823e-abeacca61eea.txt
+  - ref: refs/heads/testing
+    old: 475cb4ea138f4b0e7f43ff79220f4013a6a840b8
+    new: 43fb7c74229d95570779d9724f770d50ff478123
+    log: revlist-475cb4ea138f-43fb7c74229d.txt
 
---===============1582560018442088504==
+--===============1127472358553710637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1792593650 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1792593663 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1792593649-d58e167059e13836fcc6e9e698b60a85af639475
+nonce 1792593663-9b450d60a51074249c908d23e99b9192616106df
 
-a7bfaba4823e3c165bb2004c74eff7c096672bc7 abeacca61eea4f6803df4a595b656ea45c2d3249 refs/heads/main
-a7bfaba4823e3c165bb2004c74eff7c096672bc7 abeacca61eea4f6803df4a595b656ea45c2d3249 refs/heads/master
+475cb4ea138f4b0e7f43ff79220f4013a6a840b8 43fb7c74229d95570779d9724f770d50ff478123 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCatjO8hMcbWtsQHBlbmd1
-dHJvbml4LmRlAAoJEMw6ZPquma3SbD4A/iNFsRPVl3BlmkKDtOmJzcwhBH0WkCCS
-MT2f6JjPMbG3AQDr2hQM1jNfcCfGhFANdzkdsXb9iO0bRPXb7HgKXwyNDA==
-=KsG8
+iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCatjO/xMcbWtsQHBlbmd1
+dHJvbml4LmRlAAoJEMw6ZPquma3S32IA/0NLnrqanf1km2CfWcYnWegoOY8v7iFA
++8yTp34Z06FVAP9IifzZZk5QWkz51j1ost1rfTwbRhOFwDeujmM6DdpPDQ==
+=Zz4T
 -----END PGP SIGNATURE-----
 
---===============1582560018442088504==
+--===============1127472358553710637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a7bfaba4823e-abeacca61eea.txt
+Content-Disposition: attachment; filename=revlist-475cb4ea138f-43fb7c74229d.txt
 
-f952ed353a27b46c86c9525a39b7a642850b8139 drm/amdgpu/vcn5.0.1: fix video_timeout unit mismatch in jpeg reset wait
-6b13ddbf5bb8deec337f9b4887f579097a953f6a drm/amdgpu/vcn4.0.3: fix video_timeout unit mismatch in jpeg reset wait
-c3a31087b1c8df679b653c1a09d9abe5ff7ec8ef drm/amdkfd: fix use-after-free and multi-container gap in kfd_dev_mapping
-aea841bc62a76242396610d22d8ff40c13065f64 drm/amdgpu: Fix vmid_wait fence leak in amdgpu_ring_init()
-a997baa61179b450bd55c4810c7ccfed3b753a54 drm/amdgpu: Fix acpi device leak in amdgpu_acpi_enumerate_xcc()
-b4f7b4459b1b155e4c4977a6482b5df2cf08758c drm/amdgpu: Fix last_update fence leak in amdgpu_vm_init()
-2b86ab1bd6673c525adda88819d7658ba9e784ec drm/amdgpu: Fix runtime PM leak in amdgpu_debugfs_test_ib_show()
-0fd5e9ddf362b1253b3c94b858371f90400e5c4a drm/amd/display: Relax DML frame limit with UBSAN
-18779dd84515db093fedb4ebaf0998c9b165a5fb drm/amd/display: Bump frame warning limit for clang builds of dml
-af2fb3ee6679b517e2fdbd3ba16ec276a8b74312 mm/slab: do not wake up kswapd in __kfree_rcu_sheaf()
-a0bb6fac53fa7cf1cadb487b43d4c9276a6b82e3 sched/core: Account PSI IRQ time to the execution context, not the scheduling context
-1fef81669147d63eb8c5d3627d54eadc21173a0b arm64: mm: Fix the break-before-make flush range for erratum 2645198
-3872cc6b92940af0f73c6f9a45d65300492d648d arm64: topology: fix arch_freq_get_on_cpu() overflow above 4.19 GHz
-7b824c293a6b56de8285a97984c507cba56bc4c4 drm/imagination: Propagate map failures correctly from pvr_mmu_map_sgl()
-0a8224058a5835297dcf4a46bbcd16f77a9fe424 drm/imagination: Fix page count for page table for map() interface
-45585c3aa285854face65293acc95eff73063d6d drm/imagination: clamp freelist reconstruction requests
-47c73a43c1de51ed54b621d570c5cdf20549c5b7 thunderbolt: stream: Announce support for FMODE_NOWAIT
-b16610e3770ef22fc8fcce818db0cd955332abf4 ASoC: SDCA: Set suspended flag after resuming within system suspend
-91094f9c86216898ce92141c26c8fec7e97544c0 ASoC: SDCA: Add better pm_runtime error handling in func probe
-fbb13f2483e5aff94e1829bb6dd1d0514ddcfccf ASoC: SDCA: Power management fixes for the class function driver
-15814c01ac57643edf1662a076d2961332f277a5 drm/amd/display: Bump frame warning limit for all builds of dml
-d431e03d831c043707e22311c4bdea1907166c34 drbd: remove unused drbd_nl_mcgrps[] array
-e66cf1625ec4a3fe68346119f371def713fd0a4d smb: client: use finish_no_open() for non-regular inodes
-1765a153d985c231357145e26798f9408db10e42 cgroup/pids: Restore pids.events notifications in local mode
+b94773dc4df7026a6f29b2c65e96e88d29cdb576 net: phy: intel-xway: workaround 100BASE-TX Link-Up issue
+8e1937fed6738460554ec123c64839e2445e7d53 tipc: Fix a data race on mon->peer_cnt in mon_timeout()
+56d82862a0a243ac14ba11b6d7b57ddc2d064b95 af_packet: fix integer overflow in prb_calc_retire_blk_tmo()
+8db67bb6a1fffa4df68fbbc22e39943aeeff9178 net: ethernet: stmmac: dwmac-rk: fix bulk clock leak when the PHY clock fails
+06e3f54e8b22040ada01a28343badf1990b4dd7d net: flush skb_defer_nodes in dev_cpu_dead()
+83769c23fb1879edc916a526ba424285033baf2d gve: DQO: fix header length used by gve_can_send_tso() for UDP GSO
+415f2044228cc8b948dc04e079aaa86a4d1aa1d3 Merge tag 'landlock-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
+3b430ea6234087957b0d3cd181e3116722b59819 gve: fix TX drop when GSO MSS is too small for hw
+296c83b5ccc808c080865eb20fd7a477b0355bb7 gve: DQO: reject TSO packets with an out of range MSS
+488089055b61be8f7e97817d4608844f0fba2648 Merge branch 'gve-dqo-fix-handling-of-out-of-range-tso-mss'
+72b5b9a28b996e09b8b5b944370c79851bb68f52 llc: reserve device headroom for allocated frames
+72f9dd522f8d6c5a00be9695c7bb74631eb5069e llc: fix skb UAF and leaks on llc_mac_hdr_init() failure
+ac704ff08e511c87643799c385f55ecd69b85e03 bridge: check llc_mac_hdr_init() return value in br_send_bpdu()
+907b978e82cb4c1c245fc2985bb27c5d5c88c8f6 net/sched: sch_teql: fix shadowed err in __teql_resolve()
+cd5dd68267c4238795fadaf02b3575ca3f8a6500 vlan: ensure sufficient headroom in vlan_dev_hard_header()
+1078a38344a852eefafcc61c42dcc333b53c7478 Merge branch 'vlan-ensure-sufficient-headroom-in-vlan_dev_hard_header'
+fc6d80eb504458d6416b75a94188b268c95c6533 tcp: prevent collapsing skbs across boundary in rtx queue
+f2c53ea949c5048f96b3dbb5a5ee7131ce4ff2de Merge tag 'net-7.3-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+11536ee3d3e0b1bd35b6f3f8df55a6053eb0c71d MAINTAINERS: update Eric Dumazet's email address
 cb97bf3d4f91453b881acaf8e9f0cc47bb40b604 i2c: qcom-geni: Fix hardcoded clock index in SE_GENI_CLK_SEL
 e8dfd03a1c51c4e84fbf2e5ef5cd7d33cc8b7578 Merge tag 'cgroup-for-7.3-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 ee9c669f9bf5fd2c24206746ded9382fe810df89 Merge tag 'sched_ext-for-7.3-rc4-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
@@ -136,6 +126,10 @@ f14572c203d57492e1d4e5d7851a3b143e083b82 Merge tag 'cifs-fixes-7.3-rc5' of https
 a9ed3aa9b87ee41e8ab3ff471b1331c154767e45 Merge tag 'drm-misc-fixes-2026-09-24' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 75467f60a3d14f08f86f2b353298d2826382ff23 Merge tag 'ipe-pr-20260925' of git://git.kernel.org/pub/scm/linux/kernel/git/wufan/ipe
 6812ce4e4379ffc99c52401ec28f0d7ffbc36206 Merge tag 'drm-fixes-2026-09-26' of https://gitlab.freedesktop.org/drm/kernel
+aadf655e8ea9a8ffa24bb8d69f504572e8d18181 net/mctp: publish the mctp_dev only after it is initialised
+0bb8eab29b55045281a4963d4557f2776cdf8cfa net/sched: cls_api: reclaim an empty proto on the error path
+0e7fe2b0ca45343b53345edc174898b448ccdaa4 net: bcmgenet: allocate RX buffers as page fragments
+a7bfaba4823e3c165bb2004c74eff7c096672bc7 ipv6: fix prefix route expiry in modify_prefix_route()
 19a4f1a6ed00286d70229f4fd5f690cc2fb033dc EDAC/altera: Do not allow driver unbinding
 b62a264163ca51bee04785c581344751812395df EDAC/altera: Drop __init from ECC setup paths for re-probe safety
 3e4a10a4718e3d963ee4d6c5f26bc5ad57c1d2b1 EDAC/altera: Fix memory leak on dci allocation failure
@@ -1076,5 +1070,6 @@ d5d524f46974cdddacbebcf2e7874238355aa7f0 Merge tag 'nf-26-10-19' of git://git.ke
 7eed173447fba937a19e2f5f2dc79780793f72e7 net/mlx5: HWS, fix modify header pattern compare on big-endian
 d425ec9bb9371d52d492ac4d09f0da6e26561684 net/mlx5: HWS, fix modify header pool match for copy actions
 abeacca61eea4f6803df4a595b656ea45c2d3249 Merge branch 'net-mlx5-hws-fix-modify-header-pattern-compare'
+43fb7c74229d95570779d9724f770d50ff478123 can: peak_usb: pcan_usb_fd_decode_buf(): accept short uCAN end-of-list records
 
---===============1582560018442088504==--
+--===============1127472358553710637==--
