@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1162360739006593009=="
+Content-Type: multipart/mixed; boundary="===============2758969074703363757=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 21 Oct 2026 21:42:36 -0000
-Message-Id: <179261895695.390756.4427906125347359778@gitolite.kernel.org>
+Date: Wed, 21 Oct 2026 21:42:43 -0000
+Message-Id: <179261896315.390977.2255876576310838265@gitolite.kernel.org>
 
---===============1162360739006593009==
+--===============2758969074703363757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 78731b46967e3e7102b5cd5062bef185f3404b5c
-    new: abeacca61eea4f6803df4a595b656ea45c2d3249
-    log: revlist-78731b46967e-abeacca61eea.txt
+  - ref: refs/heads/100GbE
+    old: 445b80425f1e5dd0cab367dc302ff79f774f455d
+    new: 92f6ea66a72c32431d48990bca2dad2db79d3a9b
+    log: revlist-445b80425f1e-92f6ea66a72c.txt
 
---===============1162360739006593009==
+--===============2758969074703363757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-78731b46967e-abeacca61eea.txt
+Content-Disposition: attachment; filename=revlist-445b80425f1e-92f6ea66a72c.txt
 
 48d522b65fb0ce2bd54f8f5838d77b48afcf1f3e netfilter: nf_conntrack: avoid truncating IPv6 nexthdr offset
 c2226f0c7fe90b67732e5ae36dc5c3cc01ddf888 netfilter: nft_payload: restrict checksum offsets to known values
@@ -89,5 +89,19 @@ d5d524f46974cdddacbebcf2e7874238355aa7f0 Merge tag 'nf-26-10-19' of git://git.ke
 7eed173447fba937a19e2f5f2dc79780793f72e7 net/mlx5: HWS, fix modify header pattern compare on big-endian
 d425ec9bb9371d52d492ac4d09f0da6e26561684 net/mlx5: HWS, fix modify header pool match for copy actions
 abeacca61eea4f6803df4a595b656ea45c2d3249 Merge branch 'net-mlx5-hws-fix-modify-header-pattern-compare'
+f232c1e7571079d2c7798569089396ecae7ead90 ice: fix removal of PTP timestamp tracker during reset
+84f7a3fe03440f234003c13220b4751cce96df39 ice: use reference counting and SRCU for PTP port access
+953456c834ec8267e4cbe05c20bd00656cdaaa22 ice: fix PHY port restart serialization
+5909549a93d42a5816a033f8f330242135b4043c ice: set in_use only after preparing Tx timestamp index
+eef6e6cec7707610d3f5ad509a0f02b2aecb50ad ice: call PTP link change only from link events
+8c1b24431a0d5301398301898fae56623f70bb38 ice: E822: keep Tx timestamps disabled during offset calibration
+7311d7b9ad42d9f43e0a4db130232cdb16dedc93 ice: E822: cancel offset verification work during reset preparation
+468e98a1b71803400df6222d302ddb8431a42185 ice: E825: stop clearing PHY_REG_TX_OFFSET_READY
+157d4d49bde4474b38f02eb551b936b14cc54c7b ice: E825: clear PHY_TSTAMP memory prior to soft reset
+a862d68c80a1141896968094e73b5cbeb550731e ice: E825: perform a soft reset when starting the PHY timer
+0e371e92f6c27150db666a0c04aed8f68adf85f7 ice: wait for in-flight Tx timestamps before removing the tracker
+5d92b8fe6bda3ef2a40106eee0c6b642a95e0403 ice: keep Tx timestamp slots tracked until completion or timeout
+a576e458ab30a004e9bf8da23ff94a9217e2e8c2 ice: skip reading Tx ready bitmap on ports with no timestamps
+92f6ea66a72c32431d48990bca2dad2db79d3a9b ice: don't clear in_use until HW clears ready bitmap
 
---===============1162360739006593009==--
+--===============2758969074703363757==--
