@@ -1,24 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Wed, 21 Oct 2026 11:05:59 -0000
-Message-Id: <179258075958.2810881.8596885697183556773@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7611798193943368553=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 21 Oct 2026 11:11:11 -0000
+Message-Id: <179258107191.2814689.11001150878684431355@gitolite.kernel.org>
+
+--===============7611798193943368553==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/bugfix/common
-    old: b70cdd2247dac8d0ea86ecdb6b061612cd1fe825
-    new: d17b6577fef834235a8ed2f794dcd862e718d090
-    log: |
-         2199da4518b938b370f3a7485cb96b2acaa6adc9 f2fs: compress: don't overwrite populated compress cache entry
-         e41de21d78ec5b196355a209f917f15fff57936c f2fs: fix to return -EIO from f2fs_sync_fs() if cp_error is set
-         be448b3bd93968f2ac13314c8cf807b34d94f132 f2fs: cache: fix to initialize f2fs_writeback info at mount time
-         9d16100cf93fa96af35aef210d2d0240a06cd42f f2fs: fix to account entry_cnt for all write bios
-         0b17179c576b0993e8d9419235e50ed73489ff1f f2fs: introduce max_write_bio_{folio,entry}_cnt module parameters
-         d17b6577fef834235a8ed2f794dcd862e718d090 f2fs: remove max_atc_write_bio_size
-         
+  - ref: refs/heads/vfs-7.5.super
+    old: 0000000000000000000000000000000000000000
+    new: 32c52ec87d6245ee2d12ed5dd509e40062939b50
+
+--===============7611798193943368553==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 0x91C61BC06578DCA2! 1792581071 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+nonce 1792581070-4e7ad02f0ce7a43c95692ce035d0fce4497271ca
+
+0000000000000000000000000000000000000000 32c52ec87d6245ee2d12ed5dd509e40062939b50 refs/heads/vfs-7.5.super
+-----BEGIN PGP SIGNATURE-----
+
+iHQEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCatidzwAKCRCRxhvAZXjc
+ouDAAQC8SFXJX295yiJaFcEJvHJxlz6CJ6B04MD8m4QEHXOakQD2JDO8OLXo3Juw
+JNg4xO0vhLkSyBmkZV00OeybThfnDA==
+=6Fsm
+-----END PGP SIGNATURE-----
+
+--===============7611798193943368553==--
