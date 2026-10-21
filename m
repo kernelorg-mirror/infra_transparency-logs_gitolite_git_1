@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7843852358802069872=="
+Content-Type: multipart/mixed; boundary="===============1162360739006593009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 21 Oct 2026 21:42:34 -0000
-Message-Id: <179261895456.390568.8028736016803428069@gitolite.kernel.org>
+Date: Wed, 21 Oct 2026 21:42:36 -0000
+Message-Id: <179261895695.390756.4427906125347359778@gitolite.kernel.org>
 
---===============7843852358802069872==
+--===============1162360739006593009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 78731b46967e3e7102b5cd5062bef185f3404b5c
     new: abeacca61eea4f6803df4a595b656ea45c2d3249
     log: revlist-78731b46967e-abeacca61eea.txt
 
---===============7843852358802069872==
+--===============1162360739006593009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -90,4 +90,4 @@ d5d524f46974cdddacbebcf2e7874238355aa7f0 Merge tag 'nf-26-10-19' of git://git.ke
 d425ec9bb9371d52d492ac4d09f0da6e26561684 net/mlx5: HWS, fix modify header pool match for copy actions
 abeacca61eea4f6803df4a595b656ea45c2d3249 Merge branch 'net-mlx5-hws-fix-modify-header-pattern-compare'
 
---===============7843852358802069872==--
+--===============1162360739006593009==--
