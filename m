@@ -1,49 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1717895619803418884=="
+Content-Type: multipart/mixed; boundary="===============2090934094466079209=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-next
-Date: Wed, 21 Oct 2026 14:53:23 -0000
-Message-Id: <179259440310.69266.17887851621734558710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Wed, 21 Oct 2026 14:53:28 -0000
+Message-Id: <179259440830.69563.3430665384269392245@gitolite.kernel.org>
 
---===============1717895619803418884==
+--===============2090934094466079209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-next
+repo: pub/scm/linux/kernel/git/sashal/linus-next
 user: sashal
 changes:
-  - ref: refs/heads/all-next
+  - ref: refs/heads/linus-next
     old: 1f39f9052ee766b562f8f5c8ca830818573968ec
     new: 2143c2fa3322ddf1cd3ba0538938fd24e6a5b939
     log: revlist-1f39f9052ee7-2143c2fa3322.txt
-  - ref: refs/heads/fixes-next
-    old: 9fc368ca80fb964879609691a9b2d7b18511ab48
-    new: 31d4962e676344da61f9166e208850fb0eb2b66b
-    log: |
-         c3bde2beacbcb40790f0e3c3f909f9e16bbced9c ALSA: aloop: Update the PCM Slave controls for a matching playback
-         d0bee96f846ff56e0ab93030b5f187550b882977 selftests/alsa: Check the aloop PCM Slave controls for a matching playback
-         87bc966dc59ff43694f201a39983963a66be6102 ALSA: hiface: Use scnprintf() in hiface_chip_create()
-         8045043c9d66508b5ebfd702e555b9642b5aa805 ALSA: caiaq: Use strscpy() in snd_usb_caiaq_input_init()
-         d158ee133e3af1f11739b9d37dde754fdeb62a9f ALSA: usb-audio: Use strscpy() in append_ctl_name()
-         c8c199e1b1b3bb0ef52a2a02d1ec87bee574ce13 selftests: ALSA: pcmtest: Compare all captured bytes in ni_capture
-         31d4962e676344da61f9166e208850fb0eb2b66b Merge 'sound-current' from https://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git (for-linus)
-         
-  - ref: refs/heads/net-next
-    old: ea5b5f9e58f675117ddf772835c0b09933b4bcb5
-    new: 7e2305e9ecdc8c1d22b18dcd9fcb2c8babd5c479
-    log: |
-         279d5c8afcd38bd841832a39bfe1aa4f8518d98e net: dsa: motorcomm: Extend ACL with UDF
-         7e2305e9ecdc8c1d22b18dcd9fcb2c8babd5c479 Merge 'net-next' from https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next.git (main)
-         
-  - ref: refs/heads/soc-next
-    old: bd3756f4101bf51f49065a5bf1d21fb34e808a15
-    new: 38632427566e78b13bdfe89be0189caaf2e4914b
-    log: revlist-bd3756f4101b-38632427566e.txt
 
---===============1717895619803418884==
+--===============2090934094466079209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -130,43 +107,4 @@ a6d28af67f8a9abf0e820ece23c787b85920b491 Merge branch 'tracing-next' into all-ne
 718c90f88a57de986d4e9803e3349c31197009a9 Merge branch 'wireless-next' into all-next
 2143c2fa3322ddf1cd3ba0538938fd24e6a5b939 Add merge report for 2026-10-21 (12 interventions)
 
---===============1717895619803418884==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd3756f4101b-38632427566e.txt
-
-8ab2e426762d199ce8b799d029edafbfb981f5c6 firmware: arm_ffa: Compare notify_id when looking up notifier callbacks
-6cc03818814aa98c3584a346b82165f1b561f2b7 firmware: smccc: Provide stubs for HAVE_ARM_SMCCC_DISCOVERY=n
-7ce471c986b795a4679a6ff7fa799db24c8a204d irqchip/gic-v3: Select HAVE_ARM_SMCCC_DISCOVERY only on arm64
-d00fe7f5bfbc2098076fabd40c87f410afb623bd Merge branches 'for-next/smccc/fixes', 'for-next/scmi/fixes', 'for-next/ffa/fixes' and 'for-next/juno/fixes', tags 'vexpress-fixes-7.4' and 'juno-updates-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux
-f8e41af22c9b556235ccbea8b1d4fd7f750d53a5 Merge 'tegra-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux.git (fixes)
-8c9e4f5580b50877d9d99f0eaa80294cdc1fdc11 Merge 'riscv-soc-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git (riscv-soc-fixes)
-8c977e2a21d01bd2e04e891960d7bc2721081f4f Merge 'arm-soc' from https://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git (for-next)
-6f1f069c586de4fc07b38f8c83783c1d4bd8b909 Merge 'amlogic' from https://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux.git (for-next)
-86db07bb0fde19ad7c82e21e55558a6da36619d7 Merge 'asahi-soc' from https://github.com/AsahiLinux/linux.git (asahi-soc/for-next)
-a6fab98900314d3de630f275625c369b6e1d53f3 Merge 'at91' from https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux.git (at91-next)
-a92ddf2559a5efe64e4b45f0d54f50db4b14470f Merge 'broadcom' from https://github.com/Broadcom/stblinux.git (next)
-c740f634e88f5500091f1be7cbf6d0b5b81db0e6 Merge 'cix' from https://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/cix.git (for-next)
-dd2a7672b69fd12117db17a19d481ce054d3d228 Merge 'imx-mxs' from https://git.kernel.org/pub/scm/linux/kernel/git/frank.li/linux.git (for-next)
-c312cfab5ced458542560cef42327bca7c1b1451 Merge 'mediatek' from https://git.kernel.org/pub/scm/linux/kernel/git/mediatek/linux.git (for-next)
-a54670117687596aff780a5926e44ba00b759a71 Merge 'mvebu' from https://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu.git (for-next)
-16160c263a8c2178f688202020252553e2527097 Merge 'omap' from https://git.kernel.org/pub/scm/linux/kernel/git/khilman/linux-omap.git (for-next)
-fbac45f4284aba134c7185e73bae33804e6d1ebd Merge 'qcom' from https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux.git (for-next)
-609407667b64c19836d627e4a8197e0749cf2900 Merge 'renesas' from https://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel.git (next)
-21ffb47acc8f6819200509d7190ba147b7322374 Merge 'rockchip' from https://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip.git (for-next)
-864c77c67aa34c08d3beb5072fcf7fe723acf003 Merge 'samsung-krzk' from https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux.git (for-next)
-1e21079b7dacf15d82af8d71d0515710ce816098 Merge 'scmi' from https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux.git (for-linux-next)
-0fb9535ebc4061f4fb442a171ac93c0f8e08a5b5 Merge 'sunxi' from https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux.git (sunxi/for-next)
-68a62a846c04bccc0d08c64f94b05dcd5a620893 Merge 'tegra' from https://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux.git (for-next)
-641456a04e6026ab84f77104ca719d43abce2844 Merge 'ti' from https://git.kernel.org/pub/scm/linux/kernel/git/ti/linux.git (ti-next)
-1b0a7f85556735dc43d6da14e0b87848d7cddb54 Merge 'xilinx' from https://github.com/Xilinx/linux-xlnx.git (for-next)
-5e24041e4fa2655f6cb0fdcf15d3baaf74003b0d Merge 'socfpga' from https://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux.git (for-next)
-ab746d0dac843494cb69cca1fa4eb6e0fb944458 Merge 'clk-imx' from https://git.kernel.org/pub/scm/linux/kernel/git/abelvesa/linux.git (for-next)
-cde0c4414d0f746914e1374039b4d73bebe70eb7 Merge 'clk-renesas' from https://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers.git (renesas-clk)
-9e5b2195349ee50663b471af992cd77c1dd25cfe Merge 'tenstorrent-clk' from https://git.kernel.org/pub/scm/linux/kernel/git/tenstorrent/linux.git (tenstorrent-clk-for-next)
-dfe19165e5dc193492616ea85c169813e2702c2a Merge 'riscv-soc' from https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git (riscv-soc-for-next)
-d9f516d0012a86c736576585a7487afb99878544 Merge 'fastrpc' from https://git.kernel.org/pub/scm/linux/kernel/git/srini/fastrpc.git (for-next)
-38632427566e78b13bdfe89be0189caaf2e4914b Merge 'hisilicon' from https://github.com/hisilicon/linux-hisi.git (for-next)
-
---===============1717895619803418884==--
+--===============2090934094466079209==--
