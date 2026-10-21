@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 21 Oct 2026 11:26:46 -0000
-Message-Id: <179258200650.2826781.15849718362734594483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 21 Oct 2026 11:36:24 -0000
+Message-Id: <179258258469.2833774.733403748601076957@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: 1234707482053f1d1ac7c5756207d2c29057974c
-    new: abeacca61eea4f6803df4a595b656ea45c2d3249
+  - ref: refs/heads/master
+    old: d5790302d42e9cf4d3394e3eed93aaaa6d5db979
+    new: e60c3c571e1b29e0a7c52fc76eb2f98f0df2ac4b
     log: |
-         7eed173447fba937a19e2f5f2dc79780793f72e7 net/mlx5: HWS, fix modify header pattern compare on big-endian
-         d425ec9bb9371d52d492ac4d09f0da6e26561684 net/mlx5: HWS, fix modify header pool match for copy actions
-         abeacca61eea4f6803df4a595b656ea45c2d3249 Merge branch 'net-mlx5-hws-fix-modify-header-pattern-compare'
+         e60c3c571e1b29e0a7c52fc76eb2f98f0df2ac4b merge staging into queue: 7.2 6.18 6.12 6.6 6.1 5.15 5.10
          
