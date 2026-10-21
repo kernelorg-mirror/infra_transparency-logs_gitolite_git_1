@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0600679360027159151=="
+Content-Type: multipart/mixed; boundary="===============7930970174727254143=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 21 Oct 2026 03:37:14 -0000
-Message-Id: <179255383484.2366517.14940972463357979162@gitolite.kernel.org>
+Date: Wed, 21 Oct 2026 03:37:18 -0000
+Message-Id: <179255383859.2366735.6116996217531104186@gitolite.kernel.org>
 
---===============0600679360027159151==
+--===============7930970174727254143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 59d7f9ec14ad4b6f38c04d254f8f2bfb991e888e
-    new: 3d955a7d35dd042bcbf314149a06e54f071a09e0
-    log: revlist-59d7f9ec14ad-3d955a7d35dd.txt
+  - ref: refs/heads/mm-unstable
+    old: 3eb3e848d72cde2156447cc960ca321bb2ac41a9
+    new: 71cd1c576a8cbd09c5e9eb37b29f103ffab05e7a
+    log: revlist-3eb3e848d72c-71cd1c576a8c.txt
 
---===============0600679360027159151==
+--===============7930970174727254143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59d7f9ec14ad-3d955a7d35dd.txt
+Content-Disposition: attachment; filename=revlist-3eb3e848d72c-71cd1c576a8c.txt
 
 b6c2b73e4e89e6821b446e314a3a77b949cf8ccb mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
 b0735307ff722624bdba127f9be8264746452cf6 mm/vmalloc: use dedicated unbound workqueues for vmap drain
@@ -262,7 +262,5 @@ a076c85a8fc7897e3358657366bea95edf18fbea mm/damon/core: remove unreachable damos
 ff3c75c172c418fe55c59d36d9391a09a54b8b69 mm/vma: avoid broken uffd merge on mremap
 399ca9f7192d613b6e41f9c4b64e94721fe379d6 maple_tree: fix maple_range_64 crashes in RCU mode
 71cd1c576a8cbd09c5e9eb37b29f103ffab05e7a test_maple_tree: test maple_range_64 node in RCU mode
-d6854edd86fdfd9ef57e0acea0cec84d50dbf02a mm: unqueue deferred split folios outside the lruvec lock
-3d955a7d35dd042bcbf314149a06e54f071a09e0 riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============0600679360027159151==--
+--===============7930970174727254143==--
