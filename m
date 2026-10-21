@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6825901180438990387=="
+Content-Type: multipart/mixed; boundary="===============6442448328141799686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 21 Oct 2026 13:24:29 -0000
-Message-Id: <179258906902.2912862.2044211942870619443@gitolite.kernel.org>
+Date: Wed, 21 Oct 2026 13:25:54 -0000
+Message-Id: <179258915469.2915804.7010182421714852921@gitolite.kernel.org>
 
---===============6825901180438990387==
+--===============6442448328141799686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-linux-next
-    old: 6498ab3b85e30ca0b2318ac6013d675aab30f3d9
-    new: d00fe7f5bfbc2098076fabd40c87f410afb623bd
-    log: revlist-6498ab3b85e3-d00fe7f5bfbc.txt
+  - ref: refs/heads/master
+    old: c03c1a14507dfaf8b856c2608f9ac216021fc222
+    new: a804c5742bff224d4cb4d25dd383554d598be32b
+    log: revlist-c03c1a14507d-a804c5742bff.txt
 
---===============6825901180438990387==
+--===============6442448328141799686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6498ab3b85e3-d00fe7f5bfbc.txt
+Content-Disposition: attachment; filename=revlist-c03c1a14507d-a804c5742bff.txt
 
+ba29babd881e09a7bb8b01fcfeda3d637d8115c5 perf/x86/intel: Check only PMC bits in PEBS_ENABLED when detecting host PEBS usage
+4a8557a4e5d2d5f96a989a428e38569451e74405 perf/x86/amd/uncore: Remove redundant event slot scan
+6350de8671b94afb7691d110f63bcda42f658a69 perf/x86/amd/uncore: Free counter slot by index
+c72945693b90423f1b46ac2dbc8749c2b7804fc8 sched: Restart fair hrtick after same-task repicks
 819224e506bc7c2d61ec6a58ec6e876b505abce9 sched/fair: Remove dead code on enqueue_task_fair()
 fbbc63fed0b09c8c5cf3972db8922ae98406ceec sched/core: Remove redundant core_sched_seq
 abe440b3770fce8eb8ee92a563dfb55a7b9a1c0e sched/fair: Drop idle recency from slow-path CPU selection
@@ -1046,9 +1050,5 @@ fefd797c4135f183f87cde5ed4ad7974af087143 Merge tag 'fsnotify_for_v7.4-rc1' of gi
 0d508d4709837bcc88e314c0533a42d3c55b31e3 Merge tag 'audit-pr-20261016' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 331eadd85f14bac85663c14c99228f6dedf64d87 Merge tag 'selinux-pr-20261015' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 a804c5742bff224d4cb4d25dd383554d598be32b Merge tag 'lsm-pr-20261016' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-8ab2e426762d199ce8b799d029edafbfb981f5c6 firmware: arm_ffa: Compare notify_id when looking up notifier callbacks
-6cc03818814aa98c3584a346b82165f1b561f2b7 firmware: smccc: Provide stubs for HAVE_ARM_SMCCC_DISCOVERY=n
-7ce471c986b795a4679a6ff7fa799db24c8a204d irqchip/gic-v3: Select HAVE_ARM_SMCCC_DISCOVERY only on arm64
-d00fe7f5bfbc2098076fabd40c87f410afb623bd Merge branches 'for-next/smccc/fixes', 'for-next/scmi/fixes', 'for-next/ffa/fixes' and 'for-next/juno/fixes', tags 'vexpress-fixes-7.4' and 'juno-updates-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux
 
---===============6825901180438990387==--
+--===============6442448328141799686==--
