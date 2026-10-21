@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 21 Oct 2026 13:14:28 -0000
-Message-Id: <179258846846.2905547.14127570181980965445@gitolite.kernel.org>
+Date: Wed, 21 Oct 2026 13:15:13 -0000
+Message-Id: <179258851300.2907814.16747930540529269574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/smccc/fixes
+  - ref: refs/heads/for-next/ffa/fixes
     old: c03c1a14507dfaf8b856c2608f9ac216021fc222
-    new: 7ce471c986b795a4679a6ff7fa799db24c8a204d
+    new: 8ab2e426762d199ce8b799d029edafbfb981f5c6
     log: |
-         6cc03818814aa98c3584a346b82165f1b561f2b7 firmware: smccc: Provide stubs for HAVE_ARM_SMCCC_DISCOVERY=n
-         7ce471c986b795a4679a6ff7fa799db24c8a204d irqchip/gic-v3: Select HAVE_ARM_SMCCC_DISCOVERY only on arm64
+         8ab2e426762d199ce8b799d029edafbfb981f5c6 firmware: arm_ffa: Compare notify_id when looking up notifier callbacks
          
