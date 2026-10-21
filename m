@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 21 Oct 2026 02:26:01 -0000
-Message-Id: <179254956140.2311960.15443340390034804553@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 21 Oct 2026 02:32:55 -0000
+Message-Id: <179254997580.2316678.11313199923122314486@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 7f3fe405798969db6400b289cbcbc90956ee2274
-    new: 2bc1cc30abf0af798615d88b3c19cd783c69bf93
+  - ref: refs/heads/main
+    old: 57214815080fdefe2a651082ff3ea44c9145d8c6
+    new: eeb63e1e0bfc6203086dd496247e905b84704343
     log: |
-         f83f1863ee18b4b2e516d8a9d9ba247462d0eadf foo
-         2bc1cc30abf0af798615d88b3c19cd783c69bf93 foo
+         eeb63e1e0bfc6203086dd496247e905b84704343 selftests: tc-testing: keep IPv6 autoconf out of exact-counter checks
          
