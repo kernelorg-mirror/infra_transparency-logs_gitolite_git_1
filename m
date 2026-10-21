@@ -1,43 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4018864641579780472=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 21 Oct 2026 09:54:38 -0000
-Message-Id: <179257647808.2753061.5852433306832521362@gitolite.kernel.org>
-
---===============4018864641579780472==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 21 Oct 2026 09:59:43 -0000
+Message-Id: <179257678389.2757491.9156485168611892577@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/vfs-7.5.misc
-    old: 0000000000000000000000000000000000000000
-    new: 32c52ec87d6245ee2d12ed5dd509e40062939b50
-
---===============4018864641579780472==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 0x91C61BC06578DCA2! 1792576477 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-nonce 1792576476-2bb71f1e012ff64cb6e7e905e6e7a045befe15b4
-
-0000000000000000000000000000000000000000 32c52ec87d6245ee2d12ed5dd509e40062939b50 refs/heads/vfs-7.5.misc
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCatiL3QAKCRCRxhvAZXjc
-os2BAQDlaQibGFfSalMprO8yHCto3oH4E/xxhNiSBCuucEVCTgEA2eLg1Tx6oB+q
-HA+z80vKYErX+Zjj8yYTWmmjqMZc7AE=
-=oLhR
------END PGP SIGNATURE-----
-
---===============4018864641579780472==--
+  - ref: refs/heads/main
+    old: 66123066d8736d8f034d4d3ae23be3ef82dff78c
+    new: 7dca8514c51ea5219daf7f28bc1a0536b907e611
+    log: |
+         a006b921ad32940676993bfae460b9f57547b79b vsock: move SOL_SOCKET options to vsock_sol_socket_setsockopt()
+         d7bb20b91122fd1e8ecbe6ff9fd13b8eefff8240 vsock: support SO_INQ on stream sockets
+         3079ee3a8c62bb8ae1e9329e2f9e9c77c6b7fe16 vsock/test: cover SO_INQ
+         7dca8514c51ea5219daf7f28bc1a0536b907e611 Merge branch 'vsock-so_inq-for-stream-sockets'
+         
