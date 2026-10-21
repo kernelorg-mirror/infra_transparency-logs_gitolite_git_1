@@ -1,23 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 21 Oct 2026 09:51:37 -0000
-Message-Id: <179257629722.2751798.4040963910464744975@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4018864641579780472=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 21 Oct 2026 09:54:38 -0000
+Message-Id: <179257647808.2753061.5852433306832521362@gitolite.kernel.org>
+
+--===============4018864641579780472==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 7888fedc74c9f601510233cf0c5842a92b9e4a49
-    new: 66123066d8736d8f034d4d3ae23be3ef82dff78c
-    log: |
-         758d8928d2c5d6703da827577cef86d643155236 gtp: set a valid genl command in PDP context get and dump replies
-         fe3e1a42fb7eb18d8c55d714b50a3d51f8cd6ffe gtp: hold RCU for the device lookup when adding a PDP context
-         8a2f9964fc28954cef5a39e3636690d83cff3951 netlink: specs: add genetlink-legacy spec for GTP
-         ffb51f75013f8d572cc3aa942425e0fa0a8e6d09 selftests: net: add a test for the gtp netlink family
-         66123066d8736d8f034d4d3ae23be3ef82dff78c Merge branch 'gtp-ynl-spec-for-the-gtp-netlink-family-two-fixes-and-a-selftest'
-         
+  - ref: refs/heads/vfs-7.5.misc
+    old: 0000000000000000000000000000000000000000
+    new: 32c52ec87d6245ee2d12ed5dd509e40062939b50
+
+--===============4018864641579780472==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 0x91C61BC06578DCA2! 1792576477 +0200
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+nonce 1792576476-2bb71f1e012ff64cb6e7e905e6e7a045befe15b4
+
+0000000000000000000000000000000000000000 32c52ec87d6245ee2d12ed5dd509e40062939b50 refs/heads/vfs-7.5.misc
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCatiL3QAKCRCRxhvAZXjc
+os2BAQDlaQibGFfSalMprO8yHCto3oH4E/xxhNiSBCuucEVCTgEA2eLg1Tx6oB+q
+HA+z80vKYErX+Zjj8yYTWmmjqMZc7AE=
+=oLhR
+-----END PGP SIGNATURE-----
+
+--===============4018864641579780472==--
