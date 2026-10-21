@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 21 Oct 2026 00:14:11 -0000
-Message-Id: <179254165156.2202910.6483531883892869378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 21 Oct 2026 00:20:47 -0000
+Message-Id: <179254204712.2209063.2940168905575821359@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: d4bccf4ee7162c5688b53fe8096b046b89c20c11
-    new: 3a65f38d928a2699ebcec72a2d60bdb8fcde8284
+  - ref: refs/heads/main
+    old: 9043be310c6a4c5e57f7bba4b9870554eac7aa96
+    new: c0703534b223a5c6993e0f000fd1c3abe621fb65
     log: |
-         6ff297f98b0c67c2e0932cadcdca35431ecf497e bpf: Make unwind_exit of an exception callback exit in JITs
-         9d1fbfc2367558f88d076692c7f5126cf9fc1852 bpf: Reject unwind_goto and unwind_exit in offloaded progs
-         ad223de6d346aae4962b1e5d5ac2851d94a8fa89 selftests/bpf: Test unwind_exit of an exception callback
-         3a65f38d928a2699ebcec72a2d60bdb8fcde8284 Merge branch 'bpf-fixes-for-unwind_goto-and-unwind_exit'
+         c0703534b223a5c6993e0f000fd1c3abe621fb65 net/smc: queue the copied chunk when smc_tx_sendmsg() faults
          
