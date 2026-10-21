@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 21 Oct 2026 00:20:47 -0000
-Message-Id: <179254204712.2209063.2940168905575821359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Wed, 21 Oct 2026 00:22:51 -0000
+Message-Id: <179254217105.2209911.16283270067113860072@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/main
-    old: 9043be310c6a4c5e57f7bba4b9870554eac7aa96
-    new: c0703534b223a5c6993e0f000fd1c3abe621fb65
-    log: |
-         c0703534b223a5c6993e0f000fd1c3abe621fb65 net/smc: queue the copied chunk when smc_tx_sendmsg() faults
-         
+  - ref: refs/tags/probes-v7.4
+    old: 0000000000000000000000000000000000000000
+    new: 81b0103429bc0286c4ea57ba2d496b452f653a44
+  - ref: refs/tags/bootconfig-v7.4
+    old: 0000000000000000000000000000000000000000
+    new: 8c84ad1d280719b36079cdd280da8214c3a8013d
