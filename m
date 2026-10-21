@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 21 Oct 2026 08:58:00 -0000
-Message-Id: <179257308003.2711898.17604428303768894184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Wed, 21 Oct 2026 08:58:44 -0000
+Message-Id: <179257312421.2712399.17840531061699164748@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mwalle
 changes:
-  - ref: refs/heads/master
-    old: 121277d6a7d282e2a37d0ce20407dc4d74d1c231
-    new: 030132dc376d467f6ff5de7c3d02d43efc31ada0
-    log: |
-         f808e07acc4d7b9318686de5b36e5cc48727a696 lib: mbsalign: preserve ANSI sequences when truncating
-         994912447499cf9245c39a582191dea0c9fb06eb lib: guard ANSI escape introducer parsing
-         030132dc376d467f6ff5de7c3d02d43efc31ada0 Merge branch 'fix/4121-ansi-truncate' of https://github.com/sairex53/util-linux
-         
+  - ref: refs/tags/spi-nor/for-7.4
+    old: 0000000000000000000000000000000000000000
+    new: 4cd0f416640a5c616b849fc96cf0374ecf49bc89
