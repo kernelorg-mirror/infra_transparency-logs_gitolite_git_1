@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 21 Oct 2026 11:36:24 -0000
-Message-Id: <179258258469.2833774.733403748601076957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 21 Oct 2026 11:44:53 -0000
+Message-Id: <179258309370.2838499.17556318424192231740@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: d5790302d42e9cf4d3394e3eed93aaaa6d5db979
-    new: e60c3c571e1b29e0a7c52fc76eb2f98f0df2ac4b
+    old: c6cefe27dd02beaf518bb654493e5f09e62b3225
+    new: 48d344623bbbf5a8807d6e4d2a138ef895b68236
     log: |
-         e60c3c571e1b29e0a7c52fc76eb2f98f0df2ac4b merge staging into queue: 7.2 6.18 6.12 6.6 6.1 5.15 5.10
+         8ba944449c6d7bf65c7f756602018b3ece9b27c1 GNUmakefile: Use MAKEFLAGS+=--silent instead of .SILENT
+         48d344623bbbf5a8807d6e4d2a138ef895b68236 man/man7/bpf-helpers.7: Refresh from Linux v7.3
          
