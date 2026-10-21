@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Wed, 21 Oct 2026 01:01:50 -0000
-Message-Id: <179254451076.2243887.3694109391002103279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 21 Oct 2026 01:02:51 -0000
+Message-Id: <179254457105.2244443.5750121717406627526@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/smb
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: df5c868f6b80ca16c171cfac5e4e6c9be83ba4c2
-    new: da25995071e5e0f3aa9a41160b00b2f833127b3e
+  - ref: refs/heads/pending
+    old: c8478b1c257082ad52951812da288093733d61c5
+    new: 2212938825b7130011df8d7287999ca556d01535
     log: |
-         da25995071e5e0f3aa9a41160b00b2f833127b3e ksmbd: reject foreign RPC pipe handles on IPC$ read and write
+         2e3b4f63fbfe67015bc666301de053fe21296e40 wifi: ath9k_htc: do not start ANI before the first channel is set
+         2212938825b7130011df8d7287999ca556d01535 wifi: ath9k_htc: start ANI when an AP interface begins to beacon
          
