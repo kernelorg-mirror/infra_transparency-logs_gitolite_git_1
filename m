@@ -1,62 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3225837786020792306=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 22 Oct 2026 13:13:29 -0000
-Message-Id: <179267480913.1100988.14931845954007988672@gitolite.kernel.org>
-
---===============3225837786020792306==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
+Date: Thu, 22 Oct 2026 13:18:26 -0000
+Message-Id: <179267510677.1104880.12390216871723615254@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mptcp/linux
+user: matttbe
 changes:
-  - ref: refs/heads/master
-    old: 78b7465befabc1bbe6ee6ffc75075f41aa7a0182
-    new: 463b447664d733ff7fa7f5e86cb9c13a787e0d99
+  - ref: refs/heads/export-net
+    old: 7922d2a6089c7e7076c034e726f9192dc9d3db40
+    new: 501231f7acb612561523f4e194cf01c77938bdad
     log: |
-         8af039d0ae0099aaf69ec489a40ef5b959c7c722 5.10-stable patches
-         20b4e2bcead0e06548b34427aa39df152e582ea7 5.15-stable patches
-         87a6de76890c0f49140304358d6e22886f6e5623 6.1-stable patches
-         6a03b20739feb5dae406f82a84d17eb4733a9335 6.6-stable patches
-         69a5c72fa9628876128e084d37d8ebda1ac58889 6.12-stable patches
-         974160c8f5ec801c6069b0500cd9348b7b644cea 6.18-stable patches
-         463b447664d733ff7fa7f5e86cb9c13a787e0d99 7.2-stable patches
+         2d1f77aa7e782bd76332611d0449dec7d7402a14 DO-NOT-MERGE: git markup: net
+         c05bff29c4c4ae2b77948c5d66142752f810f472 DO-NOT-MERGE: git markup: fixes other trees
+         c07444d27f1be95bb53428d47782c7bf37a474f1 mptcp: options: mpc: avoid printing uninit data
+         2e42ba355b83eaf30447286e7e1acc9c467a4da8 mptcp: options: dss: avoid printing uninit csum
+         9813471cbe0ed5ef2f23ee5fae58349baa0b1842 mptcp: push pending data after a sendmsg copy fault
+         b7307b2c4bce0bdb4548942194cc8da0cf4227cd DO-NOT-MERGE: git markup: fixes net
+         2c0b5150e81ac7beed4d646864cf3550d7900c90 DO-NOT-MERGE: mptcp: add CI support
+         10d08b575ac3b33ca61b0c77d80cec0e4ffdde4f DO-NOT-MERGE: git markup: end common net net-next
+         671e252c91e94a0c2c5c66ed764d27984d0dbd22 DO-NOT-MERGE: git markup: fixes net only
+         3c79012e7629d357d47b4a5d4f775ad14f7449d1 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+         501231f7acb612561523f4e194cf01c77938bdad DO-NOT-MERGE: mptcp: enabled by default (net)
          
-
---===============3225837786020792306==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792674797 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1792674796-320474c5dcdc7c8f45fdb902c513d1e51d1c4e79
-
-78b7465befabc1bbe6ee6ffc75075f41aa7a0182 463b447664d733ff7fa7f5e86cb9c13a787e0d99 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmraC+0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8qcQAKAn8zTF9fasTCKMnrx0
-KndUkhGWmiD7fgnxO7CG/TVu/eoco+8gZuxYlSZnbCVNl1VaOKH0E84B10aRqjDj
-DNQMQqt11JjafVvD85ue8H2aVRdGdGVXAIwJ0nMe/Ct7UsbUpYJP3rHVu3v1+Rsb
-/ymyBUKj3D6rdmipoeFppoz8YzQx2kcMKEcLVzxVJLRnxTiIaqI29Wp/3L/ODEXy
-ojXVR8G/EYZdCQkKzovv+JrJMM/QAqZTvQPHRCXpsnjv+N3AZG9V7NTkPdOsMDr8
-HT04dkDFZNvy8GKOX+7zFX4N4zujz3B4HT8pI7x2WCseb+A3jSxoy8rHagJQaMnl
-k6EpeIHAtHATW/6mPPopm3QTyEC1rHuHUe6XseyniGWYJb91zbYcQp90GAwCuLuB
-QGCxptPMImqZgvgucX/gPtFGFjLS6f3xuMeC4npO5drJ7VEn5ZhpwDoxcCRkjYPH
-2qBP1P85oFadxatR5WV1bqVR13mbT8cbiPE3K40Awsp7OgzNHV8Fl7FpCsdPiZ4s
-z65qrIUN1HYNyokSyGxbSU2PKIAaniTAcs2PoAsJa7Irha02ytZZYHh5yH2Giaz9
-4FEmb2GQHYm2t1pQa1ibNtGvOlySPV9lhSLDjwPIgHqSUyn1olIcOpLcyeHQlDML
-7tZD4tmRyR99+X6L4SnfmfTJ
-=3+WK
------END PGP SIGNATURE-----
-
---===============3225837786020792306==--
