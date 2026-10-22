@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3810650049256040526=="
+Content-Type: multipart/mixed; boundary="===============8294929862784045332=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 22 Oct 2026 21:59:45 -0000
-Message-Id: <179270638518.290155.16372057007701261665@gitolite.kernel.org>
+Date: Thu, 22 Oct 2026 22:01:54 -0000
+Message-Id: <179270651440.293198.12392481865471768827@gitolite.kernel.org>
 
---===============3810650049256040526==
+--===============8294929862784045332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 80edac5e57fe35fb1c19db87e3380ce13f776856
-    new: 2e6b8da9457170363f0929459e2120ecf2c7d55f
-    log: revlist-80edac5e57fe-2e6b8da94571.txt
+  - ref: refs/heads/for-next-tpm
+    old: 836952696d0260cca1de6d3300cd8fcd5687fe67
+    new: 071aa806f00cf2948ce8082102d5f64515f53215
+    log: revlist-836952696d02-071aa806f00c.txt
 
---===============3810650049256040526==
+--===============8294929862784045332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-80edac5e57fe-2e6b8da94571.txt
+Content-Disposition: attachment; filename=revlist-836952696d02-071aa806f00c.txt
 
+27a895d6ec8d4d0e87cc08850226086b31107a06 btrfs: reject new qgroup rescan during subvolume dropping
+310a6aa00cc80c749f5d71b7e2fa35dc6eacd065 btrfs: avoid long stall when dropping a non-shared large subvolume
+9a30f15f0f6e94312020969b0a32ac5be6a2ce0c btrfs: remove runtime tweakable feature sysfs interface
 76c119fa458bd13c7f82855c29604e54d840b84f btrfs: use ordered extent to grab the logical address for submission
 45f86814783337092a4df6f656f7987c769b9579 btrfs: tree-checker: reject file extent items for special files
 57c6777ebd249f79bb935366cd8cbe28d06f6101 btrfs: consume given iter directly instead of copying in csum_one_bio()
@@ -1047,8 +1050,5 @@ a32b7973d65021486a6ae63d06a575d700eb1f91 tpm: Remove ineffective wmb() from tpm_
 fc0ddb3174b06800d8414d87e551eb60c36d1f38 char: tpm: Use SIMPLE_DEV_PM_OPS for ibmvtpm power management
 03f05257358dabb673ed21c64b0217442a55bfe2 tpm: use DEFINE_SIMPLE_DEV_PM_OPS and pm_sleep_ptr()
 071aa806f00cf2948ce8082102d5f64515f53215 tpm: reject duplicate PCR banks in tpm2_get_pcr_allocation
-bb24e4ed45e2ace11672f7c197c8804d41488a6f KEYS: Expand key->{datalen,quotalen} to unsigned int
-e8a492ea68466401c289553f0c8836e575285788 KEYS: Reject descriptions larger than KEY_MAX_DESC_SIZE
-2e6b8da9457170363f0929459e2120ecf2c7d55f KEYS: Verify the key identity in __key_unlink_begin
 
---===============3810650049256040526==--
+--===============8294929862784045332==--
