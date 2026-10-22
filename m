@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1702311642197412625=="
+Content-Type: multipart/mixed; boundary="===============1993178336890049865=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 22 Oct 2026 16:24:25 -0000
-Message-Id: <179268626587.40491.859872922161930147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Thu, 22 Oct 2026 16:24:44 -0000
+Message-Id: <179268628411.40832.16518706891723678771@gitolite.kernel.org>
 
---===============1702311642197412625==
+--===============1993178336890049865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 7be4bc52fd9e0e55dc9a2e0232b89427d2c4b614
     log: revlist-f47d223627f8-7be4bc52fd9e.txt
 
---===============1702311642197412625==
+--===============1993178336890049865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ df37e3924292fb41d325721008520ba93deced42 Merge tag 'pm-7.4-rc1' of git://git.ker
 4403278e4ea2f654f8130a5c03eb8b4516a0f201 Merge tag 'thermal-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 7be4bc52fd9e0e55dc9a2e0232b89427d2c4b614 Merge tag 'driver-core-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 
---===============1702311642197412625==--
+--===============1993178336890049865==--
