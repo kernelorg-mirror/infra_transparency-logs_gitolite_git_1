@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 22 Oct 2026 08:34:51 -0000
-Message-Id: <179265809154.892561.10452291146416213239@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 22 Oct 2026 08:50:37 -0000
+Message-Id: <179265903713.905524.14507593401071869348@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: a0fe269293509acdd93b9cfb3f46636f7b91b33a
-    new: 15665047024e30f9c2227563d03034061c99ac2c
+  - ref: refs/heads/main
+    old: ffdf678dd16610e3f006dac904bd37c09684673c
+    new: 473167593f42551ce6b00c05cee8cd20309d45ac
     log: |
-         15665047024e30f9c2227563d03034061c99ac2c gpiolib: Propagate emulated drive errors when setting arrays
+         473167593f42551ce6b00c05cee8cd20309d45ac tipc: fix use-after-free of broadcast reception link at node release
          
