@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 22 Oct 2026 17:27:09 -0000
-Message-Id: <179269002919.85300.6054991224921099049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/linux-firmware
+Date: Thu, 22 Oct 2026 17:44:44 -0000
+Message-Id: <179269108421.96520.7201591997688198920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/ath/linux-firmware
+user: jjohnson
 changes:
-  - ref: refs/heads/keys-rhashtable
-    old: 121737008c63b4e9665daa14fffc875d33c8c9a4
-    new: 87e773069189098e84940322738cbb2e2d2be147
+  - ref: refs/heads/main
+    old: 59f9fc2ef8d1e312d2a613d4e1ffad2ff31a0a01
+    new: 00b1df13f9d0adebcb90bd110a4a22de5115e077
     log: |
-         cf41402ca2d04b3257f56a3a98c6b55268078416 KEYS: Replace assoc_array with rhashtable
-         87e773069189098e84940322738cbb2e2d2be147 lib: Remove assoc_array
+         0bee5f744b964755f446bc2b1afe30b598d97325 qcom: Add gpu firmwares for Nord chipset
+         0147e35076c2d44a21eea0402351b99d5d1028b2 Merge branch 'robot/pr-0-1792610646' into 'main'
+         466e500db134efb2090d52b9b6b1104ce43e8ed2 linux-firmware: qcom: sync audioreach firmwares from v1.0.5 build
+         00b1df13f9d0adebcb90bd110a4a22de5115e077 Merge branch 'main' into 'main'
          
