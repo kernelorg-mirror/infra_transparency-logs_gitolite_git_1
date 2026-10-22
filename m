@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8354717318207316831=="
+Content-Type: multipart/mixed; boundary="===============7228019798635095345=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 22 Oct 2026 19:22:24 -0000
-Message-Id: <179269694424.175859.10112203877451276514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
+Date: Thu, 22 Oct 2026 19:23:14 -0000
+Message-Id: <179269699489.176258.11767780658949749949@gitolite.kernel.org>
 
---===============8354717318207316831==
+--===============7228019798635095345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/ojeda/linux
+user: ojeda
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/rust-next
     old: 7be4bc52fd9e0e55dc9a2e0232b89427d2c4b614
     new: 2a08195e4db5aba84600db6518089a1dbe2d04c7
     log: revlist-7be4bc52fd9e-2a08195e4db5.txt
 
---===============8354717318207316831==
+--===============7228019798635095345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ bb2235894a8a604c08b3f93f4e1082b9df03265a Merge tag 'powerpc-7.4-1' of git://git.
 968de9d17980a0e538fc4e4394af49465294386d Merge tag 'linux_kselftest-next-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 2a08195e4db5aba84600db6518089a1dbe2d04c7 Merge tag 'linux_kselftest-kunit-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 
---===============8354717318207316831==--
+--===============7228019798635095345==--
