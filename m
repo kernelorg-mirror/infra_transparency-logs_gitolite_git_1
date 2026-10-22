@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2085587193230686875=="
+Content-Type: multipart/mixed; boundary="===============5193192308774312686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 22 Oct 2026 15:09:26 -0000
-Message-Id: <179268176666.1244876.14772887804624614394@gitolite.kernel.org>
+Date: Thu, 22 Oct 2026 15:09:30 -0000
+Message-Id: <179268177094.1245039.13977771963812840974@gitolite.kernel.org>
 
---===============2085587193230686875==
+--===============5193192308774312686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: adccb2dfbbc10fab73d6f1b8724c003ef9e65773
-    new: fcec4f4bcc1101dbd7e3aff267856b3bbfe128c6
-    log: revlist-adccb2dfbbc1-fcec4f4bcc11.txt
+  - ref: refs/heads/mm-unstable
+    old: bc19040d3fb5a245a7fd9c92162486552779e60e
+    new: 5f980b2d53abf3950caff5d77b5c69dc6ebb19b6
+    log: revlist-bc19040d3fb5-5f980b2d53ab.txt
 
---===============2085587193230686875==
+--===============5193192308774312686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-adccb2dfbbc1-fcec4f4bcc11.txt
+Content-Disposition: attachment; filename=revlist-bc19040d3fb5-5f980b2d53ab.txt
 
 fda6d02bc4e3d66e1c8fcdacaad15520185be865 mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
 f020e8d04f568fb48413d4d7e69d94106ae7f615 mm/vmalloc: use dedicated unbound workqueues for vmap drain
@@ -263,7 +263,5 @@ d7ec39a078f4602bc877e6050dab6870fc0eeda2 riscv: mm: exclude invalid THP PMDs fro
 185688d1b369f68b7fb784ec877a6fae61ceef7e maple_tree: fix maple_range_64 crashes in RCU mode
 563be53e99833a9fdce34264a9040b96c238e577 test_maple_tree: test maple_range_64 node in RCU mode
 5f980b2d53abf3950caff5d77b5c69dc6ebb19b6 mm/memcontrol: publish null pointer before dropping css reference
-d1fdcebd7b1c9b609b7537517873971d72a0fc2f mm: unqueue deferred split folios outside the lruvec lock
-fcec4f4bcc1101dbd7e3aff267856b3bbfe128c6 riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============2085587193230686875==--
+--===============5193192308774312686==--
