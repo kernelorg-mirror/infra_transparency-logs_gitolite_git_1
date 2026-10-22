@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1066266158470704162=="
+Content-Type: multipart/mixed; boundary="===============8424812918639974550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-Date: Thu, 22 Oct 2026 04:36:25 -0000
-Message-Id: <179264378543.695623.4595791222795574000@gitolite.kernel.org>
+Date: Thu, 22 Oct 2026 04:38:59 -0000
+Message-Id: <179264393936.696352.2272943054996808154@gitolite.kernel.org>
 
---===============1066266158470704162==
+--===============8424812918639974550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,70 +15,64 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
 user: kuninori.morimoto.gx
 changes:
-  - ref: refs/heads/renesas-lts/v6.18-dev
-    old: 4c893489cf3851a221ddaed7d8ecf4b0db9141df
-    new: bc675ffc862a466088907333763ae840eb4d99d4
-    log: revlist-4c893489cf38-bc675ffc862a.txt
-  - ref: refs/heads/renesas-lts/v6.18.58-2026-10-22
-    old: 0000000000000000000000000000000000000000
-    new: e64d18e3778616487a08d9cc6aae1db76822fc76
+  - ref: refs/heads/renesas-lts/v6.12-dev
+    old: f589a8c600bf46ed662f737c7a2fbecc72ccd27b
+    new: 422394511d02df47fdade3ec452dba5902a64191
+    log: |
+         422394511d02df47fdade3ec452dba5902a64191 LTS: v6.12.114-2026-10-22
+         
+  - ref: refs/heads/renesas-lts/v6.12.114-2026-10-22
+    old: 410de698fdf671703303486be659cd0ea046ce90
+    new: 5f2c664a142e9e0822e4c453ab5e5086e38dbc8f
+    log: revlist-410de698fdf6-5f2c664a142e.txt
 
---===============1066266158470704162==
+--===============8424812918639974550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c893489cf38-bc675ffc862a.txt
+Content-Disposition: attachment; filename=revlist-410de698fdf6-5f2c664a142e.txt
 
-7820bca8cb2073811c851abc37d303afeb15c3c4 spi: mpc52xx: clean up interrupt handling
-3c03f6f7c6f2d476f202bc3399359e2c27d7f99e usb: gadget: f_hid: Add missing error code
-e32aa1d85126e6d5ef6efd594ced3f75178886ce RDMA/erdma: Use IRQ-safe XArray helpers for QP and CQ tables
-adc0d81b4d415efa3acec7deb326c0b3c6e74752 PCI: dwc: Return -ENODEV from dw_pcie_wait_for_link() if device is not found
-903a2ab8325a26d362247776521c1be3223c6622 PCI: dwc: Return -EIO from dw_pcie_wait_for_link() if device is not active
-2d06cb25a497d3a7034ef9d172626c2d6620a0f1 ip6_gre: remove obsolete ERSPAN PMTU update
-b030fde644501d0ed5e604fc01719d1daa9cd472 drm/amd: Create a device link between APU display and XHCI devices
-5aa9efb5591745d617c2b77d1ac4e2ef685dc0e0 iavf: iavf_virtchnl_completion: drop duplicate ether_addr_equal() test
-fdf4f011c600416935a002650cc3bad3df8a127d iavf: send MAC change request synchronously
-5720bf6b91295688048f0ad8c0ce595be549ebe2 mm/mremap: fix locked_vm leak by splitting VMA for MREMAP_DONTUNMAP
-0c5595cba722477babc8eb30d984d6085067edfa mm/mremap: fix locked_vm leak from MREMAP_DONTUNMAP self-merge
-22732b0f290ac06b938b60941b12874b341354b1 nfsd: fix all-zero stateid in CB_OFFLOAD for async COPY
-0c9d4f9c66ca71a210916e9acdc461c0151e7d37 wifi: mt76: connac: tolerate inactive BSS deactivation
-2e25842f0e4423e0efb243f56153d842ed6b933f dm-integrity: fix NULL pointer dereference when the 'R' flag is used
-454b67fcc28c18502e47dfb9f067b04c28628ada dm-integrity: validate the superblock on resume
-638ee6bca19750934ea13f9c325f46fd8ae60064 sched_ext: Fix CPU hotplug hang when a dying CPU's tasks sit in the BPF scheduler
-cc7732b8549ecb6f02457edeb8db1f6d255e381c Bluetooth: RFCOMM: connect the session socket without rfcomm_mutex
-eececf7c3a679d9c08175ad6bacbc8c31848f5af net: xilinx: axienet: Free outstanding DMA buffers on dmaengine stop
-08275dcfbfc3b2ce2977b45171028ad92e256c94 net: mana: reserve RX buffer headroom to fix forwarding performance
-420bf39a22a73d4f06fd66de5b06c2b4639b06a9 riscv: patch: Avoid early phys_to_page()
-9e8fc7972b398e9dc2415ece283d8f64edac3858 riscv: patch: fix handling of bpf-jit execmem addresses
-8176ec7e369873cb11573779a264d0c8b183f218 scsi: ufs: core: Decouple CQ sweep from request iterator in MCQ
-a34a230ccea1b8b667ae59dca11295a2c8f81738 scsi: ch: Do not keep references to data transfer element devices
-d12c834b97c36e89fdfc0684a869c802c620a076 scsi: ufs: core: Move an assignment in ufshcd_mcq_process_cqe()
-e36bac5923a3bd50b2ad3932d1e1fefa4855f61b scsi: ufs: core: Add debug log for MCQ command timeout
-ee01d48f0f086fbaa254a69e78dafa244f72642c scsi: ufs: core: Add a comment block above ufshcd_mcq_compl_all_cqes_lock()
-97e736000731f134cf75f4b4fc920e47bc6a0790 scsi: ufs: core: Avoid unsafe MMIO reads in ufshcd_mcq_compl_all_cqes_lock()
-2efa187fd4c9b8d7edcae0c1acf46739ce39fd01 drm/xe/i2c: cancel the client work on remove
-f6c1e709a4f9184577201a3087b1488f248a800f cifs: fix time_last_write stamp placement in setattr/truncate paths
-7d6fd507464821220a40a0e55f53cda862cc15bb fat: stop reading directory entries past the end-of-directory marker
-265ca3f6524be05039099582818521fb218c5917 ima: Access decompressed kernel module to verify appended signature
-0f39d936a34933ebfbdc13a04f0aba814d3b9709 ima: Fix stack-out-of-bounds in is_bprm_creds_for_exec()
-50144efd23ad9f939aed83ecbc83d4a12c8b9a79 xfs: factor out xfs_attr3_node_entry_remove
-4b963fddf470fc55838349bdca5e86e816e68df0 xfs: factor out xfs_attr3_leaf_init
-7ea3850b9ce005e70f502b308edb2d99ca074ed3 xfs: close crash window in attr dabtree inactivation
-7e54ed8a780c8151350c073f3a91ca1da52c11b0 mm/damon/core: cancel damos_walk() before damon_ctx->kdamond reset
-93a7f297362deac614ce3dbbba73ff2ba31aaca3 mm/damon/core: fix damos_walk() vs kdamond_fn() exit race
-c24d2e190b955baf3a95e05d34b192f61bd201b3 selinux: allow multiple opens of /sys/fs/selinux/policy
-e8ed9a1dfc74fc85b3a203ab6317110d537981c8 usb: iowarrior: remove inherent race with minor number
-30ec3025b771511625375fb3fb959aea3b45fb0d USB: iowarrior: fix use-after-free on disconnect race
-314b72d5e82736d8ef5427db857363b4f2e33c87 rose: hold a reference on incoming sockets queued for accept()
-e46794d1936caadd3316ccfca194165af615191a io_uring: do not charge the SQ/CQ rings to RLIMIT_MEMLOCK
-a6d84b420a84843d837f729c298d98d8b070d314 io_uring/kbuf: don't charge provided buffer rings to RLIMIT_MEMLOCK
-8b7748e9904f80fb597f4a00aa1d2322889e6f5a kho: free chunks using free_page() instead of kfree()
-5c0940abe76c99484ed6d70a809fc653f59f0991 bpf, sockmap: Account for receive queue in FIONREAD without a verdict program
-88c7c3aa8d0ffcb33ef81e4e9e0b40b594a49f9a wifi: atk9k: Revert "wifi: ath9k: reject short WMI command responses"
-517404e157395d0f8da125ca956c566895dfcd06 ksmbd: fix heap out-of-bounds write in krb5_authenticate()
-2566780c684c9c21241d409d790087c73070f312 KVM: x86: Use active memslots for the per-vCPU MMIO cache
-2926d88bb7fc4608fd942453d929c39e4e5ec006 Linux 6.18.58
-cd7c89e71e204a4be127840cd879c6796a1bce77 Merge tag 'v6.18.58' into renesas-lts/v6.18-dev
-bc675ffc862a466088907333763ae840eb4d99d4 LTS: v6.18.58-2026-10-22
+71a47bec6f742724783877939af787cfeff78dbd PCI: rcar-gen4: Limit Max_Read_Request_Size to 256 Bytes
+0ad2c0dd1eab198fe7cdbb1316b03de3277a5e61 media: renesas: vin: Fix RAW8 (again)
+efae75d1047be0031e32a875686c54e58af08ac5 media: rcar-vin: Drop min_queued_buffers
+b459b107a7d0c19406d981223f8be653b8b99203 arm64: dts: renesas: sparrow-hawk: Always enable edge connector I2C busses
+ebdc393375669585586fcfb7f187310210ace20a media: v4l2-isp: Rename block_info to block_type_info
+a92660e1a8bacc22574438ac12fb0b6e0c4b3fba media: v4l2-isp: Rename v4l2_isp_params_buffer_size
+6e13f8473505a1ee2c38fd1c40c62104e272004f media: v4l2-isp: Add per-block validation callback
+73279b5d7aec01f55aab2e48724f6956a697c381 media: v4l2-isp: Add helpers for stats buffer
+6055bd69dfaec6eaa4df0d7e33cdb8b2fef512c8 media: uapi: v4l2-isp: Add extensible statistics
+dce03d90b22f60169caabfa4f3443118b174676c media: Add RPPX1_PARAMS and RPPX1_STATS meta formats
+9fa7a2fca037f55b9fe5f329dbc0eda47a2b2b04 media: uapi: Add extensible param and stats blocks for RPPX1
+d6214045f70f5c6fda76d6988950ca7fcb015efa media: rppx1: Add framework to support Dreamchip RPPX1 ISP
+28f65bbf2a1f56b2119a22d3ffacefec8a5edb4b media: rcar-isp: Add support for ISPCORE
+3a8b2522af2c7ca1a02609fcf7eefa722e72a331 media: rppx1: wbmeas: Add support for white balance measurement
+8e7f3e02e43f1166825dc030d89d116d95f8057a media: rppx1: awbg: Add support for white balance gain settings
+dc871e4499213d566785847a4e33ee3a4fead7b8 media: rppx1: exm: Add support for exposure measurement
+8f4ccfb8bc2bf922ca13395d5ef1c7959f77d29e media: rppx1: hist: Add support histogram measurement
+4fe97d78e52e157ca89de1e669893353bb2a3226 media: rppx1: bls: Add support for black level compensation
+c02f4bfb55adba22b294608d474d7fc8967981ff media: rppx1: ccor: Add support for color correction matrix
+bb6b90d31443c2066b4c9a5791b1c446394d66d5 media: rppx1: lsc: Add support for lens shade correction
+1cf6045269490cfc68a83f40381e6e9c897f1f88 media: rppx1: ga: Add support for gamma out correction
+bf69c5ccc4fe4e3f6938f73e05591dcb8795d2b0 media: rppx1: lin: Add support for gamma sensor linearization
+eab1fd885e3228ac0a18a1903bf677ab590869a5 media: rppx1: describe the MAIN_POST white balance gains block
+23af7a50044c30fa00997b81a94098cda830e67a media: rppx1: bls: read the raw pattern from the PRE2 acquisition module
+866f7d8bbc3e6859a2229e673c2231cf9abf2759 clk: renesas: r8a779g0: Add DSC clock
+08469375efe189302a6db15e7bd6500842dc20f3 clk: renesas: Remove duplicate and trailing empty lines
+3eb5e6d5c1212d9cb3752121605a7f2202e70a30 clk: renesas: r8a779a0: Add FCPVX clocks
+e8a577693d8cacb4e90aede331213ff7a14bfc38 clk: renesas: r8a779a0: Add ISP core clocks
+8717f636386915286cbab53aacdfe2a558dbbe20 clk: renesas: r8a779h0: Add ISP core clocks
+68f1c7422ff07eeb7ed2a85e98837544dafa9296 clk: renesas: r8a779h0: Add FCPVX clock
+00e7992014d7ccb49b0def3506dee650aa99c783 clk: renesas: r8a779h0: Add VSPX clock
+9d6f6954f60509188e750b3608334724d6660465 clk: renesas: cpg-mssr: Remove obsolete nullify check
+db8ec329ca3c285312ddb90c592e64b3f273e69f clk: renesas: rcar-gen4: Add support for clock dividers in FRQCRB
+875d65494b4130803294dec5266afdb76b116a19 dt-bindings: clock: r8a779a0: Add ZG core clock
+005fa592094b399e4398e6f4d58a125265e254f5 clk: renesas: r8a779a0: Add ZG Core clock
+b9c92a9bdb02a1909bc6e140ac14d06f84f9b1cb clk: renesas: r8a779a0: Add 3DGE module clock
+2a8185b0845bda51bb39389080069f0b847e95ba clk: renesas: rcar-gen4: Tidy up DEF_GEN4_Z()
+b0d1ea5a709a1e0f0872596c8f130566829ec305 clk: renesas: r8a779g0: Add ZG clocks
+a29aa6da51cf866aafd1ce1c84517c4e6685b5b8 ASoC: ak4619: Add suspend and resume callbacks
+8e313eae283b83b06446eba4b94a4382af26af06 LTS: defconfig: Add renesas_defconfig
+0fde2351881fe1c9acf7924b5ea063cbe4ce0cdd LTS: Renesas LTS for v6.12.x
+5f2c664a142e9e0822e4c453ab5e5086e38dbc8f LTS: v6.12.114-2026-10-22
 
---===============1066266158470704162==--
+--===============8424812918639974550==--
