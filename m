@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Thu, 22 Oct 2026 11:55:21 -0000
-Message-Id: <179267012157.1040258.2772190416614794989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Thu, 22 Oct 2026 11:57:07 -0000
+Message-Id: <179267022718.1041192.6834413530005212895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/smb
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
 user: linkinjeon
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: 0fec4c24e1979032d7b7c159d9e5c45c7444e0f2
-    new: 2ff3730998b015b5b0a3f28330bee16c648dd114
+  - ref: refs/heads/ntfs-next
+    old: 20e14268ef410cbabff54a79405813a8b9ce8e89
+    new: b713b69cf79ef52b1737a1a6c09df2522ff875af
     log: |
-         2ff3730998b015b5b0a3f28330bee16c648dd114 smb/server: prevent file publication after tree disconnect
+         b713b69cf79ef52b1737a1a6c09df2522ff875af ntfs: fix u16 truncation of the update sequence array count check
          
