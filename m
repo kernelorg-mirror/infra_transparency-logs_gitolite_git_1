@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8832820645323165730=="
+Content-Type: multipart/mixed; boundary="===============6483665989703490989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Thu, 22 Oct 2026 13:01:12 -0000
-Message-Id: <179267407250.1092240.4749871014935977679@gitolite.kernel.org>
+Date: Thu, 22 Oct 2026 13:05:28 -0000
+Message-Id: <179267432800.1095466.5383706878197012024@gitolite.kernel.org>
 
---===============8832820645323165730==
+--===============6483665989703490989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,47 +15,35 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chao/linux
 user: chao
 changes:
-  - ref: refs/heads/feature/cache
-    old: d70b65da0ac44bb0304ee204f3ed9b1a80a451e8
-    new: fd106ada4dee4b8adefec791ee9b9681b7b77501
-    log: revlist-d70b65da0ac4-fd106ada4dee.txt
+  - ref: refs/heads/feature/large_folio
+    old: e9d35b552a819817a5b7d6f78949f3ee35b576bb
+    new: 3654402f982852d17f617b488c21626402904c75
+    log: revlist-e9d35b552a81-3654402f9828.txt
 
---===============8832820645323165730==
+--===============6483665989703490989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d70b65da0ac4-fd106ada4dee.txt
+Content-Disposition: attachment; filename=revlist-e9d35b552a81-3654402f9828.txt
 
-eeadc4807c95448b1a4a0ac0b69a3bcefcbbf5fc f2fs: cache: wake up f2fs_writeback when exceeding threshold
-bd09975045fb9a134135824d4ffc08109ddd79f5 f2fs: cache: support asynchronous write_end_io
-f32744a8b83d91f803f9fc6b9850516c0b48177f f2fs: introduce max_atc_write_bio_entry_cnt
-8596baf652f4e01f8cdc4fe20f0be59c02e6a867 f2fs: cache: count the temporary pins apart from the regular references
-a85e09bd6cc80059b9e0ef5cd1467719aa3129a8 f2fs: convert inline quota files when turning quota on
-beafa2721b6379fc6a7ace842f7d5c8dc27d5aa0 MAINTAINERS: f2fs: add dev branch to git tree entry
-b3c9843589257631bac18f30655e82d88970688a f2fs: remove mappedtodisk flag usage in mmap write path
-2eebc31ae5f53e1066bb6238c8087c23b688ad17 f2fs: allow pinning empty compressed files
-c04f209773ecb31e592cababce0d6658ee0b8d58 f2fs: read i_size once in f2fs_vm_page_mkwrite
-9c4ee79190c8c23a9fb5c07d3bc87eaac514b2bb f2fs: check every cur_*_segno[] entry on readonly images
-0354a04b8c34e26cc66d0f43785d388163b6bacc f2fs: allow empty strings for journaled quota options
-a45c9a0055f5ccff0c5c546e0478604b990f23ab f2fs: fix termination of f2fs_sync_meta_caches()
-92154fe28c3701bebf75176dc5522bec62519a8f f2fs: fix defragment writeback range truncation on 32-bit
-06dfe4a7eb696d868b196c2a49873142f19bd862 f2fs: disallow mmap write and data-modifying fallocate on atomic files
-e74476ad8162c1facc74b74ce2d1372492df872e f2fs: fix to invalidate curseg if change_curseg() fails
-e4582e5f3b439228d4e900edcf8225aa89be32b4 f2fs: fix to use bio_in_atomic() in f2fs_write_end_io()
-a605d5d71a6d280c43c7ede9778dda63fb5c3f22 f2fs: fix to use bio_in_atomic() in f2fs_read_end_io()
-714c68e85ba3a59ebffbb55fccd2d37c786642d2 f2fs: opt in to multigrain timestamps
-080833a32fd5dc10b3acf2fa9af9b3213e6cb617 f2fs: bound the SIT/NAT bitmaps by the checkpoint pack
-b001d9bed52321a7856134685cc3bffcd1cfc93c f2fs: avoid unnecessary reads in f2fs_update_meta_block()
-53b12b63304b34a3850a901c4de3cc6ad08e0aee f2fs: return -EIO for a lost inode block after cp_error
-f6f8f34480c78eade6542faea6386c47c9b4c6b3 f2fs: quota: fix quota flush failure during filesystem freeze
-f5924de8867c09206ba631b9faed63862ec00a10 f2fs: release a removed xattr node in roll-forward recovery
-a6ede405455106bf42164ec96fd84008c5aabdd9 f2fs: flush SIT journal during filesystem resize
-e4df12e37300d4e181ae76746ae0fd7f7b92aa36 f2fs: refresh pinned allocation boundary after resize
-894ca8b856668a82426dbd0a0042b61541a1a9ec f2fs: fix to avoid potential reference count leak in do_garbage_collect()
-6d1f622b9c069378cdb83088be2b15a9b480b8a3 f2fs: fix submit accounting for IPU writeback
 fd0da04b25488a78b82bf69895948ecd85e327d5 f2fs: use BIT_ULL for mount option bitmasks
 714f97f477fe2834ac9e9e66979ae52824b9f914 f2fs: expose resizable_tail feature via sysfs
 74bbd6ada01f91fcad60608e0417bf45a9fa99e6 f2fs: don't use truncate_inode_pages_final() on live inodes
 fd106ada4dee4b8adefec791ee9b9681b7b77501 f2fs: zone: fix to don't fail to grab GC target block on zoned device
+5da4872e7a34bab972867cb6bd303bc312d42290 f2fs: extend folio state for large folio write path
+fffec46db8a7002722831333c2371bf9fe9f4fbf f2fs: carry subpage offset and count in write IO
+057a94bf9fdb58fbfb27d23e415f73cea97703ca f2fs: support regular file buffered writes on large folios
+8a47fb2d59d67671992b9f59ce70a70b1f406ab0 f2fs: support atomic file large folios buffered write
+2ec4d8e741bdf3402c6baaa094efb97cbab8dedf f2fs: support large folio writeback
+c704af5eeace5dc4ae830ef2e86f1f973eb2428d f2fs: account large folio dirty data at block granularity
+0565b32f3fd65f4176bd0f7662b84a54fc2cc1ec f2fs: prepare mmap write faults for large folios
+c9ce6e961d0311faff6d4c73cea279e5e1f347ba f2fs: make GC migration large-folio aware
+1e67d893e6aa8efcf4e4e290c7436eba61735b04 f2fs: optimize small block size large folio read
+03f321cd6a17327878dbce8795bfe9f7ed7ad1ec f2fs: support partial uptodate large folio read
+4a5262235ed61384ad4cdf75d97982e1bb1d7074 f2fs: handle partial truncate of large folio dirty subpages
+1b5bdfd3d0124dfb32e9ec868321d6c52857ebe9 f2fs: fix zeroing paths for large folios
+05c1a74c42f12c0708b4bffb34ea46a03b5f8eb4 f2fs: handle block cloning within the same large folio
+ea6110c56ed770c01c845526ce00f5bb5ac2fd21 f2fs: allow large folio support to writeable files
+3654402f982852d17f617b488c21626402904c75 f2fs: make compressed files compatible with large folio
 
---===============8832820645323165730==--
+--===============6483665989703490989==--
