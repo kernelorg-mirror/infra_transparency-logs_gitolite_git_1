@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 22 Oct 2026 19:05:10 -0000
-Message-Id: <179269591026.162802.9880280873441886725@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 22 Oct 2026 19:12:48 -0000
+Message-Id: <179269636805.168779.5395767714239734506@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/main
-    old: 00b1df13f9d0adebcb90bd110a4a22de5115e077
-    new: 2627913c0f298b6b2f4206e3bdabec5ed90c9a52
+  - ref: refs/heads/bleeding-edge
+    old: 64a57c65ae6d23ca56686b15cd995a85bacb88ac
+    new: 8244dc8f69f0e73cb1789355260b7d68bf5494e7
     log: |
-         72f3b81c89fbc52677b9dbbfa92cde0ae00a36e2 ath10k: WCN3990: hw1.0: update shikra/wlanmdsp.mbn to WLAN.HL.3.3.7.c5-00226
-         2627913c0f298b6b2f4206e3bdabec5ed90c9a52 Merge branch 'robot/pr-0-1792691494' into 'main'
+         0ffc7534a210105ba973167a5b86d5ab39d4031f cpufreq: intel_pstate: cancel HWP notify work in driver cleanup
+         6c7a7007c5b7566fba4fbee1d40011fb8f833dc3 PM: EM: allocate the cpumask for every perf domain
+         0d97bb5a7f172acb1e337ab1b4654295f85a1c5a Merge branch 'pm-em' into bleeding-edge
+         8244dc8f69f0e73cb1789355260b7d68bf5494e7 Merge branch 'pm-cpufreq' into bleeding-edge
          
