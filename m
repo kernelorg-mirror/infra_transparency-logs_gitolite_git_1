@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/linux-firmware
-Date: Thu, 22 Oct 2026 17:44:44 -0000
-Message-Id: <179269108421.96520.7201591997688198920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 22 Oct 2026 17:46:06 -0000
+Message-Id: <179269116671.99311.5867237611060498926@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/linux-firmware
-user: jjohnson
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/main
-    old: 59f9fc2ef8d1e312d2a613d4e1ffad2ff31a0a01
-    new: 00b1df13f9d0adebcb90bd110a4a22de5115e077
+  - ref: refs/heads/bleeding-edge
+    old: 7be4bc52fd9e0e55dc9a2e0232b89427d2c4b614
+    new: b66621ad2a8fb553c4cb75b9d69fead4f0532933
     log: |
-         0bee5f744b964755f446bc2b1afe30b598d97325 qcom: Add gpu firmwares for Nord chipset
-         0147e35076c2d44a21eea0402351b99d5d1028b2 Merge branch 'robot/pr-0-1792610646' into 'main'
-         466e500db134efb2090d52b9b6b1104ce43e8ed2 linux-firmware: qcom: sync audioreach firmwares from v1.0.5 build
-         00b1df13f9d0adebcb90bd110a4a22de5115e077 Merge branch 'main' into 'main'
+         80892972ff23bf0b9049230ef0931b34163aaed3 ACPI: utils: Add exclusive AML evaluation helpers
+         645f370c932db2cd3893f7fee61aa8b9debc8ac0 ACPI: battery: Evaluate battery methods exclusively
+         c4aae727beb23a736c15b8d53e219da29d791065 thermal: intel: int340x: Evaluate _TMP exclusively
+         f91c2cd6dbcedf52e227b2eea8d7b99ecbac7552 platform/x86: ideapad-laptop: Evaluate ACPI methods exclusively
+         b66621ad2a8fb553c4cb75b9d69fead4f0532933 ACPI: platform_profile: Separate handler locking from sysfs lifetime
          
