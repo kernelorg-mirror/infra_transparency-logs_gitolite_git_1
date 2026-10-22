@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jassibrar/mailbox
-Date: Thu, 22 Oct 2026 02:27:13 -0000
-Message-Id: <179263603340.606396.12370741485437162291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 22 Oct 2026 02:34:10 -0000
+Message-Id: <179263645066.610616.15896784172136004529@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jassibrar/mailbox
-user: jassibrar
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 134ef0278d4e48bcc325a7699250dfe861c11953
-    new: 01a40ad5a9687ea5a837857d4b21ddd764be7aa3
+  - ref: refs/heads/main
+    old: 82858f249d65126539aa4297677b468fd6619041
+    new: f71ff7d406523748bfb8236830c7eaa6a308aaa1
     log: |
-         74f1cf02d9fe0fd32ca299cd4d71bc29d3bf2a54 mailbox: qcom-cpucp: read mbox hardware register using readq()
-         01a40ad5a9687ea5a837857d4b21ddd764be7aa3 mailbox: Use named initializers for acpi_device_id
+         f71ff7d406523748bfb8236830c7eaa6a308aaa1 r8169: clear TX LPI on RTL8168h at link up after phylink conversion
          
