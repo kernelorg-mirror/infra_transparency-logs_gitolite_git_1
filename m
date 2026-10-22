@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1871682228252934518=="
+Content-Type: multipart/mixed; boundary="===============2071580688170629067=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 22 Oct 2026 10:25:18 -0000
-Message-Id: <179266471887.974579.7988908206820052378@gitolite.kernel.org>
+Date: Thu, 22 Oct 2026 10:29:38 -0000
+Message-Id: <179266497865.976292.18288783885740384575@gitolite.kernel.org>
 
---===============1871682228252934518==
+--===============2071580688170629067==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,22 @@ repo: pub/scm/linux/kernel/git/next/linux-next
 user: broonie
 changes:
   - ref: refs/heads/fs-current
-    old: 80f8ea78789651cef6b50ac0675a74d638d56039
-    new: 7be4bc52fd9e0e55dc9a2e0232b89427d2c4b614
-    log: revlist-80f8ea787896-7be4bc52fd9e.txt
+    old: 7be4bc52fd9e0e55dc9a2e0232b89427d2c4b614
+    new: aaa5562f08decadcc82581b35162ba71ca5e616f
+    log: |
+         49c5d168a3a8f4eb27d44a2a22b7e8a856ca601f udf: fix nls leak on udf_fill_super() failure
+         aaa5562f08decadcc82581b35162ba71ca5e616f Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
+         
+  - ref: refs/heads/fs-next
+    old: cf969fad62c0a578cbd01f69abdce789e6882ea0
+    new: aaa5562f08decadcc82581b35162ba71ca5e616f
+    log: revlist-cf969fad62c0-aaa5562f08de.txt
 
---===============1871682228252934518==
+--===============2071580688170629067==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-80f8ea787896-7be4bc52fd9e.txt
+Content-Disposition: attachment; filename=revlist-cf969fad62c0-aaa5562f08de.txt
 
 801ade22c4fc078ea9b11e1f3fe3aae8b8bef886 cpufreq: airoha: fix probe failure with correct error check
 f9f31f5f13b5e5459e2d3322fe6b5e19d511919a kconfig: error out for recursive range
@@ -738,5 +745,6 @@ ccc4d9f8912a5d9f519a34c3633fe53c8f9b429e Merge tag 'timers-vdso-2026-10-20' of g
 df37e3924292fb41d325721008520ba93deced42 Merge tag 'pm-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 4403278e4ea2f654f8130a5c03eb8b4516a0f201 Merge tag 'thermal-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 7be4bc52fd9e0e55dc9a2e0232b89427d2c4b614 Merge tag 'driver-core-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
+aaa5562f08decadcc82581b35162ba71ca5e616f Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
 
---===============1871682228252934518==--
+--===============2071580688170629067==--
