@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 22 Oct 2026 09:06:28 -0000
-Message-Id: <179265998884.916594.1504765324775676669@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Thu, 22 Oct 2026 09:07:44 -0000
+Message-Id: <179266006467.917165.10527607084471862174@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/main
-    old: 473167593f42551ce6b00c05cee8cd20309d45ac
-    new: f4377bf85887f57b59abb5479f7660a81ffe4449
-    log: |
-         f4377bf85887f57b59abb5479f7660a81ffe4449 tipc: fix broadcast sender hang on last acker departure
-         
+  - ref: refs/heads/v6.18.58-2026-10-22-x5h-ironhide
+    old: 0000000000000000000000000000000000000000
+    new: 5a9c16a70efcd37118810192b447fab58a007540
