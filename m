@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1736936884174608425=="
+Content-Type: multipart/mixed; boundary="===============2106234599634901090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 22 Oct 2026 22:02:25 -0000
-Message-Id: <179270654525.293484.13160105796996387371@gitolite.kernel.org>
+Date: Thu, 22 Oct 2026 22:03:14 -0000
+Message-Id: <179270659403.293827.8058854483412443039@gitolite.kernel.org>
 
---===============1736936884174608425==
+--===============2106234599634901090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-keys
-    old: 722658cac48a6ba49f5506fd74d010ad9dbb2f05
-    new: 2e6b8da9457170363f0929459e2120ecf2c7d55f
-    log: revlist-722658cac48a-2e6b8da94571.txt
+  - ref: refs/heads/keys-rhashtable
+    old: 0e83a348dc3a152ef4092f6aff90c73fafcbeaf0
+    new: bd50bec62a14d60fb80421dd32a400569eb0b461
+    log: revlist-0e83a348dc3a-bd50bec62a14.txt
 
---===============1736936884174608425==
+--===============2106234599634901090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-722658cac48a-2e6b8da94571.txt
+Content-Disposition: attachment; filename=revlist-0e83a348dc3a-bd50bec62a14.txt
 
-76c119fa458bd13c7f82855c29604e54d840b84f btrfs: use ordered extent to grab the logical address for submission
-45f86814783337092a4df6f656f7987c769b9579 btrfs: tree-checker: reject file extent items for special files
-57c6777ebd249f79bb935366cd8cbe28d06f6101 btrfs: consume given iter directly instead of copying in csum_one_bio()
 e54f700d6ae3203221745c168dae20d88f2be4f1 btrfs: use bio::remaining for async checksumming synchronization
 49c313970a5e7437e6b4ca1be33ec506ffb1843e btrfs: fix typos and repeated words in comments
 24d966dea969f9ee327de2e85d50eff1e459fbce btrfs: split btrfs_insert_delayed_dir_index() into prealloc and commit phases
@@ -1050,5 +1047,8 @@ fc0ddb3174b06800d8414d87e551eb60c36d1f38 char: tpm: Use SIMPLE_DEV_PM_OPS for ib
 bb24e4ed45e2ace11672f7c197c8804d41488a6f KEYS: Expand key->{datalen,quotalen} to unsigned int
 e8a492ea68466401c289553f0c8836e575285788 KEYS: Reject descriptions larger than KEY_MAX_DESC_SIZE
 2e6b8da9457170363f0929459e2120ecf2c7d55f KEYS: Verify the key identity in __key_unlink_begin
+875c5ee26aa791868785119f8d2c7c22eba59a5f KEYS: Introduce keyring_is_empty()
+c47164d8c71528b08359c2b7dc750e504456897e KEYS: Replace assoc_array with rhashtable
+bd50bec62a14d60fb80421dd32a400569eb0b461 lib: Remove assoc_array
 
---===============1736936884174608425==--
+--===============2106234599634901090==--
