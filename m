@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 22 Oct 2026 13:48:24 -0000
-Message-Id: <179267690457.1129430.12309922293921831056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/ksmap
+Date: Thu, 22 Oct 2026 13:52:41 -0000
+Message-Id: <179267716107.1132996.7256770336552950009@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/docs/kernel/ksmap
+user: hannes
 changes:
-  - ref: refs/heads/kvm-arm64/cross-vcpu-sync
-    old: b31bce255a009b17c26bcada1f23c15ebc3fbff1
-    new: e99ff76f4a02be8542e2c3ecc8843d7339a0200d
+  - ref: refs/heads/master
+    old: 2864d18e2d8bcec6ed09b32558e90861b09976a0
+    new: 6c29284c312f3568ad7081f0067fcceb9c67c5a7
     log: |
-         de81b28f0b83b22163d7d9a9b708d7aa912e0ef7 KVM: arm64: vgic-its: Don't map an LPI from more than one event
-         e99ff76f4a02be8542e2c3ecc8843d7339a0200d KVM: arm64: vgic-its: Remove the pending state of a discarded LPI
+         6c29284c312f3568ad7081f0067fcceb9c67c5a7 users: update hannes's key ID and location
          
