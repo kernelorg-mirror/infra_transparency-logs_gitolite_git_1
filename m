@@ -1,22 +1,53 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Thu, 22 Oct 2026 13:44:06 -0000
-Message-Id: <179267664616.1125248.17990030468930668979@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8882649527562241735=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 22 Oct 2026 13:44:59 -0000
+Message-Id: <179267669953.1125816.11441961576570085515@gitolite.kernel.org>
+
+--===============8882649527562241735==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: c5b7894f1a26b5cc942be1cd11b15c3876c837a1
-    new: 309e1d22152555f96ab9f7de9f2d754219a651f5
-    log: |
-         c4c362949dcaaaabaa5db34acaa6e91b9912094c KVM: arm64: Return on kvm_gmem_get_pfn() failure in gmem_abort()
-         5fa2925e003722e5f2d1b2dbe92e04b7fc0246df Merge branch kvm-arm64/hcr-cleanup into kvmarm-master/fixes
-         53d421b38842734adb0d09829572b48567667806 Merge branch kvm-arm64/cross-vcpu-sync into kvmarm-master/fixes
-         309e1d22152555f96ab9f7de9f2d754219a651f5 Merge branch kvm-arm64/misc-fixes-7.4-1 into kvmarm-master/fixes
-         
+  - ref: refs/tags/tty-7.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 28b8ec3595472a2df189f1259d21b70c2111994a
+
+--===============8882649527562241735==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792676694 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1792676694-20e89f5a69e856a6d457b78de41e1a33c70d4b36
+
+0000000000000000000000000000000000000000 28b8ec3595472a2df189f1259d21b70c2111994a refs/tags/tty-7.4-rc1
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmraE1YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KaUP/RT+cxx6c2r9FcQIJHlD
+99Il4BPuRo54JJ6I847WiiBdNgR360OT9tmQl+evWLOuP3GJxYIy+5F2hYwJHq79
+JGOwLmdBaNl8KxQGRu06qCOU2gZJi2K9swjwY4QdFLSz7yQMLo4kR+z+50cR+tIC
+dopznXuIIHl7UYPs05MEXx0T4b04TOyr7t35FiFZPBm/bxYGHb0zVprjz/jgaNWZ
+HKRloQuqIpN+nUbhLpx849eWQxFsDRm3xbkH/tdMkP/eQg4E6j9SXs4JvcwPeit+
+hhI3E5SZF3ELF804xdf5NcNKcD2Jnhi+dTd67JQauRzLSAGURa91Q+qwwbQb1+Gk
+hbKALyCsEzK4SZs1/tEd8IapOjLmVSi5muLj4MkN1CdvTR4LAeqZxxtwySjibZ5n
+hg6g8HGeRKe62mR62GzsN1cvqVxQQ974tOqHnb5rH/EX0EnoHfC6TDwASHzTzw67
+v+CjQtFSgd2UUoJTLIyGSfODJYuk6ZYOLqiWFzV+7dFX70P2E0GJF5eq9smPOTp/
+JUb17CKZTz/e/oquhycmqXzUdgLkFFDrcufa6LUfnUHFU2iA28ZqAST67OqzaK0A
+gvrt9jZ0OWMBTUPq+STtGwqLuOFHbfFKurGeJ8SOD0BVsClu/5G6uknEpyOxXYwv
+k4frdAewc1+PqyZIMcJT7Sj1
+=RC+2
+-----END PGP SIGNATURE-----
+
+--===============8882649527562241735==--
