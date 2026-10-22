@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6360923021057168831=="
+Content-Type: multipart/mixed; boundary="===============4985591395344519390=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Thu, 22 Oct 2026 14:51:04 -0000
-Message-Id: <179268066478.1232604.4203867978146524631@gitolite.kernel.org>
+Date: Thu, 22 Oct 2026 14:51:10 -0000
+Message-Id: <179268067003.1232823.15640917368290642561@gitolite.kernel.org>
 
---===============6360923021057168831==
+--===============4985591395344519390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/virt/kvm/kvm
 user: bonzini
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/queue
     old: 164405e8e9a0378c7e1aff2254625a6553a291f1
     new: 7e60162b16f9da0d2fa83da5c1723b6853a0ac1d
     log: revlist-164405e8e9a0-7e60162b16f9.txt
 
---===============6360923021057168831==
+--===============4985591395344519390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ d8538f942fd1006cd6f9b687ace6d45a2c3c015c RISC-V: KVM: Don't write MMIO load resu
 633b3931a87438282d6454646ff40c669a6896cb KVM: riscv: selftest: add Zicclsm, Ziccamoa, Ziccif, Za64rs
 7e60162b16f9da0d2fa83da5c1723b6853a0ac1d Merge tag 'kvm-riscv-7.4-1' of https://github.com/kvm-riscv/linux into HEAD
 
---===============6360923021057168831==--
+--===============4985591395344519390==--
