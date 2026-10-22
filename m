@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jassibrar/mailbox
-Date: Thu, 22 Oct 2026 15:34:25 -0000
-Message-Id: <179268326559.1265961.1288203892404147081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 22 Oct 2026 15:40:37 -0000
+Message-Id: <179268363758.8452.12672495315861704144@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jassibrar/mailbox
-user: jassibrar
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/tags/mailbox-v7.4
-    old: 0000000000000000000000000000000000000000
-    new: 8fa5ceb740bda764f3a4e367f4f837f4e5d7c734
+  - ref: refs/heads/keys-rhashtable
+    old: 66362d87c4e73b14e874825c0bd13b4b16b94a0f
+    new: 121737008c63b4e9665daa14fffc875d33c8c9a4
+    log: |
+         7bbedbc9b0c01ac77bde878fccaa5852e0a456d3 KEYS: Replace assoc_array with rhashtable
+         121737008c63b4e9665daa14fffc875d33c8c9a4 lib: Remove assoc_array
+         
