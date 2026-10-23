@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5053422769823249304=="
+Content-Type: multipart/mixed; boundary="===============0229229012615632703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 23 Oct 2026 17:32:45 -0000
-Message-Id: <179277676549.1197028.16854674648028858175@gitolite.kernel.org>
+Date: Fri, 23 Oct 2026 17:32:48 -0000
+Message-Id: <179277676818.1197174.6055673461692354639@gitolite.kernel.org>
 
---===============5053422769823249304==
+--===============0229229012615632703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfsd-next-thru-nfsd-6.19-2
-    old: 81479a53dc207469547986fcb2a06cd52214ef55
-    new: f0aeec4887699a3961c6a8bc02edbbbee63bfc10
-    log: revlist-81479a53dc20-f0aeec488769.txt
+  - ref: refs/heads/kernel-6.12/nfsd-next-thru-nfsd-6.19-3
+    old: 533b5e5ceff4e8233bda0f952811d1f858bcc19c
+    new: 209888e4d6324ceb3f21e124bb3819b4ab03af30
+    log: revlist-533b5e5ceff4-209888e4d632.txt
 
---===============5053422769823249304==
+--===============0229229012615632703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81479a53dc20-f0aeec488769.txt
+Content-Disposition: attachment; filename=revlist-533b5e5ceff4-209888e4d632.txt
 
 dac5ea2554058f15f4259865b8d9f673533506db Revert "nfsd: convert nfsd_net boolean flags to unsigned long flags word"
 6665b735d75b024dfc8b4705d309224c0627c7be Revert "NFS: Return a delegation the client fails to record"
@@ -578,5 +578,6 @@ a7f874d23779cb42c72a99ca1824bff84e5e6e32 NFSD: nfsd-io-modes: Separate lists
 a6796e63b8f37673be7711e0580f50dda17726aa NFSD: Clear TIME_DELEG in the suppattr_exclcreat bitmap
 4ee6d9d53d53c70f6c80f97caab49063fabdf60c nfsd: fix nfsd_file reference leak in nfsd4_add_rdaccess_to_wrdeleg()
 f0aeec4887699a3961c6a8bc02edbbbee63bfc10 nfsd: use ATTR_DELEG in nfsd4_finalize_deleg_timestamps()
+209888e4d6324ceb3f21e124bb3819b4ab03af30 NFSD: net ref data still needs to be freed even if net hasn't startup
 
---===============5053422769823249304==--
+--===============0229229012615632703==--
