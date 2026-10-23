@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 23 Oct 2026 04:51:42 -0000
-Message-Id: <179273110281.594927.16442766386979618897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
+Date: Fri, 23 Oct 2026 04:53:49 -0000
+Message-Id: <179273122962.596408.2902797844023253313@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/linkinjeon/smb
+user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 969142f63ff96a22f4564ce3eff394f1cfb49f2c
-    new: 02264415f3da9bc306c2efe2a8798b388a6a9032
-    log: |
-         02264415f3da9bc306c2efe2a8798b388a6a9032 foo
-         
+  - ref: refs/tags/ksmbd-for-7.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 2ad2d3bca1662f88e98ad750a9743016abe47d5a
