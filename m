@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Fri, 23 Oct 2026 22:10:26 -0000
-Message-Id: <179279342693.1409355.5546043839381052831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 23 Oct 2026 22:24:43 -0000
+Message-Id: <179279428323.1417504.17011156539759084742@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 7bc9684dc9e45358661301da4a0ede433fdf0a30
-    new: a0580dad5655e86314a0a777eb5f602c237a7e19
+  - ref: refs/heads/main
+    old: 520631554a689d2cd52452578f3140f045730ee0
+    new: 73e7b4fbe879a949f0dc88eeb955370f5f41a053
     log: |
-         48bb3b39698049594a283569d53f3fff0e168217 doc: Add CONFIG_RFKILL to the tester kernel config
-         1445a64e6b998a7cbccd85995d1d8dae659aa783 mgmt-tester: Add Set Powered test for rfkill block
-         4de4f60f1e78fa588bf3fdf744dc5cba389bb21e mesh: Fix Command Disallowed on random address change in generic IO
-         a0580dad5655e86314a0a777eb5f602c237a7e19 obexd: Handle message read status change events
+         b7dfff5e3eb3984d42026a6d653ec2a3d5cec729 net/rds: include the scope id in the sendmsg connection cache check
+         3fe64a5f670dbd6c7c84c2345b0b9726b3b79b31 net/rds: keep the connected peer's scope id apart from the bound one
+         73e7b4fbe879a949f0dc88eeb955370f5f41a053 Merge branch 'net-rds-scope-aware-sendmsg-connection-cache'
          
