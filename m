@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3125790128156980824=="
+Content-Type: multipart/mixed; boundary="===============6600014835521726930=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 23 Oct 2026 17:32:20 -0000
-Message-Id: <179277674002.1195405.10140675300253263588@gitolite.kernel.org>
+Date: Fri, 23 Oct 2026 17:32:22 -0000
+Message-Id: <179277674274.1195536.10524473352371608242@gitolite.kernel.org>
 
---===============3125790128156980824==
+--===============6600014835521726930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfs-for-7.1-1
-    old: 3491c569643ed9933e2716b20a992ec262561efb
-    new: 271c525f4273e13880e9cb55c6c3338052e5716d
-    log: revlist-3491c569643e-271c525f4273.txt
+  - ref: refs/heads/kernel-6.12/nfs-for-7.1-2
+    old: e5b1d0b28961c9b8ad218056a58148eaca6cbbc4
+    new: aae4c7c408d0b3d05087aa49644f9b890df95029
+    log: revlist-e5b1d0b28961-aae4c7c408d0.txt
 
---===============3125790128156980824==
+--===============6600014835521726930==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3491c569643e-271c525f4273.txt
+Content-Disposition: attachment; filename=revlist-e5b1d0b28961-aae4c7c408d0.txt
 
 dac5ea2554058f15f4259865b8d9f673533506db Revert "nfsd: convert nfsd_net boolean flags to unsigned long flags word"
 6665b735d75b024dfc8b4705d309224c0627c7be Revert "NFS: Return a delegation the client fails to record"
@@ -592,5 +592,6 @@ b3b3c5e643f836160bb202b162634c72d1e63186 NFS/blocklayout: print each device used
 c878d7cbd16b97698321ff186201ac7970a29376 NFSv4.2: fix CLONE/COPY attrs in presence of delegated attributes
 775aa9e4e429064ce1654848b68e6f40c2014af8 NFS: remove redundant __private attribute from nfs_page_class
 271c525f4273e13880e9cb55c6c3338052e5716d NFS: Fix RCU dereference of cl_xprt in nfs_compare_super_address
+aae4c7c408d0b3d05087aa49644f9b890df95029 NFS: write_completion: dereference loop-local req, not hdr->req
 
---===============3125790128156980824==--
+--===============6600014835521726930==--
