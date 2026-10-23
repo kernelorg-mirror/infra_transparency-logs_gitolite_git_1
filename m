@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4906216938340737361=="
+Content-Type: multipart/mixed; boundary="===============8236524353798055719=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 23 Oct 2026 23:51:17 -0000
-Message-Id: <179279947770.1483618.9332720787301913604@gitolite.kernel.org>
+Date: Fri, 23 Oct 2026 23:51:31 -0000
+Message-Id: <179279949131.1483936.4299253619712858407@gitolite.kernel.org>
 
---===============4906216938340737361==
+--===============8236524353798055719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: abeacca61eea4f6803df4a595b656ea45c2d3249
-    new: c43c1c24f3cdc0d2d3f59e5686573ac3129637aa
-    log: revlist-abeacca61eea-c43c1c24f3cd.txt
+  - ref: refs/heads/100GbE
+    old: 92f6ea66a72c32431d48990bca2dad2db79d3a9b
+    new: 9ebbb58e13b4759605d0107ba8538409b9acbf4d
+    log: revlist-92f6ea66a72c-9ebbb58e13b4.txt
 
---===============4906216938340737361==
+--===============8236524353798055719==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-abeacca61eea-c43c1c24f3cd.txt
+Content-Disposition: attachment; filename=revlist-92f6ea66a72c-9ebbb58e13b4.txt
 
-0d941f7b2a144dbb6a4c6f8d9ba340213731e5eb Merge tag 'v7.4-rockchip-dts64-2' of https://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into soc/dt
-1e67cca28490f897788c128c650a6f2cbb565403 iommufd: Keep reserved IOVA ranges when a replace within one IOAS fails
-769f2cd9226c96619d77fa16af84de74cae41b6b iommufd: Keep dmabuf PFNs MMIO when filling another domain
-440ca8a4b69f40088065b9e05ef11373292a254e iommufd: Fix event queue release use-after-free
-a6ec38d74c08ddbe1b7c3936d6d25f346d12c7be iommufd/iova_bitmap: Fail GET_DIRTY_BITMAP when a bitmap page cannot be pinned
-f6b3fd8f573e801066c21b2aec3d2e949e61e48e iommufd: Reject a zero-length dirty bitmap request
-2f70a9b7e9c74b92a85a2584090f0f5c4cbaa4be overflow: Match arithmetic in both parts of __builtin_choose_expr
-66c658033d842bb75f81f20aaa4a378fe47be1a1 tracing: probes: error if BTF is required but unavailable
-42d6a93bff5682665c9e5c9b074455ae8a6fd142 Merge tag 'google-lga-7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/dt
-da4a53fa50b0f5eca32d04ed05ce64a5149de760 Merge tag 'samsung-dt64-7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/dt
-f4829cb12f4dc5755e1f0a5ad060b04faf725302 Merge tag 'samsung-dt-7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/dt
-1b1304e218635eeda9b4ca20a2379bf3ab404baa Merge tag 'dt64-cleanup-7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-dt into soc/dt
-5bc507e6a791d1161983c3cfc31c082ce50125d9 Merge tag 'dt-cleanup-7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-dt into soc/dt
-81e097a064b28b4a1f6ca1a8b433e659c1bd64c0 scsi: libsas: Fix SMP IO deadlock during HA resume
 ec6b083915e8146e147314a5f4f1285d07b57bfc scsi: bsg: Pass reply_len to bsg_setup_queue() to fit UFS ARPMB replies
 b36b990c50b1f581b9a7f35ae256f5542415fa69 selftests/exec: report the skipped binfmt_misc_bpf test on stderr
 d61be5c960e4b89b2e6fa8cedc1d9aa64401ae13 rust: zerocopy: fix link to upstream `README.md`
@@ -1050,5 +1036,19 @@ b7dfff5e3eb3984d42026a6d653ec2a3d5cec729 net/rds: include the scope id in the se
 5536d5553f274c8baa77c44854c9091657213970 selftests/net: tcp_mmap: remove unused -k option and keepflag
 c955325db639e9503941227e14e1f1ccc99442a1 veth: fix stale peer max_mtu on XDP program replacement
 c43c1c24f3cdc0d2d3f59e5686573ac3129637aa tls: avoid field-spanning write when copying crypto info
+903298925d74ee4ee5cc45d3465a078f73907b77 ice: fix removal of PTP timestamp tracker during reset
+178a45b3e4528ddbf197f5970431b9df78c1edb1 ice: use reference counting and SRCU for PTP port access
+87368d1c31cfc0efba1a8eec06a1889bc89dd024 ice: fix PHY port restart serialization
+cedf38f9b3ecddb69c488718f927e604a2271de7 ice: set in_use only after preparing Tx timestamp index
+8557faf38599166584ed66ee95db1df836b4685a ice: call PTP link change only from link events
+e431c76dc9a5743851898970860e81db05ff1548 ice: E822: keep Tx timestamps disabled during offset calibration
+499937ae17f8133dd883323901d21e075de8319f ice: E822: cancel offset verification work during reset preparation
+8ba980b3188dc0da2ef2ee978ea9b12ba56f6df1 ice: E825: stop clearing PHY_REG_TX_OFFSET_READY
+a12148ef94b5d1e26421f6fbaf831a23ab6eda95 ice: E825: clear PHY_TSTAMP memory prior to soft reset
+d494fd050ed9b391af59089eb0f735c852fdeaa6 ice: E825: perform a soft reset when starting the PHY timer
+b6b45a53eae69afe4f9bc3338b4d37556986952e ice: wait for in-flight Tx timestamps before removing the tracker
+20c20fc2a137e03efebccfc6b35d181c83bceedf ice: keep Tx timestamp slots tracked until completion or timeout
+dd65decbb91cfdd1a94ce294dce7fd4e37428536 ice: skip reading Tx ready bitmap on ports with no timestamps
+9ebbb58e13b4759605d0107ba8538409b9acbf4d ice: don't clear in_use until HW clears ready bitmap
 
---===============4906216938340737361==--
+--===============8236524353798055719==--
