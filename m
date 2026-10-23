@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 23 Oct 2026 22:09:52 -0000
-Message-Id: <179279339288.1406688.18141574949948606459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 23 Oct 2026 22:10:26 -0000
+Message-Id: <179279342693.1409355.5546043839381052831@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/i2c/i2c-next
-    old: 7208f89f3adb90a5c04e813f2e14554350b766a0
-    new: 03a5cffc818695157414456dec695f7c30b9ffff
+  - ref: refs/heads/master
+    old: 7bc9684dc9e45358661301da4a0ede433fdf0a30
+    new: a0580dad5655e86314a0a777eb5f602c237a7e19
     log: |
-         f7b70efba26963bf725f10574cc071f86cd5ee1d i2c: sh_mobile: request IRQs after mapping registers
-         03a5cffc818695157414456dec695f7c30b9ffff Merge branch 'i2c/i2c' into i2c/i2c-next
+         48bb3b39698049594a283569d53f3fff0e168217 doc: Add CONFIG_RFKILL to the tester kernel config
+         1445a64e6b998a7cbccd85995d1d8dae659aa783 mgmt-tester: Add Set Powered test for rfkill block
+         4de4f60f1e78fa588bf3fdf744dc5cba389bb21e mesh: Fix Command Disallowed on random address change in generic IO
+         a0580dad5655e86314a0a777eb5f602c237a7e19 obexd: Handle message read status change events
          
