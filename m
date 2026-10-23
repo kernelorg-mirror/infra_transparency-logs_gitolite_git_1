@@ -1,61 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3687109068285225273=="
+Content-Type: multipart/mixed; boundary="===============8464756103376815406=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 23 Oct 2026 19:15:57 -0000
-Message-Id: <179278295794.1275434.1869679297318760374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
+Date: Fri, 23 Oct 2026 19:23:10 -0000
+Message-Id: <179278339031.1280348.6582733534335488672@gitolite.kernel.org>
 
---===============3687109068285225273==
+--===============8464756103376815406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/oupton/linux
+user: oupton
 changes:
-  - ref: refs/heads/seen
-    old: 961e847d062dc163a54cbca862e08d6f04d60fbe
-    new: 0a5025fb63516f67f461f75a395cd264e1c8fdac
-    log: revlist-961e847d062d-0a5025fb6351.txt
-  - ref: refs/notes/amlog
-    old: 815172143a8e3020eed9d228af6c3f0eae9e3d37
-    new: 9151df5becc14722cf30ecc697265fc3cdc6f793
-    log: |
-         a6b1fbba40539cf4f0d132544f8b7fe2916f6916 Notes added by 'git notes add'
-         beb49b221e3641bddef53f01d606e4c9fc8e7651 Notes added by 'git notes add'
-         62896454d288b62c7eda7471ab413f199cea311a Notes added by 'git notes add'
-         75984e2efc485decb4d533398b57412829f1b899 Notes added by 'git notes add'
-         b908c9b878d0f67ea97294fe4bec48e0168013be Notes added by 'git notes add'
-         d068f0b6af74e5eea44991a7d55571f00c8b6e3a Notes added by 'git notes add'
-         9fcb04ecd19d1aa543c845adb2f4cf6f50e0150c Notes added by 'git notes add'
-         a12dd99953d535f765789a36337f568975af2da2 Notes added by 'git notes add'
-         5733414e310bd3c11be6b152af2990e7196cd66a Notes added by 'git notes add'
-         ffeeaba745c82a7d447e9e67f69ee12c2dba422c Notes added by 'git notes add'
-         878e7659f76d28bc9d28335f3cfc087a8db23f9b Notes added by 'git notes add'
-         9151df5becc14722cf30ecc697265fc3cdc6f793 Notes added by 'git notes add'
-         
+  - ref: refs/heads/kvm-arm64/nv-hafdbs
+    old: 41756e1f879faf8c22e88bf3b3245bd0f32b183b
+    new: c096d496236ca556d8216288e8bb25981ae638a0
+    log: revlist-41756e1f879f-c096d496236c.txt
 
---===============3687109068285225273==
+--===============8464756103376815406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-961e847d062d-0a5025fb6351.txt
+Content-Disposition: attachment; filename=revlist-41756e1f879f-c096d496236c.txt
 
-f262c59c79bac6e32cf23f4fba14d44cd7659a65 tmp-objdir: merge loose object index when migrating tmpdir
-fec22d8fbe6d56062c6f13a1b3163ae2ce0eacd6 Merge branch 'jt/tmp-objdir-loose-idx-merge' into seen
-fba2137294728f82d7a14be636e6df32e938e211 Merge branch 'tb/rerere-wait-for-merge-rr-lock' into ps/rerere-remove-global-state
-9dba0b87e512aee319d6b817962bfe18abe1f0cd rerere: stop using `the_repository` in `rerere_path()`
-f62947adf0f7b3d84b2b2f915e92dc4f3355efaa rerere: stop using `the_repository` in internal helpers
-a8b75e8eda21f1551e5cbed4c67708afba26911e rerere: remove redundant calls to `repo_config()`
-87ab289605b22640b0ed68d47391a1a0231f1fcd rerere: cache result of `is_rerere_enabled()`
-4f67f74fc86c775b360124bddaf626dde3c8c3e2 rerere: stop using `the_repository`
-ea54cda7c2446eb6cf840dd9e0b677f330f336ec rerere: bundle global state into a struct
-b948c10c8b312fa54862449bc5160bc474187595 rerere: get rid of global rerere cache state
-c3764d15e61ab622628b94fec204bc2acfb8aee2 hook: make hook.<event>.enabled cover the hookdir hook
-3a7784d0d5467ada7526356673c6653416ace302 hook: accept .enabled and .parallel given without a value
-0b6b3d19c87286e3256537c2a13385fd18e14e9c Merge branch 'tb/hook-enabled-covers-traditional-hooks' into seen
-0a5025fb63516f67f461f75a395cd264e1c8fdac Merge branch 'ps/rerere-remove-global-state' into seen
+f56ae7f86ba72d6b933b85cd73c813bd6ee50a32 KVM: arm64: nv: Introduce struct for stage-2 walk step
+3eb1f2463e228b30b2cd93e18cb2ef0ce119a43e KVM: arm64: nv: Consolidate computation of stage-2 permissions
+b3cc1d76c7955e2fd72e2a2cbc5c32228092d50b KVM: arm64: nv: Get rid of kvm_s2_trans*() accessors
+2467d0b40b0b3e5903398d2e3f88e1c8eb9f10e6 KVM: arm64: nv: Only shadow writable-dirty guest descs as writable
+d196f31d4e2181e9e675f3aee0a59fdd9d026a22 KVM: arm64: nv: Pass an access descriptor for stage-2 walks
+b526116abc290b4770a04c3f79b94f6ed65bfddb KVM: arm64: nv: Use a helper for stage-2 descriptor updates
+f2a03be6b289497ea5fff0650947020e36a915cf KVM: arm64: nv: Set dirty state at stage-2
+a324ff2c2f8102c4d076624a3f955ad727c9d287 KVM: arm64: nv: Treat DBM as writable at stage-2
+38d2d63f49355d8dfa8b4555d875057be4d9b764 KVM: arm64: Compute S1 permissions as part of s1_walk()
+2354f04c8aa245dc01e615566132a342faf90bd0 KVM: arm64: Plumb through access descriptor for stage-1
+f95cde19c5035799c65be5828c5ca789d83140cd KVM: arm64: Use a struct for stage-1 walk context
+7bcacb8570802ea3497d29a31c4ab4f110d55758 KVM: arm64: Create helper for stage-1 descriptor updates
+9e26195e0293dcaa1d3d61c16eb299653d6e4191 KVM: arm64: Set dirty state at stage-1
+cbb94ddb07fe49ce87be4bb3ea6b242d2c6dcb31 KVM: arm64: nv: Respect HA when computing translated TCR
+ff693cd104d6be65538c4d01cd2475c8c0f51705 KVM: arm64: nv: Respect HD when computing translated TCR
+c468d6853f2ebecc4a8e1582c3d04cf3c1b6a33d KVM: arm64: Grant write permission when DBM is set at S1
+a72d0a3861e1c1de64771ed24f894e76b846b873 KVM: arm64: Don't update descriptors for "non-arch" access
+da78e766589df24be08dbc408cb8b1e9f54f7f2d KVM: arm64: nv: Emulate CMOs via writable-clean translations as NOPs
+46aa29acc389082797d94c219d9e1e0d40706240 arm64: Add command line switch to disable FEAT_S2FWB
+5fd50daa9270f4ff4b26a3bd8b78ebd4b4d5b492 KVM: arm64: Reject non-coherent DMA when using forced writeback
+4712714a2a6dc625c60bf621a9379e2c14fea521 KVM: arm64: nv: Expose FEAT_HAFDBS
+ee282157612339f4c8e469cd479027f6642f3e93 KVM: arm64: Set Access flag on table descriptors at stage-1
+2a4dbe6f65d13362024bab6f52564f1812cdbe05 KVM: arm64: nv: Set access flag on table descriptors at stage-2
+5a9a7b3155756e1d6c28e0386efb31ec9dae4bf0 KVM: arm64: nv: Expose FEAT_HAFT
+d44037f22c2720e8df9425abf6f06c022941421a KVM: arm64: selftests: Only test AF behavior for emulated AT insns
+f85ca9b3c4ddec7790a543aaeb012289c2cbb6af KVM: arm64: selftests: Test AT emulation for FEAT_HAFT
+1d1cf91cf52324aca01abf0855a975818a838d4d KVM: arm64: Add tracepoints for S1 page table walk
+c096d496236ca556d8216288e8bb25981ae638a0 KVM: arm64: Add tracepoints for S2 page table walk
 
---===============3687109068285225273==--
+--===============8464756103376815406==--
