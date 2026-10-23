@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 23 Oct 2026 18:00:05 -0000
-Message-Id: <179277840558.1221664.10064827730345708875@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zab/linux-rpdfs
+Date: Fri, 23 Oct 2026 18:03:19 -0000
+Message-Id: <179277859912.1223225.3902344157800668301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/zab/linux-rpdfs
+user: zab
 changes:
-  - ref: refs/heads/spi-7.4
-    old: 84182c48999f856c3865e4a537c244f9569c9f6c
-    new: dc5ca34f5e8dc10c566ef39aa3b1a201a17ca734
+  - ref: refs/heads/rpdfs-initial
+    old: b637f85072542b0acc0e67cde40a0a8caf052de1
+    new: 8a293e5c1bf0416f4d4e116bf8693c00dbe876da
     log: |
-         8980bc573ae2d2b9d86d76aeb86c76e1597070bf spi: tegra114: assert CS GPIO for every transfer in a message
-         59eb22641f0c526dd064390b11cff99ae87c2858 spi: imx: fix slab corruption from undersized DMA bounce buffers
-         4eac392e48fc0ddc6d5ac10d57aac7245c17d0d9 spi: spi-fsl-lpspi: pass struct fsl_lpspi_data instead of struct spi_controller if possible
-         b0f0c761ed3fa10754dc9295db85374a173123b7 spi: spi-fsl-lpspi: directly return ret in fsl_lpspi_transfer_one()
-         d5acef12e819c1627c8bf6a0325845ab39d8c99d spi: Merge up fixes
-         dc5ca34f5e8dc10c566ef39aa3b1a201a17ca734 spi: zynq-qspi: fix address buffer corruption and support 4-byte address
+         2673f51e36a57129408a491de5e528d00aba3708 rpdfs: Fix hash table insert_entry() ordering
+         8a293e5c1bf0416f4d4e116bf8693c00dbe876da Lock both inodes in rpdfs_unlink()
          
