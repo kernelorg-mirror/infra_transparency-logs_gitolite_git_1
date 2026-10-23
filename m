@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-pull-request
-Date: Fri, 23 Oct 2026 17:13:53 -0000
-Message-Id: <179277563399.1177938.14817952888537860544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 23 Oct 2026 17:14:57 -0000
+Message-Id: <179277569763.1178591.6271368169505618287@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-pull-request
-user: jarkko
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 2be525612ebc738e2188855a72d027e4f28d6465
-    new: 85154accb4f3375974c7944c00a756627eef2d72
+  - ref: refs/heads/for-7.4
+    old: ad45d5369c566d1ae332fb52e8d9ffabe85465fc
+    new: 8cf9607d2d855629260fc78e6b54ea7a98525708
     log: |
-         85154accb4f3375974c7944c00a756627eef2d72 data: rename templates
+         8cf9607d2d855629260fc78e6b54ea7a98525708 ASoC: tlv320aic32x4: Prevent division by zero in divider callbacks
          
