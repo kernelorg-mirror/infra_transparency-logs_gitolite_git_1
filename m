@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 23 Oct 2026 17:13:05 -0000
-Message-Id: <179277558552.1177690.4108515625111323544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-pull-request
+Date: Fri, 23 Oct 2026 17:13:53 -0000
+Message-Id: <179277563399.1177938.14817952888537860544@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+repo: pub/scm/linux/kernel/git/jarkko/linux-pull-request
 user: jarkko
 changes:
-  - ref: refs/tags/tpm-v7.4-rc1-rebased
-    old: 2130e36fb7cde52e99e1dbd8502909386b89f7b0
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/main
+    old: 2be525612ebc738e2188855a72d027e4f28d6465
+    new: 85154accb4f3375974c7944c00a756627eef2d72
+    log: |
+         85154accb4f3375974c7944c00a756627eef2d72 data: rename templates
+         
