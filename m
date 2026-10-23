@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0229229012615632703=="
+Content-Type: multipart/mixed; boundary="===============4479729281269122557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 23 Oct 2026 17:32:48 -0000
-Message-Id: <179277676818.1197174.6055673461692354639@gitolite.kernel.org>
+Date: Fri, 23 Oct 2026 17:32:51 -0000
+Message-Id: <179277677118.1197343.12049221772262472770@gitolite.kernel.org>
 
---===============0229229012615632703==
+--===============4479729281269122557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfsd-next-thru-nfsd-6.19-3
-    old: 533b5e5ceff4e8233bda0f952811d1f858bcc19c
-    new: 209888e4d6324ceb3f21e124bb3819b4ab03af30
-    log: revlist-533b5e5ceff4-209888e4d632.txt
+  - ref: refs/heads/kernel-6.12/nfsd-next-thru-nfsd-7.0-2
+    old: eace5eacb7481e7aebeb591f46702ff14f478141
+    new: f778edd4b2ea5c961e142b42dba454d70acf458d
+    log: revlist-eace5eacb748-f778edd4b2ea.txt
 
---===============0229229012615632703==
+--===============4479729281269122557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-533b5e5ceff4-209888e4d632.txt
+Content-Disposition: attachment; filename=revlist-eace5eacb748-f778edd4b2ea.txt
 
 dac5ea2554058f15f4259865b8d9f673533506db Revert "nfsd: convert nfsd_net boolean flags to unsigned long flags word"
 6665b735d75b024dfc8b4705d309224c0627c7be Revert "NFS: Return a delegation the client fails to record"
@@ -579,5 +579,44 @@ a6796e63b8f37673be7711e0580f50dda17726aa NFSD: Clear TIME_DELEG in the suppattr_
 4ee6d9d53d53c70f6c80f97caab49063fabdf60c nfsd: fix nfsd_file reference leak in nfsd4_add_rdaccess_to_wrdeleg()
 f0aeec4887699a3961c6a8bc02edbbbee63bfc10 nfsd: use ATTR_DELEG in nfsd4_finalize_deleg_timestamps()
 209888e4d6324ceb3f21e124bb3819b4ab03af30 NFSD: net ref data still needs to be freed even if net hasn't startup
+276918751cbbf738fb490c729f8b6a8bc262d312 NFSD: Clean up nfsd4_check_open_attributes()
+c771732275c1eb4b9f0690e6935e42f564a852f3 xdrgen: improve error reporting for invalid void declarations
+e46873b672e75f59fefb7c4cdc58524e2b7d38a5 NFSD: Add instructions on how to deal with xdrgen files
+bbe6067b3881b11c917794f1d039f913d124fba1 xdrgen: Generate "if" instead of "switch" for boolean union enumerators
+1a4d5c94a84372e90c72988479c6667b8d99f1c1 locks: ensure vfs_test_lock() never returns FILE_LOCK_DEFERRED
+72eff7a6ac8cbfb1772c7e5d579f162219777377 nfsd: prefix notification in nfsd4_finalize_deleg_timestamps() with "nfsd: "
+402c7595659f9d22e261f679e49b0d75e079882b xdrgen: Emit the program number definition
+e3a81998abe384a70bea105e36bd0218b419fcc8 nfsd: use workqueue enable/disable APIs for v4_end_grace sync
+be69a186d34d1cbc5b3236f5bf313f18bed8251e xdrgen: Implement short (16-bit) integer types
+aa3277ca6e6df4cc7d2b45d35754c9835487c3d5 NFSD: fix setting FMODE_NOCMTIME in nfs4_open_delegation
+add08eaaa45402344d63b2b6e6a509f3ed533683 xdrgen: Remove inclusion of nlm4.h header
+d4c58cb91b5aace551ccda06eec9796ad47976a2 xdrgen: Improve parse error reporting
+b65cc3b2b53db3d567eb7b00c0600cdd812ba2c9 xdrgen: Extend error reporting to AST transformation phase
+7c94c1e0042555a9d098d21bb1844c180a4165fb xdrgen: Emit a max_arg_sz macro
+4f3745bef6cbe7a3ad75524ddfb84df8ae5fae9e xdrgen: Add enum value validation to generated decoders
+3302bc334a41423dc66f4bca56283a6095f99758 sunrpc: split svc_set_num_threads() into two functions
+743adc13952a824566eb3337f0d00f1a02fdeb0a sunrpc: remove special handling of NULL pool from svc_start/stop_kthreads()
+cb3dbf5cbc4a3d095475e75e0660735d39f86897 sunrpc: track the max number of requested threads in a pool
+6fa5cf6d5e494d952e5c631def926cf1d83c55d9 sunrpc: introduce the concept of a minimum number of threads per pool
+0e63a933127554380cbba3c23ee0841cac4684af sunrpc: split new thread creation into a separate function
+8beb10dc6327b5c44cece3b2f9d75f3f5aba6e0f sunrpc: allow svc_recv() to return -ETIMEDOUT and -EBUSY
+cc74ed6633f02bb6c6f68cf147b8a281ba9bc8ac nfsd: adjust number of running nfsd threads based on activity
+e820bd4bdee485e09392a1c720ca3f866fb68b17 nfsd: add controls to set the minimum number of threads per pool
+f4056ab82e0f41cfbdf2cb8dcf8229cc7b05472c nfsd: cancel async COPY operations when admin revokes filesystem state
+854cf375f3c63e640e3b38bdf7bb06528468322c xdrgen: Implement pass-through lines in specifications
+43c741976957c7f85e24e90a44fa9dd66eb25cc0 NFSD: Add a Kconfig setting to enable support for NFSv4 POSIX ACLs
+9397a6e79923ac34ee265dff798eab1cbf8b0d48 Add RPC language definition of NFSv4 POSIX ACL extension
+037f1e1157807d2340e217fe7fd8edbeeb1400bd NFSD: Add nfsd4_encode_fattr4_acl_trueform
+c28590841fce145c60e43968f8d41ebb1e01ae35 NFSD: Add nfsd4_encode_fattr4_acl_trueform_scope
+432e332690884cd773fbd0feadf2a95869519f8c NFSD: Add nfsd4_encode_fattr4_posix_default_acl
+f5979ba59584736d758b171cfd3d7a1672c5e865 NFSD: Add nfsd4_encode_fattr4_posix_access_acl
+7a4b48871ec9122aaa69e1077be7692ac6a81aee NFSD: Do not allow NFSv4 (N)VERIFY to check POSIX ACL attributes
+9a3e0976ae0e0e15d510731f5c206febc43f3546 NFSD: Refactor nfsd_setattr()'s ACL error reporting
+d729698c4ff1bdb77858f1061cd879f64c4f96cd NFSD: Add support for XDR decoding POSIX draft ACLs
+082e0c0ea4421e591a56dec1b3b189742c3cf152 NFSD: Add support for POSIX draft ACLs for file creation
+84bcb6256a55e1bebebe9d16132c31dbee7c710b NFSD: Add POSIX draft ACL support to the NFSv4 SETATTR operation
+ccd38a5a5fddeb4e81a7cad39f50411eb168285f NFSD: Add POSIX ACL file attributes to SUPPATTR bitmasks
+263601e35cd28ed8995db61809517b176a7bb1d3 nfsd: report the requested maximum number of threads instead of number running
+f778edd4b2ea5c961e142b42dba454d70acf458d NFSD: Defer sub-object cleanup in export put callbacks
 
---===============0229229012615632703==--
+--===============4479729281269122557==--
