@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 23 Oct 2026 19:47:20 -0000
-Message-Id: <179278484058.1299275.13190735297804228713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 23 Oct 2026 19:50:18 -0000
+Message-Id: <179278501820.1302453.15691821272428743699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/main
-    old: 94a6736bb5abe6b2ef38490d0cab19c1c6a7c71f
-    new: 79dc34beb1fdb3da79753e51e15c68591a2561fe
+  - ref: refs/heads/timers/urgent
+    old: 8ccd731b63a0183ca2b0e18f3ca15864b3f37eda
+    new: 524d95c8a2000cba6cb80a173d76cb746c561244
     log: |
-         79dc34beb1fdb3da79753e51e15c68591a2561fe net: skbuff: propagate shared-frag marker in skb_zerocopy()
+         524d95c8a2000cba6cb80a173d76cb746c561244 timekeeping: Require permission to set auxiliary clocks
          
