@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8899465666990817809=="
+Content-Type: multipart/mixed; boundary="===============1862069410654572963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 23 Oct 2026 17:32:39 -0000
-Message-Id: <179277675997.1196688.6514614157879783716@gitolite.kernel.org>
+Date: Fri, 23 Oct 2026 17:32:42 -0000
+Message-Id: <179277676275.1196838.14717538711009225948@gitolite.kernel.org>
 
---===============8899465666990817809==
+--===============1862069410654572963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfsd-next-thru-nfsd-6.19
-    old: 06f98a1c423ee4d91f2b200c1b7860bc54f0e74a
-    new: a7f874d23779cb42c72a99ca1824bff84e5e6e32
-    log: revlist-06f98a1c423e-a7f874d23779.txt
+  - ref: refs/heads/kernel-6.12/nfsd-next-thru-nfsd-6.19-1
+    old: d874a2eeef7f7d83b6f0c3b994a1bdbb1477b64b
+    new: a6796e63b8f37673be7711e0580f50dda17726aa
+    log: revlist-d874a2eeef7f-a6796e63b8f3.txt
 
---===============8899465666990817809==
+--===============1862069410654572963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06f98a1c423e-a7f874d23779.txt
+Content-Disposition: attachment; filename=revlist-d874a2eeef7f-a6796e63b8f3.txt
 
 dac5ea2554058f15f4259865b8d9f673533506db Revert "nfsd: convert nfsd_net boolean flags to unsigned long flags word"
 6665b735d75b024dfc8b4705d309224c0627c7be Revert "NFS: Return a delegation the client fails to record"
@@ -574,5 +574,7 @@ e382982ef8ef80153896ae948c1eec164ae78f86 NFSD: add Documentation/filesystems/nfs
 fe87660e73a6132f166fd52c9a76096ff3b92ac0 NFSD: Add toctree entry for NFSD IO modes docs
 104358c085da6ba09955db73808c6647cd85a181 NFSD: nfsd-io-modes: Wrap shell snippets in literal code blocks
 a7f874d23779cb42c72a99ca1824bff84e5e6e32 NFSD: nfsd-io-modes: Separate lists
+7a89424626ea9265b0d570a6c706d4d5fea77599 nfsd: fix memory leak in nfsd_create_serv error paths
+a6796e63b8f37673be7711e0580f50dda17726aa NFSD: Clear TIME_DELEG in the suppattr_exclcreat bitmap
 
---===============8899465666990817809==--
+--===============1862069410654572963==--
