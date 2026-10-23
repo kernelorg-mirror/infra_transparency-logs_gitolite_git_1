@@ -1,51 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============7425004807640322556=="
+Content-Type: multipart/mixed; boundary="===============2337326698316404300=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Fri, 23 Oct 2026 07:52:30 -0000
-Message-Id: <179274195021.723358.11862457783475098701@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 23 Oct 2026 08:20:56 -0000
+Message-Id: <179274365656.743399.18151290062928565837@gitolite.kernel.org>
 
---===============7425004807640322556==
+--===============2337326698316404300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-user: chenhuacai
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/loongarch-next
-    old: 82132da4ca094cda8c6f35d343d0e8afa3e4fd5a
-    new: ce668200313df40f8c74752b9601a3a85def24f5
-    log: revlist-82132da4ca09-ce668200313d.txt
+  - ref: refs/heads/master
+    old: efea898f8e9f5546a17dd6f99cfc96b35caa1c11
+    new: 9dbc4df05fa83c75aa6fb8ff63b4746a8c0afa49
+    log: |
+         691fad0b969f7fd15c32ea325998ce1ed773bc3e CVE-2026-74534: update sha1 and vulnerable file
+         160a93eccec37a83620a11ab68ce0195cf250d31 CVE-2026-31514: Add .vulnerable file
+         d2e1e9dfac842031896928f07241069a29bc5441 updates based on new .vulnerable entries
+         9dbc4df05fa83c75aa6fb8ff63b4746a8c0afa49 strip the new mbox file
+         
 
---===============7425004807640322556==
+--===============2337326698316404300==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82132da4ca09-ce668200313d.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-08127a638bc186134f0c88e5c428b34b77dd8a55 ACPI: LoongArch: Add acpi_arch_[late]_init()
-16365e3ca1c40898f591efea379ef90c00e33748 ACPI: LoongArch: Add support for acpi_iommu_configure_id()
-432567bb35ce3f95a2ca160324d2032e7e1f65ef MAINTAINERS: Add entry for drivers/acpi/loongarch
-e0e73b7d7f98c3249279901a390bcca4a4b1f069 LoongArch: Set NX compat flag in PE/COFF efi header
-2f1298df06f320fda4101ba150a4b128ebc08af2 LoongArch: Use assign_bit() API where applicable
-dfb4c6bce36ead440ef9ebb0c7a90c02977e5870 LoongArch: Call cpu_final_simd() with pure_initcall()
-29e4e8a690573619d959ef182664173ada61b573 LoongArch: Don't init & online empty nodes
-8bb068a4a74510c3609ebb9ca2448c0c3d4fd8b6 LoongArch: Use pa_to_nid()/nid_to_addrbase() rather than hard-code
-a2d56eba1357c7cbcbd8ad3de29c7427988925a2 LoongArch: Detect and expose LAMCAS feature existence
-15a4f71358125f4e67298765693c900edb8d5854 LoongArch: Detect and expose DIV32 feature existence
-38faa4234c7972f4fa491b6bfc00cb33eddda6e8 LoongArch: Remove arch-specific __smp_mb__{before,after}_atomic()
-8db11c9e933bd4cbcce5bdb290709387e78f719c LoongArch: Remove redundant call in update_bp_registers()
-c8789b55c0a6c6733b6d1531c853f772a3a5860d LoongArch: Fix bitmask corruption in update_bp_registers()
-2a485c131eb78d30c49b4600457d4d04bcb5ccf5 LoongArch: Fix architectural naming typo for CSR_FWPS_SKIP
-6baf267ab280fe031b44e40877799e7443d22cfc LoongArch: Only send SIGTRAP signal if necessary in do_watch()
-27a2134b809cb1e753136608b84112eed05e6da7 LoongArch: Fix perf hardware breakpoint failure via installation
-8ee138c267e3e45d8fc66e81c3583ba55ba70fe5 LoongArch: Fix one-shot limitation for perf hardware breakpoints
-9204d9cf32e53e5dcc3314d84723b30551d46fc1 LoongArch: Add arch_crash_save_vmcoreinfo() support
-bf33464129dbc843e3ef311b3c01109b842a6066 LoongArch: dts: loongson-2k0500: Drop unsupported bus_id in DWMAC
-2bf7f2935d32900bbe164df3ad60dbb40fd9a504 soc: loongson: loongson2_pm: Fix build warnings for 32BIT
-ce668200313df40f8c74752b9601a3a85def24f5 soc: loongson: loongson2_guts: Use of_root instead of own reference
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792743653 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1792743653-0c79f1e6504163b1689dc6dadedfd92877e3a4cc
 
---===============7425004807640322556==--
+efea898f8e9f5546a17dd6f99cfc96b35caa1c11 9dbc4df05fa83c75aa6fb8ff63b4746a8c0afa49 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrbGOUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9QkQAIfMv3Eeah6KB6XZMUHI
++SYf/H1MVeRqDyD/mtpX3e9HPFhp0Q4eaTLCDIorfGS207Vzs18qBT6OKjvLUBYt
+ZGZehOEt1Gjq8g7HhFSTjeh6/4ViVVI04i+BOP5DZh2bE4G35+YUyBH4LweFWmJ+
+bcGCpoYVbFddPxZN2S4gqSCRHn5e0AK4Lt5yC8i6PYGi9BFIWfEajAIugVm+j+M7
+fSsPNBJL70wQqtOCqpBuE4j59aK3enu8UxWBnkSdTSEHmRAmIJVSHHKzIaux30bv
+Z04gCVLfy0zqqXGlgOVyW1QZcZPgtzSrltqBPZP0GOTH6Z/Kw5B/JAOTQa1OgAYs
+djOgipEV9Dj3EywvIUaEtRoEp7pcW9mAPCxUPD6U+wD4OYFOIJP7K9eAk6R5A39h
+vcge++vsE1IslRQIhGuihrIc0uXHOl7JWP14fL4W931lB8+svsODQRe8vq/7o3nm
+T+ZSvwSEzH9cBFpgiVR20HpPE06oVM/hlPcfzE/kNCdxe53pXWYmWaN2MrE8i8hF
+hnxxlw2Ugo/H1t1nqD8v51MF7G0MjxAp1maO1XlmUdlLaAoZh2teOiIZk0wcAfaK
+G6Llpi6lKDaUsBsqMhwNL8ppU+eeQQ2DwD0RRDG1cMW13AY6uG6BuqAzZdXQnFHT
+Eru3fHB/Yrem0Uxhlg2VQYUI
+=HxLu
+-----END PGP SIGNATURE-----
+
+--===============2337326698316404300==--
