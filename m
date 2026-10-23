@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7378271944220155165=="
+Content-Type: multipart/mixed; boundary="===============2109398939805683830=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 23 Oct 2026 17:32:08 -0000
-Message-Id: <179277672846.1194747.12700387140136918338@gitolite.kernel.org>
+Date: Fri, 23 Oct 2026 17:32:11 -0000
+Message-Id: <179277673125.1194872.12202635598267967480@gitolite.kernel.org>
 
---===============7378271944220155165==
+--===============2109398939805683830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfs-next-thru-nfs-for-6.19-1
-    old: ea4b16792709d8311647f0eeae264208bf938eb7
-    new: 893bb75c012cd83bc99fb9d09f2fd2602265b746
-    log: revlist-ea4b16792709-893bb75c012c.txt
+  - ref: refs/heads/kernel-6.12/nfs-next-thru-nfs-for-6.19-2
+    old: cf1d8d6defa44307540d37f82a7343f34ee403f0
+    new: 285f476a24d88ff052bd68d99bbdedda5e676d98
+    log: revlist-cf1d8d6defa4-285f476a24d8.txt
 
---===============7378271944220155165==
+--===============2109398939805683830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea4b16792709-893bb75c012c.txt
+Content-Disposition: attachment; filename=revlist-cf1d8d6defa4-285f476a24d8.txt
 
 dac5ea2554058f15f4259865b8d9f673533506db Revert "nfsd: convert nfsd_net boolean flags to unsigned long flags word"
 6665b735d75b024dfc8b4705d309224c0627c7be Revert "NFS: Return a delegation the client fails to record"
@@ -515,5 +515,8 @@ fa78a33b895ee817391e596e2edb690d1325bed7 NFSv4.1: pass transport for callback sh
 c6ee324109686315dd6fea9201cfb16fce17b880 nfs/localio: fix regression due to out-of-order __put_cred
 698d0974ec293516d4c6ef3f678bf4b2a84cdd22 nfs/localio: remove alignment size checking in nfs_is_local_dio_possible
 893bb75c012cd83bc99fb9d09f2fd2602265b746 nfs/localio: remove 61 byte hole from needless ____cacheline_aligned
+2fb90226df48e0f0743c1ea7693ce3f3dc745803 NFS/localio: Stop further I/O upon hitting an error
+6b9cf777a01da0b1dbd9237d0d2f9ecb7125614f NFS/localio: Deal with page bases that are > PAGE_SIZE
+285f476a24d88ff052bd68d99bbdedda5e676d98 NFS: Fix size read races in truncate, fallocate and copy offload
 
---===============7378271944220155165==--
+--===============2109398939805683830==--
