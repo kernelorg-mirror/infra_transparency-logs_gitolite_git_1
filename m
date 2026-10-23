@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Fri, 23 Oct 2026 15:28:03 -0000
-Message-Id: <179276928336.1087163.8314357429859189985@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 23 Oct 2026 15:28:16 -0000
+Message-Id: <179276929630.1087389.9780367450054461744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/hmm
-    old: c5277e5b71e39d5ff63c7544270dab5305fdb38d
-    new: 47193113641e5e1f9b5758b73d7b7a0273acb836
+  - ref: refs/heads/for-7.4
+    old: 8731e33a3b98ea1ccade059b3a1ce06b7dd66b17
+    new: ad45d5369c566d1ae332fb52e8d9ffabe85465fc
     log: |
-         47193113641e5e1f9b5758b73d7b7a0273acb836 coco/tsm: Update maintainership
+         ad45d5369c566d1ae332fb52e8d9ffabe85465fc ASoC: rt722: enable mono speaker on Dell SKU 0EBA
          
