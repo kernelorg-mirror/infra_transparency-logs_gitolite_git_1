@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Fri, 23 Oct 2026 16:45:19 -0000
-Message-Id: <179277391900.1151031.18440794744054527904@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Fri, 23 Oct 2026 16:47:05 -0000
+Message-Id: <179277402556.1151786.16169996497039269918@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/tags/for-7.4/lazy-bounce-buffering-20261023
+  - ref: refs/tags/nand/for-7.4
     old: 0000000000000000000000000000000000000000
-    new: 2080fc626f9aad757814b0f41915e7b8b7b46f61
+    new: b05c4d6c17834f1ba15696ca2b0cc279b9babefb
