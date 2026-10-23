@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5448940570464563470=="
+Content-Type: multipart/mixed; boundary="===============8763165759180159807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 23 Oct 2026 17:33:08 -0000
-Message-Id: <179277678864.1198445.1654292529155016977@gitolite.kernel.org>
+Date: Fri, 23 Oct 2026 17:33:11 -0000
+Message-Id: <179277679141.1198662.221266512173989091@gitolite.kernel.org>
 
---===============5448940570464563470==
+--===============8763165759180159807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfsd-testing
-    old: ba37f32046798ae76a8f3e79a90699a83b11cb1a
-    new: 37a616889c328d65ddb3a7628acea02b080ebece
-    log: revlist-ba37f3204679-37a616889c32.txt
+  - ref: refs/heads/kernel-6.12/nfsd-testing-canary
+    old: cd1a130f9d13a26f5fd992a1180d24b43f7ad7d0
+    new: f745fd743c6f17f168784cd22e8019b61a80b2f2
+    log: revlist-cd1a130f9d13-f745fd743c6f.txt
 
---===============5448940570464563470==
+--===============8763165759180159807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba37f3204679-37a616889c32.txt
+Content-Disposition: attachment; filename=revlist-cd1a130f9d13-f745fd743c6f.txt
 
 dac5ea2554058f15f4259865b8d9f673533506db Revert "nfsd: convert nfsd_net boolean flags to unsigned long flags word"
 6665b735d75b024dfc8b4705d309224c0627c7be Revert "NFS: Return a delegation the client fails to record"
@@ -690,5 +690,9 @@ e21cd8d42d60ef13d22794043e8bdef41c0d1b5e NFSD: add direct_misaligned_dontcache d
 422801bcc8e450ad8599b4abea98c9378a880ffb NFSD: do not use direct I/O for a READ smaller than its alignment
 513ae40171a957331ab81e3443f7f5e68d5c9b38 NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
 37a616889c328d65ddb3a7628acea02b080ebece NFSD: add tracing for how direct-mode READ and WRITE are serviced
+6cbd9168f299ef58ea2e46bc4b747eb4cf7c436b svcrdma: cap per-xprt sc_send_ctxts free list at sc_max_requests
+97a805e10ad11e6237783565dc7c31439852b0fc svcrdma: track sc_send_ctxts_depth at alloc/destroy and gate _get on it
+9ce9153f7bc4ebd60a926b9ec6a9cdf6949d2f2d svcrdma: loosen sc_send_ctxts_depth cap to 4*sc_max_requests
+f745fd743c6f17f168784cd22e8019b61a80b2f2 svcrdma: set WQ_HIGHPRI flag for the svcrdma_wq
 
---===============5448940570464563470==--
+--===============8763165759180159807==--
