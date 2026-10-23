@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1268308725006740119=="
+Content-Type: multipart/mixed; boundary="===============3125790128156980824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 23 Oct 2026 17:32:17 -0000
-Message-Id: <179277673710.1195238.10507951540401387454@gitolite.kernel.org>
+Date: Fri, 23 Oct 2026 17:32:20 -0000
+Message-Id: <179277674002.1195405.10140675300253263588@gitolite.kernel.org>
 
---===============1268308725006740119==
+--===============3125790128156980824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfs-next-thru-nfs-for-7.0-2
-    old: e44d8e545b7c1210a144844f40f91dfdd952f77e
-    new: 704e0078d604d3119b61e95843345a27b2e3564a
-    log: revlist-e44d8e545b7c-704e0078d604.txt
+  - ref: refs/heads/kernel-6.12/nfs-for-7.1-1
+    old: 3491c569643ed9933e2716b20a992ec262561efb
+    new: 271c525f4273e13880e9cb55c6c3338052e5716d
+    log: revlist-3491c569643e-271c525f4273.txt
 
---===============1268308725006740119==
+--===============3125790128156980824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e44d8e545b7c-704e0078d604.txt
+Content-Disposition: attachment; filename=revlist-3491c569643e-271c525f4273.txt
 
 dac5ea2554058f15f4259865b8d9f673533506db Revert "nfsd: convert nfsd_net boolean flags to unsigned long flags word"
 6665b735d75b024dfc8b4705d309224c0627c7be Revert "NFS: Return a delegation the client fails to record"
@@ -576,5 +576,21 @@ be20ed1b07a5c00ac50b0c5c1cc4f614f39ea41b sunrpc: rpc_debug and others are define
 484a2a20b15add7da44a3dbd40e04474fe7b6df1 SUNRPC: Change list definition method
 f6b3bec5c0a997c928b4ff02ec1cd079a3e7aafc nfs: nfs4proc: Convert comma to semicolon
 704e0078d604d3119b61e95843345a27b2e3564a NFS: Fix NFS KConfig typos
+074fa03dc80fc70f4c1bbbe49d8a86517b057dab NFSv4/pnfs: If the server is down, retry the layout returns on reboot
+4077e367efd6f8b000f3fea74ba0f2ed783a0aaf NFS: improve "Server wrote zero bytes" error
+82f53e6a886c6b1bdfa6b728733878dc7e30dba2 nfs: fix utimensat() for atime with delegated timestamps
+37767d35e7b915293721ff85bcc564125bbc52d7 nfs: update inode ctime after removexattr operation
+3041ed356d3ed90cc5d51dd030dbcdab4c855606 xprtrdma: Close sendctx get/put race that can block a transport
+cd7f528b66b01cade1608fe5fc344848607a3e30 xprtrdma: Decouple frwr_wp_create from frwr_map
+701073d6bfae8e83123b12c01213800ddfa8eddf xprtrdma: Replace rpcrdma_mr_seg with xdr_buf cursor
+704969d8c446c362e903e9592ed8c21a19b5c38d xprtrdma: Scale receive batch size with credit window
+b3b3c5e643f836160bb202b162634c72d1e63186 NFS/blocklayout: print each device used for SCSI layouts
+3496b4f83287b5b7311021b4e413323127925e8e pnfs/flexfiles: validate ds_versions_cnt is non-zero
+070a51d0197ab3a7c0403e9fe970842f1400b081 NFSv4.1: Apply session size limits on clone path
+0082867db5e927c53438cc4c19273b9de3449838 nfs: use memcpy_and_pad in decode_fh
+425618be75e5e375b6a3c5d05a2bac39d5cc8b81 NFS: fix writeback in presence of errors
+c878d7cbd16b97698321ff186201ac7970a29376 NFSv4.2: fix CLONE/COPY attrs in presence of delegated attributes
+775aa9e4e429064ce1654848b68e6f40c2014af8 NFS: remove redundant __private attribute from nfs_page_class
+271c525f4273e13880e9cb55c6c3338052e5716d NFS: Fix RCU dereference of cl_xprt in nfs_compare_super_address
 
---===============1268308725006740119==--
+--===============3125790128156980824==--
