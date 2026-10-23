@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============3245196087202740499=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 23 Oct 2026 13:06:00 -0000
-Message-Id: <179276076083.954713.15444486655054210378@gitolite.kernel.org>
-
---===============3245196087202740499==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Fri, 23 Oct 2026 13:06:03 -0000
+Message-Id: <179276076339.954946.10118434656732600358@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/master
-    old: ccaf588fee0a439c2499b9d31c86a754b0807c51
-    new: 6c0d55857bf4bb4ae68b87a120c33ee6bae95d69
+  - ref: refs/heads/linux-6.12.y-cip
+    old: 3be432a1964261021750e13704e407022ff319c8
+    new: ce8f66ef9609ef238d026c58b84359fe9f858c97
     log: |
-         6c0d55857bf4bb4ae68b87a120c33ee6bae95d69 6.18-stable patches
+         8f122d319547e7e803415553bd8b2ae000fddd16 dt-bindings: serial: renesas,rsci: Document RZ/G3L SoC
+         8c81e01df80939160034a4cfed27cd8c132b526a serial: sh-sci: Add support for RZ/G3L RSCI
+         a171fabd7a9eaf04d2439a575c4b559d938cca7e arm64: dts: renesas: r9a08g046: Add rsci{0..3} device nodes
+         4bf1c78238692b02e512006f223196b5c16ff3f7 arm64: dts: renesas: r9a08g046l48-smarc: Enable rsci{1,2,3} nodes
+         ce8f66ef9609ef238d026c58b84359fe9f858c97 arm64: dts: renesas: r9a09g047e57-smarc: Drop SW_SER0_PMOD condition for rsci4
          
-
---===============3245196087202740499==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792760759 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1792760757-9b97615924ba5426c82a8f2bd300c371f9679c9d
-
-ccaf588fee0a439c2499b9d31c86a754b0807c51 6c0d55857bf4bb4ae68b87a120c33ee6bae95d69 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrbW7cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d34P/RkcjY7hWRjNedx8br5h
-xABKguUC0tZ+tXJ1DXx+MMOvCcBUpuLuMEP0FXc7U5dNabFCa5EKEb/LAjq9Dgrv
-I6Sq5ganIA+GeVgmQhpgKz8ME4HNoe4Dw8vCdVdjV9xCTAMElhsdsGU+sFRvKtXG
-U3SY9etMBfqAWcjPdMocdgFtUKRV7ml5Ga+jK/KSqZgMNLjOijJwXnSBygLUfXrT
-KgwJKMdyKg+dFzrT0pPR7tMg66m+D6gSilaC14JPA3IVD7inRyl+B2oisoJtTs0Z
-jEnz5wNBfhSSDZOtEO2ZH4s/jRAW95m5GoD50tvk/b2V9yUuySYv/LTHlYnA1Y58
-/pBZ6DiCtpOCdsKzzAtOrxDtQxyce6culdJK9FPZIJ62T3uG1r1y/sevPg2aR9cB
-cJXxgaxh0wllFG6HFuE9avO2fFPskKXvw2gdWCvC8q1NsqdLD0QJrBPQ/5S1aycD
-iCAxNeX8yN7jTDqeeqQL7uVJ1ByzfzccvX+krXgekWnXcwuGhNKmtsjdBwYqwd66
-ytzlYsEKo+bm/drc9vpaIPCNetZVUpwmAwCM3Ajue+pc7yvF6ojgyE1Jt2kxUeMl
-cvsnLfffeIM7SyxG/cju7yPN+TBMOD0DC/DvYCz9mRUqmg45pvK5UlMn/zwoS1wk
-S84obn8Vfw+8CrGL04ZB/AkF
-=DEbj
------END PGP SIGNATURE-----
-
---===============3245196087202740499==--
