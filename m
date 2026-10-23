@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3087799062807667192=="
+Content-Type: multipart/mixed; boundary="===============4735271631680814548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 23 Oct 2026 17:32:59 -0000
-Message-Id: <179277677986.1197878.14267042651310646516@gitolite.kernel.org>
+Date: Fri, 23 Oct 2026 17:33:02 -0000
+Message-Id: <179277678268.1198042.4528759511030851399@gitolite.kernel.org>
 
---===============3087799062807667192==
+--===============4735271631680814548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfsd-7.2
-    old: 750274d23811fc0d80d06bbd82be6548772832bf
-    new: 8aae1370378eeb8fbd293c435bdcb82527613414
-    log: revlist-750274d23811-8aae1370378e.txt
+  - ref: refs/heads/kernel-6.12/nfsd-next
+    old: 4493f2e3d38f50a71d14fdb89b436fdd60887d34
+    new: 875496fa99e9706d4357276a402b4c88680521cb
+    log: revlist-4493f2e3d38f-875496fa99e9.txt
 
---===============3087799062807667192==
+--===============4735271631680814548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-750274d23811-8aae1370378e.txt
+Content-Disposition: attachment; filename=revlist-4493f2e3d38f-875496fa99e9.txt
 
 dac5ea2554058f15f4259865b8d9f673533506db Revert "nfsd: convert nfsd_net boolean flags to unsigned long flags word"
 6665b735d75b024dfc8b4705d309224c0627c7be Revert "NFS: Return a delegation the client fails to record"
@@ -669,5 +669,14 @@ ad01164b8ddedf8df90015c4d67ec5dae7e92b40 SUNRPC: Return an error from xdr_buf_to
 ad1dff9e704f7bd30347b81226ee8bde37fd7c4c nfsd: fix dead ACL conflict guard in nfsd4_create
 a0980e638198ef5d09f0998a3fc99f73f4364805 nfsd: fix inverted cp_ttl check in async copy reaper
 8aae1370378eeb8fbd293c435bdcb82527613414 svcrdma: wake sq waiters when the transport closes
+d3268da6ec35956f44e4ce9a16bb9e1bfa705912 nfsd: fix possible fh_compose of wrong dentry in nfsd4_create_file()
+f12b3f54ac07b5e8cce977629de922258aba2b6d nfsd: ensure nfsd_file_do_acquire() does not use a non-opened file
+f87368f8a4166aec39481dbf57b09f3c25ce082c nfsd: fix partial-write detection in nfsd_direct_write
+168609d204546b64ed5eb152cfbfc5a88926fbcb nfsd: hold rcu across localio cmpxchg retry
+b2a6e03924a297df46318c342b29cf30e3f94d26 NFS/localio: fix ref leak on nfs_uuid_add_file failure
+c9f935aff09f7db00f9b27a5f8912b7372c06995 nfsd: fix refcount leak in nfsd_file_lru_add on insertion failure
+3421f5c9e5073110838faedad2fa321b3764e50d nfsd: fix fcache_disposal UAF by inlining dispose state into nfsd_net
+205c7ccab9b5ef566c2df60b58216f1bcb42f1eb nfsd: close shrinker/GC/fsnotify vs per-net shutdown race in filecache
+875496fa99e9706d4357276a402b4c88680521cb nfsd: move nfsd_debugfs_init() after nfsd4_init_slabs() in init_nfsd()
 
---===============3087799062807667192==--
+--===============4735271631680814548==--
