@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3675897575012235191=="
+Content-Type: multipart/mixed; boundary="===============3402053620278800254=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Fri, 23 Oct 2026 13:44:37 -0000
-Message-Id: <179276307712.1004042.12301025141153156010@gitolite.kernel.org>
+Date: Fri, 23 Oct 2026 13:48:57 -0000
+Message-Id: <179276333750.1007495.6625490483647305969@gitolite.kernel.org>
 
---===============3675897575012235191==
+--===============3402053620278800254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,17 +16,23 @@ repo: pub/scm/linux/kernel/git/next/linux-next
 user: broonie
 changes:
   - ref: refs/heads/fs-current
-    old: aaa5562f08decadcc82581b35162ba71ca5e616f
-    new: 734bef548a96e8774d6eef5dfa2026c6edc4e80b
-    log: revlist-aaa5562f08de-734bef548a96.txt
+    old: 734bef548a96e8774d6eef5dfa2026c6edc4e80b
+    new: fcd241585e9f8346115ddf75cdd3aa1fcad0ba9d
+    log: |
+         49c5d168a3a8f4eb27d44a2a22b7e8a856ca601f udf: fix nls leak on udf_fill_super() failure
+         fcd241585e9f8346115ddf75cdd3aa1fcad0ba9d Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
+         
+  - ref: refs/heads/fs-next
+    old: befafb93ab6025dff1a6b532d605f0cd12d87de6
+    new: fcd241585e9f8346115ddf75cdd3aa1fcad0ba9d
+    log: revlist-befafb93ab60-fcd241585e9f.txt
 
---===============3675897575012235191==
+--===============3402053620278800254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aaa5562f08de-734bef548a96.txt
+Content-Disposition: attachment; filename=revlist-befafb93ab60-fcd241585e9f.txt
 
-ff5091590ed519c1ba36587005895bffde280dfe Merge tag 'samsung-drivers-7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/drivers
 2699c4615ea6febf77b4bfc332f01976a506e382 Merge tag 'memory-controller-drv-7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl into soc/drivers
 978a1e99a5ebc9f6ecafd5cfcd07d3a0d42abd4e Merge tag 'ti-driver-soc-for-v7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/ti/linux into soc/drivers
 a5c3d987fc5574869f7a0f30c120b4510528f5c7 Merge tag 'amlogic-drivers-for-v7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux into soc/drivers
@@ -1050,5 +1056,6 @@ fcb92ecd733e11f37c32e7485da976a40d878e72 Merge tag 'for-linus' of git://git.kern
 5b193d6a8973655f19de87a7873ce31dee2d5fe6 Merge tag 'execve-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 864c07de0c7dcbca58b61625dfa2e461ae63b242 Merge tag 'hardening-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 734bef548a96e8774d6eef5dfa2026c6edc4e80b Merge tag 'net-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
+fcd241585e9f8346115ddf75cdd3aa1fcad0ba9d Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
 
---===============3675897575012235191==--
+--===============3402053620278800254==--
