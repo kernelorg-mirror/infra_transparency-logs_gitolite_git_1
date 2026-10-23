@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4424704983348841627=="
+Content-Type: multipart/mixed; boundary="===============2959170346763170987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 23 Oct 2026 21:17:11 -0000
-Message-Id: <179279023181.1368863.16883375388403035536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 23 Oct 2026 21:17:17 -0000
+Message-Id: <179279023747.1369086.11275599339785052032@gitolite.kernel.org>
 
---===============4424704983348841627==
+--===============2959170346763170987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: e74880764bf94b738102b4b6b6e8304d0c8375d3
     log: revlist-1c90f0a3c8a1-e74880764bf9.txt
 
---===============4424704983348841627==
+--===============2959170346763170987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c6334a1c6453de98bfaa3ff0f5fef7f84db6baa0 tools headers: Sync UAPI linux/mount.h 
 3702d87cbded8e6ec88fb1ad13bd9b51447a54e0 tools headers: Sync UAPI sound/asound.h with the kernel sources
 e74880764bf94b738102b4b6b6e8304d0c8375d3 tools headers: Sync KVM headers with the kernel sources
 
---===============4424704983348841627==--
+--===============2959170346763170987==--
