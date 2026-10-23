@@ -1,29 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 23 Oct 2026 20:33:16 -0000
-Message-Id: <179278759623.1334406.5568297370827230810@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 23 Oct 2026 20:33:22 -0000
+Message-Id: <179278760284.1334623.8353738731890661932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 8cf9607d2d855629260fc78e6b54ea7a98525708
-    new: cc3fc99f1bce93c3ae3771ef98cb91a566da857e
+    old: 0785f7172040512cba759838b27286646773c735
+    new: ec255de3ff6676cdb23b9a5204999e69ad96d0e5
     log: |
-         e0b17f84f6e3fa1201b8e2857094023c42ce5636 ASoC: amd: raven: Fix memory leak in acp3x_dma_close()
-         bcb2efda7abf56f212133044f135d88f68796fff ASoC: codecs: es8375: Modify Register Configuration
-         cc3fc99f1bce93c3ae3771ef98cb91a566da857e ASoC: fsl_utils: Tolerate fractional PLL rate residue
+         8a6d73e316f95e398a1de1d1f58314b6d3e7f641 regulator: irq: freeze deferred hardware access during suspend
+         ec255de3ff6676cdb23b9a5204999e69ad96d0e5 Merge regulator/for-7.3 into regulator-linus
          
   - ref: refs/heads/for-next
-    old: 8cf9607d2d855629260fc78e6b54ea7a98525708
-    new: cc3fc99f1bce93c3ae3771ef98cb91a566da857e
+    old: 0785f7172040512cba759838b27286646773c735
+    new: ec255de3ff6676cdb23b9a5204999e69ad96d0e5
     log: |
-         e0b17f84f6e3fa1201b8e2857094023c42ce5636 ASoC: amd: raven: Fix memory leak in acp3x_dma_close()
-         bcb2efda7abf56f212133044f135d88f68796fff ASoC: codecs: es8375: Modify Register Configuration
-         cc3fc99f1bce93c3ae3771ef98cb91a566da857e ASoC: fsl_utils: Tolerate fractional PLL rate residue
+         8a6d73e316f95e398a1de1d1f58314b6d3e7f641 regulator: irq: freeze deferred hardware access during suspend
+         ec255de3ff6676cdb23b9a5204999e69ad96d0e5 Merge regulator/for-7.3 into regulator-linus
          
