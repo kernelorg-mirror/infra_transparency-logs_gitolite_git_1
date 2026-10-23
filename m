@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1862069410654572963=="
+Content-Type: multipart/mixed; boundary="===============5053422769823249304=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 23 Oct 2026 17:32:42 -0000
-Message-Id: <179277676275.1196838.14717538711009225948@gitolite.kernel.org>
+Date: Fri, 23 Oct 2026 17:32:45 -0000
+Message-Id: <179277676549.1197028.16854674648028858175@gitolite.kernel.org>
 
---===============1862069410654572963==
+--===============5053422769823249304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfsd-next-thru-nfsd-6.19-1
-    old: d874a2eeef7f7d83b6f0c3b994a1bdbb1477b64b
-    new: a6796e63b8f37673be7711e0580f50dda17726aa
-    log: revlist-d874a2eeef7f-a6796e63b8f3.txt
+  - ref: refs/heads/kernel-6.12/nfsd-next-thru-nfsd-6.19-2
+    old: 81479a53dc207469547986fcb2a06cd52214ef55
+    new: f0aeec4887699a3961c6a8bc02edbbbee63bfc10
+    log: revlist-81479a53dc20-f0aeec488769.txt
 
---===============1862069410654572963==
+--===============5053422769823249304==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d874a2eeef7f-a6796e63b8f3.txt
+Content-Disposition: attachment; filename=revlist-81479a53dc20-f0aeec488769.txt
 
 dac5ea2554058f15f4259865b8d9f673533506db Revert "nfsd: convert nfsd_net boolean flags to unsigned long flags word"
 6665b735d75b024dfc8b4705d309224c0627c7be Revert "NFS: Return a delegation the client fails to record"
@@ -576,5 +576,7 @@ fe87660e73a6132f166fd52c9a76096ff3b92ac0 NFSD: Add toctree entry for NFSD IO mod
 a7f874d23779cb42c72a99ca1824bff84e5e6e32 NFSD: nfsd-io-modes: Separate lists
 7a89424626ea9265b0d570a6c706d4d5fea77599 nfsd: fix memory leak in nfsd_create_serv error paths
 a6796e63b8f37673be7711e0580f50dda17726aa NFSD: Clear TIME_DELEG in the suppattr_exclcreat bitmap
+4ee6d9d53d53c70f6c80f97caab49063fabdf60c nfsd: fix nfsd_file reference leak in nfsd4_add_rdaccess_to_wrdeleg()
+f0aeec4887699a3961c6a8bc02edbbbee63bfc10 nfsd: use ATTR_DELEG in nfsd4_finalize_deleg_timestamps()
 
---===============1862069410654572963==--
+--===============5053422769823249304==--
