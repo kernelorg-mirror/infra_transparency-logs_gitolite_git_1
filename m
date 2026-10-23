@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============1946286864310059562=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 23 Oct 2026 08:54:07 -0000
-Message-Id: <179274564757.766750.10795408583719788704@gitolite.kernel.org>
-
---===============1946286864310059562==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 23 Oct 2026 08:59:50 -0000
+Message-Id: <179274599031.770628.1688935676193417146@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: 67203cf92d17739be4b2ea517a48eb801157919e
-    new: 98b31022e8b606c2ffed7ab940371b7b8f64d669
+    old: 706db3f05c6e0e2c4fa570acacfa8105f9b5d8f0
+    new: 7581e830b3b90854e15dffc83d5552e2fd4b99f6
     log: |
-         98b31022e8b606c2ffed7ab940371b7b8f64d669 add missing commit to 7.2.12-greg review file
+         46c9c0cd44d26730b2f46fc37f352bf11e53f443 Merge branch 'perf/core' into perf/merge, to assist CI testing
+         26feb83dced63cd7e0cea1011bc1acbd450d0a16 Merge branch 'x86/fpu' into perf/merge, to resolve semantic conflict
+         108775fa28fe04a16f19a828a779689f3d0ea9f0 x86/cpuid: Mark CPUID function 0x23 as being indexed
+         b375fa61cdef4ec51f93071445b667f24eb9bb77 Merge branch into tip/master: 'perf/merge'
+         7581e830b3b90854e15dffc83d5552e2fd4b99f6 Merge branch into tip/master: 'x86/urgent'
          
-
---===============1946286864310059562==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792745647 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1792745647-1060b1f95edec3c52f560f4fa0a6b39fd667900f
-
-67203cf92d17739be4b2ea517a48eb801157919e 98b31022e8b606c2ffed7ab940371b7b8f64d669 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrbIK8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Zj8P/2m3DQxcDBPlogMslLR2
-Dah5HO5JtkRPGekShzz0gDoH6byHH/3SQYOGfwM1D3Hz7V3J512XEkoeWuWahEsv
-ia5lvuiJl6MhKT4cUMy5cm1LnhGmS0OJvL+BCoGFRaelXGTCBWzW/NSHl+WpFZsX
-a4B7DWCrSo2rebP/V6pmib4Jg4VWQqggmOK7L+CLpJCC4ABupQgFoCC0PNhvW+I/
-2RJZZ8NCIjMAo8tkjhV7P9jOJGjb7PCoQ+H2imbYA7rQ2yOBGMsppMvqDWA7iGeb
-2Bvi/QqUzQn5DDiJSs/GJvJipQVAjM9ULJxXxS3sI8DQZQGAOweWowSdXgBlMLYF
-brpeMv2T+3upHHpWhAdcrBQNrDCXRb2vKjbWxpF4NJODEilWaoER8e7PNQtlRvCN
-ZQr2dOzK+si7Vvu6X5szVkPruOhIsScoz7tQcnONKF1KrTJaNMqDfBbKLSOCTt50
-n0EkZ1gzcbgccBfA8+hRqBDMWzfjw7z5JvVCnWx67CUEa/W2C4Y88lu5EIQuqfj8
-zi/TZC7CE3sEtBMAOHqXxi6k1NMlr2UJ3wifS3qR8oK5ZuaNPm3OLWCXKi5C97f4
-VtSzWp3sqiS5RYdeSuv72gUIGtv0pWNZ+SCnm4KzoPJIf7A16UumCMtrMyM2e/KS
-IaMGYz9QI0WWdLhiwq2Agzbl
-=fIeB
------END PGP SIGNATURE-----
-
---===============1946286864310059562==--
