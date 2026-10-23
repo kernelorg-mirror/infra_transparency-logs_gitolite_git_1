@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2176403796676961398=="
+Content-Type: multipart/mixed; boundary="===============3087799062807667192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 23 Oct 2026 17:32:56 -0000
-Message-Id: <179277677698.1197677.1157981202669052135@gitolite.kernel.org>
+Date: Fri, 23 Oct 2026 17:32:59 -0000
+Message-Id: <179277677986.1197878.14267042651310646516@gitolite.kernel.org>
 
---===============2176403796676961398==
+--===============3087799062807667192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfsd-7.1-2
-    old: 824d5089b501db242556b22365dd4ba7ee8f72af
-    new: f909e5f38afb1ae060bbe3faf4053f8f409186b2
-    log: revlist-824d5089b501-f909e5f38afb.txt
+  - ref: refs/heads/kernel-6.12/nfsd-7.2
+    old: 750274d23811fc0d80d06bbd82be6548772832bf
+    new: 8aae1370378eeb8fbd293c435bdcb82527613414
+    log: revlist-750274d23811-8aae1370378e.txt
 
---===============2176403796676961398==
+--===============3087799062807667192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-824d5089b501-f909e5f38afb.txt
+Content-Disposition: attachment; filename=revlist-750274d23811-8aae1370378e.txt
 
 dac5ea2554058f15f4259865b8d9f673533506db Revert "nfsd: convert nfsd_net boolean flags to unsigned long flags word"
 6665b735d75b024dfc8b4705d309224c0627c7be Revert "NFS: Return a delegation the client fails to record"
@@ -657,5 +657,17 @@ f28a4f280348eb77445c8b443e987724508d6ddf nfsd: fix comment typo in nfsxdr
 49cb925a1c78276170c37f3154369b1c40596b52 sunrpc: start cache request seqno at 1 to fix netlink GET_REQS
 347f77fc5fb7b050d9538bd2495a6820e372fb0a sunrpc: prevent out-of-bounds read in __cache_seq_start()
 f909e5f38afb1ae060bbe3faf4053f8f409186b2 NFSD: Report whether fh_key was actually updated
+be7061240d7d1b51a3fe2823fce2576375bb094e sunrpc: skip svc_xprt_enqueue when no work is pending
+c2975c37dc5cd3f4bb84086a6064566809385b6d sunrpc: skip svc_xprt_enqueue in svc_xprt_received when idle
+f005bf950e9f8b8aca0f9af8a5d2340aba4a3479 sunrpc: skip svc_xprt_enqueue when transport is busy
+ca72300152598bb3b3cfdcc4a200a199037d16b6 nfsd: move struct nfsd_genl_rqstp to nfsctl.c
+962ec254afac4a75f8944001817c3350d4ce5a4b NFSD: Increase the default max_block_size to 4MB
+6b02d4ae4ac10f19f1ee40ad5fb3d9f8dd96023e svcrdma: Release write chunk resources without re-queuing
+7d70c0f100f48e165d8bd958cdaa552e86ef398b Revert "NFSD: Defer sub-object cleanup in export put callbacks"
+ad01164b8ddedf8df90015c4d67ec5dae7e92b40 SUNRPC: Return an error from xdr_buf_to_bvec() on overflow
+2b2f86799349751a005ffd15a3325b48b4f3bd6d sunrpc: harden rq_procinfo lifecycle to prevent double-free
+ad1dff9e704f7bd30347b81226ee8bde37fd7c4c nfsd: fix dead ACL conflict guard in nfsd4_create
+a0980e638198ef5d09f0998a3fc99f73f4364805 nfsd: fix inverted cp_ttl check in async copy reaper
+8aae1370378eeb8fbd293c435bdcb82527613414 svcrdma: wake sq waiters when the transport closes
 
---===============2176403796676961398==--
+--===============3087799062807667192==--
