@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============6561601845368085560=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 23 Oct 2026 03:13:55 -0000
-Message-Id: <179272523518.524570.15006749814731453598@gitolite.kernel.org>
+Date: Fri, 23 Oct 2026 03:13:59 -0000
+Message-Id: <179272523925.524767.15471394511957507034@gitolite.kernel.org>
+
+--===============6561601845368085560==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,9 +15,56 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/changelog
-    old: b2a9d890b19cbfe3563098dbf2020ffb81453353
-    new: 3bcf0f33f0c9c50d29bd55de7743057530a8c52d
-    log: |
-         3bcf0f33f0c9c50d29bd55de7743057530a8c52d kernel-7.3-8
-         
+  - ref: refs/heads/kernel-7.3/main
+    old: f62abefaab53a3678b7fba4c945337e962d76bb8
+    new: d80148e5e45462bbc3b95d2e7cce881e47166602
+    log: revlist-f62abefaab53-d80148e5e454.txt
+
+--===============6561601845368085560==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f62abefaab53-d80148e5e454.txt
+
+2ec35d6a7676009b921d9c535ba72ba0ebbd0373 nfsd: use direct I/O only for the last operation in a COMPOUND
+d97d5b3c358888d7e451c8abd21e37ebc44fe555 SUNRPC: preserve RQ_SECURE across request deferral
+b5e0bba841dd1a752efb65eecdff33ddf990d7f3 NFSD: cut a misaligned direct-mode WRITE at page boundaries
+f90fb0194975381d19cfcdc3ed696894e9987886 NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
+cfd32ea7a060c4d45b293998ee3b1de44ea73247 NFSD: only split a direct-mode WRITE for a worthwhile direct middle
+53b794489457048e2c60fa02b486aa147a161ecf NFSD: add direct_misaligned_dontcache debugfs knob
+1651cfb7c11c5febd7082692367842105cedb42a NFSD: do not use direct I/O for a READ smaller than its alignment
+aad4fb86f8c14da0d52d41aadfe69cd4dfcc538a NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
+9b4a06792bf2b3796e6a414546629ec2909719d5 NFSD: add tracing for how direct-mode READ and WRITE are serviced
+f21509da4029be09159bcb2118948503017c6bc0 NFSD: cut a misaligned direct-mode WRITE at the mapping's smallest folio
+3cf1a687793ac64bedaeb4d82ab21ea6215cc58e mm: take a folio off WB_DONTCACHE_DIRTY only if it was counted there
+404ff7f68b4c71c80507222a24f513acd60cac1d mm: expose WB_DONTCACHE_DIRTY in bdi debugfs stats
+678df0b8aeca116ee496d839436ad9ee4b76088b mm: add folio_mark_dropbehind() to mark a folio dropbehind and account it
+9156740984f75a01ecb124ec1ec2bed502f06dcb mm, iomap: keep a partly covered page until an uncached write completes it
+cf0709081ff633f988e3d2ff735ce9fdfe00102d mm, iomap: let an uncached writer complete its shared pages itself
+9fd0693ea0be3a2ecceeedee2296de40b5bfe1dd NFSD: drop a shared boundary page only once both WRITEs have written it
+7b2fcba76715d4c3633d4001ec6fe395b121af7b Merge branch 'kernel-7.3/snitzer-nfs-fixes-canary' into kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO base
+ecf6511c4df1d23a3725d0dd714025bc8c938ed6 NFS: invalidate LOCALIO direct-write post-op attributes at completion
+612438fd27000b47da4f50d49f023afacaf15b6a nfs_common: share direct I/O write split and boundary-page helpers
+b36ab5183cb487d6ad5f19e3f7a9ffe52d1ff602 nfs_common: share the rule for persisting a split direct write once
+5dd6194efc4da189959bf6efc5e17a8534614b6b NFS/localio: split direct writes using NFSD provided nfs_common code
+7268f03e98afab6785a85264cca089a3a4474e26 NFS/localio: persist a synchronous direct write once, after all its segments
+62812adc123d9aedd2f6d64cb306e680e6a8d546 nfs_common: fix the skip accounting in nfs_dio_iter_aligned()
+6e682dfce56d6895e974cacb098504af19e7fd51 NFS/localio: complete a direct write that shares a page before it returns
+70f3d203da1180371c51ad3bdaab1e24b15e8988 Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO' into kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO
+3bcf0f33f0c9c50d29bd55de7743057530a8c52d kernel-7.3-8
+3507b85781cd67949b7d6ea50b402b7274a13d4b Merge branch 'kernel-7.3/block-DIO-alignment-fixes' into kernel-7.3/main
+17279952d67d32a9528f8664c86bd93b4b593bc0 Merge branch 'kernel-7.3/trond-nfs-next' into kernel-7.3/main
+d96e51a05bced6ad94e621e359fe45de770eaf9e Merge branch 'kernel-7.3/anna-nfs-next' into kernel-7.3/main
+9a788e2b8615ca9cd936c46eb21ec4633661906b Merge branch 'kernel-7.3/snitzer-nfs-fixes-canary' into kernel-7.3/main
+f83b02976c31c120a6e43069e37ad8edec9b0f97 Merge branch 'kernel-7.3/nfsd-7.4' into kernel-7.3/main
+14f0d305665d35a71865125e81478e1bff3be55f Merge branch 'kernel-7.3/nfsd-testing' into kernel-7.3/main
+28d05d789e41b94f6e051e31dffe3197c1b0888f Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache' into kernel-7.3/main
+07a4f5e25b84bee3eca9991343134e663127c862 Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO' into kernel-7.3/main
+9008e559a674435f80fe10c51629edcded45a6dd Merge branch 'kernel-7.3/nfs-testing-canary' into kernel-7.3/main
+be50930b4e81d85cbc8251adb406f2d9ba5dd90f Merge branch 'kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO' into kernel-7.3/main
+810e2c346e24be63b15fdf70554c76a7d00603db Merge branch 'kernel-7.3/nfs-testing-canary-reduce-ff-layout-contention' into kernel-7.3/main
+33fe0b3adc95df13d6bbcc548ab6b40d97f38dc2 Merge branch 'kernel-7.3/nfs-testing-canary-rdma' into kernel-7.3/main
+d7e85c3aa4cfe9d01f7dd99a91521e39af7e99fb Merge branch 'kernel-7.3/nfs-testing-canary-nfs4_acl-passthru' into kernel-7.3/main
+d80148e5e45462bbc3b95d2e7cce881e47166602 Merge branch 'kernel-7.3/changelog' into kernel-7.3/main
+
+--===============6561601845368085560==--
