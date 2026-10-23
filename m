@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2093916729842090138=="
+Content-Type: multipart/mixed; boundary="===============3607032166461155117=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 23 Oct 2026 17:31:53 -0000
-Message-Id: <179277671339.1193732.10816535940249630840@gitolite.kernel.org>
+Date: Fri, 23 Oct 2026 17:31:56 -0000
+Message-Id: <179277671626.1193901.5948259718555408376@gitolite.kernel.org>
 
---===============2093916729842090138==
+--===============3607032166461155117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/dontcache
-    old: ac3c2c568a9f7fdd1a94ec46670bf521a3e32730
-    new: 3afe1f49169f656291c4e717e66a211907e5f9fc
-    log: revlist-ac3c2c568a9f-3afe1f49169f.txt
+  - ref: refs/heads/kernel-6.12/xfs
+    old: 5c49750d4e449e9bbd7774b79062d0b693b916e3
+    new: ea045c4acd3bff64c96b2811ca6c501088fc0199
+    log: revlist-5c49750d4e44-ea045c4acd3b.txt
 
---===============2093916729842090138==
+--===============3607032166461155117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac3c2c568a9f-3afe1f49169f.txt
+Content-Disposition: attachment; filename=revlist-5c49750d4e44-ea045c4acd3b.txt
 
 dac5ea2554058f15f4259865b8d9f673533506db Revert "nfsd: convert nfsd_net boolean flags to unsigned long flags word"
 6665b735d75b024dfc8b4705d309224c0627c7be Revert "NFS: Return a delegation the client fails to record"
@@ -369,5 +369,11 @@ fb13b9bc87d5da3e1301b2e4c69e4a40185d26ca mm/filemap: unify read/write dropbehind
 53fb3400ef97d01e86cc2f22e04702d7220f98c6 xfs: report the correct read/write dio alignment for reflinked inodes
 1291205311c388aaa465de516088e7fa0589bd0a xfs: report larger dio alignment for COW inodes
 3afe1f49169f656291c4e717e66a211907e5f9fc mm/filemap: fix miscalculated file range for filemap_fdatawrite_range_kick()
+b8e2100275398d6037c080996094cc753ca63652 xfs: apply rt extent alignment constraints to CoW extsize hint
+bb7efe513118f115841e7e260121d1fde6fcacd3 xfs: rearrange code in xfs_inode_item_precommit
+51e591832a0e3090d54f31058a542a3af29629a6 xfs: rework datasync tracking and execution
+c0ed646390de67e38b70ab10558298ff9c1bcfe8 xfs: eliminate lockdep false positives in xfs_attr_shortform_list
+2922c14537a987bac8293624d1aa7bdcb0cbbd54 xfs: avoid dquot buffer pin deadlock
+ea045c4acd3bff64c96b2811ca6c501088fc0199 xfs: remove unused trace event xfs_dqreclaim_dirty
 
---===============2093916729842090138==--
+--===============3607032166461155117==--
