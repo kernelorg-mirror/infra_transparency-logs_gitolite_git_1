@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4735271631680814548=="
+Content-Type: multipart/mixed; boundary="===============7303400679407974046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 23 Oct 2026 17:33:02 -0000
-Message-Id: <179277678268.1198042.4528759511030851399@gitolite.kernel.org>
+Date: Fri, 23 Oct 2026 17:33:05 -0000
+Message-Id: <179277678554.1198283.16626204869598756282@gitolite.kernel.org>
 
---===============4735271631680814548==
+--===============7303400679407974046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfsd-next
-    old: 4493f2e3d38f50a71d14fdb89b436fdd60887d34
-    new: 875496fa99e9706d4357276a402b4c88680521cb
-    log: revlist-4493f2e3d38f-875496fa99e9.txt
+  - ref: refs/heads/kernel-6.12/nfsd-fixes-from-stable-baseline
+    old: 660633a14f8ed5930c91be57e518198fe1053721
+    new: 316bcd515111304af0c7f79343a5e36dd7113eb2
+    log: revlist-660633a14f8e-316bcd515111.txt
 
---===============4735271631680814548==
+--===============7303400679407974046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4493f2e3d38f-875496fa99e9.txt
+Content-Disposition: attachment; filename=revlist-660633a14f8e-316bcd515111.txt
 
 dac5ea2554058f15f4259865b8d9f673533506db Revert "nfsd: convert nfsd_net boolean flags to unsigned long flags word"
 6665b735d75b024dfc8b4705d309224c0627c7be Revert "NFS: Return a delegation the client fails to record"
@@ -678,5 +678,19 @@ c9f935aff09f7db00f9b27a5f8912b7372c06995 nfsd: fix refcount leak in nfsd_file_lr
 3421f5c9e5073110838faedad2fa321b3764e50d nfsd: fix fcache_disposal UAF by inlining dispose state into nfsd_net
 205c7ccab9b5ef566c2df60b58216f1bcb42f1eb nfsd: close shrinker/GC/fsnotify vs per-net shutdown race in filecache
 875496fa99e9706d4357276a402b4c88680521cb nfsd: move nfsd_debugfs_init() after nfsd4_init_slabs() in init_nfsd()
+d944fb2b3fa65346e7174fe05525831a0fd61666 nfsd: RCU-protect cl_cb_session to fix use-after-free on session teardown
+093720e6c1b8aac72800f1abcd4cf2177c3a733a nfsd: dedup nfs4_client_to_reclaim inserts
+c4c0a750330d577425444b313611a26e96119520 nfsd: widen nfsd_genl_rqstp address fields to sockaddr_storage
+b918b9e9b415b78e9a52c6b66dfe1dfc838b0668 nfsd: check nfsd4_acl_to_attr() return value in nfsd4_create()
+4e8a749a6c033b5c531719b4dc124442483bb934 nfsd: fix clock domain mismatch in clients_still_reclaiming()
+14df020d5255da3a8ffde904e50217037add44b7 NFSD: Prevent client use-after-free during admin state revocation
+2377572743a94c91e4509f5c9c31c39bee64edf7 NFSD: Prevent client use-after-free during delegation revoke
+56c50c59f84de8dac5144705d43c959626054f75 NFSD: Guard admin state-revocation walks with NFSD_NET_UP
+c88f1f645e30ff1e143b319a794c3d5a87745c72 NFSD: Consolidate the revocation-path client unpin
+c2730d6df1e5700042970dd1f6bbeeebe04da4de NFSD: Prevent client use-after-free during blocked-lock reaping
+7dc7f0cabdbe85ce4fc782077a8c417cd54c1124 NFSD: Prevent client use-after-free during close_lru reaping
+470f6e4496919b7ee9054e26ef4786ff07d031cd nfsd: fix stale s2s_cp_stateids IDR entry for async COPY
+c8b6ca02af1b9a86b7e92b04b20054afbd5d9e92 svcrdma: Clear sc_cm_id when ADDR_CHANGE replacement fails
+316bcd515111304af0c7f79343a5e36dd7113eb2 nfsd: restore rq_status_counter to even on all nfsd_dispatch() exit paths
 
---===============4735271631680814548==--
+--===============7303400679407974046==--
