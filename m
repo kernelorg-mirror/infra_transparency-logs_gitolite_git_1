@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4650950508355139980=="
+Content-Type: multipart/mixed; boundary="===============4906216938340737361=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 23 Oct 2026 23:51:12 -0000
-Message-Id: <179279947202.1483374.16762975037382242814@gitolite.kernel.org>
+Date: Fri, 23 Oct 2026 23:51:17 -0000
+Message-Id: <179279947770.1483618.9332720787301913604@gitolite.kernel.org>
 
---===============4650950508355139980==
+--===============4906216938340737361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: abeacca61eea4f6803df4a595b656ea45c2d3249
     new: c43c1c24f3cdc0d2d3f59e5686573ac3129637aa
     log: revlist-abeacca61eea-c43c1c24f3cd.txt
 
---===============4650950508355139980==
+--===============4906216938340737361==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b7dfff5e3eb3984d42026a6d653ec2a3d5cec729 net/rds: include the scope id in the se
 c955325db639e9503941227e14e1f1ccc99442a1 veth: fix stale peer max_mtu on XDP program replacement
 c43c1c24f3cdc0d2d3f59e5686573ac3129637aa tls: avoid field-spanning write when copying crypto info
 
---===============4650950508355139980==--
+--===============4906216938340737361==--
