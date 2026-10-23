@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4479729281269122557=="
+Content-Type: multipart/mixed; boundary="===============8037804881651264681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 23 Oct 2026 17:32:51 -0000
-Message-Id: <179277677118.1197343.12049221772262472770@gitolite.kernel.org>
+Date: Fri, 23 Oct 2026 17:32:54 -0000
+Message-Id: <179277677402.1197523.17798485991653673282@gitolite.kernel.org>
 
---===============4479729281269122557==
+--===============8037804881651264681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfsd-next-thru-nfsd-7.0-2
-    old: eace5eacb7481e7aebeb591f46702ff14f478141
-    new: f778edd4b2ea5c961e142b42dba454d70acf458d
-    log: revlist-eace5eacb748-f778edd4b2ea.txt
+  - ref: refs/heads/kernel-6.12/nfsd-vfs-7.0-rc1.atomic_open
+    old: a252048305ff3ebb9a1b63a6050bb3f35b01569b
+    new: 33cd50bf59ca314a9615abf2a03d0103812f7bd5
+    log: revlist-a252048305ff-33cd50bf59ca.txt
 
---===============4479729281269122557==
+--===============8037804881651264681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eace5eacb748-f778edd4b2ea.txt
+Content-Disposition: attachment; filename=revlist-a252048305ff-33cd50bf59ca.txt
 
 dac5ea2554058f15f4259865b8d9f673533506db Revert "nfsd: convert nfsd_net boolean flags to unsigned long flags word"
 6665b735d75b024dfc8b4705d309224c0627c7be Revert "NFS: Return a delegation the client fails to record"
@@ -618,5 +618,9 @@ d729698c4ff1bdb77858f1061cd879f64c4f96cd NFSD: Add support for XDR decoding POSI
 ccd38a5a5fddeb4e81a7cad39f50411eb168285f NFSD: Add POSIX ACL file attributes to SUPPATTR bitmasks
 263601e35cd28ed8995db61809517b176a7bb1d3 nfsd: report the requested maximum number of threads instead of number running
 f778edd4b2ea5c961e142b42dba454d70acf458d NFSD: Defer sub-object cleanup in export put callbacks
+0788d9573739265708bb8abcb65d9e788c5e989a VFS: move dentry_create() from fs/open.c to fs/namei.c
+77c023cc1b1d73a2c324e57a9e8fcf79a7a4068c VFS: Prepare atomic_open() for dentry_create()
+1d5f1e519c6131ffadbe47404313efadb79f7136 VFS/knfsd: Teach dentry_create() to use atomic_open()
+33cd50bf59ca314a9615abf2a03d0103812f7bd5 fs/namei: fix kernel-doc markup for dentry_create
 
---===============4479729281269122557==--
+--===============8037804881651264681==--
