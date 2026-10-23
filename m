@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 23 Oct 2026 19:35:30 -0000
-Message-Id: <179278413028.1291441.11017513159233850860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 23 Oct 2026 19:47:20 -0000
+Message-Id: <179278484058.1299275.13190735297804228713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/timers/urgent
-    old: e7cad586d73276cbd4466de81b2092287d7475c0
-    new: 8ccd731b63a0183ca2b0e18f3ca15864b3f37eda
+  - ref: refs/heads/main
+    old: 94a6736bb5abe6b2ef38490d0cab19c1c6a7c71f
+    new: 79dc34beb1fdb3da79753e51e15c68591a2561fe
     log: |
-         8ccd731b63a0183ca2b0e18f3ca15864b3f37eda posix-cpu-timers: Fix pid refcount leak in do_cpu_nanosleep() signal path
+         79dc34beb1fdb3da79753e51e15c68591a2561fe net: skbuff: propagate shared-frag marker in skb_zerocopy()
          
