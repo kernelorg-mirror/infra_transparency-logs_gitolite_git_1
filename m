@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1404098211093144861=="
+Content-Type: multipart/mixed; boundary="===============7875848168924655374=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 24 Oct 2026 19:37:04 -0000
-Message-Id: <179287062498.2338177.7398610351447654708@gitolite.kernel.org>
+Date: Sat, 24 Oct 2026 19:40:34 -0000
+Message-Id: <179287083453.2341421.9551759041576921135@gitolite.kernel.org>
 
---===============1404098211093144861==
+--===============7875848168924655374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/tags/v7.3-10
-    old: f8e2c1f99faad9578c0dd3d758f209252e78222b
-    new: efb73cf4aeda82600546e46e66b8df2d33ac9880
-    log: revlist-f8e2c1f99faa-efb73cf4aeda.txt
+  - ref: refs/heads/kernel-7.3/nfsd-testing-canary-nfs_common-XFS-IOLOCK-and-async-DIO-middle
+    old: 3243e04f3bf4de81fecc3527862f8f2d21b9a98c
+    new: 48237e4ffe0173b6fadce9282f714b1a1a71b48c
+    log: revlist-3243e04f3bf4-48237e4ffe01.txt
 
---===============1404098211093144861==
+--===============7875848168924655374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8e2c1f99faa-efb73cf4aeda.txt
+Content-Disposition: attachment; filename=revlist-3243e04f3bf4-48237e4ffe01.txt
 
 9df462107e1ab1b05fba2906f7bf96924bc830b6 NFSD: cut a misaligned direct-mode WRITE at folio boundaries
 051a42f87f99d796840fd37269f9a60ae91e0823 NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
@@ -47,22 +47,11 @@ faf965221f909a540c89db3db81e087ca4cea04a Merge branch 'kernel-7.3/snitzer-nfs-fi
 bfd7df5e58cc5a1114b10025d056b7a9b74053f1 NFS/localio: persist a synchronous direct write once, after all its segments
 ae4fa6e1b1ba2c68c95395a4ef1aaaff869679fa nfs_common: fix the skip accounting in nfs_dio_iter_aligned()
 b3b06049f2449e55353421328315977cd0490d03 NFS/localio: complete a direct write that shares a page before it returns
-f089f30eda37483814fc360f89f09c9b8a9b1b5a Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO' into kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO
-598a6b366fccf1b92f149ae9a5db45930c44d38d kernel-7.3-10
-95ccf11c7b1ac7b04db57daf5189cec20fd65827 Merge branch 'kernel-7.3/block-DIO-alignment-fixes' into kernel-7.3/main
-0db87b68e2f866e3aa2c6028e4d5c95c8721a796 Merge branch 'kernel-7.3/trond-nfs-next' into kernel-7.3/main
-3b2e4a6281abe30b510a1549d0094807b37e073b Merge branch 'kernel-7.3/anna-nfs-next' into kernel-7.3/main
-61475e4e03c4750c80b10dc7eae15fb90cb559d4 Merge branch 'kernel-7.3/snitzer-nfs-fixes-canary' into kernel-7.3/main
-4c76b1b848937f206d069b10fe47d814b4bc8fa4 Merge branch 'kernel-7.3/nfsd-7.4' into kernel-7.3/main
-217f5fc138d7f63eb9f1286eceb5440c8615168e Merge branch 'kernel-7.3/nfsd-testing' into kernel-7.3/main
-459beb104595b65ec567a15817a9b83eaadd54ec Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache' into kernel-7.3/main
-c9133f269f2d1a3ea61649c543b5bc95a1d5c7e5 Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO' into kernel-7.3/main
-d8926083248e3b92f1a6292ca70b8a5f312c7c74 Merge branch 'kernel-7.3/nfs-testing-canary' into kernel-7.3/main
-62f3867301fe646996b7efe45846a9a857a71488 Merge branch 'kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO' into kernel-7.3/main
-34ea3bf1b071580808c6c9a2cc8a8ba82ea3c004 Merge branch 'kernel-7.3/nfs-testing-canary-reduce-ff-layout-contention' into kernel-7.3/main
-38cd5e973b2aa15ce34ce0fdfd88db364e5ea8ee Merge branch 'kernel-7.3/nfs-testing-canary-rdma' into kernel-7.3/main
-59c04c708235c0b1a0edab4593cbed845a76add4 Merge branch 'kernel-7.3/nfs-testing-canary-localio-reprobe' into kernel-7.3/main
-f9d4c8d423a14b7409a7931c97989f0567695b1b Merge branch 'kernel-7.3/nfs-testing-canary-nfs4_acl-passthru' into kernel-7.3/main
-efb73cf4aeda82600546e46e66b8df2d33ac9880 Merge branch 'kernel-7.3/changelog' into kernel-7.3/main
+2b0fb1e3d074adff899664dd26b104f0478b4702 NFSD: issue the direct middle of a split WRITE as an async kiocb
+b41d94cb4bb4bf0dddaa632fcc6f9d583fcd02d2 NFS/localio: let a direct segment that is not last release the IOLOCK while in flight
+0b121f84d8aba71595490cc6d2556c58bd18e72a fs: add IOCB_NOSERIAL
+d32a5cff02379e2268714c91369c7533ccbfbdd5 xfs: take the IOLOCK shared for an IOCB_NOSERIAL buffered write within one folio
+c730045d0ef4c6b7107a45fe4eb3a01f65265e3a nfs_common: mark the misaligned ends of a split write IOCB_NOSERIAL
+48237e4ffe0173b6fadce9282f714b1a1a71b48c xfs: serialise IOCB_NOSERIAL buffered writes against each other
 
---===============1404098211093144861==--
+--===============7875848168924655374==--
