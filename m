@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sat, 24 Oct 2026 20:04:48 -0000
-Message-Id: <179287228878.2359242.1428632168840151332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 24 Oct 2026 20:12:16 -0000
+Message-Id: <179287273695.2365614.14223362671338689704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: d46d29bb0d7f9b72a88c880989c16d021c14fe00
-    new: 5a4284c236232b930dde8aaf3c1a41a91a29261c
+    old: 748fbe08cf39265d93f36f101ce9f4a3b8c73e39
+    new: 1ba504e020467d53495d3e5bfd80017d75c17693
     log: |
-         5a4284c236232b930dde8aaf3c1a41a91a29261c pyproject: update version
+         1ba504e020467d53495d3e5bfd80017d75c17693 Fixes for all trees
          
-  - ref: refs/tags/v1.6.8
-    old: 0000000000000000000000000000000000000000
-    new: 2ae09994441815cbd307417b1d0403792bfa268a
