@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0425479515689859108=="
+Content-Type: multipart/mixed; boundary="===============5401049832697689234=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 24 Oct 2026 00:29:46 -0000
-Message-Id: <179280178600.1512693.2205645178380736343@gitolite.kernel.org>
+Date: Sat, 24 Oct 2026 00:29:56 -0000
+Message-Id: <179280179612.1512890.12171094244690451132@gitolite.kernel.org>
 
---===============0425479515689859108==
+--===============5401049832697689234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: b116ac6087541d3d98031e786adbe9c733cd6df3
     new: 4169c9c90532df9585c0a2ae513337a58f5e59ab
     log: revlist-b116ac608754-4169c9c90532.txt
 
---===============0425479515689859108==
+--===============5401049832697689234==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d1679c8713221d257aee54dbe3dc2064aff776f1 Merge tag 'trace-ringbuffer-v7.4' of gi
 56070f00d07e30caa9a66c3660045f5f2956a629 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 4169c9c90532df9585c0a2ae513337a58f5e59ab powerpc/irq: Fix build with CONFIG_PROC_FS=n
 
---===============0425479515689859108==--
+--===============5401049832697689234==--
