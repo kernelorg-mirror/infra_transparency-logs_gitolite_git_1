@@ -1,42 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1890311975291465409=="
+Content-Type: multipart/mixed; boundary="===============0930925905811732753=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-next
-Date: Sat, 24 Oct 2026 18:43:57 -0000
-Message-Id: <179286743703.2298445.2559552396562169356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Sat, 24 Oct 2026 18:44:03 -0000
+Message-Id: <179286744356.2298667.2102058988582913042@gitolite.kernel.org>
 
---===============1890311975291465409==
+--===============0930925905811732753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-next
+repo: pub/scm/linux/kernel/git/sashal/linus-next
 user: sashal
 changes:
-  - ref: refs/heads/all-next
+  - ref: refs/heads/linus-next
     old: 6624715948d5f101d9ff099a4c909f7f65c20aab
     new: e2509bc95e81fb81244640a3d8ae9d7194a1928c
     log: revlist-6624715948d5-e2509bc95e81.txt
-  - ref: refs/heads/crypto-next
-    old: 655ed5f6a39a602fba50ed0ef5472b2884045867
-    new: a22cbab8cd8b7945ad73fa9b2063d58130a71905
-    log: |
-         2c3afbb5c7a23886aa960dfab7a8d87235620e49 fscrypt: Explicitly zeroize sw_secret in error path
-         cf66375465b9ca531f5c294f468db1df293c178c fscrypt: Fix missing barrier in fscrypt_find_mode_key()
-         a22cbab8cd8b7945ad73fa9b2063d58130a71905 Merge 'fscrypt' from https://git.kernel.org/pub/scm/fs/fscrypt/linux.git (for-next)
-         
-  - ref: refs/heads/fs-next
-    old: 555f2a1d0d7b997a82a36cc8faae0603b3db64dd
-    new: 5361a91c4e792e7aa2acdc5fa9e38ca97c10044e
-    log: |
-         2c3afbb5c7a23886aa960dfab7a8d87235620e49 fscrypt: Explicitly zeroize sw_secret in error path
-         cf66375465b9ca531f5c294f468db1df293c178c fscrypt: Fix missing barrier in fscrypt_find_mode_key()
-         5361a91c4e792e7aa2acdc5fa9e38ca97c10044e Merge 'fscrypt' from https://git.kernel.org/pub/scm/fs/fscrypt/linux.git (for-next)
-         
 
---===============1890311975291465409==
+--===============0930925905811732753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -386,4 +370,4 @@ ed45a6dbcb9bfc4c5c74834a29420c094296235f Merge branch 'tracing-next' into all-ne
 6111154fd11533b0ef45aeab427ff226c68d2d3a Merge branch 'wireless-next' into all-next
 e2509bc95e81fb81244640a3d8ae9d7194a1928c Add merge report for 2026-10-24 (2 interventions)
 
---===============1890311975291465409==--
+--===============0930925905811732753==--
