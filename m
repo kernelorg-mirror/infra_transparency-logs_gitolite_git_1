@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5987926003963020527=="
+Content-Type: multipart/mixed; boundary="===============4222589865367532906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 24 Oct 2026 17:03:46 -0000
-Message-Id: <179286142630.2227311.13656043861404663972@gitolite.kernel.org>
+Date: Sat, 24 Oct 2026 17:03:54 -0000
+Message-Id: <179286143444.2227512.1426632154494311735@gitolite.kernel.org>
 
---===============5987926003963020527==
+--===============4222589865367532906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 3fdcce698abd9193752ee89fb1a440cdceb1b74a
-    new: 09e0a4f618cb8159c993d3140914523fe5d4dfee
-    log: revlist-3fdcce698abd-09e0a4f618cb.txt
+  - ref: refs/heads/mm-unstable
+    old: 2bba28e98578de622ef307d00875aa8f8bca3d10
+    new: d10295141a98938a767234e73d45b954a69c9a2f
+    log: revlist-2bba28e98578-d10295141a98.txt
 
---===============5987926003963020527==
+--===============4222589865367532906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3fdcce698abd-09e0a4f618cb.txt
+Content-Disposition: attachment; filename=revlist-2bba28e98578-d10295141a98.txt
 
 aa09311c40f6d3aa6037065e17d257ffa48b9402 mm/vma: don't leak the commit charge on mmap failure
 824cc56bf43c714319992bad3558803cac6e77c0 mm/hugetlb: fix use-after-free of a new anon folio
@@ -276,8 +276,5 @@ d247db742a0d1eda70b3062bf828c58a77c57dc4 mm: fix missing page-table destructor i
 bf85cbd59da91f21ce6862a41b0ba10593f24933 mm: nommu: set MMF_OOM_SKIP in exit_mmap()
 cbb1f59ee92184b9b32a5b007b6657c0bb6c7b2b fs/proc/task_mmu: fix lost maps entries above 2^63
 d10295141a98938a767234e73d45b954a69c9a2f mm/vmalloc: read vm_map_ram block regions from the requested offset
-914a87cba06c4c90499bfa51b35ebdd458a2fe31 mm: unqueue deferred split folios outside the lruvec lock
-65b43d232ea98dff97a757f6864cc186fd8688bb mm/page_alloc: avoid direct reclaim and compaction for costly __GFP_NORETRY allocations
-09e0a4f618cb8159c993d3140914523fe5d4dfee riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============5987926003963020527==--
+--===============4222589865367532906==--
