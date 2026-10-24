@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 24 Oct 2026 11:32:09 -0000
-Message-Id: <179284152987.1990867.17892666572590139041@gitolite.kernel.org>
+Date: Sat, 24 Oct 2026 11:33:36 -0000
+Message-Id: <179284161687.1991365.14210120194667606518@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 2b774b5bbffabae7ac6be98a98e9641fb3c0bbb4
-    new: d095321349222961813333277881b3c74f10b17b
+  - ref: refs/heads/sched/urgent
+    old: 7dbc307b6c72a5412e3f4e9fa2e0e926925fc5d6
+    new: cac037a85c1971ec75c4d3edf5a28af9ec2a089c
     log: |
-         64ea0e8226ed98d14e0231af1beae10c3d5c043a perf: Fix UAF in attach_task_ctx_data()
-         d095321349222961813333277881b3c74f10b17b perf: Fix perf_remove_from_context() event scheduling
+         ee92b7ef4c1e271b3c1ea2a8b13034bdc62422a7 sched/cache: Honor asym packing over cache aware scheduling on hybrid systems
+         cac037a85c1971ec75c4d3edf5a28af9ec2a089c sched: fix stale get_pref_llc() stub for !CONFIG_SCHED_CACHE
          
