@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6926951904130671938=="
+Content-Type: multipart/mixed; boundary="===============5984221545525665116=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 24 Oct 2026 19:36:44 -0000
-Message-Id: <179287060481.2337069.7302606625675284243@gitolite.kernel.org>
+Date: Sat, 24 Oct 2026 19:36:49 -0000
+Message-Id: <179287060931.2337334.18040354816997236146@gitolite.kernel.org>
 
---===============6926951904130671938==
+--===============5984221545525665116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO
-    old: 830826c22eb4ae15a08532f93bab799c5f85ef2d
-    new: b3b06049f2449e55353421328315977cd0490d03
-    log: revlist-830826c22eb4-b3b06049f244.txt
+  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO
+    old: c1f036cddf673a33cb9e0c6135f6405c04d12fa9
+    new: f089f30eda37483814fc360f89f09c9b8a9b1b5a
+    log: revlist-c1f036cddf67-f089f30eda37.txt
 
---===============6926951904130671938==
+--===============5984221545525665116==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-830826c22eb4-b3b06049f244.txt
+Content-Disposition: attachment; filename=revlist-c1f036cddf67-f089f30eda37.txt
 
 9df462107e1ab1b05fba2906f7bf96924bc830b6 NFSD: cut a misaligned direct-mode WRITE at folio boundaries
 051a42f87f99d796840fd37269f9a60ae91e0823 NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
@@ -47,5 +47,6 @@ faf965221f909a540c89db3db81e087ca4cea04a Merge branch 'kernel-7.3/snitzer-nfs-fi
 bfd7df5e58cc5a1114b10025d056b7a9b74053f1 NFS/localio: persist a synchronous direct write once, after all its segments
 ae4fa6e1b1ba2c68c95395a4ef1aaaff869679fa nfs_common: fix the skip accounting in nfs_dio_iter_aligned()
 b3b06049f2449e55353421328315977cd0490d03 NFS/localio: complete a direct write that shares a page before it returns
+f089f30eda37483814fc360f89f09c9b8a9b1b5a Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO' into kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO
 
---===============6926951904130671938==--
+--===============5984221545525665116==--
