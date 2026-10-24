@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 24 Oct 2026 11:33:36 -0000
-Message-Id: <179284161687.1991365.14210120194667606518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Sat, 24 Oct 2026 11:52:29 -0000
+Message-Id: <179284274909.2005103.3273961570717887061@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 7dbc307b6c72a5412e3f4e9fa2e0e926925fc5d6
-    new: cac037a85c1971ec75c4d3edf5a28af9ec2a089c
-    log: |
-         ee92b7ef4c1e271b3c1ea2a8b13034bdc62422a7 sched/cache: Honor asym packing over cache aware scheduling on hybrid systems
-         cac037a85c1971ec75c4d3edf5a28af9ec2a089c sched: fix stale get_pref_llc() stub for !CONFIG_SCHED_CACHE
-         
+  - ref: refs/tags/firewire-updates-7.4
+    old: 0000000000000000000000000000000000000000
+    new: 178f4a54b8f143d21dd8af622f4119b629e009ad
