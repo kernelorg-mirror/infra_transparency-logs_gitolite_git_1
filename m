@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7154939535135578741=="
+Content-Type: multipart/mixed; boundary="===============8068286524449220714=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 24 Oct 2026 03:23:14 -0000
-Message-Id: <179281219413.1636195.14047844977042464819@gitolite.kernel.org>
+Date: Sat, 24 Oct 2026 03:23:18 -0000
+Message-Id: <179281219831.1636389.8598999676710311276@gitolite.kernel.org>
 
---===============7154939535135578741==
+--===============8068286524449220714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 0266edc6049d5aef224d06a296900667f0206fb0
-    new: ee239c92b3ef790bf4cc86494456b0658cf017a7
-    log: revlist-0266edc6049d-ee239c92b3ef.txt
+  - ref: refs/heads/7.4/scsi-queue
+    old: 2f4880c22e838d54eae9ab153b0f8dce60531bf1
+    new: db8b4d2bf2d3e02b4ff78bbf69d00e11795840de
+    log: revlist-2f4880c22e83-db8b4d2bf2d3.txt
 
---===============7154939535135578741==
+--===============8068286524449220714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1792812192 -0400
+pusher 75C5DE3D 1792812196 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1792812192-fb61010ff952c2562fe377f4d99751a9b68fb8ed
+nonce 1792812196-98f58cb59d0555dd19baa90cdf208bb2511a6081
 
-0266edc6049d5aef224d06a296900667f0206fb0 ee239c92b3ef790bf4cc86494456b0658cf017a7 refs/tags/mkp-scsi-queue
+2f4880c22e838d54eae9ab153b0f8dce60531bf1 db8b4d2bf2d3e02b4ff78bbf69d00e11795840de refs/heads/7.4/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrcJKAACgkQ7ulgGnXF
-3j1u1RAAmUAPd1ynZTViih1mSSV1nPv20aFCCia7X7X3eT99jfFS9VOx3EUi+0IE
-/ZeuigTV7OhvlwOlKOod/kk06FTGKRu2rEYEVr7j/q7sgVwkvGK5G1plNtCUt4AK
-rk1IwW5cmBF3umJ5yK6ZIOxUDbsy4FKiX+H3/a1YN3kdREgtNKBcma1fWxw+N2qL
-W6DLXEVqXKdFa4o34evVq/WFPKF8YHKxjno/qm0T16EgsDXlFbZmQ/dJsZacDKxc
-vx6Sg5fyaoxomAvzzcaFay5g6ss2GxeFiUOg5mkdlyxmlcGRA+J5ihIunODD87n3
-qxbXqMkAfA7ob1Oaa6yWLw1EDr+36FSLm08wUEf4ereI8YGjXAvjz1W8Lskp1pP1
-zvPs00/coNF8ymgtEyOZL37Wfloq3NEv2+vf3iOTKOlyxoWVWXNs+hz9L19yxa1L
-lkVJP3nqfBFhE2eCVK6MbUUVcow5TG2cVSaK6GBBXMyy0AKgfEB57wPY9IJbNCek
-CzYEDlPhuzoWz2gcDpPIZzzAlzJRIH2TjtW5+ve2ZdhELcxSWqOFfG7L0j5EBf8u
-Uf5GGTCSN2UCRolHvhjrEb1aQDKd8ChoWwh7Lzey2xi3M/0LquuzmoKf26dCBrXI
-iVnMFctQsGanENcFE/qt0y2pG+e411gl2S7I5LugeEv7qKTVaxM=
-=oZbV
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrcJKQACgkQ7ulgGnXF
+3j2VkQ//cn7pT0IHjHspVOJThhycDYdTK/CxgvX9N4iqDGoalRAVYBfVzZjuQD57
+HUy3sLKkhTY+AgfFEu2/qdUm+weYN6Fhz48BXy1CX4PhpP3JGaaBKKNR4AE/d/Sm
+WQDSE9s/+ZN9cwWX04cAv+fVOUMCUXWIMzhRBLFD1rUeqYmeTHItaoZajduZ5YGX
+zO5+M+uJ7kwtZX8CiCqd83x0+V3lHhFCgndOlSUgy+ArYILz1uWjoA7qCY6xp0Rs
+zAHjJcluJ1vAumcich16NPiTUwrup6v/0vbQ6j+YID+IqGQRIYZNzqq16Hyj9srH
+p2JgKTOVfEjw9FRkrHe0ABR1OlNH0vmLXMGPeB5iJeLkisbalzqAZ6sAI++EGDTs
++68cohoyXzz3DrC/jKTEgSp7T+ZXxJ2j1fmwmvH/j7YXlqH0qtPie3pocOLZxKE4
+l1UIii7vgSkOcjRIzcsYq1DTqtZyq3TfR7BSXUCIN4QwVBPo6u7d/Ikv3f770Ql1
+L4oE5OAlA9wXNqhVObe7lJUTbFB3HvldMFz0SUQYtroAkiJMi/MBl850YZny66Lg
+8JCSzkjYUkKcxjMdX1PfSfL6JrCJqxmxyEZIGH50kLGIjQcUSBXVQpCthyOwEQlG
+kwVJn9jW57FXrRVlypmMidj6JOe77ALwcQaILMWb0QWV/SByS6Y=
+=jEj7
 -----END PGP SIGNATURE-----
 
---===============7154939535135578741==
+--===============8068286524449220714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0266edc6049d-ee239c92b3ef.txt
+Content-Disposition: attachment; filename=revlist-2f4880c22e83-db8b4d2bf2d3.txt
 
 e7d41f493e736fdf6d1fba40f0f24e9f4bfe6337 scsi: MAINTAINERS: Add Bean Huo and Stanley Jhu as UFS reviewers
 fb20fe062b008eba371c5265440b6bbad5690405 scsi: ufs: ufs-qcom: Don't define variable in the middle of the code
@@ -136,4 +136,4 @@ e24eedc81ec4fe16f943a02b3617e2175c961c84 scsi: snic: Enable lock context analysi
 782a516e8f432f5ded4adab206bb809e29593c54 scsi: drivers: Enable lock context analysis
 db8b4d2bf2d3e02b4ff78bbf69d00e11795840de Merge patch series "scsi: Enable context analysis for most drivers"
 
---===============7154939535135578741==--
+--===============8068286524449220714==--
