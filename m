@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1085897958740673149=="
+Content-Type: multipart/mixed; boundary="===============5330586117075532083=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 24 Oct 2026 20:55:51 -0000
-Message-Id: <179287535197.2400870.3312260551088120380@gitolite.kernel.org>
+Date: Sat, 24 Oct 2026 20:55:55 -0000
+Message-Id: <179287535504.2401066.3148711257207051746@gitolite.kernel.org>
 
---===============1085897958740673149==
+--===============5330586117075532083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/canary
+  - ref: refs/tags/v7.3-10.canary
     old: 4d994d1edad19103ee8f606e8223047ad4ffa974
     new: bbb59a446b43fec6cf095ebfce5df15938b29ed1
     log: revlist-4d994d1edad1-bbb59a446b43.txt
 
---===============1085897958740673149==
+--===============5330586117075532083==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -64,4 +64,4 @@ a53370e35c23abaae337feaa010ac1dc11d29e07 kernel-7.3-10.canary
 334f83c80853c5f76335e0b3550918672f3e3f17 Merge branch 'kernel-7.3/nfsd-testing-canary-nfs_common-XFS-IOLOCK-and-async-DIO-middle' into kernel-7.3/canary
 bbb59a446b43fec6cf095ebfce5df15938b29ed1 Merge branch 'kernel-7.3/changelog-canary' into kernel-7.3/canary
 
---===============1085897958740673149==--
+--===============5330586117075532083==--
