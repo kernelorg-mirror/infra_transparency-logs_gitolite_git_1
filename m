@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4222589865367532906=="
+Content-Type: multipart/mixed; boundary="===============6462831652620309230=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 24 Oct 2026 17:03:54 -0000
-Message-Id: <179286143444.2227512.1426632154494311735@gitolite.kernel.org>
+Date: Sat, 24 Oct 2026 17:04:00 -0000
+Message-Id: <179286144037.2227698.17608438380545907989@gitolite.kernel.org>
 
---===============4222589865367532906==
+--===============6462831652620309230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: 2bba28e98578de622ef307d00875aa8f8bca3d10
-    new: d10295141a98938a767234e73d45b954a69c9a2f
-    log: revlist-2bba28e98578-d10295141a98.txt
+  - ref: refs/heads/mm-stable
+    old: 2967f3ccdb5fae956f1b085370ec292bab5c7e25
+    new: 183895979c441e52dbd651b388553b09eaa35cfa
+    log: revlist-2967f3ccdb5f-183895979c44.txt
 
---===============4222589865367532906==
+--===============6462831652620309230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2bba28e98578-d10295141a98.txt
+Content-Disposition: attachment; filename=revlist-2967f3ccdb5f-183895979c44.txt
 
 aa09311c40f6d3aa6037065e17d257ffa48b9402 mm/vma: don't leak the commit charge on mmap failure
 824cc56bf43c714319992bad3558803cac6e77c0 mm/hugetlb: fix use-after-free of a new anon folio
@@ -239,42 +239,5 @@ baed735a956f2a7badb5436bef6810303034f920 maple_tree: fix maple_range_64 crashes 
 30a397468e10076969c8df128d09986d718d50b4 mm/memcontrol: publish null pointer before dropping css reference
 51542d55bcd59d428896168fd5b99b0d32440765 mm/page_counter: use WRITE_ONCE() for emin/elow when parent is the root
 183895979c441e52dbd651b388553b09eaa35cfa mm: multi-gen LRU: fix NULL lruvec->pgdat deref with memcg disabled on cmdline
-a34f8fdd54d0e2beca843453a626312c9f8c64dc mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
-dc6b7ec19fb30dcb756572f03bba14e549f5f3ba mm/vmalloc: use dedicated unbound workqueues for vmap drain
-65805c05018311054d06f65154a2a0c91434a02d mm/vmalloc: avoid false sharing with drain_vmap_work
-f8f754bb44953998ea4e32c822add1a523d52eef xarray: fix index jumping backwards in xas_find()
-ccecc55fe9c59160676adcd686ebbc39b00aaaf3 assoc_array: discard shortcut when collapsing a leaf-only node
-ab52438da46d2087c9e698f2427ab238f3daf3fe userfaultfd: clear the inherited uffd bit in move_swap_pte()
-3f561df4d2a16e2efbee4701a4d5e7f99e1a05f1 mm/khugepaged: flush deferred unmaps before dropping a failed folio
-e76b0fdf13ba8a31ffda4b721ad7acbe8c5f06ff lib/base64: silence clang-24 -Wconstant-conversion with diag pragmas
-782c02b0635b3b5b2355a05824e1a94353adc8c3 mm: memory: fix truncation removing mapped folios
-be93ac85599e21195d278fb6905eba19bac78082 mm: fix address wraparound when scanning large folio PTEs
-a26e9e40d1f9afd7001422c92cfa2a5b0a7f8f26 iov_iter: validate extracted segment for bvec alignment
-9660b369b94b98b641fc70a74eeccd4776b97ee4 foo
-4a2fb42336e8d02e2f7c6c7275f8c459018a5b3b mm/page-writeback: avoid 32-bit overflow in dirty threshold shares
-8b8435b73f01eecc883ffeee7cd19b431478216b selftests/mm: merge: keep the far mremap() targets in the carveout
-e08f2ab6e1034bbd77f5ff0fbc49e7cf553ad127 mm/page_alloc: let the highest memory node recover from hopeless state
-d6d21222aa6a6a04a77841cf3b62bfb0194c92e2 mm/hugetlb: fix mremap move length truncation
-38893b4f7eebcc3b0920e417c2202c6f516f5050 mm/hugetlb: disable PMD sharing for UFFD missing mode
-29f86ec94dc5e8c8aec637102ec571be4dcd8b71 mm/hugetlb: fix mremap deadlock when PMD sharing is possible
-367de6dc5a329b3a2f4f2b11f15f55992cc0db59 mm/page_alloc: mark pages freed by __free_pages_core() as not tagged
-1d71aba42251fd190cad62d98895499985afdaa7 mm/vma: fix expansion of VMA_MIXEDMAP_BIT VMAs
-9366cc6387af055d713e08734db32c83aa2f3f73 xarray: clear the new head's parent before freeing the old head
-e54a10e758f03bdedb363b59bb2f71ce45ad9119 mm: do not unintentionally overwrite atomic VMA flags
-c942077da7b7ff8a5322ea239c51c9d2150d21be mm/vma: write lock source VMA before duplicating it in __split_vma()
-5b8a317f491b7d72be255081c2de8103fc37cf5d mm/madvise: preserve VMA_SOFTDIRTY_BIT when changing anonymous names
-d979bc859e3f57846b4f187ef3cb37564f8fad87 mm/vma: avoid losing atomic VMA flags when setting sticky VMA flags
-644ddedb6aa6bbdeed3bcfa4d0efca16b0c11881 mm: memcontrol: fix NULL pointer deref in high_work_func() on dying memcg
-139767cfd8b16712e41564d41aeb0957a451a4b5 mm/ksm: keep soft-dirty when merging a page
-097f0b0e706541c7636c27e0fae04997d7c0b2b3 mm: zswap: use separate compression and decompression requests
-624810778968098ea8e3195a42695bea719c806b crypto: acomp - enforce MAX_SYNC_COMP_REQSIZE
-4457a5b340aebae7e94740eaf8985ad6d20f7555 mm: zswap: use stack requests for synchronous decompression
-d247db742a0d1eda70b3062bf828c58a77c57dc4 mm: fix missing page-table destructor in pagetable_free()
-6e7d4051b0cb1d7bd431a512c91cb35c2e9743ee arm64/mm: fix destructor for unconstructed hotplug page tables
-9d81cede6cffcbd300e0bfdbc4808cf8d13a4c58 mm/zswap: validate dlen and normalize comp_ret on compression success
-83ed761e3165beca6a8d3db0069e261ce84ad5c4 mm: make swapoff interruptible when unusing mms/shmem
-bf85cbd59da91f21ce6862a41b0ba10593f24933 mm: nommu: set MMF_OOM_SKIP in exit_mmap()
-cbb1f59ee92184b9b32a5b007b6657c0bb6c7b2b fs/proc/task_mmu: fix lost maps entries above 2^63
-d10295141a98938a767234e73d45b954a69c9a2f mm/vmalloc: read vm_map_ram block regions from the requested offset
 
---===============4222589865367532906==--
+--===============6462831652620309230==--
