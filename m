@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 24 Oct 2026 21:15:50 -0000
-Message-Id: <179287655087.2416196.5524500845982109769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sat, 24 Oct 2026 21:17:16 -0000
+Message-Id: <179287663668.2416870.7354927058483536046@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/keys-rhashtable
-    old: 99469511ffdd24d9280984302bbdec8502477615
-    new: bdb77565cbbe6eb45beb8cfdef8142a42addab0f
+  - ref: refs/heads/master
+    old: cc508b67516fde0491dd5ca7e32864a566bc2796
+    new: af1d1945fbb3d2037a84edaa7130ecc6be96c504
     log: |
-         1dd026cfe1cf0030c23e957519f55d66b92ec14f KEYS: Replace assoc_array with rhashtable
-         bdb77565cbbe6eb45beb8cfdef8142a42addab0f lib: Remove assoc_array
+         91869e22c939205a909f131118c25e7d762e1775 foo
+         329acde62d6aed032b6110e19a48b827b2ea5de2 foo
+         af1d1945fbb3d2037a84edaa7130ecc6be96c504 foo
          
