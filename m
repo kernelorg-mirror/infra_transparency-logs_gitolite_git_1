@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 24 Oct 2026 17:06:43 -0000
-Message-Id: <179286160305.2230950.10218827971615910463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sat, 24 Oct 2026 17:15:36 -0000
+Message-Id: <179286213618.2237608.14168252842009875091@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 5f2d2963a120ad275eaddc069b7ae4cc71c6d7ee
-    new: ef97697359f1c9fad310aebd8afafd621dd2780c
+    old: f661f0ea1bbd24addb2e9db0d8932e7f6ed506ac
+    new: 9d5588afcb042499716014fa55e23095c1d1e40c
     log: |
-         c02a998c75f48e41de34aae258f0f3e15ed628eb patches/next: add watermarks min_wait_time fix from Aveline
-         3ae3a348e4bdd78b42d59cb4eaf48a5f9761b954 patches/next: update watermarks min_wait_time fix from Aveline
-         f343caf4231dd7f0f8f2e1b1abbaebc3b7e74bce patches/next: watermarks min_wait_time fix: move to the head of the queue
-         aeddc2aefc6f0c74ed86005808cdae62fae75785 patches/mm: update
-         ef97697359f1c9fad310aebd8afafd621dd2780c patches/next: rebase to latest mm-new
+         9537cc1d49d12495f0143c8fadf50780754312f8 foo
+         8a8b16271cfe9b2c5286ef4875f31a776acd9878 foo
+         b6faf059e32b5b2dc595cf6ad28937102b466f5b foo
+         9d5588afcb042499716014fa55e23095c1d1e40c foo
          
