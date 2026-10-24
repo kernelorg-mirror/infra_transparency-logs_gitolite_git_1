@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2111507968956441472=="
+Content-Type: multipart/mixed; boundary="===============5131233918469973991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 24 Oct 2026 10:28:12 -0000
-Message-Id: <179283769282.1944793.8144927767367204716@gitolite.kernel.org>
+Date: Sat, 24 Oct 2026 10:29:22 -0000
+Message-Id: <179283776294.1945454.5605937874617631304@gitolite.kernel.org>
 
---===============2111507968956441472==
+--===============5131233918469973991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,18 +16,28 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ca46e0d235bcdb84f45384c05150c8da63596c6e
-    new: e62ca4a7fc1cf7de2d70952a4bf495c640a237dc
-    log: revlist-ca46e0d235bc-e62ca4a7fc1c.txt
+    old: e62ca4a7fc1cf7de2d70952a4bf495c640a237dc
+    new: 3719f1da14c3ec07875a17214da63d2b6e20ad0b
+    log: |
+         400a895ef6db7f5388d8443aafd05a66437e3ffe Merge branch into tip/master: 'irq/urgent'
+         bcb84711259beef3a54f06c9f3a969b01beff969 Merge branch into tip/master: 'perf/urgent'
+         ffd990df4bf237f44297f0f430ce9dfef3541e64 Merge branch into tip/master: 'sched/urgent'
+         7f271bd7e00196090fab90b2bf7cea8667a6b025 Merge branch into tip/master: 'timers/urgent'
+         a864d0ba8c05e2fbc96c90dc209dbad600de4f36 Merge branch into tip/master: 'x86/urgent'
+         e7249b1590c546f78ed0d170fde33997cf8236f3 Merge branch into tip/master: 'x86/apic'
+         3719f1da14c3ec07875a17214da63d2b6e20ad0b Merge branch into tip/master: 'x86/misc'
+         
+  - ref: refs/heads/tip/urgent
+    old: a5b443977bcbd380f3c112cfa1b4793e602076d2
+    new: a864d0ba8c05e2fbc96c90dc209dbad600de4f36
+    log: revlist-a5b443977bcb-a864d0ba8c05.txt
 
---===============2111507968956441472==
+--===============5131233918469973991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ca46e0d235bc-e62ca4a7fc1c.txt
+Content-Disposition: attachment; filename=revlist-a5b443977bcb-a864d0ba8c05.txt
 
-337bdf853101a0ee66eadf668f0fef21f8276b52 PCI/sysfs: Decouple acpi_index from the optional device name element
-1832dc1579aa7cc7cd41843770767e7a3ffa8364 PCI/sysfs: Handle a malformed _DSM result in acpi_attr_is_visible()
 af5ca2d75147bf283239e8ef0fbf6e5e0488ca91 PCI/sysfs: Pass the device name length in UTF-16 code units
 e7b44579a6b4495c03720da49f2eeaf13a94ba69 PCI/P2PDMA: Add Intel Xeon E3 v4/E5 v4/E7 v4 host bridge to allowlist
 4d0c7b944ea9f8ff64ce51f984a0817db08eb630 accel/ivpu: Limit DMA address width to 42 bits on 40XX and later
@@ -1047,8 +1057,10 @@ d1679c8713221d257aee54dbe3dc2064aff776f1 Merge tag 'trace-ringbuffer-v7.4' of gi
 4da9dedf3fc59137fd86d664693776aa38cb97f5 Merge tag 'iommu-updates-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
 17bb0e2f6c8043f70a693a5f3797471cbed354c8 Merge tag 'pci-v7.4-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 5b0764a53235d3c77e1ed674e836e1b3fe1a4b1f Merge tag 'drm-next-2026-10-21' of https://gitlab.freedesktop.org/drm/kernel
-df7e7186a479d6b81ccc1176f82f12037dbd9aef Merge branch 'linus'
-30d14da7b47c34ec10ee5bdc70404bd8c9b1d2a7 Merge branch into tip/master: 'irq/urgent'
-e62ca4a7fc1cf7de2d70952a4bf495c640a237dc Merge branch into tip/master: 'timers/urgent'
+400a895ef6db7f5388d8443aafd05a66437e3ffe Merge branch into tip/master: 'irq/urgent'
+bcb84711259beef3a54f06c9f3a969b01beff969 Merge branch into tip/master: 'perf/urgent'
+ffd990df4bf237f44297f0f430ce9dfef3541e64 Merge branch into tip/master: 'sched/urgent'
+7f271bd7e00196090fab90b2bf7cea8667a6b025 Merge branch into tip/master: 'timers/urgent'
+a864d0ba8c05e2fbc96c90dc209dbad600de4f36 Merge branch into tip/master: 'x86/urgent'
 
---===============2111507968956441472==--
+--===============5131233918469973991==--
