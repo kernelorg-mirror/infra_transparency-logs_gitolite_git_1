@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Sat, 24 Oct 2026 02:14:38 -0000
-Message-Id: <179280807859.1587399.6134361905385446206@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 24 Oct 2026 02:32:49 -0000
+Message-Id: <179280916968.1602158.15075441890350412106@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/dev-queue
-    old: ae8673b495fbbe0dd964609eda58d98c75322d00
-    new: 14121531f5181a6648de9ac583f08e0d7f3783fd
+  - ref: refs/heads/testing
+    old: 15baaafd215803bc081a2db5c2d4c0f95b4a3607
+    new: 91a45d3506f50e2cd4c7eda1ca1a367bf8789308
     log: |
-         3c98e00ffb43599e9617000194a318de82d8871b ice: store cached PHC time in ice_adapter
-         14121531f5181a6648de9ac583f08e0d7f3783fd ice: use struct timecounter for E825 and E830
+         91a45d3506f50e2cd4c7eda1ca1a367bf8789308 staging: iio: frequency: ad9834: use guard(mutex)
          
