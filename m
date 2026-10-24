@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1189753204219872617=="
+Content-Type: multipart/mixed; boundary="===============4146329576125199038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 24 Oct 2026 03:23:29 -0000
-Message-Id: <179281220911.1636632.18093306379657465468@gitolite.kernel.org>
+Date: Sat, 24 Oct 2026 03:23:33 -0000
+Message-Id: <179281221338.1636922.11138396308509781317@gitolite.kernel.org>
 
---===============1189753204219872617==
+--===============4146329576125199038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 641f991d94a27bc0d84096b39c18e71bb92dd423
-    new: 6e99db6a11682d320606288e8c6e97ea58ed7600
-    log: revlist-641f991d94a2-6e99db6a1168.txt
+  - ref: refs/heads/7.4/scsi-staging
+    old: db8b4d2bf2d3e02b4ff78bbf69d00e11795840de
+    new: 3650bb41391b51d9dcf87b0480ecafeb1526252f
+    log: revlist-db8b4d2bf2d3-3650bb41391b.txt
 
---===============1189753204219872617==
+--===============4146329576125199038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1792812206 -0400
+pusher 75C5DE3D 1792812211 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1792812206-0cf1a5f952f1557676fc06dbfbf2a6281f761d67
+nonce 1792812211-97b7bd891e91a98040ee2122409003fdfda8c3f5
 
-641f991d94a27bc0d84096b39c18e71bb92dd423 6e99db6a11682d320606288e8c6e97ea58ed7600 refs/tags/mkp-scsi-staging
+db8b4d2bf2d3e02b4ff78bbf69d00e11795840de 3650bb41391b51d9dcf87b0480ecafeb1526252f refs/heads/7.4/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrcJK4ACgkQ7ulgGnXF
-3j0Q4w//ZTO1qU+WHSoKtdADtqlDqKCQMot4yj6rNhTJ2xQza7b/lzSH1rWnkpdo
-eTqttRFJWxH4yfHVdrgZbVhys3+HzFtZ6UREhouKvGXAi0nv4UxUv6LpLRd37mvj
-S3A0f/gKuYPPLLJCdsmHkmfhM4EmZtO5oZJswZc2s1JJt4VLsbMOidXMp/4IO6XO
-mkSsKCsaJGO4SXCBtGqbqlVKfZUlUv+ec1dtXkJwsdN0hq6BrEef/+ac7o+o4ED8
-p+TjzDclxQSRXxynLhOiw1ng3Yawf0px+S495b8ditGTZ59Zi1G3Mop+sZ9t4wH1
-AP8S6oSCg5yA6hxM3MbTrM/yXyphMDRcq5/ZBxhYix7nqDngANi6mMb8MJqufYRc
-JqyUs1yj72v6TS2S3EiQ+7PN5BGUhojdSuCLMrqgxuZzR0juG0w2jx8LY6AFn6oy
-szpC5FuSTaBGfw5y1jB7hcn7ROYiW+Kwuf20PVu2VLuf65X46z4n6xbN3AMbclYN
-l10dAl7PMoLQDSzElrVF3MllThQkxRF8TBK7WWoDRq+T/rZLK09+Nwowqy/thc/B
-Tn7df5XwCHRL4W7A09FAXswDNjXOJJGS4IF1li2V156lmZPDX8lmJxTfsdB0LucK
-r/l21e8Qw2IjOFdhnvjRucvN+9wDxnfUseY6Gb7AcLuXgbEpsQQ=
-=zYnw
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrcJLMACgkQ7ulgGnXF
+3j2iSw/+Lq3KMT12Yko0l0DBmM0qOiO9xD9KBNF/1dHbdioHONjkmJC+PGqoiUvR
+6PGN2j0+LWVOtgq1RtlwQMyGDD/ZU3w0gVqjsuaces1Ej3sWOEw6+chT2HRl2ROI
+eZIODsSDbtBSrqytEQqOWU/1sA7n19ro4j9wV4HKXPKzwn4otqCBjanusrAt0vrK
+Adhtu4dlIa1ad2rACKu6767BQGWOYiAbfsfk9Dr3Q5l5gUuVHg+UfScx7jjZ8Ni+
+QX1pCRyQvR62d1HRISE86bYmWlG2Fsuna+m8ZFNzskDquvek4b66Mfo6SdbdjFQd
+3fPHQgAcWHcyUYTvs0HyEKQh0+bifuVzsfCv0b5sj6spr9ex3u+jOkvBEWD0IUSQ
+itDmxigcuVGJ8fQpdHHO3O50YO1JbODUc88WvU0rOCefdeUWipSEbFC+oaqcHQdf
+FEv2pRvocOp15LadpDA69kEYlpIW8gMriAE+GD8KsrJK23/bLAwYmTbmSE6Omtvk
+SIVQpTViep1jzLqPDX1ODBXVaY5p4dyP2Bv9KmjQ8rPjjSOUe5naRWA7+u2BxGYC
+XOxCNClJGVmhsMxP6cE9qxtSSwX+q0XwqajPSSrS9FbVnz7IMECQurtaRBxLOb/5
+poRlSOh2/vF+dVbG1sryJeyy3xeSsbKpTtm31LBEraPvE1jn6YE=
+=/BgB
 -----END PGP SIGNATURE-----
 
---===============1189753204219872617==
+--===============4146329576125199038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-641f991d94a2-6e99db6a1168.txt
+Content-Disposition: attachment; filename=revlist-db8b4d2bf2d3-3650bb41391b.txt
 
 264bf9655c3d067d775a46f05eb8c871c488a864 scsi: pm80xx: Fix the use_msix, use_tasklet and read_wwn parameter descriptions
 779f202a92ef10a426efc07d0f4267918cb07ca3 scsi: qla2xxx: Fix the ql2xfc2target parameter description
@@ -116,4 +116,4 @@ cd37a69c367b6a5f685db0ac7d01f08545081a30 scsi: ufs: core: Remove an always-false
 eb2c4847a1cb2f426cfc702364df7a38ebbf730b scsi: ufs: core: Do not release a reserved request in ufshcd_abort()
 3650bb41391b51d9dcf87b0480ecafeb1526252f Merge patch series "scsi: ufs: core: Factor hba->outstanding_reqs helper and fix double completions"
 
---===============1189753204219872617==--
+--===============4146329576125199038==--
