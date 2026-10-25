@@ -1,67 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2244600029052445119=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 25 Oct 2026 00:26:29 -0000
-Message-Id: <179288798922.2557236.6609240400320339729@gitolite.kernel.org>
-
---===============2244600029052445119==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Sun, 25 Oct 2026 00:27:40 -0000
+Message-Id: <179288806056.2557824.14572640470292437361@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: d10295141a98938a767234e73d45b954a69c9a2f
-    new: a2abad0d7f453cc9902fc8bf7b871db5563a652c
-    log: revlist-d10295141a98-a2abad0d7f45.txt
-
---===============2244600029052445119==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d10295141a98-a2abad0d7f45.txt
-
-9a4de511d13951deffc12b6b358e793f420f1b93 mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
-16b0c0fe6ff88b9e55ca4b0c33205e38729774c6 mm/vmalloc: use dedicated unbound workqueues for vmap drain
-d27db49f42d0cb14901afb9336f9bbbd498552c6 mm/vmalloc: avoid false sharing with drain_vmap_work
-a53d938241f5fb51d8be2ada730ae6873221b7d9 xarray: fix index jumping backwards in xas_find()
-c4abd3dbba07b246982026f41081882ad03f0fa2 assoc_array: discard shortcut when collapsing a leaf-only node
-dc628742b994cdeefa841e1f230a6f9cb2b9d2ba userfaultfd: clear the inherited uffd bit in move_swap_pte()
-6a4a439ef684d251351d1ed2fb9a8da518c4df8a mm/khugepaged: flush deferred unmaps before dropping a failed folio
-b1d72011235847bee9959538047bf14e0ded2ccb lib/base64: silence clang-24 -Wconstant-conversion with diag pragmas
-acc7b164f56287143f8982d1ff8e49a6d7af75bc mm: memory: fix truncation removing mapped folios
-940f338eed08515d867f666f9a5cb7169a576793 mm: fix address wraparound when scanning large folio PTEs
-39449a507ae2b1ba3490fe392a2152692b5e2ae9 iov_iter: validate extracted segment for bvec alignment
-380fd0806fc9ed8071b1d27825606efef595ecdd foo
-e4a2567527884b8bc9ca47d2420c273c2a1c6b2a mm: fix missing page-table destructor in pagetable_free()
-45876c538f89a7bde5dd4a192efe9e603910b6c4 arm64/mm: fix destructor for unconstructed hotplug page tables
-f94f771206b96483b035699c5d9de01c53507b77 mm/page-writeback: avoid 32-bit overflow in dirty threshold shares
-97dfabb29a12eecd451f7c67be311a761d3ad8cd selftests/mm: merge: keep the far mremap() targets in the carveout
-4dc24f91ff729f8d623161f4a581a77e95339cd4 mm/page_alloc: let the highest memory node recover from hopeless state
-c2faadc6e0c0cadd526b9023c2104647b6828265 mm/hugetlb: fix mremap move length truncation
-357e9d03b6cbb981dc96f45f476c0fd695bc0506 mm/hugetlb: disable PMD sharing for UFFD missing mode
-96b0bbc2cffab725866c118288cb883e977753f6 mm/hugetlb: fix mremap deadlock when PMD sharing is possible
-7429b17714d5984cd4918ce1f44ecfe5f800d223 mm/page_alloc: mark pages freed by __free_pages_core() as not tagged
-470ff8b760ca4d22db23956183a80f5fbecf65c2 mm/vma: fix expansion of VMA_MIXEDMAP_BIT VMAs
-d137402f8aa02b28cbfc74b6459c8df93704031a xarray: clear the new head's parent before freeing the old head
-c8ddbbfc994f599314403b664685781c70d0e351 mm: do not unintentionally overwrite atomic VMA flags
-bdca0b172e6565f5cd7e9d1af6d55b905627c868 mm/vma: write lock source VMA before duplicating it in __split_vma()
-084f566c0aec4af1760d2d5ed2383631999ffd8c mm/madvise: preserve VMA_SOFTDIRTY_BIT when changing anonymous names
-3b99f1993078c6ba7e13df76c997cfc8dedd669b mm/vma: avoid losing atomic VMA flags when setting sticky VMA flags
-6284b4486f16943f61766ad559435722937e18c0 mm: memcontrol: fix NULL pointer deref in high_work_func() on dying memcg
-869ffea46b2e2c8c17d4e70746750b9d81162eee mm/ksm: keep soft-dirty when merging a page
-8a4679d919e3bd31549fd1eb63115b1288a4ce31 mm: zswap: use separate compression and decompression requests
-85dfeb061ba9069075d31a6247c196d98783cd2a crypto: acomp - enforce MAX_SYNC_COMP_REQSIZE
-f514eebf46dfde4e8c2098d6ff5f473e2d7063d1 mm: zswap: use stack requests for synchronous decompression
-f8ca800231d7ba0eb4796a76f3c7210efff5b6bb mm/zswap: validate dlen and normalize comp_ret on compression success
-0f4fc55b61e6b0773bc8e237443ebe4017aed98f mm: make swapoff interruptible when unusing mms/shmem
-7a6f859605aa5f03a320a3535b3eedc86cab5f6d mm: nommu: set MMF_OOM_SKIP in exit_mmap()
-327fb563a1e27546704a72f8d27f286dd2bdde32 fs/proc/task_mmu: fix lost maps entries above 2^63
-a2abad0d7f453cc9902fc8bf7b871db5563a652c mm/vmalloc: read vm_map_ram block regions from the requested offset
-
---===============2244600029052445119==--
+  - ref: refs/heads/master
+    old: ef97697359f1c9fad310aebd8afafd621dd2780c
+    new: 53dd56f35e50866e826a8717bf79913138516fcb
+    log: |
+         7a8b11e41b473dd86ee68233fbe0985e5e40195f todo/fixes: update
+         47fe878ccf8e3445c8c48e4ff93a8116dfcb6ee3 patches/next: wordsmith fixes
+         541a69909146244917e6636ebbb5724b0a6ffabe patches/next: add comments for static variables that moved to damon_ctx variables
+         6f2ff9cc86aeeca0983ae3e75c757428b01704b7 patches/next: wordsmith
+         9715e0732360444e2f8251742b729b233228af46 patches/next: target_metric_store() toctou fix: wordsmith user impact
+         81f31e17dd823b479a7e96ae1ff72da5d68aef63 patches/next: move hotfixes to rfc with a cover letter
+         3518e8a64e860361e39ee1d651b0a21c8d5ff556 todo/fixes: update and correct states
+         91d5ede11a80f2ab9bcb47d70c925a3c16042efd todo/fixes: update
+         7a990cf0b51514bcd8a4b312df19d646cd25b7b4 todo/fixes: fixup
+         c74f9ad9ace9facb7cf2a7ead0d919e579aa8842 todo/fixes: update
+         fd27212aeaa29aebb91a9c82a7e4bf8a41e0ca3a patches/next: three race fixes: add proactive changelog
+         a314e2f6b248f02a46a720aa093316cadace8a36 patches/mm: update
+         53dd56f35e50866e826a8717bf79913138516fcb patches/next: rebase to latest mm-new
+         
