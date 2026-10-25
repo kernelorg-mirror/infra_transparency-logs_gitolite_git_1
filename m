@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============8017898708529152235=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 25 Oct 2026 17:19:29 -0000
-Message-Id: <179294876910.3277295.15028485320145819652@gitolite.kernel.org>
-
---===============8017898708529152235==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
+Date: Sun, 25 Oct 2026 17:41:29 -0000
+Message-Id: <179295008933.3294476.9783506543059898419@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mptcp/linux
+user: matttbe
 changes:
-  - ref: refs/heads/master
-    old: a2d020f204e604a0d7ed9f9019b0017de70c7213
-    new: d481bcea90fe4f544a308bb09f986114f55cf1f4
+  - ref: refs/heads/export-net
+    old: dfd1ffe1d8a26feb7d2f7cd75a0c1d8020e3718e
+    new: 339d577d236d15cd3c25bddf8c09862ce02dfdb5
     log: |
-         d481bcea90fe4f544a308bb09f986114f55cf1f4 cve_utils: drop some extra blank lines
+         60c9d8aeb2115cf5f5a82a0863522d79c1978f5e DO-NOT-MERGE: git markup: net
+         80243c4c34758ace189dc171890debeed1db3b49 DO-NOT-MERGE: git markup: fixes other trees
+         5ff9d2446f053f767c1b9f203bbf72eba4c4e32f mptcp: push pending data after a sendmsg copy fault
+         2d6358a231781eb434e3bf56b81629c84b563d87 DO-NOT-MERGE: git markup: fixes net
+         9fd853e6924fea65ec7acb412a31a9d9b7dec7ac DO-NOT-MERGE: mptcp: add CI support
+         c537d92d1e70dbd4440c65e0ecfc836b41eebda9 DO-NOT-MERGE: git markup: end common net net-next
+         00a331dba11f97f96da5e73fb27b2742af18311d DO-NOT-MERGE: git markup: fixes net only
+         e64dd5ddeb580768fe1f2f28ec1d8b99fb15a650 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+         339d577d236d15cd3c25bddf8c09862ce02dfdb5 DO-NOT-MERGE: mptcp: enabled by default (net)
          
-
---===============8017898708529152235==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792948770 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1792948768-e53076d4cfa976f59f55d0cdaebca739f5ac5656
-
-a2d020f204e604a0d7ed9f9019b0017de70c7213 d481bcea90fe4f544a308bb09f986114f55cf1f4 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmreOiMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3uMQAJSN5/ht3r4Mtb5DUEqr
-vqlqzhcWnFFUvBpncdzlqZDe4IoAqWHLaLH00YUOaiLz5WrStD7iDr5oBn1oa2RN
-biecVv/33zD3+5xB7PzNoPQKzcZeAGWJAyak7absIWJa05/M8FBQnOVMOTTmgZKk
-08yOjHH9DbbsFMJ6Zx7qvhoRjVfdIY3FCu5rzZ2BW7KR4O1OpVXyW1mQ1DCDxdKQ
-lrskMyhBee3fiIgRoWOLtGWSgIWeaE5wCuldJga8PAa5Zya1jCtHACxarcmz6m0G
-Ecuw1OJv54pc9T++EeqN2sLcO3NDVwoRrZwEKuMEherWgahmQX/bCVYPp4SZhZYG
-G4xeXUWguVnpCfgkunJxuA3q8G3uO7eS7KnN2NdRa6g28HwXzSz+0Cc/cgRL+Oq2
-bsC8BTSZezh+8KrYxbAZBuIrMSdXzYer/WzrIPmg7Vb1PeKM7LrAV84TuMIh2Y3U
-CRfQ1f4ZKB5oY2lCkWbv4mkGHj6AVTWr7WiM6ABFZeAPxiCRdGXYJxrETVBPbqOy
-NLMCOlmCipgk9iH4S6mHD8s6T5PpdgaLVMISA8m9CjLDuVKdW7w5k/Ec7eZdWp+E
-Sk1+18zw1jj3hcmnmjI4RAW08QMOi4XxRnl+UjYREguEsrOa2vKz+CR411vG4+Jm
-YIG4di9lS1ibiYQuWtoLjD7H
-=PWIK
------END PGP SIGNATURE-----
-
---===============8017898708529152235==--
