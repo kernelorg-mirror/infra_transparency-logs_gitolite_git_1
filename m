@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1649165401964891855=="
+Content-Type: multipart/mixed; boundary="===============8576636222204135349=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 25 Oct 2026 06:58:28 -0000
-Message-Id: <179291150843.2834644.926812556176548339@gitolite.kernel.org>
+Date: Sun, 25 Oct 2026 06:58:32 -0000
+Message-Id: <179291151259.2834835.13458446152355030231@gitolite.kernel.org>
 
---===============1649165401964891855==
+--===============8576636222204135349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
+  - ref: refs/heads/tty-testing
     old: 1184f87e2790e8af9be3116f608d2e86b4792d7d
     new: 21a7f44fd0765fcc5194130b28767786eba1d1e7
     log: revlist-1184f87e2790-21a7f44fd076.txt
 
---===============1649165401964891855==
+--===============8576636222204135349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792911507 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792911511 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1792911506-bceed9c93e3b5a452ee292a9e2976bf996ce819b
+nonce 1792911510-b19e5b679bd01d45af160add98e21e92afe10b27
 
-1184f87e2790e8af9be3116f608d2e86b4792d7d 21a7f44fd0765fcc5194130b28767786eba1d1e7 refs/heads/tty-next
+1184f87e2790e8af9be3116f608d2e86b4792d7d 21a7f44fd0765fcc5194130b28767786eba1d1e7 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdqJMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QzsP/1hRgDqZuLZuF3dxB/za
-l9PuB1uwKykRseeH4Bk+HWsm+mDUH6uVvVbS8ErNXehGO9iuiGpS1x9wLl5LyWUk
-YGLPYNeZs1XyqGMpUf4vBh7ze/x/NZnK89D5RY6jCK0Eppq0M4WLsCCQExxU36L9
-HO4JIpPkbbVk6Zoc+vbFEkWJSiTFSfr8QefwnGXmf1OmVHnadtoQlgrVkDAwEWmf
-LAWlN7XxouQKqXMSm4XHJLj3DJewp8j7OXXpJmx/di8tJcFj5EOc4eLxSVrPoLnn
-loqb5sWOQhMYrlkyIV3DKrBskcN2GAP/FnB/oJCcvP9lWTMRXYQByNGMnb+VcczV
-RbRsriqu7UL5C9sJGbeEHIkS03pSSLWDqz4QF1+lLDNBamSekdOQY05lQDQQ+FV2
-+3BOMenxjpk3y7daE77CsuoLbusnx8Ak5SJowXMRVTF6Q8khGzxPsvs+ZtKeZpyU
-+Fte9qoiclAsnNJ6590+aMWbmPiARBJMBKjRgzHPVyNdrnfXyvxsyweWDupxuAii
-XazQJMG7dSnZytBrvVE3BzG7+PpJsLcHhKpieH9yQ99e7yG+KXqKU+ky6dPKdk6c
-5FgBr5c/OjoJhVmJNRruKxG9qHVOSyoYzwztKWhJNCMLxgk30jgG3LBI6f5D0FyI
-yNrGcxNIpCLJgcOm454/7fUj
-=G7RO
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdqJcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VpIP/ik89PtRaHK1VaUkba1+
+5qWVbHuMC+iPfxLAZNzKhIUgxywLPDnuFJA8tzTMNhE1CMGxxHntvp4/6zrgDDv6
+uixRDKnZc7WE/7iFwgGcgfBeQKTSG0nI9rPYzaY1EhP4Bg4AG6CKgEwqbcRzqqiC
+6q7geGgUw89vlySM5fxiOzTjwPD5bO+Ex8rhus+Dwed2BEXJ8SiUtGgpaP7RK0rs
+VQz6b9oy87VlHibN5OqVnUe+AQ8xh1gCXFNplcV+bXyVxbr1sWl2J5MegCTwYvpj
+waZZwrH6+ixe9UPJoTCYEQbuBUzyyEAgKqQRlNV9KXBGoS1kpd8Xg7PdZ1XAVS6C
+j8fR9uhwIYCEiJSiX5OUpTkBu5H84QqjJS17Qo6GPP1PYfjda/slYueSr0IlDDK9
+VmhV+nfI3LBdYglxB5VY/q6jzLuACO5Wzg5hRTu3HXz0NVxWz+LckLlE114JqhlH
+dMgAUbn/oI6ZFfpmi0Q6Dj1GK7eSiebisqU6sMbaec8CWIRaWNYdZ2E06owG4beK
+pB9iR4uYR6SqoMuwRJ+VZZGmHvzw5i6TPWqIxCRoQMRhCpUHL/1nzw02Vnwmp/mO
+F6K907/38RQdCEA4Hcbk3pHwC4qfa8KOACfJe8JbZZ106urkDm1V90ub6U70GDJz
+XonFnni1uZV0D9OPXA+rdcz7
+=KTFi
 -----END PGP SIGNATURE-----
 
---===============1649165401964891855==
+--===============8576636222204135349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ a8c2facb7b2cef4d110e3b25037bc29703485c71 Merge tag 'pinctrl-v7.4-1' of git://git
 89d2d7bf0698b7fdfc914bfd219e739e9308d332 Merge tag 'efi-next-for-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 21a7f44fd0765fcc5194130b28767786eba1d1e7 Merge tag 'devicetree-for-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 
---===============1649165401964891855==--
+--===============8576636222204135349==--
