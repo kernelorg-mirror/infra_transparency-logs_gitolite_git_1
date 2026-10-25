@@ -1,68 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============3304824635397378752=="
+Content-Type: multipart/mixed; boundary="===============8196971191811829002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sun, 25 Oct 2026 07:18:01 -0000
-Message-Id: <179291268123.2852448.14617562984434466402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Sun, 25 Oct 2026 07:32:30 -0000
+Message-Id: <179291355087.2862791.3738940882961228328@gitolite.kernel.org>
 
---===============3304824635397378752==
+--===============8196971191811829002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/b4/bind_taint
-    old: a774d183bedcbb65858cc5bb00d9367540351ece
-    new: 8ce2350e2280111b66c260fbf87a42ef5febdcde
-    log: revlist-a774d183bedc-8ce2350e2280.txt
+  - ref: refs/heads/master
+    old: 32c52ec87d6245ee2d12ed5dd509e40062939b50
+    new: 21a7f44fd0765fcc5194130b28767786eba1d1e7
+    log: revlist-32c52ec87d62-21a7f44fd076.txt
 
---===============3304824635397378752==
+--===============8196971191811829002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-32c52ec87d62-21a7f44fd076.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792912660 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1792912659-a1196112dee76fcece8f4524687896d3daa1b68c
-
-a774d183bedcbb65858cc5bb00d9367540351ece 8ce2350e2280111b66c260fbf87a42ef5febdcde refs/heads/b4/bind_taint
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdrRQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BbEQAMFfRWFcah525AVtBK2N
-PHtA6PkvE4uuNuFPm+rjSyDqiJiwijmTV8Ch1kwey4aanepZ9w42NuL7XJuptt2f
-492m6sW+ImQ6UE1w7CvcvXLRDSzaVuGQd4R4A9CXXRudllM6iRzmhGTgfokl5xll
-XYvKk41AVnGWigam7XTsJpI8Zw1ArcgIkbPsjq3vrqIPRlFOs5qYoXXda7td3tE3
-vr9XPNkIwlKPofNHBQQl8xP1Cylv51/xh5zi2Z1ojzujEzN9XQ24Nx4xxmQu6KXV
-gnPXFEZmMiQmkYYy4vXrWyr3WFvKOZOk1LLJGHOMbx9TPtfSrvgySm4H97HHO83j
-c/cQOSO/f689fI7FjTyWOErbiQdalG9cX/HvuaZpQUxbtGUx1kalsi/3ODQDdYc8
-GNuJX922k2TpF6P1ypALhIeyUWyOkHRTXXP8yp1U52YSVt1ceDUCkXa5DmjnBtun
-dQMd6y1PJzmItvE8M/v7/4FbCGNJAClTLBnnW9JBP0Vyb2c+B09wqp+2Q+CrGaEA
-lZWmJbQPmlfl5iIC+jpPDnmlMghUqZv8PrUC+y15/K7gMT7ObHonWnDlTdbUqgH4
-c7Pigp3uoSZedhLUQI8YPJ7dXn0oZHCpytG5S2cAj2RVyjXMiyvqzUPaCg1qh4nx
-AsTV7WXsNd7RwinsxnReiDkl
-=dSP7
------END PGP SIGNATURE-----
-
---===============3304824635397378752==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a774d183bedc-8ce2350e2280.txt
-
+29afe67082b2d33ab2e90c56c337235d725f023f mptcp: reset msk state on early connect failure
+7538fa33bb2f66b8b809ff39d58308be48e197a0 mptcp: fix subflow bitfield misuse
+c9c90cf437a9e6597611b6d3aad6e255fad22867 mptcp: hold MP_JOIN msk ref when cloning reqsk
+2093bc7fa50056fef8620d2b82bcb2e9a0a5575d mptcp: fix MP_CAPABLE token migration when cloning reqsk
 22e692960d2e2d7a5390c65d552201ebd8949cc2 Merge branch 'mptcp-misc-fixes-for-v7-3-rc8'
-a3bb7a0184fbf9fed14aacb9773fe9f6f2097c1b Merge tag 'sound-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 1240de9e51201eaf7057f63b9ce5db15380cbbbe bareudp: Enable BIG TCP packets
 3e3f209961b03835a8f3d3e52ed9ca976997c142 selftests: net: big_tcp_tunnels: Cover bareudp
 b4423835d9c528c242531c7ba455b4f687906acb Merge branch 'bareudp-enable-big-tcp-packets'
-58161ead29e50d70a317ea26b472e0c7508e69da Merge tag 'drm-fixes-2026-10-17' of https://gitlab.freedesktop.org/drm/kernel
 c2124f80be4ceb6ec566ca3b5fc87f84ea9c36e0 vlan: restore HW VLAN tag insertion with reorder_hdr off
 a2ce227aea96b1c2e739f66c8650a036993e9083 Merge branch 'hw-vlan-insertion-restore'
 58f7989da6e715ce834ac861b7ba6ae9f9bdb098 net/sched: cls_flower: avoid stale mask references after delete
@@ -106,7 +77,6 @@ ab21f979d6f2351db7f6b6f0e5e026eefd9965e8 Merge branch 'bpftool-fail-map-dump-for
 e7f6c18a8c1e991d52cd49804f1f55902d54e7ba firewire: core: don't disable error work for transaction
 3e7ed554a85a21a1d4a9bff520f9f2f8b59c7f79 firewire: core: reuse helper function for scheduling error callbacks
 db87a8f530b62d43033ff41172d479d2ccd6fee3 sched_ext: Merge branch 'for-7.3-fixes' into for-7.4
-32c52ec87d6245ee2d12ed5dd509e40062939b50 x86/insn-eval: Fix shadowed segment index in get_seg_reg_override_idx()
 af873495cbcb066ab029f7f63b94410d4db47628 bpf: Fix verifier WARN on narrow read of bpf_tcp_sock u64 fields
 5256161e3573e0e35ac5e12f8ca904cf51e77f5b selftests/bpf: Test narrow read of bpf_tcp_sock u64 fields
 ff0545e0c263727b200f60af47d0364e4d041bde sched_ext: Don't leave balance callbacks queued across a pick retry
@@ -1080,6 +1050,5 @@ a8c2facb7b2cef4d110e3b25037bc29703485c71 Merge tag 'pinctrl-v7.4-1' of git://git
 9628ee0c2219daaa6374b0c5f5a5c0d55e0e263b Merge tag 'gpio-fixes-for-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 89d2d7bf0698b7fdfc914bfd219e739e9308d332 Merge tag 'efi-next-for-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 21a7f44fd0765fcc5194130b28767786eba1d1e7 Merge tag 'devicetree-for-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-8ce2350e2280111b66c260fbf87a42ef5febdcde driver core: add TAINT_FORCED_BIND for when userspace manually messes with devices and drivers
 
---===============3304824635397378752==--
+--===============8196971191811829002==--
