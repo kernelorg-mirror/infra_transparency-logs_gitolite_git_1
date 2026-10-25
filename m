@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6594199124863784858=="
+Content-Type: multipart/mixed; boundary="===============7872359734779125294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 25 Oct 2026 06:55:00 -0000
-Message-Id: <179291130044.2829705.7748887121656389188@gitolite.kernel.org>
+Date: Sun, 25 Oct 2026 06:55:06 -0000
+Message-Id: <179291130617.2831896.985888150702692582@gitolite.kernel.org>
 
---===============6594199124863784858==
+--===============7872359734779125294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,53 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: a90ee4305c4a5df72c11b31dacfdc76e00fcf78a
+  - ref: refs/heads/usb-next
+    old: bdf12cde30830d46a8ef1ba93986356f1164b4f1
     new: 21a7f44fd0765fcc5194130b28767786eba1d1e7
-    log: revlist-a90ee4305c4a-21a7f44fd076.txt
+    log: revlist-bdf12cde3083-21a7f44fd076.txt
 
---===============6594199124863784858==
+--===============7872359734779125294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792911299 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792911304 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1792911298-74d40e2cb0effa44015d4b0a3722eb74e3387a50
+nonce 1792911303-4b2933ad04b06eb52834bc2f2845047465321a03
 
-a90ee4305c4a5df72c11b31dacfdc76e00fcf78a 21a7f44fd0765fcc5194130b28767786eba1d1e7 refs/heads/usb-linus
+bdf12cde30830d46a8ef1ba93986356f1164b4f1 21a7f44fd0765fcc5194130b28767786eba1d1e7 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdp8MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GT8P/3sbqXt/EESTGyQUnIsg
-7ISLALhbjpx9Jdm0cFgz/+A31/8I78+2J1IC0nl7c46trSYZc+3aMA7lyvIuU6+b
-lGEfDM0THJsF6mRE0kO2zU152S+EDKwa+99TvfPkDpcUf0ZL7pT6UivSj5t6MZbn
-dxuW03TdOa9jzrF9NWzzQZeZ1FGjwdN3ifUR4oaIfgTKqHK3VLaFQCRG871Kh6Zv
-5VNvYH/Y6fcZB4kFbzEC11K+m4Y44MgGOxyI1JWcPJFU/m3C6zStyCiyVnYfOYzE
-zXEbzq8gNDpBL3cN80gne5qaxjffwpBJhbE6oRthns0fUrYnmU/tEmDE4KSBIx6H
-pju6H2mziDL+1gRH+idLtS9a5keoJE7uhe6sguj1DLD1W+U7EQXza+J/hba2sbl8
-9q81dw2HUI5mM0UwuBJn2xTOFGMu3h0uJXj01YbrYjsa3jh6Tb4QYX8dIIWEmHl3
-XtZkpmXv75gPkWFR+tNKNVGDvGttRYMWYf78lg/+6eKLW9pgS/mIlQUKr+tIRcVJ
-DSfVW3HsQAE0/uaM3uYubpdxDvo5GRcfp/wwPJTn01mQAQVWTrrj9ngq5hb9u7dz
-rOhSigIzn1nsQqRLRMnI4e8steKHFTZkYPaArbknyUqcv5aDG6vosbO3NBXEx/vZ
-Y0eT9hLFvjV41amjCezX4Mgu
-=18Q8
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdp8gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1WkQAKQJeeUQeyra24WdwPe7
+/5u6f7wKr8YmsvBKEAziTmKnK52ymwuwJ9OtjS1YnX4W/vE5DRM+Jc6uudH/Jwxb
+T3FMZqR4N3/QCBsl+uc/JyT/1CjFZx+a9/O06NXrwyhnt4JiRI8wAWk6C/FyutMt
+U1pSb8EJQrSZDF6ML5a10xsJkEuKVo/f+QySf9oS/G+kqKVyFmIxv2/LFQnLYmz9
+7H63xCEGEvEYWEHOpIf9c4krWeYhRsOid83oNxUMaoahshT3IPxvlupZH0cmW9Ta
+RJul8V6Mrh7iEI6TcFV9Bi4Z1vMsvQy/wli54nNqiR+Zr1+YhvRkYyk+TvooHc4F
+xC6Jw4OqPNH1LeRhqXBtVsXVzY4B+3TexkKFprvVLOHlbXNyf+pBR2VDCXrbMX0v
+tPQYKo3Bzq0MPtYtrqJHXTOycmxppIzviSrc9Wm23+wJMGh6kPjp3MWRK8vvHTuL
+vq0ZyuLimR28heZbdo08JUmXndEUfXLbh5c9yfIQItNbu3E2UGjx6HFyR00FA4mY
+5+fVRWXK4kO6z9d+QweuAgA2WjBA8pmgGobRNPr4zFxtoc9vEh0T6ZGk8HFcojgK
+ZDVzhAnwcJYvaqG5b1hLOLsswX34/5DDIWhY6eQz3CofITfgvq4wBpGAOJKMjHQM
+hU5Ga2fmZuIgfkZTS6GgNSbW
+=gEtz
 -----END PGP SIGNATURE-----
 
---===============6594199124863784858==
+--===============7872359734779125294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a90ee4305c4a-21a7f44fd076.txt
+Content-Disposition: attachment; filename=revlist-bdf12cde3083-21a7f44fd076.txt
 
+8e96c4d393168661704d850bcf818e46efb8ef24 net: enetc: fix support for PTP_EXTTS_REQUEST2 ioctl
+d347ab5cf809365e7b3749dc91d77e89e4b7ec3f ptp: qoriq: fix support for PTP_EXTTS_REQUEST2 ioctl
+23e687079e89a4552272636c48af96872bb7061b Merge branch 'net-freescale-fix-ptp_extts_request2-for-qoriq-1588'
+29afe67082b2d33ab2e90c56c337235d725f023f mptcp: reset msk state on early connect failure
+7538fa33bb2f66b8b809ff39d58308be48e197a0 mptcp: fix subflow bitfield misuse
+c9c90cf437a9e6597611b6d3aad6e255fad22867 mptcp: hold MP_JOIN msk ref when cloning reqsk
 2093bc7fa50056fef8620d2b82bcb2e9a0a5575d mptcp: fix MP_CAPABLE token migration when cloning reqsk
 22e692960d2e2d7a5390c65d552201ebd8949cc2 Merge branch 'mptcp-misc-fixes-for-v7-3-rc8'
 a3bb7a0184fbf9fed14aacb9773fe9f6f2097c1b Merge tag 'sound-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
@@ -90,7 +96,6 @@ c80286aaa4acd52f9bd0b0d4914d2069fe6ba3a8 ALSA: hda/realtek: Enable mute LEDs on 
 a5401ce3ab2356b7861f53d09205008b7a49d57e PCI: endpoint: pci-epf-vntb: Honor MSI-X selection
 d933955c456e0573b40eae4f72a3af37ab1c15c3 ALSA: hda/realtek: Fix internal speakers on Acer Aspire AL16-31P
 2533eecf592c2d7434170bf9669a4270fd594ae2 ALSA: hda/realtek: Add quirk for HP 15s-eq3xxx mute LED
-9cbbd0c18603a18b01abcdaeee24c133db2e9f2e USB: core: document purpose of interface parent reference
 69bf6c34492c7bc5fdb4edd57c595ade13f18b18 staging: greybus: Remove unused header declaration to_fw_mgmt_connection
 58c928a77cbf808b5ff49668e0f82a9414479cea staging: greybus: uart: fix argument alignment
 73883f977783b1f5d3b97b87692fbdb59332ecc7 staging: greybus: Align function arguments
@@ -222,11 +227,6 @@ d0107f38162279d9cb0e012210731176265f835d netfilter: flowtable: unify tunnel push
 d7a7c63437d3c5db282ebff08f5258e906ae9920 firewire: core: use context analysis to check lock state when scheduling error callbacks
 10c833da4dde3d9bb19e2092a33abafdaa16a341 Merge tag 'spmi-for-next' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sboyd/spmi into char-misc-next
 c91a4ad0ea2166080682e6b75fca63a0608b76e0 Merge 'gup-7.4.misc'
-cb3b441f2698455a48e9a023d5f7f4e3fcb94c73 usb: gadget: fix refcount underflow in gadgetfs_bind() error path
-e68f245bcb1f863aeb8eab617bd06878c078029a usb: gadget: dummy_hcd: fix SuperSpeed ep0 maxpacket
-8d22d6da17d9612963a08965c3784a191dc66cec usb: gadget: dummy_hcd: set no_sg_constraint only on the SuperSpeed bus
-ab248e0b900ea2e30bec5c71fd56d8f0fa87a67a usb: gadget: dummy_hcd: add tick_us module parameter for timer-rate tuning
-bdf12cde30830d46a8ef1ba93986356f1164b4f1 usb: gadget: dummy_hcd: prevent unbind via sysfs
 9de32b62bc6c250372820414a90d577df7fe435a rust_binder: avoid overflow in get_node_debug_info()
 985955d8e6b2b15cfd65b7ac6893e3a5a90c5870 rust_binder: wake epoll on self-work queued to poll thread
 700ce4da6f6f172435349b687d2d916e791c6330 selftests/nolibc: explicitly disable position independent executables
@@ -1082,4 +1082,4 @@ a8c2facb7b2cef4d110e3b25037bc29703485c71 Merge tag 'pinctrl-v7.4-1' of git://git
 89d2d7bf0698b7fdfc914bfd219e739e9308d332 Merge tag 'efi-next-for-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 21a7f44fd0765fcc5194130b28767786eba1d1e7 Merge tag 'devicetree-for-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 
---===============6594199124863784858==--
+--===============7872359734779125294==--
