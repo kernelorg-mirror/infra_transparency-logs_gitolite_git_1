@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5437070120550170848=="
+Content-Type: multipart/mixed; boundary="===============4221839383753686476=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sun, 25 Oct 2026 07:08:55 -0000
-Message-Id: <179291213558.2844708.12212389275314172967@gitolite.kernel.org>
+Date: Sun, 25 Oct 2026 07:11:03 -0000
+Message-Id: <179291226395.2847792.3719090557370357646@gitolite.kernel.org>
 
---===============5437070120550170848==
+--===============4221839383753686476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,75 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: c03c1a14507dfaf8b856c2608f9ac216021fc222
-    new: 21a7f44fd0765fcc5194130b28767786eba1d1e7
-    log: revlist-c03c1a14507d-21a7f44fd076.txt
+  - ref: refs/heads/clanker
+    old: 51fc1d2e4588b5f489c5047a3a6e54f6d419d24a
+    new: 19c2c1da2c8418f3677a3b7e386bf679809fc5a9
+    log: revlist-51fc1d2e4588-19c2c1da2c84.txt
 
---===============5437070120550170848==
+--===============4221839383753686476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792912096 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792912242 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1792912095-8a1d268414376008390669223c552cd005706e3f
+nonce 1792912241-e11d70bf22d53530ddecc1e29292a6b6fe8f84ec
 
-c03c1a14507dfaf8b856c2608f9ac216021fc222 21a7f44fd0765fcc5194130b28767786eba1d1e7 refs/heads/main
+51fc1d2e4588b5f489c5047a3a6e54f6d419d24a 19c2c1da2c8418f3677a3b7e386bf679809fc5a9 refs/heads/clanker
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdquAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p0YP/iTNuQ9d+WQc288rEDIu
-Vg/9QqvW64xvtmE9sMF3QRZcHEexrFuGXKayqmatPV6AQ2SHmcdG9iCSHtL/1Scs
-siJWzH75pP9CzPryShWjoK3mMApWjejrRxwlcafiKpxmld5JdO/3hT1Jy4gv6tuU
-NCn9d+CZSO+Vr8revKxyiNfpo3jbs9Qn9w4R+4TUgsGjQW9qY/nxWqTmNl9tztGR
-rngT0p4Fr1KapMjjpS7dl4NRDPSpMXy/gJDeDLouJ9IUzVyW6oV1IrJl5DRkDxKR
-vNKHniRyEYTrwomdYq53snHstvP+y+j5AD1hqMcpLn84A5Qpq9pxkA0fKrYShASO
-srMWVEC2tGlkZWVVS7JKc24KPVYLju/fhU9vr/Ei+BGpQ5J2DkcT3GyteSxWaTOt
-HAMSuS0+/p235MutHII6gETvMtDJcWZr+RmnbMiUaWfQmGliXEw3RCQqTGHsN0pc
-mFMSt8nKuM96u+uq22GMe9qztwlu0aFwz4S2gqt8bqE3w7CGpUB6PHulvE+uCBiB
-7cOp/fPAYvKQ/4RZZVR/q9aon63RoxZkLUckXX9jcv7bN9g/v8XBY2swH7ejQPNp
-n/1VGlkqerPUYyJ/6nHS7ruN9eaz4P7sLc9JprkX+z4k3Klziy3BHb1/ncfMgeGI
-+GIS5I/GH79+rmTz7aQ6T7LY
-=4u7k
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdq3IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hqAP/01/aND8JAMmgQRsDi1U
+4xtsS8yObRcO7ctOgiQisy4pQWBJrYspbgVEuvZmlOHEtGNqfYclaAgBRtLAe1ar
+4EM/s/yuUJ7Bv6kXVoRC9Rx0UVrhCzdSg1cLhZgJoGxxZblkPgtzqpIaPO5Ko3+g
+eCNGoP4dn9e9Vs+FN6PBgNaEo36MeOMpggOKEJQNxuAC2WrgofqmxU7fGW9JbqNQ
+X7tC9YfJuTF26bUYJSzouiVN7/ct7SxkndByR/HqdfbZHTfMZ3rcZ0UUbP/hof/O
+BVyE0ruz1RMKs+6IpLQlndEjssNJyFmjbLaImjt7CJquRkxdktD1hC+C0W9nk3kQ
+TxAU4AxGOkxDf3/Ym5ndxV1JQwasUGE6aNT46Mu5bU4RmcP3wcqrW9fB0aeV0b7h
+33D4doWLLlYxGt51Pn4vy1bcaRHJhIi1kcDwOTieO2WTP7oYLm34vNT74KjvLjOw
+sV62RyMiiVbKS67mzIBa+j1yt7jWryh8Xh660DdolsDCC3I4khGSp0p/NbM3QCA6
+butq4lzJDzfotnRJbtGF9M0TB7sZdo6I+BMq5DWwLl462PTYHbGjRSetEqdA/vj+
++ahjbcPqtWjIIH+ekeaXzoVFsB+xHIQpgArT+zyyoeUUS9N+XeALCGl29ucOMrY+
+1tHePalJ5sY1ZPYyg74Ds/ve
+=Uxa9
 -----END PGP SIGNATURE-----
 
---===============5437070120550170848==
+--===============4221839383753686476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c03c1a14507d-21a7f44fd076.txt
+Content-Disposition: attachment; filename=revlist-51fc1d2e4588-19c2c1da2c84.txt
 
-befe96ed37d59b2940801e1682a0f410191da573 ipconfig: fix use-after-free of device list after ic_close_devs()
-f42d67a5044e9a36eb9c2a0967e9492e52a1949b selftests: net: bareudp: Add stream tests with software GSO
-23171065fb436195981ca32f9e49dcf852dbd018 dpll: zl3073x: do not offer 0 Hz as a supported pin frequency
-f8993627d3101de0833022ac88083ac0147aae7d dpll: zl3073x: reject inexact frequencies for N-divided outputs
-456027325c9cd2be94229687f2c412ae6f351bd8 dpll: zl3073x: reject output frequencies with too small divisor
-bf6f105f2cb6477e36a9312477d0aa32a43aa13d dpll: zl3073x: make embedded sync follow the output carrier frequency
-0748e473b65a8c8690e250cdf7cc4f5a93252493 dpll: zl3073x: notify sibling pin when shared output config changes
-3d0ae2a0b7d7ae346019061c7df1dad1ab2e17cd Merge branch 'dpll-zl3073x-fix-output-pin-frequency-esync-and-sibling-notifications'
-86a30c4348497bcddcf2796258955bbaaf58c9a3 dpaa2-ptp: fix support for PTP_EXTTS_REQUEST2 ioctl
-8e96c4d393168661704d850bcf818e46efb8ef24 net: enetc: fix support for PTP_EXTTS_REQUEST2 ioctl
-d347ab5cf809365e7b3749dc91d77e89e4b7ec3f ptp: qoriq: fix support for PTP_EXTTS_REQUEST2 ioctl
-23e687079e89a4552272636c48af96872bb7061b Merge branch 'net-freescale-fix-ptp_extts_request2-for-qoriq-1588'
-29afe67082b2d33ab2e90c56c337235d725f023f mptcp: reset msk state on early connect failure
-7538fa33bb2f66b8b809ff39d58308be48e197a0 mptcp: fix subflow bitfield misuse
-c9c90cf437a9e6597611b6d3aad6e255fad22867 mptcp: hold MP_JOIN msk ref when cloning reqsk
-2093bc7fa50056fef8620d2b82bcb2e9a0a5575d mptcp: fix MP_CAPABLE token migration when cloning reqsk
-22e692960d2e2d7a5390c65d552201ebd8949cc2 Merge branch 'mptcp-misc-fixes-for-v7-3-rc8'
-1240de9e51201eaf7057f63b9ce5db15380cbbbe bareudp: Enable BIG TCP packets
-3e3f209961b03835a8f3d3e52ed9ca976997c142 selftests: net: big_tcp_tunnels: Cover bareudp
-b4423835d9c528c242531c7ba455b4f687906acb Merge branch 'bareudp-enable-big-tcp-packets'
-c2124f80be4ceb6ec566ca3b5fc87f84ea9c36e0 vlan: restore HW VLAN tag insertion with reorder_hdr off
-a2ce227aea96b1c2e739f66c8650a036993e9083 Merge branch 'hw-vlan-insertion-restore'
-58f7989da6e715ce834ac861b7ba6ae9f9bdb098 net/sched: cls_flower: avoid stale mask references after delete
-718f364a20ecee4f25986789c25550cf4da73b4c gre: keep the UDP tunnel GSO type when completing GRO
-d0eb9632fd987bf3029fc0c845b65ba6b661a41f selftests: net: add a test for GRO of GRE over FOU and GUE
-7ec48f396a1d89532c0537bc38b408b8c31ee37f Merge branch 'gre-merged-gre-over-fou-gue-packets-are-dropped-bug-report-possible-fix'
-fa38468cd26b4db34ab2b335f1904c19721f94b8 net: phy: refuse a second attach before touching the PHY
-7151b86654fa635101cabe7f55511f54c3adcf84 net: phy: put the driver module the attach took
 8b0244ca4fa4e717ffe6874f7eadc59ebb6ae5ba Merge branch 'net-phy-fix-a-second-attach-of-an-attached-phy-and-the-module-put-on-detach'
 458575e1f2ddea944d679fe778c92e370a9b61a4 bpf: Don't echo user-supplied map info fields back to userspace
 1b82d5ce3ba9155db746e87065bafb87a5f8666b ipv4: Store netns in FIB table
@@ -120,6 +92,7 @@ ab21f979d6f2351db7f6b6f0e5e026eefd9965e8 Merge branch 'bpftool-fail-map-dump-for
 e7f6c18a8c1e991d52cd49804f1f55902d54e7ba firewire: core: don't disable error work for transaction
 3e7ed554a85a21a1d4a9bff520f9f2f8b59c7f79 firewire: core: reuse helper function for scheduling error callbacks
 db87a8f530b62d43033ff41172d479d2ccd6fee3 sched_ext: Merge branch 'for-7.3-fixes' into for-7.4
+32c52ec87d6245ee2d12ed5dd509e40062939b50 x86/insn-eval: Fix shadowed segment index in get_seg_reg_override_idx()
 af873495cbcb066ab029f7f63b94410d4db47628 bpf: Fix verifier WARN on narrow read of bpf_tcp_sock u64 fields
 5256161e3573e0e35ac5e12f8ca904cf51e77f5b selftests/bpf: Test narrow read of bpf_tcp_sock u64 fields
 ff0545e0c263727b200f60af47d0364e4d041bde sched_ext: Don't leave balance callbacks queued across a pick retry
@@ -227,6 +200,7 @@ cae023143d25c877d04e05c986311507e75d4167 netfilter: flowtable: set inner protoco
 97874c7c5f2c31236c4071d85b60c38c2f4bac3d netfilter: flowtable: populate tunnel tuple regardless of inner protocol
 3dcafe6cb5e1b467a25fde347c8c3949a2866adc netfilter: flowtable: add encap_proto to flow_offload_tunnel
 d0107f38162279d9cb0e012210731176265f835d netfilter: flowtable: unify tunnel push for IPv4 and IPv6
+7f9f2d6abc40f79e802b4063859eda343043b85c firewire: core: fix race condition in split transaction handling
 1f5dde349ac2fca1f119ae8de3f0d2f1c2a8d338 sched_ext: Drop the locks periodically while walking a user DSQ for re-enqueue
 767e87bb6f0f721e0b97640780ff3ab1d413b329 firewire: core: use workqueue to cancel all pending transactions on card removal
 31ab33a6e3721902f3dbfbf1fd3116ef4d683810 firewire: core: check precondition when scheduling error callbacks
@@ -268,10 +242,18 @@ f28c09b7e62fb5ead65bdfab93012a86d64b6540 ASoC: tlv320aic32x4: Fix definition of 
 1c1dda9ba9f3af9cd511a197dcc86de2465d8fe5 bpf: Zero-extend the index in inlined bpf_get_func_arg()
 38dbc3047a2fa706f6b4485679eb5eb62ff55b87 selftests/bpf: Test out-of-range index bits in bpf_get_func_arg()
 2c7935600733c2168b81d3f0f31247ed20d54be0 Merge branch 'bpf-zero-extend-the-index-in-inlined-bpf_get_func_arg'
+cf20e7f96ae688dd8611dd6dce8cb4a036fecc72 Merge tag 'locking-urgent-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+8573787061f1a59fd73fc683c3c5cfd6bd07ea9f Merge tag 'perf-urgent-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+88328f850d956d267d11e2ee225ee1eaa902b8e0 Merge tag 'sched-urgent-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+23a38e7bb2f9ad99c317a9f4e4c349054de9dfff Merge tag 'x86-urgent-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+53cbbb09c1b87425cd7184f81ecdb830aa3b0b87 Merge tag 'x86-core-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bceba446fa2bc66a905ec0bbf6fd80e98701c1d1 alpha: fix stale user_stack_pointer()
 501bcb5953cc4d56537a321c00f9193e9fd68718 alpha: stop storing the user stack pointer in pt_regs
 c5280a56dc4cbcbbfd3256a0fd58071587e928b0 alpha: use user_stack_pointer() in KSTK_ESP() and dump_elf_thread()
 9280e99d87ddd8c6c7fd83f9ea1585967b3dcd60 alpha: add HAVE_PERF_REGS and HAVE_PERF_USER_STACK_DUMP support
+a0ff06b3a7bd3aa0cd99d0294e60b3ed28c9bfac Merge tag 'firewire-fixes-7.3-final' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
+72732cbee632b1be22b636813c9be3df55c72bd9 Merge tag 'i2c-fixes-7.3-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
+3d679a244e0deb65d31cb02f1d1dcb790fcfcae2 Merge tag 'regmap-fix-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
 1a85a03fc2fe180c1ddc91b4a801d313321d9e53 alpha: fill in pc for software event samples
 2c8792df90e565d5a280549f37f5c5563f76ebe3 alpha: move Tsunami machine check handling to err_tsunami.c
 6634cb1490ba8d3d7fccfbbf4028e702da4e2e8f alpha: describe the Tsunami system machine check frame
@@ -279,7 +261,9 @@ a182df7ceae5d75a7fdc5dc211ccebdd821697bf alpha: bound EV6 logout decoding by the
 ea2b073b4f31f334354479b993160788610c779d alpha: decode and acknowledge Tsunami system machine checks
 73b8c00851e27ac3497d50d4ecc59892b0cc5577 alpha: decode Clipper environmental events
 71cf9644bcb35e686c3e12a703325335a0925946 alpha: add bounded Clipper console-log scanning
+8486d357129126e27fb5d4e02622566bafc77035 Merge tag 'spi-fix-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 5dbc181a22ae397b53adb26bc083f206b9631c83 Merge remote-tracking branches 'ras/edac-drivers' and 'ras/edac-misc' into edac-updates
+f909e534f5e34feb2ea2701d54df63e21aa506fc Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 0007654a7bf13ef2a19afd398bbc6507087f19fd lib/buildid: reject file offsets that do not fit in pgoff_t
 0ceb2f21d3e02b310ed246a210b6cecea24e19b2 bpf: Determine freplace staticness from BTF linkage
 8d637d4c62c1880062dbb098f67b804e2eff85aa selftests/bpf: Fix stack_arg precision backtracking log expectation
@@ -290,6 +274,7 @@ a898ff0f3e9968b5f7c248d2af3cf1ddaf239e51 bpf: Fix incorrect handling of user fla
 4a9b25fe8d138f2e0e65b337ecf829ce7ce42d09 bpf: Fix incorrect handling of user flags by percpu hash map updates
 22392799e251d8ddfbc766faf5c5fb0a5c69cf7d selftests/bpf: Add tests for percpu map flags combination
 27dc4fc4ae7b01efb68561f98c5f373e55fb71c2 Merge branch 'bpf-fix-incorrect-handling-of-user-flags-by-percpu-map-updates'
+c03c1a14507dfaf8b856c2608f9ac216021fc222 Linux 7.3
 0f9b1e9ef584522b645a97eff8d1c8d0dcab3afb selftests/bpf: Add bpf_proactive_reclaim test
 c3a0bfddaee4e1e5fce7f4426004669c017cd8f1 bpf: Enforce trusted BTF ID argument provenance
 71b6a960c73f2ccff0932ff70aaf066bc21a960c selftests/bpf: Cover trusted BTF ID argument provenance
@@ -1081,5 +1066,20 @@ a8c2facb7b2cef4d110e3b25037bc29703485c71 Merge tag 'pinctrl-v7.4-1' of git://git
 9628ee0c2219daaa6374b0c5f5a5c0d55e0e263b Merge tag 'gpio-fixes-for-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 89d2d7bf0698b7fdfc914bfd219e739e9308d332 Merge tag 'efi-next-for-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 21a7f44fd0765fcc5194130b28767786eba1d1e7 Merge tag 'devicetree-for-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+de72e17f33d8c16d0e92ab732ec8a6ded0ac3077 net: mctp: usb: properly drop the usb interface on probe error
+07d0576d1e7c7289a91d636ef687e49be7af1715 wifi: rtw88: properly drop usb interface reference on error
+5a00d278906d2b858aad7c3d676eb60847af4259 mmc: moxart: fix potential use-after-free on remove path.
+5548eff92e3fd0f615050916fa4e5616df5aa7c8 mmc: meson-gx: fix potential use-after-free on remove path.
+1ab93d0bca862495c1a6f9c93d7edfd04215f309 f2fs: fix potential deadlock in f2fs_convert_inline_inode
+cedaa39b6afb1ca8fae4e77f1f4df9d8eb306a5e drm/amdkfd: stop speculation on the kfd_ioctl path
+26a11b25674039e7dfa2a801aa1408fb367d47a2 NFC: digital: Bounds check Felica response before sensf_res memcpy
+d572930a94be3243440fcec21734c7599274e9e4 net: usb: cdc_ncm: reject negative chained NDP offsets
+a11ce29dce8d7d6a10fbae9f03c337131bb54c1c ipv4: clamp MCAST_MSFILTER getsockopt to optlen, not gf_numsrc
+4d6a24636dd11cfa1a683ae73514e8f10d46fbed io_uring: depend on MMU
+eed2f4a7fee38212c5f62dd2981492ab355f6ddb usb: typec: tcpm: validate VDO count before reading Attention status VDO
+332191e02f6925e9f4fc8a8bc0dab22d33a3d7c2 iio: adc: ad7768-1: add bounds check to ad7768_filter_regval_to_type index
+785147c48a72f7d0741c1695d4a46c4de6fc8d99 drivers/perf: thunderx2_pmu: add error handling
+20510bd0693ca5f30a5f4b16262ae50f2c16e12d serdev: fix race between tty-port unregister and in-flight callbacks
+19c2c1da2c8418f3677a3b7e386bf679809fc5a9 serdev: use tty_port_tty_get() in ttyport_write_buf() to prevent UAF
 
---===============5437070120550170848==--
+--===============4221839383753686476==--
