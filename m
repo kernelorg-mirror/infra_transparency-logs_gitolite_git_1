@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Sun, 25 Oct 2026 19:25:00 -0000
-Message-Id: <179295630060.3370042.11549045526912882626@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sun, 25 Oct 2026 19:54:40 -0000
+Message-Id: <179295808090.3390500.2877642496063595139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/tags/kthread-fix-for-linus
+  - ref: refs/heads/wip-x86-xfeatures
     old: 0000000000000000000000000000000000000000
-    new: 0db59b73c5ef146578d0601d79202ed3f74b495e
+    new: 82159517033f91c73cfbe1d13364835b594044fd
