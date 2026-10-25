@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4708780920843919238=="
+Content-Type: multipart/mixed; boundary="===============1649165401964891855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 25 Oct 2026 06:58:24 -0000
-Message-Id: <179291150438.2834446.7001525996264636982@gitolite.kernel.org>
+Date: Sun, 25 Oct 2026 06:58:28 -0000
+Message-Id: <179291150843.2834644.926812556176548339@gitolite.kernel.org>
 
---===============4708780920843919238==
+--===============1649165401964891855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: a90ee4305c4a5df72c11b31dacfdc76e00fcf78a
+  - ref: refs/heads/tty-next
+    old: 1184f87e2790e8af9be3116f608d2e86b4792d7d
     new: 21a7f44fd0765fcc5194130b28767786eba1d1e7
-    log: revlist-a90ee4305c4a-21a7f44fd076.txt
+    log: revlist-1184f87e2790-21a7f44fd076.txt
 
---===============4708780920843919238==
+--===============1649165401964891855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792911503 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792911507 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1792911502-c75a9db9805dcc41d8ff0188820347af6286d0c4
+nonce 1792911506-bceed9c93e3b5a452ee292a9e2976bf996ce819b
 
-a90ee4305c4a5df72c11b31dacfdc76e00fcf78a 21a7f44fd0765fcc5194130b28767786eba1d1e7 refs/heads/tty-linus
+1184f87e2790e8af9be3116f608d2e86b4792d7d 21a7f44fd0765fcc5194130b28767786eba1d1e7 refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdqI8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uBgQAJk92KyXoaIEZ4D7rgJo
-VPJ5SKahqNnFCoAWybCYs8Dl7ogxTX6IcG56ZGIU7DOqvbMEzTnOaiFhULtVMgvR
-hXDpk0FZc68XiwUPs14tE84dEHg1nBjPc9NevDUxnqo2GuKtAmxyoXLtNhcSc58y
-Yk4gwkoUNKcZqgzmyiWvRyneWKAuQcQBLYEAnSZBQl3XNDKMnBtxiYBMQfOGSKH3
-fsnYWS0LpPvZ9dei9NY17MBh3cXfGZnezEKWKjcCs2KSaCE7a6xh0bfHyvESXtiQ
-VryrcZ8Ug3ips7a6/L3dwca1cCuUK/WeR4IAqXMrbNozZas5jfNti7mOHIoWvoUE
-eh3nR81T9vo9Tw7csGs40mA91ihIDbiS6e3adY2bYKnJTzmJ2psuLLpjB7dn2cuA
-OCy/IoIQdxeBkZynFPXNeaDyZLiZUQIGbKHm5136JM11gCIXf+VKcQfNxFXgAt5r
-sCQkCvnwlRLkA/O/xxLuMneuNyKeIcpXAhi0YPV38OqPsgUbWYaRLSEqSB+hJKH3
-gRqXsCzPGEiHV9T1/zpXmVvweP9rYtHZCFnWL10/jawemSqPn56fFxoDWFUWGwLR
-oeRz/rJ4QSyMG6HG9GUaxbkDP67GIsDqDUOUavmqaTKMxgdwZ0jvglEI3/1qtcEm
-ILt3oRA987M4OqHRvM4O0kP6
-=+z4O
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdqJMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QzsP/1hRgDqZuLZuF3dxB/za
+l9PuB1uwKykRseeH4Bk+HWsm+mDUH6uVvVbS8ErNXehGO9iuiGpS1x9wLl5LyWUk
+YGLPYNeZs1XyqGMpUf4vBh7ze/x/NZnK89D5RY6jCK0Eppq0M4WLsCCQExxU36L9
+HO4JIpPkbbVk6Zoc+vbFEkWJSiTFSfr8QefwnGXmf1OmVHnadtoQlgrVkDAwEWmf
+LAWlN7XxouQKqXMSm4XHJLj3DJewp8j7OXXpJmx/di8tJcFj5EOc4eLxSVrPoLnn
+loqb5sWOQhMYrlkyIV3DKrBskcN2GAP/FnB/oJCcvP9lWTMRXYQByNGMnb+VcczV
+RbRsriqu7UL5C9sJGbeEHIkS03pSSLWDqz4QF1+lLDNBamSekdOQY05lQDQQ+FV2
++3BOMenxjpk3y7daE77CsuoLbusnx8Ak5SJowXMRVTF6Q8khGzxPsvs+ZtKeZpyU
++Fte9qoiclAsnNJ6590+aMWbmPiARBJMBKjRgzHPVyNdrnfXyvxsyweWDupxuAii
+XazQJMG7dSnZytBrvVE3BzG7+PpJsLcHhKpieH9yQ99e7yG+KXqKU+ky6dPKdk6c
+5FgBr5c/OjoJhVmJNRruKxG9qHVOSyoYzwztKWhJNCMLxgk30jgG3LBI6f5D0FyI
+yNrGcxNIpCLJgcOm454/7fUj
+=G7RO
 -----END PGP SIGNATURE-----
 
---===============4708780920843919238==
+--===============1649165401964891855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a90ee4305c4a-21a7f44fd076.txt
+Content-Disposition: attachment; filename=revlist-1184f87e2790-21a7f44fd076.txt
 
 2093bc7fa50056fef8620d2b82bcb2e9a0a5575d mptcp: fix MP_CAPABLE token migration when cloning reqsk
 22e692960d2e2d7a5390c65d552201ebd8949cc2 Merge branch 'mptcp-misc-fixes-for-v7-3-rc8'
@@ -1082,4 +1082,4 @@ a8c2facb7b2cef4d110e3b25037bc29703485c71 Merge tag 'pinctrl-v7.4-1' of git://git
 89d2d7bf0698b7fdfc914bfd219e739e9308d332 Merge tag 'efi-next-for-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 21a7f44fd0765fcc5194130b28767786eba1d1e7 Merge tag 'devicetree-for-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 
---===============4708780920843919238==--
+--===============1649165401964891855==--
