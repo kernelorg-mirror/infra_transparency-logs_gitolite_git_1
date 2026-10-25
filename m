@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3705075472460522887=="
+Content-Type: multipart/mixed; boundary="===============2244600029052445119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 25 Oct 2026 00:26:25 -0000
-Message-Id: <179288798543.2557060.9294929798395254912@gitolite.kernel.org>
+Date: Sun, 25 Oct 2026 00:26:29 -0000
+Message-Id: <179288798922.2557236.6609240400320339729@gitolite.kernel.org>
 
---===============3705075472460522887==
+--===============2244600029052445119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 09e0a4f618cb8159c993d3140914523fe5d4dfee
-    new: 73b6c575e9b3679e871df98b23758e90df2c6efa
-    log: revlist-09e0a4f618cb-73b6c575e9b3.txt
+  - ref: refs/heads/mm-unstable
+    old: d10295141a98938a767234e73d45b954a69c9a2f
+    new: a2abad0d7f453cc9902fc8bf7b871db5563a652c
+    log: revlist-d10295141a98-a2abad0d7f45.txt
 
---===============3705075472460522887==
+--===============2244600029052445119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09e0a4f618cb-73b6c575e9b3.txt
+Content-Disposition: attachment; filename=revlist-d10295141a98-a2abad0d7f45.txt
 
 9a4de511d13951deffc12b6b358e793f420f1b93 mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
 16b0c0fe6ff88b9e55ca4b0c33205e38729774c6 mm/vmalloc: use dedicated unbound workqueues for vmap drain
@@ -63,8 +63,5 @@ f8ca800231d7ba0eb4796a76f3c7210efff5b6bb mm/zswap: validate dlen and normalize c
 7a6f859605aa5f03a320a3535b3eedc86cab5f6d mm: nommu: set MMF_OOM_SKIP in exit_mmap()
 327fb563a1e27546704a72f8d27f286dd2bdde32 fs/proc/task_mmu: fix lost maps entries above 2^63
 a2abad0d7f453cc9902fc8bf7b871db5563a652c mm/vmalloc: read vm_map_ram block regions from the requested offset
-7516697861e32c773ca6465e0020f56f612ca2b7 mm: unqueue deferred split folios outside the lruvec lock
-d736bff2e1d1faa1860d49592b5af23ef15620d6 mm/page_alloc: avoid direct reclaim and compaction for costly __GFP_NORETRY allocations
-73b6c575e9b3679e871df98b23758e90df2c6efa riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============3705075472460522887==--
+--===============2244600029052445119==--
