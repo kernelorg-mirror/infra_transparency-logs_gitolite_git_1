@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sun, 25 Oct 2026 12:38:56 -0000
-Message-Id: <179293193640.3077628.2305713430654797517@gitolite.kernel.org>
+Date: Sun, 25 Oct 2026 12:40:46 -0000
+Message-Id: <179293204600.3080231.9982169402502262133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
   - ref: refs/heads/experimental
-    old: 427f3c79d31e18f3966ef129d009d9ec1305b0ec
-    new: 58b9e9cc0cb667b0b4d8d4002b7a19ac96f23846
+    old: 58b9e9cc0cb667b0b4d8d4002b7a19ac96f23846
+    new: 16decd61cb891dc74fc1cdaaa61ffd5bdcd43cfa
     log: |
-         58b9e9cc0cb667b0b4d8d4002b7a19ac96f23846 erofs-utils: lib: fix xattr prefix offset truncation
+         16decd61cb891dc74fc1cdaaa61ffd5bdcd43cfa erofs-utils: lib: follow symlinks on intermediate tar path components
          
