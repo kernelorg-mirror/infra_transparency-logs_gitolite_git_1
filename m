@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sun, 25 Oct 2026 01:20:50 -0000
-Message-Id: <179289125053.2596028.4634290143591737397@gitolite.kernel.org>
+Date: Sun, 25 Oct 2026 01:20:53 -0000
+Message-Id: <179289125320.2596174.7236260123792122503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/canary
+  - ref: refs/tags/v7.3-10.canary
     old: b4964abe876e0a518e2f1b23f1a8801f3bde2edb
     new: ab0141bfd4e2adb939dd69191776f8e489102bd9
     log: |
