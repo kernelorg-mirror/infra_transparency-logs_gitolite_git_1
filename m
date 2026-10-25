@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 25 Oct 2026 11:35:48 -0000
-Message-Id: <179292814898.3034892.265760228836156442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Sun, 25 Oct 2026 11:56:41 -0000
+Message-Id: <179292940164.3049284.16990778428551340219@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/tags/x86-urgent-2026-10-25
-    old: 0000000000000000000000000000000000000000
-    new: 57597b818a70e4db1ff3087003ce351de37da92d
+  - ref: refs/heads/dev-test
+    old: 0ea0e841cd199682532cc1c56f84cf61d5bc9047
+    new: 52dceb88082b4c7983d1c8c7de1c181f018055ac
+    log: |
+         7259fb011c14977661b7a4680886b466a3089ea7 erofs: hold real inodes for shared files
+         52dceb88082b4c7983d1c8c7de1c181f018055ac erofs: fix metadata reads at the end of file-backed images
+         
