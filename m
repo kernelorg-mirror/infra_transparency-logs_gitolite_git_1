@@ -1,62 +1,93 @@
-Content-Type: multipart/mixed; boundary="===============5397309750499409710=="
+Content-Type: multipart/mixed; boundary="===============5437070120550170848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 25 Oct 2026 07:07:09 -0000
-Message-Id: <179291202971.2844058.14009123749945354572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Sun, 25 Oct 2026 07:08:55 -0000
+Message-Id: <179291213558.2844708.12212389275314172967@gitolite.kernel.org>
 
---===============5397309750499409710==
+--===============5437070120550170848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: 5cabed5d811609cdded199ad645af1bc8e4001a8
-    new: aa0b14006c57ccd5a854999788a3bb7124d8a773
-    log: revlist-5cabed5d8116-aa0b14006c57.txt
+  - ref: refs/heads/main
+    old: c03c1a14507dfaf8b856c2608f9ac216021fc222
+    new: 21a7f44fd0765fcc5194130b28767786eba1d1e7
+    log: revlist-c03c1a14507d-21a7f44fd076.txt
 
---===============5397309750499409710==
+--===============5437070120550170848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792912021 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1792912021-fc58211da7431c3b3dc101db45b6e9bdabcd6247
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792912096 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1792912095-8a1d268414376008390669223c552cd005706e3f
 
-5cabed5d811609cdded199ad645af1bc8e4001a8 aa0b14006c57ccd5a854999788a3bb7124d8a773 refs/heads/class_cleanup
+c03c1a14507dfaf8b856c2608f9ac216021fc222 21a7f44fd0765fcc5194130b28767786eba1d1e7 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdqpUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FAgP/AqoqSZKG3VP0r5Vloan
-Q1ny7x7thcqo09VP3K2JsemNt5bL2cMb2ETpBEX0nmyo16CK1beADlCXHNgZSlCq
-xH631sKU+i/mIP41NC8cFrJYLWruYZ1p2qj0xf11Pd1eVKs4x1rgfGxPqfd1WTaG
-jVSZKaDVV1i/m/tG7MIevuBF92H8sl0udVrhYBUeJrKG5RvqOCEyAfb5ovGLS5QR
-qA55mn8im9M2QlWkpO9V1zvTkqGgBSQ0mvc1maisPbJ2s14QPVj8AMLJOmlrMMu4
-D94oUJmorOEMeBXiWvgAEx+9rYPZFdDsEkXzxlB+HwEjZth3QXfqUbJCVo1zbwmG
-OxWSgwXbwufJ2cuewAY51QKAioDmP+MRalCRPL2O4wekFzpgDa085cidIAUbjD3p
-rEzucY5kheeBKDigTcODgnuEqOvlTnAt973HX/w8fwfUOOkHIoooasgxXomS0fzk
-Ml7DfzS9aGqYj+NthoEXgOEjxIG4++g5c47CgL23WT+rRmHk9AUeIBfIlHk3QxFk
-2akh52XsphbDSRVPyXxeEzr+j49gVa5n3jPohROpiINfxa3EZua4TazoHCqrbCAn
-xDr773sC0bY6zNu1IcANLrbkLrUOffl0Tn5R1LvjpkqMxvcVeRaeRbYvTRWEHzqj
-U6lJ/7WVO6VlkV2PPlWIfnbF
-=EKW6
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdquAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p0YP/iTNuQ9d+WQc288rEDIu
+Vg/9QqvW64xvtmE9sMF3QRZcHEexrFuGXKayqmatPV6AQ2SHmcdG9iCSHtL/1Scs
+siJWzH75pP9CzPryShWjoK3mMApWjejrRxwlcafiKpxmld5JdO/3hT1Jy4gv6tuU
+NCn9d+CZSO+Vr8revKxyiNfpo3jbs9Qn9w4R+4TUgsGjQW9qY/nxWqTmNl9tztGR
+rngT0p4Fr1KapMjjpS7dl4NRDPSpMXy/gJDeDLouJ9IUzVyW6oV1IrJl5DRkDxKR
+vNKHniRyEYTrwomdYq53snHstvP+y+j5AD1hqMcpLn84A5Qpq9pxkA0fKrYShASO
+srMWVEC2tGlkZWVVS7JKc24KPVYLju/fhU9vr/Ei+BGpQ5J2DkcT3GyteSxWaTOt
+HAMSuS0+/p235MutHII6gETvMtDJcWZr+RmnbMiUaWfQmGliXEw3RCQqTGHsN0pc
+mFMSt8nKuM96u+uq22GMe9qztwlu0aFwz4S2gqt8bqE3w7CGpUB6PHulvE+uCBiB
+7cOp/fPAYvKQ/4RZZVR/q9aon63RoxZkLUckXX9jcv7bN9g/v8XBY2swH7ejQPNp
+n/1VGlkqerPUYyJ/6nHS7ruN9eaz4P7sLc9JprkX+z4k3Klziy3BHb1/ncfMgeGI
++GIS5I/GH79+rmTz7aQ6T7LY
+=4u7k
 -----END PGP SIGNATURE-----
 
---===============5397309750499409710==
+--===============5437070120550170848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cabed5d8116-aa0b14006c57.txt
+Content-Disposition: attachment; filename=revlist-c03c1a14507d-21a7f44fd076.txt
 
+befe96ed37d59b2940801e1682a0f410191da573 ipconfig: fix use-after-free of device list after ic_close_devs()
+f42d67a5044e9a36eb9c2a0967e9492e52a1949b selftests: net: bareudp: Add stream tests with software GSO
+23171065fb436195981ca32f9e49dcf852dbd018 dpll: zl3073x: do not offer 0 Hz as a supported pin frequency
+f8993627d3101de0833022ac88083ac0147aae7d dpll: zl3073x: reject inexact frequencies for N-divided outputs
+456027325c9cd2be94229687f2c412ae6f351bd8 dpll: zl3073x: reject output frequencies with too small divisor
+bf6f105f2cb6477e36a9312477d0aa32a43aa13d dpll: zl3073x: make embedded sync follow the output carrier frequency
+0748e473b65a8c8690e250cdf7cc4f5a93252493 dpll: zl3073x: notify sibling pin when shared output config changes
+3d0ae2a0b7d7ae346019061c7df1dad1ab2e17cd Merge branch 'dpll-zl3073x-fix-output-pin-frequency-esync-and-sibling-notifications'
+86a30c4348497bcddcf2796258955bbaaf58c9a3 dpaa2-ptp: fix support for PTP_EXTTS_REQUEST2 ioctl
+8e96c4d393168661704d850bcf818e46efb8ef24 net: enetc: fix support for PTP_EXTTS_REQUEST2 ioctl
+d347ab5cf809365e7b3749dc91d77e89e4b7ec3f ptp: qoriq: fix support for PTP_EXTTS_REQUEST2 ioctl
+23e687079e89a4552272636c48af96872bb7061b Merge branch 'net-freescale-fix-ptp_extts_request2-for-qoriq-1588'
+29afe67082b2d33ab2e90c56c337235d725f023f mptcp: reset msk state on early connect failure
+7538fa33bb2f66b8b809ff39d58308be48e197a0 mptcp: fix subflow bitfield misuse
+c9c90cf437a9e6597611b6d3aad6e255fad22867 mptcp: hold MP_JOIN msk ref when cloning reqsk
+2093bc7fa50056fef8620d2b82bcb2e9a0a5575d mptcp: fix MP_CAPABLE token migration when cloning reqsk
+22e692960d2e2d7a5390c65d552201ebd8949cc2 Merge branch 'mptcp-misc-fixes-for-v7-3-rc8'
+1240de9e51201eaf7057f63b9ce5db15380cbbbe bareudp: Enable BIG TCP packets
+3e3f209961b03835a8f3d3e52ed9ca976997c142 selftests: net: big_tcp_tunnels: Cover bareudp
+b4423835d9c528c242531c7ba455b4f687906acb Merge branch 'bareudp-enable-big-tcp-packets'
+c2124f80be4ceb6ec566ca3b5fc87f84ea9c36e0 vlan: restore HW VLAN tag insertion with reorder_hdr off
+a2ce227aea96b1c2e739f66c8650a036993e9083 Merge branch 'hw-vlan-insertion-restore'
+58f7989da6e715ce834ac861b7ba6ae9f9bdb098 net/sched: cls_flower: avoid stale mask references after delete
+718f364a20ecee4f25986789c25550cf4da73b4c gre: keep the UDP tunnel GSO type when completing GRO
+d0eb9632fd987bf3029fc0c845b65ba6b661a41f selftests: net: add a test for GRO of GRE over FOU and GUE
+7ec48f396a1d89532c0537bc38b408b8c31ee37f Merge branch 'gre-merged-gre-over-fou-gue-packets-are-dropped-bug-report-possible-fix'
+fa38468cd26b4db34ab2b335f1904c19721f94b8 net: phy: refuse a second attach before touching the PHY
+7151b86654fa635101cabe7f55511f54c3adcf84 net: phy: put the driver module the attach took
+8b0244ca4fa4e717ffe6874f7eadc59ebb6ae5ba Merge branch 'net-phy-fix-a-second-attach-of-an-attached-phy-and-the-module-put-on-detach'
+458575e1f2ddea944d679fe778c92e370a9b61a4 bpf: Don't echo user-supplied map info fields back to userspace
+1b82d5ce3ba9155db746e87065bafb87a5f8666b ipv4: Store netns in FIB table
 a25a51258acf916545989ed162a34a3a8cb526de ipv4: Do not pass netns to fib_table_lookup()
 98c2ad4f5d805dbc1ea436a334ee59311806a48c Merge branch 'ipv4-remove-netns-argument-from-fib_table_lookup'
 440b83f5b733ac4e6f6e3f0706bd718879859d9d PCI: dwc: Correct PCIE_DW_PLAT_EP reference in Kconfig help
@@ -89,7 +120,6 @@ ab21f979d6f2351db7f6b6f0e5e026eefd9965e8 Merge branch 'bpftool-fail-map-dump-for
 e7f6c18a8c1e991d52cd49804f1f55902d54e7ba firewire: core: don't disable error work for transaction
 3e7ed554a85a21a1d4a9bff520f9f2f8b59c7f79 firewire: core: reuse helper function for scheduling error callbacks
 db87a8f530b62d43033ff41172d479d2ccd6fee3 sched_ext: Merge branch 'for-7.3-fixes' into for-7.4
-32c52ec87d6245ee2d12ed5dd509e40062939b50 x86/insn-eval: Fix shadowed segment index in get_seg_reg_override_idx()
 af873495cbcb066ab029f7f63b94410d4db47628 bpf: Fix verifier WARN on narrow read of bpf_tcp_sock u64 fields
 5256161e3573e0e35ac5e12f8ca904cf51e77f5b selftests/bpf: Test narrow read of bpf_tcp_sock u64 fields
 ff0545e0c263727b200f60af47d0364e4d041bde sched_ext: Don't leave balance callbacks queued across a pick retry
@@ -197,7 +227,6 @@ cae023143d25c877d04e05c986311507e75d4167 netfilter: flowtable: set inner protoco
 97874c7c5f2c31236c4071d85b60c38c2f4bac3d netfilter: flowtable: populate tunnel tuple regardless of inner protocol
 3dcafe6cb5e1b467a25fde347c8c3949a2866adc netfilter: flowtable: add encap_proto to flow_offload_tunnel
 d0107f38162279d9cb0e012210731176265f835d netfilter: flowtable: unify tunnel push for IPv4 and IPv6
-7f9f2d6abc40f79e802b4063859eda343043b85c firewire: core: fix race condition in split transaction handling
 1f5dde349ac2fca1f119ae8de3f0d2f1c2a8d338 sched_ext: Drop the locks periodically while walking a user DSQ for re-enqueue
 767e87bb6f0f721e0b97640780ff3ab1d413b329 firewire: core: use workqueue to cancel all pending transactions on card removal
 31ab33a6e3721902f3dbfbf1fd3116ef4d683810 firewire: core: check precondition when scheduling error callbacks
@@ -239,18 +268,10 @@ f28c09b7e62fb5ead65bdfab93012a86d64b6540 ASoC: tlv320aic32x4: Fix definition of 
 1c1dda9ba9f3af9cd511a197dcc86de2465d8fe5 bpf: Zero-extend the index in inlined bpf_get_func_arg()
 38dbc3047a2fa706f6b4485679eb5eb62ff55b87 selftests/bpf: Test out-of-range index bits in bpf_get_func_arg()
 2c7935600733c2168b81d3f0f31247ed20d54be0 Merge branch 'bpf-zero-extend-the-index-in-inlined-bpf_get_func_arg'
-cf20e7f96ae688dd8611dd6dce8cb4a036fecc72 Merge tag 'locking-urgent-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-8573787061f1a59fd73fc683c3c5cfd6bd07ea9f Merge tag 'perf-urgent-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-88328f850d956d267d11e2ee225ee1eaa902b8e0 Merge tag 'sched-urgent-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-23a38e7bb2f9ad99c317a9f4e4c349054de9dfff Merge tag 'x86-urgent-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-53cbbb09c1b87425cd7184f81ecdb830aa3b0b87 Merge tag 'x86-core-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 bceba446fa2bc66a905ec0bbf6fd80e98701c1d1 alpha: fix stale user_stack_pointer()
 501bcb5953cc4d56537a321c00f9193e9fd68718 alpha: stop storing the user stack pointer in pt_regs
 c5280a56dc4cbcbbfd3256a0fd58071587e928b0 alpha: use user_stack_pointer() in KSTK_ESP() and dump_elf_thread()
 9280e99d87ddd8c6c7fd83f9ea1585967b3dcd60 alpha: add HAVE_PERF_REGS and HAVE_PERF_USER_STACK_DUMP support
-a0ff06b3a7bd3aa0cd99d0294e60b3ed28c9bfac Merge tag 'firewire-fixes-7.3-final' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
-72732cbee632b1be22b636813c9be3df55c72bd9 Merge tag 'i2c-fixes-7.3-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
-3d679a244e0deb65d31cb02f1d1dcb790fcfcae2 Merge tag 'regmap-fix-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
 1a85a03fc2fe180c1ddc91b4a801d313321d9e53 alpha: fill in pc for software event samples
 2c8792df90e565d5a280549f37f5c5563f76ebe3 alpha: move Tsunami machine check handling to err_tsunami.c
 6634cb1490ba8d3d7fccfbbf4028e702da4e2e8f alpha: describe the Tsunami system machine check frame
@@ -258,9 +279,7 @@ a182df7ceae5d75a7fdc5dc211ccebdd821697bf alpha: bound EV6 logout decoding by the
 ea2b073b4f31f334354479b993160788610c779d alpha: decode and acknowledge Tsunami system machine checks
 73b8c00851e27ac3497d50d4ecc59892b0cc5577 alpha: decode Clipper environmental events
 71cf9644bcb35e686c3e12a703325335a0925946 alpha: add bounded Clipper console-log scanning
-8486d357129126e27fb5d4e02622566bafc77035 Merge tag 'spi-fix-v7.3-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 5dbc181a22ae397b53adb26bc083f206b9631c83 Merge remote-tracking branches 'ras/edac-drivers' and 'ras/edac-misc' into edac-updates
-f909e534f5e34feb2ea2701d54df63e21aa506fc Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 0007654a7bf13ef2a19afd398bbc6507087f19fd lib/buildid: reject file offsets that do not fit in pgoff_t
 0ceb2f21d3e02b310ed246a210b6cecea24e19b2 bpf: Determine freplace staticness from BTF linkage
 8d637d4c62c1880062dbb098f67b804e2eff85aa selftests/bpf: Fix stack_arg precision backtracking log expectation
@@ -271,7 +290,6 @@ a898ff0f3e9968b5f7c248d2af3cf1ddaf239e51 bpf: Fix incorrect handling of user fla
 4a9b25fe8d138f2e0e65b337ecf829ce7ce42d09 bpf: Fix incorrect handling of user flags by percpu hash map updates
 22392799e251d8ddfbc766faf5c5fb0a5c69cf7d selftests/bpf: Add tests for percpu map flags combination
 27dc4fc4ae7b01efb68561f98c5f373e55fb71c2 Merge branch 'bpf-fix-incorrect-handling-of-user-flags-by-percpu-map-updates'
-c03c1a14507dfaf8b856c2608f9ac216021fc222 Linux 7.3
 0f9b1e9ef584522b645a97eff8d1c8d0dcab3afb selftests/bpf: Add bpf_proactive_reclaim test
 c3a0bfddaee4e1e5fce7f4426004669c017cd8f1 bpf: Enforce trusted BTF ID argument provenance
 71b6a960c73f2ccff0932ff70aaf066bc21a960c selftests/bpf: Cover trusted BTF ID argument provenance
@@ -1063,23 +1081,5 @@ a8c2facb7b2cef4d110e3b25037bc29703485c71 Merge tag 'pinctrl-v7.4-1' of git://git
 9628ee0c2219daaa6374b0c5f5a5c0d55e0e263b Merge tag 'gpio-fixes-for-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 89d2d7bf0698b7fdfc914bfd219e739e9308d332 Merge tag 'efi-next-for-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 21a7f44fd0765fcc5194130b28767786eba1d1e7 Merge tag 'devicetree-for-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-0d53640e749e8131e66faa7c675704f6e2e50c1b drm/dp: make drm_dp_aux_dev_class constant
-2dc5ce4afdadb2cf982ad8acb7276f29534945b0 drm/sysfs: make drm_class constant
-6eb90698115ba1f08904260b6b1402b5458cf01e drm/fbdev/core: make fb_class constant
-7c0155c517b3df123f271aadf4f16bb706768e26 dma-buf: heaps: make dma_heap_class constant
-6d110b05109762f8f2399c49ddda09e5e64b9f7f media: dvbdev: make dvb_class constant
-3013cb75a8f5ac7763ed4f3410189c6c13e73141 drm/dp: constify the struct device_type usage
-09a18e14a18aa746323f035e86e9c3039ee3e8cd drm/privacy_screen: constify the struct device_type usage
-30a68400422fbf4c47019b1f9ce5611c07287d22 drm/sysfs: constify the struct device_type usage
-4156ecfcfab9ba7bf3812949efc6706cecc33a5b rapidio: make rio_mport_class constant
-fdc2fe265f5abb131d778a66e6732ec19d0a5b63 parport: constify the struct device_type usage
-dd7ca3f87944719b496a044343f4fc9b838ab59f coda: psdev: make coda_psdev_class a static const structure
-f3664d68ae6bc02520eb3d18685cc12c9cee156d cuse: make cuse_class a static const structure
-64dc15899c27f8367648702be3f8b3b5dd46b937 pstore: pmsg: make pmsg_class a static const structure
-111170bfbad3f383c6eaf9d37a25184c62777f61 netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
-377c5054d6274c49b06967e8e4656a35849b8c85 PM: wakeup: make wakeup_class a static const structure
-67f3918b4ccad62f69d3c096618b54372f60d2e8 gnss: make gnss_class a static const structure
-7d56a9b80289a5ce5aee93f374021d6d7e1aed52 extcon: make extcon_class a static const structure
-aa0b14006c57ccd5a854999788a3bb7124d8a773 misc: c2port: core: make c2port_class a static const structure
 
---===============5397309750499409710==--
+--===============5437070120550170848==--
