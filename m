@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1548196018148610809=="
+Content-Type: multipart/mixed; boundary="===============9210352760688936372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Sun, 25 Oct 2026 07:03:12 -0000
-Message-Id: <179291179240.2840040.3425356379440920024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sun, 25 Oct 2026 07:03:19 -0000
+Message-Id: <179291179978.2840269.13816385036600428919@gitolite.kernel.org>
 
---===============1548196018148610809==
+--===============9210352760688936372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/spdx
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/spdx-linus
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
+  - ref: refs/heads/bus_cleanup
+    old: 6916d5703ddf9a38f1f6c2cc793381a24ee914c6
     new: 21a7f44fd0765fcc5194130b28767786eba1d1e7
-    log: revlist-cee9395acd80-21a7f44fd076.txt
+    log: revlist-6916d5703ddf-21a7f44fd076.txt
 
---===============1548196018148610809==
+--===============9210352760688936372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792911790 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1792911790-a1e4b089442081034e75eab20501b7c7fe804a20
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792911797 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1792911797-ddcbe92225489aa319a8adee16d47043847d12c7
 
-cee9395acd8043be0644b25c34bfa86623f2b935 21a7f44fd0765fcc5194130b28767786eba1d1e7 refs/heads/spdx-linus
+6916d5703ddf9a38f1f6c2cc793381a24ee914c6 21a7f44fd0765fcc5194130b28767786eba1d1e7 refs/heads/bus_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdqa4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qn0P/iMhRmDDGuhYF9RezeDI
-QAn5XW1nCQu3pa0pRv67I8HGYC7iPdVSIHAQmMjm0lIWHh5/Aeg7lQi+kHpBRhmO
-xGizL106STKdrRchfLgwYdTDwfIIm9teZ8Ieljbyt2a1Az4eJFwsoAMZyJy+KvEl
-M0ICtZFyfBoVxZdwVN2vfTa/nNrgS4KyF84uSrQUzTQXx+q0F0IqWAZX1GTPKQA/
-OEsS/0u+pOvrHq7lg9B1OItexqkIrt7PAqG0DpGDDwaPGGAQSc4LMQHBp/0qXZOf
-b5HtLU3jbnkvlq4YcZUEjnygF/wqSSnVwkMTlXZml0azkvN0bLShhN311UdXNu/T
-dgGAw80E5k4Wmg/3atvauvd85jFMHC+4W//K0iN0mROhGN5HtZsKzBqcgXBPsfy/
-f+XExiGzpUdfmxvpqyGYmvCaF9ogAOSOessMh9/FOKIZDV2M3b6m+MDvsKsgbTC4
-faJ3lYHXQSmghBe6DvVwNhMx9RoyKmEeCFPDOX6BZBasNH2LwTPmdFhZTwi5jyKh
-JRM+GZXPVZGS6++O2iWggiyx+2UfTbVZViJmKF6Fm2m0Bbn4DO8IORlJdzSPHFB6
-/mCskNkmIQtS/9S/iI+j8Ot9Bm/8iXeZyFBe+j8meQ8Y6ifPwyva0x+Hb7VtP2ad
-fQXIw+OBaNz5Y9xqD3uX6FyA
-=JZtz
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdqbUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sm8QAK8MFRzHRsAZVSx6Nkcq
+OeJo18BDX62ECchOa3JrjfA7ybIhLSRm4jK2lWzwgQCOImdvcj9QTkpkf0rVJqT0
+mOH6EF9hNvOv/4Idre4X0fCa/RY4w3Jb3pWkSgUuAgvxnaXNsaQN0cW9naFQ2HzZ
+9nYH71mf7DO1hORc46CBz4yH3bvoVVwZtAutBJQgOQRqERaWfIMl3umFM5K9dYfP
+IEI/lvQ5MKrbrmuXFn019cgv1cXVpErpw3lUNDa6pTAa65fkPbvj3Fzrcjgaj8g7
+fUjhtmQPQmUXO+L4zUqk37RFVsFD9qxBqO5KoIyLWiIZX9oywGoKXRdDbzI6k6xD
+uC2dS1h5VgoQB8ItBTuZ1QLVtslb7o+BHUyJTKWzBc+j30WOtP+23ASsbRtW7GnQ
+9A1uablK/4wPPC/T1rRK3Eve/DpDQFUvIjGe+0jcxPfYOX+SMnq0ApclgYIvwc4O
+DXIUrDOeJjYREiSNK/x1A12dw3ZosKn6SGes8KG7vrCEfQQGlPlrIQrqeWsTB6Sn
+jVkXtlTmnaD1q8yIXm6q/k5zpyuyCK/ZgCCCTegeJ+8z3DgqHW+5LGQLp1pY8Ity
+0Br6ZSreLNbI2llaKb6N4D0pl+QRYitcbPQcLL3skZ74n8gE4sfFKa9OuKrhSKQi
+/7Gu9FBqdWvCrJSrchi8edYp
+=75en
 -----END PGP SIGNATURE-----
 
---===============1548196018148610809==
+--===============9210352760688936372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cee9395acd80-21a7f44fd076.txt
+Content-Disposition: attachment; filename=revlist-6916d5703ddf-21a7f44fd076.txt
 
 2093bc7fa50056fef8620d2b82bcb2e9a0a5575d mptcp: fix MP_CAPABLE token migration when cloning reqsk
 22e692960d2e2d7a5390c65d552201ebd8949cc2 Merge branch 'mptcp-misc-fixes-for-v7-3-rc8'
@@ -1082,4 +1082,4 @@ a8c2facb7b2cef4d110e3b25037bc29703485c71 Merge tag 'pinctrl-v7.4-1' of git://git
 89d2d7bf0698b7fdfc914bfd219e739e9308d332 Merge tag 'efi-next-for-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 21a7f44fd0765fcc5194130b28767786eba1d1e7 Merge tag 'devicetree-for-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 
---===============1548196018148610809==--
+--===============9210352760688936372==--
