@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9210352760688936372=="
+Content-Type: multipart/mixed; boundary="===============5397309750499409710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Sun, 25 Oct 2026 07:03:19 -0000
-Message-Id: <179291179978.2840269.13816385036600428919@gitolite.kernel.org>
+Date: Sun, 25 Oct 2026 07:07:09 -0000
+Message-Id: <179291202971.2844058.14009123749945354572@gitolite.kernel.org>
 
---===============9210352760688936372==
+--===============5397309750499409710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,65 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/bus_cleanup
-    old: 6916d5703ddf9a38f1f6c2cc793381a24ee914c6
-    new: 21a7f44fd0765fcc5194130b28767786eba1d1e7
-    log: revlist-6916d5703ddf-21a7f44fd076.txt
+  - ref: refs/heads/class_cleanup
+    old: 5cabed5d811609cdded199ad645af1bc8e4001a8
+    new: aa0b14006c57ccd5a854999788a3bb7124d8a773
+    log: revlist-5cabed5d8116-aa0b14006c57.txt
 
---===============9210352760688936372==
+--===============5397309750499409710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792911797 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792912021 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1792911797-ddcbe92225489aa319a8adee16d47043847d12c7
+nonce 1792912021-fc58211da7431c3b3dc101db45b6e9bdabcd6247
 
-6916d5703ddf9a38f1f6c2cc793381a24ee914c6 21a7f44fd0765fcc5194130b28767786eba1d1e7 refs/heads/bus_cleanup
+5cabed5d811609cdded199ad645af1bc8e4001a8 aa0b14006c57ccd5a854999788a3bb7124d8a773 refs/heads/class_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdqbUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sm8QAK8MFRzHRsAZVSx6Nkcq
-OeJo18BDX62ECchOa3JrjfA7ybIhLSRm4jK2lWzwgQCOImdvcj9QTkpkf0rVJqT0
-mOH6EF9hNvOv/4Idre4X0fCa/RY4w3Jb3pWkSgUuAgvxnaXNsaQN0cW9naFQ2HzZ
-9nYH71mf7DO1hORc46CBz4yH3bvoVVwZtAutBJQgOQRqERaWfIMl3umFM5K9dYfP
-IEI/lvQ5MKrbrmuXFn019cgv1cXVpErpw3lUNDa6pTAa65fkPbvj3Fzrcjgaj8g7
-fUjhtmQPQmUXO+L4zUqk37RFVsFD9qxBqO5KoIyLWiIZX9oywGoKXRdDbzI6k6xD
-uC2dS1h5VgoQB8ItBTuZ1QLVtslb7o+BHUyJTKWzBc+j30WOtP+23ASsbRtW7GnQ
-9A1uablK/4wPPC/T1rRK3Eve/DpDQFUvIjGe+0jcxPfYOX+SMnq0ApclgYIvwc4O
-DXIUrDOeJjYREiSNK/x1A12dw3ZosKn6SGes8KG7vrCEfQQGlPlrIQrqeWsTB6Sn
-jVkXtlTmnaD1q8yIXm6q/k5zpyuyCK/ZgCCCTegeJ+8z3DgqHW+5LGQLp1pY8Ity
-0Br6ZSreLNbI2llaKb6N4D0pl+QRYitcbPQcLL3skZ74n8gE4sfFKa9OuKrhSKQi
-/7Gu9FBqdWvCrJSrchi8edYp
-=75en
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdqpUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FAgP/AqoqSZKG3VP0r5Vloan
+Q1ny7x7thcqo09VP3K2JsemNt5bL2cMb2ETpBEX0nmyo16CK1beADlCXHNgZSlCq
+xH631sKU+i/mIP41NC8cFrJYLWruYZ1p2qj0xf11Pd1eVKs4x1rgfGxPqfd1WTaG
+jVSZKaDVV1i/m/tG7MIevuBF92H8sl0udVrhYBUeJrKG5RvqOCEyAfb5ovGLS5QR
+qA55mn8im9M2QlWkpO9V1zvTkqGgBSQ0mvc1maisPbJ2s14QPVj8AMLJOmlrMMu4
+D94oUJmorOEMeBXiWvgAEx+9rYPZFdDsEkXzxlB+HwEjZth3QXfqUbJCVo1zbwmG
+OxWSgwXbwufJ2cuewAY51QKAioDmP+MRalCRPL2O4wekFzpgDa085cidIAUbjD3p
+rEzucY5kheeBKDigTcODgnuEqOvlTnAt973HX/w8fwfUOOkHIoooasgxXomS0fzk
+Ml7DfzS9aGqYj+NthoEXgOEjxIG4++g5c47CgL23WT+rRmHk9AUeIBfIlHk3QxFk
+2akh52XsphbDSRVPyXxeEzr+j49gVa5n3jPohROpiINfxa3EZua4TazoHCqrbCAn
+xDr773sC0bY6zNu1IcANLrbkLrUOffl0Tn5R1LvjpkqMxvcVeRaeRbYvTRWEHzqj
+U6lJ/7WVO6VlkV2PPlWIfnbF
+=EKW6
 -----END PGP SIGNATURE-----
 
---===============9210352760688936372==
+--===============5397309750499409710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6916d5703ddf-21a7f44fd076.txt
+Content-Disposition: attachment; filename=revlist-5cabed5d8116-aa0b14006c57.txt
 
-2093bc7fa50056fef8620d2b82bcb2e9a0a5575d mptcp: fix MP_CAPABLE token migration when cloning reqsk
-22e692960d2e2d7a5390c65d552201ebd8949cc2 Merge branch 'mptcp-misc-fixes-for-v7-3-rc8'
-a3bb7a0184fbf9fed14aacb9773fe9f6f2097c1b Merge tag 'sound-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-1240de9e51201eaf7057f63b9ce5db15380cbbbe bareudp: Enable BIG TCP packets
-3e3f209961b03835a8f3d3e52ed9ca976997c142 selftests: net: big_tcp_tunnels: Cover bareudp
-b4423835d9c528c242531c7ba455b4f687906acb Merge branch 'bareudp-enable-big-tcp-packets'
-58161ead29e50d70a317ea26b472e0c7508e69da Merge tag 'drm-fixes-2026-10-17' of https://gitlab.freedesktop.org/drm/kernel
-c2124f80be4ceb6ec566ca3b5fc87f84ea9c36e0 vlan: restore HW VLAN tag insertion with reorder_hdr off
-a2ce227aea96b1c2e739f66c8650a036993e9083 Merge branch 'hw-vlan-insertion-restore'
-58f7989da6e715ce834ac861b7ba6ae9f9bdb098 net/sched: cls_flower: avoid stale mask references after delete
-718f364a20ecee4f25986789c25550cf4da73b4c gre: keep the UDP tunnel GSO type when completing GRO
-d0eb9632fd987bf3029fc0c845b65ba6b661a41f selftests: net: add a test for GRO of GRE over FOU and GUE
-7ec48f396a1d89532c0537bc38b408b8c31ee37f Merge branch 'gre-merged-gre-over-fou-gue-packets-are-dropped-bug-report-possible-fix'
-fa38468cd26b4db34ab2b335f1904c19721f94b8 net: phy: refuse a second attach before touching the PHY
-7151b86654fa635101cabe7f55511f54c3adcf84 net: phy: put the driver module the attach took
-8b0244ca4fa4e717ffe6874f7eadc59ebb6ae5ba Merge branch 'net-phy-fix-a-second-attach-of-an-attached-phy-and-the-module-put-on-detach'
-458575e1f2ddea944d679fe778c92e370a9b61a4 bpf: Don't echo user-supplied map info fields back to userspace
-1b82d5ce3ba9155db746e87065bafb87a5f8666b ipv4: Store netns in FIB table
 a25a51258acf916545989ed162a34a3a8cb526de ipv4: Do not pass netns to fib_table_lookup()
 98c2ad4f5d805dbc1ea436a334ee59311806a48c Merge branch 'ipv4-remove-netns-argument-from-fib_table_lookup'
 440b83f5b733ac4e6f6e3f0706bd718879859d9d PCI: dwc: Correct PCIE_DW_PLAT_EP reference in Kconfig help
@@ -1081,5 +1063,23 @@ a8c2facb7b2cef4d110e3b25037bc29703485c71 Merge tag 'pinctrl-v7.4-1' of git://git
 9628ee0c2219daaa6374b0c5f5a5c0d55e0e263b Merge tag 'gpio-fixes-for-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 89d2d7bf0698b7fdfc914bfd219e739e9308d332 Merge tag 'efi-next-for-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 21a7f44fd0765fcc5194130b28767786eba1d1e7 Merge tag 'devicetree-for-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+0d53640e749e8131e66faa7c675704f6e2e50c1b drm/dp: make drm_dp_aux_dev_class constant
+2dc5ce4afdadb2cf982ad8acb7276f29534945b0 drm/sysfs: make drm_class constant
+6eb90698115ba1f08904260b6b1402b5458cf01e drm/fbdev/core: make fb_class constant
+7c0155c517b3df123f271aadf4f16bb706768e26 dma-buf: heaps: make dma_heap_class constant
+6d110b05109762f8f2399c49ddda09e5e64b9f7f media: dvbdev: make dvb_class constant
+3013cb75a8f5ac7763ed4f3410189c6c13e73141 drm/dp: constify the struct device_type usage
+09a18e14a18aa746323f035e86e9c3039ee3e8cd drm/privacy_screen: constify the struct device_type usage
+30a68400422fbf4c47019b1f9ce5611c07287d22 drm/sysfs: constify the struct device_type usage
+4156ecfcfab9ba7bf3812949efc6706cecc33a5b rapidio: make rio_mport_class constant
+fdc2fe265f5abb131d778a66e6732ec19d0a5b63 parport: constify the struct device_type usage
+dd7ca3f87944719b496a044343f4fc9b838ab59f coda: psdev: make coda_psdev_class a static const structure
+f3664d68ae6bc02520eb3d18685cc12c9cee156d cuse: make cuse_class a static const structure
+64dc15899c27f8367648702be3f8b3b5dd46b937 pstore: pmsg: make pmsg_class a static const structure
+111170bfbad3f383c6eaf9d37a25184c62777f61 netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
+377c5054d6274c49b06967e8e4656a35849b8c85 PM: wakeup: make wakeup_class a static const structure
+67f3918b4ccad62f69d3c096618b54372f60d2e8 gnss: make gnss_class a static const structure
+7d56a9b80289a5ce5aee93f374021d6d7e1aed52 extcon: make extcon_class a static const structure
+aa0b14006c57ccd5a854999788a3bb7124d8a773 misc: c2port: core: make c2port_class a static const structure
 
---===============9210352760688936372==--
+--===============5397309750499409710==--
