@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6192950463451855744=="
+Content-Type: multipart/mixed; boundary="===============5969075084094245840=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 25 Oct 2026 06:53:31 -0000
-Message-Id: <179291121100.2827701.5587364473648056640@gitolite.kernel.org>
+Date: Sun, 25 Oct 2026 06:53:35 -0000
+Message-Id: <179291121532.2827892.1403631813645121464@gitolite.kernel.org>
 
---===============6192950463451855744==
+--===============5969075084094245840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/char-misc-linus
     old: a90ee4305c4a5df72c11b31dacfdc76e00fcf78a
     new: 21a7f44fd0765fcc5194130b28767786eba1d1e7
     log: revlist-a90ee4305c4a-21a7f44fd076.txt
 
---===============6192950463451855744==
+--===============5969075084094245840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792911189 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792911213 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1792911189-8095a69cf0f07498428273d5621ab2fb394b7fb4
+nonce 1792911213-de1e8e16607f6e889521fb8177200495cb589e25
 
-a90ee4305c4a5df72c11b31dacfdc76e00fcf78a 21a7f44fd0765fcc5194130b28767786eba1d1e7 refs/heads/main
+a90ee4305c4a5df72c11b31dacfdc76e00fcf78a 21a7f44fd0765fcc5194130b28767786eba1d1e7 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdp1UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+o5gP/0qx3TUemB/gvt02oTBQ
-1UwI6T0k9IbsCxYgs4w5C7T9gjbPZ1G9Q14OCsybLWv8Ob1zKVi9LA9Prwlr5gqF
-sz84ouXIi2XpZ142xQFHsfFWPMcbD1tLGty33aSd1gv9KoApYFK+ae5SqDznKlUi
-Uih6brKULJyAYYsT4PyH8WpmmKRHWjCC1z6ZOYPug322VvkhM6UBSjTQIE5gFISP
-AP8wd0u6y2mT5vX0rMKvvt/uv1KfrTiOFGP3LOCQeoboz2vDnRwU/CftLGIkR8GP
-eCxd3XYDCvzo3uEHNuvQNJ7x2FmkzFPzfLhXXHKlv0lZ9MxpThikeytMBlN5cl5l
-k1hj0Zme9+TfO76rkxSO9VY/qE95H2Uxdi1C6UdDBPQvi1tvw1TNezmGiiUZ/SX/
-mCJOYPeRPZgSsEtJzHJM2C3WktLH5rBmTdAeTCvTI6ztcjtU6TrkweCsN51gbk4G
-EcJXcJpDjK7GMAAFc1nlOqDAzFkSIjjbOu5f9pv/jnkqzib7yCtKXa+dKYzjtS7O
-LL5FRn2OTquDpYLKG8vwE7LunmioM2xO6aPJOWDNLPSdGxmy5jiZqUQfnlbVOFFp
-Tq1kpShXp39GPWZ57srvJ9yWzOhRX+ox1L1E71gLWE9mlykK+WhUsSFJ6p3osRVA
-qzoy+yK6yNFkP42YgBue5Ooj
-=naZW
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdp20bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qgoQAKZ3bnBz7TaZx7y8RxoF
+G4bg2cH14Xm7d5+SOzhu0wTbjcJ18O76zCXiEALmgDWuYtNd5slTcwv4D7uRvVHq
+UKtVZhnMZXNRvEfDaSuCNLTq7R+MHgySel0/8YixL7H37vZSwObRu5kBSYjZS6WZ
+T7QQc/c0QAdDJLv5WFq8xFJc0Bi3kxEkElJZ4MB5FR5BylYAaStFQBAieIz7XWMh
+SO+qnuMcxrGH0necCP6PM10npCQY1DHQkVun2Nt1UgI86oSMX40Delz9xCsBqHOt
+eS2+7wipZ4EdQP1ymWuBF7C2vKeENYosnIuGrpDa6Y08CJyEuDO8l9Io/djcB8Rj
+5bdp6xvgfBNeEXXz8DzVgNx2p3Tz1+WlFLPJDLaBU8LmM8FyMZNLAUX9mhLIVgzN
+4TJJMfPuZkkM6WHhXr6MjcRJ0lZTwL0xYByGgdPjnEpV3bl0G1p0HvHnH3dEAANr
+k0bvh1et1Km9BAVkXpOiUN+P4dQxZkFpRD8BMOY8+JYKvAoZH9sAQTOZDh3oLdIR
+UyDv+e97tjPqXW9LyRc7NxDhvqtzOjV2SN9nzWwHRzOidj5kZi8OyVYYO2FpN1W4
+GYnX1WxS8aryEEchskr3PxmJ1QgCcQ4OVKMHAa8S2yX/L4e9A7o1s0oBl9nV6QMA
+qnsyaNjEF33nJTzKeeysAUh1
+=uxFM
 -----END PGP SIGNATURE-----
 
---===============6192950463451855744==
+--===============5969075084094245840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ a8c2facb7b2cef4d110e3b25037bc29703485c71 Merge tag 'pinctrl-v7.4-1' of git://git
 89d2d7bf0698b7fdfc914bfd219e739e9308d332 Merge tag 'efi-next-for-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 21a7f44fd0765fcc5194130b28767786eba1d1e7 Merge tag 'devicetree-for-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 
---===============6192950463451855744==--
+--===============5969075084094245840==--
