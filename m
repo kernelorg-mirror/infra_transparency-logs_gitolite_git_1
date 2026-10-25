@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5969075084094245840=="
+Content-Type: multipart/mixed; boundary="===============6364379752487496345=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 25 Oct 2026 06:53:35 -0000
-Message-Id: <179291121532.2827892.1403631813645121464@gitolite.kernel.org>
+Date: Sun, 25 Oct 2026 06:53:39 -0000
+Message-Id: <179291121918.2828132.1429574942905703558@gitolite.kernel.org>
 
---===============5969075084094245840==
+--===============6364379752487496345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: a90ee4305c4a5df72c11b31dacfdc76e00fcf78a
+  - ref: refs/heads/char-misc-next
+    old: 985955d8e6b2b15cfd65b7ac6893e3a5a90c5870
     new: 21a7f44fd0765fcc5194130b28767786eba1d1e7
-    log: revlist-a90ee4305c4a-21a7f44fd076.txt
+    log: revlist-985955d8e6b2-21a7f44fd076.txt
 
---===============5969075084094245840==
+--===============6364379752487496345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792911213 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1792911217 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1792911213-de1e8e16607f6e889521fb8177200495cb589e25
+nonce 1792911217-5ec0a2a65ba8d60265505e2d00ae267e7d0253fc
 
-a90ee4305c4a5df72c11b31dacfdc76e00fcf78a 21a7f44fd0765fcc5194130b28767786eba1d1e7 refs/heads/char-misc-linus
+985955d8e6b2b15cfd65b7ac6893e3a5a90c5870 21a7f44fd0765fcc5194130b28767786eba1d1e7 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdp20bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qgoQAKZ3bnBz7TaZx7y8RxoF
-G4bg2cH14Xm7d5+SOzhu0wTbjcJ18O76zCXiEALmgDWuYtNd5slTcwv4D7uRvVHq
-UKtVZhnMZXNRvEfDaSuCNLTq7R+MHgySel0/8YixL7H37vZSwObRu5kBSYjZS6WZ
-T7QQc/c0QAdDJLv5WFq8xFJc0Bi3kxEkElJZ4MB5FR5BylYAaStFQBAieIz7XWMh
-SO+qnuMcxrGH0necCP6PM10npCQY1DHQkVun2Nt1UgI86oSMX40Delz9xCsBqHOt
-eS2+7wipZ4EdQP1ymWuBF7C2vKeENYosnIuGrpDa6Y08CJyEuDO8l9Io/djcB8Rj
-5bdp6xvgfBNeEXXz8DzVgNx2p3Tz1+WlFLPJDLaBU8LmM8FyMZNLAUX9mhLIVgzN
-4TJJMfPuZkkM6WHhXr6MjcRJ0lZTwL0xYByGgdPjnEpV3bl0G1p0HvHnH3dEAANr
-k0bvh1et1Km9BAVkXpOiUN+P4dQxZkFpRD8BMOY8+JYKvAoZH9sAQTOZDh3oLdIR
-UyDv+e97tjPqXW9LyRc7NxDhvqtzOjV2SN9nzWwHRzOidj5kZi8OyVYYO2FpN1W4
-GYnX1WxS8aryEEchskr3PxmJ1QgCcQ4OVKMHAa8S2yX/L4e9A7o1s0oBl9nV6QMA
-qnsyaNjEF33nJTzKeeysAUh1
-=uxFM
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrdp3EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cD8QAIkOw6p1NF1RcmxRNsXl
+tSifrERS0CaQv0BMe/SFH5BnslU1bv97MQJOKOuvMNMhoq/MUWhlFx2CfCu1lhPm
+AQPg8yO9+JtELgm4HoXv1GpP11iTMUsB0spmK0sdHNXB/0MUbzyvzTpAld+LghXp
+/kJKk5JLxbqc7sR6OrdlHGazHr5IgtGIE1S+/atAwIG1R9yGpev4oAQGVl1lClot
+Hpq4aWnQIZ+Mn0tI/5LCE7E7384HEd8rCO0dfT4MxRUpOTpm7UWTRwp+++KdtWvZ
+9xFwLKKY8qGeMinlxoYbfm8hiFX6u9VZc3FPdsPS7dKDlPvviFxyvY5iPah7nPdL
+xyxgbvTupZwQH6WQJJW++u9BgyG4bcfvpmU6OZ5+AJGUUEB0Nlvs2iQNJciQwrQz
+puDJrxFvi7FKZGWLa2k5L9fV7C2yzcsfhcp4VJm35py9jwZ23PYRKWU5x31z+1PB
+jT6Ba+mVghyJ+dQhOIDCzHtZ9tUVGKvrAt/AhNtn5o9mFh7tx4A1B+LP5y5nUVpU
+Q1Qr6mczWhGsa4agfSx5EgX1MTQQZlMinwyFGsTSUB0CzLCVnR3KT3kDmI75J01w
+x9BigGXwL+Z1YGdQ4y4uxWRVncPtbdbIJz1s03oU78vwlgUo4ymMQZ6pNfj9delN
+UQl4vElCz8dG2WzcXYSumpcr
+=QGDE
 -----END PGP SIGNATURE-----
 
---===============5969075084094245840==
+--===============6364379752487496345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a90ee4305c4a-21a7f44fd076.txt
+Content-Disposition: attachment; filename=revlist-985955d8e6b2-21a7f44fd076.txt
 
+29afe67082b2d33ab2e90c56c337235d725f023f mptcp: reset msk state on early connect failure
+7538fa33bb2f66b8b809ff39d58308be48e197a0 mptcp: fix subflow bitfield misuse
+c9c90cf437a9e6597611b6d3aad6e255fad22867 mptcp: hold MP_JOIN msk ref when cloning reqsk
 2093bc7fa50056fef8620d2b82bcb2e9a0a5575d mptcp: fix MP_CAPABLE token migration when cloning reqsk
 22e692960d2e2d7a5390c65d552201ebd8949cc2 Merge branch 'mptcp-misc-fixes-for-v7-3-rc8'
 a3bb7a0184fbf9fed14aacb9773fe9f6f2097c1b Merge tag 'sound-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
@@ -220,15 +223,12 @@ d0107f38162279d9cb0e012210731176265f835d netfilter: flowtable: unify tunnel push
 767e87bb6f0f721e0b97640780ff3ab1d413b329 firewire: core: use workqueue to cancel all pending transactions on card removal
 31ab33a6e3721902f3dbfbf1fd3116ef4d683810 firewire: core: check precondition when scheduling error callbacks
 d7a7c63437d3c5db282ebff08f5258e906ae9920 firewire: core: use context analysis to check lock state when scheduling error callbacks
-10c833da4dde3d9bb19e2092a33abafdaa16a341 Merge tag 'spmi-for-next' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sboyd/spmi into char-misc-next
 c91a4ad0ea2166080682e6b75fca63a0608b76e0 Merge 'gup-7.4.misc'
 cb3b441f2698455a48e9a023d5f7f4e3fcb94c73 usb: gadget: fix refcount underflow in gadgetfs_bind() error path
 e68f245bcb1f863aeb8eab617bd06878c078029a usb: gadget: dummy_hcd: fix SuperSpeed ep0 maxpacket
 8d22d6da17d9612963a08965c3784a191dc66cec usb: gadget: dummy_hcd: set no_sg_constraint only on the SuperSpeed bus
 ab248e0b900ea2e30bec5c71fd56d8f0fa87a67a usb: gadget: dummy_hcd: add tick_us module parameter for timer-rate tuning
 bdf12cde30830d46a8ef1ba93986356f1164b4f1 usb: gadget: dummy_hcd: prevent unbind via sysfs
-9de32b62bc6c250372820414a90d577df7fe435a rust_binder: avoid overflow in get_node_debug_info()
-985955d8e6b2b15cfd65b7ac6893e3a5a90c5870 rust_binder: wake epoll on self-work queued to poll thread
 700ce4da6f6f172435349b687d2d916e791c6330 selftests/nolibc: explicitly disable position independent executables
 07ae95d933b84db98696f23e24de078b251561ff Merge 'memhp-7.4.misc'
 2c493ac8c347167eec9e4e985d2b58d5fa6fd420 lkdtm: Add more EFI runtime tests
@@ -1082,4 +1082,4 @@ a8c2facb7b2cef4d110e3b25037bc29703485c71 Merge tag 'pinctrl-v7.4-1' of git://git
 89d2d7bf0698b7fdfc914bfd219e739e9308d332 Merge tag 'efi-next-for-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 21a7f44fd0765fcc5194130b28767786eba1d1e7 Merge tag 'devicetree-for-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 
---===============5969075084094245840==--
+--===============6364379752487496345==--
