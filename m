@@ -1,82 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Sun, 25 Oct 2026 10:08:54 -0000
-Message-Id: <179292293467.2971488.9841011606563881540@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 25 Oct 2026 10:13:53 -0000
+Message-Id: <179292323384.2975165.8024798990947327621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/mm-everything-2026-08-07-00-21
-    old: af97e9e49f10a226037751acdc2fe76157ccce41
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-07-23-51
-    old: ae3dda2b9eace50dd3bb244f672976dbfcb8d75c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-08-03-38
-    old: 4dca164b973040c9c7ed5553402a9f757b3e08cb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-08-07-08
-    old: 98e25d7215252ce0ad5bc1edaa34496eb5abf3ed
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-10-23-38
-    old: 386c9a19539be8fda42ef3cf2b54e3e4d9995d58
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-11-04-29
-    old: 8bd397a6347a58084dcbfeef5ce39b31537f547f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-12-03-04
-    old: 32c6a16b7247a7f7c5137fcba993a02b2ec3e6f1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-12-03-34
-    old: a4d5d63309f4a63bd80fb9a7a53e0f5c46feeecd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-12-03-42
-    old: 3fa2909ad67fbd4e81a1d00beb579c1523e7fe3b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-12-05-16
-    old: a7254b2abb9c22c5866fac4fd186e404208f9f1d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-12-23-35
-    old: 5b7a1cfd077a5071fbcbe6a6ff19c749ce671e9d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-13-22-01
-    old: 926612839cf8494fb4b15cf3ddfc40e0b3d0c965
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-13-22-44
-    old: 3c9aa88ad84e1e10bc2d4b105dbf4184e308aef6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-14-21-19
-    old: e7b9e6d671cc5d5d2acfcd058c920ab1bf3ce04e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-16-04-14
-    old: 6885db1de3ebd13cb6c8118b4e39567a058be57a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-17-23-29
-    old: 045c62834d6440a7d38f4ebe148f65fc68ab205e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-19-00-59
-    old: 65610a05d522e7bf274bc51394a8d88e75d999b5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-19-04-51
-    old: 74338a87993986fdb07bba0c5da86c9576838d8f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-20-03-16
-    old: 7c622cd91c5ee9c2635d01def7478fa0aaf2b867
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-20-21-06
-    old: 26a1d5be2efd640c9cb6fb9aec7675789e7d488a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-21-01-25
-    old: 3a1c443c65674bf6335043856cb2e2577fe81580
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-24-19-42
-    old: 0780f5c58c69356aeb6a98011a5f9bcd98b8cd55
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-08-25-02-01
-    old: c901034b70ed9ec630c9786cad7776a5e474ea90
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: 3719f1da14c3ec07875a17214da63d2b6e20ad0b
+    new: b219844342e9e1f5c7887bbbe7857e71ddf343f2
+    log: |
+         64ea0e8226ed98d14e0231af1beae10c3d5c043a perf: Fix UAF in attach_task_ctx_data()
+         d095321349222961813333277881b3c74f10b17b perf: Fix perf_remove_from_context() event scheduling
+         ee92b7ef4c1e271b3c1ea2a8b13034bdc62422a7 sched/cache: Honor asym packing over cache aware scheduling on hybrid systems
+         cac037a85c1971ec75c4d3edf5a28af9ec2a089c sched: fix stale get_pref_llc() stub for !CONFIG_SCHED_CACHE
+         ab64ed5cd4770f273e0ef318b4bb8869a37c491f Merge branch into tip/master: 'perf/urgent'
+         b219844342e9e1f5c7887bbbe7857e71ddf343f2 Merge branch into tip/master: 'sched/urgent'
+         
