@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sun, 25 Oct 2026 05:45:58 -0000
-Message-Id: <179290715852.2781195.9108880187193571022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Sun, 25 Oct 2026 05:54:50 -0000
+Message-Id: <179290769040.2785831.13676286773668956802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/wip-fsverity
-    old: 59a63aedd712e21965828c046fed96195d5f95eb
-    new: e4535587c5d67096957206e09efa90c79083e1c3
+  - ref: refs/heads/dev-test
+    old: f41242e951d569149a58b5a695e61304bf4212c3
+    new: 0ea0e841cd199682532cc1c56f84cf61d5bc9047
     log: |
-         7886aef5b62551d6781e524203ca33d2d06c6a7f fsverity: Tell LSMs about signature only after verity is enabled
-         e4535587c5d67096957206e09efa90c79083e1c3 fsverity: Be more careful with return value of ->get_verity_descriptor()
+         f2efb241cfb0c570e5fc80ae9d913f0a16f92c97 erofs: hold real inodes for shared files
+         0ea0e841cd199682532cc1c56f84cf61d5bc9047 erofs: fix metadata reads at the end of file-backed images
          
