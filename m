@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7155058109062529014=="
+Content-Type: multipart/mixed; boundary="===============6850902199510429595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 26 Oct 2026 03:44:51 -0000
-Message-Id: <179298629139.3729782.12213661082477774863@gitolite.kernel.org>
+Date: Mon, 26 Oct 2026 03:56:50 -0000
+Message-Id: <179298701032.3739643.14659411125539130844@gitolite.kernel.org>
 
---===============7155058109062529014==
+--===============6850902199510429595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,54 +16,32 @@ repo: pub/scm/linux/kernel/git/torvalds/linux
 user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 390febb5805d3bb830402679f277f1d5f309e6bc
-    new: 126ad898a6e97fcb4c3fbe6d979829f72b8c348c
-    log: revlist-390febb5805d-126ad898a6e9.txt
+    old: 126ad898a6e97fcb4c3fbe6d979829f72b8c348c
+    new: 7d37252fc49a939d005a7495b81d1bb337c29e45
+    log: revlist-126ad898a6e9-7d37252fc49a.txt
 
---===============7155058109062529014==
+--===============6850902199510429595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-390febb5805d-126ad898a6e9.txt
+Content-Disposition: attachment; filename=revlist-126ad898a6e9-7d37252fc49a.txt
 
-69c61d4b7e42ed308cd9b9d5dc46bc5e1dc4bae5 memblock: simplify reset_all_zones_managed_pages()
-c1a6b4ca3b68ef794f5e754af00592721dddc10d memblock: remove conditional return with no effect
-48be325089e15077411785d0c41ddb9071a61081 kho: do not reserve scratch memory in the kdump kernel
-c711461303af9f796b293b5ac06f49a885e46e71 kexec_file: stop the top-down search before it underflows
-c5c9a4e14bfa7163ef77c95272c7949ae1501134 kexec: keep the next kernel off hardware-poisoned pages
-c7add4fee3fe444835e2127c9b41d1f633d5036b Merge patch series "kexec: keep the next kernel off hardware-poisoned pages"
-dbffc67777cd752ef3f77818109e1d2ef13e2949 mm/mm_init: remove zone_absent_pages_in_node()
-2792b4b15f148b142a4302706410e520c8049c00 kexec: return -ENOEXEC from image probe functions on mismatch
-b7c94f4d0961e3ea8ce0463b6eda1bb2cf9f2694 kexec: fix error propagation in kexec_image_probe_default()
-a901b0778ae82d46084b55237e65d3a7bb5f0c86 Merge patch series "kexec: fix probe error codes and error propagation"
-06ce2863e7d28bcee539b90c87960edda742fe18 kexec_file: remove unused arch_kexec_locate_mem_hole hook
-dc645f2db7539352404525dd1b80236520fb39eb kho: docs: fix scratch_phys debugfs cross-reference
-f68c01000a6c3bddbf415b6e50a201196ec78358 memblock tests: model the low allocation limit within dummy memory
-2345d7e354e84c140de225022a38754eab499a94 memblock tests: cover allocations below the low address limit
-07ae2801241e1324e6ad2cc0102ad125d36712a9 Merge patch series "memblock tests: cover low-address allocations"
-5728d3523f12826a2b180c1c5738f74e33197e14 memblock: reject non-page-aligned reserve_mem regions
-9357596afac61154e7f54048c0add9f1293b9eba memblock tests: use physical addresses for region removal
-6957416ae43de1830174f527b5b8cf737401a8dd memblock tests: zero-extend simulated memory addresses
-a10f3a08d248fcb3006f587faf42437837fd12c6 tools: use __pa() in virt_to_phys()
-ba94f68b754985f77c3f6d3354df74952a1e0752 memblock: initialize the region merge end index
-92248b75d0198f989a83187e683a774a9c608263 Merge patch series "memblock tests: fix BUILD=32 address conversions and warnings"
-22626c347d250797fa76616feeb55ba9f6c0192c memblock: get rid of CONFIG_MEMBLOCK_KHO_SCRATCH
-48edec475144a9acb9515d37475bda4752912727 memblock: rename KHO_SCRATCH to KHO_NOPRSRV
-8ebd2eb87f50b7bdd5a87929da320514ca91726f kho: rename KHO scratch to KHO bootmem
-10823ced2f18bd6779959744fb13e5974ca75a6a kho: rename kho_scratch= commandline parameter to kho_bootmem=
-d5d21fffbff6d18fd9e746e31d8e5cdaff0f0b9d Merge patch series "kho: rename "scratch" to "bootmem""
-063b5e8bbd216c27e885f45e29e23d053aa565fc mm: Remove unused exact_nid parameter from memmap_alloc()
-fba3e86fb848f79c4573243affcd7d79d378958d memblock tests: Move exact nid tests to memblock_alloc_range_nid()
-ea27be9f7ce90a05e779d20b60969ce2a9834f77 memblock: Remove unused memblock_alloc_exact_nid_raw()
-80b1dad1d6f535d85b5b8dcea6f3d598847a7e63 Merge patch series "memblock: Remove unused exact nid allocation API"
-48e6e4202e12af36671c6479b9ebcb8212d37cbb selftests/liveupdate: Prefer KVM and HVF over TCG in vmtest.sh
-aedb8dde08f8cd93ce1cc3a23273f2ff7238f832 memblock: drop for_each_memblock_type() and open code its users
-7933ad3f669670ca5f5f13de2b5cb0f92b91abf5 memblock: use binary search to locate candidate regions
-9a6a70aefe77f6fb9ff2b3037dcf87f6dff65c8c kho: do not reserve empty per-node bootmem areas
-9afab922b7210edd19138b5799ec25082e71f27f Merge branch 'kexec-fixes' into kexec-next
-833d2b79ed9520e77c5d83eb11644e5239b2c5bb Merge branch 'kexec-7.4' into kexec-next
-394023fbe34fccec5d4db2576169d21e14c8d3d4 Merge tag 'memblock-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mm/memblock
-b3593aba315322d875f295eef8b1a19e24658ba6 Merge tag 'kexec-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
-126ad898a6e97fcb4c3fbe6d979829f72b8c348c Merge tag 'liveupdate-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
+e7cad586d73276cbd4466de81b2092287d7475c0 timers: Clear pending_map on CPU hotplug
+7dbc307b6c72a5412e3f4e9fa2e0e926925fc5d6 sched/mmcid: Fix affinity-triggered switch back to per-task mode
+2b774b5bbffabae7ac6be98a98e9641fb3c0bbb4 alpha: add simd_enabled argument to perf_reg_validate()
+108775fa28fe04a16f19a828a779689f3d0ea9f0 x86/cpuid: Mark CPUID function 0x23 as being indexed
+64ea0e8226ed98d14e0231af1beae10c3d5c043a perf: Fix UAF in attach_task_ctx_data()
+d095321349222961813333277881b3c74f10b17b perf: Fix perf_remove_from_context() event scheduling
+ee92b7ef4c1e271b3c1ea2a8b13034bdc62422a7 sched/cache: Honor asym packing over cache aware scheduling on hybrid systems
+cac037a85c1971ec75c4d3edf5a28af9ec2a089c sched: fix stale get_pref_llc() stub for !CONFIG_SCHED_CACHE
+8ccd731b63a0183ca2b0e18f3ca15864b3f37eda posix-cpu-timers: Fix pid refcount leak in do_cpu_nanosleep() signal path
+524d95c8a2000cba6cb80a173d76cb746c561244 timekeeping: Require permission to set auxiliary clocks
+6541fbc942f3b63bb8bd44e34eee6223e0abe719 timekeeping: Update offsets on sequence counter retry in ktime_get_update_offsets_now()
+717862eac6eff0eea8ac30a0c0de0bed84922aab genirq/kexec: Do not take the bus lock of an interrupt chip on the crash path
+2b19759b46aee85627b58f3722846424201f24a7 Merge tag 'irq-urgent-2026-10-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+dc7be96c1cac85cc172b90a47f80e23d847c9203 Merge tag 'perf-urgent-2026-10-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+6e723c4f9417663c318d898fa113af211f48a6da Merge tag 'sched-urgent-2026-10-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+ed2bc044a7c8c9759bbe1165b8e487d07dd53b73 Merge tag 'timers-urgent-2026-10-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+7d37252fc49a939d005a7495b81d1bb337c29e45 Merge tag 'x86-urgent-2026-10-25' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============7155058109062529014==--
+--===============6850902199510429595==--
