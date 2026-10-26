@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7589160715809005531=="
+Content-Type: multipart/mixed; boundary="===============1574979117703948206=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Mon, 26 Oct 2026 08:35:47 -0000
-Message-Id: <179300374791.3932980.16668392188774557897@gitolite.kernel.org>
+Date: Mon, 26 Oct 2026 08:36:45 -0000
+Message-Id: <179300380524.3933524.12081356012476709604@gitolite.kernel.org>
 
---===============7589160715809005531==
+--===============1574979117703948206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/livepatching/livepatching
 user: pmladek
 changes:
-  - ref: refs/heads/master
-    old: 26260251022fbc2f248a3d747a9b2b961b18d2d8
+  - ref: refs/heads/for-next
+    old: f663062d717eac2c01f77eaf321fa630528e672d
     new: f1e818b239dd11397f9a379b84a7a4985e8afdfe
-    log: revlist-26260251022f-f1e818b239dd.txt
+    log: revlist-f663062d717e-f1e818b239dd.txt
 
---===============7589160715809005531==
+--===============1574979117703948206==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26260251022f-f1e818b239dd.txt
+Content-Disposition: attachment; filename=revlist-f663062d717e-f1e818b239dd.txt
 
 485ab2a36d36edb2bb630d2491d2ab7ed11178fc dt-bindings: interrupt-controller: amazon,al-fic: Add mask selection
 3d41f28682aa8375a025bc999e403852a78c092c irqchip/al-fic: Support error and fatal outputs and FIC v2
@@ -1051,4 +1051,4 @@ c0e8d301378775e6e1946389f3ff621f8601fa85 Merge tag 'modules-7.4-rc1' of git://gi
 7a78f7ba9f24962c8033e0152bf34a7903ff61ba Merge tag 'slab-for-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/mm/slab
 f1e818b239dd11397f9a379b84a7a4985e8afdfe Merge tag 'livepatching-for-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
 
---===============7589160715809005531==--
+--===============1574979117703948206==--
