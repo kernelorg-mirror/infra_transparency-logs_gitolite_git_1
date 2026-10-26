@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0053639541326987768=="
+Content-Type: multipart/mixed; boundary="===============1474837855952789027=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Mon, 26 Oct 2026 23:46:25 -0000
-Message-Id: <179305838526.595900.18312811298455941974@gitolite.kernel.org>
+Date: Mon, 26 Oct 2026 23:49:27 -0000
+Message-Id: <179305856768.597004.13203428157285492578@gitolite.kernel.org>
 
---===============0053639541326987768==
+--===============1474837855952789027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/clk/linux
 user: masneyb
 changes:
-  - ref: refs/heads/clk-pile
-    old: 1ca4bd0c6c0d7435822c948d54ec9095c8433878
-    new: ce8c0f4b8306e01b058859bb43425613cfd1782b
-    log: revlist-1ca4bd0c6c0d-ce8c0f4b8306.txt
+  - ref: refs/heads/clk-next
+    old: 31c632c62c5b98fd965ef5cff3c3fc1ffff02913
+    new: 0d9678b125d8315d62de1261bee67c7e6f21457e
+    log: revlist-31c632c62c5b-0d9678b125d8.txt
 
---===============0053639541326987768==
+--===============1474837855952789027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ca4bd0c6c0d-ce8c0f4b8306.txt
+Content-Disposition: attachment; filename=revlist-31c632c62c5b-0d9678b125d8.txt
 
+a3ba058598a4cf19fc5942aff8ce898de448c074 Merge tag 'samsung-clk-7.4' into clk-samsung
+4685c7989ada1a0c15069209f6a7106d9ced6e70 Merge tag 'tenstorrent-clk-for-v7.4' into clk-tenstorrent
 602aba4a3924486fbae7d388b853fedb37e69a42 clk: clk-gpio: do not blame the DT property on probe deferral
 26ec588063d9b6c70773b8729372e2bf6d3ea95a clk: nuvoton: ma35d1: Keep the clock count in the driver
 ea1f41802312e77b58113146a060fb0546b2234d dt-bindings: clock: ma35d1: Document the missing crystal inputs
@@ -49,5 +51,7 @@ bb1d071a54fefaa43161368f34d8dd13f1720531 dt-bindings: clock: Convert HiSilicon c
 40e5d379cc19fa7fa477414087df5e915d5e843f clk: stm32: fix clock array size for STM32MP21
 e9e6b4dc303dff637ef725aca4f4968d7600798b clk: cdce925: Size the PLL child name buffer for any int
 ce8c0f4b8306e01b058859bb43425613cfd1782b clk: imx: pll14xx: support spread spectrum clock generation
+79f5eab7ec9177271ffc9d49229357da74a2c4fb Merge branches 'clk-allwinner', 'clk-amlogic', 'clk-imx', 'clk-microchip' and 'clk-qcom' into clk-next
+0d9678b125d8315d62de1261bee67c7e6f21457e Merge branches 'clk-renesas', 'clk-samsung', 'clk-starfive', 'clk-tenstorrent' and 'clk-pile' into clk-next
 
---===============0053639541326987768==--
+--===============1474837855952789027==--
