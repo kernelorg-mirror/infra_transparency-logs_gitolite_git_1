@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 26 Oct 2026 19:02:25 -0000
-Message-Id: <179304134515.385280.2250827011373771456@gitolite.kernel.org>
+Date: Mon, 26 Oct 2026 19:04:52 -0000
+Message-Id: <179304149225.386019.9163023933958561945@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
   - ref: refs/heads/bleeding-edge
-    old: e83a6b2341f975624f53b88028d69cb73e83d0e5
-    new: 690cdddfd8579dc4874a2e71d5a1d36c3d5be826
+    old: 690cdddfd8579dc4874a2e71d5a1d36c3d5be826
+    new: f76064e252d3cf1b162b8003431f490033a6a5da
     log: |
-         4035247966859152a6523bc041f81cb9905695a5 intel_idle: Adjust state names and descriptions for _LPI states
-         690cdddfd8579dc4874a2e71d5a1d36c3d5be826 Merge branch 'pm-cpuidle' into bleeding-edge
+         ff4194e54f840b4df4eb2489c63ee88283895efc selftests/thermal: allow cross builds of the Intel tests
+         f76064e252d3cf1b162b8003431f490033a6a5da Merge branch 'thermal-intel' into bleeding-edge
          
