@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8786110626422242195=="
+Content-Type: multipart/mixed; boundary="===============8682081271729761987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Mon, 26 Oct 2026 12:42:34 -0000
-Message-Id: <179301855428.4170398.14402670649376179963@gitolite.kernel.org>
+Date: Mon, 26 Oct 2026 12:42:50 -0000
+Message-Id: <179301857036.4170697.17836798889917615545@gitolite.kernel.org>
 
---===============8786110626422242195==
+--===============8682081271729761987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 2f4880c22e838d54eae9ab153b0f8dce60531bf1
-    new: db8b4d2bf2d3e02b4ff78bbf69d00e11795840de
-    log: revlist-2f4880c22e83-db8b4d2bf2d3.txt
+  - ref: refs/heads/for-next
+    old: 72171dda0de3d8b8ceb87e1810202bedcddd2316
+    new: 6a53f401e671b75c129245e371ca6e9d47fc3c9a
+    log: revlist-72171dda0de3-6a53f401e671.txt
 
---===============8786110626422242195==
+--===============8682081271729761987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f4880c22e83-db8b4d2bf2d3.txt
+Content-Disposition: attachment; filename=revlist-72171dda0de3-6a53f401e671.txt
 
 e7d41f493e736fdf6d1fba40f0f24e9f4bfe6337 scsi: MAINTAINERS: Add Bean Huo and Stanley Jhu as UFS reviewers
 fb20fe062b008eba371c5265440b6bbad5690405 scsi: ufs: ufs-qcom: Don't define variable in the middle of the code
@@ -105,5 +105,6 @@ e24eedc81ec4fe16f943a02b3617e2175c961c84 scsi: snic: Enable lock context analysi
 659dec2ce32e79e9f438ea32d82cd3fa19fc20c1 scsi: sym53c8xx_2: Enable lock context analysis
 782a516e8f432f5ded4adab206bb809e29593c54 scsi: drivers: Enable lock context analysis
 db8b4d2bf2d3e02b4ff78bbf69d00e11795840de Merge patch series "scsi: Enable context analysis for most drivers"
+6a53f401e671b75c129245e371ca6e9d47fc3c9a Merge branch 'misc' into for-next
 
---===============8786110626422242195==--
+--===============8682081271729761987==--
