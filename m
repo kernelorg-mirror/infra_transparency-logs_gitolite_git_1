@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6884659842841121241=="
+Content-Type: multipart/mixed; boundary="===============6867842074491414319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 26 Oct 2026 18:21:46 -0000
-Message-Id: <179303890680.350621.12269196727793802554@gitolite.kernel.org>
+Date: Mon, 26 Oct 2026 18:21:48 -0000
+Message-Id: <179303890827.350755.11792604414820599373@gitolite.kernel.org>
 
---===============6884659842841121241==
+--===============6867842074491414319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: 3608e4190659fb871207b7db58667a373536094a
-    new: a8b3ccaa9645a707c002b9a4c25b03f077e972b9
-    log: revlist-3608e4190659-a8b3ccaa9645.txt
-  - ref: refs/tags/ath-202610261733
-    old: 0000000000000000000000000000000000000000
-    new: a8b3ccaa9645a707c002b9a4c25b03f077e972b9
+  - ref: refs/heads/ath-next
+    old: 734bef548a96e8774d6eef5dfa2026c6edc4e80b
+    new: 2c50cd5d10e8723797f28c7978f1f61688e0c0d2
+    log: revlist-734bef548a96-2c50cd5d10e8.txt
 
---===============6884659842841121241==
+--===============6867842074491414319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3608e4190659-a8b3ccaa9645.txt
+Content-Disposition: attachment; filename=revlist-734bef548a96-2c50cd5d10e8.txt
 
 49a8e00e0db8ed1030188dbaf8a6a387c0c8b427 wifi: mac80211: replace ieee80211_iter_keys_rcu()
 9498e5b7f0774f1f370ced72aef42837c5be5cb6 wifi: cfg80211: support C/B/I/GTK per AP in client modes
@@ -52,7 +49,6 @@ b7a615770a42b067c92f7cebd5e179cb0de47855 wifi: ieee80211: fix MAPC element name
 6400fb3f6b8cbaac14b8a0647c372a8a3e47f4e8 wifi: mac80211: fix UHR Mode Change Tuples
 9b3ebaef69366cdd55a0e8b848973b3718d0e3bf wifi: mac80211: avoid using dialog token 0
 0cf2eb997295589c5a9566a540ff89ebbbe3e8ea wifi: mac80211: remove .config method requirement
-25e73f1d6868c759c8eb56cad4e411692c5341b4 wifi: mac80211: reinstate IEEE80211_TX_CTL_AMPDU flag in ieee80211_tx_prep_agg()
 36350a9545833d15f8acc3d0f9c0cecb3c334427 wifi: mac80211: clarify ieee80211_set_antenna() return value
 cbef3d2a7717225d63517bd5a3082a187c1e6dac wifi: qtnfmac: topaz: Fix dma_unmap_single() size
 f5deac46fe4706c25ef3d59ec6ea4003a7e4c4af wifi: libertas: check workqueue creation in lbs_add_card()
@@ -60,10 +56,5 @@ f5deac46fe4706c25ef3d59ec6ea4003a7e4c4af wifi: libertas: check workqueue creatio
 e31a0e5347e34108d1afbc5290c6d28de620277e wifi: rt2x00: rt61pci: trim RX skb to reported frame length
 1459b99bdaf9f524c124be93dcb47cc1927808f9 wifi: cfg80211: use self-managed regd after user hint
 2c50cd5d10e8723797f28c7978f1f61688e0c0d2 wifi: cfg80211/mac80211: apply HE OBSS PD settings on beacon update
-64f66d5a0e26b4c85b766c823bbae8f67f78f366 Merge remote-tracking branch 'wireless/main'
-f31bad0dc024825f97c6323c7917f5eab8facb04 Merge remote-tracking branch 'wireless-next/main'
-e5af9366f81c49837f2258fb11d19fcb30990641 Merge remote-tracking branch 'mhi/mhi-next'
-35aea1caa1404f345dc60c2e6d6353a75cd520c7 Add localversion-wireless-testing-ath
-a8b3ccaa9645a707c002b9a4c25b03f077e972b9 MIPS: generic: Remove undefined image 'ramdisk'
 
---===============6884659842841121241==--
+--===============6867842074491414319==--
