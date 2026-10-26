@@ -1,72 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0224726780682143787=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 26 Oct 2026 13:39:59 -0000
-Message-Id: <179302199974.15681.6973248575636731376@gitolite.kernel.org>
-
---===============0224726780682143787==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Mon, 26 Oct 2026 13:41:46 -0000
+Message-Id: <179302210652.18649.449798354435664297@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: a2abad0d7f453cc9902fc8bf7b871db5563a652c
-    new: 1eb36316305767b54fac2cd40b88b3499791bdf2
-    log: revlist-a2abad0d7f45-1eb363163057.txt
-
---===============0224726780682143787==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2abad0d7f45-1eb363163057.txt
-
-15d5525989cd122f07c14db7af1c7e546847ec8f mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
-e85d1cd9083d2021f9c1d21fca1e21fac58fb6ec mm/vmalloc: use dedicated unbound workqueues for vmap drain
-c511e4b8b9f5b81edacb6e24061b119320d2798e mm/vmalloc: avoid false sharing with drain_vmap_work
-241c5e1634166954404261f68387f537a93345a0 xarray: fix index jumping backwards in xas_find()
-1857645abfaf429d84b33d495d876ee90a3f7c2b assoc_array: discard shortcut when collapsing a leaf-only node
-515ee6e1aedb7902941daaa3e6475d47a2d67598 userfaultfd: clear the inherited uffd bit in move_swap_pte()
-74cce28642413b9774fae967074a1c97e5a8ef9f mm/khugepaged: flush deferred unmaps before dropping a failed folio
-62f4864f32f3d9deeabf47ba6e8f827f96c1e843 lib/base64: silence clang-24 -Wconstant-conversion with diag pragmas
-9e705230a5f8b6363765c4fd557508a9579ad830 mm: fix address wraparound when scanning large folio PTEs
-670238c712c30190a33d6d51efbc1cefecf86b9d iov_iter: validate extracted segment for bvec alignment
-e9011a65d78258901ba123c5f522bef26d29902f mm: memory: fix truncation removing mapped folios
-cd3a6c2e4514447f59c5c9efcc4312d5626d0e32 foo
-eab82f6664fc35d1b11a509c9dcd7dccaaa07fa4 mm: fix missing page-table destructor in pagetable_free()
-4f5b2dadc2190264d3c438e612f8d6dd896f291c arm64/mm: fix destructor for unconstructed hotplug page tables
-b11630ade2f342686832477c37197270792875bc mm/page-writeback: avoid 32-bit overflow in dirty threshold shares
-f097efa21b12cc4a60624450730c8ed505a42c51 selftests/mm: merge: keep the far mremap() targets in the carveout
-d224a4bd9207a632d215bab224e56473735cd7b9 mm/page_alloc: let the highest memory node recover from hopeless state
-7631742f8df6924bb701e6464511aa2a22c65f33 mm/hugetlb: fix mremap move length truncation
-c9a8e1e9ce8f930e46287b1e253e358324e13130 mm/hugetlb: disable PMD sharing for UFFD missing mode
-f8efa3c32fc8d140b5d026a6048b546f290d05b4 mm/hugetlb: fix mremap deadlock when PMD sharing is possible
-0a0539b40036a51268fd53d5a9e4180a2015d24e mm/page_alloc: mark pages freed by __free_pages_core() as not tagged
-048c41841479eb43319f2d87b8c667527599f96f mm/vma: fix expansion of VMA_MIXEDMAP_BIT VMAs
-63c4035a86547d8dfbd89673a37d02cab6154623 xarray: clear the new head's parent before freeing the old head
-5b7f744d2e10b47d10e797c8ef572972c3984c72 mm: do not unintentionally overwrite atomic VMA flags
-677a216bb3c5630d33c25ec05e9a34d84694f384 mm/vma: write lock source VMA before duplicating it in __split_vma()
-46c57a31d90f0cf68eb7a9b41daa645b55a28ebe mm/madvise: preserve VMA_SOFTDIRTY_BIT when changing anonymous names
-1a9a0c4238c8bc5de692e0bb27097842b924a01a mm/vma: avoid losing atomic VMA flags when setting sticky VMA flags
-8066a6ff92416eef305f67d7cb3aaf13b2f0c144 mm: memcontrol: fix NULL pointer deref in high_work_func() on dying memcg
-6a10c7d566e32697f2841331c5941f631e3639a3 mm/ksm: keep soft-dirty when merging a page
-a768cf4eb0329da07ce4963765131f9da41567c3 mm: zswap: use separate compression and decompression requests
-ff994095994154f1913e4099ac12dfa16782955e crypto: acomp - enforce MAX_SYNC_COMP_REQSIZE
-a47282b1d20640ab92537e0adf9f9072e77042a1 mm: zswap: use stack requests for synchronous decompression
-79da24ec131f777d0878321853b8e265c34c854f fs/proc/task_mmu: return -ENOTTY for unknown pagemap ioctls
-91e4082f1cd39bc4aeaff61a87fcf48d130fd61c fs/proc/task_mmu: fix missed VMAs when reading /proc/PID/maps and friends
-a8e1f6daa37694f75771c7685e81f99386aa4e40 mm/damon/sysfs-schemes: hold damon_sysfs_lock in target_metric_store()
-22ab11bba18a4ee73797f1eb0da426bca5b8ab5f mm/damon/core: move static variable last_nr_regions to damon_ctx
-adc5df12bea5695713efe1f5afc5bc51420ae1aa mm/damon/core: move static variable rotation to damon_ctx
-81c49e3a6848f50e677b620f929c374e67684457 mm/zswap: validate dlen and normalize comp_ret on compression success
-12f7429ca1fc89169f0aa2f0a299c9d889b37619 mm: make swapoff interruptible when unusing mms/shmem
-af2cfce5fcf18ff06374223fe6b1f94041e98c03 mm: nommu: set MMF_OOM_SKIP in exit_mmap()
-fd0fecc8244ff9bac9c8ac7842a3e01691cb5ce4 fs/proc/task_mmu: fix lost maps entries above 2^63
-1eb36316305767b54fac2cd40b88b3499791bdf2 mm/vmalloc: read vm_map_ram block regions from the requested offset
-
---===============0224726780682143787==--
+  - ref: refs/heads/master
+    old: 53dd56f35e50866e826a8717bf79913138516fcb
+    new: 800ef57b51b4f0dcd3adcaf95b75e252f8d9f4ee
+    log: |
+         33561e2efa364ddb19cc007d96d25a70d04bfa0b patches/next: three race fixes: move to non-rfc section
+         b511f48d30260c3f4c3ffb43aca236e3572d0199 todo/fixes: update
+         ef7718d81967a0a679777b6179bb7a3f02ee35fb patches/next: three race fixes: add proactive changelog
+         8a884bcca05dc140fc32c09e0c89e7c2ad02bb8b todo/fixes: update
+         ec194067e0d30a50053e56395a0963b640687ca5 todo/fixes: prioritize stable kernel issues
+         27678528462cbd4d9c2befad0fd6f4335feefbb5 todo/fixes: update
+         582a0ddd5a5a2d2da292fd3dde881b5f6c3bce98 todo/fixes: update
+         01f4533ee98f3e52047509c42b83f4e6c36d77c7 todo/fixes: update
+         8637d48a46172f2f6308d80deda766ac158c41f0 patches/next: report infra: slight doc update
+         66d4fd58be0dc5cd9c56232690575d832f02ae41 patches/mm: update
+         800ef57b51b4f0dcd3adcaf95b75e252f8d9f4ee patches/next: rebase to latest mm-new
+         
