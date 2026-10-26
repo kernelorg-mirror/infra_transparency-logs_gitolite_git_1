@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6154953533412207551=="
+Content-Type: multipart/mixed; boundary="===============3543735627396421227=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 26 Oct 2026 15:05:36 -0000
-Message-Id: <179302713646.111922.2832476695256875103@gitolite.kernel.org>
+Date: Mon, 26 Oct 2026 15:08:04 -0000
+Message-Id: <179302728426.144460.15690454773241079438@gitolite.kernel.org>
 
---===============6154953533412207551==
+--===============3543735627396421227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-linux-next
-    old: 0b32dcfa2c983e8fbe44adb110dac42cf90768d9
-    new: c0cce86ceff91b4b9ec17f50b63e1553bda4e8a3
-    log: revlist-0b32dcfa2c98-c0cce86ceff9.txt
+  - ref: refs/heads/master
+    old: 734bef548a96e8774d6eef5dfa2026c6edc4e80b
+    new: 6b4b543fa18757297ac756a6fe6e64f506b7844a
+    log: revlist-734bef548a96-6b4b543fa187.txt
 
---===============6154953533412207551==
+--===============3543735627396421227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b32dcfa2c98-c0cce86ceff9.txt
+Content-Disposition: attachment; filename=revlist-734bef548a96-6b4b543fa187.txt
 
+22f74df7ac575c43c4dd1e2d4cbae65ff84a3595 s390/uv: Rework page allocation for guest variable storage area
+b33cbce8a58383e127e44c552b0e7738e2afc091 KVM: s390: selftests: Add IRQ injection selftests
 6079170e9cb52e5cfa3efc589ef065290e3e87ad KVM: s390: Replace get_zeroed_page() with kzalloc() for sie_page2 and CMMA
 603695afbeee031711cfa944519a5b5c00607e53 KVM: s390: Replace get_zeroed_page() with kzalloc() for the GIB
 f10a817b3ab1db7b7f912a6c57e60f93ceddfa12 KVM: s390: Replace get_zeroed_page() with kzalloc() for the STSI buffer
@@ -1048,7 +1050,5 @@ ed2bc044a7c8c9759bbe1165b8e487d07dd53b73 Merge tag 'timers-urgent-2026-10-25' of
 2270aa5ed5f7981082e4fae4103b8930e0ba106f Merge tag 'mips_7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 44dc57ed1e77a23248ef28732486f4b7e9468cf7 Merge tag 'sh-for-v7.4-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 6b4b543fa18757297ac756a6fe6e64f506b7844a Merge tag 'parisc-for-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
-7f73b4cb4b3afff60577e5ddc532fd026b55d4e5 firmware: arm_scmi: Drop redundant ACPI configuration guard
-c0cce86ceff91b4b9ec17f50b63e1553bda4e8a3 Merge branches 'for-next/smccc/fixes', 'for-next/scmi/fixes', 'for-next/ffa/fixes' and 'for-next/juno/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux
 
---===============6154953533412207551==--
+--===============3543735627396421227==--
