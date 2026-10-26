@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2302401526989173618=="
+Content-Type: multipart/mixed; boundary="===============5553003321953305627=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 26 Oct 2026 11:29:47 -0000
-Message-Id: <179301418731.4117739.11075647830966169736@gitolite.kernel.org>
+Date: Mon, 26 Oct 2026 11:29:51 -0000
+Message-Id: <179301419104.4117951.7619440658301726628@gitolite.kernel.org>
 
---===============2302401526989173618==
+--===============5553003321953305627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/char-misc-linus
     old: 21a7f44fd0765fcc5194130b28767786eba1d1e7
     new: 6b4b543fa18757297ac756a6fe6e64f506b7844a
     log: revlist-21a7f44fd076-6b4b543fa187.txt
 
---===============2302401526989173618==
+--===============5553003321953305627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793014182 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793014191 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1793014180-d59e307a230e517040786fddddba7312267f91bc
+nonce 1793014189-5c497dc375c8160483e0ffae7e7b6be3bf15f414
 
-21a7f44fd0765fcc5194130b28767786eba1d1e7 6b4b543fa18757297ac756a6fe6e64f506b7844a refs/heads/main
+21a7f44fd0765fcc5194130b28767786eba1d1e7 6b4b543fa18757297ac756a6fe6e64f506b7844a refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrfOacbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LT8P/2RfFdQ3hV0lf8LmXPlB
-+zqEya2ob4i/3fEdraDq3PKTLVnm/lb/LVafk72VzOFVl4++s2PPS0tXo8BwCwLu
-wrhFJ2MiymNehhocn+Yhri+prAzSqbG2BA+BPWZkMhIbwZ8UYeqDIYJZ0nLi55hX
-Vjnc6g1tclRwBeeGLN8yN1vRk/SW3ztxUTg49KBNwoIYSQrNDBm50kK8kpysVRs0
-hJYRw+SuVQcGTOjPCB3ST4BS1pED5+omyYvWW0admV8fCiQEeddQ6HPESSGU9WH4
-kzqSm3pG4vgdJz6iOF9KNtehISPSi3QGND+ckXzbXP0ta/0Lb5JKMCZuCPNBQm99
-OTF9Yc49W7OgD7k4jNFRPZmI6oFlJ1ALcKHAQ7wLl3U8LuSiPMe2nGMZQYoByRRl
-KDsKVu5BEcP9E89j+3trIkxjB4lx0uRikXqyZBG3CbyqtbeJzsDHJQsxfUdRPsn4
-vUrsBwOWUzH5uM17fJBWTAg1jak6tYEPPGWjGTKHS/hFYoPcyOX6bwUWrR4v7BA+
-0aASFm8n2Rr4VzTAEJzzTdt35ztZPq0w1aTpMRzrLglQ3wMGdMcJz5/bm8RzH6Sq
-wPWF7vepVIcpeTu7cpTrrPcLu+S5uNV8phRTpFwWMq40u1/ifZFYRAVj8IluqOgW
-sBfsjYg8v7mymSte+F7oWkf1
-=Pi8/
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrfOa8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tEkP/A+qp0KTa9N8kxvWijgW
+7zSQIa+ikdqgtHbGGlyA0dUyktzbAE5OWn/vR0voozrO5FSh1OB41epIoWm+cK6d
+8GryPZWS/G9d+pdQCT0tE00b4pSS3yCE3FtTrMt9rZYjLlNDCz0TckSAJ1kT9NqZ
+Jw66SQXKh4np6y8BSRN1vPEUR+ZegDC5L3OUYKUpXZhsKPy6HEHhDyeusrJIbFva
+u4T+zTEriD2MA5rjNvl8U4um301ZzfBH3KFG3b7XtlpNnSYcV70dTzVMk40p8igj
+pv7xCNxkUp1cBGMU9vmxJM9d7B4wSbVTU+27lawaWyIPO76cAtF4vGUm+sHNdzDz
+4G74MPxpYsXFzwk1IZpwv+5xW2FG7KqkOzDaPAkp44D53r6oESXGN/Ig7xbc9ZT7
+QyToaCF35Dt3ZSF4fSzLAIaJhcAgUYTl2eaKdrDvU40w8TJzIgLF2OLjoT3K+2Xw
+ZXfE7dBk9X0/MKBzWhu4ewklCG68PcicZHO5dX9BOHOntrjm9vpj8j9pd0R3pXAw
++OswrjKkLeHFo31SU0DmoKoeRtFwCf/aPi3ARtKcsAO4Ya2hmuwRdu6wFVsglngL
+PYUBbtYd8PyLASu5k93osACJWq8i4w5QRRTL11OZPoUs03shxWftLzX54MEYYzMf
+MuPaFL1y7y6YGE7WHnmkavHF
+=JTID
 -----END PGP SIGNATURE-----
 
---===============2302401526989173618==
+--===============5553003321953305627==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -704,4 +704,4 @@ ed2bc044a7c8c9759bbe1165b8e487d07dd53b73 Merge tag 'timers-urgent-2026-10-25' of
 44dc57ed1e77a23248ef28732486f4b7e9468cf7 Merge tag 'sh-for-v7.4-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 6b4b543fa18757297ac756a6fe6e64f506b7844a Merge tag 'parisc-for-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 
---===============2302401526989173618==--
+--===============5553003321953305627==--
