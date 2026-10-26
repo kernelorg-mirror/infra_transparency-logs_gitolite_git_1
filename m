@@ -1,21 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 26 Oct 2026 21:24:19 -0000
-Message-Id: <179304985939.485013.5782097929670700260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 26 Oct 2026 21:33:52 -0000
+Message-Id: <179305043268.492177.4905792385167374670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: 60aa5abdc9997f0f4d3ab766d8a4af79ce8e400e
-    new: d34a818a331f7e270fa9dc3db3d96f6a0d4fa7ab
+  - ref: refs/heads/for-linus
+    old: cc3fc99f1bce93c3ae3771ef98cb91a566da857e
+    new: f3c7bee984aa0ba2b48a44e16a6f3ec2c27f851e
     log: |
-         79cfb5aebbf0417418c2ac25669fade7f3e58ef2 ASoC: SDCA: propagate sdw_slave_read_prop() failure in class_read_prop
-         86331b76b32d7a83fb3e64641a5111746bf0f50c ASoC: SDCA: drop pm_runtime reference on probe failure path
-         d34a818a331f7e270fa9dc3db3d96f6a0d4fa7ab ASoC: SDCA: re-enable IRQ on pm_runtime_force_suspend failure
+         9080b18ad561a495bf74926cbc52e23cae8887c0 ASoC: amd: yc: Add DMI quirk for HP Laptop 14-em0xxx
+         f3c7bee984aa0ba2b48a44e16a6f3ec2c27f851e ASoC: qcom: qdsp6: q6afe: fix clk vote response type mismatch
+         
+  - ref: refs/heads/for-next
+    old: cc3fc99f1bce93c3ae3771ef98cb91a566da857e
+    new: f3c7bee984aa0ba2b48a44e16a6f3ec2c27f851e
+    log: |
+         9080b18ad561a495bf74926cbc52e23cae8887c0 ASoC: amd: yc: Add DMI quirk for HP Laptop 14-em0xxx
+         f3c7bee984aa0ba2b48a44e16a6f3ec2c27f851e ASoC: qcom: qdsp6: q6afe: fix clk vote response type mismatch
          
