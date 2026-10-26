@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 26 Oct 2026 18:57:07 -0000
-Message-Id: <179304102745.380751.9476136661428328450@gitolite.kernel.org>
+Date: Mon, 26 Oct 2026 18:57:15 -0000
+Message-Id: <179304103509.380991.14065710254583783974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: 9080b18ad561a495bf74926cbc52e23cae8887c0
-    new: f3c7bee984aa0ba2b48a44e16a6f3ec2c27f851e
+  - ref: refs/heads/spi-7.4
+    old: dc5ca34f5e8dc10c566ef39aa3b1a201a17ca734
+    new: 7da2aca123754c0e06092bbe179d58078b58d8d4
     log: |
-         f3c7bee984aa0ba2b48a44e16a6f3ec2c27f851e ASoC: qcom: qdsp6: q6afe: fix clk vote response type mismatch
+         7da2aca123754c0e06092bbe179d58078b58d8d4 spi: cs42l43: Add speaker ID quirk for Dell XPS 13 DX13260 SKU 0E54
          
