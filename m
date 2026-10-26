@@ -1,23 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Mon, 26 Oct 2026 17:28:34 -0000
-Message-Id: <179303571455.309559.11323765680802897821@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Mon, 26 Oct 2026 17:30:00 -0000
+Message-Id: <179303580035.310263.12527115132709457976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/scx-numa-preferred-node
-    old: b32a6cc32c8cc9307957cd2201ae2015e75cd9c1
-    new: 9c70e43b58f8161bc41989ba01a21fb0ed62fd50
-    log: |
-         c2d91e0197a11486c4523cc932edd8553b7ce234 sched/numa: Leave the placement of a BPF-scheduled task to its scheduler
-         6b4800ce00ac73a5533013428a94760e740ea27a sched/numa: Notify the scheduling class of preferred node changes
-         9344410795d533aa066d64e4a8d96268face19e5 sched_ext: Report preferred NUMA nodes through ops.set_numa_node()
-         94880a23b6ae6858f60e8b75b61097940d4d28f9 sched_ext: Add a kfunc to read a task's preferred NUMA node
-         9c70e43b58f8161bc41989ba01a21fb0ed62fd50 selftests/sched_ext: Test preferred NUMA node notifications
-         
+  - ref: refs/tags/f2fs-for-7.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: a5f29310226fb71954fb92e5c4f410aa8e63896a
+  - ref: refs/tags/v7.3
+    old: 0000000000000000000000000000000000000000
+    new: 091b06388b117fefdcb63336ac09956a4914b961
+  - ref: refs/tags/v7.3-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 5e036ce12de91c6fd674dad33b169c6150be2a7a
+  - ref: refs/tags/v7.3-rc3
+    old: 0000000000000000000000000000000000000000
+    new: c2cd463d6ee7d55a3ec0719d93c49ff99022d58f
+  - ref: refs/tags/v7.3-rc4
+    old: 0000000000000000000000000000000000000000
+    new: dec005ae90a2946656a090f37bf1cfbd22f08e57
+  - ref: refs/tags/v7.3-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 5a956dde5526a634dca7ccad27c051ebcc306089
+  - ref: refs/tags/v7.3-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 4eeccbed21e50c19f97be9d325511f3de6343f2d
+  - ref: refs/tags/v7.3-rc7
+    old: 0000000000000000000000000000000000000000
+    new: ec8bf8280261294a9b9b4520414b42704c7f9f6b
