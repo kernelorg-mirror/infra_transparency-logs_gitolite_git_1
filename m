@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 26 Oct 2026 15:43:15 -0000
-Message-Id: <179302939506.230147.971982844311128485@gitolite.kernel.org>
+Date: Mon, 26 Oct 2026 15:43:53 -0000
+Message-Id: <179302943399.230587.11767019222153691726@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,45 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/aer
-    old: e86ac10110d00e6c3801f38bde1863951315222b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/aspm
-    old: 2cbfd6c8dcfc9c5539d0ffca22b5609593f93c03
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/doe
-    old: 624ee129620a054466b6a29d98cd7a40ccc239cd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/endpoint
-    old: a5401ce3ab2356b7861f53d09205008b7a49d57e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/enumeration
-    old: 926767a9be8866d26cc27ca46c46c03d921e2193
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/hotplug
-    old: 5ab17178fca6026d329cb6ced33c30f3b7d3e50a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/misc
-    old: 6aaa3f42e3410ea8e26c857477260159f724cb1d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/mps
-    old: 581cf67cb6f66eabc6bcd7f61dd64b2559270507
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/pm
-    old: f043083843cac1105206437d8c58e725b6412fad
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/pwrctrl
-    old: b6087ff2b7a4c9f98c78f56f0f357557fc008768
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/reset
-    old: ed3ccc190765f194254c47617a0d894307d39862
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sysfs
-    old: c6479aac4f877d2c64b0eb3553ddd529423a9074
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/tph
-    old: 5c382ef425c875bf854d411fb0a45909878a233a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/virtualization
-    old: ae43799529c480510dcc14bd0ed141a1d85b9259
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-linus
+    old: 17bb0e2f6c8043f70a693a5f3797471cbed354c8
+    new: 810c9fc7e7fd1f97ce38bc8dbc2c059cf31b94bf
+    log: |
+         810c9fc7e7fd1f97ce38bc8dbc2c059cf31b94bf PCI: Ignore Immediate Readiness on Samsung PM9D3a NVMe
+         
