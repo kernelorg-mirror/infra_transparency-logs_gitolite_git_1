@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/docsko/korg
-Date: Mon, 26 Oct 2026 18:45:15 -0000
-Message-Id: <179304031551.370502.11913066262369918215@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Mon, 26 Oct 2026 18:52:49 -0000
+Message-Id: <179304076905.375331.5334506787528788200@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/docsko/korg
+repo: pub/scm/docs/kernel/pgpkeys
 user: mricon
 changes:
   - ref: refs/heads/master
-    old: b5cb0731a2cc48daae005351eb7ebe8b115f0c4d
-    new: 1345b014ef8a1cf1860b8262786b869b2ba16d28
+    old: 44c47ac1e62ce51e09bb5fc8bf5a091153fbd6e4
+    new: 33930c48ba2d8214fec594e42385168d5fd3473b
     log: |
-         1345b014ef8a1cf1860b8262786b869b2ba16d28 Document how to extend a PGP key's expiration date
+         33930c48ba2d8214fec594e42385168d5fd3473b scripts: add pgpkey-expiry.py to warn before keys expire
          
