@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 26 Oct 2026 19:32:03 -0000
-Message-Id: <179304312354.408271.13366382526952179791@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/website
+Date: Mon, 26 Oct 2026 19:33:23 -0000
+Message-Id: <179304320380.408915.18188665516955510429@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/docs/kernel/website
+user: shuah
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: f3c7bee984aa0ba2b48a44e16a6f3ec2c27f851e
-    new: 8d678dce151838ecb8251ce9cf0e29f7e13c866d
+  - ref: refs/heads/master
+    old: 37b6aec2bc343c25e92006f8d7e3b9feacc01a4c
+    new: 52d0e02c4e45b27c7f6048fac287108abb797d76
     log: |
-         4b832a2af523cbf857a977414c0f07d7f90a4c9d ASoC: qcom: q6apm: Fix unmap regions response handling
-         43c69604271d8b54c494fde70bd4a9eaab7a974d ASoC: qcom: q6apm: Clear the right handle on pos buffer unmap
-         a51c5dd7f7fc7cdf4ae28fec4a013d8418d1cb53 ASoC: qcom: q6apm: Unmap DSP buffers before removing the topology
-         6977822f9daca68daf4524e3ffbe8442d8595b50 ASoC: qcom: q6apm: Fix shared memory unmap
-         d25ac9e30cab579c1c99b8f541e092b40ee53012 ASoC: soc-acpi-intel-arl-match: add rt712 on link 0 config
-         51dc835b59caca983ed27065233be4b81cd8ac14 ASoC: Intel: soc-acpi-intel-arl-match: Add RT713 + dual RT1320 support
-         8d678dce151838ecb8251ce9cf0e29f7e13c866d ASoC: Intel: soc-acpi-intel-arl-match: add new
+         52d0e02c4e45b27c7f6048fac287108abb797d76 Add code of conduct reports for September 2025, March 2026, and September 2026.
          
