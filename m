@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 26 Oct 2026 23:24:35 -0000
-Message-Id: <179305707527.577059.2220338950477552572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 26 Oct 2026 23:32:59 -0000
+Message-Id: <179305757900.584101.720138914060014626@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 72ee27b97986f4d331fe1c26e4333f12738d982f
-    new: a81513bf5bdf29cf00c0a11f56be515c1ec260f4
-    log: |
-         c6648c9f3b51c5a8a3df470c1542b2aa378d88f9 net: harden qdisc_pkt_len_segs_init() against malicious GSO packets
-         a81513bf5bdf29cf00c0a11f56be515c1ec260f4 bonding: fix out-of-bounds read of arp_ip_target
-         
+  - ref: refs/tags/sent/20261026-regmap-drop-region-min-max-b1ff4cc203b3-v1
+    old: 0000000000000000000000000000000000000000
+    new: e1723640aa6a1a535f28e3c7c3b1c678762b014c
