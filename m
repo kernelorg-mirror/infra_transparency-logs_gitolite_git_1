@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 26 Oct 2026 19:04:52 -0000
-Message-Id: <179304149225.386019.9163023933958561945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 26 Oct 2026 19:10:43 -0000
+Message-Id: <179304184356.392108.14049378256201964633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 690cdddfd8579dc4874a2e71d5a1d36c3d5be826
-    new: f76064e252d3cf1b162b8003431f490033a6a5da
+  - ref: refs/heads/master
+    old: 3cd6b7091631fe34aecabe1f2bf721becae33fac
+    new: becdb8ba9f6ce3b0fa2a8ec0d0fb4bb45f5a860f
     log: |
-         ff4194e54f840b4df4eb2489c63ee88283895efc selftests/thermal: allow cross builds of the Intel tests
-         f76064e252d3cf1b162b8003431f490033a6a5da Merge branch 'thermal-intel' into bleeding-edge
+         0add8251a092205d81cceddd7ec7250f0c2408b1 tests: skip cramfs mount tests on mixed byteorder
+         025c242cbc368e3ce849642208d168e01f3e4f07 tests: (cramfs) make the image listing independent on ls(1)
+         becdb8ba9f6ce3b0fa2a8ec0d0fb4bb45f5a860f mkfs.cramfs: report zlib version, detect it in the test
          
