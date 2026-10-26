@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3986003510246838173=="
+Content-Type: multipart/mixed; boundary="===============3214107094027513663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 26 Oct 2026 11:28:15 -0000
-Message-Id: <179301409576.4115453.12382333182952860948@gitolite.kernel.org>
+Date: Mon, 26 Oct 2026 11:28:19 -0000
+Message-Id: <179301409938.4115692.635470184640565188@gitolite.kernel.org>
 
---===============3986003510246838173==
+--===============3214107094027513663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/tty-linus
     old: 21a7f44fd0765fcc5194130b28767786eba1d1e7
     new: 6b4b543fa18757297ac756a6fe6e64f506b7844a
     log: revlist-21a7f44fd076-6b4b543fa187.txt
 
---===============3986003510246838173==
+--===============3214107094027513663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793014091 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793014100 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1793014089-04831d150347663dac120594169dad4f008021f7
+nonce 1793014097-5e4c72ef1d59d63af626e331c8fa17990358ffd7
 
-21a7f44fd0765fcc5194130b28767786eba1d1e7 6b4b543fa18757297ac756a6fe6e64f506b7844a refs/heads/main
+21a7f44fd0765fcc5194130b28767786eba1d1e7 6b4b543fa18757297ac756a6fe6e64f506b7844a refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrfOUsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6+EQAL/3W8PwBd0uI0usuPHm
-/oPinNF9N75wmmRSoaTniAMUP3G9R3zjWysb62TJn67ai16lQjkITZ4BU4Mqk/Eg
-D8tyRaO2OniIiEmXx/xMNqQW95/BvxNcExs429WgjRZsmw5ze3+L/iO8AnMwQSmE
-f8BtF/puUwg5DTxonu3RVXnv8x8Cx0nFTvtEQ/aBAvya9brZ4h1FRE9V1/V79kwe
-WERSToL8jBrDz0IGtTBcWdyZP1YtjtRfYuIocxMpcbliqdAaCBOFYBKggUOMGGlL
-M1CW3OzZaqZVaoHLmPo4jVJsuarnoKjjyTYEk2/tlleahrbzojqQ4vyboa59GkAq
-Mc5kUOdhRNFNVXipYOhEdj7ytrm2oSOxFxL1eUnW4ghz7aGD/r2ki8VGt4hN73Pm
-kCGsCqhegfa8t/qtfUK6s/ApBvW2BysTO/DmsZPatvW3/GQuhxOT6sztJ+yuQ0TM
-cWQBLhK5fmRSp6qkvIE5VQ3HcIy74LaF2sVxo6cEqRrSrmkD6V/1apnCbFDVGUVt
-RpiQ/jNgmPa695FYyTGH8FX5IyuHcGdZyoU1NhhWTnH6/mz3b7jrSQFQ8IcV5gL5
-irmZ7srGhYvjWPIDQ9++YjzJc+SYS6oA8b+/LJjzq7YK+ujNSs4XdzLl7uwqfLtQ
-hZ9EzsSWMT6DrCJJZekY9XrN
-=ioso
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrfOVQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VJIQALMM4vy5fBSuJXhV0g3x
++RVMKC10YNdc0ysKwds+s6Yh7Ys6+XmKQoe1g80VZ2WKozfFENKBcNYCe00W7U7n
+n0U0I0BUHH1CAbKNIfTxwv5Xv6MerrE+QxtlaSftwo2YV0cZ1j5IISnWAVq5gLRA
+NlL6P1xi2IVpSQ1BtypV05kdz1Mp82BTPshcj/dUsO+wuGoOdIUENiIBSIDp+PBd
+Z9BksaaYPRiaEKKbysWo+g0vu/8aPN7C+yKVtppALElbDAAk/Bgdur3F9LF9hlRo
+mhZ5WZvSNkSCUetbPnYcx7+63YhuuGbG/RxPUREat4yeCfRxhi84/PnscBycBfHF
+Ub1zovvMN7HyA/pRfg6mHqdHNjJrzo8whTgxXaC0CepvX+T/nPElOg/wxBBCPAuV
+GuEY14Dot/ycl98w0TcxTDr1I6+9M9KnAkMYglc02u2VMHcGo9PRfRYKM6pEC9Jn
+/u609CM4cb/v9qNS48TFJoUn7lg4+oLGsKAuLD83EBejTrJPDy9GfdCqBNXHugRk
+mT9oXUzrLRrgJmsTp03bNf3rYF6pW9d7+bhxmE8BdaLG2ce69+TQWZEKWXOTV9D4
+bWtBpsOfntHpcYE/ZgC5HGKAj9HdS8JPNukOixOMmk26P5sJSZ7wtFvkgIGgXOj7
+C0C8Weq4kZNCIO0h1YC5Of8c
+=fpCl
 -----END PGP SIGNATURE-----
 
---===============3986003510246838173==
+--===============3214107094027513663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -704,4 +704,4 @@ ed2bc044a7c8c9759bbe1165b8e487d07dd53b73 Merge tag 'timers-urgent-2026-10-25' of
 44dc57ed1e77a23248ef28732486f4b7e9468cf7 Merge tag 'sh-for-v7.4-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 6b4b543fa18757297ac756a6fe6e64f506b7844a Merge tag 'parisc-for-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 
---===============3986003510246838173==--
+--===============3214107094027513663==--
