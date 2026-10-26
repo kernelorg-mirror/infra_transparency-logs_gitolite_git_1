@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8916675059547940914=="
+Content-Type: multipart/mixed; boundary="===============1397428781112600568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Mon, 26 Oct 2026 13:54:42 -0000
-Message-Id: <179302288214.27755.15097182926060448542@gitolite.kernel.org>
+Date: Mon, 26 Oct 2026 13:56:10 -0000
+Message-Id: <179302297004.30607.3894275953607926853@gitolite.kernel.org>
 
---===============8916675059547940914==
+--===============1397428781112600568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/printk/linux
 user: pmladek
 changes:
-  - ref: refs/heads/master
-    old: 77ae27fd98f3b548797c9f22c10ab5cf1c4ada53
+  - ref: refs/heads/for-next
+    old: 00513fc3d6c467b1ef3c101a2943cb92de25c49a
     new: 5b212610d0b8f474f1eef70b9a5aa4b2ecfff788
-    log: revlist-77ae27fd98f3-5b212610d0b8.txt
+    log: revlist-00513fc3d6c4-5b212610d0b8.txt
 
---===============8916675059547940914==
+--===============1397428781112600568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-77ae27fd98f3-5b212610d0b8.txt
+Content-Disposition: attachment; filename=revlist-00513fc3d6c4-5b212610d0b8.txt
 
+170aeff46fb54f41545c85a72aec525aebc79d44 gpio: mxc: fix wakeup_pads bit operations
+205cccd06e545694754e1bf8d626ea96e742cd8a gpio: mxc: fix race between gpiochip registration and IRQ domain setup
 5919f587ea37bf59a6fd7a2b91aef7b45c626343 irqchip: Use named initializers for acpi_device_id
 ad38b8836a828042262532c8f77659820be01d3d irqchip/al-fic: Fix coding style issues
 e86459748d3119e18faee281408f5452865bfea4 irqchip/al-fic: Use %pe to print init error
@@ -322,7 +324,6 @@ c4ee37d50d683deded2ca31cd3225da11b63e280 Merge tag 'thead-dt-for-v7.4' of https:
 519abe8d9acba75678a2bc91a2f6c855b9d1c54e MAINTAINERS: remove myself
 1dbb7422053fa0f4fb5f9acc3931617fc0091939 Merge tag 'vfs-7.3-rc8.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 ceb24c7052cc4649e3b52a51a7cca7dfe4896cec ima: reject a kexec buffer whose declared size exceeds the buffer
-5f339c46f153184570f16c8e789c9709b14cbe8b printk: Postpone kthread startup
 9b6fb15a5cc632aaddb4bbd349e637f49cf4fecc net: ethernet: micrel: ks8842: use dmaengine_submit() instead of ->tx_submit()
 586a28a179864ffe425e31087584b2ba07385fe0 Merge tag 'gpio-fixes-for-v7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 17baf30a0e64cde0e8a30723b7c6d06417152514 net: phy: qcom: at803x: Apply IPQ5018 analog settings at probe
@@ -528,7 +529,6 @@ c203ecf905745d979de5df28fa657121f2e9342d netfilter: flowtable: use the vlan id, 
 cd37ab22a74e05aae5c16c67295cbf5188b16268 netfilter: nf_conntrack_netlink: fix inverted IPv6 tuple filter
 eece15c57944b60b6a90153662db693fab0f47c0 Merge branch 'pm-cpufreq'
 2f0ba6f43afc38207c33db606a99a77703194ff6 Merge branches 'pm-cpuidle' and 'pm-powercap'
-c56e202c1a48918392c61cbdd3caf04afe425970 MAINTAINERS: Make John PRINTK co-maintainer
 dc2021eae59ad035c303a03d036cb40d5d14947c Merge branch 'pm-runtime'
 6c326a54b0738ec3b2cc89e1da953a3586c6a8c4 Merge branches 'pm-sleep', 'pm-em', 'pm-cpu', 'pm-misc' and 'pm-tools'
 78731b46967e3e7102b5cd5062bef185f3404b5c bnxt_en: don't leave an XDP program installed when the open fails
@@ -1051,4 +1051,4 @@ c0e8d301378775e6e1946389f3ff621f8601fa85 Merge tag 'modules-7.4-rc1' of git://gi
 845f394e462fb1bd67b9779c467be478631a4daf Merge tag 'sysctl-7.04-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 5b212610d0b8f474f1eef70b9a5aa4b2ecfff788 Merge tag 'printk-for-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 
---===============8916675059547940914==--
+--===============1397428781112600568==--
