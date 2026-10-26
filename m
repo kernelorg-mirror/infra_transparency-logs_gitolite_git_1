@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5630112008559347922=="
+Content-Type: multipart/mixed; boundary="===============7755506238356050487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Mon, 26 Oct 2026 10:25:34 -0000
-Message-Id: <179301033499.4013822.1601198843201029665@gitolite.kernel.org>
+Date: Mon, 26 Oct 2026 10:26:15 -0000
+Message-Id: <179301037533.4014193.2952893667652841496@gitolite.kernel.org>
 
---===============5630112008559347922==
+--===============7755506238356050487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,37 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 4a8bdffce502d70405391a7ac38bac6dcef94749
+  - ref: refs/heads/dev
+    old: 8534eb11ac056dc2ca08007cf76d3ae7cbe42684
     new: 6b4b543fa18757297ac756a6fe6e64f506b7844a
-    log: revlist-4a8bdffce502-6b4b543fa187.txt
+    log: revlist-8534eb11ac05-6b4b543fa187.txt
 
---===============5630112008559347922==
+--===============7755506238356050487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a8bdffce502-6b4b543fa187.txt
+Content-Disposition: attachment; filename=revlist-8534eb11ac05-6b4b543fa187.txt
 
+7d1e256fa1d0d72bcb1185a83e7251331cb6ec21 firewire: core: invoke packet callback from workqueue when removing card instance
+73a5accbfd210bda7e88e969310f15f8e515dc86 bpf, x86: Mask the shift counts of the magic number division
+8cebaa3be829c88a59957900f8de98fed09daefe locking/atomic: arc, hexagon, openrisc: Define arch_cmpxchg_local()
+1c1dda9ba9f3af9cd511a197dcc86de2465d8fe5 bpf: Zero-extend the index in inlined bpf_get_func_arg()
+38dbc3047a2fa706f6b4485679eb5eb62ff55b87 selftests/bpf: Test out-of-range index bits in bpf_get_func_arg()
+2c7935600733c2168b81d3f0f31247ed20d54be0 Merge branch 'bpf-zero-extend-the-index-in-inlined-bpf_get_func_arg'
+bceba446fa2bc66a905ec0bbf6fd80e98701c1d1 alpha: fix stale user_stack_pointer()
+501bcb5953cc4d56537a321c00f9193e9fd68718 alpha: stop storing the user stack pointer in pt_regs
+c5280a56dc4cbcbbfd3256a0fd58071587e928b0 alpha: use user_stack_pointer() in KSTK_ESP() and dump_elf_thread()
+9280e99d87ddd8c6c7fd83f9ea1585967b3dcd60 alpha: add HAVE_PERF_REGS and HAVE_PERF_USER_STACK_DUMP support
+1a85a03fc2fe180c1ddc91b4a801d313321d9e53 alpha: fill in pc for software event samples
+2c8792df90e565d5a280549f37f5c5563f76ebe3 alpha: move Tsunami machine check handling to err_tsunami.c
+6634cb1490ba8d3d7fccfbbf4028e702da4e2e8f alpha: describe the Tsunami system machine check frame
+a182df7ceae5d75a7fdc5dc211ccebdd821697bf alpha: bound EV6 logout decoding by the processor area
+ea2b073b4f31f334354479b993160788610c779d alpha: decode and acknowledge Tsunami system machine checks
+73b8c00851e27ac3497d50d4ecc59892b0cc5577 alpha: decode Clipper environmental events
+71cf9644bcb35e686c3e12a703325335a0925946 alpha: add bounded Clipper console-log scanning
+0007654a7bf13ef2a19afd398bbc6507087f19fd lib/buildid: reject file offsets that do not fit in pgoff_t
+0ceb2f21d3e02b310ed246a210b6cecea24e19b2 bpf: Determine freplace staticness from BTF linkage
+8d637d4c62c1880062dbb098f67b804e2eff85aa selftests/bpf: Fix stack_arg precision backtracking log expectation
 8342d47ad791d70a42ab9cf262bd477fb41fdff2 selftests/bpf: Fix stack arg pruning test JOIN log expectation
 ce42271dc517baa880352d76548d301850e7385b selftests/bpf: Use _exit() in uprobe_multi_test clone-ed child
 a2e3191f5bab76fba550e558296c03ba003c04f0 Merge branch 'selftests-bpf-fix-selftests-fails-with-clang23'
@@ -556,26 +576,6 @@ d53a5309cc4a874d2686b1ad35f1ab17f84ef1ec Merge branch 'ibmveth-fix-hangs-use-aft
 776bb6df3f16ab68c40a97dbb8af26af4185d7c0 Merge tag 'locking-core-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 5b6dca02b3e2254d2fd5706d76d7ab4610a67296 Merge tag 'objtool-core-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4cbdd58dfa7aaad679bf62f81cdbc96a6cb7c6ae Merge tag 'perf-core-2026-10-18' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4483ab85d1e0d934dfc827a828c8b265e82cdb4f exfat: map allocated extents for swap activation
-cb9dbf8a4e34b4fdf311598835ab4d76ed7e07c1 exfat: fix used_clusters accounting during cluster allocation
-48acff2eedef7fecdfbd39be1b6f4463a9e43e3e exfat: take bitmap_lock at the start of exfat_alloc_cluster()
-9b68707fc7c27780f7920855f922d857ba9d1095 exfat: validate vendor allocation directory entries
-61011fb95c5d1f4aa2de4c0d75c5f5ad08917c4b exfat: doc: add documentation
-7d390ca06fe71b6959c8c983a9e43230220029e4 exfat: clear the volume dirty flag only when remounting read-only
-d090f9f99a73786c85176c41a91020068bca008f exfat: update percent_in_use field when updating volume flags
-775100031abe00e416585102deafc21e437866e7 exfat: remove runtime integer division
-1306c1e6b0fe0a2b82eefda90987284854622c82 MAINTAINERS: add exFAT documentation
-b70ab407503706289163dd59f1ac3e942bacc37d exfat: advance valid_size to EOF for append writes
-646df471c37483eb31548d76a1b062775db71d60 exfat: hold the invalidate lock while truncating
-03ac97285b699954fa7bc24f8b6cdc1830c94d28 exfat: dirty all new pages when extending valid_size
-6bb112f5d90a78461648e3bd89093ea299196be5 exfat: make valid_size and zeroed_size atomic
-acea17f0f4c7742118375e96d3f876be34e449a5 exfat: drain in-flight DIO before buffered writes
-748ad4ba13cd14163ed7262c6ac304c380804167 exfat: zero invalid tail on partial overwrites
-73cababf93cb371e2e9d06da5261ca6ddd2404b6 exfat: fix a large buffered write failing when the volume is nearly full
-1043264c3cfa43b0668f7472a749868c1e21749b exfat: mark straddling folio RO and zero the post-EOF range
-0550ac7f5f577e34e5fcf2bd7a51965f5c1b0194 exfat: clean stale bdev buffers of newly allocated clusters
-b4c282c0d82e8715ea9ed0b35813a3f365e3f952 exfat: free clusters beyond EOF when a write fails or is short
-8534eb11ac056dc2ca08007cf76d3ae7cbe42684 exfat: fix reading a directory whose FAT chain is longer than its size
 bc0e0f5ac1d7b044d403f859406b4b66d4b1ce9b ksmbd: prevent stale data from being written by SMB2 WRITE requests
 d34d38ab0c62fe4eb9e746420c554e6d0e6f54db ksmbd: fix iface_list use-after-free during server reset
 19d180c7baab7126af5848ed87d5f7b5add0cef2 ksmbd: fix invalid pointer dereference when get_inode_acl() fails
@@ -1051,4 +1051,4 @@ ed2bc044a7c8c9759bbe1165b8e487d07dd53b73 Merge tag 'timers-urgent-2026-10-25' of
 44dc57ed1e77a23248ef28732486f4b7e9468cf7 Merge tag 'sh-for-v7.4-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 6b4b543fa18757297ac756a6fe6e64f506b7844a Merge tag 'parisc-for-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 
---===============5630112008559347922==--
+--===============7755506238356050487==--
