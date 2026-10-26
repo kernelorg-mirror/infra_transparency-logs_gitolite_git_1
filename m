@@ -1,46 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============6820715106138066503=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Mon, 26 Oct 2026 15:56:24 -0000
-Message-Id: <179303018449.241490.569476692681532686@gitolite.kernel.org>
-
---===============6820715106138066503==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Mon, 26 Oct 2026 16:04:30 -0000
+Message-Id: <179303067005.246708.9614684049689551648@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: c675730916e449dc4c5351be123e2b37e6b45bca
-    new: 44c47ac1e62ce51e09bb5fc8bf5a091153fbd6e4
+    old: 236c1525ff1b2ea5870ecada04951eb2d053275e
+    new: cc4b521548b12d5466db07a5481211eedcdea54d
     log: |
-         44c47ac1e62ce51e09bb5fc8bf5a091153fbd6e4 Periodic update from keyservers
+         e5130046535c42b749f488563badb8e4eea3d959 io_uring/bpf_filter.h: update for IORING_OP_CONNECT
+         6c0f9da7f38fc3cb41c6d68ec9320ec7d7cfcca7 man/io_uring_register_bpf_filter.3: document CONNECT, word loads and exec
+         d0bf5385954feeac9330e82b16e19aeb33746a5a test/wait-timeout: use the registered clock for absolute timeouts
+         5a328214d775f44f5934130cd5d323b564da98c2 Merge branch 'wait-timeout-boottime' of github.com:7z0423arsenova/liburing
+         cc4b521548b12d5466db07a5481211eedcdea54d Merge branch 'bpf-filter-docs' of github.com:gvozdetsky/liburing
          
-
---===============6820715106138066503==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1793030183 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1793030183-a9e92ac82be61b6ad2591917f7faff78a7314126
-
-c675730916e449dc4c5351be123e2b37e6b45bca 44c47ac1e62ce51e09bb5fc8bf5a091153fbd6e4 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCat94JwAKCRC2xBzjVmSZ
-bIGHAP4lr+XovuxEOgXlyAlpuC1Z4MxXquErde9jiKzXageGTAEAlzP30qmAlgyj
-cDPns6UvyeV4CxJj2aHWF7IvcTKsRws=
-=VJn1
------END PGP SIGNATURE-----
-
---===============6820715106138066503==--
