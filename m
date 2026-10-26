@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7001370819492711634=="
+Content-Type: multipart/mixed; boundary="===============3489528520770233382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 26 Oct 2026 11:28:01 -0000
-Message-Id: <179301408149.4114805.10061348860061118458@gitolite.kernel.org>
+Date: Mon, 26 Oct 2026 11:28:05 -0000
+Message-Id: <179301408523.4115063.12461718354665869768@gitolite.kernel.org>
 
---===============7001370819492711634==
+--===============3489528520770233382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
+  - ref: refs/heads/usb-next
     old: 21a7f44fd0765fcc5194130b28767786eba1d1e7
     new: 6b4b543fa18757297ac756a6fe6e64f506b7844a
     log: revlist-21a7f44fd076-6b4b543fa187.txt
 
---===============7001370819492711634==
+--===============3489528520770233382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793014082 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793014085 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1793014079-3ba131447fc1f4f51a3552afa5b655e4ebb07a1d
+nonce 1793014083-f450f74004603048016e42b18fc1363c612b23dc
 
-21a7f44fd0765fcc5194130b28767786eba1d1e7 6b4b543fa18757297ac756a6fe6e64f506b7844a refs/heads/usb-linus
+21a7f44fd0765fcc5194130b28767786eba1d1e7 6b4b543fa18757297ac756a6fe6e64f506b7844a refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrfOUIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KdIQAMKLeUTx0v7KFpqwPxkk
-wCHcpj58k75u5ozfwnAp3yK95hM/++ZhzFvUrYkOl44ns0zgdrWvHSr5QeWZXqX7
-309SeJMPvpL2yJBNqXsWs+CRIcvTo5eArc8L3FuBXuq+Kqydf9Wsdm3nuawPk05K
-smwp3hBPAfqU6u1E8LXKX2LZCXdUefnOSizGPTa5t7Cj7Pp/KNGwVJXQtZGU8IEH
-efqZ9+f9VP5Jks0HissztlwNKRq8OiiEtd4rLvjpagcrlG/FBTZQA72mhU78qITT
-Z5/ThpXQ8oJ8GnCCdpGOryWmxB8NgT6AQ3wW5CEO+eA/fj1X5LEuAV4qDFTavBaJ
-eX4KJ2Y9fO4VVw+gtSOxRIqVqYXfxKI2EvEh3E3nIdYA6MsKIGKmCwcAcdXSXO7Z
-2hlG7ZcIxz9hs6HekC54i2eWeMmrpcghaA3KlhEmNMA4owmbKlxI+Jjf/xmz0PqW
-xw7qO2Z/CVD44gwL0W4iBGVNzKbfTGe4nc2j79bBs7SfAG3Zyr1Hgkp/0n3ucFSF
-v3mfVKmzTqB8PncsYeOw+jn2Naqm4nwxZv4+RpSvzpuQVj/fecwjghXTwojLMmRu
-JHB0chpXoaofG16ph9s+uFhPcGxDyDb0sK++G/8rCmd+jgfC8ItI6QFMl+xjs/Nk
-zn9rrGycdmWQANlotikUsuy5
-=MMKA
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrfOUYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oa0P/Rlks7QSgQXCqpMqE9Nj
+iZSnIzotfHH3vgWIcOEWjYOY6RPnWrOYefXf/7QibaWVoZ8eImw25N5+ZOsXSIS2
+Z+rwHfyI7dBcPr8uhGz90O33tMMl0FkP60G1R68iOc1MqM/nK6cy7HISkhmQrMRM
+sAlaSE8qRWjPfHNU1FPH82AC/OFmBDfTlrc4pFoYTAZVYvAFAeULcDpPY0OT0uSL
++Fm4EUa1iWwec1Elp8/4x3gHN3t5jpC31ylDfRI1syprl7I4UwDOoMOu/+AsDvQS
+bJNMkxcxOju25nIi69VioowxU7xGyvE/yJjYu3XqdlvO/hBteR8On9V8/WAHJydq
+zxDYjXIUnBJ6ZkgTnkbHmayIzD+ScEzL3na1x8bdPxlxJMWCfb4GiWLe8o64Ja4j
+iG9ZKc3nn/dtDtKN1dCKi/4B44l0dqXdHy+TzVDkbSS8BbOVQutWuQDhC2ESztUM
+qISOUHQ4TWB6HVmhHKUqoBevGr8UeGnHKHWX/mv75otBNnjDqbZYOgtqaxHrR1bK
+M/NUDg4ojfQxav08PXiO6fjdzJVPUk7r0Ff0RjKrqY9532Ydh/J4wrSaO+uNO27R
+ckVMJ1bQN82JYZM1ZX0etwQxwjQdyzAPuaCUWV5411T2TgqS+hXw5+Uh7+CkGJT/
+Dw2uEwuMkEcGaBVn3I5xCUcO
+=Nh4L
 -----END PGP SIGNATURE-----
 
---===============7001370819492711634==
+--===============3489528520770233382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -704,4 +704,4 @@ ed2bc044a7c8c9759bbe1165b8e487d07dd53b73 Merge tag 'timers-urgent-2026-10-25' of
 44dc57ed1e77a23248ef28732486f4b7e9468cf7 Merge tag 'sh-for-v7.4-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 6b4b543fa18757297ac756a6fe6e64f506b7844a Merge tag 'parisc-for-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 
---===============7001370819492711634==--
+--===============3489528520770233382==--
