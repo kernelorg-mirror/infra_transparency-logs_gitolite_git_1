@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4419960865366752276=="
+Content-Type: multipart/mixed; boundary="===============8064428369865515980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 26 Oct 2026 11:28:27 -0000
-Message-Id: <179301410782.4116385.14717611277633120805@gitolite.kernel.org>
+Date: Mon, 26 Oct 2026 11:28:32 -0000
+Message-Id: <179301411260.4116769.16875862386624496399@gitolite.kernel.org>
 
---===============4419960865366752276==
+--===============8064428369865515980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: df2908090cda368b01ff43709f51890076c56157
+  - ref: refs/heads/staging-next
+    old: 4a177d5e688e8e82113f7a32d6f75f0bab9658c4
     new: 6b4b543fa18757297ac756a6fe6e64f506b7844a
-    log: revlist-df2908090cda-6b4b543fa187.txt
+    log: revlist-4a177d5e688e-6b4b543fa187.txt
 
---===============4419960865366752276==
+--===============8064428369865515980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793014108 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793014113 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1793014106-dfa84693ac0a664d07a5e427c955b12ee7a7f929
+nonce 1793014110-2f21dbd3b1f34c52f656b60c2efe9b1f1dc55dd4
 
-df2908090cda368b01ff43709f51890076c56157 6b4b543fa18757297ac756a6fe6e64f506b7844a refs/heads/staging-linus
+4a177d5e688e8e82113f7a32d6f75f0bab9658c4 6b4b543fa18757297ac756a6fe6e64f506b7844a refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrfOVwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LDMQAMziv3mAFIqkn4ZBURhm
-68quN+hnnjNgUL6WDU5ccBlNxGgsYGjz/FZ/M9eB1b1uoFlWR5CRwFX2ul9hp2cR
-eqDy3SwD3NIYBHwMcHm+RV5hHw6WOAZLdFn0gprGdE7WsE6b7iwkzajH24tLQq2T
-Mwq/bPhXgGeCaTQMOgykyEtVZsqpRumwE/2VQyBn+ucI3xtwamzvrpFYBk3qj78f
-/xybq+D9I0jF0k4dimwjO6aX0M42e0M8XUXph6OH1t0Eh0Q5UbVt/vTyg3IZ7dBQ
-kK1gdHqFKdWcCxKwsfGRsGbEaannfh/Ulgzhp+VTWmEMHk/MdBiX1lkvj+Oqot65
-wFhYCMnu7yw0f9bL9FjhsR5iMxKqJtM8sJtZgFSvXW5tG6WFuynTuU7odiigog20
-0XScKB8DCLvv50Q/+P9sILbyHlRnMGctpJJ3JAXqhtE1v0t/6Tk/iOqEBMgdwg7X
-Rq5G6doqQG77YNINNlVPrOaoxDE3v7V1MoYkzh0SsA13JrP8+le815IycCFYlrbP
-r6OqdZT0dL4tJXmSGd55bNpBTjANfvxwh48ZWHnFeQYyh9tyYXsosCeUjldYNiaf
-CpTr7zy1iHJ+CfoG5RdHw/YC6Ol2SzRa2Bx8OM8Y1hRwAmC/q6jfklQ0MJV0AF40
-yS5Q01JNdfRECAUiP4Vikfj0
-=J90S
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrfOWEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4ZIP/A9GBSLhz3WB8rQ96mSU
+u16lvJ73A5an0RQJh2S4J6wX8121/3Ej83N0JmjSgsWv4gE1Re+U0RtoHxnCTBvm
+dosYzKMToXkSPTIrl4WWjtSmIO+6txwvp7Ffuj7Dwe6kp90iAI/v5K+1U6AyASLC
+o/1jmk+1wE+mGXMAVqRoTJN/UaJdr71K6wtOBrm2EXbQKXaRc1O9bzeOaGhEBhu5
+GRmL1drr7SCUODEv5nD7+nUswy2v3g3hyyefTgILaexDJ/tx5l2Dzdc9QznlaWX9
+BDYJ6tmiSwJpaUJzbA4zYb/Ss7dpG3QOUa5sB3JAwK2/u8Eap2r7RpqkJ3TUMY4k
+l1pDuaOdKN6H52PEIjO43HVwHWH6y7AWANLyI1BrCrsHpiEJjSmma5d0z4VR635A
+Hjjm5Xho1TuXMreFDGkArWC9M4LqiBPIY0L07Vnzv9ONkBW7oJHQQAYYXbjD/HaJ
+cG5KzoALvU2TdpTus8w9t1DUe2Zl2cPJ43AVl58st/GhXY81RdizxfrOyE1VGm4O
+eZz4GQQ3F7px85gkZ65Ku3H5KFUXwYQ3h/h/9wP5C3SHDRQePHM/w4ITJgSLAwAh
+BLWxcC/w/BUIZS4sOuwaWX6Zs55seo4zoSiQMe6rbWrUtFQXCjvsmPa2P86j/7oH
+A4iocRjuk0mvF74mowh4g3DJ
+=nOWw
 -----END PGP SIGNATURE-----
 
---===============4419960865366752276==
+--===============8064428369865515980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df2908090cda-6b4b543fa187.txt
+Content-Disposition: attachment; filename=revlist-4a177d5e688e-6b4b543fa187.txt
 
 3ba20137287f4f34ddbf0afb53c5d1ba03b6a8c2 ipvs: fix more races around the overload flag
 1438d00569c4c3d19ac46147b2791a3e9284fc47 vt: Add cursor-size helpers
@@ -1082,4 +1082,4 @@ ed2bc044a7c8c9759bbe1165b8e487d07dd53b73 Merge tag 'timers-urgent-2026-10-25' of
 44dc57ed1e77a23248ef28732486f4b7e9468cf7 Merge tag 'sh-for-v7.4-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 6b4b543fa18757297ac756a6fe6e64f506b7844a Merge tag 'parisc-for-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 
---===============4419960865366752276==--
+--===============8064428369865515980==--
