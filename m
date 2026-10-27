@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 27 Oct 2026 13:22:23 -0000
-Message-Id: <179310734318.1269649.12479316203705180914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leitao/linux
+Date: Tue, 27 Oct 2026 13:26:36 -0000
+Message-Id: <179310759632.1273246.2808822540671348692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/leitao/linux
+user: leitao
 changes:
-  - ref: refs/heads/master
-    old: e1fcadaf3b813f781860d9ed608683b0d97e185a
-    new: 5265615b3ef9800d0ca5d6d665625d8742c87c86
+  - ref: refs/heads/configfs-next
+    old: ea00693fd86ef05867b4365235f3bc31be920a01
+    new: e6f2f0945f5e85f516d8df7d95afdeda927cc259
     log: |
-         05ca7fbc9b510cffbb0581f75182c7fcda97a14f patches/mm: update
-         5265615b3ef9800d0ca5d6d665625d8742c87c86 patches/next: rebase to latest mm-new
+         d678ac1c74dc9a6047cc1c1e0bb0abae8679b3c8 configfs: handle unlinked target in configfs_depend_item_unlocked()
+         e6f2f0945f5e85f516d8df7d95afdeda927cc259 configfs: give the root inode its own lockdep class
          
