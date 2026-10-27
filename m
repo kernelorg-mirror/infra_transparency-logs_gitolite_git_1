@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
-Date: Tue, 27 Oct 2026 22:58:20 -0000
-Message-Id: <179314190012.1749186.6271231093726413412@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 27 Oct 2026 22:58:43 -0000
+Message-Id: <179314192374.1749480.14911957273782552126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cpu/mce/mcelog
-user: aegl
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/v213
-    old: 0000000000000000000000000000000000000000
-    new: 90d5875e92b63a17110a8a14c891a98e7dd4df0e
+  - ref: refs/heads/main
+    old: b6743653d134c9ef8436e2db1be1ad4c1e0d0091
+    new: 947ccedf683ed6cc53c1f88ac9eb8747e4567ed6
+    log: |
+         947ccedf683ed6cc53c1f88ac9eb8747e4567ed6 tcp: Fix fastreuse cache initialization on first bind
+         
