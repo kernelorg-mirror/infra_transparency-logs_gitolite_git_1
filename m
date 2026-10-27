@@ -1,53 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1604224250140837596=="
+Content-Type: multipart/mixed; boundary="===============2358850444867884221=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Tue, 27 Oct 2026 16:25:18 -0000
-Message-Id: <179311831884.1433669.4454147120728374864@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 27 Oct 2026 16:26:53 -0000
+Message-Id: <179311841311.1434652.13411995247842152388@gitolite.kernel.org>
 
---===============1604224250140837596==
+--===============2358850444867884221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/b4/llm-char-misc-iio
-    old: 0000000000000000000000000000000000000000
-    new: 887c076ed09a0a142bda73b662248b6837039c05
+  - ref: refs/heads/master
+    old: 195a3519ff27bff5575e05b5086e38ee92715776
+    new: 9ce722236a20e7a913b54df8b6098ec6324ba58a
+    log: revlist-195a3519ff27-9ce722236a20.txt
 
---===============1604224250140837596==
+--===============2358850444867884221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-195a3519ff27-9ce722236a20.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793118293 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1793118291-899c8677f1109d706e7014be6b35d736f0008bb1
+c463b378eae7fa4d8013d3ba7ca224f3a5098ec4 bpf: Reject pointer operands for 32-bit recurrences/latches
+0c33d612bdd50aaeef263410739060827377d9c0 bpf: Do not intersect with current register range on clamp
+5dd32c8c108226912054e293ee306c98c283c512 bpf: Avoid false infinite loop reports after changes in SCEV clamping
+86d654957d40111ec158aae38d7f7b0bc119533c bpf: Check the iteration count before the predicted exit value
+abc9a76a888f813b698f5e2a0166ace6a0d976c6 bpf: (zext32 (zext32 X)) -> (zext32 X) SCEV simplification rule
+899cbaae6e4c6f0a1dee01426b53e71c58d396c4 bpf: Print 32-bit SCEV bounds as 32-bit numbers
+88b1da8583260ec8cd157269dc9c2213b28c62bf selftests/bpf: Pointer operands for 32-bit recurrences/latches
+39cd4e0915c4d9661ec1fdd472b515b28c98eb37 selftests/bpf: Cases with empty range error under old clamping logic
+344c14e8b3d45e3c643cec1ba6acd3e4691dfe66 selftests/bpf: Cases for SCEV interaction with infinite loop detection
+a0137c789774bdc2eff9b1b4525741ed118eeba0 selftests/bpf: 32-bit copy of the counter compared at the latch
+8fd732e5a64b5c584b1c8701e6a8bb98da830205 selftests/bpf: Restore stack pointer subrange pruning coverage
+9ce722236a20e7a913b54df8b6098ec6324ba58a Merge branch 'bpf-fixes-and-follow-ups-for-32-64-bit-scalar-evolution'
 
-0000000000000000000000000000000000000000 887c076ed09a0a142bda73b662248b6837039c05 refs/heads/b4/llm-char-misc-iio
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrg0FYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TBsP+QE5j8B7bcCjAEhDKPVP
-nxEYkUHIq7w5FGafZfG6TaE2gZ0RIGcggZFRaEwKJkyJBZneDQg9texctsT2N8WG
-mIg2DpadhItG0GRDeE3h66r2BrQlyMj8ZuS00bdwHxrCZ+c5vNzIxyY0TNSU1xyO
-vNv1xJt9SpfFbOjoAoZl08M/t1gssUDkvXYAZQQS3Lf3+kn7kMzpAgoYFM9uSqts
-qrQqsw/4IyHCRYgkrVd9E1NifDvyaYtRniErPF54ghv1E7OM1LFp4h72NA4el9ZB
-10eOlmJ8J8eohYC5pL9sYcTxfGt66dyh4AO1ouHPJ5klnHwGRO6D6jPJOnsIDadd
-VsxIZRzqQXfzQuQzlcB5qgHtdZyuG2ALhqWKjUR8gio8uJfsGmCP+SrQlv8lsOSF
-aNak33MEYeZybXPFJTQY4bNYnBgt7IzGaDtoVXw9Yw3BCsS2Im2PCuRda8i7VSe/
-zf5Zw99y1GRxUoWfaLhXv6PpjDPI7UNbMWSvPrj2b5kOYgBI0rl2RX9uD7GjYa0i
-+2bqGc+RbgqTyxCkWPTpFw0vy958VSvw13qKeaT2HXzuUg5HJ7OeLsour/ApYJIK
-kjISPZtIyNWGbNtoE4swtGpVvD7jE6uvmLusPu4rPdsaZo2p4xpR01lkZqpD35Su
-7f6xFqe6yLIq1oMrDHc1XtqM
-=HIWm
------END PGP SIGNATURE-----
-
---===============1604224250140837596==--
+--===============2358850444867884221==--
