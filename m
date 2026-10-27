@@ -1,53 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3454280727651386592=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Tue, 27 Oct 2026 16:05:46 -0000
-Message-Id: <179311714635.1418074.98176620996142819@gitolite.kernel.org>
-
---===============3454280727651386592==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Tue, 27 Oct 2026 16:08:26 -0000
+Message-Id: <179311730678.1419304.17904133992210578845@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/b4/llm-char-misc-w1
-    old: 0000000000000000000000000000000000000000
-    new: 0250004ba5429654ac79d4210f25677121427d37
-
---===============3454280727651386592==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793117125 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1793117123-ab3375c54503b7e6aca19632d6bf0a28118712be
-
-0000000000000000000000000000000000000000 0250004ba5429654ac79d4210f25677121427d37 refs/heads/b4/llm-char-misc-w1
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrgy8UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gt4QAIcgZUZxkFcnwxGyp+Zm
-Gi4nxbjSldAKh4Lqyxo+5den5mINCatWO/HY4zcxSVpORTExEb4RvFmvGEMg/yOg
-90TYukKbInBt2Fn5hXdlAhhR6Hd2OF3VLdxOqIRnuuoKQN7P3rfnQbYvRR3D3y8x
-A5X/jIexp5Fl4YTSX92daFE4y0SC/Yns3uCn2cTx1QHoUwGdNX1jtIJBCvYZ0Own
-a6+WyChmkP0QW5x1qahPCn/2XrBMV7XClYAUxMvwXT6E2mAl0ac/7UBIjZrUf5Tm
-//czkLo7ATBhs+iVs48VNAvN9hDaFsmeMPl4icqwc1D+Vutv0CADm93zZD4WmkPq
-1UBHpGAw3qgsFC5KuXhOTAaK7CvyKct+B1+g/w3fXINM9suZCMhgh4mnT0L5iWuF
-iFZ9X2Wj1kNWY8wNB0IjEwGUxtsIYYStC8ntBLidLX6NJwllIIlt3mDswQ+FnBl/
-wQzbPT5wmpIa321gTbGaHyshdBjbyhtU4risYPIeUxqPSmte0sx2EtUEGM+xaElR
-0oNRKuCog5AmQ88Y7osARe8Wv86QKvSie2CvMu3VViKofCvnZgm9xSHnxU+TasFe
-m8MbB+kJvAGSz3dWd2JtiIv2Tjib3tGpEZeHSJYXT+M28PUKdbOnmj/PC5O4N/uY
-tTvmjDN8SS1r4FyBWlpNoT/1
-=O/BU
------END PGP SIGNATURE-----
-
---===============3454280727651386592==--
+  - ref: refs/heads/b4/mali-c55-renesas-dts
+    old: 3dd2aeb048e847caedb7bda076faced3c1d40cc4
+    new: 83b3ebe5451b48889873b34e7fc02100fe4c6898
+    log: |
+         f4ea93fc54a57234d9c55109caf9d8740b9eb117 arm64: dts: renesas: Enable ISP and IVC on RZ/V2H EVK
+         ca240dd6ce6269bfdd80f4a168ae293ed5a86138 dt-bindings: media: renesas,r9a09g057-ivc: Describe additional interrupts
+         903ab2b60ec5608502698dbe0ec31c20d81dbaa3 dt-bindings: media: arm,mali-c55: Describe DMA line-tick interrupts
+         73bfca40c7109c17e041c805c2f50148b33132b4 dt-bindings: media: arm,mali-c55: Add power domain
+         cb82ac2472cdcaaddce74a15244e02067413e875 arm64: dts: renesas: r9a09g057: Add IVC and ISP nodes
+         da43fd1b32b8662b7d490adf1e809ad28d6e39b2 arm64: dts: renesas: r9a09g057h44-rzv2h-evk: Add ISP and IVC nodes
+         a53a6ba8355f6e7b745fe82b5b4b49c22b8d67f7 [RFC] media: mali-c55: Sequence clocks explicitly
+         83b3ebe5451b48889873b34e7fc02100fe4c6898 [RFC] media: mali-c55: Sequence resets explicitly
+         
