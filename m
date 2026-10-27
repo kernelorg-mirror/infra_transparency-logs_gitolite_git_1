@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7661243783917907076=="
+Content-Type: multipart/mixed; boundary="===============8884618591215536774=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 27 Oct 2026 12:45:36 -0000
-Message-Id: <179310513619.1242190.4020174821108091080@gitolite.kernel.org>
+Date: Tue, 27 Oct 2026 12:50:06 -0000
+Message-Id: <179310540639.1245696.4448267579800659253@gitolite.kernel.org>
 
---===============7661243783917907076==
+--===============8884618591215536774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,22 @@ repo: pub/scm/linux/kernel/git/next/linux-next
 user: broonie
 changes:
   - ref: refs/heads/fs-current
-    old: 4533a8c7c9d6aee44dfccbba35b814366440b496
-    new: d135ab453a7400a34930bdda1ef4bdc8acfac80e
-    log: revlist-4533a8c7c9d6-d135ab453a74.txt
+    old: d135ab453a7400a34930bdda1ef4bdc8acfac80e
+    new: 81baa4382e3b354a7631efd858d2bf847d7ee094
+    log: |
+         49c5d168a3a8f4eb27d44a2a22b7e8a856ca601f udf: fix nls leak on udf_fill_super() failure
+         81baa4382e3b354a7631efd858d2bf847d7ee094 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
+         
+  - ref: refs/heads/fs-next
+    old: a94e0e8e1ce45d0a8f93e9a1340e5f492ab1517c
+    new: 81baa4382e3b354a7631efd858d2bf847d7ee094
+    log: revlist-a94e0e8e1ce4-81baa4382e3b.txt
 
---===============7661243783917907076==
+--===============8884618591215536774==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4533a8c7c9d6-d135ab453a74.txt
+Content-Disposition: attachment; filename=revlist-a94e0e8e1ce4-81baa4382e3b.txt
 
 29b8602629661391a7586503b71628faade45e30 ata: ata_generic: Do not bind to devices that are not IDE controllers
 abf62e9d56090d3633ce077453d7f5011fdf925f ata: add <linux/pm_runtime.h> where missing
@@ -370,5 +377,6 @@ fb2c3f44a7e14627b9dca8e6b568e6cdc234b40b Merge tag 'ata-7.4-rc1' of git://git.ke
 d857e1f3faf998f2614dcdb52a90a27bc83bd71d Merge tag 'mfd-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
 5b93dc1c0c61fd0fe575cb473e9e25f929fda509 Merge tag 'leds-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/leds
 d135ab453a7400a34930bdda1ef4bdc8acfac80e Merge tag 'backlight-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
+81baa4382e3b354a7631efd858d2bf847d7ee094 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
 
---===============7661243783917907076==--
+--===============8884618591215536774==--
