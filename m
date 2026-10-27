@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
 Date: Tue, 27 Oct 2026 18:12:36 -0000
-Message-Id: <179312475632.1514021.12169538699328584250@gitolite.kernel.org>
+Message-Id: <179312475671.1514059.12998931981695109859@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: b382c166549c25900bb0ce90f1b5695788e1fe25
-    new: 87af37b3eef00ecee724baa1602de946a5216a4d
+  - ref: refs/heads/master
+    old: 0e257332ce66f610e701edf7f993509ce1165772
+    new: 24c19e82a76d106b9584f96a15274885cda6988f
     log: |
-         2295613cd3713beffc8665e956135a5d48dfc208 io_uring: keep the drain active when a deferred drain request is started
-         87af37b3eef00ecee724baa1602de946a5216a4d Merge branch 'io_uring-7.4' into for-next
-         
-  - ref: refs/heads/io_uring-7.4
-    old: 71537ed811107c514c0342e98902d489d6d2b7cd
-    new: 2295613cd3713beffc8665e956135a5d48dfc208
-    log: |
-         2295613cd3713beffc8665e956135a5d48dfc208 io_uring: keep the drain active when a deferred drain request is started
+         0a9741c176be5eb9d2cdea775cb299325eff217c foo
+         24c19e82a76d106b9584f96a15274885cda6988f foo
          
