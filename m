@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5367822099166526817=="
+Content-Type: multipart/mixed; boundary="===============1911344060563436236=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 27 Oct 2026 18:53:19 -0000
-Message-Id: <179312719987.1543133.11519556016840157086@gitolite.kernel.org>
+Date: Tue, 27 Oct 2026 18:53:28 -0000
+Message-Id: <179312720868.1543327.16119974304465584951@gitolite.kernel.org>
 
---===============5367822099166526817==
+--===============1911344060563436236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 2c50cd5d10e8723797f28c7978f1f61688e0c0d2
+  - ref: refs/heads/pending
+    old: 4169a7c335d1bde8d6ab505857a0cc0712c2c127
     new: 7b14c8f4a9615579b09cbcdc4515b65ae6124753
-    log: revlist-2c50cd5d10e8-7b14c8f4a961.txt
+    log: revlist-4169a7c335d1-7b14c8f4a961.txt
 
---===============5367822099166526817==
+--===============1911344060563436236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c50cd5d10e8-7b14c8f4a961.txt
+Content-Disposition: attachment; filename=revlist-4169a7c335d1-7b14c8f4a961.txt
 
 c752394249f8334d146d3f0cb7797fc4c1cb0beb wifi: ath12k: store station pointer only in dp_peer
 02121aa4a0127fa87c137b11fdabebc8512f8cc9 wifi: ath12k: move is_authorized flag to ath12k_sta
@@ -40,4 +40,4 @@ b93cf212206154dc4ef73ef2ec2da7cf9c40cb50 wifi: ath9k: return an error from a fai
 519850bff38c9dd41be0d42afc03c24228d111ba wifi: ath9k_htc: pass CRC-tagged spectral samples to the FFT parser
 7b14c8f4a9615579b09cbcdc4515b65ae6124753 wifi: ath9k_htc: derive the PHY error filter bits from software state
 
---===============5367822099166526817==--
+--===============1911344060563436236==--
