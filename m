@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 27 Oct 2026 08:16:17 -0000
-Message-Id: <179308897794.988183.16147516737353562000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
+Date: Tue, 27 Oct 2026 09:20:20 -0000
+Message-Id: <179309282005.1031995.16989862993209009081@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/linkinjeon/smb
+user: linkinjeon
 changes:
-  - ref: refs/heads/dev
-    old: aafea970fb04633e22c7ad74cba4caf563c6d6a9
-    new: 209108a5456171ab430e25b54b2dfe083455bfb6
+  - ref: refs/heads/ksmbd-for-next
+    old: 146c3fc6540e24eef6296395a35bf5b924182e8b
+    new: 03b47bdc9ac8e9dacbf1d66a1dfc54b328e283f2
     log: |
-         209108a5456171ab430e25b54b2dfe083455bfb6 erofs: drop unnecessary .read_folio() checks for file-backed mounts
+         03b47bdc9ac8e9dacbf1d66a1dfc54b328e283f2 ksmbd: use the resolved share path for the share root
          
