@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2195494163303128744=="
+Content-Type: multipart/mixed; boundary="===============6418617890498115388=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 27 Oct 2026 07:22:42 -0000
-Message-Id: <179308576254.948611.7733606905471755104@gitolite.kernel.org>
+Date: Tue, 27 Oct 2026 07:23:00 -0000
+Message-Id: <179308578011.948907.1690209427558033207@gitolite.kernel.org>
 
---===============2195494163303128744==
+--===============6418617890498115388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 29643f6655dcce5bbc43e938fcee1718a63a83a5
-    new: 0c94551756a852f320dcb652d3bd8fb6ab5ae3ca
-    log: revlist-29643f6655dc-0c94551756a8.txt
+    old: 0c94551756a852f320dcb652d3bd8fb6ab5ae3ca
+    new: e00da09bdd675b5f9b3eb2ef2c2c3625a70f7835
+    log: |
+         ddd5075648cbe3866207f458e96a10f06ae0b5aa Merge branch into tip/master: 'timers/urgent'
+         e37f8d19990d161016453156509a2839fd67c1ae Merge branch into tip/master: 'x86/apic'
+         e00da09bdd675b5f9b3eb2ef2c2c3625a70f7835 Merge branch into tip/master: 'x86/misc'
+         
+  - ref: refs/heads/tip/urgent
+    old: 5c7edc5f5990b91924af4a5da0cbcc35e51d9326
+    new: ddd5075648cbe3866207f458e96a10f06ae0b5aa
+    log: revlist-5c7edc5f5990-ddd5075648cb.txt
 
---===============2195494163303128744==
+--===============6418617890498115388==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-29643f6655dc-0c94551756a8.txt
+Content-Disposition: attachment; filename=revlist-5c7edc5f5990-ddd5075648cb.txt
 
 29b8602629661391a7586503b71628faade45e30 ata: ata_generic: Do not bind to devices that are not IDE controllers
 abf62e9d56090d3633ce077453d7f5011fdf925f ata: add <linux/pm_runtime.h> where missing
@@ -427,6 +435,6 @@ fb2c3f44a7e14627b9dca8e6b568e6cdc234b40b Merge tag 'ata-7.4-rc1' of git://git.ke
 d857e1f3faf998f2614dcdb52a90a27bc83bd71d Merge tag 'mfd-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
 5b93dc1c0c61fd0fe575cb473e9e25f929fda509 Merge tag 'leds-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/leds
 d135ab453a7400a34930bdda1ef4bdc8acfac80e Merge tag 'backlight-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
-0c94551756a852f320dcb652d3bd8fb6ab5ae3ca Merge branch 'linus'
+ddd5075648cbe3866207f458e96a10f06ae0b5aa Merge branch into tip/master: 'timers/urgent'
 
---===============2195494163303128744==--
+--===============6418617890498115388==--
