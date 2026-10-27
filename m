@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 27 Oct 2026 22:04:25 -0000
-Message-Id: <179313866518.1709064.7453713099061031120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 27 Oct 2026 22:04:33 -0000
+Message-Id: <179313867303.1709326.13855112572012833843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: c80ba5b55dd28ffb76b0b3b2254b54afed4becd1
-    new: 44857ae0a6816509acfdf63e826cc9ec58802db2
+    old: 14121531f5181a6648de9ac583f08e0d7f3783fd
+    new: 8d9032484983cd030169075b4909cd5eae664e21
     log: |
-         458f682eedebd3a9fde7a657e8fac2fc9a9a761f ice: retain the adapter throughout hardware initialization and teardown
-         737f7890d8d3e0061ffe72e976220a240c8c379b ice: scope global configuration lock to the adapter
-         1ce46fd296d036abee5a77c87b3461c3940cd674 ice: clear DVM boost table before scanning package hints
-         44857ae0a6816509acfdf63e826cc9ec58802db2 ice: quiesce PTP periodic work before system suspend
+         ed1c00c7f58bcd46670f6eef5148ab2bc6f7faed ice: retain the adapter throughout hardware initialization and teardown
+         bfca37b8037fa899b61332fc9f32e148cdb3d53f ice: scope global configuration lock to the adapter
+         363f4c36dca8e8118f51383157d91b53cd2b675a ice: clear DVM boost table before scanning package hints
+         8d9032484983cd030169075b4909cd5eae664e21 ice: quiesce PTP periodic work before system suspend
          
