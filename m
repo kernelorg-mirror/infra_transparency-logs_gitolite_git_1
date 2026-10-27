@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Tue, 27 Oct 2026 09:20:20 -0000
-Message-Id: <179309282005.1031995.16989862993209009081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Tue, 27 Oct 2026 09:22:37 -0000
+Message-Id: <179309295776.1033242.10280005984988918474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/smb
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
 user: linkinjeon
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: 146c3fc6540e24eef6296395a35bf5b924182e8b
-    new: 03b47bdc9ac8e9dacbf1d66a1dfc54b328e283f2
+  - ref: refs/heads/ntfs-next
+    old: 6b4b543fa18757297ac756a6fe6e64f506b7844a
+    new: 5210eadc44ccdd9632b1ee66205742610a486989
     log: |
-         03b47bdc9ac8e9dacbf1d66a1dfc54b328e283f2 ksmbd: use the resolved share path for the share root
+         5210eadc44ccdd9632b1ee66205742610a486989 ntfs: Fix error handling in __ntfs_create()
          
