@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1226815310098328510=="
+Content-Type: multipart/mixed; boundary="===============3941257870465954419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 27 Oct 2026 13:21:04 -0000
-Message-Id: <179310726412.1268911.16106033339446369715@gitolite.kernel.org>
+Date: Tue, 27 Oct 2026 13:21:07 -0000
+Message-Id: <179310726782.1269108.10283452486575133714@gitolite.kernel.org>
 
---===============1226815310098328510==
+--===============3941257870465954419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 7bf01f16a4d05028fbeff4d90bab40df25142a24
-    new: bae9a042b03b27924c6fd5bdc00a20d6a44d6041
-    log: revlist-7bf01f16a4d0-bae9a042b03b.txt
+  - ref: refs/heads/mm-unstable
+    old: 1eb36316305767b54fac2cd40b88b3499791bdf2
+    new: 39274b454e9993cea319f4ac342a8082a9ee1730
+    log: revlist-1eb363163057-39274b454e99.txt
 
---===============1226815310098328510==
+--===============3941257870465954419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7bf01f16a4d0-bae9a042b03b.txt
+Content-Disposition: attachment; filename=revlist-1eb363163057-39274b454e99.txt
 
 3d2d0741d7c027cc9276c42f31f6e90e6844c7c7 mm/khugepaged: flush deferred unmaps before dropping a failed folio
 f56f3407388f54027919ab7e9a407f18f9328b6d lib/base64: silence clang-24 -Wconstant-conversion with diag pragmas
@@ -71,9 +71,5 @@ f2b32c100ee3ababf55ea77f074737d72571cf23 mm/vmalloc: bail out if in softirq cont
 e9f98ea79f59015aee8dc2ba8e0e13eb2a611b48 mm: nommu: set MMF_OOM_SKIP in exit_mmap()
 be372c35a6098b1b6a597094c8c6466a6aa06a35 fs/proc/task_mmu: fix lost maps entries above 2^63
 39274b454e9993cea319f4ac342a8082a9ee1730 mm/vmalloc: read vm_map_ram block regions from the requested offset
-6814f68281f588621702727fa5757cbf4806a216 mm: unqueue deferred split folios outside the lruvec lock
-81cd1e96646ba685d0b871aef66bac64b6864c43 mm/migrate: move NR_FILE_THPS on cross-node migration
-f1f2b97f55d2fb16d8f5352b25d9a9860b714bcd mm/page_alloc: avoid direct reclaim and compaction for costly __GFP_NORETRY allocations
-bae9a042b03b27924c6fd5bdc00a20d6a44d6041 riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============1226815310098328510==--
+--===============3941257870465954419==--
