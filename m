@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 27 Oct 2026 22:35:43 -0000
-Message-Id: <179314054385.1733646.5476518392048068935@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
+Date: Tue, 27 Oct 2026 22:45:43 -0000
+Message-Id: <179314114364.1740527.974162519545510479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/linkinjeon/smb
+user: linkinjeon
 changes:
-  - ref: refs/heads/main
-    old: 573a6d4c7a21e34d7a2174b8d3c7ca67a5e850b6
-    new: 24927bdf0f62f63470a065c21d80fff7e4e9f207
+  - ref: refs/heads/ksmbd-for-next
+    old: 714f27729121d59f103ca4dad7b0c2d1c125cd71
+    new: 2d5c7afbb1d19f51f76c0865b4cb2e4e8347ade6
     log: |
-         d3ff07f5acc573e5f72bf1c581bae5d05191ba61 net: limit priority VLAN untag depth
-         24927bdf0f62f63470a065c21d80fff7e4e9f207 net-sysfs: reject a one-entry RPS flow table
+         248b5819591c577727930e4e255a455235fab50a ksmbd: fix use-after-free after a failed durable reconnect
+         a43e0718a4abed7f859a67bd7b154acf213589fa ksmbd: avoid races between named-pipe operations
+         2d5c7afbb1d19f51f76c0865b4cb2e4e8347ade6 ksmbd: fix named-pipe reply loss with small output buffers
          
