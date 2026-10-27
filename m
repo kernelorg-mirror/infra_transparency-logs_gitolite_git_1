@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6707892344402615477=="
+Content-Type: multipart/mixed; boundary="===============1138175470238179736=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 27 Oct 2026 20:26:44 -0000
-Message-Id: <179313280427.1615123.2096122848204447000@gitolite.kernel.org>
+Date: Tue, 27 Oct 2026 20:26:46 -0000
+Message-Id: <179313280659.1615363.9258729879083693649@gitolite.kernel.org>
 
---===============6707892344402615477==
+--===============1138175470238179736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: c43c1c24f3cdc0d2d3f59e5686573ac3129637aa
     new: 2cffcf1aeabb187e4f08fe4f5363128a3c45d786
     log: revlist-c43c1c24f3cd-2cffcf1aeabb.txt
 
---===============6707892344402615477==
+--===============1138175470238179736==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ f75062536e2d45ee182828f0e47e0124be2fdc8d ixgbe: reserve TX timestamp after skb p
 b4a7180558eb3cd8affa1e240b22171425bdfcb4 net: lan966x: do not inject uninitialised bytes past skb->len
 2cffcf1aeabb187e4f08fe4f5363128a3c45d786 net: lan966x: do not warn on MAC entries that are not port destined
 
---===============6707892344402615477==--
+--===============1138175470238179736==--
