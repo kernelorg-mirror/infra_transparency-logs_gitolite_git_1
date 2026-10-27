@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 27 Oct 2026 10:31:28 -0000
-Message-Id: <179309708884.1144196.8222612357352301095@gitolite.kernel.org>
+Date: Tue, 27 Oct 2026 10:39:10 -0000
+Message-Id: <179309755017.1148775.2890615194796582085@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: a58b221496dd576191095d12996f39cee58cf6a8
-    new: 94ba9430411506b77e486457f0ff6fec61168b19
+    old: 94ba9430411506b77e486457f0ff6fec61168b19
+    new: cf26b22050af3420bddd6219b40e88d8dfe617f6
     log: |
-         fbea154a86641d2543a871aa19f7c77a366de542 net/rds: do not fail init when CONFIG_SYSCTL=n
-         ffbbc315b8b883a1c0e131fb3186b9428d2812aa net/rds: do not initialize transports after rds_init() failed
-         94ba9430411506b77e486457f0ff6fec61168b19 Merge branch 'net-rds-fix-init-failures-leaving-built-in-transports-on-a-dead-core'
+         e3a629477d52a9f49d50d72903be06a4d1f4aa58 vxlan: keep reserved_bits across changelink
+         e7cb2f638f7e4f5f95ca7956566de70e5e915ba3 selftests: forwarding: vxlan_reserved: add gbp changelink test
+         cf26b22050af3420bddd6219b40e88d8dfe617f6 Merge branch 'vxlan-keep-reserved_bits-on-changelink'
          
