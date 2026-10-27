@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3907266696465252147=="
+Content-Type: multipart/mixed; boundary="===============8824659914438194275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 27 Oct 2026 16:52:18 -0000
-Message-Id: <179311993818.1454803.3913734187219976699@gitolite.kernel.org>
+Date: Tue, 27 Oct 2026 16:52:22 -0000
+Message-Id: <179311994206.1454989.7631853214607037203@gitolite.kernel.org>
 
---===============3907266696465252147==
+--===============8824659914438194275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: 6b4b543fa18757297ac756a6fe6e64f506b7844a
     new: d135ab453a7400a34930bdda1ef4bdc8acfac80e
     log: revlist-6b4b543fa187-d135ab453a74.txt
 
---===============3907266696465252147==
+--===============8824659914438194275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793119938 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793119942 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1793119936-44d00f314ce12e75c6be2cffd626e202b11b5d8e
+nonce 1793119940-7d221d460cbb8cc608137a11e6d34a6617716f37
 
-6b4b543fa18757297ac756a6fe6e64f506b7844a d135ab453a7400a34930bdda1ef4bdc8acfac80e refs/heads/staging-next
+6b4b543fa18757297ac756a6fe6e64f506b7844a d135ab453a7400a34930bdda1ef4bdc8acfac80e refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrg1sIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/FoP/Rl0wbi/OuOF1Wv+pHmk
-US2R6eK20vU0pjj8Ir6S2j2Smwcj0mrV5vOG0HZReyYhdQH6XAtGri0ngxy/uDeX
-1k7jscbOdTm+zCnSXEEDdnF7cwTFJn28PG1KSgv9ZiRBcrXNndlHQhvyY811yW/Y
-wQtwp+NO0TdZP5AXpHfphb6if/EPdZrOK3rfa1CmlbChAsP4AvM5TChUqqDq3hXt
-yNWRGIlA1N5sJfITMFy+hkKiITTevrRI3THk0h/LCnDOzUaq6kPjM1RJl0kVrNPd
-Nn8MWWcRoPSCgmL6iT7+bkw0SDao8ekVAOxL290ki4euotZImShMkBnd8pqXHANQ
-oCRtvrt/kXZfZV9XFKqyCaMz3xy+C5tsh14HWDivLyH1ExB0ZB4RHZ3B2s4vgZ7R
-+UpG6DnOUVni8WxK8xbVCSRt5P7cosFvpI+a5H7giVro2vxnVzH2IxHGAFSze2ch
-Z9Kki6jW2+srXDmJP8bgfD12Z4RDLaKVB92h937R2ZJSxLIKD4N8LjVoqMBCMDsn
-9HV9fZNb0ORsxspPsPukTmBL5KFlCMayTronHxeM/goLrAeAHNbWB3PDSrav7G1y
-zLLO0aMrbOC2V+Dq34Dd2cbZlTvM7kivfcDu3ukP4G+vP6cAuZIHGNlBgI3wQuI0
-+Cw5gvtva/FuFMgHg1Dc16Ab
-=wnB/
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrg1sYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SGAQANeLzoPtrBFMMqbnjm7l
+P+ZyJSqnc2nqQTHTfzPSKLRAS/jaeKT+EWgou3CqdH0w6LizZ0Yw70An64zvWgCi
+FZkvonzlohMd0BbnVKB+duP5sr3Gg++UkW1eqBrp6ICCDFzoxaERG9ecqTXS0bmv
+GRg37rGPjDgn6BSqm7/q0hGvlQPt/+P/lsIfkZcn5PINLPQv0Qqd9qeWlwgeLncM
+3w8xVSfFGTzUaUAWaZ1xbYIG1APOjMVK4JWDx5O8uLtdG50QAMTl8kcfzWKCRXKT
+qZwoIZvjhzsNqiDMx6ezjEMZhQaYOGNJvlpepVOY7do1mBzpI7ucSrV7AULzzeu4
+IyonpMxOfBr5VjP0cGg0D3NgT+HVErcRBM9UaKaKAX+GfimZ8FVlXFOzTK2e5NSh
+6a1rVxTuDUORZBf4JgdLj/NA1uc6MdyUAa5D8jAnHAAY1SlI/aujApdjBLXN41cl
+nW20xj4HIMftl75ll87RfmqmRe92cy1lz161gixg87Hk5hKXxKlPk8+6tpcmRdxH
+H4Rj7Ie1sl++/sL5UWavxoOMe4aIOB8MM7NcdSuuk3jaikUI6JxokTlVeWVyjEui
+ZTVfMW3iwbaJKf5bPRwSNgRCLWhojDoY5481oRxZvuHuH8vK/G4Olnd86Q608d0A
+DY8ryWntRHcNUb0bk78+zxGB
+=w0g2
 -----END PGP SIGNATURE-----
 
---===============3907266696465252147==
+--===============8824659914438194275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -402,4 +402,4 @@ d857e1f3faf998f2614dcdb52a90a27bc83bd71d Merge tag 'mfd-next-7.4' of git://git.k
 5b93dc1c0c61fd0fe575cb473e9e25f929fda509 Merge tag 'leds-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/leds
 d135ab453a7400a34930bdda1ef4bdc8acfac80e Merge tag 'backlight-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
 
---===============3907266696465252147==--
+--===============8824659914438194275==--
