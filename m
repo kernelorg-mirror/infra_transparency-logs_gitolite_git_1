@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 27 Oct 2026 22:46:49 -0000
-Message-Id: <179314120956.1741302.13117413322651241960@gitolite.kernel.org>
+Date: Tue, 27 Oct 2026 22:51:06 -0000
+Message-Id: <179314146649.1744963.13958847715258290477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 24927bdf0f62f63470a065c21d80fff7e4e9f207
-    new: ef8f0a1d888e0280452792f6d4edad237c934a51
+    old: ef8f0a1d888e0280452792f6d4edad237c934a51
+    new: b6743653d134c9ef8436e2db1be1ad4c1e0d0091
     log: |
-         ef8f0a1d888e0280452792f6d4edad237c934a51 devlink: region: fix snapshot id leak on kernel-allocated ids
+         b6743653d134c9ef8436e2db1be1ad4c1e0d0091 macvlan: fix passthru promiscuity accounting while down
          
