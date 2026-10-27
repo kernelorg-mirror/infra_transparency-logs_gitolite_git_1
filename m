@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Tue, 27 Oct 2026 22:45:43 -0000
-Message-Id: <179314114364.1740527.974162519545510479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 27 Oct 2026 22:46:49 -0000
+Message-Id: <179314120956.1741302.13117413322651241960@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/smb
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: 714f27729121d59f103ca4dad7b0c2d1c125cd71
-    new: 2d5c7afbb1d19f51f76c0865b4cb2e4e8347ade6
+  - ref: refs/heads/main
+    old: 24927bdf0f62f63470a065c21d80fff7e4e9f207
+    new: ef8f0a1d888e0280452792f6d4edad237c934a51
     log: |
-         248b5819591c577727930e4e255a455235fab50a ksmbd: fix use-after-free after a failed durable reconnect
-         a43e0718a4abed7f859a67bd7b154acf213589fa ksmbd: avoid races between named-pipe operations
-         2d5c7afbb1d19f51f76c0865b4cb2e4e8347ade6 ksmbd: fix named-pipe reply loss with small output buffers
+         ef8f0a1d888e0280452792f6d4edad237c934a51 devlink: region: fix snapshot id leak on kernel-allocated ids
          
