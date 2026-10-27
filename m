@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5973301635547076174=="
+Content-Type: multipart/mixed; boundary="===============2994310134465111149=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 27 Oct 2026 16:52:10 -0000
-Message-Id: <179311993032.1454373.16515828830935097420@gitolite.kernel.org>
+Date: Tue, 27 Oct 2026 16:52:14 -0000
+Message-Id: <179311993431.1454587.16808251979629453812@gitolite.kernel.org>
 
---===============5973301635547076174==
+--===============2994310134465111149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging-linus
     old: 6b4b543fa18757297ac756a6fe6e64f506b7844a
     new: d135ab453a7400a34930bdda1ef4bdc8acfac80e
     log: revlist-6b4b543fa187-d135ab453a74.txt
 
---===============5973301635547076174==
+--===============2994310134465111149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793119930 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793119934 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1793119928-8a4fd2c1bf3b38bfc4bb9be97c82a7aef3a8ae4a
+nonce 1793119932-e265ef5632d537c652d1aad14097e0ea7a3172d1
 
-6b4b543fa18757297ac756a6fe6e64f506b7844a d135ab453a7400a34930bdda1ef4bdc8acfac80e refs/heads/main
+6b4b543fa18757297ac756a6fe6e64f506b7844a d135ab453a7400a34930bdda1ef4bdc8acfac80e refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrg1robHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ff4P/1z0/kAyu7r+RaGJCzFE
-AS3sBygvFXrqa7PQvQo86C/AE123C3c2TA9CI0+Ses8hPEZTVNgOw7emCtT7CTsT
-GDBg5e5LkV6a+hxIsMkbRUtoE7JNa/0r6HR2Xav3pYRMWHkpxKpX3M2vBxgXNM9p
-FYxDzHn7yfcrYvRRUBJlzAFrNzJqknobpWkbeGaHqzc5P1ARo3irtIbu4ri2kAM/
-SPRzzAQMOkKxsKZin+4DvJL02aBETj5ybLPd6TJ1AlDiO6EUqzHasElBgx291bLZ
-s1LTrMrKVDhB8MwacvitwFRh6WXjrLmXpsDhfZlc7QIodAW0dRm/EY57bCtbxr2g
-sWXiZdV5lepWCdBhRRhv/VLMycRBRjNDd7ZQIqSiie4GblUCD1dN7ipxchRQUkuL
-ZhZzKGbSckwucnCYV2W4VPF5Jao4gbWqerAYAd5VYQIJADUZME6Bs4GUr/R2NAEc
-R1IuWiTJigrp/4ZzHQpSHgZNxW6oNVFGczB4uAv1yTbYL8H4Nl9n6ns15+JIojXK
-cnlacpVUdzTzN/T+xomucjHZG4M7ikOuQCcDEeuo6FvwPYDcsTGYIkmmBNvPnaE7
-gN0wbD0abtP0AyEc2yAUIM0Ub28ihZaW/S46ZQRk/Wf6b65qeJ6sz9MpBhMRzILd
-xjxPv4aTJnNAHPWPlekq3Gje
-=9AhC
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrg1r4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eAMP/jHpL5BQ0rHPRMCXP1Pf
+5qdH0aXBQPIETQXFsb3gGQeTUl7Ay3jmYsnlM+/wSIDK4NYbuFB9yfhxTghnwNME
+xdzpg6QpOWMZNE0yCeOAUl3E7mL9QjYdD8E76+hErfViqeIcfIi/x2dMkx+HJEUf
+4l353lJq4JQ7T2qYFsUBkIsMSFzV7pcC4+rdKXyhQh+S45mBM091kW1cJRaQoqGq
+epa+HBmz5k5xGpfdclU7QbHipqO4gcZkStZHYVqu54BJ/WF+HUJYeZEhXfwzxFhl
+UxzAqShRTyjsXhx2OrXu4NakBe5lQgydx52xDLNXq+Leids9Zag0ApxmOiZoQSB0
+UXinNs8EYLBP5eiWwh5hTtv0Z4wjnxYeHjwmGaFWUN0DW8ObDQGsFW/MnfsEnPa3
+vl2DoAouy2NUSX6sbG1lMwOtGisJUUu6kA51V+ok1uelie1MRvP9cOJZG74NV5H6
+23OFdpJMdeo9wig7OFruXx1ZABe3mDq9cnh0Vn5EDdwewr/5CH4WwEo4NzDe+hcO
+i6rjiHqQ9gHIDK3uW6z9thNceWDi5pNUVCYsz7dgFWkuXf0wS830hqLP8IraC1fI
+WcvOXcN3NdFQMLq/YkT0sC4b3tkbK7PsU2pOGCpt0CxI0renzjOoTjq+nqfp8EJD
+kMgYdXT0k5KN23xneFIsWVH0
+=gXZR
 -----END PGP SIGNATURE-----
 
---===============5973301635547076174==
+--===============2994310134465111149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -402,4 +402,4 @@ d857e1f3faf998f2614dcdb52a90a27bc83bd71d Merge tag 'mfd-next-7.4' of git://git.k
 5b93dc1c0c61fd0fe575cb473e9e25f929fda509 Merge tag 'leds-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/leds
 d135ab453a7400a34930bdda1ef4bdc8acfac80e Merge tag 'backlight-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
 
---===============5973301635547076174==--
+--===============2994310134465111149==--
