@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
-Date: Tue, 27 Oct 2026 10:00:06 -0000
-Message-Id: <179309520696.1121370.15390247768229420821@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 27 Oct 2026 10:02:14 -0000
+Message-Id: <179309533427.1122594.9492236960975535392@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wens/wireless-regdb
-user: wens
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 389b9b702cf9018e9a9078ccc4fa8eaae2e054e3
-    new: 40095bd16e53d5c5682fd6e7e3dbbbfaf0fe5410
+  - ref: refs/heads/main
+    old: 6c799b4998c87bb44574bb090b8728bb3b3dbc47
+    new: a58b221496dd576191095d12996f39cee58cf6a8
     log: |
-         40095bd16e53d5c5682fd6e7e3dbbbfaf0fe5410 wireless-regdb: add regulatory rules for Iraq (IQ)
+         a58b221496dd576191095d12996f39cee58cf6a8 net: dsa: mt7530: trap frames to conduit in MFC on EN7581 and AN7583
          
