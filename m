@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6326753987479304396=="
+Content-Type: multipart/mixed; boundary="===============2666946518483737654=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 27 Oct 2026 17:34:16 -0000
-Message-Id: <179312245648.1485339.8751285125747804244@gitolite.kernel.org>
+Date: Tue, 27 Oct 2026 17:34:45 -0000
+Message-Id: <179312248548.1485587.14443002832415869426@gitolite.kernel.org>
 
---===============6326753987479304396==
+--===============2666946518483737654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-tpm
-    old: 071aa806f00cf2948ce8082102d5f64515f53215
-    new: 94d78ae4bcb5a38a4a7f54a579c55d2f77370697
-    log: revlist-071aa806f00c-94d78ae4bcb5.txt
+  - ref: refs/heads/for-next-keys
+    old: 2e6b8da9457170363f0929459e2120ecf2c7d55f
+    new: 10ef0894e53f9f614df09f8908eda7b0964aa63a
+    log: revlist-2e6b8da94571-10ef0894e53f.txt
 
---===============6326753987479304396==
+--===============2666946518483737654==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-071aa806f00c-94d78ae4bcb5.txt
+Content-Disposition: attachment; filename=revlist-2e6b8da94571-10ef0894e53f.txt
 
-8e83d53596445fcf5b0385e5fbe8bcd971e06d06 bpf: Fix stale offload->prog pointer after realloc
-af929bc938e0d0ecd839e6fed9a2ce5eb5185e5c bpf: Don't bind a program to a netdev that goes away
-1e28a5e52d32b7d3f4c9fb24898774f941166d2b bpf: Keep a program until its bpf_wq callback has ended
 927c9c985f3ef4d30c086884b7e0ecb933f742ef bpf: Count sleepable callbacks as sleepable map users
 3e6d7522af2cd1b8bf135ee7df6ca962986f44d6 bpf: Check the maps that sleepable callbacks use
 7fa323d77688e8b62b2f0bf6c3208a2c96d4a5e7 bpf: Assume no bounds for buffers behind a tail call
@@ -1050,5 +1047,8 @@ d857e1f3faf998f2614dcdb52a90a27bc83bd71d Merge tag 'mfd-next-7.4' of git://git.k
 5b93dc1c0c61fd0fe575cb473e9e25f929fda509 Merge tag 'leds-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/leds
 d135ab453a7400a34930bdda1ef4bdc8acfac80e Merge tag 'backlight-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
 94d78ae4bcb5a38a4a7f54a579c55d2f77370697 tpm: Check return value of crypto_kpp_set_secret()
+9b1e3a03e560d983548c5558a44a2360cb14be7c KEYS: Expand key->{datalen,quotalen} to unsigned int
+cb57c2de20a64f9abb665489718593b8a97f2e5c KEYS: Reject descriptions larger than KEY_MAX_DESC_SIZE
+10ef0894e53f9f614df09f8908eda7b0964aa63a KEYS: Verify the key identity in __key_unlink_begin
 
---===============6326753987479304396==--
+--===============2666946518483737654==--
