@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============1615525521237688926=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Tue, 27 Oct 2026 17:21:07 -0000
-Message-Id: <179312166738.1476952.11029373438863578571@gitolite.kernel.org>
-
---===============1615525521237688926==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 27 Oct 2026 17:32:41 -0000
+Message-Id: <179312236135.1484447.15925953272220220935@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/clanker
-    old: 75877756a796acb1ec20070b76c19a1237eec632
-    new: 43f979775dbec2b103926d32c77d58b3670940e1
+  - ref: refs/heads/keys-rhashtable
+    old: c2e834fc22978fc55518a55fb208c2cbfe76eb7a
+    new: a702238f180e8c6c2ccc5fe2fe113a1ce2398924
     log: |
-         43f979775dbec2b103926d32c77d58b3670940e1 driver core: Limit the messages on a refused uevent
+         94d78ae4bcb5a38a4a7f54a579c55d2f77370697 tpm: Check return value of crypto_kpp_set_secret()
+         9b1e3a03e560d983548c5558a44a2360cb14be7c KEYS: Expand key->{datalen,quotalen} to unsigned int
+         cb57c2de20a64f9abb665489718593b8a97f2e5c KEYS: Reject descriptions larger than KEY_MAX_DESC_SIZE
+         10ef0894e53f9f614df09f8908eda7b0964aa63a KEYS: Verify the key identity in __key_unlink_begin
+         641b4bcd64a82089716de659531088999528fc58 KEYS: Introduce keyring_is_empty()
+         34bb18aa6427de1cbebd2f2d61c63686b7a96c27 KEYS: Replace assoc_array with rhashtable
+         a702238f180e8c6c2ccc5fe2fe113a1ce2398924 lib: Remove assoc_array
          
-
---===============1615525521237688926==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793121647 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1793121645-1f993bd9512e72a7d7db4210878f9c67189c258b
-
-75877756a796acb1ec20070b76c19a1237eec632 43f979775dbec2b103926d32c77d58b3670940e1 refs/heads/clanker
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrg3W8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CrEQAJ6/KgFiCc4I71+WxxEb
-OJBqXPy0HP0d5BRPLJEuiOuREFRagdoFab4KZhK2glsD16N7PEUFJDl82sqQB5pR
-RL0p1W/1mBpAGYrjGqgRQnsHn2ktFjIzHkyJGfXxJlCYAD5aCxGRQF56Lf7gAY4q
-hJoiS2iOMa4O6psEK+zS1LSOUPvWNNsSbMdA1VVY111Hm4AH1LOnHuaowweUE8k/
-tuNSWXf0T2PYEdB5zPnczAqLv2Gdf45jLriK8utDzN07DEjPMw2krApug2H2/b4W
-V7rWBAcywpQVWGrXu+UyeS1afBIk1PWO6hLzjYmxyEfAEVB46DSJnZ0W/M2jcviq
-snMG/ft8O47n3+VOq8/2H78R/L6weCl5Yuhg09F5/YshDshoh+nrMBVok/mU73gB
-1eL+5r7oqjq6hzxzv+Z3WRmDyju9AiZefGb9snoby3kLK0p3jVH0ksQ3LZcCmNWf
-0IKxKSUcNfTgZ1geBw19nUkBo5is1YQaeX+czHdY9zPHuDKh+niTgkgUd9Ue1jtZ
-IeWlEFnMY3zrvMsBDOR1FsRX077T/VEQ0ZNJnS4/kJUyO2lXHMIHx7kuBcEP7kcs
-VXfk9+Y794JVF9JCGRmlD1QR8AzQNQ3DUfOsNXyyXQ7ugmLVQRFm4GDgaAyyxWB2
-94aKIVhOWj7sLrG9xn/ceEh5
-=bczf
------END PGP SIGNATURE-----
-
---===============1615525521237688926==--
