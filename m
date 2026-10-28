@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0442072358904765882=="
+Content-Type: multipart/mixed; boundary="===============3993300068095333393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 28 Oct 2026 04:54:07 -0000
-Message-Id: <179316324725.2009098.14523224977284107144@gitolite.kernel.org>
+Date: Wed, 28 Oct 2026 04:54:12 -0000
+Message-Id: <179316325264.2009283.6347480724169982224@gitolite.kernel.org>
 
---===============0442072358904765882==
+--===============3993300068095333393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: bae9a042b03b27924c6fd5bdc00a20d6a44d6041
-    new: d865f2677c44cb2171b833d6775cf692756fa8be
-    log: revlist-bae9a042b03b-d865f2677c44.txt
+  - ref: refs/heads/mm-unstable
+    old: 39274b454e9993cea319f4ac342a8082a9ee1730
+    new: 4685a28187f466adb03455ac903363f000ef6a89
+    log: revlist-39274b454e99-4685a28187f4.txt
 
---===============0442072358904765882==
+--===============3993300068095333393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bae9a042b03b-d865f2677c44.txt
+Content-Disposition: attachment; filename=revlist-39274b454e99-4685a28187f4.txt
 
+6ac0d7ba21d52e51efe3bc81cc89de3c44bd1fa6 Merge branch 'net-rnpgbe-add-tx-rx-and-link-status-support'
+355da270c1700db892b8d1c9e0eb76a801e4549a Merge tag 'vfs-7.4-rc1.bfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+b9a3eae9453b7547e4ab27df53a2ee8c7eb90c01 Merge tag 'vfs-7.4-rc1.bh' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+550a7e28d801d35dd23aa2cdd30b7a59e193e080 Merge tag 'vfs-7.4-rc1.binfmt' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 4effd80841b3c26ab33e30409e810b35a0dc0385 Merge tag 'vfs-7.4-rc1.close_range' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 ada21d495ccedc37e165d3c7da12a9ae4160ad81 Merge tag 'vfs-7.4-rc1.coredump' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 a1d4585be12feb09b3e66d312ceb200234164660 Merge tag 'vfs-7.4-rc1.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1046,9 +1050,5 @@ eaedb8a46d76694cfde704d06a4b6b2f93971d6a selftests/mm: fix khugepaged_race build
 0bbf77f188d4384884c2a5e41c220d5f46e7b62a mm: nommu: set MMF_OOM_SKIP in exit_mmap()
 e47bf187ffee437b86a2c5d71c9a1291d6e38949 fs/proc/task_mmu: fix lost maps entries above 2^63
 4685a28187f466adb03455ac903363f000ef6a89 mm/vmalloc: read vm_map_ram block regions from the requested offset
-7710be3a3db6b0fa4ee3ccb12b3f957db996d870 mm: unqueue deferred split folios outside the lruvec lock
-1fd4540df9ef570c11cde77eaea84e232986dc70 mm/migrate: move NR_FILE_THPS on cross-node migration
-086dccff9c0fb43c0974f518a661df4b206cc295 mm/page_alloc: avoid direct reclaim and compaction for costly __GFP_NORETRY allocations
-d865f2677c44cb2171b833d6775cf692756fa8be riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============0442072358904765882==--
+--===============3993300068095333393==--
