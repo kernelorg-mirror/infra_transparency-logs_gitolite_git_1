@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6274711338484168618=="
+Content-Type: multipart/mixed; boundary="===============8278209166956973162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Wed, 28 Oct 2026 13:41:00 -0000
-Message-Id: <179319486098.2425728.10332781859360694586@gitolite.kernel.org>
+Date: Wed, 28 Oct 2026 13:44:46 -0000
+Message-Id: <179319508654.2427113.8783878125866524607@gitolite.kernel.org>
 
---===============6274711338484168618==
+--===============8278209166956973162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,37 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/b4/bind_taint-revert
-    old: 0000000000000000000000000000000000000000
-    new: ed5c2dabb0ba7fbd9e4353d00fa2e645cb3de490
+    old: ed5c2dabb0ba7fbd9e4353d00fa2e645cb3de490
+    new: bd258987ee2674efe5984cd38e6e47cffe5a7ce2
+    log: |
+         508b9b1b4cffa20ecc407bea75686bb2d3ed0092 EDITME: cover title for bind_taint-revert
+         bd258987ee2674efe5984cd38e6e47cffe5a7ce2 Revert "driver core: add TAINT_FORCED_BIND for when userspace manually messes with devices and drivers"
+         
 
---===============6274711338484168618==
+--===============8278209166956973162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793194839 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793195068 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1793194837-08a82b15329a0afa8db360b9d86b5b05c2f6e834
+nonce 1793195067-bb18d56095c5aac77cbe8cd8111dc9cd8e541273
 
-0000000000000000000000000000000000000000 ed5c2dabb0ba7fbd9e4353d00fa2e645cb3de490 refs/heads/b4/bind_taint-revert
+ed5c2dabb0ba7fbd9e4353d00fa2e645cb3de490 bd258987ee2674efe5984cd38e6e47cffe5a7ce2 refs/heads/b4/bind_taint-revert
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrh+1cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bP0QAMPA6JsaZZ5rQde3odEa
-h64tJA+j6yRonD6Q1CKatZ7/2pq4P5uAUN3QrpROYrKiG2KeqEFHz45RlqLvYn37
-DFoC52bqndqODPyREWFiLcJZ29Mm7r48/UUK7D/6Ul0il+5KA//+rYARrOH9q1/U
-DnXTy+EBXIuHzwQktKNUO/bjcsz/ChAo3BPEMzFQm+/tdV+asFFzCtqY2x04ROPT
-6JfzgpQ6cF5/DuDJUWo68GAieYEfyekfFiUPgDI7AsdXZSXuRjMNv7enaiYW9++C
-5Kop38ye1nmd+b+8vZMwZp0KX9FWGZu5j/7U7RVrenS/AJNClPnsnqrhWAfR9mOc
-VqyVn2bNZrtCndtfW5l7jXxCsWC3x1ezf3itn/yAs7po0OPzFebgBx16eOZYFE+Y
-ti/peZaAA6iWQgUJLV+VJc/JC5z6GAbZBNywB6vvq96Cx8J4NMKKa2PuW+H46c4j
-wdopq0v10W6YVSmCMyzKEu6yKMPCz7Gzx3jbVEoY8yheZDxZa/GKzqjFgEu3tmIs
-ITG0UxS1GpC7pIAKf+54ZYaYTowS9YRTTx9fZK9mWK+uBc13gG00nM8t0TOThDWE
-BL1C5xH6H5xflppYEEEtfRBBi2Y+eouzspoVzyphx7RxpLoWejLSaZgzkKSumgsi
-Wf+08PaImCX7bBn1YFcY/HY5
-=BwtL
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrh/DwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+62UP/2G8xTt1fZEfzHXNs+Bf
+KppsCIpAamlJi3mcRPuzMV4kdpY9WkLGi+nVVa2VoMgXQCjmTrRJUZBEmMkpOtFA
+xFHf/4452CDg3dkRv4FBy8rzcTtY7x2wWdpQNfK/McMjcNglq/QGCVVrVpSJjYHJ
+5YewKgM5SO3ZxRNUkovbd383r04Cv4O3vEeaUEdJJej15quTinJW12ZyOAY0gm0d
+aQFPA1yzKHLOTz9S0JLTvnbxcAJJxQDbWLKC1slCMcmXFVLC9dX6FnZofz5pTE+W
++zj6tYfw6ncsnScW5/sL6yurLgHnNpSVxQbczV1hlQ01EVGgWTRF4MFmpVkYa4ep
++JAKOd2KDsE3VGrV6bosCkcSp0WBFpsgo+ymL5bJ0PoCiZ6ZaMMYJ+KL6ZiC7r0/
+MFmH6pQVObuWZkvj+BaZhEgtwkUn6QONNwyZKVVDIuvbjDAEfEWp7BYstCiCkboX
+UaOp7hfLyID76jV3gI78ryKtDJTDmlzprqWIo5yODDO1XBpmRHc8Ly6KvHLZMRM+
+JO8CHmOTyBN+nHphBTsG2g/I+0N0KkG7qRudNU1aU025fB+/w0Xr8idSc70bVKKM
+uhKvLZRHDS89WoDlT5u74wQ45fgItn0Fc96wkbUnhUD5MO9CqNkZwL0oeUuYMqNS
+HNAdb/chgkMBTvuwslUtI8CF
+=L14h
 -----END PGP SIGNATURE-----
 
---===============6274711338484168618==--
+--===============8278209166956973162==--
