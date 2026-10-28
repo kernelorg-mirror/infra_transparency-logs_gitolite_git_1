@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0761707302708920143=="
+Content-Type: multipart/mixed; boundary="===============7629314548539577352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Wed, 28 Oct 2026 13:53:08 -0000
-Message-Id: <179319558882.2434359.7663176463649248878@gitolite.kernel.org>
+Date: Wed, 28 Oct 2026 13:53:22 -0000
+Message-Id: <179319560277.2434594.17977904362928198501@gitolite.kernel.org>
 
---===============0761707302708920143==
+--===============7629314548539577352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e
+  - ref: refs/heads/driver-core-linus
+    old: 187a62f99da29b1a55602b0d401a783d8dc86161
     new: 0cc3ad8f4d2e2009c2005278c754caf7c07fe0a4
-    log: revlist-72d3fcf802c4-0cc3ad8f4d2e.txt
+    log: revlist-187a62f99da2-0cc3ad8f4d2e.txt
 
---===============0761707302708920143==
+--===============7629314548539577352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793195586 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793195602 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1793195584-20e0ac29f476d20cc00442b6d2f1f773d29f5cab
+nonce 1793195600-4f53c3156fdbb2cca05a966734820835ccc19325
 
-72d3fcf802c45d00b300f25b848a93c3a2bd7c7e 0cc3ad8f4d2e2009c2005278c754caf7c07fe0a4 refs/heads/main
+187a62f99da29b1a55602b0d401a783d8dc86161 0cc3ad8f4d2e2009c2005278c754caf7c07fe0a4 refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrh/kIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+frQP/2wuiViB/gZ2qOhSsHL4
-PcOLQKPVx7VIhUbH1EANwWU0sUCULKNrwQ+iMaMSji2fcf5uBFANOau34rqOLoG8
-kGQkgx7nPCIL0AduW//COdH2LJI2+1JeinWEfa48rT7t3smVQTkTRJg+PrJ25zHQ
-5ZsLrEDcOtHk5jkOAHSkyYVIKQzG8gAvrz+PKLHKQ7G6YIAG4JVkcE1N7A1gQN3V
-jgS2BiNZQ0Y5qm88Pv81VYtgyKf/W6i2dPoa5sH2gJQeIHlB8TaU/tIltTArmrZD
-kLtVhe9m3VCKAr1lsaMbvdOE52yLAjVpGc1ty3KGJ4QhkR89Dl6PuN3RnzlDJpNr
-F5/gxnXE5I05ynFqNsTsRjiNpp2kw9X5S7l5/Q5IHmG7UW4kRmCbf6VvkrMO6aVs
-YZlvKtcPmbjUlmkCGXGNiyri5yRvyjxiV9Sa5Pyp3KegNbzai/fDwrixq7MSyzku
-uUO3SKTgfhciIig2O5YFliOGlKij9sfrbu3O0Lh7E/QWA8H+qgfnNtvmrTRG/U77
-3g6tJt6MmTCegd+OOhmfxiHcybHvyFTpd2ReNLCevAJ1CyILpQXbquw6K2sDjtEb
-5DROlmQM/UFOEUSdOosX3oTjVNHKj68CrfgqBr1qMVwYrNZnqxe118X9CtRf7PLq
-xIKrKBW1D6iLkebsRyGL90b4
-=YuhD
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrh/lIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oC0QAIdyLdP9zIxP6LeWqAii
+sLZd2HmapEQZewdZ7yScMPX87I02dSAn0o91k+dVvGOP66gNzNOh/KMUE3BiGFnk
+stMa5aKprvvmLQ0xoTcOldvhkq60bSukld2nvPuwibDNP9v1tXBbVgtpmrj7JoLc
+HRedvDj6mBiy6IlSAghe9vEf4WRc+8D1h/glyqiDbUU4bqGxJ1U5M0OqsLZAmOZ3
+9vm2vBAqGl+1Jx/PPg4TCEPecH2gI1s+EMaJawu9x1VwcHFTCDzHraxGXOqTK8/v
+33/EvwsTY6g0SZ5z59hS2a//lzSl+JCUl99bMzf7DE5thjUWAwUsJZluDBqVvNTk
+tzbTfuLINMV1rOaq0MoLyZuFnrjVyMGUmEAHvt7DJiTTfFtoxdB7t23dzw//Jvfu
+D6nzqCxUUfwEngo5Mn+uMD6Yq2GveCJ/V5On6hIvlLhLWwZwnbcsilOUaSByiNq+
+J09DnffazGP7jEXN7uEVk6zJ9gDfQi/V3sT0hw1ePflr9aep9VQ/F9JxaQl5JuYs
+Q8O0IMK9tWyAF1lb/ZerED1/lkfo6ejkpvbH1oWstK0Tm5yZ+SROITd6UTpPBeC5
+6A50ZQVbkPBINw0MVVbkK0Qb/o3+J00EWxxof4r3zMGCP1ZzdhjaDIpuaZAZY3hZ
+wwmerUXmRh9nRLCb7BzihN4g
+=Buix
 -----END PGP SIGNATURE-----
 
---===============0761707302708920143==
+--===============7629314548539577352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72d3fcf802c4-0cc3ad8f4d2e.txt
+Content-Disposition: attachment; filename=revlist-187a62f99da2-0cc3ad8f4d2e.txt
 
 dc2021eae59ad035c303a03d036cb40d5d14947c Merge branch 'pm-runtime'
 6c326a54b0738ec3b2cc89e1da953a3586c6a8c4 Merge branches 'pm-sleep', 'pm-em', 'pm-cpu', 'pm-misc' and 'pm-tools'
@@ -1082,4 +1082,4 @@ b2c505e0ae0ba4b259cad56c87e630dfdf58dcb4 Merge tag 'tpm-v7.4-rc1-rebased' of git
 7313d94c67daf04bc1b6ee39b492d2795fe2f3da Merge tag 'hwmon-for-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 0cc3ad8f4d2e2009c2005278c754caf7c07fe0a4 Merge tag 'driver-core-7.4-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 
---===============0761707302708920143==--
+--===============7629314548539577352==--
