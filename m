@@ -1,22 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 28 Oct 2026 03:10:02 -0000
-Message-Id: <179315700257.1934064.13933343565385036288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Wed, 28 Oct 2026 03:14:12 -0000
+Message-Id: <179315725286.1937199.785206715316964727@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
   - ref: refs/heads/master
-    old: 2148df971e55b2ce9bba884cc334784b16754f4a
-    new: cc5108a59d09d73a922a6c9377c24d396319c5c5
+    old: d4fab4ae4b6dd98881ad7dbeb080b218eacc8702
+    new: 97a889cad5dd8ff83f40514f2d67c565c0dc54b1
     log: |
-         dac633f2027eea616593ffd34b2e159cd7688ce2 foo
-         105eedffa56040f89f733ba24c2ef8f2917e55fa foo
-         fade53fb1bf693ca106ff0b3013eac6a293ff67e foo
-         cc5108a59d09d73a922a6c9377c24d396319c5c5 foo
+         009e03ec884263204e128375ba55c382d74e10c1 Input: evdev - propagate EVIOCSFF copy errors correctly
+         fe2e50858b5deb5f2aabdb3e8a3f4731f23df74d Input: synaptics-rmi4 - f12: pass Data1-relative size to process_objects
+         42bc50566b2f8dff30cb82c937545bd5616fe40b Input: synaptics-rmi4 - f12: read only the object data on attention
+         97a889cad5dd8ff83f40514f2d67c565c0dc54b1 Input: synaptics - add LEN2072 to smbus_pnp_ids for ThinkPad P14s Gen 2i
+         
+  - ref: refs/heads/next
+    old: d4fab4ae4b6dd98881ad7dbeb080b218eacc8702
+    new: 97a889cad5dd8ff83f40514f2d67c565c0dc54b1
+    log: |
+         009e03ec884263204e128375ba55c382d74e10c1 Input: evdev - propagate EVIOCSFF copy errors correctly
+         fe2e50858b5deb5f2aabdb3e8a3f4731f23df74d Input: synaptics-rmi4 - f12: pass Data1-relative size to process_objects
+         42bc50566b2f8dff30cb82c937545bd5616fe40b Input: synaptics-rmi4 - f12: read only the object data on attention
+         97a889cad5dd8ff83f40514f2d67c565c0dc54b1 Input: synaptics - add LEN2072 to smbus_pnp_ids for ThinkPad P14s Gen 2i
          
