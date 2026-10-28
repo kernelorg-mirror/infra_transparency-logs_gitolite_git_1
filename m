@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 28 Oct 2026 21:40:47 -0000
-Message-Id: <179322364731.2810631.8858100062375681824@gitolite.kernel.org>
+Date: Wed, 28 Oct 2026 21:40:55 -0000
+Message-Id: <179322365568.2810828.3879569225951674848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
-  - ref: refs/heads/block-7.4
-    old: 21b88cc8bafceee6c6c82503e3b2cc6f1d0c78bf
-    new: 045cbfc369f5929ed473f7c200dc2e8146569ce5
+  - ref: refs/heads/for-next
+    old: 104e22b83f10a8d95dde4dbe71a96336bc90d620
+    new: c3442b2bab8502c6fc8214e4d4dab7772cbb4d08
     log: |
          0e1daaf9b20df2125452846f768a68d8ea280adf blk-cgroup: keep the old blkg while reassociating a bio
          05ce1df3756773862c056ca8698f8ec4cdd7fe98 blk-iocost: free struct ioc after a grace period
@@ -24,4 +24,5 @@ changes:
          587edb931fdda032bcd63fdfb0db4ded75159ee9 blk-throttle: pass the I/O counts of a dead group on
          ac81a07a0bd5e75e8edc0eb5be563be1b2d56554 blk-throttle: make blkio.reset_stats reset I/O counts
          045cbfc369f5929ed473f7c200dc2e8146569ce5 block: don't enter reclaim under rq_qos_mutex
+         c3442b2bab8502c6fc8214e4d4dab7772cbb4d08 Merge branch 'block-7.4' into for-next
          
