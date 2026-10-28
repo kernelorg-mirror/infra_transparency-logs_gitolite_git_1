@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2762015340411038597=="
+Content-Type: multipart/mixed; boundary="===============1624056901173835629=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 28 Oct 2026 06:10:16 -0000
-Message-Id: <179316781684.2069566.13602110811079520617@gitolite.kernel.org>
+Date: Wed, 28 Oct 2026 06:10:38 -0000
+Message-Id: <179316783847.2070169.14579618055298314949@gitolite.kernel.org>
 
---===============2762015340411038597==
+--===============1624056901173835629==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: e00da09bdd675b5f9b3eb2ef2c2c3625a70f7835
-    new: 27697a52e052a19b3cd0e834cfd972cb0508bc6d
-    log: revlist-e00da09bdd67-27697a52e052.txt
+    old: 27697a52e052a19b3cd0e834cfd972cb0508bc6d
+    new: 0f71e811af17b799262285fc556fae388fe5518a
+    log: |
+         640f7af94f598bacb3ddc34d7ba1d43adb62f8b6 Merge branch into tip/master: 'timers/urgent'
+         a023ef2b90215ae8089a49d1e96e95d5e353f063 Merge branch into tip/master: 'x86/apic'
+         0f71e811af17b799262285fc556fae388fe5518a Merge branch into tip/master: 'x86/misc'
+         
+  - ref: refs/heads/tip/urgent
+    old: ddd5075648cbe3866207f458e96a10f06ae0b5aa
+    new: 640f7af94f598bacb3ddc34d7ba1d43adb62f8b6
+    log: revlist-ddd5075648cb-640f7af94f59.txt
 
---===============2762015340411038597==
+--===============1624056901173835629==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e00da09bdd67-27697a52e052.txt
+Content-Disposition: attachment; filename=revlist-ddd5075648cb-640f7af94f59.txt
 
 d7185220821fe22525a0eff916c690a05690134b fuse: ioctl: remove unnecessary comparison in fuse_setup_measure_verity()
 989db66818a40b48da6ff06329ff2f5d0c866f93 fuse: allow FUSE_SYNCFS for privileged userspace servers
@@ -590,7 +598,6 @@ f322d7f7ae56bce728ba03a387e35380bc4ad939 clocksource: Prevent immediate watchdog
 59a02493f3b68fd0ad68c661393f680bcca5a85b Merge tag 'trace-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 857c32a3b82c4f4abb7addee394c4dbfc79ac6db Merge tag 'm68knommu-for-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 65ba8f34ec886ec72b2c07ddc8cf3d815c32869d Merge tag 'xtensa-20261027' of https://github.com/jcmvbkbc/linux-xtensa
-78a497e0b5b9a3e94beadcfac9934820cc9de42d Merge branch into tip/master: 'timers/urgent'
-27697a52e052a19b3cd0e834cfd972cb0508bc6d Merge branch 'linus'
+640f7af94f598bacb3ddc34d7ba1d43adb62f8b6 Merge branch into tip/master: 'timers/urgent'
 
---===============2762015340411038597==--
+--===============1624056901173835629==--
