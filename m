@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/davem/net
-Date: Wed, 28 Oct 2026 09:49:36 -0000
-Message-Id: <179318097609.2224565.5526266244613432696@gitolite.kernel.org>
+Date: Wed, 28 Oct 2026 09:52:39 -0000
+Message-Id: <179318115937.2249232.13682501807561710822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/davem/net
 user: davem
 changes:
   - ref: refs/heads/main
-    old: 6fb4e32f2ce3234ae0c416872e911706a3484430
-    new: d6f81fd6abe209f9803d8f74ce9ec69b8126bad3
+    old: d6f81fd6abe209f9803d8f74ce9ec69b8126bad3
+    new: 1e860f42f41c6fbf3304f6a52be38245b9394982
     log: |
-         d6f81fd6abe209f9803d8f74ce9ec69b8126bad3 net: sched: prevent scheduling deactivated qdiscs
+         1e860f42f41c6fbf3304f6a52be38245b9394982 ppp: fix stale pointer access after pskb_may_pull in ppp_ccp_peek
          
