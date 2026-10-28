@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1691029680555355449=="
+Content-Type: multipart/mixed; boundary="===============8041669829212490875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 28 Oct 2026 11:34:16 -0000
-Message-Id: <179318725622.2331963.16223118042707164037@gitolite.kernel.org>
+Date: Wed, 28 Oct 2026 11:34:39 -0000
+Message-Id: <179318727903.2332368.9107512189594782109@gitolite.kernel.org>
 
---===============1691029680555355449==
+--===============8041669829212490875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: dborkman
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 4169c9c90532df9585c0a2ae513337a58f5e59ab
     new: 65ba8f34ec886ec72b2c07ddc8cf3d815c32869d
     log: revlist-4169c9c90532-65ba8f34ec88.txt
 
---===============1691029680555355449==
+--===============8041669829212490875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c60ebc3208b9ce1d8915318347962f7ce1dbd07d Merge tag 'libnvdimm-for-7.4' of git://
 857c32a3b82c4f4abb7addee394c4dbfc79ac6db Merge tag 'm68knommu-for-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 65ba8f34ec886ec72b2c07ddc8cf3d815c32869d Merge tag 'xtensa-20261027' of https://github.com/jcmvbkbc/linux-xtensa
 
---===============1691029680555355449==--
+--===============8041669829212490875==--
