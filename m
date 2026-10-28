@@ -1,20 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 28 Oct 2026 19:00:17 -0000
-Message-Id: <179321401741.2684869.16971329523059867614@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4052454033945798123=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Wed, 28 Oct 2026 19:11:01 -0000
+Message-Id: <179321466167.2692273.5748779167397765514@gitolite.kernel.org>
+
+--===============4052454033945798123==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 55a2564c1e5d564a1f42f0c5162a9c403f63130d
-    new: 2655fc7c09b7022167a506e9804f650eaf67e848
+    old: 5537ae09c150a9c30985d9d704a0c2fc8aabfb6b
+    new: 3517b5f94e2300e9d1cc146151d4ad451dd58aa0
     log: |
-         6b74cc28dcf663c2f909f77e14ca7c50db8243a7 Fixes for all trees
-         2655fc7c09b7022167a506e9804f650eaf67e848 drop 4 patches based on RC review feedback
+         3517b5f94e2300e9d1cc146151d4ad451dd58aa0 Add B1583DCA8A90EEA7 (Daniel Almeida)
          
+
+--===============4052454033945798123==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1793214660 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1793214660-8875e58f880c521a1f0b0480e23da7e62a7a07e8
+
+5537ae09c150a9c30985d9d704a0c2fc8aabfb6b 3517b5f94e2300e9d1cc146151d4ad451dd58aa0 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCauJIxAAKCRC2xBzjVmSZ
+bDZvAQCqhYmjG+3hu1ujw65NE4mw2pdJ4eJL6ZNTksXAWXbRxwD9E456ksGJujH7
+FCUX2U5bbOwIv2mHw0hDGtyh6OC+gwU=
+=w1aM
+-----END PGP SIGNATURE-----
+
+--===============4052454033945798123==--
