@@ -1,41 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 28 Oct 2026 10:23:15 -0000
-Message-Id: <179318299574.2271801.4547668232699165746@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0419312196800459306=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 28 Oct 2026 10:32:56 -0000
+Message-Id: <179318357657.2278770.17596335322136402727@gitolite.kernel.org>
+
+--===============0419312196800459306==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: dae739137441667d67fbfcc4d303a0ecc6618662
-    new: baa14758afb3e2828de1f76511edc1de50216f39
+  - ref: refs/heads/master
+    old: 2e146ea926d36019b15f70c11d4dcb4fc13cf5f7
+    new: 37f6ff221864caafd661ce64c3c8644f1c2dcfd2
     log: |
-         13467fd6998f5da4f5b4f172f1af3d9c48d5de8f gpio: rockchip: Fix debounce arithmetic for GPIO v2
-         baa14758afb3e2828de1f76511edc1de50216f39 gpio: brcmstb: fix UAF after IRQ domain setup failure
+         37f6ff221864caafd661ce64c3c8644f1c2dcfd2 add 7.2.13 review from greg
          
-  - ref: refs/heads/gpio/for-next
-    old: a67ab3994716e1bfe86b53330d1cf2f5bf6bfbad
-    new: 5e826d71d4839d8471784d968274823f1f492eb5
-    log: |
-         29f8eefb7a41e5012ea8c7f82ebab7b101a242c8 dt-bindings: gpio: dwapb: add snps,native-both-edge
-         b41cfa014391694a60f9fd52f758943d52b550da gpio: dwapb: support native hardware both-edge detection
-         c3b94486f0c07562eb894ec6c666656f8cb6eaf0 gpio: virtio: convert to immutable irq_chip
-         d517aacf1e177377c48a50043982bb8f6e76d4bf gpiolib: of: remove redundant IS_ENABLED check in of_find_mt2701_gpio()
-         ab2815bdba3ccaebee7d39df033a65bc8df98543 gpiolib: of: compile of_find_trigger_gpio() conditionally
-         0308963cb224c0b0d368072209a2da1a97f93302 gpiolib: of: add a quirk for legacy name for TWL4030 external mute GPIO
-         6ff56d6f181408a601b0cb777f34a2cb1735233c gpiolib: of: clean up formatting to pass checkpatch
-         5736f73571b2cd1b957d09ba3479275fc0c89f62 gpiolib: of: use __free(device_node) in of_get_named_gpiod_flags()
-         dd2ad62e78990087bb62864ae76e7c2251fe5b90 gpio: octeon: allocate the GPIO base dynamically
-         5e826d71d4839d8471784d968274823f1f492eb5 gpio: rcar: Convert to gpiochip_generic_{request,free}()
-         
-  - ref: refs/heads/pinctrl-qcom/for-next
-    old: 9bcd1725b0cc7954525e3d0d02fecaec7c7aab33
-    new: 30d9a180c86e3cbd53efb7152e05cb059112f6eb
-    log: |
-         30d9a180c86e3cbd53efb7152e05cb059112f6eb pinctrl: qcom: Restore the pin configuration after hibernation
-         
+
+--===============0419312196800459306==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793183573 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1793183572-6cf62e44e863463b1de87f39eac57947939abdae
+
+2e146ea926d36019b15f70c11d4dcb4fc13cf5f7 37f6ff221864caafd661ce64c3c8644f1c2dcfd2 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrhz1UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BScP/AngTBFQ+OkVHWev9KeQ
+P9uzfFIGX791+Z4LIQwUwvGxx5ITAstBbRDePamDxFwaMdBX1uABQK5H9bFt/YIP
+HtQziytxFpF1Pm6eJUT2fJuAv9buGPh+kCWEVfDmYK4aOcIfntv/1pcbE6PvNB8/
+SB9Va8WeX+g6Zvn3JwTmDCqzv/QCX3k5KCB67OOXNkZBb/oAFPw5o5i99HWSyEyE
+utjxLawkpLOOqrly1TrBC2sD6Swx+8o5PZD8Ol1S0hsUqsJ5Kr1owdhubLKQK4NM
+MuYK4MpP27SZAyW2IoyTfyboBXle5evQv5zEFwt6jQzXxSayVyfFBCVUOcQ/MBJY
+RH16HyhJadogm9KmPTtX07OXxu/teInkyj32BI0IX7Hv78D9E8C2PyI2KF5/INX9
+WDOmVbP4j3CCahNWxG/qSVvInYnyTj9IsovOzmoFH65xqrVG6zkL3mhYotAgBuHk
+UzFsdJAhCdB5uvoul55gq56NnvWdi57PtDHoYtI0brA2IGa5Q8iJpkmPsGUQGjv0
+GlXUmCLRGAsIjwQf1zZEEmEEk0whN9dBWJR0MVsUViJ7sH0K/vIy+UExSqw+K9bW
+m4pIwVCKZhiVioeHxOu/f7tSoN1Cu+VZDjO+lDvhBzZpPttHwRUTZgmS7T0uL3bU
+HWnv8EagsRU3pe2tbEyDIOs5
+=uwQb
+-----END PGP SIGNATURE-----
+
+--===============0419312196800459306==--
