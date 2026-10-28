@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3993300068095333393=="
+Content-Type: multipart/mixed; boundary="===============6399406227851284963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 28 Oct 2026 04:54:12 -0000
-Message-Id: <179316325264.2009283.6347480724169982224@gitolite.kernel.org>
+Date: Wed, 28 Oct 2026 04:54:18 -0000
+Message-Id: <179316325810.2009498.15153576906046637698@gitolite.kernel.org>
 
---===============3993300068095333393==
+--===============6399406227851284963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,65 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: 39274b454e9993cea319f4ac342a8082a9ee1730
-    new: 4685a28187f466adb03455ac903363f000ef6a89
-    log: revlist-39274b454e99-4685a28187f4.txt
+  - ref: refs/heads/mm-stable
+    old: 183895979c441e52dbd651b388553b09eaa35cfa
+    new: 65ba8f34ec886ec72b2c07ddc8cf3d815c32869d
+    log: revlist-183895979c44-65ba8f34ec88.txt
 
---===============3993300068095333393==
+--===============6399406227851284963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39274b454e99-4685a28187f4.txt
+Content-Disposition: attachment; filename=revlist-183895979c44-65ba8f34ec88.txt
 
+a81bd9262cde4b002b95e652453ce5b815c79a62 bpf: Fix ksock build with BPF_LSM=y and SECURITY_NETWORK=n
+b2914fb67fbbfcd7ab1a855c167595b363212613 Merge branch 'bpf-fix-builds-broken-by-fatal-resolve_btfids-warnings'
+19a17b5b2b01f6b5ba8f8d493629c759f90906d5 bpf: Refuse CO-RE relocations for a signed program
+25a2e54999b0b93e8ecebb5863e3ecbcafb0ed18 selftests/bpf: Test that a signed program with CO-RE relocations is refused
+2ad9c9142d59f5748cce5da44ec46a14fdb66467 Merge branch 'refuse-co-re-relocations-for-a-signed-program'
+05bee0638bacf4e9298bbf0bfef749b6a8ff4478 bpf: Revalidate faulted arena pages before installing user mappings
+7244a2e58d2167292972f9380abb3a4d17a343e3 bpf: Fix arena race between page free and alloc leading to incoherency
+6c372031078cfa4c1ee1a789d29108af794ec1ab selftests/bpf: Add arena allocation race tests
+1907a7d0a1788ba794eff7e75cb140599bef34e2 Merge branch 'bpf-fix-arena-memory-incoherence'
+f25f6319e248034f3df83352e450ab3172eece43 bpf: Annotate data races on bpf_lru_node type
+edf43c031902787117822b23324cf08ccc023bf6 ipe: fix invalid sgid value in audit event documentation
+f4f76b791afd3bfab64165574a216833210a0ed5 ipe: constify token_default()
+e4933dbcb7eccf98ecb059d9b740420a477b1520 ipe: use designated initializers for audit name tables
+6adc404a9867eee83e9555eac36dfd0066fa3839 ipe: check parser token table sizes
+a53d9c9ca5e1ced65f39708f36d06a42672f8ffe ipe: correct policy text ownership comment
+0e5f66bf052223aa5c8caeb8554a7577b54c302f ipe: fix enforcement audit
+e2f08fadb48509c239e47cdaf81438c162395932 ipe: update the project and test suite links
+5820ca58b409402505b9e904d1ded4908e0b6b81 netdevsim: reject cls_bpf programs bound to another device
+d305547d1632a242818c5ebb430c85121a2ed434 net/sched: cls_bpf: accept dev-bound programs on shared blocks
+866363c3cc40147d0501a1a6dae485e13852d150 selftests: net: exercise dev-bound cls_bpf on shared blocks
+c0b628de2243f0d5d1c0e79e8acf9411f6b6f835 Merge branch 'net-sched-cls_bpf-accept-dev-bound-programs-on-shared-blocks'
+6276c8195e598361942082423114877265c17692 watchdog: mediatek: Apply the driver's mode to a watchdog left running
+f57202d55333f750a18e21c3b3f35f48ef14a61e Merge branch 'next' into for-linus
+0e36a335c84ee6f4248909321f3c83a71fd2aa02 net/dcb: Validate bandwidth for non-ETS traffic classes
+7d0692e7f0508d499f6a237a746145060127cf94 dt-bindings: net: qcom,ipq9574-ppe: Split EDMA reset into sys and apb
+7baaa2bed6fd98d21729889fa55074b0bf9b82f8 net: ethernet: qualcomm: ppe: Fix multicast queue config table access
+2575292d1c92276790fa45bfe1d2f5f1cb1eb537 dt-bindings: net: qcom,ipq9574-ppe: Add IPQ5424 PPE support
+ff5f9cb0c28d3da55c32a9d1e5675c9c1df2a623 docs: networking: Document IPQ5424 as a supported SoC
+b52c8b48864ef526a79e3c155294d26f7f2f8afb net: ethernet: qualcomm: ppe: Add platform support for IPQ5424
+d377b0e5c4889af69c1c52b45e26395ca2ef51ac net: ethernet: qualcomm: ppe: Add IPQ5424 BM buffer configuration
+04181e75cbd28ec55591ec69471874463515e715 net: ethernet: qualcomm: ppe: Add IPQ5424 QM configuration
+b9f3abbb9f1c4a4107fcdadd6b12718582b1fb09 net: ethernet: qualcomm: ppe: Add IPQ5424 scheduler resource configuration
+7ba101e7fa86b4a170628a02c2de27119b9c3dea net: ethernet: qualcomm: ppe: Add IPQ5424 scheduler configuration
+c61091061206c4c244cede6a61a40a40a285b28a net: ethernet: qualcomm: ppe: Add IPQ5424 service code configuration
+f60a45426d5ae49affe6530372b0a75d5b09c219 net: ethernet: qualcomm: ppe: Add IPQ5424 counter debugfs support
+01f44861bd852f47ba7388050012ab7a89587bf3 Merge branch 'net-ethernet-qualcomm-ppe-add-support-for-ipq5424-soc'
+def41b7bd4f1c9fc8eedba70ceb05d999ea7bb1a Merge tag 'ipc-7.4-rc1.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+e86d265826b8dc54178e16c4027d3bd5d0299f12 Merge tag 'namespace-7.4-rc1.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+c6b97e579ea3803c9343c01cafc9d0af821952e6 selftests: net: fix race condition in icmp.sh causing CKI sporadic failures
+17ec1b9b3f529fdb10ea41ea8d3ba4aa18c8e0b7 Merge tag 'ovpn-net-next-20261012' of https://github.com/OpenVPN/ovpn-net-next
+018cf9bf786d501a27963dca6777f169f978e2a5 Merge tag 'kernel-7.4-rc1.signal' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+f67b3ed1308d7a282e2d6202d61af052ab0da39e net/sched: act_api: reject duplicate actions in a batch
+044ad3c90d9d2df2c5cb3325ae17b4e9603a311f selftests: tc-testing: add duplicate action delete batch test
+600efa8e598c9670420ed698db4d64d05fc6023c net: rnpgbe: Add interrupt handling
+02b5891a50c15b5f5c9c162607226ff7eefa970f net: rnpgbe: Add basic TX packet transmission support
+250a6edaea4998e6f2db6e030cb5d1135ee18b5d net: rnpgbe: Add basic RX data path support
+20c17178e19279794540e6f2a05a11b825727ba1 net: rnpgbe: Add receive mode support
+92a671d510a823b86bbbe6c31fdb29eda85faba8 net: rnpgbe: Add link status handling support
 6ac0d7ba21d52e51efe3bc81cc89de3c44bd1fa6 Merge branch 'net-rnpgbe-add-tx-rx-and-link-status-support'
 355da270c1700db892b8d1c9e0eb76a801e4549a Merge tag 'vfs-7.4-rc1.bfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 b9a3eae9453b7547e4ab27df53a2ee8c7eb90c01 Merge tag 'vfs-7.4-rc1.bh' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1002,53 +1050,5 @@ c60ebc3208b9ce1d8915318347962f7ce1dbd07d Merge tag 'libnvdimm-for-7.4' of git://
 59a02493f3b68fd0ad68c661393f680bcca5a85b Merge tag 'trace-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 857c32a3b82c4f4abb7addee394c4dbfc79ac6db Merge tag 'm68knommu-for-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 65ba8f34ec886ec72b2c07ddc8cf3d815c32869d Merge tag 'xtensa-20261027' of https://github.com/jcmvbkbc/linux-xtensa
-bba1cb4bc34d43fda60c3c4567e2ca5459822a2a mm/khugepaged: flush deferred unmaps before dropping a failed folio
-ae69b0b57724551c182f79d19ed1e906a5285313 lib/base64: silence clang-24 -Wconstant-conversion with diag pragmas
-65958ecaee47aa383e31099cba0e217ce012f094 mm: fix address wraparound when scanning large folio PTEs
-0bb02bb1a72a5ec0686ab78e738ae0e5c148619f mm: memory: fix truncation removing mapped folios
-fffedc1222ec55bbae173a3b8723b3fccdaff581 mm/hugetlb: fix max-only subpool accounting on alloc_hugetlb_folio failure
-355c014d70b276a4af386315d47131b0b4f0ed39 mm/vmalloc: use dedicated unbound workqueues for vmap drain
-14c21c33bfd2e8ad83039ed9adc9bc6c17e17d20 mm/vmalloc: avoid false sharing with drain_vmap_work
-864affbe57bd08c31b23fa6ca21a8b161c7eba37 xarray: fix index jumping backwards in xas_find()
-0e01d374283c0eb7d61f0b6ed10a70be0c68afd4 assoc_array: discard shortcut when collapsing a leaf-only node
-fe9f39eccebd80ab7c0cd2ff6c48ac7f2a855b88 userfaultfd: clear the inherited uffd bit in move_swap_pte()
-ef99840aa0a9393611d68c90da2067a848cbabbd iov_iter: validate extracted segment for bvec alignment
-7e18b6d2738a40b9142f45cf619d387fa2148a23 mm: fix missing page-table destructor in pagetable_free()
-760c8e82256094187e59b9c5e6d9c263a41afd89 arm64/mm: fix destructor for unconstructed hotplug page tables
-e830b48a8945f21fee235f314b15147aef5f33d0 mm/page-writeback: avoid 32-bit overflow in dirty threshold shares
-7b3e56a534046e732574778088a0fd43cfdd6b85 selftests/mm: merge: keep the far mremap() targets in the carveout
-828839815d3d1b5c0417ba01883b0a1c6134b5a9 mm/page_alloc: let the highest memory node recover from hopeless state
-9d66bac764e84fef949caf278b050878df114ccb mm/hugetlb: fix mremap move length truncation
-e0d8757e5d648956ecbfe7b5383f3864e8c4413c mm/hugetlb: disable PMD sharing for UFFD missing mode
-b33e560f9e9bc2e0e5135d4183fd622b590c2576 mm/hugetlb: fix mremap deadlock when PMD sharing is possible
-978e93bd011a48e1b6cd7041e2456f50136f9774 mm/page_alloc: mark pages freed by __free_pages_core() as not tagged
-a9356c96e339948807f1a388820e78ce47ce7565 mm/vma: fix expansion of VMA_MIXEDMAP_BIT VMAs
-5f96c5f85045fff744d3485c293cdc5eee3c968c xarray: clear the new head's parent before freeing the old head
-052a4e5ff7da4b7c8992e87309ff991a1ad9154f mm: do not unintentionally overwrite atomic VMA flags
-7d3922eebf8fc963ea93d6f7b37d07fca3689cca mm/vma: write lock source VMA before duplicating it in __split_vma()
-c8ca396191e3aaea3f8edf4f559370589fad2126 mm/madvise: preserve VMA_SOFTDIRTY_BIT when changing anonymous names
-695c8c4441484840667f7ee8d213dad8b6dc63fe mm/vma: avoid losing atomic VMA flags when setting sticky VMA flags
-86d89847c3c2eca099c0e35b663965c1c6521460 mm: memcontrol: fix NULL pointer deref in high_work_func() on dying memcg
-3f73fa2095066fd5e7fbd25bb0148f9039702257 mm/ksm: keep soft-dirty when merging a page
-4997251f0791fadfb5f75f0c3ebc976836fc69b5 mm: zswap: use separate compression and decompression requests
-04c595ce437fe628e834d74d99a47613a9287dd9 crypto: acomp - enforce MAX_SYNC_COMP_REQSIZE
-0f083a5977a2305800e068e9a10c65561b0308ca mm: zswap: use stack requests for synchronous decompression
-0616a28a77d5034bfe6eb5579f554a9ced701b3c fs/proc/task_mmu: return -ENOTTY for unknown pagemap ioctls
-55c02df9dfa24a4d522d03f02497440e5a5ce888 mm/damon/sysfs-schemes: hold damon_sysfs_lock in target_metric_store()
-dcc31e3d64431cd8af1e4057e98efeaa0a812188 mm/damon/core: move static variable last_nr_regions to damon_ctx
-015fe9226c8e603ba5fa6e6413af95d1589bc7e0 mm/damon/core: move static variable rotation to damon_ctx
-b779ef016df0f3735aa53c9724d7813f07950180 mm: make swapoff interruptible when unusing mms/shmem
-930eec1958e98450caf8b3da1262a8c6df264174 mm/migrate: untag addresses when querying page nodes
-041b9b7eb14f64c412a5abd600004455db51ab25 mm/ksm: fix userfaultfd protection during merge and unmerge
-5a467b30864ae5706e979d49616394572332bc5b mm/vmalloc: bail out if in softirq context
-ed5310112228c09b53e0506f50addc46d7603a2f mm/migrate: snapshot the source nid before the misplaced migration
-f1ce4414a5700d621d9e412861c8aede233328eb khugepaged: fix readahead lock inversion in collapse_file()
-880c6252c0784ced8bff9ca3fbc460bc0b778154 mm/vma: update VMA iterator state on error in new VMA merge
-eaedb8a46d76694cfde704d06a4b6b2f93971d6a selftests/mm: fix khugepaged_race build with older glibc
-3ab8f62586922b942b0d72469bd06281a4b74c97 fs/proc/task_mmu: fix missed VMAs when reading /proc/PID/maps and friends
-9ebe19ab476295038fdebb8ca0549b01c5ffbe62 mm/zswap: validate dlen and normalize comp_ret on compression success
-0bbf77f188d4384884c2a5e41c220d5f46e7b62a mm: nommu: set MMF_OOM_SKIP in exit_mmap()
-e47bf187ffee437b86a2c5d71c9a1291d6e38949 fs/proc/task_mmu: fix lost maps entries above 2^63
-4685a28187f466adb03455ac903363f000ef6a89 mm/vmalloc: read vm_map_ram block regions from the requested offset
 
---===============3993300068095333393==--
+--===============6399406227851284963==--
