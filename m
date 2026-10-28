@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Wed, 28 Oct 2026 19:33:24 -0000
-Message-Id: <179321600495.2709329.10577979409039796958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 28 Oct 2026 19:37:00 -0000
+Message-Id: <179321622047.2712824.17341999981158760169@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 3517b5f94e2300e9d1cc146151d4ad451dd58aa0
-    new: 68c82bfe7ec1a5de2a8197a9f97289cacf1a95eb
+    old: 47d4d9f67e92d56ef3965f2727f9c98a5a611368
+    new: 1081a6ef8f1e0661fd52eb3f878691b0b96cdff9
     log: |
-         5b76fec16e5d0dbb39b9f2125392a265e445fd01 pgpkey-expiry: find keys that were moved to keys/expired/
-         68c82bfe7ec1a5de2a8197a9f97289cacf1a95eb korg-update-pgpkeys: move expired keys to keys/expired/
+         1081a6ef8f1e0661fd52eb3f878691b0b96cdff9 Bluetooth: btintel: check FIPS status before firmware download
          
