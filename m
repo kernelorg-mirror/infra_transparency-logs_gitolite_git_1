@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 27 Oct 2026 23:53:49 -0000
-Message-Id: <179314522955.1788575.14237978136891362484@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Wed, 28 Oct 2026 00:36:58 -0000
+Message-Id: <179314781855.1818588.6574723844223291939@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/main
-    old: 67ae1b80cf73f592b35e4b5e5001a24d6d6c8637
-    new: 5d7f3375cd574fc83f0cd30839b21455c0e79ae2
+  - ref: refs/heads/loongarch-next
+    old: fcf3b0d19a353de9ba96a0b7c4e4b8b844ddd86a
+    new: 3730d80e35e137a41a6e7d8a07bbc5f8e8366862
     log: |
-         5d7f3375cd574fc83f0cd30839b21455c0e79ae2 net: dsa: motorcomm: Fix function parameter types
+         600d47b7e6b59ba4da69b16469c3d265d0180dd8 soc: loongson: loongson2_pm: Fix build warnings for 32BIT
+         3730d80e35e137a41a6e7d8a07bbc5f8e8366862 soc: loongson: loongson2_guts: Use of_root instead of own reference
          
