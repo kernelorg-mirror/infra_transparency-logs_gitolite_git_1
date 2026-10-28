@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 28 Oct 2026 23:00:07 -0000
-Message-Id: <179322840754.2865961.15663760370176240758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 28 Oct 2026 23:00:54 -0000
+Message-Id: <179322845423.2866639.15901423779707678555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/pending
-    old: 875c03e106ed2425c0d3e861b1b9f947d9b3f8b5
-    new: 1f4f20fb0fdb2796a3527f996ddd83c6c4400f24
+  - ref: refs/heads/main
+    old: 94cea342e8915812b45f93c56e134041c7fdb4d7
+    new: fd1436a75ceb07c7029be02f89e8a1b34a6978c8
     log: |
-         dbcdb6d99d5273cb816350657709867fe2cb5adf wifi: ath9k: don't read past short WMI command responses
-         1f4f20fb0fdb2796a3527f996ddd83c6c4400f24 wifi: ath9k: drop WMI command responses when no command is pending
+         b4aac29a21d96974ae6e6d8e7b1b01e1f95c4348 Revert "selftests: net: packetdrill: add tests for advertised MSS with PMTU exceptions"
+         564313447e545eea13038f74ada9272ab129b3cb Revert "net: advertise TCP MSS from the configured MTU, not the learned PMTU"
+         fd1436a75ceb07c7029be02f89e8a1b34a6978c8 Merge branch 'revert-advertising-the-tcp-mss-from-the-configured-mtu'
          
