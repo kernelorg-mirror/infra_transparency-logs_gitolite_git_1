@@ -1,38 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1624056901173835629=="
+Content-Type: multipart/mixed; boundary="===============8353204608473061841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 28 Oct 2026 06:10:38 -0000
-Message-Id: <179316783847.2070169.14579618055298314949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
+Date: Wed, 28 Oct 2026 06:14:41 -0000
+Message-Id: <179316808161.2071766.1151640227680027988@gitolite.kernel.org>
 
---===============1624056901173835629==
+--===============8353204608473061841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/ojeda/linux
+user: ojeda
 changes:
-  - ref: refs/heads/master
-    old: 27697a52e052a19b3cd0e834cfd972cb0508bc6d
-    new: 0f71e811af17b799262285fc556fae388fe5518a
-    log: |
-         640f7af94f598bacb3ddc34d7ba1d43adb62f8b6 Merge branch into tip/master: 'timers/urgent'
-         a023ef2b90215ae8089a49d1e96e95d5e353f063 Merge branch into tip/master: 'x86/apic'
-         0f71e811af17b799262285fc556fae388fe5518a Merge branch into tip/master: 'x86/misc'
-         
-  - ref: refs/heads/tip/urgent
-    old: ddd5075648cbe3866207f458e96a10f06ae0b5aa
-    new: 640f7af94f598bacb3ddc34d7ba1d43adb62f8b6
-    log: revlist-ddd5075648cb-640f7af94f59.txt
+  - ref: refs/heads/rust-next
+    old: d135ab453a7400a34930bdda1ef4bdc8acfac80e
+    new: 65ba8f34ec886ec72b2c07ddc8cf3d815c32869d
+    log: revlist-d135ab453a74-65ba8f34ec88.txt
 
---===============1624056901173835629==
+--===============8353204608473061841==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ddd5075648cb-640f7af94f59.txt
+Content-Disposition: attachment; filename=revlist-d135ab453a74-65ba8f34ec88.txt
 
 d7185220821fe22525a0eff916c690a05690134b fuse: ioctl: remove unnecessary comparison in fuse_setup_measure_verity()
 989db66818a40b48da6ff06329ff2f5d0c866f93 fuse: allow FUSE_SYNCFS for privileged userspace servers
@@ -592,12 +584,10 @@ c60ebc3208b9ce1d8915318347962f7ce1dbd07d Merge tag 'libnvdimm-for-7.4' of git://
 03973f7f3556b769a3dd5104f166614d446351c9 Merge tag 'fuse-update-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
 92fcf151766d7406a36f2ba363dc811024146212 Merge tag 'f2fs-for-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 83f32c773255720a661aa45d83e36278135f23f5 Merge tag 'erofs-for-7.4-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-f322d7f7ae56bce728ba03a387e35380bc4ad939 clocksource: Prevent immediate watchdog rerun after a delay
 7d1f84f1b94e79cb95d974ab3ec54cb3a4d64f5b Merge tag 'mm-nonmm-stable-2026-10-25-14-57' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 8a36f53fd5ec3eff01f1b637d42cbdc3821d0493 Merge tag 'mm-stable-2026-10-25-19-27' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 59a02493f3b68fd0ad68c661393f680bcca5a85b Merge tag 'trace-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 857c32a3b82c4f4abb7addee394c4dbfc79ac6db Merge tag 'm68knommu-for-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
 65ba8f34ec886ec72b2c07ddc8cf3d815c32869d Merge tag 'xtensa-20261027' of https://github.com/jcmvbkbc/linux-xtensa
-640f7af94f598bacb3ddc34d7ba1d43adb62f8b6 Merge branch into tip/master: 'timers/urgent'
 
---===============1624056901173835629==--
+--===============8353204608473061841==--
