@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 28 Oct 2026 16:11:30 -0000
-Message-Id: <179320389053.2554679.14551938597174801939@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 28 Oct 2026 16:41:44 -0000
+Message-Id: <179320570423.2576008.1608475683849441399@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/pending
-    old: 7b14c8f4a9615579b09cbcdc4515b65ae6124753
-    new: 407f3916cca45de3720a93703d28b047920e6230
+  - ref: refs/heads/bleeding-edge
+    old: f95680d1205afbcc23ce1b093b0b86fbc62c8aec
+    new: 5854d2ce4b0b9ccb37b154319d8283bad889a694
     log: |
-         407f3916cca45de3720a93703d28b047920e6230 wifi: ath10k: Stop unanswered temperature reads
+         4785d7fc44de81f850101df9f8627775a6010c5a Merge branch 'pm-cpufreq' into linux-next
+         5854d2ce4b0b9ccb37b154319d8283bad889a694 Merge branch 'linux-next' into bleeding-edge
+         
+  - ref: refs/heads/linux-next
+    old: 773a2c507e947c9ba4e4d77331eb8c916a39e237
+    new: 4785d7fc44de81f850101df9f8627775a6010c5a
+    log: |
+         8a702989677216489e471a6f27599da53f753567 cpufreq: stats: Fix potential out-of-bounds access in deferred reset
+         4785d7fc44de81f850101df9f8627775a6010c5a Merge branch 'pm-cpufreq' into linux-next
          
