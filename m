@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 28 Oct 2026 10:57:43 -0000
-Message-Id: <179318506332.2296591.14954588584605356520@gitolite.kernel.org>
+Date: Wed, 28 Oct 2026 10:57:52 -0000
+Message-Id: <179318507206.2296806.12327412320564940036@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,15 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-7.4
-    old: 55df18877471ade98ad0a1c12c95f78ba54ec5cc
-    new: e32773a86100a0a6e5e4b30c50b773de34b5c6c3
+  - ref: refs/heads/for-linus
+    old: d34a818a331f7e270fa9dc3db3d96f6a0d4fa7ab
+    new: 55df18877471ade98ad0a1c12c95f78ba54ec5cc
     log: |
-         7d357eae973a1e1933f81f55aa1b3b4e3064570f ASoC: hdac_hda: Allocate the private data at codec driver bind
-         08a44bde821d4fe22c0b6e63da04b3c59ac243a8 ASoC: hdac_hda: Restore the codec device type on unbind
-         f26c0d5f91d918bb66cbbc8916f41836adb38346 ASoC: hdac_hda: Balance the runtime PM disable in codec remove
-         6eba74479d729ec2552185fb87eccf0aa7989715 ASoC: hdac_hda: Fix module unbind/bind via sysfs
-         e32773a86100a0a6e5e4b30c50b773de34b5c6c3 ASoC: rt721: Remove invalid register defaults
+         55df18877471ade98ad0a1c12c95f78ba54ec5cc ASoC: qcom: sm8250: Limit RX digital gain to 0 dB
+         
+  - ref: refs/heads/for-next
+    old: d34a818a331f7e270fa9dc3db3d96f6a0d4fa7ab
+    new: 55df18877471ade98ad0a1c12c95f78ba54ec5cc
+    log: |
+         55df18877471ade98ad0a1c12c95f78ba54ec5cc ASoC: qcom: sm8250: Limit RX digital gain to 0 dB
          
