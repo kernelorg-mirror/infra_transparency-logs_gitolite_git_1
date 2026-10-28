@@ -1,31 +1,91 @@
-Content-Type: multipart/mixed; boundary="===============2355310962676351379=="
+Content-Type: multipart/mixed; boundary="===============7803108469913417953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 28 Oct 2026 05:06:29 -0000
-Message-Id: <179316398903.2020189.16687645002483907924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Wed, 28 Oct 2026 05:08:56 -0000
+Message-Id: <179316413650.2021155.1595449664912223759@gitolite.kernel.org>
 
---===============2355310962676351379==
+--===============7803108469913417953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dev-test
-    old: 81c40dbb0abca7f4768b3cec2fa05c54334dd493
-    new: fc1d3e2fa634205e2765bcab05d1a4e6f2b018b6
-    log: revlist-81c40dbb0abc-fc1d3e2fa634.txt
+  - ref: refs/heads/b4/module_ver_remove
+    old: 1adef56e1338133e959803c99866319460181d45
+    new: 3262f1213c3be98d968cde4d633731bc44f60c05
+    log: revlist-1adef56e1338-3262f1213c3b.txt
 
---===============2355310962676351379==
+--===============7803108469913417953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81c40dbb0abc-fc1d3e2fa634.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793164116 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1793164114-43907c8c4f87a95151d63f74fe3e6290193294e6
+
+1adef56e1338133e959803c99866319460181d45 3262f1213c3be98d968cde4d633731bc44f60c05 refs/heads/b4/module_ver_remove
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrhg1QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jt8QAIynoJz1eDdfHkwJhwk/
+E12167OTxY3BOc6nGKeIZB2mipT5VqQSLV3WrzcMPTt+XXJJV8Wj/EzLHhIjVWnM
+B/j9warfaxlHnnRhtrQL3QaZP4I17Z4DIUgMM5ozhGcTgK0JQp9ij6CsrmCOKdpl
+DHZRwzjOmfVza4Bb8oQ7t7gNQM/HzrFeyndt7vEvqWxiqE9A3RnAmffhiSDNpEQr
+PbviVckgws6j8qFtIZ5HYLbFXOzMNbz8hy6uG/Hr0tKcxYU275LpJb0Wa2fUhk57
+pXo7zdgxvxmEboZVmh32I1tuOxLRGhlBAgWOtiDoqv/EQTr2yblnAXXstob0YtOx
+FAVF3/f84eJ1db/ZMLhyvfZUvP7pgcerApD77btBfsgUdwu6cIKWONxib5a8/HLh
+7hCzfYSroeGkf/dnnhcGdghuX7PraO0fT1vdUB4MD2GfNri59Dgod0h582NBgNlC
+qN+cTg4weNx/6jXeZQvWcD4cD2i06PyhcNgYl1ZA0bSJy8YUQKipH9FzkBcFBQgS
+ZrfCpTZExKNyjZtQ1GzMBKYjzt1mobpvqNrwi6Y5lTkdlaXp/fKgVj1EVhKGCuUN
+LMl//JgX8kz0o4Yy+FKNyl2NHp5tsN76PEBNG+jD+jew56pfpAZMcynU05Divvth
+uYxIiarpDoRDEk+PMZbN2DHl
+=2npM
+-----END PGP SIGNATURE-----
+
+--===============7803108469913417953==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1adef56e1338-3262f1213c3b.txt
+
+6703ab347f4b7c228bbe391dafbe57b1a62b2997 ftrace: Do not leak a module's empty page group
+c738829502be3f71500b9e70e04f8eee49734d95 ftrace: Let ftrace_call_adjust() reject a patch site
+bb4834d5242c4829c0d8467ee68eb25a9bafc38d ALSA: pcm: Protect channel-map reads against runtime detach
+e1f339ff3b83857b93baf8b88186275a413d445e ftrace: Initialize modname and offset in print_rec()
+3db1f64a84f982f14e3e82a38f61f062cf36a4c3 dt-bindings: media: Convert hisilicon,hix5hd2-ir to DT schema
+4b27670ea25b955b710021151471cb252240b1e0 nfsv4/pnfs: use the MDS authflavor for data server connections
+fde27289503beabe7e0856dac164a5ced4be0342 pNFS/flexfiles: make pg_init retry loops killable
+8c13019a785d6adb1efd797ac03903758abfd7a8 pNFS/flexfiles: don't report an interrupted DS connect as a DS error
+7fa2ad367abe6d3155daefb57331e7fce1a17afd NFSv4/flexfiles: fail I/O to the data server once a lock is lost
+62e14699c4dfc98c514a44bf780678cf8622fc08 nfs/localio: pin UUIDs during global invalidation
+67bb1ad9a517bedf1e1599fe5448620b9f38bf2a io_uring/poll: don't loop on HUP with multiple references
+98787d3fa4e99564d2b2bc21255b21f670c450d0 io_uring/waitid: prevent cancel reference wrap
+c8132247fe4df52e9982d74c986bb199d792b85b dt-bindings: mfd: db8500-prcmu: Deprecate EPOD regulators
+d5acef12e819c1627c8bf6a0325845ab39d8c99d spi: Merge up fixes
+6b8c12d354dfa9c80d82eea8c0c45d331a28be11 PCI: rcar-gen4: Add missing PM ops
+31fd009c28b1df5f9ecdef5283ce497e701aef80 Merge tag 'asoc-v7.4' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+fc49516fbffd0cbbf2afded6743f81342f2a0cfd ASoC: aw88399: pass firmware name as argument
+3e3a0bdf6a645cd6e5461d22ab6607303975606a ALSA: hda: aw88399: use SSID-specific firmware name
+a7d4d780f34b9e43eefab6a7e6c9f4101f2c144e ALSA: aloop: Keep shared timer callbacks alive through close
+762ef425cf0ac9c4b9e9e61e0da0950e16e6fbea ALSA: aloop: Keep the timer source alive until card release
+a4ef328ce3b3ab1bf63c6350e890f13b9b25e3f1 ALSA: hda/realtek: Enable mute LED on HP Pavilion 15-eg2xxx
+2dee91ee94eec85d09c13c7ca83e3005906d3732 regmap: Merge up fixes
+bdfc6433b2d9433edefa17c5c779fe658356bd3b zloop: print device that had errors
+00c2c34ead7e84d6594e20fa37a3c503823f5756 block, bfq: initialize active lists for all actuators
+55f17779d649ad0c769d154d649e8e6585ae23d7 bpf: Check exclusive maps once the program digest is final
+c2e56c88f14ae7d0493f94e44b4bba9cb535fe81 selftests/bpf: Bind an exclusive map through a continuous fd_array
+b1eaee8b9a95897a5df843c623aa55d9585cd9d8 libbpf: Keep the fd_array fill index out of bpf_program__clone()
+d837f008bfe6ee5511ad908e0e939e197b62f580 selftests/bpf: Clone a program that calls a module kfunc
+10832993c9419719c656b2ddc93161faedd5fd57 bpf: Add the __arena and __nullable BTF type tags
 bc7c2824682be8dda2e0aa43b08aff822b8fca0d bpf: Recognize __nullable on pointer members of kernel structs
 7efe1d4e11395e31c49122f0052b57f0513c7e83 bpf: Turn loads of __arena pointer members into arena pointers
 9278bedb22deb16f5c7084be5a7791f62520b939 selftests/bpf: Test __nullable pointer members
@@ -118,7 +178,6 @@ ada21d495ccedc37e165d3c7da12a9ae4160ad81 Merge tag 'vfs-7.4-rc1.coredump' of git
 a1d4585be12feb09b3e66d312ceb200234164660 Merge tag 'vfs-7.4-rc1.file' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 00b04f4495c354cad82f96d41947aa70f71e2cc4 Merge tag 'vfs-7.4-rc1.idmap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 27dd2772e6c62cf0627d97fe03950710df334cf4 Merge tag 'vfs-7.4-rc1.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-5a9745611d621ea160854936eb6370e610887bfb fuse: resolve extent maps in O(1) when possible
 0ddc887102d8a13ce85041a41c45f2053b483119 Merge tag 'vfs-7.4-rc1.kernfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 96a377ba007a6a1ee9fa9f0ba48812fe9284f0ce Merge tag 'vfs-7.4-rc1.lookup' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5c8590157b85d4030c40de6c00f9739a676ba8b0 signal: use scoped user access for old-style sigaction
@@ -856,11 +915,8 @@ f4377bf85887f57b59abb5479f7660a81ffe4449 tipc: fix broadcast sender hang on last
 b713b69cf79ef52b1737a1a6c09df2522ff875af ntfs: fix u16 truncation of the update sequence array count check
 2ff3730998b015b5b0a3f28330bee16c648dd114 smb/server: prevent file publication after tree disconnect
 171df27077fb49b4af2c53ad2cedcd0e39664fe8 ksmbd: fix parent dentry lifetime in directory enumeration
-bcbd808652e127a704c21fa44d908eb56cbcda03 block: reject dma-bufs larger than 4GiB
-fd13f31ac62abac4df2166bb0a6fbff53b288e0c nvme-pci: detach dma-bufs only on removal
 cc53a1e0981bf296479d10fd646f73e28ed5fccd Merge branch 'for-7.4/kobject-release' into for-linus
 47193113641e5e1f9b5758b73d7b7a0273acb836 coco/tsm: Update maintainership
-45b716456dd99488a0cef58482120dc0474aa696 io_uring/dma-buf: don't fail fixed buffers without dma-buf support
 e8ff9af18e80279b80cf7063244db91b12f5e27e dt-bindings: usb: dwc3: Document ST STM32MP2 DWC3 xHCI USB controller
 1a2c35c49cc7c6be860038b8442b52424a8f123c Bluetooth: btusb: disable by default Qualcomm multi-subsystem
 b0e1eda687a2f19a8fa3958303fbb45d493ea46b Merge tag 'pwm/for-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
@@ -994,8 +1050,6 @@ a8c2facb7b2cef4d110e3b25037bc29703485c71 Merge tag 'pinctrl-v7.4-1' of git://git
 9628ee0c2219daaa6374b0c5f5a5c0d55e0e263b Merge tag 'gpio-fixes-for-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 89d2d7bf0698b7fdfc914bfd219e739e9308d332 Merge tag 'efi-next-for-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 21a7f44fd0765fcc5194130b28767786eba1d1e7 Merge tag 'devicetree-for-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-7259fb011c14977661b7a4680886b466a3089ea7 erofs: hold real inodes for shared files
-52dceb88082b4c7983d1c8c7de1c181f018055ac erofs: fix metadata reads at the end of file-backed images
 9206d6c40b52fab9bd59e8a8f7dd2d9a68d71a21 Merge tag 'for-linus-7.4-ofs1' of git://git.kernel.org/pub/scm/linux/kernel/git/hubcap/linux
 47439bb1635e8dd9245e876c2046b66a9b6f9400 Merge tag 'nfsd-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 9e089e670e9ad1caf4a5b2b63e01b2dc076efbe3 Merge tag 'nfs-for-7.4-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
@@ -1015,40 +1069,17 @@ ed2bc044a7c8c9759bbe1165b8e487d07dd53b73 Merge tag 'timers-urgent-2026-10-25' of
 2270aa5ed5f7981082e4fae4103b8930e0ba106f Merge tag 'mips_7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 44dc57ed1e77a23248ef28732486f4b7e9468cf7 Merge tag 'sh-for-v7.4-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 6b4b543fa18757297ac756a6fe6e64f506b7844a Merge tag 'parisc-for-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
-aafea970fb04633e22c7ad74cba4caf563c6d6a9 erofs: fix disallowing superblock_share if device= is set
 d6bbdb67a4b9f2366debd8b5b05b1822490982ef Merge tag 'cxl-for-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 b2c505e0ae0ba4b259cad56c87e630dfdf58dcb4 Merge tag 'tpm-v7.4-rc1-rebased' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 7313d94c67daf04bc1b6ee39b492d2795fe2f3da Merge tag 'hwmon-for-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 0cc3ad8f4d2e2009c2005278c754caf7c07fe0a4 Merge tag 'driver-core-7.4-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 25e7ab89f4774b0f842cee0e8a20c11f755924d5 Merge tag 'i2c-7.4-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux
-bf56861216337c839dce3c8bb1c4be96d30ca716 fuse: handle extent map files in fuse_passthrough_fadvise()
 fb2c3f44a7e14627b9dca8e6b568e6cdc234b40b Merge tag 'ata-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 d857e1f3faf998f2614dcdb52a90a27bc83bd71d Merge tag 'mfd-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
 5b93dc1c0c61fd0fe575cb473e9e25f929fda509 Merge tag 'leds-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/leds
 d135ab453a7400a34930bdda1ef4bdc8acfac80e Merge tag 'backlight-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
-209108a5456171ab430e25b54b2dfe083455bfb6 erofs: drop unnecessary .read_folio() checks for file-backed mounts
-ed02f4f7ad9b5dabae2118e642cbbafe7dc9bb62 Merge tag 'for-7.4/io_uring-dmabuf-20261023' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
-c60ebc3208b9ce1d8915318347962f7ce1dbd07d Merge tag 'libnvdimm-for-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
-62c457528529cdcfa32bc52b331ceca10f3937b6 Merge tag 'vfs-7.4-rc1.keyring' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-03973f7f3556b769a3dd5104f166614d446351c9 Merge tag 'fuse-update-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
-92fcf151766d7406a36f2ba363dc811024146212 Merge tag 'f2fs-for-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
-83f32c773255720a661aa45d83e36278135f23f5 Merge tag 'erofs-for-7.4-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-e1a8006558b2b043a01b028ac7c48a7b1e9c31ba f2fs: flush devices when a sync checkpoint is skipped
-c0f95eca9c7daf0eeaeecfdb55c4863bf913466c f2fs: extend folio state for large folio write path
-f80e8bdd2d30c400d85138c49152482681054d55 f2fs: carry subpage offset and count in write IO
-2da5d75aa32913a3e0201dc8702765831e6dd0f1 f2fs: support regular file buffered writes on large folios
-ec36951a2b12e7302afd2f10aa7bdb18b9809030 f2fs: support atomic file large folios buffered write
-346c8f4766c27e88c61d0928405f5a1bca0b6373 f2fs: support large folio writeback
-5b27e6270cba84cc58e1369929ab09b91003d8e5 f2fs: account large folio dirty data at block granularity
-26c4a583a79b4234a20f4b00c1886c978a0163bb f2fs: prepare mmap write faults for large folios
-5cd78e59779bb8a894ea7af2e7319513dbdc6232 f2fs: make GC migration large-folio aware
-64d301c91ea72dc825405a4ba10f5a05dd191e09 f2fs: optimize small block size large folio read
-b350214b080f5704d2e4a8fb970da5fc1ee3157f f2fs: support partial uptodate large folio read
-a54e739e8a5aa101ea180ae1e8e69eae6fc6f482 f2fs: handle partial truncate of large folio dirty subpages
-9d159cc8836f1eafb2bd7b8bd93095c42cbc64f8 f2fs: fix zeroing paths for large folios
-3fee9c9ce4ae22ea4232d9ce8e82b47fe93b057d f2fs: handle block cloning within the same large folio
-c5a5c7fd01c620ca11b49b712c53bdb686b8cdc6 f2fs: allow large folio support to writeable files
-55a40aec112954cb8a56ebb637f3d74d2498f96c f2fs: make compressed files compatible with large folio
-fc1d3e2fa634205e2765bcab05d1a4e6f2b018b6 f2fs: do f2fs_zero_post_eof_page for all the time
+13cda99aa80e222daeb663fa6cbbc97ad555f0c2 module: remove MODULE_VERSION() and srcversion
+2efa0bd7317cae3c8ae17940ac2e87d6f7d10e34 module: remove MODULE_VERSION()
+3262f1213c3be98d968cde4d633731bc44f60c05 module: remove srcversion module attribute
 
---===============2355310962676351379==--
+--===============7803108469913417953==--
