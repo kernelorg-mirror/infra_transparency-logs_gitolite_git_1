@@ -1,56 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============6137478153274348498=="
+Content-Type: multipart/mixed; boundary="===============4964442800908472283=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 28 Oct 2026 14:29:05 -0000
-Message-Id: <179319774527.2467527.12357859107825673352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Wed, 28 Oct 2026 14:31:18 -0000
+Message-Id: <179319787835.2470685.16424752937878548069@gitolite.kernel.org>
 
---===============6137478153274348498==
+--===============4964442800908472283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 4d3a104eb27d47cc75db0ff93ccdc21fb300bc8d
-    new: 10c837d542aa043e0b2ec8834d5e15c6b2f6525e
-    log: |
-         10c837d542aa043e0b2ec8834d5e15c6b2f6525e 6.1-stable patches
-         
+  - ref: refs/heads/work.mount.trap
+    old: 0000000000000000000000000000000000000000
+    new: 9589f1ffb88d2dbc277233c461bc5c6734efb3fc
 
---===============6137478153274348498==
+--===============4964442800908472283==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793197744 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1793197742-c6f107121481e0cd4696680be7354b113671e4ef
+pusher 0x91C61BC06578DCA2! 1793197877 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+nonce 1793197876-0ecc5343780a24b2da47adbc222196fb629a6905
 
-4d3a104eb27d47cc75db0ff93ccdc21fb300bc8d 10c837d542aa043e0b2ec8834d5e15c6b2f6525e refs/heads/master
+0000000000000000000000000000000000000000 9589f1ffb88d2dbc277233c461bc5c6734efb3fc refs/heads/work.mount.trap
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmriBrAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ugcQAKhNzRWRr5Elv24zH1ZJ
-rW0fy8mIVS7zX09RoiG2rL7g059AHijfkCci/WKz3bAHRcRTEfVYtpYKmEGTVEtq
-F+irhyjEUP551MHGHY+g7NpR0zrkHV4vnwGjoOWyymRy1cNHug0gzRGBPsddioWG
-6EWOYq+YttapQmNwS7GvXSM6RQaTNIpy7LxyjShkctcpudhky8JBV1LWsoUWxoDu
-BS6R+Qk4HPDBDEq2letMeobSaF+dLLT0/dmG/+BmAF7ESnFVlP7FZKCpOE8fWTAv
-KydtxTMhUryJzdvL8mli+oV0sOQgIOiUipGWzs0RrNu4oEcD4PueckcX78IuXmDZ
-va3vXUcBiXg/NAOKIfTs2n3am54Izm6dfaJJOXbld2uy/AGZ6I51t26bWcNuuWwS
-FSOizoi1TeSM2E5ddRvtA3yxHZHw14gaxdFsw5ycygTR16jRk7RB+kkvd9oBNv2O
-fUzAuetZgO2GzM7tAzAH6CR4n/rcyfzbV8Vj4OZ58JtG38VQjB6BqGIC65J5oYXv
-FCfCiN7HxwdDi5xMjebhxV5225J0JvVvsTfzC4TF7Y9ymo4Dmjt56tNrdQjyWI4P
-+ez1UAc+Uzn7YM4z50OxcsPMXCZGZvwQnWwSVwRfaNnyzu4GL9L7P0TlQ3dTrpZP
-n5Ovtn51RuoZsUV+zGUnciEV
-=cOru
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCauIHNQAKCRCRxhvAZXjc
+okg5AQCxOU8354KLbsdZRl1+htklTkrZSnFhxGXOUydQQfw6aAEApb5TA2kV09AN
+3preaH7fWmvTjTcD2J+5mmUo1ePGEwE=
+=QWAw
 -----END PGP SIGNATURE-----
 
---===============6137478153274348498==--
+--===============4964442800908472283==--
