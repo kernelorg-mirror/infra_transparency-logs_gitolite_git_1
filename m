@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5885289818925950307=="
+Content-Type: multipart/mixed; boundary="===============0618188158981263620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 29 Oct 2026 16:22:18 -0000
-Message-Id: <179329093857.138594.4768487635595654309@gitolite.kernel.org>
+Date: Thu, 29 Oct 2026 16:22:20 -0000
+Message-Id: <179329094096.138793.16621336468871489565@gitolite.kernel.org>
 
---===============5885289818925950307==
+--===============0618188158981263620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 2cffcf1aeabb187e4f08fe4f5363128a3c45d786
     new: dc4dd12f80e499dc034710cd8195489abcf0b059
     log: revlist-2cffcf1aeabb-dc4dd12f80e4.txt
 
---===============5885289818925950307==
+--===============0618188158981263620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -102,4 +102,4 @@ c10f3420d59859df107838aa97b49357616d9b47 eth: bnxt: free XDP frags when xdp_do_r
 59e72644a7e697fdaf3494e8df8af9ab2b2ba31d Merge branch 'eth-bnxt-fix-rx-buffer-leaks-under-oom'
 dc4dd12f80e499dc034710cd8195489abcf0b059 net/packet: check TX_RING fragments before memory accounting
 
---===============5885289818925950307==--
+--===============0618188158981263620==--
