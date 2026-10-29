@@ -1,19 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 29 Oct 2026 15:40:22 -0000
-Message-Id: <179328842210.107092.5532513438540824999@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Thu, 29 Oct 2026 15:49:51 -0000
+Message-Id: <179328899110.111965.15924384952301020270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 944812cf2b775193097bd4d1f1dd96ab928d1d97
-    new: f8e6c07aa05170165c4fefdf044310d4d48cc1bf
+  - ref: refs/heads/for-next
+    old: 06467a497459841f34eb9f0d2f43e6b6e8370187
+    new: ac4f8167021fc4c95f832b4a62d514c21711a179
     log: |
-         f8e6c07aa05170165c4fefdf044310d4d48cc1bf NFSD: Don't dereference cp_clp in async COPY tracepoints
+         1c8b49851543f41fc8bb18bcd1f15cc93d14b530 io_uring/timeout: count cancelled timeouts in cq_timeouts
+         3e3aebb7570ccdde5cc49c9bfc8fd3a436b71b0c io_uring/net: fix multishot recv length limit accounting
+         ac4f8167021fc4c95f832b4a62d514c21711a179 Merge branch 'io_uring-7.4' into for-next
+         
+  - ref: refs/heads/io_uring-7.4
+    old: e18504a4d378b4c9e1ee522ae7fc18cac8b1fc82
+    new: 3e3aebb7570ccdde5cc49c9bfc8fd3a436b71b0c
+    log: |
+         1c8b49851543f41fc8bb18bcd1f15cc93d14b530 io_uring/timeout: count cancelled timeouts in cq_timeouts
+         3e3aebb7570ccdde5cc49c9bfc8fd3a436b71b0c io_uring/net: fix multishot recv length limit accounting
          
