@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7395225921577644741=="
+Content-Type: multipart/mixed; boundary="===============0947256964343767401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Thu, 29 Oct 2026 12:19:41 -0000
-Message-Id: <179327638182.3517352.14444012528353662990@gitolite.kernel.org>
+Date: Thu, 29 Oct 2026 12:20:04 -0000
+Message-Id: <179327640474.3519573.3947590119009099160@gitolite.kernel.org>
 
---===============7395225921577644741==
+--===============0947256964343767401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 70885ac1d504e8737c640ea0627f2ba1510b0605
-    new: 1cf2e5910bc0ccbca97e1acfc96459e43685e12b
-    log: revlist-70885ac1d504-1cf2e5910bc0.txt
+  - ref: refs/heads/export-net
+    old: 0a5bd81e84cc1de2af71f575203a983dba6a7472
+    new: ec6cd53ce0d83756bf2005fd8765b9ba0b7d1231
+    log: revlist-0a5bd81e84cc-ec6cd53ce0d8.txt
 
---===============7395225921577644741==
+--===============0947256964343767401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70885ac1d504-1cf2e5910bc0.txt
+Content-Disposition: attachment; filename=revlist-0a5bd81e84cc-ec6cd53ce0d8.txt
 
 94cea342e8915812b45f93c56e134041c7fdb4d7 net: sched: em_ipt: validate hook value from netlink
 b4aac29a21d96974ae6e6d8e7b1b01e1f95c4348 Revert "selftests: net: packetdrill: add tests for advertised MSS with PMTU exceptions"
@@ -68,42 +68,14 @@ fb3e026ae548e3dd42ed3ef6420d33258dd91286 Merge branch 'octeontx2-pf-fix-ipsec-tr
 85b4bc79dde77aadda0929a22f3532b208a3e1f8 r8152: Use BMSR to detect the link state
 6815a2513effd1c6c0bf9c2f1c8c459e597d985d net: rnpgbe: Accept link-down events without speed magic
 d7314b51341c037973ce022f12c6009fd07b021e tg3: Invert restart quirk logic to restrict SNP power-down bypass
-380c13736e1589f32b07cdd97f03bb3ba71177b8 DO-NOT-MERGE: git markup: net
-741332757832b6db482afe89d4c7be66412bf4f6 DO-NOT-MERGE: git markup: fixes other trees
-ad943382e2cd2aaa5af7e1547e1ab424b29851d8 mptcp: push pending data after a sendmsg copy fault
-db6be5d84ad7c276823e6da545108f28ee3e6099 DO-NOT-MERGE: git markup: fixes net
-2cc63f56a87726e248c0a25720c358d3caa4376f DO-NOT-MERGE: mptcp: add CI support
-454aa5937ea8ec7a0a6f6bb799ef8004a41fafcc DO-NOT-MERGE: git markup: end common net net-next
-4406391ae575e4c08de46d40a2cb3058ee90866f TopGit-driven merge of branches:
-b1f14f0fd8af4de30035ce5aaef814d1dcba4522 DO-NOT-MERGE: git markup: net-next
-2de20d853bc4b12ee4bf65e7cd336e541843bf72 DO-NOT-MERGE: git markup: fixes net-next
-64807d502b2704dd111e450d7f06958ad9e003ee mptcp: pm: init and release mptcp_pm_ops
-caa09d0b7e10f836c2ca8dc4390c124c20df3b31 mptcp: pm: add get_local_id() interface
-31733651c876564dce1ea4bc3064017ce8f741f0 mptcp: pm: add get_priority() interface
-2c2f19fd04dde2b3a21d5e267af3db2b1ebc9be9 mptcp: support MSG_ERRQUEUE on the parent socket
-11e3ec1dc9eeeaef7a184641738c9dc67102b7e3 mptcp: sockopt: factor inet_flags propagation into a mask
-1256525974fcf0fef0b72f91bd2120045689b30d mptcp: propagate RECVERR sockopts to subflows
-cb6d7b062dd686a34a9e37c244cf91fe8bd69f42 selftests: mptcp: cover IP_RECVERR sockopt propagation
-048f4c75987823f35cbdf0eb2227000e10e394eb mptcp: add msk_is_mptcp() helper
-d52d6cc7ba48bf8d09a343bd237a50904db2a55d selftests: mptcp: join: dump stats with right title
-d7a74bc8172e71285fe7d87b54dd80d825aedd05 selftests: mptcp: sockopt: pass total bytes to do_getsockopts
-298b8593f02ec1fa7e3a06f9f63050df66065347 mptcp: annotate lockless access to msk->scaling_ratio
-f31983ee607d57324f45c11947d8e564b70286c6 selftests: mptcp: sockopt: drop unreachable FIN accounting
-3d63f4f3d37bf313fe85453c89712b01b1621bc6 DO-NOT-MERGE: git markup: features net-next
-835b2a9ec9039f468fe5ac954cd478252c11828e DO-NOT-MERGE: git markup: features net-next-next
-acf3636f3fece9c53c0635bcef8a4bd135fab792 bpf: Add mptcp_subflow bpf_iter
-722530df15bbd4e668e6379d07aa0d2d220233e4 selftests/bpf: More endpoints for endpoint_init
-8bcb63fc9c68207629de5ecc26643eb3c0f2d051 selftests/bpf: Drop cgroup_fd of run_mptcpify
-95a232f100fe73bd2d68ccc1fd30845aa4e91e9a bpf: Add mptcp packet scheduler struct_ops
-cb239a563eff391d3aad99a8833e0486cc825d3d bpf: Export mptcp packet scheduler helpers
-8fab6ffb29ba0a6444bd01824b501677970b98d9 selftests/bpf: Add bpf scheduler test
-483793babce3968010640177f68275b1cb1b7282 selftests/bpf: Add bpf_first scheduler & test
-a19b55054865f408e37f44c43b3e6a9f95900ba9 selftests/bpf: Add bpf_bkup scheduler & test
-5c32fb5769e97a385fc11fee7c9d6eb08aca4e12 selftests/bpf: Add bpf_rr scheduler & test
-4df5464e647c914df01095c9a6b124918a2b744c selftests/bpf: Add bpf_red scheduler & test
-33eb5e9917a6d85f312c1a6fd302bff94b92aed0 selftests/bpf: Add bpf_burst scheduler & test
-543e6676527d03a1a0c7ba1eb17ca2bf1341243c DO-NOT-MERGE: git markup: features other trees
-e3796b39a79f021888af57499b74c3267054ebdf DO-NOT-MERGE: mptcp: improve code coverage for CI
-1cf2e5910bc0ccbca97e1acfc96459e43685e12b DO-NOT-MERGE: mptcp: enabled by default
+e6d7e9ce50fc8f9788b2a8f775d9518f1cb82e60 DO-NOT-MERGE: git markup: net
+08acb17c2ca035f160aa67e221c812ea2c5d444d DO-NOT-MERGE: git markup: fixes other trees
+ded9ed4e6cb3d81f041c070bdfad6ccea4cde3d6 mptcp: push pending data after a sendmsg copy fault
+043a24bdee6307ba9781d96c5e007a5563371abc DO-NOT-MERGE: git markup: fixes net
+77509e0a10f064b89b49d1cb73e06c6d51210d76 DO-NOT-MERGE: mptcp: add CI support
+f5fc1c2a914173152b1e0488a9b7d4a847390360 DO-NOT-MERGE: git markup: end common net net-next
+3dff604e3966187fcf934488de2af3f64958abea DO-NOT-MERGE: git markup: fixes net only
+432eb85d65703d0927bdbc146e166a921105a488 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+ec6cd53ce0d83756bf2005fd8765b9ba0b7d1231 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============7395225921577644741==--
+--===============0947256964343767401==--
