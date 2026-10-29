@@ -1,20 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Thu, 29 Oct 2026 08:19:03 -0000
-Message-Id: <179326194324.3334528.15930945370869698191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Thu, 29 Oct 2026 08:37:11 -0000
+Message-Id: <179326303110.3348430.12694333090377413146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/smb
-user: linkinjeon
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: 67cc25f7307cf3acfa8814c5bedfaa796426644c
-    new: af8c72f6550744fe948ef2dbc7ab8739c149aab2
+  - ref: refs/heads/main
+    old: 79678159592b339286c4d61fe42e1450327a13ae
+    new: 6b0371afc5329d7f07cc4f1ff4c5e10b598fadf1
     log: |
-         cbb5de730cf02d420552c8dca520b2b54679cb3b ksmbd: enforce the read-only share flag when creating a stream
-         af8c72f6550744fe948ef2dbc7ab8739c149aab2 ksmbd: revert fsids on durable reconnect and replay failure
+         5e0ab7e17c55aba1b0f1923ab5a9bd3342fdfe8e pylibfdt: Fix FdtSw.as_fdt() when buffer is nearly full
+         6b0371afc5329d7f07cc4f1ff4c5e10b598fadf1 pylibfdt: Add subnode/property iterators and get_mem_rsv_list()
+         
+  - ref: refs/heads/master
+    old: 79678159592b339286c4d61fe42e1450327a13ae
+    new: 6b0371afc5329d7f07cc4f1ff4c5e10b598fadf1
+    log: |
+         5e0ab7e17c55aba1b0f1923ab5a9bd3342fdfe8e pylibfdt: Fix FdtSw.as_fdt() when buffer is nearly full
+         6b0371afc5329d7f07cc4f1ff4c5e10b598fadf1 pylibfdt: Add subnode/property iterators and get_mem_rsv_list()
          
