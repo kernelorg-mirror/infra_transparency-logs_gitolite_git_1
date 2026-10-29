@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
-Date: Thu, 29 Oct 2026 15:03:06 -0000
-Message-Id: <179328618630.76894.3324760611573307264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Thu, 29 Oct 2026 15:10:41 -0000
+Message-Id: <179328664184.83113.18340176154399653012@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/linux
-user: david
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/tags/mm-next-fixes-2026-10-29
-    old: 0000000000000000000000000000000000000000
-    new: 22dfea8415eeefdd5cbe922ef2db341b5fb14299
-  - ref: refs/tags/mm-next-2026-10-29
-    old: 0000000000000000000000000000000000000000
-    new: 352f6768ac499ba36d4dd14dd3c138c83ee4836e
-  - ref: refs/tags/mm-test-2026-10-29
-    old: 0000000000000000000000000000000000000000
-    new: 3fe442f35c070c813c69be8ef193b0e0eb9e7c1b
+  - ref: refs/heads/usb-linus
+    old: c339f4010dea8b0d754f84ace70cd1b089878ef8
+    new: a3d43b39032cc5565a5693a10c581844342372cd
+    log: |
+         ca783a2d55b3361493917ad4a3573715ba902503 USB: serial: garmin_gps: validate packet data length in nat_receive()
+         a3d43b39032cc5565a5693a10c581844342372cd USB: serial: sierra: validate URB length in instat callback
+         
