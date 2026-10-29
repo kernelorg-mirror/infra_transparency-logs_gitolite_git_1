@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8314385353611250319=="
+Content-Type: multipart/mixed; boundary="===============7728793943861662644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 29 Oct 2026 08:14:48 -0000
-Message-Id: <179326168898.3330854.7894240361207561710@gitolite.kernel.org>
+Date: Thu, 29 Oct 2026 08:15:06 -0000
+Message-Id: <179326170686.3333128.2719087705079613647@gitolite.kernel.org>
 
---===============8314385353611250319==
+--===============7728793943861662644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: a3d21bcd11662f575f39b0a0e85164d177f8cc10
-    new: e83a8a7597c0b7346ab448ae611e750f6d97194f
-    log: revlist-a3d21bcd1166-e83a8a7597c0.txt
+    old: e83a8a7597c0b7346ab448ae611e750f6d97194f
+    new: 304878ac70de5652709e3d10b589d67be7eccd5f
+    log: |
+         50d3dafdd4ff510c5f9a61ca109fd0246a7d320b Merge branch into tip/master: 'irq/urgent'
+         7dda0bcb08bf15dae6590d5fb827d798281383bf Merge branch into tip/master: 'timers/urgent'
+         3985e7b8e05bf36af3188c5c6e268a42ed9b6bac Merge branch into tip/master: 'x86/apic'
+         304878ac70de5652709e3d10b589d67be7eccd5f Merge branch into tip/master: 'x86/misc'
+         
+  - ref: refs/heads/tip/urgent
+    old: 1197a1f3a492fe829000ff89a6a71e4e1dadc246
+    new: 7dda0bcb08bf15dae6590d5fb827d798281383bf
+    log: revlist-1197a1f3a492-7dda0bcb08bf.txt
 
---===============8314385353611250319==
+--===============7728793943861662644==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a3d21bcd1166-e83a8a7597c0.txt
+Content-Disposition: attachment; filename=revlist-1197a1f3a492-7dda0bcb08bf.txt
 
 f559ef6316971fe39dc5f5edd6a483429ba03768 remoteproc: qcom_q6v5_adsp: Fix double jiffies conversion in adsp_start()
 6c4fbf1ce49390aaa9db84cdaff5cf18cae46da8 rpmsg: ctrl: use kernel-doc format for ioctl macros
@@ -705,6 +714,7 @@ e191b05f321b064a973399b7cdc003c0de89e5b9 Merge tag 'phy-for-7.4' of git://git.ke
 ae3690eb2a994dd74a43639d6bf800b51f18b48c Merge tag 'dmaengine-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
 d738fbd1a8b9d82ef5ea0d54a9e2b3ab7f1c24dd Merge tag 'media/v7.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 c339f4010dea8b0d754f84ace70cd1b089878ef8 Merge tag 'platform-drivers-x86-v7.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-e83a8a7597c0b7346ab448ae611e750f6d97194f Merge branch 'linus'
+50d3dafdd4ff510c5f9a61ca109fd0246a7d320b Merge branch into tip/master: 'irq/urgent'
+7dda0bcb08bf15dae6590d5fb827d798281383bf Merge branch into tip/master: 'timers/urgent'
 
---===============8314385353611250319==--
+--===============7728793943861662644==--
