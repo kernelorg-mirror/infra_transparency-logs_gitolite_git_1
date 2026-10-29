@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3746724123411681532=="
+Content-Type: multipart/mixed; boundary="===============7869927197746655269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 29 Oct 2026 00:50:51 -0000
-Message-Id: <179323505155.2947193.18010331638942614131@gitolite.kernel.org>
+Date: Thu, 29 Oct 2026 00:58:36 -0000
+Message-Id: <179323551624.2951970.12354757613005487588@gitolite.kernel.org>
 
---===============3746724123411681532==
+--===============7869927197746655269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
+  - ref: refs/heads/tmp.perf-tools-next
     old: e74880764bf94b738102b4b6b6e8304d0c8375d3
     new: 4626d370ae89b8af4d46a45372b269f926ec662d
     log: revlist-e74880764bf9-4626d370ae89.txt
 
---===============3746724123411681532==
+--===============7869927197746655269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ e0e4470aa53c0022418290fb551c21da4bd50209 perf print_insn: Include sys/types.h fo
 aa0fec5853eea1eca4f0bd9fd26e0a9d25e1c109 perf pmu-events: Fix jevents.py type annotations for mypy 2.x
 4626d370ae89b8af4d46a45372b269f926ec662d perf machine: Fix NULL deref in thread__resolve_callchain_sample()
 
---===============3746724123411681532==--
+--===============7869927197746655269==--
