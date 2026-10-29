@@ -1,122 +1,79 @@
-Content-Type: multipart/mixed; boundary="===============8712715913445099459=="
+Content-Type: multipart/mixed; boundary="===============6617809966999990285=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 29 Oct 2026 22:27:29 -0000
-Message-Id: <179331284935.411372.15857683511707782873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 29 Oct 2026 22:42:59 -0000
+Message-Id: <179331377919.421922.12128281289912932148@gitolite.kernel.org>
 
---===============8712715913445099459==
+--===============6617809966999990285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/jch
-    old: d69911ffb0156999980a957a3d77fbc9c1d8fa3e
-    new: 83a80e57e9fa68a7eb38d10fde5d1366e6134549
-    log: |
-         6d714fe3a9f54bc368376d152115550402062b23 midx-write: skip writes with no object entries
-         357d70ce460e62d192c2cf010faac372d0cbe03d Merge branch 'pp/midx-write-skip-empty' into jch
-         a2f0497eb19469ced1555c51994c30cfd222d668 Merge branch 'hn/range-diff-matched-only' into jch
-         8b83550e54bb684231e53b9610cc1d5edbeb72ed Merge branch 'dm/libsecret-explicit-load' into jch
-         83a80e57e9fa68a7eb38d10fde5d1366e6134549 Merge branch 'pw/stash-change-check-only-once' into jch
-         
-  - ref: refs/heads/seen
-    old: 8dbeece73d6ef67017f0b23ae5aa567efad683c2
-    new: f777d538253b83fee5b87e5c1d36839c6b6b90d5
-    log: revlist-8dbeece73d6e-f777d538253b.txt
-  - ref: refs/notes/amlog
-    old: ac69cf1cc3418602fe54e98afd6f20274263fd96
-    new: 91d4ae7fae4cf0c21e4a780db4c9b61aa4f52b7e
-    log: |
-         9c7c0544b4e1c903fa4a5e37824c97553d91e03b Notes added by 'git notes add'
-         b4e8ec5497cb19be3649a746a3d15ed26317c196 Notes added by 'git notes add'
-         bf79ee7f5665541643427206486afa4aa7952062 Notes added by 'git notes add'
-         91d4ae7fae4cf0c21e4a780db4c9b61aa4f52b7e Notes added by 'git commit --amend'
-         
+  - ref: refs/heads/master
+    old: fb7bd3a2aad70a76232a7168a505386d0a1396af
+    new: 9c7e3d59107e2daf204bf6bf87b6c448ca89defe
+    log: revlist-fb7bd3a2aad7-9c7e3d59107e.txt
 
---===============8712715913445099459==
+--===============6617809966999990285==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8dbeece73d6e-f777d538253b.txt
+Content-Disposition: attachment; filename=revlist-fb7bd3a2aad7-9c7e3d59107e.txt
 
-6d714fe3a9f54bc368376d152115550402062b23 midx-write: skip writes with no object entries
-357d70ce460e62d192c2cf010faac372d0cbe03d Merge branch 'pp/midx-write-skip-empty' into jch
-a2f0497eb19469ced1555c51994c30cfd222d668 Merge branch 'hn/range-diff-matched-only' into jch
-8b83550e54bb684231e53b9610cc1d5edbeb72ed Merge branch 'dm/libsecret-explicit-load' into jch
-83a80e57e9fa68a7eb38d10fde5d1366e6134549 Merge branch 'pw/stash-change-check-only-once' into jch
-43ffe27c357fbad3863f886f98509d6e4c6567cd Merge branch 'mm/line-log-limited-ops' into seen
-941f46dd071d5bf4af1eaecca54506a47e4894d5 Merge branch 'kj/repo-info-more-path-keys' into seen
-bcc341217bc74c77ef417a7cf779ad3fb936757a Merge branch 'pz/fetch-submodule-errors-config' into seen
-c01fdec6f770e4c1307167e2d510d0c29983444c Merge branch 'bc/restrict-hex-to-lowercase' into seen
-4beda4186f1f337d5f2811f23392e122cd5a941c Merge branch 'kh/format-rev-more-options' into seen
-7c6b66c238bfc70a67e3b001d1e4bf1f8b05b90c Merge branch 'ws/squelch-svn-migrate' into seen
-bef923a2ed930c94c6cb26ce8f822d4d28c31ab8 Merge branch 'll/doc-pushcert-if-asked' into seen
-4f480c89f7e600305d8ed0575c1df7ec56df36e0 Merge branch 'cc/early-scan-options' into seen
-aa7daf07af8bbf707088cc027e4ec16ffac939ee Merge branch 'tc/push-force-if-includes-fixes' into seen
-3bc3f0f1014d3f18cb825b0056b9f30edf642c05 Merge branch 'mh/rust-crate-subdir' into seen
-f5a08966547d20994a7f1cd7fdcf3eddea61d513 Merge branch 'ec/commit-fixup-options' into seen
-cd90de15cca5699dcb1e186d8e2b6d2fa34f8154 Merge branch 'mc/refs-hook-report-old-values' into seen
-5e6640ab232cb5414dd1b18cc53b3c8bdf67729e Merge branch 'hn/shallow-history-advice' into seen
-93a1f4fdcdd77ea239d731a6e60b12d97a6d07b1 Merge branch 'td/ls-files-untracked-cache' into seen
-0a4bcc638b19918a2d54804fc7add28ddcfe37a4 Merge branch 'am/p4-apply-commit-shell-injection-fix' into seen
-4e0a7250c350cfbcab89138a335e124934334177 Merge branch 'ik/fsmonitor-untracked-cache-trivial-response' into seen
-08d79272f5952c8e469f79917391b92655c571c0 Merge branch 'hn/status-push-rebased-on-newer-upstream' into seen
-3963bc33d279d6004393ab854d95a73f833c34cd Merge branch 'qs/repack-kept-pack-fix' into seen
-1d1e42f9eecd72461b10363d7b8c696bcadd0eb4 Merge branch 'js/doc-test-fix-anti-pattern' into seen
-465543877fa984d9dc30ceadff5e146c36fcdd4a Merge branch 'js/push-refspec-match-speedup' into seen
-84932885d23165a0d2f08c500dde61a0c0affcc5 Merge branch 'hn/fetch-refmap' into seen
-034dc06c89eb8e77af44e2fd7b4924d19f2dd2db Merge branch 'bb/imap-send-openssl-set-verify' into seen
-fa9e17e144489f7e019e9928206ce02b2c6dcda6 Merge branch 'jw/wait-for-index-lock' into seen
-2e05769338087787d5298fbc3bd4b02dc0a12fe0 Merge branch 'cs/read-cache-conversion-size' into seen
-05e72bea72d1d6355345edf9ed297fca1afd9d24 Merge branch 'mf/complete-log-graph-indent' into seen
-563ad437ce50b5d2e7eb24bb1fcca20cff316578 Merge branch 'js/coverity-overflow-fixes' into seen
-e9af53d0448f04aa87657133b484ebd2201e6ea3 Merge branch 'ak/pretty-wrap-fix' into seen
-71f555f84ed9924802b9b3957c5167f54ddc7e73 Merge branch 'dt/t0410-missing-tree-test' into seen
-f870d9c7ddc71f65385e078bf6b159350871b838 Merge branch 'yn/worktree-repair-fix' into seen
-664c6d60892f5a1cf17e7052f81196e782f78951 Merge branch 'mv/log-follow-speedup' into seen
-ee52eaf7ae14f23388b827ba89df6df07001e815 Merge branch 'ab/describe-no-i18n-of-debug-messages' into seen
-ce21f59dc0f80d39e6d320dc430fdadf8d1d0385 Merge branch 'vs/refs-seek-fix' into seen
-22f15a20d58622f3adb4431bee9e45d1c73d05a1 Merge branch 'oa/merge-without-the-repository' into seen
-ab922c953a34075a6f5f54ea049f52d3d239eb5f Merge branch 'je/doc-detached-head' into seen
-becb70873fd58b4a902d306e7402be623c3851a6 Merge branch 'oa/merge-blobs-stop-using-the-repository' into seen
-844b6a6af45f5b9e83d4cdffef3c92589a30fbe6 Merge branch 'tb/sideband-skip-unrecognized-allow-control-characters' into seen
-b24a7b85682c4bdd337c60c1bf7df68046c87c1e Merge branch 'ss/t2403-modernize-test-d' into seen
-5169a7b9aa91b15752dd86361829f8214d50efb9 Merge branch 'os/rebase-doc-incompatible-options' into seen
-3fcff838e38dbda5b8b5f88c40592f8d34be73d5 Merge branch 'tb/negotiator-skipping-parse-parents' into seen
-50c36a75109b5c37540906c0210ea49a54ed87e5 Merge branch 'ag/fsck-connectivity-count' into seen
-46328cc3543d57ac3ef11d6cf316ae7e5d8d9d2b Merge branch 'rk/mktree-batch-tests' into seen
-cab1c849a1ee482adfc8a4186a67aaf5b0c43f90 Merge branch 'hn/fetch-shallow-v2-fix' into seen
-f3642b3c2f096948d7a636ac578530d4e42935f6 Merge branch 'cr/doc-gpg-ssh-key-lifetime' into seen
-f8b3bf7fef17c903d8daf7330fc64c965bc89e94 Merge branch 'jg/t3429-test-path-is-file' into seen
-264471c203ab10832ebabdb4648311762c704be3 Merge branch 'hn/status-compare-branches-default' into seen
-cf8b068d456135bfbb2637a0e599adc19f5d2a10 Merge branch 'cc/pack-index-v3' into seen
-632f844dbd90061bb3a3359b0bb91562c8a03c1e Merge branch 'hn/imap-send-header-fix' into seen
-a9dd1ec6954fdc96b35fd5d496acbad25f771b10 Merge branch 'ep/status-missing-upstream' into seen
-7d59210b1fd416969a7c2d3ff4ff9febeeb3b4fb Merge branch 'cr/ssh-revocation-file-fail-closed' into seen
-ba48500c6db9dfdf62cafbf82bad1d765b760189 Merge branch 'hn/branch-delete-merged-squash' into seen
-3a0fa507ba23f6cb6cd67a870147d6524e762be6 Merge branch 'iy/sigchain-recover-concurrent-pops' into seen
-cca8113f3a9260fdeaac64f841bf20d0bb3db3d1 Merge branch 'sp/t2030-modernize-test-path-checks' into seen
-c63411333d3e665173aa4ab6f579297b63b0dc36 Merge branch 'hn/reflog-operations' into seen
-fa48814755e866fe289c5a01731eba6c01884180 Merge branch 'ms/reftable-alloc-size-truncation' into seen
-fda2e9ec1c8031cbcf4908e352a04b6f77d90575 Merge branch 'ak/root-refs-vs-pseudorefs' into seen
-0c973e6cca89fc25112d84bd982f1aa06de2e2c1 Merge branch 'jt/tmp-objdir-loose-idx-merge' into seen
-e7d2abbf41f3aeec7a87c82622a8278c3280dcb3 Merge branch 'oa/checkout-wo-the-repository' into seen
-5d97cd9310da46d84b77e11b661675a4197e4238 Merge branch 'tj/drop-no-parseopt' into seen
-3d7acc6645ec6b0d12a33af733e819f26618a2ba Merge branch 'sp/diff-delta-safe-arithmetic' into seen
-2a7137143bfafd8a38c4b212d097597a83eed541 Merge branch 'ag/reflog-count-plural' into seen
-b1a1d7a806f7d2365da1bde67b00b24310391ed1 Merge branch 'ch/remote-defer-follow-remote-head-validation' into seen
-91b8027e158835aa3473689a3dbe7191df9168d1 Merge branch 'tc/test-greplint-in-chainlint' into seen
-1dd39f5b91a0a80f37ff9259ace10de0df6cb521 Merge branch 'sa/submodule-root-relative-url' into seen
-1873ac40833ff09a0f72f5faf9e6a3303a0638f8 Merge branch 'ps/rerere-subcommands' into seen
-712db9ff45a37228de1239640f83b6dc80a6c859 Merge branch 'sm/test-chmtime-parse-options' into seen
-8a089c70da70c9d6bca992a09971205736e9affc Merge branch 'jk/unit-tests-via-test-lib' into seen
-4e13fabdf451b53e6f7e9ee28222d9d7ac1f2808 Merge branch 'ps/ci-consolidate-test-variables' into seen
-f777d538253b83fee5b87e5c1d36839c6b6b90d5 Merge branch 'tk/t5402-test-path-helper' into seen
+30755e71abb1aa9d1d51ea9fdd6a5c07807c3b40 riscv: Add support for early boot errata application on MIPS chips
+f89e5ee4d8c6cd56499cd87e550d4d4e19cf7e17 riscv: fix RVG_SYSTEM_CSR_MASK width mask
+8be4655bc96c3278adcb7aad9b68bd54440058dc riscv: crash: Add crash hotplug support
+5e15d0342d3cfb15d5527d8eefa58c2f72d5d541 riscv: align pcie bus assign logic with ARM64
+eb44ccd82991202c4c98fc519a2043bbe08a286f RISC-V: sbi: turn sbi_ecall into variadic macro
+aa89052e096224acb50928632af4282c43fc5795 RISC-V: make use of variadic sbi_ecall
+396d73f7b3d417be074b70236fd30088c7cf4022 riscv: introduce assembly version of jump table
+30514aa420fd8be54b67e8f940699f636d24ab8d riscv: optmize ucopy for has_fast_unaligned_accesses
+abf33d62127fc11b8df04ea5922801aaf19af0b9 riscv: do not read csr in vector context switch
+333485f3e0212acf51aa01c6e50df6b811566e5b riscv: vector: refactor context switch for kernel-mode vector
+5c6e22ad386bc4a1299f0dd0732aefb9dfbc6a29 selftest: riscv: test vectorized user copy
+2cf0b2992203da6b383e21d8a1756d91ca4bfcfc riscv: Add ERRATA_MIPS_P8700_WFI to replace WFI with mips.pause
+df333b72c0e14d6cffec72ce9a00503f12d1e28d riscv: cfi: Bounds check restore token before swap
+ca47e289113552fcbd7ab9268cee1f0c27d35590 riscv: cfi: Only write envcfg CSR when task is current
+929221f50f60e980e2f399d9c2f619d3d33d30c6 riscv: remove unused profile.h includes
+fbab8abaac8f4d84aece087e19b4f2cd11175477 riscv: Add B to hwcap and hwprobe
+40623184c6f041c6f8901f5e822ef5deb01556cc dt-bindings: riscv: Require block-size for Zicbom, Zicbop, and Zicboz
+3776fb1a1b6c22b429bb2683aa2b28cec477cad6 dt-bindings: riscv: Add Zic64b extension description
+7493567982b0786069bf5a0754c96e940ae4978c riscv: Add Zic64b to cpufeature and hwprobe
+7c4752c60f99be4a9a4c573ba86eacbe5d3cc823 riscv: dts: spacemit: k3: Add Zic64b ISA extension
+1fc72ff0d3fc38759bd050420eefc7aabc18936d riscv: dts: spacemit: k1: Add Zic64b ISA extension
+ca0c312bdf6a1dd20ac2f5da1d0760b7925da4f3 riscv: dts: sophgo: sg2044: Add Zic64b ISA extension
+55458c7347a32a84985b129eb4778539abd904ac riscv: Add a getter for user PMLEN support
+b924210f542e13c764d21d50d3ed1e9d7672888f riscv: remove RISCV_ALTERNATIVE Kconfig option
+79113093e9dc3330a05cfd9b9bca1294bc8d2fa8 riscv: convert pgtable_l4|l5_enabled to inline function
+267bb2b528b574a7f400bf66bb12b11940f26b1d riscv: support early isa ext and use it to optimize pgtable_l4|l5_enabled
+36de74049ec8cb1a9ef4d40c586e9c017cde6cc1 riscv: introduce RISCV_ISA_SV48 and RISCV_ISA_SV57
+a5ae1bf65cee84bcc121d659e7e22a767853f5f5 riscv: mm: unexport _pgtable_l4_enabled and _pgtable_l5_enabled
+1d287c17cc5bfd6386fe0770999be410b248d021 Drivers: hv: vmbus: Bounds check the shared ring buffer indices
+10e2eba7ccb507af62bfff72687c8c559fa4d689 Drivers: hv: vmbus: Use *_ONCE() to access shared ring buffer indices
+a8e60890cb86a181d8216ac7e60873ba9d7d2ff9 Drivers: hv: vmbus: Compute ring byte counts from a caller-held snapshot
+be0d83e869430232ca56f439eabac9c99758221f Drivers: hv: vmbus: Keep the ring byte counts sane for a bad index
+6eb81a2a06e73490cfba9b1a89b73bff44e0399b Documentation: hyperv: Describe validation of the ring buffer indices
+dd57772e36f72f8d9a53d7fa4d90c974d8ebbcff Drivers: hv: vmbus: Check ACPI companion before use
+6a3d77a0a8cf69cf3d234305e6711729eb5d10c4 Documentation: hyperv: Update documentation for sending VMBus packets
+016ac8174d932db3615534ba15ce5f70b3a15913 tools: hv: remove unused rte_smp_mb()
+14c73a2b061e494ab6da346ab075b14f2a4b2d06 kexec: Add helper to report an active kexec reboot
+228e21764b389a71a05af6a356efa1bad0751b5e Drivers: hv: Run VMBus kexec cleanup from syscore shutdown
+7b5903dea8adb782391a7c7ee19835bf12145d93 Documentation: hyperv: Remove support for guests on Hyper-V 2012/2012R2
+daa782262efe0de83e61e7b0d2862fc377f5226d Documentation: hyperv: Update information on guest CPU offlining
+60de22022fe0cb37bdec608d60d53292050903d5 mshv_vtl: initialize poll file mutex before device registration
+efc5dc4c15713fdd6e87882686a26ed1deb22dab mshv_vtl: detach poll waiter on POLLFREE
+70cd4623f3e5068a72c72791b96f2dcb4c991131 mshv_vtl: reject poll files with multiple waitqueues
+28513249f2a97374947cce0ddf3003aeb407ccae mshv: Rename memory deposit memory functions to _old
+56fb075b77f85dbde5404755ebb244a83b131c6e mshv: Redesign hypervisor memory deposit logic
+347f8745462dad74022284e34ddd9d1c16b7473f mshv: Remove unused *_old memory deposit functions
+33b28f3b313353f11fc939e9a268605e66290d0b Drivers: hv: Remove leftover support for old Hyper-V versions
+1b8b67503725fa6deb3a4f00ea61f982bd00c152 Merge tag 'riscv-for-linus-7.4-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+9c7e3d59107e2daf204bf6bf87b6c448ca89defe Merge tag 'hyperv-next-signed-20261028' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
 
---===============8712715913445099459==--
+--===============6617809966999990285==--
