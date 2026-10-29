@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4968088878355949004=="
+Content-Type: multipart/mixed; boundary="===============3493424041379891962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 29 Oct 2026 09:34:51 -0000
-Message-Id: <179326649129.3393020.7228456070440625913@gitolite.kernel.org>
+Date: Thu, 29 Oct 2026 09:34:54 -0000
+Message-Id: <179326649449.3393210.6151997744661970280@gitolite.kernel.org>
 
---===============4968088878355949004==
+--===============3493424041379891962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
+  - ref: refs/heads/char-misc-next
     old: 6b4b543fa18757297ac756a6fe6e64f506b7844a
     new: c339f4010dea8b0d754f84ace70cd1b089878ef8
     log: revlist-6b4b543fa187-c339f4010dea.txt
 
---===============4968088878355949004==
+--===============3493424041379891962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793266491 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793266494 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1793266490-0af92ebdb06db823a348275ad5f3cda19b338ab9
+nonce 1793266493-550340bfe0e5afd8ec17ff4b78df446f149e1c5c
 
-6b4b543fa18757297ac756a6fe6e64f506b7844a c339f4010dea8b0d754f84ace70cd1b089878ef8 refs/heads/char-misc-linus
+6b4b543fa18757297ac756a6fe6e64f506b7844a c339f4010dea8b0d754f84ace70cd1b089878ef8 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrjEzsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d6MP/RXu4kDjcHBNYtAETmtd
-BuCzEaVWDgKX+riMQRmTBtLwsIfmEIjPwc8KrF+k85j1gA68Qwae3rvwxPABsEJo
-omFqvFfhcaUD0492zuoYJCwUL08C7CLjA16D8uMAlcrQVpHrfcwsJqrP+ukQCCD5
-ulwFuqK6EjsH2bi2uMbBtu5DqUD75uYhO0e+Qv9Bj0EDDMmRP0Si3mPjc9+Scgir
-NzSN8nAfrWsNJVovmwRbk2/HLlD49BT1K+mHs8Cw9u7mCX5Yw4b/ZPr5bk++6Bbo
-OQuSlartPr/uAXds2GcmYnNZbL78BJxrO/LYRfplwWBXnbL0JrwmTwIeExNkc9/I
-UFpSmPaf5ASc62eyPLUGZxxVBNmh7C9kS7Mn4Ihh6A+wtDObHPmubMt5c9M5PVZm
-2kqXcQLjXavRisT9befh6eejk82o1oGruApLKptWyVaezqAKPe2mf9LCnTHWrwi1
-x0V8HFp/ntmI6TpMbt63ca19zCoQnjW+kRoluiydLlngOXDu/v+WerbdhdiRn2mm
-uWteR3dOgLxkQ8flNkZuGaHczjCWJpJGz7pJU9Ofg9OB00z1jwXF07V8eX1SIwdb
-4WBx98jGvgmibop6u6g4Gj7q/dDCEJJumIcHrkpOjfSNh6is3muC8oftNuKAMtuP
-NJOr6vkFePMiqUIZcGxq1A73
-=/RE7
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrjEz4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+h/sP/0vGCieXKxn35IIhr0+I
+Kw30MjISWZlcWxjqmZVVXjH3eCFPPP+hBtKeUt2C1VEoJ9L4SDtXof72uwTgL1DX
+/wo0ZhKS/PSly8+U+VfGt2JmGTvrfV+DLHrkMlZIsgbi7icRkvfj6A0/nXRpfQEQ
+7+63sCirOxFNbDOpZVxzyVVehTkPSfJnuPAbb4QTeydTumFeSFEzn3TvoZ8SSWSn
+NhV5VoeTNtm4rbH4FxMOyAooxmRJ6xKzAEQLbeIlo+ikTWQC15WpahPmS47FEcl3
+WlAEdeq5+dYOhEGOgSBs6bZMV6XViLn/6xs3jgTMB6JRiC9z9YTxiX+acU+JOJ71
+OVkBUqS/7nTTVeMikmBY/QDPPzNgdJGE8gw+b/Lq7pi1ShZJ0m7+W6nMzZXKHPKg
+Jc3Yfi6oSJE8S/0hZS12x833qCKyV0DKlrfYc+/PT1yMjE/WZKZNrljaCyC2CsoJ
+wHNH4nvegnNyAkBHfWoMtGeawaNDLIFkx2JwWFw5SBpEsTNuKJPMvcTnhNMToVIu
+dt8fIiDGTXpCjqJM6nOzicAKfGendpgLO66BWKbyj6lWZ3Ze4oT017KZcw0QmMMY
+kqJznB6+LtRBEyLlrW613ZxqrGVv20yUhLWIcR9uwOXzedZVP+O153BTY8I8v6cA
+GgxJQX+9lyuXjeeT1nzqYYsG
+=hvTO
 -----END PGP SIGNATURE-----
 
---===============4968088878355949004==
+--===============3493424041379891962==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ ae3690eb2a994dd74a43639d6bf800b51f18b48c Merge tag 'dmaengine-7.4-rc1' of git://
 d738fbd1a8b9d82ef5ea0d54a9e2b3ab7f1c24dd Merge tag 'media/v7.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 c339f4010dea8b0d754f84ace70cd1b089878ef8 Merge tag 'platform-drivers-x86-v7.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 
---===============4968088878355949004==--
+--===============3493424041379891962==--
