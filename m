@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1090660342510005130=="
+Content-Type: multipart/mixed; boundary="===============4972976983242545684=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 29 Oct 2026 09:34:25 -0000
-Message-Id: <179326646578.3391155.4526144971290566710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 29 Oct 2026 09:34:28 -0000
+Message-Id: <179326646865.3391368.6540423879203555573@gitolite.kernel.org>
 
---===============1090660342510005130==
+--===============4972976983242545684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
@@ -21,37 +21,37 @@ changes:
     new: c339f4010dea8b0d754f84ace70cd1b089878ef8
     log: revlist-6b4b543fa187-c339f4010dea.txt
 
---===============1090660342510005130==
+--===============4972976983242545684==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793266464 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1793266463-380cdadd224c8cf151c33fd4c427f69ab1c29b54
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793266467 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1793266466-4fa147aa35066311232970539e6e0151700a225b
 
 6b4b543fa18757297ac756a6fe6e64f506b7844a c339f4010dea8b0d754f84ace70cd1b089878ef8 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrjEyAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uegP/imrXGpjUBuLCH102Czn
-BzrEq8CiNSXZvVaxAwkYLTqsOGM7a8m/qbD7ln55eLNLfoBbHHRSbVqO909punG+
-ula0j7M4Y3+SgMJ/MVzWs7YgWpwuvEjwUIy5aTn0xjzPe0cMS+7X+qGAYCdBMLsV
-3gQ6doXj4DwIc+DQkx24bS4vzQrVmM9TA2krjjUksbX35GOrAxbWCHDlY4eLh0K4
-evu2ePgIyrLklppewHKjUbSJjnlY8PUni+GzmOvrWrnhINnePqRDI8FrjXLTFY0g
-KWNh5+epTGVhyUR86m1ZmMIliS6E4uIEHk9hOiIFYySIbxXypFMP2HorUTnbnPH0
-FsjEGgpzRMVCFpgtHvR/XyscGHq2xwEL4+I5eWxFi3uiNDr0QMw8xg6TbKM1+3K3
-bEiRLkUYa338UUWoM1+7TCW2CnNcP2yVpwDC0izqoJgeKJ15ATmtbLFvvGlzDRjg
-K2rjvfUb94OGf4ITuvYAI5rEqd1RbnNpSFikfHyRfHaNw/I50r71WX/KadD833H3
-bSBtslo9E723nDp2XxR27HWP891wnQZ8RjwoFA5J+coXov8N/2yE/5wLJ8izeeES
-MKcCgbtvTRfy5KRSzvzr/c1fi/FOA/Ti6DXql2BA4G9xtpjODNXMx8SgLZMiE94p
-yMYyY5Uttj8nFpWDyEUIhN85
-=fDsE
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrjEyMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ukIP+wVoq4+jSW1YYU0K4kLe
+TOCpBfT8aEJ1kxhCB52hkWD4QcH1OZksoIj+CU8FR1ye88l5dA2c4RXNL6bC4zbH
+DlXtBHg5IEtEv/eYY5zbfiPowY+vhgYZJDHhhiZSWRPgUIEScO8kmP3eohtJYQ+z
+6IfkTlMNxOIITavYkFIqcrCgNXWabkIy9CH6/8P7Rc3xsxNkpPWnjDBYGG+8pSWC
+dt4DUSHdhLB5UrkwQinu0p3hsff7/wmvBIyta96WrJDmbqXX7mRrBEtCPj/1I3Sa
+6W3qfYWNXB1L7SBQhi5nAq5G+uREafDBOA+zg/z3JE8ObcXIXiVcg+lIzaX+fP/0
+/yqFiLsVzHliEvaZwwN8xRsZUoUU6268/aJ/VBspnsB0lqWjONghnN1X/RuqCzQR
+ajhZjJJItwmDT5RV3fkq7Is8yC8+u6IE3z67BBZC6gBTESJQWO+JPrY+KR6tW/Ib
+qvsaG8djGpttcUKakm/yyAzDrEx29ZwAUt5eblIkVZBv/Ugs5I+FAGbnJsCyjC2X
+Y8K0tvuvl3TMQ93q5QTsze7+wVzt/oiRZIafUXVde+kqcdg7Fx0aq8xOfGeFsX5V
+vqURy898htrYl1Z1x6Kf6qKEZVftm8264CVaswmH0KL87X2sA94DXyrCFmU6qaMD
+CbR3Gno5Av1OfKmu3zRPJmjg
+=AZMY
 -----END PGP SIGNATURE-----
 
---===============1090660342510005130==
+--===============4972976983242545684==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ ae3690eb2a994dd74a43639d6bf800b51f18b48c Merge tag 'dmaengine-7.4-rc1' of git://
 d738fbd1a8b9d82ef5ea0d54a9e2b3ab7f1c24dd Merge tag 'media/v7.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 c339f4010dea8b0d754f84ace70cd1b089878ef8 Merge tag 'platform-drivers-x86-v7.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 
---===============1090660342510005130==--
+--===============4972976983242545684==--
