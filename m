@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Thu, 29 Oct 2026 03:49:05 -0000
-Message-Id: <179324574573.3084017.15487523635302110125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 29 Oct 2026 04:05:39 -0000
+Message-Id: <179324673986.3097577.8084924412122226567@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 5a4284c236232b930dde8aaf3c1a41a91a29261c
-    new: d04edf459b7c76519b450bcff1ab629db47d5493
+    old: be9eef3bad6776a9375f78948c46cebab24ce4a8
+    new: f2258497103f3751e021e6b41737658e6b591f3f
     log: |
-         27c61219d9a5f9d0e5fba3b9ed124a0db5285c09 hkml_patch: ensure ending new line
-         3058b95513dc98b633360c0d54965e134f9627f1 _hkml: extend cmd_str_output() for not stripping
-         d04edf459b7c76519b450bcff1ab629db47d5493 _hkml: do not strip git show output for mbox
+         f2258497103f3751e021e6b41737658e6b591f3f foo
          
