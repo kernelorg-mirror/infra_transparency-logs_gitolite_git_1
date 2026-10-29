@@ -1,27 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============7673688920333702623=="
+Content-Type: multipart/mixed; boundary="===============4323707051580904724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 29 Oct 2026 09:34:35 -0000
-Message-Id: <179326647598.3392174.18251629759258124515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Thu, 29 Oct 2026 09:34:36 -0000
+Message-Id: <179326647654.3392193.4095066083596422784@gitolite.kernel.org>
 
---===============7673688920333702623==
+--===============4323707051580904724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/tty-testing
     old: 6b4b543fa18757297ac756a6fe6e64f506b7844a
     new: c339f4010dea8b0d754f84ace70cd1b089878ef8
     log: revlist-6b4b543fa187-c339f4010dea.txt
 
---===============7673688920333702623==
+--===============4323707051580904724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -29,29 +29,29 @@ Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
 pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793266475 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1793266474-8402485cba811a2d4b9256ed574cec14c018e750
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1793266474-1b88e05c23a22f90ab8531f1b37d0ae69308affc
 
-6b4b543fa18757297ac756a6fe6e64f506b7844a c339f4010dea8b0d754f84ace70cd1b089878ef8 refs/heads/usb-next
+6b4b543fa18757297ac756a6fe6e64f506b7844a c339f4010dea8b0d754f84ace70cd1b089878ef8 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrjEysbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+U3AQAIn1vSG9mqQKwyZX6euW
-vkgb7WpktxcqTZj3fpAyXDmiPqWtBdofrHefQrYEgQ5LEYLOkzgLgkOWN0mnjxpY
-DTvx6wL8iMFUrewRUhZRKCYJA1r6pYyKDVnOiK0wXLIPeMN1Oribt9gN/T9UWgZj
-ev5pNYd509B2BemMu4DA/YntOvTTxmZ5s9dmOUk4QGBgoHsE9dyZzadWZSHjy9S+
-BD8J5aXWdKD/Isk7Y8zm4pf1eEqLu427LD7Vx2e3gO4m9Le0xPu2Qz3XMChkwwnp
-4qr1ijVF0+Z4rU+rFVSVYmkYZ67VGgqHXpd2NNyzs6bjIod1DovCJXDFDphdMwXO
-Gi7JgXBgUhCz9IZuikMYw62UKVyOvHHhjldZ+moV9K85YhhoIna2s92hnTPHI7RV
-c2Gl/TvTJZCl8aizp9VfINkJ+c7nn74KImPnANipThYZWwtVe7zYHrbROzI9guI2
-pWzuimewH2XRZgnWNrupYuCksgl1s/TFC1q9sEOgQ5n2l+RAQsXOMhU16p7bQr1k
-OPTpYRhBF/Wmdn3rsKcy/3FXfTLe8M6ry9te61u5l2DLAuEyebZNQwJpJbyi+9A+
-/bXEtCZozbxoQLEqEbcdDH1iu02HCxqkA6M+je0KbpajUZAuqzP/8i3LWiPlIOFS
-RQg3KFN9c4x3gqdWsaDUP9PF
-=wSYS
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PBYP/12rCxHsQx/4g8n3ekpG
+a57R/OQB1wvazpy97AwymNY3KVkacm+Iz1r0aymr9GbFvQJZVqvBl1B619K67gpd
+8rQJ/zbGS2Jmh79mG/aJmhhNFB9FIMWtLWmLFlE4CvMeO3B3bD7hnrZSfWav4Sho
+gutJsdeN3LmD5aE0GXMzYzsieTNQ/MnfiSn0dvf9rNtW3Ztvn+eNOOAmyVEHkIlQ
+M6K5c3HJc0RdKjoGDYJeUIVNjAeK8GpHxv1k/JQHsDduhayZ8J/qCA2oi6EfR6Qr
+fpO3ZWNChr/qwBWdXHQZM1hRWfF5FzdIRJIk5liL8/xwR6kAYYw1oiLBB6f+XpzH
+WZsMQZLrTkH3yc9vMtQRomv1aTeE88iPMAI7AZF85OXn0zlbKwqk+j0cJMKMIyC1
+oWyMlVxXF5fS+IYLxjiDKsjoxyyV5Kh2Hus8UZmiWDrT8MhiBedbvtV13eA+Cv/B
+fQxZ2epmtAkFr4y0dXfpBfPIOhKrKarN2iO98ygy00VI5jrO9yqjILW8zb55opxp
++hy1HMNVIkOxciyiSMVNs4htHA0ZxCGDjWA3gJhA40U0QKDEhYc2EyHWsNXhmW4Y
+FlDurPy/DnEWOlh724ZX211mlqMBjfAPNYw9bfJZmeoCMiqhokxRnFq3ltX/OLqw
+XJ1i6tWXfS4ezWnky8dtsPR5
+=S7rJ
 -----END PGP SIGNATURE-----
 
---===============7673688920333702623==
+--===============4323707051580904724==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ ae3690eb2a994dd74a43639d6bf800b51f18b48c Merge tag 'dmaengine-7.4-rc1' of git://
 d738fbd1a8b9d82ef5ea0d54a9e2b3ab7f1c24dd Merge tag 'media/v7.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 c339f4010dea8b0d754f84ace70cd1b089878ef8 Merge tag 'platform-drivers-x86-v7.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 
---===============7673688920333702623==--
+--===============4323707051580904724==--
