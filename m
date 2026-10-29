@@ -1,51 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============0221038314193159317=="
+Content-Type: multipart/mixed; boundary="===============7397680512329607186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 29 Oct 2026 20:26:09 -0000
-Message-Id: <179330556989.323742.1262491045317594105@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
+Date: Thu, 29 Oct 2026 20:28:52 -0000
+Message-Id: <179330573238.324864.14020306184914228214@gitolite.kernel.org>
 
---===============0221038314193159317==
+--===============7397680512329607186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/mptcp/linux
+user: matttbe
 changes:
-  - ref: refs/heads/tty-nowait
-    old: 83a5821b70c5cd580c23a78727d0de4a1896fbf9
-    new: 6ce7bd6c31981898360c3e36c9c270b0215cd020
-    log: revlist-83a5821b70c5-6ce7bd6c3198.txt
+  - ref: refs/heads/export
+    old: 950f2412d0a397106579a2a6ea86879aeb2a63ac
+    new: 8e45b8f9cf30662c99af0c768b11e129a019e02e
+    log: revlist-950f2412d0a3-8e45b8f9cf30.txt
 
---===============0221038314193159317==
+--===============7397680512329607186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83a5821b70c5-6ce7bd6c3198.txt
+Content-Disposition: attachment; filename=revlist-950f2412d0a3-8e45b8f9cf30.txt
 
-62ca55bda03df9b782e5f23f7cde334c75085c70 tty: pass the kiocb to the line discipline read and write ops
-1d0341a2dfb7547591abf9ac011835f51bb9febc tty: turn the line discipline read op into a read_iter
-e2d036a0fd3eb7243492ea44fc12b57e83b0ebb6 tty: honor IOCB_NOWAIT like O_NONBLOCK on read and write
-3014f0a54701cd40028a442a74893b18bbf2b3da tty: set FMODE_NOWAIT on tty files
-cd416e90a2043582b0c94a3464e61cd73ffe5ca9 tty: n_tty: don't fail IOCB_NOWAIT writes on signals
-d78f5e2fcc21b43295bf64f6f45c25013a353949 selftests/tty: test that io_uring doesn't sleep on a pty
-048aa232b138bbdb7dc493321cb55f0d378d712d io_uring/rw: hand IO on files without iter ops straight to io-wq
-f2a9c579963032b473d816910b159460fea262f1 eventfd: convert write to write_iter
-6fe20d899152f800c812fc7ec68b594b28a9496d fuse: honor IOCB_NOWAIT when reading requests
-fc6338f517932e5e044becaf757566431bde1e68 vhost-net: honor IOCB_NOWAIT for IOTLB message reads
-b27f081b0deec9ccfc26ebe727208807bb73a92d vhost/vsock: honor IOCB_NOWAIT for IOTLB message reads
-5005a2324c333122895011ffd6a832f978bf9803 vduse: honor IOCB_NOWAIT when reading requests
-f558b51d1c2983185acd94c9de883ab99bd95df6 rpmsg: char: Honor IOCB_NOWAIT on endpoint devices
-c1c6f65d0dc9a473d7eec27484528148d262dbc7 net: qrtr: tun: honor IOCB_NOWAIT on read
-6b374784aaf96cc671d327e748e7b9df7d88a84f inotify: convert read to read_iter
-4e75643b5f3aa8120dd1a0836a466d969c0979a3 fanotify: convert read and write to iter based ops
-7c4db85c8dee316e7e747fe7cb4e1b965148f976 printk: Convert /dev/kmsg read to read_iter
-05d8d1ab6bdbd7dc10468c0c8e1b4f0e362903a0 Input: evdev - convert read and write to iter based ops
-c7b3c43624ba488a1db3a5dd9d97ac526368d720 Input: uinput - convert read and write to iter based ops
-dda620d739d4981c062fb9f876713c5ea5938c1b HID: uhid: convert read and write to iter based ops
-6ce7bd6c31981898360c3e36c9c270b0215cd020 HID: hidraw: convert read to read_iter
+af40460e65af19c2945a4ca07514b4da2742d1bf DO-NOT-MERGE: git markup: net
+9ca1e16bb68bd1e8576e1a099d34ba3b2a328c1d DO-NOT-MERGE: git markup: fixes other trees
+97568f7e51dcfdd6c1d5fec83796fd4ca60ba9eb mptcp: push pending data after a sendmsg copy fault
+d7d7856700e9888936e99eb38166487f97097b7b DO-NOT-MERGE: git markup: fixes net
+e61a20796654dfadfcc0f28c16bcf6be6d3818bb DO-NOT-MERGE: mptcp: add CI support
+90989ce9712a29ac55ba5a14e303d551c05e3dfc DO-NOT-MERGE: git markup: end common net net-next
+f85c37995eb5cd422e50c7a7e75983fa29949a3c TopGit-driven merge of branches:
+ebc9b37f1db6c53b21099de57e9209a555548c49 DO-NOT-MERGE: git markup: net-next
+989f97c0acf7ce1cde01a7acd4eb32f61786788c DO-NOT-MERGE: git markup: fixes net-next
+7403cb2acda16ab12d3c6f92f43a3758d52f8a67 mptcp: pm: init and release mptcp_pm_ops
+d739ebeb7f295b603bcc0e359f91e806b13ea6c0 mptcp: pm: add get_local_id() interface
+085edaaf161c57d6bf620acf7c512d84fe0c9b2b mptcp: pm: add get_priority() interface
+30b2f52bb486da903016801993364498b544bec8 mptcp: support MSG_ERRQUEUE on the parent socket
+2ba9740e909295e4c5f9d7bedb2ef510ea624dea mptcp: sockopt: factor inet_flags propagation into a mask
+2941e7af0bc66ebbc0ba4a0963b1ac508f58f538 mptcp: propagate RECVERR sockopts to subflows
+07e8c67311d14f3f5132a928e65eee843243a289 selftests: mptcp: cover IP_RECVERR sockopt propagation
+22393654a7f7c0637db31416e863d34324589fff mptcp: add msk_is_mptcp() helper
+70dacaea76d84c6237c673e5555336f74e677cd3 selftests: mptcp: join: dump stats with right title
+b2c79b435e7759b9b0b5eb35d922a4018b68a570 selftests: mptcp: sockopt: pass total bytes to do_getsockopts
+70d89f5217fee6142eb2edb4845a58eb6f070c1f mptcp: annotate lockless access to msk->scaling_ratio
+4ecceddedcdbc2beb07f923447989c3c53c311a4 selftests: mptcp: sockopt: drop unreachable FIN accounting
+1684f86dc9282cd7fcab3416b6564506dbbe1773 DO-NOT-MERGE: git markup: features net-next
+ebc804e1678ead209ade192b468bc5bbc0622cdf DO-NOT-MERGE: git markup: features net-next-next
+584e28340aade2a0bd006da80e1381d780a63b19 bpf: Add mptcp_subflow bpf_iter
+5d2de1e211ac64133f2b05c8aa4994659e1f64cb selftests/bpf: More endpoints for endpoint_init
+d456b156cbaad46dede596f6bd6603bfe33f549a selftests/bpf: Drop cgroup_fd of run_mptcpify
+edd27f73ec40de00fa75cdb7fc4bf2392b048484 bpf: Add mptcp packet scheduler struct_ops
+1238b50c0cb1ed787239f8b05de9a027d9e025f0 bpf: Export mptcp packet scheduler helpers
+70a641800eaa6d4067c9de07f544e5aba16deacd selftests/bpf: Add bpf scheduler test
+46f1015ad772502cc52d7807c94615468f96e25d selftests/bpf: Add bpf_first scheduler & test
+1e97627f3a79ec477caa154ac294cac802c71375 selftests/bpf: Add bpf_bkup scheduler & test
+1e1fb0f7af8a63e9000d54d5c909fddae03ed73f selftests/bpf: Add bpf_rr scheduler & test
+28a0fe952de9406472174c56bd05b3772c694fcc selftests/bpf: Add bpf_red scheduler & test
+466f89e0970d2dc50bbdd3fefa22700aa16129c6 selftests/bpf: Add bpf_burst scheduler & test
+a4b5aa86b1dc8dae773fd9127f5d16a24624fe8f DO-NOT-MERGE: git markup: features other trees
+87137bcbf6f4915219e54b2d6086d43c4e80990f DO-NOT-MERGE: mptcp: improve code coverage for CI
+8e45b8f9cf30662c99af0c768b11e129a019e02e DO-NOT-MERGE: mptcp: enabled by default
 
---===============0221038314193159317==--
+--===============7397680512329607186==--
