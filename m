@@ -1,54 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============7918833002205435520=="
+Content-Type: multipart/mixed; boundary="===============2253906429219902424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/alarsson/linux-sparc
-Date: Thu, 29 Oct 2026 09:45:41 -0000
-Message-Id: <179326714115.3402910.12435406864898949016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 29 Oct 2026 10:09:08 -0000
+Message-Id: <179326854824.3417976.17985899515219543638@gitolite.kernel.org>
 
---===============7918833002205435520==
+--===============2253906429219902424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/alarsson/linux-sparc
-user: alarsson
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 6ea75a63132d17ac3f62a37ff1b893ff7965b962
-    new: d957b367d560c4a74637d400ca4e0e63bbdfbcd1
-    log: revlist-6ea75a63132d-d957b367d560.txt
+  - ref: refs/heads/usb-linus
+    old: c339f4010dea8b0d754f84ace70cd1b089878ef8
+    new: 3ee1e1c3fca6fb5d0abbe0fc91539951ffa60aa7
+    log: revlist-c339f4010dea-3ee1e1c3fca6.txt
 
---===============7918833002205435520==
+--===============2253906429219902424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ea75a63132d-d957b367d560.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ca0a9905074e1a24d5570fc2b667de926c831cd6 sparc64: increase kernel thread stack size to 32K
-1ea502a48efc2b3bf20403de5c9693c63e8c3211 sparc64: remove dead THREAD_SIZE branches for non-8K pages
-80fd9c765ddcc0a762fbdf2aee8215996eb38a4d sparc64: restore %asi in user_rtt_fill_fixup_common
-f1c0029fd6bf6ced77b7299e92d436cdcf3a6fee sparc64: use the fault address for si_addr on window fixup faults
-22a749706e3b0f857d5169a61f2f86a160eb9abd sparc64: decide the TSB huge-page window fixup before the bank switch
-ccdc278b61c2bf7dbe97fe1c4e18339131fe898e sparc32: use memblock when mapping the kernel
-a33ec04570f3dc402eb0d2a179b4b21c359e6914 sparc32: use memblock to find available system memory
-6b2510b9d8f79d273e5933c1e4a2c3cb93249ad4 sparc32: populate memblock from the PROM memory map
-91c897e018831e646967bac685d67e85ef9c04ce sparc32: drop unused valid address bitmap
-0a8f5903b4563467502814881ec20c967548905d sparc32: move early memory setup to setup_arch
-e77e845f7226f64f2d4bd36cae5f714803ac9260 sparc32: drop sp_banks
-9840f43c3d098fcb2d0ddc1b4ef79ef2bc008ec0 sparc: NMI: Remove obsolete comment
-60b5c9eda5a37449a8611bdd7c613f4aa827da00 sparc64: add seccomp filter support
-077e15cf545acc03c14582e33b3ca2af2a763eff selftests/seccomp: add sparc64 support
-a9e88d617a25306fa7e532b0b8be08df778872cc sparc32: remove redundant memset in srmmu_nocache_init()
-e449a92b8bb84d7ca7573a7dd3fa5814b80ce396 sparc32: keep PIL raised on the SMP ticker and LEON IPI exit paths
-21e1df391b82f0dee603e1b20cea80f123370178 sparc32: Split common syscall_trace() to syscall_trace_{enter|leave}()
-f8905074f3f3880ffa4a1f4328a391136d3cfecf sparc32: add seccomp filter support
-9e86ad13f419853c0eaabf5488c6bd1c2efc87e5 selftests/seccomp: add sparc32 support
-1a917c5c038894d7ae95daeaaf888ebdcea5c7e0 sparc32: Avoid NULL pointer dereference in fault handler
-2bc58762a3d74e42de129d717ae3ba10ecf0ab96 sparc32: Fix pgd lookup in vmalloc fault handling
-685772cf8dfe9c42f57e23796b020f25dedd090c sparc64: skip the trap block in xcall_deliver() when there is no target
-524ccb38fbe123dcce52605d2d018a1a9231034c sparc64: flush only the aliased page, not its whole folio
-d957b367d560c4a74637d400ca4e0e63bbdfbcd1 sparc64: flush vmalloc ranges from the D-cache on map and unmap
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793268544 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1793268544-bc1d01316642ef6367a40f1b7dd415fe40e55aba
 
---===============7918833002205435520==--
+c339f4010dea8b0d754f84ace70cd1b089878ef8 3ee1e1c3fca6fb5d0abbe0fc91539951ffa60aa7 refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrjG0EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cNoQAKfTINQHqzGH9/6ofeVC
+v4fRi3u9hIZfPXz9akG8sgYQ5uyYWjyH3t1BGRcFa19wIoVqKFvBELwl9dIFOTM6
+KeNU/6DqWF7Qqd5BD8rj6RmOefD6gSjLeHEyjjQhLqE9H+rmlw2Sym6VWuK9t7qX
+oVtVrSmZoROUbUdvILtDIqIyuTisGn5FLXeuTyqogQEUO4a7ZmXFSnc/O+as3LMb
+6JUjKQ9hrKUETIL8yutKtLpNbMvpNqW166DIL1CU361XqR2FaVQDcR4hxVVyW8EV
+zCtwgXbKSNayPtRvOAWc55lllVC/wZ7aRfku1+EM6QD5NO0BlyU80aIC9eE23M9D
+qIh4oDgup8I72wg1z2QvDENDjvg0JblgaLTwuXhxlJfSxVsjEcIn7eYdayQ89I2B
+J0zj9Me8GsxCOJETnFWEwzR51TjBwNQ5zYSjmaUmti5dP/lNMxONHvrpdviJ5Ysx
+DkyDTRgwEpLj93D/RLzQs1NvZRcDRrg9qca+6AdNGEqXd5FMrmx24UfPqpyb7sO4
+jhyD/xWqJtA0iDVjY+tHIFKZVGj0tNIMBqG1jmw7XUgeFdfjCXQzQaf/HMITRzID
+/5gr4k4dLqCFd3CD/SvQeqm2KsvTUVD/xm4CF5Jnmq7mDs7w12fLZLmmyL6dmCdz
+phoTRXy7vYY96q2EW/HqmH9G
+=/0GX
+-----END PGP SIGNATURE-----
+
+--===============2253906429219902424==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c339f4010dea-3ee1e1c3fca6.txt
+
+2fad8d241a6833d0c7aeafa0ab596e83c7b4ec9c usb: dwc3: xilinx: fix system suspend and resume PHY handling
+f33f0dd2eb014bffda02ecfd182de3ddab058596 usb: dwc3: xilinx: re-assert resets on ZynqMP init error paths
+6c6508e742b47539224eb18cb23f7ed5d401dcb6 usb: dwc3: xilinx: unwind ZynqMP platform init on probe failure and remove
+688bee95b42395f5d127cbd7523d52b218ae5f8f MAINTAINERS: take over dwc2 maintainership
+5b4b83c2ffe8740f6f3e54ea4d4962a62c063ef1 usb: typec: ucsi: Set ucsi->connector before enabling notifications
+ea6cf69ad03c8d85138830c0d2c3b946b5ae231d usb: gadget: u_serial: fix NULL deref in gs_close() after failed open
+fafd23d61494461256d374f67c121f2712e1af2f usb: uas: ignore UAS for ASMT135x bridges (174c:55aa)
+fdaca138694111153f96c7d76877734b9dbf0e01 usb: usbtest: prevent divide by zero in simple_io() with zero length
+bc9dd21ec61acd152d9e7c12cb07db37c63ad41a USB: cdc-acm: fix NULL-deref on hangup
+450fa94d7ae9fc91c3df525f5d1322bf8fecf7b2 usb: gadget: f_mass_storage: take filesem in nofua store to fix backing-file UAF
+d8090de52e0a8f1761ced4fc31d52a3e289e341c usb: dwc3: trace: Restore request name assignment
+2022b10726be78849626ea3fa33038ee96a54e46 usb: typec: nb7vpq904m: Set client data in probe to avoid crash on remove
+89aaaa26f6985d55676fc5c90440f279733fa132 usb: typec: mux: fsa4480: Keep the USB 2.0 switch on in DP-only modes
+7cfb037005c04b9dee5b0c4626e56e2eddeef157 usb: typec: ucsi: debugfs: Fix GET commands on UCSI < 2.0
+3ee1e1c3fca6fb5d0abbe0fc91539951ffa60aa7 usb: typec: ucsi: acpi: Assume UCSI 1.0 on HP ZBook 8 G2i 14
+
+--===============2253906429219902424==--
