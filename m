@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Thu, 29 Oct 2026 05:01:35 -0000
-Message-Id: <179325009585.3136505.11114699275263863712@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 29 Oct 2026 05:13:32 -0000
+Message-Id: <179325081218.3144126.2832491704969250044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-user: jarkko
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: 86795ca4be9b6322e911ff3ccba011c89ef3f761
-    new: e61d4cbe64d425d8569b60c16a206da8eb49cf86
+  - ref: refs/heads/master
+    old: a7e12e0c39599bce2e2358c6a9c492d51a8dc8a5
+    new: 436e9cebefe8bf86fcdf8730c9477fd8f20b8d80
     log: |
-         e61d4cbe64d425d8569b60c16a206da8eb49cf86 package: add keygcbench
+         436e9cebefe8bf86fcdf8730c9477fd8f20b8d80 foo
          
