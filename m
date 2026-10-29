@@ -1,27 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Thu, 29 Oct 2026 08:37:11 -0000
-Message-Id: <179326303110.3348430.12694333090377413146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Thu, 29 Oct 2026 08:50:43 -0000
+Message-Id: <179326384333.3358818.9571355657147078471@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/main
-    old: 79678159592b339286c4d61fe42e1450327a13ae
-    new: 6b0371afc5329d7f07cc4f1ff4c5e10b598fadf1
+  - ref: refs/heads/ntfs-next
+    old: 5210eadc44ccdd9632b1ee66205742610a486989
+    new: 564c7753647731d19170914c1c637d3b33d88d3b
     log: |
-         5e0ab7e17c55aba1b0f1923ab5a9bd3342fdfe8e pylibfdt: Fix FdtSw.as_fdt() when buffer is nearly full
-         6b0371afc5329d7f07cc4f1ff4c5e10b598fadf1 pylibfdt: Add subnode/property iterators and get_mem_rsv_list()
-         
-  - ref: refs/heads/master
-    old: 79678159592b339286c4d61fe42e1450327a13ae
-    new: 6b0371afc5329d7f07cc4f1ff4c5e10b598fadf1
-    log: |
-         5e0ab7e17c55aba1b0f1923ab5a9bd3342fdfe8e pylibfdt: Fix FdtSw.as_fdt() when buffer is nearly full
-         6b0371afc5329d7f07cc4f1ff4c5e10b598fadf1 pylibfdt: Add subnode/property iterators and get_mem_rsv_list()
+         307eb24225c35d311fd63be862070af2711bab88 ntfs: reject negative attribute read positions
+         1f3c5ba3c55c112a0b33c03caa9d5f88bb9e7759 ntfs: initialize VCN when inserting index entries
+         4b927614d92d7326f265d22b50ba7b4a33966e48 ntfs: avoid overflow when limiting attribute read length
+         cf24d5d154c73d1ac79d7b73f8b42cf85167c5b8 ntfs: keep the file size on a failed initialized-size extension
+         564c7753647731d19170914c1c637d3b33d88d3b ntfs: fix a self-deadlock on writes to non-resident named streams
          
