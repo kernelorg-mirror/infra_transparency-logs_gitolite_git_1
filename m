@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5496008352985632189=="
+Content-Type: multipart/mixed; boundary="===============6446166522119299972=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 29 Oct 2026 09:34:29 -0000
-Message-Id: <179326646957.3391409.15123823021422356867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 29 Oct 2026 09:34:32 -0000
+Message-Id: <179326647230.3391738.12655470345273591408@gitolite.kernel.org>
 
---===============5496008352985632189==
+--===============6446166522119299972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
+  - ref: refs/heads/usb-linus
     old: 6b4b543fa18757297ac756a6fe6e64f506b7844a
     new: c339f4010dea8b0d754f84ace70cd1b089878ef8
     log: revlist-6b4b543fa187-c339f4010dea.txt
 
---===============5496008352985632189==
+--===============6446166522119299972==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793266468 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1793266467-baa6095bddadc5758e4d7b8dde449b0ed2fc400f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793266471 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1793266470-879873627912ad2c5b5af7d9ea73c1d2460814a8
 
-6b4b543fa18757297ac756a6fe6e64f506b7844a c339f4010dea8b0d754f84ace70cd1b089878ef8 refs/heads/tty-linus
+6b4b543fa18757297ac756a6fe6e64f506b7844a c339f4010dea8b0d754f84ace70cd1b089878ef8 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrjEyQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JogP/RW8nRXWBUClZ5S7EOSH
-dIYNqkPCBuNyUrG9U1rGgNSEXJMvb1Fo+CMBrTSA1Bnvg2kRpIiTneLTEULOpjgZ
-ZesNox5HBdPzxKM5nZx5fhbCopQiqMxEHEoXoMQ2clHmxNBt5gnf3PARrb+1Bb7r
-EfGoS6/JMrP8guwvcezBBFNzziXtQLtjcHH67iLFlHTptjGhZ609CqkNXVmVt64a
-kUhtnyAEzhjnwzR3td+kO/ANn83/iLkTu4HM+dg4e1LWC/k0XK4XksoUnFb/LB1O
-M6kpLKexWo13k3BbTWBpvUDFSq0B/RsqSuWt0fA+oFNjRUSPy4p/nT+QpbWV2bjB
-03JHTog1oR8N5VfGzt6czZh8/utmkgvNzOwh4s2CM63X/SSfe9T9Je77oAPL/UrB
-5WxUOgNNm36AQsCdNUyY7qyZg4Lf/CaslQD4OM/TjoyE14S/UP2qq6tD1ypYcKMd
-689KIfaeJao/+raJzrJGSHh60dWz6ycwGkJ7kVixqHZCZQcylPYB5X9Q9R0/owcV
-ziE3HjhvhN7SUBuLZ4xYwsdUJb8Wju6/rKynpJNgPeb0fIJcgVgLCMT1LgSmOgQV
-3pCIb2De/n/gEclpSWX5HhpcTPvP++6kjjNClAXOV1Y5dQigYEewUgUpyjt43nzU
-PL0ozvGLDt6EjqvD3D6DOo2E
-=r9hZ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrjEycbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+q8YP/jk2odBdiFi4jsAOBIAL
+1nbmxmQ0O3WLbA85o5reSHCdxDtw+ugwH+WMPl88f8K/0mtJ4+3xyVDcsEC8k5fF
+mGMaJJ0pRPY6UKVFwGVSZCF1X7yEWsUjM36ablwQFE61pid9niZA5l9xEka1rt0A
+ov9y5hNH41FHTtt4RiBWg/RvAUQKsF9nXJRScJi2EklhQ4ykWzD5alzRyJ0Vv8eM
+BBs8VGsBE8HsDfeoQUJnUfQbdQ0NmIf+p0MisLHL+Nee9GcmTYMjtAQqvOzNsIT5
+jb8kI2SNxoZ9XWouHE7C3eG/8VqZwD+adyTaW5M4d50atFZ961hIpEOS3SQBAgKw
+KZZinm0GzQOuS782K6LH9yEFVOHUkd29giwjZy5U8kmlz9/32LwBQR7OOs14lQlJ
+MniwF46CRJvMbosoxSu+EQafNR89Ia4K4vg4lDbg3TfCD/mkeSKvUpNsOv+q7JID
+9p03JR7gjzboJlzouE7c4GeJNgi8sUemuMktfsRyvXYmS4GLKKKG3VSdFYWquj+V
+rkFjPptnvufMNXT4k/myv+O+/zLRJX5zO9skv2HARXOHy+nKa9dfIMkqAQleL2s5
+7ihbOLHYezdLE/bcxwmuVod+mZBQMGMj187PU6MaN9lyKM49zHAcgIsLBJK8Q0x5
+MCzbSBWNH+JgU8qU9FqMZJu1
+=EwiE
 -----END PGP SIGNATURE-----
 
---===============5496008352985632189==
+--===============6446166522119299972==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ ae3690eb2a994dd74a43639d6bf800b51f18b48c Merge tag 'dmaengine-7.4-rc1' of git://
 d738fbd1a8b9d82ef5ea0d54a9e2b3ab7f1c24dd Merge tag 'media/v7.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 c339f4010dea8b0d754f84ace70cd1b089878ef8 Merge tag 'platform-drivers-x86-v7.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 
---===============5496008352985632189==--
+--===============6446166522119299972==--
