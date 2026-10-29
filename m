@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5479791614806615216=="
+Content-Type: multipart/mixed; boundary="===============6038314474020243221=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 29 Oct 2026 14:51:03 -0000
-Message-Id: <179328546353.68301.14071849724517758868@gitolite.kernel.org>
+Date: Thu, 29 Oct 2026 14:51:13 -0000
+Message-Id: <179328547332.68623.5245498912690491993@gitolite.kernel.org>
 
---===============5479791614806615216==
+--===============6038314474020243221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: a90ee4305c4a5df72c11b31dacfdc76e00fcf78a
+  - ref: refs/heads/usb-next
+    old: d446199711161e35c7f97f1556753c81546fe0e2
     new: c339f4010dea8b0d754f84ace70cd1b089878ef8
-    log: revlist-a90ee4305c4a-c339f4010dea.txt
+    log: revlist-d44619971116-c339f4010dea.txt
 
---===============5479791614806615216==
+--===============6038314474020243221==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a90ee4305c4a-c339f4010dea.txt
+Content-Disposition: attachment; filename=revlist-d44619971116-c339f4010dea.txt
 
 8f3a933fa1a7f92a18a56d6e612955d033406efc net: phy: realtek: support unaligned RTL8224 PHY packages
 985e3250586b966d6c26d88b6aa09877746af313 Merge branch 'support-unaligned-rtl8224-phy-packages'
@@ -1051,4 +1051,4 @@ ae3690eb2a994dd74a43639d6bf800b51f18b48c Merge tag 'dmaengine-7.4-rc1' of git://
 d738fbd1a8b9d82ef5ea0d54a9e2b3ab7f1c24dd Merge tag 'media/v7.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 c339f4010dea8b0d754f84ace70cd1b089878ef8 Merge tag 'platform-drivers-x86-v7.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 
---===============5479791614806615216==--
+--===============6038314474020243221==--
