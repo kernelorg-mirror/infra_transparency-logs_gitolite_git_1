@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8379844789826345372=="
+Content-Type: multipart/mixed; boundary="===============5710640430008871298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Thu, 29 Oct 2026 19:37:02 -0000
-Message-Id: <179330262296.286780.15805834050999105473@gitolite.kernel.org>
+Date: Thu, 29 Oct 2026 19:42:15 -0000
+Message-Id: <179330293586.290915.12930378522541705610@gitolite.kernel.org>
 
---===============8379844789826345372==
+--===============5710640430008871298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 62c457528529cdcfa32bc52b331ceca10f3937b6
-    new: 28cc85d0d0f65339b99b396b5b2b83d52b7f83fd
-    log: revlist-62c457528529-28cc85d0d0f6.txt
+  - ref: refs/heads/superm1/usb4-d3cold
+    old: b18c1ce29660789da3e35d409219e584516a6c1c
+    new: 3299d2f9ac760b69bc84e4964caae033fbc6e672
+    log: revlist-b18c1ce29660-3299d2f9ac76.txt
 
---===============8379844789826345372==
+--===============5710640430008871298==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-62c457528529-28cc85d0d0f6.txt
+Content-Disposition: attachment; filename=revlist-b18c1ce29660-3299d2f9ac76.txt
 
 7ca608cf6b842685bbbe131d4f7d638f7cdc2b5d dmaengine: ste_dma40: Fix probe IRQ leak
 f71ef686f913c8e9771a54466a76d653b83cd3dd dmaengine: ste_dma40: Fix DMA registration unwind
@@ -1048,7 +1048,7 @@ cb01c6914ed57a68b4f5d67f47208e24f9a45408 Merge tag 'docs-7.4-2' of git://git.ker
 d011f648a708b231f7ef28c18ff30c815b07fe56 Merge tag 'kthread-fix-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks
 46806af187f448b0d5481f284e7c900a57ee6a6d Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 4dd16e31135ea8437a720222df34e8745f385d6d Merge tag 'net-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-ec05bac56ad3872a399363e967f6964e202cd837 cpufreq/amd-pstate: Keep minimum requests within policy limits
-28cc85d0d0f65339b99b396b5b2b83d52b7f83fd cpufreq/amd-pstate: Clamp desired perf on resume
+e915280868c677116042166b141f6bd8dfd591b3 thunderbolt: Wait for NHI to enter into D0 during runtime resume
+3299d2f9ac760b69bc84e4964caae033fbc6e672 thunderbolt: Wait for NHI to enter into D0 during runtime resume
 
---===============8379844789826345372==--
+--===============5710640430008871298==--
