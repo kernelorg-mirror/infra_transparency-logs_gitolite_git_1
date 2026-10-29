@@ -1,27 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 29 Oct 2026 00:11:32 -0000
-Message-Id: <179323269259.2918703.4347533872710541835@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 29 Oct 2026 00:27:04 -0000
+Message-Id: <179323362490.2929204.2024072839206465990@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-linus
-    old: 99203e8d8968def973e82bb712ea959c6a46c16e
-    new: bbe41586cdfa9aeb95d24b5682ce3a0f528e9648
+  - ref: refs/heads/main
+    old: 4f43dff327d914cddf7218db1770a32ec4f4e959
+    new: 8146be04908d3efbe3c6e130f551edbfd7a9dab8
     log: |
-         3b54e739273752b370e49b09976da152fa3b802c ASoC: xilinx: formatter_pcm: Fix read-modify-write of AUD_CTRL in hw_params
-         bbe41586cdfa9aeb95d24b5682ce3a0f528e9648 ASoC: imx-pcm-rpmsg: Flush pending work in hw_free
-         
-  - ref: refs/heads/for-next
-    old: 99203e8d8968def973e82bb712ea959c6a46c16e
-    new: bbe41586cdfa9aeb95d24b5682ce3a0f528e9648
-    log: |
-         3b54e739273752b370e49b09976da152fa3b802c ASoC: xilinx: formatter_pcm: Fix read-modify-write of AUD_CTRL in hw_params
-         bbe41586cdfa9aeb95d24b5682ce3a0f528e9648 ASoC: imx-pcm-rpmsg: Flush pending work in hw_free
+         4c6fbb1fbafa85029fa789b5b01f39ebcb459d1a ipv6: Protect multiple routes insertion by table lock.
+         8146be04908d3efbe3c6e130f551edbfd7a9dab8 net: mctp: usblib: Fix broken assertion
          
