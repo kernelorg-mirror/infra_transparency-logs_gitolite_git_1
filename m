@@ -1,25 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 29 Oct 2026 16:53:20 -0000
-Message-Id: <179329280099.163464.16081751217604212055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 29 Oct 2026 16:58:22 -0000
+Message-Id: <179329310272.167202.17380660167287232279@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-linus
-    old: bbe41586cdfa9aeb95d24b5682ce3a0f528e9648
-    new: 11ae63bd9030349a0136fb2edd1622a4a029edc8
-    log: |
-         11ae63bd9030349a0136fb2edd1622a4a029edc8 ASoC: SOF: Intel: hda: Stop the controller before freeing its DMA buffers
-         
-  - ref: refs/heads/for-next
-    old: bbe41586cdfa9aeb95d24b5682ce3a0f528e9648
-    new: 11ae63bd9030349a0136fb2edd1622a4a029edc8
-    log: |
-         11ae63bd9030349a0136fb2edd1622a4a029edc8 ASoC: SOF: Intel: hda: Stop the controller before freeing its DMA buffers
-         
+  - ref: refs/tags/net-7.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 966a1082a9508eb237c505f3c519aeccd2f619ae
