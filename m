@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2253906429219902424=="
+Content-Type: multipart/mixed; boundary="===============4776165144924798581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 29 Oct 2026 10:09:08 -0000
-Message-Id: <179326854824.3417976.17985899515219543638@gitolite.kernel.org>
+Date: Thu, 29 Oct 2026 10:13:00 -0000
+Message-Id: <179326878021.3421468.17034156795816742061@gitolite.kernel.org>
 
---===============2253906429219902424==
+--===============4776165144924798581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,60 +17,56 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: c339f4010dea8b0d754f84ace70cd1b089878ef8
-    new: 3ee1e1c3fca6fb5d0abbe0fc91539951ffa60aa7
-    log: revlist-c339f4010dea-3ee1e1c3fca6.txt
+    old: 3ee1e1c3fca6fb5d0abbe0fc91539951ffa60aa7
+    new: 78585f90feb3bbaf3b1c642294c8c47e451dc3cf
+    log: revlist-3ee1e1c3fca6-78585f90feb3.txt
 
---===============2253906429219902424==
+--===============4776165144924798581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793268544 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793268777 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1793268544-bc1d01316642ef6367a40f1b7dd415fe40e55aba
+nonce 1793268776-938a8f938946443f42ea48ed1d783479f837e2e0
 
-c339f4010dea8b0d754f84ace70cd1b089878ef8 3ee1e1c3fca6fb5d0abbe0fc91539951ffa60aa7 refs/heads/usb-linus
+3ee1e1c3fca6fb5d0abbe0fc91539951ffa60aa7 78585f90feb3bbaf3b1c642294c8c47e451dc3cf refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrjG0EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cNoQAKfTINQHqzGH9/6ofeVC
-v4fRi3u9hIZfPXz9akG8sgYQ5uyYWjyH3t1BGRcFa19wIoVqKFvBELwl9dIFOTM6
-KeNU/6DqWF7Qqd5BD8rj6RmOefD6gSjLeHEyjjQhLqE9H+rmlw2Sym6VWuK9t7qX
-oVtVrSmZoROUbUdvILtDIqIyuTisGn5FLXeuTyqogQEUO4a7ZmXFSnc/O+as3LMb
-6JUjKQ9hrKUETIL8yutKtLpNbMvpNqW166DIL1CU361XqR2FaVQDcR4hxVVyW8EV
-zCtwgXbKSNayPtRvOAWc55lllVC/wZ7aRfku1+EM6QD5NO0BlyU80aIC9eE23M9D
-qIh4oDgup8I72wg1z2QvDENDjvg0JblgaLTwuXhxlJfSxVsjEcIn7eYdayQ89I2B
-J0zj9Me8GsxCOJETnFWEwzR51TjBwNQ5zYSjmaUmti5dP/lNMxONHvrpdviJ5Ysx
-DkyDTRgwEpLj93D/RLzQs1NvZRcDRrg9qca+6AdNGEqXd5FMrmx24UfPqpyb7sO4
-jhyD/xWqJtA0iDVjY+tHIFKZVGj0tNIMBqG1jmw7XUgeFdfjCXQzQaf/HMITRzID
-/5gr4k4dLqCFd3CD/SvQeqm2KsvTUVD/xm4CF5Jnmq7mDs7w12fLZLmmyL6dmCdz
-phoTRXy7vYY96q2EW/HqmH9G
-=/0GX
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrjHCkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nJIQAMsfhqNWg9oT778hyE82
+ZC0rMIpfbeym6sOUIEhbmIX9x81ZTxAqEUD9/T51qYnKCLifJ7e7Qytcknu0GYck
+C0mEL1TTcPm0+AbQAxYiLKzNuITAWCONhSoYzSWvxGQ9X6TMf3c0dS7ZiNdjAC2L
+TSrnBmZizH+AfC7a/Osb+ubZMbkttt8CrLF11D7O4ABMy/b1gJax7+T08/Ytrmc9
+jv9pxzrPnyvHBvtyIz7soZpuPEG/f/UqDhEYc2ai/QHys808PKKXBUZYNBoKvMKx
+rnJLyvAbzWQT1rjJtKspLL8/dCwF/vvGQ9xGvr1fr9p/67SZMt3po+u4R74ilZ7W
+ZNG7tfKNSUbr9MB5TH7bUzXJ5ivWT8K9iMvpjCExPnOSnbnffw6KSnZzGchxpK9z
+HJ9BSAkxYQVQrftCcO/EdUdPVyMOvHx9ScFum5CYQjhI3T11mwjO/Mp7Dh/HDcvI
+yWpiMmJtqxcg2G3u7+K/Xq7MMFlWsUzuZ1BtnLDPYPU0j7qzKTwz1BjbUKj6nB3M
+5L9Sk4XnK6F294joaur5/7CX24jz3YH7zxKyycTBfsVhrIA/TR5ThNNcUOTNC4AJ
++RuKqKXy35E8ytA/Ck5kIP6ShrYfDgjxd0SH0pP9EfJnFVs4WdLWJTtCNnQOmZak
+h5biMPjMTIPnPKfww/G2jGom
+=mlqz
 -----END PGP SIGNATURE-----
 
---===============2253906429219902424==
+--===============4776165144924798581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c339f4010dea-3ee1e1c3fca6.txt
+Content-Disposition: attachment; filename=revlist-3ee1e1c3fca6-78585f90feb3.txt
 
-2fad8d241a6833d0c7aeafa0ab596e83c7b4ec9c usb: dwc3: xilinx: fix system suspend and resume PHY handling
-f33f0dd2eb014bffda02ecfd182de3ddab058596 usb: dwc3: xilinx: re-assert resets on ZynqMP init error paths
-6c6508e742b47539224eb18cb23f7ed5d401dcb6 usb: dwc3: xilinx: unwind ZynqMP platform init on probe failure and remove
-688bee95b42395f5d127cbd7523d52b218ae5f8f MAINTAINERS: take over dwc2 maintainership
-5b4b83c2ffe8740f6f3e54ea4d4962a62c063ef1 usb: typec: ucsi: Set ucsi->connector before enabling notifications
-ea6cf69ad03c8d85138830c0d2c3b946b5ae231d usb: gadget: u_serial: fix NULL deref in gs_close() after failed open
-fafd23d61494461256d374f67c121f2712e1af2f usb: uas: ignore UAS for ASMT135x bridges (174c:55aa)
-fdaca138694111153f96c7d76877734b9dbf0e01 usb: usbtest: prevent divide by zero in simple_io() with zero length
-bc9dd21ec61acd152d9e7c12cb07db37c63ad41a USB: cdc-acm: fix NULL-deref on hangup
-450fa94d7ae9fc91c3df525f5d1322bf8fecf7b2 usb: gadget: f_mass_storage: take filesem in nofua store to fix backing-file UAF
-d8090de52e0a8f1761ced4fc31d52a3e289e341c usb: dwc3: trace: Restore request name assignment
-2022b10726be78849626ea3fa33038ee96a54e46 usb: typec: nb7vpq904m: Set client data in probe to avoid crash on remove
-89aaaa26f6985d55676fc5c90440f279733fa132 usb: typec: mux: fsa4480: Keep the USB 2.0 switch on in DP-only modes
-7cfb037005c04b9dee5b0c4626e56e2eddeef157 usb: typec: ucsi: debugfs: Fix GET commands on UCSI < 2.0
-3ee1e1c3fca6fb5d0abbe0fc91539951ffa60aa7 usb: typec: ucsi: acpi: Assume UCSI 1.0 on HP ZBook 8 G2i 14
+5eb11b1647b0534b3a61a21473d77ebf4ffbed7c usb: dwc3: gadget: Reject requests to a disabled endpoint
+af91c6322e633504aa45de278f5d520f39d127be usb: dwc3: gadget: Track a timed out End Transfer
+f2bd20f92a7dc68980a6098397503067192ce63a usb: dwc3: gadget: Clear delayed stop on End Transfer completion
+e616d91e02881983e5dadf6980c4aa08123800b3 usb: dwc3: gadget: Issue no-op Start Transfer only for stream endpoints
+1338410c21a5710b7ba88057034d35367ba0f054 usb: dwc3: gadget: Wait for End Transfer completion on ep disable
+7c9bc134e5b3315e0456cda9e8e59c752309ea78 usb: dwc3: gadget: Reset endpoint flags on controller start
+61575534fb05d52d36979f38976ece74649f091a usb: dwc3: gadget: Recover from End Transfer timeout
+03e3c33fe074ba57ae4457894fe5b6a90e3be6ee thunderbolt: stream: Undo more if the start fails
+1981b53c2b52a00f0f4b9eb87183c9aedc8dac5d usb: gadget: u_serial: pin ports while TTYs are installed
+78a8d6537f1de34770e460edee360b556ef40427 usb: gadget: f_midi: fix UAF race during IN request handling
+78585f90feb3bbaf3b1c642294c8c47e451dc3cf usb: gadget: f_ncm: restart the TX timer if the TX freelist is empty
 
---===============2253906429219902424==--
+--===============4776165144924798581==--
