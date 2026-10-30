@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8717845081308407375=="
+Content-Type: multipart/mixed; boundary="===============6789265315917530079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 30 Oct 2026 06:10:10 -0000
-Message-Id: <179334061091.739971.1132139351999150899@gitolite.kernel.org>
+Date: Fri, 30 Oct 2026 06:10:37 -0000
+Message-Id: <179334063736.740268.7348530743942859332@gitolite.kernel.org>
 
---===============8717845081308407375==
+--===============6789265315917530079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 304878ac70de5652709e3d10b589d67be7eccd5f
-    new: d0dd46399f608c2c915dabdf38e252a63d677004
-    log: revlist-304878ac70de-d0dd46399f60.txt
+    old: d0dd46399f608c2c915dabdf38e252a63d677004
+    new: ce476a7f22d528810f71d21c7efe19a23f3c462d
+    log: |
+         d26c60d1a5d345522f08e7692d5a422ce8a62e7e Merge branch into tip/master: 'irq/urgent'
+         ed7a0411db7eccfdc47e2b3ded90ef3da6ece782 Merge branch into tip/master: 'timers/urgent'
+         ac6dc06fac13b968b8ef3a8455427ec48cd7ab62 Merge branch into tip/master: 'x86/apic'
+         ce476a7f22d528810f71d21c7efe19a23f3c462d Merge branch into tip/master: 'x86/misc'
+         
+  - ref: refs/heads/tip/urgent
+    old: 7dda0bcb08bf15dae6590d5fb827d798281383bf
+    new: ed7a0411db7eccfdc47e2b3ded90ef3da6ece782
+    log: revlist-7dda0bcb08bf-ed7a0411db7e.txt
 
---===============8717845081308407375==
+--===============6789265315917530079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-304878ac70de-d0dd46399f60.txt
+Content-Disposition: attachment; filename=revlist-7dda0bcb08bf-ed7a0411db7e.txt
 
 85482241f208975fcaba8c1892d2cfc95f6ef5aa fs/ntfs3: document ads, nocase, and delalloc
 cd31336c23f6e40826675880396b45b32ef33fcb fs/ntfs3: convert to non-resident when the new size exceeds the record size
@@ -445,6 +454,7 @@ fb7bd3a2aad70a76232a7168a505386d0a1396af Merge tag 'rust-fixes-7.4' of git://git
 5fade975d5632280855d03699edd22c0689e3a3f Merge tag 'kgdb-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/danielt/linux
 0ff8f40110872ecd3a9918e56ddd0ff1b46fb10e Merge tag 'ntfs3_for_7.4' of https://github.com/Paragon-Software-Group/linux-ntfs3
 d89e1d186ec9271bf78e62771779e9fc03bf0fc3 Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
-d0dd46399f608c2c915dabdf38e252a63d677004 Merge branch 'linus'
+d26c60d1a5d345522f08e7692d5a422ce8a62e7e Merge branch into tip/master: 'irq/urgent'
+ed7a0411db7eccfdc47e2b3ded90ef3da6ece782 Merge branch into tip/master: 'timers/urgent'
 
---===============8717845081308407375==--
+--===============6789265315917530079==--
