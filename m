@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Fri, 30 Oct 2026 13:34:00 -0000
-Message-Id: <179336724057.1325671.12802281902029007232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Fri, 30 Oct 2026 13:54:40 -0000
+Message-Id: <179336848064.1339471.6672558479646241862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/for-next
-    old: 70866cfa169d5ee149364267289e71d50f9a7ae9
-    new: 81cb9aa432468444e8c883eb45028133a7a27bd6
+  - ref: refs/heads/devel
+    old: 266364e46abc437f50c4d28d0748a1813f1e77fa
+    new: da8a01a21940c522351f95d3b8e5df5ef647e85d
     log: |
-         22d9db9fd64a493525d692b32c556875b7254665 io_uring/sqpoll: don't attach to a thread that is canceling
-         81cb9aa432468444e8c883eb45028133a7a27bd6 Merge branch 'io_uring-7.4' into for-next
-         
-  - ref: refs/heads/io_uring-7.4
-    old: 3e3aebb7570ccdde5cc49c9bfc8fd3a436b71b0c
-    new: 22d9db9fd64a493525d692b32c556875b7254665
-    log: |
-         22d9db9fd64a493525d692b32c556875b7254665 io_uring/sqpoll: don't attach to a thread that is canceling
+         8408632b1e066f3b86bbd85f37974622cbe28f81 dt-bindings: mmc: mtk-sd: Document support for Airoha AN7581 SoC
+         da8a01a21940c522351f95d3b8e5df5ef647e85d mmc: mtk-sd: Add Airoha AN7581 MMC compatible
          
