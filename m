@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 30 Oct 2026 21:40:37 -0000
-Message-Id: <179339643760.1733698.11444062325478587732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Fri, 30 Oct 2026 21:41:31 -0000
+Message-Id: <179339649144.1734540.7628292323913408738@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: d9130c9f6535392d423351ffb5521e7689cae6b6
-    new: 7073ba6c3383159deb5c1fd47b5b91a68bbcfd04
+  - ref: refs/notes/signatures/tar
+    old: c5e6fc45e0c52a9073fbb1fa906b6d5ea9402bb6
+    new: ef05e4d94b433a193a017342a158347d73d6db02
     log: |
-         7073ba6c3383159deb5c1fd47b5b91a68bbcfd04 sunrpc: fix lost wakeups when stopping service threads
+         ef05e4d94b433a193a017342a158347d73d6db02 Notes added by 'git notes add'
          
