@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 30 Oct 2026 22:04:39 -0000
-Message-Id: <179339787932.1772940.6457396383891503304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 30 Oct 2026 22:09:10 -0000
+Message-Id: <179339815074.1776651.15536935410428771946@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/pending
-    old: 4d91b9f8c45c3dd64efe44a4dbceadab89900a1e
-    new: bdd6cafb588344518af7951ae2a1540950ebe3cf
+  - ref: refs/heads/main
+    old: 84574c7e46386255465bc518b5b8cd780063f3ef
+    new: ed6c53b27be492643da2017c6f8e2732be5edf1a
     log: |
-         bdd6cafb588344518af7951ae2a1540950ebe3cf wifi: ar5523: don't select ATH_COMMON
+         ed6c53b27be492643da2017c6f8e2732be5edf1a sctp: account for chunk padding in sctp_init_cause()
          
