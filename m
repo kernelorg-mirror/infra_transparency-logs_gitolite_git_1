@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-next
-Date: Fri, 30 Oct 2026 22:46:57 -0000
-Message-Id: <179340041752.1810654.2652303167165083052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 30 Oct 2026 22:49:44 -0000
+Message-Id: <179340058431.1811492.11590751767139326762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-next
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/next-riscv-fixup
-    old: a470e117cc5000213ca19650bfce1bb3f619ca09
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/next-smu14-fixup
-    old: f3d53a2ce132ca8c0394d42e2a5826c43b4a5f0b
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/main
+    old: ed6c53b27be492643da2017c6f8e2732be5edf1a
+    new: 8dc87fc5d6a0eb337744737008177342a708bf36
+    log: |
+         8dc87fc5d6a0eb337744737008177342a708bf36 net: Use a dedicated flag to track disabled napi instances
+         
