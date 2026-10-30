@@ -1,28 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 30 Oct 2026 23:14:44 -0000
-Message-Id: <179340208451.1831057.5450940373756276018@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 30 Oct 2026 23:18:14 -0000
+Message-Id: <179340229453.1834455.6177583373352446625@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: c62ae1d21ff97ecc995518f24dbb89156b1eb53a
-    new: 090ef659b1f31fe852e956b0ebf274cc7d967cb7
+    old: 603a0c40d414ea12509fc45f2b930449a8d4aad2
+    new: 7b29287b182fc50518e9e65c41f86d24a05b7205
     log: |
-         74c296e6c5318713ce7bb936e32052e68d98aabd Merge remote-tracking branch 'wireless/main'
-         7886f90b96b4161d91d993b21df03ccdcbf5372a Merge remote-tracking branch 'wireless-next/main'
-         62754d38288809c9a4f8ce4081cdafa3add4c389 Merge branch 'ath-next'
-         0d98a64d2437f4fbc326e95afe1ad0f4cc109959 Merge branch 'ath-current'
-         1f532aa91048a22c1ce4453af38c975e8393ccce Merge remote-tracking branch 'mhi/mhi-next'
-         29c04ce70ff45210a9cfaa57ec115bc0379ff611 Add localversion-wireless-testing-ath
-         090ef659b1f31fe852e956b0ebf274cc7d967cb7 MIPS: generic: Remove undefined image 'ramdisk'
+         0e4a135aebc7686286d87e286499ce55e5bd5aad ptp: drain virtual clock sysfs operations before unregistering children
+         3dea778260e3dddf30651a6913d87a42861346a2 ptp: unwind partially completed virtual clock creation
+         d1bdfdafd663dd00b01d43eb3391f87718f2a09d ptp: vclock: propagate physical clock sampling errors
+         d3fcce5afe3bb62e8f7a2efb29e43da4fe4ae1f3 ptp: vclock: serialize extended samples with counter updates
+         63787dfd1b5ae720cc30dab5e66c8e4d81ff7391 ptp: vclock: preserve missing hardware timestamps
+         7b29287b182fc50518e9e65c41f86d24a05b7205 Merge branch 'ptp-make-virtual-clock-sampling-and-teardown-failure-safe'
          
-  - ref: refs/tags/ath-202610302306
-    old: 0000000000000000000000000000000000000000
-    new: 090ef659b1f31fe852e956b0ebf274cc7d967cb7
