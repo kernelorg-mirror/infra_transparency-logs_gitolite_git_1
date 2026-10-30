@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 30 Oct 2026 22:14:13 -0000
-Message-Id: <179339845304.1781082.16672839455201421170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 30 Oct 2026 22:19:15 -0000
+Message-Id: <179339875544.1784814.4490036482968955342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/main-pending
-    old: 94d9735084582706f22af9f88d0a19a5449e00df
-    new: e82236428b5bbc86649bc1189d17b661ad1d3ed5
+  - ref: refs/heads/master
+    old: 3e4279dc5144a5afcda101df23792b13e94c3859
+    new: 1cd28b5354ab77c727ed87255bf289a87178b415
     log: |
-         4d91b9f8c45c3dd64efe44a4dbceadab89900a1e wifi: ath11k: don't select ATH_COMMON
-         bdd6cafb588344518af7951ae2a1540950ebe3cf wifi: ar5523: don't select ATH_COMMON
-         e82236428b5bbc86649bc1189d17b661ad1d3ed5 Merge branch 'pending' into main-pending
+         1cd28b5354ab77c727ed87255bf289a87178b415 bpf: Drop percpu_counter from the htab element count
          
-  - ref: refs/tags/ath-pending-202610302204
-    old: 0000000000000000000000000000000000000000
-    new: e82236428b5bbc86649bc1189d17b661ad1d3ed5
