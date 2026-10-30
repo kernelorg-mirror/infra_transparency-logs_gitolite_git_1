@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7124372607158738877=="
+Content-Type: multipart/mixed; boundary="===============5539350208340390546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Fri, 30 Oct 2026 14:52:21 -0000
-Message-Id: <179337194121.1393753.13640763299014582003@gitolite.kernel.org>
+Date: Fri, 30 Oct 2026 14:57:46 -0000
+Message-Id: <179337226620.1397523.9898509037847396691@gitolite.kernel.org>
 
---===============7124372607158738877==
+--===============5539350208340390546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/fixes
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
+  - ref: refs/heads/for-next
+    old: a22355280361d2a376a2020059a2bae11e6cea10
     new: 394c350a34b77f1bb065b675d356ab55b6462ed8
-    log: revlist-cee9395acd80-394c350a34b7.txt
+    log: revlist-a22355280361-394c350a34b7.txt
 
---===============7124372607158738877==
+--===============5539350208340390546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1793371939 +0100
+pusher krzk@kernel.org 1793372264 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1793371938-984fad291fc5830dc02d57aad7cc175396c03a09
+nonce 1793372263-882440e830d322cfd33284e7d12291369a06d3be
 
-cee9395acd8043be0644b25c34bfa86623f2b935 394c350a34b77f1bb065b675d356ab55b6462ed8 refs/heads/fixes
+a22355280361d2a376a2020059a2bae11e6cea10 394c350a34b77f1bb065b675d356ab55b6462ed8 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrkryMQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD15YUD/4lMfn6I/xQmddE3D/y/u9P64AoQNTHiGhA
-V4De4Uw92Woe52Yi/DAHr2J8RRfG2EfUYG6BUrSPqNlDOGstVcJ9DZD5zQnn0KEg
-tCuO8oS8auiU7scnU3UKI4z6VfNIFXQcAnpObtsttGwcaZa7w1Hv6eVv904V15zh
-LEOQ8SsT6WaeAyuoSS2xJZ0D1UZBgsfPcZTk7bMp5WBHNJMjsJjDBKd2DQcDwda8
-1ZAh5S3AdqjiXyrzJBUCFTUBgXYeYDpipq8+6Anu1CVTN8RFvhvwAY9s37Sp74CK
-GlNrdzJdcimAEcu0oVwO2FLpWt5f4bjkP97y34RzUUzAds8R5RSrRbpgt49Pl9FK
-FTvu7s7PR3UEnEmqKmEDKegkY7ET13E/1v78PJX8iNwG0tfnXHS9Wk/JpZin3y/9
-ohjbxtTdEbqwWicVJhOAv1lvVE6f87bqeHBALNfrvsMo3eWknDW2HBhwFuEp6KD9
-aIafRGM86yuHj1QBEsooPS1++7eMYbTQTSpnDBW8hKlaSYF/7wtLCEyTfwd+9Qq9
-d0mKkez56d3qps0e3AdpsKfXmM3cJiPRDC94OKn2Ur73noSRtNlJAuWnfRZeTkxA
-So22qdIuH1Je+4y1fm/VThuW22TAxpxvFaIzjIayZTVUP3/7knvtMU4MMsXGlbTK
-s5RcqG+2cw==
-=qO+K
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrksGgQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD11EZD/9gEwOw6nMUnHU9X+tw/QYH7G+ItShcsdIG
+A0D0jGooh+/wGxu7DR+RWbQfPDO/eyC2w2i+NiH+QUixZp7S0CHvoZmOHw6q5S+j
+F4ExCqgvi2jamnEPCgGBIQ24hFV6FVAcQ2/8glMmM54tc6wsSyHhaLJd1imfn2iJ
+k1T5TjstZm8YgbFjoEuHNNxjDpR7Bo6D0GmdIQVh9pHT9DaNr5hOyX64T7gftgjY
+XlGUrhuzRaR8VOPArXlBNA3bxdyVOg6EWiI1WBqUH2h0e7V05L5ahVZKEd8WJMHa
+dTbxT8Jx1gcNeBatdRKKnwyQ9Fq5HLPGla5GwC5AJx669J5uTtu0RHVxQ3WYnQGO
+FgqF65TD4628A3CvcQuw/w1hGjFmfYEAFdB3tLHIMEPNgiPkL9Acd7Sa0ggreape
+/j/3CrqYPqJg/SkUCF6w9CAm4/80kr58iFSG1xKMRsz9tgh8+nGy5nVh89+ZzsnK
+BayL+yTWqQGghq8zn1W2nKa7W5biUZm3y44glGIZhJ33m0dIvY5ewwvyb7y3KZ+R
++InbLAkbrwOR0eCqC7MeHNPq9AvcatCEiZblzZ2XwIzdYX0tu9wuxHlV0kGBIhv2
+71WOyPM7MDgBMU98S4IrEuWuZTek1jfKSNj86gA7UuwVYuGJCOIfLr4/fY1Jw6yW
+6lNapsNOIg==
+=ZYn4
 -----END PGP SIGNATURE-----
 
---===============7124372607158738877==
+--===============5539350208340390546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cee9395acd80-394c350a34b7.txt
+Content-Disposition: attachment; filename=revlist-a22355280361-394c350a34b7.txt
 
 93de2a6a4b91b72607136dd656edf03fb399d27f KVM: SEV: Do cache maintenance on the source VM during intra-host migration
 c2f24f140c2ee6c00775c2a93c6ac931acec2b60 Merge tag 'kvm-x86-fixes-7.3-rc5' of https://github.com/kvm-x86/linux into HEAD
@@ -1082,4 +1082,4 @@ f909e534f5e34feb2ea2701d54df63e21aa506fc Merge tag 'scsi-fixes' of git://git.ker
 c03c1a14507dfaf8b856c2608f9ac216021fc222 Linux 7.3
 394c350a34b77f1bb065b675d356ab55b6462ed8 memory: tegra: Shut down Tegra210 EMC timers before teardown
 
---===============7124372607158738877==--
+--===============5539350208340390546==--
