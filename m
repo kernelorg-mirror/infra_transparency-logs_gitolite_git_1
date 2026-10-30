@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8951922430051844940=="
+Content-Type: multipart/mixed; boundary="===============4024029058030692186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 30 Oct 2026 14:13:39 -0000
-Message-Id: <179336961988.1357883.13639573104107901016@gitolite.kernel.org>
+Date: Fri, 30 Oct 2026 14:13:43 -0000
+Message-Id: <179336962309.1358070.16422994592293435922@gitolite.kernel.org>
 
---===============8951922430051844940==
+--===============4024029058030692186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
+  - ref: refs/heads/char-misc-next
     old: c339f4010dea8b0d754f84ace70cd1b089878ef8
     new: d89e1d186ec9271bf78e62771779e9fc03bf0fc3
     log: revlist-c339f4010dea-d89e1d186ec9.txt
 
---===============8951922430051844940==
+--===============4024029058030692186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793369619 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793369622 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1793369618-485ba86a6956d28472f92193354be98a61e02632
+nonce 1793369621-2f80ca97c119c7aea7e4dab25df52eb047829186
 
-c339f4010dea8b0d754f84ace70cd1b089878ef8 d89e1d186ec9271bf78e62771779e9fc03bf0fc3 refs/heads/char-misc-linus
+c339f4010dea8b0d754f84ace70cd1b089878ef8 d89e1d186ec9271bf78e62771779e9fc03bf0fc3 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrkphMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zRgP/A3bszaWdq93UF/mbOx9
-oUEDZZwcKJdQtfBeCyMrYV1g56GJp0Oa5cF/WWB2aKAqC7bypuwaMKgaKdBw9R0S
-XdkHpH+xanY3fR8pR0BoAqzitDi0DYo2Dt49HEzS2auiGhJW+RGJIWWM3oYn1F5h
-KMFCKj24oFM2aI2DYQ6IzslvBQo3RQsmkEVMJPE33J17fzkCx2pW1IcQ1/dn+v3+
-RJ6wQs1tZmPL0INCA9VOY/YcF5CsUI5btJAhP4q/Abu+mREkos2nLAM67oBErUbD
-my8yc9/cRE4/scPQV7HPED7ZWSG3Fb7S1/pEqbM+3gl9lM/nY+BbLJn50Kt/Cfa3
-VCwERhOpd62UIUcDRYSwOsh7NE1ASLVXGPoRjBjjOJaX5xsgYueLRIBcBFO110/z
-b/MvPEu7G/wB6UM8iMYrb8c0jFFBDGWc394WKsnw9mIlmABZ5JFDa51/Yi1Pewjr
-EVs7TSI+XY0RXGmjutN1xi3WMewBO42FsAg+6QhGIlXksKsLKrD+5IgyIFkTDvcE
-BBbYpQsmxxxWIE2TjM80FxfLxStJRavFFO6pSsblZ4XRs5OpV+Cw/LQbicLhkX1I
-+owiIuaoratzZPMjezYgKBKrgIc2MsknRdoBGfrc6A3l7QFzc6An408D4Dk617L8
-Z8ioj/yYEdBEY6/vfOkMzdpW
-=Smqk
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrkphYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hl4P/0sTZQ4jHlagcUhdAi3R
+gYl3Dn/AvlrE4NnIK3LgRl/p37OB+D6W1q6JxcH+0xQ3CoAmKzVRYRMPgM5kuP0N
+NTKBvZLytAMExqPT/C60A7YEuZmANWVf1f+RRKgWohEyaYCRcQsUZz8UddSiR6l2
+yBMGEoZYhqEXTmyg92qmANNRVMiKxCTID7Vx1uWDViyjEd2e9vjxhTgAmxBKHWFx
+FG/pp9EMufnNwrfRee0Ar05SzOeQiCt5N4lZy5CM5DCCczXolRdLk1C6GwIAQb+4
+fOzvjjtOtDAPE29Y+45aUH9hblOVkTcmtp5iawy/+yVagArAKFPTAUoxpq9HWOr3
+Lg3KrxFNZ+Aj+OInTLSJBpO0O4ZIFmkgrGmWYYkdWE1r7ijCbwxKppxN9Pmlb/Pp
+asuDaBCL1OXmhQR98F2gKAXFEbjY7icIO4FDTvMP9bYzsnrGjIND9yd7aFWY4eoJ
+6PsgJOvkmDgSFj9QcdDJiyT4Ngh+B3uXHYYdzXnFjdgQqDJ+8ecQMHDN0BzbkO9p
+8QEYEcB0eFlNVkOn8NtnJRfNLaWFUIXEkJ0B+bjJP5pS3thncDbfuTN0eHZZHsz6
+R2QYebolWXGrWHaTn5rgg06NbjUSIYSLVkziUR5zXGRHG8r5MYwPGGMkJ9M5fmlw
+8NhIxq5pF4kzwUMgbTYQ7/g3
+=VSMg
 -----END PGP SIGNATURE-----
 
---===============8951922430051844940==
+--===============4024029058030692186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -477,4 +477,4 @@ fb7bd3a2aad70a76232a7168a505386d0a1396af Merge tag 'rust-fixes-7.4' of git://git
 0ff8f40110872ecd3a9918e56ddd0ff1b46fb10e Merge tag 'ntfs3_for_7.4' of https://github.com/Paragon-Software-Group/linux-ntfs3
 d89e1d186ec9271bf78e62771779e9fc03bf0fc3 Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
 
---===============8951922430051844940==--
+--===============4024029058030692186==--
