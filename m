@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 30 Oct 2026 20:54:05 -0000
-Message-Id: <179339364527.1670705.4535547247288801599@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 30 Oct 2026 20:55:10 -0000
+Message-Id: <179339371043.1673214.3062312558960879556@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: 06f8190a5a8ac3dda0c7f32aa27878d0482bf533
-    new: f68be6dfdf74f45a7428d8ed9d90f03f7b3f1e85
+  - ref: refs/heads/main
+    old: 08624cd0b8ac0fde63c0099efbe043f6ecd74b25
+    new: 1987bb2044a6c2d68c39d01c360bdbe17f1eb60c
     log: |
-         f68be6dfdf74f45a7428d8ed9d90f03f7b3f1e85 Fixes for all trees
+         f61bad71b577a2bc50452ff1ab2b244328750369 amdgpu: DMCUB updates for various ASICs
+         1987bb2044a6c2d68c39d01c360bdbe17f1eb60c Merge branch 'amd-staging' into 'main'
          
