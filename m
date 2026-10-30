@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Fri, 30 Oct 2026 01:28:03 -0000
-Message-Id: <179332368333.547805.1221452881139442052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 30 Oct 2026 01:55:14 -0000
+Message-Id: <179332531493.567568.12648892679697893202@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: mhiramat
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/bootconfig/fixes
-    old: 8a8e0d937ddcf567ea4d8e1aee1fecf72a2941c4
-    new: 1dc6d173c43e10a1d0ee36b43d0d2f371f4d262a
+  - ref: refs/heads/main
+    old: bcf20866cf559c19e6f33b10266fde45013e60b6
+    new: 33af2bf0c14509fca10a2fd53fecd6282484a6f0
     log: |
-         1dc6d173c43e10a1d0ee36b43d0d2f371f4d262a init/bootconfig: pass init arguments in documented order
+         2452612955cd7fd31f4cca30f129b9b9959c8da5 linux-firmware: update firmware for MT7922 WiFi device
+         33af2bf0c14509fca10a2fd53fecd6282484a6f0 Merge branch 'robot/patch-0-1793325085' into 'main'
          
