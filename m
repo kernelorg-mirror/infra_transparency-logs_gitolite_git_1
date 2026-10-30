@@ -1,47 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============7479315409592586263=="
+Content-Type: multipart/mixed; boundary="===============8997395369408613755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 30 Oct 2026 18:05:35 -0000
-Message-Id: <179338353555.1541941.7707104663296690717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Fri, 30 Oct 2026 18:14:01 -0000
+Message-Id: <179338404133.1546694.3064449162215299156@gitolite.kernel.org>
 
---===============7479315409592586263==
+--===============8997395369408613755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: b803428098f6fcd584db9f0499217b80e465bb34
-    new: d9130c9f6535392d423351ffb5521e7689cae6b6
-    log: revlist-b803428098f6-d9130c9f6535.txt
+  - ref: refs/heads/hwmon
+    old: 9c469ea75ec3ece9e86574897f54ff360008e38c
+    new: af970191238a9bac3e6cfff802675f8a14054020
+    log: revlist-9c469ea75ec3-af970191238a.txt
 
---===============7479315409592586263==
+--===============8997395369408613755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b803428098f6-d9130c9f6535.txt
+Content-Disposition: attachment; filename=revlist-9c469ea75ec3-af970191238a.txt
 
-2bf5cc5b0729b92ff62d7acffee4390326af1189 NFSD: Add per-export read/write I/O mode settings
-fa2dde080831509bd6e607e38f0dcfc2a798dc09 NFSD: Apply per-export I/O modes to READ and WRITE
-427ab11f19e8ac820ee78e2bf424b39cc9637648 NFSD: Document per-export read_io= and write_io= options
-23bfabf9641a2a7960cb335c1b97bfe0c15fb523 NFSD: Keep per-export statistics across export cache updates
-0855f12a01e2374bdd179027041a44a97062b7a7 NFSD: Count the storage reads of each export's READs
-8ab1a1c7d05dff67eea8c186f929b5645a20897a NFSD: Document how to choose an IO mode
-067b4eaab814f897ebfbbbd2d23b4151576fb6f9 NFSD: Serialize forced client expiry with state shutdown
-1ebc40a942d0b9a61615464d07614d49c118609f NFSD: Check machine credentials before expiring a client in DESTROY_CLIENTID
-1ac9a991fe0e04c0c4d20bb66f7b68572eadd6a7 NFSD: Make nn->boot_time strictly increase across state starts
-17a63158e13a1fae21544514a01e66a77898cfbf NFSD: Give each client a display id independent of cl_id
-d6523ce932b1fd286791a09e8ef615386483ea2e NFSD: Generate the clientid at random instead of from a counter
-2dcef2174dad24af9566947839614dfb166250d0 NFSD: Stop disclosing the conflicting lock holder in a lock denial
-5919393300da04e79423d3e23d374318814a10bd NFSD: Destroy the COPY_NOTIFY stateid IDR at netns teardown
-b3d8bda7941b3f938bbad74300cdf45e1b9ce00a NFSD: Put a random word in each COPY_NOTIFY stateid
-d2f1930c5a117fef56050fe35564480a35ea31fa NFSD: Fill the session ID's sequence and reserved words at random
-283d1d908cf22031f2f188fa159d7f6c952d5df3 NFSD: Add KUnit tests for the random identifier generators
-d9130c9f6535392d423351ffb5521e7689cae6b6 nfsd: pin the module while a server exists
+c06880d99a1440765e5978e5e39c7ac020556236 hwmon: (sht15) Stop deferred work before releasing its resources
+3a9758f721c1348bde0b53a75ea00068d9fdc5ed hwmon: (corsair-cpro) Cache fan target only after a successful command
+5e6fa27c61bb66de30e00988afe2fc31cb463012 hwmon: (aquacomputer_d5next) reject short status reports
+de277dee2e79e23f3b7e645825333c79113a7c23 hwmon: (pmbus/core) Register the thermal sensors with a 0-based index
+bd3c3d63644eff435d327b1749e27ca6ab2ce7a9 hwmon: (asus_rog_ryujin) Fix pump control source on the Ryujin III
+a6f6b2b0df18f6a10e588e3390ec958188486cec hwmon: (gpd-fan) Reset both fans to automatic on duo boards
+ea3d2e5df5979fcbe2bea8d796646e75e15758b6 hwmon: chipcap2: fix command error diagnostics
+e8d1568295627b205ed0987c13d803c490bd5281 hwmon: chipcap2: fix off-by-one in command mode retry loop
+930a68168e3572d095aa33f8ba7571cf61cd4706 hwmon: chipcap2: fix be16 handling
+504d125754294fa866cea7eef53e22d1c24d5b10 hwmon: chipcap2: defer probe when IRQs are unavailable
+bb8e9d3b38ba0c064f4ff287df293b2a64920890 hwmon: chipcap2: fix IRQ teardown ordering
+ab9f2189551323314aa9e2100cce5556166d2e30 hwmon: chipcap2: disable device after hwmon teardown
+411ffdcff6f576ea73c782f1e24b65ea14ac39d2 hwmon: chipcap2: enable IRQ processing when regulator is already enabled
+fa50be729ca29e33a59d0cf0854fedba942a861b hwmon: chipcap2: balance regulator state
+0b98bd0787aca1da7742eccd60924edc0856e1fb hwmon: chipcap2: do not discard pending alarms on disable
+2e600b7ad16b55b34c5a31b8218680850a0c26b6 hwmon: chipcap2: serialize access to the alarm indicators
+af970191238a9bac3e6cfff802675f8a14054020 hwmon: chipcap2: synchronize ready IRQ state
 
---===============7479315409592586263==--
+--===============8997395369408613755==--
