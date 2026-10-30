@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
-Date: Fri, 30 Oct 2026 00:03:17 -0000
-Message-Id: <179331859773.481653.16750775577632784124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 30 Oct 2026 00:06:07 -0000
+Message-Id: <179331876755.485249.14417858511289963395@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jj/linux-apparmor
-user: jj
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/apparmor-next
-    old: ce94927fa4173fcc1eca27bdc65a140064c8f1e6
-    new: ed35bbe7d06e6505401eff3f3c7a36bd1f167a17
+  - ref: refs/heads/main
+    old: 4dd16e31135ea8437a720222df34e8745f385d6d
+    new: 5838f10563d58afca6711edb5e4eda968ca181d9
     log: |
-         ed35bbe7d06e6505401eff3f3c7a36bd1f167a17 apparmor: fix uninitialized variable warning in aa_inherit_files
+         5838f10563d58afca6711edb5e4eda968ca181d9 seg6: fix transport header for inner IPv4 with IP options
          
