@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 30 Oct 2026 15:49:44 -0000
-Message-Id: <179337538476.1435484.11669184388082121161@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 30 Oct 2026 15:56:24 -0000
+Message-Id: <179337578452.1441968.2205248867328348492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
   - ref: refs/heads/master
-    old: 7101b10cf281f629ac58c99697ca6f6d082b99a7
-    new: 2ac399209a667b9b824c9674db23664e4b1e9914
+    old: 7e8d0278a462f604dd884db39b76d0ac3c1ad652
+    new: e4e2103039c6e50cdfa28baabfb5a2504548dfef
     log: |
-         d89cb6fa9a4e8f83d34dac06a94f27083976ac13 libbpf: Fix struct and union zero detection in BTF dumper
-         23048ca272f93cd35fc48ef322ef89af7a06b4a8 selftests/bpf: Add regression test for BTF dump zero detection
-         2ac399209a667b9b824c9674db23664e4b1e9914 Merge branch 'libbpf-fix-struct-and-union-zero-detection-in-btf-dumper'
+         e4e2103039c6e50cdfa28baabfb5a2504548dfef tpm: tis_i2c: Add reset delays for ST33KTPM2XI2C
          
