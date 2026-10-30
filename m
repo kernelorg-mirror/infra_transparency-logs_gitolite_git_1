@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============0938936871016746053=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Fri, 30 Oct 2026 20:51:00 -0000
-Message-Id: <179339346037.1669282.1751800544167039055@gitolite.kernel.org>
-
---===============0938936871016746053==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Fri, 30 Oct 2026 20:51:31 -0000
+Message-Id: <179339349164.1669677.13198360445268496956@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/master
-    old: 58c5901470c1fb0cd73749dff17eed0660abce3b
-    new: f9b025395e6f5127418c41b0953d436141a140b7
+  - ref: refs/heads/rtc-next
+    old: 27ff8c706ba41753b585d9f23d75921bc888ce5a
+    new: 3b6cdc36553b1fe627f782a7f5efe5ffc806faa1
     log: |
-         f9b025395e6f5127418c41b0953d436141a140b7 Update 29C93EA3499D9626 (Joshua Crofts)
+         c2373bcd50d9654b76eac585c7c98105665b3321 rtc: ds1685: arm the wake-up alarm at power-off only if an alarm is set
+         21a829af60a7f5c7456f1f0ff9b6b0eff0ceb738 rtc: ds1685: do not sleep in the power-off handler
+         3b6cdc36553b1fe627f782a7f5efe5ffc806faa1 rtc: ds1685: keep setting PAB until power is removed
          
-
---===============0938936871016746053==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1793393459 -0400
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1793393459-f9fdd42d2bd101efce574683e371be11818058d8
-
-58c5901470c1fb0cd73749dff17eed0660abce3b f9b025395e6f5127418c41b0953d436141a140b7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCauUDMwAKCRC2xBzjVmSZ
-bA/IAQDEIJl+x3QetlFGgeN4sKbLHJlq//crA7jR5FCA6prBOgD9G3xFCBdeDO1G
-AqPTaw60Lp9N3Q3EIg58w7dFXGTnoAE=
-=OylC
------END PGP SIGNATURE-----
-
---===============0938936871016746053==--
