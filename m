@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 30 Oct 2026 18:32:48 -0000
-Message-Id: <179338516813.1561438.6564740871794246451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 30 Oct 2026 18:34:36 -0000
+Message-Id: <179338527626.1562113.1807311016652919474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 88dac9ca8dbfb747f95219d07c7817c03faeb6ba
-    new: 3858065641e781f44acd68a50ad6a3482d8787f9
+    old: bd5c762ac0519a8c62141751c893cd25a1ad8940
+    new: abf8c33470f78e2226ee3dcdc69004660020ab47
     log: |
-         c9b2a0975c3937b83cfedcdc9bfebcb7fce26386 libbpf: Reject gen_loader set after PREPARE step.
-         899345f5d768e97bd08b85548234a7ed622fe65e libbpf: Free func_info, line_info and subprogs in bpf_program__exit()
-         5db39ae40725aa349eb6afbb90f97191503167a4 libbpf: BPF program load strategy enum
-         354aaa519cb40a8d21f9cd82a604ab1af7a803a0 libbpf: BPF programs manual loading and attaching
-         c29809ea29e2262c7ab7747be771f1a368fc5e7a libbpf: Support declarative manual load via SEC("!...") prefix
-         3a59ddfaea5e53291b7174689c3c5957cfb75c5b selftests/bpf: Cover BPF program load strategies and manual loading
-         3858065641e781f44acd68a50ad6a3482d8787f9 Merge branch 'libbpf-bpf-program-manual-loading'
+         1ea2927c1bc3c66d2ff69f131268e6be4d38a87c regmap: irq: fix incorrect index calculation for read_sub_irq_data()
+         8a6d73e316f95e398a1de1d1f58314b6d3e7f641 regulator: irq: freeze deferred hardware access during suspend
+         dc5ca34f5e8dc10c566ef39aa3b1a201a17ca734 spi: zynq-qspi: fix address buffer corruption and support 4-byte address
+         7da2aca123754c0e06092bbe179d58078b58d8d4 spi: cs42l43: Add speaker ID quirk for Dell XPS 13 DX13260 SKU 0E54
+         a4395d81eca6a94026276fe70cfb20f5a0191f1f Merge tag 'regmap-fix-v7.4-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
+         2228d64da8a66b319a847c1fe0e66527b643e2c1 Merge tag 'regulator-fix-v7.4-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+         abf8c33470f78e2226ee3dcdc69004660020ab47 Merge tag 'spi-fix-v7.4-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
          
