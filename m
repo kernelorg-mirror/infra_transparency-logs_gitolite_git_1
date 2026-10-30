@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2101993805119442922=="
+Content-Type: multipart/mixed; boundary="===============8951922430051844940=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 30 Oct 2026 14:13:36 -0000
-Message-Id: <179336961652.1357674.730515315072727995@gitolite.kernel.org>
+Date: Fri, 30 Oct 2026 14:13:39 -0000
+Message-Id: <179336961988.1357883.13639573104107901016@gitolite.kernel.org>
 
---===============2101993805119442922==
+--===============8951922430051844940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/char-misc-linus
     old: c339f4010dea8b0d754f84ace70cd1b089878ef8
     new: d89e1d186ec9271bf78e62771779e9fc03bf0fc3
     log: revlist-c339f4010dea-d89e1d186ec9.txt
 
---===============2101993805119442922==
+--===============8951922430051844940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793369615 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793369619 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1793369615-29a1752f037fa93fbf90851df21e8cc0fce4fddf
+nonce 1793369618-485ba86a6956d28472f92193354be98a61e02632
 
-c339f4010dea8b0d754f84ace70cd1b089878ef8 d89e1d186ec9271bf78e62771779e9fc03bf0fc3 refs/heads/main
+c339f4010dea8b0d754f84ace70cd1b089878ef8 d89e1d186ec9271bf78e62771779e9fc03bf0fc3 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrkpg8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YTIQAMVWwHmJ9IK/Enmd9xKO
-bsZIFZwK1XbP+kI/N6JtYHgvgspdq8vBD1Yd2UXqpUx9idYqlbOIvUsoclaYOVJ1
-RqvYEusysEMNTo/sAubQyMfwwFuvnvAabxPqJGEVS4G98d/dSLNyiC1XYZ1n5i8Q
-AmGwrWKApp6e5RuLD/mwhf6bcEU3M3zviBBBRCR9/P4HcKoUGPe06jXbs96TptfK
-Lzk0CKaQF4G7nPOy3KKiFi/mv+LVMD2OfGbDZWXQ1dQP76oCtgxmnausK4+MR4jA
-8U6kHHYTTq30d5EckaiBP3tWTeoII0sesrEvIaEoMQ6MR0gnJ5y5ZJSJqFKCO6E1
-bmRzbb3GBEfNd+bosCnffuTDrZz/R2AqFHkb/69WtwhCulOvl4V/Rx37vsrNGhYJ
-phqVkGbbZt0ke33o7IrwZKVeNeayXQ5hZ35cRwqO4/PyVTAVAvZukEHDXcdoog0y
-o0V9rlkTiKy740ot+F9rNvQJz6aPowPOIvZSBT/lG3ldzG8QfztoNoynbcEX6IeK
-jxy/EDKtMAT9+qG8BAZ8kighOoi0ZiN9ElzfY8j/MtAikgtWJtR/N8idQK1yW7GG
-WeSN39FAm/NI1PwNDocEwwyElOlFkvV3tp+GfaENMT/YVU/ellmPPw9dZ6Pk1cHj
-0EKBjz6d2nMfri4qzalG//8S
-=0Fit
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrkphMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zRgP/A3bszaWdq93UF/mbOx9
+oUEDZZwcKJdQtfBeCyMrYV1g56GJp0Oa5cF/WWB2aKAqC7bypuwaMKgaKdBw9R0S
+XdkHpH+xanY3fR8pR0BoAqzitDi0DYo2Dt49HEzS2auiGhJW+RGJIWWM3oYn1F5h
+KMFCKj24oFM2aI2DYQ6IzslvBQo3RQsmkEVMJPE33J17fzkCx2pW1IcQ1/dn+v3+
+RJ6wQs1tZmPL0INCA9VOY/YcF5CsUI5btJAhP4q/Abu+mREkos2nLAM67oBErUbD
+my8yc9/cRE4/scPQV7HPED7ZWSG3Fb7S1/pEqbM+3gl9lM/nY+BbLJn50Kt/Cfa3
+VCwERhOpd62UIUcDRYSwOsh7NE1ASLVXGPoRjBjjOJaX5xsgYueLRIBcBFO110/z
+b/MvPEu7G/wB6UM8iMYrb8c0jFFBDGWc394WKsnw9mIlmABZ5JFDa51/Yi1Pewjr
+EVs7TSI+XY0RXGmjutN1xi3WMewBO42FsAg+6QhGIlXksKsLKrD+5IgyIFkTDvcE
+BBbYpQsmxxxWIE2TjM80FxfLxStJRavFFO6pSsblZ4XRs5OpV+Cw/LQbicLhkX1I
++owiIuaoratzZPMjezYgKBKrgIc2MsknRdoBGfrc6A3l7QFzc6An408D4Dk617L8
+Z8ioj/yYEdBEY6/vfOkMzdpW
+=Smqk
 -----END PGP SIGNATURE-----
 
---===============2101993805119442922==
+--===============8951922430051844940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -477,4 +477,4 @@ fb7bd3a2aad70a76232a7168a505386d0a1396af Merge tag 'rust-fixes-7.4' of git://git
 0ff8f40110872ecd3a9918e56ddd0ff1b46fb10e Merge tag 'ntfs3_for_7.4' of https://github.com/Paragon-Software-Group/linux-ntfs3
 d89e1d186ec9271bf78e62771779e9fc03bf0fc3 Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
 
---===============2101993805119442922==--
+--===============8951922430051844940==--
