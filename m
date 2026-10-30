@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7454743471234152577=="
+Content-Type: multipart/mixed; boundary="===============6690625415911297036=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 30 Oct 2026 22:36:51 -0000
-Message-Id: <179339981153.1802605.13793070043389042471@gitolite.kernel.org>
+Date: Fri, 30 Oct 2026 22:36:54 -0000
+Message-Id: <179339981467.1802822.13999774508594405951@gitolite.kernel.org>
 
---===============7454743471234152577==
+--===============6690625415911297036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: d89e1d186ec9271bf78e62771779e9fc03bf0fc3
     new: abf8c33470f78e2226ee3dcdc69004660020ab47
     log: revlist-d89e1d186ec9-abf8c33470f7.txt
 
---===============7454743471234152577==
+--===============6690625415911297036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793399810 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793399813 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1793399810-672eaa04d0a469e22905953ce65bae53fb8729a5
+nonce 1793399813-702e23d3204813c4ff231e661e46651e76fabca6
 
-d89e1d186ec9271bf78e62771779e9fc03bf0fc3 abf8c33470f78e2226ee3dcdc69004660020ab47 refs/heads/char-misc-next
+d89e1d186ec9271bf78e62771779e9fc03bf0fc3 abf8c33470f78e2226ee3dcdc69004660020ab47 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrlHAIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gwcP/3GEknKkDXYKAdUgfuAT
-DSTi8X2nl9zSATabyAiurdj85Qy4eI0VKW8zTzV7CIuAat8penlAo5coJLgsEICV
-CzY1fsrZ60+ylu4tUzIUbnycV39C6DceLaj/SZH26uAj0RLsuv3xRUhxoof6kSLO
-S5GGIYDqjViz9eIpuAoJQM48ZiW9v1C00SxRdm8vl1pnzWms2+3RQz/2EgaSxD7/
-2SJXJZ70YXRuuNpRpBLqpg3yvhrOLCVyzvH4ZEB1x+locINNLWLXlzJg7s08QnK2
-KXxYVfajWUSrvFMiKauXpHCO0oG5s7merjSskEk+7ms/EmUgtpb/n4Vf54VoEKxR
-wC2VzGG5PO3QTnmEI0pfySEGJnYxj2fI2Ge7IC0JqqgekxR55tVB/J2G85EtRnqb
-PHRezw6m9ktGWdI3TVNXcdo9kXfrwkUfjPZk4tZmxg3qluxVkIG21xy99UvKVSo8
-YxadGOoBUwz/0McfkMl+Lk+rE9vDmv5DzZ9MLTxs6BVQGAtDE6MLmHPIH7oh8ToW
-KdobQC0WyzWz+xb6Sz24E7xgrU2SrQXZfzsGxcEB+Zb6UINremDnYeu5vc+DLkdZ
-Bm5jRpy+2hInmoKjk91H7kimRTRdKoYmeYft8KozAMdT/Q78wOK8eJyZxitDIFNr
-kibA45f8RoCEgBnVD2zux0Rd
-=IIox
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrlHAUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tM4P/0rzNN+B9lFbWg4XNuo+
+Btlh7ET51hY2/S4z+afz7V/G7gDF2qBth7pXasP5hzbFYDPYtyqZEYfpFUqPztYE
+Y0edAXSwWEL56ip2qnWPcgSGYByphuu8rHxjhWQXEOmkAkvfwVSyRWRDWysatoYP
+WFnNjtccuZWDlDexdXABh6F4GMu3k1wznFnnhEfzqyJHvvvwwdRipWjdLFXR0pkJ
+HeSzVHOGrzz3MkjdZQPg6XtuXw9dGWGyA+SD2l+tvsXfeXs+L8nSDxHItTlUx3l1
+Y+VQNd70ovi29v2IKVdwIlobmR0FoNzCj3/XhkgRgw8HU1wp9ClYiM1blL//vLKa
+qCNFougRNJg1k8ziiHF8/j/If8S+nk7QzZyPh2ft/z0OLy4NQp+kA/dZgaGkToFI
+ptgPB5OldTeMbl+wskdyMJNZ6+kWyKos70KolD3q9mZAN9cwnYsh+VbQKBhRByw4
+4gXuFb90GB7YFOzMOBzjyQVzDNAv+XvFYnw7yHfugao45mctngtvti7jwihUmTKQ
+TvY4PMV+9S4W5oysMehvJN474fFgCelbZ0kLhoK6TY6P7FjXqB0hqSwy7Lzc1rFi
+bklKpfwx3qKzDhO9XDxU1SQv22lE0poick+UMXj4T3PKDR6wKqicw2J5k2fWeZFZ
+PSUBanN/gfWsJdceFYlT4GtS
+=31Sp
 -----END PGP SIGNATURE-----
 
---===============7454743471234152577==
+--===============6690625415911297036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -658,4 +658,4 @@ a4395d81eca6a94026276fe70cfb20f5a0191f1f Merge tag 'regmap-fix-v7.4-merge-window
 2228d64da8a66b319a847c1fe0e66527b643e2c1 Merge tag 'regulator-fix-v7.4-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 abf8c33470f78e2226ee3dcdc69004660020ab47 Merge tag 'spi-fix-v7.4-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 
---===============7454743471234152577==--
+--===============6690625415911297036==--
