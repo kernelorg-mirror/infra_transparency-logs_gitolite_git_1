@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2955437179316695796=="
+Content-Type: multipart/mixed; boundary="===============8757235740582586478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 30 Oct 2026 22:36:45 -0000
-Message-Id: <179339980512.1802230.11967520861525370895@gitolite.kernel.org>
+Date: Fri, 30 Oct 2026 22:36:48 -0000
+Message-Id: <179339980844.1802419.6304980203370577358@gitolite.kernel.org>
 
---===============2955437179316695796==
+--===============8757235740582586478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/char-misc-linus
     old: d89e1d186ec9271bf78e62771779e9fc03bf0fc3
     new: abf8c33470f78e2226ee3dcdc69004660020ab47
     log: revlist-d89e1d186ec9-abf8c33470f7.txt
 
---===============2955437179316695796==
+--===============8757235740582586478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793399796 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793399807 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1793399796-1845d70f9bc0cbc241fbc9a27d37de7f43b29f1b
+nonce 1793399807-6e971d62601ed16c5bac7dd46cbe549db4c278d9
 
-d89e1d186ec9271bf78e62771779e9fc03bf0fc3 abf8c33470f78e2226ee3dcdc69004660020ab47 refs/heads/main
+d89e1d186ec9271bf78e62771779e9fc03bf0fc3 abf8c33470f78e2226ee3dcdc69004660020ab47 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrlG/QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O2AP/10Y71yR6Pt4dh66eqz9
-z2amFAqmU9UFjkNGasqMq1r0gS2NsdW7ouUumKGAOLJrgiFQgIcykZXVuVfohae7
-4gsYc0YblPIUEY8GVpNNYLBxFrRTdr9a/cjdNA/IJPzR/P1+Xje9VXbf28Lme/6G
-9kc42jWHfEwgOla5pBIkL63lth75ONj76IH3zYIyh0ZN5gcRwgUjzQpdqSDWa/OA
-HSEUqh1kJwiAPDGSM0NmTtLPW7EMvZCGXv0uDNmmpM3HZ0M7gj4vG+NLLohSVIce
-eH85Cw7FpDPnPGzIj6ICFUBC+ylSvvdqOHXY21BSv+gUifvRT9CmlUwUwAzFhQy6
-h2wGI5mSuPMaM+fJsq2oMQSLV9yEupjEQNEwFWGjPx3K6+1BkEBqX490FIWgUebk
-1Imh6BZiCmgIVhqrFgZlFDTINnS8G9DZcsq17P+olLEeTPsdM9ZvAE0Rfx+2IY1M
-2TX2ZctaCApS568/FDAPMCXBOryDwFFR2B3yXNOJ+SKZXr/edlJ95XSMHkKxD1wq
-HzaQVDGSuEe8TEYtdT6W4SzmLQdDamPp/Ith5KDvFgEEyuYgvWf/O1GU130FfUEH
-fiJbh1dCXArKiJHwYgcj+RRMSEGQLWCp3Fvkl/KJgSExDOrLZYyAoA+cgOAW/qa/
-yZenm2WxQ5x/Egar4S2qKXx7
-=osLV
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrlG/8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m30P/2vfvyDGEhL1jnj1z3QC
+fmln/eN9FHf/zQ9n8dBQeDAHe3215Ytw4yFtQ6Dt3AuLiPsVDz0/mEHuu6C2DKGG
+Q0ote6eA/VE+E5u69uj/MPGv9w78tS8+cVqQXP3bf5yvEM2jX0yFzcsEeSIcEw0I
+Z+dDoF1eHcklyuNa42TlgHGV5Xim4K7urlMa5s/rr4mHRu+HgUOxqWir1ON5Oe1Z
+Ygl96Ou8H1N/ei7DVQpxe3Hvdqzw5Vd4j0L9wf55dreaMFgHvE5ihVBFCj+5OyFj
+B991A1VkvA/05BmiC9fX3hsvvGON+WVTZBUJxL/utW4AEyl1g9czbTUiNxjsnIRV
+Nruhy6L+QsG4RT3YncrozcllDuoix75Cm+2uuKPnyNgsAKWBhBKRxG4T4tFUH2mM
+gKMKse2+tLVE+XRoZ0mY2zJLj51orsdDr+DasRab9kdniATHcZEI8eoO4wMSVyj6
+v6ayL4bUMKMloPdY8FSqbVXKK9MJ1XBqOKF4//E9zlA1ZmFcGGZXee8UjNyrqh3z
+hicgFbTUsUTvqWwTF4gYVg3GYxpv0JSyAZmzX0QwbDQwrZvfSPU9drBfrlEtisFj
+fSwYng82VG9lpdmB7KkarLJ1cpzoptIqD/t8fVzeuGzfqx1MP37DMpoAFvGcfV8G
+vhI4uB45DhiVq9Mq4B7cuVNR
+=YLN9
 -----END PGP SIGNATURE-----
 
---===============2955437179316695796==
+--===============8757235740582586478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -658,4 +658,4 @@ a4395d81eca6a94026276fe70cfb20f5a0191f1f Merge tag 'regmap-fix-v7.4-merge-window
 2228d64da8a66b319a847c1fe0e66527b643e2c1 Merge tag 'regulator-fix-v7.4-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 abf8c33470f78e2226ee3dcdc69004660020ab47 Merge tag 'spi-fix-v7.4-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 
---===============2955437179316695796==--
+--===============8757235740582586478==--
