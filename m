@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2641329952294395877=="
+Content-Type: multipart/mixed; boundary="===============9029420273642361948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 30 Oct 2026 15:09:15 -0000
-Message-Id: <179337295540.1405709.6573398803787660840@gitolite.kernel.org>
+Date: Fri, 30 Oct 2026 15:09:21 -0000
+Message-Id: <179337296161.1405969.5662450373332652860@gitolite.kernel.org>
 
---===============2641329952294395877==
+--===============9029420273642361948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 9c449f885765cf8d80b2c60b1971e774bba51a3f
-    new: 5e6c45aaaf93343c7f8a1cde9797080238af5c1b
-    log: revlist-9c449f885765-5e6c45aaaf93.txt
+  - ref: refs/heads/mm-unstable
+    old: 24d45a1475dd4c671feb1df705f67ef2fc293969
+    new: 95b7365accfa2833a41e28bb299a6794548201af
+    log: revlist-24d45a1475dd-95b7365accfa.txt
 
---===============2641329952294395877==
+--===============9029420273642361948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9c449f885765-5e6c45aaaf93.txt
+Content-Disposition: attachment; filename=revlist-24d45a1475dd-95b7365accfa.txt
 
 b62034695eebbc9888b34ff3a5e0f6f7872b24e0 mm/khugepaged: flush deferred unmaps before dropping a failed folio
 108c89b5c1104e172eb5d66a5b9f58710c79ccaf lib/base64: silence clang-24 -Wconstant-conversion with diag pragmas
@@ -88,45 +88,5 @@ b380b077cb778820c0d37daea23116ffea41d05f crypto: acomp - enforce MAX_SYNC_COMP_R
 d245728dfdde28f569ce04329bf67e94af942f74 mm: nommu: set MMF_OOM_SKIP in exit_mmap()
 9885b8dd4e20129ab6a7f52bb156bba23c73e918 fs/proc/task_mmu: fix lost maps entries above 2^63
 95b7365accfa2833a41e28bb299a6794548201af mm/vmalloc: read vm_map_ram block regions from the requested offset
-939b8ee805d54c2ce8d3cca645fe8d3fde0beeea mm: unqueue deferred split folios outside the lruvec lock
-0342666a3a65cc63b7cad66cd5a786728606051c selftests/mm: skip collapse_compound_extreme() on THP allocation failure
-33a9977a1e2f6ac312ca28896993d160eb66f91e mm/hugetlb_cma: fix incorrect hugetlb_cma_size assignment on malformed input
-5f4910da38916ed7af5c2944f75de1989e7581e5 mm/vmstat: annotate data race in zone_page_state_snapshot()
-957e3d7438bf9495a862a723b912a9055da0b44f selftests/mm: track the modules run_vmtests.sh loads
-d4fdd7be0199b2cfce2f4b23320b518a514b22b1 selftests/mm: load xfs before checking for it in run_vmtests.sh
-1e7ea889e8adfe2b67eb2e3b80ac91c469b35f56 memcg: remove unnecessary READ_ONCE() under memcg_stock.lock.
-ea7f5a0d53f469732dceb1b29368ae61f8d38f99 memcg: reduce nesting in consume_stock() and refill_stock().
-38d3fceeebb878a0058f81a20aedc4fec953d65d memcg: annotate slow paths in consume_stock() and refill_stock().
-1f42549f6d385852d66b3928e681e9de86bc5a94 memcg: uncharge pages outside memcg_stock.lock in refill_stock().
-09943a91d5d340eb582d355a8053a7946a6e3a4f mm/sparse-vmemmap: map shared vmemmap tail pages as read-only
-3089e0dec0d1ccc62b48f42bdb415900f557ebb5 powerpc/mm: map shared vmemmap tail pages as read-only
-e6c28e3abd21b8efc0ef77fd49c389f1dccf876f mm/hugetlb_vmemmap: remove vmemmap_wrprotect_hvo()
-2c968272d55c65d38978ffdbc2f576a455d4678d mm/hugetlb_vmemmap: remove hugetlb_vmemmap_optimize_bootmem_folios()
-ebbdad759bc4450a53d483cc74d1d8d12c8823db mm: multi-gen LRU: use mem_cgroup_lruvec() in get_lruvec()
-7b5c531d7a784cbd14408bfe3ca84502f2e50de2 mm: multi-gen LRU: remove get_lruvec()
-6b672493e2fd791425d5a0ff9da645c2411a2142 kfence: fix pool cleanup on metadata allocation failure
-7ca90d5859d7e14bdeb6228c08a00c62ae943fbe kfence: clear the pool pointer before freeing pages
-36bfcc1013e164d01ac997b3ae79fe1535059f1d docs: hugetlbpage.rst: clarify HugePages_Total in hugetlbpage.rst
-89cdf3dcdd23885a1ddcd5534183558c72bb4d38 memcg: reduce cacheline contention between lruvec stat updates and LRU lists
-96f376e3a577a7dd3783e26e3510d4cc29723e29 memcg: don't go through the lruvec for folio and kmem lruvec stat updates
-6eb95278841126dbed27efe2e48ff89c7f830b3a word-at-a-time: check the first byte in load_unaligned_zeropad()
-bb7232454fb8c1b094fed52abd71e5a35ad6f6bc kasan/test: cover load_unaligned_zeropad()
-b08ea11dfbf9424e6773125f00ba29be6f4c4401 mm/page_alloc: remove unneeded forward declaration of __free_pages_ok()
-76695831e529f636ad7ef05c325452ca2b533723 selftests/cpu-hotplug: use $(id -u) instead of $UID for root check
-8c8fd5c64da710344b187ade5e700a2a257f4331 selftests/memory-hotplug: use $(id -u) instead of $UID for root check
-d4805b8a64081b769fe9faacdbff2070e1c4dfa4 mm/compaction: annotate data race for zone->free_area[order].nr_free
-cc0b63b2a3260ac3bafd34c004352197a354259b mm/hugetlb: drop unused mm parameter from unmap_ref_private()
-0f5353692e3fbffddf22321145be7d9e8e892f4e mm/memory-tiers: reset demotion targets of nodes without memory
-3e1f598c175dfd1fa2ca12fc18849668bfa12dbc mm/percpu: clean up callers of pcpu_obj_full_size()
-7c7e032b680aa9f70da767a1a88cf552ca73ee37 mm/mempolicy: convert mempolicy refcnt to refcount_t
-847cf7cdd2485869fc838766810bb86eba0ecf7c mm: memcontrol: remove mod_memcg_page_state()
-95fa8cced80ffeeba44fb2310b6055da25586dec mm: memcontrol: remove page_memcg_check()
-07f70238e17e9c56a6dcfa206265d1c7af2b2785 mm: generalize kernel PTE table allocation
-be7ddb2d4cab336b5c728afd0dca6972121ada93 mm: generalize PMD page table allocation
-12969b7634d401e1740c3dd081dacbfbbf83653c mm: generalize PUD page table allocation
-fb2e7436189347ee83ad852996e23baead6d3c97 kselftest: mm: rename read_pmd_pagesize() to pmd_psize()
-3d2ba274828a745c1969419c53993a1ca9dd2f3e kselftest: mm: remove HPAGE_SIZE and HPAGE_SHIFT macro
-0c126a2e6d02ed5ce62f0ca7396cb006c5878523 kselftest: mm: introduce size_to_shift() helper
-5e6c45aaaf93343c7f8a1cde9797080238af5c1b riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============2641329952294395877==--
+--===============9029420273642361948==--
