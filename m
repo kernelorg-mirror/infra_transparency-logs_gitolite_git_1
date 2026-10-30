@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 30 Oct 2026 23:09:52 -0000
-Message-Id: <179340179246.1827193.187069084704599674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 30 Oct 2026 23:14:44 -0000
+Message-Id: <179340208451.1831057.5450940373756276018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
   - ref: refs/heads/main
-    old: 8dc87fc5d6a0eb337744737008177342a708bf36
-    new: 603a0c40d414ea12509fc45f2b930449a8d4aad2
+    old: c62ae1d21ff97ecc995518f24dbb89156b1eb53a
+    new: 090ef659b1f31fe852e956b0ebf274cc7d967cb7
     log: |
-         cb50f16f37fc3429085c454ee5978e05732d10ba net: ethernet: mtk_wed: skip ring reset in wdma_tx_ring_setup for WED v3
-         7180a42d8e616f919dcff4b90a13b9a5ecea665b net: ethernet: mtk_wed: fix reset condition for rx wdma
-         5b8d12512cbd3495dbd8c38e8047bb5d716f0f3f net: ethernet: mtk_wed: free up rings during detach
-         dd6efae5529107cc8db277eaeaff5c5f15e6bc15 net: ethernet: mtk_wed: setup WDMA_RING_TX(0) for non-DBDC MT7986
-         cd74322d83d88c8407f751cb09dbc51d0ebc5a41 Merge branch 'net-ethernet-mtk_wed-misc-fixes'
-         603a0c40d414ea12509fc45f2b930449a8d4aad2 ptp: fix use-after-free in extts_fifo_show() reading tsevqs unlocked
+         74c296e6c5318713ce7bb936e32052e68d98aabd Merge remote-tracking branch 'wireless/main'
+         7886f90b96b4161d91d993b21df03ccdcbf5372a Merge remote-tracking branch 'wireless-next/main'
+         62754d38288809c9a4f8ce4081cdafa3add4c389 Merge branch 'ath-next'
+         0d98a64d2437f4fbc326e95afe1ad0f4cc109959 Merge branch 'ath-current'
+         1f532aa91048a22c1ce4453af38c975e8393ccce Merge remote-tracking branch 'mhi/mhi-next'
+         29c04ce70ff45210a9cfaa57ec115bc0379ff611 Add localversion-wireless-testing-ath
+         090ef659b1f31fe852e956b0ebf274cc7d967cb7 MIPS: generic: Remove undefined image 'ramdisk'
          
+  - ref: refs/tags/ath-202610302306
+    old: 0000000000000000000000000000000000000000
+    new: 090ef659b1f31fe852e956b0ebf274cc7d967cb7
