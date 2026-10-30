@@ -1,130 +1,150 @@
-Content-Type: multipart/mixed; boundary="===============5082528653188391268=="
+Content-Type: multipart/mixed; boundary="===============0104671362241861685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 30 Oct 2026 12:09:15 -0000
-Message-Id: <179336215519.1132115.16172723402259300384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Fri, 30 Oct 2026 12:09:35 -0000
+Message-Id: <179336217581.1132454.7514669782641603067@gitolite.kernel.org>
 
---===============5082528653188391268==
+--===============0104671362241861685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/7.3
-    old: e00d478b88a88307a667592a3cc68d5ea002f608
-    new: e8025ac9fdd1484b854e04156544f43bce5491b6
-    log: revlist-e00d478b88a8-e8025ac9fdd1.txt
+  - ref: refs/heads/linux-7.2.y
+    old: 3c172eede0d6b889ead876f45cc843070209208f
+    new: e09610b541f2725a6382137c168e4efe208917c3
+    log: revlist-3c172eede0d6-e09610b541f2.txt
 
---===============5082528653188391268==
+--===============0104671362241861685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e00d478b88a8-e8025ac9fdd1.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-aa18b50b4f1e30ebdb1fc317e02ae00f67b3580c genirq/proc: Fix missing CPU header in /proc/interrupts
-34bb338db0c6816c7fa5878a6b59297094ae887b mm/damon/core: error damos_commit_quota_goal() for zero target_value
-3cd0b3047f6a7fc10a9454b0931a496b48f5aeaf Bluetooth: L2CAP: refuse __l2cap_chan_add if chan already has conn
-5cd40477739885e92987301137f8e23a0b496f42 tools/dma: fix building with O=
-672bc5ea65b34ee2f683062ccf8381b41af32bc6 tracing: Hold trace_types_lock when updating modules in persistent instances
-2651a1858fd37f497f4eda026db3fcd4f0733036 tracing: Hold trace_types_lock when resetting last boot data from readers
-b3b04a761ba6aa80e559872e447e6c28d764787e tracing: Reject incomplete event filter expressions
-4c52e265a004c7d7a28c9e5537e15584fd90e1a7 tracing: Save the event file instead of the compatible histogram
-fa2e5cb66544751f6e8c1304d797ddc8c55c5fc0 tracing: Unregister field variable histograms when the command fails
-0514541b5113e1f2fcd28fc95d5801d95311e95a tracing: Add the bucket size to expr_field_str()
-c0819b04c9703fe1322d267d82ed3bdc37700857 tracing: Fix 64-bit and signed histogram fields on 32-bit kernels
-309b8e1b2a17a07be15c6a5cd152f0039d522e10 tracing/histograms: Verify event_call identity when updating synth_event refcount
-e2d0be28b2b0153c050124ee0ad7ae5c9b7741e0 tracing/syscalls: Use copy_from_user for the faultable syscall buffer
-59f0b236928eb695efe1cba1178440d9c09e10d0 io_uring/poll: avoid retry wakeup loss when dropping ownership
-6f1b4601b55d35bdc8771a2573ba2419277da8ca io_uring/wait: wake real-time waiters from hard interrupt context
-5cc9afb9ecb1d5a40b475797c3f34604f2211923 io_uring/net: keep recv buffer select length within MAX_RW_COUNT
-35f6f946dda95cee97a71f57d81354c5ee3dd29d io_uring/waitid: prevent cancel reference wrap
-8638b3f760576a3de1ab3b24dadf46818afef8dd io_uring: end the drain when the drain request completes
-ad493f0fbb631938465506eca15d63b9437fea48 keys: Avoid the owner account dereference in named keyring lookup
-98b4915c096b3ac2001856e8e367e936913754cc keys: Check the authorization payload in process keyring searches
-4583daa5b94f2b5f29f4bd3a45fe1375886e032a keys: Protect the type name while describing a key
-67785cdcba317462976b08a70973412d4dd9013e keys: make keyring indexes independent of kernel addresses
-c5de0a53fa24ef26b604da24120e33c31e5b70b2 keys: Protect the read method check against type removal
-a10e16c48e57a199baae37be8bd4a8b9aa4d3370 KEYS: Fix key_reject_and_link() race with keyring restriction
-f75af4d9eb3e815d5178e06bd6c33ee3d626ef3f KEYS: trusted: Fix blob allocation size in tpm2_key_decode()
-c96bbe45b527f74b42eb8efe50b40d08d71519aa keys/trusted_keys: return immediately after TPM unseal failure
-26672c1ed9505409fe9dd5ae31017c987a104f0e asymmetric_keys: reject trust keys without IDs
-c6245b6ef6c005e007dc9f2fe02ebb9015b3c29a ftrace: Initialize modname and offset in print_rec()
-791419e378900d4b85469c8f48588e3aaeafaf4f coredump: hold RCU while releasing parked threads
-b3d88045719d70064cb14a6230b276781ef04ca7 signal: don't retarget shared signals in a dying thread group
-ec245a06b5b94f8d92026dca8b429c1143a9948a signal: only SIGKILL and the freezers interrupt a coredumping task
-87b08cf442f3ae6ff46a54e13581eda4f813f5de io-wq: order the exit bit against worker creation task work
-c69af4f088380be913bc4dc558ccf2467df751ec ptrace: refuse to change the signal mask of a user worker
-c647be9cbd88a813e41e4f0493d3a1d4c5844df1 fork: release the files of a failed fork after sched_cancel_fork()
-3bb454cea9fb0face1c8b56146be83236d98edfc exit: hang up the tty before closing the files
-ac6edac50cd3b0631e8c694a2a02799b0a4b6324 signal: allow taks to temporarily block TIF_NOTIFY_SIGNAL
-8e8ea04fdc12892bd4587f286c5942d116777874 coredump: prevent TIF_NOTIFY_SIGNAL from interrupting coredumps
-3c1c36d464050f65dc3a29671352344ebfa1644e pid_namespace: prevent TIF_NOTIFY_SIGNAL from interrupting the reaper
-6884fc43ce86293ae523ed17bc46899db81830a0 io_uring/poll: don't loop on HUP with multiple references
-16f0e1e1c355d2e6e28716e256514f98e68310dd ksmbd: wait for negotiation before receiving another PDU
-d22d4b0adbd8e6c6a33dd7dab1f27dfe9ae2cdd0 smb: smbdirect: don't wait for RDMA_CM_EVENT_DISCONNECTED in smbdirect_socket_destroy_sync()
-44bd93aa4f77cc5b5fdb2bb923c458724e2d9e60 smb: smbdirect: release failed pending sockets of a listener
-cba6d81977f911c3216f6da32afad223110d53d2 smb: smbdirect: don't hand out already failed sockets in smbdirect_socket_accept()
-f0453a0e26ae5a783eaa06e41c624ae81e803f1a ksmbd: reject FSCTL_SET_ZERO_DATA on a directory handle
-82ec1d713cbd1e75cf8235c4e8136c7b417eec04 wifi: ath12k: move dp_profile_params to dp.h
-7168de1905456eb39f11ebca97964a51c4f6bf7a wifi: ath12k: convert DP_TX_COMP_RING_SIZE to inline helper
-a710905d82d86fcafaa3b6f98f66f081e1a4ab11 wifi: ath12k: convert DP_RXDMA_MONITOR_BUF_RING_SIZE to inline helper
-e10531bb643297fad540e0d2660883df106f2b68 wifi: ath12k: convert DP_RXDMA_MONITOR_DST_RING_SIZE to inline helper
-1f6dc649bb92d8c0eb80eeeec58f8f1ba57d93cc wifi: ath12k: convert ATH12K_NUM_POOL_TX_DESC to inline helper
-1dd3ceba7e94279979b581e5498bc23e0b4f54dc wifi: ath12k: convert ATH12K_RX_DESC_COUNT to inline helper
-8ffeada066861c7a968fec8ca4ed4ce97980dd4b wifi: ath12k: convert DP_RX_RELEASE_RING_SIZE to inline helper
-e8fea1313d36b8c6ff5635792fcf0cb52cb41176 wifi: ath12k: Make RXDMA buffer ring size configurable per memory profile
-df7d69f34fc6d212590275cadd5c0eabacf8279f wifi: ath12k: Increase RXDMA buffer ring size for default memory profile
-ee96a541e5443a9a94d4c1beb760efbea5a87c75 platform: cznic: turris-omnia-mcu: Add missing MODULE_DEVICE_TABLE()
-b90f208cf04c3457b602c64357584e8d33a5cc71 io_uring/waitid: own the request before clearing ->head
-bce2de6ca7b6a3fd086301bfb2758968ebed405a io_uring/cmd: don't leave list poison in ->hash_node
-8cbf304da6bd48a46548ab96662923efbe1fbdf3 io_uring/wait: don't spin on a stuck overflow list
-94f5b71fdf2a02827ca457e1fbf3faa0a5b66e38 io_uring/io-wq: don't lose the signal that ends work
-317cdf5c705a7383bd037e23285049af4191823e io_uring/io-wq: don't hide a link from cancellations
-5c6a93d6ff7f3269940f58d4512255c16f4f4040 io_uring: don't flood a cancelling task with task_work
-e1791656cdbc07c6155070b03af3374e3db44719 io_uring: don't lose the DEFER_TASKRUN wake up
-60ad94039151e6cf11a7a36b734a64091303d23a io_uring/cancel: rearm local work wake up before sleep
-f220c27951c22745e97c92ea70cffdb1f104ff1e io_uring/mpscq: disable preemption while pushing
-51f9610a7b02fdfcc119fee5b977cceee029535c io_uring/io-wq: don't go to sleep on pending work
-919dbc2203df13eeaa591a856e006d0aa59f50c9 io_uring/io-wq: don't strand work when a worker exits
-38772c00328e63400a7f1773a31b0a59c57b56d1 io_uring/io-wq: don't exit with a creation pending
-a1f226047fb725c18ddf1ac610b002d5ba91711b io_uring/io-wq: let cancel find picked up hashed work
-e6cbfdda561a6a040f1f6822a38400c2cb95738f io_uring/poll: don't lose a cancel as io-wq arms poll
-2106d376036a599e64faf79531830132d13578d0 io_uring: don't lose a cancel as io-wq parks a request
-d80c83b25707facb42e40f9b9a1bd0bcbb2d6e57 io_uring/cancel: don't forget that the work was running
-45ed634753b608d5febcfb4539c6942652703fa7 io_uring/cancel: recognize "no timeout" on 32-bit
-a7fd4117481cc6c2908747ee82a8d392c6fe0086 io_uring/cancel: let CANCEL_ALL find parked requests
-2cce10b4ebe73b7483647efa7e690a4861ac1cfc io_uring: wake ring pollers for local task_work
-96cd04bb619a4ad46c6b467495e9214acc2cd38c io_uring/wait: look at all CQ waiters on wake up
-73a031d0eef4c2437b137c641bae782b85380d95 io_uring/poll: drop stale double poll entry on rearm
-75d12c34922003b4bb158b6bfadebb61d3dda6d4 io_uring/futex: allocate private hash before waiting
-3148a9757bee9f8ef4b3e5c93648d603fd1048ec io_uring: drop the CQE cache if a refill fails
-565b376edc868fd3569bf34d3e2556e36abfe666 io_uring: don't split 128b SQEs at the SQPOLL cap
-c7db726333e84edd662d220f7ce6a8d58cf711f6 io_uring/register: don't wrap 32b CQEs when resizing
-b7ed991c07e457238173924a12148c92b14d8647 io_uring/register: handle index wrap when resizing
-b33dedca780fd649f54be4a06dbed6b8351fb132 io_uring/register: keep 128b SQEs intact on resize
-5d049ecfa5f95d4043d71b33071fe284550aa1bb io_uring/fdinfo: fix CQE dump of CQE32 rings
-5596906e70ad222602969ad70bf15aa8439eb177 io_uring/timeout: don't skip over reached sequences
-44f5e6993bd4a0f106c753e9cc889d606dc705a8 io_uring/timeout: keep repeat count on multishot update
-79fa0dfa0afcefb896831cc3f03aba6f97f0f221 io_uring/timeout: use the right clock for ABS updates
-9307683619a1a805d1dde57ac0b81a889ae95b39 io_uring/wait: no early -ETIME if min_wait finds work
-d99916cedfc88659960def4c3b1abdbaa9ef87bd io_uring/napi: make stale entries time out after 60s
-4ad20d672d3a3c168d73655636e9adf1ca2d05e2 io_uring/napi: don't busy poll past an expired timeout
-81d8a4ef9937e98a9867202c529070ef1b993f2b io_uring/zcrx: fix buffer offsets in areas above 4GB
-01e7ee38fbe9907e979da684b95230d0d7127cbc io_uring/kbuf: handle index wrap in last buffer check
-749b379cf4cc930d3db1157aa94f657ecd1722b3 io_uring/sqpoll: let the thread sleep on disabled rings
-b45369cdb5de6d5073e0cacc9196a6618af69851 io_uring/openclose: keep the lock in io_pipe_fixed()
-a3fe56bff5d117bd020dd68c074354a1fca50016 io_uring: don't pass restart error codes to userspace
-4b3ad869546984ef8ac168a3e1c3617a14a96a77 io_uring/net: don't retry recv on uncommitted buffers
-52d278d431b40a1d94a780c5c4ff21c30755c232 io_uring/timeout: no ABS update of multishot timeouts
-04a83d7c6b047539421263c1716de0e77c7a38de io_uring/timeout: don't end a linked timeout with 1
-39aa431f020c749a48066f6a0776e2f1b169a09f io_uring: look up the file before queueing to io-wq
-439d22562a995ac0620e0e5a873dbe37e12829bf io_uring/timeout: don't put a sequence target behind the last flush
-ddc21921a301582d597cd67a4aacc1fbc72dadf9 io_uring/timeout: don't flush with the sequence behind the last flush
-e8025ac9fdd1484b854e04156544f43bce5491b6 io_uring/timeout: don't lose a cancel as io-wq arms a timeout
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793362173 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1793362172-24006f88f64af1c3e26147ec07572063a4cab687
 
---===============5082528653188391268==--
+3c172eede0d6b889ead876f45cc843070209208f e09610b541f2725a6382137c168e4efe208917c3 refs/heads/linux-7.2.y
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrkiP0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+q6QP/3zH9LsOEZPs4fsKFLxm
+YSylafzQiNAuYn18Ikp7dkrogALudGkwEup+bHuQ6VgrwCB87fVfjqMvtXeB9TUr
+B9Jt58eRloVfuh8l0qpg6kAD+UDRIGK0jIx57x3EXr26XP8AMoZZwj6HgXHc7OWD
+vYSwMlBmRm4SqwHoISKBCanoR29zLl7Nq+g2LbvHxQlSb+OCRC8F6Hbxf3u8P6mh
+dMjWpOP+7W6xmsw9WqGfd47+NAVkuo+QwjJgb8JQBcHx4U+rVD8Pd6pCWjm2bCkl
+m5NmhFt1SqIpInWdiyQqCBNYE2CWx6YRPI17Tcx/fty6mPZHeBJayhEP0Ek+p4Io
+NDpYmZKob1J2LQ+Q3ZdvV24KtGGXx8M6bujbN1pGNEgzICBnlw76w5nIrInWoKn/
+SChKbbiyvO33nvyCPfndiN8tI5HsDwem38udl04bSLU4YEVlrOfC6XoBpX3m3ZwT
+2IIuQ+9K4ZFVQTZeQ0ZR1dsKJHsX4wWt7+HmhnhiLKEIoJHnXPpgSQ2yQhgg59JA
+SRrKUVHdXcOnwaSwVk66+uzYAxqwWdjgpqCknJEGvf+Welm8LZogkvUNzWetBL53
+7dF0NCYSx26RStacgLfK1bzJUuEhIoDBWhK++F3dFQgPg8l0xUWJyhHVmIK8zBt1
+AGT2yQzE5ql1cMjztWc103xS
+=g3Z+
+-----END PGP SIGNATURE-----
+
+--===============0104671362241861685==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3c172eede0d6-e09610b541f2.txt
+
+cc2839946328c1618b3870d521b32bb9483d49d0 sched_ext: Wait for SCX_OPSS_DISPATCHING before moving tasks off DSQs
+7dd1c2fec6ebdd1a88a02cb58ff515a258eeb327 ntfs: fix race between fallocate and mmap reads
+57c0d5281666d150c73e56e6795a4eef3ede8693 ntfs: take invalidate_lock in ntfs_filemap_page_mkwrite()
+cc190c4073f570fd78a9d00dd3d13a71eced5403 mm/damon/core: error damos_commit_quota_goal() for zero target_value
+4e7f5dd22b5d9c0712e580c86b3fd37f4fb29cca sched/fair: Avoid overflow in place_entity()
+73820561d8cbfd3364a29b8fa77f1707f26029da Bluetooth: L2CAP: refuse __l2cap_chan_add if chan already has conn
+00d90a21662fef723f904ef7423f7a0cfa5f8171 tools/dma: fix building with O=
+dab2bd4d67ad5eaa95019a9511f8d379401b5021 tracing: Hold trace_types_lock when updating modules in persistent instances
+d6d991afe775ab7fcf89523a2502b7ca3be56ffd tracing: Hold trace_types_lock when resetting last boot data from readers
+64993d970dde2a2da353e9e99595a4fa88ec27d9 tracing: Reject incomplete event filter expressions
+9631dbccd3c649b567a5aafffea6b00634183997 tracing: Save the event file instead of the compatible histogram
+5afb9317e2eeb1c7021a82995ce244fda5a4bd4f tracing: Unregister field variable histograms when the command fails
+3ec17e0b23a84cc64e08fb831a6fce458e20a01a tracing: Fix 64-bit and signed histogram fields on 32-bit kernels
+5597bb8db6855fcb97a67196d227fea359bcd81c tracing/histograms: Verify event_call identity when updating synth_event refcount
+e33e2718c62a602001ab549642a1aed0be797105 tracing/syscalls: Use copy_from_user for the faultable syscall buffer
+75395db7a9b40a2e826c838e648fef8ed1a2d174 io-wq: order the exit bit against worker creation task work
+c10ad2813e15186fb51b37a4d17fafddc99e89a5 io_uring/waitid: own the request before clearing ->head
+685b49483200384d7f49d338af476e26e6824637 io_uring/cmd: don't leave list poison in ->hash_node
+c347691e5dc5481b2d6943c123619e04847fb0dc io_uring/wait: don't spin on a stuck overflow list
+fdb771015c1e13677b57a4015f0c938748f13781 io_uring/io-wq: don't lose the signal that ends work
+92e20e9c72bdf6cfa6f84eded7b33399bc7061da io_uring/io-wq: don't hide a link from cancellations
+abdc57c7ebabaaf0b622178a6a85834e1e54ff80 io_uring: don't flood a cancelling task with task_work
+d29be0d1a67241ce5a87148ad26396a89825d89e io_uring: don't lose the DEFER_TASKRUN wake up
+aaa06bb9fc03384f7cf2dbc3e43f2939cc7791b2 io_uring/cancel: rearm local work wake up before sleep
+8c94677e2b6145393d4c129fe0f5364b0e5000a5 io_uring/mpscq: disable preemption while pushing
+d0494e51aa02b405655538ac8b9f3b1ed7fa7d29 io_uring/io-wq: don't go to sleep on pending work
+18bf64cb927aa3743bc1e02bf57e74bbbbe0d6f2 io_uring/io-wq: don't strand work when a worker exits
+50eb342b1c452ea6d21edfb0aa2cffbf06c9f1c9 io_uring/io-wq: don't exit with a creation pending
+300665d10747810ea605a36f9d0802a161c1f146 io_uring/io-wq: let cancel find picked up hashed work
+f1a2919e0d834fcbb9372ff29738360fe0ca0acb io_uring/poll: don't lose a cancel as io-wq arms poll
+6773939d93fa6c983acf63ca45de5ca2318d8781 io_uring: don't lose a cancel as io-wq parks a request
+a93aa29cbcbed7d38657d00f1ad240cd0d9fac55 io_uring/cancel: don't forget that the work was running
+8ed3d8d7d9ec65b602c1e4f5cfd460ca004f8b9b io_uring/cancel: recognize "no timeout" on 32-bit
+11ca374f18cd4243bce34893a58412a57fad4b8c io_uring/cancel: let CANCEL_ALL find parked requests
+92bfadcbe0a9a001beb5e58a2abaf040b873deb6 io_uring: wake ring pollers for local task_work
+4ce1acd22448310a124d40fcf71dea49e31625c6 io_uring/wait: look at all CQ waiters on wake up
+34eef9b254f8c970f06b94c7738db0ecb67fb30a io_uring/poll: drop stale double poll entry on rearm
+27cee9c0f7789ff74bf262989928909d80d1ac70 io_uring/futex: allocate private hash before waiting
+89f3d0dfef794bace554794e3c264b1e1cd727e8 io_uring: drop the CQE cache if a refill fails
+a08a28e125b34e130a62830fe141ff2d6c9de6d6 io_uring: don't split 128b SQEs at the SQPOLL cap
+37d8caedace34a8ba198ac7e6e51910e1da05209 io_uring/register: don't wrap 32b CQEs when resizing
+4b7aaf3ce9d53c27281da3216c200547a621e315 io_uring/register: handle index wrap when resizing
+a3bc9b2e7b3c09b9a19c87d6e798a924cf630a9b io_uring/register: keep 128b SQEs intact on resize
+40ce56dcf1a78ea5d721b99670c3ab05327be136 io_uring/fdinfo: fix CQE dump of CQE32 rings
+4f229e93dffe6a2f4fbe1bc2c0807d3150a913fb io_uring/timeout: don't skip over reached sequences
+ba1d5cf3c948c6e265e04df479e4bb102e56d51c io_uring/timeout: keep repeat count on multishot update
+b0e0256dd45a536a1e7ba0aaefe413073e9535b8 io_uring/timeout: use the right clock for ABS updates
+c1c41f740888cf0a4d4f2a60ebd80bf95650bfd2 io_uring/wait: no early -ETIME if min_wait finds work
+981621d6eadcd232d4ea748aaeb046337f10d3c1 io_uring/napi: make stale entries time out after 60s
+b779d47fdae809b68b93159c54e7e4b95959e5c6 io_uring/napi: don't busy poll past an expired timeout
+51f4ee29bf0564e6ae7d3540693a9bc1dd2c8fd7 io_uring/zcrx: fix buffer offsets in areas above 4GB
+21feda9465760a8e4487385deabdaeba9eb7ee0b io_uring/kbuf: handle index wrap in last buffer check
+e3e19f7019847089302b50cf682c970d013fd223 io_uring/sqpoll: let the thread sleep on disabled rings
+7299a32764ab875443b58581d929027954dcf24c io_uring/openclose: keep the lock in io_pipe_fixed()
+ee0bf68a63fe3d353f9c1850900c5e3718899ba2 io_uring: don't pass restart error codes to userspace
+97b8dc36ba3cb176b74a7929140aeaeb40d5cdc0 io_uring/net: don't retry recv on uncommitted buffers
+17a03003bdd7614e8111634e3c4a7c9de96005b6 io_uring/timeout: no ABS update of multishot timeouts
+d402e2da23b890042b34c7b5ef5259a19e9336d1 io_uring/timeout: don't end a linked timeout with 1
+a01f35f52314a8d5d8c7273dac934aab4143ddb1 io_uring: look up the file before queueing to io-wq
+eb2a50d8235e4580fea9aa20f3fbe1a002c38cb1 io_uring/poll: avoid retry wakeup loss when dropping ownership
+db2cdb40d9f8f17f62346e4e601a2160c37d3138 io_uring/timeout: don't put a sequence target behind the last flush
+9d5ba7e121dc8c4cfada7a9ac8864345798eb229 io_uring/timeout: don't flush with the sequence behind the last flush
+df705a274da10da7bb546e08b49fa80a6ef19c78 io_uring/timeout: don't lose a cancel as io-wq arms a timeout
+d379a8db88e5c6847b4db5ba8b4880463d051113 io_uring/poll: don't loop on HUP with multiple references
+6cc019eadf12836dbeeeacc1adbfc35be49c7a39 io_uring/net: keep recv buffer select length within MAX_RW_COUNT
+4bfec43cf844ca25fc5d5717effea22bb4b6eae6 io_uring/wait: wake real-time waiters from hard interrupt context
+857aa2012b91cad6fdef54a4b6c632d9d0b6e64f io_uring/waitid: prevent cancel reference wrap
+7be9e9d997e0d105b9e65aac35447ad3a854436a io_uring: end the drain when the drain request completes
+72debb893a4bb99ec2c26cf32f5fad60ac1ea26e io_uring: keep the drain active when a deferred drain request is started
+5c6a9512887a6cc694d594d9c0b57c0841d215b5 keys: Avoid the owner account dereference in named keyring lookup
+b4dfda438fee3c6faa15d9b421c373de6a0e476f keys: Check the authorization payload in process keyring searches
+dea367df18e3a4faac393e3a4e818ee03af89b19 keys: Protect the type name while describing a key
+84f7c699f8d139f743c7dc11ef41d085690955bb keys: make keyring indexes independent of kernel addresses
+cf1af7df80e38bf58bd74c2cccce32fcbd1a596a keys: Protect the read method check against type removal
+6fc0c818b1cac66003e937c8a0d3bfb23fd3f130 KEYS: Fix key_reject_and_link() race with keyring restriction
+be761640fbf427997f26c17ab3670f52753572a0 KEYS: trusted: Fix blob allocation size in tpm2_key_decode()
+63b19ec2863b2cb5279b746ecd3d6210b1a93945 keys/trusted_keys: return immediately after TPM unseal failure
+33a078f04e264eb71aa9f209cb334e4010123818 asymmetric_keys: reject trust keys without IDs
+7271c064dd60d4456c5b90da757acd9420d06697 ftrace: Initialize modname and offset in print_rec()
+a0f09ff4c6b93312e565cfe75d76c3a551a3ec4c coredump: hold RCU while releasing parked threads
+7a6afc7fa9750a1e6c54ae311e6fe2b97985ef43 signal: don't retarget shared signals in a dying thread group
+95990342844411d672859a1a7173e4d9235043b6 signal: only SIGKILL and the freezers interrupt a coredumping task
+faa706f087f9a985f7f0878b00e8595d51c5926c ptrace: refuse to change the signal mask of a user worker
+14c7de6ca239326b79fd3f7aee55dfada1bb72ab fork: release the files of a failed fork after sched_cancel_fork()
+0182428fb2ae8bd56baf6f0a118fa45bf97514e3 exit: hang up the tty before closing the files
+649c6e593ad62a90b0e1cf457ad1531a588e7b62 signal: allow taks to temporarily block TIF_NOTIFY_SIGNAL
+de4ce7a7e3ba266bb753252bb6360619b8727b48 coredump: prevent TIF_NOTIFY_SIGNAL from interrupting coredumps
+3d15ac36ce174477efa5365e424dbd47950fd2b9 pid_namespace: prevent TIF_NOTIFY_SIGNAL from interrupting the reaper
+e09610b541f2725a6382137c168e4efe208917c3 Linux 7.2.14
+
+--===============0104671362241861685==--
