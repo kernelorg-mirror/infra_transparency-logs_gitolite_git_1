@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4625705718070982796=="
+Content-Type: multipart/mixed; boundary="===============3026389833046998365=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 30 Oct 2026 17:27:53 -0000
-Message-Id: <179338127399.1514018.15267137632114026185@gitolite.kernel.org>
+Date: Fri, 30 Oct 2026 17:28:01 -0000
+Message-Id: <179338128120.1514249.15769637075752114099@gitolite.kernel.org>
 
---===============4625705718070982796==
+--===============3026389833046998365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: 2ac399209a667b9b824c9674db23664e4b1e9914
+  - ref: refs/heads/for-next
+    old: 65ba8f34ec886ec72b2c07ddc8cf3d815c32869d
     new: e1235f00c4c7cf2a1c6c5b6b6c29c736928cb4fd
-    log: revlist-2ac399209a66-e1235f00c4c7.txt
+    log: revlist-65ba8f34ec88-e1235f00c4c7.txt
 
---===============4625705718070982796==
+--===============3026389833046998365==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2ac399209a66-e1235f00c4c7.txt
+Content-Disposition: attachment; filename=revlist-65ba8f34ec88-e1235f00c4c7.txt
 
 7e051a18fc49959d9cac63c46f1bf34616a208af power: supply: ltc4162-l: Use POWER_SUPPLY_PROP_LOAD_SWITCH
 cb012fe405f0f487e9480472f3558e678556ed49 power: supply: rt9471: Use POWER_SUPPLY_PROP_LOAD_SWITCH
@@ -1051,4 +1051,4 @@ ab332ec8953d5379d99bb507444cd69e8e1bce70 libbpf: Fix struct and union zero detec
 7955d4a4020c5e136f9adc0ddfe986b991359983 selftests/bpf: Add regression test for BTF dump zero detection
 e1235f00c4c7cf2a1c6c5b6b6c29c736928cb4fd Merge branch 'libbpf-fix-struct-and-union-zero-detection-in-btf-dumper'
 
---===============4625705718070982796==--
+--===============3026389833046998365==--
