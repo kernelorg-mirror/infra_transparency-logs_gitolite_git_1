@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6924142965833825599=="
+Content-Type: multipart/mixed; boundary="===============5971005487881562310=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 31 Oct 2026 01:39:52 -0000
-Message-Id: <179341079239.1936617.6309335045035853438@gitolite.kernel.org>
+Date: Sat, 31 Oct 2026 01:39:58 -0000
+Message-Id: <179341079897.1936765.10569548288595455837@gitolite.kernel.org>
 
---===============6924142965833825599==
+--===============5971005487881562310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,56 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 3650bb41391b51d9dcf87b0480ecafeb1526252f
-    new: 503e6172fa74da6b4944ece458f5534681e51d21
-    log: revlist-3650bb41391b-503e6172fa74.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: a4823b6892ed242a527758c0def0673d2ec7cd3a
+    new: d784616f545e627119342a98712c67a1f9b9ce8f
+    log: |
+         d58e6d962e5b59297be24d908f41af93f20ec11f scsi: mpt3sas: Register devices during SANITIZE
+         5d5913710c81eed6fa275b6a24773059d9dbfdfa scsi: target: Validate REGISTER AND MOVE TransportID length
+         a52f2ad45726d788755b525adcf51f65a6b836ff scsi: bsg: Report synchronous data copyback failures
+         ffb7b533a47906b96166eec4b7eaa4199b7a7462 scsi: bsg: Report io_uring data copyback failures
+         cdf4b87a18cb6a0ee26865cb1b7b5660a491d302 scsi: target: Verify the iSCSI ISID is null-terminated
+         b8d0bb6a8ba0d3878940a914a19336844101867b scsi: target: tcmu: Fix divide-by-zero in data_pages_per_blk store
+         
 
---===============6924142965833825599==
+--===============5971005487881562310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1793410790 -0400
+pusher 75C5DE3D 1793410796 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1793410790-96977fda8ac78165dec7357fa08b4ebea6b553a2
+nonce 1793410796-6bcd7a2c4ccdadfd070abf4210c89126a3a74ad1
 
-3650bb41391b51d9dcf87b0480ecafeb1526252f 503e6172fa74da6b4944ece458f5534681e51d21 refs/heads/queue
+a4823b6892ed242a527758c0def0673d2ec7cd3a d784616f545e627119342a98712c67a1f9b9ce8f refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrlRuYACgkQ7ulgGnXF
-3j3EoRAAlBnve43A1pWjqx9U27UVgYRczT9P0mrurq5I5EkVh1BNsYdQHQVGmYJk
-wqLl9wrw1i7II/kkXz9x9DXMQvzwhzghvOQqN9wvJNXfNmxWAYsoLR+nOi6ODvkD
-gUNm+Ql9uLWIXnjvRUoVza3+z9BI5E7AeSZvGZeeJAESPz8IE+Li+P94RNf/0BUB
-Ui4xBbtJClzAzKrdO/3MDx9DOrQVkkliDHPQLtjXFtfRBQFUbsaUpljO2rRG6jei
-5um0y34Yp8M3KCUv0HPotn+YnChqpHzwuaMMGMYw1o8IxxoFNLr1j/b88NikBbbT
-ky/zPHW6LfU5ZUPpHNhwafKpR1L0yRpBbGG768Q8JhwUwj0aO1Yxmv2WlrkO4rRC
-yq6hxa1aZogyAw6IQ+BsndLSSH7vtEyDK9BEUAlrPaotzT9LCNjP4upyoSHx/ght
-6K9jfqc7ZdOLQlAmwMoJ6IDwy+JdznByfvaYe1ViEHfhpdR+ghoJjRvXc2IUctDd
-/Af+jqCpLUDwIEWSPn0P8HDGxkt1jYqA/FmgTL/SdTAFjM5iSY3fUZms6y+iJ040
-lML6kAZvqz1zbmmf1xEFmICs0o2KNOYHE8Y5YGmTs/N5JXPLAgWVfVW3vx2ltDKG
-Wmi4RQYk7fbEQIK5FieMQT7H09o3AkvA4iHlDtdhsZDI9jQetJY=
-=bAEx
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrlRu0ACgkQ7ulgGnXF
+3j2nOBAAtxMFZShFzh7SB7pc/s7Jsn883YQ483jdyPHq2cZwLwtnigGD/X6ZwhVY
+H1aUsI3GR4fw2UhrStHH8e3fj1j4aRy6SW+WaBg3Df+O9Vv3/1J+pDLsI57flIh6
+WYCk8H0qkvr7Ef4QdviVC0KuJzsuVZNeVjgA5IgJP7XZ3tF9EAYEoSaTIswqgUC+
+npYYEJXBxuSgYaKC5rsPB4mJWEWFfYiPMXV5LeBVieaW6U+9UUp5wux64utWuwkZ
+wSlt0svil0AQGqhZaJRNGSzMif0daZvbrhqxS1ed86Eq8mWnxwV5pS9oEp4MVCaT
+2h3VgFAws4uiiF9jXduaVgGaYclJiDFMOQReWnLUBdJLk+FlPGr71+KsPVwiku2C
+TYII0noVOmhLrO6JozD9nxStUqy3IKUJn9P3ot2pQT/iQ2oSoObHpEKBj9javc30
+Q772PJEF4ijM5eCSC9pSjdeLEJzuzc/MyEceEKAlxiOpiIvmfA6y1JfmTgdFvNcw
+Rl8uDBuWI55H8ceUyGv+vqahlgSGc2a5s3tyHgPAXxSm3voOm+7c6JwnK5wectxz
+7VOOgWYrC4qFAQBiNtQGgV/SpU4ZDVXSgX0q/0v/jyyG0M1XwJ7RUq644o/sfDWt
+q/rHzVghcT6oCCz4yWZV0LqkZsLXMC2HanUw/pyPsWy+VfNqkps=
+=UXn7
 -----END PGP SIGNATURE-----
 
---===============6924142965833825599==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3650bb41391b-503e6172fa74.txt
-
-9a2690eb4bbea8d7fbc3dfe478fca75fe956abb4 scsi: aic7xxx: Fix REQUEST SENSE allocation length on big-endian hosts
-696bdfc58975fbc70d2e2347a74e0b562e7e2494 scsi: aic7xxx: Use default settings on the SGI O2 onboard controllers
-f057a8bfeb6ff89c65e95540b8700a53c66d4a31 scsi: aic79xx: Fix NULL pointer dereference in device reset
-34c99ce2993971712d89010a948d2f650687b796 scsi: scsi_debug: Drain target cleanup before module exit
-8a832fb632da303cdf0704e0d56722ec47799f19 scsi: core: Balance the pseudo target reap reference
-6b2ff2b3eafa381db9b4c8a6ed98b353b2a09f39 scsi: ufs: core: Change the error check sequence for auto hibern8
-b54bd8da110dd9efb058d68b04b50d9341f9f090 scsi: BusLogic: Pass the host pointer directly to several functions
-ba80a742b3e184b1af8f1ce636105e67f7cedb14 scsi: BusLogic: Prepare for enabling lock context analysis
-9ec6671b137de06f0345962fb8091466b7d56a96 scsi: aha1542: Remove unneeded scsi_dma_unmap() call
-6a6e7d7230cd4e0a6c003bae5b85bf37a1e77b94 scsi: target: Fix demo-mode dynamic ACL dev-entry UAF vs LUN teardown
-503e6172fa74da6b4944ece458f5534681e51d21 scsi: libsas: Add __printf attribute to sas_ata_printk()
-
---===============6924142965833825599==--
+--===============5971005487881562310==--
