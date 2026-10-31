@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1729239233637537609=="
+Content-Type: multipart/mixed; boundary="===============2798009718437431539=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 31 Oct 2026 11:06:08 -0000
-Message-Id: <179344476832.2337744.15533698507014311728@gitolite.kernel.org>
+Date: Sat, 31 Oct 2026 11:06:46 -0000
+Message-Id: <179344480652.2338182.12044361954175310246@gitolite.kernel.org>
 
---===============1729239233637537609==
+--===============2798009718437431539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-tpm
-    old: 94d78ae4bcb5a38a4a7f54a579c55d2f77370697
-    new: 36aad21d50d1af3f6954bb0c988257a908202477
-    log: revlist-94d78ae4bcb5-36aad21d50d1.txt
+  - ref: refs/heads/for-next-keys
+    old: 9a2a4c51dccc3168c3dc949fcbaa360a478fa228
+    new: aef3a8a4f988bd2056de48ec0840ff47f7757087
+    log: revlist-9a2a4c51dccc-aef3a8a4f988.txt
 
---===============1729239233637537609==
+--===============2798009718437431539==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-94d78ae4bcb5-36aad21d50d1.txt
+Content-Disposition: attachment; filename=revlist-9a2a4c51dccc-aef3a8a4f988.txt
 
-e08601d3a7b2236f4915497dca353dcf117bab5c nsproxy: Fix cred leak in the error path of prepare_nsset()
-b14fcabd34e02c40f72d3cd1e9bd4fd18df40ff1 ucount: take the rlimit reference before checking the limit
-80892972ff23bf0b9049230ef0931b34163aaed3 ACPI: utils: Add exclusive AML evaluation helpers
-645f370c932db2cd3893f7fee61aa8b9debc8ac0 ACPI: battery: Evaluate battery methods exclusively
 c4aae727beb23a736c15b8d53e219da29d791065 thermal: intel: int340x: Evaluate _TMP exclusively
 f91c2cd6dbcedf52e227b2eea8d7b99ecbac7552 platform/x86: ideapad-laptop: Evaluate ACPI methods exclusively
 643b64025650d0ac5d57bd522d2eb0996a278081 arm_mpam: Release the mon_sel lock on mpam_save_mbwu_state() errors
@@ -1050,5 +1046,9 @@ ac1bf565f140154ee27db56c80f29c9eeb9a77c3 Merge branch 'fixes-from-sasha'
 60aba79a50127e92d8c4a663d35b855e52a9da01 Merge tag 'apparmor-pr-2026-10-29' of git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
 dd384658c738d15783a786d3af2851e02490f171 Merge tag 'perf-tools-for-v7.4-1-2026-10-30' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools-next
 36aad21d50d1af3f6954bb0c988257a908202477 Merge tag 'ksmbd-for-7.4-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/smb
+3c6c22eac0b8fecf4d4ab17b3b520a6c72d2ffe3 KEYS: Expand key->{datalen,quotalen} to unsigned int
+6ac6cd4b5bfc15c4eef90ec05f21972142479ee1 KEYS: Reject descriptions larger than KEY_MAX_DESC_SIZE
+fa988fda953f5acb7135aa93ae8c707124595585 KEYS: Verify the key identity in __key_unlink_begin
+aef3a8a4f988bd2056de48ec0840ff47f7757087 KEYS: Protect the update method check against type removal
 
---===============1729239233637537609==--
+--===============2798009718437431539==--
