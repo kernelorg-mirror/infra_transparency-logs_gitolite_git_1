@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7219627316212491893=="
+Content-Type: multipart/mixed; boundary="===============2712007792885352280=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 31 Oct 2026 18:06:03 -0000
-Message-Id: <179346996316.2644336.17024887989864905079@gitolite.kernel.org>
+Date: Sat, 31 Oct 2026 18:06:15 -0000
+Message-Id: <179346997559.2644572.3250982004463345863@gitolite.kernel.org>
 
---===============7219627316212491893==
+--===============2712007792885352280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: abf8c33470f78e2226ee3dcdc69004660020ab47
-    new: 36aad21d50d1af3f6954bb0c988257a908202477
-    log: revlist-abf8c33470f7-36aad21d50d1.txt
+  - ref: refs/heads/hwmon
+    old: 1c75a1d3f1588ad0c972d9476f6551261bbe7fce
+    new: 2b05d95c12b82a0a06f802f35a198ef56135dd55
+    log: revlist-1c75a1d3f158-2b05d95c12b8.txt
 
---===============7219627316212491893==
+--===============2712007792885352280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-abf8c33470f7-36aad21d50d1.txt
+Content-Disposition: attachment; filename=revlist-1c75a1d3f158-2b05d95c12b8.txt
 
 598e905931380f0714d5fd50cecfac615a1ec742 perf jitdump: Fix extended header read that always fails
 2bd967f3adcba1d3e54f10b0d8b25f950e4f03fd perf jitdump: Fix debug_data and unwinding_data leaks
@@ -819,5 +819,39 @@ ac1bf565f140154ee27db56c80f29c9eeb9a77c3 Merge branch 'fixes-from-sasha'
 60aba79a50127e92d8c4a663d35b855e52a9da01 Merge tag 'apparmor-pr-2026-10-29' of git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
 dd384658c738d15783a786d3af2851e02490f171 Merge tag 'perf-tools-for-v7.4-1-2026-10-30' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools-next
 36aad21d50d1af3f6954bb0c988257a908202477 Merge tag 'ksmbd-for-7.4-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/smb
+8be080aa15d625b2247f31074331c58e9c9931c2 hwmon: (sht15) Stop deferred work before releasing its resources
+6283a078030ce2230869c1e91bf055282ac7069f hwmon: (corsair-cpro) Cache fan target only after a successful command
+90c200aa399521fedbb3f67cdae41db5c9f42c49 hwmon: (aquacomputer_d5next) reject short status reports
+663d77fad532b03c7ac88ec7715ff2d270931a1c hwmon: (pmbus/core) Register the thermal sensors with a 0-based index
+5d48f2902342b294e27b4eb587f4818d64d379c9 hwmon: (asus_rog_ryujin) Fix pump control source on the Ryujin III
+d66bb7b73beb3be1cad4870eff1bc7b7f8c10115 hwmon: (gpd-fan) Reset both fans to automatic on duo boards
+df72a4955def4e49a2ae3fffce651a4ea22e7c17 hwmon: chipcap2: fix command error diagnostics
+9ac23a57ab9f953f3a52910087dd961b68a1d0c0 hwmon: chipcap2: fix off-by-one in command mode retry loop
+3d3012d41e8995623afa4a1f6cde8fd88cf96682 hwmon: chipcap2: fix be16 handling
+0145ad079aa14f8f8f5f2ac825a4d3571abe6bd8 hwmon: chipcap2: defer probe when IRQs are unavailable
+f460a84e26b524ecc52fb38cdf2de4645198a0d9 hwmon: chipcap2: fix IRQ teardown ordering
+1af6ff4e326a938904b33c61c16fc1de73e195ef hwmon: chipcap2: disable device after hwmon teardown
+7f51ad426b5a61077dd7ac1f17968e97283c4a2d hwmon: chipcap2: enable IRQ processing when regulator is already enabled
+984d8a7c898cb07459ccc81dbd0002049ae3807f hwmon: chipcap2: balance regulator state
+47a569392ece9686e033f2b62f628e76751a83c7 hwmon: chipcap2: do not discard pending alarms on disable
+3464caca9126ee61ec6ddb2960315d95fd6154d0 hwmon: chipcap2: serialize access to the alarm indicators
+5058cb870580c7228a02e06b4b602844b73e6883 hwmon: chipcap2: synchronize ready IRQ state
+05cfad50e4c0bf90d1cf06cc84d63b09ba8b38c8 hwmon: (aquacomputer_d5next) Check maxcollection when probing AQUAERO devices
+7a4a53ef9c24293a353506b9912558c7c94fecea hwmon: (asus_wmi_sensors) Avoid global struct mutation
+dda60388b25d886f2538fb16758454eeabc3e387 hwmon: (hp-wmi-sensors) Avoid global struct mutation
+114758f2e74f48fff5ed3fc13d109b0c341d393e hwmon: (hp-wmi-sensors) Fix unbounded loops in scale_numeric_sensor()
+6ab03f61d3db1788874918caf44916171ac26427 hwmon: (lm87) Fix drvdata type confusion in vrm_show() and vrm_store()
+979e7ba66eacf6e5a5a0c13b2103a45dcc094ff6 hwmon: (nct6683) Fix incorrect struct cast in show_pwm() and store_pwm()
+7320876e08ff29d349cdae3a3e5ba0c2c54724aa hwmon: (peci/dimmtemp) Fix devres leak and UAF on concurrent unbind
+798c9af9d8c7992d04babac2ba3dfca9ce272d59 hwmon: (pmbus/q54sj108a2) Add missing NULL pointer check
+790ee99d9def0e446e18fcd3ee46f878fbb0eb9b hwmon: (pmbus) Check return value from pmbus_thermal_add_sensor()
+7ed81b0b1c9fdbeea1116aef59e2b9a11ade9318 hwmon: (pmbus) Release devres allocated memory after devm_thermal_of_zone_register error
+0b90a8e12fe314b186393458fbfd5b656edf08b7 hwmon: (pmbus) Fix return value check from thermal zone registration
+05bfa1963ac9f12d8e3b4eeb1bb4ba67d54a1df5 hwmon: (lm75) Fix setting polarity mask for chips with 16-bit config register
+cbff08ca4869f137e9d0f1caed3171a5d2bb036c hwmon: (tmp108) Fix initial conversion delay and wait until ready
+054f90fe2143a31c840e00bd8bdb8d85b2fd9c40 hwmon: (gpio-fan) Update the speed cache before dropping the PM reference
+0add026ea3be5c5cb178a09b825b4e41dd0bd1f3 hwmon: (coretemp) Check for NULL platform device in hotplug callbacks
+95fc366cae6e78429458c75f2054165f6b01731a hwmon: (coretemp) Set nr_cores only after core_data allocation succeeds
+2b05d95c12b82a0a06f802f35a198ef56135dd55 hwmon: (coretemp) Fix 32-bit jiffies wraparound in show_temp()
 
---===============7219627316212491893==--
+--===============2712007792885352280==--
