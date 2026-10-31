@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7611517694222986714=="
+Content-Type: multipart/mixed; boundary="===============0466827762078708659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 31 Oct 2026 19:54:46 -0000
-Message-Id: <179347648609.2720849.307817605766679409@gitolite.kernel.org>
+Date: Sat, 31 Oct 2026 19:54:56 -0000
+Message-Id: <179347649645.2721050.15381505880639135626@gitolite.kernel.org>
 
---===============7611517694222986714==
+--===============0466827762078708659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 36aad21d50d1af3f6954bb0c988257a908202477
-    new: e9954f3fbddd25e1a01b7e5a0b72fb8b564204e0
-    log: revlist-36aad21d50d1-e9954f3fbddd.txt
+  - ref: refs/heads/hwmon
+    old: 2b05d95c12b82a0a06f802f35a198ef56135dd55
+    new: e2cd8dfe33af3bc2d5006b5dcbd6be89f7ab227d
+    log: revlist-2b05d95c12b8-e2cd8dfe33af.txt
 
---===============7611517694222986714==
+--===============0466827762078708659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36aad21d50d1-e9954f3fbddd.txt
+Content-Disposition: attachment; filename=revlist-2b05d95c12b8-e2cd8dfe33af.txt
 
 ff404ef11b975baf38c4472c51a6674c239e8021 ASoC: cs42l56: Remove the ADC Mute Switch control
 6cc7db9fdd06c992ee38793b2d556524fc0cf574 ASoC: cs35l56: Wait for firmware timer expiry before system suspend
@@ -127,5 +127,39 @@ a65eb1808177a4381718abe563dddebf840598f9 ovl: reserve space for the casefolded n
 74f6055d0c5997b13e6a5253fdc2263f3af90408 Merge tag 'asoc-fix-v7.4-merge-window' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 ca62fc8c6b1841039aee6de1ef03c9863751ec04 Merge tag 'ovl-fixes-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
 e9954f3fbddd25e1a01b7e5a0b72fb8b564204e0 Merge tag 'sound-fix-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+5c660dedbc02c9ca297a6f0ff05bbec6f7cd2339 hwmon: (sht15) Stop deferred work before releasing its resources
+451cadf0150c1711ebeb7288cce9b37f228251b2 hwmon: (corsair-cpro) Cache fan target only after a successful command
+d66e454f6c90f6032d23096e09b9b19d4687d5a3 hwmon: (aquacomputer_d5next) reject short status reports
+4e844bdda9548dbbe23acbde5ffd18fa24faf73d hwmon: (pmbus/core) Register the thermal sensors with a 0-based index
+4ceea02a461d25b4e6f630abb0df3fc93ad040c6 hwmon: (asus_rog_ryujin) Fix pump control source on the Ryujin III
+d2b7e9eb545e3dc7c386a07a3e079347979552d7 hwmon: (gpd-fan) Reset both fans to automatic on duo boards
+19751c5ce16af8cf30dd749064dce871d21d4b42 hwmon: chipcap2: fix command error diagnostics
+bfff2f2647e65325522e5d7de14c1457174b3a77 hwmon: chipcap2: fix off-by-one in command mode retry loop
+21c049e1df6689ef1daa5c53058ef1f94790916d hwmon: chipcap2: fix be16 handling
+283065c9cf86ef77585c0e917141a78bbdfc0672 hwmon: chipcap2: defer probe when IRQs are unavailable
+ccc0d380417212ebf2d0658f7bf783f100f24e54 hwmon: chipcap2: fix IRQ teardown ordering
+27f5d44ff623c80e4218cdbf762e46489de28f42 hwmon: chipcap2: disable device after hwmon teardown
+b5069a831413bccc12b195db2111f566a8c08001 hwmon: chipcap2: enable IRQ processing when regulator is already enabled
+39372a5adbf7ce870de5f72adcf99dc626764b28 hwmon: chipcap2: balance regulator state
+8670fb1131c2a345a300fe243e7c6453a70cd32a hwmon: chipcap2: do not discard pending alarms on disable
+68c2d5294b5826afd1c6fc3f9160de3e50590457 hwmon: chipcap2: serialize access to the alarm indicators
+19c8094530607d9c82c5f4dd6134fa47675829ae hwmon: chipcap2: synchronize ready IRQ state
+3fbb2cc6eb4e59381e725a80be2043be3d52d152 hwmon: (aquacomputer_d5next) Check maxcollection when probing AQUAERO devices
+a63b766a0e77a268ffde6f9fc3e96934203520f0 hwmon: (asus_wmi_sensors) Avoid global struct mutation
+ceb27bb3aaefbca4bffab2a222271060e070b752 hwmon: (hp-wmi-sensors) Avoid global struct mutation
+3fcf020924cba492c813d7c4459cf064f9b3a760 hwmon: (hp-wmi-sensors) Fix unbounded loops in scale_numeric_sensor()
+06123aceb38802baf7df223c44b4b3161d7f7ca9 hwmon: (lm87) Fix drvdata type confusion in vrm_show() and vrm_store()
+f7ffb780a0f2030f4adc70fca8a1667244b3d9ea hwmon: (nct6683) Fix incorrect struct cast in show_pwm() and store_pwm()
+7b2435cd2ce80c6900454dbc1b4eddd43a1515bc hwmon: (peci/dimmtemp) Fix devres leak and UAF on concurrent unbind
+c0da0157e4705c034a9572ce97a79a8f65fa7465 hwmon: (pmbus/q54sj108a2) Add missing NULL pointer check
+87853995605271f41207a5bb25d733de55687959 hwmon: (pmbus) Check return value from pmbus_thermal_add_sensor()
+07172ab2025c377c614631832e0288a128845677 hwmon: (pmbus) Release devres allocated memory after devm_thermal_of_zone_register error
+49c36c2d69488e769625c73db509465a4f6ada0e hwmon: (pmbus) Fix return value check from thermal zone registration
+b546d16fbacf3952d57aac121953f3fcb23bbc6e hwmon: (lm75) Fix setting polarity mask for chips with 16-bit config register
+7d96b64c2390f6fa29c0b708fb5daf6e78919db3 hwmon: (tmp108) Fix initial conversion delay and wait until ready
+c408e0ccc99780d9e34f801bb7bb3c5d4613f013 hwmon: (gpio-fan) Update the speed cache before dropping the PM reference
+b28b0df670ad1c2229294353fb1d19c0f2565c61 hwmon: (coretemp) Check for NULL platform device in hotplug callbacks
+85806d9aa49131f5f9882999ffa626d0b9611c7e hwmon: (coretemp) Set nr_cores only after core_data allocation succeeds
+e2cd8dfe33af3bc2d5006b5dcbd6be89f7ab227d hwmon: (coretemp) Fix 32-bit jiffies wraparound in show_temp()
 
---===============7611517694222986714==--
+--===============0466827762078708659==--
