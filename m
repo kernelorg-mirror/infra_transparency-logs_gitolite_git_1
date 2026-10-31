@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0485260183170927323=="
+Content-Type: multipart/mixed; boundary="===============3170972406129923743=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/horms/ipvs-next
-Date: Sat, 31 Oct 2026 11:06:52 -0000
-Message-Id: <179344481225.2338369.1514972875240169555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/horms/ipvs
+Date: Sat, 31 Oct 2026 11:06:56 -0000
+Message-Id: <179344481658.2338572.5189550859851546886@gitolite.kernel.org>
 
---===============0485260183170927323==
+--===============3170972406129923743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/horms/ipvs-next
+repo: pub/scm/linux/kernel/git/horms/ipvs
 user: horms
 changes:
   - ref: refs/heads/main
-    old: a5e7d8e446af9803e37a3b6a4d416fb41178348f
+    old: ab699d296e066eb64f51d2a8a1d42237a3b186c8
     new: 734bef548a96e8774d6eef5dfa2026c6edc4e80b
-    log: revlist-a5e7d8e446af-734bef548a96.txt
+    log: revlist-ab699d296e06-734bef548a96.txt
 
---===============0485260183170927323==
+--===============3170972406129923743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a5e7d8e446af-734bef548a96.txt
+Content-Disposition: attachment; filename=revlist-ab699d296e06-734bef548a96.txt
 
 7b16eb911091aae237a8673da94e4dfb9cd21d54 net/sched: fix use-after-free in __tcf_action_put()
 73022f605c447f31610b94ed4a983d2b4bf2c721 net: ibm: emac: size RX buffers for the MTU
@@ -1051,4 +1051,4 @@ fcb92ecd733e11f37c32e7485da976a40d878e72 Merge tag 'for-linus' of git://git.kern
 864c07de0c7dcbca58b61625dfa2e461ae63b242 Merge tag 'hardening-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 734bef548a96e8774d6eef5dfa2026c6edc4e80b Merge tag 'net-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============0485260183170927323==--
+--===============3170972406129923743==--
