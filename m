@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0587065970608661801=="
+Content-Type: multipart/mixed; boundary="===============2819756539200056838=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 31 Oct 2026 12:24:27 -0000
-Message-Id: <179344946729.2395517.11544378452168534191@gitolite.kernel.org>
+Date: Sat, 31 Oct 2026 12:24:40 -0000
+Message-Id: <179344948081.2395747.7941629725246334782@gitolite.kernel.org>
 
---===============0587065970608661801==
+--===============2819756539200056838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: abf8c33470f78e2226ee3dcdc69004660020ab47
     new: 36aad21d50d1af3f6954bb0c988257a908202477
     log: revlist-abf8c33470f7-36aad21d50d1.txt
 
---===============0587065970608661801==
+--===============2819756539200056838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793449465 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793449479 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1793449465-83aa79cee4eff957464d5dbf2d15b34ed17f863c
+nonce 1793449479-6f828855f678eef24b55b3a842e40265b37bfb4f
 
-abf8c33470f78e2226ee3dcdc69004660020ab47 36aad21d50d1af3f6954bb0c988257a908202477 refs/heads/char-misc-next
+abf8c33470f78e2226ee3dcdc69004660020ab47 36aad21d50d1af3f6954bb0c988257a908202477 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrl3fobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C+QP/RM1PoxfRhWPghjxq0s1
-bmlr+Hq8wYeRuma+ld9qjiX+mj91ylfT1vmvHOS9q7RTHPSmTbHPfIrLZtcyeXwC
-TNAhrDcVL8ewehk7Y1JgLxW864WXxntNrSh1t7ZeqRuHucgzl4rycpuFPR4WC3mP
-R+Uu9AyGD7J91Ydo36WpYiJWJcPgBGvSIgNCoCp1OdX7hm/Msd4/GheVvCalM2WS
-OrzyM4L/bVDK7IO3jiUewpAND6UPLP3aDOvFwd3pzz/1BnquYBJzGfsklBX9yUI3
-uJWQ7KwqOf0QInL7l6LI85lcHRGpc7PgLHz8fyeWXsU3ps/jkg/uPWb+hSXCDbrs
-2ZcFdSablw+1G1ASw5DISO+iALut4qIN0up4xC43a3poXP96S3/WKlvfSX3BBfU+
-f5V9nZXeqHxvyJRBsDzuh8dQr0HMn17EXj6Lpaktbp8TsnlrfqGcvNHnkhCp+EbP
-QrW6PF8uYBC4L6HwwBMT7CYrM9w4aFPaX58tHK8HR9dx5zVMqsFtiYEjM2wWKxh1
-D/GpIsFjvHEuhmTS8Q9ZO0JLIWT0wznWBR0Wf6vE2tCu6MljyNAwkhTTR1Rxu626
-24ovjLp9luZStSQ9wAwqIUdZjK7plNRTWULNjALOgbbgM3I7I/U2gcnMYvQnisqh
-+ZoFD6lJSHHQCyYKVvAQ8u0B
-=hPbV
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrl3gcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+eHAP/2hGnX/oqzpHZFHrYId3
+0CvhPe+7GLHxYsSZS64zsNTfa/g73ydtewT3ORnCm4FMxZnaEZMVE8wK6AsDtUym
+QugUlT/4EDFHWHJmw3CKlKGJtmkkg9Sv5IxYcPYZnGdp5Zk3QRfEYUIHHNgiYTCC
+JqWn72I9lHI+IXpZwDOK8S/R56T62NFFfwIkn8E6sJ4gJOKIQjN1Yh9HFTFtuBOq
+toBQn/9HAKB/iB/J7DTqFdFaQsKZLqcj0hz+k2Uphrmh+gQeczzTyap9MYIQdpBZ
+p41XMosgErmO6yoQju5qu9vUxU3eNWlHSFbF0VYlwVz0qPtANAb6nRjzC2w912pu
+23lPHFUq1UmXLCtVdY30vUAHa9WYkjcqYJ789782Qwhk/oI9+6xi0JDH7phxyDw1
+vkEfCtOcisTaocUwjO0NKWFdWSLev0E87hjTc53t7eiJHN/6M++hq1Qm8NDh9Ai3
+lbsSce85H2ZoJfVzO5ZoUzCH93vynBxRNfnoYSucx41Bj6RBAHvSn8RuOHqacssy
+i21d4CfjrwldwOMI6ne+2qugtlh/62Uc9El/nSdPZl1z7pseUMhnCHywIjTtmpvi
+5thkhIIVVASBTAbyLxU8Rngqaz9PUjzla/49+pnB1/CjCSWc83d6zcqD67WBlO/v
+/VCmONJLseKvO0n2E5W5W+pJ
+=hdGU
 -----END PGP SIGNATURE-----
 
---===============0587065970608661801==
+--===============2819756539200056838==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -851,4 +851,4 @@ ac1bf565f140154ee27db56c80f29c9eeb9a77c3 Merge branch 'fixes-from-sasha'
 dd384658c738d15783a786d3af2851e02490f171 Merge tag 'perf-tools-for-v7.4-1-2026-10-30' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools-next
 36aad21d50d1af3f6954bb0c988257a908202477 Merge tag 'ksmbd-for-7.4-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/smb
 
---===============0587065970608661801==--
+--===============2819756539200056838==--
