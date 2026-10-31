@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7209890073543833747=="
+Content-Type: multipart/mixed; boundary="===============4566156646772636533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 31 Oct 2026 00:57:19 -0000
-Message-Id: <179340823978.1906562.9463099796608692818@gitolite.kernel.org>
+Date: Sat, 31 Oct 2026 00:57:24 -0000
+Message-Id: <179340824420.1906748.2292186307180336540@gitolite.kernel.org>
 
---===============7209890073543833747==
+--===============4566156646772636533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 5e6c45aaaf93343c7f8a1cde9797080238af5c1b
-    new: 243e8cdab64129d6207c398f8cf5fbb1962ff7e1
-    log: revlist-5e6c45aaaf93-243e8cdab641.txt
+  - ref: refs/heads/mm-unstable
+    old: 95b7365accfa2833a41e28bb299a6794548201af
+    new: b61fa14ce6bcbba2cb9a96feea31b760226d6b43
+    log: revlist-95b7365accfa-b61fa14ce6bc.txt
 
---===============7209890073543833747==
+--===============4566156646772636533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e6c45aaaf93-243e8cdab641.txt
+Content-Disposition: attachment; filename=revlist-95b7365accfa-b61fa14ce6bc.txt
 
 260563f0306e2d299667fbf591df30e78216a743 mm/khugepaged: flush deferred unmaps before dropping a failed folio
 955d905c3f32725747e5c1588c8781b053c1f34f lib/base64: silence clang-24 -Wconstant-conversion with diag pragmas
@@ -89,60 +89,5 @@ b3c9fa3b584429ef8243c761283d7abebabfd795 userfaultfd: clear the inherited uffd b
 52c18918a8f2529e87bd9b9f122a8a8fc99ff6d6 mm/zswap: validate dlen and normalize comp_ret on compression success
 0ad0c8dbce1fb2810290c2c68e2005bf28503877 mm: nommu: set MMF_OOM_SKIP in exit_mmap()
 b61fa14ce6bcbba2cb9a96feea31b760226d6b43 fs/proc/task_mmu: fix lost maps entries above 2^63
-70482ade80b5c7db7bf148c6e6af3034fb1ea12c mm: unqueue deferred split folios outside the lruvec lock
-547bf65a1b08744df16846c06869f960de2ef31e selftests/mm: skip collapse_compound_extreme() on THP allocation failure
-6178b797c4a1e9ffe9a67e5ae652ef6f013ecab5 mm/hugetlb_cma: fix incorrect hugetlb_cma_size assignment on malformed input
-1b0341fd8e8dfc26adcfd4c17fad0fdcb6292778 mm/vmstat: annotate data race in zone_page_state_snapshot()
-2f6d4eb1a371e7369ef90e4e5c90bcb68aa8fbd0 selftests/mm: track the modules run_vmtests.sh loads
-e467d90663e8f4263f10aba08486e94b0a02b973 selftests/mm: load xfs before checking for it in run_vmtests.sh
-e650205fdc629bb69aeaed31a25d306574f30937 memcg: remove unnecessary READ_ONCE() under memcg_stock.lock
-ea1ef8f162f45f360594ce73cf27f3773825c1dc memcg: reduce nesting in consume_stock() and refill_stock()
-79e87bae4d525343e707fa4e1cbd0fc182130816 memcg: annotate slow paths in consume_stock() and refill_stock()
-b0d310822a9749bab03be1b78e42a89a4b37ed38 memcg: uncharge pages outside memcg_stock.lock in refill_stock()
-078daddbfc69bf0065a8d813f30378be2905da93 mm/sparse-vmemmap: map shared vmemmap tail pages as read-only
-4b539bb4816e90d3be59713b38dc7734fab44919 powerpc/mm: map shared vmemmap tail pages as read-only
-2491a8cb256bd6e692706deb3b9a72e94b42da55 mm/hugetlb_vmemmap: remove vmemmap_wrprotect_hvo()
-acb9108c488db7983cce2ee3a13028516ecbc01f mm/hugetlb_vmemmap: remove hugetlb_vmemmap_optimize_bootmem_folios()
-391382b32d1b1a69d8a396ad7dd8e0f221596f65 mm: multi-gen LRU: use mem_cgroup_lruvec() in get_lruvec()
-d05d5e554bef78405f60bf7e41ec147a58d0d049 mm: multi-gen LRU: remove get_lruvec()
-d4d49727e413a6c9ea01ae9d52534cbe3433c27b kfence: fix pool cleanup on metadata allocation failure
-5e11e94ed039add66d4fa0bc038223827e75ca2d kfence: clear the pool pointer before freeing pages
-f06fa79087c32dc44d2c011d52ac09e30d6ea70d docs: hugetlbpage.rst: clarify HugePages_Total in hugetlbpage.rst
-2fa7d358692650299d931d3a1c2fe7c11a27cffa memcg: reduce cacheline contention between lruvec stat updates and LRU lists
-2b18f1710dc1acafce2833485759afb66a967af2 memcg: don't go through the lruvec for folio and kmem lruvec stat updates
-0289c8a90b6a0102061672ef613cd736ee72480e word-at-a-time: check the first byte in load_unaligned_zeropad()
-1c9a0a9af159aff53d95b5ce9bfc405cca7c0eaa kasan/test: cover load_unaligned_zeropad()
-3b238d7c2ccbf7fcd3bf9c55fcb674021774116e mm/page_alloc: remove unneeded forward declaration of __free_pages_ok()
-d2f22c0251365d8a886f5df25d52a0be06ff203d selftests/cpu-hotplug: use $(id -u) instead of $UID for root check
-cb8750b6852d858d003a5e0346a90b303d1d0045 selftests/memory-hotplug: use $(id -u) instead of $UID for root check
-f15d48413e79c76de51e58d5e5e81d993112087c mm/compaction: annotate data race for zone->free_area[order].nr_free
-de22a9f818230fe31dbed0d4bf6df8ff8d9ef3e7 mm/hugetlb: drop unused mm parameter from unmap_ref_private()
-5c12b4091ffc9a07d8d5f4764e7ef7e4ac3cf4c4 mm/memory-tiers: reset demotion targets of nodes without memory
-fe1125b34ba687614b07825315db04549a86c674 mm/percpu: clean up callers of pcpu_obj_full_size()
-7a7ea4379f3282d06c55f2f8767406ae1feff377 mm/mempolicy: convert mempolicy refcnt to refcount_t
-f9ed365ca323bcd39232047627c8c67a4aaa6fef mm: memcontrol: remove mod_memcg_page_state()
-1b30fcb9e1d6f67973c810a0c12b855815d7458b mm: memcontrol: remove page_memcg_check()
-87a13057a1a33dcd601a173eecb0a10cb748e584 mm: generalize kernel PTE table allocation
-9878b985447abc188657655db9b776d9cc09370f mm: generalize PMD page table allocation
-7d4b0924bb85ba3fb08a20d69ba9b29ced3dd80d mm: generalize PUD page table allocation
-9c350b77c58f780d998b4692c754cfb36a5df736 kselftest: mm: rename read_pmd_pagesize() to pmd_psize()
-9a5cd0477acb2a09e3cf9385f8a95c20caa941b5 kselftest: mm: remove HPAGE_SIZE and HPAGE_SHIFT macro
-bed0d4255119ce854b225768e141ccb8911c3bac kselftest: mm: introduce size_to_shift() helper
-d89b4b42bc9078218e213cad463c6e5493d5a154 selftests/mm: add MADV_COLD and MADV_PAGEOUT contract tests
-6cc75211dbdbdb8466421a535fa44ef2ca8570eb selftests/mm: check MADV_COLD and MADV_PAGEOUT range handling
-9e03e11279612a90ec6441954b7dcfc2addfa7a0 selftests/mm: check that MADV_COLD and MADV_PAGEOUT reject hugetlb
-d1544a29a9c7f71bb3ff59c52fd9d81e6d50f504 selftests/mm: check that MADV_COLD and MADV_PAGEOUT preserve shared memory
-1538c152911af194f4cc82e58cb339e9eaaef53b selftests/mm: check MADV_COLD and MADV_PAGEOUT on partly advised THPs
-3d1a7472f4be7c7ec89d1e15be7886013d2ef5c4 selftests-mm-check-madv_cold-and-madv_pageout-on-partly-advised-thps-fix
-c93baaff66004718fcc6d948c9be456fa15c2daa selftests/mm: check MADV_PAGEOUT file permissions
-8686d22ac0712f28794f6c673e606df741580648 selftests/mm: check that unauthorized MADV_PAGEOUT skips large file folios
-c9b495551158e4227530b984cc904af9adeceb10 mm: kmemleak: scan modified objects as soon as they are grayed
-e6d3a37b93ee6a9fc9be379f94380e42a8cec2dd mm: remove pagetable_dtor_free()
-2d7028453428100a78a2aaf8bdd21c54a462cea0 mm: remove redundant pagetable_dtor() calls
-c5591a9ffd4670854b4c3e55274fb7c30cf186b3 mm/hugetlb_cma: remove two unused include files
-958d78e9ede74eef37eeab85f2a05631a5749161 mm/zswap: batch the writeback IO of consecutive entries
-4edea4828537e491b2ea9d6b185ce433d573ab51 mm/zswap: plug the writeback IO of an LRU walk
-5c43349efe0833b871be17280d2c103d60db0d7b userfaultfd: docs: fix an error code, two names and the POLLERR cause
-243e8cdab64129d6207c398f8cf5fbb1962ff7e1 riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============7209890073543833747==--
+--===============4566156646772636533==--
