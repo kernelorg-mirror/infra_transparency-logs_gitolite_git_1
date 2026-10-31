@@ -1,58 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============1503622981647563086=="
+Content-Type: multipart/mixed; boundary="===============4390275762905540905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Sat, 31 Oct 2026 14:42:41 -0000
-Message-Id: <179345776103.2497654.8123147806349097594@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Sat, 31 Oct 2026 15:00:39 -0000
+Message-Id: <179345883960.2510788.9328703136515216900@gitolite.kernel.org>
 
---===============1503622981647563086==
+--===============4390275762905540905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 394c350a34b77f1bb065b675d356ab55b6462ed8
-    new: 3bbb9a75ec35e77907b990ae163b596e8e67fb46
+  - ref: refs/heads/master
+    old: e5d1325bb5a4f45a4d4baf3d9702053e316bbb78
+    new: 3770719f8fe169a38a4cd965a068dbe9092bdb15
     log: |
-         f3b0ddf7a9a3de5a59ae7e25943d60a924d05b99 memory: fsl_ifc: guard optional NAND IRQ cleanup
-         3de6a98362e7c833ba78f5928890744ca9187cdc memory: tegra: fix device_node leak in tegra186_mc_probe_device()
-         3bbb9a75ec35e77907b990ae163b596e8e67fb46 memory: atmel-ebi: Disable SMC clock on probe failure
+         3770719f8fe169a38a4cd965a068dbe9092bdb15 Add BEB27446C433F5F4 (Shakeel Butt)
          
 
---===============1503622981647563086==
+--===============4390275762905540905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1793457759 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1793457759-c031d96c83a38ac0f4ea10a280213f54681b92c0
+pusher B6C41CE35664996C! 1793458838 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1793458838-3499b8846e6a704e20a3d7c0f65f1c39dc2fda7b
 
-394c350a34b77f1bb065b675d356ab55b6462ed8 3bbb9a75ec35e77907b990ae163b596e8e67fb46 refs/heads/for-next
+e5d1325bb5a4f45a4d4baf3d9702053e316bbb78 3770719f8fe169a38a4cd965a068dbe9092bdb15 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrl/l8QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD15/5D/4o+f0Vffx0xIqyw+5waRnlZzxtJ7Vv68HG
-6csMPdQrxbY2SwN6A1aP3VewfAAWMi6JGqcH3pcjO0jcHWVzcKqrOCPBAXPNKivq
-HC+m38NZkmpN+WFFoZVqGdLoUxh8JDv6af+xMTvZRtfUDg3b/aktUb/tuUEN3LnJ
-eG/L0Yw0Q0YkY9KqVKegAeVYhuhtr6QykTyhZKwgVg95xGLi9ELCEBNk/XQFW04B
-Mq51gElze1UYB5FL5VWNgXXKZnzcFkjYr7fhmrmSE6V5gM3JxQbXbHslOO74+Ngf
-t/CS6yWZICvL8XkyBMAqw3Vk1byljm70yxtW4ituwsyQTsbO2XJ2lP3SJH0ADYRu
-aEVsZ2fqGOMe/7Ds8PWxTth24NHMUTcLM0jzHnGRD3CHD8GXiCevPAUTmcT0JZCs
-yPuf1udq1zvIsGvuTf2FbpCPVNgZOnhINM9bQ4lveJP5MzzjUNdyyl/FfR/YCy6i
-EGwoPzzI38mDLdMEX+qRa677iCXz6qJF5sNcN2Ifgq3XylZ+yAm8VuqJDj3cvTjT
-QnV/pF3ktyEBr0G86iuztPyupz0NBSvfCPT/XHoUdAyBg6s7xj7TJuhliUmNGU6m
-u09dH77a6Pc17u23YbwaelrnvtVXC+7f++oe4H0rgEjxR/IOzwFJ5rxx4XD5sx99
-TPkDpMb8Jw==
-=ni+e
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCauYClgAKCRC2xBzjVmSZ
+bDiKAQD+w7acKRVPu29+K1UFQ1DwFdE+gFNz8jjPQYf9vbwWEAD/fjuup+09ESlv
+XP2Qbhv4FsxVaO+hgke+LhnnSXnjpwg=
+=WpXN
 -----END PGP SIGNATURE-----
 
---===============1503622981647563086==--
+--===============4390275762905540905==--
