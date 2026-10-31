@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8323435824479451714=="
+Content-Type: multipart/mixed; boundary="===============3453234215511808869=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 31 Oct 2026 01:39:43 -0000
-Message-Id: <179341078309.1936304.313185568886766771@gitolite.kernel.org>
+Date: Sat, 31 Oct 2026 01:39:47 -0000
+Message-Id: <179341078770.1936501.12875557913077319753@gitolite.kernel.org>
 
---===============8323435824479451714==
+--===============3453234215511808869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 65f7fb7b8c480dcd537790f9400cd92285fa634b
-    new: 441c27e1427650e5e1e7d85e0f6756a12f276792
-    log: revlist-65f7fb7b8c48-441c27e14276.txt
+  - ref: refs/heads/7.4/scsi-queue
+    old: 3650bb41391b51d9dcf87b0480ecafeb1526252f
+    new: 503e6172fa74da6b4944ece458f5534681e51d21
+    log: revlist-3650bb41391b-503e6172fa74.txt
 
---===============8323435824479451714==
+--===============3453234215511808869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1793410781 -0400
+pusher 75C5DE3D 1793410785 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1793410780-65f22ecd0185d14e8b1a5210234281d4c4631b94
+nonce 1793410785-c069e77cf6130c71a414e6f23225d99b2d57675e
 
-65f7fb7b8c480dcd537790f9400cd92285fa634b 441c27e1427650e5e1e7d85e0f6756a12f276792 refs/tags/mkp-scsi-queue
+3650bb41391b51d9dcf87b0480ecafeb1526252f 503e6172fa74da6b4944ece458f5534681e51d21 refs/heads/7.4/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrlRt0ACgkQ7ulgGnXF
-3j1CoA/+PzhTdlREfrTLvmVjP6Pb+TbA5++4Ml4jsPsZdhh8MRjlVohmZ06jS6eR
-OL1FLegPxn0OPFjtLIiPN5buACnRpbFN3ANdmgKzg7w2/8tNnn3tAo0DsiPAqE6Z
-4MmIy96P312MkdtuF/PlatwYeGzG4RQwGOyUztyjxy/LWdyv1OcKdGWgja+PHMph
-6G8McDOmDdVig1ZwWqQ5OkLVxlBDmTQSWWskYbjY2NVFerXxcziZVjihVucTYAC4
-38LhKnLpbX7D1wJXVkgvbGm7G2tHLRCPHAfI4YjYFKoGJgJQ8Hyk0I7mzIoQ1+3x
-48QzSd0LtCRIqMUEYCcBmVBrASNdLcr0gq9FX/XMZQpduAAB/zmTDWanCdz+RITU
-Vfofm9L6c534Brt5260Y2EFq90nsz4n/Xf9jqCE7erhsKhJMs4pdahitu4HYu7Xl
-XoQ09OI6Do6UYVG5JY+OmkHiuCMqcB16zpZZoLGkvWFMX15V0CykT9ajhTq/RgNI
-rD6oKhuUUjwakh++ITOlwDWSFInG2JLbjfb7aAZB9ydMDKM+1N8DnhfXT0WWOzGS
-aEA4tpiIjC+a6S5ZHE2Zqr/1QKgI7N5MkW9C9g9RArO5sYxRJBFzigzsSPDTei54
-66Wbfy+7ft0sHejif8DU2GDeZzB+8xtZs1PWoNBPQx/OXb4uk5E=
-=NH0Y
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrlRuIACgkQ7ulgGnXF
+3j2MGw//YuoEAGdwFCaJhVLlUtpeRYQMdAmVwqlVI7gv8b/Aw3Qidu2rWwddPCB5
+4SdOEtfv+PirSDI8UDbKimzHmfGrRxdwIzgmuDccUBSzdlfvG/Dwy0aMNE51xzxu
+GW8w7hIHUhzwcBSwFAMRYj5Ckg031dfrK6WZ2534MuI9IcsKrFoNK5ugn9hTCAVN
+mdqNHZYtvq2WTCjRyqDq5ddNF5rE9hZqqRsn7JxMK5SOCeRPiCdeDa3eVqoRQxLL
+TLbOqY2Sw2g1TZUX5Jmtryn4I/Np6OnlmKHpgRtLnjZ5wix2ho8/9M6LR3q5ucTc
+kzXTnCMwnm9W8cGaNDCGbZ6XZ1o5D62lg5nGVPvIS4HXH5jQ9jOfyYO9JB51EYAj
+iNYdgZosF8xf6/f4lVMX2tIrNLrH5PY6sl8J9LCTX/LdgYNzylOS5S2DeglE+PMp
+FK82RupRC30NSqCXgb2HjRyasmTaTdm5EKtIHozexQOev4YE6jaOCxtUs15LMlug
+cXyL+0H4JZ4YsiLOcTmFszG0d0ye9KbmcBT2EFG9pHgaY0gdgoKgA6PG5cc44PNZ
+Vx5th4XwCA10GtTV7PP1zwO5dgyIBp/fTpAIiZAwmdVw8hRLmr/YCB+V/WG7/hW9
+SZoIfcb8+vdkQSxOmm4xGQFD/RwJ9RMO1rkPeMQbY2Ed4Qgu5/0=
+=yJMF
 -----END PGP SIGNATURE-----
 
---===============8323435824479451714==
+--===============3453234215511808869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-65f7fb7b8c48-441c27e14276.txt
+Content-Disposition: attachment; filename=revlist-3650bb41391b-503e6172fa74.txt
 
 9a2690eb4bbea8d7fbc3dfe478fca75fe956abb4 scsi: aic7xxx: Fix REQUEST SENSE allocation length on big-endian hosts
 696bdfc58975fbc70d2e2347a74e0b562e7e2494 scsi: aic7xxx: Use default settings on the SGI O2 onboard controllers
@@ -68,4 +68,4 @@ ba80a742b3e184b1af8f1ce636105e67f7cedb14 scsi: BusLogic: Prepare for enabling lo
 6a6e7d7230cd4e0a6c003bae5b85bf37a1e77b94 scsi: target: Fix demo-mode dynamic ACL dev-entry UAF vs LUN teardown
 503e6172fa74da6b4944ece458f5534681e51d21 scsi: libsas: Add __printf attribute to sas_ata_printk()
 
---===============8323435824479451714==--
+--===============3453234215511808869==--
