@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Sat, 31 Oct 2026 20:50:22 -0000
-Message-Id: <179347982293.2760481.1875711272923456513@gitolite.kernel.org>
+Date: Sat, 31 Oct 2026 20:51:16 -0000
+Message-Id: <179347987634.2761181.15435716707083834679@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf
 user: ast
 changes:
   - ref: refs/heads/master
-    old: 1cd28b5354ab77c727ed87255bf289a87178b415
-    new: 23503acb214cbefaf3945d05ab9667ff11ae3de9
+    old: 23503acb214cbefaf3945d05ab9667ff11ae3de9
+    new: bcd07fd1673beb873e2bee2731e4ef4d716e70c7
     log: |
-         23503acb214cbefaf3945d05ab9667ff11ae3de9 bpf: Fix skb_pull() BUG in __bpf_redirect_neigh()
+         bcd07fd1673beb873e2bee2731e4ef4d716e70c7 bpf, sockmap: Fix psock update-side data races on sk->sk_prot and progs
          
