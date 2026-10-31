@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5975067589096183213=="
+Content-Type: multipart/mixed; boundary="===============1729239233637537609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 31 Oct 2026 11:05:32 -0000
-Message-Id: <179344473265.2337010.4844696903929261738@gitolite.kernel.org>
+Date: Sat, 31 Oct 2026 11:06:08 -0000
+Message-Id: <179344476832.2337744.15533698507014311728@gitolite.kernel.org>
 
---===============5975067589096183213==
+--===============1729239233637537609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 5bac2243f78a197e605744ab099a876fafad5a39
-    new: 1ac44169bd2a77c7739194a118198ebfcb216a24
-    log: revlist-5bac2243f78a-1ac44169bd2a.txt
+  - ref: refs/heads/for-next-tpm
+    old: 94d78ae4bcb5a38a4a7f54a579c55d2f77370697
+    new: 36aad21d50d1af3f6954bb0c988257a908202477
+    log: revlist-94d78ae4bcb5-36aad21d50d1.txt
 
---===============5975067589096183213==
+--===============1729239233637537609==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5bac2243f78a-1ac44169bd2a.txt
+Content-Disposition: attachment; filename=revlist-94d78ae4bcb5-36aad21d50d1.txt
 
+e08601d3a7b2236f4915497dca353dcf117bab5c nsproxy: Fix cred leak in the error path of prepare_nsset()
+b14fcabd34e02c40f72d3cd1e9bd4fd18df40ff1 ucount: take the rlimit reference before checking the limit
+80892972ff23bf0b9049230ef0931b34163aaed3 ACPI: utils: Add exclusive AML evaluation helpers
+645f370c932db2cd3893f7fee61aa8b9debc8ac0 ACPI: battery: Evaluate battery methods exclusively
+c4aae727beb23a736c15b8d53e219da29d791065 thermal: intel: int340x: Evaluate _TMP exclusively
+f91c2cd6dbcedf52e227b2eea8d7b99ecbac7552 platform/x86: ideapad-laptop: Evaluate ACPI methods exclusively
+643b64025650d0ac5d57bd522d2eb0996a278081 arm_mpam: Release the mon_sel lock on mpam_save_mbwu_state() errors
+b66621ad2a8fb553c4cb75b9d69fead4f0532933 ACPI: platform_profile: Separate handler locking from sysfs lifetime
+ec696f34774db985841bac9a2df179c0040ef073 ACPICA: Initialize parser_state.aml_end in acpi_install_method()
+4d23d84ef2d04ba554b3063931dd12bed4223e1f ACPI: sysfs: Map only the requested range in acpi_data_show()
+f54ec8af333761e3bf6c2d347e1053d9fca8db6e ACPI: sysfs: Finish sysfs init when creating a table file fails
+0ffc7534a210105ba973167a5b86d5ab39d4031f cpufreq: intel_pstate: cancel HWP notify work in driver cleanup
+6c7a7007c5b7566fba4fbee1d40011fb8f833dc3 PM: EM: allocate the cpumask for every perf domain
 edc11f5794424988314966df3bde1d8573972cd7 perf annotate-data: Extract invalidate_reg_state() as a common helper
 059f12f8cd29adcf59973a8ea4ca96ea4873fcf0 perf annotate-arm64: Enable instruction tracking support
 68cedb761d72712e46bd226177f33d19738c5757 perf annotate-data: Add arch_get_reg_offset helper
@@ -1037,18 +1050,5 @@ ac1bf565f140154ee27db56c80f29c9eeb9a77c3 Merge branch 'fixes-from-sasha'
 60aba79a50127e92d8c4a663d35b855e52a9da01 Merge tag 'apparmor-pr-2026-10-29' of git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
 dd384658c738d15783a786d3af2851e02490f171 Merge tag 'perf-tools-for-v7.4-1-2026-10-30' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools-next
 36aad21d50d1af3f6954bb0c988257a908202477 Merge tag 'ksmbd-for-7.4-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/smb
-3c6c22eac0b8fecf4d4ab17b3b520a6c72d2ffe3 KEYS: Expand key->{datalen,quotalen} to unsigned int
-6ac6cd4b5bfc15c4eef90ec05f21972142479ee1 KEYS: Reject descriptions larger than KEY_MAX_DESC_SIZE
-fa988fda953f5acb7135aa93ae8c707124595585 KEYS: Verify the key identity in __key_unlink_begin
-aef3a8a4f988bd2056de48ec0840ff47f7757087 KEYS: Protect the update method check against type removal
-38d543f03c01047fd3fcb08fc992bd64b7fd20f3 tpm: Check return value of crypto_kpp_set_secret()
-a90c234d2341a0b2617637c21c5b8d3808be2ad8 tpm: tis_i2c: Add reset delays for ST33KTPM2XI2C
-195692e5919727b3cbfa3cd30bae02872b501f2b tpm_crb: Add register definitions of TPM CRB chunking fields
-e86f73267d03a2abf9c3cbb2ef3cc91f85c0079b tpm_crb: Split start method into a separate header
-5610555304f7221b59c9f19f1c63c7215cc8ce77 tpm_crb: Add start_cmd parameter to tpm_crb_start wrapper
-815dd75f55b2303854387ab41559a2e9cb4b8c1a tpm: tis_i2c: Use local 4KB buffer to limit memory usage
-0105c5e7301e46af1113e4f721585cd306e51e80 tpm: Increase TPM_BUFSIZE to 8KB for chunking support
-93f2971991f91f3e8ce4f9ce5e64a796c21e8d12 tpm_crb: Factor crb_send()/crb_recv() bodies into helpers
-1ac44169bd2a77c7739194a118198ebfcb216a24 tpm_crb: Implement command and response chunking logic
 
---===============5975067589096183213==--
+--===============1729239233637537609==--
