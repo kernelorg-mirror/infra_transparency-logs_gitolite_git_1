@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============1038766585265015024=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 31 Oct 2026 11:02:41 -0000
-Message-Id: <179344456106.2333402.6466536994547344041@gitolite.kernel.org>
-
---===============1038766585265015024==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 31 Oct 2026 11:04:43 -0000
+Message-Id: <179344468370.2334421.16004470202160109619@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
   - ref: refs/heads/master
-    old: f68be6dfdf74f45a7428d8ed9d90f03f7b3f1e85
-    new: 8e69ac14fbe4d41152b3bbe7658fdf9cbf5e1f09
+    old: c81772cc5d474bd8d10940559500518bd8aa8dac
+    new: 5bac2243f78a197e605744ab099a876fafad5a39
     log: |
-         8e69ac14fbe4d41152b3bbe7658fdf9cbf5e1f09 5.10-stable patches
+         9498c1aacc248ad2474ed1ad6d132a9a6948fb8f KEYS: Protect the update method check against type removal
+         4deffc7b4989a3791876aa0c66290d72977038b5 tpm: tis_i2c: Add reset delays for ST33KTPM2XI2C
+         4f5c31107ed0b91da400369e54fb8fcc652f98a7 tpm_crb: Add register definitions of TPM CRB chunking fields
+         397a2afc6bc02c629fe2e2d26c3c2b5b5ed2e819 tpm_crb: Split start method into a separate header
+         fa7ac02a354996df2833c8ff3e47fabf5eddd9c8 tpm_crb: Add start_cmd parameter to tpm_crb_start wrapper
+         2c987618bf2f8896a87bf0627fe45b4a319aa27d tpm: tis_i2c: Use local 4KB buffer to limit memory usage
+         922a0cbd6a79495650c7e930763cab8e5efcbf24 tpm: Increase TPM_BUFSIZE to 8KB for chunking support
+         76f0d13f3dcffb5d3a9e1272d687706c76e73238 tpm_crb: Factor crb_send()/crb_recv() bodies into helpers
+         5bac2243f78a197e605744ab099a876fafad5a39 tpm_crb: Implement command and response chunking logic
          
-
---===============1038766585265015024==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793444556 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1793444556-74469e47c51abee29b5a2dd89ec579d33dec07d9
-
-f68be6dfdf74f45a7428d8ed9d90f03f7b3f1e85 8e69ac14fbe4d41152b3bbe7658fdf9cbf5e1f09 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrlyswbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t48P/3bUkfLu5jx9gD6n0t9e
-MAzK1sutkRlvhFd/UzVrqfxtdECD4s3HrZx2HvjT53CdX2oNdsLzJjaeb1FngQIy
-GXGgcRjR8+NHf89DXO+hrMI2y8jnpi2t+JLnjjd+AFs3ruYaNkF9/QggUTpUjADQ
-WiJaxEo6+BPa6Zg254VtOrAgoiWCGSyQxE69jsXuGo8RF004+GjbjAM3VcBGgxlS
-azovuMZ+4g5xPJwg3ytj02CstQmTIDYven6Ma13yNQAZtDxJqoNiFCWujvjI7aX+
-+R0Q5nDAV84/rFGPri3JCrIa8QUBEHUrzxtVQJJYnV9FY/HUwn2fWKPGMWYDW8LJ
-ju3J66YDMD68m/asofXrOGuuQyz2OLl6JdB9bzK7velCdhdsmTjfi2yJdL54BbWC
-qnr+0gUVP2e+dYGJSm1yYEvAMLnbbVv0EI3yrbErmER5EuxEJ4nNvUsHBH6g/S7K
-XIA+i/LvOBPD8Ras1pt8y4oPUX/YnAOL4c0pVtCvppX9TTLSiV/t+ScTCyphhmJR
-rohlciamZfDF+UMtb7QfAaURxPFxQs8OkHXkcqzdVxNN2CD5Cj7K03/Hc0b0YYe2
-ejdpac8IihU7K/8pfC+Q3VY1L4zKZLqjfA0SFPDOCoBiSzPkfSB5YXEJU+QVpoxP
-3EFidr/d/t1TL8CiXPYHbwoW
-=ma37
------END PGP SIGNATURE-----
-
---===============1038766585265015024==--
