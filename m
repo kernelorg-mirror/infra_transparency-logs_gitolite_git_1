@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6145344875068704915=="
+Content-Type: multipart/mixed; boundary="===============1503622981647563086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Sat, 31 Oct 2026 14:42:35 -0000
-Message-Id: <179345775503.2497434.2427078483738269447@gitolite.kernel.org>
+Date: Sat, 31 Oct 2026 14:42:41 -0000
+Message-Id: <179345776103.2497654.8123147806349097594@gitolite.kernel.org>
 
---===============6145344875068704915==
+--===============1503622981647563086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: 394c350a34b77f1bb065b675d356ab55b6462ed8
     new: 3bbb9a75ec35e77907b990ae163b596e8e67fb46
     log: |
@@ -25,34 +25,34 @@ changes:
          3bbb9a75ec35e77907b990ae163b596e8e67fb46 memory: atmel-ebi: Disable SMC clock on probe failure
          
 
---===============6145344875068704915==
+--===============1503622981647563086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1793457753 +0100
+pusher krzk@kernel.org 1793457759 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1793457752-f67b7cc99606fb1ca6c266f951568e26bff79812
+nonce 1793457759-c031d96c83a38ac0f4ea10a280213f54681b92c0
 
-394c350a34b77f1bb065b675d356ab55b6462ed8 3bbb9a75ec35e77907b990ae163b596e8e67fb46 refs/heads/fixes
+394c350a34b77f1bb065b675d356ab55b6462ed8 3bbb9a75ec35e77907b990ae163b596e8e67fb46 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrl/lkQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD15BiEACL4MtlD40Xn/JYDrDmUK9n085XMvFtlEeS
-41hGqxGa34dqvytvQVUjG9eCKdSpAveALS+pryC9TdPQX67ja3js93XYCBXXhBah
-phd7+1p6y2/6PRsNXoQ7necmYfArVBcROUs8tDUf8a0ssWvNVcROYtfcEcFarU7o
-Lh+PS6xdks+06rfnSNdmw3DYFc6gzc6LBv0l5EIk9gx8YnEohNoOxXsvynMcN+SA
-QwYr6USVmidnweuLTsdn6866eHhcMquDYKHiQTvqvMZX70qOWPCyXcxbz5jk2sM2
-ImN/UoKzKkQ9bFEsGAqboO4X4wFNxWHP+0WVa0NC0MLv+jD30BHphPDseIicLuSv
-YNYmybeQdLTjamN0kUGrno/hgjzBdsEeNtl0oRLDg9isBkChya5KoYzrcI42josL
-11QFl2Drg0sF6PtNrOSlt3q+Kl16sumyhtHifZ4rTCTd4B70aaGZJMr4+/kX8Gqq
-SVPQXBZkPpo1MVRL510SxStksRQdjwky1h6I7K3qrmi2YX8SmDViT8YGkY1tAicC
-DsHD+vkpwubYTPMx7HaPiL8MNNXs5vsgfDFfP8ogKQUeC1gcO0DL/SffrJlwJujZ
-5BWKz/Q2OT39H7hYUR07GWIff6xJ6/SerRE1/h3fFjhu6PFlUlTPt0XMYsqAXEIL
-gffxu45rkQ==
-=BcbP
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrl/l8QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD15/5D/4o+f0Vffx0xIqyw+5waRnlZzxtJ7Vv68HG
+6csMPdQrxbY2SwN6A1aP3VewfAAWMi6JGqcH3pcjO0jcHWVzcKqrOCPBAXPNKivq
+HC+m38NZkmpN+WFFoZVqGdLoUxh8JDv6af+xMTvZRtfUDg3b/aktUb/tuUEN3LnJ
+eG/L0Yw0Q0YkY9KqVKegAeVYhuhtr6QykTyhZKwgVg95xGLi9ELCEBNk/XQFW04B
+Mq51gElze1UYB5FL5VWNgXXKZnzcFkjYr7fhmrmSE6V5gM3JxQbXbHslOO74+Ngf
+t/CS6yWZICvL8XkyBMAqw3Vk1byljm70yxtW4ituwsyQTsbO2XJ2lP3SJH0ADYRu
+aEVsZ2fqGOMe/7Ds8PWxTth24NHMUTcLM0jzHnGRD3CHD8GXiCevPAUTmcT0JZCs
+yPuf1udq1zvIsGvuTf2FbpCPVNgZOnhINM9bQ4lveJP5MzzjUNdyyl/FfR/YCy6i
+EGwoPzzI38mDLdMEX+qRa677iCXz6qJF5sNcN2Ifgq3XylZ+yAm8VuqJDj3cvTjT
+QnV/pF3ktyEBr0G86iuztPyupz0NBSvfCPT/XHoUdAyBg6s7xj7TJuhliUmNGU6m
+u09dH77a6Pc17u23YbwaelrnvtVXC+7f++oe4H0rgEjxR/IOzwFJ5rxx4XD5sx99
+TPkDpMb8Jw==
+=ni+e
 -----END PGP SIGNATURE-----
 
---===============6145344875068704915==--
+--===============1503622981647563086==--
