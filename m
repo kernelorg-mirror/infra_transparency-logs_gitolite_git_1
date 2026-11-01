@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 01 Nov 2026 23:57:02 -0000
-Message-Id: <179357742261.4073202.5410007616394347470@gitolite.kernel.org>
+Date: Sun, 01 Nov 2026 23:57:07 -0000
+Message-Id: <179357742776.4073405.17147348377743709091@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: ac0113d24575f56678c1d39891fadba3002ddbdb
-    new: e2df0223ba6dbdf028c45b4a018e6b15642a39af
+  - ref: refs/heads/asoc-7.5
+    old: 1931661495372021a79f2600d7801dc1863cd8d1
+    new: cefbad70c7bee6b11f512dfcb339439b79365787
     log: |
-         e2df0223ba6dbdf028c45b4a018e6b15642a39af ASoC: codecs: lpass-rx-macro: fix PM ref leak in swclk_gate_enable
+         490e113d539911ddaa22278236d05a08140af44c ASoC: soc-dapm: Remove overzealous check
+         cefbad70c7bee6b11f512dfcb339439b79365787 ASoC: es9039q2m: Document the FIR coefficient payload format
          
