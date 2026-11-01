@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0880664701844149379=="
+Content-Type: multipart/mixed; boundary="===============5800403361291649242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Sun, 01 Nov 2026 17:19:12 -0000
-Message-Id: <179355355293.3783669.4458700458231331602@gitolite.kernel.org>
+Date: Sun, 01 Nov 2026 17:19:26 -0000
+Message-Id: <179355356614.3783918.2727478995091983584@gitolite.kernel.org>
 
---===============0880664701844149379==
+--===============5800403361291649242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/superm1/s4-at-s5
-    old: 9930431d8019b3c9fbdb3e91762925e6eb0dd5d0
-    new: cf71adc2f94b765ef22e17604b1ace473b817d63
-    log: revlist-9930431d8019-cf71adc2f94b.txt
+  - ref: refs/heads/superm1/perf-opt-next
+    old: 9f330a3c813f42bceeac1f71c922b3fc586afc84
+    new: e2c91adf5a2ee163dadc044e12615412832a184d
+    log: revlist-9f330a3c813f-e2c91adf5a2e.txt
 
---===============0880664701844149379==
+--===============5800403361291649242==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9930431d8019-cf71adc2f94b.txt
+Content-Disposition: attachment; filename=revlist-9f330a3c813f-e2c91adf5a2e.txt
 
+232475c32994411bd816d6358ca48e94010fc84a bpf: Protect the struct_ops association with a spinlock
 377ab5f2ef793b034d7d710212604fd62f0f00b9 bpf: Dissociate struct_ops progs before the grace period of the map
 a451867eb5f645a199d0f70cb2b1f541e07f33ec selftests/bpf: Test freeing a struct_ops map under a running prog
 ac3df711a428a9ff4277100ee26c6765e8f80a3b selftests/bpf: Wait for the struct_ops map to be freed in assoc_in_timer
@@ -1047,8 +1048,7 @@ ed9324befbded16f66840327f981e508091eab3e tools/power x86_energy_perf_policy: Ver
 ca62fc8c6b1841039aee6de1ef03c9863751ec04 Merge tag 'ovl-fixes-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
 e9954f3fbddd25e1a01b7e5a0b72fb8b564204e0 Merge tag 'sound-fix-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 cbbddb6b08cc9900a87cccaa9b22bbe06aa4f50a Merge tag 'power-utilities-2026.10.31' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
-b0a09a4d156659a57a0dd5afb9a4d0c2bc765b9b Use hibernate callbacks when shutting down the system
-bee3b5f14156ac932347d325610786518ed6989c PM: Use hibernation callbacks for system power off
-cf71adc2f94b765ef22e17604b1ace473b817d63 PM: Add shutdown=legacy command line option
+19f9f5288e319c605c9da0de4828fb1bc5f66fc6 iommu/amd: Enable PerfOpt automatically for integrated GPUs
+e2c91adf5a2ee163dadc044e12615412832a184d iommu/amd: Enable PerfOpt automatically for integrated GPUs
 
---===============0880664701844149379==--
+--===============5800403361291649242==--
