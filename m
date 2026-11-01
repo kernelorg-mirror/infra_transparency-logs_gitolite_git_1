@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 01 Nov 2026 21:43:29 -0000
-Message-Id: <179356940997.3967313.2413483700053754117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sun, 01 Nov 2026 21:57:30 -0000
+Message-Id: <179357025032.3977592.8283951863666483556@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 46fec1c3029b552ec63b2d01af9d43a386f043ea
-    new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    old: 90e615d38b32fc4ab3ef252678177c7d1e6967f5
+    new: 54beec88209f41eae4593c632d695bcf2fdc6f18
     log: |
-         6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
+         9c3f0da93bd9ed8e0f5e03585ab3bb77a339e9e9 foo
+         8067dfbf7561ec46a349a6c1b549c7e01c67adda foo
+         54beec88209f41eae4593c632d695bcf2fdc6f18 foo
          
-  - ref: refs/tags/v7.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: bc71431221f5ba8bb33918399552636e059c2c45
