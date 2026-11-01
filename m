@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5964763647426426891=="
+Content-Type: multipart/mixed; boundary="===============4765052773586107720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 01 Nov 2026 21:33:59 -0000
-Message-Id: <179356883962.3959539.10115427549033363367@gitolite.kernel.org>
+Date: Sun, 01 Nov 2026 21:34:04 -0000
+Message-Id: <179356884403.3959834.12177593391144666157@gitolite.kernel.org>
 
---===============5964763647426426891==
+--===============4765052773586107720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,119 +15,124 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: bc4676e7a5b3ab3cf171d2c117ee8c7c01dabdb2
-    new: b8c1c19c3a44f459ccdfa779534ee1d01a0daee6
-    log: revlist-bc4676e7a5b3-b8c1c19c3a44.txt
+  - ref: refs/heads/master
+    old: cbbddb6b08cc9900a87cccaa9b22bbe06aa4f50a
+    new: 46fec1c3029b552ec63b2d01af9d43a386f043ea
+    log: revlist-cbbddb6b08cc-46fec1c3029b.txt
 
---===============5964763647426426891==
+--===============4765052773586107720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc4676e7a5b3-b8c1c19c3a44.txt
+Content-Disposition: attachment; filename=revlist-cbbddb6b08cc-46fec1c3029b.txt
 
-04313e45033ba318d7d594d97a739f806d5a63d0 ==== misc fixups ====
-939ee5f285085fe86c79a608f1616fcea7b4728a mm/damon/vaddr: advance migration attempt in folio level for filter out
-13d40e1b3f64a91481813c1f1db78f904d085881 mm/damon/vaddr: use damos->last_applied for migrate action
-5d7d54da80a4cede690c6e97016a6b4d08ac41bb mm/damon/vaddr: implement sz_filter_passed for migrate_{hot,cold} action
-a076ea239d84087068d2531bd72190c6079831a6 mm/damon/sysfs-schemes: drop redundant and racy zero target_value check
-822397678f720bc050cde9cfc2e996509ad793a0 selftests/damon/damos_apply_interval: remove unused variables
-3dba7719789f5e3f3775aea55bebd37ba4dd18da selftests/damon: remove unused imports of sys and time modules
-7c64b2a3724918d5582951cfc72e51a2f9792faf === hacks in progress ===
-22431a8d4acad5d30137aa2650fb3944f714e60d ==== damon_reclaim default param vals update ====
-4b955ecb868d1df80aa8e377f2ccd38a0a4feac2 mm/damon/reclaim: enable monitoring intervals auto-tune by default
-a42ef87677bfc987d634b3402249a82ddab5d3df mm/damon/reclaim: disable watermarks by default
-d8a71544b0d2c802ce9598a32a08b90ce3ae788f mm/damon/reclaim: set memory PSI 0.05% as default quota goal
-9c3d58ef555d8d39d4e87f90991ac18b8ca72219 Docs/admin-guide/mm/damon/reclaim: update for changed default parameters
-b73086b3cf82ccb271a83733562bcded18536866 Docs/mm/damon/design: update for DAMON_FILTER_TYPE_ACTIVE
-d4e1d97c6fec2a5684885195335f4250ad65d181 ==== age_ms damos filter ====
-60de2404d0268b6f18dd7b0939679ca2ab557a08 mm/damon: add age_ms damos filter type
-d9923e914c7be31e85bec24d8b8957169d499514 mm/damon/core: implement DAMOS_FILTER_TYPE_AGE_MS
-bd40b04230cc4dc106b86681472e6015dc3987b4 mm/damon/sysfs-schemes: support DAMOS_FILTER_TYPE_AGE_MS
-945acda6ee9a295209dbb5c8365b1f44d7bb030b Docs/mm/damon/design: update for age_ms damos filter type
-60e221d10fa71d7ccd9301585ede3af3d05486d4 Docs/admin-guide/mm/damon/usage: update for age_ms damos filter
-49bfdbbed646aee3a903f3e2ff6dd17193c2d3a9 ==== lru-active probe filter ====
-14e5d37cc11b86ea32382d19a9771819bdcb30f1 mm/damon: add DAMON_FILTER_TYPE_ACTIVE
-4b601e030cf4ff7668401929950b654acc842128 mm/damon/ops-common: support DAMON_FILTER_TYPE_ACTIVE
-7eaaa2afbc1e52329b1214a4d7178001ae792d5a mm/damon/sysfs: support DAMON_FILTER_TYPE_ACTIVE
-2a0bf8cc1138f1961fb489815d3851e4f28032c3 ==== CONFIG_DAMON_AUTOTUNE_PARAMS ====
-c5ec311e52e6ef931b21ee46b3bae4aa2eb68ef6 mm/damon/Kconfig: add CONFIG_DAMON_AUTOTUNE_PARAMS
-8ecdfb86e915899d430a8bd098512d7b68caf012 ==== beyond a-bit milestone 2 ====
-025977e00ca9734cd15e15bde41cedb58405d445 Docs/mm/damon/design: document data attributes report infra design (beyond page table accessed-bit milestone 2)
-d82d01be7e4fbf41aad6e74e95a1da045a1254e4 Docs/admin-guide/mm/damon/usage: update for attr reports managing files
-957dc408f931a30c1e4cea15e4c7761bc825d7de Docs/admin-guide/mm/damon/usage: add report_queue under probe filter dir
-42c09ffc16737484637a9d1f6d2ee5ae43ca7038 Docs/admin-guide/mm/damon/usage: let specifying queue to put report
-f7e901213963cb7e9ab45925649849fa8174cb83 Docs/admin-guide/mm/damon/usage: update for reports config files
-aad51b247f150549a8f1466c5c9ab487c5f9329d mm/damon: add data structures for report queue
-cb46a69194dec03a8c5188d7585e4d4cb326f1bc Docs/admin-guide/mm/damon/usage: update report system ABI
-9f73df0cf7c3921e1450510080dfbe3281f0c7ff ==== fault/report-based monitoring for per-cpu and write ====
-76c785b3b3df862e13c4f46dfafa9bc9c22b5e3b mm/damon/core: implement damon_report_access()
-1b21c7417633c51a721dbee74e47d625e8b06ee0 mm/damon: (fixup) fix typos
-67d0c25b8e5c5ed8d75e3476e5aeaec2e607c8fd mm/damon: define struct damon_sample_control
-7a379bccd474a3d9d99be9d9263f40333c079993 mm/damon/core: commit damon_sample_control
-c5bb0ca220295451b42300a3eafc8c1fbb0c709b mm/damon/core: implement damon_report_page_fault()
-030f18531dec885643392b58a278dc68a2f3c6b5 mm/{mprotect,memory}: (no upstream-aimed hack) implement MM_CP_DAMON
-93ee7d9f232f26e396a47fe3838719bb197484c4 mm/damon/paddr: support page fault access check primitive
-701b4f2144e3559b6a23df551fda77fdc1ee6bea mm/damon/core: apply access reports to high level snapshot
-6f54574a9c1b5879118b2d603ab8d1466a9b5462 mm/damon/sysfs: implement monitoring_attrs/sample/ dir
-35db87d2a93002ef833cb32b67fa98ff8e77a0c4 mm/damon/sysfs: implement sample/primitives/ dir
-133f45cf1299679d8f974fcc71769e658d384a13 mm/damon/sysfs: connect primitives directory with core
-542b10981ed0455e8e902892e1fbc5b90de98431 Docs/mm/damon/design: document page fault sampling primitive
-cee498b80fb840d13d708bf75a34c6f63d8c1645 Docs/admin-guide/mm/damon/usage: document sample primitives dir
-42130038ba87ea891794a1a7a6ef459f0e89b139 mm/damon: extend damon_access_report for origin CPU reporting
-a11df993846ddfc2d0aceffeca035ec2b5776860 mm/damon/core: report access origin cpu of page faults
-ce0f1c45d740b890b48bfc70cfd9c3ace7e20a17 mm/damon: implement sample filter data structure for cpus-only monitoring
-42a87bb08ff4b747abb604204bf7d51c2e6288ec mm/damon/core: implement damon_sample_filter manipulations
-ac933afdcd455b320f7dd4248bd75e15a4ea0320 mm/damon/core: commit damon_sample_filters
-dacfeee762287d0c7c33fe30b57e6350c04e2c6a mm/damon/core: apply sample filter to access reports
-b205d5df9e4f97071887e332664090e4fb675046 mm/damon/sysfs: implement sample/filters/ directory
-5265412e0374dd27902479e0c8cb814d0fad0f27 mm/damon/sysfs: implement sample filter directory
-20ab7c1389df95632b571065c5a09dd13d5895f6 mm/damon/sysfs: implement type, matching, allow files under sample filter dir
-17dcec0725ce15f741bcb9de180c94a779d556bc mm/damon/sysfs: implement cpumask file under sample filter dir
-99ee86a190087ae0d46a5c4049a049f4c3a251f7 mm/damon/sysfs: connect sample filters with core layer
-88c62a0df1f69e4af83aab82f7f46beaba530e63 Docs/mm/damon/design: document sample filters
-e35ef675a70e0937cd22636631784e192d65e1bf Docs/admin-guide/mm/damon/usage: document sample filters dir
-22e3775ad0576d8cfb510832174cc1f8d2953304 mm/damon: extend damon_access_report for access-origin thread info
-a23f74192e314dee0b748af1d44acc7cd5f9aab8 mm/damon/core: report access-generated thread id of the fault event
-b7237996fb6962cd18788792316069e0462e0caa mm/damon: extend damon_sample_filter for threads
-2afd4ef12bb04077ad37066ec6e749b97905aff8 mm/damon/core: support threads type sample filter
-2fd96482db2914f73321fe9a927c5100a04f6f9d mm/damon/sysfs: support thread based access sample filtering
-f5d5c9f9dd66993370c9e309d596c02cb6e2f24c Docs/mm/damon/design: document threads type sample filter
-b08d014882115b6ff8cf57140e8e3572f86c1139 Docs/admin-guide/mm/damon/usage: document tids_arr file
-25946e01f293b88fd17749b4bcfa1c47dec5fbf6 mm/damon: support reporting write access
-6f49d611ecb5936e986bad67eb57166bba851aa9 mm/damon/core: report whether the page fault was for writing
-0dda2907f3fa90cc8a0c59c5b8c9529677fb8132 mm/damon/core: support write access sample filter
-eb7675727a9893559d2d808b43839649b03fbdf7 mm/damon/sysfs: support write-type access sample filter
-552bbf29269c4bda8e9a21e33a4debad1321fe84 Docs/mm/damon/design: document write access sample filter type
-dda5a3de2662447574fd9fa27c306701fd7393fa mm/damon/core: elaborate access reports dropping behavior
-3609374187e9afd2f9473b7940bfbd255a521f2e ===== fault-based vaddr monitoring =====
-8ecf0678ec84d9613aaf4f5b8dea45419fc6c8a9 mm/damon: rename damon_access_report->addr to ->paddr
-e2b81cc410ff3e73308ab546a32af33274872feb mm/damon: extend damon_access_report for virtual address
-89fbe43ecf8731ab01ba84eaea849042b2f9ed5d mm/damon/core: set damon_access_report->vaddr from page fault report
-66de091532d56a6b47b85856b2af2f4035560546 mm/damon/core: support vaddr reports
-87e2826d5a9f4d745d53e81488b2b69f96105831 mm/damon/sysfs: move sample directory code to sysfs-sample.c
-232ce6eb1b8407d44d85774f06d30e22089e0d0b ==== docs for DAMON and mm ====
-08331a5cd6a1f825a2d882a2004829dd44c91199 Docs/mm/damon/design: add table of contents for overall and DAMOS
-13cd5cba00d03ac026c51293364a5791af6c5251 Docs/process/2.Process: Update mm tree URL
-3b652f0516529a543d6f44e442eda5f9b116c54e Docs/mm/damon/design: add API link to damon_ctx
-d0a5caca05d73bcc1b91b44636ae71dd2db4880d ==== ACMA ====
-f66f665b4078da37efdd110656de7693e22ebd03 mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-563a1e4f11ff281a7ceb011a79e41bff4df0beac mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-be3354a6ea4dde8610860939f626b6f3d21f2793 mm/page_reporting: implement a function for reporting specific pfn range
-803188971cb3cbe16600166c5f2cf954bcc13c97 mm/damon/acma: implement scale down feature
-1321225920916ea8c7d9bcfcb9cf2f174fb089c7 mm/damon/acma: implement scale up feature
-7aec24a2562526d4cdea9cdb0c8116e8ede27f85 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-5dff800136cdb03ea912bfc7b0ea11b18ec4bb37 mm/damon/acma: assume damon_stop() to always succeed
-f53d9141f3c65f5a8a0943e2159e2623c3ad0d22 === commits aiming not to be posted ===
-d82ed050ad45208a47566a65ef8d47cbfd110a54 mm/damon/core: add todo for DAMOS interval validation
-507aae8c29cc13c49f3540a4a13ab1a026aa584e ==== uncategorized ====
-ab1c0e050eeedaa43bc1209a664421ebf830eadb mm/damon/core: add an hacking idea concept interface prototype
-f0588ff97221491703f0f2f54d37a9c41a0315d7 mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
-cd48f75827d2349c18c504f2ed254c4da5af1357 mm/damon: unconditionally trace damon_region_aggregated
-af900412c4636cb32c3044443d9065f1b66d2570 mm/internal: update vma_address_end() comment for removed vma_address()
-5116499cf0bcb01d979fe0bc6db131e04fe1b44a mm/damon: introduce DAMON_PREP_SET_FLUSH_PGIDLE
-eb83b67f0e6b384a5ab770e7058345e8015330d5 mm/damon/core: handle invalid target in damos_fix_stale_charge_pointers()
-e2dedd42af68fa2c48ec3c136cc68ad1cd3b7cc5 Docs/mm/damon/design: hide report buffer management from caller/user
-b8c1c19c3a44f459ccdfa779534ee1d01a0daee6 Docs/admin-guide/mm/damon/usage: allow user-providing report, multiple producers
+5d93b32cfb582141aae0c444490359f4cb62f156 rtc: omap: remove unused argument
+a867106d8a8951c8f390e21082a08c1c2b674498 dt-bindings: rtc: rzn1: drop unneeded 'start-year' from example
+73defdbfce6228e815d1590769589c4d210b339c dt-bindings: rtc: rzn1: add SoC names next to their IDs
+3b3fdc9fd40dc9a0f1e52f1b1965c6fa369d0e37 dt-bindings: rtc: rzn1: add R-Car X5H support
+cba3b5f4cc008ca9877f8add2096ad09c7bfc6cb rtc: rzn1: add R-Car X5H support
+8423c476ab2a193e67d7f8db8621dbc02854dd9d dt-bindings: mfd: mediatek: mt6397: describe the RTC's nvmem layout
+1aaaf94a61eeaab1ab1f872fc818f6f688c7dd7f rtc: mt6397: expose the spare bytes of the alarm registers as nvmem
+cb8a6249236fd970fc3418d5d2b27dc37376f3ff rtc: bd70528: properly enable wakeup
+c60478875a445dee1206aad6285c18cd8c91f7f2 rtc: ftrtc010: fix clock resource leak on probe failure
+d41ee317c9907d714014d0d5e4726fbd6acf338e rtc: ftrtc010: use devm clock APIs to fix use-after-disable in remove
+32f04694fa87b8ac9fa58f9ceb2dc6cbc476e2a1 rtc: ftrtc010: fix integer overflow in time calculation
+b8f98c67b3e822296ef278f9fc640e8bb142cfde rtc: ftrtc010: fix cast
+237378fd6be421eb729808010953f50463687ccf rtc: pcf8563: add SMBus support
+953c3d2b5836b6cb6fb987823fa573f38041e636 dt-bindings: rtc: abx80x: document ABX81X RTCs
+07c57022afb3afc0d7c20efef45a4d3c7389b1c0 rtc: abx80x: fix error check after i2c_smbus_read in read_alarm()
+74bff654a4ced9f5fc6bac9931a5d251f7795db4 rtc: abx80x: add mutex protection for register writes
+632916c7bde35495f2f6776d8e335c3ec6e306ec rtc: abx80x: properly handle shared IRQs
+00b978f8008e8107da149532cfdcd996e06ac657 rtc: abx80x: add irq to struct abx80x_priv
+724320a613251470a1b3bc56a81596f4d23a6e88 rtc: abx80x: use regmap instead of I2C specific API
+0ba70c2b1e3e394bfea1258f27323a9b3a2f6025 rtc: abx80x: replace read-modify-write pattern with regmap helpers
+3fcf5a97957b8b5f5b0c2d95a0666ebdef7687d0 rtc: abx80x: create abx80x_i2c_probe()
+8a017ab98412c997b9ce6b57a6941e229bf7f89a rtc: abx80x: add support for ABX81X
+3f67038df8b5cba07254d1cff60d73e988b49ab7 rtc: cmos: Disable ACPI RTC event before handling it
+3c7acb209e1d630b734a2ec72bd988f5da2ac55c rtc: cmos: Honor explicit use_acpi_alarm parameter value
+2d6f97296143a97653e03a1b2517c554b0950f20 rtc: sun6i: fix error handling in sun6i_rtc_clk_init()
+51f30cb855f0f51b359f42cc9d658d4b450124cc dt-bindings: rtc: sun6i-a31: add Allwinner B288
+3784706c87c2d00a1b56f01092dc4e4695c29d1b rtc: sun6i: add Allwinner B288 compatible
+22b9306f1fcf86f80b55f05f08d10a9951ba970a platform/x86/amd/pmc: Fix RTC reference leak in amd_pmc_verify_czn_rtc()
+e7124bcceb15c069a1b0baa5fff67b9f102a0f84 rtc: nvidia-vrs10: remove locking in IRQ handler
+9e25de5490fbb8648af497b438d1d16990b2d107 dt-bindings: rtc: rzn1: add resets property
+5831f5fef10030c175e585d51b0e793dc6fef6ab rtc: pcf8563: pass the driver data to the alarm interrupt handler
+82e7babfb39fc5a4f58f2fe725876363810f35bb selftests: rtc: fix flaky date_read_loop test
+ec55c6e9c5cfb8956c6a779acb45b3e0ecd705c7 selftest: rtc: rtctest: don't mention skipping twice
+7980352c78f5aac7160941569826a260c6232589 selftest: rtc: rtctest: make missing UIEs really skip
+bd55831c0bfc0aa745753db972253aba2d452da3 selftest: rtc: rtctest: skip properly if setting alarm fails
+09399a7cd93222cf72bdb35e873c11cb0fbf5317 dt-bindings: rtc: Add missing type to trickle-voltage-millivolt
+58db0fbeef2a2cceef452a874e9983ccd66f3e78 dt-bindings: rtc: Add property for Raspberry Pi 5 RTC
+dba67294e21517ee2c251a143c53cc90535fe43f rtc: Add Raspberry Pi 5 RTC driver
+026f8b1d515b188d0fa9377a9047d2f75e7b43fd dt-bindings: rtc: add ricoh,r2223x binding
+df8a0f6db214cf3e439a512b979f5802556c992e rtc: rs5c372: add support for Ricoh R2223x
+95e83d98e10438bd76baaab029097ba54e3ea71b rtc: rs5c372: support eco mode on R2223x
+ae8b3e10087af04a33c024643342e017fd0eb134 rtc: introduce rtc_device.ops_lock guard()
+f49ca91f8a9a0d1686b3535b5421ee82fb8356bf rtc: ac100: use guard
+217439c8fcd29fd35cb77e3c5be65ca23dbfe983 rtc: asm9260: use guard
+f371caa4209ce6a671edbd3191a0256702266288 rtc: atcrtc100: use guard
+d1fd5232fadcdd59ac4cd5fc0d122da2f1f56048 rtc: ds1305: use guard
+3571eedcfc34504e0a30602c224513d3afcc90a8 rtc: ds1307: use guard
+0d1e6c4a0ccd917a2b42dc75dfc20a22f23ab042 rtc: ds1343: use guard
+5162e9ad18f85ac653fe325b21cdb974c4da1aa0 rtc: ds1685: use guard
+32643217d84ca78ea266d4b00ad8fc8f7c7a0226 rtc: ds3232: use guard
+f1104e3e629ae380c881efd534a623e42f31bb88 rtc: hym8563: use guard
+e2005cd977916f52d7dd1d1aa012e7ce3090b271 rtc: m41t80: use guard
+279900b87b0691d1c1ba605e996123538d343e7a rtc: mcp795: use guard
+ea0e1e30945df9ab9423ed1f95dd32d95803a07c rtc: nct6694: use guard
+a127505cd05fa7725c7aa890d23b21dfed63eabf rtc: pcf2123: use guard
+d82730f230c2bcd1459f920c87fb065d6aaeabe6 rtc: rv3029c2: use guard
+bde8e458f87ae85da02854124cfd340d0a42dccb rtc: rx8010: use guard
+eff3e65cdc4be8035a8fa06319a6d726ac998876 rtc: rx8025: use guard
+3d9796708cfaab80cbf3aaf7b775e67f7d195a09 rtc: stm32: use guard
+99473f37cce31b2a23d57bf90f830f24408fa650 rtc: abx80x: simplify locking
+d691a96370b6cd7e684e4da1c473c09df963611b rtc: mpfs: Fix alarm register word order
+b253c2e96a80aac8e2bc67b425bf007ed78d4d8c rtc: class: Make the time32 hctosys limit configurable
+0bbeed584e92744c30858233d498215a32faa8eb rtc: ds1307: drop redundant dev_set_drvdata() in probe
+c1c260266abf5d600bc7ce8efbd274ca86f9a4aa rtc: nct3018y: report chassis intrusion through hwmon
+064bcd117e8a1a266bb92b840f63862999b7cb87 hrtimer: Add cleanup class for on-stack timers
+bd091346971c88fccd44afd2547d28366f824572 sched/idle: Use hrtimer cleanup class in play_idle_precise()
+5b819071e4346256c4edbae5cc2095dff25694fc posix-timers: Accept NULL clock_getres() output in stubs
+ef60f61208a30eb5b941b707debdf04517271b4f timers/itimer: Keep a nonzero value at CPU timer expiry
+d69cfd33b5a8d176124c564513b9ceb933595d93 time/namespace: Fix overflow when converting absolute deadlines
+141a27750ec3d91ad9d1ad1764ebb5e51b963478 posix-timers: Report zero remaining time for disarmed SIGEV_NONE timers
+45aeb7b3039355cfaf01ee1f7e104a55a8d61d0b selftests: timers: Add a test for disarmed SIGEV_NONE timers
+e389ae428847a2e6a3b698b5967df68ccf90361c tick/nohz: Reevaluate the tick for kicks flushed outside hardirq
+cbd0f65b48f52d308c457b0fd5201324abadb501 vdso/gettimeofday: Correct the read of tz_minuteswest and tz_dsttime
+f322d7f7ae56bce728ba03a387e35380bc4ad939 clocksource: Prevent immediate watchdog rerun after a delay
+a2f482407d33ebe7f12e30d6cf383ffb1c7d709d irqchip/riscv-imsic: Report successful hardware retrigger
+1c16bc2b1122f78f9d51c5785f7a78b36d44972b irqchip/irq-msi-lib: Free wired MSI descriptors
+2166aaa173cd5b2f2f3bbd397469900bafa12f17 dt-bindings: rtc: Add pinctrl for S35390A
+a27b25bb9b422c8468cb6965b2d72b7b64187fd2 rtc: s35390a: Add missing newline to dev_err
+d93f29e41089bbb14637289fe77bdd72b71e9ac5 rtc: s35390a: Fix alarm not disabling
+6199051016cddba920b6023a44199c5221352c44 rtc: s35390a: Read 24-hour mode on access
+cb4e92b151141d2babd2f89e9f67599d38be3878 rtc: s35390a: Add pinctrl
+f6550426f21ec5293feddb74368be6f4e9eefac1 rtc: s35390a: Add synology quirk
+a451b6bb922ede877b141beb09c3d2eb3cc9edfe rtc: pcf85063: use devm_of_clk_add_hw_provider() for clkout
+75ba9f3a6a0bb2153a97e5d9c3d186b6c6e517af rtc: pcf85063: do not clear AIE in the interrupt handler
+09f5d9b8caafdfed36fb8115348e2cf1f1c31793 rtc: pcf85063: preserve the alarm flag in clkout register updates
+45efb584a1c0bcd6d75a239dd8ce3ca554a66cf5 rtc: pcf85063: add 1 Hz update interrupt (UIE) support
+55bb5877494d6c99898b959aa593663ce4676f4e rtc: rv3028: use sysfs_emit() instead of sprintf()
+c2373bcd50d9654b76eac585c7c98105665b3321 rtc: ds1685: arm the wake-up alarm at power-off only if an alarm is set
+21a829af60a7f5c7456f1f0ff9b6b0eff0ceb738 rtc: ds1685: do not sleep in the power-off handler
+3b6cdc36553b1fe627f782a7f5efe5ffc806faa1 rtc: ds1685: keep setting PAB until power is removed
+bc9a04e1e1d8931bc5bf9d96937477b8c6259f6b rtc: rv3029: use sysfs_emit() instead of sprintf()
+8d2735de39daebb862542b8f340481bf2f506e9e rtc: pcf2127: use sysfs_emit() instead of sprintf()
+946584fe01b840625ce26a5a9b91875cad009fae rtc: ep93xx: use sysfs_emit() instead of sprintf()
+187c4ed20a5636105ae88b28351fc4b730506bc0 rtc: bq32k: use sysfs_emit() instead of sprintf()
+0f3bc1c937276458786dc85aaa47142555fe6725 rtc: x1205: use sysfs_emit() instead of sprintf()
+c0b38531ddc5e5a361d8e5e8315588e856bb2924 rtc: rx8025: use sysfs_emit() instead of sprintf()
+67b3eadfb80dee4dfd56ca624f33e2ac7ed5987a rtc: ds1343: use sysfs_emit() instead of sprintf()
+edd541b0fff4e38f019f92939d97e5a604f80a23 rtc: ds1685: use sysfs_emit() instead of sprintf()
+26e2f34b862c6f8cbaab6023ccc58021bb3ac4ee rtc: isl1208: use sysfs_emit() instead of sprintf()
+42602b834325ef7b78c27f45d4cfd91bfe1b7d5f rtc: ds1307: use sysfs_emit() instead of sprintf()
+7485659ecb81d5fce3a3edf2cae9fcb29c17b1cd rtc: rs5c372: use sysfs_emit() instead of sprintf()
+278b2abf660a3e0991eb9f16f11bd9e9514a286d init/bootconfig: pass init arguments in documented order
+b327e63683a2b894b500027375342c25222b58ef sched/cputime: Don't warn when the tick period starts after idle exit
+9b6f2eabc8371dea951c244f4aa9e013f36de9f8 Merge tag 'rtc-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
+cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+65cac1217004da03c3d2418bd7a7fda038117809 Merge tag 'irq-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============5964763647426426891==--
+--===============4765052773586107720==--
