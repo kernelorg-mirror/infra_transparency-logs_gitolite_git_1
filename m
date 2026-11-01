@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 01 Nov 2026 13:11:41 -0000
-Message-Id: <179353870117.3605449.431909275372447057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/core
+Date: Sun, 01 Nov 2026 13:21:51 -0000
+Message-Id: <179353931127.3612371.8939294739291462332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/mm/core
+user: david
 changes:
-  - ref: refs/heads/master
-    old: 962013d1c5dcd2d0991e45409b8f447695bacdcc
-    new: c189a6b2e4dd2e74f3b360b24e489e27f4e45bad
+  - ref: refs/heads/for-next-fixes
+    old: 96995467b456942f5bf1c7f2c5c004467f9dd14e
+    new: dc6e045560791c9e9b4959044c3161d0fc8db642
     log: |
-         c189a6b2e4dd2e74f3b360b24e489e27f4e45bad man/man7/epoll.7: Note that an edge-triggered listener needs an accept loop
+         dc6e045560791c9e9b4959044c3161d0fc8db642 mm/gup: check folio->mapping under folio lock in memfd_pin_folios()
          
