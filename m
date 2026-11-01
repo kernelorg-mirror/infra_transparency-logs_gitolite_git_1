@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4740846093288810618=="
+Content-Type: multipart/mixed; boundary="===============1846500416952703872=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 01 Nov 2026 06:44:02 -0000
-Message-Id: <179351544212.3168701.6782277507674162917@gitolite.kernel.org>
+Date: Sun, 01 Nov 2026 06:44:33 -0000
+Message-Id: <179351547331.3169140.10871649360825679696@gitolite.kernel.org>
 
---===============4740846093288810618==
+--===============1846500416952703872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,25 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: e31dd8cab21ec3f76fe582697abf8c2f4eba9c76
-    new: 737bb140f906d166bbc9e50261ff6e3a7c980ec3
-    log: revlist-e31dd8cab21e-737bb140f906.txt
+    old: 737bb140f906d166bbc9e50261ff6e3a7c980ec3
+    new: f96ebf32b3135db4c9eeb868e4cb98e5dfe79ac0
+    log: |
+         69aeb06329d0c3598c4ccccb2d2e22871ccd206c Merge branch into tip/master: 'irq/urgent'
+         701baca5128f2589a612b5adb9917ac71bd6dbd5 Merge branch into tip/master: 'sched/urgent'
+         3b46cb2bff081ada56b0428da721154090dce690 Merge branch into tip/master: 'timers/urgent'
+         6526bff6e24c6b8579d079954b37f887cb351e1e Merge branch into tip/master: 'x86/apic'
+         f96ebf32b3135db4c9eeb868e4cb98e5dfe79ac0 Merge branch into tip/master: 'x86/misc'
+         
+  - ref: refs/heads/tip/urgent
+    old: b15754a4754a57b5ceeb1becce434152e3086791
+    new: 3b46cb2bff081ada56b0428da721154090dce690
+    log: revlist-b15754a4754a-3b46cb2bff08.txt
 
---===============4740846093288810618==
+--===============1846500416952703872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e31dd8cab21e-737bb140f906.txt
+Content-Disposition: attachment; filename=revlist-b15754a4754a-3b46cb2bff08.txt
 
 962d0202306072651ef459abf1f7240c73afaee1 tools/power turbostat: Decode Uncore Frequency Agent Types
 acadea13ed2f8ade79b3f1813b008ed89fab7abe tools/power turbostat: Cleanup: Delete unused flags
@@ -171,8 +181,9 @@ ed9324befbded16f66840327f981e508091eab3e tools/power x86_energy_perf_policy: Ver
 ca62fc8c6b1841039aee6de1ef03c9863751ec04 Merge tag 'ovl-fixes-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
 e9954f3fbddd25e1a01b7e5a0b72fb8b564204e0 Merge tag 'sound-fix-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 cbbddb6b08cc9900a87cccaa9b22bbe06aa4f50a Merge tag 'power-utilities-2026.10.31' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
-032dbf3d9a999f95a9651763e2aa240ccc92db1f Merge branch 'linus'
 b327e63683a2b894b500027375342c25222b58ef sched/cputime: Don't warn when the tick period starts after idle exit
-737bb140f906d166bbc9e50261ff6e3a7c980ec3 Merge branch into tip/master: 'sched/urgent'
+69aeb06329d0c3598c4ccccb2d2e22871ccd206c Merge branch into tip/master: 'irq/urgent'
+701baca5128f2589a612b5adb9917ac71bd6dbd5 Merge branch into tip/master: 'sched/urgent'
+3b46cb2bff081ada56b0428da721154090dce690 Merge branch into tip/master: 'timers/urgent'
 
---===============4740846093288810618==--
+--===============1846500416952703872==--
