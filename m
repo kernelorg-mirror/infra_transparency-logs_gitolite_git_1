@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 01 Nov 2026 23:57:07 -0000
-Message-Id: <179357742776.4073405.17147348377743709091@gitolite.kernel.org>
+Date: Sun, 01 Nov 2026 23:57:14 -0000
+Message-Id: <179357743407.4073604.13439008283548583811@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: 1931661495372021a79f2600d7801dc1863cd8d1
-    new: cefbad70c7bee6b11f512dfcb339439b79365787
+  - ref: refs/heads/spi-7.5
+    old: ac31d1b8865f9781fbe83d064512e1fab76d8ed1
+    new: 3515e312e096a330f869179724453e93f15e70ef
     log: |
-         490e113d539911ddaa22278236d05a08140af44c ASoC: soc-dapm: Remove overzealous check
-         cefbad70c7bee6b11f512dfcb339439b79365787 ASoC: es9039q2m: Document the FIR coefficient payload format
+         3515e312e096a330f869179724453e93f15e70ef spi: topcliff-pch: clamp DMA bpw_len by bytes not words
          
