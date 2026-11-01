@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6051541662938560818=="
+Content-Type: multipart/mixed; boundary="===============8725307778976522698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 01 Nov 2026 22:21:52 -0000
-Message-Id: <179357171299.3999489.6344190183108213452@gitolite.kernel.org>
+Date: Sun, 01 Nov 2026 22:22:00 -0000
+Message-Id: <179357172098.3999679.66252226092259903@gitolite.kernel.org>
 
---===============6051541662938560818==
+--===============8725307778976522698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-testing
+  - ref: refs/heads/driver-core-next
     old: 0cc3ad8f4d2e2009c2005278c754caf7c07fe0a4
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     log: revlist-0cc3ad8f4d2e-6628e7d4c6b2.txt
 
---===============6051541662938560818==
+--===============8725307778976522698==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============6051541662938560818==--
+--===============8725307778976522698==--
