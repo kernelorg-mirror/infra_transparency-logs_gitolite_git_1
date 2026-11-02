@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Mon, 02 Nov 2026 06:17:50 -0000
-Message-Id: <179360027031.176973.15027595503199187515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Mon, 02 Nov 2026 06:20:23 -0000
+Message-Id: <179360042312.180116.408700879635822088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/master
-    old: 714b7112017fc7f8b2afabccf562acdb12d2ea7d
-    new: 5e96760b25fdedbbf9312827f1f237d6b18b03e8
+  - ref: refs/heads/main
+    old: 4e9e220985ec9541cc3fd598c57f0834d4836cc1
+    new: 19f15dae64059b1a1e05a540a57930086c46a8c0
     log: |
-         5e96760b25fdedbbf9312827f1f237d6b18b03e8 bpf: lwt: Free the skb when bpf_xmit() fails to expand the headroom
+         acf7b28ec09b998c8c75ffbbfdeb565ee9156c08 libfdt: Don't search for the terminator in fdt_get_string()
+         19f15dae64059b1a1e05a540a57930086c46a8c0 libfdt: Check node names in one pass in fdt_next_tag()
+         
+  - ref: refs/heads/master
+    old: 4e9e220985ec9541cc3fd598c57f0834d4836cc1
+    new: 19f15dae64059b1a1e05a540a57930086c46a8c0
+    log: |
+         acf7b28ec09b998c8c75ffbbfdeb565ee9156c08 libfdt: Don't search for the terminator in fdt_get_string()
+         19f15dae64059b1a1e05a540a57930086c46a8c0 libfdt: Check node names in one pass in fdt_next_tag()
          
