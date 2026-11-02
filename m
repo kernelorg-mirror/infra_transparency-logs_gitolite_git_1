@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4879918086326777005=="
+Content-Type: multipart/mixed; boundary="===============8547921267791299453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Mon, 02 Nov 2026 11:12:13 -0000
-Message-Id: <179361793308.414028.8102861138758476387@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 11:12:48 -0000
+Message-Id: <179361796898.414410.959935988140537392@gitolite.kernel.org>
 
---===============4879918086326777005==
+--===============8547921267791299453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/renesas-pinctrl
-    old: 0cd4a7b3a4883970df3ae8814d9aabdecf65a81e
+  - ref: refs/heads/renesas-pinctrl-for-v7.5
+    old: 1eb906a8db4af761cf9e91c768970c8a269796d6
     new: f9edef88c5e138689a59b6d4150999ac8e94bf1f
-    log: revlist-0cd4a7b3a488-f9edef88c5e1.txt
+    log: revlist-1eb906a8db4a-f9edef88c5e1.txt
 
---===============4879918086326777005==
+--===============8547921267791299453==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0cd4a7b3a488-f9edef88c5e1.txt
+Content-Disposition: attachment; filename=revlist-1eb906a8db4a-f9edef88c5e1.txt
 
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
 32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 f9edef88c5e138689a59b6d4150999ac8e94bf1f pinctrl: renesas: rzn1: Free maps on DT map failure
 
---===============4879918086326777005==--
+--===============8547921267791299453==--
