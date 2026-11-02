@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0826276139429171058=="
+Content-Type: multipart/mixed; boundary="===============2501084884122199012=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 02 Nov 2026 10:52:02 -0000
-Message-Id: <179361672289.392600.9383432325718784256@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 10:52:07 -0000
+Message-Id: <179361672717.392838.11605448454369724588@gitolite.kernel.org>
 
---===============0826276139429171058==
+--===============2501084884122199012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/pinctrl-next
     old: cee9395acd8043be0644b25c34bfa86623f2b935
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     log: revlist-cee9395acd80-6628e7d4c6b2.txt
 
---===============0826276139429171058==
+--===============2501084884122199012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1793616720 +0100
+pusher krzk@kernel.org 1793616724 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1793616720-a0b54a8c3d1ace416fe427bfe73c07c4e8a7c37a
+nonce 1793616724-62ceb269167608d8f1e05d174045468bcbf7cc03
 
-cee9395acd8043be0644b25c34bfa86623f2b935 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 refs/heads/for-next
+cee9395acd8043be0644b25c34bfa86623f2b935 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 refs/heads/pinctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmroa1AQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD19b3EACVdv949eq4BOyQa3QNSZdPvWqu3wBRc/3O
-bcHzvuN6rg8fF2QiaTx/FC4RNC+a1xZ4w49R+doxqxQOL7d65y7/JUB7o4+5KCy2
-Q1lBbk66TENnLssBO8vV8juzv569dgaLDSxoIZK7quwEh+lEG+sYV5l21LYkKwjY
-T6dctiLJlKM96458aRLQoKljkJJ8tvaeIQ/YeJIDqhf1gGCdCDYhCgOLbVQ0VnDT
-pUS3FXLsYYIAHMDMQaayOmz1STZxTMdk0sVCvmOne4XIiWojoUImTcuMgkZtnSNU
-wmtTNoeVbIMwVWciNfbB3dzx2TId2mptgSsPf+q3DueIVGWvqWPAd2b2i6WMjCiG
-ElTd5myllbsf42xFkFxnUVqYT0q8u1dnGcA2z6nci5YAEgrEKtNu+uZg/nkj4UMy
-VIgH3LuiBQx6lBjbuw7AnvlX2b8cIRbOW+UCafzbTU9NRgzuD4Om9ep44n4Wb13T
-/oWrcol8uWYnwHGDkwoPz7iYZvnO+o/mC4HU8NMExX2WahZyBILWWNYYLSSagdAc
-/GhL6x5oJbAEDmqlEN4Bwc3CY0So187n+Nq70vJO2g1wNDOXaB2zUNxx4sj9vATv
-CKktxvxmBJelrq9B44kSrIytza/BpV9r2ARD8ETctxUKzmgmoRzCC/WyADubyoN2
-SadP+ilcmQ==
-=C/0/
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmroa1QQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD19IkD/4uTfAJy+NktfcGrzzGvYzPpDyZJOoi5Vgg
+zMkvGpScC+gtW6U+9CpR/6niRrp2Ccv591sP8jfQonaqB11MVz25D5dHxX9b4nQo
+BfuxTs1gmXbG5+Rq4DMtMHE8zPKMYiNTBNgba5ZkV5udNcc5D51nF7aj3drcFgXd
+hZsFfWXI69Aa8CyDPeOw2yNTBnxcaKfkSAGjUNtOa1tbT22I9EjsmZRB1YV+V74B
+sOT+l2wfnNqpkZ6Jy723oka2YuQD9CGbEoQoDyRJAg1jRND8v8eCq0G+XsRYW/KG
+WTx6G9vmB1h309JNXaMrFKYx1o0epDjM2LZKo8GNUbo+9msXY+9y5deu+p+lRKAN
+eYQZ/vIXQEqVJ5yMB06DvTXGXtispdnK6hvSCdeXJxSagGZ08EjHYZ9KFQyJFmcg
+jln2RXXF6GALXUUxhuXBnymqvAUznOfq/5EnRo6GPlrVNYF0FJj1aQLCpO3d9t56
+k9S/NUD2Lqk8pOc/X13PlyY9jYesJNZF9vTFACALGFZQW7mchygjPg1g2aYrUuns
+B29AAkPGJXuET5wcTu6XZuJ78D0lsPmO6AaTTvjdqSR73MTapx35wnJdh8I3jvf5
+bJxkfrwV321sSbHZL77PG9TecGxUhQofvEGnKFS3EnIx4lUGjmMd29sQvqH0CtDS
+iaBXDMLtqA==
+=x2F8
 -----END PGP SIGNATURE-----
 
---===============0826276139429171058==
+--===============2501084884122199012==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============0826276139429171058==--
+--===============2501084884122199012==--
