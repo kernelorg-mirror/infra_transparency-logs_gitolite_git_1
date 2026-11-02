@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7113132884058224228=="
+Content-Type: multipart/mixed; boundary="===============8610508288763739405=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 02 Nov 2026 00:30:59 -0000
-Message-Id: <179357945940.4102183.10755740939771936@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 00:31:03 -0000
+Message-Id: <179357946330.4102391.18324078732622133303@gitolite.kernel.org>
 
---===============7113132884058224228==
+--===============8610508288763739405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 243e8cdab64129d6207c398f8cf5fbb1962ff7e1
-    new: d42dfde37af766d1c272467352c0a56d3169ee58
-    log: revlist-243e8cdab641-d42dfde37af7.txt
+  - ref: refs/heads/mm-unstable
+    old: b61fa14ce6bcbba2cb9a96feea31b760226d6b43
+    new: 4acdf7a75f7dff19490280e9d253bbb8cb187c5a
+    log: revlist-b61fa14ce6bc-4acdf7a75f7d.txt
 
---===============7113132884058224228==
+--===============8610508288763739405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-243e8cdab641-d42dfde37af7.txt
+Content-Disposition: attachment; filename=revlist-b61fa14ce6bc-4acdf7a75f7d.txt
 
 0cfceafb47beaf93775b1f6375cf539dc9a9d1d2 mm/khugepaged: flush deferred unmaps before dropping a failed folio
 9ad3cb8792c63a2d149595db45a5d4ad990a68ef lib/base64: silence clang-24 -Wconstant-conversion with diag pragmas
@@ -104,71 +104,5 @@ c8f514d16b90f51a1a0e8c7179c09c9b411aa6cd crypto: acomp - enforce MAX_SYNC_COMP_R
 e3016434edd15f66be4ffca80aebe922937dcc5b mm/zswap: validate dlen and normalize comp_ret on compression success
 59e46b643f53e9d467c5a317a0e7850baf3d4f9c mm: nommu: set MMF_OOM_SKIP in exit_mmap()
 4acdf7a75f7dff19490280e9d253bbb8cb187c5a fs/proc/task_mmu: fix lost maps entries above 2^63
-2cf7c6a47c5d70bd86a5d83b9a103dd165e65055 mm: unqueue deferred split folios outside the lruvec lock
-1c764df4a9cdd45d7d6b080866e6a605367dc4f3 selftests/mm: skip collapse_compound_extreme() on THP allocation failure
-7b1ea0d99dc83d0d977cb1287e433fd8df529cc9 mm/hugetlb_cma: fix incorrect hugetlb_cma_size assignment on malformed input
-22cdcc4b6c3eca093e1c558e87009d0cb2ad976d mm/vmstat: annotate data race in zone_page_state_snapshot()
-729ff13fc81a7d6a0b54b8807d4fbdab764fd3ab selftests/mm: track the modules run_vmtests.sh loads
-f0fe6ed031af759c631c0d2d56e1abddb51a33cc selftests/mm: load xfs before checking for it in run_vmtests.sh
-d9438632ad8ea4716b512c452ef2a6f202cb483e memcg: remove unnecessary READ_ONCE() under memcg_stock.lock
-d7865cc7d9570ef369a785012e3f17cbf8fa67bb memcg: reduce nesting in consume_stock() and refill_stock()
-9a614a65fd1f04825582b333726ee38fcfa32b27 memcg: annotate slow paths in consume_stock() and refill_stock()
-cf875e2440771f25e220b8384bba8aa80c6c0f98 memcg: uncharge pages outside memcg_stock.lock in refill_stock()
-80de88523d0f038ca500bddd7761bd8072160877 mm/sparse-vmemmap: map shared vmemmap tail pages as read-only
-222356dcbcea66e54789139f30d4c9b028392cf0 powerpc/mm: map shared vmemmap tail pages as read-only
-ed63d400dace9d0f7b4d286a0c30626f24b3b29c mm/hugetlb_vmemmap: remove vmemmap_wrprotect_hvo()
-84e650fa40e2fa29be466375365d3a9aad460785 mm/hugetlb_vmemmap: remove hugetlb_vmemmap_optimize_bootmem_folios()
-1ae5efa93c1b30340ddc91902e5dd00f4822a9be mm: multi-gen LRU: use mem_cgroup_lruvec() in get_lruvec()
-28654beeca56b603a87e440ffaab7df60c91ebef mm: multi-gen LRU: remove get_lruvec()
-6e5fe17ccc817667d117bbcccc326ed23e5950bd kfence: fix pool cleanup on metadata allocation failure
-52a7cbca12f5a6664ace645557c6d5d9a2bd542d kfence: clear the pool pointer before freeing pages
-0a07fb9c31fa7add1d25dc59c679939c3ad336c5 docs: hugetlbpage.rst: clarify HugePages_Total in hugetlbpage.rst
-94915103c0882998f0c17c8343b56d845538cdec memcg: reduce cacheline contention between lruvec stat updates and LRU lists
-d2ac411d01069117970a11ba31f9f5da3be73d8a memcg: don't go through the lruvec for folio and kmem lruvec stat updates
-26e5a460f238eb44a0d9498fe13e4669eeecf405 word-at-a-time: check the first byte in load_unaligned_zeropad()
-656c83ee1880b45e6facac3b96d673ce2873026b kasan/test: cover load_unaligned_zeropad()
-ec49f955653dea2ae8bf0359df5761a19a55e60c mm/page_alloc: remove unneeded forward declaration of __free_pages_ok()
-447a963a89127a06f8ef7b78f153f00a9f68e7aa selftests/cpu-hotplug: use $(id -u) instead of $UID for root check
-658dd9f09bb08e09fdd7861e57e74f24c93a2bf4 selftests/memory-hotplug: use $(id -u) instead of $UID for root check
-7635b3ae2291792d1f6780ecfec7d2512482c162 mm/compaction: annotate data race for zone->free_area[order].nr_free
-8fb4469b0667e6e1fcb544c0dcdc12cd15f28314 mm/hugetlb: drop unused mm parameter from unmap_ref_private()
-cec7262a0e89b2eff7a0aaca310b10830fc42ada mm/memory-tiers: reset demotion targets of nodes without memory
-67ae867c2027ce5e061cb92b9f160f6f0d47a200 mm/percpu: clean up callers of pcpu_obj_full_size()
-a4a1c5fcb1e0e866bb622ef2be4e7161e58b952a mm/mempolicy: convert mempolicy refcnt to refcount_t
-9e2fdd43b3c87f741ddb58a0610415718a007a11 mm: memcontrol: remove mod_memcg_page_state()
-45d4d88f48344314dddeb39e7a0c669e7a07c2d7 mm: memcontrol: remove page_memcg_check()
-3d656c3d697bc3cc373497ea3c210a7c85701155 mm: generalize kernel PTE table allocation
-7434fc052df8808ed8b3605f3dc67c5508b9c755 mm: generalize PMD page table allocation
-78764833be400b23a43c40dfba9787a0ebd42cb3 mm: generalize PUD page table allocation
-8ce9dd872abf10ae91b48b3e527750555c24fd0c kselftest: mm: rename read_pmd_pagesize() to pmd_psize()
-7fbd6069efb44212133591865fadddd9f869beed kselftest: mm: remove HPAGE_SIZE and HPAGE_SHIFT macro
-0036a5ac53b773a49c1f96d69ca693b2de3b5838 kselftest: mm: introduce size_to_shift() helper
-ed34778f4b128fb57c2dbcb287788f6e88386f1d selftests/mm: add MADV_COLD and MADV_PAGEOUT contract tests
-296b380b24b26509c78443ece94c061319cb7c76 selftests/mm: check MADV_COLD and MADV_PAGEOUT range handling
-e31c6ed8cdfc53c01ce66f120543a0d31623e2e5 selftests/mm: check that MADV_COLD and MADV_PAGEOUT reject hugetlb
-810b18e03bc7b933baa787c22913eaf129750f71 selftests/mm: check that MADV_COLD and MADV_PAGEOUT preserve shared memory
-07e9c1b44bfe1a9f58bc2704c339925b463bdea0 selftests/mm: check MADV_COLD and MADV_PAGEOUT on partly advised THPs
-b28abffb59c5f2fe4d507b693d039b6522d47973 selftests-mm-check-madv_cold-and-madv_pageout-on-partly-advised-thps-fix
-2dc991c884aa574604858dd11f3fa6db637c2044 selftests/mm: check MADV_PAGEOUT file permissions
-3508a975f2cf8aae98a406640c4aaf3a60f82286 selftests/mm: check that unauthorized MADV_PAGEOUT skips large file folios
-fad287e15790f194dc3ea49a44eca042dbe21eba mm: kmemleak: scan modified objects as soon as they are grayed
-ddde7195adf69d9e4c73e3a6c5adba5093448fb6 mm: remove pagetable_dtor_free()
-8d15936a593be8071eb645b90b9c8f0f576fea67 mm: remove redundant pagetable_dtor() calls
-74911e89f7bcf10cea4ad4ce346bbeeae393f968 mm/hugetlb_cma: remove two unused include files
-923e8cb0c28df2eceb356046bc089bcdaffca9c6 mm/zswap: batch the writeback IO of consecutive entries
-7996a8f6bddeb906d56302a539292d342416f0d9 mm/zswap: plug the writeback IO of an LRU walk
-cc8368f07d6e0b7fd2f1165f5894c62720adb066 userfaultfd: docs: fix an error code, two names and the POLLERR cause
-5a6f27e7f5d8a29fe9cca13067110ca4f6e4b605 memcg: move memory.high enforcement out of try_charge_memcg()
-7a777cf8ab7ad805877183f00e36981d258f30bd memcg: force charges from reclaim before trying the limits
-34cb7acd043eb267806dbd8b59e41b774a7e08b8 memcg: use high_work for kernel threads
-eb06680cd78ec651568d6028c47eb7d5392a6800 memcg: use high_work for remote charges
-d3d223269ef565f68d0e809e566ed8072275402e memcg: simplify high limit handling after a charge
-a7d79197587406e28ed32021e56dbff28efd3a00 mm/memory: remove unused vmf_insert_mixed_mkwrite()
-50baf626de4e4aaf9298388db84a63541fd77e02 mm/memory: remove the mkwrite argument from __vm_insert_mixed()
-85e14cefdd5367ed9fb1be75b7f2d91c0d5be13f mm/memory: merge __vm_insert_mixed() into vmf_insert_mixed()
-0dd385e187d7dcd444a3e3226f98dafadb4dd4ef mm/userfaultfd: store the child's new uffd context in the wait queue entry
-c17df5325d9b6dfb750da996db0669aef572ff50 shmem: report casefold setting in mount options
-e3260dc0ec119cef8224f6dd1567440c47d5a1a1 mm/migrate: fix softlockup in do_pages_stat() with huge page arrays
-d42dfde37af766d1c272467352c0a56d3169ee58 riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============7113132884058224228==--
+--===============8610508288763739405==--
