@@ -1,45 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============0370593208326524074=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Mon, 02 Nov 2026 09:59:56 -0000
-Message-Id: <179361359641.344706.11020530515748263968@gitolite.kernel.org>
-
---===============0370593208326524074==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 02 Nov 2026 10:06:20 -0000
+Message-Id: <179361398093.350995.9138749453059508746@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/b4/gemini-ethernet-fixes-3
-    old: 433330f44aa8d0e270eb3d1776955f4843073b7c
-    new: 1bfcb24c69f6eb8af51af105fd8483ef1294b868
-    log: revlist-433330f44aa8-1bfcb24c69f6.txt
-
---===============0370593208326524074==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-433330f44aa8-1bfcb24c69f6.txt
-
-4f0013ec7f44e24b1e8b7cbab662bad7d6ea7d3e net: ethernet: cortina: Fix Gemini RX buffer management
-70e8d7df42c8405a491fbfe9c1d45450775880b8 net: ethernet: cortina: Keep shared free queue parent-owned
-8c733d8a27c8b010e1764731a845aae1b814b8ce net: ethernet: cortina: Keep PHY-less port bound for shared IRQ
-ef7ff91897f6604435c6707ebf6dedb838c160d1 net: ethernet: cortina: Drain free queue IRQ before resize
-a49af271f91ca052555228e33ab8c4b9e433b900 net: ethernet: cortina: Normalize free queue pointers on rebuild
-be4d845e2425de882789c7b3abc98c37c670110a net: ethernet: cortina: Correct free queue DMA mappings
-6263db1f0a6b0ee6e397e710eec4c165b324fab2 net: ethernet: cortina: Index free queue fragments with XArray
-258dcd9801220e05af62ca1cfada23604e31c6fc net: ethernet: cortina: Preserve in-flight free queue pages
-c79394da7275c6432f0f8f4b9ffced084b14977a net: ethernet: cortina: Rotate free queue page allocation
-a04aaa7f1a1d41643fb0e396ba3e7b34df2fea93 net: ethernet: cortina: Recycle claimed free queue pages
-1a16e7ad0d5906517c2a9de87217d046a95abe7b net: ethernet: cortina: Validate RX fragment lengths
-0d3be9aca5a07338166d0971b87c818093332ce1 net: ethernet: cortina: Account RX buffer size in truesize
-0089ff1235907fc802ad78efd325a549f5a272d0 net: ethernet: cortina: Release partial RX frames on stop
-418c5718e413d8ebdd3b9c6c278e4d21bd4d7268 net: ethernet: cortina: Scale Gemini RX queues to system memory
-1bfcb24c69f6eb8af51af105fd8483ef1294b868 net: ethernet: cortina: Scope RX statistics updates
-
---===============0370593208326524074==--
+  - ref: refs/heads/master
+    old: becdb8ba9f6ce3b0fa2a8ec0d0fb4bb45f5a860f
+    new: 3c54b171a74050dbc4febc93f30b9771704c0084
+    log: |
+         c2dbf149d392ea080a0333afda8104eb3d7c983b tests: cover malformed UTF-8 input in rev
+         867bd13478ca4a2fe29588a8a68b7ec77606ecd0 agetty: split the os-release parser out of read_os_release()
+         c36ad4d58e061695a312a10a74279953a8731feb agetty: parse os-release line by line
+         b84a5510280bd87bdc685775b914d6c4152682bc lscpu: fix cache ID collisions on hybrid CPUs
+         cf89f2d85bac3318e2f118dadc77ded71cc42aeb lscpu: add x86_64 meteor lake dump
+         5d44be145f2bfb093dc3cec400b66e7190f3c786 hexdump: fix sparse hole skipping with multiple input files
+         97abf69537aa55e04a4acf36a98d6b0e5c2a7824 Merge branch 'fix/agetty-os-release-eol' of https://github.com/Ar-maan05/util-linux
+         a3fb81ee42a38f3ca8be56937eca0cc7ce33cb75 Merge branch 'fix-rev-invalid-utf8-4691' of https://github.com/sairex53/util-linux
+         3c54b171a74050dbc4febc93f30b9771704c0084 Merge branch 'master' of https://github.com/MkP369/util-linux
+         
