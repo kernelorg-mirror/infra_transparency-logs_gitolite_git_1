@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0780305342773360853=="
+Content-Type: multipart/mixed; boundary="===============2031248508823780568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 02 Nov 2026 14:59:00 -0000
-Message-Id: <179363154005.674927.17776385145497034363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Mon, 02 Nov 2026 14:59:02 -0000
+Message-Id: <179363154263.675113.8309998592324493731@gitolite.kernel.org>
 
---===============0780305342773360853==
+--===============2031248508823780568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
+  - ref: refs/heads/tty-testing
     old: c339f4010dea8b0d754f84ace70cd1b089878ef8
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     log: revlist-c339f4010dea-6628e7d4c6b2.txt
 
---===============0780305342773360853==
+--===============2031248508823780568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793631539 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1793631539-35a5339a5e99a8cb14413adc5668559330cfbc13
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793631541 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1793631540-4132a2f5ba0297389e05091eba781639134a9bf0
 
-c339f4010dea8b0d754f84ace70cd1b089878ef8 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 refs/heads/usb-testing
+c339f4010dea8b0d754f84ace70cd1b089878ef8 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmropTMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YLgP/2Ehp7MPuUFW9MGINKXn
-XzO8ICVfY3lgsByEoxEizPfULfeeknICPfy7doj/ttvoarDIWTB76pGVvyaeaV/X
-hgvH8bO+5DJ25HbNm62Q+LWzhvaOzCHmytW2WhCqc3nRHpnW8WLST3eSt1Guzcwm
-N4vC/pxqZ/nOM509XhxojpJW9lQxELTQcYYkLZ3M0WGFRusAn5qQombMDbzFCTWt
-IHNULAYNjHsUU5V/fL0jyI9/Irnn/sY/UKPtMnA9mUqzBMCYJ6E6skXtfEyewats
-PO+CutUPreFPBskCwR091JCl1mOoP9WUYuGrZMcrwxCnu4ryE1gPY0poLwa5RuLX
-/oi2rgCo60xZwezKMlqMTEGBRBNllgCY1vK3CdUzfYwawoOV2LbHIUAXevjOJixp
-K5qXWmLOBH/3IjSCUlbZ2k+O47GFwpy8IaFx+hNUaTRzbj+7UL7OCogOPybcFaGF
-GFP7slBIEef/oKKlsPR8AGjBiBltzFay8lSXqM7fImcQRkMBCKX9PCdwmb/jHA7O
-mbhLVebyHp2OEIL0/3LJurTQJ1z/CIFD+a6YleDfYFFFE6VkffeErYUd0sfdPAEK
-EINcZFRMNRoOB3Tvh/0Xdod8ITSDjiI04/kZSp+e+tDFHZ/oCvztHWsuEAuY11tH
-3AVX77aUHLshudt7u8V/Bb6Z
-=nFjh
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmropTUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SR0P/14G6vxz/z6Ts5oTyG2R
+j7XzlXNBLPTkGnnqVNjLKFvFeGus1gzDS7kl2QkRID943CLxyPAWhTJjKOcphc4j
+SB5YY/ZcZpvkde+cu3fviro95QZNOIoxXVZkpiUsWpAHyBnIETxc/ccD6TQMgTJr
+pws6rkhEl8H4DpoR/MNDCV9G7cyGaqyNNbf49smnKusTnZFeHb4SvS5GjvFun1Oz
+Hc7LJrhSLDEejdqJiTj8vSIuMKnPXGcYtTFB01lHAn5v3PSpTTqAzxsHyGm6SGL2
+EIZNDYASmWmS77wyuproreJ+MuLkQ8uycn18EAMELkym1xdlwiaSIncmwjKt+TGv
+AfCAwWRX/axC7sh5TyNS5s/JUhuiiqhLtxVbyD+FqEsLXSl9Z0UzUYyqEqwRtPK2
+kzP9eqFJW69Xb1q+4V8l5LlYw6vT7Jlfnl0qNDFMKXtj61B4iVA9oUgkL9w8wWp2
+P2CY4eoLHiNZ3wk13jzN3bvFLNXpmQ6g0a+gMSh4Gbn2UlFF8koFTSsxhsUzSqcV
+h+LY9sLxKrrdwxBWMQDVdVk+xxAqEX0vTTesH8EJ3WV6BydmUoUhPbK04LEMqIkd
+XB2//4TDs28kseJYEajX250cBoIskyh8ceZF2JKdo7HO4TrcudcgOm8XYVU3AE6o
+JFExyrCPokX5YcCZLJfEcWLH
+=E4d4
 -----END PGP SIGNATURE-----
 
---===============0780305342773360853==
+--===============2031248508823780568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============0780305342773360853==--
+--===============2031248508823780568==--
