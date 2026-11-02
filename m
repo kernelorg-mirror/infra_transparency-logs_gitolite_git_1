@@ -1,31 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============6254264397199589310=="
+Content-Type: multipart/mixed; boundary="===============1084930015146184502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 02 Nov 2026 16:43:57 -0000
-Message-Id: <179363783714.774928.15616837264880815907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 02 Nov 2026 16:44:43 -0000
+Message-Id: <179363788382.775447.5492850717531861008@gitolite.kernel.org>
 
---===============6254264397199589310==
+--===============1084930015146184502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/kunit-parallel
-    old: 05c7377ca924ddf8ba9a581cd1e2494b885439dc
-    new: ecee0c421a66a2b6f9965fc671e2e5edd8b15011
-    log: revlist-05c7377ca924-ecee0c421a66.txt
+  - ref: refs/heads/fixes
+    old: cee9395acd8043be0644b25c34bfa86623f2b935
+    new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    log: revlist-cee9395acd80-6628e7d4c6b2.txt
 
---===============6254264397199589310==
+--===============1084930015146184502==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-05c7377ca924-ecee0c421a66.txt
+Content-Disposition: attachment; filename=revlist-cee9395acd80-6628e7d4c6b2.txt
 
+76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
+e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
+32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
+f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
+acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
+7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
+ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
+01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
 c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
 226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
 07c81e0196cc8fbc261095c9f712e39b63e3c780 mm/sparse: move mem_section init to sparse_extreme_init()
@@ -1042,13 +1050,5 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-c4d5e2473cd3d5d0702326a120405ff91268e94a kunit: tool: Support parallel test execution
-a753b29291ba0342af696e699ad0df08e7a4d5c1 kunit: tool: Preserve failures from kernels without test results
-2480fee5b7f28c0b21100691787fbf0463ad357e kunit: tool: Combine reports from isolated kernels
-4a45cbf608951671be476fa4c9d8bdec3f740d90 kunit: tool: Boot with a larger log buffer when listing tests
-ccc9c3e7f9b87b329060a6aa95a8e106b9107f80 kunit: tool: Add an outfile argument to run_kernel()
-aa96d44438c0dfe37ae2f75114f9e283f5005033 kunit: tool: Allow several run_kernel() calls to be in flight at once
-7892ac757872cedb83986f0f6feef093af3471f5 kunit: tool: Serialise output written from multiple threads
-ecee0c421a66a2b6f9965fc671e2e5edd8b15011 kunit: tool: Add --parallel to run suites in concurrent kernels
 
---===============6254264397199589310==--
+--===============1084930015146184502==--
