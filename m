@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2893149335960365858=="
+Content-Type: multipart/mixed; boundary="===============5358488202879138675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 02 Nov 2026 10:56:42 -0000
-Message-Id: <179361700282.399607.14447534661017927283@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 10:56:48 -0000
+Message-Id: <179361700815.399854.8485202008529834093@gitolite.kernel.org>
 
---===============2893149335960365858==
+--===============5358488202879138675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/fixes
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
+  - ref: refs/heads/next/clk
+    old: 13634cde9771811488847ef76cd64a785599fdb5
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-cee9395acd80-6628e7d4c6b2.txt
+    log: revlist-13634cde9771-6628e7d4c6b2.txt
 
---===============2893149335960365858==
+--===============5358488202879138675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1793617000 +0100
+pusher krzk@kernel.org 1793617005 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1793616999-0b2d3dd36a6831b031646c1fdf5373e7a5c747c9
+nonce 1793617005-937e0cc58b79cb8d40c599c854d99b8f946c9309
 
-cee9395acd8043be0644b25c34bfa86623f2b935 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 refs/heads/fixes
+13634cde9771811488847ef76cd64a785599fdb5 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 refs/heads/next/clk
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrobGgQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1xOFD/44EUBCmAc3zRaU+E+dHcChtPy6UixMwT2Y
-wh6OPqqPUnHImm5DQP9E5UAw0ecmHmYwvULpG0E1H/OZBiDef9PDfMvp0C8p7Yx6
-bCIMJlv86jI4BFkRlhCe+nq7xxGzpfF+zDz+t33Vgf8xc1pR23UpdqQyogGGVHOO
-v/g/0JiJNw8EmG7BjNCwB+CPrLSPf2tZU2rt/UL8gwE9/E+pZcSMGwT9x7Svct+C
-qv320jfp4/1nKIwm/dY1YhtEeGpNEAkVqYWPx0xDoY0+Y9/7LrcP5XlXomt1bSp4
-HOGRIoCgAB2sBjGfuCJk+GBz3FU3l4NQHE8qULHEQE2LnsyLxVnPB/IWOk4jVCCt
-/Cxz1rb4MrBShGV7qPnBAWIM3lwEESnQVZBw4R6XDviAB05JthjSmIOMSCyU+vBG
-J+b3ZSLQOr2mTCUHYLjSxPloa8hCt7MsI6/mEnTj7IMNEjkTpmKuHsenPUi0aLYh
-L0m5Ble2G+Oheoh8gabgYsrQ/uTZUGKbduOwr1ni99KPVPj/3TQLQVxpG9vfDWhu
-prdMK8EtjMfJlFmZru89QkcH7QKSBFx8JZVPruFYBfekhnvs/3saLRZizQ6fifV3
-u1eriH1Io1JLjxjV3HdqcI0BQX3RkIiuYAHkY2JLxf48QyUGV6xcSM3aqmsDN849
-SFmV4njcHA==
-=Vb2t
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrobG0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD15FkEACYgn5FBWcY1VfRFeYnzd58byB1vkpWd+b3
+5eLBaYLseDvuDsJImwfWO3tq24dYUIVHjicZ49EPUd3VEz/vzfgXu/bamdhNdKtI
+HoMNA38lgSk9PYwMMaykKyBmHTIgc5OD29Rsepy0iBMfKpLAG7QsDIjH9tHzI8Oa
+q+QlmDO4RAil/Q145NSl1RaIAIGAVtRCsB55HwkJ1JCuVmh+F9yaseFu535cLWvC
+vgZ+vBQ7dh23Izjqty6gayD6oluzuFNJ3sYvpRHAr+B+gkibWIgGt/Mi5aBcxLJS
+wex9cNsA9sXrqwe8OVHgwQvN8FQv1VvSyU2ZN+BGCxhzpJWuCfpVq6nKinmBpO3o
+NLBwnzdlpfcj0B07ljStI3Qu9YoDZ/RjJAIF84M3SEzYxJgW3GWP1v52vQwyDdoI
+pbALswnudlwujMFdUZJWFZIEs7CI+tfODwDLm0zws1FFJ83eP743hPqX9cu5pfNp
+DTf16q12JzTzcQAVg9kTtswEbOkClhhm33M7/0ZEPnfCL4wqA8quHq8zoX6aJOsN
+TzS3UQhl8mKo/6/nHHl+j1j3oUYDzDVDppmf6hWVLX40KePjMuUhme40WGW59NCe
+wrXBZwIJ3dyHGpL6LqCXg64cPFlhYURhAtN5cv09zVScC2oWuEosDLuX1QNBhW2G
+Mn2c1XyArg==
+=sT/1
 -----END PGP SIGNATURE-----
 
---===============2893149335960365858==
+--===============5358488202879138675==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cee9395acd80-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-13634cde9771-6628e7d4c6b2.txt
 
 76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
@@ -1082,4 +1082,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============2893149335960365858==--
+--===============5358488202879138675==--
