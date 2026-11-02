@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7821187918243465205=="
+Content-Type: multipart/mixed; boundary="===============7474156057469798485=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 02 Nov 2026 14:58:53 -0000
-Message-Id: <179363153307.674500.17671828522281300209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 02 Nov 2026 14:58:55 -0000
+Message-Id: <179363153591.674740.18294336405055816498@gitolite.kernel.org>
 
---===============7821187918243465205==
+--===============7474156057469798485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
+  - ref: refs/heads/usb-next
     old: c339f4010dea8b0d754f84ace70cd1b089878ef8
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     log: revlist-c339f4010dea-6628e7d4c6b2.txt
 
---===============7821187918243465205==
+--===============7474156057469798485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793631531 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1793631531-10cf3cda43df2e54f23546cc7ad6e0201c3b16b0
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793631535 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1793631534-6ff37d4060b2450fd496eb953e6ba74f5949b6a3
 
-c339f4010dea8b0d754f84ace70cd1b089878ef8 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 refs/heads/tty-next
+c339f4010dea8b0d754f84ace70cd1b089878ef8 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmropSsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z7YP/iKZI9BCjy4OXmdW53Az
-sEJagqW5gxpP2QpxsKzGsUCaEWqcjL0aUG9emUWBIKUy8PntlqU455bTaalyHBHz
-cIGQ5BjAm49KUk7cxVljTK5D0hzJPukRQM51EjpISSq/VASqSdFVYFKunv3SmIgw
-LvFxinqd1CxZeyo5p30mH6munEIdYoo4niTP+kOLz6FYwjGYGlP540oZM01Qih8f
-hof64f2HT6GrboDQuz1uT3NJwy9dv2AVoyZFwavSo6JWTPMuPhLqCvNAa9ms/il1
-6NLz/L4syaDyxVsrjrq7LFEwzGy3wyHswPSLfz9f9IRxI76TcV1FtE47La/zcltx
-61vR7FY1L307cega8okYIZl8eW4KP2Vc/cv70kUjOs9wFgSUToFN12QKvTNRWYJW
-Wa4CQBc+kgAoGHwAVrFxU1nGR8r5uZd2d7H4Mi8xVJrEKKqtOPDrkzkfWUBKxdjd
-v0EwdqYtyrVJ3PNheTna53F8J09zdI8q6v4GbXoZnJD1WVWoWMa88Yo5AjLiN2lT
-lRa150m7gi2Btp8yjzsMY+b3QSLxlG38kKwfeSDxFys+aQBbRMTMHJNS01sEp86w
-+RBzFdbowQBxewCCmsvOzjvWFzzXKa3EPkuQPvJKM5GlJz0btvDWKQbLmqwOyZMd
-FduuUfYIDvdCgYN2tZWY48av
-=VzSV
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmropS8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t6EQAMbCyd6TnHuBBBqGv7oD
+4Utu2uof732atuITjvPvf0rEy6UbGnUiXdlkpoEzu0Sv2KJq5JtkrCIb9RAT1fS4
+lJjntRzm32TcvlolzO7QQy4+srv7YGWRfcIvF8ooMWTWgHgHiDS5eoYThv3FSTNX
+IYfj8MgVpt/lP1HN7yJly4jQ21P9NkmMiEv81QUF66oH64GzC2IH/AnM/nw6gLky
+TZ1o90lwtzz8Q1j+c6uGElWeRelPrO1X4lInRJ8r5+m9h6NZ0QwCblT2ClE4jebc
+rU5TcL4s6YEVTmbfzpuQUCOnd/Fnv0sxSX59gsobqpt3KRTntdOyrZ1QFDBgvtsl
+cs4dsdVQ4+ksRahlIDaVWPvtvEHJ/TV1tUWN6Juk7+q/H8OaO0ahGvHwCss27AjV
+ACQkTQo/W1Y/a+X5ApcSH+cKv9zEnvNBSrQYNrzci01iKmAW5NlBHRPnaVLhBKip
+HnwBDN1EMJNr1xGO3uccCV8CXwmqCDDEf/SbB643Aa9dKp93ZCoITHkDutKwzsCG
+lxtQuU0x1yEfWZd5oZExE5oRo3cPvPErKHkyJw1nZT9DbQk07eOGlAH86A+NwXXH
+QrQRtOMk4CdV5IlfV7RroO15sDKHJDi0bu0gmDIA6g4EMmhtsf7QqrtooI/GV9ux
+CD5rRhn7GdC5f7EWzNm99lZx
+=ICtD
 -----END PGP SIGNATURE-----
 
---===============7821187918243465205==
+--===============7474156057469798485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============7821187918243465205==--
+--===============7474156057469798485==--
