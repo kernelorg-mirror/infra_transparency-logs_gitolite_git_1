@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2399369745484300639=="
+Content-Type: multipart/mixed; boundary="===============6613491510295644186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 02 Nov 2026 07:44:07 -0000
-Message-Id: <179360544738.239446.819500953175150518@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 07:45:05 -0000
+Message-Id: <179360550567.241817.16531846516963882966@gitolite.kernel.org>
 
---===============2399369745484300639==
+--===============6613491510295644186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,27 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: f96ebf32b3135db4c9eeb868e4cb98e5dfe79ac0
-    new: 053c60e4d88bb6e653d9e0bd7a224fb109fbadc3
-    log: revlist-f96ebf32b313-053c60e4d88b.txt
+    old: 053c60e4d88bb6e653d9e0bd7a224fb109fbadc3
+    new: 2305edc99ef7bbc11a8dcebf78853bc1b6a761bc
+    log: |
+         ae588ee037985f3b7b162a8ec2b30f4fadc8d5d9 Merge branch into tip/master: 'x86/urgent'
+         4f7327c44812ce7462129a1beacedd10c35d1c51 Merge branch into tip/master: 'x86/apic'
+         8d6195043fc219e5bdc492af32e8bb678f5fcdd7 Merge branch into tip/master: 'x86/cleanups'
+         2305edc99ef7bbc11a8dcebf78853bc1b6a761bc Merge branch into tip/master: 'x86/misc'
+         
+  - ref: refs/heads/tip/urgent
+    old: 3b46cb2bff081ada56b0428da721154090dce690
+    new: ae588ee037985f3b7b162a8ec2b30f4fadc8d5d9
+    log: revlist-3b46cb2bff08-ae588ee03798.txt
+  - ref: refs/tags/v7.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: bc71431221f5ba8bb33918399552636e059c2c45
 
---===============2399369745484300639==
+--===============6613491510295644186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f96ebf32b313-053c60e4d88b.txt
+Content-Disposition: attachment; filename=revlist-3b46cb2bff08-ae588ee03798.txt
 
 5d93b32cfb582141aae0c444490359f4cb62f156 rtc: omap: remove unused argument
 a867106d8a8951c8f390e21082a08c1c2b674498 dt-bindings: rtc: rzn1: drop unneeded 'start-year' from example
@@ -123,10 +135,7 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 3457b3bcd344005af894876cab4e634cabdcbb62 x86/bugs: Select the BHI mitigation based on the attack vector properly
-07479e8845c8a3a17d49a707a7178e9fd8360ab1 x86/bugs: Replace RFDS model checks with VFM ones
 f01a394fe2a00d3cb4cf2cda279c58604a2540ad x86/csum: Relax the len and proto constraints in 32-bit csum_ipv6_magic()
-15dfa74387a0bbfa562046c932df5bca553e6d2a Merge branch 'linus'
-d5fbc7762c43fa55163da4eb1129310d11d9f8bf Merge branch into tip/master: 'x86/urgent'
-053c60e4d88bb6e653d9e0bd7a224fb109fbadc3 Merge branch into tip/master: 'x86/cleanups'
+ae588ee037985f3b7b162a8ec2b30f4fadc8d5d9 Merge branch into tip/master: 'x86/urgent'
 
---===============2399369745484300639==--
+--===============6613491510295644186==--
