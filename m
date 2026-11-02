@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 02 Nov 2026 03:43:19 -0000
-Message-Id: <179359099931.65680.2227001443637192446@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Mon, 02 Nov 2026 03:51:49 -0000
+Message-Id: <179359150948.72164.14704218941040029547@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/for-next
-    old: 87f74d2b224ae6484628500136a75677766ed52c
-    new: 1236473139859a9b64f20404d9c0388930415cbb
+  - ref: refs/heads/master
+    old: a17e72b3b31eea3eca1cc990590b8496ab0670e3
+    new: 57dca794f97197f6b00b357e120c055ff509fe1d
     log: |
-         1236473139859a9b64f20404d9c0388930415cbb platform/chrome: cros_ec_ishtp: report EC_HOST_EVENT_PANIC to userspace
+         57dca794f97197f6b00b357e120c055ff509fe1d ci: bump the all-actions group with 4 updates
          
