@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1361782288722307846=="
+Content-Type: multipart/mixed; boundary="===============1096782558711043255=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 02 Nov 2026 19:38:50 -0000
-Message-Id: <179364833087.914115.17325156149444878405@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 19:38:56 -0000
+Message-Id: <179364833660.914306.67993502777518510@gitolite.kernel.org>
 
---===============1361782288722307846==
+--===============1096782558711043255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-rc
-    old: 9ff797e516dbc1ecb73701ec4c24055712d44411
+  - ref: refs/heads/for-rc
+    old: 72d3fcf802c45d00b300f25b848a93c3a2bd7c7e
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-9ff797e516db-6628e7d4c6b2.txt
+    log: revlist-72d3fcf802c4-6628e7d4c6b2.txt
 
---===============1361782288722307846==
+--===============1096782558711043255==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9ff797e516db-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-72d3fcf802c4-6628e7d4c6b2.txt
 
 76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============1361782288722307846==--
+--===============1096782558711043255==--
