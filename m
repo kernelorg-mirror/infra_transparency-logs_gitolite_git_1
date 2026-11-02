@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Mon, 02 Nov 2026 21:00:25 -0000
-Message-Id: <179365322519.981716.12362250528733086350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 02 Nov 2026 21:02:38 -0000
+Message-Id: <179365335814.982758.7532781870507296317@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/kmod-34.y
-    old: 516a390b26425a406d174ea13faee485e709d358
-    new: 8f674de3856030dc76e33a41b5f232e2cdcbbb98
+  - ref: refs/heads/main
+    old: 7308ef8b4a6779a39f68d053c19b53a5c584a663
+    new: 3ae20e4697eb969104fe4b1e98a675f0100382b6
     log: |
-         8f674de3856030dc76e33a41b5f232e2cdcbbb98 kmod 34.3
+         3ae20e4697eb969104fe4b1e98a675f0100382b6 inet: frags: limit the truesize of a reassembly queue
          
