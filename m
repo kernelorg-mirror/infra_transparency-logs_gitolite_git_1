@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4212754161638905956=="
+Content-Type: multipart/mixed; boundary="===============3116257278134267973=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 02 Nov 2026 22:14:49 -0000
-Message-Id: <179365768934.1039654.3840016055093088598@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 22:14:53 -0000
+Message-Id: <179365769344.1039740.12348046810310906597@gitolite.kernel.org>
 
---===============4212754161638905956==
+--===============3116257278134267973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfsd-testing
-    old: 780e6183592dc951ce2e0abb4c2d59dd71d40682
-    new: 376e51c50e94e8c12ac9256c49473e67d20f0cc7
-    log: revlist-780e6183592d-376e51c50e94.txt
+  - ref: refs/heads/kernel-6.12/nfsd-testing-canary
+    old: dc059e58dfb161ab582d9b32439fb1ee5299e19a
+    new: 98f94176081fd02767f59c7f7c589254a987ba06
+    log: revlist-dc059e58dfb1-98f94176081f.txt
 
---===============4212754161638905956==
+--===============3116257278134267973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-780e6183592d-376e51c50e94.txt
+Content-Disposition: attachment; filename=revlist-dc059e58dfb1-98f94176081f.txt
 
 b1be54f87a838ca46b768badfdb054ab848183be nfsd: use direct I/O only for the last operation in a COMPOUND
 6f78dc1ce8883da437f6115f3308837bd528037c SUNRPC: preserve RQ_SECURE across request deferral
@@ -38,5 +38,9 @@ bf489cb8bd1a4bc6e89c330a4b05c09e333dcbe2 NFSD: cut a misaligned direct-mode WRIT
 04daedd33070bec0d3b65ef2c4086c695cc736c8 NFSD: do not use direct I/O for a READ smaller than its alignment
 f7e147e286169030120327b65dd3aab8b7adde08 NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
 376e51c50e94e8c12ac9256c49473e67d20f0cc7 NFSD: add tracing for how direct-mode READ and WRITE are serviced
+cbdc15edb78f03d363d66c42c28803523dde1baf svcrdma: cap per-xprt sc_send_ctxts free list at sc_max_requests
+791e54265f45633b6bd13ca5e2452e8d15cb4f09 svcrdma: track sc_send_ctxts_depth at alloc/destroy and gate _get on it
+5d599e194c063b877b376039a3f70fb732c1911e svcrdma: loosen sc_send_ctxts_depth cap to 4*sc_max_requests
+98f94176081fd02767f59c7f7c589254a987ba06 svcrdma: set WQ_HIGHPRI flag for the svcrdma_wq
 
---===============4212754161638905956==--
+--===============3116257278134267973==--
