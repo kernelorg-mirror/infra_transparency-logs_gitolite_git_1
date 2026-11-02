@@ -1,51 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6037208339838493250=="
+Content-Type: multipart/mixed; boundary="===============3692177245883408174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Mon, 02 Nov 2026 13:25:24 -0000
-Message-Id: <179362592408.522582.8716316446262599447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Mon, 02 Nov 2026 13:25:57 -0000
+Message-Id: <179362595703.523399.157305349369474640@gitolite.kernel.org>
 
---===============6037208339838493250==
+--===============3692177245883408174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/modules/linux
-user: ppavlu
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/heads/master
-    old: df2908090cda368b01ff43709f51890076c56157
+  - ref: refs/heads/fixes
+    old: 96a8479804e3f7af43e639e9df39f562f1a75fd5
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-df2908090cda-6628e7d4c6b2.txt
-  - ref: refs/tags/v7.3
-    old: 0000000000000000000000000000000000000000
-    new: 091b06388b117fefdcb63336ac09956a4914b961
-  - ref: refs/tags/v7.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c2cd463d6ee7d55a3ec0719d93c49ff99022d58f
-  - ref: refs/tags/v7.3-rc4
-    old: 0000000000000000000000000000000000000000
-    new: dec005ae90a2946656a090f37bf1cfbd22f08e57
-  - ref: refs/tags/v7.3-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 5a956dde5526a634dca7ccad27c051ebcc306089
-  - ref: refs/tags/v7.3-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 4eeccbed21e50c19f97be9d325511f3de6343f2d
-  - ref: refs/tags/v7.3-rc7
-    old: 0000000000000000000000000000000000000000
-    new: ec8bf8280261294a9b9b4520414b42704c7f9f6b
-  - ref: refs/tags/v7.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: bc71431221f5ba8bb33918399552636e059c2c45
+    log: revlist-96a8479804e3-6628e7d4c6b2.txt
 
---===============6037208339838493250==
+--===============3692177245883408174==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-df2908090cda-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-96a8479804e3-6628e7d4c6b2.txt
 
 76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
@@ -1072,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============6037208339838493250==--
+--===============3692177245883408174==--
