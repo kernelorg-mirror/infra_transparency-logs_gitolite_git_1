@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1924459821222759832=="
+Content-Type: multipart/mixed; boundary="===============8593282809234393514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Mon, 02 Nov 2026 15:48:10 -0000
-Message-Id: <179363449052.724919.12149667341228411123@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 15:48:14 -0000
+Message-Id: <179363449407.725131.9632926847221977432@gitolite.kernel.org>
 
---===============1924459821222759832==
+--===============8593282809234393514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,60 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frank.li/linux
 user: frank.li
 changes:
-  - ref: refs/heads/for-next
-    old: 31f9ec9f38735f42e1f0ba57347c420e56b99824
-    new: e20daa6eb46fdb339be122a37211aa408488a3e3
-    log: revlist-31f9ec9f3873-e20daa6eb46f.txt
+  - ref: refs/heads/imx/drivers
+    old: e3631d0242842940f9e902afaea98202e56277e8
+    new: 5085a5c7f1eb324c67ec0de5302411268b229693
+    log: revlist-e3631d024284-5085a5c7f1eb.txt
 
---===============1924459821222759832==
+--===============8593282809234393514==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-31f9ec9f3873-e20daa6eb46f.txt
+Content-Disposition: attachment; filename=revlist-e3631d024284-5085a5c7f1eb.txt
 
+f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
+acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
+7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
+ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
+01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
+c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
+226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
+07c81e0196cc8fbc261095c9f712e39b63e3c780 mm/sparse: move mem_section init to sparse_extreme_init()
+89e2b6e3d345cd4dca822a5ccea764ee7f9e0ae4 mm/sparse: refactor sparse_sections_init()
+d8ab71169ce579871d196a4178c51afd1e0d8b32 mm/sparse: move initialization of section metadata to sparse_metadata_init()
+31b3829703ec5a041c01162f8196fc49eb930b17 mm/sparse: rename and cleanup sparse_init_nid()
+2193260fd4c2173239dab9b7e7ebebdb95e180cc mm/sparse: cleanup sparse_init_one_section()
+a8c5020eeb963afa18f9f035fcea64f05080b96f mm/sparse: rename __highest_present_section_nr to __highest_used_section_nr
+dff2d55bf7941677bd26f12344211ccc289a215d mm/sparse: remove pfn_in_present_section()
+4af04bd8121fbd44891e6db2ca138c6d739b1f82 mm/sparse: move __highest_used_section_nr handling
+4d42b10363f55baa72de3c6d46715394997d5ceb scripts/gdb: mm.py: remove fallbacks for SECTION_HAS_MEM_MAP and SECTION_IS_EARLY
+da7acb8982edf70078b23f878c6b8f2b496abdb5 mm/sparse: remove SECTION_MARKED_PRESENT
+0632840dba0307d0959f374a79358127da9708ca mm/sparse: remove flags parameter from sparse_init_one_section()
+3f4b13b06062a03530df98310fcd9e189b2cddfa fs/proc/page: clarify comment in get_max_dump_pfn()
+82b1ee68b5fdd3062aee988a6e5aa3608d2470e0 mm/memory_hotplug: drop CONFIG_HAVE_ARCH_PFN_VALID handling from pfn_to_online_page()
+0b4af90344ac4d5ce7defcb39891c773da969132 vmcoreinfo: export SECTION_HAS_MEM_MAP
+4590752e20aa393cc0d4fe538c0747d14a98c97a mm: disallow ioremap'ing ordinary RAM in generic_access_phys()
+bbde9d5bdd2d7cf94707b2a8bb466f2e074f9db2 ALSA: us122l: mark hwdep mappings VM_MIXEDMAP
+f85eb0656c409aa5910c8eacc98374121e00e3e0 mm/vma: fix mmap_prepare file handling, remove file_doesnt_need_get
+86a779c5320488b9142f4477435f235c9a04f7ae mm/vma: introduce and use vma_[flags_]can_merge()
+9cae38dc11da28b4e902d59af3d5d32836f744b3 mm: consistently validate VMA state after mmap[_prepare] hooks
+6335c786299ffc0571506f385d8d748471929230 mm/vma: ensure mmap_prepare doesn't set actions on a mergeable vma
+2a234f79d416beeec9fb82dcc20c6794416a54b0 mm: make map_kernel_pages_[prepare,complete] internal and unexported
+4852f3421456f6ee2943726784f82b1db0028a18 mm/vma: tidy up map kernel pages enum values
+dad8e88fcfce855c691e65f2da3d1da326c69d7a mm: assert mmap lock held, use new flags API in vm_insert_page[s]
+b7b4d8f37a4ff533dffeea9cbb08e9e4788b7742 mm: add mmap action for discontiguous kernel page mapping
+ae60723abb65b6304699eb7f5ab66cbc84bd3bb8 docs: filesystems: update mmap_prepare docs for discontig kernel pgs
+5323bb5f6ef306197b5bc1dd3cbad1858afe3150 drivers/usb/mon: update to use mmap_prepare + map kernel pages
+077b65ba0d8a27c2f3e9b51918fb26736d7d7942 infiniband: update hfi1 to use remap_vmalloc_range()
+c6ce4378f20a3bce1da53c9e2d2f74d853096ab8 selinux: reject writable opens of policy file, drop mmap shared/write check
+ceb0de27371f8bebacd22374b99a076306a47760 ALSA: pcm: use vm_insert_page() to map PCM status page
+0c2c9885c5e90d2182118fe101d94c515f067ebc bpf: arena: mark arena_map_mmap() mappings VM_MIXEDMAP
+7fdbc26b69c0241a2c1b8f426cf977e2dc4ed507 mm/vma: add vma[_flags]_is_mm_managed() predicates
+d99c4a302c5abcf4e46bdbefa5a3c6a620be230c mm/vma: only allow mmap to clear VMA_MAYWRITE_BIT if not mm-managed
+9201d0f5b9d55dad38201bf0561e7024039b429b mm/vma: add and use vma_[flags]_is_fixed_mapping
+abdd54cef5fcf6e50367224663035386d9f6bfb3 scsi: sg: convert mmap hook to mmap_prepare and rework
+19458d015fccbbf2657a8e6417bbaa915c2afdd1 fbdev: defio: assert FBINFO_VIRTFB, drop VM_IO, add VM_MIXEDMAP
+5605c40895fc5e76132f0538e1ee374d0f1a1733 HSI: cmt_speech: convert mmap hook to mmap_prepare, refactor
 2d2b1c508f21496e4d7a0aa30eec0b863522479b mm/gup: error out early on !VMA_MAYREAD_BIT VMAs
 0d219bc3cb88b35e83b3b25d46374e8a5081a26e uprobes: remove VM_IO, set VM_MIXEDMAP for mapped kernel pages
 61e012ab9a1cdec88ebcb55a061a09c4c6539058 mm/mlock: clear VMA_LOCKED_MASK over mmap callback
@@ -1004,51 +1047,8 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-2b5d7292eb54b48c89245a38d705fb928f2e13c6 ARM: dts: imx6q-apalis: enable SPI1 and SPI2
-2aeb0363020336e65c52c5725fa763f2623b6033 ARM: dts: imx6ull-colibri-iris: enable SPI
-2d41ada5b279530b05781a6e06a4b03c99adac99 ARM: dts: imx6qdl-phytec-mira: Add touchscreen-inverted properties
-32dda15725630801e3c5fc0f51ca028ebb9aab6f ARM: dts: imx6qdl-phytec-mira: Fix uart3 CTS/RTS pinmuxing
-08921162fb0eed94ee5128e905142c818517546a ARM: dts: imx6ull-tarragon-common: Fix Ethernet PHY issues
-753870101ac827a7ed0868a3f30391726916428d ARM: dts: imx6ull-tarragon-common: Disable unused LDOs
-a8023e1dcfb80ba5f70c67dcc623ae06e5912f22 ARM: dts: imx6ull-tarragon-common: Fix i.MX6ULL DVFS
-c0ebb143bc9c6e55df1a5d26f5823ddeaa3a084e ARM: dts: imx6ull-tarragon-common: Fix vmmc supply
-c083c944435b065f30a4607aa4dc901eed4b16d1 ARM: dts: imx27-eukrea: Remove invalid spi-cpol
-e8eb39a12608e20287dbef04594b56e0fc4e51ca ARM: dts: apf6: fix Ethernet support
-dcc1b56ee454757d2ccda2ce719dcb55206a9a7a arm64: dts: freescale: imx95-verdin: fix i3c2 pinctrl group node name
-3609f04c85b3e06ad062c51b2208d361a10ece57 arm64: dts: freescale: imx95-aquila: fix i3c2 pinctrl group node name
-a4827616651ed61e48f22c757ac28be946c6e47b arm64: dts: freescale: imx95-verdin: fix vdev buffer reserved memory node name
-ef7f46509985d68deb0bea66fbc3c8afa13dc60c arm64: dts: freescale: imx95-toradex-smarc: fix vdev buffer reserved memory node name
-a9ffdacf5e14901182744baa4045996dbfee42e9 arm64: dts: freescale: imx95-aquila: fix vdev buffer reserved memory node name
-9f9ea16f252d31d5e5d9060acbad889822e852f0 arm64: dts: imx9(1|3)-tqma*-mba9(1|3)xxca: remove pullup from CAN pins
-4d213adc46de34a445f09d10726231e766a6dfef arm64: dts: freescale: imx95-toradex-osm-dev: Fix USB_A source PDO to 900 mA
-5d75b4f11da6783e577e223204ddf526394cf551 arm64: dts: freescale: imx93-imx91-toradex-osm-dev: Fix USB_A source PDO to 900 mA
-16b022eaefee9f9675d303313197b1dd1d95e5eb arm64: dts: imx8mm-var-som: Use the official product names in model strings
-3f0c089290fc5a92a8ba5f62bdc4260feb4c6b8a arm64: dts: imx8mm-var-som: fix touchscreen IRQ trigger
-e7234965c4bcb65b67d58b647d67ec6e6a1d7651 arm64: dts: imx8mp-kontron: Fix GPIO label assignments
-24da90af6c1c038d82eea531944d45786935c84b arm64: dts: imx8mp-kontron: Fix GPIO for DL panel standby signal
-a63d53cd524c2694f6316886dc116846690fdf15 arm64: dts: imx8mp-kontron: Fix GPIO labels according to OSM spec
-5148024307ffd63cdecec3198a79c26f52b1127f arm64: dts: imx8mp-kontron: Remove obsolete VDD_CARRIER regulator
-5435d41d8802943f88e9ff04bc8486bfc91008e6 arm64: dts: imx8mm-kontron: Fix wrong label for SPI_A_SDI_(IO0) pad
-6cf4394d568bd3fcf74853af746a361733a8cb5b arm64: dts: imx8mm-kontron: Fix GPIO label for PCIe_SM_ALERT#
-9e040320226beec5cfd6f3c6e050230a32840f52 arm64: dts: imx93-kontron: Fix ETH_B_TXD GPIO labels
-b551879b2f0f679fdae4507ddc4c8afd4ac9bb34 arm64: dts: imx93-kontron: Fix UART RTS/CTS pad names
-fe82bf6b8571c9ff379a6c4983a4c0056d0b5926 arm64: dts: imx93-kontron: Fix GPIO labels according to OSM spec
-5bb1a0fad998fa60f268c255aa83067c6b354af7 arm64: dts: imx8mm-var-dart: Enable WM8904 DMIC input
-e1d62f0658a2af932fbce808044a1de180e4b91f arm64: dts: imx8mm-var-som: Enable WM8904 DMIC input
-0769502f4033e21c8d8eb41d0f11ff597f00fcfd arm64: dts: freescale: imx95-toradex-osm-dev: Remove ETH_A PHY interrupt
-e2f951fa0d022f7dc59108983edbefd3e24b5050 arm64: dts: freescale: imx93-imx91-toradex-osm-dev: Remove ETH_A PHY interrupt
-723d5edc4f4cf6d6a1d54caca90b1f4ddb5eea50 arm64: dts: colibri-imx8x-aster: Enable I2C bus
-cf9e6b24b7f3dc53117c1a28611214826c9e5159 arm64: dts: imx8mn-evk: Pass GPIO_OPEN_DRAIN flag on i2c3 GPIOs
-90a80a8db2c68d3b0de9640e496d30f9456b134e arm64: dts: imx91-var-som: Mark I2C recovery GPIOs as open drain
-e1f003bab9962337c972f6d3b7c105a216e347a0 arm64: dts: imx91-var-som-symphony: Mark I2C recovery GPIOs as open drain
-a99f59a47f7f235690e70ce0711defa385073f58 arm64: dts: imx93-var-som: Mark I2C recovery GPIOs as open drain
-4e700d872a1c8e7725519f9e745142922909f494 arm64: dts: imx93-var-som-symphony: Mark I2C recovery GPIOs as open drain
-218906353fecc6050edb76c5cf6ce08969b8e0f2 arm64: dts: imx95-19x19-frdm-pro: add boot phase properties
-6bbbc787686b541bc48b17ce7d08cfdbe03ec58c ARM: imx6q: remove unused header includes
-f609bb2dd7388bf5ac2b4e749a9b7eda5930c58a ARM: imx: fix typo "interupt" in comment
 f144d9f031b01e945db4fceaf1247513556e4c64 firmware: imx: scu: publish the SCU IPC handles with release semantics
 1c41569e69f527d0dd91337da5ec005575bf5b64 firmware: imx: sm: publish the protocol handle after the ops pointer
 5085a5c7f1eb324c67ec0de5302411268b229693 soc: imx8m: fix clock reference leak in imx8m_soc_prepare()
-e20daa6eb46fdb339be122a37211aa408488a3e3 Merge branches 'imx/drivers', 'imx/dt', 'imx/dt-binding', 'imx/dt64' and 'imx/soc' into for-next
 
---===============1924459821222759832==--
+--===============8593282809234393514==--
