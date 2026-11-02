@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 02 Nov 2026 23:10:11 -0000
-Message-Id: <179366101132.1088374.14313148223596663740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 02 Nov 2026 23:10:13 -0000
+Message-Id: <179366101305.1088625.14494251030787333907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: 739c4fb9ef51eee12c6a6c9109433a93a713ef28
-    new: 2526c474b9f94fc84d1d5c57c49c49697219b8bf
+  - ref: refs/heads/master
+    old: ad42e2a34b3126e7bae68208ff7446740508bd60
+    new: 00dea76aa367a3cb203d1034853dd92c6e9facb2
     log: |
-         a1eea0c082f4ea25b5bf3d2501aeb59a0a5f5f20 intel-ipu6: Support IPU 7 and later as well
-         0ae0788fd9d1d90618046e78e6be1eb1127c4357 intel-ipu6: Add firmware binary for IPU8
-         2526c474b9f94fc84d1d5c57c49c49697219b8bf Merge branch 'robot/pr-0-1793186967' into 'main'
+         00dea76aa367a3cb203d1034853dd92c6e9facb2 foo
          
