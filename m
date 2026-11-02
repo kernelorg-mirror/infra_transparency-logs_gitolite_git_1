@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/davem/net
-Date: Mon, 02 Nov 2026 10:21:37 -0000
-Message-Id: <179361489762.361940.5216651399991072740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Mon, 02 Nov 2026 10:21:46 -0000
+Message-Id: <179361490682.362137.26983525608939248@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/davem/net
-user: davem
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/heads/main
-    old: 23fec4bd76904e9df7a8cc0a81ceb14c36971da4
-    new: 031c403d13e5046750e2abebd4e770631e7c4627
-    log: |
-         031c403d13e5046750e2abebd4e770631e7c4627 tcp: do not let tcp_collapse() drive sk_forward_alloc negative
-         
+  - ref: refs/heads/for-7.5
+    old: 0000000000000000000000000000000000000000
+    new: 267accfa83d968fbd99a0bf48b5c935b92e1f173
