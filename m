@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3451199056053466610=="
+Content-Type: multipart/mixed; boundary="===============8992735116881146993=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 02 Nov 2026 02:21:08 -0000
-Message-Id: <179358606819.7727.4159555912934734149@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 02:23:08 -0000
+Message-Id: <179358618895.8349.5120016409818693751@gitolite.kernel.org>
 
---===============3451199056053466610==
+--===============8992735116881146993==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,143 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 9090ec5ecd6828b609d1c97433798907a5b78e5d
-    new: 4fdfaf7cc3a666ec829b1827f883849ba656f56e
-    log: revlist-9090ec5ecd68-4fdfaf7cc3a6.txt
+  - ref: refs/heads/nfsd-testing
+    old: d650fb277960ef221f7fa2160072493aec418d65
+    new: 2d3259f652bb0f1d137ccabecac6763da05064ec
+    log: revlist-d650fb277960-2d3259f652bb.txt
 
---===============3451199056053466610==
+--===============8992735116881146993==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9090ec5ecd68-4fdfaf7cc3a6.txt
+Content-Disposition: attachment; filename=revlist-d650fb277960-2d3259f652bb.txt
 
-dff2d55bf7941677bd26f12344211ccc289a215d mm/sparse: remove pfn_in_present_section()
-4af04bd8121fbd44891e6db2ca138c6d739b1f82 mm/sparse: move __highest_used_section_nr handling
-4d42b10363f55baa72de3c6d46715394997d5ceb scripts/gdb: mm.py: remove fallbacks for SECTION_HAS_MEM_MAP and SECTION_IS_EARLY
-da7acb8982edf70078b23f878c6b8f2b496abdb5 mm/sparse: remove SECTION_MARKED_PRESENT
-0632840dba0307d0959f374a79358127da9708ca mm/sparse: remove flags parameter from sparse_init_one_section()
-3f4b13b06062a03530df98310fcd9e189b2cddfa fs/proc/page: clarify comment in get_max_dump_pfn()
-82b1ee68b5fdd3062aee988a6e5aa3608d2470e0 mm/memory_hotplug: drop CONFIG_HAVE_ARCH_PFN_VALID handling from pfn_to_online_page()
-0b4af90344ac4d5ce7defcb39891c773da969132 vmcoreinfo: export SECTION_HAS_MEM_MAP
-4590752e20aa393cc0d4fe538c0747d14a98c97a mm: disallow ioremap'ing ordinary RAM in generic_access_phys()
-bbde9d5bdd2d7cf94707b2a8bb466f2e074f9db2 ALSA: us122l: mark hwdep mappings VM_MIXEDMAP
-f85eb0656c409aa5910c8eacc98374121e00e3e0 mm/vma: fix mmap_prepare file handling, remove file_doesnt_need_get
-86a779c5320488b9142f4477435f235c9a04f7ae mm/vma: introduce and use vma_[flags_]can_merge()
-9cae38dc11da28b4e902d59af3d5d32836f744b3 mm: consistently validate VMA state after mmap[_prepare] hooks
-6335c786299ffc0571506f385d8d748471929230 mm/vma: ensure mmap_prepare doesn't set actions on a mergeable vma
-2a234f79d416beeec9fb82dcc20c6794416a54b0 mm: make map_kernel_pages_[prepare,complete] internal and unexported
-4852f3421456f6ee2943726784f82b1db0028a18 mm/vma: tidy up map kernel pages enum values
-dad8e88fcfce855c691e65f2da3d1da326c69d7a mm: assert mmap lock held, use new flags API in vm_insert_page[s]
-b7b4d8f37a4ff533dffeea9cbb08e9e4788b7742 mm: add mmap action for discontiguous kernel page mapping
-ae60723abb65b6304699eb7f5ab66cbc84bd3bb8 docs: filesystems: update mmap_prepare docs for discontig kernel pgs
-5323bb5f6ef306197b5bc1dd3cbad1858afe3150 drivers/usb/mon: update to use mmap_prepare + map kernel pages
-077b65ba0d8a27c2f3e9b51918fb26736d7d7942 infiniband: update hfi1 to use remap_vmalloc_range()
-c6ce4378f20a3bce1da53c9e2d2f74d853096ab8 selinux: reject writable opens of policy file, drop mmap shared/write check
-ceb0de27371f8bebacd22374b99a076306a47760 ALSA: pcm: use vm_insert_page() to map PCM status page
-0c2c9885c5e90d2182118fe101d94c515f067ebc bpf: arena: mark arena_map_mmap() mappings VM_MIXEDMAP
-7fdbc26b69c0241a2c1b8f426cf977e2dc4ed507 mm/vma: add vma[_flags]_is_mm_managed() predicates
-d99c4a302c5abcf4e46bdbefa5a3c6a620be230c mm/vma: only allow mmap to clear VMA_MAYWRITE_BIT if not mm-managed
-9201d0f5b9d55dad38201bf0561e7024039b429b mm/vma: add and use vma_[flags]_is_fixed_mapping
-abdd54cef5fcf6e50367224663035386d9f6bfb3 scsi: sg: convert mmap hook to mmap_prepare and rework
-19458d015fccbbf2657a8e6417bbaa915c2afdd1 fbdev: defio: assert FBINFO_VIRTFB, drop VM_IO, add VM_MIXEDMAP
-5605c40895fc5e76132f0538e1ee374d0f1a1733 HSI: cmt_speech: convert mmap hook to mmap_prepare, refactor
-2d2b1c508f21496e4d7a0aa30eec0b863522479b mm/gup: error out early on !VMA_MAYREAD_BIT VMAs
-0d219bc3cb88b35e83b3b25d46374e8a5081a26e uprobes: remove VM_IO, set VM_MIXEDMAP for mapped kernel pages
-61e012ab9a1cdec88ebcb55a061a09c4c6539058 mm/mlock: clear VMA_LOCKED_MASK over mmap callback
-aea83f2694ed1f908401ffd2731deb14c2000ff0 mm/mlock: eliminate weird VMA_IO_BIT abuse and simplify
-99fd6bf43d5d67ffb619c1fc61882c369d89599c mm/vma: enforce that mm-managed mappings may not set VMA_IO_BIT
-88d77002e1a133c5d0071b2e7c738c5ab8aa1115 mm: remove VMA_IO_BIT check in vma[_flags]_is_mm_managed()
-94c86564538ea6a21485a3b06b4d33c23e6f8053 mm: remove hugetlb_inline.h
-c911e7ebebf58c06d2ea4a2d3858411066739e11 mm: rename is_vm_hugetlb_page() to vma_is_hugetlb()
-ba82d45b876400c3fbb16c49ab982fb8a9c5ec97 mm: drop some redundant checks around hugetlb VMAs
-44debd840ec959063fbaac24f3db7a08a5cba8dc mm/vma: introduce vma[_flags]_is_mm_backed()
-fc95d1cf4a136f51b257506c420164c74d2b2142 mm/madvise: update is_valid_guard_vma() to use vma_is_mm_backed()
-fb700342f506d0b3839259a499bd8cad673887f8 mm/uffd: use predicates for userfaultfd checks
-1d1104fe6dc6130b6ca78f801aecfd050d6560d0 mm/madvise: use predicates for madvise(..., MADV_DOFORK)
-531e56359ffb9ea714033bb9a1aff15da0e108d1 mm: eliminate VMA_SPECIAL_FLAGS usage when hugetlb explicitly tested
-5997da57a09b199bae688dfee7242f0f3f76b3bd mm: eliminate VMA_SPECIAL_FLAGS check in lru_gen_look_around()
-8bf792b7afcb5d1e4ec4e9ed4204a10b58cdbf77 mm: avoid use of VMA_SPECIAL_FLAGS in migrate_vma_setup()
-72a993449cb0a2b7d7a0cf4fd3d5e7225ea89ea1 mm: eliminate VM_SPECIAL, VMA_SPECIAL_FLAGS
-b0d88bfa7515ed772afa286af0e2f635acad9f7e fuse: dax: do not set VM_MIXEDMAP
-e2a1d080f51070fb4dcc74d352ae86eca5fb5bab mm/huge_memory: remove vma_is_special_huge()
-1a5c751385dc87a65235ea1511f70473994ededf hugetlbfs: fix stale comment in hugetlbfs_file_mmap()
-6a9ef02c60bf6c06edf5e33f90e1eff70d7cf2af mm/vma: const-ify vma_assert_stabilised() and associated functions
-38564710f4436156c017419abefb33eee0376f19 mm: implement and use vma_has_anon_rmap(), silence KCSAN
-14a5c975b1382225e283c867bb6d173cf90233cc mm: update comments to refer to anon rmap rather than anon_vma
-dc0b17144d62c1e05043bd11ef2bf5c23cc3b500 mm/vma: don't remove VMA from rmap if pgoff unchanged
-ae2514c95518b39b36fa463d855c74f29c91d064 tools/cgroup: sum shrinker object counts across NUMA nodes
-f9168f2f0b06b22dcfe75b2f4c677c8017d95bb5 mm/swap: submit the last readahead batch before unplugging
-879cd218870a1ae3e0177989207760a50a2fbb7c MAINTAINERS: cover all hugetlb headers under HUGETLB SUBSYSTEM
-b3d752e23cbccbc4bc56a1673655c621eb5f3710 mm/hugetlb_cgroup: add trailing #endif comment for include guard
-8930760d468d94b47b013bd5f0256ff2e1776b78 selftests/mm: mrelease_test: fix retry limit
-101fea09a860c7cd3ef53faefaab1f4a03132446 mm: kmsan: fix iounmap metadata teardown
-29f8fcb55cd113daa14006d974f549781e488e1b mm: kmsan: fix ioremap error cleanup
-bf033d04366e1375698b01f77f8cf3fa6d039679 mm/vmalloc: bail out early on invalid page_shift in __vmap_pages_range_noflush()
-2dc36cf60dde233d864a29d3703541f8e530c0a6 docs: hugetlbpage.rst: fix typo in per-node attribute description
-ecaccc8c889e7cefcde88b70663d2a8704c41ca7 selftests/mm: hugetlb-read-hwpoison: add setup of HugeTLB pages
-fa71cee86530039392094103aab713ba8ba9e301 mm/hugetlb: use kvmalloc_objs for hugetlb_fault_mutex_table
-ccedc5062f969846b61c4c6f61f765c6a99d5eb7 selftests: run tests on nommu architecture
-e4dce9a62bc2bf0a211a9a3d12b050c26feed634 selftests/nommu: add nommu mmap and mremap behavior tests
-0284dff76e87fc47a1055080d4e8540b41d096b2 mm/damon/ops-common: fix age_in_sec overflow on 32-bit
-8cb5bfe457dfd430907c5561739a76e54a735c63 mm/damon: use damon_get_monitor_folio() for hugetlb entries
-20a0f2b4705c3f2e476270c54e79637893b5e50b mm/damon/tests/core-kunit: add test for unconditionally skipping the last region
-50ee565c1e900e247e439e4139839b060c968343 mm/memfd: fix hugetlb reservation accounting in error paths
-03825d869f3f6f94b6820e5efd8c58947b1555da mm/swap, PM: hibernate: atomically replace hibernation pin
-4d1a248a38c648978743fb0f5488894e24cc438c mm/hugetlb: prefix log messages via pr_fmt
-f5cfc8e3b20ad71949a1e5623ff45882c063a71b mm/madvise: add cond_resched() in THP branch of madvise_cold_or_pageout_pte_range()
-984c0700854e35779a2bcce6b02783e709b6efa2 mm/rmap: don't discard lazyfree THPs at PMD level
-cbe319858c1d20f503f0e806e94d7df495427cef selftests/mm: check MREMAP_DONTUNMAP mlock accounting
-1b0f9f70a30feb9271aad2639c67f44c2129c84d mm/hugetlb: move hugetlb_sysfs_initialized into hugetlb_register_all_nodes()
-9f5c2aec33884405606f1590f4700dea3e04f43d selftests/mm: fix uffd move-pmd test crash on 64K base page systems
-4cd78a2dcfbb13f049f841b98763896a3d1d7750 mm: page_alloc: make defrag_mode retries follow the promoted order
-bd918fca02076763269a7cba474d1cff86ec5954 mm/hugetlb: use sizeof(buf) in string_get_size() calls
-514c9247db305922591d806ec65d3c3fe420538d mm/userfaultfd: only allocate anon_vma in CoW mappings
-b83970d6962d12f0d5a625baafddaa44456bec28 mm/khugepaged: drop redundant mm_struct pin in madvise_collapse()
-47cda827a05f3dc1e1c05646db7acd430f2cc6d5 mm/khugepaged: count collapses where khugepaged makes them
-d950ec79fcbb000459b46820e8f7ed69b58a6dc3 mm/khugepaged: rename mthp_present_ptes bitmap to eligible_ptes
-81f8bfda35004f544f65d3d150540b512f9b68c3 mm/collapse: add collapse.h for the collapse interface
-446065057621345d12ad9bb468a0b9ae5e88284d mm/collapse: state what a collapse may do in the policy
-d5dd87dbd60b86cafdda2ec2065341625dd3a429 mm/collapse: drop the collapse_possible() wrapper
-e7c4148ad1517f33ce01d27e47ce94f9c6c52ff7 mm/collapse: name the per-table scan reset for what it resets
-a2d1c9ea7613f346a8ea215f0419af15b2912cbd mm/collapse: call collapse_file() from collapse_single_pmd()
-6d06041c838e2658d4d1cb9bd7bc3efa0587a28a mm/collapse: separate scanning a PTE table from collapsing it
-4425c6730022df01c952139df97141201f709ebc selftests/mm: mremap_test: Validate the preamble region before mapping it
-4a0ef6078731cac11cdde5e5f355f2252828eb56 selftests/mm: report the configuration check on stderr
-3ae91e3079b1504ef162b2884454d5f1421f4eb9 mm/mlock: use a long for the page count in mlock_fixup()
-454143aeb4c6c85ca7d50df36d1a66a64d88283e userfaultfd: fix UFFDIO_MOVE livelock on large folio with extra references
-c7a467fbcbbc31e57a5077bfc9456d9f29cb1571 mm/percpu: account full object size for percpu memory allocations
-246c8cc33438a71c28f9b86baa492d9a0a130316 mm/madvise: atomically clear the young bit on THP MADV_COLD
-00a51d09912a12232d47bc282b74397908d1ed5c mm/vmscan: fix missing NR_ISOLATED counter update in MGLRU reclaim path
-e387ebe5cd31720b1e0281fd045be4eef36fadb3 ipc/shm: fix RSS accounting for hugetlb shared memory
-2ca8b38962f239b17f7881a4710c11328ce38ac9 mm: vmscan: don't count per-node proactive reclaim as memory pressure
-86aca64badd203af6035979991a9be63f2af7b9e MAINTAINERS: exclude DAMON docs from MEMORY MANAGEMENT - MISC
-7135a05838e85845e1bbf6caa6596a7e3b791a40 mm/vma: avoid spurious write locks when mm->mm_lock_seq overflows
-397e087605526e31c067afd5fba85bd999e5738f mm: stop recalculating min_free_kbytes once set by userspace
-60f34fedf3a4c91ed631ed2f80713ab993cde5ee mm/swap: fix swap_cache_get_folio() returning a folio that left the swap cache
-4b77739fe7893bced405891233511310554871a7 mm/sparse-vmemmap: drop VMEMMAP_POPULATE_DAX
-a123cf7ac6cbcb127a24a825e82d9f7d2de84468 mm/sparse-vmemmap: support device DAX in common vmemmap path
-bd0862382adb3373bf5cd79531fecd41fb4c25e4 mm/sparse-vmemmap: drop Device DAX-specific population path
-2815c5d88f2a1255669cfa7ed260e7fd70532188 mm/sparse-vmemmap: remove the unused ptpfn argument
-cc1fd8f4017f68597091b3dc6d8c5eba2a8c3afc mm/sparse-vmemmap: open-code vmemmap_populate_address()
-3d670c0dcea42afd021fe15c7438f7a48c63b552 mm/mm_init: add zone mismatch warning during page init
-1503710b3b0cec02b531978129c6c1eb70a7c490 mm/page_alloc: count guard pages as free again when their buddy merges
-8f9039840588dd618c72a726c192126bb7b98228 mm/truncate: fix the zeroing end of pagecache_isize_extended()
-d2f7bdfdeac8137e942b32e0badc40e181127d7b resource: report a devm_request_resource() conflict under the lock
-c82dba3183ac66ea282e817b12edf735235fc4ac mm: warn on unaligned compound zone device ranges
-8730e622bfff3b9357ce537eb73f8649207c1ddb selftests/mm: skip hugetlb cgroup v2 tests without the needed controllers
-1a2993227e8a27fc4cdea305bbdae82d290bc885 mm/page_vma_mapped: continue past nonmatching huge PMDs
-b428f1966821cd285957fb41a621141b22622a7d mm: bdi: reset min_ratio after the sysfs attributes are gone
-1caede5a55b7f0731a437aeb7157ce0f560b049f MAINTAINERS: add an entry for MEMORY MANAGEMENT - MEMORY MAP
-34e753f8d927069785f6b675f5769da5da4ef78e mm/mremap: populate calculated fields in vrm state correctly
-65e722a74df992719676ead85a9e93fb2b5a0983 mm/mremap: correctly uncharge accountable VMAs in error path
-d0a12d80d2f7e9f4ed2030b6f04c8a897956bf84 mm/vmscan: reclaim every zone in per-node proactive reclaim
-d4ea410ce4b8aa46a316476ea2624a357bf31fa9 mm/mempolicy: apply bind policies against the scoped allocation zone
-4fb975471717c953f912776bb60301add1ffae11 fs/proc/task_mmu: pin mm_users in do_pagemap_scan()
-bbeec2d8324d7aac438bb12dd2d22b184e0a8d43 mm/damon/core: filter out damos address filter-split failed region
-bdda2887cbf3937c2d0f56589c2124c4167324e1 riscv: mm: exclude invalid THP PMDs from page table check
-faaf8b406c5178fc54662c91e7ce687c0c4cb4be mm/shrinker: allocate shrinker_info_unit from a dedicated kmem_cache
-5695abc4e742b947f586bfb6a080a80ad9957e5d mm/damon/core: remove unreachable damos charge_{target,addr}_from
 c9ed13789061af00d9239f9fab8e246adbed2076 tools/testing/shared: catch a failed posix_memalign()
 68cb098eadda190783f8f8bdf9fe764df59f7d32 mm/vma: avoid broken uffd merge on mremap
 baed735a956f2a7badb5436bef6810303034f920 maple_tree: fix maple_range_64 crashes in RCU mode
@@ -1050,5 +924,131 @@ bf2d1b9fc8d32f9b1d8d91cfa9939d356f931067 SUNRPC: reset the svc decode stream aft
 de6794e415f514efaef2f9f8e20b45f015364186 NFSD: Report unsupported delegation upgrade and downgrade
 9de1e761f466886fd39c5eec64fdd7e579c3c32b NFSD: Honor OPEN4_SHARE_ACCESS_WANT_READ_DELEG on a read-write OPEN
 4fdfaf7cc3a666ec829b1827f883849ba656f56e NFSD: Take a file unhashed during construction back off the LRU
+c32a33c9dc6a5fac4e47565d821c508d47cbffc5 SUNRPC: wake a thread after re-queueing transports in svc_clean_up_xprts()
+c64581bd5d2b42afc93aab6338e3b382dca20797 lockd: make the nlm_file reference count atomic
+ea4d2ab64846855cdb28fdc6e784df86d0c750d3 NFSD: Release the replay owner when an OPEN replay fails
+9ef1935450012b857f6ea0f9b22f84f172b5a4b2 NFSD: Save the stateowner reply when a seqid-mutating operation fails
+1c4f4064e27bbe515e6276102185b4abd31a0b62 nfsd: do not return overlapping extents in a block layout
+94305a9f63904b319b7befdda580d0520fc575d1 SUNRPC: reset the svc decode stream after unwrapping a privacy request
+06dcb2d03dd8f144e83fb3c369745302d41e7c3c NFSD: Report WND4_CANCELLED for an OPEN with WANT_CANCEL
+c29b15b72e0e051e90bc58b514090f2b64094c4d NFSD: Report the correct value in an OPEN response's ond_why field
+62944c400a04eb23d8bc19f2ff7d2b3d8d518ffd NFSD: Report WND4_CONTENTION for a recently recalled file
+24f4a60fc2743008c69003d503f8c4ada60ca4b5 NFSD: Report unsupported delegation upgrade and downgrade
+8ec8a52700b753efb69e04f8f998d0470419480c NFSD: Honor OPEN4_SHARE_ACCESS_WANT_READ_DELEG on a read-write OPEN
+8bc1c4785b66c832652982bf2ebf7076e5c18f2d NFSD: Take a file unhashed during construction back off the LRU
+e9457c05b9ec6faf1d564a74fd04aa296efdbfa3 nfsd: do not allocate blocks for an RW layout with a minlength of zero
+27a124e136640835291860a2a8a63175bf04e3c3 nfsd: pin source client while using COPY_NOTIFY stateid
+41e5de830c994ca6fe0b29d2bc6e05f7f3e38a44 NFSD: Report a first-batch readdir error in the reply status
+a5af2520e5c1ff2a644916c7c2d6e13380346019 Documentation: Add the RPC language description of NFSv3
+0103bd694b865810d17799d743ccbae271e87572 NFSD: Add infrastructure for generating NFSv3 XDR encoders and decoders
+47b0ae1647ea41c9ca8572b42ef76b3e11eed1d1 NFSD: Replace nfs3.h with nfs3xdr_gen.h
+8d57cea878c46520f1274a45c570679926bd96ef NFSD: Replace the nfsd3_createres macro
+244b2dc81bb81f60cd2ce231832076e9a73317e1 NFSD: Relocate the NFSv3 XDR storage union into nfs3proc.c
+bd9f9c52c226c2b9633e78d97d0f2e92a7cefc02 NFSD: Use xdrgen XDR functions for the NFSv3 NULL procedure
+311552f398da4d94776cd877b0251c065e119780 NFSD: Use xdrgen XDR functions for NFSv3 GETATTR procedure
+db5b6c4d5daa564a901a733f5f7b052e22ff57d7 NFSD: Use xdrgen XDR functions for NFSv3 SETATTR procedure
+11ff7fd80d7b025670fdeca3547aabcf537d8ff4 NFSD: Use xdrgen XDR functions for the NFSv3 LOOKUP procedure
+fc6e3d8900921d3fe46707342e44504fcfa909b1 NFSD: Use xdrgen XDR functions for NFSv3 ACCESS procedure
+e6c6a9afae568d3e2942b478f5f2f487cff01133 NFSD: Use xdrgen XDR functions for NFSv3 READLINK procedure
+cce329439fce07d8e624ad029bc118ef86bb6133 NFSD: Use xdrgen XDR functions for NFSv3 READ procedure
+d7d3e0338cf318dfa2e25761e491b4e502030e29 NFSD: Use xdrgen XDR functions for NFSv3 WRITE procedure
+728bc0d1a021b4f5314df81a8f8b032b08ffc739 NFSD: Use xdrgen XDR functions for NFSv3 CREATE procedure
+8bb0978cee052a946447317632aec4f90c01352c NFSD: Use xdrgen XDR functions for NFSv3 MKDIR procedure
+45869ec3b8d24a0b453c0a24b8902f296b64a7ec NFSD: Use xdrgen XDR functions for NFSv3 SYMLINK procedure
+6e228715d31ecd6a6a4b90a0ad80a27bf863ee87 NFSD: Use xdrgen XDR functions for NFSv3 MKNOD procedure
+d39ace5f6d2c45b1f8049799abe719ecde331151 NFSD: Use xdrgen XDR functions for the NFSv3 REMOVE procedure
+d70f86e9d138d3cb57321386db1e1d2cdf18163f NFSD: Use xdrgen XDR functions for the NFSv3 RMDIR procedure
+c7cbc36e1f662ef2f419e03e8ba367c43fa6b202 NFSD: Use xdrgen XDR functions for the NFSv3 RENAME procedure
+da8711bc047f0c5c2cd222783982f2e9802f0397 NFSD: Use xdrgen XDR functions for the NFSv3 LINK procedure
+ff09360f7f10f84f68d4e1891a74e96cb22dfee9 NFSD: Use xdrgen XDR functions for the NFSv3 FSSTAT procedure
+5e0c39fffe1bdcc03744e2997f5b191d7c86df40 NFSD: Use xdrgen XDR functions for the NFSv3 FSINFO procedure
+1841ee71730cbeab98feb9dc5ecbb248a4bedb9d NFSD: Use xdrgen XDR functions for the NFSv3 PATHCONF procedure
+a14a8394cc349cb989fbac38fcc7f76a2a6f2675 NFSD: Use xdrgen XDR functions for the NFSv3 COMMIT procedure
+0d71a3b69f9e7ae23ad81bfe20c1c4ba5ca00968 NFSD: Use xdrgen XDR functions for NFSv3 READDIR arguments
+995046e2bbac6e0dd6ed18d7e4193385ce0bb55f NFSD: Use xdrgen XDR functions for NFSv3 READDIRPLUS arguments
+b360f125138ecd211bbaa59ee67f0abaf9e132a9 NFSD: Refactor NFSv3 directory cookie encoding
+522c3b4754b9483bb32babb333762b96896ad28e NFSD: Refactor NFSv3 directory entry encoding
+6ae39a92451450f1ad8451f6b1f746d92252f3b8 NFSD: Split struct nfsd3_readdirres
+747a6968005cd1220ad937e92e6eacee8931a104 NFSD: Use xdrgen XDR functions for NFSv3 READDIR results
+799d248565e040b90354ccfa8381ce7af15dd512 NFSD: Use xdrgen XDR functions for NFSv3 READDIRPLUS results
+9fc26ea44ac9b24caaa736833e43226f633bee40 SUNRPC: Remove svc_fill_symlink_pathname()
+68f6a302fd2bac83fab9b8cecbb34eaa5f70bfec nfsd: prevent a double put of revoked layout stateids
+c14979cc2e85a03ee044baa2eb4be1248afe8205 nfsd: fail a LAYOUTGET in progress when the layout lease is broken
+662ee656ddfd1cd5d49e51c99dedd0960be693f0 nfsd: answer NFS4ERR_DELAY instead of waiting for a layout recall
+325b3fff9c5b2b8a9d57c1dd5a029540807db52f nfsd: make the time limit of a layout recall work
+b8a87f56094ad18196a5b27d655bf77662e8bf17 nfsd: run the fence script when a block layout lease break times out
+ca01a33c28e8372453eaa3973693298dc28e83a5 nfsd: end a layout recall once a lease break has fenced the client
+32b80ea31128d0c5e07344ee0ad52b3a0a20ced9 nfsd: keep polling a layout recall answered with NFS4ERR_OLD_STATEID
+6e3a9d3329db5872d77cf1f2f7214e77e0434e37 nfsd: do not fence a client for a layout recall with no layouts left
+8918c1aa043232d1b512064780d918e22b2184f7 svcrdma: account for inline bytes in Read chunk page budget
+b16607436d31232e213346fe20ac9c891dd8e338 NFSD: cut a misaligned direct-mode WRITE at folio boundaries
+af42ab5adbe5f1956770869b24fee01507282872 NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
+0dc23ec9db91b92049ddc46e9397f9643cc0b15e NFSD: only split a direct-mode WRITE for a worthwhile direct middle
+73d4d4115f659c4d69e6adcc71716b86146772ae NFSD: add direct_misaligned_dontcache debugfs knob
+f368cebfe0464d790e06375a3543cdc5d02db6c4 NFSD: do not use direct I/O for a READ smaller than its alignment
+9e343bb13eaff9541858caa85054b69f98d1aa40 NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
+b3f77e0926f9ed34fb203126de980e735b9f41f3 NFSD: add tracing for how direct-mode READ and WRITE are serviced
+2fa864293dd61f9e0a46c5f4ea84d8d15d9d0755 nfsd: truncate LISTXATTRS replies on error
+c3eba6b36c6b414b7eda14b78c5087c0cfbe5a0f nfsd: add NFSD_CMD_FILEHANDLE_GET for root filehandle lookup
+599c006e0382ef8194e586e7b1843fdea171e554 nfsd: store net in svc_serv instead of deriving it from sv_permsocks
+4ea26b977339a01d913380f55c973292ecb7ffa2 svcrdma: silently discard undersized messages
+a36bfea62427548595b8eb847cd601472736d654 xdrgen: Reject out-of-range unsigned short values on decode
+58d8abe073b3c39146261418ff78905b48bd7864 xdrgen: Reject out-of-range short values on decode
+5c24a974c89be1e35a57dff14e1f1cd5dd30a5be nfs_common: Export posix_acl_from_nfsacl for server ACL codecs
+2c0f1cf4e129cb86251c5109914030c20197d618 NFSD: Remove the unused NFSACL_MAXWORDS macro
+a198809fcd970513c87959f7efe87a78ea19814c NFSD: Move the definition of NFS_ACL_MAX_ENTRIES
+6f9896001be91273ed041ab496900b20898468aa Documentation: Add the RPC language description of NFS_ACLv2
+9afb569ab68ddd92f5d40b16fbd8038f11566286 NFSD: Add infrastructure for generating NFS_ACLv2 XDR encoders and decoders
+ecce28a75174bcff7eb53f6b67921a74ecf7550b NFSD: Remove '#include "xdr3.h"' from nfs2acl.c
+903952aa53699cee27dd93c1b5b86fce261df749 NFSD: Remove '#include "xdr.h"' from nfs2acl.c
+c766a440ee9050cebb91614d748af0705debaac8 NFSD: Switch to using the NFS_ACLv2 status codes
+be9f96407664c4f08f45ba0ab6dafb68c89bcc57 NFSD: Use xdrgen XDR functions for the NFS-ACL v2 NULL procedure
+af2bfb41d728374ec53514feac6936728400eb24 NFSD: Implement NFS-ACL v2 ACL encoding and decoding with xdrgen
+0626875f3c7fc6941fef6820df41147c5f1d5d4e NFSD: Use xdrgen XDR functions for the NFS-ACL v2 GETACL procedure
+89ca487ad21cc863109a4d47a544a53cafddb002 NFSD: Use xdrgen XDR functions for the NFS-ACL v2 SETACL procedure
+3954049c0f4f47eea14efd7597dd23b36a5f47b0 NFSD: Use xdrgen XDR functions for the NFS-ACL v2 GETATTR procedure
+47a36b580bd78ababf5633524a17aeddcd136e46 NFSD: Use xdrgen XDR functions for the NFS-ACL v2 ACCESS procedure
+5ef38fd6b225310a3108269077bf929d6b74e70c NFSD: Map every NFS_ACLv2 reply status into aclstat2
+525319b8d673121617f297ff939fcf7c75825fd7 SUNRPC: Fix use-after-free in svc_age_temp_xprts_now()
+88b61c9b138fca895755cd6329df5b3d87376ed0 SUNRPC: fix delayed cache cleanup in write_flush
+4c90ce3718ed4aa8bd4bb0274a8e74c1b181881d xdrgen: Handle a union whose arms are all void
+0954e0089e022d244d24f1b0e7dd77b64f7caad3 xdrgen: Key the width tables by type name only
+f039fb251ca209be4a270913dee21fd38f8bf78d xdrgen: Register optional-data names only for typedefs
+bc7bb2562a7c14dcb30d5d453f52645d6eed23e6 xdrgen: Take a union's numeric discriminant width from the declaration
+fdaf103d10ec3f27dd90e67f36b513622115e175 Documentation: Add the RPC language description of NFS_ACLv3
+61536889e8138c1fba6722331afe60a70dd96d91 NFSD: Add infrastructure for generating NFS_ACLv3 XDR encoders and decoders
+8d262c54ecf4451846ebc5e995d8f8ddb135b809 NFSD: Remove '#include "xdr3.h"' from nfs3acl.c
+ebb25666c89a3baa7613ea36b1a7653d7c9b6a09 NFSD: New NFS_ACLv3 status codes
+83d5663216575f0ae1e049469e147170c93ab782 NFSD: Use xdrgen XDR functions for the NFS-ACL v3 NULL procedure
+7c3bd4b533fb0b457977ff0a3802740e99c3934c NFSD: Implement NFS-ACL v3 ACL encoding and decoding with xdrgen
+7a79f77787050b908a0235d2778fff348bee364e NFSD: Use xdrgen XDR functions for the NFS-ACL v3 GETACL procedure
+4deca17b885ad93d4f9eff1880caa074038d0f64 NFSD: Use xdrgen XDR functions for the NFS-ACL v3 SETACL procedure
+fa5d332a0db2462b09ca38f5b802cdf1163a85fc NFSD: Map every NFS_ACLv3 reply status into aclstat3
+2c0a3cf0ab62886d1ec1a85751b4e9db93397207 NFSD: Remove the hand-coded XDR helpers for the NFS_ACLv3 procedures
+ecb5988a20f26e15ca94f5d1f665434484c9e620 NFS: Move NFSACL_MAXPAGES into fs/nfs/nfs3_fs.h
+c36e688a89bfaf23f63791cfbc4c0d9bbb5778a3 NFSD: Share the attribute conversion helpers with the NFS_ACL procs
+71bee8ac989df0f03394541c7b8385f8a5b42fc9 nfs_common: Remove the unused NFS ACL stream codecs
+873b834fb9147042bcd8557d07ae389279ae7d1d NFSD: Map NFS_ACLv2 entry IDs through the request's user namespace
+cd878ba9d45fcd2ac708beca2d967106838075ab NFSD: Map NFS_ACLv3 entry IDs through the request's user namespace
+4b60aae17ce4668e54bf28e92a23a83bfd8cc9fb NFSD: Don't dereference cp_clp in async COPY tracepoints
+a132f4e201612b8c894057ef1c3f629fb8056bf7 NFSD: Add per-export read/write I/O mode settings
+c7cec0d34caa14a42208d735c636945f704bad1e NFSD: Apply per-export I/O modes to READ and WRITE
+6cb3e11735ec2e213c97813b921061c7a26d044d NFSD: Document per-export read_io= and write_io= options
+c339f82fdcb98c896c03009083c8a93757d7244e NFSD: Keep per-export statistics across export cache updates
+6ddce3699bd6bd13066accf7f5733edd4eb89605 NFSD: Count the storage reads of each export's READs
+09f06e985ac876ac0676b7a3bb7c1e539ced6bda NFSD: Document how to choose an IO mode
+ba2db39876c87f1c134359723ebd8c102c63fcfa NFSD: Serialize forced client expiry with state shutdown
+4fe85d7e4c2e7b5b4806b8e98a2c0b6efb01aa20 NFSD: Check machine credentials before expiring a client in DESTROY_CLIENTID
+de4619350e0f237e19a91baa7e1f6f7a78576e79 NFSD: Make nn->boot_time strictly increase across state starts
+1a620762d06102a60ec76df4da02b4e3e3efc46e NFSD: Give each client a display id independent of cl_id
+c04b5977d7b2e17609c9cf8cb3d95596bddc35b2 NFSD: Generate the clientid at random instead of from a counter
+1544a987ee3270d7e67ae27e213eeb6f178f87db NFSD: Stop disclosing the conflicting lock holder in a lock denial
+ac0f79e6ee1a45f4019685b54cdb1b65bba0e110 NFSD: Destroy the COPY_NOTIFY stateid IDR at netns teardown
+3efb1f8afccda76f8c1328f3f3eae52a5e812856 NFSD: Put a random word in each COPY_NOTIFY stateid
+c8a2ff0edfd15f4a9afe2b996849f546e5694047 NFSD: Fill the session ID's sequence and reserved words at random
+fd79677c8f97268b17f353ede343d6a9b75a45eb NFSD: Add KUnit tests for the random identifier generators
+9c812e90e22cbed8ed8a26927c7ac924c85b416e nfsd: pin the module while a server exists
+47aaf38c643417192156daf59905cc35a5fe1268 nfsd: fix XDR tail bounds after spliced READ
+2d3259f652bb0f1d137ccabecac6763da05064ec nfsd: don't access freed memory when cannot grant a write delegation
 
---===============3451199056053466610==--
+--===============8992735116881146993==--
