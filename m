@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2438311296317306262=="
+Content-Type: multipart/mixed; boundary="===============4331469965364484207=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 02 Nov 2026 15:00:35 -0000
-Message-Id: <179363163520.678904.4146100363029054668@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 15:00:53 -0000
+Message-Id: <179363165313.679351.2437728540264458354@gitolite.kernel.org>
 
---===============2438311296317306262==
+--===============4331469965364484207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging-next
     old: d135ab453a7400a34930bdda1ef4bdc8acfac80e
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     log: revlist-d135ab453a74-6628e7d4c6b2.txt
 
---===============2438311296317306262==
+--===============4331469965364484207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793631634 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793631652 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1793631634-f12b0235719778c265a683089b9d22fadbdefd59
+nonce 1793631652-1892947c75bf10bcc8286c7b655340b38fa85abd
 
-d135ab453a7400a34930bdda1ef4bdc8acfac80e 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 refs/heads/main
+d135ab453a7400a34930bdda1ef4bdc8acfac80e 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmropZIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lMUQAMGsrcHdlQfkg1LjbXiV
-YUlrV84OWn4MPSs8hqnOKwOGbF3ur5Bcm7kwUX8vO6Yt0VCLcW4x1f/cjA64zcaC
-84MbWdQhumXEECd77AP+D218p+UHchgMH1A4FSNtntu5AXN5Zp0Y6080+jrJkXPB
-g5HkAz5Oa/rU+/gHZVzJhScgnkrRhFXEXPNAENU9FFwIKqNNemN+gNJX3H/goEO2
-caCU40pCc7A1l2zfWg2Rc6xQ8NDYNXPk43am4xjo8F6wIUBwC2sb3D9t9sdwYp1I
-355js/Q4tW/JB/dQt4DgIBMDbrymo+M7oNGha+1Wzbeu35hnEBcM1P0SlQjcld+u
-6qN1/h9sn+PEPn8Ml7BO/gBlUujKZ9X7OccdAP/T2A4VAL4AFGtZX3juvZADa+Ps
-oReb3RLY9DviABU1h4w60SvSb1G+FD6T172F6EX+VIS5wcC/eWBC67O3O8hzQGCW
-xL6CPRvNvCh6QIvjhD1095RfrSQ0nKft+oT7m1A+qYNrFox5RuKDW70W9VdrdaQR
-2C3F3iUZ6jbvke6sWNxNHLGGhgVwcr/B+QLK/U7e0lAugU3Alu6OVf3eD/kAecFH
-H33k2+OBNJLLu+b6WNbjd1q+WJITeMgfkB1jt6PauzyzCu49b8BAe8QNIlVMn+vM
-zssSrQJP+pGZzPG1wF3uLVEX
-=ThHe
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmropaQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zLUP/3TFyXYqAovSvoO/GYme
+fP11vLMwfrnYgX/pPzO6qMfkAHTPSr0SucBrLDI23wmQnGH7xFwzrxtH0/UsZ9MW
+9mXUxeJHEQbyr1LHIahqtQ3PDaOSSOAeAVldMAmjt6aV2bXUewXYhbh+18lKfTeq
+fqNQN/5FDzQAMJPJsD05XwnTyhTWDsUcTN5YDoDIAtUnfiUiNg4Gb87rAEahSKMx
+ES67Q0JD112B8d+Cw02mbGRJk5QteXnySuUVFh/CGFYRwbQiQBfYd7wI7vEm4BTM
+0fUUvQvh74F41pI9+yRaVxvHWFTTawG2RbmactjSUZbXEKEYNIfjDvlDroMwdtjV
+LraFqhv87jzKMVFB6SszXTVNbUMeWCZhMVcpGwa30mgRNZEjihgg7cIyVTSiPizG
+Bwa3PUUmlA4BbLyyN6hOdymYCrqZRLHk393Rgl8WmWhq/WVA4QeFusm52JUrhQRt
+vPKTOcDE76TfSsA2dOOVXLoqKqlHK8ofVse4iIlTlnvnIhdLs1T3tY9pTnMPfzqN
+9/VQ4PJ6Cb1bbERzYMrEhHl1yM7p8LqiuH6FCouqwKkqR7lqFTuygQWqJPwRWiL5
+ZZqfhKUjsyzyae/zEibmtlKsM15LX3I+xRdrWqqqpy3YNw2TsxYnE1E/srznNaTh
+SHa/Ppon8RWZsgYVtwYXXhPz
+=Ftoh
 -----END PGP SIGNATURE-----
 
---===============2438311296317306262==
+--===============4331469965364484207==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============2438311296317306262==--
+--===============4331469965364484207==--
