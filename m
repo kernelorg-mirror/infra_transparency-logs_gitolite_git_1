@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8359699314674789311=="
+Content-Type: multipart/mixed; boundary="===============5514895123349199015=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Mon, 02 Nov 2026 01:24:14 -0000
-Message-Id: <179358265443.4155066.6134558788045733454@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 01:24:21 -0000
+Message-Id: <179358266153.4155407.5743805527002854561@gitolite.kernel.org>
 
---===============8359699314674789311==
+--===============5514895123349199015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/clk/linux
 user: masneyb
 changes:
-  - ref: refs/heads/clk-next
-    old: 0d9678b125d8315d62de1261bee67c7e6f21457e
+  - ref: refs/heads/clk-pile
+    old: ce8c0f4b8306e01b058859bb43425613cfd1782b
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-0d9678b125d8-6628e7d4c6b2.txt
+    log: revlist-ce8c0f4b8306-6628e7d4c6b2.txt
 
---===============8359699314674789311==
+--===============5514895123349199015==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0d9678b125d8-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-ce8c0f4b8306-6628e7d4c6b2.txt
 
-d4aa83a7b62be607833c74a6676e6400f3085636 mm/damon/core: reduce stack usage further
-e444edf7dbe640fab592ba042e1a77f93e976ebb mm/damon/tests/core-kunit: test PSI goal values with explicit samples
 f4399c9927c46bd637b2b9a7677e3aa281c1ade4 mm/vmalloc: fix vmalloc_dump_obj address alignment for last-page lookups
 4b52da012040e1bdcbe93b7bb8b407568b559249 mm/vmalloc: fix vmalloc_dump_obj cross-zone VA lookup
 89073077600b7cb3734d53f0fe535b302b01e859 gpu: ipu-v3: don't use GFP_DMA when calling dma_alloc_coherent()
@@ -457,6 +455,8 @@ a81513bf5bdf29cf00c0a11f56be515c1ec260f4 bonding: fix out-of-bounds read of arp_
 aa1799e93f5ebb973252aec649d84d12d9c7fd1c ipmr, ip6mr: validate packets injected into the register vif on xmit
 a894b4077df1999682f0270c40831b42e72eaab0 Merge branch 'ipmr-ip6mr-fix-several-info-leaks'
 09280680f2ea060514be2a39ea84209fb6d721d4 ipmr: drop packets with unknown ingress VIF
+79f5eab7ec9177271ffc9d49229357da74a2c4fb Merge branches 'clk-allwinner', 'clk-amlogic', 'clk-imx', 'clk-microchip' and 'clk-qcom' into clk-next
+0d9678b125d8315d62de1261bee67c7e6f21457e Merge branches 'clk-renesas', 'clk-samsung', 'clk-starfive', 'clk-tenstorrent' and 'clk-pile' into clk-next
 5308a2049b764aa55513c90c68933abf596c51d2 tipc: fix refcount panic in tipc_rcv() when receiving shared skb
 850a7225bc61cdfaf0c4b02ff341ae7cb54902f5 tcp: limit tcp_tso_rtt_log to a valid shift count
 406bf2dc8d6d3e93fdae0b66d2ae99b6b62e479c pppoe: drop discovery frames with no MAC header
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============8359699314674789311==--
+--===============5514895123349199015==--
