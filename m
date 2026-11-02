@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6180506378586506654=="
+Content-Type: multipart/mixed; boundary="===============0510204422361770804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 02 Nov 2026 15:11:01 -0000
-Message-Id: <179363226147.690704.10098003640090814718@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 15:11:12 -0000
+Message-Id: <179363227253.690952.5585724883219656176@gitolite.kernel.org>
 
---===============6180506378586506654==
+--===============0510204422361770804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
-  - ref: refs/heads/for-7.4
-    old: 8a6d73e316f95e398a1de1d1f58314b6d3e7f641
+  - ref: refs/heads/for-linus
+    old: 787d8aae8ab188f2c3b1c49f29bb64015bd84395
     new: 053c50a7052549aab0d310ad505947db3e211592
-    log: revlist-8a6d73e316f9-053c50a70525.txt
+    log: revlist-787d8aae8ab1-053c50a70525.txt
+  - ref: refs/heads/for-next
+    old: a29ef4ed2d0d9be8ef1da834c028c2b8d9cc7edd
+    new: d73b5e0f575fbab8332e5acc8289af0eaf8f1b50
+    log: |
+         053c50a7052549aab0d310ad505947db3e211592 regulator: qcom_spmi: don't take a sleeping lock in the SAW IPI
+         c61cc3c9a8356f6b3b67007c323ad11820786da3 Merge regulator-linus into regulator-next
+         d73b5e0f575fbab8332e5acc8289af0eaf8f1b50 Merge regulator/for-7.5 into regulator-next
+         
 
---===============6180506378586506654==
+--===============0510204422361770804==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8a6d73e316f9-053c50a70525.txt
+Content-Disposition: attachment; filename=revlist-787d8aae8ab1-053c50a70525.txt
 
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
 32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
@@ -1051,4 +1059,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 053c50a7052549aab0d310ad505947db3e211592 regulator: qcom_spmi: don't take a sleeping lock in the SAW IPI
 
---===============6180506378586506654==--
+--===============0510204422361770804==--
