@@ -1,31 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============7349646678914846847=="
+Content-Type: multipart/mixed; boundary="===============6627871023278264279=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 02 Nov 2026 12:42:45 -0000
-Message-Id: <179362336533.486764.6915374335845350111@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 02 Nov 2026 12:42:52 -0000
+Message-Id: <179362337240.487092.17515096631561700318@gitolite.kernel.org>
 
---===============7349646678914846847==
+--===============6627871023278264279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
+  - ref: refs/heads/for-linus
+    old: ec255de3ff6676cdb23b9a5204999e69ad96d0e5
+    new: 69dadd7a4003263dc7a9dabf4a000bee8f785647
+    log: |
+         69dadd7a4003263dc7a9dabf4a000bee8f785647 Merge regulator/for-7.3 into regulator-linus
+         
   - ref: refs/heads/for-next
-    old: 1ea2927c1bc3c66d2ff69f131268e6be4d38a87c
-    new: 5ff10d2444afccb616776c343781b691e2695384
-    log: revlist-1ea2927c1bc3-5ff10d2444af.txt
+    old: ec255de3ff6676cdb23b9a5204999e69ad96d0e5
+    new: c7b8abf7121dc23d79a4bdeca1362e79bbb34865
+    log: revlist-ec255de3ff66-c7b8abf7121d.txt
 
---===============7349646678914846847==
+--===============6627871023278264279==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1ea2927c1bc3-5ff10d2444af.txt
+Content-Disposition: attachment; filename=revlist-ec255de3ff66-c7b8abf7121d.txt
 
+acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
+7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
 ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
 01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
 c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
@@ -1044,11 +1052,9 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-0334cc4c6e26917ca2fee6804923bbbce00ed8aa regcache: Validate bounds of regcache drop requests
-3547211537fdc81e04879f73bc543c5ea343b150 regcache: Add test for bounds checking of regcache drop requests
-6581eaf8b5100f2e3fa2ad21b0850bf817dc3656 regcache: Validate bounds of regcache drop requests
-477267f7f7547dd2056e90aa475c6b69497903ac regcache: rbtree: Restore async flag when exiting on error
-e1b6fd745176ca77228884554274dcf191f268c6 regcache: maple: Don't overflow the register number when inserting
-5ff10d2444afccb616776c343781b691e2695384 Merge regmap/for-7.5 into regmap-next
+cdfbeace852d9e72b43e23572e37fab433a28764 regulator: sgm3804: handle gpiod_get_value_cansleep() error returns
+69dadd7a4003263dc7a9dabf4a000bee8f785647 Merge regulator/for-7.3 into regulator-linus
+59a23009982041e763e8526db99108c581f95761 Merge regulator-linus into regulator-next
+c7b8abf7121dc23d79a4bdeca1362e79bbb34865 Merge regulator/for-7.5 into regulator-next
 
---===============7349646678914846847==--
+--===============6627871023278264279==--
