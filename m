@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Mon, 02 Nov 2026 22:04:49 -0000
-Message-Id: <179365708901.1029219.3233537153455070740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 02 Nov 2026 22:05:27 -0000
+Message-Id: <179365712762.1031943.4232114651692121466@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/next
-    old: 0e3e8b653ca3ab145aced729861cf0d1a06da69e
-    new: 8550ed0ea86ef4772be509f8fda14f350695ed7c
+  - ref: refs/heads/dev-queue
+    old: 8c020a0c0a789437cce4f750c16ae9ba247a684c
+    new: 124e8465777d4413f68e4057cc745d11e5e428eb
     log: |
-         feade4648c977dc7a148bd877d90211f72719207 Documentation/driver-api/cxl: Add a testing page
-         70965c84446497a30177177a54b388d443fedf6e cxl: Add KUnit tests for HDM decoder encoding helpers
-         a0481710d758d1d9c560a84551dbb61ea86d3299 cxl/mbox: Treat unknown device return codes as errors
-         533928808ac1e6a96a7daa74b6ad68c3f7f43a28 cxl/mbox: Add KUnit tests for cxl_internal_send_cmd()
-         8550ed0ea86ef4772be509f8fda14f350695ed7c Merge branch 'for-7.5/cxl-kunit' into cxl-for-next
+         d591c3df549dda385e5e6e47d72b12ea5c507a75 igc: remove redundant igc_hw.h include from igc_main.c
+         e787d41e79349d62f5c12bc42935ef26be13c255 igc: remove redundant headers include from igc_tsn.c
+         124e8465777d4413f68e4057cc745d11e5e428eb igc: remove unused igc_update_nvm_checksum()
          
