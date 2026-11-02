@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4242861889219344589=="
+Content-Type: multipart/mixed; boundary="===============0572616107465540375=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 02 Nov 2026 10:53:04 -0000
-Message-Id: <179361678488.393771.1538390272993259151@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 10:53:24 -0000
+Message-Id: <179361680432.394088.1593047823915273288@gitolite.kernel.org>
 
---===============4242861889219344589==
+--===============0572616107465540375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: 3bbb9a75ec35e77907b990ae163b596e8e67fb46
     new: c3cc990de568e949bf6a3cc93c8950bc1bd58dc1
     log: revlist-3bbb9a75ec35-c3cc990de568.txt
 
---===============4242861889219344589==
+--===============0572616107465540375==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1793616782 +0100
+pusher krzk@kernel.org 1793616801 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1793616781-67019e4490d6f789f91c7e3a3a4ff1eb3678d3c9
+nonce 1793616801-dfdbd11f6bcb4c986c8f22cbf4547bb51afa9129
 
-3bbb9a75ec35e77907b990ae163b596e8e67fb46 c3cc990de568e949bf6a3cc93c8950bc1bd58dc1 refs/heads/fixes
+3bbb9a75ec35e77907b990ae163b596e8e67fb46 c3cc990de568e949bf6a3cc93c8950bc1bd58dc1 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmroa44QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD11nZD/4yTD/W92Oa70nyr6bY2OCN9uffc8ssoNLS
-bPW5fpYkkgaDZDNDLH5jPcZAbiBHF7lmL7/+g70oT232Dse+qBUu7f0eOjAvgj/S
-IzdbTQIYsyVKWQfoMRTGjjewmO5Y6ot5K6yV4K2whhRVFYHmC3pNAO2uXqDxapQi
-b9egEIEObA6zUO2CN8u/yvt6vDTLRd7xwLEXdtZrtV9A2RZ2p1iFqgtGTieyvzJf
-6/MPZ/pTP0Ow0+LVmvyk6OJNMJ1Y1hhBhlmXgUKYThaZd60qHnUwZv6emGM7kO7d
-fo8ivRKzGjg1dyYCaC6EfhcSltKwBmV449x+AfPgdNvro094PAvl4lQ462c/U4U1
-fTIhjOGYpV6P/Uz5+JuhosY/UkqJ1PpO3ABB6ASanMAK+IfLVC6tqc6LixkgED8Y
-MR9koAGM+mB1V5VAb1YcpiPGtRWfMg8rPh2Ys6Vd6Xl1vt14qYPSw5PFa2k+TqAH
-vj7kaxF7BgPCs02jZKgTfdTGe8slGwhzxkWx8GBlMpv31dvNDNXreWPqn7jhoYEo
-eGaQX6VCB2niaKTU3T1i5c0dLg2PMOmRn10F2yiwNtdg5gjy/yV9EQRT01RpXRdM
-e5aYihHC9Mkj8HKwvYLusPhHtGZwy6V+RsYLs4j66uIjq02dHq4ZRIxDOqZbVrAO
-JVMuh9ri8Q==
-=6fx2
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmroa6EQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1zArEACL2YUigwq2xsXkOioVUv16oNQttWQ73UoY
+Xug2xGZ6o+lrNhy7obgtbGnhVoMkmyBPQhx2vjxoL/x4EeY31rzteBDR8xZ/b1yr
+GULmq1tn+XUmG1/yPX+Yr1he0soeIrxSGSIx7TvbeM/zTYc4AkQmcxQg3rVMItBs
+4rSj//IpOAXf4ZO/oVjcOMuHAFhFWlbgXhbij1FfXgiNhnx119VuVjByMDq6Vpvh
+O8BPQyi7ALDDIOBE4xH0bugV/WPW/IzF94prZI2NXAnvxHeloY17RECPMLNseDsN
+ew1oPjUgQt1+AvR4agwVUNWfaA6q7rcoHNYiqfXZb/IbzMDA1OXz3TqAOTlsa2aS
+R3QO7ZAcr4XWXuJy2PKMONNCK3btgTWd4Vut8O0W2cRD5P3Sbqh9r9c0PGaFnCNI
+uhNiosh5MxFKxawJTS/ephrxsKzL9GlWspOckScolvq0x3LrY4dPXD99XU85y+2q
+L06kx798cerCSdWbkPtOrtzsQtuwgPuPE6E8rWAP8yZiFnI2ib3lwtxGmbriwchf
+rK/yWm7BHykdg6pnuaRDmAeJWbFNYlZFh/SACqOCpemOWnQgvNrlcLBAGg31b7oC
+0hK1H3oFlLFBQyWK7QsOR4Cu3kXf5mMyzGJXiL34Sg03oXGywBq+wafmCH5Kt7r6
+LNvlyZnPIQ==
+=2XuB
 -----END PGP SIGNATURE-----
 
---===============4242861889219344589==
+--===============0572616107465540375==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ a94cfeb60dc1a9f1e73718d3ba2f9e70834a6b90 memory: fsl_ifc: guard optional NAND IR
 21250426a8469d3bc43c2f0c69ed5497ee9ff7d4 memory: tegra: fix device_node leak in tegra186_mc_probe_device()
 c3cc990de568e949bf6a3cc93c8950bc1bd58dc1 memory: atmel-ebi: Disable SMC clock on probe failure
 
---===============4242861889219344589==--
+--===============0572616107465540375==--
