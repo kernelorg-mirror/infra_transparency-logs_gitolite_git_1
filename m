@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Mon, 02 Nov 2026 08:46:28 -0000
-Message-Id: <179360918899.288207.1588551655791698544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 02 Nov 2026 08:46:31 -0000
+Message-Id: <179360919199.288391.2755134196614118039@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for-next
-    old: 228a318052869ab08f01f53b5cedfae0e930f6dd
-    new: 780399291104a560ddc635273e4ca5fd8cfe52f0
-    log: |
-         780399291104a560ddc635273e4ca5fd8cfe52f0 selftests/nolibc: drop readdir_r() override
-         
+  - ref: refs/heads/ib-pwrseq-is-controllable
+    old: 295eeaf2c6543f746c1c7d9871f6d2f71a7ed4cc
+    new: 0000000000000000000000000000000000000000
