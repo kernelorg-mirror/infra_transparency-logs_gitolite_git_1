@@ -1,31 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============7377760604546908289=="
+Content-Type: multipart/mixed; boundary="===============4800024447954490510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Mon, 02 Nov 2026 16:31:54 -0000
-Message-Id: <179363711400.765628.11785141851987696625@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 02 Nov 2026 16:34:30 -0000
+Message-Id: <179363727066.766642.17764480431731196562@gitolite.kernel.org>
 
---===============7377760604546908289==
+--===============4800024447954490510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/docs/linux
-user: corbet
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/docs-next
-    old: 151235bf3d5d4de1a077a83c54ee651e074816ae
-    new: 2649344d20dfb13e30b560f06138229d8e40350a
-    log: revlist-151235bf3d5d-2649344d20df.txt
+  - ref: refs/heads/kunit
+    old: e38f53f0482468efd04397f66bda4648b70ac9fa
+    new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    log: revlist-e38f53f04824-6628e7d4c6b2.txt
 
---===============7377760604546908289==
+--===============4800024447954490510==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-151235bf3d5d-2649344d20df.txt
+Content-Disposition: attachment; filename=revlist-e38f53f04824-6628e7d4c6b2.txt
 
+76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
+e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
+32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
+f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
+acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
+7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
+ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
+01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
+c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
+226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
+07c81e0196cc8fbc261095c9f712e39b63e3c780 mm/sparse: move mem_section init to sparse_extreme_init()
+89e2b6e3d345cd4dca822a5ccea764ee7f9e0ae4 mm/sparse: refactor sparse_sections_init()
+d8ab71169ce579871d196a4178c51afd1e0d8b32 mm/sparse: move initialization of section metadata to sparse_metadata_init()
+31b3829703ec5a041c01162f8196fc49eb930b17 mm/sparse: rename and cleanup sparse_init_nid()
+2193260fd4c2173239dab9b7e7ebebdb95e180cc mm/sparse: cleanup sparse_init_one_section()
+a8c5020eeb963afa18f9f035fcea64f05080b96f mm/sparse: rename __highest_present_section_nr to __highest_used_section_nr
+dff2d55bf7941677bd26f12344211ccc289a215d mm/sparse: remove pfn_in_present_section()
+4af04bd8121fbd44891e6db2ca138c6d739b1f82 mm/sparse: move __highest_used_section_nr handling
+4d42b10363f55baa72de3c6d46715394997d5ceb scripts/gdb: mm.py: remove fallbacks for SECTION_HAS_MEM_MAP and SECTION_IS_EARLY
+da7acb8982edf70078b23f878c6b8f2b496abdb5 mm/sparse: remove SECTION_MARKED_PRESENT
+0632840dba0307d0959f374a79358127da9708ca mm/sparse: remove flags parameter from sparse_init_one_section()
 3f4b13b06062a03530df98310fcd9e189b2cddfa fs/proc/page: clarify comment in get_max_dump_pfn()
 82b1ee68b5fdd3062aee988a6e5aa3608d2470e0 mm/memory_hotplug: drop CONFIG_HAVE_ARCH_PFN_VALID handling from pfn_to_online_page()
 0b4af90344ac4d5ce7defcb39891c773da969132 vmcoreinfo: export SECTION_HAS_MEM_MAP
@@ -360,6 +381,7 @@ e66907c3ba229399ecfb4ef032b95a4a071c894e io_uring/net: mask socket type with SOC
 7da2aca123754c0e06092bbe179d58078b58d8d4 spi: cs42l43: Add speaker ID quirk for Dell XPS 13 DX13260 SKU 0E54
 f3c7bee984aa0ba2b48a44e16a6f3ec2c27f851e ASoC: qcom: qdsp6: q6afe: fix clk vote response type mismatch
 d857e1f3faf998f2614dcdb52a90a27bc83bd71d Merge tag 'mfd-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
+151235bf3d5d4de1a077a83c54ee651e074816ae uaccess: fix some erroneous kerneldoc comments
 5b93dc1c0c61fd0fe575cb473e9e25f929fda509 Merge tag 'leds-next-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/leds
 4035247966859152a6523bc041f81cb9905695a5 intel_idle: Adjust state names and descriptions for _LPI states
 ff4194e54f840b4df4eb2489c63ee88283895efc selftests/thermal: allow cross builds of the Intel tests
@@ -1028,27 +1050,5 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-80d8811e36cb56809e19d7a6f5215c900087cb5b docs: kernel-parameters: alphabetize NVME entry
-8a352dcb80a534bb9ea45e1a95c4c50acc8204cb docs: ioctl-decoding: use a list for bit meanings
-4d182f7d8973c03294d0aa6731a504365c4c65cb docs: power: supply: fix inline strings
-1ba92c0c1a2deb2b000095c614313eab465fc21a MAINTAINERS: remove bouncing reviewer for Spanish documentation
-11d0d5b1f1b8f77837f2e197092a1429a6e2edbd docs/translations/pt_BR: process: fix 1.Intro.rst and add labels
-ffa14ea7cd952ae184dc4d5a158b47887aa3ffda docs/translations/pt_BR: process: coding-assistants.rst: add bug procedure
-1e31b4306eb66a9ebd259b50121feb8708786a48 docs/translations/pt_BR: process: security-bugs.rst: sync with English
-502d8994a64cc0cc6fb1167e8bdcac1638ff52fa docs/translations/pt_BR: process: maintainer-netdev.rst: sync with English
-b8a79810163a7fc37dda9a9a21acf1ad5ac473aa docs/translations/pt_BR: process: maintainer-soc.rst: sync with English
-4c44cd981e200a544a10eee571805d1607acc3ee docs/translations/pt_BR: process: changes.rst: sync with English
-917127f9a3374ecb40529218afedfc9b4a120623 docs/translations/pt_BR: process: license-rules.rst: fix lists and table
-e52ed501ea6ac718dee8ce92874f5a3c374e98da docs/translations/pt_BR: process: 2.Process.rst: fix translation errors
-34665d38bbbc1c835636b3f251147e6be04fce04 docs/translations/pt_BR: process: fix cross-references and list markup
-526a699023689dcd64d46306fc96f1173b94888b docs/translations/pt_BR: process: restore links, emphasis and headings
-d58a9b4d0bf8841d8d9b9c1f4e8e265f4e4005dd docs/translations/pt_BR: process: fix kernel-docs and enforcement statement
-9b30346cb115468cb25de2eff97e1df69ba2f7c6 binfmt_misc: fix typo in "auxiliary vector"
-832b79b7d3443b01a5fb25c2e099459db2479b66 docs: translations: pt_BR: translate programming-language.rst
-edb9f53371e4ad0b6caf725965e864232bf4fdb0 docs: changes.rst: set the pahole minimum back to 1.22
-202107dcc73b8772b6357fd9cec6e417b7275cc6 docs: stable-kernel-rules: drop rules the stable trees do not apply
-f46b79a440c3e22c366d752dd60a6a082b4452a2 docs: submitting-patches: say which commit a Fixes tag names
-ff8108b54c98d7060a839a3599674e07dfa36526 Documentation/printk-formats: Remove notes about %pK
-2649344d20dfb13e30b560f06138229d8e40350a docs: kdoc_output: don't add a man page tail for filtered-out symbols
 
---===============7377760604546908289==--
+--===============4800024447954490510==--
