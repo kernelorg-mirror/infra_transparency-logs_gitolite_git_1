@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 02 Nov 2026 16:02:40 -0000
-Message-Id: <179363536000.738498.15353378379274250962@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Mon, 02 Nov 2026 16:03:53 -0000
+Message-Id: <179363543357.739229.5072907102494183874@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/main
-    old: 743b5c86276b1c3241e6f0f395b55f98f0756ef0
-    new: e55f9e70b8ae6fc01550343e43874f59784dc5c7
+  - ref: refs/heads/for-7.4-fixes
+    old: 9ce6fca02867911ba79bc3664219effe8c7be8f4
+    new: 2227a34ff7bfcf6112931039e3554f4b70b65ab9
     log: |
-         98caed39c1db002b2c34b8040ab765c5fa9c6675 net: stmmac: initialize est_lock at probe time
-         e4f5b46dfb8ac27a822fa0b411bd4526abf5ba97 net: stmmac: pass the desired EST enable state to est_configure()
-         23d96de472f735858a7dd227c77aebff21ea09f5 net: stmmac: re-apply taprio offload in __stmmac_open() and stmmac_resume()
-         e55f9e70b8ae6fc01550343e43874f59784dc5c7 Merge branch 'net-stmmac-re-apply-taprio-offload-in-__stmmac_open-and-stmmac_resume'
+         1826e5aa068cf6c21791773f160b4a2ce5d5f9a5 sched_ext: Factor out drain_offline_rq()
+         2227a34ff7bfcf6112931039e3554f4b70b65ab9 sched_ext: Fix ops.enqueue/dispatch() calls before ops.cpu_online()
+         
+  - ref: refs/heads/for-next
+    old: 473425e97d4fa175d392aaa4c9b77d1c345da193
+    new: 9e4c09732b3ea4b9c2387dfc65c99c7429243d56
+    log: |
+         1826e5aa068cf6c21791773f160b4a2ce5d5f9a5 sched_ext: Factor out drain_offline_rq()
+         2227a34ff7bfcf6112931039e3554f4b70b65ab9 sched_ext: Fix ops.enqueue/dispatch() calls before ops.cpu_online()
+         9e4c09732b3ea4b9c2387dfc65c99c7429243d56 Merge branch 'for-7.4-fixes' into for-next
          
