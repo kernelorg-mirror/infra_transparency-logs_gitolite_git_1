@@ -1,21 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 02 Nov 2026 22:17:32 -0000
-Message-Id: <179365785206.1044790.2135839138792999112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Mon, 02 Nov 2026 22:17:37 -0000
+Message-Id: <179365785787.1045043.14278141036441670982@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: f2d431b8b9d107ad425d72715a134c4b80ba93f0
-    new: f308b528e539c2a14dc7d59201cff45d89b00ab2
+  - ref: refs/heads/for-linus
+    old: 053c50a7052549aab0d310ad505947db3e211592
+    new: 7904338c38426d72c5f7cd9402cb9a20232a7af5
     log: |
-         25a38dd4ff954ffe858f50f6392ac18e02a59e46 ASoC: dt-bindings: mediatek: Fix MT8186 child node names
-         bad2eaa3a29beadfa7d23459761f8494d8305f81 Merge asoc-linus into asoc-next
-         f308b528e539c2a14dc7d59201cff45d89b00ab2 Merge asoc/for-7.5 into asoc-next
+         8aed8b66751e006589b6a9474af757d1ba04a857 regulator: mt6363: Fix the registers of the VSRAM CPU and APU LDOs
+         7318d3833067e4edb7c2a9bc244e8818b1597ff2 regulator: mt6363: Use 8-bit register values
+         a8d72f246edb9323f6e0ae8283676a323b7847eb regulator: mt6363: Fix VEMC voltage selection
+         7904338c38426d72c5f7cd9402cb9a20232a7af5 regulator: mt6363: Fix register access and VEMC voltage handling
+         
+  - ref: refs/heads/for-next
+    old: d73b5e0f575fbab8332e5acc8289af0eaf8f1b50
+    new: f3d384b24448d7939500ee12d7cbb5259054a0b8
+    log: |
+         8aed8b66751e006589b6a9474af757d1ba04a857 regulator: mt6363: Fix the registers of the VSRAM CPU and APU LDOs
+         7318d3833067e4edb7c2a9bc244e8818b1597ff2 regulator: mt6363: Use 8-bit register values
+         a8d72f246edb9323f6e0ae8283676a323b7847eb regulator: mt6363: Fix VEMC voltage selection
+         7904338c38426d72c5f7cd9402cb9a20232a7af5 regulator: mt6363: Fix register access and VEMC voltage handling
+         ba842792f1fdb7ce9105a214c20949cb729e85d2 Merge regulator-linus into regulator-next
+         f3d384b24448d7939500ee12d7cbb5259054a0b8 Merge regulator/for-7.5 into regulator-next
          
