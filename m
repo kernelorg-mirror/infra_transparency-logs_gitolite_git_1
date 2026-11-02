@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============8547921267791299453=="
+Content-Type: multipart/mixed; boundary="===============0646948578763935867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Mon, 02 Nov 2026 11:12:48 -0000
-Message-Id: <179361796898.414410.959935988140537392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hkrogeru/usb
+Date: Mon, 02 Nov 2026 11:16:26 -0000
+Message-Id: <179361818672.417676.11885394346385372482@gitolite.kernel.org>
 
---===============8547921267791299453==
+--===============0646948578763935867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/hkrogeru/usb
+user: hkrogeru
 changes:
-  - ref: refs/heads/renesas-pinctrl-for-v7.5
-    old: 1eb906a8db4af761cf9e91c768970c8a269796d6
-    new: f9edef88c5e138689a59b6d4150999ac8e94bf1f
-    log: revlist-1eb906a8db4a-f9edef88c5e1.txt
+  - ref: refs/heads/master
+    old: c03c1a14507dfaf8b856c2608f9ac216021fc222
+    new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    log: revlist-c03c1a14507d-6628e7d4c6b2.txt
 
---===============8547921267791299453==
+--===============0646948578763935867==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1eb906a8db4a-f9edef88c5e1.txt
+Content-Disposition: attachment; filename=revlist-c03c1a14507d-6628e7d4c6b2.txt
 
+76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
 32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
 f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
@@ -1049,6 +1050,5 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-f9edef88c5e138689a59b6d4150999ac8e94bf1f pinctrl: renesas: rzn1: Free maps on DT map failure
 
---===============8547921267791299453==--
+--===============0646948578763935867==--
