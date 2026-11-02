@@ -1,19 +1,46 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/davem/net
-Date: Mon, 02 Nov 2026 09:20:42 -0000
-Message-Id: <179361124200.314065.18437457512495728593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
+Date: Mon, 02 Nov 2026 09:20:51 -0000
+Message-Id: <179361125119.314372.16484396752800670099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/davem/net
-user: davem
+repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
+user: linusw
 changes:
-  - ref: refs/heads/main
-    old: 10f51f4fb99de99c64b9d35707f05fa0308f25ff
-    new: 902407bc588575af0ceae5de4f635fe1e024f258
-    log: |
-         902407bc588575af0ceae5de4f635fe1e024f258 net/mlx5: macsec: free struct mlx5_fs_id after an RCU grace period
-         
+  - ref: refs/tags/sent/20260820-dma40-fixes-b99af66002bf-v8
+    old: 0000000000000000000000000000000000000000
+    new: 19c38ab584deda7fa6715e081d522adee6ef5265
+  - ref: refs/tags/sent/20261009-ux500-power-domains-v7-3-rc1-redux-acdf755a5efc-v1
+    old: 0000000000000000000000000000000000000000
+    new: 43a779dc7922fc58d1a09c4acd17eee12c7a4fff
+  - ref: refs/tags/sent/20261010-dma40-smatch-fix-42fce06d4f25-v1
+    old: 0000000000000000000000000000000000000000
+    new: 8ed52d08680c5795dfee645d137efd4c459a2f90
+  - ref: refs/tags/v7.3
+    old: 0000000000000000000000000000000000000000
+    new: 091b06388b117fefdcb63336ac09956a4914b961
+  - ref: refs/tags/v7.3-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 5e036ce12de91c6fd674dad33b169c6150be2a7a
+  - ref: refs/tags/v7.3-rc3
+    old: 0000000000000000000000000000000000000000
+    new: c2cd463d6ee7d55a3ec0719d93c49ff99022d58f
+  - ref: refs/tags/v7.3-rc4
+    old: 0000000000000000000000000000000000000000
+    new: dec005ae90a2946656a090f37bf1cfbd22f08e57
+  - ref: refs/tags/v7.3-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 5a956dde5526a634dca7ccad27c051ebcc306089
+  - ref: refs/tags/v7.3-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 4eeccbed21e50c19f97be9d325511f3de6343f2d
+  - ref: refs/tags/v7.3-rc7
+    old: 0000000000000000000000000000000000000000
+    new: ec8bf8280261294a9b9b4520414b42704c7f9f6b
+  - ref: refs/tags/v7.4-rc1
+    old: 0000000000000000000000000000000000000000
+    new: bc71431221f5ba8bb33918399552636e059c2c45
