@@ -1,34 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5897980159373664516=="
+Content-Type: multipart/mixed; boundary="===============2726121979409031511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 02 Nov 2026 18:21:45 -0000
-Message-Id: <179364370584.856035.16755090413327934354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 02 Nov 2026 18:22:43 -0000
+Message-Id: <179364376304.856495.8276131123739252561@gitolite.kernel.org>
 
---===============5897980159373664516==
+--===============2726121979409031511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dt/next
-    old: e8ff9af18e80279b80cf7063244db91b12f5e27e
-    new: a7704887bc79afe7c67eebeb8ed4ce43762e08c5
-    log: revlist-e8ff9af18e80-a7704887bc79.txt
-  - ref: refs/heads/for-next
-    old: e8ff9af18e80279b80cf7063244db91b12f5e27e
-    new: a7704887bc79afe7c67eebeb8ed4ce43762e08c5
-    log: revlist-e8ff9af18e80-a7704887bc79.txt
+  - ref: refs/heads/kvm-arm64-set-id-regs-aarch64
+    old: fd069f49c4bb3b2510d210d604c5f7afbae2071c
+    new: 9c04d56b862bc5bd7b6d457e8cf47c75885ca2b5
+    log: revlist-fd069f49c4bb-9c04d56b862b.txt
 
---===============5897980159373664516==
+--===============2726121979409031511==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e8ff9af18e80-a7704887bc79.txt
+Content-Disposition: attachment; filename=revlist-fd069f49c4bb-9c04d56b862b.txt
 
 acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
 7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
@@ -1050,9 +1046,9 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-c9c3d31611262f37e629f6a75484e033e1bae798 of: reserved_mem: group allocation helpers together
-aa05faf815836c4728398a4afb4ed57950344e8c of: reserved_mem: allocate and map the reserved_mem array early
-5bcceae931291d5506c10780bd3df150ae8e9d5c of: unittest: Remove refcount underflow tests
-a7704887bc79afe7c67eebeb8ed4ce43762e08c5 dt-bindings: Fix property name typos in if/then schemas
+6330800dd6e682980658bbe2f97e80b311d3f274 KVM: selftests: arm64: Improve diagnostics from set_id_regs
+9987b2a83bfae47876f84be46522039f07d8a9df KVM: selftests: arm64: Report set_id_reg reads of test registers as tests
+f9c801b4723406f8dbd11615e92cf261691c00f7 KVM: selftests: arm64: Report register reset tests individually
+9c04d56b862bc5bd7b6d457e8cf47c75885ca2b5 KVM: selftests: arm64: Make set_id_regs bitfield validity checks non-fatal
 
---===============5897980159373664516==--
+--===============2726121979409031511==--
