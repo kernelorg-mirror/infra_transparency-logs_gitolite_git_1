@@ -1,31 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1529993007569005943=="
+Content-Type: multipart/mixed; boundary="===============7877857858077591723=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 02 Nov 2026 19:37:56 -0000
-Message-Id: <179364827633.913241.3718816037658989336@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 02 Nov 2026 19:38:27 -0000
+Message-Id: <179364830737.913645.5559227565141198147@gitolite.kernel.org>
 
---===============1529993007569005943==
+--===============7877857858077591723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/device-trust-core-v1
-    old: cc8123e8bc1c6d1bb5e9be3f48ac3e7bb480a9b3
-    new: da8d1ed7d4daafd7e87d6016b5f8ab565ed42eb7
-    log: revlist-cc8123e8bc1c-da8d1ed7d4da.txt
+  - ref: refs/heads/for-next
+    old: c3e8e9451e6f1b69f685b75e0fbf14f3d0fb2539
+    new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    log: revlist-c3e8e9451e6f-6628e7d4c6b2.txt
 
---===============1529993007569005943==
+--===============7877857858077591723==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cc8123e8bc1c-da8d1ed7d4da.txt
+Content-Disposition: attachment; filename=revlist-c3e8e9451e6f-6628e7d4c6b2.txt
 
+76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
+e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
+32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
+f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
+acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
+7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
+ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
+01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
+c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
+226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
+07c81e0196cc8fbc261095c9f712e39b63e3c780 mm/sparse: move mem_section init to sparse_extreme_init()
+89e2b6e3d345cd4dca822a5ccea764ee7f9e0ae4 mm/sparse: refactor sparse_sections_init()
+d8ab71169ce579871d196a4178c51afd1e0d8b32 mm/sparse: move initialization of section metadata to sparse_metadata_init()
+31b3829703ec5a041c01162f8196fc49eb930b17 mm/sparse: rename and cleanup sparse_init_nid()
+2193260fd4c2173239dab9b7e7ebebdb95e180cc mm/sparse: cleanup sparse_init_one_section()
+a8c5020eeb963afa18f9f035fcea64f05080b96f mm/sparse: rename __highest_present_section_nr to __highest_used_section_nr
+dff2d55bf7941677bd26f12344211ccc289a215d mm/sparse: remove pfn_in_present_section()
+4af04bd8121fbd44891e6db2ca138c6d739b1f82 mm/sparse: move __highest_used_section_nr handling
+4d42b10363f55baa72de3c6d46715394997d5ceb scripts/gdb: mm.py: remove fallbacks for SECTION_HAS_MEM_MAP and SECTION_IS_EARLY
+da7acb8982edf70078b23f878c6b8f2b496abdb5 mm/sparse: remove SECTION_MARKED_PRESENT
+0632840dba0307d0959f374a79358127da9708ca mm/sparse: remove flags parameter from sparse_init_one_section()
+3f4b13b06062a03530df98310fcd9e189b2cddfa fs/proc/page: clarify comment in get_max_dump_pfn()
+82b1ee68b5fdd3062aee988a6e5aa3608d2470e0 mm/memory_hotplug: drop CONFIG_HAVE_ARCH_PFN_VALID handling from pfn_to_online_page()
+0b4af90344ac4d5ce7defcb39891c773da969132 vmcoreinfo: export SECTION_HAS_MEM_MAP
+4590752e20aa393cc0d4fe538c0747d14a98c97a mm: disallow ioremap'ing ordinary RAM in generic_access_phys()
+bbde9d5bdd2d7cf94707b2a8bb466f2e074f9db2 ALSA: us122l: mark hwdep mappings VM_MIXEDMAP
+f85eb0656c409aa5910c8eacc98374121e00e3e0 mm/vma: fix mmap_prepare file handling, remove file_doesnt_need_get
 86a779c5320488b9142f4477435f235c9a04f7ae mm/vma: introduce and use vma_[flags_]can_merge()
 9cae38dc11da28b4e902d59af3d5d32836f744b3 mm: consistently validate VMA state after mmap[_prepare] hooks
 6335c786299ffc0571506f385d8d748471929230 mm/vma: ensure mmap_prepare doesn't set actions on a mergeable vma
@@ -1023,32 +1050,5 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-3140c7aebe696e98513b4c436a62e6aae21bdb3e driver core: Authorize device trust before driver binding
-00de5910fdb962a915c1cf29f3eb453c17e99c8c Input: gameport - attach manual drivers through the driver core
-641644b012e7d49659d0433b62c6f815249cfca2 Input: serio - attach manual drivers through the driver core
-196d477c4d1fddd4696da9961e1ec358549dbe8d net: phy: Attach generic PHY drivers through the driver core
-d51e5c326044513f5ba49f6c3842f1720b11512d wifi: mac80211_hwsim: lock device for manual driver binding
-efcdc7ffa73b150c23ffcb71aadb7a50310a0f96 USB: Lock registered interfaces during manual driver binding
-ac9169979ad1d763cb6b2332c0e5f59a9c460603 PNP: Attach card devices through the driver core
-91030716d5a938dd352210d1aa322a8d80f5999a cdx: Propagate DMA configuration errors
-5939d14224c78b9fee37a1ba94ab793840aa7e75 driver core: Allow userspace to detect EPROBE_DEFER when using sysfs drivers_probe
-db916049e1c400e75aea0318523b2bffe6426002 driver core: Introduce a generic device trust level
-577f65f71d043e2f6073fcde75e17aea3cdddd2e driver core: Expose device trust authorization through sysfs
-dfc036b4e0f7105b1e448e1660222eea514276a8 driver core: Accept device trust policy on the kernel command line
-e369932660664fb95934aca7a6df084103f75eae driver core: Accept device trust policy by driver name
-66d7eb0d52baa97206614a7e40f32a2a4c990f78 driver core: Preserve trust commitment beyond driver binding
-0c87f57b2f7e461ad221105f1a01b2c4a71751bf driver core: Add a global initial device trust policy
-16c0a5ab002de9ece57552721116428855565e14 driver core: Cover trust authorization and binding with KUnit
-b8f6f2675990897e1ea23847a4816adbed71df0c driver core: Document trust admission and initrd authorization
-de870c841cdc66fcef8c15662d737b49b2356904 PCI: Replace untrusted state with device trust
-58516f43ad3319deaa034598d5ae5ce4d9feab6a iommu: Prepare and require strict domains for adversarial devices
-56ce8d98ad45a34ca7106e4fe8b05b2dc9ba943c iommu/intel: Preserve shared invalidation tags on attachment failure
-45bfa93bdb6995f4d89d7522415bb8938444b28c PCI: Allow translation blocking to follow trust authorization
-3591c76bc309602ea80b77882444a489b32fead5 iommu: Synchronize trust authorization before driver probing
-b20428be018a8bf2d9b992a14a05a7fbf4eb72ce iommu/intel: Honor trust admission before enabling ATS
-866a89e59234c7e8ae23d23c2ae541f8a1ad8e51 iommu/amd: Honor trust admission before enabling ATS
-b29a430aeb46e810100d7ff9cb451ed3c0e79b66 PCI/IOMMU: Keep ATS discovery stable across trust authorization
-efa5bd8aa98e71922d6e4915095ac4b96691fa55 PCI: Cover ATS capability and ACS authorization invariants
-da8d1ed7d4daafd7e87d6016b5f8ab565ed42eb7 PCI: Skip ATS preparation without trust authorization
 
---===============1529993007569005943==--
+--===============7877857858077591723==--
