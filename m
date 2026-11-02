@@ -1,31 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============2279330248300344717=="
+Content-Type: multipart/mixed; boundary="===============1201255943175388548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 02 Nov 2026 12:10:20 -0000
-Message-Id: <179362142074.462073.15202472959165969191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Mon, 02 Nov 2026 12:13:24 -0000
+Message-Id: <179362160429.463373.6601253770970216217@gitolite.kernel.org>
 
---===============2279330248300344717==
+--===============1201255943175388548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/b4/ffa_ns_sgi_gicv3
-    old: eb0acbc83e30f735f7316e884334e50e5f4aec83
-    new: 00871c9880be1b14a4f2643a3293bf549e605642
-    log: revlist-eb0acbc83e30-00871c9880be.txt
+  - ref: refs/heads/urgent
+    old: d8809f6931065cbbf3554647a50a65a471ab5983
+    new: 56e8ad28ebd79702b40efbef17b8895c68b84bd9
+    log: revlist-d8809f693106-56e8ad28ebd7.txt
 
---===============2279330248300344717==
+--===============1201255943175388548==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-eb0acbc83e30-00871c9880be.txt
+Content-Disposition: attachment; filename=revlist-d8809f693106-56e8ad28ebd7.txt
 
+e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
+32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
+f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
+acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
+7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
+ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
 01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
 c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
 226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
@@ -1043,12 +1049,6 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-ae030d547205162545ebfc69ef7ff841d2706682 firmware/irqchip: Add FF-A DT interrupt support for donated NS SGIs
-e5c7a33ecd5a513e114da4505d00258ca653515d dt-bindings: interrupt-controller: Add support for secure donated SGIs
-0cec122aeb356bc29f2d3c93912b2eb021754c77 irqchip/gic-v3: Support secure-donated non-secure SGIs
-bb6dbc769c00fba75d5dcbf2eb08c245410682c2 dt-bindings: firmware: Add Arm FF-A binding
-ad4e6ffaa03d627a9188f32fb5969a33b469526c firmware: arm_ffa: Use device node interrupts property for IRQ lookup
-e1bd90ef0f541b155b2c5f6c3b5c82ed6bb16a08 arm64: dts: arm: fvp-base-revc: Add FF-A notification interrupt
-00871c9880be1b14a4f2643a3293bf549e605642 firmware: arm_ffa: Support SPI schedule receiver interrupts
+56e8ad28ebd79702b40efbef17b8895c68b84bd9 efi/libstub: zboot: Round up image size to section alignment
 
---===============2279330248300344717==--
+--===============1201255943175388548==--
