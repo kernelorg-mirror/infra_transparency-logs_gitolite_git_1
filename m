@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============0534361216027421596=="
+Content-Type: multipart/mixed; boundary="===============0898858060010474978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Mon, 02 Nov 2026 09:47:03 -0000
-Message-Id: <179361282343.334903.5439292152477981725@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Mon, 02 Nov 2026 09:51:46 -0000
+Message-Id: <179361310642.338663.570774782284614302@gitolite.kernel.org>
 
---===============0534361216027421596==
+--===============0898858060010474978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
-user: linusw
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/b4/ab8500-regulators
-    old: a527b3ad1d54b558d8872d50af3ecf0f9a98309a
-    new: 90df3263c7dc8d25d51e5f3df816dc8b1eea320c
-    log: revlist-a527b3ad1d54-90df3263c7dc.txt
+  - ref: refs/heads/for-next
+    old: ec8f62cc109a3f596b3c65dc0f1011c209239051
+    new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    log: revlist-ec8f62cc109a-6628e7d4c6b2.txt
 
---===============0534361216027421596==
+--===============0898858060010474978==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a527b3ad1d54-90df3263c7dc.txt
+Content-Disposition: attachment; filename=revlist-ec8f62cc109a-6628e7d4c6b2.txt
 
+76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
+e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
 32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
 f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
 acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
@@ -1048,7 +1050,5 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-ed15812a3401b17c8c7d4163fb914248721d1635 regulator: Add AB8500 and AB8505 buck regulator support
-90df3263c7dc8d25d51e5f3df816dc8b1eea320c regulator: ab8500: Report buck OTP and DT state mismatches
 
---===============0534361216027421596==--
+--===============0898858060010474978==--
