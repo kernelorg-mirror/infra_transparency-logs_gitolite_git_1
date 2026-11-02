@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Mon, 02 Nov 2026 09:20:51 -0000
-Message-Id: <179361125119.314372.16484396752800670099@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 09:24:22 -0000
+Message-Id: <179361146228.315894.11253919224152029397@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,36 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
 user: linusw
 changes:
-  - ref: refs/tags/sent/20260820-dma40-fixes-b99af66002bf-v8
-    old: 0000000000000000000000000000000000000000
-    new: 19c38ab584deda7fa6715e081d522adee6ef5265
-  - ref: refs/tags/sent/20261009-ux500-power-domains-v7-3-rc1-redux-acdf755a5efc-v1
-    old: 0000000000000000000000000000000000000000
-    new: 43a779dc7922fc58d1a09c4acd17eee12c7a4fff
-  - ref: refs/tags/sent/20261010-dma40-smatch-fix-42fce06d4f25-v1
-    old: 0000000000000000000000000000000000000000
-    new: 8ed52d08680c5795dfee645d137efd4c459a2f90
-  - ref: refs/tags/v7.3
-    old: 0000000000000000000000000000000000000000
-    new: 091b06388b117fefdcb63336ac09956a4914b961
-  - ref: refs/tags/v7.3-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 5e036ce12de91c6fd674dad33b169c6150be2a7a
-  - ref: refs/tags/v7.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c2cd463d6ee7d55a3ec0719d93c49ff99022d58f
-  - ref: refs/tags/v7.3-rc4
-    old: 0000000000000000000000000000000000000000
-    new: dec005ae90a2946656a090f37bf1cfbd22f08e57
-  - ref: refs/tags/v7.3-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 5a956dde5526a634dca7ccad27c051ebcc306089
-  - ref: refs/tags/v7.3-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 4eeccbed21e50c19f97be9d325511f3de6343f2d
-  - ref: refs/tags/v7.3-rc7
-    old: 0000000000000000000000000000000000000000
-    new: ec8bf8280261294a9b9b4520414b42704c7f9f6b
-  - ref: refs/tags/v7.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: bc71431221f5ba8bb33918399552636e059c2c45
+  - ref: refs/heads/b4/dma40-dt-disabled-channels
+    old: ba217a29651af999525a81d26aaac1eac89188a7
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/b4/dma40-fixes
+    old: e405319f7b13981672262a4c5b43406325012240
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/b4/dma40-smatch-fix
+    old: 5b451639426ca98b0bdbe2bb97b6e7726752718a
+    new: 0000000000000000000000000000000000000000
