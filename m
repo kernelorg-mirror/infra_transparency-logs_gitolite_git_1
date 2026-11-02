@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6016741985414671604=="
+Content-Type: multipart/mixed; boundary="===============3802433397511270168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
-Date: Mon, 02 Nov 2026 02:19:15 -0000
-Message-Id: <179358595519.4553.3623963815051039225@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Mon, 02 Nov 2026 02:19:43 -0000
+Message-Id: <179358598363.4870.13358454124161197741@gitolite.kernel.org>
 
---===============6016741985414671604==
+--===============3802433397511270168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-hsi
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
   - ref: refs/heads/fixes
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+    old: 5b4bd13e0552926648a46c2c9a12a24dfaee3715
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-8f0b4cce4481-6628e7d4c6b2.txt
+    log: revlist-5b4bd13e0552-6628e7d4c6b2.txt
 
---===============6016741985414671604==
+--===============3802433397511270168==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8f0b4cce4481-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-5b4bd13e0552-6628e7d4c6b2.txt
 
 76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============6016741985414671604==--
+--===============3802433397511270168==--
