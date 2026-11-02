@@ -1,35 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============4380152139995140624=="
+Content-Type: multipart/mixed; boundary="===============6133904268132255031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Mon, 02 Nov 2026 22:10:38 -0000
-Message-Id: <179365743815.1036309.14451929096104589314@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
+Date: Mon, 02 Nov 2026 22:11:47 -0000
+Message-Id: <179365750759.1036919.1905353106414585774@gitolite.kernel.org>
 
---===============4380152139995140624==
+--===============6133904268132255031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/tytso/ext4
+user: tytso
 changes:
-  - ref: refs/heads/test
-    old: c69023b5e16e5ffe9368603dca76d85bd544ee57
-    new: 437f512cbb5f463225a2f12610d213ec4beac297
-    log: revlist-c69023b5e16e-437f512cbb5f.txt
-  - ref: refs/heads/vhost
-    old: c69023b5e16e5ffe9368603dca76d85bd544ee57
-    new: 437f512cbb5f463225a2f12610d213ec4beac297
-    log: revlist-c69023b5e16e-437f512cbb5f.txt
+  - ref: refs/heads/master
+    old: 35aefefd7aba0801bab635b11943f932626be3b2
+    new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    log: revlist-35aefefd7aba-6628e7d4c6b2.txt
 
---===============4380152139995140624==
+--===============6133904268132255031==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c69023b5e16e-437f512cbb5f.txt
+Content-Disposition: attachment; filename=revlist-35aefefd7aba-6628e7d4c6b2.txt
 
+76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
+e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
+32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
+f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
+acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
+7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
+ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
+01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
+c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
+226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
+07c81e0196cc8fbc261095c9f712e39b63e3c780 mm/sparse: move mem_section init to sparse_extreme_init()
+89e2b6e3d345cd4dca822a5ccea764ee7f9e0ae4 mm/sparse: refactor sparse_sections_init()
+d8ab71169ce579871d196a4178c51afd1e0d8b32 mm/sparse: move initialization of section metadata to sparse_metadata_init()
+31b3829703ec5a041c01162f8196fc49eb930b17 mm/sparse: rename and cleanup sparse_init_nid()
+2193260fd4c2173239dab9b7e7ebebdb95e180cc mm/sparse: cleanup sparse_init_one_section()
+a8c5020eeb963afa18f9f035fcea64f05080b96f mm/sparse: rename __highest_present_section_nr to __highest_used_section_nr
+dff2d55bf7941677bd26f12344211ccc289a215d mm/sparse: remove pfn_in_present_section()
+4af04bd8121fbd44891e6db2ca138c6d739b1f82 mm/sparse: move __highest_used_section_nr handling
+4d42b10363f55baa72de3c6d46715394997d5ceb scripts/gdb: mm.py: remove fallbacks for SECTION_HAS_MEM_MAP and SECTION_IS_EARLY
+da7acb8982edf70078b23f878c6b8f2b496abdb5 mm/sparse: remove SECTION_MARKED_PRESENT
+0632840dba0307d0959f374a79358127da9708ca mm/sparse: remove flags parameter from sparse_init_one_section()
+3f4b13b06062a03530df98310fcd9e189b2cddfa fs/proc/page: clarify comment in get_max_dump_pfn()
+82b1ee68b5fdd3062aee988a6e5aa3608d2470e0 mm/memory_hotplug: drop CONFIG_HAVE_ARCH_PFN_VALID handling from pfn_to_online_page()
+0b4af90344ac4d5ce7defcb39891c773da969132 vmcoreinfo: export SECTION_HAS_MEM_MAP
+4590752e20aa393cc0d4fe538c0747d14a98c97a mm: disallow ioremap'ing ordinary RAM in generic_access_phys()
+bbde9d5bdd2d7cf94707b2a8bb466f2e074f9db2 ALSA: us122l: mark hwdep mappings VM_MIXEDMAP
+f85eb0656c409aa5910c8eacc98374121e00e3e0 mm/vma: fix mmap_prepare file handling, remove file_doesnt_need_get
+86a779c5320488b9142f4477435f235c9a04f7ae mm/vma: introduce and use vma_[flags_]can_merge()
+9cae38dc11da28b4e902d59af3d5d32836f744b3 mm: consistently validate VMA state after mmap[_prepare] hooks
+6335c786299ffc0571506f385d8d748471929230 mm/vma: ensure mmap_prepare doesn't set actions on a mergeable vma
+2a234f79d416beeec9fb82dcc20c6794416a54b0 mm: make map_kernel_pages_[prepare,complete] internal and unexported
+4852f3421456f6ee2943726784f82b1db0028a18 mm/vma: tidy up map kernel pages enum values
+dad8e88fcfce855c691e65f2da3d1da326c69d7a mm: assert mmap lock held, use new flags API in vm_insert_page[s]
+b7b4d8f37a4ff533dffeea9cbb08e9e4788b7742 mm: add mmap action for discontiguous kernel page mapping
+ae60723abb65b6304699eb7f5ab66cbc84bd3bb8 docs: filesystems: update mmap_prepare docs for discontig kernel pgs
+5323bb5f6ef306197b5bc1dd3cbad1858afe3150 drivers/usb/mon: update to use mmap_prepare + map kernel pages
+077b65ba0d8a27c2f3e9b51918fb26736d7d7942 infiniband: update hfi1 to use remap_vmalloc_range()
+c6ce4378f20a3bce1da53c9e2d2f74d853096ab8 selinux: reject writable opens of policy file, drop mmap shared/write check
+ceb0de27371f8bebacd22374b99a076306a47760 ALSA: pcm: use vm_insert_page() to map PCM status page
 0c2c9885c5e90d2182118fe101d94c515f067ebc bpf: arena: mark arena_map_mmap() mappings VM_MIXEDMAP
 7fdbc26b69c0241a2c1b8f426cf977e2dc4ed507 mm/vma: add vma[_flags]_is_mm_managed() predicates
 d99c4a302c5abcf4e46bdbefa5a3c6a620be230c mm/vma: only allow mmap to clear VMA_MAYWRITE_BIT if not mm-managed
@@ -1015,44 +1050,5 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-62b0a9b11e94a4bc7f67c89348d0619cba82b54b virtio-spi: Fix virtio_spi_config kernel-doc
-d7825623a9d4452f97da7ea0d84b2967d507ccf9 virtio_ring: reset IN_ORDER state in virtqueue_init()
-8517ed4429a2eefd002dce00ea46e23e6714350b vdpa_sim: serialize IOTLB updates with dataplane access
-acbf36deb53d9e14e4768bf58883795a8232aa5b vdpa: invalidate DMA mappings before releasing memory
-a9a428115b7d8aa45e12e41899f90f60551bfa82 vhost-scsi: preserve event ordering
-a016d03a9cfe29aeeba438f32f8e8f63291e3275 vhost-scsi: do not relock event vq mutex on send_evt fallback
-fe812fd89636f30adf77147e168ec8240ae345c1 vhost/vringh: Fix IOTLB permission in putu16_iotlb()
-bfcde6b64769bc168037b8bd882de4def4b2b3f4 vhost: fix dirty logging for in-order used ring entries
-104d58a6d2592898fbb6989732600b07d543a8e5 virtio_pci: add missing newline to the pmcsr error message
-1f8824fe7f6eaaf2355404db08d3cd05a28aa576 vdpa: fix double free of the reply skb in vdpa_nl_cmd_dev_config_get_doit()
-b179f21d2d8a60ede29a00472bffdefb0284ef39 vhost: reject invalid IOTLB update permissions
-fd1462c96bafe2cb14e88c837b270f8990b717b5 vhost-vdpa: fix pinned page leak in vhost_vdpa_pa_map() error path
-73d135601d3b533985a65748c0278ba3cfe48290 vhost-vdpa: unpin mappings by range
-c9c1c1b7b31fc8b9a5d6c04f5f0ae647d081a39d vhost-vdpa: drop the parent's vq callback before the call fd is released
-434d2bc41bd0c0ac576d4d259bd9f2ab49071174 virtio-blk: clamp max_segments to virtqueue ring size
-cf0a5805d43236e308f14188f9737ddcf83fb53a vduse: avoid infinite loop when no affinity CPU is online
-f898439ace7f89922e853b43bcbfcd26ea2e0a98 vringh: bound top-level re-entry into indirect tables
-8689ee3842daf24cd886b75cc8bd3c55e7d02199 vringh: add regression test for cyclic indirect descriptor
-f4f6e9a9cb349003d333f0776de94f12ac95b8d2 virtio_blk: Reset device on probe error paths after DRIVER_OK
-60a792b97933a686316737838cd007d27963011e vringh: reject empty / undersized indirect descriptor tables
-e733273c8001b72f5a338b521e88e71f45089c7b virtio_blk: use synchronous quiesce in virtblk_freeze_priv()
-af09013e0749b1797e147cb999fa2df2caacb621 vhost-scsi: zero misaligned I/O bounce pages
-84a2d41f7ad69f389a3e44de2cfa26a0b77f4b81 vhost: fix used ring index wrap in vhost_add_used_n_in_order
-660714dd123e407f8fe3cc85e1f2b0a84f5d9883 iommu/virtio: Reset device before deleting virtqueues on probe failure
-08f549bf8c51aa62dc7711278c2340660764c8a6 vdpa/snet: Don't discard the DPU error in snet_send_ctrl_msg()
-968ec173d83feac5063953bbb6a515e150ff0c64 vhost-scsi: do not count PI bytes in the data length
-bc1750773737281aa0f271e74c8216367585ed5e vhost-scsi: validate event queue descriptor direction
-babb1d75ffbd1a31d465f0f1817b31e48af789fd virtio_ring: use shadow flags when detaching split descriptors
-91383fceeb9e0c6819c6eb674c276c34980c81e5 vhost-scsi: reject delayed virtqueue setup
-baae7f429534a88e313c16c837e546134a8c15d8 vhost: reject backend enable without a kick file
-2cd691d7fb47da069908a488aa8970db93eee52f vhost-vdpa: initialize state before publishing cdev
-93b3a4f287b00999906db3cf405323c19f7911b9 MAINTAINERS: add missing virtio/vdpa/vduse/vhost headers
-c9fce20edf74e3df568f79f3a00e1caf8e2b3370 virtio_balloon: initialize wakeup_lock before virtqueues are set up
-f7ba5f66679f4779eeccde0907999e9d0d064d03 virtio: use consistent virtqueue terminology
-857911fbaf9fcbe352002b97dd49a4e2fb019868 hwrng: virtio - prevent use-after-free after a failed restore
-7bc8625fb5fc7fb0d8b76ef12944f9ff4534e040 vduse: fix VA/PA confusion in the coherent page fault path
-445307eb8b684004c9597e651874bdcb9274da1f vhost-scsi: fix page reference leak in misaligned I/O fallback
-b46b41d8c6cadd34a36f039640f01408a12d5c06 virtio_ring: Initialize id field in packed indirect descriptors
-437f512cbb5f463225a2f12610d213ec4beac297 virtio_pci: don't take the MSI mutex under cpu_hotplug_lock
 
---===============4380152139995140624==--
+--===============6133904268132255031==--
