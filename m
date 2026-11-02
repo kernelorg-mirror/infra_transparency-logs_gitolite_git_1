@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 02 Nov 2026 15:30:33 -0000
-Message-Id: <179363343367.708413.15939172796596317544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 02 Nov 2026 15:33:36 -0000
+Message-Id: <179363361676.709783.17541590873230593512@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 362d41a434b6a930bfc956c5d263e265bd00fd73
-    new: 50a7e099686508765e8325878ca1f869d7b4b492
+  - ref: refs/heads/master
+    old: 924a92660fa61ddc1e9a0101ca29fbf3835ee1e5
+    new: 430afc9e06b1145a507d28d9ccd53f8c5f35b189
     log: |
-         d3db4325783f7addafdceedbd0159d3d8b40f49b hwmon: (acpi_power_meter) Fix missing locking in sysfs show callbacks and resume
-         50f8bbce6fbd80669de32cf65af1998aac6840a3 hwmon: (acpi_power_meter) Prevent spurious power alarm when power is unknown
-         50a7e099686508765e8325878ca1f869d7b4b492 hwmon: (acpi_power_meter) Check for 32-bit and 64-bit unknown ACPI values
+         430afc9e06b1145a507d28d9ccd53f8c5f35b189 Fixes for all trees
          
