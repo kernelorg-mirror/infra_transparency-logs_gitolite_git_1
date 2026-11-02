@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4148657143757813417=="
+Content-Type: multipart/mixed; boundary="===============0894521076305097454=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Mon, 02 Nov 2026 01:23:35 -0000
-Message-Id: <179358261527.4153440.603390203163858294@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 01:23:41 -0000
+Message-Id: <179358262157.4153680.17468602536083272240@gitolite.kernel.org>
 
---===============4148657143757813417==
+--===============0894521076305097454==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/clk/linux
 user: masneyb
 changes:
-  - ref: refs/heads/clk-allwinner
-    old: e87174b97775663c53da8f281eb61695b06952ed
+  - ref: refs/heads/clk-amlogic
+    old: 5c62aa19243710057517a487e5fb388ab25f560a
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-e87174b97775-6628e7d4c6b2.txt
+    log: revlist-5c62aa192437-6628e7d4c6b2.txt
 
---===============4148657143757813417==
+--===============0894521076305097454==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e87174b97775-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-5c62aa192437-6628e7d4c6b2.txt
 
 76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============4148657143757813417==--
+--===============0894521076305097454==--
