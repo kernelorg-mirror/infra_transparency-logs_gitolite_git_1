@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5837336194205428180=="
+Content-Type: multipart/mixed; boundary="===============7377760604546908289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Mon, 02 Nov 2026 16:31:51 -0000
-Message-Id: <179363711153.765442.7935099828240959232@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 16:31:54 -0000
+Message-Id: <179363711400.765628.11785141851987696625@gitolite.kernel.org>
 
---===============5837336194205428180==
+--===============7377760604546908289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
+  - ref: refs/heads/docs-next
     old: 151235bf3d5d4de1a077a83c54ee651e074816ae
     new: 2649344d20dfb13e30b560f06138229d8e40350a
     log: revlist-151235bf3d5d-2649344d20df.txt
 
---===============5837336194205428180==
+--===============7377760604546908289==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f46b79a440c3e22c366d752dd60a6a082b4452a2 docs: submitting-patches: say which com
 ff8108b54c98d7060a839a3599674e07dfa36526 Documentation/printk-formats: Remove notes about %pK
 2649344d20dfb13e30b560f06138229d8e40350a docs: kdoc_output: don't add a man page tail for filtered-out symbols
 
---===============5837336194205428180==--
+--===============7377760604546908289==--
