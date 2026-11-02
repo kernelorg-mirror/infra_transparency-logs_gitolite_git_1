@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5736983757120515002=="
+Content-Type: multipart/mixed; boundary="===============7535217992806355049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 02 Nov 2026 13:28:54 -0000
-Message-Id: <179362613461.526877.963065069794586194@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 13:29:29 -0000
+Message-Id: <179362616924.527185.9898718258208793052@gitolite.kernel.org>
 
---===============5736983757120515002==
+--===============7535217992806355049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/review-mika
     old: cee9395acd8043be0644b25c34bfa86623f2b935
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     log: revlist-cee9395acd80-6628e7d4c6b2.txt
 
---===============5736983757120515002==
+--===============7535217992806355049==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============5736983757120515002==--
+--===============7535217992806355049==--
