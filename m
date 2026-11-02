@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 02 Nov 2026 16:30:09 -0000
-Message-Id: <179363700946.763731.5582106102345063274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/infra/cgit
+Date: Mon, 02 Nov 2026 16:30:19 -0000
+Message-Id: <179363701969.763954.6104180398728928634@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/infra/cgit
+user: mricon
 changes:
-  - ref: refs/heads/dev
-    old: 31fa11a9401d3e9bc785246c7f937d26919eb96e
-    new: cd1885ba695da5e29d7a094d6af947f8160511fe
+  - ref: refs/heads/master
+    old: 044821677c774cd24f25f1818ea51d09cc64b006
+    new: 156e859aad4c98a169ce4c49e839cae41a28f432
+    log: |
+         2e40a36b56f26593fe8fab4f07ed831395d5f0d2 css: Support for dark mode
+         bd308735b3cfd40a57b20723a6e6862bf8303dc0 cgit: Fix guessing default branch
+         599e3df55ff0ce7387172c16cba269d545019ed3 html: use buffered stdio
+         156e859aad4c98a169ce4c49e839cae41a28f432 ui-shared: fix the Expires header on error pages
+         
