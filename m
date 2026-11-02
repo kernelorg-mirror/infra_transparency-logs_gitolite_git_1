@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 02 Nov 2026 15:42:41 -0000
-Message-Id: <179363416164.720092.18038229345735522735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Mon, 02 Nov 2026 15:43:03 -0000
+Message-Id: <179363418371.720549.8988943442654633094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: ef179363b04306dbc645c53207b9ad3516ebc75f
-    new: a42ae51fe3c36cef82dc687ea594ca232a785fd4
+  - ref: refs/heads/hwmon-next
+    old: 50a7e099686508765e8325878ca1f869d7b4b492
+    new: 0dd96d0d34d183866ca6daf5af41341abdfc982a
     log: |
-         a42ae51fe3c36cef82dc687ea594ca232a785fd4 MAINTAINERS: update auxiliary bus entry
+         444370bc4bd9f7908a1eb121b83bc8f1bca615b4 hwmon: (gigabyte_waterforce) Make status_report_request_lock IRQ safe
+         0dd96d0d34d183866ca6daf5af41341abdfc982a hwmon: (gigabyte_waterforce) Protect status report data with spinlock
          
