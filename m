@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1916830154867507283=="
+Content-Type: multipart/mixed; boundary="===============0140813387944418178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 02 Nov 2026 14:56:17 -0000
-Message-Id: <179363137734.672149.7211875952388453739@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 14:56:26 -0000
+Message-Id: <179363138632.672499.14595503637683346582@gitolite.kernel.org>
 
---===============1916830154867507283==
+--===============0140813387944418178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: 36aad21d50d1af3f6954bb0c988257a908202477
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     log: revlist-36aad21d50d1-6628e7d4c6b2.txt
 
---===============1916830154867507283==
+--===============0140813387944418178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793631376 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793631385 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1793631376-8594b242b252d45a8f9c59e171a4e52ce8b9b0c7
+nonce 1793631385-ed6ba78cea1179389acaa752d4320c505cc3d5a2
 
-36aad21d50d1af3f6954bb0c988257a908202477 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 refs/heads/char-misc-next
+36aad21d50d1af3f6954bb0c988257a908202477 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmropJAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GLYQAL/VilpykcC/3yT14dca
-kyTvVjEo0dbyE4/8RcmUYZQiLlpeqpY1IXwK9aPGsE+7knfX0FnnP8FGtwKv+wez
-lH1ZMxwiDllrmsbE28KvVSCZtOz3da3wa4sN6s4kB3xrcOoDoz6KGoRuOulAGn38
-4rTGD+ui5pJiZxzTt3QUnFl3E3Rceu1gz197WSIzABhTyrwpNTLfcDCLe5f9pE75
-D1Z/tW2HJ9+SzVkpeHvHgWPwOgEkK2OLZKKyd8k99SODAr01pvJTkhIL1YeVjAO8
-FOzSbrjFZ8gXkvoBbGUCBYs+8oW+3XmAU9eoHmWNdf7fJaZCLVYVsjpuJzTvc2Gn
-BEecbgkXqIWzw/IhfukcocSyi/Y9EfJUQdal8hLKA3NClKVAeR23+t0jlQKh2e2C
-wTQldGGgiaR7srSc5MjNCC1nrU9I8Mwi9+3aEq2lYaRiFlTfZpoFUrXRnvc+i4kc
-/AE56ve6ZWbKc3MWyHzTpOs7dDMgGC6Oz1ny0T6eqR7C9iZ+RqNZaw5ncOnePnMc
-pOvcXp4W2ZOApm6Nv0Cz8KXGRvqGm4UBdLeFyM39UnQVutsxiApeZrOpeyUFKnB4
-muKPKbfyP/WJfKmlm0xnkGYet4lGUdVUnKLzd1tYe5f7fUVHFGBh6FOlmTxiuXGf
-DEfMmdm59pBBwO93iePFlp0U
-=5wet
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmropJkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I+4P/2nzZhZMhKhqs6NPsZuy
+1s+VckidytTIJuPnK3D7DDNQ4j90G0uTmQp+2Wib9tQA73bdaf5g2LBApa827ume
+Jw8NZior2NL6oaWRIImLYW+9ABeNHsVvhhoJcsHD9/SPiF5FYpedX/wkbTBNQuL1
+3ZphYHVPw3z3y2C5PN4gOgmQ+Pw4ZX3q6ZtpSqH8/wXg35tNFsmtaM5BwEbUUfRq
+10DeCOq/Z6xuqj+2v4XAcE16K0FZl+4RFnwLH5JSedNrSEwFVZttGLatyWXebdHH
+q3CILYWst0LNC8CXCWZU4fMmpugSU/MulLj9NP8e3nqHeeJ/UGT1twY6ZizznBDR
+iyTM/tYyfaKpCj8su6deZd2pjLI1md/Qq+DPQUgZ3w9K8fkDnldYCcAaYA8h9WY6
+NedafFl/J0kWOCJPMb6n8E8huhZ/etRPt4HBbm0yziQV8xwclDw1YTjBVE3h3AsB
+LlkBa0qfxVS4/H/ChWLH1yrYIbSKuENIkx3WURxepJAXxx6qWBT7d2jdmwZdk8S0
+5eD1KeoA+rHok1/67rB8T8Pb98AN7o2gTr1oQQc3Yp2OGpKIN+wMPqsX/TJdP71j
+ny9d8sku8MMsOqfNMw58z39ZqakIWW4Jnxidw2IlIvsQxE6o62lpHqwDmn/eFRoo
+jBxr0f4l/JApfqJu7uPBBU2+
+=gXXa
 -----END PGP SIGNATURE-----
 
---===============1916830154867507283==
+--===============0140813387944418178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -312,4 +312,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============1916830154867507283==--
+--===============0140813387944418178==--
