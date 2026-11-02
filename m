@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5843895626975653563=="
+Content-Type: multipart/mixed; boundary="===============6321369266916943180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Mon, 02 Nov 2026 19:12:28 -0000
-Message-Id: <179364674856.895678.12166799404662361499@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 19:12:35 -0000
+Message-Id: <179364675501.895897.2229975115283276059@gitolite.kernel.org>
 
---===============5843895626975653563==
+--===============6321369266916943180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/riscv/linux
 user: pjw
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: abf8c33470f78e2226ee3dcdc69004660020ab47
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     log: revlist-abf8c33470f7-6628e7d4c6b2.txt
 
---===============5843895626975653563==
+--===============6321369266916943180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============5843895626975653563==--
+--===============6321369266916943180==--
