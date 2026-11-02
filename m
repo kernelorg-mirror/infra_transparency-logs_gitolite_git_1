@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3717152816800123722=="
+Content-Type: multipart/mixed; boundary="===============4538964862782165927=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 02 Nov 2026 11:24:30 -0000
-Message-Id: <179361867021.423150.13827093416290709021@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 11:24:43 -0000
+Message-Id: <179361868339.423362.8077901207290541236@gitolite.kernel.org>
 
---===============3717152816800123722==
+--===============4538964862782165927==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 68f93792c34bc624430c6dbd79f2dd7f1e40aee1
-    new: 2957071e7e6e8cbaf07ca95f7dd1f4cd02e1582f
-    log: revlist-68f93792c34b-2957071e7e6e.txt
+  - ref: refs/heads/sched/core
+    old: def26f238a81c81e1b91fe16440c9a7efa9e9333
+    new: ac2d20dc7f9de532a543fa91a9450f84f767bbf5
+    log: revlist-def26f238a81-ac2d20dc7f9d.txt
 
---===============3717152816800123722==
+--===============4538964862782165927==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-68f93792c34b-2957071e7e6e.txt
+Content-Disposition: attachment; filename=revlist-def26f238a81-ac2d20dc7f9d.txt
 
-01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
-c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
-226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
-07c81e0196cc8fbc261095c9f712e39b63e3c780 mm/sparse: move mem_section init to sparse_extreme_init()
-89e2b6e3d345cd4dca822a5ccea764ee7f9e0ae4 mm/sparse: refactor sparse_sections_init()
-d8ab71169ce579871d196a4178c51afd1e0d8b32 mm/sparse: move initialization of section metadata to sparse_metadata_init()
-31b3829703ec5a041c01162f8196fc49eb930b17 mm/sparse: rename and cleanup sparse_init_nid()
-2193260fd4c2173239dab9b7e7ebebdb95e180cc mm/sparse: cleanup sparse_init_one_section()
-a8c5020eeb963afa18f9f035fcea64f05080b96f mm/sparse: rename __highest_present_section_nr to __highest_used_section_nr
-dff2d55bf7941677bd26f12344211ccc289a215d mm/sparse: remove pfn_in_present_section()
-4af04bd8121fbd44891e6db2ca138c6d739b1f82 mm/sparse: move __highest_used_section_nr handling
 4d42b10363f55baa72de3c6d46715394997d5ceb scripts/gdb: mm.py: remove fallbacks for SECTION_HAS_MEM_MAP and SECTION_IS_EARLY
 da7acb8982edf70078b23f878c6b8f2b496abdb5 mm/sparse: remove SECTION_MARKED_PRESENT
 0632840dba0307d0959f374a79358127da9708ca mm/sparse: remove flags parameter from sparse_init_one_section()
@@ -1043,12 +1032,23 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-e4c04502c213f88f4dd7d12642fa894f129cb69d perf/core: Include attr.defer_output in is_sb_event()
-b2e4a8b620bedf9afa5733fff418a8ea5fb1b53a perf/core: Clamp deferred callchain entry count to fit u16 header.size
-79cab141ba64f012c8758ced06126d3210cd7765 perf/amd/ibs: Reset CPU0 IBS state on syscore resume
-dcc906fd43f38656b9196e427a797f0cb9ed96d6 perf/amd/ibs: Fix kernel address leak via REGS_USER and REGS_INTR
-497245d3ede3f4ce8d2a9f43951418e94d45d952 perf/amd/ibs: Simplify event state handling with IBS_CAPS_DIS
-304dd196d3a70802db2a2b912a10cd5f35f9b7d9 Revert "perf/aux: Allocate non-contiguous AUX pages by default"
-2957071e7e6e8cbaf07ca95f7dd1f4cd02e1582f perf/core: Don't send SIGTRAP after exec removed the event
+f56862696104d724ec8b6f8e4912cc345944147f sched/deadline: Fix this_bw on class change of a dying task
+5d010dd27be92a68eaac3af4f5ef0555bcde6031 sched: Account I/O waits independently of delayed dequeue
+6f5363236c1e3f31c8965b8efdc031fa1483b090 sched/fair: Clear throttle state when leaving the fair class
+405ac140f6fc1b9e76c496ee01117b4a2b65691c sched/pelt: Fix truncation of the PELT period count
+033abc9683bbea431e52c22e645e112ea17a171e sched/topology: Balance cluster static-key updates
+1abd5f3da2f0b5da60dd3dab22aea3d90aff980b sched/cache: Ignore non-fair current in alb_break_llc()
+bfcc83b2338c10cf2f159a49c0a6fe321eae6c71 sched: Rename/clarify sched_class::task_tick(.queued) argument
+d4e106b88b222cd2fd0b301e1d64e78db3d549d2 sched/fair: Fold cfs_rq_of(se) into for_each_sched_entity()
+c1fb6f32095e3f4bd996c6877f85ec5038c8c4f4 sched/fair: Extend for_each_sched_entity() with a back-link
+cec3e1944c8ba95dbcf0a653ad23669b8de97bad sched/fair: Rework/fix task_h_load()
+8a1906ce84b1e38be94ae86d4e153fbd84b91fa8 sched: Annotate rq->rd with __rcu and update lockless readers
+ea101ebc7496c6ac28d486bd858b52823fe2a10c sched/debug: Protect lockless rq->rd access in print_dl_rq()
+adf15cd108430064560de9461b85eaeb3063565d sched/debug: Protect lockless rq->curr access in print_cpu()
+1b357cd77380e7628c71cf61c98c77ad0679ce2b sched/debug: Protect p->mm access in sched_show_numa()
+85efec8f7a417aa9dff20aeb1a1ca9aede4d527c sched/fair: Use list_for_each_entry_rcu() in print_cfs_stats()
+6f11fd2fce4f3435e212db082efe0e783df76db4 sched/debug: Introduce per-CPU debugfs files
+6f07d0e6679bc0b8dfd8cefee7f29d3a8c083b22 virt: steal_governor: store only the sampling delay
+ac2d20dc7f9de532a543fa91a9450f84f767bbf5 sched/hotplug: Remove unused idle_task_exit
 
---===============3717152816800123722==--
+--===============4538964862782165927==--
