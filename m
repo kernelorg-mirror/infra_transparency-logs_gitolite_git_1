@@ -1,94 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8887178417381806704=="
+Content-Type: multipart/mixed; boundary="===============7136575135387112543=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-next
-Date: Mon, 02 Nov 2026 11:54:30 -0000
-Message-Id: <179362047000.447437.7960845229859271160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Mon, 02 Nov 2026 11:54:34 -0000
+Message-Id: <179362047433.447659.2411893666701169651@gitolite.kernel.org>
 
---===============8887178417381806704==
+--===============7136575135387112543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-next
+repo: pub/scm/linux/kernel/git/sashal/linus-next
 user: sashal
 changes:
-  - ref: refs/heads/all-next
+  - ref: refs/heads/linus-next
     old: 4ab615cc6582d226bdfffb12f8d663776b3b1701
     new: 48575f8c5925a716820d8ab34372e5667edfc8b2
     log: revlist-4ab615cc6582-48575f8c5925.txt
-  - ref: refs/heads/bus-next
-    old: 4da02064087c2dc291fcdd3cbf5fc0be15f48e80
-    new: 2528bd82c6d693b7ac2ee5971402372773d51e8a
-    log: revlist-4da02064087c-2528bd82c6d6.txt
-  - ref: refs/heads/dt-next
-    old: e2872a07faeb4f3d2e3a5eb82cc61e091380a92c
-    new: d84e8dbbd39890b3af2df2f521417b02f5cddbe5
-    log: |
-         33e86879553f6c54ac5a386381d2e648ad1bfacf Merge base fixes into dt-next
-         d84e8dbbd39890b3af2df2f521417b02f5cddbe5 Merge 'devicetree-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git (dt/linus)
-         
-  - ref: refs/heads/fixes-next
-    old: feb6a1c5735e2984479e090b494ba2734177e4a7
-    new: ce9ec7beccf0120ab7b65cd6b3106d46f10eb1d0
-    log: revlist-feb6a1c5735e-ce9ec7beccf0.txt
-  - ref: refs/heads/gpio-next
-    old: 1a7f38441f616819763acad6cad5117cce5f924c
-    new: e74a0e0c0db162536b0886a709153aed13fe17b0
-    log: |
-         f9edef88c5e138689a59b6d4150999ac8e94bf1f pinctrl: renesas: rzn1: Free maps on DT map failure
-         e74a0e0c0db162536b0886a709153aed13fe17b0 Merge 'pinctrl-renesas' from https://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers.git (renesas-pinctrl)
-         
-  - ref: refs/heads/graphics-next
-    old: e6f22ea6547ceace5dde94a24dbb07c9a121c200
-    new: 71fbb6e892f96586d2ccb8dbf5b977a8d672dab2
-    log: |
-         028e3e297b6b4b9afe86b95ace7c5c382f7f5c81 drm/xe/vf: Move H2G CTB to VRAM on VF
-         71fbb6e892f96586d2ccb8dbf5b977a8d672dab2 Merge 'drm-xe' from https://gitlab.freedesktop.org/drm/xe/kernel.git (drm-xe-next)
-         
-  - ref: refs/heads/misc-next
-    old: dc51761760fae18f965ac8af5f7819d6dacf9ce1
-    new: 164e27b42d9f645cf42f62aaf4b83605766aa17a
-    log: |
-         39c58af419d9f6b0356cd7e10ff5abb3e60dcffb pwm: meson: Convert to waveform API
-         83d417d19e62314b97800ae62482607880a8dfe1 dt-bindings: pwm: Convert NXP PCA9685 PWM controller to DT schema
-         9ad5602d4943635ea2b3b73d1a720161f88da1a1 pwm: tegra: Fix value discarding for duty and period
-         164e27b42d9f645cf42f62aaf4b83605766aa17a Merge 'pwm' from https://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux.git (pwm/for-next)
-         
-  - ref: refs/heads/mm-next
-    old: be3a56f6cb35cefc5c63aa8cfba82732f805cd0f
-    new: 640f17734db7b80af88872671b5975f7aeeb81d6
-    log: revlist-be3a56f6cb35-640f17734db7.txt
-  - ref: refs/heads/net-next
-    old: a886e106bb3cb0848c9ed9a26a2cb9fe05838ab9
-    new: 9bcf77b84b008ec8eb23170df959d49237915f1f
-    log: |
-         26219e9402c22181f021034f127a8e278d40545f net: stmmac: take ownership of saved RX state at poll entry
-         834ec95308320cbd8c162d86788ab95cc3fd6bf8 net: stmmac: drop split frames on AF_XDP zero-copy RX
-         52ffd771e0029c5ad0504b1b4a8b7f932b65eea3 net: stmmac: drop multi-buffer frames in XDP mode
-         41d78e9ac0984f0e9577e5312e62400b5a6760c8 net: stmmac: copy XDP metadata in AF_XDP zero-copy RX
-         68bdbffcae08699af5c16f7a2ec61a5489b78dbe net: stmmac: fix VLAN tag stripping on short and non-linear RX frames
-         363ff816277d4c7064514b160e655bed1dfb3ed8 net: stmmac: fix XDP RX buffer DMA sync length
-         21f57ec673a1917547c808cfa81890485fffa03b Merge branch 'net-stmmac-xdp-path-fixes'
-         9bcf77b84b008ec8eb23170df959d49237915f1f Merge 'net' from https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git (main)
-         
-  - ref: refs/heads/soc-next
-    old: 2c26a63239b47d7347766c81f6354ec4ae369746
-    new: 4fa7c31fc022b82dade0895b704d2187ae30a3e0
-    log: revlist-2c26a63239b4-4fa7c31fc022.txt
-  - ref: refs/heads/sound-next
-    old: 07f91a5195d9c62e5ea764229f90139d5a733c3e
-    new: a3bd3956246306ed87f1836fba959139accd013e
-    log: |
-         6c067677192f054bbfa815caf04f536bb8dcdee2 soundwire: qcom: disable the interrupt before gating the clock
-         afd88e7ad78170040612f608203734156b8a9eb1 soundwire: stream: skip bps mismatch check for PDM streams
-         01d8b2604a6a30b45838b5d71c4e334ec60b3959 Merge 'soundwire-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire.git (fixes)
-         a3bd3956246306ed87f1836fba959139accd013e Merge 'soundwire' from https://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire.git (next)
-         
 
---===============8887178417381806704==
+--===============7136575135387112543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -250,131 +182,4 @@ f2b76b3fc1abf4541d6f60ace49c23819340b50f Merge branch 'tools-next' into all-next
 a3a8ce031f3f8383f0d074c2dbf6c19d13711065 Merge branch 'wireless-next' into all-next
 48575f8c5925a716820d8ab34372e5667edfc8b2 Add merge report for 2026-11-02 (6 interventions)
 
---===============8887178417381806704==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4da02064087c-2528bd82c6d6.txt
-
-8847bbf3adfc58076e71d4832c52cfd6def709f2 w1: fix spelling mistakes in comments across the subsystem
-7755108db254d4470c5a03be801c1a9a5143f99d Merge base fixes into bus-next
-42db6e036dcba6c89522cad3fd426fb2feb6e94e Merge 'pci-current' from https://git.kernel.org/pub/scm/linux/kernel/git/pci/pci.git (for-linus)
-b1467ee11c79cf5d0c94911e2728bb06e86e9661 Merge 'usb.current' from https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git (usb-linus)
-f26ecc81fb9aff005873f000d02c37386a826647 Merge 'i2c-andi' from https://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux.git (i2c/i2c-next)
-b8cc94e7dcd393e318b44c859fc7c11bc1a2411e Merge 'ieee1394' from https://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394.git (for-next)
-7dba8eb59714ecce95982e41b97c46e4cf9d51c8 Merge 'w1' from https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-w1.git (for-next)
-b93603d40ae6630b312b8ca66c40e09cea0768e4 Merge 'mux' from https://gitlab.com/peda-linux/mux.git (for-next)
-0a8e9c714ff21c1f06acfb915a3c36d5c702125c Merge 'rpmsg' from https://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux.git (for-next)
-2528bd82c6d693b7ac2ee5971402372773d51e8a Merge 'slimbus' from https://git.kernel.org/pub/scm/linux/kernel/git/srini/slimbus.git (for-next)
-
---===============8887178417381806704==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-feb6a1c5735e-ce9ec7beccf0.txt
-
-6c067677192f054bbfa815caf04f536bb8dcdee2 soundwire: qcom: disable the interrupt before gating the clock
-26219e9402c22181f021034f127a8e278d40545f net: stmmac: take ownership of saved RX state at poll entry
-834ec95308320cbd8c162d86788ab95cc3fd6bf8 net: stmmac: drop split frames on AF_XDP zero-copy RX
-52ffd771e0029c5ad0504b1b4a8b7f932b65eea3 net: stmmac: drop multi-buffer frames in XDP mode
-41d78e9ac0984f0e9577e5312e62400b5a6760c8 net: stmmac: copy XDP metadata in AF_XDP zero-copy RX
-68bdbffcae08699af5c16f7a2ec61a5489b78dbe net: stmmac: fix VLAN tag stripping on short and non-linear RX frames
-363ff816277d4c7064514b160e655bed1dfb3ed8 net: stmmac: fix XDP RX buffer DMA sync length
-21f57ec673a1917547c808cfa81890485fffa03b Merge branch 'net-stmmac-xdp-path-fixes'
-c5f343c189aa30285e7c73dbf2f185720467794b memory: tegra: Shut down Tegra210 EMC timers before teardown
-a94cfeb60dc1a9f1e73718d3ba2f9e70834a6b90 memory: fsl_ifc: guard optional NAND IRQ cleanup
-21250426a8469d3bc43c2f0c69ed5497ee9ff7d4 memory: tegra: fix device_node leak in tegra186_mc_probe_device()
-c3cc990de568e949bf6a3cc93c8950bc1bd58dc1 memory: atmel-ebi: Disable SMC clock on probe failure
-8ca80811c3ba01691b424f4fef4db8960955df4f perf/renesas: Remove remaining RISCV_ALTERNATIVE references
-ea8e6404495d8b5c9eecb72a1a2a3babaa2fce30 Merge base fixes into fixes-next
-e317f20a38b0ec9096adb1f5ebc7c73c2c5ee349 Merge 'btrfs-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git (next-fixes)
-5584c648dc4a3147ded152594648e6b1dc563c1a Merge 'vfs-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git (fixes)
-73d13be8250cdfd7c808b6f01f6f69422690fab4 Merge 'mm-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/mm/linux.git (for-next-fixes)
-779536a400725ff7d010e2ae6ae17cb3aa344451 Merge 'kbuild-current' from https://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux.git (kbuild-fixes-for-next)
-1bb9573036ec36e140fbe548b0995cf1efab6ce3 Merge 'drivers-memory-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git (fixes)
-939bbb1ef01652ad5715087d48afe9469b12514f Merge 'net' from https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git (main)
-4ec06face9cf72d010ccd8392601643a43d10ee6 Merge 'bluetooth-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth.git (master)
-a8551c97e774efbc6c0ea8a5a98833c1a4bdcb07 Merge 'iwlwifi' from https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next.git (fixes)
-381c1574d136d66a5f23c788238397ef180e723b Merge 'sound-current' from https://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git (for-linus)
-3fbc6253608fcaf74c18de0cfb2f18ff55978542 Merge 'regulator-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git (for-linus)
-8fd4e9139a9d656fe5e8ae72fe63d03de9658fef Merge 'pci-current' from https://git.kernel.org/pub/scm/linux/kernel/git/pci/pci.git (for-linus)
-2274159bbcb53c2bad8a9d30574eb24b37d1cabd Merge 'driver-core.current' from https://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core.git (driver-core-linus)
-cb5eff250476d27247659d409302e634935c631f Merge 'usb.current' from https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git (usb-linus)
-b12151869f791e422f1f3cf7307292544033f383 Merge 'staging.current' from https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging.git (staging-linus)
-8041ed8fad17ad7fea41c13ed8d9349c3d0ae583 Merge 'iio-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git (fixes-togreg)
-df66105cd6210e010187c0a487ba46cec26b1a92 Merge 'watchdog-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git (watchdog)
-06f31b0ea221ca7b3e22576e04b4679aada33e0c Merge 'soundwire-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire.git (fixes)
-65e7eaa4f8ff67bd76d089502da7a320bc21e2a5 Merge 'input-current' from https://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git (for-linus)
-f809d5c8870104b16458c11500e969c3ec57c578 Merge 'libcrypto-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git (libcrypto-fixes)
-0076f577fdb3716da67388de88424670950e7a98 Merge 'tegra-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux.git (fixes)
-48d19869884e9775b97598e3a42c169e88681cdb Merge 'kvm-arm-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm.git (fixes)
-0425064d22bf00278481a8d4eaf4477b6c8001de Merge 'hwmon-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git (hwmon)
-136c938268bcc50cdc7006db01bf4a8e7b39b58b Merge 'pinctrl-qcom-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git (pinctrl-qcom/for-current)
-3aa94c3ced1412269c6a2293fce337d6f8a3bd24 Merge 'devicetree-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/robh/linux.git (dt/linus)
-09177e9c8ad2b1ad174cecf376680780c14e9d0e Merge 'drm-intel-fixes' from https://gitlab.freedesktop.org/drm/i915/kernel.git (for-linux-next-fixes)
-5e23b4746b8c6d8de9cdff5ccfbc96477e63c848 Merge 'mmc-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc.git (fixes)
-8162f476404bc5610bd986cf74ed835574bff8c3 Merge 'riscv-soc-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git (riscv-soc-fixes)
-05cc6f8794007d81091873088d4a70360a884157 Merge 'gpio-brgl-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git (gpio/for-current)
-fc06c23d572169cc9d72ac1b6874492496601ae4 Merge 'renesas-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel.git (fixes)
-936134e5e6b7c89bb603c084892c38716a7fe219 Merge 'rust-fixes' from https://github.com/Rust-for-Linux/linux.git (rust-fixes)
-fe2c326feb63dc68cde4764d846202652a593d49 Merge 'tip-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git (tip/urgent)
-342f99d0d999cc51ae169764a148a25e177e8427 Merge 'mm-nonmm-hotfixes-unstable' from https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm (mm-nonmm-hotfixes-unstable)
-ce9ec7beccf0120ab7b65cd6b3106d46f10eb1d0 Merge 'drm-misc-fixes' from https://gitlab.freedesktop.org/drm/misc/kernel.git (for-linux-next-fixes)
-
---===============8887178417381806704==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be3a56f6cb35-640f17734db7.txt
-
-c5f343c189aa30285e7c73dbf2f185720467794b memory: tegra: Shut down Tegra210 EMC timers before teardown
-a94cfeb60dc1a9f1e73718d3ba2f9e70834a6b90 memory: fsl_ifc: guard optional NAND IRQ cleanup
-21250426a8469d3bc43c2f0c69ed5497ee9ff7d4 memory: tegra: fix device_node leak in tegra186_mc_probe_device()
-c3cc990de568e949bf6a3cc93c8950bc1bd58dc1 memory: atmel-ebi: Disable SMC clock on probe failure
-a74b4265ae360be92cb3292ba962c21404dd2349 Merge base fixes into mm-next
-6930232a9d697d38a99c3c1f794687c6965688ec Merge 'mm-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/mm/linux.git (for-next-fixes)
-9e55a83eddc3fe6bbbbd2a6eddb3d898480f0236 Merge 'drivers-memory-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git (fixes)
-def3d3328929667ae5074187101cef9714a25b01 Merge 'mm-nonmm-hotfixes-unstable' from https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm (mm-nonmm-hotfixes-unstable)
-d1fe4a577abab77f6f9f6448534aaf1816626db8 Merge 'mm' from https://git.kernel.org/pub/scm/linux/kernel/git/mm/linux.git (for-next)
-6cec9923d73dbaf420daf54070e3450d874d90d3 Merge 'mm-nonmm-unstable' from https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm (mm-nonmm-unstable)
-eee291ec9105a9f69e5bbf6ae077857aa226bd01 Merge 'liveupdate' from https://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux.git (next)
-640f17734db7b80af88872671b5975f7aeeb81d6 Merge 'pagemap-headers' from git://git.infradead.org/users/willy/pagecache.git (headers)
-
---===============8887178417381806704==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c26a63239b4-4fa7c31fc022.txt
-
-9de4a22715b78521fb1952a875874a9af7262609 ARM: dts: renesas: r9a06g032: Add support for timers
-8ca80811c3ba01691b424f4fef4db8960955df4f perf/renesas: Remove remaining RISCV_ALTERNATIVE references
-3d621cab90bfcc362dba5ab677dac56ec441e196 Merge branch 'renesas-fixes-for-v7.4' into renesas-next
-a968c0b12aee284d6eabcb73fba6cedf79720707 Merge branch 'renesas-dts-for-v7.5' into renesas-next
-09fd63fe687ffa2d6594cd31d6fcf5fa7740a63c Merge branches 'for-next/smccc/fixes', 'for-next/scmi/fixes', 'for-next/ffa/fixes' and 'for-next/juno/fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux
-78c144a133d6b4091736e5149d79580984dfa632 Merge base fixes into soc-next
-a328020a6fe56a89fbc49c705c9f74d0ea38016b Merge 'tegra-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux.git (fixes)
-fadb251c9490366184ba9ac83a657ce6cd7edb07 Merge 'riscv-soc-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git (riscv-soc-fixes)
-4aa40430414500d485bff3561b8b05594cdfb3f3 Merge 'renesas-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel.git (fixes)
-5261cec72a0204abe7f4b40a0971bc78afc40cf3 Merge 'arm-soc' from https://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git (for-next)
-36c463edf6f2045a47dcf1326217cc3594385886 Merge 'amlogic' from https://git.kernel.org/pub/scm/linux/kernel/git/amlogic/linux.git (for-next)
-ffd5f71d6bb5e74ea6ce4e1890f433b72186c96d Merge 'asahi-soc' from https://github.com/AsahiLinux/linux.git (asahi-soc/for-next)
-e6c479b9390a543343f5c0dbee1e0da4ad4109be Merge 'at91' from https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux.git (at91-next)
-875cdeb23ed7e033cf11083a80fc9d3fffd50bf3 Merge 'bmc' from https://git.kernel.org/pub/scm/linux/kernel/git/bmc/linux.git (for-next)
-f7bc5cf4074dd8d68c3f3873347ec04584a07cdd Merge 'broadcom' from https://github.com/Broadcom/stblinux.git (next)
-db58b2436c4af10899e9dd2111df41221021c491 Merge 'cix' from https://git.kernel.org/pub/scm/linux/kernel/git/peter.chen/cix.git (for-next)
-b8bdff34a99e41795e638e757ac14c19c65f8c69 Merge 'imx-mxs' from https://git.kernel.org/pub/scm/linux/kernel/git/frank.li/linux.git (for-next)
-40e42424acec7876be5d2774ad2182835ad453b4 Merge 'mediatek' from https://git.kernel.org/pub/scm/linux/kernel/git/mediatek/linux.git (for-next)
-9694e71a5ad0bc797bff1dd7bfd06980314e842d Merge 'mvebu' from https://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu.git (for-next)
-a3fc66b07451d456be63b5063104ef62266afde9 Merge 'omap' from https://git.kernel.org/pub/scm/linux/kernel/git/khilman/linux-omap.git (for-next)
-8e4d3a0a1b3898b7b95945ef76a1f174d82cd317 Merge 'qcom' from https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux.git (for-next)
-6981bbbf3af09e322c6511f237a0dd09c23431e8 Merge 'renesas' from https://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel.git (next)
-3595d3217a45fe20342189190a01ec22bcf212ca Merge 'rockchip' from https://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip.git (for-next)
-a8909aa197d2b0f6fb54c82e2203e3c66b27956d Merge 'scmi' from https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux.git (for-linux-next)
-95b15b2cd9fc0b56abf9e9e4779152e057911463 Merge 'tegra' from https://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux.git (for-next)
-6affc334990b4142cda7f34aa2eb68926242e8a0 Merge 'ti' from https://git.kernel.org/pub/scm/linux/kernel/git/ti/linux.git (ti-next)
-b44a8324e180c514ddd070e748fee947c23f2e1b Merge 'socfpga' from https://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux.git (for-next)
-f27c6841dc91b5dc844f956720bbfd57c792fa0e Merge 'riscv-soc' from https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git (riscv-soc-for-next)
-90d94723fa42afe3b04eed827d75016e4b8f93c4 Merge 'fastrpc' from https://git.kernel.org/pub/scm/linux/kernel/git/srini/fastrpc.git (for-next)
-4fa7c31fc022b82dade0895b704d2187ae30a3e0 Merge 'hisilicon' from https://github.com/hisilicon/linux-hisi.git (for-next)
-
---===============8887178417381806704==--
+--===============7136575135387112543==--
