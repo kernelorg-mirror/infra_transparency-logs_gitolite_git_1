@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3597626897038218092=="
+Content-Type: multipart/mixed; boundary="===============0411619612447435085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Mon, 02 Nov 2026 15:48:22 -0000
-Message-Id: <179363450296.725606.6845009663920446994@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 15:51:48 -0000
+Message-Id: <179363470868.729200.6592773588606356638@gitolite.kernel.org>
 
---===============3597626897038218092==
+--===============0411619612447435085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frank.li/linux
 user: frank.li
 changes:
-  - ref: refs/heads/imx/fixes
-    old: 7ba5290db6bf365e46fb70bf13dc2a47048165ea
-    new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-7ba5290db6bf-6628e7d4c6b2.txt
+  - ref: refs/heads/imx/soc
+    old: 1a0a1dbf72e7ef7a6abbe14987b249f0f7754aa2
+    new: f609bb2dd7388bf5ac2b4e749a9b7eda5930c58a
+    log: revlist-1a0a1dbf72e7-f609bb2dd738.txt
 
---===============3597626897038218092==
+--===============0411619612447435085==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7ba5290db6bf-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-1a0a1dbf72e7-f609bb2dd738.txt
 
-76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
-e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
 32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
 f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
 acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
@@ -1050,5 +1048,7 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
+6bbbc787686b541bc48b17ce7d08cfdbe03ec58c ARM: imx6q: remove unused header includes
+f609bb2dd7388bf5ac2b4e749a9b7eda5930c58a ARM: imx: fix typo "interupt" in comment
 
---===============3597626897038218092==--
+--===============0411619612447435085==--
