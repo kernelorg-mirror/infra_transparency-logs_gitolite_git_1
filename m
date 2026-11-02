@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2065589082334961887=="
+Content-Type: multipart/mixed; boundary="===============7790026562696911802=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Mon, 02 Nov 2026 05:39:09 -0000
-Message-Id: <179359794903.147798.18149772903695002118@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Mon, 02 Nov 2026 05:40:42 -0000
+Message-Id: <179359804271.150555.16090975957561639218@gitolite.kernel.org>
 
---===============2065589082334961887==
+--===============7790026562696911802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
+repo: pub/scm/linux/kernel/git/phy/linux-phy
 user: vkoul
 changes:
   - ref: refs/heads/fixes
@@ -24,9 +24,9 @@ changes:
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     log: revlist-cee9395acd80-6628e7d4c6b2.txt
   - ref: refs/heads/next
-    old: 2e9eff8847a46530ab937696f340b9d5bea2e4ef
+    old: 8f56fdf3d8cb9f1dbdc93bf9ac816698aa6f70b7
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-2e9eff8847a4-6628e7d4c6b2.txt
+    log: revlist-8f56fdf3d8cb-6628e7d4c6b2.txt
   - ref: refs/tags/v7.4-rc1
     old: 0000000000000000000000000000000000000000
     new: bc71431221f5ba8bb33918399552636e059c2c45
@@ -49,7 +49,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 5e036ce12de91c6fd674dad33b169c6150be2a7a
 
---===============2065589082334961887==
+--===============7790026562696911802==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1080,7 +1080,7 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============2065589082334961887==
+--===============7790026562696911802==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -2111,11 +2111,11 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============2065589082334961887==
+--===============7790026562696911802==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2e9eff8847a4-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-8f56fdf3d8cb-6628e7d4c6b2.txt
 
 76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
@@ -3142,4 +3142,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============2065589082334961887==--
+--===============7790026562696911802==--
