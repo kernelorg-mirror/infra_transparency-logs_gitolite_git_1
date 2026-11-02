@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8790591591844187185=="
+Content-Type: multipart/mixed; boundary="===============3303247439229066656=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 02 Nov 2026 12:55:09 -0000
-Message-Id: <179362410982.499230.9197511773019262774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 02 Nov 2026 12:55:12 -0000
+Message-Id: <179362411265.499690.12063335788462133628@gitolite.kernel.org>
 
---===============8790591591844187185==
+--===============3303247439229066656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     log: revlist-7be4bc52fd9e-6628e7d4c6b2.txt
 
---===============8790591591844187185==
+--===============3303247439229066656==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============8790591591844187185==--
+--===============3303247439229066656==--
