@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7646910926602669886=="
+Content-Type: multipart/mixed; boundary="===============4242861889219344589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 02 Nov 2026 10:52:32 -0000
-Message-Id: <179361675211.393266.2776454479483988671@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 10:53:04 -0000
+Message-Id: <179361678488.393771.1538390272993259151@gitolite.kernel.org>
 
---===============7646910926602669886==
+--===============4242861889219344589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,51 +16,47 @@ repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/mem-ctrl-next
-    old: a22355280361d2a376a2020059a2bae11e6cea10
-    new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-a22355280361-6628e7d4c6b2.txt
+  - ref: refs/heads/fixes
+    old: 3bbb9a75ec35e77907b990ae163b596e8e67fb46
+    new: c3cc990de568e949bf6a3cc93c8950bc1bd58dc1
+    log: revlist-3bbb9a75ec35-c3cc990de568.txt
 
---===============7646910926602669886==
+--===============4242861889219344589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1793616749 +0100
+pusher krzk@kernel.org 1793616782 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1793616749-359ad22ddd1c6cdb6968549d6a44abcfa457684d
+nonce 1793616781-67019e4490d6f789f91c7e3a3a4ff1eb3678d3c9
 
-a22355280361d2a376a2020059a2bae11e6cea10 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 refs/heads/mem-ctrl-next
+3bbb9a75ec35e77907b990ae163b596e8e67fb46 c3cc990de568e949bf6a3cc93c8950bc1bd58dc1 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmroa20QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1661EACEU2Ui6MGm0AOXdgcv5It7N493auzaDzTF
-DZFDiOAVuqIvDYAiD9EgXZ4MOLvaip4QRbD3ZVe2quh48RkMHv0WlgizqDE+kJd7
-eUHo0pN/9ceYlJOzRwuAvUCelZII1WHqzozLelVPw0Ydk8x7ScGkW9CmHUIwFsMZ
-QyQnH7Ja8HCeC6Ku1lyXrEfdo7saOkB7Cb1e45YuG/FKL6c5mYOES57Z4FaSd6ZJ
-TipXr/x6N86Tvc2XidNjP7l8LGAW7/uZS53zmOIaMwAg/E2yTkE2z++jU80Lz1rk
-9dUtB0VOPqAH1SPLqZ4ZneHhNZzWL+9TUpSut1RN5oHuB6Q6j1FRgRvS9ptmRxUz
-T5OvzSYrVpRQFDnSlpUrqL4YnoA0iJWroD7ShZqSdgtw9/JJ9UlgRgrR3UEn1KYZ
-U/qBwe22rThP9V1lt5dvftkiNAlA/RCf2loH9A884eP6mJ16554iZKJ5f5Zv7+j1
-f919MQK5VuQzHfnzgzjplJqR4PxNITMokODyYZmy5n03nsjads5GPo+1BbPbNcgg
-kmipOElm4WDHh4+Fndfvs272tvAJ+nicJG+gFh0rbtXy8aYq6gyv/CbJuaTcknxZ
-jmIBzb3rOMpo5qtf4Z+n1IrwTYK8m6MgiPQDLUlOOCJg5OgQUN2HixErbSnp9uzf
-rDJl4S5rjw==
-=BKR/
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmroa44QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD11nZD/4yTD/W92Oa70nyr6bY2OCN9uffc8ssoNLS
+bPW5fpYkkgaDZDNDLH5jPcZAbiBHF7lmL7/+g70oT232Dse+qBUu7f0eOjAvgj/S
+IzdbTQIYsyVKWQfoMRTGjjewmO5Y6ot5K6yV4K2whhRVFYHmC3pNAO2uXqDxapQi
+b9egEIEObA6zUO2CN8u/yvt6vDTLRd7xwLEXdtZrtV9A2RZ2p1iFqgtGTieyvzJf
+6/MPZ/pTP0Ow0+LVmvyk6OJNMJ1Y1hhBhlmXgUKYThaZd60qHnUwZv6emGM7kO7d
+fo8ivRKzGjg1dyYCaC6EfhcSltKwBmV449x+AfPgdNvro094PAvl4lQ462c/U4U1
+fTIhjOGYpV6P/Uz5+JuhosY/UkqJ1PpO3ABB6ASanMAK+IfLVC6tqc6LixkgED8Y
+MR9koAGM+mB1V5VAb1YcpiPGtRWfMg8rPh2Ys6Vd6Xl1vt14qYPSw5PFa2k+TqAH
+vj7kaxF7BgPCs02jZKgTfdTGe8slGwhzxkWx8GBlMpv31dvNDNXreWPqn7jhoYEo
+eGaQX6VCB2niaKTU3T1i5c0dLg2PMOmRn10F2yiwNtdg5gjy/yV9EQRT01RpXRdM
+e5aYihHC9Mkj8HKwvYLusPhHtGZwy6V+RsYLs4j66uIjq02dHq4ZRIxDOqZbVrAO
+JVMuh9ri8Q==
+=6fx2
 -----END PGP SIGNATURE-----
 
---===============7646910926602669886==
+--===============4242861889219344589==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a22355280361-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-3bbb9a75ec35-c3cc990de568.txt
 
-76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
-e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
-32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
-f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
 acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
 7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
 ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
@@ -1081,5 +1077,9 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
+c5f343c189aa30285e7c73dbf2f185720467794b memory: tegra: Shut down Tegra210 EMC timers before teardown
+a94cfeb60dc1a9f1e73718d3ba2f9e70834a6b90 memory: fsl_ifc: guard optional NAND IRQ cleanup
+21250426a8469d3bc43c2f0c69ed5497ee9ff7d4 memory: tegra: fix device_node leak in tegra186_mc_probe_device()
+c3cc990de568e949bf6a3cc93c8950bc1bd58dc1 memory: atmel-ebi: Disable SMC clock on probe failure
 
---===============7646910926602669886==--
+--===============4242861889219344589==--
