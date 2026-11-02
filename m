@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0584899364441280054=="
+Content-Type: multipart/mixed; boundary="===============0872155608234875110=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 02 Nov 2026 08:43:58 -0000
-Message-Id: <179360903829.284503.17238672310908756257@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 08:44:07 -0000
+Message-Id: <179360904706.284813.10120397153807930789@gitolite.kernel.org>
 
---===============0584899364441280054==
+--===============0872155608234875110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/gnss-next
     old: cee9395acd8043be0644b25c34bfa86623f2b935
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     log: revlist-cee9395acd80-6628e7d4c6b2.txt
 
---===============0584899364441280054==
+--===============0872155608234875110==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============0584899364441280054==--
+--===============0872155608234875110==--
