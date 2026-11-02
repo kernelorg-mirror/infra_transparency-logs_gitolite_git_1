@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 02 Nov 2026 12:00:27 -0000
-Message-Id: <179362082764.454483.9822880058186552429@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 02 Nov 2026 12:04:10 -0000
+Message-Id: <179362105065.455758.18289468687719180859@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: 21f57ec673a1917547c808cfa81890485fffa03b
-    new: 263a5514cb9535380734b5e300b298f82570eb57
+  - ref: refs/heads/dev-test
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    new: 8dbec9a64c88ee3ccba4b96ed337a8e467890fc5
     log: |
-         263a5514cb9535380734b5e300b298f82570eb57 net: lan966x: don't free XDP buffers in fdma tx clear with budget 0
+         8dbec9a64c88ee3ccba4b96ed337a8e467890fc5 erofs: apply the stacked fs check to extra file-backed devices
          
