@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6067353751455674178=="
+Content-Type: multipart/mixed; boundary="===============7146904541780720390=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 02 Nov 2026 20:55:01 -0000
-Message-Id: <179365290187.972709.8604212103038264727@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 20:55:04 -0000
+Message-Id: <179365290485.974642.8204986631902234284@gitolite.kernel.org>
 
---===============6067353751455674178==
+--===============7146904541780720390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-i_lock-contention
-    old: e9421df383e301e10b625a672245034a6d8c9060
-    new: 5e1926f434dfd8b2ca99607bc719820a9a64fdb9
-    log: revlist-e9421df383e3-5e1926f434df.txt
+  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-ff-layout-contention
+    old: e32982faf5290279a86319310aaeb522f3602644
+    new: 86bdb19a37d26fe0ff534440d6e9b3dec5e753f0
+    log: revlist-e32982faf529-86bdb19a37d2.txt
 
---===============6067353751455674178==
+--===============7146904541780720390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9421df383e3-5e1926f434df.txt
+Content-Disposition: attachment; filename=revlist-e32982faf529-86bdb19a37d2.txt
 
 85942831ccac547befca21d2d7a334ac62361ce6 NFS: don't release the open context of a failed write from writeback
 2a80cc55ae2b0f095463215b9ff0132ace99102f NFS: don't run the release of a WRITE or COMMIT in the submitter
@@ -54,5 +54,12 @@ aec0da83874beb01b1cfb590f849e958c1831dfc NFS: don't take inode->i_lock to re-mar
 50111bc62fc93110f8cac3ad79f4a757d7c1cc95 NFS: skip inode->i_lock when a delegated timestamp is already current
 96f1254d1a252cafe6d068f90c7fa0b9091a46da pNFS/flexfiles: don't take inode->i_lock to release empty commit info
 5e1926f434dfd8b2ca99607bc719820a9a64fdb9 pNFS/flexfiles: look up the cached layout segment without inode->i_lock
+4bcc7e78e5ac5fb147b2d6f8b55e934fcaf16fad pNFS/flexfiles: don't dirty the layout segment on every data server RPC
+c27ae57eb14a45c3bd223f8845ad14f1751d4396 NFS: only account read_io/write_io when an I/O mdsthreshold is in use
+4d99d753ddf71c82b6f18d0b0f8038bcab08125c NFS: finish stable O_DIRECT writes without the nfsiod round trip
+1bcb6c8ff324429a19e5b370a284f0ddb9199847 NFS: admit O_DIRECT I/O without taking inode->i_rwsem
+cced24b0cc0ae84250fa9fdef146d8af0e65dad5 pNFS/flexfiles: give the read-mostly layout segment fields their own cacheline
+e22ab8e084773586c4811adcbc3d5be5d1b1bb04 pNFS/flexfiles: bound data server RPCs with pg_bsize instead of a per-page test
+86bdb19a37d26fe0ff534440d6e9b3dec5e753f0 pNFS: hand the page I/O descriptor's layout segment reference to the header
 
---===============6067353751455674178==--
+--===============7146904541780720390==--
