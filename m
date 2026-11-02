@@ -1,66 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============8073201098307644483=="
+Content-Type: multipart/mixed; boundary="===============3483209982873486321=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 02 Nov 2026 16:25:16 -0000
-Message-Id: <179363671600.758605.1914718533547004968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/infra/cgit
+Date: Mon, 02 Nov 2026 16:28:07 -0000
+Message-Id: <179363688794.760034.5329957951382953536@gitolite.kernel.org>
 
---===============8073201098307644483==
+--===============3483209982873486321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/infra/cgit
+user: mricon
 changes:
-  - ref: refs/heads/master
-    old: 948f8660b90b5d413c41f8fb04fbd33fbac0c2b5
-    new: ca1f3afafcaa145cef4940ef25adf2ac2f5a09be
-    log: |
-         18d3630f823ab4425eeb47413c863a2408b9e9f4 CVE-2026-99239: Add CVSS 3.1 score (7.8 HIGH)
-         ee7d1ade8ce9da478f840baec5d6966f210b1b44 CVE-2026-99238: Add CVSS 3.1 score (7.8 HIGH)
-         d50008703c27992087746df4ab39e28ff13f279a CVE-2026-99237: Add CVSS 3.1 score (7.8 HIGH)
-         13074ab63011305581da81887be5b83103e46fcd CVE-2026-99218: Add CVSS 3.1 score (7.0 HIGH)
-         131d2f837789e239f3f1891d13b40ec1fd308a66 CVE-2026-99236: Add CVSS 3.1 score (7.8 HIGH)
-         22ea097f100595fe2576144066cb600cda8fe26a CVE-2026-99224: Add CVSS 3.1 score (7.0 HIGH)
-         382527fb95d6be4390c97ebb5664c30dde053a76 CVE-2026-99227: Add CVSS 3.1 score (7.8 HIGH)
-         b14dc43a74e8300ea6c5335d7b0635fe91dd15fe CVE-2026-99235: Add CVSS 3.1 score (7.8 HIGH)
-         48ff48b58c21521b1d3bcb05b6d92f942bf95084 CVE-2026-99233: Add CVSS 3.1 score (7.8 HIGH)
-         addec30904f84860f9a519e7384910116e0cbf81 CVE-2026-99231: Add CVSS 3.1 score (7.8 HIGH)
-         ca1f3afafcaa145cef4940ef25adf2ac2f5a09be updates for some 7.3.1 and 7.2.13 cve ids
-         
+  - ref: refs/heads/korg-infra-deployment
+    old: bdf620ee4740b18a17ab95cdeb24b104a5e5d572
+    new: ccf4ddb8139ddbbdc1a7e00483041485bae7a0db
+    log: revlist-bdf620ee4740-ccf4ddb8139d.txt
 
---===============8073201098307644483==
+--===============3483209982873486321==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-bdf620ee4740-ccf4ddb8139d.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793636711 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1793636712-00ce37a531894fe0869a04de55d5027cfc60afcc
+2e40a36b56f26593fe8fab4f07ed831395d5f0d2 css: Support for dark mode
+bd308735b3cfd40a57b20723a6e6862bf8303dc0 cgit: Fix guessing default branch
+599e3df55ff0ce7387172c16cba269d545019ed3 html: use buffered stdio
+156e859aad4c98a169ce4c49e839cae41a28f432 ui-shared: fix the Expires header on error pages
+2a299e141eac453fbb19078bd71651873ae95ae7 git: update to v2.55.0
+d260731b378f6d93e4728accec5acd4bd3255190 git: update to v2.56.0
+2eb354734c29ba2b39de1ba2596557591b69f322 cgit: skip the notes system when the repository failed to open
+5d1ea8dd2edde0dab0bc0abebe1d5e1fb57e20a1 cgit: do not let a stale lockfile pin the cached repolist
+9e776607ae2bd753d810f9fcad235b7b4d43acbc cgit: zero-pad the cached repolist filename
+ed6ff2c8d2c6acc67f25b294a866d059298eaac4 cache: don't fill a slot we no longer own
+a3eff940174009d81201ba988272ba59dffa05a9 tests: exercise the lock_slot() rename race directly
+8ca5b523b9159e5fb579fec6ada92d112aadbeae ui: optionally refuse objects not reachable from any reference
+c571ac4d9b2bb1dc5125f7a18158589576ba983e ui-bugs: add git-bug browsing via a Lua filter
+d00ca95a3946f486df617416c1ae90ae99d89636 filters: add an example git-bug filter
+5aff4aab5a1deb7b15340b34dd6d1cd86a9a3ad6 tests: cover the bugs page access control and config
+69f3fc1f015b7d93e9f17564d4f97ebfcd5cb75c cgit: vendor prism.js for self-hosted client-side highlighting
+38871d7c75b19ed433f78e0a2d5d949ca9a9b344 ui-tree: highlight blob content client-side with prism.js
+b73d6d0f03a2a5444a995c151d6ad4f1e8c0bce0 tests: add t0112 for client-side source highlighting
+910a653c140304c8ce2a438c3cc211c6c095f9de shared: let the reachability check examine any repository
+3860088092c268bcad92041253b7710e5e4216c7 ui: redirect requests an upstream repository can answer
+d7c72f7123e40444cd281093f0ab01339d1fa54f ui-shared: don't pin a revision in the branch switcher
+8b7448885add412c16b5cc01f934572140e39903 ui-shared: reconcile a branch named alongside a commit id
+6a2625269fb70c3be9db66d1db8ddc60f2c57c5c ui-shared: collapse an explicit refs/heads/ prefix on h=
+c952d74616234414246bdf2f778f9efb10cd1e71 ui-shared: redirect away a no-op path= on commit/diff pages
+94ebf72eef6a74d5f90faba506dc6b07960cb12d ui-shared: redirect an abbreviated id= to its full form
+91f55b29ae15a7d0dbc4ec8d5edf7ae99f93aa09 ui-shared: abbreviate commit/diff pages a canonical repo publishes
+c3f037a09d374231c599aa71c353d207801405cd ui-shared: let a resolved branch vouch for the object on it
+984355c1d65542af933fb481481d7ddf74314714 tests: cover the reachability check with borrowed commit-graphs
+ccf4ddb8139ddbbdc1a7e00483041485bae7a0db shared: let the repository's own commit-graph vouch for reachability
 
-948f8660b90b5d413c41f8fb04fbd33fbac0c2b5 ca1f3afafcaa145cef4940ef25adf2ac2f5a09be refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrouWcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MqkQAKWGnxr8NRO98ta+Zv4V
-1HU/LVf1DmoX7rVYIjBOFVVUjIZHd5JTtp7Lwi7mJdbpc9wptWho36T353jUj7D3
-K7cUWxBSs78EU165BQcDGsAClAnfU2Y18vRU5lT7KpnaDFwZdigdJiOLaj+LQoUL
-VqGUmFDg0eysdSYVw4b+SY0oflUlgDI1JPUbgscukA4C5GSeMkJEFwKcKVY2VwAO
-6Cyx4zcuJmxVyPj8Qx0wMucKxmBNBER1rvKUwhYxbKOladMggoVx2V6aCazY+7Am
-QZ5TltYJ4SSH9LcuUklfjznsOoO1xhTpvLUSIfdL03JYUAnqZEOD63BJb9TDovLQ
-QNOMGNFBnGio/cHvUFm++6oToIDyNGDkd34C8XrSSucpMXUal9Ooj7T6t9ckW9MC
-qeeNeplF5U+EC0Yuq4XsVJECdZzjD4VMxjT1aWb1HTWhqkFvkIZHLsTF6v9/aJTy
-Uy7qU1yBYH65qLYNjbZwOPjHg3zNjOOTgc2QLp+wd4c98L0M+TJdbEda5K5uG7H0
-llX2V0YIsZla1rYeCrGiZTFXFiQva7I+nmR7yXUA2dhxZHeyAHNyjgJOSMyB/Ejs
-nrjwJ0oJOaw2fs/tnUKYxJxH8TVoV5YGCMwA+G0zrsKt2SDAhCV4y/zImo+ZbnjA
-KymwIoyt6RU7oTaYX+5Gqix6
-=jKEm
------END PGP SIGNATURE-----
-
---===============8073201098307644483==--
+--===============3483209982873486321==--
