@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2726121979409031511=="
+Content-Type: multipart/mixed; boundary="===============4912274197659355485=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 02 Nov 2026 18:22:43 -0000
-Message-Id: <179364376304.856495.8276131123739252561@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 18:24:39 -0000
+Message-Id: <179364387916.857387.9182883425476889886@gitolite.kernel.org>
 
---===============2726121979409031511==
+--===============4912274197659355485==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/kvm-arm64-set-id-regs-aarch64
-    old: fd069f49c4bb3b2510d210d604c5f7afbae2071c
-    new: 9c04d56b862bc5bd7b6d457e8cf47c75885ca2b5
-    log: revlist-fd069f49c4bb-9c04d56b862b.txt
+  - ref: refs/heads/arm64-fp-stress-kvm
+    old: 4147d473423a61d2b7200f25178383f695d7e651
+    new: 18ee364a1ec504fb1d84962fd4088a82b08171f2
+    log: revlist-4147d473423a-18ee364a1ec5.txt
 
---===============2726121979409031511==
+--===============4912274197659355485==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fd069f49c4bb-9c04d56b862b.txt
+Content-Disposition: attachment; filename=revlist-4147d473423a-18ee364a1ec5.txt
 
-acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
-7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
-ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
-c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
-226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
-07c81e0196cc8fbc261095c9f712e39b63e3c780 mm/sparse: move mem_section init to sparse_extreme_init()
-89e2b6e3d345cd4dca822a5ccea764ee7f9e0ae4 mm/sparse: refactor sparse_sections_init()
 d8ab71169ce579871d196a4178c51afd1e0d8b32 mm/sparse: move initialization of section metadata to sparse_metadata_init()
 31b3829703ec5a041c01162f8196fc49eb930b17 mm/sparse: rename and cleanup sparse_init_nid()
 2193260fd4c2173239dab9b7e7ebebdb95e180cc mm/sparse: cleanup sparse_init_one_section()
@@ -1046,9 +1038,17 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-6330800dd6e682980658bbe2f97e80b311d3f274 KVM: selftests: arm64: Improve diagnostics from set_id_regs
-9987b2a83bfae47876f84be46522039f07d8a9df KVM: selftests: arm64: Report set_id_reg reads of test registers as tests
-f9c801b4723406f8dbd11615e92cf261691c00f7 KVM: selftests: arm64: Report register reset tests individually
-9c04d56b862bc5bd7b6d457e8cf47c75885ca2b5 KVM: selftests: arm64: Make set_id_regs bitfield validity checks non-fatal
+8663d283d25e18b0344d16d1114f8e200a8ee53d kselftest/arm64: Add coverage of interactions with KVM to fp-stress
+c13f7da99d3af74a03348fbf1e1781218c7d6c16 kselftest/arm64: Factor Linux syscalls out of asm-utils.S
+f9e12aec267f099d5e23b59c017ba74cd9ddd432 kselftest/arm64: Factor shared signal handlers out of fp-stress loads
+87651de48c505321691ec5d6bb41f1a0133275d1 kselftest/arm64: Move exit calls out of fp-stress loads
+598f5cc9370be0b59c378bf3b3cf13aee77d9e8c kselftest/arm64: Use exit_error() rather than SIGABRT in fp-stress
+dfe7614ee4278e3a8b53e09ddba9f2749b381f32 kselftest/arm64: Exit with an error code on data mismatches in fp-stress
+f663a70c07290d9a5cf952aba5d9e40c87fa0e6f kselftest/arm64: Factor startup code out of fp-stress load programs
+806a23670c7eb1b3ffc56c7fba4a16946accc143 kselftest/arm64: Remove the sched_yield()s from the fp-stress loads
+b45f73658dc7b3ee2eef5ddd389bb9bbdc7e95c5 kselftest/arm64: Add a very simple VMM for use in fp-stress
+fa494f0aa09ad2c7a37291d1eb0456f72c92f7a2 kselftest/arm64: Build KVM guest versions of the fp-stress loads
+3fade065a53e95fb762ad03a4a1900417596e22f kselftest/arm64: Use execv() to start fp-stress test loads
+18ee364a1ec504fb1d84962fd4088a82b08171f2 kselftest/arm64: Run KVM guests from fp-stress
 
---===============2726121979409031511==--
+--===============4912274197659355485==--
