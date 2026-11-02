@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8593282809234393514=="
+Content-Type: multipart/mixed; boundary="===============5544331857851711138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Mon, 02 Nov 2026 15:48:14 -0000
-Message-Id: <179363449407.725131.9632926847221977432@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 15:48:16 -0000
+Message-Id: <179363449697.725262.15199141861150226951@gitolite.kernel.org>
 
---===============8593282809234393514==
+--===============5544331857851711138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frank.li/linux
 user: frank.li
 changes:
-  - ref: refs/heads/imx/drivers
-    old: e3631d0242842940f9e902afaea98202e56277e8
-    new: 5085a5c7f1eb324c67ec0de5302411268b229693
-    log: revlist-e3631d024284-5085a5c7f1eb.txt
+  - ref: refs/heads/imx/dt
+    old: ec7b37c768d34107d06bd629d05cde0e2218ee9a
+    new: e8eb39a12608e20287dbef04594b56e0fc4e51ca
+    log: revlist-ec7b37c768d3-e8eb39a12608.txt
 
---===============8593282809234393514==
+--===============5544331857851711138==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e3631d024284-5085a5c7f1eb.txt
+Content-Disposition: attachment; filename=revlist-ec7b37c768d3-e8eb39a12608.txt
 
-f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
-acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
-7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
-ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
-c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
-226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
 07c81e0196cc8fbc261095c9f712e39b63e3c780 mm/sparse: move mem_section init to sparse_extreme_init()
 89e2b6e3d345cd4dca822a5ccea764ee7f9e0ae4 mm/sparse: refactor sparse_sections_init()
 d8ab71169ce579871d196a4178c51afd1e0d8b32 mm/sparse: move initialization of section metadata to sparse_metadata_init()
@@ -1047,8 +1040,15 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-f144d9f031b01e945db4fceaf1247513556e4c64 firmware: imx: scu: publish the SCU IPC handles with release semantics
-1c41569e69f527d0dd91337da5ec005575bf5b64 firmware: imx: sm: publish the protocol handle after the ops pointer
-5085a5c7f1eb324c67ec0de5302411268b229693 soc: imx8m: fix clock reference leak in imx8m_soc_prepare()
+2b5d7292eb54b48c89245a38d705fb928f2e13c6 ARM: dts: imx6q-apalis: enable SPI1 and SPI2
+2aeb0363020336e65c52c5725fa763f2623b6033 ARM: dts: imx6ull-colibri-iris: enable SPI
+2d41ada5b279530b05781a6e06a4b03c99adac99 ARM: dts: imx6qdl-phytec-mira: Add touchscreen-inverted properties
+32dda15725630801e3c5fc0f51ca028ebb9aab6f ARM: dts: imx6qdl-phytec-mira: Fix uart3 CTS/RTS pinmuxing
+08921162fb0eed94ee5128e905142c818517546a ARM: dts: imx6ull-tarragon-common: Fix Ethernet PHY issues
+753870101ac827a7ed0868a3f30391726916428d ARM: dts: imx6ull-tarragon-common: Disable unused LDOs
+a8023e1dcfb80ba5f70c67dcc623ae06e5912f22 ARM: dts: imx6ull-tarragon-common: Fix i.MX6ULL DVFS
+c0ebb143bc9c6e55df1a5d26f5823ddeaa3a084e ARM: dts: imx6ull-tarragon-common: Fix vmmc supply
+c083c944435b065f30a4607aa4dc901eed4b16d1 ARM: dts: imx27-eukrea: Remove invalid spi-cpol
+e8eb39a12608e20287dbef04594b56e0fc4e51ca ARM: dts: apf6: fix Ethernet support
 
---===============8593282809234393514==--
+--===============5544331857851711138==--
