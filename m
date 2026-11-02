@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2970868706873399953=="
+Content-Type: multipart/mixed; boundary="===============5112023755492642014=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 02 Nov 2026 16:29:02 -0000
-Message-Id: <179363694219.760707.8066892217280810548@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 16:29:36 -0000
+Message-Id: <179363697672.761036.17516595252953143370@gitolite.kernel.org>
 
---===============2970868706873399953==
+--===============5112023755492642014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,37 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev
     old: 83f32c773255720a661aa45d83e36278135f23f5
-    new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-83f32c773255-6628e7d4c6b2.txt
-  - ref: refs/tags/v7.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: bc71431221f5ba8bb33918399552636e059c2c45
+    new: 93cf30288b5ddc8e28d1393e5e3453e6c35563cf
+    log: revlist-83f32c773255-93cf30288b5d.txt
 
---===============2970868706873399953==
+--===============5112023755492642014==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-83f32c773255-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-83f32c773255-93cf30288b5d.txt
 
-d42032c0fe3ca007986c1229128775af0340fbec mm/hugetlb: don't clear the resv_map of a VMA whose lock is held
-f61e1cf15fb44f9cf89d43d8ef01f926322bb1c4 mm/hugetlb: fix endless write fault on a leftover uffd bit
-811777d82038d4fd3f5d3bf986f682df463b6f21 mm/hugetlb: tolerate uffd bits set without uffd for PROT_NONE PTEs
-c37e9d9411a12240a60ca3796d3cbb496e6258a2 mm/hugetlb: tolerate UFFD_WP markers outside uffd-wp VMAs
-f6605fc6b14bd5fc0fea90fc8226573adcec352b mm/hugetlb: don't leave a uffd-wp marker when zapping an RWP entry
-cc078ca0b5b79b4a9e514b7f1b489f2afc83b195 mm/mremap: fix calling fixup_hugetlb_reservations() on the wrong VMA
-92635a3ffe8bb48304f50625dd591a27d7505698 mm/hugetlb: account migration target folio in per-node NR_HUGETLB vmstat
-02e0c8cc2815f0082b5b5aabafe3b46688082adc mm/memcg: migrate per-node hugetlb lruvec stat together with hugetlb folio
-bd212a7dbdb151e9bacb02857a222e25b28c229d kselftest: mm: return fail when child test result is fail in khugepaged
-f6c9f1aab305e51ef5fed624a4cfd5a9dfd9f72a kselftest: mm: fix intermittent failure khugepaged test
-127293b445efb647119bf1a20e6dc943a92b0f12 memcg: keep swap charging under RCU protection
-ea74172be27d19d72a72647d7b1ef131662d1ded memcg: base swap charge accounting on memcgid root status
-0262a5ee845c9c6b0a68ee587fffd6df01da19b5 memcg: manipulate memcg private ID references by ID
-8290f45995f5700b87a47b1ee8c97300dfb66dda memcg: move memcg private ID refcount to objcg
-c2d4ccfbba3fab536d7fccd8d96675d325bb4bc5 mm: fix typos in various comments
-bdf6fbf21268591a7a7c8f4101c37f936bc57b8b mm/hugetlb: fix overbroad MMU notifiers for unshared PMDs
-52b64a9a7eedd663a88e519384e72204eac99a16 selftests/mm: fix mlock2 errno handling and false PASS on ENOSYS
 f60ee3f51f28896137647ccb51ede21f2e15b535 kselftest: mm: prevent random failure of huge page split for khugepaged
 6d6404c897a2c609cb88bd08d9fa9b2e8e9cd384 kselftest: mm: replace usage of /proc/self/smaps for __check_pmd_huge()
 f47d99c9beb3dbc05b1d5ff199c6da95acaef9b4 kselftest: mm: integrate huge page checks
@@ -1053,5 +1033,22 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
+6b3a7071b0198b6cc7c391883daf73391c8c9122 f2fs: extend folio state for large folio write path
+f7d5768d8e674a39122e4122b090ae589a751ed2 f2fs: carry subpage offset and count in write IO
+97c64ba5ddb76f7b7b1db4860310b6227278c6b3 f2fs: support regular file buffered writes on large folios
+8ac2add73d7664cdcd97c46e51fbe7dc3397ac59 f2fs: support atomic file large folios buffered write
+ea3356a5f783c4b423156ced921695b701d61fdc f2fs: support large folio writeback
+3d0b89299f97d3394556d8a357c5740df26bad24 f2fs: account large folio dirty data at block granularity
+ef600b86fa0dd6069be7ae94ddad0f3d1bfb09cc f2fs: prepare mmap write faults for large folios
+943111154f0f88eb93d043b6673fc0bc58d13a14 f2fs: make GC migration large-folio aware
+3db2859c36ab40ee5039f2258c613f1a6a85eb2b f2fs: optimize small block size large folio read
+3a54a923164ef6c4ac28992a78b2df1b161548a7 f2fs: support partial uptodate large folio read
+a17b730b74d2cd921f4d1e7f1bcefd730fd8c4fa f2fs: handle partial truncate of large folio dirty subpages
+feb4f88c369a9e0c0d9d76606443dfd77dfbd373 f2fs: fix zeroing paths for large folios
+25076e575f0e40bca117d51393308a48308a6ff6 f2fs: handle block cloning within the same large folio
+987f5d0098a6d2054ea2c26e031159ccf4e5eb06 f2fs: allow large folio support to writeable files
+cd1885ba695da5e29d7a094d6af947f8160511fe f2fs: make compressed files compatible with large folio
+31fa11a9401d3e9bc785246c7f937d26919eb96e f2fs: do f2fs_zero_post_eof_page for all the time
+93cf30288b5ddc8e28d1393e5e3453e6c35563cf f2fs: flush devices when a sync checkpoint is skipped
 
---===============2970868706873399953==--
+--===============5112023755492642014==--
