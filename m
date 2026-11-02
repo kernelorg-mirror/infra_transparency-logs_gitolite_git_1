@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4015166229616384060=="
+Content-Type: multipart/mixed; boundary="===============2451975591673899689=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 02 Nov 2026 17:43:49 -0000
-Message-Id: <179364142930.823264.1495623328087438331@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 17:48:23 -0000
+Message-Id: <179364170378.826984.369226853635675347@gitolite.kernel.org>
 
---===============4015166229616384060==
+--===============2451975591673899689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rpmsg-next
-    old: 7dd4cffdf4c2a496ccf783303a03d687a2127baf
-    new: 39906a171f91c862d7de436bcf9b83a0c9bd89f6
-    log: revlist-7dd4cffdf4c2-39906a171f91.txt
+  - ref: refs/heads/rproc-next
+    old: 82d0bbd67c42a44f0e18b0b7b0da0f3ace0c9527
+    new: 8396089f91fa07dd77b580e045334e670f782ff8
+    log: revlist-82d0bbd67c42-8396089f91fa.txt
 
---===============4015166229616384060==
+--===============2451975591673899689==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7dd4cffdf4c2-39906a171f91.txt
+Content-Disposition: attachment; filename=revlist-82d0bbd67c42-8396089f91fa.txt
 
-e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
-32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
-f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
 acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
 7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
 ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
@@ -1049,6 +1046,9 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-39906a171f91c862d7de436bcf9b83a0c9bd89f6 rpmsg: virtio: Bound the buffer sizes read from config space
+695aa66b8e278af935b98a2dca5b5b9f10a71eb9 remoteproc: mtk_scp: Fix bounds check in mt8183_scp_da_to_va()
+cf3d1097cbdb84650be45ea6cbd05c8898509cc9 remoteproc: mtk_scp: Fix bounds check in mt8192_scp_da_to_va()
+ebb21cc5d1c0950a8cb35f5f2870593f97724973 dt-bindings: remoteproc: imx_rproc: Document memory-region-names to avoid implicit ABI
+8396089f91fa07dd77b580e045334e670f782ff8 remoteproc: imx_rpoc: Use memory-region-names to avoid implicit ABI
 
---===============4015166229616384060==--
+--===============2451975591673899689==--
