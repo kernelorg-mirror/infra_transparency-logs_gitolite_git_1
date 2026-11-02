@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3661170035033822363=="
+Content-Type: multipart/mixed; boundary="===============9033244898973679299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Mon, 02 Nov 2026 10:55:36 -0000
-Message-Id: <179361693649.398641.10178997465242511080@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 10:55:48 -0000
+Message-Id: <179361694832.398875.12135267986424439640@gitolite.kernel.org>
 
---===============3661170035033822363==
+--===============9033244898973679299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ukleinek/linux
 user: ukleinek
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: 00e917df050d79ac26ec700717680ad6421d2808
+  - ref: refs/heads/pwm/for-nexxt
+    old: 9a5265ee781bd9dbd48d4a0ea880ffa803dbc2d7
     new: 9ad5602d4943635ea2b3b73d1a720161f88da1a1
-    log: revlist-00e917df050d-9ad5602d4943.txt
+    log: revlist-9a5265ee781b-9ad5602d4943.txt
 
---===============3661170035033822363==
+--===============9033244898973679299==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-00e917df050d-9ad5602d4943.txt
+Content-Disposition: attachment; filename=revlist-9a5265ee781b-9ad5602d4943.txt
 
 f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
 acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 83d417d19e62314b97800ae62482607880a8dfe1 dt-bindings: pwm: Convert NXP PCA9685 PWM controller to DT schema
 9ad5602d4943635ea2b3b73d1a720161f88da1a1 pwm: tegra: Fix value discarding for duty and period
 
---===============3661170035033822363==--
+--===============9033244898973679299==--
