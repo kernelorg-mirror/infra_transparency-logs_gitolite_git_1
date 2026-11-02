@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 02 Nov 2026 00:03:35 -0000
-Message-Id: <179357781535.4077849.7911939407153911686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Mon, 02 Nov 2026 00:05:50 -0000
+Message-Id: <179357795006.4080518.7408198719381681697@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    new: abad490d68499c980b12217afde5f68e0737a193
+  - ref: refs/heads/master
+    old: 5b96632457e4ccae88ecb751cf48176b2e3629a7
+    new: 1d55411e8b677c67de7a20618d95dc114796de26
     log: |
-         58680cc2af0f298df3313a757e66b68a26eecbea driver core: attribute_container: document return values
-         abad490d68499c980b12217afde5f68e0737a193 debugfs: clarify return values when disabled
+         88e2c896d8598a49da1e01f27ce23acd5dc04b32 bpf: Keep the valid bytes of a packet pointer in scalar evolution
+         61f833f968fecbaa4fd98881d7213d972dc01717 selftests/bpf: Test the valid bytes of a packet pointer in a counted loop
+         a620922325d5e8d14c3020792730c2e4327a315f Merge branch 'bpf-keep-the-valid-bytes-of-a-packet-pointer-in-scalar-evolution'
+         91068ed2d3ee0713d7566c7977b995f8a0936bea bpf, x86: Fix bpf_throw() in a prog with a private stack
+         6cc0cf0a6fb087f1979dfad5c1e13a41e57f55d7 selftests/bpf: Test bpf_throw() in a prog with a private stack
+         1d55411e8b677c67de7a20618d95dc114796de26 Merge branch 'bpf-x86-fix-bpf_throw-in-a-prog-with-a-private-stack'
          
