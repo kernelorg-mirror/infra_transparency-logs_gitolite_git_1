@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6954601637080042635=="
+Content-Type: multipart/mixed; boundary="===============2803875946575719576=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 02 Nov 2026 02:17:47 -0000
-Message-Id: <179358586791.3565.4504685573337146250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
+Date: Mon, 02 Nov 2026 02:18:49 -0000
+Message-Id: <179358592991.4095.7296954515225622948@gitolite.kernel.org>
 
---===============6954601637080042635==
+--===============2803875946575719576==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/sre/linux-hsi
+user: sre
 changes:
-  - ref: refs/heads/master
-    old: c03c1a14507dfaf8b856c2608f9ac216021fc222
+  - ref: refs/heads/for-next
+    old: e81250ec6b69248b00d38c523dc6a13efaf38aab
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-c03c1a14507d-6628e7d4c6b2.txt
+    log: revlist-e81250ec6b69-6628e7d4c6b2.txt
 
---===============6954601637080042635==
+--===============2803875946575719576==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c03c1a14507d-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-e81250ec6b69-6628e7d4c6b2.txt
 
 76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============6954601637080042635==--
+--===============2803875946575719576==--
