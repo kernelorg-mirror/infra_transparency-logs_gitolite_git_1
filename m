@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Mon, 02 Nov 2026 04:03:38 -0000
-Message-Id: <179359221823.80587.18323857080259954537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Mon, 02 Nov 2026 04:24:16 -0000
+Message-Id: <179359345695.94608.4986475909227236750@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/master
-    old: 6dbe09afdf4e4742fc081ddfce4694e8b65f6555
-    new: 18519af74db061213de2b4b0d01616cafe25c8ee
+  - ref: refs/heads/for-next
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    new: 3110316fb834e17670ba2690ee75fb05d92b3ef1
     log: |
-         18519af74db061213de2b4b0d01616cafe25c8ee dt-bindings: input: mediatek,mt6779-keypad: add the MT8173 keypad
-         
-  - ref: refs/heads/next
-    old: 6dbe09afdf4e4742fc081ddfce4694e8b65f6555
-    new: 18519af74db061213de2b4b0d01616cafe25c8ee
-    log: |
-         18519af74db061213de2b4b0d01616cafe25c8ee dt-bindings: input: mediatek,mt6779-keypad: add the MT8173 keypad
+         3110316fb834e17670ba2690ee75fb05d92b3ef1 firewire: cdev: Check return value in ioctl_get_cycle_timer()
          
