@@ -1,65 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3813797526128663245=="
+Content-Type: multipart/mixed; boundary="===============3661170035033822363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Mon, 02 Nov 2026 10:55:24 -0000
-Message-Id: <179361692415.398378.8255167209301408163@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Mon, 02 Nov 2026 10:55:36 -0000
+Message-Id: <179361693649.398641.10178997465242511080@gitolite.kernel.org>
 
---===============3813797526128663245==
+--===============3661170035033822363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/next/soc-drivers
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-cee9395acd80-6628e7d4c6b2.txt
+  - ref: refs/heads/pwm/for-next
+    old: 00e917df050d79ac26ec700717680ad6421d2808
+    new: 9ad5602d4943635ea2b3b73d1a720161f88da1a1
+    log: revlist-00e917df050d-9ad5602d4943.txt
 
---===============3813797526128663245==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1793616921 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1793616921-391ce0cc08ea5cc63839439b2f48952c751a7cc6
-
-cee9395acd8043be0644b25c34bfa86623f2b935 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 refs/heads/next/soc-drivers
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrobBkQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD15C0D/97FVgRKfS2iTcUxO54yPjWi3riFW9I+tRt
-hSvntoeGDSzG3oQJBRt5QHSmJoN86uwb92GF1LoHWt+9YdpwH6URAessTfXDftiO
-SpHsILZqExTY04fqPHDPo6lZbBhNWZb/CE3d7ND1HZAutkG82QCppItbC4T8okdp
-4vkg4+jsIBp0Qdxclmkv3Ma+dOU1Kuoe0Fb1SoeJgH1LvvZ+NPnYtLdBEl8cF/N1
-kYRngpU3VrBkecOJj98CkZdPBE4FnEvhobx8uDcsyys7wMj9t0HPO0mQbOKiDrvG
-25bAHQfx+gbNjiEJVVrl9N6diyEpkjfjNaQ4ZawVUsZR1mjLon9IHOJMw/3qz8il
-iHv5IWoIxmNnsYtle7dL7CJ7DliRCbBHUSRqL0fkybkT5JwqvjlyqTFd0dGbIE21
-2t1wSUVNcSaPsVtCJ7r4TE1s8BS4iHL9WSWyLbh8v1YZ9elgmWcy5RE66V30CyU0
-pUSKZeJ4NNuoqmd+oDa1DScsZnPHfHNXCSuYep3J2nevQNKev49tcD9YKjW1zdbp
-xE40pF17tYDrdSryhoVUVxGfe3PaIzNzcNB9oofa1cyn1UZdss24tJe5jNfwME/x
-zm9S4hmnSZhcjrM+3/h+gPDiXzI5S60fo9a8EhPDeKA6pkAGkGVUhQE/FXo6H7yT
-3WqbG9EPpw==
-=vB9j
------END PGP SIGNATURE-----
-
---===============3813797526128663245==
+--===============3661170035033822363==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cee9395acd80-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-00e917df050d-9ad5602d4943.txt
 
-76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
-e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
-32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
 f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
 acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
 7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
@@ -1081,5 +1047,8 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
+39c58af419d9f6b0356cd7e10ff5abb3e60dcffb pwm: meson: Convert to waveform API
+83d417d19e62314b97800ae62482607880a8dfe1 dt-bindings: pwm: Convert NXP PCA9685 PWM controller to DT schema
+9ad5602d4943635ea2b3b73d1a720161f88da1a1 pwm: tegra: Fix value discarding for duty and period
 
---===============3813797526128663245==--
+--===============3661170035033822363==--
