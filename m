@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3163169457960812394=="
+Content-Type: multipart/mixed; boundary="===============8248685614112894737=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 02 Nov 2026 08:43:38 -0000
-Message-Id: <179360901860.284026.11237922015096057889@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 08:43:48 -0000
+Message-Id: <179360902813.284306.16479524631338716551@gitolite.kernel.org>
 
---===============3163169457960812394==
+--===============8248685614112894737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/usb-next
     old: c339f4010dea8b0d754f84ace70cd1b089878ef8
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     log: revlist-c339f4010dea-6628e7d4c6b2.txt
 
---===============3163169457960812394==
+--===============8248685614112894737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============3163169457960812394==--
+--===============8248685614112894737==--
