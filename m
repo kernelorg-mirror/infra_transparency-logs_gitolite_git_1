@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4827016071158399963=="
+Content-Type: multipart/mixed; boundary="===============7420435604520512566=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 02 Nov 2026 13:18:21 -0000
-Message-Id: <179362550188.515011.4366688311725088943@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 13:18:36 -0000
+Message-Id: <179362551600.515334.12827408172300244135@gitolite.kernel.org>
 
---===============4827016071158399963==
+--===============7420435604520512566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-7.5
-    old: 6028fc04d86d2223ee7a4bae473dd659b58f2d2e
-    new: 218c562ad67fd0ded42ff891a5f980de004788eb
-    log: revlist-6028fc04d86d-218c562ad67f.txt
+  - ref: refs/heads/for-next
+    old: d6b4d7f9d64ef2f91cc5e9f0f1c4271842cf6468
+    new: 7beb00c7d6183e6c4452495145261b3c8a4bdf5f
+    log: revlist-d6b4d7f9d64e-7beb00c7d618.txt
 
---===============4827016071158399963==
+--===============7420435604520512566==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6028fc04d86d-218c562ad67f.txt
+Content-Disposition: attachment; filename=revlist-d6b4d7f9d64e-7beb00c7d618.txt
 
 6171024a359343c5356340f066f380ee59ae5a0c ASoC: img: img-i2s-in: Fix clock leak on probe failure
 28cb2aa75c34e71872af7a13ac1771bdd4e68acc ASoC: img: img-spdif-in: Fix clock leak on probe failure
@@ -68,5 +68,7 @@ cbe600cecb44f0bd02a865a5d6847e08d4bb0746 ASoC: kirkwood: kirkwood-i2s: Improve e
 9765fd9e107dda65760f0c3d762315f4331be871 ASoC: kirkwood: kirkwood-i2s: Disable extclk on internal clk error
 9a5990047d407a1fef80dbafe3001af71612dd9b ASoC: kirkwood: kirkwood-i2s: Disable clocks in reverse order in remove()
 218c562ad67fd0ded42ff891a5f980de004788eb ASoC: kirkwood: Improve clock and error handling
+b09c29993883e89eebc4f94a2ea62ba92a384183 Merge asoc-linus into asoc-next
+7beb00c7d6183e6c4452495145261b3c8a4bdf5f Merge asoc/for-7.5 into asoc-next
 
---===============4827016071158399963==--
+--===============7420435604520512566==--
