@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============2501084884122199012=="
+Content-Type: multipart/mixed; boundary="===============7646910926602669886=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 02 Nov 2026 10:52:07 -0000
-Message-Id: <179361672717.392838.11605448454369724588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 02 Nov 2026 10:52:32 -0000
+Message-Id: <179361675211.393266.2776454479483988671@gitolite.kernel.org>
 
---===============2501084884122199012==
+--===============7646910926602669886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/pinctrl-next
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
+  - ref: refs/heads/mem-ctrl-next
+    old: a22355280361d2a376a2020059a2bae11e6cea10
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-cee9395acd80-6628e7d4c6b2.txt
+    log: revlist-a22355280361-6628e7d4c6b2.txt
 
---===============2501084884122199012==
+--===============7646910926602669886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1793616724 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1793616724-62ceb269167608d8f1e05d174045468bcbf7cc03
+pusher krzk@kernel.org 1793616749 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1793616749-359ad22ddd1c6cdb6968549d6a44abcfa457684d
 
-cee9395acd8043be0644b25c34bfa86623f2b935 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 refs/heads/pinctrl-next
+a22355280361d2a376a2020059a2bae11e6cea10 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 refs/heads/mem-ctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmroa1QQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD19IkD/4uTfAJy+NktfcGrzzGvYzPpDyZJOoi5Vgg
-zMkvGpScC+gtW6U+9CpR/6niRrp2Ccv591sP8jfQonaqB11MVz25D5dHxX9b4nQo
-BfuxTs1gmXbG5+Rq4DMtMHE8zPKMYiNTBNgba5ZkV5udNcc5D51nF7aj3drcFgXd
-hZsFfWXI69Aa8CyDPeOw2yNTBnxcaKfkSAGjUNtOa1tbT22I9EjsmZRB1YV+V74B
-sOT+l2wfnNqpkZ6Jy723oka2YuQD9CGbEoQoDyRJAg1jRND8v8eCq0G+XsRYW/KG
-WTx6G9vmB1h309JNXaMrFKYx1o0epDjM2LZKo8GNUbo+9msXY+9y5deu+p+lRKAN
-eYQZ/vIXQEqVJ5yMB06DvTXGXtispdnK6hvSCdeXJxSagGZ08EjHYZ9KFQyJFmcg
-jln2RXXF6GALXUUxhuXBnymqvAUznOfq/5EnRo6GPlrVNYF0FJj1aQLCpO3d9t56
-k9S/NUD2Lqk8pOc/X13PlyY9jYesJNZF9vTFACALGFZQW7mchygjPg1g2aYrUuns
-B29AAkPGJXuET5wcTu6XZuJ78D0lsPmO6AaTTvjdqSR73MTapx35wnJdh8I3jvf5
-bJxkfrwV321sSbHZL77PG9TecGxUhQofvEGnKFS3EnIx4lUGjmMd29sQvqH0CtDS
-iaBXDMLtqA==
-=x2F8
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmroa20QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1661EACEU2Ui6MGm0AOXdgcv5It7N493auzaDzTF
+DZFDiOAVuqIvDYAiD9EgXZ4MOLvaip4QRbD3ZVe2quh48RkMHv0WlgizqDE+kJd7
+eUHo0pN/9ceYlJOzRwuAvUCelZII1WHqzozLelVPw0Ydk8x7ScGkW9CmHUIwFsMZ
+QyQnH7Ja8HCeC6Ku1lyXrEfdo7saOkB7Cb1e45YuG/FKL6c5mYOES57Z4FaSd6ZJ
+TipXr/x6N86Tvc2XidNjP7l8LGAW7/uZS53zmOIaMwAg/E2yTkE2z++jU80Lz1rk
+9dUtB0VOPqAH1SPLqZ4ZneHhNZzWL+9TUpSut1RN5oHuB6Q6j1FRgRvS9ptmRxUz
+T5OvzSYrVpRQFDnSlpUrqL4YnoA0iJWroD7ShZqSdgtw9/JJ9UlgRgrR3UEn1KYZ
+U/qBwe22rThP9V1lt5dvftkiNAlA/RCf2loH9A884eP6mJ16554iZKJ5f5Zv7+j1
+f919MQK5VuQzHfnzgzjplJqR4PxNITMokODyYZmy5n03nsjads5GPo+1BbPbNcgg
+kmipOElm4WDHh4+Fndfvs272tvAJ+nicJG+gFh0rbtXy8aYq6gyv/CbJuaTcknxZ
+jmIBzb3rOMpo5qtf4Z+n1IrwTYK8m6MgiPQDLUlOOCJg5OgQUN2HixErbSnp9uzf
+rDJl4S5rjw==
+=BKR/
 -----END PGP SIGNATURE-----
 
---===============2501084884122199012==
+--===============7646910926602669886==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cee9395acd80-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-a22355280361-6628e7d4c6b2.txt
 
 76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
@@ -1082,4 +1082,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============2501084884122199012==--
+--===============7646910926602669886==--
