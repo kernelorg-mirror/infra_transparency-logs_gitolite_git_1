@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4094210255499426034=="
+Content-Type: multipart/mixed; boundary="===============5236303241968959109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 02 Nov 2026 11:24:01 -0000
-Message-Id: <179361864100.422647.11254402440456830600@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 11:24:16 -0000
+Message-Id: <179361865699.422902.16366353689149895166@gitolite.kernel.org>
 
---===============4094210255499426034==
+--===============5236303241968959109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 377cc4437bf3802fd9f9758f46593f5005b45fa6
-    new: 3ee4a728ac365a600d6fc0313cd7f5a31aab22ea
-    log: revlist-377cc4437bf3-3ee4a728ac36.txt
+  - ref: refs/heads/sched/urgent
+    old: 8f0d0897c96d90794836816f410570ad9f71325f
+    new: 1abd5f3da2f0b5da60dd3dab22aea3d90aff980b
+    log: revlist-8f0d0897c96d-1abd5f3da2f0.txt
 
---===============4094210255499426034==
+--===============5236303241968959109==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-377cc4437bf3-3ee4a728ac36.txt
+Content-Disposition: attachment; filename=revlist-8f0d0897c96d-1abd5f3da2f0.txt
 
-acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
-7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
 ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
 01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
 c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
@@ -1046,9 +1044,11 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-3457b3bcd344005af894876cab4e634cabdcbb62 x86/bugs: Select the BHI mitigation based on the attack vector properly
-f01a394fe2a00d3cb4cf2cda279c58604a2540ad x86/csum: Relax the len and proto constraints in 32-bit csum_ipv6_magic()
-e8c3b47ce16d3804746be887f548ed9846395569 x86/kcfi: Don't emit KCFI_REFERENCE() in modules
-3ee4a728ac365a600d6fc0313cd7f5a31aab22ea x86/nmi: Ignore negative NMI handler durations
+f56862696104d724ec8b6f8e4912cc345944147f sched/deadline: Fix this_bw on class change of a dying task
+5d010dd27be92a68eaac3af4f5ef0555bcde6031 sched: Account I/O waits independently of delayed dequeue
+6f5363236c1e3f31c8965b8efdc031fa1483b090 sched/fair: Clear throttle state when leaving the fair class
+405ac140f6fc1b9e76c496ee01117b4a2b65691c sched/pelt: Fix truncation of the PELT period count
+033abc9683bbea431e52c22e645e112ea17a171e sched/topology: Balance cluster static-key updates
+1abd5f3da2f0b5da60dd3dab22aea3d90aff980b sched/cache: Ignore non-fair current in alb_break_llc()
 
---===============4094210255499426034==--
+--===============5236303241968959109==--
