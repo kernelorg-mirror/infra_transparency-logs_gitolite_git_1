@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 02 Nov 2026 17:40:56 -0000
-Message-Id: <179364125610.822027.11239160678194730583@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 02 Nov 2026 17:41:02 -0000
+Message-Id: <179364126262.822377.5570162568742997524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 4dff1ac55cec0e16fafd3a8f34b7f7fa6d964fa2
-    new: 21bb94b09bcc0d96a4769ae089ebad6aff6bcaf8
-    log: |
-         21bb94b09bcc0d96a4769ae089ebad6aff6bcaf8 foo
-         
+  - ref: refs/tags/libcrypto-for-linus
+    old: d3a4eb0a0d2805197b895b59a519d7b1dd8efc2f
+    new: 21f54a33fd1d02848252bd79525e6baba9eed91e
