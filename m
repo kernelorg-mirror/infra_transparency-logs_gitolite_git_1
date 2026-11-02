@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Mon, 02 Nov 2026 10:30:12 -0000
-Message-Id: <179361541226.371166.3886873736304254930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
+Date: Mon, 02 Nov 2026 10:30:19 -0000
+Message-Id: <179361541968.371511.14102334311620655166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
+user: linusw
 changes:
-  - ref: refs/heads/for-next
-    old: 267accfa83d968fbd99a0bf48b5c935b92e1f173
-    new: c49a14fa43ad1b4248fb6ad28497103feba3e969
-    log: |
-         c49a14fa43ad1b4248fb6ad28497103feba3e969 ata: ahci: Add Intel PCH-S RAID device ID
-         
+  - ref: refs/heads/b4/ux500-defconfig-update
+    old: 0000000000000000000000000000000000000000
+    new: 45ba5c3ae76d9e88de57bb4560fa5218b4748778
