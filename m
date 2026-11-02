@@ -1,68 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6340981285420168458=="
+Content-Type: multipart/mixed; boundary="===============4515050510662891796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 02 Nov 2026 10:30:39 -0000
-Message-Id: <179361543971.372183.9968105712083636756@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
+Date: Mon, 02 Nov 2026 10:30:44 -0000
+Message-Id: <179361544463.372400.14604851647539998777@gitolite.kernel.org>
 
---===============6340981285420168458==
+--===============4515050510662891796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
+user: linusw
 changes:
-  - ref: refs/heads/master
-    old: cee9395acd8043be0644b25c34bfa86623f2b935
-    new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-cee9395acd80-6628e7d4c6b2.txt
-  - ref: refs/tags/v7.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: bc71431221f5ba8bb33918399552636e059c2c45
+  - ref: refs/heads/b4/ux500-audio-graph-card2
+    old: 42f2829b6a831410e373174f67ebfb10cf6c18a8
+    new: 6519fa02c9eb925b901ab2a61387837cf6b63797
+    log: revlist-42f2829b6a83-6519fa02c9eb.txt
 
---===============6340981285420168458==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1793615437 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1793615436-2a0775cd5c81cc8efb4ff8f6cfb2f9dbce75eaac
-
-cee9395acd8043be0644b25c34bfa86623f2b935 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 refs/heads/master
-0000000000000000000000000000000000000000 bc71431221f5ba8bb33918399552636e059c2c45 refs/tags/v7.4-rc1
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmroZk0QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1yGAD/9xUOfxJ+AGX5R0IXHGtm7Hx24Ku7f+3gzZ
-nuIP1HG8ICaWx7xI+GxwStbNkXeFZrAYgWDwlHD1+JN5P1RMDZDAjyA/R3x0Ozoa
-Z7WtU+zkeE+3lYv0ZFcVNfE5drqG9zXWQP2I6CHzCgv/rkzQWJWiXh1j3qO+cHcz
-eC7f9gaG/z2wjnVb/gQa99uJ3eiMMQVdlJiJ2viDhMaiB/D6ppjxs5/BGTROBdqf
-n3R/EW5XFUHn5nLt1vHrpHC956T5Qe8DAPrcpdHbuLA6Z8DVi7qQGhsVBjFZyrS/
-QpSHpK9SjzkewF6gekXg7FssVMZ+j8GOgRvAOlT3FU+u3vkzzt9OTLzEQpfec0xv
-EssVQj3k5W55JY6QALs6eAbKdMA3aHANyWBMFjOPBAkZfALMCHFgHbU+wWCRZ7m3
-4TWEizlQtiB6OsK22st12TQXIhDQCSXbxd+DAZj5ubS3Y5nQI9iQxzj556eIspg2
-3LwtgW/dogtlPEWPqbZqiXDYsCimkyeB/6w6WACQmxWxfJv6De+GCLCOwo7i+gom
-8iFqmwY0+58mSql7HqVlhWrBP94nfANhFvaIerpPCYnLIeJdn6ldUV9AkQODwXtt
-sA7Bg2asQc/Elza7KWtc3bN/yx7T3Xtb/vTVdJxk3EiZVAUsUG+7hUKZXoN0/Ivc
-v8S00ZX2yQ==
-=AFh2
------END PGP SIGNATURE-----
-
---===============6340981285420168458==
+--===============4515050510662891796==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cee9395acd80-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-42f2829b6a83-6519fa02c9eb.txt
 
-76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
-e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
 32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
 f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
 acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
@@ -1085,5 +1048,7 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
+fe7331b9a89ee65b9de4457a9583c0749aa8b86a ARM: config: u8500: Enable audio graph card2
+6519fa02c9eb925b901ab2a61387837cf6b63797 ASoC: ux500: Migrate HREF and Samsung audio to audio-graph-card2
 
---===============6340981285420168458==--
+--===============4515050510662891796==--
