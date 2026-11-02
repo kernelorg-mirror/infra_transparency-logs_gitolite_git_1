@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Mon, 02 Nov 2026 06:20:23 -0000
-Message-Id: <179360042312.180116.408700879635822088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 02 Nov 2026 06:23:27 -0000
+Message-Id: <179360060791.181084.15850002681138209112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: 4e9e220985ec9541cc3fd598c57f0834d4836cc1
-    new: 19f15dae64059b1a1e05a540a57930086c46a8c0
-    log: |
-         acf7b28ec09b998c8c75ffbbfdeb565ee9156c08 libfdt: Don't search for the terminator in fdt_get_string()
-         19f15dae64059b1a1e05a540a57930086c46a8c0 libfdt: Check node names in one pass in fdt_next_tag()
-         
   - ref: refs/heads/master
-    old: 4e9e220985ec9541cc3fd598c57f0834d4836cc1
-    new: 19f15dae64059b1a1e05a540a57930086c46a8c0
+    old: e4aec200ac48f12a5fdf78775d1d0375bb962b87
+    new: 60c1d032a1239058fa93407455e852c0f718560c
     log: |
-         acf7b28ec09b998c8c75ffbbfdeb565ee9156c08 libfdt: Don't search for the terminator in fdt_get_string()
-         19f15dae64059b1a1e05a540a57930086c46a8c0 libfdt: Check node names in one pass in fdt_next_tag()
+         60c1d032a1239058fa93407455e852c0f718560c foo
          
