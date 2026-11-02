@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5236303241968959109=="
+Content-Type: multipart/mixed; boundary="===============3717152816800123722=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 02 Nov 2026 11:24:16 -0000
-Message-Id: <179361865699.422902.16366353689149895166@gitolite.kernel.org>
+Date: Mon, 02 Nov 2026 11:24:30 -0000
+Message-Id: <179361867021.423150.13827093416290709021@gitolite.kernel.org>
 
---===============5236303241968959109==
+--===============3717152816800123722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 8f0d0897c96d90794836816f410570ad9f71325f
-    new: 1abd5f3da2f0b5da60dd3dab22aea3d90aff980b
-    log: revlist-8f0d0897c96d-1abd5f3da2f0.txt
+  - ref: refs/heads/perf/urgent
+    old: 68f93792c34bc624430c6dbd79f2dd7f1e40aee1
+    new: 2957071e7e6e8cbaf07ca95f7dd1f4cd02e1582f
+    log: revlist-68f93792c34b-2957071e7e6e.txt
 
---===============5236303241968959109==
+--===============3717152816800123722==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8f0d0897c96d-1abd5f3da2f0.txt
+Content-Disposition: attachment; filename=revlist-68f93792c34b-2957071e7e6e.txt
 
-ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
 01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
 c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
 226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
@@ -1044,11 +1043,12 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-f56862696104d724ec8b6f8e4912cc345944147f sched/deadline: Fix this_bw on class change of a dying task
-5d010dd27be92a68eaac3af4f5ef0555bcde6031 sched: Account I/O waits independently of delayed dequeue
-6f5363236c1e3f31c8965b8efdc031fa1483b090 sched/fair: Clear throttle state when leaving the fair class
-405ac140f6fc1b9e76c496ee01117b4a2b65691c sched/pelt: Fix truncation of the PELT period count
-033abc9683bbea431e52c22e645e112ea17a171e sched/topology: Balance cluster static-key updates
-1abd5f3da2f0b5da60dd3dab22aea3d90aff980b sched/cache: Ignore non-fair current in alb_break_llc()
+e4c04502c213f88f4dd7d12642fa894f129cb69d perf/core: Include attr.defer_output in is_sb_event()
+b2e4a8b620bedf9afa5733fff418a8ea5fb1b53a perf/core: Clamp deferred callchain entry count to fit u16 header.size
+79cab141ba64f012c8758ced06126d3210cd7765 perf/amd/ibs: Reset CPU0 IBS state on syscore resume
+dcc906fd43f38656b9196e427a797f0cb9ed96d6 perf/amd/ibs: Fix kernel address leak via REGS_USER and REGS_INTR
+497245d3ede3f4ce8d2a9f43951418e94d45d952 perf/amd/ibs: Simplify event state handling with IBS_CAPS_DIS
+304dd196d3a70802db2a2b912a10cd5f35f9b7d9 Revert "perf/aux: Allocate non-contiguous AUX pages by default"
+2957071e7e6e8cbaf07ca95f7dd1f4cd02e1582f perf/core: Don't send SIGTRAP after exec removed the event
 
---===============5236303241968959109==--
+--===============3717152816800123722==--
