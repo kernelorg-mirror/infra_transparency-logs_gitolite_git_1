@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Tue, 03 Nov 2026 03:57:16 -0000
-Message-Id: <179367823635.1310516.16562512187654727976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 03 Nov 2026 05:40:12 -0000
+Message-Id: <179368441281.1380421.9335040157697555463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-linus
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    new: 4acd5f806bf5569bfa3a45ea6a525936197df10c
+  - ref: refs/heads/main
+    old: 2526c474b9f94fc84d1d5c57c49c49697219b8bf
+    new: 02665d2016e1360cd2135998f36cfa303b5be6e1
     log: |
-         4acd5f806bf5569bfa3a45ea6a525936197df10c firewire: ohci: avoid potential deadlock when queueing AT local requests
+         ca47bdb2ff05bcea2f6543d09086adede0109a99 linux-firmware: Update firmware file for Intel Scorpius2 core
+         416a692f3492af7cecda552f33c304d9def241bb linux-firmware: Update firmware file for Intel Scorpius2 core
+         02665d2016e1360cd2135998f36cfa303b5be6e1 Merge branch 'main' into 'main'
          
