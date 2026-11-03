@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8647177013549323200=="
+Content-Type: multipart/mixed; boundary="===============9074998349370094334=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Tue, 03 Nov 2026 18:42:14 -0000
-Message-Id: <179373133433.2072703.3296795214390440744@gitolite.kernel.org>
+Date: Tue, 03 Nov 2026 18:42:23 -0000
+Message-Id: <179373134399.2072953.13800423676770009071@gitolite.kernel.org>
 
---===============8647177013549323200==
+--===============9074998349370094334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,54 +16,37 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: abeacca61eea4f6803df4a595b656ea45c2d3249
-    new: 647b81ddefc6364290e67bf33c89d54971f8995e
-    log: revlist-abeacca61eea-647b81ddefc6.txt
-  - ref: refs/heads/master
-    old: abeacca61eea4f6803df4a595b656ea45c2d3249
-    new: 647b81ddefc6364290e67bf33c89d54971f8995e
-    log: revlist-abeacca61eea-647b81ddefc6.txt
+  - ref: refs/heads/testing
+    old: 43fb7c74229d95570779d9724f770d50ff478123
+    new: 196649be51db271d0bfd68e46ebe8f8e0f7e173c
+    log: revlist-43fb7c74229d-196649be51db.txt
 
---===============8647177013549323200==
+--===============9074998349370094334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1793731329 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1793731339 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1793731323-4eb0b78c53f2fdbc2d84464783cff87d27db79ad
+nonce 1793731339-c4349276443ee5a102066226d8dbdd9768648a62
 
-abeacca61eea4f6803df4a595b656ea45c2d3249 647b81ddefc6364290e67bf33c89d54971f8995e refs/heads/main
-abeacca61eea4f6803df4a595b656ea45c2d3249 647b81ddefc6364290e67bf33c89d54971f8995e refs/heads/master
+43fb7c74229d95570779d9724f770d50ff478123 196649be51db271d0bfd68e46ebe8f8e0f7e173c refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCauorARMcbWtsQHBlbmd1
-dHJvbml4LmRlAAoJEMw6ZPquma3SPHwA/AlF5iiJ1ajPphN42tsZMZuI2YDgwDEu
-4tnVwLKM3jtUAQCsf2iK+OFAUTxx+BFJHS51P+qRkawmUDETZN4kIRaSDQ==
-=Irq4
+iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCauorCxMcbWtsQHBlbmd1
+dHJvbml4LmRlAAoJEMw6ZPquma3SDt4BAOPh419DpaobN8L/1KiPhAgpeQxDQh0l
+1IFQk+Aoq9BPAP48Z8a5cmPTBF7x43fBxnhaJAqzhu7Mt4n2cVUlfwFLCw==
+=PMfK
 -----END PGP SIGNATURE-----
 
---===============8647177013549323200==
+--===============9074998349370094334==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-abeacca61eea-647b81ddefc6.txt
+Content-Disposition: attachment; filename=revlist-43fb7c74229d-196649be51db.txt
 
-8c714a074074af7ae59233c1fa6ef9d7aa710462 ocfs2: pin refcount trees before dropping the lookup lock
-c4d9005e7e1ee6ce277f47cf53d44fc5b90b287b selftests/proc: proc-pid-vm: fix unused variable warning on non-x86
-c5b7a30a5172317e1e3cba61d8c9f9c588c497bb ocfs2/cluster: initialize heartbeat regions before publishing them
-26d7e34b4226709084461a07bf28d9066fa96d8c ocfs2: pin owning modules for open debugfs files
-0d508d4709837bcc88e314c0533a42d3c55b31e3 Merge tag 'audit-pr-20261016' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-331eadd85f14bac85663c14c99228f6dedf64d87 Merge tag 'selinux-pr-20261015' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-a804c5742bff224d4cb4d25dd383554d598be32b Merge tag 'lsm-pr-20261016' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-28d5df7b727471439ca343208e5be1fd55338128 KVM: split CONFIG_KVM_PRIVATE_MEMATTR_VM out of KVM_VM_MEMORY_ATTRIBUTES
-9bcd6af09e2a3493ee702c9aa1110002ed4e83e8 KVM: x86: leave the legacy private attribute in for TDX and SEV
-164405e8e9a0378c7e1aff2254625a6553a291f1 KVM: always make in-place conversion a compile-time constant when possible
-554c7af9367a6c1f5269dd97aed30d8abc802910 eth: mpnic: count packets, bytes, and drops per ring
-5cc79ff41b07ce96b30469c47fe5133559531434 eth: mpnic: report per-queue stats
 3b28e126619ff76e27201e2791101153da4902ac eth: mpnic: count Tx queue stops and wakes
 ce0d4765892063a801c11037c98e0e9db54f5573 eth: mpnic: count Rx allocation failures
 61b8e62120b08481440f8d5559b3df11c2cd0814 Merge branch 'eth-mpnic-add-basic-netdev-statistics'
@@ -1076,5 +1059,17 @@ c0ef6144b4d60afb90bc6d8db3ffdac043cd6ffc vsock: reject negative tv_usec in SO_VM
 5b5d8f351dd96f56a58bb516a80e2d4d742fe4e2 net: restore refcount ordering for lockless socket access
 7b1fd973214de07b83468a1363856f048aa2d80a Merge branch 'inet-fix-lockless-ehash-walk-races'
 647b81ddefc6364290e67bf33c89d54971f8995e tcp: wait for TIME_WAIT teardown before freeing per-netns ehash
+c245ae65d7272bae09367cc10dbce9bb58eb858f can: dev: can_fill_info(): don't wake up controller if interface is down
+3f9ee0b621b509b3b171bbd6481613896794356c can: dev: can_tdc_fill_info(): don't read automatic TDCV if interface is down
+739f7cb3c5e3eea33e71411ef8da18ea9914495e can: peak_usb: pcan_usb_fd_decode_buf(): accept short uCAN end-of-list records
+34da4f37e893b41ebd6787b3a462bb0798e87acc Merge patch series "can: dev: can_fill_info(): don't wake up controller if interface is down"
+a5c3db2f97c2d311baad517c943907981b0bad22 can: replace ARPHRD_CAN type checks with can_get_ml_priv()
+97fd7176ba7d8b7da8a288d8c750502c2e1f59ef can: isotp: check the return values of can_rx_register() in isotp_bind()
+7e1270df09e96d6ff10d696cb307489bedb7582d can: protect the receive lists with a per-device lock
+91fd978c5017c966c7603000dadb64e7f85078b8 can: raw, isotp: copy socket options outside of lock_sock()
+6d8b24284ec65c438d423a9bd1a113e2805f76cc can: proc: reset pkg_stats atomics individually
+60b229f2c98c85b19deebc273fd3e35ae78c0c84 can: proc: skip stats calculation after reset in can_stat_update()
+e1d0523b66a23e3dd077cf60f92cd6016b2b65c7 can: proc: remove pointers from CAN specific proc output
+196649be51db271d0bfd68e46ebe8f8e0f7e173c Merge patch series "can: protect the receive lists with a per-device lock"
 
---===============8647177013549323200==--
+--===============9074998349370094334==--
