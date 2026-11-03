@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7034140158361454894=="
+Content-Type: multipart/mixed; boundary="===============3215497767883964663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 03 Nov 2026 15:12:56 -0000
-Message-Id: <179371877650.1888279.5763948688951478139@gitolite.kernel.org>
+Date: Tue, 03 Nov 2026 15:13:00 -0000
+Message-Id: <179371878090.1888389.5033618135678457668@gitolite.kernel.org>
 
---===============7034140158361454894==
+--===============3215497767883964663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,66 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: afb4eea28037fa55c4560313ecbd8a1e1da8369a
-    new: 74d73ffcffe03804f97e9fb82301dadf75671282
-    log: revlist-afb4eea28037-74d73ffcffe0.txt
+  - ref: refs/heads/mm-unstable
+    old: 34f88a114888c9dba49e45f2b0c2a3e83c4c871c
+    new: 0ea6dc8c4a2192227ec25768625686b8fcd5cb09
+    log: revlist-34f88a114888-0ea6dc8c4a21.txt
 
---===============7034140158361454894==
+--===============3215497767883964663==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-afb4eea28037-74d73ffcffe0.txt
+Content-Disposition: attachment; filename=revlist-34f88a114888-0ea6dc8c4a21.txt
 
+cc3fc99f1bce93c3ae3771ef98cb91a566da857e ASoC: fsl_utils: Tolerate fractional PLL rate residue
+4c047bd0499602161959478b90e66f4c8e523c9b cgroup/cpuset: check effective mems for a movable-only configuration
+0d01f90b07e877ef31f9959e9b0bc6bcca9b99df ALSA: sh: aica: Fix spu_memset() stride
+e4a21e95c5577dda3a4049b8eb7f2df7d24b3134 ALSA: emu10k1: Pass destination size to copy_string()
+d74eb09af56beda9cbe310e9f6554ff1f35f280f ALSA: pcm: Drain proc callbacks at device disconnect
+79dc34beb1fdb3da79753e51e15c68591a2561fe net: skbuff: propagate shared-frag marker in skb_zerocopy()
+5f4a3f743acc96987ae5c2e966947942c34ba56c cgroup: don't kill migrated processes through their exiting threads
+e3aaeebbef56ceaa27001d1d5a0c1d73d648e6f4 net: ethernet: ti: am65-cpts: fix support for PTP_EXTTS_REQUEST2 ioctl
+286154ae6998a32cca698abd713e1d4728e81924 eth: fbnic: Correct packet header prefetch
+b530456be77160b13efe8dececb6c826538bd4a2 net: pse-pd: si3474: keep detection enabled on the other PIs
+110eb808324fd9713b04d874c97283d965e43d2a net: pse-pd: si3474: validate the channels of a PI
+f62e18ccc68e188e2ff9df1588d91c2d5596bb99 Merge branch 'net-pse-pd-si3474-two-driver-fixes'
+45e0a63f9c86a558afc70d79b6df38f8ec7f502a gve: fix out-of-bounds read in gve_get_flow_rule_entry()
+9642ce6cb51ebd596d0a02074ba9b2a387e974b0 net: sparx5/lan969x: do not read past skb->len when injecting a frame
+1df26063ab9ba64f5fb11049fa4be686b7fc309e net: sparx5: fix tx DCB index drift in fdma xmit
+86537a8fb24750fc25a96a27ff29400054d052b5 selftests: gro: remove unused variable total_data
+ed642349d87dd7067a44c30319f0cffd22780376 tls: fix the open record check in the max payload size setsockopt
+c3a1ddd5e116540912441606a2cd4b944be1622a net: usb: aqc111: fix set_mac_address return value
+546daf344420b5dce27eded3ad15be12628dd185 net: fix frag_list leak in skb_segment_list() error path
+46bd2bf65b93573f3b73ce8c61f862ac901c076d net/mlx5e: SHAMPO: Do not merge PSP packets
+520631554a689d2cd52452578f3140f045730ee0 net/mlx5e: IPsec, Fix out-of-bounds comparison of neighbour keys
+b7dfff5e3eb3984d42026a6d653ec2a3d5cec729 net/rds: include the scope id in the sendmsg connection cache check
+3fe64a5f670dbd6c7c84c2345b0b9726b3b79b31 net/rds: keep the connected peer's scope id apart from the bound one
+73e7b4fbe879a949f0dc88eeb955370f5f41a053 Merge branch 'net-rds-scope-aware-sendmsg-connection-cache'
+5536d5553f274c8baa77c44854c9091657213970 selftests/net: tcp_mmap: remove unused -k option and keepflag
+c955325db639e9503941227e14e1f1ccc99442a1 veth: fix stale peer max_mtu on XDP program replacement
+c43c1c24f3cdc0d2d3f59e5686573ac3129637aa tls: avoid field-spanning write when copying crypto info
+7076f684d5132e6a6145e1da2fa74771ecd052e5 net/sched: etf: initialise the sock_exterr_skb before filling it
+306158e878f49ecc7afd456065fc933689438346 Merge branch '7.3/scsi-fixes' into 7.4/scsi-staging
+b4bd078b78c248d4263a1da7033cbe7a74ce0e12 scsi: elx: libefc: Fix resource leak in efcport_init() error path
+e6c68aac2f7a35556792f96fb6be1eb7a725791d scsi: dt-bindings: phy: qcom,sc8280xp-qmp-ufs-phy: Document Glymur QMP UFS PHY
+7cd44f40fe196df01afd93aba2f84a8a184a3baf scsi: ufs: qcom: dt-bindings: Document Glymur UFS controller
+cfb7224381c90a50b36807bf3bfcfca730ed4fe2 scsi: core: Document the role of scsi_done()
+537bba32a37519e47c64084b85f058fa56140510 scsi: ipr: Fix two kernel-doc comments
+cc0ce3fe8fac073ecded4f32c8ee5b89da1397e8 scsi: ufs: bsg: Complete the job on error
+2e63ac76cc08ea376ba61fef52f7b7849e35024d scsi: ufs: bsg: Clear the reply buffer before use
+42aa443718104d10dbdb6f258810b425eb2451f8 scsi: ufs: bsg: Validate request_len before accessing request
+1ae42513205a38b811afedb6797f9f9c4de37b90 scsi: ufs: bsg: Reject UIC commands with a non-zero result byte
+e4a9b7640914b248eb7537d4507aa42db080586a scsi: ufs: core: Clear stale UIC result byte before peer DME retries
+1b39bd7b8279c1c5d4f6c39fab260bd5fc31133e Merge patch series "scsi: ufs: Fix UIC result byte and BSG request handling"
+2327df6d2a290af62a6da21b2ad301848bb86002 scsi: ufs: core: Fix a deadlock between clock scaling and device commands
+cd02f87668a8e8d8ff4e130f18990c3a9e7bb22a scsi: fnic: Annotate fnic_nvme functions with __must_hold()
+a7ac98eb6c39be4cff3ffe06ce240f7a331aa1ee scsi: ufs: core: Fix stale comment in ufshcd_mcq_config_nr_queues()
+eb7aa7fd673fdc1582223cd133bcc5f54e7af19f scsi: libiscsi_tcp: Prevent R2T range check overflow
+085bb18a0b91007f04ddca13af30277c78040157 scsi: sd: Mark the disk dead if runtime resume fails in sd_remove()
+2ff2d1b892dc8b086d5db515759ae80f517324e2 scsi: st: MAINTAINERS: Add Laurence Oberman and John Meneghini
+5b0d568e183e2ddfc5801a70d8d7305ca1c2f50f scsi: core: Update cdrom.h coments
+9a6cb1da4f3bc4633bf6669faed25a361834b1b9 scsi: handle out-of-range SG_SET_TIMEOUT values
+192cb22c59ecf9acbba20979c10004608d1092c8 scsi: MAINTAINERS: Update Marvell Ethernet storage maintainers
 fb2a238f15f0fc2dacd12f8847b0ec0a1cf7ccac scsi: ufs: qcom: Power down UFS during system suspend on Milos
 c2c645243dba2cb16d001715cb3a1085def376e5 scsi: fnic: Update module authors
 cd37a69c367b6a5f685db0ac7d01f08545081a30 scsi: ufs: core: Remove an always-false WARN_ONCE()
@@ -1001,54 +1050,5 @@ f3b75cbb61e5e54661e7593b078b379b6e52f59d memcg: use high_work for remote charges
 853a1865209734768ad36afb629de41c7e18cb24 mm/zswap: validate dlen and normalize comp_ret on compression success
 ea19b70eca89edab33eb7a4554a72aaa36def740 mm: nommu: set MMF_OOM_SKIP in exit_mmap()
 0ea6dc8c4a2192227ec25768625686b8fcd5cb09 fs/proc/task_mmu: fix lost maps entries above 2^63
-c3ed69367ddb2978f11eef9da23af475d9f62601 mm/memory: remove unused vmf_insert_mixed_mkwrite()
-faefc3322eecba9aec32d7a8fab4f7cae6bf9581 mm/memory: remove the mkwrite argument from __vm_insert_mixed()
-a89489f7150debc1dd8ad8272c32cd24ac53d276 mm/memory: merge __vm_insert_mixed() into vmf_insert_mixed()
-d4132db1cb7b4d4c54be60dadccbc7931ddb0950 mm/userfaultfd: store the child's new uffd context in the wait queue entry
-f85bed9405c93cd0a3105a45d2f64ca03a2465da shmem: report casefold setting in mount options
-3ebba453fac0d61add8f3b79070a4a8f09f7f9be mm/migrate: fix softlockup in do_pages_stat() with huge page arrays
-6ccf010350fbb8af28943a7d7a85efb9640e77fa tools/mm/thpmaps: fix partial THP anon/file accounting
-d2fca532faa3ba848d976de65b8c89924caf344b tools/mm/thpmaps: fix missing order-1 file THP statistics
-3b0e6b3845a82da8cce74bfd9a78353a2b4cc5a7 tools/mm/thpmaps: fix missing mapping names
-b96c71a4fdaecdc7293ac37ca07449e33e39eae1 mm: move LRU size stat updates out of lru_lock in folio batches
-6dbe7411c7075e65c11f4e22a8622f3e3d75db5a mm/damon/core: use only installed probe in damon_merge_two_regions()
-fa7d5d4a24b13bd16edf406e0d77c2657b8c37dd mm/damon/core: copy only installed probe in damon_split_region_at()
-a2bde140e246ee296229677ccfd49d1e1e6ed97a mm/damon/core: remove unnecessary zero-initialization in damon_new_ctx()
-6b5277ef82cfb3105c8e5719f9623a259f382ae3 mm/damon/ops-common: align MMU notifier range when clearing PTE young bit
-99f2b898f7011e32e1e0fdc67fe913f11262d0e7 mm/damon/ops-common: align MMU notifier range when clearing PMD young bit
-15ed302e72ca72ad6ba1d210964f309ecaee511d mm/damon/stat: avoid 32-bit overflow in idle percentiles
-50d6b080ade74401c71a3653d9576c26f55486fe mm/damon/{p,v}addr: skip folios already on the migration target node
-f7ef8a68a9af42083fe1f605194ebed017e6c872 selftests/damon/sysfs.py: stop obsolete_target shells hanging the test
-36d418bd3cb7b0a68437f89520d909338d523e8d mm/damon/reclaim: fix typo and grammar
-6e2568020ba23b54ea5e38487450182dd0891689 Docs/admin-guide/mm/damon/lru_sort: fix grammar and stlye
-166c00d913755ff5070b0e54d84421bf9e7d677a Docs/admin-guide/mm/damon/reclaim: document how to disable watermarks
-135d06a5c479f4c4e4286b2fd91d90509e23d4b9 Docs/admin-guide/mm/damon: fix various typos
-a9350f36a0f666d01f0e8a23b2aa572789aa4d50 Docs/admin-guide/mm/damon/lru_sort: fix copy-paste mistakes
-b8d41fa510baf50305d83ee2a2b62defece189d5 Docs/admin-guide/mm/damon/usage: fix incorrect option syntax in perf example
-f43c6795d750e6a7417f257fe9bbb136c27be90b mm: bypass swap readahead for zswap
-5567108f82a1c035979b01bd31c04d8953e02915 mm/vmscan: remove redundant !mem_cgroup_online() checks
-e6c2b1c6f373b9221dbb42eb78f636d8023c8c48 mm/mglru: stop rotating offlined memcgs to the old generation
-f3647b935bd11d0aaf01ac9d39cebf27383b117e mm/shmem: remove truncated folios from the page cache in batches
-13421d54bbfcc5749566272eb22c4de2e17de5fa mm/hugetlb_cma: fix incorrect hugetlb_cma_size assignment on malformed input
-673b553e2bba50e6eed29d53f17a937d82bb47c8 mm/hugetlb: preserve persistent flags when returning folios to the pool
-a916e1b9effd0b5623ef421e87e1b781eb711bd1 mm/hugetlb: fix NR_HUGETLB accounting for surplus folios
-30c1095094ab0878b1eafa8d3a6d0d18b6b9ecfe mm/filemap: clear page cache marks once when removing a folio
-4c75eab6d70395a39b699618889e1537c4435348 Docs/admin-guide/mm/damon/start: fix grammar
-87bb1ddda75b0e3ed40d8eb3014ac7e5110c8d74 Docs/admin-guide/mm/damon/stat: fix pronoun agreement
-af2affdcd9ab6140f579b59bec2c9cfea61ed089 Docs/admin-guide/mm/damon/usage: fix grammar
-8eb3fc31af7f0666f08e8c6b49c52e265c0cf1ab Docs/admin-guide/mm/damon/lru_sort: fix remaining grammar
-25d9e917fa611c908269a0f530b140c8505fde5f Docs/mm/damon/design: fix grammar and typos
-cdf6e94a31867b540e26aa5bb068415f7d2fb484 Docs/mm/damon/api: fix verb form
-9aabbac1c90ca6d83c06b50968575720060bae96 Docs/mm/damon/maintainer-profile: fix subject-verb agreement
-d0817c6ee40084a90973cb8d89c7721e7f60c7fe Docs/mm/damon/monitoring_intervals_tuning_example: fix grammar and typos
-a63e2a5027e1d65377b886d877b2f8caf549ff45 mm: remove wait_on_page_writeback()
-f9178a279984848d4d06daf1cded535ec98e5396 mm: remove end_page_writeback()
-ca40636c4000df094f12ee27997a84a9db7f3511 mm: remove clear_page_dirty_for_io()
-b4fb583329f43e0f9688332a81201f191439a993 mm: remove attach_page_private() and detach_page_private()
-462bdf44e69484dafb8fcec43969e26d064604fe mm: remove find_get_page_flags()
-c764eb70cce26a7b7df3841dcd74a6c6cd186f6a mm: remove find_lock_page()
-06799bc3764dc2045ab5b7e47c9334fd1cb948c5 mm: remove read_cache_page_gfp()
-d8da6965d43f04ca44f046a17d194cdf03473c53 mm: remove thp_size() and thp_order()
-74d73ffcffe03804f97e9fb82301dadf75671282 riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============7034140158361454894==--
+--===============3215497767883964663==--
