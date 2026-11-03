@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 03 Nov 2026 10:06:02 -0000
-Message-Id: <179370036267.1639818.15599589528238262761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 03 Nov 2026 10:06:10 -0000
+Message-Id: <179370037046.1640066.2096787286873706717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: lee
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: ca1f3afafcaa145cef4940ef25adf2ac2f5a09be
-    new: fe11d63e6b9a7bc3186d9a4cc0de02c0e5a5c48a
+  - ref: refs/heads/main
+    old: 213d491308b99d026514c93980cf8dd572226b1b
+    new: 2e54b3e187300893688c2c7517894f5d96732e05
     log: |
-         598422e95a3b38cd6d9a21118f2b800e8a762d4f proposed: Add Lee's v7.2.13 results
-         c2b48fd2342e67e519665fb1f4f65ef5370744ab proposed: Add Lee's v7.2.14 results
-         fe11d63e6b9a7bc3186d9a4cc0de02c0e5a5c48a proposed: Add Lee's v7.3.1 results
+         2e54b3e187300893688c2c7517894f5d96732e05 net/sched: sch_qfq: prevent aggregate self-replacement
          
