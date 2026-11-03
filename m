@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4614026224300336728=="
+Content-Type: multipart/mixed; boundary="===============0436735102164633893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Tue, 03 Nov 2026 09:59:21 -0000
-Message-Id: <179369996105.1632665.11718675121569215325@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Tue, 03 Nov 2026 09:59:30 -0000
+Message-Id: <179369997053.1632933.15248987392565243246@gitolite.kernel.org>
 
---===============4614026224300336728==
+--===============0436735102164633893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: c8132247fe4df52e9982d74c986bb199d792b85b
-    new: aac882d8b77e79a855b11ff6749d927006c61c64
-    log: revlist-c8132247fe4d-aac882d8b77e.txt
+  - ref: refs/heads/for-leds-next
+    old: 59cf91cf87abb67a49b1bb7b9d3b06486abde8cf
+    new: fb511964723311e9a7223e424d725c58dde8307a
+    log: revlist-59cf91cf87ab-fb5119647233.txt
 
---===============4614026224300336728==
+--===============0436735102164633893==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c8132247fe4d-aac882d8b77e.txt
+Content-Disposition: attachment; filename=revlist-59cf91cf87ab-fb5119647233.txt
 
-01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
-c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
 226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
 07c81e0196cc8fbc261095c9f712e39b63e3c780 mm/sparse: move mem_section init to sparse_extreme_init()
 89e2b6e3d345cd4dca822a5ccea764ee7f9e0ae4 mm/sparse: refactor sparse_sections_init()
@@ -1043,12 +1041,14 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-5c5e4c78c0ae94cdf2e46d7a264d6e14f0415f61 mfd: da9062: Make register CONFIG_I writable
-46123353a685eb95addf75124edf4eb61cbb965a mfd: da9061: Make register CONFIG_I writable
-9aac1f80c8784104aec5374dc7cb856b039a6bb2 mfd: rz-mtu3: Do not use struct rz_mtu3_channel::dev
-6b432cd585037adca55d47bcdd1895024843cf6b mfd: rz-mtu3: Reuse shared_reg_update_bit() in start_stop_ch()
-d63df7937fa800d0da3692ac07d8495b2cece980 mfd: rz-mtu3: Enable runtime PM
-88f84144a35f81d70d044bfd21ffca5925f9aa4a mfd: twl-core: Embed the twl_client array in twl_private
-aac882d8b77e79a855b11ff6749d927006c61c64 MAINTAINERS: mfd: Drop MEN F21BMC (bouncing email)
+e61797a9381eacf0b527d8b71b260c7244581d6e Documentation: ABI: leds: Drop stale gpio trigger reference for inverted
+427d720a02414e840580567451266a6290e2f46b Documentation: ABI: leds: Document timer, heartbeat and activity attributes
+7ae37665e252af696470690fec9f81978c9999a4 dt-bindings: leds: skyworks,aat1290: Document AAT1270 Current Regulator for Flash LEDs
+b6a8526e61023f7fa2af184690f3341125529668 dt-bindings: leds: skyworks,aat1290: Document FLINH pin
+647c8b14443534e409f16d2185086473538b20f5 leds: aat1290: Add support for AAT1270 Current Regulator for Flash LEDs
+d89ea335422fa4f6eacf998291dd473d5314ed2d leds: nic78bx: Use named initializers for acpi_device_id
+6173959c7d4d578bce9b075577cbdf59877b1eea leds: asus-aura-scsi: Add ASUS Aura RGB LED driver for ROG NVMe enclosures
+75565a889829fb3c3beb13866fd49ad088e8f48e leds: flash: leds-qcom-flash: Release all V4L2 flash devices
+fb511964723311e9a7223e424d725c58dde8307a leds: is31fl32xx: Fix NULL pointer dereference when binding via I2C ID table
 
---===============4614026224300336728==--
+--===============0436735102164633893==--
