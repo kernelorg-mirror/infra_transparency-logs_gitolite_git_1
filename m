@@ -1,39 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============8543141275484402451=="
+Content-Type: multipart/mixed; boundary="===============6758048504170081187=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Tue, 03 Nov 2026 18:57:18 -0000
-Message-Id: <179373223872.2106603.12086473442618887857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
+Date: Tue, 03 Nov 2026 18:59:51 -0000
+Message-Id: <179373239139.2107612.531538251805952181@gitolite.kernel.org>
 
---===============8543141275484402451==
+--===============6758048504170081187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/linux/kernel/git/liveupdate/linux
+user: tatashin
 changes:
-  - ref: refs/heads/for-usb-linus
-    old: 1f36cc9fa9496189e95fe5762cde8a74e0cd9d68
-    new: 69f0645f043feed4dc07690c74597574f43c41b4
-    log: revlist-1f36cc9fa949-69f0645f043f.txt
+  - ref: refs/heads/lu-pci-preservation
+    old: 15f2d6b187221596f01ecd413fe14deeeedf83a4
+    new: 7e966191f7a235c2f29d5450090b3bd9106c5f99
+    log: revlist-15f2d6b18722-7e966191f7a2.txt
+  - ref: refs/heads/next
+    old: 68067b62591af82f04a5a20203f0a0ae528081c7
+    new: 92557f57298aa0fd0d1515899cc174af1eae1996
+    log: revlist-68067b62591a-92557f57298a.txt
 
---===============8543141275484402451==
+--===============6758048504170081187==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1f36cc9fa949-69f0645f043f.txt
+Content-Disposition: attachment; filename=revlist-15f2d6b18722-7e966191f7a2.txt
 
-ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
-c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
-226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
-07c81e0196cc8fbc261095c9f712e39b63e3c780 mm/sparse: move mem_section init to sparse_extreme_init()
-89e2b6e3d345cd4dca822a5ccea764ee7f9e0ae4 mm/sparse: refactor sparse_sections_init()
-d8ab71169ce579871d196a4178c51afd1e0d8b32 mm/sparse: move initialization of section metadata to sparse_metadata_init()
-31b3829703ec5a041c01162f8196fc49eb930b17 mm/sparse: rename and cleanup sparse_init_nid()
 2193260fd4c2173239dab9b7e7ebebdb95e180cc mm/sparse: cleanup sparse_init_one_section()
 a8c5020eeb963afa18f9f035fcea64f05080b96f mm/sparse: rename __highest_present_section_nr to __highest_used_section_nr
 dff2d55bf7941677bd26f12344211ccc289a215d mm/sparse: remove pfn_in_present_section()
@@ -1044,11 +1040,41 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-786af89afe885bb6c3629e169132b0d486b8a54c xhci: give back TDs and clean up ep0 after disconnect
-5ba6c2244dee898432c2fe483ece1b5589c273dc xhci: keep port link_inactive and connected flags in sync when polled
-06bc08134961bed0bf78a2fa7d33370f99468b46 usb: xhci: disable the correct slot on alloc_dev failure
-710c064fd9106224b0180262e86f4bfd431cca41 usb: pci-quirks: always assert xHCI OS ownership
-fe2ab6f074d8a503138ecde100dc92e78726e4c9 usb: xhci: clear stale bandwidth data after hibernation
-69f0645f043feed4dc07690c74597574f43c41b4 usb: xhci: fix 'num_active_eps' accounting on allocation failure
+f874391deedec9be601bc044f2aed52a267a3671 PCI: liveupdate: Set up FLB handler for the PCI core
+e207461556c0d3a42fd59dc548e9e8f599aae298 PCI: liveupdate: Track outgoing preserved PCI devices
+42907d099a3c37f5a089d92465b3a61de9c7cbea PCI: liveupdate: Track incoming preserved PCI devices
+78d4d22c0d4e0830a5db9b903f1325b7fbe0eb17 PCI: liveupdate: Document driver binding responsibilities
+8178f14641e2d7acf648acc33a0cc070763250af PCI: liveupdate: Auto-preserve upstream bridges across Live Update
+3f832a32a1801a9e7b1dc4e88a3e1744a316b538 PCI: liveupdate: Preserve bus numbers during Live Update
+966230f2ebac2013f60ba6376a6ca726f6427ecd PCI: Refactor matching logic for pci_dev_acs_ops
+88016172c5585b1dd0d777ec529fcac577e4e94f PCI: Save and restore the ACS Control register and Egress Control Vector
+1fabde9a0e4964ac43e8ef3f0c9619d8ed80cc23 PCI: liveupdate: Adopt ACS controls in incoming preserved devices
+5506c59d1b844edad5cf2a704f8b87b353b3a2bc PCI: liveupdate: Adopt ARI Forwarding Enable on preserved bridges
+dbe2c3dfd43f9aa094b59669b81aa92b8685d23f PCI: liveupdate: Freeze preservation status during shutdown
+534abf9f0870b457e1e6f4ef8267b0471e9d2c2c PCI: liveupdate: Do not disable bus mastering on preserved devices during kexec
+5d995129832f72dc7a3870eabb216d487a145cf3 Documentation: PCI: Add documentation for Live Update
+7e966191f7a235c2f29d5450090b3bd9106c5f99 Merge patch series "PCI: liveupdate: PCI core support for Live Update"
 
---===============8543141275484402451==--
+--===============6758048504170081187==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-68067b62591a-92557f57298a.txt
+
+f874391deedec9be601bc044f2aed52a267a3671 PCI: liveupdate: Set up FLB handler for the PCI core
+e207461556c0d3a42fd59dc548e9e8f599aae298 PCI: liveupdate: Track outgoing preserved PCI devices
+42907d099a3c37f5a089d92465b3a61de9c7cbea PCI: liveupdate: Track incoming preserved PCI devices
+78d4d22c0d4e0830a5db9b903f1325b7fbe0eb17 PCI: liveupdate: Document driver binding responsibilities
+8178f14641e2d7acf648acc33a0cc070763250af PCI: liveupdate: Auto-preserve upstream bridges across Live Update
+3f832a32a1801a9e7b1dc4e88a3e1744a316b538 PCI: liveupdate: Preserve bus numbers during Live Update
+966230f2ebac2013f60ba6376a6ca726f6427ecd PCI: Refactor matching logic for pci_dev_acs_ops
+88016172c5585b1dd0d777ec529fcac577e4e94f PCI: Save and restore the ACS Control register and Egress Control Vector
+1fabde9a0e4964ac43e8ef3f0c9619d8ed80cc23 PCI: liveupdate: Adopt ACS controls in incoming preserved devices
+5506c59d1b844edad5cf2a704f8b87b353b3a2bc PCI: liveupdate: Adopt ARI Forwarding Enable on preserved bridges
+dbe2c3dfd43f9aa094b59669b81aa92b8685d23f PCI: liveupdate: Freeze preservation status during shutdown
+534abf9f0870b457e1e6f4ef8267b0471e9d2c2c PCI: liveupdate: Do not disable bus mastering on preserved devices during kexec
+5d995129832f72dc7a3870eabb216d487a145cf3 Documentation: PCI: Add documentation for Live Update
+7e966191f7a235c2f29d5450090b3bd9106c5f99 Merge patch series "PCI: liveupdate: PCI core support for Live Update"
+92557f57298aa0fd0d1515899cc174af1eae1996 Merge branch 'lu-pci-preservation' into next
+
+--===============6758048504170081187==--
