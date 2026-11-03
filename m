@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7234661535755666409=="
+Content-Type: multipart/mixed; boundary="===============8006680353052354418=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 03 Nov 2026 17:38:48 -0000
-Message-Id: <179372752837.1999657.12869376426937812360@gitolite.kernel.org>
+Date: Tue, 03 Nov 2026 17:38:52 -0000
+Message-Id: <179372753249.1999895.16099883748386514623@gitolite.kernel.org>
 
---===============7234661535755666409==
+--===============8006680353052354418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: cd5bc55288d4fd999595c8f2af6a5408cbe92a52
     new: 57fae4059380a2ba96e01d4f225c2102d3914feb
     log: revlist-cd5bc55288d4-57fae4059380.txt
 
---===============7234661535755666409==
+--===============8006680353052354418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a4da531b171c664a6cf42c5b82d1610cbdf14fe4 Merge tag 'bpf-fixes' of git://git.kern
 05441d697f7f9a927264f4058cbbc6a03dfcac9d Merge tag 'cocci-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 57fae4059380a2ba96e01d4f225c2102d3914feb Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf 7.4-rc1
 
---===============7234661535755666409==--
+--===============8006680353052354418==--
