@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Tue, 03 Nov 2026 13:56:08 -0000
-Message-Id: <179371416829.1824511.17044617228404833421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Tue, 03 Nov 2026 13:56:28 -0000
+Message-Id: <179371418888.1824727.3274256732527099020@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: pablo
 changes:
-  - ref: refs/heads/for-7.5-vsprintf-kallsyms
+  - ref: refs/heads/for-netdev-nf-26-11-03
     old: 0000000000000000000000000000000000000000
-    new: 5b212610d0b8f474f1eef70b9a5aa4b2ecfff788
+    new: 3d234337bbb1e32fab38e4e30da72edc5ddc241f
