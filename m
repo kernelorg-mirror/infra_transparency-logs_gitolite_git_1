@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3462439139242672165=="
+Content-Type: multipart/mixed; boundary="===============2725304307199976475=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 03 Nov 2026 02:18:35 -0000
-Message-Id: <179367231592.1236580.9350900736043182497@gitolite.kernel.org>
+Date: Tue, 03 Nov 2026 02:18:40 -0000
+Message-Id: <179367232016.1236825.17095225984144044708@gitolite.kernel.org>
 
---===============3462439139242672165==
+--===============2725304307199976475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 441c27e1427650e5e1e7d85e0f6756a12f276792
-    new: c7bda1ae45f603dff9025ca336610280f8db9da2
+  - ref: refs/heads/7.4/scsi-queue
+    old: 503e6172fa74da6b4944ece458f5534681e51d21
+    new: b8d0bb6a8ba0d3878940a914a19336844101867b
     log: |
          d58e6d962e5b59297be24d908f41af93f20ec11f scsi: mpt3sas: Register devices during SANITIZE
          5d5913710c81eed6fa275b6a24773059d9dbfdfa scsi: target: Validate REGISTER AND MOVE TransportID length
@@ -28,33 +28,33 @@ changes:
          b8d0bb6a8ba0d3878940a914a19336844101867b scsi: target: tcmu: Fix divide-by-zero in data_pages_per_blk store
          
 
---===============3462439139242672165==
+--===============2725304307199976475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1793672314 -0500
+pusher 75C5DE3D 1793672318 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1793672313-4685fc0481537ac870391d7e7425f7b7cfa9717d
+nonce 1793672318-bb239531e7876f3a0e4723ffd8f41c047bb2bf93
 
-441c27e1427650e5e1e7d85e0f6756a12f276792 c7bda1ae45f603dff9025ca336610280f8db9da2 refs/tags/mkp-scsi-queue
+503e6172fa74da6b4944ece458f5534681e51d21 b8d0bb6a8ba0d3878940a914a19336844101867b refs/heads/7.4/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrpRHoACgkQ7ulgGnXF
-3j1n1BAAkX1qI3xWSbVDPVfrnPybB2moI95yLXQqpvr61ctaDiH13bk8xmxPCzq1
-M5y/N0qWkYgqFUpgh2vv7ixYW0gGBQxA3+o9AtFPa91zgk+vCMP+T/xJENKQNTwt
-7QSnNARN6pcb5LQvLvee1J/OYg///hFZi0PFjTcsuUZxI8T3/KInZTNHuqQoSWKF
-KVvI6xVTA1iwx8JV3ZsnLUdZEBa+bffQEaRrtUd/IcrPT84gwREpTRZCpYrIloYb
-1YpW3eLj4p/YnKfNhTWpww5jTSQTmxSQ6XSD2WyiIRHThRJjcOA4+uI2FsXw3BN+
-am/kVAMdCtVUBadkrsdJXZxXG+ycm+9AT4G0BZwzXxaBG4cBkFjQDGvizlaWfCSs
-ZRn7FS1TJ4L4ECMm17jO9x32PSSBPyiK5ldBykuwsVqXbfR16Up6+rA/1Krlrw/q
-b4KouiKBw+D24oxkxFMbXUZ74TNdOCQb+ysYSm076VR/YZyR2fyz3I09m9KnnedG
-4DIWEGlrRCgPVrpbCMs/Digv7w0pJMmpgXYUW64im2BtJxUoEPiiOA589x0CwHDY
-y6p6Sb5UlaDO62sVlHNN9NJQZoAxgkttlO1hdvofubeSc6u09nA8GwLeWRcYP271
-aiJEs3P+RGArYU/oEN4tcqh/+JkxaD5HpkC2aB3YgvwCaoTAzmI=
-=AxXS
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrpRH4ACgkQ7ulgGnXF
+3j1b0xAAnVo1IXq16w+DgpA+aPSBoheIinLe6yy+r93Mscnas8mGgq9Hccfn1Qi0
+vWX+ZDbG6x6ftvoqUSq+UQNNglgS5dPVYj9QXQKY4lRU3ONPoRIwp1x6lUEFLXxB
+6gIuFyhXofEcCufGkx4K3PklbUt2maJWhtH76T8tMN7sK6NX8rkIU3to9OxSjf2q
+a2s3CG3K2SXpg0wkEnE/uXmgeT0Hazlx8jiGUPs63RMzZnUD57WdPpWywVpiT/xn
+AcyF0AKtUE4Gzltx3aB4U4bNW3fKcDo+r01hQkyFTxIgwg2wtigaDSGIf068hy0D
+ZJcGKA9TeLTIhaSDy7789axCeBxa8K2RxGpQP61WHXr5iA/NBxlHvJcdYtBOsZUJ
+chssg55yuprDa63//DkLHsDNuwZEYls2xR/2vJc4Xb8NvFg0VpQvLlyKpgjEbxZD
+sQnnO3mMuEqxhRuTWW4oMX+4FjpQuOCwj3eqRoT5IfOnyOdQJNXye7F0d03wSttz
+72X5PQU+1DK6YZbXvhI7BZr7M1OifuMYOFJK5Baev0bezJP9lgfuMKAgi4Qalq6o
+NRkU8w7pV5tIO3BPNPuPZcsI4Zw2795lYtaGxRX2ia+9gCIOwjtDVdamjMnY7hSb
+8gcPUWkbreqcBT4Op4lxIeWNbE7HC7LCFZMrbMgxVSbHLt6wHPw=
+=fA+v
 -----END PGP SIGNATURE-----
 
---===============3462439139242672165==--
+--===============2725304307199976475==--
