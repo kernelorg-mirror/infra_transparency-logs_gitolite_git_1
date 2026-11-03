@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 03 Nov 2026 14:07:45 -0000
-Message-Id: <179371486597.1834574.6806503820490968188@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Tue, 03 Nov 2026 14:08:52 -0000
+Message-Id: <179371493255.1835179.14451059305384948576@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/hwmon-next
-    old: d790b93997b7585b60f27711bf08925bf3c7e0dd
-    new: 77f4c8812bf52e9ef4709d328565215ed141fc6d
+  - ref: refs/heads/for-7.5-vsprintf-kallsyms
+    old: 5b212610d0b8f474f1eef70b9a5aa4b2ecfff788
+    new: 03e43e6f961a47d22fe8cdb45ff01c48c9a1f941
     log: |
-         71ba2b4f2f1c730b2136fe876447a81c24591540 dt-bindings: hwmon: Add TDK FS160x and FS1006
-         77f4c8812bf52e9ef4709d328565215ed141fc6d hwmon: (fs1603) Add driver for TDK FS160x and FS1006 uPOL converters
+         fd23f3c2a67c0a9d6fa78fb4f03b7d9c509984a8 vsprintf: Don't leak pointers for %ps without KALLSYMS enabled
+         03e43e6f961a47d22fe8cdb45ff01c48c9a1f941 kallsyms: Don't leak pointers for unresolved symbols
          
