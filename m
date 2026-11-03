@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2243796776507296506=="
+Content-Type: multipart/mixed; boundary="===============7034140158361454894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 03 Nov 2026 15:12:50 -0000
-Message-Id: <179371877005.1888045.3636483202147980309@gitolite.kernel.org>
+Date: Tue, 03 Nov 2026 15:12:56 -0000
+Message-Id: <179371877650.1888279.5763948688951478139@gitolite.kernel.org>
 
---===============2243796776507296506==
+--===============7034140158361454894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,131 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: cac95f24035663fe31a0dd44d3d5ff2697a6870a
-    new: e80f2f45620ce663fc9cfbeef3584700e54d9ce9
-    log: revlist-cac95f240356-e80f2f45620c.txt
+  - ref: refs/heads/mm-new
+    old: afb4eea28037fa55c4560313ecbd8a1e1da8369a
+    new: 74d73ffcffe03804f97e9fb82301dadf75671282
+    log: revlist-afb4eea28037-74d73ffcffe0.txt
 
---===============2243796776507296506==
+--===============7034140158361454894==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cac95f240356-e80f2f45620c.txt
+Content-Disposition: attachment; filename=revlist-afb4eea28037-74d73ffcffe0.txt
 
+fb2a238f15f0fc2dacd12f8847b0ec0a1cf7ccac scsi: ufs: qcom: Power down UFS during system suspend on Milos
+c2c645243dba2cb16d001715cb3a1085def376e5 scsi: fnic: Update module authors
+cd37a69c367b6a5f685db0ac7d01f08545081a30 scsi: ufs: core: Remove an always-false WARN_ONCE()
+22d14117ec1845a81acb3a5c4be325f7e8332f70 scsi: ufs: core: Add a helper for clearing hba->outstanding_reqs
+6b9c1f49971e4dfe8b8916f0527d30e97c15f234 scsi: ufs: core: Fix double completion in ufshcd_clear_lu_cmds()
+3a7e551ae4bcc53f271fc15ab8e930598e28dad8 scsi: ufs: core: Fix double release in ufshcd_eh_timed_out()
+7cfdfdd6557906fd09cf0a9a564a07012e7fb0c1 scsi: ufs: core: Remove completed-without-interrupt path in ufshcd_abort()
+eb2c4847a1cb2f426cfc702364df7a38ebbf730b scsi: ufs: core: Do not release a reserved request in ufshcd_abort()
+3650bb41391b51d9dcf87b0480ecafeb1526252f Merge patch series "scsi: ufs: core: Factor hba->outstanding_reqs helper and fix double completions"
+232475c32994411bd816d6358ca48e94010fc84a bpf: Protect the struct_ops association with a spinlock
+377ab5f2ef793b034d7d710212604fd62f0f00b9 bpf: Dissociate struct_ops progs before the grace period of the map
+a451867eb5f645a199d0f70cb2b1f541e07f33ec selftests/bpf: Test freeing a struct_ops map under a running prog
+ac3df711a428a9ff4277100ee26c6765e8f80a3b selftests/bpf: Wait for the struct_ops map to be freed in assoc_in_timer
+605e6a0e5aff50a6bcc7a6c8731e5d767b897e3b Merge branch 'bpf-fix-a-struct_ops-use-after-free-behind-a-flaky-assoc_in_timer-test'
+02da62c2f89668fa1adafa3cc806025b560e45ce bpf, x86: Use emit_rsb_call() to call bpf_unwind_target()
+fb2b27d214c3b88d926a303267dd83cfdb428b13 bpf: Propagate btf_add_type() errors in btf_check_all_metas()
+ebf0ab370bcdcd17f4faa204e1d2cc8e817ca6b1 bpf: Size backward jumps by the insns they jump over
+a938f51d3522b9ff1fbe1171d9504d584a40eb58 selftests/bpf: Test JIT jumps which change at a repeated image length
+e27c798425407fcbab81f40de4f1a37ab039edb5 Merge branch 'bpf-fix-x86-jit-stopping-before-jumps-converge'
+b93cf2c8a0552b544e90e25802e4bf989987d29d bpf: Use memmove() to load bytes from an skb and an xdp_buff
+93bd472336ac2424f5f3cf05cbb24e02242343b7 bpf: Remove nmi_uaccess_okay() check in bpf_send_signal_common()
+2c79610f72bb880cbb42adacec5a4b1b335040bf selftests/bpf: Test bpf_send_signal_task() from kernel thread context
+2f78620ca9529ef3e25f7ebaa4a1347cb4bcfed5 Merge branch 'bpf-fix-bpf_send_signal_task-from-kernel-thread-context'
+2c3afbb5c7a23886aa960dfab7a8d87235620e49 fscrypt: Explicitly zeroize sw_secret in error path
+cf66375465b9ca531f5c294f468db1df293c178c fscrypt: Fix missing barrier in fscrypt_find_mode_key()
+0e341d1d29db11c29211d2b8870a515c26589d5a ext4: refuse encryption when block size > page size
+a5e894bc87b76fd980075892ba77e6bdeeb5e4d0 ext4: reject encrypted inodes when block size > page size
+d09c2aa3109f5cb1d0be7d382231ab5d58583cad bpf: Track borrowed iterator results by default
+2d7eaeb05ae265bd64270376e6a2c0d80244771f selftests/bpf: Test borrowed iterator result lifetimes
+00d2cdf1637e340e66fa30900363a35af12fabd8 Merge branch 'bpf-track-borrowed-iterator-result-lifetimes'
+f89fa411b8526a0d3706a6139b6bc99869c80dc3 Merge tag 'md-7.4-20261013' of https://git.kernel.org/pub/scm/linux/kernel/git/mdraid/linux into block-7.4
+dc2f8fbbe8f1cc657b814ddc3e854bdd8dbbc63f vt: Add con_unblank callback to struct consw
+4b04dbc869d357a98a185d3a9333a8d5d7a7e43b dummycon: Implement struct consw.con_unblank
+0cfbdd6e43bdfe489646d6b2627af88a9c098b02 fbcon: Implement struct consw.con_unblank
+5d1df7fae09f1cabfbe18c9bfe72af6d140167f3 newport_con: Implement struct consw.con_unblank
+aa121c4be2203b44d87142e753b2c7a66db990f5 sticon: Implement struct consw.con_unblank
+d98fbdba7d25fc2e2f701ed82c9b15e91078a743 vgacon: Implement struct consw.con_unblank
+e220f288b76b734e749c0035cc79a98b920a24d5 vt: Remove old-style con_blank
+73e38d178bbd28fe2c30443e6c0cf74e3f584bdb ALSA: usb-audio: Correct a typo in UMC404HD model comment
+9b30046de03acb3b3f2135d45af6be7ee0b565b6 ALSA: ump: Drain sequencer callbacks before freeing their client
+01d1204582f16e8b7bfce29648e5cf77a585d962 fbdev: atmel_lcdfb: fix list_first_entry() on possibly empty modelist in probe
+482c117c6dbeee382790168af10959810450ab09 smb: client: hold server info until cifsd exits
+a377a3645c7d0246af0bc4ef24db94bb2670bdde smb: client: fix slab-out-of-bounds write in id_mode_to_cifs_acl()
+7b1afb631395c958993cda4631002258ef4151ea smb: client: fix early procfs exposure race
+78ff77ded78f2d3d6040705a3ab5a83cc45275e3 kthread: Fall back when no preferred housekeeping CPU is online
+064bcd117e8a1a266bb92b840f63862999b7cb87 hrtimer: Add cleanup class for on-stack timers
+bd091346971c88fccd44afd2547d28366f824572 sched/idle: Use hrtimer cleanup class in play_idle_precise()
+5b819071e4346256c4edbae5cc2095dff25694fc posix-timers: Accept NULL clock_getres() output in stubs
+ef60f61208a30eb5b941b707debdf04517271b4f timers/itimer: Keep a nonzero value at CPU timer expiry
+d69cfd33b5a8d176124c564513b9ceb933595d93 time/namespace: Fix overflow when converting absolute deadlines
+141a27750ec3d91ad9d1ad1764ebb5e51b963478 posix-timers: Report zero remaining time for disarmed SIGEV_NONE timers
+45aeb7b3039355cfaf01ee1f7e104a55a8d61d0b selftests: timers: Add a test for disarmed SIGEV_NONE timers
+e389ae428847a2e6a3b698b5967df68ccf90361c tick/nohz: Reevaluate the tick for kicks flushed outside hardirq
+33b28f3b313353f11fc939e9a268605e66290d0b Drivers: hv: Remove leftover support for old Hyper-V versions
+cbd0f65b48f52d308c457b0fd5201324abadb501 vdso/gettimeofday: Correct the read of tz_minuteswest and tz_dsttime
+90aedf8854c05713c02b381c41c59081b5cedbcc bpf: Validate stack arg reads against caller state
+195a3519ff27bff5575e05b5086e38ee92715776 selftests/bpf: Test missing and callback stack arguments
+121d74bee8cd81ce9212837db98ceaef2e530637 KVM: arm64: Reject the stage-2 flush hypercalls under pKVM
+fb77bb2a0ff253e6c370ec7dc1afa45b2ecd8d2e KVM: arm64: Validate the host-provided vgic model in pKVM
+cd38c10e191eb2c37b9904a6ffc3b6bf4d9c0c48 KVM: arm64: vgic: Do not access the GICv5 CPU interface from EL1
+7ad25ad110608320348669488297e06ea8c72f85 KVM: arm64: Fix stale VGICv3 comments in the nVHE world switch
+00e73757518020273ccf6308a51f214e58c21ad5 KVM: arm64: Set HCR_EL2.BSU to Inner Shareable for guests
+00869b4a26deb3e52b2ad21f4239f3d533eb16e0 KVM: arm64: Convert HCR_xyz to HCR_EL2_xyz
+d32084d26c217b85e53c61d577178d5aaebc2c5b KVM: arm64: Get rid of compatibility HCR_EL2 aliases
+0fa4e506a054702d03d46aac9272a37f820fc2e5 KVM: arm64: Move pkvm_selftests() after all CPUs have initialized EL2
+3bb853ad84244f0b86ab12f029bc4a0c9c7100e8 tracing/remotes: Fix TRACE_REMOTE build when TRACING=n
+a71cef6f641152c7c7bbc17d86f33a3b45cd10a9 ALSA: opl3: Initialize the timer before publishing a sequencer port
+02b1d5127f37683448ef35798b3a6310d1d38761 ALSA: opl3: Clear voice channels before freeing their sets
+9194d8dd4196fa3fb457de2909df468d501c01c2 ALSA: opl3: Shut down the timer after draining sequencer ports
+6b186281a11194be8349d6b14c3d605efcfaf037 ALSA: usb-audio: Rate-limit URB submission error at stream start
+5deb9c57ba93d28a52871a96f3d8794d2cbed035 ALSA: pcmtest: Reject invalid fill_mode values
+6430fb7f1cc4e329e386521b7b208df443de92f2 netlink: fix out-of-bounds bitmap access clearing stale mc groups
+7193241a49c958782ba4b8df06da3734d1e317d2 smb: smbdirect: fix buffer length underflow in RDMA transfers
+f728cfee6929057087c303d07d7a6a7c61196b48 ksmbd: fix app-instance non-durable supersede session UAF
+1f5ce2b8b9164b3fcb93a18fe1e7b451c2fc6eea ksmbd: ignore network devices of other namespaces
+19f8fd6b5ced33b02a083759e6901f9d6e8076df ksmbd: prevent session binding in compound requests
+f1f37834eaba5904103af1f18afe3510c7e9dc71 smb: server: size directory name conversion buffer correctly
+146c3fc6540e24eef6296395a35bf5b924182e8b ksmbd: keep retry timeout clamp bounds constant
+a4be8d69698b11d976c122be2d32bb72b8a52809 KVM: arm64: selftests: Skip unwritable ID fields in the failed-run test
+68c11eed4f8097ef1b71c30679e96eb654df29e0 KVM: arm64: Sanitise ID_AA64MMFR3_EL1.S1P[IO]E
+576a1b5ab4b8be03ab5cf7b41b475850795e3fe2 KVM: arm64: gic-v5: Drop unused addr variable
+05620a31421935f737d16a060d2dfe731f7b2f74 KVM: arm64: vgic: Require matching VGIC and ITS models
+b17eea28dc815f63aa3279a66fd1e4de47a8a446 KVM: selftests: Reject GICv3 ITS with a GICv5 VGIC
+3382d9c992575158445db36367eaae02d2d83dfc Merge branch kvm-arm64/hcr-cleanup into kvmarm-master/fixes
+af3a65d20dbfedc2a4779833597ec133fa612e86 Merge branch kvm-arm64/cross-vcpu-sync into kvmarm-master/fixes
+9e9283e4c941e806d2735f09b66763487bc48b50 Merge branch kvm-arm64/misc-fixes-7.4-1 into kvmarm-master/fixes
+9080b18ad561a495bf74926cbc52e23cae8887c0 ASoC: amd: yc: Add DMI quirk for HP Laptop 14-em0xxx
+a200e12135c96893f7c29bdf97f46868132f695d ceph: remove unused field `i_cap_migration_resv`
+3fd81f6adce06a999912ec54288041d0dc5ba376 ceph: convert ceph_inode_xattr fields to `bool`
+c2a720e0e98db1a73bebbd5c894f142b16a2fe84 ceph: convert ceph_cap_snap.writing fields to `bool`
+716b8a12118a5be7d46aa068c3767123550909ac ceph: consistently use `u32` for `time_warp_seq`
+c015b9fcab99b28cbd72fb761a5d79dff0b73c50 ceph: add `const` to helpers
+651a3ccd0bf7a7ba1d4cabf1230da34a84e98928 ceph: add helper ceph_in_snap()
+9332dd19460634103a1782398b48fd6bae6d6b39 ceph: use ceph_vino() etc. instead of accessing i_vino directly
+2dd2ba2f4036f5e0719be19d29e5b09887b088c3 ceph: remove redundant inode number from ceph_inode_info
+3f8bbbb5801ce4eca6d0b177781679067209b3dc ceph: disable inline data support
+45bd40c81afce59654c69c125951013670b3a8d7 ceph: __{dir,dentry}_lease_check() returns an enum
+32eacfae3b16f6a9c0c20f946115abf5a091c922 ceph: mark the superblock active after mounting
+6ce5143eea0566512923591a4a3cb0872ee42e4d ceph: keep the inode, not the name, when a dentry lease expires
+00a0d7f377f6af59bc559b2e07dffff63eaa5544 ceph: fix page vector leak on encrypted netfs read EIO path
+43519617174ec55a9298ffe15892d81fd7bfaaba ceph: use a folio in ceph_get_caps()
+303227111a734281a4a82d178be115baad7056da ceph: use a folio in the inline read branch of ceph_filemap_fault()
+6068b68c82e70c8ea43a57e45559a10def75c3b0 ceph: use a folio in the READ_INLINE path of ceph_read_iter()
+41049e89df285ef9e3860481fdb3c01f301d6184 ceph: convert ceph_fill_inline_data() to take a folio
+19040032347870ec069f9db67d097d69383a9ee2 ceph: convert r_locked_page to r_locked_folio
+ad67b498de17b709f050d7ebf84749b1fc6a242d ceph: fix error handling when the OSD client is stopping in ceph_submit_write()
+3f7655f0d9186656c6f1cbc012a39c866d4aaabf ceph: wait for pending fscache write in write_folio_nounlock()
+81a949790a69058f4c62bddaeed240e083f52d7f ceph: add ceph_folio_snap_context()
+015244c23938be2ce452edd2ff9adadfcf9423c7 ceph: convert ceph_wait_until_current_writes_complete() to folios
+2352e50d9732f934f919bc3c71d2b868a3b8d56f ceph: convert get_writepages_data_length() to folios
+00da1176cce72d2bdde8da8eb78d1e892fd2f400 ceph: convert ceph_submit_write() to folios
+a6341000e5dc98541b85404d9814e362d5b9f5c6 ceph: remove page remnants from write_folio_nounlock()
+0917a0848325cb3b625e1c118dca7d7fd15026b9 ceph: convert page cleanup loop in writepages_finish() to folios
+ef9024b5fca26c85e1f04edc823f2f55abe9c060 ceph: remove ceph_fscrypt_pagecache_page() and ceph_fscrypt_page_offset()
 fb5ceebfcd91c44cba06f6e0d8b7d254475688d0 ceph: rename ceph_check_page_before_write() to ceph_check_folio_before_write()
 979b7ed4457a04c5a41c36f86052ecc6b76c67d9 ceph: avoid pending truncate during nonblocking cap acquire
 7807710d88ad03e7ca9b5f79f518f040db2a4e09 ceph: fix writeback_count leak when a bounce page allocation fails
@@ -936,119 +1050,5 @@ c764eb70cce26a7b7df3841dcd74a6c6cd186f6a mm: remove find_lock_page()
 06799bc3764dc2045ab5b7e47c9334fd1cb948c5 mm: remove read_cache_page_gfp()
 d8da6965d43f04ca44f046a17d194cdf03473c53 mm: remove thp_size() and thp_order()
 74d73ffcffe03804f97e9fb82301dadf75671282 riscv: mm: fix concurrency in mark_new_valid_map()
-36629928e1f5b1cbf955538da91ca52963403439 === mark start of DAMON hack tree ===
-bb73ea2cd5a71f52e08927be96f18813027ee89f add -damon suffix to the version name
-f67217d46463070f418f64c278b353e0c859e613 === hotfix ===
-2348f93dd62ed3bb2a4a26dc1f1e6de1a2a18a4c === hotfix rfc ===
-370616710faff52adbc719d85f32a78ffd298ae4 === non-hotfix ===
-36266d198d7dc97581621c82867b9c0de750a5c7 ==== 2026-11-09 repost ====
-c622a23b5b977a9546aef4927abb347c641d6659 mm/damon/stat: avoid overflow in estimated_memory_bandwidth calculation
-547629d11a862a5932b5287382ad8fe3114b5d9a mm/damon/core: use list_{next,prev}_entry() in damon_{next,prev}_region()
-ffc66d1bbb8c9c863496f366ea552d63f28d5569 Docs/admin-guide/mm/damon/reclaim: improve language
-b362eec9039ea8c72f83ce09778cc5b10816c3e9 === non-hotfix: rfc ===
-a973de70965f582e3bd916d8f6282c5216904c6e ==== misc fixups ====
-a31cff2ae5714040e640b7cb88bd2cfa76d1d9ec mm/damon/vaddr: advance migration attempt in folio level for filter out
-f0f0d429b05a655d516f731b1f01202fb7fbd1c2 mm/damon/vaddr: use damos->last_applied for migrate action
-af7dfcf4b839d610b3ac8af19aa2589297c421ed mm/damon/vaddr: implement sz_filter_passed for migrate_{hot,cold} action
-9c771d8ea961b37d206e9fbf4db1258c74e03c0c mm/damon/sysfs-schemes: drop redundant and racy zero target_value check
-179672214d12db9eb25d11ba19690c5da1888aa1 selftests/damon/damos_apply_interval: remove unused variables
-830a0fdd9efb52c1833ccf1acec164f923816860 selftests/damon: remove unused imports of sys and time modules
-8ff9a1e9de00171e5d31ec66dd48fe149d4a32ac === hacks in progress ===
-ca96b17a6b1c29f98517b2374ed8576c802e56bb ==== damon_reclaim default param vals update ====
-d9d227ab5b526b11076e82bf2730b344609987c6 mm/damon/reclaim: enable monitoring intervals auto-tune by default
-6eb2a3e492a011747441f7d91d2abcb78b9ab445 mm/damon/reclaim: disable watermarks by default
-624463369c90379c1adfa30baf8fe5adfcc52b14 mm/damon/reclaim: set memory PSI 0.05% as default quota goal
-2d247c4bfd9aa2ae4eb8e17a3c210d8c8e6ca791 Docs/admin-guide/mm/damon/reclaim: update for changed default parameters
-1fe106b0319ee25122e0fd963f76f6517b6980e7 Docs/mm/damon/design: update for DAMON_FILTER_TYPE_ACTIVE
-6e7977bf255780c77898944d6a28fb0cb171b978 ==== age_ms damos filter ====
-7931e44b6f4a975af3abdef3bba87d411a888430 mm/damon: add age_ms damos filter type
-de842e05047157db29808997c06c53092dcc29d7 mm/damon/core: implement DAMOS_FILTER_TYPE_AGE_MS
-ab9104b47c070287a9fc190834f2b165f06bcaca mm/damon/sysfs-schemes: support DAMOS_FILTER_TYPE_AGE_MS
-9f3c872e00dd4e386ef976c99f6c2733533cb31f Docs/mm/damon/design: update for age_ms damos filter type
-52006e49185ed5ef6cc4e7cd75968023f6396740 Docs/admin-guide/mm/damon/usage: update for age_ms damos filter
-76676ee5eb5cfed8d9103429edc06b2b27460f6e ==== lru-active probe filter ====
-4435c87519e3a59ca8bb676f491b68b1b771f257 mm/damon: add DAMON_FILTER_TYPE_ACTIVE
-e7028e5fe2255face1807fddf1ee8adca0f5b797 mm/damon/ops-common: support DAMON_FILTER_TYPE_ACTIVE
-08fd13234aed7e25d2c5b58525b68a627ef0571a mm/damon/sysfs: support DAMON_FILTER_TYPE_ACTIVE
-6f8fd88cb28fd1d12133af6c35924bb4d3fa389b ==== CONFIG_DAMON_AUTOTUNE_PARAMS ====
-c399221449a1637f5fb3090f49ce23c67c036bbc mm/damon/Kconfig: add CONFIG_DAMON_AUTOTUNE_PARAMS
-f7b4e91e4722949a1f3d8c4a3063e87ff1e043a9 ==== beyond a-bit milestone 2 ====
-1d3921771fd9bb9c0d9704fd845de647f547c9cf Docs/mm/damon/design: document data attributes report infra design (beyond page table accessed-bit milestone 2)
-06dc7f7593d4bd791fea0e292ecb906e288842b9 Docs/admin-guide/mm/damon/usage: update for attr reports managing files
-987ed12c184b69e5f77fcca0a393228c861f64ef Docs/admin-guide/mm/damon/usage: add report_queue under probe filter dir
-55fc657df8aa8b547eed40e7f9067459d0826461 Docs/admin-guide/mm/damon/usage: let specifying queue to put report
-b10345b86fcb011bce71639773b90e4e7de498ef Docs/admin-guide/mm/damon/usage: update for reports config files
-578242f46ee9f6d13f32d3c9a4264866234aa068 mm/damon: add data structures for report queue
-310eed05e986725ffe9c22a34dbaf203328e1d8c Docs/admin-guide/mm/damon/usage: update report system ABI
-85aff266a868f78017afb80271ae4205a20c3f84 Docs/mm/damon/design: hide report buffer management from caller/user
-b3af402331345123cd98d35dddbf2c7fcac9ceb0 Docs/admin-guide/mm/damon/usage: allow user-providing report, multiple producers
-d86601a2a5394c0d22e2afb6135ea46fca473a15 Docs/admin-guide/mm/damon/usage: fixup typos and inconsistencies
-4dddcfda821cad5e005cae8fa7a8470d4f1fc090 ==== fault/report-based monitoring for per-cpu and write ====
-b6fc3032be37b09d6ba03be8156e882af6bcfd03 mm/damon/core: implement damon_report_access()
-0c1d3bf5157171e34d86405b742b1d2d8e6a77dc mm/damon: (fixup) fix typos
-183ccfae193aa365554b8a10bf9371b177a26e01 mm/damon: define struct damon_sample_control
-368a2d34db9c6e37300383b9f7949caae3129110 mm/damon/core: commit damon_sample_control
-6fbb690ca51db3c4e1ebf1dcb620db64fc871fda mm/damon/core: implement damon_report_page_fault()
-03d92de54cb967cc6fee3b34f3718bfea2cc9a6a mm/{mprotect,memory}: (no upstream-aimed hack) implement MM_CP_DAMON
-a75e98a69c9e8a8ac7e3ca7542ccabd568f2ab0d mm/damon/paddr: support page fault access check primitive
-8c8ba2d6d562b122267b0bcf6218baf2ca94b4f1 mm/damon/core: apply access reports to high level snapshot
-1d6002364ae903d04fb50a41a4037aee3734d9d5 mm/damon/sysfs: implement monitoring_attrs/sample/ dir
-f3a9c414ba52487d9751a8d688254ed3576b57c8 mm/damon/sysfs: implement sample/primitives/ dir
-9850f23ad056c830198c71dfedf2e00648370d71 mm/damon/sysfs: connect primitives directory with core
-2a1922fe6e864b74afe310e2466cde4c98859fb3 Docs/mm/damon/design: document page fault sampling primitive
-4c3e7675fd3cdeca56e2676f733a8605ebb6d3be Docs/admin-guide/mm/damon/usage: document sample primitives dir
-f813256532052a393d4fac71475df4ef9c6ea7c0 mm/damon: extend damon_access_report for origin CPU reporting
-4206bb21c991db1d6c47cb4a9bf4f64abd6bc5b5 mm/damon/core: report access origin cpu of page faults
-661ad3cea32b7c2d13ae41f1a339921c077a0452 mm/damon: implement sample filter data structure for cpus-only monitoring
-359703952e30db1c92b115c846bf43020055a0c3 mm/damon/core: implement damon_sample_filter manipulations
-e2633e2baeee14ca0bfdcd1f8bf6ae8c357e524d mm/damon/core: commit damon_sample_filters
-ac535adf47b6b6e88ed51d0d4df57b7cffb67b65 mm/damon/core: apply sample filter to access reports
-3d4973aaee0fd6dcc342cfaba14f4e278ab11542 mm/damon/sysfs: implement sample/filters/ directory
-a1f2f8e124e6884dbc4d89fbe6f02056e216a352 mm/damon/sysfs: implement sample filter directory
-ae85c04387240d943a0cb2164026bb640fe3cabd mm/damon/sysfs: implement type, matching, allow files under sample filter dir
-77e3dbd08d21070613c6515f09c8603a2b003e37 mm/damon/sysfs: implement cpumask file under sample filter dir
-ccc5524c812ad45a48515ab5231460f4dab26fcb mm/damon/sysfs: connect sample filters with core layer
-98985986a1e545dd3a52f675195dc660601dfa10 Docs/mm/damon/design: document sample filters
-cee7644ba8149ed536bda4af183fa861dff8be79 Docs/admin-guide/mm/damon/usage: document sample filters dir
-82f6b04a6c18cf01bd9f69ce98d187f47fe630d4 mm/damon: extend damon_access_report for access-origin thread info
-e060c50ecae098b2e1f6ed3bd88aab9c8fe667e6 mm/damon/core: report access-generated thread id of the fault event
-8b089fbcd7b853b4656eac23b9f12165087a7f53 mm/damon: extend damon_sample_filter for threads
-f9be29c2052fd8558905a6e32d967243b1277aa7 mm/damon/core: support threads type sample filter
-2c1fc231e1af8979d3525a16f8bf3df3454a0c47 mm/damon/sysfs: support thread based access sample filtering
-710f18ee0656d45909be5fad241b30897160ba7c Docs/mm/damon/design: document threads type sample filter
-a1745740d2ebe81a11b32ca9357a677d2f9e21ec Docs/admin-guide/mm/damon/usage: document tids_arr file
-7fcf11dcba2fb1e95b752213b516c92a640ab5ed mm/damon: support reporting write access
-73507f3069bc5a2ea7904dff22dfe649ce7bab9a mm/damon/core: report whether the page fault was for writing
-5a4f533d9d8be7fd63e283886568a0f2e1696ff8 mm/damon/core: support write access sample filter
-364d5b74405321a2a93d48cd900fcb5a9f361ccc mm/damon/sysfs: support write-type access sample filter
-b4a2e913baa3e2a32baba8181d47d0d1ab0bcdf0 Docs/mm/damon/design: document write access sample filter type
-7f5d1688b6230276446aaee293d617aea5f96c25 mm/damon/core: elaborate access reports dropping behavior
-78f720359fe98612ffcd9bfa9a44ffd0167e1bef ===== fault-based vaddr monitoring =====
-836774e8c0c09345d9a747108c06797b613324ce mm/damon: rename damon_access_report->addr to ->paddr
-c210751b883b7f73ba21d4b05406804afa484135 mm/damon: extend damon_access_report for virtual address
-a735d65fd16f0c6266f8e29e58e3440184cd850f mm/damon/core: set damon_access_report->vaddr from page fault report
-758f3e486d1721d9478cff7223e54b4a7e495a29 mm/damon/core: support vaddr reports
-ccbc98f13bdd092f88dd8b634693aa1f3ee60dcd mm/damon/sysfs: move sample directory code to sysfs-sample.c
-86a196a0fd360fbfbe4f03a3c6e822af80afb105 ==== docs for DAMON and mm ====
-bb6c79eeeefeb1b9dacaf5757dad49137525f243 Docs/mm/damon/design: add table of contents for overall and DAMOS
-5d6550a23da53276d867024a91a089480d69facb Docs/process/2.Process: Update mm tree URL
-af14e23aec23706477b3c9703894cff787839258 Docs/mm/damon/design: add API link to damon_ctx
-c02b48804b620d878c3f0c4e4547d422708734dd ==== ACMA ====
-ea22ca5196ab490657b51b374931b2ef9f78d75c mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-d3c5758bdd630ce1059e7b4f179ce34b1676ecd0 mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-8c612f1cb1b48053071e87a875d49e393094046e mm/page_reporting: implement a function for reporting specific pfn range
-ff7195f2b5f649ae2bcd27f0952a4c52f55ad09d mm/damon/acma: implement scale down feature
-53404f0e5e8edb1984ebbd52234bb56f8149a884 mm/damon/acma: implement scale up feature
-f839f37de04f1456885fbed0ed62098f0116ff58 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-ba81387f7fd10260cfe257b30668bf60a403f049 mm/damon/acma: assume damon_stop() to always succeed
-e15c81e6a1824e1688c7e49ee6167fe4743a2ab0 === commits aiming not to be posted ===
-cd6568ba79ea3241c24ece9ffb62938f59e991fe mm/damon/core: add todo for DAMOS interval validation
-2219bc20d238c9abaecd4bd2d77580000fd062ff ==== uncategorized ====
-19cbf461fb71377c53ac63d44a16ce44840c2295 mm/damon/core: add an hacking idea concept interface prototype
-4411c30c32e82e82191b82b8483a4089682d70fb mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
-31a4bfccaa2c7016ee6d34d401f78b65b5aade17 mm/damon: unconditionally trace damon_region_aggregated
-c11909bde6775449d0d58b1e7e2b58eeae887b74 mm/internal: update vma_address_end() comment for removed vma_address()
-a5b6610c8764b0089396a61f57feea728f311bbc mm/damon: introduce DAMON_PREP_SET_FLUSH_PGIDLE
-e80f2f45620ce663fc9cfbeef3584700e54d9ce9 mm/damon/core: handle invalid target in damos_fix_stale_charge_pointers()
 
---===============2243796776507296506==--
+--===============7034140158361454894==--
