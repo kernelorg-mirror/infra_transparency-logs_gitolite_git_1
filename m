@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4436724424463500335=="
+Content-Type: multipart/mixed; boundary="===============0067504188224162916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Tue, 03 Nov 2026 11:13:05 -0000
-Message-Id: <179370438507.1691556.13192553174500728630@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 03 Nov 2026 11:13:27 -0000
+Message-Id: <179370440733.1691813.1653334233050927005@gitolite.kernel.org>
 
---===============4436724424463500335==
+--===============0067504188224162916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/test-schedulers
-    old: c4360170f64ba294847cb9ab08666b684d6f62a6
-    new: 5237ae5476a0113d1dfb3bfbe5926d0abb4f1ab9
+  - ref: refs/heads/master
+    old: 30cf13c6e282f9b347d3ea822274ac31dc5be781
+    new: 09f5096cb346e7c41366257e88accba0c0ba95fd
     log: |
-         38091322a5b50027cb07578363a316859b5270ed Revert "Reapply "memory: fsl_ifc: Clear fsl_ifc_ctrl_dev on probe failure and removal""
-         5237ae5476a0113d1dfb3bfbe5926d0abb4f1ab9 Reapply "Reapply "memory: fsl_ifc: Clear fsl_ifc_ctrl_dev on probe failure and removal""
+         09f5096cb346e7c41366257e88accba0c0ba95fd 6.6-stable patches
          
 
---===============4436724424463500335==
+--===============0067504188224162916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1793704383 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1793704382-f8827fab35bdb59f17e17f25e09e6f1ed9b4c12c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793704406 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1793704405-f03531f822ca14d68eef17efe4729221e0fe7cfb
 
-c4360170f64ba294847cb9ab08666b684d6f62a6 5237ae5476a0113d1dfb3bfbe5926d0abb4f1ab9 refs/heads/test-schedulers
+30cf13c6e282f9b347d3ea822274ac31dc5be781 09f5096cb346e7c41366257e88accba0c0ba95fd refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrpwb8QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1zEvD/0ZKgR56p7EBHRaG6ObSqZTsNZiEAnX2EVq
-hg0GbX9Yz4+YhdTqQjVGzuuzGgkr/PyUtXF0UA4jiRg1H8FxnxL5MmNxTZxCo2Wg
-NYfOC/j+TAcQZKyl06fDtzqrA3SUvIB+KyQzaRm76SOj2aTaEsG1aRe47OQ3ihE0
-GZGOKNQD7pVN7r1Ylyvsz7tSJwWFh3DrHfrLXm5qLr5Wl36zjXEItZkGzWxwHKVd
-xHRwvdq86ftMf1FZl5rwz91zPnUv2QvuQfh695hk/OdE7uxNcpUNrOA8Sa4p7Teq
-eAJQcnhtKyPV8oOu1jBOhc5UXBdXplbLQUYP23a9gD6T9JwE+YuRS4bZlUy7W5Ue
-jT7Q4tmR35o8RP2fYW7F8DtkM0nnF0xHhJITUybvt9iag45TNHFhHh13XXn2Nq/4
-/tFJ0O4vpbDGDc+CnmzBo1nwgc8KnP7ukMsDTIzAYVNGBeR9rzokQxOqYMx7U1H2
-5Md8kSZRB7EKBeNIOYl3EZThBtXvE0oam9NFzPrZ7Nt5EW3ylvEU4Q1fn2fow7tk
-dWKwhxD5nl6FswAAGEGWsaQaEr/ZsSmeDkuZR05Px9MJS25s6DHUy0Vte2Hh3DIU
-8yI3e7h1zxBvkItbgsx1Ue2Nsb42ZQFXtfz+vy+WweTICv3tS90FQs0vImvNS9H6
-1mazwV0c4g==
-=IQyD
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrpwdYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sjgP/jfU+4oQYTZ6Sbs3octX
+zyJbw2Tu8RZMhehwTfi/+OyJbUy6LZWPVU6q8DdFhFPheYE2mqMqs6/b7VAt3KpF
+895e1jpH1Qkpx7G0KeqTqf90V83+tTYRH6lygQvQUAPXEJ4xq08fcJewgi6HweFi
+zQM+AHUTjJfFR+qB22NHgyyoclU8n4HLXEFWmEXt7RglmeuW62lqhjVLTSGFjra3
+cLrOzmGt/2zX1O/zrz3qFqi7/VdrZ+8xHeUBXlmsngFu9ztHhqcwoywDgA9vdv+8
+AcP8bz3ucP4NWgmsv5e8um7KeZprwQHRLZapr0SLirnpFus5hn54KdX3SJE33oga
+wg6NLHg2vDhFX7Fi4OcmD4CXAayfxQ3yAvNpcrWtUBN/w2DaF+MRdsdQPjZlLApb
+pCUzArI3COd0IFPdGN22ZARGu7E/BD6iGKCpwqjywRplYPIxD3/kofAaYnBSIswa
+wSQXR35OLfdOOfctQpfkVAINlXeqHJ2osQnHubOZQmdvMbAHg8FrfuYf4hlW6kk3
+hQhPysLYW2GsIULsAeKYmXOVIrtHuTltUKESLmBSXH/wEFoNsM5KA4UGDg/Zf1Ux
+2tOdfzQ7zgtPrAT8VVyFdZ3AVu/MD6iLQ+aDZ41X/zMAYbVI5eRoEEhsNVKjL1XT
++oduVxOVBYYeLANRTM9DTV1x
+=DN6x
 -----END PGP SIGNATURE-----
 
---===============4436724424463500335==--
+--===============0067504188224162916==--
