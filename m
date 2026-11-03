@@ -1,118 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0619206528725808474=="
+Content-Type: multipart/mixed; boundary="===============3113035498447723078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Tue, 03 Nov 2026 09:16:05 -0000
-Message-Id: <179369736583.1554897.10490925800643842592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Tue, 03 Nov 2026 09:22:24 -0000
+Message-Id: <179369774412.1558850.1237762284584609200@gitolite.kernel.org>
 
---===============0619206528725808474==
+--===============3113035498447723078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/for-next
-    old: 8610d31587e139380db9cb8708f4263833b482d0
-    new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-8610d31587e1-6628e7d4c6b2.txt
+  - ref: refs/heads/renesas/x5h/rtc-experimental
+    old: 04d1d7d5f1f1b50a997535d63b562f0afe369afc
+    new: c80f68eb96ddfed52c839a2e3d5b20174d2cbe13
+    log: revlist-04d1d7d5f1f1-c80f68eb96dd.txt
 
---===============0619206528725808474==
+--===============3113035498447723078==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8610d31587e1-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-04d1d7d5f1f1-c80f68eb96dd.txt
 
-76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
-e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
-32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
-f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
-acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
-7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
-ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
-c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
-226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
-07c81e0196cc8fbc261095c9f712e39b63e3c780 mm/sparse: move mem_section init to sparse_extreme_init()
-89e2b6e3d345cd4dca822a5ccea764ee7f9e0ae4 mm/sparse: refactor sparse_sections_init()
-d8ab71169ce579871d196a4178c51afd1e0d8b32 mm/sparse: move initialization of section metadata to sparse_metadata_init()
-31b3829703ec5a041c01162f8196fc49eb930b17 mm/sparse: rename and cleanup sparse_init_nid()
-2193260fd4c2173239dab9b7e7ebebdb95e180cc mm/sparse: cleanup sparse_init_one_section()
-a8c5020eeb963afa18f9f035fcea64f05080b96f mm/sparse: rename __highest_present_section_nr to __highest_used_section_nr
-dff2d55bf7941677bd26f12344211ccc289a215d mm/sparse: remove pfn_in_present_section()
-4af04bd8121fbd44891e6db2ca138c6d739b1f82 mm/sparse: move __highest_used_section_nr handling
-4d42b10363f55baa72de3c6d46715394997d5ceb scripts/gdb: mm.py: remove fallbacks for SECTION_HAS_MEM_MAP and SECTION_IS_EARLY
-da7acb8982edf70078b23f878c6b8f2b496abdb5 mm/sparse: remove SECTION_MARKED_PRESENT
-0632840dba0307d0959f374a79358127da9708ca mm/sparse: remove flags parameter from sparse_init_one_section()
-3f4b13b06062a03530df98310fcd9e189b2cddfa fs/proc/page: clarify comment in get_max_dump_pfn()
-82b1ee68b5fdd3062aee988a6e5aa3608d2470e0 mm/memory_hotplug: drop CONFIG_HAVE_ARCH_PFN_VALID handling from pfn_to_online_page()
-0b4af90344ac4d5ce7defcb39891c773da969132 vmcoreinfo: export SECTION_HAS_MEM_MAP
-4590752e20aa393cc0d4fe538c0747d14a98c97a mm: disallow ioremap'ing ordinary RAM in generic_access_phys()
-bbde9d5bdd2d7cf94707b2a8bb466f2e074f9db2 ALSA: us122l: mark hwdep mappings VM_MIXEDMAP
-f85eb0656c409aa5910c8eacc98374121e00e3e0 mm/vma: fix mmap_prepare file handling, remove file_doesnt_need_get
-86a779c5320488b9142f4477435f235c9a04f7ae mm/vma: introduce and use vma_[flags_]can_merge()
-9cae38dc11da28b4e902d59af3d5d32836f744b3 mm: consistently validate VMA state after mmap[_prepare] hooks
-6335c786299ffc0571506f385d8d748471929230 mm/vma: ensure mmap_prepare doesn't set actions on a mergeable vma
-2a234f79d416beeec9fb82dcc20c6794416a54b0 mm: make map_kernel_pages_[prepare,complete] internal and unexported
-4852f3421456f6ee2943726784f82b1db0028a18 mm/vma: tidy up map kernel pages enum values
-dad8e88fcfce855c691e65f2da3d1da326c69d7a mm: assert mmap lock held, use new flags API in vm_insert_page[s]
-b7b4d8f37a4ff533dffeea9cbb08e9e4788b7742 mm: add mmap action for discontiguous kernel page mapping
-ae60723abb65b6304699eb7f5ab66cbc84bd3bb8 docs: filesystems: update mmap_prepare docs for discontig kernel pgs
-5323bb5f6ef306197b5bc1dd3cbad1858afe3150 drivers/usb/mon: update to use mmap_prepare + map kernel pages
-077b65ba0d8a27c2f3e9b51918fb26736d7d7942 infiniband: update hfi1 to use remap_vmalloc_range()
-c6ce4378f20a3bce1da53c9e2d2f74d853096ab8 selinux: reject writable opens of policy file, drop mmap shared/write check
-ceb0de27371f8bebacd22374b99a076306a47760 ALSA: pcm: use vm_insert_page() to map PCM status page
-0c2c9885c5e90d2182118fe101d94c515f067ebc bpf: arena: mark arena_map_mmap() mappings VM_MIXEDMAP
-7fdbc26b69c0241a2c1b8f426cf977e2dc4ed507 mm/vma: add vma[_flags]_is_mm_managed() predicates
-d99c4a302c5abcf4e46bdbefa5a3c6a620be230c mm/vma: only allow mmap to clear VMA_MAYWRITE_BIT if not mm-managed
-9201d0f5b9d55dad38201bf0561e7024039b429b mm/vma: add and use vma_[flags]_is_fixed_mapping
-abdd54cef5fcf6e50367224663035386d9f6bfb3 scsi: sg: convert mmap hook to mmap_prepare and rework
-19458d015fccbbf2657a8e6417bbaa915c2afdd1 fbdev: defio: assert FBINFO_VIRTFB, drop VM_IO, add VM_MIXEDMAP
-5605c40895fc5e76132f0538e1ee374d0f1a1733 HSI: cmt_speech: convert mmap hook to mmap_prepare, refactor
-2d2b1c508f21496e4d7a0aa30eec0b863522479b mm/gup: error out early on !VMA_MAYREAD_BIT VMAs
-0d219bc3cb88b35e83b3b25d46374e8a5081a26e uprobes: remove VM_IO, set VM_MIXEDMAP for mapped kernel pages
-61e012ab9a1cdec88ebcb55a061a09c4c6539058 mm/mlock: clear VMA_LOCKED_MASK over mmap callback
-aea83f2694ed1f908401ffd2731deb14c2000ff0 mm/mlock: eliminate weird VMA_IO_BIT abuse and simplify
-99fd6bf43d5d67ffb619c1fc61882c369d89599c mm/vma: enforce that mm-managed mappings may not set VMA_IO_BIT
-88d77002e1a133c5d0071b2e7c738c5ab8aa1115 mm: remove VMA_IO_BIT check in vma[_flags]_is_mm_managed()
-94c86564538ea6a21485a3b06b4d33c23e6f8053 mm: remove hugetlb_inline.h
-c911e7ebebf58c06d2ea4a2d3858411066739e11 mm: rename is_vm_hugetlb_page() to vma_is_hugetlb()
-ba82d45b876400c3fbb16c49ab982fb8a9c5ec97 mm: drop some redundant checks around hugetlb VMAs
-44debd840ec959063fbaac24f3db7a08a5cba8dc mm/vma: introduce vma[_flags]_is_mm_backed()
-fc95d1cf4a136f51b257506c420164c74d2b2142 mm/madvise: update is_valid_guard_vma() to use vma_is_mm_backed()
-fb700342f506d0b3839259a499bd8cad673887f8 mm/uffd: use predicates for userfaultfd checks
-1d1104fe6dc6130b6ca78f801aecfd050d6560d0 mm/madvise: use predicates for madvise(..., MADV_DOFORK)
-531e56359ffb9ea714033bb9a1aff15da0e108d1 mm: eliminate VMA_SPECIAL_FLAGS usage when hugetlb explicitly tested
-5997da57a09b199bae688dfee7242f0f3f76b3bd mm: eliminate VMA_SPECIAL_FLAGS check in lru_gen_look_around()
-8bf792b7afcb5d1e4ec4e9ed4204a10b58cdbf77 mm: avoid use of VMA_SPECIAL_FLAGS in migrate_vma_setup()
-72a993449cb0a2b7d7a0cf4fd3d5e7225ea89ea1 mm: eliminate VM_SPECIAL, VMA_SPECIAL_FLAGS
-b0d88bfa7515ed772afa286af0e2f635acad9f7e fuse: dax: do not set VM_MIXEDMAP
-e2a1d080f51070fb4dcc74d352ae86eca5fb5bab mm/huge_memory: remove vma_is_special_huge()
-1a5c751385dc87a65235ea1511f70473994ededf hugetlbfs: fix stale comment in hugetlbfs_file_mmap()
-6a9ef02c60bf6c06edf5e33f90e1eff70d7cf2af mm/vma: const-ify vma_assert_stabilised() and associated functions
-38564710f4436156c017419abefb33eee0376f19 mm: implement and use vma_has_anon_rmap(), silence KCSAN
-14a5c975b1382225e283c867bb6d173cf90233cc mm: update comments to refer to anon rmap rather than anon_vma
-dc0b17144d62c1e05043bd11ef2bf5c23cc3b500 mm/vma: don't remove VMA from rmap if pgoff unchanged
-ae2514c95518b39b36fa463d855c74f29c91d064 tools/cgroup: sum shrinker object counts across NUMA nodes
-f9168f2f0b06b22dcfe75b2f4c677c8017d95bb5 mm/swap: submit the last readahead batch before unplugging
-879cd218870a1ae3e0177989207760a50a2fbb7c MAINTAINERS: cover all hugetlb headers under HUGETLB SUBSYSTEM
-b3d752e23cbccbc4bc56a1673655c621eb5f3710 mm/hugetlb_cgroup: add trailing #endif comment for include guard
-8930760d468d94b47b013bd5f0256ff2e1776b78 selftests/mm: mrelease_test: fix retry limit
-101fea09a860c7cd3ef53faefaab1f4a03132446 mm: kmsan: fix iounmap metadata teardown
-29f8fcb55cd113daa14006d974f549781e488e1b mm: kmsan: fix ioremap error cleanup
-bf033d04366e1375698b01f77f8cf3fa6d039679 mm/vmalloc: bail out early on invalid page_shift in __vmap_pages_range_noflush()
-2dc36cf60dde233d864a29d3703541f8e530c0a6 docs: hugetlbpage.rst: fix typo in per-node attribute description
-ecaccc8c889e7cefcde88b70663d2a8704c41ca7 selftests/mm: hugetlb-read-hwpoison: add setup of HugeTLB pages
-fa71cee86530039392094103aab713ba8ba9e301 mm/hugetlb: use kvmalloc_objs for hugetlb_fault_mutex_table
-ccedc5062f969846b61c4c6f61f765c6a99d5eb7 selftests: run tests on nommu architecture
-e4dce9a62bc2bf0a211a9a3d12b050c26feed634 selftests/nommu: add nommu mmap and mremap behavior tests
-0284dff76e87fc47a1055080d4e8540b41d096b2 mm/damon/ops-common: fix age_in_sec overflow on 32-bit
-8cb5bfe457dfd430907c5561739a76e54a735c63 mm/damon: use damon_get_monitor_folio() for hugetlb entries
-20a0f2b4705c3f2e476270c54e79637893b5e50b mm/damon/tests/core-kunit: add test for unconditionally skipping the last region
-50ee565c1e900e247e439e4139839b060c968343 mm/memfd: fix hugetlb reservation accounting in error paths
 03825d869f3f6f94b6820e5efd8c58947b1555da mm/swap, PM: hibernate: atomically replace hibernation pin
 4d1a248a38c648978743fb0f5488894e24cc438c mm/hugetlb: prefix log messages via pr_fmt
 f5cfc8e3b20ad71949a1e5623ff45882c063a71b mm/madvise: add cond_resched() in THP branch of madvise_cold_or_pageout_pte_range()
@@ -1050,5 +963,92 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
+9de4a22715b78521fb1952a875874a9af7262609 ARM: dts: renesas: r9a06g032: Add support for timers
+8ca80811c3ba01691b424f4fef4db8960955df4f perf/renesas: Remove remaining RISCV_ALTERNATIVE references
+3d621cab90bfcc362dba5ab677dac56ec441e196 Merge branch 'renesas-fixes-for-v7.4' into renesas-next
+a968c0b12aee284d6eabcb73fba6cedf79720707 Merge branch 'renesas-dts-for-v7.5' into renesas-next
+d21d111af2431ceb982b31bb3e443fcd6e483bb6 Merge branch 'renesas-next' into renesas-devel
+48f7c0ba248e1c8a93bce2e7805798ea299445cb clk: renesas: r8a78000: Add clk_hw to clk_map
+ec9c8727f1eee77bd54440a0dd1e360fef1ab25e clk: renesas: r8a78000: Add SCMI remapping support
+65840e01f3eabb88b208cc65feecde780563e769 reset: Extract __reset_control_get_from_provider()
+25af2c72f1f2799b41d010aafa736ac7e1573b43 reset: Add reset_control_get_from_provider_exclusive()
+ed1f72161863f152eb7d3f87fada987bae038001 pmdomain: Make genpd_get_from_provider() return -EPROBE_DEFER
+f7725f91ad952f05a4da35f31652834bf7eabbf7 pmdomain: Make genpd_get_from_provider() public
+ab800794bfdebd9c68b4fb5531310d0bb4f036c8 pmdomain: renesas: r8a78000: Add SCMI remapping support
+43f1f5c27a164bfa7c0ca8688907bef6c4de9b82 arm64: dts: renesas: ironhide: Enable SCMI devpd, sys, clock, and reset
+537bf29bdadaad5b222bbd2a7454f3e28b8528f6 --- Renesas R-Car X5H Ironhide SCMI remapping support ------------
+a80cff7e86af466d6bf7a47f889dbc5cc4ad8eaa firmware: arm_scmi: quirk: Handle critical clocks on R-Car X5H
+1578e15de23be4b8df62ff12804159b06f23ab48 firmware: arm_scmi: quirk: Handle bad power domains on R-Car X5H
+8761e2ab842e020e963fe14c0daa4a1bf7c72e5c arm64: renesas: defconfig: Enable more SCMI for Ironhide
+1755d3ca1d0f6a9514acfa2f42bab2b800a01089 --- Renesas R-Car X5H Ironhide local SCMI support ----------------
+d478bee92c160aea3834b3ec0bf07be741bc8f60 gpio: rcar: Convert to gpiochip_generic_{request,free}()
+a39d11a6572df631c61a250e5ec05b676795eafd dt-bindings: clock: renesas,r8a78000-cpg: Add GPIO clocks
+a507629305176e3d286e96527a2a70d33a906a93 clk: renesas: r8a78000: Add GPIO clocks
+5cc3aa0db690ff28dccca74db3ca64e56b470dd5 [RFC] pmdomain: renesas: r8a78000: Add default GPIO support
+6ddec99e6a243ef4d6f244b94af04eba551e8c1a pmdomain: renesas: r8a78000: Add SCMI GPIO support
+8e5d26fcb4d9d690c16697a46f520ba8fdb2243f arm64: dts: renesas: r8a78000: Add GPIO controller nodes
+d2c9a007bb594bcb5f6547eb5e846aac90d762d3 --- Renesas R-Car X5H GPIO support -------------------------------
+05d6a815895ba68c4e249f83f93e90ccd19a583f dt-bindings: pwm: renesas,tpu-pwm: Add support for R-Car X5H
+ecf0799cefceea995c7fb3241961c7942f0d63da dt-bindings: pwm: renesas,pwm-rcar: Add support for R-Car X5H
+ee9adc8ce91bfc94966229be2335f4f41666cf9c pwm: rcar: Use FIELD_PREP() for PWMCR_CC0 access
+d262ede1b5a7e511cdfe07395e1cf50195c18b91 pwm: rcar: Add helper variable dev to rcar_pwm_probe()
+144740cf7a85cd0a36322369b18f6e2cfb8104df pwm: rcar: Parametrize cycle counter field size
+72a2c5ec8225c362ba432905d179de290528b498 pwm: rcar: Add support for R-Car Gen5
+cf2df48926408fb8b63a9046bd9081a3678c425e dt-bindings: clock: renesas,r8a78000-cpg: Add PWM clocks
+3167a95b317d405dc925e91ef851f210ee1162e4 clk: renesas: r8a78000: Add PWM clocks
+3550996110f3cd912b129f893773b4735771930e pmdomain: renesas: r8a78000: Add PWM support
+7f20695d9bd4ce66b27f876167f6bff4bc33aa8b arm64: dts: renesas: r8a78000: Add PWM nodes
+bee579f5dd621fbd49530d3503767e2f67fe7adc --- Renesas R-Car X5H PWM support --------------------------------
+ea034d965f7129c23011c42459a9da64a0b6ff86 [RFC] dt-bindings: can: renesas,rcar-canfd: Document R-Car X5H support
+19ce4b559c61c87379ca4ffc333ddb395abdd89c can: rcar_canfd: Add Runtime PM support
+c0b47b6dc7c355f6d2aca4461f171d7d78f23c99 can: rcar_canfd: Make clkp local
+bf6b1a35c5ddd309af4abaaeeca173c204653600 can: rcar_canfd: Add support for R-Car Gen5
+ab21ca1d62781d2559dd2859e93181c4ce6da899 dt-bindings: clock: renesas,r8a78000-cpg: Add CAN-FD clock
+51d787d8d7a896a50948a72950e5629bc8a29a67 clk: renesas: r8a78000: Add CAN-FD clocks
+6d0f4eaecc757ab2bd25d89c2952df83e238bd58 pmdomain: renesas: r8a78000: Add CAN-FD support
+c388b30dc5bac74abda6ad6f07ff9bbe854627c7 [RFC] arm64: dts: renesas: r8a78000: Add CAN-FD nodes
+83ab19adfd7fd0dda1b0fce743e5a887f2339835 --- Renesas R-Car X5H CAN_FD support -----------------------------
+4c4590e9c0bd3922d4b77236549b3a09a908bdf0 arm64: dts: renesas: r8a78000: Add SYS-DMAC nodes
+0f29254ab5a21dfd82214778818280d3750abe40 arm64: dts: renesas: r8a78000: Add (H)SCIF DMA support
+1e451c7df015b741f7e94b9916a3461bce52a05c arm64: dts: renesas: r8a78000: Link MSIOF[4-7] to SYS-DMAC
+6f464772da55e97427bc85fc2bc295aa01df4617 arm64: dts: renesas: r8a78000: Add DMA properties to I2C
+d5aaff372052279ecd416130f60b8036b5df66bb --- R-Car X5H SYS-DMAC -------------------------------------------
+f741f21c3fa0fd639dcc602f91863e479b367b24 [TEST] pinctrl: renesas: Allow drive strength configuration via SoC driver
+218f62dfdf4f71428ead9cb63772389e5a1f6379 [TEST] pinctrl: renesas: Initial R8A78000 (R-Car X5H) PFC support
+ca56a1c0c5b0f473d07c50595b92ba5d48ae5f5d [TEST] pinctrl: renesas: r8a78000: Add pins, groups, functions for modules
+b8ab6ec19d9328feea65cd09ea3280687fac8eb9 [TEST] pinctrl: renesas: r8a78000: Update QSPI, RPC to be used with RPC pins, groups, and functions
+493fe15ef8b8fccea9b569fb0b6b60cd69887d68 [TEST] pinctrl: renesas: r8a779h0: Add MSIOF pins, groups, functions
+728274ae4670f00986c781d926e6296958f87a8c [TEST] pinctrl: renesas: r8a78000: Add Audio pins, groups, functions
+8ba86c1b633977a8abf41839393b0b6c425d0307 [TEST] pinctrl: renesas: r8a78000: Add I3C pins, groups, functions
+d1e1ac9fc79709840dc4755a9f109ff2d80fb3bf [TEST] pinctrl: renesas: r8a78000: Add CANXL pins, groups, functions
+930657e06cc5ff378fc6fd028bc2c27f8de0a4ba [TEST] pinctrl: renesas: r8a78000: fix typo CANFD define
+715e673d3a99b851498508ad6093a885ad1bb2e7 [TEST] pinctrl: renesas: r8a78000: Add CANFD pins, groups, functions
+ffafc3814c91efa8eccaebafe10efb1ce38f4a5c [TEST] pinctrl: renesas: r8a78000: Add PWM/TPU pins, groups, functions
+5988d0d7ad7c421abf88b82d80874fe73ea10603 [TEST] pinctrl: renesas: r8a779h0: Add USB pins, groups, functions
+fa40307e4e995c7490b21bf7cbedc42d605d8edb [TEST] pinctrl: renesas: r8a78000: Fix typo CANFD
+623c7b9509bcea1b14d93996bd63ed30e3f03ad1 [TEST] pinctrl: renesas: r8a78000: Add DP-TX pin control support
+e7a264d99fe913d4d1730120708ad7ff59b3873e [TEST] pinctrl: renesas: r8a78000: Fix missing definition for DP-TX hotplug pins
+23e8eecfd7472de786384e928e677f54d21b210d --- R-Car X5H pin control from renesas-bsp/v6.1.102/rcar-6.0.0.rc11 ---
+abd44abcce0b8cd25cf6ceef4f6515f3c8885236 [RFC] pinctrl: renesas: r8a78000: Fix (H)SCIF3 TXD pins
+9379ed19f817c5c38e755197edd821406c3ed28a [RFC] pinctrl: renesas: r8a78000: Simplify rcar5_pinmux_drive_reg
+cb2c0ff845981b20331f084fdc883e263cc80a13 [RFC] pinctrl: renesas: r8a78000: Drop commas after sentinels
+468e67902c1faf0eceeef6bbfce48d7407aeb7e9 [RFC] pinctrl: renesas: core: Save/restore drive_regs_rcar5 regs
+c7e9576e17b2de2fb1fb70061eca261a0a83cd0e [RFC] pinctrl: renesas: checker: Support drive_regs_rcar5
+5b954839bc536921cb782441b7bdd9258886698d [RFC] pinctrl: renesas: r8a78000: Improve rcar5_pinconf_set_drive_strength()
+8cec96a34db13bfddb0c802a87a565b7c1a4c812 [RFC] pinctrl: renesas: Kill sh_pfc_soc_operations.set_drive_strength()
+1e11ddda5a4d1c5939b0139901fc5d9339811ca3 [RFC] pinctrl: renesas: Add rcar5_pinconf_get_drive_strength()
+07df50c710fe24a4a638e36c116178e64f61f37e --- R-Car X5H pin control fixes ----------------------------------
+117100e700d2705e47895ef7a7da96396f631e61 [TEST] arm64: dts: renesas: r8a78000: Add pinctrl device node
+91961c0bed74cf052c6686de89dedf9a9e171898 [TEST] arm64: dts: renesas: ironhide: Add serial console pin control
+789b80e7ea73fe63282e233a6a916a126545fd4b [TEST] arm64: dts: renesas: ironhide: Enable HSCIF1
+4d14f3836c5e0abe421698a81486c0dd198cecac [TEST] arm64: dts: renesas: ironhide: Enable MSIOF0 and MSIOF6
+0867e7571355188a9e4cbed0a05a05e5886a4f3a [TEST] arm64: dts: renesas: r8a78000: Add gpio-ranges
+6a84b76271efb6c2797993cbf6ea955b6954c96a [TEST] arm64: dts: renesas: ironhide: Enable PWM
+29df6922baa6c90b2730c75ead29f981bdb6b819 [TEST] arm64: dts: renesas: ironhide: Enable CAN-FD
+c8cdf3c6692d6b2bcf71f962be477418e07aef0c --- R-Car X5H Ironhide pin control -------------------------------
+cf71e7abff59a354a667ac1c93f587c563d30894 arm64: dts: renesas: r8a78000: Add RTCA node
+f7529bb5dae332059e79980dfdb28415e170950b clk: renesas: r8a78000: Add RTCA clocks
+0d45044dde2553f62ce6fdcf0b7ac41537c4849a pmdomain: renesas: r8a78000: Add RTCA support
+c80f68eb96ddfed52c839a2e3d5b20174d2cbe13 arm64: dts: renesas: ironhide: Enable RTCA
 
---===============0619206528725808474==--
+--===============3113035498447723078==--
