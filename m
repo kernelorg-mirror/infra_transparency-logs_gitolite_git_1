@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3903398941196903874=="
+Content-Type: multipart/mixed; boundary="===============1707605821072616856=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Tue, 03 Nov 2026 10:52:59 -0000
-Message-Id: <179370317932.1674081.2648417846660394654@gitolite.kernel.org>
+Date: Tue, 03 Nov 2026 10:53:24 -0000
+Message-Id: <179370320432.1674397.2053358393280930732@gitolite.kernel.org>
 
---===============3903398941196903874==
+--===============1707605821072616856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mst/vhost
 user: mst
 changes:
-  - ref: refs/heads/test
-    old: 437f512cbb5f463225a2f12610d213ec4beac297
-    new: b717c42fa34a3b0eaabb0875fa6023a38f1e57bf
-    log: revlist-437f512cbb5f-b717c42fa34a.txt
-  - ref: refs/heads/vhost
+  - ref: refs/heads/linux-next
     old: 437f512cbb5f463225a2f12610d213ec4beac297
     new: b717c42fa34a3b0eaabb0875fa6023a38f1e57bf
     log: revlist-437f512cbb5f-b717c42fa34a.txt
 
---===============3903398941196903874==
+--===============1707605821072616856==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +45,4 @@ edeed96f25e8c7369f3ebf2299adbc90579327a4 virtio: use consistent virtqueue termin
 28a72c7e600660da3f4f3646c907d00c20541140 virtio_ring: Initialize id field in packed indirect descriptors
 b717c42fa34a3b0eaabb0875fa6023a38f1e57bf virtio_pci: don't take the MSI mutex under cpu_hotplug_lock
 
---===============3903398941196903874==--
+--===============1707605821072616856==--
