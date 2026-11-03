@@ -1,45 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============0716120466414820841=="
+Content-Type: multipart/mixed; boundary="===============5242637718715014883=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Tue, 03 Nov 2026 23:24:14 -0000
-Message-Id: <179374825471.2304156.9166956388805546671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Tue, 03 Nov 2026 23:25:15 -0000
+Message-Id: <179374831562.2306523.17064705036037990259@gitolite.kernel.org>
 
---===============0716120466414820841==
+--===============5242637718715014883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/libcrypto-next
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    new: f2502194deff6a22cdb951c48e4117fde9941ec5
-    log: revlist-6628e7d4c6b2-f2502194deff.txt
+  - ref: refs/heads/testing
+    old: d1425b382b9cc5bd19223fad8ba4a8af3dbe1305
+    new: 15da68f7bba63980ddfeca648444e4b9ee37203e
+    log: revlist-d1425b382b9c-15da68f7bba6.txt
 
---===============0716120466414820841==
+--===============5242637718715014883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6628e7d4c6b2-f2502194deff.txt
+Content-Disposition: attachment; filename=revlist-d1425b382b9c-15da68f7bba6.txt
 
-dd2a4edb26e1c78823c50ba10c42f2d3de2e5ec4 lib/crypto: mips: Disable Octeon SHA code on little-endian kernels
-539436435fbe3954f98325f5ffee0b0c4057aaad lib/crypto: powerpc/poly1305: Remove BROKEN implementation
-5c140c870044af2f4b79e87b42d078cf7c318582 lib/crypto: mldsa: Check pk_len before doing pointer arithmetic
-efb621a57d7e4ce28e12082ba5692231858c4a3a lib/crypto: mldsa: Explicitly check that 'alg' is a valid value
-01ad209f122b7c173477bd60c7997564f9c65961 lib/crypto: mldsa: Add __must_check to mldsa_verify()
-4a8ed8bead8dec46abb12957e035452670ad1e44 unroll: Drop the unused unrolled and unrolled_none macros
-7dffed1e099fc64c2e1a6153055b4c4a99d35bc4 lib/crypto: aes: use memzero_explicit() instead of memset()
-ea0611382fe8cf92277f80e69dc85836833b7b4e lib/crypto: poly1305: Hide the mask value from compilers
-64762dc1b54317522a0c82d2d8b9cd601c3eca4c lib/crypto: aes-cmac: Hide selection mask value from compilers
-6d38a1d39e14b5dc81f58f3e799460cbf615a646 lib/crypto: gf128hash: Hide selection mask values from compilers
-ce51948dd2b9b9fc0b6d0e78bbc501ea357d7e80 lib/crypto: gf128mul: Hide selection mask values from compilers
-43bb3050501c2411b597a058d6d573b3169bbaf2 lib/crypto: tests: Add KUnit tests and benchmark for ChaCha
-dc20eab5256f4f3b4825afbb36b2a45f7a012cf6 lib/crypto: x86/chacha: Rename the AVX-512VL assembly file
-42b229ca8d6a82932bb2554f0ac56dd6bb89b494 lib/crypto: x86/chacha: Wrap the 8-block AVX-512 code in a macro
-f2502194deff6a22cdb951c48e4117fde9941ec5 lib/crypto: x86/chacha: Add a 16-block AVX-512 function
+0c8fc20d1e26535fb96546d31ae66af451862b6e iio: adc: ti-adc161s626: use iio_push_to_buffers_with_ts()
+e87ac01e1c40d66a79851f7f648682ef9799e5dd iio: adc: mt6360-adc: use iio_push_to_buffers_with_ts()
+056654bf56ec895bd1788cc958d2fbc0e6e67e88 iio: adc: ad4130: use iio_push_to_buffers_with_ts()
+dcb56102cfaf60a20b9c0636069480963ae035c2 iio: addac: ad74413r: use iio_push_to_buffers_with_ts()
+90a6b4249af79e05662c4548cfd2982613e5b3d1 iio: gyro: mpu3050: use iio_push_to_buffers_with_ts()
+7a644b241cfba0fe608a517b4459b9f1020f852c iio: imu: bno055: use iio_push_to_buffers_with_ts()
+02051eaee7b86999dc7c2b8586dbf062121738eb iio: light: as73211: use iio_push_to_buffers_with_ts()
+5057087e4c127e0c6ccd718a7da8feb0b964a492 iio: light: vcnl4035: use iio_push_to_buffers_with_ts()
+074bcbce65edc126f4a443fb09899bd48cce996f iio: pressure: mprls0025pa: use iio_push_to_buffers_with_ts()
+e0d33797af5df40436c74f92148fc0b76719618a iio: pressure: ms5611: use iio_push_to_buffers_with_ts()
+dd1855507cf4c26dcd97739fe36b788e0fb48258 iio: proximity: isl29501: use iio_push_to_buffers_with_ts()
+ea90faa041b52f242daacf047e6eee0beb3658b2 iio: proximity: sx9500: use iio_push_to_buffers_with_ts()
+b22499dee82a9ebb68c3e00f9a5babf9fd8ac724 iio: imu: smi330: use iio_push_to_buffers_with_ts()
+1390ca4953a7400ca932cb49635f02c727f885a6 iio: imu: bmi270: use iio_push_to_buffers_with_ts()
+15da68f7bba63980ddfeca648444e4b9ee37203e iio: adc: pac1934: validate ACPI _DSM return type and bounds
 
---===============0716120466414820841==--
+--===============5242637718715014883==--
