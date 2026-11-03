@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 02 Nov 2026 23:53:49 -0000
-Message-Id: <179366362966.1121213.346571555000119229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 03 Nov 2026 00:07:12 -0000
+Message-Id: <179366443246.1131655.5821753491056328928@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
-  - ref: refs/heads/for-7.4
-    old: 82fa7bfab6b961a03d6575348334e0ec15fdc712
-    new: f65f866dacbb10a37e4fae4076627c767afd3cbb
+  - ref: refs/heads/for-7.5
+    old: 57a73ed2016938cdfe59e54f69feecd132c55d14
+    new: cf828ffc92a2257bc3e5471ef81da3a256a9421f
     log: |
-         f65f866dacbb10a37e4fae4076627c767afd3cbb ASoC: tas2770: Fix error detection in tas2770_set_dai_tdm_idle
+         cf828ffc92a2257bc3e5471ef81da3a256a9421f regulator: core: flush deferred disables before suspend
          
