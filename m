@@ -1,69 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============2091586668534689103=="
+Content-Type: multipart/mixed; boundary="===============7919463697002324472=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Tue, 03 Nov 2026 19:13:55 -0000
-Message-Id: <179373323529.2117824.8231448671740602994@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 03 Nov 2026 19:15:45 -0000
+Message-Id: <179373334566.2120758.14033920422992799440@gitolite.kernel.org>
 
---===============2091586668534689103==
+--===============7919463697002324472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/linux-can-fixes-for-7.4-20261103
-    old: 2ed7da7ec1137fe910385e93a27e506da32d0e68
-    new: 66da814ea982a44bbd5ec38569ff8117685253c9
-    log: revlist-2ed7da7ec113-66da814ea982.txt
+  - ref: refs/heads/master
+    old: 7333a6947f2612646eea9efb004a9e2ab88de812
+    new: 65c2e7f85040051fbc18dd03ae4b995e5adb36be
+    log: |
+         2e2bd95b8afda3c0806bcbec4f2e7df2d4b623e7 CVE-2026-99269: Add CVSS 3.1 score (7.8 HIGH)
+         d0ee3d2f66dbf4000941a1b1bf53b10032351286 CVE-2026-99270: Add CVSS 3.1 score (8.1 HIGH)
+         4f1702d7fb9988cae122cd6b568b765d99091691 CVE-2026-99264: Add CVSS 3.1 score (7.8 HIGH)
+         b041b91c76c19aea1b825ae44294f8b02589b2b1 CVE-2026-99246: Add CVSS 3.1 score (8.1 HIGH)
+         fe963c07aa8d2d2158c245df279dfb3d2520c600 updates for 7.4-rc1
+         9366170ba10bd0592e06aec0f5e635fdfbb034be Merge branch 'sasha-cvss-important'
+         b9a574f05f7f121a95e3cc0804c330a648b1203b updates based on cvss score
+         65c2e7f85040051fbc18dd03ae4b995e5adb36be reject CVE-2026-99217
+         
 
---===============2091586668534689103==
+--===============7919463697002324472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1793733223 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1793733223-a2961987be0b1e207c12f56946c126b0da22c0b7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793733341 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1793733341-ce34053c67474acfabde6b4beac38cf0e1922ed4
 
-2ed7da7ec1137fe910385e93a27e506da32d0e68 66da814ea982a44bbd5ec38569ff8117685253c9 refs/tags/linux-can-fixes-for-7.4-20261103
+7333a6947f2612646eea9efb004a9e2ab88de812 65c2e7f85040051fbc18dd03ae4b995e5adb36be refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCauoyZxMcbWtsQHBlbmd1
-dHJvbml4LmRlAAoJEMw6ZPquma3SFNABALOUqLp94yA69I892eDGq8RSXGibqFgZ
-cHMa6qG6zT5jAQC7wRFfSUHesvuJPDkQm5+3zFVdwhNr096JB8AEBK4RDw==
-=zlxK
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrqMt0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3XIP/A4x+qjFG3Qr1cSuTAul
+q7g5FUlO/vDK1OqYXfSwX0GuHtZT4J0mzmuKKoPY3fe0/eHJiO6vCfFErs1ipilY
+Og518AkCHh/VwAFc/r8+XLgvKJQWzUfMX1x2nshc3rCz1JSnOsYwR7xSXSVF7QLT
+Vy2V40o9uJkl1pfHHQOsBYCTm7Mdjj2Gp6abgIUjQu/meUxMCZFpjD3iDCi5kuyd
+2U5KWpbUJiUsq5w81/93Rb8jnm2ow1pDNr66UGzwCN/bTbF3d1rR5rI7fZwpu1l8
+Nqfy8ZeuTif0mB52Ras7BNqSUy2hHktPOYzsgjhc0AkkHQbC+UI8NaMZTDJWfer4
+dQp/hyNv2KHb1Z6qm3uyq/cWgisF31upuHmbl1ZLSlaU/MGHO9wyAh0ndXebmnUD
+GgeoEsDfqMwYMjg6BDIdTDo5wUUHjMkbNQMBoxbTjULQmO0q3PlDBNIF8qu2J8ha
+o8zoL6wsrVM/Q8d7mGYL4+PcCRp8HzfvWMf3SZ2Joskp1i6KyYLLPFI6hB7h+uLw
+KqPCwnm5568P/tnsPrAnBgrTNh7vIPgZ1VSc1QRBiJuDzeLQPnihzfdTQEMGVhM2
+/GptyP4E6oyY4g90JOmAQu5X/3nTcbxN0BF9rRZAP0Th0x/+CmBeInYNfqfP+05O
+nrVLdNTTJor+ttvaVpWQrHRI
+=v3jx
 -----END PGP SIGNATURE-----
 
---===============2091586668534689103==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ed7da7ec113-66da814ea982.txt
-
-0fce44e29fce4b07642491b098afb41bd571e4f2 can: dev: can_dropped_invalid_skb: drop CAN XL frames on non-CAN XL devices
-933bf0fcb325e67b19c86c9c4da7f029878d5170 can: isotp: check the frame type, not just the length
-d743071964920c92af598c87a9e6f4369263ee09 can: skb: make echo skb freeing safe in any IRQ context
-d4b616a38118e81cfb206babd052db260d7abf6c can: skb: make CAN skb allocation failure paths IRQ-safe
-b4ebcbbf66ba6c5816dfe229effb4641c46e4b4c can: dev: can_put_echo_skb(): free skb on invalid echo index
-962947b69589881167054bae5accc8abfd5aa4b6 can: replace ARPHRD_CAN type checks with can_get_ml_priv()
-874f5f14cf626f72477071eff381c8485554250d can: isotp: check the return values of can_rx_register() in isotp_bind()
-0f3ad9ab40e3dad06d5c0693806e07935ceedbc3 can: protect the receive lists with a per-device lock
-43c973a0887d3d7b2ee0a446603c97bf0f38c58e can: raw, isotp: copy socket options outside of lock_sock()
-12297f855bbd943847cb8893a3614caef5a9c2a8 can: proc: reset pkg_stats atomics individually
-01b19ed9fa031a649f3dd103ebe6e0102602e542 can: proc: skip stats calculation after reset in can_stat_update()
-b98179a6e1948c87539f77b387ac785beb5802c6 can: proc: remove pointers from CAN specific proc output
-d3592ab8a1911ea25b6efa3d5b85def73c69f060 Merge patch series "can: skb: make echo skb freeing safe in any IRQ context"
-493719574532a0630d4a9debd5ce01a8a3fd570d Merge patch series "can: protect the receive lists with a per-device lock"
-75332c410c8190d61499001c5516af977ca426c3 can: dev: can_fill_info(): don't wake up controller if interface is down
-f5128a76726105f398d7ee70ee523dd4f68d62f4 can: dev: can_tdc_fill_info(): don't read automatic TDCV if interface is down
-54195bf371997d9c858f28b697450bbbfb8006d8 Merge patch series "can: dev: can_fill_info(): don't wake up controller if interface is down"
-2d4c272e816a5b784f1fc7899256f8826df34edb can: peak_usb: pcan_usb_fd_decode_buf(): accept short uCAN end-of-list records
-
---===============2091586668534689103==--
+--===============7919463697002324472==--
