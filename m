@@ -1,31 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============2472174401267340337=="
+Content-Type: multipart/mixed; boundary="===============0905221708329614348=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Tue, 03 Nov 2026 19:35:34 -0000
-Message-Id: <179373453478.2134579.11018635446314991989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/core
+Date: Tue, 03 Nov 2026 19:36:37 -0000
+Message-Id: <179373459736.2135513.680650654039453311@gitolite.kernel.org>
 
---===============2472174401267340337==
+--===============0905221708329614348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thermal/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/mm/core
+user: david
 changes:
-  - ref: refs/heads/thermal/bleeding-edge
-    old: 2dc1f296b5754dd2441fc8b6613a362a47f6b98f
-    new: 32cb06b34701827db0ff34244d84fc74e40ca350
-    log: revlist-2dc1f296b575-32cb06b34701.txt
+  - ref: refs/heads/for-next
+    old: e966c440807a9a1689e8d366fb123bb790ee3776
+    new: 63919467fb5239ab824de6a7a128b882055b24af
+    log: |
+         9615b1380222a65cc2e4f34237bb3e92b3237962 mm/khugepaged: always recheck the pmd in try_collapse_pte_mapped_thp()
+         c19c4c958a746ff7527783d166e0a0c3bc91cd10 mm/khugepaged: fix PMD table lock leak in try_collapse_pte_mapped_thp()
+         0b70eb3028506fdb2a7267f89445420327082418 mm/khugepaged: preserve dirty bits when collapsing PTE-mapped THPs
+         3fee3eae4799c9cb9215ea7b0da210008c42ba40 mm/huge_memory: fix livelock on device private folio
+         cca3a716f5e95e2267f46fb4f9ba90e6a0e9400f mm/khugepaged: check if PTE table is empty in try_collapse_pte_mapped_thp()
+         e320c484373634d3f4ca5aa0f665111817e3939e Merge branch 'for-next-fixes' into for-next
+         b2ed251dc9734d849e0a8d5dd4186921d419359a Merge branch 'core-7.5.misc' into for-next
+         4ac9a9eb3253c6ef7c37256879f9db9b0117ed0f Merge branch 'memhp-7.5.misc' into for-next
+         63919467fb5239ab824de6a7a128b882055b24af Merge branch 'thp-7.5.misc' into for-next
+         
+  - ref: refs/heads/thp-7.5.misc
+    old: 817bbf5de84fe07ea25054563d34837a2a7c6473
+    new: cca3a716f5e95e2267f46fb4f9ba90e6a0e9400f
+    log: revlist-817bbf5de84f-cca3a716f5e9.txt
 
---===============2472174401267340337==
+--===============0905221708329614348==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2dc1f296b575-32cb06b34701.txt
+Content-Disposition: attachment; filename=revlist-817bbf5de84f-cca3a716f5e9.txt
 
+7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
+ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
+01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
+c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
+226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
+07c81e0196cc8fbc261095c9f712e39b63e3c780 mm/sparse: move mem_section init to sparse_extreme_init()
+89e2b6e3d345cd4dca822a5ccea764ee7f9e0ae4 mm/sparse: refactor sparse_sections_init()
+d8ab71169ce579871d196a4178c51afd1e0d8b32 mm/sparse: move initialization of section metadata to sparse_metadata_init()
+31b3829703ec5a041c01162f8196fc49eb930b17 mm/sparse: rename and cleanup sparse_init_nid()
+2193260fd4c2173239dab9b7e7ebebdb95e180cc mm/sparse: cleanup sparse_init_one_section()
+a8c5020eeb963afa18f9f035fcea64f05080b96f mm/sparse: rename __highest_present_section_nr to __highest_used_section_nr
+dff2d55bf7941677bd26f12344211ccc289a215d mm/sparse: remove pfn_in_present_section()
+4af04bd8121fbd44891e6db2ca138c6d739b1f82 mm/sparse: move __highest_used_section_nr handling
+4d42b10363f55baa72de3c6d46715394997d5ceb scripts/gdb: mm.py: remove fallbacks for SECTION_HAS_MEM_MAP and SECTION_IS_EARLY
+da7acb8982edf70078b23f878c6b8f2b496abdb5 mm/sparse: remove SECTION_MARKED_PRESENT
 0632840dba0307d0959f374a79358127da9708ca mm/sparse: remove flags parameter from sparse_init_one_section()
 3f4b13b06062a03530df98310fcd9e189b2cddfa fs/proc/page: clarify comment in get_max_dump_pfn()
 82b1ee68b5fdd3062aee988a6e5aa3608d2470e0 mm/memory_hotplug: drop CONFIG_HAVE_ARCH_PFN_VALID handling from pfn_to_online_page()
@@ -1030,25 +1059,10 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-115b4ff52cd3566181c59991d72b3cdd3eab7c03 dt-bindings: timer: renesas,tmu: Add SH7305 support
-1c566cc82c231705ad8cbdba84b7715d0f6c2895 thermal/drivers/airoha: Fix device_node leak in en7581_thermal_probe()
-2fef2bb0ca32c937b848ba946d07662b1e08d036 thermal/drivers/qcom/tsens: Release parent resources on probe failure
-ce7e968a95c4d78717443ec1286ed2b207c74dfd thermal/drivers/qcom/tsens: Validate the sensor count before initialization
-d7292b66872c7bb820ce64e27f60ff7cca6925b3 thermal/drivers/qcom/tsens: Disable hardware on probe failure
-e7c21e12c48e95865c85bdf4431e595359d8abf4 thermal/drivers/samsung: Select REGMAP_MMIO for EXYNOS_ACPM_THERMAL
-91bd8661501baae56980c0a3406774eacf4e645a thermal/drivers/samsung: Depend on PM for EXYNOS_ACPM_THERMAL
-2cc5bc4c8be4c83211ddeb0fe38d46d7f239b85f thermal/drivers/samsung: acpm-tmu: Fix acpm_tmu_resume() error handling
-e0e2dbdc45f208c1d14cf891175378e93dde5098 thermal/drivers/samsung: acpm-tmu: Disable IRQ across system suspend/resume
-09e928b13aaddbefc08aeca13b1a78bd8b0feb14 thermal/drivers/samsung: acpm-tmu: Implement .change_mode() callback
-3980362b31bf935b778dea1a8d90590ecef82e8d thermal/drivers/samsung: acpm-tmu: Rely on devres for probe error and remove teardown
-f04aff1cbba0080cd4af80134bbf4ac7452b2b8d thermal/drivers/samsung: acpm-tmu: Return -ENODATA when sensor is disabled
-95580915961eca39d4f3159cb4a235f25ea301b5 thermal/drivers/samsung: acpm-tmu: Annotate lockless sensor->enabled access
-2237a6871722f9cafedf6820527a88430df26be2 thermal/drivers/samsung: acpm-tmu: Fix IRQ locking and error handling
-9745df063ef8190d713f90ffd215f39838ad6e83 MAINTAINERS: Use linux-pm mailing list for Samsung Exynos ACPM thermal driver
-ba446bdd27d4a2a6c0cb267f51a6ecc47cf19cf9 thermal/drivers/samsung: acpm-tmu: Rename platform driver to "exynos-acpm-tmu"
-133c6b01f134b6f3da2961099ab2fffe6e9a5f3d thermal/drivers/samsung: Drop redundant composite object in Makefile
-6eb64c42a31531de51b735a1709ac8b7c24bbb4e thermal/drivers/samsung: acpm-tmu: Disable regmap locking for MMIO INTPEND reads
-f316fea84421e3ca569d861ebc7e17632ac54cc2 thermal/drivers/samsung: acpm-tmu: Clean up probe error logging
-32cb06b34701827db0ff34244d84fc74e40ca350 thermal/drivers/samsung: acpm-tmu: Simplify pm_runtime_resume_and_get() error checks
+9615b1380222a65cc2e4f34237bb3e92b3237962 mm/khugepaged: always recheck the pmd in try_collapse_pte_mapped_thp()
+c19c4c958a746ff7527783d166e0a0c3bc91cd10 mm/khugepaged: fix PMD table lock leak in try_collapse_pte_mapped_thp()
+0b70eb3028506fdb2a7267f89445420327082418 mm/khugepaged: preserve dirty bits when collapsing PTE-mapped THPs
+3fee3eae4799c9cb9215ea7b0da210008c42ba40 mm/huge_memory: fix livelock on device private folio
+cca3a716f5e95e2267f46fb4f9ba90e6a0e9400f mm/khugepaged: check if PTE table is empty in try_collapse_pte_mapped_thp()
 
---===============2472174401267340337==--
+--===============0905221708329614348==--
