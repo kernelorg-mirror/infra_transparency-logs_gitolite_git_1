@@ -1,31 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 03 Nov 2026 22:17:55 -0000
-Message-Id: <179374427568.2254294.13625430064316648743@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 03 Nov 2026 22:28:06 -0000
+Message-Id: <179374488612.2261426.3873489678521035942@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: c707d71e1ce02dfc773e8ea15a4ccc84675c39a0
-    new: 39147fa5e1ad52ed7dea3d85c34d61ded07e61af
+  - ref: refs/heads/experimental
+    old: f9cfe1f35e6b9e1eee7de536cc45d24e49a1f206
+    new: 46024fff41edf1185a729508b884893f86f585f9
     log: |
-         35557d6d623c792509c8b8c58ccfca9be7d64f25 Merge branch into tip/master: 'sched/urgent'
-         addb955d389d09d8d30fb4eca619f3dd16b15d19 Merge branch into tip/master: 'x86/urgent'
-         4b05a11ecc78cff964188814a777639378ff5c51 Merge branch into tip/master: 'x86/apic'
-         e08d29e1ceeb034fee192568848ecbe61276f0d5 Merge branch into tip/master: 'x86/cleanups'
-         39147fa5e1ad52ed7dea3d85c34d61ded07e61af Merge branch into tip/master: 'x86/misc'
-         
-  - ref: refs/heads/tip/urgent
-    old: c321b49e4519833b883f31b03c1555766710b49c
-    new: addb955d389d09d8d30fb4eca619f3dd16b15d19
-    log: |
-         b697faab2c92653ee13bd950c8de13551a78971d x86/entry: Fix ptrace regression
-         35557d6d623c792509c8b8c58ccfca9be7d64f25 Merge branch into tip/master: 'sched/urgent'
-         addb955d389d09d8d30fb4eca619f3dd16b15d19 Merge branch into tip/master: 'x86/urgent'
+         f9ceb52fa6467d4bd73da415d4a11753e65454d4 erofs-utils: add native Windows support
+         dca55ee9c4d3f0ccf63a335d2ece88865ce3d871 erofs-utils: lib: reject seeks on Windows pipes
+         6fcb48f6867f9897e6de7af22797029fbce54104 erofs-utils: mkfs: fix infinite loop on zero-sized reads
+         2f8c004bef5e854dca487ce1007f66e2e281ded8 erofs-utils: lib: fix packed pos in erofs_xattr_flush_name_prefixes()
+         46024fff41edf1185a729508b884893f86f585f9 erofs-utils: build: normalize line endings from Windows checkouts
          
