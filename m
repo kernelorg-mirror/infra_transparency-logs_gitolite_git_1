@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 03 Nov 2026 03:22:47 -0000
-Message-Id: <179367616708.1285963.10710479227288120676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
+Date: Tue, 03 Nov 2026 03:40:55 -0000
+Message-Id: <179367725530.1299558.10546392499399766451@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/bmc/linux
+user: arj
 changes:
-  - ref: refs/heads/master
-    old: 1ca28eb4075753d7e7909985d99b4fc44ed62930
-    new: eaf001e2106b0b8a6dbeb53d6e20282469f4b6b5
+  - ref: refs/heads/aspeed/arm64/dt
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    new: c127302e0cd4e2c063146ecb827472a0f16b8732
     log: |
-         eaf001e2106b0b8a6dbeb53d6e20282469f4b6b5 foo
+         c127302e0cd4e2c063146ecb827472a0f16b8732 arm64: dts: aspeed: ast2700-evb: Reserve coprocessor, IPC and VBIOS memory
          
