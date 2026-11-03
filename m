@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 03 Nov 2026 21:15:37 -0000
-Message-Id: <179374053773.2207283.5605799352173393930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 03 Nov 2026 21:15:45 -0000
+Message-Id: <179374054580.2207536.18353614048794118842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/main
-    old: 34cc22a9ce6ae0228dcd09a57df23aea62e22b04
-    new: bc53aab4881adc134f495092034e9e7c0791d84c
+  - ref: refs/heads/master
+    old: 8d5527ad6b932ceb13c9c68b9bf265790f8b7f69
+    new: 7b8b803c3ce6e961e9c32a166c7169fcb17da6d4
     log: |
-         bc53aab4881adc134f495092034e9e7c0791d84c ipv6: fix device binding after failed datagram connect
+         7b8b803c3ce6e961e9c32a166c7169fcb17da6d4 bpf, lsm: Fix cgroup shim selection for socket hooks
          
