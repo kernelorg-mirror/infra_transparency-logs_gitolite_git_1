@@ -1,57 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============6167286357679035011=="
+Content-Type: multipart/mixed; boundary="===============3903398941196903874=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 03 Nov 2026 10:49:39 -0000
-Message-Id: <179370297970.1670587.8787432638606022481@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Tue, 03 Nov 2026 10:52:59 -0000
+Message-Id: <179370317932.1674081.2648417846660394654@gitolite.kernel.org>
 
---===============6167286357679035011==
+--===============3903398941196903874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/master
-    old: 1dde1ffefb3394e0c1d37ae78b560a064a073f82
-    new: 17adcc88b78da1ef042b6674a0c92dae8d70dd33
-    log: |
-         7744f9270493824c3686a02b54e09ccfdcd4248a 5.10-stable patches
-         17adcc88b78da1ef042b6674a0c92dae8d70dd33 5.15-stable patches
-         
+  - ref: refs/heads/test
+    old: 437f512cbb5f463225a2f12610d213ec4beac297
+    new: b717c42fa34a3b0eaabb0875fa6023a38f1e57bf
+    log: revlist-437f512cbb5f-b717c42fa34a.txt
+  - ref: refs/heads/vhost
+    old: 437f512cbb5f463225a2f12610d213ec4beac297
+    new: b717c42fa34a3b0eaabb0875fa6023a38f1e57bf
+    log: revlist-437f512cbb5f-b717c42fa34a.txt
 
---===============6167286357679035011==
+--===============3903398941196903874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-437f512cbb5f-b717c42fa34a.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793702974 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1793702973-8ae2e2c387715661826e8b6e9975e4478e945ea8
+01c3a5fa6d641c93c7cef4fb25c5f12938316e18 vhost-scsi: zero misaligned I/O bounce pages
+e244725e86be02cd85cb878b3ed8570eba2e4be1 vhost: fix used ring index wrap in vhost_add_used_n_in_order
+1f8efac19a0870cdfdf8477e447e5a07ddce9623 iommu/virtio: Reset device before deleting virtqueues on probe failure
+f41f153d49b4c18172ec61b69ba934c36e1be745 vdpa/snet: Don't discard the DPU error in snet_send_ctrl_msg()
+1f5bc40e33d8b3e5e3b89047956099b0c19f1d3d vhost-scsi: do not count PI bytes in the data length
+9494608239a5fab14326e591e3883ec3d42f8767 vhost-scsi: validate event queue descriptor direction
+b963eaa19ee15c1bb6052bd8c47791a703105ac0 virtio_ring: use shadow flags when detaching split descriptors
+cdcb198f68975cb199c92bc5d3a330adf024659d vhost-scsi: reject delayed virtqueue setup
+c78a50c6d6e757f1fa780166f71cbcace5a60525 vhost: reject backend enable without a kick file
+59a561f7c94e09bb3aa9784d59c9ed202adf2efe vhost-vdpa: initialize state before publishing cdev
+e12224de735e2d7482d3a4349177fb07d0fee48e MAINTAINERS: add missing virtio/vdpa/vduse/vhost headers
+03fe21e656d980fec93cd127df76cf2247c3831e virtio_balloon: initialize wakeup_lock before virtqueues are set up
+edeed96f25e8c7369f3ebf2299adbc90579327a4 virtio: use consistent virtqueue terminology
+6554c04dba09ea88628401ed2c91bc8c157afd44 hwrng: virtio - prevent use-after-free after a failed restore
+3294478dcd61f739160ca3e6c35caae4a909274b vduse: fix VA/PA confusion in the coherent page fault path
+00d208823671e9e5e27973df18b539144cc130bd vhost-scsi: fix page reference leak in misaligned I/O fallback
+28a72c7e600660da3f4f3646c907d00c20541140 virtio_ring: Initialize id field in packed indirect descriptors
+b717c42fa34a3b0eaabb0875fa6023a38f1e57bf virtio_pci: don't take the MSI mutex under cpu_hotplug_lock
 
-1dde1ffefb3394e0c1d37ae78b560a064a073f82 17adcc88b78da1ef042b6674a0c92dae8d70dd33 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrpvD4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RqgQAJBJk//DEpPXT1IEDCbI
-fbiNCd+RWEyfM1Vm6fZ9BS7t50u4xovF0mauc5v0cB/bvO4xhxP4cWKfasKwad+D
-SsDd3BL684f6A+pUb8BIaYRZInwOymhoZ+rt3nYLtP5QX1qJRFaG8UbTrFKi65oi
-kSMSeyav8NFe7Uk4wCAJr4XYwx37OYjNq/E06QtKkH0HhlgmLvp38D5jEBhiikaH
-njqv4NqgOA2u5nUaZcADfx48ZfG2MsCTYxMnPXjKPCaBrOSEVclZfFIq4hV7OMQN
-92EWaWuZJIeD1o28WyfTbR5dhtSUGrgnxyZKjiWuSGOVbiMcY7YVlIp8bVbqniIc
-TGDLkCYTRvPvZNq/SCPk7f1wCizoaplUIgte9ZepcPQPnn/1XGrJO3fRkkAV+ciO
-EsNk3AdaLpQz/M0fJGY0tgIkDfRG0THjdUPDEcz82YEmbd0kHhqDb98FDs563tTS
-qiaA01puGZ/CbA5IxejsPHrRk8o21+uFCo3YYCBqXi2f0I2e87AhboDkzEtwpLb1
-IPKpyTwDBxm09BQvvsNN4n2wlSnwDf+fTQKQxN2ThfIFr9qDg/esO4q8D5z0NCcc
-tFsU3hYw6zp6m9cp/0NYVGy/YpATL+1vJw3vnqhQ+15Hir1w81815cbDCf2NxDrF
-DIYc8gvNAU5cXsAG2lTVYBC6
-=wUib
------END PGP SIGNATURE-----
-
---===============6167286357679035011==--
+--===============3903398941196903874==--
