@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7623567323541062304=="
+Content-Type: multipart/mixed; boundary="===============7215460778299550511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 03 Nov 2026 12:04:49 -0000
-Message-Id: <179370748936.1735383.5035939693956656342@gitolite.kernel.org>
+Date: Tue, 03 Nov 2026 12:04:58 -0000
+Message-Id: <179370749834.1735579.9696742592127528809@gitolite.kernel.org>
 
---===============7623567323541062304==
+--===============7215460778299550511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-7.5
-    old: 5928cfa8474f57d110f7cf374f73eb44f7cf13f1
-    new: 6e1949eaa557338b381f207d4ec51d8b4769e8e9
-    log: revlist-5928cfa8474f-6e1949eaa557.txt
+  - ref: refs/heads/for-next
+    old: a1cc68d2f3def54eaa757b0a4979b852ec02b06e
+    new: aae83f3931bc3a5497bcc8351b5f954ad7ac895c
+    log: revlist-a1cc68d2f3de-aae83f3931bc.txt
 
---===============7623567323541062304==
+--===============7215460778299550511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5928cfa8474f-6e1949eaa557.txt
+Content-Disposition: attachment; filename=revlist-a1cc68d2f3de-aae83f3931bc.txt
 
 924b88cec6b56ec875d41b6f6de16e513efe935f ASoC: nau8821: restore safe state after resume errors
 230d0320971fcdd7de6120648977dbc6d602a5a8 ASoC: nau8824: restore safe state after resume errors
@@ -49,5 +49,7 @@ ca3efbaa8aeb118c1f8e8c6aedecf2cbd1552437 ASoC: rt5659: cancel jack_detect_work o
 0f367f70e1854edd98bc190f59ca28e9304b2e96 ASoC: twl6040: cancel headset jack work on component removal
 905d79dffa3e479aa288a02c09c2d4415232f30d ASoC: wm8994: drain delayed works on remove and probe error
 6e1949eaa557338b381f207d4ec51d8b4769e8e9 ASoC: cancel pending delayed works on codec removal
+9b5aa68a721043d9dbc0f79430510686d458fbe1 Merge asoc-linus into asoc-next
+aae83f3931bc3a5497bcc8351b5f954ad7ac895c Merge asoc/for-7.5 into asoc-next
 
---===============7623567323541062304==--
+--===============7215460778299550511==--
