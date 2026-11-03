@@ -1,57 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============0114875553826593464=="
+Content-Type: multipart/mixed; boundary="===============3033164957896400133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Tue, 03 Nov 2026 12:20:05 -0000
-Message-Id: <179370840581.1749500.4932383690834812579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 03 Nov 2026 12:24:57 -0000
+Message-Id: <179370869758.1751321.17413807341651106675@gitolite.kernel.org>
 
---===============0114875553826593464==
+--===============3033164957896400133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/test-schedulers
-    old: f85e4a364755e342104df8a257a631209fd24804
-    new: 56a9a91865bd4888f76a53087d6250601c612f06
-    log: |
-         283b1792d5c824ae0cc1ef4b300a8b1fbbfa36a7 Revert "Reapply "Reapply "Reapply "Reapply "Reapply "memory: fsl_ifc: Clear fsl_ifc_ctrl_dev on probe failure and removal""""""
-         56a9a91865bd4888f76a53087d6250601c612f06 Reapply "Reapply "Reapply "Reapply "Reapply "Reapply "memory: fsl_ifc: Clear fsl_ifc_ctrl_dev on probe failure and removal""""""
-         
+  - ref: refs/heads/main
+    old: 03d36763291edfb285f08185f4ffda83360ba7ee
+    new: b3427f41f831adecc8ffd89afc9d30c279115658
+    log: revlist-03d36763291e-b3427f41f831.txt
 
---===============0114875553826593464==
+--===============3033164957896400133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-03d36763291e-b3427f41f831.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1793708404 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1793708403-ef5c541185f6729bd552355178bd64a533f55f77
+868f63c8bfafa9b827168c9126f85264c39c02ec xfrm: retry inexact policy lookup after node reinsertion
+86de3a1118a16dbbbe5fabe9aa20ffb93c072ed5 xfrm: interface: validate the IP header on xmit
+e35a12dffd5da67b6ca12bd23eebdd0570592205 xfrm: zero-initialise km_event in the replay-notify path
+f9a11716c8445b496e9fafeec7e8412d384d02e2 xfrm: espintcp: reorder operations within espintcp_init_sk
+c8c2c8a2bbe4319f63d029d161aaee2b17687371 xfrm: state: reject mark with bits outside its mask on add
+07d7b25224f503e76e63eb6947a0b9e0da7998a8 xfrm: state: reject mark with bits outside its mask on ALLOCSPI
+b3056e57b0657a4401349187c620d0fa1b8914c8 xfrm: policy: reject mark with bits outside its mask on add
+6362f459bfc485d805f0439ae4566c1b014abfa4 xfrm: state: exact mark/mask match for SPI-keyed control-plane SA lookups
+3eb841b771e81e0692b3ebfc75fdb774022cc4f6 xfrm: fix use-after-free of migrated state in xfrm_do_migrate_state()
+da94223774ea012188ef76f89e0bd642b39ba517 xfrm: fix hw offload state leak on xfrm_do_migrate_state() error path
+a46232c697c809aaa2b0ad18157b49d66201fd7f xfrm: include mark in MIGRATE_STATE SA collision check
+24bc5e549913c37fa30693fd3a62a16757c14327 xfrm: pass extack through to xfrm_init_replay() from xfrm_init_state()
+dcf413245c8c2351f7f80502f89c344256f61a66 docs: xfrm: include mark in XFRM_MSG_MIGRATE_STATE EEXIST tuple
+835912998ca54a76b5c57f8c8459a86b1b45de40 Merge branch 'xfrm: state: exact mark/mask match for control-plane SA lookups'
+5def91015ba7b59de62a81384572da7281b8a033 xfrm4: use a full socket for local errors
+b3427f41f831adecc8ffd89afc9d30c279115658 Merge tag 'ipsec-2026-11-02' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
 
-f85e4a364755e342104df8a257a631209fd24804 56a9a91865bd4888f76a53087d6250601c612f06 refs/heads/test-schedulers
------BEGIN PGP SIGNATURE-----
-
-iQJDBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrp0XQQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD10sUD/QKqpt2y/LIMfn/dJxQwFwPifoqF/0/EUpf
-w7uEOUVHqThp0tJHJ23c8zrOcLpeFFAYkadb+2j1mM8wspwZxv/ZYgON7WijLoaB
-hoWhcrvy5ObF/cGHf2E0WYPx1i6zQtodZHrlNpzwtrbRv/9WoQsf2sj4obQmTQp4
-/VGYM2u4qIKyQ7nQRCugZj63pOxvxT3yF1leykeCkQG9gwDBLjCn9UwIx3GS/RbF
-29knWFyxE2JrZO6SuBLpLkb20vyA8nPXzsA4o4iOn0BLU3L7MpCy3D9XITuN8kXG
-/C8ze7dt1lNK3Ggjp6CLeKf6Lnucq90QOfZD5fDf4QZmnYeGjffYkADjvjsrMCyE
-q4d+98gteHf4Xd+Aa+QfiWPue2Q3TKEDBVNz7anE63jCXGB6KddiMyXSI7AILVWZ
-kevIOBhhzdgWmHzy1wNAD6E2d1AZR7KGIEL6NSvjxFOhhSeiPzvgwLtRaagzJpTW
-h4K2q0dixcifp80GMO0jCL6rUxkF8yA15pBiHtQ4cyVtLh3A5Pldc61PLkQAuumW
-Z+EN7NEDWSRUJ+ZsXg+JJCEvxMRFYDoeG5EHyaAZg/wm8Gm6/CF11m6LoY2JlIKP
-ujYaYWFX+81w7Uba+MzAEEQM6MIOcq0L3j9+HUotCfxcarvedNF6aT4jiZmv2pGB
-JLC42U31
-=F5Ux
------END PGP SIGNATURE-----
-
---===============0114875553826593464==--
+--===============3033164957896400133==--
