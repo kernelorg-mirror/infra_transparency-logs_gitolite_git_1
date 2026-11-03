@@ -1,48 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1707605821072616856=="
+Content-Type: multipart/mixed; boundary="===============2258989877305224309=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Tue, 03 Nov 2026 10:53:24 -0000
-Message-Id: <179370320432.1674397.2053358393280930732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Tue, 03 Nov 2026 10:55:28 -0000
+Message-Id: <179370332828.1677083.6172362306242264537@gitolite.kernel.org>
 
---===============1707605821072616856==
+--===============2258989877305224309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/linux-next
-    old: 437f512cbb5f463225a2f12610d213ec4beac297
-    new: b717c42fa34a3b0eaabb0875fa6023a38f1e57bf
-    log: revlist-437f512cbb5f-b717c42fa34a.txt
+  - ref: refs/heads/test-schedulers
+    old: 1189738aab41f351ebeeb8a322fc203f9e1b7d6b
+    new: c4360170f64ba294847cb9ab08666b684d6f62a6
+    log: |
+         521a799f0135814aca9d169d521402db111e65f8 Revert "memory: fsl_ifc: Clear fsl_ifc_ctrl_dev on probe failure and removal"
+         c4360170f64ba294847cb9ab08666b684d6f62a6 Reapply "memory: fsl_ifc: Clear fsl_ifc_ctrl_dev on probe failure and removal"
+         
 
---===============1707605821072616856==
+--===============2258989877305224309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-437f512cbb5f-b717c42fa34a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-01c3a5fa6d641c93c7cef4fb25c5f12938316e18 vhost-scsi: zero misaligned I/O bounce pages
-e244725e86be02cd85cb878b3ed8570eba2e4be1 vhost: fix used ring index wrap in vhost_add_used_n_in_order
-1f8efac19a0870cdfdf8477e447e5a07ddce9623 iommu/virtio: Reset device before deleting virtqueues on probe failure
-f41f153d49b4c18172ec61b69ba934c36e1be745 vdpa/snet: Don't discard the DPU error in snet_send_ctrl_msg()
-1f5bc40e33d8b3e5e3b89047956099b0c19f1d3d vhost-scsi: do not count PI bytes in the data length
-9494608239a5fab14326e591e3883ec3d42f8767 vhost-scsi: validate event queue descriptor direction
-b963eaa19ee15c1bb6052bd8c47791a703105ac0 virtio_ring: use shadow flags when detaching split descriptors
-cdcb198f68975cb199c92bc5d3a330adf024659d vhost-scsi: reject delayed virtqueue setup
-c78a50c6d6e757f1fa780166f71cbcace5a60525 vhost: reject backend enable without a kick file
-59a561f7c94e09bb3aa9784d59c9ed202adf2efe vhost-vdpa: initialize state before publishing cdev
-e12224de735e2d7482d3a4349177fb07d0fee48e MAINTAINERS: add missing virtio/vdpa/vduse/vhost headers
-03fe21e656d980fec93cd127df76cf2247c3831e virtio_balloon: initialize wakeup_lock before virtqueues are set up
-edeed96f25e8c7369f3ebf2299adbc90579327a4 virtio: use consistent virtqueue terminology
-6554c04dba09ea88628401ed2c91bc8c157afd44 hwrng: virtio - prevent use-after-free after a failed restore
-3294478dcd61f739160ca3e6c35caae4a909274b vduse: fix VA/PA confusion in the coherent page fault path
-00d208823671e9e5e27973df18b539144cc130bd vhost-scsi: fix page reference leak in misaligned I/O fallback
-28a72c7e600660da3f4f3646c907d00c20541140 virtio_ring: Initialize id field in packed indirect descriptors
-b717c42fa34a3b0eaabb0875fa6023a38f1e57bf virtio_pci: don't take the MSI mutex under cpu_hotplug_lock
+certificate version 0.1
+pusher krzk@kernel.org 1793703326 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1793703325-379c5f7525d6149aa1cb395b2a4763baef444536
 
---===============1707605821072616856==--
+1189738aab41f351ebeeb8a322fc203f9e1b7d6b c4360170f64ba294847cb9ab08666b684d6f62a6 refs/heads/test-schedulers
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrpvZ4QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD19qZEACZY9FQlCn2jxlMVu5WKWZayZYmcjWn4vMw
+khvtgMVbcDjO9T4ki/pC6DgQP3T13GEsa9IKOCI1YeJFJwnQQrsBkDh8y0P5pWRc
+MuuvvdusVuMj3dZs6K04u6KkQFHeE9ITRwd+NoLnipfmEECJ3bRIM0nXY3OLQuzu
+jOrWG2+6gGjDRStuJMI9vVjnFijtmvrPzWcBArl2bYqAg8bW5dARekNrktnZZ77f
+G6orveQC5qdfSSOcUQtfX5mPnm/sgByeQgZA19C8I9d88dhzg4vrGCV4Z6dSS7ta
+DDX5nedWC8QUpPDLqzETjxoYY7Go6CNq3tYoQX9+D0ADEmB44ZgFnF8jS+dfSeZb
+PFW+ym7iO+hWedQGDXcQsHhF/6cWWvM6obUeFz0ZAlQVCgGhzree1/Po8LOozSsp
+xQqiQRRMaUVGcyJgGy6IsDVp+APSqATb7us+Aj9EhNtLQdcQzQZMrgu16mlPqPj0
+BqDP6FBFeCZ0BwLm0ZuIGLKetARuFbQukE0hlDbMJ24F0f6+xAGNjLA6UuBQ8sJr
+fWNS+Yf633sROv+USpA7FrZVMEp7KP1P0AllUVrZQcB9tUXQQ3LoRR9wgQ5PPwWc
+6oagNonG53Nzs1dxFnxyoHLn8Ur2HMu9fTsZvfBXds5xpx11xDzxaolxTxsnznLw
+k5PUl93ByA==
+=qqGU
+-----END PGP SIGNATURE-----
+
+--===============2258989877305224309==--
