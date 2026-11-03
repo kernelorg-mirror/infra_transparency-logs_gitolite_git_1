@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/next-utils/etc
-Date: Tue, 03 Nov 2026 15:36:02 -0000
-Message-Id: <179372016268.1908899.9342079335604183458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 03 Nov 2026 15:38:07 -0000
+Message-Id: <179372028719.1909608.5479372329189041496@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/next-utils/etc
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/main
-    old: d1d6a9ac9e5765e3c4220294e838ee896cd7d1cf
-    new: 40d4efe95b385147c7aafda7a93fe3241e8f1c51
+  - ref: refs/heads/asoc-7.5
+    old: 6e1949eaa557338b381f207d4ec51d8b4769e8e9
+    new: 96f3c62c82edbddb12f247a6bf84d4a0cc066982
     log: |
-         40d4efe95b385147c7aafda7a93fe3241e8f1c51 control: Add alpha magnus-tree
+         ba61f5733094af7054f42d701779a4572afaf739 ASoC: es8328: reset the codec at probe time
+         bcc60bca720f6567813f280e8f650029f0039d92 ASoC: es8328: set SLRCK for the ES8388
+         96f3c62c82edbddb12f247a6bf84d4a0cc066982 ASoC: es8328: enable capture on the ES8388
          
