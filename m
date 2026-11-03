@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 03 Nov 2026 14:51:20 -0000
-Message-Id: <179371748027.1871123.10318074092038304247@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 03 Nov 2026 14:52:03 -0000
+Message-Id: <179371752330.1871490.12725379230972690721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: 7b1fd973214de07b83468a1363856f048aa2d80a
-    new: 647b81ddefc6364290e67bf33c89d54971f8995e
+  - ref: refs/heads/master
+    old: 09f5096cb346e7c41366257e88accba0c0ba95fd
+    new: 4594bff2c336a4a83b980ce94dc59be6ecabfdc7
     log: |
-         647b81ddefc6364290e67bf33c89d54971f8995e tcp: wait for TIME_WAIT teardown before freeing per-netns ehash
+         0c5d98b08b6a8c1b549189011f8926940910ab2a drop 1 xiic patch re-queued after author request
+         4594bff2c336a4a83b980ce94dc59be6ecabfdc7 Fixes for all trees
          
