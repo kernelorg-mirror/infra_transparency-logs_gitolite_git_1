@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 03 Nov 2026 01:11:31 -0000
-Message-Id: <179366829108.1188109.7090694156451713663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 03 Nov 2026 01:12:25 -0000
+Message-Id: <179366834525.1188628.18363248152008952947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/dev-queue
-    old: 6578998e18147e9d9a346b28f28b428eba2c01c3
-    new: 2b20571d707360fa54e70ff275a566339276acbe
+  - ref: refs/heads/experimental
+    old: fd041ac99272a1b634ebad5fb81fc8a004c64bc9
+    new: 6f4a7ed1a757e7e66cc62176c3a58b803dd1d64f
     log: |
-         0c9abf5779f6810aa70ae5ac90e0e517b2865e99 igc: pad preemptible packets before reserving TX timestamps
-         920ed0eec28315e02492a115d713d8891f3dfce0 igc: prepare TSO and checksum offloads before TX timestamps
-         317a543c8baf99ed0addaa59a40765a0deab89d0 igb: prepare TSO and checksum offloads before TX timestamps
-         d578549856d0ec2ba7957dcbdab81ac2542875b7 igc: only strip RX timestamp header from first buffer
-         b8fd1b8f76359195442315b58f6372c229a5cff3 igc: fix AF_XDP receive buffer size for 2K UMEM chunks
-         2b20571d707360fa54e70ff275a566339276acbe igc: return XSK frame copies on XDP_TX failure
+         bfc94a2580c0f9d8ff514cbd35ced48094c736bb erofs-utils: lib: track packed inode position explicitly
+         362e1721a369cd643c240ebaf6a0c7209fdba8ae erofs-utils: lib: use positional reads for single-threaded compression
+         afb9bede98b001c0a9f9b4fe00d32905ed997193 erofs-utils: lib: fix S3 and OCI portability
+         e2d8dde04abf30be732d43aa119b096a919654bd erofs-utils: add native Windows support
+         6f4a7ed1a757e7e66cc62176c3a58b803dd1d64f erofs-utils: lib: reject seeks on Windows pipes
          
