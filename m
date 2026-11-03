@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 03 Nov 2026 11:53:52 -0000
-Message-Id: <179370683288.1727064.12372302018588387160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 03 Nov 2026 11:53:58 -0000
+Message-Id: <179370683808.1727266.3841467155885679147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: 5d04d5c8fdbe8ebd174cfcc8845ce53adcdc71dd
-    new: 5436a50a0b44b448f965e928507b5159059dee57
+    old: e0e03f391be418331dce39737a277dee48709f59
+    new: 264d1cf96262971c6595efef4ce519882e944b09
     log: |
-         487f55870c60150e44182a8dbc95232c240bf7a8 regulator: dt-bindings: add Qualcomm LCDB regulator
-         be8c26474857830ea19df001ebab9acac92df578 regulator: add Qualcomm LCDB driver
-         79f6abecd6b3c936873028a309071705c6aea15f regulator: qcom: enable display card support on SM8150 HDK
-         a8db6cf000ba229805c459a7730d3a3384eb872e Merge regulator-linus into regulator-next
-         5436a50a0b44b448f965e928507b5159059dee57 Merge regulator/for-7.5 into regulator-next
+         67e3d31893ab53d30531aa4e90bfebdc177f2f05 spi: amlogic-spisg: Balance runtime PM and clock cleanup
+         463ae680cff71d20a1df6071afd262a4363bb81e Merge spi-linus into spi-next
+         264d1cf96262971c6595efef4ce519882e944b09 Merge spi/for-7.5 into spi-next
          
