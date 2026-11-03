@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 03 Nov 2026 09:44:24 -0000
-Message-Id: <179369906466.1598213.2769917521142402204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 03 Nov 2026 09:44:59 -0000
+Message-Id: <179369909901.1598611.8977027189561277256@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/linux-5.10.y-cip
-    old: ef24e6dcf682f112bcdbb5b39cbed7a8cedcfd46
-    new: 8db0fa6d19ba0975b1a96121072f39e2ed0580dd
+  - ref: refs/heads/main
+    old: c8848b2ca6e6620b56afafba7dd4367e98b049c0
+    new: 213d491308b99d026514c93980cf8dd572226b1b
     log: |
-         8db0fa6d19ba0975b1a96121072f39e2ed0580dd iio: adc: rzg2l_adc: Set driver data before enabling runtime PM
+         213d491308b99d026514c93980cf8dd572226b1b soreuseport: annotate data-races around reuse->socks[] and num_socks
          
