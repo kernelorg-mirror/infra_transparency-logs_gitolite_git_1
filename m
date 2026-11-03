@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8560761922762399674=="
+Content-Type: multipart/mixed; boundary="===============5393396468813228689=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Tue, 03 Nov 2026 14:05:48 -0000
-Message-Id: <179371474836.1833146.16716652935058145421@gitolite.kernel.org>
+Date: Tue, 03 Nov 2026 14:06:05 -0000
+Message-Id: <179371476517.1833475.11634648370634104081@gitolite.kernel.org>
 
---===============8560761922762399674==
+--===============5393396468813228689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/kcsan/dev
+  - ref: refs/heads/next
     old: bd3cc16d1d7d584911f856adc458f242b1c7e85f
-    new: fc3f5044f99ec1f232a15eca6e4772118164ad33
-    log: revlist-bd3cc16d1d7d-fc3f5044f99e.txt
+    new: e1af227f0b6e0ad2d9b7eb391302e527dd1fa2f6
+    log: revlist-bd3cc16d1d7d-e1af227f0b6e.txt
 
---===============8560761922762399674==
+--===============5393396468813228689==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-bd3cc16d1d7d-fc3f5044f99e.txt
+Content-Disposition: attachment; filename=revlist-bd3cc16d1d7d-e1af227f0b6e.txt
 
 f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
 acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
@@ -1049,6 +1049,6 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 880748cd41fc7c7ca112bbd509d050f68466b88a kcsan: Reset per-task KCSAN state on fork
 b23b8d7059795a7744a7d5e4d3c25dd15759a903 kbuild: rust: enable KCSAN support
-fc3f5044f99ec1f232a15eca6e4772118164ad33 rust: kcsan: add KUnit test for data race detection
+e1af227f0b6e0ad2d9b7eb391302e527dd1fa2f6 rust: kcsan: add KUnit test for data race detection
 
---===============8560761922762399674==--
+--===============5393396468813228689==--
