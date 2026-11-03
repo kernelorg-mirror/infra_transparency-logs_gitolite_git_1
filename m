@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 03 Nov 2026 11:53:58 -0000
-Message-Id: <179370683808.1727266.3841467155885679147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 03 Nov 2026 11:54:42 -0000
+Message-Id: <179370688215.1727759.11194354289392692718@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: e0e03f391be418331dce39737a277dee48709f59
-    new: 264d1cf96262971c6595efef4ce519882e944b09
+  - ref: refs/heads/main
+    old: 64e45ed926cdd017c9816c8006d9117a7194c7e9
+    new: f56daaadfecae1f760d0fb34385b256d3af68970
     log: |
-         67e3d31893ab53d30531aa4e90bfebdc177f2f05 spi: amlogic-spisg: Balance runtime PM and clock cleanup
-         463ae680cff71d20a1df6071afd262a4363bb81e Merge spi-linus into spi-next
-         264d1cf96262971c6595efef4ce519882e944b09 Merge spi/for-7.5 into spi-next
+         f56daaadfecae1f760d0fb34385b256d3af68970 docs: netdev: try to force agents to disclose info for fixes
          
