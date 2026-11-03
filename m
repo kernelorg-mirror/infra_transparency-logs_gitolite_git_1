@@ -1,31 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============0436735102164633893=="
+Content-Type: multipart/mixed; boundary="===============6509053149991962471=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Tue, 03 Nov 2026 09:59:30 -0000
-Message-Id: <179369997053.1632933.15248987392565243246@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Tue, 03 Nov 2026 09:59:32 -0000
+Message-Id: <179369997294.1633118.11040633950962523291@gitolite.kernel.org>
 
---===============0436735102164633893==
+--===============6509053149991962471==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/backlight
 user: lee
 changes:
-  - ref: refs/heads/for-leds-next
-    old: 59cf91cf87abb67a49b1bb7b9d3b06486abde8cf
-    new: fb511964723311e9a7223e424d725c58dde8307a
-    log: revlist-59cf91cf87ab-fb5119647233.txt
+  - ref: refs/heads/for-backlight-next
+    old: eacfbe6f9716d00536edc229a58895405e73c2e4
+    new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    log: revlist-eacfbe6f9716-6628e7d4c6b2.txt
 
---===============0436735102164633893==
+--===============6509053149991962471==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-59cf91cf87ab-fb5119647233.txt
+Content-Disposition: attachment; filename=revlist-eacfbe6f9716-6628e7d4c6b2.txt
 
+76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
+e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
+32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
+f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
+acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
+7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
+ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
+01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
+c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
 226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
 07c81e0196cc8fbc261095c9f712e39b63e3c780 mm/sparse: move mem_section init to sparse_extreme_init()
 89e2b6e3d345cd4dca822a5ccea764ee7f9e0ae4 mm/sparse: refactor sparse_sections_init()
@@ -1041,14 +1050,5 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-e61797a9381eacf0b527d8b71b260c7244581d6e Documentation: ABI: leds: Drop stale gpio trigger reference for inverted
-427d720a02414e840580567451266a6290e2f46b Documentation: ABI: leds: Document timer, heartbeat and activity attributes
-7ae37665e252af696470690fec9f81978c9999a4 dt-bindings: leds: skyworks,aat1290: Document AAT1270 Current Regulator for Flash LEDs
-b6a8526e61023f7fa2af184690f3341125529668 dt-bindings: leds: skyworks,aat1290: Document FLINH pin
-647c8b14443534e409f16d2185086473538b20f5 leds: aat1290: Add support for AAT1270 Current Regulator for Flash LEDs
-d89ea335422fa4f6eacf998291dd473d5314ed2d leds: nic78bx: Use named initializers for acpi_device_id
-6173959c7d4d578bce9b075577cbdf59877b1eea leds: asus-aura-scsi: Add ASUS Aura RGB LED driver for ROG NVMe enclosures
-75565a889829fb3c3beb13866fd49ad088e8f48e leds: flash: leds-qcom-flash: Release all V4L2 flash devices
-fb511964723311e9a7223e424d725c58dde8307a leds: is31fl32xx: Fix NULL pointer dereference when binding via I2C ID table
 
---===============0436735102164633893==--
+--===============6509053149991962471==--
