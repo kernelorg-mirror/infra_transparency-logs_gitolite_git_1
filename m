@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 03 Nov 2026 17:53:34 -0000
-Message-Id: <179372841442.2011277.8841960630702088208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/infra/subspace/mlmmj
+Date: Tue, 03 Nov 2026 17:54:10 -0000
+Message-Id: <179372845005.2011641.17138650201949311747@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/infra/subspace/mlmmj
+user: mricon
 changes:
-  - ref: refs/heads/arm64-fp-stress-kvm
-    old: 04752966ff19e9d21a899cd03897f6de19a2715b
-    new: 9e780909ab482ede4bf1ae7a48eb3f7aa874a6fa
+  - ref: refs/heads/korg-infra-deployment
+    old: 0f5e71571251ef5970d31ec846631e1941f1386d
+    new: f2b535037ca94c61df698e7f07ed60adba047bb9
     log: |
-         75ad412880d9f190198ccf86fce23321283082aa kselftest/arm64: Add a very simple VMM for use in fp-stress
-         7b315edaf5ad9e9c05e45c63ed4868b01a8173f6 kselftest/arm64: Build KVM guest versions of the fp-stress loads
-         0c3de1967f867cada27ac13593af58c982fabb15 kselftest/arm64: Use execv() to start fp-stress test loads
-         9e780909ab482ede4bf1ae7a48eb3f7aa874a6fa kselftest/arm64: Run KVM guests from fp-stress
+         10cbe082aee6254e121952338eff5350f662b8df probe: find bounced messages in a partitioned archive
+         6d4edc61d9801893705f413eeda8a2ea19f7db76 probe: match only the Message-ID header when listing bounces
+         f2b535037ca94c61df698e7f07ed60adba047bb9 probe: make the bounced Message-ID format configurable
          
