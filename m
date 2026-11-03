@@ -1,31 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============4420663990591269307=="
+Content-Type: multipart/mixed; boundary="===============2526040899287552514=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 03 Nov 2026 18:21:35 -0000
-Message-Id: <179373009508.2034018.10870220731508071521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
+Date: Tue, 03 Nov 2026 18:24:31 -0000
+Message-Id: <179373027135.2035161.2679345638766028791@gitolite.kernel.org>
 
---===============4420663990591269307==
+--===============2526040899287552514==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/liveupdate/linux
+user: rppt
 changes:
-  - ref: refs/heads/kvm-arm64-set-id-regs-aarch64
-    old: b0f05fefae4bf6316b6a87884d236bc982aa82fd
-    new: 1e718ddf933a9d2721c7b377c06ae7e17c5038ef
-    log: revlist-b0f05fefae4b-1e718ddf933a.txt
+  - ref: refs/heads/fixes
+    old: 3a0b8fa2eb36afc88b62a95f33f0c77c71fa5ded
+    new: 7d4282ec2d3bfd5e7959bbd2663936a29c45f609
+    log: revlist-3a0b8fa2eb36-7d4282ec2d3b.txt
 
---===============4420663990591269307==
+--===============2526040899287552514==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b0f05fefae4b-1e718ddf933a.txt
+Content-Disposition: attachment; filename=revlist-3a0b8fa2eb36-7d4282ec2d3b.txt
 
+e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
+32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
+f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
 acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
 7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
 ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
@@ -1046,9 +1049,6 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-1a1727952d645384dd697cf8a978472c89193703 KVM: selftests: arm64: Improve diagnostics from set_id_regs
-ee94d0515b34af0f4216ef46887c218cfff21885 KVM: selftests: arm64: Report set_id_reg reads of test registers as tests
-acf28e21aec1eb4f80a7c6e13651972b64d16102 KVM: selftests: arm64: Report register reset tests individually
-1e718ddf933a9d2721c7b377c06ae7e17c5038ef KVM: selftests: arm64: Make set_id_regs bitfield validity checks non-fatal
+7d4282ec2d3bfd5e7959bbd2663936a29c45f609 liveupdate: check for duplicate session before growing block set
 
---===============4420663990591269307==--
+--===============2526040899287552514==--
