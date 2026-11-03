@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3961399176094259917=="
+Content-Type: multipart/mixed; boundary="===============5347469061355904385=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Tue, 03 Nov 2026 06:28:13 -0000
-Message-Id: <179368729341.1414583.2613936934446488450@gitolite.kernel.org>
+Date: Tue, 03 Nov 2026 06:28:33 -0000
+Message-Id: <179368731304.1414896.2872263359845429944@gitolite.kernel.org>
 
---===============3961399176094259917==
+--===============5347469061355904385==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/hyperv/linux
 user: wei.liu
 changes:
-  - ref: refs/heads/hyperv-next
-    old: 33b28f3b313353f11fc939e9a268605e66290d0b
-    new: eab80895d447ec164a1d91a1ab377bd3a9dc9044
-    log: revlist-33b28f3b3133-eab80895d447.txt
+  - ref: refs/heads/hyperv-fixes
+    old: dbc393f6f009a2bf7e4a22ef2d70b53f533f20f4
+    new: b6d5e944b4eeeba6149af7fd696e8164e6f8a76f
+    log: revlist-dbc393f6f009-b6d5e944b4ee.txt
 
---===============3961399176094259917==
+--===============5347469061355904385==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-33b28f3b3133-eab80895d447.txt
+Content-Disposition: attachment; filename=revlist-dbc393f6f009-b6d5e944b4ee.txt
 
-7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
 ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
 01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
 c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
@@ -220,6 +219,7 @@ d69cfd33b5a8d176124c564513b9ceb933595d93 time/namespace: Fix overflow when conve
 141a27750ec3d91ad9d1ad1764ebb5e51b963478 posix-timers: Report zero remaining time for disarmed SIGEV_NONE timers
 45aeb7b3039355cfaf01ee1f7e104a55a8d61d0b selftests: timers: Add a test for disarmed SIGEV_NONE timers
 e389ae428847a2e6a3b698b5967df68ccf90361c tick/nohz: Reevaluate the tick for kicks flushed outside hardirq
+33b28f3b313353f11fc939e9a268605e66290d0b Drivers: hv: Remove leftover support for old Hyper-V versions
 cbd0f65b48f52d308c457b0fd5201324abadb501 vdso/gettimeofday: Correct the read of tz_minuteswest and tz_dsttime
 9206d6c40b52fab9bd59e8a8f7dd2d9a68d71a21 Merge tag 'for-linus-7.4-ofs1' of git://git.kernel.org/pub/scm/linux/kernel/git/hubcap/linux
 47439bb1635e8dd9245e876c2046b66a9b6f9400 Merge tag 'nfsd-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
@@ -1044,11 +1044,11 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-4e910a6a67d2abf435aa10f801759cc0297e8c24 arm64: rsi: Add RSI host call structure and helper function
-d267bc2a2fb47328b681d0ca8e77365b6c8041e1 arm64: hyperv: Detect Hyper-V via RSI host call in CCA Realms
-937e8511143c492d0e85ee086b398b93c848e57c arm64: hyperv: Add per-CPU RSI host call infrastructure for CCA Realms
-90cec8207459181881528d12f13cb9f10d54eb63 Drivers: hv: Mark shared memory as decrypted for CCA Realms
-c8182341ceb1ecb1c9e0ebe35fd8e49715a8343c arm64: hyperv: Route hypercalls through RSI host call in CCA Realms
-eab80895d447ec164a1d91a1ab377bd3a9dc9044 arm64: hyperv: Implement hv_is_isolation_supported() for CCA Realms
+9af12366007691bfd3d47c0f1db20a06bf984c78 mshv: Don't free overlay pages after a failed unmap
+a2288c27550f4e163ac34ea55c95709d97cb6f5f x86/hyperv: Set irq_retrigger for root partition PCI/MSI irqchip
+56aae8f478107bf325bf31f3b71c65933de2c57a x86/irq: Use irq_chip_retrigger_hierarchy() in fixup_irqs()
+e3083292434ef422bae1f59c36a6e560b6c1414d x86/irq: Use irq_chip_retrigger_hierarchy() in msi_set_affinity()
+80a5d6821592e0219e32932c3b98cb4381a66d35 x86/irq, iommu/amd, x86/hyperv, PCI: Drop redundant irq_retrigger inits
+b6d5e944b4eeeba6149af7fd696e8164e6f8a76f x86/hyperv: use pointed-to type size for page table offsets
 
---===============3961399176094259917==--
+--===============5347469061355904385==--
