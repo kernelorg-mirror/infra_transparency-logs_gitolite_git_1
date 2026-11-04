@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 04 Nov 2026 16:36:11 -0000
-Message-Id: <179381017128.3110643.12648262331111600362@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 04 Nov 2026 16:36:22 -0000
+Message-Id: <179381018216.3110840.5501390628590068359@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-7.5
-    old: c526eaad1adab1fa47295acfc27f734bf171f769
-    new: 514e0c8053d82b5d9e175c204be9c105ddcec8eb
+  - ref: refs/heads/for-7.4
+    old: 2d0953ab69d316589624b0517fdce01f8e630bf0
+    new: 5072a9fae45a043cad80f74f4f19fc98803630ab
     log: |
-         b7d1b857f5968fc2f508664828d778f8d619b08f ASoC: cs42l43: Improve analogue mic pop performance
-         2b71e04083244681d83313a563b001db64844193 ASoC: cs42l43: Factor out decimator startup data to an array
-         cd2e9a5195bfaf5deff1105287141fb2d003b9bf ASoC: cs42l43: Improve pop performance of the input power up
-         514e0c8053d82b5d9e175c204be9c105ddcec8eb ASoC: Improve pop performance of cs42l43 input path
+         5072a9fae45a043cad80f74f4f19fc98803630ab spi: ljca: Don't require data in write replies
          
