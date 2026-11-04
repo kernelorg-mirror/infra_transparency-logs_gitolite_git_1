@@ -1,31 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============0387438356763193101=="
+Content-Type: multipart/mixed; boundary="===============1323531412649471632=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 04 Nov 2026 18:56:06 -0000
-Message-Id: <179381856633.3229268.16650054042253823165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
+Date: Wed, 04 Nov 2026 18:56:14 -0000
+Message-Id: <179381857409.3229514.7158556702712526522@gitolite.kernel.org>
 
---===============0387438356763193101==
+--===============1323531412649471632==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/wbg/counter
+user: wbg
 changes:
-  - ref: refs/heads/arm64-sve-trap-mitigation
-    old: 1ea197c995fac113130738fdb3b3bec1600458de
-    new: 0d4cb35c55f7b7c5eed7850eb5b633f3e2f65ba0
-    log: revlist-1ea197c995fa-0d4cb35c55f7.txt
+  - ref: refs/heads/counter-fixes
+    old: fd73f4a6659897191fa0d40695fe370925dd3780
+    new: cfd4c04ef6abceaad377af65b56621405d850eb4
+    log: revlist-fd73f4a66598-cfd4c04ef6ab.txt
 
---===============0387438356763193101==
+--===============1323531412649471632==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1ea197c995fa-0d4cb35c55f7.txt
+Content-Disposition: attachment; filename=revlist-fd73f4a66598-cfd4c04ef6ab.txt
 
+32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
 f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
 acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
 7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
@@ -1047,8 +1048,7 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-c6c3f4f0b7e0ad8309ce8a11e38ec1469bc7d921 arm64/sve: Performance improvements with SVE state saving
-0cc9a804d3a45b2c000275af7456f4c39d336bd1 arm64/fpsimd: Suppress SVE access traps when loading FPSIMD state
-0d4cb35c55f7b7c5eed7850eb5b633f3e2f65ba0 arm64/sve: Disable TIF_SVE on syscall once per second
+12a10a6b0bc16ce0c52b88f5c58430fe6a3a0c6d counter: Allow 32-bit tasks to use the character device
+cfd4c04ef6abceaad377af65b56621405d850eb4 counter: rz-mtu3-cnt: put runtime PM ref if counter init fails
 
---===============0387438356763193101==--
+--===============1323531412649471632==--
