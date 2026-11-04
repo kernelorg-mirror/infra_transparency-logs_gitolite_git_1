@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6741775472750398055=="
+Content-Type: multipart/mixed; boundary="===============3422017875902968841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 04 Nov 2026 09:39:48 -0000
-Message-Id: <179378518808.2763118.13467173254389047674@gitolite.kernel.org>
+Date: Wed, 04 Nov 2026 09:40:06 -0000
+Message-Id: <179378520656.2765411.3966128414989989587@gitolite.kernel.org>
 
---===============6741775472750398055==
+--===============3422017875902968841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,25 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 39147fa5e1ad52ed7dea3d85c34d61ded07e61af
-    new: 8144b9c05e94ee9e2e5934e492e4b28f474fbe09
-    log: revlist-39147fa5e1ad-8144b9c05e94.txt
+    old: 8144b9c05e94ee9e2e5934e492e4b28f474fbe09
+    new: 4f08fc2dfebccc28b7a7645dd81d28a755815e47
+    log: |
+         17a3be59a1afd332552eeae15713bc4cb14525fd Merge branch into tip/master: 'sched/urgent'
+         88c2a5e1062e33868ddc17cda831d8eeb2b85a42 Merge branch into tip/master: 'x86/urgent'
+         03cc1e16c8a1d0b5538219263b65061d8514fda9 Merge branch into tip/master: 'x86/apic'
+         6feaa8215a96c8570de4b33cb8496584428be724 Merge branch into tip/master: 'x86/cleanups'
+         4f08fc2dfebccc28b7a7645dd81d28a755815e47 Merge branch into tip/master: 'x86/misc'
+         
+  - ref: refs/heads/tip/urgent
+    old: addb955d389d09d8d30fb4eca619f3dd16b15d19
+    new: 88c2a5e1062e33868ddc17cda831d8eeb2b85a42
+    log: revlist-addb955d389d-88c2a5e1062e.txt
 
---===============6741775472750398055==
+--===============3422017875902968841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39147fa5e1ad-8144b9c05e94.txt
+Content-Disposition: attachment; filename=revlist-addb955d389d-88c2a5e1062e.txt
 
 5852cdf0006ff0f1d9a56f06197673d4e4270220 net/9p: fix typos in comments
 37dce65a0b4356d7ec289a5d09cece5db241c302 9p: use fc->net_ns for network namespace in RDMA and socket transports
@@ -158,12 +168,7 @@ a4da531b171c664a6cf42c5b82d1610cbdf14fe4 Merge tag 'bpf-fixes' of git://git.kern
 51628610f9187c1c1cfe499d92e066bc22ad9693 vfs: fix take_dentry_name_snapshot() semantics
 7d1471e50943196f909674d2d22eb4196c7df48e Merge tag '9p-for-7.4-rc2' of https://github.com/martinetd/linux
 05441d697f7f9a927264f4058cbbc6a03dfcac9d Merge tag 'cocci-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
-fc99757165a6b6662e3c5b24986f887a0269495f x86/apic: Rename init_apic_mappings() to apic_finalize_early_init()
-ae32c6e2679b05e1aab256af19599cec0abc5219 x86/apic: Consolidate early APIC initialization into apic_early_init()
-2f4b3e8ea202808c6218e2bf67810dfcdb6cb883 x86/apic: Remove redundant check from x2apic_phys_probe()
-85c0baaf44b53389e997176dc0cf006416456050 x86/apic: Switch to x2apic driver early if x2apic is enabled
-f8e3789db8f8d4214da7a3fdfd936d23a9aa582d x86/apic: Use EILVT register count from APIC_EFEAT
-cfe996e4ea37e1eeb4346bd3bab9867f3f9b339a Merge branch 'linus'
-8144b9c05e94ee9e2e5934e492e4b28f474fbe09 Merge branch 'x86/apic'
+17a3be59a1afd332552eeae15713bc4cb14525fd Merge branch into tip/master: 'sched/urgent'
+88c2a5e1062e33868ddc17cda831d8eeb2b85a42 Merge branch into tip/master: 'x86/urgent'
 
---===============6741775472750398055==--
+--===============3422017875902968841==--
