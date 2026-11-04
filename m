@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4545858428878335479=="
+Content-Type: multipart/mixed; boundary="===============8139990689950734925=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Wed, 04 Nov 2026 04:14:19 -0000
-Message-Id: <179376565946.2525228.16146049449802514941@gitolite.kernel.org>
+Date: Wed, 04 Nov 2026 04:15:35 -0000
+Message-Id: <179376573518.2527838.13651146283689470140@gitolite.kernel.org>
 
---===============4545858428878335479==
+--===============8139990689950734925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: 706081c6b9327dd611dd72b20130a77f0f059b6e
-    new: 10045445e430a4eee85335c26eab9b4304cad625
-    log: revlist-706081c6b932-10045445e430.txt
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 81792daacfb41ca07b04bd3956ea9e672080cc98
+    new: 285ad12ac4d485f15dc1c07edc0baa5cad70c98b
+    log: revlist-81792daacfb4-285ad12ac4d4.txt
 
---===============4545858428878335479==
+--===============8139990689950734925==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-706081c6b932-10045445e430.txt
+Content-Disposition: attachment; filename=revlist-81792daacfb4-285ad12ac4d4.txt
 
-e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
 32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
 f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
 acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
@@ -1049,6 +1048,7 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-10045445e430a4eee85335c26eab9b4304cad625 dt-bindings: opp: Allow 'clock-latency' with dynamically populated OPPs
+c809595c47ecd59f731090b636aa499d724190a9 cpufreq: longrun: fix typo in kernel-doc
+285ad12ac4d485f15dc1c07edc0baa5cad70c98b cpufreq: longrun: fix kernel-doc warning
 
---===============4545858428878335479==--
+--===============8139990689950734925==--
