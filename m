@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 04 Nov 2026 18:03:11 -0000
-Message-Id: <179381539179.3182509.18413882589908458244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 04 Nov 2026 18:04:31 -0000
+Message-Id: <179381547171.3183087.9317854220423157845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/controller/dwc-rcar-gen4
-    old: c09e423024e3ba2739a261ee5406f0bf13fb4de2
-    new: 7c2b491c855d5203d5ce43cc068c2a4d694d8fc0
+  - ref: refs/heads/master
+    old: d346f59069676eda84b3313cbd2c2ab21045d3ee
+    new: 77ac1105bf1d9a60cbfc6e3fb2cb1203d56d880e
     log: |
-         7c2b491c855d5203d5ce43cc068c2a4d694d8fc0 PCI: rcar-gen4: Fix device_node leak in rcar_gen4_pcie_host_msi_addr()
+         77ac1105bf1d9a60cbfc6e3fb2cb1203d56d880e selftests/bpf: Port test_ftrace.sh to test_progs
          
