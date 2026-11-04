@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 04 Nov 2026 09:43:22 -0000
-Message-Id: <179378540274.2766724.7442541259278329482@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 04 Nov 2026 09:50:23 -0000
+Message-Id: <179378582349.2773310.6116782440583311423@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 45ac42ec8a486a08f30ae1892856bdd995321f57
-    new: e50525a486300e5ff8014c9985b8477b2fca0368
+  - ref: refs/heads/dev-test
+    old: e9aeaa63fd94b0d2bb9b303be5774b33ca9c01cf
+    new: 7c26dc33ea7bb677db294bfb4e58d4207477c9e3
     log: |
-         e50525a486300e5ff8014c9985b8477b2fca0368 RDMA/irdma: Free cq with a safer cq num reference
+         7c26dc33ea7bb677db294bfb4e58d4207477c9e3 erofs: treat files shared by inode_share as stacked
          
