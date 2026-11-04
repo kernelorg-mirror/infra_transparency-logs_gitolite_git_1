@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwamatsu/linux
-Date: Wed, 04 Nov 2026 02:37:05 -0000
-Message-Id: <179375982599.2457408.6057778294596353073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 04 Nov 2026 03:04:06 -0000
+Message-Id: <179376144631.2474826.4927845607183311542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwamatsu/linux
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/cip/linux-6.12.y-cip
-    old: 0000000000000000000000000000000000000000
-    new: 5819b67800ef429ba0a7c910b2ab192af089d934
+  - ref: refs/heads/master
+    old: 3f489ecb37e53fabddc71f5469e85439614a6edf
+    new: 9eec57f2c2b9395b42ac38697e46fb21e88b528f
+    log: |
+         9eec57f2c2b9395b42ac38697e46fb21e88b528f foo
+         
