@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/oupton/linux
-Date: Wed, 04 Nov 2026 08:35:03 -0000
-Message-Id: <179378130382.2715925.9918912492906993919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 04 Nov 2026 08:38:06 -0000
+Message-Id: <179378148680.2717762.16897771592073934287@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/oupton/linux
-user: oupton
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/kvm-arm64/nested-fixes-7.4
-    old: 0000000000000000000000000000000000000000
-    new: 35a83c2fbbfe9eeffd3e98f88f655c17d307bb9b
+  - ref: refs/heads/experimental
+    old: 24d131c1a254c0d9bf78e65d71625cbdbcd86a96
+    new: fab59c82557f534843ed1db7f39cd993cad9281f
+    log: |
+         fab59c82557f534843ed1db7f39cd993cad9281f erofs-utils: fsck: extract zero-length xattr values
+         
