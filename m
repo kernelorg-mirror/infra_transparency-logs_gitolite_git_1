@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4172828255711583692=="
+Content-Type: multipart/mixed; boundary="===============3324593036500710952=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 04 Nov 2026 14:47:58 -0000
-Message-Id: <179380367889.3017670.3208533451015515709@gitolite.kernel.org>
+Date: Wed, 04 Nov 2026 14:48:03 -0000
+Message-Id: <179380368355.3017869.9905570259606817378@gitolite.kernel.org>
 
---===============4172828255711583692==
+--===============3324593036500710952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 74d73ffcffe03804f97e9fb82301dadf75671282
-    new: fbf7e920e77b94b420678e47064065b812bfb6bc
-    log: revlist-74d73ffcffe0-fbf7e920e77b.txt
+  - ref: refs/heads/mm-unstable
+    old: 0ea6dc8c4a2192227ec25768625686b8fcd5cb09
+    new: bcc036cfa1670a64500f6d857eaa71908b79e3fb
+    log: revlist-0ea6dc8c4a21-bcc036cfa167.txt
 
---===============4172828255711583692==
+--===============3324593036500710952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74d73ffcffe0-fbf7e920e77b.txt
+Content-Disposition: attachment; filename=revlist-0ea6dc8c4a21-bcc036cfa167.txt
 
 b127938b609db5c626944b740fb20b88e1054709 mm/kasan: detect double-free involving kfree_rcu_sheaf()
 70986c20fa6f7f61d894697da543b8ba4cc0b280 mm/kasan/kunit: add double-free tests involving kfree_rcu_sheaf()
@@ -145,56 +145,5 @@ e576f9950ada36de1b5192cf6ffaf04f2cddad1c Docs/admin-guide/mm/damon/lru_sort: fix
 874f1fa8f3cacfb195d30244b313d9d6acdd7299 mm/zswap: validate dlen and normalize comp_ret on compression success
 e36a9bb1725eee4b66eac0ac3b6af72f5c178e5b mm: nommu: set MMF_OOM_SKIP in exit_mmap()
 bcc036cfa1670a64500f6d857eaa71908b79e3fb fs/proc/task_mmu: fix lost maps entries above 2^63
-f7b445f03c3edf0567b26205da8638fb9235caef Docs/admin-guide/mm/damon: fix various typos
-b7f82f57aa62709142016f739d8e380aa3d0d40f Docs/admin-guide/mm/damon/lru_sort: fix copy-paste mistakes
-4ee6c3e45f1a93d4a52a5d48d3e3202bd7295604 Docs/admin-guide/mm/damon/usage: fix incorrect option syntax in perf example
-4ea71a901ad90cde172092c3e7c5bebd24f04c4f mm: bypass swap readahead for zswap
-d3fc526fc1b07531809adbac5e054de2c4642c9c mm/vmscan: remove redundant !mem_cgroup_online() checks
-9fc3e27e7a2e4b277cdf24ed88066117ae705341 mm/mglru: stop rotating offlined memcgs to the old generation
-b8ad39074e144efbdb4fca9f8f71a3d3cebd7f1c mm/hugetlb_cma: fix incorrect hugetlb_cma_size assignment on malformed input
-e59a44c032534619ba30db64c730d5b904d6a900 mm/hugetlb: preserve persistent flags when returning folios to the pool
-f45611ddb9946fa8fc47b334b054c4cae7eb16fc mm/hugetlb: fix NR_HUGETLB accounting for surplus folios
-30d990a53c2a5a3c292c6bdca76398f580e2a6a7 mm/filemap: clear page cache marks once when removing a folio
-42f5c80d9c7c22dd1bb9dcd2024e814dd9455a62 Docs/admin-guide/mm/damon/start: fix grammar
-f1c752ec263c59d2acae0ae8fd2658cd6acdffe9 Docs/admin-guide/mm/damon/stat: fix pronoun agreement
-8d1d3dbb8e9d101a268f5decbac47171219f2b4a Docs/admin-guide/mm/damon/usage: fix grammar
-f5bc2d448040b9c9e39e71f70b4dbbee79b1f405 Docs/admin-guide/mm/damon/lru_sort: fix remaining grammar
-b2c71e27c4fba591c05f9452e2f75f014f077fec Docs/mm/damon/design: fix grammar and typos
-62fc07a536f395d7b549e713d7b6b134dbfd95fd Docs/mm/damon/api: fix verb form
-19ac050fcf4a2e46295335a96efac5319f4d2cde Docs/mm/damon/maintainer-profile: fix subject-verb agreement
-dfd4cf2b0d62e5b9e576df0587f7625df11fe1e1 Docs/mm/damon/monitoring_intervals_tuning_example: fix grammar and typos
-8c1e49def1a55a8ceafb0a62d612869c3c5567c1 mm: remove wait_on_page_writeback()
-f6abdfa667ade602e2057056e794261c9602af74 mm: remove end_page_writeback()
-c4b416201e7e4bcb7163607da01fc15df6d4f6ce mm: remove clear_page_dirty_for_io()
-1c5e1c1ad0141796d425841bc99f0fe4abda2f0c mm: remove attach_page_private() and detach_page_private()
-7bebcb9f0547da74007d2cce836ee59dbd579c6b mm: remove find_get_page_flags()
-e5867da286fbd0e4bee7788c94e4963e3555d8d4 mm: remove find_lock_page()
-3a0963ff3d127b9622e6ba1fc85c6246a38d39db mm: remove read_cache_page_gfp()
-c913c50a76dabf98f2a5ac3cfb318774487a980d mm: remove thp_size() and thp_order()
-426a6379dcc273c7bfa348a1761c84b47e8f9829 mm/page-writeback: avoid overflow when reporting BDI byte limits
-7460ce0db1c81b16fb0cfadd92e4aaaf86f07523 selftests/proc: cast the PROCMAP_QUERY address through uintptr_t
-b216906ccf744e1f7f3ce1e7fc0dc7c010274671 mm, swap: only allow swapped-out slots into the swap cache
-4e98c8ae857bd572f46e524ff9f6a05ed829bd85 mm, swap: give hibernation swap slots their own swap table entry type
-6037753cdf94ce723aa09b727bee664cd94a9622 mm, swap: drop the swap cache guard and reclaim in swap_free_hibernation_slot()
-d0383a434e8e31f8b9024cfe0084150b0f59383e selftests/mm: fix pointer width warnings on 32-bit architectures
-07c07197634d0e9259fbd09fab6b83e244e87929 mm/huge_memory: scale thp_underused() to the folio size
-5679e01b142d73595dfaff2d1927d825bed897d4 mm/huge_memory: don't queue folios when underused splitting is inactive
-f8cbc169b4f8d22cc492bf5d96166b5da5b15dc2 mm/huge_memory: add a per-order counter for underused splits
-9c199d9d989dbea19003d926eed14b9fee7b2016 mm: add anonymous mTHP folios to the deferred split list
-339dd024e5c98880986005e063b5ca21b8c7cf79 selftests/proc: use RSS in /proc/pid/smaps_rollup tearing tests
-5e3c7025cc3cbf8791a6357c9d64968171fdfa54 mm: hugetlb_vmemmap: remove HugeTLB-specific vmemmap optimization macros
-4d3d6627f086477272b9fce11897e9feda14df5b mm: hugetlb_vmemmap: unify VMEMMAP_{SPLIT,REMAP}_NO_TLB_FLUSH
-83f3656f5263322324a0e3708231f588aa0b66bf mm: hugetlb_vmemmap: simplify vmemmap head page handling
-28b2fb11ae0846c2fcc74a10756bbea2d71c35be mm: hugetlb_vmemmap: generalize vmemmap page allocation
-986b0a623ddabb5ad899fc10f72afc269f810f09 mm: hugetlb_vmemmap: unify writable vmemmap page preparation
-9e0da112b37b275ff25f659c2c3bd42337309ad1 mm: hugetlb_vmemmap: rename vmemmap_remap_pte() to vmemmap_optimize_pte()
-78bf2a5dae3fc8a8ac0b049a0546542f1cbcbefd mm: hugetlb_vmemmap: simplify shared tail page handling
-9811614d99254de078e82bb97fbf52f69849a0a7 mm: hugetlb_vmemmap: move alloc_vmemmap_page_list() next to its free helper
-6d82b80c9af94577c300af8a23dca97104a9e6a2 mm: hugetlb_vmemmap: make vmemmap optimization folio-oriented
-365b36f1a9af0fac8bd9ad02c632537ce54004cb mm: hugetlb_vmemmap: make vmemmap restoration folio-oriented
-4e8cef26eecb24ee0f6f278269e1015faa391acc mm: hugetlb_vmemmap: unify vmemmap range restoration
-98a35de8033fdcf526a950b6a8fdfd244eeb6a44 mm: hugetlb_vmemmap: make vmemmap PTE conversion folio-oriented
-d7bba80ca7f440c2df49303a988463c2a056b1fe iommufd: enforce memfd write seals for file mappings
-fbf7e920e77b94b420678e47064065b812bfb6bc riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============4172828255711583692==--
+--===============3324593036500710952==--
