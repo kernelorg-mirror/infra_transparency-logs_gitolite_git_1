@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1571038393193670630=="
+Content-Type: multipart/mixed; boundary="===============8666764135903130966=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 04 Nov 2026 21:41:26 -0000
-Message-Id: <179382848650.3374832.1268775792698299748@gitolite.kernel.org>
+Date: Wed, 04 Nov 2026 21:41:32 -0000
+Message-Id: <179382849260.3375038.2619593562868206833@gitolite.kernel.org>
 
---===============1571038393193670630==
+--===============8666764135903130966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,28 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: 3c73d34ba643c4e24ff549f3f083372a36b09952
-    new: 1c16ab329ab1264392c4e45c962d161aba203744
-    log: revlist-3c73d34ba643-1c16ab329ab1.txt
+  - ref: refs/heads/200GbE
+    old: dc4dd12f80e499dc034710cd8195489abcf0b059
+    new: 6baae996ecf6a3f57b08ea6f6786e29af9260f51
+    log: revlist-dc4dd12f80e4-6baae996ecf6.txt
 
---===============1571038393193670630==
+--===============8666764135903130966==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3c73d34ba643-1c16ab329ab1.txt
+Content-Disposition: attachment; filename=revlist-dc4dd12f80e4-6baae996ecf6.txt
 
+fca746064d56329cd81b4f2b1961a3b928c3fe5a ntfs: avoid truncate and writeback deadlock
+56a64ee0f99d4ca1756cf743f951c110d39401e5 ntfs: fix volume flag update races
+55af94ca0ee3512c08d12ffbbb948229da4e1565 ntfs: set the volume dirty bit unconditionally on metadata changes
+521978c4f4441953d67297286e5804485ae05698 ntfs: sync the volume dirty bit with the recorded error state
+5d0e57ea8e37db3e32d1b1b7fa4f3c7a94ff8e56 ntfs: persist the dirty state after the final put_super() commits
+4a1bb54f571cbef67a7c470a3139ffec1a15a8e4 ntfs: do not clear the volume dirty bit during sync
+1a3883b3685cc4c8bc41927cc9df539239d7c961 ntfs: check the dirty-state commit on remount and unmount
+17a1edda75fd371f36085b1568e0b70baff99969 ntfs: fail remount on sync errors and keep the dirty bit on SB_FORCE
+fa5489ebc8bc7c663311b0f35943fe7edd0dfe56 ntfs: include the final partial cluster in sync writes
+749357bd48c16c4cdc09093450deca609492f012 ntfs: mount hibernated volumes read-only regardless of errors=
+ca43660672050337f4b845e36f732e3af1e308ca ntfs: validate attribute-list sizes before allocation
 c1bd2f1c22c2fa8c5f0f51f82afad23f2dd1bcf1 ntfs: fix runlist marker allocation and count
 3f5836568741bd761b04b6d4512ff7d924a4ef3e ntfs: bound the adjacent cluster in MFT bitmap extension
 4d179eeb91a0ffd1e9c86484e2febf4dcca1137f ntfs: fix rollback after MFT bitmap run coalescing
@@ -1039,16 +1050,5 @@ a75facf4bb3e866103ddca4f47a6f3ca4b090d8b l2tp: only return sessions of the given
 d4f3d2c04624854d27aa948cd7bfc9d946faaac5 net: ethernet: bgmac: preserve forced 2.5 Gbps link speed
 41af38324341df9d769641d6485abb67fd5209ed net: dsa: b53: restore the NSP IMP port 2 Gbps mode
 6baae996ecf6a3f57b08ea6f6786e29af9260f51 Merge branch 'fix-tcp-retransmissions-on-ns-nsp-socs'
-31a325f750baa10987e1a96480d4e35615ed8fa2 ice: fix removal of PTP timestamp tracker during reset
-07acac919c81e3ab78586bf0cc443ee1ade62cab ice: fix PHY port restart serialization
-fbbad0a2d763cbf47d751218ba7787502d3789be ice: call PTP link change only from link events
-02eca929c31c9465d99e45ff58d2aa1a356b6881 ice: E822: cancel offset verification work during reset preparation
-2285e331442415463b892b0c9e107565aac766b2 ice: E825: stop clearing PHY_REG_TX_OFFSET_READY
-69d7978408cfd38188113deb1b3a907f4c7de5dc ice: E825: clear PHY_TSTAMP memory prior to soft reset
-74f66f76b0e7d4e96123bcd7af1e2edcf9a67cf1 ice: E825: perform a soft reset when starting the PHY timer
-1a706475e8781f9937c51275fb43ed6463c178e2 ice: wait for in-flight Tx timestamps before removing the tracker
-d5ae93af6e9f90418815fa87c87c009d66571d51 ice: keep Tx timestamp slots tracked until completion or timeout
-6dac19f3944dce79bdd4f67b9670fdd6a5dee2f3 ice: skip reading Tx ready bitmap on ports with no timestamps
-1c16ab329ab1264392c4e45c962d161aba203744 ice: don't clear in_use until HW clears ready bitmap
 
---===============1571038393193670630==--
+--===============8666764135903130966==--
