@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Wed, 04 Nov 2026 22:05:35 -0000
-Message-Id: <179382993546.3394092.17094005280320348566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
+Date: Wed, 04 Nov 2026 22:07:55 -0000
+Message-Id: <179383007552.3395157.10773507018288249052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
-user: vudentz
+repo: pub/scm/linux/kernel/git/liveupdate/linux
+user: tatashin
 changes:
-  - ref: refs/heads/master
-    old: 60b10121db602a43ada3dbc39792bbf93d25991b
-    new: d97b618b6675516d63d55b8f31ee6cb3b164bd6b
+  - ref: refs/heads/fixes
+    old: 654efa9a6c4c455aca6f034f321c013f5b784157
+    new: 3cf66b39f560257e77f422d9fc73525ee2c29275
     log: |
-         3efdadae3a252b14ca1f62b16e31a9aa7c5d30cf Bluetooth: hci_conn: Fix SCO/eSCO Transport_Unit_Size for HCI data path
-         f50b32aa233d4687af2d241ddcb572da969e8989 Bluetooth: L2CAP: Only accept LE responses to outstanding requests
-         15a80cc8263abd50132a05d1b06824de8e28abcb Bluetooth: L2CAP: Clear request identifiers on incoming LE connections
-         d97b618b6675516d63d55b8f31ee6cb3b164bd6b Bluetooth: qca: Disable SoC debug logging for WCN3950
+         3cf66b39f560257e77f422d9fc73525ee2c29275 kho: Remove redundant 0x prefixes
          
