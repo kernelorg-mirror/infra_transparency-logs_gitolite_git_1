@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5386878521822737200=="
+Content-Type: multipart/mixed; boundary="===============1724717446091567013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 04 Nov 2026 18:34:39 -0000
-Message-Id: <179381727911.3207663.5174738320455987064@gitolite.kernel.org>
+Date: Wed, 04 Nov 2026 18:34:42 -0000
+Message-Id: <179381728215.3207882.11864348707416566198@gitolite.kernel.org>
 
---===============5386878521822737200==
+--===============1724717446091567013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 77ac1105bf1d9a60cbfc6e3fb2cb1203d56d880e
     new: bc7ff9472e48ac299e9cfaa00fbf74c4348827fb
     log: revlist-77ac1105bf1d-bc7ff9472e48.txt
 
---===============5386878521822737200==
+--===============1724717446091567013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ b19a6aa8487a2be521899435c1b91700e36a80b6 bpf: Allow 24 arguments of static subpr
 65a45c702bee6360b7757e94913cf14e1d7028da selftests/bpf: Make room in veristat for the stats of 1024 subprogs
 bc7ff9472e48ac299e9cfaa00fbf74c4348827fb Merge branch 'bpf-more-precision-more-counted-loops-larger-limits'
 
---===============5386878521822737200==--
+--===============1724717446091567013==--
