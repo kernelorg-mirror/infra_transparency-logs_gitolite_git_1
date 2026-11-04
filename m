@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 04 Nov 2026 23:32:25 -0000
-Message-Id: <179383514567.3461837.5003595258931794890@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 04 Nov 2026 23:34:34 -0000
+Message-Id: <179383527420.3462844.5065971288404934909@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/kvm-arm64-nvhe-s1pie
-    old: 7f768b7b70e1ca39f902d0096e181853669628f2
-    new: 321d8d9bb036f451a784d12db6eea0c1ed701194
+  - ref: refs/heads/dev-queue
+    old: 0b4406933b9e34890077b3a66ff2d9c1e790e82e
+    new: c77ca4739b73add29c08ebb2b51d9c993b5d431f
     log: |
-         4f045cc6f9653127d835593db82fd4f6693ab138 #KVM: arm64: Enable S1PIE for hVHE
-         321d8d9bb036f451a784d12db6eea0c1ed701194 KVM: arm64: Enable S1PIE for hVHE
+         c77ca4739b73add29c08ebb2b51d9c993b5d431f ice: fix NULL dereference after disabling RDMA
          
