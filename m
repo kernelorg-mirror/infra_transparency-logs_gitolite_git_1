@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============0595474775362143896=="
+Content-Type: multipart/mixed; boundary="===============2802632623352598145=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 04 Nov 2026 14:05:27 -0000
-Message-Id: <179380112752.2977747.3464416671906228380@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Wed, 04 Nov 2026 14:07:13 -0000
+Message-Id: <179380123343.2978766.5119666043357494373@gitolite.kernel.org>
 
---===============0595474775362143896==
+--===============2802632623352598145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 73383d06da9a1ded4c85845407cb4029aeecca39
-    new: fa0858523f07f8dd71d89b221f4422c3b8096d90
-    log: |
-         fa0858523f07f8dd71d89b221f4422c3b8096d90 comedi: comedi_bond: Fix leak of opened device references
-         
+  - ref: refs/heads/xfs-7.4-fixes
+    old: 2bbca049deeb1699cafd966cb2793fee576ee409
+    new: 7ba9663607b31108b4350b604a3c85ae86c67c19
+    log: revlist-2bbca049deeb-7ba9663607b3.txt
 
---===============0595474775362143896==
+--===============2802632623352598145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2bbca049deeb-7ba9663607b3.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793801122 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1793801122-604395d254c3286fd04637cfa2166aae7f672a0d
+b7eb276a39b14e685c2fe578f8ac22fc48ff9e6c xfs: fix wrong compat fields in xfs_ioctl32_bstat_copyin()
+8b8e265991556d99b6d721697f148975a7c68767 xfs: mark the inode preallocated for pNFS write layouts past EOF
+f3ca3498dfe624f9b604c934263538a3acd55af5 xfs: add a flag to convert unwritten extents without allocating blocks
+bcf0b7f18ad11e1d410e82ffef678705eff0a317 xfs: refuse a pNFS LAYOUTCOMMIT of a range without blocks
+d8c2bc88460f89e543ab3af622fc8f34c7011d71 xfs: clamp a pNFS LAYOUTCOMMIT extent before computing its end
+66d1ce09ebd72709f8d739630c39f440445173fd xfs: cap the block count of xfs_iomap_write_direct() at one extent
+29f3c1be4e554c9dbc66e13333034e0947477cb6 xfs: clamp the pNFS layout range to the maximum file size
+23ba20ef280cc2563d92b3581d5123b333569190 xfs: take the invalidate lock while mapping a pNFS layout
+199eee7c677d535f5ff5d64a6192803848729aa0 xfs: add datasync and log_flushed arguments to xfs_log_force_inode()
+9cc3b0eda94da41efc4b4ac85b7e6f18cf72cd67 xfs: make pNFS LAYOUTCOMMIT stable the way fdatasync does
+30bb61651d2da5a502cf504bcdad16c093c1bb08 xfs: fix recovery of partial attr removals
+7ba9663607b31108b4350b604a3c85ae86c67c19 xfs: kill xfs_trans_set/clear_context() helpers
 
-73383d06da9a1ded4c85845407cb4029aeecca39 fa0858523f07f8dd71d89b221f4422c3b8096d90 refs/heads/char-misc-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrrO6IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PnsQAKTjN9AvcRuCP3W28bVp
-UmhAtFTKNZruGCwYQRjCdoliSja5r1Rgo4ZCDzmgw66gnMGybLmdBy8TCRhWyPKY
-4v89xe7B7g2k9iCExvJP2yI5S4CO+beyFNN5AL+hN7uRMFF6h+6LxC1TknbXTGiY
-aWbglP2zqfd8RbifJ7Z3f3DZl+alQIuYRmxwquyKSefWg7fxi07tttvpOmEHtqQg
-TVEGrTpGXOHGUTwJyLXu67cd5wz6CuwbGbBqND+VHX8FBJSpyFDGEbyWtVcdqB3+
-aPo18JGYHyd1UwDcCAyLdOGPDgf6MT64669VCq/BFrxC2BE1buEDUhyJl3JSaqL+
-xEywCYw7EZTchv6U4fHmB6xcxtAJSFzjuKVq8Z9OYw/MMek/6fQJGKcd43GJjsgH
-wJsfnPoy/hlX9X9kHHAyBu+i787HIOrUJxc7djwH8ATxGbeJkNkJ94oIhg8ML9HW
-dYMwTVI7DvnyFF9P4ipfVR1ZvE/nhB26Y7djXTiotFlJt1UZgWPt1dnb6ZaL6cUs
-3RGdSQ1LTfP9ld5KFiESefKifh0aOE3TAYV6qTK40LlvKzJFSdRMcwNiUb94dfRP
-cNCAzIc2kN3ktZ66Top5+JnI3GKAZPvIPKpsOG6uLEuppc8/sY/513ZY2fG6kZT5
-yKWPVtmBI4wfiqVfimzfoAWF
-=mqCU
------END PGP SIGNATURE-----
-
---===============0595474775362143896==--
+--===============2802632623352598145==--
