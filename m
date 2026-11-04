@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5981212747481070489=="
+Content-Type: multipart/mixed; boundary="===============2207393480581082027=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 04 Nov 2026 17:56:15 -0000
-Message-Id: <179381497505.3176053.11015958244848523834@gitolite.kernel.org>
+Date: Wed, 04 Nov 2026 17:56:38 -0000
+Message-Id: <179381499861.3176402.12712373262333715857@gitolite.kernel.org>
 
---===============5981212747481070489==
+--===============2207393480581082027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: mani
 changes:
-  - ref: refs/heads/controller/dwc-layerscape
-    old: 89d2ac4da7df75921130caa82a52c31c755cdf29
-    new: bb54d13b4bdd31812bc48a6e7b061572856a5217
-    log: revlist-89d2ac4da7df-bb54d13b4bdd.txt
+  - ref: refs/heads/controller/iproc
+    old: dd8e84aa9dd91fc55aca57af57b65f8e014779cc
+    new: 87725223d4431fb206dbf50162b4d7e3637ddb5a
+    log: revlist-dd8e84aa9dd9-87725223d443.txt
 
---===============5981212747481070489==
+--===============2207393480581082027==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-89d2ac4da7df-bb54d13b4bdd.txt
+Content-Disposition: attachment; filename=revlist-dd8e84aa9dd9-87725223d443.txt
 
-bdf6fbf21268591a7a7c8f4101c37f936bc57b8b mm/hugetlb: fix overbroad MMU notifiers for unshared PMDs
 52b64a9a7eedd663a88e519384e72204eac99a16 selftests/mm: fix mlock2 errno handling and false PASS on ENOSYS
 f60ee3f51f28896137647ccb51ede21f2e15b535 kselftest: mm: prevent random failure of huge page split for khugepaged
 6d6404c897a2c609cb88bd08d9fa9b2e8e9cd384 kselftest: mm: replace usage of /proc/self/smaps for __check_pmd_huge()
@@ -1049,6 +1048,7 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-bb54d13b4bdd31812bc48a6e7b061572856a5217 Revert "PCI: layerscape: Change default error response behavior"
+3f0622bf81a94ef09615095851951586dd99bca1 PCI: iproc: Use __free(device_node) in iproc_pcie_msi_enable()
+87725223d4431fb206dbf50162b4d7e3637ddb5a PCI: iproc: Skip probing platform bus driver for BCMA-attached controllers
 
---===============5981212747481070489==--
+--===============2207393480581082027==--
