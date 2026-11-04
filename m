@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5183607376631189216=="
+Content-Type: multipart/mixed; boundary="===============6865385532250819439=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 04 Nov 2026 20:07:55 -0000
-Message-Id: <179382287571.3288811.5132598203269513830@gitolite.kernel.org>
+Date: Wed, 04 Nov 2026 20:07:58 -0000
+Message-Id: <179382287862.3289060.6788040130110932341@gitolite.kernel.org>
 
---===============5183607376631189216==
+--===============6865385532250819439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 273a654c035607678fa0e8392684c4096ecb4f57
     new: b3b9fd4dda0953e84e9146c0962fbd0a67014a92
     log: revlist-273a654c0356-b3b9fd4dda09.txt
 
---===============5183607376631189216==
+--===============6865385532250819439==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ c3c27a5b489b86bb5dabe44d6d436b3d5a3a0a1a bpf: Support BPF_REG_ARENA_SP in the ve
 cf8e78c1073e10eaf1e93030fb0bf6462022ce96 selftests/bpf: Add tests for BPF_REG_ARENA_SP
 b3b9fd4dda0953e84e9146c0962fbd0a67014a92 Merge branch 'bpf-a-stack-in-arena'
 
---===============5183607376631189216==--
+--===============6865385532250819439==--
