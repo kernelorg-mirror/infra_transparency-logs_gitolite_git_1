@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0823464818594462735=="
+Content-Type: multipart/mixed; boundary="===============7066059553939840106=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Wed, 04 Nov 2026 07:12:15 -0000
-Message-Id: <179377633595.2651884.9722114824836271003@gitolite.kernel.org>
+Date: Wed, 04 Nov 2026 07:12:45 -0000
+Message-Id: <179377636582.2652222.3874786516478329227@gitolite.kernel.org>
 
---===============0823464818594462735==
+--===============7066059553939840106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 5def91015ba7b59de62a81384572da7281b8a033
     new: 787268686c64be60023743b527645a907e38ccca
     log: revlist-5def91015ba7-787268686c64.txt
 
---===============0823464818594462735==
+--===============7066059553939840106==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ bc53aab4881adc134f495092034e9e7c0791d84c ipv6: fix device binding after failed d
 f19f2b308beb158d0e6f6eb806ced636e4ebf6ce net/sched: clamp skb->queue_mapping before indexing the tx queue
 787268686c64be60023743b527645a907e38ccca ipmr, ip6mr: queue netlink route queries out of band
 
---===============0823464818594462735==--
+--===============7066059553939840106==--
