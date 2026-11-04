@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4906101927664206245=="
+Content-Type: multipart/mixed; boundary="===============0084939722584672712=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Wed, 04 Nov 2026 00:59:46 -0000
-Message-Id: <179375398607.2377147.12060543960113192145@gitolite.kernel.org>
+Date: Wed, 04 Nov 2026 01:00:44 -0000
+Message-Id: <179375404419.2382600.15158948164787993819@gitolite.kernel.org>
 
---===============4906101927664206245==
+--===============0084939722584672712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-fixes-unstable
-    old: e58096244338308dde3fa76982c8042981ddda52
+  - ref: refs/heads/kbuild-fixes-for-next
+    old: 83deedcf85af511dc120b3cd8ee597d211cdf2fb
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-e58096244338-6628e7d4c6b2.txt
-  - ref: refs/heads/kbuild-next
-    old: 997208ce9f43f01febac956cf9aeffe89945e3c1
+    log: revlist-83deedcf85af-6628e7d4c6b2.txt
+  - ref: refs/heads/kbuild-for-next
+    old: 2a5a1c2fab91358d44198eb16bf83e4989f73333
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-997208ce9f43-6628e7d4c6b2.txt
-  - ref: refs/heads/kbuild-next-unstable
-    old: 997208ce9f43f01febac956cf9aeffe89945e3c1
-    new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-997208ce9f43-6628e7d4c6b2.txt
+    log: revlist-2a5a1c2fab91-6628e7d4c6b2.txt
 
---===============4906101927664206245==
+--===============0084939722584672712==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e58096244338-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-83deedcf85af-6628e7d4c6b2.txt
 
 76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
@@ -1059,11 +1055,11 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============4906101927664206245==
+--===============0084939722584672712==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-997208ce9f43-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-2a5a1c2fab91-6628e7d4c6b2.txt
 
 76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
@@ -2090,4 +2086,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============4906101927664206245==--
+--===============0084939722584672712==--
