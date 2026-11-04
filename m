@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 04 Nov 2026 22:40:28 -0000
-Message-Id: <179383202811.3422065.15295317031357219059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
+Date: Wed, 04 Nov 2026 22:40:41 -0000
+Message-Id: <179383204195.3422600.17247142880222310484@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/linkinjeon/exfat
+user: linkinjeon
 changes:
-  - ref: refs/tags/hwmon-for-v7.4-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 112ea20eb1afaccc570b7e2b3bbd0e4e3527b9fe
+  - ref: refs/heads/dev
+    old: 79130348ec29b74950e925e06c26f1a4eecea5ae
+    new: bed2920b29eb46b884f8b8330e3e903a218ee672
+    log: |
+         bed2920b29eb46b884f8b8330e3e903a218ee672 exfat: enable buffered RWF_DONTCACHE
+         
