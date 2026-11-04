@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 04 Nov 2026 22:39:04 -0000
-Message-Id: <179383194478.3419494.4175590894290570538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Wed, 04 Nov 2026 22:39:05 -0000
+Message-Id: <179383194551.3419552.13124288275030166638@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/clk/linux
+user: masneyb
 changes:
-  - ref: refs/heads/arm64-fix-sysreg-suspend
-    old: cea785f3fa4853721fdf9600aa8e0d2d341da157
-    new: 2f7c647049c2ea5651816c7ef9aad259739c6e08
+  - ref: refs/heads/clk-pile
+    old: f337f0361adcc1376a44780b3cb1118bf8618075
+    new: 6140e27299bf8a536ee9a5b2de4c8467e1b2f4ed
     log: |
-         4da596106c41c0789ed7f69ce0d3b9b951dce8a6 arm64: suspend: Save POR_EL0 over suspend
-         2f7c647049c2ea5651816c7ef9aad259739c6e08 arm64: suspend: Save GCS state over suspend
+         eec8af6e2558e70d3ab64d747419432e3a640666 clk: stm32mp13: define the number of clocks in the driver
+         110cc8efcacc8b870033ecb30b0d3573221c99da dt-bindings: clock: stm32mp13: add SPI1 to SPI5 bus clocks
+         6140e27299bf8a536ee9a5b2de4c8467e1b2f4ed clk: stm32mp13: add the SPI1 to SPI5 bus clocks
          
