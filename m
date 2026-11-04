@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 04 Nov 2026 20:52:04 -0000
-Message-Id: <179382552427.3329669.11650499212528657822@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6456242747810177374=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 04 Nov 2026 20:55:13 -0000
+Message-Id: <179382571319.3332571.1877307071751132609@gitolite.kernel.org>
+
+--===============6456242747810177374==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 3bf4d9a3666c6a92d5b94185c510370ba589cceb
-    new: 29fd95dbd25cda35ac1e38d096a85809e952274b
+  - ref: refs/heads/master
+    old: 04f6428658c82ce86a703d45116985abd20e50cf
+    new: e50baab1ec577411d0852c4c79467791e9e9cb79
     log: |
-         794579ff49594822d9d8196eb0ed38c6cab2927b perf symbols: Fix broken ELF_C_READ_MMAP fallback guard
-         c4baf52c79019cea674108b88b45c6efe6ec089a perf callchain: Fix loss of symbol in merge_chain_branch()
-         baef30dd8308013a04addd5dfe947960b46e610a perf symbol-elf: Fix zero-size symbol end calculation across .symtab and .dynsym
-         854dd5e7d099224edbf1d62285aa5c38d94d78f7 perf annotate: Fix block_range symbol loss on split and leaks on exit
-         303b9517bfc8ccb3850bc0b9dac839e61b86da60 perf annotate-data: Show event name in the data-type title
-         23467a4be7b490bcc4a09756a209f7435b950177 perf tools: allow opt-in "no-dso." files in /dev/shm
-         29fd95dbd25cda35ac1e38d096a85809e952274b perf ftrace: Handle signals, non-blocking reads and pager exits in __cmd_ftrace()
+         e50baab1ec577411d0852c4c79467791e9e9cb79 6.18-stable patches
          
+
+--===============6456242747810177374==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793825712 -0500
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1793825711-378a1d121ea19e15250d0bd4f7a00dc69adf6d5f
+
+04f6428658c82ce86a703d45116985abd20e50cf e50baab1ec577411d0852c4c79467791e9e9cb79 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrrm7AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SpEP/R29InDX9yThJB6i8Uhm
+31fbS1I9K1txMNyk7UL/ycVFabtzYFU19maYvxmFgFhJLRCDgt0ZFUpkU5pld5nN
+DDC7pYjkQhNn4k2JuO6ldk49J4a/cKiM3Q2n5vJW4BmXgFATX1Favx1TJ+6TISEy
+DQ91daxcrtreHcR2MaqDk5DPymJK+qS1321dqe6x9HIx6dZzRUhyAl1bwhHakTe1
+GTeD0sZNw/a0g75rXaLDjXZdoMVjz9RL+XeeT7tQqV28xYeoZP35SfwxpHNe6NKJ
+YiP9rZrOAAoTtUYVSWEzdUi7YqFO0Yqn/8IvT1O9gVG2GScGMIG758EokI4gqtYq
+e5ydegPSx8Nc5JeOYpyq4of1fVRvSLLQO7eqeEE1TkRL9fWn7238n1flFl/gdZop
+pA4vKL2Iw6stWjxO0kWJl2YVwq3qlEdaPhZFYAXgvhF/GBQff/y0dtsP23cPy7l4
+HGJGK3mDFCffTvZ4euBynqvCeWrqkV/PGBwkzfX40SExtPO2XCMsE2QqNWzXpPdO
+nuOCNP3WTe1bqA1rNuuBtbSEOaSvzN4ujDXKrg2PR0wDngaQLRJL/H8tl4FbSLsM
+vRB032G7Ihlmn1pxHPdI8yBfFf5mGuN4BMMU1AdkgaXHIFVvCA4AmJsiiAxaUBuU
+8GZlhJllFnuCb1RJqwnB44EI
+=D1ha
+-----END PGP SIGNATURE-----
+
+--===============6456242747810177374==--
