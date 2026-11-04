@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 04 Nov 2026 22:02:18 -0000
-Message-Id: <179382973825.3391010.6259483236709489703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
+Date: Wed, 04 Nov 2026 22:05:35 -0000
+Message-Id: <179382993546.3394092.17094005280320348566@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
+user: vudentz
 changes:
-  - ref: refs/heads/dt/next
-    old: bb95b7759d509dd41cf9605dd3edd0969393955a
-    new: 17c58242988d2b4363fe9d506d387d7d13d50842
+  - ref: refs/heads/master
+    old: 60b10121db602a43ada3dbc39792bbf93d25991b
+    new: d97b618b6675516d63d55b8f31ee6cb3b164bd6b
     log: |
-         90e89f2157464736b4b4e8a7c59aa42e0589752a dt-bindings: soc: qcom,geni-se: Allow 1 or 2 address and size cells
-         17c58242988d2b4363fe9d506d387d7d13d50842 dt-bindings: Use hex unit address patterns
-         
-  - ref: refs/heads/for-next
-    old: bb95b7759d509dd41cf9605dd3edd0969393955a
-    new: 17c58242988d2b4363fe9d506d387d7d13d50842
-    log: |
-         90e89f2157464736b4b4e8a7c59aa42e0589752a dt-bindings: soc: qcom,geni-se: Allow 1 or 2 address and size cells
-         17c58242988d2b4363fe9d506d387d7d13d50842 dt-bindings: Use hex unit address patterns
+         3efdadae3a252b14ca1f62b16e31a9aa7c5d30cf Bluetooth: hci_conn: Fix SCO/eSCO Transport_Unit_Size for HCI data path
+         f50b32aa233d4687af2d241ddcb572da969e8989 Bluetooth: L2CAP: Only accept LE responses to outstanding requests
+         15a80cc8263abd50132a05d1b06824de8e28abcb Bluetooth: L2CAP: Clear request identifiers on incoming LE connections
+         d97b618b6675516d63d55b8f31ee6cb3b164bd6b Bluetooth: qca: Disable SoC debug logging for WCN3950
          
