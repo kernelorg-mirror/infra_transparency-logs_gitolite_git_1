@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0547442399545926761=="
+Content-Type: multipart/mixed; boundary="===============3790383920138634217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 04 Nov 2026 13:50:12 -0000
-Message-Id: <179380021214.2963321.9511538552210682452@gitolite.kernel.org>
+Date: Wed, 04 Nov 2026 13:50:25 -0000
+Message-Id: <179380022538.2963547.15081930760682600099@gitolite.kernel.org>
 
---===============0547442399545926761==
+--===============3790383920138634217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 3650bb41391b51d9dcf87b0480ecafeb1526252f
+  - ref: refs/heads/for-next-base
+    old: df2908090cda368b01ff43709f51890076c56157
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-3650bb41391b-6628e7d4c6b2.txt
+    log: revlist-df2908090cda-6628e7d4c6b2.txt
 
---===============0547442399545926761==
+--===============3790383920138634217==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3650bb41391b-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-df2908090cda-6628e7d4c6b2.txt
 
 76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============0547442399545926761==--
+--===============3790383920138634217==--
