@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============8510244860975320954=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 04 Nov 2026 21:05:20 -0000
-Message-Id: <179382632072.3341525.15005487581126545133@gitolite.kernel.org>
-
---===============8510244860975320954==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 04 Nov 2026 21:05:37 -0000
+Message-Id: <179382633715.3341784.3440242855455386962@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 2b5364af40b1de7b4c435ec9636913e0338dbb98
-    new: 5ac1a2ccbd752ea8892cd07afb18fd05f7a34a7b
+  - ref: refs/heads/nfsd-testing
+    old: a1434f93349667967f782984896286ab3af6b181
+    new: d692f252c52b8d1b4bc7481554f314df31ed8249
     log: |
-         5ac1a2ccbd752ea8892cd07afb18fd05f7a34a7b 6.18-stable patches
+         b78b526090bc8739797396f1b40de1ce86f5f1ea NFSD: Check the secure-port policy when entering an export
+         173fa09b05b7537506915e8c28678420b3212426 NFSD: Defer the PUTFH secure-port check
+         b6ee0d1e3da795b2e1c906b5affb4c6977f4530f NFSD: Report WRONGSEC from PUTFH when OPEN uses the current filehandle
+         052154974bee6e530ef5729da1aab026a1222fc1 NFSD: Apply the entered export's credentials after LOOKUP and RESTOREFH
+         d692f252c52b8d1b4bc7481554f314df31ed8249 NFSD: Use each export's credentials for the COPY and CLONE stateids
          
-
---===============8510244860975320954==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793826319 -0500
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1793826319-22e8d494355601a29547b0f7f13c0442e63a8b39
-
-2b5364af40b1de7b4c435ec9636913e0338dbb98 5ac1a2ccbd752ea8892cd07afb18fd05f7a34a7b refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrrng8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2PsP/19GtaOgYuwxN3JEhXcr
-OCw/1HYbhcAXuPxK6r37B80qzeAV42qNZ3W0jgs8AodSSIk1fYFXbuxGAfjAxUMk
-wxRjgGQJ/w2QGE8WjnA3LvnZQun40IB/bFUoabUezGxUCYJJiom8ZvpIhqsIB9L8
-HJ56wr4yk953MFtLmoOicjsdyYt5skyqj0J5oK1mjg/UhTPvKo662w2ECpqfS3R0
-RWRsPl+1gyM1jDJXpgWcS5XBvA7++3ekFo2HfUFx01FFbZQF3gGM3x8xa3FPSD3m
-KDoxPV6o5k8U2f1qKwlvDZh9EklkwU7OsuzepUZPn70rwXWxqX+LnlDO7ooAMTjC
-77lGeCtUzUKWzafmAEbai9zDYodQ+lwfZ5N378nH62+lexVly/gCzmpUkiER5Xns
-BkRfmT6C8FB5kKVUDg6VUckwDg0ati5v+J203JGVRnkBeHxHcXOohJgBP2/jt8+U
-uGd9QhRTHXwRCLW93NnkeqSeln/3LYgybQu1/NO42mfhvYV+rnNzqtFHh+f8FD+O
-lxRv30KYXuoTqZW5qgINJ9jgdPua3H4fCkAxwstWadtU8cOrdLG1yDB9iecitF7t
-FGofqHc9hAv6xrXG2afwKndv0jtYiilat9uRIByULapmnGmD2zcerqQDGkWrAidV
-q7T1Z6K7UV4D6nw/n+aFeEWc
-=aQdY
------END PGP SIGNATURE-----
-
---===============8510244860975320954==--
