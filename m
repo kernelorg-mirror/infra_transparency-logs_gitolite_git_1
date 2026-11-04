@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2531921881197037950=="
+Content-Type: multipart/mixed; boundary="===============7036008830150370136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 04 Nov 2026 13:30:54 -0000
-Message-Id: <179379905409.2945308.11372012242773326329@gitolite.kernel.org>
+Date: Wed, 04 Nov 2026 13:32:10 -0000
+Message-Id: <179379913026.2945892.10482408437200660349@gitolite.kernel.org>
 
---===============2531921881197037950==
+--===============7036008830150370136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 4ecc8fa057bebd99442c678ff16a50d38698da06
-    new: 65cc61c4c72fdefde4b0b17bf80d76fcc863f675
+  - ref: refs/heads/char-misc-linus
+    old: ff9de8571f05e8f62f9cbe29f38e0aedda9389cf
+    new: 73383d06da9a1ded4c85845407cb4029aeecca39
     log: |
-         810849d2fd3575f9512d86678130ad4193e42ef6 mei: bail out if no matching hbm request found
-         65cc61c4c72fdefde4b0b17bf80d76fcc863f675 mei: avoid reuse client on bus for vtag
+         1115120f89f5c22bf49f7423cf158a04a474dd93 mei: lb: read the MTU once
+         73383d06da9a1ded4c85845407cb4029aeecca39 mei: me: add ice lake point LP iTouch DID
          
 
---===============2531921881197037950==
+--===============7036008830150370136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793799047 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793799125 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1793799047-b2ee302b03402172d5a6bbc52cb7f257bc4f99e3
+nonce 1793799125-7ae5e15cbaeae1d91e2336eabf051081c582aff1
 
-4ecc8fa057bebd99442c678ff16a50d38698da06 65cc61c4c72fdefde4b0b17bf80d76fcc863f675 refs/heads/char-misc-testing
+ff9de8571f05e8f62f9cbe29f38e0aedda9389cf 73383d06da9a1ded4c85845407cb4029aeecca39 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrrM4cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZCgP+wZXzW8K520jm8MGt6ts
-322u3jPW+Hlf8ff+LTyA5yRXk9oCNy/7MnpGHcC1WnK1FTpurYi+MT9c3CMuBT/1
-h7/8IV4bk9zaiuJUdtN13lKYlbAuzEFSge74e73YBE1njwZ93IJ0Ip+Yx+FNr0j0
-RG9cNcC3dfFGNY+MR4DBMw9veadwxHNqj79GiRChtIfmAW3rFVfGpg89G9nq6cH3
-wTbL+7raa/B83H7uQCWIz9qc96EtIxQNajoatMzrq3fGFuEsXPI5Y5+ja62noNmc
-fxjZGETih/eTf5gZ5Bjo/hYdVA5WiWLY9nGBzwErkrRwpxgP7aj7Nfb1x4/BOfb5
-tMWoFrUYHFTKshEG5B/Q9QuhRJwuPmy6KmPCEgnuU9cs1gLVopPwzjNjOr2dLGpI
-5/g/xuPZUJXhbTSCBlMPtqNHD/yyED7iI2FqVZ2XpR3vUFcJHYrotcRvrE+DUiSy
-l14Ag4r20AtaUWFkJfsiE13VYmgYtyBL/IUE7ExzcyK2Vgzp8N0e6Wr1nYKVMQmz
-XJynLp45+QW7hchyma36NGB/yQlqrbEb2W08iOJeNSxr8qb8d2J/+I+e2wyu+nUR
-/Rphaeq6Y66V3GTPMBXDpP/8hr7RN1YR1xccgwmtw7usN4GqvjpJrRs1X4CXPl5f
-GVCCFyV0p9AERIxxTCPVdpvY
-=foFL
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrrM9UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Jh4QAMhpPHBkPRbfNmo3Dabz
+f/+ZL6H/1LV4RQy2SexUkVI+CRh9GI5m1RTqe9fDXmN6/kgABiNRjaZeallvpkGd
+7TWYsSnvjWNpPvevEAEqCBKD/sd8raIyrhZyoEPMEFT3cJi5UlNENO/z5tjmd41i
+iZMQIJiVvdkWScmqWC4lBQcUX02IMFlQx7ZoMJ4rXTpAWDtl3ECM5956aasTNi2X
+oypU9zFkv092Xdf/vx0ohCY4vqDw5qSWUOHnCVpK4VmKJKvC2cWXGBnkmZEPHpTM
+QyAA1S5xXwREWT0IlgXoAC11OfZRZo5RqUBJ0S2ccuS6/ZjAqUo02jwmGWlQ+8tr
+23Khpbb39Jt3BWbk71Zk503P8aZGkK24KDQKhgj+TUci1IQNXaDy5OK4mmOQwEpw
+eSfoPtvhZUJXTgyWTq5bAjM0UHKhrlOIabsecI8H75+XAcq3w0cwdF65oD7LkFDs
+UQnmKql1JEarp+AoIWM8Q/b1aV+cgJa+vQqYluRGxj0BrhAWvA12ItIIwlFluHoS
+Nn/tTtBpDLjx85iUKbfGhgJOjmLArr+bKj1VtTjT45d8TwT9s5dnsEDvWc/Zime/
+U5ixYBhQSDj/ODyXFVXjFyXCZhqPIVVzao40nr+qWJM27rNM0ap0q9mH4oElNckD
+4SRqAK/F43nmldO90j15kZYI
+=S54b
 -----END PGP SIGNATURE-----
 
---===============2531921881197037950==--
+--===============7036008830150370136==--
