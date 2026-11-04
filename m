@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 04 Nov 2026 14:51:53 -0000
-Message-Id: <179380391396.3021950.1138069650477111769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 04 Nov 2026 14:52:30 -0000
+Message-Id: <179380395060.3022362.9388255407245402699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/keyring_gc
-    old: 552d303636f9ddeee6b9fbcc8e49cb5dee0c9392
-    new: dd532131db8d403546f981cd23214d33aeb93ef6
+  - ref: refs/heads/main
+    old: 8e069fd3fd396b89af417e50b359bc9892dd41cd
+    new: 6d2cf411aba2aa0bd641b49be5b1964ac5097a50
     log: |
-         7f6f82419e3c871139f8fba8478b695bf12d922e KEYS: Pin the backing kernel module for a key type
-         4f4a6e9b0a50ae6f5fd7aa664b9d173b29969eae KEYS: Remove key_type_dead
-         dd532131db8d403546f981cd23214d33aeb93ef6 KEYS: key_garbage_collector(): process in chunks
+         6d2cf411aba2aa0bd641b49be5b1964ac5097a50 mptcp: do not use Fast Open on MP_JOIN subflows
          
