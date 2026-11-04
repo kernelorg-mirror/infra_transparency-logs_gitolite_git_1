@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============2137270657405663131=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 04 Nov 2026 20:52:02 -0000
-Message-Id: <179382552209.3329381.9962994521897908456@gitolite.kernel.org>
-
---===============2137270657405663131==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 04 Nov 2026 20:52:04 -0000
+Message-Id: <179382552427.3329669.11650499212528657822@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: f0c0b37bb84e8fe7651002234120c4acc4608a48
-    new: 04f6428658c82ce86a703d45116985abd20e50cf
+  - ref: refs/heads/perf-tools-next
+    old: 3bf4d9a3666c6a92d5b94185c510370ba589cceb
+    new: 29fd95dbd25cda35ac1e38d096a85809e952274b
     log: |
-         04f6428658c82ce86a703d45116985abd20e50cf 6.18-stable patches
+         794579ff49594822d9d8196eb0ed38c6cab2927b perf symbols: Fix broken ELF_C_READ_MMAP fallback guard
+         c4baf52c79019cea674108b88b45c6efe6ec089a perf callchain: Fix loss of symbol in merge_chain_branch()
+         baef30dd8308013a04addd5dfe947960b46e610a perf symbol-elf: Fix zero-size symbol end calculation across .symtab and .dynsym
+         854dd5e7d099224edbf1d62285aa5c38d94d78f7 perf annotate: Fix block_range symbol loss on split and leaks on exit
+         303b9517bfc8ccb3850bc0b9dac839e61b86da60 perf annotate-data: Show event name in the data-type title
+         23467a4be7b490bcc4a09756a209f7435b950177 perf tools: allow opt-in "no-dso." files in /dev/shm
+         29fd95dbd25cda35ac1e38d096a85809e952274b perf ftrace: Handle signals, non-blocking reads and pager exits in __cmd_ftrace()
          
-
---===============2137270657405663131==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793825521 -0500
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1793825520-444c845cc3f7d3ff30dc25dd423a48e19ef0a183
-
-f0c0b37bb84e8fe7651002234120c4acc4608a48 04f6428658c82ce86a703d45116985abd20e50cf refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmrrmvEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E3kQAIhp9WGmNrdK5H2MO7zj
-As76vQB0YXyzDHy5CEd5dHzWgMqH3LgX6IHGiwHahViDE+qFJMmz+S+7sGfQO5/8
-0PhBdWUUJQbMYSaeUo6UEtbwduzE0TvtEd+g8tkNqs1iJQM0XewTqqxfosklnNrQ
-W1hgD1cAJSj4qKQkpMoHo6dSUOJUjNqCAFJTz4zI6kNBTNZFAx8H7fER1tCkVnH5
-TDvQqLvStYrQcPL09N4cI/vdPbKlN3rZxeLZgR07USDZ7lqPEmjJMAzRbz1+C7eZ
-1mlb5M4K8o9IaV2vQrZ9Mkg5H85EZ8dOgxEuWhP6HeMh5SOfWlvfPnUtRuLJ92aw
-Tk1Zs1suk6eDYBPAOZXMiBlNbOHcHaqpbic57zY+GdWebpq9SrZQettc3t8CdH/n
-VfsNt3/ECmbEw6etRXIoRBvAq4u+7HOYAUKBW85BuHZ86YBoLGtxH4jKBjy0kBRT
-MdT26LdLzp70WlPPE+SFJ48F26jscxyGLuAQOlMzgGc0gKQkdu+qkHiNltgalibH
-7tomqCL1qvfdlw875MoLY4HbN+okmNInvjeUnK0YFKHsGuad1nFn97NegKT2QAo1
-pOQN20kwuW5d3WsJWH6XY7rmdYrlgkZURF5TkBtXqZH/XLjJJgMeGvUlKl/W+1tM
-jIulV6BH5ZQVYotHVeDjIOpU
-=L1OF
------END PGP SIGNATURE-----
-
---===============2137270657405663131==--
