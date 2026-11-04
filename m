@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 04 Nov 2026 18:04:35 -0000
-Message-Id: <179381547525.3183283.15429952909510938384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 04 Nov 2026 18:04:44 -0000
+Message-Id: <179381548408.3183459.9716134201423618681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-next
-    old: d346f59069676eda84b3313cbd2c2ab21045d3ee
-    new: 77ac1105bf1d9a60cbfc6e3fb2cb1203d56d880e
+  - ref: refs/heads/controller/iproc
+    old: 87725223d4431fb206dbf50162b4d7e3637ddb5a
+    new: 74ec3dc509d4a55b6aed2f785131593c4caed465
     log: |
-         77ac1105bf1d9a60cbfc6e3fb2cb1203d56d880e selftests/bpf: Port test_ftrace.sh to test_progs
+         68fc6c1b2ada48014089d6084789a0719fc11913 PCI: iproc: Use __free(device_node) in iproc_pcie_msi_enable()
+         74ec3dc509d4a55b6aed2f785131593c4caed465 PCI: iproc: Skip probing platform bus driver for BCMA-attached controllers
          
