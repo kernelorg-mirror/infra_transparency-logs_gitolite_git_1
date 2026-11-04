@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5015113435801671125=="
+Content-Type: multipart/mixed; boundary="===============3857967224114843218=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Wed, 04 Nov 2026 08:38:57 -0000
-Message-Id: <179378153740.2718197.2705643559621949240@gitolite.kernel.org>
+Date: Wed, 04 Nov 2026 08:39:00 -0000
+Message-Id: <179378154095.2718427.4894583551598825148@gitolite.kernel.org>
 
---===============5015113435801671125==
+--===============3857967224114843218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/utils/mdadm/mdadm
 user: mtkaczyk
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: 8f8adb9cd6b931f2caa27fc1bcdc89f48c643787
     new: ff6ae05fb15342585694c75f7ab2b9e07fd3d57d
     log: revlist-8f8adb9cd6b9-ff6ae05fb153.txt
 
---===============5015113435801671125==
+--===============3857967224114843218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -91,4 +91,4 @@ d04743a2cb64757fdefd870de32faa9ed4e0ae98 tests: add tests for safeguard against 
 041093a7e82b5c0a9e091dee36531abda37c862a Manage: fix device ID check in is_remove_safe()
 ff6ae05fb15342585694c75f7ab2b9e07fd3d57d util.c: fix devnm2devid() for partition devices
 
---===============5015113435801671125==--
+--===============3857967224114843218==--
