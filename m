@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 04 Nov 2026 16:10:48 -0000
-Message-Id: <179380864898.3087622.13231710324279059487@gitolite.kernel.org>
+Date: Wed, 04 Nov 2026 16:18:17 -0000
+Message-Id: <179380909707.3091835.792113664402459926@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,17 +12,15 @@ repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
   - ref: refs/heads/for-next
-    old: 2096760a90c66f31c61d6e046f39984826e89e21
-    new: 01e5a7539f5310ee26e830d45212c7ecb6e9b2eb
+    old: 01e5a7539f5310ee26e830d45212c7ecb6e9b2eb
+    new: 1c84b3e25a9294f3294d15438bba8dbc414aa3ec
     log: |
-         d7c7037253f6935af243570635d71b4920b5a4ea io_uring/rsrc: hold uring_lock across index-alloc put_user
-         99b6efa810675d99c04216574a189aa4bf031cfd io_uring/wait: don't sleep on an already expired timeout
-         01e5a7539f5310ee26e830d45212c7ecb6e9b2eb Merge branch 'io_uring-7.4' into for-next
+         21662435a5ee49c49a5ff05f2ddcde87acb7b293 io_uring: add feature flag for dma-buf support
+         1c84b3e25a9294f3294d15438bba8dbc414aa3ec Merge branch 'io_uring-7.4' into for-next
          
   - ref: refs/heads/io_uring-7.4
-    old: 699e7ba5915c8b2c76e257e157464f2bfe7ab8bb
-    new: 99b6efa810675d99c04216574a189aa4bf031cfd
+    old: 99b6efa810675d99c04216574a189aa4bf031cfd
+    new: 21662435a5ee49c49a5ff05f2ddcde87acb7b293
     log: |
-         d7c7037253f6935af243570635d71b4920b5a4ea io_uring/rsrc: hold uring_lock across index-alloc put_user
-         99b6efa810675d99c04216574a189aa4bf031cfd io_uring/wait: don't sleep on an already expired timeout
+         21662435a5ee49c49a5ff05f2ddcde87acb7b293 io_uring: add feature flag for dma-buf support
          
