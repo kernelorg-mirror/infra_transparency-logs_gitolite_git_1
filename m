@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 04 Nov 2026 14:49:24 -0000
-Message-Id: <179380376454.3018815.8177456844202853348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 04 Nov 2026 14:51:53 -0000
+Message-Id: <179380391396.3021950.1138069650477111769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 48ce3adebfd4a2b5bc963a2b0046c7988bee0272
-    new: 4a307ce2249b062afd3dbc0df15a389cae557a93
+  - ref: refs/heads/keyring_gc
+    old: 552d303636f9ddeee6b9fbcc8e49cb5dee0c9392
+    new: dd532131db8d403546f981cd23214d33aeb93ef6
     log: |
-         6816878faf60e44f67d6fe1143cf411dd83f955b patches/next: squash beyond page table a-bit milestone 2
-         f0a7b12defeeca8eb454958a18fc0b90591e726d patches/mm: update
-         4a307ce2249b062afd3dbc0df15a389cae557a93 patches/next: rebase to the latest mm-new
+         7f6f82419e3c871139f8fba8478b695bf12d922e KEYS: Pin the backing kernel module for a key type
+         4f4a6e9b0a50ae6f5fd7aa664b9d173b29969eae KEYS: Remove key_type_dead
+         dd532131db8d403546f981cd23214d33aeb93ef6 KEYS: key_garbage_collector(): process in chunks
          
