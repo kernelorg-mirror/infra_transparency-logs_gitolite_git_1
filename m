@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 04 Nov 2026 03:06:45 -0000
-Message-Id: <179376160553.2477783.2899499493695029986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Wed, 04 Nov 2026 03:20:48 -0000
+Message-Id: <179376244881.2487493.4378499861556791572@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/master
-    old: 9eec57f2c2b9395b42ac38697e46fb21e88b528f
-    new: 092f38fc55628b36bc0588842ef1697c18434239
+  - ref: refs/heads/for-next
+    old: f19a0c420750d232fdd4b91848f0e12a2911fa53
+    new: 4efef5ee9c41dc7cb9fa8ed67c0831be669702ca
     log: |
-         092f38fc55628b36bc0588842ef1697c18434239 foo
+         4efef5ee9c41dc7cb9fa8ed67c0831be669702ca platform/chrome: cros_ec_rpmsg: Record last_event_time on host event
          
