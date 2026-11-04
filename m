@@ -1,22 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 04 Nov 2026 23:51:55 -0000
-Message-Id: <179383631544.3479708.5986792412451772315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Wed, 04 Nov 2026 23:53:34 -0000
+Message-Id: <179383641410.3480570.10368736636382119939@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/dev-queue
-    old: c77ca4739b73add29c08ebb2b51d9c993b5d431f
-    new: 10872ee67f6bfca828c8843de8fb3227ffe54d1b
+  - ref: refs/heads/master
+    old: 18519af74db061213de2b4b0d01616cafe25c8ee
+    new: f7a8b89bc067fa1cbcd3312539bc0d61810d3280
     log: |
-         89a7215634f03bb33ceb49c91b1f8cf677f26328 ixgbe: clear Rx timestamp in packet enable bit on disable
-         539d7bb4d8bb349bb352d99fbca1eab57ae33e42 ixgbe: fix Rx hardware timestamping for VLAN tagged packets
-         a0f96566cc4defe0a16d88d39b4544e7f0b3b935 ice: fix USO for 32-bit systems
-         10872ee67f6bfca828c8843de8fb3227ffe54d1b iavf: fix USO for 32-bit systems
+         7db866e8540ee3d1ffbe6618b488891d63f0cd0c Input: gpio-keys - do not rely on debouncing capabilities of dedicated irqs
+         8af15863b0f34c86425b7e24fee4fa3ebce03a24 Input: joydev - avoid signed overflow in the broken-axis correction
+         e8a09b1d8a307c2a5da0f465755607dd7041ccc3 Input: db9 - enlarge the Saturn multitap packet buffer
+         f7a8b89bc067fa1cbcd3312539bc0d61810d3280 Input: mt6779-keypad - check the reported row and column
+         
+  - ref: refs/heads/next
+    old: 18519af74db061213de2b4b0d01616cafe25c8ee
+    new: f7a8b89bc067fa1cbcd3312539bc0d61810d3280
+    log: |
+         7db866e8540ee3d1ffbe6618b488891d63f0cd0c Input: gpio-keys - do not rely on debouncing capabilities of dedicated irqs
+         8af15863b0f34c86425b7e24fee4fa3ebce03a24 Input: joydev - avoid signed overflow in the broken-axis correction
+         e8a09b1d8a307c2a5da0f465755607dd7041ccc3 Input: db9 - enlarge the Saturn multitap packet buffer
+         f7a8b89bc067fa1cbcd3312539bc0d61810d3280 Input: mt6779-keypad - check the reported row and column
          
