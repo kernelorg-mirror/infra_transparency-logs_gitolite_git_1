@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============8413588523341598018=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 04 Nov 2026 16:33:14 -0000
-Message-Id: <179380999411.3105199.5042842716746352223@gitolite.kernel.org>
-
---===============8413588523341598018==
-Content-Type: text/plain; charset="us-ascii"
+Date: Wed, 04 Nov 2026 16:33:16 -0000
+Message-Id: <179380999678.3105419.5526870746572098545@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,37 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-testing-canary-nfs_common-XFS-IOLOCK-and-async-DIO-middle
-    old: 95f7c862c9d5e6596ec263f5d99bd5af29fadb34
-    new: 2649cfbf2d430796092b5046bf42704d9272cbbb
-    log: revlist-95f7c862c9d5-2649cfbf2d43.txt
-
---===============8413588523341598018==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-95f7c862c9d5-2649cfbf2d43.txt
-
-d094b4ee0a8fdd930b817d7e9331dcf47c372fbc mm: move clearing the uncached flag of a found folio into a helper
-b9c7a4076fc776ae1bed620b64c9cfae95796647 mm: take a folio off WB_DONTCACHE_DIRTY only if it was counted there
-36ca3c8b50e9766af3b73a95e1346bcf968f6337 mm: expose WB_DONTCACHE_DIRTY in bdi debugfs stats
-28db163db724fe9d872cb88b57d8a6783d526570 mm: add folio_mark_dropbehind() to mark a folio dropbehind and account it
-d7e32cccac12897cf63921cbfe7cb5118bc762e1 mm, iomap: keep a partly covered page until an uncached write completes it
-13f54ef7d5f1c6c26396c4a90893773d1f73a19d mm, iomap: let an uncached writer complete its shared pages itself
-1cb9cd8ae1d49a498649c9452a0ae96aa85fd852 NFSD: drop a shared boundary page only once both WRITEs have written it
-591a0b8b95d4a6c576bbb3f73d02c3eaaf871dfd Merge branch 'kernel-7.3/snitzer-nfs-fixes-canary' into kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO base
-1132c0c968dab22c6824797c50d7d27fb5a4c5b6 NFS: invalidate LOCALIO direct-write post-op attributes at completion
-222cf150d5dd02069e36de49cdf9b6865fde22e8 nfs_common: share direct I/O write split and boundary-page helpers
-9d38be2aa3fadeab07f744bffc90c16c21611091 nfs_common: share the rule for persisting a split direct write once
-1c3783717f84bf6578ab8433d2f53ca05826ac5a NFS/localio: split direct writes using NFSD provided nfs_common code
-fa76a573a5a79cb330cbcd3aebd10644570f3716 NFS/localio: persist a synchronous direct write once, after all its segments
-f9765432de29fd5027fa5c435608dc85790345d5 nfs_common: fix the skip accounting in nfs_dio_iter_aligned()
-1ce969b892b0af3edcc46600006b43793ea3c673 NFS/localio: complete a direct write that shares a page before it returns
-d60d44ff0639ec31bb8a3dec00d13f55f57ba162 NFSD: issue the direct middle of a split WRITE as an async kiocb
-52644d4e780d62bfc0b828b9d314df2049db9f97 NFS/localio: let a direct segment that is not last release the IOLOCK while in flight
-6a1382782316dc76778f432573779ce786e69885 fs: add IOCB_NOSERIAL
-3c103c81aedb58a73bd8b80e201e02e7c8dba105 xfs: take the IOLOCK shared for an IOCB_NOSERIAL buffered write within one folio
-293b0ad2399b12dd758ed2c757d6348a30565f0e nfs_common: mark the misaligned ends of a split write IOCB_NOSERIAL
-2649cfbf2d430796092b5046bf42704d9272cbbb xfs: serialise IOCB_NOSERIAL buffered writes with each other and sync DIO
-
---===============8413588523341598018==--
+  - ref: refs/heads/kernel-7.3/changelog-canary
+    old: 110bde902fdc29b55a6bde5c9911cf9a4af12833
+    new: 053b632580cff3dbb51624c8368237c304f1cb10
+    log: |
+         6fc4094bf69f2e335c1288e187ba7f0d3bd9697b kernel-7.3-11
+         053b632580cff3dbb51624c8368237c304f1cb10 kernel-7.3-11.canary
+         
