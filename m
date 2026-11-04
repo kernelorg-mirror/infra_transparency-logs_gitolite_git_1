@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7776350012017580040=="
+Content-Type: multipart/mixed; boundary="===============0387438356763193101=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Wed, 04 Nov 2026 18:55:56 -0000
-Message-Id: <179381855685.3228968.10671916317138949093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 04 Nov 2026 18:56:06 -0000
+Message-Id: <179381856633.3229268.16650054042253823165@gitolite.kernel.org>
 
---===============7776350012017580040==
+--===============0387438356763193101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wbg/counter
-user: wbg
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/counter-next
-    old: d722f879730c766ed9347352f4b5855a4841125d
-    new: 5d556e7daefdce1c418fcc3d7fd3b0edaa400e3f
-    log: revlist-d722f879730c-5d556e7daefd.txt
+  - ref: refs/heads/arm64-sve-trap-mitigation
+    old: 1ea197c995fac113130738fdb3b3bec1600458de
+    new: 0d4cb35c55f7b7c5eed7850eb5b633f3e2f65ba0
+    log: revlist-1ea197c995fa-0d4cb35c55f7.txt
 
---===============7776350012017580040==
+--===============0387438356763193101==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d722f879730c-5d556e7daefd.txt
+Content-Disposition: attachment; filename=revlist-1ea197c995fa-0d4cb35c55f7.txt
 
 f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
 acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
@@ -1047,8 +1047,8 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-5f9e2162d8a9c13d367159dcb1140376e4eac680 MAINTAINERS: Mark microchip-tcb-capture driver as orphaned
-10d348817416522dea5b31edcb94e4f864c520c7 MAINTAINERS: Mark ftm-quaddec driver as orphaned
-5d556e7daefdce1c418fcc3d7fd3b0edaa400e3f counter: ti-ecap-capture: use regmap_assign_bits() for conditional set/clear
+c6c3f4f0b7e0ad8309ce8a11e38ec1469bc7d921 arm64/sve: Performance improvements with SVE state saving
+0cc9a804d3a45b2c000275af7456f4c39d336bd1 arm64/fpsimd: Suppress SVE access traps when loading FPSIMD state
+0d4cb35c55f7b7c5eed7850eb5b633f3e2f65ba0 arm64/sve: Disable TIF_SVE on syscall once per second
 
---===============7776350012017580040==--
+--===============0387438356763193101==--
