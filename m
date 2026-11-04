@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-Date: Wed, 04 Nov 2026 06:50:21 -0000
-Message-Id: <179377502122.2635472.52848178328398757@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
+Date: Wed, 04 Nov 2026 06:50:49 -0000
+Message-Id: <179377504970.2636037.10048030750393194746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-user: kuninori.morimoto.gx
+repo: pub/scm/linux/kernel/git/nsc/kbuild
+user: nsc
 changes:
-  - ref: refs/tags/renesas-dev-v6.12.115
-    old: 0000000000000000000000000000000000000000
-    new: bf516738518cc8e6f4d3510332d055d9b7dd03cf
-  - ref: refs/tags/renesas-lts-v6.12.115
-    old: 0000000000000000000000000000000000000000
-    new: 86c5d6a6121c8bf8c7a7dffc189f3eb6190388e4
+  - ref: refs/tags/nsc/kbuild-6.20-1-rc1
+    old: 32bdaa9f03ff45c08b7d08d202dd931fb1d0a9d4
+    new: 0000000000000000000000000000000000000000
