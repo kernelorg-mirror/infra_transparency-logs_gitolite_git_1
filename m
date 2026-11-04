@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5392829735545851694=="
+Content-Type: multipart/mixed; boundary="===============7675497134870911799=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 04 Nov 2026 21:41:01 -0000
-Message-Id: <179382846106.3374220.12158398710267015839@gitolite.kernel.org>
+Date: Wed, 04 Nov 2026 21:41:07 -0000
+Message-Id: <179382846787.3374486.12225804965865384494@gitolite.kernel.org>
 
---===============5392829735545851694==
+--===============7675497134870911799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: dc4dd12f80e499dc034710cd8195489abcf0b059
     new: 6baae996ecf6a3f57b08ea6f6786e29af9260f51
     log: revlist-dc4dd12f80e4-6baae996ecf6.txt
 
---===============5392829735545851694==
+--===============7675497134870911799==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ d4f3d2c04624854d27aa948cd7bfc9d946faaac5 net: ethernet: bgmac: preserve forced 2
 41af38324341df9d769641d6485abb67fd5209ed net: dsa: b53: restore the NSP IMP port 2 Gbps mode
 6baae996ecf6a3f57b08ea6f6786e29af9260f51 Merge branch 'fix-tcp-retransmissions-on-ns-nsp-socs'
 
---===============5392829735545851694==--
+--===============7675497134870911799==--
