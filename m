@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 04 Nov 2026 23:34:34 -0000
-Message-Id: <179383527420.3462844.5065971288404934909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 04 Nov 2026 23:38:09 -0000
+Message-Id: <179383548985.3466092.15711166630355701295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dev-queue
-    old: 0b4406933b9e34890077b3a66ff2d9c1e790e82e
-    new: c77ca4739b73add29c08ebb2b51d9c993b5d431f
+  - ref: refs/heads/asoc-7.5
+    old: 514e0c8053d82b5d9e175c204be9c105ddcec8eb
+    new: 740fb77b38380bfca0b253be17b310db18c0de79
     log: |
-         c77ca4739b73add29c08ebb2b51d9c993b5d431f ice: fix NULL dereference after disabling RDMA
+         740fb77b38380bfca0b253be17b310db18c0de79 ASoC: audio-graph-card2: fix device node leaks in graph_count_c2c()
          
