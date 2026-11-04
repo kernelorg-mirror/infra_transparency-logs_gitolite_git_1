@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 04 Nov 2026 18:04:44 -0000
-Message-Id: <179381548408.3183459.9716134201423618681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 04 Nov 2026 18:04:57 -0000
+Message-Id: <179381549741.3183732.5979161937187759520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/controller/iproc
-    old: 87725223d4431fb206dbf50162b4d7e3637ddb5a
-    new: 74ec3dc509d4a55b6aed2f785131593c4caed465
+  - ref: refs/heads/master
+    old: bbc4016a2688351145019c65f7a199a856fe6bdb
+    new: 1cb3d682a4450a60297cc7e236e177cc450277d0
     log: |
-         68fc6c1b2ada48014089d6084789a0719fc11913 PCI: iproc: Use __free(device_node) in iproc_pcie_msi_enable()
-         74ec3dc509d4a55b6aed2f785131593c4caed465 PCI: iproc: Skip probing platform bus driver for BCMA-attached controllers
+         1cb3d682a4450a60297cc7e236e177cc450277d0 foo
          
