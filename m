@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6972578891426195139=="
+Content-Type: multipart/mixed; boundary="===============3358035086083886002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 05 Nov 2026 17:02:54 -0000
-Message-Id: <179389817485.20109.4395113629638017668@gitolite.kernel.org>
+Date: Thu, 05 Nov 2026 17:03:15 -0000
+Message-Id: <179389819526.20408.5800466526755474839@gitolite.kernel.org>
 
---===============6972578891426195139==
+--===============3358035086083886002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/cache-for-next
-    old: b2f3a170ae968fac6270e89ce5738685bd2e530c
+  - ref: refs/heads/riscv-firmware-for-next
+    old: 525e00a1bbced112f5431448842b27fa7621725f
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-b2f3a170ae96-6628e7d4c6b2.txt
+    log: revlist-525e00a1bbce-6628e7d4c6b2.txt
 
---===============6972578891426195139==
+--===============3358035086083886002==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b2f3a170ae96-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-525e00a1bbce-6628e7d4c6b2.txt
 
 76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============6972578891426195139==--
+--===============3358035086083886002==--
