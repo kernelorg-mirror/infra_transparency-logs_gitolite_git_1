@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 05 Nov 2026 18:38:01 -0000
-Message-Id: <179390388117.97427.2728763189026529105@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 05 Nov 2026 18:38:41 -0000
+Message-Id: <179390392179.98054.2191231272605306769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: dd8945fa8656022bf352c17dda196c9b9122306e
-    new: 71d940d9fc3f5dee0adc34c9720517675698acb8
+  - ref: refs/heads/riscv-soc-fixes
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    new: 6fdd47bf37367d2b5fa4318a8ab5b7477e71c8f0
     log: |
-         0fe3b732669995d44579355166659742042a62c2 drop xfs patch that broke the build
-         71d940d9fc3f5dee0adc34c9720517675698acb8 Fixes for all trees
+         5820e9bc940be9d8860278e785f202a573e26934 cache: sifive_ccache: propagate IRQ count errors
+         56ca3e2f00b637af312435096064a5db99747026 cache: sifive: Add bounds check for interrupt count in probe
+         6fdd47bf37367d2b5fa4318a8ab5b7477e71c8f0 soc: microchip: mpfs-sys-controller: put the flash device reference
          
