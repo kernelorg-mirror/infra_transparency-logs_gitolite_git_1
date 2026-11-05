@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 05 Nov 2026 00:36:32 -0000
-Message-Id: <179383899299.3518740.6517671597974573997@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
+Date: Thu, 05 Nov 2026 00:38:16 -0000
+Message-Id: <179383909610.3519358.11533668010534746199@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
+user: kuninori.morimoto.gx
 changes:
-  - ref: refs/heads/dev-queue
-    old: 10872ee67f6bfca828c8843de8fb3227ffe54d1b
-    new: d1b96933e1528cc4c895106a1b318f27575c9172
-    log: |
-         d1b96933e1528cc4c895106a1b318f27575c9172 e1000e: work around TSO erratum that corrupts data and hangs Tx
-         
+  - ref: refs/heads/renesas-lts/v6.18.60-2026-11-04-x5h-ironhide
+    old: 0000000000000000000000000000000000000000
+    new: 3a02f2b0533cb395c4ee803aee583ad4565a7399
