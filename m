@@ -1,31 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============1030166723136942334=="
+Content-Type: multipart/mixed; boundary="===============1501985692427240106=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Thu, 05 Nov 2026 12:52:23 -0000
-Message-Id: <179388314350.4062290.5594933210755314755@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Thu, 05 Nov 2026 12:55:50 -0000
+Message-Id: <179388335013.4065172.339823561268787002@gitolite.kernel.org>
 
---===============1030166723136942334==
+--===============1501985692427240106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: borntraeger
 changes:
-  - ref: refs/heads/b4/mali-c55-renesas-dts
-    old: 390f6fa4ae0a8f46b621b7ad6a91f6a1cf8fb270
-    new: 7571d551c965e31a4e8ed1e46e1ad8f48a38f0e8
-    log: revlist-390f6fa4ae0a-7571d551c965.txt
+  - ref: refs/heads/next
+    old: e93fb70b748982fda5e6d97721df35194cacfc4a
+    new: 9f9e71183ade4bf595c94e69916a8d2a5eba8c18
+    log: revlist-e93fb70b7489-9f9e71183ade.txt
 
---===============1030166723136942334==
+--===============1501985692427240106==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-390f6fa4ae0a-7571d551c965.txt
+Content-Disposition: attachment; filename=revlist-e93fb70b7489-9f9e71183ade.txt
 
+e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
+32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
+f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
+acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
+7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
+ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
 01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
 c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
 226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
@@ -1043,12 +1049,6 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-96fdff9e1889b3d657ed792fa10e5dd2cbdd57cb arm64: dts: renesas: Enable ISP and IVC on RZ/V2H EVK
-8d56ed1ccf18e102434631a89c9f7a78176a36cb dt-bindings: media: renesas,r9a09g057-ivc: Describe additional interrupts
-acecbd448f5a525f18342919484db5bbd38f7efc dt-bindings: media: arm,mali-c55: Describe DMA line-tick interrupts
-2f115e209b1563d25a9d9e59de765af2f16af904 dt-bindings: media: arm,mali-c55: Add power domain
-746a116d8cb07ae1476aac0bce380d405a323511 arm64: dts: renesas: r9a09g057: Add IVC and ISP nodes
-270453d153c5efbadfb1e9b070699326924ed7c0 arm64: dts: renesas: r9a09g057h44-rzv2h-evk: Add ISP and IVC nodes
-7571d551c965e31a4e8ed1e46e1ad8f48a38f0e8 media: mali-c55: Assert the ISP core reset last
+9f9e71183ade4bf595c94e69916a8d2a5eba8c18 KVM: s390: selftests: add ESSA migration mode PGM_ADDRESSING regression test
 
---===============1030166723136942334==--
+--===============1501985692427240106==--
