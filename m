@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Thu, 05 Nov 2026 21:20:51 -0000
-Message-Id: <179391365161.264337.10662065438530392840@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 05 Nov 2026 21:21:17 -0000
+Message-Id: <179391367704.264687.2168130537989865228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/fixes
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    new: 36990c8fda77d918b1e52d5d6df3a144b552d86e
+  - ref: refs/heads/keys-mutability
+    old: c96c116ee073c10968d961bec6cde3929bfd92d0
+    new: 28d9fb16dee83df98fb90bef1a3f5b2f70cb8304
     log: |
-         27698b545cde67aaf947e20f8e6fe00af1b667df selftests/filesystems: Fix run_fat_tests hang
-         88d5f8cb8a6276194ac8c1de44f3ed77d7e938ce tracing/selftests: Fix false bashism in kprobe_non_uniq_symbol.tc
-         36990c8fda77d918b1e52d5d6df3a144b552d86e selftests/ftrace: Add missing spaces after ! in probe syntax tests
+         1c46150df08465981d40e06f1eb7bb3cc99da8b9 KEYS: Return user session keyring on lookup
+         28d9fb16dee83df98fb90bef1a3f5b2f70cb8304 KEYS: Reject keyring creation with overridden credentials
          
