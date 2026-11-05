@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 05 Nov 2026 05:01:24 -0000
-Message-Id: <179385488410.3718686.15856731350301464294@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Thu, 05 Nov 2026 06:13:54 -0000
+Message-Id: <179385923420.3766727.1644800583002497268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: 1bfb781e8f6f9def65209157ab2a2faff7152ea8
-    new: 3b499d749bb84fe503c9b97081fa9e417e3581d4
+  - ref: refs/heads/edac-for-next
+    old: 54d301d2bc7608472828812c9d7b4be9bc2eb239
+    new: 28f141ff14c48abd38518a87d1026851dd12717e
     log: |
-         3b499d749bb84fe503c9b97081fa9e417e3581d4 foo
+         da4d0c5b18d50ddce17d46302a2a971331deb75a EDAC/amd64: Consolidate Family 1Ah model setup
+         28f141ff14c48abd38518a87d1026851dd12717e EDAC/amd64: Add support for Family 1Ah models 0x88-0x8f
          
