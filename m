@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0220336439224193899=="
+Content-Type: multipart/mixed; boundary="===============4554598800030657180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 05 Nov 2026 16:55:37 -0000
-Message-Id: <179389773758.13680.10833548294051447242@gitolite.kernel.org>
+Date: Thu, 05 Nov 2026 16:55:43 -0000
+Message-Id: <179389774308.13865.10664709753214858375@gitolite.kernel.org>
 
---===============0220336439224193899==
+--===============4554598800030657180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/features
+  - ref: refs/heads/master
     old: 375d5d57545f53d2bc3e15ada0e9da360fc68bea
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     log: revlist-375d5d57545f-6628e7d4c6b2.txt
 
---===============0220336439224193899==
+--===============4554598800030657180==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============0220336439224193899==--
+--===============4554598800030657180==--
