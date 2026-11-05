@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 05 Nov 2026 18:45:25 -0000
-Message-Id: <179390432533.104933.1546159784709135286@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 05 Nov 2026 18:45:26 -0000
+Message-Id: <179390432611.105013.7210529463496036407@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: 3b499d749bb84fe503c9b97081fa9e417e3581d4
-    new: 0ff290c9d9f1f5c7215482bb70b7db7da4ba8e10
+  - ref: refs/heads/cache-for-next
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    new: 4d61dc7a31fababc1cc19d147a6f0951ef5980be
     log: |
-         f5496aeabeed0fd663bc07d6c30d34980524af13 foo
-         ad432de7390c9cde810faef25c37ea2ada8f4e36 foo
-         0ff290c9d9f1f5c7215482bb70b7db7da4ba8e10 foo
+         4d61dc7a31fababc1cc19d147a6f0951ef5980be cache: sifive_ccache: Enable all ways on EIC7700
          
