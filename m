@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2724710400795496714=="
+Content-Type: multipart/mixed; boundary="===============6981810286766373138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 05 Nov 2026 04:03:42 -0000
-Message-Id: <179385142284.3675446.5611915737523696341@gitolite.kernel.org>
+Date: Thu, 05 Nov 2026 04:03:46 -0000
+Message-Id: <179385142682.3675647.16010129158565900028@gitolite.kernel.org>
 
---===============2724710400795496714==
+--===============6981810286766373138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: c17a92d40f0f5368e8d09a3ed9e9148662819ebf
-    new: 50cc6f7daf637fd45157dfbdeeeae093ed30aa12
+  - ref: refs/heads/7.5/scsi-staging
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    new: 76455a2febb0af62978869b10503f8b134186e3c
     log: |
          6e862335a8d3a3c8bfc8488dc1c6fa81b83a83ee scsi: vmw_pvscsi: Add boundary check for cmd_map access
          a3d959d2778f22b44c2df52cb70e78811c0e739e scsi: vmw_pvscsi: Clamp on e->dataLen in pvscsi_complete_request()
@@ -31,33 +31,33 @@ changes:
          76455a2febb0af62978869b10503f8b134186e3c Merge patch series "Recover from persistent UNIT ATTENTION conditions"
          
 
---===============2724710400795496714==
+--===============6981810286766373138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1793851420 -0500
+pusher 75C5DE3D 1793851425 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1793851420-1c05f68c02c19dc7e7418409f376ac508ecac71c
+nonce 1793851424-2f57d7a32351402a8deb5e8bff44b9c1742791c9
 
-c17a92d40f0f5368e8d09a3ed9e9148662819ebf 50cc6f7daf637fd45157dfbdeeeae093ed30aa12 refs/tags/mkp-scsi-staging
+6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 76455a2febb0af62978869b10503f8b134186e3c refs/heads/7.5/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrsAB0ACgkQ7ulgGnXF
-3j12wBAAmIecTjS9X4l+3hF3k3SMLvqdwbpNmftruPtFYPKtKRndbpnDRTfPQC56
-fDmR7ogvtHe6Ve65Ls/VbFKzZXQHTnMCi7UG6obB76gh7Lf+rM6NfsbaUiQmdfy1
-UFf2Ts/zLqlIGpgB0Fa29Mfot4EZJ4L++dfgQLFiwxV6RBm+8zmSTasHQQlyexAm
-fzv/Hp1mCD2TnIytXxUKTMxz6kLVDr1IlpIEljwLI24BqXocy3ceVZutY3xiZoPa
-/MTDCMERfAULoZCgizFuEo6xm1duhwujOJcXVbwGC2ozENvWpmqQPJ8fHePqk/eb
-EbfuVrBe4evedxJDYajgC2i9LXY67ZRbnO0HPKChbaVlEpexk5PbsJjCFoxuwYNl
-qOy8/XvlRlQFynv+oTcc7dnQQZMTefa60Y6ooAahnE5RrZ4dzN0FzhK+5HgbRbRN
-o7yFdaBaHrbVNWLD4vSiqSUaZhQzTaNkPkn5H9GlUSHcxGteSsk0j1+YaNLdbMo/
-AtPuz5C3QIufwwBpWvpa2YIFh9HnfFrwsV+zO69be0R5oXiHvDitPoSRIFKbHFci
-jmCkUrLA10wb16TuIPVF8rJL4heMuAReVnEodMJkkcSyFkrBFITxuSGUV6aDQCs6
-iQ7XFyqe006diWmSL2S4QJogChkHwIbfNzrgsrRO7fAm+J/0H9Y=
-=z98X
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrsACEACgkQ7ulgGnXF
+3j3IYw//bzAin+4nZ2ny1A1+q4duSbwNNFhf6Wy+e4/w/kmBRI/48TPswGnK6sum
+qXIpx/90rQf93pfJIC+FQZ2+wBtR/UWZz7gROwAHq/7lvk9qzI/E/CJsQmCke/6x
+9Zkjk2wpZY7xEJh1JajI1BK422AMrm3h0L0kPm9y5KlxBL7kdKRM4jwthekSZZuU
+q42+K5YTBD87SOuVvLtpFjB6rD5OyBPkDzuAO+1Vc1qoZsIlQJRW9jRO71RapCMp
+WBo4+AIMKpwYs94mRNXFiSU3v8TT2Vj7UiVAN+uTi82pviIvudIVGf2ZKK0IhCd9
+s4O7raI1/reoxu2Vp5pVA/WKnyBnnKp1fDyTUdIomjvNHyOogBkv2JrdvTa2LbXB
+wi/Z0yD+XRM8omANsHNwN9aD1K/hMD2Fe+6kxOYXDaHi8W9UnFVzADmglFPq6j2K
+3/O7d8+xs6kSbkzI7oDufWNNfTjTasewVuWSw6d8LdwIv+pIAb8LYm3Oy61LICn6
+7hKS8DzHBmovAEH0O9TJAsfGR8CdeNilkrNEVKcZE7PkjMzfQRz7bueai8z/DysO
+LfHsZdDkj5fGh/ht4DmWh/VhmjK7GRNm4ibAjsUWIYwUEUBBXwrrzVANzpo39eC5
+A51WK1MHU9ahA35AoAp/K3yZhki/nIG/nw6lgWrI1knKsCzrwFA=
+=ASdI
 -----END PGP SIGNATURE-----
 
---===============2724710400795496714==--
+--===============6981810286766373138==--
