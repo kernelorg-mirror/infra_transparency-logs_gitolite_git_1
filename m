@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8434127609367303679=="
+Content-Type: multipart/mixed; boundary="===============5801383261700885431=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Thu, 05 Nov 2026 08:04:25 -0000
-Message-Id: <179386586519.3843407.4706367285003348045@gitolite.kernel.org>
+Date: Thu, 05 Nov 2026 08:04:28 -0000
+Message-Id: <179386586889.3843680.8026199195454469667@gitolite.kernel.org>
 
---===============8434127609367303679==
+--===============5801383261700885431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/utils/mdadm/mdadm
 user: mtkaczyk
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: ff6ae05fb15342585694c75f7ab2b9e07fd3d57d
     new: cd27b828deb70abb3edb862ba8ddc8b905866a2e
     log: revlist-ff6ae05fb153-cd27b828deb7.txt
 
---===============8434127609367303679==
+--===============5801383261700885431==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ cc9e9cf909344206c46cdb4770b19468a3494630 GitHub workflows: enable full CodeQL sc
 63afe942b9be31e14cb547e7260b1e812e779407 tests: clean up partition metadata and mappings in fail_last tests
 cd27b828deb70abb3edb862ba8ddc8b905866a2e Monitor: check_array: use data from GET_ARRAY_INFO
 
---===============8434127609367303679==--
+--===============5801383261700885431==--
