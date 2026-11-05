@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Thu, 05 Nov 2026 11:09:21 -0000
-Message-Id: <179387696124.3979653.12584581940872787820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 05 Nov 2026 11:09:50 -0000
+Message-Id: <179387699079.3980080.1705245338577156542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/tags/mm-everything-2026-09-05-06-23
-    old: 6c8a6f22ac5abab359c201c6aec6c831584d1188
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/main
+    old: a76ab5e733b41dede6f238a691eefb4374f99f79
+    new: 6d9b7c85af57305ec2bd5907124478867edcc60b
+    log: |
+         6d9b7c85af57305ec2bd5907124478867edcc60b net: stmmac: set XDP metadata length on the page_pool RX path
+         
