@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============1936856001043215462=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Thu, 05 Nov 2026 21:12:50 -0000
-Message-Id: <179391317069.257588.1518217290702657927@gitolite.kernel.org>
-
---===============1936856001043215462==
-Content-Type: text/plain; charset="us-ascii"
+Date: Thu, 05 Nov 2026 21:12:52 -0000
+Message-Id: <179391317225.257696.7651955162088607581@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,31 +11,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frank.li/linux
 user: frank.li
 changes:
-  - ref: refs/heads/imx/dt
-    old: 0c6d4ae30f33e4a9c8b7e54109f49d6c932df1eb
-    new: eb5579bd8186c9921b570344e704609cf5f40a84
-    log: revlist-0c6d4ae30f33-eb5579bd8186.txt
-
---===============1936856001043215462==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c6d4ae30f33-eb5579bd8186.txt
-
-8497247d151a577aea9bcc81120b4ec4225465e2 ARM: dts: imx6ull-dhcor-maveo-box: Remove unused SPI device
-1c81b36b278991f9cc88064b2496b5ee9b79fb08 ARM: dts: imx6ull-dhcor-maveo-box: Correct PCB number
-41862ecb7fa5ae640a6fe92ede8af34240b48a2d ARM: dts: imx6q-dms-ba16: remove undocumented property fsl,receive-dpll-mode
-25ca9d9319f8015b9b2dd8b29566e59cd0150435 ARM: dts: imx50-amazon-yoshi: remove undocument property min-frequency
-837cf5110b272799fe55a282f6281a70621eef16 ARM: dts: imx6dl-b155v2: add touchscreen size properties
-2821dabbaa483be4665834d170a4c38bbe881eee ARM: dts: imx6q-gw5400-a: fix SPI NOR flash vendor prefix
-8e58551804d5ceac9fb8a414b69740529df0fdf9 ARM: dts: imx6dl-prtmvt: remove redundant panel compatible fallback
-46b3bb4a6b2a6d431e1beac9743d52b42b413cf9 ARM: dts: imx53-smd: change compatible string to dlg,da9053-aa
-6ff97f0b9625a08b6b522d8625a5a5db0eff11df ARM: dts: imx6qdl-savageboard: remove undocument avic,tm097tdh02
-9efa8bbaf817382b29c42c95a2d4c1187bf261f8 ARM: dts: imx6ul-tx6ul: remove front compatible string karo,imx6ul-tx6ul-sgtl5000
-65da26fbc79b0498ce7bf5ca9fc1fe00fdc53864 ARM: dts: imx6qdl-tx6-mb7: remove redundant pixelclk-active for simple panel
-b2b4068cceb31a2a93fc5c1cc5fc24cb4a859e12 ARM: dts: imx6q-h100: rename port to port@0 for mipi_csi
-f14b604536ae82a2a5543765a437313cc7eaf190 ARM: dts: imx6qdl-sabrelite: fix typo vync-active
-27a89535f51ec1b39b4cb65e50b4567fdf0f2249 ARM: dts: imx6q-novena: use interrupts replace irq-gpio
-eb5579bd8186c9921b570344e704609cf5f40a84 ARM: dts: imx6sx-sdb-mqs: remove pinctrl-0 and pinctrl-names
-
---===============1936856001043215462==--
+  - ref: refs/heads/imx/dt64
+    old: 6527d895a5af9164ea1cfe1ffa55694df266df6d
+    new: de72ffdd52783e0324008016bd4791371130e83a
+    log: |
+         891d3ea2d84e6291eb3781945eab6ce19610b838 arm64: dts: imx95-19x19-frdm-pro: Move PCIe PERST# and vpcie supply to Root Port nodes
+         c3feb96e841c637c5d6354e6528a3780fa40a059 arm64: dts: freescale: imx8mm-var-dart-sonata: Fix TPM reset polarity
+         7f7556b5b09c1287cfa3cd3325547a4eb897f4c0 arm64: dts: freescale: imx8mm-var-dart-sonata: Fix PCIe PHY init
+         d9266f28a24d1d835b180dcf6bf45f0de85ed565 arm64: dts: freescale: imx95-aquila: mark +V1.2_DP as boot-on
+         df96ee165d0bcf3f50526e4583e849ee01cfbe7f arm64: dts: imx95-navq: add USB1/USB2 nodes
+         62c2671594cec8ef17d70d876753dff4f78e5ce6 arm64: dts: freescale: imx952: Add GPIO5 lines 18 to 20
+         1d4689fb2f2bb004d811d37abb5e319ccc4ec90c arm64: dts: imx91: add U-Boot bootph properties
+         347fa3f6d5e349a8ad399caa8ded1f0f521f4203 arm64: dts: freescale: imx8mp-verdin: Add Cortex-M7 remoteproc
+         de72ffdd52783e0324008016bd4791371130e83a arm64: dts: imx952-frdm: support AONMIX MQS
+         
