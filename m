@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 05 Nov 2026 11:38:13 -0000
-Message-Id: <179387869315.4002724.4633952820487912983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 05 Nov 2026 11:38:24 -0000
+Message-Id: <179387870411.4003020.11963167063784628129@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for-7.5
-    old: 1ba6a1d89d1119bb05f640ac27e23babb226efcc
-    new: aa56acd476296a1b41925d30d4742e93dd69de03
+  - ref: refs/heads/main
+    old: 37dfd0efbfffc20a57e41c2eb349ac49b1ca1ff8
+    new: 57889a8f6d49fc153aa0017d13086ab736567f8a
     log: |
-         53865f2d4974630cae996e7a390a3561749b5494 ASoC: fsl: imx-sgtl5000: drop codec device reference after probe
-         aa56acd476296a1b41925d30d4742e93dd69de03 ASoC: imx-audmux: Convert to subsys_platform_driver()
+         57889a8f6d49fc153aa0017d13086ab736567f8a tcp: initialize send sequence numbers before deferring TFO
          
