@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 05 Nov 2026 01:08:59 -0000
-Message-Id: <179384093973.3547886.11745824586198128096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 05 Nov 2026 01:10:22 -0000
+Message-Id: <179384102299.3550526.11657688194751626639@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/x86/urgent
-    old: b697faab2c92653ee13bd950c8de13551a78971d
-    new: 6bb462e8e5334f7bd3384843253e96112c98f5af
+  - ref: refs/heads/asoc-7.5
+    old: 53865f2d4974630cae996e7a390a3561749b5494
+    new: aa56acd476296a1b41925d30d4742e93dd69de03
     log: |
-         6bb462e8e5334f7bd3384843253e96112c98f5af MAINTAINERS: resctrl: Add myself as reviewer
+         aa56acd476296a1b41925d30d4742e93dd69de03 ASoC: imx-audmux: Convert to subsys_platform_driver()
          
