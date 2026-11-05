@@ -1,31 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============7265632152564162062=="
+Content-Type: multipart/mixed; boundary="===============1437074898273506169=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Thu, 05 Nov 2026 13:23:46 -0000
-Message-Id: <179388502689.4085336.10584444041515532498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Thu, 05 Nov 2026 13:41:28 -0000
+Message-Id: <179388608827.4098799.15521259148876553258@gitolite.kernel.org>
 
---===============7265632152564162062==
+--===============1437074898273506169==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: borntraeger
 changes:
-  - ref: refs/heads/b4/genexis-xg6846-smp-v7.3-rc1
-    old: 220abc70bfa831ac144c6e73acb931e99a18165b
-    new: 4bf1830d4f8b28fea846c7dd11363754070615d7
-    log: revlist-220abc70bfa8-4bf1830d4f8b.txt
+  - ref: refs/heads/master
+    old: f47190b08b71e8482072978373ee88cb2dfbdaf4
+    new: a4ac406a32910b45159fce463032faac7acd3894
+    log: revlist-f47190b08b71-a4ac406a3291.txt
 
---===============7265632152564162062==
+--===============1437074898273506169==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-220abc70bfa8-4bf1830d4f8b.txt
+Content-Disposition: attachment; filename=revlist-f47190b08b71-a4ac406a3291.txt
 
+32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
+f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
+acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
+7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
 ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
 01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
 c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
@@ -1044,11 +1048,7 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-c08a227e7167e3a5d8aff0ede08a6a07cf70acff hack enable decompress message
-ae43fb24a3dda77622157d3574d1ff71aaad20a5 ARM: config: Add BCM6846 defconfig
-3bf8648c799d38be87db533d9ecc2b7e8f7271d8 ARM: bcm: Enable CFE SMP on BCMBCA
-c6089ef6bb68dbe16425f02d23e85e8daab9caa8 dt-bindings: arm: cpus: Add brcm,bca-smp enable method
-a27a0369e59fa21f1e8598184f444aa45b74fbb2 ARM: bcm: Add CFE SMP support for BCMBCA
-4bf1830d4f8b28fea846c7dd11363754070615d7 ARM: dts: broadcom: Use CFE CPU bring-up on the XG6846B
+25ef4be4b4b06c0d21378bf6bced2532216d4d56 KVM: s390: fix ESSA addressing exception injection in migration mode
+a4ac406a32910b45159fce463032faac7acd3894 KVM: s390: pqap: fix AP status written to wrong half of GR1
 
---===============7265632152564162062==--
+--===============1437074898273506169==--
