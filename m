@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Thu, 05 Nov 2026 16:47:42 -0000
-Message-Id: <179389726296.6832.17142025401590457151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 05 Nov 2026 16:50:21 -0000
+Message-Id: <179389742129.9537.3514909239264747992@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/rproc-next
-    old: 8396089f91fa07dd77b580e045334e670f782ff8
-    new: b16b5a4fdf7d1f4ec15a53622d9b66081325fbf9
-    log: |
-         b16b5a4fdf7d1f4ec15a53622d9b66081325fbf9 remoteproc: core: Fix integer overflow in rproc_da_to_va() bounds check
-         
+  - ref: refs/heads/riscv-delete-bundle
+    old: 0000000000000000000000000000000000000000
+    new: 75ce36896dccf260652432f0064161f65505326e
