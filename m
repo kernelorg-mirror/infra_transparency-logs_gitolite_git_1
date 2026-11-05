@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 05 Nov 2026 14:41:51 -0000
-Message-Id: <179388971161.4146854.9383714119464214115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Thu, 05 Nov 2026 14:46:09 -0000
+Message-Id: <179388996921.4150448.8780255303957942560@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/for-next
-    old: 3c55fab63ba57189f6514a3bdd1e6d9ab154163e
-    new: b53be9121a651e0b0c524a24b7238f56f0f6f28d
+  - ref: refs/heads/dm-7.4
+    old: dab527d83462a618d99bfc96370ce45ae3428706
+    new: 875a7161fe1574205293c36f7bbd0815023e48a1
     log: |
-         4ab9e4ccfaf7d1c70e110e0fae94893722f22ee2 ASoC: fsl: imx-sgtl5000: release codec clock right after reading its rate
-         59c8b5baa50b82379e6ce35925f87f6a1bc3d80c Merge asoc-linus into asoc-next
-         b53be9121a651e0b0c524a24b7238f56f0f6f28d Merge asoc/for-7.5 into asoc-next
+         875a7161fe1574205293c36f7bbd0815023e48a1 dm-integrity: don't recalculate with HMAC because of a dirty bitmap
          
