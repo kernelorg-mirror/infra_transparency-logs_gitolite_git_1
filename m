@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 05 Nov 2026 00:34:18 -0000
-Message-Id: <179383885857.3514326.16374362247937729854@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 05 Nov 2026 00:34:44 -0000
+Message-Id: <179383888423.3514891.4127795604214613260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-7.4
-    old: 39d31f76ad1b12f1b5e6ef4c15f89e6b3c3f603a
-    new: 4d07af76ca41cc1a03240cd3b5f44dc428856214
+  - ref: refs/heads/keyring_gc
+    old: 938f7cf6210365d4d067ebc2b1d6065e9d5e389a
+    new: d426a8868df1a01c8403935f308f5efb7ca0ec43
     log: |
-         4d07af76ca41cc1a03240cd3b5f44dc428856214 ASoC: wm_adsp: Prevent negative string length in wm_adsp_control_add()
+         f876bd51863ba8a0dceee238e2b287857716cffc rxrpc: Move key types to their own module
+         339a2721c7b297f6ef5b4f99fca8601d059ad990 KEYS: Pin the backing kernel module for a key type
+         f70d20d8c9153e5fc52731da3e64068d7a3dd3af KEYS: Remove key_type_dead
+         d426a8868df1a01c8403935f308f5efb7ca0ec43 KEYS: key_garbage_collector(): process in chunks
          
