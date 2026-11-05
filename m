@@ -1,21 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 05 Nov 2026 18:38:41 -0000
-Message-Id: <179390392179.98054.2191231272605306769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Thu, 05 Nov 2026 18:38:53 -0000
+Message-Id: <179390393315.98283.833200052242839707@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/riscv-soc-fixes
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    new: 6fdd47bf37367d2b5fa4318a8ab5b7477e71c8f0
+  - ref: refs/heads/for-7.5
+    old: e92304919f8104ef1452a6389fc54311e857b953
+    new: ea409e90d3422ab72b8d279114ebce33e7b140f0
     log: |
-         5820e9bc940be9d8860278e785f202a573e26934 cache: sifive_ccache: propagate IRQ count errors
-         56ca3e2f00b637af312435096064a5db99747026 cache: sifive: Add bounds check for interrupt count in probe
-         6fdd47bf37367d2b5fa4318a8ab5b7477e71c8f0 soc: microchip: mpfs-sys-controller: put the flash device reference
+         d8de2a732fc471da440ce8e697a086448a5c21fd workqueue: Simplify unbound sysfs attribute registration
+         487d46955ecf1e4c3486154042d19316ce025256 workqueue: Separate sysfs mutable vs immutable wq attribute sanitizing
+         ea409e90d3422ab72b8d279114ebce33e7b140f0 workqueue: Convert nice value tracking to priority based
+         
+  - ref: refs/heads/for-next
+    old: 5df47699c277199601abb6bc2d97479f230cda6a
+    new: 3395ef3edb88b99a5bc2acf16c36341f576f8793
+    log: |
+         d8de2a732fc471da440ce8e697a086448a5c21fd workqueue: Simplify unbound sysfs attribute registration
+         487d46955ecf1e4c3486154042d19316ce025256 workqueue: Separate sysfs mutable vs immutable wq attribute sanitizing
+         ea409e90d3422ab72b8d279114ebce33e7b140f0 workqueue: Convert nice value tracking to priority based
+         3395ef3edb88b99a5bc2acf16c36341f576f8793 Merge branch 'for-7.5' into for-next
          
