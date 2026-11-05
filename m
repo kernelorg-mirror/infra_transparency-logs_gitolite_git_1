@@ -1,33 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 05 Nov 2026 09:04:16 -0000
-Message-Id: <179386945623.3887386.2629816214533603529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Thu, 05 Nov 2026 09:20:27 -0000
+Message-Id: <179387042784.3899963.4308059988666254564@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/master
-    old: 63dfa3e6ebf472a17d983448692c627526e5b57c
-    new: 84a9ef69fcdb4143f820c819af52de5a12b3baf0
+  - ref: refs/heads/testing
+    old: 787268686c64be60023743b527645a907e38ccca
+    new: d393ddcdd7e9ee247718bce0e8530759a3b89c54
     log: |
-         6c799a4a4d51a7aad7bef04d6dca2e840a4cb1df Merge branch into tip/master: 'sched/urgent'
-         76c4dd70eb5815907b8f82aa31ab5b2f7b998b67 Merge branch into tip/master: 'x86/urgent'
-         9c26df5151a5c7d6bd29f65758d38953fd6205d9 Merge branch into tip/master: 'x86/apic'
-         5b588cb6b28fd0c3a25be51db22c7a7b115d66b7 Merge branch into tip/master: 'x86/cleanups'
-         84a9ef69fcdb4143f820c819af52de5a12b3baf0 Merge branch into tip/master: 'x86/misc'
-         
-  - ref: refs/heads/tip/urgent
-    old: 88c2a5e1062e33868ddc17cda831d8eeb2b85a42
-    new: 76c4dd70eb5815907b8f82aa31ab5b2f7b998b67
-    log: |
-         6bb462e8e5334f7bd3384843253e96112c98f5af MAINTAINERS: resctrl: Add myself as reviewer
-         2803a7993d4cd9354f851dfcab46991d676f4e6b x86/sev: Clear RMPOPT when segmented RMP is disabled by firmware
-         dc2334c1752b3c5f58af74f1e7ad6769b38e1f33 x86/sev: Set up RMPOPT only on an active SNP host
-         6c799a4a4d51a7aad7bef04d6dca2e840a4cb1df Merge branch into tip/master: 'sched/urgent'
-         76c4dd70eb5815907b8f82aa31ab5b2f7b998b67 Merge branch into tip/master: 'x86/urgent'
+         66a8ea84d849423c832910f3be3cabe1f2dd0d56 xfrm: ipcomp: account full fragment pages in truesize
+         49d6c6c88b9d6f495f45dcf622f86de65ade5eaa xfrm: esp: reset outer TCP GSO metadata on espintcp input
+         2f3afcc47c3c702ba7a556b3ee8567f2b95ef5fd xfrm: keep the mode module pinned until destroy_state returns
+         d393ddcdd7e9ee247718bce0e8530759a3b89c54 xfrm: serialize SA activation with state deletion
          
