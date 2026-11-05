@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 05 Nov 2026 17:29:05 -0000
-Message-Id: <179389974514.42516.15724974033809976643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 05 Nov 2026 17:31:36 -0000
+Message-Id: <179389989614.45775.9735854457623915315@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: cf09d02dc0c49593fdd9e0ec2f17251cba39a94e
-    new: 20f1752b9241d300b42cd45a07e22d063bccba45
+  - ref: refs/heads/controller/dwc-rcar-gen4
+    old: 7c2b491c855d5203d5ce43cc068c2a4d694d8fc0
+    new: 2fcb7513361b449384ef87200f9e1a20fc9053d4
     log: |
-         20f1752b9241d300b42cd45a07e22d063bccba45 spi: spi-mem: Add support for panic mem writes
+         2fcb7513361b449384ef87200f9e1a20fc9053d4 dt-bindings: PCI: rcar-gen4-pci-host: Replace sft_ce IRQ with AER IRQ on R-Car Gen5
          
