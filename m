@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 05 Nov 2026 18:37:59 -0000
-Message-Id: <179390387940.97287.9450480175708592102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 05 Nov 2026 18:38:01 -0000
+Message-Id: <179390388117.97427.2728763189026529105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/dev-queue
-    old: 712e5848f8344124d56c3221700ff951d2d0da50
-    new: 0589094170e12c6b71b3c625d15fb1a874c8dfc3
+  - ref: refs/heads/master
+    old: dd8945fa8656022bf352c17dda196c9b9122306e
+    new: 71d940d9fc3f5dee0adc34c9720517675698acb8
     log: |
-         31aa6cff9471cd49b104b72a2b7cbd190de4c0bc i40e: list accepted Flow Director flow types
-         8126ee341557a497b681d5aab6332fc5ea23888e i40e: fix raw ip4/ip6 flow match docs
-         c57192bbe1ccc3de318f8422e8afcc7ec5c17e72 ice: fix raw ip4/ip6 flow match docs
-         0589094170e12c6b71b3c625d15fb1a874c8dfc3 ixgbe: document raw ip4 flow match
+         0fe3b732669995d44579355166659742042a62c2 drop xfs patch that broke the build
+         71d940d9fc3f5dee0adc34c9720517675698acb8 Fixes for all trees
          
