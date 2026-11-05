@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 05 Nov 2026 00:46:01 -0000
-Message-Id: <179383956124.3525915.6109672038788436367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 05 Nov 2026 00:57:47 -0000
+Message-Id: <179384026791.3533450.14409555773022225235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: 740fb77b38380bfca0b253be17b310db18c0de79
-    new: 1ba6a1d89d1119bb05f640ac27e23babb226efcc
-    log: |
-         1ba6a1d89d1119bb05f640ac27e23babb226efcc ASoC: codecs: madera: release runtime PM ref on FLL config failure
-         
+  - ref: refs/heads/wip-raid
+    old: 0000000000000000000000000000000000000000
+    new: 3b5f1ba2b348c6d2ecc264503f7462b69e2dece3
