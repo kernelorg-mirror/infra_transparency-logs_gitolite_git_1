@@ -1,22 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Thu, 05 Nov 2026 09:20:27 -0000
-Message-Id: <179387042784.3899963.4308059988666254564@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1131270798434832857=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 05 Nov 2026 09:35:15 -0000
+Message-Id: <179387131539.3910418.12545700320823879654@gitolite.kernel.org>
+
+--===============1131270798434832857==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/testing
-    old: 787268686c64be60023743b527645a907e38ccca
-    new: d393ddcdd7e9ee247718bce0e8530759a3b89c54
-    log: |
-         66a8ea84d849423c832910f3be3cabe1f2dd0d56 xfrm: ipcomp: account full fragment pages in truesize
-         49d6c6c88b9d6f495f45dcf622f86de65ade5eaa xfrm: esp: reset outer TCP GSO metadata on espintcp input
-         2f3afcc47c3c702ba7a556b3ee8567f2b95ef5fd xfrm: keep the mode module pinned until destroy_state returns
-         d393ddcdd7e9ee247718bce0e8530759a3b89c54 xfrm: serialize SA activation with state deletion
-         
+  - ref: refs/tags/platform-drivers-x86-v7.4-2
+    old: 0000000000000000000000000000000000000000
+    new: 73c15bfac4c027d5efdad2d9dbf6cb552bc068b5
+
+--===============1131270798434832857==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1793871312 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1793871312-73a6d72541fe3f224b4cc16e44bb14071e302089
+
+0000000000000000000000000000000000000000 73c15bfac4c027d5efdad2d9dbf6cb552bc068b5 refs/tags/platform-drivers-x86-v7.4-2
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCauxN0gAKCRBZrE9hU+XO
+MbvSAPwJDHABzciwQeGi6SbiqUdXuuq9oxifxS8TQShKS4c37wEAnjf02d019UhL
+d7EUKzC3fMslXWTb09uafofp5u4wDgo=
+=UsIB
+-----END PGP SIGNATURE-----
+
+--===============1131270798434832857==--
