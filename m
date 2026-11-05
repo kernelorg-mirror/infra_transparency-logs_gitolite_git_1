@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pza/linux
-Date: Thu, 05 Nov 2026 11:05:09 -0000
-Message-Id: <179387670979.3977906.16195586005038784388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Thu, 05 Nov 2026 11:09:21 -0000
+Message-Id: <179387696124.3979653.12584581940872787820@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pza/linux
-user: pza
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/reset/next
-    old: e7915fe110d8c7f1563d6b1d9bbc104ff7b32a4f
-    new: db2f5f4ccc3df91ff1841bd8ed024beb42d2bc7a
-    log: |
-         db2f5f4ccc3df91ff1841bd8ed024beb42d2bc7a reset: Add KUnit test cases
-         
+  - ref: refs/tags/mm-everything-2026-09-05-06-23
+    old: 6c8a6f22ac5abab359c201c6aec6c831584d1188
+    new: 0000000000000000000000000000000000000000
