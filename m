@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1609737500147744804=="
+Content-Type: multipart/mixed; boundary="===============9211395724846808432=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Thu, 05 Nov 2026 02:13:41 -0000
-Message-Id: <179384482122.3599313.1304588819529004762@gitolite.kernel.org>
+Date: Thu, 05 Nov 2026 02:14:20 -0000
+Message-Id: <179384486090.3599834.14862220759968213204@gitolite.kernel.org>
 
---===============1609737500147744804==
+--===============9211395724846808432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-drivers
-    old: dbb9962ec1f997cfb128b337989250a5e4d8c88e
+  - ref: refs/heads/edac-for-next
+    old: 0489f2176209b710890096699c4b869f1db91df4
     new: 54d301d2bc7608472828812c9d7b4be9bc2eb239
-    log: revlist-dbb9962ec1f9-54d301d2bc76.txt
+    log: revlist-0489f2176209-54d301d2bc76.txt
 
---===============1609737500147744804==
+--===============9211395724846808432==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-dbb9962ec1f9-54d301d2bc76.txt
+Content-Disposition: attachment; filename=revlist-0489f2176209-54d301d2bc76.txt
 
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
 32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 54d301d2bc7608472828812c9d7b4be9bc2eb239 EDAC/amd64: Stop allocating ECC settings separately
 
---===============1609737500147744804==--
+--===============9211395724846808432==--
