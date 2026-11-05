@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6981810286766373138=="
+Content-Type: multipart/mixed; boundary="===============6156439257037464518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 05 Nov 2026 04:03:46 -0000
-Message-Id: <179385142682.3675647.16010129158565900028@gitolite.kernel.org>
+Date: Thu, 05 Nov 2026 04:03:50 -0000
+Message-Id: <179385143074.3675771.13833510074028741602@gitolite.kernel.org>
 
---===============6981810286766373138==
+--===============6156439257037464518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/7.5/scsi-staging
+  - ref: refs/heads/staging
     old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     new: 76455a2febb0af62978869b10503f8b134186e3c
     log: |
@@ -31,33 +31,33 @@ changes:
          76455a2febb0af62978869b10503f8b134186e3c Merge patch series "Recover from persistent UNIT ATTENTION conditions"
          
 
---===============6981810286766373138==
+--===============6156439257037464518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1793851425 -0500
+pusher 75C5DE3D 1793851429 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1793851424-2f57d7a32351402a8deb5e8bff44b9c1742791c9
+nonce 1793851428-c1feb0607544810ba765190b52cc7f76d37d70ed
 
-6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 76455a2febb0af62978869b10503f8b134186e3c refs/heads/7.5/scsi-staging
+6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 76455a2febb0af62978869b10503f8b134186e3c refs/heads/staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrsACEACgkQ7ulgGnXF
-3j3IYw//bzAin+4nZ2ny1A1+q4duSbwNNFhf6Wy+e4/w/kmBRI/48TPswGnK6sum
-qXIpx/90rQf93pfJIC+FQZ2+wBtR/UWZz7gROwAHq/7lvk9qzI/E/CJsQmCke/6x
-9Zkjk2wpZY7xEJh1JajI1BK422AMrm3h0L0kPm9y5KlxBL7kdKRM4jwthekSZZuU
-q42+K5YTBD87SOuVvLtpFjB6rD5OyBPkDzuAO+1Vc1qoZsIlQJRW9jRO71RapCMp
-WBo4+AIMKpwYs94mRNXFiSU3v8TT2Vj7UiVAN+uTi82pviIvudIVGf2ZKK0IhCd9
-s4O7raI1/reoxu2Vp5pVA/WKnyBnnKp1fDyTUdIomjvNHyOogBkv2JrdvTa2LbXB
-wi/Z0yD+XRM8omANsHNwN9aD1K/hMD2Fe+6kxOYXDaHi8W9UnFVzADmglFPq6j2K
-3/O7d8+xs6kSbkzI7oDufWNNfTjTasewVuWSw6d8LdwIv+pIAb8LYm3Oy61LICn6
-7hKS8DzHBmovAEH0O9TJAsfGR8CdeNilkrNEVKcZE7PkjMzfQRz7bueai8z/DysO
-LfHsZdDkj5fGh/ht4DmWh/VhmjK7GRNm4ibAjsUWIYwUEUBBXwrrzVANzpo39eC5
-A51WK1MHU9ahA35AoAp/K3yZhki/nIG/nw6lgWrI1knKsCzrwFA=
-=ASdI
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrsACUACgkQ7ulgGnXF
+3j0zNxAAkBp0IwLs5t1H5qoquqOD7EERAt6kUpuoMqnxorevUCbSEhgQa6utOeYn
+r9kK7uxAP8gtlJ77g+jb6vnqbthStYCJzg+h7nYkbXpIQT5UAhnPMST3+rO0UNXn
+enrsQ2tfoZqm+GN5CBQQLe0v/z3C3UYNmHxR4+PCZ44LykorajpDBCqAu3PEulkc
+ZDs2vptdGhSePVZnC8jY/icD5zYhzHDTfqEYJ2klgAYx+0fs5mbXvpVG11Iwz4+j
+2Jm2Z3pmkxXEvFlRDwFC9c59PJPk3y/t5o0mFxMXsg+8jkHzHAdnUwn5jQcH+pG/
+34pwFDUC5daY7L3dxIbJH0zbVh0MamwgSusVx37Qtac0pRiTvUWo0DjoMYjQyFLy
+5IV70Q0FpxDIB7rMhpltiU3v8lUX4JxTkiyycWm5umqeMVnIEGeNItnYSMvoq0Ft
+OzM3WRDNf31Pq9XA8RXeiiE+5GQECTnNl4vRvz+Qdx9Wbd38IyQFsy9cRCSQncAe
+fXz1v9vobkUmm7FCI49w4b1M8dXRuasmiESq36MRHtpYfMDHHF/yuxBK2qGcxBCb
+LvNw9tVXGu6U5yog8dR7M0LeByB47KtOV1qYfzA+uQBan049opy0AkC8oFGWmqtN
+Q+fZQB7wgr9LcdXtRmtzasC59R9nZNl6151VrU0nr4GaDGAFm6E=
+=v/LW
 -----END PGP SIGNATURE-----
 
---===============6981810286766373138==--
+--===============6156439257037464518==--
