@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5719134180048639346=="
+Content-Type: multipart/mixed; boundary="===============6972578891426195139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 05 Nov 2026 17:02:31 -0000
-Message-Id: <179389815172.19890.13611926507116923241@gitolite.kernel.org>
+Date: Thu, 05 Nov 2026 17:02:54 -0000
+Message-Id: <179389817485.20109.4395113629638017668@gitolite.kernel.org>
 
---===============5719134180048639346==
+--===============6972578891426195139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-soc-for-next
-    old: 3160b4a8aeea997f9b494db8c9e14a4d287a7381
-    new: 4d79c94d9b2eb3e73776466b81291622a05d0972
-    log: revlist-3160b4a8aeea-4d79c94d9b2e.txt
+  - ref: refs/heads/cache-for-next
+    old: b2f3a170ae968fac6270e89ce5738685bd2e530c
+    new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    log: revlist-b2f3a170ae96-6628e7d4c6b2.txt
 
---===============5719134180048639346==
+--===============6972578891426195139==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3160b4a8aeea-4d79c94d9b2e.txt
+Content-Disposition: attachment; filename=revlist-b2f3a170ae96-6628e7d4c6b2.txt
 
+76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
 32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
 f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
@@ -1049,6 +1050,5 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-4d79c94d9b2eb3e73776466b81291622a05d0972 soc: starfive: socinfo: fix compile test default
 
---===============5719134180048639346==--
+--===============6972578891426195139==--
