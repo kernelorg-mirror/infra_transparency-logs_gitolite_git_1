@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
-Date: Thu, 05 Nov 2026 16:20:19 -0000
-Message-Id: <179389561945.33517.17803508597355486769@gitolite.kernel.org>
+Date: Thu, 05 Nov 2026 16:24:23 -0000
+Message-Id: <179389586352.35661.13840645265820744972@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,20 +12,24 @@ repo: pub/scm/linux/kernel/git/liveupdate/linux
 user: rppt
 changes:
   - ref: refs/heads/liveupdate-7.5
-    old: 70d7ea3aa8eb1f3ab1ba1b9c267685e468ec408f
-    new: 07220a5d8fa01ba5c39d50fd49f471b4a44c7dce
+    old: 07220a5d8fa01ba5c39d50fd49f471b4a44c7dce
+    new: d6e2d47be58d87a20d16ef9bc5b17ca08963ce63
     log: |
-         7fd98607924169ee31f6aae47cd513bd86ba6f8b selftests/liveupdate: Preserve VM workspaces with run-vmtests.sh -k
-         07220a5d8fa01ba5c39d50fd49f471b4a44c7dce kho: Remove redundant 0x prefixes
+         d5a5c7adf9a5af70437e1de391d39eb348a7bfc4 kho: walk bootmem areas in address order
+         214f9649b2ee4356b0742d12ad3f3d7a580bc773 kho: skip zero-sized lowmem and global bootmem areas
+         754c201fb6bf250356f11b9316b6738325cd268f kho: fix bootmem sizing
+         d6e2d47be58d87a20d16ef9bc5b17ca08963ce63 Merge patch series "kho: fix bootmem sizing"
          
   - ref: refs/heads/next
-    old: 7156355ba936b543e5b1193e2a0030fa4844b8b9
-    new: 400240751e871c3174470906061174a4f99e9b40
+    old: 400240751e871c3174470906061174a4f99e9b40
+    new: 94545296dd761f1a33dce91311c2ecd85073bd61
     log: |
-         7fd98607924169ee31f6aae47cd513bd86ba6f8b selftests/liveupdate: Preserve VM workspaces with run-vmtests.sh -k
-         07220a5d8fa01ba5c39d50fd49f471b4a44c7dce kho: Remove redundant 0x prefixes
-         bc5f770bdc2169766abfcfebdd0fce1bff389f6b Merge branch 'fixes' into next
-         ac4b95752830da935cd493d0518f9e52c8d7d27f Merge branch 'liveupdate-7.5' into next
-         925610b7ef783ee90538c4c6a56b4da1fadd317b Merge branch 'luo-internal-api' into next
-         400240751e871c3174470906061174a4f99e9b40 Merge branch 'lu-pci-preservation' into next
+         d5a5c7adf9a5af70437e1de391d39eb348a7bfc4 kho: walk bootmem areas in address order
+         214f9649b2ee4356b0742d12ad3f3d7a580bc773 kho: skip zero-sized lowmem and global bootmem areas
+         754c201fb6bf250356f11b9316b6738325cd268f kho: fix bootmem sizing
+         d6e2d47be58d87a20d16ef9bc5b17ca08963ce63 Merge patch series "kho: fix bootmem sizing"
+         6951845201bd998b72d9e3a18b39c922266a1ab0 Merge branch 'fixes' into next
+         355c884c904c15a8e25089d8adc44a1396576107 Merge branch 'liveupdate-7.5' into next
+         1bbd6183fb398c932180b077c78e30494dc0cc9e Merge branch 'luo-internal-api' into next
+         94545296dd761f1a33dce91311c2ecd85073bd61 Merge branch 'lu-pci-preservation' into next
          
