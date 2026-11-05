@@ -1,22 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 05 Nov 2026 12:15:48 -0000
-Message-Id: <179388094816.4034125.3777153343821762422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 05 Nov 2026 12:17:51 -0000
+Message-Id: <179388107164.4034799.16645228215196985596@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/kvm-arm64-set-id-regs-aarch64
-    old: 1e718ddf933a9d2721c7b377c06ae7e17c5038ef
-    new: f52859f797a605e2cefc7c01400dd7391725fc9c
+  - ref: refs/heads/gpio/for-current
+    old: c2d0710318b8cd57d0ef6088d0ee4bbc1e827fd3
+    new: 18cc1d1ad94df8a6760fff2617d3d6923550cba0
     log: |
-         2461de384400fee2eae93e4dacc3f22283c4baae KVM: selftests: arm64: Improve diagnostics from set_id_regs
-         e233b639bb63cabb59f79ce217f1808395776def KVM: selftests: arm64: Report set_id_reg reads of test registers as tests
-         1fa4ef1da23cd4b60d4833a1a4abf43484f53b31 KVM: selftests: arm64: Report register reset tests individually
-         f52859f797a605e2cefc7c01400dd7391725fc9c KVM: selftests: arm64: Make set_id_regs bitfield validity checks non-fatal
+         c20464a78162cf8b3a1c9dc7e0d764e535bfe582 gpiolib: reset lookup flags for each hogged line
+         5d362564bd2982def7e80d7f1e756a97440c7adb gpio: aspeed: Clear only the acked line's G4 interrupt status
+         18cc1d1ad94df8a6760fff2617d3d6923550cba0 gpio: aspeed: Preserve the pending G7 interrupt status on control writes
+         
+  - ref: refs/heads/gpio/for-next
+    old: d66b6b86d5a6278ca930112c634d03725beb7d9a
+    new: 123be56be13ca95f5bd5f143bc2d6edf0fe71221
+    log: |
+         123be56be13ca95f5bd5f143bc2d6edf0fe71221 gpio: Convert to subsys_platform_driver()
          
