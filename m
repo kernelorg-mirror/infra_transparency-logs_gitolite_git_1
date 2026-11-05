@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2062235577987305854=="
+Content-Type: multipart/mixed; boundary="===============6008887048140409218=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 05 Nov 2026 04:40:02 -0000
-Message-Id: <179385360258.3702423.11886893120310185183@gitolite.kernel.org>
+Date: Thu, 05 Nov 2026 04:40:07 -0000
+Message-Id: <179385360723.3703843.7074079978817080632@gitolite.kernel.org>
 
---===============2062235577987305854==
+--===============6008887048140409218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: fbf7e920e77b94b420678e47064065b812bfb6bc
-    new: dba8aba0a9a00ff781c03d82ae534fc6f8c2e263
-    log: revlist-fbf7e920e77b-dba8aba0a9a0.txt
+  - ref: refs/heads/mm-unstable
+    old: bcc036cfa1670a64500f6d857eaa71908b79e3fb
+    new: 32959c9a49d24faffb39413322ef80014f88dd16
+    log: revlist-bcc036cfa167-32959c9a49d2.txt
 
---===============2062235577987305854==
+--===============6008887048140409218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fbf7e920e77b-dba8aba0a9a0.txt
+Content-Disposition: attachment; filename=revlist-bcc036cfa167-32959c9a49d2.txt
 
 4259154ffa5fdb13ea0a6f3d132e5fd549ee4149 mm/kasan: detect double-free involving kfree_rcu_sheaf()
 13ab0b62756d50511a82f05b5734fe2b104d112e mm/kasan/kunit: add double-free tests involving kfree_rcu_sheaf()
@@ -174,54 +174,5 @@ ed5e130ee2c4e33d85a0c6f9a080f0b69dae7741 mm: remove thp_size() and thp_order()
 76826c56efbf58d3535ade84b8ce63d2e3362e60 mm/zswap: validate dlen and normalize comp_ret on compression success
 75ff74da1ccf1c8da8cb2848d4f673065467bccd mm: nommu: set MMF_OOM_SKIP in exit_mmap()
 32959c9a49d24faffb39413322ef80014f88dd16 fs/proc/task_mmu: fix lost maps entries above 2^63
-0f0a69ac40f7e899f7ac6c50caca0fc9d6d97b2f mm, swap: only allow swapped-out slots into the swap cache
-393c401d7314d9b790cc4521a32ba8d8df8354c0 mm, swap: give hibernation swap slots their own swap table entry type
-d2760f71056d3bdf7bd2b07ff23c7dc36ec311c4 mm, swap: drop the swap cache guard and reclaim in swap_free_hibernation_slot()
-88d89eddf25d633a642f63374e8f348f3f081165 selftests/mm: fix pointer width warnings on 32-bit architectures
-d4b8948f38c53884b1fa0278d48e2a1027c1bd1a mm/huge_memory: scale thp_underused() to the folio size
-43a89838ad171034730be9da1380453fd0e5847c mm/huge_memory: don't queue folios when underused splitting is inactive
-ecf82087774dad3492e40d9ad6adb605b44eecda mm/huge_memory: add a per-order counter for underused splits
-3be49a462207a77dce956bc73da39ab2557b6d6d mm: add anonymous mTHP folios to the deferred split list
-4de198e35a5b3d7d67467794c66405574f8c4e81 selftests/proc: use RSS in /proc/pid/smaps_rollup tearing tests
-0b782ca83d26b7fd70bbdd6849ff3a17b6303de4 mm: hugetlb_vmemmap: remove HugeTLB-specific vmemmap optimization macros
-525dd17306eb5c36274a2921d91bcfb97540d9aa mm: hugetlb_vmemmap: unify VMEMMAP_{SPLIT,REMAP}_NO_TLB_FLUSH
-7aab9f55ef6e562e90622dc9ad4fd019df1902ab mm: hugetlb_vmemmap: simplify vmemmap head page handling
-8054daa0c9cff202e86d80eeff1738001b0fcdca mm: hugetlb_vmemmap: generalize vmemmap page allocation
-d8d4aa403b87af12ce3ad5deb34bf43b3b0711f5 mm: hugetlb_vmemmap: unify writable vmemmap page preparation
-6bb342d172a733df78f2dd3a8cfaaf95ecb39af6 mm: hugetlb_vmemmap: rename vmemmap_remap_pte() to vmemmap_optimize_pte()
-c538e26bea560fc4cc61747f85a16b46cf3c273e mm: hugetlb_vmemmap: simplify shared tail page handling
-ad0873d47ed3a347c76730e9714863429c627b31 mm: hugetlb_vmemmap: move alloc_vmemmap_page_list() next to its free helper
-f7df0edb588f5b77e177208df42e14ae344f38b8 mm: hugetlb_vmemmap: make vmemmap optimization folio-oriented
-839a2102cbd02e7cacf14f1d68dfa6f94dc18608 mm: hugetlb_vmemmap: make vmemmap restoration folio-oriented
-d44fec46421e6db5c4a5d5111cf6687c048c28d1 mm: hugetlb_vmemmap: unify vmemmap range restoration
-9999be62a777caf3bb409fa856d08115961ebe49 mm: hugetlb_vmemmap: make vmemmap PTE conversion folio-oriented
-682f199ccd083c2de454423c1c4ad4741f5329f9 mm/zswap: drop the stale zswap entry of a zero folio
-ecccb841cea9979ab4282ff190aa6648f61ed44b mm, swap: fix large swap-in across swap file extents
-262c5b18e7c4a0cb1750bb05c17467c4777a7f29 mm/swap: account synchronous swap reads as memory stall
-a43f43439926f759235a4b5dffe49ebc5e6ffc32 mm/swap: keep the swap-in pressure window open across a batch
-09bbd701431f4d495132ff398c8e28fbab891363 mm/hugetlb: fix validation of unsupported HugeTLB orders
-001d8d4c3eab169f2beabbf41894705b77a61078 mm: page_owner: use %u to print the stack depot handle
-683cdbce23e613a8be864d196777c5d4a04d4baf tools/mm: add hwpoison-panic tool
-f959cc433ca193e19a90645b7d7caccf673f2d12 selftests/mm: mlock2-tests: fix fclose(NULL) in is_vmflag_set()
-e553f47c23c71034b059e1442e5b9223565ad68f mm: split out memory-failure declarations from internal.h
-bb503050e61811c1ccaa788e02a1ecc78b8c466a selftests/mm: uffd-wp-mremap: keep the THP sizes in unsigned long
-0cc882ab6ffc9bc8dae9124afbb860aef209a3bc selftests/mm: handle child status safely in khugepaged
-cfd770585bbc7d108652e133349d913b616b23a6 mm/userfaultfd: recheck WP registration in the hugetlb UFFDIO_COPY retry
-1af06002b087955bde822c18dc2748c987fb5308 selftests/mm: add a uffd test for re-registering during UFFDIO_COPY
-e87da49ed5f21f004c897f469bcafb19b5140331 mm/memcontrol: drop unused vmscan tracepoint include
-480e8f262f170f1fc7e03b2fc14ec84390ae4c1c mm/vmscan: move vmscan tracepoints to a local header
-3cbadb6aea6768147f08332c4837f3532d28c0e3 mm/vmscan: move struct scan_control to a dedicated header
-38b952cfe429ff67f26ffe69a22f8615811bec27 mm/vmscan: pass scan_control to the vmscan tracepoints
-ea49fab478470460b52c393053eb2725696daff6 mm/mglru: add tracepoint for scan_folios()
-f933b3c5d0bc49b738c4be4f3873e4ad3a546f2d mm/mglru: add lruvec_gen_size() helper
-7fed39a8e640784aed1a53ebd3fbd5b7c7ebc273 mm/mglru: add tracepoint for aging
-c4a86ce3c9b174d72e7d753b4942f2126cd68782 alloc_tag: add trace events for tracing allocations
-1e11ab9ed1d8c9044a4d7ec31bdd362763c8922a alloc_tag: introduce IOCTLs to toggle allocation tracepoints
-1a2debd8785865ac3f0647db562503fd820e0dbb alloc_tag: add a flags field to allocinfo_filter
-33f64361f10c3b740f0140e3144e0053aa96a9f7 alloc_tag: extend allocinfo_filter to support tracing queries
-88ead63e9b02178e77d2c26efab8ae2908abdb77 alloc_tag: add a test for trace state toggle and filtering
-9be64d05fa9d62cf5d742b843b0acaf4f4248ed3 selftests/mm: skip split_huge_page_test without the split_huge_pages file
-9316a7927a173f416c5ae3987a6a9662ae526d1d iommufd: enforce memfd write seals for file mappings
-dba8aba0a9a00ff781c03d82ae534fc6f8c2e263 riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============2062235577987305854==--
+--===============6008887048140409218==--
