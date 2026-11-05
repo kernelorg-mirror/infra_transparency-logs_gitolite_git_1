@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 05 Nov 2026 04:41:17 -0000
-Message-Id: <179385367747.3704774.11460065466757954804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 05 Nov 2026 05:01:24 -0000
+Message-Id: <179385488410.3718686.15856731350301464294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 843ba4b606123458acda92b1555ed72642dd80c2
-    new: 5f5906d642226c21a2813dafe716409829d544fc
+    old: 1bfb781e8f6f9def65209157ab2a2faff7152ea8
+    new: 3b499d749bb84fe503c9b97081fa9e417e3581d4
     log: |
-         ce756d593cfd28e107172f66447275961282f769 patches/next: age_ms damos filter: add subject
-         bfa9de717c86115092de36ba23534ef30ad8125f patches/mm: update
-         5f5906d642226c21a2813dafe716409829d544fc patches/next: rebase to the latest mm-new
+         3b499d749bb84fe503c9b97081fa9e417e3581d4 foo
          
