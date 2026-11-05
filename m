@@ -1,41 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4858479868164587942=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 05 Nov 2026 13:55:20 -0000
-Message-Id: <179388692039.4109706.4730296511987471142@gitolite.kernel.org>
-
---===============4858479868164587942==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Thu, 05 Nov 2026 13:59:20 -0000
+Message-Id: <179388716092.4111173.5675589755734302858@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/regulator-7.5
-    old: 79f6abecd6b3c936873028a309071705c6aea15f
-    new: 5a97a0140d12436d8fff7980650a15e328f2bc9d
-    log: revlist-79f6abecd6b3-5a97a0140d12.txt
-
---===============4858479868164587942==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79f6abecd6b3-5a97a0140d12.txt
-
-86dd1c48cec2c15b733724f53dbca55b684ca401 regulator: irq_helpers: Clear caller handle in regulator_irq_helper_cancel()
-2eb7501c91d38fc2e6b3dd8232ee00989ddc2ed8 regulator: arizona-ldo1: Avoid double gpiod_put() on enable GPIO
-e0ce6fe8f23593c6d6373f557cc212d606279590 regulator: core: Flush delayed disable_work before releasing supply in regulator_unregister()
-e7cbbbfba41db5b5b94880ad4af75c78e9eec5fc regulator: arizona-micsupp: Cancel check_cp_work on device teardown
-b554fe98554c128782e255597eae32ed1ad48590 regulator: core: Hold supply device reference until constraints are resolved in regulator_resolve_supply()
-f6e7157f9369881538a0e00035ecbcf768412e9a regulator: core: Use ktime_get_boottime() in set_machine_constraints()
-a6e1a47ba91cf0d13a909968c9a63ace04e3a9c5 regulator: bq257xx: Propagate GPIO error in bq257xx_reg_dt_parse_gpio()
-4c03bc1cda05e85ea845bdbcc7fea412b84a34a9 regulator: tps6594-regulator: Fix LDO4 n_voltages in tps6594_ldo_regs
-8c7542439d56f734fb6598b141c14e69b705e2fc regulator: max8907: Avoid NULL idata dereference in max8907_regulator_probe()
-a94cebd751c5f648f057c8d8edea7844e22d6637 regulator: rt6190: Check pm_runtime_resume_and_get() return value in rt6190_out_enable()
-5a97a0140d12436d8fff7980650a15e328f2bc9d regulator: Fix teardown races, reference counting, and error handling
-
---===============4858479868164587942==--
+  - ref: refs/heads/netfs-next-3
+    old: 297166a76a2ea105ab8e3983dfa069014b81eb2f
+    new: 79a2d44fadd22d5c8b7cabe33bbb2c1f2afab99f
+    log: |
+         437dd2ba3fc0c909aa5f611e656a2ecb8eeb0e1f iov_iter: Add a bvecq kunit test
+         43f859311f02f4a3690cab26483ceea54748e1de afs: Use a bvecq to hold dir content rather than folioq
+         986ad001d12f9ce098da48c955909b82cd67f3d5 cifs: Use a bvecq for buffering instead of a folioq
+         06320f3319e9e2236dc606eeafa3326bd43ce01a smbdirect: Support ITER_BVECQ in smbdirect_map_sges_from_iter()
+         fd2d12b96eac318fbdf2c4058f6997d61d17b0b1 netfs: Switch folioq to bvecq
+         c9cf6e439f626258bba8e670289baf277409f83d smbdirect: Remove support for ITER_FOLIOQ from smbdirect_map_sges_from_iter()
+         8e17c67eebaee6f812aecb86a9d2bc242a8d37d6 iov_iter: Remove ITER_FOLIOQ
+         79a2d44fadd22d5c8b7cabe33bbb2c1f2afab99f netfs: Remove folio_queue
+         
