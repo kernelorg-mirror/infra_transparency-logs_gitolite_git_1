@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 05 Nov 2026 11:22:40 -0000
-Message-Id: <179387776030.3991812.3356806828945766065@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/pgpkeys
+Date: Thu, 05 Nov 2026 11:26:44 -0000
+Message-Id: <179387800489.3995257.1795553638167049571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/ukleinek/pgpkeys
+user: ukleinek
 changes:
   - ref: refs/heads/master
-    old: 84a9ef69fcdb4143f820c819af52de5a12b3baf0
-    new: 9f74092fda91ef93c2b07585785c1dc83cd7971f
+    old: fbb224036085f90d46077790631b1929a7dbed91
+    new: 18b131720e32d19ccbd7e766148e890209714047
     log: |
-         c9bed5b2048d5022050d99dc51dc5cdb194e1593 Merge branch into tip/master: 'x86/urgent'
-         5772417cde465672f23c938429ac2361abc2eb63 Merge branch into tip/master: 'x86/apic'
-         cafc8126c05a862b390a8debd74a3d1d53753e03 Merge branch into tip/master: 'x86/cleanups'
-         9f74092fda91ef93c2b07585785c1dc83cd7971f Merge branch into tip/master: 'x86/misc'
-         
-  - ref: refs/heads/tip/urgent
-    old: 76c4dd70eb5815907b8f82aa31ab5b2f7b998b67
-    new: c9bed5b2048d5022050d99dc51dc5cdb194e1593
-    log: |
-         c9bed5b2048d5022050d99dc51dc5cdb194e1593 Merge branch into tip/master: 'x86/urgent'
+         941090be69feec1792b7a505a318fb5ddf7407e5 Remove stale symlinks from .keyring
+         4e74d032c4bd0068d381aef8128886bd29ae1163 Drop the signatures bound by SHA-1 that were added by mistake
+         b3b7df878fb0772356f8da113cba5a8ed7679b53 Add 82E8BA56C9E0D4DB (Kameron Carr)
+         e0715c7850ca480b429db3a032952efee6a0215b Add 86133DD82BC120B9 (Aleksey Kardashevskiy)
+         c3e25a71dd4b5ce631e051d2dae965c597166c29 Update BEB27446C433F5F4 (Shakeel Butt)
+         0c435816e1c52927b594b1630f13ad25cfc23b4e Strip SHA-1 signatures from 86133DD82BC120B9
+         e46be8698b886128c5722df8a7246b7060bbb3e2 Add 3D6797D6EE6FCAE2 (Hamza Mahfooz)
+         18b131720e32d19ccbd7e766148e890209714047 Update 3D6797D6EE6FCAE2 (Hamza Mahfooz)
          
