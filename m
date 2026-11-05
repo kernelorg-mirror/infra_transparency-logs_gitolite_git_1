@@ -1,58 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============7773011921268168410=="
+Content-Type: multipart/mixed; boundary="===============2272265602859516894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Thu, 05 Nov 2026 14:46:34 -0000
-Message-Id: <179388999482.4151081.9416436079225666595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Thu, 05 Nov 2026 14:49:24 -0000
+Message-Id: <179389016403.4152014.14675941277576384162@gitolite.kernel.org>
 
---===============7773011921268168410==
+--===============2272265602859516894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/mips-fixes
     old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    new: 6bb1aa75bc2c85a89ee7856b9557b519fb7428cf
-    log: |
-         e0a07b3e54f762774a604c39275afe3575bf8352 dt-bindings: pinctrl: samsung: Add compatible for Exynos5515
-         c5ec9b1c5f95b4af91811fbbd86c83d0f5f240ad dt-bindings: pinctrl: samsung: add exynos5515-wakeup-eint compatible
-         6bb1aa75bc2c85a89ee7856b9557b519fb7428cf pinctrl: samsung: Add Exynos5515 pinctrl configuration
-         
+    new: 456c965ca46c59a4a241c755e6565fd883a522f4
+    log: revlist-6628e7d4c6b2-456c965ca46c.txt
 
---===============7773011921268168410==
+--===============2272265602859516894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6628e7d4c6b2-456c965ca46c.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1793889993 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1793889993-fd84e33c33bc16884099e57ef9fc2bd8ec9a920a
+b79147fb33c3b5713c005e763b00239ea14b552a MIPS: SGI-IP27: print the NMI dump on an nbcon console
+255d9dbd936f7db8b963e82429f6e57cd9d48999 MIPS: Avoid dead code/data elimination when using recordmcount
+07cd3ed4153991cda356f24323b8ee3af8bc7c5a MIPS: boot: compressed: place .rodata.* and discard .MIPS.abiflags
+960bb0eea66a5ce3828a83212357c17a430f432f MIPS: boot: compressed: fix the vmlinuz link with ld.lld
+c9c0d267002029a5bf97ee50e6b11b4d16808aca MIPS: SGI-IP30: fix the defconfig defaults for the Bridge PROM and RTC
+dd722e605bd6b5ac593475ad2ed76cd9d27cb2ef MIPS: Alchemy: Register interrupt chips with the IRQ core
+792ac17faa0503448f3ef85b49f16456ac54ab84 MIPS: Alchemy: Save the Ethernet address before reusing PROM memory
+30b76362f80d39d80f1197c88b284d9fa7952356 MIPS: mm: Fix the cache error vector jump for XKPHYS kernels
+4e65c502b8975e7c3c3d84aba59cd04af1dd6b8a MIPS: sgi-ip32: Mask MACE PCI interrupts in CRIME only
+a55a7df2cf788234850d9053ecc25a5470175929 MIPS: sgi-ip32: Leave MACE PCI control alone in config accesses
+36c8aa2840fd1561de6b2e7518e6aa75a47ec7eb MIPS: sgi-ip32: Report the real CRIME revision
+ff209a7294988aac52b2522b1d0d7349da4541ec MIPS: Cobalt: Include legacy IDE ports in the PCI I/O window
+456c965ca46c59a4a241c755e6565fd883a522f4 MIPS: SB1250: Validate and update IRQ affinity
 
-6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 6bb1aa75bc2c85a89ee7856b9557b519fb7428cf refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrslskQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD14UOD/9xfjykE8ybpKtyE5wI2W5sB1enxuStZfqo
-XZJDyXD8xeU0Q5ImXKCU/fZ7CNjOVUgeShgrqEHihjUaLC4rdIj0aBRM4kWr9X1x
-g/1xWZvnbk6EMTWJSWMFiCn1I1eZu5bUE92Rd70UIIWN5ksEYfsZLA5bQ9ENK+yZ
-zTbgaNWxOh9JYTwYYXrV+aphXP8ViLHMYvzuxuN+VIJ/0uL8LUFMo5lSjFFyxewc
-O4bS38OiRcS27wIeNJXvr1BuXc5TZljVT/MiQS370UmTeUWewfL6p/U9BZtCsnZK
-CabHa6JEWq9MWa/vSziuc9dNHP3UUBaUeNLcR/RxFBgc2x2F5uGbJzgvLFstczNl
-JoNMJs7fEUjodn9PLtd+ow0t/Lel1eLgZmgzq1nR9Md0PQm8Dhnt9hDgOvZgUexE
-8BbLeaYMirv5SiFcPz5KPYlIr40rf8fWj51QeZ3E3kXJcaHNztMhoWcce9Z/FFGT
-RAb8qzltcHY/4ySIMkYCZeziCs4DXMamfEkTSJ0OKRoJUF+HE2ke6JWd+ka3LrpW
-1ZuLy/lg5s9MBgIa48TgX2yGez5vKd14JWW8LjULPlCI9GoVNkmRBAAwLNtPuwQI
-4XO1lpTZgJ5YJa+ila0syqC82fjCE2YL5KXhMzOdVLDqYVhTPq6gqPWFAtgiwh5d
-9MZEAxypag==
-=yuke
------END PGP SIGNATURE-----
-
---===============7773011921268168410==--
+--===============2272265602859516894==--
