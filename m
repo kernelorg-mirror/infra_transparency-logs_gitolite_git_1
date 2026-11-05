@@ -1,57 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============4384551428255405933=="
+Content-Type: multipart/mixed; boundary="===============6660301267658977734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Thu, 05 Nov 2026 08:46:00 -0000
-Message-Id: <179386836053.3875311.1715894135202089003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
+Date: Thu, 05 Nov 2026 08:56:59 -0000
+Message-Id: <179386901984.3882813.18257627925828465616@gitolite.kernel.org>
 
---===============4384551428255405933==
+--===============6660301267658977734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/fpga/linux-fpga
+user: yilunxu
 changes:
-  - ref: refs/heads/b4/slub_tiny_rework
-    old: 419f846f8ebb24c746b6feb1b52104ea63316026
-    new: d65c5c8f7e1524ef5c7823757e97fd36ea4d2102
-    log: revlist-419f846f8ebb-d65c5c8f7e15.txt
+  - ref: refs/heads/for-next
+    old: 093da48782df3d50953c520626b345ca70af8cbd
+    new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    log: revlist-093da48782df-6628e7d4c6b2.txt
 
---===============4384551428255405933==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1793868356 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1793868356-1d95b9929adbfc3ca1513b771f174d98a2a71e06
-
-419f846f8ebb24c746b6feb1b52104ea63316026 d65c5c8f7e1524ef5c7823757e97fd36ea4d2102 refs/heads/b4/slub_tiny_rework
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmrsQkQbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaCZAH/RYk5WmE8zTJOBuTJk46
-nhuTj4VBIF8pPtvBbPtidILtafLEaSwTpC9t+fi13Q/SPMiUySybz0U1RxMvNPqB
-0kNQS3ij4Gk7KdPx+emLyBUSEtW8skaXhHVzJFIo4+1DQTt6vIyw0ugNoIdUoNhc
-3TLvS22KaoCDzj3j6Ac6FJUa88HC5cluWc9S+38wBRjCjrKwa4JCcm6iWh6B9dXc
-Q1+zgLY7EO71pLNTwhcjluodmiZC44OEI/DobRaiZo3pqzqajDpyeI95wpzeAvrn
-JeZN9p5mxOkVfl25XOdE2RtXFaxZH20XHeNsYTvu/GYbxUDjdQ/TpFvOXz8pnZ1f
-tj4=
-=Qhmi
------END PGP SIGNATURE-----
-
---===============4384551428255405933==
+--===============6660301267658977734==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-419f846f8ebb-d65c5c8f7e15.txt
+Content-Disposition: attachment; filename=revlist-093da48782df-6628e7d4c6b2.txt
 
+76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
+e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
+32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
+f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
+acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
+7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
+ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
+01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
+c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
+226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
+07c81e0196cc8fbc261095c9f712e39b63e3c780 mm/sparse: move mem_section init to sparse_extreme_init()
 89e2b6e3d345cd4dca822a5ccea764ee7f9e0ae4 mm/sparse: refactor sparse_sections_init()
 d8ab71169ce579871d196a4178c51afd1e0d8b32 mm/sparse: move initialization of section metadata to sparse_metadata_init()
 31b3829703ec5a041c01162f8196fc49eb930b17 mm/sparse: rename and cleanup sparse_init_nid()
@@ -1065,16 +1050,5 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-405ab7c9dd099f3b9a0d2367cd2930094cca87d0 replace CONFIG_SLUB_TINY with a slab_tiny boot parameter
-4ce461911b4ca5fad332c6c929ab8519d26f150d slab, kunit: pin test slabs by an extra allocation
-9bb2b1c05705a4619fd863604346920a3fb5d147 kasan, kunit: pin test slabs by an extra allocation
-6d50b68df9cf00d9eaaf5d4acc6d61626728ffa9 mm, slab: refactor slab_min/max_order handling
-30da2b9fc23802119f59db5fc2f1b657e84c93d5 mm, slab: introduce slab_debug=N
-03c00e9fc1fab9e5ccd5326c2d3d64d2d0299e0c mm, slab: rework KMALLOC_RECLAIM handling of SLUB_TINY
-81680a5b0f20ff4212422b9854f9b9b76385abe2 mm, slab: make SLUB_TINY handling dynamic for sizing decisions
-1cde86f50f1b9a4ab4257a9fd7d91fef11ab3df4 mm, slab: convert CONFIG_SLUB_TINY checks to kmem_cache_debug()
-f0e710c189e1f98f00815e1359fb2ec852d1916c mm, slab: remove remaining compile-time checks for CONFIG_SLUB_TINY
-a899e41520c9e722d4ca012c04c7fac6bf3b38d5 mm, slab: add slab_tiny boot param
-d65c5c8f7e1524ef5c7823757e97fd36ea4d2102 mm, slab: deprecate CONFIG_SLUB_TINY and reduce its Kconfig effects
 
---===============4384551428255405933==--
+--===============6660301267658977734==--
