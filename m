@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 05 Nov 2026 10:27:19 -0000
-Message-Id: <179387443952.3948726.16152445246165958472@gitolite.kernel.org>
+Date: Thu, 05 Nov 2026 10:34:53 -0000
+Message-Id: <179387489360.3953064.17688238930240214108@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 6887a8f98244ba4c0fbe2d2461b9b8f8a300e326
-    new: 9a65b9c2a97594bcaaf393329807653eff895bbf
+    old: 9a65b9c2a97594bcaaf393329807653eff895bbf
+    new: c6b41de4dd9f2d6856d8d8d292348f7961034152
     log: |
-         9a65b9c2a97594bcaaf393329807653eff895bbf bonding: 3ad: don't set BOND_LINK_FAIL on a slave that is not up
+         c6b41de4dd9f2d6856d8d8d292348f7961034152 ip6mr: Serialize multicast router socket ownership
          
