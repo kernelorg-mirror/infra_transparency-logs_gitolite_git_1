@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============4097708409290430696=="
+Content-Type: multipart/mixed; boundary="===============7265632152564162062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 05 Nov 2026 13:23:19 -0000
-Message-Id: <179388499982.4085140.15727170084981545218@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Thu, 05 Nov 2026 13:23:46 -0000
+Message-Id: <179388502689.4085336.10584444041515532498@gitolite.kernel.org>
 
---===============4097708409290430696==
+--===============7265632152564162062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/arm64-gcs-store-gcscre0
-    old: 0cb071801a9c3baf829d424b2108cf8d06908afd
-    new: 817c0e1d86943f7de9dbd0c47d8f68d0662f7833
-    log: revlist-0cb071801a9c-817c0e1d8694.txt
+  - ref: refs/heads/b4/genexis-xg6846-smp-v7.3-rc1
+    old: 220abc70bfa831ac144c6e73acb931e99a18165b
+    new: 4bf1830d4f8b28fea846c7dd11363754070615d7
+    log: revlist-220abc70bfa8-4bf1830d4f8b.txt
 
---===============4097708409290430696==
+--===============7265632152564162062==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0cb071801a9c-817c0e1d8694.txt
+Content-Disposition: attachment; filename=revlist-220abc70bfa8-4bf1830d4f8b.txt
 
-acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
-7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
 ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
 01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
 c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
@@ -1046,9 +1044,11 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-a005359d06ecead308bc13e86d30f69562caacbb arm64/gcs: Store the GCSCRE0_EL1 register value not userspace mode
-fb64cf08d1e868e5643ea50d36d05f9796380da1 arm64/gcs: Ignore attempts to change GCS mode during signal return
-6015e55e9a73acf84fc368647a3aae510afca824 arm64/gcs: Move gcs_check_locked() out of the header
-817c0e1d86943f7de9dbd0c47d8f68d0662f7833 arm64/gcs: Store GCSCRE0_EL1 values instead of userspace mode
+c08a227e7167e3a5d8aff0ede08a6a07cf70acff hack enable decompress message
+ae43fb24a3dda77622157d3574d1ff71aaad20a5 ARM: config: Add BCM6846 defconfig
+3bf8648c799d38be87db533d9ecc2b7e8f7271d8 ARM: bcm: Enable CFE SMP on BCMBCA
+c6089ef6bb68dbe16425f02d23e85e8daab9caa8 dt-bindings: arm: cpus: Add brcm,bca-smp enable method
+a27a0369e59fa21f1e8598184f444aa45b74fbb2 ARM: bcm: Add CFE SMP support for BCMBCA
+4bf1830d4f8b28fea846c7dd11363754070615d7 ARM: dts: broadcom: Use CFE CPU bring-up on the XG6846B
 
---===============4097708409290430696==--
+--===============7265632152564162062==--
