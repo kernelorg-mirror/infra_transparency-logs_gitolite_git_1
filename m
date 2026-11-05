@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8087066732979126679=="
+Content-Type: multipart/mixed; boundary="===============6455745641997248689=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 05 Nov 2026 17:21:00 -0000
-Message-Id: <179389926036.37083.880130420113685767@gitolite.kernel.org>
+Date: Thu, 05 Nov 2026 17:21:25 -0000
+Message-Id: <179389928580.37479.2173101006129198071@gitolite.kernel.org>
 
---===============8087066732979126679==
+--===============6455745641997248689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-keys
-    old: aef3a8a4f988bd2056de48ec0840ff47f7757087
-    new: 51bcd09b9ffca7a2a3b66fb57182bb391364f612
-    log: revlist-aef3a8a4f988-51bcd09b9ffc.txt
+  - ref: refs/heads/for-next-tpm
+    old: 36aad21d50d1af3f6954bb0c988257a908202477
+    new: 05441d697f7f9a927264f4058cbbc6a03dfcac9d
+    log: revlist-36aad21d50d1-05441d697f7f.txt
 
---===============8087066732979126679==
+--===============6455745641997248689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aef3a8a4f988-51bcd09b9ffc.txt
+Content-Disposition: attachment; filename=revlist-36aad21d50d1-05441d697f7f.txt
 
 5852cdf0006ff0f1d9a56f06197673d4e4270220 net/9p: fix typos in comments
 37dce65a0b4356d7ec289a5d09cece5db241c302 9p: use fc->net_ns for network namespace in RDMA and socket transports
@@ -412,9 +412,5 @@ a4da531b171c664a6cf42c5b82d1610cbdf14fe4 Merge tag 'bpf-fixes' of git://git.kern
 51628610f9187c1c1cfe499d92e066bc22ad9693 vfs: fix take_dentry_name_snapshot() semantics
 7d1471e50943196f909674d2d22eb4196c7df48e Merge tag '9p-for-7.4-rc2' of https://github.com/martinetd/linux
 05441d697f7f9a927264f4058cbbc6a03dfcac9d Merge tag 'cocci-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
-4a65eaf146f0d10ebaa88cfaef9c3b24f93766d9 KEYS: Expand key->{datalen,quotalen} to unsigned int
-094c53d2994975e36d4cab7cf5d9f34c1b0f1916 KEYS: Reject descriptions larger than KEY_MAX_DESC_SIZE
-7a7f70ff7b26519c98b339a3e0cd9ee3c8d17f77 KEYS: Verify the key identity in __key_unlink_begin
-51bcd09b9ffca7a2a3b66fb57182bb391364f612 KEYS: Protect the update method check against type removal
 
---===============8087066732979126679==--
+--===============6455745641997248689==--
