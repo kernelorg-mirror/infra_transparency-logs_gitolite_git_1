@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8716872983224871969=="
+Content-Type: multipart/mixed; boundary="===============2724710400795496714=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 05 Nov 2026 04:03:37 -0000
-Message-Id: <179385141727.3675254.5927097653907267516@gitolite.kernel.org>
+Date: Thu, 05 Nov 2026 04:03:42 -0000
+Message-Id: <179385142284.3675446.5611915737523696341@gitolite.kernel.org>
 
---===============8716872983224871969==
+--===============2724710400795496714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,56 +16,48 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: ca14cc05808f9c0115c38bec53573bf93e030435
-    new: 04feb5fd2c23894ebc2cdaf4a4cc38b8667b17ac
-    log: revlist-ca14cc05808f-04feb5fd2c23.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: c17a92d40f0f5368e8d09a3ed9e9148662819ebf
+    new: 50cc6f7daf637fd45157dfbdeeeae093ed30aa12
+    log: |
+         6e862335a8d3a3c8bfc8488dc1c6fa81b83a83ee scsi: vmw_pvscsi: Add boundary check for cmd_map access
+         a3d959d2778f22b44c2df52cb70e78811c0e739e scsi: vmw_pvscsi: Clamp on e->dataLen in pvscsi_complete_request()
+         c78b78166c55ebd6ae0b378499abd519aee7a966 scsi: vmw_pvscsi: Add support for ARM64 architecture
+         b7545895b1c97b8fd0201ee6eac9cbeb57f1e3c5 scsi: core: Introduce scsi_cmd_needs_stu()
+         099fb3376bb73c29457782d917a3b68d846a9e87 scsi: core: Simplify scsi_eh_ready_devs()
+         d54e68b5c31cbfb108c1f22ec21bdf43c5133e0e scsi: core: Clear UNIT ATTENTION conditions with TEST UNIT READY
+         49da33f609929db6f6c3b8567d0e0cca6f9ae182 scsi: core: Escalate persistent UNIT ATTENTION conditions
+         c14818f4d2b46a67fa0d2fd8fd5ef3532245f07a scsi: core: Limit retries of commands that receive UNIT ATTENTION
+         76455a2febb0af62978869b10503f8b134186e3c Merge patch series "Recover from persistent UNIT ATTENTION conditions"
+         
 
---===============8716872983224871969==
+--===============2724710400795496714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1793851415 -0500
+pusher 75C5DE3D 1793851420 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1793851415-d0845f77bea91c8424adbaa3e710f84d1d9fd639
+nonce 1793851420-1c05f68c02c19dc7e7418409f376ac508ecac71c
 
-ca14cc05808f9c0115c38bec53573bf93e030435 04feb5fd2c23894ebc2cdaf4a4cc38b8667b17ac refs/heads/fixes
+c17a92d40f0f5368e8d09a3ed9e9148662819ebf 50cc6f7daf637fd45157dfbdeeeae093ed30aa12 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrsABcACgkQ7ulgGnXF
-3j3W/w//dOTPhjrEpKPg/DOLeUwLczPK00tNLQrY2KlqDUgvk8676VDOrnBJpMKP
-jkyRZ5OQ1gAa4fSxKJwn/ZtA8qkkSxzzNvU8kcXdG/96/MVN5WF0hvf9dmLWnBHb
-nNVk9rmRZez662+LpS79LIQW8HE74rBGkqqZ0QSNLvBpsz07wj+5/2BkzkqD73r4
-8+Rmj90aaQG0obx5uf0lY1ID2cWcGbo+T0+YjRZx7xtaTIpDZzymZpPw7BgVkIlD
-zcElkQDeao+PXbajGTBbP4kriNskHOwZS9dSn2ZxOSd1TgH2oLbV7eM/JIec6gc2
-HO/mJ0pQFwO8HP0FkmwioqDVDtTagPxrCIUo0SwV8uWjslspTvvkV76dzUGG/RE8
-OS0oz4X5bwYyxFik9DyxR9sfb5NoUW1wvf/aKShKnaQ/gswQ96ec8yPkB24ofgmn
-AcuKxmg6hqeflSA3bmiVhGh6ov10Ag2V4eqcF+WmUvEFg5QLR8WKvoXwdu5NQYfQ
-ywFGItA1jjfJtJ7xjjf3HOz9OyqvK+MtXL6TcrBEE0qucYIE2X9wJUJRGy4d21Wq
-uRdxpxeEso+8cMHEsMfr0kUMxG/KYjeFwo8wWMAdIRSJYOU0jXfR/O5eDMo6RqAp
-Jba1H0VbR8cfGJm2EFR8L8oKz3o/bxP4WPLVYKn/Jh3V8F4K1W8=
-=41Ts
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrsAB0ACgkQ7ulgGnXF
+3j12wBAAmIecTjS9X4l+3hF3k3SMLvqdwbpNmftruPtFYPKtKRndbpnDRTfPQC56
+fDmR7ogvtHe6Ve65Ls/VbFKzZXQHTnMCi7UG6obB76gh7Lf+rM6NfsbaUiQmdfy1
+UFf2Ts/zLqlIGpgB0Fa29Mfot4EZJ4L++dfgQLFiwxV6RBm+8zmSTasHQQlyexAm
+fzv/Hp1mCD2TnIytXxUKTMxz6kLVDr1IlpIEljwLI24BqXocy3ceVZutY3xiZoPa
+/MTDCMERfAULoZCgizFuEo6xm1duhwujOJcXVbwGC2ozENvWpmqQPJ8fHePqk/eb
+EbfuVrBe4evedxJDYajgC2i9LXY67ZRbnO0HPKChbaVlEpexk5PbsJjCFoxuwYNl
+qOy8/XvlRlQFynv+oTcc7dnQQZMTefa60Y6ooAahnE5RrZ4dzN0FzhK+5HgbRbRN
+o7yFdaBaHrbVNWLD4vSiqSUaZhQzTaNkPkn5H9GlUSHcxGteSsk0j1+YaNLdbMo/
+AtPuz5C3QIufwwBpWvpa2YIFh9HnfFrwsV+zO69be0R5oXiHvDitPoSRIFKbHFci
+jmCkUrLA10wb16TuIPVF8rJL4heMuAReVnEodMJkkcSyFkrBFITxuSGUV6aDQCs6
+iQ7XFyqe006diWmSL2S4QJogChkHwIbfNzrgsrRO7fAm+J/0H9Y=
+=z98X
 -----END PGP SIGNATURE-----
 
---===============8716872983224871969==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ca14cc05808f-04feb5fd2c23.txt
-
-2b2bb55990cf1d9dbd59ee326d545798061fce97 scsi: bsg: Don't copy sense data to user memory when canceled
-6da1bc55c060bec3163b0e6077f3ac9641f8100c scsi: ufs: core: Keep clock-gating hold on failed W-LUN runtime resume
-94196cd3413fba6cf6d1f71d6de401e56caaf29b scsi: Revert "scsi: target: iscsi: Fix hang for aborted WRITE_PENDING commands"
-cae8db99f3956e6446827ae4a9605a1ed815772b scsi: target: iscsi: Fix hanging WRITE_PENDING commands
-ebf5cab0dd223a36a09742a91be4fea97e46c816 scsi: ufs: core: Restore jiffies conversion of device management timeouts
-cbab12e5b4a7f49d5add4301de275351269cd431 scsi: ufs: core: Introduce ufshcd_rpm_resume_and_get() helper
-93891d1c486efcef2267c32e6e73ca2fd243704e scsi: ufs: sysfs: Propagate runtime PM resume errors
-2b8541edf7c43f0294c45d2e687bbc1288292f4e scsi: ufs: bsg: Abort ufs_bsg_request() when runtime resume fails
-9eb89611d95914e47cec62826e4000396df0f953 scsi: ufs: hwmon, debugfs: Propagate runtime PM resume errors
-c84374cf4d2cb0c6efff91f7a37e85656cbbd593 scsi: ufs: rockchip: Improve RX noise immunity
-04feb5fd2c23894ebc2cdaf4a4cc38b8667b17ac scsi: leapraid: Fix init_cmd_priv error handling
-
---===============8716872983224871969==--
+--===============2724710400795496714==--
