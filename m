@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 05 Nov 2026 10:53:00 -0000
-Message-Id: <179387598080.3967010.13798952114701503823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 05 Nov 2026 10:54:35 -0000
+Message-Id: <179387607583.3967880.16543340534074806832@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-7.5
-    old: 740fb77b38380bfca0b253be17b310db18c0de79
-    new: 1ba6a1d89d1119bb05f640ac27e23babb226efcc
+    old: bf0507562dd0ce267264b1320479befabb8aac3a
+    new: 3994954055fec881baeb3b5e41a98253c33ee1da
     log: |
-         1ba6a1d89d1119bb05f640ac27e23babb226efcc ASoC: codecs: madera: release runtime PM ref on FLL config failure
+         5e36c313bcbaa57ad37ba0ab86c8badd1ea51060 spi: dt-bindings: add spi-virtio
+         a64623716fa19d530908faa5c16789204f747eaf MAINTAINERS: replace spi-virtio maintainer
+         3994954055fec881baeb3b5e41a98253c33ee1da spi: Add devicetree bindings and maintainer for spi-virtio
          
