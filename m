@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0493848045236294518=="
+Content-Type: multipart/mixed; boundary="===============8087066732979126679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 05 Nov 2026 17:19:54 -0000
-Message-Id: <179389919427.34307.9841342721276151912@gitolite.kernel.org>
+Date: Thu, 05 Nov 2026 17:21:00 -0000
+Message-Id: <179389926036.37083.880130420113685767@gitolite.kernel.org>
 
---===============0493848045236294518==
+--===============8087066732979126679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 9279b5a60a69757f2339176a57cdd3c72909f082
-    new: 8136206b43e344161576b1889d222a1213ef1716
-    log: revlist-9279b5a60a69-8136206b43e3.txt
+  - ref: refs/heads/for-next-keys
+    old: aef3a8a4f988bd2056de48ec0840ff47f7757087
+    new: 51bcd09b9ffca7a2a3b66fb57182bb391364f612
+    log: revlist-aef3a8a4f988-51bcd09b9ffc.txt
 
---===============0493848045236294518==
+--===============8087066732979126679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9279b5a60a69-8136206b43e3.txt
+Content-Disposition: attachment; filename=revlist-aef3a8a4f988-51bcd09b9ffc.txt
 
 5852cdf0006ff0f1d9a56f06197673d4e4270220 net/9p: fix typos in comments
 37dce65a0b4356d7ec289a5d09cece5db241c302 9p: use fc->net_ns for network namespace in RDMA and socket transports
@@ -416,15 +416,5 @@ a4da531b171c664a6cf42c5b82d1610cbdf14fe4 Merge tag 'bpf-fixes' of git://git.kern
 094c53d2994975e36d4cab7cf5d9f34c1b0f1916 KEYS: Reject descriptions larger than KEY_MAX_DESC_SIZE
 7a7f70ff7b26519c98b339a3e0cd9ee3c8d17f77 KEYS: Verify the key identity in __key_unlink_begin
 51bcd09b9ffca7a2a3b66fb57182bb391364f612 KEYS: Protect the update method check against type removal
-e9c35b59cd2c4e990e09265429b846e1a55b83b1 tpm: Check return value of crypto_kpp_set_secret()
-d6b9f5c127be39b060a180bc30d2fcba60442801 tpm: tis_i2c: Add reset delays for ST33KTPM2XI2C
-375d1cc6ec97c4e12b7b46bbaf8c7fbd06d674e5 tpm_crb: Add register definitions of TPM CRB chunking fields
-22dab9fa21899d133e6e4565763648e08fc5a82f tpm_crb: Split start method into a separate header
-6758f409faa8a3f805e790d44e4286edde5a057e tpm_crb: Add start_cmd parameter to tpm_crb_start wrapper
-14d6b06428375629398a8bce4f2765df8c49c4d6 tpm: tis_i2c: Use local 4KB buffer to limit memory usage
-61ad9b5eb44aa58f257f269cf972a907508a3bbd tpm: Increase TPM_BUFSIZE to 8KB for chunking support
-332bfc7e50e40c4c3b8d8b54b3cc31c99c3b5d07 tpm_crb: Factor crb_send()/crb_recv() bodies into helpers
-0f401ac747ac6701bbb1ab9d68c1ca5ac296f3aa tpm_crb: Implement command and response chunking logic
-8136206b43e344161576b1889d222a1213ef1716 tpm: eventlog: check the payload size before reading tag events
 
---===============0493848045236294518==--
+--===============8087066732979126679==--
