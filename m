@@ -1,53 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============0726381056909169111=="
+Content-Type: multipart/mixed; boundary="===============8116371273595872707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 06 Nov 2026 18:14:58 -0000
-Message-Id: <179398889889.1392792.8942077924793416803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Fri, 06 Nov 2026 18:15:05 -0000
+Message-Id: <179398890501.1395440.2785510434592062996@gitolite.kernel.org>
 
---===============0726381056909169111==
+--===============8116371273595872707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v5.15.225
-    old: 0000000000000000000000000000000000000000
-    new: f2a32e5aab839228c4153b929b440223f99135ec
+  - ref: refs/heads/linux-5.15.y
+    old: 700e62ea909a70b9f72692d8b7a192ac7ebde0aa
+    new: 29c6cdaac04a6989a7ed4ae4275ce4244e617f58
+    log: |
+         ab9cdf1291be551da999510b30216a2886074d7a xen-netback: Fix UAF when reading statistics data
+         0e786123e46d08d2247ce93a5435e45ed9f4c5d1 xen-netback: defer xenvif_mcast_addr_list_free()
+         2c9ccbe0ffcff3615c7ad917c49b67571a41f21c xen-blkback: Avoid UAF when reading I/O statistics
+         29c6cdaac04a6989a7ed4ae4275ce4244e617f58 Linux 5.15.225
+         
 
---===============0726381056909169111==
+--===============8116371273595872707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793988898 -0500
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1793988898-d97557e3c39560a0091aac6f1ea52570c4fbe016
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793988904 -0500
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1793988903-3a742ef9de324ac1ed1c98910d1463439499a7c3
 
-0000000000000000000000000000000000000000 f2a32e5aab839228c4153b929b440223f99135ec refs/tags/v5.15.225
+700e62ea909a70b9f72692d8b7a192ac7ebde0aa 29c6cdaac04a6989a7ed4ae4275ce4244e617f58 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmruGSIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B6QQAMCr6OIxiPb4LOR5o/W3
-VFbr2sPFfrpGiKtgEleVOaFlybvYvQGmV6LnClFwn/hsRP7iWshn/HXU1kEN63cZ
-t5BmQVWYqZ0rFetJrl7L2a6i8g8q92pPCmSzYn5iw05jdH7j9N1Z+K5wLXNvYFHp
-kZA4GSgRwgC0aFeY/6+fbNLOhxFaRyQ9X8TShs1zGyX1xqSm+9IAbZqO+iUsOxpj
-bqvUNs9WWFCbIXmtmoz5Ck+qr9M63DyY0Ik3RiVC802qclWe04eG+XYv5tsNutXh
-iqpTw6XUJz1Ia5PZpQAhOQFv3WulKTAwD9MkEtf9mAy+qp2lCRv1tdtHIJoBlmzg
-p5YtcFgYIiIPilafkBLicWBvcJRDn6eu8P2rHiIpsSsOuqg3T1cSMbmTBVae2Cil
-sm0ijQ4yt5Jtho1nPpXv13d5L1QTraKKp+HEQrq7r8UAHZPo339LNuOAA14spnQE
-yWoAv/9UaOtCw6nD8wl52YXsQWXn3iqKc3cFeC+87X3sXfD2A2hm8LbCJDBwrh7E
-L/Ql1I+QOFMasOPtkN4dL26TXFWc+MQj1FXWTjYjlqmqRWIl9DdEAfu3wWmMC/lq
-+aZUEQHIM2SXXk1smwnHaM3fHbaPpmDlxi3DLCj9oaECSKOFIFLiMXINOMsEPpUE
-lHPQcsJKGoKLk1IVbtyy0pjN
-=g7eT
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmruGSgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+aisP/j/PMIfQL5BEonSXMsRW
+JtPxSgd2sWsL8fH2jI6ssg7TLPrOAb2ZACO/82mH1pfhFJ8Jjc+lH6QM7O1ydhqT
+wei1rw+pjXE8Ww2jREdZwLugoWyP8E89jtr0aqc4SpyZZOxigt7xR+CN64p6kxPQ
+cmxzQKrApnyBv8anFbwcBNmrZNfOnEb6/po3Niz1cq7rzL7UY2mbImM4yUSofOJZ
+xENFv9MkaWy4rMhCrUPIyTxs8XtnT4i8rAcA3Zge2g1aBmwQPNaijoILlUjZGXfR
+xUgNc4r6BtCltyfowXsYbv5gk9DXToxfAV44fR1Jo9mPHUZTcl1pRiWUvZ70lHMe
+lgIkVyoB6pP476KHDptHrXRiRvCE0Ng8qHdQOlrnTMFyDr/RYcXGvkc+xdnPHPEr
+UgSgw1cY3G7qJr/o2/c4+DnFxnRF334r1Gst6q3tRDLrR4IikygYEOXuVN5QFjz3
+v4kUjEfKPpdAQ3GKsMjCDZx1HQwIL80yS87FMkgFY8G2b53sHnFKI/d7Ahk/6gyd
+S+/jG97nKoQP9Hp7ktF9e3V6furAhTqnKqVgd3PZ4wq2vpfZ36Su5IjdXJUaf3r/
+JIlsY1fRsAWPOoq7e12RD6l1gxUgDdhnWPezh/TIROgy19qaxUxEG1v101EBcESW
+P9wWo3/SAkoabPjOLlA39Ivp
+=E4GZ
 -----END PGP SIGNATURE-----
 
---===============0726381056909169111==--
+--===============8116371273595872707==--
