@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5829008036489534852=="
+Content-Type: multipart/mixed; boundary="===============0555152862890316076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 06 Nov 2026 18:16:27 -0000
-Message-Id: <179398898743.1454775.15697972198947309992@gitolite.kernel.org>
+Date: Fri, 06 Nov 2026 18:16:32 -0000
+Message-Id: <179398899208.1454966.13642541747609967823@gitolite.kernel.org>
 
---===============5829008036489534852==
+--===============0555152862890316076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.6.y
-    old: b5a1dc3ad4822c6edfb53429e9a3759c9b0ac2be
-    new: 5139929c698c273e07cb0635732f6a918a7b8e78
-    log: |
-         89e534265b62c94749639350200b10370564bb3a xen-netback: Fix UAF when reading statistics data
-         0d515c409033c8e2a645a781be3ca76ab825fc8c xen-netback: defer xenvif_mcast_addr_list_free()
-         fe9ead8c5bdb752e329cecfecbdb5dfca5e9996b xen-blkback: Avoid UAF when reading I/O statistics
-         5139929c698c273e07cb0635732f6a918a7b8e78 Linux 6.6.162
-         
+  - ref: refs/tags/v6.6.162
+    old: 0000000000000000000000000000000000000000
+    new: 5e65a2d03c612c60bdd4b013e773fa583f01aa9e
 
---===============5829008036489534852==
+--===============0555152862890316076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793988985 -0500
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793988990 -0500
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1793988985-e2ab0dc943f91cfb1712fa358fc5517397ab8d90
+nonce 1793988989-b77783f3ea74605543e817d35de36a7e93816886
 
-b5a1dc3ad4822c6edfb53429e9a3759c9b0ac2be 5139929c698c273e07cb0635732f6a918a7b8e78 refs/heads/linux-6.6.y
+0000000000000000000000000000000000000000 5e65a2d03c612c60bdd4b013e773fa583f01aa9e refs/tags/v6.6.162
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmruGXkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+p1QP/1wWZDivJbvjM3M0JKCF
-gz6SULSG4YuRWTdDiZiu3DGX2Qk3eUwfiQdO7FPaG/a4PY7siaAQua6jkmLmskjJ
-hACV4tW0s14uF94mmYbjMoclzjfpYFojuj99Vo2LHi7J05XpduUfJJr6SMGNJSgj
-RDb8phX9hiPoxhPhh7eDnf3+qaJR8wr9KwYGh7FURp08dS6LLNKZDcEBxuRpkmmW
-xObPkHaBR+qyi9prPRgk0sxkI4RYf5uNBrfay/i4l6bZgvSa9Zl/idI7ozcNwZAB
-4lp7zatdpsm1AsC3QPrDiy3QYM8RvKOPO65Qca+cgx3LrsXi26ZMAVTNuKH3ocxJ
-ezFn/Fc9AMHAQvNEjXTFX0EIBsyRzRMCprwbmv7S/mVsTuYipLzMpabFw5YyyqRI
-IVAxA/R4ehm3HQwv6bB3p/NTBtE5T2oRlR9YBNdcBk2N/nUBoLzBxIabeXU8n47L
-mi/jDyOJZhvey4rI/jt0hDKTz0WDyqDBlncSxaChYYlVjcuqJM9pmTDW2hXFuIwr
-jQPaVfZ5Yy1mdFqp+YzKWSv3LqSm9OSw2kLTqV6uZJdXBlzrnLmtDKpwJv5lW0VK
-V7yMi5NsVsMIk/vF4scEo6E/3Nq/dw+6XHdoETuRlyBbNOeAGBC7m7n9aqeKt1aB
-dygHN/gM7Hg1LfqA1ZEhKW2t
-=seYO
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmruGX4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y9gP/jlR/n0E0LV+pTfPVnLE
+SRKeqqw1JktzcmAOvQCxWeWzNiAWtNB8T5Cum5jf7VUS0zKyzigbF+R2ngRvxfhO
+0Fmq13R8530mp0IbsD7J2zucq280XzUELPyvCVu+wpNWgN5IUiPGr0qi9kNPOGsd
+HbRPrU00KtWdpObfiBoeY925F31ImEntL+qSHMx2SQ9LMFZYYmTxrhkhaiRQMTl7
+zE8WKj7WM5N9wmhK2RrnJ/oCQK1FWibHuuLBFlQ8SSV0Ha4eI4jVZ+JxyigZ0SpQ
+CxvCfteu7MlEkatjtQfaepLWCHyCSKZ94d0bndSRwInu8w2M23PuJ99PofSkUVFT
+LpTCv76ciuIbyxdDcd4oRMx1p/KNRqO/BsYSp9KTvHXvCkvwp4b6dCmJmXlNu6ki
+GNK+Vq+XleLrpL9DmIMjangh9UNmB2uNK0rnYFcuIBtv5P7wymcVYNKVCVX0wNrS
+3FNy0jwB5kN7ke/3/66d8YpY7+hbKrPcYp5tCavIzAyILKOFYupn7npLiyE5QTwf
+uxJQ92QaCyjjj7th4xXHIl+0Q84DgyBc1Itjnm182W8OfhSMCV2AI5MccG3cAhca
+iICq57AVO9En1t72CrIjKV6Kg9FNePr16dgNOdEamB/f49sI8D6SEfh4CZeLM0Zg
+sODxzHcW1Ff3+8Rj3XDfICzP
+=6tDK
 -----END PGP SIGNATURE-----
 
---===============5829008036489534852==--
+--===============0555152862890316076==--
