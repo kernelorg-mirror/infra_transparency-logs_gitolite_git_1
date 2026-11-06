@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6903379006866388645=="
+Content-Type: multipart/mixed; boundary="===============4494011901022171771=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 06 Nov 2026 23:56:17 -0000
-Message-Id: <179400937720.1821866.10305994687159687274@gitolite.kernel.org>
+Date: Fri, 06 Nov 2026 23:56:20 -0000
+Message-Id: <179400938021.1822063.11238605757699828164@gitolite.kernel.org>
 
---===============6903379006866388645==
+--===============4494011901022171771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,29 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-testing-canary-nfs_common-XFS-IOLOCK-and-async-DIO-middle
-    old: 2649cfbf2d430796092b5046bf42704d9272cbbb
-    new: c9fdd9d821bf55a692d0e67bd170d531aa06793f
-    log: revlist-2649cfbf2d43-c9fdd9d821bf.txt
+  - ref: refs/heads/kernel-7.3/nfs-localio-performance-canary
+    old: 661da2039c5b92579beb50e3fa32b64a180c945a
+    new: 1aecf9673592d88da4991739429da617ab7c2caf
+    log: revlist-661da2039c5b-1aecf9673592.txt
 
---===============6903379006866388645==
+--===============4494011901022171771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2649cfbf2d43-c9fdd9d821bf.txt
+Content-Disposition: attachment; filename=revlist-661da2039c5b-1aecf9673592.txt
 
+54c59dd5ff463c92f6f4494db46b7ecbfcf3e278 NFSv4/flexfiles: move layoutstats accounting to a per-stripe lock
+c5a50b363503b3f4af5f4829e6e52f9082b14ed1 NFSv4/flexfiles: drop the now-unused per-mirror lock
+a02e17af1eabd6e98722504cb33d1d84d036d562 NFSv4/flexfiles: cacheline align the per-stripe layoutstats
+f5b441c6e8c48c031dcc8e1cbbd7b6dd23e84436 NFSv4/flexfiles: make dss_info->start_time write-once
+fa9a8ece8b4d9e71c0b848dcb22ba6fff0cf1c9a NFSv4/flexfiles: drop the redundant atomic from the busy timer
+2ca1e2b0b59ffd01ff8930e25bf99df2820034ae NFSv4/flexfiles: pair the in-flight count with the layoutstats updates
+6d8c78c86f45d8cb2d71af070275c64d996e4d46 NFSv4/flexfiles: derive ffil_ops_requested rather than storing it
+cb293dea0b514ea11977ceeb69fb9cbf777eabf2 NFSv4/flexfiles: give each direction its own lock and cacheline
+f58814d06e81c8308f7acaf1cf2ac8e7b67e3964 NFSv4/flexfiles: drop NFS4_FF_MIRROR_STAT_AVAIL
+6c6b024f4072dd6b2e062351f69f2f75d8bea609 NFSv4/flexfiles: rotate LAYOUTSTATS reporting across a mirror's stripes
+93c1a8c542e228c12f27fd69d65450d783864841 NFSv4/flexfiles: take the report decision out of the critical section
+d80d0751e59e6700a6c8b7e9e2373a192a52d127 NFSv4/flexfiles: share one helper for the start of a read and a write
 352dd525ebedb93d4b7f73b2e6c044f1fbe91e9b SUNRPC: fire svc_xprt_free tracepoint before dropping the netns
 9f00e2849a8f2175f5f9d50dd3dae1d28a0d2541 SUNRPC: fire svc_defer_queue tracepoint before publishing the request
 13b3a6b46d97a45b00a7a22c1e86c0e24c473143 svcrdma: fix a page leak in backchannel sends
@@ -101,11 +113,62 @@ a08a7a10f7a0ce77d93674b99618f86f344e583d nfs_common: share direct I/O write spli
 c902db923de89f70d32013552039f1264b4576e7 NFS/localio: persist a synchronous direct write once, after all its segments
 2df9f20ddaa0ba768a0148a155966d58410e60e4 nfs_common: fix the skip accounting in nfs_dio_iter_aligned()
 a848e4394fe7dcc4e8e1621e754cdadc48a048cd NFS/localio: complete a direct write that shares a page before it returns
+7144d4d91f30c1092bbb1ed00f4f8c4d0c0635ca NFS: don't take inode->i_lock twice per direct I/O for the opening owner
+d060cb447784ed432fdcf9a424d23553849e5066 NFS: take inode->i_lock in O_DIRECT write completion only when needed
+43097cef570aa70cbc06029bd66b99893bbf01ce NFS: skip inode->i_lock for WRITE replies that cannot change the inode
+7afba0da9b0393f713aa2d92ae08407588b895f1 NFS: don't take inode->i_lock to re-mark a stale atime
+22e9affa478b5a08515b22b3cb919e23c595b34e NFS: check for a delegated atime before taking inode->i_lock
+9639f0557ae02b9635c8e42ca281ca3833fbfa49 pNFS/flexfiles: don't dirty the layout segment on every data server RPC
+23e03908b469c32c11ba2791d32e029acade82d5 NFS: only account read_io/write_io when an I/O mdsthreshold is in use
+8dd463c2ac313008213eed79c070348fdb4fe20a NFS: finish stable O_DIRECT writes without the nfsiod round trip
+d4759b0f36ad30335d4ad2f2c69a096f8391cb72 NFS: admit O_DIRECT I/O without taking inode->i_rwsem
+a92549e63f471ceff6fb303cd2c8fdbd703f126b NFS: skip inode->i_lock when a delegated timestamp is already current
+44947b21ef0db3699f4741cb718cdfd34b63fa75 pNFS/flexfiles: give the read-mostly layout segment fields their own cacheline
+561c203d6316e129757ade9c89f026491577fe96 pNFS/flexfiles: don't take inode->i_lock to release empty commit info
+e367772c6ad6ceeea9216e516fd9de1d7a93079c pNFS/flexfiles: bound data server RPCs with pg_bsize instead of a per-page test
+b3f1b558d7dadb218278cb4ed4ac645c79403452 pNFS/flexfiles: look up the cached layout segment without inode->i_lock
+3abdd687a95e1d1a5994147c8e688b1a97677657 pNFS: hand the page I/O descriptor's layout segment reference to the header
+e97aa8a5985e74a0f48ee261c505f56121d112ad xprtrdma: Allow reclaim when allocating a transport's initial requests
+84c37f417fde788d6442e0e007f469851a889cd6 SUNRPC: Do not abandon the remaining nconnect transports after one fails
+82bf5f7513da6b186397f6a5f86907563b21ec95 pNFS: Report a data server left on a non-preferred transport
+aff70c850c1df65f8c0b73244b2f7a9f06b71918 xprtrdma: do not clamp the FRWR depth below one chunk
+c95f9e3953ecb8f48a3cf7379848dfb28bbf77c9 Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO' into kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO
 c5f3ef1f6c285f3775939269387e0ff90fd430fe NFSD: issue the direct middle of a split WRITE as an async kiocb
 d7199cdd4b63e6c7b2718ccc1c7a9cbb05ad26f3 NFS/localio: let a direct segment that is not last release the IOLOCK while in flight
 fa7a8f16e05774354ad84a67ed530f838dbafc89 fs: add IOCB_NOSERIAL
 74d3340115507e0c67ae16e36745a1df45764021 xfs: take the IOLOCK shared for an IOCB_NOSERIAL buffered write within one folio
 993bf093a3c93350e7fcfc7407a1075bca9a5f3c nfs_common: mark the misaligned ends of a split write IOCB_NOSERIAL
 c9fdd9d821bf55a692d0e67bd170d531aa06793f xfs: serialise IOCB_NOSERIAL buffered writes with each other and sync DIO
+caec5edc4c700c6bb86c0948dd596c77ec9d12d5 kernel-7.3-12
+299b540ecf93543bb85f523bdcb654e6ba076db3 Merge branch 'kernel-7.3/block-DIO-alignment-fixes' into kernel-7.3/main
+dccf95817a98f556fe7982f75981dc1da05e42e8 Merge branch 'kernel-7.3/trond-nfs-next' into kernel-7.3/main
+2f29d0a8f8a41ad6581450cc67cf17b28581f346 Merge branch 'kernel-7.3/anna-nfs-next' into kernel-7.3/main
+9273dc688bc5c548907e64ad9d568e8d511f3d94 Merge branch 'kernel-7.3/snitzer-nfs-fixes-canary' into kernel-7.3/main
+d87c04896717fd020de763fd0b3327f4ab598921 Merge branch 'kernel-7.3/nfs-testing-canary-localio-reprobe' into kernel-7.3/main
+3c2308c40ff09b47354340cece82de8917d5f875 Merge branch 'kernel-7.3/nfsd-7.4' into kernel-7.3/main
+37be48ad6909b39a7898c3070d2dd1c0b9b16e97 Merge branch 'kernel-7.3/nfsd-next' into kernel-7.3/main
+7d58987e4d0ffdf70346d5f2e73b248f999afb54 Merge branch 'kernel-7.3/nfsd-testing' into kernel-7.3/main
+088df666d12a61712cb09c4c73be7431a099b4c2 Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache' into kernel-7.3/main
+85d34bcecc7e5798d9379f83c33475e0ae833969 Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO' into kernel-7.3/main
+29e18eade187eeaeae1d453ccd50c2a8565076cb Merge branch 'kernel-7.3/nfs-testing-canary' into kernel-7.3/main
+35999864f964a7ba2ecd8f087c99df92d086977a Merge branch 'kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO' into kernel-7.3/main
+f2b8092b16112d5defdc60b1a4271d908e5758fa Merge branch 'kernel-7.3/nfs-testing-canary-reduce-ff-layout-contention' into kernel-7.3/main
+a9c4c390b610786d1eff0866d5cb07f171ffb5e7 Merge branch 'kernel-7.3/nfs-testing-canary-rdma' into kernel-7.3/main
+278ad54cc59fe2623eb84751a49d7fdd0c6d375f Merge branch 'kernel-7.3/nfs-testing-canary-nfs4_acl-passthru' into kernel-7.3/main
+e56572c6459184660cda026db2076fbe355afeeb Merge branch 'kernel-7.3/changelog' into kernel-7.3/main
+61a2fac97f386fcf973568b74c2d478665458cb4 Merge branch 'kernel-7.3/nfsd-testing-canary-nfs_common-XFS-IOLOCK-and-async-DIO-middle' into kernel-7.3/canary
+ee82e3c2df8fd53835f42fc837f3f31f1146eddd NFS: wait for direct I/O before fsync
+e3807115d0988ddb79b535108273bb33fe37570a nfs/localio: direct-write durability policy, default dsync
+058ca5b1bb59ca007ad93aadca10c5be8da6e6e5 NFS/localio: restore task flags with memalloc_flags_restore() in workers
+7b9017c1a60e3756cc6844a24067a938b2e895bb NFSv3: cache only a nonzero READ reply header size
+fc4e5389a682efc59d9c78ee49b62d85dbafb562 NFS/localio: admit each I/O through a per-CPU reference, not shared locks
+d10cb356442e7583aae21a334144d94f36f63fa2 NFS: io_uring NOWAIT admission for NFSv3 O_DIRECT I/O
+77d52d1028ee360aa9fb3a1d6f25437a97ddeba0 NFS/localio: hold freeze protection until an async write completes
+21b01c6f9afe99bed9982f68039743a0b083dcdc NFS/localio: default-off O_DIRECT request batching
+9f3cbeb3a6e14ae08850a5ad96d8e6dd21a5f65b task_work: export task_work_add and task_work_run for NFS LOCALIO
+fa6b2ad0f4b58ad4360ec9d813103b6920a650d1 NFS/localio: complete LOCALIO I/O without the nfsiod hop
+6c1bb39bec29e95e311f247a9c08dc66e657ddd8 NFS/localio: KUnit tests for the completion CPU choice
+b90b983c9e2d7c22b558b4e70e8a78a7f08e1ce1 NFS/localio: re-issue a short read or write from the workqueue
+1aecf9673592d88da4991739429da617ab7c2caf NFS: nowait_writable defaults to N
 
---===============6903379006866388645==--
+--===============4494011901022171771==--
