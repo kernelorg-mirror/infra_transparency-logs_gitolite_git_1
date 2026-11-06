@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 06 Nov 2026 20:33:39 -0000
-Message-Id: <179399721970.1670989.11013241468195843768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 06 Nov 2026 20:34:28 -0000
+Message-Id: <179399726877.1671434.13885371190837031882@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/todo
-    old: eb4451c92cf75fc360d02c209de5203dfe22d159
-    new: 9abd0c3fca6cfeca861f73c661c779995d1217a2
+  - ref: refs/heads/bleeding-edge
+    old: 0720247d0f6fe6cd2a107b37fba82e342fc67331
+    new: 4fd29716da44aa563113d5ec906b281b33c3833d
     log: |
-         f3525c2c08fc4a13f3fcc189d4667545cc3cf94c Meta/cook: update blurb on the status line again
-         9abd0c3fca6cfeca861f73c661c779995d1217a2 What's cooking (2026/11 #03)
+         52ba898e6266199ef2c6a4bb59d5529fd7461c88 ACPI: tools: Link include/acpi instead of copying it
+         9d619b0dbb647b04b980b28d0056f4205132bd11 ACPI: tools: Rebuild objects when a header they include changes
+         4fd29716da44aa563113d5ec906b281b33c3833d Merge branch 'acpi-tools' into bleeding-edge
          
