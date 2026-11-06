@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 06 Nov 2026 00:57:12 -0000
-Message-Id: <179392663202.424771.7999865062205198324@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Fri, 06 Nov 2026 00:58:13 -0000
+Message-Id: <179392669340.425420.10214009500205952771@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/master
-    old: 972d6dd4a3a72e8bc857efcdaa1e3fbaeda83080
-    new: ecae68cbff0ac5e3081f574de7d07569f858875d
+  - ref: refs/heads/driver-core-testing
+    old: 071bbeab6aad1e868ae3f53bf181ad3d3c22a858
+    new: c890943b295b2762656115b596f3d29aaa18751b
     log: |
-         ecae68cbff0ac5e3081f574de7d07569f858875d foo
+         c890943b295b2762656115b596f3d29aaa18751b driver core: fix memory leak in physical location error path
          
