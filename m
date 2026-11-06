@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Fri, 06 Nov 2026 13:03:43 -0000
-Message-Id: <179397022389.956277.5867169557358015996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Fri, 06 Nov 2026 13:06:15 -0000
+Message-Id: <179397037591.959305.10449040325588977505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/tags/xfs-fixes-7.4-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 0675bd03e754279599fd3905aae8e4ebbb55cc1c
+  - ref: refs/heads/ntfs-next
+    old: 90ff726bfd0a0f199206ee2679c04f714febaa6e
+    new: 807a92e8622838ff57e2869264aea310245e98a1
+    log: |
+         807a92e8622838ff57e2869264aea310245e98a1 ntfs: silence kmalloc/kvfree mismatch warning
+         
