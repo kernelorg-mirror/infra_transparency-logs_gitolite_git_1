@@ -1,22 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
-Date: Fri, 06 Nov 2026 14:35:25 -0000
-Message-Id: <179397572588.1038747.17138165825798256339@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 06 Nov 2026 14:38:05 -0000
+Message-Id: <179397588542.1039591.17289857334392894275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mricon/korg-helpers
-user: mricon
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: c62bc7932cf0e29a82bc0ab68b1f502c86ac611d
-    new: 5dab2b969e20b32e8d3ad187414c99c6bae92863
+  - ref: refs/heads/for-next
+    old: 82f733e54a919ef46e8ac7265413b05f9c2ab3ce
+    new: 148a32166601ce00d614fde7648ceb156cd5fa27
     log: |
-         f46d8ea25b2a1167b52b92cdbdf04a7ab846822b list-archive-maker: fix message handling and modernize
-         9a5dd72d658cdfc93ab6888b6a7d922a212c865a list-archive-maker: add tests
-         081609a2d9ae3ec381a128294dcdbd928d734c0b list-archive-maker: read and write known IDs as UTF-8
-         5dab2b969e20b32e8d3ad187414c99c6bae92863 list-archive-maker: write into public-inbox v2 inboxes via ezpi
+         c64fd9e2efeb6cb4cdc3f98fde96ad543e1356ab ALSA: hda: Serialize codec probe and remove on the same bus
+         1ad267d71c3503b59b1f2bcd587b86ac6db29ed8 ALSA: core: Add the card file while looking up a minor
+         02c816a7162007c0a89dd930568906507aee74ba ALSA: pcm: Add the file to the card while looking up the minor
+         1fde88bd72ad7a3c4a855d3ce2dcc597738eb5b1 ALSA: pcm: Refuse to open a disconnected PCM
+         a52a60c0cea453992676b05d95a8668497c48a85 ALSA: hda: Wait for the files of the codec PCMs before freeing them
+         148a32166601ce00d614fde7648ceb156cd5fa27 ALSA: usb-audio: Add Arturia AudioFuse 48V/Main mute mixer controls
+         
+  - ref: refs/heads/master
+    old: b87c34ffd04683b3582647133c44bdc2b41ecb52
+    new: 8614bc57576e99f1711a61f261f53fb5a5061847
+    log: |
+         c64fd9e2efeb6cb4cdc3f98fde96ad543e1356ab ALSA: hda: Serialize codec probe and remove on the same bus
+         1ad267d71c3503b59b1f2bcd587b86ac6db29ed8 ALSA: core: Add the card file while looking up a minor
+         02c816a7162007c0a89dd930568906507aee74ba ALSA: pcm: Add the file to the card while looking up the minor
+         1fde88bd72ad7a3c4a855d3ce2dcc597738eb5b1 ALSA: pcm: Refuse to open a disconnected PCM
+         a52a60c0cea453992676b05d95a8668497c48a85 ALSA: hda: Wait for the files of the codec PCMs before freeing them
+         54456091fa6d47a33e97a344cffd86be91757d2e Merge branch 'for-next'
+         148a32166601ce00d614fde7648ceb156cd5fa27 ALSA: usb-audio: Add Arturia AudioFuse 48V/Main mute mixer controls
+         8614bc57576e99f1711a61f261f53fb5a5061847 Merge branch 'for-next'
          
