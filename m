@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1236146115587789364=="
+Content-Type: multipart/mixed; boundary="===============7960541492292995614=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 06 Nov 2026 03:41:40 -0000
-Message-Id: <179393650030.551088.4589520199780093005@gitolite.kernel.org>
+Date: Fri, 06 Nov 2026 03:41:42 -0000
+Message-Id: <179393650280.551250.6277690396769323618@gitolite.kernel.org>
 
---===============1236146115587789364==
+--===============7960541492292995614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/canary
+  - ref: refs/tags/v7.3-11.canary
     old: 0a8ccf80799626a64846591a14c372185c61d4a8
     new: 2e3a1b18333ef5e31ae270ee5711596da0246cd2
     log: revlist-0a8ccf807996-2e3a1b18333e.txt
 
---===============1236146115587789364==
+--===============7960541492292995614==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -90,4 +90,4 @@ d53853c051419fb507c97d537346d67ece83a65d nfs: remove files with the parent direc
 68fc6164f8961122ff3579b9d8eec0b6a080f3ae Merge branch 'kernel-7.3/jflynn-io500-canary' into kernel-7.3/canary
 2e3a1b18333ef5e31ae270ee5711596da0246cd2 Merge branch 'kernel-7.3/changelog-canary' into kernel-7.3/canary
 
---===============1236146115587789364==--
+--===============7960541492292995614==--
