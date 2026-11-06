@@ -1,51 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0717079286285700621=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 06 Nov 2026 13:45:53 -0000
-Message-Id: <179397275364.992101.13077466949595651519@gitolite.kernel.org>
-
---===============0717079286285700621==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
+Date: Fri, 06 Nov 2026 13:52:33 -0000
+Message-Id: <179397315330.996173.13269659853172790975@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/fs/ext2/e2fsprogs
+user: tytso
 changes:
-  - ref: refs/heads/for-next
-    old: 79679d298f58ce08cdf4f308167ca93a21e8952b
-    new: a1504e10296daae2a97f5efd6794729f21a7ea9e
-    log: revlist-79679d298f58-a1504e10296d.txt
-
---===============0717079286285700621==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79679d298f58-a1504e10296d.txt
-
-007f91d0fdb80ae16feae3c1a55f5f114c8197ac ASoC: amd: acp: fix missing cleanup on devm_kasprintf() failure in mc_probe()
-2f107878e7a20b2069b503c26f34b2ee95fbf17d ASoC: amd: acp: fix missing cleanup on devm_kasprintf() failure in legacy SDW machine driver
-be810ddf1be97428b370cb49ef37998f0e71daf1 ASoC: amd: sdw: remove unused ACP63_SDW_MAX_CPU_DAIS define
-7de8faa0fb6ed39fc69d458c1a167a2bab46a62f ASoC: amd: acp: add ACP7.B/7.F SoundWire link count for machine driver
-b6fd467a4be07578f40f4a1a8d1a237ed4b011d6 ASoC: amd: acp: add ACP7.B/7.F SoundWire DAI link support
-f6a58ddb3284ee0a1749947201ff3fa0cf0a2e76 ASoC: amd: acp: add PDM controller selection for ACP7.B/7.F SoundWire machine driver
-5b597730d199dd7d9929b20e0e8fcc34628169e7 ASoC: amd: acp: log ASOC_SDW_ACP_DMIC1 quirk in SOF SoundWire machine driver
-eb5a7c98ca1b16ea54228037cbf06ac8ea2264ef ASoC: amd: acp: enable DMIC DAI link based on PDM controller selection
-5ad81cbb83bdf385561dd8372d3147b808176eb7 ASoC: amd: acp: move ignore_internal_dmic gate to DMIC enable condition
-2ced313a0605a72eb23c87c45cffd28ffd7cf3ab ASoC: amd: acp: add DMIC components string for SOF SoundWire machine driver
-90a52a8f23fab004e513908772d9d5242a3c1e3b ASoC: amd: acp: set PCI subsystem ID for SOF SoundWire machine driver
-faa5a77479ad0121dc9ab244514f276c1ef1942c ASoC: amd: acp: fix MODULE_AUTHOR missing closing angle bracket
-48b1ff3a75d9348635f0e5064a8bc1f1a76d79af ASoC: amd: acp: add ACPI machine tables for ACP7.F SoundWire
-c9ff86300abe8ec1b892b0ce767fc44a1347dc12 ASoC: SOF: amd: add alt_machines for ACP7.F SOF SoundWire
-e6f48837d135f0e3273a509e74e60adc84727e29 ASoC: amd: acp: add SoundWire machine table for ACP7.B platform
-4384043e78be740e888af650daf1191be4e54ff9 ASoC: SOF: amd: register SoundWire alt_machines for ACP7.B
-5c6bfd69310cf8eb1f15d035ebb45c19550be629 ASoC: amd: acp: ACP7.B/7.F SoundWire machine driver support
-8f70d5f9161116d8daddf8d0758a079adb32a62e ASoC: soc-core: Increase the channel map size
-28c0e86dc8f3b9e4bc17f1f5d197f5a4d06252cb ASoC: fsl_asrc_m2m: use dma_chan directly for dma_async_issue_pending()
-c25f50f02faee3d5a11cf7a2e47801efd170f0a0 Merge asoc-linus into asoc-next
-a1504e10296daae2a97f5efd6794729f21a7ea9e Merge asoc/for-7.5 into asoc-next
-
---===============0717079286285700621==--
+  - ref: refs/heads/maint
+    old: 75e95512b22c57db042a53e2fe1af7fcc0a3b2e3
+    new: 36d2326f5326b25e2dea4f7ea20f7f0749403a17
+    log: |
+         92e73aff50f91bb986e3f44f5e36f0d7190033ce Add an AGENTS.md file
+         2b0198c84dc4b76063afdbf33374079b987614b0 Add documentation and AI skills for creating tests and reproducers
+         483dfecb661b0a0b9a7dc87b80347ffadf2ab510 Add documentation and an AI skill for creating unit tests
+         9b548326fb7d9de6c60aa7182d8874276a185453 AGENTS.md: add instructions to use VPATH builds
+         482b5cfaa25c14c07efa3a70fc3638d5e5870ea7 .gitignore: add e2scrub files and util/symlink
+         40e06760eed4fc2af0273d727a5a458c68a13338 Use strtok_r() if available in preference to strtok()
+         4295cf2c816cb6c02e4ac3541b9db57ccb64aabd libext2fs: add comprehensive unit tests for extents.c
+         5fe557fcffd9f9931b9a2d97faa12e31db7f0b47 libext2fs: add comprehensive unit tests for block.c
+         5c6723bea3c58a4fdbfda48772d3e1099762caad libext2fs: add comprehensive unit tests for ext_attr.c
+         3d8557fce4ab28cd4a40c880f8b70b4fdc9edf7e libext2fs: add comprehensive unit tests for csum.c
+         36d2326f5326b25e2dea4f7ea20f7f0749403a17 libext2fs: add comprehensive unit tests for swapfs.c
+         
