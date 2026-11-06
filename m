@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6978007864767423617=="
+Content-Type: multipart/mixed; boundary="===============5963161424692403159=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 06 Nov 2026 05:48:27 -0000
-Message-Id: <179394410700.639665.11394258611940736358@gitolite.kernel.org>
+Date: Fri, 06 Nov 2026 05:49:47 -0000
+Message-Id: <179394418714.640403.5955737445631467991@gitolite.kernel.org>
 
---===============6978007864767423617==
+--===============5963161424692403159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,28 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-linus/v7.4-rc2/devm_kmalloc_obj
+  - ref: refs/tags/devm_kmalloc_obj-v7.4-rc2
     old: 0000000000000000000000000000000000000000
-    new: ca0ab4e0fd8c0770ff7c61d67d65d9190afd8512
+    new: 6ba14036c965ab2c45cfd0e822f20a824089941a
 
---===============6978007864767423617==
+--===============5963161424692403159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1793944097 -0800
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1793944186 -0800
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1793944063-25846edde7aef4065a13308c88643f80afbf8dfd
+nonce 1793944184-4a3f7dced408532e3c61bbbf7d2946564d538822
 
-0000000000000000000000000000000000000000 ca0ab4e0fd8c0770ff7c61d67d65d9190afd8512 refs/heads/for-linus/v7.4-rc2/devm_kmalloc_obj
+0000000000000000000000000000000000000000 6ba14036c965ab2c45cfd0e822f20a824089941a refs/tags/devm_kmalloc_obj-v7.4-rc2
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCau1qIQAKCRA2KwveOeQk
-u8aqAQCUEUeIsPb1yPrzM4SQ3ruaqufBjSBEACrExbubKDtV0gD+KMVtFAIrobMc
-O+cco/CBpa+RiBGGjsWD6MaHgXVsIgc=
-=7kKi
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCau1qegAKCRA2KwveOeQk
+uxQiAP99MgyUqnHOkOanbhAyLXzfNXl3sWAL7w8Sq0ET2+VLjgD9FGLFF3dfJVTJ
+rNR+lgJZ05rRAhRE/HmzkB9luebH7ww=
+=blcT
 -----END PGP SIGNATURE-----
 
---===============6978007864767423617==--
+--===============5963161424692403159==--
