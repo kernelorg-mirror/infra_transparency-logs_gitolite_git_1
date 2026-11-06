@@ -1,69 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8398054014317910819=="
+Content-Type: multipart/mixed; boundary="===============2968507802066558153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-next
-Date: Fri, 06 Nov 2026 16:45:52 -0000
-Message-Id: <179398355239.1204018.6705744047819372422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Fri, 06 Nov 2026 16:45:55 -0000
+Message-Id: <179398355552.1204219.13912018168728676572@gitolite.kernel.org>
 
---===============8398054014317910819==
+--===============2968507802066558153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-next
+repo: pub/scm/linux/kernel/git/sashal/linus-next
 user: sashal
 changes:
-  - ref: refs/heads/all-next
+  - ref: refs/heads/linus-next
     old: 75322957fa8d0bab6265c538ec7b4a472c6e249a
     new: 7fc59db8a16e13962ac83152344368bf98866044
     log: revlist-75322957fa8d-7fc59db8a16e.txt
-  - ref: refs/heads/mm-next
-    old: 9179902ae013af1be546a93e0f9b4628ce899d00
-    new: 294639ea642cce171ac993768a249b4cc487ce98
-    log: revlist-9179902ae013-294639ea642c.txt
-  - ref: refs/heads/net-next
-    old: 3056c18c0fb5d2d746e15d7e15ff2eaae012b988
-    new: 32dcc748452bb3a5e9f31033001799972d58e539
-    log: |
-         cb1c171e3210d99d0fd5dceff24360e2bd04029e wifi: ath9k: don't read past short WMI command responses
-         ad6bdd5f9030dbcf29a67f40ccdb3fa57afecff5 wifi: ath9k: drop WMI command responses when no command is pending
-         32dcc748452bb3a5e9f31033001799972d58e539 Merge 'ath-next' from https://git.kernel.org/pub/scm/linux/kernel/git/ath/ath.git (for-next)
-         
-  - ref: refs/heads/subsystem-next
-    old: 9a59fe6695aa5b7262672205de6067c8d35e8b70
-    new: be782d342e596f4fd945235d95674335f7f9c248
-    log: |
-         33759c15cc3ad31627fbbafafe9cf010ef764b00 rust_binder: add state_hashed and transactions_hashed files
-         0eeebc40dda2369b72d9cf35711e05835b65e222 rust_binder: use Atomic::add() in BinderStats
-         a785bcbeef8e682c312b9fc79b0dd9e181c683d0 char: fix typo "threds" in comment
-         4ecc8fa057bebd99442c678ff16a50d38698da06 char: lp: fix typo "compatibilty" in comment
-         810849d2fd3575f9512d86678130ad4193e42ef6 mei: bail out if no matching hbm request found
-         65cc61c4c72fdefde4b0b17bf80d76fcc863f675 mei: avoid reuse client on bus for vtag
-         37a87cdaa3e2f10bb83ebee847fbc4761ac531af mei: stop rescan work before bus cleanup
-         be782d342e596f4fd945235d95674335f7f9c248 Merge 'char-misc' from https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc.git (char-misc-next)
-         
-  - ref: refs/heads/tracing-next
-    old: f3016da020a2c32a2ecb8dca66e7d6cfc2f5670f
-    new: 7e226d9bcdd0030ae9beda5c5d09317eb237130e
-    log: |
-         11b6f1e36a23127e7c11dfe4a20387b09852817b coresight: etm3x: Remove redundant NULL check on perf event attr
-         02ab6256e4f5fa1f388b9ae4dacbac95c7dd0de5 coresight: coresight.h: add '*' to kernel-doc lines
-         7e226d9bcdd0030ae9beda5c5d09317eb237130e Merge 'coresight' from https://git.kernel.org/pub/scm/linux/kernel/git/coresight/linux.git (next)
-         
-  - ref: refs/heads/wireless-next
-    old: 7cd2047b9694d02b0b6e391d92f323735e4e7ee5
-    new: 5640fe2b6b64c534e058a21a57f35136d10372b7
-    log: |
-         d866eeb11be24c7bd6fabfd7da158ca8c16bbbab wifi: ath10k: Drop unused qmi_elem_info arrays
-         9e15ccad0877c4a748bf2b817811a23f2d71bd92 wifi: ath11k: Reject short management RX frames
-         cb1c171e3210d99d0fd5dceff24360e2bd04029e wifi: ath9k: don't read past short WMI command responses
-         ad6bdd5f9030dbcf29a67f40ccdb3fa57afecff5 wifi: ath9k: drop WMI command responses when no command is pending
-         5640fe2b6b64c534e058a21a57f35136d10372b7 Merge 'ath-next' from https://git.kernel.org/pub/scm/linux/kernel/git/ath/ath.git (for-next)
-         
 
---===============8398054014317910819==
+--===============2968507802066558153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -143,22 +100,4 @@ c8aeb42bc6e4befc056c3dc9451a3ca9dbe99238 Merge branch 'virt-next' into all-next
 c3836eb06763af9d4935d5917ed5ed86f1802567 Merge branch 'wireless-next' into all-next
 7fc59db8a16e13962ac83152344368bf98866044 Add merge report for 2026-11-06 (1 interventions)
 
---===============8398054014317910819==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9179902ae013-294639ea642c.txt
-
-aa6558a489868a09a6a2b1ead2dcfcf8d9bfbf6b tools/testing/cxl: Preserve DPA skip across mock decoder reset
-a7c6a06c19d76737f63cfb105ff47f9676c08799 tools/testing/cxl: Skip the auto region when no volatile window is active
-4d9f66751dd45f98c5d0f388598446a9b3696a4a tools/testing/cxl: Add CFMWS windows for region selection tests
-b32ecac779bba6e7ac7caeae8c40db4280941634 iommu/amd: Enable PerfOpt automatically for integrated GPUs
-ec91bb159dc24eefe144ef8867937f4a055dd0e2 iommu/amd: Clear amd_iommu_snp_en if snp_rmptable_init() fails
-e62df37e0eff4d670e78bbd415be2c1675883c15 iommu/amd: Skip non-IVMD entries when parsing IVRS memory definitions
-fa77b023eb80cdb297ff32f6b13786e483a81ca8 iommu/amd: remove obsolete domain pointer warning on release
-2cf4be57b301ed2d7af82e70cff5dfd96894d8de iommu/amd: Fix NULL pointer dereference for GPUs without upstream bridge
-e44dc3a3037346354ac0dcd70415a7e049fab059 Merge branch 'for-7.5/cxl-mock-update' into cxl-for-next
-fed7c289fe81d6c7a81a968fff2917a1b7a3e0ef Merge 'iommu' from https://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux.git (next)
-294639ea642cce171ac993768a249b4cc487ce98 Merge 'cxl' from https://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl.git (next)
-
---===============8398054014317910819==--
+--===============2968507802066558153==--
