@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============9086009665846358887=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 06 Nov 2026 18:18:27 -0000
-Message-Id: <179398910795.1458380.12203509179831392672@gitolite.kernel.org>
-
---===============9086009665846358887==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 06 Nov 2026 18:19:18 -0000
+Message-Id: <179398915835.1459245.5166350831338723737@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/notes/signatures/tar
-    old: bbec27b392f00fb0b5cc21a0476d3017931fa121
-    new: 6c6937a544fdbaaeaa95397b74b136363c62ceeb
+  - ref: refs/heads/bleeding-edge
+    old: 7132e893ad449998d51ef5f99f0835fc44b6e3e0
+    new: 339a5e0f593931f17b23470b538d62cf81795011
     log: |
-         6c6937a544fdbaaeaa95397b74b136363c62ceeb Notes added by 'git notes add'
+         166207cac45191637c47a457a5c16ca6b6773a16 cpufreq: Cache post-resolution target frequency in __resolve_freq()
+         75120f31aed010c326b28d7c80d22314df34d9a8 cpufreq: Fix updates of cached resolved frequency and index
+         4fafad32c80310fbfd3a39ee8228a01e8082a603 Merge branch 'pm-cpufreq' into bleeding-edge
+         3d1c2693d8091a6529cf7ed8079c4968527d58b4 powercap: Do not release the zone when device_register() fails
+         339a5e0f593931f17b23470b538d62cf81795011 Merge branch 'pm-powercap' into bleeding-edge
          
-
---===============9086009665846358887==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793989106 -0500
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1793989105-5e9bce8b030801f499d5ee0bdd2291e52e774046
-
-bbec27b392f00fb0b5cc21a0476d3017931fa121 6c6937a544fdbaaeaa95397b74b136363c62ceeb refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmruGfIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tTAP/iTgQStor6LyCuUaldk9
-8kakZmVteiM93wlOz1QQVA04imeF90SghKdMWxmDxcdCozn2k4as5XbYhZDtFE5N
-8l8T1j5cbBAusruxb1VEwCL5E6u8jAYL57AfDhQmZjgaqt4RuVxfrqgZeg2/F0db
-O5oEmd3tNPsyqpZGfs4XcsLNVAmeay2YTWxGCY839O5tY9Tuy3kbI8w8HYs2AjkT
-govstnBNyuNeuQ1CqGaKICvwLYILZrStVInH6MXrJhgXo5MtXIaoKrbw2IEkCzYT
-1XHrTPdBSybtu/XkOFAYjYTtmsQ1Ct3C3j7MnimDrZZZWsOkRU3cUguOwkOxUuLb
-pHQcZAka63BcuEgIPJrMqAcCDu3Bz0BEq2Ox5FWC9XWSpg1b2vZotQ3diWnvdiJU
-5YFH7SYjCDK8ujRGTZt2sn5djexzADQLC8V6zH1QQeydmqQXv5lC9QL+wIFu5j2T
-jCj9PRniveoAJYKcgORoh5gbO4YjbDG1b1D78Y0PTR+dKWGteeGXiThZAGLBCDcM
-Kx1hlJLSATGOwkTF0U+4LZdT+NbvsistWteoqGoMj1sx8Uc4r892c5uPO6GEQCa1
-OkBbbIZPEiAl+BP8yKQXy7meYh11X8Lisx1bNsLIISk6VLZVZMpZSZLHO7taEOmg
-Dd9AzMIMi8dyv3oVe3CTuEi/
-=hn2z
------END PGP SIGNATURE-----
-
---===============9086009665846358887==--
