@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4878599153814981344=="
+Content-Type: multipart/mixed; boundary="===============3215315645620299184=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 06 Nov 2026 17:42:08 -0000
-Message-Id: <179398692847.1363760.2414377148346779367@gitolite.kernel.org>
+Date: Fri, 06 Nov 2026 17:42:19 -0000
+Message-Id: <179398693903.1363981.2791271681149347366@gitolite.kernel.org>
 
---===============4878599153814981344==
+--===============3215315645620299184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-7.5
-    old: 28c0e86dc8f3b9e4bc17f1f5d197f5a4d06252cb
-    new: d9a6aa0dfe31599847cb1a4f47d576506fb78f3c
-    log: revlist-28c0e86dc8f3-d9a6aa0dfe31.txt
+  - ref: refs/heads/for-next
+    old: a1504e10296daae2a97f5efd6794729f21a7ea9e
+    new: 3999160e6657dbe13b8d636c41dde70a8abbe179
+    log: revlist-a1504e10296d-3999160e6657.txt
 
---===============4878599153814981344==
+--===============3215315645620299184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28c0e86dc8f3-d9a6aa0dfe31.txt
+Content-Disposition: attachment; filename=revlist-a1504e10296d-3999160e6657.txt
 
 f804ad135529a2cec95dad9551e72263dfde543e ASoC: fsl_sai: Fix PM QoS cleanup on resume failure
 ee95db53352231a59ac4faee6b639eed7b813c16 ASoC: fsl_sai: Use optional clock getter for MCLKs
@@ -40,5 +40,7 @@ ea2f1cf92ac9577591ae639768709d2787ef79ce ASoC: fsl_sai: Address several issues i
 2e2f6b2a7cd440c86e65f727b19952abd2e49b5c ASoC: amd: acp: fix adr_device naming in ACP7.x ACPI match table
 a9a7c22d3e678e3b97775d0993a4323f38d38065 ASoC: amd: acp: document PDM controller topology for ACP7.B/7.F
 d9a6aa0dfe31599847cb1a4f47d576506fb78f3c ASoC: amd: acp: supplement patches for ACP7.B/7.F SoundWire machine driver series
+8f6249cf6ef3c427fe53fde72fa6700f571e8319 Merge asoc-linus into asoc-next
+3999160e6657dbe13b8d636c41dde70a8abbe179 Merge asoc/for-7.5 into asoc-next
 
---===============4878599153814981344==--
+--===============3215315645620299184==--
