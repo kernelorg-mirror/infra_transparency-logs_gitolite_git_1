@@ -1,53 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============5574577662466687057=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 06 Nov 2026 18:18:00 -0000
-Message-Id: <179398908022.1457505.12655526273553043482@gitolite.kernel.org>
-
---===============5574577662466687057==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 06 Nov 2026 18:18:06 -0000
+Message-Id: <179398908683.1457811.8183491669587185646@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/tags/v6.18.62
-    old: 0000000000000000000000000000000000000000
-    new: 4a9b319078a76b174069b0b38c0e042603806587
-
---===============5574577662466687057==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793989079 -0500
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1793989078-906c033c90b698b864514b935c12f1e50d0fde96
-
-0000000000000000000000000000000000000000 4a9b319078a76b174069b0b38c0e042603806587 refs/tags/v6.18.62
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmruGdcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zlsP/0S7NtTKU0HxcvQ2p/St
-TPW9hx6iQx/ML7/+gnMlIEMqKPfjl9VOeKI+YEVISolrAPr5EPI8Aei8AyoUtliH
-SQPTyHfr0qJkK7HgWs7cHavczCbhuNteDtlMgzZDJF0SNKPIcDmsMYVRLmK0rMi2
-CQFaDzKLYC2ourzs9vdbT5sAvD3UKSZZ9URWI4fygHSybOKgGaUPh8WwEAFK3PLm
-X5c4pyJtE9V5a995FUt03p0sbziIA7XeyVQr43w2QAQzV/jlY2qejUmtGCkbEXiu
-I2p7kjlSBwEprV3s3HbIDJXp5rss9yc5hmO95oD+ZMFTkOoAQImMRkni4r3n7z7H
-pjcTt9HQ/mDh+hV6dKfwbobv0KbU2bFxlOkmv/SHbiUngJkGFKyPTKNN7o2EJghg
-mtAwyhLf55/TGkUio0TcHYLg6AWuYUpMW2MNGEhBoeepU1izm89ziObBZK3bkNXT
-C75NZguSBTEflUkN6hWZ+MeJH6zrZwxJCDIU95ieXRRDYFcGFvXCjtET5bpvz1bO
-AahXqCUh6Q2q+uJUuJAenvBxUa1UwDj5ojxNPi7+FYVtxb6h7DZOHpCE6rRIIdnz
-9z+KMIshK154ZEVremLfXBrYXGVf7ni/6gL7zIs+f2wNtKqaWId1rmCIBIjUfv2z
-N7r40Q3vlXbqbIIZQy9Yp2wp
-=v4A6
------END PGP SIGNATURE-----
-
---===============5574577662466687057==--
+  - ref: refs/heads/queue/6.12
+    old: aa79480af310a2a56450368c0a6d1e8fe31b31df
+    new: 129ee5a22b3a20e41c9e7433b87bcdab788b1184
+    log: |
+         1be5461ad87ff2d89273a2254a7441cb75f07054 xen-netback: Fix UAF when reading statistics data
+         1239c3cb1c2e2650a51b6af40849e7cbf5b39444 xen-netback: defer xenvif_mcast_addr_list_free()
+         129ee5a22b3a20e41c9e7433b87bcdab788b1184 xen-blkback: Avoid UAF when reading I/O statistics
+         
+  - ref: refs/heads/queue/6.18
+    old: 440b819ba06d9badd5db7f526f6542dea7ead14d
+    new: b99f34844b8ed204f72623cdf60cc2fb0ac2ef52
+    log: |
+         bfda90a56def49151234272ec7a13b74ac52db76 xen-netback: Fix UAF when reading statistics data
+         9cca1602e1319ad32c5315040f21d987f055d2de xen-netback: defer xenvif_mcast_addr_list_free()
+         b99f34844b8ed204f72623cdf60cc2fb0ac2ef52 xen-blkback: Avoid UAF when reading I/O statistics
+         
+  - ref: refs/heads/queue/7.3
+    old: 955f20dd117c9287709eb6c1c19f63e44b7247a6
+    new: 75a72c978de4ff94354be921a483ac0671cf4cf9
+    log: |
+         837d42941b671959f5b595ea1adf0622745321c4 xen-netback: Fix UAF when reading statistics data
+         8c4712a5b3b9bb99b188d6f0bf7dc1d07bbd3453 xen-netback: defer xenvif_mcast_addr_list_free()
+         75a72c978de4ff94354be921a483ac0671cf4cf9 xen-blkback: Avoid UAF when reading I/O statistics
+         
