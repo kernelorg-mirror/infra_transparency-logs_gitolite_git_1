@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8445636296921752526=="
+Content-Type: multipart/mixed; boundary="===============0717079286285700621=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 06 Nov 2026 13:45:18 -0000
-Message-Id: <179397271824.991475.2149534396939390472@gitolite.kernel.org>
+Date: Fri, 06 Nov 2026 13:45:53 -0000
+Message-Id: <179397275364.992101.13077466949595651519@gitolite.kernel.org>
 
---===============8445636296921752526==
+--===============0717079286285700621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-7.5
-    old: 4ab9e4ccfaf7d1c70e110e0fae94893722f22ee2
-    new: 28c0e86dc8f3b9e4bc17f1f5d197f5a4d06252cb
-    log: revlist-4ab9e4ccfaf7-28c0e86dc8f3.txt
+  - ref: refs/heads/for-next
+    old: 79679d298f58ce08cdf4f308167ca93a21e8952b
+    new: a1504e10296daae2a97f5efd6794729f21a7ea9e
+    log: revlist-79679d298f58-a1504e10296d.txt
 
---===============8445636296921752526==
+--===============0717079286285700621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ab9e4ccfaf7-28c0e86dc8f3.txt
+Content-Disposition: attachment; filename=revlist-79679d298f58-a1504e10296d.txt
 
 007f91d0fdb80ae16feae3c1a55f5f114c8197ac ASoC: amd: acp: fix missing cleanup on devm_kasprintf() failure in mc_probe()
 2f107878e7a20b2069b503c26f34b2ee95fbf17d ASoC: amd: acp: fix missing cleanup on devm_kasprintf() failure in legacy SDW machine driver
@@ -45,5 +45,7 @@ e6f48837d135f0e3273a509e74e60adc84727e29 ASoC: amd: acp: add SoundWire machine t
 5c6bfd69310cf8eb1f15d035ebb45c19550be629 ASoC: amd: acp: ACP7.B/7.F SoundWire machine driver support
 8f70d5f9161116d8daddf8d0758a079adb32a62e ASoC: soc-core: Increase the channel map size
 28c0e86dc8f3b9e4bc17f1f5d197f5a4d06252cb ASoC: fsl_asrc_m2m: use dma_chan directly for dma_async_issue_pending()
+c25f50f02faee3d5a11cf7a2e47801efd170f0a0 Merge asoc-linus into asoc-next
+a1504e10296daae2a97f5efd6794729f21a7ea9e Merge asoc/for-7.5 into asoc-next
 
---===============8445636296921752526==--
+--===============0717079286285700621==--
