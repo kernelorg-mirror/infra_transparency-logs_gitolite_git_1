@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6142123949952191933=="
+Content-Type: multipart/mixed; boundary="===============5993150367216196168=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 06 Nov 2026 23:13:31 -0000
-Message-Id: <179400681119.1790172.10525873343170652825@gitolite.kernel.org>
+Date: Fri, 06 Nov 2026 23:13:34 -0000
+Message-Id: <179400681407.1790361.11570853867140866838@gitolite.kernel.org>
 
---===============6142123949952191933==
+--===============5993150367216196168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-next
-    old: f602e15f0c45b44af7ca365cfb2513f5b0f15df0
-    new: 455bf38d5dde1e62a3d719e094a5082f084337b5
-    log: revlist-f602e15f0c45-455bf38d5dde.txt
+  - ref: refs/heads/kernel-7.3/nfsd-testing
+    old: 1c376541ddd027be95772c4e69f4b297b288ed49
+    new: 608fbdfb8c76d863aee355e87ab28cac630c508d
+    log: revlist-1c376541ddd0-608fbdfb8c76.txt
 
---===============6142123949952191933==
+--===============5993150367216196168==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f602e15f0c45-455bf38d5dde.txt
+Content-Disposition: attachment; filename=revlist-1c376541ddd0-608fbdfb8c76.txt
 
 352dd525ebedb93d4b7f73b2e6c044f1fbe91e9b SUNRPC: fire svc_xprt_free tracepoint before dropping the netns
 9f00e2849a8f2175f5f9d50dd3dae1d28a0d2541 SUNRPC: fire svc_defer_queue tracepoint before publishing the request
@@ -79,5 +79,12 @@ b6192def244ae792fb6e77bfeca1ed0547a93c6c NFSD: Report WND4_CONTENTION for a rece
 a305b2c69b14aa529d128408fc842dc7499b134c NFSD: Report unsupported delegation upgrade and downgrade
 6e20059df8bda51f56ef29e8c0a886d01af9c3df NFSD: Honor OPEN4_SHARE_ACCESS_WANT_READ_DELEG on a read-write OPEN
 455bf38d5dde1e62a3d719e094a5082f084337b5 NFSD: Take a file unhashed during construction back off the LRU
+a6a07dd423a440f169c2c16971f237659a121f7c NFSD: cut a misaligned direct-mode WRITE at folio boundaries
+0e1b6a2537e587809773f25bc0d1c597c903c005 NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
+e3c3c2f6ced84481f4875b7cf45d9e5acab988db NFSD: only split a direct-mode WRITE for a worthwhile direct middle
+75b3b5b846531c38f6f159c050e856a7a11be15a NFSD: add direct_misaligned_dontcache debugfs knob
+9fe6b93833078da97013ba03f65149701d5f6cf4 NFSD: do not use direct I/O for a READ smaller than its alignment
+717579bdb84c3ad42f493aa6a024b3b610fb226c NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
+608fbdfb8c76d863aee355e87ab28cac630c508d NFSD: add tracing for how direct-mode READ and WRITE are serviced
 
---===============6142123949952191933==--
+--===============5993150367216196168==--
