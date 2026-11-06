@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 06 Nov 2026 16:56:27 -0000
-Message-Id: <179398418735.1212459.16967708002046442536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Fri, 06 Nov 2026 16:56:54 -0000
+Message-Id: <179398421418.1212806.16584487177006005346@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/watchdog
-    old: ccc038fdd5a8e03969f9706d3be791a64c04b65a
-    new: b18c623c1e3020299fb92fc3103be7270b6deaa3
+  - ref: refs/heads/master
+    old: 1b10dccc9118fb191de88aa9c059cbd3cc044fa2
+    new: 67e43fb1106cc1e9e987e3395a28f5cabf64a38f
     log: |
-         b18c623c1e3020299fb92fc3103be7270b6deaa3 watchdog: mediatek: Register reset controller before watchdog device
+         80abe392f993cf58c2a1938d72a6a9564faceeea foo
+         67e43fb1106cc1e9e987e3395a28f5cabf64a38f foo
          
