@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7087108849405618619=="
+Content-Type: multipart/mixed; boundary="===============3951775315307155085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 06 Nov 2026 00:52:42 -0000
-Message-Id: <179392636266.420097.5535612708495947141@gitolite.kernel.org>
+Date: Fri, 06 Nov 2026 00:52:46 -0000
+Message-Id: <179392636609.420286.6865435645516096727@gitolite.kernel.org>
 
---===============7087108849405618619==
+--===============3951775315307155085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,48 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-and-nfsd-performance-canary
-    old: cfcdd980746833cf1a4ba682b0c2c79465c496eb
-    new: c195625fc49e401f826a0d04daae9b6eb282dbb2
-    log: revlist-cfcdd9807468-c195625fc49e.txt
+  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part2
+    old: 049d0225d59084fe04ca1ab1b420081011ed0ba3
+    new: 25f685f5a2ebab64b2c223e482d7f3660054934c
+    log: revlist-049d0225d590-25f685f5a2eb.txt
 
---===============7087108849405618619==
+--===============3951775315307155085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cfcdd9807468-c195625fc49e.txt
+Content-Disposition: attachment; filename=revlist-049d0225d590-25f685f5a2eb.txt
 
-e0b3133b0202a44fe8d7d1a044ee8627e380bc39 pNFS/flexfiles: don't dirty the layout segment on every data server RPC
-7ba934e96cd7eefbd561c13653e9438ad56a2bc0 NFS: only account read_io/write_io when an I/O mdsthreshold is in use
-4e0d3371e9f8761b0f3a27ce5639d316ac4e0396 NFS: finish stable O_DIRECT writes without the nfsiod round trip
-068dc0e9865fec86aca60acb027caed1604ece0d NFS: admit O_DIRECT I/O without taking inode->i_rwsem
-13ee2ae4afcba2e6d755cfea9641f93e0598114c pNFS/flexfiles: give the read-mostly layout segment fields their own cacheline
-e2d26a890e9f5d0edf125a94f9454db7f25ed544 pNFS/flexfiles: bound data server RPCs with pg_bsize instead of a per-page test
-4f5e38b632622ee38797246dd1c4f91ed9594f13 xprtrdma: Allow reclaim when allocating a transport's initial requests
-50175bf4d0588e1e8faafc6c4cf5043d19faf006 pNFS: hand the page I/O descriptor's layout segment reference to the header
-b69d51fc9b82df3c5fd9f8f7e817c676ca856e89 SUNRPC: Do not abandon the remaining nconnect transports after one fails
-30133f051372ffa2f5899ac8cfa63c3d56faf070 pNFS: Report a data server left on a non-preferred transport
-30ce693b99c99070cfbddd49ed10e010e8216ff5 xprtrdma: do not clamp the FRWR depth below one chunk
-9338e018229d10822ad896cea878bbbcd48c0052 Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO' into kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO
-1cad2fff981ed5e102e81c03a0e04c451d804898 kernel-7.3-11
-0ae7aac0174f2947e45c58f31ece4a5c9edb52ce Merge branch 'kernel-7.3/block-DIO-alignment-fixes' into kernel-7.3/main
-60b100774a54f5dd8199e0796f43dd09fcdbf7e1 Merge branch 'kernel-7.3/trond-nfs-next' into kernel-7.3/main
-f8032eebedbf3a2295b050e7e60d051b16cb7e50 Merge branch 'kernel-7.3/anna-nfs-next' into kernel-7.3/main
-8f76b9f624c6c7f1745bcb9b599c53a2cecb5596 Merge branch 'kernel-7.3/snitzer-nfs-fixes-canary' into kernel-7.3/main
-7cf0467b2450a4c383ea694d1a5c7a1818cc06ab Merge branch 'kernel-7.3/nfs-testing-canary-localio-reprobe' into kernel-7.3/main
-39ede50d27a546ee83a738430bdff3816b149d73 Merge branch 'kernel-7.3/nfsd-7.4' into kernel-7.3/main
-799d830dc828c64139ac317ce823c0d07286f867 Merge branch 'kernel-7.3/nfsd-testing' into kernel-7.3/main
-18d938791fb6e8ebf470716bfdcbdf24e0d077ff Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache' into kernel-7.3/main
-2c0b769df5c866702d802ee70e61795d4c4d349b Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO' into kernel-7.3/main
-520f65aac6a838a5b3684cdbe5754fc52da37573 Merge branch 'kernel-7.3/nfs-testing-canary' into kernel-7.3/main
-e424de6c8b6688d0268171394e8348b455a121be Merge branch 'kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO' into kernel-7.3/main
-f62b3fc717ed5563dd3e7252d2f83ef1bcffc163 Merge branch 'kernel-7.3/nfs-testing-canary-reduce-ff-layout-contention' into kernel-7.3/main
-2fb1d6c21e3e5fe2753a55b9081530e1eb7f7def Merge branch 'kernel-7.3/nfs-testing-canary-rdma' into kernel-7.3/main
-f0ec3cc761cad72bcd4b12f22bef01442af8959a Merge branch 'kernel-7.3/nfs-testing-canary-nfs4_acl-passthru' into kernel-7.3/main
-984270759eb2ea580de5a319b151552133a971e4 Merge branch 'kernel-7.3/changelog' into kernel-7.3/main
-d4d2f61733fb2acf8d5ee4e6bba9db32431b662e Merge branch 'kernel-7.3/nfsd-testing-canary-nfs_common-XFS-IOLOCK-and-async-DIO-middle' into kernel-7.3/canary
-095231c2b38899e554ec7af254c8bc43e6677720 NFS: wait for direct I/O before fsync
-6202ffcd020cc415b4680ac6f38d09f40439ac25 nfs/localio: direct-write durability policy, default dsync
 48eead041b0505021844c98f92406f5fbba4b3fa NFS/localio: restore task flags with memalloc_flags_restore() in workers
 5be9e4dd1ea2bb38e3a32b70e87e1c4b4227e9dd NFSv3: cache only a nonzero READ reply header size
 02557a78a8a2c8d2e00f21e2ac95fa5e263fe237 NFS/localio: admit each I/O through a per-CPU reference, not shared locks
@@ -1050,5 +1019,36 @@ f6de18c98bc8365658a784c229839ddb7d91e06e sunrpc: per-CPU free lists and per-CPU 
 dd07ced6b5dff1248981c190531612eca88fb14f nfsd: switch NFSv3 READ and WRITE run-to-completion per direction
 4d944d10b644ec57b8cc0e294c65db3dc906dd0c nfs/localio: split on a real file in the copy-classification KUnit tests
 c195625fc49e401f826a0d04daae9b6eb282dbb2 configs: enable the hammerspace-7.3-performance Kunit tests
+46a42a774aed602bf919fd9f9ed419fae5797b04 block: inline blk_map_iter_next()
+78f6ba6d340ac2be78a1b24b4dd3fc3e2d88e74c net: add skb_frags_hand_over()
+4522295b0c55a57fd866dd9282d8e6a7f4dfd001 page_pool: keep a fixed receive region page mapped for its device
+50b2cdc6ac169718da30b06760a62a89a761c8f2 net: rx_loan: return a page's neighbouring loaned buffers in one drop
+d3b462b4da65bd6067174f4fb93f6ef9a2da6463 SUNRPC: Take over an skb's page-pool references for a loaned frag
+4a3432025f4860fdb3afa350ffcdc4ef03b417c1 net: rx_loan: prefetch a loaned record's struct pages a batch ahead of release
+2d2c737c5c300d1f475b972a7cdaa61d758a638f net: rx_loan: fetch a released page's struct page a second time
+84f9348c6b4137ea5c93571e19b4ddd403bba41c SUNRPC: Make the share of the window a loaned record waits for tunable
+963ead538f55b6472f06b6f6cbb833c08b05c2a3 SUNRPC: Sleep without a timeout when the pool cannot lose the thread
+d95bd13b6f1833cdbb9f361b59dfffc657c373d5 SUNRPC: Cut the loads of a borrowed page's checks
+b3a9d92e4c1c1e8fca939c1796139b55de3a787b SUNRPC: Trade only the pages a partly received loaned record holds
+2a0ad4f008e50ff5e81775e7c1a4723fe79462fe SUNRPC: Check a received record's bvec table only once
+6fbeb18788de634e3c5541b5770bfe701d807a6c SUNRPC: Do not step to the end of a bvec-backed buffer's pages
+8fcc7aa9e7e158c411759bdc372db3e5b849ed57 SUNRPC: Do not check a published record's bvec table again at release
+728c79ee2c22ac404e03edd6ffee56cd76fa8398 SUNRPC: test the hold-back of a loaned record at a share of the open window
+eda3ff7ddd4a3a693ddf3c328e90f5ccffadbcb1 nfsd: split direct writes on real files in the receive-bvec KUnit suite
+3b389b2f7fa2e9efa4a6a02a2c8210a85b20dd23 nfsd: use a real file in the receive-bvec KUnit disposition test
+2a280c763cb3511466fda9bfe635a50c0ba4d73c nfsd: decode on a real service in the nfsd4 KUnit suite
+0437c420c6c5cbb300b17ebc8b14dbdca0d4a71e nfsd: move the nfsd4 KUnit suite's service to a shared header
+7555cf57aa4b2cfa20b47aa35c65646a56030d4d nfsd: decode on a real service in the receive-bvec KUnit suite
+c27a4103e0f7cb01a4945376389506df35e29f2c nfsd: use the fixture's transport for the nfsd4 KUnit session tests
+d6f86d9af32bcf010eaa1b24d357529a6eb49511 nfsd: keep the nfsd4 KUnit session tests on the test's service
+757b5c4cb8a6e00fb2aefb82275f024224dec4a8 nfsd: take the KUnit suites' request addresses from the transport
+a1e12e96bc7e9f0352920594f3ab73b7d92e8948 SUNRPC: test which pages a parked record trades in the svcsock KUnit suite
+f1e3c0e3d3bf07e37011acd9b288a364c28df26d SUNRPC: test the checked table and the end of the pages in the KUnit suites
+0633a1b401e12ebf8827da2fe1beb151c95bfe5f SUNRPC: decode a word at a time in xdr_bvec_advance_test
+33fee2931a41cafd212e4cdcc51cb76d3ded9dd5 SUNRPC: test which records release walks in the svcsock KUnit suite
+65662427845e8b42bfc29881dc039c18dce7effb net: rx_loan: walk the credit lists from the newest
+e3e7707601353e7e8d4c6b9655a6cd4b09a04dc0 net: rx_loan: raise a re-held socket's window with tcp_sock_raise_rcv_window()
+aead289dc60d3ead66db573cec2f85015c79578f NFSD_TCP_WRITE_ZEROCOPY: the handoff for the 7.3 canary on tardis2
+25f685f5a2ebab64b2c223e482d7f3660054934c NFSD_TCP_WRITE_ZEROCOPY: how David's performance series was carried onto the 7.3 canary
 
---===============7087108849405618619==--
+--===============3951775315307155085==--
