@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7813158362015233916=="
+Content-Type: multipart/mixed; boundary="===============6844409347848099547=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 06 Nov 2026 08:30:01 -0000
-Message-Id: <179395380194.751105.2067949427519779429@gitolite.kernel.org>
+Date: Fri, 06 Nov 2026 08:31:45 -0000
+Message-Id: <179395390547.754085.16558535899402618090@gitolite.kernel.org>
 
---===============7813158362015233916==
+--===============6844409347848099547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,25 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 9f74092fda91ef93c2b07585785c1dc83cd7971f
-    new: 2c43532688a1d0d03c5fca9f60ffa87f10dc1660
-    log: revlist-9f74092fda91-2c43532688a1.txt
+    old: 2c43532688a1d0d03c5fca9f60ffa87f10dc1660
+    new: cc0acce1565219dfa86e25bdda4865ad61b0a7d4
+    log: |
+         4a6ee92a2f92535e4c0b688ea3cf423800a5c044 Merge branch into tip/master: 'x86/urgent'
+         7c3d8b8c1bdf3c2101c3bd28ed66037dcf92fe68 Merge branch into tip/master: 'x86/apic'
+         2cf26daac20083cfca425ec0d9616acb845614af Merge branch into tip/master: 'x86/boot'
+         d895633bf099bdabf1b6b1a6764dcda88aad1f6e Merge branch into tip/master: 'x86/cleanups'
+         cc0acce1565219dfa86e25bdda4865ad61b0a7d4 Merge branch into tip/master: 'x86/misc'
+         
+  - ref: refs/heads/tip/urgent
+    old: c9bed5b2048d5022050d99dc51dc5cdb194e1593
+    new: 4a6ee92a2f92535e4c0b688ea3cf423800a5c044
+    log: revlist-c9bed5b2048d-4a6ee92a2f92.txt
 
---===============7813158362015233916==
+--===============6844409347848099547==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9f74092fda91-2c43532688a1.txt
+Content-Disposition: attachment; filename=revlist-c9bed5b2048d-4a6ee92a2f92.txt
 
 868f63c8bfafa9b827168c9126f85264c39c02ec xfrm: retry inexact policy lookup after node reinsertion
 86de3a1118a16dbbbe5fabe9aa20ffb93c072ed5 xfrm: interface: validate the IP header on xmit
@@ -422,7 +432,6 @@ a76ab5e733b41dede6f238a691eefb4374f99f79 bonding: fix missing down path on speed
 57889a8f6d49fc153aa0017d13086ab736567f8a tcp: initialize send sequence numbers before deferring TFO
 49b09ae0bf57b4230187d4cdd0a370558e44a6e8 mptcp: pm: kernel: use RCU to free endpoint listeners
 fafbc4051123d5459ea6950899cec08ed946e278 tcp: ipv6: free ireq->ipv6_opt after an RCU grace period
-8523d938dce836fbe7ea33fcc98d8460b094ef81 x86/boot: Fix off-by-one error in sme_clear_pgd()
 afd661f6a26438c407bd9928ea16e80c14b121d9 Merge tag 'mm-hotfixes-stable-2026-11-04-20-02' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 46a062865b6b6b9a2ba199101b44feb925455c66 Merge tag 'mm-nonmm-hotfixes-stable-2026-11-04-20-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 d68ce4e71248e1ff5af9654b407541d9260b3ba5 Merge tag 'mm-core-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/mm/core
@@ -431,7 +440,6 @@ d68ce4e71248e1ff5af9654b407541d9260b3ba5 Merge tag 'mm-core-7.4-rc2' of git://gi
 eedaa7d61f1ec8ae053a9ece0d553785350ac486 Merge tag 'chrome-platform-firmware-fixes-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
 2d2200551ccc3b9e444aecb59c4b53287e169266 Merge tag 'platform-drivers-x86-v7.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 f66469d9905b39d2c260a15d7d6db450f4db67c1 Merge tag 'net-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-b6d30b12880253b7f025e549b23de03db7558f34 Merge branch 'linus'
-2c43532688a1d0d03c5fca9f60ffa87f10dc1660 Merge branch into tip/master: 'x86/boot'
+4a6ee92a2f92535e4c0b688ea3cf423800a5c044 Merge branch into tip/master: 'x86/urgent'
 
---===============7813158362015233916==--
+--===============6844409347848099547==--
