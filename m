@@ -1,37 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 06 Nov 2026 18:04:50 -0000
-Message-Id: <179398829079.1381628.5140769634819657208@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3611144977358306209=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 06 Nov 2026 18:04:59 -0000
+Message-Id: <179398829934.1381882.6524070684813791318@gitolite.kernel.org>
+
+--===============3611144977358306209==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
-user: bot-stable-queue
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue/5.10
-    old: bf8a2c8eab273dbfc3ac87cbf29268e87f262646
-    new: fbf76ca0df9cdb0c44b0de6fe864a4e125f8f558
+  - ref: refs/heads/master
+    old: 9140cd1a80ae55bab5999983883f11fd8c657ea7
+    new: 4fa490d32f29023177d8faf8696e62ed6a05b3dc
     log: |
-         c2b0588936d752bfa66efe07012d6bd1e35874a0 xen-netback: Fix UAF when reading statistics data
-         afb6f9f782be28262b1bb0bd83d3487d8b54b4ff xen-netback: defer xenvif_mcast_addr_list_free()
-         fbf76ca0df9cdb0c44b0de6fe864a4e125f8f558 xen-blkback: Avoid UAF when reading I/O statistics
+         4fa490d32f29023177d8faf8696e62ed6a05b3dc 6.18-stable patches
          
-  - ref: refs/heads/queue/5.15
-    old: bf5c1111ad0926494cb1a12760dce4a2f64654f7
-    new: b4ad24df9ed247957b829f90f510697c595c95d6
-    log: |
-         6b36e445160fbeedf2245651ce7fdcb42c7daf4d xen-netback: Fix UAF when reading statistics data
-         e26193d07916487dd87ec6235a2a3bb47f746408 xen-netback: defer xenvif_mcast_addr_list_free()
-         b4ad24df9ed247957b829f90f510697c595c95d6 xen-blkback: Avoid UAF when reading I/O statistics
-         
-  - ref: refs/heads/queue/7.3
-    old: b778072fdcf7e1eae8567f2c8f591c52db85926b
-    new: 17a6e88f5c03a80cb07cdd7af0d466cde805c856
-    log: |
-         f5258054b7c65e0bf699569a3abc1fba32c7b1a5 xen-netback: Fix UAF when reading statistics data
-         35e1aa5876555e5c415df6e0999330204692b199 xen-netback: defer xenvif_mcast_addr_list_free()
-         17a6e88f5c03a80cb07cdd7af0d466cde805c856 xen-blkback: Avoid UAF when reading I/O statistics
-         
+
+--===============3611144977358306209==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793988298 -0500
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1793988298-63d7dfbffab5c96434f282228551f0aea05d8159
+
+9140cd1a80ae55bab5999983883f11fd8c657ea7 4fa490d32f29023177d8faf8696e62ed6a05b3dc refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmruFsobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VqIP/itMiEFD+shfnmXQUqGx
+tImztpM6JDOIBVe19sYrmP5RU7UQOJeNJpzQzPK6lGf3wbb/EEgNvl+bY3QEKR+M
+tqBstlLtpH0rEW3vEpqKbub2cm0PJ2Klk6fdixyuoHkBhYS+i6XJbVWx4U4eTOd1
+HFi7wPtoKHi4gSAuS9ZvqzogCCd6pyVQFcj3ZDdPlZ3Q0vXAoKgeDIUnRPClVwJ3
+3jOfFkVcBIL2L5LR/DIgJR9kP6rWcmMQJIadbDRQFVxJvr/aIJHvkxQFjDOH2kQJ
+Xm4UiexYhwJyS1gGxHjkLUOysFuRrM04CZPhmb6Ly5eQvG3+fqbRRrdipa+hsckV
+oBRArUndzgg8UQPUhhyo6bn/ALPXxvENRaplwZvUiRmx58csVb03/mQeXq3nV3+O
+vnc/WjJkMeEmGL97dQWlRzlnWcqVULoIy4Q6frTourXaNDqbvnFeW4HTFMw7cUYQ
+F9KAdRpTIq0KHHnIU1kXpE7rW6WbA6VTNIvgTjA69Q/eBGXx1M95t+oOYhP3onSI
+qHdIe9oxCFkPOqXjzcjxGPXk92rNH5Fpu3S0HzR8canHpyRlZLfmBvl8qRie6Whr
+DL6tOA0gnD9BD9LUDlWbo0nUen58MPf9b8YRnldaYPK9fGgj7hIXWzh00PbaJcB/
+N0vJYbMWBUvx9KDd4CSeJUGx
+=3ME0
+-----END PGP SIGNATURE-----
+
+--===============3611144977358306209==--
