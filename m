@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2333451024400438732=="
+Content-Type: multipart/mixed; boundary="===============1236146115587789364=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 06 Nov 2026 03:41:36 -0000
-Message-Id: <179393649678.550939.5349176825232909115@gitolite.kernel.org>
+Date: Fri, 06 Nov 2026 03:41:40 -0000
+Message-Id: <179393650030.551088.4589520199780093005@gitolite.kernel.org>
 
---===============2333451024400438732==
+--===============1236146115587789364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/jflynn-io500-canary
-    old: 90a0e146aeef12e267f5eec9b8ca1f6e2eab20a9
-    new: 54cac724eae62f1c0cb5f8e8716dc95f4ab1b5e3
-    log: revlist-90a0e146aeef-54cac724eae6.txt
+  - ref: refs/heads/kernel-7.3/canary
+    old: 0a8ccf80799626a64846591a14c372185c61d4a8
+    new: 2e3a1b18333ef5e31ae270ee5711596da0246cd2
+    log: revlist-0a8ccf807996-2e3a1b18333e.txt
 
---===============2333451024400438732==
+--===============1236146115587789364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90a0e146aeef-54cac724eae6.txt
+Content-Disposition: attachment; filename=revlist-0a8ccf807996-2e3a1b18333e.txt
 
 95e78800d230b33bea68dad692628a30d3aa9be3 net: rx_loan: size the KUnit tile tests to the page size
 28c909f62756bd167e29eae3837f3554f638b1a7 nfsd: expect IOCB_NOSERIAL on a split write's buffered ends in the receive-bvec KUnit suite
@@ -82,5 +82,12 @@ ca5f0512b41fee4389ae2a75a07eb24fc7d42bc5 nfs: add the removal method for a paren
 d53853c051419fb507c97d537346d67ece83a65d nfs: remove files with the parent directory locked shared on NFSv4
 9e7b6a6dd0c3f81b445058fdad029e3b78ca97b6 LAB ONLY: make the O_CREAT shared-lock opt-in settable at run time
 54cac724eae62f1c0cb5f8e8716dc95f4ab1b5e3 LAB ONLY: nfs: add a runtime knob for shared-parent unlink
+8aa91f0e3296d1ad105ead432760ac8832396223 Merge branch 'kernel-7.3/nfsd-testing-canary-nfs_common-XFS-IOLOCK-and-async-DIO-middle' into kernel-7.3/canary
+7c595665f1dafc92eb863390cd523e4d0c7d3207 Merge branch 'kernel-7.3/nfs-localio-performance-canary' into kernel-7.3/canary
+938d8c6d6bad7a5faa10b7b16797feab084fe303 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary' into kernel-7.3/canary
+3c4e3be1e69e406d7580248df68910ff31fae88b Merge branch 'kernel-7.3/nfs-and-nfsd-performance-canary' into kernel-7.3/canary
+6089265ea2c12d75b26b528f4c5926323d46a985 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part2' into kernel-7.3/canary
+68fc6164f8961122ff3579b9d8eec0b6a080f3ae Merge branch 'kernel-7.3/jflynn-io500-canary' into kernel-7.3/canary
+2e3a1b18333ef5e31ae270ee5711596da0246cd2 Merge branch 'kernel-7.3/changelog-canary' into kernel-7.3/canary
 
---===============2333451024400438732==--
+--===============1236146115587789364==--
