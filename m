@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 06 Nov 2026 16:53:52 -0000
-Message-Id: <179398403237.1209096.15612268338005454088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 06 Nov 2026 16:55:33 -0000
+Message-Id: <179398413316.1211586.9633573330057934932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/x86/urgent
-    old: ade63af6cfb7b3ca19ced28730fd6461e8d1d410
-    new: b73fdd0f49e175dd733650669193c1504d283955
+  - ref: refs/heads/pending
+    old: ad6bdd5f9030dbcf29a67f40ccdb3fa57afecff5
+    new: c753ee73a7910ec2ce40e06772f4c05fe11eec18
     log: |
-         b73fdd0f49e175dd733650669193c1504d283955 MAINTAINERS: Add Ben Horgan as fs/resctrl reviewer
+         c753ee73a7910ec2ce40e06772f4c05fe11eec18 wifi: ath12k: fix wrong register read for RU start index of 80_3 segment
          
