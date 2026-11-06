@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mcgrof/linux
-Date: Fri, 06 Nov 2026 20:21:59 -0000
-Message-Id: <179399651942.1662688.15480097338920917803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
+Date: Fri, 06 Nov 2026 20:26:12 -0000
+Message-Id: <179399677248.1666195.16651869688720425528@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mcgrof/linux
-user: mcgrof
+repo: pub/scm/linux/kernel/git/mricon/korg-helpers
+user: mricon
 changes:
-  - ref: refs/heads/2026-11-05-dmabuf-io-async-release
-    old: 0000000000000000000000000000000000000000
-    new: a70976927e487ce884955382cab6b0ac12e94f6d
+  - ref: refs/heads/master
+    old: 0940c2c6d01d3a8235ce300a1bc46113d5d09bbd
+    new: da727bb5437e99a860ebe5a76a0894a0e4f0939a
+    log: |
+         1d033cdf347a5bfc6a9cf39288f15cabfe18ddc2 list-archive-collector: make up stable Message-IDs where missing
+         68143753ff9a56b4c4eef41534fe377b5adb3b5b list-archive-maker: keep different messages that reuse a Message-ID
+         da727bb5437e99a860ebe5a76a0894a0e4f0939a list-archive-maker: repack public-inbox epochs while writing
+         
