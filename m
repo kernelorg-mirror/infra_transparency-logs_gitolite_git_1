@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-Date: Fri, 06 Nov 2026 19:13:54 -0000
-Message-Id: <179399243496.1613445.10024273211820054601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 06 Nov 2026 19:32:28 -0000
+Message-Id: <179399354821.1626783.12080821376323840765@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-user: vdubeyko
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    new: 29e8c4fe80abe6e52beda1c52287f51f6c8787ee
+  - ref: refs/heads/main
+    old: bb67589c87249c9bc2415ab11a754d6e303774e3
+    new: 13df9cc6fc0bcc59cda2385d474ee2792c040ca9
     log: |
-         29e8c4fe80abe6e52beda1c52287f51f6c8787ee nilfs2: zero-fill post-EOF data on mmap write and size extension
+         13df9cc6fc0bcc59cda2385d474ee2792c040ca9 net: Shrink skc_reuse:4 to 2 bits.
          
