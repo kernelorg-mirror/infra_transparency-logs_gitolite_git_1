@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/staging
-Date: Fri, 06 Nov 2026 20:08:34 -0000
-Message-Id: <179399571497.1651996.15772179646767609284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Fri, 06 Nov 2026 20:10:20 -0000
+Message-Id: <179399582099.1654616.14588037611113651731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bigeasy/staging
-user: bigeasy
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/sched_dl
-    old: 0000000000000000000000000000000000000000
-    new: 048bd4cd9d9a4bd96eb2ae73b86474abd9bed12e
-  - ref: refs/tags/v7.3
-    old: 0000000000000000000000000000000000000000
-    new: 091b06388b117fefdcb63336ac09956a4914b961
-  - ref: refs/tags/v7.3-rc7
-    old: 0000000000000000000000000000000000000000
-    new: ec8bf8280261294a9b9b4520414b42704c7f9f6b
-  - ref: refs/tags/v7.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: bc71431221f5ba8bb33918399552636e059c2c45
+  - ref: refs/heads/master
+    old: a063a00e6cd9e354aa6d67a154a0527951d7f881
+    new: ebdfe8561b5496b7eafedccd13a000a7261bc52b
+    log: |
+         c1d50a71cdee90a0c68b7a67221d8aae96d14a0c Bluetooth: reject invalid LE supervision timeout relationships
+         ebdfe8561b5496b7eafedccd13a000a7261bc52b Merge branch 'bluetooth' into bluetooth-next
+         
