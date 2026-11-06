@@ -1,37 +1,69 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 06 Nov 2026 14:38:05 -0000
-Message-Id: <179397588542.1039591.17289857334392894275@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7637621090537089067=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
+Date: Fri, 06 Nov 2026 14:38:16 -0000
+Message-Id: <179397589661.1039804.2054377647090478306@gitolite.kernel.org>
+
+--===============7637621090537089067==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/mm/linux
+user: david
 changes:
-  - ref: refs/heads/for-next
-    old: 82f733e54a919ef46e8ac7265413b05f9c2ab3ce
-    new: 148a32166601ce00d614fde7648ceb156cd5fa27
+  - ref: refs/heads/staging/for-next
+    old: 641c7d0dcfaefcea0e1fdecd5013a7d7537b7f13
+    new: 4064508f623734c880f2ac6f8034717202c30ecd
+    log: revlist-641c7d0dcfae-4064508f6237.txt
+  - ref: refs/heads/staging/for-next-fixes
+    old: 735f23e9ed8417a51a6dc2ccec7f3d028d7dfed3
+    new: b17e377d0cd94a1b50ea4e738d45e09594aec8cd
     log: |
-         c64fd9e2efeb6cb4cdc3f98fde96ad543e1356ab ALSA: hda: Serialize codec probe and remove on the same bus
-         1ad267d71c3503b59b1f2bcd587b86ac6db29ed8 ALSA: core: Add the card file while looking up a minor
-         02c816a7162007c0a89dd930568906507aee74ba ALSA: pcm: Add the file to the card while looking up the minor
-         1fde88bd72ad7a3c4a855d3ce2dcc597738eb5b1 ALSA: pcm: Refuse to open a disconnected PCM
-         a52a60c0cea453992676b05d95a8668497c48a85 ALSA: hda: Wait for the files of the codec PCMs before freeing them
-         148a32166601ce00d614fde7648ceb156cd5fa27 ALSA: usb-audio: Add Arturia AudioFuse 48V/Main mute mixer controls
+         305ac48c482d63bdc625b0dfb3c5c9f89ff7c353 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/core.git for-next-fixes into for-next-fixes
+         0695dd84e7dd874f5937df8c6cfb4d40e765cf55 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/page_alloc.git page_alloc/for-next-fixes into for-next-fixes
+         4f6ccc9c63a95e623336175758ec68d8fd534a62 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/slab.git slab/for-next-fixes into for-next-fixes
+         b17e377d0cd94a1b50ea4e738d45e09594aec8cd Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-hotfixes-unstable into for-next-fixes
          
-  - ref: refs/heads/master
-    old: b87c34ffd04683b3582647133c44bdc2b41ecb52
-    new: 8614bc57576e99f1711a61f261f53fb5a5061847
-    log: |
-         c64fd9e2efeb6cb4cdc3f98fde96ad543e1356ab ALSA: hda: Serialize codec probe and remove on the same bus
-         1ad267d71c3503b59b1f2bcd587b86ac6db29ed8 ALSA: core: Add the card file while looking up a minor
-         02c816a7162007c0a89dd930568906507aee74ba ALSA: pcm: Add the file to the card while looking up the minor
-         1fde88bd72ad7a3c4a855d3ce2dcc597738eb5b1 ALSA: pcm: Refuse to open a disconnected PCM
-         a52a60c0cea453992676b05d95a8668497c48a85 ALSA: hda: Wait for the files of the codec PCMs before freeing them
-         54456091fa6d47a33e97a344cffd86be91757d2e Merge branch 'for-next'
-         148a32166601ce00d614fde7648ceb156cd5fa27 ALSA: usb-audio: Add Arturia AudioFuse 48V/Main mute mixer controls
-         8614bc57576e99f1711a61f261f53fb5a5061847 Merge branch 'for-next'
-         
+  - ref: refs/heads/staging/for-test
+    old: 5d08e0c7e90a4020c1c6df1faeacf0aef425ff82
+    new: 2975686e9bb82342ebe7469507201f5cff89f6e0
+    log: revlist-5d08e0c7e90a-2975686e9bb8.txt
+
+--===============7637621090537089067==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-641c7d0dcfae-4064508f6237.txt
+
+305ac48c482d63bdc625b0dfb3c5c9f89ff7c353 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/core.git for-next-fixes into for-next-fixes
+0695dd84e7dd874f5937df8c6cfb4d40e765cf55 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/page_alloc.git page_alloc/for-next-fixes into for-next-fixes
+4f6ccc9c63a95e623336175758ec68d8fd534a62 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/slab.git slab/for-next-fixes into for-next-fixes
+b17e377d0cd94a1b50ea4e738d45e09594aec8cd Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-hotfixes-unstable into for-next-fixes
+63f7e288f5865939f080289aba7b7bdbf1b26438 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/core.git for-next into for-next
+5f6845d1f8bf782d3859f2c0a2b3e8348bc44764 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/page_alloc.git page_alloc/for-next into for-next
+333a6fad750dc4402d749ef48c62df622169c50d Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/slab.git slab/for-next into for-next
+7f5ac8163156ccbbc50d1f6f192fb416536650ca Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/memblock.git for-next into for-next
+4064508f623734c880f2ac6f8034717202c30ecd Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-unstable into for-next
+
+--===============7637621090537089067==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5d08e0c7e90a-2975686e9bb8.txt
+
+305ac48c482d63bdc625b0dfb3c5c9f89ff7c353 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/core.git for-next-fixes into for-next-fixes
+0695dd84e7dd874f5937df8c6cfb4d40e765cf55 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/page_alloc.git page_alloc/for-next-fixes into for-next-fixes
+4f6ccc9c63a95e623336175758ec68d8fd534a62 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/slab.git slab/for-next-fixes into for-next-fixes
+b17e377d0cd94a1b50ea4e738d45e09594aec8cd Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-hotfixes-unstable into for-next-fixes
+63f7e288f5865939f080289aba7b7bdbf1b26438 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/core.git for-next into for-next
+5f6845d1f8bf782d3859f2c0a2b3e8348bc44764 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/page_alloc.git page_alloc/for-next into for-next
+333a6fad750dc4402d749ef48c62df622169c50d Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/slab.git slab/for-next into for-next
+7f5ac8163156ccbbc50d1f6f192fb416536650ca Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/memblock.git for-next into for-next
+4064508f623734c880f2ac6f8034717202c30ecd Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-unstable into for-next
+2975686e9bb82342ebe7469507201f5cff89f6e0 Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-new into for-test
+
+--===============7637621090537089067==--
