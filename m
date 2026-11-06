@@ -1,29 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Fri, 06 Nov 2026 18:22:19 -0000
-Message-Id: <179398933922.1521175.7299147604288369372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 06 Nov 2026 18:23:09 -0000
+Message-Id: <179398938985.1521608.4625877378587099506@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-kernelci
-    old: b0958b1397fb5ffdb995c0ccc74349841929c08d
-    new: 58c1eb84e97701c583605ba2fd553b69afba2245
+  - ref: refs/heads/bleeding-edge
+    old: 339a5e0f593931f17b23470b538d62cf81795011
+    new: 0720247d0f6fe6cd2a107b37fba82e342fc67331
     log: |
-         ac302aea3d824ccc99f29b8e499c365cb9a684a9 arm64: kexec_file: Fix elf_headers memory leak in retry loop
-         9bf6ee7952c7ee151c30e0fffcfc61b58127c899 arm64: sdei: Run the event handler on the kernel vectors
-         58c1eb84e97701c583605ba2fd553b69afba2245 arm64: sdei: Preserve the interrupted context's exception registers
-         
-  - ref: refs/heads/for-next/fixes
-    old: b0958b1397fb5ffdb995c0ccc74349841929c08d
-    new: 58c1eb84e97701c583605ba2fd553b69afba2245
-    log: |
-         ac302aea3d824ccc99f29b8e499c365cb9a684a9 arm64: kexec_file: Fix elf_headers memory leak in retry loop
-         9bf6ee7952c7ee151c30e0fffcfc61b58127c899 arm64: sdei: Run the event handler on the kernel vectors
-         58c1eb84e97701c583605ba2fd553b69afba2245 arm64: sdei: Preserve the interrupted context's exception registers
+         d23dd96d384bea054a56c92510c95ac11e5e4643 powercap: dtpm: Constify some structures
+         0720247d0f6fe6cd2a107b37fba82e342fc67331 Merge branch 'pm-powercap' into bleeding-edge
          
