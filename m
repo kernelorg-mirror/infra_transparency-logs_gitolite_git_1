@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Fri, 06 Nov 2026 13:06:15 -0000
-Message-Id: <179397037591.959305.10449040325588977505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 06 Nov 2026 13:20:14 -0000
+Message-Id: <179397121428.969119.8128272407179903227@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/ntfs-next
-    old: 90ff726bfd0a0f199206ee2679c04f714febaa6e
-    new: 807a92e8622838ff57e2869264aea310245e98a1
+  - ref: refs/heads/master
+    old: 48bbafa577baf4b6f3f934ace97b6887a85d91cc
+    new: 90261aed3979ec2c8e7a0dbebb357a3940a65b6d
     log: |
-         807a92e8622838ff57e2869264aea310245e98a1 ntfs: silence kmalloc/kvfree mismatch warning
+         90261aed3979ec2c8e7a0dbebb357a3940a65b6d drop 8 patches based on RC review feedback
          
