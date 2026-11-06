@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0770067721616436383=="
+Content-Type: multipart/mixed; boundary="===============9220409978924103193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 06 Nov 2026 18:23:30 -0000
-Message-Id: <179398941075.1521828.6722136714395306591@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 06 Nov 2026 18:24:54 -0000
+Message-Id: <179398949469.1522473.7679472660360323464@gitolite.kernel.org>
 
---===============0770067721616436383==
+--===============9220409978924103193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: cb8ea5c857308729789e9ff6d404f45c0765b570
-    new: 232cf2569e084dd364d357959d37fc372ea77899
+    old: f183211e02a9bebb479f31e6f0bf776c29b15e89
+    new: 9061f1af0346335ebc945bc546894f144cf9795d
     log: |
-         22115294cd65a4d77dcc56c054685118c50ece67 some xen cve ids now made public
-         232cf2569e084dd364d357959d37fc372ea77899 strip the mbox files
+         9061f1af0346335ebc945bc546894f144cf9795d move the queues back
          
 
---===============0770067721616436383==
+--===============9220409978924103193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793989409 -0500
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1793989409-0e3f84d8bacdd1626c2df76d4fa0c863ef2f93d5
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793989484 -0500
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1793989484-ce04d8086fceeab4491153942dc2114f8caf16d8
 
-cb8ea5c857308729789e9ff6d404f45c0765b570 232cf2569e084dd364d357959d37fc372ea77899 refs/heads/master
+f183211e02a9bebb479f31e6f0bf776c29b15e89 9061f1af0346335ebc945bc546894f144cf9795d refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmruGyEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5NgQAKtpx+LFXabME2LoTArv
-tjUwN+hliUChiXscOW2+gAQbPLhHTBPkXKe+TCYkbEY3r0l+/uKRSBggcBEyb57M
-WyKuSo4+H5PF95UF2DajxUjxGLjGyRo9IcS/Y8xV4948DZTG0+8U5YTwcbhA6pH4
-PuKn59e50yO29I8DLDFP+TqOJKaBzI53fS/AWB9oSrgVpCLiVWMFDXoiLSZ1YSd3
-TCjj2fsRXeRXtC0yA4KrE8NYhctlSTJbW6sx0O13hiLlNc4TO1N5F7dXbQdpYV3p
-yQnGsEpoV5H/lTlsfefylXVI2cBy6wQWt+CVmsR3vvPk4I5OlrgVWFnsWvSQcs5Z
-3LsgenPd8Lu+AwM3qGjlWSQdmthsi91d0/cGDtEnCFaY0nbM8hUFYkH5DZuAnIVP
-Ol7E3G5tpq53kOIGDAgeaHaOJPW4qAvXIDyZiNGp1ArzVCfUOMPO+yRjsqiWGnRA
-Cw0Nh6aD8kYF2G3+mvzv7HP2S7vst3DeUakLBvjl4T6scQHQiGl6ROtlGvN6wZUP
-/CxO9kLVJFhFOOfeB4RV8g9HSaC6Z22LeYWmVbydadlk0NeIn0KaxCNa46Hi/VMu
-0cTXQVajyYf68kqr4Rt1qCfU6NyJjn0jZ1albmIRdt5+4X/+w6KhsMhRmAh9JtyO
-qSXxaeiViOQmqusjwv600lSx
-=Zi4j
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmruG2wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nbAP/02hubyaWbPMqKhsisN5
+qPqn104F31AzS/5XnIr1Mo9fQe0kLDjCPgyHoC5YicmmfWTq/bhy8G/arNkyXeTa
+TVaEJB1brn+8B557kvmxIKbdNQmbcPIp4ObZraCx5d6SLwfLJAC4iL1BwzCvx+Yp
+li1kIpQAT7LwsRvqs/zx+hT/PZk25JK5+AZIp5o8KYw7jlA8TOdYkUUoFnFjTO+A
+OiefgffjCXa/9IQUg0XjMkPseRlVx60ihm6R/s/lKf/bjLzS2gtu2ggS7wKOKoP/
+UBpBaNv44hifSMWwR2pMDneGlg69EMloNZ+K8BrsToN0elV1paLlcrjAqV/qryTZ
+JZUO+3vN+3DEeuJkKCaNGbeaDv0TMq8N0igsrY9306imckGczdCGibJzOSOt+49C
+Fqrc8sGffxTHGOjLzf0zfwutxPFwIpvhgcQqiwn1InkLviQyVUz+33hl743sIOG3
+or6ATcEazdfkNKWRlBsQbMpE5YtHdIK9gL4B62o3B6TLnAb1E5BUhRZ4BXfl0P2/
+7CmpTa3mVVjxETfu2PHMVFP/byr0tlmz91q/ri3jt4UBRqZVOinpdcchswiaRej8
+AqVsrcPy9ULTVeECNPsAw+orcHIgf6l4iRTO3eLtozaJvgD1fG4gCdGDm4RyF9jb
+WgDpJnBzOAuZPomw4EHe3wtt
+=U0hl
 -----END PGP SIGNATURE-----
 
---===============0770067721616436383==--
+--===============9220409978924103193==--
