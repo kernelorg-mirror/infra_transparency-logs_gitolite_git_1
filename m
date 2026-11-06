@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Fri, 06 Nov 2026 13:02:47 -0000
-Message-Id: <179397016708.955760.16704618966343909638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Fri, 06 Nov 2026 13:03:43 -0000
+Message-Id: <179397022389.956277.5867169557358015996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/master
-    old: 33f5028a6b0a8f2fc1f59b7e6128dc30d5c3f741
-    new: 677456149e5718279df861507f6fd4814e473e67
-    log: |
-         677456149e5718279df861507f6fd4814e473e67 man/man7/unix.7: ERRORS: ETOOMANYREFS: Fix the conditions
-         
+  - ref: refs/tags/xfs-fixes-7.4-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 0675bd03e754279599fd3905aae8e4ebbb55cc1c
