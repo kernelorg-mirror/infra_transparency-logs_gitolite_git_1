@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 06 Nov 2026 17:13:21 -0000
-Message-Id: <179398520115.1283112.1664577875884716414@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 06 Nov 2026 17:13:48 -0000
+Message-Id: <179398522845.1283509.5309912777894198166@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/sas-abba
-    old: c2f395bc7d93a006e413099b4abf91bcc7f819f6
-    new: d86c10737322ef94371e368c6e16db8c6680cbdc
+  - ref: refs/heads/x86/urgent
+    old: b73fdd0f49e175dd733650669193c1504d283955
+    new: cb319926808b1cca522d2087a13205e840beb45b
     log: |
-         d86c10737322ef94371e368c6e16db8c6680cbdc scsi: mpt3sas: Time out delayed not-responding device blocks
+         cb319926808b1cca522d2087a13205e840beb45b x86/boot: Fix off-by-one error in sme_clear_pgd()
          
