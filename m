@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/yu_chun/linux
-Date: Fri, 06 Nov 2026 07:03:37 -0000
-Message-Id: <179394861784.692817.10436779112725837167@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Fri, 06 Nov 2026 07:46:29 -0000
+Message-Id: <179395118949.722300.18254862802349422670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/yu_chun/linux
-user: yu_chun
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/for-next
-    old: 555b5b5dd1976dea908a916cc3e37f8cc4531f2f
-    new: 7745e65ec3bb08cf429b273676b724c363f3f553
+  - ref: refs/heads/master
+    old: 787268686c64be60023743b527645a907e38ccca
+    new: d393ddcdd7e9ee247718bce0e8530759a3b89c54
     log: |
-         7745e65ec3bb08cf429b273676b724c363f3f553 arm64: dts: realtek: Add RTD syscon compatibles
+         66a8ea84d849423c832910f3be3cabe1f2dd0d56 xfrm: ipcomp: account full fragment pages in truesize
+         49d6c6c88b9d6f495f45dcf622f86de65ade5eaa xfrm: esp: reset outer TCP GSO metadata on espintcp input
+         2f3afcc47c3c702ba7a556b3ee8567f2b95ef5fd xfrm: keep the mode module pinned until destroy_state returns
+         d393ddcdd7e9ee247718bce0e8530759a3b89c54 xfrm: serialize SA activation with state deletion
          
