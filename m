@@ -1,56 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2533907171993192780=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 06 Nov 2026 18:03:55 -0000
-Message-Id: <179398823532.1380150.17410061557225528356@gitolite.kernel.org>
-
---===============2533907171993192780==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Fri, 06 Nov 2026 18:04:11 -0000
+Message-Id: <179398825100.1380573.7505553998027285951@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: bot-stable-queue
 changes:
-  - ref: refs/heads/master
-    old: 9d6f9ff74c7766b8ae9b9844fee02e618b9903d9
-    new: 700f41f14b1a9a105ab337ac2088df76ff82d1be
+  - ref: refs/heads/queue/5.10
+    old: f738822654b240374a1922d6d2f2d5d5dd61027f
+    new: bf8a2c8eab273dbfc3ac87cbf29268e87f262646
     log: |
-         700f41f14b1a9a105ab337ac2088df76ff82d1be 5.15-stable patches
+         42a45ab8673931e9442def41589a20267da613a4 xen-netback: Fix UAF when reading statistics data
+         7dde5d82df8ef2664ff8d66fcbcd7630153eb398 xen-netback: defer xenvif_mcast_addr_list_free()
+         bf8a2c8eab273dbfc3ac87cbf29268e87f262646 xen-blkback: Avoid UAF when reading I/O statistics
          
-
---===============2533907171993192780==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1793988234 -0500
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1793988233-349c83a91172738298ce7e47db62e1c8d46b6259
-
-9d6f9ff74c7766b8ae9b9844fee02e618b9903d9 700f41f14b1a9a105ab337ac2088df76ff82d1be refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmruFoobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LlsP/i36w2eRLdwLMZg6qxLs
-/m01e0NW/C0aauY8+EF16e9yR9xUH0v9JDZ8Xh3gLbhtQk7OyMCvUFPA/bwRZHrz
-8c5WxbigZXYciHx5HN5Y549crAGt1TMcB9H67N0pcHDAb2ZjHECoe929crelW0yO
-bpLaUO3Q7P8MXGkPbXn2Q+nDHa/w1A4t00kxvw8rn3A85Tq2XXWUogZ8p7QDitM1
-YkUe76/nj2Nm6Xz1lo7dJ3lpc1crUQpT+8Yy3wtXG2QVYMQrHi5J5UMOj8/fwi3l
-XuBPOalyEevn4SsOtFalBrS67pNx2X6fFjVA/m4pLljfNCPnNQxvgChJQS+PoW08
-riSCOoJmriJdofCsBGUBd0NAfjLmyGMh0lo1C7FXz40NNisFbNlubiihlcyg9n9S
-9gDxZohAh1T/VEkt6GdOFrX01gcERB3e4FK56nDAuJvPERynQjdn5YJ4vsOgU4Jg
-Al5aRhvChfcJx37wrMcukdxnzfHEuIwssco57jUV9YcXomltCb0vR/ZiJRi9+EIT
-uSplmiXnYfg96+v5Ckvc1cHaiRjHyz6c+/aBUPmXsRXa3JWlPF/ZDZBvZuK3GOd0
-UMegnUE2HAJmYs8GIabpKnNJ2ky17rB6HmVJXhHpKG6YvRzMZo6D46svRNua1Yxj
-+7zVWvAfpTt0pF4HT9jac+Is
-=F1+4
------END PGP SIGNATURE-----
-
---===============2533907171993192780==--
+  - ref: refs/heads/queue/7.3
+    old: 3590df2dec7c305da385380806b8b4ac0ff7948e
+    new: b778072fdcf7e1eae8567f2c8f591c52db85926b
+    log: |
+         2ee7eae170962e0cb5c1194659e78ce02a21ac3f xen-netback: Fix UAF when reading statistics data
+         65cbeab83733a7a81b25d11fb047221df14fde2d xen-netback: defer xenvif_mcast_addr_list_free()
+         b778072fdcf7e1eae8567f2c8f591c52db85926b xen-blkback: Avoid UAF when reading I/O statistics
+         
