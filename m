@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 06 Nov 2026 18:42:08 -0000
-Message-Id: <179399052892.1533038.17050742052391979951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 06 Nov 2026 18:43:00 -0000
+Message-Id: <179399058034.1533391.7051760294066054910@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 76e3631c6b0cfb6dfb3d812bbf8943b6e436b178
-    new: 2eda253aca926b90658094e8874ad716d4df48ca
+    old: 34b6f8e0e998728ce9e8e64e280d9d390c511804
+    new: a8067198717b38391ca183ed7f41a69ec4b81b6e
     log: |
-         2eda253aca926b90658094e8874ad716d4df48ca foo
+         70197a083fa64cec6fff1aabc75f835aed6bc953 shared/timeout: Fix use-after-free when a timeout removes itself
+         a8067198717b38391ca183ed7f41a69ec4b81b6e avrcp: Fix GetTotalNumberOfItems command encoding
          
