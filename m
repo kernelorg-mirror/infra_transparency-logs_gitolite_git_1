@@ -1,40 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============9192375440757343465=="
+Content-Type: multipart/mixed; boundary="===============0701523887691146554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Fri, 06 Nov 2026 18:40:22 -0000
-Message-Id: <179399042266.1531597.14401555837799238710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kuba/linux
+Date: Fri, 06 Nov 2026 18:41:21 -0000
+Message-Id: <179399048127.1532341.1388705991940384931@gitolite.kernel.org>
 
---===============9192375440757343465==
+--===============0701523887691146554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/kuba/linux
+user: kuba
 changes:
-  - ref: refs/tags/arm64-fixes
-    old: f6f4ecde8b1f40f022504cf2088d79720bb2de23
-    new: 7e6e2b0656158ea775dfb6803c7be92af9af7d98
-    log: revlist-f6f4ecde8b1f-7e6e2b065615.txt
+  - ref: refs/heads/dma
+    old: cd9029ebe3033a797c066b493e4cfcf5337cf829
+    new: 90adb927243f602537f3eac355619974ae210f8f
+    log: revlist-cd9029ebe303-90adb927243f.txt
 
---===============9192375440757343465==
+--===============0701523887691146554==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f6f4ecde8b1f-7e6e2b065615.txt
+Content-Disposition: attachment; filename=revlist-cd9029ebe303-90adb927243f.txt
 
-32dd0053f639468e549c161ad8c75e0fab2840a0 sh: mm: drop allocate_pgdat()
-f979745fc660148e442b17d7500f0c5726a5b421 sh: remove setup_bootmem_node() and plat_mem_setup()
-acce12b992a423925096d63d1c56b2bbfa655bac sh: drop dead code guarded by #ifdef CONFIG_NUMA
-7c6420ecf636adc0b86966397efc0a320cd4845a sh: drop include/asm/mmzone.h
-ab64cfe13cd7a0ee29deae0f2a0a9e971698ab63 init/Kconfig: drop ARCH_WANT_NUMA_VARIABLE_LOCALITY
-01640eb373cacf8bd3821725667e208fadb89b8c sh: init: remove call the memblock_set_node()
-c57f8d68a9bf18e143cf7c6a6f46265ff4b79ed1 sh: remove SPARSEMEM related entries from Kconfig
-226593884252df75c61d0fb6221864969dffa3c8 sh: drop include/asm/sparsemem.h
-07c81e0196cc8fbc261095c9f712e39b63e3c780 mm/sparse: move mem_section init to sparse_extreme_init()
 89e2b6e3d345cd4dca822a5ccea764ee7f9e0ae4 mm/sparse: refactor sparse_sections_init()
 d8ab71169ce579871d196a4178c51afd1e0d8b32 mm/sparse: move initialization of section metadata to sparse_metadata_init()
 31b3829703ec5a041c01162f8196fc49eb930b17 mm/sparse: rename and cleanup sparse_init_nid()
@@ -540,6 +531,7 @@ a0137c789774bdc2eff9b1b4525741ed118eeba0 selftests/bpf: 32-bit copy of the count
 8fd732e5a64b5c584b1c8701e6a8bb98da830205 selftests/bpf: Restore stack pointer subrange pruning coverage
 9ce722236a20e7a913b54df8b6098ec6324ba58a Merge branch 'bpf-fixes-and-follow-ups-for-32-64-bit-scalar-evolution'
 71537ed811107c514c0342e98902d489d6d2b7cd io_uring/net: don't retry a non-blocking connect() that fails with -EAGAIN
+486d396b19e93f6e56e0a0ba96c14a9ccc1a5977 arm64/mm: restrict transparent contpte mappings to valid PTEs
 481006fbcb22ba1f134283c017aa3ae8a67e0d59 x86_energy_perf_policy: Rewrite Linux/Android MSR path discovery
 b07a7450f6ef98c79ebd450a92fc4bb6b8f1e02e sched_ext: Reject rq-lock-taking kfuncs in tracing programs
 ed02f4f7ad9b5dabae2118e642cbbafe7dc9bb62 Merge tag 'for-7.4/io_uring-dmabuf-20261023' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
@@ -951,6 +943,8 @@ d011f648a708b231f7ef28c18ff30c815b07fe56 Merge tag 'kthread-fix-for-linus' of gi
 4dd16e31135ea8437a720222df34e8745f385d6d Merge tag 'net-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 fb7bd3a2aad70a76232a7168a505386d0a1396af Merge tag 'rust-fixes-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 a287f97d4256b5f5527f5b5a54f8ada55e1482c7 Revert "driver core: add TAINT_FORCED_BIND for when userspace manually messes with devices and drivers"
+078e122f3bf000dd45965997b66deac10ee580fa arm64/gcs: release GCS on failed fork
+f46be4da2cbb17574b5369517a9a1e1b414063b4 selftests/arm64: GCS must not leak on a failed clone3
 1b8b67503725fa6deb3a4f00ea61f982bd00c152 Merge tag 'riscv-for-linus-7.4-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 9c7e3d59107e2daf204bf6bf87b6c448ca89defe Merge tag 'hyperv-next-signed-20261028' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
 5fade975d5632280855d03699edd22c0689e3a3f Merge tag 'kgdb-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/danielt/linux
@@ -1045,10 +1039,16 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
-beeec04046227eba42b7cc5ab32498aa43da9632 arm64: suspend: Save and restore TPIDR2_EL0 across CPU suspend
-b0958b1397fb5ffdb995c0ccc74349841929c08d arm64: mm: validate /dev/mem mmap ranges without overflow
-ac302aea3d824ccc99f29b8e499c365cb9a684a9 arm64: kexec_file: Fix elf_headers memory leak in retry loop
-9bf6ee7952c7ee151c30e0fffcfc61b58127c899 arm64: sdei: Run the event handler on the kernel vectors
-58c1eb84e97701c583605ba2fd553b69afba2245 arm64: sdei: Preserve the interrupted context's exception registers
+62f4728c4d5c1b3ced4ae294b79eb563f23e6e71 dma-mapping: add dma_alloc_attrs_node() and dma_alloc_coherent_node()
+b58642c1909de5a621edc660533a37ebd66834ca dma-direct: add dma_direct_alloc_node()
+b14502ceab106f59a345e92cf2aadeda75435a85 iommu/dma: pass the NUMA node to iommu_dma_alloc()
+5252fa03adb35f840e39660e8f3c8df27618b5d5 dma-contiguous: pass the NUMA node to dma_alloc_contiguous()
+ea0f4c9e763bb1f15258f4365f477c1a4bb73eeb eth: libwx: restore the device's NUMA node after ring allocation
+cfa8b0d4d5d3d1c5ba602c26bad110a8e89b5179 eth: libwx: use dma_alloc_coherent_node()
+f7bab4624425062cf56eade29f2f1b7bd8fc5036 eth: ixgbe: use dma_alloc_coherent_node()
+aea8cf31043676b81427a88b6ab7a389cb1a7bb1 eth: xgbe: use dma_alloc_coherent_node()
+7982b1b1fafc1b696aae691dfe6c2ecdede2da6a eth: fungible: use dma_alloc_coherent_node()
+56a76425f3519ef9ad0bd22acc5d480c2940607d eth: mlx5: use dma_alloc_coherent_node()
+90adb927243f602537f3eac355619974ae210f8f eth: mlx4: use dma_alloc_coherent_node()
 
---===============9192375440757343465==--
+--===============0701523887691146554==--
