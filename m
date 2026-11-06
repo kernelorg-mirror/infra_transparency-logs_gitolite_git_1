@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5993150367216196168=="
+Content-Type: multipart/mixed; boundary="===============3311709123107333203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 06 Nov 2026 23:13:34 -0000
-Message-Id: <179400681407.1790361.11570853867140866838@gitolite.kernel.org>
+Date: Fri, 06 Nov 2026 23:13:36 -0000
+Message-Id: <179400681680.1790449.10974358017511139240@gitolite.kernel.org>
 
---===============5993150367216196168==
+--===============3311709123107333203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-testing
-    old: 1c376541ddd027be95772c4e69f4b297b288ed49
-    new: 608fbdfb8c76d863aee355e87ab28cac630c508d
-    log: revlist-1c376541ddd0-608fbdfb8c76.txt
+  - ref: refs/heads/kernel-7.3/nfsd-testing-canary-dontcache
+    old: 1cb9cd8ae1d49a498649c9452a0ae96aa85fd852
+    new: bc8beea755b5d3a7811e19ed0453d06954363bd3
+    log: revlist-1cb9cd8ae1d4-bc8beea755b5.txt
 
---===============5993150367216196168==
+--===============3311709123107333203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c376541ddd0-608fbdfb8c76.txt
+Content-Disposition: attachment; filename=revlist-1cb9cd8ae1d4-bc8beea755b5.txt
 
 352dd525ebedb93d4b7f73b2e6c044f1fbe91e9b SUNRPC: fire svc_xprt_free tracepoint before dropping the netns
 9f00e2849a8f2175f5f9d50dd3dae1d28a0d2541 SUNRPC: fire svc_defer_queue tracepoint before publishing the request
@@ -86,5 +86,12 @@ e3c3c2f6ced84481f4875b7cf45d9e5acab988db NFSD: only split a direct-mode WRITE fo
 9fe6b93833078da97013ba03f65149701d5f6cf4 NFSD: do not use direct I/O for a READ smaller than its alignment
 717579bdb84c3ad42f493aa6a024b3b610fb226c NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
 608fbdfb8c76d863aee355e87ab28cac630c508d NFSD: add tracing for how direct-mode READ and WRITE are serviced
+a265e63b46cf19c9b67cbda4631b989b37752ddc mm: move clearing the uncached flag of a found folio into a helper
+240f3eb59ac898af2e79c703498376f2678ee592 mm: take a folio off WB_DONTCACHE_DIRTY only if it was counted there
+23455a3490ccf6e0479c6f28a240545167dd5d4d mm: expose WB_DONTCACHE_DIRTY in bdi debugfs stats
+dc1ec5f869bd6bbc9ebb9070319793a4bf552f3c mm: add folio_mark_dropbehind() to mark a folio dropbehind and account it
+a4fe2460cbdc9232ca1a31e0d0166e514f025f52 mm, iomap: keep a partly covered page until an uncached write completes it
+309838852e2d4e07aadbd81972003cea1ca4cb5b mm, iomap: let an uncached writer complete its shared pages itself
+bc8beea755b5d3a7811e19ed0453d06954363bd3 NFSD: drop a shared boundary page only once both WRITEs have written it
 
---===============5993150367216196168==--
+--===============3311709123107333203==--
