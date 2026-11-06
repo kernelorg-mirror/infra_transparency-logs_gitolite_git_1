@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3951775315307155085=="
+Content-Type: multipart/mixed; boundary="===============2395669622234189457=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 06 Nov 2026 00:52:46 -0000
-Message-Id: <179392636609.420286.6865435645516096727@gitolite.kernel.org>
+Date: Fri, 06 Nov 2026 00:52:49 -0000
+Message-Id: <179392636927.420496.9406926645909554892@gitolite.kernel.org>
 
---===============3951775315307155085==
+--===============2395669622234189457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,60 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part2
-    old: 049d0225d59084fe04ca1ab1b420081011ed0ba3
-    new: 25f685f5a2ebab64b2c223e482d7f3660054934c
-    log: revlist-049d0225d590-25f685f5a2eb.txt
+  - ref: refs/heads/kernel-7.3/jflynn-io500-canary
+    old: a0f5f04a3920835767e24c944e54a676d5aa32b8
+    new: 90a0e146aeef12e267f5eec9b8ca1f6e2eab20a9
+    log: revlist-a0f5f04a3920-90a0e146aeef.txt
 
---===============3951775315307155085==
+--===============2395669622234189457==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-049d0225d590-25f685f5a2eb.txt
+Content-Disposition: attachment; filename=revlist-a0f5f04a3920-90a0e146aeef.txt
 
-48eead041b0505021844c98f92406f5fbba4b3fa NFS/localio: restore task flags with memalloc_flags_restore() in workers
-5be9e4dd1ea2bb38e3a32b70e87e1c4b4227e9dd NFSv3: cache only a nonzero READ reply header size
-02557a78a8a2c8d2e00f21e2ac95fa5e263fe237 NFS/localio: admit each I/O through a per-CPU reference, not shared locks
-5eb80f8bdfdcdfd1f4f160fb37214931ab0323fc NFS: io_uring NOWAIT admission for NFSv3 O_DIRECT I/O
-ad9daa9642ac4790db36db46766eb1585c572f3a NFS/localio: hold freeze protection until an async write completes
-4402a5b885d105b94cfec05743e861348c899c01 NFS/localio: default-off O_DIRECT request batching
-989f369c383ec8b58a48f7cd023f92d27f8aec01 task_work: export task_work_add and task_work_run for NFS LOCALIO
-aa9aa98d4b8731dbc29f6fda91091aca9cd38e7d NFS/localio: complete LOCALIO I/O without the nfsiod hop
-fdf0b878aa3070732aac74b4f91a0dd5ebc4bf6a NFS/localio: KUnit tests for the completion CPU choice
-0fc865c7b06e4319932134c7bcf9c92a6e0c3bb9 NFS/localio: re-issue a short read or write from the workqueue
-661da2039c5b92579beb50e3fa32b64a180c945a NFS: nowait_writable defaults to N
-dca3dd307c3aa53b3b910c6cf496123331095f16 loop: take the backing device's virtual boundary for direct I/O
-b7f31f5946ee45c3ee5e820fb7819b0d73c217a7 NFSD: Save the LAYOUTRETURN body when it is decoded into scratch
-81fe86b33739037350865055a6e6657ef437ed81 block: let a stacking device inherit its members' DMA alignment
-1282c6dbebab55e6787826cef60e5baa6783059f block: add bdev_dio_seg_boundary()
-9bbc9a6e206d77c447688d4afb4c7cb9b6b46522 fs: add STATX_DIO_SEG_BOUNDARY
-3c6582753300d1b1b9ff31a07446beecad6ce608 block: report STATX_DIO_SEG_BOUNDARY for block devices
-ca31fdb096cb919a5fe4bcc257b0290278532428 xfs: report the direct I/O segment boundary
-7ecfcf8af01584c97851ea630b46d5b2ba74c9e5 loop: take the direct I/O segment boundary from the backing file
-9d96459428dcf56436eca0026dfca6c12daf42dd tcp: let a kernel socket cap its receive window
-72aca1b3228967428d2df24c4db8ac572d84d40a page_pool: add a fixed receive-buffer region for network devices
-a99dec4cb4c5bc7e4d6cf10ff918454d1a2d25d9 page_pool: add page_pool_page_in_rx_region()
-e208ae102e7167772cffdcf8b19e78ca0cc9c13a page_pool: export page_pool_rx_region_size()
-86759f6329d8b40d009ab426b74a0651bdc46ec3 page_pool: recycle a region-bound pool's pages last in, first out
-66a0449ada83e9de984ddac954c204e2ca1cbaf0 page_pool: test the fixed receive region only while it exists
-5b075ca3c30c6e3fb6e7cf385caf1879d0dc49f5 page_pool: Let a pool bound to the receive region keep more pages
-763d4038847689f9353a5f70ea28e334ea997d5e SUNRPC: Add a bvec-backed page mode to struct xdr_buf
-b5028503be7d90b34b6515ca22ac99e6cfd726d1 SUNRPC: Decode XDR from a bvec-backed xdr_buf
-f8dd85fc7a8bab03d94855caf8e257365791d72d SUNRPC: Let a procedure accept a request described by bvecs
-db97aeb9bae6607dde2aea41cbd8d7487359f0e3 SUNRPC: Lend TCP receive pages to eligible RPC calls
-0b1b60d59aa06fa447075a05105fac67cdbde9db SUNRPC: Copy small RPC records instead of loaning a receive page
-5305fb9af02b4bcae3b10ac6cdb1eb93db42071c SUNRPC: Merge a locked skb head's copy into a whole-page receive bvec
-5951e5cfbc94c9138c59f3725f72b5311b33bffd SUNRPC: Hold a loaned page-pool page by a page-pool reference
-3625871cb2e5edef7ca16da04e1dc036bd0b9427 SUNRPC: Bound TCP receive loans with a region page budget
-8256928f92267347c66dafdc317b7cc3597c5161 SUNRPC: Let an upper layer return a request's loaned payload early
-79944a3010a738dd2236ef6c465457f18aebe264 SUNRPC: Swap pages with the socket when a partial record changes hands
-aefc6f3a7413f72a1b41529081f2d1390d105ccc SUNRPC: Return a loaned record's page-pool pages in bulk
-7b7c8f72cd38115cd8ad9113a875288d41ae8bcd SUNRPC: Learn the region costs of loans and held receive buffers
-123db8f3ea750b1f3bec5b898b8c1a66e8399ab9 SUNRPC: look for region pages in an skb only while the region exists
-8de0c07c54eb763c90cd03a7770cdf6949ff2358 SUNRPC: Wake an idle service thread only once
-2cf838ef6a995f2a515ddec004fdad15f1c01046 SUNRPC: Read XPT_DATA before setting it in svc_data_ready()
-8447fb441c9720c331be625ebab3082bdbfd711b SUNRPC: Stamp enqueue and wake times only while they are traced
-6b08e2573c24fabfcbd6ec5e80baac300b714a14 SUNRPC: Wake no thread for less than a loaned TCP record lacks
 34db4335828886bb19443be7e4702488e2e9dda6 SUNRPC: Prefetch a loaned skb's struct pages for writing
 4b4155f83dddc45339236a31932f7629b587acb2 SUNRPC: Read on when a loaned TCP record's rest arrives during a read
 4310fd8808688696fa718b719f4c59e4332360a7 nfs_common: check each bvec's covered length in nfs_dio_iter_aligned()
@@ -1050,5 +1007,48 @@ f1e3c0e3d3bf07e37011acd9b288a364c28df26d SUNRPC: test the checked table and the 
 e3e7707601353e7e8d4c6b9655a6cd4b09a04dc0 net: rx_loan: raise a re-held socket's window with tcp_sock_raise_rcv_window()
 aead289dc60d3ead66db573cec2f85015c79578f NFSD_TCP_WRITE_ZEROCOPY: the handoff for the 7.3 canary on tardis2
 25f685f5a2ebab64b2c223e482d7f3660054934c NFSD_TCP_WRITE_ZEROCOPY: how David's performance series was carried onto the 7.3 canary
+df1279ab8dbee6ebded2bfc73589d9a777fa760f fs: avoid spurious dentry ref/unref cycle on open
+af2149e5e3b8cad753a54098f0d3f928eed106cf VFS: fix various typos in documentation for start_creating start_removing etc
+53bbd51ddc871f5cea6e7dc6d2b83483ba8282df VFS: enhance d_splice_alias() to handle hashed dentries
+3f0e5e1f2c410b4b47ee7589867e9f7c27e8fa64 VFS: introduce d_alloc_trylock()
+9f4dd77945fc7e7217bc895949a6e3d9c45b46f8 VFS: add d_duplicate()
+dc7dfd8f29f01a33893585f564c23bfc65479e83 VFS: Add LOOKUP_SHARED flag.
+7bb903101146d8dac09a5be0ce8884081037009d VFS: add lockdep monitoring of DCACHE_PAR_LOOKUP lock.
+5e14c2c485b16cda2aec9f1684852ef5a34f6e6c VFS: reserve a d_flags bit for fs-specific usage
+63711f4ce4550383196d26ec41705d2a25a7bc7c VFS: per-fs-type lockdep key for dentry in-lookup locking
+e5296d7afdfa7c42d5de2fa1b4e8495fb7d23797 VFS: rename lookup_map to dep_map
+677c0f0dda79e0920ba7285cbc09c3d637da0009 ovl: provide private lockdep class for dentry->dep_map
+9b08400a837bbe08184adc6768484ff8b1608dd1 VFS: d_duplicate: repair comments to avoid kernel-doc warnings
+1c2ca1aba32354664e7fbc052d245da1b3df57fc fs/dcache: annotate the lockless d_unhashed() check in retain_dentry()
+3067d19ad4c15968c70f7b3cfc8539e543fda32d nfs: fix open-blocking with d_fsdata
+4da8f834c92c1d003c32764a67a253c7582aed1d nfs: fix nfs_call_unlink()
+4a5de3be7cf01925371f4502550a6e974efd98d0 nfs: remove d_drop()/d_alloc_parallel() from nfs_atomic_open()
+90983b4873abff1bd4d83f83391c6f5fb3995470 nfs: temporarily restore nfs_link()'s unbraced S_ISREG arm
+6f59c09dbc37aa479e967c6f08aa1899eb28fd28 nfs: use d_splice_alias() in nfs_link()
+4f2f3c20dccffada4bb8613003d0125fca0ba7ed nfs: reinstate the O_DIRECT drain in nfs_link()
+a93ec72b251f048f79c6a74029568d947a47668c nfs: don't d_drop() before d_splice_alias()
+2e9906197c9b529bf0ec5b4022bbd19c66f0f2e6 nfs: don't d_drop() before d_splice_alias() in atomic_create.
+c619d09dc6e90bab1baef4f6c7308050622a1099 nfs: Use d_alloc_trylock() in nfs_prime_dcache()
+784af1539b397cbcf2ad57fef3f69e1579144e3d nfs: use d_alloc_trylock() in silly-rename
+55a80799b33f844898bf15dcf474a791e3134149 nfs: use d_duplicate()
+b2560769b801d73c96b61df07dcf716a87b555f0 nfs: do not transfer a sillydelete onto a blocked dentry
+d747e0c5d5da909b7b28ee678ec00d348c733f64 nfs: answer a handed-off silly-delete on a removal target with -EBUSY
+3de036462b7f57d2fbbe3e3fa6e57c51ab930829 nfs: take rmdir_sem for a silly-delete only when its REMOVE is sent
+28777372740be539db973a64c55ca16a1f4f6f30 NFSv4.1: honour nconnect on session-trunked server addresses
+d3aab8daa855b2544cae1ac621cf8dda33340637 pNFS/flexfiles: make dataserver_nconnect an override, not a cap
+84bada5098786cb5b8b022b0da085d96f68f06f6 nfs: update a server's capabilities in one step
+4bc2c6ba7488cdc9f9834bb7a2762ed492d8dcb4 vfs: allow the parent lock to be shared for O_CREAT
+c2a3b788a9710397faa67dc72e0640e9131ee9ef nfs: tell the VFS when two names can be one entry on the server
+dad272e0b74a9a06f0d3c9606fa2220b1004a30d nfs: concurrent O_CREAT in one NFSv4 directory
+ac6a4ee0a9a54c9262235bf20073fea90b00fa1e vfs: factor file removal into a helper, no functional change
+a160fbdb058b8de6db75852cb6d49e45af5c4958 vfs: let a filesystem remove files with the parent directory locked shared
+1dd3a91b0f14292f022f3197baeed661006f3771 nfs: add a second mark for a removal made with the parent locked shared
+cf9c45a8ad31b02d17bfde0f23340b004ede2d68 nfs: keep the dentry of a shared-parent removal hashed
+acf1918d9d13ed3ceb57925543fdcec1230de306 nfs: do not cache a name from a listing that a removal overlapped
+98638c2d86e4b594f3480c27939d28085769d0cb nfs: add the removal method for a parent directory locked shared
+30c8bf48822eb7206aff6a9e26309d55cbdb7975 nfs: look a name up again once its removal has unhashed it
+ce380c4536ec36b1605ed49bfef13ec665f11088 nfs: remove files with the parent directory locked shared on NFSv4
+f5c38e68ca61f6c4d3036d38ea44d454db3fb6ee LAB ONLY: make the O_CREAT shared-lock opt-in settable at run time
+90a0e146aeef12e267f5eec9b8ca1f6e2eab20a9 LAB ONLY: nfs: add a runtime knob for shared-parent unlink
 
---===============3951775315307155085==--
+--===============2395669622234189457==--
