@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5963161424692403159=="
+Content-Type: multipart/mixed; boundary="===============6210449057093782256=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 06 Nov 2026 05:49:47 -0000
-Message-Id: <179394418714.640403.5955737445631467991@gitolite.kernel.org>
+Date: Fri, 06 Nov 2026 05:56:42 -0000
+Message-Id: <179394460205.646805.4956219445597159916@gitolite.kernel.org>
 
---===============5963161424692403159==
+--===============6210449057093782256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,33 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/tags/devm_kmalloc_obj-v7.4-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 6ba14036c965ab2c45cfd0e822f20a824089941a
+  - ref: refs/heads/for-linus/v7.4-rc2/devm_kmalloc_obj
+    old: ca0ab4e0fd8c0770ff7c61d67d65d9190afd8512
+    new: 4dd10fbbeb9c33709edc89916e19c03c780a0751
+    log: |
+         0af298e62e5cff4ebf9bec47b8711177a7e2f115 treewide: refresh kmalloc_obj() conversions
+         bcd347f31e84ecfb1e45be488b1c7c835b8feb4c coccinelle: kmalloc_obj: Include devm_kmalloc_obj conversion rules
+         4dd10fbbeb9c33709edc89916e19c03c780a0751 treewide: Convert devm_kmalloc() family to the devm_kmalloc_obj() family
+         
 
---===============5963161424692403159==
+--===============6210449057093782256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1793944186 -0800
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1793944593 -0800
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1793944184-4a3f7dced408532e3c61bbbf7d2946564d538822
+nonce 1793944575-1977799033ccae74a1cc1c27fb3f0719f5e94427
 
-0000000000000000000000000000000000000000 6ba14036c965ab2c45cfd0e822f20a824089941a refs/tags/devm_kmalloc_obj-v7.4-rc2
+ca0ab4e0fd8c0770ff7c61d67d65d9190afd8512 4dd10fbbeb9c33709edc89916e19c03c780a0751 refs/heads/for-linus/v7.4-rc2/devm_kmalloc_obj
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCau1qegAKCRA2KwveOeQk
-uxQiAP99MgyUqnHOkOanbhAyLXzfNXl3sWAL7w8Sq0ET2+VLjgD9FGLFF3dfJVTJ
-rNR+lgJZ05rRAhRE/HmzkB9luebH7ww=
-=blcT
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCau1sEQAKCRA2KwveOeQk
+u+c2AQDRtz3VacJkJoaF5n9wUunBmhhkptp42YTeiJDRG3ohawD/R6AY6s64MTyn
+/mzIiZDoCzGO6devxBlO0GV7tjZ7CQ8=
+=rRG3
 -----END PGP SIGNATURE-----
 
---===============5963161424692403159==--
+--===============6210449057093782256==--
