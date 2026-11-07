@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sat, 07 Nov 2026 17:06:04 -0000
-Message-Id: <179407116435.2636332.5794651626196126231@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sat, 07 Nov 2026 17:16:52 -0000
+Message-Id: <179407181219.2643551.6883276518597454054@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: 9913e4bc5a2ff8a58abad61b05ff619a158e63ba
-    new: 2225ef4e51c4ddfaff1b2e227607ed04413bd0c6
+  - ref: refs/heads/controller/dwc
+    old: 403a4eed905dd7ebeeb954bb3a808ac02d9e816c
+    new: aeddef180e7e70dea2cb684747890338b4d4b059
     log: |
-         2225ef4e51c4ddfaff1b2e227607ed04413bd0c6 ASoC: tlv320adcx140: zero-initialize the GPI configuration array
+         fe84c0b370889bbf65f75bb75a1810227c7ce150 PCI: tegra194: Use FIELD_*() for register fields
+         aeddef180e7e70dea2cb684747890338b4d4b059 PCI: dwc: Consolidate RAS-DES event counter fields
          
