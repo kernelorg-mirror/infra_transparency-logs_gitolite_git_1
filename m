@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sat, 07 Nov 2026 12:53:28 -0000
-Message-Id: <179405600803.2386815.11953463436108826419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 07 Nov 2026 13:01:58 -0000
+Message-Id: <179405651849.2393493.4714764566152402903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/spi-7.5
-    old: 4a8faaea975be15cb636646c0d4c6ff1c2110baa
-    new: 6a50b668331bf6bf15edee511e7dc68fc6294c6d
+  - ref: refs/heads/master
+    old: 77ecab77b25567c54df997dcb8030dea6bca03ed
+    new: 0ae08d01c3899f8499653dbb34bbc6e78796c1c3
     log: |
-         6a50b668331bf6bf15edee511e7dc68fc6294c6d spi: tegra20-slink: size words with spi_bpw_to_bytes()
+         0ae08d01c3899f8499653dbb34bbc6e78796c1c3 Fixes for all trees
          
