@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6320755575533756526=="
+Content-Type: multipart/mixed; boundary="===============7458396703105451314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 07 Nov 2026 01:57:15 -0000
-Message-Id: <179401663535.1917756.8624277998799691875@gitolite.kernel.org>
+Date: Sat, 07 Nov 2026 01:57:18 -0000
+Message-Id: <179401663845.1917957.5109454836470441981@gitolite.kernel.org>
 
---===============6320755575533756526==
+--===============7458396703105451314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/anna-nfs-next
-    old: 9f5f99378ccbc0c2a2f0fa4f45751a361ba9c143
-    new: 757194695f1b20171f4ff8376d8f9187c9af8ef5
-    log: revlist-9f5f99378ccb-757194695f1b.txt
+  - ref: refs/heads/kernel-7.3/snitzer-nfs-fixes-canary
+    old: 460fc52bc6252dc94dd208c7b368f87b75d0f7c5
+    new: bf85f64e703bf52d8164455ae0d5fc62814ef978
+    log: revlist-460fc52bc625-bf85f64e703b.txt
 
---===============6320755575533756526==
+--===============7458396703105451314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f5f99378ccb-757194695f1b.txt
+Content-Disposition: attachment; filename=revlist-460fc52bc625-bf85f64e703b.txt
 
 6184eaadca4a1826dc56ba639976e5709903dbb3 genirq/proc: Fix missing CPU header in /proc/interrupts
 156aeda4d74e9007b56492ed1f3b5838822632be mm/damon/core: error damos_commit_quota_goal() for zero target_value
@@ -732,5 +732,9 @@ f2fb94fbeead54899114053e2b6b5b4ece0b239d NFS: name the namespace .nfs keyring in
 833cccbf5e1b9e59b56f1226e56284952d503160 xprtrdma: prevent disconnect feedback during endpoint teardown
 90f6c1a322bae65c0ba760d5a0d4c62b93093180 nfs: set gencount on protocol-specific remove
 757194695f1b20171f4ff8376d8f9187c9af8ef5 xprtrdma: trim head iovec when the payload arrives via a Write chunk
+5b41461c6660542e1adff862e77a18ef6e6c3fe5 NFS: don't release the open context of a failed write from writeback
+1e0cd7af1014eabdef4b8f0c9fd3da207fd64fe6 NFS: don't run the release of a WRITE or COMMIT in the submitter
+701215822720f1315c5e2e5191552f8ace873ab5 NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
+bf85f64e703bf52d8164455ae0d5fc62814ef978 NFS/localio: don't run the release of a failed COMMIT in the submitter
 
---===============6320755575533756526==--
+--===============7458396703105451314==--
