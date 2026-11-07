@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Sat, 07 Nov 2026 13:07:20 -0000
-Message-Id: <179405684049.2397600.7588080887896450187@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Sat, 07 Nov 2026 13:12:30 -0000
+Message-Id: <179405715034.2401341.10213929815342279829@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nsc
 changes:
-  - ref: refs/heads/for-next
-    old: 14d30246b2f04e1abbf93abade34ccd6dd8859dc
-    new: 8dbe48802406423027bb5fc84ad7d47a6d42e88f
+  - ref: refs/heads/kbuild-next-unstable
+    old: 131d86d09b60b9df66adfff06152e52414f3ed94
+    new: bc34894976c2e2d21abf347b03a8c2addf548860
     log: |
-         8dbe48802406423027bb5fc84ad7d47a6d42e88f ata: sata_dwc_460ex: replace chan->device->dev with dmaengine_get_provider_device()
+         bc34894976c2e2d21abf347b03a8c2addf548860 kbuild: detect module name collisions between '-' and '_'
          
