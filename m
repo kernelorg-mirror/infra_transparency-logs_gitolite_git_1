@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5382660761467321784=="
+Content-Type: multipart/mixed; boundary="===============5506886202552854918=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 07 Nov 2026 04:57:23 -0000
-Message-Id: <179402744307.2053841.15300034219770959725@gitolite.kernel.org>
+Date: Sat, 07 Nov 2026 04:57:26 -0000
+Message-Id: <179402744611.2054052.8541319641586915859@gitolite.kernel.org>
 
---===============5382660761467321784==
+--===============5506886202552854918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: ad6472e01a5f5e8968a2fbe7623c84368b6a95e3
+  - ref: refs/heads/for-next
+    old: 3e18218484126afb9da722080659c038cb2256ab
     new: 2d0b457611c06304138754a05e0873cc18acfb7e
-    log: revlist-ad6472e01a5f-2d0b457611c0.txt
+    log: revlist-3e1821848412-2d0b457611c0.txt
 
---===============5382660761467321784==
+--===============5506886202552854918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad6472e01a5f-2d0b457611c0.txt
+Content-Disposition: attachment; filename=revlist-3e1821848412-2d0b457611c0.txt
 
+2210e69db7217bca218693fde5ed45bcbe8ff519 Revert "libbpf: Fix use-after-free in btf__add_type"
+9736b748ee82a5159bb5b5c45a5c7ed77e8b4a98 libbpf: Drop btf_dump details from the BTF docs
+ad6472e01a5f5e8968a2fbe7623c84368b6a95e3 bpftool: Replace the type tag override table with two checks
 8ed7285ee07534fae63041dcce69686ef96b16b8 bpf: Add may_goto to the loops that the verifier marks
 7b7dc9c6e8e94f086a2c3ccf01692879e37aca93 bpf: Limit depth and time of recursive subprogs at run time
 ff3712ef1106c70ec88da6391da958d4e9d4d622 bpf: Add union and widening of the range of a register
@@ -74,4 +77,4 @@ d13baed274e6a2224c34908bea81bb4c08b955b2 selftests/bpf: Test pointers that becom
 b5ae07f77d27b51666fb9fa2bcc7b810f2e3e66e selftests/bpf: Test progs without bpf_for(), zero, can_loop and such
 2d0b457611c06304138754a05e0873cc18acfb7e Merge branch 'bpf-a-verifier-that-joins-states'
 
---===============5382660761467321784==--
+--===============5506886202552854918==--
