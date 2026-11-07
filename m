@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 07 Nov 2026 02:06:12 -0000
-Message-Id: <179401717225.1928944.14655098335934632834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Sat, 07 Nov 2026 02:23:32 -0000
+Message-Id: <179401821247.1939694.12294150837761774376@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/tags/v7.3.3-13.canary
-    old: 0000000000000000000000000000000000000000
-    new: 3215a4b2dc778c246656f4b567e29398a6c35ccd
+  - ref: refs/heads/kbuild-fixes-unstable
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    new: 4d8996081dd19c177c44a83e74715ddf220e3452
+    log: |
+         4d8996081dd19c177c44a83e74715ddf220e3452 kbuild: move gcc's -Wconstant-logical-operand to W=2
+         
