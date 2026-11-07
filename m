@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8702704941282321859=="
+Content-Type: multipart/mixed; boundary="===============1600722499027316120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 07 Nov 2026 01:22:17 -0000
-Message-Id: <179401453711.1893100.1458478274105460812@gitolite.kernel.org>
+Date: Sat, 07 Nov 2026 01:22:21 -0000
+Message-Id: <179401454127.1893220.2826293746606443599@gitolite.kernel.org>
 
---===============8702704941282321859==
+--===============1600722499027316120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 843c58022865a7b0f9743416c2b48bc2632da23c
-    new: 684242af7090928ada5e48fd40a0f3a539b3fd5b
-    log: revlist-843c58022865-684242af7090.txt
+  - ref: refs/heads/mm-unstable
+    old: b3710a1d0f145a4f6f1d44fdaff56a6af8cffe89
+    new: a3d27154a205f6b32000e7e2734b2a6a4d22c65b
+    log: revlist-b3710a1d0f14-a3d27154a205.txt
 
---===============8702704941282321859==
+--===============1600722499027316120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-843c58022865-684242af7090.txt
+Content-Disposition: attachment; filename=revlist-b3710a1d0f14-a3d27154a205.txt
 
 a4f38f4b5a8f35b374f42b72bb4d0ed18ff772f0 mm/kasan: detect double-free involving kfree_rcu_sheaf()
 db6e141157dc420288ac3b4e4ef34666cfa7fea5 mm/kasan/kunit: add double-free tests involving kfree_rcu_sheaf()
@@ -215,39 +215,5 @@ f8409d9514203d41b4410791ee2f31e9f1d5477f alloc_tag: add a test for trace state t
 e4a39e724acfcfbbbdd7d1862dc5f0a143ce8d37 mm/zswap: validate dlen and normalize comp_ret on compression success
 7c570f0a4ea77138ee92fa0b8a019059dc0e7318 mm: nommu: set MMF_OOM_SKIP in exit_mmap()
 a3d27154a205f6b32000e7e2734b2a6a4d22c65b fs/proc/task_mmu: fix lost maps entries above 2^63
-847161e4ee770f1ca6c538a2cab76555b07ceea3 mm/hugetlb: fix validation of unsupported HugeTLB orders
-d49a147786a91592706decfc5736c478d0c6dd46 selftests/mm: skip split_huge_page_test without the split_huge_pages file
-986cc58955f0b567b7573487f7a3f003615baeaf mm/gup: convert GUP code to use vma_flags_t
-d60244a1a82c91e1ecc5230cddc80a89a5b7cb36 mm/filemap: convert fault and readahead logic to use vma_flags_t
-a6695270ce76fa746f3dc8f187ef1d893c031e63 mm/filemap: cache random-read flag before dropping fault lock
-b6e1d425b3b54fe3c209c04e09aac75cd6d6625a mm-filemap-convert-fault-and-readahead-logic-to-use-vma_flags_t-fix-fix
-c38a958c22ca38f43fea532cbb59b8a9c6168370 mm/rmap: convert remaining VMA flag tests to use vma_flags_t
-f3ca8eb36415cdb81c541505f0ec786204e2c70d mm/migrate: convert VMA flag tests to use vma_flags_t
-a18dc396549abdbcf1934a535b7839bdd5dc3aa5 mm: convert THP VMA flag tests to use vma_flags_t
-8ec75954b2a11d065eb765a279bb06c7c9c2f780 mm/ksm: convert VMA flag tests to use vma_flags_t
-b19b5baaab31e9e697be6b19cbb0aec69e7414b8 mm/madvise: convert madvise_vma_behavior() to use vma_flags_t
-badd52dc5ac4fcd4e6f5b2ea570b7a9ab3a99bed mm: convert miscellaneous VMA flag tests to use vma_flags_t
-9dc37a319583a33c71192f9821f7c2bf10da16a6 fs/proc/task_mmu: convert VMA flag tests to use vma_flags_t
-da92e9d61bc73d07e6b1a16568c6452290cac08f fs/coredump: convert vma_dump_size() to use vma_flags_t
-b0ac86082d14dfd10f2683e274403fa03889dc91 uprobes: convert VMA flag tests to use vma_flags_t
-0c2f7783f533892ea9b5264f3efe3b562d1d6be1 perf: convert VMA flag tests to use vma_flags_t
-d2cfc8e11fade0542bdec0e1ff6367ff41a33ae8 security: convert VMA flag tests to use vma_flags_t
-ee25534f8eaaeccbd16928119e461b89f5ae6e85 mm/mremap: fix hugetlb reservation leak on partial move
-885afa92dc78035af0774748d0f15bdf15700148 selftests/mm: test a partial mremap() of hugetlb memory
-c4b1600b229fcc31b7eb964ab18079972fcd1e02 mm/mremap: reaccount on unmap failure only if accounted
-3fb59825e2f7bf587bda6ae85d1a8d766092d05c mm/mremap: restore VMA_ACCOUNT_BIT if the unmap fails
-3376c48028d6f38f885cfac9a9e53423eb966eac selftests/mm: test mremap() with an old size of 0
-4ea3d69a4ddfe9eb0f7d1dc6f316da62791e2b4f mm/damon/core: add DAMOS_FILTER_TYPE_AGE_MS
-2253522aef18eb744b490c29f2465f48884b2e9d mm/damon/sysfs-schemes: support DAMOS_FILTER_TYPE_AGE_MS
-2becef78dabb6ca9739f313181f0049188c93f34 Docs/mm/damon/design: update for age_ms damos core filter type
-a65bb5290d36ba307c710ff519953dc1bd4c0716 Docs/admin-guide/mm/damon/usage: update for age_ms damos core filter
-6d853cf724338a597ea0fe22009066eb3e892b45 mm/hugetlb_cgroup: prevent use-after-free during cgroup offlining
-a0e59f7795f67ef63effd7e71ea4f80506d36ed6 mm/rmap: duplicate a PMD mapping as one in folio_dup_file_rmap_pmd()
-623cb9fe35bf82901e6236275291dac3e7209393 mm/huge_memory: copy file THPs at fork like copy_present_ptes() does
-1145b1abc526a70b5dfdcd98547a7133edeb787d mm/huge_memory: read a special PMD under the lock in copy_huge_pmd()
-9a4d9fb667a66d99c72e1718da736d4b9d521cd4 selftests/mm: test fork of PMD-mapped shmem THPs
-9611ef60d46eb947865c6990c2102b8bcc5dc2e6 selftests-mm-test-fork-of-pmd-mapped-shmem-thps-fix
-f43593781bb3cac2520881712da86ccdbbaa5d3a mm/migrate_device: allocate deferred split sublists for new huge folios
-684242af7090928ada5e48fd40a0f3a539b3fd5b riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============8702704941282321859==--
+--===============1600722499027316120==--
