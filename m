@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Sat, 07 Nov 2026 17:50:52 -0000
-Message-Id: <179407385280.2667949.5917857693040936153@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/liba2i/liba2i
+Date: Sat, 07 Nov 2026 18:05:58 -0000
+Message-Id: <179407475800.2678664.7495973221915081104@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libcap/libcap
-user: morgan
+repo: pub/scm/libs/liba2i/liba2i
+user: alx
 changes:
   - ref: refs/heads/master
-    old: 8cab242e8b6b82185b6dc0d77b8ccbe6eac57d40
-    new: 7bb5a1d487a94b708ae34a5da7e71fa1fd5aff8b
+    old: 4fc8196d7811c26abefaf3a3ae6b5c67c4c9cbc9
+    new: 9e4bf1151e91e9ca640898d938378419b84018e3
     log: |
-         7bb5a1d487a94b708ae34a5da7e71fa1fd5aff8b Work around the lack of static_assert() in older ulibc-ng headers.
+         2f1c36f7510b58e78e73eba188839fb68b0a0be0 */: Remove str2*() variants
+         bf33b17343b4ceeeec875596006322dc655cc653 *: lint-c-checkpatch: Remove support for checkpatch
+         9e4bf1151e91e9ca640898d938378419b84018e3 etc/clang-tidy/config.yaml: Checks: -readability-use-concise-preprocessor-directives
          
