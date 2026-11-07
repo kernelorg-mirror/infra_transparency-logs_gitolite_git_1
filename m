@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 07 Nov 2026 00:38:26 -0000
-Message-Id: <179401190667.1856802.2750388681185616192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 07 Nov 2026 00:40:22 -0000
+Message-Id: <179401202213.1859643.15187297519286111134@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 3e18218484126afb9da722080659c038cb2256ab
-    new: ad6472e01a5f5e8968a2fbe7623c84368b6a95e3
+    old: 9061f1af0346335ebc945bc546894f144cf9795d
+    new: 77ecab77b25567c54df997dcb8030dea6bca03ed
     log: |
-         2210e69db7217bca218693fde5ed45bcbe8ff519 Revert "libbpf: Fix use-after-free in btf__add_type"
-         9736b748ee82a5159bb5b5c45a5c7ed77e8b4a98 libbpf: Drop btf_dump details from the BTF docs
-         ad6472e01a5f5e8968a2fbe7623c84368b6a95e3 bpftool: Replace the type tag override table with two checks
+         77ecab77b25567c54df997dcb8030dea6bca03ed Fixes for all trees
          
