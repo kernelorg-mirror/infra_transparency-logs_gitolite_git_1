@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3932057698444909326=="
+Content-Type: multipart/mixed; boundary="===============3200375822674678901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 07 Nov 2026 01:57:46 -0000
-Message-Id: <179401666620.1919435.5135617385008908227@gitolite.kernel.org>
+Date: Sat, 07 Nov 2026 01:57:49 -0000
+Message-Id: <179401666954.1919588.3688986998593553536@gitolite.kernel.org>
 
---===============3932057698444909326==
+--===============3200375822674678901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-i_lock-contention
-    old: b3f1b558d7dadb218278cb4ed4ac645c79403452
-    new: 8d4f6a2921d9d03d605ea8f2f1239d610180141a
-    log: revlist-b3f1b558d7da-8d4f6a2921d9.txt
+  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-ff-layout-contention
+    old: 3abdd687a95e1d1a5994147c8e688b1a97677657
+    new: 696c4d56737be8fbff0185264f6a723f2d884df4
+    log: revlist-3abdd687a95e-696c4d56737b.txt
 
---===============3932057698444909326==
+--===============3200375822674678901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3f1b558d7da-8d4f6a2921d9.txt
+Content-Disposition: attachment; filename=revlist-3abdd687a95e-696c4d56737b.txt
 
 6184eaadca4a1826dc56ba639976e5709903dbb3 genirq/proc: Fix missing CPU header in /proc/interrupts
 156aeda4d74e9007b56492ed1f3b5838822632be mm/damon/core: error damos_commit_quota_goal() for zero target_value
@@ -761,5 +761,12 @@ e1eaa8c8653e07645595cebea255da711e79d606 NFS: take inode->i_lock in O_DIRECT wri
 b0afa0de64b22044f5f7ae2947e0d46f02568160 NFS: skip inode->i_lock when a delegated timestamp is already current
 f13d5313b821cbdedc9a5c2bd0ec2c4184f43616 pNFS/flexfiles: don't take inode->i_lock to release empty commit info
 8d4f6a2921d9d03d605ea8f2f1239d610180141a pNFS/flexfiles: look up the cached layout segment without inode->i_lock
+8b668d814a4121231e20a5b00ae1087d98e30037 pNFS/flexfiles: don't dirty the layout segment on every data server RPC
+aa466e2b5c86bf7d4191df9a675399d640c3f3b0 NFS: only account read_io/write_io when an I/O mdsthreshold is in use
+fc1fb7f22c7335b4ac4e4b50fb4e19afe82ab924 NFS: finish stable O_DIRECT writes without the nfsiod round trip
+2cd02e8cc708bb31224943fc6e6d1cd2a04d14ef NFS: admit O_DIRECT I/O without taking inode->i_rwsem
+07b13b9e781e92b8d283bcea1b84e28ae7b895aa pNFS/flexfiles: give the read-mostly layout segment fields their own cacheline
+0d5ac7100a80d4355b9561ad1cec788952c66dc1 pNFS/flexfiles: bound data server RPCs with pg_bsize instead of a per-page test
+696c4d56737be8fbff0185264f6a723f2d884df4 pNFS: hand the page I/O descriptor's layout segment reference to the header
 
---===============3932057698444909326==--
+--===============3200375822674678901==--
