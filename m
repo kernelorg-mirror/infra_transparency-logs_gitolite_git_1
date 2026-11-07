@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5181974868307339113=="
+Content-Type: multipart/mixed; boundary="===============0235236170006259860=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 07 Nov 2026 01:57:52 -0000
-Message-Id: <179401667230.1919762.17597555494037157101@gitolite.kernel.org>
+Date: Sat, 07 Nov 2026 01:57:55 -0000
+Message-Id: <179401667514.1919935.7068214858308528753@gitolite.kernel.org>
 
---===============5181974868307339113==
+--===============0235236170006259860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-testing-canary-rdma
-    old: aff70c850c1df65f8c0b73244b2f7a9f06b71918
-    new: bfcd6262e2b47894584b583b3e400644a6cc1f9e
-    log: revlist-aff70c850c1d-bfcd6262e2b4.txt
+  - ref: refs/heads/kernel-7.3/nfs-testing-canary-nfs4_acl-passthru
+    old: 9d4e04164c83bbbc4d0da4bfb9684ac4baf00443
+    new: e4798e85ce036d5ddb3f9b04dc01c359953f0f86
+    log: revlist-9d4e04164c83-e4798e85ce03.txt
 
---===============5181974868307339113==
+--===============0235236170006259860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aff70c850c1d-bfcd6262e2b4.txt
+Content-Disposition: attachment; filename=revlist-9d4e04164c83-e4798e85ce03.txt
 
 6184eaadca4a1826dc56ba639976e5709903dbb3 genirq/proc: Fix missing CPU header in /proc/interrupts
 156aeda4d74e9007b56492ed1f3b5838822632be mm/damon/core: error damos_commit_quota_goal() for zero target_value
@@ -673,89 +673,16 @@ e77c6bdfb03ec4b8545cb5a1d0608444dd23f925 Revert "pnfs/blocklayout: Complete a de
 78e70fc9b0740414e0ddbefd73923ae73191edba Revert "lockd: Fix use-after-free in nlmsvc_retry_blocked"
 3c190405b1ceb847bd302a3d9c88540508e190d1 Revert "SUNRPC: fix netns use-after-free in write_gssp()"
 d3628ba0b5064ad2293e0d52fbc1ff64f133a584 Revert "nfsd: fix race between client_info_show() and free_client()"
-18f5bcf87fead3fbc39baa6a9895a5ac34a599a4 nfs: make nfs_page pin-aware
-8b455e3e943ee627b0b4763511f0689667437a59 nfs: track number of pinned pages in nfs_page
-791807e477410153753f01e711f1f5bec7a04702 nfs: introduce nfs_release_request_list helper
-ffd111780f6a0ad426d87a6517df66726f5fba57 nfs: migrate direct I/O to iov_iter_extract_pages
-653611abfba33c7c9bac1a369e896c5c82f91d1a nfs: introduce nfs_direct_extract_pages helper
-9bc19ea11ab1ac8de96ee9bcdabbd8cc856c86cc SUNRPC: reject a client-side TLS alert record that is not two octets
-e29f41d7155e4e4d974346ce78066a393c6d17b7 SUNRPC: treat every client-side TLS error alert as fatal
-89ed3111a9a27af96a826793890aa762694e96b0 SUNRPC: fold xs_sock_process_cmsg() into its only caller
-f5bb221fe0cca64d946fd42459b804fe992acca9 NFSv4.1/pnfs: suspend pNFS on NFS4ERR_TOOSMALL from LAYOUTGET
-ee1ece11b4768dc7cbf58a3441bb8614b8f01b3f NFSv4.1/pnfs: derive loga_maxcount from the LAYOUTGET reply buffer
-af06ec4677a63eb7aecb9558fad564610be1b266 NFSv4.1/pnfs: retry LAYOUTGET with a larger reply buffer on NFS4ERR_TOOSMALL
-eb2d283afddd3dced3e56d039732494b8b0b13be NFSv4.1/pnfs: treat an oversized LAYOUTGET reply as -EMSGSIZE
-11a8b2f684a099f41e5cedbe3d221de5c277dcaf NFSv4.1/pnfs: remember when a server needs a larger LAYOUTGET reply buffer
-7206473a162bbbe6da5739a6bbaaf558c81ac498 NFSv4/flexfiles: allocate the per-mirror stripe array with kvzalloc_objs
-d4826c218a2ba9544c99f3079da1999e75aa4564 NFSv4/pnfs: Free the netid when draining a data-server address list
-519fd9e6668f8219d4412e84916f1e0070bd238d NFSv4/flexfiles: Use the full 64-bit stripe_unit
-a1df9ed8881a6e0f505eca109f18e937379a6782 NFSv4/pnfs: bound the CB_NOTIFY_DEVICEID array count before allocating
-ac430af85cd1818a8365cfcf9202d7431dfe8684 pNFS: Fix CB_NOTIFY_DEVICEID CHANGE to consume ndc_immediate
-31f8a4199f62a7d131a3900cb61e99405b32fef6 NFSv4/flexfiles: Use the full 64-bit offset for read DS selection
-a511c86f1d25c4ccbe7e6dd654d107753b1ab231 NFSv4/flexfiles: Bound page coalescing on the absolute stripe offset
-bcf663df47e77330cd767fb96ba535df0afbde30 NFSv4/filelayout: Anchor page coalescing on pattern_offset
-dc18300ab4c80985dc9173849148a563949c52f3 NFSv4/flexfiles: Reference the device node across DS setup
-cb9766aa12d6e5ba932e8c6612b11c867772d110 NFSv4/flexfiles: Carry the device node reference across each I/O
-8e36b22da766d68bcb94fb680756285a7639d415 NFSv4/flexfiles: Hold a device node reference for layoutstats encoding
-4fe4f32fe61f6713a88850886e39c1a1010bdc4e NFSv4/flexfiles: Make the pinned device node pointer RCU-managed
-d5e6d1018fd26e89fd05abe309c0f64b6809024b pNFS: Add a reresolve_deviceid layout driver hook
-ff3a8a70d0fd5ff6423ced5f37b2a32c9bf7f2e3 NFSv4/flexfiles: Implement in-place device re-resolve on CHANGE
-dee6798a1dfd8de3967be7a71a00cd85e06f13cd NFSv4: Dispatch CB_NOTIFY_DEVICEID CHANGE to an in-place refresh
-a04462a1308cbf46d2dedfda1474d6902bb3764e NFSv4/flexfiles: Honor ndc_immediate on CB_NOTIFY_DEVICEID CHANGE
-b9c88c742f94a47b1c2a482ee9562393a533a70b pNFS: Discard a GETDEVICEINFO reply that raced a CHANGE notification
-93f1a8e766e4aed78df9ea7c8adf492062c14358 pNFS: Add deviceid reference query and collection walkers
-cb133b253628fbb91797247fa587f7407c80058c NFSv4/pnfs: Recover revoked layouts on a deleted deviceID
-3dab4e24323ecb582eb272307cfdad5a88397c31 NFSv4/pnfs: Confirm a deviceID delete via GETDEVICEINFO
-7ab4ea5322b01279b10613acee773e574d8a7393 NFSv4/pnfs: Dispatch CB_NOTIFY_DEVICEID DELETE to race recovery
-0dcb5497e08b2d75d86b1211fb0e39145fabb001 NFSv4/pnfs: Grow the deviceid cache hash table
-5673022e0d1ea960797ece5fee84a8ef8c3c0aa0 NFSv4/pnfs: Re-home the data-server cache onto hash buckets
-9dc906d37d5694aeede409fde3c938ab60aeafcd NFSv4/pnfs: Key the data-server cache by its address set and version
-19d54120fd1e4091532a91760fe369e63f884be4 NFSv4/flexfiles: Add a dataserver_nconnect cap
-638ed2df566904f6a895e8fafc31c61c828bd8ce NFSv4/flexfiles: report the intended opnum when DS connection setup fails
-138f4b85ec3515646c049b716ed89fa8bc705123 pNFS: allow layout drivers to cancel I/O to a single device
-c74005258b3499550c87ad3c976e32630755a28d NFSv4/flexfiles: only cancel I/O to a failed mirror instance
-16d559b778fcc03c778f3a2ffb0e5b09d12aeefb NFS: filelayout: calculate dense stripe width in 64 bits
-9d025bbd066e6212a2257bd54f1da3e85c475b65 nfs: split up block layout and SCSI layout support
-d3b846c007b551d014adb4660456c38b8ddb36ba nfs/flexfile: fix doc of nfs4_ff_layout_prepare_ds function
-420f85a03eca2fa3e1e4ff245919a07e06987039 NFS/localio: fix nfs_local_dio_misaligned tracepoint
-64b1bf29ff01d53ec2e94d0ac9f64130648133b8 NFS/localio: detect a short read or write before the iterator has moved
-261cae49d6f191b4ce5b05690614a232166f0420 NFS/localio: report the stability a DIO WRITE actually has
-63b7b0bb46e7f5c6727208db621b73fe3f85e64b pNFS/flexfiles: honor FF_FLAGS_NO_IO_THRU_MDS over the mdsthreshold hint
-440f0d1829741f6c5744ec23f806f71b0305de3a pNFS/flexfiles: don't read through MDS when previous layout forbid it
-13265d58b3f26434b406edcb150706302e9ffaf9 pNFS/flexfiles: don't reset to MDS for v4 error when previous layout forbid it
-2dd51582a4a8bddeba8e86cdb62ecc2968b54138 NFS: return DENIED in decode_lock_denied if we cannot decode owner
-3635b68a1919a50f139ff9eea2b4516f3c0b5537 NFS: name the init_nfs_fs() error labels
-fc2c9355d830feaf8133145edfed4c6b1a774ffb NFS: allocate the .nfs keyring per network namespace
-8f1fa57ec2cf5c8f29b88def1c3bce50d6f61ee0 SUNRPC: pass a keyring serial number to the TLS handshake
-f2fb94fbeead54899114053e2b6b5b4ece0b239d NFS: name the namespace .nfs keyring in the x509 handshake
-1a4d5a87860a6cb90668485807bba71264874d4c NFS: add a key type that reveals the namespace .nfs keyring serial number
-833cccbf5e1b9e59b56f1226e56284952d503160 xprtrdma: prevent disconnect feedback during endpoint teardown
-90f6c1a322bae65c0ba760d5a0d4c62b93093180 nfs: set gencount on protocol-specific remove
-757194695f1b20171f4ff8376d8f9187c9af8ef5 xprtrdma: trim head iovec when the payload arrives via a Write chunk
-5b41461c6660542e1adff862e77a18ef6e6c3fe5 NFS: don't release the open context of a failed write from writeback
-1e0cd7af1014eabdef4b8f0c9fd3da207fd64fe6 NFS: don't run the release of a WRITE or COMMIT in the submitter
-701215822720f1315c5e2e5191552f8ace873ab5 NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
-bf85f64e703bf52d8164455ae0d5fc62814ef978 NFS/localio: don't run the release of a failed COMMIT in the submitter
-5d027ee931c48f53b0a5d322f24a5f52ed20867b NFSv4/pnfs: Give the data server cache its own reference
-2001c93dd1b1d0fad8c9652b8e6f0c815339f2d8 NFSv4/pnfs: Let unused data server connections linger
-b7378ab942e58ad9390e6a9f8d7d36883695b544 nfs4.2: add UNCACHEABLE_DIRENT_METADATA attribute support
-cf2f4933a395044119a3872c4d145a18950e2212 nfs4.2: request UNCACHEABLE_DIRENT_METADATA only for directories
-b5a7e8068abe706d22945f4f4ab50a7fa061da3e nfs4.2: honor UNCACHEABLE_DIRENT_METADATA by refetching readdir
-eab5e5cc415f81656f7f595665e1e059a7ec833d NFSv4/flexfiles: move layoutstats accounting to a per-stripe lock
-7d98aa731b66d9c67582d64451698cb400b00043 NFSv4/flexfiles: drop the now-unused per-mirror lock
-ee3b6ae35ee61967ddc55abe3c85981bcda71411 NFSv4/flexfiles: cacheline align the per-stripe layoutstats
-9c32758ba77d43a55f280fcb0e5d24c34fdf81d2 NFSv4/flexfiles: make dss_info->start_time write-once
-d827a5dae7ad98018745f601bfaa6256a104f197 NFSv4/flexfiles: drop the redundant atomic from the busy timer
-24e1ec77f6d64eb61882665213481a4816b0e476 NFSv4/flexfiles: pair the in-flight count with the layoutstats updates
-c50fa71479f475b92e52d0359d7814ae19035d4b NFSv4/flexfiles: derive ffil_ops_requested rather than storing it
-7020902efcefaed26645bb778f52c19da76ac68a NFSv4/flexfiles: give each direction its own lock and cacheline
-f39730499121348a9d316ab875da02c9ba52d708 NFSv4/flexfiles: drop NFS4_FF_MIRROR_STAT_AVAIL
-388ae9133e81ab380d7e9d0ef40ea6958d165c63 NFSv4/flexfiles: rotate LAYOUTSTATS reporting across a mirror's stripes
-1708690518d33d20c2585aa04b94bc348f92f4b1 NFSv4/flexfiles: take the report decision out of the critical section
-af3a5e24f3001b7a7ceef50efd2c3bd0d6bc1472 NFSv4/flexfiles: share one helper for the start of a read and a write
-b6be73d6f840530af2b9b269021a7211157e40c0 xprtrdma: Allow reclaim when allocating a transport's initial requests
-c8ac9238a9e0a225c99a92f1f2ffcaa47492a8f2 SUNRPC: Do not abandon the remaining nconnect transports after one fails
-070e30800b807a8516846065d2500ac6bed55090 pNFS: Report a data server left on a non-preferred transport
-bfcd6262e2b47894584b583b3e400644a6cc1f9e xprtrdma: do not clamp the FRWR depth below one chunk
+2cf6b998495645f0a80ee0046a4c27d363519149 exportfs: add ability to advertise NFSv4 ACL passthru support
+d71156ed84d7707f75e363160bdf5f16e5051695 NFSD: factor out nfsd_supports_nfs4_acl() to nfsd/acl.h
+d55dd1d11547180a821e0844f58397b56e55b33d NFS/NFSD: data structure enablement for nfs4_acl passthru support
+1eadd3e62e09dd31a0ef58810b34e42c370f007b NFSD: prepare to support SETACL nfs4_acl passthru
+2ff1b4dbb4cf99433d864e20e17f40e6ce168596 NFSD: add NFS4 reexport support for SETACL nfs4_acl passthru
+e8544c3a819647417dc711dfe689dd6d5cc90308 NFSD: add NFS4 reexport support for GETACL nfs4_acl passthru
+79e17f20053b7860df4755bcaba38ee7252375c8 NFSD: add NFS4ACL_DACL and NFS4ACL_SACL passthru support
+b714085044e7e87c1a922b5d340ff95deea7c978 NFSD: avoid extra nfs4_acl passthru work unless needed
+aa2c87d1f398ef82d6dbda6b1ed86321e1658149 NFSv4: add reexport support for SETACL nfs4_acl passthru
+23337b25b4f3cd67710563c4b5e9079fd8c03b29 NFSv4: add reexport support for GETACL nfs4_acl passthru
+e4798e85ce036d5ddb3f9b04dc01c359953f0f86 NFSv4: set EXPORT_OP_NFSV4_ACL_PASSTHRU flag
 
---===============5181974868307339113==--
+--===============0235236170006259860==--
