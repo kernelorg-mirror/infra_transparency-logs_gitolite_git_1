@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sat, 07 Nov 2026 15:52:20 -0000
-Message-Id: <179406674027.2581065.10058880394052318541@gitolite.kernel.org>
+Date: Sat, 07 Nov 2026 15:54:52 -0000
+Message-Id: <179406689243.2581656.930003597718760715@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
   - ref: refs/heads/asoc-7.5
-    old: a0dcde87ee0024a54c3af94dacd8190e4c660b62
-    new: f8fff272681bc9403d2f1bc6f8467ed4895c1b77
+    old: f8fff272681bc9403d2f1bc6f8467ed4895c1b77
+    new: ad6111b192c5c38d3d93df608d5b0129693cdd2e
     log: |
-         304f08895e44b8d8f97d553770c2a64d94d14c6f ASoC: sti: fix the player clock reference leak
-         e7366e6b65f3c772c01facf5993de606265c3388 ASoC: rt5677: register the GPIO chip through devm
-         f8fff272681bc9403d2f1bc6f8467ed4895c1b77 ASoC: SOF: amd: fix leaks when SoundWire probe fails
+         ad6111b192c5c38d3d93df608d5b0129693cdd2e ASoC: dt-bindings: nvidia,tegra-audio: Consolidate all codec support into a single schema
          
