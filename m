@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3200375822674678901=="
+Content-Type: multipart/mixed; boundary="===============5181974868307339113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 07 Nov 2026 01:57:49 -0000
-Message-Id: <179401666954.1919588.3688986998593553536@gitolite.kernel.org>
+Date: Sat, 07 Nov 2026 01:57:52 -0000
+Message-Id: <179401667230.1919762.17597555494037157101@gitolite.kernel.org>
 
---===============3200375822674678901==
+--===============5181974868307339113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-ff-layout-contention
-    old: 3abdd687a95e1d1a5994147c8e688b1a97677657
-    new: 696c4d56737be8fbff0185264f6a723f2d884df4
-    log: revlist-3abdd687a95e-696c4d56737b.txt
+  - ref: refs/heads/kernel-7.3/nfs-testing-canary-rdma
+    old: aff70c850c1df65f8c0b73244b2f7a9f06b71918
+    new: bfcd6262e2b47894584b583b3e400644a6cc1f9e
+    log: revlist-aff70c850c1d-bfcd6262e2b4.txt
 
---===============3200375822674678901==
+--===============5181974868307339113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3abdd687a95e-696c4d56737b.txt
+Content-Disposition: attachment; filename=revlist-aff70c850c1d-bfcd6262e2b4.txt
 
 6184eaadca4a1826dc56ba639976e5709903dbb3 genirq/proc: Fix missing CPU header in /proc/interrupts
 156aeda4d74e9007b56492ed1f3b5838822632be mm/damon/core: error damos_commit_quota_goal() for zero target_value
@@ -753,20 +753,9 @@ f39730499121348a9d316ab875da02c9ba52d708 NFSv4/flexfiles: drop NFS4_FF_MIRROR_ST
 388ae9133e81ab380d7e9d0ef40ea6958d165c63 NFSv4/flexfiles: rotate LAYOUTSTATS reporting across a mirror's stripes
 1708690518d33d20c2585aa04b94bc348f92f4b1 NFSv4/flexfiles: take the report decision out of the critical section
 af3a5e24f3001b7a7ceef50efd2c3bd0d6bc1472 NFSv4/flexfiles: share one helper for the start of a read and a write
-56fa9710f89ea03ad4f1522dcbbe94d06c242e18 NFS: don't take inode->i_lock twice per direct I/O for the opening owner
-e1eaa8c8653e07645595cebea255da711e79d606 NFS: take inode->i_lock in O_DIRECT write completion only when needed
-5678a6507e6c40131772841e3b1089f4e3a26b89 NFS: skip inode->i_lock for WRITE replies that cannot change the inode
-0ae5296033b7ab68dc8794348ba9dd063e906091 NFS: don't take inode->i_lock to re-mark a stale atime
-76b3430c4bf31bf5a8312972f1da3eb9eb4c16dd NFS: check for a delegated atime before taking inode->i_lock
-b0afa0de64b22044f5f7ae2947e0d46f02568160 NFS: skip inode->i_lock when a delegated timestamp is already current
-f13d5313b821cbdedc9a5c2bd0ec2c4184f43616 pNFS/flexfiles: don't take inode->i_lock to release empty commit info
-8d4f6a2921d9d03d605ea8f2f1239d610180141a pNFS/flexfiles: look up the cached layout segment without inode->i_lock
-8b668d814a4121231e20a5b00ae1087d98e30037 pNFS/flexfiles: don't dirty the layout segment on every data server RPC
-aa466e2b5c86bf7d4191df9a675399d640c3f3b0 NFS: only account read_io/write_io when an I/O mdsthreshold is in use
-fc1fb7f22c7335b4ac4e4b50fb4e19afe82ab924 NFS: finish stable O_DIRECT writes without the nfsiod round trip
-2cd02e8cc708bb31224943fc6e6d1cd2a04d14ef NFS: admit O_DIRECT I/O without taking inode->i_rwsem
-07b13b9e781e92b8d283bcea1b84e28ae7b895aa pNFS/flexfiles: give the read-mostly layout segment fields their own cacheline
-0d5ac7100a80d4355b9561ad1cec788952c66dc1 pNFS/flexfiles: bound data server RPCs with pg_bsize instead of a per-page test
-696c4d56737be8fbff0185264f6a723f2d884df4 pNFS: hand the page I/O descriptor's layout segment reference to the header
+b6be73d6f840530af2b9b269021a7211157e40c0 xprtrdma: Allow reclaim when allocating a transport's initial requests
+c8ac9238a9e0a225c99a92f1f2ffcaa47492a8f2 SUNRPC: Do not abandon the remaining nconnect transports after one fails
+070e30800b807a8516846065d2500ac6bed55090 pNFS: Report a data server left on a non-preferred transport
+bfcd6262e2b47894584b583b3e400644a6cc1f9e xprtrdma: do not clamp the FRWR depth below one chunk
 
---===============3200375822674678901==--
+--===============5181974868307339113==--
