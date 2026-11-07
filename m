@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2450792968228102217=="
+Content-Type: multipart/mixed; boundary="===============4096583176677551276=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sat, 07 Nov 2026 20:40:59 -0000
-Message-Id: <179408405903.2790951.12743492518347894102@gitolite.kernel.org>
+Date: Sat, 07 Nov 2026 20:41:08 -0000
+Message-Id: <179408406813.2791244.7395845048717475662@gitolite.kernel.org>
 
---===============2450792968228102217==
+--===============4096583176677551276==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools
+  - ref: refs/heads/perf-tools
     old: fac520e43a60230b24026f462a2b63e4d170566e
     new: 1c264cb18f718bd30f9763de2f0fc65ecc0073fb
     log: revlist-fac520e43a60-1c264cb18f71.txt
 
---===============2450792968228102217==
+--===============4096583176677551276==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f6d181fde135e5757c5c94409f510cf42874308b perf test: Don't starve per-process tes
 82b4a28e758816365405e01d9ed09027d13ef77a perf record: Reject CPU indices equal to the mask size
 1c264cb18f718bd30f9763de2f0fc65ecc0073fb perf jevents: Don't encode MSRs with no value
 
---===============2450792968228102217==--
+--===============4096583176677551276==--
