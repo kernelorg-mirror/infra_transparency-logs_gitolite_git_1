@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8285731549434585990=="
+Content-Type: multipart/mixed; boundary="===============9220065871077592938=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 07 Nov 2026 01:57:31 -0000
-Message-Id: <179401665136.1918600.8943523542363487550@gitolite.kernel.org>
+Date: Sat, 07 Nov 2026 01:57:34 -0000
+Message-Id: <179401665460.1918751.6098415832012215008@gitolite.kernel.org>
 
---===============8285731549434585990==
+--===============9220065871077592938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-testing
-    old: 608fbdfb8c76d863aee355e87ab28cac630c508d
-    new: 9c6faed7b07145402e4380892fa5af50bf39e21a
-    log: revlist-608fbdfb8c76-9c6faed7b071.txt
+  - ref: refs/heads/kernel-7.3/nfsd-testing-canary-dontcache
+    old: bc8beea755b5d3a7811e19ed0453d06954363bd3
+    new: aa630dae308d228f2879cc6b6a336269cb95c670
+    log: revlist-bc8beea755b5-aa630dae308d.txt
 
---===============8285731549434585990==
+--===============9220065871077592938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-608fbdfb8c76-9c6faed7b071.txt
+Content-Disposition: attachment; filename=revlist-bc8beea755b5-aa630dae308d.txt
 
 6184eaadca4a1826dc56ba639976e5709903dbb3 genirq/proc: Fix missing CPU header in /proc/interrupts
 156aeda4d74e9007b56492ed1f3b5838822632be mm/damon/core: error damos_commit_quota_goal() for zero target_value
@@ -917,5 +917,12 @@ d030242069b9d3da2af25f0b41d9508e7d06804b NFSD: Take a file unhashed during const
 b562b0af6ae9dcbdd051d75be3fc8ee99207aec4 NFSD: do not use direct I/O for a READ smaller than its alignment
 8bd823b1794d2f24c7d197bba5e71c9aa94938cc NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
 9c6faed7b07145402e4380892fa5af50bf39e21a NFSD: add tracing for how direct-mode READ and WRITE are serviced
+60d5ecd4cd3f854de783fb17c3d784efa7618eab mm: move clearing the uncached flag of a found folio into a helper
+b144678db75a82e96fc18afd3c839ceb6f51aea9 mm: take a folio off WB_DONTCACHE_DIRTY only if it was counted there
+49b1504dca70cf5f958a5c30e3985b2d78d1bd2d mm: expose WB_DONTCACHE_DIRTY in bdi debugfs stats
+b68ebdac229c9a11f9a8c5d204acb2cd77f42fd0 mm: add folio_mark_dropbehind() to mark a folio dropbehind and account it
+83b5d4d657dba1d8ab304cd73d4a66c8fa160c38 mm, iomap: keep a partly covered page until an uncached write completes it
+570a27e5658353b2b7a4556c1b75344706c085e0 mm, iomap: let an uncached writer complete its shared pages itself
+aa630dae308d228f2879cc6b6a336269cb95c670 NFSD: drop a shared boundary page only once both WRITEs have written it
 
---===============8285731549434585990==--
+--===============9220065871077592938==--
