@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Sat, 07 Nov 2026 00:24:42 -0000
-Message-Id: <179401108202.1844100.1610042688048400007@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Sat, 07 Nov 2026 00:32:35 -0000
+Message-Id: <179401155536.1851384.13910599989404059803@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/main-pending
-    old: a4f9757323d6d17e6fec92a586b53618f2bf9c8e
-    new: d7eae6d6be54d546e177bc37e09847bbd8e35d00
+  - ref: refs/heads/kernel-6.12/nfsd-next
+    old: 875496fa99e9706d4357276a402b4c88680521cb
+    new: 877b35ad903b33a83deae7c72c051f9b0dd2fd71
     log: |
-         08e588adad7ee9df7e29d4c6b51ccc179f29d346 wifi: ath12k: Fix potential SRNG configuration leak on init failure
-         a354a5c5a17185e050f0ff11bf8c903eb727b794 wifi: ath12k: remove duplicate ucast_ra_only assignment in dp_peer_create
-         d7eae6d6be54d546e177bc37e09847bbd8e35d00 Merge branch 'pending' into main-pending
+         78d4d608f8da2832c162980e3474ae7e9d75e36e SUNRPC: preserve RQ_SECURE across request deferral
+         d1234866160f37ff7b5741c292f60e538521dd6c nfsd: use direct I/O only for the last operation in a COMPOUND
+         36bcb1a55a1a3eaba47017a2b1d9ea7870e64abe nfsd: account for page_base when advancing rq_next_page
+         07fded08ae449512bd382a341539670eff82daa4 nfsd: locate the READ sink page from the reply buffer
+         877b35ad903b33a83deae7c72c051f9b0dd2fd71 nfsd: keep spliced pages below rq_next_page when a READ fails
          
-  - ref: refs/tags/ath-pending-202611070012
-    old: 0000000000000000000000000000000000000000
-    new: d7eae6d6be54d546e177bc37e09847bbd8e35d00
