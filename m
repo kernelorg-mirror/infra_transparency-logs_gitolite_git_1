@@ -1,98 +1,92 @@
-Content-Type: multipart/mixed; boundary="===============3466959117953150570=="
+Content-Type: multipart/mixed; boundary="===============5620914770864506759=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 07 Nov 2026 22:17:21 -0000
-Message-Id: <179408984132.2863563.7093223696463479805@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 07 Nov 2026 22:28:24 -0000
+Message-Id: <179409050421.2870808.13040150194576298289@gitolite.kernel.org>
 
---===============3466959117953150570==
+--===============5620914770864506759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/tags/v7.3.3-13.canary
-    old: 103cc9ffafdddb96a4eebc3877a2edf29ccc6ec9
-    new: 79725f7b88a7804b67ed77d1a69e7e128d9cc44f
-    log: revlist-103cc9ffafdd-79725f7b88a7.txt
+  - ref: refs/heads/testing
+    old: 20ce8ef9c9e04cd6c5ae0422e251a9b5936c6b7c
+    new: 08853c09ea2c89d0f48a67a5268e88d71fcf2263
+    log: revlist-20ce8ef9c9e0-08853c09ea2c.txt
 
---===============3466959117953150570==
+--===============5620914770864506759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-103cc9ffafdd-79725f7b88a7.txt
+Content-Disposition: attachment; filename=revlist-20ce8ef9c9e0-08853c09ea2c.txt
 
-211eee70e8e84683cdb2480cf001406e1d9fe53e SUNRPC: Shard the rpc_clnt task list to remove cl_lock contention
-fdf980aae4bc3fb2903762330f6b38666baa756b NFS: Do not revert the iov_iter of a queued async O_DIRECT request
-1216db4465bfc9638a7ebc59cce5838af6b13339 NFS: Add trace events for O_DIRECT read completion
-226ddda277ce1539f325191e2a7fc1896d55724e SUNRPC: home nconnect transports on their NIC's NUMA node
-dd1133b53a20d596cc00bc72faa684a4d9a65b10 xprtrdma: interrupt a transport's completions on its home core
-17c7023f71e01ea03380137472c14e0b0f3fce31 svcrdma: spread each device's connections one per core of its NUMA node
-df73c38bbadb493210c10f0f0fb670bc3f5d2806 SUNRPC: home each switch's transports on distinct cores
-7bbc4bb62412103ab743c19cf86c2db27a280157 svcrdma: place each client's connections on distinct cores
-611107b07bd6fb6f84139cb727427749d3ef2778 SUNRPC: LAB ONLY switch to keep a pool's work on its own threads
-c6925cbc74d124085327d1905b5f392fdf984a7f SUNRPC: queue a placed transport's work on its home CPU's pool
-6e71d905fd8e07bab21c1b8c73a7407b7b385268 SUNRPC: under svc_pool_siblings=N, hand a drained pool's work to its server
-9ef4bf362a7901fb50bf081ff10d3ecd692d15bc svcrdma: release a connection's core when its client disconnects
-fa668612cc833aec1fec77948dd4362b76b8694e NFSv4/pnfs: send the last close's LAYOUTCOMMIT in the CLOSE compound
-be6964a352472e883a3ee7fd111171dcf68a3d5d LAB ONLY: make the CLOSE-compound LAYOUTCOMMIT settable at run time
-a68b5ce7da4d25053185c98c1fbba221529473c6 NFSD_TCP_WRITE_ZEROCOPY: hold nfsd's rtc_read and rtc_write off in settled.sh
-3f347e18e437d252913cee6bcd977ac2970d2ccd NFSD_TCP_WRITE_ZEROCOPY: build 514's runtime baselines in the tardis2 canary handoff
-1bd90b1fb2eb0d421bedf7adfd3655b9857422ed NFSD_TCP_WRITE_ZEROCOPY: hold sunrpc's pool_mode at pernode in settled.sh
-c860355ce0281f635678860f38cb439ff83d5af1 NFSD_TCP_WRITE_ZEROCOPY: build 514's denied loans in the tardis2 canary handoff
-1d35aee072ab48d4fd69b86a36d5d5c080aedc96 NFSD_TCP_WRITE_ZEROCOPY: build 514's nfsd cycles over 507 in the tardis2 canary handoff
-16f5e7197818f82bf025f8259725d65e99764f50 NFSD_TCP_WRITE_ZEROCOPY: the bulk return's A/B kernel in the tardis2 canary handoff
-196a28741ed2fd52607b6fb4f962ae794f617c5a NFSD_TCP_WRITE_ZEROCOPY: tardis2's boot into the bulk return's A/B kernel, the handover
-79caaa9805936bff383528dca11efcf8c2bbb629 page_pool: return a bulk's overflow to the receive region's slot at once
-abda9174dfa796dce19359f59cb39b055751dbe2 NFSD_TCP_WRITE_ZEROCOPY: the A/B kernel's first boot lost port a in the tardis2 canary handoff
-3d94d4e6dbbdbc111b8a459ceec7a2dbf263a987 Revert "page_pool: return a bulk's overflow to the receive region's slot at once"
-2253c1c36f9de228fca87d9e0b24c90fde1125e5 NFSD_TCP_WRITE_ZEROCOPY: the bulk return's A/B, dropped, in the tardis2 canary handoff
-525c6604a1d850fee25c7d850ecb4be65ef0202a NFSD_TCP_WRITE_ZEROCOPY: twoport samples a region with no low-water mark of its own
-c4193423a231196b06f9384e823d3c1efa7cbbc2 NFSD_TCP_WRITE_ZEROCOPY: the bulk return did not grow the region, in the tardis2 canary handoff
-5404199464a262679861624af0821096c79c9cd0 page_pool: count the receive region's pages held and their peak
-10730fcb036ca4a152188bbee181259eddf0e9f4 NFSD_TCP_WRITE_ZEROCOPY: the region's held mark, its boot and twoport's reading of it
-f5a16c1194c9e32a4218f175856d101b533249d4 NFSD_TCP_WRITE_ZEROCOPY: what to know before the held mark's runs, in the tardis2 canary handoff
-60ee085b9113004735668a02f66db95ff3263887 NFSD_TCP_WRITE_ZEROCOPY: the held mark's first boot lost port a, in the tardis2 canary handoff
-e43b3cf9975f2b4af2c2a08bdc9681c8681ab93c NFSD_TCP_WRITE_ZEROCOPY: the held mark's second boot lost port b, in the tardis2 canary handoff
-a070daf6cdcbeffb8438f60fe917967a2ea30ade NFSD_TCP_WRITE_ZEROCOPY: a port dead after boot
-2c8b671b52b3de861beb9d44b6a78c129990dcf7 NFSD_TCP_WRITE_ZEROCOPY: a reload of xeu does not bring a dead port back
-e76ac4d8c1d9da379b5dfde087931e964bb2c9ed NFSD_TCP_WRITE_ZEROCOPY: a PCI remove and rescan does not bring a dead port back
-4517ed8f8090aa925b6c8e9d9a255cb308f82089 NFSD_TCP_WRITE_ZEROCOPY: a function-level reset does not bring a dead port back
-23c36ad236ad6e7b537f74a15d8b24deaf33ed75 NFSD_TCP_WRITE_ZEROCOPY: a bus reset does not bring a dead port back either
-db4e8e66663f1a88c6d7470cce62d51ee931a690 NFSD_TCP_WRITE_ZEROCOPY: the held mark's third and fourth boots lose a port
-a40b90c255c74bb7414bed1edd01705039fde7a3 NFSD_TCP_WRITE_ZEROCOPY: boot stock build 514 next, to count its lost ports
-32efdf337f9ab0a9d2b626167e8c12ecadb3354a NFSD_TCP_WRITE_ZEROCOPY: stock build 514 loses a port on its first boot too
-dd76bfb6c30d963e1c47a416535e0fd6220eb06c NFSD_TCP_WRITE_ZEROCOPY: stock build 514's second boot keeps both ports
-820d44971cb7b9a66832b8ab40067fa7769db3fc NFSD_TCP_WRITE_ZEROCOPY: stock build 514's baselines again, on its good boot
-5532c1797c1514b815428386441f9bbef346fd35 NFSD_TCP_WRITE_ZEROCOPY: boot the held-mark kernel again next
-d91f059013fbfc511f266876f149d599796674e3 NFSD_TCP_WRITE_ZEROCOPY: the held-mark kernel's fifth boot loses port a
-1986eb38c69969f0d199f0eae1f41046de9adf5c NFSD_TCP_WRITE_ZEROCOPY: the held-mark kernel's sixth boot keeps both ports
-84cda443a4aa9abc1d690cee35de7cd68e1c1fa2 NFSD_TCP_WRITE_ZEROCOPY: the region's held mark, A/B on its sixth boot
-4d929ed73e0fabc3ea6ec1f4e25cacc2fabbb909 NFSD_TCP_WRITE_ZEROCOPY: keep the region's held mark
-112cdccf7b66569d8c8549cebe9b07d54bbaf6a6 NFSD_TCP_WRITE_ZEROCOPY: tardis2 boots the held-mark kernel by default
-f7eed3614c6e75ca24471a5bb18ce27f54b5f6c3 NFSD_TCP_WRITE_ZEROCOPY: 514 holds fewer region pages than 507
-10ba04c21c0815b8be8620a4789c7611069e8999 NFSD_TCP_WRITE_ZEROCOPY: stay on tardis2's sixth held-mark boot
-ea81f39bb9a71f012ba92abeaebbb8e454e584e1 NFSD_TCP_WRITE_ZEROCOPY: 514's rate gap is not the runs' order
-891bcd4a02d395cb898007049fa31dc19fbbb7ef NFSD_TCP_WRITE_ZEROCOPY: 514's wakeups and its fast runs, from the logs
-26fe7147ee447b67ca37bf37dc30f47418a09003 NFSD_TCP_WRITE_ZEROCOPY: twoport.sh records the client's time by process
-de961c45cc30f4ef75ca03a52ad3847e5be82068 NFSD_TCP_WRITE_ZEROCOPY: twoport.sh records where the client sends from
-39bffb2fe3d85d0decb0133739409a9fc655b907 NFSD_TCP_WRITE_ZEROCOPY: the client's fio pinned to its NIC's node
-1e45df0f4e1f287ddeb25a3896c065540440229f NFSD_TCP_WRITE_ZEROCOPY: the client's workqueue scope, numa against cache_shard
-40ecb17ef9dbd762cedefebbd3d00a224029ea90 NFSD_TCP_WRITE_ZEROCOPY: twoport.sh pins the client's writers by default
-3d1efd0de5db827afb57c127e1a4f11c51f53588 NFSD_TCP_WRITE_ZEROCOPY: twoport.sh sets the client's kworker scope and irqbalance
-022a0add42c43b1f8aea156cbb2704f9d20cb687 NFSD_TCP_WRITE_ZEROCOPY: pinned with the numa scope, 514 reaches 70
-8e63838dbf07290517f4b7244858e0022d3bfd99 kernel-7.3.3-13.canary: jflynn-io500-canary takes v7.3.0-11.io500.nfs6.el10
-2b9382614d7c9b2945814e1227a7f88ccf8e6feb Merge branch 'kernel-7.3/nfsd-testing-canary-nfs_common-XFS-IOLOCK-and-async-DIO-middle' into kernel-7.3/canary
-c76bd9d4d81a178712af5424b1d68c8eb80c98bd Merge branch 'kernel-7.3/nfs-localio-performance-canary' into kernel-7.3/canary
-654449a4b0e48872bebc54cce9b9f453faa66c6e Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary' into kernel-7.3/canary
-d483e47b4984df700532fe6ad38cc3c008a581a7 Merge branch 'kernel-7.3/nfs-and-nfsd-performance-canary' into kernel-7.3/canary
-b56910ec46687d2c7065d42192ea7bf821f363b6 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part2' into kernel-7.3/canary
-1d208e00093e6b83ddf47734680d096ad5d24d28 Merge branch 'kernel-7.3/jflynn-io500-canary' into kernel-7.3/canary
-10d24d5c0f53aa26d6396ab98c354063c8757179 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part3' into kernel-7.3/canary
-79725f7b88a7804b67ed77d1a69e7e128d9cc44f Merge branch 'kernel-7.3/changelog-canary' into kernel-7.3/canary
+0b1f20666ebae9179dba33cec54a402532c362ac iio: enable context analysis for all drivers
+c7fd7638aaf9b0309694b3f5ea3e8f1fc0e228ab iio: update email for Joshua Crofts
+cf8b7975cc8bf75ade79b99662a525bfc4095e1c iio: core: fix signed integer overflow in iio_str_to_fixpoint()
+8e803c12ccedc168cae1ae41e6c661c3dc8a15e7 iio: light: pa12203001: Use guard() to simplify lock handling.
+a895ce607ab35d1209aabb31eb59cfd242278893 iio: gyro: fxas21002c: Discard pm_runtime_put_autosuspend() return values
+33e7120362d468b527ce24c2c135acc895f451ae iio: gyro: fxas21002c: Use guard(mutex)() for remaining simple cases.
+322417d3e1e9aeccf9ad6c8bb38704d3ca340eaf iio: adc: ad4134: Adjust register map range
+84b73e9835b6e3fc8326e4448c10d584ac8483b6 iio: adc: ad4134: Sign extend sample data
+891bc4ea87175e5f3986c5c298c3f3a33c1b56b0 iio: adc: ad4134: Apply reset recovery wait time
+16908aa80bd063d1f003531686815945080dd575 iio: adc: ad4134: Update include list to comply with IWYU principles
+685291b7846b5554f65e2834899647f4aeabe1ac iio: adc: ad4134: Serialize single-read operations
+621773d6b2c0b8e802aa7dd3c9a38ad3493f503c iio: adc: ad4134: Protect conventional device access from debug accesses
+3952a4a87d675c15266b0c4e30dec52e052ddef9 iio: adc: ad4134: Run shorter transfers when CRC is disabled
+960fb47bb2eebcb611a26362f79a984991dfc034 iio: ABI: Add sinc6 filter_type
+def49d0b467b88e1ffd4f3728a7af35e7da4e92b iio: adc: ad4134: Add support for digital filter type selection
+e9212d761b3f051bb5edbc28acb47d4ba120cd1f iio: adc: ad4134: Support buffered data read
+ac9c330bf40340a0f9af96d77ab2df1a30efce9d dt-bindings: iio: adc: adi,ad4134: Document SPI connection mode
+5ccad8749f3b2708f7184c663823be9899562646 dt-bindings: iio: adc: adi,ad4134: Document external multiplexer usage
+5d522cdfd709b1e41ef5f037e9a083ac44862afb iio: adc: ad4134: Support SPI 4-wire mode
+245a99900c6a8763e419731226f54c633fbb2f24 dt-bindings: iio: adc: adi,ad4134: Document PWM usage
+12c531a201c9263571955b8a66f8e6144e00f1ff iio: adc: ad4134: Support high-speed data capture
+af821ca82018cb4792dad77ee2a887c1ad00436b Docs: iio: Add AD4134
+f88f8ee64570f52f71a174fab7bc8b0f264273d2 iio: proximity: sx9310: report a hysteresis of 0 when it is disabled
+7a647a7c64cae5dff7f8bc6088886dba8f9a4259 iio: light: apds9960: Discard pm_runtime_put_autosuspend() return values
+99f60eee6efe86f44c81c1ceac93b80416292bfe iio: adc: ti-adc161s626: use iio_push_to_buffers_with_ts()
+9a9cd45fc91f573fedc75fd2f6d795219720d777 iio: adc: mt6360-adc: use iio_push_to_buffers_with_ts()
+a9702ec097b2a6f25daf04b56c23bfb886fe7336 iio: adc: ad4130: use iio_push_to_buffers_with_ts()
+712236eae84ead4bc30cd13b3c971eea9aeee5b7 iio: addac: ad74413r: use iio_push_to_buffers_with_ts()
+3768b69a65ac6091cedf62898fb7417aa3eec2cb iio: gyro: mpu3050: use iio_push_to_buffers_with_ts()
+94be1f979833c88541c945891ea62b8f20176c83 iio: imu: bno055: use iio_push_to_buffers_with_ts()
+23f3283a3a8b816f911ffa6ec11cc73774eec322 iio: light: as73211: use iio_push_to_buffers_with_ts()
+7f1009cfd9bc08c60522ce70c376200d293dc410 iio: light: vcnl4035: use iio_push_to_buffers_with_ts()
+bf10049cba0456ad7ddbcdcfd370719f593df813 iio: pressure: mprls0025pa: use iio_push_to_buffers_with_ts()
+adcf27773cdc2b8635d829f649d46030ce958975 iio: pressure: ms5611: use iio_push_to_buffers_with_ts()
+6951b21bca1cf47492ca1ba7ad91517b93ba41f0 iio: proximity: isl29501: use iio_push_to_buffers_with_ts()
+cbcc0d2318d75b871cdb930c30417cd000622e86 iio: proximity: sx9500: use iio_push_to_buffers_with_ts()
+da3978899d11aa1f029df2a6fafe606b8b054eee iio: imu: smi330: use iio_push_to_buffers_with_ts()
+d1b650cdd2bca6dfed409fc8e4b4c80f5547b16e iio: imu: bmi270: use iio_push_to_buffers_with_ts()
+19b6ec3ffab860edbd3e7edc49ec196d2650d481 iio: adc: pac1934: validate ACPI _DSM return type and bounds
+356ecfafe382d07ccdea4a92879237c7540a533c iio: light: al3010: fix out-of-bounds read of the scale table
+cf9d805ebe8aec05729b08830d6e5dde65d80c8d iio: use dmaengine_desc_set_callback()
+09a8978c2cfe8564f73573e66d6f9da8ad9fa0fb dt-bindings: iio: light: gp2ap002: add leda power supply
+3ff1ef294077393390f8c7af6ebd5b50c4ce3a8c iio: light: gp2ap002: add led power supply
+811e7267c29a37f5217c617687ea0ac698c08122 dt-bindings: iio: adc: Add the Ingenic X1600 ADC
+6abd2c32aed66a36992c2c0bdb45cf82bf5e42df iio: adc: Add a driver for the Ingenic X1600 ADC
+52a014c5e3dabe52d7c29f1160e4a8e7f483a4f4 dt-bindings: iio: adc: ad7405: Add ADuM7801/7802/7811/7812 support
+034b1d6cf6dcebab407b1ab586e2d2f62c5fc704 iio: adc: ad7405: Add support for ADuM7801/7802/7811/7812
+3a35585838924e54da11bd2911ff204cd7a42ab1 iio: accel: bmc150: remove redundant pm_runtime_dont_use_autosuspend() call
+6d3f0123c70134822db34076c6ee81ef399de4fa iio: accel: kxcjk-1013: remove redundant pm_runtime_dont_use_autosuspend() calls
+79e997449866828a0552a66051a950be3e015629 iio: accel: mma9551: remove redundant pm_runtime_dont_use_autosuspend() calls
+72caad8e6e73c64913fb3241898e9852e8511bfd iio: accel: mma9553: remove redundant pm_runtime_dont_use_autosuspend() calls
+6fc323bcd57b482e6511e11bea18bb205036dfe0 iio: adc: at91-sama5d2_adc: remove reduntant pm_runtime_dont_use_autosuspend() calls
+eca7b12d16fab2abf4e3c5f529c6d3067d981a24 iio: adc: imx93_adc: remove redundant pm_runtime_dont_use_autosuspend() call
+70e2bed4e6f3978c515945a970e356c903000470 iio: gyro: bmg160: remove redundant pm_runtime_dont_use_autosuspend() call
+3ee7ac078017d5f9feaf085c24a9caaf1652d075 iio: imu: kmx61: remove redundant pm_runtime_dont_use_autosuspend() call
+82998831fad07a0e810d4e15a471d76bc8dec732 iio: light: vncl4035: remove redundant pm_runtime_dont_use_autosuspend() call
+3d0d1529e9244b059e590380c39f905b7454fd95 iio: magnetometer: bmc150_magn: remove redundant pm_runtime_dont_use_autosuspend() call
+b25624e5f67695d88855afb155f7f5a4ea913171 iio: adc: ad4134: Fix duplicate data_read mux state request
+7b6ef91cbce46808fe285e4a4a2f956e22d1bef0 staging: iio: addac: adt7316: sort headers alphabetically
+58372e988e6dc6ff0a18111d543b9fe43da53750 staging: iio: addac: adt7316: replace kernel.h with explicit headers
+24e1a3649cfe29cd35c0b4a930e804401d8531f3 dt-bindings: iio: adc: xlnx,zynqmp-ams: limit external channels to 30-50
+08853c09ea2c89d0f48a67a5268e88d71fcf2263 iio: adc: xilinx-ams: fix out-of-bounds accesses when parsing channels
 
---===============3466959117953150570==--
+--===============5620914770864506759==--
