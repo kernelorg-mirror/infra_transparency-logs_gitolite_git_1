@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0235236170006259860=="
+Content-Type: multipart/mixed; boundary="===============5206473375039769354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 07 Nov 2026 01:57:55 -0000
-Message-Id: <179401667514.1919935.7068214858308528753@gitolite.kernel.org>
+Date: Sat, 07 Nov 2026 01:57:58 -0000
+Message-Id: <179401667813.1920118.11927557814376616526@gitolite.kernel.org>
 
---===============0235236170006259860==
+--===============5206473375039769354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-testing-canary-nfs4_acl-passthru
-    old: 9d4e04164c83bbbc4d0da4bfb9684ac4baf00443
-    new: e4798e85ce036d5ddb3f9b04dc01c359953f0f86
-    log: revlist-9d4e04164c83-e4798e85ce03.txt
+  - ref: refs/heads/kernel-7.3/changelog
+    old: caec5edc4c700c6bb86c0948dd596c77ec9d12d5
+    new: 4ad9d9181bb0f850777ff3c8d4f6abbca88f47b6
+    log: revlist-caec5edc4c70-4ad9d9181bb0.txt
 
---===============0235236170006259860==
+--===============5206473375039769354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9d4e04164c83-e4798e85ce03.txt
+Content-Disposition: attachment; filename=revlist-caec5edc4c70-4ad9d9181bb0.txt
 
 6184eaadca4a1826dc56ba639976e5709903dbb3 genirq/proc: Fix missing CPU header in /proc/interrupts
 156aeda4d74e9007b56492ed1f3b5838822632be mm/damon/core: error damos_commit_quota_goal() for zero target_value
@@ -620,69 +620,13 @@ b0378161c28e77e4d0e2eda3c9433ab4394d2a2f xen-blkback: Avoid UAF when reading I/O
 d50d994bffa3c7c6db2d8bc4c5f0c55e3f46b0cd Linux 7.3.3
 462bc96a17a62af43481c8ce2464cadcf87110bf Merge tag 'v7.3.3' into kernel-7.3/baseline
 7cd0222e181bdd0c69b9ad0aaa5de4ca13605c1b kernel-7.3.3-0
-8773128675517cd3dd5cb9b640d9488db3460a5e Revert "SUNRPC: Treat every TLS error alert as fatal"
-9f643d14fbfb0d1192f1d79e0cfd397fe61cd032 Revert "sunrpc: treat empty auth.unix.gid replies as negative entries"
-f4991bae912a0e287e948e49763aa8641e2adb74 Revert "SUNRPC: trace an accepted transport before publishing it"
-3c5d52b21d9c876258f4a364285eb94bce53a12b Revert "SUNRPC: Resume receiving after a TLS control record"
-c1b75504b82d6465ef8fdc86fda5463fafb1a23e Revert "SUNRPC: Reject a TLS alert record that is not two octets"
-8853e5b4f63237c6a1db8e390050042d5a0d5815 Revert "SUNRPC: Reject a socket that already has an svc_sock attached"
-485a2b9067b3bce0559dc71c0e48d282a96c3ff8 Revert "sunrpc: pin gss module across auth_domain RCU free"
-32c97b7c76dfed08b643371330b63f00e59e9e7f Revert "SUNRPC: keep the first error in svc_register()"
-3d956f99ddbdbc0eb8487a07ac1f661a6dc9533e Revert "sunrpc: honor the netlink unix_gid NEGATIVE flag"
-f0eb4f1c4d0f37e1f2b2528fa3a8b9d451e328c6 Revert "SUNRPC: fix oversized GSS proxy token copy"
-48d23a182e6f25552ccfb671411006d3dee3126b Revert "SUNRPC: Do not credit control-record octets to the RPC stream"
-e2c8eb57c47b60dbd589b8ce5ab22a7f8c7f145e Revert "SUNRPC: Copy the deferred RPC Call from the head buffer"
-828a89d39324d8ae030d958ac77dd65391e870ea Revert "nfsd: zero NFSv4 COMPOUND tag padding"
-895ff780fbdef35ab19124dd5e1a201dfafa79a6 Revert "NFSD: validate transport name in listener_set before serv creation"
-c613b6d3df262359be2c5733c055ef74057d4fe7 Revert "NFSD: Set nn->cld_net before registering the cld pipe"
-68aaf1bbce9018b323e02e94e2f13011d6ae817e Revert "NFSD: Return NFSERR_ISDIR for NFSv2 READ and WRITE on a non-regular file"
-e22f29cc9490b99b15dc8dd8ece55bbbeb538c8a Revert "NFSD: Resolve the recall-any mask names in the trace format"
-1e58b1b19c633241d4300b7529b730975d735cc7 Revert "NFSD: Reject an oversized principal hash from nfsdcld"
-06ef057416456205f8a4347f81f5d316fdee0c38 Revert "nfsd: propagate SETXATTR value decode errors"
-6f54317cd9a4991ea996c4f9b3fa6e7ea66abc70 Revert "nfsd: preflight SEQUENCE replies before accepting a slot"
-b2cf43fbd6220f9448326512248768c70126d837 Revert "NFSD: Map flex file layout IDs through the request's user namespace"
-9acf8dec24852f52a50b9ff04565c0856905e0f3 Revert "NFSD: map fh_verify() status codes for NFS_ACLv3 replies"
-1bda6831fff87c7fc41842c06f212d07f0e08531 Revert "nfsd: honour client-provided attributes for NFS4_CREATE_EXCLUSIVE4_1"
-0e66bf0f420c45b9e321a3e5824e5332b55ace1a Revert "nfsd: hold cl_lock in client_has_openowners()"
-e0998b4a236ca750558228d46eb0774b010c26ff Revert "NFSD: Fix out-of-bounds read in the rpc_status dump"
-323549fe625e51e2e366425d8f98e642bbf6fa5c Revert "nfsd: Fix id-to-name cache entry leak in idtoname_parse()"
-a40894d691e5acf1a6828b3ba88ff26e5c01d3f0 Revert "nfsd: fetch direct I/O alignment for files handed to the filecache"
-e862c6fdface292d7d63cd24e9556f8b1047d552 Revert "NFSD: Fail a pool_threads read whose reply does not fit"
-b5e965b26adb752c80fd4e3d3faa79825a8c002d Revert "nfsd: don't offer flexfiles layouts when NFSv3 isn't being served"
-0687892761e0d6956429a3be1d64a1c3eaa277e5 Revert "nfsd: don't modify a session slot when replaying its cached reply"
-04b8464107d1401c281c23a191358bd5f2005276 Revert "NFSD: Don't complete a cld upcall the daemon has not read"
-71f47d4bd9d0a5cbe2f8fe51aa402c951e39411d Revert "NFSD: Do not send CB_RECALL_ANY to NFSv4.0 clients"
-7b2fda84fd3b1bf78e6672618e2c7ffb637ff53d Revert "NFSD: Destroy a recalled delegation the client does not hold"
-e53d07c505377c203f25cbe15326a407b40d79f2 Revert "NFSD: copy SETXATTR data from all XDR buffer segments"
-b3395d2740876e264ce40e3e20179d8fd33762e5 Revert "nfsd: clear XDR padding in GETXATTR replies"
-fb69c1ea6d6ca7d87093cd1de2f30cd07ef2c99d Revert "NFSD: cap the number of listeners accepted in listener_set"
-ee47cc9bfa07698719136d543b91ec25aa2fd3a6 Revert "NFS/localio: report the stability a DIO WRITE actually has"
-6c3cb8573db4bf6f5c36889ab67084323ede1c7d Revert "NFS/localio: fix nfs_local_dio_misaligned tracepoint"
-df93b58e72daa1784a66b2c657dcc71e56499068 Revert "NFS/localio: detect a short read or write before the iterator has moved"
-68ad08ed7a63fa2a10b7dd4b01cd0c9d3add75bc Revert "NFSv4/flexfiles: Bound page coalescing on the absolute stripe offset"
-18ce32b68568f67bcdbc09a551d635a40fa2cf34 Revert "NFSv4/flexfiles: Use the full 64-bit stripe_unit"
-d0467d5660d4bb652f36c1bfb6a2edb7b2ac4392 Revert "NFSv4/flexfiles: Use the full 64-bit offset for read DS selection"
-8f66268f83996cfb7e487cc23fb35e21facceb22 Revert "NFSv4/filelayout: Anchor page coalescing on pattern_offset"
-23b318ee0a17f33580b740c197a624db69a70142 Revert "NFSv4.1/pnfs: suspend pNFS on NFS4ERR_TOOSMALL from LAYOUTGET"
-a51465b36719ee75c53ef0147d16bab42a840d19 Revert "NFSv4: Fix a regression in the handling of CB_RECALL_ANY"
-a917e8e83054b6234f48c06edc9662edee73b885 Revert "NFSv4/pnfs: Free the netid when draining a data-server address list"
-163f62e3bcf633da7368cfa22969e1510e213a25 Revert "NFSv4/pnfs: bound the CB_NOTIFY_DEVICEID array count before allocating"
-77c4049fc1a64827a998020efb99df5e18a966c1 Revert "pnfs/blocklayout: Complete a device upcall when the pipe is closed"
-e77c6bdfb03ec4b8545cb5a1d0608444dd23f925 Revert "pnfs/blocklayout: Complete a device upcall only on its own reply"
-9d0d6a4d052de193cdafb8d83c6b3a2726cd2bcc Revert "pNFS: Fix CB_NOTIFY_DEVICEID CHANGE to consume ndc_immediate"
-78e70fc9b0740414e0ddbefd73923ae73191edba Revert "lockd: Fix use-after-free in nlmsvc_retry_blocked"
-3c190405b1ceb847bd302a3d9c88540508e190d1 Revert "SUNRPC: fix netns use-after-free in write_gssp()"
-d3628ba0b5064ad2293e0d52fbc1ff64f133a584 Revert "nfsd: fix race between client_info_show() and free_client()"
-2cf6b998495645f0a80ee0046a4c27d363519149 exportfs: add ability to advertise NFSv4 ACL passthru support
-d71156ed84d7707f75e363160bdf5f16e5051695 NFSD: factor out nfsd_supports_nfs4_acl() to nfsd/acl.h
-d55dd1d11547180a821e0844f58397b56e55b33d NFS/NFSD: data structure enablement for nfs4_acl passthru support
-1eadd3e62e09dd31a0ef58810b34e42c370f007b NFSD: prepare to support SETACL nfs4_acl passthru
-2ff1b4dbb4cf99433d864e20e17f40e6ce168596 NFSD: add NFS4 reexport support for SETACL nfs4_acl passthru
-e8544c3a819647417dc711dfe689dd6d5cc90308 NFSD: add NFS4 reexport support for GETACL nfs4_acl passthru
-79e17f20053b7860df4755bcaba38ee7252375c8 NFSD: add NFS4ACL_DACL and NFS4ACL_SACL passthru support
-b714085044e7e87c1a922b5d340ff95deea7c978 NFSD: avoid extra nfs4_acl passthru work unless needed
-aa2c87d1f398ef82d6dbda6b1ed86321e1658149 NFSv4: add reexport support for SETACL nfs4_acl passthru
-23337b25b4f3cd67710563c4b5e9079fd8c03b29 NFSv4: add reexport support for GETACL nfs4_acl passthru
-e4798e85ce036d5ddb3f9b04dc01c359953f0f86 NFSv4: set EXPORT_OP_NFSV4_ACL_PASSTHRU flag
+0f042d302151eba96ea1abecf0f10f599c884cba backfill redhat/kernel.changelog-9.99 updates from previous kernels
+9ebde22cdb63ccfb055ecf1ee0340c7586851b69 backfill changelog updates from previous 7.0.10 kernels
+071f01df58d5bb7fc7bd2b31e6b5ef47ed043c9e backfill changelog updates from previous 7.1.5 kernels
+980746beb46c7039f6f4d0a026697a4430bf1bfb backfill changelog updates from previous 7.1.8 kernels
+642d511781d86ff2a84dd4af7aada047df2e0410 redhat: move .gitlab-ci.yml to redhat/upstream-ci.yml.disabled
+221b6654e69101bb64d5b11317a7aff16e61edb1 backfill changelog updates from previous 7.1.13 kernels
+f57d62f112a1b1f0b6dbf88164b08a8c7a713a21 backfill changelog updates from previous 7.3 kernels
+4ad9d9181bb0f850777ff3c8d4f6abbca88f47b6 kernel-7.3.3-13
 
---===============0235236170006259860==--
+--===============5206473375039769354==--
