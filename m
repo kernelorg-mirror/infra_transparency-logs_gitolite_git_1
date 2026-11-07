@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9106944233143341080=="
+Content-Type: multipart/mixed; boundary="===============4269629262599058354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 07 Nov 2026 16:11:01 -0000
-Message-Id: <179406786132.2595366.8922550098350258171@gitolite.kernel.org>
+Date: Sat, 07 Nov 2026 16:11:05 -0000
+Message-Id: <179406786546.2595502.1787397810747029681@gitolite.kernel.org>
 
---===============9106944233143341080==
+--===============4269629262599058354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 684242af7090928ada5e48fd40a0f3a539b3fd5b
-    new: 56b90edee105e976d4870b9a048e6965dc0eac56
-    log: revlist-684242af7090-56b90edee105.txt
+  - ref: refs/heads/mm-unstable
+    old: a3d27154a205f6b32000e7e2734b2a6a4d22c65b
+    new: 2e2af33bf51d1f8de3568c0c2ff6c2bf2ecc4727
+    log: revlist-a3d27154a205-2e2af33bf51d.txt
 
---===============9106944233143341080==
+--===============4269629262599058354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-684242af7090-56b90edee105.txt
+Content-Disposition: attachment; filename=revlist-a3d27154a205-2e2af33bf51d.txt
 
 0e366a3bec1bc7c03f38cec70c852dfbbd6bb108 mm/kasan: detect double-free involving kfree_rcu_sheaf()
 1a33a4ac93eacb24794c78eecc285c896e64287f mm/kasan/kunit: add double-free tests involving kfree_rcu_sheaf()
@@ -216,34 +216,5 @@ a31e827e8abb1b5b1b5e949d16d3545d76f53a06 alloc_tag: add a test for trace state t
 022d65de732e98c8b624ebfd68c9da3b3c54b374 mm/zswap: validate dlen and normalize comp_ret on compression success
 386fb0c66b09a94f910d64bc5bf6f73cefca5210 mm: nommu: set MMF_OOM_SKIP in exit_mmap()
 2e2af33bf51d1f8de3568c0c2ff6c2bf2ecc4727 fs/proc/task_mmu: fix lost maps entries above 2^63
-88563f1a28d765c9148e541dd5ec1feebf5e183e mm/hugetlb: fix validation of unsupported HugeTLB orders
-4327b7243f1cb6898b9a8010d4bbd01edf198e70 selftests/mm: skip split_huge_page_test without the split_huge_pages file
-ee0f874c6558bc134c09290041c02f7e9bd3e241 mm/gup: convert GUP code to use vma_flags_t
-3105977c3ec0d21c45014055389c26a2e93a8bb6 mm/filemap: convert fault and readahead logic to use vma_flags_t
-dad1334a1187eddd3c225cbbebe179e4010c38ea mm/filemap: cache random-read flag before dropping fault lock
-56af63d806fc7a59640f6b4640272a2c9adadefb mm-filemap-convert-fault-and-readahead-logic-to-use-vma_flags_t-fix-fix
-c494bbe94d166085858e0e24ef0f16b5c9bc2bc3 mm/rmap: convert remaining VMA flag tests to use vma_flags_t
-48db71a7bab35212d8b2e6358dc260f529a8ad76 mm/migrate: convert VMA flag tests to use vma_flags_t
-8ebd7b5db4311850d472e468d2e38cb6dfffd8d8 mm: convert THP VMA flag tests to use vma_flags_t
-1a42a7f06d9eb3c7b2ce33df6732d3cfae14d989 mm/ksm: convert VMA flag tests to use vma_flags_t
-a1331df24a58b68972ea7bc57ce01b965a514dd6 mm/madvise: convert madvise_vma_behavior() to use vma_flags_t
-dada70355015c9483c8c19dadf30cea2c792ab3f mm: convert miscellaneous VMA flag tests to use vma_flags_t
-0040f1e0d33b9a03fc0f4da0f810ca32f7e983ef fs/proc/task_mmu: convert VMA flag tests to use vma_flags_t
-3bc6f3a04c9a87c73c547ba1c9a244b037d03238 fs/coredump: convert vma_dump_size() to use vma_flags_t
-e065cbe2cfdb1e78232b3cc8e2bbcba8d5246db2 uprobes: convert VMA flag tests to use vma_flags_t
-b4484125b1fdd4af50fcf4b10c51350e14517f05 perf: convert VMA flag tests to use vma_flags_t
-386f2f670ddafa176118122aa9721dbcf650a072 security: convert VMA flag tests to use vma_flags_t
-1456423dcec556e8fbe90e0d82f2a0cd55784c97 mm/mremap: fix hugetlb reservation leak on partial move
-b5052a47aa98d20929babbbedc6314c9457e5af8 selftests/mm: test a partial mremap() of hugetlb memory
-9d3fb7eee983849839103395857488cce70e4741 mm/mremap: reaccount on unmap failure only if accounted
-f2597ed073dc8e7442f7ee758d98a6284f668cd7 mm/mremap: restore VMA_ACCOUNT_BIT if the unmap fails
-2eeb507376ccce22bf65326d051c65a2b4b69de2 selftests/mm: test mremap() with an old size of 0
-0b1a05a481fa010e0cf30e5324ef706326c71076 mm/damon/core: add DAMOS_FILTER_TYPE_AGE_MS
-54f7b0b9cf99ea4f282cb8f23edc96e882b51539 mm/damon/sysfs-schemes: support DAMOS_FILTER_TYPE_AGE_MS
-09b5abf6e31cb551b2ca6800051fcf968c986364 Docs/mm/damon/design: update for age_ms damos core filter type
-090cc899ff38f2f9764bd7c8292f80160b6b06ee Docs/admin-guide/mm/damon/usage: update for age_ms damos core filter
-ef10938f2f933f3d4dcf39f26415d2ffbf28375e mm/hugetlb_cgroup: prevent use-after-free during cgroup offlining
-f512d9d8972450c017acce86ff3f81321e4ff99d selftests/mm: pkeys: wait for the child in become_child()
-56b90edee105e976d4870b9a048e6965dc0eac56 riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============9106944233143341080==--
+--===============4269629262599058354==--
