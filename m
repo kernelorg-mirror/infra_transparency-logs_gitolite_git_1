@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0850866460015648561=="
+Content-Type: multipart/mixed; boundary="===============7301331773736036874=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 07 Nov 2026 09:41:56 -0000
-Message-Id: <179404451693.2250419.13995303352583809362@gitolite.kernel.org>
+Date: Sat, 07 Nov 2026 09:42:16 -0000
+Message-Id: <179404453675.2250712.1701334168335834952@gitolite.kernel.org>
 
---===============0850866460015648561==
+--===============7301331773736036874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,28 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 8d4a63625d78608608eb8fa4de7893893a4373ca
-    new: 70220cf673310d84ca06dd3d5a0d24eb87da00f6
-    log: revlist-8d4a63625d78-70220cf67331.txt
+    old: 70220cf673310d84ca06dd3d5a0d24eb87da00f6
+    new: 7c1c3b952500981f8596efe4bbd2a1125d6adb67
+    log: |
+         c747ffe493ee2480aa354770ad9208ec39109483 Merge branch into tip/master: 'locking/urgent'
+         783b71dcb2e57b9f9c730a899eeeeded4448d523 Merge branch into tip/master: 'perf/urgent'
+         fccb9a6789e7c77902c1a157f1a93d61a1ec83c1 Merge branch into tip/master: 'sched/urgent'
+         2715c9af094d7cf36a2bcc6a0aed70d710307224 Merge branch into tip/master: 'x86/urgent'
+         6b85605a3c036479179874ca503325d0004172ed Merge branch into tip/master: 'locking/core'
+         cf2e54086e64d337d067fadbf37253170dc47376 Merge branch into tip/master: 'x86/apic'
+         5980d92b5c7120b26e27be017cf4c4455c173f4e Merge branch into tip/master: 'x86/cleanups'
+         7c1c3b952500981f8596efe4bbd2a1125d6adb67 Merge branch into tip/master: 'x86/misc'
+         
+  - ref: refs/heads/tip/urgent
+    old: 86010df0e4a729a8bbaa26f69b279e60187a49d5
+    new: 2715c9af094d7cf36a2bcc6a0aed70d710307224
+    log: revlist-86010df0e4a7-2715c9af094d.txt
 
---===============0850866460015648561==
+--===============7301331773736036874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d4a63625d78-70220cf67331.txt
+Content-Disposition: attachment; filename=revlist-86010df0e4a7-2715c9af094d.txt
 
 49f771d14578733a350c45e34e1bc6ad14f56952 udf: validate vat20->lengthHeader and VAT inode size in udf_load_vat()
 e21a6f39aa6d0336ffbf5f34e5fa20ff8de36773 quota: initialize dquot cache before mounting rootfs
@@ -164,7 +177,9 @@ c53d8fc9a7571b63482548a7e5284ef9f025fd3f Merge tag 'block-7.4-20261106' of git:/
 a7963b12ca3e764e6ad3b15d1373430eb02492ee Merge tag 'iommu-fixes-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
 bdeb84ed24e543930487f03f5243bbf83aebaf31 Merge tag 'printk-for-7.4-fixups' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 d48723711bae9b8cdc56719c448ba42fef28cbee Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-05929bfb3f42868416dbc4a62bb9658c7f2c8d6a Merge branch 'linus'
-70220cf673310d84ca06dd3d5a0d24eb87da00f6 Merge branch into tip/master: 'x86/urgent'
+c747ffe493ee2480aa354770ad9208ec39109483 Merge branch into tip/master: 'locking/urgent'
+783b71dcb2e57b9f9c730a899eeeeded4448d523 Merge branch into tip/master: 'perf/urgent'
+fccb9a6789e7c77902c1a157f1a93d61a1ec83c1 Merge branch into tip/master: 'sched/urgent'
+2715c9af094d7cf36a2bcc6a0aed70d710307224 Merge branch into tip/master: 'x86/urgent'
 
---===============0850866460015648561==--
+--===============7301331773736036874==--
