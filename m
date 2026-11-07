@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3644271381757191013=="
+Content-Type: multipart/mixed; boundary="===============2450792968228102217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Sat, 07 Nov 2026 20:39:56 -0000
-Message-Id: <179408399679.2788026.10730488013750469050@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 07 Nov 2026 20:40:59 -0000
+Message-Id: <179408405903.2790951.12743492518347894102@gitolite.kernel.org>
 
---===============3644271381757191013==
+--===============2450792968228102217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
-    old: aadea57f532882d8bab444646863c7ef8a778ff1
+    old: fac520e43a60230b24026f462a2b63e4d170566e
     new: 1c264cb18f718bd30f9763de2f0fc65ecc0073fb
-    log: revlist-aadea57f5328-1c264cb18f71.txt
+    log: revlist-fac520e43a60-1c264cb18f71.txt
 
---===============3644271381757191013==
+--===============2450792968228102217==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-aadea57f5328-1c264cb18f71.txt
+Content-Disposition: attachment; filename=revlist-fac520e43a60-1c264cb18f71.txt
 
 d2f7bdfdeac8137e942b32e0badc40e181127d7b resource: report a devm_request_resource() conflict under the lock
 c82dba3183ac66ea282e817b12edf735235fc4ac mm: warn on unaligned compound zone device ranges
@@ -1051,4 +1051,4 @@ f6d181fde135e5757c5c94409f510cf42874308b perf test: Don't starve per-process tes
 82b4a28e758816365405e01d9ed09027d13ef77a perf record: Reject CPU indices equal to the mask size
 1c264cb18f718bd30f9763de2f0fc65ecc0073fb perf jevents: Don't encode MSRs with no value
 
---===============3644271381757191013==--
+--===============2450792968228102217==--
