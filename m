@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7458396703105451314=="
+Content-Type: multipart/mixed; boundary="===============7743020263583205426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 07 Nov 2026 01:57:18 -0000
-Message-Id: <179401663845.1917957.5109454836470441981@gitolite.kernel.org>
+Date: Sat, 07 Nov 2026 01:57:21 -0000
+Message-Id: <179401664148.1918068.4076226017334934415@gitolite.kernel.org>
 
---===============7458396703105451314==
+--===============7743020263583205426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/snitzer-nfs-fixes-canary
-    old: 460fc52bc6252dc94dd208c7b368f87b75d0f7c5
-    new: bf85f64e703bf52d8164455ae0d5fc62814ef978
-    log: revlist-460fc52bc625-bf85f64e703b.txt
+  - ref: refs/heads/kernel-7.3/nfs-testing-canary-localio-reprobe
+    old: ba6521a06d4b7bac8e170efdb6ce9714e53f7a4f
+    new: 1b4948cd6e1bdbeedd1214c9ffae359c590af402
+    log: revlist-ba6521a06d4b-1b4948cd6e1b.txt
 
---===============7458396703105451314==
+--===============7743020263583205426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-460fc52bc625-bf85f64e703b.txt
+Content-Disposition: attachment; filename=revlist-ba6521a06d4b-1b4948cd6e1b.txt
 
 6184eaadca4a1826dc56ba639976e5709903dbb3 genirq/proc: Fix missing CPU header in /proc/interrupts
 156aeda4d74e9007b56492ed1f3b5838822632be mm/damon/core: error damos_commit_quota_goal() for zero target_value
@@ -736,5 +736,8 @@ f2fb94fbeead54899114053e2b6b5b4ece0b239d NFS: name the namespace .nfs keyring in
 1e0cd7af1014eabdef4b8f0c9fd3da207fd64fe6 NFS: don't run the release of a WRITE or COMMIT in the submitter
 701215822720f1315c5e2e5191552f8ace873ab5 NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
 bf85f64e703bf52d8164455ae0d5fc62814ef978 NFS/localio: don't run the release of a failed COMMIT in the submitter
+8af773cef0d9b84d33b25a8a8b65d33a2c466b60 NFS/localio: hold the client across an asynchronous LOCALIO probe
+fcdbeb85e20e034c51ab1acbda6df14fc588213c NFS/localio: probe again for LOCALIO when localio_enabled is set to Y
+1b4948cd6e1bdbeedd1214c9ffae359c590af402 NFS/localio: give the LOCALIO probe a short timeout of its own
 
---===============7458396703105451314==--
+--===============7743020263583205426==--
