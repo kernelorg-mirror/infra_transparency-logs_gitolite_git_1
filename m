@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Sat, 07 Nov 2026 12:45:25 -0000
-Message-Id: <179405552514.2382228.15071344355121513827@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sat, 07 Nov 2026 12:53:28 -0000
+Message-Id: <179405600803.2386815.11953463436108826419@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 8e23563b0224e6ebcba37d8257534ca63cba818e
-    new: 14d30246b2f04e1abbf93abade34ccd6dd8859dc
+  - ref: refs/heads/spi-7.5
+    old: 4a8faaea975be15cb636646c0d4c6ff1c2110baa
+    new: 6a50b668331bf6bf15edee511e7dc68fc6294c6d
     log: |
-         262e3bbce3f7ffa1960605d19528cc4291d2c3f1 dt-bindings: ata: sata-brcm: Describe the NSP IDM registers
-         14d30246b2f04e1abbf93abade34ccd6dd8859dc ata: ahci_brcm: Initialize the NSP interface clock and reset
+         6a50b668331bf6bf15edee511e7dc68fc6294c6d spi: tegra20-slink: size words with spi_bpw_to_bytes()
          
