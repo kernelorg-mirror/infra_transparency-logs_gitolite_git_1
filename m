@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
-Date: Sat, 07 Nov 2026 13:13:17 -0000
-Message-Id: <179405719748.2401904.10508641492425312643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Sat, 07 Nov 2026 13:17:34 -0000
+Message-Id: <179405745458.2405531.14388621443496777878@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nsc/kbuild
-user: nsc
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/tags/kbuild-next-unstable-2026-11-07
-    old: 0000000000000000000000000000000000000000
-    new: 4c99680c6bd20e6f0d7fc083bb144611394c2a92
+  - ref: refs/heads/for-7.4-fixes
+    old: 7c972e73641cbe5f77f63c336de15c7a30268d49
+    new: 6b67cdb463b006e57f15e3fe4ea03b00f0ac9ee5
+    log: |
+         6b67cdb463b006e57f15e3fe4ea03b00f0ac9ee5 ata: libata-pmp: disable the SEMB port on Marvell 88SM9705
+         
