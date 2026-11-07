@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7563291090446539365=="
+Content-Type: multipart/mixed; boundary="===============3774948392528247563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 07 Nov 2026 18:09:35 -0000
-Message-Id: <179407497594.2680055.7465425598137185028@gitolite.kernel.org>
+Date: Sat, 07 Nov 2026 18:09:38 -0000
+Message-Id: <179407497896.2680272.8145207061542129129@gitolite.kernel.org>
 
---===============7563291090446539365==
+--===============3774948392528247563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 2d0b457611c06304138754a05e0873cc18acfb7e
     new: fd875e35a25e73514b2f89f51bbb7c6baace3d7d
     log: revlist-2d0b457611c0-fd875e35a25e.txt
 
---===============7563291090446539365==
+--===============3774948392528247563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ ed10b8a49c398cf0e1223954f5c4d5a6801b5923 bpf: A join must leave the cookie of bp
 d877bd038cc6d09fcf1746bbc031bb2bc0ba8a02 selftests/bpf: Test a flag that goes with the cookie of bpf_throw()
 fd875e35a25e73514b2f89f51bbb7c6baace3d7d Merge branch 'bpf-fixes-for-the-verifier-that-joins-states'
 
---===============7563291090446539365==--
+--===============3774948392528247563==--
