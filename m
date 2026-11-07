@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5724772926509326868=="
+Content-Type: multipart/mixed; boundary="===============8285731549434585990=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 07 Nov 2026 01:57:28 -0000
-Message-Id: <179401664837.1918414.16040630095691220616@gitolite.kernel.org>
+Date: Sat, 07 Nov 2026 01:57:31 -0000
+Message-Id: <179401665136.1918600.8943523542363487550@gitolite.kernel.org>
 
---===============5724772926509326868==
+--===============8285731549434585990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-next
-    old: 455bf38d5dde1e62a3d719e094a5082f084337b5
-    new: d030242069b9d3da2af25f0b41d9508e7d06804b
-    log: revlist-455bf38d5dde-d030242069b9.txt
+  - ref: refs/heads/kernel-7.3/nfsd-testing
+    old: 608fbdfb8c76d863aee355e87ab28cac630c508d
+    new: 9c6faed7b07145402e4380892fa5af50bf39e21a
+    log: revlist-608fbdfb8c76-9c6faed7b071.txt
 
---===============5724772926509326868==
+--===============8285731549434585990==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-455bf38d5dde-d030242069b9.txt
+Content-Disposition: attachment; filename=revlist-608fbdfb8c76-9c6faed7b071.txt
 
 6184eaadca4a1826dc56ba639976e5709903dbb3 genirq/proc: Fix missing CPU header in /proc/interrupts
 156aeda4d74e9007b56492ed1f3b5838822632be mm/damon/core: error damos_commit_quota_goal() for zero target_value
@@ -910,5 +910,12 @@ f285292791fb68888b07cccfe3ae6dcecd8a63c9 NFSD: Report WND4_CONTENTION for a rece
 fdfbc6bbc0ea977cedd31bf2a9be682142d7565a NFSD: Report unsupported delegation upgrade and downgrade
 362fb2e18a11fca8ff422c387015d306a5a8e13d NFSD: Honor OPEN4_SHARE_ACCESS_WANT_READ_DELEG on a read-write OPEN
 d030242069b9d3da2af25f0b41d9508e7d06804b NFSD: Take a file unhashed during construction back off the LRU
+1a21b51071dcdaca3f4c235caca8214b3abcdb7c NFSD: cut a misaligned direct-mode WRITE at folio boundaries
+193367cba92b43cbe3405a9b2f700c241c5a5bfb NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
+67ba325f686e6d771d36773559a78a53a0caa3f2 NFSD: only split a direct-mode WRITE for a worthwhile direct middle
+13b7758d231adab3a2e3d51293a946721d3dacf6 NFSD: add direct_misaligned_dontcache debugfs knob
+b562b0af6ae9dcbdd051d75be3fc8ee99207aec4 NFSD: do not use direct I/O for a READ smaller than its alignment
+8bd823b1794d2f24c7d197bba5e71c9aa94938cc NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
+9c6faed7b07145402e4380892fa5af50bf39e21a NFSD: add tracing for how direct-mode READ and WRITE are serviced
 
---===============5724772926509326868==--
+--===============8285731549434585990==--
