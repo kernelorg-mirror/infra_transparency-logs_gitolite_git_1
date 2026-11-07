@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 07 Nov 2026 16:12:10 -0000
-Message-Id: <179406793060.2596155.16028437548313777335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sat, 07 Nov 2026 16:12:22 -0000
+Message-Id: <179406794288.2596405.1095220127977284699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 5f79df22de42db22d6058fa62064a406a5ab2d3b
-    new: a002e63bd83daa2d83c6db81dc91202909ea73f2
+  - ref: refs/heads/asoc-7.5
+    old: 1f18d4babdf42a5354247e2c6f367163d269c698
+    new: 9913e4bc5a2ff8a58abad61b05ff619a158e63ba
     log: |
-         6157fe40c6a7bb8d175eb1ebe12c89067890fe7d patches/mm: update
-         a002e63bd83daa2d83c6db81dc91202909ea73f2 patches/next: rebase to the latest mm-new
+         9913e4bc5a2ff8a58abad61b05ff619a158e63ba ASoC: samsung: snow: release the I2S bus clock if registration fails
          
