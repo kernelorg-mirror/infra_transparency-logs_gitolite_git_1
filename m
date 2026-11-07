@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sat, 07 Nov 2026 16:51:08 -0000
-Message-Id: <179407026874.2625595.2801041206102076832@gitolite.kernel.org>
+Date: Sat, 07 Nov 2026 17:06:04 -0000
+Message-Id: <179407116435.2636332.5794651626196126231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regulator-7.5
-    old: 2a1984b30e9cfcb306a076cb4b9e68d71daeb45c
-    new: ef4725e6bd858b13b39c4bc99ea11ad1fd9f3937
+  - ref: refs/heads/asoc-7.5
+    old: 9913e4bc5a2ff8a58abad61b05ff619a158e63ba
+    new: 2225ef4e51c4ddfaff1b2e227607ed04413bd0c6
     log: |
-         9f9bcca6adc314d35818fc903a2d73898c169062 regulator: core: Add "enable and wait" functions
-         ef4725e6bd858b13b39c4bc99ea11ad1fd9f3937 regulator: core: Add "enable and wait" functions
+         2225ef4e51c4ddfaff1b2e227607ed04413bd0c6 ASoC: tlv320adcx140: zero-initialize the GPI configuration array
          
