@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4803828009491481440=="
+Content-Type: multipart/mixed; boundary="===============5750863182826059651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 08 Nov 2026 23:57:22 -0000
-Message-Id: <179418224238.3964173.1622664971719542426@gitolite.kernel.org>
+Date: Sun, 08 Nov 2026 23:57:26 -0000
+Message-Id: <179418224649.3964361.10043920732291182136@gitolite.kernel.org>
 
---===============4803828009491481440==
+--===============5750863182826059651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 2c5dafa7f289d760f4492260b0988029aab478b0
-    new: b95f8bb86713c860ce8536d22a988b949b884d5f
-    log: revlist-2c5dafa7f289-b95f8bb86713.txt
+  - ref: refs/heads/mm-unstable
+    old: 58243c0a1bf3a59ddef3807cf5f15582767448c3
+    new: b024a51b0184b1efb6f55b11aaf7b15a490a6307
+    log: revlist-58243c0a1bf3-b024a51b0184.txt
 
---===============4803828009491481440==
+--===============5750863182826059651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c5dafa7f289-b95f8bb86713.txt
+Content-Disposition: attachment; filename=revlist-58243c0a1bf3-b024a51b0184.txt
 
 2cb6dfd82b4f896c4546e275ece5d4204114c0bd mm/kasan: detect double-free involving kfree_rcu_sheaf()
 e5d8590aea22b848fb1de8a3f01036f84a9d9c48 mm/kasan/kunit: add double-free tests involving kfree_rcu_sheaf()
@@ -226,22 +226,5 @@ ba58325f676ff2b348559942d466861384fa71fc uprobes: convert VMA flag tests to use 
 2bcbab16a70f65f886f9e6e19f23d629aba20b82 mm/zswap: validate dlen and normalize comp_ret on compression success
 5a046f3f7ef8e856d1c04c6a4b7b6c2b2d01aab0 mm: nommu: set MMF_OOM_SKIP in exit_mmap()
 b024a51b0184b1efb6f55b11aaf7b15a490a6307 fs/proc/task_mmu: fix lost maps entries above 2^63
-db5ff9546552d25b8576d1dc65acf95f7d3cb94a mm/mremap: fix hugetlb reservation leak on partial move
-4d36293816b5088cca0702408207b1a90284b820 selftests/mm: test a partial mremap() of hugetlb memory
-8869595310710b4d6ec0eed9fc6467b7a5d68d8f mm/mremap: reaccount on unmap failure only if accounted
-19560217c2635a065b3626fb9d3390be1ceb924a mm/mremap: restore VMA_ACCOUNT_BIT if the unmap fails
-627111890cbcab2635bf75e84b9f7f43c961cf8d selftests/mm: test mremap() with an old size of 0
-29fc4cf12abb00ba1ed7f85e6f7dc7ba87cba7ad mm/damon/core: add DAMOS_FILTER_TYPE_AGE_MS
-e79f892dc04e5df9bdd8a2cdc679561da7782b83 mm/damon/sysfs-schemes: support DAMOS_FILTER_TYPE_AGE_MS
-4eb841a2538861020ef6366f3cf1aa94a2c1a220 Docs/mm/damon/design: update for age_ms damos core filter type
-894a6f2662017ecdbd61f00dd04f8c3347265bde Docs/admin-guide/mm/damon/usage: update for age_ms damos core filter
-82fc150bb69f27a17a5f44342fa63dde69b5df80 mm/hugetlb_cgroup: prevent use-after-free during cgroup offlining
-90167e5352f4ca097e47fecdb6bd3824906241f1 selftests/mm: pkeys: wait for the child in become_child()
-073e3809746401ad81d45e233cc9e82eb5b4ba7f powerpc/mm: make vmemmap_populate_compound_pages() static
-0857f9055ce11759f3cfa3c6c48bda28c7f7f5d4 powerpc/mm: drop powerpc vmemmap_can_optimize()
-f922dbf4d168617915142a4f1cfde0e7806689d0 loongarch/mm: disable device DAX vmemmap optimization
-ca9e4f21323410c3136042f95ab29baabb8c12c8 mm/sparse-vmemmap: drop vmemmap_can_optimize()
-219836a3dad2cc98afdef224011ed2faa9025c8f mm/sparse-vmemmap: drop @pgmap from vmemmap population APIs
-b95f8bb86713c860ce8536d22a988b949b884d5f riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============4803828009491481440==--
+--===============5750863182826059651==--
