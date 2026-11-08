@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5554483258414599324=="
+Content-Type: multipart/mixed; boundary="===============6444350482439668886=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Sun, 08 Nov 2026 03:48:22 -0000
-Message-Id: <179410970211.3096718.8430827077930503642@gitolite.kernel.org>
+Date: Sun, 08 Nov 2026 03:50:12 -0000
+Message-Id: <179410981282.3099183.10122516235815864694@gitolite.kernel.org>
 
---===============5554483258414599324==
+--===============6444350482439668886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/smb
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: cbbddb6b08cc9900a87cccaa9b22bbe06aa4f50a
-    new: fa4ad798f6f681031775266044ba1b0cf3c670bd
-    log: revlist-cbbddb6b08cc-fa4ad798f6f6.txt
+  - ref: refs/heads/ksmbd-for-next
+    old: 6f42553e493d3f25059a215748ae241e525c865f
+    new: 2f14fe2d589583ce649b2bf1b449cc9839abda8b
+    log: revlist-6f42553e493d-2f14fe2d5895.txt
 
---===============5554483258414599324==
+--===============6444350482439668886==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cbbddb6b08cc-fa4ad798f6f6.txt
+Content-Disposition: attachment; filename=revlist-6f42553e493d-2f14fe2d5895.txt
 
 5852cdf0006ff0f1d9a56f06197673d4e4270220 net/9p: fix typos in comments
 37dce65a0b4356d7ec289a5d09cece5db241c302 9p: use fc->net_ns for network namespace in RDMA and socket transports
@@ -319,11 +319,7 @@ bcd07fd1673beb873e2bee2731e4ef4d716e70c7 bpf, sockmap: Fix psock update-side dat
 696f0954e3b6280aa87ea4a6196153e506b0ab9c bpf: Fix bpf_dynptr_copy() for overlapping ranges in one packet
 8f92b56d228d8fa4d372f7b410c1ced1e92eb664 selftests/bpf: Test overlapping dynptr copies on xdp frags
 5b96632457e4ccae88ecb751cf48176b2e3629a7 Merge branch 'bpf-fix-overlapping-copies-in-bpf_dynptr_copy'
-1dd91081ba3c692565f9c1f884149178d5a06d1e ksmbd: require DELETE access for delete-on-close opens
-09139429fab3a5114c18d7c15fb161511d4d66c9 ksmbd: enforce the read-only share flag when creating a stream
-539223f18026448f67d33d09719c355b91db7fd0 ksmbd: revert fsids on durable reconnect and replay failure
 b327e63683a2b894b500027375342c25222b58ef sched/cputime: Don't warn when the tick period starts after idle exit
-d13da43938d15b0b719827d8f2b32df8eaec5def ksmbd: fix NULL pointer dereference in session_user_name() and session_account_type()
 9b6f2eabc8371dea951c244f4aa9e013f36de9f8 Merge tag 'rtc-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
 cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 65cac1217004da03c3d2418bd7a7fda038117809 Merge tag 'irq-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -395,9 +391,6 @@ f704594d36809780cf41fb201729dc1ac352c5d4 drm/i915/display: Limit NVL TRANS_VTOTA
 b42b656db1384255044754cd2163d370d766b776 drm/i915/display: Disable pipe joiner on WCL
 285300ef89aacbe902ba29c91625975f51345217 drm/i915/display: Allow port sync on PTL
 c4ba1716853de5178a9df785844ebb5e397a80e6 net: atl1c: drop oversized RX frames instead of panicking
-8296a64df5448548f410fb246c1d88a93609602b ksmbd: do not read past the DACL in the access denied debug message
-c00ec7ad449b68c291a4986e481941302ed399c5 ksmbd: grant a POSIX ACL group entry only to the group's members
-ffc855fe16afe02b22305111aa68cd8d07360941 ksmbd: let the owner read and change the DACL when no ACE names it
 10f51f4fb99de99c64b9d35707f05fa0308f25ff net: wwan: mhi_wwan_ctrl: send a DTR drop before it can be coalesced
 902407bc588575af0ceae5de4f635fe1e024f258 net/mlx5: macsec: free struct mlx5_fs_id after an RCU grace period
 af449230bd8de936d6e4f759240e787b9aad7cc0 bnxt_en: Don't keep MSI-X vectors added before FW reserves them
@@ -677,7 +670,6 @@ a25c02af29c3e95128e4343fceb4bdace8e480a0 ocfs2: wait for filecheck kobject relea
 684603842b78f75835d21fdf5c19ae717ed8eb1a net: mana: Add support to process throttled EQEs
 2bbca049deeb1699cafd966cb2793fee576ee409 xfs: fix temporary cursor leak in btree shift corruption paths
 750eb5ab457e62e221a9c8521e2274f14c85b387 mctp i3c: Fix locking in an error path
-e49296d51ccbf2ad0ed0484db1382f1d7217bd6e ksmbd: require NUL-terminated EA names
 c8848b2ca6e6620b56afafba7dd4367e98b049c0 eth: fbnic: Report the logical RX queue to XDP
 213d491308b99d026514c93980cf8dd572226b1b soreuseport: annotate data-races around reuse->socks[] and num_socks
 2e54b3e187300893688c2c7517894f5d96732e05 net/sched: sch_qfq: prevent aggregate self-replacement
@@ -1049,5 +1041,9 @@ a41e364995bbcfa627418a70fe913c35b7510728 Merge tag 'scsi-fixes' of git://git.ker
 12419f306c3ca34a38064d2b502966fa01650b49 Merge tag 'ntfs-for-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/ntfs
 7f75cd8ccd9588e969158c5dc92a8cc217663f5b Merge tag 'ksmbd-for-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/smb
 fa4ad798f6f681031775266044ba1b0cf3c670bd Merge tag 'for-7.4-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+42ac1f1917ae678ee2c47f415ab844af03bbd46b ksmbd: grant a caller what its groups and OWNER RIGHTS ACEs allow
+2fd145f8865bb1a6c38a3dc68fa44290008789d8 ksmbd: refuse to read a handle that is not open for reading
+81fefb6c635489e71e286d1465b6dd1d0a27ceec ksmbd: skip metadata-only opens in sharing checks
+2f14fe2d589583ce649b2bf1b449cc9839abda8b ksmbd: skip metadata-only stream opens in the delete check
 
---===============5554483258414599324==--
+--===============6444350482439668886==--
