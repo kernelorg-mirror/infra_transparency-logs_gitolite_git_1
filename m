@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 08 Nov 2026 18:37:24 -0000
-Message-Id: <179416304477.3728703.16133800216429022573@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sun, 08 Nov 2026 18:41:45 -0000
+Message-Id: <179416330568.3732389.16506613868026753734@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: e2f439dfd0209bcc288cbea9225871180b2913e8
-    new: dba8b3cd6d4721a71bc6128dc40e8bd854463350
+    old: 96cb0d6e71880bda07fc48f6de322608f266f55b
+    new: a0a0c785cbcaa72bb03c205eb61e5b0960b80ac2
     log: |
-         dba8b3cd6d4721a71bc6128dc40e8bd854463350 tpm: flush timeout work outside buffer_mutex to avoid deadlock
+         a0a0c785cbcaa72bb03c205eb61e5b0960b80ac2 selftests/bpf: Don't include <linux/ptrace.h> in BPF progs
          
