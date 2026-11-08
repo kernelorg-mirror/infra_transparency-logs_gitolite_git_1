@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Sun, 08 Nov 2026 01:37:48 -0000
-Message-Id: <179410186809.3005033.629691676126399637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sun, 08 Nov 2026 01:42:41 -0000
+Message-Id: <179410216143.3008857.5725096184102236616@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ojeda/linux
-user: ojeda
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/rust-fixes
-    old: 0f74ace11fb33fc6ec430ec0c62393645c20d60b
-    new: 451e31f3d08876cbafb1d225cb58cad0239d1f11
+  - ref: refs/heads/master
+    old: 3f87be46c9db81b13a63268fa2bc0ba40bcdca29
+    new: 89948d8d757104c025371d347feb8945a8f6d780
     log: |
-         451e31f3d08876cbafb1d225cb58cad0239d1f11 kbuild: rust: support stabilized flag `-Cprofile-sample-use` for Rust >= 1.100
+         bdad5be398b988bc69f8a898fc4480101fa181f3 foo
+         89948d8d757104c025371d347feb8945a8f6d780 foo
          
