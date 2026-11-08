@@ -1,50 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============7125418424714179120=="
+Content-Type: multipart/mixed; boundary="===============8785372119316044628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/liam/linux
-Date: Sat, 07 Nov 2026 23:34:24 -0000
-Message-Id: <179409446407.2917035.1646960107026612365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 08 Nov 2026 00:00:12 -0000
+Message-Id: <179409601245.2936028.6570882130542748878@gitolite.kernel.org>
 
---===============7125418424714179120==
+--===============8785372119316044628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/liam/linux
-user: liam
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/dense_ulong
-    old: 15f16f9deca2a5bb8d438c9fee24947232c0d24a
-    new: 8788147024b660c80214e75af67d0f12ef504bb6
-    log: revlist-15f16f9deca2-8788147024b6.txt
+  - ref: refs/heads/master
+    old: a41e364995bbcfa627418a70fe913c35b7510728
+    new: fa4ad798f6f681031775266044ba1b0cf3c670bd
+    log: revlist-a41e364995bb-fa4ad798f6f6.txt
 
---===============7125418424714179120==
+--===============8785372119316044628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15f16f9deca2-8788147024b6.txt
+Content-Disposition: attachment; filename=revlist-a41e364995bb-fa4ad798f6f6.txt
 
-340e20d3c6c140140727b3cd20817cbed97c637f maple_tree: Add ENODE_NULL support
-daedce0c8518ef231beda13ac72cd719213fdf8e maple_tree: test the 4G seam and ceiling fixes
-f27b3189dc25196a5419c49bf8a9a3b23b78faa6 maple_tree: Add testing for the ENODE_NULL bit
-345c1679d7a4427d5bbc13862a042964536ab5cd maple_tree: Split mas_wr_node_store() paths
-6068080936a9437a321ecce174210f3e385b15b0 maple_tree: Reuse node_clear_tail() where possible
-e66d9190d2a0d62543a8c7d502edd0b3d93272f4 maple_tree: allow cyclic allocation on any tree
-7949df868c2530ea62730b13b8b7a31d426fc4cf test_maple_tree: test cyclic allocation on any tree
-77098cc9dbc86692934d1cf345cee069bd41f57a libfs: use a regular maple tree for directory offsets
-dd4d652e60bcfacdce12e9ab8aac73c2871be711 maple_tree: Add fuzzer
-ce9f41d830c02e7c0944fcd1e26bee8973477dfd maple_tree: fail the test runs on unexpected warnings and leaks
-714b7db64b06e9b758fa3113085f413bcd784555 maple_tree: narrow the unsigned long wrappers explicitly
-408c3bd294c825b8ed5ba3ce7c71bb99f55f9a54 maple_tree: trace u64 indices
-475fd82568bd8c242118e9738f2d14396706d4c1 maple_tree: stop mt_find() restarting below a range past ULONG_MAX
-1fbc74c1e6cecfe236e484dae8f500c71e1f16b5 maple_tree: test mt_find() with a range past ULONG_MAX
-c9869a6b1a19f3fac9d2a64544e6f9152f095a69 maple_tree: Reclaim node bits
-2683d6d5ae8442cc92be198e4ff3da908aa92f05 maple_tree: Change pivot meaning to delta
-e3cbb12ce6d2b093268724ae8fe06b7255c5973e maple_tree: Use 32 bit nodes for any node that spans 4G or below
-30f83436a384333c33dca61a8451a2a8e016df5b maple_tree: Optimise searching nodes
-dd2219bc12bdac4ba5a7a9ab044285aa3d7acb90 maple_tree: Test select node type by the span
-8788147024b660c80214e75af67d0f12ef504bb6 mm: index the VMA tree by page
+5210eadc44ccdd9632b1ee66205742610a486989 ntfs: Fix error handling in __ntfs_create()
+307eb24225c35d311fd63be862070af2711bab88 ntfs: reject negative attribute read positions
+1f3c5ba3c55c112a0b33c03caa9d5f88bb9e7759 ntfs: initialize VCN when inserting index entries
+4b927614d92d7326f265d22b50ba7b4a33966e48 ntfs: avoid overflow when limiting attribute read length
+cf24d5d154c73d1ac79d7b73f8b42cf85167c5b8 ntfs: keep the file size on a failed initialized-size extension
+564c7753647731d19170914c1c637d3b33d88d3b ntfs: fix a self-deadlock on writes to non-resident named streams
+16b8f07d1ed50d4a8da468b56484873784dd8f4a btrfs: fix chattr failing on nodatasum files that have the compress flag
+20c14ad8a9a0f70c2af8e44c6b80a6c942eb7fdd btrfs: unwind device add when sysfs registration fails
+7d69a15748fe37f2cb5720cb4842bfaf0e3642dc btrfs: always remove quota_root from dirty_cowonly_roots
+27f3c7c53e6d87ccb327dc439a604d14f8a04aef btrfs: cleanup qgroup swapped blocks at root release
+6ad5b356020db4d096af29a0b461e789a4fa9fcc btrfs: cleanup dirty_cowonly_roots during btrfs_free_fs_roots()
+b5af0db0ede2b3897a4313f2f5a4baa1476708c1 btrfs: defrag: prevent inode truncated to zero from not being defragged again
+4172be965c2ce887ebfb1117c634a68555be8c11 btrfs: sysfs: restore NOFS context on early return in btrfs_sysfs_add_block_group_type()
+45a686dff6b91c3667cd8188d3a02c69f62f4d00 btrfs: verity: propagate orphan insertion errors when enabling verity
+254e15591ee4590064e0c55285cdcb4f4519133c btrfs: fix the fsverity callback where unexpected range is verified
+980fbbd041ac2538fdbe7cfda4253dfc28fdcad1 btrfs: fix fiemap merging compressed extents
+387d5be169e6644a41dd5865e6a01c9489e996e2 btrfs: scrub: fix lost error return value when scrubbing raid56 parity stripe
+bda65e5115fe66ee0d8cf4ade11807f9fca4f0e1 btrfs: scrub: fix lost wakeup and hang when cancelling a scrub that is finishing
+e6dc2b2e22556d88bf4ce9e7821ddd40c061f635 btrfs: scrub: fix race leading to use-after-free in the scrub progress ioctl
+8b797abaaf0f9447f98c05a148b5b35c39b88f8a btrfs: scrub: fix race between scrub and scrub progress ioctl
+1960146913b31b288ed2cd607d103ee3b41681d4 btrfs: prevent deleting the wrong subvolume by ID
+8c66a6aa59a5df1d672d72b7cd379d897ff73200 btrfs: zoned: fix double free of bitmaps on clone failure
+1dd91081ba3c692565f9c1f884149178d5a06d1e ksmbd: require DELETE access for delete-on-close opens
+09139429fab3a5114c18d7c15fb161511d4d66c9 ksmbd: enforce the read-only share flag when creating a stream
+539223f18026448f67d33d09719c355b91db7fd0 ksmbd: revert fsids on durable reconnect and replay failure
+d13da43938d15b0b719827d8f2b32df8eaec5def ksmbd: fix NULL pointer dereference in session_user_name() and session_account_type()
+8296a64df5448548f410fb246c1d88a93609602b ksmbd: do not read past the DACL in the access denied debug message
+c00ec7ad449b68c291a4986e481941302ed399c5 ksmbd: grant a POSIX ACL group entry only to the group's members
+ffc855fe16afe02b22305111aa68cd8d07360941 ksmbd: let the owner read and change the DACL when no ACE names it
+99afbf38a5c571157526b7b1c6d8dd7ad1a234d5 ntfs: don't allow resident values to overlap the attribute header
+c77ab4eeeb3ed471bcc99a94673f0e0142c4b84a ntfs: don't allow compression on volumes with clusters larger than 4K
+e49296d51ccbf2ad0ed0484db1382f1d7217bd6e ksmbd: require NUL-terminated EA names
+12419f306c3ca34a38064d2b502966fa01650b49 Merge tag 'ntfs-for-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/ntfs
+7f75cd8ccd9588e969158c5dc92a8cc217663f5b Merge tag 'ksmbd-for-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/smb
+fa4ad798f6f681031775266044ba1b0cf3c670bd Merge tag 'for-7.4-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
---===============7125418424714179120==--
+--===============8785372119316044628==--
