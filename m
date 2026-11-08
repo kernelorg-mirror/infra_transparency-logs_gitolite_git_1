@@ -1,47 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============7530962067423616575=="
+Content-Type: multipart/mixed; boundary="===============4714426492695108562=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 08 Nov 2026 20:17:39 -0000
-Message-Id: <179416905983.3805248.8379527309185931958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 08 Nov 2026 20:18:32 -0000
+Message-Id: <179416911266.3805778.15871805297576589210@gitolite.kernel.org>
 
---===============7530962067423616575==
+--===============4714426492695108562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/testing
-    old: ee79148f1586fb0a6d6918995cfc84da6feb35da
-    new: b70566610b48ba49dec636019da4d696db64b085
-    log: revlist-ee79148f1586-b70566610b48.txt
+  - ref: refs/heads/master
+    old: 2651f6deb3326129a052897df193052dc28ea94f
+    new: 8a65162514fbad21a2c58ffed65f42b27e92b163
+    log: revlist-2651f6deb332-8a65162514fb.txt
 
---===============7530962067423616575==
+--===============4714426492695108562==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee79148f1586-b70566610b48.txt
+Content-Disposition: attachment; filename=revlist-2651f6deb332-8a65162514fb.txt
 
-f680319a442fa1238bf3ee6777d4a0ee2a36006a iio: imu: inv_icm42600: use iio_push_to_buffers_with_ts()
-8d44e7b84cf6596a85f63b396b49a7275b550687 iio: health: afe4403: use iio_push_to_buffers_with_ts()
-cde2d352179cc0ab7729594d09397fc329f92157 iio: health: afe4404: use iio_push_to_buffers_with_ts()
-c6efacaa5647d3942cfc696b5dac53edc9fb9761 iio: adc: ad799x: use iio_push_to_buffers_with_ts()
-7ea13e1f54245b4bda388727a2d87bcd2888a391 iio: common: scmi_sensors: use iio_push_to_buffers_with_ts()
-0e9cd9a1e7e538ebd46b01ceabb11b3e7659159e iio: adc: ad7766: use iio_push_to_buffers_with_ts()
-fde8698df46c3478c5902b128e4db2c2ac1e3fa7 iio: imu: smi240: use iio_push_to_buffers_with_ts()
-b964c9d7068c906989729b5cd774c077c47a450e iio: adc: cc10001_adc: use iio_push_to_buffers_with_ts()
-2593dacacaf36ff0192148913415f0aaed9457e7 iio: adc: hx711: use iio_push_to_buffers_with_ts()
-8d55997528b8ac3ac5d6021b37ff53c51cb4b7b5 iio: potentiostat: lmp91000: use iio_push_to_buffers_with_ts() with a scan struct on stack
-68f05321c6449dc3ff316a4a65a63d32a4d33824 iio: humidity: am2315: use iio_push_to_buffers_with_ts() with a scan struct on stack
-234e3d43c993b4573321e2ce50e277f6ada1744a iio: humidity: hdc100x: use iio_push_to_buffers_with_ts() with a scan struct on stack
-ccc61683b60de617e9f994f415ae6985d752c5b2 iio: imu: bmi323: use iio_push_to_buffers_with_ts()
-809c2926504f2641f83eb3c3abe398f7c1a764d9 iio: gyro: fxas21002c: restrict available_scan_masks to all angular velocity channels
-ada0a1ec22d07dfa7f174e7f5e9510d5646f327b iio: gyro: fxas21002c: use iio_push_to_buffers_with_ts() with explicit structure
-0e8713b084dec7d856eb7880bcded91f5b9a19db iio: adc: ad7887: ensure tx_cmd_buf is DMA safe
-b70566610b48ba49dec636019da4d696db64b085 iio: adc: ad7887: use iio_push_to_buffers_with_ts()
+14098e496671dd5ae83999f89c6a80a86872792c rust: io: fix unused Flags::from_raw warning without CONFIG_PCI
+ef179363b04306dbc645c53207b9ad3516ebc75f kernfs: avoid READ_ONCE() on a kgid_t in kernfs_new_node()
+d7c5cc8cc21c1264cce07feb4a51be158688280e ata: libata-sata: allow re-enabling NCQ with the same queue_depth
+597be4104c4045d73979c05307fa5fc778d1dbde ata: libata-eh: Retry non-NCQ commands when their sense data asks for it
+ec585ac78742527f80495dd8f451dcda7e9e7f59 ata: libata-core: Check device support before querying power state
+a42ae51fe3c36cef82dc687ea594ca232a785fd4 MAINTAINERS: update auxiliary bus entry
+4acd5f806bf5569bfa3a45ea6a525936197df10c firewire: ohci: avoid potential deadlock when queueing AT local requests
+6fde0444d07ec954f3d885375e0402ff2f2e5064 ata: libata-scsi: fix MODE SELECT handling of data after the mode page
+b29c40dc150b0b4218c4d6844770892eb6b2f6b5 ata: libata-scsi: do not accept subpage code FFh in MODE SELECT
+a1eb72c477ec1320c540f27ce1e2f717d4518e62 ata: libata-scsi: reject MODE SELECT mode pages with a wrong SPF bit
+2a4c61cf94d48ec8560473d4fd5383583ce8809c ata: libata-scsi: fix MODE SELECT field pointer for unsupported subpages
+a3e52dcf0fbaa1a103accef3e8861cdc250ee5d6 ata: libata-scsi: fix MODE SELECT field pointer for block descriptor length
+0fdb8eef88a886751e33600d446a66c529384f11 ata: libata-scsi: pass the whole mode page to the MODE SELECT handlers
+7c972e73641cbe5f77f63c336de15c7a30268d49 ata: libata-scsi: set the field pointer when rejecting CDL
+6b67cdb463b006e57f15e3fe4ea03b00f0ac9ee5 ata: libata-pmp: disable the SEMB port on Marvell 88SM9705
+a4845f077415ef32fe672c841e2fc58ae9e28273 ata: libata-scsi: reject data-in commands with a data-out buffer
+25fccf436e6e978954bb2774170d1094889c3fc7 Merge tag 'firewire-fixes-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
+e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+8a65162514fbad21a2c58ffed65f42b27e92b163 Merge tag 'driver-core-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 
---===============7530962067423616575==--
+--===============4714426492695108562==--
