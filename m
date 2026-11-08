@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3048650338569416520=="
+Content-Type: multipart/mixed; boundary="===============6913713820687883679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sun, 08 Nov 2026 11:16:06 -0000
-Message-Id: <179413656609.3410088.155643614613030267@gitolite.kernel.org>
+Date: Sun, 08 Nov 2026 11:16:20 -0000
+Message-Id: <179413658019.3410364.9329065482401343147@gitolite.kernel.org>
 
---===============3048650338569416520==
+--===============6913713820687883679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-7.5
-    old: 3d55fed1259fc52efae7969d297db8a2d91c7bde
-    new: f8fff272681bc9403d2f1bc6f8467ed4895c1b77
-    log: revlist-3d55fed1259f-f8fff272681b.txt
+  - ref: refs/heads/for-next
+    old: f9d8c58880a76a25119b373cb64071a0fff753ff
+    new: f6af8b42c4b7bb873622dbc3a1eb4a1c62002aba
+    log: revlist-f9d8c58880a7-f6af8b42c4b7.txt
 
---===============3048650338569416520==
+--===============6913713820687883679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d55fed1259f-f8fff272681b.txt
+Content-Disposition: attachment; filename=revlist-f9d8c58880a7-f6af8b42c4b7.txt
 
 0e9a49186621709b67e3a4b5343de17aa1601567 ASoC: soc-core: fixup snd_soc_dai_compress_new() return
 930c66f40da1fb97cc0fe8abb034ada8a5f2053f ASoC: soc-card: move snd_soc_add_card_controls()
@@ -45,5 +45,7 @@ a0dcde87ee0024a54c3af94dacd8190e4c660b62 ASoC: soc-card: move snd_soc_card_xxx()
 304f08895e44b8d8f97d553770c2a64d94d14c6f ASoC: sti: fix the player clock reference leak
 e7366e6b65f3c772c01facf5993de606265c3388 ASoC: rt5677: register the GPIO chip through devm
 f8fff272681bc9403d2f1bc6f8467ed4895c1b77 ASoC: SOF: amd: fix leaks when SoundWire probe fails
+f03d7491da5f0dbe94978d92d5bb05ac140b1365 Merge asoc-linus into asoc-next
+f6af8b42c4b7bb873622dbc3a1eb4a1c62002aba Merge asoc/for-7.5 into asoc-next
 
---===============3048650338569416520==--
+--===============6913713820687883679==--
