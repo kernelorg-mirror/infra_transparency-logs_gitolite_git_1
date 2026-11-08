@@ -1,23 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 08 Nov 2026 11:58:09 -0000
-Message-Id: <179413908978.3438609.4080783928120203406@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1030243773706594585=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Sun, 08 Nov 2026 11:59:42 -0000
+Message-Id: <179413918238.3439348.1216352970587395625@gitolite.kernel.org>
+
+--===============1030243773706594585==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: 2225ef4e51c4ddfaff1b2e227607ed04413bd0c6
-    new: dc20f3ab498dd70d25f6160bfa41a190322a0318
+  - ref: refs/heads/vfs.fixes
+    old: add39877a72564523c8eb8b18201fbb0f3ea286f
+    new: 8eaa35c6c29ae669949f4b5b0814c3d34c8ed658
     log: |
-         4267121a564eb6a492150b9e19be3e91b042c578 ASoC: sunxi: sun50i-dmic: select REGMAP_MMIO
-         c29a99ab4b11c7858cef35c1aad1464a6e3d15b7 ASoC: fsl_aud2htx: select missing dependencies
-         b5c35242c515b633b22d2af2e74165c7960c560c ASoC: fsl: lpc3xxx-i2s: select REGMAP_MMIO
-         99c9016f6bbd5c4811faa354876dcf79c28691e4 ASoC: fsl_xcvr: select BITREVERSE
-         dc20f3ab498dd70d25f6160bfa41a190322a0318 ASoC: fsl: fix missing GENERIC_BITREVERSE and REGMAP_MMIO dependencies
+         daac2c45354df894aab749efc11a92ca9efd68f1 fs: porting.rst: use literal string to avoid warning
+         ac4b449b39e605123c12ea10042cafc9b6f39603 aio: don't let exit_aio() return before complete() is done
+         8eaa35c6c29ae669949f4b5b0814c3d34c8ed658 splice, net: avoid MSG_MORE when the bvec array fills
          
+
+--===============1030243773706594585==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 0x91C61BC06578DCA2! 1794139180 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+nonce 1794139180-c28aac20b1e180d12cf80a6812afc01ac1ea6c42
+
+add39877a72564523c8eb8b18201fbb0f3ea286f 8eaa35c6c29ae669949f4b5b0814c3d34c8ed658 refs/heads/vfs.fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCavBkLAAKCRCRxhvAZXjc
+ovX1AP9zOmmdiTE/LBj7DsBCvPrfgjxOZHK8ePOlxOkxsKbovwD9HngPYmCVrq+B
+b9k7JorsrMz6ZhqUz6lS2RMahzLOBgs=
+=zeXG
+-----END PGP SIGNATURE-----
+
+--===============1030243773706594585==--
