@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Sun, 08 Nov 2026 08:57:01 -0000
-Message-Id: <179412822117.3310166.6098166399561384246@gitolite.kernel.org>
+Date: Sun, 08 Nov 2026 08:57:32 -0000
+Message-Id: <179412825224.3310566.5102360824116520176@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rppt/linux
 user: rppt
 changes:
-  - ref: refs/heads/gfp-to-kmalloc/s390-sclp
+  - ref: refs/heads/gfp-to-kmalloc/s390-char
     old: 0000000000000000000000000000000000000000
-    new: fdc0556fc4c366ee2e0039ce928a4b3dfd256cd5
+    new: 4303f8a5c7ef723fe31124340cb0f66c40e1acb0
