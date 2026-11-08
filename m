@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Sun, 08 Nov 2026 15:12:15 -0000
-Message-Id: <179415073577.3578162.2875389328282339645@gitolite.kernel.org>
+Date: Sun, 08 Nov 2026 15:16:57 -0000
+Message-Id: <179415101765.3581850.13125660005723540884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,75 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linusw/linux-integrator
 user: linusw
 changes:
-  - ref: refs/tags/sent/20260918-mali-c55-irq-supend-resume-30b507a20011-v1
+  - ref: refs/heads/pr-soc-v7.5-teo-arm64
     old: 0000000000000000000000000000000000000000
-    new: 1de7ce86300b914dfdb5fc1a6265bc175ef5baba
-  - ref: refs/tags/sent/20260918-mali-c55-irq-supend-resume-30b507a20011-v2
-    old: 0000000000000000000000000000000000000000
-    new: 155006ab5cb5f5ebaeb95266147c012ad4be1497
-  - ref: refs/tags/sent/20260919-gemini-ethernet-fixes-3-f0403653f23a-v2
-    old: 0000000000000000000000000000000000000000
-    new: 0891ff51deb6907e66b88689ac313e4ca01a53cb
-  - ref: refs/tags/sent/20260919-gemini-ethernet-fixes-3-f0403653f23a-v3
-    old: 0000000000000000000000000000000000000000
-    new: 9d4e3ede944ce8c96e74c66ea1e71e4b603b7196
-  - ref: refs/tags/sent/20260919-gemini-ethernet-fixes-3-f0403653f23a-v4
-    old: 0000000000000000000000000000000000000000
-    new: 2651dc15cbc71e39f269c64b49fd1ab46e1baac5
-  - ref: refs/tags/sent/20260919-gemini-ethernet-fixes-3-f0403653f23a-v5
-    old: 0000000000000000000000000000000000000000
-    new: 4b1eedfbd670353d739721893fbd1ff23f0c0c4a
-  - ref: refs/tags/sent/20260919-gemini-ethernet-fixes-3-f0403653f23a-v6
-    old: 0000000000000000000000000000000000000000
-    new: 40125dce7aa487b4f36655947ce6b372a983dd8f
-  - ref: refs/tags/sent/20260922-mali-c55-renesas-dts-74d4727f59e5-v3
-    old: 0000000000000000000000000000000000000000
-    new: 33255b02bbfe56de76ed0b9b6d1d02a30e5499c4
-  - ref: refs/tags/sent/20260922-mali-c55-renesas-dts-74d4727f59e5-v4
-    old: 0000000000000000000000000000000000000000
-    new: 94fdccc1afe5b7b4a1cd1b7cb4ecd57469758342
-  - ref: refs/tags/sent/20260922-mali-c55-renesas-dts-74d4727f59e5-v5
-    old: 0000000000000000000000000000000000000000
-    new: 1347f5edfbddc392b33eb018a57b59188d46c09b
-  - ref: refs/tags/sent/20260922-mali-c55-renesas-dts-74d4727f59e5-v6
-    old: 0000000000000000000000000000000000000000
-    new: a72c8162851eced682114dcf858eb47244d8bcba
-  - ref: refs/tags/sent/20261011-genexis-xg6846-smp-v7-3-rc1-b470f0e20475-v1
-    old: 0000000000000000000000000000000000000000
-    new: ab4c1015e325c6e517d21b612568e11cc3fe1e1b
-  - ref: refs/tags/sent/20261011-genexis-xg6846-smp-v7-3-rc1-b470f0e20475-v2
-    old: 0000000000000000000000000000000000000000
-    new: c3f78ce297788ce244c81b9f9037bd04377da0f7
-  - ref: refs/tags/sent/20261011-genexis-xg6846-smp-v7-3-rc1-b470f0e20475-v3
-    old: 0000000000000000000000000000000000000000
-    new: 23100e53632807c57840f39a4b86a82387b8fbbd
-  - ref: refs/tags/sent/20261011-genexis-xg6846-smp-v7-3-rc1-b470f0e20475-v4
-    old: 0000000000000000000000000000000000000000
-    new: a025b8d28570757fed579f8ba07f9f48cb6e0e26
-  - ref: refs/tags/sent/20261013-xg6846b-bcmbca-xrdp-reset-de71b80c25a4-v1
-    old: 0000000000000000000000000000000000000000
-    new: db06f9925060de04cfc1c2aea391de0ef3c36b12
-  - ref: refs/tags/sent/20261013-xg6846b-bcmbca-xrdp-reset-de71b80c25a4-v2
-    old: 0000000000000000000000000000000000000000
-    new: b3c77053d1ccd094a7c3122dae7e5a2fe8ad0cc3
-  - ref: refs/tags/sent/20261013-xg6846b-bcmbca-xrdp-reset-de71b80c25a4-v3
-    old: 0000000000000000000000000000000000000000
-    new: 0c2ecceb0c72c1c92a326db5824e8fa178962297
-  - ref: refs/tags/sent/20261014-genexis-xg6846-watchdog-reset-d44c695a77e0-v1
-    old: 0000000000000000000000000000000000000000
-    new: 3814f221b57a170f70c8eb934a9e0460c704ceaf
-  - ref: refs/tags/sent/20261103-alpha-compile-efdde587115c-v1
-    old: 0000000000000000000000000000000000000000
-    new: cd84e105b426d99b03041f5ca902cd3cced5bd43
-  - ref: refs/tags/sent/20261104-multi-timers-cpufreq-cpuidle-5da23033d9bf-v1
-    old: 0000000000000000000000000000000000000000
-    new: 69f53297eeb5558d571117b558461fb43ce54102
-  - ref: refs/tags/sent/20261104-multi-timers-cpufreq-cpuidle-5da23033d9bf-v2
-    old: 0000000000000000000000000000000000000000
-    new: d22b28d51ed5439561817b901817a159ce1cb476
-  - ref: refs/tags/sent/20261106-b4-arm64-teo-defconfig-b1616afa4d29-v1
-    old: 0000000000000000000000000000000000000000
-    new: 011795140f0a26e17a3bd0b89449d256b60bb48d
-  - ref: refs/tags/soc-v7.5-teo-arm-cpuidle
-    old: 0000000000000000000000000000000000000000
-    new: 9d045f7a3a0b0facc734957efa782f16190851fd
+    new: 52e0398e1d0f456f0df93d217e54a6aee8ba730f
