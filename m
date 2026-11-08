@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 08 Nov 2026 12:36:11 -0000
-Message-Id: <179414137149.3466853.1405075424879218389@gitolite.kernel.org>
+Date: Sun, 08 Nov 2026 12:36:17 -0000
+Message-Id: <179414137709.3467053.5978481708196007968@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regulator-7.5
-    old: ef4725e6bd858b13b39c4bc99ea11ad1fd9f3937
-    new: 1d8212cdfbbe9bb0c1837191917d86d98f77267e
+  - ref: refs/heads/spi-7.5
+    old: b7226cdf33d3ead03224b82c667c501c95f039f9
+    new: 12acfe305495e47a760f31f15ca251a22665b01c
     log: |
-         1d8212cdfbbe9bb0c1837191917d86d98f77267e regulator: disable disable_work for good in regulator_unregister()
+         12acfe305495e47a760f31f15ca251a22665b01c spi: replace chan->device->dev with dmaengine_get_provider_device()
          
