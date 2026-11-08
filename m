@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5464346886541364189=="
+Content-Type: multipart/mixed; boundary="===============5574653097311023495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Sun, 08 Nov 2026 03:42:19 -0000
-Message-Id: <179410933988.3092466.17452842143034089146@gitolite.kernel.org>
+Date: Sun, 08 Nov 2026 03:45:51 -0000
+Message-Id: <179410955138.3095709.8166154246911688554@gitolite.kernel.org>
 
---===============5464346886541364189==
+--===============5574653097311023495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 6b4b543fa18757297ac756a6fe6e64f506b7844a
-    new: fa4ad798f6f681031775266044ba1b0cf3c670bd
-    log: revlist-6b4b543fa187-fa4ad798f6f6.txt
+  - ref: refs/heads/ntfs-next
+    old: 2b4bb6d6d8fe8315a655cb63f186013bfb45dd21
+    new: 0300714b06d4e76eace7a4fd5cd54dcf102b226b
+    log: revlist-2b4bb6d6d8fe-0300714b06d4.txt
 
---===============5464346886541364189==
+--===============5574653097311023495==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6b4b543fa187-fa4ad798f6f6.txt
+Content-Disposition: attachment; filename=revlist-2b4bb6d6d8fe-0300714b06d4.txt
 
-e34d2ef818e4c7676d8d8e1bf43e6a1ed39efb2a ovl: check that the parents of volatile/dirty are dirs
-65bf000962a33ec9d2488e4e1797b6cf630abcbb ovl: take a snapshot of the name for copy up
-15c6bd5cf109471baca7fbe46e8f574569257a28 vfs: add try_take_dentry_name_snapshot()
-0f4a9e682f7fa5becc3af7204606d9bf4780e425 xattr: always invoke cap_convert_nscap() for security.capability writes
 0b691c3c59a58aa6a2fc3f87c10cc1e399f1d33f ovl: do not take a name snapshot in RCU walk
 4f61ff2ebfb3d2967b83b6a4d456242244d5a61f ovl: use the pinned upper dir in ovl_fix_origin()
 16d319e12328acafeafd3eecdf09c46d7fb43452 ovl: hold a reference on the parent in readdir
@@ -451,8 +447,6 @@ bde0010631a207511308dc8407f34595dac13ad5 xfs: mark i_mode=0 and shut down on att
 1e253beed5340fdf1aa43cc684e085a6d468f5f7 xfs: skip iunlock with empty iolock flags in xfs_file_dio_write_aligned
 00fe6be187ffde738fdb71ea7deb671fc939e583 drm/panel: visionox-r66451: Send the brightness value MSB first
 b4b2778d5e175b166e4a27e5df5d61da468ad004 drm/panel: visionox-r66451: Wait longer after the panel reset
-99afbf38a5c571157526b7b1c6d8dd7ad1a234d5 ntfs: don't allow resident values to overlap the attribute header
-c77ab4eeeb3ed471bcc99a94673f0e0142c4b84a ntfs: don't allow compression on volumes with clusters larger than 4K
 21d4917cfc8b6837c44d8aa186941a6a16ec17a0 sfc: ptp: drop the stale frequency reset in efx_ptp_start()
 f707347b33feebdd67633bccea52f96807c18d6e sfc: ptp: serialize host and MC synchronization transactions
 23d23e6c6517d0fea4f64340a23e33c89f82c03c sfc: ptp: avoid racing PPS timestamp updates
@@ -1050,5 +1044,11 @@ a41e364995bbcfa627418a70fe913c35b7510728 Merge tag 'scsi-fixes' of git://git.ker
 12419f306c3ca34a38064d2b502966fa01650b49 Merge tag 'ntfs-for-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/ntfs
 7f75cd8ccd9588e969158c5dc92a8cc217663f5b Merge tag 'ksmbd-for-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/smb
 fa4ad798f6f681031775266044ba1b0cf3c670bd Merge tag 'for-7.4-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+84f4cc8d41744f103d6fa7e87739b2be5a2d27b0 ntfs: fix out-of-bounds write race in NTFS_IOC_LIST_STREAMS
+5e7143476219eac7cab7bdd341db68dab1649737 ntfs: check the file name against the key length of an index entry
+ce5cdda498a9479b32ba1c7d68b1d97f3c840354 ntfs: silence kmalloc/kvfree mismatch warning
+0ea30dd6eeabc09235d5c2cdb98ca4e0d593963f ntfs: do not read an index block outside $INDEX_ALLOCATION
+bada7bbb11aaa6feba8904cf38ff833453f5b5d9 ntfs: open the index allocation before reading or writing an index block
+0300714b06d4e76eace7a4fd5cd54dcf102b226b ntfs: do not convert a named $DATA stream when making room in a record
 
---===============5464346886541364189==--
+--===============5574653097311023495==--
