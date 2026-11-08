@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4878827009633847601=="
+Content-Type: multipart/mixed; boundary="===============3459812458425648858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 08 Nov 2026 08:51:25 -0000
-Message-Id: <179412788524.3306083.1017507457110391717@gitolite.kernel.org>
+Date: Sun, 08 Nov 2026 08:51:45 -0000
+Message-Id: <179412790556.3306424.6680634386216364157@gitolite.kernel.org>
 
---===============4878827009633847601==
+--===============3459812458425648858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,28 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 7c1c3b952500981f8596efe4bbd2a1125d6adb67
-    new: eeba733e9b322641ee32772f3712dd9e6d4799d5
-    log: revlist-7c1c3b952500-eeba733e9b32.txt
+    old: eeba733e9b322641ee32772f3712dd9e6d4799d5
+    new: b6b0151a9f96bce4e1e13bff7f2b88214e9f2c62
+    log: |
+         26c1ea9badd78d093dae8494d08c7e787602ae8f Merge branch into tip/master: 'locking/urgent'
+         4c6ccba28c534e78a1197fdc1eeab804bc9a7a67 Merge branch into tip/master: 'perf/urgent'
+         4bd664fa4db1cbd7b0bc0efedda274fe4560e725 Merge branch into tip/master: 'sched/urgent'
+         628e44aa150b5febe682cada1c37374ccdfcb9bb Merge branch into tip/master: 'x86/urgent'
+         d6f6e52ce16e1a863ee2c046edeb342e880a868e Merge branch into tip/master: 'locking/core'
+         8ab47a68eee66be8ddf45b71804a743d89675a65 Merge branch into tip/master: 'x86/apic'
+         4f84be921f050a774c03ab67cb4770e09d12c2e2 Merge branch into tip/master: 'x86/cleanups'
+         b6b0151a9f96bce4e1e13bff7f2b88214e9f2c62 Merge branch into tip/master: 'x86/misc'
+         
+  - ref: refs/heads/tip/urgent
+    old: 2715c9af094d7cf36a2bcc6a0aed70d710307224
+    new: 628e44aa150b5febe682cada1c37374ccdfcb9bb
+    log: revlist-2715c9af094d-628e44aa150b.txt
 
---===============4878827009633847601==
+--===============3459812458425648858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c1c3b952500-eeba733e9b32.txt
+Content-Disposition: attachment; filename=revlist-2715c9af094d-628e44aa150b.txt
 
 324fac81f365fc123247f9c8a52cb66ebd93b5e5 MAINTAINERS: Update habanalabs maintainer contacts and status
 b537d87d2632c9a72afa08755b2de89a5b3ab70f drm/panic: Fix the loop that causes kmsg to not display correctly
@@ -269,7 +282,9 @@ a41e364995bbcfa627418a70fe913c35b7510728 Merge tag 'scsi-fixes' of git://git.ker
 12419f306c3ca34a38064d2b502966fa01650b49 Merge tag 'ntfs-for-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/ntfs
 7f75cd8ccd9588e969158c5dc92a8cc217663f5b Merge tag 'ksmbd-for-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/smb
 fa4ad798f6f681031775266044ba1b0cf3c670bd Merge tag 'for-7.4-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-aba755c0d94403b1152e52827cc20f685e1d5e91 Merge branch into tip/master: 'x86/urgent'
-eeba733e9b322641ee32772f3712dd9e6d4799d5 Merge branch 'linus'
+26c1ea9badd78d093dae8494d08c7e787602ae8f Merge branch into tip/master: 'locking/urgent'
+4c6ccba28c534e78a1197fdc1eeab804bc9a7a67 Merge branch into tip/master: 'perf/urgent'
+4bd664fa4db1cbd7b0bc0efedda274fe4560e725 Merge branch into tip/master: 'sched/urgent'
+628e44aa150b5febe682cada1c37374ccdfcb9bb Merge branch into tip/master: 'x86/urgent'
 
---===============4878827009633847601==--
+--===============3459812458425648858==--
