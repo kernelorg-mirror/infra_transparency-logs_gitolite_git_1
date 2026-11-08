@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2945674055038320643=="
+Content-Type: multipart/mixed; boundary="===============8967849666544874507=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 08 Nov 2026 23:28:20 -0000
-Message-Id: <179418050078.3942333.2896301045483678480@gitolite.kernel.org>
+Date: Sun, 08 Nov 2026 23:28:26 -0000
+Message-Id: <179418050627.3942499.15492718425299700057@gitolite.kernel.org>
 
---===============2945674055038320643==
+--===============8967849666544874507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,34 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 7f6905fa14bba74a2cb8687386f1366ba1cf0a27
-    new: 2c5dafa7f289d760f4492260b0988029aab478b0
-    log: revlist-7f6905fa14bb-2c5dafa7f289.txt
+  - ref: refs/heads/mm-unstable
+    old: a138ea1fbf2f3f710bf3b0bc219300b3cf94971d
+    new: 58243c0a1bf3a59ddef3807cf5f15582767448c3
+    log: revlist-a138ea1fbf2f-58243c0a1bf3.txt
 
---===============2945674055038320643==
+--===============8967849666544874507==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7f6905fa14bb-2c5dafa7f289.txt
+Content-Disposition: attachment; filename=revlist-a138ea1fbf2f-58243c0a1bf3.txt
 
+cb104d395da48d965665fefe8502f71b6e7e3733 drm/drm_crtc: fix race with dma_fence_signal() in ::get_driver_name()
+d57e3a7d880d783c64aa29457d78b0e3c5a40e3c dma-buf: Fix IOVA offset when linking phys vecs to sgt
+35c5a5ea4418571997a7e7af3e7e8922b136f6e6 wifi: mac80211: reload TDLS header pointer after skb_linearize()
+7ed5dce55fa8393972b1bf2bf5af1c818c5e7dc2 wifi: brcmfmac: map msgbuf RX packet IDs bidirectional
+48c0045366bec142d053f7cf76fb9dd7127cd231 wifi: wext: Limit notifier event flushes to the device's netns
+71f756a4c064b0312f46617c20893ecc17c332e4 wifi: rsi: Skip TX aggregation setup for non-QoS frames
+9d8ec0b5b5295bd23d979d1b2b905de25c36fff2 wifi: cfg80211: fix out-of-bounds read in valid_rule()
+9ee552a42c3905b4547e83173d46413137ec329a drm/vc4: Publish the output fence outside of job_lock
+8ef66514d7b993c9fb96a5886f001e3556610c1c drm/vc4: Drop the BO reservations outside of job_lock
+dd2a4edb26e1c78823c50ba10c42f2d3de2e5ec4 lib/crypto: mips: Disable Octeon SHA code on little-endian kernels
+25e73f1d6868c759c8eb56cad4e411692c5341b4 wifi: mac80211: reinstate IEEE80211_TX_CTL_AMPDU flag in ieee80211_tx_prep_agg()
+49f771d14578733a350c45e34e1bc6ad14f56952 udf: validate vat20->lengthHeader and VAT inode size in udf_load_vat()
+e21a6f39aa6d0336ffbf5f34e5fa20ff8de36773 quota: initialize dquot cache before mounting rootfs
+0415c2624f8be6eac60de2b298de195dd18802d8 udf: Validate extended attribute space is large enough
+afb28ca1f1ebe5279ffedd2fb24b92b8ee968351 ext2: Make sbi an proper alias for EXT2_SB(sb) in ext2_fill_super()
+5406ffab820ebad6637cca8737192449dcd680d5 ext2: take invalidate_lock in ext2_write_failed()
+1dcf2be94b9be2d366a0d2b70c2b1c7ebccf1443 fsnotify: preserve 64-bit pre-content ranges
 5def91015ba7b59de62a81384572da7281b8a033 xfrm4: use a full socket for local errors
 5210eadc44ccdd9632b1ee66205742610a486989 ntfs: Fix error handling in __ntfs_create()
 2b2dc9dd356aed030e7ac11469d12f736793bc89 printk_ringbuffer: Fix space_used() when blk_lpos->next overflows
@@ -1033,22 +1050,5 @@ b6fc9504ccf261128633db8666cab4eb129ff078 security: convert VMA flag tests to use
 747a16bd428822d0b1ccce0c7bb848c773305f47 mm/zswap: validate dlen and normalize comp_ret on compression success
 407f8ecf28ed33870a3695eab162984c88a61259 mm: nommu: set MMF_OOM_SKIP in exit_mmap()
 58243c0a1bf3a59ddef3807cf5f15582767448c3 fs/proc/task_mmu: fix lost maps entries above 2^63
-f84c7aa63af27bf8adb9bc75afada75735f98500 mm/mremap: fix hugetlb reservation leak on partial move
-a4bfaaa009d247a43eeab34e51aa3a2102e6fa21 selftests/mm: test a partial mremap() of hugetlb memory
-ddb3299e8bf9c50a25559dd1cae82600d94bb737 mm/mremap: reaccount on unmap failure only if accounted
-198ccd59ce30b75e86d076ac5e7a68a017967ab6 mm/mremap: restore VMA_ACCOUNT_BIT if the unmap fails
-e813fdacfb5a69a96651e6cb3859725c7079b54d selftests/mm: test mremap() with an old size of 0
-2a8ea8e10385237d398574cf8064bfad1d68df1d mm/damon/core: add DAMOS_FILTER_TYPE_AGE_MS
-b7cd657b8daee6454ee2b7a5a51a4f6b643f940f mm/damon/sysfs-schemes: support DAMOS_FILTER_TYPE_AGE_MS
-1c57221685f0f2f656d84398d251d6624c5595ae Docs/mm/damon/design: update for age_ms damos core filter type
-3b1e93bebfcca6197ed8f2457f8e17ef28414e09 Docs/admin-guide/mm/damon/usage: update for age_ms damos core filter
-4396b2e4aaceeedcde3cc71f32782fad60fe5599 mm/hugetlb_cgroup: prevent use-after-free during cgroup offlining
-460c1910b6b06bd7e55494671e6d6975487a45f3 selftests/mm: pkeys: wait for the child in become_child()
-00367706f2026e2d57deb4b4ec10fc103a732db4 powerpc/mm: make vmemmap_populate_compound_pages() static
-10a338c6da1be06fbbb273067b45616f138dd3ab powerpc/mm: drop powerpc vmemmap_can_optimize()
-fbeb11a1b537a244ff40f2cfd7e9378ba1ee0a75 loongarch/mm: disable device DAX vmemmap optimization
-54104f447f8f8054f78a97be886d061ce7e50f1b mm/sparse-vmemmap: drop vmemmap_can_optimize()
-d4b40857ff4ae9bd12862661b3da5353eea4ec51 mm/sparse-vmemmap: drop @pgmap from vmemmap population APIs
-2c5dafa7f289d760f4492260b0988029aab478b0 riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============2945674055038320643==--
+--===============8967849666544874507==--
