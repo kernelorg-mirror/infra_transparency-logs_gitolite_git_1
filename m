@@ -1,21 +1,36 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Sun, 08 Nov 2026 14:02:22 -0000
-Message-Id: <179414654246.3527260.13142689215738301629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Sun, 08 Nov 2026 14:26:38 -0000
+Message-Id: <179414799836.3546179.1232866697036279257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/for-next
-    old: 9ac12ace1e241e25198369650c2a2a36ccff2c52
-    new: 429c9a10b3811ca2581f88c05a58bb1fd23229a7
+  - ref: refs/heads/devel
+    old: 46f0c9f7bbb9d9ee229b7d3cd86a99c75c1715e2
+    new: 4bc88b10a232db13219667e69616f6d2250d5e5f
     log: |
-         12acfe305495e47a760f31f15ca251a22665b01c spi: replace chan->device->dev with dmaengine_get_provider_device()
-         a4d1584a1bce8726511db9ffcc04ccde68742d5b Merge spi-linus into spi-next
-         429c9a10b3811ca2581f88c05a58bb1fd23229a7 Merge spi/for-7.5 into spi-next
+         92f95b6e4815026a9957c37c4021876696b4152b pinctrl: realtek: Initialise omitted offset fields to NA in config macros
+         a3b0dee21ba6bd88fdc5b928d2a3aefe64fdea05 pinctrl: realtek: Prevent out-of-bounds access in rtd_pinctrl_find_config()
+         71a54ad8f05772c7413c8a0783f1da49ef4b4d89 pinctrl: realtek: Fix bit shift when configuring RTD_HIGH_VIL
+         61d9fb8d416880f4f319b0d6123d6f127bd2a52b pinctrl: qcom: Check qcom_scm_io_readl() return value in msm_gpio_irq_set_type()
+         6b6b4a2245281117f2f75fd088da0b758191baf4 MAINTAINERS: Add a review entry for pinctrl-amd for me
+         4bc88b10a232db13219667e69616f6d2250d5e5f pinctrl: amd: Drop CONFIG_ACPI ifdef
+         
+  - ref: refs/heads/for-next
+    old: abe2b8130875e502acb039e8d539d3636e0b9abb
+    new: 453bf5a645b329c06e3cf137e83606ecefe14501
+    log: |
+         92f95b6e4815026a9957c37c4021876696b4152b pinctrl: realtek: Initialise omitted offset fields to NA in config macros
+         a3b0dee21ba6bd88fdc5b928d2a3aefe64fdea05 pinctrl: realtek: Prevent out-of-bounds access in rtd_pinctrl_find_config()
+         71a54ad8f05772c7413c8a0783f1da49ef4b4d89 pinctrl: realtek: Fix bit shift when configuring RTD_HIGH_VIL
+         61d9fb8d416880f4f319b0d6123d6f127bd2a52b pinctrl: qcom: Check qcom_scm_io_readl() return value in msm_gpio_irq_set_type()
+         6b6b4a2245281117f2f75fd088da0b758191baf4 MAINTAINERS: Add a review entry for pinctrl-amd for me
+         4bc88b10a232db13219667e69616f6d2250d5e5f pinctrl: amd: Drop CONFIG_ACPI ifdef
+         453bf5a645b329c06e3cf137e83606ecefe14501 Merge branch 'devel' into for-next
          
