@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 08 Nov 2026 14:39:47 -0000
-Message-Id: <179414878752.3554619.9894388171684315931@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Sun, 08 Nov 2026 15:11:50 -0000
+Message-Id: <179415071031.3577824.15068515183854571378@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/hwmon-next
-    old: f4e680ffc2e50867c5b590e26a37f8801a31e486
-    new: d4193d2a0ffa407478bce4a094e1ae085ceb38ec
+  - ref: refs/heads/pr-soc-v7.5-teo-arm-multi
+    old: 8827f4de3305e1c18a0333be833bb72d144750b9
+    new: c351cb712444b5a31158570271d953546f6f5e3b
     log: |
-         2f892f0326cc874027b611dae72d728a0bc9f2cc hwmon: (msi_mystic_light) Rearrange code to simplify adding per-board read functions
-         4db1bb54ff3f9b06edbaf1f1115a6f85b93caff1 hwmon: (msi_mystic_light) Stop calling hid_hw_power()
-         f2ca41fae8609c7386eb7dd08b34457dc2dc1845 hwmon: (msi_mystic_light) Make sensor read function board specific
-         d4193d2a0ffa407478bce4a094e1ae085ceb38ec hwmon: (msi_mystic_light) Add support for additional boards
+         c351cb712444b5a31158570271d953546f6f5e3b ARM: configs: multi_v5/7: Enable the TEO cpuidle governor
          
