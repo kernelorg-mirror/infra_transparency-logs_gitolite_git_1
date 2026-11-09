@@ -1,40 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============6851531634497211718=="
+Content-Type: multipart/mixed; boundary="===============4078397705738145147=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 09 Nov 2026 11:19:40 -0000
-Message-Id: <179422318023.324278.255460875211130881@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
+Date: Mon, 09 Nov 2026 11:20:34 -0000
+Message-Id: <179422323480.326991.5314117765067155052@gitolite.kernel.org>
 
---===============6851531634497211718==
+--===============4078397705738145147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/coresight/linux
+user: suzukikp
 changes:
-  - ref: refs/heads/for-linux-next
-    old: e4ca68fabc4d79f53d9b369b2cf51f4d47ee3253
-    new: a7abc5fdaae80887e7eb0c9af5bb0a9310e60c3c
-    log: revlist-e4ca68fabc4d-a7abc5fdaae8.txt
+  - ref: refs/heads/next
+    old: 02ab6256e4f5fa1f388b9ae4dacbac95c7dd0de5
+    new: 76101ded953627566b4c1fd274f3197d6678229b
+    log: revlist-02ab6256e4f5-76101ded9536.txt
 
---===============6851531634497211718==
+--===============4078397705738145147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4ca68fabc4d-a7abc5fdaae8.txt
+Content-Disposition: attachment; filename=revlist-02ab6256e4f5-76101ded9536.txt
 
-cf8e899d84ab2f7deb199006658b6f1b15d2dd92 dt-bindings: arm: vexpress-sysreg: Add "mcc" child node
-f23b85b795a10a27f51cc3d8a616c1f28c9b95aa ARM: dts: arm/vexpress: Move "arm,vexpress,config-bus" node into sysreg node
-f0d311aa312fe21ceeab19ceb0d1819a5d79ddeb ARM: dts: arm/vexpress-v2m: Move regulator and led nodes out of bus
-e7c38fdf57c42088e6e3a994b73f0cdd72289bb7 ARM: dts: arm: Use standard node names
-d2875dd198cb61b0652b2b7bef4d18a2ebe7d51a ARM: dts: arm: Add missing "#dma-cells"
-0c135a68ff05d0d32e3bb2ed37c8597882b9113a ARM: dts: arm/vexpress: Fix Cortex-A15 GIC compatibles
-ce28870a8e600baf04d045a394e637f5e246ada3 ARM: dts: arm-realview-eb-mp: Move "pmu" node to top-level
-49c49ca0c4d02848a9576f72c4741c38c5ba09de firmware: arm: Group interface drivers under arm/
-adc2473508746373977ff56d141b41a4c3c5640f Merge branch 'for-next/vexpress/updates', tag 'arm-fw-fixes-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux
-a7abc5fdaae80887e7eb0c9af5bb0a9310e60c3c Merge branch 'for-next/arm_fw/updates' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux
+4f5f1e5ae1204931b1dcd69d1bb8c4a54c904eae coresight: tpda: fix race between refcnt check and register access
+533e91f192eb55b771e9ed8829bc09f4f4ffcc13 coresight: funnel: inport schedule by priority can not take work
+c2d0f71617f45f627a4db40492ee72508066c44e coresight: Fix clock refcount imbalance on platform remove
+69285a3b57db9f6ac727b6e24d7767605c841929 coresight: tnoc: Fix clock refcount imbalance on platform remove
+bfe43f1d7905a9b482abb3a47d9f438eec089d87 coresight: tnoc: fix trace ID path assignment failure on non-AMBA tnoc
+13416c2c8e1d01aafcd1178b4b938cc51d72beb5 coresight: etm-perf: Serialize AUX topology access
+c78d454cb988df95bd5d26bd7295f5984ab752fb coresight: etm4x: Remove perf symlink if config registration fails
+e2313b68a1342af376a0f6b2cc1c57db0a7ae95c coresight: etm4x: Fix truncation of nr_ext_inp
+5a5e93191b00d34228d9b3339cb088adf3d3f070 coresight: etm-perf: Fix sink device reference leak in etm_setup_aux()
+2afdd2ba15e36d50badfe404f3ba1a231ec4893c coresight: syscfg: Take csdev lock when removing owned features
+83332c58900bcd92356de21e6c7f767651e03bbc coresight: syscfg: Fix deadlock in cscfg_create_device() error path
+5fa6b2bcedd6a7999cd1688b7f617c1092bad587 coresight: Fix resource leaks on coresight_build_path() errors
+1d2d404d4e390e4cf70b2ccd432faa7a284e056d coresight: etm3x: Don't ignore etm_parse_event_config() errors
+76101ded953627566b4c1fd274f3197d6678229b coresight: etm3x: Prohibit modifying seq_curr_state while session is enabled
 
---===============6851531634497211718==--
+--===============4078397705738145147==--
