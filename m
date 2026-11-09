@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 09 Nov 2026 15:53:21 -0000
-Message-Id: <179423960147.544343.16514478635583757437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 09 Nov 2026 15:53:30 -0000
+Message-Id: <179423961047.544698.13484780881290326813@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 79dd48bea667efd982a4e5f257966483a48ce7ae
-    new: 1db0bc3a3e3183ddbe6d84c22762c7d85894f82c
+  - ref: refs/heads/bleeding-edge
+    old: 794004feacac874bb8d789cc9ad49d4d4f4ece7f
+    new: 34f5577212ed6c24b87751f693e05304f1b83585
     log: |
-         1db0bc3a3e3183ddbe6d84c22762c7d85894f82c Fixes for all trees
+         4fad962a6080266170714f77a9dc1b97fb09980f ACPI: s2idle: Handle shared _Ixx GPEs without an EC
+         34f5577212ed6c24b87751f693e05304f1b83585 Merge branch 'acpi-pm' into bleeding-edge
          
