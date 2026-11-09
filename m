@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6546378718399261737=="
+Content-Type: multipart/mixed; boundary="===============4720026308387998510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 09 Nov 2026 11:07:48 -0000
-Message-Id: <179422246849.314462.14042907087875270720@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 11:08:19 -0000
+Message-Id: <179422249936.314754.3282761090475307075@gitolite.kernel.org>
 
---===============6546378718399261737==
+--===============4720026308387998510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,37 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-fixes
-    old: 086aeca907789bd2604f16f07bfc073b19015015
+  - ref: refs/heads/review-ilpo-next
+    old: c339f4010dea8b0d754f84ace70cd1b089878ef8
     new: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
-    log: revlist-086aeca90778-7475ea8b5861.txt
+    log: revlist-c339f4010dea-7475ea8b5861.txt
 
---===============6546378718399261737==
+--===============4720026308387998510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1794222465 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1794222497 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1794222465-d77b708de7bcb8c65a5bed583a59b202a98ff23a
+nonce 1794222497-a242d6566c72a1714e2fd67e8c73573e8a004ca4
 
-086aeca907789bd2604f16f07bfc073b19015015 7475ea8b58616b33c04afb976cf0fbaad9dd63fb refs/heads/review-ilpo-fixes
+c339f4010dea8b0d754f84ace70cd1b089878ef8 7475ea8b58616b33c04afb976cf0fbaad9dd63fb refs/heads/review-ilpo-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCavGpiAAKCRBZrE9hU+XO
-MVb3AP4zIaJrJwf3/NW3HceFjzuYEs4hMLYJwHEIFlqc5+hsXQEA1OmYavJFz89I
-Y2fnQfLlkAmg0HvVv1wkZm0Y9VAtJwM=
-=MoLL
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCavGppgAKCRBZrE9hU+XO
+MZHgAQClFHpmbZ4iYPdCuLmYkGiqWHR6lNaagZLf6cw5vCaY2wEA+Oc+Zb1yObyB
+cU7awqrpJoeM+kVXEl5VqVnZd+BIIwM=
+=18kM
 -----END PGP SIGNATURE-----
 
---===============6546378718399261737==
+--===============4720026308387998510==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-086aeca90778-7475ea8b5861.txt
+Content-Disposition: attachment; filename=revlist-c339f4010dea-7475ea8b5861.txt
 
-fd0909e963ed8f36967bd072ed484be7babe46de netdev-genl: ignore NETDEV_UNREGISTER rebroadcasts
 1c8b49851543f41fc8bb18bcd1f15cc93d14b530 io_uring/timeout: count cancelled timeouts in cq_timeouts
 db2c610df81e34d497f49b68a0a1681c3f203bdb eth: bnxt: recycle agg buffers when Rx head buffer allocation fails
 09f10efee6f93863ea71489ce84563f4d51787f6 eth: bnxt: resize Rx head buffers when rx-copybreak changes
@@ -396,6 +395,7 @@ cbf04dde8b3c5a7e043e91cefad68b8980ea0d18 ext2: preserve completed DIO bytes when
 0344a9492efac4c79202a07cf284a382f7054170 xfs: set healthmon mount cookie before publishing it
 bde0010631a207511308dc8407f34595dac13ad5 xfs: mark i_mode=0 and shut down on attr fork inactivation failure
 7e31d6dd3419e27ca74b2f9844d5a014f05e814d xfs: fix unwind handling during xfs_mount_sysfs_init()
+086aeca907789bd2604f16f07bfc073b19015015 platform/x86: uniwill-laptop: Implement .hw_offloaded trigger callback
 595e67d7261673d03c96950ffbb2e545c00376ed xfs: don't skip free extents in later batches of a whole-AG FITRIM
 5745f4f10a1a16aa5bb020acc38afa33f2d5ff99 xfs: don't skip free extents of the longest length in a whole-AG FITRIM
 263a5514cb9535380734b5e300b298f82570eb57 net: lan966x: don't free XDP buffers in fdma tx clear with budget 0
@@ -1072,4 +1072,4 @@ e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.ke
 e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
 
---===============6546378718399261737==--
+--===============4720026308387998510==--
