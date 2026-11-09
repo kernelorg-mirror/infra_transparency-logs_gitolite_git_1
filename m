@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 09 Nov 2026 09:39:43 -0000
-Message-Id: <179421718382.244307.10971131753466262085@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Mon, 09 Nov 2026 09:40:17 -0000
+Message-Id: <179421721778.246587.4748458050385131817@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: borntraeger
 changes:
-  - ref: refs/heads/pinctrl-qcom/for-current
-    old: 87dc4bfebcc0a15237a6ddd8cdd408647e93aecd
-    new: 6c940958950e5df52831fb8c78a045d426b09f1b
+  - ref: refs/heads/master
+    old: 62aef2c04e0e69a9b88affa74ff699ce5c4e8652
+    new: ff662d60374cd8858d1209f678f5f01b1b0be7c1
     log: |
-         6c940958950e5df52831fb8c78a045d426b09f1b pinctrl: qcom: fix a use-after-free bug in system shutdown path
+         ff662d60374cd8858d1209f678f5f01b1b0be7c1 KVM: s390: arm64: Tolerate unused functions in extracted source
          
