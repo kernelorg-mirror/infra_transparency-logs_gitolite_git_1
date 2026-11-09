@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 09 Nov 2026 16:04:43 -0000
-Message-Id: <179424028366.553139.12467824431412878962@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Mon, 09 Nov 2026 16:05:55 -0000
+Message-Id: <179424035582.555916.13624238210813835111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nsc
 changes:
-  - ref: refs/heads/main-pending
-    old: d7eae6d6be54d546e177bc37e09847bbd8e35d00
-    new: 9d57055f583fba59b0bbe621f4a4fd24f8bf4801
+  - ref: refs/heads/kbuild-next-unstable
+    old: f37b6aac1da1de8d84e204385cbb313a03bb9221
+    new: 50ccc340081fd1e6cd17599990049a661e3a7feb
     log: |
-         86bd5a9fac011fb726519dd1c026d110afb65fd0 wifi: ath12k: remove duplicate ucast_ra_only assignment in dp_peer_create
-         9d57055f583fba59b0bbe621f4a4fd24f8bf4801 Merge branch 'pending' into main-pending
+         b48d1c045a42b80ed8919381536c2a43a60ac544 s390/pkey: Include <linux/device-id/ap.h> for struct ap_device_id
+         50ccc340081fd1e6cd17599990049a661e3a7feb devicetable-offsets: Get struct cpu_feature from a device-id header
          
-  - ref: refs/tags/ath-pending-202611091553
-    old: 0000000000000000000000000000000000000000
-    new: 9d57055f583fba59b0bbe621f4a4fd24f8bf4801
