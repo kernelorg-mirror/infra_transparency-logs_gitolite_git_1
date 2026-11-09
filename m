@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 09 Nov 2026 12:14:59 -0000
-Message-Id: <179422649956.366802.5894857341734154664@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 12:15:05 -0000
+Message-Id: <179422650580.368983.10198860149107189112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: dc20f3ab498dd70d25f6160bfa41a190322a0318
-    new: edd3a027969c7609a8738230f07e607852377bef
+  - ref: refs/heads/spi-7.5
+    old: 7c9cd0af67647cb61f99c559c29f584ef7526e97
+    new: 2eb2136b475a107abb08625bdd40bda5ac215657
     log: |
-         edd3a027969c7609a8738230f07e607852377bef ASoC: wm_adsp_fw_find_test: Replace strlcat() with seq_buf
+         2eb2136b475a107abb08625bdd40bda5ac215657 spi: imx: Avoid PIO replay after a completed DMA package
          
