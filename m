@@ -1,43 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============6949895196370550790=="
+Content-Type: multipart/mixed; boundary="===============1309640617569332372=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Mon, 09 Nov 2026 20:28:17 -0000
-Message-Id: <179425609728.771277.3476896331476223165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 09 Nov 2026 20:28:42 -0000
+Message-Id: <179425612293.771715.14581496290497372889@gitolite.kernel.org>
 
---===============6949895196370550790==
+--===============1309640617569332372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: cbf6aa9afafaaed2ebbce6069003eb7d6cce6373
-    new: 3a533a66530ca0d2eac5e0278e57bc646ea13f43
-    log: revlist-cbf6aa9afafa-3a533a66530c.txt
+  - ref: refs/heads/spi-7.5
+    old: 281521f809f6a6ff406d082293faf1ed3bbfd949
+    new: c6bd51ce7f9d569d5b351776ac6d8d541ae90e2d
+    log: revlist-281521f809f6-c6bd51ce7f9d.txt
 
---===============6949895196370550790==
+--===============1309640617569332372==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cbf6aa9afafa-3a533a66530c.txt
+Content-Disposition: attachment; filename=revlist-281521f809f6-c6bd51ce7f9d.txt
 
-0356afd79dd46c03baa065c19c9abd7ed494b5c9 ata: libata-eh: drop redundant ata_tag_valid() check in ata_eh_maybe_retry_flush()
-2d365a90e8f9a9d713704a294ee0b8961328fe99 ata: ahci: Add Intel PCH-S RAID device ID
-17075ea3c23e9511a6e7ad171c70df8e3fc915cf ata: pata_artop: read the ATP865 mode register through pci_iomap
-847ee17af993eed41850341aba769d7195d2b0b6 ata: pata_pxa: fix the inverted DMA completion timeout check
-88a11f7a5084877005cb549b9ce37b0312825490 ata: use dmaengine_desc_set_callback()
-d40547ed8be15f0aae8551d0bc7b38d4688924f0 ata: libata-scsi: document the MODE SENSE mode page functions
-18d0f1000c9004290f40485a5a95f585125252ac dt-bindings: ata: sata-brcm: Describe the NSP IDM registers
-ded4ce7adb925ca96122e70f0e441c63d18691de ata: ahci_brcm: Initialize the NSP interface clock and reset
-8ab7309883f3fd1dc84e2f3549e18b186cc26d75 ata: sata_dwc_460ex: replace chan->device->dev with dmaengine_get_provider_device()
-f0b470393273bf79cee3244a11d6e7a44b78ade5 ata: libata-acpi: check the _GTM return object before using it
-f6e285e1851969384039637471696b109661696d ata: libata-transport: drop the dead GSCR newline check
-54bd198407f26b0631a6804f800057752243a3f1 ata: libahci_platform: drop the dead error check
-3a533a66530ca0d2eac5e0278e57bc646ea13f43 ata: libata-zpodd: use a single exit in zpodd_get_mech_type()
+9c5ba93a5a1344278a5e2d44d532486f39710fd1 spi: axiado: remove redundant pm_runtime_dont_use_autosuspend() calls
+4a1cab30f7e0b16924fa7e3a7caa860058da258d spi: cadence-quadspi: remove redundant pm_runtime_dont_use_autosuspend() calls
+e5187e13ce1f729f0ef5102bee666b3b902c0f65 spi: cadence: remove redundant pm_runtime_dont_use_autosuspend() calls
+6d2a6ec8942d5659a46185f6a8a645c1cf37bd28 spi: stm32: remove redundant pm_runtime_dont_use_autosuspend() calls
+73f3bb4134f417980a4ea3cb95b4959446d28de9 spi: stm32-qspi: remove redundant pm_runtime_dont_use_autosuspend() calls
+affeee16b705a2dc6aba0de3754594524c4d39f8 spi: zynqmp-gqspi: remove redundant pm_runtime_dont_use_autosuspend() calls
+634d73e929cb1d5794c8623fc90634c757ab48fa spi: mtk-nor: remove redundant pm_runtime_dont_use_autosuspend() calls
+ca8b81eca7f16112f970893949c3de29ddd4b674 spi: orion: remove redundant pm_runtime_dont_use_autosuspend() calls
+b90c9acd16cbc1ed04514fc0fbc26bae1678e3ba spi: rockchip-sfc: remove redundant pm_runtime_dont_use_autosuspend() calls
+1fcfd0275515b111921dacfb34576ac66fa4e4e0 spi: rtk-nor: remove redundant pm_runtime_dont_use_autosuspend() calls
+ff3bd58298fc302ecf5fb8ef49cce6147308c796 spi: tegra210-quad: remove redundant pm_runtime_dont_use_autosuspend() calls
+c6bd51ce7f9d569d5b351776ac6d8d541ae90e2d spi: remove redundant pm_runtime_dont_use_autosuspend() calls
 
---===============6949895196370550790==--
+--===============1309640617569332372==--
