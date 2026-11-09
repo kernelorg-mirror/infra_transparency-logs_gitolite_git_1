@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2264321378084076187=="
+Content-Type: multipart/mixed; boundary="===============3745437111292373565=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 17:51:10 -0000
-Message-Id: <179424667038.644084.4429023497746892996@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 17:51:13 -0000
+Message-Id: <179424667317.644260.14361760213472746550@gitolite.kernel.org>
 
---===============2264321378084076187==
+--===============3745437111292373565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-next
-    old: 43691131be7b2bbe2e748de0f417ad2e66959896
-    new: 3d19a723922b7ce9748b3fffd25738c4a4a382c9
-    log: revlist-43691131be7b-3d19a723922b.txt
+  - ref: refs/heads/kernel-7.3/fixes-from-stable-baseline
+    old: 82343cc93674c21d2e566836010aca9791dde123
+    new: a4c9a7b206d04a7a82785a128f7b4239690cbaab
+    log: revlist-82343cc93674-a4c9a7b206d0.txt
 
---===============2264321378084076187==
+--===============3745437111292373565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-43691131be7b-3d19a723922b.txt
+Content-Disposition: attachment; filename=revlist-82343cc93674-a4c9a7b206d0.txt
 
 463a54927aae562ec71f5def2c410de61d7efc74 Revert "NFSv4: Fix a regression in the handling of CB_RECALL_ANY"
 5264fa57a7bdbfe1ff831116c4fe470e64bdba2d Revert "NFSv4/pnfs: Free the netid when draining a data-server address list"
@@ -309,5 +309,7 @@ f3275afe1c4d7d26433d2f389e60c84b41f58056 NFSD: Honor OPEN4_SHARE_ACCESS_WANT_REA
 bb854bc3341fb7f7cca96303166ccffdcfd3fa34 nfsd: do not allocate blocks for an RW layout with a minlength of zero
 51e37331b4c4853321d09826bdb9dbebf8b7bf1f nfsd: pin source client while using COPY_NOTIFY stateid
 3d19a723922b7ce9748b3fffd25738c4a4a382c9 NFSD: Report a first-batch readdir error in the reply status
+a29333c641b244fe714a5afa92b8755b4909e71d ksmbd: fix named stream write and EOF handling
+a4c9a7b206d04a7a82785a128f7b4239690cbaab ksmbd: use the existing xattr name for a named stream
 
---===============2264321378084076187==--
+--===============3745437111292373565==--
