@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jassibrar/mailbox
-Date: Mon, 09 Nov 2026 13:11:17 -0000
-Message-Id: <179422987796.414781.16170396428258154005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Mon, 09 Nov 2026 13:15:03 -0000
+Message-Id: <179423010357.417560.8751178768321672530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jassibrar/mailbox
-user: jassibrar
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/jsb/rfc-synch-xfer
-    old: 644c08648e536c36444b194d3d45439e5db1cff9
-    new: 3be3218f506d5ad61f326295351f75bc1c9eeefa
+  - ref: refs/heads/ntfs-next
+    old: 0300714b06d4e76eace7a4fd5cd54dcf102b226b
+    new: 069dee300a76c29d6128888f4d8d3b501b4e487a
     log: |
-         a6bc840f3f91c49f39588086f9706770d41dceaf mailbox: add direct synchronous transmit API
-         37ee636062f61c21620f186b0bc1ff96223bb6fe mailbox: document direct synchronous transmit
-         3be3218f506d5ad61f326295351f75bc1c9eeefa mailbox: convert RISC-V SBI MPXY to direct transmit
+         926d2928270a530787a2a32401ddc6dbb5a87e75 ntfs: convert a named $DATA stream safely when making room in a record
+         069dee300a76c29d6128888f4d8d3b501b4e487a ntfs: flush sibling attribute mappings during stream fsync
          
