@@ -1,27 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 09 Nov 2026 16:43:22 -0000
-Message-Id: <179424260232.584736.9133324378650556623@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6701454024598988167=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Mon, 09 Nov 2026 16:48:15 -0000
+Message-Id: <179424289591.588899.5052269632611229384@gitolite.kernel.org>
+
+--===============6701454024598988167==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 34f5577212ed6c24b87751f693e05304f1b83585
-    new: 5d46de0162aae46f81f33983ba7bc968b5a37c5b
-    log: |
-         21a4b625f449a2f358dbe852cd21dd5d5266804a ACPI: CPPC: Order performance-control updates
-         2f1583ed595548a83955c00ff576f867b725851b cpufreq: CPPC: Keep the policy across CPU hotplug
-         ccd739c4a6f8e32f24e1218b7de1a8bc92886016 ACPI: CPPC: Make autonomous selection helpers take a u64
-         e921207c4f94f8d80a60375bb664dae6a1fbac6c cpufreq: CPPC: Preserve OSPM-set registers across hotplug and unload
-         22f2a52b46d52df66cf0a5efe4d22296810cbcee cpufreq: CPPC: Preserve OSPM-set registers across suspend/resume
-         8a244abee35b9ca8f367131f02c9a8cbe57a953e ACPI: CPPC: Add ospm_nominal_perf support
-         e18fb8e5f80a5853586eb0970183de98d73c5ee5 cpufreq: CPPC: Add ospm_nominal_freq attribute
-         1a10ede0a33f12ce53cfb655149b982ad4d009ca cpufreq: CPPC: Reflect the OSPM nominal in boost and limits
-         5d46de0162aae46f81f33983ba7bc968b5a37c5b Merge branch 'acpi-cppc' into bleeding-edge
-         
+  - ref: refs/heads/kernel-7.3/baseline-reverts
+    old: d3628ba0b5064ad2293e0d52fbc1ff64f133a584
+    new: be9bcc0d5bf57e574c99b95d826af1e99674ff94
+    log: revlist-d3628ba0b506-be9bcc0d5bf5.txt
+
+--===============6701454024598988167==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d3628ba0b506-be9bcc0d5bf5.txt
+
+7191a761a34b0dd7978450f7ba88f4aedd2c9f01 Revert "NFSv4: Fix a regression in the handling of CB_RECALL_ANY"
+a48bb64817f0657ce8ea739495dbe40e1c588692 Revert "NFSv4/pnfs: Free the netid when draining a data-server address list"
+48bc9c6f02468584d5bb79cae9ffa9d5b00cec36 Revert "NFSv4/pnfs: bound the CB_NOTIFY_DEVICEID array count before allocating"
+cc6b1e0b63c7fca7a1440ac43fa96dda9f3bbb2a Revert "pnfs/blocklayout: Complete a device upcall when the pipe is closed"
+537ea80cda50802533747e147c45c25595f2d935 Revert "pnfs/blocklayout: Complete a device upcall only on its own reply"
+56c3b9dcb9dbb9f1e56f5a858add90ca39579e47 Revert "pNFS: Fix CB_NOTIFY_DEVICEID CHANGE to consume ndc_immediate"
+7d2ece1ca3cd06025022aca8f682ab3239cd8373 Revert "lockd: Fix use-after-free in nlmsvc_retry_blocked"
+2e583fbc31b9e9cdb0869d96746d38bee7b3288d Revert "SUNRPC: fix netns use-after-free in write_gssp()"
+78ffc7b9bd86e2b47ffaa2c4729c293b5c46f53c Revert "nfsd: fix race between client_info_show() and free_client()"
+bb4e0bb938659f8921fe784e42bd8375fa4abd75 Revert "ksmbd: fix named stream write and EOF handling"
+be9bcc0d5bf57e574c99b95d826af1e99674ff94 Revert "ksmbd: use the existing xattr name for a named stream"
+
+--===============6701454024598988167==--
