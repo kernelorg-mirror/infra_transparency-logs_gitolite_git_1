@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============3481350073346297692=="
+Content-Type: multipart/mixed; boundary="===============4021060477541676529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 09 Nov 2026 14:31:37 -0000
-Message-Id: <179423469777.479287.13656108338763443222@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/core
+Date: Mon, 09 Nov 2026 14:31:46 -0000
+Message-Id: <179423470670.479692.4516505444548313982@gitolite.kernel.org>
 
---===============3481350073346297692==
+--===============4021060477541676529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/mm/core
+user: david
 changes:
-  - ref: refs/heads/next/dt64
-    old: bfc077963a5b916a2987ca3e15ac2a11d775f7b3
-    new: c916d326360966fa41b1d9c3fb659215053387f5
+  - ref: refs/heads/core-7.5.misc
+    old: 194b63198811c9ff4820617750be6fb4f2f6349e
+    new: bd4d4f8dea834c4d1e8c5b1ba96876771116249b
     log: |
-         c916d326360966fa41b1d9c3fb659215053387f5 arm64: dts: exynos: gs101: Add thermal management unit
+         804bbac59c39934aa9e595f6ecb8f503c7d3c03b m68k/mm: simplify pmd_none()/pmd_val()/pmd_present()/pmd_bad()
+         0cb41760fdcb4fab194fa9411c483c88d2062e88 mm/memory: use pmdp_get_lockless() for the pmd read in do_fault_around()
+         42132639f65c10c4c5053c14624b732cccd8c7c8 mm: unqueue deferred split folios outside the lruvec lock
+         ed665d9b0dba41791b95c2643eb5dc8c1eb62881 mm: move LRU size stat updates out of lru_lock in folio batches
+         3bd49d0d50561b7e0605a40685f5943c6960838d selftests/mm: add CONFIG_DEBUG_FS to the config fragment
+         e5111d382a2c82ead693badebc70423660fc6f75 mm: free unused page table allocated by do_set_pmd()
+         bd4d4f8dea834c4d1e8c5b1ba96876771116249b mm: don't allocate a page table under RCU in do_set_pmd()
          
+  - ref: refs/heads/for-next
+    old: 72b59c4e5652bc6d1e49601cd6afbe39d537e3d5
+    new: 2683df3b7eac1d91380194955ad0c9751454610c
+    log: revlist-72b59c4e5652-2683df3b7eac.txt
 
---===============3481350073346297692==
+--===============4021060477541676529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-72b59c4e5652-2683df3b7eac.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1794234696 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1794234695-dabf37e83e0650a72840bdda3d22f7d04de7c485
+804bbac59c39934aa9e595f6ecb8f503c7d3c03b m68k/mm: simplify pmd_none()/pmd_val()/pmd_present()/pmd_bad()
+0cb41760fdcb4fab194fa9411c483c88d2062e88 mm/memory: use pmdp_get_lockless() for the pmd read in do_fault_around()
+42132639f65c10c4c5053c14624b732cccd8c7c8 mm: unqueue deferred split folios outside the lruvec lock
+ed665d9b0dba41791b95c2643eb5dc8c1eb62881 mm: move LRU size stat updates out of lru_lock in folio batches
+3bd49d0d50561b7e0605a40685f5943c6960838d selftests/mm: add CONFIG_DEBUG_FS to the config fragment
+e5111d382a2c82ead693badebc70423660fc6f75 mm: free unused page table allocated by do_set_pmd()
+bd4d4f8dea834c4d1e8c5b1ba96876771116249b mm: don't allocate a page table under RCU in do_set_pmd()
+9b2546e7e96f5e7ffeee0d8bf3b097f4a88da18d Merge branch 'for-next-fixes' into for-next
+2f8b9d8b2be43b7f8699bffce1b2ddde85cc0dc3 Merge branch 'core-7.5.misc' into for-next
+523c98814c75fcc224c84d5efcc29fdfba663aeb Merge branch 'gup-7.5.misc' into for-next
+faeb32b1dbaacfd4d3e21488a1d39904e35a99b7 Merge branch 'ksm-7.5.misc' into for-next
+6acccb6045068e5bc2abb4b1c096c70f31a11d84 Merge branch 'memhp-7.5.misc' into for-next
+dd224be10afc84872ee5b4af49bd5e1e0230f6a8 Merge branch 'mempolicy-7.5.misc' into for-next
+c9ee0c11b2c04bd3a3de24f024ada92a2b4c5382 Merge branch 'migrate-7.5.misc' into for-next
+2034471d28ad62ccaf40fad382bb6d2f1cc53c01 Merge branch 'rmap-7.5.misc' into for-next
+e177959f1de7d6c5cebf1181a154f13149ef3d4d Merge branch 'shmem-7.5.misc' into for-next
+2683df3b7eac1d91380194955ad0c9751454610c Merge branch 'thp-7.5.misc' into for-next
 
-bfc077963a5b916a2987ca3e15ac2a11d775f7b3 c916d326360966fa41b1d9c3fb659215053387f5 refs/heads/next/dt64
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrx2UgQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD19ryD/9inQzKlValTtd2yCuSPoy/XVdJSPXyPEd5
-ERAV1MZBsVpLFRQCBwoJwLEYoAXoYhClAZ38Q+nN0Pa219DFMZ56s+0g87I+K6qd
-+pjvP4rNyXsKRxB8rDQFJ0v7tz5zWNRXSe/hY+FZ/xbcKQIV7o8QgoMYh3tA2PrJ
-yMU7OBgND5nIj4A7bWNv3sR/y8HUlpal4hhtwzdHwKSeL1msU2bJe+g+ra5wN2Lp
-elCVuzzz6Bcliy6Fq9OaFHYArHYM6TFhfmO9qEI1xRDqcZUhe0bXjb1cZYVuDSWo
-hJLBa76+EgZ+1bwecDS+Qus71b1tULT3SQRXllHk8LS/g2WCuP6Igox+h7v8eB15
-YtG0a4/Ziv42H5E+yeJdzJcFwKpS19vfS62IVg8SJHEYc6LrQ7qF+4MoJXFLF2eW
-XgGwV0M+byxtVUiNtj6xEaLv3sC+6FecYgvZrMulPX1ws8joC2Z5U9giYm+Sr/Cz
-nJ+/nxFxtK+KpJq4IIDe7trT5vo+MDfub7ppPkf5Mvjyjw11JC0KRrwN2SeXulFr
-88pbSwq9SZVIoweHvUnQt00fZR/qnaV3THBfJ+XAAXfCHEQ8h5tLrK3cU9F4SHcY
-uL8Adz6/yKsffqjRA6scpd3QGfNSOy5mtY78vp0ctlKVDa+AuwHEUY7y3B05TeUi
-P0NFqyMIEw==
-=oUF6
------END PGP SIGNATURE-----
-
---===============3481350073346297692==--
+--===============4021060477541676529==--
