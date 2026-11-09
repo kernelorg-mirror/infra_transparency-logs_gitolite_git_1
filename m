@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3120332769419591946=="
+Content-Type: multipart/mixed; boundary="===============5606026045807847675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Mon, 09 Nov 2026 23:18:21 -0000
-Message-Id: <179426630188.930775.17056352476748483860@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 23:18:24 -0000
+Message-Id: <179426630495.931013.3303055673620039777@gitolite.kernel.org>
 
---===============3120332769419591946==
+--===============5606026045807847675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/fsverity/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/for-current
+  - ref: refs/heads/for-next
     old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     new: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
     log: revlist-6628e7d4c6b2-7475ea8b5861.txt
 
---===============3120332769419591946==
+--===============5606026045807847675==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1017,4 +1017,4 @@ e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.ke
 e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
 
---===============3120332769419591946==--
+--===============5606026045807847675==--
