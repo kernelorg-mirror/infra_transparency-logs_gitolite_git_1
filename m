@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8638550241866156472=="
+Content-Type: multipart/mixed; boundary="===============3850004442983325712=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Mon, 09 Nov 2026 20:18:12 -0000
-Message-Id: <179425549261.762081.17641017042762709936@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 20:18:39 -0000
+Message-Id: <179425551974.762484.12224686391628326521@gitolite.kernel.org>
 
---===============8638550241866156472==
+--===============3850004442983325712==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/libata/linux
 user: cassel
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/for-7.5
     old: f710be6e34c0516baa8c9f10efcfe6ba8c0cc827
     new: f0b470393273bf79cee3244a11d6e7a44b78ade5
     log: revlist-f710be6e34c0-f0b470393273.txt
 
---===============8638550241866156472==
+--===============3850004442983325712==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1027,4 +1027,4 @@ ded4ce7adb925ca96122e70f0e441c63d18691de ata: ahci_brcm: Initialize the NSP inte
 8ab7309883f3fd1dc84e2f3549e18b186cc26d75 ata: sata_dwc_460ex: replace chan->device->dev with dmaengine_get_provider_device()
 f0b470393273bf79cee3244a11d6e7a44b78ade5 ata: libata-acpi: check the _GTM return object before using it
 
---===============8638550241866156472==--
+--===============3850004442983325712==--
