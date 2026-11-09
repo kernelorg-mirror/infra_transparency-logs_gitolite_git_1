@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6595951667987199049=="
+Content-Type: multipart/mixed; boundary="===============4405318285757222295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 17:59:16 -0000
-Message-Id: <179424715670.652908.1749424871515862262@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 17:59:19 -0000
+Message-Id: <179424715948.653104.4820731498477566966@gitolite.kernel.org>
 
---===============6595951667987199049==
+--===============4405318285757222295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-testing
-    old: dc66633e7ad3325683b696691c1e9c550886692c
-    new: 30876e437a82e8c2303242fa04593efb1dd208be
-    log: revlist-dc66633e7ad3-30876e437a82.txt
+  - ref: refs/heads/kernel-7.3/nfsd-testing-canary-dontcache
+    old: 026189fefc3d77a2236138f7fad5f3823c23de72
+    new: 3c6df83e7ece37553343c4c669abdce1e5629c73
+    log: revlist-026189fefc3d-3c6df83e7ece.txt
 
---===============6595951667987199049==
+--===============4405318285757222295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc66633e7ad3-30876e437a82.txt
+Content-Disposition: attachment; filename=revlist-026189fefc3d-3c6df83e7ece.txt
 
 8c8bf48766bf777625177069a2d40e6d47cd49fb Revert "NFS/localio: report the stability a DIO WRITE actually has"
 7293cb575d567da3ae844b148f0c5f6ce9e492e5 Revert "NFS/localio: fix nfs_local_dio_misaligned tracepoint"
@@ -332,5 +332,12 @@ fd00b32fe4319cb9d5fbc81d50de165353ebb67b NFSD: persist a synchronous direct-mode
 e487e730759a842e0fec99f85de3f82c128c3dfc NFSD: Keep per-export statistics across export cache updates
 88ae2c3aabcb5245776f4f5532a01eac062fe7ea NFSD: Count the storage reads of each export's READs
 30876e437a82e8c2303242fa04593efb1dd208be NFSD: Document how to choose an IO mode
+3478be52f56442244c03b584774643caa25e183a mm: move clearing the uncached flag of a found folio into a helper
+b89870726cfbe5f3eb0e0948349686cea54bc62d mm: take a folio off WB_DONTCACHE_DIRTY only if it was counted there
+6f49c48b7da2b25620a7049d8d05c183b2dfddfe mm: expose WB_DONTCACHE_DIRTY in bdi debugfs stats
+95f02dda8c0ea9f914e23c1a3b67719e253f10af mm: add folio_mark_dropbehind() to mark a folio dropbehind and account it
+0c03361b96f2ae05ddf88ab129d428976084d3e8 mm, iomap: keep a partly covered page until an uncached write completes it
+a117ca3fe4990a14adb6ad0fde367c97b569123a mm, iomap: let an uncached writer complete its shared pages itself
+3c6df83e7ece37553343c4c669abdce1e5629c73 NFSD: drop a shared boundary page only once both WRITEs have written it
 
---===============6595951667987199049==--
+--===============4405318285757222295==--
