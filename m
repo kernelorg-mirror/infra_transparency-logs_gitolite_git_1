@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4884555965914939623=="
+Content-Type: multipart/mixed; boundary="===============1961230294007643891=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 17:58:44 -0000
-Message-Id: <179424712436.651261.6685610230880824998@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 17:58:47 -0000
+Message-Id: <179424712720.651399.2802754111820417408@gitolite.kernel.org>
 
---===============4884555965914939623==
+--===============1961230294007643891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/anna-nfs-next
-    old: dd9fc04b1ee3b02ac118dbc414b51752059447af
-    new: 52aecb6ce76c7869490a1e4955c44d2c0b714667
-    log: revlist-dd9fc04b1ee3-52aecb6ce76c.txt
+  - ref: refs/heads/kernel-7.3/snitzer-nfs-fixes-canary
+    old: 86611acf3a4442375d9713d3a143f90c49307fda
+    new: 0a7a68160dcac485d2dbf726fd754fbfd2a602a1
+    log: revlist-86611acf3a44-0a7a68160dca.txt
 
---===============4884555965914939623==
+--===============1961230294007643891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd9fc04b1ee3-52aecb6ce76c.txt
+Content-Disposition: attachment; filename=revlist-86611acf3a44-0a7a68160dca.txt
 
 8c8bf48766bf777625177069a2d40e6d47cd49fb Revert "NFS/localio: report the stability a DIO WRITE actually has"
 7293cb575d567da3ae844b148f0c5f6ce9e492e5 Revert "NFS/localio: fix nfs_local_dio_misaligned tracepoint"
@@ -129,5 +129,9 @@ fde697210312fbb5ca431a1bd199197e495d1f0d SUNRPC: preserve transport security pol
 9515f23d3a2a0e2b1543636ac370e3f3bd8fbcb0 SUNRPC: Fix TCP-with-TLS transport class identification
 5ce199befb0e40c4cfb71c56d125be5211249db7 SUNRPC: Balance switch queue length on transport removal
 52aecb6ce76c7869490a1e4955c44d2c0b714667 SUNRPC: Balance queue accounting when relocating a task
+47c74ae03269909f0dacc4eefe0d8b08a231eedf NFS: don't release the open context of a failed write from writeback
+7d1d5aebcbb1b07e8dd1bbc66469326d14676f2c NFS: don't run the release of a WRITE or COMMIT in the submitter
+330fa09ab93a2d8efa71a20e449543f7ab6eb433 NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
+0a7a68160dcac485d2dbf726fd754fbfd2a602a1 NFS/localio: don't run the release of a failed COMMIT in the submitter
 
---===============4884555965914939623==--
+--===============1961230294007643891==--
