@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9083712081005393244=="
+Content-Type: multipart/mixed; boundary="===============3284957353860016805=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 17:58:56 -0000
-Message-Id: <179424713690.651734.9231177111149200400@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 17:59:02 -0000
+Message-Id: <179424714234.652017.25388145638111636@gitolite.kernel.org>
 
---===============9083712081005393244==
+--===============3284957353860016805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-7.4
-    old: 409daed3eb359b1896de1c23a683a33715a81974
-    new: 288368a2f00667e07282aace954e9b925898244e
-    log: revlist-409daed3eb35-288368a2f006.txt
+  - ref: refs/heads/kernel-7.3/vfs-7.4-rc1.idmap-and-misc
+    old: 5fdcea0e72b3a74d708aa72ffdf12bbba5d549c8
+    new: e140b9e0e64a1b370fe3c2607f4ac94929172775
+    log: revlist-5fdcea0e72b3-e140b9e0e64a.txt
 
---===============9083712081005393244==
+--===============3284957353860016805==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-409daed3eb35-288368a2f006.txt
+Content-Disposition: attachment; filename=revlist-5fdcea0e72b3-e140b9e0e64a.txt
 
 8c8bf48766bf777625177069a2d40e6d47cd49fb Revert "NFS/localio: report the stability a DIO WRITE actually has"
 7293cb575d567da3ae844b148f0c5f6ce9e492e5 Revert "NFS/localio: fix nfs_local_dio_misaligned tracepoint"
@@ -231,5 +231,33 @@ ed6a3baad92a3588cd9fcf95e2879fe88ae43189 NFSD: Add a streaming directory reader
 a24810225b6d08fe9b26bd12d8110b01314d9f2a NFSD: Use xdrgen XDR functions for NFSv2 READDIR results
 aa7175f6eb41292e604f0a67a8ffb1c0a4c9ff29 nfsd: Fix id-to-name cache entry leak in idtoname_parse()
 288368a2f00667e07282aace954e9b925898244e SUNRPC: use assign_bit() where applicable
+5f1c1b473de2438aa4f55485e789e4c86550d7b0 userns: pass const uid_gid_map in lookup helpers
+6b9f35be9b37925d117afa8f0a82419be172baf6 fs: port mnt_idmap_{get,put}() to const mnt_idmap
+505fe7d56d6dc9b90bbcd30997ff604ccc796194 fs: port vfs{g,u}id helpers to const mnt_idmap
+119a29d979c1f1bff45622172c531c6da92bb5f7 fs: port fs{g,u}id helpers to const mnt_idmap
+03160011cede7fafe8f3c17f446dab8182d130d3 fs: port i_{g,u}id_into_vfs{g,u}id() to const mnt_idmap
+f78ada7d2faf1b819c000ac8446ae11708b34258 fs: port i_{g,u}id_{needs_}update() to const mnt_idmap
+0d9b292b985291de8c0410786048adb12e5fa7d1 quota: port to const mnt_idmap
+09b700181bfc70a97095f8e539d3bd216e933598 fs: port privilege checking helpers to const mnt_idmap
+98c7cdf733d62091ddc8ab58ccc05df119429a45 fs: port inode_owner_or_capable() to const mnt_idmap
+4274417bb5243126fc013daff828fdbbd708be22 fs: port inode_init_owner() to const mnt_idmap
+07af8d8a64b19c30cebe1b37f11d2aa0149f02ff fs: port acl to const mnt_idmap
+ea069b68a5c3daabcfd5730ca8d0d6980fc96964 fs: port ->permission() to pass const mnt_idmap
+08ac0875e39af4d8d4d6ff7594bc5cd352d16f22 fs: port xattr to const mnt_idmap
+f621b45af1e26fa15c2d4d29367f4a3e0c862597 fs: port ->fileattr_set() to pass const mnt_idmap
+f16d746c814fe1b823a15de6ec6743d7d9106d25 fs: port ->set_acl() to pass const mnt_idmap
+6e9d1957fc7704a612f9d9005294575dfea2d9c9 fs: port ->get_acl() to pass const mnt_idmap
+f87291c2b35ac61e4dc16ea4cf27df8608ccf668 fs: port ->tmpfile() to pass const mnt_idmap
+15f35b66f5147acc5c19f3d7422c6bab945fd9d4 fs: port ->mknod() to pass const mnt_idmap
+04b5078a5de907bcf24a6c239dd5ce6d4edfe36f fs: port ->rename() to pass const mnt_idmap
+b5a684730c5c28fbd5f7f2fb4bf29c9045f45690 fs: port ->mkdir() to pass const mnt_idmap
+afa3d87c2f65745fee1cd07cf86b52a690e01251 fs: port ->symlink() to pass const mnt_idmap
+df068056e4f43cd42021e30393f9be7c6f249a6f fs: port ->create() to pass const mnt_idmap
+759f715886c5a1d47381e6d08b96c564d4ada2ff fs: port ->getattr() to pass const mnt_idmap
+67ce435dd3b119a04e6a7d1d57589a00d8bc9937 fs: port ->setattr() to pass const mnt_idmap
+00729b6b17703a770615123be24d1c004d886087 fs: port vfs_*() helpers to const mnt_idmap
+bb1e2959eb06db7955b922a84bbba5038ef4ebc7 fs: port mnt_idmap() and file_mnt_idmap() to const mnt_idmap
+3b37871a271818383cdf1b3fb2fcbef2f6a41464 fs: make nop_mnt_idmap and invalid_mnt_idmap const
+e140b9e0e64a1b370fe3c2607f4ac94929172775 splice: emit a single fsnotify access event per NFSD READ
 
---===============9083712081005393244==--
+--===============3284957353860016805==--
