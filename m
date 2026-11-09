@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3780076774438663650=="
+Content-Type: multipart/mixed; boundary="===============4201750421086921125=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Mon, 09 Nov 2026 23:18:12 -0000
-Message-Id: <179426629219.930462.6394863539268456440@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 23:18:18 -0000
+Message-Id: <179426629811.930655.14167073693782818394@gitolite.kernel.org>
 
---===============3780076774438663650==
+--===============4201750421086921125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/fs/fscrypt/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/for-next
-    old: edca0e6d33b51269005b353c10b8f20492dc9d9c
-    new: 64e7205936e603bfecbdad2e3deaf1e9e19a4b59
-    log: revlist-edca0e6d33b5-64e7205936e6.txt
+  - ref: refs/heads/for-current
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    new: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
+    log: revlist-6628e7d4c6b2-7475ea8b5861.txt
 
---===============3780076774438663650==
+--===============4201750421086921125==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-edca0e6d33b5-64e7205936e6.txt
+Content-Disposition: attachment; filename=revlist-6628e7d4c6b2-7475ea8b5861.txt
 
 5852cdf0006ff0f1d9a56f06197673d4e4270220 net/9p: fix typos in comments
 37dce65a0b4356d7ec289a5d09cece5db241c302 9p: use fc->net_ns for network namespace in RDMA and socket transports
@@ -1016,7 +1016,5 @@ e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.ke
 8a65162514fbad21a2c58ffed65f42b27e92b163 Merge tag 'driver-core-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
-027d084d2d3796d85c01317745364606bb2fe7ef fscrypt: remove fscrypt_pagecache_page()
-64e7205936e603bfecbdad2e3deaf1e9e19a4b59 fscrypt: remove fscrypt_is_bounce_page()
 
---===============3780076774438663650==--
+--===============4201750421086921125==--
