@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1531208503326419164=="
+Content-Type: multipart/mixed; boundary="===============6546378718399261737=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 09 Nov 2026 11:06:57 -0000
-Message-Id: <179422241785.313886.6143895170867918873@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 11:07:48 -0000
+Message-Id: <179422246849.314462.14042907087875270720@gitolite.kernel.org>
 
---===============1531208503326419164==
+--===============6546378718399261737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/review-ilpo-fixes
     old: 086aeca907789bd2604f16f07bfc073b19015015
     new: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
     log: revlist-086aeca90778-7475ea8b5861.txt
 
---===============1531208503326419164==
+--===============6546378718399261737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1794222408 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1794222465 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1794222407-57be70c432e498aa312cfb362036dc3acd19c2bb
+nonce 1794222465-d77b708de7bcb8c65a5bed583a59b202a98ff23a
 
-086aeca907789bd2604f16f07bfc073b19015015 7475ea8b58616b33c04afb976cf0fbaad9dd63fb refs/heads/fixes
+086aeca907789bd2604f16f07bfc073b19015015 7475ea8b58616b33c04afb976cf0fbaad9dd63fb refs/heads/review-ilpo-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCavGpVQAKCRBZrE9hU+XO
-MXFjAP9r7P5RnuL1xldSe8e7cpB1PWYVnWPJMmmeHLnWIFqZbAD/eUmSxB8CozZR
-XNF3K9OL37xuN9sKNBdXoNV58i5Bcg4=
-=0rzJ
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCavGpiAAKCRBZrE9hU+XO
+MVb3AP4zIaJrJwf3/NW3HceFjzuYEs4hMLYJwHEIFlqc5+hsXQEA1OmYavJFz89I
+Y2fnQfLlkAmg0HvVv1wkZm0Y9VAtJwM=
+=MoLL
 -----END PGP SIGNATURE-----
 
---===============1531208503326419164==
+--===============6546378718399261737==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1072,4 +1072,4 @@ e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.ke
 e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
 
---===============1531208503326419164==--
+--===============6546378718399261737==--
