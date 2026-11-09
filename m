@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 09 Nov 2026 10:37:34 -0000
-Message-Id: <179422065491.289883.14054772015229238413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 09 Nov 2026 10:46:01 -0000
+Message-Id: <179422116169.296656.12618637607695171071@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next/ffa/updates
-    old: c03c1a14507dfaf8b856c2608f9ac216021fc222
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/spi-7.5
+    old: 12acfe305495e47a760f31f15ca251a22665b01c
+    new: 7c9cd0af67647cb61f99c559c29f584ef7526e97
+    log: |
+         7c9cd0af67647cb61f99c559c29f584ef7526e97 spi: spi-mem: Add support for panic mem writes
+         
