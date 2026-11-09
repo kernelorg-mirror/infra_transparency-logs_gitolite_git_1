@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6653081166941140496=="
+Content-Type: multipart/mixed; boundary="===============3791573137119263747=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 09 Nov 2026 09:25:32 -0000
-Message-Id: <179421633288.235386.12485815372784960826@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 09:26:57 -0000
+Message-Id: <179421641775.236022.2723412151174618236@gitolite.kernel.org>
 
---===============6653081166941140496==
+--===============3791573137119263747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/sched/core
-    old: ae7ff8b29958143b4f23169a5598c860334db2fa
-    new: 56d3bd3bbc663dc3f8fa09577c76eb0205d65177
-    log: revlist-ae7ff8b29958-56d3bd3bbc66.txt
+  - ref: refs/heads/master
+    old: 7d52f45955f2a4100433a24ba64fda0b9e236306
+    new: 614a4d85274f408a356981b307601679f59205e0
+    log: revlist-7d52f45955f2-614a4d85274f.txt
 
---===============6653081166941140496==
+--===============3791573137119263747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae7ff8b29958-56d3bd3bbc66.txt
+Content-Disposition: attachment; filename=revlist-7d52f45955f2-614a4d85274f.txt
 
+0ae655bce1934857fa3e316ddcb4be38c30dbd38 perf/x86/amd/uncore: Avoid context migration from non-owners
+fb3f6b21b04f1e8b8982e90e9bf62db9f0dcb5e4 tracing/perf: Clear stop state in perf_trace_add()
+6bea5e29daf123a78ae58cb5926023f4705f396f perf/hw_breakpoint: Clear stop state in hw_breakpoint_add()
+3bbd85b2f67aff58f2cbec9a7fb705677b94473b perf: Fix racy update of cpc->hrtimer_interval
+59f1398140869432c7171b9a2a279ca315467c4e perf/core: Do not resurrect cpuctx->cgrp after last cgroup event exit
+a98679d5e0bb07175cb39bf66c16ac6f861d2965 sched/deadline: Fix spurious -EPERM for migration-disabled tasks
+0c07ea075182bf8cb1048dbc6baa337908ee0bbe sched/uclamp: Reject clamp values above SCHED_CAPACITY_SCALE
+986efdec58355e41e213bbef125da2d2b766eee0 sched: Fix cpuset_mutex double unlock in __sched_setscheduler()
+63e5dcd44ded2c83b468417381c3a5987a8f66d1 sched/cache: Don't use fits_capacity() to compare thread and CPU counts
+bfee16fd01d4d5c3352a050f560a5ff05a277956 sched/core: Do not touch SMT siblings that have not joined the core yet
 6616bffa9b52da1338cf8bff9882404e02b9e361 sched/deadline: Fix spurious -EPERM for migration-disabled tasks
 8127ec8458df29bd702db602473042ccb9e619b9 sched/uclamp: Reject clamp values above SCHED_CAPACITY_SCALE
 f7141257dd67d4936f906a6cfd1d0007721f6898 sched/core: Fix cpuset_mutex double unlock in __sched_setscheduler()
@@ -45,5 +55,8 @@ e0aeaebb8a46c2765167f1907e72e6b42797c09f sched/fair: Extend for_each_sched_entit
 64352f46f121a0103eec2e0aeaadad411825e0d3 virt: steal_governor: store only the sampling delay
 4acfb1255f30a1ed9ea07f9e9a650ebc064aa2eb sched/hotplug: Remove unused idle_task_exit
 56d3bd3bbc663dc3f8fa09577c76eb0205d65177 sched/config: Decouple PREFERRED_CPU from PARAVIRT
+f45afb909538d277a6ca26b727914717e5e8c238 Merge branch into tip/master: 'perf/urgent'
+77fb31b5c71fbef77c57df7786f7f40666a00674 Merge branch into tip/master: 'sched/urgent'
+614a4d85274f408a356981b307601679f59205e0 Merge branch into tip/master: 'sched/core'
 
---===============6653081166941140496==--
+--===============3791573137119263747==--
