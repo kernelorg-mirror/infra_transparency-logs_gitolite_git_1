@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============4695982592207702456=="
+Content-Type: multipart/mixed; boundary="===============8180044743852503139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
-Date: Mon, 09 Nov 2026 07:19:34 -0000
-Message-Id: <179420877410.138553.17343959711369657640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Mon, 09 Nov 2026 07:19:37 -0000
+Message-Id: <179420877739.138832.15541537081952531516@gitolite.kernel.org>
 
---===============4695982592207702456==
+--===============8180044743852503139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/slimbus
+repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
-  - ref: refs/heads/slim-fixes
+  - ref: refs/heads/for-fixes
     old: cee9395acd8043be0644b25c34bfa86623f2b935
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     log: revlist-cee9395acd80-6628e7d4c6b2.txt
 
---===============4695982592207702456==
+--===============8180044743852503139==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============4695982592207702456==--
+--===============8180044743852503139==--
