@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 09 Nov 2026 13:00:00 -0000
-Message-Id: <179422920095.404089.3261930765167911655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 09 Nov 2026 13:02:35 -0000
+Message-Id: <179422935594.407388.15275882810583514838@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: c9e839d110a79125ad4907eaa9321934fefc910b
-    new: c1a50397202986cbd5cd20f4dec2ce992a02c85f
+  - ref: refs/heads/for-7.5
+    old: dc20f3ab498dd70d25f6160bfa41a190322a0318
+    new: edd3a027969c7609a8738230f07e607852377bef
     log: |
-         c1a50397202986cbd5cd20f4dec2ce992a02c85f ASoC: Intel: sof_sdw: Add quirk for Dell Latitude 9420
+         edd3a027969c7609a8738230f07e607852377bef ASoC: wm_adsp_fw_find_test: Replace strlcat() with seq_buf
          
