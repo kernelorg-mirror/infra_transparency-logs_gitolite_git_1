@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6384206001689995095=="
+Content-Type: multipart/mixed; boundary="===============5745763758316706406=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 09 Nov 2026 03:54:33 -0000
-Message-Id: <179419647340.4185890.4860434888310552515@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 03:54:37 -0000
+Message-Id: <179419647723.4186087.301522546271056193@gitolite.kernel.org>
 
---===============6384206001689995095==
+--===============5745763758316706406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 279aa977f817b19d99501d4bf2b952b8c6a2e31c
-    new: 0fd8bac1eda98d46c1464c0e3db68ea754aa2f5b
-    log: revlist-279aa977f817-0fd8bac1eda9.txt
+  - ref: refs/heads/7.4/scsi-fixes
+    old: 04feb5fd2c23894ebc2cdaf4a4cc38b8667b17ac
+    new: e550f2b2b4aab4c5f12db89d04d8978ce4ed7b4e
+    log: revlist-04feb5fd2c23-e550f2b2b4aa.txt
 
---===============6384206001689995095==
+--===============5745763758316706406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1794196471 -0500
+pusher 75C5DE3D 1794196475 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1794196471-b75315d7bdcf48bc38d0b72b3711649582f605cf
+nonce 1794196475-6f3c72a32833c5662137e91ea3ff17a06990b09f
 
-279aa977f817b19d99501d4bf2b952b8c6a2e31c 0fd8bac1eda98d46c1464c0e3db68ea754aa2f5b refs/tags/mkp-scsi-fixes
+04feb5fd2c23894ebc2cdaf4a4cc38b8667b17ac e550f2b2b4aab4c5f12db89d04d8978ce4ed7b4e refs/heads/7.4/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrxQ/cACgkQ7ulgGnXF
-3j1TCA//UclVU5oiBdWTZ1Wn9GUCxfDkd18VDeAtCog0616RE4lRiKLNHtUp0dpB
-MZEv1uzV7B2kXmSAtG8bXRnwXcggHNTQmJegNEXtOmVEI8zTchbdOd9ItuZoadX1
-duHMEYE8Xd721aUj6bec/Xhh38mPXgIZRK9USHoIetQfVCx4MM+/ABy3GQL6bzHn
-3sv0pi7ogFtMkLUxtBzN5QqmjJt8jLAFP0HuTQ7+h8whiZKopY6XguU+cvLl8YGl
-kkCizwoI2ohhNH/mQagm7zXWfT9RIy7gE9lZZLtkeqGfNaVgaymo5720zJUnUEZU
-tT9XhADpVxKsAdDW+pr6qPSBqgQ5WEcfxGWrPHi6iJ75pVXQi4feOWHMjzvmKe/P
-7qCreMeODjtUwU508/DnBuk3Oo1r7cX72YH+pOF2/rw1GaecH2HloxhutErSDNeC
-TPNvQeviiFOXrleU6F6smNlxxcL6gbxZGDwAcvlCs8eWKex/PDurc0SPMjMnYMQH
-hgBH7XpnOXiQleQRrhVX+GwaI+5shDHoQ41FNMGDQq3RO1la9fffWhXrGBEi0Ijx
-VbDEjufHcnSdcivODEQk6Fxi50/iIxGD16bmjSxUjvmcCxWb3dQuKmMplvbsDrUr
-sGRkZFUTrPyzig3+LNWHpnGCcysGGroSIgv7iC4n8SPkAW1EaYE=
-=0Th8
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrxQ/sACgkQ7ulgGnXF
+3j16/xAApznbMOFpTdf6cEnH7eEB0K1Fl2HsUEyeydKoKwzMSDLrQrVWiIyFzwdW
+Y0ETO42+5FWbJAcsTKj/q5yw6OGG8XKEkHm+PBdzwyhN8NGcDZl/xfzB8rK3z7sS
+m/vIspCxgfI5eDxQCkNaToSSvVLRqF6tD2v+ruKjguuQGU6D0LTe1OnA1ivVvAJ0
+d7aJhis6nPOonJ56wHuY6ch+QsHTYcsIZPOhXYhXz1MxKOS6IX1RXlySIerbzoMV
+AcZ4hbBcFlxT/AELJcqsNo6y6axLqAdNySTvzha5cH48tr3sv6KWmhab1eQKHMg3
+8XQ0WCFBE3IBWpJO7W6BznHv/x16QT/9y/90xVonPJlXv6ti/ZSxPXjAtEmzEwMf
+UCoJhV+ON4m+cG50v9QKv20iM8Vogve+CAny2eJULegoT68TqEq0oLw2AUwIiSIl
+ADi0wQqiYZ2pPiPNB3/otNluO+/fQHQbkDaqhCXBMUjR2PNljA5buVb4hkmJaAV6
+GUd3WPXTuZTVapbIwylezqj3+G4soPKGCR0NHS5vp/G/12XrtX2yzjiNCPm4SIMK
+IxpVeIm+T5YVauIHnpv7Py5wBACjmNOoQVRh/xTR/+BtQGkjBNbWSUkitPz8eQst
+UiqxyrP46kjY3br/JH0VEpxNUOF+IDS8k8+3OAz04GqZ6e7hQwc=
+=v0KQ
 -----END PGP SIGNATURE-----
 
---===============6384206001689995095==
+--===============5745763758316706406==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-279aa977f817-0fd8bac1eda9.txt
+Content-Disposition: attachment; filename=revlist-04feb5fd2c23-e550f2b2b4aa.txt
 
 30bdadc9aa3a684cd634c7fa49740b1151e7b2e5 scsi: ufs: core: Skip ABORT TASK for device management commands
 e510b597d8afca2e790e2b5429bc5e01e3386f65 scsi: ufs: mcq: Poll OCS after sq cleanup for device management commands
@@ -67,4 +67,4 @@ c0bb6614132c64205a3c40c32dc1494c1bfeffe1 scsi: target: Fix NULL pointer derefere
 08f08a6d49efc422258edba802faa4fc7677309e scsi: target: core: Parse APTPL res_type and res_scope as hex
 e550f2b2b4aab4c5f12db89d04d8978ce4ed7b4e scsi: mpi3mr: Validate reply frame size bounds
 
---===============6384206001689995095==--
+--===============5745763758316706406==--
