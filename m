@@ -1,42 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1536247288818619418=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 09 Nov 2026 22:43:55 -0000
-Message-Id: <179426423527.901596.18108996447030931141@gitolite.kernel.org>
-
---===============1536247288818619418==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/gerg/m68knommu
+Date: Mon, 09 Nov 2026 22:44:25 -0000
+Message-Id: <179426426585.902064.12230742936875292651@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/gerg/m68knommu
+user: gerg
 changes:
-  - ref: refs/heads/for-7.5
-    old: 281521f809f6a6ff406d082293faf1ed3bbfd949
-    new: c6bd51ce7f9d569d5b351776ac6d8d541ae90e2d
-    log: revlist-281521f809f6-c6bd51ce7f9d.txt
-
---===============1536247288818619418==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-281521f809f6-c6bd51ce7f9d.txt
-
-9c5ba93a5a1344278a5e2d44d532486f39710fd1 spi: axiado: remove redundant pm_runtime_dont_use_autosuspend() calls
-4a1cab30f7e0b16924fa7e3a7caa860058da258d spi: cadence-quadspi: remove redundant pm_runtime_dont_use_autosuspend() calls
-e5187e13ce1f729f0ef5102bee666b3b902c0f65 spi: cadence: remove redundant pm_runtime_dont_use_autosuspend() calls
-6d2a6ec8942d5659a46185f6a8a645c1cf37bd28 spi: stm32: remove redundant pm_runtime_dont_use_autosuspend() calls
-73f3bb4134f417980a4ea3cb95b4959446d28de9 spi: stm32-qspi: remove redundant pm_runtime_dont_use_autosuspend() calls
-affeee16b705a2dc6aba0de3754594524c4d39f8 spi: zynqmp-gqspi: remove redundant pm_runtime_dont_use_autosuspend() calls
-634d73e929cb1d5794c8623fc90634c757ab48fa spi: mtk-nor: remove redundant pm_runtime_dont_use_autosuspend() calls
-ca8b81eca7f16112f970893949c3de29ddd4b674 spi: orion: remove redundant pm_runtime_dont_use_autosuspend() calls
-b90c9acd16cbc1ed04514fc0fbc26bae1678e3ba spi: rockchip-sfc: remove redundant pm_runtime_dont_use_autosuspend() calls
-1fcfd0275515b111921dacfb34576ac66fa4e4e0 spi: rtk-nor: remove redundant pm_runtime_dont_use_autosuspend() calls
-ff3bd58298fc302ecf5fb8ef49cce6147308c796 spi: tegra210-quad: remove redundant pm_runtime_dont_use_autosuspend() calls
-c6bd51ce7f9d569d5b351776ac6d8d541ae90e2d spi: remove redundant pm_runtime_dont_use_autosuspend() calls
-
---===============1536247288818619418==--
+  - ref: refs/heads/cpu-model
+    old: 6217ad6f81c95c3046e6d406734dfdbf2aa85542
+    new: 58c86271c5936cfa826b7debadbfe964cb9cd747
+    log: |
+         f07208dc4586fea93844aed93fb5b64d68e18a04 m68k: support reporting CPU model name and revision
+         4f447f0473c4f4936cf71c5469092df5a800f9cf m68knommu: probe CPU identity for ColdFire 520x types
+         08bb06f5e742469237cc22d7571e443ff5272187 m68knommu: probe CPU identity for ColdFire 523x types
+         d4d66689377aa8105bcd8e0cc4dd1a1bc9511467 m68knommu: probe CPU identity for ColdFire 5249/5251 types
+         a61b2013a79eec449c923d8efd1285cbc238341b m68knommu: probe CPU revision for ColdFire 5272
+         f65e03a86e3cad4f883e6b3497d413b2e5bfd1d0 m68knommu: probe CPU identity for ColdFire 527x types
+         225d8b93d9fecaf66137d40b94ea6a04675f85fa m68knommu: probe CPU identity for ColdFire 528x types
+         fcac99ad47590f5b406b8324ebf247470305dbe7 m68knommu: probe CPU identity for ColdFire 53xx types
+         ba7bd71a3b74582d1f1e7188d0a9d451e5d86342 m68k: probe CPU identity for ColdFire 54xx types
+         58c86271c5936cfa826b7debadbfe964cb9cd747 m68k: probe CPU identity for ColdFire 5441x types
+         
