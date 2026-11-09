@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5721870971225948772=="
+Content-Type: multipart/mixed; boundary="===============3732949884518572344=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 16:49:03 -0000
-Message-Id: <179424294332.591870.5051261537956989588@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 16:49:06 -0000
+Message-Id: <179424294602.591968.16244115225195775144@gitolite.kernel.org>
 
---===============5721870971225948772==
+--===============3732949884518572344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-ff-layout-contention
-    old: 696c4d56737be8fbff0185264f6a723f2d884df4
-    new: 1eb60a19e85b05f8e9384bcc16c0331601bca9b9
-    log: revlist-696c4d56737b-1eb60a19e85b.txt
+  - ref: refs/heads/kernel-7.3/nfs-testing-canary-rdma
+    old: bfcd6262e2b47894584b583b3e400644a6cc1f9e
+    new: 4668d8e7e2151361d895945a12295f417e60d771
+    log: revlist-bfcd6262e2b4-4668d8e7e215.txt
 
---===============5721870971225948772==
+--===============3732949884518572344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-696c4d56737b-1eb60a19e85b.txt
+Content-Disposition: attachment; filename=revlist-bfcd6262e2b4-4668d8e7e215.txt
 
 7191a761a34b0dd7978450f7ba88f4aedd2c9f01 Revert "NFSv4: Fix a regression in the handling of CB_RECALL_ANY"
 a48bb64817f0657ce8ea739495dbe40e1c588692 Revert "NFSv4/pnfs: Free the netid when draining a data-server address list"
@@ -138,20 +138,9 @@ d67b899d1d99a22bc19a77ca52f94c3a0ee56524 NFSv4/flexfiles: pair the in-flight cou
 de861091c7ddb3fd38d96831da4824278c96fec6 NFSv4/flexfiles: rotate LAYOUTSTATS reporting across a mirror's stripes
 d97b39abf3e6667543c175cc155ffffc42e7ed10 NFSv4/flexfiles: take the report decision out of the critical section
 58b38f47672a335c480885d70c1f22a968025abd NFSv4/flexfiles: share one helper for the start of a read and a write
-73ad3349786f8fc90d026f4fe670442b1fe856e7 NFS: don't take inode->i_lock twice per direct I/O for the opening owner
-1d28dc2c52f0b731a878366b65878e8a424b8eeb NFS: take inode->i_lock in O_DIRECT write completion only when needed
-e80873a9b618d3531616c06bb865753b776a15e8 NFS: skip inode->i_lock for WRITE replies that cannot change the inode
-f14c73703afc4600620fd155d354314cb48ea09c NFS: don't take inode->i_lock to re-mark a stale atime
-8a6dc780e120a15262958f3e001351aab1c4f09e NFS: check for a delegated atime before taking inode->i_lock
-5eb3ba85dd1072c9b3f6066d742a7310b385cb3a NFS: skip inode->i_lock when a delegated timestamp is already current
-1ff986b5d85fa9048cd71008c728d0d810508bc9 pNFS/flexfiles: don't take inode->i_lock to release empty commit info
-9dadc70299ee383b82ac5e9e0da080e356164167 pNFS/flexfiles: look up the cached layout segment without inode->i_lock
-7148ac2872af0c3dfa0981e991f6890597ef0c46 pNFS/flexfiles: don't dirty the layout segment on every data server RPC
-b543a4b8c788c354db8b4f67cda044174ae9d1b9 NFS: only account read_io/write_io when an I/O mdsthreshold is in use
-13e320e96b0b824ab81d7582169c1567c908b924 NFS: finish stable O_DIRECT writes without the nfsiod round trip
-84626e2ede74fcdf33769c5376ce7a9822bdc6c9 NFS: admit O_DIRECT I/O without taking inode->i_rwsem
-ef3640f8864b8d2e1c596c694b43953cb185fdd3 pNFS/flexfiles: give the read-mostly layout segment fields their own cacheline
-4203a2a92b37202b94f0f29bb8c47caae312af48 pNFS/flexfiles: bound data server RPCs with pg_bsize instead of a per-page test
-1eb60a19e85b05f8e9384bcc16c0331601bca9b9 pNFS: hand the page I/O descriptor's layout segment reference to the header
+8406e27bc00e3df93e93bd4f11b44163254c3d16 xprtrdma: Allow reclaim when allocating a transport's initial requests
+7a6a411e1a24332547621422c4380722d8d84336 SUNRPC: Do not abandon the remaining nconnect transports after one fails
+8f9a914d42b9704b9c2804785df7e0ed457c1a72 pNFS: Report a data server left on a non-preferred transport
+4668d8e7e2151361d895945a12295f417e60d771 xprtrdma: do not clamp the FRWR depth below one chunk
 
---===============5721870971225948772==--
+--===============3732949884518572344==--
