@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3745437111292373565=="
+Content-Type: multipart/mixed; boundary="===============2141398526414377395=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 17:51:13 -0000
-Message-Id: <179424667317.644260.14361760213472746550@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 17:51:15 -0000
+Message-Id: <179424667599.644406.9399779235466829684@gitolite.kernel.org>
 
---===============3745437111292373565==
+--===============2141398526414377395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/fixes-from-stable-baseline
-    old: 82343cc93674c21d2e566836010aca9791dde123
-    new: a4c9a7b206d04a7a82785a128f7b4239690cbaab
-    log: revlist-82343cc93674-a4c9a7b206d0.txt
+  - ref: refs/heads/kernel-7.3/nfsd-testing
+    old: ca83d2bc485adfedb6be560f8d2789d5641ea725
+    new: dc66633e7ad3325683b696691c1e9c550886692c
+    log: revlist-ca83d2bc485a-dc66633e7ad3.txt
 
---===============3745437111292373565==
+--===============2141398526414377395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82343cc93674-a4c9a7b206d0.txt
+Content-Disposition: attachment; filename=revlist-ca83d2bc485a-dc66633e7ad3.txt
 
 463a54927aae562ec71f5def2c410de61d7efc74 Revert "NFSv4: Fix a regression in the handling of CB_RECALL_ANY"
 5264fa57a7bdbfe1ff831116c4fe470e64bdba2d Revert "NFSv4/pnfs: Free the netid when draining a data-server address list"
@@ -309,7 +309,20 @@ f3275afe1c4d7d26433d2f389e60c84b41f58056 NFSD: Honor OPEN4_SHARE_ACCESS_WANT_REA
 bb854bc3341fb7f7cca96303166ccffdcfd3fa34 nfsd: do not allocate blocks for an RW layout with a minlength of zero
 51e37331b4c4853321d09826bdb9dbebf8b7bf1f nfsd: pin source client while using COPY_NOTIFY stateid
 3d19a723922b7ce9748b3fffd25738c4a4a382c9 NFSD: Report a first-batch readdir error in the reply status
-a29333c641b244fe714a5afa92b8755b4909e71d ksmbd: fix named stream write and EOF handling
-a4c9a7b206d04a7a82785a128f7b4239690cbaab ksmbd: use the existing xattr name for a named stream
+8c9d552ae617255cb02060e1cc9dd0a11d8e47ce NFSD: Use direct I/O only for the last operation in a COMPOUND
+648d2808e2c4f1d893500a2c69b089372753e5ba NFSD: cut a misaligned direct-mode WRITE at folio boundaries
+bc9e35015afbe568cdba6754b6e71c33f13c4a73 NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
+a52a228db2243252390f4733129c4d0ceaf2e502 NFSD: only split a direct-mode WRITE for a worthwhile direct middle
+a5bf057ba66f6a4748d0537c1e2f3fef093a8606 NFSD: add direct_misaligned_dontcache debugfs knob
+4f7332631a30f6a5b67c365334f9f84332746470 NFSD: do not use direct I/O for a READ smaller than its alignment
+05506ee17351d46dfc5e2415f5d3011f5455198d NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
+57e0c7842b4c2cf37615657cb68cc44515515693 NFSD: add tracing for how direct-mode READ and WRITE are serviced
+9480ceefda006dddce30570ae3b0816b42f4c62e nfsd: add NFSD_CMD_FILEHANDLE_GET for root filehandle lookup
+8e0718b18e888e6f5935f6d1c6af23dd0cfaac51 NFSD: Add per-export read/write I/O mode settings
+c2f56df6dea716f1c2064b1838934ecfad85bc5f NFSD: Apply per-export I/O modes to READ and WRITE
+984af97b2000cb15b2a3a33af9d53b07e304c599 NFSD: Document per-export read_io= and write_io= options
+d51206adb7b68fe3347e092ac223a8d5eee240d2 NFSD: Keep per-export statistics across export cache updates
+06a47067ed21d48afa43563d61ed3a83ea0d9d8d NFSD: Count the storage reads of each export's READs
+dc66633e7ad3325683b696691c1e9c550886692c NFSD: Document how to choose an IO mode
 
---===============3745437111292373565==--
+--===============2141398526414377395==--
