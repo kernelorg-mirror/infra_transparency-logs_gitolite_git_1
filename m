@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0962623911365916358=="
+Content-Type: multipart/mixed; boundary="===============7027005674348257841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 09 Nov 2026 03:54:54 -0000
-Message-Id: <179419649441.4186722.4395392507545211848@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 03:54:59 -0000
+Message-Id: <179419649986.4186962.14863033622459417221@gitolite.kernel.org>
 
---===============0962623911365916358==
+--===============7027005674348257841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,57 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    new: 76455a2febb0af62978869b10503f8b134186e3c
-    log: |
-         6e862335a8d3a3c8bfc8488dc1c6fa81b83a83ee scsi: vmw_pvscsi: Add boundary check for cmd_map access
-         a3d959d2778f22b44c2df52cb70e78811c0e739e scsi: vmw_pvscsi: Clamp on e->dataLen in pvscsi_complete_request()
-         c78b78166c55ebd6ae0b378499abd519aee7a966 scsi: vmw_pvscsi: Add support for ARM64 architecture
-         b7545895b1c97b8fd0201ee6eac9cbeb57f1e3c5 scsi: core: Introduce scsi_cmd_needs_stu()
-         099fb3376bb73c29457782d917a3b68d846a9e87 scsi: core: Simplify scsi_eh_ready_devs()
-         d54e68b5c31cbfb108c1f22ec21bdf43c5133e0e scsi: core: Clear UNIT ATTENTION conditions with TEST UNIT READY
-         49da33f609929db6f6c3b8567d0e0cca6f9ae182 scsi: core: Escalate persistent UNIT ATTENTION conditions
-         c14818f4d2b46a67fa0d2fd8fd5ef3532245f07a scsi: core: Limit retries of commands that receive UNIT ATTENTION
-         76455a2febb0af62978869b10503f8b134186e3c Merge patch series "Recover from persistent UNIT ATTENTION conditions"
-         
+  - ref: refs/tags/mkp-scsi-staging
+    old: 50cc6f7daf637fd45157dfbdeeeae093ed30aa12
+    new: 74517c57deaace10f81e72a386d3d0f0c4720158
+    log: revlist-50cc6f7daf63-74517c57deaa.txt
 
---===============0962623911365916358==
+--===============7027005674348257841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1794196492 -0500
+pusher 75C5DE3D 1794196497 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1794196492-5ab1ef0aadbe86df84ba34dabdf5d8c05f8b528a
+nonce 1794196497-d981136ccfb6ef98658edc73d346fed8c73ae128
 
-6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 76455a2febb0af62978869b10503f8b134186e3c refs/heads/queue
+50cc6f7daf637fd45157dfbdeeeae093ed30aa12 74517c57deaace10f81e72a386d3d0f0c4720158 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrxRA0ACgkQ7ulgGnXF
-3j1ATQ/+MWdnb4/lxbaQdOv3Mhi6CcMATn0UYSHim++fCLMF+pKzRWiJb3SZrJfO
-fD1K15VyqAUw8JbwhbQsm6Uub92I6OUKor4I1W/GOmF3VjShpF46D+EVs5ntkLMO
-ofXcuIwDIBoQtcAlZQjyWjLf1fDpShTDKSrAnIytARpux6YPN9ICa3QhuLPc6fCk
-BIISuQ3pi9WRt8dAUrpMgCz5enab7X34zC0kWw/k+6AB5LkwIzVALEQq5ohKp4Yo
-cSKPvfYOqCpYPmOivdDbkJ0CFSRgsJkVbI1ISShsaZDtwhWQ6RkCpUIB/4ywy6H1
-U/m3pYi6OaDXlLtMRNCpTW3VKO/Y+eO+lxrtiplMhD2XRAzxuI3CdPnrnjhjXFJi
-CsyO/zg8bPESNGQIbfL9/HBY+flWT4+rzfk6GIWuwQMNwYuMspDr+yJzzM/o5w7y
-Nco2LxpKdh3t8sBCtMOGMNSVW6UALQQqwGjr0bd0WanhzG/XD/etMFB5fmowYehf
-yPt2Xwh1KVPdcq+dJif2IqNJiKv/GCA07XDfLxeFv6CMf9WMDt0fP7eeVWT2ufmq
-7Q9bmd2hXRLXIsZNG30P870jVVpvJQgXXGpbWGkn854Ed4in/CffwKRAznEf9+OC
-9nQlXHj/9KmvI428PWQj0f/XPUTJ+GFYKJU2VWw0BV/20pDYnaY=
-=S68J
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrxRBIACgkQ7ulgGnXF
+3j0EsxAAr36X92xaSJz5yqS3mFIOYlM8REM/75xJfnlED+2M/kI0IFclYvvpheDg
+SqNRcEQ3HXWcEqlokvBlnIHKmuHi/U58p22qaksbr2JN8SOWUN+MUlW6cVzVK0KR
+K7ndij0tieEqZ52icmLQW0XBkl+NAY1yN8xOPW5W7zpEnK5iLwdXxtdihCXllrXt
+ey+aGjD8AVD8/mWvT9ncLjBTRVflKwsoYxagxA5HuKyMVtGF4BW/rdU9XRp8HZxb
+0IWVZxwWUhO4MxCDBLGBJUeoR8o9iJsIb7MsXcm/4ig3G+Bjgdnbxjnl5SNaHqmG
+EbEsHgswHZyYqbPHhPKx2CB116hTWlEHTDx9vylVjhqjtWJ0WoUDk1LNVwsIDUfx
+ze7DRau8tVySkeegUQukC2r6Rp3a7Ygb3AjeEXSlWWpcmgaTTpAYfCcCI33dqFE8
+02TVvRAeovhXhtjY6OegDCro/7yVcIqMZSUHkbU4AxcPx2SOFqoeNLxHdbN1epBB
+A3eR787NW/PakLRZn2miZBy28xYcml6K3z1oUUrj+cnbbuBaQfdgI2fo5Cl52j0X
+mzdDoCihoJLvDLxSyxUCalUcilZ236AmU8R6VibsGCDdNgr9maKgR7nq5VSxB5mz
+LXh6dbg/GR+KvZ6cfrRw+MiNf4FBEGngkR74ZmIZBhaglcEu8Jw=
+=GFmS
 -----END PGP SIGNATURE-----
 
---===============0962623911365916358==--
+--===============7027005674348257841==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-50cc6f7daf63-74517c57deaa.txt
+
+ae8ecbc1e28633bdb23cfb61d8048c4e8f52052d scsi: sd: Remove unused zone append tracepoints
+e1a17bf98f513a77e5e6903315c49f56ee009886 scsi: mvme16x: Enable 53c710 burst-8 hardware transfer mode
+746aa1d936b17679361e8d787c6480ccb7c21240 scsi: core: Move REPORT TARGET PORT GROUPS into the SCSI core
+e085b1d6b6aabd6a7dcd9f02135f9376ff39e95a scsi: core: Read the ALUA access state when a device is scanned
+6054ce4233dbc692f50da5517ad459fae1b14ac6 scsi: core: Match ULDs to logical units in the ALUA unavailable state
+0ba0ffc7748d83c6f8792fea31b569042a12f1b2 Merge patch series "scsi: Bind sd to LUs in the ALUA unavailable state"
+dc7ba60d45b105b91d4e2e9567b355fb4a043def scsi: core: Restart the queue when unblocking a device set running
+dd86dc1d86c892c75592d45e000499dfb20d2c62 scsi: qedf: Remove unesseary function call
+787fd1429b3603fdc69ebba864165478c4e73544 scsi: scsi_devinfo: Return an error when the proc write fails
+db1fe578b7eabc7f218b84fc18a626d07f377a69 scsi: scsi_transport_fc: Reject truncated FPIN payloads
+63d67440dc9f103aad38b14f409d6d6e54396746 scsi: target: iblock: Drop the dead kmap() NULL check
+0fc91e802801819a0c51d30b6eecac63ab4f85d2 scsi: target: core: Drop the dead kmap_local_page() NULL check
+
+--===============7027005674348257841==--
