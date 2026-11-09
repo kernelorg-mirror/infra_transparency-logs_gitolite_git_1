@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Mon, 09 Nov 2026 21:40:53 -0000
-Message-Id: <179426045314.854598.11555125579997555965@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 21:41:57 -0000
+Message-Id: <179426051706.855161.11309033159864094305@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,24 +11,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
-  - ref: refs/heads/block-7.4
-    old: 28f7d31c2aeb350df9a0116093fade0a840fb4ce
-    new: 8067050e7226844fb32062b5cea947e5897d3d7e
-    log: |
-         e5c463e5074a940c644d54d8fc29aba06709aab0 ublk: publish a new device by its id only once it is set up
-         8067050e7226844fb32062b5cea947e5897d3d7e ublk: don't take ublk_ctl_mutex in DEL_DEV
-         
   - ref: refs/heads/for-7.5/block
-    old: dc2ec1327db41fb8c7c0ae5a5e29654b6ca3fe17
-    new: f054479dcaa0b41cdff6d85d03fbeefd9750db7c
+    old: f054479dcaa0b41cdff6d85d03fbeefd9750db7c
+    new: aa7014f8d7565cfea117eac36a5de0a05eba65a4
     log: |
-         f054479dcaa0b41cdff6d85d03fbeefd9750db7c ublk: optimize ublk_queue_cmd_list() for length-1 lists
+         aa7014f8d7565cfea117eac36a5de0a05eba65a4 cdrom: fix brackets
          
   - ref: refs/heads/for-next
-    old: f987b8db1bcee0f12e637a17069da18b6d0bff34
-    new: df61222530aa34f63cc0640f2584398e874abbda
+    old: df61222530aa34f63cc0640f2584398e874abbda
+    new: f91abe9175899d49774676197f93591b574dc5a2
     log: |
-         e5c463e5074a940c644d54d8fc29aba06709aab0 ublk: publish a new device by its id only once it is set up
-         8067050e7226844fb32062b5cea947e5897d3d7e ublk: don't take ublk_ctl_mutex in DEL_DEV
-         df61222530aa34f63cc0640f2584398e874abbda Merge branch 'block-7.4' into for-next
+         f054479dcaa0b41cdff6d85d03fbeefd9750db7c ublk: optimize ublk_queue_cmd_list() for length-1 lists
+         aa7014f8d7565cfea117eac36a5de0a05eba65a4 cdrom: fix brackets
+         f91abe9175899d49774676197f93591b574dc5a2 Merge branch 'for-7.5/block' into for-next
          
