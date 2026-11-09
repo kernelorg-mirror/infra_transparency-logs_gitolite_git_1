@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7027005674348257841=="
+Content-Type: multipart/mixed; boundary="===============5855563256983776035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 09 Nov 2026 03:54:59 -0000
-Message-Id: <179419649986.4186962.14863033622459417221@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 03:55:03 -0000
+Message-Id: <179419650389.4188765.1356304056385694874@gitolite.kernel.org>
 
---===============7027005674348257841==
+--===============5855563256983776035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 50cc6f7daf637fd45157dfbdeeeae093ed30aa12
-    new: 74517c57deaace10f81e72a386d3d0f0c4720158
-    log: revlist-50cc6f7daf63-74517c57deaa.txt
+  - ref: refs/heads/7.5/scsi-staging
+    old: 76455a2febb0af62978869b10503f8b134186e3c
+    new: 0fc91e802801819a0c51d30b6eecac63ab4f85d2
+    log: revlist-76455a2febb0-0fc91e802801.txt
 
---===============7027005674348257841==
+--===============5855563256983776035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1794196497 -0500
+pusher 75C5DE3D 1794196502 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1794196497-d981136ccfb6ef98658edc73d346fed8c73ae128
+nonce 1794196502-1748b4f0c3d864978df7aaadd03ed42767f79078
 
-50cc6f7daf637fd45157dfbdeeeae093ed30aa12 74517c57deaace10f81e72a386d3d0f0c4720158 refs/tags/mkp-scsi-staging
+76455a2febb0af62978869b10503f8b134186e3c 0fc91e802801819a0c51d30b6eecac63ab4f85d2 refs/heads/7.5/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrxRBIACgkQ7ulgGnXF
-3j0EsxAAr36X92xaSJz5yqS3mFIOYlM8REM/75xJfnlED+2M/kI0IFclYvvpheDg
-SqNRcEQ3HXWcEqlokvBlnIHKmuHi/U58p22qaksbr2JN8SOWUN+MUlW6cVzVK0KR
-K7ndij0tieEqZ52icmLQW0XBkl+NAY1yN8xOPW5W7zpEnK5iLwdXxtdihCXllrXt
-ey+aGjD8AVD8/mWvT9ncLjBTRVflKwsoYxagxA5HuKyMVtGF4BW/rdU9XRp8HZxb
-0IWVZxwWUhO4MxCDBLGBJUeoR8o9iJsIb7MsXcm/4ig3G+Bjgdnbxjnl5SNaHqmG
-EbEsHgswHZyYqbPHhPKx2CB116hTWlEHTDx9vylVjhqjtWJ0WoUDk1LNVwsIDUfx
-ze7DRau8tVySkeegUQukC2r6Rp3a7Ygb3AjeEXSlWWpcmgaTTpAYfCcCI33dqFE8
-02TVvRAeovhXhtjY6OegDCro/7yVcIqMZSUHkbU4AxcPx2SOFqoeNLxHdbN1epBB
-A3eR787NW/PakLRZn2miZBy28xYcml6K3z1oUUrj+cnbbuBaQfdgI2fo5Cl52j0X
-mzdDoCihoJLvDLxSyxUCalUcilZ236AmU8R6VibsGCDdNgr9maKgR7nq5VSxB5mz
-LXh6dbg/GR+KvZ6cfrRw+MiNf4FBEGngkR74ZmIZBhaglcEu8Jw=
-=GFmS
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrxRBYACgkQ7ulgGnXF
+3j3nBg/8C/9f4iMv9sTLm//z6MLeAsZaiNRPtR+mAlCvV9m8WZb0xhySPxsFLfgH
+L4BxwpcjDgj3X0/cHLpVP1nKoCHLwKcdc7QDYmuSs/5OOjIL9koj0V7NGbtTNHHy
+GcWz83D7JdWlDGHrv8+v9YADZYNZGStlgqiERUHN2XLYodcDCBcyLz1nSqJHoMjJ
+DUcnaC2TTUzdhL4YZj0kjydRYdcs2gR1G+ITnzMxj6JpoyFd7qjj/woxQ6bSJ3+j
+rx8nWiAm5V6fkBDDDEmiJ+H1QTr/Kw0rkKPcPbSkXujf3lUSC0SIMWvKzXbN5jYy
+C2D3i27TYSRvlCChmVh0ynD9UUrxoHuKAGSiUcQ+QP6+qcIxRoMOFN2t53iukx6q
+u9hR7wTD1B6/AID1OmW4afelcCJcaU9aO2tvCZ89oOLa83cgcTIVFPCEy79MOm0x
+TU/xLlFwgHmB1YwgG8W09eqKtyYSXQ1LweeS/k0er6uP2id64m9WlaBbu45L1y13
+x4A458Qd57166hh7sVzhRzMufJrZRGpfyZBPTB8GkkYi/H/jC4E9ghkH3zXrj8qa
+XAxzKyWcIikSzJ8b/DT+Dk3aeT35gTphTG8yeM+R20YCCkOarr6nHdfqjoApL2OH
+SX9siaeCHaIeT983gnKy9vIg+v6pSA0zE9jT83Kp6fLcPyTi0z8=
+=QX5U
 -----END PGP SIGNATURE-----
 
---===============7027005674348257841==
+--===============5855563256983776035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-50cc6f7daf63-74517c57deaa.txt
+Content-Disposition: attachment; filename=revlist-76455a2febb0-0fc91e802801.txt
 
 ae8ecbc1e28633bdb23cfb61d8048c4e8f52052d scsi: sd: Remove unused zone append tracepoints
 e1a17bf98f513a77e5e6903315c49f56ee009886 scsi: mvme16x: Enable 53c710 burst-8 hardware transfer mode
@@ -69,4 +69,4 @@ db1fe578b7eabc7f218b84fc18a626d07f377a69 scsi: scsi_transport_fc: Reject truncat
 63d67440dc9f103aad38b14f409d6d6e54396746 scsi: target: iblock: Drop the dead kmap() NULL check
 0fc91e802801819a0c51d30b6eecac63ab4f85d2 scsi: target: core: Drop the dead kmap_local_page() NULL check
 
---===============7027005674348257841==--
+--===============5855563256983776035==--
