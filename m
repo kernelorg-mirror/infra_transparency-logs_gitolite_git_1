@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7814165881239098453=="
+Content-Type: multipart/mixed; boundary="===============4826871079611309559=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 17:59:10 -0000
-Message-Id: <179424715042.652544.17875771662778588487@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 17:59:13 -0000
+Message-Id: <179424715327.652739.4526371214946646465@gitolite.kernel.org>
 
---===============7814165881239098453==
+--===============4826871079611309559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-next
-    old: 3d19a723922b7ce9748b3fffd25738c4a4a382c9
-    new: c53d279762ed4a18addb26a33c23a69cc33c5864
-    log: revlist-3d19a723922b-c53d279762ed.txt
+  - ref: refs/heads/kernel-7.3/fixes-from-stable-baseline
+    old: a4c9a7b206d04a7a82785a128f7b4239690cbaab
+    new: cd49772f916abd57eaa9d0f93ee5dd0b70922e91
+    log: revlist-a4c9a7b206d0-cd49772f916a.txt
 
---===============7814165881239098453==
+--===============4826871079611309559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d19a723922b-c53d279762ed.txt
+Content-Disposition: attachment; filename=revlist-a4c9a7b206d0-cd49772f916a.txt
 
 8c8bf48766bf777625177069a2d40e6d47cd49fb Revert "NFS/localio: report the stability a DIO WRITE actually has"
 7293cb575d567da3ae844b148f0c5f6ce9e492e5 Revert "NFS/localio: fix nfs_local_dio_misaligned tracepoint"
@@ -317,5 +317,7 @@ c2444455d9ae97a9925a2d40ac370c1f61c7d4ca NFSD: Take a file unhashed during const
 1bda36b2072d2bca42887965a6096dc5e94f1825 nfsd: do not allocate blocks for an RW layout with a minlength of zero
 78a23d2a8399a440bc82e186cd87bea32799b3e8 nfsd: pin source client while using COPY_NOTIFY stateid
 c53d279762ed4a18addb26a33c23a69cc33c5864 NFSD: Report a first-batch readdir error in the reply status
+acff0ced533191f3fffe3df452fed7330c02e822 ksmbd: fix named stream write and EOF handling
+cd49772f916abd57eaa9d0f93ee5dd0b70922e91 ksmbd: use the existing xattr name for a named stream
 
---===============7814165881239098453==--
+--===============4826871079611309559==--
