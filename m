@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5305712570955203070=="
+Content-Type: multipart/mixed; boundary="===============5534371097713690462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 21:05:05 -0000
-Message-Id: <179425830500.825760.6892448425810007242@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 21:05:08 -0000
+Message-Id: <179425830874.825909.14009586139854712842@gitolite.kernel.org>
 
---===============5305712570955203070==
+--===============5534371097713690462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,86 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/jflynn-io500-canary
-    old: 53be8ce537a20313499833ba0baebd3a4ca2838a
-    new: 557d8aa998a8a828e9c6e8d44ae2842f6ae9f9df
-    log: revlist-53be8ce537a2-557d8aa998a8.txt
+  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part3
+    old: d95dd0320d63d6050e942e418519cc5d07b117b6
+    new: 7e482ea218f17cba7e7765173832b0b7c86e1d28
+    log: revlist-d95dd0320d63-7e482ea218f1.txt
 
---===============5305712570955203070==
+--===============5534371097713690462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-53be8ce537a2-557d8aa998a8.txt
+Content-Disposition: attachment; filename=revlist-d95dd0320d63-7e482ea218f1.txt
 
-6b9f39f8c8b134a46760a2855f2e7122d1445d8b SUNRPC: test page-pool loan recycling in the svcsock KUnit suite
-8008a835f1df81ab0a52352b2d27b1a1ae6488f8 SUNRPC: test region credit admission in the svcsock KUnit suite
-8a23123220e22a6baf1dfd1e7fa995ca60e5e762 SUNRPC: test early receive payload release in the svcsock KUnit suite
-f180c04e774bf7a11d8c97eb9821f6e97ba18fc9 SUNRPC: test copying small RPC records in the svcsock KUnit suite
-0aadf8d856decbc489788ff7a0fd96d70c2bc533 nfsd: test which COMPOUND operations keep a WRITE's receive loan
-591e6130b8493660602dfea7edb82d02a19786e4 SUNRPC: test orphaning a credited record in the svcsock KUnit suite
-d41f4e00395ea03d79c805e31af2d0695d8f9e2f SUNRPC: test region budget changes in flight in the svcsock KUnit suite
-ed456a930f48e17b601afbb0f3ed9f097fc47530 SUNRPC: test data arriving for a transport that waits for region budget
-6fb6b2c95361b0989a2de24fcef895d28d86cd5a SUNRPC: test region-only credit in the svcsock KUnit suite
-89d81afc3d116c540c89c4cd5c8aa2210861eaef SUNRPC: test the default region budget in the svcsock KUnit suite
-204a7173597b7616904aa070ad5e252169a07f00 SUNRPC: test that a budget change wakes a stranded credit waiter
-494e9bac488754f3578174273300916d25d12541 SUNRPC: test copying region records at a budget of 0 in the svcsock KUnit suite
-469c978359ee51bc94d7476c3b3281c69312b108 SUNRPC: test that a region transport holds its window through TCP
-5eba7f2ea847eaba21e2d0fd66d9cb0b385251ea SUNRPC: size the materialize-fault test from the loan table, not the page count
-7bf64be91388f79f6b5309834c90e3418ee51c72 SUNRPC: give the svcsock KUnit outer-receive fixture transport ops
-af79ebfbe4ab44db22c0653492091ab18cf5522c SUNRPC: test that region credit counts a page once in the svcsock KUnit suite
-31b479d7697b591e4427a1e93a814a1f794292da SUNRPC: run the capacity + 1 svcsock KUnit test where the table exceeds one skb
-5c0b243875c5fccb805215e911396cd2f0370d1e SUNRPC: test that a waiter read on from a collapsed queue leaves the credit wait list
-a2f3dc21059704b1077cd828578c648ac7b44404 SUNRPC: test materializing a record that holds a merge page in the svcsock KUnit suite
-2f617a60b13000413b71bdc42809e75bc7395da4 NFSD: test the per-end cut of a split write in the KUnit suite
-bea4009565f95d62887c1964be294c7eabb7b825 NFSD: give the KUnit split test's file a size
-f33cecf72c0665c6a231cb0d5fc2d34d2ce55c4c SUNRPC: test releasing more page-pool pages than one bulk batch in the svcsock KUnit suite
-b8c8e276b28b103893e88f50c8c57d603188aa4c SUNRPC: test the learned charge of a loaned record in the svcsock KUnit suite
-712f7cbf6901fcbd34600c03acf7aeda7878f96d SUNRPC: test what a held receive buffer is measured by in the svcsock KUnit suite
-4a885dd2ac9786d57a43f1edd37434619b588e1c SUNRPC: follow how a held receive buffer is measured in the svcsock KUnit suite
-a6976994b280edf5f04cc129b177c17b5e7510ba SUNRPC: follow the held window opened to half the buffer in the svcsock KUnit suite
-b417b65ab34a34ac448a30473ae16dfc0e86018b SUNRPC: Leave no factor fixed when a svcsock KUnit test ends
-28d6ef7ec9d915c94aa0fd36a903a4c2c12a1f22 SUNRPC: Leave the receive settings as the svcsock KUnit suite found them
-e75b6f206101ee629c96e4c96901180cd59e1192 SUNRPC: test the bound on pages sockets keep in the svcsock KUnit suite
-fe98b25a64e73806399b68ad61c338c991c8a1bd nfsd: test the disposition of a refused direct write in the receive-bvec KUnit suite
-5b7798952b697341dccadb70004cb86c51c2245f nfsd: expect IOCB_DONTCACHE_DEFER on a claiming buffered segment in the receive-bvec KUnit suite
-f619d4dae2dac622ede1aa635467cc3e19257404 SUNRPC: test that a credit waiter waits for what it asked for
-0863036d4db63b632d3a0e29566100857047a9de SUNRPC: test that a transport held again takes its new factor's window
-b7c6dd55fa8292c5961c27a43d8701c721e9a0d1 SUNRPC: turn the budget off mid-record in the merge-then-materialize test
-2152d43ebad602705a12fc4f76a7e3c7163d3f7b SUNRPC: hold the region key on while a test pool is bound to a region
-564dc9488ee153aebc237718e6461263050688bc SUNRPC: test the wait for the rest of a loaned TCP record
-9e4fba02a1c1ce87b5eeafe0ece6fceefce004a7 SUNRPC: test the hold-back of a loaned record at half the open window
-4ee31ab51644f95ab3d74d12f22870ceb89ade6e NFSD_TCP_WRITE_ZEROCOPY: add project documentation and test harness
-02cfd01292cbfd1ba5f56b334edad50eab5beef1 NFSD_TCP_WRITE_ZEROCOPY: record the merge top-up fix and the next regression run
-fefc43d9e7d86bedeff5cf0986e4f31bc42d4c45 NFSD_TCP_WRITE_ZEROCOPY: record the first regression run on v7.1.13-14
-b4a72014913ee32cae32f9f83619f4318f5e81b3 NFSD_TCP_WRITE_ZEROCOPY: scope the NVMe SGL support sub-project
-20a4a8686075d24d16265783737f529201571207 NFSD_TCP_WRITE_ZEROCOPY: record phase 1 of the NVMe SGL sub-project
-ef6350bd21ce33e8a8fe8ce3949c7f3b3cf1f267 NFSD_TCP_WRITE_ZEROCOPY: record the NVMe SGL phase 1 qualification
-e833c4e7c09c462157f6510b08b95988ad93911d NFSD_TCP_WRITE_ZEROCOPY: start the xeu SGL-compatible receive placement sub-project
-252043c156ea554216a9e19e20b56b33e372ede2 NFSD_TCP_WRITE_ZEROCOPY: test xeu rx_ip_align on the 64K page arm64 kernel
-3425b5ed01d43e31632193be147a7a6e8405501e NFSD_TCP_WRITE_ZEROCOPY: name the HS branch for the tardis1 xeu run
-fa58bd034f9a2e7adaf1104931bf3682251e96f8 NFSD_TCP_WRITE_ZEROCOPY: document the NVMe SGL check and persistent rx_ip_align
-3f1f336d88089338a4954e946cf532bfb426ed3b NFSD_TCP_WRITE_ZEROCOPY: record that tardis1's NVMe is PRP-only
-e8f8b751b127468d36c8c2c41dcc4dec02139be4 NFSD_TCP_WRITE_ZEROCOPY: scope the on-die receive copy sub-project
-79795d71769dfcf345f3805dd5212d047317d159 NFSD_TCP_WRITE_ZEROCOPY: index the new sub-projects and keep artifact sources
-08d04e5c96d68e04e416177305564365052aaf01 NFSD_TCP_WRITE_ZEROCOPY: record the hs.441 rx_ip_align kmod and the tardis1 tracer
-7036e96dc85ee559c44ad8e73acc5ad5e0a45ac8 NFSD_TCP_WRITE_ZEROCOPY: sync the NVMe SGL artifact source (v7)
-f19d4ef1ead9b39637d0a29a0465b65592b51656 NFSD_TCP_WRITE_ZEROCOPY: record the tardis1 rx_ip_align results
-faa459e6275d2588f4e044ed35d5eedf08a6eb51 NFSD_TCP_WRITE_ZEROCOPY: sync the NVMe SGL artifact source (v8)
-6f231b59ffd5162260bbb89b34d0485acb1abc83 NFSD_TCP_WRITE_ZEROCOPY: record the v7.1.13-19 rebase, the HS twin and the loan table fix
-66ca524e4d29136f0103d8c2624e50d035f48e49 NFSD_TCP_WRITE_ZEROCOPY: sync the NVMe SGL artifact source (v9)
-cef267bef28bc31d6447f59fe2df0e654faaa239 NFSD_TCP_WRITE_ZEROCOPY: Kill-switch oracle correlates classify/publish per record
-227e181ffe92e9237bc9b904f112db5b73b544c3 NFSD_TCP_WRITE_ZEROCOPY: review the Slipstream code drop and record what was taken
-10970559b25e069e5edf6243a8a91983b91386ef NFSD_TCP_WRITE_ZEROCOPY: scope the region's budget to the region (design and results)
-50dd831b896a2285290e99bf9f583068bb288634 NFSD_TCP_WRITE_ZEROCOPY: add the region budget's runtime harness
-5ef1a31497ffdb36adac9180b91792e1523867d7 NFSD_TCP_WRITE_ZEROCOPY: make the test scripts page-size independent and self-contained
-1970effe60095d49625f8b212a3d2449681a4983 NFSD_TCP_WRITE_ZEROCOPY: add the test kernel configs
-d411d8f89872ebe00316a8c1a2d2f1ca0484fa4b NFSD_TCP_WRITE_ZEROCOPY: add the tooling that takes the harness to another host
-34419b91f081d9b294ef84950fc8d4f0e4e702dd NFSD_TCP_WRITE_ZEROCOPY: record how a misaligned write is cut, and what is open
-fdc6886943edefc390a3452ade21e8376e5cd66b NFSD_TCP_WRITE_ZEROCOPY: record null_blk losing data, with a reproducer
-1c137d81aea852913668c63aa9d02b7c7534e633 NFSD_TCP_WRITE_ZEROCOPY: bring the on-die receive copy spec up to the 16 KiB run
-9159345bfd8bd526edcb7b37d329c839836dc9da NFSD_TCP_WRITE_ZEROCOPY: document the transplant procedure and its 4 and 16 KiB runs
-ffa56545146fc6bd585d86d1965f4c0c23010b8b NFSD_TCP_WRITE_ZEROCOPY: run the budget harness on NVMe/TCP storage too
-1a2c21236fc935ee30accadcea4e707e067f2dc5 NFSD_TCP_WRITE_ZEROCOPY: record a driver-neutral design for receive payload placement
 f4b5a3e6bdd180514d575d2a1d3fdc496df02ce0 NFSD_TCP_WRITE_ZEROCOPY: record the dm-delay fix and what it does to the throughput figures
 bcdc4bb24e5ceec6644ed82de2d26874289dac5b NFSD_TCP_WRITE_ZEROCOPY: record the full 16 KiB run on both kinds of storage, and drop the earlier ones
 03d7e65a654d1e2c7b56c9b24671d5acebe9d1e0 NFSD_TCP_WRITE_ZEROCOPY: repeat every budget phase on NVMe/TCP storage
@@ -1050,5 +981,74 @@ aaaa740ba700d1e3f9596ef96912c47e49964e39 SUNRPC: under svc_pool_siblings=N, hand
 dc4bc89114547063142d066331540d84765b2cc6 svcrdma: release a connection's core when its client disconnects
 88a3c207c45b353cabbd902702526880d0403a50 NFSv4/pnfs: send the last close's LAYOUTCOMMIT in the CLOSE compound
 557d8aa998a8a828e9c6e8d44ae2842f6ae9f9df LAB ONLY: make the CLOSE-compound LAYOUTCOMMIT settable at run time
+110fa23efe8940c93f40757ffe7d8b24b2d8326b NFSD_TCP_WRITE_ZEROCOPY: hold nfsd's rtc_read and rtc_write off in settled.sh
+833ef2da963bf8c45d1cc7fbaf2d704d1e26daf2 NFSD_TCP_WRITE_ZEROCOPY: build 514's runtime baselines in the tardis2 canary handoff
+8e6c6d51075630eeea17a9248a9db6bf002296a6 NFSD_TCP_WRITE_ZEROCOPY: hold sunrpc's pool_mode at pernode in settled.sh
+bedbb615358b031a7ba69a089e18a6f1894f73f4 NFSD_TCP_WRITE_ZEROCOPY: build 514's denied loans in the tardis2 canary handoff
+2a4cf7304ad8897365c73e371f83cf27fa7f2fed NFSD_TCP_WRITE_ZEROCOPY: build 514's nfsd cycles over 507 in the tardis2 canary handoff
+ecac4271fa895236c03b0621eff372fe27ebfe98 NFSD_TCP_WRITE_ZEROCOPY: the bulk return's A/B kernel in the tardis2 canary handoff
+41dcc074ce06a8af4f909e07d52cb970d5b5d5bd NFSD_TCP_WRITE_ZEROCOPY: tardis2's boot into the bulk return's A/B kernel, the handover
+7981abf2c7bc24ba4adcec1cd8eefdfba111eec8 page_pool: return a bulk's overflow to the receive region's slot at once
+9fd565b68aa83b1148bafc55161ef76019df52e1 NFSD_TCP_WRITE_ZEROCOPY: the A/B kernel's first boot lost port a in the tardis2 canary handoff
+3654d6396a6c8209a835ff9ad6285d560b40d8e5 Revert "page_pool: return a bulk's overflow to the receive region's slot at once"
+f126c918e7d4933b698d523c87fe85376402e27e NFSD_TCP_WRITE_ZEROCOPY: the bulk return's A/B, dropped, in the tardis2 canary handoff
+ea9723c8c09e3d4f82534c062647869c8320b592 NFSD_TCP_WRITE_ZEROCOPY: twoport samples a region with no low-water mark of its own
+340d5ad0f06f04ee64a01ae3b567dbb5a8a4364f NFSD_TCP_WRITE_ZEROCOPY: the bulk return did not grow the region, in the tardis2 canary handoff
+cbc681676dcb3f31f539899c855d69cf5bb49e51 page_pool: count the receive region's pages held and their peak
+11d7b6d292342644ba628a4f5939a67265082701 NFSD_TCP_WRITE_ZEROCOPY: the region's held mark, its boot and twoport's reading of it
+720b8a1cf3ba81da85bb1fe3274b1ffe58788049 NFSD_TCP_WRITE_ZEROCOPY: what to know before the held mark's runs, in the tardis2 canary handoff
+bd6fb89344fa758472f85b863905041d276b2749 NFSD_TCP_WRITE_ZEROCOPY: the held mark's first boot lost port a, in the tardis2 canary handoff
+3f1261bbd6e3ffe12eb8b2093409e6eea033a402 NFSD_TCP_WRITE_ZEROCOPY: the held mark's second boot lost port b, in the tardis2 canary handoff
+ba701a27607fc435cabea0004d3ac1a2a893dbba NFSD_TCP_WRITE_ZEROCOPY: a port dead after boot
+6a7b962e6090bd92b06ee52e7dd26daa4c9352d3 NFSD_TCP_WRITE_ZEROCOPY: a reload of xeu does not bring a dead port back
+eb29d111a8b455ff4d23283879e499a1ed960163 NFSD_TCP_WRITE_ZEROCOPY: a PCI remove and rescan does not bring a dead port back
+83bb64e143ee2f80492b8e5990cfb38a5c8d2451 NFSD_TCP_WRITE_ZEROCOPY: a function-level reset does not bring a dead port back
+68d2dbc7378e84e939875bb772d01c11ffc37e2d NFSD_TCP_WRITE_ZEROCOPY: a bus reset does not bring a dead port back either
+4edc5ecba33c34556365e0ee4aebb875d0a6cda9 NFSD_TCP_WRITE_ZEROCOPY: the held mark's third and fourth boots lose a port
+d70eec1b88cafc616a3bef2b1363c1d7c908ee04 NFSD_TCP_WRITE_ZEROCOPY: boot stock build 514 next, to count its lost ports
+9ab7c61ad9016e9ce7db8f55db1364158a10a105 NFSD_TCP_WRITE_ZEROCOPY: stock build 514 loses a port on its first boot too
+f2061f6ce244634ab483db3d8ef7faf35ff1be5d NFSD_TCP_WRITE_ZEROCOPY: stock build 514's second boot keeps both ports
+e4f3bcc787bbf308187c3f612eef1cb38e3b5699 NFSD_TCP_WRITE_ZEROCOPY: stock build 514's baselines again, on its good boot
+71bcdf8e58154ef31bb76411f6cf30c054893bc0 NFSD_TCP_WRITE_ZEROCOPY: boot the held-mark kernel again next
+ab52f23c3af80356e9d8d83e5157596f3f01e31e NFSD_TCP_WRITE_ZEROCOPY: the held-mark kernel's fifth boot loses port a
+f06bb966e6d67d278815c672a774935abcfe357a NFSD_TCP_WRITE_ZEROCOPY: the held-mark kernel's sixth boot keeps both ports
+c7980e679077b8fac43b131534048ba5f72a939f NFSD_TCP_WRITE_ZEROCOPY: the region's held mark, A/B on its sixth boot
+72016fd938357a654851d45791ef34304ca6c58b NFSD_TCP_WRITE_ZEROCOPY: keep the region's held mark
+f066327ecfa987d12162cde67c972e13c3247d50 NFSD_TCP_WRITE_ZEROCOPY: tardis2 boots the held-mark kernel by default
+163a8ef4a1876868834d0c93240093b1053d5b64 NFSD_TCP_WRITE_ZEROCOPY: 514 holds fewer region pages than 507
+8c6b67489cfbe80d207f35c2a2a8d4b84ae427b9 NFSD_TCP_WRITE_ZEROCOPY: stay on tardis2's sixth held-mark boot
+13f9e587265b8b31ebb474d4395cb96654332c2f NFSD_TCP_WRITE_ZEROCOPY: 514's rate gap is not the runs' order
+bb83bdbefbafa6046eab661c4376e1da17f2cad0 NFSD_TCP_WRITE_ZEROCOPY: 514's wakeups and its fast runs, from the logs
+071062b7b0afa7fa76cb0d8563f8e9e3f4493a38 NFSD_TCP_WRITE_ZEROCOPY: twoport.sh records the client's time by process
+bf58e5c27e3a2fdc774df599b4b13e0e7e5d6fe2 NFSD_TCP_WRITE_ZEROCOPY: twoport.sh records where the client sends from
+c7452c38716c3776255f0f7a036d53754fd568e2 NFSD_TCP_WRITE_ZEROCOPY: the client's fio pinned to its NIC's node
+40b9c6eb0160b3a6c6d11ecbfd6219aebb73ed7a NFSD_TCP_WRITE_ZEROCOPY: the client's workqueue scope, numa against cache_shard
+b46536dba790aef2476a5d48bd7a75af82eb0cdc NFSD_TCP_WRITE_ZEROCOPY: twoport.sh pins the client's writers by default
+bb21ef3c0cfd562917791dc3bf2dde0d90429c1f NFSD_TCP_WRITE_ZEROCOPY: twoport.sh sets the client's kworker scope and irqbalance
+47c70a81048eca379705f90628d9ed5d04d042ed NFSD_TCP_WRITE_ZEROCOPY: pinned with the numa scope, 514 reaches 70
+aace5d61c726840cea8e34035593af785d8af882 NFSD_TCP_WRITE_ZEROCOPY: the client's NIC IRQ placement is not the rate
+ea4c545058b7a6b81b15fc779191103574633ef3 NFSD_TCP_WRITE_ZEROCOPY: fl64, a profile at the client's new defaults
+0b4162455663a86f6590fe9c1aa22319b18fcd86 NFSD_TCP_WRITE_ZEROCOPY: round 62's trace and PMU, and a correction
+c83c535030a1584ca088f6296b2773f5aa2f9573 NFSD_TCP_WRITE_ZEROCOPY: round 62, the map walk is closed
+84443cd4a9b98d5a0d0508aa1b87f7f5d97e242b NFSD_TCP_WRITE_ZEROCOPY: the loan's misses, the transport queue's passes
+e26ef3fedfe045b461e2be4dc578fe65426ab013 SUNRPC: keep the fault hook's flag off hot lines for the KUnit suites
+74862a6901f648c5480305554bafe5dfb95f48eb NFSD_TCP_WRITE_ZEROCOPY: the KUnit flag off the spare counter's line
+c6bcbd13a824c924e7d81e3985b9f4f25b81c004 AGENTS.md: wrap every commit message at 72 columns
+87b9c985b9d9306a5ac45697110827805f7c5487 NFSD_TCP_WRITE_ZEROCOPY: round 64, the KUnit flag off the counter
+4057b8c6d1250d85a50ee7e87e2b681ec8e1e559 SUNRPC: Keep each of struct svc_pool's counters within one cache line
+197774c20a62aacc21b4abefb0a18e6e303d971f SUNRPC: Hand an enqueued transport to the idle thread claimed for it
+5f97a2c7630de572b5a01be28a664d2c66d9e6e5 NFSD_TCP_WRITE_ZEROCOPY: round 65, the queue's line and the handoff
+e02a938b9963d789598d7e79d6101e557ef42e37 SUNRPC: Prefetch a pool's transport queue at the start of svc_recv()
+97a523d4e572eb21f430ef652b1e63c28224cb81 NFSD_TCP_WRITE_ZEROCOPY: round 65, where the split's cycles went
+4d0aa55e0d26ea5fe60bf62c2ca013dde3ab19eb SUNRPC: Read a pool's flags before clearing them on each wakeup
+2035f83c09afee9a0b0a3539ab91147a1cd5e19d NFSD_TCP_WRITE_ZEROCOPY: read a perf script compressed with xz
+a9fda2cdc2085cb77aae3a46847a1595312dcab4 NFSD_TCP_WRITE_ZEROCOPY: rounds 66 to 69, the queue miss and the layout
+822f8e6f502bf19faa75c3bce97eae45c5c8ec47 NFSD_TCP_WRITE_ZEROCOPY: round 70, the pool's flags read before cleared
+0addeb5356af812fa8fcdab53c8cc0266ebc1c56 NFSD_TCP_WRITE_ZEROCOPY: round 71, the pool's flags on the queue's line
+cbc5bf81ee21cb7a74cbd8397e15d3ea60ac0361 NFSD_TCP_WRITE_ZEROCOPY: round 72, nfsd's loop on the thread's own flag
+4bc7c9ae998b53f84b79bff7a5068fab9f5d780d NFSD_TCP_WRITE_ZEROCOPY: round 73, the handed transport's reference
+b057f4aa6e8563bbea51fee0d1510fb37f87d3a6 NFSD_TCP_WRITE_ZEROCOPY: round 74, PF against B
+bd38bdd178636e1db92cb77c802a8db87c3ebe9f NFSD_TCP_WRITE_ZEROCOPY: keep rounds 72 and 73's dropped patches
+7e482ea218f17cba7e7765173832b0b7c86e1d28 NFSD_TCP_WRITE_ZEROCOPY: round 75, each pool counter within one line
 
---===============5305712570955203070==--
+--===============5534371097713690462==--
