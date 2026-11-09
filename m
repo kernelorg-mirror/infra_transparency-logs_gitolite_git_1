@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0443748165170958972=="
+Content-Type: multipart/mixed; boundary="===============7790770033831294176=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 09 Nov 2026 08:31:07 -0000
-Message-Id: <179421306785.194291.6806149125689837981@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 08:32:11 -0000
+Message-Id: <179421313163.194954.14599730800634503200@gitolite.kernel.org>
 
---===============0443748165170958972==
+--===============7790770033831294176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,32 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: bf99bda3f290163a455643a3c02a8ea5cc5249c8
-    new: f1c713311142a1db31aee065b78035adb556dad7
-    log: revlist-bf99bda3f290-f1c713311142.txt
+    old: f1c713311142a1db31aee065b78035adb556dad7
+    new: 7d52f45955f2a4100433a24ba64fda0b9e236306
+    log: |
+         80dca708354b011b2039557a42a935cd8173d95d Merge branch into tip/master: 'x86/urgent'
+         228da6e39e8bdff76fd1413cadba1d5b0e56352d Merge branch into tip/master: 'core/rseq'
+         3667f686a31c0d40812cc2f29b69b729bc4137ba Merge branch into tip/master: 'irq/core'
+         c13b99c87c1ffea32879a0d3451a50d45da9dadb Merge branch into tip/master: 'irq/drivers'
+         3d275345daf84b1dd664c3fc4e66d7147d09be19 Merge branch into tip/master: 'locking/core'
+         5fd8ce18402491cb05d45503b90936cb508ed8b5 Merge branch into tip/master: 'x86/apic'
+         6a134163a8a9ddc355bfd0d8f165f06e67bdfb41 Merge branch into tip/master: 'x86/cleanups'
+         56969496e3ff7865b53fafc499feb2cb0f3f9891 Merge branch into tip/master: 'x86/misc'
+         7d52f45955f2a4100433a24ba64fda0b9e236306 Merge branch into tip/master: 'x86/sev'
+         
+  - ref: refs/heads/tip/urgent
+    old: 04ecd7edbb87e17ca806d05f6394795ca4d50905
+    new: 80dca708354b011b2039557a42a935cd8173d95d
+    log: revlist-04ecd7edbb87-80dca708354b.txt
+  - ref: refs/tags/v7.4-rc2
+    old: 0000000000000000000000000000000000000000
+    new: fd9230005e85472b81c1c7c16afe93dd878996b1
 
---===============0443748165170958972==
+--===============7790770033831294176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf99bda3f290-f1c713311142.txt
+Content-Disposition: attachment; filename=revlist-04ecd7edbb87-80dca708354b.txt
 
 14098e496671dd5ae83999f89c6a80a86872792c rust: io: fix unused Flags::from_raw warning without CONFIG_PCI
 ef179363b04306dbc645c53207b9ad3516ebc75f kernfs: avoid READ_ONCE() on a kgid_t in kernfs_new_node()
@@ -60,10 +77,6 @@ a3e52dcf0fbaa1a103accef3e8861cdc250ee5d6 ata: libata-scsi: fix MODE SELECT field
 7c972e73641cbe5f77f63c336de15c7a30268d49 ata: libata-scsi: set the field pointer when rejecting CDL
 6b67cdb463b006e57f15e3fe4ea03b00f0ac9ee5 ata: libata-pmp: disable the SEMB port on Marvell 88SM9705
 a4845f077415ef32fe672c841e2fc58ae9e28273 ata: libata-scsi: reject data-in commands with a data-out buffer
-403e2849fb51a1b8ca06a5fe70d75ee635d79520 genirq/debug: Re-implement flags printks in print_irq_desc()
-b22795dece39a7e200a1eb750ee3511ac892816d genirq/msi: Avoid freeing borrowed firmware nodes
-6c62ec6029c1480262b9691d8792ff0aa04adba5 genirq/spurious: Recognize handled IRQs with threaded wakeups
-39512299c085723a334a5c50b999d661d9de64af genirq: Ignore tot_count for handle_percpu_irq() interrupts
 bef911b8064db38d32ccfed7f05ac639978180d6 Merge tag 'rust-fixes-7.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 d1829ebf4ad888f1b73afee0f1d6e41734ca328a Merge tag 'locking-urgent-2026-11-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 40f3717a64edff0b91686e22208312114f7e2061 Merge tag 'perf-urgent-2026-11-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
@@ -73,25 +86,9 @@ d1829ebf4ad888f1b73afee0f1d6e41734ca328a Merge tag 'locking-urgent-2026-11-08' o
 25fccf436e6e978954bb2774170d1094889c3fc7 Merge tag 'firewire-fixes-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 8a65162514fbad21a2c58ffed65f42b27e92b163 Merge tag 'driver-core-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
-6cf0d999a18e799965cf2cf4a0157e257c805946 genirq/chip: Add guard_chained_irq() cleanup helper
-7f9b59f3447ad278768ad775c1753f82e720798d irqchip/imx-irqsteer: Call chained_irq_exit() on the handler error path
-f99f3c4acaff0df9393c1e6a3f28b7b974e01d95 irqchip/imx-irqsteer: Validate IRQ count before creating domain
-d2803ccf1334b8efbbeef704cc8b6b2a62d42d76 irqchip/imx-irqsteer: Dispose of parent IRQ mappings in remove()
-95cb660c28dcecf55b18dd185f5bbd3c185d5acb irqchip/imx-irqsteer: Convert to devm_pm_runtime_set_active_enabled()
-f98835ded6dcbb9df327023320d1947fecdfbff5 irqchip/imx-irqsteer: Mask all interrupts in probe()
-54ac29cd11115edd9f72f17aa4551658735f919d irqchip/imx-irqsteer: Let devres own the clock
-5ba8dd376dd1aef84f299c6ead82e65ffebe3018 irqchip/imx-irqsteer: Allow building as module
-2dc8bf99eefb6d811606b5a50e46fd507a7ab9d7 irqchip/imx-irqsteer: Dispose of child IRQ mappings in remove()
-8d095487a7bef8e060e360eb4d85aa1ab0fd62a5 genirq/irqdomain: Add devm_irq_domain_create_linear()
-0c0da722d7839e5250999416404d4a4055afb300 irqchip/imx-irqsteer: Use devm_irq_domain_create_linear()
 e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
-641890fe65068455c73f45288bc6f5e435650dd6 x86/sev: Fix kmemleak false positive for the RMP segment descriptors
 ea51d1a4c31fc8320c34f897dc5296a0bfc5c7ca x86/CPU/AMD: Don't print reset reason in VMs
-c30f0b988fce49785ffe20cc43cd531cdcec6d1a Merge branch 'linus'
-44ce70a0df46fb24368be3f4f0d544ae9a950b99 Merge branch into tip/master: 'x86/urgent'
-1d00cc8935a36189c249b4dba25d5d9ca5848ecd Merge branch into tip/master: 'irq/core'
-fd49809d60f331ef683ed21cd3c7c92d3d62e3ff Merge branch into tip/master: 'irq/drivers'
-f1c713311142a1db31aee065b78035adb556dad7 Merge branch into tip/master: 'x86/sev'
+80dca708354b011b2039557a42a935cd8173d95d Merge branch into tip/master: 'x86/urgent'
 
---===============0443748165170958972==--
+--===============7790770033831294176==--
