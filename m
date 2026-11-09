@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0360501795029707942=="
+Content-Type: multipart/mixed; boundary="===============9157108832553895912=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 09 Nov 2026 23:57:45 -0000
-Message-Id: <179426866586.963983.2417708575037216580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 09 Nov 2026 23:57:48 -0000
+Message-Id: <179426866838.964169.13578595301208086680@gitolite.kernel.org>
 
---===============0360501795029707942==
+--===============9157108832553895912==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
     log: revlist-6628e7d4c6b2-7475ea8b5861.txt
 
---===============0360501795029707942==
+--===============9157108832553895912==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1017,4 +1017,4 @@ e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.ke
 e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
 
---===============0360501795029707942==--
+--===============9157108832553895912==--
