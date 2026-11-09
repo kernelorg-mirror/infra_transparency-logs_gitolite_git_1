@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 08 Nov 2026 23:58:31 -0000
-Message-Id: <179418231151.3964921.8040468071791061462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 09 Nov 2026 00:23:17 -0000
+Message-Id: <179418379791.3982140.14069370671025354291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 360785ef5c10075a7c24cef16d6dffab765176e2
-    new: b763416a746ff211186dd75ffa5f1b52c27dd2ee
+    old: e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec
+    new: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
     log: |
-         f22933c1fa872eb3d440d1866f320db5b0f92b5a patches/mm: update
-         b763416a746ff211186dd75ffa5f1b52c27dd2ee patches/next: rebase to the latest mm-new
+         7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
          
+  - ref: refs/tags/v7.4-rc2
+    old: 0000000000000000000000000000000000000000
+    new: fd9230005e85472b81c1c7c16afe93dd878996b1
