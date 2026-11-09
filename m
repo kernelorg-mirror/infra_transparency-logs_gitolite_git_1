@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3875981613881261943=="
+Content-Type: multipart/mixed; boundary="===============8027778071008375277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 16:48:21 -0000
-Message-Id: <179424290191.589363.3847411416164884489@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 16:48:24 -0000
+Message-Id: <179424290473.589512.12972754121500793477@gitolite.kernel.org>
 
---===============3875981613881261943==
+--===============8027778071008375277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/anna-nfs-next
-    old: 757194695f1b20171f4ff8376d8f9187c9af8ef5
-    new: 38c9fba97ab9792ed018ff4a62328cbb15bcfb70
-    log: revlist-757194695f1b-38c9fba97ab9.txt
+  - ref: refs/heads/kernel-7.3/snitzer-nfs-fixes-canary
+    old: bf85f64e703bf52d8164455ae0d5fc62814ef978
+    new: 81299a9d60695e10bd3eb93b25db772a1eae744f
+    log: revlist-bf85f64e703b-81299a9d6069.txt
 
---===============3875981613881261943==
+--===============8027778071008375277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-757194695f1b-38c9fba97ab9.txt
+Content-Disposition: attachment; filename=revlist-bf85f64e703b-81299a9d6069.txt
 
 7191a761a34b0dd7978450f7ba88f4aedd2c9f01 Revert "NFSv4: Fix a regression in the handling of CB_RECALL_ANY"
 a48bb64817f0657ce8ea739495dbe40e1c588692 Revert "NFSv4/pnfs: Free the netid when draining a data-server address list"
@@ -117,5 +117,9 @@ b2745630defe2c5b65f9737b3cf5c702e303ed50 SUNRPC: preserve timeout policy when cl
 0acca377d62e79586ed332f41e574e7fb2ee43f0 SUNRPC: Fix TCP-with-TLS transport class identification
 56c56ecd4e5d409b64d658988bdd88f1f237e039 SUNRPC: Balance switch queue length on transport removal
 38c9fba97ab9792ed018ff4a62328cbb15bcfb70 SUNRPC: Balance queue accounting when relocating a task
+860cf88fa2a48a928f3800ee436d86bd34b56a59 NFS: don't release the open context of a failed write from writeback
+5efe237bf3b4ad57d4210a4b34bc640570d59c82 NFS: don't run the release of a WRITE or COMMIT in the submitter
+94ac77955b649f70760ef8eea75d15d111fe8b94 NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
+81299a9d60695e10bd3eb93b25db772a1eae744f NFS/localio: don't run the release of a failed COMMIT in the submitter
 
---===============3875981613881261943==--
+--===============8027778071008375277==--
