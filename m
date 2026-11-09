@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4396595605216675574=="
+Content-Type: multipart/mixed; boundary="===============6407372257805689748=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 09 Nov 2026 23:16:49 -0000
-Message-Id: <179426620966.929446.6786316958734989911@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 23:17:13 -0000
+Message-Id: <179426623311.929774.5791174506439097373@gitolite.kernel.org>
 
---===============4396595605216675574==
+--===============6407372257805689748==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,40 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/libcrypto-next
-    old: 557472191410f04b28755a73527e2d488da929a8
-    new: 33b4f31b1aea3f62b61c892daefc0e6a77859032
-    log: revlist-557472191410-33b4f31b1aea.txt
+  - ref: refs/heads/libcrypto-fixes
+    old: 01ad209f122b7c173477bd60c7997564f9c65961
+    new: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
+    log: revlist-01ad209f122b-7475ea8b5861.txt
 
---===============4396595605216675574==
+--===============6407372257805689748==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-557472191410-33b4f31b1aea.txt
+Content-Disposition: attachment; filename=revlist-01ad209f122b-7475ea8b5861.txt
 
+8f1f7f664c1822af34c5465f9820b4e39146786b apparmor: Fix namespace reference leak in __aa_find_or_create_ns()
+f292873ceb4bd3a1a0f75f884361cd556e457692 apparmor: fix a use-after-free in aa_lookupn_ns()
+2f764c08bb191a8c8f4051926dba0d25d195f39b apparmor: check connect permission for SCTP
+fd0909e963ed8f36967bd072ed484be7babe46de netdev-genl: ignore NETDEV_UNREGISTER rebroadcasts
+1c8b49851543f41fc8bb18bcd1f15cc93d14b530 io_uring/timeout: count cancelled timeouts in cq_timeouts
+db2c610df81e34d497f49b68a0a1681c3f203bdb eth: bnxt: recycle agg buffers when Rx head buffer allocation fails
+09f10efee6f93863ea71489ce84563f4d51787f6 eth: bnxt: resize Rx head buffers when rx-copybreak changes
+1b2f02fb4ba92d01603c8261c94be8d348de65b0 eth: bnxt: don't leak buffers when XDP agg buffer allocation fails
+c10f3420d59859df107838aa97b49357616d9b47 eth: bnxt: free XDP frags when xdp_do_redirect() fails
+364b88b54fc260d22ee318bae862c2d7d8c31dc6 eth: bnxt: hand XDP frags over to the copybreak skb
+3e3aebb7570ccdde5cc49c9bfc8fd3a436b71b0c io_uring/net: fix multishot recv length limit accounting
+59e72644a7e697fdaf3494e8df8af9ab2b2ba31d Merge branch 'eth-bnxt-fix-rx-buffer-leaks-under-oom'
+dc4dd12f80e499dc034710cd8195489abcf0b059 net/packet: check TX_RING fragments before memory accounting
+de788d8a7032475f900c16e9cc0c1417f4f719eb gro: do not GRO GSO packets with inconsistent payload
+4f45e97b3aac2282f2b436d97338c9c2c484d093 net: bgmac: fix TX DMA unmapping and slot cleanup
+dbd62ad55a4c898f5a4c9edb20c0c062afb799df tcp: avoid double destroy in tcp_abort() of an unaccepted child
+7a82f9a06459ff1c37b5e97b204430442cc076e3 apparmor: fix check SCTP bind, and connect permission checks
+c1df9c0c0536393de43310f84ca4f8b217271a00 tcp: fix reordering addition overflow in MTU probing
+b7ff0e7a9ae3df2f123807a7e670bc348b1e1b9d tcp: initialize mapped children before route lookup
+2519a6fe7a8bba57a961eb804e43e7df35ac40fe net: add eth_type_trans_careful()
+093a28998374f4007ffe67cc661f8192c1b062a9 loopback: use eth_type_trans_careful()
+695e1408eb908ac7acf78069933201f92b95727c net: use eth_type_trans_careful() in __dev_forward_skb2()
+b55e5a0159c8f53edefcb7848d95eb93db37bce1 openvswitch: use eth_type_trans_careful() in internal_dev_recv()
 498c631f9c6d74aad4bf43039fa3ce70ae9a8bb7 net/sched: act_ife: do not consume the inner header on egress
 c9897252a66b43a17d04c19bc7303fd6539a56ba Merge branch 'net-fix-eth_type_trans-crashes-on-skbs-coming-from-the-stack'
 b45d37740cfb4bdfccef3fbd9fd970fd3224438f netlink: check sk_rcvbuf before charging the dump skb
@@ -1027,28 +1050,5 @@ e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.ke
 8a65162514fbad21a2c58ffed65f42b27e92b163 Merge tag 'driver-core-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
-44a6f67221730c6da7108428b660853cbe62bf44 unroll: Drop the unused unrolled and unrolled_none macros
-93f1bacd1626b4e24812c7f7347184dfd31ca06c lib/crypto: aes: use memzero_explicit() instead of memset()
-c610df93f7bc474252ca633b1ca4ae26a5201f37 lib/crypto: poly1305: Hide the mask value from compilers
-6f28308e5004c69b6e575f5224383a24c80133f7 lib/crypto: aes-cmac: Hide selection mask value from compilers
-aa93d1a913801c10a16747f51d5b07a4d6006b7b lib/crypto: gf128hash: Hide selection mask values from compilers
-76c486b0d829a5cc86571970797e0c24f6d62313 lib/crypto: gf128mul: Hide selection mask values from compilers
-db685de126df4aa65cf0107afd64207ff3b7a5f9 lib/crypto: x86/chacha: Rename the AVX-512VL assembly file
-87c79c7ac68f1f9f82d0d3f185b48e8fd7e883d8 lib/crypto: x86/chacha: Wrap the 8-block AVX-512 code in a macro
-09a4cf84966c4f6314fb9175ab60d0a120b92bb3 lib/crypto: x86/chacha: Add a 16-block AVX-512 function
-fc95fd9d6d55ff4baf810ad22650d90bd916c86d lib/crypto: x86/chacha: Use bzhi to simplify mask generation
-afe5a89ebacf02d59933e4bec9a073db76fafbe6 lib/crypto: x86/chacha: Remove vzeroupper at beginning of functions
-2165a3643723f9a09501bd0d5c0f71179c084f1f lib/crypto: x86/chacha: Improve interleaving in chacha_8block_xor_avx512vl()
-c87fc4985fed444ade1f30a973266581eaf94986 lib/crypto: x86/chacha: Avoid overly-narrow keystream XORs
-3a5bc5dd2e9a5476c9ddca67c8b26072ffd00069 lib/crypto: x86/chacha: Simplify chacha_dosimd()
-24070210611f6e4192f9a9c7c9d76ece909ab19c lib/crypto: x86/chacha: Eliminate more never-taken branches
-0f43df5c0f6c7fb42f142063ef55949154f36f5b lib/crypto: x86: Opt out of initializing MXCSR and 387 state
-92541fb67b3347c2a3f56b8e261f824e14d4f7c4 crypto: x86 - Opt out of initializing MXCSR and 387 state
-c0bb7527751d2a42915892c6742cbe60c2047e83 lib/crypto: x86/nh: Optimize nh_sse2()
-f67965e3c0047d8f525984ad5f09db3352769db6 lib/crypto: x86/nh: Optimize nh_avx2()
-ac2861016a501d03165080d6c05b5bd4a562ff16 lib/crypto: x86/nh: Remove unnecessary check for SSE2 support on x86_64
-6671b8e86e600b3d5903379faab9457964338223 lib/crypto: docs: Add a sentence about zeroizing raw key material
-17a2c21d2c14efc6083d9af1d838ac5dff47f1c6 lib/crypto: tests: Add KUnit tests and benchmark for ChaCha
-33b4f31b1aea3f62b61c892daefc0e6a77859032 lib/crypto: tests: Add some additional lengths to the ChaCha benchmark
 
---===============4396595605216675574==--
+--===============6407372257805689748==--
