@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Mon, 09 Nov 2026 04:09:38 -0000
-Message-Id: <179419737810.4337.18135778040445354780@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Mon, 09 Nov 2026 04:16:50 -0000
+Message-Id: <179419781019.10776.14128695340867521321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/master
-    old: 27cacaa87c630c931f5598b418d37ee6bc8b9cdf
-    new: f3d1585217b733b3fc2e60a200ac351d7fc9a9ae
+  - ref: refs/heads/exynos-drm-fixes
+    old: 19e67d977d3d4d0c54f03906ef578578190db9e1
+    new: d98911757cba1977e0ac435ad5eeb4e0f6961708
     log: |
-         f3d1585217b733b3fc2e60a200ac351d7fc9a9ae modinfo: remove hard-coded "foobar not found" messages
+         d98911757cba1977e0ac435ad5eeb4e0f6961708 drm/exynos: fimd: handle runtime resume failure for DP clock
          
