@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3616222731778023680=="
+Content-Type: multipart/mixed; boundary="===============6952801238286466527=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 09 Nov 2026 00:57:33 -0000
-Message-Id: <179418585333.4007600.153072677981509368@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 00:57:36 -0000
+Message-Id: <179418585632.4007796.5680947470091880404@gitolite.kernel.org>
 
---===============3616222731778023680==
+--===============6952801238286466527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: a0a0c785cbcaa72bb03c205eb61e5b0960b80ac2
     new: bd75869299f1d4ff6e9f45117cce28f8badee1cd
     log: revlist-a0a0c785cbca-bd75869299f1.txt
 
---===============3616222731778023680==
+--===============6952801238286466527==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -52,4 +52,4 @@ c9c277f5e08fe37780c7b130135c0295cf7c979f bpf, arm64: Multiply by constants with 
 a9fee553d3db7d2ad923a6f89d592cef9e3b4652 selftests/bpf: Extend the JIT instruction tests for arm64 encodings
 bd75869299f1d4ff6e9f45117cce28f8badee1cd Merge branch 'bpf-various-arm64-bpf-jit-improvements'
 
---===============3616222731778023680==--
+--===============6952801238286466527==--
