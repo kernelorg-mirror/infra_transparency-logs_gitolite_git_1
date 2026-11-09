@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8027778071008375277=="
+Content-Type: multipart/mixed; boundary="===============3709323191399909143=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 16:48:24 -0000
-Message-Id: <179424290473.589512.12972754121500793477@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 16:48:27 -0000
+Message-Id: <179424290740.589652.2698675234889964685@gitolite.kernel.org>
 
---===============8027778071008375277==
+--===============3709323191399909143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/snitzer-nfs-fixes-canary
-    old: bf85f64e703bf52d8164455ae0d5fc62814ef978
-    new: 81299a9d60695e10bd3eb93b25db772a1eae744f
-    log: revlist-bf85f64e703b-81299a9d6069.txt
+  - ref: refs/heads/kernel-7.3/nfs-testing-canary-localio-reprobe
+    old: 1b4948cd6e1bdbeedd1214c9ffae359c590af402
+    new: f79f4c378eaea8c88adc77f9eb3883fe4015f1f1
+    log: revlist-1b4948cd6e1b-f79f4c378eae.txt
 
---===============8027778071008375277==
+--===============3709323191399909143==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf85f64e703b-81299a9d6069.txt
+Content-Disposition: attachment; filename=revlist-1b4948cd6e1b-f79f4c378eae.txt
 
 7191a761a34b0dd7978450f7ba88f4aedd2c9f01 Revert "NFSv4: Fix a regression in the handling of CB_RECALL_ANY"
 a48bb64817f0657ce8ea739495dbe40e1c588692 Revert "NFSv4/pnfs: Free the netid when draining a data-server address list"
@@ -121,5 +121,8 @@ b2745630defe2c5b65f9737b3cf5c702e303ed50 SUNRPC: preserve timeout policy when cl
 5efe237bf3b4ad57d4210a4b34bc640570d59c82 NFS: don't run the release of a WRITE or COMMIT in the submitter
 94ac77955b649f70760ef8eea75d15d111fe8b94 NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
 81299a9d60695e10bd3eb93b25db772a1eae744f NFS/localio: don't run the release of a failed COMMIT in the submitter
+d35359e90fb4b582414b75e17e5403ec94da106c NFS/localio: hold the client across an asynchronous LOCALIO probe
+6d658656663069cb01901ab59885b3025527bccf NFS/localio: probe again for LOCALIO when localio_enabled is set to Y
+f79f4c378eaea8c88adc77f9eb3883fe4015f1f1 NFS/localio: give the LOCALIO probe a short timeout of its own
 
---===============8027778071008375277==--
+--===============3709323191399909143==--
