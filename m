@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6042575937304213868=="
+Content-Type: multipart/mixed; boundary="===============6949895196370550790=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Mon, 09 Nov 2026 20:28:04 -0000
-Message-Id: <179425608490.771009.2803731259603067834@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 20:28:17 -0000
+Message-Id: <179425609728.771277.3476896331476223165@gitolite.kernel.org>
 
---===============6042575937304213868==
+--===============6949895196370550790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/libata/linux
 user: cassel
 changes:
-  - ref: refs/heads/for-7.5
+  - ref: refs/heads/for-next
     old: cbf6aa9afafaaed2ebbce6069003eb7d6cce6373
     new: 3a533a66530ca0d2eac5e0278e57bc646ea13f43
     log: revlist-cbf6aa9afafa-3a533a66530c.txt
 
---===============6042575937304213868==
+--===============6949895196370550790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ f6e285e1851969384039637471696b109661696d ata: libata-transport: drop the dead GS
 54bd198407f26b0631a6804f800057752243a3f1 ata: libahci_platform: drop the dead error check
 3a533a66530ca0d2eac5e0278e57bc646ea13f43 ata: libata-zpodd: use a single exit in zpodd_get_mech_type()
 
---===============6042575937304213868==--
+--===============6949895196370550790==--
