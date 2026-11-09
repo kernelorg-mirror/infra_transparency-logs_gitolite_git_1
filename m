@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Mon, 09 Nov 2026 22:13:16 -0000
-Message-Id: <179426239693.878675.8514194095072256834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Mon, 09 Nov 2026 22:13:32 -0000
+Message-Id: <179426241275.879027.3022108540602050305@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
-user: vudentz
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/master
-    old: 530e411a49f32907094c4d89ce260659781576a2
-    new: 1f2ac56137c51be0601e18a163d817e02a15913f
+  - ref: refs/heads/driver-core-testing
+    old: e41d395163d41bdb0e0e07bf945f409251351d84
+    new: de7625abe4e92f1fb0047ed5f163b2ecaba77e50
     log: |
-         1f2ac56137c51be0601e18a163d817e02a15913f Bluetooth: L2CAP: Keep recvmsg from resuming a closed channel
+         de7625abe4e92f1fb0047ed5f163b2ecaba77e50 devcoredump: fix double free on device registration failure
          
