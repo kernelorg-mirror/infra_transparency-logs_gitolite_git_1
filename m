@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 09 Nov 2026 22:41:36 -0000
-Message-Id: <179426409692.900554.5205979675872364257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 09 Nov 2026 22:43:15 -0000
+Message-Id: <179426419533.901241.3140406267334467282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: 953eea4f6b1eb0ef769a4ce72216872359645463
-    new: 4a2fbfc9acc20ffda3cc1a185094ec6a93c4480b
+  - ref: refs/heads/for-7.5
+    old: 09a45aa6eeec59ad9ba13c32d41dd8b16525876e
+    new: 953eea4f6b1eb0ef769a4ce72216872359645463
     log: |
-         4a2fbfc9acc20ffda3cc1a185094ec6a93c4480b ASoC: samsung: i2s: unregister the secondary device when attach fails
+         953eea4f6b1eb0ef769a4ce72216872359645463 ASoC: soc-generic-dmaengine: don't request default channels from dma_dev
          
