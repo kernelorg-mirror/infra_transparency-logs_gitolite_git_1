@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Mon, 09 Nov 2026 11:09:34 -0000
-Message-Id: <179422257490.315531.10129350706386204403@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Mon, 09 Nov 2026 11:12:14 -0000
+Message-Id: <179422273433.318656.16909026049460120599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/tags/mm-everything-2026-09-09-03-05
-    old: d3a0767b950eb5ac096d00807e8ec6dd910e1937
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-09-09-04-12
-    old: 88d3446a18af652b56b72ab8b4d6251d7712cba8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-09-09-06-32
-    old: 19bac3dc47ff115cbb4d5b2c59da281729b41b5d
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/gfp-to-kmalloc/s390-sclp
+    old: fdc0556fc4c366ee2e0039ce928a4b3dfd256cd5
+    new: a65ab5c547fe8c179d978b262d31ea2fc526d4d9
+    log: |
+         ebf78d2be25cddf655a047614114c3bf18ea6209 s390/sclp_ftp: Replace get_zeroed_page() with kzalloc()
+         7a1496ca1ce0b8aad1f141a6a7561a5ac1dd31de s390/sclp_mem: Replace page allocator calls with k[mz]alloc()
+         a65ab5c547fe8c179d978b262d31ea2fc526d4d9 s390/sclp_ap: Replace get_zeroed_page() with kzalloc()
+         
