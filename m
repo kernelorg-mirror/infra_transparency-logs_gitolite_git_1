@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3308918639016229773=="
+Content-Type: multipart/mixed; boundary="===============3910536621095763424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 09 Nov 2026 13:44:34 -0000
-Message-Id: <179423187462.438406.15547147239092894469@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 13:44:43 -0000
+Message-Id: <179423188352.438654.12967274044549661505@gitolite.kernel.org>
 
---===============3308918639016229773==
+--===============3910536621095763424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 71f048a1f6786b4d64512fb97dfd4970aae6ddfc
-    new: 8c9ddebb300c719362a52a2d465f44e7d055778d
-    log: revlist-71f048a1f678-8c9ddebb300c.txt
+  - ref: refs/heads/m68k-queue
+    old: a2d7ef3b84e4bc68b746cc1e6398d3da8c053012
+    new: 967bd4161bb613dbeafd126d1fe91f5aef943bc6
+    log: revlist-a2d7ef3b84e4-967bd4161bb6.txt
 
---===============3308918639016229773==
+--===============3910536621095763424==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-71f048a1f678-8c9ddebb300c.txt
+Content-Disposition: attachment; filename=revlist-a2d7ef3b84e4-967bd4161bb6.txt
 
 5852cdf0006ff0f1d9a56f06197673d4e4270220 net/9p: fix typos in comments
 37dce65a0b4356d7ec289a5d09cece5db241c302 9p: use fc->net_ns for network namespace in RDMA and socket transports
@@ -1016,6 +1016,8 @@ e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.ke
 8a65162514fbad21a2c58ffed65f42b27e92b163 Merge tag 'driver-core-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
-8c9ddebb300c719362a52a2d465f44e7d055778d Merge tag 'v7.4-rc2'
+cfc9eeff262920b8107056017cb7d74a4aa098eb m68k: atari: usb: Add ISP1160 USB host controller support
+5b2c4f8a67300b0dc7999a2d508d316f8be3d0e0 m68k: atari: Update Kconfig.bus help text
+967bd4161bb613dbeafd126d1fe91f5aef943bc6 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3308918639016229773==--
+--===============3910536621095763424==--
