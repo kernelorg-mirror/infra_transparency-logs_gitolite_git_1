@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2141398526414377395=="
+Content-Type: multipart/mixed; boundary="===============7350542581294131948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 17:51:15 -0000
-Message-Id: <179424667599.644406.9399779235466829684@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 17:51:18 -0000
+Message-Id: <179424667886.644595.17371054840595248965@gitolite.kernel.org>
 
---===============2141398526414377395==
+--===============7350542581294131948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfsd-testing
-    old: ca83d2bc485adfedb6be560f8d2789d5641ea725
-    new: dc66633e7ad3325683b696691c1e9c550886692c
-    log: revlist-ca83d2bc485a-dc66633e7ad3.txt
+  - ref: refs/heads/kernel-7.3/nfsd-testing-canary-dontcache
+    old: 95907619f981d141d778376cb1ce29a57d14bae9
+    new: 026189fefc3d77a2236138f7fad5f3823c23de72
+    log: revlist-95907619f981-026189fefc3d.txt
 
---===============2141398526414377395==
+--===============7350542581294131948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ca83d2bc485a-dc66633e7ad3.txt
+Content-Disposition: attachment; filename=revlist-95907619f981-026189fefc3d.txt
 
 463a54927aae562ec71f5def2c410de61d7efc74 Revert "NFSv4: Fix a regression in the handling of CB_RECALL_ANY"
 5264fa57a7bdbfe1ff831116c4fe470e64bdba2d Revert "NFSv4/pnfs: Free the netid when draining a data-server address list"
@@ -324,5 +324,12 @@ c2f56df6dea716f1c2064b1838934ecfad85bc5f NFSD: Apply per-export I/O modes to REA
 d51206adb7b68fe3347e092ac223a8d5eee240d2 NFSD: Keep per-export statistics across export cache updates
 06a47067ed21d48afa43563d61ed3a83ea0d9d8d NFSD: Count the storage reads of each export's READs
 dc66633e7ad3325683b696691c1e9c550886692c NFSD: Document how to choose an IO mode
+30447e1219c5216ca343c623275a3b47ed9bb97f mm: move clearing the uncached flag of a found folio into a helper
+4e6d6ea6f97c5e88321e533a883e97a0ab9baa9d mm: take a folio off WB_DONTCACHE_DIRTY only if it was counted there
+759e97d4ff33125f1a60e2c06ef2e5743857b4c3 mm: expose WB_DONTCACHE_DIRTY in bdi debugfs stats
+db6f070db320adc4b876926ab88f6ef043e991d4 mm: add folio_mark_dropbehind() to mark a folio dropbehind and account it
+56ddcad7f52623f7cb5e09031a797bf544558092 mm, iomap: keep a partly covered page until an uncached write completes it
+f7d5c5b5884ca2595f468e84d38eb96122253f17 mm, iomap: let an uncached writer complete its shared pages itself
+026189fefc3d77a2236138f7fad5f3823c23de72 NFSD: drop a shared boundary page only once both WRITEs have written it
 
---===============2141398526414377395==--
+--===============7350542581294131948==--
