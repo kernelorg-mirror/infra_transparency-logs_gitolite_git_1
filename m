@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8125689006873842677=="
+Content-Type: multipart/mixed; boundary="===============6091350858473062624=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 09 Nov 2026 13:51:14 -0000
-Message-Id: <179423227402.445507.14515262820422901514@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 13:51:33 -0000
+Message-Id: <179423229394.445864.8224663368720523088@gitolite.kernel.org>
 
---===============8125689006873842677==
+--===============6091350858473062624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/main
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    new: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
-    log: revlist-6628e7d4c6b2-7475ea8b5861.txt
+  - ref: refs/heads/driver-core-next
+    old: c890943b295b2762656115b596f3d29aaa18751b
+    new: ec1db86e7bb3ec13c90456efac43659a723ac068
+    log: revlist-c890943b295b-ec1db86e7bb3.txt
 
---===============8125689006873842677==
+--===============6091350858473062624==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6628e7d4c6b2-7475ea8b5861.txt
+Content-Disposition: attachment; filename=revlist-c890943b295b-ec1db86e7bb3.txt
 
 5852cdf0006ff0f1d9a56f06197673d4e4270220 net/9p: fix typos in comments
 37dce65a0b4356d7ec289a5d09cece5db241c302 9p: use fc->net_ns for network namespace in RDMA and socket transports
@@ -1016,5 +1016,6 @@ e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.ke
 8a65162514fbad21a2c58ffed65f42b27e92b163 Merge tag 'driver-core-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
+ec1db86e7bb3ec13c90456efac43659a723ac068 Merge tag 'v7.4-rc2' into driver-core-next
 
---===============8125689006873842677==--
+--===============6091350858473062624==--
