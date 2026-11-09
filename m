@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0462974095052093938=="
+Content-Type: multipart/mixed; boundary="===============4040174075763113947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 20:57:29 -0000
-Message-Id: <179425784903.816877.6389766312397939921@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 20:57:31 -0000
+Message-Id: <179425785153.817041.15550251488501543517@gitolite.kernel.org>
 
---===============0462974095052093938==
+--===============4040174075763113947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO
-    old: a975722327e17527fa1c1ba3ce2da9bdc54b9b79
-    new: 64bc02e57c774ae42e71c3f7edb034d950eb7156
-    log: revlist-a975722327e1-64bc02e57c77.txt
+  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-i_lock-contention
+    old: 9e639969b21ea57a8fc8dbf5ba5e8bd8418a5343
+    new: bfd0a8ddf2e4abe98d5adf62778c489b54a38cbc
+    log: revlist-9e639969b21e-bfd0a8ddf2e4.txt
 
---===============0462974095052093938==
+--===============4040174075763113947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a975722327e1-64bc02e57c77.txt
+Content-Disposition: attachment; filename=revlist-9e639969b21e-bfd0a8ddf2e4.txt
 
-6481ed65b4cbd890ebdd433411b228405600d04c Merge branch 'kernel-7.3/snitzer-nfs-fixes-canary' into kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO base
 1d45910a1637a6b3043c0fd304b88ca6f7624603 NFSv4.1: retain MDS I/O until both thresholds are met
 1ccea1b3376a45d51de5a35024ab632767ed8686 NFS: honor UTIME_NOW atime with explicit mtime
 024762cc103f4822c6ad1683468063e863123a98 NFS: update ctime for atime-only UTIME_NOW requests
@@ -72,13 +71,5 @@ ce596813ec01e09f7b707de61c3197a0673b0ad2 NFS: check for a delegated atime before
 2ef4a8396f9e31c7ad6571f67e8d91fa8e23be8b NFS: skip inode->i_lock when a delegated timestamp is already current
 487e1c67288cad5462bce25c5d394dfecce5daad pNFS/flexfiles: don't take inode->i_lock to release empty commit info
 bfd0a8ddf2e4abe98d5adf62778c489b54a38cbc pNFS/flexfiles: look up the cached layout segment without inode->i_lock
-c4a357181d8b53ff958f58f5422ff8e7d7bba5b8 NFS: invalidate LOCALIO direct-write post-op attributes at completion
-8b0eba34002950cf996c8d3d816481175a3373b9 nfs_common: share direct I/O write split and boundary-page helpers
-1797781af6f2e3e5a9a736fc85a2198deb0344d1 nfs_common: share the rule for persisting a split direct write once
-1998c0f03af77e65c2ba2dae5272dd655ec7fd43 NFS/localio: split direct writes using NFSD provided nfs_common code
-674a9e1d30c7ab9230023d9dfd1fb2347a4766d9 NFS/localio: persist a synchronous direct write once, after all its segments
-8ed535e978e542565212d63e36335c3ca1801ec1 nfs_common: fix the skip accounting in nfs_dio_iter_aligned()
-06cc51f2e240ee9926bd8522ce814f4b9524b789 NFS/localio: complete a direct write that shares a page before it returns
-64bc02e57c774ae42e71c3f7edb034d950eb7156 Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO' into kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO
 
---===============0462974095052093938==--
+--===============4040174075763113947==--
