@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4826871079611309559=="
+Content-Type: multipart/mixed; boundary="===============6595951667987199049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 17:59:13 -0000
-Message-Id: <179424715327.652739.4526371214946646465@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 17:59:16 -0000
+Message-Id: <179424715670.652908.1749424871515862262@gitolite.kernel.org>
 
---===============4826871079611309559==
+--===============6595951667987199049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/fixes-from-stable-baseline
-    old: a4c9a7b206d04a7a82785a128f7b4239690cbaab
-    new: cd49772f916abd57eaa9d0f93ee5dd0b70922e91
-    log: revlist-a4c9a7b206d0-cd49772f916a.txt
+  - ref: refs/heads/kernel-7.3/nfsd-testing
+    old: dc66633e7ad3325683b696691c1e9c550886692c
+    new: 30876e437a82e8c2303242fa04593efb1dd208be
+    log: revlist-dc66633e7ad3-30876e437a82.txt
 
---===============4826871079611309559==
+--===============6595951667987199049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a4c9a7b206d0-cd49772f916a.txt
+Content-Disposition: attachment; filename=revlist-dc66633e7ad3-30876e437a82.txt
 
 8c8bf48766bf777625177069a2d40e6d47cd49fb Revert "NFS/localio: report the stability a DIO WRITE actually has"
 7293cb575d567da3ae844b148f0c5f6ce9e492e5 Revert "NFS/localio: fix nfs_local_dio_misaligned tracepoint"
@@ -317,7 +317,20 @@ c2444455d9ae97a9925a2d40ac370c1f61c7d4ca NFSD: Take a file unhashed during const
 1bda36b2072d2bca42887965a6096dc5e94f1825 nfsd: do not allocate blocks for an RW layout with a minlength of zero
 78a23d2a8399a440bc82e186cd87bea32799b3e8 nfsd: pin source client while using COPY_NOTIFY stateid
 c53d279762ed4a18addb26a33c23a69cc33c5864 NFSD: Report a first-batch readdir error in the reply status
-acff0ced533191f3fffe3df452fed7330c02e822 ksmbd: fix named stream write and EOF handling
-cd49772f916abd57eaa9d0f93ee5dd0b70922e91 ksmbd: use the existing xattr name for a named stream
+e50636fc379b656cf6cdb38a9a5335a1e654900f NFSD: Use direct I/O only for the last operation in a COMPOUND
+a1cdcee70b54102865bb7d27a794c4b8686928a7 NFSD: cut a misaligned direct-mode WRITE at folio boundaries
+b3c83e54cb7b0a76a760b4d84e90b043b7d236d9 NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
+1267796c54770570c657c73235d94e0ddc523511 NFSD: only split a direct-mode WRITE for a worthwhile direct middle
+99fd7d0cbceefe4c6dd3c2d39f051153b839c787 NFSD: add direct_misaligned_dontcache debugfs knob
+e6144aad7aad8fbdbc0c7407918ffabf8993cc11 NFSD: do not use direct I/O for a READ smaller than its alignment
+fd00b32fe4319cb9d5fbc81d50de165353ebb67b NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
+3e5d3b3a2c9e73ab554f9d53d013cdfc66ef196d NFSD: add tracing for how direct-mode READ and WRITE are serviced
+0f52fb509de69f58c92f41cf677494ba5e80c0bd nfsd: add NFSD_CMD_FILEHANDLE_GET for root filehandle lookup
+1df4046bc18465eea618944c3354d0860dee13a0 NFSD: Add per-export read/write I/O mode settings
+204bfe22d5562db197821e0c648179d177bfa2a3 NFSD: Apply per-export I/O modes to READ and WRITE
+8099855b027d20d3c02b569f30ca70af8ecc912d NFSD: Document per-export read_io= and write_io= options
+e487e730759a842e0fec99f85de3f82c128c3dfc NFSD: Keep per-export statistics across export cache updates
+88ae2c3aabcb5245776f4f5532a01eac062fe7ea NFSD: Count the storage reads of each export's READs
+30876e437a82e8c2303242fa04593efb1dd208be NFSD: Document how to choose an IO mode
 
---===============4826871079611309559==--
+--===============6595951667987199049==--
