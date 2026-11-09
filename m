@@ -1,29 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 09 Nov 2026 16:08:39 -0000
-Message-Id: <179424051935.557249.5823202192082425320@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jenswi/linux-tee
+Date: Mon, 09 Nov 2026 16:13:08 -0000
+Message-Id: <179424078890.560964.9970397831655127837@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/jenswi/linux-tee
+user: jenswi
 changes:
-  - ref: refs/heads/hwmon
-    old: 0ad0b97e0df27bab6ff89d8df92d806a3cd7574b
-    new: 2bcc91fca4e777ce2f3f53e2d6584f4e1299be7f
+  - ref: refs/heads/next
+    old: 7772d2e17dc2977c0c3d6c5a5fd3bc61df4640ba
+    new: e21989d08e0d6abacfff71387d0cb36dd96a4079
     log: |
-         5e74f1b11cf3722f165940d5f2ebca3b8079b73e hwmon: (scmi) Enable temperature sensors using their sensor IDs
-         4854915d5209891cc3f32bc5311359d32a7c7993 hwmon: (nct6775) Handle dual use registers
-         10a19faac3b50b8c74c69de4c95e65c10f1b631b hwmon: (scmi) Check channel config allocation
-         2bcc91fca4e777ce2f3f53e2d6584f4e1299be7f hwmon: (scmi) Configure sensors before exposing channels
-         
-  - ref: refs/heads/hwmon-next
-    old: ec921ef8d81acf0cc41b3f3b6db54698e9a2917f
-    new: 93b8c443efbf776a4e0526d26db82fe0c541a80c
-    log: |
-         a52f8a5840d3eb1c1f2e79e176d258fbe9221af6 hwmon: (nct6775) Avoid reading nonexistent PWM-mode registers
-         93b8c443efbf776a4e0526d26db82fe0c541a80c hwmon: (nct6775) Add support for NCT5525
+         76313284b6a34ae7fde7ce18f815d25bdb1f5e62 tee: avoid accessing dma-buf shared memory after put
+         e21989d08e0d6abacfff71387d0cb36dd96a4079 Merge branches 'optee_fix_for_v7.4', 'optee_for_v7.5', 'tee_fix2_for_v7.4', 'tee_fix3_for_v7.4', 'tee_fix_for_v7.4' and 'qtee_fix_for_v7.4' into next
          
