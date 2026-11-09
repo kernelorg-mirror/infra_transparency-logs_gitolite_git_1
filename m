@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Mon, 09 Nov 2026 11:21:48 -0000
-Message-Id: <179422330848.327879.2420126334481341309@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 09 Nov 2026 11:30:25 -0000
+Message-Id: <179422382577.334276.2948231406697382998@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/smb
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: 2f14fe2d589583ce649b2bf1b449cc9839abda8b
-    new: 4ab80fd4d1f1c4363b336ddb3d8818ea37c4997d
+  - ref: refs/heads/wip/leon-for-next
+    old: 52ace3fd7e1fc19fb6fc466aebba59cac3f3e14c
+    new: 915fb85a378e02f22c9bc3c9c9166582d276629e
     log: |
-         20bed0d6ff62d985fe8222958825504b8aad4e88 ksmbd: evaluate the DACL in order for explicit access requests
-         4ab80fd4d1f1c4363b336ddb3d8818ea37c4997d ksmbd: let the parent's DACL grant DELETE and FILE_READ_ATTRIBUTES
+         bac7e7bf07cb6443d341b5f9ac8774a7c1c075ee RDMA/srp: refuse a target that cannot receive an SRP_RSP
+         915fb85a378e02f22c9bc3c9c9166582d276629e RDMA/srp: do not DMA-sync a receive IU past its mapped length
          
