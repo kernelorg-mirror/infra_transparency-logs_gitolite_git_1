@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0491335844472104352=="
+Content-Type: multipart/mixed; boundary="===============8181283610802036460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 17:50:49 -0000
-Message-Id: <179424664911.642620.4470421406299941530@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 17:50:51 -0000
+Message-Id: <179424665186.642759.15828038234635265927@gitolite.kernel.org>
 
---===============0491335844472104352==
+--===============8181283610802036460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-for-7.4-1
-    old: 094991fa6969a5ffe18d16cc6b1b954455c3cea0
-    new: 0a47a19415baf3a81edaef1e31ea41c07f56212a
-    log: revlist-094991fa6969-0a47a19415ba.txt
+  - ref: refs/heads/kernel-7.3/anna-nfs-next
+    old: 38c9fba97ab9792ed018ff4a62328cbb15bcfb70
+    new: dd9fc04b1ee3b02ac118dbc414b51752059447af
+    log: revlist-38c9fba97ab9-dd9fc04b1ee3.txt
 
---===============0491335844472104352==
+--===============8181283610802036460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-094991fa6969-0a47a19415ba.txt
+Content-Disposition: attachment; filename=revlist-38c9fba97ab9-dd9fc04b1ee3.txt
 
 463a54927aae562ec71f5def2c410de61d7efc74 Revert "NFSv4: Fix a regression in the handling of CB_RECALL_ANY"
 5264fa57a7bdbfe1ff831116c4fe470e64bdba2d Revert "NFSv4/pnfs: Free the netid when draining a data-server address list"
@@ -107,5 +107,19 @@ ecb664a35d0ab8c4a432630fc031a8f0711db43c NFSv4: Fix a regression in the handling
 841f6ceb575417f48f7cdf5aa384b06109e2c64c xprtrdma: Fix Write chunk payload corruption on a short reply header
 4ce66b44d967c22f2a01f8bb73f7469d3cf1936e NFS: use TCP for MOUNT when xprtsec= selects TLS
 0a47a19415baf3a81edaef1e31ea41c07f56212a NFS: Fix stale negative cache on failed nfs_mkdir()
+9c23f1ff9edf00d1f012cc18d765abf7b68280cf xprtrdma: fix up the nfs/nfs-anna merge of the Write chunk head trim
+6b6fd24bf725f952db0953dfbf613985fc9e6cb6 NFSv4.1: retain MDS I/O until both thresholds are met
+9da1e03d56166e1929fc552032d7a2ecb0b9c90a NFS: honor UTIME_NOW atime with explicit mtime
+4e97b0e0dc8097193f5176d01a5ee4f85604bb62 NFS: update ctime for atime-only UTIME_NOW requests
+bdb0d0dcd244461aeb00395f6771f78f66b1a885 NFS: Fix inverted cross-directory rename check
+343ed602bdd87e4f12a94407e0fdf186372367b9 NFS: restore directory index when resuming readdir
+c2277c17b8a42e8898012c8d510e268446340d6e SUNRPC: wake poll waiters when an empty pipe is unlinked
+be8d6f6ab8d009e16e49a08c7c90f43c5ebf79cd sunrpc: instantiate rpc_pipefs dentry before publishing it
+d8d5271674f45f10a9b9c74253cd6a7c23396b4b SUNRPC: preserve fatal network errors during RPC binding
+e0839b5f368cbe12cdb91dc3c8e7f5752bbb5828 SUNRPC: preserve timeout policy when cloning clients
+ca337f73544db5ad94d64449777520301c7ed9c7 SUNRPC: preserve transport security policy when cloning clients
+9aa72b3f1eb2c1791d6011b0f947548d70c637d6 SUNRPC: Fix TCP-with-TLS transport class identification
+f7a9d9cfaf4cd37a6372926063d53c9c1d647791 SUNRPC: Balance switch queue length on transport removal
+dd9fc04b1ee3b02ac118dbc414b51752059447af SUNRPC: Balance queue accounting when relocating a task
 
---===============0491335844472104352==--
+--===============8181283610802036460==--
