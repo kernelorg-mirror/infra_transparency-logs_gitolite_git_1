@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Mon, 09 Nov 2026 18:52:51 -0000
-Message-Id: <179425037187.694453.13762573209701270983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 09 Nov 2026 18:57:03 -0000
+Message-Id: <179425062362.698010.10163627171142340488@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-user: jarkko
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: c0ec27a79e79305e4cbc001757ccc7d4af118380
-    new: ab3076abb8e1a78d73e1516b70044a2f511186c1
+  - ref: refs/heads/asoc-7.5
+    old: 8f0650e4695d8d57e5eecf0c5cd25e871bbfa317
+    new: 65c597ea603a3e316c92d35a113a52e4f848d2db
     log: |
-         ab3076abb8e1a78d73e1516b70044a2f511186c1 puu-installer: add swap and enable hibernation in the test image
+         cc2f13940cee13a8f451387800c8d5fca7b24d5f ASoC: meson: aiu: select REGMAP_MMIO
+         12d753e6ca1dcc565dda567e64d0bb506abf9050 ASoC: meson: axg-pdm: select REGMAP_MMIO
+         4603b51f1dadc8becbcfd1f8659a85f450c772e7 ASoC: meson: axg-spdifin: select REGMAP_MMIO
+         10ac156211d2909e94e9a90b125dff44af53b5bc ASoC: meson: axg-spdifout: select REGMAP_MMIO
+         65c597ea603a3e316c92d35a113a52e4f848d2db ASoC: meson: fix missing REGMAP_MMIO dependencies
          
