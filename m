@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1961230294007643891=="
+Content-Type: multipart/mixed; boundary="===============0887198529049430556=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 17:58:47 -0000
-Message-Id: <179424712720.651399.2802754111820417408@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 17:58:50 -0000
+Message-Id: <179424713005.651547.341411379319685937@gitolite.kernel.org>
 
---===============1961230294007643891==
+--===============0887198529049430556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/snitzer-nfs-fixes-canary
-    old: 86611acf3a4442375d9713d3a143f90c49307fda
-    new: 0a7a68160dcac485d2dbf726fd754fbfd2a602a1
-    log: revlist-86611acf3a44-0a7a68160dca.txt
+  - ref: refs/heads/kernel-7.3/nfs-testing-canary-localio-reprobe
+    old: c41990643dc5ea4c7aced2d433e3a28085a9aea8
+    new: 291b0b32ab66da064ed540e6897ebcaf69beae5a
+    log: revlist-c41990643dc5-291b0b32ab66.txt
 
---===============1961230294007643891==
+--===============0887198529049430556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-86611acf3a44-0a7a68160dca.txt
+Content-Disposition: attachment; filename=revlist-c41990643dc5-291b0b32ab66.txt
 
 8c8bf48766bf777625177069a2d40e6d47cd49fb Revert "NFS/localio: report the stability a DIO WRITE actually has"
 7293cb575d567da3ae844b148f0c5f6ce9e492e5 Revert "NFS/localio: fix nfs_local_dio_misaligned tracepoint"
@@ -133,5 +133,8 @@ fde697210312fbb5ca431a1bd199197e495d1f0d SUNRPC: preserve transport security pol
 7d1d5aebcbb1b07e8dd1bbc66469326d14676f2c NFS: don't run the release of a WRITE or COMMIT in the submitter
 330fa09ab93a2d8efa71a20e449543f7ab6eb433 NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
 0a7a68160dcac485d2dbf726fd754fbfd2a602a1 NFS/localio: don't run the release of a failed COMMIT in the submitter
+48fc6cf5546f6a6dad5799a0b22dd4e4b30c99d2 NFS/localio: hold the client across an asynchronous LOCALIO probe
+48c7361e2ccbe65642d43f5d26384a68bf0f584a NFS/localio: probe again for LOCALIO when localio_enabled is set to Y
+291b0b32ab66da064ed540e6897ebcaf69beae5a NFS/localio: give the LOCALIO probe a short timeout of its own
 
---===============1961230294007643891==--
+--===============0887198529049430556==--
