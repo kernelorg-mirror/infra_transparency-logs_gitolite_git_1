@@ -1,44 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============3106236648007711347=="
+Content-Type: multipart/mixed; boundary="===============6384206001689995095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Mon, 09 Nov 2026 03:14:01 -0000
-Message-Id: <179419404118.4157260.9973517941834967811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Mon, 09 Nov 2026 03:54:33 -0000
+Message-Id: <179419647340.4185890.4860434888310552515@gitolite.kernel.org>
 
---===============3106236648007711347==
+--===============6384206001689995095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/kbuild-tools-relpath
-    old: 90ff35376f573e147b3c331d2694e0d3e9e7760f
-    new: 16884df7ee9a95f41ed4935523fde6e566b4f519
-    log: revlist-90ff35376f57-16884df7ee9a.txt
+  - ref: refs/tags/mkp-scsi-fixes
+    old: 279aa977f817b19d99501d4bf2b952b8c6a2e31c
+    new: 0fd8bac1eda98d46c1464c0e3db68ea754aa2f5b
+    log: revlist-279aa977f817-0fd8bac1eda9.txt
 
---===============3106236648007711347==
+--===============6384206001689995095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90ff35376f57-16884df7ee9a.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-329d8e7d1f3d6e6016e1594377550943ede355db kbuild: prevent building single targets twice
-f57c1b71bea3ec79bc2499563ac8a2cf758cc669 kconfig: show number of search results in search UI
-3910d22df6845ed40aa01f4869655e0442ca2e5b kconfig: fix use-after-free when a variable refers to itself
-fa88726397ab4bbba2d3c466f0941510a11eb9d0 kconfig: fix dangling check_top after an unexpected recursive dependency
-cff211742d534bcf90071a794cf353a8de862e3e kconfig: add prop_err function to simplify property error handling
-fa68f88e6dfa8868c816bde8f289e54efc20ab96 kconfig: error on reverse range
-131d86d09b60b9df66adfff06152e52414f3ed94 kbuild: Makefile.lib: fix offsets generation with debug info
-bc34894976c2e2d21abf347b03a8c2addf548860 kbuild: detect module name collisions between '-' and '_'
-6766b341ba2b3a7adde44d1ceb55306f82ec0179 kbuild: drop the tools/ target
-746dfc4cea69790130094259b8c0270a072f98ee tools/build: Deduplicate the descend commands
-c9946f662ae155e455ce87866a6f41d9017a0988 tools/build: Don't print DESCEND messages when executed through kbuild
-1d8c788f87ff39698841e402810ab39b282f17e6 EDITME: cover title for kbuild/tools-relpath
-fc21f32b05fbf5195dba7d3dff651b89a09f1d1d align
-16884df7ee9a95f41ed4935523fde6e566b4f519 quiet_@
+certificate version 0.1
+pusher 75C5DE3D 1794196471 -0500
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1794196471-b75315d7bdcf48bc38d0b72b3711649582f605cf
 
---===============3106236648007711347==--
+279aa977f817b19d99501d4bf2b952b8c6a2e31c 0fd8bac1eda98d46c1464c0e3db68ea754aa2f5b refs/tags/mkp-scsi-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrxQ/cACgkQ7ulgGnXF
+3j1TCA//UclVU5oiBdWTZ1Wn9GUCxfDkd18VDeAtCog0616RE4lRiKLNHtUp0dpB
+MZEv1uzV7B2kXmSAtG8bXRnwXcggHNTQmJegNEXtOmVEI8zTchbdOd9ItuZoadX1
+duHMEYE8Xd721aUj6bec/Xhh38mPXgIZRK9USHoIetQfVCx4MM+/ABy3GQL6bzHn
+3sv0pi7ogFtMkLUxtBzN5QqmjJt8jLAFP0HuTQ7+h8whiZKopY6XguU+cvLl8YGl
+kkCizwoI2ohhNH/mQagm7zXWfT9RIy7gE9lZZLtkeqGfNaVgaymo5720zJUnUEZU
+tT9XhADpVxKsAdDW+pr6qPSBqgQ5WEcfxGWrPHi6iJ75pVXQi4feOWHMjzvmKe/P
+7qCreMeODjtUwU508/DnBuk3Oo1r7cX72YH+pOF2/rw1GaecH2HloxhutErSDNeC
+TPNvQeviiFOXrleU6F6smNlxxcL6gbxZGDwAcvlCs8eWKex/PDurc0SPMjMnYMQH
+hgBH7XpnOXiQleQRrhVX+GwaI+5shDHoQ41FNMGDQq3RO1la9fffWhXrGBEi0Ijx
+VbDEjufHcnSdcivODEQk6Fxi50/iIxGD16bmjSxUjvmcCxWb3dQuKmMplvbsDrUr
+sGRkZFUTrPyzig3+LNWHpnGCcysGGroSIgv7iC4n8SPkAW1EaYE=
+=0Th8
+-----END PGP SIGNATURE-----
+
+--===============6384206001689995095==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-279aa977f817-0fd8bac1eda9.txt
+
+30bdadc9aa3a684cd634c7fa49740b1151e7b2e5 scsi: ufs: core: Skip ABORT TASK for device management commands
+e510b597d8afca2e790e2b5429bc5e01e3386f65 scsi: ufs: mcq: Poll OCS after sq cleanup for device management commands
+b3da73f09499b34faf5c43c50e1d09e4286226de scsi: ufs: qcom: Reprogram ESI after a host controller reset
+fe5988e8708e1d42cb844bd9ac8f0a51388061fc scsi: target: Fix NULL pointer dereference in target_dev_alua_lu_gp_store()
+c0bb6614132c64205a3c40c32dc1494c1bfeffe1 scsi: target: Fix NULL pointer dereference in core_alua_do_port_transition()
+46846939d5f33c9333612662c52475f92e753407 scsi: rdac: Keep the error status when controller lookup fails
+612293fb469c81408829e6325bae25725968986f scsi: sd_zbc: Cap zone report count by buffer size
+48d3b732e5ad3fffe74e033d9a3cf47ebaa314b0 scsi: target: iscsi: Check for existing sessions only after authentication
+08f08a6d49efc422258edba802faa4fc7677309e scsi: target: core: Parse APTPL res_type and res_scope as hex
+e550f2b2b4aab4c5f12db89d04d8978ce4ed7b4e scsi: mpi3mr: Validate reply frame size bounds
+
+--===============6384206001689995095==--
