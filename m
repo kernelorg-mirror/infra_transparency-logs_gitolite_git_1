@@ -1,72 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============0717633532336538862=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 09 Nov 2026 03:55:11 -0000
-Message-Id: <179419651189.4189415.17310413366013292182@gitolite.kernel.org>
-
---===============0717633532336538862==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
+Date: Mon, 09 Nov 2026 04:06:01 -0000
+Message-Id: <179419716166.3180.6042698402609821136@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/utils/kernel/kmod/kmod
+user: demarchi
 changes:
-  - ref: refs/heads/for-next
-    old: 76455a2febb0af62978869b10503f8b134186e3c
-    new: 0fc91e802801819a0c51d30b6eecac63ab4f85d2
-    log: revlist-76455a2febb0-0fc91e802801.txt
-
---===============0717633532336538862==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 75C5DE3D 1794196510 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1794196510-76a282b496ccb0bdcb987c731b83563f99457c56
-
-76455a2febb0af62978869b10503f8b134186e3c 0fc91e802801819a0c51d30b6eecac63ab4f85d2 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmrxRB4ACgkQ7ulgGnXF
-3j3bOA//cPzHYGy/+C9CwN0fEhOq37dJnnumLY/UULvQbvP84nQCQN8e8JJV2iIJ
-n86LthV9CIc+YoPTBT8yNhHSayybOx4H6G1vXdo/9diiSfdV/NM7g+i479Lpl085
-AuclU7t/S9S93gyeUKhik7bQotwWWyoa5e4OaZJJsTGzSKQ1hnpdvTWv4aKE30S5
-P//aEJSkisvEW6EhxXl1dRweCxi7P9bX6lvLmootEgNITbFVYk20UpILu3SgCTI+
-i1tUtUdP9VH+oksI7sDL46FslugoJJWTNc9qjl0a/3MnonupQLG5JmBawbiwmI3T
-vK6J9KuAv7PmBzROOTR5kWyjxKFSYGiqXS/hPXfVqSMTO1RpCzgdLzJEay4715Jg
-4chj+6GD/6nkekbDU0R+aikeF9REFDSV975PL24BrQC4qXaxyIppSAX6EmGqUAb9
-eWg2qOYBvQchRfLdc2hZn8dlm04OeKQYoMCAPMecTXISsfmik0JGCAzAH2yR6P7e
-nEcPZN3QLaPJawu+AL534+2HfW6fooBVN5eobHqtxVH9vnKpd0HKgSNTzP/Ryi0y
-owPItUIe5U0oztKXMc2xfY1n+fVsGbhLBEQDLi+ipFZCeKjL06uF4LFSJSHzMK+n
-+KCOYSVfxV7423TLuhmQOVbIGWLoOJ6J+eJdPX1LgKcfIwQaUYs=
-=0B8t
------END PGP SIGNATURE-----
-
---===============0717633532336538862==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76455a2febb0-0fc91e802801.txt
-
-ae8ecbc1e28633bdb23cfb61d8048c4e8f52052d scsi: sd: Remove unused zone append tracepoints
-e1a17bf98f513a77e5e6903315c49f56ee009886 scsi: mvme16x: Enable 53c710 burst-8 hardware transfer mode
-746aa1d936b17679361e8d787c6480ccb7c21240 scsi: core: Move REPORT TARGET PORT GROUPS into the SCSI core
-e085b1d6b6aabd6a7dcd9f02135f9376ff39e95a scsi: core: Read the ALUA access state when a device is scanned
-6054ce4233dbc692f50da5517ad459fae1b14ac6 scsi: core: Match ULDs to logical units in the ALUA unavailable state
-0ba0ffc7748d83c6f8792fea31b569042a12f1b2 Merge patch series "scsi: Bind sd to LUs in the ALUA unavailable state"
-dc7ba60d45b105b91d4e2e9567b355fb4a043def scsi: core: Restart the queue when unblocking a device set running
-dd86dc1d86c892c75592d45e000499dfb20d2c62 scsi: qedf: Remove unesseary function call
-787fd1429b3603fdc69ebba864165478c4e73544 scsi: scsi_devinfo: Return an error when the proc write fails
-db1fe578b7eabc7f218b84fc18a626d07f377a69 scsi: scsi_transport_fc: Reject truncated FPIN payloads
-63d67440dc9f103aad38b14f409d6d6e54396746 scsi: target: iblock: Drop the dead kmap() NULL check
-0fc91e802801819a0c51d30b6eecac63ab4f85d2 scsi: target: core: Drop the dead kmap_local_page() NULL check
-
---===============0717633532336538862==--
+  - ref: refs/heads/master
+    old: 5d3ff37d86ab1fb905cff261d24e91acb1bbfb85
+    new: 27cacaa87c630c931f5598b418d37ee6bc8b9cdf
+    log: |
+         27cacaa87c630c931f5598b418d37ee6bc8b9cdf meson: add -fno-omit{,-leaf}-frame-pointer for debug builds
+         
