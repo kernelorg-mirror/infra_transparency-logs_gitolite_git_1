@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3284957353860016805=="
+Content-Type: multipart/mixed; boundary="===============2364482243821537338=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 17:59:02 -0000
-Message-Id: <179424714234.652017.25388145638111636@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 17:59:05 -0000
+Message-Id: <179424714599.652336.16808698338006140949@gitolite.kernel.org>
 
---===============3284957353860016805==
+--===============2364482243821537338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/vfs-7.4-rc1.idmap-and-misc
-    old: 5fdcea0e72b3a74d708aa72ffdf12bbba5d549c8
-    new: e140b9e0e64a1b370fe3c2607f4ac94929172775
-    log: revlist-5fdcea0e72b3-e140b9e0e64a.txt
+  - ref: refs/heads/kernel-7.3/net-7.4-rc1.misc
+    old: 21efac3c979c7e288f73859eac52639d71f466ee
+    new: e682fd023f433188224e3f09fc927cdbd9e25346
+    log: revlist-21efac3c979c-e682fd023f43.txt
 
---===============3284957353860016805==
+--===============2364482243821537338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5fdcea0e72b3-e140b9e0e64a.txt
+Content-Disposition: attachment; filename=revlist-21efac3c979c-e682fd023f43.txt
 
 8c8bf48766bf777625177069a2d40e6d47cd49fb Revert "NFS/localio: report the stability a DIO WRITE actually has"
 7293cb575d567da3ae844b148f0c5f6ce9e492e5 Revert "NFS/localio: fix nfs_local_dio_misaligned tracepoint"
@@ -259,5 +259,8 @@ df068056e4f43cd42021e30393f9be7c6f249a6f fs: port ->create() to pass const mnt_i
 bb1e2959eb06db7955b922a84bbba5038ef4ebc7 fs: port mnt_idmap() and file_mnt_idmap() to const mnt_idmap
 3b37871a271818383cdf1b3fb2fcbef2f6a41464 fs: make nop_mnt_idmap and invalid_mnt_idmap const
 e140b9e0e64a1b370fe3c2607f4ac94929172775 splice: emit a single fsnotify access event per NFSD READ
+86f3e8c275f2c4c62c94a16b9fc385fe4219844b net: add sk_set_nospace() and sk_clear_nospace()
+193d78b45b7e9b4ba4eaf4fe59a8981a324cddb1 sunrpc: use sk_set_nospace() and sk_clear_nospace()
+e682fd023f433188224e3f09fc927cdbd9e25346 umh, treewide: Explicitly include linux/umh.h where needed
 
---===============3284957353860016805==--
+--===============2364482243821537338==--
