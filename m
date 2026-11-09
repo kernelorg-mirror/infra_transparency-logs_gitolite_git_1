@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4720026308387998510=="
+Content-Type: multipart/mixed; boundary="===============0718534286085871899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 09 Nov 2026 11:08:19 -0000
-Message-Id: <179422249936.314754.3282761090475307075@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 11:09:03 -0000
+Message-Id: <179422254397.315194.4868418642337259961@gitolite.kernel.org>
 
---===============4720026308387998510==
+--===============0718534286085871899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-next
+  - ref: refs/heads/for-next
     old: c339f4010dea8b0d754f84ace70cd1b089878ef8
     new: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
     log: revlist-c339f4010dea-7475ea8b5861.txt
 
---===============4720026308387998510==
+--===============0718534286085871899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1794222497 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1794222540 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1794222497-a242d6566c72a1714e2fd67e8c73573e8a004ca4
+nonce 1794222540-e2828a7a7a84486fd8cbf69db8495dbfc77f972b
 
-c339f4010dea8b0d754f84ace70cd1b089878ef8 7475ea8b58616b33c04afb976cf0fbaad9dd63fb refs/heads/review-ilpo-next
+c339f4010dea8b0d754f84ace70cd1b089878ef8 7475ea8b58616b33c04afb976cf0fbaad9dd63fb refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCavGppgAKCRBZrE9hU+XO
-MZHgAQClFHpmbZ4iYPdCuLmYkGiqWHR6lNaagZLf6cw5vCaY2wEA+Oc+Zb1yObyB
-cU7awqrpJoeM+kVXEl5VqVnZd+BIIwM=
-=18kM
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCavGp0wAKCRBZrE9hU+XO
+MU3hAP9rp+fOEtxDtJL7Yx7ahff4pjkNdclZ9Qn56RMhotbuDAEAlGsfrJbhh1Ab
+ChySFnGM2PGdiyoirIvJdb/UbvzCnw4=
+=83ww
 -----END PGP SIGNATURE-----
 
---===============4720026308387998510==
+--===============0718534286085871899==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1072,4 +1072,4 @@ e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.ke
 e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
 
---===============4720026308387998510==--
+--===============0718534286085871899==--
