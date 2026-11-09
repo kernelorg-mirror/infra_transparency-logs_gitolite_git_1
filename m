@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 09 Nov 2026 21:44:41 -0000
-Message-Id: <179426068115.856065.1101298514368153648@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 09 Nov 2026 21:45:41 -0000
+Message-Id: <179426074118.858409.17652385182900725485@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 4d1f2b176df7aaba754c437c20bc4b0b72543d3d
-    new: cecc2e38b6316f2f130e4a51deb0362d6d3e2783
+  - ref: refs/heads/for-7.5
+    old: fea5ad21ad60bae01f6f222c4ac2e292949278b8
+    new: 09a45aa6eeec59ad9ba13c32d41dd8b16525876e
     log: |
-         6a185ac6b46d59d19964031f634ecb8f6be49555 rust: pci: remove TryFrom<&Device> implementation for &pci::Device
-         cecc2e38b6316f2f130e4a51deb0362d6d3e2783 rust: platform: remove TryFrom<&Device> implementation for &platform::Device
+         318362fc175e0a44f5d08c934fb722a5bb339ea0 ASoC: tegra: Update ASRC ratio controls
+         ee15f439e2553f85016498510dc5e0c889a61e83 ASoC: tegra: Cache ASRC ratios until streams are active
+         09a45aa6eeec59ad9ba13c32d41dd8b16525876e ASoC: tegra: ASRC ratio control updates
          
