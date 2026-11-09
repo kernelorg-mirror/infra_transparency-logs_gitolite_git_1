@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 09 Nov 2026 20:33:48 -0000
-Message-Id: <179425642874.776115.11298866479019067052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 09 Nov 2026 20:33:50 -0000
+Message-Id: <179425643057.776298.4554488260016496094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/linux-6.1.y-cip
-    old: 58a2749f146b8de67976dd1c0bc1c0e3f2860c8d
-    new: a5f22992d2cab51559be52d31b188e660fb58fef
+  - ref: refs/heads/for-7.5
+    old: 8f0650e4695d8d57e5eecf0c5cd25e871bbfa317
+    new: 65c597ea603a3e316c92d35a113a52e4f848d2db
     log: |
-         8b13a5bc9336a5e12c696c2d1df1755ee3e485c3 clk: devres: fix cleanup in devm_clk_get_optional_enabled_with_rate()
-         12f5fc48c99c188968211ae42bc0da727cf140b1 dmaengine: xilinx_dma: Fix CPU stall in xilinx_dma_poll_timeout
-         a5f22992d2cab51559be52d31b188e660fb58fef watchdog: rzv2h: Avoid division by zero
+         cc2f13940cee13a8f451387800c8d5fca7b24d5f ASoC: meson: aiu: select REGMAP_MMIO
+         12d753e6ca1dcc565dda567e64d0bb506abf9050 ASoC: meson: axg-pdm: select REGMAP_MMIO
+         4603b51f1dadc8becbcfd1f8659a85f450c772e7 ASoC: meson: axg-spdifin: select REGMAP_MMIO
+         10ac156211d2909e94e9a90b125dff44af53b5bc ASoC: meson: axg-spdifout: select REGMAP_MMIO
+         65c597ea603a3e316c92d35a113a52e4f848d2db ASoC: meson: fix missing REGMAP_MMIO dependencies
          
