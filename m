@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4723876156336962838=="
+Content-Type: multipart/mixed; boundary="===============2440761158412979606=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 17:51:04 -0000
-Message-Id: <179424666464.643773.10833510301128218483@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 17:51:07 -0000
+Message-Id: <179424666745.643951.11041796471721487283@gitolite.kernel.org>
 
---===============4723876156336962838==
+--===============2440761158412979606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/vfs-7.4-rc1.idmap-and-misc
-    old: 19030ac6b7d4db4de5632453a05bc0225510d9b0
-    new: 5fdcea0e72b3a74d708aa72ffdf12bbba5d549c8
-    log: revlist-19030ac6b7d4-5fdcea0e72b3.txt
+  - ref: refs/heads/kernel-7.3/net-7.4-rc1.misc
+    old: a64d79430bdda0202ef0312701a106ac5ed97fa6
+    new: 21efac3c979c7e288f73859eac52639d71f466ee
+    log: revlist-a64d79430bdd-21efac3c979c.txt
 
---===============4723876156336962838==
+--===============2440761158412979606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19030ac6b7d4-5fdcea0e72b3.txt
+Content-Disposition: attachment; filename=revlist-a64d79430bdd-21efac3c979c.txt
 
 463a54927aae562ec71f5def2c410de61d7efc74 Revert "NFSv4: Fix a regression in the handling of CB_RECALL_ANY"
 5264fa57a7bdbfe1ff831116c4fe470e64bdba2d Revert "NFSv4/pnfs: Free the netid when draining a data-server address list"
@@ -251,5 +251,8 @@ bd364302ff38bf44b0d335c3ee3ceb2d676aa7d5 fs: port ->mkdir() to pass const mnt_id
 0f096dcef5894054d480ee987a42b6d54b168b3f fs: port mnt_idmap() and file_mnt_idmap() to const mnt_idmap
 0e7194f1182366f16d43687131e3f6b0ebd19f45 fs: make nop_mnt_idmap and invalid_mnt_idmap const
 5fdcea0e72b3a74d708aa72ffdf12bbba5d549c8 splice: emit a single fsnotify access event per NFSD READ
+5b09863a4826828675514075021bf4c65a01050a net: add sk_set_nospace() and sk_clear_nospace()
+f955591584c46f52f98388f20153ab2afc97bebd sunrpc: use sk_set_nospace() and sk_clear_nospace()
+21efac3c979c7e288f73859eac52639d71f466ee umh, treewide: Explicitly include linux/umh.h where needed
 
---===============4723876156336962838==--
+--===============2440761158412979606==--
