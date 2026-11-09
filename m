@@ -1,27 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Mon, 09 Nov 2026 21:41:57 -0000
-Message-Id: <179426051706.855161.11309033159864094305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Mon, 09 Nov 2026 21:44:41 -0000
+Message-Id: <179426068115.856065.1101298514368153648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/for-7.5/block
-    old: f054479dcaa0b41cdff6d85d03fbeefd9750db7c
-    new: aa7014f8d7565cfea117eac36a5de0a05eba65a4
+  - ref: refs/heads/driver-core-testing
+    old: 4d1f2b176df7aaba754c437c20bc4b0b72543d3d
+    new: cecc2e38b6316f2f130e4a51deb0362d6d3e2783
     log: |
-         aa7014f8d7565cfea117eac36a5de0a05eba65a4 cdrom: fix brackets
-         
-  - ref: refs/heads/for-next
-    old: df61222530aa34f63cc0640f2584398e874abbda
-    new: f91abe9175899d49774676197f93591b574dc5a2
-    log: |
-         f054479dcaa0b41cdff6d85d03fbeefd9750db7c ublk: optimize ublk_queue_cmd_list() for length-1 lists
-         aa7014f8d7565cfea117eac36a5de0a05eba65a4 cdrom: fix brackets
-         f91abe9175899d49774676197f93591b574dc5a2 Merge branch 'for-7.5/block' into for-next
+         6a185ac6b46d59d19964031f634ecb8f6be49555 rust: pci: remove TryFrom<&Device> implementation for &pci::Device
+         cecc2e38b6316f2f130e4a51deb0362d6d3e2783 rust: platform: remove TryFrom<&Device> implementation for &platform::Device
          
