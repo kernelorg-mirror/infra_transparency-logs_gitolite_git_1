@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 09 Nov 2026 20:33:50 -0000
-Message-Id: <179425643057.776298.4554488260016496094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Mon, 09 Nov 2026 20:36:53 -0000
+Message-Id: <179425661305.801404.9420051989007677723@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/for-7.5
-    old: 8f0650e4695d8d57e5eecf0c5cd25e871bbfa317
-    new: 65c597ea603a3e316c92d35a113a52e4f848d2db
+  - ref: refs/heads/for-linus
+    old: f5f8cc539f8b2bd5324c03dfce8cca57284653e6
+    new: c1f4db7e869ce7dafd1811a75b392740985e1199
     log: |
-         cc2f13940cee13a8f451387800c8d5fca7b24d5f ASoC: meson: aiu: select REGMAP_MMIO
-         12d753e6ca1dcc565dda567e64d0bb506abf9050 ASoC: meson: axg-pdm: select REGMAP_MMIO
-         4603b51f1dadc8becbcfd1f8659a85f450c772e7 ASoC: meson: axg-spdifin: select REGMAP_MMIO
-         10ac156211d2909e94e9a90b125dff44af53b5bc ASoC: meson: axg-spdifout: select REGMAP_MMIO
-         65c597ea603a3e316c92d35a113a52e4f848d2db ASoC: meson: fix missing REGMAP_MMIO dependencies
+         c1f4db7e869ce7dafd1811a75b392740985e1199 Input: da7280 - do not advertise FF_GAIN
          
