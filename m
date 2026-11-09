@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 09 Nov 2026 21:20:50 -0000
-Message-Id: <179425925033.838324.1731201320501963004@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Mon, 09 Nov 2026 21:21:17 -0000
+Message-Id: <179425927748.838628.12731544115716468324@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/main
-    old: 1d5e2c57e9ffc134e14b3f837c8d7c53b508bd22
-    new: c2213d9b61c1d6e99645a636630ee767c7542f78
+  - ref: refs/heads/driver-core-testing
+    old: ec1db86e7bb3ec13c90456efac43659a723ac068
+    new: 4d1f2b176df7aaba754c437c20bc4b0b72543d3d
     log: |
-         c2213d9b61c1d6e99645a636630ee767c7542f78 tcp: rate limit receive queue collapsing
+         4d1f2b176df7aaba754c437c20bc4b0b72543d3d rust: io: use Alignment size constants
          
