@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 09 Nov 2026 15:49:15 -0000
-Message-Id: <179423935571.539914.2804355226173351970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
+Date: Mon, 09 Nov 2026 15:49:18 -0000
+Message-Id: <179423935862.540103.16309576295661439892@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
+user: vudentz
 changes:
-  - ref: refs/heads/pending
-    old: a354a5c5a17185e050f0ff11bf8c903eb727b794
-    new: 86bd5a9fac011fb726519dd1c026d110afb65fd0
+  - ref: refs/heads/master
+    old: c1d50a71cdee90a0c68b7a67221d8aae96d14a0c
+    new: 530e411a49f32907094c4d89ce260659781576a2
     log: |
-         86bd5a9fac011fb726519dd1c026d110afb65fd0 wifi: ath12k: remove duplicate ucast_ra_only assignment in dp_peer_create
+         530e411a49f32907094c4d89ce260659781576a2 Bluetooth: qca: Disable SoC debug logging for WCN3990
          
