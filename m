@@ -1,56 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============0945449125489917869=="
+Content-Type: multipart/mixed; boundary="===============1475594065270994383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 09 Nov 2026 14:29:43 -0000
-Message-Id: <179423458366.475622.15970307153225399907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 09 Nov 2026 14:29:55 -0000
+Message-Id: <179423459574.475892.11588898067251781472@gitolite.kernel.org>
 
---===============0945449125489917869==
+--===============1475594065270994383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/pinctrl-next
-    old: 6bb1aa75bc2c85a89ee7856b9557b519fb7428cf
-    new: a47853cef90c0553457e690df693a6cc806a3849
+  - ref: refs/heads/next/clk
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    new: 783214e3268f71296cb6f62669b0daced0ac249d
     log: |
-         a47853cef90c0553457e690df693a6cc806a3849 pinctrl: samsung: Use snprintf() to construct pin bank names
+         783214e3268f71296cb6f62669b0daced0ac249d clk: samsung: exynos3250: convert to subsys_platform_driver_probe()
+         
+  - ref: refs/heads/next/drivers
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    new: 83427926e94f01aa50f40adf10c516ec0a1e7d49
+    log: |
+         83427926e94f01aa50f40adf10c516ec0a1e7d49 .get_maintainer.ignore: Add Krzysztof Kozlowski
          
 
---===============0945449125489917869==
+--===============1475594065270994383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1794234582 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1794234581-0d73f1284c82e315456b5e9fa4af2156c0f7b3a6
+pusher krzk@kernel.org 1794234593 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1794234592-2d7e813d8677fdcb53bdbfc04c03d496935c86cf
 
-6bb1aa75bc2c85a89ee7856b9557b519fb7428cf a47853cef90c0553457e690df693a6cc806a3849 refs/heads/pinctrl-next
+6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 783214e3268f71296cb6f62669b0daced0ac249d refs/heads/next/clk
+6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 83427926e94f01aa50f40adf10c516ec0a1e7d49 refs/heads/next/drivers
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrx2NYQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1yc6EACD1nPc0iJ9l/u7MYHYwWzdqY8Un1i/wptb
-3LfbR/LbQHlDNFGMDPmurDOCsYYC8YdU+D0Gb1p9vdu+ffkulO5huHq1OpNOCaeS
-V7F2GyLiEHnevM5xUOqkn0SUJfaPdqxvRnPUj7eyUTkRVHCf2lrR3WOmLkutzx6p
-ZrWHzF25X043s9VHFDPOQEwWKmcSAFDGdLf5tMCsV7p3w2z4UTAoYg0cgEsbm7Al
-bNeb7fev2p53tWZlYyhCh/R24yXu5lrmdmdZwoIHvvXh180KkjemwYbGgE501scI
-IgOr2X8FIiatjQuKNkyV8yJCxlGkYCG1SiwKK1gB7RYAI+LFMPYzh+hLdd6ZaIz7
-3qCdKMH7cLXLJWd+ZCYb2lLZuXi9sTMtD/VDEN7g7lPUi0oXfCLNGK2xOaVMWxoj
-7sPwT6BUbztpftY34i40x/I0pX1OXkE5YfTaRgucKVdjaL76rMPF99Okoz3gMIqY
-pBJMvCxdl/e4+9nJ3ydBjZrDjo3OiateC+ouSnMbW9Cu12ji+guIG+SjvjwsB35T
-X033v7x0WoXsPJ2tjjzzUbrtUrKdHa4PCu9KFGyV9atdQ+/B8gQQcYcvfXW+goqH
-39N0C134jf4/uh+TAACvelpzTncW8Qm279pqzzjM/+XM6MRPT0WeMg8vDRvhXbF/
-rGZizRfWWw==
-=1JwF
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmrx2OEQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD13QcD/46SmrmckseXC1L0HIX26+lrXdpaaiHudKi
+OOGT3FhykZbu78RwJlrjED62QLfKlTcE43OyOrjFqg1yZ2FjEozMBYIbqqSQnUTL
+2iwBZv1F6+g1dVqzS26CD1zTqbZCDa/n6w7Yve2WtpA8hLFCCPAjbYMP3a3YhVB7
+NMHXFCVY54Zxo6eS+TpgYMp3nbbLvpLy6t4tubJ2k+8ysEf4YsSEJmgAlQCslFbE
+zuOZjVDvmCEy+3nu3k25+1HQkCjryLGX2Ev107VrvM3zN43n+RPST3FllWlpCSyp
+IPkTIC20AU0QmQ4cax3yXdPvPyDCdsLUvA8khFjqnPDg6l0ngsbe/Ym1ZNfaECIP
+hRX+/WjsQjDEiSR7e39aNXA/tYKaLP0dUiwtoMRe4x5ypDH01Y4UZSSO1E/Mor8c
+3of9yGPzQcyyWHwRvEx5IdFe8jkUJVOTfxzzAVRkeEoo2gKP7XHt8HBkb7xkulCP
+aFREaDf6upURUJb9VnXJhshQxENcCwI3NxuUVyx+iu/Qiq4AXkZ814VY/uhLhVak
+UCvPrtQVsT8PV3FuBkhARSb6b5rtCZ/scXZz3LFUoOa/mpW/tugnXt53AnBE3nDG
+cCs4yDPUWg+Wwpn39Vl0w7jAsU1NpuwOoXlEFGgGVXxjqnXcJ+IS0sxlqz6IdDv4
+EngvZIeT/g==
+=FR0R
 -----END PGP SIGNATURE-----
 
---===============0945449125489917869==--
+--===============1475594065270994383==--
