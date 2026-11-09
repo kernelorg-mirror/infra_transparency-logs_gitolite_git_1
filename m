@@ -1,61 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7599799862682611990=="
+Content-Type: multipart/mixed; boundary="===============3502813464442429323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-next
-Date: Mon, 09 Nov 2026 14:16:31 -0000
-Message-Id: <179423379104.466395.16793362035402045712@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Mon, 09 Nov 2026 14:16:34 -0000
+Message-Id: <179423379445.466601.15671663710912857290@gitolite.kernel.org>
 
---===============7599799862682611990==
+--===============3502813464442429323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-next
+repo: pub/scm/linux/kernel/git/sashal/linus-next
 user: sashal
 changes:
-  - ref: refs/heads/all-next
+  - ref: refs/heads/linus-next
     old: e98f49219f70121a576e97f079091f606ecee005
     new: 54220ba3e528fe5262825530cc7091dc56f5599f
     log: revlist-e98f49219f70-54220ba3e528.txt
-  - ref: refs/heads/core-next
-    old: 160ed37fdd9d53149ce25da18d0a102731d4bada
-    new: e9768cba1097bfabbd819aac88399c4716467253
-    log: |
-         95418e71bdcbf8f2073a730365c11d22ff8473f3 software node: only let the owner release a managed node
-         ec1db86e7bb3ec13c90456efac43659a723ac068 Merge tag 'v7.4-rc2' into driver-core-next
-         01cd5b5c50d922dc61f707bc20e401c5dc61fddd Merge 'driver-core.current' from https://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core.git (driver-core-linus)
-         e9768cba1097bfabbd819aac88399c4716467253 Merge 'driver-core' from https://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core.git (driver-core-next)
-         
-  - ref: refs/heads/fixes-next
-    old: 92eba353aaf605f3f59b839ae6d6367c5e436e93
-    new: cbc9138fb13ebc4a2c7d953d225f167a759f6b4e
-    log: |
-         af200e91c7b996177aa90981b2f0e794b085d43a drm/vc4: Fix firmware reference leak in vc4_hvs_bind()
-         99a2e2b1690f48b074bf14a3b7d5d52f45d26ecc drm/panfrost: Enable cycle counting when perfcnt is enabled
-         a947f57843f1139821c6f9f94ebe899574e6636e drm/panfrost: Fix race when restoring reset state in perfcnt
-         95418e71bdcbf8f2073a730365c11d22ff8473f3 software node: only let the owner release a managed node
-         5a936d62617acf16ed849785df17de38c16876db Merge 'driver-core.current' from https://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core.git (driver-core-linus)
-         cbc9138fb13ebc4a2c7d953d225f167a759f6b4e Merge 'drm-misc-fixes' from https://gitlab.freedesktop.org/drm/misc/kernel.git (for-linux-next-fixes)
-         
-  - ref: refs/heads/fs-next
-    old: bd54f830c21f17e1103c32a15b8de1e816c2e517
-    new: c23a59ee2eeef51a4d6f149c28dbe3576c8a6d91
-    log: revlist-bd54f830c21f-c23a59ee2eee.txt
-  - ref: refs/heads/graphics-next
-    old: 527b3c3ceb51abb4ce6967e16d9d0dd0bbdd3b50
-    new: a5e7a8b1632ee9889e287648a6c62ac32fa550b1
-    log: |
-         af200e91c7b996177aa90981b2f0e794b085d43a drm/vc4: Fix firmware reference leak in vc4_hvs_bind()
-         d0734ce1015e5c0966ebdda172948fafa27c3b04 drm/v3d: Count released supergroup IDs as CSD progress on V3D 7.x
-         99a2e2b1690f48b074bf14a3b7d5d52f45d26ecc drm/panfrost: Enable cycle counting when perfcnt is enabled
-         a947f57843f1139821c6f9f94ebe899574e6636e drm/panfrost: Fix race when restoring reset state in perfcnt
-         7dca09df7f991ba4e5ed4528a2941aaf69e52c31 Merge 'drm-misc-fixes' from https://gitlab.freedesktop.org/drm/misc/kernel.git (for-linux-next-fixes)
-         a5e7a8b1632ee9889e287648a6c62ac32fa550b1 Merge 'drm-misc' from https://gitlab.freedesktop.org/drm/misc/kernel.git (for-linux-next)
-         
 
---===============7599799862682611990==
+--===============3502813464442429323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -146,37 +111,4 @@ b706a20fdabccd703324e3039d240d35a0bd45b3 Merge branch 'virt-next' into all-next
 fac07792c67e58b6a6898780a20075c965c4c73c Merge branch 'wireless-next' into all-next
 54220ba3e528fe5262825530cc7091dc56f5599f Add merge report for 2026-11-09 (3 interventions)
 
---===============7599799862682611990==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd54f830c21f-c23a59ee2eee.txt
-
-926d2928270a530787a2a32401ddc6dbb5a87e75 ntfs: convert a named $DATA stream safely when making room in a record
-069dee300a76c29d6128888f4d8d3b501b4e487a ntfs: flush sibling attribute mappings during stream fsync
-743a94f58872c26fe63019bbc4cd3ed6be218903 udf: reject extents past EOF when extending a file
-d2d551adec1cce048e819bc352bcb60bb8588aed Merge 'vfs-brauner-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git (vfs.fixes)
-bb5c687fa73a7ffd359083095e199680a297c619 Merge 'btrfs-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git (next-fixes)
-9e066519f66d02c8a2927a65af3ccc5a15252db2 Merge 'vfs-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git (fixes)
-1cc973a85a9e368775af3d65a50d2c8996719997 Merge 'erofs-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git (fixes)
-6ad11f4b88b62da097ccd9951ccde43d52d73334 Merge 'fscrypt' from https://git.kernel.org/pub/scm/fs/fscrypt/linux.git (for-next)
-ba6d59bd89cd87df75fe2b97ec8799d1084c3fb7 Merge 'btrfs' from https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git (for-next)
-02aa53aa93a363555a4de3616669089674478983 Merge 'ceph' from https://github.com/ceph/ceph-client.git (master)
-f40b6ad74197e99aeb65d6bf389f6909e77ac9d3 Merge 'cifs' from https://git.manguebit.org/linux.git (cifs-next)
-e831d2da5bcf8d975df470dababd765bae7ce191 Merge 'configfs' from https://git.kernel.org/pub/scm/linux/kernel/git/leitao/linux.git (configfs-next)
-c70989cb7864007ff8bcf9f74be0fc9d25c37f4f Merge 'ecryptfs' from https://git.kernel.org/pub/scm/linux/kernel/git/tyhicks/ecryptfs.git (next)
-a4f122162857433d072fda7111fb25815b6c6b7c Merge 'exfat' from https://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git (dev)
-e39735dbda498cb3f30fa89bffd80dda5814957f Merge 'ext3' from https://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git (for_next)
-a2151771a53d33992890db799449aae8db0f8d40 Merge 'f2fs' from https://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git (dev)
-d62a301f5fb3e4b0e7cc787279fed6ec3711eb11 Merge 'fuse' from https://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse.git (for-next)
-559af087a3846006b68879117e6ce70302c40c60 Merge 'gfs2' from https://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git (for-next)
-5956ef14e57f6c3ac34a5b1ea5a76a91ede628fd Merge 'ksmbd' from https://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/smb.git (ksmbd-for-next)
-c0d043685ffb016efc63215b8b6b6b3aeef05e0c Merge 'nfs' from git://git.linux-nfs.org/projects/trondmy/nfs-2.6.git (linux-next)
-ba89d4a836237f9447479b0d28772f1fbc6eabf6 Merge 'nfs-anna' from git://git.linux-nfs.org/projects/anna/linux-nfs.git (linux-next)
-5c52fb92cac7ccbc24968ed2080fc67f1b8dc8e9 Merge 'nfsd' from https://git.kernel.org/pub/scm/linux/kernel/git/cel/linux (nfsd-next)
-5cd427efe7acadef9294719c57ef3e8a8a8e56dd Merge 'ntfs' from https://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/ntfs.git (ntfs-next)
-40d2dcb6b2d9b2d99b9766a753e3675f76b5d0b9 Merge 'xfs' from https://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git (for-next)
-9362aed2e6c6139d8aff75496e91b0571905fb92 Merge 'vfs-brauner' from https://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git (vfs.all)
-c23a59ee2eeef51a4d6f149c28dbe3576c8a6d91 Merge 'vfs' from https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git (for-next)
-
---===============7599799862682611990==--
+--===============3502813464442429323==--
