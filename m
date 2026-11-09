@@ -1,1054 +1,1054 @@
-Content-Type: multipart/mixed; boundary="===============6684414798853586675=="
+Content-Type: multipart/mixed; boundary="===============6035811181169187937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 21:05:17 -0000
-Message-Id: <179425831735.826428.10232519361457940143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 09 Nov 2026 21:19:19 -0000
+Message-Id: <179425915949.834672.5530361252190202718@gitolite.kernel.org>
 
---===============6684414798853586675==
+--===============6035811181169187937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/tags/v7.3.3-14.canary
-    old: 89a5dc83ba2b9eecb2d65077195b34ef6b377145
-    new: 0a9e3a742a2b1e13bb78373c5cb25e8494ac7723
-    log: revlist-89a5dc83ba2b-0a9e3a742a2b.txt
+  - ref: refs/heads/main
+    old: 303d91a1592587fdb481dd36a9ef2c0414dacb0f
+    new: fa5196392691051963726787944db872420dfa75
+    log: revlist-303d91a15925-fa5196392691.txt
 
---===============6684414798853586675==
-Content-Type: text/plain; charset="us-ascii"
+--===============6035811181169187937==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89a5dc83ba2b-0a9e3a742a2b.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-303d91a15925-fa5196392691.txt
 
-f79e621785ebecb55f62324eb0e55045af32f29a NFSD_TCP_WRITE_ZEROCOPY: point RESULTS.md at the status page for readers outside the tree
-488572dfbeb2beac94ca90de34486e30b981a205 NFSD_TCP_WRITE_ZEROCOPY: note that the 16 KiB host's backup branches are gone
-c9f52e464fcc355c11a20ecba6ff2c7db2e775fd NFSD_TCP_WRITE_ZEROCOPY: add the prompt that starts the 4 KiB host's session
-63cb83dac4d70a9efc844985775e87a656c19d80 NFSD_TCP_WRITE_ZEROCOPY: the status page is shared now
-590396ac7713d20a1ad98f01d2171fab30af7685 NFSD_TCP_WRITE_ZEROCOPY: add the first message for a new session on the 4 KiB host
-3e5ab5c49a9350a029f8d35553806b471e8fcfef NFSD_TCP_WRITE_ZEROCOPY: keep n-reconf's load running through its budget changes
-15a83520e298b1eccac0f86e8e54221acb7a1c5e NFSD_TCP_WRITE_ZEROCOPY: note the 4 KiB host's run in progress
-b216d1ebe17c31074399000b4b89c2f6f4ae7604 NFSD_TCP_WRITE_ZEROCOPY: add the 4 KiB host's record and compare it with 16 KiB
-baa870a428abafac13c6d4f74a2f38975f604ecf NFSD_TCP_WRITE_ZEROCOPY: write the 4 KiB host's account
-40beb263c89672a940063188681c650130714271 NFSD_TCP_WRITE_ZEROCOPY: re-run the 16 KiB host's n-reconf with the load kept running
-6c0e8886d7acc36248a60583e27024d4be2a06c4 NFSD_TCP_WRITE_ZEROCOPY: lead the comparison with how much of the region a copy and a loan hold
-790c2e80ef43ad3ebf2e7f3b3f2efdd1cf302e95 NFSD_TCP_WRITE_ZEROCOPY: let bvecrepro build on a packaged kernel, and add tardis1's starting message
-7a11e88b46529e53b51c995e930db84826dacf64 NFSD_TCP_WRITE_ZEROCOPY: record the check of the 64 KiB config for tardis1
-e786b457b01220db59abd2be322563f428fd088c NFSD_TCP_WRITE_ZEROCOPY: record the page charge found at 64 KiB, and let preflight find a packaged kernel's config
-83578ac143ac3762c5915c8f5f37c0c3d950b725 NFSD_TCP_WRITE_ZEROCOPY: do not judge DONTCACHE kick rounds for a record smaller than a page
-b39dcaf1d9b75f1d3a81dc0fca22a7d652833bb4 NFSD_TCP_WRITE_ZEROCOPY: record tardis1's first boot-1 run, what it found and what was changed
-74488dc8bb434179393d4a1470aae6f09cc94c39 NFSD_TCP_WRITE_ZEROCOPY: note in tardis1's record that the capacity + 1 KUnit test now runs at 64 KiB
-2b284591221bba0e9e781716bd280ccdc291f4cd NFSD_TCP_WRITE_ZEROCOPY: tardis1's record: the changes are pushed and the new kernel is being built from d063737e2ed3
-503756d9846ebba27c518d6578709a1c4563e4c1 NFSD_TCP_WRITE_ZEROCOPY: record tardis1's boot 1 on build 455, with the charge fix
-beec468507423d1d46165cfd2b66534dae04cfb1 NFSD_TCP_WRITE_ZEROCOPY: fail the LOCALIO boundary test when a write fails
-9ac55d826fed01e2ff1661b1d22a505358862c47 NFSD_TCP_WRITE_ZEROCOPY: record tardis1's boot 2 on build 455 and the direct/buffered collision it explains
-03e83910c7f857a52e5847f8ebf141f1bf50f32f NFSD_TCP_WRITE_ZEROCOPY: record the rebase onto v7.1.13-20 and read its page-counted split gate
-425ae9f507fd39447711e08115b7f6d2e88328bf NFSD_TCP_WRITE_ZEROCOPY: let check-grouping.sh judge the whole regrouped series
-04d65712dc718f396de26838bb03928167f878fe NFSD_TCP_WRITE_ZEROCOPY: record how the series is laid out after the regroup
-6adbeef80db581482d0952fbc3da0cd813e87af2 NFSD_TCP_WRITE_ZEROCOPY: hand off tardis1's build 457 run, the credit wait-list hang and the materialize warning
-3e346aa8e1de05fea61fe4a7e42d91ed10f1e9bf NFSD_TCP_WRITE_ZEROCOPY: arm tardis1's handoff to run the two new KUnit cases, and record the fixes and the rebuilt modules
-06e6628fa5246294b458e7eede335a7580606cce NFSD_TCP_WRITE_ZEROCOPY: record both fixes run on tardis1's build 457 with rebuilt modules
-dcb0a6dfc30ea357f67e5bff784d766b71b60ce7 NFSD_TCP_WRITE_ZEROCOPY: record the write split cut per end again, the failure it reproduced and its fix
-2df4c01a0ba1584f0b8f3d7c828080b1a6a27779 NFSD_TCP_WRITE_ZEROCOPY: record that the page cut is what made tardis1's 16-connection copies partly buffered and fast
-ea1f7e4337e92c5cb7cbe8c8990c1a5ee8d90171 NFSD_TCP_WRITE_ZEROCOPY: record which cut of the write split serves copy mode, and what limits it
-9ccd82aacd1f7aba39625827438a5b40c863e46b NFSD_TCP_WRITE_ZEROCOPY: record why direct writes to a growing file on XFS are slow, and what the split could do
-0c952b01a0822994211f599c1585deb6e9ccb5d3 NFSD_TCP_WRITE_ZEROCOPY: record the beyond-EOF split prototype measured on tardis1
-c4a27f2f88e19b177758a6f69f788dc3edd5d2b5 NFSD_TCP_WRITE_ZEROCOPY: record that the beyond-EOF rule is committed, its KUnit result and what is left to decide
-0d4a91432be726039a5cb85f7c2c7679b10647b0 NFSD_TCP_WRITE_ZEROCOPY: add the XFS growing-file work and the beyond-EOF rule to tardis1's handoff
-15e203c17e43d88f9b5f42759db0562e95d6c859 NFSD_TCP_WRITE_ZEROCOPY: record the two work-in-progress branches tardis1's work was pushed to
-6973e964bd87dd7b3fe648209b9b2f829c914916 NFSD_TCP_WRITE_ZEROCOPY: record build 458's boot 1 on tardis1 and what boot 2 has left
-be71c095bbacbc8df3747f7c91e0455173c18cf5 NFSD_TCP_WRITE_ZEROCOPY: record build 458's boot 2 on tardis1, which completes the plan
-ad20e1902ddff7413dbcecc7c43a609b6e81bf44 NFSD_TCP_WRITE_ZEROCOPY: add the 64 KiB host's record and compare it with 4 KiB and 16 KiB
-ec26d24c163ea3ef052dc19362b75b96c07bc683 NFSD_TCP_WRITE_ZEROCOPY: record what is known of tardis1's 16-connection gap and the experiment for it
-245cd96de16a970658f859bc3e8ea38781c76e46 NFSD_TCP_WRITE_ZEROCOPY: let run-budget.sh take the MTU 9000 credit factor from FACTOR9=
-649956637d1aa16ebc796eac7055dd134d360742 NFSD_TCP_WRITE_ZEROCOPY: record the credit factor experiment on tardis1's 16-connection gap
-cf193d1c4adff6f8dbc84d1ce8fa49d354a4f33d NFSD_TCP_WRITE_ZEROCOPY: record credit.bt's release probe fix and the credit 1 MiB records end with
-f0ce61667976f757839d6d0cf682b09a7ac68537 NFSD_TCP_WRITE_ZEROCOPY: record credit factor 350 on tardis1's own 870-page region
-b7a3b4eb266f73541183baa8c45ebd249735c5a5 NFSD_TCP_WRITE_ZEROCOPY: note that the artifact carries the 870-page region results
-3e90657fdeeb5ceb2086caf73d288722f329b100 NFSD_TCP_WRITE_ZEROCOPY: record the 16-record run armed for a reboot and tardis1's cache sizes
-501f985fc417a2d403a96cd05df4aab1397d6d71 NFSD_TCP_WRITE_ZEROCOPY: record the 1080-page run, which admitted fourteen records at once
-0eb8f608bdeb234c8340b8852101176f788047ab NFSD_TCP_WRITE_ZEROCOPY: carry the fourteen-at-once results into the docs and arm the 1180-page run
-eecd743b150cd13602ca2d4ac736c4387b27714d NFSD_TCP_WRITE_ZEROCOPY: record the 1180-page run, which admitted sixteen records at once
-c07e7f5f04ef474d9677f34fe045e279db216bf3 NFSD_TCP_WRITE_ZEROCOPY: say in AGENTS.md and the working rules that regrouping waits until Mike asks
-3f5399bd9cc665c180eb6b9ea942347e609276ac NFSD_TCP_WRITE_ZEROCOPY: the no-regroup rule covers every test host
-022afdba49762eab938cfb16165a7974854bda79 NFSD_TCP_WRITE_ZEROCOPY: record tardis1's bound at half of the L3, a budget of 548
-5a25e3aaa489baab726906b69d5772bfdfe3c8b3 NFSD_TCP_WRITE_ZEROCOPY: note that the artifact carries tardis1's bound
-d5a66c2edb3b85f7464e8d5c48591de953719e9e NFSD_TCP_WRITE_ZEROCOPY: scope converging the region and budget testing on the xeu driver
-1333f022e1a46f0612615ce6dc7c517095e7b2d5 NFSD_TCP_WRITE_ZEROCOPY: say that the beyond-EOF rule was reverted
-bbaa4a8e9ce6b3e06f728168fdf370d5f8f6daf5 NFSD_TCP_WRITE_ZEROCOPY: bring the docs to the rebase onto v7.1.13-21
-5f7ffdac0d44b0b74fbfd9c1df848aee72be40e0 NFSD_TCP_WRITE_ZEROCOPY: bring the docs to the fold of the KUnit split test's fix
-d7b39acda3de953b68d1d0c2c85d68b9c7ae2e98 NFSD_TCP_WRITE_ZEROCOPY: let run-budget.sh take a real device, a remote client and the real drives
-8a299aceddb5b2269e8e40a57ce9763c39100b82 NFSD_TCP_WRITE_ZEROCOPY: record the first run over the xeu port, the client and the load rule
-4d4ef5d6cd52b873b161c8d795c5ee293215b045 NFSD_TCP_WRITE_ZEROCOPY: write down the bring-up of enp161s0f0 for the session after the reboot
-f0e868b1dc344296365636169232d10317b11660 NFSD_TCP_WRITE_ZEROCOPY: record the bring-up of enp161s0f0 and name the region by the PCI device
-a586ab757620add8c4ca3bf5d2b44ba4c93e8db4 NFSD_TCP_WRITE_ZEROCOPY: record the first copy and loan pair over the xeu port onto NVMe/TCP
-435d8ed8d8e55610475f2d9102fc180ca7dac561 NFSD_TCP_WRITE_ZEROCOPY: record the forced-budget reruns of the NVMe/TCP loan cell on the xeu port
-d285807bad0442892a6861ee221c9e4437dd83ee NFSD_TCP_WRITE_ZEROCOPY: record the baselines, the xeu ring stall and the step cells over the port
-dd0d66288fa5454e31fd188668baaa3a4b8f4dae NFSD_TCP_WRITE_ZEROCOPY: gather the findings at 64 KiB pages on the xeu port under one heading
-68fd9d8d38d58cfbadb7688acba726212705ba44 NFSD_TCP_WRITE_ZEROCOPY: record the held buffer and the budget varied on the xeu port
-55ac3a520c7c62687303c74d1023d1c0f46ea149 NFSD_TCP_WRITE_ZEROCOPY: record the cache misses of the copy cells at two ring sizes on the xeu port
-7565347d05b90f99059e6636088ad1459f53c1de NFSD_TCP_WRITE_ZEROCOPY: point the 64K findings at sections 5e and 5f
-267d2ac71d859e5f333183873bf98ffc8123ea5d NFSD_TCP_WRITE_ZEROCOPY: bring XEU_CONVERGENCE.md's plan to what was run and add the copies at a 512 KiB buffer
-f7b4ac121cdea27723143c4251158e295aac394a NFSD_TCP_WRITE_ZEROCOPY: close the 64 KiB findings on the xeu port with CPU per GB and what carries to 16 KiB
-11a501f3917932a640c5d35b0ac9d5b63c685573 NFSD_TCP_WRITE_ZEROCOPY: the xeu rig's scripts and the handoff for the 16 KiB boot
-04c247b211781c95510f49f844fe6d28a5df7638 NFSD_TCP_WRITE_ZEROCOPY: record that the xeu refill retry patch was loaded and works
-3f90a5e0f3117bf0c7b9d0380a26810ceac2b6ee NFSD_TCP_WRITE_ZEROCOPY: the artifact's source, with the xeu refill fix's test results
-10e8ed6bff7e6149f61d51d62258cc199cfe6a5d NFSD_TCP_WRITE_ZEROCOPY: xeu-rig/build-kmod.sh, and the handoff's step to rebuild kmod-xsight 2.0.1-4 at 16 KiB
-19bde439b01fee93c0d73d8de3ff7f5da75f4458 NFSD_TCP_WRITE_ZEROCOPY: the first 16 KiB results on the xeu port
-6cde44c5951201033f890fd21374a695e8992843 NFSD_TCP_WRITE_ZEROCOPY: ring sizes at 16 KiB on the xeu port, and the 4 x 64 follow-up
-c9facfc534703a791754f222dc69e54546023863 NFSD_TCP_WRITE_ZEROCOPY: 16 KiB repeats, the storage's own rate, and what limits the step cells
-66db10bf98960de6fa4495be21d37e9b98d6f804 NFSD_TCP_WRITE_ZEROCOPY: the hero ladder, and the cells with the load uncapped
-c687313b4d0091247ac6b4df6d5a46e4b7b831dc NFSD_TCP_WRITE_ZEROCOPY: the first evening of hero runs on the xeu port
-6e94661084f32f9bbbf9541eb4ca55d38ce36283 NFSD_TCP_WRITE_ZEROCOPY: the wall near 25 GB/s is the receive copy; six drives striped
-c1ef33a755c813033c7b4e716fc999e490c54ea4 NFSD_TCP_WRITE_ZEROCOPY: the artifact's source, led by the 16 KiB summary on the xeu port
-5dcc404a5693baec1a8809c0868a53b85bcdd6c4 NFSD_TCP_WRITE_ZEROCOPY: the artifact's open 64 KiB case moves from the header into the 64 KiB section
-d0ac3f2af079672a4943d62b515abedb0c96f0f3 NFSD_TCP_WRITE_ZEROCOPY: what a copy costs on hardware is no longer the open question
-7c5f07e2059a1686e0f4f26a35f587e528218c54 NFSD_TCP_WRITE_ZEROCOPY: more connections, the loan's anatomy, growing files
-746da065435494780d6a3d4ba1b836442488e370 NFSD_TCP_WRITE_ZEROCOPY: the night's hero runs: what holds the loan
-efaf32260cece8ffe9a95be66badeb18d1daca46 NFSD_TCP_WRITE_ZEROCOPY: correction: on the MD stripe nothing native is written direct
-5e0e0f5e87f869a6657cceaec073a27986a18180 NFSD_TCP_WRITE_ZEROCOPY: the artifact's first section corrected: three-run figures, and nothing direct on the stripe
-86f838ad37a49f8995e552f318cb1a408efa13c9 NFSD_TCP_WRITE_ZEROCOPY: where the xeu rig stands after the night, and the next boot
-7ace61fef6a3fadab7d86367d14360dff1792cc2 NFSD_TCP_WRITE_ZEROCOPY: the handoff names the generic stacking-alignment change
-b611c4123704e19fcdcf72e73e412bc456870212 AGENTS.md: the commit trailers
-b2dac3e2b25f2b4496a2a185e9785878caba3118 NFSD_TCP_WRITE_ZEROCOPY: the last runs on build 459, and the handoff for the reboot into a new kernel
-cc7821f9895048124b284975f794cf1fd74820f9 NFSD_TCP_WRITE_ZEROCOPY: the next boot checks the Xsight kmod and does not rebuild it
-d88fdc79bad3c1b263ae41ef2f0a7e0e43ace124 NFSD_TCP_WRITE_ZEROCOPY: build 461, the copy on the stripe is written direct
-66078cbe89e2732a28661fe88d490db276fa6339 NFSD_TCP_WRITE_ZEROCOPY: build 461 traced, after the call with Xsight
-2190a5c1f4229d17af17992c160f54222f02ea0f NFSD_TCP_WRITE_ZEROCOPY: three patches wait for a build, and the testing is of copy mode
-efb095cbba647ef62c4c018869cb3ceb4e7a441f AGENTS.md: a commit message carries no disclaimer about the work's state
-7f590686030aab1e9a6376c0a0c9e7b6eeff5284 NFSD_TCP_WRITE_ZEROCOPY: the harness had deferred skb frees off, and a setting for them
-7dd11dec9bbbfcc3a80df2b75b6e4f88a532f6e5 NFSD_TCP_WRITE_ZEROCOPY: the harness leaves deferred skb frees on
-8b51f37c35c5c9f542dec8370734d7418e51f923 NFSD_TCP_WRITE_ZEROCOPY: a change is judged as one of many
-785f6680d8e12e4e5577ab5cc21a654e88cf935b NFSD_TCP_WRITE_ZEROCOPY: pace a step cell's load at the source with STEP_RATE
-d1ac1bd580286fe3b542902be8ce256f97b6004c NFSD_TCP_WRITE_ZEROCOPY: how a WRITE is received in copy mode
-77b5ddc3beeae4f43b8e42bd9ce8278dabff6d57 NFSD_TCP_WRITE_ZEROCOPY: the copy with a 1 MiB held buffer, 35.9 GB/s
-99109a38341c38388ededf5c7fe75c5f24bcd7c6 NFSD_TCP_WRITE_ZEROCOPY: RX_LINGER_US sets svc_tcp_rx_linger_us for a run
-5e77583a7755b541049ab456c9bb496df52ecfab NFSD_TCP_WRITE_ZEROCOPY: where the xeu refill threshold parameter is
-85e60188e0ca3f88331ead2cb0950fabb1aeed6c NFSD_TCP_WRITE_ZEROCOPY: the handoff for the boot after build 461
-3883ab12411855e1ece119591c7b1296b1338535 NFSD_TCP_WRITE_ZEROCOPY: the next boot loads every change before it measures
-17e0041ca907afda54e7ecec0134b154206ef7fc NFSD_TCP_WRITE_ZEROCOPY: swap-sunrpc.sh puts a built sunrpc.ko in place
-dbf42ba10a6f5282fb71fab522be3e6189723b48 NFSD_TCP_WRITE_ZEROCOPY: build 462 with the whole stack carries 38 GB/s
-d55c61af19ff366a8a02f143ac2df3118838d09a NFSD_TCP_WRITE_ZEROCOPY: tardis1 crashed in the loan cell; the batched return overflowed the stack
-c94c265d92ecfca6e36c2b6d534c4c43b12a82e7 NFSD_TCP_WRITE_ZEROCOPY: the crash's write-up names the BUILD_BUG_ON
-6a014d79a370626894951de68e1de0866135317f NFSD_TCP_WRITE_ZEROCOPY: plan the 64-connection test of pools_per_node
-8b5e279959ba871c350098f8c574f0114bb3b8af NFSD_TCP_WRITE_ZEROCOPY: what came of each work item, and the crash in the convergence account
-2c4e07e3a427e7d24cdf5d4c18472ab0ec67fd89 NFSD_TCP_WRITE_ZEROCOPY: the footprint against the L3 is the copy's next lever
-f5641905735d2c6a2ac63bd73153df0d9d72ab25 NFSD_TCP_WRITE_ZEROCOPY: the linger's clock read is its busy wait
-6835eb4a1ca2006853af511375651c819cc09e40 NFSD_TCP_WRITE_ZEROCOPY: plan the linger at 50, 25, 20 and 0 us in copy mode
-5f492a9ae0536506b646c1e18ed22f56e41717ae NFSD_TCP_WRITE_ZEROCOPY: linger.bt reads the linger tracepoint in every traced cell
-e05aa6700ddf865ed3d7292ee1d6b8d3618ff4fe NFSD_TCP_WRITE_ZEROCOPY: work items for how the flows fall on the rings
-8e08024f493285aeb6ff0cce67c35488b8e7e6c1 NFSD_TCP_WRITE_ZEROCOPY: BALANCE= mounts again until no ring takes too much
-121434fabf8d6c109eaed959050a65fece5274ab NFSD_TCP_WRITE_ZEROCOPY: what steering to ask of xeu, and the questions for Xsight
-1b6e774b2dbe21981194adc1445d894f9c59198f NFSD_TCP_WRITE_ZEROCOPY: draft of the email to Xsight about steering on xeu
-3d15b4730704e7249fc97864c26fb937106410f0 NFSD_TCP_WRITE_ZEROCOPY: work item for xeu receive buffers smaller than a page, and its A/B
-01b7f8900ad23372f29cf203ee94788d0265c1e5 NFSD_TCP_WRITE_ZEROCOPY: the RSS table and key are in xeu's SDK, and the email asks about them
-afde612c2fb8df88d309f819d02fc858a2a292f3 NFSD_TCP_WRITE_ZEROCOPY: the xeu ethtool RSS patch is written; how to try it
-2bb6e3e9bfbef4e8a56e8bfd64244b162ac8717c NFSD_TCP_WRITE_ZEROCOPY: the xeu rx_buf_size patch is written
-8681f2772fb45982b4bb2b08d27e59bf00eda4eb NFSD_TCP_WRITE_ZEROCOPY: both xeu patches are kmod-xsight Release 6
-cce2f97e18adf30d081bed126db2359e1f183aaf NFSD_TCP_WRITE_ZEROCOPY: the kmod-xsight Release 6 commits are on xsight-WIP3
-7295e466f551104468af52e6e995c427cfbbdfd6 NFSD_TCP_WRITE_ZEROCOPY: the next boot tests the new xeu features first
-4392418e747db2d98730321f62986078bb906373 NFSD_TCP_WRITE_ZEROCOPY: set single RSS table entries with ynl's rss-set
-6076a72db4aa1d6def7971d23d1e6192f3805c84 NFSD_TCP_WRITE_ZEROCOPY: the next boot watches the first stack drain and runs the resize test
-c33e1b8f335dab82d892d4706b1cf6bd32deb352 NFSD_TCP_WRITE_ZEROCOPY: work item: bound the pages a socket keeps after the page swap
-9edcda5c3294150ddb3ed52e11919db4cd7a8e40 NFSD_TCP_WRITE_ZEROCOPY: build 463: the xeu RSS table and rx_buf_size on the card
-5d445b5f1cd0072390810ee584e539c5cf5b8d33 NFSD_TCP_WRITE_ZEROCOPY: the artifact's first section is build 463 and the call with Xsight
-277f3c807263b733fefb199710232ab0f35cded6 NFSD_TCP_WRITE_ZEROCOPY: rx_buf_size=5440 is pinned in xeu.conf and loaded
-676b8eab8b87dd7b615895de8b7dc1689a4fb98d NFSD_TCP_WRITE_ZEROCOPY: the artifact's headline is the 41 GB/s in 21 MiB of the L3
-c56ab6749043ba13e91d3cb4f6ff3a3f9625eef3 NFSD_TCP_WRITE_ZEROCOPY: PLACE=1 places a cell's flows on the rings through the RSS table
-2cc0c0f344faafad66eaab9431b1cc694cb60790 NFSD_TCP_WRITE_ZEROCOPY: the artifact has flow placement as one of four things the peak depends on
-8dfd2bcdb8419a5c4ea0bd0b621393a1faf87b2c NFSD_TCP_WRITE_ZEROCOPY: the artifact's note on the Xsight call says what the 5440-byte buffers give
-b8a9668cd4363134286f42c0152254e8cf60b189 NFSD_TCP_WRITE_ZEROCOPY: the artifact's table of the copy's progress wraps and does not scroll
-88800fbe694feaa2580850d999dfe68164e39c08 NFSD_TCP_WRITE_ZEROCOPY: the artifact says how many pieces a WRITE was received in before the linger, and what they cost
-26e934a51f45646bd5f939886e9ed16bc91721d1 NFSD_TCP_WRITE_ZEROCOPY: the artifact names Xsight's xeu driver
-70f3274856026c10c903cf478f895c0cc161ded7 NFSD_TCP_WRITE_ZEROCOPY: the artifact says the kmod-xsight packaging is Hammerspace's
-77e4d4d9418fb1da4c9fcdbd31f9cfb48217a59c NFSD_TCP_WRITE_ZEROCOPY: the artifact lists its runs by date, a line each
-fc1ba8270c62f8dd49965ef93f760b8ec0cb2793 NFSD_TCP_WRITE_ZEROCOPY: the artifact's 4 KiB run is named without its commit
-d67d29d23fa6e3f5eb8d04542bb3294b48d6073f NFSD_TCP_WRITE_ZEROCOPY: the artifact's flow placement item has no date tag
-ee8a01de5472d8883bd1cfe7b3629cbdfd8700dd NFSD_TCP_WRITE_ZEROCOPY: what ring depth and the held buffer decide, and the plan that varies them
-cfa372c76976f6ddae1c857617343445374545f0 NFSD_TCP_WRITE_ZEROCOPY: the artifact keeps a date on one line in its section labels
-1ff34f558b91fa60768fe9e9611cacb71bc7a83f NFSD_TCP_WRITE_ZEROCOPY: the artifact's first section label is one block with the date on its second line
-1ce2eeef38996f261e2b505ea1cb4ebf6a2bc265 NFSD_TCP_WRITE_ZEROCOPY: the artifact's cache tile reads 'of 32 MiB L3 cache'
-205c54a489f6c2daf600aa2e3714e0647395d4b8 NFSD_TCP_WRITE_ZEROCOPY: the artifact's cache tile reads 'of receive memory used'
-d94a140c7b139fbd61eda575eb9ecdff83e63991 NFSD_TCP_WRITE_ZEROCOPY: the artifact's cache tile reads 'receive memory used'
-ea191fcb3429d667460e5707a6af728e832e4a44 NFSD_TCP_WRITE_ZEROCOPY: ring depth and the held buffer on 5440-byte buffers, placed
-4f1cc0fc65e7dd38a0df16792e3ae7e49f110c7f NFSD_TCP_WRITE_ZEROCOPY: the artifact's headline is 41.8 GB/s inside the 32 MiB L3 cache
-6d0f3b727c72306c130d1dcb5c55cadee41ee7b9 NFSD_TCP_WRITE_ZEROCOPY: the artifact's first section has one result table
-6481061c26803079bf30e04c609f7a2277c06cf4 NFSD_TCP_WRITE_ZEROCOPY: the artifact's tables say 'of 32 MiB L3'
-bdcf01dcf3daf25689c55d86d5851500dccc1d55 NFSD_TCP_WRITE_ZEROCOPY: eight rings relieve the rings' CPUs and carry no more
-5dd214dca062fde18979880630a62017a8549590 NFSD_TCP_WRITE_ZEROCOPY: eight rings with the smaller buffer carry four rings' rate; what a connection's WRITE takes
-c65605b1982437426712f44a90ba935214dcb374 NFSD_TCP_WRITE_ZEROCOPY: thirty-two connections from two mounts: the client fell over
-a695a5cdebdfcf2b0bcefc90f7b5d1e68c4f0207 NFSD_TCP_WRITE_ZEROCOPY: the best cell repeats on the rebooted client; pacing at the source gains nothing
-2bfdd86462ee1e2192f4901aa6e3ab5f7e63c781 NFSD_TCP_WRITE_ZEROCOPY: two mounts collapse on the rebooted client as well; conns-watch.sh stops such a cell
-659d4bc3004abea93cdea5c2e611ae6721e57ecb NFSD_TCP_WRITE_ZEROCOPY: the client moves to a 7.1.13-21 kernel; what to run first on it
-53aab4791e19fd8a8c48759e4edc94cebdbe5f76 NFSD_TCP_WRITE_ZEROCOPY: rss-place.py counts flows before bytes
-15e3c1026a59dd6f8738178349f07e5266df0624 NFSD_TCP_WRITE_ZEROCOPY: the client on 7.1.13-21: the baseline holds and two mounts no longer collapse
-ab0d13a33458f6700452eb08eab4f4aeb7791bd1 NFSD_TCP_WRITE_ZEROCOPY: thirty-two connections with the footprint held carry 35.7 GB/s
-0a4c9847e3f0f80484e1cdea95c66ae8e1b4f6b0 NFSD_TCP_WRITE_ZEROCOPY: a 1.5 MiB held buffer waits less, copies dearer and carries the same
-fb151f756b3bc16bbc74c106cce9d7562c7db112 NFSD_TCP_WRITE_ZEROCOPY: the artifact has a section on what did not help past 41.8 GB/s
-32d5387a8c7b337d29adf400ea3ceb51b588c63c NFSD_TCP_WRITE_ZEROCOPY: the artifact's intro links to the section on what did not help
-62be2dd38b0f320c81eb4999fa5aa9c7de093188 NFSD_TCP_WRITE_ZEROCOPY: the E1 offers no header-data split and no payload aggregation
-a3adcf515e57dd3651c42916cc6f8c00181498c3 NFSD_TCP_WRITE_ZEROCOPY: Xsight was asked for header-data split with coalescing and showed no interest
-c28d3547ab77c6d5c650863d274369a4ca4cf42c NFSD_TCP_WRITE_ZEROCOPY: TODO: revisit 4-byte placement now that a frame spans two 5440-byte buffers
-1204ec8d07dbcf8a6336f7b1d2d141178d870fdf NFSD_TCP_WRITE_ZEROCOPY: SGL drives are coming to tardis1, so the loan written direct waits for them
-5d31082b62759271498557bda2324853cc663c5b NFSD_TCP_WRITE_ZEROCOPY: one misplaced piece buffers the whole loaned WRITE; a frame that fits one buffer avoids it
-c6364c2f5542645358f5f94f07e41ca27a0fec02 NFSD_TCP_WRITE_ZEROCOPY: the ask of Xsight is 4-byte placement in every buffer of a frame
-45b74e36ac696b2efd671532e66dffe2600de9a2 NFSD_TCP_WRITE_ZEROCOPY: 8192-byte buffers and an MTU of 7792 carry 43.3 GB/s; where.sh's ring rates corrected
-883a44f3fd29b0c66d71e202051a5f48edba2ae4 NFSD_TCP_WRITE_ZEROCOPY: the artifact's headline is 43.3 GB/s on 8192-byte buffers at an MTU of 7792
-ac68fb968f3d649da05a0d8816a62f9284f648b3 NFSD_TCP_WRITE_ZEROCOPY: rx_buf_size=8192 and the port's MTU of 7792 are pinned on tardis1
-d8962445f1ff4c28b012ccb12584f8cd74505e01 NFSD_TCP_WRITE_ZEROCOPY: why the client keeps an MTU of 9000 when the server's is 7792
-57b31a5553bad2bb8b6fe50f6add680962c6fe28 NFSD_TCP_WRITE_ZEROCOPY: the loan on 8192-byte buffers is written direct on NVMe/TCP
-5378302bb1aef58f284b218c7258359a25697732 NFSD_TCP_WRITE_ZEROCOPY: the loan's charge at four factors, and learned by the kernel
-c0954b316b1556102a8fcbdb8de3ab39013df61e NFSD_TCP_WRITE_ZEROCOPY: the artifact has a section on the loan for NVMe drives with SGLs
-b50cfe1973502086c8ab2ce278f6267a5bcd16a2 AGENTS.md: the Hammerspace twin branch is not this work's concern for now
-416a0a9e10ad16bce760eba73f16532c0dc318b1 NFSD_TCP_WRITE_ZEROCOPY: PROJECT.md: copy and loan are one receive path with one switch
-f64b7bc5be0304350993fe079d82b2df3a3886ff NFSD_TCP_WRITE_ZEROCOPY: the factor is gone: six commits, five batches, the copy level at 42.6 GB/s
-5c8ab3c8186ee68acb7407fea28bc8039f3fe1c0 NFSD_TCP_WRITE_ZEROCOPY: artifact: the factor is removed and the window is measured
-a9aeb47a113cd95d3625e3f32adb7f8826b71f19 NFSD_TCP_WRITE_ZEROCOPY: artifact: link the removed setting from the lede
-d2dbfd2b97c813cf93674f55cb5071888d23cc94 NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: what to do after the reboot into build 464
-b901d48e7f6bf7ddfa7b4c280e6bcdd6c0699d78 NFSD_TCP_WRITE_ZEROCOPY: build 464's baseline, and the factor the KUnit suite leaves fixed
-f1dfc76ccb02dfc3684d891dce6c4e0926473b5c NFSD_TCP_WRITE_ZEROCOPY: the KUnit suite's fixed factor is cleared at the tip
-02d18d242d703a629d546ddbb192d722043726ea NFSD_TCP_WRITE_ZEROCOPY: step A: the clock is the linger, and the copy holds the socket lock
-51bc965c29bb4a1c82c308a7cae6a6180278349d NFSD_TCP_WRITE_ZEROCOPY: the fixed svcsock suite is installed for build 464
-8789cd2c61a9ae2b611ba04da25b06d60f6dd498 NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: build sunrpc with the tree's own trace events
-446dff5c903f9125884309178fbbce910cb34acf NFSD_TCP_WRITE_ZEROCOPY: step B: eight rings do not help, and deferred interrupts stop the port
-95767362dc99e920485abc6222182667964b7a4d NFSD_TCP_WRITE_ZEROCOPY: the copy outside the socket lock: level with the locked copy
-ae41acc4e0888b0ac798539905a95af542ff2af0 NFSD_TCP_WRITE_ZEROCOPY: two threads on one connection: the window is shut less and the rate is the same
-0e0d0446c9c0938882e68bab35e772fce41575a5 NFSD_TCP_WRITE_ZEROCOPY: a larger held buffer with claiming: the window opens and the rate is the same
-95873362b70022de0a1271ae4d65eaea581d77a0 NFSD_TCP_WRITE_ZEROCOPY: the client is not the limit and the wire is 92% full
-9a6e09a8e40781323aca6e6afd03042b95b036a0 NFSD_TCP_WRITE_ZEROCOPY: fq on the client: the loss goes and the rate does not come
-4305aec74ff4cc7e84c0722f6a5dc2e871d7da81 NFSD_TCP_WRITE_ZEROCOPY: more than two threads on one connection are as two were
-9ca63370ec1c4086d9f05fcf84530eeecac4c161 NFSD_TCP_WRITE_ZEROCOPY: artifact: build 464 leads, with claiming, the window and fq on the client
-6feaabdc11b26a1eec826f0548cccb419e8b9fb9 NFSD_TCP_WRITE_ZEROCOPY: artifact: the lede links each of build 464's topics
-7679f9ef5f7b41d1397abcbc1280165eef817377 NFSD_TCP_WRITE_ZEROCOPY: artifact: the pinned configuration, first on the page
-15f497d6079c8437d0db7c55aee74815d0e6260b NFSD_TCP_WRITE_ZEROCOPY: claiming's retransmits are frames the card loses ahead of its rings
-b361bc815e0c876e970c9207be62b11432f5c58f NFSD_TCP_WRITE_ZEROCOPY: the pinned module settings are in modprobe.d, and the harness keeps the linger
-d40dceb50ea0b5e5865ec5e0de74d0c4ef64829c NFSD_TCP_WRITE_ZEROCOPY: io_cache_write 2 is pinned: 4 carries 28.6 GB/s against 44
-1c89af115dc1bdc63cf2475ad788b8a55a470b2d NFSD_TCP_WRITE_ZEROCOPY: artifact: io_cache_write 4 tried, 44 GB/s to 28.6
-a94119e55e11e4e578391dfa4118c9f5532d1aa5 NFSD_TCP_WRITE_ZEROCOPY: the tuning bundle's default write mode is left for later
-56b78330532122f929032ef6f2ad4c61de35398f NFSD_TCP_WRITE_ZEROCOPY: draft of the note to Xsight: frames lost ahead of the rings, then the smaller questions
-135238227950f691c070dc3f0740e31915ce65b2 NFSD_TCP_WRITE_ZEROCOPY: the port's RX counters are a patch to xeu, built and not loaded
-f4a5412360045bf9bad330b81a6e266ea5c066b5 NFSD_TCP_WRITE_ZEROCOPY: the uncounted loss is the port's RX FIFO, and it holds the rate near 44 GB/s
-d5350be43acfcd20be94333271bb3d0ab668c7a0 NFSD_TCP_WRITE_ZEROCOPY: the RX FIFO is 2 MiB by the SDK's sizing, not 1, and there is nothing to resize it to
-7ef53c38c2282dbd9489aaae97145ab86fae6e90 NFSD_TCP_WRITE_ZEROCOPY: flow control is accepted by the port and no pause frame is sent
-57af111b1c6b1cbd608868aebdd47d545e7a63dd NFSD_TCP_WRITE_ZEROCOPY: artifact: the retransmits are the RX FIFO's drops, said once
-b79d27cd56c96d25d497d4cac89a1b97011f3c57 NFSD_TCP_WRITE_ZEROCOPY: artifact: each build's best rate beside it in the list of runs
-0b8f21234f14d880d7a72924e2bd9e9ef1438c61 NFSD_TCP_WRITE_ZEROCOPY: fq with the FIFO counted: pacing empties the FIFO and does not raise the rate
-d7f50f2bf679b9bbeb6f2e91b1930d9e32fe7b47 NFSD_TCP_WRITE_ZEROCOPY: artifact: the 64 KiB runs have no rate in the list of runs
-ed0b2defd785d4808a07364ba19c7ee001e73fcd NFSD_TCP_WRITE_ZEROCOPY: artifact: each kernel's release on a line of its own in the list of runs
-24f19efdf40f966ca064fdb354e812cc003da8a2 NFSD_TCP_WRITE_ZEROCOPY: artifact: a kernel's release moves to its own line only when it would wrap
-881c6cabf21ba95b81cd435c9ab9cc174d1314b7 NFSD_TCP_WRITE_ZEROCOPY: artifact: the best run is what is reported, 44.6 GB/s on build 464
-4cc6afe123323d8ed6a8db1ef5dda34553bf3779 NFSD_TCP_WRITE_ZEROCOPY: the note to Xsight asks about receive coalescing, and says what pacing showed
-c246310991ba661200fcfb51687d72112d04317c NFSD_TCP_WRITE_ZEROCOPY: the note to Xsight leads with what is known about the RX FIFO
-233fd9397c6aab937575d493e1888177ee27b48b NFSD_TCP_WRITE_ZEROCOPY: the note to Xsight says where the capped run's limit is
-a5064dfc4fe785475af84ad281696fa1096cf470 NFSD_TCP_WRITE_ZEROCOPY: two stripes of four drives, one for each port
-0dacdf0d8d2c75123365661691030cc5773811e3 NFSD_TCP_WRITE_ZEROCOPY: both of tardis1's ports are ours, for runs on two at once
-da7e735c4d4972e95d7f551e86d2cdf2c745f572 NFSD_TCP_WRITE_ZEROCOPY: two ports carry 36 GB/s each alone and 43 together
-54b7cf08c85cd2c261129e4abdfb52f2dc45726d NFSD_TCP_WRITE_ZEROCOPY: two ports carry 54 GB/s with their receive memory in the L3
-6b9dfa3ef1c8c9327bde43273a54fcb34a4d1329 NFSD_TCP_WRITE_ZEROCOPY: artifact: both ports together, 54 GB/s with their receive memory in the cache
-ffc849ea92066c3018d6ad4040bb5f2bc91c7ab7 NFSD_TCP_WRITE_ZEROCOPY: artifact: 58 runs on both ports, not 57
-a7a83da6cf94b2f406049941ba713d91aa2eba94 NFSD_TCP_WRITE_ZEROCOPY: one port and two ports against the client on build 469
-ab8a9160aa282c9eac5c69e0dc49b0e731d781b9 NFSD_TCP_WRITE_ZEROCOPY: twoport.sh: EXPORT_SYNC, and one port on four drives with COMMIT not flushing
-459ac8fd41c3bc6fcab5ab51d0652f1aa88d3b17 NFSD_TCP_WRITE_ZEROCOPY: run tardis1 with no cache flush to the drives, as enterprise storage
-76c8a81c5c2b56554c200690044ad06aec06538b NFSD_TCP_WRITE_ZEROCOPY: artifact: the pinned settings are those for one port
-c4b68410e87772354563b7a547115ce1e13a1d42 NFSD_TCP_WRITE_ZEROCOPY: twoport.sh: a warm-up fio leaves out, and what the drives did in the window
-9991f0cda051980b165ab97f0124f5c2a87dcd32 NFSD_TCP_WRITE_ZEROCOPY: artifact: two ports carry 58.5 GB/s with no cache flush sent to the drives
-4cc645b5a7230a2e3fc8512c7a09765de7f3117d NFSD_TCP_WRITE_ZEROCOPY: artifact: the flush table as one row per case
-8c403565194d7936a1418e8c6698690a3f06cded NFSD_TCP_WRITE_ZEROCOPY: copybench: what a copy that does not fetch its destination would gain
-aa67273c6db0d4f4fb2ed625d771a92ba762ebd6 NFSD_TCP_WRITE_ZEROCOPY: artifact: the copy does not fetch its destination; the ceiling is what the CPUs share
-0144bd200734e01e47591ddceb6d53aa1af25910 NFSD_TCP_WRITE_ZEROCOPY: memory copy performance on tardis1
-c362c69624db79d276cc7f9655f579a534e6f9de NFSD_TCP_WRITE_ZEROCOPY: the account of 12 October: no cache flush to the drives, two ports at 58.5 GB/s
-3158f614c12d5e5b2cd63f29a27444a8a61554b0 NFSD_TCP_WRITE_ZEROCOPY: artifact: a headline for one port and two, and the two-port settings as a table
-2fc254f9e56256b06da8f47429557cf6798859c0 NFSD_TCP_WRITE_ZEROCOPY: artifact: the two-port figures as a row under one port's
-5d9553eadffbd076e715a6c122fc17d2791abe19 NFSD_TCP_WRITE_ZEROCOPY: artifact: the two-port section's figures brought up to 12 October
-de4a43661b2b5aa2b97e1fd322b1aa1ec896a9ce NFSD_TCP_WRITE_ZEROCOPY: plain TCP with copying receivers on one port, and ring interrupts placed again after a resize
-fe27e4be0ab3a49320af39f12fa8dffe60e2d8d0 NFSD_TCP_WRITE_ZEROCOPY: the note to Xsight: both ports at once
-3f05d34f748736c5de42b2ee0ed0c8f6d8bbcdf0 NFSD_TCP_WRITE_ZEROCOPY: xeu puts every port's ring interrupts on the same CPUs
-ff85de48c60299e9e55b17efcbdfa4b10d6e61a4 NFSD_TCP_WRITE_ZEROCOPY: nfsd's threads split by port, and who wakes whom on two ports
-ff252cf2aae00b7e6feb4ab613f18883ed017e00 NFSD_TCP_WRITE_ZEROCOPY: svc_tcp_rx_keep: the runs and the account
-93316516b1bc09f52950b7779b570686624f10b3 NFSD_TCP_WRITE_ZEROCOPY: svc_tcp_rx_lowat: the runs and the account
-4b94e4290e0f92d7b0d0d439b38fca4b35bb442d NFSD_TCP_WRITE_ZEROCOPY: svc_tcp_rx_keep and svc_tcp_rx_lowat=131072 are pinned on tardis1
-b5a2ef3bf719cec1fb656f67195e9831eb989f78 NFSD_TCP_WRITE_ZEROCOPY: both stripes on formatted drives, and what holds two ports after it
-2817909a6a050128c9257c38704f616bc57dc035 NFSD_TCP_WRITE_ZEROCOPY: eight receive rings on CPUs of their own are not a gain
-ab10f9a3bbf6e284375dea616be3f4ed408c9631 NFSD_TCP_WRITE_ZEROCOPY: no MD: a filesystem on each drive, and twoport.sh over a port's four
-621878387505ddce7d9933dcbc64ad7581e47643 NFSD_TCP_WRITE_ZEROCOPY: what pulls a two-port run down: the drives' slow state, and a port gone silent
-251af8015024381e4e3a7bcd5fc31f9b800506dc NFSD_TCP_WRITE_ZEROCOPY: handoff: the drives first on 13 October
-9af49a86fc80ab49e2a5323925d59b8e08fbe5df NFSD_TCP_WRITE_ZEROCOPY: what 12 October's spent drives skewed, to go through again
-db7fd0b47d1c008c0b9882c32b2cafe3df501203 NFSD_TCP_WRITE_ZEROCOPY: what a drive takes: 625 GB, and a run kept inside it
-fb48fbfde7bc289050a09be83bfa9ab611158309 NFSD_TCP_WRITE_ZEROCOPY: the 128 KiB mark unpinned, and eight rings level with four
-0915dab54434060e9324dbbb4206a8597a277557 NFSD_TCP_WRITE_ZEROCOPY: four rings a port against eight: where the interrupts and CPUs sit
-c6e611d0c614c932d5b337d88a71db3fec99dd76 NFSD_TCP_WRITE_ZEROCOPY: eight rings by where the transmit interrupts go, and nfsd's CPUs
-05480e086f60364ab5598827975745d85bd6bde5 NFSD_TCP_WRITE_ZEROCOPY: copy threads on two ports, and the silent port caught on the client
-3b863c42f4a244f2c8ff3d61eefdd22a307a620a NFSD_TCP_WRITE_ZEROCOPY: the receive path traced at 60 GB/s, four rings and eight
-57a7583fe30bf6e23bd162b2ef3adcc1772341e5 NFSD_TCP_WRITE_ZEROCOPY: the artifact's source at 61.0 GB/s for two ports
-2594fe9afa8f6aaf796f2d6e175df221403e7e9f NFSD_TCP_WRITE_ZEROCOPY: the receive trace in a document of its own, and where the copy's 4% goes
-08a68e8ed4834abc64803a536978f2cea9938b71 NFSD_TCP_WRITE_ZEROCOPY: the artifact's source: the last 4% of the copy
-fe19a39c150592837e09988fbf9538f767fef8f2 NFSD_TCP_WRITE_ZEROCOPY: scoping the order of the receive buffers: under 1% to be had
-1d2ca3fd5921233a7f4a62d41b17e6ea3c01fcad NFSD_TCP_WRITE_ZEROCOPY: the copy's last 4% is left alone for the loan's sake
-d7d0b7308a2bd9634c06f9e2cadae843b70da714 AGENTS.md: copy mode is not optimized at the loan's expense
-b618fb8a7b76478999f27a64587ef2b15e7c3325 NFSD_TCP_WRITE_ZEROCOPY: the artifact's source: a figure under the 4% heading
-7e18f52940c537825e0db99d92ed47e532cbefa7 NFSD_TCP_WRITE_ZEROCOPY: the silent port: five events, and one caught at both ends
-7abc91d0c1e1784d6405d9bde2fe4ba146b308ca NFSD_TCP_WRITE_ZEROCOPY: the artifact's source: fq on the client is worth 0.5 GB/s, not 2
-eff4b482d07f8405159e2414b48e4a8312a88967 NFSD_TCP_WRITE_ZEROCOPY: fq on the client unpinned, and the silent port set aside again
-e5b7afa4c26a6a61e3cbce2002af9ed55baf8152 NFSD_TCP_WRITE_ZEROCOPY: the rig reaches the client over the management network
-c0f73328381741eb8fd6606f67af007313c013c4 NFSD_TCP_WRITE_ZEROCOPY: the artifact's source: 60.32 GB/s on the client's default queueing
-e03b966b17c5870aafdf2b66cb384624df56f694 NFSD_TCP_WRITE_ZEROCOPY: the artifact's source: 60.41 GB/s is the best run on fq_codel
-af9442512861fbbb43b065d6337e60e3e3a4366d NFSD_TCP_WRITE_ZEROCOPY: the artifact's source: two ports' headline is 60.4 GB/s
-979e6790ac5663d044476a3f7a1c5f82d6f26d2f NFSD_TCP_WRITE_ZEROCOPY: the DIMMs are all there, and NFS asks of memory what a saturated copy does
-819b04907b2b9867546a0cedc24017854ba98586 NFSD_TCP_WRITE_ZEROCOPY: the handoff for 13 October, and the next step
-4df0580c3c79f9eb22a726d00717ab3a3304ba2b NFSD_TCP_WRITE_ZEROCOPY: what a loaned byte costs in memory: the card and the drives go through the cache
-5ce433eecfba313c66e801f2685ddfc834bd3569 NFSD_TCP_WRITE_ZEROCOPY: the loan on the stand-in asks 1.7 fewer requests of memory a line than its copy
-31d193a7c566fba24684d7c66deac501303a8c0e NFSD_TCP_WRITE_ZEROCOPY: a loan's cost in memory falls with its budget
-93cdc3d37fb34bfc5e81368da2f79623d7f5e867 NFSD_TCP_WRITE_ZEROCOPY: the loan with a smaller footprint asks under two fifths of its copy's memory
-4beaff19dd33d1a6128c05df2dfbb15f3dcb9afe NFSD_TCP_WRITE_ZEROCOPY: the source of a second artifact, on loan performance
-8033f137305b8c996db234c9fc6dd324f12e9617 NFSD_TCP_WRITE_ZEROCOPY: the loan page's headline names the rate
-3feae5c4802c01b389f4947a05622fe0918ca398 NFSD_TCP_WRITE_ZEROCOPY: the artifact's source: a loan is not bounded by memory as a copy is
-c1180970dc56efdbaca25d32a17253666fdde5d5 NFSD_TCP_WRITE_ZEROCOPY: a copy's limit is the measured 62 to 68 GB/s, not a derived 83
-25fa5a7fc036a783744b0f4fa5d08a31aa2eff3d NFSD_TCP_WRITE_ZEROCOPY: the handoff after the loan's memory cost, and the battery for 7.3-rc7
-9b4d12d14c35cd65af3c14c75ada8dee885f8bae NFSD_TCP_WRITE_ZEROCOPY: the handoff: how to check the mesh's counter is there
-29d6123f3bd9154a78029e2a21248800f90840e7 NFSD_TCP_WRITE_ZEROCOPY: dialing in loan mode
-962086d12fa788c6e93bcfb8462efddb5a6b555b NFSD_TCP_WRITE_ZEROCOPY: the loan's floor on the stand-in, and its footprints counted properly
-78e052d2db7e3dd332bcf989ef763687b3a4de7f NFSD_TCP_WRITE_ZEROCOPY: the loan page rewritten: bytes through memory, footprints, and the floor
-643b892f69b127e57ca99cb8f616edd51290936a NFSD_TCP_WRITE_ZEROCOPY: the loan document brought into line with its page
-65203d06b4fc23dfc033a17b588f050804e224c3 NFSD_TCP_WRITE_ZEROCOPY: the tracing document's pointer to the loan findings in the same terms
-7681581f15a7c27f441d4f12f6c8572b92c06bfd NFSD_TCP_WRITE_ZEROCOPY: the loan page says what the card and the drives do with the cache in plainer words
-9a5d8c10fc95d38586c8d484c3c64ac12645e6d0 NFSD_TCP_WRITE_ZEROCOPY: the handoff brought up to date for the next session
-261dd6e11c71261f626d81651328e3edb37f58c1 NFSD_TCP_WRITE_ZEROCOPY: the handoff's list of tools in the same terms
-e75b2025ac837957186bca4a330d33bb1a0d8be5 NFSD_TCP_WRITE_ZEROCOPY: the handoff: what the pushed branch holds
-c62359c92f6c4ac196d7b39b1384dafe085e0ef6 NFSD_TCP_WRITE_ZEROCOPY: bvecrepro builds on 7.3
-749aba6666a4cc71e6233de42cd0ca89a29d7d2c NFSD_TCP_WRITE_ZEROCOPY: the series is on v7.3-3
-6689e7600d8ec6905470fbd7035b742efaeedf50 NFSD_TCP_WRITE_ZEROCOPY: twoport.sh reads and mixes as well as writes
-e11d4bb11ab3a4e3f8890a448085a6d91b6328e8 NFSD_TCP_WRITE_ZEROCOPY: the READ and mixed baseline on 7.1.13
-f72e9487af8cbe8fdb39de81d3e33781cdc2b0fc NFSD_TCP_WRITE_ZEROCOPY: the silent port is to be chased on 7.3
-e26502273d6e34891ce5b9ef7596b6d9ed423e40 NFSD_TCP_WRITE_ZEROCOPY: rwbase.sh writes 1 MiB, sequential and random
-b16d32fba0ca4134317f27564be26b74b8d98c5e NFSD_TCP_WRITE_ZEROCOPY: rwbase.sh names its runs by build
-1f3b655cd6155882103bb10d7998633bb7b191dd NFSD_TCP_WRITE_ZEROCOPY: twoport.sh refuses to run with nfsd unpinned
-1593bbe19526cb46f1135704ca6b98a22024ea50 NFSD_TCP_WRITE_ZEROCOPY: one group to a commit is a hard rule
-bc507c084c2e57d2aade08f44bb4c6f8e0a2a0fe NFSD_TCP_WRITE_ZEROCOPY: settled.sh, one audit of the settled setting for every run
-f9600bdf2a50f6e7b457564a694b82c02e607b3f NFSD_TCP_WRITE_ZEROCOPY: the settled setting is settled.sh's, and build 473's runs are to be redone
-9b65bc288b96207fe2063ee54ddcdcdf584282b0 NFSD_TCP_WRITE_ZEROCOPY: irq_tuning and rps_xps_tuning masked, to be reconciled
-9503116d499bf09aec367de1755f252434ac1489 NFSD_TCP_WRITE_ZEROCOPY: list the commits v7.3-3 carried
-5324cb10e1a73ed60d15a5339b65f753c6107332 NFSD_TCP_WRITE_ZEROCOPY: the silent port shows on 7.3
-7354ed198875ce0ae151be8953ac52ee04adfd05 NFSD_TCP_WRITE_ZEROCOPY: twoport.sh waits for the client to answer after a port opens
-bbc4022c1e65cc395142d5ddd2267a638bb3cdec NFSD_TCP_WRITE_ZEROCOPY: settled.sh audits the sysctls and the client
-ccd9ed251ea8651f37f4cc3cca3e8df6f21236fb NFSD_TCP_WRITE_ZEROCOPY: the silent port's eighth event
-e9110d0679d1ac27e5fc6786ed228d874974a94a NFSD_TCP_WRITE_ZEROCOPY: the region budget page gains build 473
-f601709a2053c9d9e77a6a93e35083745fa952b3 NFSD_TCP_WRITE_ZEROCOPY: copy mode on 7.3, build 473
-9d9c03f386a04f537b7fd718838f2465f7261122 NFSD_TCP_WRITE_ZEROCOPY: trim the region budget page's build 473 entry
-78949b90ceb4eefc5111611537e00e956fbb1ec6 NFSD_TCP_WRITE_ZEROCOPY: name the client's queueing in the build 473 entry
-a4724caec53c2e2f803e50f38a88f23cc8408d95 NFSD_TCP_WRITE_ZEROCOPY: the region budget page leads with 47.76 GB/s on one port
-feffd637fdef317c56440d1acd0dd55204032388 NFSD_TCP_WRITE_ZEROCOPY: the region budget page's lede rounds to 47.8 GB/s
-d8467c2a95c7baa0624829e90fc3fb1d3e8e8d27 NFSD_TCP_WRITE_ZEROCOPY: the loan performance page gains build 473
-b4a6b8fd31e8c73b784b1809f4b0dd772dac4ac1 NFSD_TCP_WRITE_ZEROCOPY: "at the limit of memory" in the loan page's headline
-b692770fcff71b0656c354ffb9e84edc63ba30ed NFSD_TCP_WRITE_ZEROCOPY: build 473's figures in neutral ink on the loan page
-bf33ae82852cdec653635927b652d390e2edae35 NFSD_TCP_WRITE_ZEROCOPY: svc_tcp_rx_copy_unlocked is gone after build 473
-49a486413f40db102994bca18364b57f3051c802 NFSD_TCP_WRITE_ZEROCOPY: all three loan plans on build 473 in the loan page
-f9cbc04d75cdf07ec33e183ad4ac115e75e758a9 NFSD_TCP_WRITE_ZEROCOPY: the loan on 7.3, build 473
-79aee6f2a9d58f0284c92a5c9def62fd0985ee4d NFSD_TCP_WRITE_ZEROCOPY: LOAN-PERFORMANCE.md on the 7.3 kernel
-4ac8d4daca87b624a28e357811ab0754e4a0c097 NFSD_TCP_WRITE_ZEROCOPY: CODE-SERIES.md, a survey of the code group
-93c3f3fdb996b3fbd5d09bc1b27f4066ac848730 NFSD_TCP_WRITE_ZEROCOPY: the loan page's lede links to the loan in outline
-9700df08406f8febcfb4aa18d0a064524cea0202 NFSD_TCP_WRITE_ZEROCOPY: the code group's trial rebase
-ecd69da893295476e7b6f5fa3bee91e7d2de870d NFSD_TCP_WRITE_ZEROCOPY: how slow is too slow for an SGL drive
-27acfe6954098048c3af78354c452fbd3b90f89a NFSD_TCP_WRITE_ZEROCOPY: the loan page answers how slow is too slow
-a4e295e60043dfff02a75f992c3301f10fd9f750 NFSD_TCP_WRITE_ZEROCOPY: the loan page opens with how a loan moves
-9763d1ad7a39a8cae813a8cd31a4a139917574b3 NFSD_TCP_WRITE_ZEROCOPY: the code group's final pass
-086699dc0d92c03ba4ef7d9b7e971ca66a424237 NFSD_TCP_WRITE_ZEROCOPY: the region budget page drops the reverted rule
-f5abc94b0e183204fb01458bfdbe3a892740a86a NFSD_TCP_WRITE_ZEROCOPY: the claim commits folded at the end of the code group
-a984bd4c4ed17669a64125bf0f3c7774537828e2 NFSD_TCP_WRITE_ZEROCOPY: the code group on its own, its review, and the claim commit held
-3fe105d876176cad6c0870977cbb7c9efe7c3f19 NFSD_TCP_WRITE_ZEROCOPY: loans off by default, and the code group finished
-c9bed36a1d5b212416238f9a8633d75127f505f3 AGENTS.md: the branch reworked for upstream, and loans off by default
-c2a7eae511d3ef4702ea33441f7d37754ad3c1d5 NFSD_TCP_WRITE_ZEROCOPY: the handoff for the boot into the reworked tree
-e00d229e356adf54975a11b69b5d96e7167f81a5 NFSD_TCP_WRITE_ZEROCOPY: nvme3 given back to the harness
-6c3fc40972622d839288f0bca7158c8e80fff6b7 NFSD_TCP_WRITE_ZEROCOPY: the code group's TCP calls through TCP's interfaces
-2facdb5ed44cd537ab67dea0446ad43b8b41c9c1 NFSD_TCP_WRITE_ZEROCOPY: Ronaldo's commits carry his mail address
-b85c82dd31c018ed0854e054e44f5011e64aa3ba AGENTS.md: commits carry Assisted-by: LLM
-82a9fa20f6011c79538a287593c92d5d20db877c NFSD_TCP_WRITE_ZEROCOPY: the pages a socket keeps after the page swap are bounded
-8840254c2b1325072fc7a821dfb918b594e7b17a NFSD_TCP_WRITE_ZEROCOPY: the svcsock KUnit suite is sparse-clean
-00744cfa1d8f3e83058d23408dadc847d99ca599 NFSD_TCP_WRITE_ZEROCOPY: build 474, the first checks on the reworked tree
-838ba85c983b41c44dd721fc056bee510efb0ff7 NFSD_TCP_WRITE_ZEROCOPY: what of the code group runs in practice
-d424d38b64241656157831af51a99afa90181d36 NFSD_TCP_WRITE_ZEROCOPY: keep the dropped pools_per_node patch
-18cd33bc809c5d3216e18f8f9d72cc52411095f3 NFSD_TCP_WRITE_ZEROCOPY: the rig holds the spare bound, and one pool
-c924c9be0e1bb6fb2daac80b05f884df4976d319 NFSD_TCP_WRITE_ZEROCOPY: build 474 with the tip's sunrpc, and the series cut
-cc59b9dfed9515810f4f84abc44f629be940752e NFSD_TCP_WRITE_ZEROCOPY: save the copy outside the socket lock as a patch
-31303ffe5cafcb8fae3074f230257ab0297eefa3 NFSD_TCP_WRITE_ZEROCOPY: save the SO_RCVLOWAT mark as a patch
-f0e0bcba72464b012d31a9f968cab644514a7963 NFSD_TCP_WRITE_ZEROCOPY: the copy outside the lock and the SO_RCVLOWAT mark dropped
-e4c952ff6d531ede4dca603e5f156dd327b92164 NFSD_TCP_WRITE_ZEROCOPY: veth's rx_ip_align dropped from the series
-358529bcd7ab673edd1bab3acf097e431df6401a NFSD_TCP_WRITE_ZEROCOPY: keep and the linger, each on and off
-e4ed87a989f994d7699e21588efde60cb577e265 NFSD_TCP_WRITE_ZEROCOPY: the linger and keep dropped from the series
-551161992b8f5268fd20eb3349b78d939bdccdee NFSD_TCP_WRITE_ZEROCOPY: settled.sh holds pause off at both ends
-5b50200c5a8da7fec37a25d56f236f377858fb27 NFSD_TCP_WRITE_ZEROCOPY: a one-port run's client qdisc is expected on its port only
-c9a04f06d2efa3e63f92b4fa9d7ef15ba72ab2be NFSD_TCP_WRITE_ZEROCOPY: the note to Xsight rewritten against today's setting
-c4b1c1835184e8b960a995129f2e6bb7746d2dc8 NFSD_TCP_WRITE_ZEROCOPY: the note to Xsight leads with the results
-ead3f4cb0c0ff23019d1a392431e072750d0c98d NFSD_TCP_WRITE_ZEROCOPY: the note to Xsight names the copy, not the host, as the two-port limit
-fcb163dfbce972398bf587a079726a4f4c19018d NFSD_TCP_WRITE_ZEROCOPY: rewrap the two-port paragraph of the note to Xsight
-614e3a452d714d81ec6e75553e17b5c4a0229673 NFSD_TCP_WRITE_ZEROCOPY: the note to Xsight says plainly what the two-port setting changed
-91da244ce375a78bc48da0899efc3186da6da7a3 NFSD_TCP_WRITE_ZEROCOPY: tweak to xsight email
-c25a45e95d94b307b2489f9b5e8d6581c4c61a24 NFSD_TCP_WRITE_ZEROCOPY: settled.sh and the rig's drives follow the host, for tardis2
-b4da70ad369625342d2927b1fed3fc468b939fa3 NFSD_TCP_WRITE_ZEROCOPY: the rig's run scripts follow the host, and keep off a run from the other server
-53d2bd12edad31d02fc209b750274d2476980068 NFSD_TCP_WRITE_ZEROCOPY: twoport.sh loans with WRITES=, and the first loan onto SGL drives
-2ff1101775b95c368b5f1272d2a2c0999dd953e2 NFSD_TCP_WRITE_ZEROCOPY: the loan onto tardis2's SGL drives at budgets of 32 and 64 WRITEs
-174e028f19414533a3230b178bd3e43e1e25df4c NFSD_TCP_WRITE_ZEROCOPY: a loan over SGL and PRP drives at once falls to the slow drives' pace
-38258e687047b754e4b111d5f99a58748a5d21b1 NFSD_TCP_WRITE_ZEROCOPY: copy on tardis2's four PRP drives alone, against their loan
-5380fc18d4309f7e75931663908aae481e826747 NFSD_TCP_WRITE_ZEROCOPY: the loan onto tardis2's SGL drives at 128 WRITEs
-a1aadf4a33f8f64ebeee02a3611160033b6b12b5 NFSD_TCP_WRITE_ZEROCOPY: build 479, the next kernel, tested on tardis1
-7ba71049bfc0d194273c8e3e3203c5e4bc49ace1 NFSD_TCP_WRITE_ZEROCOPY: the series rebased onto v7.3-7
-4397dc0d27337f6e588eded8bb95b50a513a6b3e NFSD_TCP_WRITE_ZEROCOPY: the SGL rig scripts count the per-outcome nfsd_write_dio events
-b74ccbd0e34f012d178c28ffdf6980d2697a0647 NFSD_TCP_WRITE_ZEROCOPY: the handoff for tardis1's first boot into the v7.3-7 kernel
-dc5e6a7e09c921ea9d06ee62aae59fe350efa37b NFSD_TCP_WRITE_ZEROCOPY: the v7.3-7 handoff checked on tardis1 before build 491
-fdac4398f5216990baa515fcae7cda57ad62d5c2 NFSD_TCP_WRITE_ZEROCOPY: a checklist of what the note to Xsight asked
-e18112771415481891531ef5cf9b639e08a17fc6 NFSD_TCP_WRITE_ZEROCOPY: Xsight's first reply, filed under the checklist's items
-3e5423342eab6baaad0009f52b58ffa5584aed4f NFSD_TCP_WRITE_ZEROCOPY: Xsight's second reply, filed under the checklist's items
-0fcc7c286d0a3c0a5356342bda9d4d29134ff76c NFSD_TCP_WRITE_ZEROCOPY: the Xsight checklist weighed, with what to send back
-2fdab9a1d8d2570a13ba7809a0dc427e3286b1da NFSD_TCP_WRITE_ZEROCOPY: tardis1's follow-up of Xsight's replies
-17885f66d9db3023cc7a1e9493d6dcb65dcaf1a8 NFSD_TCP_WRITE_ZEROCOPY: X1 on build 491, the Toeplitz hash checked
-be4dcec458f5b08fd071f1ded6bbb016ac71cfc6 NFSD_TCP_WRITE_ZEROCOPY: X2 on build 491, the FIFO's drops are memory's
-a8af5a346b52861cb4646c6cb7e7560ae83675dc NFSD_TCP_WRITE_ZEROCOPY: X4 on build 491, xeu keeps a placement
-1dc14815078c00bb6be809ba3a5f8b91ebffb4f5 NFSD_TCP_WRITE_ZEROCOPY: twoport.sh REFILL=, settled.sh EXP_REFILL
-4fda410c7291284bb840efcd0540f8478c8b3460 NFSD_TCP_WRITE_ZEROCOPY: X6's reproducers for Xsight, not yet run
-f15306504c35a101004dd59fabd7f43a02616ffd NFSD_TCP_WRITE_ZEROCOPY: settled.sh EXP_XEU_<parameter>
-832a044d52104ff4a8c91a85b318b38330b7effe NFSD_TCP_WRITE_ZEROCOPY: give the client 30 s to answer ssh
-4d79275c8d89555f264c584c011ec5b77908cd1a NFSD_TCP_WRITE_ZEROCOPY: end an ssh to the client whose connection died
-2002fa1b2230c9d319c18a25fc4cba12de2962f8 NFSD_TCP_WRITE_ZEROCOPY: X5 and X6 on build 491; X3 waiting on tardis2
-fecc4fb226326424c3778ac5c9d3e9d994db90a7 NFSD_TCP_WRITE_ZEROCOPY: X7, the draft of the second note to Xsight
-77748f9895b9f13f7471e62c42534149082224e9 NFSD_TCP_WRITE_ZEROCOPY: build 491, the first v7.3-7 kernel, written up
-51849092241da592f9e28156d83a987770612ce3 NFSD_TCP_WRITE_ZEROCOPY: X3 on build 491; the reply to Xsight complete
-8e5675eee27305f9e0fd666650df6a77539d2b33 NFSD_TCP_WRITE_ZEROCOPY: a handover for the Xsight meeting's summary
-ec7099f3e72befabc243c74315a9328233a11be5 NFSD_TCP_WRITE_ZEROCOPY: tardis2's eight data drives
-d9d44a9201b2ffa30c1b73535c581b4ed834a9e0 NFSD_TCP_WRITE_ZEROCOPY: tardis2's four DPRP5s, loan against copy at 40 GB/s
-242d5bea70de29228df28e0b31bba162c9b15b29 NFSD_TCP_WRITE_ZEROCOPY: tardis2's receive buffer, 750 KiB against 1 MiB
-de3c32b39f1c65a70319974791a4813ed40628ff NFSD_TCP_WRITE_ZEROCOPY: keep and the linger again, at 750 KiB
-d7d3ab7db9a52354a1b397b1750d35fe60e7d676 NFSD_TCP_WRITE_ZEROCOPY: a handover for tardis1's reboot
-6d77d2d4a4d6e33ec19d6305fde5f0f5757a2828 NFSD_TCP_WRITE_ZEROCOPY: keep the NFS stack out of tardis1's initrd
-c4c2bf9428d2888fcc2f99b402bdefe03c2e8c2a NFSD_TCP_WRITE_ZEROCOPY: no KUnit suite loaded at tardis1's boot
-bf209ac5db3203e05361b4befbb60c99191e144d NFSD_TCP_WRITE_ZEROCOPY: memcost over two ports
-778cddd972c1c1b96db5b88a8c21612feda0773d NFSD_TCP_WRITE_ZEROCOPY: tardis1's cross-check of 750 KiB
-369ef744a2a7aed7f41394f07d0f1dfa532cf1dd NFSD_TCP_WRITE_ZEROCOPY: settle 750 KiB as the one-port receive buffer
-26384f3c217e1a6e31a07f1fc0898b6123424525 NFSD_TCP_WRITE_ZEROCOPY: tardis2 pins 750 KiB too
-28898986965aa71a9f061f13be28ea7276f2ed51 NFSD_TCP_WRITE_ZEROCOPY: what a server that never loans pays
-da5ba9b11996716c2d39c91aecc46960af874519 NFSD_TCP_WRITE_ZEROCOPY: the loan key, item 1 of what a server that never loans pays
-ba96753ad90c7b31fb2ebbbcbb5f75f2238c4e1f NFSD_TCP_WRITE_ZEROCOPY: the loan switch is gone from the settled setting
-b49f08c4c300887a5ff522b7ac19b336912bfd70 NFSD_TCP_WRITE_ZEROCOPY: the loan key's KUnit run on tardis1
-902665c9450f7bcb9f10b315cd0f72a52bbc99c9 NFSD_TCP_WRITE_ZEROCOPY: copy mode on the loan key, no regression
-bd495705e1afb2d8816ad791aff90d2a6233c80e NFSD_TCP_WRITE_ZEROCOPY: the rig scripts turn loans on by the budget
-9e3437a1fe694d04e1e0ebecf903d58402de8987 NFSD_TCP_WRITE_ZEROCOPY: TESTING.md on turning loans on and off by the budget
-ff30d1d758d87279fa12b20d5a7d4e7a3a5a9abf NFSD_TCP_WRITE_ZEROCOPY: preflight checks the learned factors, not credit_factor
-d892a0c0dd652cc6110203b2556a18160344837e NFSD_TCP_WRITE_ZEROCOPY: items 4 and 9 of what a server that never loans pays
-fff02d7891df3ea3ef74173f10cd57c2dd00a168 NFSD_TCP_WRITE_ZEROCOPY: the region key, item 9's walk without a region
-284da9220e6ce527fc737d0d74cc75de079e7a08 NFSD_TCP_WRITE_ZEROCOPY: item 8, page_pool's region branches behind the key
-86996a13fb3f613a6b502bfd4601a3386b74e7fc NFSD_TCP_WRITE_ZEROCOPY: items 2 and 3 of what a server that never loans pays
-fe37fb11a023c9791fa4b973d008331f9cb25785 NFSD_TCP_WRITE_ZEROCOPY: handoff for the boot into the kernel built from the tip
-1419a6350c03cab5cda35c4fd8c50e1197fd2bdd NFSD_TCP_WRITE_ZEROCOPY: the summary for the Xsight meeting
-51dc6799b2e34ad0680517d979782c24bc6a0ac4 NFSD_TCP_WRITE_ZEROCOPY: the meeting summary leads with the region budget page's lede
-a9df3c1235275bbaf7920dc76b524ffb63a4ac3b NFSD_TCP_WRITE_ZEROCOPY: the meeting summary gains the 10 October account, the call and the loan
-ed018ca307a663ae7b67ab8ddcef9fa0aee91e2a NFSD_TCP_WRITE_ZEROCOPY: the meeting summary's 10 October sections move to the end
-51db9df6009f03636c1ebf1c2978ef282ce853eb NFSD_TCP_WRITE_ZEROCOPY: the meeting summary drops three of its Linux changes
-4f88cc5663d5b74cae2cd63a00251602cb7250e9 NFSD_TCP_WRITE_ZEROCOPY: the meeting summary marks three settings since dropped
-0b79a078304e71b8916d48706904f1a5abd3ad56 NFSD_TCP_WRITE_ZEROCOPY: AGENTS.md names kernel-7.3/main.NFSD_TCP_WRITE_ZEROCOPY again
-03b50009bc2a239a5bf63a1afc805ed7a0320084 NFSD_TCP_WRITE_ZEROCOPY: build 494, the kernel from the tip, no regression
-ef2949d4018389e4144f3940d5b488c5f65d4815 NFSD_TCP_WRITE_ZEROCOPY: build 494 on tardis2, no regression on the DPRP5s
-1bbeaa5eb57aec679336c91b4bd34ab6c204a073 NFSD_TCP_WRITE_ZEROCOPY: on tardis2's build 494 loan64-1 is the odd run
-0deb189d1877a5528e5d17d9f4e72fdc9bc9a423 NFSD_TCP_WRITE_ZEROCOPY: swap-sunrpc.sh starts the services it stopped again
-10cd83152a231f56b3da2ef2de09f3290cb564f0 NFSD_TCP_WRITE_ZEROCOPY: tardis2's loan wakes spread from run to run
-5d489ec5623ec6f372428a2f4ff30f94539ea8dd NFSD_TCP_WRITE_ZEROCOPY: tardis2's loan wakes follow how busy the rings are
-156103e98f77eaf87129c8a60b115981b06ecbcc NFSD_TCP_WRITE_ZEROCOPY: tardis2's lighter trace, wakes follow the credit waits
-6430910e759d201dbd1a32e1474c12388408735a NFSD_TCP_WRITE_ZEROCOPY: tardis2's empty reads were light.bt's
-8b08249f6ba312201e5533ab20939f35983ac0e6 NFSD_TCP_WRITE_ZEROCOPY: what tardis2's woken nfsd threads find
-2918b3d1204856a4b1ac4830731c49ef45ce2e3a NFSD_TCP_WRITE_ZEROCOPY: what a wake costs tardis2's rings
-7e6cf47bf013841c673aa34d1f403dfa700e3edd NFSD_TCP_WRITE_ZEROCOPY: the duplicate wakes are fixed at the tip
-ae132fefe44922cf07af488ce381839bbe7459c7 NFSD_TCP_WRITE_ZEROCOPY: the one-wake fix on tardis2, wakes fall 2.6 times
-44e20acde1153364d51b8d4da4222688354c254b NFSD_TCP_WRITE_ZEROCOPY: the one-wake fix is 2fc9cd2e839b
-3a55ab9bae383d9adeef3543afa9807d875284e1 AGENTS.md: commits carry no Assisted-by from now on
-0a7de511766031a08e97d32556b73a1618941da3 NFSD_TCP_WRITE_ZEROCOPY: the one-wake fix against the kernel's own sunrpc
-161b4f48082979597bc2126e983009222807dbb7 NFSD_TCP_WRITE_ZEROCOPY: run-kunit.sh starts nfs-server where no tuning unit does
-2895ce8dac240c1f3de9c92f60e08af3fb1e35ad NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH, round 01: the one-port loan64 profile
-ae8dca6810aac7fe13dc8bda10c1800357200ebf NFSD_TCP_WRITE_ZEROCOPY: keep NFS out of conntrack in the settled setting
-d21a4975e6a5bc7eabcd4b9235631143819a68a2 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH targets loan mode alone
-95e206f673a9bbca79f0ad8cef7494e2a0e8890b NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 02, and SKB_DEFER_MAX= for a run
-917db03227497389ebf566d3b95505f22e55ff93 NFSD_TCP_WRITE_ZEROCOPY: two receive-loop costs for Xsight, from the profile
-10ee6d213c95d6016c1ffb515bcbb2ad3dd6a0a2 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 03, skb_defer_max 0 in the settled setting
-2e3fe1b9674b8b034035e748ac1dcd7c209f7819 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 05, the svc_data_ready path
-9529314bef033e265b1cddec53fc3a82218cf024 NFSD_TCP_WRITE_ZEROCOPY: X8, the second header line's miss in GRO
-fda87b8527e6f6f52fcc16f40619ad53aa402cc7 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH's second yardstick, latency at low depth
-9d7a443af61dcbf3a4d157e52b84ce5e10ac5c0d NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 06, not kept
-70f8234fc281031d6c658a08e10e8bbd5d8e526b NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH L0 latency baseline, and SRV_QDISC= for a run
-c15629058e0be942725805fd477a4d57d6a36c15 NFSD_TCP_WRITE_ZEROCOPY: L0's wake tail is a stale stamp; lat.bt measures the wake itself
-9140439445640590c06311c2540c9c880c8d6af9 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 07, the server qdisc changes nothing
-e305626646956544fa742de2646314eaf07e4d2a NFSD_TCP_WRITE_ZEROCOPY: NOTRACK=absent for a run, for FLAMEGRAPH round 08
-5c50ff12fd655adf899e0e81b32763422e8d16e3 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 08, zc_notrack only while conntrack is on
-2b4902aec777a6d9cf609bcaa6f0203ad8da9d58 NFSD_TCP_WRITE_ZEROCOPY: GRO_MAX= for a run, for FLAMEGRAPH round 09
-b83f53e20b52414204bdeee821d14e4f5ec1dec1 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 09, BIG TCP on the server changes nothing
-c48313cc9f5ff20f7313336bca56fa1e09ea65f6 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 14 queued, struct page misses
-f840b36cb85e3e34d62560d7a0bd29a9ba1c7691 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 15 queued, rx_region false sharing
-6d84abd8f6e2e7bde25bb4ac1e2d897188626c8f NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 10, wait for a record's rest
-3f69f83246387dea9f52808c81125c8fe5677f45 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 11, socket-hold not pursued
-997de87e5f335e4f262e97c25c210fc296b12675 NFSD_TCP_WRITE_ZEROCOPY: build-nfsd.sh, and NFSD_KO= for swap-sunrpc.sh
-c368b1762482207875a70ef87e43cd7a3c466421 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 12's commit is 635e44bf37bf
-b870d725c701681db204890bafdc62f2ebec4bb9 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 13, nfsd's cred cache kept
-d568fc98767daec16300eade07a7d41eb9f09242 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 14, struct page prefetch kept
-6d6503cb00c69e0c1c70e1a43b69405da3eecff2 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 14, what the borrow still pays
-5d83c151220885ad209f4b8483e444b006bcc668 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 16, release prefetch not kept
-bfeeee5c271f15231fc2c9a6af52c9dcdcc84755 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH, where the kept rounds stand
-0da2582c20ca0692e37fd6706f9b2a51e5e6047e NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 17, wake path read-on kept
-76c32f4d0030587a1930fbb0ceb86252386675fd NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: build and swap the server's sunrpc stack
-75e0ce2ca0f38c6baa6de94a2998911a5d54f255 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 18, looking count not kept
-d4570317ff2ce3d022e4a6e56627abac0abbd6e6 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH rounds 04, 12 and 15 on build 499
-8a5a50576107bac86c2457ad3514399a5a95f24c NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: settle rx_region_stack 1024 and drc_max_entries 4096
-1ea6d58f9faf2579b7d8221eb83d0823f180627c NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 19, reply cache kept, region stack not
-c00c6ba793c1c3a502dcf7c1269e657d38fdec5c NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 20, a ring's interrupt held off at the card
-53cdcd1d402bf40132c0505bae399bb240cb2ad1 NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: settle xeu irq_msix_mask Y
-3ef0f401c66d7f6f9a5e53d56363443419e80570 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 21, credit lists from the newest end
-c86e2f6e69949c82c95db1a4d2444536ca3c52c3 NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: build-sunrpc.sh takes the tree's skbuff_ref.h
-ab089fae7280c499c4bf5950a3f79d7bb843eb64 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 22, a loan takes over the skb's page references
-79ca9affa7ff643c0782104b25627c8f55638299 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 23, a page's neighbouring loaned buffers returned in one drop
-7e606e4340134699f33d8c109475a282bf05a236 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 24, a loaned record's struct pages prefetched a batch ahead of release
-4bd01101e4e54d74ebe8b15df8c6d842da8a3383 NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: hold svc_tcp_rx_want_eighths, and let a run set it
-daf45e61b87f0a86de7ca934cc992a7ada88da3b NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: settle svc_tcp_rx_want_eighths at 6
-ac23b880fee232b53c94eceb74dd19984ed949f5 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 25, an incomplete loaned record taken up at three quarters of the window
-30d44161868107dc7144d6fb3860001cc7c0a8a5 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 26, an nfsd thread sleeps without a timeout when its pool cannot lose it
-9f9edae3a69338b9ecc7475c507b2347f964733a NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 27, the receive pass's prefetch ahead, a look not kept
-239fda5b21fb1b546d3147a8b5a5115f82a906e4 NFSD_TCP_WRITE_ZEROCOPY: settled.sh holds xeu's rx_prefetch at Y
-f7dd73eee1ce675b029800a0c9fc8368df916708 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 28, xeu prefetches the next received frame while it builds a frame
-c08b379e5f1d3acac6102b1f0d51e703bd7ae06c NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 29, who writes a region page's struct page line, a look
-c361b73b5a8be071613c03df87a1690404915a69 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 30, the linear map in 16 KiB pages, a look
-cdc53269c5bc3cde963d1778b996e71ddc79df86 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH, no copy runs
-1841071ab20c674e908c87925422bf6180a4d3d6 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 28, tardis2's initrd carries the measured xeu
-e24d554074907620b7a33f6f6fbdbbabee500643 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 30, the A/B with rodata=noalias
-d6962fafea76416f0754bdda8d6b02f354b4aa18 NFSD_TCP_WRITE_ZEROCOPY: settled.sh holds the kernel at rodata=noalias
-1c0d64696ad48b015643c2a3884ad41a9c6ae825 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 30, rodata=noalias kept
-50d4e32e2f73c439cba36924a10422c08d9771a7 NFSD_TCP_WRITE_ZEROCOPY: settled.sh, tardis2's /etc/kernel/cmdline carries rodata=noalias
-bbf3c8582a1a8c239bc6f17119b206cc988cad32 NFSD_TCP_WRITE_ZEROCOPY: settled.sh holds rodata=noalias on tardis2 only
-ff776adf37322b5a5fd31abc6a1f67f030d0501e NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 28, the prefetch on the tip's sunrpc, a spot check
-bc32967c73f0b5794a2fb4f63469a9f41db32c9e NFSD_TCP_WRITE_ZEROCOPY: settled.sh sets noqueue as the server port's root qdisc
-bb88fbaf63d8c9ebc5877a45db2a2018e9a780bf NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 31, the server port with no qdisc, not kept
-f910a39d35ef5d15617277f5add3aacfb1dd2562 NFSD_TCP_WRITE_ZEROCOPY: data_drives takes the drive mounted at /hs/nvmeN
-cddcaa46c7570a55107837b290748dcd527d17d9 NFSD_TCP_WRITE_ZEROCOPY: the loan page gains tardis2's SGL drives
-252887502744577325b6f241ea42cc9f37445f92 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 30, the rodata A/B with nfsd's CPUs on both sides
-16d4c556590e85dc610221d61c265e468f28757c NFSD_TCP_WRITE_ZEROCOPY: xeu-rig/cost.sh, what a WRITE costs the rings and nfsd
-f221ecf13ad596d7894f77313269b697bf7f3256 NFSD_TCP_WRITE_ZEROCOPY: xeu-rig handoff, tardis2 after FLAMEGRAPH round 30
-2b541bb86613e8711a479f48476505d488618fd4 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH's kept rounds take round 30 on the tip's sunrpc
-61817c4bd0b7682d5af32f8659c315d2b146ea4f NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH's queue, round 32 the transmit queues
-a55394433026d0035ac3b3f10f47d960cb48998d NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 32, more transmit queues, not kept
-8a582565d04ef6da0751d7c3cdff20287f5605f8 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 33, the completion entry's prefetch, a look
-fb2f58826bd6844dca0990269befba1f192293e8 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 34, the rings' memory stall and whole-page RX buffers
-0fac869d81c7597343eaab91aba6015ad6a6e469 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 34 kept, round 35 a lean refill loop
-b25417513ddd9bae2f9222a55603e62e81bdce21 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 34, the initrd carries its xeu
-c88b7812d580e4cb3dd6b0a0cb14e7e9102fa3ff NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 35's lean refill loop kept
-11e30458e545ad0fe9283ef869e5da6aaf3322c0 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 36, nfsd's loan frames kept
-9dccfa6a871a562a4a1f4f7b263084d10906203c NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 37, round 01's start to be counted
-44d3cfab3aa1417a24df9999c693cd17e8f3cbb0 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 37, round 01's start counted
-86672f00509575d5b690f2220bb1762139a384c7 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 37, the progress counted and a profile for round 38
-e3d12c1dd61ba99be1bde15ce9fa24a8a4f9a90b NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 37, what the L3 miss count is not
-7034e9e1d3dbaf5a03f9e37bd9c851e4994ffe25 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 38, the release's misses by position and the region test from the pfn
-e0d657c1db74ecc00532e7d770a71e85c82fb9a3 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 38, the release's prefetch distance
-993a1bcec8a8ba51de6fac45ee169359953e560e NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 38, a diagnostic for the release's deep misses
-88fa73943bcff0255e969a89e5aaac44fd4f10fb NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 38, the diagnostics' patches
-f9f6c67760fdb242b31ac127fa835aca378f736d NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 38, the release's deep misses are dropped prefetches
-6566e5f8d2ed16fa5a28b5e261f3ce308e1b1bf2 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 38, a diagnostic for kinds of prefetch
-d69f6da368947aa68968ef1fcf5f25d02dd55f92 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 38, kinds of prefetch for the release
-cfa1a1a68500559e8a8a1e8d671bbbd915e680be NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 38, the A/B of the release's two-stage prefetch
-9ba47c8476fba8a8ffc5812a7fbca5638ccf7ebc NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 38, the short window is the gap before the timed load
-27edb8019aa2b394e6fd33196f27d65953793f73 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 38, the A/B of prefetching twice, and looks that wait for the timed load
-9770fefa37c83a728050530a86306ac5b2e351be NFSD_TCP_WRITE_ZEROCOPY: the dropped keep as rebased onto c42e910d1151, from its worktree
-d4d43dcb7c0f780c1c0d6c03b168eb0eff2e1491 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 38, the A/B of two stages, and the client's puppet run
-0b8f00ea06350babfebd0ac663dd880269026e21 NFSD_TCP_WRITE_ZEROCOPY: keep the client's puppet runs out of a load
-4497e94ca363807cc1f98e4f9f2bafa4e02886d1 NFSD_TCP_WRITE_ZEROCOPY: refuse a run whose flows cannot be placed
-5163f28b2cdca93787502046e6fdca32e99f4db4 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 38, the arm64 two stages kept
-c7ccb2dfca65408bb7e468fa030c4ef406f596d9 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 38, the fallback kept as committed
-26038b91ba7124552aa0b5ec6253d9a42499af30 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 39, the receive side's struct page misses, the plan
-7b5e494be5c970b44caa28a8e16b72ee2c3e7247 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 38, run88 as a record
-5fd7a5b733470bd15dfcbef4bb6e629f8e6aafbf NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 39, a diagnostic for the receive side's struct page loads
-484fe05db524557576948734fa474e75427b75e6 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 39, the tip counted and profiled
-da073d5b02be6395e39cb153aab3952160d5f474 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 39, the receive side's struct page loads timed
-8f7e19dac56225f418a81d67cf12981c099b6f55 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 39, the A/B for a lead on the receive side's fetch
-ef4e83143fcc2b90e745625de4482e714a63c4a6 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 39, the lead on the receive side's fetch not kept
-4eadeab60b28344ef18101f9ccdaaa7d6b73eee1 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 40, the wake path, the plan
-392897fe57f0723ac4418fae4a3b342cad7f0218 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 40, step 1's run and wakeland.bt
-dd87027279bf818002477190d490c5c7fadd1bb6 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 40, where the wakes come from and land
-70b6ca1838960eac3188908b7c0fbe0b35f05198 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 40, a diagnostic linking empty wakes to their source
-6a479936a6440a011aa09eece5fbc7d978b641ae NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 40, which source's wakes find nothing
-f7e4ec99ed210b26be66a3f726d26b65047057a3 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 40, a measurement of the wake's latency
-0780dc671686447dfb3080537e920e8acf0c7692 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 40, the wake's latency is the trace's
-f9d9c652216edc422ade35e84409d49afa5590bc NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 40, a look at nfsd's lock_sock sleeps
-dc8bdf35057b30e085a017f096f41b7920790d98 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 40, the lock_sock sleeps
-960b84c22ecccb96a685d8f54cfa977ff5eaf673 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 41, the rings' GRO, the plan
-12ee025ce47090521b762d1259621053a5709890 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 41, step 1's look at GRO's shape
-d9b0f6280eea33ec842fd634759b6cb78b11e18f NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 41, the shape of the rings' GRO
-6edf60e1861060f201d594ee8ca3cb7ce9225bde NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 41, step 2's diagnostic xeu
-f879d902a6bb4c23fb5aa11d907bf0f0c4d86a49 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 41, step 2's xeu patch
-8c22a96caad6f9cdd8c603c19b83411647b3352e NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 41, where GRO's misses are
-5c6059179fb183a321c2122ec0630824f1c0c178 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 41, the A/B for GRO page fragments
-57795c142b789c08ca7b1ce18a367719d871e493 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 41, run99's perf stat on the rings
-f939ad7073018f5c252e5e48ac707fa434bd15f2 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 41, GRO page fragments kept
-e432a9abc8c5637642184c696c64be56d93221e5 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 42, where the rings' stalls are, the plan
-e2819e5b3d617e949da2904d2b2064a61df29afd NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 42, the rings' stalls counted
-7ddda7f53235cd3a2083baddc09f56e58f39a2df NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 42, step 2 without SPE
-cb276eab36d15cfc7434c293cfce76ba6483a65e NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 42, the rings' lines and the mesh
-fb41079f73ec210a991a6c86f4e3a0bbd2f6f239 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 42, the poll's first touches diagnostic
-73c3e658f99728267e91c0b6986aebf1b7a65244 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 42, the poll's first touches
-48a3dd8c17f3500a7e47a5238a2289b764504b2e NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 42, the A/B for prefetching the refill's struct pages
-9e573a913d8e48727c774f5626adf48c8113e361 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 43, the receive region's size
-b86a6874370c9417fbe73f3f2a2c0d1049d2fb08 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 42, prefetching the refill's struct pages
-88c2e07df130078f16cae5534b7b2c7c467d9439 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 42, the completion at a poll's head diagnostic
-d9f4a54da5cd95ee0680370164378053eea8338b NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 42, the completion at a poll's head
-f27a4e6129511e7b3e7cee8db59802d66dd94ba2 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 42, the empty polls diagnostic
-20da7a82c55dd40222fa09292a77552f31562fe3 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 42, the empty polls, and the round closed
-09813ab601f3af12b1754804602954edd686205e NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 44, the plan
-290219ec3394ff15d314193c11fee12c339354da NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 43, the 32 MiB region with a budget of 720 pages
-bebbdf8f89fa460ba24383e9d1af67b7f533080c NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 43, the receive region's size
-956a7c5c171793d6ba4605f824134cfea1f73f31 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 44, run107 counts interrupts inside the load
-aaf6e86572546fe3d0f50664e728a71cae6ab59d NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 44, the deferral A/B and the rings' DRAM reads
-35e926022ea2ff1dfaa9bdc69cfb073ab69fe5c8 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 43, the 32 MiB region with a budget of 720 pages, run
-6f59bf64fca8a3a2529789a05e5f7127719d62aa NFSD_TCP_WRITE_ZEROCOPY: settled.sh holds NAPI's deferral, 2/10000 on port a
-f26044899d004028a98ed86dab300b1b1c52fc37 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 45, what holds the receive region's pages, the plan
-5470023c8425e4ac28f14d51c33cb2c19777926e NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 45, what holds the receive region's pages, run
-1a8411ef06da9815dded3cab7dd135d578aa4d79 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 45, step 2: the depth of the region pools' stacks, the plan
-fcb0f6285a9fd2f749b36f7251b96e3714357b96 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 45, step 2: the depth of the region pools' stacks, run
-71c448aa471bc431457834644c9c7976747bf78e NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 45, step 3: where a shallow stack's cycles go, the plan
-7793ece28ec2b1fc8a3d9bc4313cd2afb9d84e30 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 45, run112.sh executable
-45cde4dc3015f2e1aad88057a20c3bb406c171e9 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 45, step 3: where a shallow stack's cycles go, run
-b3c2e617a0b8971966a5538811ea8800bb206978 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 45, a region page's mapping kept per device
-d256e77f1fb038a40392bdf7fa547d38ef7900b5 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 45, step 4: a region page kept mapped for its device, to run
-174b6c3d1d1c078a56935a1d53b6fa5bdb12c6c0 NFSD_TCP_WRITE_ZEROCOPY: the handoff for the kernel with the region's per-device mapping
-8b74ee76f66b14be920380cc1f9f877f06b1f8db NFSD_TCP_WRITE_ZEROCOPY: the handoff takes xeu from the GitLab build
-a9f6d7c0443be19f5c52a7e5db17b792c0b2c1de NFSD_TCP_WRITE_ZEROCOPY: twoport.sh sets a run's DEFER after the placement
-6a7031dfd70eee80886361815d68a77db902a6b9 NFSD_TCP_WRITE_ZEROCOPY: tardis1 on build 503, copy on two ports, no regression
-936f905ed10a95fb9cbe4e610bd60c8c138a09e1 NFSD_TCP_WRITE_ZEROCOPY: the plan for tardis1's boot into the per-device mapping
-1c07d2a642b2c4fd89e4357dbf794d2167795cf0 NFSD_TCP_WRITE_ZEROCOPY: tardis1 on build 504, port b receives nothing
-61a02bddd0da6370355c369e6b842cdb8b935b6b NFSD_TCP_WRITE_ZEROCOPY: drvchar.py reads a drive through its mount
-05e4dc55acbf06472217359f0744d70799058326 NFSD_TCP_WRITE_ZEROCOPY: drvchar.py's PAUSE, a stall on every drive at once
-7c515bd80f76ae15e382ad9eb2d34bc051322793 NFSD_TCP_WRITE_ZEROCOPY: tardis1 on build 504, second boot, the drives decide
-aaa8c1effd04e21fd10a56dbc39564404c6c1ed1 NFSD_TCP_WRITE_ZEROCOPY: tardis1 on build 504, third boot, six drives
-197e973996cab32d8c1c2aaafd27adf570e82de2 NFSD_TCP_WRITE_ZEROCOPY: settled.sh holds rx_region_stack at 64
-7245b4fc8f30854459aba30dde28a99a45e83f49 NFSD_TCP_WRITE_ZEROCOPY: tardis1 on build 504, deferral 2/10000 at stack 64
-d6bfa15acb330764f67642b440b1ff6278260bc5 NFSD_TCP_WRITE_ZEROCOPY: settled.sh holds port b's deferral at 2/10000
-a21e0a273cf6baadf7156a7253b92bea3d291791 NFSD_TCP_WRITE_ZEROCOPY: no second xeu-off run
-ab2debb90f942bc5b62f054e0698282b49e55dc0 NFSD_TCP_WRITE_ZEROCOPY: twoport.sh's STALLED line
-bb6a4a74eb157bf0fb6ce01406beb22c6553481d NFSD_TCP_WRITE_ZEROCOPY: twoport.sh's low in the warm-up line
-a85f80f651d44f94e3b565e3d91cf655a229bba3 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 45, step 4: a region page kept mapped for its device, run
-1f9bb5e32fc572f69ea519bf094ec30cec16df3d NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 45, step 4: stack 64 again, five loan64 runs
-3d0f96b9ea2e1d78fe062835bedd94079c51cbc5 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 45, step 4: loan64 at the new settled setting
-509275ef9f29382b5df9f6d301d85afe353fab2d NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 45 calls the ring-sized stack 256
-7b097e6382116771e377faaa3e294e7ce8e9cb8b NFSD_TCP_WRITE_ZEROCOPY: the rig's README calls the ring-sized stack 256
-216151ae034410f361c39f86b5780b1b55963ef0 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 45, step 5: a bulk's overflow returned under one lock, to run
-fdec829ccde17baecfdccdb67eda1afbadd88e94 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 45, step 5: a bulk's overflow returned under one lock, run
-5e1e339616a45727feba16225b65054d0c873c05 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 45, step 5: stack 256 untraced on build 505
-70c9bb521f826fbebfe7177dbfc71efa02c27487 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 45, step 5: a bulk's overflow returned under one lock, kept
-9291aea7eea1dcff54051dfbdf4131c28715d74e NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH's queue gives round 45's steps 4 and 5 as they ended
-969745268ee4fb1b1ede7ebbd4494ac301929d2f NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 46: a fresh profile of the tip on build 505
-00f65ba99d9e76fc2f75ef980abac1cff0b9d58a NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 47: the write below nfsd, lazytime settled
-f415df4a97274651a44957b81734ac2acc137de3 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 47: NVMe interrupt coalescing, not kept
-c4208f86e241977e686e5194e97b48e825d64cbd NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 47: what the DPRP5s do with interrupt coalescing
-7de4c56b31d0f715227bfbc16d6254599c785357 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 48: a profile with pseudo-NMI, to run
-6621e5498191005600d13bc8f46790083b2a2fa2 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 48: hard interrupts seen, with pseudo-NMI
-3209d3eb0c9fdbc9fd2a3681ff2a4f2095a8afde NFSD_TCP_WRITE_ZEROCOPY: twoport.sh's NFSD_CPUS after settled.sh place
-c4ac99ccf8bc201924259821ae4bffb90f2443be NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 49: nfsd on fewer CPUs
-b110be12ca379f98efaaec5214b52ad393b0a338 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 49: the repeat without pseudo-NMI, to run
-6f1c2b7899856143abaedf55b663ce0d9188461b NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 49: the repeat without pseudo-NMI
-079a5dabea495a3f99d2b2c75c7bea44c6234617 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 49: fewer nfsd CPUs is a non-starter
-41165dc3103f05e6ab1b40dde1eee84b985ac97b AGENTS.md: a regroup folds the KUnit interface into one commit
-3d1812586298b00dfa7000465d046076d96a39fc NFSD_TCP_WRITE_ZEROCOPY: KUnit on the regrouped tip
-89b23494bed1cbd0dccad895df14c253bb9fe88b AGENTS.md: the code group after the drops and folds
-8e003b26a6fc1934964c0c86bee71dbc63ad8b40 AGENTS.md: the code group laid out by subsystem
-5432357236d0cbb610a4b6803f6b561cea871bd9 AGENTS.md: the upstream fixes lead the code group
-cafd41450dc4966783fcef71b28eee6bc74eaa8b AGENTS.md: no commit on the branch carries Assisted-by
-157d59862af1d3c4f101e4cd021e7847eaef4270 AGENTS.md: the code group at 55 commits
-f333806abf3bc52d16562ff4a26408d2e0d96781 AGENTS.md: TCP's re-hold helper, and KUnit in a guest
-49dad65cac6180895d9520cd374999ce597b0c99 NFSD_TCP_WRITE_ZEROCOPY: after dropping the paired-posting experiment
-ec9cb3252f2a675e535e0db639a910b819d79a74 AGENTS.md: the series on v7.3-10
-b301d923496c4dd2f893c3e9a1f7312551e7fc0d NFSD_TCP_WRITE_ZEROCOPY: kdump armed before bring-up, and real files for KUnit
-2bb7c6cd62c9037cb649333e575d544dd80ad861 NFSD_TCP_WRITE_ZEROCOPY: the KUnit crashes on build 506
-bd2f0fb50e2759cf485e805ed9b2b14b13910e73 NFSD_TCP_WRITE_ZEROCOPY: the fixture audit behind the svcsock crash
-39bb4e078acb6a9ed792d9523b80496de42f025f NFSD_TCP_WRITE_ZEROCOPY: what is still to fix in the KUnit suites
-4e0844df5765b75031ce54717e2176ce3bc270de NFSD_TCP_WRITE_ZEROCOPY: the svcsock suite on its real-service fixture
-560d8b2351d08b9b998bde9dd710962fcabbec99 NFSD_TCP_WRITE_ZEROCOPY: xdr_kunit on build 506
-7a69b398337d1808edb6de829a0c67084044f6d5 NFSD_TCP_WRITE_ZEROCOPY: handoff before nfsd4_bvec_kunit on build 506
-42c39c02a2760ce073e28f3ae7a063baa3ef9087 NFSD_TCP_WRITE_ZEROCOPY: the trace of pc_func before nfsd4_bvec_kunit
-ba030259e79cffe240fd66b06deb903fcbfbae82 NFSD_TCP_WRITE_ZEROCOPY: nfsd4_bvec_kunit on build 506
-1df970c53e90c3fa3b0b5dbb124ce1743c511756 NFSD_TCP_WRITE_ZEROCOPY: handoff for the nfsd4 suite on real objects
-c04278d61b585782def1a0a8471acf5a05ffe98f NFSD_TCP_WRITE_ZEROCOPY: the rq_authop crash in the nfsd4 suite
-02e9d8936edc04cd2f18b32346387420c49c2829 NFSD_TCP_WRITE_ZEROCOPY: the nfsd4 suite on real objects, 10/10
-9e5d4b8af8f0040ddcb64285dbe83ac7237de0d7 NFSD_TCP_WRITE_ZEROCOPY: a second run of the nfsd4 suite, no leak
-b12ce6c906c101a741395a5f87c163496c53a13e NFSD_TCP_WRITE_ZEROCOPY: the four suites in one pass on build 506
-157f89f43130d20a10dd9081dc2fffe55e447cba NFSD_TCP_WRITE_ZEROCOPY: the tip's KUnit suites in updates/
-f6da97ac99b6dae826fe08ab97d8b31659b5864a NFSD_TCP_WRITE_ZEROCOPY: the four suites in one pass on build 506, results
-2f5cfed57c632c0ab3eba1ba24911a1233886eff NFSD_TCP_WRITE_ZEROCOPY: the receive-bvec suite on a real service
-7713f71957abb66374c0ada37632015976f5e505 NFSD_TCP_WRITE_ZEROCOPY: the receive-bvec suite on a real service, 7/7
-b0ad02a116d74b5bab0a924f302fa7801a72bddc NFSD_TCP_WRITE_ZEROCOPY: the four suites with both decode fixtures real
-68175f599e08dd18f3dd571208900cdd01718402 NFSD_TCP_WRITE_ZEROCOPY: the svcsock credit tests on real transports
-2ca2f9a39a2907f11fa73e180499817990fe0f21 NFSD_TCP_WRITE_ZEROCOPY: the svcsock suite on real transports, 52/52
-e7c072ace342f75879b5709fe6937950320e86e7 NFSD_TCP_WRITE_ZEROCOPY: the four suites with the svcsock tests on real transports
-ea6b8b57f6bc6571ad2b06dc65dd02f85410c47e NFSD_TCP_WRITE_ZEROCOPY: settings put back after each svcsock test
-d9185e4ac6776cc2e7076559c62f177c225f373a NFSD_TCP_WRITE_ZEROCOPY: settings put back per test, 52/52
-c98d814d23591c04a7898e97f4fbd1149dd1e4fd NFSD_TCP_WRITE_ZEROCOPY: settings put back after a failed test too
-b24b1400bcf4cd5bddda97dc0136cad1ad1cae4a NFSD_TCP_WRITE_ZEROCOPY: the session tests' transport reviewed
-2c2f1033e46b9da61a0c27146f058f8b80e93dd0 NFSD_TCP_WRITE_ZEROCOPY: the session cleanup forced, and what the review left
-01e15343e1407d174b71a4d3effbcb55cecc3f87 NFSD_TCP_WRITE_ZEROCOPY: the session tests on the fixture's transport
-838fe460c7cbe4d5483054bf7be62189e78a7d0a NFSD_TCP_WRITE_ZEROCOPY: the session tests on a real transport, forced runs
-7dcac8146a418018b1c8c3cb33bc96478b70c2de NFSD_TCP_WRITE_ZEROCOPY: the four suites with the session tests on a real transport
-807c8052308d760491809ffd2673168ece1dc7c7 NFSD_TCP_WRITE_ZEROCOPY: nfsd_serv read under its lock and not kept
-7586efccc958901caabbdec81893e08e8f470eb8 NFSD_TCP_WRITE_ZEROCOPY: the session tests on the test's service, runs
-45cdd17abdb58b37c774f52d2311a0cef1d06ed8 NFSD_TCP_WRITE_ZEROCOPY: request addresses from the transport
-416dc3102bf47f63f6aef9f0dbdaef3def1d33a8 NFSD_TCP_WRITE_ZEROCOPY: request addresses from the transport, runs
-a6adcdad73041e394d2f107eb9b58577c2a7ebc7 NFSD_TCP_WRITE_ZEROCOPY: what the next regroup folds into the KUnit interface
-ec7c3d9d53140f40a10450c1c61b22ed37e9a9ed NFSD_TCP_WRITE_ZEROCOPY: data_drives on a boot that found fewer drives
-18c85609430a882e836e8a8f2a802ad8330955ae NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 50: the 1 MiB load on build 506, to run
-8176c083a5bc7fe2316f6ee26893168269e93cd4 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 50: build 506 at 1 MiB, and what to fix next
-f417209ddc49ba2b784f84bf76db70e5b1035898 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 51: what a parked record holds, to run
-b33c91f1b6af42fec7b9f1f878fa3b004def313e NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 51: what a parked record holds
-055b02fce6892547091c7bd71c102e5b60e91e43 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 51: the change, and how it is to be run
-69bf76aec451b6cc6c0d5c8c12c013db02c384c3 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 51: the A/B of the page trade, to run
-090e9133c08a9bc31b5c0dce9c3eba720e642822 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 51: the A/B of the page trade, kept
-ea10d7d597f1e52ca38d3378b621c18892bc505c NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 51: what svc_fill_pages still allocates, to run
-59818ed0c277edd1ffeef6dc0afc1828e7ebdc91 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 51: svc_fill_pages allocates the reply's page
-8dcd194021b1611f79d6b2b75ed78d479ad9102f NFSD_TCP_WRITE_ZEROCOPY: TESTING: the four suites with the park tests, 54 in svcsock
-134e4e5f0053fb6b12b7bead3a5af24a53460c71 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 52: the repeated bvec walks, the change and how it is to be run
-d4f6efe7d76603d54273c5bfe8383163b2757635 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 52: verified writes during a loan run, to run
-962bdc3df5a37a909ed75eedb7976cef0ed4f256 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 52: the lengths that need a pad, on both builds, to run
-cdb95ffb4fcc039f3bed2b636ab1d8dece64d1a7 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 52: padded WRITEs shown to arrive loaned, to run
-b45a2d8d691502e0c6acd9b2b5238a72cfcb7e96 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 52: wait for the padded WRITEs' probe to attach
-c845ad6313e57e4132044f410a9d06e0d1af7fb5 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 52: the sizes a WRITE really has, to run
-0a2271270ae1761679f6ca2ee977b51c9b08de15 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 52: the verified writes went to a local directory; again on the mount, to run
-10a772dcdefad54070eb3807e03bd02557701001 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 52: padded WRITEs verified through NFS, and the A/B, to run
-f39f1cd99c6f22a2195c9661f8d9631018d0c65b NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 52: the repeated bvec walks, kept
-ab467b3874ba64ed7f12c602c298e5fb0e9856f5 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 53: the table walk at release, the change and how it is to be run
-3983dfc6a93260f2abc3ed0b3c89f1576307ae25 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 53: the A/B of the walk at release, to run
-17160e64671754e78ce48f5248102b7eac432417 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 53: latency in the reverse order, to run
-15399930211a472f304db4502495a0db5a26f68f NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 53: the table walk at release, kept
-5d990de01a11fb18e9d097d265be202abe9817e6 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 54: fh_verify, what the trace is to find, to run
-b11b3019a0519e36fcecce1ec4e671cc5716197b NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 54: read the handle by its offset in the trace
-a2ec43d1ad764a15ec6b34f2db22606adc868ebf NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 54: the PMU's cost of the handle path, and the trace again
-cdf22a3a36cac304377a943c3bd5a5327bf2e47e NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 54: what fh_verify's cost is
-c895fa4296561b5c3eb42b35bcf7f880426ee244 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 54: the expkey change and how it is to be checked, to run
-32aaecb907da9b18adf64e6397c1a560d1fc41ae NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 54: a key due for refresh on the live path, to run
-1a3cd7909fd8920ede68f82ee77f9cde8e4c7164 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 54: the expkey change checked on the rig, and the A/B, to run
-a9c97825409f331c316fce0550b5ba6a4afb9275 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 54: the A/B's runs so far, saved ahead of a shutdown
-22d55a6701a53b8cab48cbba7e43e092b94ebf23 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 54: the profile on the expkey change, saved ahead of a shutdown
-938b8bf1712afe4137d21a52471caf3948ca0c27 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 54: the expkey change's results, undecided
-8910a3a0d708a7c48978ae8150d6a48948c78918 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 54: the expkey change, dropped
-8e415e6b6db858dc7963ef988541b46a98f79888 NFSD_TCP_WRITE_ZEROCOPY: the dropped expkey patches, 0007 to 0009
-9b0de6b119a3aab6f4c2fd6685d67cbb4f211da5 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 55: the plan, the walk per piece in the SGL path
-29fa8b456ccab03749956ace8987209c3d7ca830 NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: tardis2 with eight SGL drives on both ports
-f42f1f897e9c3a636c190abff99f9c4868dcac0a NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: the baseline's driver
-aa9cdab94485fee0690f579c8fdb4fc1deb6e614 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: the window experiment's driver
-884213e429495da6b41cf1a26948d2d8175ef4e3 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: the held buffer at rings of 128
-cd033f17aa397505580240b00a75cfe3e2b9cc03 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: the drives alone and the memory traffic
-ef5986fb00a0ffc6e4f349ea23ba30a9b1cc8aa1 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: eight SGL drives on two ports, the first results
-9bbf7140402dbb8f8e52f53169291fdde88a21b7 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: rings of 256 and the larger held buffers
-085e2582636be422dc32e8644969aae87f3e8c05 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: rings of 256 and the ceiling at 73 GB/s
-a642657deea61c7ef4691c2ddc68512e0d0bbbfa NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: eight rings of 64
-890ff71659a9999ddaf0bf5c04502179da839633 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: eight rings of 64 at 512 KiB
-d625fada6cb7737df01c037bf8664a61f3f8a82f NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: the budget at 512 KiB and rings of 256
-862f2575f24004903a35f3e60f1c382ddba236fb NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: the budget at 512 KiB and rings of 256
-4fce49979feb1b727210a6a7997ccce20420e1b6 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: the settled setting stays, by footprint
-bfac6c8eb6df59808a59e2c5a617ff9ac3521196 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: budget 64 at the settled two-port setting
-a14f6c0e6a5454f7ae1c4be9f4366bdae0932962 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: budget 64 at the settled two-port setting
-a270770d6da3460dbac61e246b66c987ea14990a NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: pagelife.bt, where a receive region page spends its time
-39c575ccf1938f25be2cf8228494d31d76654470 NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: pagelife.bt joins the WRITE by the releasing thread; pagelife-read.py
-56886b9d03205089d803bd6424f9d4efe1bd46fd NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: where a page of the region spends its time
-41d49e27b5a9551748d078e39503422da20f31bf NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: pagelife.bt splits the way back by the page's other buffer
-85689be0752f37813609330fd750625a72ddcbf4 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: the way back, split by the page's other buffer
-45fae194ca558e7249665693a58cb01256deb5be NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: pagelife.bt follows a free page through the region, the stack and the alloc cache
-f4fb824465101ac61ba90b24fa3965e8e668fe71 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: where a free page waits
-f2a9dffee29788db22117298fd65e4b96a51f9bb NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: recordwait.bt, where a loaned record's frames are before its WRITE
-3846f9e1704738847eb2f47c4e2e4501565fef7a NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: recordwait.bt turns on the transport's queue stamp
-dacc14b060d9e72938c4e4ab3894322c033a8a18 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: the record wait, by where the record's frames are
-7bb9ef6f1c057ac76d4b490eb0e78f42c0ea9350 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: eight connections a port at 750 KiB
-4fdbe31b023d181f278320a19046c0922b1dd1af NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: eight connections a port at 640 KiB
-5eb484ed28c05563afc8ca887be75c3e21aa08ca NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: the 73 GB/s setting with eight connections a port
-5fb688689263becee0c8d880888eb7b27d28205c NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: twelve connections a port at 512 KiB
-fafc86df7ee9be57c7f668453b23dc558f8309c4 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: run161 waits for run160's 16-connection run
-c3907286302a296d37fbdcdbff023335b410d951 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: twelve connections a port at 640 KiB on rings of 128
-77d582ba342174b75ceaa30b2d82cfa4656cfbe1 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: twelve connections a port at 576 KiB on rings of 128
-dd81b731898e98441bb9cdaf8e5100c36791643f NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: twelve connections a port at 512 KiB on rings of 128
-6576b0c1d908109f8d3681ae78da51686a79fe6c NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: fewer connections a port
-1cf66f511fca9d3c8fc83f891d5b4d59926bbb61 NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: settle tardis2's two ports at 12 connections and 512 KiB
-c54d1e98f538f73733794837c3a89bad8eebf76f NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: the baseline at the new two-port setting; flame.sh on both ports
-17f4cb933d7cf670ad74b71b0e6926edaf54c206 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 56: where a page spends its time at the new two-port setting
-d92776670fd5f88ce978dea6ee3f87b4ed6c12e2 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 57: the baseline at tardis2's two-port setting; the ACKs nfsd's reads send
-7a68a807fc721bc3c5e4191ed86e7923b5839ead NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 57: the ACK trace at the two-port setting
-19569aaef8946a1ca09d1130d970202b23b91e21 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH: round 55 planned for a new kernel; page_pool's two items as rounds 58 and 59
-47e3f1ffff2ae90c4e3b631456148c8c4490bad0 NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: traces of the NVMe SGL walk and the region's lock
-f00a49ebddea1f3494cf0a1331ce963f67082597 NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: regionlock.bt with no probe under the region's lock
-7a16c4806af3752616e3683fdea95af2414a0341 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 55: a PMU recording of the SGL walk
-43d48679d1f6f32a747256fbe17482d545289601 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH rounds 55, 58 and 59: the traces on build 506 and the changes for the next kernel
-aed6f254d63d10f03153fd2693ef593225d18af7 NFSD_TCP_WRITE_ZEROCOPY: the handoff for tardis2's boot into the kernel with rounds 55 and 58
-6adfec233c6f169c58945d7805bdfb27996f5cca NFSD_TCP_WRITE_ZEROCOPY: build 507 on tardis2: the first ten minutes
-6bdde57b703689dbbf4f87a282b920f05f6b4387 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 58: the loan runs of the A/B on build 507
-d5e58a600ccc76b7772c4c3e2b725d916eea096a NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 58: lat.sh and the profile on build 507, and run173.sh
-ea721271883fa04ae40393a9ae09872a5b2bf3be NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 58: the region lock's hold on build 507, both ways
-3eb60018c2ad5e41f626eca0f75e09ea41e87409 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 58 kept
-3b5c9f1f043daba6bdf75f28f2e801abcb350fd8 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 55: the loan runs of the A/B on build 507
-64ac38f478cd4209aac367bcdb73c69339739a96 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 55: lat.sh and the profile on build 507
-8237dea2f290718ca54f7791cc2226c95814cead NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 55 kept
-98495c4c89a256d5f018ff880be9a1e6efc12849 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 60: sunrpc's loan frames at the two-port setting, the plan and the look's driver
-0acbe42aabf170fea42fb4b19e6b3f83491e4592 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 60: the look on build 507, and run175.sh for the calls and the skbs' shape
-ca94771bb4290f8d41d8d3bc7de330442016798b NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 60: the skbs' shape, the lookahead and its A/B
-ddbdb9082483dd5c2c3f77fcba96094c282d63de NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 60: the loan runs of the lookahead's A/B
-93ed7b253257928efece8c39f64186727256f03c NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 60: the rest of run176 and run177.sh
-c0e1c853fd726d039f1f1aa635505aa6aa07c64f NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 60: lat.sh, the profile and where the lookahead's stalls went
-0d8ebf84139daa0fc5dab09b15b963f3b66f0baf NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 60 dropped
-0e6be91f722cc4a537b40d881893744fad4526c9 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 61: build 507 seen with pseudo-NMI, the plan
-9abdcf08d565dd644521329f07194818fd816b86 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 61: the boot parameter is on build 507's entry
-0260c67f76756c5353691cb9e4c9c41c56b6d2cf NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 61: the boot with pseudo-NMI checked
-cf7275bc1173b679f90e9aeeffc9485988ccd1d0 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 61: the profile taken
-27098024a8ed2098f43891e52ffc64ad53c36790 NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 61: the counted run beside the profile
-41ca751a1009132aa9acdad9fd702d156f38515a NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH round 61: build 507 read in cycles a WRITE with pseudo-NMI
-3b7748b977940fefdb3fae4ed5d9dc114b5881f2 NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: round 61 done, where it ended
-77496b10f3ebd78f33548c5f85d5005937d779f8 AGENTS.md: the series regrouped and on v7.3-11
-b45dbcca9f380de06ab54686dd26f064679c56e1 NFS/localio: cache the segment boundary for NOWAIT direct I/O
-9fc0400f11605a5de936c4cb1978fd233b0ba047 iomap: trace a queued simple direct read at the iterator's position
-829c4975f1fa2e9d585b3d45b8a0293b28d65bfa treewide: annotate shared-state accesses for KCSAN (optional)
-2229689887d1eaa464520c4ddd8b08400945f37e nfsd: write a direct WRITE segment buffered after a geometry refusal
-5a84a41bbe17bdde63b4a65e72b995a828cf6fc5 nfsd, iomap, btrfs: KUnit access for the direct I/O geometry tests
-d2eabfc65709747a6cb08adb3db6ca07dd8530f8 nfsd: KUnit tests for the direct I/O geometry refusal
-8211d85784046e0364515ca3efcab34a5cc8a7b2 iomap: keep REQ_NOWAIT on direct reads only when one request fits
-a65f3b6187579ff072804602c91f8579b7775d2b iomap: KUnit tests for REQ_NOWAIT on direct reads
-18b949cba3ecaa436d39b3293029200e07f73fd1 NFSD: interlock the use of NFSD_IO_DIRECT for NFS READ and WRITE
-2ae1c79cf339ce9206a4c668a7a14c863c31b143 page_pool, sunrpc: split a read partition off the rx region; direction-neutral credit
-e416ec8722946e292dd07b44b5af27a0a653a397 sunrpc: KUnit tests for the read pool, the write-partition budget limit and the rx region exports
-2c18d4f5de51bf3279416f269bb4136c79e43209 nfsd: commit metadata after dropping the directory locks
-381421994dc0439604a32e6e135cd705c8eddaac nfsd: NFSv3 UNCHECKED create truncates an existing file unlocked
-e6aa9ccb1df91ac8b11629009a11ec21cb02fe11 nfsd: bounce a loaned WRITE the device cannot take direct, on the region budget
-03781cf5b93bd3dbed0d78930036c08a14e634fd nfsd, sunrpc: KUnit tests for the direct-write bounce
-6a87801ffca8c2a79c5f0b2192b3168705ae1901 SUNRPC: fit TCP receive loan tables to 9000-byte MTU frames
-b3dbad907b2f4051ac7c35d6987ee0dc9c3e72e8 SUNRPC: KUnit for the fitted TCP receive loan tables
-ac4833cd018d2ab6d6221814dfe876023ed0b2d3 sunrpc: READ region-confinement hooks
-650f586112242c7fdfcedc4bcda9b23e683c1af1 sunrpc: KUnit for NFSD READ region confinement
-367138c937d7b01e9adb2be7e1d8b245cfcd9cde page_pool, sunrpc: per-CPU region caches, shards, bounded pools, credit stocks
-6040d7de359f8f6c2cafef28c3ab3f7775cd1762 page_pool, sunrpc: KUnit for region caches, shards, pools and credit stocks
-a52f38a89f23ee127392ece88eaaa4142101b1a8 kernel: hold the nfsd listener to the region receive window
-d70b6f7b254b675fbccfc07dd2fdacac3954c5b9 hammerspace: private extensions (O_NOMODE, mkdirat2, NFS client/server)
-1a20953b44925a4d694f3f674a1be56aba5c322c kallsyms: return the truncated length for an overlong module symbol
-f5f44985b44de7001145321587b39c730f775493 sunrpc: select PAGE_POOL for the svcsock KUnit test
-8fe036fc8f23390b2c13ada9cae6c39655210054 net: rx_loan: move the receive page-loan machinery out of sunrpc
-07150c37646a3ac18962393a8e3efda9fbf61bd8 nfs/localio: pass kernel bvec fragments through direct I/O and count every copy
-38771be7516c19a6b91cb54fdef8d497f7a82795 net: rx_loan: computed region size, netns budgets and consumer shares
-3819f4149088b2878db5f943cf0824c8df22f293 NFS: NOWAIT direct write over RPC defers request build and issue to a workqueue
-5d170713422e38c52f8b89f638ca168927362424 net: rx_loan: restore the receive region's module parameters
-f0ec470bd07b1841188e522eaad3c2c913cc2b6d net: rx_loan: say the receive region is off by default, and pin it
-0bea9133dddaedbcd65c6f423d06b7521df4c24c NFS: allow nconnect up to 128
-5e796a5c1a66c4dd65d39a2eb5ff4a3e10f76f43 nvmet: lend bvec data, early write release, NOWAIT direct reads
-b3e566ebf6d7e4a58d4bf6aac8d2a3bb33778299 SUNRPC: per-cpu svc pools, sibling wake and steal, adaptive idle spin
-4976a7811889dce25bb6bd15fdf1413095b8a897 SUNRPC: KUnit for per-cpu svc pools, sibling wake and steal, idle spin
-20fc19ece450a8a5952c8e66f8ab4b218dda556b net: rx_loan: lift tile, holds and per-consumer copies from sunrpc
-b3e0fc16ebc09df7e8e46e6ee4eb60ddc5587073 nvmet-tcp: receive WRITE data into rx region loans
-92dbee5e0b4ccaafd6e2800f221c508107235695 nvmet: take lent bvec segments aligned only as the device needs
-ec8c9cc881209fd55098b69d3a90a28167fcdfb6 nvmet-tcp: bounce a locked head's bytes instead of copying the record
-1e03fe6a6d4c538cc379f520b1380d7770c9eb5a nfsd: read buffered when the direct READ window would pass OFFSET_MAX
-72c654b7c37cd2aff127f07178af64eb3971b6d4 nfsd: KUnit tests for the direct READ window near OFFSET_MAX
-cedeb0f3229cf1948afaa0633b007ee0d21a8740 nvmet-tcp: bind each port to the network namespace that enables it
-d9db440eeeb22e3f2cb67e768b777250b8df1a23 sunrpc: per-connection run-to-completion work item
-884b11748321607a1b8f133bff546f4598e48f79 sunrpc: KUnit tests for the run-to-completion work item
-ad70dafabce672b494cb16caf1734deb1ba4ddc5 sunrpc, nfsd: run-to-completion NFSv3 READ fast path
-f1e6f38539e107795fbe946640d666bbb5400143 sunrpc: KUnit tests for the run-to-completion READ fast path
-0186218bea34d8f3dd5d033a9aa6290f94cec50d nfsd: run-to-completion NFSv3 WRITE
-dc15f55718778499c52125b04743acda927e5c38 sunrpc: KUnit test that svc_rtc publishes only when pinned
-20f9713197f81cdabe082275d0c6bfd024063632 nfsd/sunrpc: run-to-completion NFSv3 READ/WRITE: count every partial NOWAIT outcome as a fallback, try freeze protection, NOWAIT reply-cache allocations
-79974ff5833299bac892b9e0aeb1b983b1c71965 nfsd: run-to-completion NFSv3 WRITE: reply-cache buffer at lookup, fsnotify for whole writes only, KUnit cleanup
-607e341aba0d012e815944570b36982ee008d907 SUNRPC: give each CPU its own transport under nconnect
-c70f77d758b6a187a22a52a34cf9688bf99bffe0 workqueue: hand a retiring unbound nr_active count to its own pwq
-f27e8b241bddb7bef58d25714fc6cf4570890b00 SUNRPC: hand a sent task from sending to pending without a requeue
-0ee9205447af9e070a1c1e064526a28418ea92a1 SUNRPC: let NFS pgio and commit run the first RPC leg in the caller
-2ce89051614f5c0a9c3f0d2e7cc38f69697ce060 nfsd: register the rtc NFSv3 READ hook at every service creation
-1c24c1f207246b5d267c874061a80a78842b3578 nfsd: build the run-to-completion KUnit suite into nfsd
-27099a2efa9a3d6fd7edf2920f3b551a6b6f51f4 nfsd: keep stable WRITEs off the run-to-completion path
-ad028439eef0c7836701e58aa0eff4a0a974b93c sunrpc: size the rtc rqst pool from parked async calls
-30270aa1b5ef8cff2cf7ceea67951e80bfe18ee9 SUNRPC: make rpciod a per-CPU workqueue
-bf8d9e35dab4baa97d8a1a8e28ab46772afbb3c6 workqueue: make the unbound nr_active local hand-off unconditional
-a7a9159f8b115b6923acc31d0969f688a8e2c43a nfsd: size the rtc KUnit service in pages
-b64e44df6f501a389930c86e214a45650b5090f1 nfsd: size the rtc KUnit sync-hit READ in pages
-5778fda3faa4e0424d3ea8c6537ef692db65e1c2 sunrpc: run each connection's rtc work off the NIC receive CPUs
-b30c59bf1c8c78dc6299e1aa649c27eff5c31c7f sunrpc: KUnit tests for svc_rtc work placement
-05267497ac1bf58d1e31a66a3705ee54c9727d9b sunrpc: re-kick the rtc work when sendq refills past the send budget
-db21552bdee106f01accd500372e02088cca7d3b sunrpc: flat-combine svc TCP reply sends
-8ecab600987406e8833f519aa4b7ad9d02be6136 kernel: hold nfsd listeners to the first window only
-cd04cff12a8e81ce7ee41f9cf17f8397f1c4c476 sunrpc: cache: don't renegate a valid entry when the upcall has no listener
-5190f0c55bc7d976b2059e75ecdbe946f670bb46 sunrpc: per-CPU free lists and per-CPU active count for the run-to-completion pool
-92b0e224fe1a4c1d5d1631c107844e6deb7358de block: inline blk_map_iter_next()
-7acd858596df85e5ade8485d2a7c46f23467e359 net: add skb_frags_hand_over()
-7f9ccc4508a200cfebc2edf43edf8d640820cae1 page_pool: keep a fixed receive region page mapped for its device
-62a1d72d023bdc689c11e833a402620fd0a6ad31 net: rx_loan: return a page's neighbouring loaned buffers in one drop
-986856ab5b67fb9b5d3b12da15ad7306e64d8752 nfsd: switch NFSv3 READ and WRITE run-to-completion per direction
-04342ed6cac4fd90ce2caaa63f68a54dff464f14 SUNRPC: Take over an skb's page-pool references for a loaned frag
-adb0f923d64cc3b43566e0ad165cada63ffe5f06 nfs/localio: split on a real file in the copy-classification KUnit tests
-6e9d7e2e65d4cd0844411a7bd34c3ff15167057f net: rx_loan: prefetch a loaned record's struct pages a batch ahead of release
-3b62df1db35c209a437d728ed26d7137d26e72c2 configs: enable the hammerspace-7.3-performance Kunit tests
-4999c5611f668c7ade7405af0ce967de202b0ebe net: rx_loan: fetch a released page's struct page a second time
-3bbe0107ab7b2787dfac4e28c3f2359e20323f2e SUNRPC: Make the share of the window a loaned record waits for tunable
-1c8179d0efa61556757617de7faad55d9bf83501 SUNRPC: Sleep without a timeout when the pool cannot lose the thread
-23dcec70ad98b2404725fc80adfb6f973beff819 SUNRPC: Cut the loads of a borrowed page's checks
-f546f569eb8cf0d2acdc6a0e7724b5f4ec12078a SUNRPC: Trade only the pages a partly received loaned record holds
-6e71226a9d33b14642fe94a9325a78afc241d346 SUNRPC: Check a received record's bvec table only once
-7563e246bcb2cb2ec4c2e0abecff993ef1865c78 SUNRPC: Do not step to the end of a bvec-backed buffer's pages
-a70d1f39f24984399e093fb0d76b875716146dcf SUNRPC: Do not check a published record's bvec table again at release
-d3b9b1e51a67519691d8e2eec970c765382d0c65 SUNRPC: test the hold-back of a loaned record at a share of the open window
-cad4185e695b939b95fb67bbec3f95c793d0ec2d nfsd: split direct writes on real files in the receive-bvec KUnit suite
-19b1b60f8241f3cdb661572709ab74f027b7ca5e nfsd: use a real file in the receive-bvec KUnit disposition test
-fb9f8a61c7443280290a53169e49b9a4bbb1fbd2 nfsd: decode on a real service in the nfsd4 KUnit suite
-a413c6a1331e1f00c59e6e70806dcceb2c70b7a1 nfsd: move the nfsd4 KUnit suite's service to a shared header
-04843c319808450c5f5a09059c0dd6d0fb31a733 nfsd: decode on a real service in the receive-bvec KUnit suite
-a709224084030c1afcc89968f7be76acebbf1741 nfsd: use the fixture's transport for the nfsd4 KUnit session tests
-eeb8bb5f03c135f1480e2369969e6593edb13945 nfsd: keep the nfsd4 KUnit session tests on the test's service
-3dd50265ac309a81ded4cc0496d002fb31b0793a nfsd: take the KUnit suites' request addresses from the transport
-8d12ec7c2cc306366be59e5093be0090f136c75a SUNRPC: test which pages a parked record trades in the svcsock KUnit suite
-0e1e74a002f1160c1fcb0866e4abbb97f92c610a SUNRPC: test the checked table and the end of the pages in the KUnit suites
-dbfbad537e9671de4bd0a5435ab5dfefbb57e1ae SUNRPC: decode a word at a time in xdr_bvec_advance_test
-ec080ddbcf9df230787c8aedf5c79220a8cb2f49 SUNRPC: test which records release walks in the svcsock KUnit suite
-2e397507b51217ed1ffb74ee25f45f3f84699b28 net: rx_loan: walk the credit lists from the newest
-b06eed42ff71f933f7fe956d575ca7b7e5fe1889 net: rx_loan: raise a re-held socket's window with tcp_sock_raise_rcv_window()
-348f802838faebfb38bc4f9a3888d41e4470d3d2 NFSD_TCP_WRITE_ZEROCOPY: the handoff for the 7.3 canary on tardis2
-ee6755354a47d5488325ee1e3e7c5dc54b64be4e NFSD_TCP_WRITE_ZEROCOPY: how David's performance series was carried onto the 7.3 canary
-5bc537892b15e71929bedc1d1eb23ac993d0ac03 net: rx_loan: size the KUnit tile tests to the page size
-accb63f7190780518d1451c9bec7e5e5f02a7456 nfsd: expect IOCB_NOSERIAL on a split write's buffered ends in the receive-bvec KUnit suite
-c9e73fc2e586e5e8b69a7a6f097c7ba8ee395e39 nfsd: follow the canary's IOCB_DIO_GEOMETRY in the geometry KUnit test
-27bca19d2227e9d021256ec44511a8edcd0c1382 NFSD_TCP_WRITE_ZEROCOPY: run-kunit.sh enables NFSv4.0 for nfsd4_bvec_kunit
-022744b3adc9ef6a4d678a7617147092511a2f77 nfsd: say when nfsd refuses NFSv4.0 in the nfsd4 KUnit suite's q35 tests
-932fd61e561cbade65a0376dd84362104ffc3f32 SUNRPC: skip the svcsock region pool defer test without deferred skb frees
-620b805df785e79bf918fa55e3cb0c12b654c569 NFSD_TCP_WRITE_ZEROCOPY: run-kunit.sh expects the region pool defer skip at skb_defer_max 0
-9cd69080df23eb0141acecf011484363463c0f95 SUNRPC: expose the run-to-completion active count for the KUnit suites
-f3195b3d4f1cc659298270daddaf73e1209f6993 SUNRPC: read the per-CPU active count in the svc_rtc KUnit suite
-aed5470c9006253f63da3bc1fde568c33670eb3d NFSD_TCP_WRITE_ZEROCOPY: KUnit on build 512 in the tardis2 canary handoff
-1285e5cbf57d2e491990121933250d160f791e29 NFSD_TCP_WRITE_ZEROCOPY: the rig scripts on David's region sizing and per-CPU pools
-6bf7cca87864c5db40a7bc077318661cba09816d NFSD_TCP_WRITE_ZEROCOPY: build 512's runtime baselines in the tardis2 canary handoff
-a7a7a5c3811c4e98326051e2d8270c410a24b214 NFSD_TCP_WRITE_ZEROCOPY: build 512's per-CPU pools without the hop in the tardis2 canary handoff
-026918dabcb18dc18a4123a983e644537e66638b fs: avoid spurious dentry ref/unref cycle on open
-39393335a0566dfc8bf27691acab6ec54e8193e4 VFS: fix various typos in documentation for start_creating start_removing etc
-7a60963ca0d17327f148e1da7edd108f263b8079 VFS: enhance d_splice_alias() to handle hashed dentries
-8f03f70e41aa9d832a4419782dab8e15853a8500 VFS: introduce d_alloc_trylock()
-adb0e613136d63581e446dda7c15c7a2f0321f37 VFS: add d_duplicate()
-7c1158d517d0dbbfb4ecb8bf69ba4417aa5ae164 VFS: Add LOOKUP_SHARED flag.
-e4721d15df8e5243385fba4e0ef04898bd4dda19 VFS: add lockdep monitoring of DCACHE_PAR_LOOKUP lock.
-5a704c65562d22f2608c3061169ede44a1572fc2 VFS: reserve a d_flags bit for fs-specific usage
-1c0fbf50e95b88bd69c4cf94ab9046e4915e9950 VFS: per-fs-type lockdep key for dentry in-lookup locking
-c56d1ef51b30a88e3b5f271695b62ecc1b16683f VFS: rename lookup_map to dep_map
-07c0069349c08701f5c4bdc1290d3f6cb29f8aba ovl: provide private lockdep class for dentry->dep_map
-c60eed14e610e4cb3eca5267e9d6d4c4b33e9c09 VFS: d_duplicate: repair comments to avoid kernel-doc warnings
-c08b72228653d27f35a0a6a979a8a547485cf4cc fs/dcache: annotate the lockless d_unhashed() check in retain_dentry()
-db553d508f2f939cb076c636c14d694725b1e714 nfs: fix open-blocking with d_fsdata
-2e0ed8d63dcd11c34bf515babf732f8da59fa78b nfs: fix nfs_call_unlink()
-88ac712a4a9907161dbff645e2bc7dd26fb75f50 nfs: remove d_drop()/d_alloc_parallel() from nfs_atomic_open()
-cd31735f96892db87405c50e5a92fe3c19c9d631 nfs: temporarily restore nfs_link()'s unbraced S_ISREG arm
-9a22b74421ea60dd292259466192f1ea357ec9d6 nfs: use d_splice_alias() in nfs_link()
-ae61a6686ece4fe5c0faf61d8909a5423a46362b nfs: reinstate the O_DIRECT drain in nfs_link()
-3f5bf162d0ce95b0422f2c2006aae133c85dea6a nfs: don't d_drop() before d_splice_alias()
-8795fdb9f69047250c9fab9861dd93471cb78916 nfs: don't d_drop() before d_splice_alias() in atomic_create.
-585d4c2c223537c7b741543c4b2dbca8ce2ae347 nfs: Use d_alloc_trylock() in nfs_prime_dcache()
-912cc2c1eebadd733814a23185b7180995d4559a nfs: use d_alloc_trylock() in silly-rename
-66a82bce45e07e34e777286b6271a51dfca42367 nfs: use d_duplicate()
-b94ad5f5a24500e3f982cf68af6ba90acec2c32e nfs: do not transfer a sillydelete onto a blocked dentry
-018958dfa26b123f9cd9065a47f666e745cf20f8 nfs: answer a handed-off silly-delete on a removal target with -EBUSY
-0218a9ac592e8b54c2a51e7bc4c53628902b752d nfs: take rmdir_sem for a silly-delete only when its REMOVE is sent
-fa741a8f6f7613260fcfa45d8004a4f2f5cab563 NFSv4.1: honour nconnect on session-trunked server addresses
-09119546fb05146a2bf1e781d75138a8a95e4a33 pNFS/flexfiles: make dataserver_nconnect an override, not a cap
-bdccb87e2b7902444bb8f1b8caaf2e55df066a30 nfs: update a server's capabilities in one step
-cb23de4c62509dfd0c8f327c432386bbf77aa8ac vfs: allow the parent lock to be shared for O_CREAT
-841a904502067c3835a43ec395130aa0db9c1d35 nfs: tell the VFS when two names can be one entry on the server
-cd94891960cc843934ee575a8fc3a30d7d65bf2b nfs: concurrent O_CREAT in one NFSv4 directory
-dec090c650a6ad2e9ef437512c3b3fb83378e93d vfs: factor file removal into a helper, no functional change
-b8931d6a14a4b1340d5f15623fda6f91ac8450f2 vfs: let a filesystem remove files with the parent directory locked shared
-66b236d4a8e235e4894c33a55151d598706e7620 nfs: add a second mark for a removal made with the parent locked shared
-21a588cd54377c9e815bf0f48321cc23c72d3e27 nfs: keep the dentry of a shared-parent removal hashed
-7397e6733406ce5cd7a23e4ae3cd6b26d458ab73 nfs: do not cache a name from a listing that a removal overlapped
-d86daf1af2c1ee1c5175412e30a607fc14ddc505 nfs: add the removal method for a parent directory locked shared
-58bfe2fb79ea18ec2c2f13dad3521841265a8812 nfs: look a name up again once its removal has unhashed it
-698e1ab67c84104e809b293c34e7045032f9d89f nfs: remove files with the parent directory locked shared on NFSv4
-1e344c962a296a2ec41c219626282d80eea291f8 LAB ONLY: make the O_CREAT shared-lock opt-in settable at run time
-968176ed1116b8d4e626f2ce251b17b2808100e8 LAB ONLY: nfs: add a runtime knob for shared-parent unlink
-85df308f878c1de6fdb1be9053d3969c0fb4020f SUNRPC: Shard the rpc_clnt task list to remove cl_lock contention
-09a5dc4167ecba61d79d4710a075d12f30f74158 NFS: Do not revert the iov_iter of a queued async O_DIRECT request
-617d8b402e74f72279ac27db62a982ee127d4abc NFS: Add trace events for O_DIRECT read completion
-e366d3914467920b717d4e770c9adf2a3c0a7f9b SUNRPC: home nconnect transports on their NIC's NUMA node
-80d35543248e0319c8b917fddd207e36c7e3761c xprtrdma: interrupt a transport's completions on its home core
-12fc30b9c8a143de797a46466088402c2dc72525 svcrdma: spread each device's connections one per core of its NUMA node
-acf010eabd703d26d913419f73cbc3b4dd369002 SUNRPC: home each switch's transports on distinct cores
-35385ba94b54edcbcbf47ba9ae84d0b3571ba36a svcrdma: place each client's connections on distinct cores
-b9485d8181ff4e19d6e810e0dc2a95b21730a5cd SUNRPC: LAB ONLY switch to keep a pool's work on its own threads
-710d06bca9a42907aae5b25b1693b89b797ef35d SUNRPC: queue a placed transport's work on its home CPU's pool
-aaaa740ba700d1e3f9596ef96912c47e49964e39 SUNRPC: under svc_pool_siblings=N, hand a drained pool's work to its server
-110fa23efe8940c93f40757ffe7d8b24b2d8326b NFSD_TCP_WRITE_ZEROCOPY: hold nfsd's rtc_read and rtc_write off in settled.sh
-833ef2da963bf8c45d1cc7fbaf2d704d1e26daf2 NFSD_TCP_WRITE_ZEROCOPY: build 514's runtime baselines in the tardis2 canary handoff
-8e6c6d51075630eeea17a9248a9db6bf002296a6 NFSD_TCP_WRITE_ZEROCOPY: hold sunrpc's pool_mode at pernode in settled.sh
-bedbb615358b031a7ba69a089e18a6f1894f73f4 NFSD_TCP_WRITE_ZEROCOPY: build 514's denied loans in the tardis2 canary handoff
-dc4bc89114547063142d066331540d84765b2cc6 svcrdma: release a connection's core when its client disconnects
-2a4cf7304ad8897365c73e371f83cf27fa7f2fed NFSD_TCP_WRITE_ZEROCOPY: build 514's nfsd cycles over 507 in the tardis2 canary handoff
-88a3c207c45b353cabbd902702526880d0403a50 NFSv4/pnfs: send the last close's LAYOUTCOMMIT in the CLOSE compound
-ecac4271fa895236c03b0621eff372fe27ebfe98 NFSD_TCP_WRITE_ZEROCOPY: the bulk return's A/B kernel in the tardis2 canary handoff
-557d8aa998a8a828e9c6e8d44ae2842f6ae9f9df LAB ONLY: make the CLOSE-compound LAYOUTCOMMIT settable at run time
-41dcc074ce06a8af4f909e07d52cb970d5b5d5bd NFSD_TCP_WRITE_ZEROCOPY: tardis2's boot into the bulk return's A/B kernel, the handover
-7981abf2c7bc24ba4adcec1cd8eefdfba111eec8 page_pool: return a bulk's overflow to the receive region's slot at once
-9fd565b68aa83b1148bafc55161ef76019df52e1 NFSD_TCP_WRITE_ZEROCOPY: the A/B kernel's first boot lost port a in the tardis2 canary handoff
-3654d6396a6c8209a835ff9ad6285d560b40d8e5 Revert "page_pool: return a bulk's overflow to the receive region's slot at once"
-f126c918e7d4933b698d523c87fe85376402e27e NFSD_TCP_WRITE_ZEROCOPY: the bulk return's A/B, dropped, in the tardis2 canary handoff
-ea9723c8c09e3d4f82534c062647869c8320b592 NFSD_TCP_WRITE_ZEROCOPY: twoport samples a region with no low-water mark of its own
-340d5ad0f06f04ee64a01ae3b567dbb5a8a4364f NFSD_TCP_WRITE_ZEROCOPY: the bulk return did not grow the region, in the tardis2 canary handoff
-cbc681676dcb3f31f539899c855d69cf5bb49e51 page_pool: count the receive region's pages held and their peak
-11d7b6d292342644ba628a4f5939a67265082701 NFSD_TCP_WRITE_ZEROCOPY: the region's held mark, its boot and twoport's reading of it
-720b8a1cf3ba81da85bb1fe3274b1ffe58788049 NFSD_TCP_WRITE_ZEROCOPY: what to know before the held mark's runs, in the tardis2 canary handoff
-bd6fb89344fa758472f85b863905041d276b2749 NFSD_TCP_WRITE_ZEROCOPY: the held mark's first boot lost port a, in the tardis2 canary handoff
-3f1261bbd6e3ffe12eb8b2093409e6eea033a402 NFSD_TCP_WRITE_ZEROCOPY: the held mark's second boot lost port b, in the tardis2 canary handoff
-ba701a27607fc435cabea0004d3ac1a2a893dbba NFSD_TCP_WRITE_ZEROCOPY: a port dead after boot
-6a7b962e6090bd92b06ee52e7dd26daa4c9352d3 NFSD_TCP_WRITE_ZEROCOPY: a reload of xeu does not bring a dead port back
-eb29d111a8b455ff4d23283879e499a1ed960163 NFSD_TCP_WRITE_ZEROCOPY: a PCI remove and rescan does not bring a dead port back
-83bb64e143ee2f80492b8e5990cfb38a5c8d2451 NFSD_TCP_WRITE_ZEROCOPY: a function-level reset does not bring a dead port back
-68d2dbc7378e84e939875bb772d01c11ffc37e2d NFSD_TCP_WRITE_ZEROCOPY: a bus reset does not bring a dead port back either
-4edc5ecba33c34556365e0ee4aebb875d0a6cda9 NFSD_TCP_WRITE_ZEROCOPY: the held mark's third and fourth boots lose a port
-d70eec1b88cafc616a3bef2b1363c1d7c908ee04 NFSD_TCP_WRITE_ZEROCOPY: boot stock build 514 next, to count its lost ports
-9ab7c61ad9016e9ce7db8f55db1364158a10a105 NFSD_TCP_WRITE_ZEROCOPY: stock build 514 loses a port on its first boot too
-f2061f6ce244634ab483db3d8ef7faf35ff1be5d NFSD_TCP_WRITE_ZEROCOPY: stock build 514's second boot keeps both ports
-e4f3bcc787bbf308187c3f612eef1cb38e3b5699 NFSD_TCP_WRITE_ZEROCOPY: stock build 514's baselines again, on its good boot
-71bcdf8e58154ef31bb76411f6cf30c054893bc0 NFSD_TCP_WRITE_ZEROCOPY: boot the held-mark kernel again next
-ab52f23c3af80356e9d8d83e5157596f3f01e31e NFSD_TCP_WRITE_ZEROCOPY: the held-mark kernel's fifth boot loses port a
-f06bb966e6d67d278815c672a774935abcfe357a NFSD_TCP_WRITE_ZEROCOPY: the held-mark kernel's sixth boot keeps both ports
-c7980e679077b8fac43b131534048ba5f72a939f NFSD_TCP_WRITE_ZEROCOPY: the region's held mark, A/B on its sixth boot
-72016fd938357a654851d45791ef34304ca6c58b NFSD_TCP_WRITE_ZEROCOPY: keep the region's held mark
-f066327ecfa987d12162cde67c972e13c3247d50 NFSD_TCP_WRITE_ZEROCOPY: tardis2 boots the held-mark kernel by default
-163a8ef4a1876868834d0c93240093b1053d5b64 NFSD_TCP_WRITE_ZEROCOPY: 514 holds fewer region pages than 507
-8c6b67489cfbe80d207f35c2a2a8d4b84ae427b9 NFSD_TCP_WRITE_ZEROCOPY: stay on tardis2's sixth held-mark boot
-13f9e587265b8b31ebb474d4395cb96654332c2f NFSD_TCP_WRITE_ZEROCOPY: 514's rate gap is not the runs' order
-bb83bdbefbafa6046eab661c4376e1da17f2cad0 NFSD_TCP_WRITE_ZEROCOPY: 514's wakeups and its fast runs, from the logs
-071062b7b0afa7fa76cb0d8563f8e9e3f4493a38 NFSD_TCP_WRITE_ZEROCOPY: twoport.sh records the client's time by process
-bf58e5c27e3a2fdc774df599b4b13e0e7e5d6fe2 NFSD_TCP_WRITE_ZEROCOPY: twoport.sh records where the client sends from
-c7452c38716c3776255f0f7a036d53754fd568e2 NFSD_TCP_WRITE_ZEROCOPY: the client's fio pinned to its NIC's node
-40b9c6eb0160b3a6c6d11ecbfd6219aebb73ed7a NFSD_TCP_WRITE_ZEROCOPY: the client's workqueue scope, numa against cache_shard
-b46536dba790aef2476a5d48bd7a75af82eb0cdc NFSD_TCP_WRITE_ZEROCOPY: twoport.sh pins the client's writers by default
-bb21ef3c0cfd562917791dc3bf2dde0d90429c1f NFSD_TCP_WRITE_ZEROCOPY: twoport.sh sets the client's kworker scope and irqbalance
-47c70a81048eca379705f90628d9ed5d04d042ed NFSD_TCP_WRITE_ZEROCOPY: pinned with the numa scope, 514 reaches 70
-aace5d61c726840cea8e34035593af785d8af882 NFSD_TCP_WRITE_ZEROCOPY: the client's NIC IRQ placement is not the rate
-ea4c545058b7a6b81b15fc779191103574633ef3 NFSD_TCP_WRITE_ZEROCOPY: fl64, a profile at the client's new defaults
-0b4162455663a86f6590fe9c1aa22319b18fcd86 NFSD_TCP_WRITE_ZEROCOPY: round 62's trace and PMU, and a correction
-c83c535030a1584ca088f6296b2773f5aa2f9573 NFSD_TCP_WRITE_ZEROCOPY: round 62, the map walk is closed
-84443cd4a9b98d5a0d0508aa1b87f7f5d97e242b NFSD_TCP_WRITE_ZEROCOPY: the loan's misses, the transport queue's passes
-e26ef3fedfe045b461e2be4dc578fe65426ab013 SUNRPC: keep the fault hook's flag off hot lines for the KUnit suites
-74862a6901f648c5480305554bafe5dfb95f48eb NFSD_TCP_WRITE_ZEROCOPY: the KUnit flag off the spare counter's line
-c6bcbd13a824c924e7d81e3985b9f4f25b81c004 AGENTS.md: wrap every commit message at 72 columns
-87b9c985b9d9306a5ac45697110827805f7c5487 NFSD_TCP_WRITE_ZEROCOPY: round 64, the KUnit flag off the counter
-4057b8c6d1250d85a50ee7e87e2b681ec8e1e559 SUNRPC: Keep each of struct svc_pool's counters within one cache line
-197774c20a62aacc21b4abefb0a18e6e303d971f SUNRPC: Hand an enqueued transport to the idle thread claimed for it
-5f97a2c7630de572b5a01be28a664d2c66d9e6e5 NFSD_TCP_WRITE_ZEROCOPY: round 65, the queue's line and the handoff
-e02a938b9963d789598d7e79d6101e557ef42e37 SUNRPC: Prefetch a pool's transport queue at the start of svc_recv()
-97a523d4e572eb21f430ef652b1e63c28224cb81 NFSD_TCP_WRITE_ZEROCOPY: round 65, where the split's cycles went
-4d0aa55e0d26ea5fe60bf62c2ca013dde3ab19eb SUNRPC: Read a pool's flags before clearing them on each wakeup
-2035f83c09afee9a0b0a3539ab91147a1cd5e19d NFSD_TCP_WRITE_ZEROCOPY: read a perf script compressed with xz
-a9fda2cdc2085cb77aae3a46847a1595312dcab4 NFSD_TCP_WRITE_ZEROCOPY: rounds 66 to 69, the queue miss and the layout
-822f8e6f502bf19faa75c3bce97eae45c5c8ec47 NFSD_TCP_WRITE_ZEROCOPY: round 70, the pool's flags read before cleared
-0addeb5356af812fa8fcdab53c8cc0266ebc1c56 NFSD_TCP_WRITE_ZEROCOPY: round 71, the pool's flags on the queue's line
-cbc5bf81ee21cb7a74cbd8397e15d3ea60ac0361 NFSD_TCP_WRITE_ZEROCOPY: round 72, nfsd's loop on the thread's own flag
-4bc7c9ae998b53f84b79bff7a5068fab9f5d780d NFSD_TCP_WRITE_ZEROCOPY: round 73, the handed transport's reference
-b057f4aa6e8563bbea51fee0d1510fb37f87d3a6 NFSD_TCP_WRITE_ZEROCOPY: round 74, PF against B
-bd38bdd178636e1db92cb77c802a8db87c3ebe9f NFSD_TCP_WRITE_ZEROCOPY: keep rounds 72 and 73's dropped patches
-7e482ea218f17cba7e7765173832b0b7c86e1d28 NFSD_TCP_WRITE_ZEROCOPY: round 75, each pool counter within one line
-a90c9a3db34fab2dc7052055bcedc9e6bc19745c kernel-7.3.3-14.canary
-11e0530d86b6da0b735252b2ca1ee6c37b141673 Merge branch 'kernel-7.3/nfsd-testing-canary-nfs_common-XFS-IOLOCK-and-async-DIO-middle' into kernel-7.3/canary
-f9aebbd1c429861d50871ae2da5f0b82b5b8ea9d Merge branch 'kernel-7.3/nfs-localio-performance-canary' into kernel-7.3/canary
-94ba740d1b9922bc4449d9a8218d9d764a598c2d Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary' into kernel-7.3/canary
-d20f8694bc014cd5cd9f9c03edf02dd1360a386a Merge branch 'kernel-7.3/nfs-and-nfsd-performance-canary' into kernel-7.3/canary
-216a2a3a690fcbdf1337482d9a586eaf180b8a1f Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part2' into kernel-7.3/canary
-d9f139f72e4ce97ea941d29101ae827b6a59e4ce Merge branch 'kernel-7.3/jflynn-io500-canary' into kernel-7.3/canary
-58f23958d14d11e48390021411157aba8d43c5ff Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part3' into kernel-7.3/canary
-0a9e3a742a2b1e13bb78373c5cb25e8494ac7723 Merge branch 'kernel-7.3/changelog-canary' into kernel-7.3/canary
+1b0f779ca7fae0fd6cd6876bb0d012048c3d84c2 ceph: wake up i_cap_wq waiters on inode shutdown
+488ffbdd99d88b154d87d6362b90ba86bacca971 ceph: add 'lazyio' mount option to kclient
+d6c7a5fcd08873c45a2dcd645a0690fd1443af50 libceph: only set read_from_replica on read requests
+0405670e50f213594366ab7eddc07002bd7f84c0 libceph: Fix unsafe decode in ceph_redirect_decode()
+10655007b9b679e46a9e383202c7bb791e5d1d13 libceph: Fix multiple unsafe decodes in ceph_oloc_decode()
+d8fc89b5bfe4cb3aebe4c8a818247d11291b841c libceph: reject mismatched CRUSH weight-set sizes
+94dbce2ae4fdb57bdb53ffa3456da777a5cfb981 libceph: reject an initial monmap with no monitors
+6c82bff8561f4c20dc0113f81cb2f6e6e2b4cf70 ceph: don't keep a mon_addr string that failed to parse
+f97509aff5159a0d717ded384a5cdc9ed26ddc90 libceph: use alloc_page() in ceph_alloc_page_vector()
+516b07ee26915ba7f96d6cfe496f7f3735978027 ceph: use alloc_page() in fill_fscrypt_truncate()
+62b41a16d8603d4d809fda212f15c3e9c783a82b libceph: bound mon_command ack decode to front len
+b3bf89767e3ca9506f1c7167cac97c41ec254d42 ceph: fix integer overflow in the snap trace bounds check
+e51cf76e7275d1bb5ad2d529bb00feade632dadc ceph: Fix xattr buffer leak in __send_cap()
+6c80207392fdb86107d7acbdbf4c86cac38da1af ceph: Fix mds session leak in __open_export_target_session()
+6dfc1b1a99da4909aee07a906352be5c3fc9baba libceph: reject bad connect_seq in msgr1 READY reply
+52913831ba56efceaafd80b501d68fa00f79bde6 ceph: fix 32-bit overflow in readdir reply count check
+569a9bb1e5615c2b88b8d76f03a4ab82e65a673e libceph: fix out-of-bounds reads from repeated CRUSH bucket entries
+c3a995ff0782587789333c621e1f6bd5e574371e libceph: initialize CRUSH choose argument weights
+ec8d583469ed64b4973192a21b5a41c33219721f ceph: clamp MDS reply result code to the errno range
+728c856d7da04fb79f7aa00e974ffb6f55e55995 ceph: fail readdir when the MDS reply carries no dirfrag
+6ff7920ca78f6edcabc26c63d20f681d938027c7 ceph: don't fail write_begin with -EAGAIN after flushing old snapc
+2377544a8ffe5b617cb9e9f8797fe086a9449a90 ceph: check the caps of a closed file after caps_wanted_delay_min
+bc418e234e5be14b97dec90e84a680e615b4134e ceph: validate fscrypt auth blob length
+7f702e1703c9648fcb02a217d66c880d00417150 ceph: bound name skips in ceph_mdsmap_decode() by the message end
+8cab7e7461f81ea1e0fd45082b50bb3c04c0bb10 ceph: validate MDS reply fragtree split array length
+166375898d29fea050a9abec855da6075050d5c9 ceph: validate encoded xattr name lengths
+269c779c1be9621373c07a5515251be0e1f5fdb8 MAINTAINERS: update ceph and libceph maintainers
+823d21c78453fcdf58dbd8ecefbb41f4f3eb6540 ceph: fix uninitialized err in ceph_netfs_issue_read()
+7aa84b0a2c76be971e925f8e41cd7cffe1571869 tools/power turbostat: Dump RP-Enable MSRs
+d895f1596d6e41c14dc50ef72a1c78715232b85b tools/power turbostat: Cleanup: Use one cpu_setsize for all purposes
+1a0bd1bfad43d151f813d77fb8b1b16ecc9f949b tools/power turbostat: Allow multiple --cpu on cmdline
+065c85e4799e1fb7f46d3c5fe2463631ca61f0d2 tools/power turbostat: Rename cpu_subset to cpuset_cmdline
+24d277a547611b998c451bf9ee135011fcfc6276 tools/power turbostat: Fix comment typo
+00eae75a3baa8a551b6c86a63bd0eed5b0bd4f7c tools/power turbostat: Add rugged Panther Lake support
+8742f4b5a472c347fe568a73468a2d9e4d630b33 io_uring/kbuf: advance head when a pickup empties the buffer ring
+18d3f56eb6e6500a65d81cf265f0fe74fd9ecab6 io_uring/net: keep recvmsg buffer select length within MAX_RW_COUNT
+70884ea2d636611e547f3da85fbfb8aadfa2ab4d io_uring/net: Remove useless min_not_zero() usage
+e66907c3ba229399ecfb4ef032b95a4a071c894e io_uring/net: mask socket type with SOCK_TYPE_MASK in io_socket_bpf_populate()
+4a93427e99a8524f3612f29ec8bc0da5f8435a51 io_uring/register: enforce per-task restrictions in io_uring_register_blind()
+82e72ea18d0af724914c31a1f274c1aef452aad0 block: advance iterator after copy-in for SG_DXFER_TO_FROM_DEV
+7da2aca123754c0e06092bbe179d58078b58d8d4 spi: cs42l43: Add speaker ID quirk for Dell XPS 13 DX13260 SKU 0E54
+f3c7bee984aa0ba2b48a44e16a6f3ec2c27f851e ASoC: qcom: qdsp6: q6afe: fix clk vote response type mismatch
+4035247966859152a6523bc041f81cb9905695a5 intel_idle: Adjust state names and descriptions for _LPI states
+ff4194e54f840b4df4eb2489c63ee88283895efc selftests/thermal: allow cross builds of the Intel tests
+4785d5faa935a828a04743c5a7d279baf454c723 PM: suspend: Do not call suspend_ops->begin()/end() for s2idle
+82c9c94f54a444a686e926c872dae4b198d1036f thermal: Fix CPU mask truncation in power limit trace event
+4b832a2af523cbf857a977414c0f07d7f90a4c9d ASoC: qcom: q6apm: Fix unmap regions response handling
+43c69604271d8b54c494fde70bd4a9eaab7a974d ASoC: qcom: q6apm: Clear the right handle on pos buffer unmap
+a51c5dd7f7fc7cdf4ae28fec4a013d8418d1cb53 ASoC: qcom: q6apm: Unmap DSP buffers before removing the topology
+6977822f9daca68daf4524e3ffbe8442d8595b50 ASoC: qcom: q6apm: Fix shared memory unmap
+361da59d7909a63b978fa1cd19cde65c34c86ffd thermal: sysfs: Fix indentation in create_s32_tzp_attr()
+d25ac9e30cab579c1c99b8f541e092b40ee53012 ASoC: soc-acpi-intel-arl-match: add rt712 on link 0 config
+51dc835b59caca983ed27065233be4b81cd8ac14 ASoC: Intel: soc-acpi-intel-arl-match: Add RT713 + dual RT1320 support
+8d678dce151838ecb8251ce9cf0e29f7e13c866d ASoC: Intel: soc-acpi-intel-arl-match: add new
+e21fb64a8c4aecae31ec63f994423ac944705c3e ASoC: qcom: audioreach: fix module cfg blob size handling
+00535515e3c14fbee20de4a1aa61cfb3390f0f50 ASoC: codecs: wsa884x: Accept temperatures across the full trim range
+6a55cf0d9dd2e2493a5030a4f7b0413d31165e45 ASoC: codecs: wsa883x: Accept temperatures across the full trim range
+54c121eaeed8ee7751935db8100b6b5c57124db9 ASoC: codecs: wsa884x: disable runtime PM on unbind
+ea63182d71956dc33c6f08dc4171f1052f8409a9 ASoC: codecs: wsa883x: disable runtime PM on unbind
+a6093f98cbfc4a717ef3d1048b0e38fb2035be98 ASoC: codecs: wsa884x: Fix VI sense port channel count
+9728b328d7adf228d5f691d0ec43bb7a6d07e44b ASoC: codecs: wsa883x: Fix VI sense port channel count
+e163f6f079e1e39234db5fe942b4e5e62b05bd84 ASoC: qcom: AudioReach and WSA88xx fixes
+5532cec202507a3e3460bf12deafa0688009dab7 ASoC: es9356-sdca: Modify the timing and configuration of headphone events
+ddc9472baf11727144a78bf5ad81ca596baf5d7c ASoC: es9356-sdca: Add writeable_reg
+6d7dbcb5f8e41ba63e1fefad902d1d5f51a3980b ASoC: es9356-sdca: Modify the Initialization Configuration
+6ecbbd8bba209c111aa635ecd8bc95f42ff36d7a ASoC: es9356-sdca: Modify the initialization and headphone-related settings
+c80f86ed857e21dcdd389559d3e62bf53ff39f9a ASoC: codecs: wsa881x: Fix shared powerdown GPIO handling
+dd64271fe1b935252cf454a72a558cbdb7be57c5 ASoC: codecs: es*: Modify the registers related to ALC RECOVERY
+29b867d8351de378704775d3733bfb589c48ab1f ASoC: codecs: es*: Modify the maximum value of DMIC_GAIN
+60aa5abdc9997f0f4d3ab766d8a4af79ce8e400e ASoC: codecs: es*: controls that write each other's bits
+79cfb5aebbf0417418c2ac25669fade7f3e58ef2 ASoC: SDCA: propagate sdw_slave_read_prop() failure in class_read_prop
+86331b76b32d7a83fb3e64641a5111746bf0f50c ASoC: SDCA: drop pm_runtime reference on probe failure path
+d34a818a331f7e270fa9dc3db3d96f6a0d4fa7ab ASoC: SDCA: re-enable IRQ on pm_runtime_force_suspend failure
+602aba4a3924486fbae7d388b853fedb37e69a42 clk: clk-gpio: do not blame the DT property on probe deferral
+26ec588063d9b6c70773b8729372e2bf6d3ea95a clk: nuvoton: ma35d1: Keep the clock count in the driver
+ea1f41802312e77b58113146a060fb0546b2234d dt-bindings: clock: ma35d1: Document the missing crystal inputs
+653738db38c7c7f0fb959a7870f9461cf4987825 dt-bindings: clock: ma35d1: Drop CLK_MAX_IDX define
+8c7453cb0b01bee47ec2f902a9ac1872d3b77f3d dt-bindings: clock: ma35d1: Add missing WDT/WWDT parent clocks
+1dc3871ce7ec819030c22297f8960c61cc42a990 clk: nuvoton: ma35d1: Add missing WDT/WWDT parent clocks
+7bdc3c32d5037f9d55c5f109e29f0c2c066ba522 dt-bindings: clk: zte: Add zx297520v3 top clock and reset controller
+574e62ac2dd913774486b09ff2672be872f23aed dt-bindings: clk: zte: Add zx297520v3 matrix clock and reset controller
+244539a22fbd11e18dbcbc02453e0f07f1a6368c dt-bindings: clk: zte: Add zx297520v3 LSP clock and reset controller
+8a9b53cc1370db72dd8eefc51bfe4f3dad45de19 clk: zte: Add Clock registration infrastructure
+04b24f1dca694aa73a09102c8a19a766207381ed clk: zte: Add regmap-based clocks
+f29a49c216a8fb90afa5d450011a7a3e716f98ef clk: zte: Add zx PLL support infrastructure
+913e9c3b026975e01615a8e00ac773ed1790ef47 clk: zte: Introduce a driver for zx297520v3 top clocks
+0d852cd2ae8cd6e79e5dde0c274c8281b1e62a30 clk: zte: Introduce a driver for zx297520v3 matrix clocks
+227db8dc09fe3f5e8a507b3efed6868f936e0030 clk: zte: Introduce a driver for zx297520v3 LSP clocks
+eb938f033b7b8a578570e9918c0ba2b242aba818 clk: mmp2-audio: add missing PM_CLK dependency
+abd14114b229181db33391c8fb30ead74f7cd1e8 clk: tegra: bpmp: remove kcalloc
+fcfe685cde2f49fe6195b62cdbcaa1c906a853ae dt-bindings: clock: anlogic,dr1v90-cru: make external clocks optional
+5c7c0cbf81bba69695efa12e451f0f2ecd4b92a5 clk: lmk04832: Handle reset GPIO lookup errors
+bb1d071a54fefaa43161368f34d8dd13f1720531 dt-bindings: clock: Convert HiSilicon clocks to DT schema
+40e5d379cc19fa7fa477414087df5e915d5e843f clk: stm32: fix clock array size for STM32MP21
+e9e6b4dc303dff637ef725aca4f4968d7600798b clk: cdce925: Size the PLL child name buffer for any int
+ce8c0f4b8306e01b058859bb43425613cfd1782b clk: imx: pll14xx: support spread spectrum clock generation
+79f5eab7ec9177271ffc9d49229357da74a2c4fb Merge branches 'clk-allwinner', 'clk-amlogic', 'clk-imx', 'clk-microchip' and 'clk-qcom' into clk-next
+0d9678b125d8315d62de1261bee67c7e6f21457e Merge branches 'clk-renesas', 'clk-samsung', 'clk-starfive', 'clk-tenstorrent' and 'clk-pile' into clk-next
+3d97e7c377f1a8fac1c5bf8fd6008c9a67c87847 cdrom: drop linux/fs.h from cdrom.h
+87409eedc543d288cdd49c2174f7d61eca7b8db5 loop: check for read-write open mode on LOOP_SET_STATUS in lo_compat_ioctl()
+06be918062adc1a5a76dc346803b136b20bdb5ae ALSA: usb-audio: Bound packet copies by the PCM buffer size
+493a77a9f20fca07ca5654f61c1b03bef035df25 ALSA: ua101: Bound packet copies by the PCM buffer size
+fe3b45a0875a8b0944d2adee3ca62283d876edc0 ALSA: pcmtest: Honor the enable parameter
+8d61d55bedb7e1ee553ec3f43a9dc0feecb9da3c ALSA: hda/realtek: Extend quirk for HP Pavilion All-in-One 27-ca1xxx
+379ba557f555245eb9cb6c2a9d7a1eef704c786f ALSA: usb-audio: Skip probe-time interface setup for MSI MAG X570S ALC4080
+a09c2f3b267e47767b8937f65930567edbb88d44 ALSA: usb-audio: Add correct datainterval in the quirks-table for Microbook II
+31ce8c24dfc8210e80ff610b35e5465cf2066323 ALSA: usb-audio: add quirk for Novation UltraNova (1235:0011)
+5def91015ba7b59de62a81384572da7281b8a033 xfrm4: use a full socket for local errors
+03b47bdc9ac8e9dacbf1d66a1dfc54b328e283f2 ksmbd: use the resolved share path for the share root
+a4311e9447bbb219044db38897f95be112f46a8a ALSA: hda: Reject codec reset on ASoC (ext_ops) buses
+d1557d8324c8f757229619f96f8227f7674bdd9e ksmbd: fix SMB2 CREATE response buffer overflow in compound requests
+714f27729121d59f103ca4dad7b0c2d1c125cd71 ksmbd: fix out-of-bounds read when padding the final compound response
+55df18877471ade98ad0a1c12c95f78ba54ec5cc ASoC: qcom: sm8250: Limit RX digital gain to 0 dB
+7d357eae973a1e1933f81f55aa1b3b4e3064570f ASoC: hdac_hda: Allocate the private data at codec driver bind
+08a44bde821d4fe22c0b6e63da04b3c59ac243a8 ASoC: hdac_hda: Restore the codec device type on unbind
+f26c0d5f91d918bb66cbbc8916f41836adb38346 ASoC: hdac_hda: Balance the runtime PM disable in codec remove
+6eba74479d729ec2552185fb87eccf0aa7989715 ASoC: hdac_hda: Fix module unbind/bind via sysfs
+e32773a86100a0a6e5e4b30c50b773de34b5c6c3 ASoC: rt721: Remove invalid register defaults
+d58e7b40908a8a57755811d5b37af1df3380278f smb: client: don't resurrect an exiting tcon from cached dir workers
+51efca72345acdbedc4af76782d464bd15ba50ff smb: client: stop processing a read response after a receive error
+ddc7a7e1eeb116ccaf010a6f1fb6ab927f3f888d smb: client: validate SMB1 EA list bounds before parsing
+21b88cc8bafceee6c6c82503e3b2cc6f1d0c78bf block: fix recursive i_rwsem locking in blkdev_write_iter()
+a9b0c34507eba2b386be61fe49ab2fe0db121674 ACPI: LoongArch: Add acpi_arch_[late]_init()
+33e340160884ca61e414c237bbaef10553639457 ACPI: LoongArch: Add support for acpi_iommu_configure_id()
+e9c878f510c2e409f51602cfc8f128610f6932cd MAINTAINERS: Add entry for drivers/acpi/loongarch
+21e3af1bc639c4bd2376d155def53fe0e9ea1264 LoongArch: Set NX compat flag in PE/COFF efi header
+12782fb6dfa9746c652443a412ed55bf0e2e357c LoongArch: Use assign_bit() API where applicable
+9b56c3659a7e5d930ab3c07ea74cc46af65b6d20 LoongArch: Call cpu_final_simd() with pure_initcall()
+87c6d144bc7bbed0c4573848b9c92006edca7848 LoongArch: Don't init & online empty nodes
+244eb26bbd152896f976db6415550993cd60b46d LoongArch: Use pa_to_nid()/nid_to_addrbase() rather than hard-code
+f4eeaa783e040443cc7fd8a926c4b148e95a3356 LoongArch: Detect and expose LAMCAS feature existence
+9af0ce286fac828f37747d78990b44f34b8b29b6 LoongArch: Detect and expose DIV32 feature existence
+85cebdfee765e92e748e71b9b91889eef5988282 LoongArch: Remove arch-specific __smp_mb__{before,after}_atomic()
+23534c6efeb718e8a4d9107fa7d6707b5b1f5859 LoongArch: Remove redundant call in update_bp_registers()
+30c52672bf456decf675c11f3c65acd73a6bcca8 LoongArch: Fix bitmask corruption in update_bp_registers()
+f322ebfdfda2bce91fb1d3fb0072c735051fed85 LoongArch: Fix architectural naming typo for CSR_FWPS_SKIP
+f087903018e35d38b8932e18b010ee2e8699d1a1 LoongArch: Only send SIGTRAP signal if necessary in do_watch()
+f5c0f8427469e703465c719c4304ce91282a32eb LoongArch: Fix perf hardware breakpoint failure via installation
+5e0b00fd000a53a5428fed6c96be74019bd0ad17 LoongArch: Fix one-shot limitation for perf hardware breakpoints
+2a5ec3a553f7b23359344d52332263d5fa88aac6 LoongArch: Add arch_crash_save_vmcoreinfo() support
+67ab1a331481ef282c53003e6c041c8c4348d4cd LoongArch: BPF: Fix stack arguments for indirect trampolines
+b3e1c11698ea80c9c94e0aae042bbca6688d627f LoongArch: BPF: Clean up and decouple is32 parameter from move_imm()
+8a702989677216489e471a6f27599da53f753567 cpufreq: stats: Fix potential out-of-bounds access in deferred reset
+1faca2d1ed7d28f4156690cda43a9814e22b4460 PM: runtime: clarify pm_runtime_use_autosuspend() undo mechanism
+71537ed811107c514c0342e98902d489d6d2b7cd io_uring/net: don't retry a non-blocking connect() that fails with -EAGAIN
+486d396b19e93f6e56e0a0ba96c14a9ccc1a5977 arm64/mm: restrict transparent contpte mappings to valid PTEs
+481006fbcb22ba1f134283c017aa3ae8a67e0d59 x86_energy_perf_policy: Rewrite Linux/Android MSR path discovery
+2295613cd3713beffc8665e956135a5d48dfc208 io_uring: keep the drain active when a deferred drain request is started
+74bd795c99e4ca8c4d9b35ae7294b535f49689a3 x86_energy_perf_policy: Harden update_cpufreq_scaling_freq()
+0aaac38a0d770c9291c4c96298966a7cf73a0194 x86_energy_perf_policy: Harden with strtol()
+db2cffbc80853d2cc37159f01bc36c18958ad6c9 x86_energy_perf_policy: Cleanup: Use snprintf() for platform-profile
+0177067d195a4757149f6702af191987377c71c3 x86_energy_perf_policy: Fix optarg keyword matching
+128c6fd2afa49d01a7aa9d51fb73bfd171e77316 x86_energy_perf_policy: Harden against potential ratio overflow
+d865b3810bb1c2a0f9b92f1162f48ce547db8bae x86_energy_perf_policy: Bound package iteration
+22d8ec33a79518598594efb5178899ed841e34df x86_energy_perf_policy: Cleanup: Define HWP_WINDOW_MAX_USEC
+029db3fc5e5592982add7df05800a15cc072f5fa x86_energy_perf_policy: Cleanup: Define BCLK_MHZ
+2778dc35d40e7e84c134ca4cab1376fa58208f80 x86_energy_perf_policy: Cleanup: Check fseek() in VM path
+2d14634951b042a8fd8c2cffef3bbab94a844715 x86_energy_perf_policy: Document MSRHEADER
+8afbe9b7fa68a81e6e49a59af52a74cc37b4a2d0 x86_energy_perf_policy: Cleanup: Drop unused signal.h
+febae602a541e9ee59fe6b818c0fac700fe5ec50 x86_energy_perf_policy: Cleanup: Constify read only parameters
+d833146644272d90693066cc0a706b9933824b3e x86_energy_perf_policy: Use calloc to initialize string buffer
+5afe2d3ce2fb6a2772acacc96b1d7eb870a1cdb5 x86_energy_perf_policy: Simplify write_sysfs() return type
+5917748d81cfa3bf4e2160c431c2996bffc148ad MAINTAINERS: Add x86_energy_perf_policy
+62d7cdc8d58702feb31b320f1713642e3977d7f3 perf libdw: Optimize fallback logic for missing DWARF
+2fb45894e80d246ac6a9f0343343d581921cc3f2 perf debug: Avoid calling eprintf() in pr_debugN() when verbose < n
+98892841bdd8332c6a34654c9c45c0a9e860e2b2 perf hist: Do not delete cumulative caller entries before stat_acc decays
+022c64992af554cfd8c564bff86100fb5ed98678 perf mmap: Use the head selected by read_init
+1e826983ceef421d7047ed76581840b778294ad4 perf mmap: Preserve the consumed cursor in forward mode
+e793b6a4be3c7810c92eeeb21bfd0f03c22fcbcb perf tests mmap-basic: Only test userspace reading on supported platforms
+f322d7f7ae56bce728ba03a387e35380bc4ad939 clocksource: Prevent immediate watchdog rerun after a delay
+fe7b73c293f1a5b0b7d8a4748b4c076fa7db852c perf tests mmap-basic: Fix user rdpmc detection logic
+e0e4470aa53c0022418290fb551c21da4bd50209 perf print_insn: Include sys/types.h for ssize_t
+022b0ac5d3e87f87cb7ba42d04d0bc3ddfdd6be4 perf parse-events: Include errno.h before kernel headers
+aa0fec5853eea1eca4f0bd9fd26e0a9d25e1c109 perf pmu-events: Fix jevents.py type annotations for mypy 2.x
+4626d370ae89b8af4d46a45372b269f926ec662d perf machine: Fix NULL deref in thread__resolve_callchain_sample()
+90d91a192751cd9a7d9d2286299bc72ec1c28179 drm/amdkfd: Validate the control stack of a restored queue
+1233dd17f99c75787a31035656ecfeff80522421 drm/amdkfd: tear down KFD processes before early fini_sw on disconnect
+3254ed0b15f2fe656c9cb36ccb59b92422440bf8 drm/amdkfd: stop restore retries on device unplug
+c3fed6272bb4771a849c33c781af99afa90e90ad drm/amdgpu: guard VCE/UVD sched entity teardown on failed probe
+b456f591f925fbd6b33770d0eec1b51c2f9d41c1 drm/amd/display: take a runtime PM reference only when a CRTC turns on
+ba4c3c202919405f461a393e823e4b72c8518494 drm/amdgpu: reject CS chunks too large for kvmalloc()
+52957e813f2f025c86e4aa6e86cb4963ef94fd00 drm/amdkfd: split vram_pages of SVM ranges prefetched without a GPU mapping
+167df3b94680b8670c4cacc08af232e3bfcab5ff drm/amd/display: Initialize missing TD-LUT programming inputs
+6027db7db773714f2e05df82093276f2a52a1fba drm/amd/pm: preserve committed OD features for SMU 13.0.0/13.0.7
+af52c8fd45fbd5e3b7a329858733ac674abe539c drm/amd/pm: add zero fan stop temperature support on smu 14.0.2
+9b0890e72d19b0c430fe62bad290c7c79baa78e4 drm/amd/pm: preserve committed OD features for SMU 14.0.2
+9866cb13ba4d39aa8fed34b765d4aecabe04f02e drm/amdkfd: validate SRAT subtables before parsing
+2e0f334f5c7140b67f16eff9d93c2ca426848664 drm/amdkfd: send SMI process and VM fault events only to allowed clients
+c1584e10a7deb655438f21867b2b7a356a9aaf9f drm/amdgpu: drop the gang leader reference when freeing gang jobs
+8f3ecda0ab42fb5ba7310fe848013d3eff31b416 drm/amdkfd: evict the queues only once for CRIU PROCESS_INFO
+6a1dbb006056ad1ce6df0d6d5f2155767c20f410 drm/amdgpu: re-enable GFXOFF for compute on GFX12
+e9ddfb93fafa50f92165d2b48c7728720999b117 drm/amd/display: Poll passive DVI sinks for EDID readiness
+0d7ee3341609151ceb6071e85e102e9b1806b6dc drm/amd/display: Cap DSC bpp for USB4 DP tunnels
+fbb201890156e04b062c4488d1b500de52367684 drm/amd/display: refresh cached HDMI FreeSync state
+248b5819591c577727930e4e255a455235fab50a ksmbd: fix use-after-free after a failed durable reconnect
+a43e0718a4abed7f859a67bd7b154acf213589fa ksmbd: avoid races between named-pipe operations
+2d5c7afbb1d19f51f76c0865b4cb2e4e8347ade6 ksmbd: fix named-pipe reply loss with small output buffers
+af16ecbdf81301e88bb03e114706e0fc7c2a8e42 Merge tag 'amd-drm-next-fixes-7.4-2026-10-21' of https://gitlab.freedesktop.org/drm/amdgpu/kernel into drm-next
+fb0f0ef7b5a6bc761b372ce00764d4b6e0b91a47 fs/ntfs3: bound CreateAttribute asize against record_size in do_action
+7a5aa6c45072b54c8d97c5d54bbdf18aabf0ee6d ntfs3: release ni_lock before dir_emit in ntfs_readdir to fix deadlocks
+0311361db915406ae682a074895a5ea867122ded LoongArch: BPF: Optimize 32-bit operations using native instructions
+408216b66afd9ddadaba2dce56fd4af6793e95a2 fs/ntfs3: bound DeleteAttribute asize against rec->used in do_action
+f517cae6333121783043d9ba5142b50f5d1cf75b ntfs3: fix mapping pairs bounds check for alignment
+ec67e8d61eb40a4e69b16d8931da217352447367 fs/ntfs3: handle partial allocation in attr_data_get_block_locked()
+351817226fbf0031c4c63d1f5d7f15c3172312eb fs/ntfs3: validate the EA value length in ntfs_read_ea()
+857c06086af165087ff542b8cfa3519cd88d34bb ntfs3: add mount and log replay tracepoints
+2099db05335b5ffd64c8ad9a894a5f828e34e8ab ntfs3: add namei tracepoints
+0dca616f4667ae1ee327f0d5d5781e20e24c302e ntfs3: add create inode tracepoint
+4feafef66a0f7b071e8aea653ca441b94769296f ntfs3: add directory index tracepoints
+3bd6d6540dc62121a978f783a7e73d61ea00a007 ntfs3: add allocation tracepoints
+7f7141354bedb7f0257b119768d8c3141dcb9453 ntfs3: add iomap tracepoints
+ee1cb3443cff5a800948b662756f75b17ca63fe2 ntfs3: add file I/O tracepoints
+ed1a4f15b6b50f8cadec78e800c8cc9d35e1e25e LoongArch: dts: loongson-2k0500: Drop unsupported bus_id in DWMAC
+48b960ad7057f84a375ae7ec803ea3ba6b038b5c soc: loongson: loongson2_pm: Fix build warnings for 32BIT
+6f8d12bb1a1231dbba579932772701880745a21d soc: loongson: loongson2_guts: Use of_root instead of own reference
+03bd8f5279e490e15e0c0f0fa388ffbd2fbacd65 ksmbd: fix session reference leak on compounded SESSION_SETUP
+206fc30f71b005156085fd8523ccc84a2c67791b ksmbd: return complete and aligned stream information
+99203e8d8968def973e82bb712ea959c6a46c16e ASoC: hdac_hda: Keep runtime PM state in sync across codec remove/probe
+3b54e739273752b370e49b09976da152fa3b802c ASoC: xilinx: formatter_pcm: Fix read-modify-write of AUD_CTRL in hw_params
+635e760169a87abf03874cd4636cd91b580cb427 nvmet-rdma: reject short connection requests
+2c29f8c9b9e598c09fa50aa02200136a107f6b3f nvmet-fc: fix use-after-free in nvmet_fc_ls_create_connection()
+d1512773a0d539669440bd9f6d050b8e12923b5f nvmet-rdma: fix out-of-bounds write in nvmet_rdma_map_sgl_inline()
+94f93c61b1a5dd08d011be58172ce4392b849008 nvmet-fc: only send read data for successful commands
+12740bec646dafe009a7d9a4d22d3495ef1ea5cd nvmet: zns: reject a NUMD whose byte count wraps
+46ed7310a60029826eedb01081a4556643ed5f3b nvmet: pci-epf: report transport errors in command completions
+9fb4adbc39751697b9fcf71e45bd5d5119c3f07c nvmet: pci-epf: require SGLs to match the command data length
+2f61b9d1d54edf75a352c43eebe3804144b5d44e nvmet: prevent double-free after metadata SGL allocation failure
+9c15ab904e07a752a4c45f46a74c642900411b90 nvme-multipath: avoid size_t underflow in ANA log bounds checks
+ed75528c095bc7760a3cf34a3f3e2ec7a59eb285 nvme-pci: fix early boot hang with nvme.quirks parameter
+a47e3077fbfb4b0dd5350a79e178c22723c17bc5 nvme-pci: increase quirks_param buffer size to 256 bytes
+a563f13a54efb5662627743ef56b3d5f87ef6045 nvme-fc: fix reference leak in nvme_fc_nvme_discovery_store()
+cead6beb89256ae7145b65fbe8e8a5fedba4a47c nvmet: protect nvmet_ports_list with nvmet_config_sem
+60385038754ed9fb05dab127b35f88c702252505 nvmet: use the enabled transport when disabling a port
+557114b52c1d73f45c603337ac3465bba6667e34 nvme-rdma: fix NULL metadata_sgl dereference with T10-PI
+96da408bb4a24bf87b366b13f41c2687d3c05671 nvmet-auth: fix error handling on CHALLENGE failure
+11db8ab55e1a7533e9cfe57687ab142ba67d3c84 nvmet-fc: Tear down the association when the admin queue allocation fails
+288cfa187208cc9d0809eb8e1508658151a444dd nvme-tcp: start error recovery when read_sock fails
+12c20e2903563acfb949342967adb900310a24d4 nvme-tcp: skip TLS control records while waiting for the ICResp
+cf54a0dff38435bb3b7652872717cd02fdbac0ca nvme-tcp: fix request PDU size when header digest is enabled
+5db358f3a7f9c33717622c1597d15c4c91997b19 nvme-tcp: fix io_work priority inversion when send_mutex is held
+2eeeaa9c1ff0c429096acc2947c296db6a56f96d nvme-tcp: Validate the queue state under the queue lock in the address attribute
+e35557e41ab1c254061eb5c5f57a2aaee1fe69c4 nvme-tcp: fix NULL queue->ctrl dereference on reconnect
+18fc5f6f1ca945630dae5404265de55d65194e22 nvmet: Finish the blk plug when integrity allocation fails
+5c279fcabb0ea7ba61881c13027b15d8054b8abd nvmet: Free the old negotiation state when restarting authentication
+e3e7a85730a4b17efa1e2ff4088443c4753be683 nvmet-tcp: validate the TLS handshake timeout
+799203afd298b1f8e9ee49815eb38f775f211299 nvme-tcp: validate the TLS handshake timeout
+47c68f925062a6013235d06add85a59f7d91e0fb io_uring/io-wq: no new workers once the exit has begun
+075d5837bafc317e796548f721b8fbf7add6821d io_uring/rsrc: charge buffer arrays and nodes to memcg
+0b34e7b20a48710b6f53716bf7030920b69fdbdd io_uring: charge tctx nodes and personalities
+51bab09b7ca1a9a6dd9303a3b7ee346f8128c963 io_uring: free XArray nodes left by a failed store
+8543a39f03db8816a2d80d0c92c132a19f2afb48 io_uring/bpf-ops: clear bpf_ctx while submitting SQEs
+9f5315d3f4368590c9fe06d4313b7247470bcf15 io_uring: free the task context after a grace period
+360395e8dbf9d23579f74b84a1af11190813b0f8 io_uring/sqpoll: don't wait for the thread to exit
+cb0306c52ffae083a86fb283de67875ae7a9500e io_uring/cancel: drop sqd->lock while SQPOLL waits
+37e425460b7c41687e51e3254b1eb1d799da9614 io_uring/io-wq: save worker type before dropping its reference
+3de16279b43dc285ed2222aba06cebdc82fdb28b io_uring: defer foreign io-wq enqueues to task_work
+22d59ccad2935b7dea7f818793b739343de433a8 kdb: fix memory leak in kdb_setenv() when environment is full
+2a052074582d976bfa81e41a0337d8ae6dd1dc65 kdb: unify CMD_BUFLEN definition into kdb_private.h
+1865f1ea3b54bde68da5a68f0f56fbc1ebf69fbf kgdb: remove unreachable return in kgdb_reenter_check()
+ac0159129e2cb99a70c4b80cfbf58d03e092dc7b kgdb: Fix buffer overflow in the 'm' packet handler
+13962ef7021ef2531a4f6650eca87c363e6c9c32 kgdb: Fix buffer overflow in the 'M' and 'X' packet handlers
+9ca9e8c857b55a081d5a1f8039b27cbb4d646b49 kgdb: Fix buffer overflow in the qRcmd packet handler
+bbe41586cdfa9aeb95d24b5682ce3a0f528e9648 ASoC: imx-pcm-rpmsg: Flush pending work in hw_free
+1acb4fd2d011c4bd6cc961095ae17361c71ff61a fsverity: Explicitly require FMODE_READ to retrieve hashes
+8f8faec82aa902b1997ae578c46bcc84afbad811 fsverity: Be more careful with return value of ->get_verity_descriptor()
+28d74059fddbd8ae83c7715056b303c402071f6f fsverity: Tell LSMs about signature only after verity is enabled
+c349b233d6ab0fc3517401a1e2d36f5f90eb8c9b fsverity: Set S_VERITY only after rollback is no longer possible
+1689c80fca308978ea1c9f03d15a500f4e44e2e1 Merge tag 'kvmarm-fixes-7.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
+424bd0e98ca4f227d424c3543166a9982ca45819 nvmet: don't truncate the length of big discards
+7dd1d31e2e3124f331056d68af9a48c501b37e02 nvmet-auth: take only AUTH_Negotiate for a negotiation
+4a5ace11b5a367270bc86097d31c35cb61890a95 nvmet: fix NULL dereference of PCI endpoint targets
+ece0f4e67f08792c8572080fb0fcc231554f08ca nvmet-tcp: stop listening when a port is removed
+81ce4d9bbe8cf47d4b023e932ee29b22367545e6 nvmet: fix NULL dereference in debugfs host_traddr
+3f98ce65a87979e881343dcf082c9595ec90ddc7 nvmet-tcp: don't read a removed port at Connect time
+64e21d782020e267ca57765a30216c38b34f296d nvme-loop: don't BUG() if a scan runs beside a reset
+2b646788ee24d895b8862514e12a95ce5d72d6cc nvmet-rdma: flush nvmet-wq on module exit
+14e4e09443ac2b5cd90c1e313ee3c0bdd4928e0d nvmet-rdma: disable interrupts under rsp_wr_wait_lock
+f1dac2a2e75260d1466d9f03ccf0944d6d0449a4 nvmet-rdma: fix double puts after a failed RDMA WRITE
+89480d137bf0d943a82c64f86ae2407a15276b5e nvmet: don't clear sq->ctrl for a Connect with sqsize 0
+a2f482407d33ebe7f12e30d6cf383ffb1c7d709d irqchip/riscv-imsic: Report successful hardware retrigger
+1c16bc2b1122f78f9d51c5785f7a78b36d44972b irqchip/irq-msi-lib: Free wired MSI descriptors
+0e1daaf9b20df2125452846f768a68d8ea280adf blk-cgroup: keep the old blkg while reassociating a bio
+05ce1df3756773862c056ca8698f8ec4cdd7fe98 blk-iocost: free struct ioc after a grace period
+7d96874ba80ba7a2ab578ea9139c2af79c353b88 blk-throttle: don't truncate the cgroup v1 iops limits
+e335b853d919f2c6246ca0993115285742a2acc1 blk-cgroup: fix root io.stat byte counts on 32-bit
+4def096314cf29fb6940b74c087a0b923185580e blk-cgroup: don't free a blkg with its punt work queued
+020f61242d6ebeba5f8f2ef6e429aeffdd63f1c1 blk-iolatency: flush enable_work after going offline
+587edb931fdda032bcd63fdfb0db4ded75159ee9 blk-throttle: pass the I/O counts of a dead group on
+ac81a07a0bd5e75e8edc0eb5be563be1b2d56554 blk-throttle: make blkio.reset_stats reset I/O counts
+045cbfc369f5929ed473f7c200dc2e8146569ce5 block: don't enter reclaim under rq_qos_mutex
+4de32fd05ce9e63b492899215ea929e7d306cdab apparmor: fix NULL ctx->peer derefs in unix socket ctx updates
+a913281f600157aa036b7c02afbb18a0ac115187 apparmor: don't revalidate inherited files under files->file_lock
+460635aa3d5ddba65ee147e9f864a17d6b2665b1 Merge tag 'drm-misc-next-fixes-2026-10-23' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
+ec8cd74fcf73329ffe3b40e7a3c1afd50e6dc930 9p: fix header guard comment in acl.h
+6b18056882abf93ae3a78f67901695998efd8cee 9p: fix typos and wrong parameter docs in vfs_inode.c
+9eb9b583ea3513473c7a366dc1f17075069bb41f 9p: remove duplicated assignment in v9fs_fill_super()
+8a152d6a389a8375e272e4eb0f3447dce742bc20 9p: fix typo in file header comments
+9b4cf60c6b739461c5b4ec9c52587da6b2608786 9p/xen: validate the response size from the backend
+a3a6212c7d67baebebd0e4c2cf2ae1b75eb9231e 9p: treat read return values of 0 as EOF
+d037e9c1b40c28eb57ea10947141cad3781b91a7 9p: fix kernel-doc warning for enum p9_session_flags
+4e915aa8566173b44146bc46177c85afbe6bdf96 9p: don't decrement a server-owned zero nlink
+ff1baa01a6e1f24741f7428119e6f3a61b995604 9p: fall back to the normal open path for non-regular files
+56894cadf21c34abbba7f74b8f5d78dabf69dd39 9p: do not store the create fid on special files
+f94ed3d7cba3c83eef50b1a96d630d63cf54f69c Merge tag 'amd-drm-next-fixes-7.4-2026-10-28' of https://gitlab.freedesktop.org/drm/amdgpu/kernel into drm-next
+241d4690122658a3cdb434de4d996ef269d6244d 9p: reject RERROR/RLERROR with zero errcode
+35ecd40c0d7e4f772d00dfec9f7077315ba5ca82 9p: optimize p9_fcall struct
+f91f64a91682c07e6c5f059804e709656364e8a6 batman-adv: Close OGM aggregation before transmission
+a01c8e5b1dff1ce489e6b339139e744db36b8bb3 driver core: Limit the messages on a refused uevent
+aa6439028dc39230e62917ba0a7dafdc103564cf writeback: don't kick a missing wb for dontcache writes
+2166aaa173cd5b2f2f3bbd397469900bafa12f17 dt-bindings: rtc: Add pinctrl for S35390A
+a27b25bb9b422c8468cb6965b2d72b7b64187fd2 rtc: s35390a: Add missing newline to dev_err
+d93f29e41089bbb14637289fe77bdd72b71e9ac5 rtc: s35390a: Fix alarm not disabling
+6199051016cddba920b6023a44199c5221352c44 rtc: s35390a: Read 24-hour mode on access
+cb4e92b151141d2babd2f89e9f67599d38be3878 rtc: s35390a: Add pinctrl
+f6550426f21ec5293feddb74368be6f4e9eefac1 rtc: s35390a: Add synology quirk
+a451b6bb922ede877b141beb09c3d2eb3cc9edfe rtc: pcf85063: use devm_of_clk_add_hw_provider() for clkout
+75ba9f3a6a0bb2153a97e5d9c3d186b6c6e517af rtc: pcf85063: do not clear AIE in the interrupt handler
+09f5d9b8caafdfed36fb8115348e2cf1f1c31793 rtc: pcf85063: preserve the alarm flag in clkout register updates
+45efb584a1c0bcd6d75a239dd8ce3ca554a66cf5 rtc: pcf85063: add 1 Hz update interrupt (UIE) support
+55bb5877494d6c99898b959aa593663ce4676f4e rtc: rv3028: use sysfs_emit() instead of sprintf()
+5cf0881344cfa0a3b558107741884d8f43269d7b fork: Let nobody keep a task that may not come to life
+11ae63bd9030349a0136fb2edd1622a4a029edc8 ASoC: SOF: Intel: hda: Stop the controller before freeing its DMA buffers
+755b5c5c9277be251a51623d6065abab948c61bc ovl: do not copy up an xattr value that was never read
+e6b9117076fb4c0ff4a670efa9c876d9a50d79ab ovl: fortify ovl_copy_xattr() against underlying layer modifications
+cbec8610ec5aaf35df50094ff639febc23f20773 ovl: set OVL_WHITEOUTS before publishing the upper dir
+ba227ed05b385926094741e2d566789525c36085 ovl: add assertions in dir cache code
+e34d2ef818e4c7676d8d8e1bf43e6a1ed39efb2a ovl: check that the parents of volatile/dirty are dirs
+65bf000962a33ec9d2488e4e1797b6cf630abcbb ovl: take a snapshot of the name for copy up
+15c6bd5cf109471baca7fbe46e8f574569257a28 vfs: add try_take_dentry_name_snapshot()
+0f4a9e682f7fa5becc3af7204606d9bf4780e425 xattr: always invoke cap_convert_nscap() for security.capability writes
+0b691c3c59a58aa6a2fc3f87c10cc1e399f1d33f ovl: do not take a name snapshot in RCU walk
+4f61ff2ebfb3d2967b83b6a4d456242244d5a61f ovl: use the pinned upper dir in ovl_fix_origin()
+16d319e12328acafeafd3eecdf09c46d7fb43452 ovl: hold a reference on the parent in readdir
+f635192ad223d2009ee640b63adf5ce3198aa338 ovl: do not copy up a dentry that was removed
+2001cd7ca5560198131e46c6ca3c3472b06145c2 ovl: fix a torn path in ovl_get_redirect()
+50912a1715b8a7c614b654011a0db750e372b43e ovl: skip copy up of empty security.capability
+eb644ed5c6d9afdb1554c41cef1f39d150fbc554 ovl: read the nlink xattr of every indexed non-dir
+949f9d8a5580c77a45fa759123367682aba4d173 ovl: always encode the origin fh when index is enabled
+75e89c0055c1d7f7eeb462995f11253ca5864f79 ovl: set the revalidate flags after d_instantiate()
+aefaf9521c999206b7cd2df8435a270ea8b8112b selftests/ovl: fix detached layer mountinfo expectations
+333ad304d4794d6384087ea7fc16e58ab642809b ovl: fix mount setup failing when override_creds drops CAP_SYS_ADMIN
+a4193b4af359db84b2cdf3a040752861984c636b iomap: don't mark unwritten parts of a folio uptodate
+eb8ab8c23e71c6ae77dedc45de2a57a61558e5d5 iomap: keep large chunks from defeating the bio cap
+d4a952a954c81f123cd32f2ebba0c6c9fdd41a05 Merge patch series "iomap: fixes for short copies and integrity bio sizes"
+a65eb1808177a4381718abe563dddebf840598f9 ovl: reserve space for the casefolded name terminator
+1d27da7de3f74405b1de85ad26c5ea90f826114b ovl: check the casefold flag of directories only
+6cea839b2de04818e1b638b68993a1b94eb17081 platform: arm64: drop the vacuous THERMAL dependency from EC_ASUS_GLYMUR
+e227cdac03dffa896e02ed7260f9149c4c382715 namei: don't assert S_ISDIR on a stale rcu-walk inode
+948e604aca8af30490accf7d46d44814ffa26f80 mount: refuse setns() with a shared fs_struct again
+cebb1c2331c2af1b7f1c822ac672a7f77b54bd90 block: fix use-after-free of the disk in sync_bdevs()
+67c43ceaa29e9b904216651697adf20445b219fc block: don't lose the status of a failed flush request
+24974185999fd80b676fbe2a6c7a97bbd38aaf3a blk-mq: don't trust the cookie in blk_mq_poll()
+620cfc7a664278a55d068ed88fff1242fddc4ef2 blk-mq: keep sharing tags fairly after a queue update
+9531230ee1fcb8eca2c9cbb9bf02651cbf798842 blk-mq: don't bring back flags of a completed request
+0db9f8968a8941d4fc9fddf220d4983d9b68deaf blk-mq: don't forget a timer the driver has restarted
+035236c9e135a2ce7d0f68cb56e63d4a3da2abe1 blk-mq-dma: initialize the dma state for P2P, too
+71ec3c7d6db80737b781d2739d1325b7e39758e1 blk-mq: quiesce a queue that joins a quiesced tag set
+89a2381482d8ff8e4fe0b7d32797bb4f77503b89 blk-mq: exit the hctxs of a queue under tag_list_lock
+4fcc499ea9bc31b02393904a1903e794d146f5f7 blk-mq: set up a queue under tag_list_lock
+6c55f94317249bc195e197f6a8730c843e72ea8c block: partitions/mac: compute the sectors in 64 bits
+10b249e9b05eed0c4c65b9b89dfc2cf33d68d19a blk-mq: free the bitmaps of tags in the SRCU callback
+26edfdee11eb2afe08fb5f874edcdf0786d6b66c block: apply the segment size to the integrity buffer
+a439d3fe3ec2bfe0b4ccb77973ae97949bcf46ec drbd: stop the start_resync timer of a dying device
+bf7fff620c890a7ee0b444f1c7e9f0d1263a30ac drbd: take req_lock to skip the initial sync as peer
+d9667ade40f986c565769a900ced6ee95edd33c6 block/rnbd-srv: don't free the device on a sysfs error
+81941915d53ef3384ab4e4b68e92673e66cf66d7 block/rnbd-srv: drop the sess_dev kobject unlocked
+4912dab88baa5f7034dc9e38807804d470ae5438 rnbd-srv: fix use-after-free on two CLOSE messages
+08ebf69c78a02afb39b7728f3358c09bc4cf067d rnbd-srv: publish the sess_dev at the end of OPEN
+bf5ba73c9bdd5e872eb35e801e429a3b526f8f04 userns: don't drop the exec securebits
+9084efd0a2b49c61d588b14a9b49ac8ee5d92080 selftests/exec: check that user namespaces keep the exec securebits
+ab6558b965145923db740bf1892cd7dabdf226be Merge patch series "userns: keep the exec securebits"
+c810ee88cdab27f443c32270dc7c0eaad2cca3f8 blk-iocost: abort weight transfer on invalid donation weights
+0150554a3f38e1850d5964102eb89a720c5fe789 blk-iocost: publish hweights as one atomic value
+eeecea75ece2ba894bee4d3c53ed2e40abda8f0e proc: don't let an entry below /proc/<pid>/net be a mountpoint
+aa977f5d96745d5ce61eb2da4b121a3299004ca8 block: fix kernel-doc warnings in blk-map.c and blk-mq-dma.c
+02a336a831f02a18047bacbd49018a237af8a172 libfs: hold one mount reference for all pins
+da29ac46d34a19e8cc328ad17cb88713fd4563fa nstree: don't end listns() at an inactive namespace
+172658cf600904ff6121e240f69a0ccb36e65d6b pidfs: don't let PIDFD_GET_INFO miss a reaped task
+049760746597cfd054c181fe850531be3c1e7358 apparmor: mediate AF_UNSPEC socket disconnects
+4890a8b1a9df880dd188adb8b8e8fab107ad69d9 apparmor: check address length before reading AF_UNSPEC bind address
+33ed50716251d5b2875706c40d0c8082d46be0b1 apparmor: fix refcount leak in aa_get_newest_profile()
+1f5428b9f9bfb9dab6828015a5254dcd7c582a01 apparmor: remove unconfined_profile() check in inet socket mediation
+f7bd6285ffeb425793334f6d48ccb5035cab2fa7 apparmor: fix a leak on a rejected string table entry
+07aee062c6ecaa7199be583c83a1c74ae9885f03 apparmor: report a label allocation failure as -ENOMEM
+deb2326729eafd10dd876c6b5c3e3443e708fa3a Merge tag 'nvme-7.4-2026-10-28' of git://git.infradead.org/nvme into block-7.4
+7ccd884a5e5386f4c7d98625113f4924f70286b4 apparmor: avoid potential double free when remapping DFA tables
+0835f4909553e78a97d1ac59ed6eb776b4f78c92 zloop: remove a duplicate call to zloop_get_block_size
+5e9929e2f03c79574e76605e1a82509575db2d30 zloop: share more code for opening a zone backing file
+134ffb0755626c91af82fc7debc8b6f75f1f777e zloop: fput file after failed zone init
+0c10f8a1a7ae1502ea4ea7e13f222df89c28adf4 zloop: check that the zone backing file support ->{read,write}_iter
+e18504a4d378b4c9e1ee522ae7fc18cac8b1fc82 io_uring/napi: clean up list traversal with list_for_each_entry_safe()
+449195a4bb7d9c456c02b871eec6905edb449bd2 apparmor: fix table_size() integer overflow on 32 bit
+e667fc72f7f4a54674962c324048ca2cc58bc703 apparmor: convert duplicated dfa transitions to match_char()
+fcd621debff51f09cc665e1063a6025d7c1bfd48 apparmor: Fix the return value in split_token_from_name() kernel-doc
+afe5d5a747393cb3d00795db31d7fce5108a766a apparmor: check accept index + 1 is in bounds
+8f1f7f664c1822af34c5465f9820b4e39146786b apparmor: Fix namespace reference leak in __aa_find_or_create_ns()
+f292873ceb4bd3a1a0f75f884361cd556e457692 apparmor: fix a use-after-free in aa_lookupn_ns()
+2f764c08bb191a8c8f4051926dba0d25d195f39b apparmor: check connect permission for SCTP
+1c8b49851543f41fc8bb18bcd1f15cc93d14b530 io_uring/timeout: count cancelled timeouts in cq_timeouts
+3e3aebb7570ccdde5cc49c9bfc8fd3a436b71b0c io_uring/net: fix multishot recv length limit accounting
+7a82f9a06459ff1c37b5e97b204430442cc076e3 apparmor: fix check SCTP bind, and connect permission checks
+35b8ab3f36ac0fcd8fc910da0bed889b6c75c426 apparmor: advertise that sctp is being mediated
+d30844001360a403a511cf24fc75ecaa6a7a7544 apparmor: fix query_data() output overlapping the lookup key
+6ec46f8f1977d218bf2494ce276152b2d01424af apparmor: remove fs entries created by a failed policy load
+539436435fbe3954f98325f5ffee0b0c4057aaad lib/crypto: powerpc/poly1305: Remove BROKEN implementation
+c8c53d669d4e45b3a804013251a34387d7e11bfb blk-crypto: fix NULL deref and UAF in __blk_crypto_evict_key()
+5c140c870044af2f4b79e87b42d078cf7c318582 lib/crypto: mldsa: Check pk_len before doing pointer arithmetic
+efb621a57d7e4ce28e12082ba5692231858c4a3a lib/crypto: mldsa: Explicitly check that 'alg' is a valid value
+01ad209f122b7c173477bd60c7997564f9c65961 lib/crypto: mldsa: Add __must_check to mldsa_verify()
+97ba44a2aa4c7ab011a93ce94cb595200fe4ea4f apparmor: on failed load ensure profile files are removed before parent
+ce94927fa4173fcc1eca27bdc65a140064c8f1e6 apparmor: fix profile leak when a policy load fails
+fb7bd3a2aad70a76232a7168a505386d0a1396af Merge tag 'rust-fixes-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
+a287f97d4256b5f5527f5b5a54f8ada55e1482c7 Revert "driver core: add TAINT_FORCED_BIND for when userspace manually messes with devices and drivers"
+078e122f3bf000dd45965997b66deac10ee580fa arm64/gcs: release GCS on failed fork
+f46be4da2cbb17574b5369517a9a1e1b414063b4 selftests/arm64: GCS must not leak on a failed clone3
+1b8b67503725fa6deb3a4f00ea61f982bd00c152 Merge tag 'riscv-for-linus-7.4-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+9c7e3d59107e2daf204bf6bf87b6c448ca89defe Merge tag 'hyperv-next-signed-20261028' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+5fade975d5632280855d03699edd22c0689e3a3f Merge tag 'kgdb-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/danielt/linux
+0ff8f40110872ecd3a9918e56ddd0ff1b46fb10e Merge tag 'ntfs3_for_7.4' of https://github.com/Paragon-Software-Group/linux-ntfs3
+5838f10563d58afca6711edb5e4eda968ca181d9 seg6: fix transport header for inner IPv4 with IP options
+d89e1d186ec9271bf78e62771779e9fc03bf0fc3 Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
+ed35bbe7d06e6505401eff3f3c7a36bd1f167a17 apparmor: fix uninitialized variable warning in aa_inherit_files
+ea01fff30f631e67ee5f0a2b97855d772b3a35fc batman-adv: mcast: validate tracker padding before forwarding
+1025b76d13288a311e8259a0eefde0854fa63c41 batman-adv: tpmeter: fix u32 truncation of reported bytes
+4eb19a389d74f06901b4cd6f24b996b2e84eaefc batman-adv: dat: initialize orig_node of unfilled candidate slots
+522e4aece2e96cacbb8a6ae1eec0d4c0dd6f4fed batman-adv: fix skb leak when hard_iface is being released
+f89eda5a9ccf82cba06b085b42ebc4886b8dfe9e batman-adv: stop originator purge worker before freeing TT
+10f24f058417024a2c19cb8d88a6a0678a58a21b batman-adv: tt: only transmit local ROAM flag together with DEL
+cc2186d7854785b30d423f5d43757b086b300e55 batman-adv: tt: clear ROAM flag when re-adding a pending local client
+aff4d5d10f2dcb4a9b604e27414dafa1d51b6406 batman-adv: tt: send ROAM_ADV on each roamed back client
+c5d68abe6e7f1dbd132a602cb696fe1fff0389eb batman-adv: tt: ignore ROAM flag of received ADD changes
+ad1fd828aa3944efc393b84b0d7c02483f1b5638 batman-adv: tt: only update flags for TT events
+ed7a0dfdd370acb48be7a281df732c1bebcc7f1d batman-adv: tt: don't drop local events queued during TVLV update
+a137095419b4be0b204a11af4f1cea872ea262e9 batman-adv: tt: limit local table to single TVLV response size
+ed9179fc7228315fb745dc3b111bae446e6894d2 net: jme: keep RX MAC clock enabled for WoL
+66dfb2cacda7faae614d688943d85e75abf7f586 ipv6: raw: fix use-after-free in rawv6_send_hdrinc()
+d8a4f4c59da52b7c31ae337243b8473a19a3f819 macvlan: fix allmulti reference counting in passthru mode
+d53b5aa5cfae27e4d236fc0ab9581085d27f7d33 aio: fix NULL deref when a fault races ring truncation
+19b18e01d0361ce495be153ecce80b581086ab3f backing-file: enforce append-only and immutable backing inodes
+a290a9e5cf5fbba05d6c59b94b36d00f4fc15ef2 iov_iter: fix NULL deref in iov_iter_alignment()
+99f7d39384d6f1967f3dddf27aca47280f63d8d7 Merge patch series "fs: fixes for aio rings, backing files and iov_iter_alignment()"
+22d9db9fd64a493525d692b32c556875b7254665 io_uring/sqpoll: don't attach to a thread that is canceling
+87d02f3e98a86abf70441b0a0418e01cb1d64b44 iomap: only follow dio alignment requirement if specified
+53d72818f9e2aeb03a6053544ee6efa4eb2a3988 watch_queue: keep info_id separate from rcu_head
+c206cdfee6c037b829178bb7e17e6e37ddc9aa35 filelock: keep superblock active through delegation wait
+627cdcbc2a2eceb0452078a0c14370f9f1f17a91 backing-file: always end a queued write
+79b496ebe382866e3a05090b7dc9ae95e85e65b2 splice: avoid stale f_pos writeback on error
+c3d355f427cea70fbe31b49e21f1915dbf37f2e6 fs: let backing files inherit FMODE_NONOTIFY from the user file
+1534c37167488f2b85c74de048e1d6a4ba3848de pidfs: do not report fields that do not fit into the caller's struct
+28767d4934f04492c8179ec470e967829b1dc895 selftests/pidfd: test that fields beyond the struct size are not reported
+23584035ade3c4b9d5c7ddb2e82a1d159221c5c9 Merge patch series "pidfs: do not report fields that do not fit into the caller's struct"
+b2aa970a0a03c117306f48d75a4c3125a8cc9957 splice: retry tee() instead of returning 0 when it races
+38bf603d1ea5d5a65a9cb277df75327ffec01ff1 ucount: read the parent ucounts before dropping the rlimit count
+f3a6dae67c9ca3d913cbb42fe324c9b47c8d9e53 fs_pin: do not trust the pin after a spurious wakeup in pin_kill()
+fc9577079df8a44ccbf39d2f06634017d286e4f0 minix: reject rmdir of a directory with a corrupted link count
+81dfa035891f0502674332ee97db348a16486de0 fs: skip copy_file_range write limits when there is no data
+3a00ecc89069ea5222f6b02916e9783c6817c7c7 bpf: Allow bpf_d_path() from filp_close_sync()
+8457ca071faba9dec2dde99f78da9c5af289e955 selftests/ovl: fix detached layer mountinfo expectations
+b44341e39d856e4cc6ad8ed94ebffd440f39846c aio: avoid request count overflow in ioctx_alloc()
+82f1c815aaef1905c5c6c386c8a0d74f6ff70a54 ns: don't add init_ipc_ns and init_net without namespace support
+a522dd871024a0f065bfa7638afdb929607f58fc fs: don't fail __d_obtain_alias() for unlinked inodes
+4517b5a6c8745f244d89971dc34ec69f5a9eb3d5 Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
+67f1f9b38c15b54d257a1efc544873b53905737f Merge tag 'fbdev-for-7.4-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
+9ed11143be5ed8d9ffa36907f24f4aca889d185e Merge tag 'io_uring-7.4-20261029' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+8ebbaf8835c62d7541a6226672a6c2e8e6a5428a Merge tag 'block-7.4-20261029' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+bd5c762ac0519a8c62141751c893cd25a1ad8940 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+a4395d81eca6a94026276fe70cfb20f5a0191f1f Merge tag 'regmap-fix-v7.4-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
+2228d64da8a66b319a847c1fe0e66527b643e2c1 Merge tag 'regulator-fix-v7.4-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+abf8c33470f78e2226ee3dcdc69004660020ab47 Merge tag 'spi-fix-v7.4-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+0c8bf38058e5ac0e42246acb13f623b7962a3922 Merge tag 'vfs-7.4-rc1.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+3f971ee94fb57377f0a9d5a8d190d1d465ac6b80 Merge branches 'acpi-driver' and 'acpi-sysfs'
+8fe8e62f432f0a7a0292a328a73c6912b9a2b73b Merge tag 'ceph-for-7.4-rc1' of https://github.com/ceph/ceph-client
+018f42c9ac5fa9701fc09514ed0739ab72708331 Merge branches 'pm-cpufreq', 'pm-cpuidle', 'pm-runtime' and 'pm-sleep'
+780cb2a5fd64901444878cf5a40c0f2ec54837ce Merge tag 'loongarch-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+6e07889d8fedf729282ed14ff202e06dbb67444b Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+17fa96334e15c6b38e8d9dd3627f3a6c5ca034f8 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+4358090906b01806ee483229e8d7163b806bd116 Merge branch 'thermal-intel'
+c2373bcd50d9654b76eac585c7c98105665b3321 rtc: ds1685: arm the wake-up alarm at power-off only if an alarm is set
+21a829af60a7f5c7456f1f0ff9b6b0eff0ceb738 rtc: ds1685: do not sleep in the power-off handler
+3b6cdc36553b1fe627f782a7f5efe5ffc806faa1 rtc: ds1685: keep setting PAB until power is removed
+31ac959c915cc7f379d84cf9dadf3664cbcace02 x86/ftrace: Mark jmp mode by clearing bit 63 of trampoline address
+99681d9a384f864543ec53fdb9f25800c12cfec3 selftests/bpf: Test kprobe and fentry/fexit programs on one function
+3e4279dc5144a5afcda101df23792b13e94c3859 bpf: Fix jited line info off by the CFI preamble
+84574c7e46386255465bc518b5b8cd780063f3ef Merge tag 'batadv-net-pullrequest-20261030' of https://git.open-mesh.org/batadv
+ed6c53b27be492643da2017c6f8e2732be5edf1a sctp: account for chunk padding in sctp_init_cause()
+1cd28b5354ab77c727ed87255bf289a87178b415 bpf: Drop percpu_counter from the htab element count
+bc9a04e1e1d8931bc5bf9d96937477b8c6259f6b rtc: rv3029: use sysfs_emit() instead of sprintf()
+8d2735de39daebb862542b8f340481bf2f506e9e rtc: pcf2127: use sysfs_emit() instead of sprintf()
+946584fe01b840625ce26a5a9b91875cad009fae rtc: ep93xx: use sysfs_emit() instead of sprintf()
+187c4ed20a5636105ae88b28351fc4b730506bc0 rtc: bq32k: use sysfs_emit() instead of sprintf()
+0f3bc1c937276458786dc85aaa47142555fe6725 rtc: x1205: use sysfs_emit() instead of sprintf()
+c0b38531ddc5e5a361d8e5e8315588e856bb2924 rtc: rx8025: use sysfs_emit() instead of sprintf()
+67b3eadfb80dee4dfd56ca624f33e2ac7ed5987a rtc: ds1343: use sysfs_emit() instead of sprintf()
+edd541b0fff4e38f019f92939d97e5a604f80a23 rtc: ds1685: use sysfs_emit() instead of sprintf()
+26e2f34b862c6f8cbaab6023ccc58021bb3ac4ee rtc: isl1208: use sysfs_emit() instead of sprintf()
+42602b834325ef7b78c27f45d4cfd91bfe1b7d5f rtc: ds1307: use sysfs_emit() instead of sprintf()
+7485659ecb81d5fce3a3edf2cae9fcb29c17b1cd rtc: rs5c372: use sysfs_emit() instead of sprintf()
+8dc87fc5d6a0eb337744737008177342a708bf36 net: Use a dedicated flag to track disabled napi instances
+cb50f16f37fc3429085c454ee5978e05732d10ba net: ethernet: mtk_wed: skip ring reset in wdma_tx_ring_setup for WED v3
+7180a42d8e616f919dcff4b90a13b9a5ecea665b net: ethernet: mtk_wed: fix reset condition for rx wdma
+5b8d12512cbd3495dbd8c38e8047bb5d716f0f3f net: ethernet: mtk_wed: free up rings during detach
+dd6efae5529107cc8db277eaeaff5c5f15e6bc15 net: ethernet: mtk_wed: setup WDMA_RING_TX(0) for non-DBDC MT7986
+cd74322d83d88c8407f751cb09dbc51d0ebc5a41 Merge branch 'net-ethernet-mtk_wed-misc-fixes'
+603a0c40d414ea12509fc45f2b930449a8d4aad2 ptp: fix use-after-free in extts_fifo_show() reading tsevqs unlocked
+e3e15872e77f3feecd831eccfb753b9af916f387 Merge tag 'acpi-7.4-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+0e4a135aebc7686286d87e286499ce55e5bd5aad ptp: drain virtual clock sysfs operations before unregistering children
+3dea778260e3dddf30651a6913d87a42861346a2 ptp: unwind partially completed virtual clock creation
+d1bdfdafd663dd00b01d43eb3391f87718f2a09d ptp: vclock: propagate physical clock sampling errors
+d3fcce5afe3bb62e8f7a2efb29e43da4fe4ae1f3 ptp: vclock: serialize extended samples with counter updates
+63787dfd1b5ae720cc30dab5e66c8e4d81ff7391 ptp: vclock: preserve missing hardware timestamps
+7b29287b182fc50518e9e65c41f86d24a05b7205 Merge branch 'ptp-make-virtual-clock-sampling-and-teardown-failure-safe'
+7306ea08c00efaf6406281bd113f7d657be2e6c8 Merge tag 'pm-7.4-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+162cf592b577cccf04515100563e819d9eba5c4a net/smc: fix limit_smc_hs sysctl on big-endian architecture
+a9547379cb381e2a036e3261a6becc17973ac470 Merge tag 'thermal-7.4-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+69eac8481741b1474eac7c459768c94bb94430e1 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
+51b4bf5fe7c90ebf08599b9a3c7620b4a3fd4b22 Merge tag 'cifs-fixes-7.4-rc1' of https://git.manguebit.org/linux
+b92f6e90cf056ec80bafb858d5749829a55ac75e Merge tag 'drm-next-2026-10-31' of https://gitlab.freedesktop.org/drm/kernel
+453ebbefe2e504057cdcd0e422ba39ed8b99434f Merge tag 'ktest-v7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-ktest
+e823910506ff3a34fb2966a9ecccc4019b2154dd Merge tag 'kbuild-fixes-7.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
+960994f5d1883b6a293f66a886cf2e42be7b8669 xprtrdma: fix up the nfs/nfs-anna merge of the Write chunk head trim
+1ea806165ec5fb8bca5d9990392fdb4f53a97977 fuse: fix link error with CONFIG_FUSE_PASSTHROUGH=n
+aba9df180668b4c0b1e021980f3bff9ad502d26c selftests/fuse: add the missing symlink caching test
+ac1bf565f140154ee27db56c80f29c9eeb9a77c3 Merge branch 'fixes-from-sasha'
+2a500a04d6f969318c05f46aedb6e73fc1963a00 Merge tag 'driver-core-7.4-rc1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
+0a0257228be902ff09608bcaf19ae7c6d58b028f tipc: reject attaching bearer of different media to the same occupied device
+cb284914e749388eef402938bdb3115fe1f6d337 net: ipa: Fix double free of the interrupt structure on config error
+60aba79a50127e92d8c4a663d35b855e52a9da01 Merge tag 'apparmor-pr-2026-10-29' of git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
+dd384658c738d15783a786d3af2851e02490f171 Merge tag 'perf-tools-for-v7.4-1-2026-10-30' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools-next
+36aad21d50d1af3f6954bb0c988257a908202477 Merge tag 'ksmbd-for-7.4-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/smb
+278b2abf660a3e0991eb9f16f11bd9e9514a286d init/bootconfig: pass init arguments in documented order
+74f6055d0c5997b13e6a5253fdc2263f3af90408 Merge tag 'asoc-fix-v7.4-merge-window' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+ab6e94fb4a25278ab84ccc390f37719d13ad86f8 tools/power turbostat: Fix --Joules when used with --show power
+3d6fc92be1feb6436932979e4652174467e7a42a tools/power turbostat: Fix undefined behavior in pmt_gen_value_mask()
+cfdb43387f3e6144bc374165ebf6deecb0324470 tools/power turbostat: Fix PMT mmap size and bounds check
+a8d65a89a31fd5a04709f002feaf847602904950 tools/power turbostat: Version 2026.10.31
+ed9324befbded16f66840327f981e508091eab3e tools/power x86_energy_perf_policy: Version 2026.10.31
+8969e647d0322939512041b9685cc5f27753dd8c Merge branches 'turbostat' and 'x86_energy_perf_policy' into utilities
+ca62fc8c6b1841039aee6de1ef03c9863751ec04 Merge tag 'ovl-fixes-7.3' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
+e9954f3fbddd25e1a01b7e5a0b72fb8b564204e0 Merge tag 'sound-fix-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+23503acb214cbefaf3945d05ab9667ff11ae3de9 bpf: Fix skb_pull() BUG in __bpf_redirect_neigh()
+bcd07fd1673beb873e2bee2731e4ef4d716e70c7 bpf, sockmap: Fix psock update-side data races on sk->sk_prot and progs
+cbbddb6b08cc9900a87cccaa9b22bbe06aa4f50a Merge tag 'power-utilities-2026.10.31' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
+696f0954e3b6280aa87ea4a6196153e506b0ab9c bpf: Fix bpf_dynptr_copy() for overlapping ranges in one packet
+8f92b56d228d8fa4d372f7b410c1ced1e92eb664 selftests/bpf: Test overlapping dynptr copies on xdp frags
+5b96632457e4ccae88ecb751cf48176b2e3629a7 Merge branch 'bpf-fix-overlapping-copies-in-bpf_dynptr_copy'
+b327e63683a2b894b500027375342c25222b58ef sched/cputime: Don't warn when the tick period starts after idle exit
+9b6f2eabc8371dea951c244f4aa9e013f36de9f8 Merge tag 'rtc-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
+cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+65cac1217004da03c3d2418bd7a7fda038117809 Merge tag 'irq-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+7a3d2740d1b1b5ed8d22e1e5430de3b5046cf6a9 Merge tag 'timers-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
+6b828a87a63a29bc6b4a597e3a920e2b19c8274e scripts/coccinelle: Add script for using ARRAY_END()
+14be5faa8be7cebb559c91a41d48545c0b1faa16 scripts/coccinelle: improve efficiency of array_end.cocci
+afb17ae1dbf7464cacb8b8e2f8efaf8f7dc7b1b3 coccinelle: Add devm_kmalloc_objs conversion script
+7af2a51f19ca828750701054ee130cfb094706e6 coccinelle: free: add a checker for `__cleanup(kfree)` usage
+88e2c896d8598a49da1e01f27ce23acd5dc04b32 bpf: Keep the valid bytes of a packet pointer in scalar evolution
+61f833f968fecbaa4fd98881d7213d972dc01717 selftests/bpf: Test the valid bytes of a packet pointer in a counted loop
+a620922325d5e8d14c3020792730c2e4327a315f Merge branch 'bpf-keep-the-valid-bytes-of-a-packet-pointer-in-scalar-evolution'
+91068ed2d3ee0713d7566c7977b995f8a0936bea bpf, x86: Fix bpf_throw() in a prog with a private stack
+6cc0cf0a6fb087f1979dfad5c1e13a41e57f55d7 selftests/bpf: Test bpf_throw() in a prog with a private stack
+1d55411e8b677c67de7a20618d95dc114796de26 Merge branch 'bpf-x86-fix-bpf_throw-in-a-prog-with-a-private-stack'
+007fd460798be9af7d4874734f934afa47742f29 bpf: Clamp the trace length in __bpf_get_stack() again
+a08ba2ab79dffd92c32d3f2dadfc7eba03625a2b bpf: Clamp the trace length before the skip test in stackid_init()
+ca580b034380fa9a69cc973637d1859ec4f5b344 bpf: Refuse to map an arena at address 0
+52498f14c2d26d67a9bf06998b797900827a06ad bpf: Don't let bpf_arena_free_pages() see a half-set user range
+1e01345b87f13c354687360cb81ed2a521ff2b13 bpf: Refuse an arena mmap() longer than max_entries pages
+15dedd4b259289bffb8a5485b81722fdaebac71a bpf: Remove the WARN from arena_get_unmapped_area()
+14d3e5bf9ffeb367151b09a0b550d72141b6650d selftests/bpf: Test the length and the address of an arena mmap()
+f89ebf07496b041cb21beda60ec3452fecf34d10 bpf: Reject memory for kfunc projection type args
+07684726d39e56c1c800d3b3e51915fb0975a46d bpf: Don't turn struct arguments of KF_ACQUIRE kfuncs into memory
+ed02b9cc1d377d03da2507c3a858f0874aef7494 bpf: Don't turn kfunc arguments of an empty struct type into memory
+faea3cda41d3deb4f28e7970c556896b1aa8bd76 bpf: Compare the arguments of an extension with those of its target
+9abda4d8fc0eb44553ee5c4dcdb5ad77deb01aaf selftests/bpf: Test the arguments of an extension prog
+2962329f7c86fc51c177d4049c0f15a95ebd270c bpf: Require prog fd or capability for cgroup detach
+3f9780d62dd1112ca15b5ae73568d29d42ccc950 bpf, cgroup: Keep the skb network offset signed
+6d8118937ba477e03fa2e94e9bd9abac7291a2a2 bpf: Don't let bpf_skb_adjust_room() raise gso_size to GSO_BY_FRAGS
+58e39f8d58b141b96c030008a20dde9d625ec997 bpf: Reject non-IPv6 packets in BPF_LWT_ENCAP_SEG6
+c1ca06e48e8848743fd876a1dc6b0f57bc76d23e bpf: Set a dst for test runs of lwt_in progs
+ac159f39b252971141c49b68a27de0b637debfad bpf: Limit the SRH length in bpf_lwt_seg6_adjust_srh()
+45bcc58d576705d2c001332766e10313f1c55bad bpf: Don't look for the SRH again in the End.BPF helpers
+0fcb3f11a93d740e7f9ae1aeb48fe4d25838be18 bpf: Move the MAC header in bpf_lwt_seg6_adjust_srh()
+701ffd202b9e32942c8cfc065c9fe76ceaccc302 bpf: Don't leave a stale MAC header in bpf_lwt_push_ip_encap()
+b3ad42f6183286ab376389a5d26edf7ee3bdba27 bpf: Reset skb->cb after an lwt prog pushes an IP header
+d9618a6196953718f7470de5d2e84121bed063f7 bpf: Require BPF_LWT_REROUTE when an lwt_in prog changes the protocol
+95f1d5e4abb79fe85a54f7a46b41f297ce533c31 bpf: Don't let lwt_in progs call into IPv6 when it is disabled
+a9d08fe60fa728ce0e3a99085241e8e790fb14c6 bpf: Move the transport header with the moved headers
+33be492c2e239de8c525254e593357ae5e80852d bpf: Use the inner transport header after a decap
+ee36c9aa44ef300cd651074bd97552b229337f85 bpf: Check the offset in bpf_skb_generic_{push,pop}()
+714b7112017fc7f8b2afabccf562acdb12d2ea7d Merge branch 'bpf-fixes-for-the-verifier-arena-skb-and-lwt-helpers'
+e094fd05defaf0b05774ea1c65fc2d0ab798c809 firmware: coreboot: Don't skip CBMEM entries outside of known memory
+2433db2af8e1482a3a50b8cefaf25cf7e4a9374d firmware: coreboot: Fix CFR error-pointer handling warning
+5e96760b25fdedbbf9312827f1f237d6b18b03e8 bpf: lwt: Free the skb when bpf_xmit() fails to expand the headroom
+c4ba1716853de5178a9df785844ebb5e397a80e6 net: atl1c: drop oversized RX frames instead of panicking
+10f51f4fb99de99c64b9d35707f05fa0308f25ff net: wwan: mhi_wwan_ctrl: send a DTR drop before it can be coalesced
+902407bc588575af0ceae5de4f635fe1e024f258 net/mlx5: macsec: free struct mlx5_fs_id after an RCU grace period
+af449230bd8de936d6e4f759240e787b9aad7cc0 bnxt_en: Don't keep MSI-X vectors added before FW reserves them
+23fec4bd76904e9df7a8cc0a81ceb14c36971da4 ipv6: fix fib6 walker UAF on NLM_F_REPLACE
+031c403d13e5046750e2abebd4e770631e7c4627 tcp: do not let tcp_collapse() drive sk_forward_alloc negative
+68b2aa37afa390f08de13bc0bac61a9ded3318bc mm/mempolicy: charge shared policy nodes
+968d73463059156e1b89bfa6b189acd7d27197b2 tmpfs: keep the quota soft limits of an unused id
+d5d861ee303da01e59fdf8e8b2f7096c76e7efd5 tmpfs: preserve explicitly disabled quota limits
+0237c47ca17005ea41b510c6116f0257dbf84eab mm/shmem: honour F_SEAL_EXEC when an ACL is set
+b7f570e7cea761ec7eb4a3a9557a3a082d14e88c hugetlbfs: enforce F_SEAL_EXEC in setattr
+8f59173b5ca358bf4d1017b44da3cbe6faa80daf mm/shmem: hold off eviction in shmem_writeout()
+a842a1f947da8a7020e72f885ffbf2ce6a93685f mm/shmem: stop retrying folios that cannot be split
+0c800435394a172f33bf4df4a5a04e187546cc9b mm/shmem: preserve data in clean folios when splitting fails
+23f2a880c0b9518fcb7e7e2ad54a29c0a2c4fba0 mm/shmem: discard whole new large folios on fallocate rollback
+f0d67b3d0a464847337d5063766d55e16041323e mm/shmem: rescan after nonuniform folio splitting
+fa213b08f37f9dff78ce240a87579dc264fc7a5d mm/shmem: fix truncate hang in large swap entry
+f4ce23b1feef16d435aa1188b6c2a637a5373ed5 mm/shmem: preserve allocation errors when swapping in large entries
+5f1ec2cf92a7d655a8eb39711987822f9b1f9d67 mm/shmem: fix truncate loop after boundary swapin failure
+66ce68a249f4ac56cd6968aa6d8ded20fb4b7d09 mm/shmem: fix accounting of swapin-error markers
+59511d630a6942356ac4b6984797998a8f3a9017 mm/shmem: fix truncation of files containing only swapin-error markers
+65a9bf08a3e4d6e58df211ed900c16bafb79b267 mm/mglru: don't use stack pointers when walking PUD and PMD tables
+ef694e2d210111cc08c52fd25da9ab130170bfa3 fork: take mmap_lock before copying mm_struct
+d3710111839d11339e414b1bb3fea3d05ab83f6e mm/shmem: make shmem_file() check the file's inode
+5426cd43a4d28f1041c9ca45955121b921f29548 mm/memfd: make f_pos accesses atomic
+9cf632e139737314afa889ca18122bc3fddb9120 mm/truncate: look again if a folio left the mapping
+dc24e273244e9d712257d5a6c20a32c7f5ca84e6 mm/filemap: read mapping->a_ops->free_folio under i_lock
+8ccb6ded6a47b59b4907ed4f8c293cf8122de889 mm/filemap: don't lose a folio lock wakeup to a signal
+97156a6c355c21f7122421915f05461bd11699a4 mm/filemap: finish fault cleanup before dropping the fault lock
+f3c493d2f42b5f44a5c134d8d7ea7f960caf5e2c mm/rmap: handle device-exclusive entries in folio_referenced_one()
+f09171b67ea06a7fe425db33e8b74a92de1426b9 mm/huge_memory: fix list corruption when deferred_split_scan() races with deferred_split_folio()
+d90bdc02e36ec08d8248ebc6cdc52e12043eb28c mm/huge_memory: properly handle refcounted PUD mappings on fork
+26219e9402c22181f021034f127a8e278d40545f net: stmmac: take ownership of saved RX state at poll entry
+834ec95308320cbd8c162d86788ab95cc3fd6bf8 net: stmmac: drop split frames on AF_XDP zero-copy RX
+52ffd771e0029c5ad0504b1b4a8b7f932b65eea3 net: stmmac: drop multi-buffer frames in XDP mode
+41d78e9ac0984f0e9577e5312e62400b5a6760c8 net: stmmac: copy XDP metadata in AF_XDP zero-copy RX
+68bdbffcae08699af5c16f7a2ec61a5489b78dbe net: stmmac: fix VLAN tag stripping on short and non-linear RX frames
+363ff816277d4c7064514b160e655bed1dfb3ed8 net: stmmac: fix XDP RX buffer DMA sync length
+21f57ec673a1917547c808cfa81890485fffa03b Merge branch 'net-stmmac-xdp-path-fixes'
+086aeca907789bd2604f16f07bfc073b19015015 platform/x86: uniwill-laptop: Implement .hw_offloaded trigger callback
+263a5514cb9535380734b5e300b298f82570eb57 net: lan966x: don't free XDP buffers in fdma tx clear with budget 0
+1f1f8e8c5176234fa31858cd25f2e9b88aac0a45 cipso: fix optlen corruption in cipso_v4_delopt()
+21d4917cfc8b6837c44d8aa186941a6a16ec17a0 sfc: ptp: drop the stale frequency reset in efx_ptp_start()
+f707347b33feebdd67633bccea52f96807c18d6e sfc: ptp: serialize host and MC synchronization transactions
+23d23e6c6517d0fea4f64340a23e33c89f82c03c sfc: ptp: avoid racing PPS timestamp updates
+631c3b1859809decbdb3bd96226b59efd1004389 Merge branch 'sfc-fix-ptp-synchronization-races'
+62b0a9b11e94a4bc7f67c89348d0619cba82b54b virtio-spi: Fix virtio_spi_config kernel-doc
+d7825623a9d4452f97da7ea0d84b2967d507ccf9 virtio_ring: reset IN_ORDER state in virtqueue_init()
+8517ed4429a2eefd002dce00ea46e23e6714350b vdpa_sim: serialize IOTLB updates with dataplane access
+acbf36deb53d9e14e4768bf58883795a8232aa5b vdpa: invalidate DMA mappings before releasing memory
+a9a428115b7d8aa45e12e41899f90f60551bfa82 vhost-scsi: preserve event ordering
+a016d03a9cfe29aeeba438f32f8e8f63291e3275 vhost-scsi: do not relock event vq mutex on send_evt fallback
+fe812fd89636f30adf77147e168ec8240ae345c1 vhost/vringh: Fix IOTLB permission in putu16_iotlb()
+bfcde6b64769bc168037b8bd882de4def4b2b3f4 vhost: fix dirty logging for in-order used ring entries
+104d58a6d2592898fbb6989732600b07d543a8e5 virtio_pci: add missing newline to the pmcsr error message
+1f8824fe7f6eaaf2355404db08d3cd05a28aa576 vdpa: fix double free of the reply skb in vdpa_nl_cmd_dev_config_get_doit()
+b179f21d2d8a60ede29a00472bffdefb0284ef39 vhost: reject invalid IOTLB update permissions
+fd1462c96bafe2cb14e88c837b270f8990b717b5 vhost-vdpa: fix pinned page leak in vhost_vdpa_pa_map() error path
+73d135601d3b533985a65748c0278ba3cfe48290 vhost-vdpa: unpin mappings by range
+c9c1c1b7b31fc8b9a5d6c04f5f0ae647d081a39d vhost-vdpa: drop the parent's vq callback before the call fd is released
+434d2bc41bd0c0ac576d4d259bd9f2ab49071174 virtio-blk: clamp max_segments to virtqueue ring size
+cf0a5805d43236e308f14188f9737ddcf83fb53a vduse: avoid infinite loop when no affinity CPU is online
+f898439ace7f89922e853b43bcbfcd26ea2e0a98 vringh: bound top-level re-entry into indirect tables
+8689ee3842daf24cd886b75cc8bd3c55e7d02199 vringh: add regression test for cyclic indirect descriptor
+f4f6e9a9cb349003d333f0776de94f12ac95b8d2 virtio_blk: Reset device on probe error paths after DRIVER_OK
+60a792b97933a686316737838cd007d27963011e vringh: reject empty / undersized indirect descriptor tables
+2d02191779345b13de91048db441191b20264d16 veth: keep carrier off when resizing channels with a down peer
+c1f04ea0aa0f8799a303dc412b3a4820f2aedfe5 selftests: net: check veth carrier after changing channel counts
+873363ac591a1774aa3ced84f7ea3d93a3eb9b07 net: sparx5/lan969x: release the in-flight slot of a stale TX skb
+f38bce9af9e2a3cced7d303a1476f21c1f42bcb7 net/iucv: take a private, writable frame before rewriting it in place
+5eab1e7f7ed12893f3864fe46ffcd5a41a752d6a hwmon: (sht15) Stop deferred work before releasing its resources
+e2c26431b4e47892378582a414b4bbaa9edf1798 hwmon: (corsair-cpro) Cache fan target only after a successful command
+cf8f81babd2e96087dedbb74985bc1781c98f73d hwmon: (aquacomputer_d5next) reject short status reports
+d4f272230f0b18b59fbbd1c4b5ef357aba01a4d2 hwmon: (pmbus/core) Register the thermal sensors with a 0-based index
+743b4481b6112d8ac11c165628daa8e0f0ecf78c hwmon: (asus_rog_ryujin) Fix pump control source on the Ryujin III
+d1f60971fbf85c243ab6c78f6535fbc88fa640ce hwmon: (gpd-fan) Reset both fans to automatic on duo boards
+d0a03e1a2d9bd53b94fe6dff7a1a8058d25be82d hwmon: chipcap2: fix command error diagnostics
+4c0e65a4ed665c416ccb1524c58a646a580e491f hwmon: chipcap2: fix off-by-one in command mode retry loop
+36b07ddfe20b0fe06a8bc32c5e09974876fb5e42 hwmon: chipcap2: fix be16 handling
+b5a1412618f93b594f924cf4f3b4bb6b5dc49d41 hwmon: chipcap2: defer probe when IRQs are unavailable
+d2a66c515d7730fd453485ffb306c412f1f46d72 hwmon: chipcap2: fix IRQ teardown ordering
+4724ac5556ce63f01a3f5d61fc7fcc20f4ddef3f hwmon: chipcap2: disable device after hwmon teardown
+d1ce827a9cc11ffdfec77b7fec9b73a8020a308d hwmon: chipcap2: enable IRQ processing when regulator is already enabled
+378add65fd7d352de9fe440d167fde5bf511b090 hwmon: chipcap2: balance regulator state
+22aecf164e1c0c849808c342c65322d14f45176f hwmon: chipcap2: do not discard pending alarms on disable
+bed5f0c075eb99442fca6a61c009a32752eceda2 hwmon: chipcap2: serialize access to the alarm indicators
+8c02722be2caa6604a837b81faeaba78250eda4a hwmon: chipcap2: synchronize ready IRQ state
+b7743c6dbe3ab94045164ef298f65cfb9b0b450a hwmon: (aquacomputer_d5next) Check maxcollection when probing AQUAERO devices
+59d586c9e47d1205563bc9b5a5d443adc3ba5bc5 hwmon: (asus_wmi_sensors) Avoid global struct mutation
+dc992efeace99e479aec7a8f0c49a9493c729606 hwmon: (hp-wmi-sensors) Avoid global struct mutation
+185039b1c0389b70ec52a6d3e3c1494e2d0e23da hwmon: (hp-wmi-sensors) Fix unbounded loops in scale_numeric_sensor()
+5b51ff0887b9f88d042b92dd07fcdda4132f0ebc hwmon: (lm87) Fix drvdata type confusion in vrm_show() and vrm_store()
+c4a01c2a80b203ab5f80885f6994346fe217f19c hwmon: (nct6683) Fix incorrect struct cast in show_pwm() and store_pwm()
+61bc4514b8e99e9733c04de028885f6fc906d628 hwmon: (peci/dimmtemp) Fix devres leak and UAF on concurrent unbind
+a5802c587da97a4ff85c04aad6043fa26640fc9b hwmon: (pmbus/q54sj108a2) Add missing NULL pointer check
+11dfbd835b17b75f7cc7a4a969f33ff702b1b081 hwmon: (pmbus) Check return value from pmbus_thermal_add_sensor()
+9aa6cc563e881c3cad96ea36926cadceee151f32 hwmon: (pmbus) Release devres allocated memory after devm_thermal_of_zone_register error
+4fc79634af8cdf734e0a633923ba4817e30d29ad hwmon: (pmbus) Fix return value check from thermal zone registration
+3897309ede38d7f3ff34c4c4583b1dd345666988 hwmon: (lm75) Fix setting polarity mask for chips with 16-bit config register
+7cd60538073e465310c94b2a2f0ea8d2f03768ef hwmon: (tmp108) Fix initial conversion delay and wait until ready
+f324179e6ccd05dfdc8e98fba2e9d50aea8e7ea2 hwmon: (gpio-fan) Update the speed cache before dropping the PM reference
+0f9c7ed3b5009a037e5533eac03a0d4d45ecf1f0 hwmon: (coretemp) Check for NULL platform device in hotplug callbacks
+95638f1f05ced75a82e83f610cd01b636d2a21b1 hwmon: (coretemp) Set nr_cores only after core_data allocation succeeds
+9a6aa085c94c7f2817c4d50a7264e6fb51286f40 hwmon: (coretemp) Fix 32-bit jiffies wraparound in show_temp()
+1a30ea0be623b7443edb6adc79e07632418cefdc hwmon: (sht4x) Convert update_interval to jiffies in pending data check
+c221091f7e30c64280e4cbfa27dc4c05edc96d0c hwmon: (aquacomputer_d5next) Avoid truncating scaled sensor readings
+d1cf56164dc25c2c54853b23eab42369f53c8329 net: phy: don't require RTNL to detach a PHY from an unregistered netdev
+743b5c86276b1c3241e6f0f395b55f98f0756ef0 net: qrtr: announce local services again once our HELLO is sent
+98caed39c1db002b2c34b8040ab765c5fa9c6675 net: stmmac: initialize est_lock at probe time
+e4f5b46dfb8ac27a822fa0b411bd4526abf5ba97 net: stmmac: pass the desired EST enable state to est_configure()
+23d96de472f735858a7dd227c77aebff21ea09f5 net: stmmac: re-apply taprio offload in __stmmac_open() and stmmac_resume()
+e55f9e70b8ae6fc01550343e43874f59784dc5c7 Merge branch 'net-stmmac-re-apply-taprio-offload-in-__stmmac_open-and-stmmac_resume'
+7308ef8b4a6779a39f68d053c19b53a5c584a663 vxlan: Stop rejecting dynamic FDB entries with a nexthop ID
+92b5ce3ca5b7c641e2678f92419aa7833951bc9d bpf: Don't move a MAP_FIXED address in arena_get_unmapped_area()
+c08b50dd174a1dadb67f215239664c9096a5c4bd selftests/bpf: Run arena_mmap serially and test MAP_FIXED addresses
+03b013897454064e0a2d84a8ba9a24753eb02f2b Merge branch 'bpf-follow-ups-for-the-arena-mmap-fixes'
+053621535f014085c935879582dd3b65964a0dce KVM: nSVM: Check validity of vmcs01 save area copied from SMRAM on RSM
+b2691b3a6cd230209736c89684dab90d939aa56b KVM: x86/mmu: Conditionally resched when retrying gPTE walk on A/D update failure
+ae85ac25eb671d174811cc3101549448671fd505 KVM: x86: Conditionally resched when restarting REP string emulation
+c33ef9d334059f7cb167569ed7b4779752fe4425 KVM: nVMX: Process each host MSR entry at most once when unwinding failed VM-Entry
+e4558c3d7198ed9a0adc3304681f561f4e4d80e1 KVM: x86/mmu: Cap number of parent PTEs per SP at 1000 (the arbitrary rmap limit)
+c7c288d178cb0b78d3464a616b16b1aa0b316049 KVM: x86: Unconditionally reset MMU context when emulating INIT
+0cb8f16f88337a8c995d333e74c8c5b4f1d8abc2 KVM: x86: Flush guest TLB when emulating a RESET to strictly honor the spec
+6185d4fc6e64439cad415d9bf527f8ffb3fa3db4 bpf: Fix the join of fp+0 with a value that is not a pointer to stack
+27f0738d348c386e59c7ed147abdc9b91711f97d selftests/bpf: Test the join of fp+0 with a value that is not a pointer to stack
+cdefba74b53fb9b482355ebde1654800aea45dae bpf: Don't trust pointers spilled in slots that a callee can write
+c9a45b2ede01b02b3e4dd95231c038511812eef7 selftests/bpf: Test a callee that overwrites a spilled pointer of its caller
+8ed2506a7c2712142e4ee37bc82f018741cf4b9c Merge branch 'bpf-fix-two-holes-in-the-analysis-of-stack-arguments'
+d21eef2084a9af87ac2a783bc7c2b175ba114e4e KVM: VMX: Add array_index_nospec() to evmcs_field_offset()
+51f6627d44f3b0e070f33187aa5192d6f8484be9 bpf: Invalidate a dynptr slice when its stack buffer is written
+c820e6f70d12db780018234da79fe0c20d785052 selftests/bpf: Test writes to the buffer of bpf_dynptr_slice_rdwr()
+29f85bba33ff515e2c084450ec4b1ccc53550d5d Merge branch 'bpf-fix-the-stack-buffer-that-bpf_dynptr_slice_rdwr-returns'
+3ae20e4697eb969104fe4b1e98a675f0100382b6 inet: frags: limit the truesize of a reassembly queue
+c3e67bd82b9b9b1a5118f09a429ccefe2aab0741 ipv6: reject wrapped temporary address preferred lifetimes
+fb1baa000d7a0b597ab9eb29b179b03e70e5f6ee Bluetooth: hci_sync: Fix invalid Supervision_Timeout in LE Set Default Rate
+f0cf5a24cefeb629876bd15d668ff062c8655e28 Bluetooth: hci_core: Initialize IRK before publication
+ae9c8df1ffb84560ac01cbdc26cfb19027f4d25f Bluetooth: hci_core: Initialize link key before publication
+4335849380aa1081ee9a1c2b934cbdda0961fa57 Bluetooth: hci_core: Initialize LTK before publication
+737139f4157d302292a6b937d96922879ecabfa3 Bluetooth: hci_sync: re-enable legacy advertising on resume
+56ed6b127a27c418dc2daa3fd076539d8fe69c4c Bluetooth: hci_sync: pause advertising for the scan address update
+19b4e5701712f74d005cc66a36374559e8dfd281 Bluetooth: hci_core: Fix queuing rx_work while workqueue is drained
+f92b7bca985205082c86140d0bd7c86c5be00efc Bluetooth: btintel: fix buffer over-read in fw payload
+f5cd268af1c6f87fb3847e98274e22b8c6324aa4 Bluetooth: hci_event: Clear explicit connect state on LE connection
+1eebde8ecede18e351ccf438f17b53d3b62a75a9 Bluetooth: hci_core: Convert hci_conn flags to a bitmap
+5d005ded2cb14531c4d4ab5d02383407c75dbee6 Bluetooth: L2CAP: Hold incoming data until encryption key size is known
+e24bfbc5e20711dafa0cdc2b3325c69de1cff068 Bluetooth: hci_sync: Update the CIS host feature when enabling LE
+8524c3588fbb9d5c1b876e6f908c42926845650d Bluetooth: btmtk: drop zero-length ISO packets from endpoint padding
+d015faf684129a276f2137ad2e11c6c985294648 Bluetooth: btmtk: bound the ISO payload length by the controller's MTU
+855c9a54608f1e94f4c52afe3790def30534155a Bluetooth: btmtk: derive the firmware ISO setting from MTK_ISO_THRESHOLD
+674006912777747170ad70d7727804ad4f2d047f Bluetooth: hci_sync: Copy the LE accept list under hdev->lock
+f05bd61a3213613de7848c8df2865492d5225023 Bluetooth: hci_sync: Protect resolving-list lookups
+7eac80614300563470cffabf4df2b63616787ee7 Bluetooth: MGMT: Return RFKILLED for Set Powered on a blocked controller
+5b7d0386a4e75c85479da0fbd9fd66a3e9201375 Bluetooth: qca: Fix the WCN3950 NVM baud rate offset
+3b70dd827b27bfadd89e7b1a2d422b04da38797c Bluetooth: btmtk: fix error handling in btmtk_usb_isointf_init()
+281ddc4e01ab54cab07995f2a1b72cf81bf90eb5 Bluetooth: hci_core: Keep link-key filtering inside RCU
+ebc4f217c1fbe8364b5ef2ad8e3a8e9a1b2701a7 Bluetooth: SMP: Protect link keys during LTK derivation
+add463a65802bb117e4a17b8c00d747fa70399fc Bluetooth: SMP: Protect LTK encryption with RCU
+9ff737119177a6c1ce6083ef8c0fc06355f11869 Bluetooth: hci_sync: Copy the resolving-list IRK under RCU
+d90f24dc389b9a7524aaac109021d1530fa180f0 Bluetooth: MGMT: Clear disabled connection parameters when loading none
+a9f9eeb5344fc7dc625e5700ccf09891bc2603b5 Bluetooth: L2CAP: Ignore connection responses with wrong ident
+a7c5c18b7cc30dcd2a9ae5a0fb38378d3998417e Bluetooth: hci_core: Initialize advertising RPA work only once
+1eb52f35fc8fb06ab7f2973fff29cba81f96b947 Bluetooth: validate retained LE Create CIS command length
+ed4d302af778b9e2ead28134a2196c09a4ad248a Bluetooth: validate retained LE Set CIG Parameters command length
+60b10121db602a43ada3dbc39792bbf93d25991b Bluetooth: MGMT: Fix discovery stuck after a failed Stop Discovery
+1ddffb57b36239e84b8224b12e34b87f6031b29c bpf: Emit timed may_goto for JITed progs only
+fcda8096dc5d9cabe86a5bab7fa514d01b5011a7 selftests/bpf: Don't cast a pointer to .bss in arena_htab_asm
+40a3a2e686f8c749bb6420ace8190c49f712217e selftests/bpf: Give the first loop of cond_break5 an end
+5eced83779fd60cfa2a1a86fd89d282d02d40d05 selftests/bpf: End the loop of parallel_test_bitmap after 50 ms
+85b6a11252ba7f9631eedcbc6744c6450e6ae8c7 s390/bpf: Support internal-only MOV instruction to resolve per-CPU addrs
+78821f4d8d1836c6cb9a21a780092906fc82ee09 bpf: Pass a pointer to arch_bpf_timed_may_goto()
+ec274bb4665c2f0e42316d0f9e4ac9f63cda9c1d bpf: One may_goto time slice per prog invocation
+c16c6c4683cc57dd2736750da12e04f1f74a45e1 bpf: End bpf_loop() when the time of may_goto is up
+9d8affd7b6f57c5cce7f7255db4506d0428ee4af selftests/bpf: Test one may_goto time slice per prog invocation
+c5973f3067ee4128a3b601d19477f90fd19b20eb Merge branch 'bpf-one-may_goto-time-slice-per-prog-invocation'
+fdda033f7fb5f96f016240ecb1746cd4fc454d9f selftests/bpf: Fix callback recursion test with noipa global func
+d537252cc8a53b6ed6a3e7d0d895cb1cdd3ba42c bpf: Propagate scalar precision through stack arguments
+68851f7d3e2054d5d435449850cb4a97d2003e7d selftests/bpf: Exercise stack argument precision on state reuse
+38bce81d4743902bef4bf6914f67d15d337c60b5 Merge branch 'bpf-fix-stack-argument-precision-propagation'
+9abe2c42ecab6c86b54838d2d645ca2e10204606 libbpf: Fix use-after-free in btf__add_type
+b2e7a7bbc127534b73936a505237f08758552252 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
+508d578642f08a3ffde7631c454497bd5a735941 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+a4da531b171c664a6cf42c5b82d1610cbdf14fe4 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+854e5ff8b3ce2a776586cabebaeae645c992345b mm/khugepaged: flush deferred unmaps before dropping a failed folio
+f681d4580d5c3c749f623cda722a21aefd3147b3 mm: fix address wraparound when scanning large folio PTEs
+243cf1f67b365668389832463fc31cbb9fec47af mm: memory: fix truncation removing mapped folios
+9597c2056e05bd79df9d343a9b42e84a54de1c52 mm/page-writeback: avoid 32-bit overflow in dirty threshold shares
+332c1bd17422c1aa59e18513042e56ea5aac4051 selftests/mm: merge: keep the far mremap() targets in the carveout
+83367658a01087375ede31ae343c99da03f72ac8 mm/page_alloc: let the highest memory node recover from hopeless state
+dfb190302d2b4af86c6ae48af0d3b09f28b35460 mm/hugetlb: fix mremap move length truncation
+809cbe72ace890f75a9b126eb6a8b533081666d8 mm/hugetlb: disable PMD sharing for UFFD missing mode
+92daa8652f88c8cfc05f4899a8408a04b02f211e mm/hugetlb: fix mremap deadlock when PMD sharing is possible
+b6732c6d43139ea56de8bc62e87ace8543ef784f mm/page_alloc: mark pages freed by __free_pages_core() as not tagged
+8146c6478224d8f6395c6b08a19c344a56d79867 mm/vma: fix expansion of VMA_MIXEDMAP_BIT VMAs
+13fc99f46399c9d38d1b54ecf0a3f387ba04d05d mm: do not unintentionally overwrite atomic VMA flags
+769417e410dd19b2a438c6addb61b194b7a4c387 mm/vma: write lock source VMA before duplicating it in __split_vma()
+652f15be3c11415725694ccea317c51e35c0b582 mm/madvise: preserve VMA_SOFTDIRTY_BIT when changing anonymous names
+c386d799f423685952138cab8d89f0331825bdee mm/vma: avoid losing atomic VMA flags when setting sticky VMA flags
+2efc6332f18bfd848f74f3d5ba45b31450601faa mm/ksm: keep soft-dirty when merging a page
+bfc1d9724c78aa7570dbeb17207a21089f2d1b1a fs/proc/task_mmu: return -ENOTTY for unknown pagemap ioctls
+a76adcace3550b16e5735ba4a5e95a9c2664e113 mm/damon/sysfs-schemes: hold damon_sysfs_lock in target_metric_store()
+26ae50a0901a44f7d50053f87dc38abd9f9a269c mm/damon/core: move static variable last_nr_regions to damon_ctx
+c4ff3ea30640b394df4156d7ddf60ad8ffe765f1 mm/damon/core: move static variable rotation to damon_ctx
+740128dd1a3f2bd81a80314d079b6b03c39ba3af mm: make swapoff interruptible when unusing mms/shmem
+7d8746d7dc9cc4003661011424e5880ea7ae364b mm/migrate: untag addresses when querying page nodes
+990d6c2194a938a19a8cf94c6cfd75171345089b mm/ksm: fix userfaultfd protection during merge and unmerge
+fe623a81ad9eddf10059b4e44bca0440d9120613 mm/migrate: snapshot the source nid before the misplaced migration
+168ed9c5d5ec2fd326715eba5750c2b69e559ff3 mm/vma: update VMA iterator state on error in new VMA merge
+1b8fd9a23501bffefa3304ff36f4674b26838c67 selftests/mm: fix khugepaged_race build with older glibc
+ee1afc5539b6fe03569a5855b6041b13343b0993 fs/proc/task_mmu: fix missed VMAs when reading /proc/PID/maps and friends
+0120a603afadba8ab4954bb1ce60f8195f80efc8 mm/hugetlb_vmemmap: map the shared tail page writable
+6ee3d87b940848aaed5d4e8d005c5f674bf2637a mm: page_alloc: do not give all non-blocking requests reserve access
+fe21f930d1e64d121191673076fc4ebe79fc82d5 mm: page_alloc: remove ALLOC_NON_BLOCK from ALLOC_RESERVES
+0e05a469c29400eb6e35448ce7318581688a1806 mm/page_alloc: avoid direct reclaim and compaction for costly __GFP_NORETRY allocations
+5d002001601a163b6c3500cdc098ff66c34f62d8 mm/cma: accept memory of multi-range CMA areas
+f8f9cbc34a309a388c052706f3329d1b52985aa3 mm/cma: accept memory of CMA areas reserved at a fixed address
+dd94d8c7660a60dbfcd425e0d10120de6d02a7bd mm: memcontrol: fix NULL pointer deref and UAF from high_work_func() on dying memcg
+c4948eb28f0ff505d21e520c4354e7486249e862 MAINTAINERS: mention for-next branch in MEMORY MANAGEMENT - MEMORY MAP
+bf2b6c47af60b3ed31b5d74c61fd52c0b79d6ff3 MAINTAINERS: TMPFS (SHMEM FILESYSTEM) updates
+afa77645c9deb01595de58fd90acc91017c41754 MAINTAINERS: add Zi Yan as co-maintainer for MEMORY MANAGEMENT - THP
+3504810144b22c9beb0a992601465b6ba1bc1db3 MAINTAINERS: sort entries in MM sections
+a32c741897afc5a18d7ae0e2f1767768d6312ae6 MAINTAINERS: add missing files to MM component sections
+d6503586227ed145d72c8e69be0a6e35044636b4 MAINTAINERS: rename and move MEMORY HOT(UN)PLUG
+4e8a639c281b3cc6a8b1f2c3885a07b0648791c8 MAINTAINERS: route more MM changes through mm/core.git
+a1836d0d6f76b024ef4457424647b98cf88baf67 MAINTAINERS: add Johannes as the page allocator co-maintainer
+19eab4cf787c917bfb7615460933e4ae894af65b MAINTAINERS: move SLAB ALLOCATOR under MEMORY MANAGEMENT
+3af83c11cf5990fda0bfe3959aa6391ff903ffdd lib/base64: silence clang-24 -Wconstant-conversion with diag pragmas
+8ff981aa283a0ce516c2dc65a48a185ed336c657 openrisc: export __mulsi3 for modules
+0a8f258c0f012314c36b9e4818cdc0178c68f891 ocfs2/heartbeat: serialize concurrent writes to a region's dev attribute
+f48151da595e74efdc23d83d8d6d142207b8c731 ocfs2: read the xattr entry hash before defragmenting the bucket
+9a40c050f58344615a0604701b5d299519833163 ocfs2: find the xattr entry again after defragmenting a bucket
+9c191a7a44882487e291e09f095d2ae4d7cca146 ocfs2: find the xattr entry again after converting a block to a bucket
+e8de099f2958c84aa23186c5481e69f7ffd39355 ocfs2: do not read the entry array of an empty xattr bucket
+7133a0d0954c109f1764ebf8ab32d7e757a6c587 ocfs2: do not index before the entry array when dividing an empty bucket
+cd7c3563a98fe8c984463d83772e518cb7e68356 ocfs2: do not read the entry array of an empty xattr block
+4bdfe8dd2342f9c2bdc3b788699164ebe21d9126 fat: preallocate space before expanding in fat_cont_expand()
+7b90009546f5d3f3ac9428040cd7ffbdfd60f2eb fat: hold truncate_lock in fat_write_failed()
+84db6619cb702c37cf848b450c21b9c9706b0775 ocfs2: validate move extents against a stable EOF
+fe626e8c60e1330d55f173a6ce34f010fe64eccf MAINTAINERS: add an IPC entry
+7e7022849e1c3d0a2a8659d01d23390d630e780a MAINTAINERS: mailmap: use Clément Léger's linux.dev mail address
+5bdef466851e39ba752634cbea68e5ea24ccfb24 ocfs2: keep locking_state within the cluster connection lifetime
+723982e7052e65c3b31e8e8c815ffaf2ecfeaa8f panic: zero the dynamically allocated taint buffer
+61469249aab03799b0d3294b7a0cd25dd303017a ocfs2/dlm: serialize migration MLE cleanup on failure
+126429e2f503ade63502978beb0c519066442250 ocfs2: stop recovery before shutting down local allocators
+0988f0c0c7c908f0ff77fd8b90ce9918a1f41479 ocfs2/cluster: unlink socket containers before releasing resources
+6cd4c2736c659397bd6c6d9e3cffd8211afcb60b fat: fix parent link count when replacing a sibling directory
+a25c02af29c3e95128e4343fceb4bdace8e480a0 ocfs2: wait for filecheck kobject release after a failed add
+5b4696e0bfc358619adaeab25ad35b4979af8331 ocfs2: cache the mount context for dentry lock callbacks
+684603842b78f75835d21fdf5c19ae717ed8eb1a net: mana: Add support to process throttled EQEs
+750eb5ab457e62e221a9c8521e2274f14c85b387 mctp i3c: Fix locking in an error path
+c8848b2ca6e6620b56afafba7dd4367e98b049c0 eth: fbnic: Report the logical RX queue to XDP
+213d491308b99d026514c93980cf8dd572226b1b soreuseport: annotate data-races around reuse->socks[] and num_socks
+2e54b3e187300893688c2c7517894f5d96732e05 net/sched: sch_qfq: prevent aggregate self-replacement
+01c3a5fa6d641c93c7cef4fb25c5f12938316e18 vhost-scsi: zero misaligned I/O bounce pages
+e244725e86be02cd85cb878b3ed8570eba2e4be1 vhost: fix used ring index wrap in vhost_add_used_n_in_order
+1f8efac19a0870cdfdf8477e447e5a07ddce9623 iommu/virtio: Reset device before deleting virtqueues on probe failure
+f41f153d49b4c18172ec61b69ba934c36e1be745 vdpa/snet: Don't discard the DPU error in snet_send_ctrl_msg()
+1f5bc40e33d8b3e5e3b89047956099b0c19f1d3d vhost-scsi: do not count PI bytes in the data length
+64e45ed926cdd017c9816c8006d9117a7194c7e9 xfrm: iptfs: fix skb leak on error in __input_process_payload()
+f56daaadfecae1f760d0fb34385b256d3af68970 docs: netdev: try to force agents to disclose info for fixes
+03d36763291edfb285f08185f4ffda83360ba7ee Merge tag 'for-net-2026-11-02' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+b3427f41f831adecc8ffd89afc9d30c279115658 Merge tag 'ipsec-2026-11-02' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
+3d8c5b714c186d08c8fe8c8cfd1f9b89525ab067 vhost-scsi: validate event queue descriptor direction
+e498eb93f961db1a1dfdabd373500f0d4019c9a4 virtio_ring: use shadow flags when detaching split descriptors
+a543346b96a174fcee6812ac2764acc8dc993358 vhost-scsi: reject delayed virtqueue setup
+509f6bd229e94fc39506e01be692c4aa22338b49 vhost: reject backend enable without a kick file
+4b03d1e7f13613af708441a061556de99891a516 vhost-vdpa: initialize state before publishing cdev
+7a2609bcb8b223443696e8cddd7ab91831e015eb MAINTAINERS: add missing virtio/vdpa/vduse/vhost headers
+161aa708b02cc997a51701c342f3cebade0b5164 virtio_balloon: initialize wakeup_lock before virtqueues are set up
+57c1c0d172b4bab5be7d44166c405d54db70a200 virtio: use consistent virtqueue terminology
+0f7bf47f5a0cc26320aa4b14f4504d03a07f4b74 hwrng: virtio - prevent use-after-free after a failed restore
+bb2e6f166547838fd7c320b01c90918b736f76e2 vduse: fix VA/PA confusion in the coherent page fault path
+058fc59326af3350c6e830858e56d2aeecabe0a2 vhost-scsi: fix page reference leak in misaligned I/O fallback
+92368f4fb8ff40b87faa4acf1775720ffaf5749d virtio_ring: Initialize id field in packed indirect descriptors
+1a577f9402c1780cc1e663f48d5dd54c02051b09 virtio_pci: don't take the MSI mutex under cpu_hotplug_lock
+c0ef6144b4d60afb90bc6d8db3ffdac043cd6ffc vsock: reject negative tv_usec in SO_VM_SOCKETS_CONNECT_TIMEOUT
+4e2b3ef19e0e04adca38442f07dd6bc93c712bf1 inet: reject unhashed sockets during established lookups
+5b5d8f351dd96f56a58bb516a80e2d4d742fe4e2 net: restore refcount ordering for lockless socket access
+7b1fd973214de07b83468a1363856f048aa2d80a Merge branch 'inet-fix-lockless-ehash-walk-races'
+647b81ddefc6364290e67bf33c89d54971f8995e tcp: wait for TIME_WAIT teardown before freeing per-netns ehash
+51628610f9187c1c1cfe499d92e066bc22ad9693 vfs: fix take_dentry_name_snapshot() semantics
+7d1471e50943196f909674d2d22eb4196c7df48e Merge tag '9p-for-7.4-rc2' of https://github.com/martinetd/linux
+05441d697f7f9a927264f4058cbbc6a03dfcac9d Merge tag 'cocci-7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
+321dcb9ae937c4c537020d12a0ef0cace5157dcc hwmon: (acpi_power_meter) Fix missing locking in sysfs show callbacks and resume
+847ec34ec2ad5a317f1aa254781dded9e7b5faa9 hwmon: (acpi_power_meter) Prevent spurious power alarm when power is unknown
+fe23bad2156f1d5f0df8ae4a79ee590b79efc13a hwmon: (acpi_power_meter) Check for 32-bit and 64-bit unknown ACPI values
+0fce44e29fce4b07642491b098afb41bd571e4f2 can: dev: can_dropped_invalid_skb: drop CAN XL frames on non-CAN XL devices
+933bf0fcb325e67b19c86c9c4da7f029878d5170 can: isotp: check the frame type, not just the length
+d743071964920c92af598c87a9e6f4369263ee09 can: skb: make echo skb freeing safe in any IRQ context
+d4b616a38118e81cfb206babd052db260d7abf6c can: skb: make CAN skb allocation failure paths IRQ-safe
+b4ebcbbf66ba6c5816dfe229effb4641c46e4b4c can: dev: can_put_echo_skb(): free skb on invalid echo index
+962947b69589881167054bae5accc8abfd5aa4b6 can: replace ARPHRD_CAN type checks with can_get_ml_priv()
+874f5f14cf626f72477071eff381c8485554250d can: isotp: check the return values of can_rx_register() in isotp_bind()
+0f3ad9ab40e3dad06d5c0693806e07935ceedbc3 can: protect the receive lists with a per-device lock
+43c973a0887d3d7b2ee0a446603c97bf0f38c58e can: raw, isotp: copy socket options outside of lock_sock()
+12297f855bbd943847cb8893a3614caef5a9c2a8 can: proc: reset pkg_stats atomics individually
+01b19ed9fa031a649f3dd103ebe6e0102602e542 can: proc: skip stats calculation after reset in can_stat_update()
+b98179a6e1948c87539f77b387ac785beb5802c6 can: proc: remove pointers from CAN specific proc output
+d3592ab8a1911ea25b6efa3d5b85def73c69f060 Merge patch series "can: skb: make echo skb freeing safe in any IRQ context"
+493719574532a0630d4a9debd5ce01a8a3fd570d Merge patch series "can: protect the receive lists with a per-device lock"
+75332c410c8190d61499001c5516af977ca426c3 can: dev: can_fill_info(): don't wake up controller if interface is down
+f5128a76726105f398d7ee70ee523dd4f68d62f4 can: dev: can_tdc_fill_info(): don't read automatic TDCV if interface is down
+54195bf371997d9c858f28b697450bbbfb8006d8 Merge patch series "can: dev: can_fill_info(): don't wake up controller if interface is down"
+2d4c272e816a5b784f1fc7899256f8826df34edb can: peak_usb: pcan_usb_fd_decode_buf(): accept short uCAN end-of-list records
+e6a07d29b0a60f3a4cfe77fe34eeb4b3fb38d6c4 mm/huge_memory: fix truncate racing with PMD zapping
+63a940541358d09cc9f02d40b71eb8d3917a21c0 mm/huge_memory: fix zapping migration entries for device-private THPs
+aa72cf34d90da7019591ab67533a8ece8b41da2d mm/khugepaged: always recheck the pmd in try_collapse_pte_mapped_thp()
+db38b902307e687219ec765ef51a6ef459746c87 mm/khugepaged: fix PMD table lock leak in try_collapse_pte_mapped_thp()
+fe2817e3d5ea347214342c9a5cd8bcbff20c0574 mm/khugepaged: preserve dirty bits when collapsing PTE-mapped THPs
+79cb51d538abc459f74e046d27797d36b133ce0e mm/gup: recheck the PUD under PTL in follow_pud_mask()
+c83ee2fa5a94edb2e04102b9dd4f1ee0eeb2b932 mm/gup: fix clearing folios in memfd_pin_folios()
+1dfe4b276c23189394afb42d114ee8a54cc3aff2 mm/gup: fix out-of-bounds write for nr_pages == 0 in GUP-fast
+21a3888d3d2f87b7f15ccea1f0befd57346fe899 mm/gup: check for overflow when converting nr_pages to bytes in GUP-fast
+35f7ecd55ce7e51cb6d5ef49e6dd51f3c80f61e4 mm/userfaultfd: write-lock the VMA before waking waiters when unregistering
+3afb19d68cc5e7851fdb1069c8094af97bd80417 mm/userfaultfd: wake all waiters on unregister
+4eee9c389b072e161549d46dcb1ae10b0222717e mm/userfaultfd: wake waiters when registration modes are removed
+05f64f211a25f7d9771d4fde109aad97174a1cf3 mm/userfaultfd: compare exact registration modes before skipping
+64ae7959a1df8af8eec504e31df2ec9670424a4e mm/mmu_gather: fix flushing ranges with 4 GiB or larger
+6d65925777ecae9d7a571a327e41c63f3940a0c7 mm/mmu_notifier: finish non-blocking interval invalidation on error
+5ad9e4b0f1104f5dbfb41125c34bb30ea6dc7a94 mm/mmu_notifier: set ->mm only after mmgrab()
+b4417d08034a7b4a3083e0e2d95429d4542524f2 mm/mremap: use pudp_huge_get_and_clear() when moving huge PUDs
+402882943dfa8bab5c2bcc66189f9fb2828f248e mm/mremap: recheck PUDs under the page table lock
+440c8779757f09f290770b1d361dc1516a9d0b3e mm/mremap: fix moving PUD leaves
+22d043c1da48d6c7274f9dd900714b6d58b7b9c6 mm/madvise: fix data loss from MADV_FREE on a KSM page
+8db6921cc07b74197a3866d62ed262b68aeadcf3 mm/memory: reject remote COW faults on PFN mappings
+7a81bc23dade8082187be6d9cc36e4be4b7207e2 mm: fix unmap_mapping_range() beyond 4 GiB on 32-bit
+9f02ca8c15a74bc9e4e8e05ec089f63cb87cbf75 mm: fix unkillable fault loop on MAP_DROPPABLE memory
+d03df42ddae196f20e9cfb775704e60269eb6b44 mm: fix deadlock of mremap() against UFFDIO_MOVE
+890e118e95bfc2aae4432ec2a95192d6f9193211 mm/ksm: reset the unstable trees of all nodes
+4c2dec1dce368ad9e9b1814307cb5ef3832fa07e mm/ksm: fix use of a freed anon_vma at swap-in
+7f2c000ffb1047b476cbf267f741272c389d3e31 mm/ksm: check large swap-cache folios before mapping them
+0193e83368022a308d19ee0293f55a4f5d548e40 mm/vma: call ->may_split() before a partial merge
+23e570927421d569fdc510d5f3f29542a43eeda5 mm/huge_memory: split huge PUDs when adjusting VMA boundaries
+b1ee87802111156e27557e82acc31fa7dfc76e2a mm/vma: don't leak the charge for stack growth
+e8abc61d8a549a91c8fa639f68be2ef13d5fa63b mm/cma: don't release CMA pages still in use
+500624f28eca441e35f978979ccfb373202fefd3 mm/memory-tiers: unregister empty tiers outside memory_tier_lock
+466d6844c8f19fba16b668b49861bdb8d7ded282 mm/huge_memory: set the mmu_gather page size in zap_huge_pud()
+eadce52a9ef657d561b3e76c9b5f178bd99735f5 khugepaged: fix readahead lock inversion in collapse_file()
+71555ae8c7572fd99158013ca2e29187c5d2508d mm/gup: check folio->mapping under folio lock in memfd_pin_folios()
+e6b96b76d7074ae64f0d37d880794c71d3ce277e hwmon: (hp-wmi-sensors) Serialize alarm flag read-and-clear with state->lock
+3362cb822ea750399a15b741713181fd8560bd17 net: dsa: b53: Enable IGMP and MLD control packet CPU copies
+34cc22a9ce6ae0228dcd09a57df23aea62e22b04 net: ethernet: mediatek: preserve sibling PPE bindings
+bc53aab4881adc134f495092034e9e7c0791d84c ipv6: fix device binding after failed datagram connect
+f19f2b308beb158d0e6f6eb806ced636e4ebf6ce net/sched: clamp skb->queue_mapping before indexing the tx queue
+787268686c64be60023743b527645a907e38ccca ipmr, ip6mr: queue netlink route queries out of band
+3f1054a0cb09552dd54db024694f74747f9f1d49 net: ethernet: ti: am65-cpts: adjust perout genf following ptp changes
+241dec6f9ab74d8c3ef246764f3611666b96b9e1 net: stop defer_count outliving the deferred-free list
+35d2d6e5ac0d22428b2a0216061f3330c095393c net: reject a negative TCP header offset in qdisc_pkt_len_segs_init()
+11140c51df12e594d6bf2c8d2af5dec63b0219ac tcp: Fix dup-ack detection on non-SACK bidirectional data transfer.
+c4328134f3f7c2ce141121a8f82a5ec0cc8a709c Merge tag 'wireless-2026-11-02' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+24614e72df484ad50ecba98aaa88c7df2448c122 net: skbuff: reject zero MPLS TTL before decrementing
+d5e912448cd98b261eba8e35ab838f2dc69a79f5 vhost/vsock: size receive SKBs from declared payload
+9401b428b5d4dfe1fd5752973fd02b4e9cd05536 ipv6: Flush exception route while replacing nexthop.
+a0fe1a3f390a75152c7395fdf63fc39da77d7838 ipv6: Flush rt->from in rt6_uncached_list_flush_dev().
+4019af3afd72864ec6abbfde2d76e416a64456c2 ipv4: Call rt_add_uncached_list() if !do_cache in ip_route_input_slow().
+58fa96691c1b63bce27b58f32d2b490e89441d5e Merge branch 'ip-fix-route-leak-and-unregister_netdevice-stuck'
+8e069fd3fd396b89af417e50b359bc9892dd41cd tcp: ipv6: do not read ireq->pktopts from tcp_v6_send_synack()
+e395bbf3ddf1b3175fd3bddaead63a2909b33694 hwmon: (asus_rog_ryujin) Fix timeout when reading 0% duty cycle
+6d2cf411aba2aa0bd641b49be5b1964ac5097a50 mptcp: do not use Fast Open on MP_JOIN subflows
+03897066069fd47caf2908183edf3b22b822ea73 tipc: raise the minimum bearer MTU to fit tunnel and crypto overhead
+a75facf4bb3e866103ddca4f47a6f3ca4b090d8b l2tp: only return sessions of the given tunnel in l2tp_session_get()
+d4f3d2c04624854d27aa948cd7bfc9d946faaac5 net: ethernet: bgmac: preserve forced 2.5 Gbps link speed
+41af38324341df9d769641d6485abb67fd5209ed net: dsa: b53: restore the NSP IMP port 2 Gbps mode
+6baae996ecf6a3f57b08ea6f6786e29af9260f51 Merge branch 'fix-tcp-retransmissions-on-ns-nsp-socs'
+6c1c41effa342a94221e5d92c2a5aae8fe7d1c04 Merge tag 'linux-can-fixes-for-7.4-20261103' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+8288ba942cfd20621c05e16978b7c3da91513ae1 net/smc: don't spin in smc_rx_recvmsg() while a pipe holds spliced data
+547b1ae5ec50b7d81b05b4219e0db7e56279d65f net: 8139cp: keep Rx masked while NAPI is scheduled
+c4e4056b21355356f6a95bcdf03a850edd9f49e7 net: count last skb of each sk_backlog pass in __release_sock()
+6887a8f98244ba4c0fbe2d2461b9b8f8a300e326 net: ethernet: ti: am65-cpsw-nuss: Enable timestamping of unicast PTP packets
+9a65b9c2a97594bcaaf393329807653eff895bbf bonding: 3ad: don't set BOND_LINK_FAIL on a slave that is not up
+c6b41de4dd9f2d6856d8d8d292348f7961034152 ip6mr: Serialize multicast router socket ownership
+a76ab5e733b41dede6f238a691eefb4374f99f79 bonding: fix missing down path on speed/duplex failure after FAIL->UP
+6d9b7c85af57305ec2bd5907124478867edcc60b net: stmmac: set XDP metadata length on the page_pool RX path
+37dfd0efbfffc20a57e41c2eb349ac49b1ca1ff8 net: bridge: disable MRP ports before the FDB flush in del_nbp()
+57889a8f6d49fc153aa0017d13086ab736567f8a tcp: initialize send sequence numbers before deferring TFO
+49b09ae0bf57b4230187d4cdd0a370558e44a6e8 mptcp: pm: kernel: use RCU to free endpoint listeners
+fafbc4051123d5459ea6950899cec08ed946e278 tcp: ipv6: free ireq->ipv6_opt after an RCU grace period
+afd661f6a26438c407bd9928ea16e80c14b121d9 Merge tag 'mm-hotfixes-stable-2026-11-04-20-02' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+46a062865b6b6b9a2ba199101b44feb925455c66 Merge tag 'mm-nonmm-hotfixes-stable-2026-11-04-20-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+d68ce4e71248e1ff5af9654b407541d9260b3ba5 Merge tag 'mm-core-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/mm/core
+69e2b55fc3b4fa3639b8c320374c255f046ddda5 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+3e516eae690b3f24c19168cc0fe605e1c610eb21 Merge tag 'hwmon-for-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+eedaa7d61f1ec8ae053a9ece0d553785350ac486 Merge tag 'chrome-platform-firmware-fixes-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
+2d2200551ccc3b9e444aecb59c4b53287e169266 Merge tag 'platform-drivers-x86-v7.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+f66469d9905b39d2c260a15d7d6db450f4db67c1 Merge tag 'net-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+6584acd42820478910a771efb28a355a707e9cb0 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+7020a2766440490160ab069adaed87a9877219cf psp: Check pas->tx.spi in psp_sk_overhead().
+3c6e29760c13a134b23ec414861ede7d350bc2de tcp: Subtract psp_sk_overhead() in __tcp_mtu_to_mss() and tcp_mss_to_mtu().
+11d4f8e2b6e6db652f29e5251ab6ae3215917cdb Merge branch 'tcp-let-non-psp-and-psp-share-mtu-and-advmss'
+3ff59dd75d71343ea4e80d5c983f755a91f5879e ipv6: restrict gc_elasticity to 31
+26627b7bf8cdc1098c11a227ac58b642b9c22901 ipv4: fix shift-out-of-bounds in ip_rt_send_redirect()
+6d6bdc1b943ccee6eacf7b5c9aa23670101b18da ipv6: restrict mld_qrv to 255
+0bc7b5b2985f222dae92c840de3bf6a9787588bb ipv4: restrict igmp_qrv to 255
+75f5722df2b4cda2613f40ae560226af19573931 net: restrict message_cost and message_burst to non-negative values
+dc3016e9ec4452e0b67fddff604b3bee03cb9b75 Merge branch 'net-fix-misc-signed-overflows-caused-by-bad-sysctl-values'
+bb67589c87249c9bc2415ab11a754d6e303774e3 net: stmmac: selftests: Add missing endianness conversions
+13df9cc6fc0bcc59cda2385d474ee2792c040ca9 net: Shrink skc_reuse:4 to 2 bits.
+a4b93564a9548ee740dd77f1ecafeb1ea62cfac0 octeontx2-pf: fix XDP frames freed as skbs on interface down
+61270b859fb59e10716220b2780f624ace5df866 ipv6: treat a negative optlen as 4 in do_ipv6_getsockopt()
+6de30bde94b38adcf22e59e066ed4019c5a6b0b9 net: cap sockopt_expand_out() at MAX_RW_COUNT
+11762c7f2191a283a301c1f9b5ab1df865b5e04a ipv6: mcast: convert ip6_mc_msfget() to sockopt_t
+d845b553c6dc9b97d9843e77e214306da46fb376 ipv4: igmp: convert ip_mc_gsfget() to sockopt_t
+67582bdf534932293d72170ee7c1d32ea906c5e1 ipv4: convert do_ip_getsockopt() to sockopt_t
+52f243f4ff04a69b077e2dc16e875559d1e73833 ipv6: convert do_ipv6_getsockopt() to sockopt_t
+47e7aaf680a4db45ebcfe9af71f4435c3433ff91 selftests: net: getsockopt_iter: cover ip and ipv6
+d5ef4b64b59da74d0ac426c15a0abf59b5cc154d Merge branch 'ipv4-ipv6-convert-the-getsockopt-switches-to-sockopt_t'
+f356e90de854a6c11fe0b7911921b5f05e894281 net/packet: account user-triggered allocations to memcg
+944f5b9f00f7f28468057a42e82020c0597b2207 devlink: param: do not dereference a missing param item
+0e729906cfee705d87ef1bb75252a30b4e5c4681 devlink: sb: do not dereference a missing shared buffer
+f5034a8349a3778571b1f57ff2cac7ed06e286d9 Merge branch 'devlink-do-not-dereference-a-missing-param-item-or-shared-buffer'
+fc0f285bc1914c9dd7a2eb12611f1904d2505771 ibmvnic: Change system_long_wq with system_dfl_long_wq
+d2ed709ff1e5e6ef87631fcd1c6623fbc60a1e2c net: ti: icssg-stats: Move long delayed work on system_dfl_long_wq
+12e337d448d178ab6b23f6611cdb3a7b7f990190 net: ti: icssg-prueth: Move long delayed work on system_dfl_long_wq
+2adb5e4c7b4036277fe92a3d6ad2d4c772c21a49 net: thunderbolt: Move long delayed work on system_dfl_long_wq
+733d1775cab0addb4cf556577751848f3541d5d1 net: usb: pegasus: Move long delayed work on system_dfl_long_wq
+b3fcb84fdba4c77233b9d76672d276dedc96bed2 net: usb: r8152: Move long delayed work on system_dfl_long_wq
+ab10d92fdef42589fcffba2db6d5bb6a543f762f Merge branch 'net-move-system_long_wq-to-system_dfl_long_wq'
+1134247a3ae52bff845e4a8007c4455db35d84aa net: usb: lan78xx: fix error handling in lan78xx_open()
+f94b9640bcf22b5e53079baa96c5cb52227d04f8 netconsole: finish enabling the target before releasing RTNL
+3733db02b88e95b794a84e35d4a03c1a454799a0 netconsole: read np.dev under target_list_lock in local_mac_show()
+6891cd19875293232ba9aa21ee92a065e0e7086a netconsole: recheck device registration after waiting for carrier
+a2b4d25e4ddf778e498b0b268966ee6a7a82c622 netconsole: stop waiting for carrier once the device is unregistered
+c862104c35275acde0df26a20811db47c6ae123a Merge branch 'netconsole-fix-target-enable-race-and-configfs-read-locking'
+6ee8e8d9227c738be20f128c057bdc9413e3414e net/mlx4: drop the unused is_supported callback
+5fe3653f13b9d0549d8e8f6c181cf2dcbc67b06a net/ipv4: check RTNH_F_LINKDOWN before ip_ignore_linkdown()
+ecca9bb2c855ae2ea096299c9cde7146a80d9b89 net: skbuff: replace ubuf_info ops ptr with type id
+1146fbb8024b3963227c59186fee30b7e03b655c selftests: mptcp: pm_nl_ctl: print sizeof() with %zu
+205f10778a94f3d553ad6efed0a7165966080446 selftests: net: fix format warnings on 32-bit architectures
+dc8410e0aad5debe706fbbbe5b142c653726151d selftests: net: tcp_ao: don't shift a size_t by 32
+f13fc72ba243c4d4947c9f2bb4c625abe665fcaf selftests: net: tcp_ao: make the netstat column pointer const
+08f643794931557a4a78c7a83f4ffcfbdacf3807 mlxsw: core_hwmon: unregister the hwmon device on event ops failure
+fa5196392691051963726787944db872420dfa75 net: prestera: release the ruleset in prestera_flower_prio_get
 
---===============6684414798853586675==--
+--===============6035811181169187937==--
