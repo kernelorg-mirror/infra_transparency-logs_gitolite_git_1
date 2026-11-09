@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1606108494568017311=="
+Content-Type: multipart/mixed; boundary="===============4884555965914939623=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 17:58:41 -0000
-Message-Id: <179424712118.651081.13287982317178482573@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 17:58:44 -0000
+Message-Id: <179424712436.651261.6685610230880824998@gitolite.kernel.org>
 
---===============1606108494568017311==
+--===============4884555965914939623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-for-7.4-1
-    old: 0a47a19415baf3a81edaef1e31ea41c07f56212a
-    new: 4799a980528c07622de18f04be2a1da671e388dc
-    log: revlist-0a47a19415ba-4799a980528c.txt
+  - ref: refs/heads/kernel-7.3/anna-nfs-next
+    old: dd9fc04b1ee3b02ac118dbc414b51752059447af
+    new: 52aecb6ce76c7869490a1e4955c44d2c0b714667
+    log: revlist-dd9fc04b1ee3-52aecb6ce76c.txt
 
---===============1606108494568017311==
+--===============4884555965914939623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a47a19415ba-4799a980528c.txt
+Content-Disposition: attachment; filename=revlist-dd9fc04b1ee3-52aecb6ce76c.txt
 
 8c8bf48766bf777625177069a2d40e6d47cd49fb Revert "NFS/localio: report the stability a DIO WRITE actually has"
 7293cb575d567da3ae844b148f0c5f6ce9e492e5 Revert "NFS/localio: fix nfs_local_dio_misaligned tracepoint"
@@ -115,5 +115,19 @@ e84682dfba09415ad8e12bb78e3d827e6afcda8b nfs/localio: pin UUIDs during global in
 c6b9f63c640912609473210adbccce3b34f25790 xprtrdma: Fix Write chunk payload corruption on a short reply header
 ef6503a60dc1cf10f71a8db4c7bcebf0f7373652 NFS: use TCP for MOUNT when xprtsec= selects TLS
 4799a980528c07622de18f04be2a1da671e388dc NFS: Fix stale negative cache on failed nfs_mkdir()
+031ad8aff5dfd384d9be4fa35ef2b10d44479657 xprtrdma: fix up the nfs/nfs-anna merge of the Write chunk head trim
+197529e9fce9e5fbb11f78d7e653e1000b6a9406 NFSv4.1: retain MDS I/O until both thresholds are met
+63580bf8d7f00a434540265a071b352a29311eb7 NFS: honor UTIME_NOW atime with explicit mtime
+82783ee7cd282944d57412d6c0d08c5abc08c074 NFS: update ctime for atime-only UTIME_NOW requests
+8341a9a6656d7b2c64d754546b7d98045ccbc4ae NFS: Fix inverted cross-directory rename check
+96c609c35824ffa5e02995f0121c19b0e5ac6e60 NFS: restore directory index when resuming readdir
+2605fc7ab4681d9fe513ae12202abb551a09532e SUNRPC: wake poll waiters when an empty pipe is unlinked
+1e9a815ec8bacddb56fce16bf18a1a4cb2656616 sunrpc: instantiate rpc_pipefs dentry before publishing it
+dc3c9d83fe9be1f2166dc4868c418644fa2341b2 SUNRPC: preserve fatal network errors during RPC binding
+ddf74bcfec5dde9d0daaff7208d0d4ec7d8297cb SUNRPC: preserve timeout policy when cloning clients
+fde697210312fbb5ca431a1bd199197e495d1f0d SUNRPC: preserve transport security policy when cloning clients
+9515f23d3a2a0e2b1543636ac370e3f3bd8fbcb0 SUNRPC: Fix TCP-with-TLS transport class identification
+5ce199befb0e40c4cfb71c56d125be5211249db7 SUNRPC: Balance switch queue length on transport removal
+52aecb6ce76c7869490a1e4955c44d2c0b714667 SUNRPC: Balance queue accounting when relocating a task
 
---===============1606108494568017311==--
+--===============4884555965914939623==--
