@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1014134746726391590=="
+Content-Type: multipart/mixed; boundary="===============9189197733187547024=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 17:51:29 -0000
-Message-Id: <179424668982.645288.4142782242720971763@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 17:51:32 -0000
+Message-Id: <179424669254.645402.575733986170532398@gitolite.kernel.org>
 
---===============1014134746726391590==
+--===============9189197733187547024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-i_lock-contention
-    old: 9dadc70299ee383b82ac5e9e0da080e356164167
-    new: d9a64016a879a0c666cdda8889ac7540d2d0146b
-    log: revlist-9dadc70299ee-d9a64016a879.txt
+  - ref: refs/heads/kernel-7.3/nfs-testing-canary-reduce-ff-layout-contention
+    old: 1eb60a19e85b05f8e9384bcc16c0331601bca9b9
+    new: 5ffd5a93ed6ae46126ae9caed8b434817b29d388
+    log: revlist-1eb60a19e85b-5ffd5a93ed6a.txt
 
---===============1014134746726391590==
+--===============9189197733187547024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9dadc70299ee-d9a64016a879.txt
+Content-Disposition: attachment; filename=revlist-1eb60a19e85b-5ffd5a93ed6a.txt
 
 463a54927aae562ec71f5def2c410de61d7efc74 Revert "NFSv4: Fix a regression in the handling of CB_RECALL_ANY"
 5264fa57a7bdbfe1ff831116c4fe470e64bdba2d Revert "NFSv4/pnfs: Free the netid when draining a data-server address list"
@@ -150,5 +150,12 @@ d8ee2aa89c6acefd2229a63f560bbc4bfd639989 NFS: check for a delegated atime before
 7f99678c01bb6de00c24d7549b9040ad1655c340 NFS: skip inode->i_lock when a delegated timestamp is already current
 8f810d966b7e95b1b173f1fff0d81a6424c17fcf pNFS/flexfiles: don't take inode->i_lock to release empty commit info
 d9a64016a879a0c666cdda8889ac7540d2d0146b pNFS/flexfiles: look up the cached layout segment without inode->i_lock
+89f60d7a64fa18841e62bcf3a75a449a296b56e6 pNFS/flexfiles: don't dirty the layout segment on every data server RPC
+52441c0c7eebf4ca321e8eca49db5d7b8e2dec74 NFS: only account read_io/write_io when an I/O mdsthreshold is in use
+25dc9660182165c02d79786c0c02d72b9652612d NFS: finish stable O_DIRECT writes without the nfsiod round trip
+f4a664caeed0aec6e43e027225f4f0b1deaf4a70 NFS: admit O_DIRECT I/O without taking inode->i_rwsem
+a235b182fd977a977b4fb7a688f35646c499a5fd pNFS/flexfiles: give the read-mostly layout segment fields their own cacheline
+88f0fd7715b0b6361234c4d0373fa4d3410a12ff pNFS/flexfiles: bound data server RPCs with pg_bsize instead of a per-page test
+5ffd5a93ed6ae46126ae9caed8b434817b29d388 pNFS: hand the page I/O descriptor's layout segment reference to the header
 
---===============1014134746726391590==--
+--===============9189197733187547024==--
