@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7897217390985818529=="
+Content-Type: multipart/mixed; boundary="===============0736860415113323820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 09 Nov 2026 20:57:11 -0000
-Message-Id: <179425783197.815922.8403757138134395858@gitolite.kernel.org>
+Date: Mon, 09 Nov 2026 20:57:14 -0000
+Message-Id: <179425783468.816113.14422405815269835300@gitolite.kernel.org>
 
---===============7897217390985818529==
+--===============0736860415113323820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/anna-nfs-next
-    old: 52aecb6ce76c7869490a1e4955c44d2c0b714667
-    new: 5a00fe481d117d24f1cab16331beb8e5dc71ab0b
-    log: revlist-52aecb6ce76c-5a00fe481d11.txt
+  - ref: refs/heads/kernel-7.3/snitzer-nfs-fixes-canary
+    old: 0a7a68160dcac485d2dbf726fd754fbfd2a602a1
+    new: 2e5b185e2296c7a2be765a701e70cf821507aa75
+    log: revlist-0a7a68160dca-2e5b185e2296.txt
 
---===============7897217390985818529==
+--===============0736860415113323820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52aecb6ce76c-5a00fe481d11.txt
+Content-Disposition: attachment; filename=revlist-0a7a68160dca-2e5b185e2296.txt
 
 1d45910a1637a6b3043c0fd304b88ca6f7624603 NFSv4.1: retain MDS I/O until both thresholds are met
 1ccea1b3376a45d51de5a35024ab632767ed8686 NFS: honor UTIME_NOW atime with explicit mtime
@@ -42,5 +42,9 @@ de7e78e4fd842dc231fbee12007dd23ec5d0db20 SUNRPC: Balance queue accounting when r
 c4b5ff66fdc7c98f8f00be7ccd57c9e260bd9c33 NFS/localio: hold the client across an asynchronous LOCALIO probe
 fd111a9d4d0538c6619961adb6aaa27a5aea7eb2 NFS/localio: probe again for LOCALIO when localio_enabled is set to Y
 5a00fe481d117d24f1cab16331beb8e5dc71ab0b NFS/localio: give the LOCALIO probe a short timeout of its own
+881657e9f57e501641412e3328fba6a0f75b5498 NFS: don't release the open context of a failed write from writeback
+fa0c3a4e6e3a55a8c1660862117fea548214d731 NFS: don't run the release of a WRITE or COMMIT in the submitter
+24769a394e897bc727d30f5d02bd4c23a1fe3b26 NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
+2e5b185e2296c7a2be765a701e70cf821507aa75 NFS/localio: don't run the release of a failed COMMIT in the submitter
 
---===============7897217390985818529==--
+--===============0736860415113323820==--
