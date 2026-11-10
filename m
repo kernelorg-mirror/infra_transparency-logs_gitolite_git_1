@@ -1,25 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 10 Nov 2026 02:00:31 -0000
-Message-Id: <179427603104.1072149.2536810371489932207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Tue, 10 Nov 2026 02:01:55 -0000
+Message-Id: <179427611563.1073105.17423741025826138354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
   - ref: refs/heads/main
-    old: 428a39de37b66c2c80a798d7716370076e846106
-    new: 4b77d2792c3e482afa108c08f224ea6fa396d80b
+    old: 54e547173bf0f2a4cc35eba8b5738caf38b9230f
+    new: b1e46c0d15f3e6744d6b2c300459ea490b456205
     log: |
-         c164a431a646983275d0076ff5b0e4c326fbc10b net: wait for in-flight device unregistrations before netns dismantle
-         ff618cb00a645f1e3f89068c5fbda3f3a7f4ae63 team: fix promisc/allmulti leak in team_port_add error path
-         2007f7e37142ebdb341949dca8098f898cc871f7 net: octeontx2: fix building without DEBUGFS
-         908561cc4b4db4510465f02f5323e98f2dc00fad net/mlx5: Use only loaded devices for PTP clock operations
-         deceb70d1303105e4368a19b251a6fd94428eb11 net/mlx5: Lag, free steering resources on LAG destroy failure
-         c597eb68599eb8089df9fc473e7d2c142e56756f docs: netdev: fix iproute2 process documentation
-         4b77d2792c3e482afa108c08f224ea6fa396d80b net: protect negative destination advice with RCU
+         5664b4514077290fe6920b63bb967c9fb4f61dcb flattree: reject property lengths exceeding remaining blob size
+         b1e46c0d15f3e6744d6b2c300459ea490b456205 flattree: flat_read_data() should take an unsigned length
+         
+  - ref: refs/heads/master
+    old: 54e547173bf0f2a4cc35eba8b5738caf38b9230f
+    new: b1e46c0d15f3e6744d6b2c300459ea490b456205
+    log: |
+         5664b4514077290fe6920b63bb967c9fb4f61dcb flattree: reject property lengths exceeding remaining blob size
+         b1e46c0d15f3e6744d6b2c300459ea490b456205 flattree: flat_read_data() should take an unsigned length
          
