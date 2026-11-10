@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0384281068895693964=="
+Content-Type: multipart/mixed; boundary="===============5163229058533890801=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 10 Nov 2026 19:09:21 -0000
-Message-Id: <179433776198.2088849.10760468145572042152@gitolite.kernel.org>
+Date: Tue, 10 Nov 2026 19:09:59 -0000
+Message-Id: <179433779918.2089191.2332869240746612911@gitolite.kernel.org>
 
---===============0384281068895693964==
+--===============5163229058533890801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,45 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 067b20446fa9a507251a01f7f7bd1cc711941124
-    new: 8f65ba914284dfe18b22bceebff925b5522d411b
-    log: revlist-067b20446fa9-8f65ba914284.txt
+    old: 8f65ba914284dfe18b22bceebff925b5522d411b
+    new: c6279551a44c06f4cb1f7b1df2fb8e0d6d6e54cd
+    log: revlist-8f65ba914284-c6279551a44c.txt
+  - ref: refs/heads/tip/urgent
+    old: 9e0a9e4ae7e85dead09b036898b4924b650e484a
+    new: b3bdbbfe118a2d598b06e41e7806beec9162f1b0
+    log: revlist-9e0a9e4ae7e8-b3bdbbfe118a.txt
 
---===============0384281068895693964==
+--===============5163229058533890801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-067b20446fa9-8f65ba914284.txt
+Content-Disposition: attachment; filename=revlist-8f65ba914284-c6279551a44c.txt
+
+c20fd6118d24753f6cbd3aeefe6a142f6497d724 Merge branch into tip/master: 'core/urgent'
+b9cbb466ad4d6cdedfe791fe2ff770190f2532a1 Merge branch into tip/master: 'perf/urgent'
+7da9e1953b47b74777f4bf2c85f3c1dd014f74fa Merge branch into tip/master: 'sched/urgent'
+73767af8b6b99efa7fdae28983017faa88627017 Merge branch into tip/master: 'timers/urgent'
+b3bdbbfe118a2d598b06e41e7806beec9162f1b0 Merge branch into tip/master: 'x86/urgent'
+6b173976556fe9b3fdb77ad65881d4cd28d01ded Merge branch into tip/master: 'core/rseq'
+dbcb3018e578d040116231042379aad134d15c43 Merge branch into tip/master: 'irq/core'
+2c8565f2a1abf760bf05e4c83736a338cda94f8f Merge branch into tip/master: 'irq/drivers'
+120a99b9a87935d9bb21baaeae8f63428e14b50e Merge branch into tip/master: 'irq/msi'
+a36f75d0bc262ad42a0971d404eddff3b0498f6e Merge branch into tip/master: 'locking/core'
+a4b6b541c629a83757040c80ba40959bfc3cacf3 Merge branch into tip/master: 'sched/core'
+e5cc9e3808be6c320e1408da7eb025ec311f1a82 Merge branch into tip/master: 'timers/core'
+4a2d4d2067907fa665f8d436bd30c179d015b9dc Merge branch into tip/master: 'timers/nohz'
+6ba74ce7697a4e2dbbbf360c2ab7185e3a775dcb Merge branch into tip/master: 'timers/vdso'
+00e3fba8fc268c8fbaeb141a7a3683658a622a9c Merge branch into tip/master: 'x86/apic'
+6430bca2cc65b6c22ed5a2955d1d4818ffbd4b86 Merge branch into tip/master: 'x86/cache'
+0d2909ee4ba12674a75643d09c2b354297efae8a Merge branch into tip/master: 'x86/cleanups'
+9553802094c2822f4e0b62e1ba748eb92365cec3 Merge branch into tip/master: 'x86/misc'
+c6279551a44c06f4cb1f7b1df2fb8e0d6d6e54cd Merge branch into tip/master: 'x86/sev'
+
+--===============5163229058533890801==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9e0a9e4ae7e8-b3bdbbfe118a.txt
 
 cf27412f19c9cc5909b9107cd1b3f4ab7608e362 x86/bugs: Mitigate TSA on AMD Zen5
 b35ce030893929b3670de82bdac2713cb7b20d90 mm/page_alloc: reset can_retry_reserves when the slowpath restarts
@@ -97,6 +127,10 @@ f96f16592a32430a0582309d73a873b6d3ee2bdb xen-netback: Zero out sring pointers on
 a9e719883c8ae5b553a6af4f508c2e8d41c69578 Merge tag 'xsa531+532-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 f7c68e9d5d050301548d93ccbccd644151ced269 Merge tag 'mmc-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 067c5c24cef23d913b67eaaf71ae67e7169a6620 Merge tag 'page_alloc-for-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/mm/page_alloc
-8f65ba914284dfe18b22bceebff925b5522d411b Merge branch 'linus'
+c20fd6118d24753f6cbd3aeefe6a142f6497d724 Merge branch into tip/master: 'core/urgent'
+b9cbb466ad4d6cdedfe791fe2ff770190f2532a1 Merge branch into tip/master: 'perf/urgent'
+7da9e1953b47b74777f4bf2c85f3c1dd014f74fa Merge branch into tip/master: 'sched/urgent'
+73767af8b6b99efa7fdae28983017faa88627017 Merge branch into tip/master: 'timers/urgent'
+b3bdbbfe118a2d598b06e41e7806beec9162f1b0 Merge branch into tip/master: 'x86/urgent'
 
---===============0384281068895693964==--
+--===============5163229058533890801==--
