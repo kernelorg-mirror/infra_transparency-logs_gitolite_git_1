@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============1332384030601662449=="
+Content-Type: multipart/mixed; boundary="===============1841247575107567810=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Tue, 10 Nov 2026 00:01:36 -0000
-Message-Id: <179426889664.968939.4025816070725228238@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Tue, 10 Nov 2026 00:01:58 -0000
+Message-Id: <179426891868.969227.16984356176502210895@gitolite.kernel.org>
 
---===============1332384030601662449==
+--===============1841247575107567810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/for-next
-    old: 04bcf84613346b973a8cc0c59238b6b5bc902688
+    old: bc6f2a284c63313e789d8cd294531e1cc2dc8c99
     new: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
-    log: revlist-04bcf8461334-7475ea8b5861.txt
+    log: revlist-bc6f2a284c63-7475ea8b5861.txt
   - ref: refs/heads/for-rc
     old: cee9395acd8043be0644b25c34bfa86623f2b935
     new: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
     log: revlist-cee9395acd80-7475ea8b5861.txt
 
---===============1332384030601662449==
+--===============1841247575107567810==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-04bcf8461334-7475ea8b5861.txt
+Content-Disposition: attachment; filename=revlist-bc6f2a284c63-7475ea8b5861.txt
 
 1c8b49851543f41fc8bb18bcd1f15cc93d14b530 io_uring/timeout: count cancelled timeouts in cq_timeouts
 db2c610df81e34d497f49b68a0a1681c3f203bdb eth: bnxt: recycle agg buffers when Rx head buffer allocation fails
@@ -1055,7 +1055,7 @@ e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.ke
 e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
 
---===============1332384030601662449==
+--===============1841247575107567810==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -2086,4 +2086,4 @@ e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.ke
 e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
 
---===============1332384030601662449==--
+--===============1841247575107567810==--
