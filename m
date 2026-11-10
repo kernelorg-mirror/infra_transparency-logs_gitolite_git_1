@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
-Date: Tue, 10 Nov 2026 13:16:25 -0000
-Message-Id: <179431658546.1571675.1258756594477443566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Tue, 10 Nov 2026 13:16:52 -0000
+Message-Id: <179431661228.1571953.9339799602292415811@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nsc/kbuild
-user: nsc
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/tags/kbuild-next-unstable-2026-11-10
+  - ref: refs/tags/powercap-hierarchy
     old: 0000000000000000000000000000000000000000
-    new: 0931f04ff996c711387403ae08763313f8fa5a16
+    new: 919ce01ab8de79b49502935e13597ebd99c4a930
