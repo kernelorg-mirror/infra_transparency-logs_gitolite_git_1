@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0301194448720222456=="
+Content-Type: multipart/mixed; boundary="===============6046758261330323929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 10 Nov 2026 14:00:09 -0000
-Message-Id: <179431920956.1606258.17053980628478709869@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Tue, 10 Nov 2026 14:02:38 -0000
+Message-Id: <179431935804.1607415.15801033332214778911@gitolite.kernel.org>
 
---===============0301194448720222456==
+--===============6046758261330323929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/master
-    old: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
-    new: b3dfbde62cf1981c4638939c159dfd087b7a72e9
-    log: revlist-7475ea8b5861-b3dfbde62cf1.txt
+  - ref: refs/heads/next
+    old: 461294b587f6fa5bb17d5856e4404b67d666086d
+    new: 31980d672340fed5fbbf24998a97f6d6779c64eb
+    log: revlist-461294b587f6-31980d672340.txt
 
---===============0301194448720222456==
+--===============6046758261330323929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7475ea8b5861-b3dfbde62cf1.txt
+Content-Disposition: attachment; filename=revlist-461294b587f6-31980d672340.txt
 
-6a658cc2d605e5acf35e638c62f480460d5939cd kprobes: Fix error return and slot leak in __register_kprobe()
-2053bac1d6e47b33fa2e570c87518395e64f7da0 kprobes: Fix double free and NULL deref in unregister_kretprobes()
-a553b499f22bf054964d4fd16d136f3d4f836c23 kprobes: Validate re-registration earlier in register_kretprobe()
-4a65eaf146f0d10ebaa88cfaef9c3b24f93766d9 KEYS: Expand key->{datalen,quotalen} to unsigned int
-094c53d2994975e36d4cab7cf5d9f34c1b0f1916 KEYS: Reject descriptions larger than KEY_MAX_DESC_SIZE
-7a7f70ff7b26519c98b339a3e0cd9ee3c8d17f77 KEYS: Verify the key identity in __key_unlink_begin
-51bcd09b9ffca7a2a3b66fb57182bb391364f612 KEYS: Protect the update method check against type removal
-27698b545cde67aaf947e20f8e6fe00af1b667df selftests/filesystems: Fix run_fat_tests hang
-88d5f8cb8a6276194ac8c1de44f3ed77d7e938ce tracing/selftests: Fix false bashism in kprobe_non_uniq_symbol.tc
-36990c8fda77d918b1e52d5d6df3a144b552d86e selftests/ftrace: Add missing spaces after ! in probe syntax tests
-07038c33e791e80c6422c26211fcb9c751439f34 samples/kprobes: Use trace_printk() in probe handlers
-df87101f816083ad5da559f8be8eac1cee94e38f samples/fprobe: Use trace_printk() and trace_dump_stack()
-76a224e04a723af1e2afc185fa0a4b82101f62dd docs: trace: Warn against using printk() in probe handlers
-2fc0b3070d6d5dcecfed43cd0e62aa0fd4b4315c tracing/probes: bound symstr stores to reserved length
-be94710b1f6ba1bea33e73129c110af80e999b2d tracing/eprobe: Install the trigger for every instance that enables the eprobe
-0be7a931c5e41dcfdaf297f5cd34def2696b0a7e kprobes: Disarm disabled optprobe on forced unoptimization
-ce9bc14902d1c27b6c0eac25666e2516e13f2b19 kprobes: Do not disarm unhashed optprobe on dispatch
-1ffd6efb1b58e596ed70f660182803264a4c84d9 kprobes: Arm reused optprobe on cooling list
-e4fb7e5e8e7e9edc167c3057802e440b77dcb856 Merge tag 'probes-fixes-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-f1bfe4003916a6d56e43b08698f38bad4443bcf4 Merge tag 'keys-v7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-b3dfbde62cf1981c4638939c159dfd087b7a72e9 Merge tag 'linux_kselftest-fixes-7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+702e559583c042e660ca161ed6ce4fc7b668e826 mmc: sh_mmcif: unmap DMA buffers only after the transfer has stopped
+5c9c3f4797759316396958b3b040334fe17766e7 mmc: dw_mmc: drain bh_work on host removal
+f414941f439386d7e2e5260e1c597df8e286b457 memstick: Add Broadcom BCM57765/BCM57785 host driver
+148d5967832dcb5d5ec4a95921165abfc1cf35e5 mmc: core: Fix max_dtr passed to SD drive strength selection
+b01accbe38d4baf4445fc403f31ceadb61490b31 mmc: core: Fix wrong comments in the regulator helpers
+2199951b26924ec0ad198025ee405e7f4b7b88a1 mmc: core: fix wrong comments in mmc_ops.c
+7bcf586afbdd2727cae65d406e4aadc13dc91622 mmc: dw_mmc: enable MMC_CAP_DONE_COMPLETE
+199a09a191bed514623bc439675514a7e2d61801 mmc: sdhci-of-dwcmshc: downgrade HS200/HS400 clock-reduce message to dev_dbg
+392d5f64d18593b0dbf1eaf96c1d1da19df99858 mmc: omap_hsmmc: Do not log error on probe defer
+551571b4c28d62972437c7c4d8b36a7948ac61e2 mmc: sdhci-pxav3: use managed clock enablement
+76e4664444fde03b33aee6a3d5dbf64d1922a063 mmc: wmt-sdmmc: release DMA descriptors after stopping the host
+8b04fd3a6e431cc1805ae24503d809b146c9ab13 mmc: atmel-mci: fix PDC bounce buffer use-after-free
+6c5a6163f2baeded3c02160fbd70c6109ab09f88 mmc: moxart: Stop host before releasing DMA channels
+deafd881c84a57edcb84c70d2279f7c8a1f75566 dt-bindings: mmc: mtk-sd: Document support for Airoha AN7581 SoC
+0f048a3880f75c78f908d6b37276f6d89f39f970 mmc: mtk-sd: Add Airoha AN7581 MMC compatible
+10510f3c884cd09bdbb4c01accd97ad36732ee19 memstick: tifm_ms: use the correct DMA direction on removal
+a3838c21e28e536c10ce03ffa1c24afaa57b5b48 mmc: core: sdio: retry without UHS if UHS init fails
+67a97316a31a37c92cd6dde05af60bbcf65c7645 mmc: core: sdio: skip CMD11 if signalling is already 1.8V
+6ad79aaed21753741052e481fa4a99f5cd552b3a mmc: Merge branch fixes into next
+684900b68033632063519b85d4654d334f98674a mmc: use dmaengine_get_dma_device() instead of chan->device->dev
+31980d672340fed5fbbf24998a97f6d6779c64eb mmc: dw_mmc: cancel the watchdog timer on remove
 
---===============0301194448720222456==--
+--===============6046758261330323929==--
