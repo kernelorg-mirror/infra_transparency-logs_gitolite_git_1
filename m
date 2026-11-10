@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1712222135602704227=="
+Content-Type: multipart/mixed; boundary="===============7400662842476390589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Tue, 10 Nov 2026 21:03:04 -0000
-Message-Id: <179434458487.2175877.15538950644115280021@gitolite.kernel.org>
+Date: Tue, 10 Nov 2026 21:05:38 -0000
+Message-Id: <179434473841.2179118.7357861066009278676@gitolite.kernel.org>
 
---===============1712222135602704227==
+--===============7400662842476390589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/superm1/kbz-222179
-    old: 51ecda5c55b97b21e956ff9dba4cdd3452c93f6b
-    new: fc9e3b4691edcc4c56a7cbea45a8aef3651bb6fb
-    log: revlist-51ecda5c55b9-fc9e3b4691ed.txt
+  - ref: refs/heads/superm1/amdgpu-ddc
+    old: f89f0a60bb01ab699de138cdfd62b48df9def109
+    new: 276e73daa632801157832d557a5db98d78a614b2
+    log: revlist-f89f0a60bb01-276e73daa632.txt
 
---===============1712222135602704227==
+--===============7400662842476390589==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-51ecda5c55b9-fc9e3b4691ed.txt
+Content-Disposition: attachment; filename=revlist-f89f0a60bb01-276e73daa632.txt
 
 5852cdf0006ff0f1d9a56f06197673d4e4270220 net/9p: fix typos in comments
 37dce65a0b4356d7ec289a5d09cece5db241c302 9p: use fc->net_ns for network namespace in RDMA and socket transports
@@ -1016,8 +1016,7 @@ e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.ke
 8a65162514fbad21a2c58ffed65f42b27e92b163 Merge tag 'driver-core-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
-c1956566a4af83822597c4a4f50b07e243ddf52b PCI/PM: Disable bridge D3 on a few devices
-fa14b302fb349005719a0e0a6181970c360bef97 PCI/PM: Disable bridge D3 on Lenovo ThinkCentre M90n-1
-fc9e3b4691edcc4c56a7cbea45a8aef3651bb6fb PCI/PM: Avoid D3cold for HP Spectre x360 Convertible 15-ch0xx PCIe Ports
+73f9484aac54b8cec5b06bb6fbb023c03d4d53c6 drm/amd/display: Point the DP/eDP connector ddc link at the AUX i2c adapter
+276e73daa632801157832d557a5db98d78a614b2 drm/amd/display: Route connector DDC over AUX for native DP sinks
 
---===============1712222135602704227==--
+--===============7400662842476390589==--
