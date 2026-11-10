@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-Date: Tue, 10 Nov 2026 01:06:04 -0000
-Message-Id: <179427276424.1026087.8812045017094616590@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 10 Nov 2026 01:07:18 -0000
+Message-Id: <179427283896.1026595.1777808407683506468@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-user: kuninori.morimoto.gx
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/renesas-lts/v6.18.61-2026-11-09-sparrow-hawk
-    old: 0000000000000000000000000000000000000000
-    new: 881bb7874a51079323a123ab7ca1a603309f9bf6
-  - ref: refs/heads/renesas-lts/v6.18.62-2026-11-09-sparrow-hawk
-    old: 0000000000000000000000000000000000000000
-    new: 42eeb75ffabd78125eb587233305786b74635a32
+  - ref: refs/heads/main
+    old: 9a24799e219b1699bb1c144248c8c500b9504db5
+    new: e573df093ef849bb7c763aed591cb6556b110671
+    log: |
+         c817ec1b06875b98460fbd19591be541bc3fa924 net: gro: do not undo remote checksum offload on merged packets
+         98d949a15ff9d3fffaa6983223178374aab92db6 net: gro: invalidate frag0 after a pull
+         1cb1bb2c2ea8da46db3509276e1daa9525a45c75 Merge patch series "net: gro: fix frag0 and remcsum handling"
+         e573df093ef849bb7c763aed591cb6556b110671 net: bridge: use one headroom snapshot for ND replies
+         
