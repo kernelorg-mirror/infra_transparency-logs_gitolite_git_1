@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1870488962845092193=="
+Content-Type: multipart/mixed; boundary="===============5923000531967600164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Tue, 10 Nov 2026 10:53:13 -0000
-Message-Id: <179430799365.1461655.2101077499750007114@gitolite.kernel.org>
+Date: Tue, 10 Nov 2026 10:54:15 -0000
+Message-Id: <179430805514.1462085.5634303022683463904@gitolite.kernel.org>
 
---===============1870488962845092193==
+--===============5923000531967600164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,28 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: 4c66c423593e26273ea0d644906ed007630c6f6d
-    new: 29030cd58b1e7e788728bc5bf4ae3c44881b7bbc
-    log: revlist-4c66c423593e-29030cd58b1e.txt
-  - ref: refs/tags/v7.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: bc71431221f5ba8bb33918399552636e059c2c45
-  - ref: refs/tags/v7.4-rc2
-    old: 0000000000000000000000000000000000000000
-    new: fd9230005e85472b81c1c7c16afe93dd878996b1
+  - ref: refs/heads/next
+    old: 6d318db9ffcb611f9b3b6b3201c963690541a943
+    new: 09078f3f8a6fca5c3a2d674b7059f4d7b46e21c6
+    log: revlist-6d318db9ffcb-09078f3f8a6f.txt
 
---===============1870488962845092193==
+--===============5923000531967600164==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4c66c423593e-29030cd58b1e.txt
+Content-Disposition: attachment; filename=revlist-6d318db9ffcb-09078f3f8a6f.txt
 
-1b2f02fb4ba92d01603c8261c94be8d348de65b0 eth: bnxt: don't leak buffers when XDP agg buffer allocation fails
-c10f3420d59859df107838aa97b49357616d9b47 eth: bnxt: free XDP frags when xdp_do_redirect() fails
-364b88b54fc260d22ee318bae862c2d7d8c31dc6 eth: bnxt: hand XDP frags over to the copybreak skb
-3e3aebb7570ccdde5cc49c9bfc8fd3a436b71b0c io_uring/net: fix multishot recv length limit accounting
-59e72644a7e697fdaf3494e8df8af9ab2b2ba31d Merge branch 'eth-bnxt-fix-rx-buffer-leaks-under-oom'
 dc4dd12f80e499dc034710cd8195489abcf0b059 net/packet: check TX_RING fragments before memory accounting
 de788d8a7032475f900c16e9cc0c1417f4f719eb gro: do not GRO GSO packets with inconsistent payload
 4f45e97b3aac2282f2b436d97338c9c2c484d093 net: bgmac: fix TX DMA unmapping and slot cleanup
@@ -1056,5 +1045,10 @@ e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' o
 d7262971a2acc2a835d8727d6833a6f764f56124 pmdomain: imx: gpc: remove all initialized power domains
 de6c5ec19ef2f7529db408a735b94cf1d96bd8e5 pmdomain: mediatek: Don't power off default-off domains in probe cleanup
 29030cd58b1e7e788728bc5bf4ae3c44881b7bbc pmdomain: mediatek: mt8183: Fix silent audio from premature sync_state
+652133ae8b42dec1b5f4aefd0c8c370d2d7121b3 dt-bindings: power: rockchip: allow resets in a power domain node
+bb51bad3b2baf7e42aacd6c1b44d2c5db2f9a114 pmdomain: rockchip: add optional per-domain power-on settle delay
+6beabca3229e32a6fefa32376ed6d0908b928b8d pmdomain: rockchip: cycle an optional power-domain reset on power-on
+bde00b62af694a3d25dd1cccf17516f2bc928334 pmdomain: mediatek: scpsys: add MT7629 support
+09078f3f8a6fca5c3a2d674b7059f4d7b46e21c6 pmdomain: Merge branch fixes into next
 
---===============1870488962845092193==--
+--===============5923000531967600164==--
