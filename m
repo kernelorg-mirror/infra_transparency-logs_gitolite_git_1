@@ -1,46 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5154968903899322557=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 10 Nov 2026 01:49:55 -0000
-Message-Id: <179427539536.1063105.1445087397994739316@gitolite.kernel.org>
-
---===============5154968903899322557==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 10 Nov 2026 02:00:31 -0000
+Message-Id: <179427603104.1072149.2536810371489932207@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 9712b843ae772ea0fc56ab38a0ce42ee294051da
-    new: 4638f2646de3d1aa3dd0b225a62022991bfed900
-    log: revlist-9712b843ae77-4638f2646de3.txt
-
---===============5154968903899322557==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9712b843ae77-4638f2646de3.txt
-
-030636a8e43c3286607ab5c30024151d6fd92347 tpm: Check return value of crypto_kpp_set_secret()
-13150788a7487de29d5cb277511c4bde38df367f tpm: tis_i2c: Add reset delays for ST33KTPM2XI2C
-37bf65592e46a2236ecf24913032f999c5634f8e tpm_crb: Add register definitions of TPM CRB chunking fields
-842efa52c0d1fc68f54192d808becf59e409de72 tpm_crb: Split start method into a separate header
-66a76ed795152a20428dd70be0712a2a1cf61053 tpm_crb: Add start_cmd parameter to tpm_crb_start wrapper
-6e862f3ce1cf4be06aae8743ebd70d65b42fa7ff tpm: tis_i2c: Use local 4KB buffer to limit memory usage
-d3dc739282d538238797043afb810dff1881d5b8 tpm: Increase TPM_BUFSIZE to 8KB for chunking support
-42817671d82b9c5120de4148cc61a84e9eb5c040 tpm_crb: Factor crb_send()/crb_recv() bodies into helpers
-814c55b79940d1dca83e3b5414e74576175adf49 tpm_crb: Implement command and response chunking logic
-49e72d56cba2005aaa9d14ce74edccc6d7bae708 tpm: eventlog: check the payload size before reading tag events
-9d8fb5a748392650d100d0430973db528ab256bf tpm: flush timeout work outside buffer_mutex to avoid deadlock
-962e50887c8795aa74dcc111ee2ed32b96aa7fdf tpm: Remove enum tpm2_session_types
-f70279c07ae2e2bf63262f95fc607c4fa7d6223d tpm: sessions: bound the primary public area by the response size
-48dde8034477a477325bcdb027ce7a7fa5713209 tpm: sessions: bound the parameter decryption by the response size
-01a54c4af2564ca1dd943d329e771e9532360056 tpm: ibmvtpm: check the response size against the buffer size
-4638f2646de3d1aa3dd0b225a62022991bfed900 tpm: acpi: Fix memory leak at tpm_read_log_acpi() error path
-
---===============5154968903899322557==--
+  - ref: refs/heads/main
+    old: 428a39de37b66c2c80a798d7716370076e846106
+    new: 4b77d2792c3e482afa108c08f224ea6fa396d80b
+    log: |
+         c164a431a646983275d0076ff5b0e4c326fbc10b net: wait for in-flight device unregistrations before netns dismantle
+         ff618cb00a645f1e3f89068c5fbda3f3a7f4ae63 team: fix promisc/allmulti leak in team_port_add error path
+         2007f7e37142ebdb341949dca8098f898cc871f7 net: octeontx2: fix building without DEBUGFS
+         908561cc4b4db4510465f02f5323e98f2dc00fad net/mlx5: Use only loaded devices for PTP clock operations
+         deceb70d1303105e4368a19b251a6fd94428eb11 net/mlx5: Lag, free steering resources on LAG destroy failure
+         c597eb68599eb8089df9fc473e7d2c142e56756f docs: netdev: fix iproute2 process documentation
+         4b77d2792c3e482afa108c08f224ea6fa396d80b net: protect negative destination advice with RCU
+         
