@@ -1,24 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 10 Nov 2026 23:44:09 -0000
-Message-Id: <179435424935.2302183.1501751274171942182@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3991213870449174924=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 10 Nov 2026 23:45:54 -0000
+Message-Id: <179435435446.2305224.33197550732223909@gitolite.kernel.org>
+
+--===============3991213870449174924==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: 97ced2c090bfc2156db31fca9f52cf253e4bc186
-    new: 540c9e8ddc7b300c63158d923b920bcd17f0af20
-    log: |
-         f8143639f2e62afd680d0066936c283ab5626e92 tcp: Don't call tcp_update_recv_tstamps() if not needed.
-         59e3434a73c89ac214a6207e7bd1edf1482cd0f0 mptcp: Don't call tcp_update_recv_tstamps() if not needed.
-         b74c0db8f2b69d88ee7ece3403d01be9bac1a89c Merge branch 'tcp-mptcp-don-t-call-tcp_update_recv_tstamps-if-not-needed'
-         7b42f4a88e76df58b90760cd5292bd90c26293eb net: macb: credit unsent frames to BQL in macb_tx_error_task()
-         c45ceb26e0dc71bb048bda7e50cdab609ef5b5af net: macb: take tx_ptr_lock in macb_tx_error_task()
-         540c9e8ddc7b300c63158d923b920bcd17f0af20 Merge branch 'net-macb-two-fixes-for-macb_tx_error_task'
-         
+  - ref: refs/heads/pending
+    old: d0fbb39d65dc9dcb4175fa6b23e473dec3670f4d
+    new: e5f804e262db054547a9be5d24561dde43e356df
+    log: revlist-d0fbb39d65dc-e5f804e262db.txt
+
+--===============3991213870449174924==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d0fbb39d65dc-e5f804e262db.txt
+
+c04051aacafd8ec0f811feb8e9cdf0e20cfebf83 wifi: ath12k: fix potential OOB access due to unverified hardware link id
+18628763808bf559e15eba8f9b3c7c5dbd6b8b0b wifi: ath12k: skip hw link id match for devices without hw link id support
+709de0d2433263cd57b78df9685448a3ad39cee5 wifi: ath12k: rename ath12k_dp_peer::hw_links to link_id_map
+30acf798faf46086105fc1b153a61d8491db3542 wifi: ath12k: rename ath12k_dp_link_peer::hw_link_id to drv_link_id
+d6eb0caced2bc00891d61bb396c7398c272d19c4 wifi: ath12k: rename ath12k_skb_rxcb::hw_link_id to drv_link_id
+8825cfe7aabdd3d9ba9dda2d9c923c84f9d53768 wifi: ath12k: derive device id without drv_link_id for single device group
+9f27ee2d417feb0254247247092227c60c868fd6 wifi: ath12k: add support for HTT_T2H_MSG_TYPE_PEER_EXTENDED event
+40fbee5613777b5e252b2bd0b985c6d8b9497265 wifi: ath12k: allocate logical link id on host when firmware does not report it
+74cf89ce6b5ea52c17e54b5982febaa38508d90e wifi: ath12k: derive REO RX drv_link_id per device via HAL ops
+c634faa9d1e31b130c6c7e6198ba3181f69770cb wifi: ath12k: derive WBM RX drv_link_id per device via HAL ops
+e5f804e262db054547a9be5d24561dde43e356df wifi: ath12k: use link_id_map to resolve RX link id for all devices
+
+--===============3991213870449174924==--
