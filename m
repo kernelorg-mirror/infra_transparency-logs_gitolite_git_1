@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 10 Nov 2026 02:07:49 -0000
-Message-Id: <179427646964.1077231.3340857463491801765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
+Date: Tue, 10 Nov 2026 02:12:08 -0000
+Message-Id: <179427672807.1080822.13144530927573180541@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/riscv/linux
+user: pjw
 changes:
-  - ref: refs/heads/main
-    old: c78b47704934e44442f4e48bfdcc99039e3b85a5
-    new: a45dbf182137275f44ad7c8bc8acd23f7af6b2cf
+  - ref: refs/heads/fixes
+    old: 551bdd6fcaba4ffc98fd95c4d969d4470eae580f
+    new: d1a8d411533d6be16ac79796c02a9bfc7d7958f1
     log: |
-         a45dbf182137275f44ad7c8bc8acd23f7af6b2cf ipvlan: make outbound skb headers writable
+         d1a8d411533d6be16ac79796c02a9bfc7d7958f1 riscv: signal: protect regs->status RMW from concurrent preemption
          
