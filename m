@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5913949114637808394=="
+Content-Type: multipart/mixed; boundary="===============1329673075571286271=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
-Date: Tue, 10 Nov 2026 22:28:38 -0000
-Message-Id: <179434971880.2241970.9531254206387318290@gitolite.kernel.org>
+Date: Tue, 10 Nov 2026 22:34:45 -0000
+Message-Id: <179435008591.2247847.2637784916099994383@gitolite.kernel.org>
 
---===============5913949114637808394==
+--===============1329673075571286271==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/lindholm/alpha
 user: lindholm
 changes:
-  - ref: refs/heads/alpha-devel
-    old: f9c0ede66e302db42d4ec47fc5f3f4e5255036c9
+  - ref: refs/heads/for-next
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     new: 0b4cadbe7c39d830dec35c4a2655483de0dae568
-    log: revlist-f9c0ede66e30-0b4cadbe7c39.txt
+    log: revlist-6628e7d4c6b2-0b4cadbe7c39.txt
 
---===============5913949114637808394==
+--===============1329673075571286271==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9c0ede66e30-0b4cadbe7c39.txt
+Content-Disposition: attachment; filename=revlist-6628e7d4c6b2-0b4cadbe7c39.txt
 
+f52e7aee63c8771301b25b7e67b7826b079935f8 alpha: fix PR_GET_UNALIGN flag mask
+a6424204bb5553b315a6cbdd802a2d3c45b69e01 alpha: Use symbol assignment in SYM_END
 c697ba759bfbac5d3e55c018ec3d41d633343ad6 alpha/perf: do not update an event that has no counter in alpha_pmu_del()
 84053a927f01097e9baeb2df4075fe05bf8369f0 alpha/perf: pass PERFMON_CMD_LOGGING_ALL to the logging options call
 f9a67744344374f3d326ca352769517cf24c848d alpha/perf: add sysfs format and event attributes
@@ -55,4 +57,4 @@ c1ffcc3b2f2942749166fb563ff07ba1c547c1fe alpha: use memparse for memory size opt
 d3a8f3f95669201bbf59ccb39ed32718b2e7fae4 alpha: use generic getrusage for OSF resource accounting
 0b4cadbe7c39d830dec35c4a2655483de0dae568 alpha: use generic CPU device registration
 
---===============5913949114637808394==--
+--===============1329673075571286271==--
