@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7169100318981793869=="
+Content-Type: multipart/mixed; boundary="===============1130315583524706724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 10 Nov 2026 02:51:09 -0000
-Message-Id: <179427906989.1110525.5224090483409078295@gitolite.kernel.org>
+Date: Tue, 10 Nov 2026 02:51:46 -0000
+Message-Id: <179427910684.1110895.15486054587778671469@gitolite.kernel.org>
 
---===============7169100318981793869==
+--===============1130315583524706724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: namhyung
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 25b9fbed9cd1cfbf85fdb05466de492ceb309052
+  - ref: refs/heads/perf-tools-next
+    old: 13a8d580433a3b72b10be34f0e26787fe5659d3c
     new: cc905a18a647a8e3ad42cd1596baa0e08fba26eb
-    log: revlist-25b9fbed9cd1-cc905a18a647.txt
+    log: revlist-13a8d580433a-cc905a18a647.txt
 
---===============7169100318981793869==
+--===============1130315583524706724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25b9fbed9cd1-cc905a18a647.txt
+Content-Disposition: attachment; filename=revlist-13a8d580433a-cc905a18a647.txt
 
 913b2a19392264afde8a2f536060c8bac82c6665 perf tests: Assign return value of ioctl in wp_modify test
 a6093b647e9470b20f2f4d529755ec65d3deef6f perf tests: Use TEST_ASSERT_EQUAL for all watchpoint tests
@@ -40,4 +40,4 @@ ee8f08d46253b0479f48446f17b328aba2548af8 perf tools: do not call list_for_each_e
 c5b5ba66b5776524cd3d45a05dd64424c62989a7 perf evsel: fix buffer offset when building the EPERM error string
 cc905a18a647a8e3ad42cd1596baa0e08fba26eb perf test: Add LBR call stack branch filter test
 
---===============7169100318981793869==--
+--===============1130315583524706724==--
