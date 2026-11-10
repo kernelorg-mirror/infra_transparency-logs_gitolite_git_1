@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 10 Nov 2026 10:24:02 -0000
-Message-Id: <179430624298.1437967.15512860029991856503@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0526358563264859899=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Tue, 10 Nov 2026 10:30:42 -0000
+Message-Id: <179430664212.1445052.5676835111570081899@gitolite.kernel.org>
+
+--===============0526358563264859899==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/xfs-7.4-fixes
-    old: e5f6eabf696670aa0a16b1faf2bc6d5061e70b43
-    new: 6fe08320c38cc1165dc9193dcd3aa5539a6f9e73
+  - ref: refs/heads/vfs.fixes
+    old: 8eaa35c6c29ae669949f4b5b0814c3d34c8ed658
+    new: 1448959fe3d013ffdb8302d17e4a8fdad2d2da95
     log: |
-         369726f6be714852f4e73882a351938bd3f8c4cd xfs: always call xfs_update_stable_writes in xfs_ioctl_setattr_xflags
-         8190880c904fd8ddb943d808e04b12174ce660f8 xfs: don't skip the flush before shifting extents
-         d467837a485c3b811b94f4005825a05f1535adb3 xfs: flush the shifted range before changing the file
-         a38c5aadc06a3277aa2bbdfa0d5161038ae1f4ff xfs: don't change the block map under a dirty folio
-         6fe08320c38cc1165dc9193dcd3aa5539a6f9e73 iomap: don't punch delalloc under a dirty EOF block
+         1448959fe3d013ffdb8302d17e4a8fdad2d2da95 fs: fix the SEEK_CUR f_lock condition
          
+
+--===============0526358563264859899==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 0x91C61BC06578DCA2! 1794306640 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
+nonce 1794306639-29995e27a26a9a7576656fd11cd70c2b9ef967db
+
+8eaa35c6c29ae669949f4b5b0814c3d34c8ed658 1448959fe3d013ffdb8302d17e4a8fdad2d2da95 refs/heads/vfs.fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCavLyUAAKCRCRxhvAZXjc
+oi6mAPwM+9jH884FcoNQRYJeMSySaeGoo4QFmnxyFd6sSfp0yAD/faMLFCMEc9k5
+zN/iqoh+O4/02yDMunSy14Z3fklrRw8=
+=zOBx
+-----END PGP SIGNATURE-----
+
+--===============0526358563264859899==--
