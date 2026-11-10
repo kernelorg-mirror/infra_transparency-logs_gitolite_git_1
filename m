@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 10 Nov 2026 20:40:16 -0000
-Message-Id: <179434321660.2159932.15330761158278835932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/infra/patchwork/patchwork
+Date: Tue, 10 Nov 2026 20:41:57 -0000
+Message-Id: <179434331717.2160831.14627705538657966670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/infra/patchwork/patchwork
+user: mricon
 changes:
-  - ref: refs/heads/main
-    old: 0bb3c6f574bffc6aacb517661f67819d1cb60595
-    new: fdca4b030c78fa2773a94fda3a6dc3ce5558a727
-    log: |
-         fdca4b030c78fa2773a94fda3a6dc3ce5558a727 net: Segment CHECKSUM_UNNECESSARY GSO skbs other than fraglist
-         
+  - ref: refs/heads/korg-infra-deployment
+    old: 0000000000000000000000000000000000000000
+    new: 06d1a553f0821a0845f42b9bd4dfece63f557fbc
