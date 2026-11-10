@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
-Date: Tue, 10 Nov 2026 14:57:06 -0000
-Message-Id: <179432262683.1654157.7315807311857558478@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Tue, 10 Nov 2026 14:57:36 -0000
+Message-Id: <179432265637.1654674.3795369673711545491@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/linux
-user: david
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/tags/mm-next-fixes-2026-11-10
-    old: 0000000000000000000000000000000000000000
-    new: 9e3717cd2a6422257ff24c0fe6604c21f590c10b
-  - ref: refs/tags/mm-next-2026-11-10
-    old: 0000000000000000000000000000000000000000
-    new: b3cd26be205227ab0e38879627b2428ef99a98f9
-  - ref: refs/tags/mm-test-2026-11-10
-    old: 0000000000000000000000000000000000000000
-    new: 8ae4bd8a64986770ef242fbc6e66ce9d3ccbe0a0
+  - ref: refs/heads/rproc-next
+    old: 672126dce63c94e7897867e4c0e681806c49cf02
+    new: 210278ab8b94f9054aabcdaaa34eab287cb5495e
+    log: |
+         210278ab8b94f9054aabcdaaa34eab287cb5495e dt-bindings: reset: Convert the ti,syscon-reset binding to DT schema
+         
