@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 10 Nov 2026 00:34:04 -0000
-Message-Id: <179427084441.992643.2289516128677237505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 10 Nov 2026 00:34:48 -0000
+Message-Id: <179427088822.993158.11771018056426673002@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
-  - ref: refs/heads/for-7.4
-    old: 412a061ebf8ce0d4d49fc7352dba8d641257b3a6
-    new: d880c62788399ba31da6f41a21194b10e32aee0b
+  - ref: refs/heads/for-7.5
+    old: 1d8212cdfbbe9bb0c1837191917d86d98f77267e
+    new: b526cfdf5d3b8166f17637e9acabfb7c4c2b8f89
     log: |
-         d880c62788399ba31da6f41a21194b10e32aee0b ASoC: SOF: amd: Load alternatively signed firmware with an "_l" suffix
+         b526cfdf5d3b8166f17637e9acabfb7c4c2b8f89 regulator: convert to subsys_platform_driver()
          
