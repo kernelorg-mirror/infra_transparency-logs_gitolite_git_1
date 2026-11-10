@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5027149003865114559=="
+Content-Type: multipart/mixed; boundary="===============4291024505106850955=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 10 Nov 2026 22:11:03 -0000
-Message-Id: <179434866384.2229316.10057182441822236139@gitolite.kernel.org>
+Date: Tue, 10 Nov 2026 22:11:21 -0000
+Message-Id: <179434868138.2229594.10726733509158184821@gitolite.kernel.org>
 
---===============5027149003865114559==
+--===============4291024505106850955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: 56a1b1018838ce281eb47c74e0a118a210a804cf
+  - ref: refs/heads/for-linus/hardening
+    old: 2625480a1bf79c62ffb09aafdf61778e682da492
     new: 7b8cd26b6aab8cf147165610d13964f79200a5a7
-    log: revlist-56a1b1018838-7b8cd26b6aab.txt
+    log: revlist-2625480a1bf7-7b8cd26b6aab.txt
 
---===============5027149003865114559==
+--===============4291024505106850955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1794348662 -0800
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1794348680 -0800
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1794348642-2941d1dd87a182d2aeed64a1129aeca4c382a471
+nonce 1794348678-6e342145a6323e29514a4525067639b315c8d36e
 
-56a1b1018838ce281eb47c74e0a118a210a804cf 7b8cd26b6aab8cf147165610d13964f79200a5a7 refs/heads/for-next/kspp
+2625480a1bf79c62ffb09aafdf61778e682da492 7b8cd26b6aab8cf147165610d13964f79200a5a7 refs/heads/for-linus/hardening
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCavOWdgAKCRA2KwveOeQk
-u0RgAQDsfjQazmV/Tms5lP1FJy7TFtlk0vsLaMnlxJZYupVP5AEAsRvHIAbAJAUZ
-UC9haR5sKtRUdSemSQlt17En5rRjmA0=
-=BQhg
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCavOWiAAKCRA2KwveOeQk
+u9GzAP9eoYasAQY0bjoDiUyh1WjZE8jHZdieyCvc6WD5tP9iSwEAp5LguR58CEb5
+nhAj8RiiKjr8hkCOgUC76q29J34j2g4=
+=wa+g
 -----END PGP SIGNATURE-----
 
---===============5027149003865114559==
+--===============4291024505106850955==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-56a1b1018838-7b8cd26b6aab.txt
+Content-Disposition: attachment; filename=revlist-2625480a1bf7-7b8cd26b6aab.txt
 
 db2c610df81e34d497f49b68a0a1681c3f203bdb eth: bnxt: recycle agg buffers when Rx head buffer allocation fails
 09f10efee6f93863ea71489ce84563f4d51787f6 eth: bnxt: resize Rx head buffers when rx-copybreak changes
@@ -1072,4 +1072,4 @@ e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' o
 7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
 7b8cd26b6aab8cf147165610d13964f79200a5a7 seq_buf: Mark a seq_buf overflowed when terminating it loses a byte
 
---===============5027149003865114559==--
+--===============4291024505106850955==--
