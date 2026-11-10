@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0129385592020200996=="
+Content-Type: multipart/mixed; boundary="===============2850636197147573105=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mm/page_alloc
-Date: Tue, 10 Nov 2026 08:19:38 -0000
-Message-Id: <179429877873.1348671.13281800038606071826@gitolite.kernel.org>
+Date: Tue, 10 Nov 2026 08:21:13 -0000
+Message-Id: <179429887303.1351625.9140709044625058973@gitolite.kernel.org>
 
---===============0129385592020200996==
+--===============2850636197147573105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,33 @@ repo: pub/scm/linux/kernel/git/mm/page_alloc
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/page_alloc/for-next-fixes
-    old: 2c4bc0176b275c4af9b1b1e8f2386ee8dd428d5e
-    new: 2122887b04f3f2d76daa80055c2c273926032fa0
-    log: |
-         213268869301f747d19ca00a391757a6cf2d4fa8 mm: page_isolation: do not take slab pages for free
-         58e81bb7de5aac8ec5e4aa21d401e7dafbd4058b mm/memory_hotplug: resize zones under their seqlock
-         2122887b04f3f2d76daa80055c2c273926032fa0 mm/page_alloc: remove the zone_spans_pfn() check from get_pfnblock_bitmap_bitidx()
-         
+  - ref: refs/tags/page_alloc-for-7.4-rc2
+    old: 0000000000000000000000000000000000000000
+    new: a5c233c18c6bf0e6b0e75e3d5bfaa0016606aaa7
 
---===============0129385592020200996==
+--===============2850636197147573105==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1794298774 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1794298869 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mm/page_alloc.git
-nonce 1794298773-07851635ec254a47b849cbf55aa2baea02be01d0
+nonce 1794298868-447fda540c5c555380a4404e43c5e8810ec9ae45
 
-2c4bc0176b275c4af9b1b1e8f2386ee8dd428d5e 2122887b04f3f2d76daa80055c2c273926032fa0 refs/heads/page_alloc/for-next-fixes
+0000000000000000000000000000000000000000 a5c233c18c6bf0e6b0e75e3d5bfaa0016606aaa7 refs/tags/page_alloc-for-7.4-rc2
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmry05YbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYia8xcH/2m50oADhWalaiZapQyQ
-Ny2KKlTvWnvz6PpT0WsF4iu6LJkwtgFaXQRxLy8CjulsevG3Bvxmjrjk6M1RrhT3
-9OHdRW+MK0NwR0utYgduVWxsDJ1DJSiDagqQ/PfnMqv4nUkmSU1jICNt/NU7Mdut
-B/6gRD6LoQSXnfRoT0RHmEJPYWq4HtZaAb5MvGzpxW7Hy287l14a1bRLSe+OVdJm
-gQ70Xb9+U9fXUtkHvtEAA/CbapxvUWC4b8MHYSGGx7fZsYoI6hAhf9yykQPCTwzl
-0ElhAsJE8+Y+4uC/+b7Ja5OnWB+el2gALW8Lz57V7MvjmLwBi46v0Jtwvl/W+qZP
-qi0=
-=XBy6
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmry0/UbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaHqAH/2UGiDd5yImEWoXkkafp
+cqD5DWKx3lpiH8jSHFMSXzLfdmImXHHkjuK7Y+5B7iI9SBw2d8IUEHpym3RChEDq
+otWbcFwwmRGeSxyqUjdc25g3UmFuogEl1abtqbuPsF3oexds8P/PNZHzQxNKQucH
+BwX2yYeAsWBRZMrTRKFsK2xEVz2erZOYzuUMsi42NegLw+yWl1Nj5lYdZyH95gCR
+W/mZgKthJem0hvtcinqBykMAUWzZ3a4dmEAWeztXbs2NFC20XvRXpZjPKhmhkNyZ
+ftHUwStozSxafG28KOEceXi0fPQHV1YDOCjJJKc/49aMIk7m7QkVJ3VIphLoJ0pg
+Xx4=
+=T3s4
 -----END PGP SIGNATURE-----
 
---===============0129385592020200996==--
+--===============2850636197147573105==--
