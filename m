@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7107916913466204468=="
+Content-Type: multipart/mixed; boundary="===============8154645474399816147=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 10 Nov 2026 07:39:50 -0000
-Message-Id: <179429639011.1319035.15986563400928998872@gitolite.kernel.org>
+Date: Tue, 10 Nov 2026 07:40:14 -0000
+Message-Id: <179429641481.1321317.12910666363222608281@gitolite.kernel.org>
 
---===============7107916913466204468==
+--===============8154645474399816147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,45 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 135ba290b88f642bdf6a8fd6910c274986346561
-    new: d7e42330fa60faaa253e11c844f14dd2def908b8
-    log: revlist-135ba290b88f-d7e42330fa60.txt
+    old: d7e42330fa60faaa253e11c844f14dd2def908b8
+    new: 067b20446fa9a507251a01f7f7bd1cc711941124
+    log: revlist-d7e42330fa60-067b20446fa9.txt
+  - ref: refs/heads/tip/urgent
+    old: d273f60c362fc602bed7a627e0e1d1d0a9ce0e30
+    new: 9e0a9e4ae7e85dead09b036898b4924b650e484a
+    log: revlist-d273f60c362f-9e0a9e4ae7e8.txt
 
---===============7107916913466204468==
+--===============8154645474399816147==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-135ba290b88f-d7e42330fa60.txt
+Content-Disposition: attachment; filename=revlist-d7e42330fa60-067b20446fa9.txt
+
+c906b784b6a5906d4541b19a6702bb8057e9bafc Merge branch into tip/master: 'core/urgent'
+35e3c21bcdce1057545c97a966d054e08efa0edd Merge branch into tip/master: 'perf/urgent'
+b109a5c439349887bcac5abd8c04fc6f60a01e0f Merge branch into tip/master: 'sched/urgent'
+d172e9fd1b70a3c6804bc568214e6dc1569f2681 Merge branch into tip/master: 'timers/urgent'
+9e0a9e4ae7e85dead09b036898b4924b650e484a Merge branch into tip/master: 'x86/urgent'
+2ad4d9ce715bee51c0c97e533c1a16850def6f74 Merge branch into tip/master: 'core/rseq'
+d26142e24911918adcc0e21e999fb5707a9a2312 Merge branch into tip/master: 'irq/core'
+10cb8ebb9e9b4d2b0633103830bedaf8e75c69aa Merge branch into tip/master: 'irq/drivers'
+a93b9917e64bd2153a36d9b83ceb753c2b1eba95 Merge branch into tip/master: 'irq/msi'
+3c767b14a88d44b19fbfb191786c126db8c9610d Merge branch into tip/master: 'locking/core'
+6d853bc61dc9aba21bdbe95a60e7eed97518a5cf Merge branch into tip/master: 'sched/core'
+5df6bc806401e13892773c794f72d641e1169d43 Merge branch into tip/master: 'timers/core'
+c6be2a6fde858eb73d101d687a9622890da5f6a1 Merge branch into tip/master: 'timers/nohz'
+b77705a8919b4b0f20a76c5188a8825f9284404e Merge branch into tip/master: 'timers/vdso'
+4310ad3f63532791f7ed8d87261558cbec7be34f Merge branch into tip/master: 'x86/apic'
+4e031f7009addb2d0212c769fd311a16cfef6b05 Merge branch into tip/master: 'x86/cache'
+62b614c2ad407879f62cdbf9c319b5c872f3ae57 Merge branch into tip/master: 'x86/cleanups'
+e61796db90a5d1afc7aca5a0d197181c655f8c4c Merge branch into tip/master: 'x86/misc'
+067b20446fa9a507251a01f7f7bd1cc711941124 Merge branch into tip/master: 'x86/sev'
+
+--===============8154645474399816147==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d273f60c362f-9e0a9e4ae7e8.txt
 
 6a658cc2d605e5acf35e638c62f480460d5939cd kprobes: Fix error return and slot leak in __register_kprobe()
 2053bac1d6e47b33fa2e570c87518395e64f7da0 kprobes: Fix double free and NULL deref in unregister_kretprobes()
@@ -44,28 +74,21 @@ be94710b1f6ba1bea33e73129c110af80e999b2d tracing/eprobe: Install the trigger for
 0be7a931c5e41dcfdaf297f5cd34def2696b0a7e kprobes: Disarm disabled optprobe on forced unoptimization
 ce9bc14902d1c27b6c0eac25666e2516e13f2b19 kprobes: Do not disarm unhashed optprobe on dispatch
 1ffd6efb1b58e596ed70f660182803264a4c84d9 kprobes: Arm reused optprobe on cooling list
+2727aca4439ee4b9085141a3babadc8de580397f vdso: Add VDSO_UNALIGNED_PACKED config option
+5e85b36768b7bba53a55b1c9a1b1cdcab3684634 tools headers: Update the vdso/unaligned.h copy with the kernel sources
+75b1663222d7aa0b3c33cc3522a347757e6d1d26 entry: Fix return type of syscall_trace_enter()
+efe191f1605a149b06eb0fe1ff975e7d3137c9bb entry: Complete syscall_enter_from_user_mode_work() to bool migration
+385b5ec1f31dd39297578eed42be74b07ae74017 timekeeping: Read getboottime64() offsets under the sequence counter
+c49b3c20a2d0b22700e2100a527e68e829ece7f0 tsacct: Keep task begin times stable across suspend
+67f1969e29b692ab3cfcc97ba175b9109212de00 timekeeping: Reject cross timestamps for invalid AUX clocks
+c1b96ba87e3caaa701d6dba254e58db7cc3c99be timekeeping: Refresh auxiliary base before offset validation
 e4fb7e5e8e7e9edc167c3057802e440b77dcb856 Merge tag 'probes-fixes-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 f1bfe4003916a6d56e43b08698f38bad4443bcf4 Merge tag 'keys-v7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 b3dfbde62cf1981c4638939c159dfd087b7a72e9 Merge tag 'linux_kselftest-fixes-7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-519aa715b644a23dfdc6141b5cc60fd9d75c3736 Merge branch into tip/master: 'core/urgent'
-50690b139e61b455919b02df4aa5fc74e98b50a4 Merge branch into tip/master: 'perf/urgent'
-2c809559b277b685c05c7af0112aa99a1578ec4a Merge branch into tip/master: 'sched/urgent'
-93bbf458941a04d4f12df35195a5c4504e534220 Merge branch into tip/master: 'timers/urgent'
-40fa5bdd2f97615e623b580727a7f4ce7bf0d41a Merge branch into tip/master: 'x86/urgent'
-c952c9c223652d52bf0f8d84bc9653b65e78e8e7 Merge branch into tip/master: 'core/rseq'
-c299c3bbce69d0aa34c01475ef729963348c1330 Merge branch into tip/master: 'irq/core'
-2bd6824943edb4f09f06187c6ccd19fff010be45 Merge branch into tip/master: 'irq/drivers'
-4b5dd0905464e33575ae1b73e6cf461d9a4e3cfa Merge branch into tip/master: 'irq/msi'
-a26bb90a66bb1aefa689c149f6ffad4b9e6a9873 Merge branch into tip/master: 'locking/core'
-529b505890540461034aaa96101fa9381c616461 Merge branch into tip/master: 'sched/core'
-0c4cfd38d1ce3c5a0a476cf0b6032be26f3f7899 Merge branch into tip/master: 'timers/core'
-2f89abf83e112c36e6199038e2723b3272e25adf Merge branch into tip/master: 'timers/nohz'
-759e96f1347c0dbec95d30589018a867292d7dba Merge branch into tip/master: 'timers/vdso'
-5ef0377275b40631cd5c8994ea803f9bcd0649e7 Merge branch into tip/master: 'x86/apic'
-fe7c2ba4fa25a7e4c8e3ace0b808e77b9449bb25 Merge branch into tip/master: 'x86/cache'
-7598f4cb66b65afd4324ecfeb6913bdcaedcacf8 Merge branch into tip/master: 'x86/cleanups'
-1503508b55522776b0dea1b1fd6cfd023a18a662 Merge branch into tip/master: 'x86/misc'
-6d5815233bbc840df57eba7760242928ce2dcf00 Merge branch into tip/master: 'x86/sev'
-d7e42330fa60faaa253e11c844f14dd2def908b8 Merge branch 'linus'
+c906b784b6a5906d4541b19a6702bb8057e9bafc Merge branch into tip/master: 'core/urgent'
+35e3c21bcdce1057545c97a966d054e08efa0edd Merge branch into tip/master: 'perf/urgent'
+b109a5c439349887bcac5abd8c04fc6f60a01e0f Merge branch into tip/master: 'sched/urgent'
+d172e9fd1b70a3c6804bc568214e6dc1569f2681 Merge branch into tip/master: 'timers/urgent'
+9e0a9e4ae7e85dead09b036898b4924b650e484a Merge branch into tip/master: 'x86/urgent'
 
---===============7107916913466204468==--
+--===============8154645474399816147==--
