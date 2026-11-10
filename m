@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 10 Nov 2026 14:15:06 -0000
-Message-Id: <179432010632.1618342.4305991690894956542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
+Date: Tue, 10 Nov 2026 14:17:50 -0000
+Message-Id: <179432027024.1620671.17406725152528738891@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/linkinjeon/smb
+user: linkinjeon
 changes:
-  - ref: refs/heads/main
-    old: af6f95c3300e3d234c813b80f831dd7b80b3eaf2
-    new: ba1dc196502f3435f4ae53ed6745caacf066f83e
+  - ref: refs/heads/ksmbd-for-next
+    old: 0383a66dabd7aa06237b9b24713c03656abeffe4
+    new: 265709f9dc271693d1a261a62242db652fcc471d
     log: |
-         ba1dc196502f3435f4ae53ed6745caacf066f83e net: dsa: microchip: initialize the IRQ access mutex
+         265709f9dc271693d1a261a62242db652fcc471d ksmbd: refuse reauthentication of an expired session as another user
          
