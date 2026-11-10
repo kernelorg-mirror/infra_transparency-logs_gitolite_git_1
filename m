@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4920236070376060642=="
+Content-Type: multipart/mixed; boundary="===============7571887390471349521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Tue, 10 Nov 2026 09:21:21 -0000
-Message-Id: <179430248153.1393418.8275480655459194656@gitolite.kernel.org>
+Date: Tue, 10 Nov 2026 09:21:31 -0000
+Message-Id: <179430249168.1393683.2919803311047042702@gitolite.kernel.org>
 
---===============4920236070376060642==
+--===============7571887390471349521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
-    old: a2628ce4ddb6873e35380a42396d17a66e704a1a
+  - ref: refs/heads/loongarch-next
+    old: 6f8d12bb1a1231dbba579932772701880745a21d
     new: 422e532809572ba1043192bf6a0c653bc68b3140
-    log: revlist-a2628ce4ddb6-422e53280957.txt
+    log: revlist-6f8d12bb1a12-422e53280957.txt
 
---===============4920236070376060642==
+--===============7571887390471349521==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a2628ce4ddb6-422e53280957.txt
+Content-Disposition: attachment; filename=revlist-6f8d12bb1a12-422e53280957.txt
 
 dbd62ad55a4c898f5a4c9edb20c0c062afb799df tcp: avoid double destroy in tcp_abort() of an unaccepted child
 7a82f9a06459ff1c37b5e97b204430442cc076e3 apparmor: fix check SCTP bind, and connect permission checks
@@ -1051,4 +1051,4 @@ a9ce1a00afb0402668877d37c04ffd0e53d48832 LoongArch: KVM: Clear device pointer in
 20f3bf3d3dce16f43b82881293586ce7d73982b6 LoongArch: KVM: Propagate real error code in kvm_pch_pic_create()
 422e532809572ba1043192bf6a0c653bc68b3140 LoongArch: KVM: Reject repeated PCH-PIC CTRL_INIT
 
---===============4920236070376060642==--
+--===============7571887390471349521==--
