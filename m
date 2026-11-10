@@ -1,43 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============1130315583524706724=="
+Content-Type: multipart/mixed; boundary="===============3439304080061058078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 10 Nov 2026 02:51:46 -0000
-Message-Id: <179427910684.1110895.15486054587778671469@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Tue, 10 Nov 2026 02:54:48 -0000
+Message-Id: <179427928876.1111928.12841547770811442046@gitolite.kernel.org>
 
---===============1130315583524706724==
+--===============3439304080061058078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/rcu/linux
+user: jfern
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 13a8d580433a3b72b10be34f0e26787fe5659d3c
-    new: cc905a18a647a8e3ad42cd1596baa0e08fba26eb
-    log: revlist-13a8d580433a-cc905a18a647.txt
+  - ref: refs/heads/next-7.5
+    old: 4faf8b58fb55afc8f99e97fb50db45e694ff2e6a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/rcu/next-7.5
+    old: 8badbe9575807cc8574c105f3b733e7a73a5486c
+    new: 4faf8b58fb55afc8f99e97fb50db45e694ff2e6a
+    log: revlist-8badbe957580-4faf8b58fb55.txt
 
---===============1130315583524706724==
+--===============3439304080061058078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-13a8d580433a-cc905a18a647.txt
+Content-Disposition: attachment; filename=revlist-8badbe957580-4faf8b58fb55.txt
 
-913b2a19392264afde8a2f536060c8bac82c6665 perf tests: Assign return value of ioctl in wp_modify test
-a6093b647e9470b20f2f4d529755ec65d3deef6f perf tests: Use TEST_ASSERT_EQUAL for all watchpoint tests
-e58fcd03a9122a27f80abbd6d4c933024cc4103f perf vendor events riscv: Add C-SKY C930 JSON file
-45876a58a3eeeba64cb049e507b26ce89c39b355 perf iostat: Preserve the port count when growing the list fails
-20861a6c5517e9ccc81fb1d48b58838d49bc08a2 perf iostat: Reject incomplete and out-of-range port strings
-9d7f641db546077f5d96beb2a9d25ebe5b421979 perf tools: do not call zfree() on uninitialized pointer
-ee8f08d46253b0479f48446f17b328aba2548af8 perf tools: do not call list_for_each_entry_safe() on uninitalized list
-59378b2f8acf7bc48a933c86fcbe2f1d24cd41ee perf tools: initialize and destroy error list in test__pmu_config_helpers()
-067825ac4351cfbedbd80571b82caf750949fe4d perf machine: Fix NULL deref in machine__is_lock_function()
-7389712adf34a5b376ff895c20b53a4a06ba07cf perf data: fix inverted strncmp() in has_kcore_dir()
-7c673b2aed687745d4ba60a19355a3f47a9e9d2e perf hist: Fix branch_info index for sample weight
-c5b5ba66b5776524cd3d45a05dd64424c62989a7 perf evsel: fix buffer offset when building the EPERM error string
-cc905a18a647a8e3ad42cd1596baa0e08fba26eb perf test: Add LBR call stack branch filter test
+de10c95ed529f8d58f15df8f3d7bc38ce6233616 rcu-tasks: Track barrier callbacks in debugobjects
+375d4fbc79efdceb3ea9353aa7c65b3caf1d9d31 scftorture: Reject empty workloads before starting helpers
+7e3b471dcb0ff8c7619f7ddaa5c4859620e41898 scftorture: Protect the initial affinity check from hotplug
+ead4fe031c4d862882414d30c3039e997d3a393a kasan: Avoid an unrelated RCU warning in the callback test
+0f173c1ba0d61a8c21665d81fcdec9d7324cc88b MAINTAINERS: Add scftorture to TORTURE-TEST MODULES
+5dee529a63f1a500d56a8b9e5ebdb147e1ee055a rcutorture: Enable RCU_BOOST where supported
+bab17af10ba250c5d2524e160bbefde9c0e386fd rcutorture: Disable RCU priority boost testing on non-TREE03 scenarios
+4bf0add1e6ad90874def3bce88f3c890169ced4b Documentation/litmus-tests: Add SRCU fastpath anchor-before-scan test
+68ab42e0e562a08661ac2989626cee8fe31096d4 Documentation/litmus-tests: Add SRCU fastpath scan-before-anchor test
+38b0d5d247b9fc5243aa3e0b93e8c39777289650 rcuscale: Add srcua scale type
+254ad59e8c5ee8ace6df718fe2567938edbca690 rcu: Print CPU that preempted stalled reader wants to run on
+b8e13c1688e8ecefcb1f4377becd5dfa80f19adf doc: Document additional RCU task-stall dump information
+4faf8b58fb55afc8f99e97fb50db45e694ff2e6a [TBC Puranjay] rcu: Preserve deferred lists while checking duplicate callbacks
 
---===============1130315583524706724==--
+--===============3439304080061058078==--
