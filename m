@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 10 Nov 2026 20:26:32 -0000
-Message-Id: <179434239295.2148994.1913251560258049783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 10 Nov 2026 20:33:16 -0000
+Message-Id: <179434279699.2153350.17819048009755335414@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 184ee52965c3244d983e982f27fcbb2b20c8b5f6
-    new: 8959c2030f5c2766c7a5b81705b37d0fa3e6d9e1
+    old: ec7b283e11e4b3fd2fea87b326f30a00e5ca0df0
+    new: 4cc0a3f897074cea28dae38f1cd9bb230dae5d86
     log: |
-         8959c2030f5c2766c7a5b81705b37d0fa3e6d9e1 net: stmmac: release MDIO node if bus data allocation fails
+         4cc0a3f897074cea28dae38f1cd9bb230dae5d86 tun: delete the flow entries of the moved queue on detach
          
