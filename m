@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0850796801951155034=="
+Content-Type: multipart/mixed; boundary="===============1246887929250087944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 10 Nov 2026 14:55:00 -0000
-Message-Id: <179432250098.1649206.16579153239827688728@gitolite.kernel.org>
+Date: Tue, 10 Nov 2026 14:55:05 -0000
+Message-Id: <179432250582.1651355.13837803758735556218@gitolite.kernel.org>
 
---===============0850796801951155034==
+--===============1246887929250087944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: b95f8bb86713c860ce8536d22a988b949b884d5f
-    new: 488f62a72b8ea866bdb00262e909ea601fa2e707
-    log: revlist-b95f8bb86713-488f62a72b8e.txt
+  - ref: refs/heads/mm-unstable
+    old: b024a51b0184b1efb6f55b11aaf7b15a490a6307
+    new: 93d7a816a2df3e907e2719bd12b0073f1285fc5c
+    log: revlist-b024a51b0184-93d7a816a2df.txt
 
---===============0850796801951155034==
+--===============1246887929250087944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b95f8bb86713-488f62a72b8e.txt
+Content-Disposition: attachment; filename=revlist-b024a51b0184-93d7a816a2df.txt
 
 e6c06319f16b6f43c98479295a863de8eb9b7766 mm/kasan: detect double-free involving kfree_rcu_sheaf()
 b9b0cd80c0ff00f8298ef066b5714cd373f3b894 mm/kasan/kunit: add double-free tests involving kfree_rcu_sheaf()
@@ -237,23 +237,5 @@ ba6c046faaef1b935eeb415462943dd201f12cbd selftests/mm: pkeys: wait for the child
 42f0e0c0bd9b550ea842a09c73404aae0fb57785 mm/page-writeback: avoid unnecessary strictlimit background wakeups
 f2b7e110ca27750de50b8cbe314abc613116c3ad mm/mprotect: don't skip uffd marker install when racing with PTE table reclaim
 93d7a816a2df3e907e2719bd12b0073f1285fc5c fs/proc/task_mmu: fix lost maps entries above 2^63
-7e7b91ed6b5a126b732e84b03027f4957c3aaa34 arm64/mm: add vmap_pte_set_huge() and vmap_pte_clear_huge()
-b51822c297388da28149ec427f5558baa17152ad powerpc/8xx: add vmap_pte_set_huge()
-2f7fef1a52e55171620696a187b5d653f475f0bb mm/vmalloc: use vmap_pte_set_huge()/vmap_pte_clear_huge() for PTE-level block mappings
-9eeb2ae3ba5a3fa3cd72a692cc179aad60952b26 arm64/hugetlb: drop the init_mm special case in clear_flush()
-7ab4bb4c65f84302cac5af6741b5a092265eed90 arm64/vmalloc: allow arch_vmap_pte_range_map_size() to batch multiple CONT_PTE
-87f618bb7a607fdf816de22302f269f9c1f95ae0 mm/vmalloc: extract vmap_set_ptes() to consolidate PTE mapping logic
-24bbe1c56f63a22dba3d647e339f4493fa4d4a35 mm/vmalloc: extend page table walk to support larger page_shift sizes and eliminate page table rewalk
-35e9caf6349f9a35ba1225258ae58fe5e137ca68 mm/vmalloc: extract vm_shift() to consolidate mapping shift selection
-ccd264101b678b9bc895ed105254e525b66e1fd8 mm/vmalloc: map contiguous pages in batches for vmap() if possible
-f6ab218672d8b5c80ed61cd189d9f41f66122485 mm/vmalloc: align vm_area so vmap() can batch mappings
-d1ae92e35fb43d56f656c0a85c2569606d3bb725 mm: skip empty finite ranges in truncate_pagecache_range
-70f2949d4e06949162ede88334881003089ab99e tools/mm: add page_owner_filter to .gitignore
-203a99370b844bef9f5f73076505b4b4422c853b mm: free unused page table allocated by do_set_pmd()
-39d58dda483973d3e8bfe57742a4f9f0d8feb6d6 mm/damon/core: use list_{next,prev}_entry() in damon_{next,prev}_region()
-2ff538cff5bf2a57a708c80e862668cc509399a8 Docs/admin-guide/mm/damon/reclaim: improve language
-f7999f5c34fae42627a2d63f628b170867ce2223 mm/vmalloc: reject overflowing vm_map_ram page counts
-5ba6d5e052d33079ec0d18eaf561001e1c658d1b mm/migrate_device: allocate deferred split sublists for new huge folios
-488f62a72b8ea866bdb00262e909ea601fa2e707 riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============0850796801951155034==--
+--===============1246887929250087944==--
