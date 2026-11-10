@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Tue, 10 Nov 2026 22:45:55 -0000
-Message-Id: <179435075587.2258038.5507997269904961164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
+Date: Tue, 10 Nov 2026 22:49:10 -0000
+Message-Id: <179435095039.2259246.12368173595808466523@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/bmc/linux
+user: arj
 changes:
-  - ref: refs/heads/next-integrity
-    old: ede1d814985d48fceb4079cb4507d468c582db49
-    new: 502f4ebab92ac450f0d5f30f8751c6b43eb8ceef
+  - ref: refs/heads/aspeed/arm/dt
+    old: 6767ba3efdda2d27e5eab719db39a7ed98d28b35
+    new: 3251db5e8a31b456ff9b841d73412a22735a7416
     log: |
-         f290f959224886ee3f499deb9c15dd35cf44bc2e evm: check return values of crypto_shash functions
-         502f4ebab92ac450f0d5f30f8751c6b43eb8ceef evm: Bound writes in evm_read_protected_xattrs() to buffer_size
+         32fcccf06b71f6f0527c2924c861986b721431ff dt-bindings: arm: aspeed: Add ASRock X470D4U BMC
+         3251db5e8a31b456ff9b841d73412a22735a7416 ARM: dts: aspeed: Add ASRock X470D4U BMC
          
