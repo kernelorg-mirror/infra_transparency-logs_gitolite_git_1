@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/hfs
-Date: Tue, 10 Nov 2026 00:50:08 -0000
-Message-Id: <179427180881.1008959.11249790396290804172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 10 Nov 2026 00:57:31 -0000
+Message-Id: <179427225102.1013429.10947371316097267546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vdubeyko/hfs
-user: vdubeyko
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 672cdc669f72af05eadc405ef273cadea0ed41eb
-    new: fcb64cbce5fa49f6a2eeddf2ae6be531bc401f80
+  - ref: refs/heads/asoc-7.4
+    old: d880c62788399ba31da6f41a21194b10e32aee0b
+    new: 8f356232d0d563b82f201d75167a84f6c75a4554
     log: |
-         7df459ea9f436b43e68df863e44376d350e03258 hfsplus: set s_maxbytes from the volume capacity
-         fcb64cbce5fa49f6a2eeddf2ae6be531bc401f80 hfs: set s_maxbytes from the volume capacity
+         8f356232d0d563b82f201d75167a84f6c75a4554 ASoC: amd: acp: Add Lenovo Legion 5 15AGP11 to ACP70 override table
          
