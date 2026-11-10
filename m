@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 10 Nov 2026 18:38:59 -0000
-Message-Id: <179433593962.2064180.13949604401914507114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 10 Nov 2026 18:39:03 -0000
+Message-Id: <179433594359.2064443.191565138447250881@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 2f14be6c9b9edb6dd501d54eafcad9e7329b0ef0
-    new: 184ee52965c3244d983e982f27fcbb2b20c8b5f6
+    old: b66fca408bf85bb40f48a689daac75421f5283f8
+    new: a978095699641d4f83a32b499a981c419c94abca
     log: |
-         4e56f129ba3f99649293a5ba144ac33e9471e9cb net: phy: aquantia: Add support for 5GbaseR
-         184ee52965c3244d983e982f27fcbb2b20c8b5f6 net: phy: aquantia: add get_features() for AQR113C
+         a978095699641d4f83a32b499a981c419c94abca bonding: fix slave_cnt leak on XDP enslave failure
          
