@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-Date: Tue, 10 Nov 2026 01:15:54 -0000
-Message-Id: <179427335466.1036121.12270389706207508107@gitolite.kernel.org>
+Date: Tue, 10 Nov 2026 01:16:44 -0000
+Message-Id: <179427340452.1036715.4583532728879172388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
 user: kuninori.morimoto.gx
 changes:
-  - ref: refs/heads/renesas-lts/v6.18.61-2026-11-09-sparrow-hawk
-    old: 0000000000000000000000000000000000000000
-    new: 881bb7874a51079323a123ab7ca1a603309f9bf6
-  - ref: refs/heads/renesas-lts/v6.18.62-2026-11-09-sparrow-hawk
-    old: 0000000000000000000000000000000000000000
-    new: 42eeb75ffabd78125eb587233305786b74635a32
+  - ref: refs/heads/renesas-lts/v6.12.116-2026-11-09-sparrow-hawk
+    old: 6bfa893ea96a40a97c429b645bfaaa8869e6c173
+    new: 0000000000000000000000000000000000000000
