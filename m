@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Tue, 10 Nov 2026 23:26:02 -0000
-Message-Id: <179435316235.2288516.14063981061578874782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 10 Nov 2026 23:26:03 -0000
+Message-Id: <179435316362.2288699.3939183069399531275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 8d4acab5afe2363223acdfbee1ed9806c7f76db1
-    new: cfedf6558e21c772986da6df7a237a80c7db4350
+  - ref: refs/heads/main
+    old: 6a01fb125ba6474cb97f14b68fe5435d3cdd08e5
+    new: 8b67debdfbf6b370312ebec5c9e0a1c39b5c7733
     log: |
-         85232d187a7960a1532b22d96465a28e9eedf6f3 fbdev: simplefb: Add mono framebuffer format
-         cfedf6558e21c772986da6df7a237a80c7db4350 dt-bindings: display: simple-framebuffer: Document mono format
+         8b67debdfbf6b370312ebec5c9e0a1c39b5c7733 net: skbuff: uncharge trimmed zerocopy frags on error
          
