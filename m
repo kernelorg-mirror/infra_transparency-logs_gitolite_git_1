@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 10 Nov 2026 19:33:22 -0000
-Message-Id: <179433920224.2108487.506328722504088602@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/knsathya/linux
+Date: Tue, 10 Nov 2026 19:35:31 -0000
+Message-Id: <179433933153.2111282.10314504125016790558@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/knsathya/linux
+user: knsathya
 changes:
-  - ref: refs/heads/for-7.4
-    old: e5c09fe3f9c8d9da33b177ee432db15b6ab46884
-    new: d00ba321499c0050872d70c41d86069f1d52c248
+  - ref: refs/heads/dpc
+    old: 937e0a237fcf890b153f5bced17285f963900753
+    new: 1bdecc7c84d15562a6968dbaeaa0b2c0d0d46f8b
     log: |
-         d00ba321499c0050872d70c41d86069f1d52c248 ASoC: soc-core: reset rtd->num_components after allocation
+         3280b10611e73f3fff0bb48c7a47a903c5f19365 PCI/EDR: Build EDR whenever DPC is enabled on ACPI
+         573816ddee5b13589c45cbd5c02d077886d07973 PCI/portdrv: Don't require AER to bind DPC service
+         d2fe81cdd2c6c1a1dbdd4244c3ddd9491ad53ebf PCI/ACPI: Request DPC control only together with AER control
+         1bdecc7c84d15562a6968dbaeaa0b2c0d0d46f8b PCI/portdrv: Bind DPC service based on host_bridge->native_dpc
          
