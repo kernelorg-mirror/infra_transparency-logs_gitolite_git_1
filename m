@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/knsathya/linux
-Date: Tue, 10 Nov 2026 19:35:31 -0000
-Message-Id: <179433933153.2111282.10314504125016790558@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Tue, 10 Nov 2026 19:36:41 -0000
+Message-Id: <179433940107.2112048.7409811399237413394@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/knsathya/linux
-user: knsathya
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/dpc
-    old: 937e0a237fcf890b153f5bced17285f963900753
-    new: 1bdecc7c84d15562a6968dbaeaa0b2c0d0d46f8b
+  - ref: refs/heads/for-7.4-fixes
+    old: 3b1ce3e0ccba4aadbf6330a5ed8bda78f0c9353a
+    new: fcbff7b56a881bbe041b6c5ba12831a3c1ac1bb4
     log: |
-         3280b10611e73f3fff0bb48c7a47a903c5f19365 PCI/EDR: Build EDR whenever DPC is enabled on ACPI
-         573816ddee5b13589c45cbd5c02d077886d07973 PCI/portdrv: Don't require AER to bind DPC service
-         d2fe81cdd2c6c1a1dbdd4244c3ddd9491ad53ebf PCI/ACPI: Request DPC control only together with AER control
-         1bdecc7c84d15562a6968dbaeaa0b2c0d0d46f8b PCI/portdrv: Bind DPC service based on host_bridge->native_dpc
+         fcbff7b56a881bbe041b6c5ba12831a3c1ac1bb4 sched_ext: make DSQ iterator stay drained after NULL
+         
+  - ref: refs/heads/for-next
+    old: dbb3f51f4212b7f27f88cbfa9aba1416b9212c9e
+    new: 14493833dfa92aec66aa554bb8d7a3560cd26e11
+    log: |
+         fcbff7b56a881bbe041b6c5ba12831a3c1ac1bb4 sched_ext: make DSQ iterator stay drained after NULL
+         14493833dfa92aec66aa554bb8d7a3560cd26e11 Merge branch 'for-7.4-fixes' into for-next
          
