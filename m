@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1502585223900730844=="
+Content-Type: multipart/mixed; boundary="===============6658277029137938344=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jberg/iw
-Date: Tue, 10 Nov 2026 08:07:49 -0000
-Message-Id: <179429806910.1339516.5824895619140866529@gitolite.kernel.org>
+Date: Tue, 10 Nov 2026 08:09:53 -0000
+Message-Id: <179429819351.1340677.8876455925488555147@gitolite.kernel.org>
 
---===============1502585223900730844==
+--===============6658277029137938344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,39 +17,39 @@ user: jberg
 git_push_cert_status: E
 changes:
   - ref: refs/heads/main
-    old: e86c54660e67af2382cb15ee21fa756cf5206c4e
-    new: 916a349d73af9911cd9043a6d5e93f8f4bc2d59d
+    old: 916a349d73af9911cd9043a6d5e93f8f4bc2d59d
+    new: 620ecbc573956a5d8024b27e54b632cc0fd6d118
     log: |
-         916a349d73af9911cd9043a6d5e93f8f4bc2d59d iw: scan: print Time Advertisement and Time Zone elements
+         620ecbc573956a5d8024b27e54b632cc0fd6d118 iw: add support to parse UHR capabilities
          
 
---===============1502585223900730844==
+--===============6658277029137938344==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1794298062 +0100
+pusher 7BF9099A 1794298189 +0100
 pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/iw.git
-nonce 1794298062-ad3f770ea7aec26f4efbcc1a62e37bc43b704c02
+nonce 1794298189-a063f74d544034e14a4b9f31246549d2cb80b3f2
 
-e86c54660e67af2382cb15ee21fa756cf5206c4e 916a349d73af9911cd9043a6d5e93f8f4bc2d59d refs/heads/main
+916a349d73af9911cd9043a6d5e93f8f4bc2d59d 620ecbc573956a5d8024b27e54b632cc0fd6d118 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmry0M4ACgkQ10qiO8sP
-aABdAhAAgAhynbkPYhC2Gg89vb6vxXcyaNBmnZ5lhYk+DoUJuHKYJBBl6398TMKg
-99XV/VgEFuahYMHN1I0aECTecG9hvv2v6qurQQ4oMrE9fkJ2Rg8CXdd6gMIbIVtU
-ci71163Iux4FWCJLkZIOmB+bfRBkQntN/LRUV6A7BRV+Ee+fDDzRGaBYBV+6SNMA
-8NTJcXseWx1YcijC5rPtD4Eb/cPu8P3kRApPByZGj/Mtn+ZAJRD7gtPoruJagKC1
-XjLHRFg3U5wgTGF03Bap4miEDqpA2ygbLQ3HUE175ibFz+wrOnWt6qi6lYXHj1Qg
-USprNOBCIBAiuUoZzQWTmUFWFZl7eol606ePOPpectr+NfOwfuJcAQq8qPMNoMzB
-l2xJgwJUwqf+P64GwtogxxjU6mabLBbwCrJadit/57GEhbGLTmxvJxpfizEF02Cq
-lXj7+14HWru6/vwgVfYGzIrLt2ntM0lFeCKixQQaCcsuMh2CJBDj/Q9LYiHhB+Kn
-biyybiVqb8cS0KpqQGEv3Qkuux88DD97DSvPEw/hN2LJ3vsFHV6hB8qtcSsRiO7V
-BtnOMfmuFSsyWPOOqLoj8kX+8W2ZSZhHxl7NUx4cU1JOPmppExMTn8iG+CHshSJk
-FHw2jE5s1JqRHDzdvlw7fLZu3+TTZnCmkR8FR250XDAowCOI5WQ=
-=i76n
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmry0U0ACgkQ10qiO8sP
+aABm8A/9FGU7hDom/v44mRasJW8vuy/j2zOsbUjPU9cFEZbtMmkEOl0pXAnjlvoo
++gr0ymhxLYzWjBFeoS/ZfPvYbcjffOLhmphufjsUnXxY/bj2lTPYfpTjEgCh1TTJ
+M+Q0XMb8pnUB9HP8XRk5bgxoUNADH70tz9pugLT7DBUI0fglylGNsJOs5QchADV4
+CY7+y1aJAKyU0btqb82CZNFrTxPBsnMN3dXW9EcqBj/kwDlZJwJu1TOOiM7qdMZA
+cYhFlqmyKnsRffqyBDQSzUh8F9DSNeXKVq5A8XEKRuxbZ03phdMvcHwiE0L8pwUg
+GLdKsrZHGBFEfUU+ki3e/jKzjyIwl8Rrz1FwJpV+qA+QZmc/P9boNHE7Z5YZf8bY
+hnTSNvBuMmNFjtHNTVrJ3THy/948mELC7GVW6/PB+RFApbPqq5Ahv+9hz+rXV7yS
+Un9GftCOtekbv4vkWo1Yephnt64uRIfSDAGNCy+62kF7qQT1Q7QNlfZjnf+8krRN
+HlKaPlkeaSzdmT5WRVjOExI/QToPEgmWJrpJF07YOIiZX7Itwk6RH/ZLjn1VQD0i
+aPkM54ck424Ry8ne+8GACQ8ujrcZRzLvsX056MipQBTnDA8bU2bl8+SSkeuSIYav
+aFTv3IGgQktk/AgqEAZcK2x08QSGc3I9A/FQt72oD9RETVqXl7U=
+=aaj6
 -----END PGP SIGNATURE-----
 
---===============1502585223900730844==--
+--===============6658277029137938344==--
