@@ -1,28 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 10 Nov 2026 14:56:46 -0000
-Message-Id: <179432260652.1653332.3850596951541672798@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7055208899442568963=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
+Date: Tue, 10 Nov 2026 14:56:50 -0000
+Message-Id: <179432261023.1653592.1913530247349192439@gitolite.kernel.org>
+
+--===============7055208899442568963==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/mm/linux
+user: david
 changes:
   - ref: refs/heads/master
-    old: 6258bd3f385821f4b278ca59ea045678f37d8a85
-    new: 7d38ff2cfe0b0345793d9509f69e5f8fb328896c
-    log: |
-         538f99e8cf63ea685c75beeffa1dea73e89a5647 patches/next: 2026-11-09 repost hotfix: wordsmith
-         bd0b8cd0fda1d296ae26f39884e9106233d15894 patches/next: 2026-11-09 hotfix repost: add proactive changelog
-         4142fd7811e33e028c45a8ea381ce3bc83a25aad patches/next: 2026-11-09 non-hotfix repost: wordsmith
-         80964c2e41463940ea94f15e55a8b148d371e25d patches/next: doc improvment from Manuel: wrap commit mesage for 75 chars
-         d870fc62ffa2308ad4989a6d928cf0ad88d8e7df todo/change: update
-         b793f203f3f122b0406e66be3a7d349d9f8360a0 patches/next: 2026-11-09 repost: add proactive changelog
-         1be82a9c5580dd083f615e523bf87180714f9d53 todo/stable: update
-         fca0e5be7035a439872f76187b16a9c8cb2f3d67 todo/stable: add url
-         a9c213517a0082decf0085d22b6a706cbed02544 patches/mm: update
-         7d38ff2cfe0b0345793d9509f69e5f8fb328896c patches/next: rebase to the latest mm-new
-         
+    old: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
+    new: b3dfbde62cf1981c4638939c159dfd087b7a72e9
+    log: revlist-7475ea8b5861-b3dfbde62cf1.txt
+
+--===============7055208899442568963==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7475ea8b5861-b3dfbde62cf1.txt
+
+6a658cc2d605e5acf35e638c62f480460d5939cd kprobes: Fix error return and slot leak in __register_kprobe()
+2053bac1d6e47b33fa2e570c87518395e64f7da0 kprobes: Fix double free and NULL deref in unregister_kretprobes()
+a553b499f22bf054964d4fd16d136f3d4f836c23 kprobes: Validate re-registration earlier in register_kretprobe()
+4a65eaf146f0d10ebaa88cfaef9c3b24f93766d9 KEYS: Expand key->{datalen,quotalen} to unsigned int
+094c53d2994975e36d4cab7cf5d9f34c1b0f1916 KEYS: Reject descriptions larger than KEY_MAX_DESC_SIZE
+7a7f70ff7b26519c98b339a3e0cd9ee3c8d17f77 KEYS: Verify the key identity in __key_unlink_begin
+51bcd09b9ffca7a2a3b66fb57182bb391364f612 KEYS: Protect the update method check against type removal
+27698b545cde67aaf947e20f8e6fe00af1b667df selftests/filesystems: Fix run_fat_tests hang
+88d5f8cb8a6276194ac8c1de44f3ed77d7e938ce tracing/selftests: Fix false bashism in kprobe_non_uniq_symbol.tc
+36990c8fda77d918b1e52d5d6df3a144b552d86e selftests/ftrace: Add missing spaces after ! in probe syntax tests
+07038c33e791e80c6422c26211fcb9c751439f34 samples/kprobes: Use trace_printk() in probe handlers
+df87101f816083ad5da559f8be8eac1cee94e38f samples/fprobe: Use trace_printk() and trace_dump_stack()
+76a224e04a723af1e2afc185fa0a4b82101f62dd docs: trace: Warn against using printk() in probe handlers
+2fc0b3070d6d5dcecfed43cd0e62aa0fd4b4315c tracing/probes: bound symstr stores to reserved length
+be94710b1f6ba1bea33e73129c110af80e999b2d tracing/eprobe: Install the trigger for every instance that enables the eprobe
+0be7a931c5e41dcfdaf297f5cd34def2696b0a7e kprobes: Disarm disabled optprobe on forced unoptimization
+ce9bc14902d1c27b6c0eac25666e2516e13f2b19 kprobes: Do not disarm unhashed optprobe on dispatch
+1ffd6efb1b58e596ed70f660182803264a4c84d9 kprobes: Arm reused optprobe on cooling list
+e4fb7e5e8e7e9edc167c3057802e440b77dcb856 Merge tag 'probes-fixes-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+f1bfe4003916a6d56e43b08698f38bad4443bcf4 Merge tag 'keys-v7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+b3dfbde62cf1981c4638939c159dfd087b7a72e9 Merge tag 'linux_kselftest-fixes-7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+
+--===============7055208899442568963==--
