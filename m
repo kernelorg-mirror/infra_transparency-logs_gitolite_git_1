@@ -1,74 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============1617355957208228006=="
+Content-Type: multipart/mixed; boundary="===============5021196959951341022=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Tue, 10 Nov 2026 01:43:15 -0000
-Message-Id: <179427499583.1058037.7045510190066965059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 10 Nov 2026 01:43:47 -0000
+Message-Id: <179427502713.1058450.15523220884332344844@gitolite.kernel.org>
 
---===============1617355957208228006==
+--===============5021196959951341022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
   - ref: refs/heads/master
-    old: eb7c14880d5b350739f6deaa61575a3838aa42f0
-    new: 41efed2c84c9689c8169468df43b8231090dab34
-    log: revlist-eb7c14880d5b-41efed2c84c9.txt
-  - ref: refs/heads/next
-    old: 0902446d9afc53ccbef6637a6dcfcf94cebc2d61
-    new: 41efed2c84c9689c8169468df43b8231090dab34
-    log: |
-         41efed2c84c9689c8169468df43b8231090dab34 Update the version
-         
-  - ref: refs/tags/v3.4.5
-    old: 0000000000000000000000000000000000000000
-    new: e1308ccddf70f12921c7f0787e84a41416bc107e
+    old: 138bf0efd516eb6d45b2ac97df453dd03d0b7455
+    new: 9712b843ae772ea0fc56ab38a0ce42ee294051da
+    log: revlist-138bf0efd516-9712b843ae77.txt
 
---===============1617355957208228006==
+--===============5021196959951341022==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb7c14880d5b-41efed2c84c9.txt
+Content-Disposition: attachment; filename=revlist-138bf0efd516-9712b843ae77.txt
 
-1dde6996a61c0ac8d488f4c1198e399a721f0d34 _damon_features: update merge status
-3e28fa15c0217edb5e3e0b191fc45c54dcc81aa4 tests/start_stop/test: fix wrong feature check branch
-b10c73e9e5885320a0478a5e04ec042133ea4cfb _damon_features: add active damon filter feature
-6268fec38e0dccb1e54c2b706c594dbbd764e1ec _damon: support active damon filter type
-9766982d1f6b59001b43016fa89b8b53dfcea631 _damon_sysfs: support active damon filter type feature check
-88b079d41a03a8f5090d8540ea348db2ae48e644 release_note: update for next release
-c97c794b54a65a4f53496be6552d14e8da0a9703 damo_setup_cli_completion: suggest --probe_filter
-f25fc4999ee279374582302109ba51330110b2df damo_setup_cli_completion: support --probe_prep
-3e984937291b0d09c81e6d73637727dea14bba9f _damon: define supported damos filter types
-9ed8087a77c4425ef8572fc9994a586c94ae9f1e _damon: raise Exception for wrong filter type on DamosFilter()
-72e970cf8b5c4b7d11ee7d1f9e7d7c1db482bb24 damo_setup_cli_completion: use _damon.damos_filter_types
-e1c4d2f78b6787993094a9e15409034923a600d6 damo_setup_cli_completion: suggest non instead of none for damos filter
-63c14a8da0d444af01728c9ee2bc6196b5db1180 _damon: define damos filter types having no argument
-42db71448580f3783bb699b4bda9c0754c989c2c _damon_args: use _damon.damos_filter_types_no_arg
-c89157c27618e514474202dcf61eb66e90b0ee9f _damon_args: use damos filter type variables in warn_unsupported_damon_features_for()
-ba04423949a4bc887ec6d73be4c9e05bb29515bf _damon_args: use damos filter type variables in damos_filter_with_optional_args()
-f1c6eedccbfe2d1458923d893470bebedb06aa84 _damon: use damos filter type variable in DamosFilter()
-739176b4279d5183555a441b17d32a942ecbaa53 _damon: use non instead of none in DamosFilter.to_str()
-cb4de7bc0d5af677b991b61ffa3c5b2533b1fd6f _damon: use damos filter type variables in DamosFilter.to_str()
-e70e97e2d135249fd98e79bf65168ef0acef1922 _damon: use damos filter type variables in DamosFilter.from_kvpairs()
-4e4e3db17210b2ad9a2e364c5bce4eaf11965eab _damon: define and use damos_ops_filter_types
-ac7f0c6a0a0ea00d27abf1ca7ea5b893a44d95dd damo_setup_cli_completion: suggest --probe_weight
-8f8707534f88d417fe57b6aff7105dd5c858e3af release_note: update for next release
-fc69113d15aa5c0e35d871cb0beddb4718a5998b _damon_sysfs: use damon filter type variable for active
-d247e7eb053ee41abc7ab76cf22afd4de2515b1e src: use damos_filter_type_anon instead of literals
-8920b7b30524a2656f2fa1748f2558b99047a0c7 _damon_args: use damos_filter_type_memcg instead of literals
-6537b422cd87d08d9be7603243280f5d157fe0a2 _damon_sysfs: use damon_filter_type_memcg insted of literals
-ed0222095376dc0197e7929e5ca24d56aa8d98f6 _damon_sysfs: use damos_filter_type_young instead of literals
-e98eafc3393343aa9314b843ebe1feb0989b1da5 _damon_sysfs: use damos_filter_type_hugepage_size instead of literals
-3cfb6d874a5990210ea1d51df91c13e07f1f720c _damon_sysfs: use DamosFilter.handled_by_ops()
-a07dc895997e1bf313b422bcd85f4d3267673606 src: use damos_filter_type_addr instead of literals
-80462ab421235f998b0ed2c809db8a87275afd71 _damon_args: use damos_filter_type_target instead of literals
-f0471dd763f97c9d444f55376b39dbaecf22f93f src: use damos_filter_type_probe_hits_wsum instead of literals
-0902446d9afc53ccbef6637a6dcfcf94cebc2d61 src: use damos_filter_type_age_ms instead of literals
-41efed2c84c9689c8169468df43b8231090dab34 Update the version
+39925f88b601d17cc76e9aa7c2966a5372a7f892 KEYS: do not let an unmatched key decide the search result
+1badc131cfd0c3ea9fffafea794799e420f98920 KEYS: Protect pkey method checks against type removal
+6804267e9c8d8e7737b629d2821926e08eb57a7f tpm: Check return value of crypto_kpp_set_secret()
+a81025ddc925ba82b3a668a230f70a38200b4cc5 tpm: tis_i2c: Add reset delays for ST33KTPM2XI2C
+eaf7859d881baaa86b3a97ff0ceec4c6a77f7a15 tpm_crb: Add register definitions of TPM CRB chunking fields
+79f8fc5244df4924ec919ceb738cc68cf0406ca5 tpm_crb: Split start method into a separate header
+808095956dc9118d20c78c880c172fee47191c98 tpm_crb: Add start_cmd parameter to tpm_crb_start wrapper
+b2525b3e1150580446cfc84f44830b5150502d64 tpm: tis_i2c: Use local 4KB buffer to limit memory usage
+043717929c16b15fd268141f3e8c039a7b432339 tpm: Increase TPM_BUFSIZE to 8KB for chunking support
+16a7c7f96fe6e1d587ec4dbd04af8a0eeee7dac9 tpm_crb: Factor crb_send()/crb_recv() bodies into helpers
+de57d607329d6a491ae324a41078d344068bab81 tpm_crb: Implement command and response chunking logic
+d7d2326e0b6004f441a919b77b38b50369ff1a41 tpm: eventlog: check the payload size before reading tag events
+befb26bdd0fc4ed2e6f162cc516a7262f579f561 tpm: flush timeout work outside buffer_mutex to avoid deadlock
+bb361ae532ef8ae3c4afe761e0dba4cba38a9d77 tpm: Remove enum tpm2_session_types
+146a478bcada2757e5c0ce606b3d10f7fff42730 tpm: sessions: bound the primary public area by the response size
+414225ece827b8ddb852db9b31b6625a5548ee69 tpm: sessions: bound the parameter decryption by the response size
+25be339f42d85da76c66c3a08b4ebe6a37594935 tpm: ibmvtpm: check the response size against the buffer size
+9712b843ae772ea0fc56ab38a0ce42ee294051da tpm: acpi: Fix memory leak at tpm_read_log_acpi() error path
 
---===============1617355957208228006==--
+--===============5021196959951341022==--
