@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1110379888762959555=="
+Content-Type: multipart/mixed; boundary="===============8027232120024092087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 10 Nov 2026 17:25:17 -0000
-Message-Id: <179433151707.1769032.5598099525095527410@gitolite.kernel.org>
+Date: Tue, 10 Nov 2026 17:25:21 -0000
+Message-Id: <179433152129.1769148.2505174274770836034@gitolite.kernel.org>
 
---===============1110379888762959555==
+--===============8027232120024092087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: fafbc4051123d5459ea6950899cec08ed946e278
     new: 8373c4e8863ac5f5120d200527aca9880330f343
     log: revlist-fafbc4051123-8373c4e8863a.txt
 
---===============1110379888762959555==
+--===============8027232120024092087==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ ba1dc196502f3435f4ae53ed6745caacf066f83e net: dsa: microchip: initialize the IRQ
 ead744fd1ce03e735b50cb6b2c8863063c619149 Merge branch 'net-fix-mac_len-of-skbs-copied-by-generic-xdp'
 8373c4e8863ac5f5120d200527aca9880330f343 MAINTAINERS: Add Hidayath as net/iucv maintainer
 
---===============1110379888762959555==--
+--===============8027232120024092087==--
