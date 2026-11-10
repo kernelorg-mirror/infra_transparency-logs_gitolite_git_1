@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 10 Nov 2026 00:30:07 -0000
-Message-Id: <179427060773.991172.11033697494450346518@gitolite.kernel.org>
+Date: Tue, 10 Nov 2026 00:34:04 -0000
+Message-Id: <179427084441.992643.2289516128677237505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-7.5
-    old: 953eea4f6b1eb0ef769a4ce72216872359645463
-    new: 4a2fbfc9acc20ffda3cc1a185094ec6a93c4480b
+  - ref: refs/heads/for-7.4
+    old: 412a061ebf8ce0d4d49fc7352dba8d641257b3a6
+    new: d880c62788399ba31da6f41a21194b10e32aee0b
     log: |
-         4a2fbfc9acc20ffda3cc1a185094ec6a93c4480b ASoC: samsung: i2s: unregister the secondary device when attach fails
+         d880c62788399ba31da6f41a21194b10e32aee0b ASoC: SOF: amd: Load alternatively signed firmware with an "_l" suffix
          
