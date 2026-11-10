@@ -1,65 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6612322513432389253=="
+Content-Type: multipart/mixed; boundary="===============5881648131326743278=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 10 Nov 2026 00:40:50 -0000
-Message-Id: <179427125002.1000878.1555670699218761850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 10 Nov 2026 00:41:22 -0000
+Message-Id: <179427128273.1001290.14537046467633140233@gitolite.kernel.org>
 
---===============6612322513432389253==
+--===============5881648131326743278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/tags/v7.3.3-14.canary
-    old: 0a9e3a742a2b1e13bb78373c5cb25e8494ac7723
-    new: d87b7e7c664b46aace33a45db45b82660d542664
-    log: revlist-0a9e3a742a2b-d87b7e7c664b.txt
+  - ref: refs/heads/master
+    old: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
+    new: b3dfbde62cf1981c4638939c159dfd087b7a72e9
+    log: revlist-7475ea8b5861-b3dfbde62cf1.txt
 
---===============6612322513432389253==
+--===============5881648131326743278==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a9e3a742a2b-d87b7e7c664b.txt
+Content-Disposition: attachment; filename=revlist-7475ea8b5861-b3dfbde62cf1.txt
 
-1927301116f6d67732312399b6db11653e712f25 NFSD_TCP_WRITE_ZEROCOPY: handoff for the boot into the canary
-68c557c5bab0ceddef7959dd4aada41d103fcb56 NFSD_TCP_WRITE_ZEROCOPY: the canary's first boot lost port a
-167c911cb0997db811a4df4957ab43e45d3245a6 NFSD_TCP_WRITE_ZEROCOPY: the canary's second boot has both ports
-b317dd46d1691216598b37a058d4fe4a3cce8d34 NFSD_TCP_WRITE_ZEROCOPY: round 76, the baseline on the canary
-7133ea3f60ccfb113b0718c77ea684d80900011c NFSD_TCP_WRITE_ZEROCOPY: round 77, the loan's bookkeeping measured
-d6a1f4df2ae53546fe033ba5e75984e1f628afd0 NFSD_TCP_WRITE_ZEROCOPY: round 78, the plan of the A/B
-186bb3e99808afb185451900f5769ad520b1837e NFSD_TCP_WRITE_ZEROCOPY: round 78, the fold costs more than it saves
-9e64f6d3551f14d0e6c5eb93da7713be355c5d82 NFSD_TCP_WRITE_ZEROCOPY: drop round 78's fold of the region count
-58f342e7b9a9c3618314372b3c48b353349882f7 NFSD_TCP_WRITE_ZEROCOPY: round 79, the loan table's own misses
-a63a76ed209376e071a8f332c1375926508c299b NFSD_TCP_WRITE_ZEROCOPY: round 80, a record's pieces change cores
-da93e5f3189c6b6666c4a65290b0896374e224e8 NFSD_TCP_WRITE_ZEROCOPY: round 81, one thread a record keeps the core
-0f92ee6c9e0eb29bb59aacceb0817b6e2c409b6f NFSD_TCP_WRITE_ZEROCOPY: round 82, the plan of the A/B of staying
-2a4fa688ba1750519ae5af729ae3276925c2cd14 NFSD_TCP_WRITE_ZEROCOPY: round 82, staying costs rate at equal cycles
-3697135dfebe66808bb39fc5e062a15925de2ccd NFSD_TCP_WRITE_ZEROCOPY: round 83, the plan of the wake latency trace
-718575af1b5799d83689530496e15a07bf8c671f NFSD_TCP_WRITE_ZEROCOPY: round 83, staying reads a piece sooner
-fabcd6d1c67ec5609baabdcfe65581a0e69bbc11 NFSD_TCP_WRITE_ZEROCOPY: round 84, the plan of the reply-time trace
-aaa488cb334c38970c54a60d2d2c7fab52cb3e73 NFSD_TCP_WRITE_ZEROCOPY: round 84, staying's time is in the write tail
-2bbac79eec00b4af49d4d1502104d46e1af58e9a NFSD_TCP_WRITE_ZEROCOPY: round 85, the plan of the write-tail pairs
-60908768bd2c5881eab08cbd1edb261e36cdd8e2 NFSD_TCP_WRITE_ZEROCOPY: round 85, the slow writes are the drives' own
-3c56a955ef3108ac6e0fef835b3914e409eefa71 NFSD_TCP_WRITE_ZEROCOPY: drop staying with a loaned record
-6dea6f11b5200cc47a0e536655a809ca480636df NFSD_TCP_WRITE_ZEROCOPY: round 86, the plan of the table prefetch
-01c7f36d7b156983869a0c0c80e9715776960fcd NFSD_TCP_WRITE_ZEROCOPY: round 86, the table prefetch saves its appends
-3778141dc5a830f9d01a85a858c03bdee87511f4 SUNRPC: Prefetch a loaned record's table lines ahead of its appends
-82e36e66033fc24ea8835d03656a8a2cc5ac95fc NFSD_TCP_WRITE_ZEROCOPY: round 86, keep the appends' prefetch
-79b16f05a83af5f9a4202a58c7ff127b8738fd09 NFSD_TCP_WRITE_ZEROCOPY: round 87, the plan of the confirming pair
-9c120c9e0d263ce443d332382423b4adcd0cd9ca NFSD_TCP_WRITE_ZEROCOPY: round 87, the appends' prefetch confirmed
-0e694543b5d99bd93b70e05b17fba81aa65b58b8 kernel-7.3.3-14.canary
-988507644b00651aa6068a43a78f4742e8dd21f3 Merge branch 'kernel-7.3/nfsd-testing-canary-nfs_common-XFS-IOLOCK-and-async-DIO-middle' into kernel-7.3/canary
-b3f3395237ae0fae24c71d80277380c559906bb4 Merge branch 'kernel-7.3/nfs-localio-performance-canary' into kernel-7.3/canary
-b2280dc192b752cc8602f84b3a7e61be6ebf2f02 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary' into kernel-7.3/canary
-9175581d64a1495626944987b4b9988e77f1c139 Merge branch 'kernel-7.3/nfs-and-nfsd-performance-canary' into kernel-7.3/canary
-e7623c4a081e17643ac86ca1555251c822885a5d Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part2' into kernel-7.3/canary
-5175b1c1f0d660d8af7beccd46ea151c3f6ba122 Merge branch 'kernel-7.3/jflynn-io500-canary' into kernel-7.3/canary
-1aa5c9f9cc0ee6db96cd6b62864713ad4dd6a932 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part3' into kernel-7.3/canary
-d87b7e7c664b46aace33a45db45b82660d542664 Merge branch 'kernel-7.3/changelog-canary' into kernel-7.3/canary
+6a658cc2d605e5acf35e638c62f480460d5939cd kprobes: Fix error return and slot leak in __register_kprobe()
+2053bac1d6e47b33fa2e570c87518395e64f7da0 kprobes: Fix double free and NULL deref in unregister_kretprobes()
+a553b499f22bf054964d4fd16d136f3d4f836c23 kprobes: Validate re-registration earlier in register_kretprobe()
+4a65eaf146f0d10ebaa88cfaef9c3b24f93766d9 KEYS: Expand key->{datalen,quotalen} to unsigned int
+094c53d2994975e36d4cab7cf5d9f34c1b0f1916 KEYS: Reject descriptions larger than KEY_MAX_DESC_SIZE
+7a7f70ff7b26519c98b339a3e0cd9ee3c8d17f77 KEYS: Verify the key identity in __key_unlink_begin
+51bcd09b9ffca7a2a3b66fb57182bb391364f612 KEYS: Protect the update method check against type removal
+27698b545cde67aaf947e20f8e6fe00af1b667df selftests/filesystems: Fix run_fat_tests hang
+88d5f8cb8a6276194ac8c1de44f3ed77d7e938ce tracing/selftests: Fix false bashism in kprobe_non_uniq_symbol.tc
+36990c8fda77d918b1e52d5d6df3a144b552d86e selftests/ftrace: Add missing spaces after ! in probe syntax tests
+07038c33e791e80c6422c26211fcb9c751439f34 samples/kprobes: Use trace_printk() in probe handlers
+df87101f816083ad5da559f8be8eac1cee94e38f samples/fprobe: Use trace_printk() and trace_dump_stack()
+76a224e04a723af1e2afc185fa0a4b82101f62dd docs: trace: Warn against using printk() in probe handlers
+2fc0b3070d6d5dcecfed43cd0e62aa0fd4b4315c tracing/probes: bound symstr stores to reserved length
+be94710b1f6ba1bea33e73129c110af80e999b2d tracing/eprobe: Install the trigger for every instance that enables the eprobe
+0be7a931c5e41dcfdaf297f5cd34def2696b0a7e kprobes: Disarm disabled optprobe on forced unoptimization
+ce9bc14902d1c27b6c0eac25666e2516e13f2b19 kprobes: Do not disarm unhashed optprobe on dispatch
+1ffd6efb1b58e596ed70f660182803264a4c84d9 kprobes: Arm reused optprobe on cooling list
+e4fb7e5e8e7e9edc167c3057802e440b77dcb856 Merge tag 'probes-fixes-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+f1bfe4003916a6d56e43b08698f38bad4443bcf4 Merge tag 'keys-v7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+b3dfbde62cf1981c4638939c159dfd087b7a72e9 Merge tag 'linux_kselftest-fixes-7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 
---===============6612322513432389253==--
+--===============5881648131326743278==--
