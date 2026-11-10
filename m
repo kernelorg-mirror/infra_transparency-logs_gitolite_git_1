@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
 Date: Tue, 10 Nov 2026 00:46:18 -0000
-Message-Id: <179427157835.1005261.7309322145061589394@gitolite.kernel.org>
+Message-Id: <179427157871.1005284.13423898203479165342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 45441a94d50200f1478c52857725e6df624bf2ad
-    new: 9a24799e219b1699bb1c144248c8c500b9504db5
+    old: 10830cb24e9156d3b5177ca897a111c96f85f122
+    new: e281e85235cfc2acd080093d5deced427c4c9856
     log: |
-         9a24799e219b1699bb1c144248c8c500b9504db5 net/mlx5e: Fix queue stats access to queues without stats
+         e281e85235cfc2acd080093d5deced427c4c9856 net: dma: use dmaengine_desc_set_callback()
          
