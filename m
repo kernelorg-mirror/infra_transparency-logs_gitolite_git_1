@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 10 Nov 2026 10:06:11 -0000
-Message-Id: <179430517176.1426816.12358438194869641896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Tue, 10 Nov 2026 10:24:02 -0000
+Message-Id: <179430624298.1437967.15512860029991856503@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/main
-    old: 2d916a8c307c31b433318509bf0311d52d509f09
-    new: 47739c455f48d93eb4b53c032f35e7fc8e82182e
+  - ref: refs/heads/xfs-7.4-fixes
+    old: e5f6eabf696670aa0a16b1faf2bc6d5061e70b43
+    new: 6fe08320c38cc1165dc9193dcd3aa5539a6f9e73
     log: |
-         5fb7b21d297196aca22909f7d8cbfb180035bfa2 selftests/net: pass socket options to the scm_pidfd test flows
-         d006eac7b09948f04af116555bdaabe41ac0bdc0 net: add SO_PASSCRED_THREAD to get a thread-specific SCM_CREDENTIALS
-         032bc8ef045646a68fc46746a7c7202cd4c375a3 selftests/net: Add tests for SO_PASSCRED_THREAD
-         47739c455f48d93eb4b53c032f35e7fc8e82182e Merge branch 'net-add-so_passcred_thread-to-get-a-thread-specific-scm_credentials'
+         369726f6be714852f4e73882a351938bd3f8c4cd xfs: always call xfs_update_stable_writes in xfs_ioctl_setattr_xflags
+         8190880c904fd8ddb943d808e04b12174ce660f8 xfs: don't skip the flush before shifting extents
+         d467837a485c3b811b94f4005825a05f1535adb3 xfs: flush the shifted range before changing the file
+         a38c5aadc06a3277aa2bbdfa0d5161038ae1f4ff xfs: don't change the block map under a dirty folio
+         6fe08320c38cc1165dc9193dcd3aa5539a6f9e73 iomap: don't punch delalloc under a dirty EOF block
          
