@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7402467007138170178=="
+Content-Type: multipart/mixed; boundary="===============3705183508960780251=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Tue, 10 Nov 2026 03:08:41 -0000
-Message-Id: <179428012179.1122849.241179534960529988@gitolite.kernel.org>
+Date: Tue, 10 Nov 2026 03:10:11 -0000
+Message-Id: <179428021127.1125369.5589671198399688067@gitolite.kernel.org>
 
---===============7402467007138170178==
+--===============3705183508960780251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,31 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: ca09d8bce4aca864bb89b28afe9a8724d2e4f6b1
-    new: 032f8738d3c556090a5e565a1f20ba65a162a27d
+    old: 032f8738d3c556090a5e565a1f20ba65a162a27d
+    new: 54456ae98fad325b15d7af94349404bcf1f46404
     log: |
-         c558788f02fd6d94c2a5b86b9d7c337d4ca33eb9 Add 722A1C2B397FA627 (Vincent Donnefort)
-         032f8738d3c556090a5e565a1f20ba65a162a27d Regenerate graphs
+         54456ae98fad325b15d7af94349404bcf1f46404 Update 7996C15531B06470 (Thomas Bogendoerfer)
          
 
---===============7402467007138170178==
+--===============3705183508960780251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1794280120 -0500
+pusher B6C41CE35664996C! 1794280210 -0500
 pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1794280120-a786f19219220bfc6b40ad697df176a034ece67e
+nonce 1794280210-613c8ebbaf677ce201f6a6ba013fae95cbd72ad2
 
-ca09d8bce4aca864bb89b28afe9a8724d2e4f6b1 032f8738d3c556090a5e565a1f20ba65a162a27d refs/heads/master
+032f8738d3c556090a5e565a1f20ba65a162a27d 54456ae98fad325b15d7af94349404bcf1f46404 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCavKKuAAKCRC2xBzjVmSZ
-bIZjAQD135SCzbt22mcw5zQpAhWhI3saIVTv9KvnfHA8paGuMQEA28CD+4EYvqhe
-M+SrccfNVh9e+o2wr6Tn7toMgR4gmg0=
-=h2z9
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCavKLEgAKCRC2xBzjVmSZ
+bAMjAP4ruErJECv+HpfxlAxD1tDw9fcwEDbSvNW3JjjEKEu3yQEA8LiD411uNLzk
+8xwhLPJsmv+YCbyED8M3/6ZDev4M7wA=
+=g4L4
 -----END PGP SIGNATURE-----
 
---===============7402467007138170178==--
+--===============3705183508960780251==--
