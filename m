@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 10 Nov 2026 00:29:08 -0000
-Message-Id: <179427054880.988816.18133330937465556425@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 10 Nov 2026 00:30:07 -0000
+Message-Id: <179427060773.991172.11033697494450346518@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: 4a2fbfc9acc20ffda3cc1a185094ec6a93c4480b
-    new: 26547e02990e8c0631fc100f663f7f9ae31a8a34
+  - ref: refs/heads/for-7.5
+    old: 953eea4f6b1eb0ef769a4ce72216872359645463
+    new: 4a2fbfc9acc20ffda3cc1a185094ec6a93c4480b
     log: |
-         062bf3ac1ff26e2ba2386072ef391813d2c4337f ASoC: dt-bindings: maxim,max98088: Document #sound-dai-cells property
-         084a4da7eee32f37c30a175621959fd2d8f1152d ASoC: dt-bindings: realtek,rt5631: Document #sound-dai-cells property
-         0f4a5bcb3245ebe9da9e146d951689ea8fd0e15f ASoC: dt-bindings: wlf,wm8903: Document #sound-dai-cells property
-         c90862fdb96e043fb4e60b9346be25289e8650b3 ASoC: dt-bindings: wlf,wm8994: Update #sound-dai-cells property
-         6ffb307005e8cc61f428b7c250b60dde1555afcb ASoC: dt-bindings: nvidia,tegra20/tegra30: Document #sound-dai-cells property
-         26547e02990e8c0631fc100f663f7f9ae31a8a34 ASoC: dt-bindings: Add/Update #sound-dai-cells to Tegra related codecs
+         4a2fbfc9acc20ffda3cc1a185094ec6a93c4480b ASoC: samsung: i2s: unregister the secondary device when attach fails
          
