@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 11 Nov 2026 00:40:19 -0000
-Message-Id: <179435761953.2346605.13705335095812398079@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 11 Nov 2026 00:45:34 -0000
+Message-Id: <179435793477.2350744.7003736645643972236@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: 6af40ad785ee8aa69212d982752daef7f06c2bdc
-    new: 6ea65389541178733808bc43afad94086e6a7268
+  - ref: refs/heads/main
+    old: ed04b202027249e2769420893220f54a56e0c59a
+    new: 711c458f6f3401a2448346dc841c405faf566a87
     log: |
-         192a8ca0c082f82ee274779f5f051efe6d586ae1 ASoC: ak4613: cancel dummy write work on component removal
-         94c27456ba9c0fe59a332e6614c5273eafa9f153 ASoC: dt-bindings: Document FM34NE DSP
-         6f084cee496736035a519cbc3dd239e1924630b6 ASoC: codecs: Add support for Fortemedia FM34NE DSP
-         6ea65389541178733808bc43afad94086e6a7268 ASoC: codecs: Add support for Fortemedia FM34NE DSP
+         711c458f6f3401a2448346dc841c405faf566a87 dt-bindings: net: add Realtek RTL8125 PCIe Ethernet
          
