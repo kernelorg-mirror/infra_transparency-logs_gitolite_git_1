@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Wed, 11 Nov 2026 11:11:25 -0000
-Message-Id: <179439548500.2815949.7108714248465054217@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Wed, 11 Nov 2026 11:41:07 -0000
+Message-Id: <179439726796.2837018.9156968793776159246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/next
-    old: 31980d672340fed5fbbf24998a97f6d6779c64eb
-    new: b50ebbf0c393195f42bf626324451301c642f7ec
+  - ref: refs/heads/for-next/vexpress/updates
+    old: ce28870a8e600baf04d045a394e637f5e246ada3
+    new: 3ce9819796063d1fcd564adb750123db28e05bec
     log: |
-         b50ebbf0c393195f42bf626324451301c642f7ec mmc: Revert "mmc: dw_mmc: enable MMC_CAP_DONE_COMPLETE"
+         8c2f870460b2f3db18005e515ff69f936a6d5ba9 dt-bindings: arm: vexpress-config: Drop ineffective label limits
+         3ce9819796063d1fcd564adb750123db28e05bec ARM: vexpress: fix iounmap missing after of_iomap in SMP prepare
          
