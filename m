@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2690570352121933747=="
+Content-Type: multipart/mixed; boundary="===============1961879355190144941=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:39:48 -0000
-Message-Id: <179437198846.2531027.609378226719835316@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:39:51 -0000
+Message-Id: <179437199127.2531141.8429521457481336776@gitolite.kernel.org>
 
---===============2690570352121933747==
+--===============1961879355190144941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/dontcache
-    old: 3afe1f49169f656291c4e717e66a211907e5f9fc
-    new: 4dae35995b9ea3ae4eb5c849ed584f872ac04730
-    log: revlist-3afe1f49169f-4dae35995b9e.txt
+  - ref: refs/heads/kernel-6.12/xfs
+    old: ea045c4acd3bff64c96b2811ca6c501088fc0199
+    new: 5fe1e6f93062a832abde1d6d2c5e18c2d4b8bf1b
+    log: revlist-ea045c4acd3b-5fe1e6f93062.txt
 
---===============2690570352121933747==
+--===============1961879355190144941==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3afe1f49169f-4dae35995b9e.txt
+Content-Disposition: attachment; filename=revlist-ea045c4acd3b-5fe1e6f93062.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -621,5 +621,11 @@ c721f7608bf8a055d42ac0ec717eeb6cdeab7e9d fs: add STATX_DIO_READ_ALIGN
 0c751db936858c59d40b408e2a1501669206d505 xfs: report the correct read/write dio alignment for reflinked inodes
 63f208a1c46abe80bde61faaecb5359473e33e48 xfs: report larger dio alignment for COW inodes
 4dae35995b9ea3ae4eb5c849ed584f872ac04730 mm/filemap: fix miscalculated file range for filemap_fdatawrite_range_kick()
+ab04978b0b63c514442f70562e2547a796dc5ead xfs: apply rt extent alignment constraints to CoW extsize hint
+fe2334c86076590c645e4c8a83811b5bb6f00365 xfs: rearrange code in xfs_inode_item_precommit
+4b2bfcced532638930c873a6739da1236478ece1 xfs: rework datasync tracking and execution
+6d98369b4716393de7f1bb398955e1eaef3bfc55 xfs: eliminate lockdep false positives in xfs_attr_shortform_list
+e11dae2ad58bac265caf9141938ccab0b0cd3db2 xfs: avoid dquot buffer pin deadlock
+5fe1e6f93062a832abde1d6d2c5e18c2d4b8bf1b xfs: remove unused trace event xfs_dqreclaim_dirty
 
---===============2690570352121933747==--
+--===============1961879355190144941==--
