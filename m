@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Wed, 11 Nov 2026 09:18:22 -0000
-Message-Id: <179438870229.2732349.10043803922352884062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
+Date: Wed, 11 Nov 2026 09:32:27 -0000
+Message-Id: <179438954751.2742754.15103347353145447193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/davem/net-next
+user: davem
 changes:
-  - ref: refs/heads/for-7.5
-    old: 0f7d004459ac0efe3effb53d5c06bbd22fe917e5
-    new: 33f9638d95cc0e000361758eb556b1bb8d93130c
+  - ref: refs/heads/main
+    old: 1be1e065008de95c27aa35c39a88dc178493ae26
+    new: 368fbf5d82da9ebce309449c74fc0b128f7d0219
     log: |
-         97e019c2a9b893b37d4767777d9f77d735cc2678 ata: libahci_platform: reject invalid port numbers
-         33f9638d95cc0e000361758eb556b1bb8d93130c ata: ahci_dwc: reject invalid DT port numbers
+         368fbf5d82da9ebce309449c74fc0b128f7d0219 net: neighbour: Avoid sending RTM_NEWNEIGH for a dead neighbor
          
