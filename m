@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4889808521701273973=="
+Content-Type: multipart/mixed; boundary="===============7226983756227915844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:40:00 -0000
-Message-Id: <179437200038.2531757.1994780934119131576@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:40:03 -0000
+Message-Id: <179437200342.2533137.14735949186275611381@gitolite.kernel.org>
 
---===============4889808521701273973==
+--===============7226983756227915844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfs-next-thru-nfs-for-6.18-3
-    old: 476c75b042b63cf9a70e89db0804645d3be17637
-    new: 76258ff19fc13ba8350fbfa7095b71ce6c9ee159
-    log: revlist-476c75b042b6-76258ff19fc1.txt
+  - ref: refs/heads/kernel-6.12/nfs-next-thru-nfs-for-6.19-1
+    old: 893bb75c012cd83bc99fb9d09f2fd2602265b746
+    new: d2da7a5e5912d92e3d4a42424350cea1a71021fe
+    log: revlist-893bb75c012c-d2da7a5e5912.txt
 
---===============4889808521701273973==
+--===============7226983756227915844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-476c75b042b6-76258ff19fc1.txt
+Content-Disposition: attachment; filename=revlist-893bb75c012c-d2da7a5e5912.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -745,5 +745,27 @@ dc97dae527300581e45f576174c561caaddc6c52 simplify vboxsf_dir_atomic_open()
 c9bff21a46d65eda79a93ce38d84b0f2865aff0c simplify fuse_atomic_open()
 b41a7334e8d9ced1a5b09937165790cbd1ed3a0e simplify gfs2_atomic_open()
 76258ff19fc13ba8350fbfa7095b71ce6c9ee159 slightly simplify nfs_atomic_open()
+f424180f6a228dba1a23a53441956cf4c914a0e7 fs/nfs: fix missing declaration of nfs_idmap_cache_timeout
+c9cf8c796fe8fb9e8bb9916c0ff65205044351bc Pass parent directory inode and expected name to ->d_revalidate()
+53f6c54d7df6a55190cd0a18df43476099e54148 afs_d_revalidate(): use stable name and parent inode passed by caller
+d512f0eae087f51bed4ed26529981cb3c7529346 ceph_d_revalidate(): use stable parent inode passed by caller
+9557e9f5f1addee015b51cf4a57fc199e147aceb ceph_d_revalidate(): propagate stable name down into request encoding
+0208678196b8ab5991df428edce60b55fa6af6e7 fscrypt_d_revalidate(): use stable parent inode passed by caller
+a9987df1e0bec69b5e4adef7fd926f68adda5fa6 exfat_d_revalidate(): use stable parent inode passed by caller
+e85694c731fe008b4aa68756267b6d0ae08719db vfat_revalidate{,_ci}(): use stable parent inode passed by caller
+bb79fc14ad693d0fe5fe5130cd53c137e32d5ccd fuse_dentry_revalidate(): use stable parent inode and name passed by caller
+0a29bf7336c45fba19e3bc83b4bf44a0ac6dc09b gfs2_drevalidate(): use stable parent inode and name passed by caller
+6c7e46f2349a6a332a12b08cf37e6f5790508c0c nfs{,4}_lookup_validate(): use stable parent inode passed by caller
+a230fb3fceabaca8f861eb061dcb5ea4f4e04983 nfs: fix ->d_revalidate() UAF on ->d_name accesses
+244ffa2bb5d1c03de1caa63cbac3477797bba025 ocfs2_dentry_revalidate(): use stable parent inode and name passed by caller
+9c72c0491e1aa4b08a2fa5a6c5a6bc59a95174f8 orangefs_d_revalidate(): use stable parent inode and name passed by caller
+6f9bf3c3d65d716594e759d588cc01e9661e3681 nfs: constify path argument of __vfs_getattr()
+8be1c8a64ca1e8cb20bbae7db36b08b5176a9c6d NFSv4.1: pass transport for callback shutdown
+d00ab80779824afd6ab6454804ab18273cdd6b4e SUNRPC: cleanup common code in backchannel request
+2653831369dd8247eac9ca0d277c3bb6fe6dc0d5 SUNRPC: new helper function for stopping backchannel server
+bb60fe8c3842b2734dc6db929103422b7a93d029 NFSv4.1: protect destroying and nullifying bc_serv structure
+8c731f709d0d2be9862e000ae413128c5f30521c nfs/localio: fix regression due to out-of-order __put_cred
+1d23c4c1e3e038864ab81d617f453e6210007b76 nfs/localio: remove alignment size checking in nfs_is_local_dio_possible
+d2da7a5e5912d92e3d4a42424350cea1a71021fe nfs/localio: remove 61 byte hole from needless ____cacheline_aligned
 
---===============4889808521701273973==--
+--===============7226983756227915844==--
