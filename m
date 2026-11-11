@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1878984210353245648=="
+Content-Type: multipart/mixed; boundary="===============1660533758067045173=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:39:32 -0000
-Message-Id: <179437197298.2530328.9453556534891387751@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:39:35 -0000
+Message-Id: <179437197570.2530443.15415828303248986106@gitolite.kernel.org>
 
---===============1878984210353245648==
+--===============1660533758067045173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nvme
-    old: 9ca71ccdfd0492128c212b938066b8b9a4ba3ef0
-    new: cf7f42dbc433674182f6b368adc229c070440985
-    log: revlist-9ca71ccdfd04-cf7f42dbc433.txt
+  - ref: refs/heads/kernel-6.12/mm
+    old: 51148ae9615448180850a2b5f3217af0605e76fc
+    new: b6da79e98e3880828d4d07a54d2deaeb9a49301d
+    log: revlist-51148ae96154-b6da79e98e38.txt
 
---===============1878984210353245648==
+--===============1660533758067045173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ca71ccdfd04-cf7f42dbc433.txt
+Content-Disposition: attachment; filename=revlist-51148ae96154-b6da79e98e38.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -278,9 +278,10 @@ b764e17313534794aeb99c901869f213e36a16ef xen-blkback: Avoid UAF when reading I/O
 5c40a1750f44dd6c7292d8c8d0b4ffff1734576e Linux 6.12.116
 0526757426aa91eeedb3af302959b48ed3d89aa4 Merge tag 'v6.12.116' into kernel-6.12/baseline
 e03c9e36189d0c89707059bb1fe8aab1b9886e46 kernel-6.12.116-0
-5ea64a3ca798f89912123d5a12680a0a4e8b1a1d redhat/kernel.spec: fix kernel_meta_package
-92eb0f7000d34892ecc11ef3397bfece424a5f06 redhat/kernel.spec: for .el8 verify that gettid() is missing
-75f56b52b1f1ed73118c009396bf704b3acb3a27 Reapply "nvme: make keep-alive synchronous operation"
-cf7f42dbc433674182f6b368adc229c070440985 Revert "nvme-fabrics: fix kernel crash while shutting down controller"
+38ca4eb443372320c8c0412fd83ab86b574dd45c redhat/kernel.spec: fix kernel_meta_package
+e518511c5232338a2f2ace0c34ebf0a378b222a9 redhat/kernel.spec: for .el8 verify that gettid() is missing
+b4a3855e0958bcc60b6b13014489416e656e6c28 filemap: filemap_read() should check that the offset is positive or zero
+d16e1d6073c0f91641c5d420ad086946844d0fce mm/filemap: don't call folio_test_locked() without a reference in next_uptodate_folio()
+b6da79e98e3880828d4d07a54d2deaeb9a49301d filemap: move prefaulting out of hot write path
 
---===============1878984210353245648==--
+--===============1660533758067045173==--
