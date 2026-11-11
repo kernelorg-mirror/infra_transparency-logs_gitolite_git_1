@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 11 Nov 2026 22:45:13 -0000
-Message-Id: <179443711301.3342843.8101344215427268261@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Wed, 11 Nov 2026 22:45:58 -0000
+Message-Id: <179443715808.3343618.8260332424888324944@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/main
-    old: 831e33ad02ff884ecc793c07a9c9bd9e06941fe5
-    new: 7aadc87adbb5f2a57a137b1fc446870eea737176
-    log: |
-         7aadc87adbb5f2a57a137b1fc446870eea737176 net: dsa: motorcomm: Reread port flags on bridge joining
-         
+  - ref: refs/heads/bpf-arena-import
+    old: 0000000000000000000000000000000000000000
+    new: e6f0dd48f6b1cbecf68be18dca34737ecabcc618
