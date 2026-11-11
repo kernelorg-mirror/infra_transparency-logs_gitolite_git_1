@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4566653762133122448=="
+Content-Type: multipart/mixed; boundary="===============3041805170532177227=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:40:56 -0000
-Message-Id: <179437205681.2537233.6913975217284577775@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:40:59 -0000
+Message-Id: <179437205977.2537407.11393044546040696257@gitolite.kernel.org>
 
---===============4566653762133122448==
+--===============3041805170532177227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfsd-7.1-2
-    old: f909e5f38afb1ae060bbe3faf4053f8f409186b2
-    new: 2917f6cb56a58dfafa311004f14ec6b5500f9702
-    log: revlist-f909e5f38afb-2917f6cb56a5.txt
+  - ref: refs/heads/kernel-6.12/nfsd-7.2
+    old: 8aae1370378eeb8fbd293c435bdcb82527613414
+    new: 924a081439c60081aa3f00ef6e3e8965a555e605
+    log: revlist-8aae1370378e-924a081439c6.txt
 
---===============4566653762133122448==
+--===============3041805170532177227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f909e5f38afb-2917f6cb56a5.txt
+Content-Disposition: attachment; filename=revlist-8aae1370378e-924a081439c6.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -909,5 +909,17 @@ c7656ddb329402f4f7f5a761b2f8d390e30944c9 NFSD: use per-operation statidx for cal
 4c8a498d6f449b924bf73347b04e3c0fbc873149 sunrpc: start cache request seqno at 1 to fix netlink GET_REQS
 ed9e083d1090233d27915a3bce738dbdbc3c2cbb sunrpc: prevent out-of-bounds read in __cache_seq_start()
 2917f6cb56a58dfafa311004f14ec6b5500f9702 NFSD: Report whether fh_key was actually updated
+b43e017d61c38b9f5a28fd3dadff30ad3e1df1f2 sunrpc: skip svc_xprt_enqueue when no work is pending
+04526a2d80fa51ad6ac96cb7d332026f3364d994 sunrpc: skip svc_xprt_enqueue in svc_xprt_received when idle
+6b7d196905b4ff04ff7c939f978454ac555e1e82 sunrpc: skip svc_xprt_enqueue when transport is busy
+2584d2a8b6c232e7b103bf8a0412333e6ec64ce7 nfsd: move struct nfsd_genl_rqstp to nfsctl.c
+5e6dc40fb896c71f711a79045b126eb64a9f22c1 NFSD: Increase the default max_block_size to 4MB
+c8c3edae32a3a69d936eca9d77dd7b4b877e72ae svcrdma: Release write chunk resources without re-queuing
+dfd9112ff297de8348c0c3f26c3eb60da3248872 Revert "NFSD: Defer sub-object cleanup in export put callbacks"
+39de28503c8d4a0e842511da8385a510870dde91 SUNRPC: Return an error from xdr_buf_to_bvec() on overflow
+5b67e1442650f7086bc7d43591c5284543e670a8 sunrpc: harden rq_procinfo lifecycle to prevent double-free
+6b86ad645d3b1d1d45e431a4fe2bde9503f347fe nfsd: fix dead ACL conflict guard in nfsd4_create
+2143bd5f0d5698403f99d146b16fabd9dd58fa5c nfsd: fix inverted cp_ttl check in async copy reaper
+924a081439c60081aa3f00ef6e3e8965a555e605 svcrdma: wake sq waiters when the transport closes
 
---===============4566653762133122448==--
+--===============3041805170532177227==--
