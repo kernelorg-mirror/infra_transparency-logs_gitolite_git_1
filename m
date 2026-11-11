@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1660533758067045173=="
+Content-Type: multipart/mixed; boundary="===============5496595415198838769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:39:35 -0000
-Message-Id: <179437197570.2530443.15415828303248986106@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:39:38 -0000
+Message-Id: <179437197855.2530579.13618732475624611689@gitolite.kernel.org>
 
---===============1660533758067045173==
+--===============5496595415198838769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/mm
-    old: 51148ae9615448180850a2b5f3217af0605e76fc
-    new: b6da79e98e3880828d4d07a54d2deaeb9a49301d
-    log: revlist-51148ae96154-b6da79e98e38.txt
+  - ref: refs/heads/kernel-6.12/baseline-reverts
+    old: 5857700fa87512fc8eff9cce06491c7e8b772883
+    new: d409da92ca41377155a06dd4ce1223e2fa03db5f
+    log: revlist-5857700fa875-d409da92ca41.txt
 
---===============1660533758067045173==
+--===============5496595415198838769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51148ae96154-b6da79e98e38.txt
+Content-Disposition: attachment; filename=revlist-5857700fa875-d409da92ca41.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -278,10 +278,31 @@ b764e17313534794aeb99c901869f213e36a16ef xen-blkback: Avoid UAF when reading I/O
 5c40a1750f44dd6c7292d8c8d0b4ffff1734576e Linux 6.12.116
 0526757426aa91eeedb3af302959b48ed3d89aa4 Merge tag 'v6.12.116' into kernel-6.12/baseline
 e03c9e36189d0c89707059bb1fe8aab1b9886e46 kernel-6.12.116-0
-38ca4eb443372320c8c0412fd83ab86b574dd45c redhat/kernel.spec: fix kernel_meta_package
-e518511c5232338a2f2ace0c34ebf0a378b222a9 redhat/kernel.spec: for .el8 verify that gettid() is missing
-b4a3855e0958bcc60b6b13014489416e656e6c28 filemap: filemap_read() should check that the offset is positive or zero
-d16e1d6073c0f91641c5d420ad086946844d0fce mm/filemap: don't call folio_test_locked() without a reference in next_uptodate_folio()
-b6da79e98e3880828d4d07a54d2deaeb9a49301d filemap: move prefaulting out of hot write path
+18c3eaba3fa84d56d3d5b1c0cec203b67a4121f4 Revert "nfsd: convert nfsd_net boolean flags to unsigned long flags word"
+587db72addc598c5086448646266001faa72886a Revert "NFS: Return a delegation the client fails to record"
+ada5e4e02b0b04415a939adaa02565d4df12c815 Revert "NFSv4/flexfiles: fix NULL dereference for NFSv4.0 data servers"
+caddb33a9433e894c6896c6caab3ccdfc7d59775 Revert "nfsd: restore rq_status_counter to even on all nfsd_dispatch() exit paths"
+0b961ccd6a81997be035bcc2c6ba3edb6462bcdc Revert "nfsd: fix fcache_disposal UAF by inlining dispose state into nfsd_net"
+72e4d67887041c0a1bda8ffe06886655202cc6d0 Revert "svcrdma: Clear sc_cm_id when ADDR_CHANGE replacement fails"
+056a4efafe68c14c6a5c78e81d7e645953d6f8bd Revert "svcrdma: wake sq waiters when the transport closes"
+7c2ec2d05e1f410c128f95824f8343647ea49aa7 Revert "NFS/localio: prevent direct reclaim recursion into NFS via nfs_writepages"
+37405bcf608f1b287ef6e68cd538f2b300abed6b Revert "xfs: remove unused trace event xfs_dqreclaim_dirty"
+78e895588cbcc658061b8f48d505fe959bf42a23 Revert "xfs: avoid dquot buffer pin deadlock"
+84b9d2564a6eff2b234f10856d178694f1af65ad Revert "NFSD: Prevent client use-after-free during close_lru reaping"
+10fc3d3ebe7c159c2110f25fa6e2e60fe5f63469 Revert "NFSD: Prevent client use-after-free during blocked-lock reaping"
+95857fa736857b5d27244ee409d3c57ac7697407 Revert "NFSD: Consolidate the revocation-path client unpin"
+d6dc6a8aad7f35567178e203c7b9afd9b55bd7ec Revert "NFSD: Guard admin state-revocation walks with NFSD_NET_UP"
+2aac654092dbfc092057cb49918082c94a54bbe9 Revert "NFSD: Prevent client use-after-free during delegation revoke"
+838b3459dbc6e8c2cb26d76b13d4668b53b021f1 Revert "nfsd: disallow file locking and delegations for NFSv4 reexport"
+df1b2603b00a565585b99b6c9d32f3543e34d187 Revert "NFSD: Prevent client use-after-free during admin state revocation"
+8e03e8f31ef6c5b8c5872e17e8406a8ac9c9f3df Revert "nfsd: fix stale s2s_cp_stateids IDR entry for async COPY"
+97c33e8c90eb636635bafdd425fddbac2c0ffa6e Revert "nfsd: fix clock domain mismatch in clients_still_reclaiming()"
+11c964c7a5d32c29398e3e1a7f5c2ebc4ebaec37 Revert "nfsd: RCU-protect cl_cb_session to fix use-after-free on session teardown"
+c6652d93f8392be4c7fefaa25b760cf172d8f2fa Revert "nfsd: dedup nfs4_client_to_reclaim inserts"
+05a5c53bd339ef28e6c43dd6a4282f14ede31b25 Revert "nfsd: close shrinker/GC/fsnotify vs per-net shutdown race in filecache"
+21066da12f76045c0bd1b0f4bf058b1e34ab3e7b Revert "nfsd: widen nfsd_genl_rqstp address fields to sockaddr_storage"
+eec9bb09bb53e0d64175e715c4f026319a249fbc Reapply "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
+5536629be78045d8fd8f8b2befdfc53efee4ddb6 Revert "NFSD: Make nfsd_genl_rqstp::rq_ops array best-effort"
+d409da92ca41377155a06dd4ce1223e2fa03db5f Revert "nfsd: check nfsd4_acl_to_attr() return value in nfsd4_create()"
 
---===============1660533758067045173==--
+--===============5496595415198838769==--
