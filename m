@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7226983756227915844=="
+Content-Type: multipart/mixed; boundary="===============5921169406406520831=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:40:03 -0000
-Message-Id: <179437200342.2533137.14735949186275611381@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:40:06 -0000
+Message-Id: <179437200628.2534075.7963137346907761922@gitolite.kernel.org>
 
---===============7226983756227915844==
+--===============5921169406406520831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfs-next-thru-nfs-for-6.19-1
-    old: 893bb75c012cd83bc99fb9d09f2fd2602265b746
-    new: d2da7a5e5912d92e3d4a42424350cea1a71021fe
-    log: revlist-893bb75c012c-d2da7a5e5912.txt
+  - ref: refs/heads/kernel-6.12/nfs-next-thru-nfs-for-6.19-2
+    old: 285f476a24d88ff052bd68d99bbdedda5e676d98
+    new: ee14a3ad16513878bd629d75fdd89fe19b2476d3
+    log: revlist-285f476a24d8-ee14a3ad1651.txt
 
---===============7226983756227915844==
+--===============5921169406406520831==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-893bb75c012c-d2da7a5e5912.txt
+Content-Disposition: attachment; filename=revlist-285f476a24d8-ee14a3ad1651.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -767,5 +767,8 @@ bb60fe8c3842b2734dc6db929103422b7a93d029 NFSv4.1: protect destroying and nullify
 8c731f709d0d2be9862e000ae413128c5f30521c nfs/localio: fix regression due to out-of-order __put_cred
 1d23c4c1e3e038864ab81d617f453e6210007b76 nfs/localio: remove alignment size checking in nfs_is_local_dio_possible
 d2da7a5e5912d92e3d4a42424350cea1a71021fe nfs/localio: remove 61 byte hole from needless ____cacheline_aligned
+384e678785a52b41677167686b56ed383c6c2ea4 NFS/localio: Stop further I/O upon hitting an error
+89b6225037b6e327247d710e2509d7863b01fdc6 NFS/localio: Deal with page bases that are > PAGE_SIZE
+ee14a3ad16513878bd629d75fdd89fe19b2476d3 NFS: Fix size read races in truncate, fallocate and copy offload
 
---===============7226983756227915844==--
+--===============5921169406406520831==--
