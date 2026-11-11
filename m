@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dash/dash
-Date: Wed, 11 Nov 2026 08:29:34 -0000
-Message-Id: <179438577489.2696302.16199607225247193226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
+Date: Wed, 11 Nov 2026 08:33:42 -0000
+Message-Id: <179438602289.2699877.12264724765369105064@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dash/dash
-user: herbert
+repo: pub/scm/linux/kernel/git/davem/net-next
+user: davem
 changes:
-  - ref: refs/heads/master
-    old: 037bbdfd330017c368caf6242f977974123239b5
-    new: 0a896bfccbefdd5e79ae8ef6061f7e17e20c03f4
+  - ref: refs/heads/main
+    old: c40c6c365183664dab67efc813a16cf10084c8ad
+    new: 1be1e065008de95c27aa35c39a88dc178493ae26
     log: |
-         a0a277974f168817cf38c44e88d407262eb74437 expand: Fix out-of-bounds syntax table access
-         0a896bfccbefdd5e79ae8ef6061f7e17e20c03f4 Release 0.5.13.6.
+         1be1e065008de95c27aa35c39a88dc178493ae26 liquidio: enlarge the interrupt name buffer
          
-  - ref: refs/tags/v0.5.13.6
-    old: 0000000000000000000000000000000000000000
-    new: 0a896bfccbefdd5e79ae8ef6061f7e17e20c03f4
