@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/davem/net-next
-Date: Wed, 11 Nov 2026 08:07:59 -0000
-Message-Id: <179438447999.2682304.611599947537734578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dash/dash
+Date: Wed, 11 Nov 2026 08:29:34 -0000
+Message-Id: <179438577489.2696302.16199607225247193226@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/davem/net-next
-user: davem
+repo: pub/scm/utils/dash/dash
+user: herbert
 changes:
-  - ref: refs/heads/main
-    old: c4c470912125ec8a1a427a70f4085d8a731b00e4
-    new: c40c6c365183664dab67efc813a16cf10084c8ad
+  - ref: refs/heads/master
+    old: 037bbdfd330017c368caf6242f977974123239b5
+    new: 0a896bfccbefdd5e79ae8ef6061f7e17e20c03f4
     log: |
-         c40c6c365183664dab67efc813a16cf10084c8ad netxen: fix the ring interrupt name buffer
+         a0a277974f168817cf38c44e88d407262eb74437 expand: Fix out-of-bounds syntax table access
+         0a896bfccbefdd5e79ae8ef6061f7e17e20c03f4 Release 0.5.13.6.
          
+  - ref: refs/tags/v0.5.13.6
+    old: 0000000000000000000000000000000000000000
+    new: 0a896bfccbefdd5e79ae8ef6061f7e17e20c03f4
