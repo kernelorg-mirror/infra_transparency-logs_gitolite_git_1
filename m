@@ -1,48 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============5110238050236305505=="
+Content-Type: multipart/mixed; boundary="===============8464616863692903630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Wed, 11 Nov 2026 12:21:05 -0000
-Message-Id: <179439966545.2866334.3828375207021274387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Wed, 11 Nov 2026 12:21:15 -0000
+Message-Id: <179439967540.2866630.16651509516665996351@gitolite.kernel.org>
 
---===============5110238050236305505==
+--===============8464616863692903630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/mfd
 user: lee
 changes:
-  - ref: refs/heads/for-leds-next
-    old: a379f4e0adf2de7b11aa3ef87eeb7d9c838069b3
-    new: 687615faae92e36a2b6c5ab0d007751e8e88a645
-    log: revlist-a379f4e0adf2-687615faae92.txt
+  - ref: refs/heads/for-mfd-next
+    old: dad66a38052d2481dd5aabad636b05652a328573
+    new: 9d89aaf9363f25334925606c97e79ccf1ccf036a
+    log: revlist-dad66a38052d-9d89aaf9363f.txt
 
---===============5110238050236305505==
+--===============8464616863692903630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a379f4e0adf2-687615faae92.txt
+Content-Disposition: attachment; filename=revlist-dad66a38052d-9d89aaf9363f.txt
 
-2fef905025ca4c98d4ae687afd6c3f445be15499 leds: pca955x: Take a reference on the child firmware node
-4a775e65e1306daf49c6d1ea947d2e31c9395a10 leds: lp50xx: Guard sub-LED count in lp50xx_probe_dt()
-be29a52d48b5c61ff9c9c3d092af43b2365af809 leds: trigger: netdev: Serialise work cancellation and state updates
-fe388058f37a48ad5748122589b667f7f5799951 leds: sgm3140: Replace powerdown timer with delayed work
-48dd0eccca50fa2e5119ea9cb3b73dfb4982475a leds: sgm3140: Cancel powerdown work via devres after LED unregistration
-c7536e916bb3f2254539c77f81dba80e6bbd01ed leds: class: Initialise trigger_lock before exposing sysfs attributes
-fe0a88b4407e600e21303628258762b305bfe0e6 leds: class: Unlock led_access before unregistering device on error
-943179baee34fc204dadb46cc8c90e44ff15917c leds: aat1290: Retain child device_node reference for device lifetime
-010db0d55bfacbe7980882faf13d855dbae3fef8 leds: aat1290: Prevent out-of-bounds read in aat1290_brightness_to_intensity()
-3623e3314ae220e7b579559dc8499c8e5d6bbfaf leds: flash: Avoid divide-by-zero in led_clamp_align()
-0a04acfbaedb0f49eabfc28479f1207d6ef3398e leds: lm3532: Validate LED string indices in lm3532_parse_node()
-d397bcc48eb27754d2bf42a2d5498b3d4e828cd0 leds: lm3532: Clamp full-scale current to minimum bound
-9ee80e6f74147cd29b8b24c97723a05b96fd6475 leds: aat1290: Avoid leaking devres pinctrl handles on strobe source changes
-4838923078ab8d6988eb8338afe67833a4bfa4cc leds: aw2013: Unlock chip mutex before registering LEDs
-251bbc06047354ebcc646e654e7921297b1587e2 leds: is31fl32xx: Clamp channel current limit in is31fl3293_reset()
-906ba6e192dbc2f369e31fdcd7ea2fa4f71a1cf7 leds: flash: Terminate sysfs_groups array with NULL
-a5c652708a2d08fb39844c2bd5404934e3c16e8b leds: lm3692x: Use devm_mutex_init() to avoid premature mutex destruction
-687615faae92e36a2b6c5ab0d007751e8e88a645 leds: pwm: Switch to __nonnull_args() macro
+2880926d48fe884042a1b7b64b431f9ee9531806 dt-bindings: embedded-controller: document ASUS Transformer EC
+ccb21236e307ff60ce6b96d2f9925abf0274ce8e mfd: Add driver for ASUS Transformer embedded controller
+3fefdd9a8931eb3b8cade87193c81293256031f0 input: serio: Add driver for ASUS Transformer dock keyboard and touchpad
+4ace8a63a1612f8142cfdf5d6d4b8e1be37cce3b input: keyboard: Add driver for ASUS Transformer dock multimedia keys
+04819cdb3912f31586516ef6fc007daa3d976234 leds: Add driver for ASUS Transformer LEDs
+cd72536270e725b4f1d56df6287c4c34efe953a8 power: supply: Add driver for ASUS Transformer battery
+db6674a08304d03a194f5e09b7543323462b3516 power: supply: Add charger driver for Asus Transformers
+d3f30ad836cfc8858135f49e32730752c81e9ddc mfd: da9062: Make register CONFIG_I writable
+6b0ff12744647c777c9b12085515fc2ef8c1b557 mfd: da9061: Make register CONFIG_I writable
+a62e438c0748cc4b12d852bdfb7d8664f7114e71 mfd: rz-mtu3: Do not use struct rz_mtu3_channel::dev
+df223724b717b7660147f6bb6b0eb112af5bab87 mfd: rz-mtu3: Reuse shared_reg_update_bit() in start_stop_ch()
+8269faec3e988b9416312a6677ea094f6f1cf622 mfd: rz-mtu3: Enable runtime PM
+4de0827359a7794cd20e32a2f5a6bf35bfa53c2b mfd: twl-core: Embed the twl_client array in twl_private
+3d6a23ecdef7efaa4a62104daf27485f7709cbff MAINTAINERS: mfd: Drop MEN F21BMC (bouncing email)
+08069b0f87330122ee6b6063f0d0a63804f328c8 mfd: wm8994: Enable runtime PM before registering IRQ chip and children
+c34c5ba9022964514b88f1291b632140e498edbb dt-bindings: mfd: syscon: Add aspeed,ast2600-i3c-global compatible
+1f419886927ff253c76da1b9d0106b4a3d92181d mfd: intel-lpss: Set d3hot_delay to 0
+dd7b7c6dd7cecb69f853a5dd90715d6ef70dd43b mfd: sprd-sc27xx: Pass byte length to spi_read()
+3a12404c67140bde2de8f53c480b4bdfe940ea6f mfd: twl4030-irq: Fix a lock leak in twl4030_sih_bus_sync_unlock()
+aaa56a482640017c25b8c9eb53c7d0fc9db32f8f mfd: tps65910: Use devm_register_power_off_handler()
+ef2f76a2fe3ad7652e83ea03de07350dfb588e4e mfd: tps65910: Add restart handler
+9d89aaf9363f25334925606c97e79ccf1ccf036a mfd: dln2: Clean up dln2_unregister_event_cb() loop logic
 
---===============5110238050236305505==--
+--===============8464616863692903630==--
