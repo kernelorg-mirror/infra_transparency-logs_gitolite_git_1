@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Wed, 11 Nov 2026 23:02:00 -0000
-Message-Id: <179443812088.3356465.463992936215462406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 11 Nov 2026 23:02:24 -0000
+Message-Id: <179443814415.3356721.7288554425851462450@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/smb
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: ffde0bdfc69a0f01a081d9c1a213e63d5719e625
-    new: a4277e7b7682540e23334fc927f201e5bb7df5a3
+  - ref: refs/heads/main
+    old: 3e8e22a1007a6337ba2400b3ea87077947005c20
+    new: f3c790c34d228d46c4a05fe5d001d1bbea444e2b
     log: |
-         a4277e7b7682540e23334fc927f201e5bb7df5a3 ksmbd: fix timestamp corruption on special values
+         f3c790c34d228d46c4a05fe5d001d1bbea444e2b net: ena: avoid RX copybreak for multi-descriptor packets
          
