@@ -1,53 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4444844364774301475=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Wed, 11 Nov 2026 19:35:32 -0000
-Message-Id: <179442573244.3196486.12534332289358931691@gitolite.kernel.org>
-
---===============4444844364774301475==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 11 Nov 2026 19:39:18 -0000
+Message-Id: <179442595835.3197740.12450816233631768488@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/test3
-    old: 0000000000000000000000000000000000000000
-    new: 253943680583af7fc576b747fabff8ab45ed5980
-
---===============4444844364774301475==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1794425731 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1794425730-6b18e1fe58f3c6043aa02170edeac3f87ec70456
-
-0000000000000000000000000000000000000000 253943680583af7fc576b747fabff8ab45ed5980 refs/heads/test3
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmr0w4MQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD13xxD/0Wv0WcBClnSry1g7fGZEeOIdir5VMB42Ob
-tYNy32KD+ZugQofgxR22uRf8WAOdRPHntK0vYcMylboVUBCYvilYjTq6+WcryngM
-QOhv/RU0dOXVtqctZjt2EGHo1ckEXyWMSmDZAGPWnjms1r7rFmwkB4QXhtEN8gpt
-6rpvLwWpfnDYM0rERyhViupySpmAyeaBQsBslnepx9/KN/mXtnNxGMTI+qNp2+tX
-SgbRKfn3LGGOo6P46+KQOWCcNfMMbcXKA27umi6tIhDf3n9z2qgsyUnL1yVZ+60A
-qZbf4ezsOEJQMOaBGy2uXa7ErxOawlpeRycc3K1JYVVgv2p8qXqFmnh0XT1V5Lfn
-a0jMLA/MjFxa64sdaGMA7G+hZN71axmJW3DQL+9oI9niDMdJH5pJPmFAUhM06fcq
-QAML5i4MyMIO2CFdkbs/rrr9cfWn69NQKq4PMWp1NgoVYI7tbk5vrS4VRlzMNBIw
-VvtZtDtuhABmErYZf19dZK1funIU3ZpbWjszOEsV8XQhowFHTz0czEPhgrqQKSyJ
-sR77wVGyg1Oq/nyNBiaK2F3/xqTapDXZAXpoSx801RhDzVw5m6IgF7ybVb8QC8gF
-O00ZKpVsSHVtXj5FeHglxl3DEIq159cym4ZuKve4gFfqlHUlZ3RK1szk3On07AvE
-n4IBIrZnJQ==
-=pYFE
------END PGP SIGNATURE-----
-
---===============4444844364774301475==--
+  - ref: refs/heads/master
+    old: def8a484b8883cd21d44a2a45702dcced9bf2627
+    new: 50932a1567d614cd7f9b8be686e2f892c8c1188a
+    log: |
+         c21f8cff7503fa699722e8518a09f5e5d7d782d0 dt-bindings: net: bluetooth: realtek: Add RTL8852BS
+         df348a0d065ca989c6391f4bb122d2203f31feb6 riscv: dts: spacemit: enable Bluetooth on BPI-F3
+         05ad7f2dee07bce6fa36c5123075ada932ef0922 dt-bindings: bluetooth: brcm: Allow a platform BD address
+         afafcb373fd0e3256b53e3e4f3a43cb5e1875ada Bluetooth: hci_bcm: Prefer a valid platform BD address
+         68e0925f16c028ad1849f4ebce9a8d8a2da5d514 Bluetooth: btintel_pcie: Add yoyo support for config set TLV
+         89ab6c52494c88e3c95252b4d7a017b406248e38 Bluetooth: btintel_pcie: Add yoyo configuration for debug region
+         50932a1567d614cd7f9b8be686e2f892c8c1188a Bluetooth: btintel_pcie: Add yoyo configuration for Hci cmd Tlvs
+         
