@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5579790668265742659=="
+Content-Type: multipart/mixed; boundary="===============4843282880541684355=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 03:55:39 -0000
-Message-Id: <179436933968.2500138.15572590161608124870@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 03:55:43 -0000
+Message-Id: <179436934342.2500333.6423399596130326512@gitolite.kernel.org>
 
---===============5579790668265742659==
+--===============4843282880541684355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfsd-next
-    old: 877b35ad903b33a83deae7c72c051f9b0dd2fd71
-    new: 0e50452a74033d7cef28932b1cb1eaf16a24f7dc
-    log: revlist-877b35ad903b-0e50452a7403.txt
+  - ref: refs/heads/kernel-6.12/nfsd-fixes-from-stable-baseline
+    old: 0b3325f572076fa5a0efb3bb5089719aa7fdf4f8
+    new: 4e604e6b2dc932d4c524a48628080e3309ebe46d
+    log: revlist-0b3325f57207-4e604e6b2dc9.txt
 
---===============5579790668265742659==
+--===============4843282880541684355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-877b35ad903b-0e50452a7403.txt
+Content-Disposition: attachment; filename=revlist-0b3325f57207-4e604e6b2dc9.txt
 
 7dbe299b83bc09927adaad51893ca8de339fefaa nfsd: fix possible fh_compose of wrong dentry in nfsd4_create_file()
 a61537db873cfd0e40842a7d50469f58d49a2b5f nfsd: ensure nfsd_file_do_acquire() does not use a non-opened file
@@ -39,5 +39,19 @@ a61537db873cfd0e40842a7d50469f58d49a2b5f nfsd: ensure nfsd_file_do_acquire() doe
 7b93d6bda9c58b4ad13296f5266502e3fe39d215 nfsd: account for page_base when advancing rq_next_page
 d3657254b743317573e0c151e6fae6ac0a6be308 nfsd: locate the READ sink page from the reply buffer
 0e50452a74033d7cef28932b1cb1eaf16a24f7dc nfsd: keep spliced pages below rq_next_page when a READ fails
+1ba7028340397a52354a4f972ff1de9e7755e73a nfsd: RCU-protect cl_cb_session to fix use-after-free on session teardown
+fab38dbcc5b2de1f104ca9a3681a13591d8d29ac nfsd: dedup nfs4_client_to_reclaim inserts
+63ccdc232395ce16a000a55e351cd9171d1b85ca nfsd: widen nfsd_genl_rqstp address fields to sockaddr_storage
+ada2d1d265b4e1163efa7c0bf38cd8b60d940585 nfsd: check nfsd4_acl_to_attr() return value in nfsd4_create()
+aa767d4f23e887f64710c4e81358bd8648526705 nfsd: fix clock domain mismatch in clients_still_reclaiming()
+9cef0db2388eb67adba58ce1fecc3d6c509399f7 NFSD: Prevent client use-after-free during admin state revocation
+28f9200b212b64909c24cd933bd4a7b388d66b5b NFSD: Prevent client use-after-free during delegation revoke
+22a435a2837712d6e2b7a0e3631a5ed33550225e NFSD: Guard admin state-revocation walks with NFSD_NET_UP
+83f40ff69e2d7ba33a5bd797edafc057aa2b7922 NFSD: Consolidate the revocation-path client unpin
+ed84f849996ecbe3e7f10ae62f95d6dee04ac0fe NFSD: Prevent client use-after-free during blocked-lock reaping
+28479468829adbc7a0de61f8c1a9f88b70c129ae NFSD: Prevent client use-after-free during close_lru reaping
+bc19320f186fbe2f9eb3eb9e62a4ef1a1ef87492 nfsd: fix stale s2s_cp_stateids IDR entry for async COPY
+1763b4f039f538bf1b32c27acaaad2ec2155ae4c svcrdma: Clear sc_cm_id when ADDR_CHANGE replacement fails
+4e604e6b2dc932d4c524a48628080e3309ebe46d nfsd: restore rq_status_counter to even on all nfsd_dispatch() exit paths
 
---===============5579790668265742659==--
+--===============4843282880541684355==--
