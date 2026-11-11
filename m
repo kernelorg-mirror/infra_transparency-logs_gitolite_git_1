@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 11 Nov 2026 19:57:30 -0000
-Message-Id: <179442705053.3213401.11908675461706584350@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 19:57:34 -0000
+Message-Id: <179442705495.3213647.2333636876765386146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regmap-7.5
-    old: cbd74ec34c06b9051b2fa17a2c853cac79956f0b
-    new: 64db965e43d47bb8c9e0ead3df3d9086c33680a3
+  - ref: refs/heads/asoc-7.5
+    old: 7e3a15ad2ea8755fe1aac235c8f8b057a4e02ebb
+    new: ce50ca8992db1d7e835fdaade9cae1e9898caa46
     log: |
-         ed8939e504663fd6d34cf2bc095b5f808aa7dd48 regmap: Switch to use kmemdup_array()
-         ac5fd39a1718b57b061aa95164eb6289981a7537 regmap: Defer assignments to the later in some cases
-         64db965e43d47bb8c9e0ead3df3d9086c33680a3 regmap: Drop duplicate ret assignment
+         ce50ca8992db1d7e835fdaade9cae1e9898caa46 ASoC: tas2781: add TAS2573 register definitions header
          
