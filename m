@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1407639216248908860=="
+Content-Type: multipart/mixed; boundary="===============5897230954299858164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:41:08 -0000
-Message-Id: <179437206870.2537933.14923267578720693145@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:41:11 -0000
+Message-Id: <179437207151.2538126.4608865076251323168@gitolite.kernel.org>
 
---===============1407639216248908860==
+--===============5897230954299858164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfsd-testing
-    old: 67dda43c65f7c239f5674aeb8a3509c63cd3609e
-    new: d996168e3c14f083a71b2e5829e9c82afa60f07f
-    log: revlist-67dda43c65f7-d996168e3c14.txt
+  - ref: refs/heads/kernel-6.12/nfsd-testing-canary
+    old: 9de5065f112ed830e055233b46b45ede5229cb3c
+    new: c562b065c3cc0dde2ea07a6e186b773547064cd2
+    log: revlist-9de5065f112e-c562b065c3cc.txt
 
---===============1407639216248908860==
+--===============5897230954299858164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67dda43c65f7-d996168e3c14.txt
+Content-Disposition: attachment; filename=revlist-9de5065f112e-c562b065c3cc.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -945,5 +945,9 @@ eac581b53ed50f54b4ec56552538f367428e475f NFSD: cut a misaligned direct-mode WRIT
 ab43ce2a3d1f5fb412e5b1d625a15fd9c0f5fc5b NFSD: do not use direct I/O for a READ smaller than its alignment
 1f46a461dd91fb757696cfaa4080de1961bd51bb NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
 d996168e3c14f083a71b2e5829e9c82afa60f07f NFSD: add tracing for how direct-mode READ and WRITE are serviced
+50381ca4f975f84f3b4c9ce9f36bfbbbf4dca5b7 svcrdma: cap per-xprt sc_send_ctxts free list at sc_max_requests
+c7e1bd5c902aa413abf0054e772ef405c7d232cd svcrdma: track sc_send_ctxts_depth at alloc/destroy and gate _get on it
+28004b6955cfd91dd2c37c98e80233df169b4292 svcrdma: loosen sc_send_ctxts_depth cap to 4*sc_max_requests
+c562b065c3cc0dde2ea07a6e186b773547064cd2 svcrdma: set WQ_HIGHPRI flag for the svcrdma_wq
 
---===============1407639216248908860==--
+--===============5897230954299858164==--
