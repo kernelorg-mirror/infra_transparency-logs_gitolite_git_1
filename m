@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5489359760908410790=="
+Content-Type: multipart/mixed; boundary="===============3646231194370206256=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:40:12 -0000
-Message-Id: <179437201232.2534448.12076256835352829323@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:40:15 -0000
+Message-Id: <179437201526.2534582.16836511988543805087@gitolite.kernel.org>
 
---===============5489359760908410790==
+--===============3646231194370206256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfs-next-thru-nfs-for-7.0-2
-    old: 704e0078d604d3119b61e95843345a27b2e3564a
-    new: c1738a6a3119906cfb855556b0145c95cdccee14
-    log: revlist-704e0078d604-c1738a6a3119.txt
+  - ref: refs/heads/kernel-6.12/nfs-for-7.1-1
+    old: 271c525f4273e13880e9cb55c6c3338052e5716d
+    new: e85b7ae0a876b7fe543a4426b60c35d3203bc493
+    log: revlist-271c525f4273-e85b7ae0a876.txt
 
---===============5489359760908410790==
+--===============3646231194370206256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-704e0078d604-c1738a6a3119.txt
+Content-Disposition: attachment; filename=revlist-271c525f4273-e85b7ae0a876.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -828,5 +828,21 @@ b5b4f0ba31414445541695ac5165706fe847fb63 sunrpc: rpc_debug and others are define
 39d1ccc7baa1710c51572ea47e31a1f41b21a641 SUNRPC: Change list definition method
 82913940cd4288d448a6964cbb10234318e70012 nfs: nfs4proc: Convert comma to semicolon
 c1738a6a3119906cfb855556b0145c95cdccee14 NFS: Fix NFS KConfig typos
+d5e779bd91e085a1136fd5b562fc23681a242796 NFSv4/pnfs: If the server is down, retry the layout returns on reboot
+6fc9e6302396c4be8f37b0fee941b87d415a510f NFS: improve "Server wrote zero bytes" error
+67d7d918a8bc4a56236a3c4b758e374105164550 nfs: fix utimensat() for atime with delegated timestamps
+83f34b26134466e17da12d71f426127f2877ba88 nfs: update inode ctime after removexattr operation
+ff2d30fb424c10c59ca12d20b840b0c3684cfae5 xprtrdma: Close sendctx get/put race that can block a transport
+4914f9c7ea4469b47a0dfd6fd1037c12517a9e2d xprtrdma: Decouple frwr_wp_create from frwr_map
+7ecf8be4cdde692866a5d66174ea6ea911d5cd38 xprtrdma: Replace rpcrdma_mr_seg with xdr_buf cursor
+ee2dcbd2894809284acb392a138b3bc130b3b074 xprtrdma: Scale receive batch size with credit window
+8704fd44215042c39d7663876d473a39eb30ef66 NFS/blocklayout: print each device used for SCSI layouts
+b9deae60d28a8630b9f7d2ddb2b73071c3b61e74 pnfs/flexfiles: validate ds_versions_cnt is non-zero
+c8529b3c2b6b4c056e73c72c237f43c77a1397b2 NFSv4.1: Apply session size limits on clone path
+d85adec54b97d00a9d1ca2a9c6ccb84ee761ae2f nfs: use memcpy_and_pad in decode_fh
+06dd589cb991e87bb8c08a8979e133e8b3bd2e1c NFS: fix writeback in presence of errors
+c56e97e879762d61bff14bb944e8277b0a639b91 NFSv4.2: fix CLONE/COPY attrs in presence of delegated attributes
+70287ae052daaabcc5ae91be8c703225cabfb20c NFS: remove redundant __private attribute from nfs_page_class
+e85b7ae0a876b7fe543a4426b60c35d3203bc493 NFS: Fix RCU dereference of cl_xprt in nfs_compare_super_address
 
---===============5489359760908410790==--
+--===============3646231194370206256==--
