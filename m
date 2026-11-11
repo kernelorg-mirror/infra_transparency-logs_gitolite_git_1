@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 11 Nov 2026 16:35:05 -0000
-Message-Id: <179441490562.3061318.2957027527523977947@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
+Date: Wed, 11 Nov 2026 16:35:34 -0000
+Message-Id: <179441493456.3061840.5467921401268474783@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/frank.li/linux
+user: frank.li
 changes:
-  - ref: refs/heads/for-7.5
-    old: c07982ac9dcedfc89ce8b24e5476d58ca34ca0f2
-    new: 07a01d9bb14b6988b0508c3bfb6b6bf02a4cdd71
+  - ref: refs/heads/for-next
+    old: a62533fb6362e6424a7bb4ecd4b5afe1a3355849
+    new: 5d821da25f43c28e783e6240d291c2df1f7204aa
     log: |
-         72c167d8e3a76607b3b4624ad3e45b3314bb33dc ASoC: dt-bindings: Document FM34NE DSP
-         2488b6a08b88581517ef764ea9efdd258fcd899c ASoC: codecs: Add support for Fortemedia FM34NE DSP
-         07a01d9bb14b6988b0508c3bfb6b6bf02a4cdd71 ASoC: codecs: Add support for Fortemedia FM34NE DSP
+         38aecc5bf9de1e26dcc8fc0a5a6882593248b293 arm64: dts: imx8qm-mek: Re-enable A72 cluster after ERR050104 workaround
+         df30ccf2cf43dbe0f1766eb47fb84c46f6401ffe Revert "arm64: dts: imx8qm-tqma8qm-mba8x: Disable Cortex-A72 cluster"
+         2348a61b825d9d2519f89f08294e118ed8b33236 arm64: dts: imx8ulp: fix gpio clocks
+         3667c33a8da759ccd979c130ada285f2c71b54df arm64: dts: imx93: fix gpio clocks
+         fac954d758aa2d2d6c35b48c052ba753f06f856d arm64: dts: imx95: fix gpio clocks
+         be166b98288e613f1e63fd39547c5caa0d0156e0 arm64: dts: imx952: fix gpio clocks
+         7e90daeb6c8d10bd008443451f48a7556f0f74bb arm64: dts: imx94: add clocks for gpio controller
+         5d821da25f43c28e783e6240d291c2df1f7204aa Merge branch 'imx/dt64' into for-next
          
