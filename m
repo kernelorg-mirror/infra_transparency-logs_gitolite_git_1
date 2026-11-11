@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8764460911026618287=="
+Content-Type: multipart/mixed; boundary="===============5489359760908410790=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:40:09 -0000
-Message-Id: <179437200947.2534239.3838255959644823070@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:40:12 -0000
+Message-Id: <179437201232.2534448.12076256835352829323@gitolite.kernel.org>
 
---===============8764460911026618287==
+--===============5489359760908410790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfs-next-thru-nfs-for-7.0-1
-    old: f6b3bec5c0a997c928b4ff02ec1cd079a3e7aafc
-    new: 82913940cd4288d448a6964cbb10234318e70012
-    log: revlist-f6b3bec5c0a9-82913940cd42.txt
+  - ref: refs/heads/kernel-6.12/nfs-next-thru-nfs-for-7.0-2
+    old: 704e0078d604d3119b61e95843345a27b2e3564a
+    new: c1738a6a3119906cfb855556b0145c95cdccee14
+    log: revlist-704e0078d604-c1738a6a3119.txt
 
---===============8764460911026618287==
+--===============5489359760908410790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6b3bec5c0a9-82913940cd42.txt
+Content-Disposition: attachment; filename=revlist-704e0078d604-c1738a6a3119.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -827,5 +827,6 @@ c0c64642cdcc318bf611d9a3b458ef8f1ed9f7dc NFS: fix delayed delegation return hand
 b5b4f0ba31414445541695ac5165706fe847fb63 sunrpc: rpc_debug and others are defined even if CONFIG_SUNRPC_DEBUG unset
 39d1ccc7baa1710c51572ea47e31a1f41b21a641 SUNRPC: Change list definition method
 82913940cd4288d448a6964cbb10234318e70012 nfs: nfs4proc: Convert comma to semicolon
+c1738a6a3119906cfb855556b0145c95cdccee14 NFS: Fix NFS KConfig typos
 
---===============8764460911026618287==--
+--===============5489359760908410790==--
