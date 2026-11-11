@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5897230954299858164=="
+Content-Type: multipart/mixed; boundary="===============2051968629141555934=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:41:11 -0000
-Message-Id: <179437207151.2538126.4608865076251323168@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:41:14 -0000
+Message-Id: <179437207446.2538257.14489160910506845440@gitolite.kernel.org>
 
---===============5897230954299858164==
+--===============2051968629141555934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfsd-testing-canary
-    old: 9de5065f112ed830e055233b46b45ede5229cb3c
-    new: c562b065c3cc0dde2ea07a6e186b773547064cd2
-    log: revlist-9de5065f112e-c562b065c3cc.txt
+  - ref: refs/heads/kernel-6.12/nfsd-testing-canary-dontcache
+    old: 0317150891a15e04abbcd6d157c911f4e516ab9e
+    new: 76676216a4436d85a15d46ab8d1130a62808364f
+    log: revlist-0317150891a1-76676216a443.txt
 
---===============5897230954299858164==
+--===============2051968629141555934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9de5065f112e-c562b065c3cc.txt
+Content-Disposition: attachment; filename=revlist-0317150891a1-76676216a443.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -949,5 +949,17 @@ d996168e3c14f083a71b2e5829e9c82afa60f07f NFSD: add tracing for how direct-mode R
 c7e1bd5c902aa413abf0054e772ef405c7d232cd svcrdma: track sc_send_ctxts_depth at alloc/destroy and gate _get on it
 28004b6955cfd91dd2c37c98e80233df169b4292 svcrdma: loosen sc_send_ctxts_depth cap to 4*sc_max_requests
 c562b065c3cc0dde2ea07a6e186b773547064cd2 svcrdma: set WQ_HIGHPRI flag for the svcrdma_wq
+8f9b8fd4dfd31ea73e3eb043d2dc69bf9b40cfec filemap: Add a helper for filesystems implementing dropbehind
+976777d3cbbcc96fe4720436bc10ffe796a7194b mm: rename filemap_fdatawrite_range_kick to filemap_flush_range
+52ff9746b016dcdf1a1bc3c7a68962ff7e125479 mm: track DONTCACHE dirty pages per bdi_writeback
+7d080a25a6774e6be4e4a97dfb063154a85374fa mm: kick writeback flusher for IOCB_DONTCACHE with targeted dirty tracking
+11b232ec2ccd28d979afcd4e52ddf9d23d5024ff mm: move clearing the dropbehind flag of a found folio into a helper
+fddde44a2a13a620ec45fda2c276d28d2a2bcbb6 mm: take a folio off WB_DONTCACHE_DIRTY only if it was counted there
+844df8557fb10f229d81d7025cd14c5cfc27ae14 mm: expose WB_DONTCACHE_DIRTY in bdi debugfs stats
+a31924b4dd3d2c6e97d94085daa026356e822d44 mm: add folio_mark_dropbehind() to mark a folio dropbehind and account it
+55dd078c5ae2790ce73afd968615592d4f51b461 mm, iomap: keep a partially covered page until a DONTCACHE write completes it
+1f16dc27f731534290cedada245768b5b48dcf01 mm, iomap: let a DONTCACHE writer complete its shared pages itself
+4f5fff1b42362005557ad6d26eca7468670cf999 NFSD: drop a shared boundary page only once both WRITEs have written it
+76676216a4436d85a15d46ab8d1130a62808364f nfsd: fetch direct I/O alignment for files handed to the filecache
 
---===============5897230954299858164==--
+--===============2051968629141555934==--
