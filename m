@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 11 Nov 2026 00:35:18 -0000
-Message-Id: <179435731845.2342808.338649372420599524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 11 Nov 2026 00:40:19 -0000
+Message-Id: <179435761953.2346605.13705335095812398079@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 9176036fa70aa7508dc9f7c299719d30f3a60361
-    new: ed04b202027249e2769420893220f54a56e0c59a
+  - ref: refs/heads/asoc-7.5
+    old: 6af40ad785ee8aa69212d982752daef7f06c2bdc
+    new: 6ea65389541178733808bc43afad94086e6a7268
     log: |
-         ed04b202027249e2769420893220f54a56e0c59a net: sfp: add quirk for OEM SFP+ONU-XGSPON
+         192a8ca0c082f82ee274779f5f051efe6d586ae1 ASoC: ak4613: cancel dummy write work on component removal
+         94c27456ba9c0fe59a332e6614c5273eafa9f153 ASoC: dt-bindings: Document FM34NE DSP
+         6f084cee496736035a519cbc3dd239e1924630b6 ASoC: codecs: Add support for Fortemedia FM34NE DSP
+         6ea65389541178733808bc43afad94086e6a7268 ASoC: codecs: Add support for Fortemedia FM34NE DSP
          
