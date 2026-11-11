@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2448847335036894970=="
+Content-Type: multipart/mixed; boundary="===============4502296527181944122=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:41:23 -0000
-Message-Id: <179437208319.2538697.274620483747930640@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:41:25 -0000
+Message-Id: <179437208580.2538860.4743419251438598539@gitolite.kernel.org>
 
---===============2448847335036894970==
+--===============4502296527181944122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/changelog
-    old: e3e80d7cc84b6b1a13e08e6cfdcea9fb9d4841a5
-    new: 310a246995355f1c5450f74553989d6a043b3697
-    log: revlist-e3e80d7cc84b-310a24699535.txt
+  - ref: refs/heads/kernel-6.12/baseline
+    old: dab65626fc5febcc39d5381141bd48c0d70367fa
+    new: e03c9e36189d0c89707059bb1fe8aab1b9886e46
+    log: revlist-dab65626fc5f-e03c9e36189d.txt
 
---===============2448847335036894970==
+--===============4502296527181944122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3e80d7cc84b-310a24699535.txt
+Content-Disposition: attachment; filename=revlist-dab65626fc5f-e03c9e36189d.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -278,15 +278,5 @@ b764e17313534794aeb99c901869f213e36a16ef xen-blkback: Avoid UAF when reading I/O
 5c40a1750f44dd6c7292d8c8d0b4ffff1734576e Linux 6.12.116
 0526757426aa91eeedb3af302959b48ed3d89aa4 Merge tag 'v6.12.116' into kernel-6.12/baseline
 e03c9e36189d0c89707059bb1fe8aab1b9886e46 kernel-6.12.116-0
-4c313f808d01d70a174873a8b28c12c6ed396afd backfill redhat/kernel.changelog-9.99 updates from previous 6.12.76 kernels
-8493c054845a6ae37640c0ed1f96c75fe6ea5a4a backfill redhat/kernel.changelog-9.99 updates from previous 6.12.85 kernels
-dbd7a61d8700fd84779ac3cbea48e923bfec1ea2 backfill redhat/kernel.changelog-9.99 updates from previous 6.12.87 kernels
-539dcd0accf84cdcb940c021dcf9cdafaa75e608 backfill changelog updates from previous 6.12.93 kernels
-02730b232d054aa9d58eb334491adfb7d4b647b2 redhat: move .gitlab-ci.yml to redhat/upstream-ci.yml.disabled
-b3cf532c6749c53fe4518d6e4f568a5a80514e51 backfill changelog updates from previous 6.12.110 kernels
-2976dbfe4310662d0acf716ecdba4f2b12ae04c0 backfill changelog updates from previous 6.12.111 kernels
-628c0db9667270397f3731c982b2d04cb6118f68 backfill changelog updates from previous 6.12.113 kernels
-c2d66e8eb98b7d87e49a94e414525347c966fe87 backfill changelog updates from previous 6.12.114 kernels
-310a246995355f1c5450f74553989d6a043b3697 kernel-6.12.116-5
 
---===============2448847335036894970==--
+--===============4502296527181944122==--
