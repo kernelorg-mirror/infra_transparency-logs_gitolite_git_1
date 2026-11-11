@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Wed, 11 Nov 2026 01:51:35 -0000
-Message-Id: <179436189586.2407485.10528801225823683431@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
+Date: Wed, 11 Nov 2026 01:57:31 -0000
+Message-Id: <179436225136.2411449.9232648223617076370@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: pjw
+repo: pub/scm/linux/kernel/git/bmc/linux
+user: arj
 changes:
-  - ref: refs/heads/fixes
-    old: d1a8d411533d6be16ac79796c02a9bfc7d7958f1
-    new: 79fc9d9467a113bb93f4539c11fa8c937982ff89
+  - ref: refs/heads/aspeed/maintainers
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    new: 1c1c86e60e6e9fee39cac99f302e5b3f113ef6d3
     log: |
-         018fe0700c569b50465b27d68deee7e9157e8e5f riscv: signal: protect regs->status RMW from concurrent preemption
-         f96c59f40d1ef1fb8378ad11eed796338e20eec2 riscv: defconfig: enable onboard USB hub support
-         79fc9d9467a113bb93f4539c11fa8c937982ff89 riscv: pci: allow write-combining mmap of PCI BARs
+         1c1c86e60e6e9fee39cac99f302e5b3f113ef6d3 MAINTAINERS: add Tan Siewert as reviewer for ARM/ASPEED
          
