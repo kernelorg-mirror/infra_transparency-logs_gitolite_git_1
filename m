@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2340414113553048724=="
+Content-Type: multipart/mixed; boundary="===============7914965837987368370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 11 Nov 2026 19:51:36 -0000
-Message-Id: <179442669699.3208569.6519946888594785693@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 19:51:40 -0000
+Message-Id: <179442670096.3208754.9829801696664583987@gitolite.kernel.org>
 
---===============2340414113553048724==
+--===============7914965837987368370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 488f62a72b8ea866bdb00262e909ea601fa2e707
-    new: 2dc0136b1fdac153434ab02778fcdb32db5d0dae
-    log: revlist-488f62a72b8e-2dc0136b1fda.txt
+  - ref: refs/heads/mm-unstable
+    old: 93d7a816a2df3e907e2719bd12b0073f1285fc5c
+    new: d3925707865d051ba04d5710d60550776e744368
+    log: revlist-93d7a816a2df-d3925707865d.txt
 
---===============2340414113553048724==
+--===============7914965837987368370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-488f62a72b8e-2dc0136b1fda.txt
+Content-Disposition: attachment; filename=revlist-93d7a816a2df-d3925707865d.txt
 
 e212c463eee96b2568d8c85ca4ee63049dbb18f2 mm/kasan: detect double-free involving kfree_rcu_sheaf()
 97a5aa11cc0cfe4dedd436c32793320b490c4331 mm/kasan/kunit: add double-free tests involving kfree_rcu_sheaf()
@@ -255,17 +255,5 @@ c86fca27db6961b44c4ffb72d70e00b5c7925d28 arm64/hugetlb: drop the init_mm special
 1542776f7b2efe2ecfa5fdc7610d5b538e4d0d17 mm/vmalloc: align vm_area so vmap() can batch mappings
 44038a8ffec38249c2fc68aad29ba2c6add2993e mm: skip empty finite ranges in truncate_pagecache_range
 d3925707865d051ba04d5710d60550776e744368 fs/proc/task_mmu: fix lost maps entries above 2^63
-adde3521a7b6533a2018bc79051e1e6f0850c38e tools/mm: add page_owner_filter to .gitignore
-0bcdaa895a6987dd8580d54970c607b1bea97d49 mm: free unused page table allocated by do_set_pmd()
-a29b50fdf5c82b2e9be7a33dded53b39eda3d6ea mm/damon/core: use list_{next,prev}_entry() in damon_{next,prev}_region()
-9f408e8ac4698e8a5fff7cb24c4d7961c1f2ae46 Docs/admin-guide/mm/damon/reclaim: improve language
-89d4711479c32c7623140c57065568d92b2ff306 mm/vmalloc: reject overflowing vm_map_ram page counts
-65c7b9af04f2ce780d618b467e6a6f8388ae5412 mm/vma: predicate vma_assert_stabilised() on CONFIG_DEBUG_VM
-e1c9d8db7aff629d839080b11f68d8bc580ef7d4 Revert "mm/khugepaged: remove definition of struct khugepaged_mm_slot"
-dd907d24d29f4d30d9d8a2016f339b6158127e0b mm/khugepaged: scan mm's more efficiently under mmap_lock contention
-6ad383e7c29d57bed0943e032f6f392f40bccea1 mm/khugepaged: release contended mmap read lock after scanning enough VMAs
-d2f392ecb59d438db91730343c8f78abd37ed2ef mm/hugetlb: allow crashkernel to reuse hugetlb CMA memory
-ccb36031e6c7c56da77b55917a23073daa55ae3b mm/migrate_device: allocate deferred split sublists for new huge folios
-2dc0136b1fdac153434ab02778fcdb32db5d0dae riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============2340414113553048724==--
+--===============7914965837987368370==--
