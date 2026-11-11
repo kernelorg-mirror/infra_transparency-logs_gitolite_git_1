@@ -1,60 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============0965969110230607645=="
+Content-Type: multipart/mixed; boundary="===============4444844364774301475=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 11 Nov 2026 19:35:01 -0000
-Message-Id: <179442570199.3194266.7452624688026936179@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Wed, 11 Nov 2026 19:35:32 -0000
+Message-Id: <179442573244.3196486.12534332289358931691@gitolite.kernel.org>
 
---===============0965969110230607645==
+--===============4444844364774301475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: 0fb18ce8a2e9de830433923cf65838933d615359
-    new: ccbc2c6516fe7768e8d226fab746346ccffa0778
-    log: revlist-0fb18ce8a2e9-ccbc2c6516fe.txt
+  - ref: refs/heads/test3
+    old: 0000000000000000000000000000000000000000
+    new: 253943680583af7fc576b747fabff8ab45ed5980
 
---===============0965969110230607645==
+--===============4444844364774301475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fb18ce8a2e9-ccbc2c6516fe.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-7f2be76f66c11c8d59c5fc6a1f466fc735d5c51a bpf: Keep the 32-bit range across a no-op sign extension
-af75e656127c2707bd3f375778b2b3e6964cb990 bpf: Model 32-bit shifts and divisions exactly in scalar evolution
-aba76dc75e35f85b151346503bea3801aaf63598 bpf: Construct scalar evolution expressions without allocations
-88835c2be483625f668ed65efa47f826eacff95f bpf: Don't join dead registers in scalar evolution
-221d14d4e8f2a88bcb77fa68fc841236e885b996 bpf: Simplify scalar evolution expressions at construction
-cfef7bfa2c2a13a182b0b5da42844baa8e379590 bpf: Give SSA names to the values that scalar evolution does not track
-490460d3b2ac243dd7060f27fbfddef3e3f11da0 bpf: Compute scalar evolution expressions for whole subprogs
-ecb02a088761d6d4bc285ff23dfaee4734e2078a bpf: Mark the attr argument of bpf_sys_bpf() as MEM_WRITE
-616f6f3a0cd04a897879c8560da1cd86a3f22760 bpf: Include older frames in a fill through an imprecise stack pointer
-84d326943649d97f8a2d20fc11a960e01e1d6543 bpf: Detect a dead branch when a range and var_off don't overlap
-c5142859aed4ca2fc051de468b4b2735833a4fc6 bpf: Don't treat half of a 64-bit spill as a 32-bit spill on big endian
-e2f3d29e88d08680c3b4d6e29f0d43881285aeb9 bpf: Refine registers linked by scalar evolution at conditional jumps
-527ebfb466f83e4e14891c04731034b419fa8387 bpf: Value number the phis of scalar evolution
-6d679b7703736cdbb044a07e0bd42817e61c83ab selftests/bpf: Test registers linked by scalar evolution
-8dceb4e1dd54c44b0fbd95ce8695bd6cbd22086e selftests/bpf: Test sign extensions of a range and of a linked register
-94a5bec008d7265c9c186697e3a848c2edf6c36c bpf: Recompute a pointer after the jump that bounds its index
-8a52d7c8b3a4e202d2be425c238b4cfbdbacea83 selftests/bpf: Test a pointer computed before its index is bounded
-fd8e6bf8d240259e8e6477be0096a370cdc389ba bpf: Promote memory behind a pointer to SCEV registers
-bb264c399ccb4f6a5a1f6aa9e602edf588985cf2 selftests/bpf: Test the memory of a caller that a jump tests
-1ff08ed619d46257c1381ddff0ae55f934290310 bpf: Find a copy of an induction variable without scalar ids
-8b81ea69de078a395b5b6410acfa4dc8664164c4 bpf: Compute scalar evolution expressions in irreducible loops
-315a2adc00e2696932c98a37f8a4dfd4262f9e91 bpf: Remove sync_linked_regs(), refine by scalar evolution only
-d0a2961adf222ec0fb1432f375f2d21f01d5ab5d bpf: Recognize copies of a scalar by their ranges in flow_join_makes_up()
-5d3a85d3743dcce209f1597e939d19863dd6755d bpf: Stop assigning ids to scalars
-c9a6eeaf44d1214b18a54e01aa1d59932ed05287 bpf: Remove scalar ids from regsafe()
-2efaa4901da067f3e469880cbeb02658f3d7a7d5 bpf: Remove scalar ids from the join of states
-ba3dfc8f872d07209aea021c3bf6119cfb964e34 bpf: Remove scalar ids from the log and from bpf_verifier.h
-ab981af5e99c04453462303cafa072cf5ad2f18c bpf: Support sign-extended 32-bit linear scalar evolution
-e7a54ec8a3b762ad9a90dfb7d80881a5be856b97 selftests/bpf: Test loops with a sign-extended 32-bit induction variable
-ccbc2c6516fe7768e8d226fab746346ccffa0778 Merge branch 'bpf-find-linked-registers-by-scalar-evolution-remove-scalar-ids'
+certificate version 0.1
+pusher krzk@kernel.org 1794425731 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1794425730-6b18e1fe58f3c6043aa02170edeac3f87ec70456
 
---===============0965969110230607645==--
+0000000000000000000000000000000000000000 253943680583af7fc576b747fabff8ab45ed5980 refs/heads/test3
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmr0w4MQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD13xxD/0Wv0WcBClnSry1g7fGZEeOIdir5VMB42Ob
+tYNy32KD+ZugQofgxR22uRf8WAOdRPHntK0vYcMylboVUBCYvilYjTq6+WcryngM
+QOhv/RU0dOXVtqctZjt2EGHo1ckEXyWMSmDZAGPWnjms1r7rFmwkB4QXhtEN8gpt
+6rpvLwWpfnDYM0rERyhViupySpmAyeaBQsBslnepx9/KN/mXtnNxGMTI+qNp2+tX
+SgbRKfn3LGGOo6P46+KQOWCcNfMMbcXKA27umi6tIhDf3n9z2qgsyUnL1yVZ+60A
+qZbf4ezsOEJQMOaBGy2uXa7ErxOawlpeRycc3K1JYVVgv2p8qXqFmnh0XT1V5Lfn
+a0jMLA/MjFxa64sdaGMA7G+hZN71axmJW3DQL+9oI9niDMdJH5pJPmFAUhM06fcq
+QAML5i4MyMIO2CFdkbs/rrr9cfWn69NQKq4PMWp1NgoVYI7tbk5vrS4VRlzMNBIw
+VvtZtDtuhABmErYZf19dZK1funIU3ZpbWjszOEsV8XQhowFHTz0czEPhgrqQKSyJ
+sR77wVGyg1Oq/nyNBiaK2F3/xqTapDXZAXpoSx801RhDzVw5m6IgF7ybVb8QC8gF
+O00ZKpVsSHVtXj5FeHglxl3DEIq159cym4ZuKve4gFfqlHUlZ3RK1szk3On07AvE
+n4IBIrZnJQ==
+=pYFE
+-----END PGP SIGNATURE-----
+
+--===============4444844364774301475==--
