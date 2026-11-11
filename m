@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 11 Nov 2026 23:22:09 -0000
-Message-Id: <179443932914.3371252.1542746647442254312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Wed, 11 Nov 2026 23:47:03 -0000
+Message-Id: <179444082348.3388246.11139997960947125876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/broonie/regmap
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: e9e1c5ea62a7002b5f4efdd281cd7021cd15664c
-    new: 91d8a01977701d10b0037e4adfcec21d8dd6d48f
+  - ref: refs/heads/for-7.5
+    old: cbd74ec34c06b9051b2fa17a2c853cac79956f0b
+    new: 64db965e43d47bb8c9e0ead3df3d9086c33680a3
     log: |
-         0a6bb1a813a48d242c9d838fa6008e016d3539f6 Merge remote-tracking branch 'wireless/main'
-         ea186b62a7dc422a056ee30f390fe514feb7b361 Merge remote-tracking branch 'wireless-next/main'
-         606c19fb860fee9748d8a704f32b62e342109dab Merge branch 'ath-next'
-         dc49c0772aeaca3d782b53598ce590a87180c329 Add localversion-wireless-testing-ath
-         91d8a01977701d10b0037e4adfcec21d8dd6d48f drm/amd/display: use include guards instead of #pragma once in Core 2 headers
+         ed8939e504663fd6d34cf2bc095b5f808aa7dd48 regmap: Switch to use kmemdup_array()
+         ac5fd39a1718b57b061aa95164eb6289981a7537 regmap: Defer assignments to the later in some cases
+         64db965e43d47bb8c9e0ead3df3d9086c33680a3 regmap: Drop duplicate ret assignment
          
-  - ref: refs/tags/ath-202611111919
-    old: 0000000000000000000000000000000000000000
-    new: 91d8a01977701d10b0037e4adfcec21d8dd6d48f
