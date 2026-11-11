@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1655096127746006265=="
+Content-Type: multipart/mixed; boundary="===============3059520156540272482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:40:20 -0000
-Message-Id: <179437202098.2534920.3439241270854632954@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:40:23 -0000
+Message-Id: <179437202397.2535083.16613648392061216938@gitolite.kernel.org>
 
---===============1655096127746006265==
+--===============3059520156540272482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfs-for-7.2-fixes
-    old: 474d9afdff7331940cd61a9bb1c864e81cc8dffa
-    new: a75255645e43230529c3456de5d372a32da0c8c8
-    log: revlist-474d9afdff73-a75255645e43.txt
+  - ref: refs/heads/kernel-6.12/nfs-fixes-from-stable-baseline
+    old: 669cc4758f0894af2dd6cf209477f9a650e3b671
+    new: b4a1aaa32b7ed4a8d2830526c6540504ecd0e606
+    log: revlist-669cc4758f08-b4a1aaa32b7e.txt
 
---===============1655096127746006265==
+--===============3059520156540272482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-474d9afdff73-a75255645e43.txt
+Content-Disposition: attachment; filename=revlist-669cc4758f08-b4a1aaa32b7e.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -851,5 +851,7 @@ e85b7ae0a876b7fe543a4426b60c35d3203bc493 NFS: Fix RCU dereference of cl_xprt in 
 acc1c86ed3183e529f291d87f0fe70671c71a21a NFSv4.1/pNFS: fix LAYOUTCOMMIT retry loop on OLD_STATEID
 67f58c5a19ecb45b36c243ca0684931c9adbb013 NFS: correct CONFIG_NFS_V4 macro name in #endif comment
 a75255645e43230529c3456de5d372a32da0c8c8 NFS: Use common error handling code in nfs_alloc_server()
+8bb0730453fd392d1100ae2d0037e8ad37e0fdd0 NFS: Return a delegation the client fails to record
+b4a1aaa32b7ed4a8d2830526c6540504ecd0e606 NFSv4/flexfiles: fix NULL dereference for NFSv4.0 data servers
 
---===============1655096127746006265==--
+--===============3059520156540272482==--
