@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3144066744929043451=="
+Content-Type: multipart/mixed; boundary="===============0328132586400216662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:40:27 -0000
-Message-Id: <179437202714.2535231.756428688349808818@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:40:30 -0000
+Message-Id: <179437203001.2535427.3042984419220905742@gitolite.kernel.org>
 
---===============3144066744929043451==
+--===============0328132586400216662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfs-testing-canary
-    old: d784fae242be90c75eb88187d23b7c86a3b2e8be
-    new: 955f1a39e7a02b90a23255848460cd31a2dd1d84
-    log: revlist-d784fae242be-955f1a39e7a0.txt
+  - ref: refs/heads/kernel-6.12/nfs-testing-canary-localio-reprobe
+    old: 3317be72822340593fd951c92f4f4abc90d2febf
+    new: ecfb6fb7a844514e41c1fcf2dfebb01eff7df887
+    log: revlist-3317be728223-ecfb6fb7a844.txt
 
---===============3144066744929043451==
+--===============0328132586400216662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d784fae242be-955f1a39e7a0.txt
+Content-Disposition: attachment; filename=revlist-3317be728223-ecfb6fb7a844.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -863,5 +863,8 @@ e7b90f6a187d8ba6009411df6ec4af375e503cdd NFS/localio: detect a short read or wri
 034aee043b07356e9782ac400c5538a702f23593 NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
 747bfcccbba8585b31e146f8830837d83449f23b NFS/localio: don't run the release of a failed COMMIT in the submitter
 955f1a39e7a02b90a23255848460cd31a2dd1d84 workqueue: Fix NULL current_pwq deref in mem-reclaim helper
+c90595997b96c46c8c47173beb1ca8d3c0f69be9 NFS/localio: hold the client across an asynchronous LOCALIO probe
+8fa84bfd83fc7f04168e74ddef0751090dda11a7 NFS/localio: probe again for LOCALIO when localio_enabled is set to Y
+ecfb6fb7a844514e41c1fcf2dfebb01eff7df887 NFS/localio: give the LOCALIO probe a short timeout of its own
 
---===============3144066744929043451==--
+--===============0328132586400216662==--
