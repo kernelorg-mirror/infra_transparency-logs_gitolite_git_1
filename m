@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 11 Nov 2026 23:02:24 -0000
-Message-Id: <179443814415.3356721.7288554425851462450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Wed, 11 Nov 2026 23:07:09 -0000
+Message-Id: <179443842942.3360506.985647744054694269@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/main
-    old: 3e8e22a1007a6337ba2400b3ea87077947005c20
-    new: f3c790c34d228d46c4a05fe5d001d1bbea444e2b
+  - ref: refs/heads/for-linus
+    old: c1f4db7e869ce7dafd1811a75b392740985e1199
+    new: 9def7caa2e55d0c5708385ae0d0039e9eaa26c47
     log: |
-         f3c790c34d228d46c4a05fe5d001d1bbea444e2b net: ena: avoid RX copybreak for multi-descriptor packets
+         9cfed185db8f1c12bf2629fb37c77d85bf93b193 Input: xpad - add support to Hori Real Arcade Pro 4
+         9def7caa2e55d0c5708385ae0d0039e9eaa26c47 Input: xpad.c - add support for Hyperkin Xenon, Hori Taiko Controller DX, and 8BitDo M30
          
