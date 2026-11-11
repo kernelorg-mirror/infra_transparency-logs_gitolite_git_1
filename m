@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2200633877536426029=="
+Content-Type: multipart/mixed; boundary="===============0600358767540367891=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:40:50 -0000
-Message-Id: <179437205086.2536893.14151673409733698259@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:40:53 -0000
+Message-Id: <179437205376.2537096.13344524478830656588@gitolite.kernel.org>
 
---===============2200633877536426029==
+--===============0600358767540367891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfsd-next-thru-nfsd-7.0-2
-    old: f778edd4b2ea5c961e142b42dba454d70acf458d
-    new: 5ff17c9f418b75cccc1c5f58ce056cecd8bba7a2
-    log: revlist-f778edd4b2ea-5ff17c9f418b.txt
+  - ref: refs/heads/kernel-6.12/nfsd-vfs-7.0-rc1.atomic_open
+    old: 33cd50bf59ca314a9615abf2a03d0103812f7bd5
+    new: df10572c8c34e200171ff06852678593714745a5
+    log: revlist-33cd50bf59ca-df10572c8c34.txt
 
---===============2200633877536426029==
+--===============0600358767540367891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f778edd4b2ea-5ff17c9f418b.txt
+Content-Disposition: attachment; filename=revlist-33cd50bf59ca-df10572c8c34.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -870,5 +870,9 @@ d7ef0ac47c8bd421c0889769b3673757cf257030 NFSD: Add support for XDR decoding POSI
 30e4c359485c92fe9301effded64e8f24f3316aa NFSD: Add POSIX ACL file attributes to SUPPATTR bitmasks
 d6ccdb6f1668a4e3123913c07bd414a274bb89a2 nfsd: report the requested maximum number of threads instead of number running
 5ff17c9f418b75cccc1c5f58ce056cecd8bba7a2 NFSD: Defer sub-object cleanup in export put callbacks
+ecd50450b0b025c3aac24606d3dddbd654f647f6 VFS: move dentry_create() from fs/open.c to fs/namei.c
+cc30428a4ff35e5e2f006fb32234cc34452846d3 VFS: Prepare atomic_open() for dentry_create()
+c43c0f4c5467e71b99606818d81a5b70d780e36c VFS/knfsd: Teach dentry_create() to use atomic_open()
+df10572c8c34e200171ff06852678593714745a5 fs/namei: fix kernel-doc markup for dentry_create
 
---===============2200633877536426029==--
+--===============0600358767540367891==--
