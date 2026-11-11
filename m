@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8104960901812235312=="
+Content-Type: multipart/mixed; boundary="===============1655096127746006265=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:40:18 -0000
-Message-Id: <179437201803.2534801.6839931830298880083@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:40:20 -0000
+Message-Id: <179437202098.2534920.3439241270854632954@gitolite.kernel.org>
 
---===============8104960901812235312==
+--===============1655096127746006265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfs-for-7.1-2
-    old: aae4c7c408d0b3d05087aa49644f9b890df95029
-    new: 05cd9bf54b1bf3d86f3616a4d88832b4373d6e97
-    log: revlist-aae4c7c408d0-05cd9bf54b1b.txt
+  - ref: refs/heads/kernel-6.12/nfs-for-7.2-fixes
+    old: 474d9afdff7331940cd61a9bb1c864e81cc8dffa
+    new: a75255645e43230529c3456de5d372a32da0c8c8
+    log: revlist-474d9afdff73-a75255645e43.txt
 
---===============8104960901812235312==
+--===============1655096127746006265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aae4c7c408d0-05cd9bf54b1b.txt
+Content-Disposition: attachment; filename=revlist-474d9afdff73-a75255645e43.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -845,5 +845,11 @@ c56e97e879762d61bff14bb944e8277b0a639b91 NFSv4.2: fix CLONE/COPY attrs in presen
 70287ae052daaabcc5ae91be8c703225cabfb20c NFS: remove redundant __private attribute from nfs_page_class
 e85b7ae0a876b7fe543a4426b60c35d3203bc493 NFS: Fix RCU dereference of cl_xprt in nfs_compare_super_address
 05cd9bf54b1bf3d86f3616a4d88832b4373d6e97 NFS: write_completion: dereference loop-local req, not hdr->req
+438cba6455f56e2c529f6084fa25b146de2fd901 sunrpc: Fix error handling in rpc_sysfs_xprt_switch_add_xprt_store()
+6f910795826b4775d6a37c9cb3d553649e5e5be5 NFS: show redacted cert_serial and privkey_serial in mount options
+2c68042d1beacb602993f1f1bea0cba7cec35383 sunrpc: fix uninitialized xprt_create_args structure
+acc1c86ed3183e529f291d87f0fe70671c71a21a NFSv4.1/pNFS: fix LAYOUTCOMMIT retry loop on OLD_STATEID
+67f58c5a19ecb45b36c243ca0684931c9adbb013 NFS: correct CONFIG_NFS_V4 macro name in #endif comment
+a75255645e43230529c3456de5d372a32da0c8c8 NFS: Use common error handling code in nfs_alloc_server()
 
---===============8104960901812235312==--
+--===============1655096127746006265==--
