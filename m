@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8181104896759733697=="
+Content-Type: multipart/mixed; boundary="===============6448613690003805937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Wed, 11 Nov 2026 22:12:58 -0000
-Message-Id: <179443517816.3316282.11666594232217713848@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 22:24:50 -0000
+Message-Id: <179443589075.3324598.10357973037382835693@gitolite.kernel.org>
 
---===============8181104896759733697==
+--===============6448613690003805937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,28 @@ repo: pub/scm/linux/kernel/git/vfs/vfs
 user: brauner
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/vfs.fixes
-    old: b0993210e420f2f1d61e6719fbcd3966b96ff9ed
-    new: 2cca8a6f6ae690755862f5b633125119dcf6bd0c
+  - ref: refs/tags/vfs-7.4-rc3.fixes.2
+    old: 0000000000000000000000000000000000000000
+    new: cabd4c925f9248d9d19642a0d9d46d73d4c6841d
 
---===============8181104896759733697==
+--===============6448613690003805937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 0x91C61BC06578DCA2! 1794435176 +0100
+pusher 0x91C61BC06578DCA2! 1794435889 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-nonce 1794435175-c7a3c4ba5eccc37fa3bc393498289e1943a03d43
+nonce 1794435888-77ca51f47fa2e5cecdff7aff996d377e20554ded
 
-b0993210e420f2f1d61e6719fbcd3966b96ff9ed 2cca8a6f6ae690755862f5b633125119dcf6bd0c refs/heads/vfs.fixes
+0000000000000000000000000000000000000000 cabd4c925f9248d9d19642a0d9d46d73d4c6841d refs/tags/vfs-7.4-rc3.fixes.2
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCavToaAAKCRCRxhvAZXjc
-ojwEAQDgnsNIXWjG2l37nfOaol0u/d+DNnxPK6Lzk8MXtQBJ1gEAm0aqqZNmG89M
-yZclysy5x31cOVEBG5G8v6rJf3eSLAY=
-=Se8w
+iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCavTrMQAKCRCRxhvAZXjc
+oixzAP44szbYHKwPjjSpJAE+tCMYTqCggTSxv4JyQKonRcdThQEA8jeE8SVTDPCy
+knHxfwOveTHBKBypUy2fEK+DSEkMww0=
+=y7L5
 -----END PGP SIGNATURE-----
 
---===============8181104896759733697==--
+--===============6448613690003805937==--
