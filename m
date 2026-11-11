@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5496595415198838769=="
+Content-Type: multipart/mixed; boundary="===============6052064611960003959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:39:38 -0000
-Message-Id: <179437197855.2530579.13618732475624611689@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:39:41 -0000
+Message-Id: <179437198170.2530705.136925958601382048@gitolite.kernel.org>
 
---===============5496595415198838769==
+--===============6052064611960003959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/baseline-reverts
-    old: 5857700fa87512fc8eff9cce06491c7e8b772883
-    new: d409da92ca41377155a06dd4ce1223e2fa03db5f
-    log: revlist-5857700fa875-d409da92ca41.txt
+  - ref: refs/heads/kernel-6.12/localio-thru-nfs-for-6.14-1
+    old: 11f4234c9048163fda075ccc891358f85f1a41f0
+    new: 5fdb24f12997cf674368fdd7c4d01e163a887d35
+    log: revlist-11f4234c9048-5fdb24f12997.txt
 
---===============5496595415198838769==
+--===============6052064611960003959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5857700fa875-d409da92ca41.txt
+Content-Disposition: attachment; filename=revlist-11f4234c9048-5fdb24f12997.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -304,5 +304,104 @@ c6652d93f8392be4c7fefaa25b760cf172d8f2fa Revert "nfsd: dedup nfs4_client_to_recl
 eec9bb09bb53e0d64175e715c4f026319a249fbc Reapply "NFSD: Remove the cap on number of operations per NFSv4 COMPOUND"
 5536629be78045d8fd8f8b2befdfc53efee4ddb6 Revert "NFSD: Make nfsd_genl_rqstp::rq_ops array best-effort"
 d409da92ca41377155a06dd4ce1223e2fa03db5f Revert "nfsd: check nfsd4_acl_to_attr() return value in nfsd4_create()"
+266750c61bbe1ba90fb6d2aef2c2f7084aad027c redhat/kernel.spec: fix kernel_meta_package
+c706980eb00f60692ce44e931e16b128b4a762bb redhat/kernel.spec: for .el8 verify that gettid() is missing
+95057a78bb433c43fa3c43c02c828ea86139abc1 Revert "NFSD: net ref data still needs to be freed even if net hasn't startup"
+6ae09d9d0406446b103fb3713d9ff91b31dff8f0 Revert "nfsd: fix memory leak in nfsd_create_serv error paths"
+21fbf8e5f359aca620884985965814ea16082ca9 Revert "nfsd: rename nfsd_serv_ prefixed methods and variables with nfsd_net_"
+2a8bd1da6e8fe0c87365c064149b6721646292f5 Revert "nfsd: update percpu_ref to manage references on nfsd_net"
+ebf297533ffe9fa62550262d6f143bba41be7a83 Revert "NFS/localio: use GFP_NOIO and non-memreclaim workqueue in nfs_local_commit"
+45f68f8123414d7491a57df908c51c4b835bf723 Revert "nfs/localio: eliminate unnecessary kref in nfs_local_fsync_ctx"
+8164198d41c3286ce5bab6b2e0085fd0b4ad5626 Revert "nfs/localio: restore creds before releasing pageio data"
+4e7adba23e55f4b4ace6ba1cfa7b267b3a818d48 Revert "nfs/localio: add direct IO enablement with sync and async IO support"
+e4697793ba6b3b587a87e449bdaba4c77fd498a1 Revert "nfs/localio: remove extra indirect nfs_to call to check {read,write}_iter"
+c3cd9d7ada9d810f5c1d6812462bcddb68f4383a NFSD: Remove unnecessary posix_acl_entry pointer initialization
+bd08afe4bee4f08af3ade4823cf98153fdd7442a NFSD: Remove unused function parameter
+7067e396291b5406348fede1ce46a7f3885f6250 xdrgen: Exit status should be zero on success
+e2c306e5fec7772eedb958da97cacca5ddde8a9d xdrgen: Clean up type_specifier
+4688b1657047d98579fe977062c28de4d5d88610 xdrgen: Rename "variable-length strings"
+20a61e4134108bcb53ccac99c672cd043a7275e4 xdrgen: Rename enum's declaration Jinja2 template
+ee46f1eb56af2662584a7082d3759f886a6c0cc2 xdrgen: Refactor transformer arms
+82d4ff7e61e2fe0e697742f93f10609b676560df xdrgen: Track constant values
+70284f565093e32ddce1654b3bef62d855db496a xdrgen: Keep track of on-the-wire data type widths
+8619cbccd11ccd3cd9f507730531adcb41efbce5 xdrgen: XDR widths for enum types
+f9500e5292ad52858172eb025148f4bc21dd2151 xdrgen: XDR width for fixed-length opaque
+8761759632e7caca81c87317600918eaa9c9d044 xdrgen: XDR width for variable-length opaque
+a43d448dfedcaa046078eefcb33e4917660eb75d xdrgen: XDR width for a string
+a1eb74f7b3b3ed2fff2d76e439e95300ded7dfbc xdrgen: XDR width for fixed-length array
+f725272595f0ea27cf57db88ea23773be5a2a2e2 xdrgen: XDR width for variable-length array
+4898981276e6acb786f4e38b6104af258ae99765 xdrgen: XDR width for optional_data type
+896daf1e4812f7de4f9ab70656166082b8129f70 xdrgen: XDR width for typedef
+084e67269f5a5a12a21df9926c55a1be54f8d808 xdrgen: XDR width for struct types
+2d45feed8aece29e7ec17eb13ef5990c3e61f0f5 xdrgen: XDR width for pointer types
+2867cb007b83f5eed4ec403a7081baaeb09cc3d2 xdrgen: XDR width for union types
+50642b1b3862a91308195dc558c6112227e16b3e xdrgen: Add generator code for XDR width macros
+ff8c15a1958ccf726f9ecd41d3392429380cd69c xdrgen: emit maxsize macros
+752a0523bb4e45266271415e0fa6fce39fb94053 nfsd: drop the ncf_cb_bmap field
+659f868065ea4707cf93c88672732ecb2efc1b2b nfsd: drop the nfsd4_fattr_args "size" field
+c9674f4fb5927249986152849720575d5cc23a29 nfsd: have nfsd4_deleg_getattr_conflict pass back write deleg pointer
+db2e2868be529cdb969fb777a9e580a56bf209b8 nfsd: new tracepoint for after op_func in compound processing
+b98a7dcf51b39bf538749bd6b39e69769fce5a95 lockd: Fix comment about NLMv3 backwards compatibility
+85ef52b7d6d6fe9b036ee921325c01d074ca6581 nfsd: Fill NFSv4.1 server implementation fields in OP_EXCHANGE_ID response
+735e6485bf9b3062b9526bb672d6434f53d7fb0c xdrgen: Add a utility for extracting XDR from RFCs
+365801208e13571b8c2a4f453984470a64170d56 nfsd: replace call_rcu by kfree_rcu for simple kmem_cache_free callback
+3da828c09ec5626161ab2250cd6c5e40b31f7a4f NFSD: Remove dead code in nfsd4_create_session()
+557be7dd07629807d3f64a088a9f1bae5afc68e9 NFSD: Remove a never-true comparison
+6144c391cbfe1ef01660bb72453c08d2ae6b71a5 NFSD: Prevent NULL dereference in nfsd4_process_cb_update()
+84ed0f9083565699d26a9b2eba7f8da08ac50d84 NFSD: Remove unused results in nfsd4_encode_pathname4()
+29d7ab1b33f591352800de97c77662bfd405af6f NFSD: Remove unused values from nfsd4_encode_components_esc()
+b2ecfdd211a5e902c011b7cde63fdf1001b58a68 lockd: Remove unused typedef
+14b25c35b6cbe818c53ae434c2283a49a04addac lockd: Remove unnecessary memset()
+97f1b9b0a117e003f9514cccff72009e9f147cda lockd: Remove some snippets of unfinished code
+b9f33f53996ddaeade0462783e1fecf1f719783f lockd: Remove unused parameter to nlmsvc_testlock()
+2971d6287a8c5e16025cfe4872297b07f7d6fbc0 lockd: Remove unneeded initialization of file_lock::c.flc_flags
+19f199e1b12e9642226baf960c9c11316147a6d6 nfsd: release svc_expkey/svc_export with rcu_work
+9024d1879f43f59d5000a283bc6a8e04fb29ec74 xdrgen: Remove tracepoint call site
+5c52034c303882cfed0cc8b4d5ff83643d307702 xdrgen: Remove check for "nfs_ok" in C templates
+ea7fd3ff6b2ce3dc038929d2db0bc3ade0425d26 xdrgen: Update the files included in client-side source code
+ace6d6efcc151d38639fc73c139be4226508d446 xdrgen: Remove program_stat_to_errno() call sites
+11364c88d9397eeb0afc3185334deeb707b8e158 nfsd: Don't fail OP_SETCLIENTID when there are too many clients.
+a09b4069a9d344932704ea722015c7ba46dde360 nfsd: make use of warning provided by refcount_t
+c2cbf0906e9e2684295778021b5c7945cb9b1c20 nfsd: remove nfsd4_session->se_bchannel
+b42938ac636f0b011ffac63e95891a858e439d2e nfsd: make nfsd4_session->se_flags a bool
+45825194d029eb191fb262190dc606b449a075f6 NFSD: Add a tracepoint to record canceled async COPY operations
+0b8806c7f46ad40dd6d1b8bff1ab3fb255a322e4 NFSD: Free async copy information in nfsd4_cb_offload_release()
+a5cc2a822d02ddff1c40ae095dba287243844521 NFSD: Handle an NFS4ERR_DELAY response to CB_OFFLOAD
+a597f3b441dc7ef04ef0a5cf6deadd550ddf6ef7 NFSD: Block DESTROY_CLIENTID only when there are ongoing async COPY operations
+83c24aeca313589092ec641cfbc6ab80f1a9d330 NFSD: Add a laundromat reaper for async copy state
+714dae15d834a3249b091035fad4ca40cf934602 NFSD: Add nfsd4_copy time-to-live
+8deb2107dd68e50a98f28d630a4be020733728d1 nfsd: get rid of include ../internal.h
+cc208a453e47fd1343387944daafea42a7dd7cc0 nfsd: allow for up to 32 callback session slots
+306a9336fe87671cf2a72e23ed78774e24438c9e NFS: Clean up locking the nfs_versions list
+8791915db06eea70818f1e5f42b2785655614249 NFS: Convert the NFS module list into an array
+74d2cd1913a8945cb6814120f6c1aee565344311 NFS: Rename get_nfs_version() -> find_nfs_version()
+f8337620779f2e18e8d6a7115d2af4918f7ee9cb NFS: Clean up find_nfs_version()
+ae71d8b256e4d730a426b736e3485f73871c46f6 NFS: Implement get_nfs_version()
+ead195331c067711c06a4c7a788eb75102b37732 nfs/localio: remove redundant suid/sgid handling
+0079214e3ea33d583b2d1c89c1ffc0b3aaa7d4d9 nfs/localio: eliminate unnecessary kref in nfs_local_fsync_ctx
+da2d3bec1b1da3d69e4c220e24803bc0c3ff2f0e nfs/localio: eliminate need for nfs_local_fsync_work forward declaration
+2eb6729906a154af4e1ee40f03148b62595565e6 nfs: Annotate struct pnfs_commit_array with __counted_by()
+b421f818b37275fdf026c7678b818d79f7198627 sunrpc: remove newlines from tracepoints
+87d87ec50ec0f2a3fac2af2891f3beeebb23aed7 SUNRPC: Fix a hang in TLS sock_close if sk_write_pending
+ba68c9c7e90b4bbb1467ea07b7c04028fc34c59b NFSv4.0: Fix the wake up of the next waiter in nfs_release_seqid()
+60f79cb8c4b02b35bed34ad3033b3184efe789fa Revert "fs: nfs: fix missing refcnt by replacing folio_set_private by folio_attach_private"
+929e7919dbb48c7f19d3895177462fe70dd4405e nfsd: Revert "nfsd: release svc_expkey/svc_export with rcu_work"
+247a944fa92135299d32b7e9652d0bc2f9a13a6b NFSD: fix management of pending async copies
+138877e614f12309038139d11aa2c33cb6a81a54 nfsd: restore callback functionality for NFSv4.0
+356d57fbd88e574b3322ce54d98d2f60ea2892e5 SUNRPC: only put task on cl_tasks list after the RPC call slot is reserved.
+6fefb8c96d85e9c2288ff2fe0242fd0e8ef5fa1b SUNRPC: display total RPC tasks for RPC client
+76a82615b59f0d3a1a6f6acf418cb4ce0f9e226a nfs/localio: remove extra indirect nfs_to call to check {read,write}_iter
+20cbd56979d8ca4ffbeb8d0c21400a9985bb3312 nfs/localio: add direct IO enablement with sync and async IO support
+98f2618a7eeeaccf9f341f1d64d5e09ced5f1546 nfs_common: move localio_lock to new lock member of nfs_uuid_t
+d6d9c1417f074ed9566b823273822a1c114cbd1c nfs: cache all open LOCALIO nfsd_file(s) in client
+8618f2e961c010d94589aac18656788ebb2054b2 nfsd: update percpu_ref to manage references on nfsd_net
+b35a880267eb33605e11c9c8020657f7591eabab nfsd: rename nfsd_serv_ prefixed methods and variables with nfsd_net_
+fac0122e6eb1cafcdac44127d13d3b8040574757 nfsd: nfsd_file_acquire_local no longer returns GC'd nfsd_file
+b6a55d49bfa4fc3d346fafb9b092ba42abf3b28d nfs_common: rename nfslocalio nfs_uuid_lock to nfs_uuids_lock
+eaa70100442c7f805ce6bd7a34bbe707af4d47eb nfs_common: track all open nfsd_files per LOCALIO nfs_client
+1f4bf91c5791c145bcf63af0db5ddd9ba92b8db3 nfs_common: add nfs_localio trace events
+8d3947dcb585db220d33cdb2737549b7437f0d62 nfs/localio: remove redundant code and simplify LOCALIO enablement
+338c6dca6fc621beba2e056afed5933b03e62109 nfs: probe for LOCALIO when v4 client reconnects to server
+5fdb24f12997cf674368fdd7c4d01e163a887d35 nfs: probe for LOCALIO when v3 client reconnects to server
 
---===============5496595415198838769==--
+--===============6052064611960003959==--
