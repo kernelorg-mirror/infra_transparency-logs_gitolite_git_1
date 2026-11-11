@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Wed, 11 Nov 2026 12:22:03 -0000
-Message-Id: <179439972353.2867074.15069812797643129431@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/overlayfs/vfs
+Date: Wed, 11 Nov 2026 12:25:03 -0000
+Message-Id: <179439990358.2869858.5402811842930417548@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
-user: lee
+repo: pub/scm/linux/kernel/git/overlayfs/vfs
+user: amir73il
 changes:
-  - ref: refs/heads/ib-mfd-input-leds-power-7.5
-    old: 0000000000000000000000000000000000000000
-    new: db6674a08304d03a194f5e09b7543323462b3516
+  - ref: refs/heads/ovl-fixes
+    old: cbf4ccabcbfdda3da70c10b37e21e99cd2ee0946
+    new: 0d5e729c515f4ae4eacc179dbcf350d9b499a161
+    log: |
+         0d5e729c515f4ae4eacc179dbcf350d9b499a161 ovl: return EIO if the lowerdata is missing
+         
