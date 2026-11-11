@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3059520156540272482=="
+Content-Type: multipart/mixed; boundary="===============3144066744929043451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:40:23 -0000
-Message-Id: <179437202397.2535083.16613648392061216938@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:40:27 -0000
+Message-Id: <179437202714.2535231.756428688349808818@gitolite.kernel.org>
 
---===============3059520156540272482==
+--===============3144066744929043451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfs-fixes-from-stable-baseline
-    old: 669cc4758f0894af2dd6cf209477f9a650e3b671
-    new: b4a1aaa32b7ed4a8d2830526c6540504ecd0e606
-    log: revlist-669cc4758f08-b4a1aaa32b7e.txt
+  - ref: refs/heads/kernel-6.12/nfs-testing-canary
+    old: d784fae242be90c75eb88187d23b7c86a3b2e8be
+    new: 955f1a39e7a02b90a23255848460cd31a2dd1d84
+    log: revlist-d784fae242be-955f1a39e7a0.txt
 
---===============3059520156540272482==
+--===============3144066744929043451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-669cc4758f08-b4a1aaa32b7e.txt
+Content-Disposition: attachment; filename=revlist-d784fae242be-955f1a39e7a0.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -851,7 +851,17 @@ e85b7ae0a876b7fe543a4426b60c35d3203bc493 NFS: Fix RCU dereference of cl_xprt in 
 acc1c86ed3183e529f291d87f0fe70671c71a21a NFSv4.1/pNFS: fix LAYOUTCOMMIT retry loop on OLD_STATEID
 67f58c5a19ecb45b36c243ca0684931c9adbb013 NFS: correct CONFIG_NFS_V4 macro name in #endif comment
 a75255645e43230529c3456de5d372a32da0c8c8 NFS: Use common error handling code in nfs_alloc_server()
-8bb0730453fd392d1100ae2d0037e8ad37e0fdd0 NFS: Return a delegation the client fails to record
-b4a1aaa32b7ed4a8d2830526c6540504ecd0e606 NFSv4/flexfiles: fix NULL dereference for NFSv4.0 data servers
+e3e0708bc05da130ab8108a9d5f3c163fe882eb2 NFS/localio: issue IO inline when not in a memory-reclaim context
+10d18a7e7b8b6e0703f16d09e010b1ca4e5ea155 NFS/localio: remove dead FLUSH_SYNC handling from nfs_local_commit
+5e51cd8fbe17d4d2f19b1a6b58f88a2e619fc51e NFS/localio: issue commit inline when not in a memory-reclaim context
+86570b057d645685b8a692e8201b99ce6e3f4d02 NFS/localio: fix nfs_local_dio_misaligned tracepoint
+3a4bccb1d6f50d52f902a719e34aa1e794c0f0ee NFS: fix folio dereference before NULL check in nfs_inode_remove_request()
+e7b90f6a187d8ba6009411df6ec4af375e503cdd NFS/localio: detect a short read or write before the iterator has moved
+51c89190b660bcdbf075b0cb546aa2c1c6dd9eca NFS/localio: report the stability a DIO WRITE actually has
+638ec97860010f4f1e0787ad039398940414bb7e NFS: don't release the open context of a failed write from writeback
+42402e2742da20b300a8a10e8fee1402566d5d38 NFS: don't run the release of a WRITE or COMMIT in the submitter
+034aee043b07356e9782ac400c5538a702f23593 NFSv4/pnfs: don't run the release of a LAYOUTCOMMIT in the submitter
+747bfcccbba8585b31e146f8830837d83449f23b NFS/localio: don't run the release of a failed COMMIT in the submitter
+955f1a39e7a02b90a23255848460cd31a2dd1d84 workqueue: Fix NULL current_pwq deref in mem-reclaim helper
 
---===============3059520156540272482==--
+--===============3144066744929043451==--
