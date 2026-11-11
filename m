@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/hfs
-Date: Wed, 11 Nov 2026 00:29:40 -0000
-Message-Id: <179435698016.2336837.115022509593936207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 11 Nov 2026 00:35:18 -0000
+Message-Id: <179435731845.2342808.338649372420599524@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vdubeyko/hfs
-user: vdubeyko
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: c9b00e30e9750f0e584f3e3ad2e853d03cc157e0
-    new: 34ee5f8c2198db9585da6c181c50869d2eb43c3a
+  - ref: refs/heads/main
+    old: 9176036fa70aa7508dc9f7c299719d30f3a60361
+    new: ed04b202027249e2769420893220f54a56e0c59a
     log: |
-         34ee5f8c2198db9585da6c181c50869d2eb43c3a hfsplus: take the bitmap page lock for allocate/free
+         ed04b202027249e2769420893220f54a56e0c59a net: sfp: add quirk for OEM SFP+ONU-XGSPON
          
