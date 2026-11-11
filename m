@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6434538285419810028=="
+Content-Type: multipart/mixed; boundary="===============1878984210353245648=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:39:29 -0000
-Message-Id: <179437196979.2530240.3075861182462193496@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:39:32 -0000
+Message-Id: <179437197298.2530328.9453556534891387751@gitolite.kernel.org>
 
---===============6434538285419810028==
+--===============1878984210353245648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/improvements
-    old: d918ffddd0f7ea7a62ecf9618d11d47a5a7a3bba
-    new: 8df638e8b0741c17ca9d6970ddbce2c286f74fe9
-    log: revlist-d918ffddd0f7-8df638e8b074.txt
+  - ref: refs/heads/kernel-6.12/nvme
+    old: 9ca71ccdfd0492128c212b938066b8b9a4ba3ef0
+    new: cf7f42dbc433674182f6b368adc229c070440985
+    log: revlist-9ca71ccdfd04-cf7f42dbc433.txt
 
---===============6434538285419810028==
+--===============1878984210353245648==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d918ffddd0f7-8df638e8b074.txt
+Content-Disposition: attachment; filename=revlist-9ca71ccdfd04-cf7f42dbc433.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -278,28 +278,9 @@ b764e17313534794aeb99c901869f213e36a16ef xen-blkback: Avoid UAF when reading I/O
 5c40a1750f44dd6c7292d8c8d0b4ffff1734576e Linux 6.12.116
 0526757426aa91eeedb3af302959b48ed3d89aa4 Merge tag 'v6.12.116' into kernel-6.12/baseline
 e03c9e36189d0c89707059bb1fe8aab1b9886e46 kernel-6.12.116-0
-f56df47af54bd19b852090619837b442397f5208 redhat/kernel.spec: fix kernel_meta_package
-216b0f7a324ee052245c960a05c4feebceadcb84 redhat/kernel.spec: for .el8 verify that gettid() is missing
-3e286107d571d0f26da0eae1ab3d0456ead390e2 PCI: Batch BAR sizing operations
-40ea59345952147d6b932ddc9d8b63ef50e339dc PCI: Fix BUILD_BUG_ON usage for old gcc
-f1ac7f89ec6fcb57c0ba035c56fbe82cce8c5923 arm/bL_switcher: Use kthread_run_on_cpu()
-3d14becb7defd889f8333e282ae2a962a6331e9f soc/qman: test: Use kthread_run_on_cpu()
-ba6adadda26525bfdf7365f4280e5b698c952122 kallsyms: Use kthread_run_on_cpu()
-63998cd32012cbf7e3679898ea03fa5e416f68b2 lib: test_objpool: Use kthread_run_on_cpu()
-52935acb6873029fa67c0457f4f1f905f30f71c3 arm64: Exclude nohz_full CPUs from 32bits el0 support
-9e636d6386aa3c8d95f73b2bbad08f81f838ae43 sched,arm64: Handle CPU isolation on last resort fallback rq selection
-13eac963f432a4cd5c41c1f2907df162bea0f0c3 kthread: Make sure kthread hasn't started while binding it
-8563e1375e18f974fddd624a7c39d4a79688e35c kthread: Default affine kthread to its preferred NUMA node
-d41ec5133190fb86881232dea1f10dfa511b14ff mm: Create/affine kcompactd to its preferred node
-596f95e79a03b31c2d3d0591e1f8e58cbe163309 mm: Create/affine kswapd to its preferred node
-7622ed6f6fc13594c35bf580f102ec7ed74c91b0 kthread: Implement preferred affinity
-16199f98179ec7bc5a2ab8befac4db81c9edb428 rcu: Use kthread preferred affinity for RCU boost
-a0c22178f7aa1103ba866cfa3c356e794a889452 kthread: Unify kthread_create_on_cpu() and kthread_create_worker_on_cpu() automatic format
-7f7c2958ac21dd09289a11f4da0499ea77d1c7b4 treewide: Introduce kthread_run_worker[_on_cpu]()
-cb1205568cf7ce6683e4398b6b21e272eb859efd rcu: Use kthread preferred affinity for RCU exp kworkers
-f5068ff9fc1d1c95577da5eebd5e8d8fc84dd73e kthread: modify kernel-doc function name to match code
-ea158cd2fb396efe7deea7342f4a171b4f74ebf0 crypto: x86/crc32c - simplify code for handling fewer than 200 bytes
-ef3ecc4fdfc036d4ddd520dfab48c93bb74aca18 crypto: x86/crc32c - access 32-bit arguments as 32-bit
-8df638e8b0741c17ca9d6970ddbce2c286f74fe9 crypto: x86/crc32c - eliminate jump table and excessive unrolling
+5ea64a3ca798f89912123d5a12680a0a4e8b1a1d redhat/kernel.spec: fix kernel_meta_package
+92eb0f7000d34892ecc11ef3397bfece424a5f06 redhat/kernel.spec: for .el8 verify that gettid() is missing
+75f56b52b1f1ed73118c009396bf704b3acb3a27 Reapply "nvme: make keep-alive synchronous operation"
+cf7f42dbc433674182f6b368adc229c070440985 Revert "nvme-fabrics: fix kernel crash while shutting down controller"
 
---===============6434538285419810028==--
+--===============1878984210353245648==--
