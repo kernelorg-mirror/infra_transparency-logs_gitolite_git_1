@@ -1,33 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Wed, 11 Nov 2026 06:43:36 -0000
-Message-Id: <179437941636.2624158.17304862067889384798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 11 Nov 2026 06:51:02 -0000
+Message-Id: <179437986257.2630719.15137283885855123784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/main
-    old: 03a564d7d2704541117e77fa75d90d985733da96
-    new: 774adc25940050fb06f241b1a2a98e7421e6ed7b
+  - ref: refs/heads/tmp.perf-tools-next
+    old: c3991e42f58a3650d5f758d3bca676b050626ca6
+    new: edd09316bd3784bcae2b3281a892700e272d5d40
     log: |
-         f2fa34d3073eae1fd3fb98a4caf7d82d6d3b763d fdtdump: Fix bad memory access with malformed memory reserve block
-         6f39dc54a14f50297fc1633c30afb2fa650939f9 fdtdump: Don't SEGV on out of bounds nameoff values
-         2ecd679909a630052b0989f10a7dab32eb981682 fdtdump: Bounds check our offset as we read through the structure block
-         79ad3e321face1666895cae49f97508d3ef7db65 treewide: Clean up #includes
-         774adc25940050fb06f241b1a2a98e7421e6ed7b tests: Include headers or uint64_t and size_t in tests.h
-         
-  - ref: refs/heads/master
-    old: 03a564d7d2704541117e77fa75d90d985733da96
-    new: 774adc25940050fb06f241b1a2a98e7421e6ed7b
-    log: |
-         f2fa34d3073eae1fd3fb98a4caf7d82d6d3b763d fdtdump: Fix bad memory access with malformed memory reserve block
-         6f39dc54a14f50297fc1633c30afb2fa650939f9 fdtdump: Don't SEGV on out of bounds nameoff values
-         2ecd679909a630052b0989f10a7dab32eb981682 fdtdump: Bounds check our offset as we read through the structure block
-         79ad3e321face1666895cae49f97508d3ef7db65 treewide: Clean up #includes
-         774adc25940050fb06f241b1a2a98e7421e6ed7b tests: Include headers or uint64_t and size_t in tests.h
+         b24d65da95759ee5638c255f378843252eafcdca perf timechart: Fail IO recording when no syscall tracepoint is available
+         a91337267e19d4276b901953794a289bed3277c4 perf iostat: Release the port list if command allocation fails
+         3952b08e6de7d7d925c4827a36c5e16adfb359ad perf iostat: Do not compute interval deltas a second time
+         99c98cb6f3df59fc7eb3933378ef039312c000b9 perf vendor events arm64: Fix typos in event descriptions
+         294b096cafe17a58b5c49bc9300d24ae88b7ec85 perf vendor events arm64 AmpereOneX: Deprecate BPU_FLUSH_MEM_FAULT
+         7936e77b52b99d92152160768a2da2c74750edd0 perf vendor events arm64: AmpereOne/AmpereOneX: Fix typos
+         edd09316bd3784bcae2b3281a892700e272d5d40 perf vendor events amd: Fix a misspelled JSON key
          
