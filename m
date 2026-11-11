@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Wed, 11 Nov 2026 11:09:37 -0000
-Message-Id: <179439537774.2813056.7996296011370260315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Wed, 11 Nov 2026 11:11:25 -0000
+Message-Id: <179439548500.2815949.7108714248465054217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/tags/mm-everything-2026-09-10-20-50
-    old: f39660dfd9ccbb683c0e8f16914de0049d638751
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-09-11-02-21
-    old: 2943c0bba9d94c4b3077670e33951374db0ad5ed
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-09-11-03-22
-    old: ec2b74e94c01743c5970acb57f13407b06c39366
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mm-everything-2026-09-11-06-04
-    old: 73d3ce7f314b84f28b930f2b7b550845f361e9e0
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/next
+    old: 31980d672340fed5fbbf24998a97f6d6779c64eb
+    new: b50ebbf0c393195f42bf626324451301c642f7ec
+    log: |
+         b50ebbf0c393195f42bf626324451301c642f7ec mmc: Revert "mmc: dw_mmc: enable MMC_CAP_DONE_COMPLETE"
+         
