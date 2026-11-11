@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7198022020836186484=="
+Content-Type: multipart/mixed; boundary="===============4889808521701273973=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:39:57 -0000
-Message-Id: <179437199730.2531557.724787362827980305@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:40:00 -0000
+Message-Id: <179437200038.2531757.1994780934119131576@gitolite.kernel.org>
 
---===============7198022020836186484==
+--===============4889808521701273973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfs-next-thru-nfs-for-6.17-3
-    old: 55ce83b1a8d648c33241a9d7ad2648ee84b8432c
-    new: b39915b3b4ddc0d8af467747254b0d6e5f6d351a
-    log: revlist-55ce83b1a8d6-b39915b3b4dd.txt
+  - ref: refs/heads/kernel-6.12/nfs-next-thru-nfs-for-6.18-3
+    old: 476c75b042b63cf9a70e89db0804645d3be17637
+    new: 76258ff19fc13ba8350fbfa7095b71ce6c9ee159
+    log: revlist-476c75b042b6-76258ff19fc1.txt
 
---===============7198022020836186484==
+--===============4889808521701273973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55ce83b1a8d6-b39915b3b4dd.txt
+Content-Disposition: attachment; filename=revlist-476c75b042b6-76258ff19fc1.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -688,5 +688,62 @@ e65faee73a12d34c0616595596428051d4ab9fbe NFS: Protect against 'eof page pollutio
 b181523fe1f873f8e0304cdbc497dd60d211e59c NFS: Fix the marking of the folio as up to date
 be3ff2b0b1e5330a163b0784e8081021442a895f Revert "SUNRPC: Don't allow waiting for exiting tasks"
 b39915b3b4ddc0d8af467747254b0d6e5f6d351a nfs/localio: restore creds before releasing pageio data
+c902e8dc4e8ad488fe361e004440e99a5bc877fe block: check for valid bio while splitting
+97cab614a66300a8bada6f2350fb3c96eac6615e block: add size alignment to bio_iov_iter_get_pages
+17c31410b1989eeac86269e9e35f662b6dd37ce4 block: align the bio after building it
+28da3b73df6fc545901334ed59901bc124bb4603 block: simplify direct io validity check
+7cc9e8deb9f3a6931614c824198793c70b1f3474 iomap: simplify direct io validity check
+dbc2a330ce1241f6d3b24fb812174ebb6744bc4c block: remove bdev_iter_is_aligned
+5404ee575f4bbd20a57c1a92aba7923d988f68fa iov_iter: remove iov_iter_is_aligned
+a409a479ccb7e1e75ae9aab031719db9052cca0d nfs: add tracepoints to nfs_file_read() and nfs_file_write()
+c8b76d1ece3bf9f856d9986c03d9d64e1868eda7 nfs: new tracepoints around write handling
+428b9fe251c6550843033d67ec0c0b0060b390e0 nfs: more in-depth tracing of writepage events
+23754a6250081f50e74f93bd0cbcd678bc36849b nfs: add tracepoints to nfs_writepages()
+e7d24648f8246de7fa2a88cc6767c123507345ea nfs: cleanup tracepoint declarations
+1833a450e698e351efa96bf6c8e41309851308c9 sunrpc: remove dfprintk_cont() and dfprintk_rcu_cont()
+ffe44665d981c8cddb6a96cda46b040a5ac31f4b sunrpc: add a Kconfig option to redirect dfprintk() output to trace buffer
+80b2bd44fd406c0bac6eaeba49ad91fed9e0de9a NFSv4: fix "prefered"->"preferred"
+6e13392855cfc04b62cf83f7c4e5d26e55a32633 NFS: Remove rpcbind cleanup for NFSv4.0 callback
+3a85b124ef51bc3adf5efc0372b71fe62021f091 SUNRPC: Move the svc_rpcb_cleanup() call sites
+b6ca139bc1dd5d1f0445f6fdad63cb36e20e644a nfs: remove NFS_WBACK_BUSY()
+8f0bc68384d26acbedb185e6e2e86772ba167ea6 SUNRPC: Remove redundant __GFP_NOWARN
+32baa09acc8344eceb3d382eaed52bf530e47d81 NFS: Update readdir to use a scratch folio
+631a3b2176e2f6402cc880cafe7f104ac1c64a43 NFS: Update getacl to use xdr_set_scratch_folio()
+755b0fbe86d9954d6812c42b2546a87a0b5a7ccf NFS: Update listxattr to use xdr_set_scratch_folio()
+ed01ddbeb07c280454217d5fd8aa842818ffc5ba NFS: Update the blocklayout to use xdr_set_scratch_folio()
+da9a8a57e17cbf24f271f23d9a9a1fbd6a5f139e NFS: Update the filelayout to use xdr_set_scratch_folio()
+9c2b79493670a32d99d355a588aa1524593e95f9 NFS: Update the flexfilelayout driver to use xdr_set_scratch_folio()
+544a04a57610ab396664e24caddd939c5a105efe SUNRPC: Update gssx_accept_sec_context() to use xdr_set_scratch_folio()
+ec8fa2fb36da372d0f28d6cb06e59b5baa67fb7f sunrpc: unexport rpc_malloc() and rpc_free()
+5d0127a00ba7244d966749f0437a03108f464c90 NFSD: filecache: add STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+1980035828a1d3b9dc080325516f73d810746e59 nfs/localio: make trace_nfs_local_open_fh more useful
+8217b1289368155644fd0bed1e222098d5db4505 nfs/localio: avoid issuing misaligned IO using O_DIRECT
+2fa3cc2948cd0d10b5362619fca4a8e985f07c79 nfs/localio: refactor iocb and iov_iter_bvec initialization
+f4d2e93106eb992b3c394902cffe1280447b2704 nfs/localio: refactor iocb initialization
+8f18dcc9edfcd473441bf830c021dff2140b030a nfs/localio: add proper O_DIRECT support for READ and WRITE
+ebd71987302541d86ebe3162410c2a444cbae672 nfs/localio: add tracepoints for misaligned DIO READ and WRITE support
+8066404312d99d5d410f80913e0ac5cf68748c99 NFS: add basic STATX_DIOALIGN and STATX_DIO_READ_ALIGN support
+42ee6c6074237bbd9638f6035f0da86bcf1d1480 Add CONFIG_SUNRPC_DEBUG_TRACE=n to default config
+0bdcfc3bac883dec7a51f74ade0e8f4ee243af27 NFSv4/flexfiles: Use ds_commit_idx when marking a write commit
+14696bb7cd61ee45c6af484378a561ec6c01ed33 NFSv4/flexfiles: Update low level helper functions to be DS stripe aware.
+cbc6ebeeadb6acb10cfdf062d59df3f7e550e7bf NFSv4/flexfiles: Read path updates for striped layouts
+bfa134d6f44ef72acb56c0b3cd447d8235ddf727 NFSv4/flexfiles: Commit path updates for striped layouts
+02daceeda44ddc3e261020b8c25bf83a26579fcc NFSv4/flexfiles: Write path updates for striped layouts
+bfc5effe152c46c191d1bcd7e559dfee0d9ee8e5 NFSv4/flexfiles: Update layout stats & error paths for striped layouts
+c29c05bded1c42ecce801e78be926b2a9fef881d NFSv4/flexfiles: Add support for striped layouts
+4735682e02268ba1663b219a982ae98daccfa1be pnfs: Fix TLS logic in _nfs4_pnfs_v3_ds_connect()
+9c9902cc0c59f0adaeedf5e42034b736cfb8a861 NFS: Check the TLS certificate fields in nfs_match_client()
+9e55b0f23abb7cac3c1cee44147f410928770e72 nfs/localio: remove unecessary ENOTBLK handling in DIO WRITE support
+d84869a788edf6980f1e0496a42150a02043cf96 nfs/localio: add refcounting for each iocb IO associated with NFS pgio header
+f84229d2b3c5277004b88a047d77d9db8020c94b nfs/localio: backfill missing partial read support for misaligned DIO
+2f46290195e1827b795a893d963b5df692387da6 nfs/localio: Ensure DIO WRITE's IO on stable storage upon completion
+76f08af3ef3fbf88fb607e5f584fab8109e143fe nfs/localio: do not issue misaligned DIO out-of-order
+a7f2cc375c28a28b575d9c11efe0042beee7bbdc 9p: simplify v9fs_vfs_atomic_open()
+dd0bc49787d05b4edaa2884a36765a8a169f5e2e 9p: simplify v9fs_vfs_atomic_open_dotl()
+221a33df87d0c242b5a2917e84e3b20d3495cb43 simplify cifs_atomic_open()
+dc97dae527300581e45f576174c561caaddc6c52 simplify vboxsf_dir_atomic_open()
+c9bff21a46d65eda79a93ce38d84b0f2865aff0c simplify fuse_atomic_open()
+b41a7334e8d9ced1a5b09937165790cbd1ed3a0e simplify gfs2_atomic_open()
+76258ff19fc13ba8350fbfa7095b71ce6c9ee159 slightly simplify nfs_atomic_open()
 
---===============7198022020836186484==--
+--===============4889808521701273973==--
