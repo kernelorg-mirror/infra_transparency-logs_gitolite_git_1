@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 11 Nov 2026 18:28:38 -0000
-Message-Id: <179442171847.3145842.3862362622441966872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Wed, 11 Nov 2026 18:33:55 -0000
+Message-Id: <179442203564.3149861.14774847713726200126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/for-7.5
-    old: 07a01d9bb14b6988b0508c3bfb6b6bf02a4cdd71
-    new: b6dda4b7698e05d19306f9b037acd0f25f65d1c7
+  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part3
+    old: 841ef651929714d52f9182183c8cd1ac5df3843b
+    new: 722feb6f377233f38818d2b332c96f3a0dc1f766
     log: |
-         58439294499f8332671438287ff5fc65b15ef7b2 ASoC: dt-bindings: cs35l45: Adds ABPE properties
-         4b261eaa7e581af4b9a6efc88f1d2ff55e9e5a62 ASoC: cs35l45: Adds support for ABPE feature
-         65aa9fa9afbffa2e59792ab1f99b47d72f5748aa ASoC: dt-bindings: cs35l45: Adds Boost BPE properties
-         ac474574e54a55ec502239c6cbff978bf6142652 ASoC: cs35l45: Adds Boost BPE configuration
-         b6dda4b7698e05d19306f9b037acd0f25f65d1c7 ASoC: cs35l45: Adds support for brownout prevention engines
+         fc3c5c0183c1a1c0507a379e533e2e810c1983f9 NFSD_TCP_WRITE_ZEROCOPY: round 93, the working set is 1.76 times the L3
+         9d5a16b181abfc366c010681637e0c4cfe2b135b NFSD_TCP_WRITE_ZEROCOPY: settled.sh holds num_rings at 4 on tardis2
+         e8c07f20c0679a63ddaa2283bdf4fa9cc636d790 NFSD_TCP_WRITE_ZEROCOPY: round 93, the drives are not the limit
+         722feb6f377233f38818d2b332c96f3a0dc1f766 NFSD_TCP_WRITE_ZEROCOPY: tardis2's xeu reloaded with num_rings 4
          
