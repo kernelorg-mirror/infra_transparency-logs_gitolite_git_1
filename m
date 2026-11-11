@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3646231194370206256=="
+Content-Type: multipart/mixed; boundary="===============8104960901812235312=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:40:15 -0000
-Message-Id: <179437201526.2534582.16836511988543805087@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:40:18 -0000
+Message-Id: <179437201803.2534801.6839931830298880083@gitolite.kernel.org>
 
---===============3646231194370206256==
+--===============8104960901812235312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfs-for-7.1-1
-    old: 271c525f4273e13880e9cb55c6c3338052e5716d
-    new: e85b7ae0a876b7fe543a4426b60c35d3203bc493
-    log: revlist-271c525f4273-e85b7ae0a876.txt
+  - ref: refs/heads/kernel-6.12/nfs-for-7.1-2
+    old: aae4c7c408d0b3d05087aa49644f9b890df95029
+    new: 05cd9bf54b1bf3d86f3616a4d88832b4373d6e97
+    log: revlist-aae4c7c408d0-05cd9bf54b1b.txt
 
---===============3646231194370206256==
+--===============8104960901812235312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-271c525f4273-e85b7ae0a876.txt
+Content-Disposition: attachment; filename=revlist-aae4c7c408d0-05cd9bf54b1b.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -844,5 +844,6 @@ d85adec54b97d00a9d1ca2a9c6ccb84ee761ae2f nfs: use memcpy_and_pad in decode_fh
 c56e97e879762d61bff14bb944e8277b0a639b91 NFSv4.2: fix CLONE/COPY attrs in presence of delegated attributes
 70287ae052daaabcc5ae91be8c703225cabfb20c NFS: remove redundant __private attribute from nfs_page_class
 e85b7ae0a876b7fe543a4426b60c35d3203bc493 NFS: Fix RCU dereference of cl_xprt in nfs_compare_super_address
+05cd9bf54b1bf3d86f3616a4d88832b4373d6e97 NFS: write_completion: dereference loop-local req, not hdr->req
 
---===============3646231194370206256==--
+--===============8104960901812235312==--
