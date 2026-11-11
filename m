@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 11 Nov 2026 22:00:40 -0000
-Message-Id: <179443444097.3307293.9033855945856122175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 11 Nov 2026 22:03:07 -0000
+Message-Id: <179443458799.3308146.11583024228908289308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 64b3af016e098ed02dd9d2d2930ecd2ee327638a
-    new: ab036e3a0dd410f762192f33d6244e7993b36f8d
+  - ref: refs/heads/main
+    old: 08a1eb7a634f665718ebe74e0960e242f597135e
+    new: 48ca316bfa9d84284501fa1450cceede3e44c08c
     log: |
-         35150491ae7b0676af94b52c625835ced8092fe3 NFSD: Stop disclosing the conflicting lock holder in a lock denial
-         0fe4fdb954262d1428799dc77ba1f7efe855c412 NFSD: Destroy the COPY_NOTIFY stateid IDR at netns teardown
-         4f6836669d813d8d9404fc90d54a6d1894d11cba NFSD: Put a random word in each COPY_NOTIFY stateid
-         9b850aa6b4227f40269c833f7147047177dafa87 NFSD: Fill the session ID's sequence and reserved words at random
-         caadedff6e0f986290fb9d87bd3f7905d9968234 NFSD: Add KUnit tests for the random identifier generators
-         03f2fa0731bd10ec780f28c7d6aab430a1f3e393 nfsd: don't block on a file lease while holding the parent lock
-         ab036e3a0dd410f762192f33d6244e7993b36f8d NFSD: Refuse a direct READ whose aligned range exceeds the reply pages
+         93723db43e5185404e7d637357d07ffbb38e8b65 tcp: Clear DEFER_CONNECT before tcp_connect() and in tcp_abort().
+         44809e49177992b15708a150437d9aebc5beea9c tcp: Drop any segments if DEFER_CONNECT is set.
+         e6f5a8d080051022d451e1ad07cd68a411ed350f selftest: packetdrill: Add test for DEFER_CONNECT.
+         48ca316bfa9d84284501fa1450cceede3e44c08c Merge branch 'tcp-small-fixes-for-defer_connect'
          
