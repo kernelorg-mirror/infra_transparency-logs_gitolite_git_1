@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6994067986539764969=="
+Content-Type: multipart/mixed; boundary="===============5844788909785752012=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 11 Nov 2026 04:41:02 -0000
-Message-Id: <179437206268.2537621.8504013685625082474@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 04:41:05 -0000
+Message-Id: <179437206560.2537806.8020735872630809569@gitolite.kernel.org>
 
---===============6994067986539764969==
+--===============5844788909785752012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12/nfsd-next
-    old: 0e50452a74033d7cef28932b1cb1eaf16a24f7dc
-    new: 0c01ebbd6bc8c03d3caea15799cb69d090fd12c5
-    log: revlist-0e50452a7403-0c01ebbd6bc8.txt
+  - ref: refs/heads/kernel-6.12/nfsd-fixes-from-stable-baseline
+    old: 4e604e6b2dc932d4c524a48628080e3309ebe46d
+    new: ba96b4b10bf2978cffd310eb9606a33bfbb190d6
+    log: revlist-4e604e6b2dc9-ba96b4b10bf2.txt
 
---===============6994067986539764969==
+--===============5844788909785752012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0e50452a7403-0c01ebbd6bc8.txt
+Content-Disposition: attachment; filename=revlist-4e604e6b2dc9-ba96b4b10bf2.txt
 
 8c05f9e3cbcee4cbcee54d1bdd58ce3133defd4c rose: set SOCK_DESTROY in rose_kill_by_device() for prompt cleanup
 0d31da79bbd1d69322901ddebd30244c5e50d055 rose: disconnect orphaned STATE_2 sockets when device is gone
@@ -934,5 +934,19 @@ b8b40d0748ed923e16d24455e5ecb4e6941d07fe NFS/localio: fix ref leak on nfs_uuid_a
 ce26e836bb24fc242fc0912ae7a99c3b73ee4a2d nfsd: account for page_base when advancing rq_next_page
 defada2dcead75038ed4bf378dc19156382ef62c nfsd: locate the READ sink page from the reply buffer
 0c01ebbd6bc8c03d3caea15799cb69d090fd12c5 nfsd: keep spliced pages below rq_next_page when a READ fails
+bf6cd115de30e548d3a4671a17e51c9ac57680d8 nfsd: RCU-protect cl_cb_session to fix use-after-free on session teardown
+f72faba3fe514cec61ac62ee7d3ef42bd89943ce nfsd: dedup nfs4_client_to_reclaim inserts
+c804d7ade3b684412ad307096b0c3b3d0860dc3a nfsd: widen nfsd_genl_rqstp address fields to sockaddr_storage
+d6f4e56c4344f551c2d51dc427d4ebe69c084030 nfsd: check nfsd4_acl_to_attr() return value in nfsd4_create()
+af9f2fdd404100206541c0f41c3490456e6ca0b9 nfsd: fix clock domain mismatch in clients_still_reclaiming()
+f88bf5ec48136f6999ef9e1bbf566a9cd89a5214 NFSD: Prevent client use-after-free during admin state revocation
+e0b285db3ce19397da961f8f08a4e88cb822baa4 NFSD: Prevent client use-after-free during delegation revoke
+639848ce042db5bfd5c8a91aab3fa1a289bf0e64 NFSD: Guard admin state-revocation walks with NFSD_NET_UP
+4bc390260ad1689dcdc09a3754131467745a0966 NFSD: Consolidate the revocation-path client unpin
+377316e9e753ac789b51daff509a7b8eefa99048 NFSD: Prevent client use-after-free during blocked-lock reaping
+961fd7a92cde5b84d4d5ceed39881d136b7a25ac NFSD: Prevent client use-after-free during close_lru reaping
+8acaf9eeb8b00034776868005b31fa2062ce8a5b nfsd: fix stale s2s_cp_stateids IDR entry for async COPY
+1ff6d5a7972e64b33cebe760e0d99893d1ea2d68 svcrdma: Clear sc_cm_id when ADDR_CHANGE replacement fails
+ba96b4b10bf2978cffd310eb9606a33bfbb190d6 nfsd: restore rq_status_counter to even on all nfsd_dispatch() exit paths
 
---===============6994067986539764969==--
+--===============5844788909785752012==--
