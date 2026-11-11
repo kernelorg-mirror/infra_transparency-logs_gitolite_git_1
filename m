@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3039863636621309969=="
+Content-Type: multipart/mixed; boundary="===============0965969110230607645=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 11 Nov 2026 19:34:59 -0000
-Message-Id: <179442569900.3193854.16118519160843547639@gitolite.kernel.org>
+Date: Wed, 11 Nov 2026 19:35:01 -0000
+Message-Id: <179442570199.3194266.7452624688026936179@gitolite.kernel.org>
 
---===============3039863636621309969==
+--===============0965969110230607645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 0fb18ce8a2e9de830433923cf65838933d615359
     new: ccbc2c6516fe7768e8d226fab746346ccffa0778
     log: revlist-0fb18ce8a2e9-ccbc2c6516fe.txt
 
---===============3039863636621309969==
+--===============0965969110230607645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ ab981af5e99c04453462303cafa072cf5ad2f18c bpf: Support sign-extended 32-bit linea
 e7a54ec8a3b762ad9a90dfb7d80881a5be856b97 selftests/bpf: Test loops with a sign-extended 32-bit induction variable
 ccbc2c6516fe7768e8d226fab746346ccffa0778 Merge branch 'bpf-find-linked-registers-by-scalar-evolution-remove-scalar-ids'
 
---===============3039863636621309969==--
+--===============0965969110230607645==--
