@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 11 Nov 2026 15:51:57 -0000
-Message-Id: <179441231720.3025872.219480686247351910@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Wed, 11 Nov 2026 15:58:36 -0000
+Message-Id: <179441271646.3030356.3803801268754025947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/rcu/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: f516f1c021ff780148c222395f6b6e42a1ff4108
-    new: d6abbbab2cf284597720b8426fdd67c5cef7c9f8
+  - ref: refs/heads/next
+    old: 413789f70e1b1e1fcec3e6d72828c0830f4a73ae
+    new: 5384b161a0984563d813524e7dd92f72ccef7baa
     log: |
-         756aead6a05a442d33437095d5368e6a6e17b2cf include/all-io: don't leak the buffer on realloc() failure
-         d4a3ed82039789af6e20442408a3a6a3be48525a include/all-io: don't return an empty buffer from ul_read_all_alloc()
-         a14ad630a4a1dfa9d20bcc4d4af2332e6c702422 setpriv: reject an empty seccomp filter file
-         144282cfa0e44540119e3537d7a8bc1448ec064b lsclocks: don't abort on an unavailable timens offset
-         5f593735b6b9a483ac37afd2ed6f434292030663 lib/env: keep errno clean for an empty environment
-         d6abbbab2cf284597720b8426fdd67c5cef7c9f8 Merge branch 'PR/all-io-read-all-alloc' of https://github.com/karelzak/util-linux-work
+         260d0365120b3b1b978c2c1e5f43ae807ea87ca7 rcu-tasks: Use pr_debug() for callback contend/collapse messages
+         5384b161a0984563d813524e7dd92f72ccef7baa rcu-tasks: Avoid alloc_percpu() failure in rcu_tasks_rude_wait_gp()
+         
+  - ref: refs/heads/rcu/next-7.5
+    old: 32e56463d3dcf6c3d1bce81e05de8c6117a79bd4
+    new: 44646ae309330530a23e1e4c44fd47d274cfd0ea
+    log: |
+         260d0365120b3b1b978c2c1e5f43ae807ea87ca7 rcu-tasks: Use pr_debug() for callback contend/collapse messages
+         5384b161a0984563d813524e7dd92f72ccef7baa rcu-tasks: Avoid alloc_percpu() failure in rcu_tasks_rude_wait_gp()
+         44646ae309330530a23e1e4c44fd47d274cfd0ea [TBC Puranjay] rcu: Preserve deferred lists while checking duplicate callbacks
          
