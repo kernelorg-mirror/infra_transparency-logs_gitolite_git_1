@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1212389920917454532=="
+Content-Type: multipart/mixed; boundary="===============1866473671692506557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Wed, 11 Nov 2026 14:54:50 -0000
-Message-Id: <179440889027.2981171.7604940657404605448@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Wed, 11 Nov 2026 14:55:36 -0000
+Message-Id: <179440893684.2983489.14539541005375497451@gitolite.kernel.org>
 
---===============1212389920917454532==
+--===============1866473671692506557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/review-andy
-    old: f63dc0eea92d07c5bb799a406571b555cd2bbd97
+  - ref: refs/heads/fixes
+    old: 3fd4bf93d586cb07304cdcb5e8b3c51ac1d8284f
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-f63dc0eea92d-6628e7d4c6b2.txt
+    log: revlist-3fd4bf93d586-6628e7d4c6b2.txt
 
---===============1212389920917454532==
+--===============1866473671692506557==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f63dc0eea92d-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-3fd4bf93d586-6628e7d4c6b2.txt
 
 76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============1212389920917454532==--
+--===============1866473671692506557==--
