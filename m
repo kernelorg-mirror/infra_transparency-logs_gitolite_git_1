@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 12 Nov 2026 19:54:43 -0000
-Message-Id: <179451328360.247977.12651614860816414710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 12 Nov 2026 19:59:48 -0000
+Message-Id: <179451358819.251608.6321089241275976426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 475a0cfd02f14d764023e926ac01fc7597134229
-    new: f6562cd116a013a5a9b549e51d79ba658f9f8981
-    log: |
-         f6562cd116a013a5a9b549e51d79ba658f9f8981 bpf, sockmap: Fix ring capacity invariant break in bpf_msg_push_data()
-         
+  - ref: refs/tags/net-7.4-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 964c9c764850cc6ad51e91262474b169ce9e460f
