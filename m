@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 12 Nov 2026 17:54:17 -0000
-Message-Id: <179450605782.153496.11035905122442730458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 12 Nov 2026 17:55:28 -0000
+Message-Id: <179450612842.155797.9912318288533692472@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 8ff1824e58e2f8efe9427d692df5195219e12169
-    new: f17b293d155f377e4cff582b8113991d2ad346d6
+  - ref: refs/heads/spi-7.5
+    old: 2bc7eb398cd0f89fd2331d5a1a8fe7ed17addd35
+    new: 172b8b7eff22057f64a317f3f399c465f54c52be
     log: |
-         f17b293d155f377e4cff582b8113991d2ad346d6 gtp: free the skb after handling an echo response
+         172b8b7eff22057f64a317f3f399c465f54c52be spi: nxp-xspi: use dmaengine_get_copy_align() API
          
