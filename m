@@ -1,25 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 12 Nov 2026 18:13:15 -0000
-Message-Id: <179450719546.169385.7930318081467580829@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1424208795204231924=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 12 Nov 2026 18:20:51 -0000
+Message-Id: <179450765176.177658.16221638059434937210@gitolite.kernel.org>
+
+--===============1424208795204231924==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 14825c9204bad7f4e0bd3a528cbf4a7e24e757d0
-    new: 6a876df4686788cd39128b62d7fcbff62f39278f
-    log: |
-         19b74ebce34202765214aeadf9e1336013fe94fc arm64: dts: qcom: shikra-evk: Enable Iris core
-         fcb7bf59ab3c1b3fb30fce5a8cf58ee7bdc05d53 arm64: dts: qcom: msm8996: Add VDD_MX to QUSB2 PHYs
-         79b4a2b1af56e02beedd7da9326423f40f0b050a arm64: dts: qcom: sm6125: Fix QUSB2 compatible
-         cc39fa30c6fd60654e369d70308efd25ee61bc1c arm64: dts: qcom: eliza-cqs-evk: Move sound card support to Eliza EVK generic
-         f450b223a853bd2b07e6a7b48103b478321d1d22 arm64: dts: qcom: eliza: Separate common CQS SoM and eMMC configuration
-         eac8f0411262ea7d156407da4baf260291cbfe32 arm64: dts: qcom: eliza: Add CQS EVK UFS variant
-         6a876df4686788cd39128b62d7fcbff62f39278f Merge branches 'arm32-for-7.5', 'arm64-defconfig-for-7.5', 'arm64-fixes-for-7.4', 'arm64-for-7.5', 'clk-fixes-for-7.4', 'clk-for-7.5', 'drivers-fixes-for-7.4' and 'drivers-for-7.5' into for-next
-         
+  - ref: refs/heads/main
+    old: eb24970a8781b607b9920e8813377764c8a78535
+    new: 48517facd93a9c934df4ba36dcadc6593758a4cc
+    log: revlist-eb24970a8781-48517facd93a.txt
+
+--===============1424208795204231924==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-eb24970a8781-48517facd93a.txt
+
+7aa321a595e2201cab9a997a495828017531c9a0 dt-bindings: can: renesas,rcar-canfd: Document RZ/G3S SoC
+79d4ac8cc43488a4c4352d935e11cb239abbb7be can: rcar_canfd: Fix typos in macro names
+b40631d86a8df0b8ee6bc71e9aaf594d42d0d4b3 can: rcar_canfd: Allow the CAN FD clock to be sourced from fck
+a2af960288df4dab2b2b0bcf411794d3da4b1e29 can: rcar_canfd: Do not set registers selecting the CAN mode
+32e8a013243c395601f023e3409ab9541f6eb735 can: rcar_canfd: Add support for Renesas RZ/G3S
+0deb654e2b6b5b1d496758a23d11179aa752a279 can: rcar_canfd: Check can_clk request for errors
+3ec2f3cb6cd4233786be246226caa84bb132dd63 Merge patch series "can: rcar_canfd: Add support for Renesas RZ/G3S"
+6a6c71a03d5a2fc6abc193785cf040ed1c034888 can: rcar_canfd: Use DT clock names in the probe message
+9f3f498aba8aaefd5cd6f24951841238f9b6a5f5 Merge patch series "can: rcar_canfd: Follow-up patches for RZ/G3S"
+3696939f7cb561fdf22a7c020c07b0f76ff2985b dt-bindings: can: renesas,rcar-canfd: Restrict resets in top-level
+aecb16f09db977f514fd86c013254e8c3ebce50c dt-bindings: can: renesas,rcar-canfd: Simplify renesas,no-can-fd description
+7a5305fb26cd902acb389052da5eff9aa263bc2d can: rcar_canfd: Document that RZ/G3S has no Classical CAN mode
+0e890f327d8dac3a1a740e213884dcc45916a757 dt-bindings: can: renesas,rcar-canfd: Document RZ/G3L SoC
+aa56fb0233657148039d0d3afdfc405c97a26330 can: rcar_canfd: Add support for Renesas RZ/G3L
+ae842166410d5f42ed3257c735dd2ea3de931f5c Merge patch series "Add support for Renesas RZ/G3L CANFD"
+48517facd93a9c934df4ba36dcadc6593758a4cc Merge tag 'linux-can-next-for-7.5-20261110' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+
+--===============1424208795204231924==--
