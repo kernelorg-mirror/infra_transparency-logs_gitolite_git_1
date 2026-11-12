@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Thu, 12 Nov 2026 20:57:34 -0000
-Message-Id: <179451705423.294095.13929686972765577081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 12 Nov 2026 20:58:57 -0000
+Message-Id: <179451713732.294601.14185365254331698441@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/tags/erofs-for-7.4-rc3-fixes
-    old: 0000000000000000000000000000000000000000
-    new: 06e150afe3cf8010a971086591e769d08d97f9b2
+  - ref: refs/heads/master
+    old: cfca2ee7e6678b9dac32c6fea933fb53caccec47
+    new: 0021f17128de5dc0b19f1a523f448df2440d8088
+    log: |
+         89e7a42e30304f4adac84c6c13befcc6aa597bf5 libbpf: Normalize enum values according to signedness
+         0296813e0c59f76282d91747574f07ef7be67c2f bpftool: Preserve unsigned enum values in data dumps
+         881dbe78cc985c6980f9568b754b1bcf3576adf9 selftests/bpf: Cover enum signedness in data dumps and map fields
+         0021f17128de5dc0b19f1a523f448df2440d8088 Merge branch 'normalize-enum-values-in-libbpf-and-bpftool'
+         
