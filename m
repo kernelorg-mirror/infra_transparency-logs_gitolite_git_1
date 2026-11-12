@@ -1,62 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7644585583628170315=="
+Content-Type: multipart/mixed; boundary="===============0750429581055856495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 12 Nov 2026 08:49:48 -0000
-Message-Id: <179447338878.3784029.2424655616222613104@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Thu, 12 Nov 2026 09:13:14 -0000
+Message-Id: <179447479445.3800534.3988820089176168397@gitolite.kernel.org>
 
---===============7644585583628170315==
+--===============0750429581055856495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/master
-    old: fa19724a003b941f16bc896ff589dc43459880b4
-    new: 1a3bb7edd8bc953f3399f1eded0bae54c4f1acc0
-    log: revlist-fa19724a003b-1a3bb7edd8bc.txt
-  - ref: refs/heads/tip/urgent
-    old: e15d4060498177992293bb6582bb49aa2cd9add7
-    new: 61a9b5fa0d74156adab28a8e6e7208d0873a0cb5
+  - ref: refs/heads/fixes
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    new: 9a07dfa7f6fe34e230de183c02a8180529091649
     log: |
-         65477e925b016cd35a9ef0dd4f40a262fd1c64cd MAINTAINERS: Add myself as X86 MM reviewer
-         705ffd9711f04477b809fd136372fa8940347e26 Merge branch into tip/master: 'core/urgent'
-         a619a8a690bc0625ea1c4e51dc4bfe394b793f80 Merge branch into tip/master: 'perf/urgent'
-         06b6872aaed4942972ba1739c90c1f1850f13afe Merge branch into tip/master: 'sched/urgent'
-         95012c806f2c488bf4d87102143ecd3e687857a9 Merge branch into tip/master: 'timers/urgent'
-         27e7a3820e4a52315c78c3dcd512c04b042ab832 Merge branch into tip/master: 'x86/urgent'
-         61a9b5fa0d74156adab28a8e6e7208d0873a0cb5 Merge branch into tip/master: 'x86/mm'
+         71c1be5cc4e083852c8437bd6afcb99ee3050e8e phy: ingenic: fix unbalanced regulator disable in exit
+         64207b5bc6be7db5e75ba9b7eb271dbda30834e5 phy: ti-pipe3: Fix ignored clock enable return value in init
+         6dc01e3516d79cf4d690d892499a0bd08a14285b phy: ti: pipe3: Fix clock resource leak on probe errors
+         aeb637c73631851de0965514151f7ff7bc13f940 phy: ti-pipe3: Fix EPROBE_DEFER handling for clock resources
+         2be6a65608a5e32b2be6f5da843b1f29f1091098 phy: ti-pipe3: Fix clock leaks in init/exit error paths
+         24314440a82bd2bb66049af4de8f89939a1fd77f phy: marvell: a3700-comphy: Guard missing polarity argument
+         9a07dfa7f6fe34e230de183c02a8180529091649 Revert "phy: qcom: qmp-pcie: Skip PHY reset if already up"
          
+  - ref: refs/heads/next
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    new: 6d4333dfb60570e59e0cd0dd8753b7f7e6d62c66
+    log: revlist-6628e7d4c6b2-6d4333dfb605.txt
 
---===============7644585583628170315==
+--===============0750429581055856495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa19724a003b-1a3bb7edd8bc.txt
+Content-Disposition: attachment; filename=revlist-6628e7d4c6b2-6d4333dfb605.txt
 
-705ffd9711f04477b809fd136372fa8940347e26 Merge branch into tip/master: 'core/urgent'
-a619a8a690bc0625ea1c4e51dc4bfe394b793f80 Merge branch into tip/master: 'perf/urgent'
-06b6872aaed4942972ba1739c90c1f1850f13afe Merge branch into tip/master: 'sched/urgent'
-95012c806f2c488bf4d87102143ecd3e687857a9 Merge branch into tip/master: 'timers/urgent'
-27e7a3820e4a52315c78c3dcd512c04b042ab832 Merge branch into tip/master: 'x86/urgent'
-61a9b5fa0d74156adab28a8e6e7208d0873a0cb5 Merge branch into tip/master: 'x86/mm'
-b792a9ec5b3f0931965ae3c6bcb77f274b9b6445 Merge branch into tip/master: 'core/rseq'
-c2875d1bec780ee7a54a522d2f41b2c32ff0f610 Merge branch into tip/master: 'irq/core'
-8c2575593bc27a67243aef456d99ab27f548800b Merge branch into tip/master: 'irq/drivers'
-fec64164ca43b5fa5ff182a78ee8c34806b7f267 Merge branch into tip/master: 'irq/msi'
-ecb6f5eb0028f4283d8422e202526bed3f4cc8ea Merge branch into tip/master: 'locking/core'
-1e51e7f4825287d4fd27e03ef8155419f3878f62 Merge branch into tip/master: 'sched/core'
-a72efc4f5c47cafda92520c6f2b857e452d6d103 Merge branch into tip/master: 'timers/core'
-8da6fd6a3d40ad1391d8f3c607effa6231efd8e6 Merge branch into tip/master: 'timers/nohz'
-281030ea800bf74f9470da61b52bb9ca9cf11588 Merge branch into tip/master: 'timers/vdso'
-cd9ec8fb385b5e2ad0500b08e63b3dcde5638b7c Merge branch into tip/master: 'x86/apic'
-f199fa3991d2b0e0b48063b2982b7332e3a51b45 Merge branch into tip/master: 'x86/cache'
-9d25bfa58f1ceac87578950ae32b6ed17820414d Merge branch into tip/master: 'x86/cleanups'
-6f5aeee551ccf89199146ee04c86366828198252 Merge branch into tip/master: 'x86/misc'
-1a3bb7edd8bc953f3399f1eded0bae54c4f1acc0 Merge branch into tip/master: 'x86/sev'
+b2e4aa5102fcb6c91b5b969dec83e548d53fb8ac phy: broadcom: ns2-usbdrd: cancel delayed work
+b338621a7e68bb9dc91d08e1774262deb0db50f6 dt-bindings: phy: ti,tcan104x-can: Document Microchip ATA6563
+ad2bf54fe7267f9e7cba90afdc8d91dfd17957f3 phy: qcom: m31: propagate reset errors
+881cf66d7d011477cd119774e0903d2e36a506ef dt-bindings: phy: qcom,qusb2: Straighten out SM6125 and MSM8996
+2f8316ab844adb8f172984216c72506ccba92ea7 phy: qcom-qusb2: Fix SM6115 init sequence
+54d32f138fc44efb0a41fa388f238ea1f2fe5760 phy: qcom-qusb2: Remove _SHIFT defines
+d63f0a418590b3cdd38fd34830615f44507d6b10 phy: phy-mtk-dp: Remove unneeded semicolon
+4e7c7ceeb42e8e15173aa5f1941647fa874bed66 phy: phy-mtk-pcie-sphy: Remove unneeded semicolon
+2a4a046ed102ad356efdfcc94ca65b5ea4f8fbe6 dt-bindings: phy: qcom,qmp-usb: Add IPQ9650 USB3 PHY
+019d03e4f87cc39e33aba4c04204516c29d81e93 dt-bindings: phy: qcom,usb-snps-femto-v2: Add IPQ9650 compatible
+577dbc564601839ead48ff4796215ce27e53d2bf phy: qcom: qmp-usb: Add IPQ9650 USB3 PHY configuration
+1ee46e3f2cba0deaaf015655df77809fb0fb694b phy: qcom: snps-femto-v2: Fix order of arguments to qcom_snps_hsphy_write_mask
+f6ea8b9440931f2a2c5a230be37cf62d9201b24a phy: qcom: snps-femto-v2: Move PHY init registers to config tables
+ea9dc922d31a75f0bb28edfc8087a45cc61a7d7a phy: qcom: snps-femto-v2: Add IPQ9650 support
+a60bccd102baa9b0deb61493d21c524c317006fb phy: tegra: Clean-up Makefile for Tegra186
+6d4333dfb60570e59e0cd0dd8753b7f7e6d62c66 phy: mediatek: tphy: simplify main allocation
 
---===============7644585583628170315==--
+--===============0750429581055856495==--
