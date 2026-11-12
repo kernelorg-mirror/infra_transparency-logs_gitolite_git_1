@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 12 Nov 2026 00:59:54 -0000
-Message-Id: <179444519440.3440642.11720126451223781252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 12 Nov 2026 01:04:35 -0000
+Message-Id: <179444547511.3449592.13723282149214802017@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: cae862c0b622e07f5e820501abd943f74908fe85
-    new: 0bc8858edd7e7eb29eaaea62742a4a11c96916d6
+  - ref: refs/heads/main
+    old: 968f2b94a5964b75d9c0da84523e42530c1891f0
+    new: a2fd526d644233d6a892c28173f07c61e21e4c93
     log: |
-         4d5cb80a3f10cb13a954fe32a4f0ab0b175a0f4a patches/next: implement report infra and user_report
-         0bc8858edd7e7eb29eaaea62742a4a11c96916d6 patches/next: fix damon_report_exist()
+         a2fd526d644233d6a892c28173f07c61e21e4c93 tls: fix async encryption race on weakly ordered architectures
          
