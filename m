@@ -1,26 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/harry/linux
-Date: Thu, 12 Nov 2026 19:41:21 -0000
-Message-Id: <179451248190.239795.15543584454473011506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Thu, 12 Nov 2026 19:49:22 -0000
+Message-Id: <179451296289.243826.15194269138335911049@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/harry/linux
-user: harry
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/b4/kmalloc-nolock-fixes
-    old: 4b35c69383e30ae5ce040be95af166fa1baa6641
-    new: 8f90cd368045c4c5b6a7a4ffb1b6e8065e4baf68
+  - ref: refs/heads/for-kernelci
+    old: 7ca488055c69eed71219546deb805811854aca35
+    new: 18f2d01bfce99a885511c451cba95234eea190bc
     log: |
-         784f96b174091d17d5571262950e09941234b5eb memcg,slab: kmalloc_nolock() fixes
-         1e877aa45726ee4de89b92fc30eee70bc4ed977b mm/memcontrol: defer obj_cgroup_release() to irq_work
-         e1c841828711ac23e415310f37ad9550f6388d2d mm/slab: pass free_flags to slab_free_hook()
-         b037cf8cc1d15b2d8cb9a109c679c8459e5859c9 mm/slab: handle SLAB_FREE_NOLOCK in slab_free_hook() instead of open coding
-         fb98b9d9f890058d1c32970fddc287ff2fcf3ba1 mm/slab: fix a deadlock in memcg_alloc_abort_single()
-         0705c803f34e9bf1dffd182a9fea8e459a6595e1 mm/slab: serialize deferred_work_barrier()
-         ba5bfe8d163e23c80ae0cbf3dcd83b6aeb9a166d mm/slab: let free_to_pcs() check can_free_to_pcs() and take free_flags
-         8f90cd368045c4c5b6a7a4ffb1b6e8065e4baf68 mm/slab: call debug_locks and KCSAN checks in kfree_nolock()
+         3c47ec82540ce89a6fdfd5e0e6d79f35892adfa4 arm64: hugetlb: Prevent write fault livelocks on stale TLB entries
+         d395db3dcd4c590d26a2f3d581d8d5b7ddbfa478 arm64/gcs: Ignore attempts to change GCS mode during signal return
+         139a9b7d5a07a570d5f636db02105025ece99e16 arm64: errata: Extend the workaround for broken AMEVCNTR01 counter
+         be777145858218f591b4d9d19f3d40d3ecea9de3 arm64: errata: Add Cortex-A715/A720 AMU core counter workaround
+         18f2d01bfce99a885511c451cba95234eea190bc arm64: kexec_file: Do not use CMA for images with a non-zero text_offset
+         
+  - ref: refs/heads/for-next/fixes
+    old: 7ca488055c69eed71219546deb805811854aca35
+    new: 18f2d01bfce99a885511c451cba95234eea190bc
+    log: |
+         3c47ec82540ce89a6fdfd5e0e6d79f35892adfa4 arm64: hugetlb: Prevent write fault livelocks on stale TLB entries
+         d395db3dcd4c590d26a2f3d581d8d5b7ddbfa478 arm64/gcs: Ignore attempts to change GCS mode during signal return
+         139a9b7d5a07a570d5f636db02105025ece99e16 arm64: errata: Extend the workaround for broken AMEVCNTR01 counter
+         be777145858218f591b4d9d19f3d40d3ecea9de3 arm64: errata: Add Cortex-A715/A720 AMU core counter workaround
+         18f2d01bfce99a885511c451cba95234eea190bc arm64: kexec_file: Do not use CMA for images with a non-zero text_offset
          
