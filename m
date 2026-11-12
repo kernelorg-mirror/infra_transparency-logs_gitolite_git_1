@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 12 Nov 2026 18:39:16 -0000
-Message-Id: <179450875616.190695.11937915535844346256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 12 Nov 2026 18:44:38 -0000
+Message-Id: <179450907892.194423.10144095966249158462@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-linus
-    old: d1a1f361e08311f6d9a4aea2da2d1bcb3891f4ef
-    new: d2636407bf8c056619e0d975f49bd27778e0dca6
+  - ref: refs/heads/main
+    old: bf83b257423bb557b970df3d7ece32fbd85f3bd4
+    new: 0359338fd8cf1a2dc001d0cd69c331c17decee88
     log: |
-         d2636407bf8c056619e0d975f49bd27778e0dca6 ALSA: usb-audio: Add native DSD support for NiceHCK Octave
-         
-  - ref: refs/heads/master
-    old: 02e8e405dffa693fbb4e30d80d7e53de7ac577fc
-    new: d2f697875710039d5859cd438730f4c038dcf786
-    log: |
-         d2636407bf8c056619e0d975f49bd27778e0dca6 ALSA: usb-audio: Add native DSD support for NiceHCK Octave
-         d2f697875710039d5859cd438730f4c038dcf786 Merge branch 'for-linus'
+         9e244f94128a4b89004f0564b66e039e58318a34 net: virtio: fix UDP tunnel GSO header of VLAN tagged packets
+         3287cd714a853d9443c4a743eca010aedcfbbcdd tun: clear stale skb->protocol of NAPI frags skbs
+         73e08d50eb139e7329032c89a4cb105cf43ef278 net: virtio: validate outer protocol of UDP tunnel GSO packets
+         7683df331d296819a8f596dd752bbf95aa2e3478 Merge branch 'net-virtio-validate-outer-protocol-of-udp-tunnel-gso-packets'
+         c6e0a84a6e6bf1bc3cff43af55eb98a45b5ac116 mailmap: add entries for Hangbin Liu
+         a9782a6f2bbd0c444689725a710d8b21eab61bc5 tcp: Pass req->rsk_listener to inet_csk_reqsk_queue_drop() in tcp_check_req().
+         0359338fd8cf1a2dc001d0cd69c331c17decee88 af_unix: Inherit SO_INQ in unix_stream_connect()
          
