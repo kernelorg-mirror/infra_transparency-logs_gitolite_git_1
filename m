@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 12 Nov 2026 01:06:48 -0000
-Message-Id: <179444560897.3453010.10846822069973257729@gitolite.kernel.org>
+Date: Thu, 12 Nov 2026 01:17:56 -0000
+Message-Id: <179444627680.3461678.13347541836133629886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: d5b5ab50d2f62e118c15beb31e1aef0c00f18823
-    new: 06f74055bc1b4b1975b4a24b3ce6ce6fad67d51a
+    old: 06f74055bc1b4b1975b4a24b3ce6ce6fad67d51a
+    new: d6548dd20bfdfdc16c9f75d88f848b4ce64939ed
     log: |
-         06f74055bc1b4b1975b4a24b3ce6ce6fad67d51a docs: net: fix outdated default values of four sysctls
+         d6548dd20bfdfdc16c9f75d88f848b4ce64939ed selftests: netconsole: enable the targets created by the torture test
          
