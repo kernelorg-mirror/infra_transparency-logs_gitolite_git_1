@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6853600090572298215=="
+Content-Type: multipart/mixed; boundary="===============4286838237460610221=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arnd/asm-generic
-Date: Thu, 12 Nov 2026 14:01:31 -0000
-Message-Id: <179449209160.4066729.6916277562222435633@gitolite.kernel.org>
+Date: Thu, 12 Nov 2026 14:01:44 -0000
+Message-Id: <179449210429.4066944.2749853298847717278@gitolite.kernel.org>
 
---===============6853600090572298215==
+--===============4286838237460610221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arnd/asm-generic
 user: arnd
 changes:
-  - ref: refs/heads/master
-    old: adbbd9714f8058730f93c8df5c5bf1679456424b
+  - ref: refs/heads/asm-generic
+    old: dd7cc8c26b6a37a54adc5ce38d286521b7201044
     new: 851bce698c6c23e9fee42c0aa0e2c42c11940360
-    log: revlist-adbbd9714f80-851bce698c6c.txt
+    log: revlist-dd7cc8c26b6a-851bce698c6c.txt
 
---===============6853600090572298215==
+--===============4286838237460610221==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-adbbd9714f80-851bce698c6c.txt
+Content-Disposition: attachment; filename=revlist-dd7cc8c26b6a-851bce698c6c.txt
 
 093a28998374f4007ffe67cc661f8192c1b062a9 loopback: use eth_type_trans_careful()
 695e1408eb908ac7acf78069933201f92b95727c net: use eth_type_trans_careful() in __dev_forward_skb2()
@@ -1051,4 +1051,4 @@ f8ca39ef1209bbfb3183a2dee228b44bac605ae6 include: Replace __ASSEMBLY__ with __AS
 625b37748a148e51ca888eac172f3a0a8f908ae9 treewide: Stop defining __ASSEMBLY__ for assembler files
 851bce698c6c23e9fee42c0aa0e2c42c11940360 asm-generic/io.h: fix grammar typos
 
---===============6853600090572298215==--
+--===============4286838237460610221==--
