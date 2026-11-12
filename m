@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 12 Nov 2026 17:16:24 -0000
-Message-Id: <179450378499.123241.12582746952347830433@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 12 Nov 2026 17:17:54 -0000
+Message-Id: <179450387475.124200.5577411307384815801@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: d8d736a9aad5c7a7071f2e762ff7eeb70e237b69
-    new: 29cfb4fecd73ac40435e9d17af5b94e333c733fc
+  - ref: refs/heads/main
+    old: c46ddd7d7acda6d59b9d48f6c1ee852f5ef4f52f
+    new: c2d5ef7e600b633edfaa2e72743f3f8f15a00805
     log: |
-         29cfb4fecd73ac40435e9d17af5b94e333c733fc foo
+         e6edbf3e343cae68371d9a35c6eaf16d13202b2d selftests: net: forwarding: replace bash brace expansion with seq
+         3e9089d1499afbf759e23a7c553eb813d770a365 selftests: net: cmsg_sender: retain the resolved address family
+         c2d5ef7e600b633edfaa2e72743f3f8f15a00805 selftests: net: udpgso_bench_tx: honor CPU zero in the affinity option
          
