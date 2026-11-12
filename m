@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 12 Nov 2026 16:00:43 -0000
-Message-Id: <179449924372.60007.8172446393151446227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 12 Nov 2026 16:00:54 -0000
+Message-Id: <179449925457.60264.17036404396367045591@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/pending
-    old: ff4c7359e310744a7abe53cf66d921fa2969eb19
-    new: 3848d284cc6d691c5f28b5fe67993776c08fb682
+  - ref: refs/heads/regmap-7.5
+    old: 64db965e43d47bb8c9e0ead3df3d9086c33680a3
+    new: 5e7cf616191ee6c0648a45cc0ce31b371f1006dc
     log: |
-         2a643bf8280dea2bf1f593c1cef15274926e9de3 wifi: ath12k: fix QCOM_RPROC_COMMON dependency
-         3848d284cc6d691c5f28b5fe67993776c08fb682 wifi: ath12k: add GENERIC_MSI_IRQ dependency
+         613e9c853ac7c46a1ac729830f49f3d947e3d342 regmap: Users of REGMAP should imply the needed support
+         5e7cf616191ee6c0648a45cc0ce31b371f1006dc regmap: Remove no longer needed help text
          
