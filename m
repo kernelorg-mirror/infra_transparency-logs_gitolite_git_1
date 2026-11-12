@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 12 Nov 2026 11:38:45 -0000
-Message-Id: <179448352533.3957862.2989926590765543929@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 12 Nov 2026 11:49:28 -0000
+Message-Id: <179448416843.3965014.12827897568087562298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
   - ref: refs/heads/for-7.5
-    old: b526cfdf5d3b8166f17637e9acabfb7c4c2b8f89
-    new: 89b552ff49551960b9e270feee888a0298a12d94
+    old: b6dda4b7698e05d19306f9b037acd0f25f65d1c7
+    new: a3ab9f0e66d67b54f8f52bc9389324a61d767892
     log: |
-         7d9a62b7e55427ea1fd1ceaa1bba2edad26e418f regulator: sy7636a: don't wait for power good if already on
-         5f828ac25ef96da49b600ae76a2bfcb4ba96a8cb regulator: sy7636a: bind to the I2C device directly
-         776c9d0bbe5dc20cbbcda1c5a42bc50ae0c3908b regulator: dt-bindings: Add TI LM51772 support
-         2873782dff62466a357c84165f2c0679cd4b7228 regulator: core: Support regulators where the voltage selector spans two registers
-         e13d196d75819612d6be19c7dfe9734984614522 regulator: Add TI LM51772 support
-         89b552ff49551960b9e270feee888a0298a12d94 regulator: Add TI LM51772 buck-boost voltage regulator
+         7894dc80c49c7f14980de4fb8342f8a867c58190 ASoC: dt-bindings: add amlogic,gxbb-audin
+         27bc7d40165aa409a5b6b5c653ea1a96c6031b3d ASoC: meson: build gx-formatter as a separate module
+         7de7c0394bccc0b13e7114e1936b4d7a5f57f741 ASoC: meson: aiu-encoder-i2s: ensure clk divider gets disabled in hw_free
+         c8874647313b587658f1b784552a750879f06589 ASoC: meson: add AUDIN driver
+         ddcd5e58e5c4eb9169ff8360ff1af1c8bcec599b ASoC: meson: aiu: add I2S Capture DAI
+         9265c978f445b410a8f995e85757fc0c4b0f6983 ASoC: meson: gx-card: add support for audin FIFO
+         45291d846e5d7ed32670e1cb113653427ee3edcb ASoC: meson: gx: add base support for I2S audio input
+         a3ab9f0e66d67b54f8f52bc9389324a61d767892 ASoC: fsl-asoc-card: drop the ASRC device reference on probe exit
          
