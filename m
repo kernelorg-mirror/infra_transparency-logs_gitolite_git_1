@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 12 Nov 2026 14:31:22 -0000
-Message-Id: <179449388263.4092037.12707666825305238515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Thu, 12 Nov 2026 14:49:23 -0000
+Message-Id: <179449496365.4168933.7225256619831297464@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/main
-    old: d72a7476839df107e2d42f3377c20cac9469c611
-    new: 449f6097e1447a3867a8c7e0fbc12051ee0193a2
+  - ref: refs/heads/scx-pvsched
+    old: 965216b13e8a4734fc2f24d7addd76571f434d70
+    new: 6606be3761ce8cf8303f39a1824335d79fce0fcc
     log: |
-         449f6097e1447a3867a8c7e0fbc12051ee0193a2 selftests: forwarding: vxlan_reserved: drop redundant in_defer_scope
+         6606be3761ce8cf8303f39a1824335d79fce0fcc [NOT_UPSTREAM] sched_ext: Add paravirt host and guest example schedulers
          
