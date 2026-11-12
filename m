@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 12 Nov 2026 14:09:35 -0000
-Message-Id: <179449257501.4071987.839002154786465196@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Thu, 12 Nov 2026 14:11:32 -0000
+Message-Id: <179449269265.4074812.4348682803086389041@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: borntraeger
 changes:
-  - ref: refs/heads/main
-    old: fb64e071810dc7ec595c3ee1dbb9775a04f909d4
-    new: d72a7476839df107e2d42f3377c20cac9469c611
+  - ref: refs/heads/master
+    old: ff662d60374cd8858d1209f678f5f01b1b0be7c1
+    new: 6761f65e6823876534a9c3eec4cee1674dce415d
     log: |
-         70fcb28c2e5c413c4ab2a32dc359c82e4c4b2cba net/sched: act_gact: size TCA_GACT_PROB unconditionally
-         46c5846568261294328f7c482d5248aefe618a3a net/sched: act_vlan: size push_eth in get_fill_size
-         d72a7476839df107e2d42f3377c20cac9469c611 Merge branch 'net-sched-get_fill_size-budget-fixes-for-act_gact-and-act_vlan'
+         f53542298e5a66fa4ac73c6861df33deebe984b8 KVM: s390: Fix UCONTROL inconsistencies
+         e20789439160f34315be89b50cff4a9bab958678 KVM: s390: Move some skey functions to headers
+         15f78685814616874615a7597f9693d6a6478c22 KVM: s390: Fix idte_crste() clobber and table type
+         d71e7918b459d7766626121ea7af5d74cdac249d KVM: s390: Improve unmapping of large ranges
+         6761f65e6823876534a9c3eec4cee1674dce415d KVM: s390: vsie: Fix pinning using the wrong flag
          
