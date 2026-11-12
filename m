@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3052476109518254985=="
+Content-Type: multipart/mixed; boundary="===============8730376932536882265=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 12 Nov 2026 08:21:32 -0000
-Message-Id: <179447169254.3764370.7489371917986639033@gitolite.kernel.org>
+Date: Thu, 12 Nov 2026 08:21:58 -0000
+Message-Id: <179447171892.3764680.10691676394510865514@gitolite.kernel.org>
 
---===============3052476109518254985==
+--===============8730376932536882265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,21 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: c6279551a44c06f4cb1f7b1df2fb8e0d6d6e54cd
-    new: 9176f21044b7185738172883abe32e33c314df83
-    log: revlist-c6279551a44c-9176f21044b7.txt
+    old: 9176f21044b7185738172883abe32e33c314df83
+    new: b4143eb4067171197e3a4bbd1c36fa3f33eadd83
+    log: revlist-9176f21044b7-b4143eb40671.txt
+  - ref: refs/heads/tip/urgent
+    old: b3bdbbfe118a2d598b06e41e7806beec9162f1b0
+    new: e15d4060498177992293bb6582bb49aa2cd9add7
+    log: revlist-b3bdbbfe118a-e15d40604981.txt
 
---===============3052476109518254985==
+--===============8730376932536882265==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c6279551a44c-9176f21044b7.txt
+Content-Disposition: attachment; filename=revlist-9176f21044b7-b4143eb40671.txt
+
+cd24ff62e0eb311c2199c855835f252119ae901e Merge branch into tip/master: 'core/urgent'
+d7647435e97099a8af017253d5ecd9bd6c7aa6c7 Merge branch into tip/master: 'perf/urgent'
+48691c9a5e083b72a28be2247c224d2dbbb37de5 Merge branch into tip/master: 'sched/urgent'
+fe22260fc93ce9044221fbd06e3c3f8cb6d00e0b Merge branch into tip/master: 'timers/urgent'
+e15d4060498177992293bb6582bb49aa2cd9add7 Merge branch into tip/master: 'x86/urgent'
+cbfef9c34c9897257db715769479e9d2fbc79fde Merge branch into tip/master: 'core/rseq'
+b0c288fa55f49f31e6dbcdb88f6f1a8cf62794d6 Merge branch into tip/master: 'irq/core'
+3bf11f2e4e4011a296221a97c297b960f7b00303 Merge branch into tip/master: 'irq/drivers'
+3e66032e4f8d671709125350169c7abc86db4d62 Merge branch into tip/master: 'irq/msi'
+ee92c7f7795d1f2e07e77eac134abd7f70104197 Merge branch into tip/master: 'locking/core'
+7ed761bf1c6e057d8a8093258a637530fcf844ba Merge branch into tip/master: 'sched/core'
+6ad5a85cfc88233ccd40a1b2a9ab1ec66044bd39 Merge branch into tip/master: 'timers/core'
+fdb1e7c3d8a22ff8a9dffc0248d75d3a2446527a Merge branch into tip/master: 'timers/nohz'
+6cd5110e3b402d4e1a26244b824bcc1cc0e56d57 Merge branch into tip/master: 'timers/vdso'
+07bb5ca93c6600599ae0de57c5c3a7cc31925dca Merge branch into tip/master: 'x86/apic'
+31bdcc13923ad9f97d91acec48fb6575768b745c Merge branch into tip/master: 'x86/cache'
+2a1466e319f1cbdb3be2ffe5e93852b9360e67f4 Merge branch into tip/master: 'x86/cleanups'
+911374e3afe911affe0898d913efa329c0f33d7a Merge branch into tip/master: 'x86/misc'
+b4143eb4067171197e3a4bbd1c36fa3f33eadd83 Merge branch into tip/master: 'x86/sev'
+
+--===============8730376932536882265==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b3bdbbfe118a-e15d40604981.txt
 
 828c3b265b6df877dced3dde56ea41daa2e6181e crypto: caam - reject overlong RSA CRT parameters
 e9ce64dce975a14700e835003847415e29918474 crypto: essiv - fix use-after-free in AEAD path
 26ca5f34841f0a86d0883664a1c13be89a01d351 crypto: ccp - Make usage of sev_cmd_mutex more granular
-d793f5346645adbafa2385dee4c16bd6b5d384a5 irqchip/qcom-pdc: Handle ESPIs in qcom,pdc-ranges
-702ae15488ce96d9818deee812d9fc271316fa6e irqchip/mediatek: Add Kconfig option for MediaTek SYSIRQ and CIRQ
 67517aa0a0b30a8c2ddc2c34cdf2433a9c3152f0 ACPI: LoongArch: Fix incorrect pointer in acpi_iovt_init()
 2ccdfa6c93021ee3fca2e55d3757769ac2b69b30 ACPI: LoongArch: Add checksum validation for ACPI IOVT table
 09d28f8d47ce8fd8ac8da34e46abe560e48804e2 ACPI: LoongArch: Validate ACPI IOVT device entries
@@ -42,9 +70,6 @@ b7000844b374a1ab75f0cc561f1d4d321cd6eeb0 LoongArch: kexec_file: Fix a modified c
 a9ce1a00afb0402668877d37c04ffd0e53d48832 LoongArch: KVM: Clear device pointer in irqchip destroy callbacks
 20f3bf3d3dce16f43b82881293586ce7d73982b6 LoongArch: KVM: Propagate real error code in kvm_pch_pic_create()
 422e532809572ba1043192bf6a0c653bc68b3140 LoongArch: KVM: Reject repeated PCH-PIC CTRL_INIT
-e5d5fe940c1e329f561ea636700672a5bd4a785b dt-bindings: interrupt-controller: qca,ar7100-cpu-intc: Allow shared write buffer interrupts
-4e1d12a78596b4201303a953c229bd40fb506a15 irqchip/ath79-cpu: Flush every write buffer of a shared interrupt
-08b814ca0a6945b8effc1a0d64999d562f24c923 MIPS: ath79: Flush the DDR write buffers of an interrupt in parallel
 87ea037a9166a5842356ce68e3585fc6e756603b coda: honor the append state of each write
 fbdc020ee1b82079102e493aaa7200de5f497a38 fs/proc: fix the write length returned by proc_sys_call_handler()
 2d956723e82cddae8ff8e9da99a666217b02065f fs/splice: clamp an over-reported write_iter result
@@ -80,7 +105,10 @@ ea8c4b37b8809da104c4a871bb81d20465bf67b2 bpf: don't mark namespace_init and name
 0eaee8fc9305b4ae8e75e68c30e7e93b6b367234 Merge tag 'v7.4-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 79eb6679ef6a0d5ea68da53a8321fb1dc72299b9 Merge tag 'loongarch-fixes-7.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 9d66f26fefacebfeed15de31c1123451a17ff119 Merge tag 'vfs-7.4-rc3.fixes.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-bd178eb8248933a61880803f8ae50d3d912a10f0 Merge branch into tip/master: 'irq/drivers'
-9176f21044b7185738172883abe32e33c314df83 Merge branch 'linus'
+cd24ff62e0eb311c2199c855835f252119ae901e Merge branch into tip/master: 'core/urgent'
+d7647435e97099a8af017253d5ecd9bd6c7aa6c7 Merge branch into tip/master: 'perf/urgent'
+48691c9a5e083b72a28be2247c224d2dbbb37de5 Merge branch into tip/master: 'sched/urgent'
+fe22260fc93ce9044221fbd06e3c3f8cb6d00e0b Merge branch into tip/master: 'timers/urgent'
+e15d4060498177992293bb6582bb49aa2cd9add7 Merge branch into tip/master: 'x86/urgent'
 
---===============3052476109518254985==--
+--===============8730376932536882265==--
