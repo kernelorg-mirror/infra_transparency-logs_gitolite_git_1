@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2594184647644964112=="
+Content-Type: multipart/mixed; boundary="===============5190113013028784849=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Thu, 12 Nov 2026 10:00:32 -0000
-Message-Id: <179447763247.3837766.8177218990389761334@gitolite.kernel.org>
+Date: Thu, 12 Nov 2026 10:00:36 -0000
+Message-Id: <179447763633.3837996.16238285161459705861@gitolite.kernel.org>
 
---===============2594184647644964112==
+--===============5190113013028784849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/utils/mdadm/mdadm
 user: mtkaczyk
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: cd27b828deb70abb3edb862ba8ddc8b905866a2e
     new: 5542bf40fab20f09ce3be80ae1cb42584e9fa2f7
     log: revlist-cd27b828deb7-5542bf40fab2.txt
 
---===============2594184647644964112==
+--===============5190113013028784849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ c69b3dadaa4a00e8aa0e551a1d464ee53246224e mdadm: fix NULL dereference in bitmap_f
 dd510c0f8e48917d872c4304ca737ef10517cb34 ci: preserve diagnostics when mdadm tests hang
 5542bf40fab20f09ce3be80ae1cb42584e9fa2f7 GitHub workflows: enable CodeQL security and quality queries
 
---===============2594184647644964112==--
+--===============5190113013028784849==--
