@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 12 Nov 2026 20:45:11 -0000
-Message-Id: <179451631188.283625.3615753126113297525@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Thu, 12 Nov 2026 20:47:22 -0000
+Message-Id: <179451644265.284497.17142723435341947377@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/main
-    old: 69e51bb26f3fa3e118dd770f1962a93bed690dc1
-    new: 62362890c83b7f81ba6716be724677aad643bbbb
+  - ref: refs/heads/master
+    old: bd59a58663895778da607fd02a8f17a93db97d16
+    new: b7cc45994c3f9c5f24397fcc0251f6c23bff9bd8
     log: |
-         58b6166634a1a3032e50393792affd02a68eda65 QCA: Update Bluetooth firmware for QCC2072 UART interface: 1.1.0-00355 to 1.1.0-00391
-         62362890c83b7f81ba6716be724677aad643bbbb Merge branch 'qcc2072-uart-update' into 'main'
+         b7cc45994c3f9c5f24397fcc0251f6c23bff9bd8 bpf: Check variable-offset accesses against special fields
          
