@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2535884839353540368=="
+Content-Type: multipart/mixed; boundary="===============1919195829947643870=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 12 Nov 2026 19:51:16 -0000
-Message-Id: <179451307671.246669.5803720827966634836@gitolite.kernel.org>
+Date: Thu, 12 Nov 2026 19:51:19 -0000
+Message-Id: <179451307964.246838.11994732135403703254@gitolite.kernel.org>
 
---===============2535884839353540368==
+--===============1919195829947643870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 2e14a351662dc5a3b7421d210049c59edd0425d2
     new: 081be4d67aaf8f932d2e7056daf2e922cb5afa2b
     log: revlist-2e14a351662d-081be4d67aaf.txt
 
---===============2535884839353540368==
+--===============1919195829947643870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ f54e144a69369f1e1bb06360374e656fbd1fa66e bpf: Evaluate expressions by the transf
 c9a18e1488b0d702a42a722ca286e4f7e16939e1 selftests/bpf: Test the evaluation of linked expressions
 081be4d67aaf8f932d2e7056daf2e922cb5afa2b Merge branch 'bpf-evaluate-scalar-evolution-expressions-in-the-state-after-a-jump'
 
---===============2535884839353540368==--
+--===============1919195829947643870==--
