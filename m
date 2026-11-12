@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 12 Nov 2026 01:17:56 -0000
-Message-Id: <179444627680.3461678.13347541836133629886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 12 Nov 2026 01:18:13 -0000
+Message-Id: <179444629367.3461940.11072810161600784571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: 06f74055bc1b4b1975b4a24b3ce6ce6fad67d51a
-    new: d6548dd20bfdfdc16c9f75d88f848b4ce64939ed
+  - ref: refs/heads/master
+    old: 7c4caced5c458a72b40b1c379656bf6ae4fd1074
+    new: 282433a4593d835a36d485de163d0de331b315d6
     log: |
-         d6548dd20bfdfdc16c9f75d88f848b4ce64939ed selftests: netconsole: enable the targets created by the torture test
+         282433a4593d835a36d485de163d0de331b315d6 foo
          
