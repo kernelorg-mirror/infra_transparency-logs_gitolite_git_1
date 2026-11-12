@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 12 Nov 2026 03:31:44 -0000
-Message-Id: <179445430456.3563690.2752386450777699007@gitolite.kernel.org>
+Date: Thu, 12 Nov 2026 03:33:23 -0000
+Message-Id: <179445440388.3564151.16094547086924002077@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,14 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/keyring_gc
-    old: 3926b8641c1787d60e304381d6ab91a6a2cc0ff1
-    new: 4bbfb9d28a749d776066a3825095d2649c878e81
+    old: 4bbfb9d28a749d776066a3825095d2649c878e81
+    new: b05356fcd2cbec56f8a7218e42ec07ec67afe294
     log: |
-         2a07bcad764663112efb2e2415a3070aece28361 KEYS: trusted: TEE: Synchronize session lifetime
-         3f2283724d64ea5dc5130e6c95c49d19c2d11183 KEYS: trusted: TEE: Disable sysfs bind attributes
-         49858976f90423fabd97d7e9d6639e3d1847e0d6 rxrpc: Release conn->key when init_connection_security() fails
-         c8e9ab7b50a52c3406c3416fa2dbbc7ed8227098 rxrpc: Move key types to their own module
-         b773464a3b34ea7af0589d991829bac36e9d4756 KEYS: Pin the backing kernel module for a key type
-         7de48afac908993ecabd59392141936c14319bb5 KEYS: Remove key_type_dead
-         4bbfb9d28a749d776066a3825095d2649c878e81 KEYS: key_garbage_collector(): process in chunks
+         c88eb05ce1d7efe5ff9eeeda203a32405bee520b KEYS: trusted: TEE: Synchronize session lifetime
+         ad047755facc7d3bbb0b8f4b25805be4437ec957 KEYS: trusted: TEE: Disable sysfs bind attributes
+         d97f3d562f392badc30cf1a3283d649843b0f8d0 rxrpc: Release conn->key when init_connection_security() fails
+         10b67b8eb4a703eb4e3f2a50fcab4776a4e2ee49 rxrpc: Move key types to their own module
+         6e5a2afb147d03cb5f10c6602c2137e76500976f KEYS: Pin the backing kernel module for a key type
+         d7a1097a44e405ab0f9c82e12a3bf4d65f1f5f8f KEYS: Remove key_type_dead
+         b05356fcd2cbec56f8a7218e42ec07ec67afe294 KEYS: key_garbage_collector(): process in chunks
          
