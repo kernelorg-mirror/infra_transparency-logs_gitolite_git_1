@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2511265664272801783=="
+Content-Type: multipart/mixed; boundary="===============5105298310973250995=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 12 Nov 2026 16:44:36 -0000
-Message-Id: <179450187639.95356.9848781197578348513@gitolite.kernel.org>
+Date: Thu, 12 Nov 2026 16:44:42 -0000
+Message-Id: <179450188217.95564.15253641771890867452@gitolite.kernel.org>
 
---===============2511265664272801783==
+--===============5105298310973250995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 2dc0136b1fdac153434ab02778fcdb32db5d0dae
-    new: daed51c9105158768a3949395135aa6e0a04bb7e
-    log: revlist-2dc0136b1fda-daed51c91051.txt
+  - ref: refs/heads/mm-unstable
+    old: d3925707865d051ba04d5710d60550776e744368
+    new: 4318887a3efa4c53d6f083ccfd7105b809a3ac65
+    log: revlist-d3925707865d-4318887a3efa.txt
 
---===============2511265664272801783==
+--===============5105298310973250995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2dc0136b1fda-daed51c91051.txt
+Content-Disposition: attachment; filename=revlist-d3925707865d-4318887a3efa.txt
 
 e0cf10dacaa16bfbc6627d5e431416d89654372c mm: synchronize with PTE table reclaim for all folio sizes
 537357a40ec95deb18bbae006c15a9c39195900a mm/vmalloc: bail out if in softirq context
@@ -260,42 +260,5 @@ b31e10c4b4f43dbc11dfc32e70a16d75a09bdda3 zsmalloc: populate new zspage outside c
 f95484fcc350793c8b1741f236e389d5c1974a16 zram: fix quadratic writeback bitmap search
 aa540281a47b92199e71a0974a6a90068fa6aaaf zram: lz4/lz4hc: accept dictionaries of more than 64 KiB
 4318887a3efa4c53d6f083ccfd7105b809a3ac65 fs/proc/task_mmu: fix lost maps entries above 2^63
-8229475c160c9384df86ac4d12d9f52d7f793baf tools/mm: add page_owner_filter to .gitignore
-9887d10dc5f6950e07b709536869cf16f8cad628 mm: free unused page table allocated by do_set_pmd()
-a359a074e54346e401acf848bc80cd6080b17779 mm/damon/core: use list_{next,prev}_entry() in damon_{next,prev}_region()
-1fb3e49ad48e1a2cea802f70c13a8237b7c0bc3a Docs/admin-guide/mm/damon/reclaim: improve language
-e51fe382a1cbe077fdf65b16fd5ea4d51f92c34f mm/vmalloc: reject overflowing vm_map_ram page counts
-1ce0023eba71874e19097d6e9c0c8cac9ee24810 mm/vma: predicate vma_assert_stabilised() on CONFIG_DEBUG_VM
-dd9c0b9748cb429982d3ab1132e3c5cb13ba42e6 Revert "mm/khugepaged: remove definition of struct khugepaged_mm_slot"
-a9ecb9b89dd118fa1bd692ee002c772ae32ea4ab mm/khugepaged: scan mm's more efficiently under mmap_lock contention
-053b80c36df4acd0c6928963d9a56b91ea49cb08 mm/khugepaged: release contended mmap read lock after scanning enough VMAs
-5d7732622827d98ad2b93aed096ecac1e5e27dac mm/hugetlb: allow crashkernel to reuse hugetlb CMA memory
-6a2784f39dc0a103fa2b191095db2a4516388b63 mm: only assert mmap locks if CONFIG_DEBUG_VM or lockdep is set
-b6f2dd33371d648750ab1ab06a231cf4b2becf5b mm: only assert VMA locks if CONFIG_DEBUG_VM is set
-f2adde94dab514e264ed472e2d25820e49b78a9a mm: convert WARN_ON_ONCE()'s to VM_WARN_ON_ONCE() in VMA lock code
-357f6afc2dbdfbdb7cab04c375107d4d235d36dc test_maple_tree: test maple_range_64 node below the root in RCU mode
-3d564eea72b0efed24c4d9c165fa2b66d887e004 hugetlbfs: report inode limits without a memory subpool
-85d2b46a7c884f9a6e6c05122ce68eeb8fbc75fb mm/zsmalloc: remove CONFIG_ZSMALLOC_STAT
-7a4558629c71424996658abac18f65b0308cf7d5 mm: kmemleak: serialize disable-time cleanup
-11f05fe0c70f3875bb37b5d13495bdf757a46cb5 selftests/mm: add UFFDIO_MOVE huge zeropage PMD regression test
-c6a3307f63df28b015e9bbf5a736c31df0c9f401 selftests-mm-add-uffdio_move-huge-zeropage-pmd-regression-test-fix
-74352cdee4eb539ce3bc7a93daa33f09804ab22f mm/mglru: report evictable sizes per type
-997594b669f51c033f601396be6fc76626015a20 mm/mglru: extract lruvec_populated_min_seq() helper
-39ccfaf09e1ee9b2fb1f9687628dc97f3c60baa4 mm/mglru: reclaim from the oldest populated gen
-86b5e8a4c59b1e2bc48f8fc827116214ffe2c902 mm/mglru: lift the forced protection of reclaimer
-3c4f694da95c2dce7c0ca3a99b3bfa6e18abaf7c mm/mglru: skip zones above reclaim_idx instead of rotating them
-123ef1fbc18594a334f5cb0ed09c62254c7980b2 mm/mglru: return for unavailable anon reclaim earlier
-b52592e2392989485964891bd7ff87f4498fe8bc mm/mglru: balance anon and file scan budget by refault rate
-4d5723dc73624987e9e344cc030d96cd01d7026d mm/mglru: lift youngest gen protection for higher priority
-d62db7d22ebead0e9f010d6060e3c39b42fcb5df mm/mglru: avoid placing rejected folios below populated gen
-85a7b15f3b145376fe61150426199a03898d2ff3 mm/mglru: run aging when pages are rare outside the youngest gen
-e8780acdaaa985a9c6df0e791fc0ff0b41525eda mm/mglru: run aging when one type has no populatable folios
-d8aa001b26385d5b5e8a71af1077b9328e8df59b mm/mglru: restrict eviction accounting to eligible zones
-9296836271de0ec4de6a1d2ccc2abbbf7b1200aa mm/mglru: reduce LRU lock contention by shrinking folio batches in inc_min_seq
-b9deaa3858b5cf5bd64a4b637bcc71ce96103113 mm/mglru: avoid prolonged anon reclaim with swappiness=200
-c60d6a098616573bcd7f599eb9327ec8e1520506 mm/mglru: make swappiness=1 file reclaim more aggressive
-e9d6fb92bf16b2b71ab2cec7a9258d9014b16c32 mm/mglru: avoid scan anon while swapcache is low for GFP_NOIO allocation
-7e411f110775ae6049d03c350a524c5970f620e8 mm/hugetlb: charge hugetlb cgroup and memcg in alloc_hugetlb_folio_reserve()
-daed51c9105158768a3949395135aa6e0a04bb7e riscv: mm: fix concurrency in mark_new_valid_map()
 
---===============2511265664272801783==--
+--===============5105298310973250995==--
