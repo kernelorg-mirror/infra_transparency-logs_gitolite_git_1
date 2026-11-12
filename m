@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Thu, 12 Nov 2026 05:18:58 -0000
-Message-Id: <179446073829.3636743.8593667340311740651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 12 Nov 2026 05:30:55 -0000
+Message-Id: <179446145580.3646560.3710603702788373382@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 8e16f8bbf1bd528975fd6f4081eaf00513c1d83e
-    new: 4b8211f9d9e206bf22b76365b56cc302452f85ad
+    old: 4e72067407541781fe5ecfcd96c3f4721f4737ff
+    new: 6e04054d4d39090505525d6c6318c0293e9fe4ea
     log: |
-         4b8211f9d9e206bf22b76365b56cc302452f85ad Input: ads7846 - consolidate coordinate filtering logic
-         
-  - ref: refs/heads/next
-    old: 8e16f8bbf1bd528975fd6f4081eaf00513c1d83e
-    new: 4b8211f9d9e206bf22b76365b56cc302452f85ad
-    log: |
-         4b8211f9d9e206bf22b76365b56cc302452f85ad Input: ads7846 - consolidate coordinate filtering logic
+         6e04054d4d39090505525d6c6318c0293e9fe4ea foo
          
