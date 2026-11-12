@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6668416791999508508=="
+Content-Type: multipart/mixed; boundary="===============4663455212848505032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Thu, 12 Nov 2026 15:36:47 -0000
-Message-Id: <179449780713.41401.2575370461323114582@gitolite.kernel.org>
+Date: Thu, 12 Nov 2026 15:36:49 -0000
+Message-Id: <179449780914.41586.13965907756803164739@gitolite.kernel.org>
 
---===============6668416791999508508==
+--===============4663455212848505032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
+  - ref: refs/heads/docs-next
     old: 2649344d20dfb13e30b560f06138229d8e40350a
     new: 2138148bf44fd84d3e0a863f0e8cb3627cdcc606
     log: revlist-2649344d20df-2138148bf44f.txt
 
---===============6668416791999508508==
+--===============4663455212848505032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ edd684075ff86616c8dadb9f6f6c7829a41a1475 f2fs: fix various ABI documentation iss
 f49d912a9d1e2a831bfc6120a715fdb9372b251b Documentation: Update after split of <linux/mod_devicetable.h>
 2138148bf44fd84d3e0a863f0e8cb3627cdcc606 docs/zh_CN: PCI: Update the pci_device_id header reference
 
---===============6668416791999508508==--
+--===============4663455212848505032==--
