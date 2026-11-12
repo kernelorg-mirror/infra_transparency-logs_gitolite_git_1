@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3130591991683369584=="
+Content-Type: multipart/mixed; boundary="===============3871900309400720020=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-next
-Date: Thu, 12 Nov 2026 15:33:23 -0000
-Message-Id: <179449760346.37918.10230900750304394443@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Thu, 12 Nov 2026 15:33:33 -0000
+Message-Id: <179449761358.38150.3944102624686684246@gitolite.kernel.org>
 
---===============3130591991683369584==
+--===============3871900309400720020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-next
+repo: pub/scm/linux/kernel/git/sashal/linus-next
 user: sashal
 changes:
-  - ref: refs/heads/all-next
+  - ref: refs/heads/linus-next
     old: 9d66f26fefacebfeed15de31c1123451a17ff119
     new: 62757b89f7c91c6e12fa672959200f6bdc63a466
     log: revlist-9d66f26fefac-62757b89f7c9.txt
 
---===============3130591991683369584==
+--===============3871900309400720020==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b74e5356d34e17bfc3d734147d588e6b34a9a6fa Merge branch 'tracing-next' into all-ne
 0f9e824bb086311435c7404ed5c0f03da411e0c4 Merge branch 'wireless-next' into all-next
 62757b89f7c91c6e12fa672959200f6bdc63a466 Add merge report for 2026-11-12 (3 interventions)
 
---===============3130591991683369584==--
+--===============3871900309400720020==--
