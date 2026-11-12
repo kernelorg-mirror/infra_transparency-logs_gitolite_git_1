@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 12 Nov 2026 15:23:05 -0000
-Message-Id: <179449698518.30199.3107519701495413930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Thu, 12 Nov 2026 15:27:10 -0000
+Message-Id: <179449723059.33854.11995818293900030569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/clk/linux
+user: masneyb
 changes:
-  - ref: refs/heads/main
-    old: 449f6097e1447a3867a8c7e0fbc12051ee0193a2
-    new: a640dd0ffdbcfd23223ae2e84249d23776d41d5c
+  - ref: refs/heads/clk-pile
+    old: f2c959a3b2baff8a23d20b65d038e0fa3a80f56b
+    new: fd8c1352b8f02ae28737e4f3b0dc82f6a5aba250
     log: |
-         2d0c6925170313267f161fe11b717dbce919443b net: dsa: motorcomm: Fix stats64 error counter mapping
-         22349a442e7650c7fae08b0cff04edf0c6b0d9f9 net: dsa: motorcomm: Fix RMON fragments stat
-         079f89a0c95a948a140c17ca51d5034cc19f452d net: dsa: motorcomm: Use safe 64-bit counter reader
-         a640dd0ffdbcfd23223ae2e84249d23776d41d5c Merge branch 'net-dsa-motorcomm-mib-fixup'
+         4dbd8c87efde53c8135fa7df1d237455567e89f9 dt-bindings: reset: convert zynq-reset.txt to yaml
+         fd8c1352b8f02ae28737e4f3b0dc82f6a5aba250 dt-bindings: clock: convert zynq-7000.txt to yaml
          
