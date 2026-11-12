@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 12 Nov 2026 18:54:56 -0000
-Message-Id: <179450969663.202167.13911216815861654775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 12 Nov 2026 18:55:27 -0000
+Message-Id: <179450972774.204699.16759094715330268959@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 62754aad50d0b30938bd8ce30b43474ce502a2af
-    new: 5ed47bd79cebee8429d06c6640aac7ac7c4805ca
-    log: |
-         5ed47bd79cebee8429d06c6640aac7ac7c4805ca net/mlx5e: IPsec, don't match upper proto selectors in crypto offload TX
-         
+  - ref: refs/tags/asoc-fix-v7.4-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 1457cf2c5c80a1fe8f736d38bb206af83cbca6bd
