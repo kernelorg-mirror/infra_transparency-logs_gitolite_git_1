@@ -1,47 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============3510230387509795423=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 12 Nov 2026 20:51:28 -0000
-Message-Id: <179451668815.289686.3399981147566789380@gitolite.kernel.org>
-
---===============3510230387509795423==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 12 Nov 2026 20:51:55 -0000
+Message-Id: <179451671588.289882.13086182267795009580@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 11b27ad8c8078e18b74d0d507180422bfafc962e
-    new: 003dccb94a84cf4313c4298b9b3f52f7c30380b2
+  - ref: refs/heads/master
+    old: 92a4f1dddd99db5b4eba138ad28d53dddd62c605
+    new: cfca2ee7e6678b9dac32c6fea933fb53caccec47
     log: |
-         56dd7ee477fd2889babc452106ad3a5301c2040a surface: aggregator: propagate -EPROBE_DEFER from ssam_irq_setup()
-         003dccb94a84cf4313c4298b9b3f52f7c30380b2 platform/x86: bitland-mifs-wmi: Add Redmi G 2022 (TM2135) quirk
+         d8276c0d08cce858bd76deba24a12f8975738eb8 selftests/bpf: libarena: Add bulk buddy allocation helpers
+         4d71673bc4b55716e2be06c1e6ce2990e01e48f5 selftests/bpf: Add a parallel buddy allocator benchmark
+         b77e7e9c49fdbfa517c130bcede9bc2274fb09e4 selftests/bpf: libarena: Make spinlock trylock match arena_spin_unlock
+         27f2cf406a35fd5400348cfd2225b1d35a30e2cd selftests/bpf: libarena: Raise arena spinlock CPU limits
+         c8d21d25241bee1bad8a5eecbb6443d23c1f29fb selftests/bpf: libarena: Add buddy per-CPU caches
+         633635ab8d514034abcda56632691c069871a2cc selftests/bpf: libarena: Handle NMI reentrancy
+         e5728f923b036cc676ef191752cc17c2330a7d5c selftests/bpf: libarena: Refill local caches in batches
+         be73f5c9f9d372f4471a5c5808325c44fddac1a8 selftests/bpf: libarena: Add a transfer cache
+         ed5558fb22a39e9f8e19317998edfe4f964127e9 selftests/bpf: libarena: Cover buddy cache fast paths
+         cfca2ee7e6678b9dac32c6fea933fb53caccec47 Merge branch 'bpf-libarena-allocator-improvements'
          
-
---===============3510230387509795423==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1794516685 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1794516685-ba61bdbda9e5ce7c9840c423c16cf902b42c1c27
-
-11b27ad8c8078e18b74d0d507180422bfafc962e 003dccb94a84cf4313c4298b9b3f52f7c30380b2 refs/heads/review-ilpo-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCavYmzwAKCRBZrE9hU+XO
-MQQWAQCQwIRzxOjNG/4eddzTaPXp1ggJTRvbBHPBGghW0YAtzAEAvRIbid2k3I1f
-owiS9pvJXXGx5u33/s/nNhewdzq55Qo=
-=8mwt
------END PGP SIGNATURE-----
-
---===============3510230387509795423==--
