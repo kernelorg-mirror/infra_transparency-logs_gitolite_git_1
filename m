@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 12 Nov 2026 16:13:03 -0000
-Message-Id: <179449998385.68716.15015724863111700939@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 12 Nov 2026 16:13:08 -0000
+Message-Id: <179449998877.68924.12826953194045130317@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: a640dd0ffdbcfd23223ae2e84249d23776d41d5c
-    new: bf8129c5d44d4985a0c653f7edac529e1da0ac44
+    old: e227b511582828c5a6513f70fc6a71211e5efbf0
+    new: 5378d31380a6ebc0d25cfa02348f5f6061fba75e
     log: |
-         c7d11f97e8a2566836966ca9ec490cd29491bab4 tcp: avoid false bind exhaustion with odd-sized port ranges
-         ca133dd5fb2021909ec03fef81199b2d8189cf27 selftests/net: cover odd-sized local port ranges with one free port
-         bf8129c5d44d4985a0c653f7edac529e1da0ac44 Merge branch 'tcp-fix-false-exhaustion-of-odd-sized-bind-port-ranges'
+         b22268fc3ddc1e634daf177e53b04e96fa58c330 net: Make PSP skb extension survive packet scrubbing
+         51127238570bc9f03092a4f894cc595e33410431 selftests/net: psp: test bidirectional data transfer
+         5378d31380a6ebc0d25cfa02348f5f6061fba75e Merge branch 'net-psp-preserve-skb_ext_psp-across-packet-scrubbing'
          
