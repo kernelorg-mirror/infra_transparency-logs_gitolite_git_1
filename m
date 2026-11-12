@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 12 Nov 2026 16:00:34 -0000
-Message-Id: <179449923476.59846.5000337935123012845@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 12 Nov 2026 16:00:43 -0000
+Message-Id: <179449924372.60007.8172446393151446227@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/pwrseq/for-current
-    old: 073f01043e79fd76f4fa648e58061c80329a6eef
-    new: b149b12f6a52997eded725ae5deae24620dbbbff
+  - ref: refs/heads/pending
+    old: ff4c7359e310744a7abe53cf66d921fa2969eb19
+    new: 3848d284cc6d691c5f28b5fe67993776c08fb682
     log: |
-         b149b12f6a52997eded725ae5deae24620dbbbff power: sequencing: pcie-m2: fix serdev controller reference leak
+         2a643bf8280dea2bf1f593c1cef15274926e9de3 wifi: ath12k: fix QCOM_RPROC_COMMON dependency
+         3848d284cc6d691c5f28b5fe67993776c08fb682 wifi: ath12k: add GENERIC_MSI_IRQ dependency
          
