@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Fri, 13 Nov 2026 17:33:28 -0000
-Message-Id: <179459120833.1271852.2047295088057891477@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Fri, 13 Nov 2026 17:37:52 -0000
+Message-Id: <179459147219.1275220.12183314422621436911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 18f2d01bfce99a885511c451cba95234eea190bc
-    new: ad3fc05c7e65009355effeea06aa629a687acef2
+  - ref: refs/heads/fixes
+    old: 89625a08484d9f671ad76c7ec7c345edad301885
+    new: 8b2e3ed31c3de15e8049f533956f6588b93c6a3a
     log: |
-         5306f124f3171289b2ef5bac1e08aad175f66d1e arm64: ptrace: don't warn on missing siginfo in a group-stop
-         ad3fc05c7e65009355effeea06aa629a687acef2 arm64: suspend: Only track cpuidle context for idle tasks
-         
-  - ref: refs/heads/for-next/fixes
-    old: 18f2d01bfce99a885511c451cba95234eea190bc
-    new: ad3fc05c7e65009355effeea06aa629a687acef2
-    log: |
-         5306f124f3171289b2ef5bac1e08aad175f66d1e arm64: ptrace: don't warn on missing siginfo in a group-stop
-         ad3fc05c7e65009355effeea06aa629a687acef2 arm64: suspend: Only track cpuidle context for idle tasks
+         8b2e3ed31c3de15e8049f533956f6588b93c6a3a pmdomain: rockchip: Manage the RK3576 GPU domain supply
          
