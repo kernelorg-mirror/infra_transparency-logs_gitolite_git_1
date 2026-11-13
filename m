@@ -1,36 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8665105644945837719=="
+Content-Type: multipart/mixed; boundary="===============0994305253770605053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Fri, 13 Nov 2026 19:42:32 -0000
-Message-Id: <179459895223.1372656.7366639903277456219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Fri, 13 Nov 2026 19:43:23 -0000
+Message-Id: <179459900336.1373069.4556927930680410728@gitolite.kernel.org>
 
---===============8665105644945837719==
+--===============0994305253770605053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/master
-    old: 8d3ae59288f1e7d58d76558a6ee96d533bc5019f
-    new: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
-    log: revlist-8d3ae59288f1-7475ea8b5861.txt
+  - ref: refs/heads/devfreq-next
+    old: 9a222650d9e70d0027126e4df5b00b1b5b678a97
+    new: 4ce2caf3d7358f8359f222dee6af75cc20a05095
+    log: revlist-9a222650d9e7-4ce2caf3d735.txt
 
---===============8665105644945837719==
+--===============0994305253770605053==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8d3ae59288f1-7475ea8b5861.txt
+Content-Disposition: attachment; filename=revlist-9a222650d9e7-4ce2caf3d735.txt
 
-1c8b49851543f41fc8bb18bcd1f15cc93d14b530 io_uring/timeout: count cancelled timeouts in cq_timeouts
-db2c610df81e34d497f49b68a0a1681c3f203bdb eth: bnxt: recycle agg buffers when Rx head buffer allocation fails
-09f10efee6f93863ea71489ce84563f4d51787f6 eth: bnxt: resize Rx head buffers when rx-copybreak changes
-1b2f02fb4ba92d01603c8261c94be8d348de65b0 eth: bnxt: don't leak buffers when XDP agg buffer allocation fails
-c10f3420d59859df107838aa97b49357616d9b47 eth: bnxt: free XDP frags when xdp_do_redirect() fails
 364b88b54fc260d22ee318bae862c2d7d8c31dc6 eth: bnxt: hand XDP frags over to the copybreak skb
 3e3aebb7570ccdde5cc49c9bfc8fd3a436b71b0c io_uring/net: fix multishot recv length limit accounting
 59e72644a7e697fdaf3494e8df8af9ab2b2ba31d Merge branch 'eth-bnxt-fix-rx-buffer-leaks-under-oom'
@@ -1050,5 +1045,10 @@ e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.ke
 8a65162514fbad21a2c58ffed65f42b27e92b163 Merge tag 'driver-core-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
+40a9071d951aa70691c7058b4b44b799fc5067ba PM / devfreq: Fix possible null pointer issue in devfreq_add_governor()
+04da6af49e6e5f628c6f06c4ee58736bbbfcdfdf PM / devfreq: Fix available_governors_show() when no governor is set
+953d46a457e4e246f836c0efcbbe1687805d8acc PM / devfreq: Optimize error return value of governor_show()
+09d77df766c9f48fa98909cae87291e6467248bb PM / devfreq: event: rockchip-dfi: Fix missing clk_disable_unprepare() on error
+4ce2caf3d7358f8359f222dee6af75cc20a05095 PM / devfreq: Fix governor_store() failing when device has no current governor
 
---===============8665105644945837719==--
+--===============0994305253770605053==--
