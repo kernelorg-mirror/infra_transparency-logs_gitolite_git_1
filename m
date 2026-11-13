@@ -1,84 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============8273000178321918977=="
+Content-Type: multipart/mixed; boundary="===============3034548440519054800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
-Date: Fri, 13 Nov 2026 12:42:18 -0000
-Message-Id: <179457373834.968682.13822115627821313009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Fri, 13 Nov 2026 12:45:59 -0000
+Message-Id: <179457395993.971806.2581027980150008818@gitolite.kernel.org>
 
---===============8273000178321918977==
+--===============3034548440519054800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfsprogs-dev
-user: aalbersh
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+user: herbert
 changes:
-  - ref: refs/heads/for-next
-    old: 1c122bbd3c88d89695d3b60c1070d87073d56121
-    new: e02d0a8efd81d454481641c9bd5680b5febb1261
-    log: |
-         e02d0a8efd81d454481641c9bd5680b5febb1261 xfsprogs: Release v7.3.0
-         
   - ref: refs/heads/master
-    old: e504b62bf91cb5ed9308567bb47d34afc8428311
-    new: e02d0a8efd81d454481641c9bd5680b5febb1261
-    log: revlist-e504b62bf91c-e02d0a8efd81.txt
-  - ref: refs/tags/v7.3.0
-    old: 0000000000000000000000000000000000000000
-    new: 05765e761cbb73779e9dce869fdec4cba1646093
+    old: fd29be9b992511ff68d8a9c6f8a505d801e9f775
+    new: 8ba9044ff0bf4a5789216496019fad614eeafd45
+    log: revlist-fd29be9b9925-8ba9044ff0bf.txt
 
---===============8273000178321918977==
+--===============3034548440519054800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e504b62bf91c-e02d0a8efd81.txt
+Content-Disposition: attachment; filename=revlist-fd29be9b9925-8ba9044ff0bf.txt
 
-ea42938abb7aabeb2b589738a1f4cf611926f4b7 mkfs: add config file for the 2026 LTS kernel
-a0b95a9876084d404c36d6f9366de09c27d97c36 mkfs: enable metadata directory trees by default
-83b41647a724a33133c66f937423f1c24f804518 tools: add a new script to generate fixes tags
-850cb9654f6aba77f7d6a41116f9c990dbc6bef5 xfs_db: read a shortform parent pointer's value after its name
-1c042af146e6b94e43a16f6645e05b6c2ab4b299 libxfs: remove stale xfs_trans_mod_sb() declaration
-b9a16b80f60dff9d30e2719b13da88e4730d7238 xfs: add xfs_metadir_create_file helper
-817b0d825073a7935ecc9c1d97c3c72f5157fb49 xfs: create quota metadir inodes using xfs_metadir_create_file
-d7890cb8656d8b5e20be8e44ccf4b9034fdcb367 xfs: create rtgroup metadir inodes using xfs_metadir_create_file
-377dc7ef91abf832c60cd2f3f05d5839ac2f1d21 xfs: mark internal metadir file creation helpers static
-6beb86682dc703264cdf879308d5a1e7e923f750 xfs: use kmalloc_objs() instead of kmalloc() in xfs_da_grow_inode_int
-80018a28a8773b49be321fa2d4fdb009368fb4f4 xfs: remove spurious XBF_DONE clearing on readahead validation failure
-180a2e434c1235daa8a0c397101390d317180874 xfs: hide b_flags manipulation from code outside of xfs_buf.c
-6789f05429a37c2a837f7772499e103646c5db8c xfs: validate attr entry pointer before field access
-6166ba6451de08396d22c94264c1c30456e77dc8 xfs: don't hold buffer locks across sync transaction commit in xfs_sync_sb_buf
-577eccc58bd8618c4d9ff14a637c7f79d0074452 treewide: refresh kmalloc_obj() conversions
-b7365c4b67a352739b5c4015811dd9c3d49cdcab xfs: fix exchange-range reflink flag clearing issue with INO1_WRITTEN
-0a5e07e1a1adff472944752ffd1b591675a938bb xfs: initialise error in xfs_defer_finish_one()
-474b14a4cd527fd912ea8167c62c9ae138938c3d xfs: give the deferred barrier op type a name
-673000170fbc20b94f075701ab228e34fcc741a9 xfs: report the error that made deferred work shut down the fs
-7c1efc4e8ea6ec2f0fdf5d5408791e9970a3ab34 xfs: correct the parent pointer space reservation comment
-ee39c700588aaa9a1a34ac02a94b68561bd39582 xfs: initialise args->total for parent pointer updates
-5405a44f484a54e7dfd14382daeb15684c536c0b xfs: assert the reservation covers each da fork growth
-65ae0151999de663ef9e48c244eb53c5d62c3a61 xfs: fix the rtrmap and rtrefcount _maxlevels_ondisk functions
-5a1354e6af1c866ae3c81c2001e7956054643a31 xfs: fix xfs_rtrmapbt_mem_cursor for non-rmap filesystems
-f119fbadba2bef91e8b4bafd2d5a098dbaa7ca7b xfs: preserve owner on in-memory btree creation
-0442536d62fc4d465b026cf703a7de6edcc83637 xfs: don't leak new_bp if xfs_btree_bload_drop_buf fails
-d7a3896a4e61ae7dfad28b34753c6eb46863ba20 xfs: fix under-reservation of blocks when repairing sf directories
-17fe3cd5718cb0b4ced22e4c4c2af113e3cabc6d xfs: remove duplicate INO1_WRITTEN check
-07ff777ef47a924663b5cf0a6a46b272bb0d6875 xfs: fix typos and repeated words in comments
-2072b93c7e07caa1a88b6fd468e3842ccef42fe7 xfs: don't let hidden_space go negative in xfs_metafile_resv_init
-82fdb617af2399655c7693367f9bd19122fdb4e7 xfs: fix wild memcpy access when formatting ondisk rtrefcount btree roots
-e923094ba9c19141ab83a0b10ce9158d1729771a xfs: stop exchanging reflink flags when exchanging mappings
-5815674fbe350bb87bc28d97af781776e288c1f6 xfs: fix exchange-range-to-eof file size exchange
-5085dca9f68d47a04f95ff48e18f7a9b05b6291b libfrog: constify getprnam
-63b7ae1b61a8b64b9c046a63d5b209f4d104e050 libfrog: constify cvt*
-6f8bef3a2c5f9a6e3c453c619db4b0007d9d4d77 db: constify construct_records_per_block
-859beedfa796861b6e20a9d415b6693dd5f9eed7 repair: remove the unused queues_started variable in do_inode_prefetch
-b62bd03a6d1bf695aa2b65dd364483a350d343ec stubs: use the i paramter to trace_xfs_trans_resv_calc_minlogsize
-5ad4d0812a3c3b42b71b2e969951ec85b2d32e09 platform: use the iomap_flags argument to xfs_bmbt_to_iomap
-2ee6bbe82c0f66ccb932ac66cc6aad02dd2a2370 stubs: use more arguments to xfs_extent_busy_insert
-c50fa8510ac1754e62fc1e246bfd73df703a6360 xfs: fix two warnings in xfs_alloc.c
-7ebfc20eb88e65757aea9c06c4523e412d8ed4da xfsprogs: add gcc generated stack usage files to gitignore
-1688728b6c90d960d568cde84e208f10b9dfa89c libxfs: capture error return of cache_node_allocate()
-1c122bbd3c88d89695d3b60c1070d87073d56121 xfs_admin: remove eval use
-e02d0a8efd81d454481641c9bd5680b5febb1261 xfsprogs: Release v7.3.0
+586bb47ed88688650513667e81ab6b04dc26f410 crypto: asymmetric_keys - fix integer underflow in pefile_strip_sig_wrapper
+583044f1e93a9f263890748560522d5d857111bc crypto: drivers - use dmaengine_desc_set_callback()
+66a1fab20c805f68230a26f18f392226f4fa70ab rhashtable: add missing members, remove excess ones from kdoc
+a34bb13d9a919a2add016f7ccf7ef14e8ba48a6d crypto: ixp4xx - Free the fallback cipher if context initialization fails
+e2dcc176e5edac50d2450bb81fd83c856286529a crypto: chcr - Free fallback transforms when device assignment fails
+c2ed05843be73ac7e60fba3e499ae7e7abfa8d42 crypto: safexcel - Unwind SHA3 initialization if HMAC setup fails
+8f6778b4a29113af26b24cb7098a15ad9075ed5d crypto: octeontx2 - Unwind allocations when AEAD initialization fails
+8b8d2d7b5172a6cacaa8aab1b11ea7a8f61a5d6a dt-bindings: rng: starfive,jh7110-trng: add jhb100, drop jh8100
+9c3bcc465d1c48ea51f4f9a11fad119d8c2eacc5 hwrng: starfive - fix runtime PM and power teardown handling
+cd2ee0176fc87603334ad784496c2c1822b4b3fd hwrng: starfive - move the SEU reseed out of the interrupt handler
+de5aafa40f37f88ca14e8575097e4d8f66c09a50 hwrng: starfive - tidy up includes and drop unused code
+a573dc19dae30b8e81a6f77f3b7da10a0fc0b098 hwrng: starfive - add JHB100 support
+13d31ea358ececac6d8b5e7c5d0a7be0fb0c6b02 MAINTAINERS: update the StarFive TRNG driver maintainer
+9aed9e29eb5e90c4829f14f69f8b7f9bdeeb6dab crypto: chelsio - Balance inflight count on invalid RFC4106 AAD length
+277b0dae660c36083ed9da3a9ecbffc9f58e9917 hwrng: virtio - simplify probe_common()
+818d9c68529b14f4a09b82b4f6857267348fa708 hwrng: virtio - simplify virtrng_restore()
+ce486b7c5024fd4801065a91c75a779756fc3b59 crypto: ccp - Bump minimum firmware version for SEV-SNP support
+bbb626236fe443311ad425a2c8672716e0d9068d crypto: ccp - Drop support for SNP without INIT_EX
+98649858f6c5ad8171820023d8017f4aa2b3aec4 crypto: sa2ul - remove redundant 0x prefixes
+4d6f25c2e74e893f4592b3c0e28df743c7224d93 crypto: sa2ul - remove dead code
+817eb778fe8fad3b2b37e10a17de0e15e66cd965 crypto: sa2ul - remove totally unused structure fields
+2b296876055aa1ed7058be247a3e173acdddb3d4 crypto: sa2ul - remove unused fields from sa_cmdl_cfg
+d12bcdee4c2db9c0171825993349f2b9457a0a56 crypto: sa2ul - remove unused context fields
+6ec36d012836ddd78084d2d5c0b03372df34ae82 crypto: sa2ul - remove unused macro definitions
+349c9bda8d8a29f2d8fb4e3264343d991b131bad crypto: sa2ul - remove unused base register pointer
+7675d1473066fafe0ab6aa290af0d9e227127e92 crypto: qat - avoid double free of authentication descriptor
+458b1958c84bf08635d1a035f5049173be4b72f8 hwrng: histb - fix read timeout
+d93ca86a49478a7b0e06a1e2bb6091c5db7f72f0 hwrng: histb - use device messages
+79d5fee2c3b6ee5f7c4fe8aa2d79b0f5eee83111 hwrng: virtio - fix copy_data() handling of partial reads
+5e45c3caf22d079971e17932fd7e18334f422ce1 crypto: algif_aead - Allow gcm(aes) for privileged users
+10f016857304075d450e86fa9ac7e80f626f1db5 crypto: chelsio - Fix wrcount leak in AES encrypt and decrypt
+8ba9044ff0bf4a5789216496019fad614eeafd45 crypto: stdrng - Mitigate FIPS RNG failures
 
---===============8273000178321918977==--
+--===============3034548440519054800==--
