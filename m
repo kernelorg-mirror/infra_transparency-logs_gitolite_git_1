@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 13 Nov 2026 12:15:12 -0000
-Message-Id: <179457211236.949221.14477587573467014463@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Fri, 13 Nov 2026 12:33:16 -0000
+Message-Id: <179457319691.961385.16954868165047505704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/main
-    old: 286e9e6c952493e36310a054ff2a0327ab8108a7
-    new: 1399ab86b447b949e71ae9858fbc8f942b7bff4c
+  - ref: refs/heads/ntfs-next
+    old: b025f526c5d04929212c9d5fb7ffc96608f3eacc
+    new: a111a445f9971fe3b9db71d4ad10d978240e2726
     log: |
-         fbe464905aa86d4c40605bd016d6799fede15f20 qcom: add SOCCP firmware for nord platform
-         1399ab86b447b949e71ae9858fbc8f942b7bff4c Merge branch 'soccp-fw-nord' into 'main'
+         a111a445f9971fe3b9db71d4ad10d978240e2726 ntfs: don't let a fatal signal interrupt metadata reads
          
