@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Fri, 13 Nov 2026 09:57:03 -0000
-Message-Id: <179456382309.855984.7800105884352117680@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
+Date: Fri, 13 Nov 2026 09:58:14 -0000
+Message-Id: <179456389499.856497.4782226264985315883@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
-user: linusw
+repo: pub/scm/linux/kernel/git/jack/linux-fs
+user: jack
 changes:
-  - ref: refs/heads/b4/ux500-musb-bindings
-    old: 0000000000000000000000000000000000000000
-    new: b8067b3b9bdbb04e27e30e802583bd60b0f050e2
+  - ref: refs/heads/for_next
+    old: 743a94f58872c26fe63019bbc4cd3ed6be218903
+    new: 08b2c5a097dab38c6441ceccb72c3ad3fb89d89d
+    log: |
+         08b2c5a097dab38c6441ceccb72c3ad3fb89d89d udf: fix udf_readdir() to not loop on corrupted entry
+         
