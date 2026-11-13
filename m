@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6527260576775821580=="
+Content-Type: multipart/mixed; boundary="===============8835819249406478662=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 13 Nov 2026 01:12:56 -0000
-Message-Id: <179453237620.482745.9401380693229600335@gitolite.kernel.org>
+Date: Fri, 13 Nov 2026 01:13:00 -0000
+Message-Id: <179453238002.482900.10460771689548023026@gitolite.kernel.org>
 
---===============6527260576775821580==
+--===============8835819249406478662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,71 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary
-    old: 8e5923b1bd062d3512f28c957c940fd10d45e50b
-    new: f49804fcf59e7f3e9fd956a0ba2f2d93b51fa1e1
-    log: revlist-8e5923b1bd06-f49804fcf59e.txt
+  - ref: refs/heads/kernel-7.3/nfs-and-nfsd-performance-canary
+    old: 92a70a8f9a03ba6406c75913ac8bda48561b6f1d
+    new: 08d52fdde4bf79f9bdad4315ebcafa3a34a99c8d
+    log: revlist-92a70a8f9a03-08d52fdde4bf.txt
 
---===============6527260576775821580==
+--===============8835819249406478662==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e5923b1bd06-f49804fcf59e.txt
+Content-Disposition: attachment; filename=revlist-92a70a8f9a03-08d52fdde4bf.txt
 
-6320c8bb03468183db0c94b7b4371a6cc92b4e1f Merge branch 'kernel-7.3/snitzer-nfs-fixes-canary' into kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO base
-acc5fc9cfc305b5d33647e800e18d5f9caced0d2 Merge branch 'kernel-7.3/nfsd-testing-canary-dontcache-LOCALIO' into kernel-7.3/nfs-testing-canary-reduce-i_lock-contention-LOCALIO
-6c58829d99b6967d982d4e0ad04f704427abff1f mm: move clearing the dropbehind flag of a found folio into a helper
-ebeade6cf16f1c6faed87d2928e56cf80785f893 mm: take a folio off WB_DONTCACHE_DIRTY only if it was counted there
-626132993bf287cfdbd2410ccc9e8f937d841d1d NFSD: Refuse a direct READ whose aligned range exceeds the reply pages
-e5af9df7d080d3455706c73d0037b5a97954405f mm: expose WB_DONTCACHE_DIRTY in bdi debugfs stats
-59b9c7558dea832bc07034dca5c8d2f497ef12a5 mm: add folio_mark_dropbehind() to mark a folio dropbehind and account it
-e7fe2fae398e23657f4fa509a389a14642b6a476 mm, iomap: keep a partially covered page until a DONTCACHE write completes it
-f78de07c08b54ea945d0cb6f7b38e97be6672b46 mm, iomap: let a DONTCACHE writer complete its shared pages itself
-7196b9515d3973a114ab6af818209e33b3c49494 NFSD: drop a shared boundary page only once both WRITEs have written it
-8c2abe4089defa6cfa797bb5db5f9506d38c936d SUNRPC: Make rpciod and xprtiod visible in sysfs
-1b9af79d9f16fd70dfe00cd274bc6c2a860a0875 SUNRPC: Splice a request's pages into the TCP socket
-becdd153ae3f2abe22ca9d288513b0c83eb47486 NFSv4/pnfs: Give the data server cache its own reference
-51d590a8512937383d170e3b2505b7bc26354384 NFSv4/pnfs: Let unused data server connections linger
-b59dd8181b211672ace40faadc9ef7e98fb2fec8 nfs4.2: add UNCACHEABLE_DIRENT_METADATA attribute support
-ee25e4151ef5c19272d0a778c38f6d78c6f81e90 nfs4.2: request UNCACHEABLE_DIRENT_METADATA only for directories
-1cd55cb0cb0a58168bc308451aaf59bb6c0032d0 nfs4.2: honor UNCACHEABLE_DIRENT_METADATA by refetching readdir
-333bd993f24e7fa29228e8c5d4b0322288e7ec55 NFSv4/flexfiles: move layoutstats accounting to a per-stripe lock
-37a3b380c9980ea767a55b28aa644b084160c37f NFSv4/flexfiles: drop the now-unused per-mirror lock
-2676fc6a41a6ad84ac8f87f66b80dacae65d176f NFSv4/flexfiles: cacheline align the per-stripe layoutstats
-229e976bad51f16c6cd89d12630cb59be528c38e NFSv4/flexfiles: make dss_info->start_time write-once
-d39b9c7e6264a52f6eebecbf78c6cabcf6570d44 NFSv4/flexfiles: drop the redundant atomic from the busy timer
-980dc46c57629a515d759d022d509cb167a8094b NFSv4/flexfiles: pair the in-flight count with the layoutstats updates
-c85882fdfd9ec8330bd8c49437bb12d9fc0c75cc NFSv4/flexfiles: derive ffil_ops_requested rather than storing it
-62e1580eb7f046eaf09e98058c1333a64eada7a9 NFSv4/flexfiles: give each direction its own lock and cacheline
-b2153a8720135be344fd3eef7c4b912e69e2d37a NFSv4/flexfiles: drop NFS4_FF_MIRROR_STAT_AVAIL
-403fc5ceabfacad3466a540cdb0bbdad9d17c28a NFSv4/flexfiles: rotate LAYOUTSTATS reporting across a mirror's stripes
-d383ab4eeeff784a3b38985c5e496318752e7693 NFSv4/flexfiles: take the report decision out of the critical section
-b14849aec8d5e4f7f7a19e2feeb3c625754f9f8f NFSv4/flexfiles: share one helper for the start of a read and a write
-72ca1d44339f56c49ca06c29b99c0870bd0a9c11 NFS: don't take inode->i_lock twice per direct I/O for the opening owner
-ee5e691171ad77313c47702c1b917a4ab5fb909f NFS: take inode->i_lock in O_DIRECT write completion only when needed
-3f2672cc7c453fe7e2dd1f94df45b4f916c848fb NFS: skip inode->i_lock for WRITE replies that cannot change the inode
-1ef3317d4a09220bfaa23380006f4e97a3ee8273 NFS: don't take inode->i_lock to re-mark a stale atime
-b421c8e23a3cd5f2b825d76b49004035b2ac0971 NFS: check for a delegated atime before taking inode->i_lock
-8e26a56f3f434ea9d0ac5a5d34d266dcbef8e09d NFS: skip inode->i_lock when a delegated timestamp is already current
-3d85c9f3bbceaa798d3795084527f432c687b878 pNFS/flexfiles: don't take inode->i_lock to release empty commit info
-0920749afcb090b195484b85f8ecd9d9f3e53504 pNFS/flexfiles: look up the cached layout segment without inode->i_lock
-7445c70607f3834910c66ca0e255db081a79615b pNFS/flexfiles: don't dirty the layout segment on every data server RPC
-d8f7866329418cde38bda1d18786de76c7da5ec6 NFS: only account read_io/write_io when an I/O mdsthreshold is in use
-32faf45611a7d610ca67ca954f863468d2e72b92 NFS: finish stable O_DIRECT writes without the nfsiod round trip
-d398df1554edd7abfe538c77cad17e2e62f3945c NFS: admit O_DIRECT I/O without taking inode->i_rwsem
-a65ed79be673e3d9ac630379fe613516549890ad pNFS/flexfiles: give the read-mostly layout segment fields their own cacheline
-bf6843af334d0a90a817a495db668f2dd399aac4 xprtrdma: Allow reclaim when allocating a transport's initial requests
-4942afd15ae149c1e13cb512fd179c3d9f155e67 pNFS/flexfiles: bound data server RPCs with pg_bsize instead of a per-page test
-13d759fe25d5ede035379280fa99e60cc180a502 SUNRPC: Do not abandon the remaining nconnect transports after one fails
-1bceadd8f77698f71963169d30e1110760d73f08 pNFS: hand the page I/O descriptor's layout segment reference to the header
-3c6367330f9dc29a0c21ad105bbebf384d14e36c pNFS: Report a data server left on a non-preferred transport
-a5d34e6948677ce6559b78a23e839092a05d274d xprtrdma: do not clamp the FRWR depth below one chunk
-accb714100f07482448553daecdda6bfc07bc13e nfs/localio: remove the localio_O_DIRECT_semantics documentation
-e8472912b25de63c8ebce456ca6be75b74b395ac NFS: invalidate LOCALIO direct-write post-op attributes at completion
-ecd58cb26033b6776033e84e104ca466937fd450 nfs_common: share direct I/O write split and boundary-page helpers
-206acb48293159ffd0e2d10502a04e210218bce6 nfs_common: share the rule for persisting a split direct write once
-3b6cbd020bc624b8583f5cfb07aa1cd902139cff NFS/localio: split direct writes using NFSD provided nfs_common code
-571831d4e189d2fee777313909448f3c67c3385d NFS/localio: persist a synchronous direct write once, after all its segments
 0afab95d14057a512994388beb60e19f50048c2e nfs_common: fix the skip accounting in nfs_dio_iter_aligned()
 b8f7895120ec0cc5a088313287d226316a31ea9a NFS/localio: complete a direct write that shares a page before it returns
 61b26713c029755b4fdab783b50e2f2b50ee17d7 kernel-7.3.3-16
@@ -1033,5 +979,76 @@ dc83a5ac63268e297d180c86f6481bfffb1a9f5f NFSD_TCP_WRITE_ZEROCOPY: FLAMEGRAPH rou
 5fe1fe8dc2afca337eb3d7b7f515b83f563cc268 NFSD_TCP_WRITE_ZEROCOPY: xeu-rig: round 61 done, where it ended
 c8697d5a7a76d201160fa3d5b290b2256270738b AGENTS.md: the series regrouped and on v7.3-11
 f49804fcf59e7f3e9fd956a0ba2f2d93b51fa1e1 NFS/localio: cache the segment boundary for NOWAIT direct I/O
+b6a41565086831b94e49d1eab307ef27a1f1c5b0 iomap: trace a queued simple direct read at the iterator's position
+d1ea6a2aeac37c24087c3cceb642f8f8b770ed5f treewide: annotate shared-state accesses for KCSAN (optional)
+4c701fcc3a25961cee510037541699823d46752c nfsd: write a direct WRITE segment buffered after a geometry refusal
+ca725a702d09a74ea5b574d442851504acc4153b nfsd, iomap, btrfs: KUnit access for the direct I/O geometry tests
+e056db266b66e81b0c3eb2c1d0741cf5adec894a nfsd: KUnit tests for the direct I/O geometry refusal
+c3494a6cce435d41c9089d3dd9071c6ff6989a40 iomap: keep REQ_NOWAIT on direct reads only when one request fits
+419d7f8b100d13a44bcdea72c39cb962981b43bb iomap: KUnit tests for REQ_NOWAIT on direct reads
+b5f5262e2f24f6279a170ab1146dd2dfafce28d8 NFSD: interlock the use of NFSD_IO_DIRECT for NFS READ and WRITE
+2f3026f391bcc0643975049b2e1adcbc5aa0372b page_pool, sunrpc: split a read partition off the rx region; direction-neutral credit
+a73c5bdf58a64b1c16c62cf154800b0ed8a5599a sunrpc: KUnit tests for the read pool, the write-partition budget limit and the rx region exports
+9c7ee2c7f33b7171833c7724caaa9e41f5ca55cc nfsd: commit metadata after dropping the directory locks
+acfd1be8480aebc2b774fbef5d9bd2423496cc49 nfsd: NFSv3 UNCHECKED create truncates an existing file unlocked
+7003eb2f03ccb2052749c60c0a9379ebc72688ba nfsd: bounce a loaned WRITE the device cannot take direct, on the region budget
+7e3b9c770c2b21c8d927592a4262136772e6895e nfsd, sunrpc: KUnit tests for the direct-write bounce
+c986b4ace5f5626063475e6480edc8e0fa0cba11 SUNRPC: fit TCP receive loan tables to 9000-byte MTU frames
+56482802957877a8afe9fe34905ff598b2c67f9a SUNRPC: KUnit for the fitted TCP receive loan tables
+2d908b0e2dc60c726f9f4feea726ab7ddf02039a sunrpc: READ region-confinement hooks
+692c3906a14c70acbfffcda68e08090375dabfac sunrpc: KUnit for NFSD READ region confinement
+73363f74a144116b6b0090efe4a798d12b4f9fe8 page_pool, sunrpc: per-CPU region caches, shards, bounded pools, credit stocks
+25998a97b2cacaaa88956bff7520e214ff3772ce page_pool, sunrpc: KUnit for region caches, shards, pools and credit stocks
+090d2ae5bd325f041cf016a07badc46e47781927 kernel: hold the nfsd listener to the region receive window
+f1fc2b1c481cd8b954626073e83527a0c962a7bc hammerspace: private extensions (O_NOMODE, mkdirat2, NFS client/server)
+e6821dae1501bc22df543a5328927a494ee5253d kallsyms: return the truncated length for an overlong module symbol
+9f25eee7b036745afdef9bb7654989fb88f7c873 sunrpc: select PAGE_POOL for the svcsock KUnit test
+4ae3b1029cbde369d5a7a060b48d12e1ba4109f8 net: rx_loan: move the receive page-loan machinery out of sunrpc
+990e699092959f1f5b28f39acbf7df196c928b89 nfs/localio: pass kernel bvec fragments through direct I/O and count every copy
+6b5a0fc358b5a035be86b572a534db9dfa85aa0a net: rx_loan: computed region size, netns budgets and consumer shares
+334ea04bd37185415e5c42cd350e9fa5163165fe NFS: NOWAIT direct write over RPC defers request build and issue to a workqueue
+6a6f5f0e260e91f44c1dc5acea0abea9327c1c4f net: rx_loan: restore the receive region's module parameters
+2d9aea9e5590517ef1373e43dae7f2d7791ecb3d net: rx_loan: say the receive region is off by default, and pin it
+7661739461aab20c54a0d94a4857548893d93d35 NFS: allow nconnect up to 128
+0dc17780644c011c06373bfbdd3b02cbb2940f0a nvmet: lend bvec data, early write release, NOWAIT direct reads
+2464b0d42380a738cfb753113f4126f9abe4da2b SUNRPC: per-cpu svc pools, sibling wake and steal, adaptive idle spin
+eaaa6f347dc3a2d8d98a988812770afc1cb33276 SUNRPC: KUnit for per-cpu svc pools, sibling wake and steal, idle spin
+04a0652d5693c76db3303137c3a0dc0a48b5d6bb net: rx_loan: lift tile, holds and per-consumer copies from sunrpc
+daa7cf7e09a18a5140ca9fec24583ccc1e2e53da nvmet-tcp: receive WRITE data into rx region loans
+964336879f7a65ebfb66760d42838d6104325e51 nvmet: take lent bvec segments aligned only as the device needs
+c75fbe74f5fa5707bf2039785ab3ff03c4914069 nvmet-tcp: bounce a locked head's bytes instead of copying the record
+3a422981a18e09af4ddd547068a48631af7a4825 nfsd: read buffered when the direct READ window would pass OFFSET_MAX
+553b1399c8a9c2585edd7c8eb314bb715fcaa6d3 nfsd: KUnit tests for the direct READ window near OFFSET_MAX
+39336e0dbb7b7f7781ad23a9b1d38fb0f025fbf1 nvmet-tcp: bind each port to the network namespace that enables it
+2915ec52fb3f33170f2788f82c918339cfd7fe32 sunrpc: per-connection run-to-completion work item
+d51f7b8ba5462ff28c7731edea660a88adb32886 sunrpc: KUnit tests for the run-to-completion work item
+2372a16b60b3c0cc8acea1de87a771f64c73b1d2 sunrpc, nfsd: run-to-completion NFSv3 READ fast path
+6ab3f76272531c8f43d1874da020681655085950 sunrpc: KUnit tests for the run-to-completion READ fast path
+de0de27e6ad13eef5cc6698db2ec212d48f884e1 nfsd: run-to-completion NFSv3 WRITE
+b91053b5af17613eec2bacab8d8f890d7ce84ab2 sunrpc: KUnit test that svc_rtc publishes only when pinned
+e183cb54a1ca526a8aac1c798354488ca160beda nfsd/sunrpc: run-to-completion NFSv3 READ/WRITE: count every partial NOWAIT outcome as a fallback, try freeze protection, NOWAIT reply-cache allocations
+61a6b160701a9c95cb138fa96c8d7c788da3a64b nfsd: run-to-completion NFSv3 WRITE: reply-cache buffer at lookup, fsnotify for whole writes only, KUnit cleanup
+5555163d661a03f82fea494a2c6fdb0921f213a7 SUNRPC: give each CPU its own transport under nconnect
+d0e01eeeebd405035dafc50099d34aeb20b177f8 workqueue: hand a retiring unbound nr_active count to its own pwq
+ba5642ee4cac24d12e5ff5bdaf5d0d0659460db0 SUNRPC: hand a sent task from sending to pending without a requeue
+50eee8803afc5cf788b2a1301cb0984d21dae93c SUNRPC: let NFS pgio and commit run the first RPC leg in the caller
+7fb462a892efb9a8c9976617a7dd5dcdca03c4b7 nfsd: register the rtc NFSv3 READ hook at every service creation
+607bbc2f131aa97a038450bb85a0b347b790fb29 nfsd: build the run-to-completion KUnit suite into nfsd
+81de5758875d2da14d93ad8fbc281c780eea4266 nfsd: keep stable WRITEs off the run-to-completion path
+a929c954c6f02c16c039f80d65a7400578cfde6d sunrpc: size the rtc rqst pool from parked async calls
+ccaaf769083fed3dea4731935dd55f908c73fca4 SUNRPC: make rpciod a per-CPU workqueue
+b4440d97d6303120fdc0584080f55684c8917cf3 workqueue: make the unbound nr_active local hand-off unconditional
+0c1d2660fd3cba256d4e83ebb76a75840c32e5b8 nfsd: size the rtc KUnit service in pages
+ba8bf72c122cce5e9f1fcbf4bbfb003b7b74a622 nfsd: size the rtc KUnit sync-hit READ in pages
+6db0c38527abe823e8c48e8b33431a6c5188a111 sunrpc: run each connection's rtc work off the NIC receive CPUs
+f9d89bfb57c3606a7a58c4d546593a2f0eda6857 sunrpc: KUnit tests for svc_rtc work placement
+6f3d76bcdce5aa9215dccc5a6bc9f4affb412ee4 sunrpc: re-kick the rtc work when sendq refills past the send budget
+aa4297a0999a71edd57aca4a9823623fb7cb680c sunrpc: flat-combine svc TCP reply sends
+ae24cc81bcd3e323708917db1667a548693249d4 kernel: hold nfsd listeners to the first window only
+fbcdf8dd44cbf0e5e76845653530ef795ce1f568 sunrpc: cache: don't renegate a valid entry when the upcall has no listener
+89a3792597d7eacc6e25a004fa74ea622b3152ca sunrpc: per-CPU free lists and per-CPU active count for the run-to-completion pool
+b8d5a66cf0efcfa540855aa400b8f3363d33bfe6 nfsd: switch NFSv3 READ and WRITE run-to-completion per direction
+930d007bea1ff4b25c8e583464d2f30011c41971 nfs/localio: split on a real file in the copy-classification KUnit tests
+08d52fdde4bf79f9bdad4315ebcafa3a34a99c8d configs: enable the hammerspace-7.3-performance Kunit tests
 
---===============6527260576775821580==--
+--===============8835819249406478662==--
