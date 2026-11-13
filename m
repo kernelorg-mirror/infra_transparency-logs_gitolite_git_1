@@ -1,24 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Fri, 13 Nov 2026 09:00:05 -0000
-Message-Id: <179456040508.797819.11742971615863282474@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5691839813888703891=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/page_alloc
+Date: Fri, 13 Nov 2026 09:19:10 -0000
+Message-Id: <179456155024.830080.6471554568735083071@gitolite.kernel.org>
+
+--===============5691839813888703891==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/mm/page_alloc
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/linux-6.12.y-cip
-    old: c8fba740567363d02e64b657c2e6b26d86c5f84d
-    new: dd0482df34d488b569043b7008ac5b7a0b146a86
+  - ref: refs/heads/page_alloc/for-next
+    old: 59b8dc4907fa9b1ebb378410c58d4ddc5576d6f4
+    new: 677dfdfad244a48a0317600768fa95e1494ab740
     log: |
-         3d60613f30d6d041d4c67654d5a6a06d839d46d5 ARM: 9459/1: Disable jump-label on PREEMPT_RT
-         c366651a9c8882f813b949f66249f56fe2246434 ARM: 9423/1: vfp: Provide vfp_state_hold() for VFP locking.
-         c36a5addb4eefa620d6b6f066d2823773ae0827a ARM: 9424/1: vfp: Use vfp_state_hold() in vfp_sync_hwstate().
-         0fee0fb75633287d756b8592d9508538b52d736d ARM: 9425/1: vfp: Use vfp_state_hold() in vfp_support_entry().
-         e4ebcaa6890f5d7c00e0e700000842912250c3fd ARM: 9426/1: vfp: Move sending signals outside of vfp_state_hold()ed section.
-         dd0482df34d488b569043b7008ac5b7a0b146a86 ARM: 9463/1: Allow to enable RT
+         677dfdfad244a48a0317600768fa95e1494ab740 mm/page_alloc: only skip kswapd nodes below their kswapd watermark
          
+
+--===============5691839813888703891==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1794561544 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mm/page_alloc.git
+nonce 1794561544-ad31c0b84698efb933abfbf3d7a9830582c21150
+
+59b8dc4907fa9b1ebb378410c58d4ddc5576d6f4 677dfdfad244a48a0317600768fa95e1494ab740 refs/heads/page_alloc/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmr21ggbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaKqcIAIkCFPt8zEnvxdpVeY34
+7/LffAgAyxcO7XKec8KhIF9I7Fjed8bQ1C93+EnDIGxKZNruKK38XJO+Fzc6BjAS
+18MFc/vNyW7NyQ5ADmC095OheQByVqpxVBHJGGBEBgkyNhfnD7V6g63ZfEsasXb6
+S+N+GGG6u+WELu41xi3SvZ9kr9BWlkrjd26u4QCiCDi5z+N57OMwH0ZVt9LT0pX+
+o3iEAfOToi9sBuOHmuio+ThqmI8USJ477SxfTsYS48ifDglCnjCaE9WuxNjkfcgZ
+XnTzXdyP+jPlqG0paP/F8TFOTft98gMEoqKaN54I41uqBHwLMkV/XZbD1BLv7Ouv
+HYY=
+=JVPW
+-----END PGP SIGNATURE-----
+
+--===============5691839813888703891==--
