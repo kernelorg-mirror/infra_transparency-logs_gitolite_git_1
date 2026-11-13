@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 13 Nov 2026 20:08:24 -0000
-Message-Id: <179460050443.1391628.11237645356089360490@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 13 Nov 2026 20:31:45 -0000
+Message-Id: <179460190561.1408424.17375061923751914523@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/hwmon
-    old: ba94c8bfb72c5971adeb5aae1bffcb6b467e3985
-    new: b5c5b67e02406fb48acf57cf2c30a570230fd6aa
+  - ref: refs/heads/bleeding-edge
+    old: f3eb11a23cfc625784da7c1ea545262cf3264976
+    new: 03176329b3f11ca2298f310a47486a5bd2f13d1d
     log: |
-         fc8519fab34e162b0c29dacccf73031820878917 hwmon: (sy7636a) fix negative temperatures
-         00944852275efd39706fe7b9ce75c28edde983eb hwmon: (pmbus/mp2975) Get vout fault limits dynamically
-         3ae1af2faad93276645d7620261643457daec73b hwmon: (scmi) Enable temperature sensors using their sensor IDs
-         ca1abdd1a9b9ce51713a18c8905bf10579533c3b hwmon: (nct6775) Handle dual use registers
-         a2996d892d0150d059d39c683d95d6fd7a37630a hwmon: (scmi) Check channel config allocation
-         68af85b730f9a9e5f66c96ba861a66da08cfa5a9 hwmon: (scmi) Configure sensors before exposing channels
-         b5c5b67e02406fb48acf57cf2c30a570230fd6aa hwmon: (aht10) Fix update_interval overflow on 64-bit
+         60a9a5f6892954d4ec3630c7b9e607af3cbe0d5d ACPI: Unify acpi_device_id list terminators
+         1528033e71c4c02c0cf83655f1e5d52e757ee7e5 ACPI: Drop unused .driver_data initializers in acpi_device_id arrays
+         7a3eb8c45ff173efb92b36f38d314344e0375cf0 ACPI: Use named initializers for acpi_device_id arrays
+         58d4ba8979133c41cd491dff1dab40626daa924a ACPI: Unify *_device_id list terminators
+         82655ec7de3ecdb2c1937f6b09b5743b4b8ebf2f Merge branch 'acpi-driver' into bleeding-edge
+         03176329b3f11ca2298f310a47486a5bd2f13d1d Merge branches 'acpi-property', 'acpi-pfrut', 'acpi-sysfs' and 'acpi-battery' into bleeding-edge
          
