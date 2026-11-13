@@ -1,46 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5055606686840553008=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 13 Nov 2026 16:01:35 -0000
-Message-Id: <179458569553.1178306.7240301797945087183@gitolite.kernel.org>
-
---===============5055606686840553008==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 13 Nov 2026 16:01:38 -0000
+Message-Id: <179458569883.1178497.9414084574835278116@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/review-ilpo-fixes
-    old: 0e48b9dfd662c73bcba955dc789e5a0eb5fb455e
-    new: d4000e7b99e06e92f21a3c92098a0476d316e9d6
+  - ref: refs/heads/asoc-7.5
+    old: 3da1bf0f4a5a60eedc46c9ce578dadb8a9f78fd3
+    new: 3f22e35fd1e41b6be58a3264f4e80600093f65b4
     log: |
-         d4000e7b99e06e92f21a3c92098a0476d316e9d6 MAINTAINERS: Update Intel SCU driver maintainer
+         0fad8a0a8aec5230f45b295cdee81c9e5294e167 ASoC: amd: acp: add Cirrus SoundWire configs for ACP7.F
+         72b048630d14c0b3f759b7c22d30e8f3c370beb2 ASoC: amd: acp: add SoundWire speaker quirks for Dell platforms
+         e23ffd79d900975d0a308298ffe86bbbb88bbc5c ASoC: soc-acpi: move common SOF topology helpers
+         50bb13ee80fb9a8e5541f136beb329ef54fc96f7 ASoC: amd: acp: add SOF function topology support
+         e8e52a9a8257c2f1343d9aafc5f58979d2b227c2 ASoC: amd: acp: always append the DAI type to SoundWire DAI link names
+         2732ae983737bf384438ab4e7325ce44082072dd ASoC: amd: acp: enable function topologies for ACP7.B and ACP7.F SoundWire
+         3f22e35fd1e41b6be58a3264f4e80600093f65b4 ASoC: amd: acp: ACP7.F SoundWire configs and SOF function topology support
          
-
---===============5055606686840553008==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1794585691 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1794585690-5e7b98b9061457df280bd348e64a8d2c865c0039
-
-0e48b9dfd662c73bcba955dc789e5a0eb5fb455e d4000e7b99e06e92f21a3c92098a0476d316e9d6 refs/heads/review-ilpo-fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCavc0XwAKCRBZrE9hU+XO
-MSLYAP9quMGlYgkLkE+TGmsYcCkT2qcwVQn/hGNJYAqHPkr/mwD/f79bzuZqCNNy
-K5Q3FxsvQmPOZi6O79FOzLpIVjkTIAY=
-=thVE
------END PGP SIGNATURE-----
-
---===============5055606686840553008==--
