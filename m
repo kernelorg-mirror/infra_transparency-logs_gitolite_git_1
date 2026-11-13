@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 13 Nov 2026 18:00:23 -0000
-Message-Id: <179459282376.1294019.11909336259865906448@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 13 Nov 2026 18:01:15 -0000
+Message-Id: <179459287508.1294725.3429637230072299112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-7.5
-    old: 172b8b7eff22057f64a317f3f399c465f54c52be
-    new: 46764ef4de201e0de647bfa35f018d30fd80d3f0
+  - ref: refs/heads/bleeding-edge
+    old: dcf3780a44fdebfe8ab53d90bdf473582f287e70
+    new: b1e7851ec03e20b23211f31b75112404079063d7
     log: |
-         99967afeeffe912b4f052269c2e5a3e41f28e5e8 spi: loongson: Fix incorrect SPI mode caching logic
-         d60a8b838ba766396a33257fd397662f063e2471 spi: loongson: Drop redundant CS deassert in setup()
-         30d93695c3577c4c2fb479673b620d8c19cba2c8 spi: loongson: Make suspend/resume registers PM-specific
-         39a0b497e0db415d12e698bdb759ede5807bb52c spi: loongson: Fix clock rate retrieval on ACPI platforms
-         fdaf557e63c39958a6e007e6b872bcd6b2159a88 spi: loongson: Fix clock divider calculation with explicit table
-         834d129ceef0ce9c19b26178445d4ef466497fd0 spi: loongson: Use bitfield helpers for register access
-         bb8651fab896bb0d483c051e50dc78783c3acebb spi: loongson: Add interrupt mode support
-         46764ef4de201e0de647bfa35f018d30fd80d3f0 spi: loongson: Fixes, cleanup and IRQ support
+         c0ab3714e87a9be951a6e6c089aa58893b1369c0 ACPI: pfr_update: wait for running calls in remove()
+         e788ea48810f0c66ed6e2c6eea7948fd1b20498b ACPI: pfr_telemetry: keep the state until the last file is closed
+         2be15dc30aee0a3ce211de841a5800a55ff6c4b5 Merge branch 'acpi-pfrut' into bleeding-edge
+         3504d8ced9f0ac4c8dcccebdd8b519a287c2bcd2 ACPI: sysfs: Release the table references taken during init
+         b1e7851ec03e20b23211f31b75112404079063d7 Merge branch 'acpi-sysfs' into bleeding-edge
          
