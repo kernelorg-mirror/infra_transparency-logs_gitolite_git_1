@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5969064646164174252=="
+Content-Type: multipart/mixed; boundary="===============2628889743371938749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 13 Nov 2026 21:51:30 -0000
-Message-Id: <179460669020.1525514.6562528698961144302@gitolite.kernel.org>
+Date: Fri, 13 Nov 2026 21:52:22 -0000
+Message-Id: <179460674283.1525924.13949502488587111929@gitolite.kernel.org>
 
---===============5969064646164174252==
+--===============2628889743371938749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/delegts-nfsd
+  - ref: refs/heads/bakeathon
     old: 1314d9040243fcc5ca6b1fa1c671d105d5b0ba29
     new: 7c40b053b0bc257b7a174d7ec1127ab42ef6d9ff
     log: revlist-1314d9040243-7c40b053b0bc.txt
 
---===============5969064646164174252==
+--===============2628889743371938749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -66,4 +66,4 @@ c37f67445827eaf5f4d2a8ffc2440ffdf79f7fa4 nfsd: switch timestamp delegations to t
 a42d387bd57f3c72ee1984e9c42ad2be9b33300a nfsd: overlay delegated times on CB_NOTIFY child attributes
 7c40b053b0bc257b7a174d7ec1127ab42ef6d9ff nfsd: remove dead timestamp delegation code
 
---===============5969064646164174252==--
+--===============2628889743371938749==--
