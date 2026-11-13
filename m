@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1543088218011551582=="
+Content-Type: multipart/mixed; boundary="===============8518209397909817834=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 13 Nov 2026 19:14:07 -0000
-Message-Id: <179459724792.1350416.8652201630252275894@gitolite.kernel.org>
+Date: Fri, 13 Nov 2026 19:14:19 -0000
+Message-Id: <179459725958.1350648.3623939191715925609@gitolite.kernel.org>
 
---===============1543088218011551582==
+--===============8518209397909817834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/200GbE
     old: bbcd02741c4cfbf9e1c59b1906f21ef772bd15eb
     new: ead6fa9a0ab194f02a2f36d634b193e9c5f9a1c6
     log: revlist-bbcd02741c4c-ead6fa9a0ab1.txt
 
---===============1543088218011551582==
+--===============8518209397909817834==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -739,4 +739,4 @@ ad3bee5c582e95754ac483f00dbeed882b9eb5dc bnxt_en: Map HWRM_ERR_CODE_PF_UNAVAILAB
 5ab726ff726b76b12f0594657ca5f49ba74d3241 bnxt_en: Wait for the PF in bnxt_resume()
 ead6fa9a0ab194f02a2f36d634b193e9c5f9a1c6 Merge branch 'bnxt_en-fix-pm-resume-on-vfs'
 
---===============1543088218011551582==--
+--===============8518209397909817834==--
