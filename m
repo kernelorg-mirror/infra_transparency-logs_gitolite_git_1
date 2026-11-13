@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2052245317017329919=="
+Content-Type: multipart/mixed; boundary="===============6282956076256985987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 13 Nov 2026 18:15:03 -0000
-Message-Id: <179459370333.1304651.13131873967499368650@gitolite.kernel.org>
+Date: Fri, 13 Nov 2026 18:15:08 -0000
+Message-Id: <179459370870.1305436.1153654210246190396@gitolite.kernel.org>
 
---===============2052245317017329919==
+--===============6282956076256985987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: eff27e6de9011d1d6e16f51fb717def1a65a046a
     new: d1f4b7c6b997c29de67ad7178ababac2328cb1b4
     log: revlist-eff27e6de901-d1f4b7c6b997.txt
 
---===============2052245317017329919==
+--===============6282956076256985987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ dee3429e94d8089713645706df678ec54a049e13 Merge branch 'nsh-limit-recursion-in-ns
 0ad78e7740d4f6912f16cf1031ca171634f66cfe eth: mpnic: add GSO_PARTIAL for other tunnels
 d1f4b7c6b997c29de67ad7178ababac2328cb1b4 Merge branch 'eth-mpnic-checksum-and-segmentation-offloads'
 
---===============2052245317017329919==--
+--===============6282956076256985987==--
