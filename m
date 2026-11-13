@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 13 Nov 2026 00:05:35 -0000
-Message-Id: <179452833563.426030.6434109846751085575@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Fri, 13 Nov 2026 00:10:33 -0000
+Message-Id: <179452863350.429496.4620909935739434424@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/main
-    old: 7e1392a42ea288d70a266f6553fe06f57f8647ea
-    new: ead6fa9a0ab194f02a2f36d634b193e9c5f9a1c6
+  - ref: refs/heads/todo
+    old: 26a61c2e667a4f57ed9148f97f5d83d96f51b279
+    new: 6ae1299ef655d4b204f9d457651af7a1c4984b26
     log: |
-         ad3bee5c582e95754ac483f00dbeed882b9eb5dc bnxt_en: Map HWRM_ERR_CODE_PF_UNAVAILABLE to -ECOMM
-         5ab726ff726b76b12f0594657ca5f49ba74d3241 bnxt_en: Wait for the PF in bnxt_resume()
-         ead6fa9a0ab194f02a2f36d634b193e9c5f9a1c6 Merge branch 'bnxt_en-fix-pm-resume-on-vfs'
+         cd1ced0d0553830ecd5a0882e0b5aa78f3dc2224 CannedResponses: another entry for "respond to reviews"
+         6ae1299ef655d4b204f9d457651af7a1c4984b26 What's cooking (2026/11 #05)
          
