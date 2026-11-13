@@ -1,62 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============3034548440519054800=="
+Content-Type: multipart/mixed; boundary="===============0908134188860533469=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Fri, 13 Nov 2026 12:45:59 -0000
-Message-Id: <179457395993.971806.2581027980150008818@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Fri, 13 Nov 2026 12:56:29 -0000
+Message-Id: <179457458992.978691.15655474420048004615@gitolite.kernel.org>
 
---===============3034548440519054800==
+--===============0908134188860533469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/rcu/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: fd29be9b992511ff68d8a9c6f8a505d801e9f775
-    new: 8ba9044ff0bf4a5789216496019fad614eeafd45
-    log: revlist-fd29be9b9925-8ba9044ff0bf.txt
+  - ref: refs/heads/next
+    old: 6df25268aba1537a01cc068062eb358f3c262c86
+    new: 302c4841127912360ee5c4be49066ae73061d7d7
+    log: revlist-6df25268aba1-302c48411279.txt
+  - ref: refs/heads/rcu/next-7.5
+    old: 74bd9bf25ba579045750af831e752262adf7c79a
+    new: 0000000000000000000000000000000000000000
 
---===============3034548440519054800==
+--===============0908134188860533469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fd29be9b9925-8ba9044ff0bf.txt
+Content-Disposition: attachment; filename=revlist-6df25268aba1-302c48411279.txt
 
-586bb47ed88688650513667e81ab6b04dc26f410 crypto: asymmetric_keys - fix integer underflow in pefile_strip_sig_wrapper
-583044f1e93a9f263890748560522d5d857111bc crypto: drivers - use dmaengine_desc_set_callback()
-66a1fab20c805f68230a26f18f392226f4fa70ab rhashtable: add missing members, remove excess ones from kdoc
-a34bb13d9a919a2add016f7ccf7ef14e8ba48a6d crypto: ixp4xx - Free the fallback cipher if context initialization fails
-e2dcc176e5edac50d2450bb81fd83c856286529a crypto: chcr - Free fallback transforms when device assignment fails
-c2ed05843be73ac7e60fba3e499ae7e7abfa8d42 crypto: safexcel - Unwind SHA3 initialization if HMAC setup fails
-8f6778b4a29113af26b24cb7098a15ad9075ed5d crypto: octeontx2 - Unwind allocations when AEAD initialization fails
-8b8d2d7b5172a6cacaa8aab1b11ea7a8f61a5d6a dt-bindings: rng: starfive,jh7110-trng: add jhb100, drop jh8100
-9c3bcc465d1c48ea51f4f9a11fad119d8c2eacc5 hwrng: starfive - fix runtime PM and power teardown handling
-cd2ee0176fc87603334ad784496c2c1822b4b3fd hwrng: starfive - move the SEU reseed out of the interrupt handler
-de5aafa40f37f88ca14e8575097e4d8f66c09a50 hwrng: starfive - tidy up includes and drop unused code
-a573dc19dae30b8e81a6f77f3b7da10a0fc0b098 hwrng: starfive - add JHB100 support
-13d31ea358ececac6d8b5e7c5d0a7be0fb0c6b02 MAINTAINERS: update the StarFive TRNG driver maintainer
-9aed9e29eb5e90c4829f14f69f8b7f9bdeeb6dab crypto: chelsio - Balance inflight count on invalid RFC4106 AAD length
-277b0dae660c36083ed9da3a9ecbffc9f58e9917 hwrng: virtio - simplify probe_common()
-818d9c68529b14f4a09b82b4f6857267348fa708 hwrng: virtio - simplify virtrng_restore()
-ce486b7c5024fd4801065a91c75a779756fc3b59 crypto: ccp - Bump minimum firmware version for SEV-SNP support
-bbb626236fe443311ad425a2c8672716e0d9068d crypto: ccp - Drop support for SNP without INIT_EX
-98649858f6c5ad8171820023d8017f4aa2b3aec4 crypto: sa2ul - remove redundant 0x prefixes
-4d6f25c2e74e893f4592b3c0e28df743c7224d93 crypto: sa2ul - remove dead code
-817eb778fe8fad3b2b37e10a17de0e15e66cd965 crypto: sa2ul - remove totally unused structure fields
-2b296876055aa1ed7058be247a3e173acdddb3d4 crypto: sa2ul - remove unused fields from sa_cmdl_cfg
-d12bcdee4c2db9c0171825993349f2b9457a0a56 crypto: sa2ul - remove unused context fields
-6ec36d012836ddd78084d2d5c0b03372df34ae82 crypto: sa2ul - remove unused macro definitions
-349c9bda8d8a29f2d8fb4e3264343d991b131bad crypto: sa2ul - remove unused base register pointer
-7675d1473066fafe0ab6aa290af0d9e227127e92 crypto: qat - avoid double free of authentication descriptor
-458b1958c84bf08635d1a035f5049173be4b72f8 hwrng: histb - fix read timeout
-d93ca86a49478a7b0e06a1e2bb6091c5db7f72f0 hwrng: histb - use device messages
-79d5fee2c3b6ee5f7c4fe8aa2d79b0f5eee83111 hwrng: virtio - fix copy_data() handling of partial reads
-5e45c3caf22d079971e17932fd7e18334f422ce1 crypto: algif_aead - Allow gcm(aes) for privileged users
-10f016857304075d450e86fa9ac7e80f626f1db5 crypto: chelsio - Fix wrcount leak in AES encrypt and decrypt
-8ba9044ff0bf4a5789216496019fad614eeafd45 crypto: stdrng - Mitigate FIPS RNG failures
+ada90a067f91b1fae6648a90f0f4ad3b6ad761ac rcu-tasks: Avoid alloc_percpu() failure in rcu_tasks_rude_wait_gp()
+e32bad908a347dc5eb7dacffc130fd6c4b4736cd rcu: assert static storage for RCU sync and SRCU definitions
+fb4d2de452ad7e73ecac47e67f107d51400c3265 rcu-tasks: Use pr_debug() for callback contend/collapse messages
+33bbb83200506341d3e5aeb70cfdfc3d93dfa647 cpuhp: Expedite RCU when toggling system-wide SMT mode
+fd5121d99c864841cfea8f6ba115075491447a96 rcu: Print CPU that preempted stalled reader wants to run on
+f7e8bee05abbf5f92b33cb7d551ccf5ab8b59fc6 srcu: Record callback registration stack for KASAN
+e80679ddf8b0ab25f17fcda3e0cbe215c9e43388 srcutiny: Record callback registration stack for KASAN
+f585f4b3f402e2eb6ab68ffc7eec7ef7d7e29324 rcu: Record callback registration stack for Tiny RCU
+3447ea201b3b6e8462a0af7255650f4e4b067a13 srcu: Validate callback arguments
+25652d7c50f03c2ac9a1a5bf5a6074ea9daba205 rcu: Validate callback arguments in Tiny RCU
+fad47732ac1358b5499b293725d6f43a1de35c2c rcu-tasks: Validate callback arguments
+2e532d9a719abf1790c36912e73d58456ffb73c4 srcu: Detect duplicate callback enqueue at registration
+384163114cd007662d148aa08f0a58ea27db1308 srcutiny: Detect duplicate callback enqueue
+f9857faffbb28037565169aa47dd58ce50b983ea rcu-tasks: Detect duplicate callback enqueue
+6f59d5b754596b5c77b4df941dc71b0cb41d966a rcu: Improve duplicate callback diagnostics
+63c5c4b20a4e8b182def9405b7e1e15d82d7d639 doc: Update recent SRCU API additions to whatisRCU.rst
+cdbfc3571f20746315eec3b2e2f24bd5b3a76825 tools/rcu: Add new APIs to rcu-updaters.sh
+66369fa8f10575feb9f41e0c8129b91aa8b279cc doc: Document atomic SRCU in Design/Requirements/Requirements.rst
+672266b92b2850340fc17a07c2a3ad59a39634c2 doc: Fix stale RCU_GP_WAIT_FQS value in stallwarn.rst
+a2994592a550088f237d61a48b7309c4981d4c9d doc: Document additional RCU task-stall dump information
+fb6afba325f56c880d36c23c73c5583f54aa3a19 Documentation/litmus-tests: Add SRCU fastpath anchor-before-scan test
+bad782611f4dfda35af8ef93832636d10243f526 Documentation/litmus-tests: Add SRCU fastpath scan-before-anchor test
+80b439139f5a6b643ca8dfa964b560acd8855ff8 kasan: Avoid an unrelated RCU warning in the callback test
+24d578561e63337abde0c381990bace8340a25a1 rcutorture: Fix busted_srcud crash on module unload
+14deaef3f2fbf12ac60d984dee9cd61b19ff4ca2 rcutorture: Fix suspicious rcu_dereference_check() usage for trivial-preempt
+039e9877e80bae1d80c4cb560d5e358da3cf1733 rcutorture: Make tasks-tracing support duplicate call testing
+c5936c7fc75c8d2074246fc1a5c7f879c7480e6e rcutorture: Avoid create fwd_prog_tasks for tasks-rude and srcu-atomic
+8c5b49fc8fed6ee83fb839262e9b5fb2189de532 rcuscale: Consolidate per-writer arrays into struct writer_state
+ec0c8eeb2465e086d322f4d48c90c45fd392115d rcuscale: Add srcua scale type
+8879642e60a672e564d282b5c160717efc33e4e4 scftorture: Reject empty workloads before starting helpers
+9dbf5557088c4c942e6941faff48e2e59b62dee2 scftorture: Protect the initial affinity check from hotplug
+7249ebffabca041f5d15b82c0e00befd8335d412 MAINTAINERS: Add scftorture to TORTURE-TEST MODULES
+37e8daee2d65933daaa388c1e6a44d79c19117f9 rcutorture: Enable RCU_BOOST where supported
+8ed847f5ca727a96a5c053863c02e5f078a79e4a rcutorture: Disable RCU priority boost testing on non-TREE03 scenarios
+cb3330b2fb18b0d1d78aac55810e257dc26b5755 torture: Forgive SMT-control failures in CPU-hotplug testing
+302c4841127912360ee5c4be49066ae73061d7d7 MAINTAINERS: Add Puranjay Mohan and RCU reviewer
 
---===============3034548440519054800==--
+--===============0908134188860533469==--
