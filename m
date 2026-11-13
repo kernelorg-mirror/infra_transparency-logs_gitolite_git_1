@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Fri, 13 Nov 2026 16:24:29 -0000
-Message-Id: <179458706952.1220460.5940960935780619682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 13 Nov 2026 16:29:47 -0000
+Message-Id: <179458738760.1224295.4158164742720027405@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-linux-next
-    old: 9f557a3c0bbca50d8fe4ce86be78017f66a31071
-    new: d7aa57dd3be04b353978fc6780ce43c01bafa06f
+  - ref: refs/heads/bleeding-edge
+    old: 3c3d82dce229a58377eb007069ef34e567942a59
+    new: dcf3780a44fdebfe8ab53d90bdf473582f287e70
     log: |
-         2400c4650c35f5c7f2ab4e58c33f4090292b8d18 firmware: arm_scmi: Fix fallback to short name in scmi_pinctrl_attributes()
-         6ae39955f90c7afefc5e338ba538c11523987b5a firmware: arm: psci: Fix unused variable warning
-         16c2a0f92130bfd7018044f1591b46432b0dcea5 firmware: arm: smccc: Mark smccc_soc_id_{version,revision} as static
-         d7aa57dd3be04b353978fc6780ce43c01bafa06f Merge branch 'for-next/arm_fw/updates' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux
+         389efc5648a80e4594353e526f278a3ea122a774 ACPI: property: Fix leaked buffers after skipped properties
+         d06ea068029c9b9480ed6b1eae02c942e6869aaf ACPI: property: Do not free embedded subnode packages
+         dcf3780a44fdebfe8ab53d90bdf473582f287e70 Merge branch 'acpi-property' into bleeding-edge
          
