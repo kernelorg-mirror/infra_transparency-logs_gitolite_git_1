@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
-Date: Fri, 13 Nov 2026 22:03:54 -0000
-Message-Id: <179460743442.1535512.15059319028919417834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 13 Nov 2026 22:07:44 -0000
+Message-Id: <179460766432.1538924.12357231319947926826@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fdmanana/linux
-user: fdmanana
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: e85db1f1f3db77dfd5b250eb5ab0829bf400747b
-    new: 5d91299a5b2904752ea757137d7a56579fa7f1cf
+  - ref: refs/heads/spi-7.5
+    old: 46764ef4de201e0de647bfa35f018d30fd80d3f0
+    new: 73352c4da6ffefba745b3aeb5c89ecde96ca4211
     log: |
-         e5a33c7cc9876b78ee6293020fd53317b9b197dd btrfs: fix incorrect task accounting on error during io_uring read
-         53363f0939c45ff729e4a390314cf898fd4b706a btrfs: fix return value to report partial success for direct IO writes
-         142b4bd1c1e2ccf3a31441f059d644f9a94da62c btrfs: fix race between getting device stats and removing device
-         e9650d0cd190b8b4e49d1fc48d05e455e5f4b7d7 btrfs: fix RCU usage in btrfs_ioctl_dev_info()
-         5d91299a5b2904752ea757137d7a56579fa7f1cf btrfs: fix missing device freeze allow on btrfs_rm_device() failure
+         49071cdbecd3458e1cfa24f3316227d6abf8451b spi: sifive: clamp the clock divider to the register range
+         82ff536b6049b65ad0452634f60da591017f1be8 spi: bcm63xx-hsspi: fix division by zero for devices without a max speed
+         167fe08d3ba5c42f67008137757283057f946764 spi: bcmbca-hsspi: fix division by zero for devices without a max speed
+         ee22df21fdf418e4894b2d0dff53c3e47c7e5776 spi: apple: fix division by zero in clock divisor calculation
+         51953948d6a8f42fe71f3669d55dea45e3de294d spi: atmel: use the maximum divider for an unspecified speed
+         73352c4da6ffefba745b3aeb5c89ecde96ca4211 spi: fix division by zero with a zero transfer speed
          
