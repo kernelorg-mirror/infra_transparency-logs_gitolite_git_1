@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 13 Nov 2026 19:01:29 -0000
-Message-Id: <179459648980.1339472.573621022692949384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 13 Nov 2026 19:02:14 -0000
+Message-Id: <179459653459.1339801.9876713777373880449@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/pending
-    old: 1be6c8d3027d4a421dc46b93a89a196c61945614
-    new: 6db97da593fbf5bd416661214abd6f46780a4694
-    log: |
-         6db97da593fbf5bd416661214abd6f46780a4694 wifi: ath10k: add hw_params for Atheros QCA9377-7
-         
+  - ref: refs/tags/keys-keys-v7.4-rc3-2
+    old: 0000000000000000000000000000000000000000
+    new: fef3eca7d3d14d6a5b166a271520e71048149127
