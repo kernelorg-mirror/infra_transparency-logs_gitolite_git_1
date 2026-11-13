@@ -1,26 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============0157833700186472984=="
+Content-Type: multipart/mixed; boundary="===============2208811899992731430=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Fri, 13 Nov 2026 20:56:52 -0000
-Message-Id: <179460341286.1485359.6967843179044236927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Fri, 13 Nov 2026 21:07:28 -0000
+Message-Id: <179460404808.1492642.16624123398412092719@gitolite.kernel.org>
 
---===============0157833700186472984==
+--===============2208811899992731430==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: masneyb
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
+  - ref: refs/heads/for-next
+    old: c3baae5f1a15645cddadcb2b9abddef5df291f59
+    new: a9d78db32fe78bdbe7c66ba77cb7dbb729b885de
+    log: revlist-c3baae5f1a15-a9d78db32fe7.txt
   - ref: refs/heads/master
     old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     new: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
     log: revlist-6628e7d4c6b2-7475ea8b5861.txt
+  - ref: refs/heads/v7.5-armsoc/dts64
+    old: 37145821846cb01e1da93753d928e77c42b6bb59
+    new: 30eb5fd93649928b9e4149d24fa182c8521fdc20
+    log: revlist-37145821846c-30eb5fd93649.txt
 
---===============0157833700186472984==
+--===============2208811899992731430==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c3baae5f1a15-a9d78db32fe7.txt
+
+e794aacace8ed0f3ee1aa34924e25399d370e039 arm64: dts: rockchip: fix pcie wlan chip on rk3588-h96-max-v58
+587730a8f9449745ec3ad26e36a2770ee107a93a arm64: dts: rockchip: Enable audio on DFRobot UNIHIKER M10 V1.2
+4eda11fb5710e3de4305d927ad7c9393e023108a arm64: dts: rockchip: describe PCIe RTL8125 Ethernet on NanoPC-T6
+cd745c39406cf013a468743426d4f367ab62b33b arm64: dts: rockchip: describe PCIe RTL8125 Ethernet on ROCK 5 family
+2184164a940ca2379995b43de0f6c9149cd65a20 arm64: dts: rockchip: describe PCIe RTL8125 Ethernet on CM3588
+ce3c2a83e2469a7a913fe2b0e0582de95894d7a0 arm64: dts: rockchip: describe PCIe RTL8125 Ethernet on NanoPi R5S
+1d3e2e77edc323215df7a2c3b1aee0e3ff8da38e arm64: dts: rockchip: describe PCIe RTL8125 Ethernet on NanoPi R6C
+44020ac2d5ed7b5cce56bbfd29f0a697f70d04d6 arm64: dts: rockchip: describe PCIe RTL8125 Ethernet on ROCK 5 ITX
+57c33a45eab35579a73eb0cf8a742dd54a5e6566 arm64: dts: rockchip: Add missing PCIe wake pinmux on RK3588 EVB1
+38e2bfcc44fc3694c4ab2aac896ad9fa6abbeca9 arm64: dts: rockchip: Enable NPU on RK3588 EVB1
+ea3b5dcefd88c6c433c0c0f05221e058f60b4b26 arm64: dts: rockchip: Enable HDMI sound on RK3588 EVB1
+61e97442ca409f577816699aa203461b76b24e9a arm64: dts: rockchip: Add DSI panel to RK3588 EVB1
+914eabb8b872fe1298be5d397525f0a0e39b25b3 arm64: dts: rockchip: Add Bluetooth to RK3588 EVB1
+abf495038cc9f0693cecf54bd37d3200d5da942c arm64: dts: rockchip: Enable SDR104 on the Kobol Helios64 SD card
+330f3d6b0bd5e8694c7b80791444f70d2535912a arm64: dts: rockchip: Pull down the eMMC data strobe on RK3576
+f889f5d1f9a809fda80d9c6a9e540d8e0e12761f arm64: dts: rockchip: Fix VCCIO4/VCCIO6 supplies on NanoPi R2S Plus
+bcb95c3641b06f20e0c2ed4c849139ad72084d29 arm64: dts: rockchip: Enable SDIO Wi-Fi on NanoPi R2S Plus
+6c9bd34d299ccf3cd1374a79749f9509059f5bd7 arm64: dts: rockchip: Describe more of the power tree on Kobol Helios64
+30eb5fd93649928b9e4149d24fa182c8521fdc20 arm64: dts: rockchip: Enable all CPU OPPs on Kobol Helios64
+a9d78db32fe78bdbe7c66ba77cb7dbb729b885de Merge branch 'v7.5-armsoc/dts64' into for-next
+
+--===============2208811899992731430==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1017,4 +1052,30 @@ e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.ke
 e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
 
---===============0157833700186472984==--
+--===============2208811899992731430==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-37145821846c-30eb5fd93649.txt
+
+e794aacace8ed0f3ee1aa34924e25399d370e039 arm64: dts: rockchip: fix pcie wlan chip on rk3588-h96-max-v58
+587730a8f9449745ec3ad26e36a2770ee107a93a arm64: dts: rockchip: Enable audio on DFRobot UNIHIKER M10 V1.2
+4eda11fb5710e3de4305d927ad7c9393e023108a arm64: dts: rockchip: describe PCIe RTL8125 Ethernet on NanoPC-T6
+cd745c39406cf013a468743426d4f367ab62b33b arm64: dts: rockchip: describe PCIe RTL8125 Ethernet on ROCK 5 family
+2184164a940ca2379995b43de0f6c9149cd65a20 arm64: dts: rockchip: describe PCIe RTL8125 Ethernet on CM3588
+ce3c2a83e2469a7a913fe2b0e0582de95894d7a0 arm64: dts: rockchip: describe PCIe RTL8125 Ethernet on NanoPi R5S
+1d3e2e77edc323215df7a2c3b1aee0e3ff8da38e arm64: dts: rockchip: describe PCIe RTL8125 Ethernet on NanoPi R6C
+44020ac2d5ed7b5cce56bbfd29f0a697f70d04d6 arm64: dts: rockchip: describe PCIe RTL8125 Ethernet on ROCK 5 ITX
+57c33a45eab35579a73eb0cf8a742dd54a5e6566 arm64: dts: rockchip: Add missing PCIe wake pinmux on RK3588 EVB1
+38e2bfcc44fc3694c4ab2aac896ad9fa6abbeca9 arm64: dts: rockchip: Enable NPU on RK3588 EVB1
+ea3b5dcefd88c6c433c0c0f05221e058f60b4b26 arm64: dts: rockchip: Enable HDMI sound on RK3588 EVB1
+61e97442ca409f577816699aa203461b76b24e9a arm64: dts: rockchip: Add DSI panel to RK3588 EVB1
+914eabb8b872fe1298be5d397525f0a0e39b25b3 arm64: dts: rockchip: Add Bluetooth to RK3588 EVB1
+abf495038cc9f0693cecf54bd37d3200d5da942c arm64: dts: rockchip: Enable SDR104 on the Kobol Helios64 SD card
+330f3d6b0bd5e8694c7b80791444f70d2535912a arm64: dts: rockchip: Pull down the eMMC data strobe on RK3576
+f889f5d1f9a809fda80d9c6a9e540d8e0e12761f arm64: dts: rockchip: Fix VCCIO4/VCCIO6 supplies on NanoPi R2S Plus
+bcb95c3641b06f20e0c2ed4c849139ad72084d29 arm64: dts: rockchip: Enable SDIO Wi-Fi on NanoPi R2S Plus
+6c9bd34d299ccf3cd1374a79749f9509059f5bd7 arm64: dts: rockchip: Describe more of the power tree on Kobol Helios64
+30eb5fd93649928b9e4149d24fa182c8521fdc20 arm64: dts: rockchip: Enable all CPU OPPs on Kobol Helios64
+
+--===============2208811899992731430==--
