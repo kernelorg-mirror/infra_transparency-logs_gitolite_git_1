@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1161375072543433277=="
+Content-Type: multipart/mixed; boundary="===============0654831810516629365=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 13 Nov 2026 04:26:21 -0000
-Message-Id: <179454398172.613532.11919427624950200236@gitolite.kernel.org>
+Date: Fri, 13 Nov 2026 04:26:49 -0000
+Message-Id: <179454400993.613755.13093999280723459255@gitolite.kernel.org>
 
---===============1161375072543433277==
+--===============0654831810516629365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: ca61ec17cf17a774a11c565c2167619eea32ebfb
-    new: 22cb35c7d91260b4e73a84e9a538d50ac3eed9bb
-    log: revlist-ca61ec17cf17-22cb35c7d912.txt
+  - ref: refs/heads/for-next-keys
+    old: b3dfbde62cf1981c4638939c159dfd087b7a72e9
+    new: 7e1392a42ea288d70a266f6553fe06f57f8647ea
+    log: revlist-b3dfbde62cf1-7e1392a42ea2.txt
 
---===============1161375072543433277==
+--===============0654831810516629365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ca61ec17cf17-22cb35c7d912.txt
+Content-Disposition: attachment; filename=revlist-b3dfbde62cf1-7e1392a42ea2.txt
 
 81986a81f09fae73926c7c44863b335880269c90 wifi: ath12k: assign device id from the WSI index
 1e678e37ff13e45f22d78d802fcefa8f9a0d9395 wifi: ath12k: fix decap of MSDUs spanning multiple RX buffers
@@ -281,6 +281,10 @@ f2e5f7c8aa40c832225df1ab8d813f6074fbacde wifi: mac80211: fix unlocked STA statis
 f2eddafbfcc004098425fee7c5664adbe29152d7 xsk: defer software checksum until the skb is complete
 c112921763e7ab3498f9a92df1d1baf94de753b2 selftests/bpf: cover AF_XDP multi-buffer TX software checksum
 af6f95c3300e3d234c813b80f831dd7b80b3eaf2 Merge branch 'xsk-fix-multi-buffer-tx-software-checksum'
+8cff8f1c89d33e55c9af82177b14f6f9f6a899fe tpm: Check return value of crypto_kpp_set_secret()
+0a385f668ba77d29ae167c1668fd452418ebc9d6 tpm: eventlog: check the payload size before reading tag events
+c22052a012698ce56d599d75b669d55778521c7c tpm: flush timeout work outside buffer_mutex to avoid deadlock
+03fcb358249dc715124b3616f814ea0ecc6ec36c tpm: acpi: Fix memory leak at tpm_read_log_acpi() error path
 ba1dc196502f3435f4ae53ed6745caacf066f83e net: dsa: microchip: initialize the IRQ access mutex
 71578e43b8a6723025579a08a707f4975a3cd567 net: fix mac_len of skbs copied by generic XDP
 71b116cf334b517f909a574fab4fbbb17c27c7ba selftests: drv-net: ping: test generic XDP redirect to cpumap
@@ -471,19 +475,5 @@ ca98aabb221067856c213a5d830d0dbf40656e0a Merge branch 'net-tls-break-the-connect
 53e7352d65f70b479de04c2c197aa5e3ca64d8f1 selftests: net: add a test for NSH GSO
 dee3429e94d8089713645706df678ec54a049e13 Merge branch 'nsh-limit-recursion-in-nsh_gso_segment'
 7e1392a42ea288d70a266f6553fe06f57f8647ea Merge tag 'net-7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-b61af8ac776192639369434bb160ecee16eb351e tpm: tis_i2c: Add reset delays for ST33KTPM2XI2C
-d4d4669220f22cf6bc628d673975cfed086a803b tpm_crb: Add register definitions of TPM CRB chunking fields
-9897785ce335319b6c8e4456f205152e3f42ed30 tpm_crb: Split start method into a separate header
-a9935048555bff88b31ad53d8b8afc41d092d8b2 tpm_crb: Add start_cmd parameter to tpm_crb_start wrapper
-bbb9ca18c46d9829d709c5667c65dc023b28e188 tpm: tis_i2c: Use local 4KB buffer to limit memory usage
-9e9700330d0af00a7cffdb502eca0c33ea95aa27 tpm: Increase TPM_BUFSIZE to 8KB for chunking support
-09fc693294655f8165ad201b67138235cd4ff629 tpm_crb: Factor crb_send()/crb_recv() bodies into helpers
-40c1cfba818ab8aa2e977f913a5fc578fb48b33c tpm_crb: Implement command and response chunking logic
-dce958c81418f4ddf21bcc0dda772356ca459b36 tpm: Remove enum tpm2_session_types
-486e3cee2a0da47e589b67ed172f5ab2f60e1a0d tpm: sessions: bound the primary public area by the response size
-36f7823d61dd41f1fe2fa22487ca748a51895301 tpm: sessions: bound the parameter decryption by the response size
-c721fc88f60222c169fc893fdfcddf82bc219789 tpm: ibmvtpm: check the response size against the buffer size
-6ee1d383e1971e8e81f6d7e878edcafba47d1023 KEYS: do not let an unmatched key decide the search result
-22cb35c7d91260b4e73a84e9a538d50ac3eed9bb KEYS: Protect pkey method checks against type removal
 
---===============1161375072543433277==--
+--===============0654831810516629365==--
