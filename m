@@ -1,29 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Fri, 13 Nov 2026 11:43:59 -0000
-Message-Id: <179457023939.926772.7560429145077921197@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5425201286578474125=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 13 Nov 2026 11:44:10 -0000
+Message-Id: <179457025070.926992.383324471227606228@gitolite.kernel.org>
+
+--===============5425201286578474125==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/renesas/x5h/wdt-experimental
-    old: 26fb11f91300ac90475cbc36685422d25ddc9406
-    new: 2b606c32eba7f2afbf907fa78b863e519a3efa90
+  - ref: refs/heads/review-ilpo-next
+    old: 003dccb94a84cf4313c4298b9b3f52f7c30380b2
+    new: a362539b42193dcdb17f8fba40031a515c53885c
     log: |
-         6a1bff7c7b37703d48a6a8a426136f570281efcf dt-bindings: watchdog: renesas,wdt: Add R-Car X5H support
-         168c3eb4e11bbbe0f4887afa411e3435572b6acd watchdog: renesas: add compatible string to support R-Car Gen5 Soc
-         19babd3fbd730e3927a4b02eddabfa60b48a8f9a dt-bindings: clock: renesas,r8a78000-cpg: Add RWDT clock
-         3860f7f419523af4b054b3cb4d3dbb2f21dbfc4c Rarm64: dts: renesas: r8a78000: Add RWDT node
-         0fd1aeaff57be6d018327bd9e2ee9f1fee10dd3c clk: renesas: r8a78000: Add RWDT clock
-         3b9ba840fd313f10cf32e5c1113f1bf5acce1b92 pmdomain: renesas: r8a78000: Add RWDT support
-         5aa340501e6bf2da2d0f4fd05b9ab585f9ebf195 arm64: dts: renesas: ironhide: Enable RWDT
-         8db319937dac446fd599b4a78513343162fc844e dt-bindings: clock: renesas,r8a78000-cpg: Add SWDT clock
-         523740ff4cf3a4293b169bfe15fc0fb20298abc2 arm64: dts: renesas: r8a78000: Add SWDT node
-         566c7e5c94e977fc960a4eca3e44a7b951d4e934 clk: renesas: r8a78000: Add SWDT clock
-         2b606c32eba7f2afbf907fa78b863e519a3efa90 pmdomain: renesas: r8a78000: Add SWDT support
+         4a53f320115d5f7c21c8fd899b362b5719a51946 platform/x86: uniwill-wmi: use devm_blocking_notifier_chain_register()
+         a362539b42193dcdb17f8fba40031a515c53885c platform/x86: bitland-mifs-wmi: use devm_blocking_notifier_chain_register()
          
+
+--===============5425201286578474125==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1794570245 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1794570245-72470b333287ce78360f81269cee14eb414bbedd
+
+003dccb94a84cf4313c4298b9b3f52f7c30380b2 a362539b42193dcdb17f8fba40031a515c53885c refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCavb4CQAKCRBZrE9hU+XO
+MZ6HAQC0kCC2mas4AWbINZsXT3N0kbxPdQWHKd9dhICsiDkEVwD/QgR8K6yz29pI
+rqP3PKuLkTLWv16nih9utFHX1k0n9wk=
+=ctaO
+-----END PGP SIGNATURE-----
+
+--===============5425201286578474125==--
