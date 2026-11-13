@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8571097117948613530=="
+Content-Type: multipart/mixed; boundary="===============1236895833371294337=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Fri, 13 Nov 2026 07:37:06 -0000
-Message-Id: <179455542609.740066.5825060786416460887@gitolite.kernel.org>
+Date: Fri, 13 Nov 2026 07:37:17 -0000
+Message-Id: <179455543747.740280.10742421113185968541@gitolite.kernel.org>
 
---===============8571097117948613530==
+--===============1236895833371294337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,49 @@ repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/next/dt
     old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    new: 0fc5ebd20d99b786b8d6726d71d8f6e9f70b4dc1
+    new: 48481f2f187d2162c89c324c9ead4b6351ea9b50
     log: |
          e0f010b24f4e29761b9d7a37103928f58ef6c21a ARM: dts: mediatek: Correct white-space style
          48481f2f187d2162c89c324c9ead4b6351ea9b50 ARM: dts: aspeed: Correct white-space style
+         
+  - ref: refs/heads/next/dt64
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    new: 30c1d0c701b4b9cdc161606a21184261f9ed2517
+    log: |
          30c1d0c701b4b9cdc161606a21184261f9ed2517 arm64: dts: mediatek: Correct white-space style
-         0fc5ebd20d99b786b8d6726d71d8f6e9f70b4dc1 Merge branches 'next/dt' and 'next/dt64' into for-next
          
 
---===============8571097117948613530==
+--===============1236895833371294337==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1794555424 +0100
+pusher krzk@kernel.org 1794555435 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1794555423-cf5f10c514e1fd4ecbd675277acefcc42c4d4ab1
+nonce 1794555434-ff4a40fdc7dd6ab460ac72d3c0ff8bd68619f56c
 
-6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 0fc5ebd20d99b786b8d6726d71d8f6e9f70b4dc1 refs/heads/for-next
+6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 48481f2f187d2162c89c324c9ead4b6351ea9b50 refs/heads/next/dt
+6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 30c1d0c701b4b9cdc161606a21184261f9ed2517 refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmr2viAQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD13raD/4oZFmCNto31XWHh81nV82jYwoiZpNhS0/7
-UO8ckChK9MdfYCQmNxX9zEVRjJu/dm3KEJ0Ew6ymSWTlQs4BjpDSgfNRoRz8g9Kq
-bGgZ/7DAF9Pd56q7AtidDRt66H2KDe3HjH6PG/kDsVcVemjGRZU7G0+WQ/v+gDLp
-jAZF8Brp+Zj1Q3K3yyaAjSHYLQKh9uTbRTA8UwzxvMCVP3MSpUtJ7D44lUJYbNtk
-goAnXzK75NTmT96qROS3lzEzH9E54LKyZ5jOZiUKBQioy4k71AUsiJCqQ49AQk3s
-HMBnuxFWWhQc4LqJWEyqqW7X1aZrBysqq/+Uh+f4iP1rNq81MLkkY29rzZwbvQAl
-MokQ7iD6xqMDMzo4vo6YitXsf9bOkDT34sqSscQMOC9qFgF0VyT8WaZBR1AngQpF
-Lb/CcZPypeRAplfPCu6sd4B1M83o5y8cOom7JLNHI9PJH+hB4UGcP/3tphHT8U5b
-IbSJgjTBkPGO7hEkFsZ1peVNu7sk8TOnPZEAVWOmqAQfeWPfkjrdjzGlvNf96GJ2
-obWaDQULCGWRYB4jwKkScV6LozhsqWrW+6y9V/aMWhRNyR81WteKJVC/tDBPKmOw
-kQTZCupo3scOYFEMFa4skIUjpsh119ShZ31wpH11YCr+gTwCTDc2fMNMRbJVPWfZ
-KArCia0dYA==
-=yqIf
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmr2visQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD15MjD/9WnqMGZIG7NVk8/3kbvCrYf+KmIQ4Ukr8X
+Sk1pidvgCdJKsv+kawM6yquk43TB1UODsWGsD2jcBZSdjOL1ms6f7CexfqUWAj9c
+r5CgMMGgadcwv3rScj5VZkAYclzKBy6E0ALRgtN6AlrmDs/wuKL35autTz1DNaIk
+8vhgBgr6+fRZ/4oOFy9GjtrePDmBr7tau/rvOFL6tzatyXmz9TAPNaRcaLxMt9OE
+2pwtS9XezogrlTMKlFq5z7mXLtwxvcd4nLv/20mQ4JXeeH2xDAvf9gkELfAkBxVF
+vVMu5xAmCyuIf7aG0v88pPW/U7PqamRC9lRrZXeL62/FjJ0neQ+zMKr5IYblJI/G
+uaHvNMC4ssoUCjoyBHaMi/n15rwMjsxAd5lcswE/rBaYKgp6wa9ugYNr2iqJiAVN
+Wk1FUgwn8JSued0pkC+mZ2RVkRhTIWbGjVN6G/NeTqwO3ThTjgb50MzOsGZoe/E9
+vjGyFW5I2OLztXsJspnf0fsKByB/VUOde9TVha6mptWSxcvcwfEKX8LkZjto3q/B
+g0v27Q4r4g5U91lpVuin9V/9EFvj2q6A5AyeIxhz4fdmW+WAQii/QiwNVXojVpqH
+PkLcSrdkNXbBPUeG/afq67yMtveMBptwYhFCKO1Zt2mf5h6EqXKMjkUxnHH2oqoD
+EcZWnxKM1g==
+=KvLY
 -----END PGP SIGNATURE-----
 
---===============8571097117948613530==--
+--===============1236895833371294337==--
