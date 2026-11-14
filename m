@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7959604195777916701=="
+Content-Type: multipart/mixed; boundary="===============3531594056545730228=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 14 Nov 2026 02:40:38 -0000
-Message-Id: <179462403874.1757726.1648826828348168283@gitolite.kernel.org>
+Date: Sat, 14 Nov 2026 02:40:41 -0000
+Message-Id: <179462404184.1757934.2029247292116785939@gitolite.kernel.org>
 
---===============7959604195777916701==
+--===============3531594056545730228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: e8c1bcf8d591a7858413304d1282a24574c21947
+  - ref: refs/heads/for-next
+    old: 0021f17128de5dc0b19f1a523f448df2440d8088
     new: 25c1f3460fb552d427e880639a6e68db59190ffa
-    log: revlist-e8c1bcf8d591-25c1f3460fb5.txt
+    log: revlist-0021f17128de-25c1f3460fb5.txt
 
---===============7959604195777916701==
+--===============3531594056545730228==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e8c1bcf8d591-25c1f3460fb5.txt
+Content-Disposition: attachment; filename=revlist-0021f17128de-25c1f3460fb5.txt
 
-c4ff3ea30640b394df4156d7ddf60ad8ffe765f1 mm/damon/core: move static variable rotation to damon_ctx
-740128dd1a3f2bd81a80314d079b6b03c39ba3af mm: make swapoff interruptible when unusing mms/shmem
-7d8746d7dc9cc4003661011424e5880ea7ae364b mm/migrate: untag addresses when querying page nodes
-990d6c2194a938a19a8cf94c6cfd75171345089b mm/ksm: fix userfaultfd protection during merge and unmerge
-fe623a81ad9eddf10059b4e44bca0440d9120613 mm/migrate: snapshot the source nid before the misplaced migration
 168ed9c5d5ec2fd326715eba5750c2b69e559ff3 mm/vma: update VMA iterator state on error in new VMA merge
 1b8fd9a23501bffefa3304ff36f4674b26838c67 selftests/mm: fix khugepaged_race build with older glibc
 ee1afc5539b6fe03569a5855b6041b13343b0993 fs/proc/task_mmu: fix missed VMAs when reading /proc/PID/maps and friends
@@ -1048,7 +1043,12 @@ b970ee43be13fc45851e957469807cac049c10ce Merge tag 'erofs-for-7.4-rc3-fixes' of 
 831615b085fa5b9c85c5a52dadd71ebcfb8d5985 Merge tag 'io_uring-7.4-20261112' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 e93fd809fb5692d1571bd008988ba734fd7fc976 Merge tag 'block-7.4-20261112' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 2800868f63227c8237d70c41e70d441c919620d6 Merge tag 'sound-7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+ed6624f3e8b6a4aefc3a4103965b58589904fe7b selftests/bpf: Replace d_path CHECK() with ASSERT_*()
+75cf1b5e5489176b2edc0c388c4fa53b724e59f7 selftests/bpf: Use memfd_create instead of mkstemp in d_path
+2ad196c64785e51e99a221303f36b34c014ed403 Merge branch 'selftests-bpf-fix-d_path-check_mem_access-and-drop-check'
 97d73c8251226cf27cc6656b4c542869bb8c69fa Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+4812fd2d294225e320b2bb8cb84c4a658f7eea24 bpf: Add sleepable version of bpf_get_stack in raw_tp_prog_func_proto and tp_prog_func_proto
+e8c1bcf8d591a7858413304d1282a24574c21947 selftests/bpf: Test faulting build IDs from a sleepable raw tracepoint
 25c1f3460fb552d427e880639a6e68db59190ffa Merge https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux 7.4-rc2+
 
---===============7959604195777916701==--
+--===============3531594056545730228==--
