@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-Date: Sat, 14 Nov 2026 06:27:02 -0000
-Message-Id: <179463762289.1930192.4184508862541440758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sat, 14 Nov 2026 06:43:12 -0000
+Message-Id: <179463859278.1941047.18268497541001236538@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-user: superm1
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/meta/cgit
+  - ref: refs/tags/hwmon-for-v7.4-rc3
     old: 0000000000000000000000000000000000000000
-    new: 5ef58eb7033b03d127b6f23cf5a7538eda148b7f
+    new: 875038890f1706af20af9b28bdd6c9159d60ae45
