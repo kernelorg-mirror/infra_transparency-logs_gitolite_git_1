@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5693805030017045074=="
+Content-Type: multipart/mixed; boundary="===============3321074465061850058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 14 Nov 2026 02:52:33 -0000
-Message-Id: <179462475364.1766325.7040186923198654607@gitolite.kernel.org>
+Date: Sat, 14 Nov 2026 02:52:38 -0000
+Message-Id: <179462475854.1766447.8431517330963376268@gitolite.kernel.org>
 
---===============5693805030017045074==
+--===============3321074465061850058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: daed51c9105158768a3949395135aa6e0a04bb7e
-    new: 6ec534d64f85e949a5d58070678dcd7711875a7c
-    log: revlist-daed51c91051-6ec534d64f85.txt
+  - ref: refs/heads/mm-unstable
+    old: 4318887a3efa4c53d6f083ccfd7105b809a3ac65
+    new: 24231596edf2c9d5269d8efbc7007512026672f5
+    log: revlist-4318887a3efa-24231596edf2.txt
 
---===============5693805030017045074==
+--===============3321074465061850058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-daed51c91051-6ec534d64f85.txt
+Content-Disposition: attachment; filename=revlist-4318887a3efa-24231596edf2.txt
 
 8f52b7b42bb704ff56e7d9304c804c73707c9165 mm: synchronize with PTE table reclaim for all folio sizes
 2f1c2fe6e8ec36e5c58dddf357562cf2a5d7d84d mm/vmalloc: bail out if in softirq context
@@ -283,31 +283,5 @@ c0901d85c1da61e4a815642278d49c5ac389f6a7 mm/damon/ops-common: implement DAMON_FI
 c42a138c21ed75fa60f46fbf4a43f47bf2a84eb5 mm/damon/sysfs: support LRU-activeness based DAMON filter setup
 a6aef0c6e3048df3ee90fde1036be504540c4597 Docs/mm/damon/design: update for DAMON_FILTER_TYPE_ACTIVE
 24231596edf2c9d5269d8efbc7007512026672f5 fs/proc/task_mmu: fix lost maps entries above 2^63
-ecc55d8c55bb6d4de36491490c29f669357f2d8a mm/mglru: report evictable sizes per type
-ecaaf88f96994cf8d9e04a33c7fab56a30560534 mm/mglru: extract lruvec_populated_min_seq() helper
-140801c0370d9173929dd850e0f0804be645c51d mm/mglru: reclaim from the oldest populated gen
-9e2d797651c2240e74cc649bb46c1b28af483c95 mm/mglru: lift the forced protection of reclaimer
-e355ccfe1378d69d6634dce71a39f4ae91708f33 mm/mglru: skip zones above reclaim_idx instead of rotating them
-5df3f1fa1159ae1a193b0ad6fcc8469065f68bda mm/mglru: return for unavailable anon reclaim earlier
-20b57ea66426b94b96094985ab1cf3a884766726 mm/mglru: balance anon and file scan budget by refault rate
-349954be48973e5c36fe9b38f00cb1716d8a1a79 mm/mglru: lift youngest gen protection for higher priority
-003ab7baafda1590222e01a10389bf010d892add mm/mglru: avoid placing rejected folios below populated gen
-7dbc1395fb5584e61cb7a90940f87ec895b43587 mm/mglru: run aging when pages are rare outside the youngest gen
-811b25c371c65eafd2664cb0b4f3cd939c918638 mm/mglru: run aging when one type has no populatable folios
-48d1dcb80b5e02901ec32485ffb834ccba2d39f8 mm/mglru: restrict eviction accounting to eligible zones
-f33a052f8d50e16e10cf5f90dacc8533aaf0d1b7 mm/mglru: reduce LRU lock contention by shrinking folio batches in inc_min_seq
-26c66c1ce03f54d03ea4ab8b09fa182eccbb03e4 mm/mglru: avoid prolonged anon reclaim with swappiness=200
-bdf92392826f5750bfcfe3adab360102d7f22efa mm/mglru: make swappiness=1 file reclaim more aggressive
-b1cf640f528c40dea8a019720ef280f0830f95f1 mm/mglru: avoid scan anon while swapcache is low for GFP_NOIO allocation
-6cdd8f9283dc79c27305d53b98952df57645a0c4 mm/hugetlb: charge hugetlb cgroup and memcg in alloc_hugetlb_folio_reserve()
-cb4add2f77a165aaab3ea30b31b6a3631c06d30c selftests/mm: handle implicit read permissions in madv_populate
-43e46d8fe107dd5682cdd6402056871b333c189c mm: kmemleak: drop kmemleak_lock in scan_block() when it is contended
-5a33831b9fa4e0cfebe76cd921c1f3846e69eb20 mm/page_reporting: document @order parameter in page_reporting_notify_free()
-f1d40b1c22f5c6df83c270f3fb8cbe5acfaf1711 fs/proc/task_mmu: advance seq_file position on interrupted VMA lookup
-331b5236222f41014daf06bf2957fa8a266f5f70 mm/pagewalk: document missing struct members
-cc2f1ba19f3688f7abbcfd5cd3f5e99c08f67207 mm/cma: simplify cma_declare_contiguous_multi()
-3ccef184452421535556dfd6b49aed3a202670d3 mm-cma-simplify-cma_declare_contiguous_multi-fix
-9795e95b13e7404c8c9333cb63ab39cffa64f908 zram: avoid duplicate slots in batched writeback
-6ec534d64f85e949a5d58070678dcd7711875a7c mm/madvise: zap markers from guard regions
 
---===============5693805030017045074==--
+--===============3321074465061850058==--
