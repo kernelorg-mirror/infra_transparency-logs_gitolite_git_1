@@ -1,41 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8118118354842677473=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Sat, 14 Nov 2026 16:13:54 -0000
-Message-Id: <179467283445.2341751.3573512045611742380@gitolite.kernel.org>
-
---===============8118118354842677473==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 14 Nov 2026 16:16:32 -0000
+Message-Id: <179467299280.2344778.11673917853205233571@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfstests-dev
-user: zlang
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/patches-in-queue
-    old: 21e23cdc82054b8c277f7e12120e02331738036f
-    new: dcf24c4a49a2dbad64244606170edc49eb21b074
-    log: revlist-21e23cdc8205-dcf24c4a49a2.txt
-
---===============8118118354842677473==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21e23cdc8205-dcf24c4a49a2.txt
-
-7a38c0ccaea53e356bf4127e1e28749c24dc3f31 overlay: add a test for redirect_dir=followdata
-d713c0cef1e38fa93226bf34efce1ce077e6e8a2 overlay: test that syncfs and unmount persist all changes
-36fbf4abaf1f71d639ca06c5ebfc81c105d2e53a overlay: accept EIO for metacopy files with missing lazy data
-65478b0af491fbcca14d8d119e9ffc0528e5a8a5 xfs: test that swapext waits for in-flight direct I/O
-a9493111e5b48a8b98c824eb8761ec23f3a03874 xfs/654: don't complain if the healthmon xfs_io already exited
-de86ae74d69dbc8a5b6d31d8a256da407cc31fce src/t_dir_offset2: do not check d_ino of a stale first entry
-78fc19eb47790fa9c4c6c906ef54dd76d3a9a740 overlay: test d_ino of hard links in an impure dir
-2978c5bef7d8067d4f84b2dc3bb99b606fbb04f0 xfs: test that statfs does not report negative free blocks
-d99f49c91afbba0c9310e585ebc00849682a2571 xfs/438: retry failed metadata writes again
-e41d3aa14088639a32613f78c06f33e3743e5542 xfs/438: fail metadata writes with the buf_ioerror error tag
-dcf24c4a49a2dbad64244606170edc49eb21b074 ext4: test reserved GID block allocation
-
---===============8118118354842677473==--
+  - ref: refs/heads/keys-rhashtable
+    old: 29eec19b5db8f7ee123f2803d7e45f677c64ce45
+    new: 59fba80f3b0b0bf8e51c989cf943d01622c2c116
+    log: |
+         3eec935dcd85c3d01e6c7212a1ffe8548de8342c tpm: add OP-TEE transport core and a discrete TPM driver
+         912c3bad2eb993eb3e83c2689cd4e17361ef087f tpm_ftpm_tee: use the tpm_optee transport core
+         9437088336a11baa9834746f524acf0be87998e1 s390/cert_store: Pin the user session keyring
+         0e64189fccf5986951f82a38fb0617f8cb9c34b3 s390/cert_store: Return an owned reference from find_cs_keyring()
+         3db48ed1d820428d278c19d15e17d6819db10273 s390/cert_store: Skip keys that disappeared during invalidation
+         bb6261346995f06f5a54b6fc0853f2bb47f6cf41 KEYS: Introduce keyring_is_empty()
+         5b1061860c785f97d4ae927ba5a6940679235c22 KEYS: Replace assoc_array with rhashtable
+         59fba80f3b0b0bf8e51c989cf943d01622c2c116 lib: Remove assoc_array
+         
