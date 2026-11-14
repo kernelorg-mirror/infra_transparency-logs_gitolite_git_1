@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7714905704344596471=="
+Content-Type: multipart/mixed; boundary="===============0056058271852068215=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 14 Nov 2026 18:28:36 -0000
-Message-Id: <179468091697.2445597.18035054325265018620@gitolite.kernel.org>
+Date: Sat, 14 Nov 2026 18:28:39 -0000
+Message-Id: <179468091988.2445800.13353426537597923340@gitolite.kernel.org>
 
---===============7714905704344596471==
+--===============0056058271852068215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: ca4181cacb0c6a5632018f1c94f29d9dbc0e9270
     new: 3a4161c87e356d33e179076a5194d6f407cda567
     log: revlist-ca4181cacb0c-3a4161c87e35.txt
 
---===============7714905704344596471==
+--===============0056058271852068215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ bc45414d16902fe2036a8fba29b8b90b52a44738 bpf: Allow fmod_ret on tagged functions
 e93e5df855f5a5f182d495d37ce3eb3dd0607c2f selftests/bpf: Test fmod_ret on tagged functions
 3a4161c87e356d33e179076a5194d6f407cda567 Merge branch 'bpf-fmod_ret-for-each-function-that-returns-errors'
 
---===============7714905704344596471==--
+--===============0056058271852068215==--
