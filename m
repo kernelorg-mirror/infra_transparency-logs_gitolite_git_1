@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Sat, 14 Nov 2026 00:27:49 -0000
-Message-Id: <179461606918.1638723.2165057072464263565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 14 Nov 2026 00:30:14 -0000
+Message-Id: <179461621449.1641541.8735237192622446403@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-7.5
-    old: 73352c4da6ffefba745b3aeb5c89ecde96ca4211
-    new: ae998e258e4b2a576c937889ac45f72dadee3eb1
+  - ref: refs/heads/main
+    old: a76e8bf4be552eed20801186188e5606365870a0
+    new: 6b8e9712d0315348853e2ce5d6e6a9c7404ec967
     log: |
-         91db5febb159ec4a203a293d39a8dd3c02475377 spi: unoptimize message when queuing it fails
-         f6fa7376869c52c96e8770177a1cf84962bf7409 spi: add KUnit tests for message optimize state on queue errors
-         ae998e258e4b2a576c937889ac45f72dadee3eb1 spi: unoptimize message when queuing it fails
+         6b8e9712d0315348853e2ce5d6e6a9c7404ec967 net: stmmac: dwmac-rk: only read the delays the MAC applies
          
