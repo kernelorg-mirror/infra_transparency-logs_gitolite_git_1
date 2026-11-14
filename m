@@ -1,43 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0081080060892908582=="
+Content-Type: multipart/mixed; boundary="===============1791618671778370803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 14 Nov 2026 02:54:11 -0000
-Message-Id: <179462485159.1767147.17381181857243518870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sat, 14 Nov 2026 02:56:07 -0000
+Message-Id: <179462496717.1770207.17263339115719260054@gitolite.kernel.org>
 
---===============0081080060892908582==
+--===============1791618671778370803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: e491ba8a3a3649baf797541bbf61970db8ce15e4
-    new: 47070a5008341dde7d25d7befea48402bbdddd64
-    log: revlist-e491ba8a3a36-47070a500834.txt
+  - ref: refs/heads/perf-tools-next
+    old: 4af65363b11fc4fe65fcb497f68bbe4f3e3a4d2c
+    new: a1c3b14c28ebfa79dd56e2743c2fbad0c02a7146
+    log: revlist-4af65363b11f-a1c3b14c28eb.txt
 
---===============0081080060892908582==
+--===============1791618671778370803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e491ba8a3a36-47070a500834.txt
+Content-Disposition: attachment; filename=revlist-4af65363b11f-a1c3b14c28eb.txt
 
-07dd0d8f0b3a65a740745d81b43fba89b65e5c44 patches/next: lru-active probe filter: update cover letter
-0ed06da48133f8445e1aad103b8134052256504b patches/next: lru-active probe filter: move to non-rfc section
-1967bac41fcd064b2f3b6ed0b21a0dc6630aee83 todo/change: update
-7c426688394c9613769c76d6078df058b51e3620 patches/next: lru-active probe filter: add proactive changelog
-580e331f7868c405451a5661b346c79eac37e667 patches/next: remove stale metadata commit
-52c719a6d04306eda3c4d631d0821bf34fa28aec patches/next: beyond page table a-bit milestone 2: write cv
-a5b57c44176b643e75e84ff50168700825c80616 patches/next: let kdamond freezable
-d301bde725574737cf48a5faf2500d1b62fbb3e9 patches/mm: update
-1a9d343979a147e1e6a6d7e4207d65759fcee4c0 patches/next: rebase to the latest mm-new
-c5d925374e587cf1145e028e6096b59c4b301900 todo/change: update
-b1663d11d548d77b72957dc4b05791206b175269 patches/next: remove stale metadata commit
-c7950e5bbe01bde650f8486b6a12d667fec0e881 patches/mm: update
-47070a5008341dde7d25d7befea48402bbdddd64 patches/next: rebase to the latest mm-new
+10eb6a6db5f5332c99bf93dcfb8f660359f628b6 perf jevents: Add support for NVIDIA Tegra410 UCF PMU aliasing
+458a33f5618cea1873213b956f928376cfdb34b3 perf jevents: Add support for NVIDIA Tegra410 PCIE PMU aliasing
+86ee08cc2bb00117549cd5d0de4ae05e36591d02 perf jevents: Add support for NVIDIA Tegra410 PCIE-TGT PMU aliasing
+af4fd99bbf63be260b7c0da4098d640193025ef1 perf jevents: Add support for NVIDIA Tegra410 CPU Memory Latency PMU aliasing
+98a3a883e6b557d417fbfe0d468d7170f46a602b perf jevents: Add support for NVIDIA Tegra410 C2C PMU aliasing
+1de8706aa07782c7f825f05bdfec2a58ab4bfff4 perf stat: Check merged PMU instance's cpumasks when skipping zero counts
+38539b1099923eeb9ef9ee5c6e842e9d8f7b1962 perf pmus: Treat both numbers of NVIDIA PCIe PMU names as suffix
+b425b0fb585442585cb5af3512fc0a4c15c5a02c perf tests: Skip zero sample IP in object-code reading test
+80d321ebe856e25d671087c24da481f69e71b99b perf c2c: Fix top-level histogram ownership check
+d4904aa0e6dc478ebeec10fb32a01f919583bcb4 perf c2c: Show memory region in the per-cacheline view
+3d800510bb771b78179194fa8f63b14512d6ed84 perf c2c: Show all memory regions in the region column
+4772a284387e44d5166361f4fb26e7abca81294c perf c2c: Rename "Region" column to "Range" for consistency
+a1c3b14c28ebfa79dd56e2743c2fbad0c02a7146 perf python: Set up callchain parameters for sessions
 
---===============0081080060892908582==--
+--===============1791618671778370803==--
