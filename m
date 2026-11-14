@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 14 Nov 2026 00:46:46 -0000
-Message-Id: <179461720634.1655465.221334069942750268@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sat, 14 Nov 2026 01:04:47 -0000
+Message-Id: <179461828739.1666612.12911877610954122487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: 57f60b5127a282fd61cd06c0b6a688061902ff55
-    new: 980d54ce8b29e5cc8c86bcc76468fd30852eed0d
+  - ref: refs/heads/master
+    old: 9d43f566e3f06c255733783d90d248ca8044d4cf
+    new: 27ef974f31a8fccddaaf90ff93e1c044b8e6d1c7
     log: |
-         980d54ce8b29e5cc8c86bcc76468fd30852eed0d net: replace mc_dev with a flag in netdev_hw_addr_list
+         27ef974f31a8fccddaaf90ff93e1c044b8e6d1c7 foo
          
