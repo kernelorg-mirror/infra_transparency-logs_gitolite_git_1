@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Sat, 14 Nov 2026 15:41:48 -0000
-Message-Id: <179467090888.2314534.14395395211408213219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Sat, 14 Nov 2026 15:45:10 -0000
+Message-Id: <179467111021.2317591.18378064909591777240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: a90e8590327ef3969b631364f077a1a9c9cf5c9a
-    new: e1f93fc95d61bc1bc45f68c30fe9ee540b5b4744
+  - ref: refs/heads/main
+    old: 1399ab86b447b949e71ae9858fbc8f942b7bff4c
+    new: 6b7845f76382b0e7d8ed67accfc2e578004ead1e
     log: |
-         e1f93fc95d61bc1bc45f68c30fe9ee540b5b4744 drop 7 patches based on RC review feedback
+         2f9cde35d6f18cdf7c5ca0cb72cef3d1d0faef0f Rename multiple amdgpu files to have _p suffix
+         6b7845f76382b0e7d8ed67accfc2e578004ead1e Merge branch 'superm1/amdgpu_p' into 'main'
          
