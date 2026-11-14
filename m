@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Sat, 14 Nov 2026 17:06:13 -0000
-Message-Id: <179467597392.2388898.4134684603500090087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc-tools
+Date: Sat, 14 Nov 2026 17:34:12 -0000
+Message-Id: <179467765270.2406892.11975814319500433324@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/soc/soc-tools
+user: krzk
 changes:
-  - ref: refs/heads/scx-pvsched
-    old: 05e1535ff5f92e91b62a0e019093c93f71179e6d
-    new: 933149216b20c0a80995553a97998102bf649ae6
+  - ref: refs/heads/master
+    old: 91e5d9bfc6c0fcaaa39641552ae1d69ed39c34c1
+    new: f740e1fb3f1e4f205bd45a4cd59533f7da00d5fa
     log: |
-         d7c812376143ec23ee162c0f792ba66f573a595b bpf: Allow importing memfd pages into an arena
-         41dcb6bcd03202fd6001cd702e59b6000fb3fe7b bpf: Allow importing device-dax pages into an arena
-         471b1370ab9ab55badf967d6886a180ff90c3063 selftests/bpf: Test importing memfd pages into an arena
-         22345d2acef6c31ae4e10f419d9cafcc757d0fbf selftests/bpf: Add a host/guest shared arena prototype
-         933149216b20c0a80995553a97998102bf649ae6 [DEMO] sched_ext: Add paravirt host and guest example schedulers
+         f740e1fb3f1e4f205bd45a4cd59533f7da00d5fa README: Document preferred branch naming
          
