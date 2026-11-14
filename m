@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 14 Nov 2026 05:43:02 -0000
-Message-Id: <179463498200.1895680.2103501387882597808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Sat, 14 Nov 2026 06:01:22 -0000
+Message-Id: <179463608238.1910773.11579136243132542997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/bpf/bpf
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: 1440a14a7ed58d5fbc3b9170b68fc977939b4985
-    new: ca4181cacb0c6a5632018f1c94f29d9dbc0e9270
+  - ref: refs/heads/master
+    old: 7f1e33230b7c7a55318765862b255b41e5c97cfb
+    new: ab86b62012b9e046b9b7d7f4b637e31eab273549
     log: |
-         acd250fab5401cfaf676d7ca3c29d2ee15625726 bpf: Share map-backed callback register setup
-         9c8582c81b7a6b6a1912245eede1d0f3b0b87903 bpf: Rely on callback frame initialization defaults
-         e559d46c34cda2cb58f5ebd04efd72eef308856f bpf: Scope the bpf_user_ringbuf_drain() dynptr to its callback frame
-         f4e3977ba0f7de892e2ce37357137c57cfb22d62 selftests/bpf: Cover the user ringbuf callback dynptr lifetime
-         3be66bbbaa7d963cacc920a9f43c0df49ab5fb08 bpf: Scope the bpf_for_each_map_elem() array key to the callback frame
-         9f2c5a659f0b76dedbe1ed73a2f6d6f91dec16ef selftests/bpf: Cover callback-frame map key lifetime
-         ca4181cacb0c6a5632018f1c94f29d9dbc0e9270 Merge branch 'bpf-scope-callback-arguments-to-their-frame'
+         ab86b62012b9e046b9b7d7f4b637e31eab273549 bpf, lsm: Mark backing_file_alloc/free LSM hooks as untrusted
          
