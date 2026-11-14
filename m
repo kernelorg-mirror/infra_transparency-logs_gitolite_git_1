@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Sat, 14 Nov 2026 06:43:57 -0000
-Message-Id: <179463863764.1941497.3007529618184808033@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Sat, 14 Nov 2026 06:46:41 -0000
+Message-Id: <179463880125.1944739.18322391950635890040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/tags/for-linus-7.4a-rc3-tag
-    old: 0000000000000000000000000000000000000000
-    new: 76406d13e2ecb96dd48073b49aa243c0e7f96caa
+  - ref: refs/heads/scx-pvsched
+    old: ce6d90b1d9bae1e0aea007bcf42b31fc42eb987d
+    new: d12f0034136ad25488f0a613be5798db4700fa4e
+    log: |
+         d12f0034136ad25488f0a613be5798db4700fa4e [DEMO] sched_ext: Add paravirt host and guest example schedulers
+         
