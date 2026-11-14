@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6449925037263117915=="
+Content-Type: multipart/mixed; boundary="===============1778813100766258812=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sat, 14 Nov 2026 13:44:47 -0000
-Message-Id: <179466388792.2228981.3266769230363044792@gitolite.kernel.org>
+Date: Sat, 14 Nov 2026 13:44:50 -0000
+Message-Id: <179466389088.2229168.10285303765276995149@gitolite.kernel.org>
 
---===============6449925037263117915==
+--===============1778813100766258812==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/at91-defconfig
+  - ref: refs/heads/at91-dt
     old: cee9395acd8043be0644b25c34bfa86623f2b935
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     log: revlist-cee9395acd80-6628e7d4c6b2.txt
 
---===============6449925037263117915==
+--===============1778813100766258812==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============6449925037263117915==--
+--===============1778813100766258812==--
