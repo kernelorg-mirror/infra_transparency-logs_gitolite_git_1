@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1709403507463137628=="
+Content-Type: multipart/mixed; boundary="===============7630735218694444383=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sat, 14 Nov 2026 13:44:54 -0000
-Message-Id: <179466389459.2229409.11487305183632871751@gitolite.kernel.org>
+Date: Sat, 14 Nov 2026 13:54:32 -0000
+Message-Id: <179466447297.2236537.10461098700095901600@gitolite.kernel.org>
 
---===============1709403507463137628==
+--===============7630735218694444383==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/at91-fixes
-    old: afb1ecfeda3fc31d6300a176f4854cc62e289bf3
+  - ref: refs/heads/at91-next
+    old: bd49a1c72abbdddbc7b3d691d926623e33a7c1a0
     new: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    log: revlist-afb1ecfeda3f-6628e7d4c6b2.txt
+    log: revlist-bd49a1c72abb-6628e7d4c6b2.txt
 
---===============1709403507463137628==
+--===============7630735218694444383==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-afb1ecfeda3f-6628e7d4c6b2.txt
+Content-Disposition: attachment; filename=revlist-bd49a1c72abb-6628e7d4c6b2.txt
 
 76a8eb24482ed491c6d314ddfe98740d9f26963b sh: remove CONFIG_NUMA and related configuration options
 e800e2aa035268ec9e5b007b702518a7f28c845d sh: mm: remove numa.c
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 46fec1c3029b552ec63b2d01af9d43a386f043ea Merge tag 'sched-urgent-2026-11-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 
---===============1709403507463137628==--
+--===============7630735218694444383==--
