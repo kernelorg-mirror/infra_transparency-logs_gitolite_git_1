@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Sat, 14 Nov 2026 08:51:25 -0000
-Message-Id: <179464628548.2030558.12027366549906085536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Sat, 14 Nov 2026 09:52:58 -0000
+Message-Id: <179464997870.2071505.2639533902029062639@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/heads/scx-pvsched
-    old: d12f0034136ad25488f0a613be5798db4700fa4e
-    new: 64c7fd8b1f0937ea16288b0635fb25eb6d433b20
+  - ref: refs/heads/tmp.next
+    old: 96614c6df0cc1a4435ef742e34b1da8b70810e9e
+    new: 72b61b0ce99995733d36f704acb53a64044ee85e
     log: |
-         64c7fd8b1f0937ea16288b0635fb25eb6d433b20 [DEMO] sched_ext: Add paravirt host and guest example schedulers
+         9c71f2e161deaaa0a0ca20ee0746db1385a1303a dwarf_loader: Take the merged CU language from a CU that is kept
+         72b61b0ce99995733d36f704acb53a64044ee85e dwarf_loader: Load types that kept CUs use from excluded CUs
          
