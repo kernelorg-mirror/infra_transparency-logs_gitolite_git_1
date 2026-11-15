@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Sun, 15 Nov 2026 21:28:57 -0000
-Message-Id: <179477813702.3591769.16858832574819684910@gitolite.kernel.org>
+Date: Sun, 15 Nov 2026 21:36:25 -0000
+Message-Id: <179477858593.3598267.8615243784319757817@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
   - ref: refs/heads/devfreq-next
-    old: 7167b9a676af5aead284fb63d431faf7903317fa
-    new: 444612ce70e471243f08390493169805f4e45edd
+    old: 444612ce70e471243f08390493169805f4e45edd
+    new: 9895392c1481ee827159d7907c8a23e849ce1458
     log: |
-         444612ce70e471243f08390493169805f4e45edd PM / devfreq: userspace: Fix memory leak in userspace_init()
+         9895392c1481ee827159d7907c8a23e849ce1458 PM / devfreq: Convert to DEFINE_SIMPLE_DEV_PM_OPS()
          
