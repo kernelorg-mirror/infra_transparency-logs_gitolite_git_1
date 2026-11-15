@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6321772826299041807=="
+Content-Type: multipart/mixed; boundary="===============2306220858665148524=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 15 Nov 2026 22:46:27 -0000
-Message-Id: <179478278767.3648502.13238238389271956119@gitolite.kernel.org>
+Date: Sun, 15 Nov 2026 22:47:33 -0000
+Message-Id: <179478285325.3648899.153922658729586756@gitolite.kernel.org>
 
---===============6321772826299041807==
+--===============2306220858665148524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/main
-    old: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
-    new: aebb7274476403040d582c61478df8f4a7bf9cd3
-    log: revlist-7475ea8b5861-aebb72744764.txt
+  - ref: refs/heads/driver-core-testing
+    old: 2268cf8e3d7b4192629e4beff4a413efe5501f11
+    new: dc29282818d2aad425c12e1c806f7d58ab0ec6b0
+    log: revlist-2268cf8e3d7b-dc29282818d2.txt
 
---===============6321772826299041807==
+--===============2306220858665148524==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7475ea8b5861-aebb72744764.txt
+Content-Disposition: attachment; filename=revlist-2268cf8e3d7b-dc29282818d2.txt
 
 81986a81f09fae73926c7c44863b335880269c90 wifi: ath12k: assign device id from the WSI index
 1e678e37ff13e45f22d78d802fcefa8f9a0d9395 wifi: ath12k: fix decap of MSDUs spanning multiple RX buffers
@@ -902,5 +902,6 @@ f70886e5a510cd7fc2c3aef91c46a14f4485fe63 Merge tag 'nfs-for-7.4-2' of git://git.
 4b15991b3be43e9581aca489ec30a351310bb49d Merge tag 'cgroup-for-7.4-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 a9daf327f3ff90625204876981f88cfe2b6f6fff Merge tag 'sched_ext-for-7.4-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 aebb7274476403040d582c61478df8f4a7bf9cd3 Linux 7.4-rc3
+dc29282818d2aad425c12e1c806f7d58ab0ec6b0 Merge tag 'v7.4-rc3' into driver-core-next
 
---===============6321772826299041807==--
+--===============2306220858665148524==--
