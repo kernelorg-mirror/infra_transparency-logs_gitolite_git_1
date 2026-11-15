@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
-Date: Sun, 15 Nov 2026 19:24:11 -0000
-Message-Id: <179477065195.3501294.1643780547769322639@gitolite.kernel.org>
+Date: Sun, 15 Nov 2026 19:29:08 -0000
+Message-Id: <179477094874.3505059.3984698817600097165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,37 +12,37 @@ repo: pub/scm/linux/kernel/git/liveupdate/linux
 user: rppt
 changes:
   - ref: refs/heads/kexec-next
-    old: 249c46c92f963eb61640a87e507fde88b211fe77
-    new: e981144eb14bac3c9b24e0ba51502be772f2bb6f
+    old: e981144eb14bac3c9b24e0ba51502be772f2bb6f
+    new: ba01f82f2fe4b5e230641c65863971471d86b292
     log: |
-         786b3d1908fbc1484e0bac650b4b1798584a49f4 Merge branch 'kexec-fixes' into kexec-next
-         e981144eb14bac3c9b24e0ba51502be772f2bb6f Merge branch 'kexec-7.5' into kexec-next
+         c07a656d22ab38dacdf68a6d984f0c3f802086a5 Merge branch 'kexec-fixes' into kexec-next
+         ba01f82f2fe4b5e230641c65863971471d86b292 Merge branch 'kexec-7.5' into kexec-next
          
   - ref: refs/heads/liveupdate-7.5
-    old: 72c40257d905422b5d191db705b2a6c0ea8ca727
-    new: 20c46697cb8c285924490f13788391b90ffdc4cc
+    old: 20c46697cb8c285924490f13788391b90ffdc4cc
+    new: 96ba3d3c772245c560521f962e253b51bbbcf7a4
     log: |
-         12eb48aaf51658f3c78e0f48837db53ba452725d kho: reject zero bootmem scale
-         fff7b6e8aeb135d53114f39cd657de697b5a1ea8 kho: walk bootmem areas in address order
-         a7276f6d04cf8d6c96063df6939d8f907a633ffd kho: skip zero-sized lowmem and global bootmem areas
-         e4f88783751546a9d298510c2e2369f4d6de00c7 kho: fix bootmem sizing
-         14b6ae83aeedd5e675d83c3bd2c93a2cf333ba5f kho: docs: update description of bootmem regions
-         0715917daabed887bb546327d6d7a18b283d0506 Merge patch series "kho: fix bootmem sizing"
-         20c46697cb8c285924490f13788391b90ffdc4cc kho: fix restore order for NUMA-split preservations
+         caeb2173b83441d991171dbbaa59455dae5399ea kho: reject zero bootmem scale
+         f117bbae706f44c7dd1e811d89057d1dc7886554 kho: walk bootmem areas in address order
+         1010dc3150fc835695df7b21cb9d56016477fab8 kho: skip zero-sized lowmem and global bootmem areas
+         ee4505fe8c4490827244668dab3659c100f4e7cd kho: fix bootmem sizing
+         5b27be339c42a7540eeca5c179e7e0bbdb7a4cdb kho: docs: update description of bootmem regions
+         0ae76c4a84262f3080638960238f9b6e6764b901 Merge patch series "kho: fix bootmem sizing"
+         96ba3d3c772245c560521f962e253b51bbbcf7a4 kho: fix restore order for NUMA-split preservations
          
   - ref: refs/heads/next
-    old: e4da8cf4b29ec8bfb1f4e17afced2cc41f89458d
-    new: 2f86dbebcb9c658e15f1ad106103246c2018c502
+    old: 2f86dbebcb9c658e15f1ad106103246c2018c502
+    new: 58f5a82b61966d698e0d7d257410df7eb5a1a97f
     log: |
-         12eb48aaf51658f3c78e0f48837db53ba452725d kho: reject zero bootmem scale
-         fff7b6e8aeb135d53114f39cd657de697b5a1ea8 kho: walk bootmem areas in address order
-         a7276f6d04cf8d6c96063df6939d8f907a633ffd kho: skip zero-sized lowmem and global bootmem areas
-         e4f88783751546a9d298510c2e2369f4d6de00c7 kho: fix bootmem sizing
-         14b6ae83aeedd5e675d83c3bd2c93a2cf333ba5f kho: docs: update description of bootmem regions
-         0715917daabed887bb546327d6d7a18b283d0506 Merge patch series "kho: fix bootmem sizing"
-         20c46697cb8c285924490f13788391b90ffdc4cc kho: fix restore order for NUMA-split preservations
-         4969eae17cc8268dac4b3eece2a5bab69cf87245 Merge branch 'fixes' into next
-         9ad95cdd79ea5589590b0af4b976a59aa9867e74 Merge branch 'liveupdate-7.5' into next
-         0c7b8a6bd933fb657b1b04b9af8625c3022666c9 Merge branch 'luo-internal-api' into next
-         2f86dbebcb9c658e15f1ad106103246c2018c502 Merge branch 'lu-pci-preservation' into next
+         caeb2173b83441d991171dbbaa59455dae5399ea kho: reject zero bootmem scale
+         f117bbae706f44c7dd1e811d89057d1dc7886554 kho: walk bootmem areas in address order
+         1010dc3150fc835695df7b21cb9d56016477fab8 kho: skip zero-sized lowmem and global bootmem areas
+         ee4505fe8c4490827244668dab3659c100f4e7cd kho: fix bootmem sizing
+         5b27be339c42a7540eeca5c179e7e0bbdb7a4cdb kho: docs: update description of bootmem regions
+         0ae76c4a84262f3080638960238f9b6e6764b901 Merge patch series "kho: fix bootmem sizing"
+         96ba3d3c772245c560521f962e253b51bbbcf7a4 kho: fix restore order for NUMA-split preservations
+         a24985f37af06c6379e643c66ea25d682c25c610 Merge branch 'fixes' into next
+         fab6143eccd61a84e71103311269b4bbfc3c9d78 Merge branch 'liveupdate-7.5' into next
+         7449fb18d0a248bbcf82a0bc72252a3b0bc480d6 Merge branch 'luo-internal-api' into next
+         58f5a82b61966d698e0d7d257410df7eb5a1a97f Merge branch 'lu-pci-preservation' into next
          
