@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Sun, 15 Nov 2026 18:04:26 -0000
-Message-Id: <179476586623.3441190.1261816028517391637@gitolite.kernel.org>
+Date: Sun, 15 Nov 2026 18:09:37 -0000
+Message-Id: <179476617790.3445049.14241464785414805281@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,39 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
 user: linusw
 changes:
-  - ref: refs/tags/sent/20260827-ux500-defconfig-update-960042b7b600-v2
+  - ref: refs/heads/b4/ux500-drm-mcde-powerdomain
     old: 0000000000000000000000000000000000000000
-    new: b732fba1d73376fc59790d8e59dc0bd93e020095
-  - ref: refs/tags/sent/20261107-gp2ap030-99504c2dc038-v1
-    old: 0000000000000000000000000000000000000000
-    new: 2f76bfe098a3555196a415892ec3a677c2999f84
-  - ref: refs/tags/sent/20261107-gp2ap030-99504c2dc038-v2
-    old: 0000000000000000000000000000000000000000
-    new: 17768156fbbfbc0b8f2eb022e95581fe064065f3
-  - ref: refs/tags/sent/20261107-ux500-gpio-hogs-90df5d0ba601-v1
-    old: 0000000000000000000000000000000000000000
-    new: 42e648f7084b9b5bb9dbde90105db31787d87390
-  - ref: refs/tags/sent/20261107-ux500-pl022-power-domain-2e6fd279abbe-v1
-    old: 0000000000000000000000000000000000000000
-    new: c970e09642ed6532f97f8f0250de6b10281850d2
-  - ref: refs/tags/sent/20261108-b4-samsung-s6e63m0-esd-03d8a5d53b05-v1
-    old: 0000000000000000000000000000000000000000
-    new: ea5f62885575a9ed942dca8a1d9f3bbe7cb5361a
-  - ref: refs/tags/sent/20261109-ux500-pinctrl-bindings-4c94d333bfa1-v1
-    old: 0000000000000000000000000000000000000000
-    new: 2ba0648b863393171e3c02064c52f0443786ab8e
-  - ref: refs/tags/sent/20261110-brcm-bcmbt-mac-8a8145bf531a-v1
-    old: 0000000000000000000000000000000000000000
-    new: 4e02e2d9356de9989524cffdc535022e8e2f219d
-  - ref: refs/tags/sent/20261110-brcm-fmac-mac-4a8553dea230-v1
-    old: 0000000000000000000000000000000000000000
-    new: b28276085cef482d3cb0e460603d7cedcbd24ea6
-  - ref: refs/tags/sent/20261112-ux500-musb-bindings-c1d0e47c3e52-v1
-    old: 0000000000000000000000000000000000000000
-    new: 420602a0e9fa79a0e665d77790486243ecf0178d
-  - ref: refs/tags/sent/20261115-ux500-epod-regulator-removal-1f0a0263ce02-v1
-    old: 0000000000000000000000000000000000000000
-    new: 84996823ea0d06a5d12e87f45508924c3271152e
-  - ref: refs/tags/u8500-defconfig-v7.5-soc
-    old: 0000000000000000000000000000000000000000
-    new: 687e7fcf95a8cc595754b1030dc3eeaef18140c8
+    new: a5def1da6a996a0ff5de6897408ffd531ac6ed9e
