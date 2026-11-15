@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============2014845213633963524=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
-Date: Sun, 15 Nov 2026 18:04:08 -0000
-Message-Id: <179476584819.3440967.701385817584408406@gitolite.kernel.org>
-
---===============2014845213633963524==
-Content-Type: text/plain; charset="us-ascii"
+Date: Sun, 15 Nov 2026 18:04:26 -0000
+Message-Id: <179476586623.3441190.1261816028517391637@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,31 +11,39 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
 user: linusw
 changes:
-  - ref: refs/heads/pr-soc-v7.5-ux500-defconfig
-    old: 362057c5b848a19b543245c527e292ece6856b3c
-    new: f908ea8a0f2de52dca6b19ef14885ed6f034fe58
-    log: revlist-362057c5b848-f908ea8a0f2d.txt
-
---===============2014845213633963524==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-362057c5b848-f908ea8a0f2d.txt
-
-40d40a7b4d35d2da706be9e69af05fe11e82ad8d ARM: configs: Refresh U8500 defconfig
-b38af412f31a6c2fbc1884aee13efcb0068c901c ARM: configs: u8500: Update scheduling and accounting
-5a88b7cf6a18b3cf7abf43a2e90bcd87b8e73b0c ARM: configs: u8500: Enable control groups and namespaces
-6dd07b018dee74b2d22e90b0c8196c9bb4461f6d ARM: configs: u8500: Update boot and memory configuration
-a8eafbf39e45368abf3d512e189cd53875ae15fa ARM: configs: u8500: Enable storage support
-7c45bb22625e715f2450f2af1d9a94452042b226 ARM: configs: u8500: Enable IP routing and filtering
-10178eb7eb9ad9896552ca3dac0ca0666f2e306d ARM: configs: u8500: Build peripheral drivers as modules
-5e96638fd228c7e04d7a69d1aafb0dd2f633a57f ARM: configs: u8500: Enable I2C mux support
-ee923da56c53cf4ae7e751d542bb7c0da6d1b4ec ARM: configs: u8500: Update media support
-f407387bcc2e327a3de55a284be934ddfa1ac65d ARM: configs: u8500: Disable unused drivers
-c1c50b0c04d1ff8c319ba50eaf7c2f0463c64708 ARM: configs: u8500: Build IIO sensors as modules
-0dc50255806040081123e624d5a5c0733e5d020c ARM: configs: u8500: Enable security features
-af449e131fdb47a9a149760cbc84ac7425581306 ARM: configs: u8500: Update debug and CoreSight support
-96561f4bc602db784d06e35c8918876036c08057 ARM: configs: u8500: Enable audio graph card2
-f908ea8a0f2de52dca6b19ef14885ed6f034fe58 ARM: configs: u8500: Enable compressed firmware loading
-
---===============2014845213633963524==--
+  - ref: refs/tags/sent/20260827-ux500-defconfig-update-960042b7b600-v2
+    old: 0000000000000000000000000000000000000000
+    new: b732fba1d73376fc59790d8e59dc0bd93e020095
+  - ref: refs/tags/sent/20261107-gp2ap030-99504c2dc038-v1
+    old: 0000000000000000000000000000000000000000
+    new: 2f76bfe098a3555196a415892ec3a677c2999f84
+  - ref: refs/tags/sent/20261107-gp2ap030-99504c2dc038-v2
+    old: 0000000000000000000000000000000000000000
+    new: 17768156fbbfbc0b8f2eb022e95581fe064065f3
+  - ref: refs/tags/sent/20261107-ux500-gpio-hogs-90df5d0ba601-v1
+    old: 0000000000000000000000000000000000000000
+    new: 42e648f7084b9b5bb9dbde90105db31787d87390
+  - ref: refs/tags/sent/20261107-ux500-pl022-power-domain-2e6fd279abbe-v1
+    old: 0000000000000000000000000000000000000000
+    new: c970e09642ed6532f97f8f0250de6b10281850d2
+  - ref: refs/tags/sent/20261108-b4-samsung-s6e63m0-esd-03d8a5d53b05-v1
+    old: 0000000000000000000000000000000000000000
+    new: ea5f62885575a9ed942dca8a1d9f3bbe7cb5361a
+  - ref: refs/tags/sent/20261109-ux500-pinctrl-bindings-4c94d333bfa1-v1
+    old: 0000000000000000000000000000000000000000
+    new: 2ba0648b863393171e3c02064c52f0443786ab8e
+  - ref: refs/tags/sent/20261110-brcm-bcmbt-mac-8a8145bf531a-v1
+    old: 0000000000000000000000000000000000000000
+    new: 4e02e2d9356de9989524cffdc535022e8e2f219d
+  - ref: refs/tags/sent/20261110-brcm-fmac-mac-4a8553dea230-v1
+    old: 0000000000000000000000000000000000000000
+    new: b28276085cef482d3cb0e460603d7cedcbd24ea6
+  - ref: refs/tags/sent/20261112-ux500-musb-bindings-c1d0e47c3e52-v1
+    old: 0000000000000000000000000000000000000000
+    new: 420602a0e9fa79a0e665d77790486243ecf0178d
+  - ref: refs/tags/sent/20261115-ux500-epod-regulator-removal-1f0a0263ce02-v1
+    old: 0000000000000000000000000000000000000000
+    new: 84996823ea0d06a5d12e87f45508924c3271152e
+  - ref: refs/tags/u8500-defconfig-v7.5-soc
+    old: 0000000000000000000000000000000000000000
+    new: 687e7fcf95a8cc595754b1030dc3eeaef18140c8
