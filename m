@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Sun, 15 Nov 2026 15:28:03 -0000
-Message-Id: <179475648334.3329505.11065347508589700208@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Sun, 15 Nov 2026 15:36:32 -0000
+Message-Id: <179475699200.3336224.14685294636509305744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
+repo: pub/scm/linux/kernel/git/tj/cgroup
 user: tj
 changes:
-  - ref: refs/heads/for-7.5
-    old: a23c7afbc587fa8afd74f1ddd62247e12aa329d8
-    new: 4f338225cc2a9af081ea1eb20b28895e25b23ed0
+  - ref: refs/heads/for-7.4-fixes
+    old: e234ed1bb82c96a5643fd70784f16cf3d72eeed3
+    new: 7693e1350b06191143724da742559fb47211348e
     log: |
-         4f338225cc2a9af081ea1eb20b28895e25b23ed0 workqueue: Skip non-freezable workqueues in freeze and thaw
+         7693e1350b06191143724da742559fb47211348e memcg: make MEMCG select BLK_CGROUP
          
   - ref: refs/heads/for-next
-    old: 00d1bacd7bec3a6c92d693e5ab5ecb6d732b8d87
-    new: decebeb127ea1964ab68edda51ecbd3bcbb131ec
+    old: 496752361aff58df7b901ac66a097d03bf05a17e
+    new: 7c7dd6d57d8813fa358d4f50c25bee717509a05d
     log: |
-         4f338225cc2a9af081ea1eb20b28895e25b23ed0 workqueue: Skip non-freezable workqueues in freeze and thaw
-         decebeb127ea1964ab68edda51ecbd3bcbb131ec Merge branch 'for-7.5' into for-next
+         7693e1350b06191143724da742559fb47211348e memcg: make MEMCG select BLK_CGROUP
+         7c7dd6d57d8813fa358d4f50c25bee717509a05d Merge branch 'for-7.4-fixes' into for-next
          
