@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 15 Nov 2026 17:24:42 -0000
-Message-Id: <179476348284.3411022.14227393169117694019@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Sun, 15 Nov 2026 17:28:24 -0000
+Message-Id: <179476370444.3414486.1700889827620279758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
+repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: 440af6a43f476e99a0eab4c976a9581b99ac8ba6
-    new: 33dfecc47a4ea98cf188a18366f1a33a71e549eb
+  - ref: refs/heads/damon/next
+    old: 2cedf0bb69b624757248c49e3a2ae56861daec6f
+    new: e3ec54bbf4751861f44dd7fb3751107effeca154
     log: |
-         573c16767693b233ef996770e6e83fe920ae06da patches/mm: update
-         33dfecc47a4ea98cf188a18366f1a33a71e549eb patches/next: rebase to the latest mm-new
+         e3ec54bbf4751861f44dd7fb3751107effeca154 mm/damon/core: explicitly break switch-case for REPORT_MADE
          
