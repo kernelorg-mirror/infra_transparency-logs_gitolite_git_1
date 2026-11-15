@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8526137272811265945=="
+Content-Type: multipart/mixed; boundary="===============7859188590681800783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 15 Nov 2026 19:17:59 -0000
-Message-Id: <179477027949.3495513.13401312786797444619@gitolite.kernel.org>
+Date: Sun, 15 Nov 2026 19:18:42 -0000
+Message-Id: <179477032273.3496045.16180863425188118054@gitolite.kernel.org>
 
---===============8526137272811265945==
+--===============7859188590681800783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 7e52fc165aa50e70e8df3c879d04fc0ff1673d4a
-    new: 21a9bd2a9455cf455a085b1a7de4d9492a54db12
-    log: revlist-7e52fc165aa5-21a9bd2a9455.txt
+  - ref: refs/heads/keyring_gc
+    old: e0b75e3ed14bda6f708bed4c0577c9d950fb994f
+    new: 9b051ff268eb8994f93e3eb8c28c61efb8319d7e
+    log: revlist-e0b75e3ed14b-9b051ff268eb.txt
 
---===============8526137272811265945==
+--===============7859188590681800783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e52fc165aa5-21a9bd2a9455.txt
+Content-Disposition: attachment; filename=revlist-e0b75e3ed14b-9b051ff268eb.txt
 
 cc448e44f6e9fc83f1527f926f52ebfa5a3d1ce9 liveupdate: check for duplicate session before growing block set
 cab697164b47eecfa2f146024f5d661f99a1a1e7 bootconfig: Allow keys with the maximum supported depth
@@ -95,5 +95,18 @@ adf22d7cdd59ef085c29e260d276ddc839340159 tpm_crb: Implement command and response
 7876b1ed355150719ed7c731b272edc18440ebfd tpm: ibmvtpm: check the response size against the buffer size
 47f2590c2e20a20074bde6fd803776079102dec2 tpm: add OP-TEE transport core and a discrete TPM driver
 21a9bd2a9455cf455a085b1a7de4d9492a54db12 tpm_ftpm_tee: use the tpm_optee transport core
+4337343e22ccff0c316ce716da9474ab9ef10711 KEYS: trusted: Update static calls before init
+3842173cd2c027d1a62c96b01492c1e6b1511fe7 KEYS: trusted: TEE: Synchronize session lifetime
+070ea5336bd871e12dea0b179ca2a85220c54002 KEYS: trusted: TEE: Disable sysfs bind attributes
+9dcbd8666b474dd5bf81122422a88035bf0ac65c KEYS: Add key_gc_flush() for draining RCU callbacks
+3a52522cd6377599eab083e98385a8c5443efd3d dns_resolver: Move the key type into a separate module
+8c900ea0baede0cc5d707736a51e1f47ea96228d NFSv4: Clear idmap keyring cache when the last client unloads
+98de900b5d5efd5e48fa06388eeb6be1dc687a11 smb: client: Clear idmap/SPNEGO caches when the last session is unloaded
+cc2e40a1d5226f2c1e81623e5822d02654849779 s390/cert_store: Start tracking subsystem keys
+1ffa8e0696bb1f2c17e2d4cd3a5566736c1e6813 rxrpc: Release conn->key when init_connection_security() fails
+9343205977aa09cfacc8285a3619825df907d2e1 rxrpc: Move key types to their own module
+6d7e8812862ef3a690856d567a9f92dd89896bde KEYS: Pin the backing kernel module for a key type
+4c5d11b24342e681bbed555193c5ed3b4b5255d3 KEYS: Remove key_type_dead
+9b051ff268eb8994f93e3eb8c28c61efb8319d7e KEYS: key_garbage_collector(): process in chunks
 
---===============8526137272811265945==--
+--===============7859188590681800783==--
