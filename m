@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2923421803455211965=="
+Content-Type: multipart/mixed; boundary="===============2387466822428473319=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Sun, 15 Nov 2026 10:36:54 -0000
-Message-Id: <179473901422.3118620.16967672846211843623@gitolite.kernel.org>
+Date: Sun, 15 Nov 2026 10:37:09 -0000
+Message-Id: <179473902952.3118868.2876910478497672383@gitolite.kernel.org>
 
---===============2923421803455211965==
+--===============2387466822428473319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ojeda/linux
 user: ojeda
 changes:
-  - ref: refs/heads/rust-fixes
+  - ref: refs/heads/rust-next
     old: ee83899302a0457a3ba47464a13e8682bd7ba27d
     new: 23c62304dde29abe92013d85910d03a77dada35d
     log: revlist-ee83899302a0-23c62304dde2.txt
 
---===============2923421803455211965==
+--===============2387466822428473319==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -538,4 +538,4 @@ aacb7797504183a90d66b19b1efb555cfe9b3eec Merge tag 'ovl-fixes-7.4-rc3' of git://
 54975c6523dc77862c25deeb5fa395990b8d3fc4 Merge tag 'hwmon-for-v7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 23c62304dde29abe92013d85910d03a77dada35d Merge tag 'for-linus-7.4a-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 
---===============2923421803455211965==--
+--===============2387466822428473319==--
