@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0489906452606479851=="
+Content-Type: multipart/mixed; boundary="===============0835048789293222518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sun, 15 Nov 2026 23:56:31 -0000
-Message-Id: <179478699126.3701505.14144438413538723849@gitolite.kernel.org>
+Date: Sun, 15 Nov 2026 23:57:01 -0000
+Message-Id: <179478702161.3701826.8439405034564173254@gitolite.kernel.org>
 
---===============0489906452606479851==
+--===============0835048789293222518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+  - ref: refs/heads/dev-test
+    old: 7906eac042a4d6facd3b2dcebfe7179fedfcf1f2
     new: aebb7274476403040d582c61478df8f4a7bf9cd3
-    log: revlist-6628e7d4c6b2-aebb72744764.txt
-  - ref: refs/tags/v7.4-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 19d1b4de6d37bccecc3ad9144d279f1baa405eb1
+    log: revlist-7906eac042a4-aebb72744764.txt
+  - ref: refs/heads/fixes
+    old: 7906eac042a4d6facd3b2dcebfe7179fedfcf1f2
+    new: aebb7274476403040d582c61478df8f4a7bf9cd3
+    log: revlist-7906eac042a4-aebb72744764.txt
 
---===============0489906452606479851==
+--===============0835048789293222518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6628e7d4c6b2-aebb72744764.txt
+Content-Disposition: attachment; filename=revlist-7906eac042a4-aebb72744764.txt
 
+d1551515a3258b43cba60bd7f45bbdd1f4e9e60a drm/amdgpu/gfx12: disallow GFXOFF while updating the SPM VMID
+7fac15d009cf236677a8cddf6bc0e8c85666ac3b drm/amd/display: Fix NULL deref in dcn401_update_clocks_update_dtb_dto
 bba4dc3306483335ddbe065c05b2d8359ec387a4 drm/amd/display: Drop clock requirements on DCN32 when no displays are active
 f2853a06e4b923c77a8cba69d76d2222b198256b drm/amd/display: Keep the nominal vtotal while VRR is inactive
 d13f36e4e055cce03761de590bc8dc6346b1d5c8 drm/amd/display: Don't select zero V_TOTAL_MIN/MAX on seamless boot
@@ -847,7 +850,6 @@ ae28ba98f55a2f30fed57371899b8cecd7cbde64 ALSA: hda/realtek: Fix the Dell XPS 894
 0eaee8fc9305b4ae8e75e68c30e7e93b6b367234 Merge tag 'v7.4-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 79eb6679ef6a0d5ea68da53a8321fb1dc72299b9 Merge tag 'loongarch-fixes-7.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 47930d1236d2988cdc580c10d3af21b6b02d7ece dm-verity: don't restart or panic on errors during system shutdown
-8b4ddd28ec5bdec14cefc57f8bf792cb4764d724 erofs: reset buf->off in erofs_init_metabuf()
 d489c42c9bd542b3fbbda97b97dc9a0b07010eb3 drm/amd/display: Fix __udivdi3 link error in DCN6 DML2
 4807d0757c1e8ef8aff6d0e65d99f3820fea9833 drm/amdgpu/vce1: Fix checking whether VCE1 is idle
 491aa2b083e18ef11d34f776bcb0e396a84f47e4 drm/amdgpu: enable MGCG/FGCG/PERF_CLK for GC 11.0.2
@@ -895,7 +897,6 @@ f831b84713b57cbd67f228a7f10147791e5ab13d drm/xe/guc: Demote uncorrectable local 
 c1234293de147949bf9cf06e3ed59ad8766e29a0 drm: xe: select configfs
 53043b9e83cc7f4e30e70161b67ae93c4c9fdb87 gpio: shared: fix a race in shared desc release path
 f8a4fdf57cedb9cb3f47d94269ff27fea8e819e8 gpiolib: fix stack out-of-bounds access in gpiochip_add_hog()
-7906eac042a4d6facd3b2dcebfe7179fedfcf1f2 docs: erofs: refine the on-disk overview
 86e2facd8630cc2fdec6ea80c53e370b26b441d9 ovl: bump the impure dir version when linking a file with origin
 df42809bd599109660bd3f95e2e22330c80993df Merge branches 'pm-cpufreq' and 'pm-runtime'
 a7d7a25b566635ac1ee6af1c3ef06484cf752c3f drm/vc4: Hold a runtime PM reference while allocating the binner BO
@@ -1054,4 +1055,4 @@ f70886e5a510cd7fc2c3aef91c46a14f4485fe63 Merge tag 'nfs-for-7.4-2' of git://git.
 a9daf327f3ff90625204876981f88cfe2b6f6fff Merge tag 'sched_ext-for-7.4-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 aebb7274476403040d582c61478df8f4a7bf9cd3 Linux 7.4-rc3
 
---===============0489906452606479851==--
+--===============0835048789293222518==--
