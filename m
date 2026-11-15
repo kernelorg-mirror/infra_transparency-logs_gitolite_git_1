@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 15 Nov 2026 01:47:39 -0000
-Message-Id: <179470725994.2754340.7196699026009433937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sun, 15 Nov 2026 01:56:26 -0000
+Message-Id: <179470778613.2761173.16053739802641875361@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: e671e6b9db126afee4f43386d434f9cd495e192c
-    new: cb94499c0f1980c04b5d3fb2ecc2f45cc50bb78b
+    old: 3a4161c87e356d33e179076a5194d6f407cda567
+    new: 8835113107b2cf75df33a71e265cdeec5d5d13e0
     log: |
-         cb94499c0f1980c04b5d3fb2ecc2f45cc50bb78b foo
+         283fb1db0d4262369c52bb7d774674d0df125b70 bpf: Quiet two smatch warnings in the verifier
+         8835113107b2cf75df33a71e265cdeec5d5d13e0 resolve_btfids: Don't list -EBUSY next to -EINPROGRESS
          
