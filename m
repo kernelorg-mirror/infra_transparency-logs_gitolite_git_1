@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3247428389668402579=="
+Content-Type: multipart/mixed; boundary="===============5823842935872289535=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 15 Nov 2026 09:38:36 -0000
-Message-Id: <179473551667.3076036.9010501349518322969@gitolite.kernel.org>
+Date: Sun, 15 Nov 2026 09:39:39 -0000
+Message-Id: <179473557955.3076627.9134604651555926707@gitolite.kernel.org>
 
---===============3247428389668402579==
+--===============5823842935872289535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 778e97bede35dcdc343d61665cba653cd6623ca7
-    new: 6c17852ddab3e4fa6bcfc074e09029d211664452
-    log: revlist-778e97bede35-6c17852ddab3.txt
+    old: 6c17852ddab3e4fa6bcfc074e09029d211664452
+    new: bab1659da76cc31c75b4929a9d3e128d87f146ad
+    log: revlist-6c17852ddab3-bab1659da76c.txt
+  - ref: refs/heads/tip/urgent
+    old: 94efaebe88f370072e628018794e6fab96fc9145
+    new: e294a42baf7b8fa1f8b5ac71ebc7e679d45a8879
+    log: revlist-94efaebe88f3-e294a42baf7b.txt
 
---===============3247428389668402579==
+--===============5823842935872289535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-778e97bede35-6c17852ddab3.txt
+Content-Disposition: attachment; filename=revlist-6c17852ddab3-bab1659da76c.txt
+
+d2c19d79b0c482c8d0420722db641e8d5e3ecc68 Merge branch into tip/master: 'core/urgent'
+23469b748745d3b161791f5a011023ef995bd8b9 Merge branch into tip/master: 'perf/urgent'
+dfa199e56156b735668d211b10e84cbb7dc6c53e Merge branch into tip/master: 'sched/urgent'
+ee7405e95b8170a3a163536061494b912406b8c7 Merge branch into tip/master: 'timers/urgent'
+cabe6bf632b29369bb2b4a3cd3c578d3879493a1 Merge branch into tip/master: 'x86/urgent'
+e294a42baf7b8fa1f8b5ac71ebc7e679d45a8879 Merge branch into tip/master: 'x86/mm'
+54359de9b4159272da06bb5183698ac80a82d8a6 Merge branch into tip/master: 'core/rseq'
+755b42f580709346de3cfe903c3fb064b87e0e5d Merge branch into tip/master: 'irq/core'
+c3cae0cd9610a94cb9b861ee08fc1d07286ea251 Merge branch into tip/master: 'irq/drivers'
+513fd6c8f49dd9eaa596e5825f91a716d744a1ae Merge branch into tip/master: 'irq/msi'
+e0594b37c1c61f15503af0eb9e320c7c313d9686 Merge branch into tip/master: 'locking/core'
+ece8c167a32ddbea93de453fdc6ee6d4de6dc86c Merge branch into tip/master: 'sched/core'
+ffcd099cb02697eb3afa512b1b7b6943bcc1e4bb Merge branch into tip/master: 'timers/core'
+b69d258cd75689500709d5b4c7c1feabbb1cd89a Merge branch into tip/master: 'timers/nohz'
+c3752dfab767e1fbf96f9a31c7322c1a27de8fcc Merge branch into tip/master: 'timers/vdso'
+bea9cf52f1922977e846034b59543e337acf7265 Merge branch into tip/master: 'x86/apic'
+710bf74d525fc5541a9df9e062903e68737a878b Merge branch into tip/master: 'x86/cache'
+36c3c4c3c148fc5051581e1dd2de83d9a80834f3 Merge branch into tip/master: 'x86/cleanups'
+204c77a75529a7a0555bd55ae8b0ace6e43dc5ed Merge branch into tip/master: 'x86/misc'
+bab1659da76cc31c75b4929a9d3e128d87f146ad Merge branch into tip/master: 'x86/sev'
+
+--===============5823842935872289535==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-94efaebe88f3-e294a42baf7b.txt
 
 e9aeaa63fd94b0d2bb9b303be5774b33ca9c01cf erofs: apply the stacked fs check to extra file-backed devices
 7c26dc33ea7bb677db294bfb4e58d4207477c9e3 erofs: treat files shared by inode_share as stacked
@@ -249,7 +280,6 @@ bca568589ad118a9b0bac086760baee2a41976a5 ALSA: aw2-alsa: select SND_PCM
 4ebb3b8d129cbb419a55924f6a75f8f58435e37b xen: don't allow gnttab_dma_[alloc|free]_pages() in PV guest
 2b66f2cc753243a6adb3e9a5c038b0fc59ba7ec9 Xen/gnttab: improve error handling in gnttab_dma_{alloc,free}_pages()
 5306f124f3171289b2ef5bac1e08aad175f66d1e arm64: ptrace: don't warn on missing siginfo in a group-stop
-aab02e49f0b54a0837e58c67651c4abdad1a3208 irqchip/gic-v3-its: Drop ITS node reference on its_of_probe() errors
 ad3fc05c7e65009355effeea06aa629a687acef2 arm64: suspend: Only track cpuidle context for idle tasks
 b970ee43be13fc45851e957469807cac049c10ce Merge tag 'erofs-for-7.4-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 3db1c74a20f0552fadc2c6886a43feee8894fa19 Merge tag 'cifs-fixes-7.4-rc3' of https://git.manguebit.org/linux
@@ -273,7 +303,11 @@ cba88960471ac67635080708b67ed5c2a2e4e9fd Merge tag 'ksmbd-for-7.4-rc3' of git://
 aacb7797504183a90d66b19b1efb555cfe9b3eec Merge tag 'ovl-fixes-7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
 54975c6523dc77862c25deeb5fa395990b8d3fc4 Merge tag 'hwmon-for-v7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 23c62304dde29abe92013d85910d03a77dada35d Merge tag 'for-linus-7.4a-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-81259ab86e0989e3e4d2b27294d708b3f885f305 Merge branch into tip/master: 'irq/drivers'
-6c17852ddab3e4fa6bcfc074e09029d211664452 Merge branch 'linus'
+d2c19d79b0c482c8d0420722db641e8d5e3ecc68 Merge branch into tip/master: 'core/urgent'
+23469b748745d3b161791f5a011023ef995bd8b9 Merge branch into tip/master: 'perf/urgent'
+dfa199e56156b735668d211b10e84cbb7dc6c53e Merge branch into tip/master: 'sched/urgent'
+ee7405e95b8170a3a163536061494b912406b8c7 Merge branch into tip/master: 'timers/urgent'
+cabe6bf632b29369bb2b4a3cd3c578d3879493a1 Merge branch into tip/master: 'x86/urgent'
+e294a42baf7b8fa1f8b5ac71ebc7e679d45a8879 Merge branch into tip/master: 'x86/mm'
 
---===============3247428389668402579==--
+--===============5823842935872289535==--
