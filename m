@@ -1,20 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Sun, 15 Nov 2026 09:47:22 -0000
-Message-Id: <179473604281.3083331.7175051926859769917@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0195652521477140409=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
+Date: Sun, 15 Nov 2026 09:50:52 -0000
+Message-Id: <179473625210.3086918.14624637913530308301@gitolite.kernel.org>
+
+--===============0195652521477140409==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/smb
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/mkl/linux-can
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: dc6eabb1bd40c0655837844c58432ae9095f6979
-    new: 0060e4bc705a97365ae4d61852860afcccef2e39
-    log: |
-         020ad4a0d0ba578e146829558c547e59ca5fb0fe ksmbd: protect SET_INFO metadata updates against filesystem freezing
-         0060e4bc705a97365ae4d61852860afcccef2e39 ksmbd: protect CREATE metadata updates against filesystem freezing
-         
+  - ref: refs/tags/linux-can-fixes-for-7.4-20261115
+    old: 0000000000000000000000000000000000000000
+    new: 1ef97742ce6dc8c5f495cfa2acfda304ae2a2840
+
+--===============0195652521477140409==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1794736248 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
+nonce 1794736247-9cdef61eb3732072513567341b6ef36c30549ef5
+
+0000000000000000000000000000000000000000 1ef97742ce6dc8c5f495cfa2acfda304ae2a2840 refs/tags/linux-can-fixes-for-7.4-20261115
+-----BEGIN PGP SIGNATURE-----
+
+iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCavmAeBMcbWtsQHBlbmd1
+dHJvbml4LmRlAAoJEMw6ZPquma3S4DsA/2fXTF7cxl4/7/N/klSb33rT3z+PrFuK
+MXrtbwhPgeocAP4xQEwfCIxPCZikvvCZ/7TLzIEMuQqv7za3Kpj6HKqaBQ==
+=gsXC
+-----END PGP SIGNATURE-----
+
+--===============0195652521477140409==--
