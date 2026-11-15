@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Sun, 15 Nov 2026 15:17:54 -0000
-Message-Id: <179475587433.3321134.1366574487619222585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Sun, 15 Nov 2026 15:22:44 -0000
+Message-Id: <179475616479.3325665.11176959029895565277@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: 60e8b2c8d488f5ac22085c118de8440db7fc659b
-    new: fac48903d2ff47623bbb65404dd30f55cd8d433b
+  - ref: refs/heads/for-next
+    old: ab43ec385580b8f8abf72d70fa3acbf4e4f098a5
+    new: 38a53fcb31b1b255142e012b97a20fb1074ac0cb
     log: |
-         6442683b687cddf62fc603b8b51e8bfddda3dcd5 arm64: dts: allwinner: h6: orangepi: Add regulator ramp delays
-         348a4f82f13b6e62d993ea9faaa2b6cda05eeec5 arm64: dts: allwinner: h6: Add GPU OPP table to all boards
-         6527dd6be62eacf1143f8ce316c0ac9a5044bb40 arm64: dts: allwinner: h6: orangepi: Enable CPU frequency scaling
-         c3b0d2bd3ba62c39c131e80d940cabbb8441bbf2 arm64: dts: allwinner: yuzukihd-chameleon: Enable the GPU
-         fac48903d2ff47623bbb65404dd30f55cd8d433b Merge branch 'sunxi/dt-for-7.5' into sunxi/for-next
+         d4912d6440bf6d255e1fa1c360c8ddb39d0e01bd io_uring/io-wq: show stuck workers rather than WARN on a slow exit
+         38a53fcb31b1b255142e012b97a20fb1074ac0cb Merge branch 'io_uring-7.4' into for-next
+         
+  - ref: refs/heads/io_uring-7.4
+    old: 4d3db66c5363dcf42c3d43ebaea330ac2d1888bb
+    new: d4912d6440bf6d255e1fa1c360c8ddb39d0e01bd
+    log: |
+         d4912d6440bf6d255e1fa1c360c8ddb39d0e01bd io_uring/io-wq: show stuck workers rather than WARN on a slow exit
          
