@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2306220858665148524=="
+Content-Type: multipart/mixed; boundary="===============3539721423856318849=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 15 Nov 2026 22:47:33 -0000
-Message-Id: <179478285325.3648899.153922658729586756@gitolite.kernel.org>
+Date: Sun, 15 Nov 2026 22:49:05 -0000
+Message-Id: <179478294560.3649664.13529855747686656075@gitolite.kernel.org>
 
---===============2306220858665148524==
+--===============3539721423856318849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 2268cf8e3d7b4192629e4beff4a413efe5501f11
+  - ref: refs/heads/driver-core-next
+    old: de7625abe4e92f1fb0047ed5f163b2ecaba77e50
     new: dc29282818d2aad425c12e1c806f7d58ab0ec6b0
-    log: revlist-2268cf8e3d7b-dc29282818d2.txt
+    log: revlist-de7625abe4e9-dc29282818d2.txt
 
---===============2306220858665148524==
+--===============3539721423856318849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2268cf8e3d7b-dc29282818d2.txt
+Content-Disposition: attachment; filename=revlist-de7625abe4e9-dc29282818d2.txt
 
 81986a81f09fae73926c7c44863b335880269c90 wifi: ath12k: assign device id from the WSI index
 1e678e37ff13e45f22d78d802fcefa8f9a0d9395 wifi: ath12k: fix decap of MSDUs spanning multiple RX buffers
@@ -881,6 +881,7 @@ cba88960471ac67635080708b67ed5c2a2e4e9fd Merge tag 'ksmbd-for-7.4-rc3' of git://
 aacb7797504183a90d66b19b1efb555cfe9b3eec Merge tag 'ovl-fixes-7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
 54975c6523dc77862c25deeb5fa395990b8d3fc4 Merge tag 'hwmon-for-v7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 23c62304dde29abe92013d85910d03a77dada35d Merge tag 'for-linus-7.4a-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+2268cf8e3d7b4192629e4beff4a413efe5501f11 rust: scatterlist: pin `Owned::sgt` to prevent invalidating `DmaMappedSgt::sgt`
 0dc2a4dac3d04e9e4479aeb0b46172feab1cca0a x86/mm: Ensure write visibility during LDT installation
 7693e1350b06191143724da742559fb47211348e memcg: make MEMCG select BLK_CGROUP
 442fbdb90e120c39bc0b27ffdcc6d7733472ddb9 Merge tag 'bootconfig-fixes-v7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
@@ -904,4 +905,4 @@ a9daf327f3ff90625204876981f88cfe2b6f6fff Merge tag 'sched_ext-for-7.4-rc2-fixes'
 aebb7274476403040d582c61478df8f4a7bf9cd3 Linux 7.4-rc3
 dc29282818d2aad425c12e1c806f7d58ab0ec6b0 Merge tag 'v7.4-rc3' into driver-core-next
 
---===============2306220858665148524==--
+--===============3539721423856318849==--
