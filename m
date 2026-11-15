@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2769302545818347190=="
+Content-Type: multipart/mixed; boundary="===============5030111001863922541=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 15 Nov 2026 22:58:44 -0000
-Message-Id: <179478352436.3657199.14352530727098748790@gitolite.kernel.org>
+Date: Sun, 15 Nov 2026 22:58:49 -0000
+Message-Id: <179478352963.3657426.14518984971761696710@gitolite.kernel.org>
 
---===============2769302545818347190==
+--===============5030111001863922541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,118 +15,176 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: e3ec54bbf4751861f44dd7fb3751107effeca154
-    new: 5c6a040828a9d3bf95c0e014f8eace99ed3e68a1
-    log: revlist-e3ec54bbf475-5c6a040828a9.txt
+  - ref: refs/heads/master
+    old: 23c62304dde29abe92013d85910d03a77dada35d
+    new: aebb7274476403040d582c61478df8f4a7bf9cd3
+    log: revlist-23c62304dde2-aebb72744764.txt
 
---===============2769302545818347190==
+--===============5030111001863922541==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3ec54bbf475-5c6a040828a9.txt
+Content-Disposition: attachment; filename=revlist-23c62304dde2-aebb72744764.txt
 
-c56dc09b738b4b6f94bf2748d79403d777484f90 ==== user report (beyond a-bit milestone 1.5) ====
-111c250070d1562f4ce7ae9a5a47fe3174256cf2 mm/damon/api: introduce struct damon_report
-19748235b224a512bbd16cb8689bf45cfc380d92 mm/damon/core: implement data attribute report queue
-ba8ce05445787021ed7df77ceeba479bf9e0f655 mm/damon/core: introduce damon_submit_report()
-6a859e137a8a56a6265287d87b48c8dc45c2b523 mm/damon/sysfs: add admin/reports/ directory
-29e4e945f4cc5b519b0a877d626db55a0b045d18 mm/damon/sysfs: add reports/producers/ directory
-511d6e3fed9bfce4b4622ddfb145d49558677265 mm/damon/sysfs: add producers/nr_producers file
-c63195c680a2bc5c40d833e1ef27953af383abd3 mm/damon/sysfs: implement report producer directory
-dae23a0e25a0303d2cc92c14f7fd59c06448ffeb mm/damon/sysfs: implement report producer type and state files
-a9f21d46ab12693c0519064e00c0ac7920503b29 Docs/mm/damon/design: update for report system
-51ff7e2bf012627565c676736dd066273c03a9f6 Docs/admin-guide/mm/damon/usage: update for report producer sysfs
-a5fcd5154cc50ad05ca7bf25c78fcf1cd70045ff Docs/ABI/damon: update for report producer sysfs files
-3fb2ca28200a47a93f27039262e20d695c7b2dbf mm/damon/core: introduce DAMON_FILTER_TYPE_REPORT_MADE
-4f8a1645bdc0c81293ee49155f2259542e24127c mm/damon/core: introduce damon_report_exist()
-b43984cc002c02df40c77a29ddf9231e6c03f719 mm/damon/paddr: support REPORT_MADE type probe filter
-a7710214b9fa30ce1e77b8af741fee980140a7fc mm/damon/sysfs: add filter_report_type file under probe filter directory
-61144d72b742d7a5404cb5469f4bfe873d6edbd1 mm/damon/sysfs: support REPORT_MADE type probe filter setup
-2691f76e211ea83e895b9b1fa9165bb2b55aff5b Docs/mm/damon/design: update for report_made probe filter type
-ed0e8240b124af607d1bceaf54eee9f870983ae3 Docs/admin-guide/mm/damon/usage: update for REPORT_MADE probe filter
-47560b217b3fd4809a8696a1fb2c3cb0968d7388 Docs/ABI/damon: update for REPORT_MADE probe filter
-3a678a31b6faa2b6ee6fb90906b2cc0c662868a6 mm/damon/api: introduce user_report report type
-3d014ce2a5ba2067c296af078b7dbf69276d7229 mm/damon/sysfs: add user_report support for report type input
-f81a9ff0d1dbc989f79eb94ba1bb1179a5d20d43 mm/damon/sysfs: implement report producer addr_{start,end} files
-18cf64514668cdc8b0cc0c1b07a8081249ca7a17 mm/damon/sysfs: implement submit command for report producer
-436ca05939091545815c994d1c11ebbc3dd2c081 selftests/damon/sysfs.sh: add basic tests for admin/reports/
-2cd3092ca8bc517824c4da0cdef35eab350a2047 Docs/mm/damon/design: update for user report support
-415650920f8407760a1f5c273a3dcd83e122d0b7 Docs/admin-guide/mm/damon/usage: update for user_report report support
-e8cc83ac0aaa4627329f877a83278c17b945e68f Docs/ABI/damon: update for user_report report support
-2d90dc6620537309c5f97940e86cab0ab42aebcc ==== fault/report-based monitoring for per-cpu and write ====
-d2ae3b08cce4a0fd66ade24dab39dd52e8886b6f mm/damon/core: implement damon_report_access()
-26acf9935c70dc56a8692d2f54d5ce5699e7ce3e mm/damon: (fixup) fix typos
-adda67107d1466b3988683fc860bd7e0e6638159 mm/damon: define struct damon_sample_control
-773fdd22047df46a49191ea2bbe811bcd6a0296f mm/damon/core: commit damon_sample_control
-a124874df6587ecd7b3d54f104edbf50fdcc4f0c mm/damon/core: implement damon_report_page_fault()
-eb73924001c92a2cefd598538b74e4069539ced8 mm/{mprotect,memory}: (no upstream-aimed hack) implement MM_CP_DAMON
-800dcb9061e1833e9801b4f5ab34998461eca830 mm/damon/paddr: support page fault access check primitive
-f0eea0698b9d28494c2ac0d3498d4610fcdaf7d9 mm/damon/core: apply access reports to high level snapshot
-0ace0c65721c8c867deee41af0efa4f50ba549b2 mm/damon/sysfs: implement monitoring_attrs/sample/ dir
-b6324427c333265b2cbf55723381991628031612 mm/damon/sysfs: implement sample/primitives/ dir
-45b5f985b7ecfd2fe9076755d50a639caa8892f0 mm/damon/sysfs: connect primitives directory with core
-e1eb511fa1ceee08764b1fdff793c52cadd68ef8 Docs/mm/damon/design: document page fault sampling primitive
-06daf1bf528fbc5de5c49d819ab8ebfa55a9e110 Docs/admin-guide/mm/damon/usage: document sample primitives dir
-c7b85d14a25c5487640a4878b2cfa3b6ac3d7452 mm/damon: extend damon_access_report for origin CPU reporting
-8d9241cec9c40674dc88b29674ec9fd3764c5111 mm/damon/core: report access origin cpu of page faults
-6b8fe2695807cf82eaff9346e33a4911a7aa360c mm/damon: implement sample filter data structure for cpus-only monitoring
-b5909f75e0901e84ea5297ce47dcc540c8d9f8de mm/damon/core: implement damon_sample_filter manipulations
-25ef5eb4480dade4c76ad37c729ef2ea358b7781 mm/damon/core: commit damon_sample_filters
-52ea8ab709d4f166d13001d425e640028875c0ba mm/damon/core: apply sample filter to access reports
-4453ecd9ee529c59cea0f3c4b04eaa93470588ec mm/damon/sysfs: implement sample/filters/ directory
-beeef2383ec892c70583c4f81aedf22545ab9dc2 mm/damon/sysfs: implement sample filter directory
-b2c54edce24c02fff7580da25b6987305280c867 mm/damon/sysfs: implement type, matching, allow files under sample filter dir
-9a94bef4fba815a5ccc164ca3fbbeb14d81e0f97 mm/damon/sysfs: implement cpumask file under sample filter dir
-afc0d667dd8b5225ba40f08b87a469f147192f68 mm/damon/sysfs: connect sample filters with core layer
-e89006407f4c5b44005c4a2bdfbf07fe47f1d0bf Docs/mm/damon/design: document sample filters
-e59ea46d834ca58e359470380f562a054b67d86f Docs/admin-guide/mm/damon/usage: document sample filters dir
-95c5b7853d1c0d5cc9d51e06eb9691d438e13d45 mm/damon: extend damon_access_report for access-origin thread info
-27ee9680fc7c606e22956ba6a5c0bf66b3d1afa0 mm/damon/core: report access-generated thread id of the fault event
-38294612c1fc035cfb288729a9d2592be5496d98 mm/damon: extend damon_sample_filter for threads
-c365a19da26b1eef4bc622d5d6d117d47d217fae mm/damon/core: support threads type sample filter
-b072c644fc54aec0e067f002bb59d985ba3b21f0 mm/damon/sysfs: support thread based access sample filtering
-2d931053b455461ea5f716ee6660567125748ad6 Docs/mm/damon/design: document threads type sample filter
-44549d826acaee55bcd8c5c280ae4908382246ae Docs/admin-guide/mm/damon/usage: document tids_arr file
-ae9857b060a1363b3052edf38ca8fea5b7305bb7 mm/damon: support reporting write access
-dbd9532505ad4994a4d02aa4602c542ca382aa80 mm/damon/core: report whether the page fault was for writing
-3f735c306e3a8963252b3ca8d9d2b1ab177fa268 mm/damon/core: support write access sample filter
-1c6f78ab30c011016a1ec3556fc760f54cb504fe mm/damon/sysfs: support write-type access sample filter
-813e5cba8a5a33ee7c25822995d7d48f8c3007b1 Docs/mm/damon/design: document write access sample filter type
-82baf8f6e03f7b36b15bb26d5db4f78ea3edf211 mm/damon/core: elaborate access reports dropping behavior
-c44ddf5982cff377813b2cad1e41cd281510ff92 ===== fault-based vaddr monitoring =====
-e37df9d9859109e9ca4fde8a09a99f9158549b03 mm/damon: rename damon_access_report->addr to ->paddr
-e439d4b008b412be895bcabc2414a8d74d738fed mm/damon: extend damon_access_report for virtual address
-bcfd699188c65360a7b46d1d89fb31a8a91faad2 mm/damon/core: set damon_access_report->vaddr from page fault report
-6c05d18d150961697f0c573b7159eb4876fff9f9 mm/damon/core: support vaddr reports
-369e36a6daeb8b601074b1a7efaa2240e7dc9682 mm/damon/sysfs: move sample directory code to sysfs-sample.c
-184c9e64b9e9fde3e2bc4b8fc0e5c59e7094b1cc ==== docs for DAMON and mm ====
-d5f13f093956c4c2ae55dcb8b55640d2f45165d2 Docs/mm/damon/design: add table of contents for overall and DAMOS
-749f4996c362cd95f0338ebb5432239cb2875a32 Docs/process/2.Process: Update mm tree URL
-89fced3e14f17d4e2cad77658606ba5d931b2f22 Docs/mm/damon/design: add API link to damon_ctx
-5e4f8694f174edaee457d319a976f7c257e12940 ==== ACMA ====
-e15e50b40cb59300d24658c27cdfdc5889abe5bb mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-c14f63849969b0bef0521cc51038454a0b2dcaef mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-5074878f51a3389361dc8dc89db4a3208a3a0f0c mm/page_reporting: implement a function for reporting specific pfn range
-fd976c9272b635e90b044a0d23496cfae377b894 mm/damon/acma: implement scale down feature
-11a3c2657e6012f1e257a9029ffda3c65ba1adbc mm/damon/acma: implement scale up feature
-0dbfbd252f0193285b5f6327f33b79cac63c4fff drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-34edbb8b347d083635f434989cbab0aa46da376e mm/damon/acma: assume damon_stop() to always succeed
-7f99f953a568971c41b22117d0363306f220a3dd === commits aiming not to be posted ===
-d45223257d8c52bbf211a0a0ea2882cd201a8d94 mm/damon/core: add todo for DAMOS interval validation
-8c722c6863dc1cef05001afb275f979e3d458276 ==== refactor sysfs cmd input handling ====
-d9eed6b22450664d5814d97650376be2ce8053ae mm/damon/sysfs: define damon_sysfs_cmd_name type and array
-4761abbd56674f9839443136a2de2a177de0159c mm/damon/sysfs: use damon_sysfs_cmd_names in state_store()
-4398c602fd8726df7cb6f41c5248f62a04aae6ef mm/damon/sysfs: use on/off literals in state_show()
-ce59404afcca095b27dc63b5484e1d2df0425555 mm/damon/sysfs: remove damon_sysfs_cmd_strs
-c88e0042d607471cf6092ebd4e73fe81aa83d4f5 ==== uncategorized ====
-e2efd3a65ddea484a198ba9e6ad8c4c080866bd7 mm/damon/core: add an hacking idea concept interface prototype
-446fdaa000c0ce92811f2b475d55080856eac8d2 mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
-b8cb70559785c0f41dcf9357ba0009ab428f05fd mm/damon: unconditionally trace damon_region_aggregated
-53150bdfe3fdde9a0c656fd070a7defeb0c35ee2 mm/internal: update vma_address_end() comment for removed vma_address()
-fcddd5a428fa546eb985e61ff3bcd354f25d6a1f mm/damon: introduce DAMON_PREP_SET_FLUSH_PGIDLE
-b7cd81e9f50ee778de19fcc7daa447508ef82ab8 mm/damon/core: handle invalid target in damos_fix_stale_charge_pointers()
-ba4fdf6eca899a8b91e7e2dacce8fbb76dcb5b81 mm/damon/Kconfig: elaborate vaddr test config prompt
-5c6a040828a9d3bf95c0e014f8eace99ed3e68a1 mm/damon/core: let kdamond freezable
+6efda33405cddd78ff481146813fad18294bf386 sched_ext: Avoid unnecessary IMMED reenqueues on idle CPUs
+8015f03cc3132d6a4484324bd6e7619750ac12f0 sched_ext: Merge branch 'master' into for-7.4-fixes
+360d281b159153ceb7c254a773433bae1858bd21 sched_ext: Fix scx_bpf_dsq_reenq() kerneldoc claiming NMI calls are allowed
+0aba89317f386f43c946d91238af28250b4dbc60 sched_ext: Call ops.sub_attach() only while the cgroup is online
+9ce6fca02867911ba79bc3664219effe8c7be8f4 sched_ext: Fix stale pick when the donor changes during dispatch
+362212853cd09796c275669e9fc3a25f282bd688 cgroup/cpuset: Fix incorrect CPU accounting with parent's effective_xcpus expansion
+80ca632430e3394ef2676976428965bb12ce6a31 cgroup/cpuset: Recompute effective cpumask in update_cpumasks_hier() after calling update_parent_effective_cpumask()
+8b89d073a6d993ab0f7c31413b74505982aedc28 cgroup/cpuset: Do housekeeping check when isolated child with root parent may get more xcpus
+1826e5aa068cf6c21791773f160b4a2ce5d5f9a5 sched_ext: Factor out drain_offline_rq()
+2227a34ff7bfcf6112931039e3554f4b70b65ab9 sched_ext: Fix ops.enqueue/dispatch() calls before ops.cpu_online()
+4c2e0751d5e6d181a5b9b2a8ada869b5bee66a83 sched_ext: Reject scx_bpf_destroy_dsq() in tracing programs
+fffbdad76a57eed26cff1be19f4cbb407f0b6e7c cgroup: arm the notify timer only while the file exists
+b1310cb291935c788f34ed6eb1e7e9b42cfac045 dm-pcache: do not advance dirty_tail after backing flush failure
+648320de920b30ae1730bbf0e8b86c0df0fb490a dm: fix infinite loop in dm_blk_do_report_zones()
+11b5cd14c0eecae458cecbe53d21a3dbc10190f5 dm-raid: bound array_position before indexing failed_devices
+8b97b168eb4d3affcf23d2980a0c3f35ed9262e2 dm cache: reject kcopyd client destory if it setup failed
+d7216d7be2bbfdf3312695b6e41a4fc7c5e22902 dm snapshot: fix discard_granularity unit in snapshot_io_hints
+4fe2c2baad01da64d47f1a0c8fc093df994bcef5 dm snapshot: split discards on chunk boundaries
+73174b4bb6fcd0e6cf973c9402a0fae2e567ad9f dm snapshot: fix discard writing into the next COW chunk
+cc448e44f6e9fc83f1527f926f52ebfa5a3d1ce9 liveupdate: check for duplicate session before growing block set
+bd93c4e59c5132282c01f142806e307c7380e7ea dm-crypt: reject integrity_key_size with non-authenc AEAD ciphers
+bcb78d49620f666b4a9d62997691e8d031fd4ebc dm thin: avoid wrapping no_space_timeout
+8f611fe94a781c6fb658488cc7eab4e4923e6df6 dm mpath: fix buffer overflow in parse_hw_handler()
+0550d3b14e008b033b02cfce668008ec6addffe4 dm log userspace: drop the device reference on error
+9bb1d14877f4929be17f7fdbeb4cfdf5025d464b dm zoned: back off when reclaim cannot make progress
+dab527d83462a618d99bfc96370ce45ae3428706 dm zoned: do not reclaim a random zone into another random zone
+875a7161fe1574205293c36f7bbd0815023e48a1 dm-integrity: don't recalculate with HMAC because of a dirty bitmap
+406d576cc457203cf86eac7f17839b2efec81db4 dm-sysfs: fix misbehavior if kobject_init_and_add fails
+3133107d98057595c0af39ff907c852134926912 sched_ext: Read exit_kind before flushing in scx_flush_disable_work()
+8ab6980c70076db5f8c0c66a5fac06472b254333 cgroup/freezer: walk exiting tasks in the v1 freezer
+c4965effbe15f837a8089e79c0fc17ab19363cce dm: avoid double-dropping the zone reset submission reference
+ae310e4ad872a42f4707a596e66417f2aaa52826 dm: Reject table setup after queue or disk teardown
+df8daa4d916c88ef7888c738e0eb3b6f11714a6f dm cache: validate the discard block size before narrowing
+ae5b40accbc06f93e6a513e0e9a07fd32b197e49 dm mpath: cap queue_if_no_path_timeout_secs
+6fed9e26810f0b466dbcebe35a73d1fd48793ff5 dm-crypt: defer async write submission to write thread
+cab697164b47eecfa2f146024f5d661f99a1a1e7 bootconfig: Allow keys with the maximum supported depth
+f734e5deff81aa7f33b16963461f23aec95b9a68 tools/bootconfig: Test listing keys at the maximum depth
+0ae655bce1934857fa3e316ddcb4be38c30dbd38 perf/x86/amd/uncore: Avoid context migration from non-owners
+fb3f6b21b04f1e8b8982e90e9bf62db9f0dcb5e4 tracing/perf: Clear stop state in perf_trace_add()
+6bea5e29daf123a78ae58cb5926023f4705f396f perf/hw_breakpoint: Clear stop state in hw_breakpoint_add()
+3bbd85b2f67aff58f2cbec9a7fb705677b94473b perf: Fix racy update of cpc->hrtimer_interval
+59f1398140869432c7171b9a2a279ca315467c4e perf/core: Do not resurrect cpuctx->cgrp after last cgroup event exit
+e1aed52b68a361f6fc047b24a37d9ec4d928a158 cgroup/freezer: Fix exiting tasks left frozen forever after rmdir
+564405c424f49d70b13debe7fe5b550234ad6b84 sched_ext: Reset task fields on exit of an SCX_TASK_READY task
+d12afc2f9ed6e14019fed9c02a74ad699915dc85 dm-cache: fix NULL pointer dereference on open failure
+421420758be348cb90715bfaa26e1211a12ff1d0 dm-cache: fix ending a cursor that never began
+62ee9c09366cad69410330087d990e469dd92314 dm-thin: fix data corruption if discard races with regular I/O
+dfb95816cf6f2f2660af2ec64c65dc204c60b5e7 dm-thin: fix leak if __set_snapshot_details fails
+c557fa19a83efad1e20eb733df821b745a4589ff dm-thin: fix parsing of feature arguments
+624d146d97c5fbe7200ef4b2dd5350ecf57d6b79 dm persistent data: test return value of node_copy
+fa887f2ebee7aff97eb87b3365939616ade09774 dm persistent data: don't ignore writeback errors
+b27523a0781aae0b51ac13f29dc65373d14b8434 dm persistent data: don't leak bufio buffer if find_leaf fails
+c834161ded1a141a58d5f03b24f6894291222c96 dm: fix use-after-free when dm_get_device() widens the open mode
+58c5852ca96c58cdfdb9646870b217fc54d06a97 kho: check fdt_phys in is_kho_boot()
+ea51d1a4c31fc8320c34f897dc5296a0bfc5c7ca x86/CPU/AMD: Don't print reset reason in VMs
+6616bffa9b52da1338cf8bff9882404e02b9e361 sched/deadline: Fix spurious -EPERM for migration-disabled tasks
+8127ec8458df29bd702db602473042ccb9e619b9 sched/uclamp: Reject clamp values above SCHED_CAPACITY_SCALE
+f7141257dd67d4936f906a6cfd1d0007721f6898 sched/core: Fix cpuset_mutex double unlock in __sched_setscheduler()
+78b47fb995b5f3e7e54f0bde365063b530299726 sched/cache: Don't use fits_capacity() to compare thread and CPU counts
+ec6f6731538e0d45872eb279fdeb477bed152d6f sched/core: Do not touch SMT siblings that have not joined the core yet
+543a83912fed1b2933bfa6f3fc2f242d487065c1 spi: tegra210-quad: don't overwrite refreshed status with lost-IRQ snapshot
+7b9e6f7bc13c0259b192d0a964e802d4ad53b8b8 spi: tegra210-quad: Track DMA mapping state
+d04ad85dd8015713b0b2531b5b934fe67828d741 spi: tegra210-quad: Unmap DMA buffers on transfer timeout
+e9cfc23e06d15a313508be0b3ac57439cc143aab spi: tegra210-quad: Fix timeout path status handling and DMA leak
+8ba1ade3e6b595b9091040feaa3341d7e45ba95d dm crypt: fix use of uninitialized percpu_counter in ctr error path
+9d20773cdfb02f89fae25f2f746830680608f58b regulator: dt-bindings: fan53555: Add Silergy SYM827
+0429619476621b4b8d68b09d7a090533d628ed0b regulator: fan53555: Add support for Silergy SYM827
+fd89c52811a4c0754795199f86e0889bee7a70a3 regulator: fan53555: Add support for Silergy SYM827
+ba4834fc81ddc0b500843c827c09d3ff95a317a9 cgroup/cpuset: Reset partition data when an invalid partition stays invalid
+93eb230146f8c6246b0b96e7f1b980ac5e8b8d81 cpuset: add early empty cpumask check in partition_xcpus_add/del
+2727aca4439ee4b9085141a3babadc8de580397f vdso: Add VDSO_UNALIGNED_PACKED config option
+5e85b36768b7bba53a55b1c9a1b1cdcab3684634 tools headers: Update the vdso/unaligned.h copy with the kernel sources
+f8623ce596492d2e96ca57eeec992938d3d79f00 software node: only let the owner release a managed node
+75b1663222d7aa0b3c33cc3522a347757e6d1d26 entry: Fix return type of syscall_trace_enter()
+efe191f1605a149b06eb0fe1ff975e7d3137c9bb entry: Complete syscall_enter_from_user_mode_work() to bool migration
+6c4c687d765de1d3b15e67823a8649cd527d60f7 spi: dt-bindings: pl022: Allow a power domain
+385b5ec1f31dd39297578eed42be74b07ae74017 timekeeping: Read getboottime64() offsets under the sequence counter
+c49b3c20a2d0b22700e2100a527e68e829ece7f0 tsacct: Keep task begin times stable across suspend
+67f1969e29b692ab3cfcc97ba175b9109212de00 timekeeping: Reject cross timestamps for invalid AUX clocks
+c1b96ba87e3caaa701d6dba254e58db7cc3c99be timekeeping: Refresh auxiliary base before offset validation
+eab627dcd18a18a44a2cbee47df3058d3637ba0d NFSv4.1: retain MDS I/O until both thresholds are met
+2ffcf17d26dabef5793aeadf75a23c595a72be08 NFS: honor UTIME_NOW atime with explicit mtime
+a38d7cc8c90f0d093550487c2905b51db0be1522 NFS: update ctime for atime-only UTIME_NOW requests
+b9d518902ff1969f93d2b4787951d98e50ab0181 NFS: Fix inverted cross-directory rename check
+89b91409b2342e7629b1271eba315a0f06495247 NFS: restore directory index when resuming readdir
+702d55edc017632a0c39c1d4bdd579bdbadfd730 SUNRPC: wake poll waiters when an empty pipe is unlinked
+0cd6e563938a5b2f88ce0008eda32f9617c9d81f sunrpc: instantiate rpc_pipefs dentry before publishing it
+30150b94c70eff4bf916d7d367ecf75de25d5337 SUNRPC: preserve fatal network errors during RPC binding
+5b0ac1f82201c2ab2d9c31ed568cc782bac6a399 SUNRPC: preserve timeout policy when cloning clients
+7783534ce5fee57adf1b9025745c9af2e1ce2ccd SUNRPC: preserve transport security policy when cloning clients
+0502c7e7f171a8c9c892bdef89e6aa6f44d7b2a3 SUNRPC: Fix TCP-with-TLS transport class identification
+8acd94f02a960c8936df25a7af9c02c8ea87064d SUNRPC: Balance switch queue length on transport removal
+f14b157168ac106cfac6d577e08726488b1b886c SUNRPC: Balance queue accounting when relocating a task
+000a87910213562ff09f5bc38cd366ce34fccf71 NFS/localio: hold the client across an asynchronous LOCALIO probe
+b3497ac6e96effd5450b820de171e1137223d36c NFS/localio: probe again for LOCALIO when localio_enabled is set to Y
+5e810a57a1cf2fc785d89e711ff40f1112f6404c NFS/localio: give the LOCALIO probe a short timeout of its own
+9060f5ba658c9b0a7332be55b3d8abfc2b08618b spi: virtio: move teardown to .remove()
+3b1ce3e0ccba4aadbf6330a5ed8bda78f0c9353a sched_ext: Fix partial-SMT core counting in calc_shard_layout()
+8ef0c923104b4ba38249b364867d779f5a9b5dbe selftests/cgroup: Fix "test_cpuset_prs.sh -v" failures
+a25cc4c75fdd8921f160bc3950665889eba7374b cgroup/cpuset: Protect current->mems_allowed read in cpuset_fork()
+56681bc448a80bb2473026b41c44c133766bc38d cgroup/cpuset: Correctly set isolated_cpus when switching partition state
+427d4cd8048c8e18e7d0c7d0637e7fbec9fba078 NFS: don't let delegated c/mtime stamps go backward
+f13110f9cfb95a09d286eee561adc96c6a02664f NFS: stamp after the server's ctime when truncating under delegated times
+23b9cf773211d536147aa53ade68a88d457838ac NFS: stamp after the server's ctime following a CLONE
+e8433473eca284bc561373d0a0fff632f76aa594 NFSv4: wake blocking lock waiters when a delegated lock is released
+4fdc29eb6730207b4a6f63f81575c7aa5c2a4ff1 NFSv4: remember that the server may send CB_NOTIFY_LOCK
+1fa415883c37b02ff17acdd7977ed591d3d389ee xprtrdma: serialize unmap_sync with xprt_disconnect
+fcbff7b56a881bbe041b6c5ba12831a3c1ac1bb4 sched_ext: make DSQ iterator stay drained after NULL
+9e28836b480c66cca4c3d391177f5b3a50927f7d pNFS: avoid repeatedly cancelling I/O for the same lseg
+9d84719d34cb98a2f584e38679f95216c1a15d0e SUNRPC: add request-scoped disconnects when cancelling tasks
+788c4f628565897e7090cdf5bb2e049e74aeca96 NFSv4/flexfiles: limit transport disconnects when cancelling I/O
+ab75132e99eb0b7dcd3a1882e35519f8229a669e Remove myself as a kdump reviewer
+47930d1236d2988cdc580c10d3af21b6b02d7ece dm-verity: don't restart or panic on errors during system shutdown
+e5e03918fbec31f0c896f4f43c2bd2aadf35d43d dm-integrity: don't attempt to commit journal on disabled device
+700a332c3fe33014bbd5ae852d71ba679fc29e0a sched_ext: Reject DSQ iterator kfuncs in tracing programs
+151d95a1e696979a7d54b23c96338754be2fcc1f NFSv4: Prevent indefinite waits for out-of-order OPEN stateids
+46af2c975958119290ddcd984a98491966123a7b dm-raid: fix use-after-free in raid_dtr()
+2388a673e9276de30c7e917fce50830e497d46cc tracing: skip boot kprobe setup when no events were requested
+b91a5c16996d089cd07ceaf33b5a621cb94c2c2f docs, kprobes: Fix bracket
+3b4c98b47ba7c3c57bcf54fb85f54a854622041c x86/video: Preserve the default VGA fallback for legacy modes
+26fa92f351d4993428268afebf6c60c987477af5 tools/bootconfig: Close only opened braces in compact output
+381b391bfaa3f10d52da4740529804b0b6b8160d bootconfig: Trim unquoted values at end of file
+f60f98881b54b0cf36b61f41c91fbd93b76a2d9c kprobes: Switch ftrace ops when adding probe with post_handler
+c8c1e4096830e3f2deda00661bdecfe06d113460 kprobes: Fix UAF and queue cooling probes on forced unoptimization
+081f8fba975a2f2361d74e5e34dbc1837599394a kprobes: Do not overwrite jump instruction when re-arming unoptimizing probe
+c55722233c041865d1477a58adbc52540bfad017 kprobes: Re-optimize blocked sibling probe when cooling finishes
+f1d9b7a3fe99b4228acdbab3c744c29f7ffe86ef tracing/probes: Check enabled and busy state before unlinking sibling probes
+72d3a5cb0cd7335553549aaffecc683e3ecc0c43 tracing/probes: Enable newly appended probe when target event is enabled
+9b6e9d6a11090ac34516c45f48663b37ac94a9b1 tracing/probes: Fix BTF bitfield parsing and out-of-bounds buffer write
+c1e2c63e65421068566db3dde44dfd4fe7adb46d tracing/probes: Fix missing BTF kind checks in char pointer/array helpers
+a0f836eea463d4c468edb58eedb03911c9c0791d tracing/eprobe: Fix 1-byte signed field fetch in get_event_field()
+92d9fa0ed69e1f724feed908bd0a462a42df4b88 tracing/eprobe: Disallow attaching eprobes to fprobe events
+2721573e6c6faaba2e31f352f2c02ec5f3ecf5e9 tracing/probes: Fix user-space dereference string array store type
+0941144ebeaf3ce46c80711f00e935921eb28b21 tracing/probes: Reject array count on non-dereference string sources
+c15120853eebbda98f3fe1f1e59370439c6c4447 tracing/uprobes: Fix memory leak of tail in __trace_uprobe_create()
+2a490521d74ac76e5eb3c9a69d928a4c76dd3f78 spi: axi-spi-engine: Start the program length at zero
+c1ad01173511e8aec378af9f5285f98b767b1381 cpuset: settle isolation state when CPUs are given back to parent
+e234ed1bb82c96a5643fd70784f16cf3d72eeed3 cpuset: generalize the validate_partition() interface
+e92cd41e8e5ee5616c6c7cd4378661d942f0a7c0 dm: fail a REQ_PREFLUSH bio with data when its preflush fails
+0dc2a4dac3d04e9e4479aeb0b46172feab1cca0a x86/mm: Ensure write visibility during LDT installation
+7693e1350b06191143724da742559fb47211348e memcg: make MEMCG select BLK_CGROUP
+442fbdb90e120c39bc0b27ffdcc6d7733472ddb9 Merge tag 'bootconfig-fixes-v7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+97f4f3805fd22bfc9cbdede5a2cfb0c48ee7df1e Merge tag 'probes-fixes-v7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+bfac855a820c3a32219779e4fb44804e8f81977d Merge tag 'kexec-fixes-2026-11-15' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
+04da1a14b9eae1dbc2ccc007b54f46771f9cb529 Merge tag 'fixes-2026-11-15' of git://git.kernel.org/pub/scm/linux/kernel/git/liveupdate/linux
+d56cd25dc0dc3fdb79e1f1df8dc366dabff8ec54 Merge tag 'core-urgent-2026-11-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+ca6709295ae5420d1a391f32e6a7f23b7fda14b3 Merge tag 'perf-urgent-2026-11-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fc28723faec6c5eda0263b46e23dd89d5c29f464 Merge tag 'sched-urgent-2026-11-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+0feaf5349e0a0521de3406343df32954801784d9 Merge tag 'timers-urgent-2026-11-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fa2933aac170dd19c6a7f0d7b81a8f537e40915c Merge tag 'x86-urgent-2026-11-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+42ef815ff6b282e75248e8e084508fca4a694b70 cgroup/cpuset: Remove redundant WARN_ON_ONCE() in remote_cpus_update()
+acec9637e03ca54bd3c3a0c1a6ad5c6dfa07c0df cgroup/cpuset: Don't revive invalid partition without active CPU on hotplug
+7893d906220694e2c8a13dfb52ec85b853cbbf7b Merge tag 'driver-core-7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
+e147c68fea1594901975ad0c9777a6e42077b39e Merge tag 'regulator-fix-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+481f9afb337b7096aa177cde0c077dee0c649ae5 Merge tag 'spi-fix-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+87aecd24f58e15256870befed777bbffc5d4a9d5 Merge tag 'for-7.4/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+f70886e5a510cd7fc2c3aef91c46a14f4485fe63 Merge tag 'nfs-for-7.4-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
+4b15991b3be43e9581aca489ec30a351310bb49d Merge tag 'cgroup-for-7.4-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+a9daf327f3ff90625204876981f88cfe2b6f6fff Merge tag 'sched_ext-for-7.4-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+aebb7274476403040d582c61478df8f4a7bf9cd3 Linux 7.4-rc3
 
---===============2769302545818347190==--
+--===============5030111001863922541==--
