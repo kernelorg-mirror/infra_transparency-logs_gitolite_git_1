@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1730195212600071311=="
+Content-Type: multipart/mixed; boundary="===============8473924933709505328=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Sun, 15 Nov 2026 01:00:44 -0000
-Message-Id: <179470444465.2722237.10054236738017302799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
+Date: Sun, 15 Nov 2026 01:07:33 -0000
+Message-Id: <179470485336.2726237.4416951626400049905@gitolite.kernel.org>
 
---===============1730195212600071311==
+--===============8473924933709505328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+repo: pub/scm/linux/kernel/git/linkinjeon/smb
 user: linkinjeon
 changes:
-  - ref: refs/heads/ntfs-next
-    old: 84eabc3ecf06c0af21daa2412e8ef1869dd44429
-    new: b028412297e640db52195df2649368c1910e8e4b
-    log: revlist-84eabc3ecf06-b028412297e6.txt
+  - ref: refs/heads/master
+    old: fa4ad798f6f681031775266044ba1b0cf3c670bd
+    new: 23c62304dde29abe92013d85910d03a77dada35d
+    log: revlist-fa4ad798f6f6-23c62304dde2.txt
 
---===============1730195212600071311==
+--===============8473924933709505328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84eabc3ecf06-b028412297e6.txt
+Content-Disposition: attachment; filename=revlist-fa4ad798f6f6-23c62304dde2.txt
 
 81986a81f09fae73926c7c44863b335880269c90 wifi: ath12k: assign device id from the WSI index
 1e678e37ff13e45f22d78d802fcefa8f9a0d9395 wifi: ath12k: fix decap of MSDUs spanning multiple RX buffers
@@ -260,6 +260,11 @@ be94710b1f6ba1bea33e73129c110af80e999b2d tracing/eprobe: Install the trigger for
 73a0060cb22a1d2bd8bff364c18a4259ec0cb528 smb: client: fix OOB write when compounding SMB2_IOCTL with encryption
 5cdc3746fa163fb4e8d05fa3cabf46bc6aa7df75 x86/mm: Fix global ASID handed out to two processes
 1178120c3bed1733aea1c465200a6b42f8a7105d kbuild: rust: support stabilized flag `-Cprofile-sample-use` for Rust >= 1.100
+84f4cc8d41744f103d6fa7e87739b2be5a2d27b0 ntfs: fix out-of-bounds write race in NTFS_IOC_LIST_STREAMS
+5e7143476219eac7cab7bdd341db68dab1649737 ntfs: check the file name against the key length of an index entry
+ce5cdda498a9479b32ba1c7d68b1d97f3c840354 ntfs: silence kmalloc/kvfree mismatch warning
+0ea30dd6eeabc09235d5c2cdb98ca4e0d593963f ntfs: do not read an index block outside $INDEX_ALLOCATION
+bada7bbb11aaa6feba8904cf38ff833453f5b5d9 ntfs: open the index allocation before reading or writing an index block
 42ac1f1917ae678ee2c47f415ab844af03bbd46b ksmbd: grant a caller what its groups and OWNER RIGHTS ACEs allow
 2fd145f8865bb1a6c38a3dc68fa44290008789d8 ksmbd: refuse to read a handle that is not open for reading
 81fefb6c635489e71e286d1465b6dd1d0a27ceec ksmbd: skip metadata-only opens in sharing checks
@@ -813,8 +818,5 @@ cba88960471ac67635080708b67ed5c2a2e4e9fd Merge tag 'ksmbd-for-7.4-rc3' of git://
 aacb7797504183a90d66b19b1efb555cfe9b3eec Merge tag 'ovl-fixes-7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/overlayfs/vfs
 54975c6523dc77862c25deeb5fa395990b8d3fc4 Merge tag 'hwmon-for-v7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 23c62304dde29abe92013d85910d03a77dada35d Merge tag 'for-linus-7.4a-rc3-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-fe008f75a8b630afa4a7421d4a589a15a2bbe173 ntfs: flush sibling attribute mappings during stream fsync
-93c5a77b8dcc43229743e02864009ae72648fc84 ntfs: don't let a fatal signal interrupt metadata reads
-b028412297e640db52195df2649368c1910e8e4b ntfs: convert a named $DATA stream safely when making room in a record
 
---===============1730195212600071311==--
+--===============8473924933709505328==--
