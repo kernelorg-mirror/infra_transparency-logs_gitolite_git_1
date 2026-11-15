@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Sun, 15 Nov 2026 11:43:33 -0000
-Message-Id: <179474301305.3163979.7610290249923052678@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Sun, 15 Nov 2026 11:50:09 -0000
+Message-Id: <179474340971.3169985.11093562744034436559@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
-  - ref: refs/heads/for-7.5
-    old: ae998e258e4b2a576c937889ac45f72dadee3eb1
-    new: 374557008e5d83f15d2601fcf5e230db48ba2ae9
-    log: |
-         374557008e5d83f15d2601fcf5e230db48ba2ae9 spi: intel: only check locked opmenu for SW sequencer operations
-         
+  - ref: refs/tags/regulator-fix-v7.4-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 6039865ba1907df5bd51340c5268f88329ea286b
