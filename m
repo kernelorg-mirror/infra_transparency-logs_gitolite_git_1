@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4837002051111248892=="
+Content-Type: multipart/mixed; boundary="===============0609486199790158785=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Sun, 15 Nov 2026 21:02:31 -0000
-Message-Id: <179477655122.3573585.7548183826395925209@gitolite.kernel.org>
+Date: Sun, 15 Nov 2026 21:03:11 -0000
+Message-Id: <179477659187.3573939.9948012269093959059@gitolite.kernel.org>
 
---===============4837002051111248892==
+--===============0609486199790158785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ojeda/linux
 user: ojeda
 changes:
-  - ref: refs/heads/rust-next
+  - ref: refs/heads/rust-fixes
     old: 23c62304dde29abe92013d85910d03a77dada35d
     new: fa2933aac170dd19c6a7f0d7b81a8f537e40915c
     log: revlist-23c62304dde2-fa2933aac170.txt
 
---===============4837002051111248892==
+--===============0609486199790158785==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -79,4 +79,4 @@ fc28723faec6c5eda0263b46e23dd89d5c29f464 Merge tag 'sched-urgent-2026-11-15' of 
 0feaf5349e0a0521de3406343df32954801784d9 Merge tag 'timers-urgent-2026-11-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 fa2933aac170dd19c6a7f0d7b81a8f537e40915c Merge tag 'x86-urgent-2026-11-15' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============4837002051111248892==--
+--===============0609486199790158785==--
