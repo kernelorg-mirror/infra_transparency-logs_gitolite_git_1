@@ -1,28 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Sun, 15 Nov 2026 15:42:47 -0000
-Message-Id: <179475736792.3340299.11731777137998925705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Sun, 15 Nov 2026 16:06:50 -0000
+Message-Id: <179475881047.3357255.3386354094605950717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/block-7.4
-    old: a56d5a485be4a9d52f0d7b3ed0dc3521367cb986
-    new: a6f37fb3f5747bb7cca5cd6630dfeea4435022a1
+  - ref: refs/heads/scx-pvsched
+    old: 933149216b20c0a80995553a97998102bf649ae6
+    new: dfaa87f70795dc1bbe0b37e63f6fc1db0a62a59f
     log: |
-         78c4f290e2637f8039e2124a174a24a341b38b1e ublk: validate all parameters for zoned devices
-         a6f37fb3f5747bb7cca5cd6630dfeea4435022a1 ublk: dispatch the next fetch after a batch failure
-         
-  - ref: refs/heads/for-next
-    old: 38a53fcb31b1b255142e012b97a20fb1074ac0cb
-    new: c289c3a55f1db797192304e3879ccc646f02099c
-    log: |
-         78c4f290e2637f8039e2124a174a24a341b38b1e ublk: validate all parameters for zoned devices
-         a6f37fb3f5747bb7cca5cd6630dfeea4435022a1 ublk: dispatch the next fetch after a batch failure
-         c289c3a55f1db797192304e3879ccc646f02099c Merge branch 'block-7.4' into for-next
+         561df0e885506f0bfeaeb361bfac5a70294274bf bpf: Allow importing memfd pages into an arena
+         5094ae5207dd387b88ad996cec5fede5c01ea88b bpf: Allow importing device-dax pages into an arena
+         b0aea7a277bd312604fe2057f156caa5d48ea586 selftests/bpf: Test importing memfd pages into an arena
+         d9808115126da455a28c547829b3c69c51edf91b selftests/bpf: Add a host/guest shared arena prototype
+         dfaa87f70795dc1bbe0b37e63f6fc1db0a62a59f [DEMO] sched_ext: Add paravirt host and guest example schedulers
          
