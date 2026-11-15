@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 15 Nov 2026 00:19:45 -0000
-Message-Id: <179470198561.2690471.14613214066134174042@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Sun, 15 Nov 2026 00:29:02 -0000
+Message-Id: <179470254249.2697241.7304105629171131039@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: d720e1dcd8ece040996534541c5957f66d652e26
-    new: e671e6b9db126afee4f43386d434f9cd495e192c
+  - ref: refs/heads/ntfs-next
+    old: 1fecf28297cff191a05ca820e4df03c2b417be75
+    new: 84eabc3ecf06c0af21daa2412e8ef1869dd44429
     log: |
-         01e16f9ae7cc930117a06a88982d7fd9a49e615e foo
-         e671e6b9db126afee4f43386d434f9cd495e192c foo
+         84eabc3ecf06c0af21daa2412e8ef1869dd44429 ntfs: convert a named $DATA stream safely when making room in a record
          
