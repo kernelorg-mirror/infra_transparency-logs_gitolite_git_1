@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5912330138534182591=="
+Content-Type: multipart/mixed; boundary="===============6321772826299041807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 15 Nov 2026 22:46:19 -0000
-Message-Id: <179478277921.3648289.18053000996138632257@gitolite.kernel.org>
+Date: Sun, 15 Nov 2026 22:46:27 -0000
+Message-Id: <179478278767.3648502.13238238389271956119@gitolite.kernel.org>
 
---===============5912330138534182591==
+--===============6321772826299041807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: f8623ce596492d2e96ca57eeec992938d3d79f00
+  - ref: refs/heads/main
+    old: 7475ea8b58616b33c04afb976cf0fbaad9dd63fb
     new: aebb7274476403040d582c61478df8f4a7bf9cd3
-    log: revlist-f8623ce59649-aebb72744764.txt
+    log: revlist-7475ea8b5861-aebb72744764.txt
 
---===============5912330138534182591==
+--===============6321772826299041807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8623ce59649-aebb72744764.txt
+Content-Disposition: attachment; filename=revlist-7475ea8b5861-aebb72744764.txt
 
 81986a81f09fae73926c7c44863b335880269c90 wifi: ath12k: assign device id from the WSI index
 1e678e37ff13e45f22d78d802fcefa8f9a0d9395 wifi: ath12k: fix decap of MSDUs spanning multiple RX buffers
@@ -369,6 +369,7 @@ bb203c9af62adb59d82e8ecb715e778329e3b771 smb: client: don't retry failed writes 
 1d4fcbfad120ddc30b81651f12096bfc84052f9a smb: client: don't spend read retries on reads cut short by a reconnect
 15ea186abbcd04157c62e0901701870b812bb2bd smb: client: don't block dying tasks waiting for writeback on close
 1a747bacf250959703c68fed1bb643f888dd3ad2 smb: client: issue writes from a worker if the task is dying
+f8623ce596492d2e96ca57eeec992938d3d79f00 software node: only let the owner release a managed node
 75b1663222d7aa0b3c33cc3522a347757e6d1d26 entry: Fix return type of syscall_trace_enter()
 efe191f1605a149b06eb0fe1ff975e7d3137c9bb entry: Complete syscall_enter_from_user_mode_work() to bool migration
 4fad962a6080266170714f77a9dc1b97fb09980f ACPI: s2idle: Handle shared _Ixx GPEs without an EC
@@ -902,4 +903,4 @@ f70886e5a510cd7fc2c3aef91c46a14f4485fe63 Merge tag 'nfs-for-7.4-2' of git://git.
 a9daf327f3ff90625204876981f88cfe2b6f6fff Merge tag 'sched_ext-for-7.4-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 aebb7274476403040d582c61478df8f4a7bf9cd3 Linux 7.4-rc3
 
---===============5912330138534182591==--
+--===============6321772826299041807==--
