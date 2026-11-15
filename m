@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7235386121233546244=="
+Content-Type: multipart/mixed; boundary="===============3902924851030032245=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Sun, 15 Nov 2026 09:50:58 -0000
-Message-Id: <179473625825.3087292.6855635201867042738@gitolite.kernel.org>
+Date: Sun, 15 Nov 2026 09:51:07 -0000
+Message-Id: <179473626785.3087501.15678152456557614173@gitolite.kernel.org>
 
---===============7235386121233546244==
+--===============3902924851030032245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,52 +16,37 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 647b81ddefc6364290e67bf33c89d54971f8995e
-    new: aa40afa831ebfe45e40a23721711059f2ac584d4
-    log: revlist-647b81ddefc6-aa40afa831eb.txt
-  - ref: refs/heads/master
-    old: 647b81ddefc6364290e67bf33c89d54971f8995e
-    new: aa40afa831ebfe45e40a23721711059f2ac584d4
-    log: revlist-647b81ddefc6-aa40afa831eb.txt
+  - ref: refs/heads/testing
+    old: 196649be51db271d0bfd68e46ebe8f8e0f7e173c
+    new: 48bcad36a131fa67a29a5ac430aceedf2d6f3d0f
+    log: revlist-196649be51db-48bcad36a131.txt
 
---===============7235386121233546244==
+--===============3902924851030032245==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1794736254 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1794736264 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1794736254-7881464fcdbb530e33e7a3c6241ca99609825437
+nonce 1794736264-100cecf76f9f15942176a393d9793d0d39b7f0f7
 
-647b81ddefc6364290e67bf33c89d54971f8995e aa40afa831ebfe45e40a23721711059f2ac584d4 refs/heads/main
-647b81ddefc6364290e67bf33c89d54971f8995e aa40afa831ebfe45e40a23721711059f2ac584d4 refs/heads/master
+196649be51db271d0bfd68e46ebe8f8e0f7e173c 48bcad36a131fa67a29a5ac430aceedf2d6f3d0f refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCavmAfhMcbWtsQHBlbmd1
-dHJvbml4LmRlAAoJEMw6ZPquma3S7IQBAL49C/RnNjGL72ZvDULykSJj/r+37elN
-9fIX1VvKka5UAQDz0I772/SGUy2rtIXVzUlaZkr/9JWpetRqhVJPiPw8Aw==
-=f0pL
+iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCavmAiBMcbWtsQHBlbmd1
+dHJvbml4LmRlAAoJEMw6ZPquma3SPkYA+walNfxtpIimlz/obD/3ZCO9kqpEaR1F
+rWqKZVpvdBrUAQD64AVVMY3UE7sz4aSwDgn3XADwoBpZYxJGYESaDXdqCg==
+=MT1k
 -----END PGP SIGNATURE-----
 
---===============7235386121233546244==
+--===============3902924851030032245==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-647b81ddefc6-aa40afa831eb.txt
+Content-Disposition: attachment; filename=revlist-196649be51db-48bcad36a131.txt
 
-378add65fd7d352de9fe440d167fde5bf511b090 hwmon: chipcap2: balance regulator state
-22aecf164e1c0c849808c342c65322d14f45176f hwmon: chipcap2: do not discard pending alarms on disable
-bed5f0c075eb99442fca6a61c009a32752eceda2 hwmon: chipcap2: serialize access to the alarm indicators
-8c02722be2caa6604a837b81faeaba78250eda4a hwmon: chipcap2: synchronize ready IRQ state
-b7743c6dbe3ab94045164ef298f65cfb9b0b450a hwmon: (aquacomputer_d5next) Check maxcollection when probing AQUAERO devices
-59d586c9e47d1205563bc9b5a5d443adc3ba5bc5 hwmon: (asus_wmi_sensors) Avoid global struct mutation
-dc992efeace99e479aec7a8f0c49a9493c729606 hwmon: (hp-wmi-sensors) Avoid global struct mutation
-185039b1c0389b70ec52a6d3e3c1494e2d0e23da hwmon: (hp-wmi-sensors) Fix unbounded loops in scale_numeric_sensor()
-5b51ff0887b9f88d042b92dd07fcdda4132f0ebc hwmon: (lm87) Fix drvdata type confusion in vrm_show() and vrm_store()
-c4a01c2a80b203ab5f80885f6994346fe217f19c hwmon: (nct6683) Fix incorrect struct cast in show_pwm() and store_pwm()
 61bc4514b8e99e9733c04de028885f6fc906d628 hwmon: (peci/dimmtemp) Fix devres leak and UAF on concurrent unbind
 a5802c587da97a4ff85c04aad6043fa26640fc9b hwmon: (pmbus/q54sj108a2) Add missing NULL pointer check
 11dfbd835b17b75f7cc7a4a969f33ff702b1b081 hwmon: (pmbus) Check return value from pmbus_thermal_add_sensor()
@@ -1076,5 +1061,15 @@ ad3bee5c582e95754ac483f00dbeed882b9eb5dc bnxt_en: Map HWRM_ERR_CODE_PF_UNAVAILAB
 ead6fa9a0ab194f02a2f36d634b193e9c5f9a1c6 Merge branch 'bnxt_en-fix-pm-resume-on-vfs'
 29dfa436bc488056a84ee423ba82336db453e2a6 virtio_net: check RX buffer length before DMA sync
 aa40afa831ebfe45e40a23721711059f2ac584d4 tcp: fix NULL pointer dereference when restarting a Fast Open listener
+73b660bd5cfff329b018f7f96466c6310b9c91d4 can: bcm: copy the CAN frames outside of lock_sock()
+f71db4b235b8b18c149cf642aaa04b92d811d554 can: bcm: do not remove the procfs entry in bcm_notify()
+97f5539d6818431110efac2d307713dacebd6a33 can: netlink: fix static FD-NON-ISO mode validation
+df38d0994b27fd3d0327f316b393ae72372e5b81 can: raw: use a private mutex instead of lock_sock()
+577663bbafcde2293f15d672b0fd126bbcfc9cd7 can: netlink: fix IFLA_CAN_BITRATE_MAX attribute sizing
+601f0b506a5793e713f1ab0296000c9c6e36a64f can: isotp: use a private mutex instead of lock_sock()
+2218fd2a9714d51c7cca4d5c049a7658f0e317fc can: netlink: fix CAN XL PWM attribute sizing
+e0a93dd4c26c6f1b3b53f97b453fbee88ffbb539 can: bcm: use a private mutex instead of lock_sock()
+5bbc614e92fd74f40c33d3cb66b37c204c41cd98 can: gs_usb: gs_can_start_xmit(): don't leak uninitialized memory over USB
+48bcad36a131fa67a29a5ac430aceedf2d6f3d0f Merge patch series "can: avoid RTNL stalls in CAN_RAW, CAN_ISOTP and CAN_BCM"
 
---===============7235386121233546244==--
+--===============3902924851030032245==--
