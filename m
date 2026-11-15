@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Sun, 15 Nov 2026 12:14:30 -0000
-Message-Id: <179474487013.3187717.9938582925917110989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 15 Nov 2026 12:16:09 -0000
+Message-Id: <179474496934.3190605.1026600754467832759@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/for-7.4/dm-fixes
+  - ref: refs/tags/sched-urgent-2026-11-15
     old: 0000000000000000000000000000000000000000
-    new: 638be6eeaa934256813457e1f8c6dbe040833277
+    new: a2b999e91309143025de2c3e91c9b153d67d55ce
