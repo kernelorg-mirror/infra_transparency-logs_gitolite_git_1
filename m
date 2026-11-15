@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Sun, 15 Nov 2026 15:22:44 -0000
-Message-Id: <179475616479.3325665.11176959029895565277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Sun, 15 Nov 2026 15:28:03 -0000
+Message-Id: <179475648334.3329505.11065347508589700208@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/for-next
-    old: ab43ec385580b8f8abf72d70fa3acbf4e4f098a5
-    new: 38a53fcb31b1b255142e012b97a20fb1074ac0cb
+  - ref: refs/heads/for-7.5
+    old: a23c7afbc587fa8afd74f1ddd62247e12aa329d8
+    new: 4f338225cc2a9af081ea1eb20b28895e25b23ed0
     log: |
-         d4912d6440bf6d255e1fa1c360c8ddb39d0e01bd io_uring/io-wq: show stuck workers rather than WARN on a slow exit
-         38a53fcb31b1b255142e012b97a20fb1074ac0cb Merge branch 'io_uring-7.4' into for-next
+         4f338225cc2a9af081ea1eb20b28895e25b23ed0 workqueue: Skip non-freezable workqueues in freeze and thaw
          
-  - ref: refs/heads/io_uring-7.4
-    old: 4d3db66c5363dcf42c3d43ebaea330ac2d1888bb
-    new: d4912d6440bf6d255e1fa1c360c8ddb39d0e01bd
+  - ref: refs/heads/for-next
+    old: 00d1bacd7bec3a6c92d693e5ab5ecb6d732b8d87
+    new: decebeb127ea1964ab68edda51ecbd3bcbb131ec
     log: |
-         d4912d6440bf6d255e1fa1c360c8ddb39d0e01bd io_uring/io-wq: show stuck workers rather than WARN on a slow exit
+         4f338225cc2a9af081ea1eb20b28895e25b23ed0 workqueue: Skip non-freezable workqueues in freeze and thaw
+         decebeb127ea1964ab68edda51ecbd3bcbb131ec Merge branch 'for-7.5' into for-next
          
