@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 16 Nov 2026 00:03:29 -0000
-Message-Id: <179478740967.3706700.3388871253138508317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Mon, 16 Nov 2026 00:07:18 -0000
+Message-Id: <179478763883.3710075.3826432819746084799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/dev-test
-    old: aebb7274476403040d582c61478df8f4a7bf9cd3
-    new: 874efcc50da748e9c230191e5c4cc3b76d368b15
+  - ref: refs/heads/fixes
+    old: 4e66725bb93bba005ddefe6c69bcc0927426e859
+    new: f49a9afecd6d55842dab3f9b0ccb702d49db6654
     log: |
-         874efcc50da748e9c230191e5c4cc3b76d368b15 erofs: reject turning inode_share on during remount
+         f49a9afecd6d55842dab3f9b0ccb702d49db6654 power: supply: max77759: initialize registration, configurations
          
