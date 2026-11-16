@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6745207192236920256=="
+Content-Type: multipart/mixed; boundary="===============5955429614624444325=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 16 Nov 2026 09:45:39 -0000
-Message-Id: <179482233975.4125068.15478496444316656063@gitolite.kernel.org>
+Date: Mon, 16 Nov 2026 09:46:03 -0000
+Message-Id: <179482236362.4125680.6087805446637853869@gitolite.kernel.org>
 
---===============6745207192236920256==
+--===============5955429614624444325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 8c9ddebb300c719362a52a2d465f44e7d055778d
-    new: 86166e6fe2a1b72952dec0dbb93f464ba18900ec
-    log: revlist-8c9ddebb300c-86166e6fe2a1.txt
+  - ref: refs/heads/m68k-queue
+    old: 967bd4161bb613dbeafd126d1fe91f5aef943bc6
+    new: 35c4561868a15afa5faae9cac7754d8e87a27a44
+    log: revlist-967bd4161bb6-35c4561868a1.txt
 
---===============6745207192236920256==
+--===============5955429614624444325==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8c9ddebb300c-86166e6fe2a1.txt
+Content-Disposition: attachment; filename=revlist-967bd4161bb6-35c4561868a1.txt
 
 81986a81f09fae73926c7c44863b335880269c90 wifi: ath12k: assign device id from the WSI index
 1e678e37ff13e45f22d78d802fcefa8f9a0d9395 wifi: ath12k: fix decap of MSDUs spanning multiple RX buffers
@@ -902,6 +902,8 @@ f70886e5a510cd7fc2c3aef91c46a14f4485fe63 Merge tag 'nfs-for-7.4-2' of git://git.
 4b15991b3be43e9581aca489ec30a351310bb49d Merge tag 'cgroup-for-7.4-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 a9daf327f3ff90625204876981f88cfe2b6f6fff Merge tag 'sched_ext-for-7.4-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 aebb7274476403040d582c61478df8f4a7bf9cd3 Linux 7.4-rc3
-86166e6fe2a1b72952dec0dbb93f464ba18900ec Merge tag 'v7.4-rc3'
+524b9ccf4c3fe11ac9e7ff74d04eb9dd6cc5d5ee m68k: atari: usb: Add ISP1160 USB host controller support
+80a833f26551a246176dae6a5dfacf62d3c1d8dc m68k: atari: Update Kconfig.bus help text
+35c4561868a15afa5faae9cac7754d8e87a27a44 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6745207192236920256==--
+--===============5955429614624444325==--
