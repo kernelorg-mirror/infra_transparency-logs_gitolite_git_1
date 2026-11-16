@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Mon, 16 Nov 2026 11:26:12 -0000
-Message-Id: <179482837272.90393.5977636502018444298@gitolite.kernel.org>
+Date: Mon, 16 Nov 2026 11:30:02 -0000
+Message-Id: <179482860290.92364.2375797381123464574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,12 @@ repo: pub/scm/linux/kernel/git/arighi/linux
 user: arighi
 changes:
   - ref: refs/heads/scx-pvsched
-    old: 404ef0508fe1fbf0933592e2dc34217d420a412d
-    new: 8a01c2d3ce68d68b7b02a70a5033da9af85045ba
+    old: 8a01c2d3ce68d68b7b02a70a5033da9af85045ba
+    new: 878b8b04e0a6b6c134c36dbd922e9655a2146252
     log: |
-         6f89c9f6aec922693ce221b326a0cb757045f0d1 bpf: Allow importing memfd pages into an arena
-         e01f0b0773ed20c17fe6575a4168426b1aabfce5 bpf: Allow importing device-dax pages into an arena
-         72723c2d06592a6cbfc9aae08846011c1fbb47b5 selftests/bpf: Test importing pages into an arena
-         18461ade6b085002428ad35f60d719fe0055fb1e selftests/bpf: Add a host/guest shared arena prototype
-         8a01c2d3ce68d68b7b02a70a5033da9af85045ba [DEMO] sched_ext: Add paravirt host and guest example schedulers
+         0d980dc5782b6f2e2ed1dd5ecebe88458cddd7a9 bpf: Allow importing memfd pages into an arena
+         5411125f7c9e09c4c95699ffc7cc6737488d2312 bpf: Allow importing device-dax pages into an arena
+         e2cc1dffc6c2ea790e9b0fa4f80ade25083a1e6d selftests/bpf: Test importing pages into an arena
+         0ca5bbd726f73830ab19bc22be798c94b8efc34b selftests/bpf: Add a host/guest shared arena prototype
+         878b8b04e0a6b6c134c36dbd922e9655a2146252 [DEMO] sched_ext: Add paravirt host and guest example schedulers
          
