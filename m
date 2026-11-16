@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 16 Nov 2026 23:29:40 -0000
-Message-Id: <179487178022.703666.9611911472121827070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 16 Nov 2026 23:32:24 -0000
+Message-Id: <179487194459.706567.14614769350954214430@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 4cad287cb13c1fc32e4afa590e4148fa288d5741
-    new: 1b02f90976d4bdf8c67d19dadf31b4bba05eb66f
+  - ref: refs/heads/for-7.4
+    old: 0d40a91ca56e727851fddf3567982e14bcdbde5b
+    new: 18b70bf4da448c309af86b5f368e2d9ac497ea99
     log: |
-         1b02f90976d4bdf8c67d19dadf31b4bba05eb66f net: usb: smsc75xx: reject frames without a full header and FCS
+         0085428e834ccd7d1dda72bd1e3bd3f74d93645f ASoC: cs35l56: Only write ASP1TXn registers when widget is powered-up
+         396c5d8075f30d6cd255ead528f2c63860a79724 ASoC: cs35l56: Fix unwanted writes to ASP config registers
+         18b70bf4da448c309af86b5f368e2d9ac497ea99 ASoC: cs35l56: Series to stop writing ASP registers the driver doesn't own
          
