@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 16 Nov 2026 23:48:19 -0000
-Message-Id: <179487289934.740837.15158596121691755605@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 16 Nov 2026 23:51:30 -0000
+Message-Id: <179487309064.764569.8592239354175505767@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 5aac571d919087d766d85729e0b53f41d275eb7b
-    new: f2540da93a113d3f0a70fd0961e00eb849ce8342
+    old: 0b2309c0e6acb347cc80402869b207df2caa6e37
+    new: b78cbbb527adacf31b769d839a7262e765e50687
     log: |
-         ea538b5790eed4f042ea787ea761cb1a695f8138 ip6mr: prevent info-leak in ip6mr_cache_report()
-         f2540da93a113d3f0a70fd0961e00eb849ce8342 sctp: do not free a new asoc peeled off while sendmsg slept
+         b78cbbb527adacf31b769d839a7262e765e50687 net: ethernet: mtk-star-emac: fix device_node leak in mtk_star_probe()
          
