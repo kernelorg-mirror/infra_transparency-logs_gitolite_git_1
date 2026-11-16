@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Mon, 16 Nov 2026 23:58:43 -0000
-Message-Id: <179487352368.770713.3542266087008453437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 16 Nov 2026 23:58:56 -0000
+Message-Id: <179487353601.771024.17023586541847955132@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: a8702d54c81c8a9ceced8c77938c2642f24e7d7e
-    new: ce51dcbd84209527eb82a64a3ce831bcac82d166
+    old: 2718849027426f09c649a59b8f93fa7a00ced3ed
+    new: de9886cb02f3efeba86a9c6f5f9f6a31d8b006fe
     log: |
-         ce51dcbd84209527eb82a64a3ce831bcac82d166 libfdt: Zero the padding after a property value
-         
-  - ref: refs/heads/master
-    old: a8702d54c81c8a9ceced8c77938c2642f24e7d7e
-    new: ce51dcbd84209527eb82a64a3ce831bcac82d166
-    log: |
-         ce51dcbd84209527eb82a64a3ce831bcac82d166 libfdt: Zero the padding after a property value
+         de9886cb02f3efeba86a9c6f5f9f6a31d8b006fe team: validate the length of U32 and S32 option data
          
