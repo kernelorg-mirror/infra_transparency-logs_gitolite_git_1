@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 16 Nov 2026 13:11:53 -0000
-Message-Id: <179483471316.172212.10986007455765428806@gitolite.kernel.org>
+Date: Mon, 16 Nov 2026 13:14:50 -0000
+Message-Id: <179483489075.173206.16737311975929465067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
   - ref: refs/heads/wip/leon-for-next
-    old: 317128ea4f21c9ff2b336262eab4f46ad6a49c3d
-    new: a4b6f10a5403920117a2e603d034e568405834af
+    old: a4b6f10a5403920117a2e603d034e568405834af
+    new: 4583abff319acf8cbf0d7073e9c0c35cec0a1d55
     log: |
-         a4b6f10a5403920117a2e603d034e568405834af RDMA/mlx4: Use the right list member in push_deleteing_req()
+         4583abff319acf8cbf0d7073e9c0c35cec0a1d55 RDMA/mlx5: Fix cntrs_max_index overflow when binding flow counters
          
