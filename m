@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2866488860437665869=="
+Content-Type: multipart/mixed; boundary="===============8733480179120651307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 16 Nov 2026 14:54:36 -0000
-Message-Id: <179484087642.253990.10075144869197735881@gitolite.kernel.org>
+Date: Mon, 16 Nov 2026 14:54:40 -0000
+Message-Id: <179484088040.254128.8323702675538542738@gitolite.kernel.org>
 
---===============2866488860437665869==
+--===============8733480179120651307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 0bce4c3c7589a80b09a4f21fcb41811cca5153a1
-    new: 67f3b04b277373438f17300e056306adbd9edf7b
-    log: revlist-0bce4c3c7589-67f3b04b2773.txt
+  - ref: refs/heads/mm-unstable
+    old: 4b028d0cedf95f66b8c5294fde2d7d698bf830da
+    new: e1f34fb16e0236c4e60b5f392f1cf5aee76f7d0f
+    log: revlist-4b028d0cedf9-e1f34fb16e02.txt
 
---===============2866488860437665869==
+--===============8733480179120651307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0bce4c3c7589-67f3b04b2773.txt
+Content-Disposition: attachment; filename=revlist-4b028d0cedf9-e1f34fb16e02.txt
 
 07f846568e40b683f83b82d3fc24892e2aa0d28e mm: synchronize with PTE table reclaim for all folio sizes
 c5d6c2721b977092bc07872c352e686a38b7c7cd mm/vmalloc: bail out if in softirq context
@@ -282,40 +282,5 @@ b2b5a603138ffce0ef47fbe875abc97e70a3effb mm/damon/ops-common: implement DAMON_FI
 05c82d91a6eb9cec6e6f5b30d7b9442cac25e328 mm/damon/sysfs: support LRU-activeness based DAMON filter setup
 b0df8381ae252d787d3653fcd2155356a9ce6020 Docs/mm/damon/design: update for DAMON_FILTER_TYPE_ACTIVE
 e1f34fb16e0236c4e60b5f392f1cf5aee76f7d0f fs/proc/task_mmu: fix lost maps entries above 2^63
-e71e2f16ac67b0bcec1351b3ad4c06719cb01406 mm/mglru: report evictable sizes per type
-a76ddb3ce3ffadb7882e5631d745c0db73a4232e mm/mglru: extract lruvec_populated_min_seq() helper
-06d3bfea5e6021f307ff5be5f7240a398be21908 mm/mglru: reclaim from the oldest populated gen
-b3954ef11083e5d66132015436b3e40d0e697ad8 mm/mglru: lift the forced protection of reclaimer
-4e5c190b31ff6a459f300cdc0c0e22018505001e mm/mglru: skip zones above reclaim_idx instead of rotating them
-4a5d129193da09ea9e795242e4b1226cb88bec09 mm/mglru: return for unavailable anon reclaim earlier
-633751b97a6bbcc8f0306918121a90a967987832 mm/mglru: balance anon and file scan budget by refault rate
-04e44efb7213e2fd3e845f90f933eeebb1ab9e98 mm/mglru: lift youngest gen protection for higher priority
-c38a1c2f9c5847fc075596d145c7e06081d436ec mm/mglru: avoid placing rejected folios below populated gen
-fccdc6a6db6b9c00992628ed7e45ffce3f807bd5 mm/mglru: run aging when pages are rare outside the youngest gen
-dddefb353e6dd292b9e29e7b03576167866775ca cleanup-mm-mglru-Run-aging-when-pages-are-rare-outside-the-youngest-gen
-48f604a8ad075ad462b177f840c2e478389457a2 mm/mglru: run aging when one type is drained
-bf1fda8b681b4e9b569f5488364b6e69aaa97e20 fix-mm-mglru-Run-aging-when-one-type-is-drained.patch
-166a8c231b8b727ad58579c6704473fe91512418 mm/mglru: restrict eviction accounting to eligible zones
-614109eb71d323dd4dc9219b5fff8b4dfeda242a mm/mglru: reduce LRU lock contention by shrinking folio batches in inc_min_seq
-d9151f8df38e34e3ec963af1ffa2e9a4e7aed0c6 mm/mglru: avoid prolonged anon reclaim with swappiness=200
-bdc2488a68c04ff731e0cb5f41f23be46d923a0f mm/mglru: make swappiness=1 file reclaim more aggressive
-f4cd98b3e26e9f02ce97302a1798d7c0c978dbf3 mm/mglru: avoid scan anon while swapcache is low for GFP_NOIO allocation
-b1191abe1eb545e2957c03032e7e6be51f020912 mm/hugetlb: charge hugetlb cgroup and memcg in alloc_hugetlb_folio_reserve()
-f241b742bf878ec66a9898739a2e805392d130b8 selftests/mm: handle implicit read permissions in madv_populate
-1e683c5bffe9564c6586ff4ebabbdc5216434ec9 mm: kmemleak: drop kmemleak_lock in scan_block() when it is contended
-2c0a3dcda42a7e1f00d4ee72b27fa3440af3b6b9 mm/page_reporting: document @order parameter in page_reporting_notify_free()
-a9c945f2de55cc5a6d5ae15a270f70db5bf6c0f7 fs/proc/task_mmu: advance seq_file position on interrupted VMA lookup
-7258f3fde0ddfb65d2dd01eddce8e71356546769 mm/pagewalk: document missing struct members
-9924a6e8b4d7d271f25adeb75611751b1fa586c7 zram: avoid duplicate slots in batched writeback
-60e454886a465b67139b9afcd262ee8d569f1746 mm/madvise: zap markers from guard regions
-15876a724708a5738b85a04415323fa0519d050d mm/cma: simplify cma_declare_contiguous_multi()
-80ca4889fbd7a7c56f7c568102f2d2a060a51381 selftests/mm: mlock2-tests: fix fclose(NULL) in is_vmflag_set()
-479727b7da136fc306451e6050c35f6b023685f9 mm/readahead: don't skip the fallback after aligning index down
-f282fdd4694e56292af35efe6c9ff77c09202781 selftests/mm: allocate nr_pages based on pmd size for uffd pmd_move tests
-241d8b15cf0f58d3102ef8f9e7dd56fdc2314b88 selftests-mm-allocate-nr_pages-based-on-pmd-size-for-uffd-pmd_move-tests-fix
-4b894296281212940a5697ef7c7caf492dd38a41 selftests/mm: retain move-pmd coverage and verify huge PMDs
-fabf165b3b54ea070690a1328d544c887bb8f6f9 mm/hmm: reject shadow-stack mappings
-18337d0de375ae7e9651d56a70ebe16446f08999 lib: xarray: free unused spare node in xas_create_range()
-67f3b04b277373438f17300e056306adbd9edf7b lib/test_xarray: check unused spare node after range creation
 
---===============2866488860437665869==--
+--===============8733480179120651307==--
