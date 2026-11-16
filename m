@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3420358465149015400=="
+Content-Type: multipart/mixed; boundary="===============3421002540929703252=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/blum/linux
-Date: Mon, 16 Nov 2026 12:20:12 -0000
-Message-Id: <179483161225.131685.2317598998886729760@gitolite.kernel.org>
+Date: Mon, 16 Nov 2026 12:20:40 -0000
+Message-Id: <179483164084.132016.8387708535363422774@gitolite.kernel.org>
 
---===============3420358465149015400==
+--===============3421002540929703252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/blum/linux
 user: blum
 changes:
-  - ref: refs/heads/for-linus
+  - ref: refs/heads/master
     old: 79eb6679ef6a0d5ea68da53a8321fb1dc72299b9
     new: aebb7274476403040d582c61478df8f4a7bf9cd3
     log: revlist-79eb6679ef6a-aebb72744764.txt
 
---===============3420358465149015400==
+--===============3421002540929703252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -795,4 +795,4 @@ f70886e5a510cd7fc2c3aef91c46a14f4485fe63 Merge tag 'nfs-for-7.4-2' of git://git.
 a9daf327f3ff90625204876981f88cfe2b6f6fff Merge tag 'sched_ext-for-7.4-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 aebb7274476403040d582c61478df8f4a7bf9cd3 Linux 7.4-rc3
 
---===============3420358465149015400==--
+--===============3421002540929703252==--
