@@ -1,19 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 16 Nov 2026 13:57:48 -0000
-Message-Id: <179483746813.207881.8763557897701500036@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 16 Nov 2026 14:02:51 -0000
+Message-Id: <179483777151.211552.1519303369903192798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/fixes
-    old: a026947e08d65375df593de2d02fbfacdf34b173
-    new: 65f634533c8eacd6e6e8acb38cd905ce11e765ef
+  - ref: refs/heads/bleeding-edge
+    old: abe1a5cf74be173bddc5d0e0609848fa261b22e5
+    new: 0069320cef67ba6ca745a05868c40e4c46b61284
     log: |
-         65f634533c8eacd6e6e8acb38cd905ce11e765ef thunderbolt: Keep the USB4 port when component_add() fails
+         0069320cef67ba6ca745a05868c40e4c46b61284 Merge branch 'pm-runtime' into linux-next
+         
+  - ref: refs/heads/linux-next
+    old: 3a099e999c48088c41f8bb0ae0b9873e1817b6a0
+    new: 0069320cef67ba6ca745a05868c40e4c46b61284
+    log: |
+         f2b556e3dad662faaa038e549eb53fbcd2118a17 PM: runtime: Update last_busy before calling rpm_suspend() in rpm_idle()
+         0069320cef67ba6ca745a05868c40e4c46b61284 Merge branch 'pm-runtime' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 3a099e999c48088c41f8bb0ae0b9873e1817b6a0
+    new: 0069320cef67ba6ca745a05868c40e4c46b61284
+    log: |
+         f2b556e3dad662faaa038e549eb53fbcd2118a17 PM: runtime: Update last_busy before calling rpm_suspend() in rpm_idle()
+         0069320cef67ba6ca745a05868c40e4c46b61284 Merge branch 'pm-runtime' into linux-next
          
