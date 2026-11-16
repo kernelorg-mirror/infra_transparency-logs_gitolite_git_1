@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 16 Nov 2026 19:39:57 -0000
-Message-Id: <179485799760.532357.12995263647539443532@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 16 Nov 2026 19:51:06 -0000
+Message-Id: <179485866668.541584.12134653130445158032@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+repo: pub/scm/bluetooth/bluez
 user: vudentz
 changes:
   - ref: refs/heads/master
-    old: da3cc02587c629420603df4395179ec82955c941
-    new: 3c5963d23d64972385786e0be47be16d89ff4434
+    old: ff78a09eb4d450f77e0cca42ab3e41015ebf6785
+    new: 923d95d0c2fb001b545fa8a8b2e3a8a9bf0dbabf
     log: |
-         76248359ac32e97cd7d1bd55a4c94a2ad4009871 Bluetooth: L2CAP: clear the SDU before the receive callback
-         0d8f6981f55e28d8fac703bbd0e29bd9496c8b5b Bluetooth: 6lowpan: Always consume the skb in chan_recv_cb
-         3c5963d23d64972385786e0be47be16d89ff4434 Merge branch 'bluetooth' into bluetooth-next
+         b5deaf496419c5d96666849ff2bc897be5f661a9 audio/hfp-hf: Fix org.bluez.Telephony1.Dial reply message
+         8df2ed315f20dd704dc421dcc6a923b64c54cd1c audio/media: Add hfp-hf supported feature flag
+         f9f3a6eca27a78a800293934dc7315d074c419ed bearer: Fix LE Disconnect for devices with a random address
+         de977a4eb953af0ba2b42f0eeffe5c8eeb4d26bb advertising: Fix double-free in client_free
+         8a3bdbb1f5c5a28b4901de914eae2aec4c30ffde avrcp: Poll GetPlayStatus when position changed event unsupported
+         58e111cc99049e25cc1ebda732decab324bbb0e8 emulator: Set the number of advertising sets
+         923d95d0c2fb001b545fa8a8b2e3a8a9bf0dbabf mgmt-tester: Add single advertising set tests
          
