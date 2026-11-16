@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8908833469454658446=="
+Content-Type: multipart/mixed; boundary="===============3779351885309200937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Mon, 16 Nov 2026 01:37:47 -0000
-Message-Id: <179479306700.3782584.15952515157033533522@gitolite.kernel.org>
+Date: Mon, 16 Nov 2026 01:37:54 -0000
+Message-Id: <179479307472.3782780.9312776697747097242@gitolite.kernel.org>
 
---===============8908833469454658446==
+--===============3779351885309200937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ojeda/linux
 user: ojeda
 changes:
-  - ref: refs/heads/rust-fixes
+  - ref: refs/heads/rust-next
     old: fa2933aac170dd19c6a7f0d7b81a8f537e40915c
     new: aebb7274476403040d582c61478df8f4a7bf9cd3
     log: revlist-fa2933aac170-aebb72744764.txt
 
---===============8908833469454658446==
+--===============3779351885309200937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -135,4 +135,4 @@ f70886e5a510cd7fc2c3aef91c46a14f4485fe63 Merge tag 'nfs-for-7.4-2' of git://git.
 a9daf327f3ff90625204876981f88cfe2b6f6fff Merge tag 'sched_ext-for-7.4-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 aebb7274476403040d582c61478df8f4a7bf9cd3 Linux 7.4-rc3
 
---===============8908833469454658446==--
+--===============3779351885309200937==--
