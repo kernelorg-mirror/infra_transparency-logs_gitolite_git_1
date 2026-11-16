@@ -1,45 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============2766026253376828477=="
+Content-Type: multipart/mixed; boundary="===============6883416601976345175=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Mon, 16 Nov 2026 18:49:55 -0000
-Message-Id: <179485499579.494825.11357891913804689025@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 16 Nov 2026 18:51:28 -0000
+Message-Id: <179485508893.498497.5469246530828489581@gitolite.kernel.org>
 
---===============2766026253376828477==
+--===============6883416601976345175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mptcp/linux
-user: matttbe
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/export-net
-    old: a12082949744f0cabb9d5ffea9b6ead0da82063f
-    new: 92890b2b2af0ae6f880877b21c161ba357320694
-    log: revlist-a12082949744-92890b2b2af0.txt
+  - ref: refs/heads/master
+    old: 8835113107b2cf75df33a71e265cdeec5d5d13e0
+    new: ea80d2afd285332fa88412c03d43e23d664f506f
+    log: revlist-8835113107b2-ea80d2afd285.txt
 
---===============2766026253376828477==
+--===============6883416601976345175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a12082949744-92890b2b2af0.txt
+Content-Disposition: attachment; filename=revlist-8835113107b2-ea80d2afd285.txt
 
-1964db9fc2440d1d5feb87d1c996271e4682deb0 DO-NOT-MERGE: git markup: net
-86b906883927f6de3944674a98a52cc748ab54b6 DO-NOT-MERGE: git markup: fixes other trees
-bce0be8258197dde63c9b59fc56f34d9bc2c8ffc mptcp: push pending data after a sendmsg copy fault
-7910236713dd19fea5663c72af3b6c02aa919289 mptcp: do not use a raised snd_wnd for the send window
-d822de2f9ece1b9fa38fa4cfadbcf020e19ccf8d mptcp: use sk instead of casting msk in check_fully_established()
-4ef1b7ba2d9fd83a839cac25d6a761394f5ddeac mptcp: push queued data on passive TFO subflows becoming established
-e5fbe834a90147ad831527fcdd325ce9e8beb2da mptcp: push queued data on subflows falling back at the handshake
-8359a48bd642c66c12bb764c49bf3bc52327bfbe mptcp: don't send a FIN before the pending data on fallback
-f22b01804b4d8c78ec2e6ef726b77ee7159d5f68 mptcp: fix dummy mapping of overlapping segments
-808f16dc67e6ac835164412d72bb95148ac52e73 DO-NOT-MERGE: git markup: fixes net
-63fbbcdff069c20eabc1363cb4e8159905808492 DO-NOT-MERGE: mptcp: add CI support
-7372b3551e285d9a7dc1b03fe0300d6a3e74850c DO-NOT-MERGE: git markup: end common net net-next
-f1e978793859b8fb9f9231dd3f8c6d77c6e7d95f DO-NOT-MERGE: git markup: fixes net only
-a4221528771dd9c7e536353feb49b869b8b71c95 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
-92890b2b2af0ae6f880877b21c161ba357320694 DO-NOT-MERGE: mptcp: enabled by default (net)
+3a05f3d3c0bc98f8be7b2d3f525bea3d96c85ea8 bpf: Stop a load only when the loader is killed or has to freeze
+4599bf12bb4fcf9a36ffbece909a9f317e6108d4 bpf: Fail the load when there is no memory
+08c9879049705193e77fd98a8103148b620ef0f1 bpf: Give a syscall program the largest context when it does tail calls
+55bb28777e3ad0e4f2df95b30f2a4abaa98849fc bpf: Do not inline bpf_loop() when its callback is dead code
+97d3a5d19de641fcb8d434860629ce82b46a7be9 bpf: Dump programs that have more than 524288 insns
+9867cc99fb198d246e00ba11e9f271b4a6cbebe0 bpf: Resolve BTF structs and arrays first
+1ec779c99e72ba9b711bd8e09fdfbb4a5bc2a72e bpf: Remove the limits on maps, BTFs and fd_array of a program
+8aeba721ce8cfb7b1e0ad16c35c238af53842c79 bpf: Do not scan all maps for each insn and each subprog
+dba6e823dc9a51444390c2498315e0183da2ca22 bpf: Remove the limits on kfuncs of a program
+66b31f31139e6c0c9902ddc05cd83ffeb9fa9ff8 bpf: Remove the limits on tables of functions
+cf46f59c622f130a82a4239405e32bea0c8073b4 libbpf: Size the tables of the loader program from the object
+80ab9d3a5e45eaf49643c380f9e65853f00328c2 bpf: Relax jumps that patches push out of range
+0073adc796bd0831060701015872ad7dd73eeb94 bpf: Keep the call graph in lists of edges
+8a7567b578741149113c77070eb59cca1994b682 bpf: Find the effects of callees on the call graph
+d01bec4218c7e313d932cdb11939855aead30206 bpf: Link the decl tags of a type
+f7e93aa4a34fb0858e503c774d976d0f435f4e8c bpf: Remove BPF_MAX_SUBPROGS
+ca4395aade31aa0901d887d8f7d59d7f681c0d77 bpf: Walk each type once when looking for special fields
+00b7fccc41c72f3179a9d4983074220c72800dee bpf: Raise the limit on the length of BTF names
+c424815cd9a10bf52e1acaeb00bddc691e3d46b5 bpf: Find dominators in O(n log n)
+eda0d4a099443d2db500fd74b90de822f6f48170 selftests/bpf: Test programs above the old limits
+633c547b1dab7631d89907687c863714f4ca9798 selftests/bpf: Test limits of the load with raw programs
+ea80d2afd285332fa88412c03d43e23d664f506f Merge branch 'bpf-remove-the-limits-on-maps-kfuncs-subprogs-and-special-fields'
 
---===============2766026253376828477==--
+--===============6883416601976345175==--
