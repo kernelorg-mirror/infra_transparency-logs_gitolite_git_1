@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Mon, 16 Nov 2026 00:02:08 -0000
-Message-Id: <179478732897.3706030.17475075089206394621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 16 Nov 2026 00:03:29 -0000
+Message-Id: <179478740967.3706700.3388871253138508317@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/tags/rcu-fixes.v7.4-20261115a
-    old: 0000000000000000000000000000000000000000
-    new: 36ab86fd0c92c365dafbcc21fafb68e822e50449
+  - ref: refs/heads/dev-test
+    old: aebb7274476403040d582c61478df8f4a7bf9cd3
+    new: 874efcc50da748e9c230191e5c4cc3b76d368b15
+    log: |
+         874efcc50da748e9c230191e5c4cc3b76d368b15 erofs: reject turning inode_share on during remount
+         
