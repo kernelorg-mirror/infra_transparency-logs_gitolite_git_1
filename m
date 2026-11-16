@@ -1,43 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============4160122288246839933=="
+Content-Type: multipart/mixed; boundary="===============5044872304550231923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
-Date: Mon, 16 Nov 2026 20:42:13 -0000
-Message-Id: <179486173340.578451.2766175383202314039@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Mon, 16 Nov 2026 20:45:02 -0000
+Message-Id: <179486190218.579440.10327701800153370207@gitolite.kernel.org>
 
---===============4160122288246839933==
+--===============5044872304550231923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fdmanana/linux
-user: fdmanana
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: df971dad64e73d71fe7e9bd9188efe5f22e9bea4
-    new: eb88831cc33bda978a16ab96f926006133caa15b
-    log: revlist-df971dad64e7-eb88831cc33b.txt
+  - ref: refs/heads/rootns
+    old: 89f8e37f05bb53565f9bce3fe90fe2ac305ba3dc
+    new: acdefb4fb5d3e1e05afd4c2c567bd0d5f04b6b39
+    log: revlist-89f8e37f05bb-acdefb4fb5d3.txt
 
---===============4160122288246839933==
+--===============5044872304550231923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df971dad64e7-eb88831cc33b.txt
+Content-Disposition: attachment; filename=revlist-89f8e37f05bb-acdefb4fb5d3.txt
 
-c55a7262ac2be812fb18859b91be2cbc7d7c7d6e btrfs: zoned: finish the zones of a relocated block group
-6864e0482760ee7fcd8c1f92fcdfe10995aaea17 btrfs: zoned: don't treat a negative zone reservation as free zones
-edceec16ceacfc5f5ec96f9774278da2e5766dea btrfs: abort transaction on failure to update inode after hole punching
-1faabb49d0adb06bf1a1c9721bda041836072eee btrfs: fix blocking allocation for nowait encoded reads of inline extents
-a2cfcb1aabfaece75abd76963f69076ca7247738 btrfs: improve the algorithmic efficiency of btrfs_check_rw_degradable()
-5a096bdcfc1ea3b40d90c472fe632ed1b7868ba0 btrfs: tracepoints: fix wrong order when printing extent map type
-44d500eb857882e9bbacc1a640205ae9129e9912 btrfs: fix incorrect task accounting on error during io_uring read
-21d7b43abcc15200eaee04c2c02e965d78d2a0a2 btrfs: fix delayed inode count leak after failure to delete inode ref
-b456b3d681b0f87e8559bc994c47a6a7efc19859 btrfs: add missing unlikely tag to branches leading to transaction aborts
-32187df9a51c258d242d23b737f19c717723ed47 btrfs: fix return value to report partial success for direct IO writes
-36ca73d32951e69f73490d2a985781e5aaafab3d btrfs: fix race between getting device stats and removing device
-e82badd5910ad71995e9adf8f4444711a9b2de18 btrfs: fix RCU usage in btrfs_ioctl_dev_info()
-eb88831cc33bda978a16ab96f926006133caa15b btrfs: fix missing device freeze allow on btrfs_rm_device() failure
+d8aaab85f600c3493fa8ad6b914fa37f9c1acb65 nsproxy: Pass nsproxy to create_new_namespaces()
+c933b6b476d983f3d13c56edd795de3e0176a2cf rootns: Add core infrastructure for root namespaces
+c487c8fc1ffc35e2ccbadbb1bacaf769ffe422a8 fork: Handle rootns membership in copy_process() and do_exit()
+5094ab76f856daf69fcd5ed548a420b53f34dc0b rootns: Add rootns_create() system call
+e59c1c12420dd16a513c1b6b8a6a1793503e72d7 rootns: Add rootns_wait() system call
+12287ced299e65fd30f31b2bd13b7712723bab34 rootns: Add rootns_kill() system call
+42b9b2f73201c431ef7670fd05b8fcc54768dd10 rootns: Add rootns_enter() system call
+546ea71b483a0eb1467824d3de8c453285fcbdf7 fs: Support FSCONFIG_SET_ROOTNS in fsconfig()
+b47dbe578d34001ea81ca56df84d0393d617fb50 fs: Support installing rootns mount trees via move_mount()
+3509ffff151fd70678bfcbb56d7e47b52bdf9f87 arch: Wire up rootns system calls
+b724c185687402e1b8c1d81f099d5485716fc2c2 docs: Document root namespace uAPI
+a8dcc78698dcfd2e697bf828a7b6e43eb35710cf selftests/rootns: Add root namespace test suite
+acdefb4fb5d3e1e05afd4c2c567bd0d5f04b6b39 MAINTAINERS: Add entry for ROOT NAMESPACE
 
---===============4160122288246839933==--
+--===============5044872304550231923==--
