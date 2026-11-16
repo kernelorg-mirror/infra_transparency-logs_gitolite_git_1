@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 16 Nov 2026 18:43:12 -0000
-Message-Id: <179485459216.490573.3177405078053123742@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Mon, 16 Nov 2026 18:46:18 -0000
+Message-Id: <179485477892.493548.2482296629212251758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/for-next/arm_fw/updates
-    old: 16c2a0f92130bfd7018044f1591b46432b0dcea5
-    new: e267ea7fd9b0862bcf7ef12fe490e6d9f2f3b813
+  - ref: refs/heads/master
+    old: 7dfdfa7c534a11dc5519c1efc66c43cbc2112e56
+    new: bde8d8f8aeeb07bec4699163b341aaee36d554a9
     log: |
-         24e89b3b43fd7d8bb5f9013c6fe389616a83161d firmware: arm_scmi: Fix fallback to short name in scmi_pinctrl_attributes()
-         e9c4b4629ae3e7d4913e6c13077cf68ef1780541 firmware: arm: psci: Fix unused variable warning
-         ba379abeb9dabac08b80c1f98f6e820c03cf57a4 firmware: arm: smccc: Mark smccc_soc_id_{version,revision} as static
-         28f590b8586fd4c91a9d2d9141e0d5a0413f0e2c firmware: arm_scmi: uninitialized reg_io_width in shmem_setup_iomap()
-         e267ea7fd9b0862bcf7ef12fe490e6d9f2f3b813 firmware: arm_scmi: null pointer dereference in scmi_protocol_table_register()
+         f8dd05f102281fde48dbcc9ec4f919c64ec94817 review-tui: show why a Patchwork update failed
+         bfb9b7ffcdafbdc680e22047127bc339a73b77a9 review-tui: let ApplyStateModal update other patch fields
+         0ddb22a5d1c70df923414c8c271068c08f0434c0 review: add pw_fetch_maintainers()
+         12f7caba936e31563c15a6b20d196717e01162e0 review-tui: change the Patchwork delegate from the pw browser
+         1ba5c8a855d0097de486d8f11c5a9eb6c867e38f Merge patch series "review-tui: add support for setting the delegate in patchwork"
+         1c6eb161ef6e0242040d1cc3b10cd21c13ae7310 review: walk every page of the Patchwork user search
+         3ee5713add6dae7312c93a4aa7076239ea612d82 review-tui: give ApplyStateResult a neutral value field
+         2444c8ee0bd6e13ccf1612166c12fc7f80182e2b review-tui: share the Patchwork bulk-update notices
+         bde8d8f8aeeb07bec4699163b341aaee36d554a9 review-tui: don't refetch maintainers on a repeat delegate press
          
