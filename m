@@ -1,47 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============0816474858009800507=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 16 Nov 2026 11:21:18 -0000
-Message-Id: <179482807833.86354.12021492162683868101@gitolite.kernel.org>
-
---===============0816474858009800507==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 16 Nov 2026 11:21:58 -0000
+Message-Id: <179482811838.86613.8889915546336241554@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/for-next
-    old: 003dccb94a84cf4313c4298b9b3f52f7c30380b2
-    new: a362539b42193dcdb17f8fba40031a515c53885c
+  - ref: refs/heads/efi-image-info-v3
+    old: aba7edcc83114791000d4e01a10d43f7e30f900f
+    new: d76b599a20b6bc7d82871fc4875fd56a6e4fa1e3
     log: |
-         4a53f320115d5f7c21c8fd899b362b5719a51946 platform/x86: uniwill-wmi: use devm_blocking_notifier_chain_register()
-         a362539b42193dcdb17f8fba40031a515c53885c platform/x86: bitland-mifs-wmi: use devm_blocking_notifier_chain_register()
+         f269695ba5de504f4079beba47ee601189f5c598 efi/libstub: Capture loaded image information in struct efi_image_info
+         5643a426b6853d45f7ceaa75de70fed4a6aeae2d efi/libstub: Pass kernel entrypoint down to efi_enter_kernel()
+         b77c8e2c7d17683e52fc4bdf2411ba1b04ddbf40 fixup! efi/libstub: Capture loaded image information in struct efi_image_info
+         a9e39c962836bda4a82a388a00466260bac40868 efi/libstub: arm64: Use struct efi_image_info to access image properties
+         863e7e44c5f249f0fcc30191819ccb561549fa23 efi/libstub: loongarch: Use struct efi_image_info to access image properties
+         696e82ee347a62221e27454097f1a7f187c8e50a efi/libstub: riscv: Use struct efi_image_info to access image properties
+         bf3a993e9f75543f579e4f22cab610ae4778f333 efi/libstub: Make efi_remap_image() return efi_status_t
+         ec037d560a8e6d94460b0bbcd841896432eeb8ce efi/zboot: Disentangle efi_remap_image() from efi_cache_sync_image()
+         d76b599a20b6bc7d82871fc4875fd56a6e4fa1e3 efi/libstub: arm64: Drop zboot code_size hack
          
-
---===============0816474858009800507==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1794828074 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1794828074-ed89677bdc355ee38e6dc3e762d7620c87affa16
-
-003dccb94a84cf4313c4298b9b3f52f7c30380b2 a362539b42193dcdb17f8fba40031a515c53885c refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCavrnMQAKCRBZrE9hU+XO
-MYxfAQCx6XPvFGAFIMYatY1VhqQvFvt8fDGQheuiWC/auhh+6gD9F93uLGduooGx
-5OUfwgglcI6sA2oUz1QOBIXOdELlRws=
-=SPTj
------END PGP SIGNATURE-----
-
---===============0816474858009800507==--
