@@ -1,23 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 16 Nov 2026 19:19:22 -0000
-Message-Id: <179485676277.517436.7683812848288903728@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2741176861959073374=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Mon, 16 Nov 2026 19:21:22 -0000
+Message-Id: <179485688275.520385.4318020011315467703@gitolite.kernel.org>
+
+--===============2741176861959073374==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/arm_fw/updates
-    old: e267ea7fd9b0862bcf7ef12fe490e6d9f2f3b813
-    new: d8ba85867659436d273f0cd0620ef3c2680f6771
+  - ref: refs/heads/main
+    old: 75fc1c7d6d19b1552e88f292eda8661bb4ed8f0c
+    new: a73d93d00752fe07494c830c32c58b07fb850e84
     log: |
-         9482af56a75638ffa9d7df2e5c859df73df41b25 firmware: arm: scmi: Fix fallback to short name in scmi_pinctrl_attributes()
-         0a00b21a8d604bbb3e30627f7a137c2dc5e926b3 firmware: arm: psci: Fix unused variable warning
-         957536a5068a93c5a152a3c53cc6fbb149ea0fb6 firmware: arm: smccc: Mark smccc_soc_id_{version,revision} as static
-         d987abeb4791d4b14979562d7fd6e9685d8e08c1 firmware: arm: scmi: Default shared memory I/O ops
-         d8ba85867659436d273f0cd0620ef3c2680f6771 firmware: arm_scmi: Reject drivers without an ID table
+         a73d93d00752fe07494c830c32c58b07fb850e84 ip-xfrm: add support for XFRM_POLICY_CPU_ACQUIRE
          
+
+--===============2741176861959073374==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Stephen Hemminger <stephen@networkplumber.org> 1794856869 -0800
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
+nonce 1794856869-536b0f5c01ee35386e21fdd3ef2268d0017d1f5e
+
+75fc1c7d6d19b1552e88f292eda8661bb4ed8f0c a73d93d00752fe07494c830c32c58b07fb850e84 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEEQuGFHCPYrg90Z8j8CgXLsausrMFAmr7V6UbHHN0ZXBoZW5A
+bmV0d29ya3BsdW1iZXIub3JnAAoJEPAoFy7GrrKzMOcQAJWaHaQou/hHLcoVbuZI
+mI9Emtwtz3QTGMD2BA25qHS+lP8Ub6ehGF2cQG/5WR6BNifdrXilqi/bvrmFxVkE
+jqwBcbEsk4aBZ8wAfmhFwEFZfUysLRficU+xbWoTz4QUoiFfZUouIwO09ZTaESxG
+0qI9kZ/42fTOUFh9AS3bUvjavI7NzzW4Y0y3UHd1T07gZlClh32RaP5qYb9HMI7a
+iJPkQ4CJpNLSPgZRfQQJNPXvoSwxucXJOU8VaNQ/JvJ51u6d2OBuNxmBrjGra2ZK
+iw6Z5/L2LejBr4ZttzirIvvRKxtjDMeqcdG0MSFagdkxdw0j2DVD9C6XwHjVAUTj
+OvmX/xAnaNmAnF8P3b69fVnRJYdokD3vkL7UUAYiIoKfP9L842HdUvPagSRh6zqo
+yLkUGHJdC2WvZ32Clpit5SC4KScpQk8nfb/6k0rAFl0cvb9tumUO5/yYCY12cL7f
+P+RJx87jtIpgMnU75cyprLHt3pF+YnVQwjWoDzK5LkBIyoLz5RVhs7Y6N4LtI0Tu
+5XGAy7lIPbtkfHktrH2GHK9kuwMmrSz1+WckS6VPBFLC7fxyOFMrtGVdRV0J3+mo
+jMdmpjX01yICxvVN/9eDHwjtUMqP1VP2D44TnTcr5uVfl2okELVKX5+qAg7nfFwd
+FtEVTiybyxqJESN37yTPVlAu
+=18w9
+-----END PGP SIGNATURE-----
+
+--===============2741176861959073374==--
