@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/i2c-tools/i2c-tools
-Date: Mon, 16 Nov 2026 08:02:58 -0000
-Message-Id: <179481617893.4050749.1639060700142384391@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 16 Nov 2026 08:08:12 -0000
+Message-Id: <179481649266.4054539.14370710124700346064@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/i2c-tools/i2c-tools
-user: wsa
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 24553dbf9ca27f2d740419a8d47fa90a2265163c
-    new: d6dd36c278fb8db6254a5777f399049a3416d8c2
+    old: f0e1af3d8c96e175b910f969de5cab01f2cdd4a3
+    new: b8f68ad1e69f9625bd9ebfdd6dcac3c943a1936e
     log: |
-         d1b6eed01510ccfe7dc5b79d9329f8733ae97afe i2c-tools: Allow passing device file paths
-         d6dd36c278fb8db6254a5777f399049a3416d8c2 i2c-tools: Document device paths as I2CBUS arg
+         c64477bd38f64b1138918e2e9beb0a534a6b38eb foo
+         b8f68ad1e69f9625bd9ebfdd6dcac3c943a1936e foo
          
