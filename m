@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Mon, 16 Nov 2026 23:51:59 -0000
-Message-Id: <179487311976.765013.18427423634810581115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/dtc/dtc
+Date: Mon, 16 Nov 2026 23:52:21 -0000
+Message-Id: <179487314110.765347.16575220971554706325@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/utils/dtc/dtc
+user: dwg
 changes:
-  - ref: refs/heads/next
-    old: a2c8b3a9e8e571d9a77b64bfba46800eaad3336a
-    new: 2101c39473a06ee551a8cb4d549a1112aed324ad
+  - ref: refs/heads/main
+    old: 774adc25940050fb06f241b1a2a98e7421e6ed7b
+    new: a8702d54c81c8a9ceced8c77938c2642f24e7d7e
     log: |
-         9b5da39088f4dfec4ca4c5710be740370b9184c7 MAINTAINERS: Update CXL, NVDIMM, DAX, and others for djbw
-         3b8ccbf93f58888d06141f6fcf9027cca9b84846 MAINTAINERS: Add CXL reviewer Ben Cheatham
-         2101c39473a06ee551a8cb4d549a1112aed324ad Merge branch 'for-7.5/cxl-misc' into cxl-for-next
+         a8702d54c81c8a9ceced8c77938c2642f24e7d7e dtc: Move is_ref_relative() to livetree.c
+         
+  - ref: refs/heads/master
+    old: 774adc25940050fb06f241b1a2a98e7421e6ed7b
+    new: a8702d54c81c8a9ceced8c77938c2642f24e7d7e
+    log: |
+         a8702d54c81c8a9ceced8c77938c2642f24e7d7e dtc: Move is_ref_relative() to livetree.c
          
