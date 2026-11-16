@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 16 Nov 2026 23:24:30 -0000
-Message-Id: <179487147010.699986.2994399185464681545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 16 Nov 2026 23:27:36 -0000
+Message-Id: <179487165623.703004.10326522080749999674@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: ce09d8c13a15fe881d0a04c91979dcdf45ed9543
-    new: 4cad287cb13c1fc32e4afa590e4148fa288d5741
+    old: 44454974aef9c81949e5858ed3e8cbd08e104cad
+    new: 0b2309c0e6acb347cc80402869b207df2caa6e37
     log: |
-         4cad287cb13c1fc32e4afa590e4148fa288d5741 net: stmmac: re-base EST after PTP settime64
+         5a71c5cfb6eaa3f11236b94ff3863512ea425b4d net: phy: use const char * const for phylink_an_mode_str
+         0b2309c0e6acb347cc80402869b207df2caa6e37 net: phy: fix trivial whitespace/format issue
          
