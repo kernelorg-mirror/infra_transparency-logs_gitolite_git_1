@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 16 Nov 2026 13:45:46 -0000
-Message-Id: <179483674627.199047.1710803695510544588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Mon, 16 Nov 2026 13:47:01 -0000
+Message-Id: <179483682172.199507.8706553468642525456@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/tags/v7.4-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 19d1b4de6d37bccecc3ad9144d279f1baa405eb1
+  - ref: refs/heads/fixes
+    old: f1ae606eb404bca2498b9ad69b923073655556e4
+    new: a026947e08d65375df593de2d02fbfacdf34b173
+    log: |
+         a026947e08d65375df593de2d02fbfacdf34b173 thunderbolt: Return -ETIMEDOUT if XDomain peer returns ERROR_NOT_READY
+         
