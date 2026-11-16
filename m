@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 16 Nov 2026 23:58:56 -0000
-Message-Id: <179487353601.771024.17023586541847955132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Mon, 16 Nov 2026 23:59:12 -0000
+Message-Id: <179487355270.771250.6927288113756673035@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/main
-    old: 2718849027426f09c649a59b8f93fa7a00ced3ed
-    new: de9886cb02f3efeba86a9c6f5f9f6a31d8b006fe
+  - ref: refs/heads/b4/alpha-compile
+    old: dde993044f29bf532af125552af03b37250015f4
+    new: deb1471fed53a34c082aa0f30552e69ce9a02c3f
     log: |
-         de9886cb02f3efeba86a9c6f5f9f6a31d8b006fe team: validate the length of U32 and S32 option data
+         b81a34f9a1f0db8c348fc2046ec48682214db19c alpha: Fix SYM_END for the Alpha assembler
+         deb1471fed53a34c082aa0f30552e69ce9a02c3f alpha: Use symbol assignment in SYM_END
          
