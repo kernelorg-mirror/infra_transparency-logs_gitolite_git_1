@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 16 Nov 2026 14:23:26 -0000
-Message-Id: <179483900691.228378.2368258192886987249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Mon, 16 Nov 2026 14:29:09 -0000
+Message-Id: <179483934975.232301.10361293630908812867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/hwmon-next
-    old: b2ed21e291f25484a4d5ea5e309e430dfb9f3696
-    new: 7feb288cbe29b58a8bc9c7be3040f4537427cfcb
+  - ref: refs/heads/mediatek-drm-next
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    new: 12a1df6c0912d15668f10e978ad6f330170c389b
     log: |
-         b6820c04024c6ab091230ec22bd43d72afb27db7 hwmon: Add driver for the NCT6801D EC sensor window
-         7feb288cbe29b58a8bc9c7be3040f4537427cfcb hwmon: Document the lenovo-shm-sensors driver
+         12a1df6c0912d15668f10e978ad6f330170c389b drm/mediatek: dsi: Force command mode in mtk_dsi_poweron()
          
