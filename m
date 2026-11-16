@@ -1,53 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2451884098064878518=="
+Content-Type: multipart/mixed; boundary="===============1064822260700126299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 16 Nov 2026 10:44:16 -0000
-Message-Id: <179482585608.33494.6678882573923252126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/slab
+Date: Mon, 16 Nov 2026 10:45:07 -0000
+Message-Id: <179482590722.35992.7558821637296015714@gitolite.kernel.org>
 
---===============2451884098064878518==
+--===============1064822260700126299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mm/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/tags/usb-7.3-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 77b18bc11b5192f32e813c5e17a850724e6bd147
+  - ref: refs/heads/slab/for-7.5/misc
+    old: a7cdd0af963a420fc0e6f20b7c8bc8d4784098db
+    new: 0b4d8fca3d41123c2419b8e489ea7dba34d5b7e0
+    log: |
+         0b4d8fca3d41123c2419b8e489ea7dba34d5b7e0 slab: allow sheaves for SLAB_NOLEAKTRACE caches
+         
 
---===============2451884098064878518==
+--===============1064822260700126299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1794825845 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1794825845-4adb1e04409e070472e2c0861ae8879f6777e293
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1794825900 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mm/slab.git
+nonce 1794825900-86b911042b8ff5738bcc7335c1b865513bd77508
 
-0000000000000000000000000000000000000000 77b18bc11b5192f32e813c5e17a850724e6bd147 refs/tags/usb-7.3-rc4
+a7cdd0af963a420fc0e6f20b7c8bc8d4784098db 0b4d8fca3d41123c2419b8e489ea7dba34d5b7e0 refs/heads/slab/for-7.5/misc
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmr63nUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qI8QAJo2magYyT8HAhCTn8g+
-7eMweEMGcrp/RVCe+7enifd6pn3r/Z/d8ajOXF7GonCyiaqCJ9i9IVE7nnGtc/In
-WpAAHj7O6nFtxOVHJePGU/9pAbosEJlHJPD6S0yhkLiuGhb+82+sMosdUEr4asTm
-IvtVJKUlBVqaXUYScWT5VFeWpGtuiiATOXiX1ou+7L65vtlzLGU9eejNEOACzy7G
-p2TIaHyc58Ndl69wetHDCO595SiSURlKe8hEVc2RwqNfSYxDJo6O0147L6RKXkmu
-j69q96EgmPQ4vUWNUm4MQ+A6eea4FZpAqcR7jeqLodZ+UiftdlkaqsvaUvDUpcwa
-ZNFUclnvLiPHY/RC/DeLKmDQesCm1P/gGUTRsix7tZ767/KQDeOWPR/dRIi3HMI3
-Lj7g6mBUUG2ww4XFfOlF6aFNNiT6n2cQQGIKgX2KS50XrhPWiidSCivk6eUcNeXr
-6zqVhplZuYaGeIxvr/JxPbuclpnTfiEAs57zxqnq9DjrG5r3FcvOKxDuHZupgmhD
-HJNiS+wNkn8ozL3dgQl4CkWw2a7xSRqc+gpwepU+etb4P6nbHKRtyS/J9E+jCs6v
-E/xTeB7kAE2nzkVEGWTHA6QqTe0TvBEx1f4de2Gr82jV3IHHY3ZaK5P22XhHL6TL
-LURoLV5TyxIrSIWxflTu3cNa
-=Gz84
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmr63qwbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYia368H/0ojlfY5nF7JHhJz7g/b
+xtv1n15I0F0gKYwqi+OMX26jf/pN0ufUSB4t0q4EerJ2O0y2WNlgxujlytnFKm5q
+k6dsIYmuu9yEYP7S9CtiG/3bRn999RfTo+QlunXvoUQwEWu20di9My8bQHBY5iRf
+lrLkiIMLMrz19LPTEHUF4Gp4kyyDvGcYrNAGHdRlYktLIlCLyCqSkVTUikYrgeNT
+MeMERs/ZVNl4Ue7dzpM+57SX/qHFh1WK+PyOcq8vbnq9sATNK/o+WXEKZTt4pgLt
+CpNl6thxJEQeHRSmAqk1I/vuzgFB8kTMMgA23jxQNz+4a6sHN3aH3+hW7pvS7dNa
+7cQ=
+=wye7
 -----END PGP SIGNATURE-----
 
---===============2451884098064878518==--
+--===============1064822260700126299==--
