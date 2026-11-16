@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7277627521410947259=="
+Content-Type: multipart/mixed; boundary="===============0880317321120672370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Mon, 16 Nov 2026 14:50:17 -0000
-Message-Id: <179484061795.250489.11878881516071009598@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Mon, 16 Nov 2026 14:50:19 -0000
+Message-Id: <179484061964.250748.16953637101655556182@gitolite.kernel.org>
 
---===============7277627521410947259==
+--===============0880317321120672370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: aebb7274476403040d582c61478df8f4a7bf9cd3
     log: revlist-7475ea8b5861-aebb72744764.txt
 
---===============7277627521410947259==
+--===============0880317321120672370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -903,4 +903,4 @@ f70886e5a510cd7fc2c3aef91c46a14f4485fe63 Merge tag 'nfs-for-7.4-2' of git://git.
 a9daf327f3ff90625204876981f88cfe2b6f6fff Merge tag 'sched_ext-for-7.4-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 aebb7274476403040d582c61478df8f4a7bf9cd3 Linux 7.4-rc3
 
---===============7277627521410947259==--
+--===============0880317321120672370==--
