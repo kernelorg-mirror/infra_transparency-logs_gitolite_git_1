@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0072043808359275715=="
+Content-Type: multipart/mixed; boundary="===============8042148213250887035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 16 Nov 2026 18:34:53 -0000
-Message-Id: <179485409350.439613.7345081269218345457@gitolite.kernel.org>
+Date: Mon, 16 Nov 2026 18:35:33 -0000
+Message-Id: <179485413331.459229.4371868477320395020@gitolite.kernel.org>
 
---===============0072043808359275715==
+--===============8042148213250887035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,67 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 9a6216be89e5345ffe79b79408b512796d2abaea
-    new: 834283c65e3b306f39a725acbc7cd99b6afa61de
-    log: revlist-9a6216be89e5-834283c65e3b.txt
+  - ref: refs/heads/nfsd-testing
+    old: ecb3bfd5595fe459b1101efe09954bcc52d5930e
+    new: 00270637d0d956cd6343c41bfd9220ba90360fac
+    log: revlist-ecb3bfd5595f-00270637d0d9.txt
 
---===============0072043808359275715==
+--===============8042148213250887035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9a6216be89e5-834283c65e3b.txt
+Content-Disposition: attachment; filename=revlist-ecb3bfd5595f-00270637d0d9.txt
 
-81986a81f09fae73926c7c44863b335880269c90 wifi: ath12k: assign device id from the WSI index
-1e678e37ff13e45f22d78d802fcefa8f9a0d9395 wifi: ath12k: fix decap of MSDUs spanning multiple RX buffers
-843a011534b007a609ae25a91581c5c535e78741 wifi: ath12k: Fix failure to create ath12k_dp_peer on MLO reconnect
-dda63dd136ba2bc3b297079b190ac81a0aea40ae wifi: ath9k_htc: do not start ANI before the first channel is set
-5c1b202d67a212c87e7389aaa093ce77828fa98f wifi: ath9k_htc: start ANI when an AP interface begins to beacon
-13467fd6998f5da4f5b4f172f1af3d9c48d5de8f gpio: rockchip: Fix debounce arithmetic for GPIO v2
-baa14758afb3e2828de1f76511edc1de50216f39 gpio: brcmstb: fix UAF after IRQ domain setup failure
-6efda33405cddd78ff481146813fad18294bf386 sched_ext: Avoid unnecessary IMMED reenqueues on idle CPUs
-8015f03cc3132d6a4484324bd6e7619750ac12f0 sched_ext: Merge branch 'master' into for-7.4-fixes
-2a87e367c62856b87a90f745c6b7d2eb91e0c51f wifi: ath10k: Stop unanswered temperature reads
-216dd4fc57435726506e250ba2483f31ddc3c01b wifi: ath12k: fix IRQ disable imbalance in AHB ext interrupt handler
-fe74d991f3387febfd57b65c7383d2d49e14e19a wifi: ath12k: set MSDU payload correctly
-05be1a99d6d68b24cbe24a191e1af67c70193ac3 gpio: omap: Propagate runtime PM failures in probe and request
-360d281b159153ceb7c254a773433bae1858bd21 sched_ext: Fix scx_bpf_dsq_reenq() kerneldoc claiming NMI calls are allowed
-0aba89317f386f43c946d91238af28250b4dbc60 sched_ext: Call ops.sub_attach() only while the cgroup is online
-d6c18cadfc6c7a88e9e07e0a1b5ead37c0ddf866 netfilter: nft_reject: prevent unbounded recursion in output hooks
-cf27412f19c9cc5909b9107cd1b3f4ab7608e362 x86/bugs: Mitigate TSA on AMD Zen5
-9ce6fca02867911ba79bc3664219effe8c7be8f4 sched_ext: Fix stale pick when the donor changes during dispatch
-362212853cd09796c275669e9fc3a25f282bd688 cgroup/cpuset: Fix incorrect CPU accounting with parent's effective_xcpus expansion
-80ca632430e3394ef2676976428965bb12ce6a31 cgroup/cpuset: Recompute effective cpumask in update_cpumasks_hier() after calling update_parent_effective_cpumask()
-8b89d073a6d993ab0f7c31413b74505982aedc28 cgroup/cpuset: Do housekeeping check when isolated child with root parent may get more xcpus
-c0d3d10dc8cacfc10837f733d5c88b920c4ab258 Merge tag 'v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux into gpio/for-current
-32c89e32b3fef2ee0aa5c4d0b0fb089bb20b3223 gpio: sa1100: defer GPIO chip registration to postcore_initcall
-eb70d2419e79b6720fd465b905a2dddd751f2a48 gpio: shared-proxy: Fix race between concurrent first users
-53b7b1201964f6f147fa0fa2f61194403a65cdf0 gpio: shared-proxy: Drop the vote of a released proxy on write failure
-0bc45604403176722e634e670f5e38de0aa42a9b gpio: shared-proxy: Drive the default value when no votes are cast
-925409db963dbae4628d522bc6b14985e749c08b gpio: shared-proxy: Drop the vote when switching to input
-e9aeaa63fd94b0d2bb9b303be5774b33ca9c01cf erofs: apply the stacked fs check to extra file-backed devices
-9e4b35c95fede87bad36f68b7ff1eae94ea6b910 gpio: mpc8xxx: Fix potential use-after-free of IRQ domain
-83d689bbe8f90ce39961bcc3a64f2ca2ec184019 wifi: ath12k: don't advertise EHT-MCS15 to firmware unless we support it
-1826e5aa068cf6c21791773f160b4a2ce5d5f9a5 sched_ext: Factor out drain_offline_rq()
-2227a34ff7bfcf6112931039e3554f4b70b65ab9 sched_ext: Fix ops.enqueue/dispatch() calls before ops.cpu_online()
-4c2e0751d5e6d181a5b9b2a8ada869b5bee66a83 sched_ext: Reject scx_bpf_destroy_dsq() in tracing programs
-fffbdad76a57eed26cff1be19f4cbb407f0b6e7c cgroup: arm the notify timer only while the file exists
-d9dca24659face4c97e466bfe11a44dedc2169e9 wifi: nxpwifi: synchronize scan cancellation state
-6a5cf549f4dcbd502db8cd00c5f49d20a2b9648f wifi: nxpwifi: guard the 11ax response handlers against a detached command buffer
-1cb78390d1c6c7908ab9838238a702799e0f7e9f wifi: nxpwifi: read the 11AX_CFG extension ID at the right offset
-f17e2eda1630ab375ac71a91252694a485addef7 wifi: nxpwifi: bound the TLV lengths in the 11AX_CFG response
-bcc5bbaa6de61a0ccaa57228ca233b4390eca27e wifi: nxpwifi: validate scan response TLV sizes before indexed access
-e7c7c4ca5c41c38bcd6bb08ab57f6ce53f4ed0df wifi: nxpwifi: validate monitor RX extra-header length
-c2d0710318b8cd57d0ef6088d0ee4bbc1e827fd3 gpio: virtuser: remove the debugfs files before freeing the line data
-bd60a639b621453fe37b780df4b6d3a13f981f13 power: sequencing: qcom-wcn: increase WCN7850 power-up delay
-b1310cb291935c788f34ed6eb1e7e9b42cfac045 dm-pcache: do not advance dirty_tail after backing flush failure
-648320de920b30ae1730bbf0e8b86c0df0fb490a dm: fix infinite loop in dm_blk_do_report_zones()
-11b5cd14c0eecae458cecbe53d21a3dbc10190f5 dm-raid: bound array_position before indexing failed_devices
-8b97b168eb4d3affcf23d2980a0c3f35ed9262e2 dm cache: reject kcopyd client destory if it setup failed
-d7216d7be2bbfdf3312695b6e41a4fc7c5e22902 dm snapshot: fix discard_granularity unit in snapshot_io_hints
-4fe2c2baad01da64d47f1a0c8fc093df994bcef5 dm snapshot: split discards on chunk boundaries
-73174b4bb6fcd0e6cf973c9402a0fae2e567ad9f dm snapshot: fix discard writing into the next COW chunk
-cc448e44f6e9fc83f1527f926f52ebfa5a3d1ce9 liveupdate: check for duplicate session before growing block set
 828c3b265b6df877dced3dde56ea41daa2e6181e crypto: caam - reject overlong RSA CRT parameters
 e9ce64dce975a14700e835003847415e29918474 crypto: essiv - fix use-after-free in AEAD path
 26ca5f34841f0a86d0883664a1c13be89a01d351 crypto: ccp - Make usage of sev_cmd_mutex more granular
@@ -957,5 +907,148 @@ bb5f652f37a4984ef7c0dc21fb4837463a044454 NFSD: Take a file unhashed during const
 bac30f6d8a3eac38a7cdbc44d9b7c13a6fc0b3bf nfsd: do not allocate blocks for an RW layout with a minlength of zero
 7492814550ff4bd583cf2a79fc5fec88265cc6aa nfsd: pin source client while using COPY_NOTIFY stateid
 834283c65e3b306f39a725acbc7cd99b6afa61de NFSD: Report a first-batch readdir error in the reply status
+7a4e24ad498fc7827ca10ab73ce3eaa478cbc73d nfsd: unlock the locked parent after crossing a mount in CREATE
+2c045031240b21318b9054b7c923421020eb9089 Documentation: Add the RPC language description of NFSv3
+9359761a16bb843c14c9aca040f92fa5cec818fe NFSD: Add infrastructure for generating NFSv3 XDR encoders and decoders
+0746216020d6c0ae6d85bc8885988eb4e88030d4 NFSD: Replace nfs3.h with nfs3xdr_gen.h
+dd10dda41b59b5329092aea4029bcaa2a56857a6 NFSD: Replace the nfsd3_createres macro
+8e484a2c0a87e0a5c34172b34c3fb20fe2a7a133 NFSD: Relocate the NFSv3 XDR storage union into nfs3proc.c
+f9ae82836a4fa239f52062ea27e9dddfd01da675 NFSD: Use xdrgen XDR functions for the NFSv3 NULL procedure
+d4ec0f2cee753dc993d414455a03c6b2e8b1a21d NFSD: Use xdrgen XDR functions for NFSv3 GETATTR procedure
+da932c78c9299c682d38eab19191a0c649e666cb NFSD: Use xdrgen XDR functions for NFSv3 SETATTR procedure
+5e207fe45e263dd97b5cdb26c1d1ecec20314e87 NFSD: Use xdrgen XDR functions for the NFSv3 LOOKUP procedure
+b7487a1081c3c8fe1125dd431093226ff70a1818 NFSD: Use xdrgen XDR functions for NFSv3 ACCESS procedure
+ae362a95b3f797187f6a2cefe393893d36286e66 NFSD: Use xdrgen XDR functions for NFSv3 READLINK procedure
+fb39ccae0167b2d1b86e681b6197c4b767ad34d8 NFSD: Use xdrgen XDR functions for NFSv3 READ procedure
+1c3c96249bfdb28fa31109dd794fd831502847ce NFSD: Use xdrgen XDR functions for NFSv3 WRITE procedure
+c4d92b2385407de453d389ea1b5dc4589915fb1e NFSD: Use xdrgen XDR functions for NFSv3 CREATE procedure
+ea17777a0b061797cd70669ceb05dc538d223650 NFSD: Use xdrgen XDR functions for NFSv3 MKDIR procedure
+fd9320913656653adfc408465791ff266d492dbb NFSD: Use xdrgen XDR functions for NFSv3 SYMLINK procedure
+57896b6eb69eda5ad946e3ab2e133a266b93aa1a NFSD: Use xdrgen XDR functions for NFSv3 MKNOD procedure
+16e2f2647190d0e1886adc69b9c6fe9487ed9690 NFSD: Use xdrgen XDR functions for the NFSv3 REMOVE procedure
+23f144f9bfb1cbb14be561789a2111f716c68e74 NFSD: Use xdrgen XDR functions for the NFSv3 RMDIR procedure
+846a2089725f5143f84cde5be448f9688c22ab45 NFSD: Use xdrgen XDR functions for the NFSv3 RENAME procedure
+f74c4e7df5f6d8f7454073ebda9bd1a520f6643a NFSD: Use xdrgen XDR functions for the NFSv3 LINK procedure
+cdccbd37a92f91c82e831a3e61c05e895062c664 NFSD: Use xdrgen XDR functions for the NFSv3 FSSTAT procedure
+bf5fef9b2bffe29a684a4c2212ce149d525528c7 NFSD: Use xdrgen XDR functions for the NFSv3 FSINFO procedure
+ae8d98325a1c53614f6034eb54cf4a82ccba27e9 NFSD: Use xdrgen XDR functions for the NFSv3 PATHCONF procedure
+470c487da4936baa573eab4c84961b9d9ff8af09 NFSD: Use xdrgen XDR functions for the NFSv3 COMMIT procedure
+107797b2aff21ec14ace009301af802f4de1b67b NFSD: Use xdrgen XDR functions for NFSv3 READDIR arguments
+02a8dc767b882d60d26ba062616e6d5ec4e93b85 NFSD: Use xdrgen XDR functions for NFSv3 READDIRPLUS arguments
+00fa3853b7082512ef70ba456c3335222f394435 NFSD: Refactor NFSv3 directory cookie encoding
+cd813034d682a0e000b07ee5ad22c411033d6057 NFSD: Refactor NFSv3 directory entry encoding
+ec995b3d5d4c7edb207ea8080db92ecbb12bde4c NFSD: Split struct nfsd3_readdirres
+359147bf7409b647e562a8439028e6043a444eec NFSD: Use xdrgen XDR functions for NFSv3 READDIR results
+9f57d42c94483bb1fce47bfef84bc8ed80c5beff NFSD: Use xdrgen XDR functions for NFSv3 READDIRPLUS results
+17200a21dc6f6f80c695bf1f3a4cbb920c56cdbd SUNRPC: Remove svc_fill_symlink_pathname()
+42f8c00955bc6c740c6d20f5ce5d49586e8853ae nfsd: prevent a double put of revoked layout stateids
+af856fd7712e7f6317d86bbac867bb7d84286ce3 nfsd: fail a LAYOUTGET in progress when the layout lease is broken
+0d62210ca390f2b13f02837db7b8f514cc0890c6 nfsd: answer NFS4ERR_DELAY instead of waiting for a layout recall
+1f13471138633a8b6cd98af5c44436fc6983a9f1 nfsd: make the time limit of a layout recall work
+6086f4cf934b84c827fefb3e889c49cee3b7288f nfsd: run the fence script when a block layout lease break times out
+d4aa049bd68021127414657712ab3395ee5480f7 nfsd: end a layout recall once a lease break has fenced the client
+215e2d9c8a68e67f1c214ca1a921bd413d74cbbe nfsd: keep polling a layout recall answered with NFS4ERR_OLD_STATEID
+c75e281fac77646047e126a588e5f0ca5b0a99bf nfsd: do not fence a client for a layout recall with no layouts left
+d40d408f66d63085927bc19bda4dfaf2fd8932ae svcrdma: account for inline bytes in Read chunk page budget
+15cf409991c4e24f260dc3bd1a65f384269cccce NFSD: Use direct I/O only for the last operation in a COMPOUND
+21b5690a67f9b16220bbf468097b1fcd419bd3f2 NFSD: cut a misaligned direct-mode WRITE at folio boundaries
+ae6fe94a9f2ad8e2e4df24e1ffe9719e4f24ba69 NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
+4912b406001843769c4a7b05abad39926499dae2 NFSD: only split a direct-mode WRITE for a worthwhile direct middle
+902079cf6f791135c5eef5c7fb3c2127ce28c9c9 NFSD: add direct_misaligned_dontcache debugfs knob
+90d60b2294989dd118f52b4f832f72c9b5038aad NFSD: do not use direct I/O for a READ smaller than its alignment
+414c1ecd387610a47699d9234d95871616c7814c NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
+6b10cf47fb2c8e92aad26681bc9c640e14941b6a NFSD: add tracing for how direct-mode READ and WRITE are serviced
+6199175fd619616259fae770797b15119399e0f7 nfsd: truncate LISTXATTRS replies on error
+3a589e7d58e092fe3d18ed826bf2f872b20b979e nfsd: add NFSD_CMD_FILEHANDLE_GET for root filehandle lookup
+29d158918957ce309b2493601cfae6f39c8a45d2 nfsd: store net in svc_serv instead of deriving it from sv_permsocks
+dd838d4979fdc20e4a504d93827e368e1ba6a699 svcrdma: silently discard undersized messages
+d60ec574a6cf1926b078068a37267275c14b3787 xdrgen: Reject out-of-range unsigned short values on decode
+8d2dc75b0178de2fba7472c075a47591afe2b8f8 xdrgen: Reject out-of-range short values on decode
+b19779ce23bc3858a283761b2f8da29478082da7 nfs_common: Export posix_acl_from_nfsacl for server ACL codecs
+66512dfc1689f6b3c2df8e24485f97273c227939 NFSD: Remove the unused NFSACL_MAXWORDS macro
+afc743f82b9a2ace89db63474f2263c5426d4bdf NFSD: Move the definition of NFS_ACL_MAX_ENTRIES
+a5504f4eb8c1cf5e9d4384f31ddc338e5c4ced31 Documentation: Add the RPC language description of NFS_ACLv2
+6b9ccca4f9e5f19375c679fa3be048bedec8bc8a NFSD: Add infrastructure for generating NFS_ACLv2 XDR encoders and decoders
+98f43971218a06c28f31df889722f26fad527a50 NFSD: Remove '#include "xdr3.h"' from nfs2acl.c
+fd6c9edaf4e56ab4567d3aeb10d241663ca5e23b NFSD: Remove '#include "xdr.h"' from nfs2acl.c
+9f494968ede3599b5db674e9b12ff7f37d29892d NFSD: Switch to using the NFS_ACLv2 status codes
+dab7a992386f730a3ba55725d218ee54b24b30d4 NFSD: Use xdrgen XDR functions for the NFS-ACL v2 NULL procedure
+321d5bf51504a2288d0b0447ad9a4b1d5a7854ff NFSD: Implement NFS-ACL v2 ACL encoding and decoding with xdrgen
+0fcdd410908d32e97f153c28f46b53ed2f570e31 NFSD: Use xdrgen XDR functions for the NFS-ACL v2 GETACL procedure
+922c78b88f7fffceafd926ea84c82fc990abbf02 NFSD: Use xdrgen XDR functions for the NFS-ACL v2 SETACL procedure
+f658fb4a72f136917eea22c934b71f62345334c7 NFSD: Use xdrgen XDR functions for the NFS-ACL v2 GETATTR procedure
+769ecc2c9cbfc700b2a7273ef5cecfa6c99f4ce1 NFSD: Use xdrgen XDR functions for the NFS-ACL v2 ACCESS procedure
+d4c1a0f90caf8c14eb9704d597d6bdfc6d2b1f5c NFSD: Map every NFS_ACLv2 reply status into aclstat2
+3f3666bdd5da29550546c791da669dd2c6650da5 SUNRPC: Fix use-after-free in svc_age_temp_xprts_now()
+8f62148a18a009d02c5e25bc9cfef47496ccb969 SUNRPC: fix delayed cache cleanup in write_flush
+77e6878e4ac331c54ff3f3d75341280fccb1a579 xdrgen: Handle a union whose arms are all void
+b78a2a9f6e2f86690c3a8f440477b7c4a3ee7137 xdrgen: Key the width tables by type name only
+dbb58fe5e187728693d3ef11f0fe8e26e77e3bca xdrgen: Register optional-data names only for typedefs
+7aa7f6f6f5d2e6af0fbf59f53182bb9a41674494 xdrgen: Take a union's numeric discriminant width from the declaration
+91f76b68c0f3a287cccda3c86078981b5412d74e Documentation: Add the RPC language description of NFS_ACLv3
+220101e7fd3a6edfe8f249c5f0c1c5da6f2016c3 NFSD: Add infrastructure for generating NFS_ACLv3 XDR encoders and decoders
+a6b24752f768b671a48128b94c753723c4cb06e2 NFSD: Remove '#include "xdr3.h"' from nfs3acl.c
+7b04db46607af967d87849715d022a13ab72e7b2 NFSD: New NFS_ACLv3 status codes
+91f2acdea43248a739938c8446d9823720be4d7b NFSD: Use xdrgen XDR functions for the NFS-ACL v3 NULL procedure
+da5bc1fc901f24396b1e91074d7cc12fee0b38a9 NFSD: Implement NFS-ACL v3 ACL encoding and decoding with xdrgen
+b29aef0e2fcad6f7d3549930690292e6d5af993d NFSD: Use xdrgen XDR functions for the NFS-ACL v3 GETACL procedure
+8041c563f7f60cefdb5f6e043b59743e736e253f NFSD: Use xdrgen XDR functions for the NFS-ACL v3 SETACL procedure
+dd34f314f374fd14ce26f954cca1f8bb79163ae4 NFSD: Map every NFS_ACLv3 reply status into aclstat3
+82905c8b3619508cfdc8408ee924bede30a2b79a NFSD: Remove the hand-coded XDR helpers for the NFS_ACLv3 procedures
+e9b3512fc160edf8d3031690b605fa49fd213475 NFS: Move NFSACL_MAXPAGES into fs/nfs/nfs3_fs.h
+afd2eebeab536400c0ba19f1cc3667b452338052 NFSD: Share the attribute conversion helpers with the NFS_ACL procs
+eedde355cafd3b5287023794e8dd3798330ef8d8 nfs_common: Remove the unused NFS ACL stream codecs
+e4aaeb0518add0eadcf6cada76c868885d6ba2b1 NFSD: Map NFS_ACLv2 entry IDs through the request's user namespace
+4db2d44d6627160f21d85e05d23cc468820c9f17 NFSD: Map NFS_ACLv3 entry IDs through the request's user namespace
+ea1463379bd0b4c6cdc9dcbbe944f5201514578e NFSD: Don't dereference cp_clp in async COPY tracepoints
+1162b73a183834d025dc2c1f2e2e59f41d157ce8 NFSD: Add per-export read/write I/O mode settings
+83b0ca4b18ab1cecfbe9169933e8663b885c95a2 NFSD: Apply per-export I/O modes to READ and WRITE
+369c06edb1582068ca90a3d6180100516e508d95 NFSD: Document per-export read_io= and write_io= options
+11f9f44c6b89a1acabe75986639c57893e2a3950 NFSD: Keep per-export statistics across export cache updates
+e6e6019c748eba0f0c54d8a97008969536e86981 NFSD: Count the storage reads of each export's READs
+4bef3e26991b8eafd43ca013e68b2cc226f58d1f NFSD: Document how to choose an IO mode
+894d8da9016b2edd5e0a758d5f4cb023252a6dd8 nfsd: pin the module while a server exists
+80925abc4743e84a0fc2144e228f0db14472ea2d nfsd: fix XDR tail bounds after spliced READ
+bd9511755d9281aaf3b5b2df137291313f85076d nfsd: don't access freed memory when cannot grant a write delegation
+17f617995378ba755ec9cb9fe3885f068e67638e NFSD: Do not regrow a slot in the SEQUENCE that retired it
+81ce81db2afe7532ae9f6e0f286dc78959f005ea NFSD: Fix PUTFH wrongsec check when SAVEFH follows
+e98bd0f516456a4067371afc51dccc67c4e41e29 NFSD: Check export security on the COPY and CLONE source
+b87a2f6bb180486e7fcb0c87c4034ca120b9bb9c NFSD: Check the entered export on a mount crossing
+afc0fa3fae65219ab483a016cddc67b9310441b5 NFSD: Let SECINFO query an export that excludes the request's flavor
+6c8567c71b78582876fea533451f3f254cc92d3c NFSD: Defer the PUTFH export security flavor check
+92f44a007ce5c348f9829dba9c29c158e38201b0 sunrpc: fix lost wakeups when stopping service threads
+b69f2480f313f78f7fd1b1a6ce22da3447a3b556 NFSD: Drop the READ payload when the NFSv2 GETATTR fails
+88f3106cc30d9c2b6654a0ddbbf3b3dc15e02408 NFSD: Pass the link text offset as the READLINK result payload
+52da429db49630bb5d8b3df0217a6caeb8a0064e NFSD: Check the Write chunk before inserting a spliced READ payload
+21cee020665bf36231b27ab59d825ca33c93efd8 SUNRPC: Check the Write chunk before inserting an opaque payload
+f4473db31fd0418ca32ed0d4b86444f0f0c66940 NFSD: Return NFS4ERR_IO when a payload overflows the Write chunk
+9f031cfc3b5d786c5f70242ec64960d3812105d0 NFSD: Place a word-unaligned direct READ's XDR pad in the tail
+6364520f00296cfd5abec2a35959c6f7a4b43fb0 SUNRPC: Account for page_base when encoding into the reply pages
+fe736c250ffbdf89741e5ca3229b071b13794978 SUNRPC: Add KUnit tests for encoding after a nonzero page_base
+4fb1658349c02aaaae78ac6664441ba678a0f81c SUNRPC: Restore the auth slack before encoding the integrity MIC
+b7af04e378907b4dd2751fde2666b2a828aeda9b NFSD: Round the session's reply limit down to a word
+0690890290ef26271589c14d88789886f2717f65 NFSD: Account for page_base in reply-space decisions
+e441b96ff9a5941a9a4d9b6bbd113f5997eef04a NFSD: Allow a word-aligned direct READ in any COMPOUND position
+bdc1d32605f4dba6f4d847fb3f585c82ac23e2ef NFSD: Do not truncate an operation that reported an out-of-space error
+20366b997fce9de36dacb02dce46254df0304c59 SUNRPC: Load the GSS module by OID only when the mechanism is missing
+c3a3cffb236de613a91e6ccc8eeb9e1f21d2096a NFSD: Serialize forced client expiry with state shutdown
+3482f28edd67ddec092f71e0f533c9c6b064649f NFSD: Check machine credentials before expiring a client in DESTROY_CLIENTID
+86a49d092d6cbb1d2c9185b25f032c0ba2d856fd NFSD: Make nn->boot_time strictly increase across state starts
+af6f54fd50ce8573f7385f574186bd0998aadb19 NFSD: Give each client a display id independent of cl_id
+17207b96efd2a9274a9c943eb2ce4c24f1447f96 NFSD: Generate the clientid at random instead of from a counter
+2a19e7678f6fafff866ee7ddd95c95b2a50ec5ca NFSD: Stop disclosing the conflicting lock holder in a lock denial
+06dceb9de23c0e179df49ccf423f470ed8b43767 NFSD: Destroy the COPY_NOTIFY stateid IDR at netns teardown
+cefdc0e5b6d62061576a1751e9b10c15fb9ac82f NFSD: Put a random word in each COPY_NOTIFY stateid
+f631e90f4923e992266204ee029992e8f76edeab NFSD: Fill the session ID's sequence and reserved words at random
+9e9a612c655e1db25c1c89a2a5fb770a32ce270f NFSD: Add KUnit tests for the random identifier generators
+bbda12a809b513cd4b82a8668b9fc3f25655b288 nfsd: don't block on a file lease while holding the parent lock
+15ff5aa0396ee5d45562f02b04f8d5c7301a36d2 NFSD: Refuse a direct READ whose aligned range exceeds the reply pages
+305bf9791dd1b1d9c28a0f4efd84f33312634ce9 NFSD: Check the secure-port policy when entering an export
+aeaadd9c98cf885b2539b81780458ba9e3e63b79 NFSD: Do not validate the transport before a deferred flavor check
+3495fbafdbc493f42a9e4ee754cc714e2d849043 NFSD: Defer the PUTFH secure-port check
+a8dda55b02cd37382ea33c09586174e1220ef7aa NFSD: Report WRONGSEC from PUTFH when OPEN uses the current filehandle
+9bfcc90019620c9f91e048eb85ea1c71cbf0b6a7 NFSD: Apply the entered export's credentials after LOOKUP and RESTOREFH
+ba7c5a136a13adfb90ad00ef9291efe776239260 NFSD: Use each export's credentials for the COPY and CLONE stateids
+00270637d0d956cd6343c41bfd9220ba90360fac NFSD: Verify the target directory last in nfsd_link()
 
---===============0072043808359275715==--
+--===============8042148213250887035==--
