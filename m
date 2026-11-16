@@ -1,33 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 16 Nov 2026 14:02:51 -0000
-Message-Id: <179483777151.211552.1519303369903192798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Mon, 16 Nov 2026 14:06:13 -0000
+Message-Id: <179483797305.214919.1834054034484568561@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: abe1a5cf74be173bddc5d0e0609848fa261b22e5
-    new: 0069320cef67ba6ca745a05868c40e4c46b61284
+  - ref: refs/heads/scx-pvsched
+    old: 878b8b04e0a6b6c134c36dbd922e9655a2146252
+    new: cc2bc5ed5ad9d4e4b9c9c21c8a1b10e2e5f74b1d
     log: |
-         0069320cef67ba6ca745a05868c40e4c46b61284 Merge branch 'pm-runtime' into linux-next
-         
-  - ref: refs/heads/linux-next
-    old: 3a099e999c48088c41f8bb0ae0b9873e1817b6a0
-    new: 0069320cef67ba6ca745a05868c40e4c46b61284
-    log: |
-         f2b556e3dad662faaa038e549eb53fbcd2118a17 PM: runtime: Update last_busy before calling rpm_suspend() in rpm_idle()
-         0069320cef67ba6ca745a05868c40e4c46b61284 Merge branch 'pm-runtime' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 3a099e999c48088c41f8bb0ae0b9873e1817b6a0
-    new: 0069320cef67ba6ca745a05868c40e4c46b61284
-    log: |
-         f2b556e3dad662faaa038e549eb53fbcd2118a17 PM: runtime: Update last_busy before calling rpm_suspend() in rpm_idle()
-         0069320cef67ba6ca745a05868c40e4c46b61284 Merge branch 'pm-runtime' into linux-next
+         6d7cbc2a336ead6f406ffca95a6e4661d4c4e14b bpf: Allow importing memfd pages into an arena
+         f4f50f6440f4e5cdca3455a422b246ce7e53a1fe bpf: Allow importing device-dax pages into an arena
+         c37a1e4cd4caff6f2006099dadaaf9bf646f13e0 selftests/bpf: Test importing pages into an arena
+         0754eba311fce1ec23e6a46d19e87b61ce1abcdb selftests/bpf: Add a host/guest shared arena prototype
+         cc2bc5ed5ad9d4e4b9c9c21c8a1b10e2e5f74b1d [DEMO] sched_ext: Add paravirt host and guest example schedulers
          
