@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Mon, 16 Nov 2026 16:10:28 -0000
-Message-Id: <179484542859.322176.3118967648563695037@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Mon, 16 Nov 2026 16:13:20 -0000
+Message-Id: <179484560088.323342.11574346839696182826@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/heads/scx-pvsched
-    old: cc2bc5ed5ad9d4e4b9c9c21c8a1b10e2e5f74b1d
-    new: d7b8b3c7a561be0f07bfcf95cf15967f49b12440
+  - ref: refs/heads/for-7.5
+    old: 4576da8eea78aec47321f02ba56ad699a7456f6e
+    new: e83e9d4d992e3352bea942638f601f01c7405eb7
     log: |
-         257e335a369d2f1da319f3d92c421f57e3ead587 bpf: Allow importing memfd pages into an arena
-         9e026fb74fc97626fbf6e6985f9dc5ffd0120c74 bpf: Allow importing device-dax pages into an arena
-         93e277239a5340a60aeefaa8bf78ffcabbe22989 selftests/bpf: Test importing pages into an arena
-         d7b8b3c7a561be0f07bfcf95cf15967f49b12440 [DEMO] sched_ext: Add paravirt host and guest example schedulers
+         5149ef22d005e6323f68f11ee2d0764bde47dfbc ata: pata_ixp4xx_cf: avoid recursive locking in the PIO callback
+         5849257c1a2b35a23f1068ce39bf6160a1a5b9a8 ata: pata_buddha: propagate host activation errors
+         8d1ddc50c790f2fb59512b20c754e9d4538ce653 ata: ahci: release QorIQ and Seattle platform resources on removal
+         1c72150a23b3139d0b16f7892a8f5458998d6999 ata: pata_ftide010: stop only successfully started Gemini bridges
+         e83e9d4d992e3352bea942638f601f01c7405eb7 ata: ahci_seattle: serialize SGPIO register updates
          
