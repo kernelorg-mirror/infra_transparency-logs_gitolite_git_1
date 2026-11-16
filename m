@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6883416601976345175=="
+Content-Type: multipart/mixed; boundary="===============4862147691978722645=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 16 Nov 2026 18:51:28 -0000
-Message-Id: <179485508893.498497.5469246530828489581@gitolite.kernel.org>
+Date: Mon, 16 Nov 2026 18:51:31 -0000
+Message-Id: <179485509173.498664.740483877945631814@gitolite.kernel.org>
 
---===============6883416601976345175==
+--===============4862147691978722645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 8835113107b2cf75df33a71e265cdeec5d5d13e0
     new: ea80d2afd285332fa88412c03d43e23d664f506f
     log: revlist-8835113107b2-ea80d2afd285.txt
 
---===============6883416601976345175==
+--===============4862147691978722645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ eda0d4a099443d2db500fd74b90de822f6f48170 selftests/bpf: Test programs above the 
 633c547b1dab7631d89907687c863714f4ca9798 selftests/bpf: Test limits of the load with raw programs
 ea80d2afd285332fa88412c03d43e23d664f506f Merge branch 'bpf-remove-the-limits-on-maps-kfuncs-subprogs-and-special-fields'
 
---===============6883416601976345175==--
+--===============4862147691978722645==--
