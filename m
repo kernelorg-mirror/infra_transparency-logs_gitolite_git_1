@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kuba/linux
-Date: Mon, 16 Nov 2026 22:46:57 -0000
-Message-Id: <179486921701.672898.7725911098299233165@gitolite.kernel.org>
+Date: Mon, 16 Nov 2026 22:47:01 -0000
+Message-Id: <179486922163.673062.667055616961371480@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/kuba/linux
 user: kuba
 changes:
   - ref: refs/tags/dma_alloc_coherent_node
-    old: b11c089404de63ed9c48707982adde5f0e5be524
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: d463db40a115630dc7a2611ae7a796ff40c88aea
