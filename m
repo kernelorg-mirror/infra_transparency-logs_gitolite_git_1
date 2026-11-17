@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Tue, 17 Nov 2026 13:36:04 -0000
-Message-Id: <179492256440.1569227.12429808617296007346@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pza/linux
+Date: Tue, 17 Nov 2026 13:36:15 -0000
+Message-Id: <179492257588.1569431.330308469514061334@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/pza/linux
+user: pza
 changes:
-  - ref: refs/heads/v7.4-next/dts64
-    old: 036ce7562bef9a85d46ed6ba5b83ef4f5e60ad8b
-    new: 14cdd904db60288b782ffeac59f4c626ef11e9f5
+  - ref: refs/heads/reset/next
+    old: eac3b292a26e2210037c1fa6b56edc18c0ce4e0d
+    new: 76918eb855d09282d98fe9c107f2783ddcb18f6e
     log: |
-         14cdd904db60288b782ffeac59f4c626ef11e9f5 arm64: dts: mediatek: mt8370: fix CPU map core ordering
+         76918eb855d09282d98fe9c107f2783ddcb18f6e reset: rzg2l-usbphy-ctrl: Permit disabling POWER_SEQUENCING again
          
