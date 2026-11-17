@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5612101060253261451=="
+Content-Type: multipart/mixed; boundary="===============0680381910122699446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 17 Nov 2026 10:44:06 -0000
-Message-Id: <179491224680.1426298.2204088859738955447@gitolite.kernel.org>
+Date: Tue, 17 Nov 2026 10:44:37 -0000
+Message-Id: <179491227797.1426569.5351076533083419956@gitolite.kernel.org>
 
---===============5612101060253261451==
+--===============0680381910122699446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,53 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+  - ref: refs/heads/usb-linus
+    old: 3149e8b3237f58d4dd440fc64c45c93404c4b064
     new: f11fe7603df07fbb9fa02b0d385c1696c87a6dab
-    log: revlist-6628e7d4c6b2-f11fe7603df0.txt
+    log: revlist-3149e8b3237f-f11fe7603df0.txt
 
---===============5612101060253261451==
+--===============0680381910122699446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1794912240 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1794912271 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1794912239-07556e564c5bd7dc69fa4e6d8043ea67aa9c3a0a
+nonce 1794912269-308ce3c27d8d4b3128dc20cad33886b413d4d736
 
-6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 f11fe7603df07fbb9fa02b0d385c1696c87a6dab refs/heads/main
+3149e8b3237f58d4dd440fc64c45c93404c4b064 f11fe7603df07fbb9fa02b0d385c1696c87a6dab refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmr8L/AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UnsQAJAu/kVebljixffRo0Gj
-Sv6UzXCD3R8JSoyeDfEkpPO3n80nE8hn4NKYGpjFN3CHgasyAhjVsscWC7sYZJdt
-71qb0oPfkQZG20A7Rw8qxrj/pE4UcrQn/ByEabHH+siTegoaIAyB+defuxlzvv3J
-HRXL8rJnxECD1T9Uoly8sKQAsh1yuIFCG6xEKYjkf6FHVCatawIoAI7fYA7ibtJE
-PrUMB3fLDwcS5lhEXV59fLs9hT5x/Rb1Rwng/twNW71RGiFj/tctxwV+ceO/4HKH
-aQm1Xg5P1hnCQdLhfBTYBmX6nUPVO+rhhUUkaVVZI8HUR+KUnU3isrn/CRfSr3gk
-IFRa+BdKaulfICvuDdS7mF00lcAYgdLFpFJuqm8Dc/Kncsow1pzaRAlNVTM8XyHe
-D6sNXuAa3FKn3P+jBlyJk8evuls79mYRuaBzV/1J0HZWP5ZqmFXiLNX4TZpDR0WN
-+ozTDBdb2Z6bIfQdad75L7JK/BCSGJ/0J/wr4CoOgLqp7Vc5/9t5lIEg9ZOwO6n4
-ZiGRLANBxmtSsW4s0vG/rnbSGBM3arwlj1WaElAd/SccxKkP2wFZ7s47fjt9uHII
-xI5v2Xq0mjcyJhiqzseOQC6uicr3FIMVjhIYH0W9E1UR0PTJsQpCP2H8h8yKN584
-n5wwI5yBh7eVtqEcFzUS//yj
-=yjY4
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmr8MA8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++ncP+gIYs6gP2lXTwFBHs3NE
+jPNhokWuEnc0KLbRgRl1MowCJvF3oSaZAB7DSAMyvwuE1Yh4AzCKGqcwuE1hWeYU
+A+8NC9EKWQouQmsh/vnav00R5GzGFvOAm1S/khJG8bWdLULXrYkuf6lpK+GK7W55
+oC+/6R7Z6kYswIKm+TeW48pft9VWwtwmJCbmAc8qw1Aqe4oIk/kwVa2nqESSmnab
+HhlzgWOdjtvXebm9WKkncTBjTphanPc0nwjtAAQUcZUKYwECVokaeTYhLQcrKaMz
+rd4Rn7hahGrzdlQtr5nGkIMmggmi1khjHxIrry2CO5A43VZgCEPLCCOFEsDoH78B
+V1GgdQ1aV5jfjdXecEyDnigzqdYHxvAeons/VEZtfx25bq/TfeoawTxeb/K1Q2jA
+lWvMxO+/8z7YV2vq5JZt4TVc3zFeU4Y+3e7LauzSDwhFzzF5XdKKDNYC81A0Uxxv
+IzoCNGUjdYEbK4ksKUIZWX5nQuCevO6KWfLif144dI0mLrg/pf9RwToQ0gW5LOa7
+gTTWb9xkUnPj3Gmxcp8K6GKfq3qur82xkk9VkSRYIwx71/GOeb/XnT5Z3CJCoT7/
+pPQ7QRqA4dfIUneDyYYEIhN1j9ilZftLeadXGbkfla0uWWLkw/Cow35rv4zUMebg
+mLkzq+8xuvBrxVaHCBQEl7rw
+=iaAJ
 -----END PGP SIGNATURE-----
 
---===============5612101060253261451==
+--===============0680381910122699446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6628e7d4c6b2-f11fe7603df0.txt
+Content-Disposition: attachment; filename=revlist-3149e8b3237f-f11fe7603df0.txt
 
+81f923b065801c7d30042bcda31ccb9449b4f58b drm/amd/display: Signal PQ EOTF in FreeSync infopacket for DP HDR
+079f9103d9cde68fb2ccc414e94520f43ee102de drm/amd/pm: populate unique ID for smu 13.0.7
+ea47f84199241dd083d40a241beea665415d4f6c drm/amdgpu: Fix duplicate dependency fence releases
+122e864861144150e905012b5fb52e63ad5de68d drm/amdgpu: Report MES ring wait timeouts.
+7ba7655701c5cad5bfa043d464d1e24873e24aab drm/amdgpu: Clamp the ATIF backlight curve to its 99 points
+fb900f8bfd8a16126affd186d21001e4c6533324 drm/amdgpu: drop the dma-buf reference when a KFD import fails
 e0a1404b34e0002f03f7979cdb791a9b5c3963f5 drm/amdgpu: unlock the VM and BO when attaching a KFD BO fails
 71388e1ed836d7645b4807cead35edf24da00bcd drm/amdgpu: rewrite all PTEs of the BOs after a VM reset
 e23621a91bb59d22c2e7a0a1b680f3d4acbbdce1 drm/amdgpu/vce: don't allocate a scheduler fence in the direct IB test
@@ -69,7 +75,6 @@ b31014971d84ebd589338b68bcb4588f08931538 drm/amdgpu: stop GPU recovery wait for 
 6d1f901a83603a7d314e4a756b416b11d8dc7e35 drm/amdgpu: don't drop the gang dependency fence twice
 bcb78d49620f666b4a9d62997691e8d031fd4ebc dm thin: avoid wrapping no_space_timeout
 29b8758b4700357909f06705a0c48c7a60c556d5 nvmet: don't return memory contents beyond valid data when reading ANA log page
-b8320a8b5650096873ae8c0377b8fa1226b15fe0 usb: typec: ucsi: retry init only while the PPM is not ready
 beeec04046227eba42b7cc5ab32498aa43da9632 arm64: suspend: Save and restore TPIDR2_EL0 across CPU suspend
 8f611fe94a781c6fb658488cc7eab4e4923e6df6 dm mpath: fix buffer overflow in parse_hw_handler()
 b3f452ff17788e4b4acfdbb11c55f3dbafd3602e ASoC: wm8904: Enable FLL when switching an active SYSCLK to FLL
@@ -270,11 +275,6 @@ ae5b40accbc06f93e6a513e0e9a07fd32b197e49 dm mpath: cap queue_if_no_path_timeout_
 6fed9e26810f0b466dbcebe35a73d1fd48793ff5 dm-crypt: defer async write submission to write thread
 afd661f6a26438c407bd9928ea16e80c14b121d9 Merge tag 'mm-hotfixes-stable-2026-11-04-20-02' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 28f7d31c2aeb350df9a0116093fade0a840fb4ce Merge tag 'nvme-7.4-2026-11-05' of git://git.infradead.org/nvme into block-7.4
-bb261776d1a29768b8fd84eb4f42d99dafa29c93 xhci: keep port link_inactive and connected flags in sync when polled
-2f2fe3201029ffc215b46ac40a0a9587715bc43a usb: xhci: disable the correct slot on alloc_dev failure
-5550405351199fe78f4a3cd606c07f5ad7220e1b usb: pci-quirks: always assert xHCI OS ownership
-d1ec1859f3b8641e3e5c5953cc7dd8e63b54339f usb: xhci: clear stale bandwidth data after hibernation
-3149e8b3237f58d4dd440fc64c45c93404c4b064 usb: xhci: fix 'num_active_eps' accounting on allocation failure
 46a062865b6b6b9a2ba199101b44feb925455c66 Merge tag 'mm-nonmm-hotfixes-stable-2026-11-04-20-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 d68ce4e71248e1ff5af9654b407541d9260b3ba5 Merge tag 'mm-core-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/mm/core
 27698b545cde67aaf947e20f8e6fe00af1b667df selftests/filesystems: Fix run_fat_tests hang
@@ -1082,4 +1082,4 @@ c3f98ff6309a29979e1867bc3c9d4172755ca122 rcu/nocb: Avoid unsequenced accesses to
 7f6fccf6ee5a345b778706b22159c4e3b547c808 Merge tag 'rcu-fixes.v7.4-20261115a' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
 f11fe7603df07fbb9fa02b0d385c1696c87a6dab Merge tag 'usb-7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 
---===============5612101060253261451==--
+--===============0680381910122699446==--
