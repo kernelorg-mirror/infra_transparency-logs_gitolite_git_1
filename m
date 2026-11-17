@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7692470705868699957=="
+Content-Type: multipart/mixed; boundary="===============7299365742657215318=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Tue, 17 Nov 2026 11:49:20 -0000
-Message-Id: <179491616090.1483027.9242847186651355668@gitolite.kernel.org>
+Date: Tue, 17 Nov 2026 11:49:58 -0000
+Message-Id: <179491619807.1483255.312276864145435140@gitolite.kernel.org>
 
---===============7692470705868699957==
+--===============7299365742657215318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mediatek/linux
 user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/v7.4-next/clk
-    old: 8f1cb3fc8cae44baffef31d73c772dc77e4a9061
-    new: 5d53d592261055d6801c2b825116543cccaa5cd5
-    log: revlist-8f1cb3fc8cae-5d53d5922610.txt
+  - ref: refs/heads/for-next
+    old: 4a05cbf666f1a247a96579220cb79f38027d6e26
+    new: 6c47b948766da7b8ae71125ee47440e0d01f6ebf
+    log: revlist-4a05cbf666f1-6c47b948766d.txt
 
---===============7692470705868699957==
+--===============7299365742657215318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f1cb3fc8cae-5d53d5922610.txt
+Content-Disposition: attachment; filename=revlist-4a05cbf666f1-6c47b948766d.txt
 
 17dfdd525b2035014e0a283207d81af516963914 clk: mediatek: mt7981: fix "emmc_400m_sel" clock mux sources
 561ecc90acf0e4c31a8b591eba14fa8322b27625 clk: mediatek: mt2712: Fix memory leak on module removal
@@ -58,5 +58,6 @@ ee8c582eebc58db9611bb96db155f340d8e0cc28 clk: mediatek: mt7981-apmixed: Switch t
 5f567ffc39ea1db93be64d6b83ce78efede8fe8f clk: mediatek: mt8188-apmixedsys: Switch to common probe/remove helpers
 c9c2fd1a53a49c004130e1af7aa8c640091ef6aa clk: mediatek: mt8516-apmixedsys: Switch to common probe/remove helpers
 5d53d592261055d6801c2b825116543cccaa5cd5 clk: mediatek: mt8173-mfgtop: do not use the clk API from power_on
+6c47b948766da7b8ae71125ee47440e0d01f6ebf Merge branches 'v7.4-next/clk', 'v7.4-next/soc' and 'v7.4-next/dts64' into for-next
 
---===============7692470705868699957==--
+--===============7299365742657215318==--
