@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 17 Nov 2026 02:25:49 -0000
-Message-Id: <179488234989.889188.15445258201881833825@gitolite.kernel.org>
+Date: Tue, 17 Nov 2026 02:32:34 -0000
+Message-Id: <179488275466.893568.15155300676941060040@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: e1dd8486807c1acf9551250b7f81e116a21e6ad6
-    new: 9545bf5293dfb83138faec013f7ce4184218f304
+    old: 9545bf5293dfb83138faec013f7ce4184218f304
+    new: 0da2064dbdd5c7f1e603efb3e53b2842cd67ca63
     log: |
-         d3def02d1d5fdc4cc67648e878c397962aecbb5f selftests: net: py: add metric output
-         c1d2b8e89a29a02c423ce8c4e379202788f3f75d selftests: drv-net: add an iperf performance test
-         d069373da9638149e8b0a54c10887c57344a8450 selftests: drv-net: add a kperf runner
-         a642edca4a883eefb60162bfc20f2bb607f8d52a selftests: drv-net: measure devmem performance with kperf
-         9545bf5293dfb83138faec013f7ce4184218f304 Merge branch 'selftests-net-add-performance-metric-reporting'
+         4b981dcfe5a97a09846863f44ed4f45e91bafd7e dt-bindings: ptp: renesas,rcar-gen4-gptp: Add R-Car Gen4
+         dbdfe25af31de0b9d47ed5606928fd11fd8c01aa ptp: Add driver for R-Car Gen4
+         0da2064dbdd5c7f1e603efb3e53b2842cd67ca63 Merge branch 'ptp-add-driver-for-r-car-gen4'
          
