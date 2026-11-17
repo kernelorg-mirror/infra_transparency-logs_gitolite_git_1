@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0529533444710764920=="
+Content-Type: multipart/mixed; boundary="===============4046886202754855866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 17 Nov 2026 15:13:06 -0000
-Message-Id: <179492838686.1644523.684195271567172544@gitolite.kernel.org>
+Date: Tue, 17 Nov 2026 15:13:13 -0000
+Message-Id: <179492839323.1644685.9181771685622083795@gitolite.kernel.org>
 
---===============0529533444710764920==
+--===============4046886202754855866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 67f3b04b277373438f17300e056306adbd9edf7b
-    new: c37b2f8a996722ec8fbcfadb045f9f787df65510
-    log: revlist-67f3b04b2773-c37b2f8a9967.txt
+  - ref: refs/heads/mm-unstable
+    old: e1f34fb16e0236c4e60b5f392f1cf5aee76f7d0f
+    new: d0b3eb0ef4ff466d8bc2b8ee77a0ac4386abe75b
+    log: revlist-e1f34fb16e02-d0b3eb0ef4ff.txt
 
---===============0529533444710764920==
+--===============4046886202754855866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67f3b04b2773-c37b2f8a9967.txt
+Content-Disposition: attachment; filename=revlist-e1f34fb16e02-d0b3eb0ef4ff.txt
 
 e1a901ebf723b83eff57be9499140f9096d0872f mm/vmalloc: bail out if in softirq context
 776a823764363987d9b1b68384aa18f99924c8fb mm: memcontrol: don't lose track of exiting OOM victims
@@ -280,65 +280,5 @@ d9b200bbd7e86301723d5a7d4360615a200ce130 hugetlbfs: report inode limits without 
 6b5c4b92ab1135be7909454414ca273b9672ae23 mm/damon/sysfs: support LRU-activeness based DAMON filter setup
 885102d89c910cc466f0fcdd75a02d091593d081 Docs/mm/damon/design: update for DAMON_FILTER_TYPE_ACTIVE
 d0b3eb0ef4ff466d8bc2b8ee77a0ac4386abe75b fs/proc/task_mmu: fix lost maps entries above 2^63
-51bfebc10dc186778554190b939076ee083a9074 mm/mglru: report evictable sizes per type
-d28ea7a5186ffb39fb7ad70bd9db874505daf883 mm/mglru: extract lruvec_populated_min_seq() helper
-b82c39c938c2fe9759215df939fcbb599d3ef74b mm/mglru: reclaim from the oldest populated gen
-dc5ef40fae2fa8c3eaaaedc82f981cab8b333aaf mm/mglru: lift the forced protection of reclaimer
-f093d65297b3a70390a38276bd18e9c69b33f2d3 mm/mglru: skip zones above reclaim_idx instead of rotating them
-18a114683f6ef645ebe5fb052cbf09449a702ea1 mm/mglru: return for unavailable anon reclaim earlier
-31ed8a69f3dcba5e8f3d6d507518bdfaa9cb9767 mm/mglru: balance anon and file scan budget by refault rate
-a92e86c3e0848b5e075914c40168fede4b4fffb8 mm/mglru: lift youngest gen protection for higher priority
-36c1f70ce709edf14970a1a1941b46583be0afb8 mm/mglru: avoid placing rejected folios below populated gen
-3195e3ebc2bee8c0eed105b7cd9c4a985f34dc4d mm/mglru: run aging when pages are rare outside the youngest gen
-93a188f6d5de3683317493171258dba055917954 cleanup-mm-mglru-Run-aging-when-pages-are-rare-outside-the-youngest-gen
-c7802b90e4174bfe6bbcb908a45314de51d54cc5 mm/mglru: run aging when one type is drained
-07af3c329f00d81e34ed039c4de877ac6927d7d7 fix-mm-mglru-Run-aging-when-one-type-is-drained.patch
-473e4e54edcb22980bd95015111abce1a0f74aee mm/mglru: restrict eviction accounting to eligible zones
-ae5e916fd81205f37e5ed64fd9f32e34635a03dc mm/mglru: reduce LRU lock contention by shrinking folio batches in inc_min_seq
-86d36f223d4111860526d1aeb7f0184f5584ddc5 mm/mglru: avoid prolonged anon reclaim with swappiness=200
-b62796d8edba9c29f1f6c9bcae713536a2446421 mm/mglru: make swappiness=1 file reclaim more aggressive
-0100f8fb6fd3aac497f641a792ad3af345376308 mm/mglru: avoid scan anon while swapcache is low for GFP_NOIO allocation
-04a266ef71db79000947a600acf90dec4758e3d7 mm/hugetlb: charge hugetlb cgroup and memcg in alloc_hugetlb_folio_reserve()
-a3e442ac11bde4d1535760ea2272751c50cbb407 selftests/mm: handle implicit read permissions in madv_populate
-fc6e446f964b91c178cb08dfa4a00e3aa04ae931 mm: kmemleak: drop kmemleak_lock in scan_block() when it is contended
-abd62b47853f5366e75fde31c6973e03ae5888eb mm/page_reporting: document @order parameter in page_reporting_notify_free()
-fb128bcfd7702e0663f82d6cfccf3f2aa995c917 fs/proc/task_mmu: advance seq_file position on interrupted VMA lookup
-8e271e7aa30d96af761ca693ee652d5f58d9408c mm/pagewalk: document missing struct members
-2ee031c026fc83aacc5e793fe674dedaae8b714a zram: avoid duplicate slots in batched writeback
-4126965b3a14f433c5962674e91464ee06ecf8f4 mm/madvise: zap markers from guard regions
-d959c62832ba76c276c18d683368161923943a25 mm/cma: simplify cma_declare_contiguous_multi()
-e8e1c6731fe7642a392e27f91de59f4ec6a872d2 selftests/mm: mlock2-tests: fix fclose(NULL) in is_vmflag_set()
-be2b24f56974409ff28f33343549880f2424ace2 mm/readahead: don't skip the fallback after aligning index down
-206338859c3a1065a711609c1e765d206629e526 selftests/mm: allocate nr_pages based on pmd size for uffd pmd_move tests
-0bdfb9b279849c1770241bb756d03b142395fa63 selftests-mm-allocate-nr_pages-based-on-pmd-size-for-uffd-pmd_move-tests-fix
-5deebd64f4e55d0edbd51f9a9b5e39346dcc1bfc selftests/mm: retain move-pmd coverage and verify huge PMDs
-7d6e2fec3a0505070ffa69cc74182754de8a0241 mm/hmm: reject shadow-stack mappings
-7a983cc1b57309a875a9e07a934c9944bf3d088d mm/damon/paddr: add KUnit tests for addr_unit conversion
-de0ba97b97eb1bf79925b8567aef911364c010b1 Docs/mm/damon/design: replace "same to" with "same as"
-5f60cd37f093a6ad75d81f5a370afe464d4e7634 mm/util: fix retry detection and handling in snapshot_page()
-727ab52656a60c49726b0626c0adf3ad4a562b49 hugetlbfs: fix integer overflow in fallocate()
-e3ac3988f17fd7839c9715840fa571968d59511d mm/hugetlb: compare against persistent count when freeing lowmem folios
-5260db728666c53cbc9af08b0d58c6fbd8949143 mm/hugetlb: preserve reservations when shrinking on HIGHMEM
-cd82c8b87a0cc06bf77c8aeb4528e24e13a3d735 mm/hugetlb: account temporary folios separately
-aa1548822359bc4f151f1c8dbd4bb592e0f987c0 mm/hugetlb: keep surplus folios when the pool shrinks
-ff2957bea9fb5c05ae3be0a64bf38f80274d9e19 mm/hugetlb: fix mremap() racing with page migration
-d4cebb6de913f18654a21dc33cf2fa43b104b435 hugetlbfs: fix unmapping folios from private VMAs
-8e26eb5bafc696b5f157d7e0b2d57df566a1202e mm/hugetlb: serialize page-cache allocations with truncation
-ed67d07f0fd602d929356622dfde700b371e68a0 mm/memfd: recheck the page cache before allocating a hugetlb folio
-3384b893e17d2d13c7d9054bbff9fcd5c8beb47b mm/hugetlb: count again if the reserve map shrank
-d4ae3d3ff77d154e10939ea0c44bf58f6d8242ee hugetlbfs: do not grow a sealed file in mmap()
-dd9ae905af6e5f6f5d93af79a2a063a2db791200 mm/hugetlb: keep surplus folios that are reserved
-79b0bab12628e3fde63b17d4289c6dd812f983fa mm/hugetlb: fix reservation leak on min_size= mounts
-a320046bd4d7f40c7bdb509910229b7077c52c8f mm/hugetlb: account restored reservations before freeing folios
-22a04cbcb602d06722a2112c8dc6df6517cb4656 mm/hugetlb: delay anon folio rmap removal until after the TLB flush
-e8c1ad82599df636f22c533e6c7bcf455b02872b hugetlb: don't restore vmemmap of non-HVOed folios on bulk restore error
-5ea2f75b5e610f5288113cc3212fc1d67c2595e7 lib: xarray: free unused spare node in xas_create_range()
-43ae26074599e25614c62785a6851101ed687c5d lib/test_xarray: check unused spare node after range creation
-15ffe5416b81d7f03c525d1a07f07b1b8a19b5ef mm/hugetlb_vmemmap: fix HWPoison state races during optimization
-6bab804cc0997fba73a206ffb75bffeba715201c mm/hugetlb_vmemmap: fix PMD split TLB flush race
-d934fd669b9fe0cb7dcbeb0ba3f1f464a658db76 mm/hugetlb_vmemmap: fix deadlock during PMD split
-a79b42fe3a75f9476de8cece039dacc831f03653 selftests/mm: protection_keys: use _exit() in aarch64 ptrace tracee
-3f7757aeb5235ce490338ee7072858bbaba25e0c mm/mglru: use a smaller batch in fill/drain_evictable()
-c37b2f8a996722ec8fbcfadb045f9f787df65510 mm/zsmalloc: remove CONFIG_ZSMALLOC_STAT
 
---===============0529533444710764920==--
+--===============4046886202754855866==--
