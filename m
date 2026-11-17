@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0352227718254648391=="
+Content-Type: multipart/mixed; boundary="===============8715051590888029699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 17 Nov 2026 18:22:48 -0000
-Message-Id: <179493976805.1842656.16156194951584398130@gitolite.kernel.org>
+Date: Tue, 17 Nov 2026 18:23:33 -0000
+Message-Id: <179493981360.1843064.16118974170520164518@gitolite.kernel.org>
 
---===============0352227718254648391==
+--===============8715051590888029699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/keyring_gc
-    old: 6a1444c62fadd125cd29d6182492aacbf4359178
-    new: 08eac569fb5c871d4e1ec1e9a61594a29c67db3a
-    log: revlist-6a1444c62fad-08eac569fb5c.txt
+  - ref: refs/heads/rootns
+    old: f9358a8b47cbff35cb3b3d0dfc339624edffb2a3
+    new: b456f9201f70b0385e928db79ab704d531ce3039
+    log: revlist-f9358a8b47cb-b456f9201f70.txt
 
---===============0352227718254648391==
+--===============8715051590888029699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a1444c62fad-08eac569fb5c.txt
+Content-Disposition: attachment; filename=revlist-f9358a8b47cb-b456f9201f70.txt
 
 2fad8d241a6833d0c7aeafa0ab596e83c7b4ec9c usb: dwc3: xilinx: fix system suspend and resume PHY handling
 f33f0dd2eb014bffda02ecfd182de3ddab058596 usb: dwc3: xilinx: re-assert resets on ZynqMP init error paths
@@ -287,15 +287,18 @@ fc66b8d3acb630330d5c5ba392a270ca11936524 tpm_crb: Factor crb_send()/crb_recv() b
 1b46eb50af1b7b71ea1d545638092e2e415f2d43 tpm: ibmvtpm: check the response size against the buffer size
 a81a58428b29d0ff1e1a16cd47eaf33d1234c606 tpm: add OP-TEE transport core and a discrete TPM driver
 39175814d0c0bdc7591f7450fdaf990bbe8c9283 tpm_ftpm_tee: use the tpm_optee transport core
-f9943bda0baf387d94f8fce2731ed61f8aca0e87 KEYS: Add key_gc_flush() for draining RCU callbacks
-837fa36884213a61d48da5f987fcc769b2a5a723 dns_resolver: Move the key type into a separate module
-0301aebfb56d5f24dfbc9cd6c5222a496cd5d925 NFSv4: Clear idmap keyring cache when the last client unloads
-6f2b5edaca570b24a321bc720db634e011307916 smb: client: Clear idmap/SPNEGO caches when the last session is unloaded
-48284ce20a37ea438184bc1465257105f5183c85 s390/cert_store: Start tracking subsystem keys
-8aba0e7351b9449ce01fb3b6e107e5f7d7d2f539 rxrpc: Release conn->key when init_connection_security() fails
-438913c7781769c64243387808c9d07968ab4d75 rxrpc: Move key types to their own module
-ca77b2271540b944fae31cae26d7600fe7ceb810 KEYS: Pin the backing kernel module for a key type
-82ed7150079921453704c9808e64edce2528cc77 KEYS: Remove key_type_dead
-08eac569fb5c871d4e1ec1e9a61594a29c67db3a KEYS: key_garbage_collector(): process in chunks
+b101dad9758e103046d91e2441cdea5536178290 nsproxy: Pass nsproxy to create_new_namespaces()
+976bb6189866657004952228473bd025cee87f42 rootns: Add core infrastructure for root namespaces
+ecce6a197a84bf125b061bb5cc5186c6438d44ae rootns: Track init lifecycle via copy_process() and pid_namespace
+c1cc1af31ad3f573686eb7713803517cc5d6bde0 rootns: Add rootns_create() system call
+c5bfaffea72a60ed6e853e1430967e8c3b437c94 rootns: Add rootns_wait() system call
+2a713e62c9f83a672dcb4bb648fca4cdd958fca2 rootns: Add rootns_kill() system call
+46f61a03122940da6efbcc7f0fa4b06e0268c0c8 rootns: Add rootns_enter() system call
+5577a265fe6b9989b26f75896aa6e042ce8d4c48 fs: Support FSCONFIG_SET_ROOTNS in fsconfig()
+5db5a3897d8f7c83859b90e947780ab52cc4c0f6 fs: Support installing rootns mount trees via move_mount()
+c2ef1af6c1f915da872c7160a2dcc06a7b929842 arch: Wire up rootns system calls
+68dd397fd4e77c02cd4958af59a766ea07fe85b2 docs: Document root namespace uAPI
+29ea413641384742faf1694e417e62b410889a83 selftests/rootns: Add root namespace test suite
+b456f9201f70b0385e928db79ab704d531ce3039 MAINTAINERS: Add entry for ROOT NAMESPACE
 
---===============0352227718254648391==--
+--===============8715051590888029699==--
