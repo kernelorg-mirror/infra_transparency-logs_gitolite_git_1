@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 17 Nov 2026 15:34:22 -0000
-Message-Id: <179492966208.1664976.4449950321067427882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 17 Nov 2026 15:36:32 -0000
+Message-Id: <179492979206.1667934.4008487818565808028@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: 1d1b67dcd40ae9a8dfcc823d913852b2ead05bcb
-    new: 674605f05e0c437d68d497215a051b27db3b50d5
+  - ref: refs/heads/for-7.4
+    old: e9bc5937517b64b0ed34b3e73e4b1630a4505ecf
+    new: 29219e5254abb48aa98feb1b5d7e7002bc917cec
     log: |
-         674605f05e0c437d68d497215a051b27db3b50d5 ASoC: amd: acp: Add ACP70 ACPI flag override for LG gram 16U55U
+         29219e5254abb48aa98feb1b5d7e7002bc917cec regulator: axp20x: AXP313A: set ramp_delay
          
