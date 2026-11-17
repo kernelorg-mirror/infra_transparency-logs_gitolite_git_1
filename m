@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4093208887778064916=="
+Content-Type: multipart/mixed; boundary="===============3412932796852404615=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Tue, 17 Nov 2026 12:20:21 -0000
-Message-Id: <179491802126.1509455.17384107033659210395@gitolite.kernel.org>
+Date: Tue, 17 Nov 2026 12:20:28 -0000
+Message-Id: <179491802836.1509649.7711955207994565577@gitolite.kernel.org>
 
---===============4093208887778064916==
+--===============3412932796852404615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-linus
+  - ref: refs/heads/gnss-next
     old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     new: aebb7274476403040d582c61478df8f4a7bf9cd3
     log: revlist-6628e7d4c6b2-aebb72744764.txt
 
---===============4093208887778064916==
+--===============3412932796852404615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f70886e5a510cd7fc2c3aef91c46a14f4485fe63 Merge tag 'nfs-for-7.4-2' of git://git.
 a9daf327f3ff90625204876981f88cfe2b6f6fff Merge tag 'sched_ext-for-7.4-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 aebb7274476403040d582c61478df8f4a7bf9cd3 Linux 7.4-rc3
 
---===============4093208887778064916==--
+--===============3412932796852404615==--
