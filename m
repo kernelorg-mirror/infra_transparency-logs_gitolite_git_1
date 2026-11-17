@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5757662738380549424=="
+Content-Type: multipart/mixed; boundary="===============5067201439523989074=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 17 Nov 2026 12:19:50 -0000
-Message-Id: <179491799018.1506727.12704417351605972911@gitolite.kernel.org>
+Date: Tue, 17 Nov 2026 12:19:58 -0000
+Message-Id: <179491799827.1506923.3714391178211880530@gitolite.kernel.org>
 
---===============5757662738380549424==
+--===============5067201439523989074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/master
     old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     new: f11fe7603df07fbb9fa02b0d385c1696c87a6dab
     log: revlist-6628e7d4c6b2-f11fe7603df0.txt
 
---===============5757662738380549424==
+--===============5067201439523989074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c3f98ff6309a29979e1867bc3c9d4172755ca122 rcu/nocb: Avoid unsequenced accesses to
 7f6fccf6ee5a345b778706b22159c4e3b547c808 Merge tag 'rcu-fixes.v7.4-20261115a' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
 f11fe7603df07fbb9fa02b0d385c1696c87a6dab Merge tag 'usb-7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 
---===============5757662738380549424==--
+--===============5067201439523989074==--
