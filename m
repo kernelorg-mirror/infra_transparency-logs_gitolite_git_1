@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Tue, 17 Nov 2026 12:00:28 -0000
-Message-Id: <179491682864.1493518.2634699094749348681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 17 Nov 2026 12:07:37 -0000
+Message-Id: <179491725738.1498061.17157492784498240096@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/v7.4-next/soc
-    old: bf97386b6ba804df2e3a42933a4c955659a4263b
-    new: 588a1ef17281e439b56b709b67b142b2342e5252
+  - ref: refs/heads/main
+    old: 994089a3fa3882f27f4bed9fc5815ee7df502e88
+    new: 400bd920a7242360576b9620332652595319bd79
     log: |
-         588a1ef17281e439b56b709b67b142b2342e5252 soc: mediatek: mt8167-mmsys: fix errors in multiple-output display paths
+         400bd920a7242360576b9620332652595319bd79 ipv4: igmp: report IFA_TARGET_NETNSID in multicast address dumps
          
