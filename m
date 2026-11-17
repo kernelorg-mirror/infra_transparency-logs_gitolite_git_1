@@ -1,57 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============7017681206606716675=="
+Content-Type: multipart/mixed; boundary="===============2831551838691114252=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 17 Nov 2026 08:59:26 -0000
-Message-Id: <179490596665.1176071.11470478737610199117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 17 Nov 2026 09:07:55 -0000
+Message-Id: <179490647593.1182921.5099254348917726896@gitolite.kernel.org>
 
---===============7017681206606716675==
+--===============2831551838691114252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/for-linus
-    old: ae78fd83cc14f2a3cefd56bd6553e0c6d81031e4
-    new: 79f9e85150b2ad4de301e5517ea983674d6ead55
-    log: |
-         a7c800982bd0cc704a92c3b616e8bb049f2e68fa ALSA: hda/realtek: Don't apply the Legion Slim 7 quirk to Lenovo V14 G2 ITL
-         79f9e85150b2ad4de301e5517ea983674d6ead55 ALSA: hda/ca0132: Fix AE-5 LED strip color corruption during animation
-         
-  - ref: refs/heads/for-next
-    old: ebce20196346906cfa33a84a021ce8f9bd91880c
-    new: 01f46c3244c9df036f751d12e4d2037a029f3891
-    log: revlist-ebce20196346-01f46c3244c9.txt
-  - ref: refs/heads/master
-    old: cf7fe5e5f940f45b1434ff239155136fa5e9f152
-    new: 07bd00bab48738dfb74a810982567c287c93ea8c
-    log: |
-         a7c800982bd0cc704a92c3b616e8bb049f2e68fa ALSA: hda/realtek: Don't apply the Legion Slim 7 quirk to Lenovo V14 G2 ITL
-         79f9e85150b2ad4de301e5517ea983674d6ead55 ALSA: hda/ca0132: Fix AE-5 LED strip color corruption during animation
-         c734bdeb592d415c6433ef3657c7662a9fcf5770 ALSA: hda/ca0132: Add Sound BlasterX AE-5 on-card RGB LED support
-         01f46c3244c9df036f751d12e4d2037a029f3891 Merge branch 'topic/ca0132-led' into for-next
-         07bd00bab48738dfb74a810982567c287c93ea8c Merge branch 'for-next'
-         
+  - ref: refs/heads/efi-image-info-v4
+    old: 1aabbd48372d5191479984eec70d7f0733458cef
+    new: e9c70d8d2f54f4ea550e019ff5a4bd959372eda1
+    log: revlist-1aabbd48372d-e9c70d8d2f54.txt
 
---===============7017681206606716675==
+--===============2831551838691114252==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ebce20196346-01f46c3244c9.txt
+Content-Disposition: attachment; filename=revlist-1aabbd48372d-e9c70d8d2f54.txt
 
-dd763c9a7d8ccd6b281e565187017fe619491d49 ALSA: usb-audio: Add always_set_rate quirk for Yamaha MODX M
-156282337a4bc9083d821fa229e85fcaefae38bb ALSA: doc: cs35l56: Point to kernel.org firmware repository
-bc3d6817c5325e76578cdd75e9c08bdadc5f73c4 ALSA: pcm: oss: Restore params flag after failed reconfiguration
-9cda4ab0a5a7f19cd4611214905e08d5ed35421d ALSA: pcm: oss: Clear params flag only after successful setup
-bd691dfae024059d79eae38230c883e52ce9842f ALSA: usx2y: Count completions apart from the URB array length
-ae78fd83cc14f2a3cefd56bd6553e0c6d81031e4 ALSA: usx2y: Account for every period a URB completes
-a7c800982bd0cc704a92c3b616e8bb049f2e68fa ALSA: hda/realtek: Don't apply the Legion Slim 7 quirk to Lenovo V14 G2 ITL
-79f9e85150b2ad4de301e5517ea983674d6ead55 ALSA: hda/ca0132: Fix AE-5 LED strip color corruption during animation
-c734bdeb592d415c6433ef3657c7662a9fcf5770 ALSA: hda/ca0132: Add Sound BlasterX AE-5 on-card RGB LED support
-01f46c3244c9df036f751d12e4d2037a029f3891 Merge branch 'topic/ca0132-led' into for-next
+36df13383f329f5ce5c5a6e540b5ad7066fb7154 efi/zboot: arm64: Add missing barrier after cache maintenance
+ece9bd9a53cce154e786ff8454da5b19c88cf8bf riscv: Use _stext not _text to denote the start of kernel code
+94432625aee2f00cb084e00cc8177338042a97fa riscv: Make _text point to the start of the kernel image
+7f51fbfc263ca0f6317576d8720e72c89cfde7cc efi/riscv: Rename __init_text_end to __inittext_end like other archs
+ccbe3b3f059c2e81dae1fb39f83f2facd3078fac efi/libstub: Avoid _end section marker in library code
+c2af5f618690d23f704fc45e5f34e46ee1778974 efi/libstub: Avoid reserve_addr/_size in efi_kaslr_relocate_kernel()
+d4764995028bcb7cdec2152dd6c0d5f9eccfe536 efi/libstub: Capture loaded image information in struct efi_image_info
+877d24d611af10eefe996089679a0c46d342e688 efi/libstub: Pass kernel entrypoint down to efi_enter_kernel()
+7a72b3bffb2ce217726204e359ae6f40941cfa92 efi/libstub: arm: Simplify handle_kernel_image()
+0531c51bfdd1a87ac336d7990f7f6806be322a52 efi/libstub: Drop reserve_addr/_size params from handle_kernel_image()
+eb8182f7ffde0d0c16e65bf129ae44f9cbae7d17 efi/libstub: arm64: Use struct efi_image_info to access image properties
+60e3974cbaaa30be2b0b0c9792a48ffaf58cd955 efi/libstub: loongarch: Use struct efi_image_info to access image properties
+b111a746ed031f2c03177871397373e9f8408131 efi/libstub: riscv: Use struct efi_image_info to access image properties
+f6ece945c6f8cde8fdfd0a942ae32fa0a33af23d efi/libstub: Make efi_remap_image() return efi_status_t
+10e000f7fa2a96754e2ccf2c9efa6a4fa04708a7 efi/zboot: Disentangle efi_remap_image() from efi_cache_sync_image()
+e265f555a3e6710b8c9486cad412e290eb8ef52e efi/libstub: arm64: Drop zboot code_size hack
+12ab24d8f2a4709953c46d309741a4568f855b1e efi: Make config table based primary display handover ARM-only again
+e9c70d8d2f54f4ea550e019ff5a4bd959372eda1 Revert "efi: earlycon: Reprobe after parsing config tables"
 
---===============7017681206606716675==--
+--===============2831551838691114252==--
