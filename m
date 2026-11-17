@@ -1,51 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============4859704296596278271=="
+Content-Type: multipart/mixed; boundary="===============7356714924089873238=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 17 Nov 2026 20:09:52 -0000
-Message-Id: <179494619226.1921583.2689344336474748869@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 17 Nov 2026 20:14:09 -0000
+Message-Id: <179494644980.1925096.13609870790703147873@gitolite.kernel.org>
 
---===============4859704296596278271==
+--===============7356714924089873238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 0069320cef67ba6ca745a05868c40e4c46b61284
-    new: 4a4305092d42c56c04667bdf1c369dc2bb0dd508
-    log: revlist-0069320cef67-4a4305092d42.txt
-  - ref: refs/heads/linux-next
-    old: 0069320cef67ba6ca745a05868c40e4c46b61284
-    new: 4a4305092d42c56c04667bdf1c369dc2bb0dd508
-    log: revlist-0069320cef67-4a4305092d42.txt
-  - ref: refs/heads/testing
-    old: 0069320cef67ba6ca745a05868c40e4c46b61284
-    new: 4a4305092d42c56c04667bdf1c369dc2bb0dd508
-    log: revlist-0069320cef67-4a4305092d42.txt
+  - ref: refs/heads/master
+    old: 666539eecdf4db623f5e3c3e55cf9f2dfad24aa4
+    new: 63fdb511c27afcebce797e3db580b3534ddfa639
+    log: revlist-666539eecdf4-63fdb511c27a.txt
 
---===============4859704296596278271==
+--===============7356714924089873238==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0069320cef67-4a4305092d42.txt
+Content-Disposition: attachment; filename=revlist-666539eecdf4-63fdb511c27a.txt
 
-d8b079d98afa1386dfa865b8241a23149e6187d4 PM: runtime: Update last_busy before calling rpm_suspend() in rpm_idle()
-59a1090d0d17b8f03d8f2a96a97bc05a56e0b94a ACPI: pfr_update: keep the state until the last file is closed
-3ecdc4c7d2bd588436903c8c010918a01400eb3b ACPI: pfr_update: wait for running calls in remove()
-618424b8ed617f8d719eecd53f830580b6822f77 ACPI: pfr_telemetry: keep the state until the last file is closed
-664f1de5096c3fe7f4674b7d337893991ff9f28b Merge branches 'acpi-battery', 'acpi-video', 'acpi-ac' and 'acpi-pfrut' into linux-next
-d32b99298fd2482dfe47f070f0731686bc8efe54 Merge branches 'acpi-driver' and 'acpi-platform-profile' into linux-next
-aac0e1b4391e6b68b2d9f636a42441c8049b1db0 Merge branches 'acpi-misc' and 'acpi-tools' into linux-next
-e8cf044bead80a018b5828bc8221f09f075e8b9d Merge branch 'fixes' into linux-next
-424785e18336e34ff4837dfd1f7327e3b7d70f2e Merge branch 'acpi-cppc' into linux-next
-d5723318310f11b180a76b31988219e8fdbc852f Merge branches 'pm-cpuidle' and 'pm-powercap' into linux-next
-2326b59e6e499aac6c470b2097e3355796ed4c3c Merge branch 'pm-cpufreq-tests' into linux-next
-220c5ba6da18dcd4887e20c69dce8f462154a861 Merge branch 'pm-runtime' into linux-next
-4a4305092d42c56c04667bdf1c369dc2bb0dd508 Merge branch 'thermal-intel' into linux-next
+043a2260b96ffc13121a1dd65282e67eb2e1d8a8 mm/khugepaged: don't map folios that are not uptodate in MADV_COLLAPSE
+d369ba5a46c65c54b94c94713ca1fb4ad6a87ebf mm/memfd: handle GUP pins more reliably when write-sealing
+169169e26ab498e4a3ee07313e986176f4bc52f0 mm/userfaultfd: fix PTE table overruns in UFFDIO_MOVE
+d8bbf585893c7868234b71d7e7f32484ed0d8458 mm/rmap: fix PTE table overruns during batched unmap
+2d9b9352ef885837f246225e9b814a05e9ed2a4a mm/rmap: fix PTE table overruns during batched reference checks
+7183af7f01c839ecef87840a90c0d8c5843f37d7 mm/huge_memory: prevent losing PG_waiters in __split_folio_to_order()
+26b8f029ce5224dd5c5f45a4bc964a209c259914 mm: limit pagecache folio refcount when mapping pages
+c6c9a4c1c9a1669693330205cb9d86fafd3cf235 mm: limit pagecache folio refcount when splicing into pipes
+317bd7d28b248fd4d4e14614d7c30b17a36ef4d7 mm/mmu_gather: flush pending references early before the folio limit
+b8ba6cc9943222676d46ac77d3d3de2685a55bf8 iommufd: fix cleanup when adding memfd folio pins fails
+2d9bcd380585abc436f055fbb618b34f98882004 mm/gup: limit pagecache folio refcount when grabbing references
+25f5c92e1ac06496679ea229e5c825aa88968efd Merge patch series "mm: limit pagecache folio refcount"
+63fdb511c27afcebce797e3db580b3534ddfa639 Merge tag 'mm-core-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mm/core
 
---===============4859704296596278271==--
+--===============7356714924089873238==--
