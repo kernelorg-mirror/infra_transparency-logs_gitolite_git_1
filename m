@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2795204175832768464=="
+Content-Type: multipart/mixed; boundary="===============5229520115575476625=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 17 Nov 2026 01:04:44 -0000
-Message-Id: <179487748465.826274.9453158441553864736@gitolite.kernel.org>
+Date: Tue, 17 Nov 2026 01:04:46 -0000
+Message-Id: <179487748644.826435.10377237328650038628@gitolite.kernel.org>
 
---===============2795204175832768464==
+--===============5229520115575476625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-defconfig-for-7.5
-    old: f3f0178e6d6a625ec9522f194420de99934bcb60
-    new: 1ff72de9902a955b8446bba2c56942028c1425ea
-    log: |
-         1ff72de9902a955b8446bba2c56942028c1425ea arm64: defconfig: Enable Novatek NT37705 panel
-         
-  - ref: refs/heads/arm64-for-7.5
-    old: eac8f0411262ea7d156407da4baf260291cbfe32
-    new: a06fafdfaf70232c2709a6c5402c3d86bf73ab75
-    log: revlist-eac8f0411262-a06fafdfaf70.txt
+  - ref: refs/heads/for-next
+    old: 6a876df4686788cd39128b62d7fcbff62f39278f
+    new: 59c9af352e53253f36246fe2ce620023af39ddc5
+    log: revlist-6a876df46867-59c9af352e53.txt
 
---===============2795204175832768464==
+--===============5229520115575476625==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eac8f0411262-a06fafdfaf70.txt
+Content-Disposition: attachment; filename=revlist-6a876df46867-59c9af352e53.txt
 
 b2f0e8bc283a99a837faa0d5cbc27a14abf6a2e0 arm64: dts: qcom: milos-fairphone-fp6: Enable display
+1ff72de9902a955b8446bba2c56942028c1425ea arm64: defconfig: Enable Novatek NT37705 panel
 10f9ebeff01f527b06b31e849e0dc49ae0cd1294 arm64: dts: qcom: Add initial Nothing Phone (4a) Pro support
 6cbedc3cf429c6204798e3be3b8656f715a1e222 arm64: dts: qcom: Add header file for IPCC physical client IDs for Maili platforms
 ba8ab2e12f9d1046862ed97256d9d33a58474456 arm64: dts: qcom: Introduce Maili SoC
@@ -63,5 +58,6 @@ b09eab861d000b4a60aa1dee549d1a51296617e5 arm64: dts: qcom: nord-ride-embedded: A
 1c440c8a96038b7c34cc734242ab6e8ee047b88b arm64: dts: qcom: nord-ride-embedded: Add WCN7850 Bluetooth support
 3bef9aecc88520734130f700d518df2742499b0e arm64: dts: qcom: nord-rrd: Add WCN7850 WLAN support
 a06fafdfaf70232c2709a6c5402c3d86bf73ab75 arm64: dts: qcom: nord-rrd: Add WCN7850 Bluetooth support
+59c9af352e53253f36246fe2ce620023af39ddc5 Merge branches 'arm32-for-7.5', 'arm64-defconfig-for-7.5', 'arm64-fixes-for-7.4', 'arm64-for-7.5', 'clk-fixes-for-7.4', 'clk-for-7.5', 'drivers-fixes-for-7.4' and 'drivers-for-7.5' into for-next
 
---===============2795204175832768464==--
+--===============5229520115575476625==--
