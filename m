@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 17 Nov 2026 18:00:12 -0000
-Message-Id: <179493841207.1825587.17135980792254094978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 17 Nov 2026 18:16:19 -0000
+Message-Id: <179493937956.1837469.12860450419117859883@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: a5640716a85e8233275cda67e032b9b9d9631262
-    new: 6e26a246cf6194dd4b75c5d304013e66ebc0f2ae
+  - ref: refs/heads/for-7.5
+    old: 05f4a833007e7f1699bbb72be665fd2083a94747
+    new: 6abaa17cda3f1fd8d022525c0878879ddbb97803
     log: |
-         3293e274067a698644d48ea1a9d2294baebed941 intel/ish: Link HP Panther Lake ISH firmware for ZBook 8 G2i 14
-         6e26a246cf6194dd4b75c5d304013e66ebc0f2ae Merge branch 'mr/hp-ish-ptl-zbook-8-g2i-link' into 'main'
+         1b1af8e535b104a9d4a9d0c08f04f3e6451849d3 ASoC: dwc: Fix bit clock rate in TDM mode
+         6d814b962a8728fa8675577b3cc13149c49c605e ASoC: dwc: Fix error handling in dw_i2s_set_fmt()
+         0b67b15489be64cab745bd9db620067121fed38c ASoC: dwc: Fix channels_max derived from COMP_PARAM_1
+         89c6374420f7b2661f13f2c78f515544f1ad5b25 ASoC: dwc: Fix DMA fifo_size calculation
+         5d836a3a1e515c35ec6043d049b038a7977ec84b ASoC: dwc: Propagate optional IRQ lookup errors
+         6d871a9e6a16117c80322553c878b595873b562e ASoC: dwc: Remove redundant error messages
+         d289c4288868311174b76087c1c8307e3f369f21 ASoC: dwc: Fix several issues in the I2S driver
+         6abaa17cda3f1fd8d022525c0878879ddbb97803 ASoC: rt9120: Disable runtime PM on component registration failure
          
