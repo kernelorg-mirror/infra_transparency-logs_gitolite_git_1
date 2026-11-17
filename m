@@ -1,41 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============0882815609283263056=="
+Content-Type: multipart/mixed; boundary="===============5697259512476808317=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Tue, 17 Nov 2026 22:43:24 -0000
-Message-Id: <179495540474.2036166.10696668685132291685@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 17 Nov 2026 22:45:12 -0000
+Message-Id: <179495551261.2038951.8705930752417760671@gitolite.kernel.org>
 
---===============0882815609283263056==
+--===============5697259512476808317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/efi-image-info-v4
-    old: f44fd1d0cd70c7e5582694c32705db5ec540871a
-    new: 7d706bb11a62a1737568e07a0d34a889c789e64e
-    log: revlist-f44fd1d0cd70-7d706bb11a62.txt
+  - ref: refs/heads/kdevops
+    old: 7c40b053b0bc257b7a174d7ec1127ab42ef6d9ff
+    new: 56d423ad8820fd4ed51da8e4d6b23f526e7faffa
+    log: revlist-7c40b053b0bc-56d423ad8820.txt
 
---===============0882815609283263056==
+--===============5697259512476808317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f44fd1d0cd70-7d706bb11a62.txt
+Content-Disposition: attachment; filename=revlist-7c40b053b0bc-56d423ad8820.txt
 
-d8c08ca730172eb99532634a525a0611cad0716a efi/libstub: Pass kernel entrypoint down to efi_enter_kernel()
-fb92abc3df5a3c81a5cd94a1578fbce6502c8a87 efi/libstub: arm: Simplify handle_kernel_image()
-74c3836476ca19e8c8ed16737851470bfa9c3f20 efi/libstub: Drop reserve_addr/_size params from handle_kernel_image()
-1f0db7df42c759b1840d5056ace3d7693478f559 efi/libstub: arm64: Use struct efi_image_info to access image properties
-b937d0e4fe0428be0ef3eb95f09f8f37cee12a31 efi/libstub: loongarch: Use struct efi_image_info to access image properties
-b9472aaa12c3334a2f23d8f22c685e8fe3d7449b efi/libstub: riscv: Use struct efi_image_info to access image properties
-bda17ece6457c6ec14b1c2b7b19f3da67412daaf efi/libstub: Make efi_remap_image() return efi_status_t
-631f240f8b113d140d9fbc99182b80b47b6d24f3 efi/zboot: Disentangle efi_remap_image() from efi_cache_sync_image()
-303f53eb7a35ce29e346fed886a83d9d85172749 efi/libstub: arm64: Drop zboot code_size hack
-1525abe68c9643d966cf00dda7f9ce44be27159c efi: Make config table based primary display handover ARM-only again
-7d706bb11a62a1737568e07a0d34a889c789e64e Revert "efi: earlycon: Reprobe after parsing config tables"
+65234049e4b76bbb9e90ad3d46b7484c5b19e07e nfsd: don't requeue a callback that rpc_call_async() has released
+518409c5db0bfd32b7d2560b9b5a1e7e41454745 nfsd: take freeze protection before updating delegation timestamps
+a85b0476f92ddbceb9d305ac68dff844a1d1441f nfsd: count a delegation in cl_delegs_in_recall only once
+bb6f3aa55988f3c00660b115572541941489c1c7 nfsd: don't grant write delegations to NFSv4.0 clients on CLAIM_PREVIOUS
+a5b5c6dd5db21c5e08179fb5507eca5d7d78f70b nfsd: set ctime when a SETATTR with delegated times changes other attributes
+4e9090aa6a54644e11231c78f3784c89bc507c8f nfsd: pin the client while a GETATTR holds a conflicting delegation
+f77eca64ad0999c683d3b74c38f74d72c7158c49 nfsd: recall when a CB_GETATTR reply omits the size
+b7c511c0358533b7c15150d2314eacb9fbc5e753 nfsd: apply delegated times in a separate times-only setattr
+dafdb5014ed8ae60d70283d24cac55394b4d8317 nfsd: grant a plain read delegation when timestamps are wanted on a read open
+140a69fa430e9fb7b5c33d39641a0e2bb635bb00 nfsd: take the write delegation grant stat before hashing
+b95486a6349670aecd0f63aa98b6e6c474e5717a nfsd: add a delegated timestamp record to write timestamp delegations
+dc463752b943ca4c063270fa2e192235656898c7 nfsd: publish complete CB_GETATTR samples by generation
+49f03ffcc2871446e99a05fb699c83e3ecacfbc8 nfsd: switch timestamp delegations to the delegated timestamp record
+2914c4c384e6972e8d13cf54a7a433035501c266 nfsd: overlay delegated times on CB_NOTIFY child attributes
+56d423ad8820fd4ed51da8e4d6b23f526e7faffa nfsd: remove dead timestamp delegation code
 
---===============0882815609283263056==--
+--===============5697259512476808317==--
