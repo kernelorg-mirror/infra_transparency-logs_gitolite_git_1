@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3777112690429738661=="
+Content-Type: multipart/mixed; boundary="===============3696428532937703114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 17 Nov 2026 07:22:28 -0000
-Message-Id: <179490014898.1105503.6058216301952709402@gitolite.kernel.org>
+Date: Tue, 17 Nov 2026 07:22:33 -0000
+Message-Id: <179490015363.1105694.1660836912074674861@gitolite.kernel.org>
 
---===============3777112690429738661==
+--===============3696428532937703114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: 37a87cdaa3e2f10bb83ebee847fbc4761ac531af
     new: 917fcbf033154a6c8d83cfa6c88f012b71eb37b2
     log: revlist-37a87cdaa3e2-917fcbf03315.txt
 
---===============3777112690429738661==
+--===============3696428532937703114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1794900135 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1794900145 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1794900141-d22524f3566add342db62deba150e6890f104252
+nonce 1794900152-ad5fc8ae243e37e60d6d07f2ce676c09bfee7959
 
-37a87cdaa3e2f10bb83ebee847fbc4761ac531af 917fcbf033154a6c8d83cfa6c88f012b71eb37b2 refs/heads/char-misc-next
+37a87cdaa3e2f10bb83ebee847fbc4761ac531af 917fcbf033154a6c8d83cfa6c88f012b71eb37b2 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmr8AKcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VgoQALU5FQXM9iQi+EEWoDNS
-bwWkS/pxtxNL3xU0YG/3F3HD2Jm+VCQL3nejza2bVKUt+E/puiJtRsQyrebj0vJx
-4i8AuIJMLEQknRgoml2E2H34BmSA9q46HhB+WOnsrVY+ETr7A9JShPXIU1ka4CBJ
-H0AkZSIDn06sz28zc2TBFQeEV9OdCyGwHtiFfmZ2z0wQjTe7ayVG38tnONkYz4Fy
-dn+mScq8txXsDjltd2Ho1mG+p1+9DjM44r2WmNJb0fErFDNVDATJsmf5SX9FPm6x
-MoNBmyYORok+F0aqCQCQV/qVKhmogQIGhiDBE/RR98IYZ7ibprnappFIy7oRuUuK
-dWTBEUHNCzx9C6ulkPipDayKC7PINwLVd6g8N0JdOfjsZmLdSiOSJi7sQ1AxPnAj
-opoyY87aRk+nrf/7CcN0jhyCBLMBzG4/DzROiyLVc6dWQaLFkQ3dHGn7NzaC83EB
-ILFRlTLEnEO3UlIM+HOjAYznHl34HPg90qc/8HEaFCpryqoEXAvp6Z7ROOhemTWl
-jxgcQiLNIQVw1U+BHABZ+MlDsorLsPSWmjT27nSFmTgb2y+xNPwiDzjfq04FalxV
-G8Nxp2AsLZHQcf8lgFHVAIeg2oNRtE7YaqkwuJBzEvA/stxb++A7IpLsHdvTd0wP
-cX2fh9+jT1A0ZkUFL0OTSc/C
-=AD3M
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmr8ALEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6h4QANRVj5fH7FfMvVjfimBf
+OKnWBoKJfqxOUeauFa833pNfYXzOYn/Hi07C9hsXPaIzQ9j3YzPK9iojS+y0ZaUL
+nSZkeOt1VhuPZqMFmP74BXl3v9KBKNxLbIPtHqXJBmQWbSFK8j+5HzfltPv8Ibvb
+gKh/VGyLbN4yK5o8GPoVZTP93PZrik+1MOkTAcToA52gqr9hUxbAzy3a+1bNNVGK
+Vl4j2joNd86K90KF7P5gNZKn7kv2RZ9Nx7TpVQDrBmS71YCoJPt29MA17V/e/Co0
+aSeizOP0y6+eLv+c9UiGejpnpsXoh1AI6aRrCcfjajIc+SE9iMVSOkhG59uyotX0
+JnyvhBFbExgAVzepbhOzhgLCZwZlWPBNVWfAeWWemycX1iKucOPCG3LmmIMpqiK/
+TISeMnC3cXafOSb+gmR78d8cLEmsB+9+NB/w0kMN4a0ZIhe2levhb//uXPT96MsP
+j6GbkgQmkYYAn2FufPHZDvEmE1dZxC+BbyYIz+M0hrnG8i48GfScuEf0lfCkrro8
+DWMRTUFDLdD+px4hkIX+ZkhmJNxp1y92fuJS1IAbUQxPLLC/Ct4nqPU3pdJX5hHw
+YmV9lW0xGJQdKQdkgo5q9I4j+pzd7Eu4EjU9AN+m23hmFsErP1+JBFFUzwFw7TD3
+kfc9eu/2I7Gk6egYbm3iGaNw
+=eiga
 -----END PGP SIGNATURE-----
 
---===============3777112690429738661==
+--===============3696428532937703114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ b6793a9e2a3c280bb7c6c7d39be271e2f57aa2bb Merge tag 'tty-7.4-rc4' of git://git.ke
 141b164bbe186423e295b139e40e8e2d11cf1341 Merge tag 'char-misc-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 917fcbf033154a6c8d83cfa6c88f012b71eb37b2 Merge commit 141b164bbe18 ("Merge tag 'char-misc-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc") into char-misc-next
 
---===============3777112690429738661==--
+--===============3696428532937703114==--
