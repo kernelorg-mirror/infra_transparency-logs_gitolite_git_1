@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 17 Nov 2026 16:56:22 -0000
-Message-Id: <179493458283.1777297.13828907381157695940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Tue, 17 Nov 2026 16:59:31 -0000
+Message-Id: <179493477146.1778314.16958824036992807170@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: d868ee9e24a0e44535903d2aeba8a060ef44f48b
-    new: 1140b3af911bbb5f12a17141343075e3967ee589
+  - ref: refs/heads/dev-test
+    old: c3fbaea340cff053c2eea0bfc695e6420df4da92
+    new: 47ec92d44217cde1d707957805f3163bc9a2c6e8
     log: |
-         2f4584a15f26759bde8cdfba982b3f2ef98c76ca foo
-         1140b3af911bbb5f12a17141343075e3967ee589 foo
+         47ec92d44217cde1d707957805f3163bc9a2c6e8 f2fs-tools: set the block size of zoned devices to the logical block size
          
