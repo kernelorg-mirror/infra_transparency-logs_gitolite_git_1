@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 17 Nov 2026 12:07:37 -0000
-Message-Id: <179491725738.1498061.17157492784498240096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Tue, 17 Nov 2026 12:10:42 -0000
+Message-Id: <179491744262.1501256.13622646439269751151@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/main
-    old: 994089a3fa3882f27f4bed9fc5815ee7df502e88
-    new: 400bd920a7242360576b9620332652595319bd79
+  - ref: refs/heads/v7.4-next/soc
+    old: 588a1ef17281e439b56b709b67b142b2342e5252
+    new: ffcbc063e8df3cdb50576a4bc20b3d9669e2c43a
     log: |
-         400bd920a7242360576b9620332652595319bd79 ipv4: igmp: report IFA_TARGET_NETNSID in multicast address dumps
+         ffcbc063e8df3cdb50576a4bc20b3d9669e2c43a soc: mediatek: mt8167-mmsys: fix errors in multiple-output display paths
          
