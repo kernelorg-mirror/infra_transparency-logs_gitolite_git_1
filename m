@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Tue, 17 Nov 2026 12:37:38 -0000
-Message-Id: <179491905875.1522502.3867931358086867615@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 17 Nov 2026 12:41:18 -0000
+Message-Id: <179491927888.1526065.5835229683603936853@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 791ef60ca3f09c96915b8fc45a70e1eb896d40b9
-    new: 9397e8e9e804bb73fc0109e7380fed24f1b12cfe
+  - ref: refs/heads/asoc-7.4
+    old: 18b70bf4da448c309af86b5f368e2d9ac497ea99
+    new: f32a26faf4ceee53f9fc37b479ca33341d0ca897
     log: |
-         9397e8e9e804bb73fc0109e7380fed24f1b12cfe ata: sata_dwc_460ex: Fix DMA channel leak in sata_dwc_port_start()
+         f32a26faf4ceee53f9fc37b479ca33341d0ca897 ASoC: amd: yc: Add DMI quirk for GIGABYTE EAGLE 9MJ
          
