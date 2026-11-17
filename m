@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8595947645135564256=="
+Content-Type: multipart/mixed; boundary="===============4049919243748198801=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 17 Nov 2026 11:43:26 -0000
-Message-Id: <179491580630.1477584.13563184475946976942@gitolite.kernel.org>
+Date: Tue, 17 Nov 2026 11:43:58 -0000
+Message-Id: <179491583892.1477943.10952528278124130454@gitolite.kernel.org>
 
---===============8595947645135564256==
+--===============4049919243748198801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-tpm
-    old: fa2933aac170dd19c6a7f0d7b81a8f537e40915c
-    new: 141b164bbe186423e295b139e40e8e2d11cf1341
-    log: revlist-fa2933aac170-141b164bbe18.txt
+  - ref: refs/heads/master
+    old: f145d7c80a56e9388fff81bd25157053114ade94
+    new: 39175814d0c0bdc7591f7450fdaf990bbe8c9283
+    log: revlist-f145d7c80a56-39175814d0c0.txt
 
---===============8595947645135564256==
+--===============4049919243748198801==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa2933aac170-141b164bbe18.txt
+Content-Disposition: attachment; filename=revlist-f145d7c80a56-39175814d0c0.txt
 
 2fad8d241a6833d0c7aeafa0ab596e83c7b4ec9c usb: dwc3: xilinx: fix system suspend and resume PHY handling
 f33f0dd2eb014bffda02ecfd182de3ddab058596 usb: dwc3: xilinx: re-assert resets on ZynqMP init error paths
@@ -267,5 +267,25 @@ c3f98ff6309a29979e1867bc3c9d4172755ca122 rcu/nocb: Avoid unsequenced accesses to
 f11fe7603df07fbb9fa02b0d385c1696c87a6dab Merge tag 'usb-7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 b6793a9e2a3c280bb7c6c7d39be271e2f57aa2bb Merge tag 'tty-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 141b164bbe186423e295b139e40e8e2d11cf1341 Merge tag 'char-misc-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+f067343e4a6a6fbdaf7cec8ee47f27b134fa08b7 KEYS: trusted: Update static calls before init
+3590615be447bcfcff88363cae8e35a1f666a460 KEYS: trusted: TEE: Synchronize session lifetime
+a8966a4327fa44b4c03fec594dcefbdd36521494 KEYS: trusted: TEE: Disable sysfs bind attributes
+34b0711ab7feab1d69ab064cbba1fadecfd58e9d KEYS: Introduce keyring_is_empty()
+9da8eb17237cbda2d2b4b9cc0741202551981c2f KEYS: Replace assoc_array with rhashtable
+43c9af62ef6e4ad3ce91823165986e15f49dbf39 lib: Remove assoc_array
+f5df4db4dd56b96c7f611e30f4de384ff47f6da1 tpm: tis_i2c: Add reset delays for ST33KTPM2XI2C
+ed2f3283e552d14edf67cd16102012ad77af3052 tpm_crb: Add register definitions of TPM CRB chunking fields
+68c5e1a039c82ce07b70731bf5d089c27199c749 tpm_crb: Split start method into a separate header
+ed6239eadc6ae7b7d57838954d93ed97d62bcf9b tpm_crb: Add start_cmd parameter to tpm_crb_start wrapper
+5cf55b9cc5b85e365c3478596a057d46637a5467 tpm: tis_i2c: Use local 4KB buffer to limit memory usage
+793cceddbb9b69f9b4a2fb91191272b94ab8882a tpm: Increase TPM_BUFSIZE to 8KB for chunking support
+fc66b8d3acb630330d5c5ba392a270ca11936524 tpm_crb: Factor crb_send()/crb_recv() bodies into helpers
+2bee1ae3924018a2f0c10f1587708b7eaf68ec7b tpm_crb: Implement command and response chunking logic
+2ae95860913a0b688a756ffc1b2db94dc567822b tpm: Remove enum tpm2_session_types
+3e7cf66ab32215762b810753e00388eb47bba5bf tpm: sessions: bound the primary public area by the response size
+44a23b42b893552b8e4dcad2c385bacff359b136 tpm: sessions: bound the parameter decryption by the response size
+1b46eb50af1b7b71ea1d545638092e2e415f2d43 tpm: ibmvtpm: check the response size against the buffer size
+a81a58428b29d0ff1e1a16cd47eaf33d1234c606 tpm: add OP-TEE transport core and a discrete TPM driver
+39175814d0c0bdc7591f7450fdaf990bbe8c9283 tpm_ftpm_tee: use the tpm_optee transport core
 
---===============8595947645135564256==--
+--===============4049919243748198801==--
