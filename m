@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 17 Nov 2026 02:40:12 -0000
-Message-Id: <179488321209.900665.15036458141450402896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 17 Nov 2026 02:40:40 -0000
+Message-Id: <179488324066.901250.11542163199957780967@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 709dfcdf3b28e4b179970c621c56235875219907
-    new: 28b2ff8a0c76cd8560da967b828b1dfa7155715a
+  - ref: refs/heads/main
+    old: 533ec433efdc11196f438da90d683053a57257ff
+    new: a2239d5dbbda3a61b6323df8836f605921a29f7f
     log: |
-         28b2ff8a0c76cd8560da967b828b1dfa7155715a Fixes for all trees
+         a2239d5dbbda3a61b6323df8836f605921a29f7f net/mlx5: IFC, enlarge active_port field to support 8 port LAG
          
