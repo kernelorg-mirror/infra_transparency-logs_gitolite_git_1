@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4716751842921956767=="
+Content-Type: multipart/mixed; boundary="===============3777112690429738661=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 17 Nov 2026 07:22:12 -0000
-Message-Id: <179490013276.1105232.7529337358881773106@gitolite.kernel.org>
+Date: Tue, 17 Nov 2026 07:22:28 -0000
+Message-Id: <179490014898.1105503.6058216301952709402@gitolite.kernel.org>
 
---===============4716751842921956767==
+--===============3777112690429738661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,54 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 4dbe5ea929ac5a5b8dc21787d0e79fc55a0ea9ac
-    new: 141b164bbe186423e295b139e40e8e2d11cf1341
-    log: revlist-4dbe5ea929ac-141b164bbe18.txt
+  - ref: refs/heads/char-misc-next
+    old: 37a87cdaa3e2f10bb83ebee847fbc4761ac531af
+    new: 917fcbf033154a6c8d83cfa6c88f012b71eb37b2
+    log: revlist-37a87cdaa3e2-917fcbf03315.txt
 
---===============4716751842921956767==
+--===============3777112690429738661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1794900124 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1794900135 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1794900131-0630a38fe6e45500606a825372bc7b81819f800e
+nonce 1794900141-d22524f3566add342db62deba150e6890f104252
 
-4dbe5ea929ac5a5b8dc21787d0e79fc55a0ea9ac 141b164bbe186423e295b139e40e8e2d11cf1341 refs/heads/char-misc-linus
+37a87cdaa3e2f10bb83ebee847fbc4761ac531af 917fcbf033154a6c8d83cfa6c88f012b71eb37b2 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmr8AJwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d+AQAJDfbldfjRI1ycp6W6HB
-aIcsXau6OeLK0up5+m2PHV6EnPoaZBJ72Ttq03OFIgyFwPEbWSS7A5DX+H86/utU
-VbA28Oe7XaCv6ZeVBtFVT3ZqBn0JSWI4XM5YHNwu5X82Vr6+aisYJ1+3RDgGabTD
-TrY3Br+N8fSfRS779xz28n2VhPpBVXpdAbHXWTAFet+K81gaH61Yd5RvHcwE3+k3
-i6KBIDi//lthmsztFiE7/OQUSuz/XR93HMU/4OTNHL2vpkMpfVP210BYIA4/ClJp
-ywR3hBe6cVD4dA6+sWl6YlicZdpN435VmwFfTcTooMR+NTEwGl1ofdgZ4bpgN8NQ
-ophBuGxBdTk+y2ut5Qh1cuxa2dVwPsDmfy8Adu1UoDipQ71LjLk7xajjPU85LYxY
-qcQVCBmok5FSlBNt96IfSkUKlkjXpckCl8Cqer5RmVy9Oi+7O/6XVU+lgHNvKlgj
-hAeZy2DgnQm/MdxBr6iRjj9Rbh8OR1tI0Q1q4HzM/L7w75y2Mxi9CYZ2xxPj5401
-V977cEpQNjGb7SswCcBqkYze7HXDuL/YVOkG4r+jcRp0CMLWhetIMl5PstscqgSM
-zz2S9Q3OVAlcLTARvP4NL/4TAOyTE4E/MJMndmjvYpTdL4gUfMV0gXBnbiQF/rzF
-TteseZKv5tMcowWgBYC8KyNQ
-=faTM
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmr8AKcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VgoQALU5FQXM9iQi+EEWoDNS
+bwWkS/pxtxNL3xU0YG/3F3HD2Jm+VCQL3nejza2bVKUt+E/puiJtRsQyrebj0vJx
+4i8AuIJMLEQknRgoml2E2H34BmSA9q46HhB+WOnsrVY+ETr7A9JShPXIU1ka4CBJ
+H0AkZSIDn06sz28zc2TBFQeEV9OdCyGwHtiFfmZ2z0wQjTe7ayVG38tnONkYz4Fy
+dn+mScq8txXsDjltd2Ho1mG+p1+9DjM44r2WmNJb0fErFDNVDATJsmf5SX9FPm6x
+MoNBmyYORok+F0aqCQCQV/qVKhmogQIGhiDBE/RR98IYZ7ibprnappFIy7oRuUuK
+dWTBEUHNCzx9C6ulkPipDayKC7PINwLVd6g8N0JdOfjsZmLdSiOSJi7sQ1AxPnAj
+opoyY87aRk+nrf/7CcN0jhyCBLMBzG4/DzROiyLVc6dWQaLFkQ3dHGn7NzaC83EB
+ILFRlTLEnEO3UlIM+HOjAYznHl34HPg90qc/8HEaFCpryqoEXAvp6Z7ROOhemTWl
+jxgcQiLNIQVw1U+BHABZ+MlDsorLsPSWmjT27nSFmTgb2y+xNPwiDzjfq04FalxV
+G8Nxp2AsLZHQcf8lgFHVAIeg2oNRtE7YaqkwuJBzEvA/stxb++A7IpLsHdvTd0wP
+cX2fh9+jT1A0ZkUFL0OTSc/C
+=AD3M
 -----END PGP SIGNATURE-----
 
---===============4716751842921956767==
+--===============3777112690429738661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4dbe5ea929ac-141b164bbe18.txt
+Content-Disposition: attachment; filename=revlist-37a87cdaa3e2-917fcbf03315.txt
 
-e23621a91bb59d22c2e7a0a1b680f3d4acbbdce1 drm/amdgpu/vce: don't allocate a scheduler fence in the direct IB test
-ade92d50aad6799a5a9d7e73cd1604fd0576e656 drm/amdgpu: don't walk the CS chunks when allocating them failed
-5b3717a14ef602c961a4abeb2ce8039f0394bebb Revert "drm/amd/display: Allocate DCN32/1 dmub memory to GTT"
-0de95c96655c8a12df62e47871016f49e5cd8618 drm/amdgpu: Only enable HDMI audio if display supports it
-bd93c4e59c5132282c01f142806e307c7380e7ea dm-crypt: reject integrity_key_size with non-authenc AEAD ciphers
-a26ec190925733dd205507493e936e59dbcd2b19 drm/amd/pm: track BACO state in the SMU v11 ArmD3 sequence
-b31014971d84ebd589338b68bcb4588f08931538 drm/amdgpu: stop GPU recovery wait for the JPEG/VCN idle work
 6d1f901a83603a7d314e4a756b416b11d8dc7e35 drm/amdgpu: don't drop the gang dependency fence twice
 bcb78d49620f666b4a9d62997691e8d031fd4ebc dm thin: avoid wrapping no_space_timeout
 29b8758b4700357909f06705a0c48c7a60c556d5 nvmet: don't return memory contents beyond valid data when reading ANA log page
@@ -804,6 +797,11 @@ d9bcb20e403908415809c37b96db4c9d651298cc ASoC: apple: mca: Fix clock selection f
 067db578cc2d16d40ba3b9908f8a0e2043203f3e ASoC: amd: acp: Add ACP70 ACPI flag override for LG gram 16Z95U
 53094890a8215e676b817570cdb6f1d9caefd4f5 ASoC: amd: acp70: Add rt713 + rt1320 SoundWire machine for LG gram 16Z95U
 e92fb7ab0e383b96e3fd8cc740e89661a27eccf5 ASoC: amd: SoundWire audio for LG gram 16Z95U (rt713 + rt1320), speaker still silent
+36eeb26031e90eeb81bbac3d3acad61d23fcbdf3 iio: temperature: hid-sensor-temperature: Use per-instance callbacks
+bbe4f3f668babc9443fc1f075695e43e17ca7976 iio: humidity: hid-sensor-humidity: Use per-instance callbacks
+fd4c92bbd3a64556e81042ff8d30545b15a3b93a iio: hid-sensors: fix a division by zero
+d32bf759801e6df23038dc834622a122ec76a4dd iio: trigger: free the trigger ID after device_del()
+79c8dffd84e9784ec05bea68dbe5e71f7ec9941a iio: hid-sensors: fix fractional part for unit exponents -7 and -8
 6b3ea5a07eac0514623da3d0709b34c8c70f2827 drm/i915/psr: Flush on cursor update also when not using Selective Fetch
 f1f5942c3fdac3bb553d0019f60d11ca35f9b836 drm/i915/display: Flush the fbdev frontbuffer
 4247f4e2c10eac8c17fc23c2db0e14911b1ba5ff drm/i915/psr: Re-arm PSR after flush
@@ -853,6 +851,7 @@ ea8c4b37b8809da104c4a871bb81d20465bf67b2 bpf: don't mark namespace_init and name
 72a900c666adb97df77b05cf8540c4117f9c83ba xen/privcmd: fix double free when an irqfd is shut down twice
 702ba3c80a8736898813a2c7484d695278aa114d xen/pvcalls: unwind pvcalls_new_active_socket() step by step
 6b3feb6bfa9ac384f7a3ec25c40b9b4d3da96d25 xen/pvcalls: destroy the per-socket workqueue on release
+4dbe5ea929ac5a5b8dc21787d0e79fc55a0ea9ac Merge tag 'iio-fixes-for-7.4a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 29ead886deaa1344a43ab68b1ea305ea2c86c378 smb: client: don't fail writeback preparation if the task is dying
 fb39fbd782bcd2dccd05f633bc6ac348209dc272 smb: client: retry writeback on interrupts and allocation failures
 0df0f24803061b6c2bef0d24de7c63c9cce46a49 smb: client: don't block dying tasks waiting for writeback on fsync
@@ -1081,5 +1080,6 @@ c3f98ff6309a29979e1867bc3c9d4172755ca122 rcu/nocb: Avoid unsequenced accesses to
 f11fe7603df07fbb9fa02b0d385c1696c87a6dab Merge tag 'usb-7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 b6793a9e2a3c280bb7c6c7d39be271e2f57aa2bb Merge tag 'tty-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 141b164bbe186423e295b139e40e8e2d11cf1341 Merge tag 'char-misc-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+917fcbf033154a6c8d83cfa6c88f012b71eb37b2 Merge commit 141b164bbe18 ("Merge tag 'char-misc-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc") into char-misc-next
 
---===============4716751842921956767==--
+--===============3777112690429738661==--
