@@ -1,37 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
-Date: Tue, 17 Nov 2026 19:51:45 -0000
-Message-Id: <179494510599.1909176.14700854070653820119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Tue, 17 Nov 2026 19:59:13 -0000
+Message-Id: <179494555312.1913997.433637598890873051@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cryptsetup/cryptsetup
-user: mbroz
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/coverity_scan
-    old: 3ea6a5bb700b17c90de23acd8f92ee550137a96a
-    new: c3f2a066c8414e183bd71c352ae75af5bc6b36d4
-  - ref: refs/heads/fix-coverity
-    old: 3ea6a5bb700b17c90de23acd8f92ee550137a96a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/main
-    old: c3f2a066c8414e183bd71c352ae75af5bc6b36d4
-    new: b16f041ce122275b28e500cbafb94dedbcc9e6df
+  - ref: refs/heads/fixes
+    old: aebb7274476403040d582c61478df8f4a7bf9cd3
+    new: 874efcc50da748e9c230191e5c4cc3b76d368b15
     log: |
-         b16f041ce122275b28e500cbafb94dedbcc9e6df ci: Add local compilation check for gcc and clang
+         874efcc50da748e9c230191e5c4cc3b76d368b15 erofs: reject turning inode_share on during remount
          
-  - ref: refs/heads/master
-    old: c3f2a066c8414e183bd71c352ae75af5bc6b36d4
-    new: b16f041ce122275b28e500cbafb94dedbcc9e6df
-    log: |
-         b16f041ce122275b28e500cbafb94dedbcc9e6df ci: Add local compilation check for gcc and clang
-         
-  - ref: refs/merge-requests/988/head
-    old: 0000000000000000000000000000000000000000
-    new: b16f041ce122275b28e500cbafb94dedbcc9e6df
-  - ref: refs/merge-requests/988/merge
-    old: 0000000000000000000000000000000000000000
-    new: cf9721005b2f4d89358cbcc6b0f0ff5d23d56545
