@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4022602020805278423=="
+Content-Type: multipart/mixed; boundary="===============0096123242986668200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 17 Nov 2026 01:00:13 -0000
-Message-Id: <179487721387.819211.6525033849722713264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 17 Nov 2026 01:00:43 -0000
+Message-Id: <179487724389.821518.9869592141944661599@gitolite.kernel.org>
 
---===============4022602020805278423==
+--===============0096123242986668200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-7.5
-    old: 4561d07d897f716535c513f4f1ba7525607f01b3
-    new: d1940d0424b5f89310593c70b5d0a24012bbe15a
-    log: revlist-4561d07d897f-d1940d0424b5.txt
+    old: d4cb2717eb13e0de464fc5e82321da9fc449c6f2
+    new: 9b2d7c8736a6fd27ceda93bd67529758c139e24f
+    log: revlist-d4cb2717eb13-9b2d7c8736a6.txt
 
---===============4022602020805278423==
+--===============0096123242986668200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4561d07d897f-d1940d0424b5.txt
+Content-Disposition: attachment; filename=revlist-d4cb2717eb13-9b2d7c8736a6.txt
 
 f2853a06e4b923c77a8cba69d76d2222b198256b drm/amd/display: Keep the nominal vtotal while VRR is inactive
 d13f36e4e055cce03761de590bc8dc6346b1d5c8 drm/amd/display: Don't select zero V_TOTAL_MIN/MAX on seamless boot
@@ -1049,6 +1049,6 @@ f70886e5a510cd7fc2c3aef91c46a14f4485fe63 Merge tag 'nfs-for-7.4-2' of git://git.
 4b15991b3be43e9581aca489ec30a351310bb49d Merge tag 'cgroup-for-7.4-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 a9daf327f3ff90625204876981f88cfe2b6f6fff Merge tag 'sched_ext-for-7.4-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 aebb7274476403040d582c61478df8f4a7bf9cd3 Linux 7.4-rc3
-d1940d0424b5f89310593c70b5d0a24012bbe15a ASoC: Merge up fixes
+9b2d7c8736a6fd27ceda93bd67529758c139e24f spi: Merge up fixes
 
---===============4022602020805278423==--
+--===============0096123242986668200==--
