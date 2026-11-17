@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0247667464214883956=="
+Content-Type: multipart/mixed; boundary="===============5757662738380549424=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 17 Nov 2026 12:19:28 -0000
-Message-Id: <179491796865.1506365.12797105215115882014@gitolite.kernel.org>
+Date: Tue, 17 Nov 2026 12:19:50 -0000
+Message-Id: <179491799018.1506727.12704417351605972911@gitolite.kernel.org>
 
---===============0247667464214883956==
+--===============5757662738380549424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: ab89a9dab02d9553eb0cc27fd3e4a4998acbc8e9
+  - ref: refs/heads/usb-next
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     new: f11fe7603df07fbb9fa02b0d385c1696c87a6dab
-    log: revlist-ab89a9dab02d-f11fe7603df0.txt
+    log: revlist-6628e7d4c6b2-f11fe7603df0.txt
 
---===============0247667464214883956==
+--===============5757662738380549424==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab89a9dab02d-f11fe7603df0.txt
+Content-Disposition: attachment; filename=revlist-6628e7d4c6b2-f11fe7603df0.txt
 
 e0a1404b34e0002f03f7979cdb791a9b5c3963f5 drm/amdgpu: unlock the VM and BO when attaching a KFD BO fails
 71388e1ed836d7645b4807cead35edf24da00bcd drm/amdgpu: rewrite all PTEs of the BOs after a VM reset
@@ -1051,4 +1051,4 @@ c3f98ff6309a29979e1867bc3c9d4172755ca122 rcu/nocb: Avoid unsequenced accesses to
 7f6fccf6ee5a345b778706b22159c4e3b547c808 Merge tag 'rcu-fixes.v7.4-20261115a' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
 f11fe7603df07fbb9fa02b0d385c1696c87a6dab Merge tag 'usb-7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 
---===============0247667464214883956==--
+--===============5757662738380549424==--
