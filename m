@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 17 Nov 2026 00:10:51 -0000
-Message-Id: <179487425120.781509.13558501002326639916@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 17 Nov 2026 00:10:54 -0000
+Message-Id: <179487425407.781682.7295363674121132474@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: b78cbbb527adacf31b769d839a7262e765e50687
-    new: 5d761fccffdf2e7df8bc4e7304486a6286183cfb
+    old: c4eb2502a378077df09983a80fb6434c7641ae2a
+    new: 1932779607d2fc895464c676a2a420aa07403976
     log: |
-         5d761fccffdf2e7df8bc4e7304486a6286183cfb virtio_net: Don't DMA map the kernel image for the AF_XDP TX header
+         1932779607d2fc895464c676a2a420aa07403976 virtio_net: Disable AF_XDP pools on queues above curr_queue_pairs
          
