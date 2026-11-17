@@ -1,29 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 17 Nov 2026 17:26:31 -0000
-Message-Id: <179493639161.1801748.9532908879039136973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Tue, 17 Nov 2026 17:56:59 -0000
+Message-Id: <179493821971.1822137.16747626684126063083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/clk/linux
+user: jbrunet
 changes:
-  - ref: refs/heads/for-linus
-    old: a3d8527ed469a31aeeb02c5e52ed89de410e46e6
-    new: 674605f05e0c437d68d497215a051b27db3b50d5
+  - ref: refs/heads/clk-pile
+    old: 9d081472626de5707dfc4465a6041efd2a9a9da6
+    new: 4d55ffabc35d1effdc258a270b9e2f0d90e9f0bf
     log: |
-         1d1b67dcd40ae9a8dfcc823d913852b2ead05bcb ASoC: mediatek: mt8195: Fix ETDM3_OUT DAI startup error
-         674605f05e0c437d68d497215a051b27db3b50d5 ASoC: amd: acp: Add ACP70 ACPI flag override for LG gram 16U55U
-         
-  - ref: refs/heads/for-next
-    old: 55ca5af57be412a28477c87d722ba3bac9f9da98
-    new: f505d351eea3fdc48f43527f9a620fdc5aba3ef4
-    log: |
-         1d1b67dcd40ae9a8dfcc823d913852b2ead05bcb ASoC: mediatek: mt8195: Fix ETDM3_OUT DAI startup error
-         674605f05e0c437d68d497215a051b27db3b50d5 ASoC: amd: acp: Add ACP70 ACPI flag override for LG gram 16U55U
-         c83560ebf05e0c94dafe760071cb2488659bf0bc Merge asoc-linus into asoc-next
-         f505d351eea3fdc48f43527f9a620fdc5aba3ef4 Merge asoc/for-7.5 into asoc-next
+         61b67dfc9c24594b6b98518a1f74258521e34a71 dt-bindings: clock: tegra114: Add IDs for CSI pad clocks
+         ecb755d4fe9740d434805be2c50c6389537c2223 clk: tegra114: Add CSI pad clock gates
+         4d55ffabc35d1effdc258a270b9e2f0d90e9f0bf clk: tegra30: Remove CLK_SET_RATE_PARENT from CSI pad clock gates
          
