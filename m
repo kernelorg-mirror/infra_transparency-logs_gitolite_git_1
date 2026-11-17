@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Tue, 17 Nov 2026 09:27:21 -0000
-Message-Id: <179490764170.1198539.16346089498427687168@gitolite.kernel.org>
+Date: Tue, 17 Nov 2026 09:30:25 -0000
+Message-Id: <179490782547.1201612.10098979991418692282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/arighi/linux
 user: arighi
 changes:
   - ref: refs/heads/scx-pvsched
-    old: 9e5eb67bb45a1e9ce29881332863233d83f9658c
-    new: 5d0cd6bb5e3df89c114eecf3f9eedce429a06a4f
+    old: 5d0cd6bb5e3df89c114eecf3f9eedce429a06a4f
+    new: b45b01c2c9eb5e4c8580ab1a006275e4115361e1
     log: |
-         5d0cd6bb5e3df89c114eecf3f9eedce429a06a4f [DEMO] sched_ext: Add paravirt host and guest example schedulers
+         b45b01c2c9eb5e4c8580ab1a006275e4115361e1 [DEMO] sched_ext: Add paravirt host and guest example schedulers
          
