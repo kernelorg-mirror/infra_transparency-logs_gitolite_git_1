@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Tue, 17 Nov 2026 19:14:30 -0000
-Message-Id: <179494287078.1880827.2638759086971346607@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Tue, 17 Nov 2026 19:20:38 -0000
+Message-Id: <179494323807.1887189.6804303204366628834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/next
-    old: 68b07c633283e9ba8af2ac84996b39b0bf905b8f
-    new: 6f0d4d1d0223f3224b17f383a49977bc24054acf
+  - ref: refs/heads/coverity_scan
+    old: c3f2a066c8414e183bd71c352ae75af5bc6b36d4
+    new: 3ea6a5bb700b17c90de23acd8f92ee550137a96a
     log: |
-         726d9be5f09e69b6b2154b880b2d227f4411fc8e cxl/Documentation: Describe clearing a region targetN position
-         6f0d4d1d0223f3224b17f383a49977bc24054acf Merge branch 'for-7.5/cxl-misc' into cxl-for-next
+         3ea6a5bb700b17c90de23acd8f92ee550137a96a Initialize va_list argument (and fix Coverity warning).
          
+  - ref: refs/heads/fix-coverity
+    old: 0000000000000000000000000000000000000000
+    new: 3ea6a5bb700b17c90de23acd8f92ee550137a96a
