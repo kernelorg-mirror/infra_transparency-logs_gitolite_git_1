@@ -1,61 +1,16 @@
-Content-Type: multipart/mixed; boundary="===============1704866140633189846=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Tue, 17 Nov 2026 12:56:27 -0000
-Message-Id: <179492018767.1539341.13404355724584031642@gitolite.kernel.org>
-
---===============1704866140633189846==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Tue, 17 Nov 2026 12:56:35 -0000
+Message-Id: <179492019506.1539546.6226357468497576878@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/heads/fixes
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    new: e6062ec72e40a1b0f7935dcdeceef5ce35a087c0
-    log: revlist-6628e7d4c6b2-e6062ec72e40.txt
-  - ref: refs/heads/for-7.4/arm64/dt-fixes
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    new: 4521950c3ce2d0370f442eba8d5ee3316991856a
-    log: |
-         168fca2ee5e60e649b3d476e451f7833633a1455 arm64: tegra: Add regulator for Jetson AGX Thor thermal sensor
-         17c5a5ee525da79ab1ca0a5b92190a0587604643 arm64: tegra: Add regulator for Jetson AGX Thor system EEPROM
-         f87ba646efb4afd159a418c43b0d95062eaae1f5 arm64: tegra: Add regulator for Jetson AGX Thor module EEPROM
-         a82c87eb29238b34241dddd301ffa4d53c217f1b arm64: tegra: Fix address translation on Tegra264
-         191d37c5b8a4b993e1b2278d85ce543f70ddb51d arm64: tegra: Fix memory size unit in comment
-         774378e27b7bd24875cf16f1cb3ac50888ed7716 arm64: tegra: Remove PCI ranges from VISION chiplet
-         c6935858d13498f24b305aff53bd1123da6a8671 soc/tegra: pmc: Support nested PMC power domains
-         3035f4f2eb1e2dce011c333e81097424a2023f5f Merge branch 'for-7.4/soc-fixes' into for-7.4/arm64/dt-fixes
-         4521950c3ce2d0370f442eba8d5ee3316991856a arm64: tegra: Make the NVDEC power domain a subdomain of NVJPG on Tegra210
-         
-  - ref: refs/heads/for-7.4/soc-fixes
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    new: c6935858d13498f24b305aff53bd1123da6a8671
-    log: |
-         c6935858d13498f24b305aff53bd1123da6a8671 soc/tegra: pmc: Support nested PMC power domains
-         
-
---===============1704866140633189846==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6628e7d4c6b2-e6062ec72e40.txt
-
-168fca2ee5e60e649b3d476e451f7833633a1455 arm64: tegra: Add regulator for Jetson AGX Thor thermal sensor
-17c5a5ee525da79ab1ca0a5b92190a0587604643 arm64: tegra: Add regulator for Jetson AGX Thor system EEPROM
-f87ba646efb4afd159a418c43b0d95062eaae1f5 arm64: tegra: Add regulator for Jetson AGX Thor module EEPROM
-a82c87eb29238b34241dddd301ffa4d53c217f1b arm64: tegra: Fix address translation on Tegra264
-191d37c5b8a4b993e1b2278d85ce543f70ddb51d arm64: tegra: Fix memory size unit in comment
-774378e27b7bd24875cf16f1cb3ac50888ed7716 arm64: tegra: Remove PCI ranges from VISION chiplet
-c6935858d13498f24b305aff53bd1123da6a8671 soc/tegra: pmc: Support nested PMC power domains
-3035f4f2eb1e2dce011c333e81097424a2023f5f Merge branch 'for-7.4/soc-fixes' into for-7.4/arm64/dt-fixes
-4521950c3ce2d0370f442eba8d5ee3316991856a arm64: tegra: Make the NVDEC power domain a subdomain of NVJPG on Tegra210
-074632218fe1b59189f2a96a84b28a5d6c646d1a Merge branch for-7.4/soc-fixes into fixes
-e6062ec72e40a1b0f7935dcdeceef5ce35a087c0 Merge branch for-7.4/arm64/dt-fixes into fixes
-
---===============1704866140633189846==--
+  - ref: refs/heads/for-next
+    old: 3dccf22a6dfd2281b92afc05ef706121e3058654
+    new: 9397e8e9e804bb73fc0109e7380fed24f1b12cfe
