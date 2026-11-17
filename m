@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 17 Nov 2026 22:55:05 -0000
-Message-Id: <179495610518.2047185.7293567542558103240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Tue, 17 Nov 2026 22:59:22 -0000
+Message-Id: <179495636290.2048860.13828821240567148359@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/master
-    old: d35f53b679ea3418dce1c8aad541c0a0f1bd70f6
-    new: 1b309be67793a389c65db822a109b811b89b9dcb
-    log: |
-         1b309be67793a389c65db822a109b811b89b9dcb review: Say why a series is snoozed in patch listings
-         
+  - ref: refs/heads/topic/pci-sriov-7.5-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 73d3502c81726cfeb6efdb882d67f1ae9c1385df
