@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 17 Nov 2026 01:09:57 -0000
-Message-Id: <179487779797.831219.18037401813776349045@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
+Date: Tue, 17 Nov 2026 01:11:53 -0000
+Message-Id: <179487791376.834081.7984686079154546122@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+user: sre
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: d1940d0424b5f89310593c70b5d0a24012bbe15a
-    new: c5afacef0c0954d394a2a454d20fed95d9ca2593
+  - ref: refs/heads/for-next
+    old: fad4655224f60328cc9bcf4399eda8f6d7a587a6
+    new: abbe0a96bdbadae9e29489a1528fa436c55aca25
     log: |
-         c5afacef0c0954d394a2a454d20fed95d9ca2593 ASoC: Intel: Remove unused sst_ipc_inbox_rdata tracepoint
+         abbe0a96bdbadae9e29489a1528fa436c55aca25 power: supply: gpio-charger: Keep properties per device
          
