@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Tue, 17 Nov 2026 12:46:59 -0000
-Message-Id: <179491961951.1530337.2049282094294412092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Tue, 17 Nov 2026 12:51:01 -0000
+Message-Id: <179491986179.1533838.6879239129766906339@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/for-next
-    old: e3280ea8b73964efb447f396fb09401a31373136
-    new: a009501c151f7d19519312ccfa2070d30d62b249
+  - ref: refs/heads/v7.4-next/dts64
+    old: 0ed020eaeea1bf0854005eb9b72126ca340b8e4b
+    new: 036ce7562bef9a85d46ed6ba5b83ef4f5e60ad8b
     log: |
-         a009501c151f7d19519312ccfa2070d30d62b249 gfs2: Fix NULL pointer dereference in gfs2_seek_data/gfs2_seek_hole
+         949fe0bd3a3a6ff0e4451ef38ef780f596d0089d arm64: dts: mediatek: mt8390-genio-common: add the panel vddp-supply
+         036ce7562bef9a85d46ed6ba5b83ef4f5e60ad8b arm64: dts: mediatek: mt8395-genio-common: fix the panel supplies
          
