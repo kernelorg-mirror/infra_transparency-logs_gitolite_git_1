@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 17 Nov 2026 03:19:22 -0000
-Message-Id: <179488556223.929110.1096951867063257147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 17 Nov 2026 03:19:47 -0000
+Message-Id: <179488558704.929433.7855898174839240955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 8b9f7406122bcfa8af2b6220bb6457d97c9f9801
-    new: ef922b721a5e99348fc1f5801fdeb427ee14ee9f
+  - ref: refs/heads/main
+    old: cd2c25fdf00c0af252a6776ea813c85fe2d8c474
+    new: 5633da9dc4c5aacbea8604dd0470d367ec3d995d
     log: |
-         5389b53f69b93a8c642c81ee08ad6654a6ed10a2 firmware: qcom: Allow QSEECOM on ASUS Ascent QN10
-         ef922b721a5e99348fc1f5801fdeb427ee14ee9f Merge branches 'arm32-for-7.5', 'arm64-defconfig-for-7.5', 'arm64-fixes-for-7.4', 'arm64-for-7.5', 'clk-fixes-for-7.4', 'clk-for-7.5', 'drivers-fixes-for-7.4' and 'drivers-for-7.5' into for-next
+         7175eb0400c73703a979446093dbf8c4e27376f6 net: macb: add QUEUE_DISABLE capability to 3 compatibles
+         3515d06ef5a4952ad267092de7791871e32d85a1 net: macb: add QBV capability to 4 compatibles
+         5633da9dc4c5aacbea8604dd0470d367ec3d995d Merge branch 'net-macb-add-some-missing-caps'
          
