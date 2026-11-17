@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6634785335061150402=="
+Content-Type: multipart/mixed; boundary="===============4090259742795413615=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 17 Nov 2026 10:44:57 -0000
-Message-Id: <179491229792.1426823.15152455192976896601@gitolite.kernel.org>
+Date: Tue, 17 Nov 2026 10:45:25 -0000
+Message-Id: <179491232542.1429047.12129772159164238703@gitolite.kernel.org>
 
---===============6634785335061150402==
+--===============4090259742795413615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     new: f11fe7603df07fbb9fa02b0d385c1696c87a6dab
     log: revlist-6628e7d4c6b2-f11fe7603df0.txt
 
---===============6634785335061150402==
+--===============4090259742795413615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1794912295 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1794912323 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1794912295-8b9d8796083eea81cd06a0eca3722ff3d9e64675
+nonce 1794912322-6cd1b89391d551e20fd1ecfac6f41498d9103148
 
-6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 f11fe7603df07fbb9fa02b0d385c1696c87a6dab refs/heads/usb-next
+6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 f11fe7603df07fbb9fa02b0d385c1696c87a6dab refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmr8MCcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KcsP/iRkXqw7efXRTcpvO+US
-e7qSBDbprDkwpnpukNqAI/j/G+Hn1mtcyQwtwauwNd51Cx04GEU7QFWIdMTeKaGl
-nXbAHX32zG20HO0saIrupJ3JqQC2J29ruFiIze1rNhwh3OV0M0t59usJXiwdOX3a
-DG+pt3Fnwpm3s72+56l2CKAY2mcPsDVgaIYL0l35bmW1zunR5+Zl8dZv6X4hlHx+
-eESAA321anwz7kVJHoo9xJP9RDORYqTNHIXQ8fxXYqE1pdT6r3nPWDVxt5q1rQ3r
-CJimHWH/eA7Qyhq68H86qGAm2FIrpgDQfxLuREidrZiQFC1TJ2cURCC4wFk4Fj+t
-+UXXLRl5iS3j3VF442R+5RR0xy+i7+5PKdUnRmKqn0phdSslV42rFDfBG7KJeyfS
-yoQ8S0wnUMc5acagZLqktngumVc8yHPIt5CZd8Z/LqcrKuykV2NmAUs6fc/8WjHE
-lrAFRiTaJtFjBJr8U9PQbmOcADvtepE88oRPkqmdfqMXumJ9hy+jgd1uwoyo9NAN
-BZaofDDRps0pj11Ulk3Gay/ngTw6Yor4b/rBc43CKjEx+Mhq1PbEbo+Zpg1AaG0y
-GGygZbNXDXE3E22xZIivemCCIsRb9hJBAMYGwM6fGy0Wc5nTDw13hIAbKLGCfX9Y
-RB8br8IiCEtrHt686JzltJPM
-=94Kx
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmr8MEMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NGAP/iFwBq/mr8y5Bqa/4XEc
+mvtdQhaooCNYJNG7GTPFto+ljB/WKEsBqwuUXVo0BMK8fehRi0GFJ6B4P7/+WUgM
+621frK6uiVSTcqHXIXySEtnwLnf9gExGdqkfnh629IxMDHrPYnLnLNrxEkDQt98d
+dU8QGptecO3X9wxbD1aqHzJlvHfEeClPuEYT1Wvyr1S32K1LqMqQt5PZw0FMuY34
+BrUlkS1ldA4lLapWN70WiMiQb+FVqqaOaRJs77E01blPUKhAyW9bEeaA2kVgetg1
+G5wGc0r3R7V7yVQjnak5B1Deo2fKFCza7yM00wcxO3i/X5NvYCBSwjYlYF4jT71o
+TZoE8/px4MbeLgvutjfjp4qNQ1Z7UVm4yKL1HrJBvtF+3xVE+wfztCg84CuQxuKQ
+CT5nhlicjzFueRrSUB02fmcN0j9HAqeJrzYk4lSuhyavObBkN0fNC1xK/99QJ/QQ
+Cyf/76lSySO79Ko8XadAzo29W5FdAuT3GHsN7qDKS8QmFom8Z3ujQ0BPd9mogQzx
+EATmm8f2vwraBsBMY9psNWzy4fNzRrHs+gL0RskQjP1/4RrClLNm11oMhXGhNaMo
+jODbnE6r0Rp8PrjXEWiVvF4oEnoAi5uLwMvEZRY4LII4ixDUiErHfn1hm5Fu0p8h
+Vm3aw71MSzy0i4HBoeyA7eHf
+=56o1
 -----END PGP SIGNATURE-----
 
---===============6634785335061150402==
+--===============4090259742795413615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ c3f98ff6309a29979e1867bc3c9d4172755ca122 rcu/nocb: Avoid unsequenced accesses to
 7f6fccf6ee5a345b778706b22159c4e3b547c808 Merge tag 'rcu-fixes.v7.4-20261115a' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
 f11fe7603df07fbb9fa02b0d385c1696c87a6dab Merge tag 'usb-7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 
---===============6634785335061150402==--
+--===============4090259742795413615==--
