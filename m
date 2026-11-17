@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3680009916003744037=="
+Content-Type: multipart/mixed; boundary="===============2413246718871820482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 17 Nov 2026 09:21:07 -0000
-Message-Id: <179490726739.1194064.2410314358573211935@gitolite.kernel.org>
+Date: Tue, 17 Nov 2026 09:21:31 -0000
+Message-Id: <179490729121.1194382.9934679719204884518@gitolite.kernel.org>
 
---===============3680009916003744037==
+--===============2413246718871820482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,42 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: be3c65835ade4d487ccbeb08c827662db09ee7e2
-    new: 05eb420cfc9773db3f22c1f7c75d242c6f9556a9
-    log: revlist-be3c65835ade-05eb420cfc97.txt
+    old: 05eb420cfc9773db3f22c1f7c75d242c6f9556a9
+    new: 61a300bd34430b7ce1834615cc63b4bbeb5922cd
+    log: revlist-05eb420cfc97-61a300bd3443.txt
+  - ref: refs/heads/tip/urgent
+    old: 2ef47148c1bd33d0ccbce600c543e8104c70cc3c
+    new: bfa5f628de8141b140b786126630d192a213b5b7
+    log: revlist-2ef47148c1bd-bfa5f628de81.txt
 
---===============3680009916003744037==
+--===============2413246718871820482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be3c65835ade-05eb420cfc97.txt
+Content-Disposition: attachment; filename=revlist-05eb420cfc97-61a300bd3443.txt
+
+063834c432d568b1c0da10ee479a93ef8c5612dc Merge branch into tip/master: 'x86/urgent'
+bfa5f628de8141b140b786126630d192a213b5b7 Merge branch into tip/master: 'x86/mm'
+b21e304634883ab0bf59380a2e213a8c20b51a20 Merge branch into tip/master: 'core/rseq'
+7617318207011446e34ab15ea0927d4a45027bcc Merge branch into tip/master: 'irq/core'
+f748ce62b82f47a8d050b52d426b490763d3527a Merge branch into tip/master: 'irq/drivers'
+3a3395a85673c53b6f055d6507bd887f32d0e2ed Merge branch into tip/master: 'irq/msi'
+db6ff154af5e05bf69b8a16037d7b6c921889833 Merge branch into tip/master: 'locking/core'
+223d7b4b44f30a46c46be82581764699d79077eb Merge branch into tip/master: 'sched/core'
+610cbdc4cd8c661f4bafe57e8f7bae8fefbd26e8 Merge branch into tip/master: 'timers/core'
+aaeb09c415f215e40778b31b52d198b998414e1d Merge branch into tip/master: 'timers/nohz'
+5653b92a250835bf898b0a48f320e5ad22adb760 Merge branch into tip/master: 'timers/vdso'
+7fdd96db3e5d76e03426b62d69f6d355208c5792 Merge branch into tip/master: 'x86/apic'
+61b07a50d5131bf9e986bd9573a013b128f89156 Merge branch into tip/master: 'x86/cache'
+0a3e1b5d56e0fc86577d9ed0e7747e57c7c5cc0f Merge branch into tip/master: 'x86/cleanups'
+cfea2a90017eb5c8b8e0fbb8a2d2392096db4b08 Merge branch into tip/master: 'x86/misc'
+61a300bd34430b7ce1834615cc63b4bbeb5922cd Merge branch into tip/master: 'x86/sev'
+
+--===============2413246718871820482==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2ef47148c1bd-bfa5f628de81.txt
 
 d36e0b560483991bc63b7b766f82396e1bf7ec33 assoc_array: correct the documentation of get_key_chunk()'s level argument
 2a62c32760a8fbf464a7388853d19bc62c5cc423 assoc_array: don't lose objects when a shortcut is split on a word boundary
@@ -175,6 +202,7 @@ f11fe7603df07fbb9fa02b0d385c1696c87a6dab Merge tag 'usb-7.3-rc4' of git://git.ke
 b6793a9e2a3c280bb7c6c7d39be271e2f57aa2bb Merge tag 'tty-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 141b164bbe186423e295b139e40e8e2d11cf1341 Merge tag 'char-misc-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 666539eecdf4db623f5e3c3e55cf9f2dfad24aa4 Merge tag 'assoc-array-fixes-v2'
-05eb420cfc9773db3f22c1f7c75d242c6f9556a9 Merge branch 'linus'
+063834c432d568b1c0da10ee479a93ef8c5612dc Merge branch into tip/master: 'x86/urgent'
+bfa5f628de8141b140b786126630d192a213b5b7 Merge branch into tip/master: 'x86/mm'
 
---===============3680009916003744037==--
+--===============2413246718871820482==--
