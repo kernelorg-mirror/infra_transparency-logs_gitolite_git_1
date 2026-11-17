@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Tue, 17 Nov 2026 05:20:33 -0000
-Message-Id: <179489283330.1016813.5410615671156511279@gitolite.kernel.org>
+Date: Tue, 17 Nov 2026 05:32:55 -0000
+Message-Id: <179489357570.1024662.13470847718996228588@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/vireshk/pm
 user: vireshk
 changes:
   - ref: refs/heads/cpufreq/arm/linux-next
-    old: 285ad12ac4d485f15dc1c07edc0baa5cad70c98b
-    new: c13845e1e72faaf97bb750e41b54e6e2421e9fdb
+    old: c13845e1e72faaf97bb750e41b54e6e2421e9fdb
+    new: baf65526f48dd67413da897fc98cec49c155d369
     log: |
-         ba359703fc45d2bb63b5a7524c823455663387ec cpufreq: sun50i: Handle boards with the allwinner,sun50i-a133 compatible
-         c13845e1e72faaf97bb750e41b54e6e2421e9fdb dt-bindings: cpufreq: qcom-cpufreq-nvmem: Simplify bindings
+         baf65526f48dd67413da897fc98cec49c155d369 dt-bindings: cpufreq: cpufreq-qcom-hw: Add SM6125 compatible
          
