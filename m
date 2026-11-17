@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Tue, 17 Nov 2026 12:11:07 -0000
-Message-Id: <179491746741.1501571.6595029083190658602@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 17 Nov 2026 12:14:43 -0000
+Message-Id: <179491768310.1502736.12836949883468839455@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: 6c47b948766da7b8ae71125ee47440e0d01f6ebf
-    new: e864bfa0e28bf65ccfb84f96f10f69ae6700a85f
+  - ref: refs/heads/main
+    old: 400bd920a7242360576b9620332652595319bd79
+    new: c1824744b3b62e381b1bec9898b1bf37a8f7b00d
     log: |
-         ffcbc063e8df3cdb50576a4bc20b3d9669e2c43a soc: mediatek: mt8167-mmsys: fix errors in multiple-output display paths
-         e864bfa0e28bf65ccfb84f96f10f69ae6700a85f Merge branch 'v7.4-next/soc' into for-next
+         c1824744b3b62e381b1bec9898b1bf37a8f7b00d net: usb: cdc_ncm: fix out-of-bounds read of chained NDP32 offset
          
