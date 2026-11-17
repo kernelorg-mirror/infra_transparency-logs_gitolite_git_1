@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Tue, 17 Nov 2026 10:46:21 -0000
-Message-Id: <179491238141.1429881.13336721170870224602@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Tue, 17 Nov 2026 10:47:14 -0000
+Message-Id: <179491243480.1430374.13136733422064332424@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/b4/usb-pxa25x-udc
+  - ref: refs/heads/v7.4-next/soc
     old: 0000000000000000000000000000000000000000
-    new: 60413c5470fa6d1df3639dc701dacf8b61738906
+    new: bf97386b6ba804df2e3a42933a4c955659a4263b
