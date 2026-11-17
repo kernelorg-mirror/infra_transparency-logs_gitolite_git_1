@@ -1,42 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============0608980607973415104=="
+Content-Type: multipart/mixed; boundary="===============6908547140420894166=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 17 Nov 2026 18:40:45 -0000
-Message-Id: <179494084504.1857736.6259653777045172091@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 17 Nov 2026 18:45:52 -0000
+Message-Id: <179494115274.1861423.7976916037550166118@gitolite.kernel.org>
 
---===============0608980607973415104==
+--===============6908547140420894166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/main
-    old: 6bc9aed3994cb04708fef02dd6d2f1cc5c5e8229
-    new: a0aa9ceca03f8eceb58174c9c72d480b2422d199
-    log: revlist-6bc9aed3994c-a0aa9ceca03f.txt
+  - ref: refs/heads/master
+    old: 3c5963d23d64972385786e0be47be16d89ff4434
+    new: fe4fc0b5c28d9412efc15bfb4ea085edad576631
+    log: revlist-3c5963d23d64-fe4fc0b5c28d.txt
 
---===============0608980607973415104==
+--===============6908547140420894166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6bc9aed3994c-a0aa9ceca03f.txt
+Content-Disposition: attachment; filename=revlist-3c5963d23d64-fe4fc0b5c28d.txt
 
-7b76a40b601f006f00f0c28c41b61132e83f1dc8 dma-mapping: add dma_alloc_attrs_node() and dma_alloc_coherent_node()
-b998c26a744055a5275272d984357dbde6972d05 dma-direct: add dma_direct_alloc_node()
-13369a035c5376c0b481cb52a798acc7eb1faa53 iommu/dma: pass the NUMA node to iommu_dma_alloc()
-31f7e12d621bc5b1dcda0b5e6855e39adc8aaebd dma-contiguous: pass the NUMA node to dma_alloc_contiguous()
-a81252643b565428eb685462776ce361fef44c73 eth: libwx: restore the device's NUMA node after ring allocation
-73ca9017105edd1aea207b3753b86259c5f8188e eth: libwx: use dma_alloc_coherent_node()
-beb7c30eddc7a19a1ed0a5d7b2ec08b0849488b2 eth: ixgbe: use dma_alloc_coherent_node()
-b1d549fd9363f229404688be12e1339693a96b41 eth: xgbe: use dma_alloc_coherent_node()
-3a346ca9878ea9098edc7266a58fce08eac38c09 eth: fungible: use dma_alloc_coherent_node()
-15ec9a33feef281fbc10855a262c9546c018ca34 eth: mlx5: use dma_alloc_coherent_node()
-1dd4c307e3d94a708d8196f39c4155ae23ae7ca6 eth: mlx4: use dma_alloc_coherent_node()
-a0aa9ceca03f8eceb58174c9c72d480b2422d199 Merge tag 'dma_alloc_coherent_node' of git://git.kernel.org/pub/scm/linux/kernel/git/kuba/linux
+3eb68aaba4abad806db2d5696b6099749b419643 Bluetooth: mgmt: Fix read_index_list() buffer overflow
+fbe766f51668390d7d50cf5868c8e62a2257d5a2 Bluetooth: hci_core: Take req_sync lock in hci_power_on()
+db45dce12abd9f9f5d52b95fef88b01096378f94 Bluetooth: hci_sync: Lock the lookup in hci_disable_ext_adv_instance_sync()
+9915152b9395c3eacbd259224a53021f677a4f3c Bluetooth: hci_sync: Hold hdev->lock in hci_schedule_adv_instance_sync()
+0a7dc9d46688103cb8663ef08b51576f9c617c2a Bluetooth: SMP: Serialize link key updates from smp_notify_keys()
+37a57258075e06e67c73a99f9c582be5f07e3448 Bluetooth: SMP: Check smp_data before using SMP_DEV()
+082e85cc2489ab0d3635fab879dbc153093094f7 Bluetooth: SMP: Don't create the BR/EDR channel while unregistered
+57fec6b28928fd203abbeed62663353471dd9575 Bluetooth: hci_event: Validate sent command length in LE Set Ext Adv Enable
+37c3e12c63a63a5c80b2df037d20c754e7c13476 Bluetooth: mgmt: Reject zero multi advertising rotation duration
+757ddd5165dec46c55724f8f500ec0c66a3aef28 Bluetooth: L2CAP: Don't use uninitialized EFS in l2cap_parse_conf_rsp()
+a7bd564c54b14b7eda8d19a311b9259fc7f3ddab Bluetooth: mgmt: Fix mesh transmission locking and lifetime
+30da362ed7e6d72b9f299caccf0cadc70a8d5ce0 Bluetooth: MGMT: Fix use-after-free in mgmt_powering_down()
+1de1d842d2bfe589b98d0ca56d8b0af0a81148c0 Bluetooth: MSFT: Protect the event prefix with hdev->lock
+66fdaa63b0e52811c58495e4985a7b1bdcad33a2 Bluetooth: hci_debugfs: Fix racy toggling of debugfs controlled flags
+bb1873827c1d6c05c48956a585763469cd797aca Bluetooth: hci_core: Hold hdev->lock when removing advertisement monitors
+ff5432b141fa778d2bfd04c3f85d929fb8ba4125 Bluetooth: RFCOMM: Serialize tty device reparenting
+b05fb50e255a3214683ee3f6a9433ea442c0ce04 Bluetooth: btintel: Don't log unsupported debug features as an error
+1f150a0bb8a1a2302f6895ac410f0aaaaa63b756 Bluetooth: hci_conn: Free the unset handle when adding a connection fails
+56abe5c17b4d7e3bdc83b9671549f407a7113ceb Bluetooth: hci_conn: Refuse new connections once HCI_UP is cleared
+1ea7a0946b9ea0a962640fc314bdef268e7c2791 Bluetooth: hci_sync: Disable connection works before draining
+ee43bade37c4578b52a76cf0cdb199d3c0019506 Bluetooth: hci_serdev: serialize flush with transmit work
+c9eb955c4fe2c2611a57625767c4cc57ab8c7558 Bluetooth: hci_mrvl: Leave the serdev port lifetime to hci_serdev
+5beb86f98c3d45f6d64be5b6d6c77480487b41b4 Bluetooth: L2CAP: return LE credits from recvmsg under the conn lock
+fe4fc0b5c28d9412efc15bfb4ea085edad576631 Merge branch 'bluetooth' into bluetooth-next
 
---===============0608980607973415104==--
+--===============6908547140420894166==--
