@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 17 Nov 2026 12:36:41 -0000
-Message-Id: <179491900145.1521871.7380102686863976587@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Tue, 17 Nov 2026 12:37:29 -0000
+Message-Id: <179491904952.1522286.13438211521826815154@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/heads/usb-linus
-    old: 748ea6c389c01af93a1d372876ab4176e3f0a916
-    new: d091d9a05f78af9332785f1767467a0a88d24233
+  - ref: refs/heads/for-7.5
+    old: 791ef60ca3f09c96915b8fc45a70e1eb896d40b9
+    new: 9397e8e9e804bb73fc0109e7380fed24f1b12cfe
     log: |
-         d091d9a05f78af9332785f1767467a0a88d24233 USB: serial: f81232: drain work on failed open
+         9397e8e9e804bb73fc0109e7380fed24f1b12cfe ata: sata_dwc_460ex: Fix DMA channel leak in sata_dwc_port_start()
          
