@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 17 Nov 2026 00:10:54 -0000
-Message-Id: <179487425407.781682.7295363674121132474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/hfs
+Date: Tue, 17 Nov 2026 00:14:27 -0000
+Message-Id: <179487446778.783020.1662016185873988159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/vdubeyko/hfs
+user: vdubeyko
 changes:
-  - ref: refs/heads/main
-    old: c4eb2502a378077df09983a80fb6434c7641ae2a
-    new: 1932779607d2fc895464c676a2a420aa07403976
+  - ref: refs/heads/for-next
+    old: 34ee5f8c2198db9585da6c181c50869d2eb43c3a
+    new: fd531477d0364742722d8cb3d1993f2ecd0bacf8
     log: |
-         1932779607d2fc895464c676a2a420aa07403976 virtio_net: Disable AF_XDP pools on queues above curr_queue_pairs
+         7e8c4c4e84154e07e0492da49e0e34f2cc53266b hfsplus: release preallocated blocks in hfsplus_file_truncate()
+         fd531477d0364742722d8cb3d1993f2ecd0bacf8 hfs: release preallocated blocks in hfs_file_truncate()
          
