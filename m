@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2384469237390157541=="
+Content-Type: multipart/mixed; boundary="===============7032191045342321660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 18 Nov 2026 22:59:34 -0000
-Message-Id: <179504277480.3284607.6349073838024425845@gitolite.kernel.org>
+Date: Wed, 18 Nov 2026 22:59:37 -0000
+Message-Id: <179504277742.3284769.3220947287841911946@gitolite.kernel.org>
 
---===============2384469237390157541==
+--===============7032191045342321660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part3
-    old: ebc722f0c2bf6589ab163b3d6d75b17e05893b0d
-    new: 5a4e58c2a75f83a839cf0525134c9dee951af372
-    log: revlist-ebc722f0c2bf-5a4e58c2a75f.txt
+  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS
+    old: 20adf6a7c0ef3d911d449fb191ad4aed901a36e3
+    new: 3d3971a0e15ff0c11758680c0f74d82b96fc76ba
+    log: revlist-20adf6a7c0ef-3d3971a0e15f.txt
 
---===============2384469237390157541==
+--===============7032191045342321660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ebc722f0c2bf-5a4e58c2a75f.txt
+Content-Disposition: attachment; filename=revlist-20adf6a7c0ef-3d3971a0e15f.txt
 
 a436037f7ee12c69b713edf9fe9c71086470d63c workqueue: hand a retiring unbound nr_active count to its own pwq
 bcd4dfb52bc60f602e3599fe23cf87781b712f95 SUNRPC: hand a sent task from sending to pending without a requeue
@@ -611,5 +611,211 @@ afbd224ae1509e5276ad912382cb638352ea180e NFSD_TCP_WRITE_ZEROCOPY: do not count t
 ba6ee1f3bb1fcf54e37190c453de17297464812b NFSD_TCP_WRITE_ZEROCOPY: the READ pass reads on io_uring, fixed buffers
 382a04458aa5f9575858bf57b8a14e7a1bce5d3b NFSD_TCP_WRITE_ZEROCOPY: round 107, the WRITE engine A/B to run
 5a4e58c2a75f83a839cf0525134c9dee951af372 NFSD_TCP_WRITE_ZEROCOPY: round 107, the drives hold WRITEs, not the engine
+71e664f7c9982d33cc2c309ab4cca8647ac1b9c1 NFSD_TCP_WRITE_ZEROCOPY: round 108, 4 KiB random READs on the drives
+c4f7da326f6588a956e13e28e12effe9c9b85d06 NFSD_TCP_WRITE_ZEROCOPY: round 108, the drives read 16 M IOPS locally
+b4c2cfa55a31d16e9a5f08bf7d35ab25cc0067ab NFSD_TCP_WRITE_ZEROCOPY: round 108, the 8:64 point and NFS 4K to run
+5a9de64eafc4adbb89982b7a707e34e0f426916b NFSD_TCP_WRITE_ZEROCOPY: round 108, 4 KiB over NFS holds at 1 M IOPS
+526b71409c21eceabcea464a740b8c54ed4ea4e1 NFSD_TCP_WRITE_ZEROCOPY: settled-iops.sh, David Flynn's IOPS setting
+e9fc3570771e407a3876b914c91aec658323116e NFSD_TCP_WRITE_ZEROCOPY: round 108, NFS 4K with settled-iops.sh
+d69ca579ccf6a2a671fd0ade1a0b6246978d9c56 NFSD_TCP_WRITE_ZEROCOPY: round 108, settled-iops.sh reads 1.05 M IOPS
+b366e8b4caa7e57dd33e68bd7ff3e06f94d3f697 NFSD_TCP_WRITE_ZEROCOPY: round 108, a profile of both ends at 4K
+97c518270b7187b4fc5d8656850910b24d774ed2 NFSD_TCP_WRITE_ZEROCOPY: round 108, the client waits on rpciod's lock
+84b2b16cd65c8286a19f3c6c83a162c75afeb15e NFSD_TCP_WRITE_ZEROCOPY: IOPS.md, 4K READ IOPS and the client
+ba459a2546904ca750597a7e6103012436f548c8 NFSD_TCP_WRITE_ZEROCOPY: David Flynn's NFSv3 max IOPS instructions
+56905ea606f0392c22abaee267a12433176b8fdf AGENTS.md: a Fixes: line may run past 72 columns
+95552ae34bcfd0b1b5d92c80e8f0a0a6bf5152fa NFSD_TCP_WRITE_ZEROCOPY: IOPS.md, the server's pool_mode A/B
+7188d79f89194187504fa03282e90df494be78fa NFSD_TCP_WRITE_ZEROCOPY: handoff, where IOPS stand on 17 November
+34eca47c9a993fc6383d9383f2c82f6c118e46eb NFSD_TCP_WRITE_ZEROCOPY: IOPS.md, no artifact updates for IOPS
+663d777dcf3d0890655d4805f38865e57cc8d83c NFSD_TCP_WRITE_ZEROCOPY: round 108, the client on canary-WIP
+c7d197fe4b56e3edadfd0c7c4ffb8fd53354632e NFSD_TCP_WRITE_ZEROCOPY: twoport.sh, a per-CPU rpciod is strict
+bfc24fb232a1a76d597673c421430d0cb3af1492 NFSD_TCP_WRITE_ZEROCOPY: round 108, 1.81 M IOPS on canary-WIP client
+6d7ef46a143843fbb579d716607e897631372b51 NFSD_TCP_WRITE_ZEROCOPY: IOPS.md, 1.81 M IOPS and round 109's plan
+1789ff27e66c6deb0a960f6a1c7b22b0f28f74d7 NFSD_TCP_WRITE_ZEROCOPY: round 109, the server's pool_mode A/B
+606b1e196f30a079f944abb0c123b48bcf5f0ba8 NFSD_TCP_WRITE_ZEROCOPY: round 109, percpu pools read 2% more IOPS
+f40f0087f856577b4cef0e5665abaeb52cbbc334 NFSD_TCP_WRITE_ZEROCOPY: round 109, pernode stays; depth 16 and 64
+fd7164c35b7ce0a663a94b71b7783b629ada3825 NFSD_TCP_WRITE_ZEROCOPY: settled-iops.sh holds pool_mode percpu
+970a8dda0735b3a812241678bdc5cdd8a88c487d NFSD_TCP_WRITE_ZEROCOPY: round 109, 2.20 M IOPS at iodepth 64
+7ff430033af1cbc5bf13bcc4fef7db94af801a9c NFSD_TCP_WRITE_ZEROCOPY: round 109, nconnect 12 and 18 at depth 64
+067b5965aa3f8fda539478437c191939ef136c88 NFSD_TCP_WRITE_ZEROCOPY: round 109, nconnect 12 reads 2.31 M IOPS
+a657592aa0592e5d3415364756b171e0726b07c2 NFSD_TCP_WRITE_ZEROCOPY: settled.sh, NFSv3 only and no nfsdcld
+94723ce5dcbba6fa54d799c2784ff948fb53c54b NFSD_TCP_WRITE_ZEROCOPY: round 109, NFSv3 only applied; the passes
+303107f6186fd37eb5db347ca3f7eb39092f68e3 NFSD_TCP_WRITE_ZEROCOPY: round 109, the WRITE pass on build 541
+1a8b6b0c3583cf95fec9496a1110fcc784c0d95a NFSD_TCP_WRITE_ZEROCOPY: WRITE.md, the WRITE path's commits and TODO
+dc26b1b8f1bfe03c965980dc42654157e9fc75f2 NFSD_TCP_WRITE_ZEROCOPY: settled.sh audits the client's kernel
+d5e02ba9149d99adacd14a3ed704abf5af138ac9 NFSD_TCP_WRITE_ZEROCOPY: round 109, the hot CPU and the scope A/B
+70dd36bdc02dc09f597ced120d8683e77ea6a7ee SUNRPC: Take no module reference on sunrpc's own auth flavors
+92ab218c6fdb5b3170cc835fee80535c93246b8f SUNRPC: expose the auth flavors' module references for the KUnit suites
+fd34dff86e09dbfad389ab2b549c5903a018df0e SUNRPC: test the auth flavors' module references in the svcsock suite
+7182f9856bea8da0eae460732b702ab842ac7a84 NFSD: Lend each thread's cached export to NFSv3 file handles
+e4289a716678a719826f92ae93a94682dbf91cef NFSD: expose the export caches for the KUnit suites
+7c009578c5465d999ef4eb49fd24c0c8f77f003c NFSD: expose export stats setup and shutdown for the KUnit suites
+c0f367dfa123914819dfc1be2b89200d6dc0ca45 NFSD: test the per-thread export borrow in a KUnit suite
+d1992b15b659faa848adb889294ef6f0bae40dc9 NFSD: Give rtc pool rqsts the per-thread export slot
+dc5043479ab5ff88133b559fc0e216983d412ccf NFSD: test the rtc pool rqsts' export slot in the borrow suite
+5e7b6734bfd1323ebc08ccd6e3efd67d8511d488 NFSD_TCP_WRITE_ZEROCOPY: settled-iops.sh runs the client at cache_shard
+e7e284cc2048922d9143a9cf8bfeb1535fe4a861 NFSD_TCP_WRITE_ZEROCOPY: both hosts boot build 541
+9ec3a2025f9f918de0e3731ed14b45071291c153 NFSD_TCP_WRITE_ZEROCOPY: the tip's server stack built for build 541
+f0c3f1bc87a1fde04d249da8bbbd6f64ee0d0474 NFSD_TCP_WRITE_ZEROCOPY: the tip's server stack runs on build 541
+c2a5d0e7e0b6ae4ccbb9246678998bf7f50b655d NFSD_TCP_WRITE_ZEROCOPY: the WRITE pass's mark is 75.0 GB/s for now
+4967913d343a647da0f8871d4e8f8f8c1c9a2f37 NFSD_TCP_WRITE_ZEROCOPY: WRITE and READ passes on 541's tip stack
+8b2787f5d0eefa3c2b356256d8c4660e5f5adae0 NFSD_TCP_WRITE_ZEROCOPY: settled-iops.sh runs at iodepth 64, nconnect 12
+dd36280a29f2aabf35bfa784cc0156e37e46f59c NFSD: Cache several exports in each thread's borrow slot
+a9db134cc9d66197df72485b4ebf64c4630f21a2 NFSD: test several cached exports in the borrow suite
+ce4c3738c7895220731a439560263e5360ce011c NFSD_TCP_WRITE_ZEROCOPY: round 110, the export borrow's 0 vs 16 A/B
+9ef660ad80c39ebd7d03c1d17baad50edec0ac64 NFSD_TCP_WRITE_ZEROCOPY: round 110's server profile at a slot count
+5570812be19949ef002e5d7a15bce4dc7e1de511 NFSD_TCP_WRITE_ZEROCOPY: round 110's borrow A/B results
+6d049eaca0f32cde13380e90b982e13dec3c0297 NFSD_TCP_WRITE_ZEROCOPY: round 110's profiles at 16 and 0, a TX timeout
+521418cffc4c4db53d80d35116922c1b2da94927 NFSD_TCP_WRITE_ZEROCOPY: count NIC and I/O timeouts as kernel warnings
+dcf2b23fead5542b3a8111437d6238a31733d61c NFSD: Look at the export borrowed last first
+a767103799e1e427ec19315eca347638665c9fa5 NFSD: test the borrow's look at the entry used last
+e535ce5c40e979a7afb39c114d709a81b0342d4d NFSD_TCP_WRITE_ZEROCOPY: round 110, the MRU-first build and its plan
+51655f3b8d4d871bb39a2e6b56808cffd39f66a1 NFSD_TCP_WRITE_ZEROCOPY: round 110's passes and profile on the MRU build
+5ad6b2029e1dd47a9b7a3635d4c1c92a07139e41 NFSD_TCP_WRITE_ZEROCOPY: the WRITE pass's mark is 74.6 GB/s for now
+90f4ed0c59f306d242a64f17622c9bf16cc5c9fc SUNRPC: Cache AUTH_SYS ip_maps and gids in each svc_rqst
+c4fdb09c4c84302779b9a50f5c941527ba6d1789 NFSD_TCP_WRITE_ZEROCOPY: round 111, the AUTH_SYS borrow and its plan
+2adcaaf9186680b05a3b32ba3be2bd8349bf2345 NFSD_TCP_WRITE_ZEROCOPY: round 111's passes, and the gid borrow's gap
+25cf799f50a09eec0affdd3a307035c37ae61684 SUNRPC: expose the AUTH_SYS borrow for the KUnit suites
+5d2274e3534a9233399e2088044d85241e14f756 SUNRPC: test the AUTH_SYS per-rqst borrow in a KUnit suite
+7402dd6deb9a21a4120f42252189c9038680e75c NFSD_TCP_WRITE_ZEROCOPY: round 111, the stopped A/B and the retest plan
+3fc856d5d0357f563ce39bd5c3bfe1adfd1ad8c9 SUNRPC: test the AUTH_SYS borrow with no refresh listener
+ba1dec2abdb11a619a14e8e58e7604a6651d610d NFSD_TCP_WRITE_ZEROCOPY: round 111, the gap's second fix and its plan
+ba284b38b448b95398922af3790f4d294f7775f3 NFSD_TCP_WRITE_ZEROCOPY: round 111: the auth borrow is worth 2.4%
+7d8d21f89193e4a829381d651d17d5fd467a0488 NFSD_TCP_WRITE_ZEROCOPY: the borrow suites to run on tardis2
+909e8f48c12af02bb2adf806b20b39ea53a08812 NFSD_TCP_WRITE_ZEROCOPY: round 111, kunit-auth.sh to run the auth suite
+2dbd1c70d28b50092641323b3333bb483ed601bd NFSD_TCP_WRITE_ZEROCOPY: round 111, the auth suite's first run
+7543129354eace8f785fc25fe9afd813a66e6753 NFSD_TCP_WRITE_ZEROCOPY: round 111, the auth suite passes
+a3dfd95c4b9e24d200c5b354b21601a7676c7037 NFSD_TCP_WRITE_ZEROCOPY: round 111, filter the export suite by its name
+6f66ad5fb9dcf719d621cf36ac88495090d75d96 NFSD_TCP_WRITE_ZEROCOPY: round 111, the export suite's first run
+c57cdbfba6f5258ea877801dd6a690aed7099bec NFSD_TCP_WRITE_ZEROCOPY: round 111, both borrow suites pass
+49941c8594df6bfc337b9eae2b341359c05ee9ab NFSD_TCP_WRITE_ZEROCOPY: hold both borrows in settled-iops.sh
+2b692283198660165421191c9100203c5d14992b NFSD_TCP_WRITE_ZEROCOPY: round 112, the client's workqueue lock: plan
+8f6721bd77eda5a0b5277c9c724fa587fd86a6c5 NFSD_TCP_WRITE_ZEROCOPY: round 112: the client's lock is nfsiod's pools
+1aef373a94051a2c2e4ca30d675ddae4c257252c NFSD_TCP_WRITE_ZEROCOPY: round 112, the cpu scope A/B: plan
+904d9e5d45f931f59199d96322a286586e23a346 NFSD_TCP_WRITE_ZEROCOPY: round 112: cpu scope saves client CPU, not rate
+7f7e2846fe5e2dc944ad1d7c90bee55d46c85eef NFSD_TCP_WRITE_ZEROCOPY: settle the client's cpu scope for IOPS
+df95bd369d31d3cf49683ab30e68b001990befae NFSD_TCP_WRITE_ZEROCOPY: round 113, the server's per-READ cost: plan
+0c14c2c1e8be14e7be1e56d542b3d1c4dcd8dca8 NFSD_TCP_WRITE_ZEROCOPY: round 113: 18 us a READ, the fh decoded each time
+6eef6231a472c039c1c19bf5b301e72a5985e474 NFSD: Lend each thread's recently decoded NFSv3 file handles
+eecbf77dc63131d0365606b7a0e592a6c348252c NFSD: expose the file handle sweep for the KUnit suites
+cf5f32ebf14502166f7097e236752b99d4e3db97 NFSD: test the file handle borrow in the export borrow suite
+87e8a4404ba9ddb51d621e01547056fa796392c9 NFSD_TCP_WRITE_ZEROCOPY: round 114, the file handle borrow: plan
+2468f053c3fa9cee0cc1ddd5433e5dc852b1c181 NFSD_TCP_WRITE_ZEROCOPY: round 114, the stack rebuilt from the tip
+f616e7bbff7ee9b2b319164742733528fcf4fc98 NFSD_TCP_WRITE_ZEROCOPY: round 114, the suite passes
+d96ddbb8fce0a45f1900c9e3ec576eb2a6a17dcd NFSD_TCP_WRITE_ZEROCOPY: round 114, 64 against 16: plan
+d777aa68dac6ecc2da4f61fb5b9e47fae2ad8c83 NFSD_TCP_WRITE_ZEROCOPY: round 114, the A/B cut after t2-r976
+4581bba540cd348b3a6a647d551bf53286d535ac NFSD_TCP_WRITE_ZEROCOPY: hold fh_borrow_slots at 48 in settled-iops.sh
+8c316e6155004931cb0cdfe0ce90636629da2199 AGENTS.md: never find a process by a pattern the command contains
+76f8dfa57a787f6ab4eba726deda87dc14ac73e0 NFSD_TCP_WRITE_ZEROCOPY: round 115, rtc work on the ring CPUs: plan
+42176a5367615ef2e62ceef5f7ed55c6edc08e05 SUNRPC: Let the rtc balance spill onto other CPUs as a last resort
+8e4c8a7209ab18e9cff4eeb459475ff6be1a0256 NFSD_TCP_WRITE_ZEROCOPY: round 115's results; round 116, the spill: plan
+047ceca1360d8679aa1af4ddb1df5a2fca08013c NFSD_TCP_WRITE_ZEROCOPY: round 117, one rpc_clnt a port: plan
+5eeb74b7b3ed4d042d39bf47542e652b9ec6e33b NFSD_TCP_WRITE_ZEROCOPY: round 117 at nconnect 48, then 64
+18cbb933073a5060c23959a2afd2a402cf49496c NFSD_TCP_WRITE_ZEROCOPY: round 116's results, the spill at weight 1
+063e8fc1a275bf0b6fff3a571e81cb87fbb5acf1 NFSD_TCP_WRITE_ZEROCOPY: hold the rtc spill at weight 1 for IOPS
+5987964d89796591f1f7dd38f12b6241b56207a5 NFSD_TCP_WRITE_ZEROCOPY: round 117 stopped; round 118, nconnect 64, 128
+0eb92101fce965b3fcf406e5013d0ac7ae20e98a NFSD_TCP_WRITE_ZEROCOPY: round 118's one run, nconnect 64
+ef1c9e0ad96b8d1a92088d2599c5d4274a5bc67a NFSD_TCP_WRITE_ZEROCOPY: round 119, the per-READ cost at 2.78 M: plan
+f5675f98fd988484e7c522270b31138a8b3569e9 NFSD_TCP_WRITE_ZEROCOPY: round 119's profile at 2.71 M
+b4904c12b9dd64d721f50a283d17b5b20d383322 SUNRPC: Let the rtc send FIFO batch replies with MSG_MORE
+ba9dfc5a555381fb0323b6976704c4df75ca31ca NFSD_TCP_WRITE_ZEROCOPY: round 120, the rtc replies with MSG_MORE: plan
+c599bfdef29b9defbe4a6dcb97e861bab7eaab48 NFSD_TCP_WRITE_ZEROCOPY: round 120, a READ pass with send_more Y
+8bb9ef6875b489db6d08700ca5035ebbecf28f5b NFSD_TCP_WRITE_ZEROCOPY: round 120's WRITE pass to be rerun
+639eb0aaddb7dd2cd2e6cae9f7cddaafcc74b349 NFSD_TCP_WRITE_ZEROCOPY: hold svc_rtc_send_more Y for IOPS
+fb7b30cd6c76503891bc304a0569d2b9551a1bcc NFSD_TCP_WRITE_ZEROCOPY: round 120's results and profile
+f8b9a3f18e813221f4d83f4b4bd2108cb0c88560 NFSD: Do not ask for direct I/O alignment for a reply's attributes
+c93050be178081f15ee62200adfd54d3715de0ee NFSD: Map IDs in the initial user namespace without a lookup
+b67159a0cc1bc577258026d2009ad00137b21a32 NFSD_TCP_WRITE_ZEROCOPY: round 120's READ pass at Y; round 121: plan
+40df759ff2dee19e8e6ffa5cd98d114093af37fb NFSD_TCP_WRITE_ZEROCOPY: round 120's WRITE rerun passes
+d3245ba31a3a3bed6edbddcd672aac3cc8a90711 NFSD_TCP_WRITE_ZEROCOPY: IOPS.md, a MAYBE TODO for cached attributes
+3ea28538a3fe0c4081276c14ace5ffd6e7b85e64 NFSD_TCP_WRITE_ZEROCOPY: round 121's results
+63a5bac650e7c31e5361cb5061f277f6f49d0c4c NFSD_TCP_WRITE_ZEROCOPY: round 122, the fh borrow's sets: plan
+9b286164799c4d87977eba4045612d4583be301d NFSD_TCP_WRITE_ZEROCOPY: round 122's result, the sets miss
+429c99c28ba444a95a680aefb84aad9d83b8c83f NFSD_TCP_WRITE_ZEROCOPY: round 122, the tag array: plan
+bae4cac6fdafb4acb8287a9b7046bbbe734b2eba NFSD_TCP_WRITE_ZEROCOPY: round 122, the tag array saves nothing
+165dd8afbd9b84b942dd2691e15513e5fac38a33 SUNRPC: Count the rtc pool's parked calls per CPU
+748f6dbb58fb4ff7f20d4e157dabc94b4397bd34 SUNRPC: Read the rtc pool's parked count as a percpu_counter in KUnit
+abf63b3d65d0879272f8a1fbf43d1c2775cf2162 NFSD_TCP_WRITE_ZEROCOPY: round 123, the parked count per CPU: plan
+b9d0183019b497bf2d449f65b930c690a2899845 NFSD_TCP_WRITE_ZEROCOPY: round 123's result, 2.83 M
+0b8d565782b15f383dcb23198cb957ce8626f838 NFSD_TCP_WRITE_ZEROCOPY: round 123, the stats counters share no line
+b362d5bd790b749d24fb406aa40aba6f5ba513a0 SUNRPC: Count the server's per-call statistics per CPU
+1d037cecfc9288bccc9233ec40c35014a3b8fc76 NFSD_TCP_WRITE_ZEROCOPY: round 124, per-call statistics per CPU: plan
+08507ad8474f0c053f5edc187deb07d7fe3dc1ae NFSD_TCP_WRITE_ZEROCOPY: round 124's result, 2.88 M
+6fe74c5477ce6e168e266250571dd81581b4a0f2 NFSD_TCP_WRITE_ZEROCOPY: round 125, what softirq does a READ
+54fcf4e65b3fcf8969a417326120d2a0c067ea65 NFSD_TCP_WRITE_ZEROCOPY: round 125, a tcp_limit_output_bytes A/B: plan
+22957e34df8e1883c15f2aa98dbbabf888d27d04 NFSD_TCP_WRITE_ZEROCOPY: round 125, tcp_limit_output_bytes 4 MiB: 1.2%
+12c334c58f97be3b53dbedb842bca21612656f05 SUNRPC: Move rtc connections off the busiest CPU as they run
+8314259142e9139a0e54e76aa21e4ace5eab78e4 NFSD_TCP_WRITE_ZEROCOPY: round 126, the rtc rebalancer: plan
+ae2583b13f179a4e430644d6ff5299d1c625cfe4 NFSD_TCP_WRITE_ZEROCOPY: hold tcp_limit_output_bytes 4 MiB for IOPS
+b1c407b1e3a28ca0aeb8c3449f4981c2e0630bbc NFSD_TCP_WRITE_ZEROCOPY: round 126 again, at tcp_limit 4 MiB
+224d70152a72d1c1f59bc421d76a2dd446c4fba0 NFSD_TCP_WRITE_ZEROCOPY: round 126, the rtc rebalancer: +1.4%
+5caa25bc0133d0f4fa4271014e4104361d7a7d18 NFSD_TCP_WRITE_ZEROCOPY: hold svc_rtc_rebalance_ms 250 for IOPS
+1c46f9e5c04890e6b5c2a38ba56447b6a7d46764 NFSD_TCP_WRITE_ZEROCOPY: round 126, tcp_limit under the rebalancer: plan
+6ef0ec6dfc432c35ce05c1c8ed4add23b8384768 NFSD_TCP_WRITE_ZEROCOPY: round 126, tcp_limit under the rebalancer
+3ae12827aad96f89779b1bf54c65c92160b1108e NFSD_TCP_WRITE_ZEROCOPY: hold tcp_limit_output_bytes 1 MiB for IOPS
+aa03e22948cd2b6801a13755949fa38d43ab94a3 NFSD_TCP_WRITE_ZEROCOPY: round 127, a profile at the new settled-iops
+dbf74e3a6c3046bcb5db9b6478e9d3cb57c7bad6 NFSD_TCP_WRITE_ZEROCOPY: round 127's profile, 2.91 M at 17.15 us
+7f76739ac024cf5e16ee3cf2ac2972683586379f NFSD_TCP_WRITE_ZEROCOPY: round 128, RFS placement: plan
+da3dd33820750da46474dc9c2011e5242f920ecd NFSD_TCP_WRITE_ZEROCOPY: round 128, RFS steers to the reading CPU
+9dc591a6009c25b521f7f666b488ae6c107a404f NFSD_TCP_WRITE_ZEROCOPY: round 128, the no_peek fallbacks: plan
+8a0f60fca23e47ae4644fe56234fb21e7dd7de6c NFSD_TCP_WRITE_ZEROCOPY: round 128, no_peek hands 9.6% to threads
+b208878480b818486c1367e6e920cd2c81b3d8e6 SUNRPC: Wait for the rest of a call header on the rtc work item
+294dfa9b30cc84907cb0460ad9fde71b6e733d89 NFSD_TCP_WRITE_ZEROCOPY: round 129, wait for a partial header: plan
+946e8e362ed370bb028c9e61d127b8a848c6f4c1 NFSD_TCP_WRITE_ZEROCOPY: round 129, waiting for a header: -1.13 us
+e8acee29991e99968b11ae8f3edf3a9404a335a5 NFSD_TCP_WRITE_ZEROCOPY: round 130, profiles of both hosts: plan
+843e7cbb16f6a970e0867fcf3d8c9c104ae20f82 NFSD_TCP_WRITE_ZEROCOPY: round 130, both hosts profiled at 3.06 M
+cab9c8985d492dce695ff31b21b6d34c0b7f9ae9 NFSD_TCP_WRITE_ZEROCOPY: round 130, iodepth 96: plan
+cb9e9f9337d65961d60ad7bd16789eb551750b75 NFSD_TCP_WRITE_ZEROCOPY: round 130, iodepth 96: 3.36 M
+1b9b153124385cd0bebbffde54712bb5f24092f5 NFSD_TCP_WRITE_ZEROCOPY: round 131, the client's call counts: plan
+3b421f992c0ce8ae490299a8bc8e61e6e61760db NFSD_TCP_WRITE_ZEROCOPY: round 131, the client on the tree's stack
+3b958d0d41558fecfb8f3db6aa2f9ff2597057f8 NFSD_TCP_WRITE_ZEROCOPY: round 131, the client's call counts: 0.33 us
+01fda4fbd47f10ea4fc700b9b3fe754c41a6acf7 SUNRPC: Count client calls per CPU, as plain increments lose counts
+c94cd4952da4e257882fd896a3741946cccc0b03 NFS: Count the client's calls per CPU
+5a680ab707e5399206eec4c7df3bbe59d8bc72be NFSD_TCP_WRITE_ZEROCOPY: round 132, the client's counts per CPU: plan
+1c1d1e5790c512ea31998ae715fdc8ec8de70593 NFSD_TCP_WRITE_ZEROCOPY: round 132, four runs and rpcauthrefresh
+acd20ca60881429d0ec1623594f379b39b7b8d9e NFSD_TCP_WRITE_ZEROCOPY: round 132, per-CPU counts: 3.50 M at iodepth 96
+194a938d0350ba7ba98231e1db5ba7caf249a8f9 NFSD_TCP_WRITE_ZEROCOPY: round 133, the server at iodepth 96: plan
+fdbe05a73a344132f8151ca5634b8093f902c4ca NFSD_TCP_WRITE_ZEROCOPY: round 133, the server at iodepth 96: profile
+7d925dee55543fae2fc59acee9a53819168a5d8a NFSD_TCP_WRITE_ZEROCOPY: round 134, iostats on the data drives: plan
+c74eaa54327559c2131996cf5d95ae77624dc855 NFSD_TCP_WRITE_ZEROCOPY: round 134, the READ and WRITE passes: plan
+cbc4e58086e1567536077127744f770413ce8af9 NFSD_TCP_WRITE_ZEROCOPY: round 135, the server's qdisc for READs: plan
+16cb40d2a1f888ea6e9002deddcd0bbe7b289ae1 NFSD_TCP_WRITE_ZEROCOPY: round 135, the tip's svc stack after: plan
+b4206559c7c337ee84c7069b9078837282c1e868 NFSD_TCP_WRITE_ZEROCOPY: round 134, iostats: nothing; passes 75.21 and 78.93
+6a870efecdd8dc88f0f7f27481eaac885308c646 NFSD_TCP_WRITE_ZEROCOPY: round 135, pfifo_fast saves nothing
+b26476cd57ec57f04b74798ebdde133521b39048 NFSD_TCP_WRITE_ZEROCOPY: round 136, the WRITE regression: plan
+1c5da15d5bc8a822de08b9f7a4b3896fbeff5280 NFSD_TCP_WRITE_ZEROCOPY: round 136, before the reboot: 74.60 GB/s
+b88d7362a6db45d0be4857f8efd4b255b04494ae NFSD_TCP_WRITE_ZEROCOPY: round 136, the profiled WRITE pass
+cd5ce518c9c25dd8dbeed44e8deed7a3ef6fb354 NFSD_TCP_WRITE_ZEROCOPY: round 136, the before profile on build 541
+2c30ebc477e1cef18cc46901d9563a80a410e348 NFSD_TCP_WRITE_ZEROCOPY: round 136, build 469's client, EXP_CLI_WQ
+708bcb850d0f0c4f2ae7839f8573c3f02d4923d9 configs: enable the export and AUTH_SYS borrow KUnit tests
+c3cca0d0585283812d1228b4254ce18f4a53b835 NFSD_TCP_WRITE_ZEROCOPY: round 136, 469 writes 77.7: the per-CPU map
+8a05aa8564e8aa9de5744d29acc91c5bf0882c86 NFSD_TCP_WRITE_ZEROCOPY: round 136, the per-CPU choice A/B: plan
+f94341c6f1afd0bf9cda796e4d9f6f45c24531fe NFSD_TCP_WRITE_ZEROCOPY: round 136, ab-choice.sh reads the p99 field
+78001078358604a0507174b4cca04ee521fba804 NFSD_TCP_WRITE_ZEROCOPY: round 136, the per-CPU choice is the tail
+07a7c52aba53914f38d388b3e7c5e69e78773422 SUNRPC: Let rpciod run unbound again with rpciod_per_cpu=N
+2eda270cb6b55cfd364af992c349d08ff7c6bfe4 NFSD_TCP_WRITE_ZEROCOPY: round 136, rpciod per-CPU or unbound: plan
+5449aa39da1d8d54310f5a8c66bca761967d7904 NFSD_TCP_WRITE_ZEROCOPY: round 136, build 469's NFS stack on 541: plan
+b2cb7a1582843fc8188438356d55353134ce608d NFSD_TCP_WRITE_ZEROCOPY: round 136, 469's fs/nfs: const mnt_idmap
+430051d76228044897c8b91ae8368fb6defc7f08 NFSD_TCP_WRITE_ZEROCOPY: round 136, 541 with 469's NFS modules: 77.8
+89efc7debb837bb07374a94314b7466ec6dde444 NFSD_TCP_WRITE_ZEROCOPY: round 136, bisect step 1: plan
+52b30afcdcba595a523c11402ed4ceb586b7cf14 NFSD_TCP_WRITE_ZEROCOPY: round 136, bstep.sh: one bisect step
+04a8007ef2d42246844850710f39aced2ec7bf01 NFSD_TCP_WRITE_ZEROCOPY: round 136, cbuild136.sh: the const mnt_idmap
+9e53806abc07b7da0cf5480caa4865ff3ac727b3 NFSD_TCP_WRITE_ZEROCOPY: round 136, bstep.sh sends cbuild136.sh each step
+3b508afd7e710e6bc7c0d5728cca970d81677251 NFSD_TCP_WRITE_ZEROCOPY: round 136, cbuild136.sh: the SSC registration
+d9fa1e3f14081325b26692bbcfa6f1fc4e3e866c NFSD_TCP_WRITE_ZEROCOPY: round 136, the bisect: plan
+320799b66642f51fd713d13c50e1796c344fa1e7 NFSD_TCP_WRITE_ZEROCOPY: round 136, the window: reversals on 541
+8f12985e6c979901eff84cc0b9d5016d316e3e2a NFSD_TCP_WRITE_ZEROCOPY: round 136, every per-CPU placement off: plan
+fd9749cdaf0952b9dc471b504ebe83302ee03abb NFSD_TCP_WRITE_ZEROCOPY: round 136, forward stages from e8f1a72: plan
+ed157b0db1cde450108b305c1491718e1a76036a NFSD_TCP_WRITE_ZEROCOPY: round 136, forward stages without aa4297a
+0b4b0a08d5e874073216b669c90805ccfd408462 NFSD_TCP_WRITE_ZEROCOPY: round 136, forward stages without KUnit
+72a079b2d4dbaf9d9891393f6cbc862f9fa873bf NFSD_TCP_WRITE_ZEROCOPY: round 136, forward stages: the four per-CPU
+01094f2e9deea941f0c556bd1472597e3794aefd NFSD_TCP_WRITE_ZEROCOPY: round 136, the per-CPU choice is the regression
+a9592dfb0e39a3d5a03b89fd512e2794ab18227b NFSD_TCP_WRITE_ZEROCOPY: round 136, a balanced per-CPU choice: dropped
+692a935d8948a8d55f754ace1dd6999d944f3f8a NFSD_TCP_WRITE_ZEROCOPY: round 136, the policy parameter: plan
+963335ffa5c89ca1953cd0a051f8858796272e97 NFSD_TCP_WRITE_ZEROCOPY: round 136, the policy A/B: N wins
+f75ddf2eec0369c92d0feb2eefa0667eacff1493 NFSD_TCP_WRITE_ZEROCOPY: round 136, the per-CPU choice reverted: plan
+8abdc032e0cb4f7fe32e6555f1daf9da4b4d6dca NFSD_TCP_WRITE_ZEROCOPY: round 136, a second READ pass on the revert
+b1d2ca24f92a104fa7387a415d09852395c9443a NFSD_TCP_WRITE_ZEROCOPY: round 136, the per-CPU choice reverted: passes
+040ce3468f4aac169cdf8243602eda30714e5511 NFSD_TCP_WRITE_ZEROCOPY: the WRITE and READ marks at 77.6
+3d3971a0e15ff0c11758680c0f74d82b96fc76ba NFSD_TCP_WRITE_ZEROCOPY: the client's updates/ holds the reverted stack
 
---===============2384469237390157541==--
+--===============7032191045342321660==--
