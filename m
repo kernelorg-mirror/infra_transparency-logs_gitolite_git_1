@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5320944093814919695=="
+Content-Type: multipart/mixed; boundary="===============4400016615608502726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 18 Nov 2026 09:38:19 -0000
-Message-Id: <179499469932.2527671.6895689527133644708@gitolite.kernel.org>
+Date: Wed, 18 Nov 2026 09:38:55 -0000
+Message-Id: <179499473513.2528024.15856606772051382833@gitolite.kernel.org>
 
---===============5320944093814919695==
+--===============4400016615608502726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,42 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 61a300bd34430b7ce1834615cc63b4bbeb5922cd
-    new: fd3b67e87bb876c8a902db32076bf3d4a3faf6c1
-    log: revlist-61a300bd3443-fd3b67e87bb8.txt
+    old: fd3b67e87bb876c8a902db32076bf3d4a3faf6c1
+    new: 0b4e511a58c2cdebf74c9ac38a65e9281f0dc763
+    log: revlist-fd3b67e87bb8-0b4e511a58c2.txt
+  - ref: refs/heads/tip/urgent
+    old: bfa5f628de8141b140b786126630d192a213b5b7
+    new: 0e11b390ef663ac19b470035a07990d75dd5d6fe
+    log: revlist-bfa5f628de81-0e11b390ef66.txt
 
---===============5320944093814919695==
+--===============4400016615608502726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-61a300bd3443-fd3b67e87bb8.txt
+Content-Disposition: attachment; filename=revlist-fd3b67e87bb8-0b4e511a58c2.txt
+
+3eaa60e7ed3b1802fc712321a15defd6df35f73f Merge branch into tip/master: 'x86/urgent'
+0e11b390ef663ac19b470035a07990d75dd5d6fe Merge branch into tip/master: 'x86/mm'
+8de752e7181d628946957274fc7acdd84f15e79b Merge branch into tip/master: 'core/rseq'
+aea70889f42ee7ef170cf2910a49602bffce9321 Merge branch into tip/master: 'irq/core'
+ec2e33bfee0de6b6e1c963ead037a3b0b65897ab Merge branch into tip/master: 'irq/drivers'
+56d06766be6d5bc79743950470ca7a3498a49d81 Merge branch into tip/master: 'irq/msi'
+912a0f28cd9f335a6ac175e2e6d39c86ff53ecac Merge branch into tip/master: 'locking/core'
+0846e6ca400cd4f60cf95fc78806eda3d37b84e9 Merge branch into tip/master: 'sched/core'
+41c7c0acaa77cce45d8dcbeae254e9ea417bf31f Merge branch into tip/master: 'timers/core'
+17a5d1a5300b14c7d3afb281d3372cc4e5446e37 Merge branch into tip/master: 'timers/nohz'
+70c26492d0e3d3259720a305a8a85efc755e1add Merge branch into tip/master: 'timers/vdso'
+0500beae58e33dc4db9f39c796997204ef47a772 Merge branch into tip/master: 'x86/apic'
+b4156d8f4fa3cf0437862eec8e32f38591da01b5 Merge branch into tip/master: 'x86/cache'
+eb5b7a6cf88501465918122d23b40fae16ea332f Merge branch into tip/master: 'x86/cleanups'
+d876a145cf1a1d267131a86bb7ebe5e117b2602d Merge branch into tip/master: 'x86/misc'
+0b4e511a58c2cdebf74c9ac38a65e9281f0dc763 Merge branch into tip/master: 'x86/sev'
+
+--===============4400016615608502726==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-bfa5f628de81-0e11b390ef66.txt
 
 043a2260b96ffc13121a1dd65282e67eb2e1d8a8 mm/khugepaged: don't map folios that are not uptodate in MADV_COLLAPSE
 f294ebd827e7a2b831b1eef4aaf437f07b2c235e powerpc/eeh: NUL-terminate force recovery input
@@ -55,6 +82,7 @@ b8ba6cc9943222676d46ac77d3d3de2685a55bf8 iommufd: fix cleanup when adding memfd 
 63fdb511c27afcebce797e3db580b3534ddfa639 Merge tag 'mm-core-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mm/core
 7ccb044c27720d48175577080b851f047ddcfd1c Merge tag 'powerpc-7.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 20eef29b7c8465ac98d7dd6d6f2ac07a8d8056ca Merge tag 'arc-fixes-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
-fd3b67e87bb876c8a902db32076bf3d4a3faf6c1 Merge branch 'linus'
+3eaa60e7ed3b1802fc712321a15defd6df35f73f Merge branch into tip/master: 'x86/urgent'
+0e11b390ef663ac19b470035a07990d75dd5d6fe Merge branch into tip/master: 'x86/mm'
 
---===============5320944093814919695==--
+--===============4400016615608502726==--
