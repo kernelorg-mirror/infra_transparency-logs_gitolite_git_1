@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0994436303432298246=="
+Content-Type: multipart/mixed; boundary="===============2588148558180863163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 18 Nov 2026 22:43:46 -0000
-Message-Id: <179504182693.3271150.4910926150841692438@gitolite.kernel.org>
+Date: Wed, 18 Nov 2026 22:43:49 -0000
+Message-Id: <179504182979.3271377.12343430364658396829@gitolite.kernel.org>
 
---===============0994436303432298246==
+--===============2588148558180863163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS
-    old: cfbe4f5449713cc434c2dfac0872c2639287d1fa
-    new: 20adf6a7c0ef3d911d449fb191ad4aed901a36e3
-    log: revlist-cfbe4f544971-20adf6a7c0ef.txt
+  - ref: refs/heads/kernel-7.3/canary
+    old: 9097184d492124afb39fccc8f2eb3c8e6dddea74
+    new: 3b18ea96f00700e39553cab62360fb7f59ced609
+    log: revlist-9097184d4921-3b18ea96f007.txt
 
---===============0994436303432298246==
+--===============2588148558180863163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cfbe4f544971-20adf6a7c0ef.txt
+Content-Disposition: attachment; filename=revlist-9097184d4921-3b18ea96f007.txt
 
 f7e7011692ffcfd36b7b2f06b4c7bad78dac0431 NFSD_TCP_WRITE_ZEROCOPY: round 136, 469 writes 77.7: the per-CPU map
 d3512a78b1ba71b4933fa21d592ac7999d7d2eec DROP: SUNRPC: A/B switch for FLAMEGRAPH round 136
@@ -64,5 +64,14 @@ d0ca08d42fa53aa659c332c7d3600db377b8baea NFSD_TCP_WRITE_ZEROCOPY: round 136, a s
 fcfbc354801d3b391a0041c26ecbad1811609403 NFSD_TCP_WRITE_ZEROCOPY: round 136, the per-CPU choice reverted: passes
 86e682cd2d9002d9ec1d38d7d9d87fb32ba461b6 NFSD_TCP_WRITE_ZEROCOPY: the WRITE and READ marks at 77.6
 20adf6a7c0ef3d911d449fb191ad4aed901a36e3 NFSD_TCP_WRITE_ZEROCOPY: the client's updates/ holds the reverted stack
+348d268cc97847791c1e46973f082a490c69db68 Merge branch 'kernel-7.3/nfsd-testing-canary-nfs_common-XFS-IOLOCK-and-async-DIO-middle' into kernel-7.3/canary
+d0d24a6847eaee35c5b9c71733771a3ce0e92433 Merge branch 'kernel-7.3/nfs-localio-performance-canary' into kernel-7.3/canary
+75942a2ef08cfc6ce51a79a94c093c983eaf1672 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary' into kernel-7.3/canary
+b523cca9982c852bca780dd332a5c762b420fbdc Merge branch 'kernel-7.3/nfs-and-nfsd-performance-canary' into kernel-7.3/canary
+361112afb9afb28e1a1d28accf3d89f1d68d0efe Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part2' into kernel-7.3/canary
+7c20a25508c57427ed7985d795da179f986b2291 Merge branch 'kernel-7.3/jflynn-io500-canary' into kernel-7.3/canary
+f634cf02156068cf9dc3c722cfb4885364080660 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part3' into kernel-7.3/canary
+4364bba5b048d0ce986d70cf38db570fa98e4b15 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS' into kernel-7.3/canary
+3b18ea96f00700e39553cab62360fb7f59ced609 Merge branch 'kernel-7.3/changelog-canary' into kernel-7.3/canary
 
---===============0994436303432298246==--
+--===============2588148558180863163==--
