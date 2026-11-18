@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1259336320959526388=="
+Content-Type: multipart/mixed; boundary="===============3886431962238962832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 18 Nov 2026 00:05:06 -0000
-Message-Id: <179496030648.2100228.697389659615801400@gitolite.kernel.org>
+Date: Wed, 18 Nov 2026 00:06:27 -0000
+Message-Id: <179496038722.2101158.8014967897962213346@gitolite.kernel.org>
 
---===============1259336320959526388==
+--===============3886431962238962832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: d1f4b7c6b997c29de67ad7178ababac2328cb1b4
-    new: a0aa9ceca03f8eceb58174c9c72d480b2422d199
-    log: revlist-d1f4b7c6b997-a0aa9ceca03f.txt
+  - ref: refs/heads/dev-queue
+    old: 4cd5d9c333fb45a4e70ad6a77c44f13bd7312afb
+    new: e997274741feb46446ae45cdc4748504151eb8bd
+    log: revlist-4cd5d9c333fb-e997274741fe.txt
 
---===============1259336320959526388==
+--===============3886431962238962832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1f4b7c6b997-a0aa9ceca03f.txt
+Content-Disposition: attachment; filename=revlist-4cd5d9c333fb-e997274741fe.txt
 
 49a8e00e0db8ed1030188dbaf8a6a387c0c8b427 wifi: mac80211: replace ieee80211_iter_keys_rcu()
 9498e5b7f0774f1f370ced72aef42837c5be5cb6 wifi: cfg80211: support C/B/I/GTK per AP in client modes
@@ -246,5 +246,219 @@ ae590854818f5e7d55857b0c855138a1efa334cc net: sparx5/lan969x: enable the switch 
 871e57bb780f247ccd922cfb73a5f9c1da18ccf0 Merge branch 'net-lan969x-skew-the-core-clock-by-200-ppm'
 6bc9aed3994cb04708fef02dd6d2f1cc5c5e8229 ipv6: always apply all.force_forwarding to every interface
 a0aa9ceca03f8eceb58174c9c72d480b2422d199 Merge tag 'dma_alloc_coherent_node' of git://git.kernel.org/pub/scm/linux/kernel/git/kuba/linux
+a2619c403fd04217f297b1d118580691d8847340 ice: fix removal of PTP timestamp tracker during reset
+d8cd2766ee9e4d8c8665fefd1871a8af64523a51 ice: fix PHY port restart serialization
+852bfe106dadd6a482e5b872a73f1630d3705871 ice: call PTP link change only from link events
+0a33d23a1622564f5a90c069906daebf41b0164a ice: E822: cancel offset verification work during reset preparation
+fa11ad43c3052c48eac6421c6277c4ba389ba866 ice: keep Tx timestamp slots tracked until completion or timeout
+5a55b4c62ff5da96918001287ca2148d92a75b03 ice: skip reading Tx ready bitmap on ports with no timestamps
+d151f86c031c2eb4407386067597871df1a42326 ice: don't clear in_use until HW clears ready bitmap
+0f1e2dacb7b1e76541d830ac9515b326ef2ae57e ixgbe: fix SWFW semaphore timeout for X550 family
+27f803ba1467f536e50b88a032e578f1c6f2fc48 ixgbe: fix cls_u32 nexthdr path returning success when no entry installed
+ccfca20acfb6cd2bfa704773d9af1e98a722578e ixgbe: fix ITR value overflow in adaptive interrupt throttling
+88fe0295234286edebbe525742a77eed4a52a701 ixgbe: fix integer overflow and wrong bit position in ixgbe_validate_rtr()
+ff653515d0aba51e93e08711d6db26c519f4d3fa ixgbe: fix X550 AQ PHY identification returning ixgbe_phy_unknown
+49b46a44dacce6dd3103afdbcd5d6e4195d7503d iavf: cap advertised max_pkt_size at the single-buffer HW limit
+b623d12bd7e54e812e20d868010b5c5e3568f03e ice: use global queue index in TC to-queue offload
+be84f5e78e78c65750cd261e821cb60c49f61807 ice: skip per-VLAN promisc rules when default VSI Rx rule is set
+68711c340b767902bd63f5a714b90f50dcb63a43 ice: preserve uplink DFLT Rx rule on switchdev release
+419e80e20aab72bc0754949d4e24fdf939851780 iavf: fix ASQ command buffer leak on init failure
+e965952c7c4d427adfe535f9f97fac30393bb9d4 iavf: fix QoS capabilities memory leak
+e8dd2431a72a4cb31d7f6594599d362a231474dd igb/igbvf: disable work items before device removal
+c81f29592775842b7d6254930a4e591e7c146c0b i40e: serialize Tx timestamp skb ownership
+314b0783f866632b465421a207db63b17cdada40 i40e: serialize timestamp configuration with PTP teardown
+1fc5021aaff8edc3f7fa14ff5e6e26d36a41029e i40e: synchronize reset recovery with device removal
+dc5e8a36e1f8877799f5041bbefe011cd10fafd4 i40e: replace reset polling with wait-bit synchronization
+286ffc73b7c10b8df182de6cf01faba58cec99c2 i40e: fix races in PTP external timestamp work handling
+4959554acd54a8101e5b6fabe914d5e7070d193b e1000e: fix incorrect modified flag check in e1000_read_nvm_spt()
+8b727b50d193ff219ed31dffbccc7092e4717493 ice: Fix incorrect LLDP filter assumptions
+1ac4bfcc55a5745b813aff0470f3810bb3fc23d7 ice: propagate ETH56G deskew poll failures
+b70a7640f680ee6d3ff55792bc71247e0362cc8b ice: allow reading the last byte of the NVM and Shadow RAM regions
+5c30230db80f29c9d23913b9a234c435cac1cb54 i40e: fix set_ringparam error path freeing live Tx rings
+867289462063ea7bfb253451275808a070ec23cb i40e: avoid resetting BQL state when freeing temporary Tx rings in set_ringparam
+f782a36c418ceec03cf41bc6093d46908ef8beb3 ice: fix bound parser hash offset before reading packet data
+e7a0813582889dbad2e2f15213040ce1e799acc2 ixgbevf: fix link speed reporting for Hyper-V E610 VFs
+46b7fb1bc279163ec2098bf3c62c3edf6ee1e252 iavf: add missing PTP adjustment callbacks
+2b7740b562b8a48555f757778b9a0b1deaac023f idpf: fix NULL pointer dereference and memory leak in interrupt request
+831548aeb4b313177be94e3b80491ab28a0456f3 ixgbe: fix MDIO bus lifetime
+26d3e4058fdb9be6bc709c5e340d0b2ee33f71a9 ice: restore DDP state during PFR recovery
+9948d29c26886efdacd22bfc6350d3c7ced49ba8 ice: clear Flow Director entries before reset cleanup
+0e91105cc3590108141310930b73d398ef2c3ac6 igb: Preserve RXPBS.CFG_TS_EN in igb_setup_tx_mode
+fa1a7f7533ba51ea0526116613b5d7974595b8cf igb: Quiesce the receive path before enabling i210 Rx timestamping
+e6661c47a612252de491369c62bb95004a49e2c5 e1000e: fix Rx skb DMA map error sentinel
+d9bf432907b15fa172cda75dd254135c9406d38d e1000e: fix ps_pages DMA map error sentinel
+7a472f158556204df07bff872cf20a67407716cf i40e: limit the DDP profile count returned by the firmware
+fd75888083b2649924748aac62855e07f349c359 ice: fix pktgen crash in eswitch mode
+fb19c99d2bd29edb3f55f17f9118b29bfee605b5 ice: remove redundant cross-timestamp PTP command
+7c7faefab1d7c27aadd048c16b9a37bcfdc10afa ice: ptp: serialize E825 PHY timer start with PTP lock and incval
+7348194d8d7668da7fb6a7becd5e46a13fa82dbb ice: fix stats array overflow when VF requests more queues
+7d136338447208f38a675585563143d5a3550e5c i40e: fix VF queue mapping collision with PF queue 0
+c1a136cd4d89334dfd47b6664406eb50a3ac1134 i40e: fix NULL pointer dereference in i40e_lan_del_device()
+638d188aad3082db003625707babc107b2b58204 igb: unregister the i2c adapter when register_netdev() fails
+221c30921b73bc8dd2d1dfcfc653b3263cfc60ed igb: fix uninitialized first word in igb_set_eeprom()
+34514122d20701cb99b6aef7f4376fdc6b172568 ice: fix TC flower filters matching more than the ip_proto key
+bbcf1aabba9f2ad58f04139c5c867ae309e039d0 ice: don't offload drop filters that bypass higher priority filters
+c058bca0a8e0805734a265e18a717b2b5c2e7055 ixgbe: do not busy wait in ixgbe_devlink_reload_empr_finish()
+e93076afe59bb4476abc45b4f1115ae63c225cb2 e1000e: fix NETIF_F_RXALL buffer overrun
+3cf6e93e299a01ee5e462f3ce945c07298a4c027 ice: fix VF reference leak in ice_set_vf_trust()
+1cc113d3ddef7d83030030803665e4653e6ceb6f ice: fix DPLL registration on boards without the SMA clock mux
+562854de58fe180c7d886b008bcf290b3eec195c ice: skip the SW pin description on boards with generic DPLL pins
+9286c315cd2f7abfbf950542541f067fda1349bd ice: fix empty PTYPE set for GTP RSS profiles
+4aaf64e4348eb9c7bd8d87209ea42ba7d8912727 ice: restore double VLAN port parameters on devlink reload
+99eccea31c06baeadef95f6a76c32aaba08c8dcd i40e: fix napi_disable hang in i40e_down() during firmware update
+9e89ed915e08ccadc23804da500df56b2c7da829 igb: initialize PTP state before registering PHC
+807b0ec9c0c4e9a3b3e64d9b0f68542d39ba8a70 net: e1000: fix warning in iounmap on probe failure
+3e2536192c6fca6493c8c5532e22982030f8c80a e1000e: restore jumbo config after DMoff exit
+96f7f15f6a81292fb26bfbdce4be62fa9cf897a9 ice: keep the VLAN tag of priority-tagged frames with Rx stripping enabled
+7e658f36c03e046d082ca03861af74640bc56465 ice: replay UDP tunnel ports after a core or global reset
+506c02ee43baa82e88644895ea29a5a9cfc01639 ice: fix IRQ freeing in ice_vsi_req_irq_msix() error path
+164db9bb7083d0972b357c27efd639bd7a73912a ice: stop the LAN Tx queues when ice_vsi_open() fails
+141419dac432f4dbda486aaaf5702dbea949281c ice: restore the default XPS map after a netdev TC change
+91d6082aa326f9acdd8e19baf88f25b186c3249f ice: report VF tx_dropped with tx_errors instead of tx_discards
+eb89e150a33f8d10860b40c2c01a363c3facf3f2 ice: keep adding MAC filters after one that already exists
+f88dacae56b4dcaa633e4ab95df896d3db9c92e8 ice: take the switch rule AQ error from the response descriptor
+ae8618bba86aad00006053192f66e7fe0bf979d2 ice: detect a PF reset that does not complete
+b17a0a4d8b28e837bf85f6082022d84e3e31f9cf ice: program multicast magic wake before tearing down the main VSI
+b26b068da3d5da6c91e83794671b8b6c59f8f5cf ice: fix unsigned stat widths
+65b5305fe2b32e8165cbca3c10f21df0b6a8213b net: fm10k: shut down the service timer during removal
+a6a09cb85d7dbc181491c23ef1bea52af394af2d ixgbe: Refactor device operations to check whether netdev is available
+e33efe68bd0832999805d5b9a86b16cab74cc8ab ixgbe: Defer FCoE queue rebuild while netdev is unavailable
+18cb4d2daa05f00779fe3211a12856e5ecc1aafd ixgbe: Fix FCoE refcount taking for unsupported adapters
+e8fe42e46550ce150774ba75a3899904e530d18b ixgbe: Restore previous XDP program on ixgbe_setup_tc() failure
+6666c0414658a8fbc75698fee0c1fe7a87260bf6 ice: Skip PTP timestamp processing during release
+c4d47ceb850f0c68a559a3a321404b30c437288b ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
+7f90045c5262adb209434eed30e86d1a1b6d40db ice: fix FDB deletion
+163904ab8fb386e6b5d134150a3f1764b5f41ba6 iavf: fix error path in iavf_request_misc_irq
+986f22498630af170eb8639a1b15d04a52185250 iavf: fix TC boundary check in iavf_handle_tclass
+5a63740dc067b5da164fa84c41f3359c78252317 ice: keep the RSS hash function on indirection-only updates
+95f91fb8d194db275e33269d2fc10b138d17958e igc: Fix Tx stop threshold to cover empty frame descriptors
+3740c29df1bda888cd80aedb99fdf0285eed15ce igc: Flush pending Tx descriptors before returning NETDEV_TX_BUSY
+fc9cfab33e00c6ee706501f04621f2ec02476fb3 ixgbe: fix NULL pointer dereference on MDD event without VFs
+aac6ed2d5ca453135c040b829cfa20f22b19e40b ixgbe: do not enable MDD without VFs
+fcb6bfca39f5ca4dfeb33456eb3908fb398c6c95 ice: fix asymmetric pause negotiation reporting in ethtool
+4674c1bb11ee00ea10ddbc076edc673382aa8083 ice: support RDMA on 4+-port E830 devices
+05ffe4e6d4b8d543fd689bb46c3d359eb65f226b ice: attach and detach VF representors outside of vf->cfg_lock
+f7a6e6334f799ba75c4654e122c93ca88ce49fe1 ice: detach the VF representor when ice_start_vfs() fails
+6b2d310f19d980aae9632f54bfdeb006aeceb923 ice: free the VF MSI-X vectors when VF start fails
+96997d60e33628e0a38e72fd5f7b1f942b45a470 idpf: wait for the reset completed state in idpf_check_reset_complete()
+608d9a7045b2bc73527baba1b5c1ddac07f32f51 idpf: ignore Tx timestamp replies once removal has started
+68c904c17061ad997073e25033431ca2a0173352 idpf: ignore link events once removal has started
+9967f79db1379bdc8acbe7730ae8f18ae00c6947 idpf: keep the mailbox up while tearing down vports on shutdown
+7c427d4af78cdda04d718b7f3f62d4631c426eaa idpf: fix use-after-free in the PTP auxiliary worker
+4e1a054ab4b46b6f63382e0561bd8648e36bdbc2 idpf: release PTP before freeing vports on the init task error path
+db787a867ca3b851cfac2eb4f2c4902141761433 ice: Protect the control PF pointer with RCU and a rwsem
+9d7600b7e5cd947da2e6af3a8968565c207ab786 ice: Cache struct ice_hw pointer for split register reads
+7d39185c8dddcdcbed67fd2b53840f77e52f3ab5 ice: Reject PTP access without a control PF
+7702cd14f8977cba4ee4bb1d67229332ee983d50 ice: Clear the control PF pointer when the control PF is removed
+3420858250677caeaca66a3124942cc20f23aed9 ice: Document control PF lock ordering
+1914db83560a892da3e6305f4f3e568d77151c2b ice: Annotate PTP control PF lock handoff
+249bcdf76d2ca2d3108636ef57d128b4322bcaaa ice: Release control PF lock before RCU wait
+74798bad08812ec7ff21477c733162fb8a658a64 ice: retain the adapter throughout hardware initialization and teardown
+3b3ce3ed62123f99a599a928d4f0ec21dcef1d33 ice: scope global configuration lock to the adapter
+fde08ce0388d58dd32b575ec90e02c142e4beea3 ice: clear DVM boost table before scanning package hints
+bc612714ddb2d73b76cc4861b9e2d71c95028a48 ice: quiesce PTP periodic work before system suspend
+2b52d9529595121ab5b46d0a316fc9342abb7647 ice: do not report success for a VF setting that was not applied
+12825355ede724ef4205e363df3f93a5be3765ee e1000e: do not cache the hwtstamp config before it is applied
+4a95ac3016660a939d99f86b42aa8605002619ee e1000e: close and reattach the netdev when e1000e_pm_thaw() fails
+39daf65e29d35bb55add4bc731ce6e9ac5f2cad0 igc: pad preemptible packets before reserving TX timestamps
+b03c003f7f1d0ac64b19735ad0bf9dd47c794a55 igc: prepare TSO and checksum offloads before TX timestamps
+9678c8365d884a398a5e841b6d8ec794055b083a igb: prepare TSO and checksum offloads before TX timestamps
+f1ab1220359192e35771072d67d274c933a08724 igc: only strip RX timestamp header from first buffer
+7ce6e15a700b6cbbc9cd094cc750a37489324c14 igc: fix AF_XDP receive buffer size for 2K UMEM chunks
+e8989f76207213831374b2734985d43530145e43 igc: return XSK frame copies on XDP_TX failure
+05381bd92ec955dbb9b19b8841c85e8a7978cb7e ice: fix NULL dereference after disabling RDMA
+d0be6cb3cc6b36f04c051dbdb68fe95c2c938d4d ixgbe: clear Rx timestamp in packet enable bit on disable
+d28081144b73fac8981f8d8a496ec97dce20437f ixgbe: fix Rx hardware timestamping for VLAN tagged packets
+42368c8bc2ec9cd3155da17a757b9a9c4744362f ice: fix USO for 32-bit systems
+8feb37b17260dcd6d36834529be22e0ed52bdcc4 iavf: fix USO for 32-bit systems
+2a6132684226c8e700d1b9fe4f4007c571e527e9 e1000e: work around TSO erratum that corrupts data and hangs Tx
+e5f8cc320de015490385b007e015e1a729993739 ice: don't wait out a reset in ice_dcbnl_devreset()
+57b155c76bd068d86afb63f6d31e7853199a916d ice: take rtnl before tc_mutex in DCB MIB change and rebuild
+35f2368635232f5ab4e35e87d2144fce10fcbea3 ice: clear stale rate_node pointers in ice_tear_down_devlink_rate_tree()
+85a26df8f357b9b559dcb5d719ed49ff74357ea9 ice: don't block on locks in ice_tear_down_devlink_rate_tree()
+bee7982558cbbdd8fe11ecb1829522f01dbea22e ice: replace tc_mutex with RTNL
+68bcfc0a249ae18ef01ed3d8998496317f1d5673 ice: register LAG event handler last in ice_init_lag()
+5b05520743aaafe385ede22507c9417483aaa271 ixgbe: fix swapped addr and devad in ixgbe_mii_bus_read_c45()
+9982b568a3be7ce93d6afa10e980b149ad12f208 net: ixgbe: drop the SA reference if secpath_set() fails
+2c10d3011ba087479de03da3af2c950bfec02290 net: ixgbevf: drop the SA reference if secpath_set() fails
+6b6d9d766e73ad25ae40974837cc6f1d124ce066 idpf: fix possible race on remove during a reset
+711e5062688e38320ba4bcf9f7838e354bbc8692 idpf: skip empty netdev slots when detaching for a reset
+b867de01a8e18fc5a94c30ebac42385138327232 igb: do not let a VF set other VMOLR bits through its frame size
+d6f12b16a544bcf1d6a313efddd71e1999ffd2e8 ice: do not classify EAPOL MAC address as LLDP
+a55fd6c2f069c86ce57e2b7050b64813f9bfb125 idpf: fix Rx payload buffer leak when header buffer allocation fails
+753b93b69218e61fdef525103f1555224a42cab8 [PATCH iwl-net v2] ice: fix Rx byte accounting for dropped XDP frames
+2b33e321b801f08106773a0f942a2ce7a9e0c2a6 idpf: reset mb_wait_count once the mailbox is up
+f57d252de3f95b189ca432a4a32a270f24a3ca86 ice: remove excessive memory allocation in ice_create_lag_recipe()
+14f876ef1ad396c9a5ceaa8e1fc0ebafb86764b8 ixgbe: use ktime_get_real_ns() in ixgbe_ptp_reset()
+23125542719b19bd678c9370ee656091f9ea2f42 ixgbe: use int instead of u32 for error code variables
+15e78a3cbd237a55959a02fc513f1017ac66bc8b ice: promote Tx FIFO drain timeout message from dev_dbg to dev_warn
+079469b7729a57d131852e6fb57039478539ff37 ice: translate FW to SW for max num TCs encoding
+9ce0f7d4254af65bfec9acd8aaf347a9295de523 i40e: pass the return value of skb_checksum_help()
+bf00dd5ea7d0c84d2f372a58bf37da2b79a02412 iavf: pass the return value of skb_checksum_help()
+41d83a8c055f799b857d76f309697e1f0cfb4883 idpf: pass the return value of skb_checksum_help()
+1840cba693fa42c0e891a29ad523a65e333daf72 iavf: convert crit_section to DECLARE_BITMAP
+53bd724ce0bf40cba3806019e2d269328985300f ixgbe: LinkSec deprecated macros cleanup
+b1fc951994f7c1273bbce476d05bcea7b93f1e71 ixgbe: E610: init Link Status Events mask just once
+66755058f6e4b7ab800afd10af49b87ffa6c0491 ixgbe: E610: prevent from disabling LSE
+fba105bcf19651fb233d45437221fc797d4f2c99 ixgbe: E610: do not disable LSE on driver down/remove
+6810315501362aff81d787208730d272801b92b9 ixgbe: E610: re-enable LSE unconditionally
+3c324e2964426062882b84c89df6e8c725c1615c ixgbe: E610: add MAC address runtime refresh
+e92d8e19a76c9f0cee0e6f8528f1873f14c57ade ixgbe: take rtnl lock before ixgbe_reset() is called
+7e2b0c6f3c2d37d40c52783ea353002b90157445 ixgbe: E610: force phy link to get down when interface is down
+0b1ac883713fc08fcaafc7608ea13d51b377947b igb: detect M88E1112 100BASE-FX SGMII mode
+b75b3510f61edf66e7c11302302a0b34a2646d2e igb: read SFP module EEPROM through igb_read_sfp_data_byte
+12a1247bb95a77e83bc34ab7675916fa7f5f8893 i40e: xsk: use xdp_build_skb_from_zc() for XDP_PASS
+7e1cb08deacf75a9104ea9cba066197695a97e19 ixgbe: implement Total Port Shutdown for E610
+87353271110f9c4c4c4dcd735da54afc853add33 e100: prevent shift-out-of-bounds in EEPROM access
+9e49f8869f2c37c26b34b09dffbb5e4e9e0cf8b3 ice: dpll: Add the MUX tables to the documentation
+560657d2d12c3954a14d096edb1f97056cc44ffc ice: dpll: Rework multiplexed pin notifications
+a8f0377309d694b9507840247a6849ac814bce34 ice: dpll: Use switch statements to handle pin states
+59f9ff27209503dc032f746f642dadca443d5640 ice: dpll: Check for bounds when updating the pin states
+0b4cdc2640e4a4be2f45a7ab1bdfd71f4dcbb1fa ice: dpll: Rework U.FL muxed pin (SMA) control
+1bb42240b728e33e1844c72a5581d5d379450f8e ice: dpll: Rework the SMA control logic to match the requirements
+97ea276e01c25cd459ac5bc477ff19354a3ec118 igc: remove unreachable break after return in XDP path
+968ef25ba280db6fecdfeb64e82dfa1362990e2c idpf: store HW vectors information
+41baaf4d1fb26ea86b0da47a1e2a7144969ffaea idpf: fill q_vector interrupt registers one by one
+3b74ba9410f71e5a8f5f1ed7bf3e46bdb2c91d5e idpf: get rid of msix_entries array
+6d5af3795a4c0809abd5519fbf6c266b4184163d idpf: drop v_idx from q_vector structure
+90ed24dda978a4ae70495da6ab4d0733cc874bf2 libie, idpf: move irq code to libie
+5885f9e42ad6b0c07a1c499d4b573ed4c4496046 libie, idpf: move hardware irq info struct to libie
+2bb08bcf014493502a9e0f85b1c14daf1e70b99a libie, idpf: move parsing alloc vectors command to libie
+b6befffedbc51d1bb9f71fd3839fdd27c91d9eee ice: use libie_irq for interrupts managing
+52301f74568ab116c21bdcd5c7b7e349de191ca8 ixd: support for getting lan memory regions
+ad245bfc6623c324899957159da01b1b21c9bd67 ixd: use interrupt for mailbox communication
+0a72ae67dca19a134d3a7c5673c3208278fa5e6f e1000e: rename init/exit module functions to avoid confusion with e1000
+297f06dbed362f808d71786049bedd35a4af70e6 ixgbe: rename the EMP reset timeout constant
+5cf23cf5a6eb16808bd95e30cc86c5c7c3d4e488 ice: describe generic DPLL pins from firmware pin classification
+17fe42465238032b125af661281641c96309a806 igc: Fix typo in IGC_NO_QUEUE macro definition
+c90101f8ec0cd4a32a6bc07fc0ec0fd2a7727e55 idpf: clear drvdata in idpf_decfg_device()
+6cba2d8d7535d1ff05df1651e4a2b876bca87ebc idpf: add devlink support
+7d963f820bca5852a64e41551b0ecab130cc8e15 selftests: net: hw: add devlink info test
+35898bf4f550c99db505ac67f92d1621f045b1e2 igc: Group frame size macros in igc_tsn.h
+53a665aef47587f8d7cd28126c2bc72d08d8f83c ice: add support for unmanaged DPLL on E830 NIC
+04ccbb4b062180d91b94e89d4e064fcba353554c igb: Fix typo in IGB_NO_QUEUE macro definition
+70611903bae41cd003a3a8f87026e16033f8c7cd ixgbe: Implement PCI reset handler
+b5586c7b467168954f006b14f4eb25ec3ab1a653 ice: extend tc flags field to u64
+b2a967436b37937cfa9aeb587ebaf6a56f7e03c2 ice: allow matching on no_frag ip packets
+eed44351dc6db40bf419d3a148f5d187ce24bcdf ixgbe: lower IXGBE_ITR_ADAPTIVE_MAX_USECS to prevent RX starvation
+6f8980eedb8fb2a88980ab92c7eab9a1923f878c ixgbe: add ixgbe_container_is_rx() helper and refine RX adaptive ITR
+34a24195bdf65dcedeec374863ebd93541d072a8 ixgbe: limit ITR decrease in latency mode to prevent ACK overdrive
+2d1122f6fcad43b5e6f2cf3be42995b13abdcf58 ixgbe: add IXGBE_ITR_ADAPTIVE_MASK_USECS constant
+da0242d6a32aa8e0f3086dd864cd434e90a5f626 ixgbevf: Warn when mailbox API negotiation fails
+0a7feba5cae29f24c3d81f1db2699ea0848f898a i40e: move ATR sample rate from ring to PF level
+29529988823b819260774e8c448d61f376fcfb64 i40e: add devlink parameter for Flow Director ATR sample rate
+e2210f8a77eeefe73221255d3f431b20bd17de01 ice: correct PTP register access debug messages
+14a47e48a703a702d2593c30590165a46cabfc32 igc: Support ACPI-based MAC passthrough
+0102e46d9b87d73c7cdc4a3e63b53762b6ffbbc9 igc: remove redundant igc_hw.h include from igc_main.c
+8e1423ed05eae33c98e07425a21114a57cbdd667 igc: remove redundant headers include from igc_tsn.c
+d295e73686e5f9d1b6cb37a5ac7de03d2a05caae igc: remove unused igc_update_nvm_checksum()
+09727313ae6a42cd81ab4caca0e87f5da40abdaf i40e: list accepted Flow Director flow types
+a56a929c24fbb3d2c35cbeb48fecf0c8597e4ef4 i40e: fix raw ip4/ip6 flow match docs
+e538d32a1ce07843f13b2c9e6eaad79d4ba40197 ice: fix raw ip4/ip6 flow match docs
+4b0316bd6cda8b1f6b6fa3fc03fc6b6486d603e7 ixgbe: document raw ip4 flow match
+5472e903a402f7a4c9ff1bbbdca3b7aa953a4412 libeth: add __libeth_rx_alloc() to specify allocation flags
+e2ba449f6ff9cdd19bcf1814227efb8df2d74658 idpf: use GFP_KERNEL for the initial Rx ring fill
+b6e35164f4b081bcb226d8370d4c5ab87efa501d ice: store cached PHC time in ice_adapter
+e997274741feb46446ae45cdc4748504151eb8bd ice: use struct timecounter for E825 and E830
 
---===============1259336320959526388==--
+--===============3886431962238962832==--
