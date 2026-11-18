@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7990026339210892714=="
+Content-Type: multipart/mixed; boundary="===============0461448092727368881=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 18 Nov 2026 00:04:35 -0000
-Message-Id: <179496027510.2097821.1407521746412741944@gitolite.kernel.org>
+Date: Wed, 18 Nov 2026 00:04:51 -0000
+Message-Id: <179496029114.2098083.11564981616873030702@gitolite.kernel.org>
 
---===============7990026339210892714==
+--===============0461448092727368881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/200GbE
     old: ead6fa9a0ab194f02a2f36d634b193e9c5f9a1c6
     new: a0abc1e4c9d5b8b846abe4293b7bca578736da8a
     log: revlist-ead6fa9a0ab1-a0abc1e4c9d5.txt
 
---===============7990026339210892714==
+--===============0461448092727368881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ ffe14ddfa72dc39bedf08e264e01aac097f1a011 Merge tag 'nf-26-11-16' of git://git.ke
 5e9b2ad9b8384cd3c417cd5e2c3bc7eee4a72791 net/mlx5e: rep, Fix races between devcom PAIR event and uplink close
 a0abc1e4c9d5b8b846abe4293b7bca578736da8a ieee802154: require CAP_NET_ADMIN for SIOCSIFADDR
 
---===============7990026339210892714==--
+--===============0461448092727368881==--
