@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5929278595284467043=="
+Content-Type: multipart/mixed; boundary="===============4906319889979387109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 18 Nov 2026 10:43:19 -0000
-Message-Id: <179499859980.2573689.12170496981851907673@gitolite.kernel.org>
+Date: Wed, 18 Nov 2026 10:43:22 -0000
+Message-Id: <179499860234.2573935.3433885007495393073@gitolite.kernel.org>
 
---===============5929278595284467043==
+--===============4906319889979387109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-fixes
-    old: 25e7ab89f4774b0f842cee0e8a20c11f755924d5
-    new: aebb7274476403040d582c61478df8f4a7bf9cd3
-    log: revlist-25e7ab89f477-aebb72744764.txt
+  - ref: refs/heads/i2c/i2c-next
+    old: 00fb8097ca5a4fcf0e0cc1550075aa7313bbd32a
+    new: 9c19b1c078541841f6b68f815bb4ba5201ab2b65
+    log: revlist-00fb8097ca5a-9c19b1c07854.txt
 
---===============5929278595284467043==
+--===============4906319889979387109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25e7ab89f477-aebb72744764.txt
+Content-Disposition: attachment; filename=revlist-00fb8097ca5a-9c19b1c07854.txt
 
-bba4dc3306483335ddbe065c05b2d8359ec387a4 drm/amd/display: Drop clock requirements on DCN32 when no displays are active
-f2853a06e4b923c77a8cba69d76d2222b198256b drm/amd/display: Keep the nominal vtotal while VRR is inactive
-d13f36e4e055cce03761de590bc8dc6346b1d5c8 drm/amd/display: Don't select zero V_TOTAL_MIN/MAX on seamless boot
-ab18dd3061eb2d92e60c8bbf9a435c25962e449f drm/amd/display: set allow_freesync before validating a new stream
 81f923b065801c7d30042bcda31ccb9449b4f58b drm/amd/display: Signal PQ EOTF in FreeSync infopacket for DP HDR
 079f9103d9cde68fb2ccc414e94520f43ee102de drm/amd/pm: populate unique ID for smu 13.0.7
 ea47f84199241dd083d40a241beea665415d4f6c drm/amdgpu: Fix duplicate dependency fence releases
@@ -1050,5 +1046,9 @@ f70886e5a510cd7fc2c3aef91c46a14f4485fe63 Merge tag 'nfs-for-7.4-2' of git://git.
 4b15991b3be43e9581aca489ec30a351310bb49d Merge tag 'cgroup-for-7.4-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 a9daf327f3ff90625204876981f88cfe2b6f6fff Merge tag 'sched_ext-for-7.4-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 aebb7274476403040d582c61478df8f4a7bf9cd3 Linux 7.4-rc3
+8e92d50ab36a962f7a2d791e8c05dd9b8038546c i2c: omap: fix hw version parsing
+fed695cc18448d90ac8fc7436051949a6548056c i2c: hix5hd2: check clk_prepare_enable in runtime resume
+7089240583649f3c0f699b1f53905615350511b7 i2c: mv64xxx: Check clk_prepare_enable() return value in runtime resume
+9c19b1c078541841f6b68f815bb4ba5201ab2b65 Merge branch 'i2c/i2c' into i2c/i2c-next
 
---===============5929278595284467043==--
+--===============4906319889979387109==--
