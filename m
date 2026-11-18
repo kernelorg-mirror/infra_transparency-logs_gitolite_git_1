@@ -1,46 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6370868523228517094=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 18 Nov 2026 04:29:00 -0000
-Message-Id: <179497614080.2305462.592864780697473032@gitolite.kernel.org>
-
---===============6370868523228517094==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Wed, 18 Nov 2026 04:30:20 -0000
+Message-Id: <179497622032.2308381.5536907946003153851@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: 63fdb511c27afcebce797e3db580b3534ddfa639
-    new: 20eef29b7c8465ac98d7dd6d6f2ac07a8d8056ca
-    log: revlist-63fdb511c27a-20eef29b7c84.txt
-
---===============6370868523228517094==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63fdb511c27a-20eef29b7c84.txt
-
-f294ebd827e7a2b831b1eef4aaf437f07b2c235e powerpc/eeh: NUL-terminate force recovery input
-4e6e66ecf62185828f731914000a6b0baff355db KVM: PPC: Book3S HV: Disable preemption around host-side HPT lock users
-d8c6ab0aeeca7cc2adfcf0ce1f796c6a86314ec0 KVM: PPC: Book3S HV: Ensure that calls to idr_alloc are synchronized
-b9d9a8741752c5b42c65b1c8dffba867889b74e5 KVM: PPC: Book3S HV: XICS: Update irq_type for cleanup to work
-7279692d70f3e399b3dd2d07ffa365e9f533761f KVM: PPC: Book3S HV: XICS: Avoid NULL ptr deref in kvmppc_xive_cleanup_vcpu()
-b04be22bf6ea06b92bff7850328a8057b8d964ae KVM: PPC: Book3S HV: Take SRCU read lock around kvmppc_h_page_init() call
-9751c361cb234f000261879b1b5015bf08f6a428 KVM: PPC: Book3S HV: Avoid spurious interrupts caused by LPCR_MER bit
-0a7ad2e55ff0de8c13dbe25aa87cecb0243b245e powerpc/pasemi: Defer Nemo IRQ initialization
-126b47221b7b98d83c118781ce724c0515d86d9c powerpc/smp: Handle of_property_count_u32_elems() error in parse_thread_groups()
-6648db997a0b8223fefbee3b4d5391c0d90d0422 selftests/powerpc: override EMIT_TESTS instead of the emit_tests rule
-d513ec3c907b067d4a32b14ec6f73c3e041cb136 powerpc/watchdog: disable watchdog when watchdog_thresh=0
-dc6eb6f08be536223e8289c7a8b1f515b1355721 powerpc32/modules: Reserve a PLT entry for ftrace_regs_caller
-9500416c8aa7c271b85be6a0d5856da62b60223a powerpc/perf/vpa-dtl: use GFP_ATOMIC for DTL buffer allocation
-603b4fd69b4e77770761ea03451e2164186f8590 ARC: io: work around GCC PR127718 in __raw_write{w,l}()
-7ccb044c27720d48175577080b851f047ddcfd1c Merge tag 'powerpc-7.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-20eef29b7c8465ac98d7dd6d6f2ac07a8d8056ca Merge tag 'arc-fixes-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
-
---===============6370868523228517094==--
+    old: b9470dfffd41e75a4d076c971abf90eb50b29090
+    new: 7d7712b624c196fc1766838db4f2c35995b86812
+    log: |
+         fe5a5f4f59245c6961fa527d04aaa4dd601a2657 patches/next: add paddr kunit fixup from Aveline
+         87b25913374e54c1b94dab1d417c902f693c587e patches/next: move paddr kunit fixup to the head of the queue
+         35a83d076b1c9c8b184012e7efa34accfcb8bd94 patches/next: add sz_ops_filter_passed_last series from Mattathias
+         73ef192f6bf21efaa8a0586f008acb5f59d412aa patches/next: move sz_ops_filter_passed_last series to the head of the queue
+         a254718f9d90ef66371238f0b3337175723df98f patches/next: user reports: update changelog
+         5f730f17464a38d2e47596e26aa01065e619ba73 todo/change: update
+         7d7712b624c196fc1766838db4f2c35995b86812 patches/next: user reports: add proactive changelog
+         
