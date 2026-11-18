@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0851354259125987412=="
+Content-Type: multipart/mixed; boundary="===============8607330577558890326=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 18 Nov 2026 07:01:15 -0000
-Message-Id: <179498527581.2416253.259602963305939841@gitolite.kernel.org>
+Date: Wed, 18 Nov 2026 07:01:19 -0000
+Message-Id: <179498527983.2416440.6384927651670439041@gitolite.kernel.org>
 
---===============0851354259125987412==
+--===============8607330577558890326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 25fee5b1762b8799dd8b72c2f6d666eb01680cc7
-    new: 290fe085f00519f1ac96ed877dc7487b3842abcb
-    log: revlist-25fee5b1762b-290fe085f005.txt
+  - ref: refs/heads/mm-unstable
+    old: 866f761fd414012d4be77cc82c06667d23a3a7fc
+    new: 1b697248a755254115fde38598193d127c562e7f
+    log: revlist-866f761fd414-1b697248a755.txt
 
---===============0851354259125987412==
+--===============8607330577558890326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25fee5b1762b-290fe085f005.txt
+Content-Disposition: attachment; filename=revlist-866f761fd414-1b697248a755.txt
 
 3821185d98380782d9be790461f100f06b248b42 mm/vmalloc: bail out if in softirq context
 767ef5e2b9d68f5834d2e2fc4a6db22af64de84b mm: memcontrol: don't lose track of exiting OOM victims
@@ -313,35 +313,5 @@ b77124adfd9e2be964cec72b32a44e26d4aba824 mm/damon/paddr: add KUnit tests for add
 a5cfb339b12c842d7f236eeee304965dc39338e1 mm/damon/paddr: avoid truncation warning in high-address KUnit test
 07cb588546fbebf4ae5edb8166e0a30335abeac0 Docs/mm/damon/design: replace "same to" with "same as"
 1b697248a755254115fde38598193d127c562e7f fs/proc/task_mmu: fix lost maps entries above 2^63
-3ccfed5d6b9562799670368b81e7ac3cbd57a3ff hugetlbfs: fix integer overflow in fallocate()
-f82beb328742098fb92f2bb09bdca7458a9dfc91 mm/hugetlb: compare against persistent count when freeing lowmem folios
-b7a8b82d6bed0e2e1ac4cc47fa406d77d793ff22 mm/hugetlb: preserve reservations when shrinking on HIGHMEM
-4e66c5a14f58082e3d6ec84ed30ebc65a2486d29 mm/hugetlb: account temporary folios separately
-f38d9ff0a1f1492c2c9ed8723e064098b6a30c61 mm/hugetlb: keep surplus folios when the pool shrinks
-7deb7152bd2da95d235fc6b87ac208c911409f80 mm/hugetlb: fix mremap() racing with page migration
-f4eae8c574b3e82a3acdf58efb312333831b20bb hugetlbfs: fix unmapping folios from private VMAs
-82165b42faf4a4f66c72dbcb4887a0b9f5caa904 mm/hugetlb: serialize page-cache allocations with truncation
-f9a2c692c28e4442af021bd2be625e4676b0bfb4 mm/memfd: recheck the page cache before allocating a hugetlb folio
-6f2164f95ca23fae6bdf4f48dff93a30270f1c75 mm/hugetlb: count again if the reserve map shrank
-e32ae24583ec1b4933b2af7b02a3970387ab9d1e hugetlbfs: do not grow a sealed file in mmap()
-8f09798b8920f2433352d3a6af9d6137234a91e1 mm/hugetlb: keep surplus folios that are reserved
-b22e35706d84b8e452401e04f86af0727a09a366 mm/hugetlb: fix reservation leak on min_size= mounts
-09c48feb742108b495c3980b15059bdaa859080b mm/hugetlb: account restored reservations before freeing folios
-93487434a683c0385b51501f686a7979d8bcbc2f mm/hugetlb: delay anon folio rmap removal until after the TLB flush
-532a1c505191c229c03cc0acd7128ea4c41fb129 hugetlb: don't restore vmemmap of non-HVOed folios on bulk restore error
-82d8ffeaf15aec01185fa868f666236b4dc9ce92 lib: xarray: free unused spare node in xas_create_range()
-cd6b284e3d159043376a2717b6cc5a0dae94dd89 lib/test_xarray: check unused spare node after range creation
-8c76ba4121d123a91900138b6db6a70da4ce5040 mm/hugetlb_vmemmap: fix HWPoison state races during optimization
-2b1b57e5007a47439bfca4d9b40ca78bc1461ca5 mm/hugetlb_vmemmap: fix PMD split TLB flush race
-532cbf1b09824db22c28cb81dfaaff8daf902011 mm/hugetlb_vmemmap: fix deadlock during PMD split
-4b5046c33e5a51438c387ad5e8a9ef65a76fd0f9 selftests/mm: protection_keys: use _exit() in aarch64 ptrace tracee
-40a41254dc1cf8babbd9178a1c87535695255bf1 mm/mglru: use a smaller batch in fill/drain_evictable()
-c6ed81f2e52352d56fe28e7b3566d508295bbd4d mm/zsmalloc: remove CONFIG_ZSMALLOC_STAT
-d153dfce42a8defe846cdeb662b0dae50159c869 mm/userfaultfd: prevent poison marker loss
-a89e8b90a1aff9d194004977b761201787f7c83d mm/userfaultfd: check exclusivity of the page being moved
-ded56676d69f1c1a7211c170c23b9ab2495616ff x86: hugetlb: disable default CMA reservations on 32-bit kernel
-39e7957560d29e98985ca0721edc5ac5da54be58 mm: gup: allow long-term pins of CMA-allocated HugeTLB folios
-e86e3efcdbcb011a4805ad0b4461860217ad4271 mm: hugetlb: fix GFP mask propagation to CMA
-290fe085f00519f1ac96ed877dc7487b3842abcb selftests/mm: handle implicit read permissions in madv_populate
 
---===============0851354259125987412==--
+--===============8607330577558890326==--
