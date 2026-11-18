@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 18 Nov 2026 01:56:13 -0000
-Message-Id: <179496697393.2195457.5216390970536237204@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 18 Nov 2026 01:58:44 -0000
+Message-Id: <179496712407.2196411.15715765324338670106@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/main
-    old: cf704cc62ffaf9206f1cbc12c2a3baec316b0ac1
-    new: 9c9863f9b9f120b771a908849157791a32eadb02
+  - ref: refs/heads/dev
+    old: bf17fe7ed8437efbd90a22f6681360e59e512834
+    new: 6abc2ffa5763674354f59057a51df3f48950cba3
     log: |
-         9c9863f9b9f120b771a908849157791a32eadb02 net: stmmac: re-enable on-chip parity checkers for XGMAC ASP 0x2
+         6abc2ffa5763674354f59057a51df3f48950cba3 rcu: Don't panic on already-ended expedited RCU CPU stalls
          
