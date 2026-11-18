@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7900823418225531132=="
+Content-Type: multipart/mixed; boundary="===============7269619375568680138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 18 Nov 2026 20:30:31 -0000
-Message-Id: <179503383105.3174381.16077041457162358411@gitolite.kernel.org>
+Date: Wed, 18 Nov 2026 20:30:33 -0000
+Message-Id: <179503383390.3174520.1938327756660447864@gitolite.kernel.org>
 
---===============7900823418225531132==
+--===============7269619375568680138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS
-    old: f95a3c09831b0f78e18ef5bee8a5d0f58ffbefcb
-    new: cfbe4f5449713cc434c2dfac0872c2639287d1fa
-    log: revlist-f95a3c09831b-cfbe4f544971.txt
+  - ref: refs/heads/kernel-7.3/canary
+    old: e915a6734dc85264fdab420ed58650a588bc54ce
+    new: 9097184d492124afb39fccc8f2eb3c8e6dddea74
+    log: revlist-e915a6734dc8-9097184d4921.txt
 
---===============7900823418225531132==
+--===============7269619375568680138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f95a3c09831b-cfbe4f544971.txt
+Content-Disposition: attachment; filename=revlist-e915a6734dc8-9097184d4921.txt
 
 56f320e9ba30285a6cbd84dfb1c04bec5bcac10d net: rx_loan: lift the READ send descriptors from sunrpc
 c6ab4c5f0581b19b611db411f22156c449a2898c nvmet-tcp: send READ data zero copy from the region's READ partition
@@ -338,5 +338,14 @@ b2d2e2deec257846d58f949362ab99913a75201b NFSD_TCP_WRITE_ZEROCOPY: round 136, bef
 3accebb60872cd067dc416a6b6261f2e0d5dfe9f NFSD_TCP_WRITE_ZEROCOPY: round 136, the before profile on build 541
 2a8c7f37033c22d42c8ec35392498e8194ccce48 NFSD_TCP_WRITE_ZEROCOPY: round 136, build 469's client, EXP_CLI_WQ
 cfbe4f5449713cc434c2dfac0872c2639287d1fa configs: enable the export and AUTH_SYS borrow KUnit tests
+0cdb7f0785fac275d92bae2944b443cb3cf422af Merge branch 'kernel-7.3/nfsd-testing-canary-nfs_common-XFS-IOLOCK-and-async-DIO-middle' into kernel-7.3/canary
+f3ce55fe5d2eb703e9eebc7c241a7e6053bc5a90 Merge branch 'kernel-7.3/nfs-localio-performance-canary' into kernel-7.3/canary
+07021231aecfb9325e1d95759dcfa1039b1c8b6e Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary' into kernel-7.3/canary
+1a452c9a1f8975420c6e0cd29b73acc637b0c64c Merge branch 'kernel-7.3/nfs-and-nfsd-performance-canary' into kernel-7.3/canary
+1d16eb13f18a153a6474700ac125b86bb4abeeef Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part2' into kernel-7.3/canary
+0e0bb885a7b3d81d206ef480ef7fcaca06bdbefd Merge branch 'kernel-7.3/jflynn-io500-canary' into kernel-7.3/canary
+59622dc0dca671fa1f75153d7b719e6d4f70ebe5 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part3' into kernel-7.3/canary
+416385a421255688f37a6592cb9df48f2348ab23 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS' into kernel-7.3/canary
+9097184d492124afb39fccc8f2eb3c8e6dddea74 Merge branch 'kernel-7.3/changelog-canary' into kernel-7.3/canary
 
---===============7900823418225531132==--
+--===============7269619375568680138==--
