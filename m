@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Wed, 18 Nov 2026 16:23:36 -0000
-Message-Id: <179501901677.2917681.11469893939872475490@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Wed, 18 Nov 2026 16:29:12 -0000
+Message-Id: <179501935245.2921596.8333225735527926716@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/tags/for_linus
-    old: d30a6b70cbf6b01cfba1d231a076667d53c219d6
-    new: 73ce369fab0b17213dfef8d69079c32ed241f9d7
+  - ref: refs/heads/tmp.next
+    old: 72b61b0ce99995733d36f704acb53a64044ee85e
+    new: b964a4d606f9ae603aa193ab6a5da6196ffbe391
     log: |
-         5570a998b884c988dbe105430d7e2d8e9411e37e vhost: split out-of-order used ring batches at every wrap
+         fb423ed295536fa324ed784e04f856e807ac83cc CI: Make kernel source fetch tolerant of git host failures
+         3eb589e99f85500fd10221bc23863919fa976ccf tests: Match BTF and DWARF functions with set operations in btf_functions.sh
+         5b2c224337cb6079b28f908a773f82cd8da82ad8 CI: Scope workflow concurrency groups to the branch for push runs
+         4ef86f4ebc0e18680d298246a85e725418b9d999 tests: Expect no DWARF loader threads in reproducible_build.sh when CUs are merged
+         1e64dbdeb0a5078864861bdd9b5dff9f0401d5a4 CI: Fix ondemand workflow inputs and LLVM version in function comparison
+         b964a4d606f9ae603aa193ab6a5da6196ffbe391 CI: Add clang ThinLTO kernel build to test matrix
          
