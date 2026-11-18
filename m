@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Wed, 18 Nov 2026 04:22:17 -0000
-Message-Id: <179497573782.2300553.12352594363285563823@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 18 Nov 2026 04:28:00 -0000
+Message-Id: <179497608010.2304443.5659696845111356789@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/hwmon
-    old: 39cd14ca605d1aa55a0ad26767014a88b5c39f20
-    new: 7494b0c50c9fcd9f9f5235777bb506dd45676557
+  - ref: refs/heads/master
+    old: 96fbfea073f41c1d9252bc6e12d93980216c6443
+    new: aa7539f8076bfa2dbc82b9c5add8e0e13a13e52a
     log: |
-         7494b0c50c9fcd9f9f5235777bb506dd45676557 hwmon: (dell-smm) Reject out-of-range pwm values
+         da9be7b1802fde4d969457d6f6275e1520fc6858 foo
+         aa7539f8076bfa2dbc82b9c5add8e0e13a13e52a foo
          
