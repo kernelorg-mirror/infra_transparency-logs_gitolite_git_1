@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 18 Nov 2026 01:51:07 -0000
-Message-Id: <179496666799.2191252.14126148624107747109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 18 Nov 2026 01:51:38 -0000
+Message-Id: <179496669821.2191508.9073515993636878974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 728a2abd15a767f662a44030931ea7b2959b4e88
-    new: cf704cc62ffaf9206f1cbc12c2a3baec316b0ac1
+    old: fbf9026e3503a978916755475c754b53f6764119
+    new: 5efe340e9ab92d9820c95e7af9a2f11e236d26b8
     log: |
-         cf704cc62ffaf9206f1cbc12c2a3baec316b0ac1 net: e1000: fix warning in iounmap on probe failure
+         5efe340e9ab92d9820c95e7af9a2f11e236d26b8 igb/igbvf: disable work items before device removal
          
