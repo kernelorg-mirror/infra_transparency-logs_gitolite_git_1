@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5325251787885436106=="
+Content-Type: multipart/mixed; boundary="===============5955973244262073082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 18 Nov 2026 23:51:56 -0000
-Message-Id: <179504591600.3326922.13198848535362231078@gitolite.kernel.org>
+Date: Wed, 18 Nov 2026 23:51:58 -0000
+Message-Id: <179504591818.3327053.14669652045236068719@gitolite.kernel.org>
 
---===============5325251787885436106==
+--===============5955973244262073082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/canary
+  - ref: refs/tags/v7.3.3-16.canary
     old: bc265d8f7a37f2f8a4b3704c7f142ac657501c35
     new: 08729e06545e034a3eceb4916d0e8004c1f9a160
     log: revlist-bc265d8f7a37-08729e06545e.txt
 
---===============5325251787885436106==
+--===============5955973244262073082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -879,4 +879,4 @@ ac69de42d780a56e6cfea9e1b5fd8c889bdc5d43 Merge branch 'kernel-7.3/NFSD_TCP_WRITE
 b4ba3cb6e93db1fca3376ba83370fd1104303b0e Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS' into kernel-7.3/canary
 08729e06545e034a3eceb4916d0e8004c1f9a160 Merge branch 'kernel-7.3/changelog-canary' into kernel-7.3/canary
 
---===============5325251787885436106==--
+--===============5955973244262073082==--
