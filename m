@@ -1,58 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 18 Nov 2026 14:26:43 -0000
-Message-Id: <179501200338.2817807.2645940379993715306@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8776469088890689609=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 18 Nov 2026 14:30:41 -0000
+Message-Id: <179501224169.2821077.9476077807496612964@gitolite.kernel.org>
+
+--===============8776469088890689609==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 4a4305092d42c56c04667bdf1c369dc2bb0dd508
-    new: b9971d40e1f97b21bdb4d836391816036522b7a8
+  - ref: refs/heads/master
+    old: 06c0301103bcf5a4f1497777804ca98dd36328c3
+    new: 6257f891ff93e71318c0a3fb01aa0eaf637620b7
     log: |
-         da6b55005d29fe8903ddc2254cb0b11aed3807af ACPI: pfr_update: wait for running calls in remove()
-         ad5e6aa641adc031b68a8338d56288d48a8cba98 ACPI: pfr_telemetry: keep the state until the last file is closed
-         450a1556d06d05d294c998e3655c5cc6414c8c8c Merge branches 'acpi-battery', 'acpi-video', 'acpi-ac' and 'acpi-pfrut' into linux-next
-         32efbd544e834e1ceaed1c669cd6d1b1b2d38d6d Merge branches 'acpi-driver' and 'acpi-platform-profile' into linux-next
-         c038e61a0487ff323d191f0786eb55808ec9dffe Merge branches 'acpi-misc' and 'acpi-tools' into linux-next
-         a62d5fe7ce5e73c327b01feb2099d7e9e5ea1d00 Merge branch 'fixes' into linux-next
-         5c12d6a9dd837eebc125c2e2374f114963c76ec9 Merge branch 'acpi-cppc' into linux-next
-         c49e2e5a50a18a9c5887b5ef3b0ae8f26948bd52 Merge branches 'pm-cpuidle' and 'pm-cpufreq-tests' into linux-next
-         c56c2c2e43200f7a2448bcf1192ba391df9aa44e Merge branches 'pm-runtime' and 'pm-powercap' into linux-next
-         b9971d40e1f97b21bdb4d836391816036522b7a8 Merge branch 'thermal-intel' into linux-next
+         6257f891ff93e71318c0a3fb01aa0eaf637620b7 5.10-stable patches
          
-  - ref: refs/heads/linux-next
-    old: 4a4305092d42c56c04667bdf1c369dc2bb0dd508
-    new: b9971d40e1f97b21bdb4d836391816036522b7a8
-    log: |
-         da6b55005d29fe8903ddc2254cb0b11aed3807af ACPI: pfr_update: wait for running calls in remove()
-         ad5e6aa641adc031b68a8338d56288d48a8cba98 ACPI: pfr_telemetry: keep the state until the last file is closed
-         450a1556d06d05d294c998e3655c5cc6414c8c8c Merge branches 'acpi-battery', 'acpi-video', 'acpi-ac' and 'acpi-pfrut' into linux-next
-         32efbd544e834e1ceaed1c669cd6d1b1b2d38d6d Merge branches 'acpi-driver' and 'acpi-platform-profile' into linux-next
-         c038e61a0487ff323d191f0786eb55808ec9dffe Merge branches 'acpi-misc' and 'acpi-tools' into linux-next
-         a62d5fe7ce5e73c327b01feb2099d7e9e5ea1d00 Merge branch 'fixes' into linux-next
-         5c12d6a9dd837eebc125c2e2374f114963c76ec9 Merge branch 'acpi-cppc' into linux-next
-         c49e2e5a50a18a9c5887b5ef3b0ae8f26948bd52 Merge branches 'pm-cpuidle' and 'pm-cpufreq-tests' into linux-next
-         c56c2c2e43200f7a2448bcf1192ba391df9aa44e Merge branches 'pm-runtime' and 'pm-powercap' into linux-next
-         b9971d40e1f97b21bdb4d836391816036522b7a8 Merge branch 'thermal-intel' into linux-next
-         
-  - ref: refs/heads/testing
-    old: 4a4305092d42c56c04667bdf1c369dc2bb0dd508
-    new: b9971d40e1f97b21bdb4d836391816036522b7a8
-    log: |
-         da6b55005d29fe8903ddc2254cb0b11aed3807af ACPI: pfr_update: wait for running calls in remove()
-         ad5e6aa641adc031b68a8338d56288d48a8cba98 ACPI: pfr_telemetry: keep the state until the last file is closed
-         450a1556d06d05d294c998e3655c5cc6414c8c8c Merge branches 'acpi-battery', 'acpi-video', 'acpi-ac' and 'acpi-pfrut' into linux-next
-         32efbd544e834e1ceaed1c669cd6d1b1b2d38d6d Merge branches 'acpi-driver' and 'acpi-platform-profile' into linux-next
-         c038e61a0487ff323d191f0786eb55808ec9dffe Merge branches 'acpi-misc' and 'acpi-tools' into linux-next
-         a62d5fe7ce5e73c327b01feb2099d7e9e5ea1d00 Merge branch 'fixes' into linux-next
-         5c12d6a9dd837eebc125c2e2374f114963c76ec9 Merge branch 'acpi-cppc' into linux-next
-         c49e2e5a50a18a9c5887b5ef3b0ae8f26948bd52 Merge branches 'pm-cpuidle' and 'pm-cpufreq-tests' into linux-next
-         c56c2c2e43200f7a2448bcf1192ba391df9aa44e Merge branches 'pm-runtime' and 'pm-powercap' into linux-next
-         b9971d40e1f97b21bdb4d836391816036522b7a8 Merge branch 'thermal-intel' into linux-next
-         
+
+--===============8776469088890689609==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795012240 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1795012240-ccdccccab5dd0dc4888769481cd2997a43435cc6
+
+06c0301103bcf5a4f1497777804ca98dd36328c3 6257f891ff93e71318c0a3fb01aa0eaf637620b7 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmr9tpAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+db8QAMg4tpZsKBHKbPg8xwrd
+WLUnj3HF6CyeFPEAnNhZVNgSG5hVi/nCl5GRpkr8Pu3sAbJNBHU9/CdC53L6bR/U
+FMGCCisQd4RmYiliscje4rTSNfV7pUkta0M+KbDkvk6KctxvGo8Z71gtbUQXX+T+
++OBGo23j+8SkLHPceXxiVKhr8QT/jLHaypZFEdAhHxhyhiqSTVoCG9cjCwHRu/kH
+80rtZ+PEGRx4jCr9HSy5FCkRXfrv+BjkzdI/c8SW2Ecxp/Rqt7dByWsY9RM7bVTL
+ByCo1r29muYmicpjrLd3I3QXgsVpEC9IsUbLQLey2ewpDG7iYU3W4XIxM7PagKbm
+98ATzw2GOjhbMOpv4ubLtb3By0AVgL4OgfGbcSqV56dvm8OB2tQMbpC0Kxfw7Kar
+m1HpsquD2+V5xEwtlpkkhhiy0k4R1bOT/3ydkOJqMRpu/7RknxPXbDoeQr4Oz4Aj
++I0UZbIvUOf7y6+niqjzhGsW9q3j4idu8Bx2q1GZS9HUrpeDth5oJ06ARsjWseea
+O4RLAtxGl9l96DT8P7OA+Zh5dOvr4JNQvxCCpgVjIyihIlARmrzoqV4dGupYAOH3
+Ro2FtToTPPO3QZTxRa9dBVw5s44aRlCp5urYChmxvjX79r0qadARS1QumSm0xzsa
+Ll+YrbYP8OR9JhJKxJSi9US0
+=FVPe
+-----END PGP SIGNATURE-----
+
+--===============8776469088890689609==--
