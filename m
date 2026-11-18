@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5579287908233393690=="
+Content-Type: multipart/mixed; boundary="===============7721949817022630675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 18 Nov 2026 04:48:35 -0000
-Message-Id: <179497731500.2321091.494127377518725323@gitolite.kernel.org>
+Date: Wed, 18 Nov 2026 04:48:40 -0000
+Message-Id: <179497732074.2321234.11981321838073322700@gitolite.kernel.org>
 
---===============5579287908233393690==
+--===============7721949817022630675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,57 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 76455a2febb0af62978869b10503f8b134186e3c
-    new: 0fc91e802801819a0c51d30b6eecac63ab4f85d2
-    log: revlist-76455a2febb0-0fc91e802801.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 74517c57deaace10f81e72a386d3d0f0c4720158
+    new: bacf41ed868739c02f557166bac16443683ce1f7
+    log: |
+         e043bf8fa65e5de1c62996a5a2fd018721dd7fd1 scsi: ufs: core: Clear saved errors in ufshcd_link_recovery()
+         280c35ec009907b3fc7ce0c9df046025fb4fa585 scsi: ufs: core: Add a helper for the system suspend callbacks
+         7be49f26454e686d0b8cfd277066cefddb8e7464 scsi: ufs: core: Make ufshcd_wl_poweroff() behave like ufshcd_wl_suspend()
+         7693e76c9f8b7e1dc3a6ac544be97ee6b33e3050 scsi: ufs: core: Limit early link recovery in the error handler to runtime PM
+         bd91f6b3b684740174e300fa337713e97792a3f2 scsi: fnic: Fix typo in kmem_cache creation error message
+         08fec21faae44fe002467976befd68e6e62969b5 scsi: ufs: qcom: dt-bindings: Classify sm8150-ufshc as standalone ICE
+         
 
---===============5579287908233393690==
+--===============7721949817022630675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1794977313 -0500
+pusher 75C5DE3D 1794977318 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1794977313-4d939b3d92ca3982ef7c02e23ce96e491d59fb91
+nonce 1794977318-cf2221dfad0decfe032ccd2fc33adb0a94d65302
 
-76455a2febb0af62978869b10503f8b134186e3c 0fc91e802801819a0c51d30b6eecac63ab4f85d2 refs/heads/queue
+74517c57deaace10f81e72a386d3d0f0c4720158 bacf41ed868739c02f557166bac16443683ce1f7 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmr9LiEACgkQ7ulgGnXF
-3j24VA/8D6rQM6gBqqXwm9VLe0/3kwy3nCVwHx5t6Y6KwsTihTgxguYO2i1VuwmY
-SXKmKRZAig1fKMxhkmuCszZXu5akX1hDiyBDu5autDU5XEKBOB99OtgbQvZhO2Vw
-9u+miX6ROF5WORdCDTkD5fGREIMvnh3/O0ELjQW8cZ4arET5XYBSnrk08X6ourIL
-mtYcra/dKE1A5rIqc2P24SoGwZsqG4WbjjfdYEy08zXCgvPXUt0S/XxRcrzYTxAs
-IKQ7zepSwarZFictt3ayTfIR1lm6+jyEp7OlhNHYPLhYwmzLQDh4xYrwJM31yn66
-R7tcvhV6ZjuWDLqbzYGd+Mdu7pZ6NgDfABUGh27r24Vq7bLZ5DAVGJOQKu8eNueQ
-qHB4BUjf4dff1WMjKOBPs2bOH0W190s8oHcPfK5bbtBmOCmZ1bKt3vpcOu4mGgYQ
-Z3btrKT4JR2dZ6iEiEUOC251XSQdXT5sDaFHQAKNq4P8TJECQ1Tu1xclLJLtRHQx
-UbTn+rXDNGKcSu4IM43QsHGT3UdkbJ7iIAb+P1I+6ijhhVuoZZJbffMBuvSrxBHM
-hnzsPPWmr7TFLcj8fLmbE9IAJewX2j7FGX8ZDKHNA62ilSaro3qE435utXeilrNg
-fw4zbxnL1vAg07DsF2QU2R7tYQSOJmNQ1Sj8/gtc9GY/6cTH3i4=
-=Y66E
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmr9LicACgkQ7ulgGnXF
+3j0AQg//XwHvBi97zYnYxc5aNRapvFgN7OWgW/iYJhATb9hyehgzr+5GCZnZrtdr
+wWNJjr8bG8RpDRhei1aUquBsBCen6rDwoQmcXiKn5GgAKWdd0NEscsntaUAkGgXt
+fgh8KlLFX0Ekb0S/gN/7i/tAlJjTPExGEJ3SerLkVZeTz8wqKdxI6r2FSyDzm5QC
+WFzNsIqrRPnwshEN1Q6Fw9YktTey6eiOh2Rrq5JNJ+M3qeGxLRzM2B/VtfgbEkMl
+mK+FqZqaY1tjWPpkzyaLWy8jSEmIcwkXjcmbzjDqLQ9ooG13U08VVy4kzVXpwiyq
+Lq+F3KP7XES/Ga3C71gAfQ21vOc5rZ4ALS4WBMEv8aOqVdNQQaTlEUnePexExWEZ
+3QsG9pXlwvhZ8upAL9AMITLPMekAo3wCKQ/qCzyV+nkvltlSf2Oq1ZOQLmF8w+Ab
+sKaDRwkN5SjNCg9LD6c7yEsd0VthwW4wcDR7WT8f0E3wvYZU3ca/ZLHRczD3PWMC
+OFhA0mNlgzk3SiVQp/sEKg6PZwrFI3uyZOJpLZYBWSoB9bVBgLpo4fq/K6D2nYgc
+tGXPDDagAXDcd1HGQJ5phtOh3OofBBfTOrqWVHKiEfTR0NP+x3Z83SVI59QHcqOv
+35sUXSAhfibwsSY7UIEEfEpxbILqfI8XdUwXKyv4NSv4uPyTpNY=
+=bgeJ
 -----END PGP SIGNATURE-----
 
---===============5579287908233393690==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76455a2febb0-0fc91e802801.txt
-
-ae8ecbc1e28633bdb23cfb61d8048c4e8f52052d scsi: sd: Remove unused zone append tracepoints
-e1a17bf98f513a77e5e6903315c49f56ee009886 scsi: mvme16x: Enable 53c710 burst-8 hardware transfer mode
-746aa1d936b17679361e8d787c6480ccb7c21240 scsi: core: Move REPORT TARGET PORT GROUPS into the SCSI core
-e085b1d6b6aabd6a7dcd9f02135f9376ff39e95a scsi: core: Read the ALUA access state when a device is scanned
-6054ce4233dbc692f50da5517ad459fae1b14ac6 scsi: core: Match ULDs to logical units in the ALUA unavailable state
-0ba0ffc7748d83c6f8792fea31b569042a12f1b2 Merge patch series "scsi: Bind sd to LUs in the ALUA unavailable state"
-dc7ba60d45b105b91d4e2e9567b355fb4a043def scsi: core: Restart the queue when unblocking a device set running
-dd86dc1d86c892c75592d45e000499dfb20d2c62 scsi: qedf: Remove unesseary function call
-787fd1429b3603fdc69ebba864165478c4e73544 scsi: scsi_devinfo: Return an error when the proc write fails
-db1fe578b7eabc7f218b84fc18a626d07f377a69 scsi: scsi_transport_fc: Reject truncated FPIN payloads
-63d67440dc9f103aad38b14f409d6d6e54396746 scsi: target: iblock: Drop the dead kmap() NULL check
-0fc91e802801819a0c51d30b6eecac63ab4f85d2 scsi: target: core: Drop the dead kmap_local_page() NULL check
-
---===============5579287908233393690==--
+--===============7721949817022630675==--
