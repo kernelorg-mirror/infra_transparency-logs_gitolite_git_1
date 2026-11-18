@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Wed, 18 Nov 2026 09:56:03 -0000
-Message-Id: <179499576318.2541328.520702184162209647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
+Date: Wed, 18 Nov 2026 10:27:25 -0000
+Message-Id: <179499764596.2562183.6409426802626348319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
+repo: pub/scm/linux/kernel/git/linkinjeon/smb
 user: linkinjeon
 changes:
-  - ref: refs/heads/dev
-    old: cfdee4e5f5764dadadc8ef2f6203d33ba1265f43
-    new: 36edb65f309977762fc001c17dcab748bad4b7c1
+  - ref: refs/heads/ksmbd-for-next
+    old: c1a7830370829f4f47a105478bca66cdb60c27d8
+    new: 267029b35ad1245a36d069cafe93b4ea654e0f81
     log: |
-         36edb65f309977762fc001c17dcab748bad4b7c1 exfat: hold s_lock for cluster-chain updates in __exfat_cont_expand()
+         267029b35ad1245a36d069cafe93b4ea654e0f81 ksmbd: do not log a stale security descriptor as an error
          
