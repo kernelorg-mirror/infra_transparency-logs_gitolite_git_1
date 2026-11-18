@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 18 Nov 2026 07:07:01 -0000
-Message-Id: <179498562103.2421387.13343950824428018461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 18 Nov 2026 07:17:36 -0000
+Message-Id: <179498625685.2428650.12359934938722816385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: 4a68059fbe2159a036461e86c149f800aaca54a8
-    new: 496076fc853b4aea5f965972ed17f0dde79fc033
+  - ref: refs/heads/tmp.perf-tools-next
+    old: b7ff10b9ddec8da75304c40fe4abf1ee4f9f0a43
+    new: 321eae8603c76a6ec4eafda387c7af5766c0e2c9
     log: |
-         611b1126c97776db49c90706d1f1fdaf7c752c8e foo
-         3f3cc021f3431a4f07d122d9852985b011b59ade foo
-         f14084df6752dedeb021a181cadcf25957f61fea foo
-         844abeb679a74bcff641c47f5bd15191d95dc930 foo
-         e71d48e1bbaa1f704e25dfd1c27050040d07d7eb foo
-         496076fc853b4aea5f965972ed17f0dde79fc033 foo
+         5494e10d6bcf20a298e50e641c6830cc4be5befe perf call-path: Use struct dso_symbol to retain symbol DSO lifetimes
+         52e6c6c53b7a9e105b05e072b7d4669cec6f3b55 perf annotate: Move struct annotation to a hashmap and remove symbol_conf.priv_size
+         5a748378e153ae84418a29c772008095363e6c6e perf symbol-elf: Cache ELF program/section headers and defer symbol name lookup
+         321eae8603c76a6ec4eafda387c7af5766c0e2c9 perf jvmti: Link the agent with EXTRA_CFLAGS
          
