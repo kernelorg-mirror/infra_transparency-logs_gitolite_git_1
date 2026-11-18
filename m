@@ -1,90 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============6476021667617880671=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 18 Nov 2026 14:03:07 -0000
-Message-Id: <179501058748.2737356.9560425015101724760@gitolite.kernel.org>
-
---===============6476021667617880671==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 18 Nov 2026 14:03:26 -0000
+Message-Id: <179501060635.2737599.1456437932069973436@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 666539eecdf4db623f5e3c3e55cf9f2dfad24aa4
-    new: 20eef29b7c8465ac98d7dd6d6f2ac07a8d8056ca
-    log: revlist-666539eecdf4-20eef29b7c84.txt
-
---===============6476021667617880671==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795010586 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1795010585-4ae7714e5190bd621290426004f2ec737d7e713f
-
-666539eecdf4db623f5e3c3e55cf9f2dfad24aa4 20eef29b7c8465ac98d7dd6d6f2ac07a8d8056ca refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmr9sBobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l/EQALvv8tmbBXR720cq8ASo
-36Mwxrc85P5Q3dNUb3pDm68iV4i8QcnddA+lqMtWpkD+i92qUNdSRauYdNpMI9gT
-ptdch9sSza38qbEJbp8QCUb1lMTi0p5kfHFE7OaAu5aN+ah3+7OC4PAyfRWMt+aV
-Prws47SI61togb6F97CReC0hT9dL9TyXctkNglnuJ7I51MZ/Aul4TsJvxgrovzqi
-Q/t32Na5OnbBdOfZp0Fsvqg4laNsHnZqKxcCxIsEc7MaVi2hb24eMuMnH5eQUdT6
-FWapuq0qD1gkUquMbCd61UJhXvshu+Z+ykhNN4/TlxYjF8JcpJFcso37ufaE4386
-n+ZKb5rvaU34X1WBsqw5rUU47z4AlsgUQQqbuak51Ye+kJ7wUv/DaA9qmhhJMY2d
-RVZjRNdc78dI9w7J+fhMhwu1/oAcWu6JrdsiS08uQcT1A8ImOZHoHiX2A1qlHhVi
-Q1v3tHaI0RMy3gWYUi07TSCoYC/ZIb+zsf4SLXyx+wi1abcPLQ24NLphqivaM+HC
-7671dn+8bWAZqQkL60fE8skAxFhoW+TId5E3LEqxd3a7ioPdYKakVQ5gN/APxjRy
-YGxdwdOGmn+1OjQUZTaihUJXfbIUiriLzRDnKNoPDXEymcole9//05ocv7eDoFS7
-Hx4q9k97+Nbmou5/Ifndzj5N
-=FlTA
------END PGP SIGNATURE-----
-
---===============6476021667617880671==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-666539eecdf4-20eef29b7c84.txt
-
-043a2260b96ffc13121a1dd65282e67eb2e1d8a8 mm/khugepaged: don't map folios that are not uptodate in MADV_COLLAPSE
-f294ebd827e7a2b831b1eef4aaf437f07b2c235e powerpc/eeh: NUL-terminate force recovery input
-4e6e66ecf62185828f731914000a6b0baff355db KVM: PPC: Book3S HV: Disable preemption around host-side HPT lock users
-d8c6ab0aeeca7cc2adfcf0ce1f796c6a86314ec0 KVM: PPC: Book3S HV: Ensure that calls to idr_alloc are synchronized
-b9d9a8741752c5b42c65b1c8dffba867889b74e5 KVM: PPC: Book3S HV: XICS: Update irq_type for cleanup to work
-7279692d70f3e399b3dd2d07ffa365e9f533761f KVM: PPC: Book3S HV: XICS: Avoid NULL ptr deref in kvmppc_xive_cleanup_vcpu()
-b04be22bf6ea06b92bff7850328a8057b8d964ae KVM: PPC: Book3S HV: Take SRCU read lock around kvmppc_h_page_init() call
-9751c361cb234f000261879b1b5015bf08f6a428 KVM: PPC: Book3S HV: Avoid spurious interrupts caused by LPCR_MER bit
-0a7ad2e55ff0de8c13dbe25aa87cecb0243b245e powerpc/pasemi: Defer Nemo IRQ initialization
-d369ba5a46c65c54b94c94713ca1fb4ad6a87ebf mm/memfd: handle GUP pins more reliably when write-sealing
-126b47221b7b98d83c118781ce724c0515d86d9c powerpc/smp: Handle of_property_count_u32_elems() error in parse_thread_groups()
-6648db997a0b8223fefbee3b4d5391c0d90d0422 selftests/powerpc: override EMIT_TESTS instead of the emit_tests rule
-d513ec3c907b067d4a32b14ec6f73c3e041cb136 powerpc/watchdog: disable watchdog when watchdog_thresh=0
-dc6eb6f08be536223e8289c7a8b1f515b1355721 powerpc32/modules: Reserve a PLT entry for ftrace_regs_caller
-9500416c8aa7c271b85be6a0d5856da62b60223a powerpc/perf/vpa-dtl: use GFP_ATOMIC for DTL buffer allocation
-169169e26ab498e4a3ee07313e986176f4bc52f0 mm/userfaultfd: fix PTE table overruns in UFFDIO_MOVE
-d8bbf585893c7868234b71d7e7f32484ed0d8458 mm/rmap: fix PTE table overruns during batched unmap
-2d9b9352ef885837f246225e9b814a05e9ed2a4a mm/rmap: fix PTE table overruns during batched reference checks
-7183af7f01c839ecef87840a90c0d8c5843f37d7 mm/huge_memory: prevent losing PG_waiters in __split_folio_to_order()
-603b4fd69b4e77770761ea03451e2164186f8590 ARC: io: work around GCC PR127718 in __raw_write{w,l}()
-26b8f029ce5224dd5c5f45a4bc964a209c259914 mm: limit pagecache folio refcount when mapping pages
-c6c9a4c1c9a1669693330205cb9d86fafd3cf235 mm: limit pagecache folio refcount when splicing into pipes
-317bd7d28b248fd4d4e14614d7c30b17a36ef4d7 mm/mmu_gather: flush pending references early before the folio limit
-b8ba6cc9943222676d46ac77d3d3de2685a55bf8 iommufd: fix cleanup when adding memfd folio pins fails
-2d9bcd380585abc436f055fbb618b34f98882004 mm/gup: limit pagecache folio refcount when grabbing references
-25f5c92e1ac06496679ea229e5c825aa88968efd Merge patch series "mm: limit pagecache folio refcount"
-63fdb511c27afcebce797e3db580b3534ddfa639 Merge tag 'mm-core-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mm/core
-7ccb044c27720d48175577080b851f047ddcfd1c Merge tag 'powerpc-7.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
-20eef29b7c8465ac98d7dd6d6f2ac07a8d8056ca Merge tag 'arc-fixes-7.4' of git://git.kernel.org/pub/scm/linux/kernel/git/vgupta/arc
-
---===============6476021667617880671==--
+  - ref: refs/heads/for-7.5
+    old: 0e2ad29bacf396efbf0dad8eeceaf638252d2376
+    new: 1e7c013d46b93166f04a51519b47bdae5de7f8bb
+    log: |
+         1e7c013d46b93166f04a51519b47bdae5de7f8bb ASoC: cs42xx8: Restore cache-only mode on resume failure
+         
