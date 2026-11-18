@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8242340320104929992=="
+Content-Type: multipart/mixed; boundary="===============0342137413065491202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 18 Nov 2026 22:59:29 -0000
-Message-Id: <179504276935.3284337.5914388853464954206@gitolite.kernel.org>
+Date: Wed, 18 Nov 2026 22:59:31 -0000
+Message-Id: <179504277188.3284447.749302469945197678@gitolite.kernel.org>
 
---===============8242340320104929992==
+--===============0342137413065491202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part2
-    old: e1eb70f2d3d4d68b97dcd0ed350b4298b636890b
-    new: 83c99161e75c7f2fa7b4e3a34e94c2861763178f
-    log: revlist-e1eb70f2d3d4-83c99161e75c.txt
+  - ref: refs/heads/kernel-7.3/jflynn-io500-canary
+    old: 500d9ad06091590e31c44a0dcca31b29a922681a
+    new: 748b3a849f0a8bd9e8445a9208a83f93659bb969
+    log: revlist-500d9ad06091-748b3a849f0a.txt
 
---===============8242340320104929992==
+--===============0342137413065491202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e1eb70f2d3d4-83c99161e75c.txt
+Content-Disposition: attachment; filename=revlist-500d9ad06091-748b3a849f0a.txt
 
 a436037f7ee12c69b713edf9fe9c71086470d63c workqueue: hand a retiring unbound nr_active count to its own pwq
 bcd4dfb52bc60f602e3599fe23cf87781b712f95 SUNRPC: hand a sent task from sending to pending without a requeue
@@ -91,5 +91,59 @@ a23b77f285c792a88a20bc8a080ff814fea33448 SUNRPC: expose the run-to-completion ac
 052899dfeac40df84ea0cc5540834cc4a7181c8a NFSD_TCP_WRITE_ZEROCOPY: the rig scripts on David's region sizing and per-CPU pools
 2acf6d16bcb2bd66961c68e0f33fd01537cd04d4 NFSD_TCP_WRITE_ZEROCOPY: build 512's runtime baselines in the tardis2 canary handoff
 83c99161e75c7f2fa7b4e3a34e94c2861763178f NFSD_TCP_WRITE_ZEROCOPY: build 512's per-CPU pools without the hop in the tardis2 canary handoff
+e92cfc57af0779c838aac3bf89e6f325b2147776 fs: avoid spurious dentry ref/unref cycle on open
+cb3bf1cb85f2683965b55886e98646a9f5b134ca VFS: fix various typos in documentation for start_creating start_removing etc
+cae26d6f079ec3a750932b9113c79f0e35fd2e6b VFS: enhance d_splice_alias() to handle hashed dentries
+499fcd60cac624fefd82adbe926392fb317f2df4 VFS: introduce d_alloc_trylock()
+11b8ce0ee3f38952c95c3d81f2253e4e2c2b007e VFS: add d_duplicate()
+fa5b27af7ed055360f988c708f99a630ee788858 VFS: Add LOOKUP_SHARED flag.
+20034f5914f30ba3f69f5d5995510412c375fbea VFS: add lockdep monitoring of DCACHE_PAR_LOOKUP lock.
+9e2c3c5e249462e508b50210153b618e878a3483 VFS: reserve a d_flags bit for fs-specific usage
+cae0391b01afa0be20ea461eb2907a193e5735ca VFS: per-fs-type lockdep key for dentry in-lookup locking
+2bb67fc29034ca1b065af9d40d242aa965ac36af VFS: rename lookup_map to dep_map
+0531e02002cb5e0a912cc661ae1f49a85a2068cc ovl: provide private lockdep class for dentry->dep_map
+8838a976e1b156e65a91e156c5272ddfd5d6ca36 VFS: d_duplicate: repair comments to avoid kernel-doc warnings
+2ca8310430c74dd4bbf2c036651e971b8adcf1bd fs/dcache: annotate the lockless d_unhashed() check in retain_dentry()
+b5c356c21d70669ce2c45b2bdc77dc689f8b67f3 nfs: fix open-blocking with d_fsdata
+5d27047a2a09db5e555729637f2fab89a3f3955c nfs: fix nfs_call_unlink()
+1a1945c5227cccea09658c6cc5ca0ac435b53261 nfs: remove d_drop()/d_alloc_parallel() from nfs_atomic_open()
+4d987a822c80447e748b38d9f32d1fcd66257f2b nfs: temporarily restore nfs_link()'s unbraced S_ISREG arm
+e5a3d8d8af4900f51ab05fb810154f004e42eee9 nfs: use d_splice_alias() in nfs_link()
+01c90addb95dda4714bf50ce4e64a5eea6fbe4ab nfs: reinstate the O_DIRECT drain in nfs_link()
+a068977fdb1eb38a62197639c644fd48300600b2 nfs: don't d_drop() before d_splice_alias()
+13f378c5c6a572a2fbdb2425278de0164383f037 nfs: don't d_drop() before d_splice_alias() in atomic_create.
+15420c045df0659d363da5c62da9e8e83f0d6b1b nfs: Use d_alloc_trylock() in nfs_prime_dcache()
+1cc1bea74a58912e9deedc3658010343dd3d30f7 nfs: use d_alloc_trylock() in silly-rename
+652974367be8aee2824ac09dec6b066381fde970 nfs: use d_duplicate()
+cdf409ff255196f888d0d11bc1363c7d404c8fe5 nfs: do not transfer a sillydelete onto a blocked dentry
+011361b17e6ca89f9d087357d9b43f846050de40 nfs: answer a handed-off silly-delete on a removal target with -EBUSY
+f5ed9f1422ac28ed1f0bcbf2b43631cbee2c6df8 nfs: take rmdir_sem for a silly-delete only when its REMOVE is sent
+92fc8479b0c5c9040abea25e34be34394a3cb71f NFSv4.1: honour nconnect on session-trunked server addresses
+c87c21d43d91b477dd79ef7afc89b2d62639e17b pNFS/flexfiles: make dataserver_nconnect an override, not a cap
+02a44fb04b8478b0e5d91e0fa270ee77f5b6f659 nfs: update a server's capabilities in one step
+eef116f942ee5b4b1b7cf149fa727311aae2290a vfs: allow the parent lock to be shared for O_CREAT
+2b101263f4adb87f9889da12516026fd2afb757a nfs: tell the VFS when two names can be one entry on the server
+555425dac9292fea99aeb149c885e478f460d194 nfs: concurrent O_CREAT in one NFSv4 directory
+d0701fa420825e7ba1535bce760f1f66b9cca9d7 vfs: factor file removal into a helper, no functional change
+d37c036a67776deed5689ee5c3ef2e8a36faccff vfs: let a filesystem remove files with the parent directory locked shared
+769007bc2fb4088dd3de41afeec09e4c9149055a nfs: add a second mark for a removal made with the parent locked shared
+10c7b9131677e67e05e762f33686740e026f51f4 nfs: keep the dentry of a shared-parent removal hashed
+6bbedd8650828e5cfaea8cdd593b7fe57ca65657 nfs: do not cache a name from a listing that a removal overlapped
+aa0deb754635c936d9a35a1c3aedb144f4d41499 nfs: add the removal method for a parent directory locked shared
+e242c8225f6b93e70da1359ff2cb45e8b48698de nfs: look a name up again once its removal has unhashed it
+acd8a10523e8034bd238cd960fdd7308a541ee38 nfs: remove files with the parent directory locked shared on NFSv4
+c26239fd59af72f52871f7eef382c4fa1814b6d5 LAB ONLY: make the O_CREAT shared-lock opt-in settable at run time
+0fa02d5f5130b02dd906c992615d8ae1d05b1cb2 LAB ONLY: nfs: add a runtime knob for shared-parent unlink
+62a5d921c4f05333abbfca8fd8485e2a0b2d45fd SUNRPC: Shard the rpc_clnt task list to remove cl_lock contention
+840257756cdf7642c9731697ea8fde9a66530514 NFS: Do not revert the iov_iter of a queued async O_DIRECT request
+1bf9c9c713502b928969d3dbc73dc6ede7931cc3 NFS: Add trace events for O_DIRECT read completion
+5cc633f35d05f3460406485c90f59b633f543824 svcrdma: spread each device's connections one per core of its NUMA node
+7e7f483c78255cba2188a9052c1ae5aeddb300d7 svcrdma: place each client's connections on distinct cores
+ce0727a8e7b7b95e93ac61971350e49fdd0765dc SUNRPC: LAB ONLY switch to keep a pool's work on its own threads
+e04affa1f6093f909129c18a376a1e6ce1f594a9 SUNRPC: queue a placed transport's work on its home CPU's pool
+11263e9b6e2621fa740a498aed04b4a5aff6f242 SUNRPC: under svc_pool_siblings=N, hand a drained pool's work to its server
+758381a9effe51bd4a306563f8206fc9e283acb1 svcrdma: release a connection's core when its client disconnects
+e5233e5d07115ba0952e3a65d3878998d7db3ed0 NFSv4/pnfs: send the last close's LAYOUTCOMMIT in the CLOSE compound
+748b3a849f0a8bd9e8445a9208a83f93659bb969 LAB ONLY: make the CLOSE-compound LAYOUTCOMMIT settable at run time
 
---===============8242340320104929992==--
+--===============0342137413065491202==--
