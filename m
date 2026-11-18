@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 18 Nov 2026 01:25:12 -0000
-Message-Id: <179496511217.2169509.10082024683682205239@gitolite.kernel.org>
+Date: Wed, 18 Nov 2026 01:27:08 -0000
+Message-Id: <179496522811.2170889.14487272241124109275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: c432f1c3b529be7fdaa5c08feeeb640b6e144745
-    new: 38c6ccbde38ed2578c5c89ad914d793a3ff038d4
+    old: 38c6ccbde38ed2578c5c89ad914d793a3ff038d4
+    new: 155ee713927831f0edc3e188587e9d3abb0e45a3
     log: |
-         38c6ccbde38ed2578c5c89ad914d793a3ff038d4 net/sched: act_api: fold tcf_idr_create_from_flags() into tcf_idr_create()
+         155ee713927831f0edc3e188587e9d3abb0e45a3 bnx2x: Fix potential IRO array leak on removal
          
