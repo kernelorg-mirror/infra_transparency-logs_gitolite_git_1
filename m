@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============1746244181825503072=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 18 Nov 2026 14:34:31 -0000
-Message-Id: <179501247169.2822573.17261141002754381928@gitolite.kernel.org>
-
---===============1746244181825503072==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 18 Nov 2026 14:36:47 -0000
+Message-Id: <179501260787.2825736.8454698542139683131@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 6257f891ff93e71318c0a3fb01aa0eaf637620b7
-    new: e8e0878e0c1c2f8f1f92d4337ba4b440036c9974
+  - ref: refs/heads/asoc-7.5
+    old: d81aa3db0a430cb5e6b2be2bf67ff6f31dec54c9
+    new: 6ed7a44ccfc190bdc968973e993b09463e852893
     log: |
-         e8e0878e0c1c2f8f1f92d4337ba4b440036c9974 5.10-stable patches
+         f8b9931f96c04bafd450c24cb8bddcc2e6358a2c ASoC: fsl: lpc3xxx-i2s: Simplify error handling
+         239eb443bf6cf7eeada1e099ba943a419f35aa91 ASoC: fsl: lpc3xxx-i2s: Fix DMA depth configuration
+         f3fe6dcd0fea7f1134bf898fcccb5d97cb2f8c5b ASoC: fsl: lpc3xxx-i2s: Fix error handling and DMA configuration
+         77cd549627221532fc411c696e032910036cc5e3 ASoC: cs35l56: Add KUnit test that widget init doesn't write ASP registers
+         c89575d4d5f34a8160fc628eb04f8179f893382f ASoC: cs35l56-shared: Add KUnit test cases for ASP config register writes
+         c8a180249bbb17967a1101a9214e974919b50850 ASoC: cs35l56: KUnit tests for ASP register write blocking
+         72940974fee8c5e38f4b016c681716388c16b55b ASoC: max9860: Register the supply notifier after initializing regmap
+         a2e1918d53b19226f9b4d89cd50b3cbce6209301 ASoC: ak4375: Power off the codec on probe failure
+         6ed7a44ccfc190bdc968973e993b09463e852893 ASoC: tegra: Fix potential NULL dereference on AHUB removal
          
-
---===============1746244181825503072==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795012470 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1795012470-d8b0ea5cc670a97b96a62702971e645fbb5527b3
-
-6257f891ff93e71318c0a3fb01aa0eaf637620b7 e8e0878e0c1c2f8f1f92d4337ba4b440036c9974 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmr9t3YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+m2QQANItTu2a5kU0xe1Sn3S3
-4dRwQey8cuddHqSSrsqBInKIi8C1Jjd8MWxKz9L/etEaHskNCeHtApswqa0xgclG
-fFxD9+ZfymQYMgWs85pBW0jw63p+o6HvEs9x5pVmkp8E6Z0cPN0q3oTTgJeQMqY8
-M9JpLEdUMaQ8lxGKm5kGoEAD3rKnEpLsx6Rx1dgh4nkyY1LEBATs/G+sKza/jz3z
-32/ds/fseGd5Kc68aRhdFASjHYsNf2X7UtVMKOGkTCYeyJqRPc45MaoRrQd8BMMp
-BXhqcwsVeniVntgYRQ4qj+cqnYTJhCb+YHlMHclqISuQCgxjtvdKKwgb2vjVHKAI
-rAzAo95s3BI8U9xNVi5rqSLKbRifikVA6I8+jHIdWNBqqmReAssDdAF2TYZOwCby
-14vwbASQ+o1Si23WUtgPJknsBa1MxRqq+xt9tuswL5xWRUldXjR3fb/HQUsYqOm7
-DLrF40WKLEW5qRVlFfn6rgRAHV7iA6ofy8ZpTk7ToDRnyWI0OCHXQizqECmkPLBS
-f5y/8aZ/dWtWAvVZhOoGiC84VPVgpiOjVIZtqlamxYBDPYopLjhIvyDnr3lkhdYX
-Z5g1hKA8sTLxMh9isVmPEd/UigquWlDOhkPERus/+9QapqeSrVxTSdmKALT9Lbxr
-DhnRmbMC23+FWoVq8Rrm5CeQ
-=zo8+
------END PGP SIGNATURE-----
-
---===============1746244181825503072==--
