@@ -1,20 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 18 Nov 2026 18:24:17 -0000
-Message-Id: <179502625743.3011266.12452989394617041118@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Wed, 18 Nov 2026 18:26:28 -0000
+Message-Id: <179502638830.3014228.11211624133610540918@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: c07bf60ce5878dc3602d5271785589a7e5e1d1fa
-    new: 27b63a33d6d582da0e8e3ae88f3cfaa9103d68c5
+  - ref: refs/heads/for-kernelci
+    old: ad3fc05c7e65009355effeea06aa629a687acef2
+    new: b059e957d07b3cab92eef4656988244043f5769a
     log: |
-         6a4f9e7cf13ecbcc45ece48c7a0ce164feb120eb ASoC: rockchip: i2s-tdm: Don't reset a pending clear in consumer mode
-         27b63a33d6d582da0e8e3ae88f3cfaa9103d68c5 ASoC: es9039q2m: Enable the DAC clock at component probe
+         4f9280c8db69bc807c6c6c616f1b9853ca9144c7 arm64: cpufeature: Remove Neoverse-V3/AE from the BBML3 allow list
+         c6ba16d8157b05e0a05b773422f5d3c5941e22de arm64: cpufeature: Remove Cortex-X4 from the BBML3 allow list
+         b059e957d07b3cab92eef4656988244043f5769a arm64: kexec: use a typed entry to fix kCFI oops
+         
+  - ref: refs/heads/for-next/fixes
+    old: ad3fc05c7e65009355effeea06aa629a687acef2
+    new: b059e957d07b3cab92eef4656988244043f5769a
+    log: |
+         4f9280c8db69bc807c6c6c616f1b9853ca9144c7 arm64: cpufeature: Remove Neoverse-V3/AE from the BBML3 allow list
+         c6ba16d8157b05e0a05b773422f5d3c5941e22de arm64: cpufeature: Remove Cortex-X4 from the BBML3 allow list
+         b059e957d07b3cab92eef4656988244043f5769a arm64: kexec: use a typed entry to fix kCFI oops
          
