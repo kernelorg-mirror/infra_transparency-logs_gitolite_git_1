@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7032191045342321660=="
+Content-Type: multipart/mixed; boundary="===============8297748467946989581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 18 Nov 2026 22:59:37 -0000
-Message-Id: <179504277742.3284769.3220947287841911946@gitolite.kernel.org>
+Date: Wed, 18 Nov 2026 22:59:40 -0000
+Message-Id: <179504278030.3284933.10456516956907305074@gitolite.kernel.org>
 
---===============7032191045342321660==
+--===============8297748467946989581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS
-    old: 20adf6a7c0ef3d911d449fb191ad4aed901a36e3
-    new: 3d3971a0e15ff0c11758680c0f74d82b96fc76ba
-    log: revlist-20adf6a7c0ef-3d3971a0e15f.txt
+  - ref: refs/heads/kernel-7.3/canary
+    old: 3b18ea96f00700e39553cab62360fb7f59ced609
+    new: bc265d8f7a37f2f8a4b3704c7f142ac657501c35
+    log: revlist-3b18ea96f007-bc265d8f7a37.txt
 
---===============7032191045342321660==
+--===============8297748467946989581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-20adf6a7c0ef-3d3971a0e15f.txt
+Content-Disposition: attachment; filename=revlist-3b18ea96f007-bc265d8f7a37.txt
 
 a436037f7ee12c69b713edf9fe9c71086470d63c workqueue: hand a retiring unbound nr_active count to its own pwq
 bcd4dfb52bc60f602e3599fe23cf87781b712f95 SUNRPC: hand a sent task from sending to pending without a requeue
@@ -89,10 +89,10 @@ a23b77f285c792a88a20bc8a080ff814fea33448 SUNRPC: expose the run-to-completion ac
 4554ff4b90fb5a6ae58e278f5f4bd50aada4cd30 SUNRPC: read the per-CPU active count in the svc_rtc KUnit suite
 18e0657d04ccb7c2fbdb6bbb0d14655d5720558c NFSD_TCP_WRITE_ZEROCOPY: KUnit on build 512 in the tardis2 canary handoff
 052899dfeac40df84ea0cc5540834cc4a7181c8a NFSD_TCP_WRITE_ZEROCOPY: the rig scripts on David's region sizing and per-CPU pools
-2acf6d16bcb2bd66961c68e0f33fd01537cd04d4 NFSD_TCP_WRITE_ZEROCOPY: build 512's runtime baselines in the tardis2 canary handoff
-83c99161e75c7f2fa7b4e3a34e94c2861763178f NFSD_TCP_WRITE_ZEROCOPY: build 512's per-CPU pools without the hop in the tardis2 canary handoff
 e92cfc57af0779c838aac3bf89e6f325b2147776 fs: avoid spurious dentry ref/unref cycle on open
+2acf6d16bcb2bd66961c68e0f33fd01537cd04d4 NFSD_TCP_WRITE_ZEROCOPY: build 512's runtime baselines in the tardis2 canary handoff
 cb3bf1cb85f2683965b55886e98646a9f5b134ca VFS: fix various typos in documentation for start_creating start_removing etc
+83c99161e75c7f2fa7b4e3a34e94c2861763178f NFSD_TCP_WRITE_ZEROCOPY: build 512's per-CPU pools without the hop in the tardis2 canary handoff
 cae26d6f079ec3a750932b9113c79f0e35fd2e6b VFS: enhance d_splice_alias() to handle hashed dentries
 499fcd60cac624fefd82adbe926392fb317f2df4 VFS: introduce d_alloc_trylock()
 11b8ce0ee3f38952c95c3d81f2253e4e2c2b007e VFS: add d_duplicate()
@@ -607,14 +607,14 @@ afbd224ae1509e5276ad912382cb638352ea180e NFSD_TCP_WRITE_ZEROCOPY: do not count t
 76cfe4b15df03179be49095147b98f8e7ea5dd74 NFSD_TCP_WRITE_ZEROCOPY: round 107, io_uring with fixed buffers again
 639b37083ec062e6987a5ded42c917792ad7a38c NFSD_TCP_WRITE_ZEROCOPY: round 107, io_uring with fixed buffers repeats
 877a82f7fabdfadc84807601e4636e112becb3e7 NFSD_TCP_WRITE_ZEROCOPY: round 107, the READ pass on io_uring to run
-9488eb58468cccf5b1edafd5457381927110663b NFSD_TCP_WRITE_ZEROCOPY: round 107, the READ pass on io_uring: 80.39
-ba6ee1f3bb1fcf54e37190c453de17297464812b NFSD_TCP_WRITE_ZEROCOPY: the READ pass reads on io_uring, fixed buffers
-382a04458aa5f9575858bf57b8a14e7a1bce5d3b NFSD_TCP_WRITE_ZEROCOPY: round 107, the WRITE engine A/B to run
-5a4e58c2a75f83a839cf0525134c9dee951af372 NFSD_TCP_WRITE_ZEROCOPY: round 107, the drives hold WRITEs, not the engine
 71e664f7c9982d33cc2c309ab4cca8647ac1b9c1 NFSD_TCP_WRITE_ZEROCOPY: round 108, 4 KiB random READs on the drives
+9488eb58468cccf5b1edafd5457381927110663b NFSD_TCP_WRITE_ZEROCOPY: round 107, the READ pass on io_uring: 80.39
 c4f7da326f6588a956e13e28e12effe9c9b85d06 NFSD_TCP_WRITE_ZEROCOPY: round 108, the drives read 16 M IOPS locally
+ba6ee1f3bb1fcf54e37190c453de17297464812b NFSD_TCP_WRITE_ZEROCOPY: the READ pass reads on io_uring, fixed buffers
 b4c2cfa55a31d16e9a5f08bf7d35ab25cc0067ab NFSD_TCP_WRITE_ZEROCOPY: round 108, the 8:64 point and NFS 4K to run
+382a04458aa5f9575858bf57b8a14e7a1bce5d3b NFSD_TCP_WRITE_ZEROCOPY: round 107, the WRITE engine A/B to run
 5a9de64eafc4adbb89982b7a707e34e0f426916b NFSD_TCP_WRITE_ZEROCOPY: round 108, 4 KiB over NFS holds at 1 M IOPS
+5a4e58c2a75f83a839cf0525134c9dee951af372 NFSD_TCP_WRITE_ZEROCOPY: round 107, the drives hold WRITEs, not the engine
 526b71409c21eceabcea464a740b8c54ed4ea4e1 NFSD_TCP_WRITE_ZEROCOPY: settled-iops.sh, David Flynn's IOPS setting
 e9fc3570771e407a3876b914c91aec658323116e NFSD_TCP_WRITE_ZEROCOPY: round 108, NFS 4K with settled-iops.sh
 d69ca579ccf6a2a671fd0ade1a0b6246978d9c56 NFSD_TCP_WRITE_ZEROCOPY: round 108, settled-iops.sh reads 1.05 M IOPS
@@ -817,5 +817,14 @@ f75ddf2eec0369c92d0feb2eefa0667eacff1493 NFSD_TCP_WRITE_ZEROCOPY: round 136, the
 b1d2ca24f92a104fa7387a415d09852395c9443a NFSD_TCP_WRITE_ZEROCOPY: round 136, the per-CPU choice reverted: passes
 040ce3468f4aac169cdf8243602eda30714e5511 NFSD_TCP_WRITE_ZEROCOPY: the WRITE and READ marks at 77.6
 3d3971a0e15ff0c11758680c0f74d82b96fc76ba NFSD_TCP_WRITE_ZEROCOPY: the client's updates/ holds the reverted stack
+73925a6719120fce698e7f9a38812ea6d813854e Merge branch 'kernel-7.3/nfsd-testing-canary-nfs_common-XFS-IOLOCK-and-async-DIO-middle' into kernel-7.3/canary
+abf090d28943d4c0351cb67afa7022c472135a45 Merge branch 'kernel-7.3/nfs-localio-performance-canary' into kernel-7.3/canary
+d4c5a7584cd206c11665baa367d3091dc30f9e8a Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary' into kernel-7.3/canary
+793f4a4b435b998955e31e9309d79c7545e74c6c Merge branch 'kernel-7.3/nfs-and-nfsd-performance-canary' into kernel-7.3/canary
+7267c9dbd7bc62481d4b53cf6879b24ad87abd81 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part2' into kernel-7.3/canary
+7986866cc9035a9d478041917193d6189ea67d47 Merge branch 'kernel-7.3/jflynn-io500-canary' into kernel-7.3/canary
+409ee05e46b14888c09f018bf0dc68707d1365e0 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part3' into kernel-7.3/canary
+af55a8eb3f6dde88f163cb16a84b6320ebbc1182 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS' into kernel-7.3/canary
+bc265d8f7a37f2f8a4b3704c7f142ac657501c35 Merge branch 'kernel-7.3/changelog-canary' into kernel-7.3/canary
 
---===============7032191045342321660==--
+--===============8297748467946989581==--
