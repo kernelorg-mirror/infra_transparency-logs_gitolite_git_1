@@ -1,56 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============9055985858991754331=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 18 Nov 2026 11:14:08 -0000
-Message-Id: <179500044858.2599900.17086217599968448285@gitolite.kernel.org>
-
---===============9055985858991754331==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 18 Nov 2026 11:14:13 -0000
+Message-Id: <179500045383.2600128.9534466539834531561@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 4cd7115ff86b59bf4933a8a37a4728ba0d9edfe8
-    new: 3f23158095828c536daaa32a7da6a1f23537587d
+    old: d6abbbab2cf284597720b8426fdd67c5cef7c9f8
+    new: e99f77cf41a511c01969928136a3cd031cfa0c33
     log: |
-         3f23158095828c536daaa32a7da6a1f23537587d 6.18-stable patches
+         1323a559399bfff6c41249d85980b2cdc30497dd lslocks: look up lock paths without rescanning /proc/PID/fd
+         ff898894fa7076c5ba45861e42ddcefaa3543144 findmnt: build the tree without rescanning the mount table
+         7961ecdcecf61a18ed950498e3ceb68df76a6267 libmount: don't loop forever in mnt_table_get_root_fs()
+         c8948c6090fc2b89134ac283c726aa98562d3ad1 findmnt: don't crash or fail on mount ID cycles
+         e60e749b2603abbf6dd324b14db84d0806451420 Merge branch 'perf/findmnt-tree-children' of https://github.com/Ar-maan05/util-linux
+         f4f8c47a33af590590785299cf7d83187cbccd7c Merge branch 'perf/lslocks-fd-cache' of https://github.com/Ar-maan05/util-linux
+         e99f77cf41a511c01969928136a3cd031cfa0c33 Merge branch 'fix/findmnt-tree-cycle' of https://github.com/Ar-maan05/util-linux
          
-
---===============9055985858991754331==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795000447 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1795000446-76df7d7254c11bca2e36f6afc96579ab2bd3be1d
-
-4cd7115ff86b59bf4933a8a37a4728ba0d9edfe8 3f23158095828c536daaa32a7da6a1f23537587d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmr9iH8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IE8P/3fm24+5DHVVHz3ZYxkW
-5HX8UKcc2QGYkGqSANBh5zWZ+gCmXE97W6kK9/SJQStpapCl2/1yvXIcwC2+7tLF
-vzgiU9AvgWRU6ruMxxEDhTmGv9WkF3Kh/AuX8ZKcOhW0IAqYSwLD120owpOPsjdY
-ku6G2zoyzCr0+eT8ZRWX+e6N4bkU5781vXD07KFWbliDba8G4jOwt6whI+Q7xKdO
-HU48CFAZd1ak1htaQkmn+XutOavtDmosSrtMVqyXVQBJ/KXwAe3R/BCR7cqUFw5N
-ZhKg339zbdWSu9d3NfJp8kwrZg3m9hUYacVH4l5CGvWXknrJGlUXj4gcykK21kLa
-YNx9/C2IDGaLyMIO3iundrA0OT4Ri32jJD2YdMll2ptYvPPDTZuYQYTlzY2awAbM
-m0A12P35ze3w3olSo1W3BnTUOY+U+Hq+eHAXvBTIdhTkSOkTKEaupy/ph8JwMs+m
-ffc06YQElXrsKI0/UxamxWuvfDGscWis8CwnHHcTCurYOIsmDT4C1FagFaztxhwn
-XWG6MfNLx2MCJqVaonup/nsScIEO10DN8eQN5ZN8PA/7ENN74Rs30zHOxTEe2Xat
-qJzDIOb7ul1Ah09GDH0pmioeAF2QzzpxDPbEnUHz7wE7eE69WeaGOrcyKNsWdDFX
-tpp2IDaoVflFpSlsmoo4UhLD
-=cR3d
------END PGP SIGNATURE-----
-
---===============9055985858991754331==--
+  - ref: refs/heads/stable/v2.42
+    old: 6f5133a9711bfb7712ff1a68d8bd2b6d4bc2970c
+    new: 8025f7168dd8a51a99ccd60fd9732a02e2f5797e
+    log: |
+         da8ef8fd7d282057c76637ba84d45855a2a02a83 libmount: don't loop forever in mnt_table_get_root_fs()
+         8025f7168dd8a51a99ccd60fd9732a02e2f5797e findmnt: don't crash or fail on mount ID cycles
+         
