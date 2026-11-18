@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 18 Nov 2026 01:38:31 -0000
-Message-Id: <179496591181.2181134.7828404385979414341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 18 Nov 2026 01:51:07 -0000
+Message-Id: <179496666799.2191252.14126148624107747109@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 155ee713927831f0edc3e188587e9d3abb0e45a3
-    new: fbf9026e3503a978916755475c754b53f6764119
+    old: 728a2abd15a767f662a44030931ea7b2959b4e88
+    new: cf704cc62ffaf9206f1cbc12c2a3baec316b0ac1
     log: |
-         d3826f58a1ed93ad5ec24983501b8b790dac3ec8 selftests: drv-net: psp: skip unsupported versions in netkit data test
-         fbf9026e3503a978916755475c754b53f6764119 vlan: remove MII ioctl forwarding
+         cf704cc62ffaf9206f1cbc12c2a3baec316b0ac1 net: e1000: fix warning in iounmap on probe failure
          
