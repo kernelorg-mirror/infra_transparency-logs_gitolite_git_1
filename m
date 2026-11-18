@@ -1,57 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0835242443485788407=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 18 Nov 2026 14:26:11 -0000
-Message-Id: <179501197159.2817542.11118682184187750535@gitolite.kernel.org>
-
---===============0835242443485788407==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 18 Nov 2026 14:26:43 -0000
+Message-Id: <179501200338.2817807.2645940379993715306@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 33e360101443cf9e8c8e8cf36ca6e1b3c5e6d674
-    new: 06c0301103bcf5a4f1497777804ca98dd36328c3
+  - ref: refs/heads/bleeding-edge
+    old: 4a4305092d42c56c04667bdf1c369dc2bb0dd508
+    new: b9971d40e1f97b21bdb4d836391816036522b7a8
     log: |
-         477920790642eba745cffd7cef5f36e57642f375 drop queue-6.1/wifi-mt76-mt7915-fix-tlv-length-of-mt7915_mcu_get_chan_mib_info.patch
-         06c0301103bcf5a4f1497777804ca98dd36328c3 5.10-stable patches
+         da6b55005d29fe8903ddc2254cb0b11aed3807af ACPI: pfr_update: wait for running calls in remove()
+         ad5e6aa641adc031b68a8338d56288d48a8cba98 ACPI: pfr_telemetry: keep the state until the last file is closed
+         450a1556d06d05d294c998e3655c5cc6414c8c8c Merge branches 'acpi-battery', 'acpi-video', 'acpi-ac' and 'acpi-pfrut' into linux-next
+         32efbd544e834e1ceaed1c669cd6d1b1b2d38d6d Merge branches 'acpi-driver' and 'acpi-platform-profile' into linux-next
+         c038e61a0487ff323d191f0786eb55808ec9dffe Merge branches 'acpi-misc' and 'acpi-tools' into linux-next
+         a62d5fe7ce5e73c327b01feb2099d7e9e5ea1d00 Merge branch 'fixes' into linux-next
+         5c12d6a9dd837eebc125c2e2374f114963c76ec9 Merge branch 'acpi-cppc' into linux-next
+         c49e2e5a50a18a9c5887b5ef3b0ae8f26948bd52 Merge branches 'pm-cpuidle' and 'pm-cpufreq-tests' into linux-next
+         c56c2c2e43200f7a2448bcf1192ba391df9aa44e Merge branches 'pm-runtime' and 'pm-powercap' into linux-next
+         b9971d40e1f97b21bdb4d836391816036522b7a8 Merge branch 'thermal-intel' into linux-next
          
-
---===============0835242443485788407==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795011970 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1795011969-0621903596c1531a94e6d336785881daa82139e5
-
-33e360101443cf9e8c8e8cf36ca6e1b3c5e6d674 06c0301103bcf5a4f1497777804ca98dd36328c3 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmr9tYIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rdAP/0u+BZ8OR93kVY5h3ZdL
-6xat3D55UfMyl529UvfzZXd/W1aFQdVF0Td+BhdaA+HTcYzPCZ3FBouE5HUWMQUJ
-Py5gxp+koQX+SEbbu/XfSZZDRpuh7/JY9Qk1xdexnQOhJvA9/FSHIEuw9cOm3s1M
-Lcy8vXD4LagdRYFQ2yc1O+gclgYfHirXMXxCQOjw4alz1gbLLz/1KY5VbPICF1j4
-guXTq4/fgWgmS8287OTQYRtX4sYD/5JAvYDp8X6TTphTgv+34ZZsaLUyWty9ZIv8
-ZlXs800WVVXW/4ssPfb/+gNgw8aOwnker7bqqhck8Z8TCQY6PIs72mhWDMigQ3dz
-BTExOKfkfvRCYqpSRhwrg8kxtTn9fTd9Vdy94d09VnnI6tBlcp1JcZpB2w0VpQYX
-RfWCn5tjaSoG1a0gziCI9F7TtgEConm83VZS42FXtEqiLLuiHtIepDhVGrr0sA5y
-pLqyeGOPLSSUmF8X3A0z8rMoBaf4McbKMP/fAD3CmtGtTsEMsVrDLoWEFK8hZCEs
-hp2uwj029IRyhKDjHPSqYDu6/wRSiVDR/SaJRCz54j/7GMjQHM/4rJeVVuF5Fv0y
-3IsacF4YLcfq1DPaBvyxRRTsRPah7p0BE2bBeLeLxaKgCxxNsQlICKuAiyrCXzIs
-hN1U/94/7G3HM4wsSsQ4yfYq
-=qsd6
------END PGP SIGNATURE-----
-
---===============0835242443485788407==--
+  - ref: refs/heads/linux-next
+    old: 4a4305092d42c56c04667bdf1c369dc2bb0dd508
+    new: b9971d40e1f97b21bdb4d836391816036522b7a8
+    log: |
+         da6b55005d29fe8903ddc2254cb0b11aed3807af ACPI: pfr_update: wait for running calls in remove()
+         ad5e6aa641adc031b68a8338d56288d48a8cba98 ACPI: pfr_telemetry: keep the state until the last file is closed
+         450a1556d06d05d294c998e3655c5cc6414c8c8c Merge branches 'acpi-battery', 'acpi-video', 'acpi-ac' and 'acpi-pfrut' into linux-next
+         32efbd544e834e1ceaed1c669cd6d1b1b2d38d6d Merge branches 'acpi-driver' and 'acpi-platform-profile' into linux-next
+         c038e61a0487ff323d191f0786eb55808ec9dffe Merge branches 'acpi-misc' and 'acpi-tools' into linux-next
+         a62d5fe7ce5e73c327b01feb2099d7e9e5ea1d00 Merge branch 'fixes' into linux-next
+         5c12d6a9dd837eebc125c2e2374f114963c76ec9 Merge branch 'acpi-cppc' into linux-next
+         c49e2e5a50a18a9c5887b5ef3b0ae8f26948bd52 Merge branches 'pm-cpuidle' and 'pm-cpufreq-tests' into linux-next
+         c56c2c2e43200f7a2448bcf1192ba391df9aa44e Merge branches 'pm-runtime' and 'pm-powercap' into linux-next
+         b9971d40e1f97b21bdb4d836391816036522b7a8 Merge branch 'thermal-intel' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 4a4305092d42c56c04667bdf1c369dc2bb0dd508
+    new: b9971d40e1f97b21bdb4d836391816036522b7a8
+    log: |
+         da6b55005d29fe8903ddc2254cb0b11aed3807af ACPI: pfr_update: wait for running calls in remove()
+         ad5e6aa641adc031b68a8338d56288d48a8cba98 ACPI: pfr_telemetry: keep the state until the last file is closed
+         450a1556d06d05d294c998e3655c5cc6414c8c8c Merge branches 'acpi-battery', 'acpi-video', 'acpi-ac' and 'acpi-pfrut' into linux-next
+         32efbd544e834e1ceaed1c669cd6d1b1b2d38d6d Merge branches 'acpi-driver' and 'acpi-platform-profile' into linux-next
+         c038e61a0487ff323d191f0786eb55808ec9dffe Merge branches 'acpi-misc' and 'acpi-tools' into linux-next
+         a62d5fe7ce5e73c327b01feb2099d7e9e5ea1d00 Merge branch 'fixes' into linux-next
+         5c12d6a9dd837eebc125c2e2374f114963c76ec9 Merge branch 'acpi-cppc' into linux-next
+         c49e2e5a50a18a9c5887b5ef3b0ae8f26948bd52 Merge branches 'pm-cpuidle' and 'pm-cpufreq-tests' into linux-next
+         c56c2c2e43200f7a2448bcf1192ba391df9aa44e Merge branches 'pm-runtime' and 'pm-powercap' into linux-next
+         b9971d40e1f97b21bdb4d836391816036522b7a8 Merge branch 'thermal-intel' into linux-next
+         
