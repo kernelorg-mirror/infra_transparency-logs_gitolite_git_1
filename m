@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5940235502933970169=="
+Content-Type: multipart/mixed; boundary="===============2039401944458218533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 18 Nov 2026 04:48:12 -0000
-Message-Id: <179497729250.2320259.3942995284953698410@gitolite.kernel.org>
+Date: Wed, 18 Nov 2026 04:48:16 -0000
+Message-Id: <179497729677.2320463.13039378629247552592@gitolite.kernel.org>
 
---===============5940235502933970169==
+--===============2039401944458218533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 0fd8bac1eda98d46c1464c0e3db68ea754aa2f5b
-    new: c412a6ce3c71ee704d103fe914fd3ba3a6760593
-    log: revlist-0fd8bac1eda9-c412a6ce3c71.txt
+  - ref: refs/heads/7.4/scsi-fixes
+    old: e550f2b2b4aab4c5f12db89d04d8978ce4ed7b4e
+    new: 9f9e0b1e5399045982788a954d3461de894e40c7
+    log: revlist-e550f2b2b4aa-9f9e0b1e5399.txt
 
---===============5940235502933970169==
+--===============2039401944458218533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1794977290 -0500
+pusher 75C5DE3D 1794977295 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1794977290-e93c78add7d181b2250ffd5f6afe68e45e06077f
+nonce 1794977294-02cdf9542d7536c30f7e6cf4d075930553ba7360
 
-0fd8bac1eda98d46c1464c0e3db68ea754aa2f5b c412a6ce3c71ee704d103fe914fd3ba3a6760593 refs/tags/mkp-scsi-fixes
+e550f2b2b4aab4c5f12db89d04d8978ce4ed7b4e 9f9e0b1e5399045982788a954d3461de894e40c7 refs/heads/7.4/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmr9LgoACgkQ7ulgGnXF
-3j25XRAAg0hB8sAve0hjocgXjxzGI8+QAZ9Xzx0RgpRK/h7dZ7m4v9GjjwgZ6sxB
-C/4Mwn5nkRzOolKlJrkpIOQMUXyE9eF0AHtCxZJId+j2kcGKO/kEDdwLNVTFZBDS
-BK1mKDv6wrxB2CZ4WnvHzrSlXhnUSOShyri8J/7KOBHu9YQG/iAMRiCkD3uLfcLU
-iVJ7b+gJSDQ4+jnlT2IkCte7tmtMhDuIGUWxkBPfKshzwQt0IewwwiUAsm03FPfi
-kaNw1V3P5f0WB/pCxuKq5XXWT5fRuibJlY59qbrX2AsJzs+QoklgUFleG4OdNQgt
-y6spzUXcuZycjZaM9+0A6ffNm7BdsEHoOU8vGL7ap5fZIO1sDrS5nRXqMY7k2zXy
-GGI2hVBcCMInD4C1YfRMGo/GwjWopj7sIUVELuC1HusyT7ZcNORAVF+vZzyW6X4V
-oOHw4LCIg5Mr7CFRVgr6bvaxBFvBvoNaOBF4MTXHqgN7Wrgq7ux9FAjRoZsyO8xu
-RZqkeYtkWuzIJ3urOdzPZT2/ICt5VTKItiHdUZeZJIIfZvt4o86n0f400v/hmnXG
-j7L0ichAIxTJXTN97yWCJ44orujSJ4NPQZnGcSEkCX2VFADiNFdAqDXrBuq3Eyn3
-ZZHf3iBIZWOQUd/nSOvm/hgTDRpuD0q16DB9AMF/vs3hIx0a5js=
-=U7gV
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmr9Lg8ACgkQ7ulgGnXF
+3j1RThAAp3KnYXU8sPkCRnc615z1x5XpcWm7PUioxpdLP1oM4at9zesrmXdck43j
+BlO0DJqnBrcxnPf0wxvETivp2T+qoMRohajh9w3OYh+ARVQ12NdO7MuS2m78JYQV
+MR/ohru/zwnGPgDuoBSaRaeuH1TXvrErn62Y5KEGzw4S4RDBrGU6h3xg7djHIW5U
+A9nbu7OJHNWbNj5AVSEB1wW1X62iheWDMPF8t/JETDa3nF7JMf+9MvFEXVtYZTgW
+lvhklAJHQAJIY7pOeiUtceNJwJIWceUy2s6G5MO3SkCJqPaoSST9OIZQrZxKxiLb
+4M6Ip4TL8OXryHa+HcC0HrmN1hInw0NCQlZHOL29nLON0fu69EQWRsSxgGU9ZJd1
+Ivd6QSfpDvUS+GXHteh2KUn6kpVcy/zZWQ8SIfZ0BkPijfDxEJWFbmH0ZWsCjNuX
+sWC81EkPPnydgIrL5L82x0PXk397poieYgAb9w+/DuBq2ip/bOS7l02JfjcQwWZo
+eh1GTCZfWQ0YjmJStKNIUfHcbLmVoWbiy+obR9Qf6ACuL8DjzScOQZIx7tSrV9Bk
+OC5+pXq+FqWRwHQ6shOth/H9pIeRxdtFVdA7O1yzrnhm5vAODfX/X6xwmT4iXlUF
+Xrm+NvVmRqBF5rpVxmnGiEQcFjT89rIuxyP+0ccxltAxN/vDtHI=
+=8dHQ
 -----END PGP SIGNATURE-----
 
---===============5940235502933970169==
+--===============2039401944458218533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fd8bac1eda9-c412a6ce3c71.txt
+Content-Disposition: attachment; filename=revlist-e550f2b2b4aa-9f9e0b1e5399.txt
 
 e0696bf65006d888c713ff54269c7fd32bbe62a7 scsi: rpmb: core: Guard frame requests and teardown with mutex
 7bc9b854cd68ed2d06949540ca18a44368569c64 scsi: ufs: rpmb: Decouple device lifecycle from devres to avoid UAF
@@ -67,4 +67,4 @@ a410375a249c4f9e1eb3d7f2c864d3f4ef4b8365 scsi: scsi_dh_alua: Set handler_data be
 dd6ff53a2706628cdd08edb202e36153de22fec9 scsi: mpt3sas: Fix off-by-one in NVMe PRP list transfer size limit
 9f9e0b1e5399045982788a954d3461de894e40c7 scsi: ch: Remove the minor from ch_index_idr after device_destroy()
 
---===============5940235502933970169==--
+--===============2039401944458218533==--
