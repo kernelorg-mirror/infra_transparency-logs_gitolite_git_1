@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0875690792299729178=="
+Content-Type: multipart/mixed; boundary="===============3593901338114332348=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 18 Nov 2026 16:58:45 -0000
-Message-Id: <179502112539.2944613.1186232414507397609@gitolite.kernel.org>
+Date: Wed, 18 Nov 2026 16:58:54 -0000
+Message-Id: <179502113407.2944812.5725518052973129569@gitolite.kernel.org>
 
---===============0875690792299729178==
+--===============3593901338114332348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 4016f6c3149e7e3faccc1654db6a3030c069383a
+  - ref: refs/heads/pending
+    old: 4f9fd5031ff548a08e6a437a37cfef77671b6cec
     new: 1983b40acfcb3c3464b291c85977290a785bcfdc
-    log: revlist-4016f6c3149e-1983b40acfcb.txt
+    log: revlist-4f9fd5031ff5-1983b40acfcb.txt
 
---===============0875690792299729178==
+--===============3593901338114332348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4016f6c3149e-1983b40acfcb.txt
+Content-Disposition: attachment; filename=revlist-4f9fd5031ff5-1983b40acfcb.txt
 
 47c09d08ee369d718e8e199e118925bed112b9b2 mailmap: add entry for Jie Zhang
 5da95faa8f8a40dbc6b9a4d3651b567e7ad64139 mailmap: add entry for Kang Yang
@@ -41,4 +41,4 @@ f8e9c050583bee4c7634ae46587aa7be3346caba .mailmap: add entries for Jie Gan
 ac66eb7717e7fbfbcf9f25268c650f2291d83d3d .mailmap: add entries for Yingying Tang
 1983b40acfcb3c3464b291c85977290a785bcfdc .mailmap: Add entry for Vignesh Viswanathan
 
---===============0875690792299729178==--
+--===============3593901338114332348==--
