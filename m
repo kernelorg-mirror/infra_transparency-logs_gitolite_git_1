@@ -1,85 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dlemoal/zonefs
-Date: Wed, 18 Nov 2026 19:24:00 -0000
-Message-Id: <179502984097.3056649.4700609450743837307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Wed, 18 Nov 2026 19:25:52 -0000
+Message-Id: <179502995241.3059550.3329758525590530345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dlemoal/zonefs
-user: dlemoal
+repo: pub/scm/linux/kernel/git/jgg/iommufd
+user: jgg
 changes:
-  - ref: refs/tags/v7.1
-    old: 0000000000000000000000000000000000000000
-    new: b3f94b2b3f3e51ab880a51fc6510e1dafba654ed
-  - ref: refs/tags/v7.1-rc4
-    old: 0000000000000000000000000000000000000000
-    new: aa61612ab641d7d62b0b6889f2c7c9251489f6e3
-  - ref: refs/tags/v7.1-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 9e171fc1d7d7ab847a750c03571c87ac3c17bd84
-  - ref: refs/tags/v7.1-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 3bc831df9ee16fceee851872315161377ca1417d
-  - ref: refs/tags/v7.1-rc7
-    old: 0000000000000000000000000000000000000000
-    new: b7e5ac83cb16f7ffd11dc23736f84276602100ed
-  - ref: refs/tags/v7.2
-    old: 0000000000000000000000000000000000000000
-    new: 237a1c39e8dfd3e1c6f1f023eea37a48ec04cc63
-  - ref: refs/tags/v7.2-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 728e68a889bcf257b1e67298b12c360e5c3a13e0
-  - ref: refs/tags/v7.2-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 4c45e14df2f4e77982ad70d6d8e3fe750edd4c37
-  - ref: refs/tags/v7.2-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 1137d8b5df06137fb49513cc923b3b24d94cb809
-  - ref: refs/tags/v7.2-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 6946cd5d0aa4dd10a414ddcb7a10844fdb0ad345
-  - ref: refs/tags/v7.2-rc5
-    old: 0000000000000000000000000000000000000000
-    new: a8e429896436e8c2d288181f875f92af8204bc58
-  - ref: refs/tags/v7.2-rc6
-    old: 0000000000000000000000000000000000000000
-    new: d7dd96eb916519208210bb4a0408fcf4f7fdce5d
-  - ref: refs/tags/v7.2-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 2ee859ebf156157609f71060ae472711c8cbc326
-  - ref: refs/tags/v7.3
-    old: 0000000000000000000000000000000000000000
-    new: 091b06388b117fefdcb63336ac09956a4914b961
-  - ref: refs/tags/v7.3-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e5e04726cdd043e309677071ab1b65a4b18f422b
-  - ref: refs/tags/v7.3-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 5e036ce12de91c6fd674dad33b169c6150be2a7a
-  - ref: refs/tags/v7.3-rc3
-    old: 0000000000000000000000000000000000000000
-    new: c2cd463d6ee7d55a3ec0719d93c49ff99022d58f
-  - ref: refs/tags/v7.3-rc4
-    old: 0000000000000000000000000000000000000000
-    new: dec005ae90a2946656a090f37bf1cfbd22f08e57
-  - ref: refs/tags/v7.3-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 5a956dde5526a634dca7ccad27c051ebcc306089
-  - ref: refs/tags/v7.3-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 4eeccbed21e50c19f97be9d325511f3de6343f2d
-  - ref: refs/tags/v7.3-rc7
-    old: 0000000000000000000000000000000000000000
-    new: ec8bf8280261294a9b9b4520414b42704c7f9f6b
-  - ref: refs/tags/v7.4-rc1
-    old: 0000000000000000000000000000000000000000
-    new: bc71431221f5ba8bb33918399552636e059c2c45
-  - ref: refs/tags/v7.4-rc2
-    old: 0000000000000000000000000000000000000000
-    new: fd9230005e85472b81c1c7c16afe93dd878996b1
-  - ref: refs/tags/v7.4-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 19d1b4de6d37bccecc3ad9144d279f1baa405eb1
+  - ref: refs/heads/for-next
+    old: 0f2622e66951bf53481fdc52719dceeb9bb69267
+    new: c4a8d7229960cb5007e6495785c0b151566705d2
+    log: |
+         e2fbca3a6d506e1c9eff9a26293f87a085134854 iommu: allocate the fwspec before dev->iommu in iommu_fwspec_init()
+         db7d2cf9e46c9ec334d9629482d9a6a65672fb69 iommufd: copy to and from folios in batch_rw()
+         c4a8d7229960cb5007e6495785c0b151566705d2 iommufd: Unmap the failing batch before releasing its pins
+         
