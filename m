@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 19 Nov 2026 19:55:32 -0000
-Message-Id: <179511813277.157619.16951731448632205470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Thu, 19 Nov 2026 20:14:01 -0000
+Message-Id: <179511924191.169102.3757092599934162299@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: bb5caf7a2e0b2dae8e8905d32fc376703eabcfc4
-    new: 6008a6e34ca0446739abfff189902af2214cfff1
+  - ref: refs/heads/for-7.5
+    old: 94da81cb6fdc5eae1311ee0f13729b9eb321c00d
+    new: 7ba85f2e968103ae0e96cbf502ef8423110ef678
     log: |
-         6008a6e34ca0446739abfff189902af2214cfff1 spi: fsl-lpspi: expand FCR TWATER and RXWATER bit fields to 4 bits
-         
-  - ref: refs/heads/for-next
-    old: 2f6b9fff7a608cabb367ba5bca7657ebc084d2d4
-    new: ce2f5ba777f51e4929499ecd004afd20e22e3742
-    log: |
-         6008a6e34ca0446739abfff189902af2214cfff1 spi: fsl-lpspi: expand FCR TWATER and RXWATER bit fields to 4 bits
-         7b5e3368b3227f3d08b2ea47e45c4cb1d955645e Merge spi-linus into spi-next
-         ce2f5ba777f51e4929499ecd004afd20e22e3742 Merge spi/for-7.5 into spi-next
+         edcc17880bf525e511e38cd6d0048be117b9482d regmap: deduplicate fast_io checks
+         25203a86e6c39e5cca7edf107988e0ffcaadfaad regmap: factor out regmap_set_lock()
+         37ccd50b8376c7a7cee1d882d3fb1b66ca5dbac8 regmap: factor out regmap_init_ranges()
+         7ba85f2e968103ae0e96cbf502ef8423110ef678 regmap: factor out format initialisation into helpers
          
