@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Thu, 19 Nov 2026 07:39:00 -0000
-Message-Id: <179507394047.3689874.2163368960803621863@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Thu, 19 Nov 2026 07:44:48 -0000
+Message-Id: <179507428845.3693724.15628640826030803629@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
-user: johan
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/usb-next
-    old: dfdc30c239942c22949aa2abddba752406c05fd3
-    new: 779fe94b0ffb9dd7681fe065547dbb777baa0246
+  - ref: refs/heads/testing
+    old: f0e68014f4ac1653b2980ab76744f4dfdffdbac5
+    new: f0c21f107b22100840b176b244a54b21bdba8aa9
     log: |
-         779fe94b0ffb9dd7681fe065547dbb777baa0246 USB: serial: sierra: fix runtime pm leak on resume failure
+         fdec80191ba24cfa4f6f374156efa2dab3828bc1 xfrm: check inner family via skb_dst for small_ipv6 DF clearing
+         c5236b0f752149e2a537f4a1ca81e8f2043399f9 xfrm: account XFRMA_MARK in xfrm_sa_len()
+         923cfbb140b613ce102b1a62c63a42403a749c35 xfrm: replay: Fix late packet handling with ESN crypto offload
+         a1fcc50e87dc2d42f8b11059f875ed99d1ee250b xfrm: fix IPv6 first-fragment protocol decode
+         f0c21f107b22100840b176b244a54b21bdba8aa9 xfrm: fix selector matching for IPv6 atomic fragments
          
