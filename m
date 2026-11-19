@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============2322423320930823548=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 19 Nov 2026 13:45:28 -0000
-Message-Id: <179509592841.4038934.7572682007906809010@gitolite.kernel.org>
+Date: Thu, 19 Nov 2026 13:47:19 -0000
+Message-Id: <179509603944.4039632.17152647481255986142@gitolite.kernel.org>
+
+--===============2322423320930823548==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,16 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-7.4
-    old: 2d4814dd0cddefd910e878cb8a3236d4e94c6a10
-    new: 27b63a33d6d582da0e8e3ae88f3cfaa9103d68c5
-    log: |
-         bd6e011c8121c909daf51c78b56bb3bf7f467889 ASoC: qcom: q6dsp-lpass-clocks: Set driver data before registering clocks
-         fd3b0fc97ea72d027359e7603a1224703cec1864 ASoC: wm8962: Fix broken headset button caused by wrong guard constant
-         34430741db6b166f5bce6363c93ca6825758db63 ASoC: codecs: wcd934x: keep MCLK enabled so init writes reach the codec
-         3857bc06e5a40c5ebb62917147375a811f010aa0 ASoC: qcom: q6apm-dai: reject compress rings larger than the DMA buffer
-         4c15e549b7ad03183d10826da91e9ddc207a02cd ASoC: qcom: q6asm-dai: reject compress rings larger than the DMA buffer
-         c07bf60ce5878dc3602d5271785589a7e5e1d1fa ASoC: qcom: qdsp6: bound the compress ring by the DMA buffer
-         6a4f9e7cf13ecbcc45ece48c7a0ce164feb120eb ASoC: rockchip: i2s-tdm: Don't reset a pending clear in consumer mode
-         27b63a33d6d582da0e8e3ae88f3cfaa9103d68c5 ASoC: es9039q2m: Enable the DAC clock at component probe
-         
+  - ref: refs/heads/for-7.5
+    old: 1e7c013d46b93166f04a51519b47bdae5de7f8bb
+    new: 2b6e81a4d50a4cf236c69f4ed56ef6a42ac17d87
+    log: revlist-1e7c013d46b9-2b6e81a4d50a.txt
+
+--===============2322423320930823548==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1e7c013d46b9-2b6e81a4d50a.txt
+
+132ac7e51e2550aa8ed72c920ea06aa3de206e66 ASoC: cs43130: Take the frame layout from set_tdm_slot()
+a19f318322c5a180e6352e2015232d430946deaa ASoC: atmel-i2s: Use devm_clk_get_enabled() for pclk
+f0903e6544fb272e6d9eca116aac95b0855e1624 ASoC: atmel-i2s: Fix I2SC_WS slot width configuration
+19236c74b92d78709483bc4aaa21f09e4d4eee22 ASoC: atmel-i2s: Fix clock and slot width handling
+8a20b9963c66b6c7bfe054949450095ce5e64825 ASoC: rt5663: Stop jack work on probe failure and unbind
+ca12ef85c9685ea0991f448f86a03240d3cb84e6 ASoC: sdw_utils: senary: handle a missing name_prefix
+d81aa3db0a430cb5e6b2be2bf67ff6f31dec54c9 ASoC: tegra: AHUB: Remove unneeded semicolon
+f8b9931f96c04bafd450c24cb8bddcc2e6358a2c ASoC: fsl: lpc3xxx-i2s: Simplify error handling
+239eb443bf6cf7eeada1e099ba943a419f35aa91 ASoC: fsl: lpc3xxx-i2s: Fix DMA depth configuration
+f3fe6dcd0fea7f1134bf898fcccb5d97cb2f8c5b ASoC: fsl: lpc3xxx-i2s: Fix error handling and DMA configuration
+6bceb2fc240272c1af88b47544e250bdfed4faaa ASoC: max9860: Register the supply notifier after initializing regmap
+3775f1e4d7bf2ca8812677e45adab66ca7cb4974 ASoC: ak4375: Power off the codec on probe failure
+2ff99ddbb22a4ee97703a1d774081d6075f1a065 ASoC: tegra: Fix potential NULL dereference on AHUB removal
+232ad4512a83cffe3e93b4fee06ae5951c5a8c45 ASoC: es8316: Allow more time for headset mic bias to settle
+b610f9cd00f4eb4da2fd3f77bf6ec507b49e4765 ASoC: qcom: common: report line-out plugs on the Headphone Jack pin
+2b6e81a4d50a4cf236c69f4ed56ef6a42ac17d87 ASoC: qcom: qdsp6: Fix device node leaks when parsing "iommus" phandle
+
+--===============2322423320930823548==--
