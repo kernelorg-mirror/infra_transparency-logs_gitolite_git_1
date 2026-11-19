@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 19 Nov 2026 17:48:11 -0000
-Message-Id: <179511049160.38532.2830883449555540323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 19 Nov 2026 17:50:10 -0000
+Message-Id: <179511061098.41293.15943101526157424424@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.4
-    old: 91ad9522cca792bce350b6be5800fb0f82432dbf
-    new: 1348fd72bd7c360c39788154aa1952a63a61e7ea
+  - ref: refs/heads/for-7.5
+    old: d48942ba81ca23e2b36d96ed4483c74952e3b701
+    new: 23065995506aa40d24541085b001486f82fcf1a4
     log: |
-         f66297be665c067d2e96da9ce1c5767b587e17b7 ASoC: tas2781: Avoid possible zero-division
-         89eba6af02ac7c7bcd0d66a3e84cb321450d4137 ASoC: codecs: ES8326: Modify Clock Configuration
-         5541b1384d4c3ac781a774a0587d7aa78b4e37a9 ASoC: codecs: ES8326: issue about capture pop
-         9b59871080d8ec012aec38fbb95e04ea97ecc75a ASoC: codecs: ES8326: Modify the Initialization Configuration
-         fd1cdd8a069919eeff44773b8d88c808b170a26c ASoC: codecs: ES8326: Adjust the delay during calibration
-         1348fd72bd7c360c39788154aa1952a63a61e7ea ASoC: codecs: ES8326: issue about pop and Configuration
+         1fc09e0c26c83d5eba0797c5ca7b76f6c64c3b6c ASoC: adau7118: Advertise support for S32_LE format
+         f107e9a0a4239237ee0bae069cc127765fc00413 ASoC: dt-bindings: qcom,sm8250: Add Motorola Signature sound card
+         6d6edbcd6e3e2d9e0feee828587a361c0d6f2905 ASoC: qcom: sc8280xp: Add Motorola Signature sound card
+         23065995506aa40d24541085b001486f82fcf1a4 ASoC: qcom: Add the sound card of the Motorola Signature
          
