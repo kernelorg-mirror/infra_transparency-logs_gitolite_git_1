@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Thu, 19 Nov 2026 11:36:40 -0000
-Message-Id: <179508820004.3939572.286770755036917582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 19 Nov 2026 11:37:09 -0000
+Message-Id: <179508822941.3940006.12625557794785991359@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/smb
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: 0549a030a22a219ce021c194c4791c1b1aa3eec7
-    new: 4616bbc5389a19276cbc81e585d6cb6f755bf7ed
+  - ref: refs/heads/main
+    old: 042ca0604cbb8417bafee5e7f8cdaeaed9175e3b
+    new: 9068e05d35f3b02a802f520e664032f802bcd2e9
     log: |
-         4616bbc5389a19276cbc81e585d6cb6f755bf7ed ksmbd: build an inherited security descriptor with its own offsets
+         9068e05d35f3b02a802f520e664032f802bcd2e9 tun: don't steer a flow to a queue index that no longer exists
          
