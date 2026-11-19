@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 19 Nov 2026 22:26:20 -0000
-Message-Id: <179512718080.273044.345811482628161455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 19 Nov 2026 22:28:03 -0000
+Message-Id: <179512728396.273738.11926480639067460317@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 4b4eb7f44ee05754339d07e9df649809f45d14c5
-    new: 7543d8d314b222452258b30e5c7a40c6f4cbfcda
+  - ref: refs/heads/asoc-7.5
+    old: 1305c408e5d6352eeee66ca4c77c64cf9d237222
+    new: 250e33dab91069d388ec9aa3bbd11b492395d7fc
     log: |
-         7543d8d314b222452258b30e5c7a40c6f4cbfcda selftests/bpf: Fix bpf-gcc CO-RE relocation in verifier_sockmap_mutate
+         250e33dab91069d388ec9aa3bbd11b492395d7fc ASoC: tas2781: add realtime speaker protection data control for TAS2573
          
