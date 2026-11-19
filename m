@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4193542216519177830=="
+Content-Type: multipart/mixed; boundary="===============1151132090322475397=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Thu, 19 Nov 2026 16:15:08 -0000
-Message-Id: <179510490822.4159541.6248953975686661689@gitolite.kernel.org>
+Date: Thu, 19 Nov 2026 16:15:55 -0000
+Message-Id: <179510495501.4160283.14761795207707262150@gitolite.kernel.org>
 
---===============4193542216519177830==
+--===============1151132090322475397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/fixes
-    old: 64ee7f863655e67f26947420516daba4e232675d
-    new: 2c1f57bce05244165f406e45982bbcd036071d3b
-    log: revlist-64ee7f863655-2c1f57bce052.txt
+  - ref: refs/heads/for-next
+    old: e6492c2efd11be000641ea84d7b1fe292350b016
+    new: 8da5963ddb1e9d6ccf91b782ee6ecef0821c3f11
+    log: revlist-e6492c2efd11-8da5963ddb1e.txt
 
---===============4193542216519177830==
+--===============1151132090322475397==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64ee7f863655-2c1f57bce052.txt
+Content-Disposition: attachment; filename=revlist-e6492c2efd11-8da5963ddb1e.txt
 
 008b903f55eb4bdb1af77070bb93e6e1dfa9145d s390/cert_store: Hold keyring->sem while reading the keyring
 1be070c4dc6edbfb015e72156fadb49fbaef47b9 s390/cert_store: Fix return code handling in invalidate_keyring_keys()
@@ -41,5 +41,7 @@ aa7ee9e9cf17fcc7b0af55424aba6f0abd065fa7 s390/cert_store: Fix keyring refcount h
 9d263bd8ddc31c9c3ebe3612df575d70848f5772 s390/cert_store: Fix max_vcxe_length output in pr_dbf_vcssb()
 539cf27f0b090d84438b7da9045a271a947192ed s390/cert_store: Fix out-of-bounds read in pr_dbf_vce()
 2c1f57bce05244165f406e45982bbcd036071d3b s390/cert_store: Initialize ism array in query_diag320_subcodes()
+0b172a2637580ef2b9010eda19627c0b3aa324f6 Merge branch 'fixes' into for-next
+8da5963ddb1e9d6ccf91b782ee6ecef0821c3f11 Merge branch 'zpci-meas-enh' into for-next
 
---===============4193542216519177830==--
+--===============1151132090322475397==--
