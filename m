@@ -1,24 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 19 Nov 2026 05:06:09 -0000
-Message-Id: <179506476964.3571449.7815877798328112388@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4112655326493327925=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Thu, 19 Nov 2026 05:22:34 -0000
+Message-Id: <179506575416.3582327.10058196964032717765@gitolite.kernel.org>
+
+--===============4112655326493327925==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: f8c00958c5b9ed80503c7c414cff217b9136f1b0
-    new: bba510ab059f327135b31e0feb1c648416ce31d9
+  - ref: refs/heads/master
+    old: b5994655d14385648a1411b211d1b7a1d6da5465
+    new: 6301961a09d574ea77b2dad63e2458d0fadc3a49
     log: |
-         71531b583c947f2ac2d5f3ce923be7f9749e2569 bpf, x86: Count the size of a trampoline, do not emit it
-         9e22f382de874786837e99e6b85db2a0abb4fd2d selftests/bpf: Don't use BPF_MAX_TRAMP_LINKS
-         cfe2171b0bd9839c3a7d770c37bfab122c1b4271 bpf: Remove BPF_MAX_TRAMP_LINKS
-         664fde3a58f0af37d638fee252a4b0f1db6693d8 bpf, x86, arm64: Fit the return value of a prog to the return type
-         7af0b756a8ef4a5abe3f54a5c0216a3b0ef66e08 selftests/bpf: Test the width of the value of an fmod_ret program
-         bba510ab059f327135b31e0feb1c648416ce31d9 Merge branch 'bpf-trampolines-the-size-of-the-image-the-type-of-the-return-value'
+         d55e871e8df796617d1b7265c19fe26340198564 Expire yukuai's key
+         6301961a09d574ea77b2dad63e2458d0fadc3a49 Update B2A2D88F1059D4A5 (Alexey Charkov)
          
+
+--===============4112655326493327925==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1795065753 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1795065753-1a0378e7042d2e56114eae18a66b58f8735ad09a
+
+b5994655d14385648a1411b211d1b7a1d6da5465 6301961a09d574ea77b2dad63e2458d0fadc3a49 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCav6HmQAKCRC2xBzjVmSZ
+bAyaAP0dXbFTGN7qCOPd8Q4QWH9UfAFyXV7a3k7oVSBjNyEnxwEA30d3L4xhL65Y
+QOpHAWz/y2I0q9GEQv1nlkR8IcK7lgI=
+=lqAd
+-----END PGP SIGNATURE-----
+
+--===============4112655326493327925==--
