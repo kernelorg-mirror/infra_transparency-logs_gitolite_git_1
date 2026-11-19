@@ -1,27 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 19 Nov 2026 22:15:30 -0000
-Message-Id: <179512653045.263894.3665180411724297656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 19 Nov 2026 22:15:35 -0000
+Message-Id: <179512653586.264120.1182392496780470809@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: 29219e5254abb48aa98feb1b5d7e7002bc917cec
-    new: b544ca82abb46f2f870d32b3d7cae6ff9d9d1311
-    log: |
-         b544ca82abb46f2f870d32b3d7cae6ff9d9d1311 regulator: mt6363: Serialize BUCK_TOP key access
-         
   - ref: refs/heads/for-next
-    old: 37eff79ac94ae532cf5e2c79c4478c7664abc037
-    new: 6eba525f2c14486c1a8cac2320ab202097212f5c
+    old: ce2f5ba777f51e4929499ecd004afd20e22e3742
+    new: 715e17fd0157db208c893de8afb5072b86c0a562
     log: |
-         b544ca82abb46f2f870d32b3d7cae6ff9d9d1311 regulator: mt6363: Serialize BUCK_TOP key access
-         84676d458b50b918d8eb58c3b74012e83dc0cf06 Merge regulator-linus into regulator-next
-         6eba525f2c14486c1a8cac2320ab202097212f5c Merge regulator/for-7.5 into regulator-next
+         86478099f8c1c66a1e2b260de532078c4f5c10c1 spi: sunplus-sp7021: use devm_reset_control_get_exclusive_deasserted()
+         b47f3969ee30ef11b5eb8bd31f41dc3fd0a3daf7 Merge spi-linus into spi-next
+         715e17fd0157db208c893de8afb5072b86c0a562 Merge spi/for-7.5 into spi-next
          
