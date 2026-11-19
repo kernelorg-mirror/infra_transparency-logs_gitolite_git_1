@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-Date: Thu, 19 Nov 2026 01:03:08 -0000
-Message-Id: <179505018828.3389313.530330962038733761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 19 Nov 2026 01:16:47 -0000
+Message-Id: <179505100708.3400920.151086096174098778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-user: kuninori.morimoto.gx
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/renesas-slts/v6.12.117-2026-11-19-sparrow-hawk
-    old: 0000000000000000000000000000000000000000
-    new: bc508b540d5e277fe5a6010be8b625376c07caf3
-  - ref: refs/heads/renesas-slts/v6.12.118-2026-11-19-sparrow-hawk
-    old: 0000000000000000000000000000000000000000
-    new: 83b7c0c3b7dc25cbf74f1404e19f0fbc51f0c972
+  - ref: refs/heads/main
+    old: 5cd25dc74be0f45f006743e7491374c9cf733283
+    new: 89f0fb60afdb35cf2a94e6279c8960feb1c4d1d4
+    log: |
+         89f0fb60afdb35cf2a94e6279c8960feb1c4d1d4 net: phy: air_en8811h: use firmware loaded by the bootloader
+         
