@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============2970096088931626617=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 19 Nov 2026 01:17:44 -0000
-Message-Id: <179505106475.3401467.16159203475439818816@gitolite.kernel.org>
+Date: Thu, 19 Nov 2026 01:20:16 -0000
+Message-Id: <179505121647.3404275.7507265688478603614@gitolite.kernel.org>
+
+--===============2970096088931626617==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -12,9 +16,26 @@ repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
   - ref: refs/heads/experimental
-    old: b9dd73fb478ac88fc142e6430ed71be43dc65cab
-    new: b3f27c093e4f87f6a1fbccf748689b8ac49358e2
-    log: |
-         557a3c32bd695b9f6499c63eead7f27cc6f9ed5c erofs-utils: mkfs: fix raw tail padding after compression fallback
-         b3f27c093e4f87f6a1fbccf748689b8ac49358e2 erofs-utils: lib: fix buffer overrun after short positional reads
-         
+    old: b3f27c093e4f87f6a1fbccf748689b8ac49358e2
+    new: 2146824ae90c47c799e2d80372b3cb0712c56835
+    log: revlist-b3f27c093e4f-2146824ae90c.txt
+
+--===============2970096088931626617==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b3f27c093e4f-2146824ae90c.txt
+
+2c8144158107abf32ff387db45a315b8563736a5 erofs-utils: mkfs: fix raw tail padding after compression fallback
+f73153002b45732607524d11da291985b79ca46b erofs-utils: lib: fix buffer overrun after short positional reads
+f2d8e514067d601f8d18583d415edd7c4288ef23 erofs-utils: lib: free inline data on rebuild failure
+a22dd9f322bed6671ae54b2db1b3a1f22181bee4 erofs-utils: lib: fix fragment buffer leak on realloc failure
+d39343e8a3a4fed53f21ddec490b096a79f8f623 erofs-utils: lib: fix erofs_io_read() caller error handling
+5ade95e037470dd271eef0f36bc00934b0c99448 erofs-utils: lib: fix erofs_io_pread() caller error handling
+d40dcad6d69269152dd8110d1256964c206270f9 erofs-utils: lib: fix erofs_io_pwrite() caller error handling
+23264c68cd1c7844d7a50a14e21a25cb84ca6415 erofs-utils: lib: fix __erofs_io_pwrite() caller error handling
+6c632a266835c9c61137e8400da4082d7c9ce244 erofs-utils: lib: return negative errno from erofs_io_{fstat,ftruncate}
+5db24088a0bdcb9ef63f033523c671dc18f2adae erofs-utils: ublk: report the handler's real I/O result
+2146824ae90c47c799e2d80372b3cb0712c56835 erofs-utils: lib: bound OCI blob reads to the requested length
+
+--===============2970096088931626617==--
