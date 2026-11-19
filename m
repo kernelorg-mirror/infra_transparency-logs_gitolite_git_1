@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Thu, 19 Nov 2026 11:26:51 -0000
-Message-Id: <179508761188.3909582.4539075989964288941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Thu, 19 Nov 2026 11:30:58 -0000
+Message-Id: <179508785816.3913033.7264705520659556946@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/smb
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: 023dbed5a536815bded6e875afe3c5ed4cbf5b05
-    new: 0549a030a22a219ce021c194c4791c1b1aa3eec7
+  - ref: refs/notes/signatures/tar
+    old: 7c504449d9c0585c3343d4e2a8d98dd6df46e381
+    new: 136f89dfd9fe57431bcc0834280a26863c87d2aa
     log: |
-         19cc66d8592ffd52a9564b530e0fa00495e8b6dd ksmbd: omit the DACL flags when the query omits the DACL
-         0549a030a22a219ce021c194c4791c1b1aa3eec7 ksmbd: fail SET_INFO when the security descriptor cannot be stored
+         136f89dfd9fe57431bcc0834280a26863c87d2aa Notes removed by 'git notes remove'
          
