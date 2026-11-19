@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4062815085437323388=="
+Content-Type: multipart/mixed; boundary="===============2811801889018023694=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Thu, 19 Nov 2026 11:43:28 -0000
-Message-Id: <179508860899.3944038.16906665008035111570@gitolite.kernel.org>
+Date: Thu, 19 Nov 2026 11:43:37 -0000
+Message-Id: <179508861760.3944237.16507541257886141700@gitolite.kernel.org>
 
---===============4062815085437323388==
+--===============2811801889018023694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/review-andy
     old: 0fc424b6a8ef447450f6087db42abce3a6feb328
     new: f6ed209a9e92bb04cac691b4e8c1330550de2de3
     log: revlist-0fc424b6a8ef-f6ed209a9e92.txt
 
---===============4062815085437323388==
+--===============2811801889018023694==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ cbaa26615075e26ab54e0e8afaa10860867f75fe Merge tag 'bootconfig-fixes-v7.4-rc1' o
 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 Linux 7.4-rc1
 f6ed209a9e92bb04cac691b4e8c1330550de2de3 gpio: wcove: use regmap_assign_bits() for conditional set/clear
 
---===============4062815085437323388==--
+--===============2811801889018023694==--
