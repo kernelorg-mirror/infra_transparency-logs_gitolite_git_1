@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1442232936977848669=="
+Content-Type: multipart/mixed; boundary="===============6826389178069822015=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 19 Nov 2026 21:28:02 -0000
-Message-Id: <179512368260.225788.12836025689164079711@gitolite.kernel.org>
+Date: Thu, 19 Nov 2026 21:28:27 -0000
+Message-Id: <179512370767.226074.12606705457060268598@gitolite.kernel.org>
 
---===============1442232936977848669==
+--===============6826389178069822015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,44 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 8ce78ed310add9fc70fb25da19d749c3e0a87388
-    new: 93020a9afe545e1b967799d25bfaa7f07a5e59fa
-    log: revlist-8ce78ed310ad-93020a9afe54.txt
+    old: 93020a9afe545e1b967799d25bfaa7f07a5e59fa
+    new: d86a29916a6154696f56acbc2d28bf06cbb76985
+    log: revlist-93020a9afe54-d86a29916a61.txt
+  - ref: refs/heads/tip/urgent
+    old: 0e11b390ef663ac19b470035a07990d75dd5d6fe
+    new: 6b3ab8ec543f135ba6b0ca1e9237a0133e93e837
+    log: revlist-0e11b390ef66-6b3ab8ec543f.txt
 
---===============1442232936977848669==
+--===============6826389178069822015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ce78ed310ad-93020a9afe54.txt
+Content-Disposition: attachment; filename=revlist-93020a9afe54-d86a29916a61.txt
+
+3ebfd4c4e5fb6bcdbae5da358fb6258af32c34e6 Merge branch into tip/master: 'sched/urgent'
+131920afb10af60de5afeb2a3a19910f241d9402 Merge branch into tip/master: 'x86/urgent'
+6b3ab8ec543f135ba6b0ca1e9237a0133e93e837 Merge branch into tip/master: 'x86/mm'
+1c03218632ac2406fccbfea0c5a3319682e0e052 Merge branch into tip/master: 'core/rseq'
+c48e76ec5e25cddac83f9a2e0204b57ec528a5c5 Merge branch into tip/master: 'irq/core'
+38359381c047fb1d253b4036c27f135f392bb75b Merge branch into tip/master: 'irq/drivers'
+cbe515a9ea54e3675c39e8cd2a36a80fedb262a8 Merge branch into tip/master: 'irq/msi'
+4874683beed5af072b4e35b0c52fae667e67a533 Merge branch into tip/master: 'locking/core'
+78d7ec7b9e323c77b5d02ec663a7e8718f530f84 Merge branch into tip/master: 'perf/core'
+3efd6aec19b30bf727da1a511e37946f31ce732d Merge branch into tip/master: 'sched/core'
+d6cae6d68bbde33702af64531eaca0c2bdf35905 Merge branch into tip/master: 'timers/core'
+97137af525330d456e3690f1f0c2bffe635b7a1c Merge branch into tip/master: 'timers/nohz'
+2ae4f9df1222be137001904b9ef5bf1d1381533b Merge branch into tip/master: 'timers/vdso'
+11c54cfc008dd5f95df164d90a6ab4c25e2c9d3c Merge branch into tip/master: 'x86/apic'
+357566b07cc761a3ed9edab5b308f0ce33ec4761 Merge branch into tip/master: 'x86/cache'
+fea73c96603db4a7457ef157443a5398ced1ea41 Merge branch into tip/master: 'x86/cleanups'
+ab70bd20b36f13d353cabe51db70596998badcbd Merge branch into tip/master: 'x86/misc'
+d86a29916a6154696f56acbc2d28bf06cbb76985 Merge branch into tip/master: 'x86/sev'
+
+--===============6826389178069822015==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0e11b390ef66-6b3ab8ec543f.txt
 
 2b2bb55990cf1d9dbd59ee326d545798061fce97 scsi: bsg: Don't copy sense data to user memory when canceled
 6da1bc55c060bec3163b0e6077f3ac9641f8100c scsi: ufs: core: Keep clock-gating hold on failed W-LUN runtime resume
@@ -51,6 +80,33 @@ c0bb6614132c64205a3c40c32dc1494c1bfeffe1 scsi: target: Fix NULL pointer derefere
 48d3b732e5ad3fffe74e033d9a3cf47ebaa314b0 scsi: target: iscsi: Check for existing sessions only after authentication
 08f08a6d49efc422258edba802faa4fc7677309e scsi: target: core: Parse APTPL res_type and res_scope as hex
 e550f2b2b4aab4c5f12db89d04d8978ce4ed7b4e scsi: mpi3mr: Validate reply frame size bounds
+e212c463eee96b2568d8c85ca4ee63049dbb18f2 mm/kasan: detect double-free involving kfree_rcu_sheaf()
+97a5aa11cc0cfe4dedd436c32793320b490c4331 mm/kasan/kunit: add double-free tests involving kfree_rcu_sheaf()
+53a6f71c147a445a6c305513acaa25f2e01a44e9 mm, swap: stop cluster list scans once swapoff clears SWP_WRITEOK
+a2108a958143de74b4e5ddca12b01f05ecd030f9 mm/migrate: move NR_FILE_THPS on cross-node migration
+4ac11db025da54f389796920b253221d1afe6aac mm/migrate: move NR_KERNEL_FILE_PAGES on cross-node migration
+2a700ab992286e1d3893289909ec46569a725257 mm: fix missing page-table destructor in pagetable_free()
+352fca06aa692848a9b95f43740b4939f495ca4b riscv/mm: fix hotplug page-table destructor handling
+fbf197512f5affda696dc4822e394d410b333792 riscv/mm: fix missing destructor for hotplug PUD tables
+26601a6c80c52c5336cd02b3379710077aeafc4a arm64/mm: fix destructor for unconstructed hotplug page tables
+9378306c5d3db7e733d60a8b85a22b2b143ecffd xarray: clear the new head's parent before freeing the old head
+d7e3ce464470d0ff90b4a0ac87df9b3b7d8258da mm/mempolicy: use one node set for interleave weights
+fc2c19648d681cc5fb00efa938b78460c2e5b44d mm/shmem: fix swapin livelock on a mismatched large swap cache folio
+cd5f5bf781b4ead6a6571818d5613ea2ed0145f3 mm/memory-failure: fix folio refcount leak and min_order_for_split() locking
+111894c595a078d8481db34f3355e8531990668e userfaultfd: clear uffd state in child PTEs if uffd is released during fork
+f987d9f38a46216d45326b7a61c619c574b45837 mm/vma: undo userfaultfd unmap preparation when unmapping fails
+043b024a416073c4e2927e25168ec640a0f30be7 mm: memory-failure: update statistics before emitting the trace event
+cf5518aa1832d82b391ac2492863ae6a7315827c mm/filemap: stop fault-around when the walk steps back
+5fe092741502770107a0be7b3885ce55f7761f01 mm/damon/core: reset watermark wait state on each iteration
+9d2cc214935ad78b8f54bf886f0b4e3f387fa44f mm/damon/tests/sysfs-kunit: fix leaked pid reference in add_targets test
+c8c47f4072bdcff783cedd5a8565242a212af058 selftests/damon/sysfs_memcg_path_leak: define ksft_skip
+ccf8bda05b19dc144bc7051936b08573476499ee hugetlbfs: move hugetlbfs_free_inode tracepoint to ->destroy_inode()
+ff82ce7f90f52254029a73d12542c22e7e705aef mm/vma: read anon_vma carefully in validate_mm()
+e8a71f284ba7eeddd9475bb0b65200e95428b497 maple_tree: fix rcu reader NULL dereference after the tree is emptied
+d46ba9f99dbafe936a2810bfac505f7dc339d7b8 maple_tree: test emptying tree while RCU reading
+f51d35b81fb572c551e82ff72575d6dbb8e35ba9 maple_tree: update internal warning and bug_on code
+28ae0385b638f095109d282b927ac1a51f75c530 userfaultfd: validate the whole range before changing write protection
+a4e667346a8d91e629a2ca9affc70dc28978f4a1 xarray: fix index jumping backwards in xas_find()
 45a25a1bfd267d9e420119a48e5291d7882395df Bluetooth: hci_qca: clear qca_memdump when discarding dump packets
 a57a255ce204b51327ac4e840a7726b0ab9a1942 Bluetooth: hci_qca: Reopen the UART after enabling QCA2066
 45e28b01e4d06282d03f08888f09722709d4b552 Bluetooth: hci_qca: Don't use the serdev port after a failed reopen
@@ -60,6 +116,7 @@ d9a1bd14caf5d235499319f7aee9e641c12d90a9 Bluetooth: hci_conn: Initialize the dev
 58d8a0955065fb00824865dca5b573a1becbb1ca Bluetooth: vhci: Flush suspend work after removing debugfs
 f8ba3e2e82f06cbd469d6ee249fbf86c138247c9 Bluetooth: vhci: Serialize packet reception with device creation
 df33621e70363df4d6963ad5ff19a3ae740c7703 Bluetooth: L2CAP: Protect the receive reject-list lookup
+2de253924266eeedb798fb662173726c90b0cf04 fscrypt: Initialize ->ci_master_key before publication
 daf949c968d485badd6c1fc5b6965ea8175e7dda Bluetooth: hci_sync: Set random address on the set's handle
 e7e877bf658acd15fc7dda1bff3e66d0fa69a061 Bluetooth: hci_sync: Remove an advertising set by its handle
 8b1eff978e66efb5ed66b79591851203d05ab303 Bluetooth: hci_core: Add hci_free_adv_instance()
@@ -145,6 +202,34 @@ ff1ee9cc8993b1e5cf6459108dba1576fee221d0 net/mlx5e: Fix XSK pool corruption when
 2c0d5e36aaf3cee1bc53c761704202b845be54d6 af_unix: Fix scm_stat.nr_fds leak in unix_dgram_disconnected().
 c550cea62c1e176629b1d814365b22aecfe6f4d5 selftest: af_unix: Test scm_fds on dgram disconnect.
 2a324a58a084c5cfd7e5a2f55e0786bee170a4a5 Merge branch 'af_unix-fix-scm_stat-nr_fds-leak-in-unix_dgram_disconnected'
+f277230d002d03ed98b814b735f9d3d01b42020a ocfs2: serialize inode journal access with shutdown
+e9e66aa5ef1a76ec92fe41c5eb16fda7a39db279 ocfs2/dlmfs: keep the superblock alive during lock work
+fffc86cbe3ebfd7fea3937f8698e4322b3137984 ocfs2: advance locking_state through the live cursor
+27538caf7f72ce93be9c352148dba4f2274cf300 fault-inject: fix boot failure with fault injection boot parameters
+5158f371faceb185235ba42882e67a840cfd7f48 ocfs2: fix kernel BUG in ocfs2_page_mkwrite() when write_end fails
+e00dcd6e54b774a810d28119bad740f317df377c get_maintainer: only use THE REST as a fallback
+3a198413bb7137907a351f43dbf1c3bf5e956900 docs: submitting-patches: make LKML a list of last resort again
+f5d6f3184eacca5cdf04b39db1e8fc4b244e029e mailmap: update email address for Bradley Morgan
+d61d78af3286548cef8e31ac578c0ed0df090f94 mailmap: update Mika Westerberg's email address
+f0bff4871f91501b8d30e787f15865c3f1f08870 mailmap: add entries for Miaoqing Pan
+a357471e83422c49d1bb7fb8a666f34aa5e52433 mailmap: add entries for Luiz Capitulino
+7aa8cba37cfd56e3d08f0391a99b312f9aed4df6 mailmap: update email address for Naman Jain
+b5267747764169008da1d5cb88e19ecf0a289b3e mailmap: add entry for Beat M. Liechti
+6f7fd2b4c2f1fad4394bae20c59192723a0704fc mailmap: add Wang Yibo's work email address
+3a1ed9b7ecdcbfadd3529b59938cd706b74149c4 mailmap: add entries for Ridong Chen
+b2ddfc1c1afdd087f5d8bb3a59bdba8cb562ad83 mailmap: update entry for Guodong Xu
+099ed44ed4fb83e5eae85db900aa704142c5d3b9 mailmap: add an alias for Alex Elder
+971da83016eb6c6d110580d9b2881f7d2bcfe503 mailmap: update email address for Sai Teja Aluvala
+59233c1123c2e800055ec685407a004351ae3f62 MAINTAINERS: update Andrea Cervesato's email for LTP
+a001666afbf9d2a6096fea95686549b9b1c9d968 MAINTAINERS: DRM DRIVERS AND MISC GPU PATCHES
+9a92f776dfa6a88fc16fe0512c725734190bf9d0 sched/fair: Use guard in sched_group_set_idle()
+75545668ae0fd80c08fe8fd0c6799b2ba9284557 sched/fair: Make cfs_rq::idle the sum of ancestor tg::idle
+486c3d06b90240860e99686d29ed9f15637dc314 sched/fair: Avoid transient double accounting for delayed tasks
+342fe98c34311969950fa58a840fd0b95a16c9dd sched: Lift cgroup update locking to core to prevent CFS/SCX divergence
+cea5f91daa3ac86c98b63b3a2e89da622670ccf6 wait-event: clean up the internal helper arguments
+fb52ae0e9afb44d5f06bcf855b490584dad66687 Merge tag 'fscrypt-for-linus' of git://git.kernel.org/pub/scm/fs/fscrypt/linux
+d866d5bafc5e1417032255002e95f8ec3121754b Merge tag 'mm-hotfixes-stable-2026-11-17-19-55' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+4405c18c95d2d0f99f6c581ef0ee8591a1aa6ccd Merge tag 'mm-nonmm-hotfixes-stable-2026-11-18-00-06' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 c45d9aaa0b6eac6ebf74a3818a3667b9ec45078e Merge tag 'dma-mapping-7.4-2026-11-18' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
 27e694b84eca6c7fa0878662764567a3cc396fc2 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 d61480a622be17e5aa981f7ef4e6a0230b1d9049 net/mlx5e: Hold sync_lock while resetting VXLAN ports
@@ -166,6 +251,7 @@ e3916fa03f4d300be91468a7b7a608d38b6b3277 i40e: avoid resetting BQL state when fr
 2a1f106379a90ce7ac63f96a57c241a4cf20a983 iavf: fix ASQ command buffer leak on init failure
 adbc4d0fff640541d7071421ac59dbd70da33b18 iavf: add missing PTP adjustment callbacks
 e203d8a4751d48aa00eda31e3b320ba8e0d47dbf Merge branch 'intel-wired-lan-driver-updates-2026-11-12-i40e-iavf'
+e83cac046ded56962ad4d4eb6ebd7910d62c287b x86/cpu: Add Intel Coral Rapids and Razor Lake CPU models
 8a0b03058ff700deb74f4b38f5a254238bdf4e07 veth: wake a stopped peer txq beyond real_num_tx_queues
 b2f4c44d7d83770ee1f235a732d8e1fd831c4926 veth: wake the peer txq when deleting NAPI
 952d16c5ee62cb8b5fde6ed5ec8ed6c5df77c934 Merge branch 'veth-fix-txqs-that-are-never-woken-after-backpressure'
@@ -191,6 +277,8 @@ f1715c0c04606ebbe832cc760abf49dfd6f2ae1f Merge tag 'for_linus' of git://git.kern
 1e575bda30acc0bf01f799cee798d4a1c100d538 Merge tag 'net-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 1ecc5b7c95ae585042ccbf3c587897dd99e2ddb5 nfsd: unlock the locked parent after crossing a mount in CREATE
 8dac6df92a2e66e2098bbc69061964cfe7e8375b Merge tag 'nfsd-7.4-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-93020a9afe545e1b967799d25bfaa7f07a5e59fa Merge branch 'linus'
+3ebfd4c4e5fb6bcdbae5da358fb6258af32c34e6 Merge branch into tip/master: 'sched/urgent'
+131920afb10af60de5afeb2a3a19910f241d9402 Merge branch into tip/master: 'x86/urgent'
+6b3ab8ec543f135ba6b0ca1e9237a0133e93e837 Merge branch into tip/master: 'x86/mm'
 
---===============1442232936977848669==--
+--===============6826389178069822015==--
