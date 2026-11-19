@@ -1,59 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============7618522664468280551=="
+Content-Type: multipart/mixed; boundary="===============4798731522803155945=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 19 Nov 2026 13:53:27 -0000
-Message-Id: <179509640750.4044922.12245110702040298948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 19 Nov 2026 13:53:54 -0000
+Message-Id: <179509643444.4045181.2585615109924292690@gitolite.kernel.org>
 
---===============7618522664468280551==
+--===============4798731522803155945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/sasha-cvss-important
-    old: 9e830fb0e5068f7d8aa975752250adf5973d57e3
-    new: f3e59f0a24f34e59c4bdecb99b4e95ac068d00dd
-    log: |
-         f9f4ad461282c24fe2d1b2a7b5d4eb3e0eb4a896 CVE-2026-99319: Fix introducing commit via .vulnerable
-         a72fe3026a6a7bd8efe031afd5c6483046501b2c updates based on new .vulnerable file
-         92d874232b00c45daa3fef7f523e2149de8bbaef Merge branch 'sasha-cvss-important'
-         f3e59f0a24f34e59c4bdecb99b4e95ac068d00dd updates based on cvss scores
-         
+  - ref: refs/heads/for-next
+    old: bdf4e9fffaeb2735248ae64175bb55110332b958
+    new: 20a21fd8ba1bb23c907ee5709f9232a9c84710a1
+    log: revlist-bdf4e9fffaeb-20a21fd8ba1b.txt
 
---===============7618522664468280551==
+--===============4798731522803155945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-bdf4e9fffaeb-20a21fd8ba1b.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795096404 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1795096407-0bdad6e086646e8e17f1e96dc85b670b6577ae98
+132ac7e51e2550aa8ed72c920ea06aa3de206e66 ASoC: cs43130: Take the frame layout from set_tdm_slot()
+a19f318322c5a180e6352e2015232d430946deaa ASoC: atmel-i2s: Use devm_clk_get_enabled() for pclk
+f0903e6544fb272e6d9eca116aac95b0855e1624 ASoC: atmel-i2s: Fix I2SC_WS slot width configuration
+19236c74b92d78709483bc4aaa21f09e4d4eee22 ASoC: atmel-i2s: Fix clock and slot width handling
+8a20b9963c66b6c7bfe054949450095ce5e64825 ASoC: rt5663: Stop jack work on probe failure and unbind
+ca12ef85c9685ea0991f448f86a03240d3cb84e6 ASoC: sdw_utils: senary: handle a missing name_prefix
+d81aa3db0a430cb5e6b2be2bf67ff6f31dec54c9 ASoC: tegra: AHUB: Remove unneeded semicolon
+f8b9931f96c04bafd450c24cb8bddcc2e6358a2c ASoC: fsl: lpc3xxx-i2s: Simplify error handling
+239eb443bf6cf7eeada1e099ba943a419f35aa91 ASoC: fsl: lpc3xxx-i2s: Fix DMA depth configuration
+f3fe6dcd0fea7f1134bf898fcccb5d97cb2f8c5b ASoC: fsl: lpc3xxx-i2s: Fix error handling and DMA configuration
+6bceb2fc240272c1af88b47544e250bdfed4faaa ASoC: max9860: Register the supply notifier after initializing regmap
+3775f1e4d7bf2ca8812677e45adab66ca7cb4974 ASoC: ak4375: Power off the codec on probe failure
+2ff99ddbb22a4ee97703a1d774081d6075f1a065 ASoC: tegra: Fix potential NULL dereference on AHUB removal
+232ad4512a83cffe3e93b4fee06ae5951c5a8c45 ASoC: es8316: Allow more time for headset mic bias to settle
+b610f9cd00f4eb4da2fd3f77bf6ec507b49e4765 ASoC: qcom: common: report line-out plugs on the Headphone Jack pin
+2b6e81a4d50a4cf236c69f4ed56ef6a42ac17d87 ASoC: qcom: qdsp6: Fix device node leaks when parsing "iommus" phandle
+fda1f13f7f75a653d7ba9bb6212453431082333f Merge asoc-linus into asoc-next
+20a21fd8ba1bb23c907ee5709f9232a9c84710a1 Merge asoc/for-7.5 into asoc-next
 
-9e830fb0e5068f7d8aa975752250adf5973d57e3 f3e59f0a24f34e59c4bdecb99b4e95ac068d00dd refs/heads/sasha-cvss-important
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmr+/1QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OpUP/0bc9nHuXN9974fzm3nF
-LvCeyhH60lJLG8Ox98wjYL3rwcBnxwFy0Dl1sZTrBCDETgOTlYnqWBYmwN4c8HgL
-UIYOi/jJWZqgv+5qWYb596hfeqITpVZTz4dSiiFgI4HR3LNfeUO2vzSL+Gyx1Nwx
-xoZowp+EqR0i+Fg2ZjZKFC8pi8iV1pYI8WcIFKYM+uEVLDIZ95giDSmDuZpY+fKH
-QOSSciDSG/PKUFnvqURgtO3U1U+6rJeDV4dd8W1VjoixXV76bAgPG5FjpBwbDY6P
-eePsBtgCmLRD3JqccXXLHKPvs7eBRIpb38xuHDcsAm4IJF0s7oaNXjg1pwGk7EwO
-f9JaO8v3i6VneqlfF31IyEBuL2CkI9u0uiFm2UMy+cMlAwyMSGXr7SYfv6ZfDBS3
-bKz0cP9BNzfVMcR66vGCz+/1vji/Vj/dxhP65hzXW6UzopHy95VGYeVwfsZliLuI
-4SPpp2zHpF+2ny9OgX3AB3dIPZOhHJtWPIQI4kvABmbyh671hKxxV6LIZT77UyM7
-9IHU9BzZnsy2BVhYPQO4UG6JUcusv8rinJXliY8sUY/TnyEmmPk8e7+WVddC7E0w
-Pd6v+yKNfiJjsThzxPkMxZqP2WpHF0X/JT1pxpu66L/WDxjU9EugQdN/+KIC1Ypp
-PlG+4ZAmXpIXA0As87lVBaSh
-=NDTj
------END PGP SIGNATURE-----
-
---===============7618522664468280551==--
+--===============4798731522803155945==--
