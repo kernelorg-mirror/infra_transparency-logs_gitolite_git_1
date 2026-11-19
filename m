@@ -1,43 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============1984196446387670346=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Thu, 19 Nov 2026 14:16:10 -0000
-Message-Id: <179509777031.4065377.15523727305957960349@gitolite.kernel.org>
-
---===============1984196446387670346==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 19 Nov 2026 14:19:16 -0000
+Message-Id: <179509795661.4066524.16353839605240321042@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nsc
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/kbuild-next-unstable
-    old: 73d83cea1b6a47fb34128393b074d9a703c4b17f
-    new: e3e4f625d3b08a38a2f5d3c304f725a8e70738b9
-    log: revlist-73d83cea1b6a-e3e4f625d3b0.txt
-
---===============1984196446387670346==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-73d83cea1b6a-e3e4f625d3b0.txt
-
-2ed67947a2e84776d777b8874d1835f02394fff5 Input: apm-power - remove driver
-0a4e2fe4847aee9163fb548316bc6b00009041ec ARM: kprobes: Rename test-kprobes.ko to test-kprobes-arm.ko
-69f8c77e2ab042e7055d19ecb4757f1282777a49 s390/pkey: Include <linux/device-id/ap.h> for struct ap_device_id
-b247d1d54f3e687fe5ce57b4501ab7aa112b25b5 Move struct cpu_feature to <linux/cpufeature.h>
-95ac929a7728434b26f22efda48bed7ed38343f8 devicetable-offsets: Include the needed device-id headers instead of the catch-all
-6e6efbf31f856ef3e2aee5e67ea7940362a9f476 file2alias: Include the needed device-id headers instead of the catch-all
-4f277754408055c19b6835a1e61e99d21dc0923a devicetable-offsets: Get struct cpu_feature from a device-id header
-cb790938e7680b054362ee85ed4758c1632755d2 scripts/Kconfig.toolchain: Remove CONFIG_CC_HAS_NO_PROFILE_FN_ATTR
-1420b622bbeb29dffafd59015bc3861ad003f9b8 scripts/Kconfig.toolchain: Do not dynamically probe '-fno-addrsig'
-4de652e214ff35ae58ab929875966c27371a33cf scripts/Kconfig.toolchain: Clean up '-fno-allow-store-data-races' handling
-379f8c08b0aa276e8cbb0b8a487c8c5eca87cec8 riscv: checksum: Fix CC_HAS_ASM_GOTO_TIED_OUTPUT check
-ec606b7da22efa0e2712028e77933030f235e6e2 Eliminate CONFIG_CC_HAS_ASM_GOTO_TIED_OUTPUT
-e3e4f625d3b08a38a2f5d3c304f725a8e70738b9 scripts/Kconfig.toolchain: Document minimum supported versions for dynamic checks
-
---===============1984196446387670346==--
+  - ref: refs/heads/for-next
+    old: 0cc2694fcbb63bf6ca9df7c9a7b82ec4480ab353
+    new: 23422f7cf8c251e846f70770a61cb945cf16ba7c
+    log: |
+         97a175f09791bfe6c68630ef6283f866d246ed71 dt-bindings: arm: add Ambarella CV75 platforms
+         58a9f024d58c2a569cf728760f8e522b39c0b076 dt-bindings: clock: add Ambarella CV75 RCT
+         d48cfd6482ee1acf4d22f0da3e10343bbecc8749 arm64: add ARCH_AMBARELLA
+         5561660723638036517da7044f026b859e9401be clk: ambarella: add CV75 RCT clock controller
+         4a1ce643a9ecb9d9f73122caa2bd9b94e4382fa8 arm64: dts: ambarella: add CV75 SoC and EVK
+         d76a3a4c6da46516fe641d5aff4e1a76f267e01d MAINTAINERS: add ARM/AMBARELLA SoC support
+         210b99d3bf032594ef6beec3221d46946f4320e6 Merge branch 'newsoc/ambarella' into soc/newsoc
+         cf5d64a0bd64b20f7411c2bf7b530fff7164f667 Merge branch 'soc/newsoc' into for-next
+         23422f7cf8c251e846f70770a61cb945cf16ba7c soc: document merges
+         
