@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 19 Nov 2026 16:06:35 -0000
-Message-Id: <179510439567.4152101.15162587067449050029@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 19 Nov 2026 16:08:15 -0000
+Message-Id: <179510449527.4152683.14936126938883513374@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: 5649b1d4835f11720cc2f1cab64d649f1f616f05
-    new: afd48791d4f1311bbfd4310a405987fa424394c9
+  - ref: refs/heads/master
+    old: 992826d41bf0591efba1b3a65d0d2350cb1b5c1c
+    new: 5252483124e6cf016c4a6f41fe1e44f5e1949648
     log: |
-         afd48791d4f1311bbfd4310a405987fa424394c9 ASoC: cs48l32: Release the runtime PM reference on IRQ read errors
+         5252483124e6cf016c4a6f41fe1e44f5e1949648 Fixes for all trees
          
