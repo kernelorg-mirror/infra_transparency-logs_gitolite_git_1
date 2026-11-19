@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6584543965495950162=="
+Content-Type: multipart/mixed; boundary="===============3518857318525039184=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 19 Nov 2026 00:57:22 -0000
-Message-Id: <179504984267.3379131.3595928463895396621@gitolite.kernel.org>
+Date: Thu, 19 Nov 2026 00:57:25 -0000
+Message-Id: <179504984560.3379378.3560712537358812814@gitolite.kernel.org>
 
---===============6584543965495950162==
+--===============3518857318525039184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS
-    old: c18465920df9b0cbce2bdf908e009572954a44dd
-    new: 3b21aa699cf0fd3fb0a92ab32bdf632f87c0911a
-    log: revlist-c18465920df9-3b21aa699cf0.txt
+  - ref: refs/heads/kernel-7.3/canary
+    old: 08729e06545e034a3eceb4916d0e8004c1f9a160
+    new: f7b78332d30efb15caac6434b17396ec4a110420
+    log: revlist-08729e06545e-f7b78332d30e.txt
 
---===============6584543965495950162==
+--===============3518857318525039184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c18465920df9-3b21aa699cf0.txt
+Content-Disposition: attachment; filename=revlist-08729e06545e-f7b78332d30e.txt
 
 8c193fe99d2e7021db079e5affc2eed95628dff9 page_pool, sunrpc: split a read partition off the rx region; direction-neutral credit
 76ca67202bca581a52ae10ae6a8956f89d4db1a1 sunrpc: KUnit tests for the read pool, the write-partition budget limit and the rx region exports
@@ -79,7 +79,6 @@ b6f1da8af5a36a9cc7de00366994572efddc6fd6 nfsd: register the rtc NFSv3 READ hook 
 19d0ee772652424aeda16d1ae07a18a9fa70f00d sunrpc: cache: don't renegate a valid entry when the upcall has no listener
 5e6014f10bc78f6590391fa81f63905175c00d0a sunrpc: per-CPU free lists and per-CPU active count for the run-to-completion pool
 3964608e64d43d829ff5c6073ada29dc04ac1fbc nfsd: switch NFSv3 READ and WRITE run-to-completion per direction
-51abe476f0ddf241a5aa37d605fd5664398f5156 configs: enable the hammerspace-7.3-performance Kunit tests
 8bd918f2915a896e7271a7bbe004536ededea333 block: inline blk_map_iter_next()
 ebf4e3ab13d71a79ef787a971a92621f2eb29f55 net: add skb_frags_hand_over()
 2a957161d1afefe09200170b7406eb2bf166e077 page_pool: keep a fixed receive region page mapped for its device
@@ -88,6 +87,7 @@ dd20b98732f84be653d6de7b9934babfc893b8d4 SUNRPC: Take over an skb's page-pool re
 bcc1d29b23fb718c68c67a529065b624e1dd3973 net: rx_loan: prefetch a loaned record's struct pages a batch ahead of release
 5703ae81eade0a74ff6e904055b4c0abbbd68054 net: rx_loan: fetch a released page's struct page a second time
 3a84b49d5ee903e6dd0f30de4ab705b49939caec SUNRPC: Make the share of the window a loaned record waits for tunable
+51abe476f0ddf241a5aa37d605fd5664398f5156 configs: enable the hammerspace-7.3-performance Kunit tests
 26bddc7a40de3f989bba3750e0345e0b42a5889c SUNRPC: Sleep without a timeout when the pool cannot lose the thread
 d823cb45408e96134b80be058b695c1817aafbfc SUNRPC: Cut the loads of a borrowed page's checks
 85094fd3b49c97e2e55ce19eb63cccb42e0741e3 SUNRPC: Trade only the pages a partly received loaned record holds
@@ -122,10 +122,10 @@ fbd72003ca6415cbf582ef1ffd3378063416d96b SUNRPC: expose the run-to-completion ac
 19d4ff660a451d0660f95a88a0694e45769c1829 SUNRPC: read the per-CPU active count in the svc_rtc KUnit suite
 43394a569e77342683595fd08e1a99427dadc232 NFSD_TCP_WRITE_ZEROCOPY: KUnit on build 512 in the tardis2 canary handoff
 1e87ed2027d5f85b5b5e3f8b34332a18875f18a1 NFSD_TCP_WRITE_ZEROCOPY: the rig scripts on David's region sizing and per-CPU pools
-c08ce623cf30120d4e8633793289a1f6e1ca5cec NFSD_TCP_WRITE_ZEROCOPY: build 512's runtime baselines in the tardis2 canary handoff
-c8247f12c9e08ea7bb77091bd0c931d33bdcadcc NFSD_TCP_WRITE_ZEROCOPY: build 512's per-CPU pools without the hop in the tardis2 canary handoff
 611647e8939f9ceff7129f4b10ab2d08936cf78d fs: avoid spurious dentry ref/unref cycle on open
+c08ce623cf30120d4e8633793289a1f6e1ca5cec NFSD_TCP_WRITE_ZEROCOPY: build 512's runtime baselines in the tardis2 canary handoff
 7e275e7c77207ab867d96838ba4357e714965f27 VFS: fix various typos in documentation for start_creating start_removing etc
+c8247f12c9e08ea7bb77091bd0c931d33bdcadcc NFSD_TCP_WRITE_ZEROCOPY: build 512's per-CPU pools without the hop in the tardis2 canary handoff
 be4ce769f61cfc1a057cddae01148d9de4f530d6 VFS: enhance d_splice_alias() to handle hashed dentries
 09193f8cf69dd00147bebded2dbbd4011146115f VFS: introduce d_alloc_trylock()
 2d39678465458fac57b3dfb54fbb0854e7cecd78 VFS: add d_duplicate()
@@ -168,22 +168,22 @@ b6ad019c4794e7fded3d955e2a9ae28a11941697 nfs: look a name up again once its remo
 f85b6120b5523988486ad374afea30f84ec72b8d LAB ONLY: make the O_CREAT shared-lock opt-in settable at run time
 b23c9a710882397121e4f4af19208d0234fc48fa LAB ONLY: nfs: add a runtime knob for shared-parent unlink
 73c1470ecdab782563101f5622eeb65d68c0fd4a SUNRPC: Shard the rpc_clnt task list to remove cl_lock contention
-e672e214916e237db3c614379b5d1b3125ff4f9b NFS: Do not revert the iov_iter of a queued async O_DIRECT request
-2e8489353f23f14247862fe64093998525907878 NFS: Add trace events for O_DIRECT read completion
-b7cad27e19debd2c927875c6b3125e5e31be9423 NFSv4/pnfs: send the last close's LAYOUTCOMMIT in the CLOSE compound
-2e9306e329eebf497b0fda6297ac08c3d3a25d64 LAB ONLY: make the CLOSE-compound LAYOUTCOMMIT settable at run time
 4cbfd9965822b14e0e4aa20ca4946cbff18859d3 svcrdma: spread each device's connections one per core of its NUMA node
 76164386f74a87ff83831574014fcb604c210654 svcrdma: place each client's connections on distinct cores
+e672e214916e237db3c614379b5d1b3125ff4f9b NFS: Do not revert the iov_iter of a queued async O_DIRECT request
 f251426e9a5a8410c88026e5f8347d3a75286972 SUNRPC: LAB ONLY switch to keep a pool's work on its own threads
+2e8489353f23f14247862fe64093998525907878 NFS: Add trace events for O_DIRECT read completion
 6d31d2155b7ff486bbfe9767267015d0341c98f4 SUNRPC: queue a placed transport's work on its home CPU's pool
+b7cad27e19debd2c927875c6b3125e5e31be9423 NFSv4/pnfs: send the last close's LAYOUTCOMMIT in the CLOSE compound
 6c39004c603c606f847402ca44596330311f1531 SUNRPC: under svc_pool_siblings=N, hand a drained pool's work to its server
-4fc086b8c624442366f3added03302b50b9dd5ee svcrdma: release a connection's core when its client disconnects
+2e9306e329eebf497b0fda6297ac08c3d3a25d64 LAB ONLY: make the CLOSE-compound LAYOUTCOMMIT settable at run time
 6933e676346d71b73edfdfa634a97102727765be NFSD_TCP_WRITE_ZEROCOPY: hold nfsd's rtc_read and rtc_write off in settled.sh
 d7b071f1c2f5428a24da4d38dfd08163aa2bc845 NFSD_TCP_WRITE_ZEROCOPY: build 514's runtime baselines in the tardis2 canary handoff
 12c7f6e8118b4e8706c924e19d20b4faa672dd97 NFSD_TCP_WRITE_ZEROCOPY: hold sunrpc's pool_mode at pernode in settled.sh
 1713a99846f709f4152603e79f13e06b80382d76 NFSD_TCP_WRITE_ZEROCOPY: build 514's denied loans in the tardis2 canary handoff
 bf6791ae2df4441c1d005751f5c5a7a0ee5a4648 NFSD_TCP_WRITE_ZEROCOPY: build 514's nfsd cycles over 507 in the tardis2 canary handoff
 bbaa17563714e8326472cd20596fc4363737ec00 NFSD_TCP_WRITE_ZEROCOPY: the bulk return's A/B kernel in the tardis2 canary handoff
+4fc086b8c624442366f3added03302b50b9dd5ee svcrdma: release a connection's core when its client disconnects
 c76f9d4c9135a69a51f233f141d159d978b6d7d8 NFSD_TCP_WRITE_ZEROCOPY: tardis2's boot into the bulk return's A/B kernel, the handover
 c2fa0d475e97f8ef628a51af1d4ea8143fc63217 page_pool: return a bulk's overflow to the receive region's slot at once
 f69425a81164e0d8b07f0ab3cedace8972f7c542 NFSD_TCP_WRITE_ZEROCOPY: the A/B kernel's first boot lost port a in the tardis2 canary handoff
@@ -644,13 +644,13 @@ d617c3aab3ed5e264f7077998c97853ecffac687 NFSD_TCP_WRITE_ZEROCOPY: round 107, io_
 7cb87322603bdc7a0e3ea3693b09ae657b4f5b70 NFSD_TCP_WRITE_ZEROCOPY: the READ pass reads on io_uring, fixed buffers
 65f3888593d3109d03f6b3383c7a73e295313494 NFSD_TCP_WRITE_ZEROCOPY: round 107, the WRITE engine A/B to run
 ff408ab99c30b420b4ed9a8fffa195c585693ffc NFSD_TCP_WRITE_ZEROCOPY: round 107, the drives hold WRITEs, not the engine
-a52e173fb513dda20b3b954af5180d61bd1426d9 SUNRPC: Count client calls per CPU, as plain increments lose counts
-4b7f519a7ea7a1bb8c4fd500049b3ee8cf3e3c00 NFS: Count the client's calls per CPU
-5b3bc9354375f79b43e10db2b2c2111e885c1659 SUNRPC: Let rpciod run unbound again with rpciod_per_cpu=N
 07204b8a15ce282f13ab0ff3bd71a02183bb7787 NFSD_TCP_WRITE_ZEROCOPY: round 108, 4 KiB random READs on the drives
 879490474e66d3f0eafba52f8d0ac36bfd41b299 NFSD_TCP_WRITE_ZEROCOPY: round 108, the drives read 16 M IOPS locally
+a52e173fb513dda20b3b954af5180d61bd1426d9 SUNRPC: Count client calls per CPU, as plain increments lose counts
 a31ac2bf76fab674b6a1d879a58208550c0f2cb8 NFSD_TCP_WRITE_ZEROCOPY: round 108, the 8:64 point and NFS 4K to run
+4b7f519a7ea7a1bb8c4fd500049b3ee8cf3e3c00 NFS: Count the client's calls per CPU
 c5a7da17bedabe8c27c73fe6f18d4eea395d2d08 NFSD_TCP_WRITE_ZEROCOPY: round 108, 4 KiB over NFS holds at 1 M IOPS
+5b3bc9354375f79b43e10db2b2c2111e885c1659 SUNRPC: Let rpciod run unbound again with rpciod_per_cpu=N
 a14fa865d6dda8defbd1c9652255309a307a4fb0 NFSD_TCP_WRITE_ZEROCOPY: settled-iops.sh, David Flynn's IOPS setting
 51bf394f0abe71e9b652cbb8f9b517d027d58a02 NFSD_TCP_WRITE_ZEROCOPY: round 108, NFS 4K with settled-iops.sh
 d03e38deb63e963cbce424d1fe488990383fdcde NFSD_TCP_WRITE_ZEROCOPY: round 108, settled-iops.sh reads 1.05 M IOPS
@@ -850,5 +850,17 @@ d8c5ab51f28a3807a9c09e9d4e8ff8c74b529c76 NFSD_TCP_WRITE_ZEROCOPY: round 136, a s
 5e219d30b1aacebe27ee21f2f60bdb3452e952a5 NFSD_TCP_WRITE_ZEROCOPY: round 136, the per-CPU choice reverted: passes
 410b80aa7b48c222aec39867a7770961cf07d46b NFSD_TCP_WRITE_ZEROCOPY: the WRITE and READ marks at 77.6
 3b21aa699cf0fd3fb0a92ab32bdf632f87c0911a NFSD_TCP_WRITE_ZEROCOPY: the client's updates/ holds the reverted stack
+6b14f9dd776385a880902cf6c7061806ef5fc8c1 Merge branch 'kernel-7.3/nfsd-testing-canary-nfs_common-XFS-IOLOCK-and-async-DIO-middle' into kernel-7.3/canary
+679ee199530d7aa002fb8cfc8244b768a67a889b Merge branch 'kernel-7.3/nfs-localio-performance-canary' into kernel-7.3/canary
+94aac413b73b04cde5d75215d16a47a15c2bd70d Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary' into kernel-7.3/canary
+e9def22edfc12070ca3cf7d32d21f68d957ceeff Merge branch 'kernel-7.3/nfs-and-nfsd-performance-canary-client' into kernel-7.3/canary
+c08ca3e45c910a67f1c0f96a286f1f186c305b23 Merge branch 'kernel-7.3/nfs-and-nfsd-performance-canary' into kernel-7.3/canary
+83dd67c67cc284d7cc3cae8c5c0be7afeac070ef Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part2' into kernel-7.3/canary
+13a5853bdbba91b29e5cfb21a883e6e6fa95728b Merge branch 'kernel-7.3/jflynn-io500-canary-client' into kernel-7.3/canary
+8b29ef9980c6c8f7e022cfb5afa7fd425e1fed6e Merge branch 'kernel-7.3/jflynn-io500-canary' into kernel-7.3/canary
+1cb518a103628ec00fa44f230b93095d6869d613 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part3' into kernel-7.3/canary
+767be2af5b330809aff9de37a89bf795b3bad266 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS-client' into kernel-7.3/canary
+5489779b0c5853afc6189b7bcb2d686c3170e623 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS' into kernel-7.3/canary
+f7b78332d30efb15caac6434b17396ec4a110420 Merge branch 'kernel-7.3/changelog-canary' into kernel-7.3/canary
 
---===============6584543965495950162==--
+--===============3518857318525039184==--
