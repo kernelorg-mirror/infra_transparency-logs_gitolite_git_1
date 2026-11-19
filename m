@@ -1,54 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5729883205914038385=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Thu, 19 Nov 2026 16:37:08 -0000
-Message-Id: <179510622877.4177102.14155771848814050589@gitolite.kernel.org>
-
---===============5729883205914038385==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
+Date: Thu, 19 Nov 2026 16:40:29 -0000
+Message-Id: <179510642978.4180526.49480480496872778@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
+user: clrkwllms
 changes:
-  - ref: refs/heads/for-next
-    old: ea57bfe3ec966eb3e2a3b47106200931cfabde06
-    new: 846bb710f388e434ba0a6a08ae4c040387c00865
-    log: revlist-ea57bfe3ec96-846bb710f388.txt
-
---===============5729883205914038385==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea57bfe3ec96-846bb710f388.txt
-
-ae8ecbc1e28633bdb23cfb61d8048c4e8f52052d scsi: sd: Remove unused zone append tracepoints
-e1a17bf98f513a77e5e6903315c49f56ee009886 scsi: mvme16x: Enable 53c710 burst-8 hardware transfer mode
-746aa1d936b17679361e8d787c6480ccb7c21240 scsi: core: Move REPORT TARGET PORT GROUPS into the SCSI core
-e085b1d6b6aabd6a7dcd9f02135f9376ff39e95a scsi: core: Read the ALUA access state when a device is scanned
-6054ce4233dbc692f50da5517ad459fae1b14ac6 scsi: core: Match ULDs to logical units in the ALUA unavailable state
-0ba0ffc7748d83c6f8792fea31b569042a12f1b2 Merge patch series "scsi: Bind sd to LUs in the ALUA unavailable state"
-dc7ba60d45b105b91d4e2e9567b355fb4a043def scsi: core: Restart the queue when unblocking a device set running
-dd86dc1d86c892c75592d45e000499dfb20d2c62 scsi: qedf: Remove unesseary function call
-787fd1429b3603fdc69ebba864165478c4e73544 scsi: scsi_devinfo: Return an error when the proc write fails
-db1fe578b7eabc7f218b84fc18a626d07f377a69 scsi: scsi_transport_fc: Reject truncated FPIN payloads
-63d67440dc9f103aad38b14f409d6d6e54396746 scsi: target: iblock: Drop the dead kmap() NULL check
-0fc91e802801819a0c51d30b6eecac63ab4f85d2 scsi: target: core: Drop the dead kmap_local_page() NULL check
-e0696bf65006d888c713ff54269c7fd32bbe62a7 scsi: rpmb: core: Guard frame requests and teardown with mutex
-7bc9b854cd68ed2d06949540ca18a44368569c64 scsi: ufs: rpmb: Decouple device lifecycle from devres to avoid UAF
-b1de2bd5a4d64d190156aa442c5295ce635f9992 scsi: ufs: rpmb: Drop the unregistered ufs_rpmb bus
-040d27029306f59a78c3af32f665693590244043 scsi: scsi_ioctl: Require write access for the depopulation commands
-cbd9818ebed38fd8ddd6af7335d60908aceb93f4 scsi: libfc: Fix rport kref leak in fc_rport_enter_ready()
-947d8e9a4d1ea6cc71427e7f701e5c2cf35391c9 scsi: ufs: ufs-pci: Check hba->vops in system PM callbacks
-7470a1f2a84d68d177560b78388e640771b6b94a scsi: lpfc: Fix race conditions in ELS retry handling
-a410375a249c4f9e1eb3d7f2c864d3f4ef4b8365 scsi: scsi_dh_alua: Set handler_data before alua_initialize()
-dd6ff53a2706628cdd08edb202e36153de22fec9 scsi: mpt3sas: Fix off-by-one in NVMe PRP list transfer size limit
-9f9e0b1e5399045982788a954d3461de894e40c7 scsi: ch: Remove the minor from ch_index_idr after device_destroy()
-00cebc4b7d94187d1d9b27a953d73e354be27145 Merge branch 'misc' into for-next
-846bb710f388e434ba0a6a08ae4c040387c00865 Merge branch 'fixes' into for-next
-
---===============5729883205914038385==--
+  - ref: refs/heads/v6.6-rt-next
+    old: 235f6472708d9390044eb7d23f4131307a99ea29
+    new: f49e9f433809d75a01a3f5065498b008efd226ab
+    log: |
+         89e534265b62c94749639350200b10370564bb3a xen-netback: Fix UAF when reading statistics data
+         0d515c409033c8e2a645a781be3ca76ab825fc8c xen-netback: defer xenvif_mcast_addr_list_free()
+         fe9ead8c5bdb752e329cecfecbdb5dfca5e9996b xen-blkback: Avoid UAF when reading I/O statistics
+         5139929c698c273e07cb0635732f6a918a7b8e78 Linux 6.6.162
+         97c4bdc10a4ddf647a09cfdbcf590dbc77dd25b5 Linux 6.6.161-rt83
+         d6844f34eb49758d0a3c0b80f910452d334a25c1 Merge tag 'v6.6.162' into v6.6-rt
+         f49e9f433809d75a01a3f5065498b008efd226ab Linux 6.6.162-rt84-rc1
+         
+  - ref: refs/tags/v5.15.223
+    old: 0000000000000000000000000000000000000000
+    new: 139a64161c0209818ac3506a4eea4473aa2d8018
+  - ref: refs/tags/v5.15.224
+    old: 0000000000000000000000000000000000000000
+    new: 0d1714c6c3305e6ac1131ea2a4186f9d7607496a
+  - ref: refs/tags/v5.15.225
+    old: 0000000000000000000000000000000000000000
+    new: 4401cea611e967e09e0919f526f02a04f0f84cd8
+  - ref: refs/tags/v6.12.112
+    old: 0000000000000000000000000000000000000000
+    new: 1092ff6640e96a20f741340bac5187c31070f091
+  - ref: refs/tags/v6.12.113
+    old: 0000000000000000000000000000000000000000
+    new: 0f6a69bb2f85d6da4dc81c32685143ee6c255348
+  - ref: refs/tags/v6.12.114
+    old: 0000000000000000000000000000000000000000
+    new: 94632db1ce2426a1018af806db3bd3d6f1d04e46
+  - ref: refs/tags/v6.12.115
+    old: 0000000000000000000000000000000000000000
+    new: 2ab8c3a12beb08e530e7697f273635e60417617c
+  - ref: refs/tags/v6.12.116
+    old: 0000000000000000000000000000000000000000
+    new: d9f08ef087e621ee00e75aca63ee2e966f16eca7
+  - ref: refs/tags/v6.12.117
+    old: 0000000000000000000000000000000000000000
+    new: 3edfb92cd34f439b2e2878c3544a1683871d29ee
+  - ref: refs/tags/v6.6.162
+    old: 0000000000000000000000000000000000000000
+    new: 5e65a2d03c612c60bdd4b013e773fa583f01aa9e
+  - ref: refs/tags/v6.6.162-rt84-rc1
+    old: 0000000000000000000000000000000000000000
+    new: a769d6286e7be1807848e45c199dccc7555f60f7
