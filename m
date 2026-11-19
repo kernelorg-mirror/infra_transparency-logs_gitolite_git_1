@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 19 Nov 2026 20:51:36 -0000
-Message-Id: <179512149694.198546.15804739739067643962@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Thu, 19 Nov 2026 20:52:23 -0000
+Message-Id: <179512154323.199090.5680072188196449066@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/heads/main
-    old: 1e575bda30acc0bf01f799cee798d4a1c100d538
-    new: 5e2976e52671e35bbd47cf5e53a9bf34df105b7e
-    log: |
-         5e2976e52671e35bbd47cf5e53a9bf34df105b7e MAINTAINERS: update prestera switchdev e-mail address
-         
+  - ref: refs/tags/waitqueue-7.5-rc1
+    old: 0000000000000000000000000000000000000000
+    new: aba93d7c72c4b3c3bc9d81848d9fb42c1d5e3f56
