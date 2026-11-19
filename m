@@ -1,46 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============0139570339734388137=="
+Content-Type: multipart/mixed; boundary="===============8511210656881824309=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Thu, 19 Nov 2026 08:12:15 -0000
-Message-Id: <179507593589.3715932.3750914838853976152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 19 Nov 2026 08:12:53 -0000
+Message-Id: <179507597301.3716227.6132518242000638750@gitolite.kernel.org>
 
---===============0139570339734388137==
+--===============8511210656881824309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/netfs-next-3
-    old: e74086cfeb13e6550daa03bdc877b5bc8f3a9864
-    new: 642a5206673b0a913287ee5984937963c722db80
-    log: revlist-e74086cfeb13-642a5206673b.txt
+  - ref: refs/heads/master
+    old: f418c1116f2ec1940e27ae4a38dbf42a0be719a8
+    new: 9d9a6432320541d9d1968c64408bd169c8cab048
+    log: |
+         e32f73c8b4147c082622060e5a6dd182ffae66e2 proposed: Add Ruiqi's results for v7.3.5
+         a7916a7e6458dff525ff2447c825929ca7b8faef assign a cve id on request
+         6929e94c4a3a002b9d13795ea9ebfaf02e486df1 strip the new mbox file
+         ed48c21e47e90a3ac7047b5051f0349cfa3a4a31 mark 7.2 reviews as completed
+         bb8faba6fc9b72069a7228c8263171cb1c68cb73 mark 7.3.1 review as done
+         9d9a6432320541d9d1968c64408bd169c8cab048 mark 7.3.3 review as done
+         
 
---===============0139570339734388137==
+--===============8511210656881824309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e74086cfeb13-642a5206673b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4df6a9651482b4f438d4a23437567e8c11d64e07 block: Add a function to kmap one page of a multipage bio_vec
-c771de30ae84fba61cdf15462eee67778c8fb555 iov_iter: Add a segmented queue of bio_vec[]
-69512555cb6b78dd8d15417ad91942334bc38b00 netfs: Add some tools for managing bvecq chains
-54bda4ec22c9481bf59a7e52f9465e3ba2fefe86 iov_iter: Add an API document for the bvecq structure
-745e1b9fc18b0b5010360f4f17280786ae3da355 iov_iter: Add a bvecq kunit test
-b9699aeb6ecfa1382131a73434879a3ea37f6340 afs: Fix an inconsistency in the symlink code
-4880ecc4dc8d7ba0cdc9b85da99e603fba81e1cb netfs: Explicitly pass tail padding to netfs_writeback_single()
-d2a309d3a7acb6d50f899ef9a9391d6030cdfc3b netfs: Change netfs_writeback_single() to not look inside the iterator
-1dab810fc1b4eeff29a7e988a019ef1e723e73d5 netfs: Pass the write length to request creation where appropriate
-9b91ee8a2fa6b24400be5090feed51fd5b0076d4 afs: Use a bvecq to hold dir content rather than folioq
-38c9b3acbdfb24a7633119fd38033a1592aed998 cifs: Use a bvecq for buffering instead of a folioq
-97164a3db236ea4d57180a181ed318482b2eea7d smbdirect: Support ITER_BVECQ in smbdirect_map_sges_from_iter()
-5627f0830be59a0b6cdf59675f19660bccb9b4dc netfs: Switch folioq to bvecq
-ff9b4f40ed8e52b21377489809c5c599232c16b4 smbdirect: Remove support for ITER_FOLIOQ from smbdirect_map_sges_from_iter()
-cbcf1f2fa100083c3d078afe5811732641170621 iov_iter: Remove ITER_FOLIOQ
-642a5206673b0a913287ee5984937963c722db80 netfs: Remove folio_queue
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795075969 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1795075969-d99ae39d2a466e36f515e7fcb8b9978c4c5f252e
 
---===============0139570339734388137==--
+f418c1116f2ec1940e27ae4a38dbf42a0be719a8 9d9a6432320541d9d1968c64408bd169c8cab048 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmr+r4EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+I4gQAKeIYDBQ+tlK1qMtrT89
+c2onoTJybP+ejr/EjMxAf18HYGYJS6Wm2FOKJcdH8MlDtU4GZkNDwH2CTPg4s3iB
+g3Xlk70kdVBZ3IDVeKilEM1ZVR2nacbVjgl58UDqZ9wmozk2CcUFf1GZN1SaaSS8
+6FxvaCIn/2H8QOGLTz35/hsdf8fzCDpSGpvzpYOucrc/H2itpQ2HAiskv6rTQts+
+yWQy+JB6UDpKg09f2CjxNP2sw5/38e3SVuyYjPofVK3QSRqmbpWMh5XGMFcSdEfT
+AvRtKxn23fBsmUwevwti+DxKYdIlMVl0gNdONhco2TN3zlbu5Lspi+YbHi57dxNJ
+cGJkoNKV75LaTLxpfbklyUeiU+qoA8IPYPV8XdbJ4X9Vf8yKv9AYNXhzmL8JhEIu
+Cgv/FVATWfNqrIv5zLTLoYYetrhd9JFKCGv2Pt3xAQ6dXjq1K5RwjzC/uARMQUVp
+O8IAch9dILEJ1z9AVlQz7nmitPeYv/GL8bPZcpEm9nm4q0T5XVFL/cp60RJizX4c
+C8XTEgPpwNLigBMyL30+eEeqpDZivezJjuKLY1xsrRJkGHW67E0VOXcDOuv8Dq8S
+qUMjcrPVZc2o2lne8SZW5qwYR9eLmJ4Xa94vUzU11aU70MZX1fT4sbHa17p4IsW1
+trCRP3TTEoFwYaaFzBGHun8N
+=r7Wk
+-----END PGP SIGNATURE-----
+
+--===============8511210656881824309==--
