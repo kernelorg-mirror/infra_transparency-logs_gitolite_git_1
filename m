@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6200706076074090787=="
+Content-Type: multipart/mixed; boundary="===============0971925918397292231=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 19 Nov 2026 00:57:17 -0000
-Message-Id: <179504983769.3378821.13444154880118220097@gitolite.kernel.org>
+Date: Thu, 19 Nov 2026 00:57:20 -0000
+Message-Id: <179504984005.3378982.10467696670695848287@gitolite.kernel.org>
 
---===============6200706076074090787==
+--===============0971925918397292231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part3
-    old: d2d20e07d326597571108893bb329a02197fa1de
-    new: ff408ab99c30b420b4ed9a8fffa195c585693ffc
-    log: revlist-d2d20e07d326-ff408ab99c30.txt
+  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS-client
+    old: 92166b245bb8d919d3b1c043b90130aca8cc6692
+    new: 5b3bc9354375f79b43e10db2b2c2111e885c1659
+    log: revlist-92166b245bb8-5b3bc9354375.txt
 
---===============6200706076074090787==
+--===============0971925918397292231==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d2d20e07d326-ff408ab99c30.txt
+Content-Disposition: attachment; filename=revlist-92166b245bb8-5b3bc9354375.txt
 
 8c193fe99d2e7021db079e5affc2eed95628dff9 page_pool, sunrpc: split a read partition off the rx region; direction-neutral credit
 76ca67202bca581a52ae10ae6a8956f89d4db1a1 sunrpc: KUnit tests for the read pool, the write-partition budget limit and the rx region exports
@@ -644,5 +644,8 @@ d617c3aab3ed5e264f7077998c97853ecffac687 NFSD_TCP_WRITE_ZEROCOPY: round 107, io_
 7cb87322603bdc7a0e3ea3693b09ae657b4f5b70 NFSD_TCP_WRITE_ZEROCOPY: the READ pass reads on io_uring, fixed buffers
 65f3888593d3109d03f6b3383c7a73e295313494 NFSD_TCP_WRITE_ZEROCOPY: round 107, the WRITE engine A/B to run
 ff408ab99c30b420b4ed9a8fffa195c585693ffc NFSD_TCP_WRITE_ZEROCOPY: round 107, the drives hold WRITEs, not the engine
+a52e173fb513dda20b3b954af5180d61bd1426d9 SUNRPC: Count client calls per CPU, as plain increments lose counts
+4b7f519a7ea7a1bb8c4fd500049b3ee8cf3e3c00 NFS: Count the client's calls per CPU
+5b3bc9354375f79b43e10db2b2c2111e885c1659 SUNRPC: Let rpciod run unbound again with rpciod_per_cpu=N
 
---===============6200706076074090787==--
+--===============0971925918397292231==--
