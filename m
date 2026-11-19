@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4247392006847014220=="
+Content-Type: multipart/mixed; boundary="===============0696064496001596217=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 19 Nov 2026 01:36:10 -0000
-Message-Id: <179505217063.3416975.4200966053526439486@gitolite.kernel.org>
+Date: Thu, 19 Nov 2026 01:36:14 -0000
+Message-Id: <179505217496.3417217.13702005842787810060@gitolite.kernel.org>
 
---===============4247392006847014220==
+--===============0696064496001596217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,48 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 290fe085f00519f1ac96ed877dc7487b3842abcb
-    new: 3dfc09a9493ddaa5e7722a29165d8450b55b4d3f
-    log: revlist-290fe085f005-3dfc09a9493d.txt
+  - ref: refs/heads/mm-unstable
+    old: 1b697248a755254115fde38598193d127c562e7f
+    new: 376fb945578b6a1f0001fe27adcd01b11340f4a4
+    log: revlist-1b697248a755-376fb945578b.txt
 
---===============4247392006847014220==
+--===============0696064496001596217==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-290fe085f005-3dfc09a9493d.txt
+Content-Disposition: attachment; filename=revlist-1b697248a755-376fb945578b.txt
 
+be94710b1f6ba1bea33e73129c110af80e999b2d tracing/eprobe: Install the trigger for every instance that enables the eprobe
+0584b02669c3e76188097174b4f25ed13723e94c smb: client: bound invalid NTLMSSP signature diagnostic
+8deaf64a59a263161dfc5128f8398fb3dcba4fac smb: client: skip NULL channel in __cifs_put_smb_ses()
+73a0060cb22a1d2bd8bff364c18a4259ec0cb528 smb: client: fix OOB write when compounding SMB2_IOCTL with encryption
+5cdc3746fa163fb4e8d05fa3cabf46bc6aa7df75 x86/mm: Fix global ASID handed out to two processes
+1178120c3bed1733aea1c465200a6b42f8a7105d kbuild: rust: support stabilized flag `-Cprofile-sample-use` for Rust >= 1.100
+84f4cc8d41744f103d6fa7e87739b2be5a2d27b0 ntfs: fix out-of-bounds write race in NTFS_IOC_LIST_STREAMS
+5e7143476219eac7cab7bdd341db68dab1649737 ntfs: check the file name against the key length of an index entry
+ce5cdda498a9479b32ba1c7d68b1d97f3c840354 ntfs: silence kmalloc/kvfree mismatch warning
+0ea30dd6eeabc09235d5c2cdb98ca4e0d593963f ntfs: do not read an index block outside $INDEX_ALLOCATION
+bada7bbb11aaa6feba8904cf38ff833453f5b5d9 ntfs: open the index allocation before reading or writing an index block
+42ac1f1917ae678ee2c47f415ab844af03bbd46b ksmbd: grant a caller what its groups and OWNER RIGHTS ACEs allow
+2fd145f8865bb1a6c38a3dc68fa44290008789d8 ksmbd: refuse to read a handle that is not open for reading
+81fefb6c635489e71e286d1465b6dd1d0a27ceec ksmbd: skip metadata-only opens in sharing checks
+2f14fe2d589583ce649b2bf1b449cc9839abda8b ksmbd: skip metadata-only stream opens in the delete check
+58c5852ca96c58cdfdb9646870b217fc54d06a97 kho: check fdt_phys in is_kho_boot()
+bef911b8064db38d32ccfed7f05ac639978180d6 Merge tag 'rust-fixes-7.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
+d1829ebf4ad888f1b73afee0f1d6e41734ca328a Merge tag 'locking-urgent-2026-11-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+40f3717a64edff0b91686e22208312114f7e2061 Merge tag 'perf-urgent-2026-11-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+2ebb9de23bbd942b1a2431384e4a62908c31bb2a Merge tag 'sched-urgent-2026-11-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+ffb59029c0d52bf76fdd2678f5d6fd13e26220dd smb: client: validate descriptor headers before query result allocation
+a2dabe73ea05ad3b3f8e1cc08fb2e7c2ddc5564b smb: client: compare owner and group SIDs using their encoded lengths
+11b6438b9e9f30e2eead2f232a58ef3f71a206be Merge tag 'x86-urgent-2026-11-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+86aacc2f3f6ba18e1d87feee24f37c94b3ce863a smb: client: fix out-of-bounds read in dfs_parse_target_referral()
+92509ce64ffff02d05fe9f3c82b889e1cc500076 smb: client: fix double conversion of DFS path in setup_dfs_ref()
+2651f6deb3326129a052897df193052dc28ea94f Merge tag 'mips-fixes_7.4_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+25fccf436e6e978954bb2774170d1094889c3fc7 Merge tag 'firewire-fixes-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
+e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+8a65162514fbad21a2c58ffed65f42b27e92b163 Merge tag 'driver-core-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
+e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
 0be7a931c5e41dcfdaf297f5cd34def2696b0a7e kprobes: Disarm disabled optprobe on forced unoptimization
 ce9bc14902d1c27b6c0eac25666e2516e13f2b19 kprobes: Do not disarm unhashed optprobe on dispatch
 1ffd6efb1b58e596ed70f660182803264a4c84d9 kprobes: Arm reused optprobe on cooling list
@@ -1019,36 +1050,5 @@ a89598663ab6525ca5e51339725c82dc55b26302 mm/damon/paddr: add KUnit tests for add
 747cf743c717de7df92527d6e9ef134c664a4958 mm/damon/paddr: avoid truncation warning in high-address KUnit test
 6b5fe97c41d3e6ad254f12996802f0229ac77656 Docs/mm/damon/design: replace "same to" with "same as"
 376fb945578b6a1f0001fe27adcd01b11340f4a4 fs/proc/task_mmu: fix lost maps entries above 2^63
-622be4669880a4ba15278c9f0a10d272e4a97331 hugetlbfs: fix integer overflow in fallocate()
-b83cabcc21f5b3f860921c6174ee39b5c212652e mm/hugetlb: compare against persistent count when freeing lowmem folios
-03853c46369493aee4c9badc19cd9c92707fbc57 mm/hugetlb: preserve reservations when shrinking on HIGHMEM
-abc3dda672ab05c3fd63b6d677605e419ae53b37 mm/hugetlb: account temporary folios separately
-c707195ccb3f2232379b514edfc2006d17ec2428 mm/hugetlb: keep surplus folios when the pool shrinks
-5d9a7c02317d1c98d28d41a4ea591631d713b7ce mm/hugetlb: fix mremap() racing with page migration
-8ea67e48e22b812a9ff08d71bfa08c3a7710a32f hugetlbfs: fix unmapping folios from private VMAs
-99add56a5da6bc445206a39d6471ede303990cec mm/hugetlb: serialize page-cache allocations with truncation
-d91901c165e728299dd14a1ae92c41f519a7f1ab mm/memfd: recheck the page cache before allocating a hugetlb folio
-176520ad866df857c599959c98584f3072518b43 mm/hugetlb: count again if the reserve map shrank
-759db7f15fd62382a377c560c5d96e91c6a9d54b hugetlbfs: do not grow a sealed file in mmap()
-5bc6ab83cd0db4d194a48423fb9b3f596fcbb723 mm/hugetlb: keep surplus folios that are reserved
-fd06ddef7bb62877c0d674ddab0f01f805c3c609 mm/hugetlb: fix reservation leak on min_size= mounts
-19f08bd97896d780bdf8ecb301dd63972e6d6673 mm/hugetlb: account restored reservations before freeing folios
-e447e1f57c5122ffcd5557a41c545151cff4d9d6 hugetlb: don't restore vmemmap of non-HVOed folios on bulk restore error
-c634cbea30c7f56e44d266abed6b2303dd2da341 lib: xarray: free unused spare node in xas_create_range()
-bd1bc19b68e719b7b33a0a41f72f8f76ffef4ced lib/test_xarray: check unused spare node after range creation
-1affae10a43f6b2c2437f4c01782aee1f3294bb0 mm/hugetlb_vmemmap: fix HWPoison state races during optimization
-b238b5f290f36829cd8c4d3b7415bb3bf91e16d8 mm/hugetlb_vmemmap: fix PMD split TLB flush race
-3690fe3e000546915e21e1cab12cf66da5cb60a0 mm/hugetlb_vmemmap: fix deadlock during PMD split
-d0495cdb032e12be2c0d34cbbb3e55d3c579fe5a selftests/mm: protection_keys: use _exit() in aarch64 ptrace tracee
-12d96cf80fcd194a4271a79f739ce0f498a17081 mm/mglru: use a smaller batch in fill/drain_evictable()
-80ff05b7c05099cd42fd9d845ebc8c55f6645235 mm/zsmalloc: remove CONFIG_ZSMALLOC_STAT
-d24e12c15f5209a1a9ff0d4e3fdad98018ee887d mm/userfaultfd: prevent poison marker loss
-c1c3a789d730104136342ccd1eff7e1a3f8fb219 mm/userfaultfd: check exclusivity of the page being moved
-4c5b9ac97e4edea81220a074855e871399cf571c x86: hugetlb: disable default CMA reservations on 32-bit kernel
-34a8b0aaa6c5f48304fa9d90284e5fd99deb0ebe mm: gup: allow long-term pins of CMA-allocated HugeTLB folios
-bcefecb8fc89fd3b74d793a76e855d6ced68b7bf mm: hugetlb: fix GFP mask propagation to CMA
-be03a6cf5532e9303a5fd6cc04d5c800c7766a37 selftests/mm: handle implicit read permissions in madv_populate
-3314c1b7b9a2f0f43e4d955aabe0cc16b3eadae3 lib/test_xarray: check the offset of new root nodes
-3dfc09a9493ddaa5e7722a29165d8450b55b4d3f xarray: initialise the offset of a new root node
 
---===============4247392006847014220==--
+--===============0696064496001596217==--
