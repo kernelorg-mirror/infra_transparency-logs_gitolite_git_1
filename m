@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 19 Nov 2026 22:28:03 -0000
-Message-Id: <179512728396.273738.11926480639067460317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 19 Nov 2026 22:31:08 -0000
+Message-Id: <179512746840.277199.9580479648317145179@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: 1305c408e5d6352eeee66ca4c77c64cf9d237222
-    new: 250e33dab91069d388ec9aa3bbd11b492395d7fc
+  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part3
+    old: ff408ab99c30b420b4ed9a8fffa195c585693ffc
+    new: 8112bb40a3b89ba8494e87fed4bf6f5a5d8480c8
     log: |
-         250e33dab91069d388ec9aa3bbd11b492395d7fc ASoC: tas2781: add realtime speaker protection data control for TAS2573
+         8112bb40a3b89ba8494e87fed4bf6f5a5d8480c8 SUNRPC: Declare the rx target hook outside the KUnit block
          
