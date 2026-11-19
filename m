@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Thu, 19 Nov 2026 16:52:42 -0000
-Message-Id: <179510716260.4189445.14416846050973193044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Thu, 19 Nov 2026 16:57:29 -0000
+Message-Id: <179510744936.4193093.11949686667226348529@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/next
-    old: b2a9f2d43bbdf6dcf178e300c815816a4fe4447d
-    new: 4feb6879b9ab42cacb905f27a44160b7f1f49d85
-    log: |
-         4feb6879b9ab42cacb905f27a44160b7f1f49d85 landlock: Add missing EINVAL case in the doc for landlock_add_rule
-         
+  - ref: refs/heads/for-next
+    old: 824ea8a20e117a95e2e88c01828b962bf6f6cc0f
+    new: 0000000000000000000000000000000000000000
