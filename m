@@ -1,46 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7975643470113754098=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Thu, 19 Nov 2026 06:19:36 -0000
-Message-Id: <179506917626.3630361.6551902685794115077@gitolite.kernel.org>
-
---===============7975643470113754098==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/gerg/m68knommu
+Date: Thu, 19 Nov 2026 06:21:51 -0000
+Message-Id: <179506931195.3633537.14929949472455704449@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/gerg/m68knommu
+user: gerg
 changes:
-  - ref: refs/heads/master
-    old: 016b4d76aefb148d1a8abedf6b2d3e29b8e46562
-    new: 07fb8819a3255c796d43d9c2002eba8ed0ee0a8d
+  - ref: refs/heads/cpu-model
+    old: bdf44b7b88a06b5bfcef4a4a64b9baa63b9a6646
+    new: fe4619368ec099d008cdeec9e714f7ce65c120bd
     log: |
-         07fb8819a3255c796d43d9c2002eba8ed0ee0a8d Add 1AD68C9C6DD9111F (Juri Lelli)
+         f9abb1cf2536bc50af20ab4c64dfefac7eb813a2 m68knommu: probe CPU identity for ColdFire 523x types
+         d01899c1c84f980c6094fb99d666e621e804571c m68knommu: probe CPU identity for ColdFire 5249/5251 types
+         0e8e1e6ccded3dd19620a618c9bd63f4ec8cf49a m68knommu: probe CPU revision for ColdFire 5272
+         974f279bce07d9fe8ead1f3ccd9afee75a1a15da m68knommu: probe CPU identity for ColdFire 527x types
+         4acc27aaf26a7bf9a4d8858dbbc2dcff8eb6d345 m68knommu: probe CPU identity for ColdFire 528x types
+         bc48482858d419fe65004269133a771275d41c72 m68knommu: probe CPU identity for ColdFire 53xx types
+         23664df0ec019383e4e85b0c3083ba376c450b82 m68k: probe CPU identity for ColdFire 54xx types
+         fe4619368ec099d008cdeec9e714f7ce65c120bd m68k: probe CPU identity for ColdFire 5441x types
          
-
---===============7975643470113754098==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1795069175 -0500
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1795069175-a6f32cfcc2c62631036757727c3378bb1075210b
-
-016b4d76aefb148d1a8abedf6b2d3e29b8e46562 07fb8819a3255c796d43d9c2002eba8ed0ee0a8d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCav6U9wAKCRC2xBzjVmSZ
-bMDpAPwLIjqbkA9hO6PD7bTt/zPd7TESYkqKP5fneFqRgwGCVQEA1S9VIjYf/kAY
-reiLOlBi6twDTjCQfJCwh6BKXn/3xAs=
-=1x4X
------END PGP SIGNATURE-----
-
---===============7975643470113754098==--
