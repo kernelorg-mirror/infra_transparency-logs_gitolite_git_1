@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 19 Nov 2026 18:12:08 -0000
-Message-Id: <179511192883.73928.9676032963404990448@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 19 Nov 2026 18:15:22 -0000
+Message-Id: <179511212211.77045.8468130456158336786@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: 0aa294970888a96261de01c319a7e748eb2e701c
-    new: 35aa7b7f8501ae6be81de4118b7cf4c1b1d7927b
+  - ref: refs/heads/kdevops
+    old: 3bdfde2438d011069316032a53058196a36e59ab
+    new: aee3770b430e66f3da0bd3e37d7f11c4f952046b
     log: |
-         a6ff2055fdbb646d7d21ca17e6a47604ac81b26f ASoC: dt-bindings: pcm512x: Add mute-gpios property
-         35aa7b7f8501ae6be81de4118b7cf4c1b1d7927b ASoC: pcm512x: Support external mute GPIO
+         3f97ef0bd74acef8ce7f6117dfd0537584baafed nNFSD: Reject a COPY whose source and destination are the same file
+         7a45d0a96f532bdb17aa644c5a4ed83d073e4a3d NFSD: Reject a COPY whose source and destination are the same file
+         aee3770b430e66f3da0bd3e37d7f11c4f952046b Merge branch 'nfsd-copy-same-file' into kdevops
          
