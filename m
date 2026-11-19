@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1037889759272003132=="
+Content-Type: multipart/mixed; boundary="===============0839767440022474009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 19 Nov 2026 00:57:12 -0000
-Message-Id: <179504983254.3378488.9756695198487496504@gitolite.kernel.org>
+Date: Thu, 19 Nov 2026 00:57:14 -0000
+Message-Id: <179504983486.3378670.12807717101421703304@gitolite.kernel.org>
 
---===============1037889759272003132==
+--===============0839767440022474009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/jflynn-io500-canary-client
-    old: fe9cb2f0299921ed70412b185014720e2bb60fbe
-    new: 2e9306e329eebf497b0fda6297ac08c3d3a25d64
-    log: revlist-fe9cb2f02999-2e9306e329ee.txt
+  - ref: refs/heads/kernel-7.3/jflynn-io500-canary
+    old: b96d2aed4cd082f986678430b67e8e91a8289d70
+    new: 4fc086b8c624442366f3added03302b50b9dd5ee
+    log: revlist-b96d2aed4cd0-4fc086b8c624.txt
 
---===============1037889759272003132==
+--===============0839767440022474009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe9cb2f02999-2e9306e329ee.txt
+Content-Disposition: attachment; filename=revlist-b96d2aed4cd0-4fc086b8c624.txt
 
 8c193fe99d2e7021db079e5affc2eed95628dff9 page_pool, sunrpc: split a read partition off the rx region; direction-neutral credit
 76ca67202bca581a52ae10ae6a8956f89d4db1a1 sunrpc: KUnit tests for the read pool, the write-partition budget limit and the rx region exports
@@ -172,5 +172,11 @@ e672e214916e237db3c614379b5d1b3125ff4f9b NFS: Do not revert the iov_iter of a qu
 2e8489353f23f14247862fe64093998525907878 NFS: Add trace events for O_DIRECT read completion
 b7cad27e19debd2c927875c6b3125e5e31be9423 NFSv4/pnfs: send the last close's LAYOUTCOMMIT in the CLOSE compound
 2e9306e329eebf497b0fda6297ac08c3d3a25d64 LAB ONLY: make the CLOSE-compound LAYOUTCOMMIT settable at run time
+4cbfd9965822b14e0e4aa20ca4946cbff18859d3 svcrdma: spread each device's connections one per core of its NUMA node
+76164386f74a87ff83831574014fcb604c210654 svcrdma: place each client's connections on distinct cores
+f251426e9a5a8410c88026e5f8347d3a75286972 SUNRPC: LAB ONLY switch to keep a pool's work on its own threads
+6d31d2155b7ff486bbfe9767267015d0341c98f4 SUNRPC: queue a placed transport's work on its home CPU's pool
+6c39004c603c606f847402ca44596330311f1531 SUNRPC: under svc_pool_siblings=N, hand a drained pool's work to its server
+4fc086b8c624442366f3added03302b50b9dd5ee svcrdma: release a connection's core when its client disconnects
 
---===============1037889759272003132==--
+--===============0839767440022474009==--
