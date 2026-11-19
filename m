@@ -1,41 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============4558762362430993927=="
+Content-Type: multipart/mixed; boundary="===============6025543635818957360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 19 Nov 2026 11:20:13 -0000
-Message-Id: <179508721384.3886724.7018212414351159875@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Thu, 19 Nov 2026 11:24:58 -0000
+Message-Id: <179508749839.3906102.1357779493721947298@gitolite.kernel.org>
 
---===============4558762362430993927==
+--===============6025543635818957360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/main
-    old: 747bdda274d0d0dce0c7c4eb01977a1270ca7163
-    new: acaf0f3190bcf5831042cfd2ddb09ddf16ee71ae
-    log: revlist-747bdda274d0-acaf0f3190bc.txt
+  - ref: refs/heads/fixes
+    old: 2f3af3643a2c69429fc40868b3654886d9b144ba
+    new: 3385a832525527801012f5993d1f6a7a3d23092c
+    log: revlist-2f3af3643a2c-3385a8325255.txt
 
---===============4558762362430993927==
+--===============6025543635818957360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-747bdda274d0-acaf0f3190bc.txt
+Content-Disposition: attachment; filename=revlist-2f3af3643a2c-3385a8325255.txt
 
-0fc372da80d0ec8818812a49bf652ee212e419b3 linux-firmware: Update firmware file for Intel Scorpius core
-def5084f2f116cdbcbd81dd844c2184143798638 linux-firmware: Update firmware file for Intel Scorpius2 core
-59f5e2d8b1092f2ffbb6ee56674faef39a5347e2 linux-firmware: Update firmware file for Intel BlazarU core
-8bed25234faecc2512281fa67329f1b5df100c69 linux-firmware: Update firmware file for Intel BlazarI core
-52745e5d9b2bf57be549c101adccd9808e8d0b1d linux-firmware: Update firmware file for Intel Solar core
-328cfe7269d75ac0f72fcf6a4514606028718427 linux-firmware: Update firmware file for Intel BlazaruHrpGfp core
-0c8522542fda481ec0a5784ce4a6f6923320bbb2 linux-firmware: Update firmware file for Intel Magnetar core
-cd1db29fde83f51b1119b6768c22d8f7ff0bc84d linux-firmware: Update firmware file for Intel BlazariFmp core
-48ad2ae8b1e96b2814a71793b01a1cccf5f10eed linux-firmware: Update firmware file for Intel ScorpiusGfp core
-325fffb40a74e04dbd1fe667a7484f1ecce2852d linux-firmware: Update firmware file for Intel BlazaruFmpArl core
-acaf0f3190bcf5831042cfd2ddb09ddf16ee71ae Merge branch 'main' into 'main'
+88fa0c91640ce163190531bf3e975c73c77d7c7b KVM: arm64: nv: Forward PIR_EL2, PIRE0_EL2 and POR_EL2 traps
+fb32e91ac511101f528fa2f33cb1904b3796f5c3 KVM: arm64: nv: Forward CNTP_TVAL_EL02 and CNTV_TVAL_EL02 traps
+2fec206f37582b9295185a86e43a08ac74e149d2 KVM: arm64: nv: Report EL2 registers with no trap forwarding
+50e9e6b6eb3d9b2c318babce60abdf3b300cfb35 KVM: arm64: Hide generic ptrauth from protected VMs without ptrauth
+0f1bdabb82be5d1b5401364cd828caf0985dad48 KVM: arm64: Force HCR_EL2.NV1 to RES0 unconditionally
+accc93b77267b739b48ab34cb5bcaffd1fbb5db9 KVM: arm64: selftests: Verify HCR_EL2.NV1 is RES0 when E2H0 is NI_NV1
+5651590be08a6dc7e36cbef415c8f23af1cda4d9 KVM: arm64: Load the vcpu in KVM_SET_VCPU_EVENTS
+09edd2a7ed8a1aaae8e472ab11313faab9f401cc KVM: arm64: nv: Fix NULL dereference in kvm_pmu_nested_transition()
+5f9cc7dcda69ed881a3041ad992afaac2a39d687 KVM: arm64: nv: Ignore TLBI IPAS2E1 above the IPA limit
+f6fbc6feeb02aacc6f301b83be99896126b2a8cb Merge branch kvm-arm64/misc-7.4-2 into kvmarm-master/fixes
+c5a01955851ffedf7e2ba75b85b7a0208764b6c9 Merge branch kvm-arm64/sysreg-fixes-7.4-2 into kvmarm-master/fixes
+3385a832525527801012f5993d1f6a7a3d23092c Merge branch kvm-arm64/mmu-fixes-7.4-2 into kvmarm-master/fixes
 
---===============4558762362430993927==--
+--===============6025543635818957360==--
