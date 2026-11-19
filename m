@@ -1,47 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============7580277879606686821=="
+Content-Type: multipart/mixed; boundary="===============2799390837286862044=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Thu, 19 Nov 2026 14:37:51 -0000
-Message-Id: <179509907178.4082190.6886239438281294058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 19 Nov 2026 14:42:07 -0000
+Message-Id: <179509932780.4085878.464415528986790598@gitolite.kernel.org>
 
---===============7580277879606686821==
+--===============2799390837286862044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nsc
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/kbuild-next-unstable
-    old: e3e4f625d3b08a38a2f5d3c304f725a8e70738b9
-    new: d091b9be52399728ff2d386b950dbee80d5ad2f9
-    log: revlist-e3e4f625d3b0-d091b9be5239.txt
+  - ref: refs/heads/review-ilpo-next
+    old: 9c82959c37bf69c2ace8a0f975cf2129ec1fd982
+    new: f60911c0c21228b5c2b28630b24441c8ae68ee62
+    log: revlist-9c82959c37bf-f60911c0c212.txt
 
---===============7580277879606686821==
+--===============2799390837286862044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3e4f625d3b0-d091b9be5239.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ab46c2acdae8366b0ed58683d23a1382d7fcca94 kbuild: drop the tools/ target
-75e56e3bb666461f73031b22a4a081cdf05bc1fd tools/build: Deduplicate the descend commands
-2025e795e9dcc1fed71a9f42fe1c5ce4c06cb6c1 tools/build: Don't print DESCEND messages when executed through kbuild
-cf8f5cad076ecfc1befdbcb34f08ff93b52e4b6e Input: apm-power - remove driver
-a74e4839dea686815bfc7e03e80d260cf4b7c39b ARM: kprobes: Rename test-kprobes.ko to test-kprobes-arm.ko
-e662ce1c30a7c6a51a21de8b35100c2576a7877b s390/pkey: Include <linux/device-id/ap.h> for struct ap_device_id
-64d68df9c04094d9ba96003b7faa5e5b658b3434 Move struct cpu_feature to <linux/cpufeature.h>
-24bdde8786f44b7daff8404490c15c442b9688ed devicetable-offsets: Include the needed device-id headers instead of the catch-all
-f3821ba37c137266bb93bbdd332045240592762e file2alias: Include the needed device-id headers instead of the catch-all
-f1dc66c38b7eb4b2fb946a2fd6929250ecd2d85a devicetable-offsets: Get struct cpu_feature from a device-id header
-aac435fa2baefe6e94b4a6216de8d4c98b6f4191 scripts/Kconfig.toolchain: Remove CONFIG_CC_HAS_NO_PROFILE_FN_ATTR
-836ac9c65e4dbda0b0379d0e1500f9c4c102c2c7 scripts/Kconfig.toolchain: Do not dynamically probe '-fno-addrsig'
-e2c2434465c8dce3d6c48b153dba3f1319c62d82 scripts/Kconfig.toolchain: Clean up '-fno-allow-store-data-races' handling
-f67671cfeafb12574db62da6a1146c555aee96bd riscv: checksum: Fix CC_HAS_ASM_GOTO_TIED_OUTPUT check
-fe2493fd4bd90f8a34d89917e6d8b0f34c0012e1 Eliminate CONFIG_CC_HAS_ASM_GOTO_TIED_OUTPUT
-c71019d89ed459d1257a6dc126d0379b516d9d85 scripts/Kconfig.toolchain: Document minimum supported versions for dynamic checks
-d091b9be52399728ff2d386b950dbee80d5ad2f9 MAINTAINERS: cleanup Kconfig entry
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1795099322 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1795099322-3b82672c55d8c1479cb0302824705e82b17f1477
 
---===============7580277879606686821==--
+9c82959c37bf69c2ace8a0f975cf2129ec1fd982 f60911c0c21228b5c2b28630b24441c8ae68ee62 refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCav8KvwAKCRBZrE9hU+XO
+McQcAP49e8EXtZHPD1vGXs0oI/Z3D0PVEb+82FUshnx1Bxt3rQD/TNrDkwW1hVEQ
+S56amHDHWDnXaJXSCm6h5JCzyBi+3wI=
+=auzq
+-----END PGP SIGNATURE-----
+
+--===============2799390837286862044==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9c82959c37bf-f60911c0c212.txt
+
+1f002f1c187a9fd774da3238a663fa521fcfc759 platform/x86: ideapad-laptop: Serialize keyboard backlight tracking
+456108d0cd4d63801006ba7df7d458be27108da9 platform/x86: ideapad-laptop: Decouple hardware & classdev brightness for keyboard backlight
+074d1042a084d77bede64298143680da16833e6e platform/x86: ideapad-laptop: Fully support auto keyboard backlight
+83a2e41dd85b426008016c09f56523cf5951b3da platform/x86: dell-lis3lv02d: Add Precision M4800
+45e6d68a4cf9d9b5b15ce94062f1aba1078b47ed platform/x86: ideapad-laptop: Factor out charge_types methods for internal use
+721027ef36056f38eb690a17f00be134bd9f9e75 platform/x86: ideapad-laptop: Fix unexpected charge_types on probe
+702ed1b658d466150498045ec98065924dc0f532 platform/x86: thinkpad_acpi: Add "unrestricted_leds" module parameter
+cc0aef5e88572e00dba662b6ae2a4e52b0860d9b platform/x86/amd/hfi: Reject zero workload classes at probe
+74a0cee01b1ce34a09f6fc4531418b185c88d161 platform/x86: ISST: Propagate def_ioctl errors to user space
+f60911c0c21228b5c2b28630b24441c8ae68ee62 platform/x86: ideapad-laptop: Add V14 G2 ITL to ideapad_dytc_v4_allow_table[]
+
+--===============2799390837286862044==--
