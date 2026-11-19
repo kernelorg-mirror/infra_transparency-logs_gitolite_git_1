@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7258198181061099929=="
+Content-Type: multipart/mixed; boundary="===============3973444104548705110=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 19 Nov 2026 00:57:07 -0000
-Message-Id: <179504982764.3378138.8167496552232356973@gitolite.kernel.org>
+Date: Thu, 19 Nov 2026 00:57:10 -0000
+Message-Id: <179504983003.3378373.17976847027845537719@gitolite.kernel.org>
 
---===============7258198181061099929==
+--===============3973444104548705110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/nfs-and-nfsd-performance-canary
-    old: a1a9653f19a5e379e5c3ee4077b8c229e6a92a14
-    new: 51abe476f0ddf241a5aa37d605fd5664398f5156
-    log: revlist-a1a9653f19a5-51abe476f0dd.txt
+  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part2
+    old: e11b766531ec93f60c4efc9a98280a5f7b860195
+    new: c8247f12c9e08ea7bb77091bd0c931d33bdcadcc
+    log: revlist-e11b766531ec-c8247f12c9e0.txt
 
---===============7258198181061099929==
+--===============3973444104548705110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a1a9653f19a5-51abe476f0dd.txt
+Content-Disposition: attachment; filename=revlist-e11b766531ec-c8247f12c9e0.txt
 
 8c193fe99d2e7021db079e5affc2eed95628dff9 page_pool, sunrpc: split a read partition off the rx region; direction-neutral credit
 76ca67202bca581a52ae10ae6a8956f89d4db1a1 sunrpc: KUnit tests for the read pool, the write-partition budget limit and the rx region exports
@@ -80,5 +80,49 @@ b6f1da8af5a36a9cc7de00366994572efddc6fd6 nfsd: register the rtc NFSv3 READ hook 
 5e6014f10bc78f6590391fa81f63905175c00d0a sunrpc: per-CPU free lists and per-CPU active count for the run-to-completion pool
 3964608e64d43d829ff5c6073ada29dc04ac1fbc nfsd: switch NFSv3 READ and WRITE run-to-completion per direction
 51abe476f0ddf241a5aa37d605fd5664398f5156 configs: enable the hammerspace-7.3-performance Kunit tests
+8bd918f2915a896e7271a7bbe004536ededea333 block: inline blk_map_iter_next()
+ebf4e3ab13d71a79ef787a971a92621f2eb29f55 net: add skb_frags_hand_over()
+2a957161d1afefe09200170b7406eb2bf166e077 page_pool: keep a fixed receive region page mapped for its device
+f6f2e0ead8dfbe0b8fbfabf8c2db924adcfc1f96 net: rx_loan: return a page's neighbouring loaned buffers in one drop
+dd20b98732f84be653d6de7b9934babfc893b8d4 SUNRPC: Take over an skb's page-pool references for a loaned frag
+bcc1d29b23fb718c68c67a529065b624e1dd3973 net: rx_loan: prefetch a loaned record's struct pages a batch ahead of release
+5703ae81eade0a74ff6e904055b4c0abbbd68054 net: rx_loan: fetch a released page's struct page a second time
+3a84b49d5ee903e6dd0f30de4ab705b49939caec SUNRPC: Make the share of the window a loaned record waits for tunable
+26bddc7a40de3f989bba3750e0345e0b42a5889c SUNRPC: Sleep without a timeout when the pool cannot lose the thread
+d823cb45408e96134b80be058b695c1817aafbfc SUNRPC: Cut the loads of a borrowed page's checks
+85094fd3b49c97e2e55ce19eb63cccb42e0741e3 SUNRPC: Trade only the pages a partly received loaned record holds
+6923e54a5c2140cadb50cd2394152f1f25732b0c SUNRPC: Check a received record's bvec table only once
+bc1d04b81c1d4033b4007805ec5e0fd92d6df4d9 SUNRPC: Do not step to the end of a bvec-backed buffer's pages
+a67681fae606a33ec86bfdf6859ed2ccc9709472 SUNRPC: Do not check a published record's bvec table again at release
+91e1cced43ea17d318b8ca432ed36ca4f7a131b5 SUNRPC: test the hold-back of a loaned record at a share of the open window
+c0f1fe2c80cba6879966942a27b9c18ded870479 nfsd: split direct writes on real files in the receive-bvec KUnit suite
+e88e53c231d96c56f68824d80307947ebb043fbd nfsd: use a real file in the receive-bvec KUnit disposition test
+4fe8e202bdaff8cbad8502d62be1a22654f5fddb nfsd: decode on a real service in the nfsd4 KUnit suite
+e876ca9356f3348f60835d076bfbf036245f9236 nfsd: move the nfsd4 KUnit suite's service to a shared header
+12307402c1d2f6ec0d6e2f3eea634b99a05ec390 nfsd: decode on a real service in the receive-bvec KUnit suite
+891b7c993452f2777d75439b0a1b911e7d7006b5 nfsd: use the fixture's transport for the nfsd4 KUnit session tests
+e02eab50f104f0e9c449260a3b39f20b3781f82a nfsd: keep the nfsd4 KUnit session tests on the test's service
+00ef24e059aae023c066106b60a6f17de6b0f3fa nfsd: take the KUnit suites' request addresses from the transport
+a62b1176a8bc6128ef3f52f2e12b546be18d5dad SUNRPC: test which pages a parked record trades in the svcsock KUnit suite
+df43ee7042e16a6bd0463dee0d7e8c23da2897c8 SUNRPC: test the checked table and the end of the pages in the KUnit suites
+d0b903f8daeb513a5169189620bfbae041355caf SUNRPC: decode a word at a time in xdr_bvec_advance_test
+6c4b2179b6aadca49ce15c77ebe0bfff5f2f362d SUNRPC: test which records release walks in the svcsock KUnit suite
+446578e3962a3b447e4f4b770deb949d431eb77c net: rx_loan: walk the credit lists from the newest
+71ae26736f2b9f2d9ba38e8af78ce6ca5b8f2514 net: rx_loan: raise a re-held socket's window with tcp_sock_raise_rcv_window()
+2787859df6332c9332df8b80fb414a64d7a8482b NFSD_TCP_WRITE_ZEROCOPY: the handoff for the 7.3 canary on tardis2
+188babcc696c96e273d58b3523cc2184995c8dd2 NFSD_TCP_WRITE_ZEROCOPY: how David's performance series was carried onto the 7.3 canary
+2b86b4538ede0d50f5f7bcaabfa22b860da9c643 net: rx_loan: size the KUnit tile tests to the page size
+7dec0abe19f87d37ff51a448e3c6e3e688a3a1d1 nfsd: expect IOCB_NOSERIAL on a split write's buffered ends in the receive-bvec KUnit suite
+ad83ab63d5e47310730ff56e9c2f98d58ffce75b nfsd: follow the canary's IOCB_DIO_GEOMETRY in the geometry KUnit test
+658c928b2593852861327b425a15b929f7ece49a NFSD_TCP_WRITE_ZEROCOPY: run-kunit.sh enables NFSv4.0 for nfsd4_bvec_kunit
+d7bc83390d61b478c6d739852a95cd7243963849 nfsd: say when nfsd refuses NFSv4.0 in the nfsd4 KUnit suite's q35 tests
+62844f97b6313035fc4a64653a427f3f72e80f33 SUNRPC: skip the svcsock region pool defer test without deferred skb frees
+f29fa21e9c130589f243d852934a00dd8950bc37 NFSD_TCP_WRITE_ZEROCOPY: run-kunit.sh expects the region pool defer skip at skb_defer_max 0
+fbd72003ca6415cbf582ef1ffd3378063416d96b SUNRPC: expose the run-to-completion active count for the KUnit suites
+19d4ff660a451d0660f95a88a0694e45769c1829 SUNRPC: read the per-CPU active count in the svc_rtc KUnit suite
+43394a569e77342683595fd08e1a99427dadc232 NFSD_TCP_WRITE_ZEROCOPY: KUnit on build 512 in the tardis2 canary handoff
+1e87ed2027d5f85b5b5e3f8b34332a18875f18a1 NFSD_TCP_WRITE_ZEROCOPY: the rig scripts on David's region sizing and per-CPU pools
+c08ce623cf30120d4e8633793289a1f6e1ca5cec NFSD_TCP_WRITE_ZEROCOPY: build 512's runtime baselines in the tardis2 canary handoff
+c8247f12c9e08ea7bb77091bd0c931d33bdcadcc NFSD_TCP_WRITE_ZEROCOPY: build 512's per-CPU pools without the hop in the tardis2 canary handoff
 
---===============7258198181061099929==--
+--===============3973444104548705110==--
