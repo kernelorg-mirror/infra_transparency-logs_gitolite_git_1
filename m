@@ -1,48 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============3717424926880565629=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/slab
-Date: Thu, 19 Nov 2026 14:22:10 -0000
-Message-Id: <179509813099.4069812.14830900968619470882@gitolite.kernel.org>
-
---===============3717424926880565629==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
+Date: Thu, 19 Nov 2026 14:24:45 -0000
+Message-Id: <179509828586.4070576.18336497883295788660@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tytso/ext4
+user: tytso
 changes:
-  - ref: refs/heads/slab/for-7.5/kmalloc_nolock
-    old: 0000000000000000000000000000000000000000
-    new: 1d7cbc3a9ac3ba8aab44ec8800272b2d18a2a395
-
---===============3717424926880565629==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1795098127 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mm/slab.git
-nonce 1795098126-aae36e7b25dadd8f123f47ce0a76d0fb08202176
-
-0000000000000000000000000000000000000000 1d7cbc3a9ac3ba8aab44ec8800272b2d18a2a395 refs/heads/slab/for-7.5/kmalloc_nolock
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmr/Bg8bFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaEvwH/i3bINRJuIOvgZznnSjw
-NIY9EAkxthiSYIL4uQ0pyT3Q3w7r05gn4EHR7ds/nBgEY3sNKENcfUI4Z8DL/L1M
-Oc8+pSy9Vz15WGBLazgFce3kmL3X0IsiHOl72otOKAaYhW+A+jsVx/xxT2Ft3I1D
-5ko0bNMUTokER8OcUnrsEpSNVsNTebQLy5DXiWZAZgUILmIztG9bswX5I9izoQUY
-2LuWxmQ2XKIPtkHLH1SOJr4XoiispXtQTclFTeBdUQKYBG0Zg+4BlWxtYd+F2UJA
-cd0ffYnhzpX4lcyVvTaoaj79yiJeKx2Uizl6701CWep2fsSyoxayjfrzVafIaKU2
-95U=
-=Mf3i
------END PGP SIGNATURE-----
-
---===============3717424926880565629==--
+  - ref: refs/heads/dev
+    old: 4aa05e642bade8cf8405936b03cabf848fe6c456
+    new: 008aad6508e30cd1bb6d2c2cf65221ba1f16a065
+    log: |
+         fe66a3e2a6627bef578137722f430bd633dee3e5 ext4: preserve force-fsck requests across unmount
+         943b2d083db0e1bbdcebaad144358b1416f02818 ext4: return 0 instead of stale ret in ext4_iomap_writepages()
+         af05a1e287c389f8dcecacbf93bc65875ad37ff4 ext4: fix extent status cache clearing when truncating inline data
+         819809ac85ae334cc9996ee0b582b8883f36da9f ext4: add inode to orphan list before extent conversion
+         109c4b25e5e4494b7533f34dd335685bcaaf1dc9 ext4: initialize map->m_pblk in ext4_da_map_blocks()
+         1107d7673f64233881ac0e2e110710d4f9cc671c ext4: do not report inline conversion allocation failures as fs errors
+         66998b3184cdfcb7fa0f28deb4c0c6ea1236b501 ext4: do not advance i_size on a buffered write that copied nothing
+         027cfceb35626dc85a24dbf1a8be7e955534353c ext4: report unwritten extent conversion failures as writeback errors
+         008aad6508e30cd1bb6d2c2cf65221ba1f16a065 jbd2: document the h_invalid handle flag
+         
