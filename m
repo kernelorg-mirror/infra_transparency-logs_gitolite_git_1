@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6861288500222545691=="
+Content-Type: multipart/mixed; boundary="===============7079377951488899901=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Thu, 19 Nov 2026 10:36:02 -0000
-Message-Id: <179508456212.3821453.16602799951038822079@gitolite.kernel.org>
+Date: Thu, 19 Nov 2026 10:36:11 -0000
+Message-Id: <179508457108.3821759.9014931623476916946@gitolite.kernel.org>
 
---===============6861288500222545691==
+--===============7079377951488899901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wsa/linux
 user: wsa
 changes:
-  - ref: refs/heads/renesas/x5h/base-experimental
-    old: c8cdf3c6692d6b2bcf71f962be477418e07aef0c
-    new: 8bfa8e59ec3536c8dcb52e9ab5b6dec5b135c094
-    log: revlist-c8cdf3c6692d-8bfa8e59ec35.txt
+  - ref: refs/heads/renesas/x5h/rtc-experimental
+    old: 435f80ce145b37e5deafe650cdfeaa749711b363
+    new: 6139239eb4431b135738819d5403c16e83483f18
+    log: revlist-435f80ce145b-6139239eb443.txt
 
---===============6861288500222545691==
+--===============7079377951488899901==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c8cdf3c6692d-8bfa8e59ec35.txt
+Content-Disposition: attachment; filename=revlist-435f80ce145b-6139239eb443.txt
 
-ecca9bb2c855ae2ea096299c9cde7146a80d9b89 net: skbuff: replace ubuf_info ops ptr with type id
 c4b75e64aa5b1adc75b4f1f251b5e3baa5b75b09 net: ethernet: ti: am65-cpts: keep port and direction when matching PTPv1 TX timestamps
 9c1adbe7fa6cbc02c25db2039532918acf846400 net/mlx5e: Add missing Ethernet multicast octets to vport_rx_bytes sum
 b4a2cc6d748d3056a25812dcf5f5377a59afd02f calipso: do not charge request socket options to the listener
@@ -1050,5 +1049,6 @@ f7bfafa9ec12a1f3ba656c9c0107467e04cb7a9e clk: renesas: r8a78000: Add RTCA clocks
 db84bde5ec196888b2e3b17983cc73f0a7261ac6 arm64: dts: renesas: r8a78000: Add RTCA node
 8e84937c316571030982ae5cf019dbe6ad643545 arm64: dts: renesas: ironhide: Enable RTCA
 8bfa8e59ec3536c8dcb52e9ab5b6dec5b135c094 --- Renesas R-Car X5H Ironhide RTCA ------------------- ---
+6139239eb4431b135738819d5403c16e83483f18 clk: renesas: r8a78000: drop RTCATCKI in the default case
 
---===============6861288500222545691==--
+--===============7079377951488899901==--
