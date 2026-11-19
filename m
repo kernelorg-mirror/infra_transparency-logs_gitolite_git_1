@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6165824486480569786=="
+Content-Type: multipart/mixed; boundary="===============6547988790294778981=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mm/slab
-Date: Thu, 19 Nov 2026 14:43:29 -0000
-Message-Id: <179509940996.4086443.6515924517903224233@gitolite.kernel.org>
+Date: Thu, 19 Nov 2026 14:46:07 -0000
+Message-Id: <179509956708.4089572.18316736561657351774@gitolite.kernel.org>
 
---===============6165824486480569786==
+--===============6547988790294778981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,42 @@ repo: pub/scm/linux/kernel/git/mm/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-7.5/kmalloc_nolock
-    old: 1d7cbc3a9ac3ba8aab44ec8800272b2d18a2a395
-    new: eb8b2d56f00b518bd8992d960cdeb26d9834ba68
-    log: revlist-1d7cbc3a9ac3-eb8b2d56f00b.txt
+  - ref: refs/heads/slab/for-next
+    old: 0b4d8fca3d41123c2419b8e489ea7dba34d5b7e0
+    new: cdf8e1a5db2ab434cda18de28fb19c6c1cd8279a
+    log: revlist-0b4d8fca3d41-cdf8e1a5db2a.txt
 
---===============6165824486480569786==
+--===============6547988790294778981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1795099406 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1795099563 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mm/slab.git
-nonce 1795099405-c7cf736b4cf01c1b36b647fca026f67538219b83
+nonce 1795099563-44cfbc89717e0bb0313426aeca4f39b537ab0094
 
-1d7cbc3a9ac3ba8aab44ec8800272b2d18a2a395 eb8b2d56f00b518bd8992d960cdeb26d9834ba68 refs/heads/slab/for-7.5/kmalloc_nolock
+0b4d8fca3d41123c2419b8e489ea7dba34d5b7e0 cdf8e1a5db2ab434cda18de28fb19c6c1cd8279a refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmr/Cw4bFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYia4l8IAIO4Ky2GQHBlM/TFZH8/
-FfVpib8EgiE6X4KZNA2LjOwKQhbzW3s27Cj+gZ37JAmE8B4Kuep9VUlMQnXrnSUz
-sQM7N0O5C+5+gvLI0LEx+08vACKS5T+8xuYCzmyLMQnUr9rTc+T4zxbfDBNugB3M
-gh5ur3mwJ6/Fp7aj0/i/S0GHN1QErUYecceCUvi0Dodn42CTByTodGGvZGdCkkVD
-ALt923x6Q3sWhC0A8DhoYxTew0p8ZiLOdVvq5UAPq1r4baI021hk4qLaNFT69h2s
-RPj+jhbEfB+2rojQqnf/H7cPmUyVxHs5H42+wnPbZpAotw9aPJEcGDxIO01+/3kK
-iXA=
-=S/T3
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmr/C6sbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYias1cH/iviP8Oef16Whuj9ipBW
+kit5IeTKga4QS8g84cUBsDGTA7vnsDqwI+Z2zgL6nQlLWXUFEU8Zgq5j8tOkRhdx
+fS9FODUohnISTuEioUNl1wxCZyfdNhUZ/+vJajHAIM7nPCbh/1KNzSEbzK/szCni
+xl5KNhwzwIgb+HMZOBsI+GFEN4ptVyt7AAeW2nPh8vP/q9C7cc5fRQBQQd0LLzVH
+TH3lp/iqKFbF/OuKrC5pdu3+2AkPNeBHhUFPvh9waK+Jr1zof4wCNXNFKaEZ22Pm
+PZI9FZ8Eq7/fVmER0+iKmiJGHNNIlCOUuxpimGkMZMNDQ0BiTYxH0S/EYYQ20YC9
++UI=
+=LnNL
 -----END PGP SIGNATURE-----
 
---===============6165824486480569786==
+--===============6547988790294778981==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d7cbc3a9ac3-eb8b2d56f00b.txt
+Content-Disposition: attachment; filename=revlist-0b4d8fca3d41-cdf8e1a5db2a.txt
 
-db51425c9eb038a8e40e09b837afde015ae9e3ec ALSA: line6: Reject capture buffers smaller than two packets
 d21746bafdb8e1a5fc9bdcb86f603d827a500a62 ALSA: caiaq: free the EP4 URB when input setup fails
 df6cc85923d96381a24f2a24ac2cb6ac92220a8e ALSA: hda/realtek: Fix DAC binding for Lenovo Legion Pro 7 16ARX8H
 994cd0af4dcd1ae34c990deb06079d7b1e30a1da ALSA: hda/realtek: Fix DAC binding for Legion Pro 7 16ARX8H variant
@@ -1076,5 +1075,6 @@ ac6615d926a5aac104b6993df2cbbad79f4a85c2 mm/memcontrol: defer obj_cgroup_release
 0982936b72a74981cfd4c81d9bf2001257c487dc mm/slab: serialize deferred_work_barrier()
 65879ce70464449677c51dc4115fea65c78d738b mm/slab: refactor free_to_pcs()
 eb8b2d56f00b518bd8992d960cdeb26d9834ba68 mm/slab: call debug_locks and KCSAN checks in kfree_nolock()
+cdf8e1a5db2ab434cda18de28fb19c6c1cd8279a Merge branch 'slab/for-7.5/kmalloc_nolock' into slab/for-next
 
---===============6165824486480569786==--
+--===============6547988790294778981==--
