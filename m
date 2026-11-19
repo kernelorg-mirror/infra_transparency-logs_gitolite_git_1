@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 19 Nov 2026 06:09:16 -0000
-Message-Id: <179506855632.3621449.5451549984002814185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Thu, 19 Nov 2026 06:10:05 -0000
+Message-Id: <179506860525.3623994.14755411419802000996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: cd16281ee3bb80c878e820ac647dc6af020b8c8a
-    new: 656277e48f0301b2c434864eadefd2099d2ef8bc
-    log: |
-         656277e48f0301b2c434864eadefd2099d2ef8bc foo
-         
+  - ref: refs/heads/for-next
+    old: 9fef8ec2e5edf980f30d7dbe4559c2dd44238d99
+    new: 0000000000000000000000000000000000000000
