@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Thu, 19 Nov 2026 16:50:50 -0000
-Message-Id: <179510705032.4188384.18112515490632230206@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Thu, 19 Nov 2026 16:52:42 -0000
+Message-Id: <179510716260.4189445.14416846050973193044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/hwmon
-    old: 7494b0c50c9fcd9f9f5235777bb506dd45676557
-    new: 449cdc5e29c63aa66b41ce8c2783f6b0d84c62b0
+  - ref: refs/heads/next
+    old: b2a9f2d43bbdf6dcf178e300c815816a4fe4447d
+    new: 4feb6879b9ab42cacb905f27a44160b7f1f49d85
     log: |
-         449cdc5e29c63aa66b41ce8c2783f6b0d84c62b0 hwmon: (ads7871) Add error handle from spi_setup()
+         4feb6879b9ab42cacb905f27a44160b7f1f49d85 landlock: Add missing EINVAL case in the doc for landlock_add_rule
          
