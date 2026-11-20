@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 20 Nov 2026 02:09:04 -0000
-Message-Id: <179514054437.446313.7041414809305299790@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 20 Nov 2026 02:15:20 -0000
+Message-Id: <179514092056.452343.10714556087009340470@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 5252483124e6cf016c4a6f41fe1e44f5e1949648
-    new: bc3c70fb4cca8cff16cb5f5b356f8b3169daa99f
+  - ref: refs/heads/main
+    old: 82fa1bd423d7eb1a917a787bb9ee3359d552f882
+    new: 2cb41b6bea6202a64678ebc652bb88ba5df7c9dd
     log: |
-         bc3c70fb4cca8cff16cb5f5b356f8b3169daa99f drop 77 patches based on RC review feedback
+         2cb41b6bea6202a64678ebc652bb88ba5df7c9dd net: dropreason: add SKB_DROP_REASON_FRAG_MEM_LIMIT
          
