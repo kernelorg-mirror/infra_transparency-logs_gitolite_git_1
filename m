@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 20 Nov 2026 20:41:08 -0000
-Message-Id: <179520726889.1307910.6114119428358980057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
+Date: Fri, 20 Nov 2026 20:43:52 -0000
+Message-Id: <179520743257.1308841.5099342158514372081@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/djiang/linux
+user: djiang
 changes:
-  - ref: refs/heads/master
-    old: daff70183e41c8c47b423d563f79adf6c2536089
-    new: 3dd4b2d3c1f7915277082781d6dfbe71d7d41800
+  - ref: refs/heads/type2-revoke2
+    old: 6e5d5a134948298a18ab323adcfc4a151cdca6f5
+    new: ae1c6bdb845742fa610a4d530eaf6d4b39f1550f
     log: |
-         5bc434d26709f486dbec0e2b3b37baf3516e4add drop 6 patches, re-queue 1, add 1 and fix 1 based on RC review feedback
-         3dd4b2d3c1f7915277082781d6dfbe71d7d41800 Fixes for all trees
+         31123de5e2e4ef9f5f6284487234ed8af47bc9ff sfc: add multipf support
+         714d1b6faf8c378f2e03036d4acbc7ddc230dff6 sfc: Fix the CXL region lookup for the other functions
+         fe89dbdb6a96dd2b98fb4501e273aa62a555ffcb cxl/test: Mock other functions of the Type2 accelerator
+         ef3583b7b6e96831a68d8aceddd413ae29fdf58a cxl/test: Add a second Type2 accelerator under the same host bridge
+         ae1c6bdb845742fa610a4d530eaf6d4b39f1550f cxl/test: Add a Type3 memdev next to the Type2 accelerator (scratch)
          
