@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1417372005828298062=="
+Content-Type: multipart/mixed; boundary="===============1964230067843710937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Fri, 20 Nov 2026 12:26:20 -0000
-Message-Id: <179517758032.915448.15964964932548665588@gitolite.kernel.org>
+Date: Fri, 20 Nov 2026 12:27:13 -0000
+Message-Id: <179517763304.915917.9936297835466041260@gitolite.kernel.org>
 
---===============1417372005828298062==
+--===============1964230067843710937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mtd/linux
 user: mwalle
 changes:
-  - ref: refs/heads/mtd/fixes
-    old: 760d2efe91a84363d25c1051a10572242e75fe86
-    new: d4d6fbd84fe7cb60f8fce048dbb8362b69704078
-    log: revlist-760d2efe91a8-d4d6fbd84fe7.txt
+  - ref: refs/heads/spi-nor/next
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    new: 7a7f426ca93dbbcb0a2b4f52fe48226fc2be71ca
+    log: revlist-6628e7d4c6b2-7a7f426ca93d.txt
 
---===============1417372005828298062==
+--===============1964230067843710937==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-760d2efe91a8-d4d6fbd84fe7.txt
+Content-Disposition: attachment; filename=revlist-6628e7d4c6b2-7a7f426ca93d.txt
 
 5852cdf0006ff0f1d9a56f06197673d4e4270220 net/9p: fix typos in comments
 37dce65a0b4356d7ec289a5d09cece5db241c302 9p: use fc->net_ns for network namespace in RDMA and socket transports
@@ -1016,9 +1016,9 @@ e6f836ef7865fb454641febe080cf88a3c677186 Merge tag 'ata-7.4-rc2' of git://git.ke
 8a65162514fbad21a2c58ffed65f42b27e92b163 Merge tag 'driver-core-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 e0d8e8de8bcb1ef7b749033b5af5518ba8df7bec Merge tag 'devm_kmalloc_obj-v7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 7475ea8b58616b33c04afb976cf0fbaad9dd63fb Linux 7.4-rc2
-09c1dd5c119276c43b381fd9cea36a9fea07da93 mtd: spinand: Do not re-enable continuous reads vetoed during variant selection
-50ac56fbcb843c706265b2bd82db5842e304e190 mtd: rawnand: samsung: fix pages_per_eraseblock calculation
-e21e7d66b4ef880df7919d19269057cab08efb9c mtd: cfi_cmdset_0002: also clamp the write buffer of an x16 part strapped to x8
-d4d6fbd84fe7cb60f8fce048dbb8362b69704078 mtd: spi-nor: clear the default read_sr2 opcode for Octal DTR flashes
+bcfbc784fce431f0f2b0a25c238b61feda2b710a mtd: spi-nor: Reschedule in spi_nor_wait_till_ready()
+20b85b6067e976c4a820eb0b099edc4735feed6c mtd: spi-nor: Support mixed 1S-xD-xD DTR protocols in spi_nor_spimem_setup_op()
+ed4a5fefe5134816d3827b3a44572b95af042863 mtd: spi-nor: debugfs: Correct DTR protocol names for 1S-xD-xD modes
+7a7f426ca93dbbcb0a2b4f52fe48226fc2be71ca mtd: spi-nor: macronix: Add 1-4-4 DTR read support for MX66L1G45G
 
---===============1417372005828298062==--
+--===============1964230067843710937==--
