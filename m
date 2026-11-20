@@ -1,50 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============8780792415235111894=="
+Content-Type: multipart/mixed; boundary="===============5146349422046473884=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Fri, 20 Nov 2026 10:28:02 -0000
-Message-Id: <179517048217.820842.6836944166607692524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 20 Nov 2026 10:28:46 -0000
+Message-Id: <179517052617.821198.7837151324953985114@gitolite.kernel.org>
 
---===============8780792415235111894==
+--===============5146349422046473884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/gemini-ethernet-fixes-3
-    old: e8ad1396b4831197060f99c6d683e221bd35bfe9
-    new: 43a456dbe4859bbddbb28e294d38327b2f4e1371
-    log: revlist-e8ad1396b483-43a456dbe485.txt
+  - ref: refs/heads/usb-linus
+    old: cb1c6d7e59eb120dcc4e81c50019111572f69fb0
+    new: 101813b8015a53f0e7d118f4e201ec368e7902fa
+    log: |
+         cea2b866edae835cc272cb7ac5b4cc5f99db3ae3 usb: musb: cancel the delayed works after quiescing the interrupt
+         689f6a638d2e0dd977ac1fe0986a9399ba242504 usb: musb: dsps: free the VBUS interrupt before the child teardown
+         e1af5eba00a4fd13a8e638eefaa00e00e3d7fa1c usb: gadget: r8a66597: free the IRQ before deleting the timer
+         cee5aea1d1e98c1e29d74a72058013eb1cfec4f4 usb: phy: gpio-vbus: free the interrupt before cancelling the work
+         101813b8015a53f0e7d118f4e201ec368e7902fa usb: gadget: f_fs: Fix mmgrab()/mmdrop() balance.
+         
 
---===============8780792415235111894==
+--===============5146349422046473884==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8ad1396b483-43a456dbe485.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f1b9b9557b933c86eef54bda172b4fcfbe69363c net: ethernet: cortina: Fix Gemini RX/TX buffer management
-afa9adb8fafb1cd288d280d991ced49664257479 net: ethernet: cortina: Keep shared free queue parent-owned
-d6405d8b8c4ac405f4085bfac7c89d019c8c33e1 net: ethernet: cortina: Keep ports bound for shared IRQ
-2c7cefb8f1d422bc8e38d7718e27bdb2802fa9e4 net: ethernet: cortina: Drain free queue IRQ before resize
-3a328bb2b40198140c5f001e8d7ddb8d81d72072 net: ethernet: cortina: Normalize free queue pointers on rebuild
-a2b8978df6853c0adf838b8428c14a5953322f9f net: ethernet: cortina: Correct free queue DMA mappings
-edcfe0e792eac1efa335411c1ba4064f659542e6 net: ethernet: cortina: Index free queue fragments with XArray
-61ce099062bedd1efa1f512825df7e856b32349c net: ethernet: cortina: Preserve in-flight free queue pages
-195d42af21e679e39369246c1879962123c10be7 net: ethernet: cortina: Rotate free queue page allocation
-939d6c2aab8e31e88493d51c317864d40ffac37b net: ethernet: cortina: Recycle claimed free queue pages
-30f3afa94157407745e7bebc2f5bf866c1de416d net: ethernet: cortina: Separate RX buffer capacity from free queue size
-444faadd0f3dbe8e27bc4b17fa0b439427bea84a net: ethernet: cortina: Validate RX fragment lengths
-159d2953362c1541868b0f6acdbee8fbb119647e net: ethernet: cortina: Account RX buffer size in truesize
-cf5853597fb2c548ffaefc631a95b97558923c17 net: ethernet: cortina: Release partial RX frames on stop
-3304eb220492549a92f97593664423f7898b6352 net: ethernet: cortina: Scale Gemini RX queues to system memory
-d27b84a60f16d4c2902a2da5f2d78b8d44dcd41d net: ethernet: cortina: Serialize TX completion statistics
-7faed5c6a2c1ff1b7c9636bba109f8bd16601fe1 net: ethernet: cortina: Scope RX statistics updates
-223f244c7e7335315a71dbf336ed90b1d86695bc net: ethernet: cortina: Drain RX coalescing timer on stop
-979c34f394380e87ffd6381e4e6578c6154130b2 net: ethernet: cortina: Reject TX rings smaller than retained pointers
-43a456dbe4859bbddbb28e294d38327b2f4e1371 net: ethernet: cortina: Fix ethtool statistics reads
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795170520 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1795170520-fb1e625018740e93db0d2aceabbe0ae36ea4f737
 
---===============8780792415235111894==--
+cb1c6d7e59eb120dcc4e81c50019111572f69fb0 101813b8015a53f0e7d118f4e201ec368e7902fa refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsAINgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++CYQAIWbhUdSwn6QDotNw1u8
+EgZsoKdEXB56bORMZcoPSDFCeavLoM1cSKnNpbRy2dJyEkF5IsaobnQZtywJx2Vg
+NQkDUGf07XCTBXcFBqFKrL3DxSPIaaRgHLker9hL1ylr+3KYoLSvsXgExVm1u1m7
+xhMQCs6ZMank/OfGnqPUBHb6HQWcXbv1iPvVjndVO/LdRhb1hgcRB8K5mA5AN6iP
+EoLULGkY/T73APVLOzYvSiKmHAB+nBRdNKG8sXhwFrb7wHsmFQQhGTgzjnnFUDD9
+vHNvtEqGBVxRCxYi+MpKfdiMn94xrAm1NxS5CHApIWUhiWCe4iHRZofawq3mxUIG
+M7NP0ULLomvTaolcY1MvTXe0FX1+A+LHYxBDXR0A7yOyBUcgvZcBYYLfK5ltJ78w
+BMgpN2L2Imhe5QcDvwVealv8+20vQnTnABlOQCiIcO7BHx/y/YHGiOSgHnk6Lpdt
+rViKqmNtFMouHdv/yLUc97MwT7HuLKSPPT5UJinlH3M2TWeqrMPxgZHGQg3GCW2F
+d99JYBhx+oHzFqA0EHY5gSQN++zDzbqic0TxW2nZ1r1viGWpK3WSVFk6x5NG1taW
+w5xs6NCSRvUTKtDD0AXzYaQhXbZSc/TnbPZmzU7zlk+/dpOMx6kiks3GpBZr51zs
+wQ/zhzbV+QdBRkXpmRrNSNCY
+=qfNd
+-----END PGP SIGNATURE-----
+
+--===============5146349422046473884==--
