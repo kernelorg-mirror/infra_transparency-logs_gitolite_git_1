@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Fri, 20 Nov 2026 16:02:31 -0000
-Message-Id: <179519055107.1094300.1052557025975285738@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0790126498179925875=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 20 Nov 2026 16:02:58 -0000
+Message-Id: <179519057857.1094595.211013635436078843@gitolite.kernel.org>
+
+--===============0790126498179925875==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 3dfe0dec32324d9a90625b9c04d70f9d2cf9e051
-    new: 27c57f33a768500f0f2f4163a1cfd253f4e0f479
+  - ref: refs/heads/usb-linus
+    old: 56e2cfb32881fb63f647420b90d716cb388bcaa1
+    new: b0baaf6cbb16bc773d0c76916aac17c44a6cd557
     log: |
-         2227f964d74e944766f3214fb5a6a2b77b8bee89 remoteproc: elf_loader: Create new callback for copying segments to remote cpu
-         5e5b1df7723806f0ba6276bebd8dee8ceebba00a remoteproc: imx_dsp_rproc: Implement .memcpy_tova()
-         a692aad2e7a8a8b26dc70b291d0b0bcee6f63c87 dt-bindings: dsp: fsl,dsp: Document debug reset control
-         ca52d5382599f1738cf91c2af521e7b32551729a dt-bindings: dsp: fsl,dsp: Require resets for i.MX8ULP
-         f39ba58941efa63e6c7d10d53d183d6077524bdb remoteproc: imx_dsp_rproc: Use reset controller for i.MX8ULP
-         27c57f33a768500f0f2f4163a1cfd253f4e0f479 Merge branches 'rpmsg-next' and 'rproc-next' into for-next
+         b0baaf6cbb16bc773d0c76916aac17c44a6cd557 usb: typec: ucsi: acpi: Add DMI quirk for Dell XPS platforms
          
+
+--===============0790126498179925875==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795190572 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1795190572-e2edbb564bc62c8f526ea3044ce45447b9c9e3bd
+
+56e2cfb32881fb63f647420b90d716cb388bcaa1 b0baaf6cbb16bc773d0c76916aac17c44a6cd557 refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsAbywbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZJIP/3Bcp6qVPLLOkSdK9OnN
+rZADzLaYx274xC+PHKHP7GDYZzxEMH1E2nwIKL4Lt7XXIAJEOPvqnvePABxv6MrH
+8fFjqoQkD5kfLAQfW40gP8NRbURfMTM0zirdBKN1PEU+J3M3n7U2mf3Maoyi1dvA
+SJGB6L5ZPjYxlEuZsVXJ//zyakDHr6YBEe/rtLo6r2tYdprpFaqnLeSMNjbjlOOa
+V08AKOKrIrGmnLJC36rwXclwUV88DkTrn27aQl91PD5fJqps37c6i8PcsD/0bS4Y
+Kqjjgb+8f9Go6SqvuEXSZX4QnFq6XPM60DLYHzVLliLfe2w9O3OVEtoe3NRFpUZT
+PWFUNGJ6xH8yf9HXGjqPRXIn8+ffRIm78aDcAgzT0iritqBaYAmqrN03ueKka8mj
+X5uJ0fQXBq7p3ZEVoDmfD5V+2Nmf62K7vimtFyoCMBuFZJJself1BO+G1H+5HG4a
+12KbpK3Lj3b8UL8eZFlOJU7C4E4LZI8DHM5IRYtbEe8uF5AZOPtndstSqfQ7O+kj
+jNbunj79GtUHGZFQtDsuwVjoeV2W+2AnLEjeGDtJTJBq61+02z5cyoKyYesQEyaj
+yCF7QVR1FrXsezZLlOt47M9XUVWolMFYQmGoiXlb1oyNJ1bjCPyO6MRxQdBTf6wk
+HL9oWaUjvNsNP5pTTlo9o9N8
+=CHc8
+-----END PGP SIGNATURE-----
+
+--===============0790126498179925875==--
