@@ -1,72 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============1231939123858697317=="
+Content-Type: multipart/mixed; boundary="===============6149473370316375061=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 20 Nov 2026 11:19:12 -0000
-Message-Id: <179517355290.861021.9363569237355811470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Fri, 20 Nov 2026 11:19:22 -0000
+Message-Id: <179517356215.861239.3833271223790096757@gitolite.kernel.org>
 
---===============1231939123858697317==
+--===============6149473370316375061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/usb-linus
-    old: f11175ece1250557ec595ea7a2854f0391cab53d
-    new: ba4bbac98e65c6998cac4ea2b63baf2159d00a8c
-    log: revlist-f11175ece125-ba4bbac98e65.txt
+  - ref: refs/heads/for-next
+    old: 29d76fabcc56ab13b66b7149638348c9914221c5
+    new: 734cb3217dd7b93e8da992be823530b6a545e06c
+    log: revlist-29d76fabcc56-734cb3217dd7.txt
 
---===============1231939123858697317==
+--===============6149473370316375061==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-29d76fabcc56-734cb3217dd7.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795173547 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1795173547-9a6d6401f874f1c0d95585896dcc47048d488efc
+d9ed27b1a939e05f0cef9e413abd905579b354fe btrfs: handle errors of btrfs_next_leaf() in create_remap_tree_entries()
+bd8c26a8d049249f30dd22f8256713b6860cdb3a btrfs: raid56: fix use-after-free when waking up the rbio I/O waiter
+5282199c5f75bd286b7bce36f6b480667aed3ede btrfs: zoned: finish the zones of a relocated block group
+e1fbcd2b54a2804c9efe1258c1af53bf01b20f1b btrfs: zoned: don't treat a negative zone reservation as free zones
+03bc6a8b2bc5186c6db19e8f1daab0d4317d247e btrfs: abort transaction on failure to update inode after hole punching
+06c28b8b507fb825d4047d1b18c1fa262e42aef3 btrfs: fix blocking allocation for nowait encoded reads of inline extents
+7c3f218ec40917d1ad6457053ecbc4d7ef343823 btrfs: improve the algorithmic efficiency of btrfs_check_rw_degradable()
+ad92f09e292ccab3c81087588e86ff41bb244824 btrfs: tracepoints: fix wrong order when printing extent map type
+c9683ea28c2dc51def37482fdf60433486d2527a btrfs: fix incorrect task accounting on error during io_uring read
+ef7afadc792a3009edcf7acfa1ecd79af1fbb380 btrfs: fix delayed inode count leak after failure to delete inode ref
+26a197d691c2669879d1b2cb733151f906a3ebaf btrfs: add missing unlikely tag to branches leading to transaction aborts
+438da96f728335330250f429f42115e348a76d22 btrfs: tests: zoned: fix NULL check of the active bitmap
+3b0893ccfc220d344ffa969d64987acfd37b44f3 btrfs: zoned: don't release active zone reservations for conventional zones
+feec1b2540c6bea90de82b11dbe4cc2fea885466 btrfs: zoned: don't fail start_transaction() after a forced commit
+2a1931377a9ed4e2f71441bffa934dc9b85f1b24 btrfs: fix return value to report partial success for direct IO writes
+a9af77e2e95b8302336dfe724ad8d0e84eb56783 btrfs: fix race between getting device stats and removing device
+9e8271011b5eabc4b7f2ec0dee1d4807e31111a1 btrfs: fix missing device freeze allow on btrfs_rm_device() failure
+707dc06d3da38c9bd6a270a9c61c0ee348fc4eed btrfs: relocation: release path on copy failure in move_existing_remap()
+a61d7a24cfbf99153f9f2c7d47b1006baa68176e btrfs: props: validate property values loaded from disk
+055b3140fd7fee12662f397c15363eb409e9395e btrfs: defrag: break the loop early in defrag_get_extent()
+2c5dc8d4e6ba17f38f64293d963777e9476a8fca btrfs: defrag: fix missed extent when the lookup lands on the next inode
+af3c0708174913bac40b680894d1211944d57e89 btrfs: zoned: skip missing devices when releasing active zone reservations
+0d7f6faaabfc913227562370bf07d4202cbd14c3 btrfs: fix RCU usage in btrfs_ioctl_dev_info()
+7a69d11395526f49eab3ac7aa527fe5a988fdd02 btrfs: speed up steal_from_bitmap_to_front() with a backward word scan
+1c54c17ebdabcab5f32ebdf3fd2d851e7e4777a6 btrfs: scrub: fix use-after-free when waking up the repair waiter
+42587dffbed45e0bde1aeb241a3a59fcf1f35505 btrfs: scrub: fix use-after-free when waking up the stripe I/O waiter
+f2805cb657ae9d55652ad04da371371c7fdf7f5b btrfs: fix double release of data space on failed direct IO COW write
+38429713dbcd7ac77dbccb1d774dc620169403d8 btrfs: wait for async dio before dirtying folio in btrfs_truncate_block()
+4bbf954ea0e2274988fec533ebdca34d2abcf4b8 btrfs: fix incorrect memory copying in BTRFS_IOC_GET_SUPPORTED_FEATURES
+0c7b9a4561bced72fcaabb729d80fc69a2f3c3eb btrfs: use AUTO_KFREE() in btrfs_control_ioctl()
+1a46ed260b5a5aa49c2ee4326df07eabe46571a8 btrfs: fix zeroing tail of copied inline extent when reflinking
+184fa2c40f5c50afb1d8bf900eafadf450db392e btrfs: report writeback errors on initial COW allocation failure
+41c3ef4c3d317339b18ce62f0886c192f33fda7e btrfs: avoid copying too much memory in the logical to ino ioctl
+734cb3217dd7b93e8da992be823530b6a545e06c btrfs: fix double free of reserved data space on error in btrfs_zero_range()
 
-f11175ece1250557ec595ea7a2854f0391cab53d ba4bbac98e65c6998cac4ea2b63baf2159d00a8c refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsALKsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pHkP/0YPNB+3kQdxPcKosHB5
-mNuiBEuXKWB0DY/8xJUGFPttYtufYL795qTNdF1dckvOujgpW5ZYIIWWubVZqB4W
-oWTWVzqp+dDU+sqcKV9w08aE9tlbk96MRt6l7BWKaF+2qC0UKl+5ZAOs35AdhYEk
-kp/PdgArHlcEf3+6tCPrJejevz3qhJ06ZbUEl2IP9gjF7I7uLXNXekzrl116sRjc
-9WxEcwMd5CU+MfPC5KIA1cm/37lxBMsjaaIVkQ2tZxj8WffxyVyKAV1Q/0l5Wzac
-ooEa/bZ24oPvtODWeVq7xMGU7hz0KoNbTMpBet2g9syPoJtMBSoi5Z43DxsI5Irs
-naB9qV8CXfylM0W0COendQnZ+j9kUwtdVDYMunpZGc6Y7+RWbtwyfkW/l1tVa462
-dtnyTLrljVaPkpgcdefMOafUvQcsPUXQhdsAA587BiddjENF5ngjhuvImKOoBXwk
-Tt+UF1PzT5DFJL5Fm2O8aW61V+LmfRm9q12o7FM1G30GcSVdwTx59cUkuUE7oope
-xRCUGjq94jtxhjBPXhAq0NsEvQmalONPiIS/vba8OVvM4rdn2CJ2qCtx7uMXHjMY
-EHRieZVBRP/zZiOOxVKFM+8ZZ+lzM7BYEIknkLx9Has9R7Vpbc3zH29JSDEM+mCV
-OTNWEewjWoY3UGwdRNzzcidY
-=xBDs
------END PGP SIGNATURE-----
-
---===============1231939123858697317==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f11175ece125-ba4bbac98e65.txt
-
-69b3b657087f9e85ac6c50c36561bf6165f15f1c usb: gadget: f_tcm: queue the BOT status requests with GFP_ATOMIC
-a784e99201af43d07fcd5cebd4ac00c1c7865443 USB: gadget: Fix UAF in gadgetfs_fill_super()
-ee7b2cade62ff4565049b0abdd6359645fb7999b usb: gadget: f_phonet: don't call gether_get_ifname() on a non-u_ether netdev
-b1b2382b2df42e5ea347b952ea7211aed7853cd3 usb: gadget: f_printer: use the active RX list in soft reset
-018e3bf95e6360b7d528d3094b5302fb4e2fbed0 usb: gadget: u_ether: Fix NULL pointer deref in debug logging
-e6beabd9982c0e36a87d4741aa3b95acba3bc120 usb: gadget: u_ether: Protect dev->gadget access with dev->lock
-3cd2ba6950de2c3fa8eea06b394c511b19144dc4 usb: gadget: f_printer: fix pnp_string use-after-free on reconfigure
-2e46e41432edc540bb5e47a3e0b76a5892cd7ec9 usb: gadget: f_printer: clamp GET_DEVICE_ID pnp_string to ep0 buffer
-da946f52ce0f548db158e9863cdd2c1cca8fc218 usb: gadget: f_printer: Fix fsync waiting for active transfers
-9c655fa88d2948929c34a94efffe9abf57813ff2 usb: gadget: f_tcm: put the overlapped command's request back on ep_cmd
-ba4bbac98e65c6998cac4ea2b63baf2159d00a8c usb: gadget: f_uac1_legacy: fix double close of the ALSA devices
-
---===============1231939123858697317==--
+--===============6149473370316375061==--
