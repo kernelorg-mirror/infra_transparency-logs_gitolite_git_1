@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djiang/linux
-Date: Fri, 20 Nov 2026 20:43:52 -0000
-Message-Id: <179520743257.1308841.5099342158514372081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Fri, 20 Nov 2026 20:50:25 -0000
+Message-Id: <179520782536.1314862.13831890776232928044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djiang/linux
-user: djiang
+repo: pub/scm/linux/kernel/git/jgg/iommufd
+user: jgg
 changes:
-  - ref: refs/heads/type2-revoke2
-    old: 6e5d5a134948298a18ab323adcfc4a151cdca6f5
-    new: ae1c6bdb845742fa610a4d530eaf6d4b39f1550f
+  - ref: refs/heads/for-next
+    old: c4a8d7229960cb5007e6495785c0b151566705d2
+    new: 5b370585dc72fa7caa01b005557b18649d77cc6d
     log: |
-         31123de5e2e4ef9f5f6284487234ed8af47bc9ff sfc: add multipf support
-         714d1b6faf8c378f2e03036d4acbc7ddc230dff6 sfc: Fix the CXL region lookup for the other functions
-         fe89dbdb6a96dd2b98fb4501e273aa62a555ffcb cxl/test: Mock other functions of the Type2 accelerator
-         ef3583b7b6e96831a68d8aceddd413ae29fdf58a cxl/test: Add a second Type2 accelerator under the same host bridge
-         ae1c6bdb845742fa610a4d530eaf6d4b39f1550f cxl/test: Add a Type3 memdev next to the Type2 accelerator (scratch)
+         94494921b628b80c5dbaff8905966c68394c51bd mm/gup: add file_is_memfd_compatible() helper
+         5b370585dc72fa7caa01b005557b18649d77cc6d iommufd: only hold references to files memfd_pin_folios() can pin
          
