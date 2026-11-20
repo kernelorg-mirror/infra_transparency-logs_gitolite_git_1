@@ -1,58 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============8767679324003586152=="
+Content-Type: multipart/mixed; boundary="===============9075455698681518043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Fri, 20 Nov 2026 15:53:28 -0000
-Message-Id: <179519000861.1085488.12836936919459327062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfs-linux
+Date: Fri, 20 Nov 2026 15:55:54 -0000
+Message-Id: <179519015459.1088798.2994319404735592864@gitolite.kernel.org>
 
---===============8767679324003586152==
+--===============9075455698681518043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/aalbersh/xfs-linux
+user: aalbersh
 changes:
-  - ref: refs/heads/for-next
-    old: 397f550f3c8551b3ffbf3f45a571b58448514988
-    new: 5d7b9f865597a74b323d512619c42f3e07ae043a
-    log: |
-         306301ca9340a6c7ceb14d735abb9cc380933a7a arm64: dts: exynos: gs101: Drop CPU masks from GICv3 PPI interrupts
-         a96770b404648488cecee310bddf11416185da8d arm64: dts: exynos: gs101-oriole:: Revert "arm64: dts: exynos: gs101-oriole: add pd-disable and typec-power-opmode"
-         5d7b9f865597a74b323d512619c42f3e07ae043a Merge branch 'next/dt64' into for-next
-         
+  - ref: refs/heads/fsverity
+    old: 5fe0a7644973d5e2dcbb8c9902a6a5f8161a44f5
+    new: 28c74513a1bfbde9cf31cbe5086ba230b373dd2d
+    log: revlist-5fe0a7644973-28c74513a1bf.txt
 
---===============8767679324003586152==
+--===============9075455698681518043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-5fe0a7644973-28c74513a1bf.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1795190006 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1795190006-9f7bd870c3273f40b032fb631ec6540b0895bace
+f861214566feafbf42ab7cedf3515a4fcd2c3419 fsverity: lift ioctl() input masking and runtime inode flag to VFS
+e25661298ce666d71b3ab0a0813d3185373373f4 fs: constify inode argument of inode_state_read_once()
+e26f4b6bcb69d582c0133b543b9b8129c8f68755 fs: strip FS_VERITY_FL from FS_IOC_SETFLAGS
+8286293f4f2c27bb526f31c801247a14d28c21f0 fs,fsverity: add I_VERITY_BUILDING inode state flag
+522b11667d1393bc9523c74579b8012bc7b32559 iomap: use fsverity_is_building() to check for fsverity IO
+0145d2d05fb04f5e3133241acd024ed8ae799a35 btrfs: use I_VERITY_BUILDING instead of private flags
+77fce535e46e458d330d0d8f20fd0dc14c866159 ext4: use I_VERITY_BUILDING instead of private flags
+084d6adc7d1c032c90ab61db41542bd15982159f f2fs: use I_VERITY_BUILDING instead of private flags
+28c72f9b678d695148cb53f5e55ccc0a51ab1d4b fs-verity support for XFS with post EOF merkle tree
+ca9aa48fa04b138f1471106a575e032cbb28e5a2 xfs: introduce fsverity on-disk changes
+a019dc4ec4b8a29baa01d4e9037dba15c0dc2bcf xfs: don't allow to enable DAX on fs-verity sealed inode
+b8f1466cf632d935e0edb98995c02fdd235c01b1 xfs: disable direct read path for fs-verity files
+d7810bcef90a03962fad0362b5687fd74c5a9448 xfs: don't report dio_mem_align and dio_offset_align for fsverity files
+30fa010febff308533354cb514fadc1a7c85ab8c xfs: handle fsverity I/O in write/read path
+fe7a17bb65c61c5cb0496741c6a4ae372d1c0f4b xfs: use read ioend for fsverity data verification
+c428bb5ceba4ea183df4a5bc03849930cb7685f6 xfs: add XFS_BMAPI_UNWRITTEN to unmap unwritten extents in __xfs_bunmapi()
+f62ffd5f899131cc7c8fd4254115340b9c155d02 xfs: don't remove written extents past EOF on fsverity inodes
+5f6f04fde6e49c722eb1e758a0f196456214e197 xfs: add fs-verity support
+9206c4a644f14e629c8fff817ab456311d670e1c xfs: initialize fs-verity on file open
+856483dbd534618f3b60e76664b2d87120c3d4d7 xfs: add fs-verity ioctls
+31f7e8a2669e12155658e84548c7bf319137d219 xfs: advertise fs-verity being available on filesystem
+dfabd8df8c89490d95549cb2f18623721dde117b xfs: check and repair the verity inode flag state
+6e4fdcf643b6b9a5c40ef4137afeb20233255055 xfs: introduce health state for corrupted fsverity metadata
+28c74513a1bfbde9cf31cbe5086ba230b373dd2d xfs: enable ro-compat fs-verity flag
 
-397f550f3c8551b3ffbf3f45a571b58448514988 5d7b9f865597a74b323d512619c42f3e07ae043a refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmsAbPYQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1x53D/48ntghWXpm1uxyNfu6OoBeDsV4TCh447AT
-56c1bV2Dtyg/n2Xmx2Mcfj1EFfqDm+YUAu82o8Numhc10BS6ZMBpQEyAgvZNS3W6
-L6NOgUtpdBSQyfDV5lgSptVKWs77uWNFaHogyZGSXg9ch5zQguE6LYrbrVP/gGUU
-PPSv1TwsuIGMm21a9mAud4UYbISHiYz7BNVc1LKAIiFvudPRPFCDTDqzVoVaUJmK
-Eq1zqJcAYkCjwW71QybZQUkWrDg5jiBLcoMumo9ylFX6TTYnSyRXv5WQ/0DxcOUx
-d6tByOnfJVLV1/Mm4NVW5+AEMPYRNvYy5SqKSN2bCnwkri3EZhsO7UXbyb4o5Y+/
-7Ktw2lFdSk5tGShCtUeXQjdxM4pbOt6bt+4q2ZdXGZ4lCbi6Cah8gcxb1+BW6H39
-0+OKYOj7dGpbJGfA98x1RccrSx6JAofm524gMB1pwXluRBSPSA/eMmSAHYfV+Fmz
-2oKIE58J1V4C6r+tdKNJ2JjhEYGGtUcVOMyUGqCkHb9ZBOJERY8I+Zzd0Oe9C0t/
-BtCwxi8u3tsfg5kXaj17vyM00zdAMos4g65KQSXctb+Tv0CE68vgE+H5FUOhH3rd
-iOWwnUdVwTxxn/OMfAfUrYllT76DM1300qy3hcFdfBDpKatc2wrIjamLXEYSY+wC
-mSK088WK1g==
-=FdJI
------END PGP SIGNATURE-----
-
---===============8767679324003586152==--
+--===============9075455698681518043==--
