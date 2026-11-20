@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Fri, 20 Nov 2026 02:29:32 -0000
-Message-Id: <179514177242.461710.6797267883882401096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 20 Nov 2026 02:31:16 -0000
+Message-Id: <179514187690.464815.14341578549356042735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: masneyb
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/clk-next
-    old: e21e1699d5fb7baaec690575101badb2c8b3abbf
-    new: f3450fd16f5e5c918c42f46cfdbaa81613d4b7f5
+  - ref: refs/heads/master
+    old: 7543d8d314b222452258b30e5c7a40c6f4cbfcda
+    new: d5ba86298b45e1a81c578c499e9a222a3b734d5d
     log: |
-         80aa3c17a394cd2d857f22fd910b7965ce8069a2 dt-bindings: clock: stericsson,u8500-clks: Allow power domains
-         b9b50795d5ba3dc9b62ee06f3956c5a39c391fb7 clk: max9485: Disable vdd on probe failure
-         f3450fd16f5e5c918c42f46cfdbaa81613d4b7f5 Merge branch 'clk-pile' into clk-next
+         ca44731a7009da1dbcdf1979438d1985d93331d1 bpf: Restrict uprobe ctx writes to the registers ptrace can set
+         c21b0f82ca96750e81a38b041c037de6b5dab60a selftests/bpf: Test which ctx registers a uprobe prog can write
+         d5ba86298b45e1a81c578c499e9a222a3b734d5d Merge branch 'bpf-limit-writable-registers-in-uprobe-context'
          
