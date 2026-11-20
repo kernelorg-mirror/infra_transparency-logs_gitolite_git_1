@@ -1,54 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============8684488883671017762=="
+Content-Type: multipart/mixed; boundary="===============4955584540393061466=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/slab
-Date: Fri, 20 Nov 2026 10:40:10 -0000
-Message-Id: <179517121070.832629.2443411985188432420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 20 Nov 2026 10:43:23 -0000
+Message-Id: <179517140358.833952.17651447671004655191@gitolite.kernel.org>
 
---===============8684488883671017762==
+--===============4955584540393061466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/slab/for-next
-    old: b6ac0c74d9f593d2549b99db3a055844cc11e9df
-    new: c6e6bf9b097d69a06974b2f8b5400b33e1faeb31
+  - ref: refs/heads/usb-linus
+    old: d44e9ddadf4ef9a8ee72da8350d3f3cdef1830b0
+    new: f11175ece1250557ec595ea7a2854f0391cab53d
     log: |
-         ecdfea9cc392a0b6b6b32817c0bc59877e7878f4 mempool: fix missing alloc tagging in mempool_resize()
-         49caea114503631f0eb561df9ef3f8a6c8ccc9d0 mempool: account the element array to the caller
-         94fa741f6811adb21ed611c31ba5d1fe24435eca Merge branch 'slab/for-7.5/kmalloc_nolock' into slab/for-next
-         c6e6bf9b097d69a06974b2f8b5400b33e1faeb31 Merge branch 'slab/for-7.5/slab_tiny' into slab/for-next
+         b9fdbe5124cf609d1ba10083a2a68c8266fc643c usb: gadget: f_hid: keep GET_REPORT request across disable
+         19e8981057fb5947697f99a3c6a3f6ff4a2d85a1 usb: gadget: f_hid: fix report_list entries leak
+         07ec204e8aecbfee425008832b18d5d720daca6d usb: gadget: f_hid: fix race between userspace report update and GET_REPORT response
+         f11175ece1250557ec595ea7a2854f0391cab53d usb: gadget: f_hid: fix get_req leak when usb_gstrings_attach() fails
          
 
---===============8684488883671017762==
+--===============4955584540393061466==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1795171206 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mm/slab.git
-nonce 1795171205-947463ab7342f7a785f950ab34d4bbb7aa68eb5f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795171398 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1795171398-9d0c665d03012f80bc231efc43069801c21279d8
 
-b6ac0c74d9f593d2549b99db3a055844cc11e9df c6e6bf9b097d69a06974b2f8b5400b33e1faeb31 refs/heads/slab/for-next
+d44e9ddadf4ef9a8ee72da8350d3f3cdef1830b0 f11175ece1250557ec595ea7a2854f0391cab53d refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmsAI4YbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaDOsH/2NUFCxBA37PuBepyQp0
-BPe1jydvirFRcxTiDzVxMn2VThGMqIuNhc+NzLQ99feBhlX5n8gi7DBDfuPjJl2w
-n5Cqmyc1F+fLp1cDO+ZpUk/WI3+ZS1FOwQyH4c5rUisOojb+HzUJbuDZVr7hsxwW
-6qaiC3JEqR5cIWwv3DJIEGbwRDBrErSj2ef2cCOI+voVT/WYBW1oKwGE1OP/Ka1+
-fMTtEFQxUaPALqVVe7vyjY7cdUze9QiUfs/60Suo5AGV23OiiCialFmYmgA0jkaD
-Mlkr2ODlkFBfZmcftwaNfNzU9ITUSTxrzwzrYs5Dx8XQtDx8LcbAgSaldQjj+5QN
-cxY=
-=nmKz
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsAJEYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9xwP/2O0TCDxNY8l/kkfzC/q
+xy3c/axD9F7XghGHpgR0kl7Vvv3nZOcqScJ2mnK2Kf92xX1WvPKXyowaP+0yhBru
+/bNMoBfrZAiTJRlSPsyOqYccW6oi2pzKzyDCEoEfZ1C3XJzwRl556eyGcDRlXY1o
+nLEnlJW3zxjk2vAWRoMv9vWd9ytBG/wqCXnotp+nYBzvq2IBrRR92ctHq9v1YDI5
+IgfiI+AYqzOmPA0EinVGj2Mfii6IIMkZblkFst2BR9yRl3p9Pd+ZLxUpdLpKVt7M
+P07C3pCiCn8utNmi9nJvhiCOEuz901F+xNrF+ciyOXpXhssM+6cSdVHi/Un2dgkd
+TpjmWCeQ7XPNxM53JaQfTZ1BZy0KDppJ42i7gaeizmQWfaqIJAI677+m0/wUe1vl
+568cRd8IFuMO4ITIbDaPjUvMHgBJNirztISkMye2LS1MFJw5SAlN2vrP9ac5MHFe
+nxf0vdvrRFHZE6fT9pEx5e0J1sxr05XkUHGDTWeXlRWeahuYj47eJUD7pEAYA4+f
+BnFAlzz/Ysy7Ai2yjl0UfdwI5oK5mR4HmQ9a5vMRFEGXj/9BukAnV6u8EsoT3jWE
+4eOLCz0uMFmOh9qP/T+9s9kjoI5BwShfOfgyss2gmQWyAwQAtfqEID2e2HKIjTZf
+QM8C2zIknmtcTBBbc39AN+oq
+=1iSY
 -----END PGP SIGNATURE-----
 
---===============8684488883671017762==--
+--===============4955584540393061466==--
