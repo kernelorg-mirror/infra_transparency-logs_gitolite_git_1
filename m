@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7259310953531176566=="
+Content-Type: multipart/mixed; boundary="===============6114306101492634804=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 20 Nov 2026 09:05:28 -0000
-Message-Id: <179516552856.760442.10581193540491418240@gitolite.kernel.org>
+Date: Fri, 20 Nov 2026 09:07:22 -0000
+Message-Id: <179516564228.761114.12872826328831664175@gitolite.kernel.org>
 
---===============7259310953531176566==
+--===============6114306101492634804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 087ed08145e406535a6613aef5607ceef2ade518
-    new: f859addb3f88d69e2a27c7361a3178e33951a99a
+    old: f859addb3f88d69e2a27c7361a3178e33951a99a
+    new: 7b7f7dd39b967156dfbd49631a8ca3ff641b3653
     log: |
-         826d8fe80db5450d5f526d57f33eaf3111428cca usb: dwc2: wait for the TT clear in endpoint_disable
-         6068ddadca55c8cdddb9e0d846101709a87fc0ee usb: gadget: snps_udc_plat: lock out the interrupt
-         7907f2113796db7ef156911255e18976ec5db83e usb: typec: anx7411: zero on-stack alt mode descriptors
-         b1c46affc9961efabd8548013cd4197688ee489e usb: typec: tcpm: don't wait for the VDM discovery work
-         9ec58903a6edd763948653d1b04d3515804fccbe usb: host: ehci-orion: fix the probe without DT
-         49d3668edddfb442836558963de2797ab5ee076e usb: isp1760: wait for the TT clear in endpoint_disable
-         97002d33afe7c66aea1c76c783fbb2e8712a9564 usb: host: oxu210hp-hcd: fix oxu_qh_alloc() deadlock
-         f859addb3f88d69e2a27c7361a3178e33951a99a usb: gadget: bdc: the resume callback is optional
+         12b2057f6e6f5d7887cb9c3b3d2466514fee0f61 usbip: vudc: free the unlink item if the send fails
+         0baf734efbcc833225e087a4b71bce5c9f402beb usb: typec: mux: tusb1046: fix oops on accessory modes
+         ac78c8297a09ad31fae8020fbe8b51c0416c5a52 usb: gadget: f_fs: let the request keep its fence
+         7b7f7dd39b967156dfbd49631a8ca3ff641b3653 usb: renesas_usbhs: link URBs with interrupts disabled
          
 
---===============7259310953531176566==
+--===============6114306101492634804==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795165522 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795165636 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1795165522-0f98c671bb3adcf70fabb5cbfb70399ed8ba699e
+nonce 1795165636-09184754515cb954b161b690497fbe9e4a7177c6
 
-087ed08145e406535a6613aef5607ceef2ade518 f859addb3f88d69e2a27c7361a3178e33951a99a refs/heads/usb-linus
+f859addb3f88d69e2a27c7361a3178e33951a99a 7b7f7dd39b967156dfbd49631a8ca3ff641b3653 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsADVIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qfcP+wSNUE/EoOnQ5LOvhYvM
-x6JR4jjkayWwLTZz3qpzWe55+RpzxpvQTv8pkC5XGVSb2R5HRVtvbTaGmQ5mElFS
-TzlF4lPyCiRsCeUWpU8sRK9nIsIb3EmiCdawoQTAViIouk94LqBjbkLnIztm5F2d
-fAKEIkU9IB/Obi8mtPrHseWAW95oigLmnOyhGArp/ut0RsgKxDft4d0uvc45orwZ
-aMfpuwQuVzdhPNHDn2rD6MSZxPjZ5zwTi7VSu2EsuEBKO2fIh/FCdHOaVOd7S99X
-5YDWk+oTDEFbgkSWXERkfT1ASiSaKcwQzru0xeSPdN2oro6sDZkKnsSAmiGa73a/
-87AkEm+fLotG9zHikf3EZ1iLiRNd70/AnJDvrT64c6fM0zt1x2ezB7Pi/K28qELV
-BC+TXJfMEZlxxwcE4nZlLhK1/isiMufTMBvfpJxaf///IkhBruzMikMAarPQi1aG
-HdmcNaD0PYAm9IH4eFt0QvWlKVmDzPTNFSh5wAkeK5Kg/Ar0+ck9z3NDpGqvAuj6
-vYEnRnMawSkSc2I1Z3ZXPEOLa630VhgpibGyN4hRfT+kpdXs2p2zP2mRLNlmIR1a
-HDlPJFqZuYG5P4S6Zc5ToG7rpBDxN4Gjk3ArDWWjn8TD0O6omAwy0j9l5XZPhXgz
-QdSoCANrdNVsKIOtix9CFJ3F
-=MkcK
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsADcQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7tYP/2vTgdcitikFM+7QdIzz
+1skQMCLK6hRrlmtrg/UeBlM33qDSnnQTjkp59UI4BTEsBsKLz01qVNCJu8x6TLd6
+CbjS1rF24zIekSGB62JXLAbs2fqCAwhiVAFUoafMZ5MVeo138iMsmh0boWNPOjGT
+9hOPhTgqBaMtxnksIMIt/hlQGOw8dV+Hhu4dfGXavSEO/AZ500huL44MKkaSshRH
+oHIp2yCmPUBJLzIH9jG3WCbAlybLMhONWMTOUf6cEZPeuY6lWCT/w6ysmBRs6LSs
+iHnjknYK0nPfWxmhHfjQfQi7qY8PnHIt6o7CvCbhcz9yS6YZz4mJPYMT7UB1hYhs
+G0QwRqbsY6sgUNxJyxr1vcryt7ZvxSicWaCX7IK6hAC/l35+CQI7XHqwcN81uaSX
+0uCNTwMrU+pUCqT/ooZ/m+NEhb7JpKicSZKdY41h6byhjaBPWR84E1q1oykDY6kq
+dmdf/L8GHu4+cZ7hBYu0J3nv+gn/Lrb0qQINGPyCQ0aT2yBVMpRPR8Oeq9PuxDUE
+K4zimlXEw/dkRGsoJeeH3xpSJqFUgRYhH/zMVWaRxpmBBL8FvdH940GDaZd7Fcb4
+kmbDxyb/EAB24YPKgLR8aixh4wFxoqpanFtLiPWRfheXn9dVc5SxmKA8NVhPJohJ
+YzpfMzJ9USgwKaVXK/ajzSnT
+=lU86
 -----END PGP SIGNATURE-----
 
---===============7259310953531176566==--
+--===============6114306101492634804==--
