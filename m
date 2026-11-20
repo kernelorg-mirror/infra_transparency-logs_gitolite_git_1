@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0048117365886201922=="
+Content-Type: multipart/mixed; boundary="===============6971219672335958425=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Fri, 20 Nov 2026 03:50:29 -0000
-Message-Id: <179514662990.525270.8203658078510364868@gitolite.kernel.org>
+Date: Fri, 20 Nov 2026 03:50:32 -0000
+Message-Id: <179514663228.525357.1876953593955403903@gitolite.kernel.org>
 
---===============0048117365886201922==
+--===============6971219672335958425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS
-    old: 8b4bb5c96a54e9111cdbb60fbfe23ad0ad2ae91f
-    new: 1ea4127780184a90d3e505ce5f485200679174c7
-    log: revlist-8b4bb5c96a54-1ea412778018.txt
+  - ref: refs/heads/kernel-7.3/nfs-client-transport-percpu-with-nconnect
+    old: b2e94ca96939f7a2216e8f2b02358f796b0bfaa1
+    new: a7e2f287f2a66097233f7be0374538a69814850a
+    log: revlist-b2e94ca96939-a7e2f287f2a6.txt
 
---===============0048117365886201922==
+--===============6971219672335958425==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b4bb5c96a54-1ea412778018.txt
+Content-Disposition: attachment; filename=revlist-b2e94ca96939-a7e2f287f2a6.txt
 
 fcb772dc88db207b089f9c8123dad296f2c2d69f SUNRPC: Stop a transport's idle timer only when it is pending
 61a402e3a540d2f52c6abb81df2694f95d62ad56 SUNRPC: Find a request awaiting its reply by its XID's low bits
@@ -312,5 +312,10 @@ be3e2d1d93cc63163c422468f4bfffb0ccf89e01 NFSD_TCP_WRITE_ZEROCOPY: round 163, the
 b8ce6176508dbdd46add658a665c5b140f6552d6 NFSD_TCP_WRITE_ZEROCOPY: the client's updates/ with the idle timer
 a5e1d14338359cda722443dc53cbc27efdb5e9ce NFSD_TCP_WRITE_ZEROCOPY: round 164, the client's XID table A/B
 1ea4127780184a90d3e505ce5f485200679174c7 NFSD_TCP_WRITE_ZEROCOPY: round 164, the XID table kept
+7594410bb386bc1e657a1e0253ed1fa66bf43c64 SUNRPC: give each CPU its own transport under nconnect
+3bcad2e9b16c807d7b45ae85977337bdd8f3e646 SUNRPC: home nconnect transports on their NIC's NUMA node
+8a70a20457d19f02ca66dc8b906c4f00eebbd11a xprtrdma: interrupt a transport's completions on its home core
+33ba6a5b0eea8cf1acaaa049669e0ad55e943e17 SUNRPC: home each switch's transports on distinct cores
+a7e2f287f2a66097233f7be0374538a69814850a SUNRPC: Keep nconnect's balanced round-robin unless nconnect_percpu=Y
 
---===============0048117365886201922==--
+--===============6971219672335958425==--
