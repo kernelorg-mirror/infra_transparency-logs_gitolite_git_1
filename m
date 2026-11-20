@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7837113082919045178=="
+Content-Type: multipart/mixed; boundary="===============5757536818533563948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 20 Nov 2026 10:38:25 -0000
-Message-Id: <179517110501.829719.13161808382253119686@gitolite.kernel.org>
+Date: Fri, 20 Nov 2026 10:39:57 -0000
+Message-Id: <179517119718.830425.17221669899697973665@gitolite.kernel.org>
 
---===============7837113082919045178==
+--===============5757536818533563948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 85a9adf2a2943c55cb5f26eb320693f701381dfb
-    new: d44e9ddadf4ef9a8ee72da8350d3f3cdef1830b0
+  - ref: refs/heads/usb-testing
+    old: 01ad61c08da9f3d90643195c6dbfe8d92ad04ea5
+    new: b2d6fba305a9dd1b8cba7a066e5a343f02ffd1fe
     log: |
-         d16f1dbf64a44271f6d247148fd602299edb09c2 usb: gadget: u_audio: call period elapsed under the stream lock
-         d14ac98f16a6bcb9d0b8ec49bfd39e4eef793c7d usb: gadget: u_audio: don't exceed maxpacket when adding a residue frame
-         d44e9ddadf4ef9a8ee72da8350d3f3cdef1830b0 usb: gadget: f_uac2: prevent invalid bInterval auto-selection
+         a709b1506880babc7f31f22dd3908ce9f61b1503 usb: gadget: f_uac2: avoid truncating calculated bandwidth
+         7dcce487f1dce56e82ae1ce5742473b867fc5e20 usb: gadget: u_audio: pass channel counts explicitly
+         9d4fd518d4b3dad6ed453b685fcfe876189f199a usb: gadget: f_uac2: allow explicit channel count independent of channel mask
+         b2d6fba305a9dd1b8cba7a066e5a343f02ffd1fe usb: gadget: f_fs: Remove deprecated dma_fence->ops
          
 
---===============7837113082919045178==
+--===============5757536818533563948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795171099 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795171191 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1795171099-fd4c1a2610c3d5770604c486e4f9e0344268b6ce
+nonce 1795171191-56d8c341c054ca9e7a7afe67add2081f37d53e2e
 
-85a9adf2a2943c55cb5f26eb320693f701381dfb d44e9ddadf4ef9a8ee72da8350d3f3cdef1830b0 refs/heads/usb-linus
+01ad61c08da9f3d90643195c6dbfe8d92ad04ea5 b2d6fba305a9dd1b8cba7a066e5a343f02ffd1fe refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsAIxsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iNEP/2+DNQF51Mu+ykIrOh/q
-EIWBf74CQqBlUlCwMEw2we3O0Rm5CXa3QKP/wiBjVSGj7RcmYs+AT4YWUEEnXdQG
-VndUUYwtb2DsMFHQnx/Lj5SZPQwylL9AHexKEeqSAyed9dLwkm2qAKik2eEss+DN
-IizwTPv9uJW8sKdMlJvfV6w9L6SZAjTY7kdNALqCvbUo6kI3TTJVGpMO+IzXhSX9
-eLFAKtFx+U3UKPWXaXsC+BvplzLSuDVRSltr2C4RL5JO6jvcTwuXR8MhYOKhDENy
-RlebSXknYc9tGXNcxEZ/e/HM7roXBelc6iCIbYQ/Ssop03p3+wlQRtfE/1j1F/jX
-BjKbvGTDRWrD0590Rgk5zOojRZjE6NjVMPhVP/0xx8nI+EYXZFImfJzooJCcSrdS
-dwOsZMmQSHbct31J10OoNxqQTIq+jnPk4LFeZv4Zwpsr5adMBsuUNocVlNb0Xy+B
-LZHkv/pOd62pMQZeL5Fh46GJs2e0B2VVfzG342QbFeyzbRaYFJw+105B5TbypNI1
-1+zllKqv++4dEWUg9gzafRHopOh1mX/4irWGCvVbflMkcDkCcxwa2uPeNwi2uUVR
-15twse0WCf3dcF+Kw8dMaiW5GoM8/yn7kehkO4zHsi0gAlhz91L4wTg9NPAR4pzS
-JwI68m/RGZ0U0bJpU6f3A+Bp
-=g0EC
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsAI3cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+niEP/jR2A2yQG8FiB+nWTooi
+BnJDsXyy2Tz/l1kx8ZisGjFvmKnx+jEVoGkPxj+LA5RcmxrEiOLaZACCZyi5SkO4
+cGhTKMLagMFb3BANwsxcYmov8kqqR+QHswd2mH6PfYF61gGK9FjdqAfU2L64PYCx
++5Q9YeJhvZutkm1dZDBvCJZXGKB57F/wJAZ4B2D5xWm6kZXPDkPlWCx5S3xyswbq
+PpmhLXHISXIEholCGVesCo8VkwzMFWCYhQ/YdWgWJkjvJPiClMZ1saoWcsp/VlF2
+itLpYeKin+KBO1qsgF33wIjNy/YOChB/WqOV5/k+t5POjT482uLB0ROWMS2D1+Ox
+hDvAFIlu+4T+wDd6W5ckzcM5MNbUbinY+CMhJ9bvSwpBTIo3esv209jHaMhKNTjb
+AD4EBrgMcyg3AP3EPazdR5W8i5CPX7PI8AzvtQEpUhQsneGPFOaASVmP9NLsCi1F
+f4/nDhchf96vOjzl1X5eyZXkCKq+XEiMOfrqlzMOwzV6AZbqm47gB7Ui/y32mStK
+QFD8JteAJEXNPtX21/u/Sa08xMw0doFK6JAo23GWstb6Bb9Q971GUm4UH6OD/E1U
+O1QZgbhwMwZWxObtMgmRCwnF+tNC0x+JKF0Y6EIy20i7AS3VXhL7qGfDNpbUrj0R
++yc4A4tM5VK8iCq9hQsd6qKQ
+=MdhQ
 -----END PGP SIGNATURE-----
 
---===============7837113082919045178==--
+--===============5757536818533563948==--
