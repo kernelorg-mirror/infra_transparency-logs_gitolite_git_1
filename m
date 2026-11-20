@@ -1,61 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8588714343351501270=="
+Content-Type: multipart/mixed; boundary="===============5400170852909260841=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Fri, 20 Nov 2026 14:27:17 -0000
-Message-Id: <179518483783.1015938.9105649160742063835@gitolite.kernel.org>
+Subject: post-receive: pub/scm/virt/kvm/kvm
+Date: Fri, 20 Nov 2026 14:31:54 -0000
+Message-Id: <179518511422.1019707.4042039911234886502@gitolite.kernel.org>
 
---===============8588714343351501270==
+--===============5400170852909260841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/virt/kvm/kvm
+user: bonzini
 changes:
-  - ref: refs/heads/for-next
-    old: a838de3b209af5ced681497cee1f076721acc7a3
-    new: 2415e92669297f6281875a43803044dfa41959d2
-    log: |
-         3b8f59b6feda47ea37ddfd29f4352f4990e9b9d9 memory: tegra114-emc: Stop clearing EMC_AUTO_CAL_CONFIG
-         b7789fb82fbfe5ef16bed6068a3d5b1efe379eea memory: tegra114-emc: Use the full DRAM bus width for interconnect requests
-         8d48b698942dc1f439dc785e2f83a00ef750b8a0 memory: tegra114-emc: Always restore the auto-calibration interval
-         2ab2ea1bb4720c567ec6a47539e75ffaad502bde dt-bindings: memory: tegra: Add Tegra114 EMC channel registers
-         af17b5fee079904c89008268c54029ff84dffab7 memory: tegra114-emc: Program pad auto-calibration per channel
-         2415e92669297f6281875a43803044dfa41959d2 Merge branch 'mem-ctrl-next' into for-next
-         
+  - ref: refs/heads/master
+    old: 01d4501cf56b679e6c5e5c7ddbe9b1923d959830
+    new: c0710989d7ebedf4b0130b08ad7dd3f65d026fe8
+    log: revlist-01d4501cf56b-c0710989d7eb.txt
 
---===============8588714343351501270==
+--===============5400170852909260841==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-01d4501cf56b-c0710989d7eb.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1795184836 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1795184835-11d9f495ea1d5579df1736bc2da78c443f2e240b
+2520694e60489136300df56d157fb5e04051eea5 KVM: Reject user accesses to guest memory if current->mm != kvm->mm
+99872af7b904c82bdb7ff64b5124cba667275faa KVM: nVMX: Don't force a full nested VM-Exit when destroying a vCPU
+93862ef1afdd6ceec1da7933bd6c65fa840b547b KVM: PPC: Flush/zap all memslots on kvm_arch_flush_shadow_all()
+7a2ff8e1f2817741d1a68f00a9cdf05fa158be64 KVM: selftests: Provide empty installation rules on unsupported ARCHs
+b2ddd6af0646503364e23c021f5d2748473c9d4e KVM: selftests: Fix arm64 sysreg header dependencies
+bdd05706f146a6aa3d6e0847fc3b4c61bf40901e KVM: SVM: Clear VMCB save area instead of entire VMCB on shutdown intercept
+d41766c450650ec11702923309dc59b6e0c8ab4e KVM: SVM: Update tracked pCPU on pCPU switch
+20cf5e54a1bc1b22d96ddfc7d4f8d8b8fc8193e4 KVM: s390: Drop unused and unreachable kvm_arch_vcpu_should_kick()
+0ee75a9dee9cc140a46a2be5ca500bebf4b120da KVM: Add a @force param to __kvm_vcpu_kick() for PPC backwards compatibility
+2530231b023e25349e1fc2962be884caa621b699 KVM: PPC: Explicitly force IPIs when directly kicking vCPUs
+a8dabc687ddb1b686bdf2590aa32c666b2636b6d KVM: MIPS: Rework kvm_arch_vcpu_should_kick() to use standard implementation
+7e52636d9c37eee473d4c6716799bc64274d3eab KVM: Move kvm_arch_vcpu_should_kick() to common code as kvm_vcpu_should_kick()
+5c430e211f4dafdd7ebcf83d7dcc69d5711b1132 KVM: Plumb the full request into __kvm_vcpu_kick()
+fd3dd4d9c18638fdbeed2985681e90c1585e0ddd KVM: Drop kvm_vcpu_should_kick() and use kvm_request_needs_ipi()
+809f39842c1706089e0de82b5c1d851d84eec4dc KVM: nVMX: Clear nested.smm.guest_mode when freeing nested state
+bcc359264f15095d3d167535cf5de0b7e4800279 KVM: nVMX: Clear nested.smm.guest_mode on a failed RSM-to-L2
+01247f3ce8272b48e63d5040a7c7e1cf45558b72 Merge tag 'kvm-x86-fixes-7.4-rc4' of https://github.com/kvm-x86/linux into HEAD
+599210e5544d34ee36a2dbdf7f22797951a97a5e KVM: PPC: remove unnecessary #ifdef
+b076667f98ae16366ac6612cb535e4675d81d9b3 KVM: PPC: implement .flush_memslot for BookE and Book3S-PR
+031ef175269d11b6368a9bff71a6a14aaa52b3f4 KVM: SEV: never emulate after #NPF on paging structures
+c0710989d7ebedf4b0130b08ad7dd3f65d026fe8 KVM: x86: Don't save the GPA of a fault on the guest's page tables
 
-a838de3b209af5ced681497cee1f076721acc7a3 2415e92669297f6281875a43803044dfa41959d2 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmsAWMQQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD11mHEACOL0/ATX1OzwnzyLyrWJpONjod1XB0sn4Q
-QA41RaUemjBFzl6DQdAW075JgP1EaycpIzWzF8uS34lbfssQIN4Md/hBrTscjgEa
-FcOTOBWHO/Q//kpTRB9WGZ7Unoz9MCJSj7a3lKnaihxPXSfDNfsFwy1DViYTsN5c
-RCSKs/49p4XCyrJlOgimxQAnWpbDqo/4dJfmplVNKQzhUPhFjpNzoIfhaqeRDTpP
-9rtrutD8KTPfCR/MBekMdFCochijZ4Z59BMb/7BayFEIEQawrQMX80Odj0ARY9yL
-JCT5V3y8hFhbKXyvDXWrJCJd9srK0Q1VHMY90rhBHLuRLb7ovHODz1b6LS2iABbA
-QiL/+rjW9q1TR9Jt37tBK9ALR3wOWE4FiAd73J8rYejBoCfablG+xgHmdjtUPRzN
-MHkQKAtBUYRlb/O2pAQjqzWd0qN8WK1xTL/O/CgFI9bUPE2F2ju+Zy3vj8kKE4+w
-doTKXYw5xNJ5sY8HaPURxwiJAi/5zRs8h2fzZMYI7UAFdR0oGo7a5QO02svLLqp9
-hnz5mioloY+zlI33Spag4TyrVd4eQO0ZamIVV0pIyUBdPELS7GKGpYipjdpwGmtZ
-brExVL/AuivASclSLkjzR59ztQpkdYLaX1HsWmElk7Uu6rQ8w99e6bGpoOjawfty
-9vrh5SOEMA==
-=1CxT
------END PGP SIGNATURE-----
-
---===============8588714343351501270==--
+--===============5400170852909260841==--
