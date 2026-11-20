@@ -1,73 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============1884456911144900986=="
+Content-Type: multipart/mixed; boundary="===============6344635677073212312=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 20 Nov 2026 09:00:36 -0000
-Message-Id: <179516523638.756054.2589219791106598102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 20 Nov 2026 09:00:38 -0000
+Message-Id: <179516523849.756453.8421416483313248421@gitolite.kernel.org>
 
---===============1884456911144900986==
+--===============6344635677073212312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/usb-testing
-    old: 3d40024a58d56f9f821c8d3964a1231f8c2008e2
-    new: c9145fddcb4058650c920e60c1e9b08cb081b12e
-    log: revlist-3d40024a58d5-c9145fddcb40.txt
+  - ref: refs/heads/review-ilpo-next
+    old: 518e9d2eeaa5a8568951269a47be2182f4674efa
+    new: 2268d837dea13a78639fa3dad60472bb67478709
+    log: |
+         f2101e0f5d6880fc2c7afa39a30319e8142253f4 platform/x86/amd/pmf: Fix memory leak in NPU metrics query
+         a51e4b644f74914fd326fede98716ef736602359 platform/x86: add Xiaomi WMI key driver
+         da028623c2a7114df9970f06a6028b106f9d9509 platform/x86: bitland-mifs-wmi: Fix TM2107 profile handling
+         2268d837dea13a78639fa3dad60472bb67478709 platform/x86: hp_accel: add support for HP Pavilion Gaming Laptop
+         
 
---===============1884456911144900986==
+--===============6344635677073212312==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795165230 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1795165230-30f4dd46b803ed9128e8f85e7974d8ed6653b0be
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1795165235 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1795165234-e65e185bbe66ee4ec18ea942c203cafd68405554
 
-3d40024a58d56f9f821c8d3964a1231f8c2008e2 c9145fddcb4058650c920e60c1e9b08cb081b12e refs/heads/usb-testing
+518e9d2eeaa5a8568951269a47be2182f4674efa 2268d837dea13a78639fa3dad60472bb67478709 refs/heads/review-ilpo-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsADC4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O+sQANNhWTrqIKN5aWk4AxcS
-9UOEVJU0Z2LqHGwRu4DEM4A15JYS1OwhcqKTQymPWT9RCyKoD7QQ3sQ3jrQTs77J
-Tq2H/EcN2kKaXFQJG7CydyMSi35Qa7YOlFwWBiSicUKf4Q6bCtIuJeo8sLOdA1nX
-1Tj2XAvrcdIR2rbPaoIPnQFyE/VEGv0++lSeHUYTl+b4b1JKHqKI/eqCo570P+aA
-QIrIbRw7QeEBjTiih8Z3RgnHzHqw50k+4J3/gi1mD0Kr5ypLeOVidhnBCOb0UlT9
-0jU095NYOK4oupLqCQkPuDpbAuKd+CpvRyaVUR4ce1LJZyGFb96Ds615rxewlY5U
-loFiYYYfGB3dFAgA1m2+P2KDASOyqH/iq3orzfiNtZWbOZvfaxiL1W86RJVAJOCP
-hcHQ1tWDxifOHTVnZmC8UJ78/SczL7MqZEVlqT3BpRbfNwmqCg/6gp4yCxb2cj6u
-GPgUxHqVouZvHTGGtjR6R34ApxhAc3rPHN2vyc/sb+96nev+Qm9msOJ4dONeneQv
-2a0jH0G8hAz5pbjFdgDa4Ne+gsTScXM6g74jnUkARFgbvohcgv13s0WBcor77Q9l
-KMwwdj7VTiFd9XzK0xwLj9gQL7XcceppbDXJsTU/hQSoa2Mu8YwZbr72r6jAiPgs
-lP1ndQpwNFXDHj//HCTcm9ha
-=aQPZ
+iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCawAMNAAKCRBZrE9hU+XO
+MUBLAQDFBNh/7XDCOmgAQVzh4BrS88huoz1rfZ6TLF+3EX2K7AD8D+LfcZS0CBYn
+QtvIyWsa1kBVCy9fx8d72nuVUNTnqQQ=
+=dET8
 -----END PGP SIGNATURE-----
 
---===============1884456911144900986==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d40024a58d5-c9145fddcb40.txt
-
-79c2c2034976522c199ce48f47810b566d368866 media: uvcvideo: Add support for NV21 pixel format
-a3f3e1390f47c8855ba1c0c4f85ad44af6bdce06 usb: gadget: uvc: remove su_mutex from configfs _show/_store callbacks
-6946031a878f1eb545cdfa1ad33e249315e71681 usb: gadget: f_uvc: fix Extension Unit descriptor heap overflow
-c2d6c6fe6d8a6ae1a31ad43bcc01adb2c581751f usb: gadget: uvc: replace mutex lock/unlock with scoped_guard in uvc_function_bind()
-08fd3f66a95fe84db5a4871887695c19e502a5cb usb: gadget: uvc: refactor video cleanup into uvcg_video_deinit()
-1aa4f892a939326f76603abaa74f941d4919daf3 usb: storage: ene_ub6250: fail MS init on card errors
-7050b835aaae8adcc64bbf142f632fdbdd96bd48 usb: storage: ene_ub6250: report boot block errors
-4ae9b94760ad8365048e9630ace619f2b5818101 usb: storage: ene_ub6250: fix write to unmapped MS block
-91ec078eb998df792b99391b43a5f1ae5141fbfc usb: storage: ene_ub6250: bound the disabled block walk
-1344332fbd1eccb83213ccaad5bc1efd5887a08d usb: storage: sddr09: bound the unused PBA search
-47db1349da86f591aa8de4145040c3d7b410629b usb: storage: shuttle_usbat: fix READ CD divide by zero
-c9145fddcb4058650c920e60c1e9b08cb081b12e usb: storage: shuttle_usbat: bound the READ chunk size
-
---===============1884456911144900986==--
+--===============6344635677073212312==--
