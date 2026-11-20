@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3464106065783558771=="
+Content-Type: multipart/mixed; boundary="===============3316193125693649045=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Fri, 20 Nov 2026 15:32:54 -0000
-Message-Id: <179518877402.1069264.2102664904023346831@gitolite.kernel.org>
+Date: Fri, 20 Nov 2026 15:33:29 -0000
+Message-Id: <179518880935.1069638.17285546258767255643@gitolite.kernel.org>
 
---===============3464106065783558771==
+--===============3316193125693649045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 5c148db74e2682ccfc6587026eef42e92e43deb7
-    new: a5a09d29d4bfdb5e935e832970f7f8a7ecb14282
-    log: revlist-5c148db74e26-a5a09d29d4bf.txt
+  - ref: refs/heads/export-net
+    old: 93363949f5526b710a0732bf5121a0df7e883b4c
+    new: c3d9f7cc56dc70fa8c909b3b11de059fbb5f9a36
+    log: revlist-93363949f552-c3d9f7cc56dc.txt
 
---===============3464106065783558771==
+--===============3316193125693649045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c148db74e26-a5a09d29d4bf.txt
+Content-Disposition: attachment; filename=revlist-93363949f552-c3d9f7cc56dc.txt
 
 d36e0b560483991bc63b7b766f82396e1bf7ec33 assoc_array: correct the documentation of get_key_chunk()'s level argument
 2a62c32760a8fbf464a7388853d19bc62c5cc423 assoc_array: don't lose objects when a shortcut is split on a word boundary
@@ -85,21 +85,6 @@ ab89a9dab02d9553eb0cc27fd3e4a4998acbc8e9 USB: serial: garmin_gps: fix deadlock o
 360d281b159153ceb7c254a773433bae1858bd21 sched_ext: Fix scx_bpf_dsq_reenq() kerneldoc claiming NMI calls are allowed
 0aba89317f386f43c946d91238af28250b4dbc60 sched_ext: Call ops.sub_attach() only while the cgroup is online
 e971f4f365bad51d01bc90db55b56fdb3124f963 Merge tag 'usb-serial-7.4-rc1-2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-e5604b4bf76c49a64de975ebaf414a88b6fb7681 batman-adv: bla: use dedicated key type for claim hash
-f23273d7aa9dd730454a1d7ef2f2c6f2f24d2ffd batman-adv: bla: use dedicated key type for backbone gateway hash
-77e73f6381f6d639c1192d2d989896f65b9aab47 batman-adv: dat: use dedicated key type for DAT hash
-d4813c39c32d7e72d14190a0b2248c3f800aec1a batman-adv: tt: use dedicated key type for hashes
-8c42235b3d88b0b9ddf6e9661431134847c7e0a2 batman-adv: originator: pass explicit key to orig_hash
-733eaea66bf97b086d908c1e55c2c6b7dc1dd224 batman-adv: hash: document key argument of hash operations
-114fd66162da0342d90757a5e7f2a69e68011f0e batman-adv: never consume skb in BLA rx and DAT incoming snooping
-873b9f25cd4ba570f6f9b27a979a46719ed72f00 batman-adv: always consume skb in batadv_forw_packet_alloc()
-04fb828b297f134080700c87d3c054134c8631c8 batman-adv: split fragment forwarding into lookup and forward
-770779407c2dd76fb2ce8812853ea30ae96ef417 batman-adv: document skb ownership of always-consuming functions
-581a1de769e438b85b894dae8c141c5b78fc7885 batman-adv: tt: increase hash generation when purging clients
-f984ddb2522d45b6526096dbf9cd658a172a0a4c batman-adv: dat: increase hash generation when purging entries
-b34f640b6d901835d3e331ad7b46b92c7eef9844 batman-adv: bla: increase hash generation when purging entries
-d1c3f6e0d7f3608e6fa5e2531a7246fa01956eae batman-adv: increase orig hash generation when purging originators
-e2c4b4b08e96e8ada2674ce26ff9e4abc33897bb batman-adv: annotate functions returning objects with __must_check
 d0c8bd5d18a492d64d05482f4b1700e14df7ff84 iio: gyro: bmg160: reject duplicate event disable
 9a60b35fe45801d45454e1efe90569c9cc6ea736 iio: imu: kmx61: reject duplicate event disable
 a107ee273c65414bfcf680b0bf1e9cf3c3365ce1 iio: accel: adxl345: select IIO_BUFFER and IIO_KFIFO_BUF
@@ -724,68 +709,14 @@ c45d9aaa0b6eac6ebf74a3818a3667b9ec45078e Merge tag 'dma-mapping-7.4-2026-11-18' 
 47f80fcddd09b68b2b0a619bcd5a0048ccc11714 Merge tag 'rtw-2026-11-19' of https://github.com/pkshih/rtw
 f1715c0c04606ebbe832cc760abf49dfd6f2ae1f Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
 1e575bda30acc0bf01f799cee798d4a1c100d538 Merge tag 'net-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-24630ff92eff08500ec4772728d4b1fa08c28f47 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-aeb9eb4b48ab60c9ecd3d19e1110770735d9d930 MAINTAINERS: add entry for PEAK-System CAN drivers
-850bccc21cfa4e8e809f07a4994c6949e69bb1d4 can: raw: remove redundant NULL check before netdev_hold()
-b1a7bfc01b14e2b5818aa16bfaa4467fb4dfda24 can: dev: remove unused safe_candev_priv()
-ac7e2763cd16853718fcc33ea1eea3aa79bb2c42 can: convert to DEFINE_SIMPLE_DEV_PM_OPS()
 5e2976e52671e35bbd47cf5e53a9bf34df105b7e MAINTAINERS: update prestera switchdev e-mail address
-ec957a8257e1a381e7e7b0fb8f50bac60062128e can: sun4i_can: sun4ican_probe(): fix clk leak on unbound
-1c7234484e461caab883cad7142cfdc3ccc013f5 can: cc770: don't discard the IRQ lookup error in probe
-cedeef322d5214256ed4d021ec8b57411185a28a can: sun4i_can: don't discard the IRQ lookup error in probe
-e541625519053500965eed4e109dfb618139c59f can: at91_can: don't discard the IRQ lookup error in probe
-01c28a68d956928dd5505f03ce2e9a814f62cb9b can: janz-ican3: don't discard the IRQ lookup error in probe
-82a860d46902c98e24287e7ae7c10dec84c43c9f can: ifi_canfd: don't discard the IRQ lookup error in probe
-bc7bd6a4cb6b0ab8c1fb75f14c3a313fe0222886 Merge patch series "can: don't discard the platform_get_irq() error in probe"
-85cc67092bd4707def5626bb893ac9b27ceba138 can: remove Softing CANcard driver
-b12de036b5d8919ce4cfca40b0fbd91c1ead00d2 can: ucan: fix repeated word 'is' in comment
-1d527d7ecfaf5cdf6cc75f94d3d8e23c0d17b537 can: xilinx_can: set CAN FD flags on received frames
 dcf495789037ab78d8ddf5844239cf85d92ac5f1 Merge tag 'wireless-2026-11-19' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-6d53e01dd9bb466392fb582cba4d37d44042cc53 net: lan966x: extract IFH fields with word loads
 4fdfed6d0990c82ce3c268814ba1b2c6ad0ce49d xsk: reject TX checksum requests that overflow skb->csum_start
-774a5a756d204000fb574f6b3c6064cad8ad787c veth: refactor NAPI enable paths
-c6d21717a602dc48fcca88090b70dc702670a446 veth: link RX queues to their NAPI instances
-5335fdbafea2662c38cdff7fed6b55b7d0804788 selftests: net: veth: test RX queue NAPI links
-3c04f86ffab9a7810d58f86908972fab40a842e8 veth: use persistent NAPI config
-59bbe682d4b15bbe48e47a80c3ceb28a6bec7626 selftests: net: veth: test that RX queues keep their NAPI IDs
-b2f5a358d2e0ca6c1bc0bf78a6a2a46bde42b2a4 Merge branch 'veth-link-rx-queues-to-their-napi-instances'
-7e23d36038cbf58e8a34f00108af25fe809b7522 net/smc: check every link before skipping the RMB registration
 6ada0c2769666140dff8e808ff21e8f9544ddc99 fbnic: Wait for in-flight PTP timestamps before treating Tx as idle
 52a64e64230e03b45c13c615d7cdf0aeea39b210 fbnic: Cover all of the HW stats with the stats lock
 4b5153b389627d81f80eef49a5f27032c36378f6 fbnic: Initialize and reset the HW stats before they can be read
 6fca674b61f6b5d9f66fb22215d3e981f2b76126 Merge branch 'fbnic-follow-up-fixes-for-the-tx-idle-check-hw-stats-and-fw-mailbox-allocations'
-2d3c52a43b9d693bde81a29973b3480011287d5a fbnic: Do not accumulate HW stats from failed register reads
-73694a4a031b106bb8963cc6f5b8170121d5ddc3 fbnic: Stamp heartbeat and ownership requests after allocating them
-3abdc3aa3390eca9bdaee9cf54b7e02bf2113847 fbnic: Allocate FW completions with kvzalloc
-b9889b342bb2385ca155623669058c72c4846a30 Merge branch 'fbnic-follow-up-fixes-for-the-tx-idle-check-hw-stats-and-fw-mailbox-allocations'
-419c42cb567e5db62f889993786552f6d31a2056 eth: mpnic: add filters for dev_addr and broadcast address
-5f969cf59b64a6f2cffa86cdf40558a059a66c5e eth: mpnic: add promiscuous and all-multicast filters
-135603cd9dd937b0c57b4c69cb870cf02655d503 eth: mpnic: sync unicast and multicast address lists
-1b271185a32bfa7f8e5253ceda7c996309dbe050 eth: mpnic: support changing the MAC address
-6dec0f87d90f8a72659236cba52dc6855629deff Merge branch 'eth-mpnic-l2-address-filtering'
-82290fab668c47241608b6f2d03e785f014f7c9e psp: only give time-wait sockets of PSP connections a validator
-03c18e3989c41ac14fb65c6359802fba8d6c37a2 net: use inet_rcv_saddr_any() in udp_tunnel and ping
 ad2c7240a3981fd5f0142b61ca913b02ab476ede cxgb4: allocate the full ethtool filter location array
-bb7cdcfc80a993b828228c425b1bb44480834d56 net: stmmac: dwmac-rk: split gmac_clk_enable into enable/disable
-c25049685e16548639e6dc02f0e58c1792c98068 net/mlx5: Distinguish VFs/SFs in the SW system image GUID for LAG grouping
-2bfcb28b10e87ef6accc24b7efa37a4a48a36160 net/mlx5: LAG, select the MPESW master from the live member snapshot
-a2d029ad50e23a8fdf25b401bd2b78aedbfd403a net/mlx5: LAG, skip phys LAG prerequisites for a virt LAG
-b03cb2fdbbdbd5bf09946e2f459fe8abf95be4a5 net/mlx5: LAG, treat virt LAG as a software managed LAG
-4eef67c32a7bba388d4da62b37c9cb68022b489b net/mlx5: LAG, decouple iteration end-of-walk from MLX5_MAX_PORTS
-1e6086bcd491fa71647f9e2551a9723915ef9f70 net/mlx5: LAG, rename PF naming to fn
-26da1e56cef9bd0c88c73291950001078ae7d8b4 net/mlx5: LAG, resolve affinity indices only in queue-affinity mode
-b7826ed4d0b5f99b24072fef94a5a90672fc63d2 net/mlx5: LAG: replace fixed MLX5_MAX_PORTS arrays with dynamic allocation
-0da8bb5da54f897cdba9725f0c7d6aa0a4aae9ba net/mlx5: LAG, drop MLX5_MAX_PORTS scratch array from device rescan
-5830905813d0464a19e5d61b08eb966d59a10336 net/mlx5: LAG, do not add a device to an already-active virt LAG
-c10c288181aff14d78c6324d01cea279822e86d9 Merge branch 'net-mlx5-lag-preparations-for-lag-over-vfs-sfs'
-0d76479bc852e952a5d99dc576efbcbcab15357b devlink, mlx5: add init/fini ops for shared devlink
-6381ef1b13386942618abd295195987ccc19c9e9 ice: use shared devlink to store ice_adapters instead of custom xarray
-362917b0b26bd16587d41a37f5fd1c252099a73c Merge branch 'devlink-mlx5-iavf-ice-xlvf-for-iavf'
-8c99fb84b5123c4887e30f71134c51659482c766 virtio_net: reject stats replies for queues outside the request
-48147635243ad4e8d52126bd028f96fabc15f0a4 virtio_net: zero the stats reply buffer
-96b229723bb52a9c47a5a37ac3e13b5c7623fdd6 virtio_net: keep reads of stats records within the reply buffer
-942d862f65b945ed9dd3df9a225416e1544f8b39 virtio_net: report a failed stats command as an error
-5b87a11b1547c39da01718044b9f99fd85948b9c Merge branch 'virtio_net-fix-out-of-bounds-accesses-and-a-heap-info-leak-via-the-device-stats-reply'
 4f8b1a7cf7548ebefae959486c3acc33799d1116 net: bcm4908_enet: fix the TX ring wrap
 e1d4683fb4cb9d7f45a17c43a56ba2d26ab91ec6 net: bcm4908_enet: drop a TX frame whose DMA mapping failed
 e2785f0ff0a210158933221e86ea5bd066992870 net: bcm4908_enet: release the TX ring on stop
@@ -794,26 +725,7 @@ e2785f0ff0a210158933221e86ea5bd066992870 net: bcm4908_enet: release the TX ring 
 4d47e6c2f3ceb638d4ea5c21e304b20f526255bd net: bcm4908_enet: publish the buffer address before OWN
 ebe31472ad0a08e19a31a6647b99c6b51f90026c net: bcm4908_enet: order the TX ring index accesses
 435cbdaf9b03687498dc16fe4af8d16a977e21d0 Merge branch 'net-bcm4908_enet-tx-ring-and-dma-fixes'
-a467c628a7cbc48b5e62b7711ae2c36ddcb73cdd mlxsw: pci: Process EQ in the IRQ handler instead of a tasklet
-b494a6d7da32d9cc6b4638f3f90effabc546652c mlxsw: pci: Fix teardown order of CQ NAPI instances
-ed36d92df8cefcbb04053350876efeba422195eb Merge branch 'mlxsw-fix-teardown-order-of-cq-napi-instances'
-d3f362a76211dbf5ac04606cb089592cdb707b9e net: phy: aquantia: Poll global status register for provision ID
-82fa1bd423d7eb1a917a787bb9ee3359d552f882 Merge tag 'batadv-next-pullrequest-20261114' of https://git.open-mesh.org/batadv
-2cb41b6bea6202a64678ebc652bb88ba5df7c9dd net: dropreason: add SKB_DROP_REASON_FRAG_MEM_LIMIT
-871c4d55bcc2e0ed5cd4d91fcd75a590654fd206 inet: frags: annotate data-races around fqdir->timeout and fqdir->max_dist
-74a8695588fd3368cd176feb4d420ff0289b7308 ipv6: annotate data-races around icmpv6 reply sysctls
-9b01b1ed4b274b85d727c7f63fe2843be4ac650e mptcp: annotate data-races around pernet sysctls
-89452de7ed3d75f9fe3464cdab83f90ecf2c0e73 rds: annotate data-races around core rds sysctls
-88c1e8ba30249470bf520ffe32936ddb77ef3eb5 net/smc: annotate data-races around smc sysctls
 d0c28729c10f4d34c9f91ade3b1dcc130e472d54 MAINTAINERS: add Willem de Bruijn to networking maintainers
-f2f0bb348cf418c1589d068b6a98e18923351d85 Merge branch 'net-annotate-data-races-around-sysctl-knobs'
-ebcfb8e2404470227ea59751b43c6201811a4aae ipv4: add FIB_LOOKUP_REPORT_MISS
-67de0b38f68ae3fb6880f61c1e99faae484d8d7c ipv4: restrict on-link fallback to lookup misses
-854ec14f9360e6b4bac6ce86816bd9aa93db64fa selftests: net: test restricted on-link fallback
-8acc01b5b851e2b0e27c3a9b177eabb07a8f5c1a ipv4: replace obsolete routing comment
-aeeef96bec39804e44b9a1979df7d5df6179c226 Merge branch 'ipv4-restrict-on-link-fallback-to-lookup-misses'
-f69dfe5940533c7f6b259829ad205b3556169b1d net: remove CONFIG_NETDEVICES requirement for SO_BINDTODEVICE and SO_BINDTOIFINDEX
-0742ef27cd72f155e6d355d13c49133116f19c89 net: pcs: xpcs: add 10000baseCR_Full to 10GBASE-R link modes
 3bf0ed5695638db7e57b0d42768754bf29c3bb4c l2tp: reject short IPv6 address attributes
 ec7cb74c1a7e6c81d8647f73be2b711b5fc1a7a4 mptcp: do not use a raised snd_wnd for the send window
 68f465e3d9ce46bf78c8543aadf147eefa9f9cf4 mptcp: push pending data after a sendmsg copy fault
@@ -824,65 +736,21 @@ d0e88ecfae68043ac9ed2c6991f001830af7ebdd mptcp: don't send a FIN before the pend
 3d064436b2872fa08537419e62d96951da6e96dd mptcp: fix dummy mapping of overlapping segments
 80a10c0aa82a1cc58b488056127ebd6cd4db8af3 Merge branch 'mptcp-misc-fixes-for-v7-4-rc4'
 e421df3c838692c0c3503768ec3c9183f6df77aa net/mlx5e: SHAMPO: Do not merge packets with different kTLS RX state
-bc84a86664ea11139c5d1a8543c6cc147d3774ce MAINTAINERS: Update AMD XGBE driver maintainers
-015ec2bbb2c76c238a6f65ddfa085f5409bd0c4d Merge tag 'linux-can-next-for-7.5-20261119' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
 325e921a7aa170181e1cce235d9c652cb0ad3a5b net: mana: Set 1 usec / 1 comp as default and minimum interrupt moderation
-2297f88ce0b8b6836989ff75b5c63998f60a499c dt-bindings: net: amlogic,meson-dwmac: list the compatible combinations
-18029931478bc9287d7bdc7aa344c19b00a61d38 dt-bindings: net: add amlogic,t7-dwmac
-c4c851a3325e5224d2e611bea5068dc90829db00 net: stmmac: dwmac-meson8b: add support for the Amlogic T7
-4fdc7da7e13d18ad55954c0c2061e299f724f9ef net: stmmac: dwmac-meson8b: follow the generic RGMII delay rules on the T7
-42b2abae1fd68423790d2e9dc851c095c067ba4b Merge branch 'add-ethernet-support-for-the-amlogic-t7'
-683068cdb9cf254dea72a798fdef4bf13ac6f0a7 net: enetc: Add pseudo-MAC support for ENETCv4 Ports via a fixed-link node
-3e68d8cee653e13de8f641569db028599f56f4e5 net: enetc: Allocate int_vector array dynamically
-24579bb24660a548bfe7c28c784b81a64b9b6c54 net: enetc: Enable probing of version 4.4 devices
-821b90b0e9cb38dc37f95cb18a30a5970e7fd08b arm64: dts: s32n79: add NETC IEP18 ECAM node for ENETC PPM ports
-8fa58d0f821f08be7d342edfb3e36567c6d09ceb arm64: dts: s32n79-rdb: enable NETC IEP18
-d2f68f74723d64f46bdd7ebd8d4a7b6cb6c627e8 PCI: Create OF node for NXP ENETC pseudo-MAC functions
-f05dc314df02a826d7c6a5b989d8c887143a12b8 Merge branch 'net-enetc-s32n79-pseudo-mac-ppm-networking-support'
-2208ab00f4f213ade91ab775e7f8c4dacdcc856e net/packet: wait for a single RCU grace period in packet_release()
 7411fb1929075884648e9db0b9ec7e424c095185 tcp: initialize ir_rmt_addr and ir_loc_addr in cookie_v6_check()
 ce28b1a4d137842e428a578269c35d6c84109438 tcp: accecn: initialize AccECN fields in syncookie path
 4d67cf2fd2352f130c42494a933ba9158b925c65 Merge branch 'tcp-initialize-missing-request_sock-fields-in-syncookie-path'
 00f445721c7f0e48aaff9813cfe1c065c6eb3b71 vsock/vmci: reject datagram binds in local network namespaces
-d0bd6f3173e1e58f4e314b870987a9c9e1272aa9 DO-NOT-MERGE: git markup: net
-c4b3b1c5153f1b88037b8affbe583850f0a0d599 DO-NOT-MERGE: git markup: fixes other trees
-346f84ca6e0c3fee74bfbddfac7bc45fe4bf238e mptcp: pm: kernel: c-flag: keep local_addr_used in sync
-6b0972cbb326cb06c94af4471db44ea5bc744420 mptcp: fix use-after-free of the subflow context on the delegated list
-0d7da531c1cecfeacd0d732801aa6aec373fab27 mptcp: exclude MSG_PEEK from receive buffer autotuning
-dba6e2de1b4a9abc89c18a632a4fa8c26a72f13d DO-NOT-MERGE: git markup: fixes net
-8a9d266aaca042007e6c1ac8775a435a7c59683e DO-NOT-MERGE: mptcp: add CI support
-47166cc7929424b90f4f060db32ec8f775d55af9 DO-NOT-MERGE: git markup: end common net net-next
-86edb671c179f72780fa7c87649cf40142f82f23 TopGit-driven merge of branches:
-2e6804b576bd47e5a00b5747c8d872c6a31b5f47 DO-NOT-MERGE: git markup: net-next
-0ce1b7d6a2ec499c8a0ff4bb4d3fd1a72dacea1c DO-NOT-MERGE: git markup: fixes net-next
-d09608543484640d00a9481b239a9e0a4386fb46 mptcp: pm: init and release mptcp_pm_ops
-333e96d5bfcf38239c4cb1b0762c1503fb458bae mptcp: pm: add get_local_id() interface
-ac799ef48d807e95d01c9d0eddcc0fbf4b697ce7 mptcp: pm: add get_priority() interface
-a3ae77b41df7cb4a743d4893bc44ad1ed1f56d0b mptcp: support MSG_ERRQUEUE on the parent socket
-c4c7163f57c416b23e205bdcedc1d61657fe4f28 mptcp: sockopt: factor inet_flags propagation into a mask
-80b24aa0b1bf89cfaeb14594539e575ee06eb403 mptcp: propagate RECVERR sockopts to subflows
-e3336bf3a583f3e58b6ebdd069bfbdc95a89c800 selftests: mptcp: cover IP_RECVERR sockopt propagation
-a9c4cdcf681ea7ba29ee6d1175845f85534b8d36 mptcp: add msk_is_mptcp() helper
-4a294551105d71dd3ca320051dcc33df9bfc9583 selftests: mptcp: join: dump stats with right title
-9b32c34ff20f22d6fd35f71f1071c4eae53ef309 selftests: mptcp: sockopt: pass total bytes to do_getsockopts
-7601da6e12d1462d3bac1ba1a045b2a0dad4d72b mptcp: annotate lockless access to msk->scaling_ratio
-9cb54b9ddfced4ff490027be0fa2ad73b8127c91 selftests: mptcp: sockopt: drop unreachable FIN accounting
-6fab44f2f20e1dec8c6bf2c9ae9d58dd6b778880 selftests: mptcp: print stats before socket closure
-d5ee463628ca1590d6ffa7f29851e0b2b4c538b7 DO-NOT-MERGE: git markup: features net-next
-b65c09f7b571d2f82b8c3fb95890a5b88aa2c43a DO-NOT-MERGE: git markup: features net-next-next
-8f5d0b4926190010cbc162ef94a7685409ea0084 bpf: Add mptcp_subflow bpf_iter
-a61e3cb2c15491b59429b2f998d15c74186d1b2a selftests/bpf: More endpoints for endpoint_init
-6921b3343f6b3c06e808e437254719f015b6266b selftests/bpf: Drop cgroup_fd of run_mptcpify
-97df76e6f6f30f2ff05308b7ad5ffa1a7e782fb7 bpf: Add mptcp packet scheduler struct_ops
-054d24a67ddd609366b672f8ba9cda584ed09bfc bpf: Export mptcp packet scheduler helpers
-d348ce7dac71993c2c28b526382ebfffd220cbfc selftests/bpf: Add bpf scheduler test
-95446d123b1823fc7a45588c35bcbc992ac4943c selftests/bpf: Add bpf_first scheduler & test
-218d5ed4ec6046d3824e7db343f1a184d8b83d13 selftests/bpf: Add bpf_bkup scheduler & test
-9fac3a43d98f111619f63d644947c6b6733602bf selftests/bpf: Add bpf_rr scheduler & test
-c0ae32388a642dfee50e4be72ead394e94bdc128 selftests/bpf: Add bpf_red scheduler & test
-2c1d29f12b02e2614a48b868d57645d2c9fc6e7b selftests/bpf: Add bpf_burst scheduler & test
-cbf156e163d401f586aed1f057776c62ba36e4e8 DO-NOT-MERGE: git markup: features other trees
-4a7837d1381e753137b77522542aa9dbf06ec76d DO-NOT-MERGE: mptcp: improve code coverage for CI
-a5a09d29d4bfdb5e935e832970f7f8a7ecb14282 DO-NOT-MERGE: mptcp: enabled by default
+bf7dc20d36691483b534c90153c61b1265db8ab0 DO-NOT-MERGE: git markup: net
+72dffa2b43f10ef695f09a9264e72135e9e48bea DO-NOT-MERGE: git markup: fixes other trees
+a0d1b559cd837f40f0012949fac85deb6248ca65 mptcp: pm: kernel: c-flag: keep local_addr_used in sync
+2218f8cede37ab632de30ac2f69c01248bd4f707 mptcp: fix use-after-free of the subflow context on the delegated list
+67f4193a970f1ed4f3857f7c5b8b1718028886f8 mptcp: exclude MSG_PEEK from receive buffer autotuning
+8e5ff0ad7f91949b2758fda38565c2665f1cad22 DO-NOT-MERGE: git markup: fixes net
+dce44ec6915413b13ad82ebcdc7f930c394388a9 DO-NOT-MERGE: mptcp: add CI support
+a0e404ee05e47397d5bcfe1b98730d3dfc5dce47 DO-NOT-MERGE: git markup: end common net net-next
+3a56fea2407cb7e3bd53b22f3acbe0fd53c73ae0 DO-NOT-MERGE: git markup: fixes net only
+01d1ae5abc3b1a6f755caf0c945ef4b737ae3ad1 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+c3d9f7cc56dc70fa8c909b3b11de059fbb5f9a36 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============3464106065783558771==--
+--===============3316193125693649045==--
