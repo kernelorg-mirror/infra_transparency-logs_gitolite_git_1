@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 20 Nov 2026 17:59:20 -0000
-Message-Id: <179519756045.1185848.18082835184628426508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 20 Nov 2026 18:00:11 -0000
+Message-Id: <179519761175.1188212.9601292798449258228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: 0a4ce436c015843751937346b1b2250e138459a7
-    new: 0a2bec09f2524b13814898493d7e3279ba747796
+  - ref: refs/heads/main
+    old: f9919c7a5892be53a36100fa18d8620b5fe7d6c4
+    new: a1ebb5ad7eae3caca60b8b3db5792cf43339ba58
     log: |
-         e9f055153db78d88cb1859c281e255836c963164 ASoC: cs35l56: Add KUnit test that widget init doesn't write ASP registers
-         f186a3e1546ee7ced5989e664f1921556891b040 ASoC: cs35l56-shared: Add KUnit test cases for ASP config register writes
-         2aa44c4766073f8e32457ed9c5315325205a49e1 ASoC: cs35l56: KUnit tests for ASP register write blocking
-         0a2bec09f2524b13814898493d7e3279ba747796 ASoC: lm49453: Use DMIC2R Switch for the HPR DMIC2 Right route
+         e76b0f29978a7bf2f078e0588540dea1e12b4d26 xe: Update NVL GSC to v108.0.0.1242
+         a1ebb5ad7eae3caca60b8b3db5792cf43339ba58 Merge branch 'intel/nvl_gsc_1242' into 'main'
          
