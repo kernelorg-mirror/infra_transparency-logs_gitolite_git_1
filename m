@@ -1,59 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============5757536818533563948=="
+Content-Type: multipart/mixed; boundary="===============8684488883671017762=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 20 Nov 2026 10:39:57 -0000
-Message-Id: <179517119718.830425.17221669899697973665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/slab
+Date: Fri, 20 Nov 2026 10:40:10 -0000
+Message-Id: <179517121070.832629.2443411985188432420@gitolite.kernel.org>
 
---===============5757536818533563948==
+--===============8684488883671017762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mm/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/usb-testing
-    old: 01ad61c08da9f3d90643195c6dbfe8d92ad04ea5
-    new: b2d6fba305a9dd1b8cba7a066e5a343f02ffd1fe
+  - ref: refs/heads/slab/for-next
+    old: b6ac0c74d9f593d2549b99db3a055844cc11e9df
+    new: c6e6bf9b097d69a06974b2f8b5400b33e1faeb31
     log: |
-         a709b1506880babc7f31f22dd3908ce9f61b1503 usb: gadget: f_uac2: avoid truncating calculated bandwidth
-         7dcce487f1dce56e82ae1ce5742473b867fc5e20 usb: gadget: u_audio: pass channel counts explicitly
-         9d4fd518d4b3dad6ed453b685fcfe876189f199a usb: gadget: f_uac2: allow explicit channel count independent of channel mask
-         b2d6fba305a9dd1b8cba7a066e5a343f02ffd1fe usb: gadget: f_fs: Remove deprecated dma_fence->ops
+         ecdfea9cc392a0b6b6b32817c0bc59877e7878f4 mempool: fix missing alloc tagging in mempool_resize()
+         49caea114503631f0eb561df9ef3f8a6c8ccc9d0 mempool: account the element array to the caller
+         94fa741f6811adb21ed611c31ba5d1fe24435eca Merge branch 'slab/for-7.5/kmalloc_nolock' into slab/for-next
+         c6e6bf9b097d69a06974b2f8b5400b33e1faeb31 Merge branch 'slab/for-7.5/slab_tiny' into slab/for-next
          
 
---===============5757536818533563948==
+--===============8684488883671017762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795171191 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1795171191-56d8c341c054ca9e7a7afe67add2081f37d53e2e
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1795171206 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mm/slab.git
+nonce 1795171205-947463ab7342f7a785f950ab34d4bbb7aa68eb5f
 
-01ad61c08da9f3d90643195c6dbfe8d92ad04ea5 b2d6fba305a9dd1b8cba7a066e5a343f02ffd1fe refs/heads/usb-testing
+b6ac0c74d9f593d2549b99db3a055844cc11e9df c6e6bf9b097d69a06974b2f8b5400b33e1faeb31 refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsAI3cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+niEP/jR2A2yQG8FiB+nWTooi
-BnJDsXyy2Tz/l1kx8ZisGjFvmKnx+jEVoGkPxj+LA5RcmxrEiOLaZACCZyi5SkO4
-cGhTKMLagMFb3BANwsxcYmov8kqqR+QHswd2mH6PfYF61gGK9FjdqAfU2L64PYCx
-+5Q9YeJhvZutkm1dZDBvCJZXGKB57F/wJAZ4B2D5xWm6kZXPDkPlWCx5S3xyswbq
-PpmhLXHISXIEholCGVesCo8VkwzMFWCYhQ/YdWgWJkjvJPiClMZ1saoWcsp/VlF2
-itLpYeKin+KBO1qsgF33wIjNy/YOChB/WqOV5/k+t5POjT482uLB0ROWMS2D1+Ox
-hDvAFIlu+4T+wDd6W5ckzcM5MNbUbinY+CMhJ9bvSwpBTIo3esv209jHaMhKNTjb
-AD4EBrgMcyg3AP3EPazdR5W8i5CPX7PI8AzvtQEpUhQsneGPFOaASVmP9NLsCi1F
-f4/nDhchf96vOjzl1X5eyZXkCKq+XEiMOfrqlzMOwzV6AZbqm47gB7Ui/y32mStK
-QFD8JteAJEXNPtX21/u/Sa08xMw0doFK6JAo23GWstb6Bb9Q971GUm4UH6OD/E1U
-O1QZgbhwMwZWxObtMgmRCwnF+tNC0x+JKF0Y6EIy20i7AS3VXhL7qGfDNpbUrj0R
-+yc4A4tM5VK8iCq9hQsd6qKQ
-=MdhQ
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmsAI4YbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaDOsH/2NUFCxBA37PuBepyQp0
+BPe1jydvirFRcxTiDzVxMn2VThGMqIuNhc+NzLQ99feBhlX5n8gi7DBDfuPjJl2w
+n5Cqmyc1F+fLp1cDO+ZpUk/WI3+ZS1FOwQyH4c5rUisOojb+HzUJbuDZVr7hsxwW
+6qaiC3JEqR5cIWwv3DJIEGbwRDBrErSj2ef2cCOI+voVT/WYBW1oKwGE1OP/Ka1+
+fMTtEFQxUaPALqVVe7vyjY7cdUze9QiUfs/60Suo5AGV23OiiCialFmYmgA0jkaD
+Mlkr2ODlkFBfZmcftwaNfNzU9ITUSTxrzwzrYs5Dx8XQtDx8LcbAgSaldQjj+5QN
+cxY=
+=nmKz
 -----END PGP SIGNATURE-----
 
---===============5757536818533563948==--
+--===============8684488883671017762==--
