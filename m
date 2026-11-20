@@ -1,138 +1,81 @@
-Content-Type: multipart/mixed; boundary="===============6906371816446457159=="
+Content-Type: multipart/mixed; boundary="===============5080239485295663442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Fri, 20 Nov 2026 12:13:56 -0000
-Message-Id: <179517683694.903045.15982072705446105768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 20 Nov 2026 12:14:49 -0000
+Message-Id: <179517688993.903445.8966882346431468904@gitolite.kernel.org>
 
---===============6906371816446457159==
+--===============5080239485295663442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/for-7.4/upstream-fixes
-    old: 7a8289d7506384a57fdc40d69dbb72506ab860f5
-    new: edf34adc3136d3e231f042b6622a51876bd80468
-    log: revlist-7a8289d75063-edf34adc3136.txt
-  - ref: refs/heads/for-7.5/logitech
-    old: eaefbfc33fc582a8a2daf4106b8305496831e5f8
-    new: 4b26f93efe0d95b271e7d9a891e85a4e4d29836a
-    log: revlist-eaefbfc33fc5-4b26f93efe0d.txt
-  - ref: refs/heads/for-next
-    old: e350673a495fd862767f19ffcf02bba7903ad051
-    new: 3d442247479712b961186574730b60de8640dfb9
-    log: revlist-e350673a495f-3d4422474797.txt
-  - ref: refs/heads/for-7.4-7.5-logitech-920-merge-base
-    old: 0000000000000000000000000000000000000000
-    new: acb92d68386801d566a79f00a89f087ecf07b16c
+  - ref: refs/heads/for-7.5
+    old: 98615fa0e6ca2480cdcfd888680024a2c35b62c3
+    new: fdf2a24354c54840326e6fae96c95e98d45b5f14
+    log: revlist-98615fa0e6ca-fdf2a24354c5.txt
 
---===============6906371816446457159==
+--===============5080239485295663442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a8289d75063-edf34adc3136.txt
+Content-Disposition: attachment; filename=revlist-98615fa0e6ca-fdf2a24354c5.txt
 
-9b0274c19cfc333ffae18ae2f0bc6e7503dd5e4f HID: logitech-hidpp: fix G920 force-feedback initialization timeout
-71b0b6e8ec74516d430f5543e81cc8b466382203 HID: logitech-hidpp: use GFP_ATOMIC in hidpp_ff_queue_work()
-c0d9f550bf4b4999d9416548bf3967a97f83edb8 HID: logitech-hidpp: drain G920 FF workqueue before closing transport
-a9c54220eaab751aea83d8d0b3cfc1ebbfef892d HID: logitech-hidpp: disable works before stopping transport
-d83e1f2244586d939e2c622cbd234e2759c820bb HID: logitech-hidpp: do not store ERR_PTR in battery->ps
-1ded3c8ba2a5c00136cbbabd877e4e725f38ec43 HID: logitech-hidpp: avoid NULL subtraction in consumer key report fixup
-d801abb76c64f8aecb56cd6df4a12f0277e4bc37 HID: logitech-hidpp: fix off-by-one in G920 force-feedback slot tracking
-cd2482146a080f2ab2944ea1958f63c96ae60404 HID: logitech-hidpp: do not retry timeouts and transport errors in hidpp_send_message_sync()
-1cc95800826864c5c1538400435862cf3f3aea5d HID: logitech-hidpp: initialize response buffer before publishing send_receive_buf
-e6fbec239544337e223ca537ec1e28928bd182fd HID: logitech-hidpp: fix HID++ 1.0 battery mileage event parsing
-58e412c79974118ba8bad210a639bdc3571a6562 HID: logitech-hidpp: handle negative errors in hidpp20_get_adc_measurement_1f20()
-de72231b256e51f45f5d3df961ece8a0f949b6ef HID: logitech-hidpp: mark device online on unified battery 0x1004 events
-06b7aa982bf6d5053e175fe7aa90817800cc87db HID: logitech-hidpp: fix K750 solar battery feature lookup and reconnect
-acb92d68386801d566a79f00a89f087ecf07b16c HID: logitech-hidpp: expose charge_type property for battery voltage feature
-edf34adc3136d3e231f042b6622a51876bd80468 Merge branch 'for-7.4-7.5-logitech-920-merge-base' into for-7.4/upstream-fixes
+29b76b28adb354b7b29cae222c4b3e17c42e27eb ASoC: Intel: avs: Do not skip error reporting when an IPC timeouts
+e3f298602f10b24f6c4f34b57af4889b81c17c91 ASoC: Intel: avs: Do not skip errors from avs_path_pause()
+1bd4d27d1fac61338e86e4ead92f59f7636bc500 ASoC: Intel: avs: Have one location for dumping path-errors
+1bdeb816a8185a5d8f70c7b0217aa64c4b3ac2e1 ASoC: Intel: avs: Small registers cleanup
+2a8f64f96e456f26568ae4fe0d7b1ba18d4a21fc ASoC: Intel: avs: Enrich missing-format and token-parsing messages
+357b3ab122ccea4b3ba90ca8468101df17dc31f0 ASoC: Intel: avs: Unify code style for platform_device_id arrays
+516742b4e979b6cbd3cf7bb19de63437b1614dff ASoC: Intel: avs: Streamline topology parser names
+4c59d3302e76eed2bcf88a94f38bb4c4123593c3 ASoC: Intel: avs: Streamline wording used for board configs
+13a4b93fd23ba62298135fdc1d40ca070ee489d9 ASoC: Intel: avs: Streamline naming of hw_params variables
+2596a16ad41bbeeade6e5d5c59c88dc14894862a ASoC: Intel: avs: Streamline spacing used in the avs_ids table
+a8b8834d2a1d0d6464862e8d61de1e4a3bd92ab8 ASoC: Intel: avs: Remove soc-acpi-intel-match include
+e5d350c076a8ab125955d4ef2f868e9c3debdbee ASoC: Intel: avs: Renames and debug prints
+0aa294970888a96261de01c319a7e748eb2e701c ASoC: cs35l45: Fix spelling mistake "indductor" -> "inductor"
+a6ff2055fdbb646d7d21ca17e6a47604ac81b26f ASoC: dt-bindings: pcm512x: Add mute-gpios property
+35aa7b7f8501ae6be81de4118b7cf4c1b1d7927b ASoC: pcm512x: Support external mute GPIO
+c41412f46219d69ef936fbd47d5d51be65b4827a ASoC: fsl_asrc: Improve probe error handling
+a16853bece06c4e01243b6c7b2286d434ee3303d ASoC: fsl_asrc: Fix handling of deferred spba clock
+dcb503f01380bb70b50319b51e3e76afb364f38a ASoC: fsl_asrc: Fix runtime PM usage count on init failure
+ab7cfd1b36a2b591c42185224b02edaeea31e627 ASoC: fsl_asrc: Request the IRQ after the device is initialized
+b4b22bdc2572b79401817bdb9240705e25f6ec8e ASoC: fsl_asrc: Use devm for runtime PM cleanup
+0f8ea2391e29d7ea83ee8dc406d0f4762ce87fcc ASoC: fsl_asrc: Use devm for m2m cleanup
+4d5e3876c9b43062a21dacb1943a9c4443dd1dde ASoC: fsl_asrc: Fix probe and resource management issues
+e367b5f639b494c29d5f504a9bbd9fcbac9c7885 mfd: cs42l43: Add load detection register needed for cs42l43b
+a60ab05f40c5510895dd3dcd26ef810c985f692f mfd: cs42l43 dependencies
+1305c408e5d6352eeee66ca4c77c64cf9d237222 ASoC: cs42l43: Update load detect procedure for cs42l43b
+250e33dab91069d388ec9aa3bbd11b492395d7fc ASoC: tas2781: add realtime speaker protection data control for TAS2573
+9465c6f63f1040a3ca703c01f401a5e80a8180c2 ASoC: soc-dai: Remove orphaned DAI suspend/resume prototypes
+d69afb013bc7dea3d4a3596dbf75d952013840ac ASoC: cs48l32: Remove orphaned function prototypes
+11757763268c0b860893a018a6542a1bacaddd8d ASoC: pcm3060: Remove orphaned pcm3060_remove() prototype
+3fd2b98cf3930a25c6f13f646ef16b3975af29a4 ASoC: rt5682: Remove orphaned rt5682_register_component() prototype
+bb5426a6e25567ee25e02dfc9e54fc1c74eada92 ASoC: codecs: rt700: Remove orphaned declarations from rt700.h
+4676da1cf7eeefac53d78ca0fa2a782cf6d41932 ASoC: codecs: rt711: Remove orphaned declarations from rt711.h
+0cae691485d96bd0518b1aa0c52a0bab9c16bcd7 ASoC: rt711-sdca: Remove orphaned rt711_sdca_jack_detect() prototype
+c241c558bcba6879b23ec9a267540f1a5d9785f8 ASoC: rt712-sdca: Remove orphaned rt712_sdca_jack_detect() prototype
+f8fe52efa078f360a092c1a6cadfccc821ac18a8 ASoC: rt722-sdca: Remove orphaned rt722_sdca_jack_detect() prototype
+af2b68b0ba01880b836d2407c720334fedde0b01 ASoC: codecs: pm4125: Remove orphaned SoundWire helper declarations
+80f56845e2024bb1aff13cc75471fe5bc27b7f5d ASoC: codecs: wcd937x: Remove orphaned SoundWire helper declarations
+434a47f4d2f2f675ee26cf9b311bdec63b811967 ASoC: SOF: ops: Remove orphaned snd_sof_dsp_register_poll() prototype
+282435d20a521ff6cbe97bef5c831f99828c9958 ASoC: SOF: Remove orphaned function prototypes from sof-audio.h
+da3f507464b4506db2fb02bc55bc0ba1d4fa2386 ASoC: SOF: Intel: hda: Remove orphaned hda_dsp_ipc_cmd_done() prototype
+06dc42bef3343de27ba3389838dfd34a579d6d42 ASoC: Intel: avs: Remove orphaned avs_parse_sched_cfg() prototype
+3c13b2613d0ba32d5b05f691b062b22f5ed6b72f ASoC: Intel: atom: Remove orphaned function prototypes from sst.h
+c76651851f52fa420bafc352a839c860ec66d1ff ASoC: mediatek: mt8192: Remove orphaned DAI registration prototypes
+226d9f0598594e212ab6f5e360d06e0502b1d232 ASoC: mediatek: mt8196: Remove orphaned mt8196_dai_set_priv() prototype
+861373c60a9a8f462eb48a18b125920a9f7e2aa0 ASoC: mediatek: mt8365: Remove orphaned mt8365_dai_tdm_register() prototype
+1b4fda966515c0c8e2bb2ac8450f6fa1f3ec0cb0 ASoC: qcom: qdsp6: Remove orphaned audioreach_map_memory_position_buffer() prototype
+4b1b47b38e41f20c5bc9db3a69e4263b0eaf2122 ASoC: rsnd: Remove orphaned function prototypes from rsnd.h
+398c569a032de8ad5b68335b97673a5d11deb1c1 ASoC: ux500: Remove orphaned ux500_msp_dai_set_data_delay() prototype
+a494001c62ec20ded84a2584e580f34b8e501cd4 ASoC: Remove orphaned prototypes
+a0344bdd46367eb29019d29de57013fe32e64250 ASoC: audio-graph-card2: Release multi-link ports references
+fdf2a24354c54840326e6fae96c95e98d45b5f14 ASoC: Intel: Remove unused intel-sst.h trace header
 
---===============6906371816446457159==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eaefbfc33fc5-4b26f93efe0d.txt
-
-9b0274c19cfc333ffae18ae2f0bc6e7503dd5e4f HID: logitech-hidpp: fix G920 force-feedback initialization timeout
-71b0b6e8ec74516d430f5543e81cc8b466382203 HID: logitech-hidpp: use GFP_ATOMIC in hidpp_ff_queue_work()
-c0d9f550bf4b4999d9416548bf3967a97f83edb8 HID: logitech-hidpp: drain G920 FF workqueue before closing transport
-a9c54220eaab751aea83d8d0b3cfc1ebbfef892d HID: logitech-hidpp: disable works before stopping transport
-d83e1f2244586d939e2c622cbd234e2759c820bb HID: logitech-hidpp: do not store ERR_PTR in battery->ps
-1ded3c8ba2a5c00136cbbabd877e4e725f38ec43 HID: logitech-hidpp: avoid NULL subtraction in consumer key report fixup
-d801abb76c64f8aecb56cd6df4a12f0277e4bc37 HID: logitech-hidpp: fix off-by-one in G920 force-feedback slot tracking
-cd2482146a080f2ab2944ea1958f63c96ae60404 HID: logitech-hidpp: do not retry timeouts and transport errors in hidpp_send_message_sync()
-1cc95800826864c5c1538400435862cf3f3aea5d HID: logitech-hidpp: initialize response buffer before publishing send_receive_buf
-e6fbec239544337e223ca537ec1e28928bd182fd HID: logitech-hidpp: fix HID++ 1.0 battery mileage event parsing
-58e412c79974118ba8bad210a639bdc3571a6562 HID: logitech-hidpp: handle negative errors in hidpp20_get_adc_measurement_1f20()
-de72231b256e51f45f5d3df961ece8a0f949b6ef HID: logitech-hidpp: mark device online on unified battery 0x1004 events
-06b7aa982bf6d5053e175fe7aa90817800cc87db HID: logitech-hidpp: fix K750 solar battery feature lookup and reconnect
-acb92d68386801d566a79f00a89f087ecf07b16c HID: logitech-hidpp: expose charge_type property for battery voltage feature
-69cc6be9264b0c3d45abdeb493ede3818f3b747e Merge branch 'for-7.4-7.5-logitech-920-merge-base' into for-7.5/logitech
-af9260b9cd7e83f8453f1db7d2032e543ee5c490 HID: logitech-hidpp: keep connect work disabled until hid_connect() completes
-c8d072b436995f6829e727cf9fc5763eb68c7aa4 HID: logitech-hidpp: preserve transport error codes in __hidpp_send_report()
-ed9b8b75de2a4a8f6d9b096685930e557fe263c7 HID: logitech-hidpp: return negative error codes from hidpp_send_message_sync()
-82720f79c3e35be8592d250d950d13adf2dd6f6a HID: logitech-hidpp: rework G920 force-feedback initialization
-038e828be1f58dd043497af571ec1071c7d4b632 HID: logitech-hidpp: use sysfs_emit() in hidpp_ff_range_show()
-a61dbb5a7595d14a687d7967a7bde0916dd95cab HID: logitech-hidpp: manage G920 range sysfs attribute via dev_groups
-c3afbdb42706cc59256c0ca3f9df1df55b7a30f3 HID: logitech-hidpp: execute G920 range sysfs store synchronously
-c5d1d2c85aa4d6964188e65156fdb997874972e0 HID: logitech-hidpp: index G920 force-feedback slots by effect ID
-c65c1e04587cd7c396dd860baf07d2064b82fc46 HID: logitech-hidpp: execute G920 effect upload and erase synchronously
-dffd34de586ce91b9c273c8caa761841f368bd32 HID: logitech-hidpp: clean up G920 force-feedback helpers
-6c6ab1221f02b8a3a1c64de8c11bf090263edad9 HID: logitech-hidpp: use unaligned accessors for multi-byte values
-0527328d8bde89876cf5bfa47ff70e49dd5dc1ce HID: logitech-hidpp: store device serial as a byte array
-30a29ee94edf0e9b48aaad4d8633c8d66f957ba6 HID: logitech-hidpp: use guard() for send_mutex
-24388657f6f09425bc03b6e1bce92497951914b9 HID: logitech-hidpp: use __free(kfree) for temporary allocations
-df5a53534f8048b2883e7dc7fa4c0ecc8c648d81 HID: logitech-hidpp: use alloc_ordered_workqueue() for FF queue
-a390740afd2acdbb4f5dd46f06a7213ff04d500c HID: logitech-hidpp: manage send_mutex with devm_mutex_init()
-a0cbba80d087c34c9cbd18ae59e38a15636013d9 HID: logitech-hidpp: manage ps_attribute_group with devm_device_add_group()
-4b26f93efe0d95b271e7d9a891e85a4e4d29836a HID: logitech-hidpp: remove unused kfifo and clean up minor helpers
-
---===============6906371816446457159==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e350673a495f-3d4422474797.txt
-
-9b0274c19cfc333ffae18ae2f0bc6e7503dd5e4f HID: logitech-hidpp: fix G920 force-feedback initialization timeout
-71b0b6e8ec74516d430f5543e81cc8b466382203 HID: logitech-hidpp: use GFP_ATOMIC in hidpp_ff_queue_work()
-c0d9f550bf4b4999d9416548bf3967a97f83edb8 HID: logitech-hidpp: drain G920 FF workqueue before closing transport
-a9c54220eaab751aea83d8d0b3cfc1ebbfef892d HID: logitech-hidpp: disable works before stopping transport
-d83e1f2244586d939e2c622cbd234e2759c820bb HID: logitech-hidpp: do not store ERR_PTR in battery->ps
-1ded3c8ba2a5c00136cbbabd877e4e725f38ec43 HID: logitech-hidpp: avoid NULL subtraction in consumer key report fixup
-d801abb76c64f8aecb56cd6df4a12f0277e4bc37 HID: logitech-hidpp: fix off-by-one in G920 force-feedback slot tracking
-cd2482146a080f2ab2944ea1958f63c96ae60404 HID: logitech-hidpp: do not retry timeouts and transport errors in hidpp_send_message_sync()
-1cc95800826864c5c1538400435862cf3f3aea5d HID: logitech-hidpp: initialize response buffer before publishing send_receive_buf
-e6fbec239544337e223ca537ec1e28928bd182fd HID: logitech-hidpp: fix HID++ 1.0 battery mileage event parsing
-58e412c79974118ba8bad210a639bdc3571a6562 HID: logitech-hidpp: handle negative errors in hidpp20_get_adc_measurement_1f20()
-de72231b256e51f45f5d3df961ece8a0f949b6ef HID: logitech-hidpp: mark device online on unified battery 0x1004 events
-06b7aa982bf6d5053e175fe7aa90817800cc87db HID: logitech-hidpp: fix K750 solar battery feature lookup and reconnect
-acb92d68386801d566a79f00a89f087ecf07b16c HID: logitech-hidpp: expose charge_type property for battery voltage feature
-edf34adc3136d3e231f042b6622a51876bd80468 Merge branch 'for-7.4-7.5-logitech-920-merge-base' into for-7.4/upstream-fixes
-69cc6be9264b0c3d45abdeb493ede3818f3b747e Merge branch 'for-7.4-7.5-logitech-920-merge-base' into for-7.5/logitech
-af9260b9cd7e83f8453f1db7d2032e543ee5c490 HID: logitech-hidpp: keep connect work disabled until hid_connect() completes
-c8d072b436995f6829e727cf9fc5763eb68c7aa4 HID: logitech-hidpp: preserve transport error codes in __hidpp_send_report()
-ed9b8b75de2a4a8f6d9b096685930e557fe263c7 HID: logitech-hidpp: return negative error codes from hidpp_send_message_sync()
-82720f79c3e35be8592d250d950d13adf2dd6f6a HID: logitech-hidpp: rework G920 force-feedback initialization
-038e828be1f58dd043497af571ec1071c7d4b632 HID: logitech-hidpp: use sysfs_emit() in hidpp_ff_range_show()
-a61dbb5a7595d14a687d7967a7bde0916dd95cab HID: logitech-hidpp: manage G920 range sysfs attribute via dev_groups
-c3afbdb42706cc59256c0ca3f9df1df55b7a30f3 HID: logitech-hidpp: execute G920 range sysfs store synchronously
-c5d1d2c85aa4d6964188e65156fdb997874972e0 HID: logitech-hidpp: index G920 force-feedback slots by effect ID
-c65c1e04587cd7c396dd860baf07d2064b82fc46 HID: logitech-hidpp: execute G920 effect upload and erase synchronously
-dffd34de586ce91b9c273c8caa761841f368bd32 HID: logitech-hidpp: clean up G920 force-feedback helpers
-6c6ab1221f02b8a3a1c64de8c11bf090263edad9 HID: logitech-hidpp: use unaligned accessors for multi-byte values
-0527328d8bde89876cf5bfa47ff70e49dd5dc1ce HID: logitech-hidpp: store device serial as a byte array
-30a29ee94edf0e9b48aaad4d8633c8d66f957ba6 HID: logitech-hidpp: use guard() for send_mutex
-24388657f6f09425bc03b6e1bce92497951914b9 HID: logitech-hidpp: use __free(kfree) for temporary allocations
-df5a53534f8048b2883e7dc7fa4c0ecc8c648d81 HID: logitech-hidpp: use alloc_ordered_workqueue() for FF queue
-a390740afd2acdbb4f5dd46f06a7213ff04d500c HID: logitech-hidpp: manage send_mutex with devm_mutex_init()
-a0cbba80d087c34c9cbd18ae59e38a15636013d9 HID: logitech-hidpp: manage ps_attribute_group with devm_device_add_group()
-4b26f93efe0d95b271e7d9a891e85a4e4d29836a HID: logitech-hidpp: remove unused kfifo and clean up minor helpers
-3d442247479712b961186574730b60de8640dfb9 Merge branches 'for-7.4/upstream-fixes' and 'for-7.5/logitech' into for-next
-
---===============6906371816446457159==--
+--===============5080239485295663442==--
