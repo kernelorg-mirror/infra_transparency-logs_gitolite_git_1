@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 20 Nov 2026 06:35:43 -0000
-Message-Id: <179515654312.650103.9434639315015526521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mm/slab
+Date: Fri, 20 Nov 2026 06:37:17 -0000
+Message-Id: <179515663795.651169.11528428881423494367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/mm/slab
+user: harry
 changes:
-  - ref: refs/heads/master
-    old: ed75bf72fac01e49889129ee20e9217dc43b1e54
-    new: 07441974a1778ec7f8d2380206d11f5014854181
-    log: |
-         07441974a1778ec7f8d2380206d11f5014854181 foo
-         
+  - ref: refs/heads/slab/for-7.5/slab_tiny
+    old: 0000000000000000000000000000000000000000
+    new: 3464ad6cacfa65099378798cc0d95c9e5151e86d
