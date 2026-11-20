@@ -1,59 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============6767424825828491052=="
+Content-Type: multipart/mixed; boundary="===============5988462540604300989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 20 Nov 2026 12:32:16 -0000
-Message-Id: <179517793673.920343.16294846000379830709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 20 Nov 2026 12:33:00 -0000
+Message-Id: <179517798049.920857.15477642196778918906@gitolite.kernel.org>
 
---===============6767424825828491052==
+--===============5988462540604300989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/usb-testing
-    old: c7bfdf9f328c6d45a3dc61ff2cf5072ff76e2b98
-    new: c5ed734ebc06c3f67aaa09d6354d94099ca1d3b2
-    log: |
-         24ea3891cfd5effb614e4cfa16af4ad346542ea9 dt-bindings: usb: mtu3: Add MT8512
-         c0f3a50c2cba9f6c5988dee366332744fc064022 dt-bindings: usb: mtu3: add mt6595
-         23020b4670c44798b0f96f23214250456a17b9e4 usb: mtu3: add SoC platform data for FIFO quirk handling
-         c5ed734ebc06c3f67aaa09d6354d94099ca1d3b2 usb: mtu3: add mt6595 support
-         
+  - ref: refs/heads/rootns
+    old: d8e24a6bc14e24b80a026bacafccc8d421a5d78a
+    new: 2a0409ddba666d44c2f571b917e08fb9b5bccc3a
+    log: revlist-d8e24a6bc14e-2a0409ddba66.txt
 
---===============6767424825828491052==
+--===============5988462540604300989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-d8e24a6bc14e-2a0409ddba66.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795177930 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1795177929-a3f2e07996f801ecf3e96b24f1a3772700133fe0
+c3b52bb4946fe24edf53543fc040947688c2ca8b mount: Enforce mount_too_revealing() for foreign mntns
+3694f1557a76c1758d5c7ff7713a708f27ecfd2a rootns: Add core infrastructure for root namespaces
+07ed33fc0e2b5c4cb5e336b8332e0c260d391b36 rootns: Track init lifecycle via copy_process() and pid_namespace
+59a94bd09c3f531743f16e1ce890af15d0981efb rootns: Add rootns() system call
+1b1c59c62e969aa51876856cfaeb1e045544ae3c rootns: Add ROOTNS_WAIT ioctl
+5ceb027234107980ba7a719d2afdcf2aa8f9ffa8 rootns: Add ROOTNS_KILL ioctl
+0186311464c4483dc455baaea985b7eee81f545b fork: Support CLONE_INTO_ROOTNS in clone3()
+39980b83767d70026c5fddc4fd01eb1b4b5c6a74 fs: Support FSCONFIG_SET_ROOTNS in fsconfig()
+9a570bd7952f2184ba48330a95fcffa38075ee60 proc: Implement ->set_rootns() fs_context operation
+d55666e953a7d03c418bc045148658a2a62229fa ipc/mqueue: Implement ->set_rootns() fs_context operation
+8794c5ef7d9baa1aca6c5682078a0fead3f143f5 mount: Support MOVE_MOUNT_T_MNTNS in move_mount()
+c8e4bde686eb6fa5d3e37addafaeac7934cff9e9 security: Add rootns LSM hooks
+97d12ebd435f5ff440155beec8f3230574d1b11f bpf: Register rootns LSM hooks
+edc3a6738ee2b52738970621cf30858ad2e66558 arch: Wire up rootns() system call
+7ad6c880e1481b101b46a4551c37907e08299edf docs: Document root namespace uAPI
+8c619cffce7f486f782cc5953d0cba69e0024d22 selftests/rootns: Add root namespace test suite
+2a0409ddba666d44c2f571b917e08fb9b5bccc3a MAINTAINERS: Add entry for ROOT NAMESPACE
 
-c7bfdf9f328c6d45a3dc61ff2cf5072ff76e2b98 c5ed734ebc06c3f67aaa09d6354d94099ca1d3b2 refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsAPcobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1FcQAKVyePdlbqdcMY1uj0h2
-4bfncYv7v9+Y5Sc9azpIGEyAxShNhIbWRd/+5uEkKTmibW1WTfW1YFG9hByGqPnc
-H1CsXA/bH2T1gKT6xTAtHOL4kcEjhwOlm1OPusjfA9q+UflxbecHxaZZG+V0CBz/
-GIaCVNnSB39u4tKHXTAFaxrSFyz0fk20QL4RZgd1jMPc2Dz7uh8kxNKQ1ipiu7fh
-uFG1kXwQGlZNE5qPxojLxBBY1pvr2uKbuZn9Nhailgoge5QV8lNJ94rWtqTtEUVB
-gZpZ5XPDAYmH0I3sUuUEDdsDWXwK6bm2mu7Pv/X5MZVPaT0W31QJ2Fo/v5G+fCZt
-QpevlTEi3eSP5OcD0EeEL9rkVmmt6RhcgtOfEtt8C568N9xju3GZmH8dkrNIvryR
-xQLOcCsJYPnhbGNqcD2gPkwH2XGdPWaZSFXgWs9cIcqMWiPGU6J8SUZLLbFMoLOX
-hSujqMeHA+aYx4XkIetj/s4wkz6IbRPe8oBF5sofRra6/xxrWh1MZywoue0HoQKv
-S8fay3ajGhHBbg18hKwAq1F3/VlmXsofAe7YItSAm3QVNBlyYCa/9ySiVIzm7una
-ChmqZg4QHUZ0hKGpoTvyJLubMlNYyewSHyoXvr9p0+asVEBXbh7E9USCcJl5fV0Z
-XY6tda13S+/Mrm7zUorsR6M7
-=Ou9x
------END PGP SIGNATURE-----
-
---===============6767424825828491052==--
+--===============5988462540604300989==--
