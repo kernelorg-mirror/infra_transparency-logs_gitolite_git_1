@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0644731240006015908=="
+Content-Type: multipart/mixed; boundary="===============2016507795459456623=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Fri, 20 Nov 2026 15:37:52 -0000
-Message-Id: <179518907211.1073710.5833775522719552214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 20 Nov 2026 15:39:41 -0000
+Message-Id: <179518918101.1074595.14268407273999647929@gitolite.kernel.org>
 
---===============0644731240006015908==
+--===============2016507795459456623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next/dt64
-    old: 306301ca9340a6c7ceb14d735abb9cc380933a7a
-    new: a96770b404648488cecee310bddf11416185da8d
+  - ref: refs/heads/usb-linus
+    old: 9fb790aeb56b91c7c8a62dcc4bb64497b52f164c
+    new: ce05cc49d8c4d41549f53c382a1588a43cb1c0be
     log: |
-         a96770b404648488cecee310bddf11416185da8d arm64: dts: exynos: gs101-oriole:: Revert "arm64: dts: exynos: gs101-oriole: add pd-disable and typec-power-opmode"
+         8f51823de3c9184fd8b7a4430a030eb071f39dae usb: cdns3: report endpoint reset timeout
+         ce05cc49d8c4d41549f53c382a1588a43cb1c0be usb: cdns3: imx: fix kernel panic on remove due to kfree of static platform_data
          
 
---===============0644731240006015908==
+--===============2016507795459456623==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1795189070 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1795189065-3ff438737ff9d67f9a616ffb57f1fbb85ba7e692
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795189175 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1795189175-0243feee5bb4346edc197c0013ec2c8634c18acf
 
-306301ca9340a6c7ceb14d735abb9cc380933a7a a96770b404648488cecee310bddf11416185da8d refs/heads/next/dt64
+9fb790aeb56b91c7c8a62dcc4bb64497b52f164c ce05cc49d8c4d41549f53c382a1588a43cb1c0be refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmsAaU4QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD156wD/0b+z4B4iJMMHYfMs5Cwx7ZlJRtNdnofnxo
-84LN0U/k6BTkWAgOw5qDSU08zvXevjYtx2PrlcEHBEQ1DHlbd84szo1reME312E5
-VR9ck79Y7VlXLD1yPoZsW7yZdmZ7IMwDpGT6VSU87j1yB/2tIfn4z4Oqw8gcXnsK
-LerRZl7nzEGd1p2uvQ0CKLOShFSJD6b8fbqBsmok7G6+l4e3pFaFZra5ySLpFtMy
-95pXIU9pf9tpQPx0b9XUngMcRNmLc9k+1OqS2FMtjIafUdLkuGZ44a+XzJ975iJy
-nksw0BO1E1t6b+Y84wKi5lyMdhMOl1tQHqp4zewEA/OXea17GYyKq+GIvZPYyugV
-1hi8VcDZefQ1HLAVuwLYfir+aNE90YxNGDLBoSzdJPnahF6huyElARRvh6MctY7+
-Oa3gVEw9Cb1/aUXSL5m1kOQDp3NsRVtwvZqDf/pTGAqqExp53JB6CIMYu67YRbK6
-gCsQLN+vZ0YTzz3JFwU7YT1cCrIxpr/Twif6IT31hCJw4qZmvIIm3lw1r4hBn6Q+
-CW8egTVb5Tcdl7ReVT7e2wtpTXWv1mBANHEWiRsxLBFtQWWohLTCvzLD01THOmu3
-THAcSYj+IcKHAsRITcjXNsH8ksnPVT2NDQdBRkhwskvlCNN3L6AnQvBsQNH33W6h
-WhYYIR/u8g==
-=6vMR
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsAabcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l5MQAKGG0YYGb+ZIfyvNLb+N
+6hjxXArLnvEljqRhlzewMNCik5VeWVKFY8THYFeT0LSY319EPbBWCBTkMU6VON2/
+k0DPABGV9bxMkVLpT5++ACDFApFaL0PYYQWS74rXVzA/pyuQ3ojO5ZzOKzjOS2CT
+ji4uR5Qt2RgLAFQw0uf+PI6eATDAXoufUGNKf3THbhQy4IsmixhdSxFAneqgMtF1
+IhGrAygsOvo3pdwvY8HrBhy02cJ7v6LamzrBctwGyHsLK2UqL5KG46m9ycI528px
+nHU5yieWgH2RHIYnl+h8OZLvL3ZEAlnJ3Jo76b0XCU93BQTOu0hnK14Yvcuegczk
+nmueZjEdzQEYy1JbO9vHumLUV+P7bjGRn3pEZxBuqNdh/0awuEnAth8TU5tBQxXS
+5LjC3mLdbKvRYHM24xil2Bw5R7V7tjEYgYBArU+I4bjX8MmEuYnnvT8UhMyxYsSS
+FdVskgH/R62+Drue2d+6twpn+on++m1A0FobbBVks6ZBR2uXRblkhHPHDHQgLtcN
+wTgmzSxdXR+YsVtwx4ZSXtxP2AKTPDY31cXgJbZvsFg8JuH3YBoICNccOaB6WkaD
+cWimc5tWFxb0nMa0c8/53ZWQsyK5Ts7P2iUNiWa3Q3CVOhwpPgRrt4ZeM7OwWZ08
+doSNxjX7hKSx/0GIOKobvN8R
+=DpnQ
 -----END PGP SIGNATURE-----
 
---===============0644731240006015908==--
+--===============2016507795459456623==--
