@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Fri, 20 Nov 2026 02:36:24 -0000
-Message-Id: <179514218434.468758.422493630954757172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 20 Nov 2026 02:38:22 -0000
+Message-Id: <179514230266.469635.5573829043954161970@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 2c1aa3d09aad89def46cab40b6c14938833c352e
-    new: 1491040b5f396b23021f2905d18599e2e0bd5908
+  - ref: refs/heads/main
+    old: 80a10c0aa82a1cc58b488056127ebd6cd4db8af3
+    new: e421df3c838692c0c3503768ec3c9183f6df77aa
     log: |
-         1491040b5f396b23021f2905d18599e2e0bd5908 platform/chrome: wilco_ec: Reject out-of-bounds property length
+         e421df3c838692c0c3503768ec3c9183f6df77aa net/mlx5e: SHAMPO: Do not merge packets with different kTLS RX state
          
