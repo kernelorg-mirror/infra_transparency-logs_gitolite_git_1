@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5621950558038094261=="
+Content-Type: multipart/mixed; boundary="===============4848291497105723965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 20 Nov 2026 17:38:14 -0000
-Message-Id: <179519629493.1168600.14512461931168577385@gitolite.kernel.org>
+Date: Fri, 20 Nov 2026 17:38:28 -0000
+Message-Id: <179519630820.1168846.1907695662405369996@gitolite.kernel.org>
 
---===============5621950558038094261==
+--===============4848291497105723965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
-    old: f08567db418fc23ef661cccd649072b0c1784369
+  - ref: refs/heads/40GbE
+    old: e54d3ad91558e0f929531cf20e32551ef695a93b
     new: 00f445721c7f0e48aaff9813cfe1c065c6eb3b71
-    log: revlist-f08567db418f-00f445721c7f.txt
+    log: revlist-e54d3ad91558-00f445721c7f.txt
 
---===============5621950558038094261==
+--===============4848291497105723965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f08567db418f-00f445721c7f.txt
+Content-Disposition: attachment; filename=revlist-e54d3ad91558-00f445721c7f.txt
 
 df6cc85923d96381a24f2a24ac2cb6ac92220a8e ALSA: hda/realtek: Fix DAC binding for Lenovo Legion Pro 7 16ARX8H
 994cd0af4dcd1ae34c990deb06079d7b1e30a1da ALSA: hda/realtek: Fix DAC binding for Legion Pro 7 16ARX8H variant
@@ -1051,4 +1051,4 @@ ce28b1a4d137842e428a578269c35d6c84109438 tcp: accecn: initialize AccECN fields i
 4d67cf2fd2352f130c42494a933ba9158b925c65 Merge branch 'tcp-initialize-missing-request_sock-fields-in-syncookie-path'
 00f445721c7f0e48aaff9813cfe1c065c6eb3b71 vsock/vmci: reject datagram binds in local network namespaces
 
---===============5621950558038094261==--
+--===============4848291497105723965==--
