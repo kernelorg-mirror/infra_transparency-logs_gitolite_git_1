@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7903347846023787915=="
+Content-Type: multipart/mixed; boundary="===============7187540998144328004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 20 Nov 2026 18:42:14 -0000
-Message-Id: <179520013423.1221400.64560128019444411@gitolite.kernel.org>
+Date: Fri, 20 Nov 2026 18:42:17 -0000
+Message-Id: <179520013753.1221514.1833842653508697861@gitolite.kernel.org>
 
---===============7903347846023787915==
+--===============7187540998144328004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: a0aa9ceca03f8eceb58174c9c72d480b2422d199
     new: 2208ab00f4f213ade91ab775e7f8c4dacdcc856e
     log: revlist-a0aa9ceca03f-2208ab00f4f2.txt
 
---===============7903347846023787915==
+--===============7187540998144328004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1013,4 +1013,4 @@ d2f68f74723d64f46bdd7ebd8d4a7b6cb6c627e8 PCI: Create OF node for NXP ENETC pseud
 f05dc314df02a826d7c6a5b989d8c887143a12b8 Merge branch 'net-enetc-s32n79-pseudo-mac-ppm-networking-support'
 2208ab00f4f213ade91ab775e7f8c4dacdcc856e net/packet: wait for a single RCU grace period in packet_release()
 
---===============7903347846023787915==--
+--===============7187540998144328004==--
