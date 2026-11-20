@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 20 Nov 2026 02:38:22 -0000
-Message-Id: <179514230266.469635.5573829043954161970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 20 Nov 2026 02:42:46 -0000
+Message-Id: <179514256646.473358.16780743234491059778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 80a10c0aa82a1cc58b488056127ebd6cd4db8af3
-    new: e421df3c838692c0c3503768ec3c9183f6df77aa
+    old: 0742ef27cd72f155e6d355d13c49133116f19c89
+    new: bc84a86664ea11139c5d1a8543c6cc147d3774ce
     log: |
-         e421df3c838692c0c3503768ec3c9183f6df77aa net/mlx5e: SHAMPO: Do not merge packets with different kTLS RX state
+         bc84a86664ea11139c5d1a8543c6cc147d3774ce MAINTAINERS: Update AMD XGBE driver maintainers
          
