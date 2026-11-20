@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0086725587542989691=="
+Content-Type: multipart/mixed; boundary="===============2769145761444535478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Fri, 20 Nov 2026 17:53:33 -0000
-Message-Id: <179519721346.1181314.11044169855408658112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Fri, 20 Nov 2026 17:53:52 -0000
+Message-Id: <179519723247.1181538.6048568896735881595@gitolite.kernel.org>
 
---===============0086725587542989691==
+--===============2769145761444535478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: d0f871bfb831705d9f55479f5b2b40f636ea7b16
     log: revlist-aebb72744764-d0f871bfb831.txt
 
---===============0086725587542989691==
+--===============2769145761444535478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -444,4 +444,4 @@ d3e1fcc93027bec7c470bc4dfae4716e621f5cde Merge tag 'thermal-7.4-rc4' of git://gi
 8a1a8c335afe05d011d6c17f4d14cd9b267dab02 Merge tag 's390-7.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 d0f871bfb831705d9f55479f5b2b40f636ea7b16 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 
---===============0086725587542989691==--
+--===============2769145761444535478==--
