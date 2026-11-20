@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 20 Nov 2026 06:09:44 -0000
-Message-Id: <179515498401.628714.3791238115939612567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Fri, 20 Nov 2026 06:16:56 -0000
+Message-Id: <179515541686.635183.11560794525342419680@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 068d82afd070beb8ea32c8ee64d685af7d3f36e2
-    new: 29b74cf57f432d60da2b79c827f1379125409611
+  - ref: refs/heads/master
+    old: 01d794009d28b6fa49776a7829e3e6d5ca0b092c
+    new: ed75bf72fac01e49889129ee20e9217dc43b1e54
     log: |
-         29b74cf57f432d60da2b79c827f1379125409611 x86/mce: Do not treat cache hierarchy errors as memory errors
+         ed75bf72fac01e49889129ee20e9217dc43b1e54 foo
          
