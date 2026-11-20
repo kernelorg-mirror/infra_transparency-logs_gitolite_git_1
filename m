@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 20 Nov 2026 12:49:03 -0000
-Message-Id: <179517894382.933129.17181923892991365896@gitolite.kernel.org>
+Date: Fri, 20 Nov 2026 12:49:41 -0000
+Message-Id: <179517898185.933407.15787944300809789571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,14 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/experimental
-    old: 0bdfaaf611c7814e2625ec81522ab88190d1166c
-    new: 8a8d4892b6b09919053ba3561d289af76095c625
+  - ref: refs/heads/dev
+    old: 2146824ae90c47c799e2d80372b3cb0712c56835
+    new: 652a204d0ec628c887df88c95f76073502704c52
     log: |
-         3233deddbcc16465431ae01078a008e553659cab erofs-utils: lib: persist opaque xattrs for rebuilt merged dirs
-         0f91c447522f4b4368305f0ec42f3f00745a6511 erofs-utils: lib: fix dentries returned for terminal path components
-         61b065632940dc0e0fa8acb6230a73ba2c008fb4 erofs-utils: lib: drop unresolved symlink target dentries
-         bddf908473e2f5009eb40bac8ccc904d820cb2fa erofs-utils: mkfs: init root inode in local source mode
-         36903b670c6009bc9dc1a337eb8fb243da315104 erofs-utils: mkfs: add manifest build mode
-         8a8d4892b6b09919053ba3561d289af76095c625 erofs-utils: mkfs: support importing xattrs for manifests
+         6ee4c456f5aa71c2d12de409a21ae96011550f7f erofs-utils: fsck: return nonzero exit code on superblock checksum failure
+         c0212a5f377b34e9ab43193e9013239a58857722 erofs-utils: tar: return an error for invalid device numbers
+         a3dfef9b38354b9a0c26ada2046833a78080c192 erofs-utils: lib: use one-shot EVP_Digest() in erofs_sha256()
+         652a204d0ec628c887df88c95f76073502704c52 erofs-utils: fix BoringSSL build in s3.c and configure.ac
          
