@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3678285786785236215=="
+Content-Type: multipart/mixed; boundary="===============8830898636038067153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 20 Nov 2026 15:27:21 -0000
-Message-Id: <179518844172.1064707.16167587061181508592@gitolite.kernel.org>
+Date: Fri, 20 Nov 2026 15:27:26 -0000
+Message-Id: <179518844649.1064820.15275765981415271679@gitolite.kernel.org>
 
---===============3678285786785236215==
+--===============8830898636038067153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 3dfc09a9493ddaa5e7722a29165d8450b55b4d3f
-    new: 15f114dac9a7bde1796f0e54e22726fd31cfa8a5
-    log: revlist-3dfc09a9493d-15f114dac9a7.txt
+  - ref: refs/heads/mm-unstable
+    old: 376fb945578b6a1f0001fe27adcd01b11340f4a4
+    new: d12eccbcb79a4fa35c3aa588eb79056af62eb859
+    log: revlist-376fb945578b-d12eccbcb79a.txt
 
---===============3678285786785236215==
+--===============8830898636038067153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3dfc09a9493d-15f114dac9a7.txt
+Content-Disposition: attachment; filename=revlist-376fb945578b-d12eccbcb79a.txt
 
 469bc1b56d50940443e5948d7742d8a7b728cdcf mm: memcontrol: don't lose track of exiting OOM victims
 1bbb750184b89ef96d6e2b45b08e0b55a76f311c filemap: prefault writes starting beyond EOF
@@ -336,21 +336,5 @@ c3b36ed0d9059bd7b7b089ee6ccfde5fb16f57c0 mm/memory-failure: don't unpoison a lea
 ea64f9746357e654d72f2b72546db9d7a51aef68 mm-memory-failure-dont-unpoison-a-leaked-raw_hwp_unreliable-folio-fix
 f8e741155d26d91b95a9ead2dc73bb4059a8941e mm/hugetlb: clear the hugetlb flag before leaking a hwpoisoned folio
 d12eccbcb79a4fa35c3aa588eb79056af62eb859 fs/proc/task_mmu: fix lost maps entries above 2^63
-399ff8bc9709df76d01dcba378589a1b061010df mm/hugetlb: compare against persistent count when freeing lowmem folios
-a9254261b8c2f6343ae86d8391d1f03a95743fb3 mm/hugetlb: preserve reservations when shrinking on HIGHMEM
-2e0ec677525867a5873939adb9e0a1dab5fa04a9 mm/hugetlb: account temporary folios separately
-39c38636d76323fffe8847d219e195609f8aad63 mm/hugetlb: keep surplus folios when the pool shrinks
-c04ba124033eafba176f6f76edfdff757545f843 mm/hugetlb: serialize page-cache allocations with truncation
-b397599aaf2277d461c57c69d89fab839f249c94 mm/memfd: recheck the page cache before allocating a hugetlb folio
-e7202a59aac5a476ce12c5431b7fe44c677f7d3f mm/hugetlb: count again if the reserve map shrank
-15eee8e84d03e6d1314daa0006a0a0b742e125aa hugetlbfs: do not grow a sealed file in mmap()
-75ab9d23e33a5a29e4c7530ab6837748b4af80d6 mm/hugetlb: keep surplus folios that are reserved
-6aecafb67a0528a3da0df2ac55c57c8d544f4ec6 mm/hugetlb: fix reservation leak on min_size= mounts
-0fedfe11a346b2dacba0599f726bd3654b9fb69f mm/hugetlb: account restored reservations before freeing folios
-a8ce63a2d6e62a97bb426cf65f3a1d4f91db31ce mm/hugetlb: delay anon folio rmap removal until after the TLB flush
-7c3ef8dd629e9335c40fb567957e72a75998cb69 mm: workingset: compare shadow nodes node-wide without kmem accounting
-122253a995025eea31d41b662f1873bcf5812b24 mm/backing-dev: pass "%s" format string to device_create() in bdi_register_va()
-baf188642571dc66422324528def61d4010faaa5 selftests/proc: include linux/mman.h for MREMAP_DONTUNMAP
-15f114dac9a7bde1796f0e54e22726fd31cfa8a5 lib/test_hmm: fix alloc tag leak when splitting device-private folios
 
---===============3678285786785236215==--
+--===============8830898636038067153==--
