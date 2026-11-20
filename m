@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Fri, 20 Nov 2026 23:48:54 -0000
-Message-Id: <179521853408.1450565.8196391640809313920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 20 Nov 2026 23:49:49 -0000
+Message-Id: <179521858964.1450887.1070453716238633887@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/pinctrl-v7.4-2
-    old: 0000000000000000000000000000000000000000
-    new: 0ec44e381a4179c14909b86b24136c2a8f30daab
+  - ref: refs/heads/main
+    old: a98c9978f59e055daa24eb7c3796cd46c094772e
+    new: 04c6b6c90e326c7c6913d525913b202c03adb363
+    log: |
+         04c6b6c90e326c7c6913d525913b202c03adb363 eth: bnxt: report TX HW GSO queue stats
+         
