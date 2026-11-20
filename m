@@ -1,61 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1805374500475349356=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 20 Nov 2026 11:57:10 -0000
-Message-Id: <179517583068.890247.13072617761823936147@gitolite.kernel.org>
-
---===============1805374500475349356==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 20 Nov 2026 12:00:02 -0000
+Message-Id: <179517600257.892352.11690412982471990060@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/usb-linus
-    old: ba4bbac98e65c6998cac4ea2b63baf2159d00a8c
-    new: 39cbb13df4c3eebd3285407ea3c6df0ad7f22136
+  - ref: refs/heads/for-next
+    old: cee03387d20bb267663085d9ac2622ff9263d302
+    new: dfcdd3dabb28ccf410dc3a92d73cf6163651e3e0
     log: |
-         04aed9e674be821274b78d8a9c42ecba8ddd9471 usb: storage: add quirks for CASIO calculators
-         d3edf3c408198df8c8acd8dd3fe6a7a85881ec4e usb-storage: onetouch: Fix potential use-after-free on input failure
-         5d6194c28dcdb736b64061c3ede5fe594bdd71db usb-storage: add usb_stor_bulk_transfer_buf_timeout()
-         0b2b2a995660491223fb117067278cb9f3de8d35 usb-storage: ene_ub6250: don't let the card-type probe hang forever
-         e0d798033b357be40bb9dd20d3e9548751b86826 usb-storage: reject too small values in max_sectors_store()
-         39cbb13df4c3eebd3285407ea3c6df0ad7f22136 usb: storage: shuttle_usbat: set the ATA sector size at device init
+         a5c99a470e4c6f1b1002e4f5cb3aba5f6e901c07 ASoC: mediatek: mt8173-afe-pcm: use snd_soc_register_component()
+         72f71a56b5c9e56158e82a222899389a4f4787d4 ASoC: stm: stm32_adfsdm: use snd_soc_register_component()
+         64ef28a65e25b8e489603b04cd44c12e54756be5 ASoC: tas2783-sdw: use snd_soc_register_component()
+         31b27540c3643a241cfe71ba27585340a81a3c18 ASoC: use snd_soc_register_component()
+         5649b1d4835f11720cc2f1cab64d649f1f616f05 ASoC: mediatek: mt2701: initialize IRQ dependencies before requesting it
+         afd48791d4f1311bbfd4310a405987fa424394c9 ASoC: cs48l32: Release the runtime PM reference on IRQ read errors
+         3bb77766ce46c2af10feba498340db8be55ce91e ASoC: dt-bindings: Add NXP TFA9865 amplifier
+         ba47599b523e91bb31f56472eb36e7801d3f45a7 ASoC: codecs: Add NXP TFA9865 amplifier driver
+         98615fa0e6ca2480cdcfd888680024a2c35b62c3 ASoC: Add the NXP TFA9865 amplifier
+         05703100ae45253199590d0208399c0329706b50 Merge asoc-linus into asoc-next
+         dfcdd3dabb28ccf410dc3a92d73cf6163651e3e0 Merge asoc/for-7.5 into asoc-next
          
-
---===============1805374500475349356==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795175824 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1795175823-875c378a3a29c12b7358c2671a50d143c9d3f477
-
-ba4bbac98e65c6998cac4ea2b63baf2159d00a8c 39cbb13df4c3eebd3285407ea3c6df0ad7f22136 refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsANZAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CoYP/3ONKsFpng8X2ICI/8HI
-8biA6DYcZUiC0mz3vTdkFiO6cq3RA4Ikb2WL4z/LtnVcZ9iIWXVJKKjeZVly2jDs
-8xYSdKr9mMSze7FNY6BOT5g8TlG8fF53JbraZPdkthXlJg3XQKSSaUFAa6vZuBPI
-eB6eaJpyQjluKR08EJbs0Y1ysn8N3oov6Xa8QyGoFXXMDcqLui17RtboDgF9q398
-idPzCY8AQvM5EcOtJb5Pf+oCHq2i/b5h43hsbanOj02zreXN6FyW7Clq/rhvycWl
-dE0DyaA3hTf0BWVDgTryunoQsNGi0EG5oE/i3L5+f4ttaQ3gsjguVpLt4j/NrQiU
-YajtI3WCiU8LOq9yi/3NB8+XbRjynaR3gs1loZoKN5YWMFq5ylfn5aIcP2/YXs92
-l07slfAZaShAug2da7OlGRRAjR5L9Wco6anZ5R9qm7oBQ3UItrhA2/ux7aE/3l5m
-DulCISvZmJXAd8O5ll7vcPqr3VLn9hbMuO6V+oVX5Xd+QtnTYYDs5Py5YKpHvZxu
-P+vhSVO0xTRC7HV5cmPk/9BXjIGcMYmiV9LKFHaegVglcK957c+FUPyqN2Bj5U4T
-qH1zFL2xuWoRcku14aPxRKFfXMxNgOMtDvZPxd5qnx1hOJvphdVaK7lDMj/rhNp0
-PC/YiFqxRgGM4St/41raYEW8
-=/mWi
------END PGP SIGNATURE-----
-
---===============1805374500475349356==--
