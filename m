@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2446209673963471335=="
+Content-Type: multipart/mixed; boundary="===============2726866198239637028=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 20 Nov 2026 09:09:02 -0000
-Message-Id: <179516574287.761915.3627973851417856489@gitolite.kernel.org>
+Date: Fri, 20 Nov 2026 09:15:55 -0000
+Message-Id: <179516615541.768614.4259470552095444779@gitolite.kernel.org>
 
---===============2446209673963471335==
+--===============2726866198239637028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 7b7f7dd39b967156dfbd49631a8ca3ff641b3653
-    new: b92566b2648c5661a571f693336dba7a32d5dc3b
+    old: b92566b2648c5661a571f693336dba7a32d5dc3b
+    new: 187b32cd9db4d514b3062ac6647c105ef6a12d15
     log: |
-         e0ae3c49e0b3d6b586da5257ffbb94895235dff0 USB: cdc-acm: add control line state quirk for Telit QCX216 modems
-         b92566b2648c5661a571f693336dba7a32d5dc3b USB: cdc-acm: refuse writes after disconnect
+         187b32cd9db4d514b3062ac6647c105ef6a12d15 usb: pci-quirks: abort xHCI handoff if MMIO is inaccessible
          
 
---===============2446209673963471335==
+--===============2726866198239637028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795165737 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795166150 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1795165737-1a7a95c0091339da635ff4b357241ce6fd640423
+nonce 1795166149-426d70300817c1009bdc7613cee83866c17a9716
 
-7b7f7dd39b967156dfbd49631a8ca3ff641b3653 b92566b2648c5661a571f693336dba7a32d5dc3b refs/heads/usb-linus
+b92566b2648c5661a571f693336dba7a32d5dc3b 187b32cd9db4d514b3062ac6647c105ef6a12d15 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsADikbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2LoP/R4Fci2ORrSrJB3f/L1r
-WXGygzDLBhRuEplZd0j/YwvOmvESyxJtePeRbJcWg6PAmXxmH1BG+tVGBrIWRbCN
-L6QvvyFaYQHTO57KCy3iH4VwbuQx5yNThC+wetVoU4dvstTuNvKlaezrZbnc7Wy3
-8zO+piy5WG5m5f3lfG3eYfXpv8vuJaKM590FrLEqwLAnVvFPdeDYfjpJF/NYf1Mi
-Uv0Xxq5P57X5S1Ipjo1wI5oXyipYu1Mco/FcXcM6dEq5eMxhhDB7SQvIXIJniyg3
-Ij1GUTeUj4vMW5YrfQRzRdPJsr8ZkfMaaOq2M8+HRckdUny6dJLisJVUuaW7Lgfc
-Zj5iOnhMNPW/SM2KAfyRmGsv+rRUQc5Zlv0d/qf9qydoN5jJxVcULJtPos9XKPu1
-TwqcjeNy6EI2jBvxLNKcJ21nrLE4dZlhhO7vJEp8bpW4quNdObBAzMmVsXay1bfc
-1d+3lds3C85zr98kEum9jku/d8DRT3Mckg2iEjDIWktH9ioVIgt+4CiSaOsPQGkC
-5rBk/RYwe7xsk+xRaLHhP4ilvIj/D659e9psSzg/bBqnV+nmmu2YYSW1NNNzFCRx
-/QlPkhlKGTjtQuRYcuE52DJLYV3hmws2JWn8oWzcU0a025NtSa2NVynzkHayIlfl
-8fSlWrWVnBwuUYE1YlC0EfVf
-=LH4R
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsAD8YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IlgQAMhdZpkxDgjEvC57ucQb
+oxGJbVxfudiX9EuYz0Ul1+yy3mdymLFV4Yzt30JwUdW0xSUV7rMty9qyZU79jeyC
+BKg4vBcmd+5/OvwCDVZbPajWVMPTrnxm60q9l6JKTLN+QGQxvdgWCwKWnZLNJ6eN
+ZweJ0uFjcQdhPMC0ksY1HtkyTREAjWU1x6dEokJ/wU468bpmbMl9ll5e2ht9ra51
+G2xS4vleKz/rnuBGGs4dEss1FGMuiL+zJTkOE+c4pX9Oxe0Fmk6GfJDjEQAKfS0p
+AVDNYiBcj66WhCDeIQjcYj+Ip2s2D1sfS4cv7KunRz+/CJ1M3/rh4FRVal7wtcZa
+n4U42nj4kP0IyY5501e9AWdJ44Fy7NPvHyrhjNgUHSwuOrYk/vPbdHr7Fjc3G6LI
+QffDfd7poGAaGfMHAMic6rFiBjQKydKpgL1A8lAA/sxIn6s7VgGZv1KPdgxpxsrT
+iNgt22sDueSAOw5u8cP+iCJsLGKckkSDIWJ6XEB38EEwlgd0VkyL9imc8y1JIvMS
+e7bzC1snrKtUv7PcD3Ndf4ncc69ImvwZ/lFc9tHkC9AqgT0pnz7RlgOjUbAyd5Tr
+mqYjSxu+IIXnmsaBtZ16saCXSgTYzzPbmXQwljed2T8Z3IIQTLydRiUdsWJO6c2t
+kSLLO94BtxDq8+wpecFX+KuE
+=zNhK
 -----END PGP SIGNATURE-----
 
---===============2446209673963471335==--
+--===============2726866198239637028==--
