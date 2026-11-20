@@ -1,46 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============6864668623760760508=="
+Content-Type: multipart/mixed; boundary="===============3709127727526044088=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfs-linux
-Date: Fri, 20 Nov 2026 15:34:25 -0000
-Message-Id: <179518886550.1070113.17104717345316687850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 20 Nov 2026 15:35:40 -0000
+Message-Id: <179518894033.1072893.13212095151876611022@gitolite.kernel.org>
 
---===============6864668623760760508==
+--===============3709127727526044088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aalbersh/xfs-linux
-user: aalbersh
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fsverity
-    old: aa1dee4f2a2fb8855241fedac1903470e4bdbce0
-    new: 5fe0a7644973d5e2dcbb8c9902a6a5f8161a44f5
-    log: revlist-aa1dee4f2a2f-5fe0a7644973.txt
+  - ref: refs/heads/usb-testing
+    old: 0d50911c4638966d5b204e9f2d5c4eb286790e96
+    new: b0160d0998fc1a8d7b3d70de9138a235347d00c4
+    log: |
+         b39754cc01e9afb9a1f3725c5e6a455584f35725 usb: dwc3: qcom: Check for L2 only when suspending a host with wakeup
+         6f5ebab372b1d0fea4935a5fb5d0e8161e36ee3b dt-bindings: usb: snps,dwc3: Correctly restrict number of resets
+         b41f984ea621e1ea96759329efe5ec6c6da6d505 dt-bindings: usb: amlogic,meson-g12a-usb-ctrl: Correctly restrict number of resets
+         2b15d647c98a45a6bb4b2d371cf20cf02b5c526a usb: use assign_bit() where applicable
+         3ac12238a6173376eeb266002f65bde44c017a2d USB: bcma: defer probe until USB3 is ready
+         b0160d0998fc1a8d7b3d70de9138a235347d00c4 USB: bcma: add regulator support
+         
 
---===============6864668623760760508==
+--===============3709127727526044088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa1dee4f2a2f-5fe0a7644973.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-baaff97dd23909b21e2bc8e3cb296728dbab8742 fs-verity support for XFS with post EOF merkle tree
-58163807bb6a3a3689aab59cf477f905a174a323 xfs: introduce fsverity on-disk changes
-a0bd8cd5648afbac80dfb299871502c5141e8aa4 xfs: don't allow to enable DAX on fs-verity sealed inode
-fcfa76cd5de75017918fdb42293406e9baf5e118 xfs: disable direct read path for fs-verity files
-a3c0b632233963ff9681c48c66ab28b3cd8def5c xfs: don't report dio_mem_align and dio_offset_align for fsverity files
-e8be2700503b60913de8fe1c05f660b4b6d1a1b2 xfs: handle fsverity I/O in write/read path
-327d4d234b9bc24a0b47ffeec60f29860e5d14f8 xfs: use read ioend for fsverity data verification
-09165d889056138d66cb63458c5419549ff3b43e xfs: add XFS_BMAPI_UNWRITTEN to unmap unwritten extents in __xfs_bunmapi()
-1a79e67512bf25d0e0c88fc5738fbece95ac7f1b xfs: don't remove written extents past EOF on fsverity inodes
-36b3633076f05baaaa0212f5ec149820314d9557 xfs: add fs-verity support
-a001eb0d3f2d9ed6721675c431cc23ed0c372fed xfs: initialize fs-verity on file open
-d3c91451e8d05a7b1ae1f1e8dd29c4135e9f4a9c xfs: add fs-verity ioctls
-60295d47cc576f42ffb56205ccbaea6ba9dc8d62 xfs: advertise fs-verity being available on filesystem
-6713aa8c833e4d7c593717bf1165965bc77840de xfs: check and repair the verity inode flag state
-3e3e379605dc60d6c02a50a450c0fcc475b0febb xfs: introduce health state for corrupted fsverity metadata
-5fe0a7644973d5e2dcbb8c9902a6a5f8161a44f5 xfs: enable ro-compat fs-verity flag
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795188934 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1795188934-30907fc6324d59a2565b68d6f7e23cb2418cc733
 
---===============6864668623760760508==--
+0d50911c4638966d5b204e9f2d5c4eb286790e96 b0160d0998fc1a8d7b3d70de9138a235347d00c4 refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsAaMYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t24QAKOgG8Fmc+GzwBc3rA71
+v/it4S8LDjMLS80SyTzGsUpBLzR/OjkzG8q9hn9eF8JEvZWfG/zAG/2N4acvPwKe
+EscxlXJW3Ju1fa61/ded9S8IkMDlqd7K6CEEh4hfXVfF9FqJuXNXByOZT8cSoR/u
++0Gi6oD6cC7eHwkW1jHWi9RrJZZUn8NDrpuHl0n/zxOy+K+jea6atIq5F+FH4Agn
+DC+S4Lggp6F7O3XoY7pHxUlNJYrT1UmtlD9bQslp/MFV8l+WLycmZV+y4J3f0l/3
+0l2SVz+2oUfE0dYG6lRRyqHHSlsRjb0tCnffiOiQ+2EroYsHEjrSIVmXQTierEGp
+gVPRnPMbS1PBMp+KrtwrI0/+lVqpnBdkBeexfii9D1XwVTyD+EOvEqU1Ny+dLSc9
+RGuH7aUVa8ofU69pCPvTOFOnfDvqAHdM/yapLkMSCLmSAtyV9h+eAWf8+KA/BB1W
+N+rt4b7PwonaL7LLVySBJ90zcP64WcRf8IutI09JWH/7wddvagOmEIkBBmFscvPo
+Dm2pVRYgUOXTJoqwhOKjfbw4BrO71LARfy269CNzkOSajY/zcGj/aStWjRgy30x8
+unxqUR14pfRpE3PyR5FmenTbCC7wOEvvUbjOwJH3LC8DsEux9BrWSI/oGhu9zc96
+53E0SLPWW0QsHSoXsOx+eITr
+=KO4k
+-----END PGP SIGNATURE-----
+
+--===============3709127727526044088==--
