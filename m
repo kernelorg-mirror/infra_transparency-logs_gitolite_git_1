@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3447085078917739338=="
+Content-Type: multipart/mixed; boundary="===============5727972762021050663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 20 Nov 2026 16:51:34 -0000
-Message-Id: <179519349499.1132173.18173648328424856446@gitolite.kernel.org>
+Date: Fri, 20 Nov 2026 16:51:41 -0000
+Message-Id: <179519350140.1132348.4061514133363648518@gitolite.kernel.org>
 
---===============3447085078917739338==
+--===============5727972762021050663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: d81b55489d17dad0c6603cfdee0a4c833a1a7c11
-    new: fb3b7e6ff6f12a9d9877a2385399afeea08a79f3
-    log: revlist-d81b55489d17-fb3b7e6ff6f1.txt
+  - ref: refs/heads/sched/core
+    old: 47f4948d1afdc71c1b3b7360d68270d028e0080d
+    new: 3b3808f56ab993c3406f23188f230ea279296392
+    log: revlist-47f4948d1afd-3b3808f56ab9.txt
 
---===============3447085078917739338==
+--===============5727972762021050663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d81b55489d17-fb3b7e6ff6f1.txt
+Content-Disposition: attachment; filename=revlist-47f4948d1afd-3b3808f56ab9.txt
 
 81986a81f09fae73926c7c44863b335880269c90 wifi: ath12k: assign device id from the WSI index
 1e678e37ff13e45f22d78d802fcefa8f9a0d9395 wifi: ath12k: fix decap of MSDUs spanning multiple RX buffers
@@ -901,11 +901,20 @@ aebb7274476403040d582c61478df8f4a7bf9cd3 Linux 7.4-rc3
 75545668ae0fd80c08fe8fd0c6799b2ba9284557 sched/fair: Make cfs_rq::idle the sum of ancestor tg::idle
 486c3d06b90240860e99686d29ed9f15637dc314 sched/fair: Avoid transient double accounting for delayed tasks
 342fe98c34311969950fa58a840fd0b95a16c9dd sched: Lift cgroup update locking to core to prevent CFS/SCX divergence
+3e7663384ffc2ef0fcb493f739211e3ac8a04f7f Merge branch 'sched/urgent'
+953f9fc86e54bf0debeb3f83e3e28ace167175e1 sched/cache: Reduce the overhead of task_cache_work by only scan the visisted cpus
+fda7fb5adda6c71be96f5836498d4b207c0811fc sched/rt: cpupri_find: Use cpumask_intersects where applicable
+69465ca8f6b5d332e7996643664442a93be254b6 cpu/hotplug: Use cpumask_intersects where applicable
+9dc6cae4904ff34025704041d07c731937db10dc sched/fair: Avoid redundant updates for unchanged default slices
+b251360cb2e6c7b74d962831f5797a4520511b36 softirq: Treat an interrupted idle task as idle in tick_irq_exit()
 9077e25680365e97aa23e647d53059d0f55af61b sched/core: Clear stale rq->dl_server when core-sched replaces a pick
 28c73e6cd9f26a28194b003cc7ed8f086198cf7d sched/deadline: Don't charge core-sched forced idle to the DL servers
 ff642c0e92ea06d5af52c849e61ff8a46d128a44 selftests/sched: Add a core-sched forced-idle DL server test
 30c5aaf4b69ef2f369419d9af15082676cdcb7e1 sched/core: Clear a stale rq->core_pick after dequeue
 0952233386a85e7e5f93c177542ddc372d9351da sched/core: Don't take the idle fast path while the core is forced idle
 fb3b7e6ff6f12a9d9877a2385399afeea08a79f3 sched/core: Fix a TOCTOU bug in sched_non_preferred_cpu_push_stop()
+37788cae1efbd05d5736be291d32922533272b3a Merge branch 'sched/urgent'
+8b5aed85b64dfd07d8609c411184a6bcab3a7236 sched/core: Rank DL server picks as deadline in the core-wide pick
+3b3808f56ab993c3406f23188f230ea279296392 selftests/sched: Add a test for stuck forced idle under core scheduling
 
---===============3447085078917739338==--
+--===============5727972762021050663==--
