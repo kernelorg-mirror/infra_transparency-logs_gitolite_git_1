@@ -1,61 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3709127727526044088=="
+Content-Type: multipart/mixed; boundary="===============0644731240006015908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 20 Nov 2026 15:35:40 -0000
-Message-Id: <179518894033.1072893.13212095151876611022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Fri, 20 Nov 2026 15:37:52 -0000
+Message-Id: <179518907211.1073710.5833775522719552214@gitolite.kernel.org>
 
---===============3709127727526044088==
+--===============0644731240006015908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/usb-testing
-    old: 0d50911c4638966d5b204e9f2d5c4eb286790e96
-    new: b0160d0998fc1a8d7b3d70de9138a235347d00c4
+  - ref: refs/heads/next/dt64
+    old: 306301ca9340a6c7ceb14d735abb9cc380933a7a
+    new: a96770b404648488cecee310bddf11416185da8d
     log: |
-         b39754cc01e9afb9a1f3725c5e6a455584f35725 usb: dwc3: qcom: Check for L2 only when suspending a host with wakeup
-         6f5ebab372b1d0fea4935a5fb5d0e8161e36ee3b dt-bindings: usb: snps,dwc3: Correctly restrict number of resets
-         b41f984ea621e1ea96759329efe5ec6c6da6d505 dt-bindings: usb: amlogic,meson-g12a-usb-ctrl: Correctly restrict number of resets
-         2b15d647c98a45a6bb4b2d371cf20cf02b5c526a usb: use assign_bit() where applicable
-         3ac12238a6173376eeb266002f65bde44c017a2d USB: bcma: defer probe until USB3 is ready
-         b0160d0998fc1a8d7b3d70de9138a235347d00c4 USB: bcma: add regulator support
+         a96770b404648488cecee310bddf11416185da8d arm64: dts: exynos: gs101-oriole:: Revert "arm64: dts: exynos: gs101-oriole: add pd-disable and typec-power-opmode"
          
 
---===============3709127727526044088==
+--===============0644731240006015908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795188934 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1795188934-30907fc6324d59a2565b68d6f7e23cb2418cc733
+pusher krzk@kernel.org 1795189070 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1795189065-3ff438737ff9d67f9a616ffb57f1fbb85ba7e692
 
-0d50911c4638966d5b204e9f2d5c4eb286790e96 b0160d0998fc1a8d7b3d70de9138a235347d00c4 refs/heads/usb-testing
+306301ca9340a6c7ceb14d735abb9cc380933a7a a96770b404648488cecee310bddf11416185da8d refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsAaMYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+t24QAKOgG8Fmc+GzwBc3rA71
-v/it4S8LDjMLS80SyTzGsUpBLzR/OjkzG8q9hn9eF8JEvZWfG/zAG/2N4acvPwKe
-EscxlXJW3Ju1fa61/ded9S8IkMDlqd7K6CEEh4hfXVfF9FqJuXNXByOZT8cSoR/u
-+0Gi6oD6cC7eHwkW1jHWi9RrJZZUn8NDrpuHl0n/zxOy+K+jea6atIq5F+FH4Agn
-DC+S4Lggp6F7O3XoY7pHxUlNJYrT1UmtlD9bQslp/MFV8l+WLycmZV+y4J3f0l/3
-0l2SVz+2oUfE0dYG6lRRyqHHSlsRjb0tCnffiOiQ+2EroYsHEjrSIVmXQTierEGp
-gVPRnPMbS1PBMp+KrtwrI0/+lVqpnBdkBeexfii9D1XwVTyD+EOvEqU1Ny+dLSc9
-RGuH7aUVa8ofU69pCPvTOFOnfDvqAHdM/yapLkMSCLmSAtyV9h+eAWf8+KA/BB1W
-N+rt4b7PwonaL7LLVySBJ90zcP64WcRf8IutI09JWH/7wddvagOmEIkBBmFscvPo
-Dm2pVRYgUOXTJoqwhOKjfbw4BrO71LARfy269CNzkOSajY/zcGj/aStWjRgy30x8
-unxqUR14pfRpE3PyR5FmenTbCC7wOEvvUbjOwJH3LC8DsEux9BrWSI/oGhu9zc96
-53E0SLPWW0QsHSoXsOx+eITr
-=KO4k
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmsAaU4QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD156wD/0b+z4B4iJMMHYfMs5Cwx7ZlJRtNdnofnxo
+84LN0U/k6BTkWAgOw5qDSU08zvXevjYtx2PrlcEHBEQ1DHlbd84szo1reME312E5
+VR9ck79Y7VlXLD1yPoZsW7yZdmZ7IMwDpGT6VSU87j1yB/2tIfn4z4Oqw8gcXnsK
+LerRZl7nzEGd1p2uvQ0CKLOShFSJD6b8fbqBsmok7G6+l4e3pFaFZra5ySLpFtMy
+95pXIU9pf9tpQPx0b9XUngMcRNmLc9k+1OqS2FMtjIafUdLkuGZ44a+XzJ975iJy
+nksw0BO1E1t6b+Y84wKi5lyMdhMOl1tQHqp4zewEA/OXea17GYyKq+GIvZPYyugV
+1hi8VcDZefQ1HLAVuwLYfir+aNE90YxNGDLBoSzdJPnahF6huyElARRvh6MctY7+
+Oa3gVEw9Cb1/aUXSL5m1kOQDp3NsRVtwvZqDf/pTGAqqExp53JB6CIMYu67YRbK6
+gCsQLN+vZ0YTzz3JFwU7YT1cCrIxpr/Twif6IT31hCJw4qZmvIIm3lw1r4hBn6Q+
+CW8egTVb5Tcdl7ReVT7e2wtpTXWv1mBANHEWiRsxLBFtQWWohLTCvzLD01THOmu3
+THAcSYj+IcKHAsRITcjXNsH8ksnPVT2NDQdBRkhwskvlCNN3L6AnQvBsQNH33W6h
+WhYYIR/u8g==
+=6vMR
 -----END PGP SIGNATURE-----
 
---===============3709127727526044088==--
+--===============0644731240006015908==--
