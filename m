@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 20 Nov 2026 15:59:09 -0000
-Message-Id: <179519034918.1090189.4530326068647303212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 20 Nov 2026 15:59:31 -0000
+Message-Id: <179519037128.1090427.2441732281106136518@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: 9fe20364e431d0c304d4e41fa5afa8be23eeb860
-    new: 0a4ce436c015843751937346b1b2250e138459a7
+  - ref: refs/heads/for-7.4
+    old: 1348fd72bd7c360c39788154aa1952a63a61e7ea
+    new: f8c9e089ed5c8daf78ca92ff0229ea696a29bcbd
     log: |
-         27d854b5e92516262a7b7e6d3e5f539e6e523778 ASoC: dt-bindings: nuvoton,nau8310: Add NAU83G10
-         8aaede9ea8acf58db6e2622d97c29902a8acf0e3 ASoC: codecs: nau8310: Add support for NAU83G10 amplifier
-         0a4ce436c015843751937346b1b2250e138459a7 ASoC: codecs: nau8310: Add NAU83G10 amplifier
+         f8c9e089ed5c8daf78ca92ff0229ea696a29bcbd ASoC: amd: acp: Add ACP70 ACPI flag override for LG gram 15Z95U
          
