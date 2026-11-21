@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 21 Nov 2026 19:14:51 -0000
-Message-Id: <179528849195.2363131.1723027405443196430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Sat, 21 Nov 2026 19:17:31 -0000
+Message-Id: <179528865179.2366455.13447938764091033114@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/testing
-    old: a384e19e30fe3363efa1293350fd431b4d26b857
-    new: 42d25ad999bd60b96b227c2e54391c82cb03d00d
-    log: |
-         42d25ad999bd60b96b227c2e54391c82cb03d00d tools: iio: Prefer channel-specific scale and offset values
-         
+  - ref: refs/tags/xfs-fixes-7.4-rc4
+    old: 0000000000000000000000000000000000000000
+    new: cd5454f7e0ff5452d9f2e6c70e73a00bb46ab495
