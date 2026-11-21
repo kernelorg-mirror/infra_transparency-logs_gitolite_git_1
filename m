@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3544024973487061733=="
+Content-Type: multipart/mixed; boundary="===============2286432367114204824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 21 Nov 2026 03:22:05 -0000
-Message-Id: <179523132504.1615955.6133185593860633269@gitolite.kernel.org>
+Date: Sat, 21 Nov 2026 03:22:09 -0000
+Message-Id: <179523132922.1616147.8427363184575264510@gitolite.kernel.org>
 
---===============3544024973487061733==
+--===============2286432367114204824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: c412a6ce3c71ee704d103fe914fd3ba3a6760593
-    new: c494ee8d6e82330d3a791fe9f93141319789f938
+  - ref: refs/heads/7.4/scsi-fixes
+    old: 9f9e0b1e5399045982788a954d3461de894e40c7
+    new: efd68f17acca65f581b9f2fa9ba50c8643ab544d
     log: |
          3ad578b22f7a34a2391ca8910dfc931b01cc94f6 scsi: pm8001: Offset hardware queue index for MSI-X pre-vector
          14bc5d239dddb3ce1264de74b8460c0a61745563 scsi: mpt3sas: Fix out-of-bounds cpu_msix_table read on CPU hotplug
@@ -30,33 +30,33 @@ changes:
          efd68f17acca65f581b9f2fa9ba50c8643ab544d scsi: mpt3sas: Validate data_out size before SMP link-reset check
          
 
---===============3544024973487061733==
+--===============2286432367114204824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1795231323 -0500
+pusher 75C5DE3D 1795231327 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1795231322-3e008764c2d4881b3529da4dbce4149e54d786d7
+nonce 1795231327-9729409b570edbabf6de4352c49be4e26e9ada86
 
-c412a6ce3c71ee704d103fe914fd3ba3a6760593 c494ee8d6e82330d3a791fe9f93141319789f938 refs/tags/mkp-scsi-fixes
+9f9e0b1e5399045982788a954d3461de894e40c7 efd68f17acca65f581b9f2fa9ba50c8643ab544d refs/heads/7.4/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmsBDlsACgkQ7ulgGnXF
-3j1pzw//SmCe53Mq4sQNbB9lkF3xnxqeBFM+1Ti6KEaUKWR2+4bDPiCFYP1zmvyv
-6T7Y5STeBIdFJ9e743tqYBSVQLsmKV4gjR45PxSmNQwO1xFuWbZCQz3akd33dYUS
-q9odnYvHjXwHT/Ox5qrjW8mendtQqpAzB4YSw0tEkCEBqYkfubSS8zTdZCy5MQs4
-mw5dct/JCOqdx/+LLz8gv6TBqF7GQH8sZixaGoJjGJP7DhFnCkW2wT1Skm7iqDIV
-XsCoJTSZMRMOrhjySA5TfSyVIyRmmf5JKg879diDayYcv2IKjp7E3cdH2cjxvJTT
-m4R0P0mTamEmEYFXMFtfLpxSC5voYLKs+DnrGmjfTDZ8FW2Sh6eOrNaJt5Fefn1J
-lQL9QbJH+Zu3m89B1tp1PY5YLGdhjKvStIm9vnx6w1nHtMvXVfdoYHGMtWgdrHXF
-Nwj77thIBfOm29CRWdndxiVt0+9Fa+MNcXH3/r8btp1FNuwIxpGfBn9OvIhmxfOM
-Zvbodm0os+j40hFdND7oSeAvVG3rvKYYcQHPSJrFgLxyxSmvIAm2rY4ZydVykKrQ
-8ZHGVbTNEh2bUwRwsCMHdhOz8gN4DGpFo0tRgo78MSdiI7sVrKI49tmOA+eg6bE/
-YMPirQiJOF1Vo1t8msAxWTjsuJvGPpajXSDA2L2CLfAURdzQoc8=
-=bR42
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmsBDl8ACgkQ7ulgGnXF
+3j1Mag/+OAm5zOyMalAVw+OL1iBznFD+t6WC3F2Z8UODqsBUhMWjrCuxbXObqa/H
+jVCQ/u0Jp5Tho0KTTHMuyY1oJKHiIHCiOqRdfoWNPu30eJ2eq2xMEyBjNaadJn21
+21KqERpNaJSYyjb1aPLd6RxT4KC+I+GHv3Y37CvBV+6UfeGvhNlsN6jPRZ5uqKR1
+REV2jW50WGDYXK190X8RwmcEdqc44SwM7Y6Sn3Nh675X/MIZAaViXrUIb0xi19t8
+Hd2BkOZExkeMIFqhqyE5p4/qpyqRnRtXwX/fMlHMx15HaIVjh97J/HAV+/NhKtNr
+GmsIIgVJ5GXcqwsNC+EaxvTM29nVPftY62Ldc+rXF0c8Uboc4/twQSmzTuDfjwAB
+CswQkquIy9ymywvYPYoYsgvklMIa7N9zKGI2GGR/nXbG7nDJSMFXyCGyoFz8bNvm
+1kXzDGRI4iy2tmEa+HVCqH/a9m6T5Ld8ERt4DVBh+sJmZsBpM+xbzhr+yb2xE8kl
+1pbI9W704Ywf+5MvaPbRtXu+70D4Ddr78RMZdhCdYCwcjNPOFJpbBCGrGifXMYAV
+gOmgJXLlfIrF1qUbeho6LKWts7wNS9LHuACQ/RvV438B8bwIueTV6leQMCfnkUUN
+QOESqc65b/JoyEfERtW05r/8VoFBdGVC1hInOs431qK5lRtgAOI=
+=cHRw
 -----END PGP SIGNATURE-----
 
---===============3544024973487061733==--
+--===============2286432367114204824==--
