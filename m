@@ -1,14 +1,14 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
-Date: Sat, 21 Nov 2026 19:35:40 -0000
-Message-Id: <179528974046.2381404.7844982162057689171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
+Date: Sat, 21 Nov 2026 19:35:48 -0000
+Message-Id: <179528974843.2381776.10155880979121622976@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sysctl/sysctl
+repo: pub/scm/linux/kernel/git/joel.granados/linux
 user: joel.granados
 changes:
   - ref: refs/tags/sysctl-7.04-fixes-rc4
