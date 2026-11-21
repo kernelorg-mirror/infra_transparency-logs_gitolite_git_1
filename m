@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sat, 21 Nov 2026 22:34:37 -0000
-Message-Id: <179530047791.2508328.7563798172885300660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 21 Nov 2026 22:39:05 -0000
+Message-Id: <179530074569.2512046.9816541943371568461@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/x86-pie-v4a
-    old: bd5c8b3b7a1b8b2f0bac802d33ec40df6345cf8d
-    new: c887dfec659b96454b0f1b220da05771e1bdb7cc
+  - ref: refs/heads/main
+    old: 720a6f58c0ba987674043b9044137cc91f24de76
+    new: 1cde02cd5a86df9fab1573fd26ea5fa81527f851
     log: |
-         903800a6b74f0f39d3e629a4db0bc548fa36fcfd ftrace: Avoid -mrecord-mcount when RELR relocation packing is enabled
-         c887dfec659b96454b0f1b220da05771e1bdb7cc x86/kernel: Switch to PIE linking for the x86_64 KASLR kernel
+         19764eae57946b28df024c638eeb28b803ec67ea tcp: roccet: do not restart from idle on RTO retransmission
+         295aaa8398ce08bca4b959b8bde0cabb93751184 selftests: net: packetdrill: add ROCCET RTO test
+         1cde02cd5a86df9fab1573fd26ea5fa81527f851 Merge branch 'tcp-roccet-fix-idle-restart-on-rto'
          
