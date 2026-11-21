@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Sat, 21 Nov 2026 01:42:12 -0000
-Message-Id: <179522533216.1538765.13648045163263446851@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 21 Nov 2026 01:42:50 -0000
+Message-Id: <179522537021.1539206.3688223594084179447@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 94d572e236ab8e26fa79ff0776a3bba221647315
-    new: 66ab976df79e8d335306433cfc85956973b1a9ae
+  - ref: refs/heads/main
+    old: 92e97d7cffc7ec6adfa4699203c18b1ab0c8b314
+    new: a9e2b128586d6618a22219b4a97f9ae9d4ecc92e
     log: |
-         05101affb36ebc8677d1164e2606c9d0e5cc3969 CodeSamples/cpu/temporal.c: Bind child threads to CPUs
-         d381d12e8fb282405135cae54c26dadde8310628 CodeSamples/cpu/perftemporal.sh: Update header comment for tag handling
-         f5fac61902d734e9ab610252ae1fd6e7f099d9ec CodeSamples/cpu/perftemporal.sh: Temporal estimate and NOV data
-         abb5a70d9aad5d9f331c01a5fcd25b85ba9b82d8 CodeSamples/cpu/README: Update for new scripts and data/ files
-         2d382b31de3513abbe1b2c08f4656363319562ef CodeSamples/cpu/findmeasrun.sh: Add best likelihood estimator
-         66ab976df79e8d335306433cfc85956973b1a9ae CodeSamples/cpu/perftemporal.sh: Use findmeasrun.sh
+         7bc16d84facd37b44ff508d4970bac6636329eb9 eth: fbnic: wait on the correct queues in fbnic_queue_stop()
+         561175f45a23527d2853e2b745d40bf963e87dce eth: fbnic: skip disabled Tx rings when setting the queue NAPI
+         729f807b58f6ed646b81cf7fd7939b2271daa33f eth: fbnic: skip freed Tx rings in fbnic_get_ts_stats()
+         a6c99fc2d6dce2db5c969bbcb0bfef16920b04d9 netdevsim: report fake timestamping stats
+         43cb59e7a47b2b0721b542e33c6d8da0ef4b9f17 selftests: drv-net: stats: query timestamping stats while down
+         a9e2b128586d6618a22219b4a97f9ae9d4ecc92e Merge branch 'eth-fbnic-miscellaneous-driver-fixes'
          
