@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3481013279334613533=="
+Content-Type: multipart/mixed; boundary="===============2082982478733200062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 21 Nov 2026 03:09:08 -0000
-Message-Id: <179523054841.1605146.18011779426435114870@gitolite.kernel.org>
+Date: Sat, 21 Nov 2026 03:09:11 -0000
+Message-Id: <179523055152.1605414.6019477316707085118@gitolite.kernel.org>
 
---===============3481013279334613533==
+--===============2082982478733200062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 82cc2b4383e3edfa1026c8612fb4e90a9329ba11
     new: 27d68caf0e220c1a024c53bfe77b46b07ce201b1
     log: revlist-82cc2b4383e3-27d68caf0e22.txt
 
---===============3481013279334613533==
+--===============2082982478733200062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -990,4 +990,4 @@ a5242bd5b19c1270feaeeb596aee8b43ca3a44ef Merge tag 'libnvdimm-fixes-7.4-rc4' of 
 84afebd853437e44cb71f718be11d90e4c1a59dd Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 27d68caf0e220c1a024c53bfe77b46b07ce201b1 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf 7.4-rc3
 
---===============3481013279334613533==--
+--===============2082982478733200062==--
