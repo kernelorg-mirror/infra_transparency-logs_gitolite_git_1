@@ -1,49 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============6771851579010287043=="
+Content-Type: multipart/mixed; boundary="===============4627233684888658261=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Sat, 21 Nov 2026 01:43:32 -0000
-Message-Id: <179522541237.1539846.17148227874476280833@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sat, 21 Nov 2026 01:43:36 -0000
+Message-Id: <179522541640.1540086.11436099191119814789@gitolite.kernel.org>
 
---===============6771851579010287043==
+--===============4627233684888658261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/ntfs-next
-    old: c05dabde17bfdef3d23e4595883143f49809cf5d
-    new: 552aafd4390cff42abf1d32489cbbb62dfa152a5
-    log: revlist-c05dabde17bf-552aafd4390c.txt
+  - ref: refs/heads/p2pdma
+    old: 76276259ac9c605b774178b4bbf07778ec5a4f11
+    new: ddf4e7a4d89b7fcc23fd2dc59131799bc614b4a9
+    log: revlist-76276259ac9c-ddf4e7a4d89b.txt
 
---===============6771851579010287043==
+--===============4627233684888658261==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c05dabde17bf-552aafd4390c.txt
+Content-Disposition: attachment; filename=revlist-76276259ac9c-ddf4e7a4d89b.txt
 
-2be0e12bca35103530f15d6b63e46139c37044e9 ntfs: limit MFT mirror comparisons to system records
-3d2f80d92d8542500086ae7a998b729065c8f825 ntfs: flush sibling attribute mappings during stream fsync
-4a9328ec17e05ab17468322d494b7dfa74e4e313 ntfs: don't let a fatal signal interrupt metadata reads
-d1626cb09bf9d73594d023988a4b804a6918a1c0 ntfs: convert a named $DATA stream safely when making room in a record
-acd069d8be47222801b09932cb6c5de6a138b078 MAINTAINERS: add Baolin Liu as an NTFS reviewer
-3e69a1ec0a04a2c652d2d5b8f778853e04a638ab ntfs: return zero after removing nonresident attributes
-a2d5c6b2a47554d313aced15ff1ef1fba81b4bd6 ntfs: discard attribute inodes after failed initialization
-8f96d3c25f3185ecc7d9a0db0ce4dc25d898e316 ntfs: discard reparse attributes when creation fails
-e8fc4827817617c5c80e0060fdb93ca70f181202 ntfs: remove remaining attribute lists on creation failure
-99a32296a3420c855a26d261daa407c01a1548d7 ntfs: initialize inherited ACLs after allocating the MFT record
-5dfb8d4b48e9efaa656f71f99d92efea71229d54 ntfs: read ACLs using their stored size
-9f473e381acf3be6aef3e48f6b4cad62d93950c3 ntfs: load uncached ACLs through get_inode_acl
-69f5682b6c0e67ee1db86bcff7b057ddf394d6aa ntfs: preserve timestamps when creating hard links
-c7ae4666e4bd9cb2fba57d398590d9e4ba09ed42 ntfs: initialize packed EA size when creating hard links
-577085932a952f18f26db017dab5706b1e9fb864 ntfs: write unlinked file attributes before dropping their cache
-ff686794be605e38b08c6c32b18e1cf6383076cd ntfs: flush internal attributes before unlinking a file
-27c450e9d72d574489e806cadb15f9f186312352 ntfs: support O_TMPFILE
-bbf993737ce28ce51917dcb512a528f93b54cf26 ntfs: use kvfree when ascending an index tree
-552aafd4390cff42abf1d32489cbbb62dfa152a5 ntfs: use kzalloc_flex() for FILE_NAME attributes
+766528e5b74e0298536bd0f80b19064e54ee4607 asm-generic: Add <asm-generic/cpu_device_id.h>
+24bc5d64ddc289dae0a05b22e2966c55a2005716 PCI/P2PDMA: Move CONFIG_X86 #ifdef out of cpu_supports_p2pdma()
+803285675d466fdfcb023e0d9f73609c679d15de PCI/P2PDMA: Allow P2PDMA on Intel Xeon server CPUs
+0904faf999e5b0818399f623128b9c8adadb08f5 PCI/P2PDMA: Honor device-specific ACS redirection
+f37f307dc2c26384934b308ffb42dd5a4740c4e7 PCI/P2PDMA: Document the TLP attribute assumptions
+c6502c79619bf0aa681c6e605e326ce72c64a26b PCI/P2PDMA: Derive routing from directional ACS controls
+9fa54ceb0113073a978f93e9617c48a9a6e312f7 PCI: Reject unreadable ACS controls in isolation checks
+c1fef7cd4ce993b66bdb530790cb5c73869e354d PCI/P2PDMA: Evaluate ACS controls at the path divergence
+e96b75bf3ea898a78b3329dee512bfbd04be990b PCI/P2PDMA: Document directional ACS routing
+a40aa2a283b811e1af462ff320bf6a95ebb5c39f PCI/P2PDMA: Collect the path's ACS controls before deciding
+881931091378f1517d985b04ffa3ecf011afc3f6 PCI/P2PDMA: Answer routing per TLP class
+82e40216e2eef9e595824f4a8fb7f6bc34a8eb99 PCI/P2PDMA: Route Relaxed Ordering Completions directly
+9469bccaa3526dc3896cd59d4f25093fa1ae9a65 PCI/P2PDMA: Reject Translated Requests blocked by Translation Blocking
+f5f76d323e745dd6d13f8823967c03ddb76e6b32 PCI/P2PDMA: Route Translated Requests under Direct Translated P2P
+a58aea77227395d6c9b7fe3d76708f05658793f9 PCI/P2PDMA: Log detailed ACS routing diagnostics
+edafa61daad53dc98a52bd8aef1d98e20bc2c321 PCI/P2PDMA: Add KUnit tests for the ACS routing decisions
+cd24f3df69fff818b3784d6ea25be709020c3e1a PCI/P2PDMA: Test the ACS P2P routing walk
+1d61cdcb5c455e1c732ff827effa4d8d794c3cd8 PCI: Add KUnit coverage for ACS isolation checks
+d611f72bd86351b12e51ef10a773a5b57255cb8c PCI/P2PDMA: Document TLP-class routing
+12d195dd669e029309ea0b1d0e068950343c98d7 PCI/P2PDMA: Let a client declare that it selects ATS per mapping
+7b79ab140b481a8566d6f4d79ab78f82b368e79c PCI/P2PDMA: Evaluate the ATS path for clients with ATS enabled
+ddf4e7a4d89b7fcc23fd2dc59131799bc614b4a9 PCI/P2PDMA: Test the routing of clients with ATS enabled
 
---===============6771851579010287043==--
+--===============4627233684888658261==--
