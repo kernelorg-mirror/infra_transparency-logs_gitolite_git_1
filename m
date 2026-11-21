@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 21 Nov 2026 00:34:25 -0000
-Message-Id: <179522126503.1486810.6523414043663673084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Sat, 21 Nov 2026 00:36:45 -0000
+Message-Id: <179522140537.1490048.17741682400372666914@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: 193da3d3c77a151fe0d2e73473c785e6849fc953
-    new: f18a85d9dea6f617b847114b5b62d2e0c0107ddf
+  - ref: refs/heads/pending
+    old: 1983b40acfcb3c3464b291c85977290a785bcfdc
+    new: dc44aa2a35416836e46301362c0a7bfbc9c5ec61
     log: |
-         47b2998b644ce644a0a002e6e35ae212936dc292 seg6: fix skb checksum update helpers
-         47f89dfc930b5c8b4947d152969acdbe89392f97 seg6: update skb checksum when ipv6_srh_rcv() decrements the Hop Limit
-         520989b4d32aeb0b117d12a4f8e1fed30d107992 seg6: update skb checksum when SRv6 behaviors advance to the next SID
-         53e0a84a417d7c497d625f6a179a933affc10bf7 seg6: discard CHECKSUM_COMPLETE after the End.BPF program
-         e75bae5fcf5a6212921cf6d77c9424d0020de11d seg6: account for the MAC header in skb checksum on L2 encapsulation
-         612a37673567dbe2d75ec0f11d15d704f47980f0 selftests: seg6: add test for skb checksum with CHECKSUM_COMPLETE
-         916b8fbd18178929b4418d29b383a21cdbce9e93 Merge branch 'seg6-fix-skb-checksum-updates-with-checksum_complete'
-         f18a85d9dea6f617b847114b5b62d2e0c0107ddf net: bgmac: Fix potential MDIO use-after-free during removal
+         903a41f5be5fb5512b0a657278250ed6f7c750c3 wifi: ath12k: add WMI response handling for MLO link set active command
+         c4b87eb52782e4ac6c14f88a5f8663dfd6285522 wifi: ath12k: send overwrite flags and AP MLD addr in MLO link set active
+         9fb09eb497c75015e8e766e4cc7e00d8eb70fcf0 wifi: ath12k: fix ath12k_mac_op_change_vif_links() for active-link updates
+         3b15a596c5cf0525e1fa6baa114633f753a08dde wifi: ath12k: skip links without channel context in ath12k_mac_get_vif_up()
+         969a799ce0ac7fbe8c755025081b3a72f879f31f wifi: ath12k: restart STA link vdev on chanctx assign if channel changed
+         0f83af85ec93ae352914e7456829f11ddc8be89a wifi: ath12k: use WMI_MLO_VDEV_BITMAP_SZ for vdev bitmap bounds check
+         dc44aa2a35416836e46301362c0a7bfbc9c5ec61 wifi: ath12k: handle MLO active link updates
          
