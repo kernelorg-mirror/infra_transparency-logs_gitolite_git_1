@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Sat, 21 Nov 2026 00:22:14 -0000
-Message-Id: <179522053422.1477916.14931301905926749408@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 21 Nov 2026 00:23:03 -0000
+Message-Id: <179522058368.1478293.6626046181643368410@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/40GbE
-    old: 00f445721c7f0e48aaff9813cfe1c065c6eb3b71
-    new: fdb6fcabdbb8247f1647d54fb1b9dc3575d7fcc8
+  - ref: refs/heads/main
+    old: 6e0542a18a75eaf44a99fed29594f48c5addeb00
+    new: 193da3d3c77a151fe0d2e73473c785e6849fc953
     log: |
-         d7f2d9b6c7d0ff0af7d19d889810d35dfe07da90 af_packet: avoid waiting for TPACKET_V3 copies at retirement
-         18a7abf1a0b168ea6a50f08562de2f286d6f5a86 ipv6, calipso: fix data-race in calipso_cache_add() bucketsize check
-         fdb6fcabdbb8247f1647d54fb1b9dc3575d7fcc8 net: marvell: prestera: disable port before changing its MAC mode
+         4d00df6019f8b1f6f4623025b97e66324625916d vxlan: vnifilter: reject VNIs outside the 24-bit space
+         39508fb293a9a11e0d803a56862ea90d8fc615b9 vxlan: vnifilter: account per-VNI memory to memcg
+         193da3d3c77a151fe0d2e73473c785e6849fc953 Merge branch 'vxlan-vnifilter-bound-a-single-request-and-account-per-vni-memory'
          
