@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Sat, 21 Nov 2026 14:07:33 -0000
-Message-Id: <179527005342.2130559.3718852923025171870@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 21 Nov 2026 14:36:42 -0000
+Message-Id: <179527180272.2153140.17301806436512542735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/ntfs-next
-    old: 88a4a26ab9baed382c3bc1e93ae1ce57934ce85f
-    new: c9c49faf27167b0cca7170c88c7deefe0469c07c
+  - ref: refs/heads/master
+    old: 6e385fe1233fa6083fcc066fa9330819b4d6abd8
+    new: 3ee09ff7e0eb89bd4e15de108962533d7dd1f429
     log: |
-         85ac3ad80d9b760935da590434ab72f443c56b0e ntfs: propagate mapping-pairs update errors from inode writeback
-         eef4203b3c4106266652a074fcf3d1fe5fd39795 ntfs: handle source record removal failure during attribute moves
-         c9c49faf27167b0cca7170c88c7deefe0469c07c ntfs: preserve buffered fallback writeback errors
+         775b4082abb11db809acfc2b50ce440b7cc4d6d3 keys: serialise key instantiation against keyctl_chown_key()
+         3ee09ff7e0eb89bd4e15de108962533d7dd1f429 tpm: Track the response read position internally
          
