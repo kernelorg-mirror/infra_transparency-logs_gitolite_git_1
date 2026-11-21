@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2165844864488587477=="
+Content-Type: multipart/mixed; boundary="===============8026633888243194698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 21 Nov 2026 04:03:01 -0000
-Message-Id: <179523378196.1645485.2072545517663747814@gitolite.kernel.org>
+Date: Sat, 21 Nov 2026 04:03:50 -0000
+Message-Id: <179523383011.1646088.15879861832751481920@gitolite.kernel.org>
 
---===============2165844864488587477==
+--===============8026633888243194698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/watchdog
-    old: d8cda274400b52c5bb542158ae9f220f72f059f0
-    new: e62f6d9577a3150185140f87e8dd248b452448af
-    log: revlist-d8cda274400b-e62f6d9577a3.txt
+  - ref: refs/heads/watchdog-next
+    old: 24485b57ac92f11d4aa2b69cb440fadcb3e4beb9
+    new: 4b60e959013f5cc14311653a52a72bdeca2796e2
+    log: revlist-24485b57ac92-4b60e959013f.txt
 
---===============2165844864488587477==
+--===============8026633888243194698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8cda274400b-e62f6d9577a3.txt
+Content-Disposition: attachment; filename=revlist-24485b57ac92-4b60e959013f.txt
 
 1df7f369075d7e8f7794981995a5103f1963bab7 pinctrl: qcom: kaanapali: add the I2C strong pull-up bit
 d36e0b560483991bc63b7b766f82396e1bf7ec33 assoc_array: correct the documentation of get_key_chunk()'s level argument
@@ -701,6 +701,54 @@ a5242bd5b19c1270feaeeb596aee8b43ca3a44ef Merge tag 'libnvdimm-fixes-7.4-rc4' of 
 7d51f37ed48e11a0a073ec428abe9d61c4449072 Merge tag 'watchdog-for-v7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 b152d7176339f11f05457799be609268e1a61cf2 Merge tag 'pinctrl-v7.4-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 aa31d5f8b151b786b748c6bfc9a8c4f1855c8adc Merge tag 'pci-v7.4-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-e62f6d9577a3150185140f87e8dd248b452448af watchdog: intel_oc_wdt: Stop the watchdog during system sleep
+04db3a4229277b589b68a53bfde5decf93b008cd dt-bindings: watchdog: Add Exynos8855 watchdog compatible string
+8673818d98bce348ebdd961ba66bd11ef341085f watchdog: s3c2410_wdt: Add support for Exynos8855 SoC
+c620d0a70f0c52dcea370fc783559c85f881dea3 dt-bindings: watchdog: qcom-wdt: Document SM8750 watchdog
+c19c74f41b44d8f1bd419a0368b0e1f5207ef8a9 dt-bindings: watchdog: qcom-wdt: Document SM8650 watchdog
+1e8258fca2d0596ecb49b9c25eb12041c82426d1 watchdog: bcm7038: Add a restart callback
+f107d1ca00899b805c6283fffb948e89c58c7020 watchdog: orion_wdt: stop the watchdog during system suspend
+7c8d8d5a7053db964419bfdf0c7f385769c39bb0 dt-bindings: watchdog: apple,wdt: Add t6041 compatible
+feadba9f5dab5c4855b9aa3ebca9666c1c382e0a watchdog: gpio: Allow devices described by software nodes
+8458645b282adb2754ef440767d1adef4a7b1fbb dt-bindings: watchdog: gpio: Describe minimum heartbeat intervals
+bec9ce848f39aa57925557204a6f7b5bcf755b78 watchdog: gpio: Support watchdogs with a minimum heartbeat interval
+a5a925f8d8ca8f1b612e37656a2a627362b890ac dt-bindings: watchdog: mediatek,mtk-wdt: Add MT8163
+79ca8a7c32f9498b51bdfb52ff4d891ec88eddc7 watchdog: mediatek: Add support for MT8163 TOPRGU/WDT
+786043732531ecd28afd9376fd28c3a77fc11d13 dt-bindings: reset: mediatek: add MT7629 TOPRGU reset indices
+6389a9822d8eed211d531dfb76d4f0309fc12cb5 watchdog: mediatek: add MT7629 reset controller support
+5ca5c6d2464011e690f8a35d820ec65e4940d496 dt-bindings: watchdog: sun4i-a10-wdt: add Allwinner B288
+4c6e5e1e3b7aec8166fb82711c992d4b77a4c64e MIPS: Alchemy: Use the GPIO watchdog driver on MTX-1
+69148f7d28e73139fd84a8426fca84a2fd232f7d watchdog: Remove the MTX-1 watchdog driver
+1d7e6830676a88b60d2c221fa94abd3c4d07d5d0 watchdog: octeon-wdt: Add a panic_on_timeout parameter
+8f03ac2f0f4b36a83738b93c7ced106df1d27c3a watchdog: dw_wdt: use devm_reset_control_get_optional_shared_deasserted
+27884ce281cc2f229bc2f56210eaa89e51694c10 watchdog: dw_wdt: manage reset line during system suspend/resume
+275776e675fe548240c0c43ba81f3c54f4df03ba dt-bindings: watchdog: add reset-from-wdt-gpios binding
+b66e66e600eb5e27788b3d117bbb0033bfaa0514 watchdog: gpio: add reset-from-wdt support
+3cd56a501e802bf011a2d17f4832c1a5053cfa75 watchdog: da9062: Add support for dlg,wdt-sd property
+61ec264a4249d65e66f97ca889ac983fdd7c5468 dt-bindings: watchdog: qcom-wdt: Document MSM8952 watchdog
+32c124eb3fdc2cb2837c224e7775edde26f32565 dt-bindings: watchdog: apple,wdt: Add t8142 compatible
+35a4c8f0c08edb41af7d02d8f5e58b0d4c2b9afd watchdog: dw_wdt: Stop ping worker on system suspend
+6ab681a31b47cbe44b04c895d535a14219ee1ba1 watchdog: rzv2h: Drop WDTRCR_RSTIRQS define
+f77274b9665ea55b64089e4812cd50df8fdfdd3f dt-bindings: watchdog: loongson,ls1x-wdt: Add compatible for Loongson-7A
+09e7035cea47f65ca30a02cbe2206916bcf95861 watchdog: intel_oc_wdt: Add INTC109C ACPI ID
+65e0012b4745721ad268408787ce51703579d9ba watchdog: pretimeout: Protect governor access with RCU for NMI safety
+4548dc33bb363c3ab7ef8d592f1d04461fa24dfb watchdog: pretimeout_panic: Use nmi_panic() when invoked from NMI context
+5dabe1b7a564922d2392c16f22ea29108347f632 dt-bindings: watchdog: arm,twd-wdt: Allow power domains
+a9bf45236ba7b4a82cc7b0e58f9bb7822dab64a0 dt-bindings: watchdog: mediatek,mtk-wdt: Add compatible for MT6895
+1b20d4786cb72c3f4319b2d55ce39309efdf9074 watchdog: mediatek: Add support for MT6895
+28f401bdd3bb86140e9a4eebc6604f8b71e11904 watchdog: stm32_iwdg: get hardware version during probe
+67f878172adda89d0429db5e50153ee423870999 watchdog: stm32_iwdg: detect whether the watchdog is running
+6ce7a9f1e74a75e6b2c7ef0a8f2a0feb0e6a7208 watchdog: stm32_iwdg: add pretimeout support for iwdg v4.0
+d8c4d70dfcd7804fa55773d94ce18d6cf059a666 watchdog: starfive-wdt: Drop runtime PM reference if starting watchdog fails
+bbced52df7266bbad3364f19b7f75fa6c5ec04a6 watchdog: starfive-wdt: Balance pm_runtime_enable() on probe error paths
+1f85d569cd9772f00f8434a30b60bff89e7c7248 watchdog: starfive-wdt: Avoid unclocked register access in remove and PM paths
+5eb38d1313d1a68cf6d08a8323f3db077bc9ee37 watchdog: starfive-wdt: Fix runtime PM usage count leaks in probe and remove
+942eb9586c1ab204695af7c302e1d653dc58f54e watchdog: starfive-wdt: Drop runtime PM reference before registering watchdog
+e593a69dce00e261b59e4ff6e8da3c7da90710c2 watchdog: starfive-wdt: Avoid unclocked MMIO read in starfive_wdt_get_timeleft()
+df4da72094f423eecb54eedfdfe1e2e7251d9858 watchdog: starfive-wdt: Stop ping worker on system suspend
+b1a7178ef4b2fa35ab7d45abad049f1be6779e54 watchdog: starfive-wdt: Avoid unclocked MMIO access in starfive_wdt_set_timeout()
+745aeabc4cbf1fbcdb50fc3d9f7b7b4a79e7af5f watchdog: sunxi_wdt: stop the watchdog across system suspend
+1da1694b43e8b0021d070c2843650bf989a4cd71 dt-bindings: watchdog: mediatek,mtk-wdt: fix mt6797 compatible
+c4c2da2a6c0a270bf936850a6356ba041d9f6c83 watchdog: mediatek: add mt6797 support
+4b60e959013f5cc14311653a52a72bdeca2796e2 watchdog: gpio: Keep GPIO level when taking over a running watchdog
 
---===============2165844864488587477==--
+--===============8026633888243194698==--
