@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 21 Nov 2026 22:59:18 -0000
-Message-Id: <179530195864.2526337.10124624727423212339@gitolite.kernel.org>
+Date: Sat, 21 Nov 2026 23:12:46 -0000
+Message-Id: <179530276688.2536480.8667569322004804965@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: fd5f80a8a4270b768888c61dfbd26f9310cebeb2
-    new: 944841b8af499bbdd6e9dcbf9d4422861d7727f8
+    old: 944841b8af499bbdd6e9dcbf9d4422861d7727f8
+    new: e678e4283983da00e05e818ee536a0dab53f664d
     log: |
-         944841b8af499bbdd6e9dcbf9d4422861d7727f8 net: sgi: ioc3-eth: set platform drvdata in probe
+         e678e4283983da00e05e818ee536a0dab53f664d vlan: require real device netns admin to change GVRP and MVRP
          
