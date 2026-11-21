@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 20 Nov 2026 23:50:52 -0000
-Message-Id: <179521865246.1453670.10681302647711502747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 21 Nov 2026 00:00:36 -0000
+Message-Id: <179521923685.1460993.9715525200948908592@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: 2208ab00f4f213ade91ab775e7f8c4dacdcc856e
-    new: 04c6b6c90e326c7c6913d525913b202c03adb363
+    old: d7f2d9b6c7d0ff0af7d19d889810d35dfe07da90
+    new: 18a7abf1a0b168ea6a50f08562de2f286d6f5a86
     log: |
-         a98c9978f59e055daa24eb7c3796cd46c094772e octeontx2-pf: Fix potential use-after-free in representor teardown
-         04c6b6c90e326c7c6913d525913b202c03adb363 eth: bnxt: report TX HW GSO queue stats
+         18a7abf1a0b168ea6a50f08562de2f286d6f5a86 ipv6, calipso: fix data-race in calipso_cache_add() bucketsize check
          
