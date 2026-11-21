@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8086334874404150776=="
+Content-Type: multipart/mixed; boundary="===============8096959873905005202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 21 Nov 2026 03:22:18 -0000
-Message-Id: <179523133891.1616389.14637752037140101339@gitolite.kernel.org>
+Date: Sat, 21 Nov 2026 03:22:23 -0000
+Message-Id: <179523134312.1616532.2136629363095451637@gitolite.kernel.org>
 
---===============8086334874404150776==
+--===============8096959873905005202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: b8c44b2778d94893cef5f7d0641d5cf6d58b75b8
-    new: 1c4efb5e54d7ee849194e7c59313a81f37898d9f
+  - ref: refs/heads/7.5/scsi-queue
+    old: 0fc91e802801819a0c51d30b6eecac63ab4f85d2
+    new: 08fec21faae44fe002467976befd68e6e62969b5
     log: |
          e043bf8fa65e5de1c62996a5a2fd018721dd7fd1 scsi: ufs: core: Clear saved errors in ufshcd_link_recovery()
          280c35ec009907b3fc7ce0c9df046025fb4fa585 scsi: ufs: core: Add a helper for the system suspend callbacks
@@ -28,33 +28,33 @@ changes:
          08fec21faae44fe002467976befd68e6e62969b5 scsi: ufs: qcom: dt-bindings: Classify sm8150-ufshc as standalone ICE
          
 
---===============8086334874404150776==
+--===============8096959873905005202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1795231337 -0500
+pusher 75C5DE3D 1795231341 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1795231337-281233fa36de7bd1f1e29defbaad9a840afffed5
+nonce 1795231341-a2e5e9f77e58a6df86ceb0d5e8d2f8e9ed8c0386
 
-b8c44b2778d94893cef5f7d0641d5cf6d58b75b8 1c4efb5e54d7ee849194e7c59313a81f37898d9f refs/tags/mkp-scsi-queue
+0fc91e802801819a0c51d30b6eecac63ab4f85d2 08fec21faae44fe002467976befd68e6e62969b5 refs/heads/7.5/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmsBDmkACgkQ7ulgGnXF
-3j0JaQ/9HEV+xu/65Op3qON3R2Gdm5aSM2G0FAlgN2eVrRLalEicgK+2st4bhf7Z
-k50qNNb/rG3jNWtOZN9xDBi/2WM0QUFzu/DbqCaHhGY6bt/hK14H8i155WqCCAOo
-Ds/HjJu70LK6VgD01rpl8CycvXsOD/O81rCdnuHL7cgtx1UpcNeBqps35KK6UGJz
-WXu0CVxex7HzLskEieygImjKJgpCoyGSgbAn6C7M4X+broW/FD9ZEpQIVdaCzZ2P
-KmSyI6/cOst2nkXtmkdU9/eUap2nRbhX8Z+3+1KUrLAllt0S1TTF+bPWJVcOmrMp
-f4C4S6gzXGqN2MyPXNdq/UBdtA4IrybqEerR7biKn+BMBY8eF+CUNgGSdI4Pinr6
-gwc01am0s+uC1XnsjYOrTnIqoKngisHjXGym/Gz8LTLFmtnhrx5rSXflBH5rrPrW
-0qfjLgrBxAgTiHZpwU66QQYZg3OkkA6F8vifDweoPi4Z+6yOh2NbiNF3HiwSxh/t
-xQETnr32syd5NdCtSN4UhPpYWs/tmSlUD57Oz+hcuMknzUs6tunKN2WxlES2/Pqo
-pnNsxapPLtmpd98VIzJGmPeHtr3UmGyLW77hgd//oTTtp1EI9ExJ39AX2LMBa5FF
-6w8T4GOef79S+FDm6567Z/H5gXVuJJ7vyseHL01MMPK62qsxd2g=
-=YNWk
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmsBDm0ACgkQ7ulgGnXF
+3j0yXw/7BUGt2J0iFrNikiapqFW+EFNwiNCx3OH9G9UeNp838T74wkPG5fztgZ2C
+6mqbNaT5nfAnkrO+qXqUIgtpI/KD4qpYnh9GxMi0nfj7IZuDC6g4XPvj7hsCcqNF
+N0A9EcSfAc9Z+KFPP0lmxxhcjxl55y7OBsDf4pfAAaYRSojYjdX28a1C+C4DueUQ
+Q96EdtgT2z24DwmQo9L3ahO4/QtT2fKk41ougVYc1W5ubuKjGZGHCWyj+8IGk8bs
+SbDe5IOev8xXK5bfn5gOBQowFGdSQwSFxH70oEnh3VdOqYj52mxuzBMmOXKgSR8O
+OGI2rQlBwmQjWUmtiYaghsZgUimLRhAjgR8510R1oLnFbGt8czVw/lIbJFN5Y80u
+m6WOxqr66Wah5HXQUT6/ucKXGLEKME0ysJV3symfXlDR5JZrqcntj2Sih8XIkJgR
+P44fc2qliYlWchZy2l6pFP2OWoHZ3wwAsn2l0rRJ9AkKVDxdT4eW1dmvrVt1PFCM
+mkCKpsTGrnJ56VxXOy3IGUPRHdLAzINfXS57CFd9P/MysDOgdZiT1Mbn8czkmvqc
+3JcH7d2vimSAEKREvKDh92q2Ocx7vHEGduCMV+Go28gU6JrJ33Q4lXJCIVl17kZE
+pFGRh0vwaBTzgn9EAdNSTEbmfEzfzLzMaSi0N1nw24tw0vTEueU=
+=+J7M
 -----END PGP SIGNATURE-----
 
---===============8086334874404150776==--
+--===============8096959873905005202==--
