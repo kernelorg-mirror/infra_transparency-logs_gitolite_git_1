@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 21 Nov 2026 01:50:48 -0000
-Message-Id: <179522584834.1547485.14657421718523999362@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 21 Nov 2026 01:52:43 -0000
+Message-Id: <179522596390.1548254.16186221499986791680@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/pci-v7.4-fixes-1
-    old: 0000000000000000000000000000000000000000
-    new: c6c9cc38589565be430e240558a5bcce008d030a
+  - ref: refs/heads/main
+    old: b09a65056479729a357fdbd998700820d60c84a2
+    new: bd5ce5c9ae25acfa167fcff661b2c673188f8b43
+    log: |
+         bd5ce5c9ae25acfa167fcff661b2c673188f8b43 idpf: batch RCU grace periods when deleting NAPIs
+         
