@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Sat, 21 Nov 2026 00:05:49 -0000
-Message-Id: <179521954957.1465688.2370316969304245527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Sat, 21 Nov 2026 00:06:33 -0000
+Message-Id: <179521959315.1466463.12427782889026440847@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: 2208ab00f4f213ade91ab775e7f8c4dacdcc856e
-    new: 04c6b6c90e326c7c6913d525913b202c03adb363
+  - ref: refs/heads/main
+    old: 00f445721c7f0e48aaff9813cfe1c065c6eb3b71
+    new: fdb6fcabdbb8247f1647d54fb1b9dc3575d7fcc8
     log: |
-         a98c9978f59e055daa24eb7c3796cd46c094772e octeontx2-pf: Fix potential use-after-free in representor teardown
-         04c6b6c90e326c7c6913d525913b202c03adb363 eth: bnxt: report TX HW GSO queue stats
+         d7f2d9b6c7d0ff0af7d19d889810d35dfe07da90 af_packet: avoid waiting for TPACKET_V3 copies at retirement
+         18a7abf1a0b168ea6a50f08562de2f286d6f5a86 ipv6, calipso: fix data-race in calipso_cache_add() bucketsize check
+         fdb6fcabdbb8247f1647d54fb1b9dc3575d7fcc8 net: marvell: prestera: disable port before changing its MAC mode
          
