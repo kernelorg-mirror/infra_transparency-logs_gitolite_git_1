@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2867929715445182561=="
+Content-Type: multipart/mixed; boundary="===============3093848079021656370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 21 Nov 2026 17:49:57 -0000
-Message-Id: <179528339768.2300427.6962918129506252474@gitolite.kernel.org>
+Date: Sat, 21 Nov 2026 17:50:00 -0000
+Message-Id: <179528340073.2300548.16327255661707644561@gitolite.kernel.org>
 
---===============2867929715445182561==
+--===============3093848079021656370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/canary
+  - ref: refs/tags/v7.3.3-16.canary
     old: 2ce8b5edefad00ea86d1d314627d975c665a0f8e
     new: a7aad51c25cc35ec632bfd40c60009506407db95
     log: revlist-2ce8b5edefad-a7aad51c25cc.txt
 
---===============2867929715445182561==
+--===============3093848079021656370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -122,4 +122,4 @@ f1904882a6812c60c2a1a167d79ea0d41517ff53 Merge branch 'kernel-7.3/NFSD_TCP_WRITE
 205e085c30b3cfa07bc099468aeaa9a170a28f38 Merge branch 'kernel-7.3/nfs-client-transport-percpu-with-nconnect' into kernel-7.3/canary
 a7aad51c25cc35ec632bfd40c60009506407db95 Merge branch 'kernel-7.3/changelog-canary' into kernel-7.3/canary
 
---===============2867929715445182561==--
+--===============3093848079021656370==--
