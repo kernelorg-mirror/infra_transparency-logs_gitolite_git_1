@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8344834043584995126=="
+Content-Type: multipart/mixed; boundary="===============4749077041235883308=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 21 Nov 2026 04:26:49 -0000
-Message-Id: <179523520997.1668223.4057990140898495893@gitolite.kernel.org>
+Date: Sat, 21 Nov 2026 04:26:53 -0000
+Message-Id: <179523521303.1668448.17369247616319031574@gitolite.kernel.org>
 
---===============8344834043584995126==
+--===============4749077041235883308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 27d68caf0e220c1a024c53bfe77b46b07ce201b1
     new: 9867c61abbd44f7053a871566b3d982f62c6d8dc
     log: revlist-27d68caf0e22-9867c61abbd4.txt
 
---===============8344834043584995126==
+--===============4749077041235883308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ de2cf44a0a34777cb8f1efd04aac89831e22b3b3 bpf: Keep spilled pointers at a range o
 a45635128d1e80429d5b4f2b27eeaf8751a6b092 bpf, docs: Rewrite verifier.rst
 9867c61abbd44f7053a871566b3d982f62c6d8dc Merge branch 'bpf-verify-in-passes-with-equations-in-the-state'
 
---===============8344834043584995126==--
+--===============4749077041235883308==--
