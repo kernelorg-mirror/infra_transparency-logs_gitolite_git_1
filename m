@@ -1,73 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============3270404555020144974=="
+Content-Type: multipart/mixed; boundary="===============7087067162256469393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Sat, 21 Nov 2026 07:49:11 -0000
-Message-Id: <179524735105.1810564.4563453593656245305@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Sat, 21 Nov 2026 07:56:16 -0000
+Message-Id: <179524777695.1817124.11765716221323840862@gitolite.kernel.org>
 
---===============3270404555020144974==
+--===============7087067162256469393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: maddy
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/fixes
-    old: 54efc2e1e9af9e3a14264db5686330e4fd477286
-    new: bd6d2f87c2239d10bf5f37ab52b3968565528417
-    log: |
-         0e3d5c0408262aef599df888e9bde88d0337c1dc KVM: PPC: Book3S HV: Use u8 to store guest's interrupt priorities
-         bd6d2f87c2239d10bf5f37ab52b3968565528417 KVM: PPC: Fix TOCTOU kernel stack disclosure via kvm_run->mmio.len
-         
-  - ref: refs/heads/fixes-test
-    old: 54efc2e1e9af9e3a14264db5686330e4fd477286
-    new: bd6d2f87c2239d10bf5f37ab52b3968565528417
-    log: |
-         0e3d5c0408262aef599df888e9bde88d0337c1dc KVM: PPC: Book3S HV: Use u8 to store guest's interrupt priorities
-         bd6d2f87c2239d10bf5f37ab52b3968565528417 KVM: PPC: Fix TOCTOU kernel stack disclosure via kvm_run->mmio.len
-         
-  - ref: refs/heads/merge
-    old: eda041b6dd77e6d414336e55f32bc246d7221bc8
-    new: 413f852854aa3b958e0f12afcc14f807ecb6adca
-    log: |
-         0e3d5c0408262aef599df888e9bde88d0337c1dc KVM: PPC: Book3S HV: Use u8 to store guest's interrupt priorities
-         bd6d2f87c2239d10bf5f37ab52b3968565528417 KVM: PPC: Fix TOCTOU kernel stack disclosure via kvm_run->mmio.len
-         413f852854aa3b958e0f12afcc14f807ecb6adca Automatic merge of 'fixes' into merge (2026-11-21 13:18)
-         
+  - ref: refs/heads/tmp.perf-tools-next
+    old: bb27ddbaee56536fb8df0a24f07b526766dfe131
+    new: 53f0bfd3a80d55459ab657ed91d826129b10a5dd
+    log: revlist-bb27ddbaee56-53f0bfd3a80d.txt
 
---===============3270404555020144974==
+--===============7087067162256469393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-bb27ddbaee56-53f0bfd3a80d.txt
 
-certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1795247345 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1795247344-a70ba20a6ef71785031b762023e77f8c160463f5
+b4e89abfbac54df8f4580923339ee2fb733bf93e compiler-context-analysis: Avoid unused parameter warning in _context_unsafe_alias()
+bed0673e839c321f6f3aefdc6a12a09cfafd2a11 tools headers compiler: Synchronize compiler_types.h with the kernel sources
+004dbcad368f614d289ae632f189ac45ee0bbad5 tools headers: Synchronize linux/compiler-context-analysis.h with the kernel sources
+48aec20654c5ae1523c071b92864618d178e6f98 perf mutex: Use kernel style compiler-context-analysis.h annotations
+3219678599331f2c98721889a57a279cfab835e7 perf build: Enable context analysis and Clang thread-safety flags
+9c00c0aa89d6b09301bd2dcc342ab3d4883e49e0 perf comm: Add __guarded_by annotations to struct comm_strs
+f7c392e55b8bba1827929ebb82db4cae9822825c perf vdso: Fix unlocked __dsos__add() and race in __machine__addnew_vdso()
+6dba64c84a8a7b29c969364989271dec6c0bce1d perf dsos: Skip BPF and OOL DSOs in dsos__find_kernel_dso()
+0426d9006393c7000aadd31e5001bd69f51b2bd1 perf dsos: Ensure DSOs in auxtrace, machine, and symbol are in dsos
+bf02eb33e1ef161d9f86877ae8344744e8462f35 perf dso: Pass dso_data to close_data_fd() and dso__list_del()
+8b8f430fabc6c25259920a01bb3dcce432ce0ade perf dso: Use DEFINE_MUTEX for dso__data_open_lock
+0d192a06df4f9681cabe70c404e81d4ac86a051b perf dsos: Use read lock fast path in dsos__findnew_id()
+4298edda62636835877fdc3dfbab874c59fa6f07 perf dso: Expand context analysis annotations
+c5bf217b009b585c77a6dbbff63e7530c46fdb84 perf thread: Expand context analysis annotations to threads and namespaces_lock
+c3ae8e77a921f1de0d63e3f875925ffe54492a1f perf intel-tpebs: Fix race in tpebs_stop() and tpebs_cmd.out fd handling
+93ba950935081eaa1565d0742cc9d0464ec77d26 perf intel-tpebs: Use DEFINE_MUTEX for tpebs_mtx and add lock annotations
+0066e971785118241ac91c4da6bc0135b3c5ce0b perf config: Add __guarded_by and __must_hold annotations
+33f4d6b71549565c0cbcb9743751cb67be4e824c perf env: Add __guarded_by and __must_hold annotations
+1b080b429e783cd2c5c7227dcf648fd15fde8c64 perf maps: Remove unused maps__load_first()
+877c06d842ee153652f411f3c34a21fbb4ab2e3f perf maps: Fix map index lookup fallback and removal
+ceeb4e3df54109bc4a2d50d6bde43dff51bd2a33 perf maps: Add context analysis annotations
+54bdd2d088a009759bbca7db1ad084ff3e238047 perf machine: Hold machines->lock for remaining guests rbtree accesses
+53f0bfd3a80d55459ab657ed91d826129b10a5dd perf machine: Add __guarded_by annotation to machines->guests
 
-54efc2e1e9af9e3a14264db5686330e4fd477286 bd6d2f87c2239d10bf5f37ab52b3968565528417 refs/heads/fixes
-54efc2e1e9af9e3a14264db5686330e4fd477286 bd6d2f87c2239d10bf5f37ab52b3968565528417 refs/heads/fixes-test
-eda041b6dd77e6d414336e55f32bc246d7221bc8 413f852854aa3b958e0f12afcc14f807ecb6adca refs/heads/merge
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmsBTPEACgkQpnEsdPSH
-ZJSoMxAAvVDISQqjpFc8opPGwMq5uUNfyvgjz6vUqaMIs6Nq1ljdCUQkzeRP9QfF
-RejNMv3yk73osiW7dRFmlnF08sQpKvB7GusI0xkSr9efptVMTvRmDAC3XqWULsvN
-Ulw1EglQob1ThmNCAfUVktbIFdzswZdrtYvrzS7SICid2Hnf7pBeha6keITDC5I5
-UCJxNw4bDK/unv2nyipXIXyzfzCqgXVEl02RYQuCz3ao6gCx/jlojVb+rJslRrt8
-R9+y1u8nSj4XE1WajoMjaLeJFI17usesToqsHD3TnXhgy537B47fUA/1swiJswzN
-r7QUoRj9uVTKWEZ7miPa5ZX6c1I4J+0lCbvKx0aTdKfVzRGAq9mAu2MALPfbNMGe
-1JmeT32SWgnBR4+k0r+9+s+aqzsOHLtVaUYLB0ZbJ4ZR3nShK1oGlsydQNRpCLif
-e03/+LSv74AMPnnAfl8hFLO7esBlwepoJq8Ii3RIiQDxlYSH6xcQ75UR/yhcL0I2
-QPm8WkjSnzKs0rddOYxPwfUtC/F2ooiD1OPTY0ecFCcWRzJvl15LmNdbIezLGkrl
-2hT31hN6+DV8dFR1KFRB1ieGhSWtWp3NmdSw0MoNx01fZpPubKtSviL1McFD0Faj
-50QPvCtJO6ZB4WtSnAvPEVoChY5qEguxI/tV41ub4oaJKggHNfg=
-=e2Ea
------END PGP SIGNATURE-----
-
---===============3270404555020144974==--
+--===============7087067162256469393==--
