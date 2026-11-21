@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3790935172640905109=="
+Content-Type: multipart/mixed; boundary="===============2029673102351811980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 21 Nov 2026 17:10:27 -0000
-Message-Id: <179528102713.2270924.6799814963816737709@gitolite.kernel.org>
+Date: Sat, 21 Nov 2026 17:10:31 -0000
+Message-Id: <179528103195.2271030.12934439962803016470@gitolite.kernel.org>
 
---===============3790935172640905109==
+--===============2029673102351811980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 15f114dac9a7bde1796f0e54e22726fd31cfa8a5
+  - ref: refs/heads/mm-unstable
+    old: d12eccbcb79a4fa35c3aa588eb79056af62eb859
     new: 7d1a16abe4cc5dccd21e3d6262e44433a5885d27
-    log: revlist-15f114dac9a7-7d1a16abe4cc.txt
+    log: revlist-d12eccbcb79a-7d1a16abe4cc.txt
 
---===============3790935172640905109==
+--===============2029673102351811980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15f114dac9a7-7d1a16abe4cc.txt
+Content-Disposition: attachment; filename=revlist-d12eccbcb79a-7d1a16abe4cc.txt
 
 096677e023aa53c1276eba6f2eb45ded28daad48 mm: memcontrol: don't lose track of exiting OOM victims
 3ff71f729709c5ebf1daff787028de1eb3113b39 filemap: prefault writes starting beyond EOF
@@ -354,4 +354,4 @@ ca6a565aa32e3b16da17667dee1d62085a068517 lib/test_hmm: fix alloc tag leak when s
 7f87bdbb6b10d4828ff063c1a444edf149e528f1 fs/proc/task_mmu: fix lost maps entries above 2^63
 7d1a16abe4cc5dccd21e3d6262e44433a5885d27 mm: vmstat_kunit: add synthetic benchmark for mm stats
 
---===============3790935172640905109==--
+--===============2029673102351811980==--
