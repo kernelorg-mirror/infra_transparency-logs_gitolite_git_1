@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1883415006994898126=="
+Content-Type: multipart/mixed; boundary="===============8086334874404150776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 21 Nov 2026 03:22:13 -0000
-Message-Id: <179523133342.1616242.7316390667208064660@gitolite.kernel.org>
+Date: Sat, 21 Nov 2026 03:22:18 -0000
+Message-Id: <179523133891.1616389.14637752037140101339@gitolite.kernel.org>
 
---===============1883415006994898126==
+--===============8086334874404150776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 9f9e0b1e5399045982788a954d3461de894e40c7
-    new: efd68f17acca65f581b9f2fa9ba50c8643ab544d
+  - ref: refs/tags/mkp-scsi-queue
+    old: b8c44b2778d94893cef5f7d0641d5cf6d58b75b8
+    new: 1c4efb5e54d7ee849194e7c59313a81f37898d9f
     log: |
-         3ad578b22f7a34a2391ca8910dfc931b01cc94f6 scsi: pm8001: Offset hardware queue index for MSI-X pre-vector
-         14bc5d239dddb3ce1264de74b8460c0a61745563 scsi: mpt3sas: Fix out-of-bounds cpu_msix_table read on CPU hotplug
-         b30d7199af282be0a0db7f92fd8916a8ffa3d3aa scsi: target: iscsi: Run the Time2Retain handler in process context
-         6b745a4ae88a38871421eef2fd995cd308abce0a scsi: target: core: Disable protection processing for zero-block transfers
-         fb8fd1da808feef6af8686986fedcfe45c693dc8 scsi: target: core: Compare all six ISID bytes when identifying a nexus
-         def1745a6a8bc44b39e8670c737c27fd38b3595c scsi: ufs-mediatek: Use devm_regulator_get() for the va09 regulator
-         71b5da0b45fb83b590f1ec3df5361c7754b0e113 scsi: ufs-mediatek: Restore the M-PHY power state when va09 disable fails
-         efd68f17acca65f581b9f2fa9ba50c8643ab544d scsi: mpt3sas: Validate data_out size before SMP link-reset check
+         e043bf8fa65e5de1c62996a5a2fd018721dd7fd1 scsi: ufs: core: Clear saved errors in ufshcd_link_recovery()
+         280c35ec009907b3fc7ce0c9df046025fb4fa585 scsi: ufs: core: Add a helper for the system suspend callbacks
+         7be49f26454e686d0b8cfd277066cefddb8e7464 scsi: ufs: core: Make ufshcd_wl_poweroff() behave like ufshcd_wl_suspend()
+         7693e76c9f8b7e1dc3a6ac544be97ee6b33e3050 scsi: ufs: core: Limit early link recovery in the error handler to runtime PM
+         bd91f6b3b684740174e300fa337713e97792a3f2 scsi: fnic: Fix typo in kmem_cache creation error message
+         08fec21faae44fe002467976befd68e6e62969b5 scsi: ufs: qcom: dt-bindings: Classify sm8150-ufshc as standalone ICE
          
 
---===============1883415006994898126==
+--===============8086334874404150776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1795231331 -0500
+pusher 75C5DE3D 1795231337 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1795231331-7f4831aa18aa1ae0b62eab275e7c3a5ff274e0e4
+nonce 1795231337-281233fa36de7bd1f1e29defbaad9a840afffed5
 
-9f9e0b1e5399045982788a954d3461de894e40c7 efd68f17acca65f581b9f2fa9ba50c8643ab544d refs/heads/fixes
+b8c44b2778d94893cef5f7d0641d5cf6d58b75b8 1c4efb5e54d7ee849194e7c59313a81f37898d9f refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmsBDmQACgkQ7ulgGnXF
-3j2+EQ//auYu4zkSUZBWoo7jWrlGsuibj9oJxPaLro6j6kyj4RW5cslxQJnwgqMS
-Pko9ce0/qlhlWdwF9Y9I3YyuA/tf5aAsIup4sFtUtvkGaTRGaWoofX/ky5rvC9tp
-Dt47/jyAsutGZJBQEUOlri9m0RGYb/HCQb8kRQAueGr8GFOarmnLv8wLfvH1r4yd
-UT5ztJyeu6xmgqP2yvbVc69hWABTp+tFzjGr4f1lxPVZ1yXLR1TwbdG/VWa0yqOE
-d4RB74F0lss3DM6hiJDxo4bYsIsMvRCSuRq1y9j8ALFwCAJCPsF/2F+zDlR4QntO
-hJIAlNm+yATn0kQ5wdgWOFmbe3gIyHFuT6l51Cw9K0BrwWV6A4WdeKhVu7KPIP2j
-3qEu7OpE5Blcashu3Y3b2t7eL7Hye82FxMnXgELLUVjhVf8OdIQVHUZngVJya0aq
-DZOtbkUC33BJ1gphoKGU0TJt5NFE8CjpF0ef9Cv1mR5FSaGa/MYiZST5IOSf/3lD
-IOmkt0+mJrFabVQ2vU2cz+0jTUwUKoT6PqKnkL5rC8TcDBELQsjZ6MQ1hdh2icmM
-YZnVS42i4MWtpFlY+JmMHD6nXwRpxE7qAXJB/gmGKz/TCT8kk7GyMfF1dXRh5tBf
-nTqfdbbrDIQcoxHJQe3DRKmFVT0Lej5Ytaq737MLWnvr1nv74cU=
-=Z1gM
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmsBDmkACgkQ7ulgGnXF
+3j0JaQ/9HEV+xu/65Op3qON3R2Gdm5aSM2G0FAlgN2eVrRLalEicgK+2st4bhf7Z
+k50qNNb/rG3jNWtOZN9xDBi/2WM0QUFzu/DbqCaHhGY6bt/hK14H8i155WqCCAOo
+Ds/HjJu70LK6VgD01rpl8CycvXsOD/O81rCdnuHL7cgtx1UpcNeBqps35KK6UGJz
+WXu0CVxex7HzLskEieygImjKJgpCoyGSgbAn6C7M4X+broW/FD9ZEpQIVdaCzZ2P
+KmSyI6/cOst2nkXtmkdU9/eUap2nRbhX8Z+3+1KUrLAllt0S1TTF+bPWJVcOmrMp
+f4C4S6gzXGqN2MyPXNdq/UBdtA4IrybqEerR7biKn+BMBY8eF+CUNgGSdI4Pinr6
+gwc01am0s+uC1XnsjYOrTnIqoKngisHjXGym/Gz8LTLFmtnhrx5rSXflBH5rrPrW
+0qfjLgrBxAgTiHZpwU66QQYZg3OkkA6F8vifDweoPi4Z+6yOh2NbiNF3HiwSxh/t
+xQETnr32syd5NdCtSN4UhPpYWs/tmSlUD57Oz+hcuMknzUs6tunKN2WxlES2/Pqo
+pnNsxapPLtmpd98VIzJGmPeHtr3UmGyLW77hgd//oTTtp1EI9ExJ39AX2LMBa5FF
+6w8T4GOef79S+FDm6567Z/H5gXVuJJ7vyseHL01MMPK62qsxd2g=
+=YNWk
 -----END PGP SIGNATURE-----
 
---===============1883415006994898126==--
+--===============8086334874404150776==--
