@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 21 Nov 2026 01:58:27 -0000
-Message-Id: <179522630753.1552411.9204941582424964012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 21 Nov 2026 02:10:56 -0000
+Message-Id: <179522705656.1562286.8012035637076967205@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: bd5ce5c9ae25acfa167fcff661b2c673188f8b43
-    new: 111e1b0b985e3dbb41fffc6b5832c3322b6e38d5
+    old: 925120216e6d5a9107e1121d91d1a92fcee74b1d
+    new: d5b89d55a322b632e2b465b392a4c1d9d338db9c
     log: |
-         111e1b0b985e3dbb41fffc6b5832c3322b6e38d5 6lowpan: nhc: use RCU instead of lowpan_nhc_lock
+         d5b89d55a322b632e2b465b392a4c1d9d338db9c net: qrtr: ns: keep notifying local servers after a failed send
          
