@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 21 Nov 2026 00:49:05 -0000
-Message-Id: <179522214566.1498076.4239709515289660198@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 21 Nov 2026 00:58:17 -0000
+Message-Id: <179522269709.1505244.6445307750450003980@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: bfccb4e44e4725270ccef366078d7b6063920ff3
-    new: 7a505bb0168a132c2a3ab4efff4c6d6474ca3aa1
+    old: d82b4f3a8a2ec4815bffd55a7a4f56401ad0cf7a
+    new: 16cc4936fb8efff7021d470e02d23a5ede49e34f
     log: |
-         7a505bb0168a132c2a3ab4efff4c6d6474ca3aa1 net: clear skb->mac_len in skb_unset_mac_header()
+         16cc4936fb8efff7021d470e02d23a5ede49e34f net: bcmgenet: write the Tx producer index when a frame is dropped
          
