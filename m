@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 21 Nov 2026 15:26:33 -0000
-Message-Id: <179527479394.2190452.15872649885956749128@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 21 Nov 2026 15:27:41 -0000
+Message-Id: <179527486121.2190967.7860373560580528256@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/watchdog
-    old: e62f6d9577a3150185140f87e8dd248b452448af
-    new: d441b6df590f49d6fe0b00e81d14bdda6d01fcf3
+  - ref: refs/heads/master
+    old: 3dd4b2d3c1f7915277082781d6dfbe71d7d41800
+    new: f2bd4165b01ccac9ae55899342507a2b561de5fd
     log: |
-         d441b6df590f49d6fe0b00e81d14bdda6d01fcf3 watchdog: core: Don't report time left for a stopped watchdog
+         0483d742874515fa39be96faa01eff5707739d3c drop 3 patches and add 1 based on RC review feedback
+         f2bd4165b01ccac9ae55899342507a2b561de5fd Fixes for all trees
          
