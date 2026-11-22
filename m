@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 22 Nov 2026 23:09:22 -0000
-Message-Id: <179538896294.3568275.16015623593166257555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-nomadik
+Date: Sun, 22 Nov 2026 23:22:23 -0000
+Message-Id: <179538974326.3578232.15049839713861059361@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/linusw/linux-nomadik
+user: linusw
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 3bdfa7b351556cfe63b4c8f420056b1e4d6c777a
-    new: 7940d60c4b165cd7c265bf17f86b8299b7f204b1
+  - ref: refs/heads/b4/ux500-dma40-powerdomain
+    old: 6ef0a9fd7afdddf97fa2023eadf8da37fd739ae4
+    new: 1706568c3325345bc50e5c313804a07b095d5df6
     log: |
-         0e13082dc220eb14dfe8072802981ce4fb2a10ff hwmon: (pmbus/core) Keep cached page and phase in sync with the chip
-         390fdd59c218ee98cef841fda6999df44579c219 hwmon: (pmbus/core) Add PMBUS_FORCE_PAGE_CHANGE flag
-         7940d60c4b165cd7c265bf17f86b8299b7f204b1 hwmon: (pmbus/mp2975) Use PMBUS_FORCE_PAGE_CHANGE
+         2457353d8c766530b0c88833b959c1f3ca84f3a3 dmaengine: ste_dma40: Use power domain for LCLA SRAM
+         1706568c3325345bc50e5c313804a07b095d5df6 dmaengine: ste_dma40: Use power domain for LCLA SRAM
          
