@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 22 Nov 2026 16:51:49 -0000
-Message-Id: <179536630995.3294365.15075360753309146956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 22 Nov 2026 16:54:15 -0000
+Message-Id: <179536645588.3295147.10059658943319351727@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 4a90d817dc2699ff6f6cb26b54a60658f6f3fefc
-    new: c00ef2dbf4be1c2181d81d0f15eee763b1e7e78b
+  - ref: refs/heads/hwmon
+    old: 45a8c915ca8f9f56ecb82839d44b2f92c9608b7e
+    new: 63cba0c8e7937a0e5792ba90415659a9fdd4ce10
     log: |
-         c00ef2dbf4be1c2181d81d0f15eee763b1e7e78b foo
+         dcd3e2dc90619802aace298bf19365c65f87b12f hwmon: (aquacomputer_d5next) Fix collection check for Aquaero devices
+         63cba0c8e7937a0e5792ba90415659a9fdd4ce10 hwmon: (yogafan) Fix fan paths for Yoga Pro 7 14IAH10
          
