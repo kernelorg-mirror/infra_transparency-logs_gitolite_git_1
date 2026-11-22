@@ -1,43 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============6037640081945960908=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Sun, 22 Nov 2026 13:58:59 -0000
-Message-Id: <179535593910.3163420.2988460892921707759@gitolite.kernel.org>
-
---===============6037640081945960908==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 22 Nov 2026 14:08:33 -0000
+Message-Id: <179535651353.3170608.2234306093356499659@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/tags/vfs-7.4-rc4.fixes
-    old: 0000000000000000000000000000000000000000
-    new: b43bf3a9841dd015469ac293a6aceb8212249187
-
---===============6037640081945960908==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 0x91C61BC06578DCA2! 1795355937 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
-nonce 1795355936-0ac5ab2617bbcabe74e622a1cbb221a27b1c2603
-
-0000000000000000000000000000000000000000 b43bf3a9841dd015469ac293a6aceb8212249187 refs/tags/vfs-7.4-rc4.fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRAhzRXHqcMeLMyaSiRxhvAZXjcogUCawL1IQAKCRCRxhvAZXjc
-ojKtAP9veTXR87JdA3qtGZXE44oWt4f1t5RowCNnl+keUlgFvgD/eDlkYmNFPtk8
-BhcBVIprkHs7NYChIKoBbBvlIOcSDAg=
-=SdYB
------END PGP SIGNATURE-----
-
---===============6037640081945960908==--
+  - ref: refs/heads/master
+    old: b9d27b45d03c87dec8d9d1bf75b8de9f923181c5
+    new: 9d73296208d2031583c9a0a9377a173f3d7027e6
+    log: |
+         9d73296208d2031583c9a0a9377a173f3d7027e6 Fixes for all trees
+         
