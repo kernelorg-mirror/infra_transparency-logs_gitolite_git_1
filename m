@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0098540359126250891=="
+Content-Type: multipart/mixed; boundary="===============0035000877989023558=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 22 Nov 2026 22:46:23 -0000
-Message-Id: <179538758354.3550993.1194824709020906013@gitolite.kernel.org>
+Date: Sun, 22 Nov 2026 22:46:47 -0000
+Message-Id: <179538760763.3551394.6416638147677681384@gitolite.kernel.org>
 
---===============0098540359126250891==
+--===============0035000877989023558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6de8747b04ff8ab5e1dd465acd1d5d4733332f1d
-    new: 7a0a7803cce5d0046d711e352027a0f90f205e17
-    log: revlist-6de8747b04ff-7a0a7803cce5.txt
+    old: 7a0a7803cce5d0046d711e352027a0f90f205e17
+    new: 3fe92be0afd8a96168b98c63d193065f1f9c6176
+    log: revlist-7a0a7803cce5-3fe92be0afd8.txt
+  - ref: refs/heads/tip/urgent
+    old: ae0d4d7e578b371e749d42f6e1fe0243e638381b
+    new: fb0953f6d1296635dcd852a57831b240cba217d6
+    log: revlist-ae0d4d7e578b-fb0953f6d129.txt
 
---===============0098540359126250891==
+--===============0035000877989023558==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de8747b04ff-7a0a7803cce5.txt
+Content-Disposition: attachment; filename=revlist-7a0a7803cce5-3fe92be0afd8.txt
+
+6b2ed63fdde2d9af6d975388f16f88b81c0983c3 Merge branch into tip/master: 'locking/urgent'
+012e3623755c8897e05b209f5dbc319c131ae8a4 Merge branch into tip/master: 'perf/urgent'
+204e3257046c3a9465afd9f132d9778782af7cf6 Merge branch into tip/master: 'sched/urgent'
+fb0953f6d1296635dcd852a57831b240cba217d6 Merge branch into tip/master: 'x86/mm'
+45747c67d4f4f913f504712d72b168be535e7759 Merge branch into tip/master: 'core/msr'
+18195cea7e419d4dff8fafa495c9b6c5671f433c Merge branch into tip/master: 'core/rseq'
+19141b9c63745d50e2698ba90951c8f012bfb198 Merge branch into tip/master: 'irq/core'
+9414f38157e03f69e635b0568fe99ca989e5625f Merge branch into tip/master: 'irq/drivers'
+7fc0872724dfe73cc050c0a3ad3ddefcbbdd3f5a Merge branch into tip/master: 'irq/msi'
+f0f1ba88a23e64c9c5f60e7fde3ecb54357f6e78 Merge branch into tip/master: 'locking/core'
+c2f0d88a10d69b360ce618dcbde297cf6e39564c Merge branch into tip/master: 'perf/core'
+0a0690585754666765d5ed2354fd5370a176038b Merge branch into tip/master: 'sched/core'
+ac759186f3b5982aaa9c6d362b937fa08b2f343f Merge branch into tip/master: 'timers/core'
+d05f125f61ad95319bebe42a9a0018c7d841d4a4 Merge branch into tip/master: 'timers/nohz'
+24e3fd045eda792ea1166fc2d35377449869830c Merge branch into tip/master: 'timers/vdso'
+0e4590464ee0c21f27c9aa678ce866d058ae091f Merge branch into tip/master: 'x86/apic'
+ce2b1e8d416cc1bc54d2ac26329680d40db9c6a8 Merge branch into tip/master: 'x86/cache'
+b927b0f290acbaeb120303abe7ad944a76bac98c Merge branch into tip/master: 'x86/cleanups'
+7ba99ec1222847947880a73a5359ce0ce9dd78b3 Merge branch into tip/master: 'x86/misc'
+3fe92be0afd8a96168b98c63d193065f1f9c6176 Merge branch into tip/master: 'x86/sev'
+
+--===============0035000877989023558==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ae0d4d7e578b-fb0953f6d129.txt
 
 d1eb0afa9140c740ff29985f9b89b1926b1b502d Input: xpad - add GameSir G7 Pro support
 807b09be9c8f234ce758bcf43101f34e0a036b83 riscv: Fix SR_SUM leakage across context switches
@@ -92,6 +123,9 @@ fdcd45bc9cfee488b92efc4b7f43d6865ec82770 Merge tag 'spi-fix-v7.4-rc3' of git://g
 1fadec005439186c67ca7be35c4e90727bc38fae Merge tag 'edac_urgent_for_v7.4_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 2681617eb9317444247380298564f58142fc4ff8 Merge tag 'riscv-for-linus-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 6e4122f0242a3262512ee3e6f2e7e6de0bd5792b Merge tag 'perf-tools-fixes-for-v7.4-1-2026-11-22' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-7a0a7803cce5d0046d711e352027a0f90f205e17 Merge branch 'linus'
+6b2ed63fdde2d9af6d975388f16f88b81c0983c3 Merge branch into tip/master: 'locking/urgent'
+012e3623755c8897e05b209f5dbc319c131ae8a4 Merge branch into tip/master: 'perf/urgent'
+204e3257046c3a9465afd9f132d9778782af7cf6 Merge branch into tip/master: 'sched/urgent'
+fb0953f6d1296635dcd852a57831b240cba217d6 Merge branch into tip/master: 'x86/mm'
 
---===============0098540359126250891==--
+--===============0035000877989023558==--
