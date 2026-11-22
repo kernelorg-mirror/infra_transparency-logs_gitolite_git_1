@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7230432711446766907=="
+Content-Type: multipart/mixed; boundary="===============5606446603505210074=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 22 Nov 2026 22:18:39 -0000
-Message-Id: <179538591945.3530378.9901701255419830036@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 22 Nov 2026 22:20:30 -0000
+Message-Id: <179538603030.3532973.12229963775929357932@gitolite.kernel.org>
 
---===============7230432711446766907==
+--===============5606446603505210074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
   - ref: refs/heads/master
     old: 2dc60bd9975fc8666a13d58410499e06e6799ba9
     new: 6e4122f0242a3262512ee3e6f2e7e6de0bd5792b
     log: revlist-2dc60bd9975f-6e4122f0242a.txt
 
---===============7230432711446766907==
+--===============5606446603505210074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ fdcd45bc9cfee488b92efc4b7f43d6865ec82770 Merge tag 'spi-fix-v7.4-rc3' of git://g
 2681617eb9317444247380298564f58142fc4ff8 Merge tag 'riscv-for-linus-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 6e4122f0242a3262512ee3e6f2e7e6de0bd5792b Merge tag 'perf-tools-fixes-for-v7.4-1-2026-11-22' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 
---===============7230432711446766907==--
+--===============5606446603505210074==--
