@@ -1,67 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============4448707959340377243=="
+Content-Type: multipart/mixed; boundary="===============8402086087675708120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sun, 22 Nov 2026 11:19:51 -0000
-Message-Id: <179534639107.3051849.15560130654937509113@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 22 Nov 2026 11:48:43 -0000
+Message-Id: <179534812397.3072246.16211295307743376963@gitolite.kernel.org>
 
---===============4448707959340377243==
+--===============8402086087675708120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/sasha-cvss-important
-    old: 4c9817885148f008c19175cb56c2b577ab55c656
-    new: 4472b9cee37dd87059a0626cb8a7453b3ff88d5a
-    log: |
-         8e54e88b2a09140530c1d740a6ac357f5922c657 CVE-2026-99577: Add .vulnerable file
-         e714b590d5b94b6c5dea65f3634165ebc8131585 CVE-2026-99578: Add .vulnerable file
-         058fe9e58013753aa171fdaec28f1ede5c5b572e CVE-2026-99591: Add .vulnerable file
-         224ca4d2df92bec9ac8aa7d43847feb48275163b CVE-2026-99597: Add .vulnerable file
-         99c25297b9664e3ffa0a979041d82846068942da CVE-2026-99628: Add .vulnerable file
-         467041f1f896502d9af70407ddb8745d8ba291b2 CVE-2026-99629: Add .vulnerable file
-         b650dbdac3acb6086915e9acb9360653395a710b CVE-2026-99633: Add .vulnerable file
-         45eef2efa88c8dd0a878c6f336d771102a9cb629 CVE-2026-99710: Add .vulnerable file
-         74837062d09e570bd8ef52701cf71e1a66e3bab6 CVE-2026-99798: Add .vulnerable file
-         fb05ebf406c56ba337456922e80775585fc14634 updates based on new .vulnerable file entries
-         fd95253f1d5d9c00a947f9f3f250f8f22e35a78e Merge branch 'sasha-cvss-important'
-         4472b9cee37dd87059a0626cb8a7453b3ff88d5a updates based on new cvss scores
-         
+  - ref: refs/heads/master
+    old: 69d897be96be6e1fd77bf5cafc5fb6d6209da5e3
+    new: aaa843bd3ee6dde28c0f5541064c0132365c559c
+    log: revlist-69d897be96be-aaa843bd3ee6.txt
 
---===============4448707959340377243==
+--===============8402086087675708120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-69d897be96be-aaa843bd3ee6.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795346390 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1795346390-13ac4b484bc6ddef24d8c3326ad2abee1afda438
+909fffb1ec56c2a785eecdc74ef2b01f113c102a x86/cpu: Fix coding style violation
+0230ec9c637548d1bb7d32840976391490337f4a x86/msr: Remove unused wrmsr_safe()
+21259460744fdd12b332625d6785a402ba417b73 x86/msr: Remove unused rdmsr_safe()
+b9e0037a1c431a242134e773895748f3dc75f313 ata: pata_cs553X: Stop using 32-bit MSR interfaces
+87c2d91b95fcd04632967eaa856eaa21b4d401bd agp/nvidia: Stop using 32-bit MSR interfaces
+cc1684291c48ab928dbda9c1dfc7001c0f714cbe fbdev/geode: Stop using 32-bit MSR interfaces
+c0c4b2884a580ce958f39c87a5a5075996a823dc hw_random/via-rng: Stop using 32-bit MSR interfaces
+d0ec5900f17b157428674bc0bd5d7ae9a10444e2 drivers/gpio: Stop using 32-bit MSR interfaces
+c9398744a0a5e9a7153fac8f78f2c85ff5e4c15c x86/msr: Remove unused wrmsr()
+c54c6715f7673a5c2fee371d2755ff355b7d403a x86/msr: Remove unused rdmsr()
+e7f9f17e00130f534cf0bf91c6fa457fb2e9cdf7 treewide: Convert rdmsrq() from a macro to an inline function
+a8e855caa7dfb5f1a52baea035f7a989f94b0cc7 x86/msr: Simplify some rdmsrq() use cases
+a61dd9f7ae8819baa556f07f27173a148d7934e8 x86/msr: Switch users of native_wrmsr() to native_wrmsrq()
+3bec3a9ed13764fa4d212abfb776e1bcc8be8d1b x86/msr: Remove native_wrmsr()
+aa26c968c97a6161c4af87fab7c29fa5bd9a4c6c x86/msr: Switch users of native_rdmsr() to native_rdmsrq()
+0e8f7f2f842b3f3cd6f65f081a37de1a0ff7f710 x86/msr: Remove native_rdmsr()
+26a8aea295613ed60e5999fa6017c62097a51ed5 x86/msr: Switch native_wrmsrq() from macro to inline function
+aaa843bd3ee6dde28c0f5541064c0132365c559c Merge branch into tip/master: 'core/msr'
 
-4c9817885148f008c19175cb56c2b577ab55c656 4472b9cee37dd87059a0626cb8a7453b3ff88d5a refs/heads/sasha-cvss-important
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsCz9YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/jIP/1pDvHxnT1NK7//9kgA8
-hNmuSKerXuWbbGnSCnopDEHZCcw9R5vMXTcMNtQY+vu2LFAWiCBaHG24yWo0TTC3
-120HxOqLxyGTeoFGGtL2uJ+Jsn47KPPuiMZR6tSe3wT0aOIDDqtnPWaPr+puSReG
-qrfzRHoagnc3UwxfxlCbeJ3qzusb2MJyAN5Ikk8dH8pmrgYnLtbSXqP6qfsMG/tH
-TXlxjwghagMnN8iS9OpqIG4boc2FTFCfentgog3uDutOPPzDKURE+3bY+r8LmX3w
-XFh6xTxrtVzQhT4LY1HvvRDiu7hhVLHjFkrS2qf3beK4mifOQUMIf2LneVvoJNIY
-UZlixHZBwCf4k8QoAnwqK/leQ6+cy/skp3S/BSJA4pBOqxLqSjEqgqb46+GA32PS
-BtSLpG5/7gJA64uQnRtIC2N7JFP+qoQQ3aFS4ULrd/GQu9q8QBCx+/fJFtzF6P95
-x1dJCOl9H4JiUHAvr/5lC6JnhN/zbQqHfeVRoZZNRtsyNOQ2u53pHc7xxDNj+p2g
-O5t+BlXm/mPxmgxux0ExK/SFxyxzRdF/sNn4I9lJaLMkTcG2CmVF0M+rg5GGEg8F
-5NkMIBxJ3AAoQ/CJHLJ44JAvnNPAiYSavQD68mVnjLa+PhNZ0TR9bwc760x0rZ97
-oJgVgb8OzHAkmQrqu3tJkVz4
-=8KC/
------END PGP SIGNATURE-----
-
---===============4448707959340377243==--
+--===============8402086087675708120==--
