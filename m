@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Sun, 22 Nov 2026 20:01:01 -0000
-Message-Id: <179537766192.3434946.12056797039433881664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 22 Nov 2026 20:04:01 -0000
+Message-Id: <179537784110.3435910.9023523662263057938@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/next
-    old: a774168fd791d515a6618e5aa10d215f768eecb1
-    new: ae4015ebbdf6cf1d873a4b84dd18b3affb60cc6e
+  - ref: refs/heads/testing
+    old: cea9886589f19f74117b7ab59e8d96d66c164104
+    new: 2e4e43c5f106cc388183e1123c40764b2e6825aa
     log: |
-         29a8e4d081f19458883d2dde90d387334f4f86ef _damon_sysfs: strip filter_report_type read output
-         892875fe66df930b248cec07e999f154ebbc63fa _damon: implement ReportProducer class
-         1a66128cffdde383f1aeb0205d072cf04fadbfca release_note: update for the next release
-         0f92c3c20ba1645affec122e02ba418963f83143 _damon: fix mutable intervals_goal default param for DamonIntervals
-         9f124c1b9568406512820f653154b69dabebee44 _damon_args: avoid unnecessary intervals reset from 'damo tune'
-         ae4015ebbdf6cf1d873a4b84dd18b3affb60cc6e release_note: update for the next release
+         0106b4d9c12feaf4763a5305dae1e2dcccf956f8 iio: adc: max1027: complete the EOC wait when using an external trigger
+         4b447c5b3632501eff81e3fe6c138772e7df164a iio: core: Export iio_find_channel_from_si() helper
+         b914c1db7df2e236b1fcc7e2647fc65eaea8ccd8 iio: light: ltr501: Switch to read_avail() op from manual attribute registration
+         a6695a017779082a8549feefcddedcd3eede1890 iio: light: ltr501: Switch to modern match mechanism
+         6baf4513e5483a59703c259b000ab320764ab9d3 dt-bindings: iio: light: ltr501: Document LTR659 proximity sensor
+         2e4e43c5f106cc388183e1123c40764b2e6825aa iio: light: ltr501: Add support for the LTR-659PS-01 proximity sensor
          
