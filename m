@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4607009472545208256=="
+Content-Type: multipart/mixed; boundary="===============7185251225447909465=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 22 Nov 2026 15:18:55 -0000
-Message-Id: <179536073530.3225226.11782891849637656373@gitolite.kernel.org>
+Date: Sun, 22 Nov 2026 15:19:17 -0000
+Message-Id: <179536075764.3225608.12822599115556281241@gitolite.kernel.org>
 
---===============4607009472545208256==
+--===============7185251225447909465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,36 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 377f6b4d97992705192350c894f624c07563bcfc
-    new: 0fb34e937227038c1ba377d3f601287cc7367263
-    log: revlist-377f6b4d9799-0fb34e937227.txt
+    old: 0fb34e937227038c1ba377d3f601287cc7367263
+    new: 6de8747b04ff8ab5e1dd465acd1d5d4733332f1d
+    log: revlist-0fb34e937227-6de8747b04ff.txt
 
---===============4607009472545208256==
+--===============7185251225447909465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-377f6b4d9799-0fb34e937227.txt
+Content-Disposition: attachment; filename=revlist-0fb34e937227-6de8747b04ff.txt
 
-389327330cfe23adce88b55ee78c0d21fed9957e bit_spinlock: Fix the __bitlock() macro definition
-f7c70c05bba097d99dd06346b037f01c5ab44fbf cleanup: Disable context analysis for __free() helpers
-8fec49960edd6adc9e579c8eb127873a74f76bb7 srcu: Make the srcu_dereference_check() reader lock check conditional
-5e537dc0e32f467d733b4d36186679bd4080cd98 Merge branch into tip/master: 'locking/urgent'
-5dbc21b5caa5b40f4af45dbb342e5db1c6f25f5c perf/core: Cancel hrtimer on perf_pmu_unregister()
-b7963d9969ef37cdf18a700e7eddb1398135572b perf/core: Fix perf_pmu_register() sysfs race
-4d1f5f5dc78a88efc2a009e80c4bcc47ec558927 perf/core: Fix UAF from remove_on_exec with perf_event_open()
-a3c976da55a8da3b5759bcca94832f757763059d perf/core: Fix perf_sample_data reuse across software events
-91a18ff192c68329fcfdd4ed0a6d37dcac45ef50 perf/core: Don't let BPF programs read an uninitialized sample address
-ceb6ba698b36f4d956365f051524029a7d5e51d5 Merge branch into tip/master: 'perf/urgent'
-5b65edb7f582803cda84552990779610ca22581c sched/deadline: Clear stale rq->dl_server when core-sched replaces a pick
-051820698aae32c571a66720327f793e2077c0fa sched/deadline: Don't charge core-sched forced idle to the DL servers
-70f43730a814fcf4198960dcff5fadb2fc8b795d selftests/sched: Add a core-sched forced-idle DL server test
-bf437249e07b84fcee0fe192cc8591592d336355 sched/core: Clear a stale rq->core_pick after dequeue
-cf2126c9b989d11d42e95e5f5c7fdcfe43914eae sched/core: Don't take the idle fast path while the core is forced idle
-caf089159ed2852e935f4481e6e20ab9fddb7609 sched/core: Fix a TOCTOU bug in sched_non_preferred_cpu_push_stop()
-0fb34e937227038c1ba377d3f601287cc7367263 Merge branch into tip/master: 'sched/urgent'
+4f9899b1ba497b4fbf158881dd33df5091ea9f2b Merge branch into tip/master: 'locking/urgent'
+3c63a80d3d588a43d06ab31a510d08fcb3f1fd8f Merge branch into tip/master: 'perf/urgent'
+3077a55ab68b6e0a29d6f0d2d00376b7d9c95935 Merge branch into tip/master: 'sched/urgent'
+d96bfaf18d92fb4275eb507540e10420024d2049 Merge branch into tip/master: 'x86/urgent'
+ae0d4d7e578b371e749d42f6e1fe0243e638381b Merge branch into tip/master: 'x86/mm'
+6ba43bd5513db4032cd27779ddc241263284645d Merge branch into tip/master: 'core/msr'
+4768b307a945b1ff7221b934612101f59942bc9b Merge branch into tip/master: 'core/rseq'
+937d8b9be48a8d67f8c5bce60a40bd0c20712587 Merge branch into tip/master: 'irq/core'
+6287816ff1f7cf2647c7aa44e626cea57b9a0b79 Merge branch into tip/master: 'irq/drivers'
+207d6094d4d2fd43c0ec59c93d09dc2d448cc3ce Merge branch into tip/master: 'irq/msi'
+5d235764cb5ec584b90efe27e169d7d7ccf38645 Merge branch into tip/master: 'locking/core'
+9849add2e01fc01007a94a39c2b52d393cd95d5f Merge branch into tip/master: 'perf/core'
+64d4d0fec0877e4c9270cc2e257b42825459580b Merge branch into tip/master: 'sched/core'
+4b96dc58248766ba319c48b763589d7da4924039 Merge branch into tip/master: 'timers/core'
+3b8616ff8acf8cae5d6223d31e1c95612901ce80 Merge branch into tip/master: 'timers/nohz'
+cb6821c5eed23cb7acce697b9f047b34eb80db7b Merge branch into tip/master: 'timers/vdso'
+6b6bcb919fb0266f0e44b6c5233fb60bf9c3f505 Merge branch into tip/master: 'x86/apic'
+7e0482fedfa953a1ef588d37ea90aff8f70c1906 Merge branch into tip/master: 'x86/cache'
+a7b9a4b83d6348a17bd4c31b7cb9d2b7b56bbb3f Merge branch into tip/master: 'x86/cleanups'
+26d085e6e3e399f6e916bb24b70f824ed360f0a3 Merge branch into tip/master: 'x86/misc'
+6de8747b04ff8ab5e1dd465acd1d5d4733332f1d Merge branch into tip/master: 'x86/sev'
 
---===============4607009472545208256==--
+--===============7185251225447909465==--
