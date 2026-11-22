@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3267515338176258106=="
+Content-Type: multipart/mixed; boundary="===============7756653722922309338=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sun, 22 Nov 2026 01:40:04 -0000
-Message-Id: <179531160404.2646296.4371990663667794876@gitolite.kernel.org>
+Date: Sun, 22 Nov 2026 01:40:06 -0000
+Message-Id: <179531160685.2646802.18154475159116510545@gitolite.kernel.org>
 
---===============3267515338176258106==
+--===============7756653722922309338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS
-    old: 4a256d4e892ac15b601019b8c50a7a87a69e24d7
-    new: 3526c580537e499f2a62e7ec39c2fb62e060f89a
-    log: revlist-4a256d4e892a-3526c580537e.txt
+  - ref: refs/heads/kernel-7.3/nfs-client-transport-percpu-with-nconnect
+    old: 02c9d7fdaf594c7c488f857f5f86e7f2430e0a4d
+    new: cb815162e27be900278f85c9ca144a70825e11ec
+    log: revlist-02c9d7fdaf59-cb815162e27b.txt
 
---===============3267515338176258106==
+--===============7756653722922309338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a256d4e892a-3526c580537e.txt
+Content-Disposition: attachment; filename=revlist-02c9d7fdaf59-cb815162e27b.txt
 
 19e009654cb2941471ab01a382560d940a66babd NFSD_TCP_WRITE_ZEROCOPY: round 175, XFS's inode locks on a READ
 c74a48a682e0d662d6b6a64c72f0490ae6180dbe NFSD_TCP_WRITE_ZEROCOPY: round 175, swapfiles read IOMAP_F_DIRTY too
@@ -112,5 +112,10 @@ ab63bef38b3e706ae65dc2cbe284c71669b85395 NFSD_TCP_WRITE_ZEROCOPY: round 175, swa
 ba956e8f5989e002290e32c622fa69de07ce5397 NFSD_TCP_WRITE_ZEROCOPY: round 175, svc_rtc_kunit passes 45 of 46
 21ef794d1d6dd364611d31466c16f79b85063e1c SUNRPC: leave the partial header wait out of rtc_real_send_full_resumed
 3526c580537e499f2a62e7ec39c2fb62e060f89a NFSD_TCP_WRITE_ZEROCOPY: round 175, rerun svc_rtc_kunit, then passes
+589c5e5addc40a46f4ed9878db6c40adbcb685e5 SUNRPC: give each CPU its own transport under nconnect
+8bd871fcb8ea8b583c8040ce4a58d02f788ad52e SUNRPC: home nconnect transports on their NIC's NUMA node
+94e73f51d1a1b315a4239df55d893fd745a1646b xprtrdma: interrupt a transport's completions on its home core
+14c4982a77a1ae0eb7e21e139c0f4b8e253df80e SUNRPC: home each switch's transports on distinct cores
+cb815162e27be900278f85c9ca144a70825e11ec SUNRPC: Keep nconnect's balanced round-robin unless nconnect_percpu=Y
 
---===============3267515338176258106==--
+--===============7756653722922309338==--
