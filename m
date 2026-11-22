@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4654930322834034745=="
+Content-Type: multipart/mixed; boundary="===============7982010914938928976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 22 Nov 2026 10:29:22 -0000
-Message-Id: <179534336252.3015166.10664581149259624190@gitolite.kernel.org>
+Date: Sun, 22 Nov 2026 10:29:47 -0000
+Message-Id: <179534338773.3015353.4465447108127555765@gitolite.kernel.org>
 
---===============4654930322834034745==
+--===============7982010914938928976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,44 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 5f7eecbd12c26c2ebd31568205a1673a7a4bd7d4
-    new: 5e01aa4e281f6a0483e04bbc185c6ce66b44e348
-    log: revlist-5f7eecbd12c2-5e01aa4e281f.txt
+    old: 5e01aa4e281f6a0483e04bbc185c6ce66b44e348
+    new: 69d897be96be6e1fd77bf5cafc5fb6d6209da5e3
+    log: revlist-5e01aa4e281f-69d897be96be.txt
+  - ref: refs/heads/tip/urgent
+    old: c1e238a25aeca759e5d424fb4072b944158e8bff
+    new: 1f78217d7ea3e095d963550ce8281d56593508e6
+    log: revlist-c1e238a25aec-1f78217d7ea3.txt
 
---===============4654930322834034745==
+--===============7982010914938928976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5f7eecbd12c2-5e01aa4e281f.txt
+Content-Disposition: attachment; filename=revlist-5e01aa4e281f-69d897be96be.txt
+
+9583b53effe93feb95da1deb787e5a7417c69abc Merge branch into tip/master: 'sched/urgent'
+a5056d94681f176f03c5c5849e543d0a65856071 Merge branch into tip/master: 'x86/urgent'
+1f78217d7ea3e095d963550ce8281d56593508e6 Merge branch into tip/master: 'x86/mm'
+d08ba230e80252c79e790b740cb9be1050a43ab8 Merge branch into tip/master: 'core/rseq'
+88806a9ec22afcb3595dd78397d18937b8d471cd Merge branch into tip/master: 'irq/core'
+da3d9fae20aced4f02efd67b382ff046e339e7a5 Merge branch into tip/master: 'irq/drivers'
+80f28137ee2fe1dac0e9b9eb24c4ac9978e0ef56 Merge branch into tip/master: 'irq/msi'
+4edfcd486efa47f43b4d7ea980417f9ce721bd17 Merge branch into tip/master: 'locking/core'
+2ba1b884275448a41d0bd657a6d6245d5995fb66 Merge branch into tip/master: 'perf/core'
+380e77d94405b06139062f0eda7362d69b24837b Merge branch into tip/master: 'sched/core'
+6aa5ba10f80f34b469433b0ce1bddc0780b88ce4 Merge branch into tip/master: 'timers/core'
+97bd0d75765acf84faea3348e9e3131b59a409c5 Merge branch into tip/master: 'timers/nohz'
+783b23de485b75334cffffc6c2ebf98e3bb4429f Merge branch into tip/master: 'timers/vdso'
+d5cd2b104e32b189133604c6bf66207b237411c4 Merge branch into tip/master: 'x86/apic'
+c33175ac8564c18c533c69977202f22a4aa66228 Merge branch into tip/master: 'x86/cache'
+e7966baa90cb16d9722a3e60ef7a44a2f0b7bcc8 Merge branch into tip/master: 'x86/cleanups'
+8202be01b4d431d725d3f5639f053bc1d812b21e Merge branch into tip/master: 'x86/misc'
+69d897be96be6e1fd77bf5cafc5fb6d6209da5e3 Merge branch into tip/master: 'x86/sev'
+
+--===============7982010914938928976==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c1e238a25aec-1f78217d7ea3.txt
 
 f9bfe5af596a5ef6fc745c30bda41f9a109ed16d xfs: keep successful near rt allocations
 369726f6be714852f4e73882a351938bd3f8c4cd xfs: always call xfs_update_stable_writes in xfs_ioctl_setattr_xflags
@@ -137,6 +166,7 @@ abf7185109d3986c1f945641d2fb20e44527f7c6 ring-buffer: Do not check si_mem_availa
 56ce4ed6316cae9536ea891d6686b92f1d930c00 tracing: Ignore .function on the function trace event
 0e3d5c0408262aef599df888e9bde88d0337c1dc KVM: PPC: Book3S HV: Use u8 to store guest's interrupt priorities
 bd6d2f87c2239d10bf5f37ab52b3968565528417 KVM: PPC: Fix TOCTOU kernel stack disclosure via kvm_run->mmio.len
+ae3398a7da224e1cb14a04ce8e9da66fc2948121 x86/Kconfig: Enable ROX also when STRICT_KERNEL_RWX is present
 f1cc4be7687a058ecbe2b6178034a70b76e07e92 Merge tag 'fbdev-for-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 7b7fe306dd86b5342d3be8a3f1cbf3bb1ebf280f Merge tag 'powerpc-7.4-3' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 e572847ee4d074c9947e8367d150b81775a7e903 Merge tag 'trace-v7.4-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
@@ -144,6 +174,8 @@ e572847ee4d074c9947e8367d150b81775a7e903 Merge tag 'trace-v7.4-rc3' of git://git
 f802b6558eb81bd5888d761a0cdc8afe5fd8c941 Merge tag 'xfs-fixes-7.4-rc4' of git://git.kernel.org:/pub/scm/fs/xfs/xfs-linux
 eef2bc5a82c25d25c3082f5d86d97a300caeb678 Merge tag 'landlock-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 4843f6873f7c4835e62f2c73ba0fd538e57a2f22 Merge tag 'sysctl-7.04-fixes-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
-5e01aa4e281f6a0483e04bbc185c6ce66b44e348 Merge branch 'linus'
+9583b53effe93feb95da1deb787e5a7417c69abc Merge branch into tip/master: 'sched/urgent'
+a5056d94681f176f03c5c5849e543d0a65856071 Merge branch into tip/master: 'x86/urgent'
+1f78217d7ea3e095d963550ce8281d56593508e6 Merge branch into tip/master: 'x86/mm'
 
---===============4654930322834034745==--
+--===============7982010914938928976==--
