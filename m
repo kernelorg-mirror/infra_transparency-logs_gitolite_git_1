@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Sun, 22 Nov 2026 09:23:20 -0000
-Message-Id: <179533940052.2967758.3195839375381300874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 22 Nov 2026 09:25:57 -0000
+Message-Id: <179533955773.2970831.13504015726238900188@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/b4/genexis-xg6846b-bcmbca-xrdp-reset
-    old: ff416d151a53c09aaab641b2a72c087f123ec61e
-    new: 74de9282fbbd6b33e62651b9be9b88a9c15dd170
+  - ref: refs/heads/wip/leon-for-next
+    old: 7404c82cbf1246e0e84e2ec21834d23c26f9a8ed
+    new: a6b2b0f059b74789b4394eea88232ff0e75efe01
     log: |
-         83cbd508158eed6c6fe6e3bbe04b8ce2af04ac27 BCMBCA PMB power, clock, reset and hardware monitoring support
-         43065ff8e46987953ec48efe9bc91b2c7224f6b2 dt-bindings: mfd: Describe the BCM6846 PMC complex
-         293a4c8256122637ebe42563800f6843563a0172 mfd: bcmbca-pmb: Add a shared BCMBCA PMC3 PMB transport
-         77820dd554cefb19d17147db2d145126288f8e99 pmdomain: bcm: Add BCMBCA PMB power domains
-         7711d52b636e6d59ffc2734fb6d1cf2528cd80bc reset: Add BCMBCA block resets through the PMB
-         e81b01068703af5e86f9eb49f9f1767a2416fd11 clk: bcm: Add BCMBCA PMB clocks
-         74de9282fbbd6b33e62651b9be9b88a9c15dd170 hwmon: Add Broadcom PMB PVTMON monitoring
+         db805449797101d4b68580c48f3b8b3cb52b3b63 bnge: Pass BAR1 doorbell mapping to RoCE auxiliary device
+         ac1ae795c55511e6b733ba0420671ecec64348da bnge: Update HSI
+         d60317882851207204dc9a9f0db4e6760fdb26c3 bnge: Reserve ring resources for upcoming RoCE MPC support
+         a6b2b0f059b74789b4394eea88232ff0e75efe01 Merge remote-tracking branch 'bnge/bnge-roce-v3' into wip/leon-for-next
          
