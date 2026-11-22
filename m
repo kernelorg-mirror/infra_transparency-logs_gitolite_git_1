@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3908915555541007440=="
+Content-Type: multipart/mixed; boundary="===============3511596454371045728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Sun, 22 Nov 2026 21:00:23 -0000
-Message-Id: <179538122385.3476199.338898867280993729@gitolite.kernel.org>
+Date: Sun, 22 Nov 2026 21:00:57 -0000
+Message-Id: <179538125775.3476879.5500477211909132318@gitolite.kernel.org>
 
---===============3908915555541007440==
+--===============3511596454371045728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ojeda/linux
 user: ojeda
 changes:
-  - ref: refs/heads/rust-fixes
+  - ref: refs/heads/rust-next
     old: aebb7274476403040d582c61478df8f4a7bf9cd3
     new: 2dc60bd9975fc8666a13d58410499e06e6799ba9
     log: revlist-aebb72744764-2dc60bd9975f.txt
 
---===============3908915555541007440==
+--===============3511596454371045728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -979,4 +979,4 @@ abbf2945b788939e4df50d6f0c750409c1959960 Merge tag 'input-for-v7.4-rc3' of git:/
 69712157c9f40ac806fa0448ac56475eae40957f Merge tag 'parisc-for-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 2dc60bd9975fc8666a13d58410499e06e6799ba9 Merge tag 'rust-fixes-7.4-4' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 
---===============3908915555541007440==--
+--===============3511596454371045728==--
