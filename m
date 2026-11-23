@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 23 Nov 2026 18:42:35 -0000
-Message-Id: <179545935521.685767.10228615718410108179@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 23 Nov 2026 18:43:08 -0000
+Message-Id: <179545938828.686158.9111811824122851761@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: fb9f4da814c4dc70f7b228da3f90394c8dbc423d
-    new: d72e5654f04ae7bb95bc473f7444b45997a7359f
+  - ref: refs/heads/spi-7.5
+    old: ea07700fb8ef1cc7c80bd3346779201184c3cc17
+    new: 24e635993ca54463dd66ad9ac55ae49454d3cdaf
     log: |
-         9546d8aac9776142435485fde934ea07c8789314 foo
-         1534a9dd6487598b3e22a3710be166464ec0a879 foo
-         d72e5654f04ae7bb95bc473f7444b45997a7359f foo
+         24e635993ca54463dd66ad9ac55ae49454d3cdaf spi: atmel: poll short PIO transfers
          
