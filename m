@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 23 Nov 2026 14:52:33 -0000
-Message-Id: <179544555389.496607.547973554493786318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Mon, 23 Nov 2026 14:54:03 -0000
+Message-Id: <179544564368.497273.9897085892854924163@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/main
-    old: 7b0c5f0c757cb61e28dc4128633877aaa8f6f9bd
-    new: a233b32f1a124a0b878071aa75f3f85a6f1bccde
+  - ref: refs/heads/urgent
+    old: 2a4dac4c3fa2c4acb94956b3fe94106202e500d9
+    new: 5e268a0dcd6d70f9e407df32cf323088e30923b3
     log: |
-         a233b32f1a124a0b878071aa75f3f85a6f1bccde net: release netpoll dev_lock when NETDEV_PRE_UP vetoes an open
+         5e268a0dcd6d70f9e407df32cf323088e30923b3 efi/zboot: arm64: Add missing barrier after cache maintenance
          
