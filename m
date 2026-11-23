@@ -1,24 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Mon, 23 Nov 2026 18:16:05 -0000
-Message-Id: <179545776535.666216.409948193626833065@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Mon, 23 Nov 2026 18:19:14 -0000
+Message-Id: <179545795452.667346.6557118787435504069@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: masneyb
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/clk-next
-    old: fd21b9ae59febb9b0d2dfb096a02f316321e5c8b
-    new: 134d4f522b5d7ece3d9fd1c20e07d099b27c3679
+  - ref: refs/heads/master
+    old: fed36ea16e3e9929a07c7dc285916216dffac7fa
+    new: 53812f779147dc371f6022ae51f2cefbd9f11a77
     log: |
-         485c1514fb9718cdf9de6274423b3f96405c1294 clk: divider: Fix the divisor for rates above 4.29 GHz
-         9964715d472903d8fcb42274de6062d712fad60f clk: divider: Fix round-closest for rates above the parent rate
-         e69c78b9782b97262a5943d301c719d4e00f66b4 clk: divider: Don't truncate divisors to int
-         7e4d9e345c64978c2a0d85b60f0715ea62bf3e64 clk: divider: test: Add tests for rates above 4.29 GHz
-         69e92a94ef271d1abd75b595164dd4ecfb88c5e8 clk: ux500: Power the AB8500 ULP PLL from VintCore12
-         134d4f522b5d7ece3d9fd1c20e07d099b27c3679 Merge branch 'clk-pile' into clk-next
+         ec27b5434d9c0eb6e95515adfdd415c4db905cb8 Input: max7359_keypad - drop platform data support
+         8a81986962f5c66c5f36ca5525c121ab41dc942a Input: max7359_keypad - fix coding style issues
+         add89933a86322fe38132cf9610b7201c3d83d26 Input: regulator-haptic - drop platform data support
+         8e19a7e26c57163522001540e9059cc9bf9831ab Input: regulator-haptic - fix coding style issues
+         53db6cbc9743195d34553b587bf825a8485194f4 Input: pm8941-pwrkey - report wakeup events
+         53812f779147dc371f6022ae51f2cefbd9f11a77 Input: stmfts - restore touch after system resume with the device open
+         
+  - ref: refs/heads/next
+    old: fed36ea16e3e9929a07c7dc285916216dffac7fa
+    new: 53812f779147dc371f6022ae51f2cefbd9f11a77
+    log: |
+         ec27b5434d9c0eb6e95515adfdd415c4db905cb8 Input: max7359_keypad - drop platform data support
+         8a81986962f5c66c5f36ca5525c121ab41dc942a Input: max7359_keypad - fix coding style issues
+         add89933a86322fe38132cf9610b7201c3d83d26 Input: regulator-haptic - drop platform data support
+         8e19a7e26c57163522001540e9059cc9bf9831ab Input: regulator-haptic - fix coding style issues
+         53db6cbc9743195d34553b587bf825a8485194f4 Input: pm8941-pwrkey - report wakeup events
+         53812f779147dc371f6022ae51f2cefbd9f11a77 Input: stmfts - restore touch after system resume with the device open
          
