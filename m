@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
-Date: Mon, 23 Nov 2026 23:09:14 -0000
-Message-Id: <179547535440.885244.1361208560736584227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/willemb/net-next
+Date: Mon, 23 Nov 2026 23:09:15 -0000
+Message-Id: <179547535530.885352.2289625900164567938@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/smb
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/willemb/net-next
+user: willemb
 changes:
-  - ref: refs/heads/ksmbd-for-next
-    old: 89d5e8fdd5a74a318d18b7267c4ec5d70b2285f1
-    new: 7ad8d77b6a3590b1fb2922664f66c318c0bb9e48
+  - ref: refs/heads/main
+    old: c388048ade7e6f2c96eeff7461e4a13a0bdad23d
+    new: 57f165ff2f30491bc3511d24a52ca516751a268b
     log: |
-         3a0694f1591819ceff968252df3ca40dcc181dda ksmbd: validate startup configuration strings
-         d8e5f88af84628e9cafb92afc0b855ebe2873439 ksmbd: bound NTLMSSP session setup challenge blobs
-         ccf41c74dcd3f7f7163c8746f0c42d7894987522 ksmbd: reject a security descriptor with OffsetDacl but no DACL_PRESENT
-         7ad8d77b6a3590b1fb2922664f66c318c0bb9e48 ksmbd: return only the control flags of the parts in a query reply
+         5a3f240e32b21a454ebed922b38cc4b9e0d387f9 mctp: i3c: Fix potential thread leak on registration failure
+         60cf8fade56666e8868a1435971e01336e217774 net: txgbe: fix stack size for PHY interface mask
+         5a1f6793361524314b442371dc05ce3cd4f2f838 net: sparx5: check DT port reg against chip port count
+         57f165ff2f30491bc3511d24a52ca516751a268b net: openvswitch: don't WARN on a non-IP packet that needs fragmenting
          
