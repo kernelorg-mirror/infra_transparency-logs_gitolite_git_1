@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 23 Nov 2026 12:02:42 -0000
-Message-Id: <179543536206.366087.16339052394842770447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Mon, 23 Nov 2026 12:11:18 -0000
+Message-Id: <179543587810.372901.6200853182580418039@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/main
-    old: eb6d6c80d35449c27471b1874f13066c09a8964d
-    new: 2388bb763e323442f4dd8189238ac0c5f334c4a0
-    log: |
-         2388bb763e323442f4dd8189238ac0c5f334c4a0 vsock: only deliver taps to namespaces that can reach the device
-         
+  - ref: refs/heads/b4/nsc-gpio
+    old: 0000000000000000000000000000000000000000
+    new: 1be0ba31f561b8c046270dde7a6a55300a7337c8
