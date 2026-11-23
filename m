@@ -1,86 +1,669 @@
-Content-Type: multipart/mixed; boundary="===============0907527321606073249=="
+Content-Type: multipart/mixed; boundary="===============4414203996122331159=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Mon, 23 Nov 2026 17:32:57 -0000
-Message-Id: <179545517705.626395.1119191649543060360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Mon, 23 Nov 2026 17:33:21 -0000
+Message-Id: <179545520164.626812.6863743660396900342@gitolite.kernel.org>
 
---===============0907527321606073249==
+--===============4414203996122331159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mptcp/linux
-user: matttbe
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/export
-    old: 3806725e1ba3654e0093b550f63e62059fd177fb
-    new: a23a99ded29e12d0fc54ce2961f29d2fe8809c63
-    log: revlist-3806725e1ba3-a23a99ded29e.txt
+  - ref: refs/heads/main
+    old: b16f041ce122275b28e500cbafb94dedbcc9e6df
+    new: cc4134118846a6b0acaa73a51debaaa2d5d175b2
+    log: revlist-b16f041ce122-cc4134118846.txt
+  - ref: refs/heads/oss-scanner-2.8.x
+    old: f39ff448fc920c2c51bd0ad872732cfef46c0bf5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/oss-scanner-main
+    old: 5f81dca4ee4400f3e94cf785c4b830ef67517d05
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/v2.8.x
+    old: 388dc8b24ada0b23eae38dda8dfa2b8204409fb0
+    new: 25d1fb4892b0390dba18a044342a8f4b18f03068
+    log: revlist-388dc8b24ada-25d1fb4892b0.txt
+  - ref: refs/heads/version-2.8.9
+    old: 25d1fb4892b0390dba18a044342a8f4b18f03068
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/950/merge
+    old: 1391e72537f81fe1bc2152f159ab03aca51fd871
+    new: 4d2ec01f766eaa46eac480341db59612d2f9542b
+    log: revlist-1391e72537f8-4d2ec01f766e.txt
+  - ref: refs/merge-requests/951/merge
+    old: d553e84be962ef32aebdfa1ce6708fbba17aa5a3
+    new: 0e228f9cc85ceb148436f5a60a6b2bb3a0161177
+    log: revlist-d553e84be962-0e228f9cc85c.txt
+  - ref: refs/merge-requests/970/merge
+    old: f4d07f8d2c39c85106688d4431aa6f0d032e47db
+    new: e63af093a78001b123a1f2fb2c270b86c77fd0f6
+    log: revlist-f4d07f8d2c39-e63af093a780.txt
+  - ref: refs/merge-requests/978/merge
+    old: 7511c50c71f33ffb8978e83c80020940c1de3192
+    new: fef6371acf4618bea14ce53b8fbea42e000857f5
+    log: revlist-7511c50c71f3-fef6371acf46.txt
+  - ref: refs/merge-requests/979/merge
+    old: b2c96a855bc7e9c6df746a5c2f37537df2b5c9ca
+    new: 1b47bd6654e9bc10cc53d58aa5c7f3ec352447f0
+    log: revlist-b2c96a855bc7-1b47bd6654e9.txt
+  - ref: refs/merge-requests/980/head
+    old: 086591ce183ef40b8ad6b75a67e7f298bc1767f2
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/980/merge
+    old: 960df02eb77e11be855503c869945a06ab181fa3
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/merge-requests/994/merge
+    old: b1bdc0e4473f9d04b7e7c64644e0dc2281d0f83a
+    new: 25ed6de62321978f8993040944f9fe47f4b9598b
+    log: |
+         25ed6de62321978f8993040944f9fe47f4b9598b Merge branch 'version-2.8.9' into 'v2.8.x'
+         
+  - ref: refs/tags/v2.8.9
+    old: 0000000000000000000000000000000000000000
+    new: d6e9e8d17211b110955af41906f59326fbabf0ac
 
---===============0907527321606073249==
+--===============4414203996122331159==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3806725e1ba3-a23a99ded29e.txt
+Content-Disposition: attachment; filename=revlist-b16f041ce122-cc4134118846.txt
 
-884473a0959da593d82ac87d22ea2dd2e7f49a1c DO-NOT-MERGE: git markup: net
-91f0b5ebca92b7de68b07d5c228e649f05923801 DO-NOT-MERGE: git markup: fixes other trees
-0939d28118477143bfb830b49563f07476586060 mptcp: pm: kernel: c-flag: keep local_addr_used in sync
-042a3f36e6f5cecbffe384dbce489eba181b92a6 mptcp: fix use-after-free of the subflow context on the delegated list
-e85179333fa8f4f16792cc95afc2af0b5f73d709 mptcp: exclude MSG_PEEK from receive buffer autotuning
-2b496441d846e72c96db9f9440a6dd2c4216137f tcp: drain the queues of a listen() that fails
-d4f0783c1c52f657f8204976c209614603a0bd24 mptcp: drain the queues of a listen() that fails
-b04fa8c0d15c0b8f39fb9c9df98a63d547963901 mptcp: clear inet_opt in the child of an IPv6 listener
-7888b1d24fbd1f5dbfe45db325b80e9529ebd598 mptcp: pm: work on a copy of the received RM_ADDR list
-48085ee5b93898ff233a21fdd013a0fd8a5959db mptcp: pm: don't drop an RM_ADDR behind a pending one
-03c1f6f6f948166995e1b63fdbad1ab8348e46cd mptcp: pm: don't drop an RM_ADDR because of an ADD_ADDR
-228c96c6641a6ae14a0a1d8007734f693080e1a8 mptcp: pm: keep an RM_ADDR when computing the MSS
-064574e52f81efe3ee8932ee539e68854126fbc4 mptcp: arm the rtx timer if a push leaves data behind
-7d3666c1b06809cab49ee7996a8c27794533f38b mptcp: force the charge for the first skb of a subflow
-306c65875c319e4a6170d06b3e60b0e456bf632e mptcp: leave an orphan's DATA_FIN to the worker
-79cdf75e657863c428c177bafb65a10cd4124940 mptcp: don't leak an orphan when the PM closes its last subflow
-dfb17626a226d75c880a519d8eb7d5a0a54db644 net: add __sk_net_refcnt_upgrade() with a GFP mask
-ea9ecf9ce9673d0c74e3b558b23fd06bc7773464 mptcp: pm: don't let listeners pin their netns
-a06fa714ccaecd25c1a59f2329318bd9c2b8aa83 mptcp: initialize drop_req in subflow_init_req()
-c8ed6cba215bcd0de5672e126c23f34458989b10 tcp: do not pass a BPF reqsk to an MPTCP listener
-5d53a39c70a7be36ae05f342d2c31aafe9b04b02 DO-NOT-MERGE: git markup: fixes net
-49ded204e78c520e1899f67e67ec42ce5b04529a DO-NOT-MERGE: mptcp: add CI support
-78aaf4d29dd9c5627227008f464ad4e3cce8bc08 DO-NOT-MERGE: git markup: end common net net-next
-e954948bf7296b8f462a82d6afd8e037eec3ba7d TopGit-driven merge of branches:
-78cd3e8a9a1ba1864a49c477e3eb02b41eec53ea DO-NOT-MERGE: git markup: net-next
-287b10b422ef1aab74e208931f1f1a01f2e58142 tmp-tun-merge-fix
-0517f0a9d5f9133e9ddf9366b49b76cf482c8dfb DO-NOT-MERGE: git markup: fixes net-next
-fadf87dca334b083c4a0b46948957a4b422ea132 mptcp: pm: init and release mptcp_pm_ops
-faef380bfd1d54d4fe822a463d787159ae8e0ee9 mptcp: pm: add get_local_id() interface
-813f59440640b630a6f915e787aa057338f32ab5 mptcp: pm: add get_priority() interface
-cb30c111284e8c87fc572745c13bf60e814ec930 mptcp: support MSG_ERRQUEUE on the parent socket
-1e0d299e0d84a22a826f4ac2a78953b2dca2042d mptcp: sockopt: factor inet_flags propagation into a mask
-ddf8ee07af10d04380f0449f02f2b8a43f75cef1 mptcp: propagate RECVERR sockopts to subflows
-387e5c5948f895aa3fe909f319c48200379c5348 selftests: mptcp: cover IP_RECVERR sockopt propagation
-4e471a21acfd184bf2c35d272c483484ab6f0494 mptcp: add msk_is_mptcp() helper
-d7cb494dfd108133ecfbd716def8987faa27b185 selftests: mptcp: join: dump stats with right title
-42e85d0c0e7ded70b2c1d1f0229b5cd62be10640 selftests: mptcp: sockopt: pass total bytes to do_getsockopts
-a199e71a6840cdad8ba18c8fa80346c4f7eddd77 mptcp: annotate lockless access to msk->scaling_ratio
-0dd70a98aed49ec6703bd71032f0030656d284f0 selftests: mptcp: sockopt: drop unreachable FIN accounting
-94c726f58d74e8e9b5132286d02e54e7857dabf5 selftests: mptcp: print stats before socket closure
-7345ed50a349b1b172257122a09000df7db5d454 DO-NOT-MERGE: git markup: features net-next
-b6b1be89927cb148e8dd98486c899e9cc01992fd DO-NOT-MERGE: git markup: features net-next-next
-0fdf0ceb31f8e63d020e28b4ed61a755eaf0a160 bpf: Add mptcp_subflow bpf_iter
-f966ea74d541d1022d3fbe708cdbed5b181d5c88 selftests/bpf: More endpoints for endpoint_init
-d5650822c81cf0e1c7b9133341bfab0df02c5db1 selftests/bpf: Drop cgroup_fd of run_mptcpify
-4e3432cce493afbbb354468334f609ca30ca1b2b bpf: Add mptcp packet scheduler struct_ops
-f63e5d5c439011010b807ecb2bb52dba85aa03fd bpf: Export mptcp packet scheduler helpers
-028565fea40d56f29fd4a10ce6c220fa6c05dee0 selftests/bpf: Add bpf scheduler test
-c66f0651a48743ffac88dd78d4f2075f0526d76f selftests/bpf: Add bpf_first scheduler & test
-ed5244013bfe4d84f8c8a504ac5723a7d1db166a selftests/bpf: Add bpf_bkup scheduler & test
-edbccb227281d082ffaaf910826b28b9c622a0c8 selftests/bpf: Add bpf_rr scheduler & test
-c3d5e18d89734ebb69fc67ec0a7c3b8f53cc3119 selftests/bpf: Add bpf_red scheduler & test
-b108a7976f712f4689dc62c35b8031d0dd739bef selftests/bpf: Add bpf_burst scheduler & test
-65dc2bd1de65260d4de272368573766ecc9c4e1b DO-NOT-MERGE: git markup: features other trees
-2d807796e77859cc09b6004aa5aa8597bb9fce47 DO-NOT-MERGE: mptcp: improve code coverage for CI
-a23a99ded29e12d0fc54ce2961f29d2fe8809c63 DO-NOT-MERGE: mptcp: enabled by default
+830ddd624149ce13da49a840221d18b522c8482d Reject duplicate backup segment flags in LUKS2 validation.
+3be2d4418e67d647387781e1a04d899b1fd4d79a LUKS2: map data segment as dm-linear only for a hw-opal device
+b560d4645ce653027287e88bf4e2042160fb45b3 Fix order-independent validation of segments behind backup segment
+d0abb9b2056bb6751872c06904468c98a3422a02 LUKS2: reject JSON token nested too deep
+9fc17b66a62d27b06dc06bdf270fe34340e53a33 Refuse LUKS2 to LUKS1 conversion when salt is not LUKS_SALTSIZE bytes
+e2b27ace9cf0254b8f609512a10969ec2f1689e9 bitlk: Fix parsing metadata with missing FVEK and VMK entries
+6386e5e981a14c5ba45e9799c404b70bd80a8725 bitlk: Reject FVEK whose size differs from header
+7ce1ce53f19fd6267a000d77d177e64ffd040084 opal: fix off-by-one in OPAL key length checks.
+c6ff15cfeecf7c8b3673ded781391e45a500a05b Always wipe DM params table buffer
+9fea752876701b007e140d42d23aaff66ccc276f LUKS2: Fix error path in LUKS2_token_unlock_key()
+f3f5bb19489ce43df0e763a5288f1cf88e365743 Validate device in device_open_internal()
+cd5430a546823a000b01eef4b81e6cd6b0534a29 tcypt: Lock decrypted header memory
+efbdf69238791338766a19bfcd26c38793d50658 LUKS2: fix possible double free in reencrypt_step
+6723473d1074b6139a315f18aaabf829da0cc596 hw_opal: store lock_unlock/save and PSID args in safe memory
+1be0f187b520ff0f77edad5dc9a172aded9151b5 hw_opal: do not store Admin1 PIN on the stack in opal_reset_segment()
+6e4c957fa5d12388a8243d565c6ad39b87503ca2 LUKS2: Reject wrong JSON object ids
+5223ff59b4c6d1a68d07fb94b80f85b5a6dec1d1 tests: Add test for rejecting wrong JSON object ids
+41bf32903efa388c6d39c9b961d632a473560974 bitlk: reject short clear-key/VMK key entries from BITLK metadata
+388596d76cae2178ead4be0a4378ca94240af902 opal: reject volume keys longer than OPAL_KEY_LEN_MAX
+fb4c0eddfb2820fdb806b6a5e754006a503d5803 Do not accept kernel keys owned by other users in by-name lookup
+dbed0b00dd88e120d418feec92f6ad9d66abb024 Remove unused keyctl_link function.
+e2b65514af4f73b1d7a7a97cd0f11e755b189e78 Invalidate volume key loaded by another context on suspend/deactivate.
+955792cd7a867bb0a6aaa5cd391b6a73917e4ff0 LUKS2: Fail PBKDF2 digest verification for malformed digests
+4b7028b11b566192b16c3f30a2a664ebed5485f9 LUKS2: Validate PBKDF2 digest is complete
+4eea3f627bc7ffdd286c153116a92d55a7b59e5b tests: Add test for PBKDF2 mangled digest
+1b994f8db5a9c5ee54166b0231f59cf45e493d98 Fix null cipher detection.
+434d4b35214d510d669f66ce10b2f279c7004713 LUKS1: Force reset PBKDF to PBKDF2 on load and format
+6eadef379c5caf11afb0ebff77ce896e8e0724fa Detect volume key keyring collisions between same-UUID contexts.
+de7c0ea6dd70c65b4cb758da91d7699c5b315fa3 tests: adapt to duplicate UUID keyring hardening.
+18e9197732d90f27cdb1d998415ddff17981d191 Add OPAL2 segment digest.
+d550e5b4349edb5e6b670406a743660773e29b6d Wipe area between LUKS2 header and data offset after encryption.
+f0f84656df6a72abb20b0a227e679ba55e0c8a47 Harden reencryption hotzone checks in before crash recovery.
+b8af1415b215c82d23ac52a9eecaaa69fc1cec38 reencrypt: wipe temporary LUKS header files before removal
+ccae84d669370764d22104b5c0befbff0e77ac92 verity: Do not fallocate hash file for verification
+ddae288d1db7776c30f0feb4b02c190de4a689cc reencrypt: Do not grow (invalid) LUKS2 images.
+34310d77030509b9115ebc689b132a353b3b7103 plain: Fix hashing of passphrase if shake hash is used
+f438278ef0dacf09b0857455dbf86e5bbcb62484 LUKS: Enforce validation of cipher specification for on-disk metadata
+58b70a2a97c21c01a94f595f35a1150bf8d524d6 tests: Add test for detecting whitespace in LUKS header encryption field
+b7fc49a347b8a0855506cb3e932716d5f1cc2eb4 LUKS: Enforce validation and rejecting of multikey cipher specification
+967b8e21dda5d9ad187fc42cb0a74e966de69b2f tests: Check unexpected multikey specification in LUKS metadata
+a2663c9cf0fd6bf2d97c8d49de66c5d478790a6c LUKS1: limit minimal key size
+e2972523438e166d8ab2dcedbee52cd766190c40 LUKS2: limit minimal key size
+a9f01f10a4aa9690c38bc33b917413f5ad257200 LUKS1: harden detection of null cipher
+4c4d08de9a8062323086905ff5a5c539019703f4 veritysetup: Do not overwrite verification with FEC repair status
+431efa06849a03453c555cfd0defb50f606641ef Reject invalid log file for LUKS1 offline reencryption
+8a8e194483819777f229b977d3f16cb68a35914e LUKS2: Reject algorithms with auth tag without integrity option
+a93341a4ea01d00c6f71c85bf0079e7d58d5c819 tests: Add test for rejecting modes that require IV storage
+784baed48a4e031e6e7bbbe56d8b2f24559e342b LUKS2: limit minimal encryption key if integrity is used
+51381f69c38dab1e1cc6bb4b95d2e5e1c0112e61 tests: Add test for wrong integrity key size
+55a3997b09eb7f89041e5a7c0d208ac5144f28e3 tests: add test for minimal encryption key if integrity is used
+e99825835b11bd075a68946991adad17e0058711 Reject reencrypt backup segments without requirement flag
+9331e6ecd38a46244adcc33f6b9433420c8172d5 Fix broken condition in reencryption metadata validation.
+b14d884a680130fa623f8a841d63b28d0a1fb204 Require shift-size to be aligned to sector size.
+52a9b01d183805fc8c562e574f8878ffc4f326a6 opal: Harden OPAL2 locking ranges checks before erasing.
+e4436a65656078fd7e37ca984a4f4c7751f1d8ed veritysetup: Fix error path for invalid root hash file
+895ee798e7ce108c93ae8273b6506d4f06a54465 loopaes: Fix off-by-one keyfile size processing
+f8bb3732867cac9b45200a95a343dcc30f3331df Fix setting of LUKS2 labels if used with crypt_get_label()
+e20786dbc29311dcc01b608ad0e35a2eec87f8f5 integritysetup: wipe deallocated pointer to journal integrity key
+a6accaef9837c6ae84c0f01575cf37ebb90ffa44 LUKS2: wipe buffer for header backup
+77f64349d1b38eabd8c56a9097ac596d05572777 LUKS1: Reject data offset that cannot fit into 32bit integer
+950423ba5d8bd83ee67b1be533e71da049d9aada bitlk: Process key file as binary array
+113e58f7a9ac182426f8ec7e1ca978083d43a937 bitlk: Wipe recovery key and kdf after use
+454d2504878a16df27f696d20358066f9049534a Do not use possibly deallocated PBKDF2 type
+03ac21261fc514d76b6b2e393a7cfa1ab6debf56 reencrypt: Reject reencryption init if integrity profile is used
+c6778d1fbbf411fa1e32db80edf202feda11ef32 tcrypt: Properly fail if no PBKDF variant can be used
+8bbd05211b42826d71cfafc59209f8fe7bd431cf fvault2: Do not print volume key to terminal if keyfile is requested
+0fe98729a47664bf84044ef8cfef42c02e4542bb verity: Properly reinitialize context if already set on reload
+e0a25f60fbc611ef30f02957cb76c348d8f4e694 cryptsetup: Properly fail if no keyslot is available for checking
+13ff3854fe990be878e9021235438f7c0a5bdae5 LUKS2: Reject keyslot if it cannot fit to keyslot area
+41bbd97da939df8a2cb628497930b1de14d956ed LUKS1: Reject conversion from LUKS2 if integrity profile is used
+e21b6139f0d534869fbae918840a054d33795cc0 verity: Reject salt size larger than superblock salt field
+fc35ffa2393d51ffa169cd42326fcda464a62e4b Avoid using uninitialized memory in write_lseek_blockwise
+2873f9a4aa15d50722997c5d9e10a6ab427c549c Fix error returned in crypt_wipe_device to be negative errno
+b6c65365186f786b6f1622aa6aff1f9621cd5308 Reject key from keyring if payload is of different size
+4d1f04603d2614ba24ccb91cb7bbf53bfdbd93a5 verity: Fail on partial read/write of parity bytes
+5f81dca4ee4400f3e94cf785c4b830ef67517d05 LUKS1: Avoid overflow on device offsets calculations
+940337b41a1ae4d0d5e929d591a4ef3bc6e80c02 po: add lv.po (from translationproject.org)
+ba4ab0ca29d9e3a9f77e1d34cdca7b6cb9c52b3c Add Release notes for 2.8.9.
+9e98fe80f514f6936c6475bed41230be7a85e499 Update LUKS2 format specification document
+92eeedc145c087a23fa01b976d230f87f96b1a49 Version 2.8.9.
+8aabac6f2134f0241cbf3ba357468d6a4cee7e14 Revert "ci: Disable OPAL disk on trantor runner"
+cc4134118846a6b0acaa73a51debaaa2d5d175b2 Update cryptsetup.pot.
 
---===============0907527321606073249==--
+--===============4414203996122331159==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-388dc8b24ada-25d1fb4892b0.txt
+
+0c01a00180acef32804e3b4f5e61e2bf5ad7ca07 Add helper for opal requirement flag version.
+e17476354ef8c6a5edf99623f895b9a05d8b13cd Add OPAL2 segment digest.
+f3942fcfdb74cddd76267cd77b4120a687012106 opal: Harden OPAL2 locking ranges checks before erasing.
+5dd604836076579b30b3a5265f1d6071d9679970 Reject duplicate backup segment flags in LUKS2 validation.
+fb02d5faa1d824562a4e77ea30e6fd821a560d77 LUKS2: map data segment as dm-linear only for a hw-opal device
+9f74fc07e1c145b4cb5f3757a7116d897bf08bb9 Fix order-independent validation of segments behind backup segment
+2caacdf08e89d776409da429a437c4af5abbfdf2 LUKS2: reject JSON token nested too deep
+f5c530f82227500a2c3fcd3a5d52482aeedba083 Refuse LUKS2 to LUKS1 conversion when salt is not LUKS_SALTSIZE bytes
+c5a5f9441b45aef28a65b2f0f5ab1b2699eebf15 bitlk: Fix parsing metadata with missing FVEK and VMK entries
+6dcf3b0c353ebcbed16d586dc39c691b28bc7210 bitlk: Reject FVEK whose size differs from header
+227ccf6a207ca3c1caeaeb804f54ee1df80be703 opal: fix off-by-one in OPAL key length checks.
+16f0c492312b0ec1386115ba66cf76508a7f7c5d Always wipe DM params table buffer
+cb74ebea1cce8694aafc8fa6b42a89b683902851 LUKS2: Fix error path in LUKS2_token_unlock_key()
+a45e5e0d146040b66d1430f316f2c06ccab9f3d1 Validate device in device_open_internal()
+2c6de789bde62c9057b944f0a3dd12f79f67892a tcypt: Lock decrypted header memory
+b6b650ba99bf22842355821375b1c5b4b16173ee LUKS2: fix possible double free in reencrypt_step
+c5ce773a02bdb983f57374dcce2372c546f48ef1 hw_opal: store lock_unlock/save and PSID args in safe memory
+76d7b4c4690d436caa872d944b67b2a8d3174df4 hw_opal: do not store Admin1 PIN on the stack in opal_reset_segment()
+c3ec043e55e9a0ccf71eec30ab6e6991f262bead Replace atoi() with safer function with overflow check
+a32a52d77959be655bd8b2a695793e15731a3a63 LUKS2: Reject wrong JSON object ids
+42b50478140f025239bfef3fd58546949eb389f8 tests: Add test for rejecting wrong JSON object ids
+34b74d13cde8bba05881ebeb1cfe39aecafb030c bitlk: reject short clear-key/VMK key entries from BITLK metadata
+aa8aa8e891a36eda2f46fb9e49d09a52b9fcccad opal: reject volume keys longer than OPAL_KEY_LEN_MAX
+ecf877b8f811e4af937cbfdd31cd473ed8be2859 Do not accept kernel keys owned by other users in by-name lookup
+104d51c4df51e6bfe3944b8233ef04b9219bc733 Remove unused keyctl_link function.
+477c21f777e9f00fc3c0459a90fad24d2d38a625 Invalidate volume key loaded by another context on suspend/deactivate.
+f0155072714731104f4bb26a5c54f3413ce63b22 LUKS2: Fail PBKDF2 digest verification for malformed digests
+de97a72dcf41482b9b9d50a710119d71b8f96442 LUKS2: Validate PBKDF2 digest is complete
+3b99c4a09de966954c8a2d83093263725e372500 tests: Add test for PBKDF2 mangled digest
+34982d31fcb0072ec8d656f96b09f84d1f4c6486 Fix null cipher detection.
+020616d958848f757dea65c802bf362fa70474a5 LUKS1: Force reset PBKDF to PBKDF2 on load and format
+8433978a6b4c627135fab0e74e43906888c657ec Detect volume key keyring collisions between same-UUID contexts.
+88ea67679721da92218913538b67ffe530f42b95 tests: adapt to duplicate UUID keyring hardening.
+342540ed25691e58d80d78eeb69436af70a182b0 Wipe area between LUKS2 header and data offset after encryption.
+0a21134467428a313388a65820517f03fbd8d6a0 Harden reencryption hotzone checks in before crash recovery.
+c6c7bb9a101f5c770526b7cac8298c1f2de5b35b reencrypt: wipe temporary LUKS header files before removal
+4580a945fcce6328b31925e898e44a41bfcd9e82 verity: Do not fallocate hash file for verification
+b8ae74e1d21efb5f98ad2db0d9539026fc53c580 reencrypt: Do not grow (invalid) LUKS2 images.
+0882e9acf276090bbbcafe41ab9d77b5eb01023d plain: Fix hashing of passphrase if shake hash is used
+c088b437479d5fdae49c8e181216949027ffb635 LUKS: Enforce validation of cipher specification for on-disk metadata
+432a2ec61dc38542ce1b7d864467673ee4aa7da6 tests: Add test for detecting whitespace in LUKS header encryption field
+1c6c565e16873e104f8082a0c45f039b73535e7f LUKS: Enforce validation and rejecting of multikey cipher specification
+a256db8d2cf154837b78884c6f6aeb522a1ca8f1 tests: Check unexpected multikey specification in LUKS metadata
+1960ba7aae584a4fb66569c41cba57c72c8a1f04 LUKS1: limit minimal key size
+c58fed5748ad366e78b8b2f9d4acf5794cd43eed LUKS2: limit minimal key size
+e9b2b3334c0b31a2d28dffd2709acac0ed208ba0 LUKS1: harden detection of null cipher
+9dfafd81705982a0917feb17314c73a0a29bd06c veritysetup: Do not overwrite verification with FEC repair status
+d284e4ce324f98538d1574b5b10b0cdc7580f7f3 Reject invalid log file for LUKS1 offline reencryption
+dd95a2e504b89eb5266a2e56b526bc20fba5723f LUKS2: Reject algorithms with auth tag without integrity option
+536cd7a71449dc18e6b54709442ea1664655763b tests: Add test for rejecting modes that require IV storage
+6dd4b3f59ab971cf20e02d4804299ecd048f077f LUKS2: limit minimal encryption key if integrity is used
+5c74922d8748b5ad3bd9381420dfe287ad33f279 tests: Add test for wrong integrity key size
+ab2f34c18dafd7d1f378d655bb751c8d94cea1ca tests: add test for minimal encryption key if integrity is used
+81e7695a5cf6167a075b5b4f02d55fbf94564396 Reject reencrypt backup segments without requirement flag
+c81f6b064f25a87efc60553781284568375e0e3e Fix broken condition in reencryption metadata validation.
+a3a1e86fc68b4b19bc3e1a88a5efb7b637c2b7a2 Require shift-size to be aligned to sector size.
+3ea097ee5bc1e693d2e86bddb6a5512921a2c0eb veritysetup: Fix error path for invalid root hash file
+9a26733af68ac66dbb0ac8acfd19f7cf3d94fabb loopaes: Fix off-by-one keyfile size processing
+11549a29290f9f029b4dee50fb68b7c336c5fdda Fix setting of LUKS2 labels if used with crypt_get_label()
+41156dc1beb6d97d9d150c30d58bb7f2e1a278ee integritysetup: wipe deallocated pointer to journal integrity key
+ec8a00281df5446877603880cdc9fe651b8ab36c LUKS2: wipe buffer for header backup
+c39bffc0257ab58fe3629724af3810d9ae3fcdd0 LUKS1: Reject data offset that cannot fit into 32bit integer
+4ebcec570e89bdcbbedde10809267cf96736ed4c bitlk: Process key file as binary array
+499e3751a8ffd4c6c864b0c44964619616e2586a bitlk: Wipe recovery key and kdf after use
+0791a3688a02c0cb44a245a21ebda9912175006f Do not use possibly deallocated PBKDF2 type
+d700483dc661c427fce0ab7321eaa5f8045c0809 reencrypt: Reject reencryption init if integrity profile is used
+88751a566a1d6b686e84dd76f3443df0ba0f1a0a tcrypt: Properly fail if no PBKDF variant can be used
+d31f130b7b8fdf5b0a613b0b8d4b65255f926a15 fvault2: Do not print volume key to terminal if keyfile is requested
+c6a6850fd069b12b3f3c28c608346b10ab8c7ed8 verity: Properly reinitialize context if already set on reload
+aa571255526f4cf438bda3f706a7c47b0c06c7e9 cryptsetup: Properly fail if no keyslot is available for checking
+63004cff1034489ded784ca4cdb2549b47daa65a LUKS2: Reject keyslot if it cannot fit to keyslot area
+1f50a91eafb04c362f65ea4bad422bc88f0759b2 LUKS1: Reject conversion from LUKS2 if integrity profile is used
+a6d069a196c6f590c179bae1af9ca3cafada3076 verity: Reject salt size larger than superblock salt field
+a633735d5866bf4e59dbb6220ed20a080ba0bd75 Avoid using uninitialized memory in write_lseek_blockwise
+fe02cdff58c50e3200c24116cb8a7f15d9379678 Fix error returned in crypt_wipe_device to be negative errno
+4347c44c43d05fe0c74fbe1fdf2016640af2cc22 Reject key from keyring if payload is of different size
+2b29a38541db772f0bfc60d3a907a4998a1fdf26 verity: Fail on partial read/write of parity bytes
+4643f2e34d1b8327a0e04ce9e25cacc955397053 LUKS1: Avoid overflow on device offsets calculations
+f39ff448fc920c2c51bd0ad872732cfef46c0bf5 Add Release notes for 2.8.9.
+292d5b5dab65bd8671b1148c1281c45185ca0f8c po: add lv.po (from translationproject.org)
+99ef75505fd456c772e5a38a5984f0451d15997d Update LUKS2 format specification document
+25d1fb4892b0390dba18a044342a8f4b18f03068 Version 2.8.9.
+
+--===============4414203996122331159==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1391e72537f8-4d2ec01f766e.txt
+
+830ddd624149ce13da49a840221d18b522c8482d Reject duplicate backup segment flags in LUKS2 validation.
+3be2d4418e67d647387781e1a04d899b1fd4d79a LUKS2: map data segment as dm-linear only for a hw-opal device
+b560d4645ce653027287e88bf4e2042160fb45b3 Fix order-independent validation of segments behind backup segment
+d0abb9b2056bb6751872c06904468c98a3422a02 LUKS2: reject JSON token nested too deep
+9fc17b66a62d27b06dc06bdf270fe34340e53a33 Refuse LUKS2 to LUKS1 conversion when salt is not LUKS_SALTSIZE bytes
+e2b27ace9cf0254b8f609512a10969ec2f1689e9 bitlk: Fix parsing metadata with missing FVEK and VMK entries
+6386e5e981a14c5ba45e9799c404b70bd80a8725 bitlk: Reject FVEK whose size differs from header
+7ce1ce53f19fd6267a000d77d177e64ffd040084 opal: fix off-by-one in OPAL key length checks.
+c6ff15cfeecf7c8b3673ded781391e45a500a05b Always wipe DM params table buffer
+9fea752876701b007e140d42d23aaff66ccc276f LUKS2: Fix error path in LUKS2_token_unlock_key()
+f3f5bb19489ce43df0e763a5288f1cf88e365743 Validate device in device_open_internal()
+cd5430a546823a000b01eef4b81e6cd6b0534a29 tcypt: Lock decrypted header memory
+efbdf69238791338766a19bfcd26c38793d50658 LUKS2: fix possible double free in reencrypt_step
+6723473d1074b6139a315f18aaabf829da0cc596 hw_opal: store lock_unlock/save and PSID args in safe memory
+1be0f187b520ff0f77edad5dc9a172aded9151b5 hw_opal: do not store Admin1 PIN on the stack in opal_reset_segment()
+6e4c957fa5d12388a8243d565c6ad39b87503ca2 LUKS2: Reject wrong JSON object ids
+5223ff59b4c6d1a68d07fb94b80f85b5a6dec1d1 tests: Add test for rejecting wrong JSON object ids
+41bf32903efa388c6d39c9b961d632a473560974 bitlk: reject short clear-key/VMK key entries from BITLK metadata
+388596d76cae2178ead4be0a4378ca94240af902 opal: reject volume keys longer than OPAL_KEY_LEN_MAX
+fb4c0eddfb2820fdb806b6a5e754006a503d5803 Do not accept kernel keys owned by other users in by-name lookup
+dbed0b00dd88e120d418feec92f6ad9d66abb024 Remove unused keyctl_link function.
+e2b65514af4f73b1d7a7a97cd0f11e755b189e78 Invalidate volume key loaded by another context on suspend/deactivate.
+955792cd7a867bb0a6aaa5cd391b6a73917e4ff0 LUKS2: Fail PBKDF2 digest verification for malformed digests
+4b7028b11b566192b16c3f30a2a664ebed5485f9 LUKS2: Validate PBKDF2 digest is complete
+4eea3f627bc7ffdd286c153116a92d55a7b59e5b tests: Add test for PBKDF2 mangled digest
+1b994f8db5a9c5ee54166b0231f59cf45e493d98 Fix null cipher detection.
+434d4b35214d510d669f66ce10b2f279c7004713 LUKS1: Force reset PBKDF to PBKDF2 on load and format
+6eadef379c5caf11afb0ebff77ce896e8e0724fa Detect volume key keyring collisions between same-UUID contexts.
+de7c0ea6dd70c65b4cb758da91d7699c5b315fa3 tests: adapt to duplicate UUID keyring hardening.
+18e9197732d90f27cdb1d998415ddff17981d191 Add OPAL2 segment digest.
+d550e5b4349edb5e6b670406a743660773e29b6d Wipe area between LUKS2 header and data offset after encryption.
+f0f84656df6a72abb20b0a227e679ba55e0c8a47 Harden reencryption hotzone checks in before crash recovery.
+b8af1415b215c82d23ac52a9eecaaa69fc1cec38 reencrypt: wipe temporary LUKS header files before removal
+ccae84d669370764d22104b5c0befbff0e77ac92 verity: Do not fallocate hash file for verification
+ddae288d1db7776c30f0feb4b02c190de4a689cc reencrypt: Do not grow (invalid) LUKS2 images.
+34310d77030509b9115ebc689b132a353b3b7103 plain: Fix hashing of passphrase if shake hash is used
+f438278ef0dacf09b0857455dbf86e5bbcb62484 LUKS: Enforce validation of cipher specification for on-disk metadata
+58b70a2a97c21c01a94f595f35a1150bf8d524d6 tests: Add test for detecting whitespace in LUKS header encryption field
+b7fc49a347b8a0855506cb3e932716d5f1cc2eb4 LUKS: Enforce validation and rejecting of multikey cipher specification
+967b8e21dda5d9ad187fc42cb0a74e966de69b2f tests: Check unexpected multikey specification in LUKS metadata
+a2663c9cf0fd6bf2d97c8d49de66c5d478790a6c LUKS1: limit minimal key size
+e2972523438e166d8ab2dcedbee52cd766190c40 LUKS2: limit minimal key size
+a9f01f10a4aa9690c38bc33b917413f5ad257200 LUKS1: harden detection of null cipher
+4c4d08de9a8062323086905ff5a5c539019703f4 veritysetup: Do not overwrite verification with FEC repair status
+431efa06849a03453c555cfd0defb50f606641ef Reject invalid log file for LUKS1 offline reencryption
+8a8e194483819777f229b977d3f16cb68a35914e LUKS2: Reject algorithms with auth tag without integrity option
+a93341a4ea01d00c6f71c85bf0079e7d58d5c819 tests: Add test for rejecting modes that require IV storage
+784baed48a4e031e6e7bbbe56d8b2f24559e342b LUKS2: limit minimal encryption key if integrity is used
+51381f69c38dab1e1cc6bb4b95d2e5e1c0112e61 tests: Add test for wrong integrity key size
+55a3997b09eb7f89041e5a7c0d208ac5144f28e3 tests: add test for minimal encryption key if integrity is used
+e99825835b11bd075a68946991adad17e0058711 Reject reencrypt backup segments without requirement flag
+9331e6ecd38a46244adcc33f6b9433420c8172d5 Fix broken condition in reencryption metadata validation.
+b14d884a680130fa623f8a841d63b28d0a1fb204 Require shift-size to be aligned to sector size.
+52a9b01d183805fc8c562e574f8878ffc4f326a6 opal: Harden OPAL2 locking ranges checks before erasing.
+e4436a65656078fd7e37ca984a4f4c7751f1d8ed veritysetup: Fix error path for invalid root hash file
+895ee798e7ce108c93ae8273b6506d4f06a54465 loopaes: Fix off-by-one keyfile size processing
+f8bb3732867cac9b45200a95a343dcc30f3331df Fix setting of LUKS2 labels if used with crypt_get_label()
+e20786dbc29311dcc01b608ad0e35a2eec87f8f5 integritysetup: wipe deallocated pointer to journal integrity key
+a6accaef9837c6ae84c0f01575cf37ebb90ffa44 LUKS2: wipe buffer for header backup
+77f64349d1b38eabd8c56a9097ac596d05572777 LUKS1: Reject data offset that cannot fit into 32bit integer
+950423ba5d8bd83ee67b1be533e71da049d9aada bitlk: Process key file as binary array
+113e58f7a9ac182426f8ec7e1ca978083d43a937 bitlk: Wipe recovery key and kdf after use
+454d2504878a16df27f696d20358066f9049534a Do not use possibly deallocated PBKDF2 type
+03ac21261fc514d76b6b2e393a7cfa1ab6debf56 reencrypt: Reject reencryption init if integrity profile is used
+c6778d1fbbf411fa1e32db80edf202feda11ef32 tcrypt: Properly fail if no PBKDF variant can be used
+8bbd05211b42826d71cfafc59209f8fe7bd431cf fvault2: Do not print volume key to terminal if keyfile is requested
+0fe98729a47664bf84044ef8cfef42c02e4542bb verity: Properly reinitialize context if already set on reload
+e0a25f60fbc611ef30f02957cb76c348d8f4e694 cryptsetup: Properly fail if no keyslot is available for checking
+13ff3854fe990be878e9021235438f7c0a5bdae5 LUKS2: Reject keyslot if it cannot fit to keyslot area
+41bbd97da939df8a2cb628497930b1de14d956ed LUKS1: Reject conversion from LUKS2 if integrity profile is used
+e21b6139f0d534869fbae918840a054d33795cc0 verity: Reject salt size larger than superblock salt field
+fc35ffa2393d51ffa169cd42326fcda464a62e4b Avoid using uninitialized memory in write_lseek_blockwise
+2873f9a4aa15d50722997c5d9e10a6ab427c549c Fix error returned in crypt_wipe_device to be negative errno
+b6c65365186f786b6f1622aa6aff1f9621cd5308 Reject key from keyring if payload is of different size
+4d1f04603d2614ba24ccb91cb7bbf53bfdbd93a5 verity: Fail on partial read/write of parity bytes
+5f81dca4ee4400f3e94cf785c4b830ef67517d05 LUKS1: Avoid overflow on device offsets calculations
+4d2ec01f766eaa46eac480341db59612d2f9542b Merge branch 'remove-cryptsetup-nopath' into 'main'
+
+--===============4414203996122331159==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d553e84be962-0e228f9cc85c.txt
+
+830ddd624149ce13da49a840221d18b522c8482d Reject duplicate backup segment flags in LUKS2 validation.
+3be2d4418e67d647387781e1a04d899b1fd4d79a LUKS2: map data segment as dm-linear only for a hw-opal device
+b560d4645ce653027287e88bf4e2042160fb45b3 Fix order-independent validation of segments behind backup segment
+d0abb9b2056bb6751872c06904468c98a3422a02 LUKS2: reject JSON token nested too deep
+9fc17b66a62d27b06dc06bdf270fe34340e53a33 Refuse LUKS2 to LUKS1 conversion when salt is not LUKS_SALTSIZE bytes
+e2b27ace9cf0254b8f609512a10969ec2f1689e9 bitlk: Fix parsing metadata with missing FVEK and VMK entries
+6386e5e981a14c5ba45e9799c404b70bd80a8725 bitlk: Reject FVEK whose size differs from header
+7ce1ce53f19fd6267a000d77d177e64ffd040084 opal: fix off-by-one in OPAL key length checks.
+c6ff15cfeecf7c8b3673ded781391e45a500a05b Always wipe DM params table buffer
+9fea752876701b007e140d42d23aaff66ccc276f LUKS2: Fix error path in LUKS2_token_unlock_key()
+f3f5bb19489ce43df0e763a5288f1cf88e365743 Validate device in device_open_internal()
+cd5430a546823a000b01eef4b81e6cd6b0534a29 tcypt: Lock decrypted header memory
+efbdf69238791338766a19bfcd26c38793d50658 LUKS2: fix possible double free in reencrypt_step
+6723473d1074b6139a315f18aaabf829da0cc596 hw_opal: store lock_unlock/save and PSID args in safe memory
+1be0f187b520ff0f77edad5dc9a172aded9151b5 hw_opal: do not store Admin1 PIN on the stack in opal_reset_segment()
+6e4c957fa5d12388a8243d565c6ad39b87503ca2 LUKS2: Reject wrong JSON object ids
+5223ff59b4c6d1a68d07fb94b80f85b5a6dec1d1 tests: Add test for rejecting wrong JSON object ids
+41bf32903efa388c6d39c9b961d632a473560974 bitlk: reject short clear-key/VMK key entries from BITLK metadata
+388596d76cae2178ead4be0a4378ca94240af902 opal: reject volume keys longer than OPAL_KEY_LEN_MAX
+fb4c0eddfb2820fdb806b6a5e754006a503d5803 Do not accept kernel keys owned by other users in by-name lookup
+dbed0b00dd88e120d418feec92f6ad9d66abb024 Remove unused keyctl_link function.
+e2b65514af4f73b1d7a7a97cd0f11e755b189e78 Invalidate volume key loaded by another context on suspend/deactivate.
+955792cd7a867bb0a6aaa5cd391b6a73917e4ff0 LUKS2: Fail PBKDF2 digest verification for malformed digests
+4b7028b11b566192b16c3f30a2a664ebed5485f9 LUKS2: Validate PBKDF2 digest is complete
+4eea3f627bc7ffdd286c153116a92d55a7b59e5b tests: Add test for PBKDF2 mangled digest
+1b994f8db5a9c5ee54166b0231f59cf45e493d98 Fix null cipher detection.
+434d4b35214d510d669f66ce10b2f279c7004713 LUKS1: Force reset PBKDF to PBKDF2 on load and format
+6eadef379c5caf11afb0ebff77ce896e8e0724fa Detect volume key keyring collisions between same-UUID contexts.
+de7c0ea6dd70c65b4cb758da91d7699c5b315fa3 tests: adapt to duplicate UUID keyring hardening.
+18e9197732d90f27cdb1d998415ddff17981d191 Add OPAL2 segment digest.
+d550e5b4349edb5e6b670406a743660773e29b6d Wipe area between LUKS2 header and data offset after encryption.
+f0f84656df6a72abb20b0a227e679ba55e0c8a47 Harden reencryption hotzone checks in before crash recovery.
+b8af1415b215c82d23ac52a9eecaaa69fc1cec38 reencrypt: wipe temporary LUKS header files before removal
+ccae84d669370764d22104b5c0befbff0e77ac92 verity: Do not fallocate hash file for verification
+ddae288d1db7776c30f0feb4b02c190de4a689cc reencrypt: Do not grow (invalid) LUKS2 images.
+34310d77030509b9115ebc689b132a353b3b7103 plain: Fix hashing of passphrase if shake hash is used
+f438278ef0dacf09b0857455dbf86e5bbcb62484 LUKS: Enforce validation of cipher specification for on-disk metadata
+58b70a2a97c21c01a94f595f35a1150bf8d524d6 tests: Add test for detecting whitespace in LUKS header encryption field
+b7fc49a347b8a0855506cb3e932716d5f1cc2eb4 LUKS: Enforce validation and rejecting of multikey cipher specification
+967b8e21dda5d9ad187fc42cb0a74e966de69b2f tests: Check unexpected multikey specification in LUKS metadata
+a2663c9cf0fd6bf2d97c8d49de66c5d478790a6c LUKS1: limit minimal key size
+e2972523438e166d8ab2dcedbee52cd766190c40 LUKS2: limit minimal key size
+a9f01f10a4aa9690c38bc33b917413f5ad257200 LUKS1: harden detection of null cipher
+4c4d08de9a8062323086905ff5a5c539019703f4 veritysetup: Do not overwrite verification with FEC repair status
+431efa06849a03453c555cfd0defb50f606641ef Reject invalid log file for LUKS1 offline reencryption
+8a8e194483819777f229b977d3f16cb68a35914e LUKS2: Reject algorithms with auth tag without integrity option
+a93341a4ea01d00c6f71c85bf0079e7d58d5c819 tests: Add test for rejecting modes that require IV storage
+784baed48a4e031e6e7bbbe56d8b2f24559e342b LUKS2: limit minimal encryption key if integrity is used
+51381f69c38dab1e1cc6bb4b95d2e5e1c0112e61 tests: Add test for wrong integrity key size
+55a3997b09eb7f89041e5a7c0d208ac5144f28e3 tests: add test for minimal encryption key if integrity is used
+e99825835b11bd075a68946991adad17e0058711 Reject reencrypt backup segments without requirement flag
+9331e6ecd38a46244adcc33f6b9433420c8172d5 Fix broken condition in reencryption metadata validation.
+b14d884a680130fa623f8a841d63b28d0a1fb204 Require shift-size to be aligned to sector size.
+52a9b01d183805fc8c562e574f8878ffc4f326a6 opal: Harden OPAL2 locking ranges checks before erasing.
+e4436a65656078fd7e37ca984a4f4c7751f1d8ed veritysetup: Fix error path for invalid root hash file
+895ee798e7ce108c93ae8273b6506d4f06a54465 loopaes: Fix off-by-one keyfile size processing
+f8bb3732867cac9b45200a95a343dcc30f3331df Fix setting of LUKS2 labels if used with crypt_get_label()
+e20786dbc29311dcc01b608ad0e35a2eec87f8f5 integritysetup: wipe deallocated pointer to journal integrity key
+a6accaef9837c6ae84c0f01575cf37ebb90ffa44 LUKS2: wipe buffer for header backup
+77f64349d1b38eabd8c56a9097ac596d05572777 LUKS1: Reject data offset that cannot fit into 32bit integer
+950423ba5d8bd83ee67b1be533e71da049d9aada bitlk: Process key file as binary array
+113e58f7a9ac182426f8ec7e1ca978083d43a937 bitlk: Wipe recovery key and kdf after use
+454d2504878a16df27f696d20358066f9049534a Do not use possibly deallocated PBKDF2 type
+03ac21261fc514d76b6b2e393a7cfa1ab6debf56 reencrypt: Reject reencryption init if integrity profile is used
+c6778d1fbbf411fa1e32db80edf202feda11ef32 tcrypt: Properly fail if no PBKDF variant can be used
+8bbd05211b42826d71cfafc59209f8fe7bd431cf fvault2: Do not print volume key to terminal if keyfile is requested
+0fe98729a47664bf84044ef8cfef42c02e4542bb verity: Properly reinitialize context if already set on reload
+e0a25f60fbc611ef30f02957cb76c348d8f4e694 cryptsetup: Properly fail if no keyslot is available for checking
+13ff3854fe990be878e9021235438f7c0a5bdae5 LUKS2: Reject keyslot if it cannot fit to keyslot area
+41bbd97da939df8a2cb628497930b1de14d956ed LUKS1: Reject conversion from LUKS2 if integrity profile is used
+e21b6139f0d534869fbae918840a054d33795cc0 verity: Reject salt size larger than superblock salt field
+fc35ffa2393d51ffa169cd42326fcda464a62e4b Avoid using uninitialized memory in write_lseek_blockwise
+2873f9a4aa15d50722997c5d9e10a6ab427c549c Fix error returned in crypt_wipe_device to be negative errno
+b6c65365186f786b6f1622aa6aff1f9621cd5308 Reject key from keyring if payload is of different size
+4d1f04603d2614ba24ccb91cb7bbf53bfdbd93a5 verity: Fail on partial read/write of parity bytes
+5f81dca4ee4400f3e94cf785c4b830ef67517d05 LUKS1: Avoid overflow on device offsets calculations
+0e228f9cc85ceb148436f5a60a6b2bb3a0161177 Merge branch 'distributable-tests-autotools' into 'main'
+
+--===============4414203996122331159==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f4d07f8d2c39-e63af093a780.txt
+
+830ddd624149ce13da49a840221d18b522c8482d Reject duplicate backup segment flags in LUKS2 validation.
+3be2d4418e67d647387781e1a04d899b1fd4d79a LUKS2: map data segment as dm-linear only for a hw-opal device
+b560d4645ce653027287e88bf4e2042160fb45b3 Fix order-independent validation of segments behind backup segment
+d0abb9b2056bb6751872c06904468c98a3422a02 LUKS2: reject JSON token nested too deep
+9fc17b66a62d27b06dc06bdf270fe34340e53a33 Refuse LUKS2 to LUKS1 conversion when salt is not LUKS_SALTSIZE bytes
+e2b27ace9cf0254b8f609512a10969ec2f1689e9 bitlk: Fix parsing metadata with missing FVEK and VMK entries
+6386e5e981a14c5ba45e9799c404b70bd80a8725 bitlk: Reject FVEK whose size differs from header
+7ce1ce53f19fd6267a000d77d177e64ffd040084 opal: fix off-by-one in OPAL key length checks.
+c6ff15cfeecf7c8b3673ded781391e45a500a05b Always wipe DM params table buffer
+9fea752876701b007e140d42d23aaff66ccc276f LUKS2: Fix error path in LUKS2_token_unlock_key()
+f3f5bb19489ce43df0e763a5288f1cf88e365743 Validate device in device_open_internal()
+cd5430a546823a000b01eef4b81e6cd6b0534a29 tcypt: Lock decrypted header memory
+efbdf69238791338766a19bfcd26c38793d50658 LUKS2: fix possible double free in reencrypt_step
+6723473d1074b6139a315f18aaabf829da0cc596 hw_opal: store lock_unlock/save and PSID args in safe memory
+1be0f187b520ff0f77edad5dc9a172aded9151b5 hw_opal: do not store Admin1 PIN on the stack in opal_reset_segment()
+6e4c957fa5d12388a8243d565c6ad39b87503ca2 LUKS2: Reject wrong JSON object ids
+5223ff59b4c6d1a68d07fb94b80f85b5a6dec1d1 tests: Add test for rejecting wrong JSON object ids
+41bf32903efa388c6d39c9b961d632a473560974 bitlk: reject short clear-key/VMK key entries from BITLK metadata
+388596d76cae2178ead4be0a4378ca94240af902 opal: reject volume keys longer than OPAL_KEY_LEN_MAX
+fb4c0eddfb2820fdb806b6a5e754006a503d5803 Do not accept kernel keys owned by other users in by-name lookup
+dbed0b00dd88e120d418feec92f6ad9d66abb024 Remove unused keyctl_link function.
+e2b65514af4f73b1d7a7a97cd0f11e755b189e78 Invalidate volume key loaded by another context on suspend/deactivate.
+955792cd7a867bb0a6aaa5cd391b6a73917e4ff0 LUKS2: Fail PBKDF2 digest verification for malformed digests
+4b7028b11b566192b16c3f30a2a664ebed5485f9 LUKS2: Validate PBKDF2 digest is complete
+4eea3f627bc7ffdd286c153116a92d55a7b59e5b tests: Add test for PBKDF2 mangled digest
+1b994f8db5a9c5ee54166b0231f59cf45e493d98 Fix null cipher detection.
+434d4b35214d510d669f66ce10b2f279c7004713 LUKS1: Force reset PBKDF to PBKDF2 on load and format
+6eadef379c5caf11afb0ebff77ce896e8e0724fa Detect volume key keyring collisions between same-UUID contexts.
+de7c0ea6dd70c65b4cb758da91d7699c5b315fa3 tests: adapt to duplicate UUID keyring hardening.
+18e9197732d90f27cdb1d998415ddff17981d191 Add OPAL2 segment digest.
+d550e5b4349edb5e6b670406a743660773e29b6d Wipe area between LUKS2 header and data offset after encryption.
+f0f84656df6a72abb20b0a227e679ba55e0c8a47 Harden reencryption hotzone checks in before crash recovery.
+b8af1415b215c82d23ac52a9eecaaa69fc1cec38 reencrypt: wipe temporary LUKS header files before removal
+ccae84d669370764d22104b5c0befbff0e77ac92 verity: Do not fallocate hash file for verification
+ddae288d1db7776c30f0feb4b02c190de4a689cc reencrypt: Do not grow (invalid) LUKS2 images.
+34310d77030509b9115ebc689b132a353b3b7103 plain: Fix hashing of passphrase if shake hash is used
+f438278ef0dacf09b0857455dbf86e5bbcb62484 LUKS: Enforce validation of cipher specification for on-disk metadata
+58b70a2a97c21c01a94f595f35a1150bf8d524d6 tests: Add test for detecting whitespace in LUKS header encryption field
+b7fc49a347b8a0855506cb3e932716d5f1cc2eb4 LUKS: Enforce validation and rejecting of multikey cipher specification
+967b8e21dda5d9ad187fc42cb0a74e966de69b2f tests: Check unexpected multikey specification in LUKS metadata
+a2663c9cf0fd6bf2d97c8d49de66c5d478790a6c LUKS1: limit minimal key size
+e2972523438e166d8ab2dcedbee52cd766190c40 LUKS2: limit minimal key size
+a9f01f10a4aa9690c38bc33b917413f5ad257200 LUKS1: harden detection of null cipher
+4c4d08de9a8062323086905ff5a5c539019703f4 veritysetup: Do not overwrite verification with FEC repair status
+431efa06849a03453c555cfd0defb50f606641ef Reject invalid log file for LUKS1 offline reencryption
+8a8e194483819777f229b977d3f16cb68a35914e LUKS2: Reject algorithms with auth tag without integrity option
+a93341a4ea01d00c6f71c85bf0079e7d58d5c819 tests: Add test for rejecting modes that require IV storage
+784baed48a4e031e6e7bbbe56d8b2f24559e342b LUKS2: limit minimal encryption key if integrity is used
+51381f69c38dab1e1cc6bb4b95d2e5e1c0112e61 tests: Add test for wrong integrity key size
+55a3997b09eb7f89041e5a7c0d208ac5144f28e3 tests: add test for minimal encryption key if integrity is used
+e99825835b11bd075a68946991adad17e0058711 Reject reencrypt backup segments without requirement flag
+9331e6ecd38a46244adcc33f6b9433420c8172d5 Fix broken condition in reencryption metadata validation.
+b14d884a680130fa623f8a841d63b28d0a1fb204 Require shift-size to be aligned to sector size.
+52a9b01d183805fc8c562e574f8878ffc4f326a6 opal: Harden OPAL2 locking ranges checks before erasing.
+e4436a65656078fd7e37ca984a4f4c7751f1d8ed veritysetup: Fix error path for invalid root hash file
+895ee798e7ce108c93ae8273b6506d4f06a54465 loopaes: Fix off-by-one keyfile size processing
+f8bb3732867cac9b45200a95a343dcc30f3331df Fix setting of LUKS2 labels if used with crypt_get_label()
+e20786dbc29311dcc01b608ad0e35a2eec87f8f5 integritysetup: wipe deallocated pointer to journal integrity key
+a6accaef9837c6ae84c0f01575cf37ebb90ffa44 LUKS2: wipe buffer for header backup
+77f64349d1b38eabd8c56a9097ac596d05572777 LUKS1: Reject data offset that cannot fit into 32bit integer
+950423ba5d8bd83ee67b1be533e71da049d9aada bitlk: Process key file as binary array
+113e58f7a9ac182426f8ec7e1ca978083d43a937 bitlk: Wipe recovery key and kdf after use
+454d2504878a16df27f696d20358066f9049534a Do not use possibly deallocated PBKDF2 type
+03ac21261fc514d76b6b2e393a7cfa1ab6debf56 reencrypt: Reject reencryption init if integrity profile is used
+c6778d1fbbf411fa1e32db80edf202feda11ef32 tcrypt: Properly fail if no PBKDF variant can be used
+8bbd05211b42826d71cfafc59209f8fe7bd431cf fvault2: Do not print volume key to terminal if keyfile is requested
+0fe98729a47664bf84044ef8cfef42c02e4542bb verity: Properly reinitialize context if already set on reload
+e0a25f60fbc611ef30f02957cb76c348d8f4e694 cryptsetup: Properly fail if no keyslot is available for checking
+13ff3854fe990be878e9021235438f7c0a5bdae5 LUKS2: Reject keyslot if it cannot fit to keyslot area
+41bbd97da939df8a2cb628497930b1de14d956ed LUKS1: Reject conversion from LUKS2 if integrity profile is used
+e21b6139f0d534869fbae918840a054d33795cc0 verity: Reject salt size larger than superblock salt field
+fc35ffa2393d51ffa169cd42326fcda464a62e4b Avoid using uninitialized memory in write_lseek_blockwise
+2873f9a4aa15d50722997c5d9e10a6ab427c549c Fix error returned in crypt_wipe_device to be negative errno
+b6c65365186f786b6f1622aa6aff1f9621cd5308 Reject key from keyring if payload is of different size
+4d1f04603d2614ba24ccb91cb7bbf53bfdbd93a5 verity: Fail on partial read/write of parity bytes
+5f81dca4ee4400f3e94cf785c4b830ef67517d05 LUKS1: Avoid overflow on device offsets calculations
+e63af093a78001b123a1f2fb2c270b86c77fd0f6 Merge branch 'new-fuzzer' into 'main'
+
+--===============4414203996122331159==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7511c50c71f3-fef6371acf46.txt
+
+830ddd624149ce13da49a840221d18b522c8482d Reject duplicate backup segment flags in LUKS2 validation.
+3be2d4418e67d647387781e1a04d899b1fd4d79a LUKS2: map data segment as dm-linear only for a hw-opal device
+b560d4645ce653027287e88bf4e2042160fb45b3 Fix order-independent validation of segments behind backup segment
+d0abb9b2056bb6751872c06904468c98a3422a02 LUKS2: reject JSON token nested too deep
+9fc17b66a62d27b06dc06bdf270fe34340e53a33 Refuse LUKS2 to LUKS1 conversion when salt is not LUKS_SALTSIZE bytes
+e2b27ace9cf0254b8f609512a10969ec2f1689e9 bitlk: Fix parsing metadata with missing FVEK and VMK entries
+6386e5e981a14c5ba45e9799c404b70bd80a8725 bitlk: Reject FVEK whose size differs from header
+7ce1ce53f19fd6267a000d77d177e64ffd040084 opal: fix off-by-one in OPAL key length checks.
+c6ff15cfeecf7c8b3673ded781391e45a500a05b Always wipe DM params table buffer
+9fea752876701b007e140d42d23aaff66ccc276f LUKS2: Fix error path in LUKS2_token_unlock_key()
+f3f5bb19489ce43df0e763a5288f1cf88e365743 Validate device in device_open_internal()
+cd5430a546823a000b01eef4b81e6cd6b0534a29 tcypt: Lock decrypted header memory
+efbdf69238791338766a19bfcd26c38793d50658 LUKS2: fix possible double free in reencrypt_step
+6723473d1074b6139a315f18aaabf829da0cc596 hw_opal: store lock_unlock/save and PSID args in safe memory
+1be0f187b520ff0f77edad5dc9a172aded9151b5 hw_opal: do not store Admin1 PIN on the stack in opal_reset_segment()
+6e4c957fa5d12388a8243d565c6ad39b87503ca2 LUKS2: Reject wrong JSON object ids
+5223ff59b4c6d1a68d07fb94b80f85b5a6dec1d1 tests: Add test for rejecting wrong JSON object ids
+41bf32903efa388c6d39c9b961d632a473560974 bitlk: reject short clear-key/VMK key entries from BITLK metadata
+388596d76cae2178ead4be0a4378ca94240af902 opal: reject volume keys longer than OPAL_KEY_LEN_MAX
+fb4c0eddfb2820fdb806b6a5e754006a503d5803 Do not accept kernel keys owned by other users in by-name lookup
+dbed0b00dd88e120d418feec92f6ad9d66abb024 Remove unused keyctl_link function.
+e2b65514af4f73b1d7a7a97cd0f11e755b189e78 Invalidate volume key loaded by another context on suspend/deactivate.
+955792cd7a867bb0a6aaa5cd391b6a73917e4ff0 LUKS2: Fail PBKDF2 digest verification for malformed digests
+4b7028b11b566192b16c3f30a2a664ebed5485f9 LUKS2: Validate PBKDF2 digest is complete
+4eea3f627bc7ffdd286c153116a92d55a7b59e5b tests: Add test for PBKDF2 mangled digest
+1b994f8db5a9c5ee54166b0231f59cf45e493d98 Fix null cipher detection.
+434d4b35214d510d669f66ce10b2f279c7004713 LUKS1: Force reset PBKDF to PBKDF2 on load and format
+6eadef379c5caf11afb0ebff77ce896e8e0724fa Detect volume key keyring collisions between same-UUID contexts.
+de7c0ea6dd70c65b4cb758da91d7699c5b315fa3 tests: adapt to duplicate UUID keyring hardening.
+18e9197732d90f27cdb1d998415ddff17981d191 Add OPAL2 segment digest.
+d550e5b4349edb5e6b670406a743660773e29b6d Wipe area between LUKS2 header and data offset after encryption.
+f0f84656df6a72abb20b0a227e679ba55e0c8a47 Harden reencryption hotzone checks in before crash recovery.
+b8af1415b215c82d23ac52a9eecaaa69fc1cec38 reencrypt: wipe temporary LUKS header files before removal
+ccae84d669370764d22104b5c0befbff0e77ac92 verity: Do not fallocate hash file for verification
+ddae288d1db7776c30f0feb4b02c190de4a689cc reencrypt: Do not grow (invalid) LUKS2 images.
+34310d77030509b9115ebc689b132a353b3b7103 plain: Fix hashing of passphrase if shake hash is used
+f438278ef0dacf09b0857455dbf86e5bbcb62484 LUKS: Enforce validation of cipher specification for on-disk metadata
+58b70a2a97c21c01a94f595f35a1150bf8d524d6 tests: Add test for detecting whitespace in LUKS header encryption field
+b7fc49a347b8a0855506cb3e932716d5f1cc2eb4 LUKS: Enforce validation and rejecting of multikey cipher specification
+967b8e21dda5d9ad187fc42cb0a74e966de69b2f tests: Check unexpected multikey specification in LUKS metadata
+a2663c9cf0fd6bf2d97c8d49de66c5d478790a6c LUKS1: limit minimal key size
+e2972523438e166d8ab2dcedbee52cd766190c40 LUKS2: limit minimal key size
+a9f01f10a4aa9690c38bc33b917413f5ad257200 LUKS1: harden detection of null cipher
+4c4d08de9a8062323086905ff5a5c539019703f4 veritysetup: Do not overwrite verification with FEC repair status
+431efa06849a03453c555cfd0defb50f606641ef Reject invalid log file for LUKS1 offline reencryption
+8a8e194483819777f229b977d3f16cb68a35914e LUKS2: Reject algorithms with auth tag without integrity option
+a93341a4ea01d00c6f71c85bf0079e7d58d5c819 tests: Add test for rejecting modes that require IV storage
+784baed48a4e031e6e7bbbe56d8b2f24559e342b LUKS2: limit minimal encryption key if integrity is used
+51381f69c38dab1e1cc6bb4b95d2e5e1c0112e61 tests: Add test for wrong integrity key size
+55a3997b09eb7f89041e5a7c0d208ac5144f28e3 tests: add test for minimal encryption key if integrity is used
+e99825835b11bd075a68946991adad17e0058711 Reject reencrypt backup segments without requirement flag
+9331e6ecd38a46244adcc33f6b9433420c8172d5 Fix broken condition in reencryption metadata validation.
+b14d884a680130fa623f8a841d63b28d0a1fb204 Require shift-size to be aligned to sector size.
+52a9b01d183805fc8c562e574f8878ffc4f326a6 opal: Harden OPAL2 locking ranges checks before erasing.
+e4436a65656078fd7e37ca984a4f4c7751f1d8ed veritysetup: Fix error path for invalid root hash file
+895ee798e7ce108c93ae8273b6506d4f06a54465 loopaes: Fix off-by-one keyfile size processing
+f8bb3732867cac9b45200a95a343dcc30f3331df Fix setting of LUKS2 labels if used with crypt_get_label()
+e20786dbc29311dcc01b608ad0e35a2eec87f8f5 integritysetup: wipe deallocated pointer to journal integrity key
+a6accaef9837c6ae84c0f01575cf37ebb90ffa44 LUKS2: wipe buffer for header backup
+77f64349d1b38eabd8c56a9097ac596d05572777 LUKS1: Reject data offset that cannot fit into 32bit integer
+950423ba5d8bd83ee67b1be533e71da049d9aada bitlk: Process key file as binary array
+113e58f7a9ac182426f8ec7e1ca978083d43a937 bitlk: Wipe recovery key and kdf after use
+454d2504878a16df27f696d20358066f9049534a Do not use possibly deallocated PBKDF2 type
+03ac21261fc514d76b6b2e393a7cfa1ab6debf56 reencrypt: Reject reencryption init if integrity profile is used
+c6778d1fbbf411fa1e32db80edf202feda11ef32 tcrypt: Properly fail if no PBKDF variant can be used
+8bbd05211b42826d71cfafc59209f8fe7bd431cf fvault2: Do not print volume key to terminal if keyfile is requested
+0fe98729a47664bf84044ef8cfef42c02e4542bb verity: Properly reinitialize context if already set on reload
+e0a25f60fbc611ef30f02957cb76c348d8f4e694 cryptsetup: Properly fail if no keyslot is available for checking
+13ff3854fe990be878e9021235438f7c0a5bdae5 LUKS2: Reject keyslot if it cannot fit to keyslot area
+41bbd97da939df8a2cb628497930b1de14d956ed LUKS1: Reject conversion from LUKS2 if integrity profile is used
+e21b6139f0d534869fbae918840a054d33795cc0 verity: Reject salt size larger than superblock salt field
+fc35ffa2393d51ffa169cd42326fcda464a62e4b Avoid using uninitialized memory in write_lseek_blockwise
+2873f9a4aa15d50722997c5d9e10a6ab427c549c Fix error returned in crypt_wipe_device to be negative errno
+b6c65365186f786b6f1622aa6aff1f9621cd5308 Reject key from keyring if payload is of different size
+4d1f04603d2614ba24ccb91cb7bbf53bfdbd93a5 verity: Fail on partial read/write of parity bytes
+5f81dca4ee4400f3e94cf785c4b830ef67517d05 LUKS1: Avoid overflow on device offsets calculations
+fef6371acf4618bea14ce53b8fbea42e000857f5 Merge branch 'fix-opal-discovery-and-geometry-bounds' into 'main'
+
+--===============4414203996122331159==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b2c96a855bc7-1b47bd6654e9.txt
+
+830ddd624149ce13da49a840221d18b522c8482d Reject duplicate backup segment flags in LUKS2 validation.
+3be2d4418e67d647387781e1a04d899b1fd4d79a LUKS2: map data segment as dm-linear only for a hw-opal device
+b560d4645ce653027287e88bf4e2042160fb45b3 Fix order-independent validation of segments behind backup segment
+d0abb9b2056bb6751872c06904468c98a3422a02 LUKS2: reject JSON token nested too deep
+9fc17b66a62d27b06dc06bdf270fe34340e53a33 Refuse LUKS2 to LUKS1 conversion when salt is not LUKS_SALTSIZE bytes
+e2b27ace9cf0254b8f609512a10969ec2f1689e9 bitlk: Fix parsing metadata with missing FVEK and VMK entries
+6386e5e981a14c5ba45e9799c404b70bd80a8725 bitlk: Reject FVEK whose size differs from header
+7ce1ce53f19fd6267a000d77d177e64ffd040084 opal: fix off-by-one in OPAL key length checks.
+c6ff15cfeecf7c8b3673ded781391e45a500a05b Always wipe DM params table buffer
+9fea752876701b007e140d42d23aaff66ccc276f LUKS2: Fix error path in LUKS2_token_unlock_key()
+f3f5bb19489ce43df0e763a5288f1cf88e365743 Validate device in device_open_internal()
+cd5430a546823a000b01eef4b81e6cd6b0534a29 tcypt: Lock decrypted header memory
+efbdf69238791338766a19bfcd26c38793d50658 LUKS2: fix possible double free in reencrypt_step
+6723473d1074b6139a315f18aaabf829da0cc596 hw_opal: store lock_unlock/save and PSID args in safe memory
+1be0f187b520ff0f77edad5dc9a172aded9151b5 hw_opal: do not store Admin1 PIN on the stack in opal_reset_segment()
+6e4c957fa5d12388a8243d565c6ad39b87503ca2 LUKS2: Reject wrong JSON object ids
+5223ff59b4c6d1a68d07fb94b80f85b5a6dec1d1 tests: Add test for rejecting wrong JSON object ids
+41bf32903efa388c6d39c9b961d632a473560974 bitlk: reject short clear-key/VMK key entries from BITLK metadata
+388596d76cae2178ead4be0a4378ca94240af902 opal: reject volume keys longer than OPAL_KEY_LEN_MAX
+fb4c0eddfb2820fdb806b6a5e754006a503d5803 Do not accept kernel keys owned by other users in by-name lookup
+dbed0b00dd88e120d418feec92f6ad9d66abb024 Remove unused keyctl_link function.
+e2b65514af4f73b1d7a7a97cd0f11e755b189e78 Invalidate volume key loaded by another context on suspend/deactivate.
+955792cd7a867bb0a6aaa5cd391b6a73917e4ff0 LUKS2: Fail PBKDF2 digest verification for malformed digests
+4b7028b11b566192b16c3f30a2a664ebed5485f9 LUKS2: Validate PBKDF2 digest is complete
+4eea3f627bc7ffdd286c153116a92d55a7b59e5b tests: Add test for PBKDF2 mangled digest
+1b994f8db5a9c5ee54166b0231f59cf45e493d98 Fix null cipher detection.
+434d4b35214d510d669f66ce10b2f279c7004713 LUKS1: Force reset PBKDF to PBKDF2 on load and format
+6eadef379c5caf11afb0ebff77ce896e8e0724fa Detect volume key keyring collisions between same-UUID contexts.
+de7c0ea6dd70c65b4cb758da91d7699c5b315fa3 tests: adapt to duplicate UUID keyring hardening.
+18e9197732d90f27cdb1d998415ddff17981d191 Add OPAL2 segment digest.
+d550e5b4349edb5e6b670406a743660773e29b6d Wipe area between LUKS2 header and data offset after encryption.
+f0f84656df6a72abb20b0a227e679ba55e0c8a47 Harden reencryption hotzone checks in before crash recovery.
+b8af1415b215c82d23ac52a9eecaaa69fc1cec38 reencrypt: wipe temporary LUKS header files before removal
+ccae84d669370764d22104b5c0befbff0e77ac92 verity: Do not fallocate hash file for verification
+ddae288d1db7776c30f0feb4b02c190de4a689cc reencrypt: Do not grow (invalid) LUKS2 images.
+34310d77030509b9115ebc689b132a353b3b7103 plain: Fix hashing of passphrase if shake hash is used
+f438278ef0dacf09b0857455dbf86e5bbcb62484 LUKS: Enforce validation of cipher specification for on-disk metadata
+58b70a2a97c21c01a94f595f35a1150bf8d524d6 tests: Add test for detecting whitespace in LUKS header encryption field
+b7fc49a347b8a0855506cb3e932716d5f1cc2eb4 LUKS: Enforce validation and rejecting of multikey cipher specification
+967b8e21dda5d9ad187fc42cb0a74e966de69b2f tests: Check unexpected multikey specification in LUKS metadata
+a2663c9cf0fd6bf2d97c8d49de66c5d478790a6c LUKS1: limit minimal key size
+e2972523438e166d8ab2dcedbee52cd766190c40 LUKS2: limit minimal key size
+a9f01f10a4aa9690c38bc33b917413f5ad257200 LUKS1: harden detection of null cipher
+4c4d08de9a8062323086905ff5a5c539019703f4 veritysetup: Do not overwrite verification with FEC repair status
+431efa06849a03453c555cfd0defb50f606641ef Reject invalid log file for LUKS1 offline reencryption
+8a8e194483819777f229b977d3f16cb68a35914e LUKS2: Reject algorithms with auth tag without integrity option
+a93341a4ea01d00c6f71c85bf0079e7d58d5c819 tests: Add test for rejecting modes that require IV storage
+784baed48a4e031e6e7bbbe56d8b2f24559e342b LUKS2: limit minimal encryption key if integrity is used
+51381f69c38dab1e1cc6bb4b95d2e5e1c0112e61 tests: Add test for wrong integrity key size
+55a3997b09eb7f89041e5a7c0d208ac5144f28e3 tests: add test for minimal encryption key if integrity is used
+e99825835b11bd075a68946991adad17e0058711 Reject reencrypt backup segments without requirement flag
+9331e6ecd38a46244adcc33f6b9433420c8172d5 Fix broken condition in reencryption metadata validation.
+b14d884a680130fa623f8a841d63b28d0a1fb204 Require shift-size to be aligned to sector size.
+52a9b01d183805fc8c562e574f8878ffc4f326a6 opal: Harden OPAL2 locking ranges checks before erasing.
+e4436a65656078fd7e37ca984a4f4c7751f1d8ed veritysetup: Fix error path for invalid root hash file
+895ee798e7ce108c93ae8273b6506d4f06a54465 loopaes: Fix off-by-one keyfile size processing
+f8bb3732867cac9b45200a95a343dcc30f3331df Fix setting of LUKS2 labels if used with crypt_get_label()
+e20786dbc29311dcc01b608ad0e35a2eec87f8f5 integritysetup: wipe deallocated pointer to journal integrity key
+a6accaef9837c6ae84c0f01575cf37ebb90ffa44 LUKS2: wipe buffer for header backup
+77f64349d1b38eabd8c56a9097ac596d05572777 LUKS1: Reject data offset that cannot fit into 32bit integer
+950423ba5d8bd83ee67b1be533e71da049d9aada bitlk: Process key file as binary array
+113e58f7a9ac182426f8ec7e1ca978083d43a937 bitlk: Wipe recovery key and kdf after use
+454d2504878a16df27f696d20358066f9049534a Do not use possibly deallocated PBKDF2 type
+03ac21261fc514d76b6b2e393a7cfa1ab6debf56 reencrypt: Reject reencryption init if integrity profile is used
+c6778d1fbbf411fa1e32db80edf202feda11ef32 tcrypt: Properly fail if no PBKDF variant can be used
+8bbd05211b42826d71cfafc59209f8fe7bd431cf fvault2: Do not print volume key to terminal if keyfile is requested
+0fe98729a47664bf84044ef8cfef42c02e4542bb verity: Properly reinitialize context if already set on reload
+e0a25f60fbc611ef30f02957cb76c348d8f4e694 cryptsetup: Properly fail if no keyslot is available for checking
+13ff3854fe990be878e9021235438f7c0a5bdae5 LUKS2: Reject keyslot if it cannot fit to keyslot area
+41bbd97da939df8a2cb628497930b1de14d956ed LUKS1: Reject conversion from LUKS2 if integrity profile is used
+e21b6139f0d534869fbae918840a054d33795cc0 verity: Reject salt size larger than superblock salt field
+fc35ffa2393d51ffa169cd42326fcda464a62e4b Avoid using uninitialized memory in write_lseek_blockwise
+2873f9a4aa15d50722997c5d9e10a6ab427c549c Fix error returned in crypt_wipe_device to be negative errno
+b6c65365186f786b6f1622aa6aff1f9621cd5308 Reject key from keyring if payload is of different size
+4d1f04603d2614ba24ccb91cb7bbf53bfdbd93a5 verity: Fail on partial read/write of parity bytes
+5f81dca4ee4400f3e94cf785c4b830ef67517d05 LUKS1: Avoid overflow on device offsets calculations
+1b47bd6654e9bc10cc53d58aa5c7f3ec352447f0 Merge branch 'feature/plain-sector-size-up-to-64k' into 'main'
+
+--===============4414203996122331159==--
