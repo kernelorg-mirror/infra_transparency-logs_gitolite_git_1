@@ -1,45 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============2142824639112559979=="
+Content-Type: multipart/mixed; boundary="===============7902381727490723899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
-Date: Mon, 23 Nov 2026 13:09:34 -0000
-Message-Id: <179543937480.414991.4330066787093350148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Mon, 23 Nov 2026 13:14:04 -0000
+Message-Id: <179543964449.418346.13629751449939722021@gitolite.kernel.org>
 
---===============2142824639112559979==
+--===============7902381727490723899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/fuse
-user: mszeredi
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 7f7b822d09c5590defcc61a37ffbd5a3533ed518
-    new: b6a9fa34ce4187cb69d3c588a4bbffc31ce5db8f
-    log: revlist-7f7b822d09c5-b6a9fa34ce41.txt
+  - ref: refs/heads/b4/llm-char-misc-comedi
+    old: 0959d866d0d4e1773a0dbce88f249dd7df55478c
+    new: 00d727ebbb930f9d8e230d853496e03c6c2291e6
+    log: revlist-0959d866d0d4-00d727ebbb93.txt
 
---===============2142824639112559979==
+--===============7902381727490723899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f7b822d09c5-b6a9fa34ce41.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a57a255ce204b51327ac4e840a7726b0ab9a1942 Bluetooth: hci_qca: Reopen the UART after enabling QCA2066
-45e28b01e4d06282d03f08888f09722709d4b552 Bluetooth: hci_qca: Don't use the serdev port after a failed reopen
-4728474344793dd67956e03a2cb244b71383ef7c Bluetooth: MGMT: Fix runtime config status opcode
-1645edfa8c29e43239cca615cefcb19959d3aa36 Bluetooth: L2CAP: validate MPS and MTU in ECRED connection response
-d9a1bd14caf5d235499319f7aee9e641c12d90a9 Bluetooth: hci_conn: Initialize the device before hash insertion
-58d8a0955065fb00824865dca5b573a1becbb1ca Bluetooth: vhci: Flush suspend work after removing debugfs
-f8ba3e2e82f06cbd469d6ee249fbf86c138247c9 Bluetooth: vhci: Serialize packet reception with device creation
-df33621e70363df4d6963ad5ff19a3ae740c7703 Bluetooth: L2CAP: Protect the receive reject-list lookup
-6e2213dae78b41976c60133eb10cf99e81916638 iommu/amd: Force device table to maximum size
-5b84c729a82a726b3a523d0cc45cd465808562af Merge branch 'amd-iommu-fix'
-7e2645d5c05ac03f240685fe76a2c04733d36a1a drm/sched: Ensure stopped entity cannot be re-added to the run-queue
-a9e719883c8ae5b553a6af4f508c2e8d41c69578 Merge tag 'xsa531+532-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-f7c68e9d5d050301548d93ccbccd644151ced269 Merge tag 'mmc-v7.4-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-067c5c24cef23d913b67eaaf71ae67e7169a6620 Merge tag 'page_alloc-for-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/mm/page_alloc
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795439645 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1795439621-ba93462f69f1037edf05ffe097370dd485b34a3f
+
+0959d866d0d4e1773a0dbce88f249dd7df55478c 00d727ebbb930f9d8e230d853496e03c6c2291e6 refs/heads/b4/llm-char-misc-comedi
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsEPB0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kUQP/jeZUkAoDkpvgoGDSnqR
+/cXYIeUEfDTO8uxYOoMMZoeYKG4WAArVhYax2nYIjfQrHhg8LXW2MsT0xw+vAE9Y
+wWKh8SsAQoxXlB/TvFZyH9h8n1i6dZUcIRUzEaAYnsxG7rO7W8fryAHj/GY5DeCA
+TfA19Y2wB2c/gv4YW+dBDFChM4U23Xre1tEXnM+Ph38ZMnX0BGDEYw1e9h61RN4D
+E1bc5ZRH5jR1inafjWsWUxAkrVh9LaKiWaT7+SJr6+N1nl75EM5DRMvnCnalazSD
+G/aQskZkLO+/quGIq2WmOD+JGYc5Xw8fmwCj0WgnAh3G8WNo2ULJRoySmmG42H6J
+IKblPZML2vAD3nYQEh8pmPaPN3Za4m2E50VhU13p8rbVSKM0uPuM5HKmYSJDvcX4
+32vf+CKu2ueZxx9h+1lrAvTg621HegNxb0SR2hzXokYLLtQJgQ7s7VK9XZUEFml7
+Cm5wmVRO1wbiHVC27Tq0l30t8HrmzdP99ogxpKlU6GKxlVzKSYsHanCvxARQzJKB
+hAFZJSwKVaPBGQ1c7vNcQGIwNNj2HyV5BVN6KfJzqDX0gvTaJ3CMWBePvSnvJS5K
+SUThUsv8CQl4YNOdQAtQ6hc3UAyVkMHm05vekAmYSOkjbxMM1QmM0AvFHhGTM15s
+0KsjtuOM+qDMS1myMEnNs4nC
+=XJFs
+-----END PGP SIGNATURE-----
+
+--===============7902381727490723899==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0959d866d0d4-00d727ebbb93.txt
+
 44818c9a826d766dc0e21179dc76f229334f1dda net: gro: avoid parsing headers from shared fragments
 d00ba321499c0050872d70c41d86069f1d52c248 ASoC: soc-core: reset rtd->num_components after allocation
 9280128245612b30ca4a238daa6a777b0f4e583e net: usb: lan78xx: let unregister_netdev() stop phylink
@@ -941,6 +958,16 @@ ed52e47133f72195f246a9f70c98e47431bb566d fbdev: smscufx: don't free registered f
 e8645fe7419828fd95a90171149c565c1bb72911 fbdev: smscufx: keep the usb_device alive while ufx_data is in use
 ae14fe6f367a9779e108449b4af41791bd6aaa47 fbdev: smscufx: allocate the size advertised in smem_len
 b3f1631d362539cfe14571ccfd7db919ffbc08c7 fbdev: radeonfb: reject a zero pixclock in radeonfb_check_var()
+ef925fd700ea8f64ce34225f9fea1d20ae3f3cab fuse: derive short read EOF from the request offset
+6df984631391616dafd9b989a3505d93ca4fd235 virtiofs: fix use-after-free of fs->tag on device removal
+16fabae51accb1057582dcfe758fb1a8a852a07c virtiofs: disable request timeout
+0d2eb896e634c5c843600780164a9fc0f0cedf72 virtiofs: zero the reply region of the argument buffer
+a8fdb9d75e7988e637816492ff08d51cff5dabd7 fuse: don't pass a NULL inode to fuse_inode_backing() on release
+f7e0ed317736fb33d18e0b903743c2d7f9faa92c fuse: don't mark inode DAX without CONFIG_FS_DAX
+6704a78171aa20caab2cd16da9ae2ff8edd4bb1d fuse: advertise support for DAX mappings
+fea42fae07822cd717ba4b3082834bb5908bf911 fuse: set dentry epoch before making the dentry visible
+2eb2329f9ce7f29f227656cc2686fe6f1879d11c fuse: preserve ENOTCONN after failed initialization and disconnect
+ae932b1f5727004f585d603e0cbab7e0725c04cf fuse: skip dcache instantiation for readdirplus names with embedded NUL
 6008a6e34ca0446739abfff189902af2214cfff1 spi: fsl-lpspi: expand FCR TWATER and RXWATER bit fields to 4 bits
 f66297be665c067d2e96da9ce1c5767b587e17b7 ASoC: tas2781: Avoid possible zero-division
 b544ca82abb46f2f870d32b3d7cae6ff9d9d1311 regulator: mt6363: Serialize BUCK_TOP key access
@@ -975,6 +1002,9 @@ f6f88b0aa156a7df2477950fddf6b413d1c76a31 KVM: PPC: Book3s: nestedv2: Free the gu
 ba4564fc66ae796f5070925b803e8f3039423ffb powerpc32/bpf: return false from bpf_jit_supports_fsession() on ppc32
 54efc2e1e9af9e3a14264db5686330e4fd477286 KVM: PPC: BookE: Use vcpu_err() instead of printk() in kvmppc_dump_vcpu()
 31678e68f82636a27fbad58ae40054557da4fd7e gpio: shared-proxy: propagate -ENOTSUPP from .set_config()
+71b2cafb76c62c0f800daa94fc4c8f32936a4fbb fuse: fix UBSAN warning in fuse_iomap_writeback_range()
+d9013d15b9379b323f1bcdfff7e7d96df537268a fuse: clear the old EOF tail before writeback-cache writes
+7f7b822d09c5590defcc61a37ffbd5a3533ed518 fuse: limit name size in listxattr
 fb5289b697c965581104bafdd875b969a1db3e79 zonefs: ignore RLIMIT_FSIZE above LLONG_MAX in zonefs_write_check_limits()
 09ee6ce0a9496b39cb8682101912e8f9291df61d tracing: Keep copying markers when one instance is stopped
 9eb7e9068b26120b201e4b10237a5bbe5b95d855 tracing: Restrict perf filters that read kernel strings
@@ -1050,5 +1080,6 @@ fdcd45bc9cfee488b92efc4b7f43d6865ec82770 Merge tag 'spi-fix-v7.4-rc3' of git://g
 2681617eb9317444247380298564f58142fc4ff8 Merge tag 'riscv-for-linus-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 6e4122f0242a3262512ee3e6f2e7e6de0bd5792b Merge tag 'perf-tools-fixes-for-v7.4-1-2026-11-22' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 b6a9fa34ce4187cb69d3c588a4bbffc31ce5db8f Linux 7.4-rc4
+00d727ebbb930f9d8e230d853496e03c6c2291e6 comedi: some small llm-found fixes
 
---===============2142824639112559979==--
+--===============7902381727490723899==--
