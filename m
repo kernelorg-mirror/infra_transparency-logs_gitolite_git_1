@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1842484620219937970=="
+Content-Type: multipart/mixed; boundary="===============5655930964948569877=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 23 Nov 2026 21:45:50 -0000
-Message-Id: <179547035051.827684.578040024956540598@gitolite.kernel.org>
+Date: Mon, 23 Nov 2026 21:46:13 -0000
+Message-Id: <179547037347.827938.12728737465435234279@gitolite.kernel.org>
 
---===============1842484620219937970==
+--===============5655930964948569877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: mikulas
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dm-7.5
     old: fdb5a411458580d7ff35043e74e65f586c7ecbc6
     new: 5feb56b402e9827d599b4076da9ad71c374b9ef5
     log: revlist-fdb5a4114585-5feb56b402e9.txt
 
---===============1842484620219937970==
+--===============5655930964948569877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ deafe5ac5531134f4ffc46f3925393ae659f60c9 dm thin: free thins with kfree_rcu() in
 640a47ece3cae9274a84579e021e326bc7923bce dm thin metadata: don't treat a device id lookup error as unused
 5feb56b402e9827d599b4076da9ad71c374b9ef5 dm thin metadata: don't remove nonexistent details if create_snap fails
 
---===============1842484620219937970==--
+--===============5655930964948569877==--
