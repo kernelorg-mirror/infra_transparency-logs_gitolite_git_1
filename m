@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8065941501175507011=="
+Content-Type: multipart/mixed; boundary="===============5522211284318172591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 23 Nov 2026 12:46:05 -0000
-Message-Id: <179543796544.398359.6940682162896020316@gitolite.kernel.org>
+Date: Mon, 23 Nov 2026 12:46:52 -0000
+Message-Id: <179543801297.398767.9779072833562723948@gitolite.kernel.org>
 
---===============8065941501175507011==
+--===============5522211284318172591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,51 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    new: b6a9fa34ce4187cb69d3c588a4bbffc31ce5db8f
-    log: revlist-6628e7d4c6b2-b6a9fa34ce41.txt
+  - ref: refs/heads/readfile
+    old: bb5754f4fc7073c1cbe6f05917fe5bec7f4d0cfc
+    new: 11323452b18d20707433f72cfb373a0addb19ccf
+    log: revlist-bb5754f4fc70-11323452b18d.txt
 
---===============8065941501175507011==
+--===============5522211284318172591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795437984 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795438016 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1795437960-1080185d7f4a7ae27dde47eb39ed257d1cbb35a5
+nonce 1795437991-0e85a76a6f362e4a7d17f6466071c4f0ff8cb3a5
 
-6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 b6a9fa34ce4187cb69d3c588a4bbffc31ce5db8f refs/heads/main
+bb5754f4fc7073c1cbe6f05917fe5bec7f4d0cfc 11323452b18d20707433f72cfb373a0addb19ccf refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsENaAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IyIP/R6/ns/febTaWgf6TfUG
-oRPaaAPYcALdVdj0VriWdRbs155mKpOBjHpfWaZiNqwS1Jkcb/pjm9PqCZfjhYhb
-ZHkuAK3O6oRxRGUAZ7/k4DDhAQu3aCadaQE0jnQaym2Y38i31x9ACaceuZp1184p
-TKAsJvDAuTVfB/e1btNPu2cXMonhx+1P+cI01WF3FD7UdP6wVrxW3QOBxmPrblQF
-dYEPEfmIyaPtoVKrWV2eIZPugPVBaIVLbtnGxs79VLq+5cspKwpCROEQrYnCziMQ
-5wN/KKXkFh3mtFLlICERYZFzHtI2+vZt2arKE1enKgJlNErC2FLiYiC0do/zV8yg
-fj8TqjlFZunobmwTYWCG/O2aYeozIB+6OcAJCz34pnaG134fdP/HY5V8zMvbsa5r
-FcQzmYH9O0fcW8E58Wr/dNZs8Jy3z5odM/zS20DHAmKc4Pp6NvKo6lAs5qgkEuyW
-HCFiA4VHPpkyIGQrTkRRxFmQTvv4KVWwXz+X9ALWlrpCAjVC5XH7Wxc7sT52e5vK
-D1hMyvWOxSF1CHplwxixbtNQdPRtis+dd/307kWF5UN2bR9FpMSoHEGsCZRsr3uz
-G+k+JoREPh95lqi9xexh4dowKKnr+U2Ia11iTmwwnSho+Y/Aclj241HItM3Q8W65
-A41A1WIm36wqMlFfRuSg2ZpF
-=dBeM
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsENcAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+G4MQAImnj4E4ys78VJEMcriW
+AjLQiWDzG9pbyXadxPPt9ukj8u+zJ/XKt7I1Rck5Gjtewy18+w5RlOL+XB7HZ/jZ
+7F3dCbNQdfaPKSlGSCgGH2epwO5VMkKHEyvHtOXt5AD5E+zGFRcEyxN/cCFKZCV0
++s05QEQWewIz78JoWIOhLsAvvptFFKYF2LVtv39lDrhMDpYJM5hoP5izzB82o+Jb
+Jko1Ox3mWq/axqTsrjEIPyxu8dhDdSRlTBwW9CfigwUcPtwNA7iIAO/WdPckoc8p
+ngNMYxbywRWHLK5lsMQeZ8WcdSXplvaGs71X5DD8qamaQHo6hrYsXe5EHtm6GT8D
+kZ2LiXc7SPCav9cHr8sJ0+QutFrGtLqwklqZ29MqvaTbZnOcRZ67qOGL3UYmq1iR
+TbPz7qvYATavQjNyrq4oWHBT2JGMYm27eQeywqeDELkNCQUuq+3Lo3xgLtpVhyI8
+WyUvMUSTt+FfGFwcrS6clZhHQnP4TjyVM/MEHkYIAKUAOfzaq9SHCmkJB08Z5prn
+7w6f/Nhq/t4u7+bPYTqxbwpCg/xM0mWxZvtDpaQ3WlokMxDGdJKuOkILJ8dDx7eZ
+iOp/IhC3HioH9rwT+mfsexZvxwF5bT8zauVV9ctt7TT/AnRaJuMc2E7EgoYlRAqF
+dlpxEP0hKmlVSJUmOy2sr2JN
+=tnr4
 -----END PGP SIGNATURE-----
 
---===============8065941501175507011==
+--===============5522211284318172591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6628e7d4c6b2-b6a9fa34ce41.txt
+Content-Disposition: attachment; filename=revlist-bb5754f4fc70-11323452b18d.txt
 
-067c5c24cef23d913b67eaaf71ae67e7169a6620 Merge tag 'page_alloc-for-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/mm/page_alloc
-44818c9a826d766dc0e21179dc76f229334f1dda net: gro: avoid parsing headers from shared fragments
-d00ba321499c0050872d70c41d86069f1d52c248 ASoC: soc-core: reset rtd->num_components after allocation
-9280128245612b30ca4a238daa6a777b0f4e583e net: usb: lan78xx: let unregister_netdev() stop phylink
 67869597fab06abaa5b977cb7004532269fc960b net: mana: fix XDP_REDIRECT of pre-allocated RX buffers
 d7900fa51642fbc2a5a03354238e71050a7d391d net/smc: fix lgr/lnk lifetime vs diag reader race
 7d02c07c738bf5c4b9a7d7ef498fbf465c446853 net/sched: act_ife: encode configured zero metadata values
@@ -1081,5 +1077,9 @@ fdcd45bc9cfee488b92efc4b7f43d6865ec82770 Merge tag 'spi-fix-v7.4-rc3' of git://g
 2681617eb9317444247380298564f58142fc4ff8 Merge tag 'riscv-for-linus-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 6e4122f0242a3262512ee3e6f2e7e6de0bd5792b Merge tag 'perf-tools-fixes-for-v7.4-1-2026-11-22' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 b6a9fa34ce4187cb69d3c588a4bbffc31ce5db8f Linux 7.4-rc4
+18b5057daaed49da26c6ccc8d0fddb4b4e85a5ae readfile: implement readfile syscall
+7dab47e4788a6535f02c415d810a5b97c058d5f2 arch: wire up the readfile syscall
+09157ca5659cad9f0597977717e5ee17b7aaaed2 readfile.2: new page describing readfile(2)
+11323452b18d20707433f72cfb373a0addb19ccf selftests: add readfile(2) selftests
 
---===============8065941501175507011==--
+--===============5522211284318172591==--
