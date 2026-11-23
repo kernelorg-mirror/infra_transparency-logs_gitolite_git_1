@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Mon, 23 Nov 2026 14:51:25 -0000
-Message-Id: <179544548504.496164.3243693358365610622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 23 Nov 2026 14:52:33 -0000
+Message-Id: <179544555389.496607.547973554493786318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 1743c50703d1db237cc6ec6d20434c5f1f2b607d
-    new: eec3e95265dabe084cba02aaa0e9b05e67c6b49b
+  - ref: refs/heads/main
+    old: 7b0c5f0c757cb61e28dc4128633877aaa8f6f9bd
+    new: a233b32f1a124a0b878071aa75f3f85a6f1bccde
     log: |
-         7897ed614fec08f9b514c558fb271d28a273a380 meson.build: define OPENSSL_API_COMPAT that we use
-         eec3e95265dabe084cba02aaa0e9b05e67c6b49b ci: drop deprecated symbols override
+         a233b32f1a124a0b878071aa75f3f85a6f1bccde net: release netpoll dev_lock when NETDEV_PRE_UP vetoes an open
          
