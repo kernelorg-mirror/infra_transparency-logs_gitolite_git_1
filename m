@@ -1,31 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 23 Nov 2026 15:18:18 -0000
-Message-Id: <179544709813.517228.14851106491456518133@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/cryptsetup/cryptsetup
+Date: Mon, 23 Nov 2026 15:22:45 -0000
+Message-Id: <179544736584.521529.3862635648910778747@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/utils/cryptsetup/cryptsetup
+user: mbroz
 changes:
-  - ref: refs/heads/for-linus
-    old: f8c9e089ed5c8daf78ca92ff0229ea696a29bcbd
-    new: 57accdaa50285b6cf185a74e821cc813a72009e7
+  - ref: refs/heads/v2.8.x
+    old: ff8df9cd42430fe1ef7dfb0b4aca061d9460561d
+    new: 388dc8b24ada0b23eae38dda8dfa2b8204409fb0
     log: |
-         18dd7729be0693cd9a8df3f9b19d59f6bfb8079b ASoC: dt-bindings: tegra: Add Tegra268 ADMAIF support
-         e30058ddec9949cda0b6975f1500ed1af6003901 ASoC: tegra: ADMAIF: Add Tegra268 support
-         57accdaa50285b6cf185a74e821cc813a72009e7 ASoC: tegra: Add Tegra268 ADMAIF support
+         388dc8b24ada0b23eae38dda8dfa2b8204409fb0 ci: Update GitHub action scripts
          
-  - ref: refs/heads/for-next
-    old: 30c17fe21c9f7e35956d71e626c2a7289553799d
-    new: aa66a243b561b1fbcd32baa14a659e6e95d01991
-    log: |
-         18dd7729be0693cd9a8df3f9b19d59f6bfb8079b ASoC: dt-bindings: tegra: Add Tegra268 ADMAIF support
-         e30058ddec9949cda0b6975f1500ed1af6003901 ASoC: tegra: ADMAIF: Add Tegra268 support
-         57accdaa50285b6cf185a74e821cc813a72009e7 ASoC: tegra: Add Tegra268 ADMAIF support
-         4d090c13bd5d1a31c174edce12759b4f678b34ca Merge asoc-linus into asoc-next
-         aa66a243b561b1fbcd32baa14a659e6e95d01991 Merge asoc/for-7.5 into asoc-next
-         
+  - ref: refs/heads/oss-scanner-2.8.x
+    old: 0000000000000000000000000000000000000000
+    new: a9121f2c42e49317fa2d4fc7e409bacdb5585e5c
+  - ref: refs/heads/oss-scanner-main
+    old: 0000000000000000000000000000000000000000
+    new: 5f81dca4ee4400f3e94cf785c4b830ef67517d05
+  - ref: refs/merge-requests/992/head
+    old: 0000000000000000000000000000000000000000
+    new: 5f81dca4ee4400f3e94cf785c4b830ef67517d05
+  - ref: refs/merge-requests/992/merge
+    old: 0000000000000000000000000000000000000000
+    new: 4fab97a73933cf68735c64e691a7478e49574e51
+  - ref: refs/merge-requests/993/head
+    old: 0000000000000000000000000000000000000000
+    new: a9121f2c42e49317fa2d4fc7e409bacdb5585e5c
+  - ref: refs/merge-requests/993/merge
+    old: 0000000000000000000000000000000000000000
+    new: 61c66201f4a4662a7df59ee119a119a045580c96
