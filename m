@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/hfs
-Date: Mon, 23 Nov 2026 21:00:45 -0000
-Message-Id: <179546764519.794292.14089592106159777693@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Mon, 23 Nov 2026 21:08:12 -0000
+Message-Id: <179546809282.798743.16278461103501704827@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vdubeyko/hfs
-user: vdubeyko
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/for-next
-    old: 117ca7aa02378666fc3c1bd88ccfe27b90d4aced
-    new: d536283b12c4597f8fc8cc65a034edb8753a9880
+  - ref: refs/heads/driver-core-testing
+    old: 7e7efd5aa4c8340529fc96bfe326e42d6fb9f326
+    new: b0404f6af48ddb3f91e131d0eb7040e16eb09d16
     log: |
-         cf1ace64c5d52d58ef8415f938cb165f4dafdc28 hfsplus: fix timestamp wrapped issue
-         d8b15d90d0e1eed356bbd63b67c1bb771f0737aa hfsplus: store timestamps after February 2040 in xattrs
-         d536283b12c4597f8fc8cc65a034edb8753a9880 hfsplus: add KUnit tests for date/time conversion
+         b0404f6af48ddb3f91e131d0eb7040e16eb09d16 driver core: auxiliary bus: Fix IRQ sysfs directory cleanup
          
