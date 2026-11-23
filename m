@@ -1,66 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============4157766282785781694=="
+Content-Type: multipart/mixed; boundary="===============4032836116894725157=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/linux
-Date: Mon, 23 Nov 2026 18:25:02 -0000
-Message-Id: <179545830267.672695.10447230262873687822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 23 Nov 2026 18:33:25 -0000
+Message-Id: <179545880595.678813.15375777347785971126@gitolite.kernel.org>
 
---===============4157766282785781694==
+--===============4032836116894725157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/linux
-user: david
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/staging/for-next
-    old: bd141e95ae917d192d79cb7952c3de91034cfeb4
-    new: 4451a1e02b54ef349b684c46e89b52ef3b793802
-    log: revlist-bd141e95ae91-4451a1e02b54.txt
-  - ref: refs/heads/staging/for-next-fixes
-    old: f8f5a652b011086518c99b3de41eaed77c3f051a
-    new: 9042f8c24fa1983c693e418b8ade6240939c1e0d
+  - ref: refs/heads/fixes
+    old: a6b33da67ef16a4bdf359d4e76870b1ba1a1360a
+    new: bb371d17d91094169961570572975e545fbb7bdb
     log: |
-         fb670d67d3093cb3b8e7cdb3957bf939599c19bf Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/core.git for-next-fixes into for-next-fixes
-         2e71686527e1fd68ca656d6d9cf3b0623c6c8910 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/slab.git slab/for-next-fixes into for-next-fixes
-         9042f8c24fa1983c693e418b8ade6240939c1e0d Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-hotfixes-unstable into for-next-fixes
+         e7fbde7216d28b3638120457ab830d22f7b83156 clk: samsung: exynos-audss: Propagate -EPROBE_DEFER from input clocks
+         73cb3b59548acce1d9fcf6d5a8c3468391dc4580 clk: samsung: exynos5-subcmu: Use pm_runtime_get_sync() during probe
+         5fbe2d229bd3738ed63c7c9177466ad6bc130f18 clk: samsung: exynos5-subcmu: Defer probe until power domains are available
+         bb371d17d91094169961570572975e545fbb7bdb Merge branch 'fixes-clk' into fixes
          
-  - ref: refs/heads/staging/for-test
-    old: bfefadd6f0cf0a306691b568de07aa427d8a673e
-    new: 3154a730a81384d128005c94ac69189bc2859236
-    log: revlist-bfefadd6f0cf-3154a730a813.txt
 
---===============4157766282785781694==
+--===============4032836116894725157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd141e95ae91-4451a1e02b54.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-fb670d67d3093cb3b8e7cdb3957bf939599c19bf Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/core.git for-next-fixes into for-next-fixes
-2e71686527e1fd68ca656d6d9cf3b0623c6c8910 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/slab.git slab/for-next-fixes into for-next-fixes
-9042f8c24fa1983c693e418b8ade6240939c1e0d Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-hotfixes-unstable into for-next-fixes
-e778c2773f585c1d31ba75d4e76e85330f393194 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/core.git for-next into for-next
-6f58a815afb2a2b9ff09708293b51313cd89296f Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/page_alloc.git page_alloc/for-next into for-next
-c1e1237b77ca26f1c084e6eb024da7c1aaa613e1 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/slab.git slab/for-next into for-next
-2d696968aa233ddb1a77ee6cc6e42d0e844dc45e Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/memblock.git for-next into for-next
-4451a1e02b54ef349b684c46e89b52ef3b793802 Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-unstable into for-next
+certificate version 0.1
+pusher krzk@kernel.org 1795458804 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1795458803-d0149f857fad498c3d73893274a2fc0abf874879
 
---===============4157766282785781694==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfefadd6f0cf-3154a730a813.txt
+a6b33da67ef16a4bdf359d4e76870b1ba1a1360a bb371d17d91094169961570572975e545fbb7bdb refs/heads/fixes
+-----BEGIN PGP SIGNATURE-----
 
-fb670d67d3093cb3b8e7cdb3957bf939599c19bf Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/core.git for-next-fixes into for-next-fixes
-2e71686527e1fd68ca656d6d9cf3b0623c6c8910 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/slab.git slab/for-next-fixes into for-next-fixes
-9042f8c24fa1983c693e418b8ade6240939c1e0d Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-hotfixes-unstable into for-next-fixes
-e778c2773f585c1d31ba75d4e76e85330f393194 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/core.git for-next into for-next
-6f58a815afb2a2b9ff09708293b51313cd89296f Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/page_alloc.git page_alloc/for-next into for-next
-c1e1237b77ca26f1c084e6eb024da7c1aaa613e1 Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/slab.git slab/for-next into for-next
-2d696968aa233ddb1a77ee6cc6e42d0e844dc45e Merge https://git.kernel.org/pub/scm/linux/kernel/git/mm/memblock.git for-next into for-next
-4451a1e02b54ef349b684c46e89b52ef3b793802 Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-unstable into for-next
-3154a730a81384d128005c94ac69189bc2859236 Merge https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm.git mm-new into for-test
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmsEhvQQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD12CuD/95zHW/hLC8PyuTsTXFVrGDqKoQC3xOKsRz
+pUvY9EO758Q102M+7Z6VMBesyDHfp3cheSAqcgxZbsau2xVU5bckAw5BqsA3Z18I
+Mz0l2N9RBl9DPRoz0bMAv/q3P72HBuUSAV5cvXC+bTNOXiQuVrRMBPYOysH3qKww
+AiMfLuy/7C+7xxY9v/LBO0RmnHCq7E9Eb/+QDYKPmsIF0BXJt9sdjXHFFXoyjj3v
+qra2jpatHDyKcH0Dl7DawA9Ca3uEV3Uimmn/+jeIV5qw8f8gO2zIQX/n28kYYbLw
+CJ80BJnk2MZpvvJqU9El6WF584kmVoqWh7BcC0n86cCsQPvz7FALosEKm0gz1o+z
+1oWKnzM1s/gDbabpV95Lpmv0QSFEZSZmyABLppUKZiobxQOaM4J1W/xS5Fo9Kl3c
+AcqrIW0SV4wACmo6a/jQAjQqfyIItNVobXoUpHv8/WkqI8QsVTXKm+lU8ITpR1V1
+ZZWqAcUuYSswyNqW+7J/2UJz7+KBDH/V3srWFqRlQ8nh8+p3+poK6x5Kyz3A/kl7
+AY8TqPt7No9IFmQOnCuoSLg8ZDN3YUJe3s4jM40lCBkv3L0vxvmbGkcj8nVK7V+e
+aQv7ss//VHpafuBHklRd7P8dD35nsSvGEL7vZS28CoYr63pOBY9Vk1cA//sl34uL
+fFnmOihYDg==
+=gBDD
+-----END PGP SIGNATURE-----
 
---===============4157766282785781694==--
+--===============4032836116894725157==--
