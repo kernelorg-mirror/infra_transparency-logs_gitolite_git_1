@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 23 Nov 2026 15:41:01 -0000
-Message-Id: <179544846185.538573.1531167332260898398@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Mon, 23 Nov 2026 15:43:17 -0000
+Message-Id: <179544859734.539328.10281007867438714531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/efi-sysfs-constify-v2
-    old: c8c2cba86620e87b17dfd568ca08845fd2879ef5
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/mediatek-drm-fixes
+    old: a333fa9ddbfc1b716c84de448b0ad7abd32c7cc5
+    new: 14356cb3829523f317c05c3929c562b31a4c6cc6
+    log: |
+         14356cb3829523f317c05c3929c562b31a4c6cc6 drm/mediatek: mtk_crtc: Skip the empty connector route slot in destroy
+         
