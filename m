@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 23 Nov 2026 19:27:51 -0000
-Message-Id: <179546207174.721402.10678118151049299405@gitolite.kernel.org>
+Date: Mon, 23 Nov 2026 19:29:27 -0000
+Message-Id: <179546216771.721977.9080160656548693843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/for-7.4
-    old: 57accdaa50285b6cf185a74e821cc813a72009e7
-    new: e35cdd54ef7779e97e8057d30ebb432974df60f9
+  - ref: refs/heads/for-7.5
+    old: 0151278a98ca578ea714b7d67ecf2790b32a3cc4
+    new: 691c7480d19a25058a0e1a301ad2397f55c52e6e
     log: |
-         e35cdd54ef7779e97e8057d30ebb432974df60f9 ASoC: amd: yc: Add DMI quirk for Xiaomi REDMI Book 14 2025 (AMD)
+         035a0a1562efe1dfa3a8488f1b66992c6b0c06aa ASoC: atmel: mchp-i2s-mcc: Use devm_clk_get_optional() for gclk
+         0cce417afa5262aeaab2d1365503a4a7aa351d0b ASoC: atmel: mchp-i2s-mcc: Use devm_clk_get_enabled() for pclk
+         3376223461b3a323342114cd7e1969fc0cc0faae ASoC: atmel: mchp-i2s-mcc: Request IRQ after enabling pclk
+         691c7480d19a25058a0e1a301ad2397f55c52e6e ASoC: atmel: mchp-i2s-mcc: Improve clock and IRQ handling
          
