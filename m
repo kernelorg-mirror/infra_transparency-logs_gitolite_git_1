@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============2614973505800630177=="
+Content-Type: multipart/mixed; boundary="===============5802724759219995853=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 23 Nov 2026 05:20:04 -0000
-Message-Id: <179541120490.3895043.15201140142405283351@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Mon, 23 Nov 2026 05:52:21 -0000
+Message-Id: <179541314176.3916043.10556071062834393740@gitolite.kernel.org>
 
---===============2614973505800630177==
+--===============5802724759219995853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: 4472b9cee37dd87059a0626cb8a7453b3ff88d5a
-    new: 96f6954a3a420bb4fc23023d739ae3328a3d179d
-    log: |
-         96f6954a3a420bb4fc23023d739ae3328a3d179d updates due to 7.4-rc4 being released
-         
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: 34c1ababe76c68a01192d5427081b8bf2d395846
+    new: 79ec5dc533d96b2bb56688e518dd2be520448d28
+    log: revlist-34c1ababe76c-79ec5dc533d9.txt
 
---===============2614973505800630177==
+--===============5802724759219995853==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-34c1ababe76c-79ec5dc533d9.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795411204 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1795411204-32452c3f1c53e89a3bcabaa320f8f74d197417e3
+0326502ac71c3b2db83997e15e8990aa47291b42 cpufreq: highbank: Put cpu clock if clk notifier registration fails
+5bc9e1285c01fe2256f035cf3fd927f6ae3dbf65 cpufreq: kirkwood: Put clocks on error and in remove
+5850b6ad8f1643a4c66efc640393b59a7bcde5fa cpufreq: s5pv210: Fix resource leaks on probe error paths
+a8e51a2a838167f8f83243339444e1add800b6f2 cpufreq: tegra194: move MPIDR read to CPU hotplug callback
+c796b23b59bbdb5fd7248c8da9f2a8ce34130228 cpufreq: tegra194: remove duplicate counter sampling loops
+36f7140b4c8012dc93c131e2c535a0ba2e5615fb cpufreq: tegra194: add tegra_counter_delta helper
+c16f9346244aa6b7cf0d661a51f0e2c0635b154a cpufreq: tegra194: add per-SoC counter mask
+8f5130f7ac7a857391a9a574847ad066f2955c25 cpufreq: tegra194: split MMIO mapping from ACTMON offset
+b5618718f2a5bf2608767e8ba1a7e7bb33524c53 dt-bindings: arm: nvidia: Document the Tegra264 CCPLEX cluster
+91ac78b5f88f3a1069a6f36adc96639a651caaa9 cpufreq: tegra194: derive frequency domain from device tree
+477d09d8f5d1867ef868b1ae938d7aa816c05f23 cpufreq: tegra194: Add support for Tegra264
+79ec5dc533d96b2bb56688e518dd2be520448d28 arm64: tegra: Add CCPLEX cluster node for Tegra264
 
-4472b9cee37dd87059a0626cb8a7453b3ff88d5a 96f6954a3a420bb4fc23023d739ae3328a3d179d refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsDzQQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+47AQALPCf1iOCW4COSTwVY6w
-JlliD+FeWoc16tfGakXyx1ohMY6v8lEmxB8/mLrCTXfIi4DVu77tau7pz7wNACph
-jgWxY4/4XZ5GWSJzx+o8fmkk17xwMZOBxKZ7aEaBldl/OALOsLXFtFzNsnwMfits
-hZkDAjM+yBhFGHVi493/eRQTDhvrPsm1XSrPWp0NLfkRFSHxrH29F2MJULd/pOZe
-tsL0cKEUEecjpO3RQ7oUUji+8JP+JQX5RKhEt+EN+I+Vn3lt9zbZjePBnUUyqZ9p
-sTltCUHPym+vsrdMFg2MlRRiJN94yh7yoMkAevFEu837yzqYZJL0U5hmyP/OTMaL
-ysvYtSozHM3PLuYOOECw+ATZYMKLjTECc5515Xdg8GXiBz3+Wpv5cfJJb4dTyQki
-KklQL9kSxjTRjsNTxZkoMjsjDN9rMwb1HquIfkt4gHV+2RlUy8WxD0EAHVeO69RE
-v7MyNecmeuor3/Bi68uVi3twy+mj+TgFZESoyaM4s109rTaA7rXlGbIFfI8tuzaK
-wb9S1Z7xPgTGXVvsLWcbzSE2b9qIzCHLItMi37fQjXe8hOc/K97Vw8w8CZlGeDOo
-/wa/1/md5wkV0DH+Psqa5eQ5bA1jtit4PSHHOEGDK/xFPYyOyh/+YDOjTmqTFfOg
-xHlN7yZ5EMYtsf3C/1k1avXd
-=O9Nu
------END PGP SIGNATURE-----
-
---===============2614973505800630177==--
+--===============5802724759219995853==--
