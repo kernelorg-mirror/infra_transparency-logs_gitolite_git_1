@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/hfs
-Date: Mon, 23 Nov 2026 20:57:23 -0000
-Message-Id: <179546744358.790598.8862482731802850087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 23 Nov 2026 20:58:26 -0000
+Message-Id: <179546750651.791008.3603026449969840033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vdubeyko/hfs
-user: vdubeyko
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next
-    old: 4beb30205b803a6f58e9198ca051804263cf5389
-    new: 117ca7aa02378666fc3c1bd88ccfe27b90d4aced
+  - ref: refs/heads/pending
+    old: dc44aa2a35416836e46301362c0a7bfbc9c5ec61
+    new: bbd0d45f8b4e5cf98da6723169b2196b1d9d0286
     log: |
-         d4821af67733c4f19aaf2ef53b9edb8fcf1114f4 hfsplus: reject special files larger than their allocation at mount
-         92b1478af2e603d919496335376bbb0b779f6cca hfsplus: map the allocation file without the extents B-tree
-         980ddcf914f2fbc6d2a5f1795f645a2701c5e550 hfsplus: give the special files their own extents_lock lockdep class
-         37d874f9587e9118a27812bdfdbdc642cf42f0a5 hfsplus: reject an allocation bitmap that does not cover the volume
-         117ca7aa02378666fc3c1bd88ccfe27b90d4aced hfsplus: name the constants of the allocation bitmap check
+         bbd0d45f8b4e5cf98da6723169b2196b1d9d0286 wifi: ath12k: add hash table for peer lookup in struct ath12k_dp_hw
          
