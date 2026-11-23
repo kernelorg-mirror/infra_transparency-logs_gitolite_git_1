@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1123253672586502105=="
+Content-Type: multipart/mixed; boundary="===============8382930913454022032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 23 Nov 2026 21:35:41 -0000
-Message-Id: <179546974155.819442.16675431263733072615@gitolite.kernel.org>
+Date: Mon, 23 Nov 2026 21:36:14 -0000
+Message-Id: <179546977411.819757.16834153389542667578@gitolite.kernel.org>
 
---===============1123253672586502105==
+--===============8382930913454022032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-keys
-    old: 141b164bbe186423e295b139e40e8e2d11cf1341
-    new: f183e8c9202f40513a85beeb9739a5fa4c600e9d
-    log: revlist-141b164bbe18-f183e8c9202f.txt
+  - ref: refs/heads/tpm2-asymmetric
+    old: a6e7774cc64ec25f01b6008191b56d706d24132b
+    new: e675fe19065aa7473c9b5ba4baeea1b3520bda6d
+    log: revlist-a6e7774cc64e-e675fe19065a.txt
 
---===============1123253672586502105==
+--===============8382930913454022032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-141b164bbe18-f183e8c9202f.txt
+Content-Disposition: attachment; filename=revlist-a6e7774cc64e-e675fe19065a.txt
 
 d36e0b560483991bc63b7b766f82396e1bf7ec33 assoc_array: correct the documentation of get_key_chunk()'s level argument
 2a62c32760a8fbf464a7388853d19bc62c5cc423 assoc_array: don't lose objects when a shortcut is split on a word boundary
@@ -49,5 +49,32 @@ a361f81c2db79f92e5af145d7728ab757d81f55d KEYS: trusted: TEE: Disable sysfs bind 
 484dc27f031229b374446cf038fa9c7a84d0f725 KEYS: Fix userspace buffer overflow in keyctl_pkey_e_d_s()
 94cd215923495a0e1031b86dc7d246ef3c33cc73 KEYS: Fix asym key overflow in keyctl_pkey_verify()
 f183e8c9202f40513a85beeb9739a5fa4c600e9d KEYS: Introduce keyring_is_empty()
+c4760d45524d1ff2c0641469b1164ae10351b9d1 KEYS: Replace assoc_array with rhashtable
+17ae40ff31960c9fdb31eed66f57e70de59e6d05 lib: Remove assoc_array
+2ae471b9c3ec07eba8c9499650bef22dc06e4369 tpm: tis_i2c: Add reset delays for ST33KTPM2XI2C
+49661782cf58e55c31fdff7ab00e2421c0fce947 tpm: Track the response read position internally
+bcca3f9a70cc21b3f86269b82d6dc0258b10517f tpm: Cache TPM2 start method
+c43cda8cab28ab4177c2a2f01f4cb5562fc1268b tpm: tpm_crb_ffa: Only probe when ACPI TPM2 uses FF-A
+2e651f2219e38e4121380320b6a8145cafe23559 tpm_crb: Add register definitions of TPM CRB chunking fields
+f06de4fb7aa574462220e55e6a025171990df476 tpm_crb: Split start method into a separate header
+651fcd92936ca0df882c6a9b933340e8eac446d4 tpm_crb: Add start_cmd parameter to tpm_crb_start wrapper
+5ff2aaa1b12414d914b022ea111de4460401aae8 tpm: tis_i2c: Use local 4KB buffer to limit memory usage
+c3272aafb2e430137b4d5c0ae1923e9ec7ae6892 tpm: Increase TPM_BUFSIZE to 8KB for chunking support
+38207e001df6c5449cf3013aba4780123c9c504c tpm_crb: Factor crb_send()/crb_recv() bodies into helpers
+e33793df114b9f549364b922916c9e0426c5587f tpm_crb: Implement command and response chunking logic
+ad60e218c8acbd0f044a50c987b5b0c9ba1ac474 tpm: Remove enum tpm2_session_types
+cf025c2107d47d82e524bb3a9e29af1bf792cb5b tpm: sessions: bound the primary public area by the response size
+f14b4d5f3c82e7d7b4bd246b1f09887a4eac7b46 tpm: sessions: bound the parameter decryption by the response size
+0866d0c65b71b51233b532ced1df264d6f222773 tpm: ibmvtpm: check the response size against the buffer size
+d6ec176c050b78442ae79e84cd67e4984b542eb8 tpm: add OP-TEE transport core and a discrete TPM driver
+6002d7d4598b1372fcd431961f72888b46dc8448 tpm_ftpm_tee: use the tpm_optee transport core
+38403637755c9924acb2aca10082bc4659c0ff2c tpm: tpm_tis: Use cached tpm2_acpi_start_method
+3a2fefd955afeabd5703c93708833f7292968d58 tpm: tpm_crb: Use cached tpm2_acpi_start_method
+6531992430dceeb496e7f5c0b5344c228ff1e1b7 tpm_tis_spi: add reset handling for SLM/SLB9670
+610744ba97040f1cd1365639c8f8b099beac8b9b tpm: Disable a TPM that stops responding
+3cffda6d47bf88cf03246cc7630552dc4d5a4f54 tpm: Disable TPM on TPM_RC_INITIALIZE
+443ddf8fd6b4cf6cebbfdc05e7fbd497095f06fa lib/asn1_encoder: Add asn1_encode_integer_bytes()
+50c62c5d81c7d6a2659d61f9efb2ee814a4056cd crypto: Migrate TPMKey ASN.1 objects from trusted-keys
+e675fe19065aa7473c9b5ba4baeea1b3520bda6d keys: asymmetric: tpm2_asymmetric
 
---===============1123253672586502105==--
+--===============8382930913454022032==--
