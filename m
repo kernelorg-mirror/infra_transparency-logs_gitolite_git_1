@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 23 Nov 2026 09:59:58 -0000
-Message-Id: <179542799809.249198.6725593300236717046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Mon, 23 Nov 2026 10:14:37 -0000
+Message-Id: <179542887761.281276.16032573725720165305@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/linux-6.12.y-cip
-    old: bdc067e0e7b1c5cdc346e9bd6894aec37b252766
-    new: fdf015fae13791a5984b5d2d84fdd1ee6aa548e9
-    log: |
-         fdf015fae13791a5984b5d2d84fdd1ee6aa548e9 Add SECURITY.md for the CIP kernel
-         
+  - ref: refs/heads/renesas/n1d/enablement
+    old: 0000000000000000000000000000000000000000
+    new: 672a187aa9d4944a14f9c059ebd1f902d77e63ab
