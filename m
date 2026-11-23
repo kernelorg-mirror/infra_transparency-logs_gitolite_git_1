@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4772063901206188888=="
+Content-Type: multipart/mixed; boundary="===============5368470675467271583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Mon, 23 Nov 2026 20:12:14 -0000
-Message-Id: <179546473406.755756.5686564385704334467@gitolite.kernel.org>
+Date: Mon, 23 Nov 2026 20:12:49 -0000
+Message-Id: <179546476989.756154.3835704966070705767@gitolite.kernel.org>
 
---===============4772063901206188888==
+--===============5368470675467271583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nsc
 changes:
-  - ref: refs/heads/kbuild-next-unstable
-    old: d45fe61ee5dfe42a1a2154c9ee9ad7f790bd27ac
+  - ref: refs/heads/kbuild-for-next
+    old: 73d83cea1b6a47fb34128393b074d9a703c4b17f
     new: 1030e26939a1ff225b1e59ae21509fe6ab330f61
-    log: revlist-d45fe61ee5df-1030e26939a1.txt
+    log: revlist-73d83cea1b6a-1030e26939a1.txt
 
---===============4772063901206188888==
+--===============5368470675467271583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d45fe61ee5df-1030e26939a1.txt
+Content-Disposition: attachment; filename=revlist-73d83cea1b6a-1030e26939a1.txt
 
 b03da197362172d581dcce02223622edded7d335 kbuild: drop the tools/ target
 1369e51197736218c9d09af7389d541af2f6d7e9 tools/build: Deduplicate the descend commands
@@ -45,4 +45,4 @@ a48b8e3e26235ca2aecf73863ca951ea798e36a9 Move struct cpu_feature to a <linux/dev
 3727d0f61858b5823e96d31615acb61bea884342 devicetable-offsets: Include the needed device-id headers instead of the catch-all
 1030e26939a1ff225b1e59ae21509fe6ab330f61 file2alias: Include the needed device-id headers instead of the catch-all
 
---===============4772063901206188888==--
+--===============5368470675467271583==--
