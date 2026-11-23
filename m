@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7573615892454673894=="
+Content-Type: multipart/mixed; boundary="===============7636145835370495778=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
-Date: Mon, 23 Nov 2026 01:15:01 -0000
-Message-Id: <179539650118.3662696.11920420747269205552@gitolite.kernel.org>
+Date: Mon, 23 Nov 2026 01:15:08 -0000
+Message-Id: <179539650869.3664854.14382136179400681663@gitolite.kernel.org>
 
---===============7573615892454673894==
+--===============7636145835370495778==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ojeda/linux
 user: ojeda
 changes:
-  - ref: refs/heads/rust-fixes
+  - ref: refs/heads/rust-next
     old: 2dc60bd9975fc8666a13d58410499e06e6799ba9
     new: b6a9fa34ce4187cb69d3c588a4bbffc31ce5db8f
     log: revlist-2dc60bd9975f-b6a9fa34ce41.txt
 
---===============7573615892454673894==
+--===============7636145835370495778==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +72,4 @@ fdcd45bc9cfee488b92efc4b7f43d6865ec82770 Merge tag 'spi-fix-v7.4-rc3' of git://g
 6e4122f0242a3262512ee3e6f2e7e6de0bd5792b Merge tag 'perf-tools-fixes-for-v7.4-1-2026-11-22' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 b6a9fa34ce4187cb69d3c588a4bbffc31ce5db8f Linux 7.4-rc4
 
---===============7573615892454673894==--
+--===============7636145835370495778==--
