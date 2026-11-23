@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 23 Nov 2026 06:20:32 -0000
-Message-Id: <179541483271.3936648.16321684339041054388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 23 Nov 2026 06:27:15 -0000
+Message-Id: <179541523556.3941236.6429962583689474282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 987e39658a7fb4da10825e6dc73fc46005e960a5
-    new: db0c401cb1213cd59a455840a064abecc76bc30c
+  - ref: refs/heads/libcrypto-pending
+    old: 11d18863cc3b730f0d41569c84787abe089beb90
+    new: 770e875350867990488a72249300188e2f6374d2
     log: |
-         db0c401cb1213cd59a455840a064abecc76bc30c foo
+         770e875350867990488a72249300188e2f6374d2 lib/crypto: x86/sm3: De-bloat sm3-avx-asm_64.S
          
