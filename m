@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 23 Nov 2026 14:59:32 -0000
-Message-Id: <179544597272.501164.13027155370371064022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/willemb/net-next
+Date: Mon, 23 Nov 2026 15:03:48 -0000
+Message-Id: <179544622823.504878.6394700867047355311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/willemb/net-next
+user: willemb
 changes:
   - ref: refs/heads/main
-    old: 60cf8fade56666e8868a1435971e01336e217774
-    new: 5a1f6793361524314b442371dc05ce3cd4f2f838
+    old: 5187c8cd65f1b7d8692669d0cceef767f566ed91
+    new: c388048ade7e6f2c96eeff7461e4a13a0bdad23d
     log: |
-         5a1f6793361524314b442371dc05ce3cd4f2f838 net: sparx5: check DT port reg against chip port count
+         2388bb763e323442f4dd8189238ac0c5f334c4a0 vsock: only deliver taps to namespaces that can reach the device
+         c388048ade7e6f2c96eeff7461e4a13a0bdad23d net: dsa: motorcomm: Resync SMI slave before register access
          
