@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8439172307720044312=="
+Content-Type: multipart/mixed; boundary="===============4117393503399791844=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 23 Nov 2026 19:09:37 -0000
-Message-Id: <179546097754.706326.2335973819856213975@gitolite.kernel.org>
+Date: Mon, 23 Nov 2026 19:09:40 -0000
+Message-Id: <179546098057.706522.6938872047785472709@gitolite.kernel.org>
 
---===============8439172307720044312==
+--===============4117393503399791844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS
-    old: 3526c580537e499f2a62e7ec39c2fb62e060f89a
-    new: cc0507ac197ec00fd72de599e0bf685cd27d95f9
-    log: revlist-3526c580537e-cc0507ac197e.txt
+  - ref: refs/heads/kernel-7.3/nfs-client-transport-percpu-with-nconnect
+    old: cb815162e27be900278f85c9ca144a70825e11ec
+    new: 39ed8ceb13dcf696bb23d7b7d8d02a9eec414fe0
+    log: revlist-cb815162e27b-39ed8ceb13dc.txt
 
---===============8439172307720044312==
+--===============4117393503399791844==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3526c580537e-cc0507ac197e.txt
+Content-Disposition: attachment; filename=revlist-cb815162e27b-39ed8ceb13dc.txt
 
 78ff60742a9f1372eee3b6c447229010203d6469 NFSD_TCP_WRITE_ZEROCOPY: round 175, 46 of 46 and the passes
 51c250f17f4e61b63eb804c49c0b344015ccef96 NFSD_TCP_WRITE_ZEROCOPY: round 175, IOPS and profiles on sunrpc AE79
@@ -117,5 +117,10 @@ d8f2a4bd7809a541f4f8f3fcb3e0088188669c4d NFSD_TCP_WRITE_ZEROCOPY: hold svc_reply
 578ceddb993c054adb0c1cccc7444a208dbb224f NFSD_TCP_WRITE_ZEROCOPY: round 178, the recycle settled on AC4A
 d6d83a460dd471ccd8e47f4a4ec35713383efc8b AGENTS.md: tardis2 holds the reply page recycle at 1024
 cc0507ac197ec00fd72de599e0bf685cd27d95f9 NFSD_TCP_WRITE_ZEROCOPY: round 178, t2-r1496 to pick round 179
+f6215235386252b89f951aa6c64c197943aad46c SUNRPC: give each CPU its own transport under nconnect
+737236bdbda97ffce78be02159331a44137ac00d SUNRPC: home nconnect transports on their NIC's NUMA node
+dea09f834c502ceffb2ea640beb85d0c4c3464fe xprtrdma: interrupt a transport's completions on its home core
+a0d2c00510cd2a8cf806561b936c793a801a2f9a SUNRPC: home each switch's transports on distinct cores
+39ed8ceb13dcf696bb23d7b7d8d02a9eec414fe0 SUNRPC: Keep nconnect's balanced round-robin unless nconnect_percpu=Y
 
---===============8439172307720044312==--
+--===============4117393503399791844==--
