@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5475886610230410243=="
+Content-Type: multipart/mixed; boundary="===============3664833663281726991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 23 Nov 2026 13:20:58 -0000
-Message-Id: <179544005826.425215.8452727632459463480@gitolite.kernel.org>
+Date: Mon, 23 Nov 2026 13:21:27 -0000
+Message-Id: <179544008730.425481.502743350328282248@gitolite.kernel.org>
 
---===============5475886610230410243==
+--===============3664833663281726991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,53 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/llm-char-misc-iio
-    old: 887c076ed09a0a142bda73b662248b6837039c05
-    new: d74de064d4bf59aa481e8a52b7b97e20ab6ed4f5
-    log: revlist-887c076ed09a-d74de064d4bf.txt
+  - ref: refs/heads/b4/llm-char-misc-w1
+    old: 0250004ba5429654ac79d4210f25677121427d37
+    new: c0e9b5aaee219dfa02aecbe8b90d7f12ecbfd9b0
+    log: revlist-0250004ba542-c0e9b5aaee21.txt
 
---===============5475886610230410243==
+--===============3664833663281726991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795440063 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795440092 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1795440038-598d9a4d59da0b82d75900e514f7d5548107fd86
+nonce 1795440068-4be94297d5f958a7ea37fc35784cfc6f0cefb222
 
-887c076ed09a0a142bda73b662248b6837039c05 d74de064d4bf59aa481e8a52b7b97e20ab6ed4f5 refs/heads/b4/llm-char-misc-iio
+0250004ba5429654ac79d4210f25677121427d37 c0e9b5aaee219dfa02aecbe8b90d7f12ecbfd9b0 refs/heads/b4/llm-char-misc-w1
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsEPb8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KqoP/A3GOi67TJLVJc+P62w/
-tngMfoyUtqrhSj6m8NenwIXsExXU1Hj2MnhTJ2eiolyS6iBv5x8G3UhGRuVzeHy9
-qDr0DAMBFfJUqc4bRLo98GBwyw9MLiiXi/MouREIobkmFI+/7CayPIU7+TNCYXJt
-ZLIk7t7nVnyKPyZ6C8ebx/nHTgyNi7a9oCpOMW0OhEh3vycRCeS9GNF9w67RF8D0
-/eP5kURq/VF26DOnJE1947JEJ6ViGK+oIh0jUp6HQi7tYEVqJITTDTktVR2AgTqI
-juQ4UAqKIf7M2k5dFsdxxl0Qx7p5HoaWjsIlu8h3La+yM8qVQDB/BEA+DRgvI85J
-BiWLhz1OnthzHl2h4nsZOlxB8H7Nhhs9qyw0evQB24hlsA+gmm55RgsCuM//KPoc
-6nuBGiMb0d5/nPegnFDiWXcrW74aSAlWcnUni7hapsO+YLS5A0cEntfl9UR98i2O
-cRPnfUdueTHl21U/CqxbQpZLFkZwJZ5PmunfKHB7E6aAwgJqVNoMDeG8FLW/TAtQ
-lK2WVzQwA0XkaKYkPgi9so3Ru3YOfQc/0GhH8iZv0O16ln57RiP+V1PFTR95+klG
-APqVuwVpyTXeQanPnFk7bjEyszE1QQyLkeBKB20c7wmdyNQCaTx6Gy4V1W2n6iJb
-idK2oKDIZW89fAhPt1zKfbdy
-=gnKH
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsEPdwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2PAP/R3a/RmOZU9c29bHWGgN
+br61CkoRRQj1bCJFo0qeyxWgjST0wa3YPaTNW0o3L6ilYcFSMMnPmazTjzeEyhrI
++cHVJAio9KI7CdDfSjjLZBvtbv4sv7OCuEzRdRuZZtvJK2tEAEbmCjOYnw3c0lJR
+qmrXwtULFdiF/tyNRxe9xbQVrYJT7fPPAMV/vh6s1MxhDmHypu7IMKbQoEDL3jM6
+waxdPtjmWkHWxFekgRBtX+E/SUlBD0+qpqhEIfCzUL0JmjxUMQCnuyNO+8Xip8jA
+T7zktMg/UQluc53K99EpgHcGGQBfpjUpzaVVvUl1PpGC/wREt/4WHu+eqAEwurz8
+s+DbIGdED9eP2/8lyqmo9lkGVKuFEAfwoybKqr9W8sCPHr/d4kQZLrt3MKqSLVJ1
+ENBjPWTd/TkwjHZ2pDR/oqmI/ezzA8UB18QHMVee1SqA2oUik01UaCr7oTNjAI4J
+ftp0v5/hl94aJNxhXCAhcnCOoFZvyzF6FZiwaOLpUm5u/Fmv9ayCqzSmQ+QNuLUH
+f0T4Dm3HtY0QnG04fNv9I7h3d7y7luc+b7LOrNE4ryd9hLewVuO9drzgWnmRUO08
+i4cMDFa+bYCApz/rfP4l5xuD3eHVaGruUtZQbuf+BO/45NkayhBqUHNw8zbrJF+q
+3Hthy19qTTYQbMtD4LZQArXV
+=mduP
 -----END PGP SIGNATURE-----
 
---===============5475886610230410243==
+--===============3664833663281726991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-887c076ed09a-d74de064d4bf.txt
+Content-Disposition: attachment; filename=revlist-0250004ba542-c0e9b5aaee21.txt
 
+44818c9a826d766dc0e21179dc76f229334f1dda net: gro: avoid parsing headers from shared fragments
+d00ba321499c0050872d70c41d86069f1d52c248 ASoC: soc-core: reset rtd->num_components after allocation
+9280128245612b30ca4a238daa6a777b0f4e583e net: usb: lan78xx: let unregister_netdev() stop phylink
+67869597fab06abaa5b977cb7004532269fc960b net: mana: fix XDP_REDIRECT of pre-allocated RX buffers
+d7900fa51642fbc2a5a03354238e71050a7d391d net/smc: fix lgr/lnk lifetime vs diag reader race
+7d02c07c738bf5c4b9a7d7ef498fbf465c446853 net/sched: act_ife: encode configured zero metadata values
 11dbce09083473249c3843ff31bf8d8fa01bdeef net/sched: act_ife: require a full Ethernet header on egress
 1ae84bdd736f8fab30180159996e1d193f8029ff net/sched: sch_teql: reject qdiscs from another network namespace
 367a50c3233e3f52fee481af025089594cb7851d selftests: tc-testing: teql: cover each attach rejection on its own
@@ -1074,12 +1080,6 @@ fdcd45bc9cfee488b92efc4b7f43d6865ec82770 Merge tag 'spi-fix-v7.4-rc3' of git://g
 2681617eb9317444247380298564f58142fc4ff8 Merge tag 'riscv-for-linus-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 6e4122f0242a3262512ee3e6f2e7e6de0bd5792b Merge tag 'perf-tools-fixes-for-v7.4-1-2026-11-22' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 b6a9fa34ce4187cb69d3c588a4bbffc31ce5db8f Linux 7.4-rc4
-6235eaeca2c54432787dfc48d5b462dff3fc5488 IIO: a bunch of llm-found fixes
-d182bda6745ffae52e95a7e753d595b203f81ffd iio: buffer: let the block keep its DMA fence
-14ab8b564bb82378f6fb6da64c6e43f2f8a9f270 iio: accel: adxl367: don't stay in standby on -EINVAL
-66c41b5105be09161d187bfefe83eaa45f6a0976 iio: light: apds9306: push events to the IIO device
-7113ea25f98741be426de1c2b31615cd08917689 iio: light: tsl2591: don't divide by zero in the dark
-d050ba9de41e739970ddc4f7ebc65ca1232a6e0f iio: imu: inv_mpu6050: don't disable the IRQ under lock
-d74de064d4bf59aa481e8a52b7b97e20ab6ed4f5 iio: proximity: sx9500: hand on probe deferral of GPIOs
+c0e9b5aaee219dfa02aecbe8b90d7f12ecbfd9b0 w1: a bunch of llm-found fixes
 
---===============5475886610230410243==--
+--===============3664833663281726991==--
