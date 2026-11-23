@@ -1,58 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============1305596571636273494=="
+Content-Type: multipart/mixed; boundary="===============4414697107406652775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 23 Nov 2026 21:48:34 -0000
-Message-Id: <179547051417.828583.1035144393023904747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
+Date: Mon, 23 Nov 2026 22:15:55 -0000
+Message-Id: <179547215581.848628.17735466160594728456@gitolite.kernel.org>
 
---===============1305596571636273494==
+--===============4414697107406652775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/frank.li/linux
+user: frank.li
 changes:
-  - ref: refs/heads/main
-    old: 5677cf0e039b3cabf79d5aa10facbdb54aea93c6
-    new: 639a75a3539f621e4437ffeec7ab51bf8a1fb170
-    log: revlist-5677cf0e039b-639a75a3539f.txt
+  - ref: refs/heads/for-next
+    old: 21d2357d5c1ebd2bd7726717e95765d031b55546
+    new: f459bcfa504d20f00a8f289dd173b3b1e7b6eb20
+    log: revlist-21d2357d5c1e-f459bcfa504d.txt
 
---===============1305596571636273494==
+--===============4414697107406652775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5677cf0e039b-639a75a3539f.txt
+Content-Disposition: attachment; filename=revlist-21d2357d5c1e-f459bcfa504d.txt
 
-06b6fbe05f5c81654815ec8d864d792a226cbdac Bluetooth: L2CAP: Use a reserved ident for L2CAP_LE_CREDITS
-cfdd650c5dabbd2f59a0e916aa8ef3f1965a3b4b Bluetooth: mgmt: Fix read_index_list() buffer overflow
-6a296a4658124490d7dddd2b751e5f9ae5c5aec7 Bluetooth: hci_core: Take req_sync lock in hci_power_on()
-8984b72f9508b2d03c58a82d73881b5e1e5f5bc4 Bluetooth: hci_sync: Lock the lookup in hci_disable_ext_adv_instance_sync()
-c592dfe9637c65eeaff4c9f6fd869f39ad7ae472 Bluetooth: hci_sync: Hold hdev->lock in hci_schedule_adv_instance_sync()
-e428ab70fb3398e835e5d70ba4839e7c06583b83 Bluetooth: SMP: Serialize link key updates from smp_notify_keys()
-e8764a6946341e9ee809393386e7b815179c5f5f Bluetooth: SMP: Check smp_data before using SMP_DEV()
-8a119ba64f33dd9ab265d3b978f7811a80b7fe8a Bluetooth: SMP: Don't create the BR/EDR channel while unregistered
-ad7c1f067df2772d73a3a34218a8f5db57ceb41c Bluetooth: hci_event: Validate sent command length in LE Set Ext Adv Enable
-4e0dc0523bd98adbd45ce1c66dd1a96d4f6a3ec9 Bluetooth: mgmt: Reject zero multi advertising rotation duration
-cb3251457da29ac1118f130bf45ac696421594a8 Bluetooth: L2CAP: Don't use uninitialized EFS in l2cap_parse_conf_rsp()
-1d7a527788584e4a88ccc532ed73bfdacd0b1e74 Bluetooth: mgmt: Fix mesh transmission locking and lifetime
-7c8dcf322b0d978c80001632c1206d5fe1ee9ba7 Bluetooth: MGMT: Fix use-after-free in mgmt_powering_down()
-0434cd10518c1b58ca3f5366341f0b1c469afbca Bluetooth: MSFT: Protect the event prefix with hdev->lock
-b49abf5f92ea0e03ebc0fe41ce4af87b094fe9b5 Bluetooth: hci_debugfs: Fix racy toggling of debugfs controlled flags
-7f08b6ef44fa17f1a5ad3926663ddb5abe6ff68a Bluetooth: hci_core: Hold hdev->lock when removing advertisement monitors
-775eca0c3df2f0272f21ebc8c812ad010fd47243 Bluetooth: MSFT: Free the response of the monitor commands
-8d3e5e6fe6d0be5634b28788abf5685d571b13a4 Bluetooth: hci_core: Don't fail removing a monitor unknown to the controller
-d7e77168da348d8ac0fdb3b3aa7ce1ccc83208a7 Bluetooth: hci_sync: Fix remaining advertising instance UAFs
-a7d2c94ba2995b5fb766d5ec7086f5e6a2774745 Bluetooth: hci_sync: Use controller handles for periodic advertising
-c3cdaaa5cb5bd4c256fd0944a5df938529eb8dce Bluetooth: btrtl: Propagate errors if btrtl_vendor_read_reg16() fails
-fc4527d1e1b655a61824cb02a9e07753d90fdf47 Bluetooth: btrtl: Return -ENOMEM if bt_skb_alloc() fails
-5052141b19fe0ab2863a12a0dcffac9aac6c8006 Bluetooth: MGMT: Retain the selected legacy advertising schedule ID
-75d6b9d82c35d35dad9fdd783975be1edd32fe2f Bluetooth: MSFT: Record the filter state on Command Disallowed
-4a8f9b7fb4f503f48e2ccfc67caa8b07d303f8a8 Bluetooth: MSFT: Only enable the advertisement filter with monitors
-b535edbf51782cc38acc2e7a6f5ff590ab865c27 Bluetooth: btintel_pcie: Set only MAC_INIT in btintel_pcie_mac_init()
-4fe38719e6738feaa90486e36b0790dd5d960a96 Bluetooth: btintel_pcie: Fold MAC_INIT into btintel_pcie_get_mac_access()
-639a75a3539f621e4437ffeec7ab51bf8a1fb170 Merge tag 'for-net-2026-11-23' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+57ab25412874a93cfabc74175d2791b7cec2656c arm64: dts: freescale: Add EL2 virtual timer interrupt
+b291172a867458955d7dd09fa5af83f6b836d6cc ARM: dts: imx6qdl-apalis: Add SPI aliases
+70ee629c874733e2f4a907c22822c159ef25c0bf ARM: dts: imx6qdl-colibri: Add SPI alias
+f40b465960f31fad03ad344114071500bc25d302 ARM: dts: imx6ull-colibri: Add SPI alias
+db617e3a9d025a486e5328d25dfef483e4dac95d ARM: dts: imx7-colibri: Add SPI alias
+3132dcab068c2e366069400615981312ca791434 arm64: dts: imx8mp-frdm: Add overlay for EQOS PTP event pins
+8a03967da41f55b803d31a6c5b5052bc35346eb6 arm64: dts: freescale: imx95-aquila: Add ath12k calibration variant
+7602e981f6e410649f6daf59c61865c5e93a0d1b arm64: dts: imx91-11x11-evk: Add DMIC codec to replace dummy codec for micfil
+6f50780cc68bbec81354eea8bc78401a177cc8c8 arm64: dts: imx93-11x11-evk: Add DMIC codec to replace dummy codec for micfil
+34978907311f7db40793aca8e116436bb61dffa7 arm64: dts: imx93-9x9-qsb: Add DMIC codec to replace dummy codec for micfil
+ba132d64d5fe93ca95b00dd53eb7aa650648f412 arm64: dts: imx943-evk: Add num-channels to DMIC codec node
+e62e25c28ac14b1cb5c38779aacf23602cf539d6 arm64: dts: imx95-15x15-evk: Add DMIC codec to replace dummy codec for micfil
+7f9a85882dd0d9e64165b3690d243140d9e05212 arm64: dts: imx95-19x19-evk: Add DMIC codec to replace dummy codec for micfil
+430c04b678f803244dc594b1cfdcec393938d52c arm64: dts: imx95-19x19-frdm-pro: Add DMIC codec to replace dummy codec for micfil
+65525397fec4dfa809049dbb49058c33a5da8da8 dt-bindings: display: remove #address-cells and #size-cells off requires
+3b254a764601fcdace42ce8fe439d036c019daac dt-bindings: embedded-controller: remove #address-cells and #size-cells from required
+47a83e13f5b3695fb061e6e5d37e7d4a0bfe0e11 arm64: dts: s32n79: add @addr for *-bus node
+4c2b1a3ad182c38d68bcfb0c466c1e71d9107d48 arm64: dts: imx8mq: remove #address-cells and #size-cells in dsi@30a00000
+dcd62a4f6a2d928b2ddaa107f00276f1f3d772d3 arm64: dts: fsl-lx216x: remove #address-cells and #size-cells from pinctrl node
+1c896b0b996a8a9728a61d0d2e187d988254d8db arm64: dts: imx: remove unnecessary #address-cells and #size-cells
+13d10e419e55d25e4a7d0397b16ba00860f509fd arm64: dts: imx95: rename bus@4c100000 to hsio-bus
+8df26227cc39f7a9102f3823cfe9f65d6e19d89b arm64: dts: imx952: rename soc to soc@0
+c28db479bbc3aee4ad40c3a8af725c30f288e938 arm64: dts: freescale: imx8mm-verdin: Rename Toradex display overlays
+88ca7b43866db1a409e63d165e100a3bbccf5448 arm64: dts: freescale: imx8mm-verdin: Add Toradex DSI to LVDS adapter with the 10.1" V2 display
+def2adfbbddceb640549774c85e7b4748906df88 arm64: dts: imx8mp-skov: fix input supply properties
+9dc3c1dec32227bd32ef337a9b24c754721c998c arm64: dts: freescale: imx8mp-toradex-smarc: Add DSI to HDMI adapter overlay
+f94a4e8bff4f08f4d68f398513609ffedde79a29 arm64: dts: freescale: imx8mp-toradex-smarc: Add Toradex Capacitive Touch Display 10.1" DSI
+d76d232ecd5c6dfb62344d755ade43fbab0fc5a3 arm64: dts: freescale: imx8mp-toradex-smarc: Add on-carrier 3.3V regulator
+c8db1344d9b05927ca1932fefa924746c3b4307f arm64: dts: freescale: imx8mp-toradex-smarc: Add Toradex Capacitive Touch Display 10.1" LVDS
+0870621c22baccc9742a621654b9dafef6b9eef9 arm64: dts: freescale: imx8mp-toradex-smarc: Add Toradex Capacitive Touch Display 10.1" LVDS V2
+0a9861c53b820fcb444e3b0922b22bb62942da02 arm64: dts: freescale: imx8mp-toradex-smarc: Add Toradex Capacitive Touch Display 7" DSI
+f28b6d3dc72d4091bc68e39c195c962b8833f34f arm64: dts: imx8mp-icore-mx8mp: enable the watchdog
+859f7c51c7c6092bbb4855550ddff3e95b5b69a3 dt-bindings: arm: fsl: support Engicam i.Core MX8M Plus FE C.TOUCH 2.0 board
+06e9ff6252cdf646f61c9e0aa2c0700259aedd2b arm64: dts: freescale: support Engicam i.Core MX8M Plus FE SoM
+22af6825efb8c1986860828a2937aa42a0c0ae65 arm64: dts: freescale: support Engicam i.Core MX8M Plus FE C.TOUCH 2.0 board
+65f8b4684f2bb651f3e5168da9b237a31fed25b5 arm64: dts: freescale: add Engicam C.TOUCH 2.0 LVDS display overlay
+f459bcfa504d20f00a8f289dd173b3b1e7b6eb20 Merge branches 'imx/dt' and 'imx/dt64' into for-next
 
---===============1305596571636273494==--
+--===============4414697107406652775==--
