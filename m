@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6976526805213290387=="
+Content-Type: multipart/mixed; boundary="===============1659743820870264411=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 23 Nov 2026 09:22:56 -0000
-Message-Id: <179542577618.219760.3832392399154924756@gitolite.kernel.org>
+Date: Mon, 23 Nov 2026 09:23:06 -0000
+Message-Id: <179542578678.220004.17565752510059504203@gitolite.kernel.org>
 
---===============6976526805213290387==
+--===============1659743820870264411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 86166e6fe2a1b72952dec0dbb93f464ba18900ec
-    new: f1fb947de237fb817617e6f3210c7288956d906d
-    log: revlist-86166e6fe2a1-f1fb947de237.txt
+  - ref: refs/heads/m68k-queue
+    old: 35c4561868a15afa5faae9cac7754d8e87a27a44
+    new: 38603e74651699c82cd909547568d3c3a40524bd
+    log: revlist-35c4561868a1-38603e746516.txt
 
---===============6976526805213290387==
+--===============1659743820870264411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-86166e6fe2a1-f1fb947de237.txt
+Content-Disposition: attachment; filename=revlist-35c4561868a1-38603e746516.txt
 
 1df7f369075d7e8f7794981995a5103f1963bab7 pinctrl: qcom: kaanapali: add the I2C strong pull-up bit
 d36e0b560483991bc63b7b766f82396e1bf7ec33 assoc_array: correct the documentation of get_key_chunk()'s level argument
@@ -1023,6 +1023,8 @@ fdcd45bc9cfee488b92efc4b7f43d6865ec82770 Merge tag 'spi-fix-v7.4-rc3' of git://g
 2681617eb9317444247380298564f58142fc4ff8 Merge tag 'riscv-for-linus-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 6e4122f0242a3262512ee3e6f2e7e6de0bd5792b Merge tag 'perf-tools-fixes-for-v7.4-1-2026-11-22' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 b6a9fa34ce4187cb69d3c588a4bbffc31ce5db8f Linux 7.4-rc4
-f1fb947de237fb817617e6f3210c7288956d906d Merge tag 'v7.4-rc4'
+f4a39ec98a2f415dc8519455ee745b2e6c7d5d9f m68k: atari: usb: Add ISP1160 USB host controller support
+eaa9d697696ea4e828c204ec154135eea2fde27c m68k: atari: Update Kconfig.bus help text
+38603e74651699c82cd909547568d3c3a40524bd m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============6976526805213290387==--
+--===============1659743820870264411==--
