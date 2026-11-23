@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 23 Nov 2026 19:30:58 -0000
-Message-Id: <179546225874.724998.5814120284441791467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 23 Nov 2026 19:32:35 -0000
+Message-Id: <179546235574.725570.4996891727819278116@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: 57accdaa50285b6cf185a74e821cc813a72009e7
-    new: e35cdd54ef7779e97e8057d30ebb432974df60f9
+  - ref: refs/heads/regulator-7.5
+    old: d979b780718905dcbb55c10a5ecb26cc1ff1762f
+    new: a99b77e7fd6e076b006f8a97362edbedb0ca4f69
     log: |
-         e35cdd54ef7779e97e8057d30ebb432974df60f9 ASoC: amd: yc: Add DMI quirk for Xiaomi REDMI Book 14 2025 (AMD)
-         
-  - ref: refs/heads/for-next
-    old: 42795082e2dd5691eda4bc1a27fcecff8ee623b7
-    new: 1fb337e3bf71626ecc1fff69b3c243b567031a91
-    log: |
-         e35cdd54ef7779e97e8057d30ebb432974df60f9 ASoC: amd: yc: Add DMI quirk for Xiaomi REDMI Book 14 2025 (AMD)
-         4516149454084f3ffedd48bc158c0d8758410af2 Merge asoc-linus into asoc-next
-         1fb337e3bf71626ecc1fff69b3c243b567031a91 Merge asoc/for-7.5 into asoc-next
+         a99b77e7fd6e076b006f8a97362edbedb0ca4f69 regulator: qcom_usb_vbus: Check the VBUS control source update
          
