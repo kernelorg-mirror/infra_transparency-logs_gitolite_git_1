@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8449851789548342473=="
+Content-Type: multipart/mixed; boundary="===============6199726795940466520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 23 Nov 2026 01:26:08 -0000
-Message-Id: <179539716826.3672666.1930476834507911206@gitolite.kernel.org>
+Date: Mon, 23 Nov 2026 01:26:43 -0000
+Message-Id: <179539720372.3673069.6200683386876314811@gitolite.kernel.org>
 
---===============8449851789548342473==
+--===============6199726795940466520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,136 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 834283c65e3b306f39a725acbc7cd99b6afa61de
-    new: b67a7338a694613893938ca38473f8e2e42ff575
-    log: revlist-834283c65e3b-b67a7338a694.txt
+  - ref: refs/heads/nfsd-testing
+    old: 6d817b9ca893bc2603446e340030e149e5c8b207
+    new: 194069b5ff38d82d302c33a4dd280d948c96cfe6
+    log: revlist-6d817b9ca893-194069b5ff38.txt
 
---===============8449851789548342473==
+--===============6199726795940466520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-834283c65e3b-b67a7338a694.txt
+Content-Disposition: attachment; filename=revlist-6d817b9ca893-194069b5ff38.txt
 
-0f8945d5da179594ed7ba058eeb363964438d2d7 iio: common: cros_ec_sensors: use sensor_scale union member for CALIBSCALE
-4e9f192f997dc56f309090233352d62edbea42ce iio: accel: adxl313: add missing buffer selections in Kconfig
-9253a88b28d4ff6b70c015838e516fc385047dd5 dt-bindings: iio: dac: adi,ad5758: Fix the 4 mA to 20 mA current range
-a6cae12024949f19b0b0a7296ea4bc52be2d5b38 iio: dac: ad5758: Fix the 4 mA to 20 mA current range
-dff701806ab6252f6a0fccba880c47cd09602625 iio: trigger: Return an error when the trigger has no free irq
-0a570feeca37d85fbfd6b4f6e3d9f33e1461c634 iio: humidity: am2315: fix negative temperature decoding
-4d4e75b3074bc29525c963a81c19471528f29a45 iio: temperature: mlx90614: Fix dual channel probe condition check
-6ec0623a7c77bc2c383e9971d7b0c9df3ec988fb dt-bindings: iio: adc: Add syscon property for multi-SCU SoCs
-4e7007317fdf83b5201f39afff5adfa0292fc707 iio: adc: aspeed: Use syscon phandle for trimming data when available
-bd63c89aac5672f40cdc123a856493b628fc1abb iio: light: tsl2591: don't divide by zero
-7b5f54280f8e6ef07664f6705dd005feefbe87d1 iio: proximity: sx9324: fix out-of-bounds read of scan period table
-3785dffc7c68751a8429ae6dd75804c14a5a7c7a iio: inv_sensors: prevent timestamps going back in time in transitions
-0d695709ed380f1bc9303a91f57525d33766a07e iio: inv_sensors: do not compute period estimation when updating odr
-4a141623442888458d147f4e61fe47411c0e4e17 iio: imu: inv_icm42600: fix parsing of all FIFO frames for odr change
-1e50a03490120f1978c323741013457bc5c4582c iio: adc: mcp3564: reject devices without match data
-0516c565878687e1b4952edf32b4a069ca13e9ad iio: dac: mcp47feb02: reject out-of-range raw values
-d252425c1533bfacd5940faa3371af82196bff5b iio: proximity: sx9360: fix sampling frequency write and available range
-098a4c37dc8815ea941866179220394e4d182c67 iio: dac: mcp4725: Update the cached DAC value only on success
-b8ed9165906597b69a46fabf39ab41690721ebe8 iio: proximity: sx9500: ignore event config writes that don't change state
-f3fc8718af9189aad13a2ad7f5b256475bb14b21 iio: sx9310: use the data of the I2C table
-e6dfbd84b833ed595a5236b027357e917de28260 iio: addac: ad74413r: fix the values of set_multiple
-594157b4f3f64db5833dee679194c33a5968f92e iio: adc: ad7923: add the AD7927 to the SPI ID table
-905b5d93b795b0e2311a8c855c1cdd97c9cc2989 iio: adc: check the result of ad_sd_init()
-4c56180167ea4d419a0578545bf62110494b563d iio: accel: adxl380: don't stay in standby on -EINVAL
-c83cc7d7ed204245ec50d974aefcfcc66e910cd5 iio: light: hid-sensor-als: Don't read past the end of short fields
-25d15b4192b9ae45be61670b5424721f5a0e0cf2 iio: adc: qcom-spmi-adc5-gen3: Reuse IIO device ID for ADC_TM aux device
-fd7334314f63a3a2a4927f209b2ca0e33d111840 iio: accel: kxsd9: Fix potential use-after-free on removal
-c293f0db308fe76a0a9b0f6674cd2dea149b03aa iio: afe: rescale: expose offset if rescaler or source has one
-aa0c00a516faac6683c7fb0a4f1032f471f910f7 fuse: Use d_alloc_trylock() in fuse_direntplus_link()
-996a59519af2ef3d8f47479685616bb2278c6cfa PCI: Ignore Immediate Readiness on Samsung PM9D3a NVMe
-c72dcaeaabd60e164e7324f80ccb037e879eefdd iio: hid-sensor: Fix scale for magnetic north heading
-289ea23b7bdeea303d3ac16a0f24a684cb48bdca IB/usnic: fix wild pointer dereference in usnic_ib_qp_grp_dump_rows()
-82d46dedf750addfad5480f79165cacb81c89650 RDMA/srpt: bound the indirect descriptor table to the IU
-252fc17ff4fbc2c6ead5e2f9404c9d0c490f0965 RDMA/srpt: reject zero-length buffer descriptors
-013eb66a8ef25ef531bf41d79815948ab4938571 RDMA/srpt: widen the indirect RDMA context counters
-0246639e79a4132b68cb41ba28e41333d7c742d0 RDMA/mthca: Fix off-by-one in mthca_map_user_db()
-756cfa339d1b117676107049f650dad5414d6ec4 RDMA/bnxt_re: Clear stale RCFW resp pointer when wait ends
-5ea08e2dcf736a7c81cd3c33683a76cc66de10be RDMA/bnxt_re: Honor a completion that races with a wait timeout
-02df984377d14381cdddb3d94bfc263486590d5b RDMA/bnxt_re: Do not treat CQ error notification as a command completion
-fbe33b99673d25cdddb6a019b0b237a3bc39054e RDMA/bnxt_re: Drop RCFW completions for cookies with no outstanding command
-f7da2c5c60017d2c2bf3453d5aed68a3551e9e99 RDMA/bnxt_re: Reset cqe pointer each poll_cq iteration
-6be33e5725ee7f0db72577104daaeb569f5938bb RDMA/bnxt_re: Remove shared page mmap entry on alloc_ucontext failure
-ac39883b95322df170461d980953b0fcbf993332 RDMA/bnxt_re: Bound FRMR page list by max_num_sg
-d706625c62b45135ffd6f40b669081c4896dde6f RDMA/irdma: Fix FRWR logic for PAGE_SIZE > 4K
-cefc2270e42baed46d64d7d79fa23172bbad9533 RDMA/irdma: Fix paged PBLE and virtual AEQ for PAGE_SIZE > 4K
-0353b51965883cf70dad162908e07395f242000f serial: 8250_exar: check priv->gpio properly
-93db7f4e32e2d5f6c63e724452814bccb5bd6773 serial: 8250_hp300: reorder HPDCA code
-895dc0eaa2779ff46a0b2a20b5ce9eb0b1125cb2 tty: fix misapplied compat_ptr() in tty_compat_ioctl()
-5d1d814408c1c8e797031eac8ddd40de1a9e8e93 vt: serialise the producers of the flip buffer
-84da8238f7bd3025fc16da32c4cd9992c95a783b serial: core: respect runtime PM when sending x_char
-08daebfd63e9054e097eb2653eff9381de43a422 serial: 8250_lpss: don't divide by 0 above 6.25 Mbaud
-899e3c6e30ff34cf7a260b806fdedb56749e36e9 serial: 8250_mxpcie: handle hangup during break
-0f0664a63efdfd70d1c555080781f4e8464445aa serial: fsl_lpuart: fix tty ref of wakeup event
-6d7fbd5a28d092ab61ec0092cf1e085d2bb9ed7e serial: imx: fix the tty reference of the wakeup event
-859f7c56709b161a72b629b6f2f1384dcd374404 serial: rda: free the interrupt on shutdown
-7ada442f5ef77f8d53f608a0141a5e88a888ca9f serial: samsung: don't leak the tty on an RX IRQ
-eedf2cf3505c1562a2fb24f8b997056f023d242b serial: samsung: put the previous baud clock
-a7ff66ebcb81abf65967513cc51788e5bdb32a92 RDMA/mlx4: Fix stale umem and MTT state after rereg_mr failures
-6b5c8236e3008f7795ce558a9235c38f829a94a4 RDMA/irdma: Do not allow rereg_mr to revive defunct MRs
-ab5389ccf8bcd312a620f974ef94c174067ac1c8 RDMA/irdma: Do not change mr->pd in driver during rereg_mr
-687a1e161457b267963f8334fd143896515cec25 RDMA/ionic: Use a linear QID space when udma_shift is zero
-8cf5406b86249af4c95956cc9ea0805375fa2033 RDMA/nldev: Reply to RDMA_NLDEV_CMD_PORT_GET with its own command
-f3980f8abd2d111c7a9057130e7fa926ae908b0f RDMA/nldev: Reply to RDMA_NLDEV_CMD_STAT_DEL with its own command
-a70672b9b3ac7d8945f67cd199c1bb680d5d5f64 RDMA/siw: Fix use-after-free in siw_mem_id2obj()
-9191c2c1a76a759ac97be72481fdd4f9e920c902 fuse: fix possible UAF in fuse_direntplus_link()
-9b82a8aed794c8775a38142579686cf383f7f26b fuse: zero the partial EOF page in copy_file_range()
-9ea515bbfb8c02c621af02410dd2e5234130126d selftests/fuse: test post-EOF page zeroing on copy_file_range()
-2b2bb55990cf1d9dbd59ee326d545798061fce97 scsi: bsg: Don't copy sense data to user memory when canceled
-6da1bc55c060bec3163b0e6077f3ac9641f8100c scsi: ufs: core: Keep clock-gating hold on failed W-LUN runtime resume
-807b09be9c8f234ce758bcf43101f34e0a036b83 riscv: Fix SR_SUM leakage across context switches
-0d0c6a49d80669176f721403916df0b1e32afeef riscv: defconfig: Disable COMPAT_BRK
-784118478160751016b3bc437d009890fa20f3f7 pinctrl: mediatek: common-v2: Fix of_iomap() error check
-d432e5d3dbd98589029905e898bfe7005be69b68 comedi: fix endless recursion in comedi_event()
-ade85ceef46892425a08f3ee52ca06729ee4922e comedi: addi_apci_1500: fix clearing of the gate enable
-5a0c88567a5ebbe24ecb7828e200f63ed972718f comedi: ni_660x: don't poll without a DMA channel
-ec214735bb113be747454812035b83010892e0d2 comedi: ni_tio: Fix overflow of the clock period
-92fa93505576188acc22c5de1999db9a1c70c09b comedi: vmk80xx: report failed transfers of the K8061
-824a27d391cf934d3232e8e2dabee221fc4e18ae misc: vmw_vmci: wait for callbacks in event unsubscribe
-a36b3db60466d44eefcc5c252ce927c043429922 misc: bcm-vk: fix DMA allocation memory leak
-8599e08648c0b4913ea7b202511f1294d176e793 w1: use the bus mutex for the "rw" file
-dfc57752ec53c3cc6105656d3037fb2f5e80e9cc w1: remove the master's files before taking its locks
-e4f673632fa8292a2922bcfbb39519b08016b382 w1: ds2482: set the strong pull-up with its byte
-5bc51235d0ad4a4991e38f4e9dc3440738296850 w1: ds28e04: use the bus mutex to talk on the bus
-a2e52ccce044e13d2695bb1bbdc07942727f28dd w1: ds2805: use the bus mutex to talk on the bus
-847fa880a3e1b2fdbbf72d89e830566108457637 w1: netlink: drop the slave after the bus is unlocked
-7ef382cb0ae0b2d6df4fbc5c822cd80394308839 w1: don't hold list_mutex while a slave is torn down
-1e46334d38e0217f5d255dc6fd63243593052f8e w1: w1_therm: lock the list of slaves for the bulk read
-c0eadd2e06e52563cae2b80491e56eb9712eb727 w1: w1_therm: leave the slaves of other families alone
-2022f170e5655c40b93ed98629f7d0adb98cea49 misc: ibmvmc: initialize HMC state before device registration
-ff9de8571f05e8f62f9cbe29f38e0aedda9389cf rust_binder: push BR_TRANSACTION_COMPLETE before BR_FAILED_REPLY
-1115120f89f5c22bf49f7423cf158a04a474dd93 mei: lb: read the MTU once
-73383d06da9a1ded4c85845407cb4029aeecca39 mei: me: add ice lake point LP iTouch DID
-fa0858523f07f8dd71d89b221f4422c3b8096d90 comedi: comedi_bond: Fix leak of opened device references
-90d95fbc1bcc8464f6d8c6891c62bad4c0dc2d58 RDMA/rtrs: Register client event handler after capability check
-b8320a8b5650096873ae8c0377b8fa1226b15fe0 usb: typec: ucsi: retry init only while the PPM is not ready
-b889ea1f6dbeab953a3b1e752cc1d4fda2c46927 bpf, sockmap: Write sg.start when recvmsg() faults
-436c4cfa071e1b48aae94dcd73b69ef6fca2eba3 bpf, sockmap: Don't let an SK_DROP verdict stick
-f4c044966d6c896c46ea0fd929df3b7c06529ef8 bpf, sockmap: Don't let an SK_PASS verdict cover the next message
-fa84be67b5bc2999c6962e18c5deee2e90483bfb bpf, sockmap: Subtract all dropped bytes from the return value
-51e0f3d60be57379329b4933a1d63bbdbeb8b99e bpf, sockmap: Clear the resume state of a stopped psock
-7c036a39ba293186832436f2e6d2798f397f6fa7 bpf, sockmap: Give no progs to a TCP listener
-4aeaad1c536ef640539aaafe728a8a4b096603f4 bpf, sockmap: Check the target of an egress redirect before each send
-430775a30b1f2d3998d2201b74be0e8e502dedbf net: Leave sk_stream_wait_memory() once the socket is dead
-9f5763e6287a7a35a807c527874e7033ba3038cc bpf, sockmap: Check the TCP state in recvmsg()
-12c45473dfe7b5438d253e67bc7bdf2bb98e3108 bpf, sockmap: Reset the copy position when corking
-a912358996f8f9ac16690c358b05bbcfc59f7666 bpf, sockmap: Don't copy 0 bytes into a full cork
-e4c2fe0b9a6206420cc71e1ba4675238b43cb18f bpf, sockmap: Clear the redirect target before the sk_msg prog runs
-815cfc482e631f713d18944d4e81c1d41fe91fcb bpf, sockmap: Check that the redirected message is the cork
-13c41b87e4a7f587cfec463c7b02bdbb543caa80 bpf, sockmap: Keep the rest of the cork after a redirect
-0048086bd3616b2b3b1b0f122f6268360769a756 bpf, sockmap: Clear the end mark of elements added by push and pop
-475a0cfd02f14d764023e926ac01fc7597134229 Merge branch 'bpf-sockmap-fixes-for-verdicts-redirects-corks-and-recvmsg'
-4e8d36054e2e2838681fa5dba9ac67a81af12386 riscv: RISCV_ISA_SV48 and RISCV_ISA_SV57 should depend on MMU
-e0167a473b3e0f6388bcbf13ce2afcafe1b44b0c riscv: kgdb: Fix potential missing local_irq_restore() call
-94196cd3413fba6cf6d1f71d6de401e56caaf29b scsi: Revert "scsi: target: iscsi: Fix hang for aborted WRITE_PENDING commands"
-cae8db99f3956e6446827ae4a9605a1ed815772b scsi: target: iscsi: Fix hanging WRITE_PENDING commands
-ebf5cab0dd223a36a09742a91be4fea97e46c816 scsi: ufs: core: Restore jiffies conversion of device management timeouts
-cbab12e5b4a7f49d5add4301de275351269cd431 scsi: ufs: core: Introduce ufshcd_rpm_resume_and_get() helper
-93891d1c486efcef2267c32e6e73ca2fd243704e scsi: ufs: sysfs: Propagate runtime PM resume errors
-2b8541edf7c43f0294c45d2e687bbc1288292f4e scsi: ufs: bsg: Abort ufs_bsg_request() when runtime resume fails
 9eb89611d95914e47cec62826e4000396df0f953 scsi: ufs: hwmon, debugfs: Propagate runtime PM resume errors
 c84374cf4d2cb0c6efff91f7a37e85656cbbd593 scsi: ufs: rockchip: Improve RX noise immunity
 04feb5fd2c23894ebc2cdaf4a4cc38b8667b17ac scsi: leapraid: Fix init_cmd_priv error handling
@@ -1050,5 +931,124 @@ f734d0995402bb04e5a0f5e571c226b2101378ae nfsd: run the fence script when a block
 ee89ef554c075b1a0d5124521d52d6a203081cf9 nfsd: keep polling a layout recall answered with NFS4ERR_OLD_STATEID
 5d5994364914a9e56ff1cad82a0a7557a716dcfa nfsd: do not fence a client for a layout recall with no layouts left
 b67a7338a694613893938ca38473f8e2e42ff575 svcrdma: account for inline bytes in Read chunk page budget
+abc87bfa1dea119645468cb12d7aa94891a0edf6 NFSD: Use direct I/O only for the last operation in a COMPOUND
+bf8ad632a5cd55514302531007c5d7fb91a1a88c NFSD: cut a misaligned direct-mode WRITE at folio boundaries
+7f97281d0a883bb978acecb0dab57a3ba7e9a2d2 NFSD: mark the direct middle of a split WRITE IOCB_DONTCACHE as well
+e4482f03c39053a6c901d5ce3bf471c14b1c24a4 NFSD: only split a direct-mode WRITE for a worthwhile direct middle
+409fc7d09897764209c2e208dc4ba6164c0b1ba8 NFSD: add direct_misaligned_dontcache debugfs knob
+638e67a78f4b147cb6c6291f36e33f5e99c1127e NFSD: do not use direct I/O for a READ smaller than its alignment
+eb20b045f5a7da37683a7f5389d87ccadd64cbb4 NFSD: persist a synchronous direct-mode WRITE once, after all of its segments
+c3144bb77b574d5fa737ea2bea5f2ef2a18755f1 NFSD: add tracing for how direct-mode READ and WRITE are serviced
+b614fc9cb5fa82c72a8b22fd9d6f1389cd7567b2 nfsd: truncate LISTXATTRS replies on error
+941a668d5b90a39569a4b9d28cfdd009a9d019ce nfsd: add NFSD_CMD_FILEHANDLE_GET for root filehandle lookup
+e5e10c742c17c1336708520ca2d03676b5224076 nfsd: store net in svc_serv instead of deriving it from sv_permsocks
+e3c07c27354d88a12c47600d93a456e6306f15c7 svcrdma: silently discard undersized messages
+27dfeaf7731b9c59ac5c76d3e3ca4b11125821b6 xdrgen: Reject out-of-range unsigned short values on decode
+888c4546eb65104c11548e60075f1482cd2e69b9 xdrgen: Reject out-of-range short values on decode
+c6ace71f523f81d44027fdd7ebf73cb69cd2fe97 nfs_common: Export posix_acl_from_nfsacl for server ACL codecs
+43f0dfe909aa020898fe688750def62d1a5e5f23 NFSD: Remove the unused NFSACL_MAXWORDS macro
+c7f6a3c632f0e20516eab36d21357a2fbd9f323c NFSD: Move the definition of NFS_ACL_MAX_ENTRIES
+6065a9af70c62727b5aeb70bc43d49db4bcbe7a0 Documentation: Add the RPC language description of NFS_ACLv2
+b951987e190fe4ac8266a798cf8e6f8c7e456ce8 NFSD: Add infrastructure for generating NFS_ACLv2 XDR encoders and decoders
+62f1b4118586cd4e105dac1725a9c9465b95df07 NFSD: Remove '#include "xdr3.h"' from nfs2acl.c
+f224ef48f82fb70fc53512412eef891ac295935c NFSD: Remove '#include "xdr.h"' from nfs2acl.c
+e85c46a4643b2e1f8acac47a829f6100962b8dd1 NFSD: Switch to using the NFS_ACLv2 status codes
+efe62b9aa3e7cea0ca7de4ca65f4c078f031daaf NFSD: Use xdrgen XDR functions for the NFS-ACL v2 NULL procedure
+2125d74330f5cb83cc9c5cc4b98a81e1032c4cf9 NFSD: Implement NFS-ACL v2 ACL encoding and decoding with xdrgen
+a78331b9fde5b6d76d2b1def1ecdc872a037e9f0 NFSD: Use xdrgen XDR functions for the NFS-ACL v2 GETACL procedure
+2a9b0e5195be101076ff579e14c620c1c83c2b60 NFSD: Use xdrgen XDR functions for the NFS-ACL v2 SETACL procedure
+3f3601f7b121a9cad16c3547565d861f680c4f1f NFSD: Use xdrgen XDR functions for the NFS-ACL v2 GETATTR procedure
+d11df71eae2f7daea117d87dd1da17fc51fdf634 NFSD: Use xdrgen XDR functions for the NFS-ACL v2 ACCESS procedure
+a3070b729a73fa6f58ec228d70229a6be0ce075b NFSD: Map every NFS_ACLv2 reply status into aclstat2
+864c9289260571f7fad7dde992ae925d04195775 SUNRPC: Fix use-after-free in svc_age_temp_xprts_now()
+ae0954f12864dd4ffdd3e049d6688d2e2e0bb04a SUNRPC: fix delayed cache cleanup in write_flush
+4c854fef54cb532138921429ac39b6af9743a58e xdrgen: Handle a union whose arms are all void
+86913828ba62ea71677727fa68d62a5ebb704c30 xdrgen: Key the width tables by type name only
+08a01cdd2fd4c4685d31dd82793192023344dfff xdrgen: Register optional-data names only for typedefs
+976f2e5387b46d3f9f9554c208d03f2862d007b2 xdrgen: Take a union's numeric discriminant width from the declaration
+88601ecbefa2c9449f968c9c520f710c371d597e Documentation: Add the RPC language description of NFS_ACLv3
+99d13e1871124f08bd17eb298f0ddac3dd248fb5 NFSD: Add infrastructure for generating NFS_ACLv3 XDR encoders and decoders
+6fd8f8881c967b65037ec71541c52d1786a51fb0 NFSD: Remove '#include "xdr3.h"' from nfs3acl.c
+2c508a30e9bc78d65594229f1e5238ae77b7b987 NFSD: New NFS_ACLv3 status codes
+f7c006bdb24402b000dec2cae5d17aa624189314 NFSD: Use xdrgen XDR functions for the NFS-ACL v3 NULL procedure
+ae1f4d75a973059f8ab6faa62b7e636a1e7f57a0 NFSD: Implement NFS-ACL v3 ACL encoding and decoding with xdrgen
+9bce81c614eba8a869c36cf3401c3766e8cc317f NFSD: Use xdrgen XDR functions for the NFS-ACL v3 GETACL procedure
+96ce1cc333bc1791d58d27baa2efd5b7712a03cd NFSD: Use xdrgen XDR functions for the NFS-ACL v3 SETACL procedure
+ededcdc4b348a0a125beca646a2d1338f555788e NFSD: Map every NFS_ACLv3 reply status into aclstat3
+8a1feaeadd8c81eccacfd813a14af8ec146d326f NFSD: Remove the hand-coded XDR helpers for the NFS_ACLv3 procedures
+cb238a9adccb150b8214bc3264926201a16c22d3 NFS: Move NFSACL_MAXPAGES into fs/nfs/nfs3_fs.h
+250f1f92ba0be3f6b3b891d0760201e3fba902d2 NFSD: Share the attribute conversion helpers with the NFS_ACL procs
+2174933f9a47e21351831cfb0eb301ad0d24873d nfs_common: Remove the unused NFS ACL stream codecs
+dc913213dace71c14d95ae03e7e52f29218005d7 NFSD: Map NFS_ACLv2 entry IDs through the request's user namespace
+52127342c832f3c67d3111ae3269c86559a7f1f2 NFSD: Map NFS_ACLv3 entry IDs through the request's user namespace
+af46662d340178b52f92cdc5c735dbfce0278b91 NFSD: Don't dereference cp_clp in async COPY tracepoints
+e1ecdb877d5646a9bce5d5299f39c27f84819a64 NFSD: Add per-export read/write I/O mode settings
+9f49f16c663126c09faca73e59d1507b3103dde3 NFSD: Apply per-export I/O modes to READ and WRITE
+6684ddc12715214822c554923c3f64c9a7eeb2b5 NFSD: Document per-export read_io= and write_io= options
+4667168c6514f51950ea0c06cdb8288fa711e9ad NFSD: Keep per-export statistics across export cache updates
+fab307963582dc666589a86cb0f181c038eb9c5c NFSD: Count the storage reads of each export's READs
+dc20b118c39bc32022421733fce94acc73b03df2 NFSD: Document how to choose an IO mode
+09ead00e878502e8dc10b1fb20be4b7acf89bce8 nfsd: pin the module while a server exists
+d0dfbddf742154957197d117ef964d4ceaa5ccdf nfsd: fix XDR tail bounds after spliced READ
+686d08059750c194c4c1b0e00ebe64aa672f54fc nfsd: don't access freed memory when cannot grant a write delegation
+422d8881ff1bd99dccc34895daf3b8f5749d2ef1 NFSD: Do not regrow a slot in the SEQUENCE that retired it
+17c2b96981fede29d67a2a9e71b635f06fe4dffa NFSD: Fix PUTFH wrongsec check when SAVEFH follows
+6c7b9aa2a98f88908a22e9a53d95735d8df56167 NFSD: Check export security on the COPY and CLONE source
+2801a43e5391b75f007425e083024917c629bbe5 NFSD: Check the entered export on a mount crossing
+fa9884daaa8ac2eb789f19ac74ef0506900c54b6 NFSD: Let SECINFO query an export that excludes the request's flavor
+8d4266440afdf0d73f0e07d2c28e495849a272ce NFSD: Defer the PUTFH export security flavor check
+46475fb9c6a1bd8b396567d3559273f9b7292379 sunrpc: fix lost wakeups when stopping service threads
+be7a317dcd3525d1e9a97bd13d4cab02cf199989 NFSD: Drop the READ payload when the NFSv2 GETATTR fails
+f2f45214b97fb5ddda723ced4470119d7cfd7611 NFSD: Pass the link text offset as the READLINK result payload
+7a6d2cefe4c2b74176fa525793a83a1151e1968d NFSD: Check the Write chunk before inserting a spliced READ payload
+3671e2015d6a0c914fcab654e996d5ab5c88f726 SUNRPC: Check the Write chunk before inserting an opaque payload
+f14f54fb7d4f25ef223a55aea0777d232e4cf021 NFSD: Return NFS4ERR_IO when a payload overflows the Write chunk
+e7ca728c427465c9dc60d00f8d8a9eb6bead6a8e NFSD: Place a word-unaligned direct READ's XDR pad in the tail
+efb47f601587f3588cbf665d2df293a5ad235c03 SUNRPC: Account for page_base when encoding into the reply pages
+36222fa4e2b75628d9e28c1d9cddd6f78307bbdd SUNRPC: Add KUnit tests for encoding after a nonzero page_base
+662c786a0f9527c5985d88148ecad1aa44a0a66e SUNRPC: Restore the auth slack before encoding the integrity MIC
+351dc72d56188676c4fe9659d227eaf5f56cf92d NFSD: Round the session's reply limit down to a word
+87ae90bfb274bd9780b85d327e6fdb08f194b1de NFSD: Account for page_base in reply-space decisions
+78a3413d26d1cd2ce6894449e759ff4b8c568ed2 NFSD: Allow a word-aligned direct READ in any COMPOUND position
+a07a3ac6b05bdf14bb8127ba669398d5dd13a934 NFSD: Do not truncate an operation that reported an out-of-space error
+2b185f59cf4aa743fe8737eb6b6f9372f686575d SUNRPC: Load the GSS module by OID only when the mechanism is missing
+838db44193caaa3107492910329b1b4ddb4dab83 NFSD: Serialize forced client expiry with state shutdown
+3b197667d2d9c7e4cf81b06559c1782044337f7a NFSD: Check machine credentials before expiring a client in DESTROY_CLIENTID
+2b88d72bca21d09ad0861e205e2abfab541a08c9 NFSD: Make nn->boot_time strictly increase across state starts
+0bbbd7000118112e98c4b4faa123f52ab23e6c46 NFSD: Give each client a display id independent of cl_id
+dcc936e4111058af7b3526033b8bb871d5cba5e9 NFSD: Generate the clientid at random instead of from a counter
+a43ee4fcc4f8ea63b18070902133d433120733ab NFSD: Stop disclosing the conflicting lock holder in a lock denial
+8f11f45367a2fbe6490491721675cd7c2d14a50e NFSD: Destroy the COPY_NOTIFY stateid IDR at netns teardown
+668c5b84fe83a3eb548c7bb8cbca30b9da85ab7d NFSD: Put a random word in each COPY_NOTIFY stateid
+8528b17452612afc706f589a6a6434e263dfe194 NFSD: Fill the session ID's sequence and reserved words at random
+128f0651bb49f83cfadda905e2b5f28e4c7e4469 NFSD: Add KUnit tests for the random identifier generators
+6a15eb7634133060bc9d9e7ca4aa713720ef3f2d nfsd: don't block on a file lease while holding the parent lock
+dc8c16457ac3b9c23734f0098fe3073f11e34472 NFSD: Refuse a direct READ whose aligned range exceeds the reply pages
+7a674406380fdb19f918e1ff03df4ce5b94c43f3 NFSD: Check the secure-port policy when entering an export
+21096e234e1a02072b258bddee1f1578f2fdf14d NFSD: Do not validate the transport before a deferred flavor check
+ed784ca596064204f4ff307098325e9e3adc5b7a NFSD: Defer the PUTFH secure-port check
+7d7acc6ca47a9e20140a942df99d190df6181f66 NFSD: Report WRONGSEC from PUTFH when OPEN uses the current filehandle
+16beb5500f1b41f1233164355d79c2be5e7e40ee NFSD: Apply the entered export's credentials after LOOKUP and RESTOREFH
+f0485937315bd0835e5583ec52749a551d36c612 NFSD: Use each export's credentials for the COPY and CLONE stateids
+75959c509511ea521ef018ce7e4b5c737f11471c NFSD: Verify the target directory last in nfsd_link()
+1b3e47ffa771d48232211b5934c9057df401a822 SUNRPC: Add KUnit tests for xdr_buf_to_bvec()
+95edc60c318b177b56591850498553a1c289d743 SUNRPC: Reserve a leading rq_bvec slot and add svc_rqst_res_to_bvec()
+c1877c2ad2a8232ba5883239fc45bb7d1457b919 SUNRPC: Send TCP replies from rq_bvec
+c5a799f085bdc1e0b117cb20439df3dc34a54e6c SUNRPC: Send UDP replies from rq_bvec
+7b966898b71fbe3d0957f0c435484fbfc3d82709 SUNRPC: Remove svc_sock::sk_bvec
+f6e2c46a1f206b35ad9320703a663e55595269dd SUNRPC: Add svc_rqst_set_arg_len()
+addeaa4e9cd3c6fdc57d85987eadba76832682ed SUNRPC: Move the receive bvec iterator setup out of svcsock
+2ce7b9af960d8f1a8a9e1c04159170018a478332 SUNRPC: Receive UDP datagrams into rq_pages through a bvec iterator
+fe4b93e0b8ab843fc6c783f7e110567768ecf66f NFSD: Check for a COMPOUND before reading nfsd4_compound_state
+7e5d5f9ef548727ed83ccf507edb18cc4d5b8a60 NFSD: Move the spo_must_allow check out of check_security_flavor()
+5b544b4adba90fe0e27ea72a790785e308c2c6d8 NFSD: Reject a COPY whose source and destination are the same file
+c4e51adbd28d7b9a6e8d34a9f2d69818e3e3c651 NFSD: Reject layoutupdate extent counts that wrap the length check
+4bcf5ff6180a8d3d8c2fecec9d2aa7022afa4972 NFSD: Allocate the layoutupdate extent array with kvzalloc_objs()
+22d2a7297e5b8a97f326d4fe4c8ad0652702ee01 NFSD: Decode block and SCSI layoutupdates from a local xdr_stream
+609afb8806702bd9db26b67c7b157f80fcf1434f NFSD: Remove the svc_rqst argument from proc_layoutcommit
+6daeebc9e07dbe843de5de1809595b28fd86e33a nfsd: only set RD_STATE in nfsd4_setattr() for sole TIME_DELEG_ACCESS
+29bf71462400f5263b749394bb8f60d5169b0a11 nfsd: only set NFSD_MAY_BYPASS_GSS for RPC_AUTH_UNIX in nlm_fopen()
+d98a9191e68cd190bfff08eea48b0565d349da7c NFSD: Move nfsd_break_layouts() to nfs4layouts.c
+194069b5ff38d82d302c33a4dd280d948c96cfe6 SUNRPC: copy the GSS init token with read_bytes_from_xdr_buf()
 
---===============8449851789548342473==--
+--===============6199726795940466520==--
