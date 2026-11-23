@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 23 Nov 2026 13:54:34 -0000
-Message-Id: <179544207461.447357.3333721471794109232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 23 Nov 2026 13:57:08 -0000
+Message-Id: <179544222872.450370.6952248757873128446@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: 04573b260599414672d39439929c47cad38aec7c
-    new: d5612641c0dac28b7b4fdb4c782208d93742c75c
+  - ref: refs/heads/main
+    old: 3896ae4adf5ffc11ffd0f7f42c3923e8dc195e75
+    new: 7b0c5f0c757cb61e28dc4128633877aaa8f6f9bd
     log: |
-         d5612641c0dac28b7b4fdb4c782208d93742c75c ASoC: qcom: lpass: Propagate IRQ lookup errors
+         7b0c5f0c757cb61e28dc4128633877aaa8f6f9bd net/mlx5e: TC, fix a NULL pointer write in the peer flow error path
          
