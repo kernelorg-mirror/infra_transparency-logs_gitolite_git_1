@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3210582616639542183=="
+Content-Type: multipart/mixed; boundary="===============6790054906253309257=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 23 Nov 2026 11:40:03 -0000
-Message-Id: <179543400368.348318.14058549282948520406@gitolite.kernel.org>
+Date: Mon, 23 Nov 2026 11:40:56 -0000
+Message-Id: <179543405606.349584.14381465901641835078@gitolite.kernel.org>
 
---===============3210582616639542183==
+--===============6790054906253309257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: 067c5c24cef23d913b67eaaf71ae67e7169a6620
-    new: b6a9fa34ce4187cb69d3c588a4bbffc31ce5db8f
-    log: revlist-067c5c24cef2-b6a9fa34ce41.txt
+  - ref: refs/heads/b4/ffa_ns_sgi_gicv3
+    old: 8b6b9bdb4bdbf2b59027e3ad3d0ea8be59b9984f
+    new: dc0b4410fa133995ed4d859ca5af70535b73ad5b
+    log: revlist-8b6b9bdb4bdb-dc0b4410fa13.txt
 
---===============3210582616639542183==
+--===============6790054906253309257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-067c5c24cef2-b6a9fa34ce41.txt
+Content-Disposition: attachment; filename=revlist-8b6b9bdb4bdb-dc0b4410fa13.txt
 
-7e2645d5c05ac03f240685fe76a2c04733d36a1a drm/sched: Ensure stopped entity cannot be re-added to the run-queue
-44818c9a826d766dc0e21179dc76f229334f1dda net: gro: avoid parsing headers from shared fragments
-d00ba321499c0050872d70c41d86069f1d52c248 ASoC: soc-core: reset rtd->num_components after allocation
-9280128245612b30ca4a238daa6a777b0f4e583e net: usb: lan78xx: let unregister_netdev() stop phylink
-67869597fab06abaa5b977cb7004532269fc960b net: mana: fix XDP_REDIRECT of pre-allocated RX buffers
-d7900fa51642fbc2a5a03354238e71050a7d391d net/smc: fix lgr/lnk lifetime vs diag reader race
-7d02c07c738bf5c4b9a7d7ef498fbf465c446853 net/sched: act_ife: encode configured zero metadata values
 11dbce09083473249c3843ff31bf8d8fa01bdeef net/sched: act_ife: require a full Ethernet header on egress
 1ae84bdd736f8fab30180159996e1d193f8029ff net/sched: sch_teql: reject qdiscs from another network namespace
 367a50c3233e3f52fee481af025089594cb7851d selftests: tc-testing: teql: cover each attach rejection on its own
@@ -1050,5 +1043,12 @@ fdcd45bc9cfee488b92efc4b7f43d6865ec82770 Merge tag 'spi-fix-v7.4-rc3' of git://g
 2681617eb9317444247380298564f58142fc4ff8 Merge tag 'riscv-for-linus-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 6e4122f0242a3262512ee3e6f2e7e6de0bd5792b Merge tag 'perf-tools-fixes-for-v7.4-1-2026-11-22' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 b6a9fa34ce4187cb69d3c588a4bbffc31ce5db8f Linux 7.4-rc4
+1ecef38141c208059527a488eac79a6ac7b9fe37 firmware/irqchip: Add FF-A DT interrupt support for donated NS SGIs
+ba3ee7a7d4025fd05247e2491b2ee62d5781de95 dt-bindings: interrupt-controller: Add support for secure donated SGIs
+70178515e9944dffe04fd6713d42bb3eb7cbfe03 irqchip/gic-v3: Support secure-donated non-secure SGIs
+4f9dfb7f7eb2148ddeb15e7fb5693e57611d6eef dt-bindings: firmware: Add Arm FF-A binding
+c94ea1781f3724f2c04f849a2e963001e3eb1c83 firmware: arm_ffa: Use device node interrupts property for IRQ lookup
+e623b3d9d1e1bcb958dd0a5bad2302300a144c35 arm64: dts: arm: fvp-base-revc: Add FF-A notification interrupt
+dc0b4410fa133995ed4d859ca5af70535b73ad5b firmware: arm_ffa: Support SPI schedule receiver interrupts
 
---===============3210582616639542183==--
+--===============6790054906253309257==--
