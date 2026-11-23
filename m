@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 23 Nov 2026 15:58:23 -0000
-Message-Id: <179544950396.551758.13165563815806250924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Mon, 23 Nov 2026 16:01:32 -0000
+Message-Id: <179544969218.555107.14489661423488074358@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/for-7.5
-    old: 04573b260599414672d39439929c47cad38aec7c
-    new: a6ac1eb673fe0a1856a0d3c4281fc65364529dad
+  - ref: refs/heads/mediatek-drm-fixes
+    old: 1b1dbdb20548d5f100b00ac14eed793196a9d2ff
+    new: 55852b30d5f76746cca7a183d237f2219d91e1a3
     log: |
-         d5612641c0dac28b7b4fdb4c782208d93742c75c ASoC: qcom: lpass: Propagate IRQ lookup errors
-         a6ac1eb673fe0a1856a0d3c4281fc65364529dad ASoC: ak4535: Fix AUX input DAPM routes
+         55852b30d5f76746cca7a183d237f2219d91e1a3 drm/mediatek: Validate gamma_lut size
          
