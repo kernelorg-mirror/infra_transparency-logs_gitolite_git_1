@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 23 Nov 2026 07:20:32 -0000
-Message-Id: <179541843208.4097894.9099361886306780042@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 23 Nov 2026 07:21:56 -0000
+Message-Id: <179541851635.4098787.11545333828911857273@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/master
-    old: 6d51ee804f7d001ad59283864cfcf39fd5236b96
-    new: 18214e2dce0a97696d54179dd80161d41425321f
-    log: |
-         18214e2dce0a97696d54179dd80161d41425321f foo
-         
+  - ref: refs/heads/wip-aes-sparc
+    old: bc99be28766cff9ab148eff9e8410b617a47baff
+    new: 0000000000000000000000000000000000000000
