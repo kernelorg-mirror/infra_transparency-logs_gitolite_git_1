@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2378015324600987708=="
+Content-Type: multipart/mixed; boundary="===============0461344862898069800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
-Date: Mon, 23 Nov 2026 20:43:14 -0000
-Message-Id: <179546659428.778534.1589344722482859920@gitolite.kernel.org>
+Date: Mon, 23 Nov 2026 20:44:27 -0000
+Message-Id: <179546666762.779023.5836291312863266660@gitolite.kernel.org>
 
---===============2378015324600987708==
+--===============0461344862898069800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tytso/ext4
 user: tytso
 changes:
-  - ref: refs/heads/dev
-    old: 008aad6508e30cd1bb6d2c2cf65221ba1f16a065
-    new: bae28a1b11f422d0214654800d9425e042295c71
-    log: revlist-008aad6508e3-bae28a1b11f4.txt
+  - ref: refs/heads/pu
+    old: 4e6ed47a66cbed0752ef5cca4238d74d01a39cfa
+    new: a268dccf53219d6f28e01d597115d3004b9d6e0b
+    log: revlist-4e6ed47a66cb-a268dccf5321.txt
 
---===============2378015324600987708==
+--===============0461344862898069800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-008aad6508e3-bae28a1b11f4.txt
+Content-Disposition: attachment; filename=revlist-4e6ed47a66cb-a268dccf5321.txt
 
+c966757ff80fe8407e2e3acdd720964769ddf937 ext4: fix readdir position truncation on 32-bit kernels
+ef7ad718020c6af4c5f62015e0d02407e5faf8a5 ext4: fix typos in comments
+bb94c7a5d31b9a5ea2237ef53d050ddd29e2cf74 ext4: avoid buffer/folio lock inversion in __ext4_get_inode_loc()
+3b6aee59883c3056bb0a5e7491f9dc995bbac964 ext4: clear journal restart indication after inserting extent
+7d7c94601664d19cea230601f377e5fb8a2ec4fe ext4: fix discard work use-after-free on failed mount
+1f4899b2b822ece9204517be61855a203cdd59b5 ext4: update the pre-check in ext4_find_inline_data_nolock
+b0a3f2c102e8c718e03be45f831e279ba9f6b112 ext4: cap migration extent length at EXT_INIT_MAX_LEN
+82e2a5743b6ada7c77e072ca67c9ec55e9e18923 ext4: don't clobber the migration error in ext4_ext_migrate()
+291cccad437eafafab0357c5a3a990f995c96e67 ext4: set awu_max_opt to awu_max
+2a837444e911ae75e24e71b1c2a32b6d6e1ef8b9 ext4: move orphan tracking away from journal state
 4e04e396207027060055119ed45925bc89843a12 ext4: fix the logical block counter overflow in indirect migration
 263f338d312a7a57ce50591142e743e5782c628f ext4: fix WARNING in ext4_journalled_invalidate_folio
 b28443aa879b2b5aefe8fb5b3f9b65c31233f5d7 ext4: propagate errors from fast commit i_blocks replay
@@ -110,5 +120,37 @@ c70aa271b595f9381f3a1bc8198b4bd24a64a83b ext4: add KUnit tests for fs/ext4/resiz
 0af3bcba3a0b2dbd48510be71c4feeff1d42765f ext4: add KUnit tests for fs/ext4/mmp.c
 dedf8d3fe774ccfb0cbe5b4d07cecd46a62f48bd ext4: add KUnit tests for fs/ext4/dir.c
 bae28a1b11f422d0214654800d9425e042295c71 ext4: add KUnit regression tests for inode migration fixes
+a1dd2bfeb1544147a6901386ce7cd17f73644a30 ext4: only validate mount_opts when EXT4_TUNE_FL_MOUNT_OPTS is set
+07d47d5a5b6a59b48f84a6baab10222cca5d613f ext4: return -EFSBADCRC when skipping a corrupt backup superblock
+1ac06d406b21c836c8808b85a0773bdb253ac37f ext4: don't allow enabling casefold via EXT4_IOC_SET_TUNE_SB_PARAM
+48c1b874b0ed7d2024abeaac093a66ec53a752da ext4: persist the htree hash seed when enabling dir_index online
+419bb6200df7fc296c4f71a458f59161eeac7677 ext4: enforce feature prerequisites when tuning a mounted fs
+9633231f275bc846fcfa3ed1f17ec9228912d572 ext4: handle s_lastcheck_hi in the get/set tune superblock ioctls
+b07256bb8d73073523e5e67cc5cc267d8433f554 ext4: pass missing ioctls through ext4_compat_ioctl
+62b2e3c9bc01ed2c59cdd63358560b510073c2bf ext4: fix inverted err_report_sec check in ext4_update_super()
+28c6c2716ea5de627a8e37a4baa2a63bd9f4739c ext4: fix err_report_sec_store() timer and value handling
+49dc04c7679cc00f3315215da04ffa6c9c054b4f ext4: fix inode table accounting in count_overhead()
+41916aa1a86e65ef43a6f24e2d737411aaacb490 ext4: handle flex groups straddling s_first_meta_bg in online resize
+fd89841201c89ba70e8541bddea0b5db7aa2916c ext4: reject EXT4_IOC_GROUP_ADD inputs larger than a block group
+84869d9c5baa3b19b3fbc5186a7b6889ed67c91b ext4: propagate ext4_alloc_group_tables() errors from ext4_resize_fs()
+a1c2d543a724e294e41c982e962c25574fdc536a ext4: reject online shrink before probing the device size
+d8c8d517975d54d60c6678467b2fb1123c5d0d1e ext4: fix EOF clamping of the range in mext_check_adjust_range()
+9252a569f471b0f9dbc6c327aa25e55adaa3ea27 ext4: bound the MMP update and check intervals
+45064fdc34525ec5a8e346658beb5127c173dfe0 ext4: fix MMP claim of a cleanly unmounted filesystem
+0d704791bd444dc823616c8e68cce465a5d634d6 ext4: fix device comparison overflow in ext4_getfsmap_dev_compare()
+aca7a57b3b8250d00f9288e60294e9ca1ff49cec ext4: don't allocate over indirect branches that failed to load
+57db2c91791ea514153e2ed7af0425041dc9f4e3 ext4: don't stop EXT4_IOC_GET_ES_CACHE at uncached ranges
+20662a1da0a59d6f1a61931674754356d9363b8a ext4: don't read dirent hashes from fake directory entries
+8a7e36467a1a5e1cd6e8609d60219520b2b1a505 ext4: use loff_t for i_size in ext4_inline_data_truncate()
+4206136ef04cd0baf2ace54e5e08509d674bbe0d ext4: initialize inline dir block under buffer lock before raising i_size
+aae19799c17b53ef60d1a4d27dac0846497c999a ext4: propagate cache flush errors from ext4_fc_replay_inode()
+7472b773cdb8f9f5edd49450a1b14bcd5ed8956e ext4: validate child dx_node limit and count in ext4_htree_next_block()
+9becb8f1e357463e2a6c4a4cf3af7dfb4431b856 ext4: flush s_ea_inode_work before clearing EXT4_FC_REPLAY
+7863960a66db20623d4e04e6313105dcf001cf0e ext4: zero dirty EOF folio tail before raising i_size in ext4_setattr()
+d7a3e373630a9c731bd3ed0df6af77d31ab498b9 ext4: use atomic iversion accessors in swap_inode_data()
+0fbeae97f172ccbe42bfbc3e35565633c088d4fe ext4: reject atomic writes split by fscrypt without warning
+e96f027d62fa951dff6a7490f3113ab7fea1d968 ext4: protect extent status shrinker stats with s_es_lock
+e353f94a6a0ea40ece56936b68becd9fe92467a2 ext4: set bh->b_bdev on mock buffers in resize-test
+a268dccf53219d6f28e01d597115d3004b9d6e0b ext4: avoid zero i_dtime wrap in ialloc-test on RTC-less VMs
 
---===============2378015324600987708==--
+--===============0461344862898069800==--
