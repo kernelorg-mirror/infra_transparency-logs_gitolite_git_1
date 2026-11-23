@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 23 Nov 2026 10:37:11 -0000
-Message-Id: <179543023185.300479.8035650748874397170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
+Date: Mon, 23 Nov 2026 10:38:21 -0000
+Message-Id: <179543030168.300974.17374461001327531236@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/wens/wireless-regdb
+user: wens
 changes:
-  - ref: refs/heads/for-7.5
-    old: 988547eec3498f4624297264eda1537469882e33
-    new: a6ca40399708c4322e87448f6c47da7192d72895
+  - ref: refs/heads/master
+    old: 9c89660a9c80956e91b58c961317bf6448c6f362
+    new: c0b2d4b1b27a10479206b6a48445c0cdbabc1ff5
     log: |
-         a6ca40399708c4322e87448f6c47da7192d72895 selftests: cgroup: fall back to an unlinked file without O_TMPFILE
-         
-  - ref: refs/heads/for-next
-    old: 87b33aeb162b94cf4a30be48b30eeb27adc2054f
-    new: c1a028f2ecb70a1eb37577294e44f292e29ce23b
-    log: |
-         a6ca40399708c4322e87448f6c47da7192d72895 selftests: cgroup: fall back to an unlinked file without O_TMPFILE
-         c1a028f2ecb70a1eb37577294e44f292e29ce23b Merge branch 'for-7.5' into for-next
+         5ead4f45c79a2155b10b46e63ff9d27027eb04d3 wireless-regdb: Update regulatory info for Belarus (BY)
+         3cca5d20b17f8b74a8241b8e6a3ad504ce08c94f wireless-regdb: Update regulatory info for Kazakhstan (KZ)
+         c0b2d4b1b27a10479206b6a48445c0cdbabc1ff5 wireless-regdb: Allow channel 144 for Kazakhstan (KZ)
          
