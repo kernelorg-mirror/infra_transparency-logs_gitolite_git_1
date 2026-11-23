@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 23 Nov 2026 14:33:49 -0000
-Message-Id: <179544442909.480835.12489512652460114273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 23 Nov 2026 14:35:25 -0000
+Message-Id: <179544452501.483783.3832137852759217804@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: a6ac1eb673fe0a1856a0d3c4281fc65364529dad
-    new: 0151278a98ca578ea714b7d67ecf2790b32a3cc4
+  - ref: refs/heads/for-7.5
+    old: 36290e505d802cb234f392f6dd096eacfc6ffe3d
+    new: 04573b260599414672d39439929c47cad38aec7c
     log: |
-         0151278a98ca578ea714b7d67ecf2790b32a3cc4 ASoC: imx-audmix: Balance SAI node references with devres
+         b633d6547dd0ebf07e2798ca7a754625489e21bc ASoC: max98520: Handle reset and register restore errors on resume
+         04573b260599414672d39439929c47cad38aec7c ASoC: es9356: Handle register cache sync failures on resume
          
