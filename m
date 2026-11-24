@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Tue, 24 Nov 2026 19:51:42 -0000
-Message-Id: <179554990203.1893882.6950351038193812593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Tue, 24 Nov 2026 19:55:55 -0000
+Message-Id: <179555015580.1897815.3345422456431013453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
+repo: pub/scm/linux/kernel/git/tj/wq
 user: tj
 changes:
   - ref: refs/heads/for-7.4-fixes
-    old: e667a652dd0a6f6d0d89e2d0f80881ddabea1ead
-    new: ed42314d3e76b3142a2bb656e53e5b1d68c4a6ae
+    old: fd0e48ef591643472e57906adc8f6f49d24e5bcd
+    new: e01bb1e6b782f7d04a0857dca7954c8785cb7ca3
     log: |
-         4fec59cdc2f3cdcdbb71d665b53daf384b36d60d sched_ext: Don't allow unlocked kfuncs from ops.dump() and ops.init_cids()
-         ed42314d3e76b3142a2bb656e53e5b1d68c4a6ae selftests/sched_ext: Add unlocked_kfunc test
+         e01bb1e6b782f7d04a0857dca7954c8785cb7ca3 workqueue: Skip redundant unbound updates during CPU bringup
          
   - ref: refs/heads/for-next
-    old: 6c00bd9f135687f4c88609bc3b5d03076de96dfb
-    new: a8f37beceb26d14892fedd6f1970d8fdde89ddb5
+    old: ed9d8b02bf4f35e72e904cd800ace1dd5bcadf4e
+    new: 8e3a9e129c26d0d3fefd6239d397aa46bddcfb05
     log: |
-         4fec59cdc2f3cdcdbb71d665b53daf384b36d60d sched_ext: Don't allow unlocked kfuncs from ops.dump() and ops.init_cids()
-         ed42314d3e76b3142a2bb656e53e5b1d68c4a6ae selftests/sched_ext: Add unlocked_kfunc test
-         a8f37beceb26d14892fedd6f1970d8fdde89ddb5 Merge branch 'for-7.4-fixes' into for-next
+         e01bb1e6b782f7d04a0857dca7954c8785cb7ca3 workqueue: Skip redundant unbound updates during CPU bringup
+         8e3a9e129c26d0d3fefd6239d397aa46bddcfb05 Merge branch 'for-7.4-fixes' into for-next
          
