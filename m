@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5328584618757683953=="
+Content-Type: multipart/mixed; boundary="===============7071331547906002047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 24 Nov 2026 18:51:25 -0000
-Message-Id: <179554628540.1847153.6752408782434216127@gitolite.kernel.org>
+Date: Tue, 24 Nov 2026 18:51:32 -0000
+Message-Id: <179554629229.1847342.9972259267075439942@gitolite.kernel.org>
 
---===============5328584618757683953==
+--===============7071331547906002047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: fdb6fcabdbb8247f1647d54fb1b9dc3575d7fcc8
     new: 37fa509e43ba59d7c329025436e8ea64bdf089d7
     log: revlist-fdb6fcabdbb8-37fa509e43ba.txt
 
---===============5328584618757683953==
+--===============7071331547906002047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -98,4 +98,4 @@ c5de2ce2fccdb7d3b48946179634eaa3d7ce2e7e tcp: fix shift-out-of-bounds in inet_cs
 ab5b219a7340b0083fca4ea4d55409d126512856 net: gso: fall back to skb_segment when fraglist cannot satisfy checksum
 37fa509e43ba59d7c329025436e8ea64bdf089d7 Merge branch 'net-gso-fraglist-segmentation-fixes'
 
---===============5328584618757683953==--
+--===============7071331547906002047==--
