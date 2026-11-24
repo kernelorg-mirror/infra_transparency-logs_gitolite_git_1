@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 24 Nov 2026 15:59:11 -0000
-Message-Id: <179553595165.1694763.9240455898262344603@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 24 Nov 2026 16:00:15 -0000
+Message-Id: <179553601573.1697920.18139125163494362556@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-7.5
-    old: 97889ef32b771dfe8171d3e8beb5802dd3f95e1c
-    new: 98fe26341049d608347f4a2830791c8fb2d8cf17
+  - ref: refs/heads/main
+    old: 9a364ea424155016663bfddcb37a64af4a1fb927
+    new: 6b4a590929b2aa0dd9e987c13ec713426b44a591
     log: |
-         98fe26341049d608347f4a2830791c8fb2d8cf17 ASoC: atmel: mchp-pdmc: Clear busy_stream in hw_free()
+         af79a85d017e31336050187dd1d13e2feabd46bb qcom: update ADSP, CDSP firmware for eliza platform
+         6b4a590929b2aa0dd9e987c13ec713426b44a591 Merge branch 'clo/dsp-fw-elizaadsp81' into 'main'
          
