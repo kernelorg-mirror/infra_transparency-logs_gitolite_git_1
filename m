@@ -1,88 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============7186133618619747548=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 24 Nov 2026 02:08:09 -0000
-Message-Id: <179548608996.1024367.2797548185933742846@gitolite.kernel.org>
-
---===============7186133618619747548==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 24 Nov 2026 02:17:11 -0000
+Message-Id: <179548663157.1031410.5071252382033867726@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/v7.3.3-16.canary
-    old: 7f2eee22e2aabe371eb3ee3d6b57e153550a274c
-    new: 0b243ea464094a698e4a619f65f23a6c36c2e804
-    log: revlist-7f2eee22e2aa-0b243ea46409.txt
-
---===============7186133618619747548==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f2eee22e2aa-0b243ea46409.txt
-
-66b80595c6b4f91cd0c9e99d423ef11c2efbb9ff NFSD: Lend a kept file handle's dentry without a reference
-6cd0c560ba10baae9c685743a19a2cbfb0556aa4 NFSD: Set an nfsd_file's LRU flags in nfsd_file_put() only when clear
-a4bef365fd0c4eba31603eee120ce1e7d1e3d0d3 NFSD: test the lent dentry in the export borrow KUnit suite
-3cb8ea1ab6c3b2439171c96beae45af7b9a5314f NFSD_TCP_WRITE_ZEROCOPY: round 179, the READ's shared references
-e1e6c8019fb7e1cca5eda436f3d4c8b442b68637 NFSD_TCP_WRITE_ZEROCOPY: round 179, the lent dentry's A/B results
-1a771a0721c4b99b0ad7665920d8cdf4da627563 AGENTS.md: tardis2's updates/ holds nfsd D9A1
-755be7e6bbaa1dcf41597fe26c5744fa93defa5d NFSD: Lend the open file kept with a lent dentry to a READ
-fbf71d18c6bb03d6c5568130162d676939492f23 NFSD: test a lent nfsd_file in the rtc READ KUnit suite
-473ee75ebe4542343e9bc8f6c34fb0a2c69b96f6 NFSD_TCP_WRITE_ZEROCOPY: round 179, D9A1 kept, the nfsd_file lent
-93a9cb26dd1657c751e5920551abc309d5a0ecf6 NFSD_TCP_WRITE_ZEROCOPY: round 179, the lent file's results
-d088ba220e50a605b68c251e84e9fcfc5bd57f20 NFSD_TCP_WRITE_ZEROCOPY: round 179, 3B32 kept
-e36ebef7e8fd0ec88211eaf42de738a9e60faf40 AGENTS.md: tardis2's updates/ holds nfsd 3B32
-d5151a3c5f30cf188f01a599f95ea236a0946ad9 kernel-7.3.3-16.canary
-cfbdc3e168df49424f37029ea2a39b3860d7b7ee NFSD_TCP_WRITE_ZEROCOPY: round 179, t2-r1513's counters and clock
-3e822a8d9ef7351ea0aafdf4bea2879e1acfa8ec SUNRPC: Check the rtc pool's parked ceiling only when it can be reached
-3de0987eace8972f9b657264e5b5d272887656e9 SUNRPC: Take the rtc pool's parked high water only at a fold
-bc161e69a06665915040cb52f95a54470af8a0dd SUNRPC: Take an rtc call's start time only while its latency is traced
-19a60fce9a964ab2cf9d0dc1cd46eef098932437 NFSD_TCP_WRITE_ZEROCOPY: round 180, the counters and the clock
-8c1d0fb387d6d9f0a39f3e6a66c05606c057bbd5 net: rx_loan: count a unit's copies to one counter
-ca7b6779894d0236b295488b45f259b08a76d68d net: rx_loan: test the host-wide copies total across a destroy
-e90ada949e0a96a4d36054661683ae4741194c4f NFSD_TCP_WRITE_ZEROCOPY: round 180, the copy counters for gitlab
-e2c4008417ec75a2fad50919721fc7455cbd565d NFSD_TCP_WRITE_ZEROCOPY: round 180, 60CB against AC4A
-bd17271345a24edba9e1ca4ad09a0ffba97b54e5 Revert "SUNRPC: Take the rtc pool's parked high water only at a fold"
-a40f8f584b393742db6d4579307fb335b2bec3cd SUNRPC: Revert checking the parked ceiling only when it can be reached
-42d92027e1f3e60176e94a152ad18381578c94f5 NFSD_TCP_WRITE_ZEROCOPY: round 180, rq_stime kept
-ead1fec16d1b494a8e973d6bae5ceb3b866fbf41 NFSD_TCP_WRITE_ZEROCOPY: round 180, sunrpc 5C3E settled
-04757a6339f2fdc92248ba1e408499b15a97b72a AGENTS.md: tardis2's updates/ holds sunrpc 5C3E
-fde30409b1370cbe7118e24c43f656416c104e9f NFSD_TCP_WRITE_ZEROCOPY: round 180, READ passes in turns on 5C3E
-de5686443834124487d6e37c0cd8e50a4d3c2b88 NFSD_TCP_WRITE_ZEROCOPY: round 180, READ passes in turns
-8809f6dd29057c9c22780f2d5e7a13fb9573d09a AGENTS.md: tardis2's updates/ holds sunrpc AC4A again
-c0080a56f4abdc863ba37773c33a819332ce38dc AGENTS.md: tardis2's updates/ holds sunrpc 5C3E, kept
-28967a3297014efb61af6939791b1c86e833ad64 NFSD_TCP_WRITE_ZEROCOPY: round 180, 5C3E kept
-06ab77f04e2f4907abcfec5d4cf7ae5cce42d775 NFSD_TCP_WRITE_ZEROCOPY: round 181, the slow READ passes profiled
-6e55ead671dd2a2c070bd48c457feebf91435ecc NFSD_TCP_WRITE_ZEROCOPY: round 181, the recycle's READ A/B
-4a27fe55da0840488f855f6718a0cc5efcda5b8e NFSD_TCP_WRITE_ZEROCOPY: round 181, the recycle's IOPS sweep
-2f4d3323f807e70f91b48d4db3ff72112b3b8355 NFSD_TCP_WRITE_ZEROCOPY: round 181, the recycle's IOPS sweep results
-1a98fb72715231049694b33e915bbc302946cadc SUNRPC: give each CPU its own transport under nconnect
-80769692999eb0a6c52e46ecc62abf10704b7339 NFSD_TCP_WRITE_ZEROCOPY: settled.sh holds the reply recycle at 128
-e570de2deedfdf8936690b85538360c3e12587ea SUNRPC: home nconnect transports on their NIC's NUMA node
-20c2b5cbc4fe0f10c2d8de01b8000fa4fd3f9ba5 NFSD_TCP_WRITE_ZEROCOPY: round 181, 128 settled, 256 to test
-7e63a21a852d95c951659021b051530963e5b997 xprtrdma: interrupt a transport's completions on its home core
-a89baa431b7c171ab24a398a9bd18a0a4ed897ae AGENTS.md: tardis2's reply page recycle is held at 128
-cf90b3f0679efd3b1efb410d77a4d3dc9d8dc20b SUNRPC: home each switch's transports on distinct cores
-981621e0c53e3705a87bc2bb33b7c2ea26df8d06 NFSD_TCP_WRITE_ZEROCOPY: round 181, 256 dropped, WRITEs at 128
-87ae26368a0e584eaf2c23fbfe3905959a8c9d49 SUNRPC: Keep nconnect's balanced round-robin unless nconnect_percpu=Y
-5fa40a49d97c9c8b34ae112287b0e97d9d6f7d87 Merge branch 'kernel-7.3/nfsd-testing-canary-nfs_common-XFS-IOLOCK-and-async-DIO-middle' into kernel-7.3/canary
-b4a4de0a7bd4ad20eed7b12c653884f0d01c1034 Merge branch 'kernel-7.3/nfs-localio-performance-canary' into kernel-7.3/canary
-b3f7e8303dd18fdf02347809c2ee9433006d8e03 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary' into kernel-7.3/canary
-127af385f961a3574af2f1771ff1b0907a3fa5e5 Merge branch 'kernel-7.3/nfs-and-nfsd-performance-canary-client' into kernel-7.3/canary
-996b5fb67b54a4226c5df32824a41aee9b99f50f Merge branch 'kernel-7.3/nfs-and-nfsd-performance-canary' into kernel-7.3/canary
-d76abc65c61e67858e9346cb73beaec3429b33d3 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part2' into kernel-7.3/canary
-a431c59fd1527660f24dd0b945255e4aba2a20e9 Merge branch 'kernel-7.3/jflynn-io500-canary-client' into kernel-7.3/canary
-dcb73158cec230f9af4e1838dbf62d2efd252638 Merge branch 'kernel-7.3/jflynn-io500-canary' into kernel-7.3/canary
-95d350b7220b68caae8f09fbd2f583f1b0b4673c Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part3' into kernel-7.3/canary
-5f8f9d8b2212f2be4b88881f70b7d9325911a010 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS-client' into kernel-7.3/canary
-f2e27a397e97407faf95a4f42e1cfd3588f8e02f Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS' into kernel-7.3/canary
-83428597b491f16be01bc470e65ca836ce9beb46 Merge branch 'kernel-7.3/nfs-client-transport-percpu-with-nconnect' into kernel-7.3/canary
-0b243ea464094a698e4a619f65f23a6c36c2e804 Merge branch 'kernel-7.3/changelog-canary' into kernel-7.3/canary
-
---===============7186133618619747548==--
+  - ref: refs/heads/main
+    old: d1be830de8cbce6122f32ac968ae20591a35043b
+    new: 4392bb809812ac79449cd0cf1f5e00469ee102d1
+    log: |
+         c5aabb4fcbec182ac6e27fb04430d56780d0935a ionic: reject Tx ring sizes below the minimum
+         0778833b9602b2f1b331e2a2d69243847aea95d0 ionic: limit TSO segments to the minimum Tx ring size
+         4392bb809812ac79449cd0cf1f5e00469ee102d1 Merge branch 'ionic-fix-tx-stalls-on-tso-skbs-larger-than-the-tx-ring'
+         
