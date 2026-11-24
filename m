@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2314254335344940620=="
+Content-Type: multipart/mixed; boundary="===============7780315096263359818=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 24 Nov 2026 09:37:38 -0000
-Message-Id: <179551305802.1345918.4310421313177151810@gitolite.kernel.org>
+Date: Tue, 24 Nov 2026 09:38:02 -0000
+Message-Id: <179551308260.1346195.14409746326285537715@gitolite.kernel.org>
 
---===============2314254335344940620==
+--===============7780315096263359818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,48 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 11cbdaeb2070e3cfed86503a916000e142886943
-    new: 00240b49fd108676eac85cc9c43c0b8bcdfcfc83
-    log: revlist-11cbdaeb2070-00240b49fd10.txt
+    old: 00240b49fd108676eac85cc9c43c0b8bcdfcfc83
+    new: 38239b8b0856e94447c6b265ea9a4cb3787121b9
+    log: revlist-00240b49fd10-38239b8b0856.txt
+  - ref: refs/heads/tip/urgent
+    old: b1319834430d80aca1261a72f3b966712ca95603
+    new: 7d697c27524d6be20ad810cd5cc7eb1f8fa328d6
+    log: revlist-b1319834430d-7d697c27524d.txt
 
---===============2314254335344940620==
+--===============7780315096263359818==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11cbdaeb2070-00240b49fd10.txt
+Content-Disposition: attachment; filename=revlist-00240b49fd10-38239b8b0856.txt
+
+90c447c8040776fb6e09f26a252325c87e29ccf1 Merge branch into tip/master: 'locking/urgent'
+5bd7af11b2ee6a1280121499d17365bd24fa537b Merge branch into tip/master: 'perf/urgent'
+02b81a5f0ada3d769eab8b21ebbea6f06685cb3a Merge branch into tip/master: 'sched/urgent'
+38087eadbbd97ff09bdae659972d583cacb9bac5 Merge branch into tip/master: 'x86/urgent'
+7d697c27524d6be20ad810cd5cc7eb1f8fa328d6 Merge branch into tip/master: 'x86/mm'
+28ec464e373ed0c646c586625ff473f5fd096dd3 Merge branch into tip/master: 'core/msr'
+92b818c8011f15990e62a7f56f85f3f69db62755 Merge branch into tip/master: 'core/rseq'
+23c31bbe07d69b56b44f95e6aa414adf34478bdd Merge branch into tip/master: 'irq/core'
+51d6f54c8d791a3592deb8a7573d509c2177f60c Merge branch into tip/master: 'irq/drivers'
+b46756b69c34ecabd4649cef2558c04b146d437c Merge branch into tip/master: 'irq/msi'
+14ab5aa9d5729f75a87f589c2d1332755770d21d Merge branch into tip/master: 'locking/core'
+23498383448df08b4456fc41abcd59077e5524be Merge branch into tip/master: 'perf/core'
+03f4368a98c1eb4d04ef551482231461b5ae819c Merge branch into tip/master: 'sched/core'
+238a0dbba2535f9c3481ba2fab627879a9bde89f Merge branch into tip/master: 'timers/core'
+bf1115d76a2412238b6dd00f32b5203f4f34683d Merge branch into tip/master: 'timers/nohz'
+32677c82e6135775ee8f4ac3e00dad648d9387e3 Merge branch into tip/master: 'timers/vdso'
+89db60d3bdb8c6dc95a3fef319c6248240500d59 Merge branch into tip/master: 'x86/apic'
+17b9dfeb2c02d7a2dcc875bd2b64c197ca45d830 Merge branch into tip/master: 'x86/cache'
+3548922b675c3bf0eebbbfacc3bf5df031c2762e Merge branch into tip/master: 'x86/cleanups'
+c6a3d786aa1df33f95111092563cb687621cccb8 Merge branch into tip/master: 'x86/entry'
+1192d8e82a76ef37415b1301aec04efa5d5c75d8 Merge branch into tip/master: 'x86/misc'
+38239b8b0856e94447c6b265ea9a4cb3787121b9 Merge branch into tip/master: 'x86/sev'
+
+--===============7780315096263359818==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b1319834430d-7d697c27524d.txt
 
 6569d814fa49384e3e0f4f41947ecfabf2eb93c8 HID: roccat: use atomic_t for device status flag
 be90794d15c6b22861cacebaca2380cbff855157 HID: roccat: use kref to manage device instances
@@ -186,13 +219,14 @@ ffadbae818a2f49551afba733d9f977b773ce6be HID: saitek: don't dereference a NULL h
 c0710989d7ebedf4b0130b08ad7dd3f65d026fe8 KVM: x86: Don't save the GPA of a fault on the guest's page tables
 2da3035213d4a264026489f9e3f79ae456622c84 Merge tag 'kvmarm-fixes-7.4-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 bd1be6e0267d7a52425bd515c53e9a49bd4e2a12 Merge tag 'kvm-riscv-fixes-7.4-1' of https://github.com/kvm-riscv/linux into HEAD
-135dbd0519cf7f72af120801ec7dbb79275a362d x86/cea: Prefix exception stack names with ESTACK_
 d734667216e3fe13f0d81231f0e5691816ec42f4 x86/mce/amd: Fix bank lookup in amd_mce_usable_address()
 42e225323067a222230068651cf886bd7fbb1fe2 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 8d7fe9885c62fc9a95bf55d9db244d9672a8aadc Merge tag 'hid-for-linus-2026112301' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 4c2abd86d10720ce4a2330c2ca01cca39bd727ab x86/CPU: Fix FPDSS on Hygon
-c0929df083b1d6e495425421ec091ff9ac217da5 Merge branch 'linus'
-c9cbe9fa01b5610e69672f1a9034a76a7b295852 Merge branch into tip/master: 'x86/urgent'
-00240b49fd108676eac85cc9c43c0b8bcdfcfc83 Merge branch into tip/master: 'x86/entry'
+90c447c8040776fb6e09f26a252325c87e29ccf1 Merge branch into tip/master: 'locking/urgent'
+5bd7af11b2ee6a1280121499d17365bd24fa537b Merge branch into tip/master: 'perf/urgent'
+02b81a5f0ada3d769eab8b21ebbea6f06685cb3a Merge branch into tip/master: 'sched/urgent'
+38087eadbbd97ff09bdae659972d583cacb9bac5 Merge branch into tip/master: 'x86/urgent'
+7d697c27524d6be20ad810cd5cc7eb1f8fa328d6 Merge branch into tip/master: 'x86/mm'
 
---===============2314254335344940620==--
+--===============7780315096263359818==--
