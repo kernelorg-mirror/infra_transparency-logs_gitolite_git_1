@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 24 Nov 2026 07:24:57 -0000
-Message-Id: <179550509749.1248329.13301531468228031202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Tue, 24 Nov 2026 07:30:13 -0000
+Message-Id: <179550541394.1254225.5950674608159316052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/master
-    old: afd11d5f92799d0a77229ce7fac574b1930ac6cd
-    new: 2d89f7b6f4b6f18000a6bfd2290200bf7cc9f7b9
+  - ref: refs/heads/next
+    old: 3f63ca7ce197c661bbe53fc808d0cec444b40042
+    new: 910b8ba234c00f91aaaaf102e17b8c5b539b3e17
     log: |
-         2d89f7b6f4b6f18000a6bfd2290200bf7cc9f7b9 foo
+         910b8ba234c00f91aaaaf102e17b8c5b539b3e17 phy: qualcomm: Allow compile testing a few SATA and UNIPHY 28LP drivers
          
