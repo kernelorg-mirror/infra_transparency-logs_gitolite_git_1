@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7061676311758815633=="
+Content-Type: multipart/mixed; boundary="===============1639188381109737162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 24 Nov 2026 16:05:14 -0000
-Message-Id: <179553631453.1704193.4128894549612276282@gitolite.kernel.org>
+Date: Tue, 24 Nov 2026 16:05:19 -0000
+Message-Id: <179553631933.1704538.13595092035250668195@gitolite.kernel.org>
 
---===============7061676311758815633==
+--===============1639188381109737162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
+  - ref: refs/heads/mm-unstable
     old: 7d1a16abe4cc5dccd21e3d6262e44433a5885d27
-    new: 5bd93e4b0b357e9d0a13199887aacbf04d1ce216
-    log: revlist-7d1a16abe4cc-5bd93e4b0b35.txt
+    new: 913390e679e23e3a45643028ee7f992889094051
+    log: revlist-7d1a16abe4cc-913390e679e2.txt
 
---===============7061676311758815633==
+--===============1639188381109737162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d1a16abe4cc-5bd93e4b0b35.txt
+Content-Disposition: attachment; filename=revlist-7d1a16abe4cc-913390e679e2.txt
 
 ff056011e9f7604683694c9c4a3daf102c785921 mm: memcontrol: don't lose track of exiting OOM victims
 76e1b20670b51a6cb31dc65877fc9a10f06366a2 filemap: prefault writes starting beyond EOF
@@ -393,48 +393,5 @@ d713bb4e4e2512acb753000dcfd835103df527e9 mm/damon/tests/core-kunit: test DAMOS_F
 946d70e0e0aa4e7dd27211a532f01a2703751f86 Docs/mm/damon/design: update for sz_ops_filter_passed_last
 f0712c4524fcb7cb07abdb76ddc4ef5a140ed55b Docs/admin-guide/mm/damon/usage: update for sz_ops_filter_passed_last
 913390e679e23e3a45643028ee7f992889094051 Docs/ABI/damon: update for sz_ops_filter_passed_last
-460f9265881b0b2e230db52791136f8d7300d4b1 afs: don't put an error pointer after a failed address lookup
-4be7ee54ee99c39565aa217ecb7b1ea5c9f15443 selftests/mm: check that fsync() reports hard-poisoned dirty page-cache
-613a06bccd802c8d02b7838114a6889fb9f8b951 selftests/mm: truncate poisoned FUSE page-cache before teardown
-df5ca9f317ccf532d2cc2ed71e8e03f32e6de9cb selftests/mm: skip poisoned dirty page-cache on NILFS2
-6080ed52778e44ea9745bdea32c620dc0ef0db32 selftest/mm/memory-failure: keep page-cache files linked until cleanup
-ab78109a3f1e2a601ce17f88b9fdd6297bf0cac5 selftests/mm: skip hard dirty page-cache test on CephFS
-6b8edb07cb829210e31c019a96d6f668110e38b1 selftests/mm: close dirty page-cache files before unlinking them
-d613a98e440e005c741b15b2406e37a64a0f1044 selftests/mm: extend page-cache test files with pwrite()
-d4b29b53d0e2f8531b5bb9880d51ab235a05d089 selftests/mm: write the whole page-cache test file for OMFS
-ec0fdcb584df49203710c5b13cf2f0d1aa87cb51 selftests/mm: accept EIO from close after poisoning dirty data
-a4a282ec317837035f468c2549c4efa545ea5a9e mm/mglru: rename the generation offset in lru_gen_folio_seq()
-045f0154185130acebe0e10ff5cce9a2b8f169f7 mm/memcontrol: allow update of LRU statistic without holding LRU lock
-5bd239042e7a5a4d95256788ad588c4a4974b286 mm/memcontrol: avoid potential counter leak when reparenting local stats
-f1291cd289826b89a2dfb65b09ee8ebfff716e29 mm/mglru: make generation page counters atomic
-e538adeae8719e99842ab719a03b3dfdaf799e54 mm/memcg: add folio-based lruvec live helper
-35a4ef767849a33e4b6957b841212a700863d14c mm/mglru: skip the flags cmpxchg when nothing changes
-36e73a1323bd2f1f39a21cac0c0703787fc71e7a mm/mglru: frequency guided workingset promotion (MGLRU-FG)
-2ceb6271aee1b9a6297765187b80cff96d05f484 mm/mglru: make folio lru referenced times count a generic API
-0aed60f5d0a3ee435326681033687e1bd085e7a2 mm/mglru: move add/del LRU size accounting out of lru_gen_update_size()
-12990be2995d4eff072a05b95d4373eb96a4d91e mm/mglru, gup: mark folios referenced via a fast helper
-e149c305c1e777393c38fbf79fe6439ab2268197 mm/mglru, smaps: convert to LRU refs based operations for MGLRU
-4194d90e942fbe781032caa78d9d2d22a966ea79 mm/damon: convert to LRU refs based operations for MGLRU
-41b0c6c292b2ff4a0e25d47c2057dcbcbe88ea7e mm/khugepaged: convert to LRU refs based operations for MGLRU
-cabe88099b774fd08c86ba489042212e86d694e0 mm/madvise: adapt for LRU refs based operations for MGLRU
-4a4dcb3861640edbcff325bcc24b49705731ce8a mm/huge_memory: mark folio as accessed more accurately on split
-3d57cec8378228dc3314b78375677eef83ad6d44 mm/mglru: make PG_workingset helpers work based on folio LRU refs
-c09a09347da679266bf07facb7684a48211d7a60 mm/mglru: folio LRU refs based active/inactive number accounting
-b4e2320a2cd24286060804a33f5210677d01cf5b mm/mglru: make folio_inc_lru_refs lruvec lockless
-c28ed757afbbbfede1b6e655f72397fb2f0b0f75 alloc_tag: use __ prefixed ELF section names
-69570e1adeb55509e0f994c2c5e4dc147ce176b8 mm: shrinker: stop counting when the seq buffer overflows
-1a40c59e22925bec0edbb9b35df5ce167ef45d6d zsmalloc: free a zspage's pages in one batch
-83b76223bc7fa1fa41c2e78c042c135c477f1909 zram: keep the hot statistics per CPU
-221063be9b1f8d1ed33b54892a86c8b91ec510e7 memcg: warn when memory cgroup IDs run out
-323ed4035455e07eaaf73d0b2366c89e288edcb9 mm/hugetlb: fix NR_HUGETLB accounting for kept surplus folios
-5e68beacbae16429c930cf0241f58d426b5059e4 selftests/mm: hmm: speed up migrate_remap_fault
-dabcff6075434ce5bd8cf8a88ed9adc1cbd9892f mm/userfaultfd: reject DAX mappings
-d977f6cfc1572bce56765d654ac2672e9cae0d2b kmsan: encapsulate per-page metadata access
-0acedaf39e51bd0e23c5d3372045b4ee2e42de6a mm/page_ext: fix client data alignment
-9443603b890adb235a289e7008a2dba3abe267df mm/page_ext: always use vmalloc for section page extensions
-a8e3ddb2fc25d07e990cd7698d0efbefba8b4df6 mm/page_ext: use common allocation and initialization entry points
-406742dadf20d3b85d0918aadcefa199bad99953 mm/page_ext: allocate page extensions early for SPARSEMEM
-671c069c262f286bb5716ced42392c50e44f0041 mm/page_ext: inline unchecked page extension lookup
-5bd93e4b0b357e9d0a13199887aacbf04d1ce216 kmsan: fix metadata loss during HugeTLB struct page reinitialization
 
---===============7061676311758815633==--
+--===============1639188381109737162==--
