@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 24 Nov 2026 15:20:02 -0000
-Message-Id: <179553360279.1664891.17580892904675443633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Tue, 24 Nov 2026 15:23:07 -0000
+Message-Id: <179553378704.1668068.18176039511409523448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: 279cd42031aef3567de140a0ce136e83a9b6dd25
-    new: 1759d575c20f08b8929d8e21d3387d746e68ce9b
+  - ref: refs/heads/stm32-fixes
+    old: bbbec4e0e665dc616d0c77a9a5c4ab263b4315d7
+    new: cfa1914d7876a461929a15f27a4f74f5189874cf
     log: |
-         e479ed6b6ccf660f5e9c20f2673c98727d2b5679 ASoC: arizona: convert audio pdata parsing to generic device properties
-         53136aa2d64da6df5aac79f4637babf07eefb57a ASoC: arizona: always parse device properties regardless of platform data
-         a516c1f40ea43db8e16de4a8689068eeb7e730f3 ASoC: arizona: drop unused HPDET accessory ID support
-         ce694590177a0770911187a66daf50781291d8de ASoC: arizona: clean up coding style and formatting
-         1759d575c20f08b8929d8e21d3387d746e68ce9b ASoC: arizona: switch to generic device properties and clean up
+         cfa1914d7876a461929a15f27a4f74f5189874cf ARM: dts: stm32: Fix STM32MP15xx DHCOM SoM PicoITX overlay application
          
