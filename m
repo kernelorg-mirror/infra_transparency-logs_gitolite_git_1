@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4265546456433239279=="
+Content-Type: multipart/mixed; boundary="===============5425807783115513964=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 24 Nov 2026 17:17:42 -0000
-Message-Id: <179554066201.1768842.5506067975857728403@gitolite.kernel.org>
+Date: Tue, 24 Nov 2026 17:17:44 -0000
+Message-Id: <179554066493.1769031.4964366836089165000@gitolite.kernel.org>
 
---===============4265546456433239279==
+--===============5425807783115513964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS
-    old: f27a0d1128a0eb39c6b41d47dbec9a123b503b9f
-    new: bf56a904a039274db8d7e8f08cfa73ef09e191e1
-    log: revlist-f27a0d1128a0-bf56a904a039.txt
+  - ref: refs/heads/kernel-7.3/nfs-client-transport-percpu-with-nconnect
+    old: 7422c1885d46f6241c590affb4799689b56312c9
+    new: 916a2425aedc7963391d1f428209a4eff68ba0a4
+    log: revlist-7422c1885d46-916a2425aedc.txt
 
---===============4265546456433239279==
+--===============5425807783115513964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f27a0d1128a0-bf56a904a039.txt
+Content-Disposition: attachment; filename=revlist-7422c1885d46-916a2425aedc.txt
 
 e800240c8858739c870c447b89e41528999fa3cc NFSD_TCP_WRITE_ZEROCOPY: build 550's first boot lost port a
 1805b82b071d4ed824248496e9464ff7ee646cf5 NFSD_TCP_WRITE_ZEROCOPY: build 550's updates/ holds round 182's stack
@@ -57,5 +57,10 @@ a222c72440a7f504330b8e0f8ab7ea4e270b6345 NFSD_TCP_WRITE_ZEROCOPY: round 184 reba
 6caa7c70dfddf9dc3b0c70dd6f3191cee99cac56 NFSD_TCP_WRITE_ZEROCOPY: round 184, every KUnit suite on EF5C next
 f62068e482401e9a3aa1219e9529d9b87091e199 NFSD_TCP_WRITE_ZEROCOPY: round 184's suites on EF5C, as before
 bf56a904a039274db8d7e8f08cfa73ef09e191e1 NFSD_TCP_WRITE_ZEROCOPY: round 184's profile, round 185 proposed
+af8bcd24c9ea4922ac79073205907600c5d0025d SUNRPC: give each CPU its own transport under nconnect
+3ec0a8d9937472b119f5578685eacb7e862048bb SUNRPC: home nconnect transports on their NIC's NUMA node
+d873416d78244f7d02f735f4d89cb0e82b0a1f25 xprtrdma: interrupt a transport's completions on its home core
+ce08516a82ad6a55e935e4adf44582d515b030ec SUNRPC: home each switch's transports on distinct cores
+916a2425aedc7963391d1f428209a4eff68ba0a4 SUNRPC: Keep nconnect's balanced round-robin unless nconnect_percpu=Y
 
---===============4265546456433239279==--
+--===============5425807783115513964==--
