@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 24 Nov 2026 07:08:53 -0000
-Message-Id: <179550413362.1237267.13955715057729937152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
+Date: Tue, 24 Nov 2026 07:11:31 -0000
+Message-Id: <179550429143.1240480.18061303559061191214@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
+repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
   - ref: refs/heads/testing
-    old: b88c75488ecc768acadb14e980bbfa087b1dbf38
-    new: 7e2a36cba877eff83f9df57415dc0fa4c7f7cf4b
+    old: 86ca23ee90b569e5a465a01e36d48a74870d8930
+    new: 4d12fa4df5c15cebc587644e84b8f972874e66f1
     log: |
-         2803867cf3defa294710088a4663b434e12b5e93 xfrm: espintcp: select receive path by skb protocol
-         7e2a36cba877eff83f9df57415dc0fa4c7f7cf4b xfrm: interface: drop non-IP packets before pskb_inet_may_pull()
+         4d12fa4df5c15cebc587644e84b8f972874e66f1 xfrm: remove three registration spinlocks
          
