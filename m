@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 24 Nov 2026 18:11:06 -0000
-Message-Id: <179554386613.1815863.15435171023173624512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 24 Nov 2026 18:11:24 -0000
+Message-Id: <179554388465.1816126.2242956333564477667@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.5
-    old: 2f218b200765b9fed1b28551bb9bae6fba398df4
-    new: ac14554898c8e3585accf534dfbbc2b647b57d92
+  - ref: refs/heads/for-7.4
+    old: 655e2421d693b8829da3ce79942be6f1275965c0
+    new: b0d43948d45bef795e4769b88179ba598382bc4f
     log: |
-         a9d5245fbd168eb4bb2ddeb64ee3f74e21a1ee6f ASoC: dt-bindings: airoha: Add AN7581 PCM controller
-         a0c2794fd7f77443ac7bacec86b101459336da3c ASoC: airoha: Add support for AN7581 PCM driver
-         ac14554898c8e3585accf534dfbbc2b647b57d92 ASoC: Add support for AN7581 PCM driver
+         b0d43948d45bef795e4769b88179ba598382bc4f ASoC: aw88166: fix backup restoring the RE value instead of saving it
          
