@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Tue, 24 Nov 2026 06:51:37 -0000
-Message-Id: <179550309703.1226249.16388765403199643077@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Tue, 24 Nov 2026 07:08:53 -0000
+Message-Id: <179550413362.1237267.13955715057729937152@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/sched-numa-fix-stale-state
-    old: 0000000000000000000000000000000000000000
-    new: 13f4c8d395021bda1b8a2a7e085d5a5b62baf7bd
+  - ref: refs/heads/testing
+    old: b88c75488ecc768acadb14e980bbfa087b1dbf38
+    new: 7e2a36cba877eff83f9df57415dc0fa4c7f7cf4b
+    log: |
+         2803867cf3defa294710088a4663b434e12b5e93 xfrm: espintcp: select receive path by skb protocol
+         7e2a36cba877eff83f9df57415dc0fa4c7f7cf4b xfrm: interface: drop non-IP packets before pskb_inet_may_pull()
+         
