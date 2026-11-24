@@ -1,27 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 24 Nov 2026 20:44:51 -0000
-Message-Id: <179555309147.1934392.12523271594693472156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 24 Nov 2026 20:58:29 -0000
+Message-Id: <179555390901.1944722.12309256081346259719@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/tpm2-asymmetric
-    old: 84cd240c0e6ef40e9711062eebe3e66fc085da30
-    new: 38c995dd2a76174cc8ecfb756006839b5d61e0ea
+  - ref: refs/heads/perf-tools-next
+    old: 964e8b1c9c795982886a6778cb0cd73c901ca4ca
+    new: 148690b95cc425950dbba79d73eb4f7938347fce
     log: |
-         0d8ed9760daf49213d22b4b237a648ea7cc787aa KEYS: trusted: Allow ASN.1 TPM2 sealed data shorter than MIN_KEY_SIZE
-         fc39ad9295bcdfb6cf97b1ca3824948889f25988 lib/asn1_encoder: Add asn1_encode_integer_bytes()
-         cda2681f66a20d94d3d0f68e552b38bc610ef516 tpm: Export tpm2_create_primary()
-         9acb42c2881d73c8381a156398781f7eee486adf tpm: Add persistent hierarchies to tpm2_create_primary()
-         fb18acd1b1b82a1db0e8f2dd622dc2a72ab54844 KEYS: trusted: Extend TPMKey support
-         d3ad182789d9d78111672b3ee9df974ad4892b27 KEYS: Factor out KEYCTL_PKEY
-         e74e2b3dc6301c24a04ef0176a33b2e4a3dcc539 KEYS: trusted: Reject zero-length keys in symmetric consumers
-         8e5992cf161e095d950090b938dd9183d8b00ec9 KEYS: trusted: Factor out TPM2 blob loading
-         38c995dd2a76174cc8ecfb756006839b5d61e0ea KEYS: trusted: Add asymmetric key support for TPM2
+         adbb9859d5bb65b60f9dc4aa50eb2bb539b9107e perf trace: free filter_pids entries in trace__exit()
+         ceedab4aa52832a32c7a7e8ffe493004db61450d perf parse-events: free partially copied terms if term cloning fails
+         5a0dbcab297dbf4b21a2b5bfb495940f22b838f7 perf docs: Correct JIT_CODE_UNWINDING_INFO specification
+         e929147f422afdc45cf685859652490de6fe656b perf annotate: fix annotate crash for fused instructions
+         0215d3b0181da7e901b80595a76a662cbf56d11d perf stat: Start tool events when enable_on_exec is used
+         8712eddddc02279897c44c247a65cd7efe318acb perf vendor events intel: Add diamondrapids v1.00 events
+         af15dfb71ca4b34db7ea84460f27075f860a83dd perf vendor events intel: Update lunarlake events from 1.26 to 1.27
+         68abd177479e98b14b308e134644ebcb3b550be5 perf vendor events intel: Update novalake events from 1.04 to 1.05
+         148690b95cc425950dbba79d73eb4f7938347fce libperf mmap: Arm64: fix transposed reads of counters 12 and 13
          
