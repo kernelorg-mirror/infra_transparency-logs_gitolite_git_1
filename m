@@ -1,64 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============6190094461515460040=="
+Content-Type: multipart/mixed; boundary="===============6056722456054509026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 24 Nov 2026 05:04:56 -0000
-Message-Id: <179549669664.1150751.13327183994858766031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Tue, 24 Nov 2026 06:06:46 -0000
+Message-Id: <179550040663.1192845.7941354890465002185@gitolite.kernel.org>
 
---===============6190094461515460040==
+--===============6056722456054509026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/tags/v7.3.3-16.canary
-    old: 0b243ea464094a698e4a619f65f23a6c36c2e804
-    new: 9a470d0e41cde669e1f80fa3c112d8a5a7ef27ba
-    log: revlist-0b243ea46409-9a470d0e41cd.txt
+  - ref: refs/heads/for-7.4-fixes
+    old: acec9637e03ca54bd3c3a0c1a6ad5c6dfa07c0df
+    new: 884e88175b95a03ea9f4dc8c89acca5d5b33cbd2
+    log: |
+         884e88175b95a03ea9f4dc8c89acca5d5b33cbd2 tick/sched: Make tick_nohz_full_mask and HK_TYPE_KERNEL_NOISE cpumask consistent
+         
+  - ref: refs/heads/for-7.5
+    old: a6ca40399708c4322e87448f6c47da7192d72895
+    new: db5a3d08c70b0c656f5455251fadb9b459e9374c
+    log: revlist-a6ca40399708-db5a3d08c70b.txt
+  - ref: refs/heads/for-next
+    old: c1a028f2ecb70a1eb37577294e44f292e29ce23b
+    new: 58dc91c8c1e2549c4be09d77a39de41e75965105
+    log: |
+         884e88175b95a03ea9f4dc8c89acca5d5b33cbd2 tick/sched: Make tick_nohz_full_mask and HK_TYPE_KERNEL_NOISE cpumask consistent
+         daf13374a06304db6dcf7f3b806888a3ab62b8fc cgroup: Merge branch 'for-7.4-fixes' into for-7.5
+         b9d5ae989e8954e2d285bc1b1f6efff639240a4d sched/isolation: Forbid the boot CPU from being domain isolated
+         db5a3d08c70b0c656f5455251fadb9b459e9374c cgroup/cpuset: Disallow CPU 0 from being used in isolated partition
+         58dc91c8c1e2549c4be09d77a39de41e75965105 Merge branch 'for-7.5' into for-next
+         
 
---===============6190094461515460040==
+--===============6056722456054509026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b243ea46409-9a470d0e41cd.txt
+Content-Disposition: attachment; filename=revlist-a6ca40399708-db5a3d08c70b.txt
 
-38729cf73a7774eb7df152a9067dc56bf1c457a4 NFSD_TCP_WRITE_ZEROCOPY: round 182, the parked count profiled
-822e96fe05ab552724be3a2c138aff1737793a25 NFSD_TCP_WRITE_ZEROCOPY: round 182, the parked count's misses
-734eb4cf08f56bb44b8d309dcbe9d54ba4e72ef1 SUNRPC: Give each CPU's rtc free list a cache line of its own
-d9a4ecf6ba515e67b68e102bd475d0a7e3f46888 SUNRPC: Count the rtc pool's parked calls on the CPUs' free lists
-4653bd9661bb763a91705910e4fe6a463aad80af SUNRPC: Sum the rtc pool's parked calls over its shards in KUnit
-289f3a9c077bc93f49d4c760e1f59b61c589903a NFSD_TCP_WRITE_ZEROCOPY: round 182, the shard and count commits
-d13f1e1520e0b7b32fcbe83a36c76108ca61e77a NFSD_TCP_WRITE_ZEROCOPY: round 182, the rtc suite on BEBF
-c3a91d59f66872767fead3485a62bcb7049fbe1a NFSD_TCP_WRITE_ZEROCOPY: swap-sunrpc.sh replaces a stack set whole
-58a5cc2c184db630f54f58e461397ba2e0902395 NFSD_TCP_WRITE_ZEROCOPY: round 182, 46 of 46 on BEBF, the A/B
-5cecf2551616b68e7f1d79704169f2bb019b4a31 NFSD_TCP_WRITE_ZEROCOPY: round 182, BEBF against 5C3E
-4835f75433b0acafb141195e1efe635b3029858d NFSD_TCP_WRITE_ZEROCOPY: round 182, the stats counters are round 171's
-432787ef7d53d8753b39ef274c072d05e6100b07 AGENTS.md: tardis2's updates/ holds the BEBF stack
-f67e5c92d707807b64bb270b8c373aa30c9ebca6 SUNRPC: give each CPU its own transport under nconnect
-46fe92b4286223431788c755675167e4d5c8f64b NFSD_TCP_WRITE_ZEROCOPY: round 182 done
-0596c63b8cf51e4d09bc62d34fa9d0c3b42d9480 SUNRPC: home nconnect transports on their NIC's NUMA node
-2e25528f7b4fc6e8bf7b67fe8164459f26c4959b NFSD_TCP_WRITE_ZEROCOPY: handoff for the boot into the rx_loan kernel
-c7bd30bc9520e1574eb37e2053e9e69a1901f133 xprtrdma: interrupt a transport's completions on its home core
-47803cc522754c370fd5d8b64c5de7e789afa9ac AGENTS.md: start the rx_loan kernel's boot at its handoff
-c1e4f3e57395e07f1291e2cdfa81b4ee27e9968c SUNRPC: home each switch's transports on distinct cores
-f27a0d1128a0eb39c6b41d47dbec9a123b503b9f NFSD_TCP_WRITE_ZEROCOPY: the rx_loan kernel is built from 9677f79cfb4c2
-7422c1885d46f6241c590affb4799689b56312c9 SUNRPC: Keep nconnect's balanced round-robin unless nconnect_percpu=Y
-6a7f5dcaf6f43ee47af25fc9329da777ef369ad7 Merge branch 'kernel-7.3/nfsd-testing-canary-nfs_common-XFS-IOLOCK-and-async-DIO-middle' into kernel-7.3/canary
-d94ddfd2af39fb1bb1f0558d459e624f3308045a Merge branch 'kernel-7.3/nfs-localio-performance-canary' into kernel-7.3/canary
-c365ccae29862a38bdd4b3c507b0be2cbf3ac4d8 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary' into kernel-7.3/canary
-3bb8915f852641d9c920753026c956ad442ad122 Merge branch 'kernel-7.3/nfs-and-nfsd-performance-canary-client' into kernel-7.3/canary
-6fb4a66d2a9e8b30b4de7611d9c5801ad8c5d539 Merge branch 'kernel-7.3/nfs-and-nfsd-performance-canary' into kernel-7.3/canary
-251ff201fae3407338004be99575b695133ef700 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part2' into kernel-7.3/canary
-4d15cfee305cda704b67c9d4d8c0d1a9671b2278 Merge branch 'kernel-7.3/jflynn-io500-canary-client' into kernel-7.3/canary
-0e94e2b87a531b1f545b4f680cfcba95d5b18614 Merge branch 'kernel-7.3/jflynn-io500-canary' into kernel-7.3/canary
-82f02e74cce937fb33678101bf1e9a7ba70357ae Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part3' into kernel-7.3/canary
-62e7f7d3462e5d7ddc4ea4fe7a93f8854c200d05 Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS-client' into kernel-7.3/canary
-15378a7d87854e8b3ee27fad63bd8f3cf29ea80b Merge branch 'kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS' into kernel-7.3/canary
-b991ef836910b6b869a18c1b9482fc0d363dd796 Merge branch 'kernel-7.3/nfs-client-transport-percpu-with-nconnect' into kernel-7.3/canary
-9a470d0e41cde669e1f80fa3c112d8a5a7ef27ba Merge branch 'kernel-7.3/changelog-canary' into kernel-7.3/canary
+362212853cd09796c275669e9fc3a25f282bd688 cgroup/cpuset: Fix incorrect CPU accounting with parent's effective_xcpus expansion
+80ca632430e3394ef2676976428965bb12ce6a31 cgroup/cpuset: Recompute effective cpumask in update_cpumasks_hier() after calling update_parent_effective_cpumask()
+8b89d073a6d993ab0f7c31413b74505982aedc28 cgroup/cpuset: Do housekeeping check when isolated child with root parent may get more xcpus
+fffbdad76a57eed26cff1be19f4cbb407f0b6e7c cgroup: arm the notify timer only while the file exists
+8ab6980c70076db5f8c0c66a5fac06472b254333 cgroup/freezer: walk exiting tasks in the v1 freezer
+e1aed52b68a361f6fc047b24a37d9ec4d928a158 cgroup/freezer: Fix exiting tasks left frozen forever after rmdir
+ba4834fc81ddc0b500843c827c09d3ff95a317a9 cgroup/cpuset: Reset partition data when an invalid partition stays invalid
+93eb230146f8c6246b0b96e7f1b980ac5e8b8d81 cpuset: add early empty cpumask check in partition_xcpus_add/del
+8ef0c923104b4ba38249b364867d779f5a9b5dbe selftests/cgroup: Fix "test_cpuset_prs.sh -v" failures
+a25cc4c75fdd8921f160bc3950665889eba7374b cgroup/cpuset: Protect current->mems_allowed read in cpuset_fork()
+56681bc448a80bb2473026b41c44c133766bc38d cgroup/cpuset: Correctly set isolated_cpus when switching partition state
+c1ad01173511e8aec378af9f5285f98b767b1381 cpuset: settle isolation state when CPUs are given back to parent
+e234ed1bb82c96a5643fd70784f16cf3d72eeed3 cpuset: generalize the validate_partition() interface
+7693e1350b06191143724da742559fb47211348e memcg: make MEMCG select BLK_CGROUP
+42ef815ff6b282e75248e8e084508fca4a694b70 cgroup/cpuset: Remove redundant WARN_ON_ONCE() in remote_cpus_update()
+acec9637e03ca54bd3c3a0c1a6ad5c6dfa07c0df cgroup/cpuset: Don't revive invalid partition without active CPU on hotplug
+884e88175b95a03ea9f4dc8c89acca5d5b33cbd2 tick/sched: Make tick_nohz_full_mask and HK_TYPE_KERNEL_NOISE cpumask consistent
+daf13374a06304db6dcf7f3b806888a3ab62b8fc cgroup: Merge branch 'for-7.4-fixes' into for-7.5
+b9d5ae989e8954e2d285bc1b1f6efff639240a4d sched/isolation: Forbid the boot CPU from being domain isolated
+db5a3d08c70b0c656f5455251fadb9b459e9374c cgroup/cpuset: Disallow CPU 0 from being used in isolated partition
 
---===============6190094461515460040==--
+--===============6056722456054509026==--
