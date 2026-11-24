@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 24 Nov 2026 14:18:36 -0000
-Message-Id: <179552991609.1609464.12309526686120660542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Tue, 24 Nov 2026 14:18:46 -0000
+Message-Id: <179552992603.1609694.6266337633613271424@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/for-7.5
-    old: 9d0c5454669ee771c30d7c545801044374297a33
-    new: 97889ef32b771dfe8171d3e8beb5802dd3f95e1c
+  - ref: refs/heads/for-7.4-fixes
+    old: 2f7928516314f37d7cb334675656b4412edc8be3
+    new: 1b28ee399b23c455211e0b654da3017b8edd119e
     log: |
-         97889ef32b771dfe8171d3e8beb5802dd3f95e1c ASoC: SDCA: Use Function Extension info for FDL
+         1b28ee399b23c455211e0b654da3017b8edd119e sched_ext: Fix suspicious RCU usage in KF_RCU_PROTECTED kfuncs
+         
+  - ref: refs/heads/for-next
+    old: 4bd710419c69fdbfd8182b3cafa5fe22259cf340
+    new: 10eb6e0f1b7d4f2a194d844c8891a90ec9106455
+    log: |
+         1b28ee399b23c455211e0b654da3017b8edd119e sched_ext: Fix suspicious RCU usage in KF_RCU_PROTECTED kfuncs
+         10eb6e0f1b7d4f2a194d844c8891a90ec9106455 Merge branch 'for-7.4-fixes' into for-next
          
