@@ -1,39 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 24 Nov 2026 12:29:15 -0000
-Message-Id: <179552335507.1523562.10727822143043318280@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7682347025698721071=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 24 Nov 2026 12:29:24 -0000
+Message-Id: <179552336411.1523761.15305087328578735001@gitolite.kernel.org>
+
+--===============7682347025698721071==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: e35cdd54ef7779e97e8057d30ebb432974df60f9
-    new: 3092b9e481fedc413bf7acda9edc04b0bd8cb28a
-    log: |
-         6b3f779dcac4ea16e232019b68650395ad55f5a2 ASoC: fsl_asrc_m2m: fix out-of-bounds write when draining the output FIFO
-         fbeac9352de6584bd5eb7c23d2f224339772c992 ASoC: fsl_asrc: fix pair ownership on repeated or failed hw_params
-         0d02516a94b47637acaad8e7a83c3a810402e70a ASoC: fsl_asrc_dma: release DMA channels on repeated hw_params
-         f50dfefe6d4dd8cf5e826353de21228b9f073e68 ASoC: fsl_easrc: fix context ownership on repeated hw_params
-         f0277994dbd09cc45d600c2f86cbfde9c17c6fcf ASoC: fsl_asrc_m2m: allow only one task at a time per stream
-         1c22a4053995fa8786540a934f2191fa517ac1e5 ASoC: fsl_asrc/fsl_easrc: fix memory safety issues
-         3092b9e481fedc413bf7acda9edc04b0bd8cb28a ASoC: SOF: control: reject out-of-range enum values
-         
   - ref: refs/heads/for-next
-    old: 4223534d7b557cfe7fe781060a275b6669317712
-    new: 801275ee78fc11e63033df3bec2c2474726d4904
-    log: |
-         6b3f779dcac4ea16e232019b68650395ad55f5a2 ASoC: fsl_asrc_m2m: fix out-of-bounds write when draining the output FIFO
-         fbeac9352de6584bd5eb7c23d2f224339772c992 ASoC: fsl_asrc: fix pair ownership on repeated or failed hw_params
-         0d02516a94b47637acaad8e7a83c3a810402e70a ASoC: fsl_asrc_dma: release DMA channels on repeated hw_params
-         f50dfefe6d4dd8cf5e826353de21228b9f073e68 ASoC: fsl_easrc: fix context ownership on repeated hw_params
-         f0277994dbd09cc45d600c2f86cbfde9c17c6fcf ASoC: fsl_asrc_m2m: allow only one task at a time per stream
-         1c22a4053995fa8786540a934f2191fa517ac1e5 ASoC: fsl_asrc/fsl_easrc: fix memory safety issues
-         3092b9e481fedc413bf7acda9edc04b0bd8cb28a ASoC: SOF: control: reject out-of-range enum values
-         02cac19a4305fc95c23604b53e72483f429baea1 Merge asoc-linus into asoc-next
-         801275ee78fc11e63033df3bec2c2474726d4904 Merge asoc/for-7.5 into asoc-next
-         
+    old: c14a09c4bad2bc485a8241c3bda52494093bb25e
+    new: 9712836c21f2ecd4296c738fc97850d81a17049b
+    log: revlist-c14a09c4bad2-9712836c21f2.txt
+
+--===============7682347025698721071==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c14a09c4bad2-9712836c21f2.txt
+
+4021b62d6f886cfe3da9944009347b33f20c3ca9 spi: spi-qpic-snand: fix DMA unmapping on probe failure
+128166704b9708d337e2a913acbb3397d8197c13 spi: spi-zynqmp-gqspi: Factor out zynqmp_qspi_disable_hw()
+e822c0e154acec3bd781ec6af62601412611b576 spi: spi-zynqmp-gqspi: Mask the interrupt before gating clocks on remove
+1cd11b56fc3d93e047448aee23704a282e56e256 spi: spi-zynqmp-gqspi: Stop the controller fully on remove
+bfc9ad332132a24671b52fd001b4e3d150788ea0 spi: spi-zynqmp-gqspi: Drain RX FIFO on RXNEMPTY in IO mode
+07edbea685d7c31885a22ca6a1a00ddcae75e073 spi: spi-zynqmp-gqspi: Use IO mode if RX buffer is not cache-line aligned
+198ee27a60f066706bda30049aecc1dc1466e21c spi: spi-zynqmp-gqspi: Fix remove and IO-mode reads
+b4d26b2d6b61f15bb148c2024bd283c6847a55de spi: dt-bindings: sun6i: Allow Dual SPI and Quad SPI for the H616
+908db9a4ca30d2b97304bde434534a863b5a9263 spi: sun6i: Add dual read support for the H616
+26590fb3cb509f9ec98f82125a12c77cf5656b39 spi: sun6i: Add dual read support for the H616
+5222db95ded900680bc79f13a029b024ada2784e Merge spi-linus into spi-next
+9712836c21f2ecd4296c738fc97850d81a17049b Merge spi/for-7.5 into spi-next
+
+--===============7682347025698721071==--
