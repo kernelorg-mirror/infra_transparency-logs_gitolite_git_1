@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 24 Nov 2026 16:00:15 -0000
-Message-Id: <179553601573.1697920.18139125163494362556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 24 Nov 2026 16:01:06 -0000
+Message-Id: <179553606674.1698694.13620259626646957140@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 9a364ea424155016663bfddcb37a64af4a1fb927
-    new: 6b4a590929b2aa0dd9e987c13ec713426b44a591
+  - ref: refs/heads/for-7.4
+    old: 1c1cd016da78596e33b14957ba3d61379e36e82f
+    new: 655e2421d693b8829da3ce79942be6f1275965c0
     log: |
-         af79a85d017e31336050187dd1d13e2feabd46bb qcom: update ADSP, CDSP firmware for eliza platform
-         6b4a590929b2aa0dd9e987c13ec713426b44a591 Merge branch 'clo/dsp-fw-elizaadsp81' into 'main'
+         655e2421d693b8829da3ce79942be6f1275965c0 ASoC: amd: acp: Add Lenovo IdeaPad Slim 5 16AKP10 to ACP70 override table
          
