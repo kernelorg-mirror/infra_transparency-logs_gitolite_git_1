@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Tue, 24 Nov 2026 14:28:48 -0000
-Message-Id: <179553052894.1619649.17252548259322248873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Tue, 24 Nov 2026 14:29:05 -0000
+Message-Id: <179553054501.1619943.4700742407178565184@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/v7.4-next/dts64
-    old: 12820200fb1898f10589c1cf1b70ee64218b66e7
-    new: c9b3683042200620c60d4b89c4a95628f676d9c4
+  - ref: refs/heads/stm32-fixes
+    old: ec1c74cda8446b0048be67d65ae3860e5aca261b
+    new: bbbec4e0e665dc616d0c77a9a5c4ab263b4315d7
     log: |
-         c9b3683042200620c60d4b89c4a95628f676d9c4 arm64: dts: mediatek: Move watchdog disable external reset to chromebooks
+         bbbec4e0e665dc616d0c77a9a5c4ab263b4315d7 arm64: dts: st: mark STM32MP23 timer as stopping in suspend
          
