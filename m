@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Tue, 24 Nov 2026 14:29:06 -0000
-Message-Id: <179553054654.1620101.8832938223075656403@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Tue, 24 Nov 2026 14:29:10 -0000
+Message-Id: <179553055022.1620311.4678151437304666327@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/urgent
-    old: 1517434dd6115789d9d17f78785df14b7ebf6f3e
-    new: ccc0c16000d463c4638ac53865288c3efe8b9d16
+  - ref: refs/heads/for-next
+    old: d5cca6b4f39e3682504bc10e1aa6ade1fd08de0c
+    new: 40df324735f1d4a2a0acf4ad1d83bd0ebb9f4884
     log: |
-         c872ae7f1443d91961a8369a17fe09fe5c171188 x86/efi: Disregard the INITRD and MEMATTR config tables after kexec
-         7725fa5bda1fe99c59bad63f13b4cbe5ab09db46 efi/tpm: Allocate the event log from EFI loader data again
-         ee68f95d4a8498618b08cee84f9cb74842ebbcf3 efi/zboot: arm64: Add missing barrier after cache maintenance
-         76dbb26a454ea173ee4f411812e2ca8794ce5d69 efi: Don't destroy runtime workqueue on efisubsys_init() failure
-         2e068443f144a1058c7d0e98cf5e13910f075ba4 efivarfs: fix off-by-one in efivar_validate() variable name matching
-         ccc0c16000d463c4638ac53865288c3efe8b9d16 efistub/x86: Fix the size type of the Apple properties protocol
+         c9b3683042200620c60d4b89c4a95628f676d9c4 arm64: dts: mediatek: Move watchdog disable external reset to chromebooks
+         40df324735f1d4a2a0acf4ad1d83bd0ebb9f4884 Merge branch 'v7.4-next/dts64' into for-next
          
