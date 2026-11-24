@@ -1,20 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Tue, 24 Nov 2026 14:29:10 -0000
-Message-Id: <179553055022.1620311.4678151437304666327@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 24 Nov 2026 14:36:21 -0000
+Message-Id: <179553098105.1627079.13796551110373982154@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: d5cca6b4f39e3682504bc10e1aa6ade1fd08de0c
-    new: 40df324735f1d4a2a0acf4ad1d83bd0ebb9f4884
+  - ref: refs/heads/asoc-7.5
+    old: e68e710ecc89a3b51b5ac89bf2b708ea2a3185d2
+    new: 279cd42031aef3567de140a0ce136e83a9b6dd25
     log: |
-         c9b3683042200620c60d4b89c4a95628f676d9c4 arm64: dts: mediatek: Move watchdog disable external reset to chromebooks
-         40df324735f1d4a2a0acf4ad1d83bd0ebb9f4884 Merge branch 'v7.4-next/dts64' into for-next
+         cfe3530f721cf26a06b9a7e1d08069bd56371b76 ASoC: adi: axi-i2s: Use devm_clk_get_enabled()
+         8bf6b562579e1899fab5ba8ade596bba0a8129e4 ASoC: adi: axi-spdif: Use devm_clk_get_enabled()
+         e1d51f226726e882877b5e835f41131a8c8ba6ae ASoC: adi: Use devm_clk_get_enabled()
+         279cd42031aef3567de140a0ce136e83a9b6dd25 ASoC: loongson: Set dai_fmt for auto format selection
+         
+  - ref: refs/heads/spi-7.5
+    old: b6f9117472ca82aac44e6fe46fb490e53d44a67c
+    new: f18eef6225423a0d7aa2d967bb72158af8ee5be9
+    log: |
+         f18eef6225423a0d7aa2d967bb72158af8ee5be9 spi: dw-mmio: handle clock and reset failures on resume
          
