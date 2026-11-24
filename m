@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 24 Nov 2026 19:19:13 -0000
-Message-Id: <179554795312.1868459.18255238827040020134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Tue, 24 Nov 2026 19:28:41 -0000
+Message-Id: <179554852172.1875370.17882166647497810835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/x86/cache
-    old: 2a93af75384b7e95d62c5a9a39e13573e2170ec5
-    new: 712f550549864a5061a3acc3ef1bb61c07e9e66c
+  - ref: refs/heads/nfsd-testing
+    old: 251a2afc6dfaf1db0e80d6392363f65b80157e30
+    new: fdee166138c2eaaca10824ef28cd50c657295147
     log: |
-         3d414bf38740b3586ea25706dcec66584b78f895 x86,fs/resctrl: Rename AMD resctrl MSR defines to use MSR_AMD64_ prefix
-         712f550549864a5061a3acc3ef1bb61c07e9e66c x86,fs/resctrl: Use a consistent log prefix
+         fdee166138c2eaaca10824ef28cd50c657295147 NFSD: Accept an empty access ACL in NFS_ACL SETACL
          
