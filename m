@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2231622682776508560=="
+Content-Type: multipart/mixed; boundary="===============4141278203071506613=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 24 Nov 2026 02:07:58 -0000
-Message-Id: <179548607842.1023762.1201694881767676665@gitolite.kernel.org>
+Date: Tue, 24 Nov 2026 02:08:01 -0000
+Message-Id: <179548608143.1023950.10006812722168371962@gitolite.kernel.org>
 
---===============2231622682776508560==
+--===============4141278203071506613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-7.3/NFSD_TCP_WRITE_ZEROCOPY-canary-part4-IOPS
-    old: 1acd56a64887a57a15443520cab18701e76816a2
-    new: 981621e0c53e3705a87bc2bb33b7c2ea26df8d06
-    log: revlist-1acd56a64887-981621e0c53e.txt
+  - ref: refs/heads/kernel-7.3/nfs-client-transport-percpu-with-nconnect
+    old: 207378b9822299bb6d103507c8b82718a1c57a7d
+    new: 87ae26368a0e584eaf2c23fbfe3905959a8c9d49
+    log: revlist-207378b98222-87ae26368a0e.txt
 
---===============2231622682776508560==
+--===============4141278203071506613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1acd56a64887-981621e0c53e.txt
+Content-Disposition: attachment; filename=revlist-207378b98222-87ae26368a0e.txt
 
 66b80595c6b4f91cd0c9e99d423ef11c2efbb9ff NFSD: Lend a kept file handle's dentry without a reference
 6cd0c560ba10baae9c685743a19a2cbfb0556aa4 NFSD: Set an nfsd_file's LRU flags in nfsd_file_put() only when clear
@@ -65,5 +65,10 @@ c0080a56f4abdc863ba37773c33a819332ce38dc AGENTS.md: tardis2's updates/ holds sun
 20c2b5cbc4fe0f10c2d8de01b8000fa4fd3f9ba5 NFSD_TCP_WRITE_ZEROCOPY: round 181, 128 settled, 256 to test
 a89baa431b7c171ab24a398a9bd18a0a4ed897ae AGENTS.md: tardis2's reply page recycle is held at 128
 981621e0c53e3705a87bc2bb33b7c2ea26df8d06 NFSD_TCP_WRITE_ZEROCOPY: round 181, 256 dropped, WRITEs at 128
+1a98fb72715231049694b33e915bbc302946cadc SUNRPC: give each CPU its own transport under nconnect
+e570de2deedfdf8936690b85538360c3e12587ea SUNRPC: home nconnect transports on their NIC's NUMA node
+7e63a21a852d95c951659021b051530963e5b997 xprtrdma: interrupt a transport's completions on its home core
+cf90b3f0679efd3b1efb410d77a4d3dc9d8dc20b SUNRPC: home each switch's transports on distinct cores
+87ae26368a0e584eaf2c23fbfe3905959a8c9d49 SUNRPC: Keep nconnect's balanced round-robin unless nconnect_percpu=Y
 
---===============2231622682776508560==--
+--===============4141278203071506613==--
