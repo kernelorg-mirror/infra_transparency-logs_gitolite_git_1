@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 24 Nov 2026 12:12:53 -0000
-Message-Id: <179552237335.1509983.4135761750657785378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 24 Nov 2026 12:13:05 -0000
+Message-Id: <179552238587.1510233.6697081063156007695@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/for-7.5
-    old: 691c7480d19a25058a0e1a301ad2397f55c52e6e
-    new: 9d0c5454669ee771c30d7c545801044374297a33
+  - ref: refs/heads/for-next
+    old: 7404c82cbf1246e0e84e2ec21834d23c26f9a8ed
+    new: 4075ceed67949f1b31158b6477570a06da428a17
     log: |
-         ed1e119c27819d710400308753d8a933bb5b5f0e ASoC: sti: uniperif: Propagate the IRQ lookup error
-         9af3cacff4adcfb8c4dbc003d6fe7166420088e4 ASoC: da7213: Disable runtime PM on component registration failure
-         94531f24f5b434eb022902b4e8ce7e12274923dd ASoC: atmel-classd: Simplify probe error handling
-         76f1c241d10c8ea284891d40949d6c87b664e45e ASoC: atmel-classd: Enable pclk during probe
-         9d0c5454669ee771c30d7c545801044374297a33 ASoC: atmel-classd: Improve clock and probe handling
+         db805449797101d4b68580c48f3b8b3cb52b3b63 bnge: Pass BAR1 doorbell mapping to RoCE auxiliary device
+         ac1ae795c55511e6b733ba0420671ecec64348da bnge: Update HSI
+         d60317882851207204dc9a9f0db4e6760fdb26c3 bnge: Reserve ring resources for upcoming RoCE MPC support
+         a6b2b0f059b74789b4394eea88232ff0e75efe01 Merge remote-tracking branch 'bnge/bnge-roce-v3' into wip/leon-for-next
+         13fe248d139ace1857a5cca8e9f1772a8b663c4c RDMA/iwcm: Require CAP_NET_ADMIN for iWARP port mapper netlink messages
+         97ff5d6565f0ca79cf1424499b6fde2552bea40a IB/hfi1: clear VM_MAYWRITE on read-only STATUS mmap
+         4075ceed67949f1b31158b6477570a06da428a17 RDMA/rxe: Fix NULL dereference when invalidating an unbound MW
          
