@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Tue, 24 Nov 2026 03:15:42 -0000
-Message-Id: <179549014204.1074984.3847230305969356535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 24 Nov 2026 03:21:29 -0000
+Message-Id: <179549048912.1079012.16665799917044565494@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/edac-for-next
-    old: 0e2b2b89b5e19edbda0a83209a0abf27f4820412
-    new: 7b97217b16f42932bf9b8dccc73df854bdc7b0f4
+  - ref: refs/heads/master
+    old: 351668b0b8b7e1447482595df4b2294dcffbb040
+    new: 5f99e3e8a1819ed5b5fc84defa6581b7a71c8e78
     log: |
-         a95cfe28d0d96b68826498aab90e494b9f6bd22c EDAC/versalnet: Fix use-after-free in remove_one_mc()
-         7b97217b16f42932bf9b8dccc73df854bdc7b0f4 Merge ras/edac-urgent into for-next
+         4fad237494f100f3038509209d661b9a138b6ad3 libbpf: Fix CO-RE relocations of unsigned 32-bit enum values
+         885fd5836d3dd8c65f226e8615536196089648e1 selftests/bpf: Test CO-RE relocations of unsigned 32-bit enum values
+         6036922777d33f909867c910212f913f7b088a2b Merge branch 'libbpf-fix-co-re-relocations-of-unsigned-32-bit-enum-values'
+         6c725670966add64b23d83aef5e48a2fe3342459 bpf: Force BPF_JIT on x86-64 and arm64
+         7cc87577394a4339e8f6888ef4d25ddcf32580c9 Documentation/bpf: Update sockmap docs for mutation restrictions
+         2d602d0e4296bcc475b327894b23692eb100b451 Documentation/bpf: Fix stale selftests file references
+         5f99e3e8a1819ed5b5fc84defa6581b7a71c8e78 Merge branch 'documentation-bpf-fix-stale-references-in-map-docs'
          
