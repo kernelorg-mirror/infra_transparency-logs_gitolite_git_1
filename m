@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Tue, 24 Nov 2026 23:11:11 -0000
-Message-Id: <179556187139.2044547.12783847796123209267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 24 Nov 2026 23:23:04 -0000
+Message-Id: <179556258483.2052148.2555159453546417580@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fscrypt/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/netdev/net
+user: willemb
 changes:
-  - ref: refs/heads/for-next
-    old: 0ab5edd203050cdb23a1f4ae35a3e90e1e62b768
-    new: 1928c0add8851741d20ad1e7ca41b0426cfb03fc
+  - ref: refs/heads/main
+    old: 37fa509e43ba59d7c329025436e8ea64bdf089d7
+    new: 32756b82fde8f6cc98b174fdcd02c2a61033e263
     log: |
-         f3067b85ee6445b771c1fef7edc660224c4548b5 fscrypt: Add FSTR() helper macro
-         5da128e1027ff7cec288c500858f2207de59b6be btrfs: Use FSTR() for the "default" name
-         ef12cb36303b61492fa2f8976aaa3b710435fb68 f2fs: Use FSTR() in f2fs_do_make_empty_dir()
-         1928c0add8851741d20ad1e7ca41b0426cfb03fc ubifs: Use FSTR() in ubifs_xattr_{set,get,remove}()
+         a6ea69915a230d24e9d9cd8dc0ff0551dab36106 eth: bnxt_en: restore Rx coalescing after re-allocating the completion ring
+         32756b82fde8f6cc98b174fdcd02c2a61033e263 eth: bnxt_en: restore Tx coalescing after re-allocating the completion ring
          
