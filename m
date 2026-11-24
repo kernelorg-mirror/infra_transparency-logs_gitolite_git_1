@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3706987180480618554=="
+Content-Type: multipart/mixed; boundary="===============3505444014108611946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Tue, 24 Nov 2026 02:44:26 -0000
-Message-Id: <179548826614.1050170.7906975606426214711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Tue, 24 Nov 2026 02:44:46 -0000
+Message-Id: <179548828610.1050400.8408835877310668003@gitolite.kernel.org>
 
---===============3706987180480618554==
+--===============3505444014108611946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 8d7fe9885c62fc9a95bf55d9db244d9672a8aadc
     log: revlist-d0f871bfb831-8d7fe9885c62.txt
 
---===============3706987180480618554==
+--===============3505444014108611946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -769,4 +769,4 @@ b6a9fa34ce4187cb69d3c588a4bbffc31ce5db8f Linux 7.4-rc4
 42e225323067a222230068651cf886bd7fbb1fe2 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 8d7fe9885c62fc9a95bf55d9db244d9672a8aadc Merge tag 'hid-for-linus-2026112301' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 
---===============3706987180480618554==--
+--===============3505444014108611946==--
