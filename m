@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1891672408760115277=="
+Content-Type: multipart/mixed; boundary="===============1579027485451886046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Tue, 24 Nov 2026 01:54:39 -0000
-Message-Id: <179548527995.1012294.12880916403477700748@gitolite.kernel.org>
+Date: Tue, 24 Nov 2026 01:55:51 -0000
+Message-Id: <179548535103.1015097.65056969241590790@gitolite.kernel.org>
 
---===============1891672408760115277==
+--===============1579027485451886046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-urgent
-    old: a088b092a8962db62327690ae2d0d68827e81229
-    new: d34d54bb9bbe57c648f68819dd520995618eb196
-    log: revlist-a088b092a896-d34d54bb9bbe.txt
+  - ref: refs/heads/edac-for-next
+    old: aea0c86539d29a828d0d3ecc3434fcb31e4240e3
+    new: 066a755af27e2932beb36cffbb2dd8932f1bdaa6
+    log: revlist-aea0c86539d2-066a755af27e.txt
 
---===============1891672408760115277==
+--===============1579027485451886046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a088b092a896-d34d54bb9bbe.txt
+Content-Disposition: attachment; filename=revlist-aea0c86539d2-066a755af27e.txt
 
-067c5c24cef23d913b67eaaf71ae67e7169a6620 Merge tag 'page_alloc-for-7.4-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/mm/page_alloc
 44818c9a826d766dc0e21179dc76f229334f1dda net: gro: avoid parsing headers from shared fragments
 d00ba321499c0050872d70c41d86069f1d52c248 ASoC: soc-core: reset rtd->num_components after allocation
 9280128245612b30ca4a238daa6a777b0f4e583e net: usb: lan78xx: let unregister_netdev() stop phylink
@@ -1050,5 +1049,6 @@ fdcd45bc9cfee488b92efc4b7f43d6865ec82770 Merge tag 'spi-fix-v7.4-rc3' of git://g
 6e4122f0242a3262512ee3e6f2e7e6de0bd5792b Merge tag 'perf-tools-fixes-for-v7.4-1-2026-11-22' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 b6a9fa34ce4187cb69d3c588a4bbffc31ce5db8f Linux 7.4-rc4
 d34d54bb9bbe57c648f68819dd520995618eb196 EDAC/versalnet: Fix device_register() error handling in init_one_mc()
+066a755af27e2932beb36cffbb2dd8932f1bdaa6 Merge ras/edac-urgent into for-next
 
---===============1891672408760115277==--
+--===============1579027485451886046==--
