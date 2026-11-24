@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Tue, 24 Nov 2026 15:51:58 -0000
-Message-Id: <179553551871.1690366.12284352119504924474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 24 Nov 2026 15:59:11 -0000
+Message-Id: <179553595165.1694763.9240455898262344603@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/kunit
-    old: 4c61eaf38481f358b679f0ac8849f4e0bb49e789
-    new: 0204168b217b64d8ae0de7d9975ef499819ed8b2
+  - ref: refs/heads/for-7.5
+    old: 97889ef32b771dfe8171d3e8beb5802dd3f95e1c
+    new: 98fe26341049d608347f4a2830791c8fb2d8cf17
     log: |
-         0204168b217b64d8ae0de7d9975ef499819ed8b2 rust: doctest: fix line numbers after crate-level attributes
+         98fe26341049d608347f4a2830791c8fb2d8cf17 ASoC: atmel: mchp-pdmc: Clear busy_stream in hw_free()
          
