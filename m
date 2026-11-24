@@ -1,16 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Tue, 24 Nov 2026 11:10:24 -0000
-Message-Id: <179551862472.1461660.1382422670615341873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Tue, 24 Nov 2026 11:10:55 -0000
+Message-Id: <179551865545.1462265.2247408734498950411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/ti/linux
+user: vigneshr
 changes:
-  - ref: refs/tags/mm-everything-2026-09-23-22-58
-    old: 2240d02502b87c85d7978e45ce8b112f0c4688a3
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/ti-k3-dts-fixes
+    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+    new: 566085204d669ed4bd0d8d230b10f94f963e2481
+    log: |
+         379d5b31878d9b258abdccccdd8e21e831448439 arm64: dts: ti: k3-am69-aquila-dev: Keep DP_PWR always enabled
+         1e9f76839b196718c48c2429b859c5c39fe21e94 arm64: dts: ti: k3-am69-aquila-clover: Keep DP_PWR always enabled
+         01f65cb131916c2928782b17d41fbbd6c06e7d2c arm64: dts: ti: k3-am625-var-som: Correct missing space
+         566085204d669ed4bd0d8d230b10f94f963e2481 arm64: dts: ti: k3-j722s-evm: Fix USB2.0_MUX_SEL hog polarity for Type-C
+         
