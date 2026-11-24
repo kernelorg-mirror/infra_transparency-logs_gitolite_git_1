@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 24 Nov 2026 18:00:13 -0000
-Message-Id: <179554321322.1806901.7599982185171445098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Tue, 24 Nov 2026 18:03:58 -0000
+Message-Id: <179554343801.1808466.3168068298604528224@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/for-next-keys
-    old: f183e8c9202f40513a85beeb9739a5fa4c600e9d
-    new: 1bcff832c48d83c5132662bec83bda37f566d8a2
+  - ref: refs/heads/next
+    old: afa0df0854578e41f8fb321bddf61c9e5bdb49df
+    new: bb872036147b78498276986ac54634fbc609efa3
     log: |
-         1bbbf65c75064aeaff793b7bc218f12c53cbe1a9 KEYS: trusted: caam: propagate protected key option parsing errors
-         f779bd424bf27e17cee57c94f068328be29f3662 KEYS: Use kfree_sensitive() in keyctl_pkey_e_d_s()
-         1bcff832c48d83c5132662bec83bda37f566d8a2 KEYS: Fix crash on big_key read
+         bb872036147b78498276986ac54634fbc609efa3 landlock: Do not hold exec_update_lock across the TSYNC wait
          
