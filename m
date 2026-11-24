@@ -1,27 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 24 Nov 2026 20:58:29 -0000
-Message-Id: <179555390901.1944722.12309256081346259719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/fastrpc
+Date: Tue, 24 Nov 2026 21:07:26 -0000
+Message-Id: <179555444663.1951537.6405712905781139414@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/srini/fastrpc
+user: srini
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 964e8b1c9c795982886a6778cb0cd73c901ca4ca
-    new: 148690b95cc425950dbba79d73eb4f7938347fce
+  - ref: refs/heads/for-next
+    old: f914df45c32280850dd7aaaaacb1b356087e5a09
+    new: 61123effff83f10853c39703167d0dc1be24b3df
     log: |
-         adbb9859d5bb65b60f9dc4aa50eb2bb539b9107e perf trace: free filter_pids entries in trace__exit()
-         ceedab4aa52832a32c7a7e8ffe493004db61450d perf parse-events: free partially copied terms if term cloning fails
-         5a0dbcab297dbf4b21a2b5bfb495940f22b838f7 perf docs: Correct JIT_CODE_UNWINDING_INFO specification
-         e929147f422afdc45cf685859652490de6fe656b perf annotate: fix annotate crash for fused instructions
-         0215d3b0181da7e901b80595a76a662cbf56d11d perf stat: Start tool events when enable_on_exec is used
-         8712eddddc02279897c44c247a65cd7efe318acb perf vendor events intel: Add diamondrapids v1.00 events
-         af15dfb71ca4b34db7ea84460f27075f860a83dd perf vendor events intel: Update lunarlake events from 1.26 to 1.27
-         68abd177479e98b14b308e134644ebcb3b550be5 perf vendor events intel: Update novalake events from 1.04 to 1.05
-         148690b95cc425950dbba79d73eb4f7938347fce libperf mmap: Arm64: fix transposed reads of counters 12 and 13
+         2b22e3266386190d2027d9f12f317e0662a40711 misc: fastrpc: fix NULL rpdev dereference when session alloc fails
+         1bf78aac760fd25b684153f8c477aede9b9dd634 misc: fastrpc: fix init ordering race in rpmsg probe
+         78455fa9f022722f5c743e30a7a80131cd204310 misc: fastrpc: remove dead context drain in fastrpc_user_free()
+         c9c16d1d15038703c08cc56330cb5e506773f320 misc: fastrpc: drop the DSP-response reference on channel removal
+         3f645f6884b5c753eea253cab37521a432c69105 misc: fastrpc: fix context leak and hang on signal-interrupted invoke
+         61123effff83f10853c39703167d0dc1be24b3df Merge branches 'fastrpc-fixes' and 'fastrpc-for-v7.5' into fastrpc-for-next
          
