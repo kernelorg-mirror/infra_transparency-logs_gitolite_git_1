@@ -1,27 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 24 Nov 2026 14:41:38 -0000
-Message-Id: <179553129878.1631183.17582131876308964159@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 24 Nov 2026 14:41:47 -0000
+Message-Id: <179553130793.1631442.15884340739145649489@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: 3092b9e481fedc413bf7acda9edc04b0bd8cb28a
-    new: 1c1cd016da78596e33b14957ba3d61379e36e82f
-    log: |
-         1c1cd016da78596e33b14957ba3d61379e36e82f ASoC: amd: yc: Enable DMIC on MSI Crosshair A18 HX A8WGKG
-         
   - ref: refs/heads/for-next
-    old: 72446b79c0b8d88699f0d65d7e982eec658670cc
-    new: df3d72be0c5c9f8483f91486489e77a347e2ca8f
+    old: 9712836c21f2ecd4296c738fc97850d81a17049b
+    new: 3ed3da0dea324bd159c2439da0f7e9371f818b35
     log: |
-         1c1cd016da78596e33b14957ba3d61379e36e82f ASoC: amd: yc: Enable DMIC on MSI Crosshair A18 HX A8WGKG
-         e431d78ac5c2fc5f9b594e1daec025df3f1f8d7f Merge asoc-linus into asoc-next
-         df3d72be0c5c9f8483f91486489e77a347e2ca8f Merge asoc/for-7.5 into asoc-next
+         b6f9117472ca82aac44e6fe46fb490e53d44a67c spi: orion: handle clock failures on runtime resume
+         e56d77029d20233d48f4789733ec98f4e2613c29 Merge spi-linus into spi-next
+         3ed3da0dea324bd159c2439da0f7e9371f818b35 Merge spi/for-7.5 into spi-next
          
