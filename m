@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Tue, 24 Nov 2026 06:42:02 -0000
-Message-Id: <179550252282.1219073.12437703697669739795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
+Date: Tue, 24 Nov 2026 06:44:06 -0000
+Message-Id: <179550264647.1219758.13297015587615598618@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
-user: westeri
+repo: pub/scm/linux/kernel/git/wens/wireless-regdb
+user: wens
 changes:
-  - ref: refs/tags/thunderbolt-for-v7.4-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 41a86eaa1dac8d4dc787e92b8a1e247668ce2e50
+  - ref: refs/heads/master
+    old: c0b2d4b1b27a10479206b6a48445c0cdbabc1ff5
+    new: a6ed240979d12bb032d52f7daf0181e6f359f981
+    log: |
+         d9370b5942db5e4eef4fa7fba9bf00b1124e21d3 wireless-regdb: Update 60 GHz rule for Ukraine (UA)
+         a6ed240979d12bb032d52f7daf0181e6f359f981 wireless-regdb: Update regulatory info for Georgia (GE)
+         
