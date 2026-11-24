@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dborkman/pw
-Date: Tue, 24 Nov 2026 13:48:42 -0000
-Message-Id: <179552812228.1583363.11815261196879152127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 24 Nov 2026 13:57:53 -0000
+Message-Id: <179552867378.1590212.160658789099262063@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dborkman/pw
-user: dborkman
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: b448c9b1bc50279f5d0c122ae506fb9b84c1b5c0
-    new: 6ed8ba30a1332fd3ec06e3d1efe5f7fbac99dba5
+  - ref: refs/heads/regmap-7.5
+    old: d9e6ae40925985bdb563d144e58d1cacacd3ccc6
+    new: 573c689219af87f6d5a4bbf809c174e7f28a23a1
     log: |
-         3d1f5c314973a7845b25fef737c376cf1d783517 pw-apply: Fix -b to apply without -s
-         9429d64722eeb4e599c95b51b14267cb7aa5552b pw-apply: Accept a local mbox for -b
-         6ed8ba30a1332fd3ec06e3d1efe5f7fbac99dba5 pw-apply: support git worktrees when waiting for rebase
+         573c689219af87f6d5a4bbf809c174e7f28a23a1 regmap: guard DEFINE_FREE(regmap_field) against ERR_PTR values
          
