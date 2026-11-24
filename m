@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Tue, 24 Nov 2026 14:23:39 -0000
-Message-Id: <179553021930.1614685.5009150501842454263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 24 Nov 2026 14:24:20 -0000
+Message-Id: <179553026086.1615233.10686284414314195989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/stm32-fixes
-    old: 85b31a2bfb558313cb6ea2901b5371a111cfcc03
-    new: ec1c74cda8446b0048be67d65ae3860e5aca261b
+  - ref: refs/heads/main
+    old: ffa5035673e4975a7f78aecc9ffa949712c01540
+    new: 91cf0bf355c3fca30e11970e67e7cf3c5256c232
     log: |
-         ec1c74cda8446b0048be67d65ae3860e5aca261b arm64: dts: st: add PSCI idle state to STM32MP23 CPU domains
+         91cf0bf355c3fca30e11970e67e7cf3c5256c232 net: dsa: bcm_sf2: Use devm_clk_get_optional_enabled() calls in bcm_sf2_sw_probe()
          
