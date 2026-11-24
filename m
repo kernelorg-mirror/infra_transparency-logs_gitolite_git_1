@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8922274258502550877=="
+Content-Type: multipart/mixed; boundary="===============1228476479468820243=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Tue, 24 Nov 2026 16:51:49 -0000
-Message-Id: <179553910909.1745057.6140255955093936142@gitolite.kernel.org>
+Date: Tue, 24 Nov 2026 16:52:25 -0000
+Message-Id: <179553914587.1745671.18301940209487607547@gitolite.kernel.org>
 
---===============8922274258502550877==
+--===============1228476479468820243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frank.li/linux
 user: frank.li
 changes:
-  - ref: refs/heads/for-next
-    old: f459bcfa504d20f00a8f289dd173b3b1e7b6eb20
-    new: 6f8a860b07d072fa0c4b291326f1a1d421b25c3f
-    log: revlist-f459bcfa504d-6f8a860b07d0.txt
+  - ref: refs/heads/imx/dt64
+    old: 65f8b4684f2bb651f3e5168da9b237a31fed25b5
+    new: 11bd6e7fd0bf6f0b050fdaeb34a38bba0da68b44
+    log: revlist-65f8b4684f2b-11bd6e7fd0bf.txt
 
---===============8922274258502550877==
+--===============1228476479468820243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f459bcfa504d-6f8a860b07d0.txt
+Content-Disposition: attachment; filename=revlist-65f8b4684f2b-11bd6e7fd0bf.txt
 
 b4087f46936a03a6d9567c4b4f9a001743acba87 arm64: dts: imx95-verdin: fix i3c2 pinctrl group node name
 7f3b1606ec23b97dd784c2538a55024d05f26123 arm64: dts: imx95-aquila: fix i3c2 pinctrl group node name
@@ -150,6 +150,5 @@ abd0fe3b9c1c8cf274c919fa6662789666444c8b arm64: dts: imx8mp-toradex-smarc: Add T
 bbc25c8f0984742647509be214c79a2feba8663c arm64: dts: support Engicam i.Core MX8M Plus FE SoM
 c1c0bb4bdcb01e8708c50bea3656432c9c3ff0ba arm64: dts: support Engicam i.Core MX8M Plus FE C.TOUCH 2.0 board
 11bd6e7fd0bf6f0b050fdaeb34a38bba0da68b44 arm64: dts: add Engicam C.TOUCH 2.0 LVDS display overlay
-6f8a860b07d072fa0c4b291326f1a1d421b25c3f Merge branches 'imx/drivers', 'imx/dt', 'imx/dt-binding', 'imx/dt64', 'imx/fixes', 'imx/maintainers' and 'imx/soc' into for-next
 
---===============8922274258502550877==--
+--===============1228476479468820243==--
