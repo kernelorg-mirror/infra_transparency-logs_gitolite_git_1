@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 24 Nov 2026 01:59:14 -0000
-Message-Id: <179548555477.1016367.18187760995121943344@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 24 Nov 2026 02:06:42 -0000
+Message-Id: <179548600204.1023046.4296168413732800214@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: ae3b2ef6856933d53d7718863e9dfa5428329a26
-    new: d1be830de8cbce6122f32ac968ae20591a35043b
+  - ref: refs/heads/master
+    old: 52175a272dcc8fd7aeb1e7ecb8bc9741fb1b3624
+    new: c09138f1238fbe53819a78f1b7e1609861af8431
     log: |
-         d1be830de8cbce6122f32ac968ae20591a35043b sctp: preserve stream scheduler across outq teardown
+         c09138f1238fbe53819a78f1b7e1609861af8431 sasha: review 7.3.6
          
