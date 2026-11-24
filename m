@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 24 Nov 2026 14:24:20 -0000
-Message-Id: <179553026086.1615233.10686284414314195989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 24 Nov 2026 14:24:31 -0000
+Message-Id: <179553027105.1615469.18309698262998140802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: ffa5035673e4975a7f78aecc9ffa949712c01540
-    new: 91cf0bf355c3fca30e11970e67e7cf3c5256c232
+  - ref: refs/heads/for-7.5
+    old: 26590fb3cb509f9ec98f82125a12c77cf5656b39
+    new: b6f9117472ca82aac44e6fe46fb490e53d44a67c
     log: |
-         91cf0bf355c3fca30e11970e67e7cf3c5256c232 net: dsa: bcm_sf2: Use devm_clk_get_optional_enabled() calls in bcm_sf2_sw_probe()
+         b6f9117472ca82aac44e6fe46fb490e53d44a67c spi: orion: handle clock failures on runtime resume
          
