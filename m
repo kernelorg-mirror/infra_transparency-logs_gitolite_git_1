@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0652096469965376804=="
+Content-Type: multipart/mixed; boundary="===============7202314039677242081=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/spacemit/linux
-Date: Tue, 24 Nov 2026 23:57:58 -0000
-Message-Id: <179556467864.2079258.18194033205436344232@gitolite.kernel.org>
+Date: Tue, 24 Nov 2026 23:58:11 -0000
+Message-Id: <179556469115.2079556.571511646476706465@gitolite.kernel.org>
 
---===============0652096469965376804==
+--===============7202314039677242081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/spacemit/linux
 user: dlan
 changes:
-  - ref: refs/heads/dt-for-next
+  - ref: refs/heads/for-next
     old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
     new: da3f64e708a342ab2804754fa26fb4a132dc1809
     log: revlist-6628e7d4c6b2-da3f64e708a3.txt
 
---===============0652096469965376804==
+--===============7202314039677242081==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ eefefe2fbae8f84f023f77e69026894f08a5b6b9 riscv: dts: spacemit: k3-deepcomputing-
 5b7b0614ab0550c704c411e4213d9a3405399a60 riscv: dts: spacemit: k3-com260: Move SD card to the module
 da3f64e708a342ab2804754fa26fb4a132dc1809 riscv: dts: spacemit: k3-com260: Set Ethernet MAC from EEPROM
 
---===============0652096469965376804==--
+--===============7202314039677242081==--
