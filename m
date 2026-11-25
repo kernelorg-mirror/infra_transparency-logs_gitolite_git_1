@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4170128699243711065=="
+Content-Type: multipart/mixed; boundary="===============2908032878486815743=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Wed, 25 Nov 2026 16:48:31 -0000
-Message-Id: <179562531138.2872967.9265555646761950195@gitolite.kernel.org>
+Date: Wed, 25 Nov 2026 16:48:35 -0000
+Message-Id: <179562531586.2873183.17935422438768989696@gitolite.kernel.org>
 
---===============4170128699243711065==
+--===============2908032878486815743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
+  - ref: refs/heads/docs-next
     old: 2138148bf44fd84d3e0a863f0e8cb3627cdcc606
     new: d3b70c91af11cdf08aebbfdb166b333ada0276be
     log: revlist-2138148bf44f-d3b70c91af11.txt
 
---===============4170128699243711065==
+--===============2908032878486815743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -55,4 +55,4 @@ e15345bb4329afa331e1aebe85c1a61f0bbb6d78 docs: ioctl-number: update video/fbdev 
 5bb714812f00b5ac1eccb1b371c05587e7cc4d19 docs: ioctl-number: update platform entries
 d3b70c91af11cdf08aebbfdb166b333ada0276be docs: ioctl-number: update DRM entries
 
---===============4170128699243711065==--
+--===============2908032878486815743==--
