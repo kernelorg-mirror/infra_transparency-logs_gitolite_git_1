@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 25 Nov 2026 15:25:55 -0000
-Message-Id: <179562035570.2806528.5097079733976171337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 25 Nov 2026 15:28:40 -0000
+Message-Id: <179562052016.2807744.2873596812690071730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/stable-0.16.y
-    old: 11262ddfcd3c083e37b3ba176d0fe1fa48f61c55
-    new: 39b18b2b62c5bfd1cc0f123d1b1bc06e7a385393
+  - ref: refs/heads/main
+    old: 469b61e4be88bc671dabe802e11f706b1ea7aa15
+    new: 7ed616970b652ae76d99a01b468588e491021648
     log: |
-         39b18b2b62c5bfd1cc0f123d1b1bc06e7a385393 review: tui: Fix documentation of key for notes viewer
+         7ed616970b652ae76d99a01b468588e491021648 mptcp: gate diag sequence counters on CAP_NET_ADMIN
          
