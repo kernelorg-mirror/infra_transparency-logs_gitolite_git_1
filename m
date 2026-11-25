@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3528674134808089291=="
+Content-Type: multipart/mixed; boundary="===============7657273539978405587=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Wed, 25 Nov 2026 15:30:54 -0000
-Message-Id: <179562065446.2812074.16368274904513508607@gitolite.kernel.org>
+Date: Wed, 25 Nov 2026 15:31:16 -0000
+Message-Id: <179562067630.2812304.4564477135684575119@gitolite.kernel.org>
 
---===============3528674134808089291==
+--===============7657273539978405587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frank.li/linux
 user: frank.li
 changes:
-  - ref: refs/heads/imx/dt64
-    old: e9d67b72ffcbfa53c76092827ea084ebd7259436
-    new: 892f06a07df4ebc6ae61f07d90023be56690aaef
-    log: revlist-e9d67b72ffcb-892f06a07df4.txt
+  - ref: refs/tags/imx-dt64-7.5-part1
+    old: ca78cd90a726954f837c77c36608946e581c07cb
+    new: 8c84b5c5eb9deb35926fc1f026fccacd79880603
+    log: revlist-ca78cd90a726-8c84b5c5eb9d.txt
 
---===============3528674134808089291==
+--===============7657273539978405587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9d67b72ffcb-892f06a07df4.txt
+Content-Disposition: attachment; filename=revlist-ca78cd90a726-8c84b5c5eb9d.txt
 
 dca24ca81505fc1e503df9f7f1f29d2b820cb92f arm64: dts: imx95-verdin: fix i3c2 pinctrl group node name
 d2f14f0b728fe0f7af2b3e24a322a63689a23c46 arm64: dts: imx95-aquila: fix i3c2 pinctrl group node name
@@ -150,12 +150,5 @@ f7676bfdb3a001f59d7840eea95cf8a1566246de arm64: dts: imx8mp-toradex-smarc: Add T
 c742c5755ec87d3f7b6f4b241fcf1b849afe8bf6 arm64: dts: imx8mp-icore: support Engicam i.Core MX8M Plus FE SoM
 1b0d6e1faef1fbf56c29c6f448625313ed564e19 arm64: dts: imx8mp-icore: support Engicam i.Core MX8M Plus FE C.TOUCH 2.0 board
 703836f46e57f515e81fd6da4dfa1f1cb0563d76 arm64: dts: imx8mp-icore: add Engicam C.TOUCH 2.0 LVDS display overlay
-a3eedd9ffdaa99b0af733e24939cc65e5d057877 arm64: dts: imx8mp-verdin: Add Toradex Capacitive Touch Display 10.1" LVDS
-395eef43cbe5d2cc7a3d42e1b8c19f1339ba7209 arm64: dts: imx8mp-verdin: Add Toradex DSI to LVDS adapter with 10.1" display
-f558acdbc1909b172f5b6e851f6f0d62ce242f25 arm64: dts: imx8mp-verdin: Add Mezzanine with Toradex Display 10.1" LVDS
-465261093439fc9e8bc0b686a8546dd4d8d642c5 arm64: dts: imx8mp-verdin: Add Toradex Capacitive Touch Display 10.1" LVDS V2
-92892cf379216d280d57beb5feb7bc4cb1d05ed2 arm64: dts: imx8mp-verdin: Add Toradex DSI to LVDS adapter with the 10.1" V2 display
-32517664fc3d541729780b26cf3f21366780bd0b arm64: dts: imx8mp-verdin: Add Mezzanine with Toradex Display 10.1" LVDS V2
-892f06a07df4ebc6ae61f07d90023be56690aaef arm64: dts: freescale: imx93: Add MIPI DSI controller node
 
---===============3528674134808089291==--
+--===============7657273539978405587==--
