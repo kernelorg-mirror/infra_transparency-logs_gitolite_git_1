@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2475608375781592464=="
+Content-Type: multipart/mixed; boundary="===============8026409256343147087=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 25 Nov 2026 00:18:50 -0000
-Message-Id: <179556593031.2097286.1607344592620870115@gitolite.kernel.org>
+Date: Wed, 25 Nov 2026 00:18:52 -0000
+Message-Id: <179556593285.2097501.1128277943818662767@gitolite.kernel.org>
 
---===============2475608375781592464==
+--===============8026409256343147087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
+  - ref: refs/heads/200GbE
     old: 04c6b6c90e326c7c6913d525913b202c03adb363
     new: bc686737f555b9d406d2fa80fdc69c85be6eca8f
     log: revlist-04c6b6c90e32-bc686737f555.txt
 
---===============2475608375781592464==
+--===============8026409256343147087==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -122,4 +122,4 @@ b2c2b3c9fffce1da1149c339f0327f5b46c543ba net/mlx5e: Batch NAPI RCU grace periods
 c2621b518b38ed38e280e008aa33e6c2d302f8cc Merge branch 'net-mlx5e-batch-rcu-grace-periods-on-channel-open-and-close'
 bc686737f555b9d406d2fa80fdc69c85be6eca8f net: dsa: motorcomm: Resync SMI slave before register access
 
---===============2475608375781592464==--
+--===============8026409256343147087==--
