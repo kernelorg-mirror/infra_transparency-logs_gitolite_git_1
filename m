@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9147540285622320537=="
+Content-Type: multipart/mixed; boundary="===============6897781268042434937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Wed, 25 Nov 2026 11:54:14 -0000
-Message-Id: <179560765469.2624719.11433793257515177248@gitolite.kernel.org>
+Date: Wed, 25 Nov 2026 11:54:28 -0000
+Message-Id: <179560766808.2625004.16942015514007882847@gitolite.kernel.org>
 
---===============9147540285622320537==
+--===============6897781268042434937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/thermal/linux
 user: daniel.lezcano
 changes:
-  - ref: refs/heads/thermal/linux-next
+  - ref: refs/heads/thermal/bleeding-edge
     old: 32cb06b34701827db0ff34244d84fc74e40ca350
     new: f79e51c70ef3209103fbe0200a1a012eaad763d9
     log: revlist-32cb06b34701-f79e51c70ef3.txt
 
---===============9147540285622320537==
+--===============6897781268042434937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ e8a44bc190813c1430c3826038e90b31d4eeb4ff thermal/drivers/samsung: Drop redundant
 d441e9d6435c9f2e4b96057f59e083af580221f2 thermal/drivers/samsung: acpm-tmu: Simplify pm_runtime_resume_and_get() error checks
 f79e51c70ef3209103fbe0200a1a012eaad763d9 dt-bindings: thermal: Use signed integers for coefficients
 
---===============9147540285622320537==--
+--===============6897781268042434937==--
