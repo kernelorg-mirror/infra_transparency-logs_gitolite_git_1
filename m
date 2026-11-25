@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 25 Nov 2026 15:38:58 -0000
-Message-Id: <179562113833.2817567.4876029715407398866@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Wed, 25 Nov 2026 15:40:38 -0000
+Message-Id: <179562123843.2820512.10879862884149481564@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/clk/linux
+user: masneyb
 changes:
-  - ref: refs/heads/main
-    old: 504e306886ed0bd970724714640a3193c81c9e70
-    new: 8301cdd07d4385c651699a4d9a0ee094b7f1f205
-    log: |
-         8301cdd07d4385c651699a4d9a0ee094b7f1f205 qed: Fix missing bar_id comparison in qed_hw_bar_size()
-         
+  - ref: refs/heads/clk-eswin
+    old: 0000000000000000000000000000000000000000
+    new: 1b6d57e98eb01c3fb8c3b4e287a797b6f7a072ca
