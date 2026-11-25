@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 25 Nov 2026 05:07:34 -0000
-Message-Id: <179558325454.2317780.12854661180217001763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 25 Nov 2026 05:38:14 -0000
+Message-Id: <179558509443.2339149.11212406382470857622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/bugs/b07f255313f95110098b9aed2a6b6580565a72f348ba3a80de45525ba4be4538
-    old: 0000000000000000000000000000000000000000
-    new: f4a1276aef31dba0f7896f04fa4e6ccf922b0833
+  - ref: refs/heads/master
+    old: 23422d781db471a75535af87f79d661858a94508
+    new: 3f27ed0d82f60b8ab738a19d5b2886a8e43ca47c
+    log: |
+         b9ddf7b24079a3a82010bb17c555ebb7c743b928 Update review method and project instructions
+         3f27ed0d82f60b8ab738a19d5b2886a8e43ca47c foo
+         
