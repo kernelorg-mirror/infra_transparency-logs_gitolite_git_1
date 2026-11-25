@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 25 Nov 2026 07:53:59 -0000
-Message-Id: <179559323976.2442566.15018655725338967525@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Wed, 25 Nov 2026 08:15:38 -0000
+Message-Id: <179559453842.2459727.16076662141433798487@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/master
-    old: 3a1050ddb62f206f39a5554fc9354079d24b77b5
-    new: 33e4d055b10626657aa548f27e3b788751f88694
-    log: |
-         33e4d055b10626657aa548f27e3b788751f88694 mbox: treat replies that quote their parent patch verbatim as follow-ups
-         
+  - ref: refs/heads/scx-switching-to-block
+    old: 0000000000000000000000000000000000000000
+    new: fccbf583bc1b75a84d1754e40f5b12c0e8b5f804
