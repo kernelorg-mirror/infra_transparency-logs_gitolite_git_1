@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7147453281253448348=="
+Content-Type: multipart/mixed; boundary="===============5714318872351449106=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 25 Nov 2026 11:33:50 -0000
-Message-Id: <179560643066.2608920.10202639048912917021@gitolite.kernel.org>
+Date: Wed, 25 Nov 2026 11:33:53 -0000
+Message-Id: <179560643305.2609107.7487632675000666535@gitolite.kernel.org>
 
---===============7147453281253448348==
+--===============5714318872351449106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,32 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/spi-7.5
-    old: f18eef6225423a0d7aa2d967bb72158af8ee5be9
-    new: 90dd4b568849ef7c87c549954eee26257b24598a
-    log: revlist-f18eef622542-90dd4b568849.txt
+  - ref: refs/heads/asoc-7.5
+    old: ac14554898c8e3585accf534dfbbc2b647b57d92
+    new: e5c608dbb7380f21222988bad5c921d0a8d911c2
+    log: revlist-ac14554898c8-e5c608dbb738.txt
 
---===============7147453281253448348==
+--===============5714318872351449106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f18eef622542-90dd4b568849.txt
+Content-Disposition: attachment; filename=revlist-ac14554898c8-e5c608dbb738.txt
 
-c55a06351b84d5d84c7e75c8819b85c9f121af45 spi: synquacer: drop redundant IRQ zero checks
-fab01b136dfe834a7b3a53f63258d663455ab05d spi: spi-mem: Rename the DQS setter and pin field
-5520745c6e3004d66ec900b19a3a6cab475470bd spi: spi-mem: Clarify the conditions upon which DQS is usable
-2bc362dc8074a9706151e38c8ed6a5c9171b62c1 spi: dt-bindings: Document the spi-dqs-not-wired property
-4c9572bc705244376f3a4077802de9fb8734517e spi: spi-mem: Take the DQS wiring into account
-828d25f820a5d5161667dbaf41bd4f352e42027b spi: spi-mem: Take the controller DQS support into account
-dd1f49bd2c44ee7d264fad5aa89fb8e7132eaeeb spi: cadence-quadspi: Advertise DQS support
-62f6487b8630e6c4906457aa3c2f6977294d19a8 spi-mem: Enable DQS control
-a2883431180c73ff7868774801755818f003f94d spi: cadence-quadspi: Bypass STIG for Versal and Versal Gen 2 OSPI data
-bf7dd2bcdb4bc4404d67e1a961b59d5e2f5ec4e0 spi: Allow spi_toggle_csgpiod() to get called from atomic contexts
-3a54ec9ea89f8a78ff035439c1bbd484f00aab4d spi: Allow spi_delay_exec() to be used from atomic contexts
-a26e42ee67cb4149e6eebb92313b9043a340c7de spi: Export spi_set_cs() function
-4ab1c64f3f04c46ba36f805a1b35b63ab77e084d spi: Add infrastructure for atomic sync transfers
-2aa087742af985c3a585d9c419357998fb46b9f3 spi: rockchip: Fix runtime resume error handling
-324d55c0103c9dc893f6ddc18a957a9a5ba70e9d spi: rockchip: Add an atomic transfer function
-90dd4b568849ef7c87c549954eee26257b24598a spi: Implement a atomic transfer as a last resort
+f52668f474f15267e2ce472af9b060748b190382 ASoC: cs35l56: Remove SDW1 TX source controls and widgets
+fc7de44504789fb1749847a218258509a2b9aa4c ASoC: cs35l56: Rename the DP3 DAI to cs35l56-ot127
+0c690c80941fcbeef25dd549ccb6f57885266f49 ASoC: cs35l56: Eliminate trivial regmap patch
+406541bbf4eb6f3acc6193a6a74aeb459cddd7f4 ASoC: cs35l56: Add test that probe() doesn't write SDW mux registers
+f5419389a940945a4b197109ed4972a6871a791d ASoC: cs35l56: Prepare for SDCA Companion Amp
+9c57b993ba3ee57198816c3783f222873de75e82 ASoC: codecs: wcd934x: capture needs the codec sysclk
+519d0ed450c9957899e2bb82ac5f2bd2cfc892e1 ASoC: codecs: wcd934x: do not leak SLIM channel bits across ports
+0262f255ad9e92f97408ffebe6809ac6a418c022 ASoC: cirrus: ep93xx-i2s: Simplify platform_get_irq() error check
+59852db7b40256f8974d8aebbeb00cc6a4615cf8 ASoC: cirrus: ep93xx-i2s: Use devm_clk_get()
+81f761a66b3110f94ef71c50f8bc95decb6ef5d0 ASoC: cirrus: ep93xx-i2s: Clean up resource management
+8a2e765cec00e471a38d7700f1cd6ffee380b018 ASoC: dt-bindings: xlnx,spdif: describe AXI4-Stream and audio clocks
+8090aeadf3a0f24bb9e132caef472399ffc5a6ae ASoC: xlnx: spdif: namespace register macros and use a divider enum
+91c90b881e551de203365906149171a97f620a6e ASoC: xlnx: spdif: get clocks through the common clock framework
+fae2425ece68029fb09a03915020bcec85a7da9e ASoC: xlnx: spdif: switch to the common clock framework
+caa42517c9d7c63090e8422a0f2849a92025f018 ASoC: doc: Fix bracket
+e5c608dbb7380f21222988bad5c921d0a8d911c2 ASoC: codecs: aw88395: Validate 4-byte alignment and init ret in reg update
 
---===============7147453281253448348==--
+--===============5714318872351449106==--
