@@ -1,54 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7223224950298151501=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 25 Nov 2026 23:26:42 -0000
-Message-Id: <179564920215.3177365.13206046795624831520@gitolite.kernel.org>
-
---===============7223224950298151501==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 25 Nov 2026 23:29:43 -0000
+Message-Id: <179564938370.3178271.14388965368202208988@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 61c0dac952b9308884936d05cce97565a5c89af4
-    new: 6fc627bda235ac5b6f43b5f784b81d6c2450ae5a
+  - ref: refs/heads/review/wait-tail-only
+    old: 8bdd5faafe51ddbc65ac817db7ad0b32a93b49db
+    new: 03242d6f9e72d847d7d587ef751294ee3c28243f
     log: |
-         c4e781b590a13f8a80ff83039923dbb6274118bd platform/x86: acer-wmi: Add support for Acer Nitro ANV16-71
-         918846d92173e49fb4f1f75324b51927e7456c01 platform/x86/tuxedo: Handle LampUpdateFlags in LampRangeUpdateReport
-         aeff3c10c05e8dd07074d8ab5533af1c1fe2ff8a platform/x86/amd/pmc: Add T14s Gen2 AMD (20XG) to s2idle quirk list
-         4e8f3a0472af63b41d1e19a62d5f42e19efa4f1d platform/x86: dell-wmi-sysman: replace deprecated strlcpy with strscpy
-         f17a7ec5d68b34275071d3bf2e33cc5995d02e51 platform/x86: intel-hid: Add H3C MegaBook 14 to dmi_auto_add_switch
-         e5340c0623fb9cd699fbc095c5ef5976286c8134 platform: arm64: lenovo-thinkpad-t14s: Keep the interrupt off while suspended
-         d30cf7b16234df677c264b19edc8278a518b7a09 platform/x86: oxpec: Use the APEX charge registers on X2 Mini Pro
-         c53ca788e3a20b2319c3b6fbcada620b2299bb80 platform/x86: asus-wmi: Ignore unusable kbd backlight WMI device on ROG Strix G814FP
-         6fc627bda235ac5b6f43b5f784b81d6c2450ae5a platform/asus: asus-armoury: add power limits quirk for G814FP
+         3f3a9d404e31abebf2be56d7557add6dea19570e sctp: don't let a blocked reader take write-space wakeups
+         c1a6d9b774b1bbaa2e556a198a7fec03bef5d105 sched/wait: add WQ_FLAG_POLL_EXCLUSIVE for user space waiters
+         da1833a2b240453034197544497f2ef1fbd7fae7 eventpoll: don't claim real exclusivity for EPOLLEXCLUSIVE
+         704b06542e1f8a4dfaeeefd9eb0f230acb41c44c io_uring/poll: don't claim real exclusivity for EPOLLEXCLUSIVE
+         eb58eb6667ff2938111482fb8e07c89faa19eaf8 sched/wait: always queue new waiters at the tail
+         c792598cb6cd7699562abb81b15747f2d57d65bb sched/wait: remove __add_wait_queue_entry_tail()
+         6bba0ff81c99e61c60e213e8c33b6989d421e8fb sched/wait: remove the __add_wait_queue_*exclusive() helpers
+         03242d6f9e72d847d7d587ef751294ee3c28243f sched/wait: kill leftover bookmark logic in __wake_up_common()
          
-
---===============7223224950298151501==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1795649197 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1795649197-bf10371b506ccf7daf08fad114458e57fd190e49
-
-61c0dac952b9308884936d05cce97565a5c89af4 6fc627bda235ac5b6f43b5f784b81d6c2450ae5a refs/heads/review-ilpo-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCawdusQAKCRBZrE9hU+XO
-MbiSAP4xVg1xpRT+5iBq+Rdvg5hI1zilQaYfweqHSriVNvHucwEAuo25RZv1MZ+V
-fyWcRpNb2UVYu3aEo0Q4JJMpRtHPVQM=
-=SdU5
------END PGP SIGNATURE-----
-
---===============7223224950298151501==--
