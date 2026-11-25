@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0431306846204710084=="
+Content-Type: multipart/mixed; boundary="===============3528674134808089291=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Wed, 25 Nov 2026 15:30:39 -0000
-Message-Id: <179562063946.2811631.5314119687815322836@gitolite.kernel.org>
+Date: Wed, 25 Nov 2026 15:30:54 -0000
+Message-Id: <179562065446.2812074.16368274904513508607@gitolite.kernel.org>
 
---===============0431306846204710084==
+--===============3528674134808089291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frank.li/linux
 user: frank.li
 changes:
-  - ref: refs/heads/for-next
-    old: 2889306e37ede1e7ab347b8cdd2bf5407570a718
-    new: 1155a3478f73a036e321a6dc6d7b03cd8f15a745
-    log: revlist-2889306e37ed-1155a3478f73.txt
+  - ref: refs/heads/imx/dt64
+    old: e9d67b72ffcbfa53c76092827ea084ebd7259436
+    new: 892f06a07df4ebc6ae61f07d90023be56690aaef
+    log: revlist-e9d67b72ffcb-892f06a07df4.txt
 
---===============0431306846204710084==
+--===============3528674134808089291==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2889306e37ed-1155a3478f73.txt
+Content-Disposition: attachment; filename=revlist-e9d67b72ffcb-892f06a07df4.txt
 
 dca24ca81505fc1e503df9f7f1f29d2b820cb92f arm64: dts: imx95-verdin: fix i3c2 pinctrl group node name
 d2f14f0b728fe0f7af2b3e24a322a63689a23c46 arm64: dts: imx95-aquila: fix i3c2 pinctrl group node name
@@ -157,6 +157,5 @@ f558acdbc1909b172f5b6e851f6f0d62ce242f25 arm64: dts: imx8mp-verdin: Add Mezzanin
 92892cf379216d280d57beb5feb7bc4cb1d05ed2 arm64: dts: imx8mp-verdin: Add Toradex DSI to LVDS adapter with the 10.1" V2 display
 32517664fc3d541729780b26cf3f21366780bd0b arm64: dts: imx8mp-verdin: Add Mezzanine with Toradex Display 10.1" LVDS V2
 892f06a07df4ebc6ae61f07d90023be56690aaef arm64: dts: freescale: imx93: Add MIPI DSI controller node
-1155a3478f73a036e321a6dc6d7b03cd8f15a745 Merge branches 'imx/drivers', 'imx/dt', 'imx/dt-binding', 'imx/dt64', 'imx/fixes', 'imx/maintainers' and 'imx/soc' into for-next
 
---===============0431306846204710084==--
+--===============3528674134808089291==--
