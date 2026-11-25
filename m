@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 25 Nov 2026 21:14:41 -0000
-Message-Id: <179564128140.3077446.11353861153727579566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 25 Nov 2026 21:28:40 -0000
+Message-Id: <179564212014.3087697.7255479934862675755@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/tags/for-7.4-rc4-tag
-    old: 0000000000000000000000000000000000000000
-    new: 24c7488cc602ab356f4718b51592702524e06ee6
+  - ref: refs/heads/master
+    old: 35824717eb77463443c84347140de767d114d2ee
+    new: 80538e8c0f7a8135037d0be7bde5473662708468
+    log: |
+         340504277b539bfe494719435eb0ba4aa89151a4 review: do not carry sent reviews over a revision upgrade
+         80538e8c0f7a8135037d0be7bde5473662708468 tests: cover review carry-over on a revision upgrade
+         
