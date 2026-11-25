@@ -1,24 +1,62 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 25 Nov 2026 15:08:03 -0000
-Message-Id: <179561928320.2787955.9084888603168207981@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2923730903539327798=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 25 Nov 2026 15:16:58 -0000
+Message-Id: <179561981887.2794848.11883639505231232759@gitolite.kernel.org>
+
+--===============2923730903539327798==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-7.5
-    old: ac14554898c8e3585accf534dfbbc2b647b57d92
-    new: 9c57b993ba3ee57198816c3783f222873de75e82
+  - ref: refs/heads/for-linus
+    old: 655a830a248d9e465579d39911fe9aae86508973
+    new: 5a6fcabe156e91c6ef2435a74f2d16e6dd39f7c7
     log: |
-         f52668f474f15267e2ce472af9b060748b190382 ASoC: cs35l56: Remove SDW1 TX source controls and widgets
-         fc7de44504789fb1749847a218258509a2b9aa4c ASoC: cs35l56: Rename the DP3 DAI to cs35l56-ot127
-         0c690c80941fcbeef25dd549ccb6f57885266f49 ASoC: cs35l56: Eliminate trivial regmap patch
-         406541bbf4eb6f3acc6193a6a74aeb459cddd7f4 ASoC: cs35l56: Add test that probe() doesn't write SDW mux registers
-         f5419389a940945a4b197109ed4972a6871a791d ASoC: cs35l56: Prepare for SDCA Companion Amp
-         9c57b993ba3ee57198816c3783f222873de75e82 ASoC: codecs: wcd934x: capture needs the codec sysclk
+         4e3cca6e4c445a4a3fac73100386754a58e67543 ALSA: hda/realtek: Add quirk for Infinix BL51A7H
+         dda2d9cd1fcd9ea1e4a93657e7386fde37d7e2ba ALSA: oss: Fix deadlock at unregistering (again)
+         5a6fcabe156e91c6ef2435a74f2d16e6dd39f7c7 ALSA: usb-audio: Don't queue playback URBs after stop
          
+  - ref: refs/heads/for-next
+    old: 4dc6b4cd17c2040e86aceb26200cc359e8d60b6d
+    new: 486060b97284c95384744f030706f89e1980a46e
+    log: |
+         d6972801342f4098d03c260a0c992bac6d28601a ALSA: hda: Remove orphaned function prototypes from hda_local.h
+         a9db9d646a25fdde394b27eebc2d26079ed04008 ALSA: hda: Remove orphaned snd_hda_get_codec_name() prototype
+         c5f04f2681769d34c4146b4051ec6eaa35ac8cef ALSA: gus: Remove orphaned snd_gf1_mem_free_owner() prototype
+         4d6fbb250a96ecdfc0135e32c4d737531ae86fcc ALSA: sb8: Remove orphaned PCM open/close function prototypes
+         fcb973efe971850692b5b3c997967499a10c5538 ALSA: emu10k1: Remove orphaned snd_emu10k1_memhdr_init() prototype
+         dddfd76900d20927f509e74fc94c8d82fc235501 ALSA: usb-audio: Limit the depth of the clock topology walk
+         486060b97284c95384744f030706f89e1980a46e ALSA: usb-audio: Limit the unit nesting depth in the mixer parser
+         
+  - ref: refs/heads/master
+    old: b45033685db699c88189847d1022a25f34b155c7
+    new: ed13eba49ad5b2b108d249f51fbfc0b1ddea4852
+    log: revlist-b45033685db6-ed13eba49ad5.txt
+
+--===============2923730903539327798==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b45033685db6-ed13eba49ad5.txt
+
+d6972801342f4098d03c260a0c992bac6d28601a ALSA: hda: Remove orphaned function prototypes from hda_local.h
+a9db9d646a25fdde394b27eebc2d26079ed04008 ALSA: hda: Remove orphaned snd_hda_get_codec_name() prototype
+c5f04f2681769d34c4146b4051ec6eaa35ac8cef ALSA: gus: Remove orphaned snd_gf1_mem_free_owner() prototype
+4d6fbb250a96ecdfc0135e32c4d737531ae86fcc ALSA: sb8: Remove orphaned PCM open/close function prototypes
+fcb973efe971850692b5b3c997967499a10c5538 ALSA: emu10k1: Remove orphaned snd_emu10k1_memhdr_init() prototype
+4e3cca6e4c445a4a3fac73100386754a58e67543 ALSA: hda/realtek: Add quirk for Infinix BL51A7H
+dddfd76900d20927f509e74fc94c8d82fc235501 ALSA: usb-audio: Limit the depth of the clock topology walk
+486060b97284c95384744f030706f89e1980a46e ALSA: usb-audio: Limit the unit nesting depth in the mixer parser
+926ab6582f5368968e5382fd6ec1fca67ffd4c3a Merge branch 'for-next'
+dda2d9cd1fcd9ea1e4a93657e7386fde37d7e2ba ALSA: oss: Fix deadlock at unregistering (again)
+5a6fcabe156e91c6ef2435a74f2d16e6dd39f7c7 ALSA: usb-audio: Don't queue playback URBs after stop
+ed13eba49ad5b2b108d249f51fbfc0b1ddea4852 Merge branch 'for-linus'
+
+--===============2923730903539327798==--
