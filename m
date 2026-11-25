@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Wed, 25 Nov 2026 17:23:48 -0000
-Message-Id: <179562742862.2900603.10326505467423612331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Wed, 25 Nov 2026 17:25:50 -0000
+Message-Id: <179562755017.2903898.257181484400018304@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frank.li/linux
-user: frank.li
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
   - ref: refs/heads/for-next
-    old: 1155a3478f73a036e321a6dc6d7b03cd8f15a745
-    new: 3f49788bcebe8662fce7e7079c4eecc19ca4469d
+    old: d09b6d9d1fcce0770c1824c8b2b8ab153f2672d2
+    new: 318ed0389ad3bdd7038442f8abb1735c7b5cfce3
     log: |
-         8cb3211effba221890c15adc80d1d49da5c0947f ARM: imx: fix typo "interupt" in comment
-         3f49788bcebe8662fce7e7079c4eecc19ca4469d Merge branches 'imx/drivers', 'imx/dt', 'imx/dt-binding', 'imx/dt64', 'imx/fixes', 'imx/maintainers' and 'imx/soc' into for-next
+         aaa55c8ff9147b1ce1ba50267aa9f080d469a963 io_uring/net: don't charge the folio offset to truesize for managed frags
+         318ed0389ad3bdd7038442f8abb1735c7b5cfce3 Merge branch 'io_uring-7.4' into for-next
+         
+  - ref: refs/heads/io_uring-7.4
+    old: 0659e44ce739ecd856164c75a5325b7959a2921d
+    new: aaa55c8ff9147b1ce1ba50267aa9f080d469a963
+    log: |
+         aaa55c8ff9147b1ce1ba50267aa9f080d469a963 io_uring/net: don't charge the folio offset to truesize for managed frags
          
