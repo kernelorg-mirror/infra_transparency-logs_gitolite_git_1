@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2237343983562932374=="
+Content-Type: multipart/mixed; boundary="===============1049090479754195479=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 25 Nov 2026 17:26:46 -0000
-Message-Id: <179562760630.2904400.1434207406964578179@gitolite.kernel.org>
+Date: Wed, 25 Nov 2026 17:26:51 -0000
+Message-Id: <179562761129.2904590.4500024008110502772@gitolite.kernel.org>
 
---===============2237343983562932374==
+--===============1049090479754195479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/40GbE
     old: 32756b82fde8f6cc98b174fdcd02c2a61033e263
     new: 7ed616970b652ae76d99a01b468588e491021648
     log: revlist-32756b82fde8-7ed616970b65.txt
 
---===============2237343983562932374==
+--===============1049090479754195479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ ed87e8fd517d9863918d7cd2eaafb68d986dca1e Merge branch 'ipv6-honor-suppress_prefi
 469b61e4be88bc671dabe802e11f706b1ea7aa15 net: dsa: felix: fix NULL pointer dereference in felix_port_enable()
 7ed616970b652ae76d99a01b468588e491021648 mptcp: gate diag sequence counters on CAP_NET_ADMIN
 
---===============2237343983562932374==--
+--===============1049090479754195479==--
