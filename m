@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Wed, 25 Nov 2026 15:42:03 -0000
-Message-Id: <179562132398.2821134.16249992823399478808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 25 Nov 2026 15:47:17 -0000
+Message-Id: <179562163743.2824978.6081387521952232555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: masneyb
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/clk-next
-    old: 7f7812cceb9c2e95a91ce4e85a09ed90a576a0f2
-    new: 1c9ec95bccb190bbd8b19c841b88f67dd56fd16c
+  - ref: refs/heads/asoc-7.5
+    old: e5c608dbb7380f21222988bad5c921d0a8d911c2
+    new: 83e20d3e0d1197cbc9b18eb50efab0cf561ee95a
     log: |
-         1ad511a38987c827a465da8d281a843ab37774cf clk: eswin: Fix the EIC7700 PLL post-divider
-         1b6d57e98eb01c3fb8c3b4e287a797b6f7a072ca clk: eswin: Use REFDIV and the post-dividers in the EIC7700 PLL rate
-         1c9ec95bccb190bbd8b19c841b88f67dd56fd16c Merge branch 'clk-eswin' into clk-next
+         83e20d3e0d1197cbc9b18eb50efab0cf561ee95a ASoC: sti: Return irqreturn_t instead of -EPERM in uni_player_irq_handler()
          
