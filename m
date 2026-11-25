@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tytso/ext4
-Date: Wed, 25 Nov 2026 19:28:52 -0000
-Message-Id: <179563493250.2998721.17696822353974333813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Wed, 25 Nov 2026 19:29:10 -0000
+Message-Id: <179563495067.2999006.12940852252085745910@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tytso/ext4
-user: tytso
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/fixed
-    old: 008aad6508e30cd1bb6d2c2cf65221ba1f16a065
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-usb-linus
+    old: 4fe59383287a1b0a98bad5867c13ceb99593d525
+    new: 7599c0ca3e9e2b3676e83b17ab33f73dfae12ea6
+    log: |
+         7599c0ca3e9e2b3676e83b17ab33f73dfae12ea6 xhci: fix NULL pointer dereference of rhub_port in xhci_urb_enqueue()
+         
