@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Wed, 25 Nov 2026 03:25:32 -0000
-Message-Id: <179557713201.2246432.12639260505345162040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 25 Nov 2026 03:28:38 -0000
+Message-Id: <179557731800.2247722.12625660595980239928@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/crypto-pending
-    old: 80e1a069e72d2703ec78ba1a92e430efa7539fca
-    new: 1f9ea2ebeefca063d2b3c004000ee78f63b10913
+  - ref: refs/heads/master
+    old: 021972347db837b27d2c6b1a5f1a4736e245e7ba
+    new: 23422d781db471a75535af87f79d661858a94508
     log: |
-         c805f65804712bf17ba7c3f676ac0ca536b25369 crypto: adiantum - Eliminate slab memory allocation in setkey
-         1f9ea2ebeefca063d2b3c004000ee78f63b10913 crypto: adiantum - Use the AES library
+         23422d781db471a75535af87f79d661858a94508 foo
          
