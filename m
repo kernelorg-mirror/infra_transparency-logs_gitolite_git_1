@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 25 Nov 2026 15:53:59 -0000
-Message-Id: <179562203958.2829697.2882609068135685250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Wed, 25 Nov 2026 16:03:20 -0000
+Message-Id: <179562260012.2836921.560652896284817239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/main
-    old: 8301cdd07d4385c651699a4d9a0ee094b7f1f205
-    new: e20f88c4f08bc9dba09c48ddc9806015f79fb20b
+  - ref: refs/heads/for-7.4-fixes
+    old: edf1066ba69c89c42c3007e4230c7b9cb13405a8
+    new: fa3089a04a4d529b61d7749bd691d99f310e87f4
     log: |
-         e20f88c4f08bc9dba09c48ddc9806015f79fb20b ncsi: Initialize vid in set_one_vid() to handle concurrent VLAN removal
+         fa3089a04a4d529b61d7749bd691d99f310e87f4 workqueue: fix cancel_work_sync() on ordered workqueues
+         
+  - ref: refs/heads/for-next
+    old: 74530fae27d5087c073b21211f48b96478ff6f0c
+    new: ecbb23acecc64d70e521b544973d040c6d2e156c
+    log: |
+         fa3089a04a4d529b61d7749bd691d99f310e87f4 workqueue: fix cancel_work_sync() on ordered workqueues
+         ecbb23acecc64d70e521b544973d040c6d2e156c Merge branch 'for-7.4-fixes' into for-next
          
