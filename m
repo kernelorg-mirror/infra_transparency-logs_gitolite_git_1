@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Wed, 25 Nov 2026 09:40:08 -0000
-Message-Id: <179559960858.2522907.16767378060980407965@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sysctl/sysctl
+Date: Wed, 25 Nov 2026 09:45:51 -0000
+Message-Id: <179559995181.2527099.12843274858171276986@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/sysctl/sysctl
+user: joel.granados
 changes:
-  - ref: refs/tags/sched_ext-for-7.4-rc4-fixes
-    old: 0000000000000000000000000000000000000000
-    new: cbaaa6de063b2cba5d236091a2e47d71cef912fa
+  - ref: refs/heads/sysctl-next
+    old: f0c3663393a055182a0a6e4f58a5802cd563c4a6
+    new: cb916e66867c53b38242eb7cbbc411a2a820b7cd
+    log: |
+         cb916e66867c53b38242eb7cbbc411a2a820b7cd sysctl: Test rounding behaviour in jiffy-ms transformation
+         
