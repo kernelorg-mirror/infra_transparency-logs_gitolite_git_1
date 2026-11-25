@@ -1,53 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1049090479754195479=="
+Content-Type: multipart/mixed; boundary="===============5858016027224801125=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 25 Nov 2026 17:26:51 -0000
-Message-Id: <179562761129.2904590.4500024008110502772@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 25 Nov 2026 17:35:28 -0000
+Message-Id: <179562812857.2910944.9278915708395799988@gitolite.kernel.org>
 
---===============1049090479754195479==
+--===============5858016027224801125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/40GbE
-    old: 32756b82fde8f6cc98b174fdcd02c2a61033e263
-    new: 7ed616970b652ae76d99a01b468588e491021648
-    log: revlist-32756b82fde8-7ed616970b65.txt
+  - ref: refs/heads/tpm2-asymmetric
+    old: 38c995dd2a76174cc8ecfb756006839b5d61e0ea
+    new: 0f96580c471e7147e6b447e9909094c691c672b4
+    log: revlist-38c995dd2a76-0f96580c471e.txt
 
---===============1049090479754195479==
+--===============5858016027224801125==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32756b82fde8-7ed616970b65.txt
+Content-Disposition: attachment; filename=revlist-38c995dd2a76-0f96580c471e.txt
 
-5d30a02245c375a9c5e557b1b7476710c4a94a2d net: dsa: b53: initialize the jumbo frame size register offset
-bd7fc60896b3de8ce677142142c96277377e5167 net: dsa: b53: fix the SRAB grant timeout check
-c6f0992ff6c2c138ffb1b64f406a66d42615770b net: dsa: b53: clear stale state when creating an ARL entry
-fd2752aac6c2193507af2e96cfc1406b28cade6f net: dsa: b53: use the correct override register 2 Gbps bit
-000d468855945953c491810f97fb0bd4166b0b07 net: dsa: b53: fix mirror port encoding on BCM5325 and BCM5365
-320bc9b8e2bc8a5fc75537082529b534ace633e3 net: dsa: b53: fix mirror destination and source state tracking
-ffa57aa0ff5d51c6e6b0e8e91d279f5f9a932972 Merge branch 'net-dsa-b53-preliminary-fixes'
-846a6d0982be30aaba5268aac14a0c557d70cc23 net: bcmasp: avoid refcount drain on probe
-ef7bf0628915c18d9391fb0c1fa78b581ab2c4be xsk: set network header on skb at generic transmit
-aa5a537ec43c13e4d2850468b0d88f97cce45dd3 net: bcmgenet: keep DIM from getting stuck after close or suspend
-a15079369636f4324d2985cede7ce7fbefddf4b3 net: bcmgenet: accumulate the DIM packet and byte counters
-e99faa3a16209ea5d0b83cc58b64785efd2d9045 net: bcmgenet: reset the Rx discard count with the ring
-8e428e263fa4fd3a752db8d9e1e584307f446aae net: systemport: restart DIM from the default profile on start
-3e7e20beef4ec04f7601e92e78608333f2ab3904 net: systemport: accumulate the DIM packet and byte counters
-5e5197a24c517663cb75ad4162f88b12eb470f99 Merge branch 'net-bcmgenet-systemport-dim-and-rx-discard-fixes'
-3ab5aae0eb60079d17378af5aab0db84ba946e0e ipv4: fix conntrack defrag forwarding after ip_frag_reinit()
-cc7fe6e741730fef549e484379281736d32746f0 tun: bound the NAPI receive queue
-e6474ead54b8acecb8b0462dde2d77f46d2b7dc1 ptp: vmclock: keep the device state until the last file is closed
-94df5595e31bf4502fe5195748ca55164ac763f0 ipv6: Honor suppress_prefixlength in fib6_lookup()
-a0bf14e17fb2438f1f460747966e767b348f0bba selftests: netfilter: cover IPv6 FIB prefix suppression
-ed87e8fd517d9863918d7cd2eaafb68d986dca1e Merge branch 'ipv6-honor-suppress_prefixlength-in-fib6_lookup'
-469b61e4be88bc671dabe802e11f706b1ea7aa15 net: dsa: felix: fix NULL pointer dereference in felix_port_enable()
-7ed616970b652ae76d99a01b468588e491021648 mptcp: gate diag sequence counters on CAP_NET_ADMIN
+6b0222ef26d0e16beab4a743b70972a02f9ec817 tpm: Disable TPM on TPM_RC_INITIALIZE
+fff428e66f486110f56315646a22e28752ab8ef8 tpm: Do not allow io_uring for /dev/tpm0 and /dev/tpmrm0
+003906ddd61cac2b89aefaf001fc19a6cb5d541a selftests: tpm2: test that io_uring reads are rejected
+776bb489b536a2caa39fa5c1ff9f3cb2ee127dc1 KEYS: trusted: Allow ASN.1 TPM2 sealed data shorter than MIN_KEY_SIZE
+7f8bda06194cfc2202805db9f93346bf386086cd lib/asn1_encoder: Add asn1_encode_integer_bytes()
+0e809ea640b7fe31a78521f551f27b2a1fddc104 tpm: Export tpm2_create_primary()
+8970bfebd26b4b79d10c96adc1fdb8d793dbcbfb tpm: Add persistent hierarchies to tpm2_create_primary()
+ede438c910277f6734b8c82b18afe63dfa51734e KEYS: trusted: Extend TPMKey support
+82447f2af15bc2b4b7057db21ad2a25ed90245c4 KEYS: Factor out KEYCTL_PKEY
+34a2548bc956f9f1f3d0a45192f2119bd3c859a4 KEYS: trusted: Reject zero-length keys in symmetric consumers
+8f7a8223f74b33d914caa65893c4860688c9d46d KEYS: trusted: Factor out TPM2 blob loading
+0f96580c471e7147e6b447e9909094c691c672b4 KEYS: trusted: Add asymmetric key support for TPM2
 
---===============1049090479754195479==--
+--===============5858016027224801125==--
