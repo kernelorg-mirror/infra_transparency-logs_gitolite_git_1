@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 25 Nov 2026 13:00:47 -0000
-Message-Id: <179561164719.2680769.7906612625898751727@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Wed, 25 Nov 2026 13:01:42 -0000
+Message-Id: <179561170267.2681735.10503339514269217817@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next
-    old: 92edf4a6614f4c58cac3f68e98c5ead5c6638a5a
-    new: c1473eef3d8ac8c68dc833f3933095dae4bcca26
+  - ref: refs/heads/for-next/arm_fw/updates
+    old: d8ec9bd41a57f3aea8f48865fb61fa94f60ec3fd
+    new: f919158e831d9449b3194fd876c90983e6dbf7ea
     log: |
-         d23ba232a8fefe909aeb9366e3905a95a429ebfc regulator: qcom-labibb: stop the recovery workers on teardown
-         a2709a89cd1fe0a433b806511ff06aabfaf97cee Merge regulator-linus into regulator-next
-         c1473eef3d8ac8c68dc833f3933095dae4bcca26 Merge regulator/for-7.5 into regulator-next
+         a71528943a5f8ada24f88ceb4542a52f2e428619 firmware: arm: ffa: Share FF-A register field definitions
+         cdb6ab1c9ce964f26f04af748243848252a902b7 ACPI: FFH: Support FF-A direct request 2 calls
+         8e6f6ac801a017ea7faef0586f39f36c791029de firmware: arm: scmi: Invoke proper protocol cleanup on failure
+         8f73e0d4c53f22053d0c694ae54c311c8c632082 firmware: arm: scmi: Refactor protocol allocation
+         f919158e831d9449b3194fd876c90983e6dbf7ea firmware: arm: scmi: Skip ACPI protocols absent from _DSD
          
