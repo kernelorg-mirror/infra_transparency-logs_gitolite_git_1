@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6696130452802766201=="
+Content-Type: multipart/mixed; boundary="===============1701955487891212264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 25 Nov 2026 23:00:12 -0000
-Message-Id: <179564761233.3158062.12646794511487666979@gitolite.kernel.org>
+Date: Wed, 25 Nov 2026 23:00:14 -0000
+Message-Id: <179564761483.3158305.12563237307504355283@gitolite.kernel.org>
 
---===============6696130452802766201==
+--===============1701955487891212264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
+  - ref: refs/heads/200GbE
     old: bc686737f555b9d406d2fa80fdc69c85be6eca8f
     new: e20f88c4f08bc9dba09c48ddc9806015f79fb20b
     log: revlist-bc686737f555-e20f88c4f08b.txt
 
---===============6696130452802766201==
+--===============1701955487891212264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -56,4 +56,4 @@ f8e13c6fd619919db891b8a35074575ef05a8e68 Merge branch 'net-mlx5-declare-no-dma-s
 8301cdd07d4385c651699a4d9a0ee094b7f1f205 qed: Fix missing bar_id comparison in qed_hw_bar_size()
 e20f88c4f08bc9dba09c48ddc9806015f79fb20b ncsi: Initialize vid in set_one_vid() to handle concurrent VLAN removal
 
---===============6696130452802766201==--
+--===============1701955487891212264==--
