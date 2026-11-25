@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Wed, 25 Nov 2026 15:23:04 -0000
-Message-Id: <179562018489.2801234.424092608611850315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Wed, 25 Nov 2026 15:23:09 -0000
+Message-Id: <179562018956.2801449.4855281548762902107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
-user: broonie
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/for-next
-    old: 6925c21b1ebac64e843a955b547d1e77e0a7532e
-    new: 3b430da58eabc21b3b668a915fd26e4a6a22719d
+  - ref: refs/heads/next
+    old: adc13316e6d9683ff6a929db5183aeabda1659fd
+    new: e9a9fed57b72b811fbaf62673cf56727a3358899
     log: |
-         ebdd2afe9fb1e293d3625b6fc52d3fc7fe805985 regmap: drop regmap_bus::free_on_exit
-         bc6647f5e8cf1f12006bc4c68c1eb88a45a2da24 regmap: use cleanup API in __regmap_init()
-         68bdabf0eed1f79ab61b623f2c135c6ee361ac99 regmap: kunit: add test for regmap_bus::init_limits
-         b65165787330d13228a0d89e211971f65607ca92 regmap: 2nd clean up and improve __regmap_init()
-         842581ddfd7a4d1585106453c9245c84f6602a47 Merge regmap-linus into regmap-next
-         3b430da58eabc21b3b668a915fd26e4a6a22719d Merge regmap/for-7.5 into regmap-next
+         aae9b0f0fc86fb464630109ed096655b221f803d pmdomain: Make genpd_get_from_provider() always return on first match
+         38bf1aeea3bbb325dcb4719895d88f1826f01f46 pmdomain: ti: omap_prm: Use pm_clk_no_clocks()
+         050f9c1b2717f97450f86f9ce093eaee937e1436 pmdomain: ti: omap_prm: Remove dummy generic_pm_domain_data handling
+         070c5d79917e5bfb8aebb6f9d6982d1195673311 pmdomain: core: Remove unused generic_pm_domain_data.data
+         faa6cd23f6269990b09ec63849239aae5cdb238b pmdomain: rockchip: Roll back power-on when leaving idle fails
+         f65823a9ba07d76594eff293cee3240d34db898f pmdomain: Merge branch fixes into next
+         0d8ae7e7f08e7b44a5c284db2bca47176053c363 dt-bindings: power: qcom,rpmpd: document the Halliday RPMh Power Domains
+         23e7ddf76fbb00584bfc96cdac309bb79a55ad73 dt-bindings: power: spacemit: Add power domain controller IDs
+         6571c1f9d53bf5ea78500d00fbbe3eed43371aff pmdomain: Merge branch dt into next
+         e9a9fed57b72b811fbaf62673cf56727a3358899 pmdomain: spacemit: Add power domain driver
          
