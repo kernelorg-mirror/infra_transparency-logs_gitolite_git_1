@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 25 Nov 2026 15:25:06 -0000
-Message-Id: <179562030620.2805322.15508359238155359195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Wed, 25 Nov 2026 15:25:10 -0000
+Message-Id: <179562031048.2805523.4628700847564496392@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: aa21464aa2f6ae3f3ebaf058c196137628988f9e
-    new: f03d7da04c372d24c4eed7b1aa06b2af97710746
+    old: 3b430da58eabc21b3b668a915fd26e4a6a22719d
+    new: 222b61e9c570dac6c7a786d039e4c226624b426d
     log: |
-         ab564693c0b2cb970cdc7653185d1f50473d486e Merge asoc-linus into asoc-next
-         f03d7da04c372d24c4eed7b1aa06b2af97710746 Merge asoc/for-7.5 into asoc-next
+         5a2d89127df0cc05b8b340ad5ec301225dba0aa1 Merge regmap-linus into regmap-next
+         222b61e9c570dac6c7a786d039e4c226624b426d Merge regmap/for-7.5 into regmap-next
          
