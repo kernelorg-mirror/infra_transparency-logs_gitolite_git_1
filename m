@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8902362137726961963=="
+Content-Type: multipart/mixed; boundary="===============0141149655145273568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 25 Nov 2026 07:32:23 -0000
-Message-Id: <179559194330.2426293.3065601671221762049@gitolite.kernel.org>
+Date: Wed, 25 Nov 2026 07:32:28 -0000
+Message-Id: <179559194842.2426509.13985886237040206389@gitolite.kernel.org>
 
---===============8902362137726961963==
+--===============0141149655145273568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 5bd93e4b0b357e9d0a13199887aacbf04d1ce216
-    new: a036649714c3446abfdc36d0ae483046432b16c5
-    log: revlist-5bd93e4b0b35-a036649714c3.txt
+  - ref: refs/heads/mm-unstable
+    old: 913390e679e23e3a45643028ee7f992889094051
+    new: c8117bff684306f5c1f959d055cc2b24dd67b1eb
+    log: revlist-913390e679e2-c8117bff6843.txt
 
---===============8902362137726961963==
+--===============0141149655145273568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5bd93e4b0b35-a036649714c3.txt
+Content-Disposition: attachment; filename=revlist-913390e679e2-c8117bff6843.txt
 
 13f0f33284b1326daf250022d1dba0f030ad915a mm/damon/stat: avoid 32-bit overflow in idle time milliseconds
 1e883b7741e994763bd3f9697429e39289311abb mm/damon/core: fix damos_walk() hang with zero watermarks interval
@@ -408,90 +408,5 @@ e5bfd4721e280fef4051136451c2ef7770c75878 alloc_tag: use __ prefixed ELF section 
 1c645385b8fb8a8ae876da408dc1bb5c41986bdb mm: shrinker: stop counting when the seq buffer overflows
 4525ccca6beb68c75f1c4d6a0e41673a0379437a zsmalloc: free a zspage's pages in one batch
 c8117bff684306f5c1f959d055cc2b24dd67b1eb zram: keep the hot statistics per CPU
-1fad53fe85559483835524a0358c48d34ed4da18 memcg: warn when memory cgroup IDs run out
-10ea6a636227ed33acf9b1e340ccf48bafc79c87 mm/hugetlb: fix NR_HUGETLB accounting for kept surplus folios
-c581213919c5684db747135b4b5c96a0a56d92be mm/userfaultfd: reject DAX mappings
-fff87cfea86118c086935dc137b75d2c900a979c kmsan: encapsulate per-page metadata access
-72d7b574d99e56592197a1f32cbcf772ccab7654 mm/page_ext: fix client data alignment
-b4e699a2b1d8a8374a2dc0928cdf9ab82c14597f mm/page_ext: always use vmalloc for section page extensions
-27b1a116bbfc7c6ee630ea946cbc25fe044f62e9 mm/page_ext: use common allocation and initialization entry points
-3c24780668bbc3d62b991aa1645ce1e0dbaef0b7 mm/page_ext: allocate page extensions early for SPARSEMEM
-1a054c1af08c389845d489785b923d7923192d00 mm/page_ext: inline unchecked page extension lookup
-d58b2bee9d840eab7f153ef9e9d06f6c8dc56359 kmsan: fix metadata loss during HugeTLB struct page reinitialization
-4f76d2f4cc264f9628dc3ca6767c19fcdf9ca7a7 mm/damon/paddr: skip non-LRU folios as a whole in pageout
-ff4d5208422e3b15340dc83e831fdbb0f851312d mm/damon/core: skip apply_probes() when no probes are installed
-5f74d937313c89d767eea2add3f22c7fe379b559 selftests/damon/damos_quota: skip the last sample when counting exceeds
-2cdee86736669e7e813c37838ee1fecff5b9d321 mm/damon/tests/core-kunit: add test for damon_call()
-e120d77f91898ca093e864e6f6d254fb03329d82 mm/damon/api: introduce struct damon_report
-43a24359b320ce47881aec29776832a676d8e0cc mm/damon/core: implement data attribute report queue
-741987be520b553be380c5baf82ad738676284c5 mm/damon/core: introduce damon_submit_report()
-06e4440b7f95fbf0e3ff0128805b0ad78c5d1683 mm/damon/sysfs: add admin/reports/ directory
-7b6b879223403104b22cd1d26dae701ea2384cd5 mm/damon/sysfs: add reports/producers/ directory
-ef8512d47b1f11cbc7a0bed2280b72c967ff7e93 mm/damon/sysfs: add producers/nr_producers file
-33979d3963cf161d8681010c4ef14a772b69aa55 mm/damon/sysfs: implement report producer directory
-22da2c9b2628a5746fae65830be31ad0f2b21137 mm/damon/sysfs: implement report producer type and state files
-3e68c35b902f0c8080480ff1d43a2736cbbaff64 Docs/mm/damon/design: update for report system
-bd97f50bd1d3189fcebe1f137e70e5317605e7bd Docs/admin-guide/mm/damon/usage: update for report producer sysfs
-ac440f9720ad9ca2418df7e012b3690e9e84ad80 Docs/ABI/damon: update for report producer sysfs files
-a84baad025bad3ad813fb4226fe917d3885a6048 mm/damon/core: introduce DAMON_FILTER_TYPE_REPORT_MADE
-2a7f6498d9678c91c62ced55e30420f7b27e2ebd mm/damon/core: introduce damon_report_exist()
-dcd3d457a4143e52a3a4eaac5231f7739f44a073 mm/damon/paddr: support REPORT_MADE type probe filter
-3627586b44ef5d699a67052e9bbaa76fdb547b5e mm/damon/sysfs: add filter_report_type file under probe filter directory
-e543f43db47b5e7c3953775551d2310460e461b8 mm/damon/sysfs: support REPORT_MADE type probe filter setup
-2e200cd148911018ab1dec9880dc5e0e22bdf94f Docs/mm/damon/design: update for report_made probe filter type
-f980722094c38a9eab5d1f3ae506d82d65476b6a Docs/admin-guide/mm/damon/usage: update for REPORT_MADE probe filter
-43ca9afcc9ea6a5801aaffcf511861f30fa59538 Docs/ABI/damon: update for REPORT_MADE probe filter
-b5e2431b63692357d9c2babe6c6683ebca4c9b8e mm/damon/api: introduce user_report report type
-ddf4458bc835ed756a8410a6e29b10976073744a mm/damon/sysfs: add user_report support for report type input
-8f04e3e17082b98496c8979367261345631a76aa mm/damon/sysfs: implement report producer addr_{start,end} files
-3b2ae1a669d2880d8e91857cee8e812b31adbdd7 mm/damon/sysfs: implement submit command for report producer
-f62795a3a3ae47b2d540c1399a8db426b2e4e8d4 selftests/damon/sysfs.sh: add basic tests for admin/reports/
-866923f74231694322f851b981f8e9c007046665 Docs/mm/damon/design: update for user report support
-ec93a0bf7d66872cd14486082b8c63808f371b8a Docs/admin-guide/mm/damon/usage: update for user_report report support
-71bd9fc2300a2e1c68f2e3d20582f2575d869b21 Docs/ABI/damon: update for user_report report support
-87f9c757fc4ef231ddfbfffac5a52f9e858a9193 mm/filemap: convert fault and readahead logic to use vma_flags_t
-db89a044769ace4231120a9c8d069e41223f893d mm/madvise: convert madvise_vma_behavior() to use vma_flags_t
-7cba6aaad6fe5cbe8fc789f18ce14f4dd24cc40f mm: convert miscellaneous VMA flag tests to use vma_flags_t
-4620ea65f9eaea4cba71dc02b605ab8bde6b45e3 fs/proc/task_mmu: convert VMA flag tests to use vma_flags_t
-bf2c8459634114756a4ecb9ece0c7705a7efd299 fs/coredump: convert vma_dump_size() to use vma_flags_t
-371982eb8a1f6474f2dcca4222a4e4d3e31232b8 uprobes: convert VMA flag tests to use vma_flags_t
-36427714ba4a14d3cf5b91a96e87ac69c0bb96ff perf: convert VMA flag tests to use vma_flags_t
-6e925009db5e555e89ec69d6dce37a6d59e7e323 selinux: convert VMA flag tests to use vma_flags_t
-abd6c669100f8ee092646694daf02e0fd488082b apparmor: convert VMA flag tests to use vma_flags_t
-180f34224248a1bb8629a8a2fc6ee70c254a7ee4 ima: convert VMA flag tests to use vma_flags_t
-960c9550d34a795e09cec5c920a6e8005263bfe1 ipe: convert VMA flag tests to use vma_flags_t
-c981627d558bab7830733a491bb608d5e778e2b1 xen/privcmd: convert mmap hook to mmap_prepare
-d5efd32127d425164ed99dfd378975d44e53f1cb KVM: PPC: Book3S: convert spapr TCE mmap hook to mmap_prepare
-d85c5a00b281e74ed6c5e6a4add9726ef96e4f31 mshv_vtl: convert mmap hooks to mmap_prepare
-2d566ab0b7eac8fa53fe7af14b9c4a956110e334 x86/sgx: convert vepc mmap hook to mmap_prepare
-5d9f84f954d99ebf314a8a8f65eec5a9f7ae2238 udf: convert mmap hook to mmap_prepare
-1a2032a048ad774a5ff311322d5c73b67749ccfe selinuxfs: convert mmap hooks to mmap_prepare
-c30c353728694fd6a35c6de9e1c3b719283dfe2a xen: convert xenstore interface mmap hooks to mmap_prepare
-782a344cd384e1b24759fec59de622be9c2f65c0 soc: aspeed: convert LPC and P2A control mmap hooks to mmap_prepare
-443ba363d538e5032d7a88be53e86f111d4f5307 soc: qcom: rmtfs_mem: convert mmap hook to mmap_prepare
-1210bfd95f4067cbf0d02ead340acfcb696e7f3d tee: convert shm mmap hook to mmap_prepare
-9de4f13e8b6357adebc1ffcdc4f6f794f3270f75 misc: bcm-vk: convert mmap hook to mmap_prepare
-9f147c7d2679f77f11e57f09681b8bdc78f612f0 ptp: vmclock: convert mmap hook to mmap_prepare
-85f5eddf13d5cf50b2ebc02d44e61aeda81a7388 vhost-vdpa: convert mmap hook to mmap_prepare
-29eb880cc9a8d0f06432b5b168c689ee648a5f8a userfaultfd: use anonymous memory for UFFDIO_ZEROPAGE on private file mappings
-aa0775f7181fac8f448cbc923bd6c48f9b0d5b60 userfaultfd: refuse UFFDIO_MOVE into a non-present huge destination PMD
-d6c137de0e126c9d73708b41f1a42af7bc66a9a9 fs/proc/task_mmu: downgrade writable migration entries in PAGEMAP_SCAN write-protect
-6f3d4111b3ca2e357b6d14400905b642d658e743 fs/proc/task_mmu: write-protect device-private THPs in PAGEMAP_SCAN
-a580a58b980906357a6fa01089fb4f996ca3db16 mm/huge_memory: build the moved huge zero PMD from the destination VMA
-68ac37de2eb0b2fa3486ef0b0c60332ce5a389ea mm/mremap: resolve uffd state when the context is dropped, not during the move
-cd5ff4ce9070359b6416365506f51154df4aa96f mm/userfaultfd: check the hugetlb alignment of every VMA in the pre-scan
-4180d03d7b870d16a8c6617a868c135af6a090c3 mm/vma: error out on invalid bounds in unmapped_area_topdown()
-92477063c2fe757c2b4efb38c59edb7ec6f8c8fd mm/vma: lock VMAs before taking mm_all_locks_mutex
-e7880f7fbe5e081fb7d8e03b368f9e137e6b9b92 mm/vma: fix uncharge after failed stack relocation
-3dd9a260908feacea8c183a01cf02aa0cd2f8804 mm/mremap: apply the mmap() offset limits on expansion
-32dd5972dd8ef30ba963a67326376759cda50d87 mm/mremap: respect guard gaps on in-place expansion
-e02f59213d3139e699676351bfbecc26775ae4c8 mm/vma: make brk mappings non-executable under MDWE
-0074e737c5919ff5a7001896c82fccb769c714c8 selftests/mm: uffd-wp-mremap: skip unsupported shmem and hugetlb cases
-469a5ecf7a407bbe035bcff432e5d450d21de8aa selftests/mm: uffd-unit-tests: filter required features per memory type
-3bdb89e17f01ff1e55b91e9ffba6c9ba97368267 percpu: skip sidelined slot in pcpu_balance_populated()
-563aebd7f97d7252775ae0dea14d1bcd3b7a063a Documentation/userfaultfd: document RWP behavior when the PTE is dropped
-472cd5a809c20164b3b86032096373319a36e067 tools/mm/page_owner_sort: fix slab allocator labelling
-09986d8e4215b7c1ab39f76bc7bd78611b27d36c fs/proc/task_mmu: reset walk_end before each pagemap walk
-a036649714c3446abfdc36d0ae483046432b16c5 selftests/mm: cover PAGEMAP_SCAN refill and HugeTLB retry
 
---===============8902362137726961963==--
+--===============0141149655145273568==--
