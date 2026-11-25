@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 25 Nov 2026 00:19:58 -0000
-Message-Id: <179556599801.2097972.11451931476373147119@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 25 Nov 2026 00:23:47 -0000
+Message-Id: <179556622799.2101530.15167014717522153450@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/main
-    old: 37fa509e43ba59d7c329025436e8ea64bdf089d7
-    new: 32756b82fde8f6cc98b174fdcd02c2a61033e263
+  - ref: refs/heads/reset
+    old: ce6ca35391468d379ef4b172490390e02d996861
+    new: 28699d968d416f160e941e6a51149eb7c9c1e2b7
     log: |
-         a6ea69915a230d24e9d9cd8dc0ff0551dab36106 eth: bnxt_en: restore Rx coalescing after re-allocating the completion ring
-         32756b82fde8f6cc98b174fdcd02c2a61033e263 eth: bnxt_en: restore Tx coalescing after re-allocating the completion ring
+         28699d968d416f160e941e6a51149eb7c9c1e2b7 vfio/pci: Only lock the upstream bridge if the reset may need it
          
