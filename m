@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 25 Nov 2026 01:35:30 -0000
-Message-Id: <179557053075.2165360.1117326444393434795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 25 Nov 2026 02:02:03 -0000
+Message-Id: <179557212304.2184563.3842321980850951900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: willemb
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/main
-    old: ffa57aa0ff5d51c6e6b0e8e91d279f5f9a932972
-    new: 846a6d0982be30aaba5268aac14a0c557d70cc23
+  - ref: refs/heads/x86/cache
+    old: 712f550549864a5061a3acc3ef1bb61c07e9e66c
+    new: fa4058444973f352c94c3f4f2acdc0fd94335a0f
     log: |
-         846a6d0982be30aaba5268aac14a0c557d70cc23 net: bcmasp: avoid refcount drain on probe
+         fa4058444973f352c94c3f4f2acdc0fd94335a0f fs/resctrl: Report unknown schemata domains
          
