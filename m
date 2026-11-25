@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0860456209147430875=="
+Content-Type: multipart/mixed; boundary="===============0357951805480278298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 25 Nov 2026 19:11:36 -0000
-Message-Id: <179563389664.2985286.212960761742211371@gitolite.kernel.org>
+Date: Wed, 25 Nov 2026 19:12:30 -0000
+Message-Id: <179563395090.2985753.12981539449859694268@gitolite.kernel.org>
 
---===============0860456209147430875==
+--===============0357951805480278298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: namhyung
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 148690b95cc425950dbba79d73eb4f7938347fce
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 1091f94628991c3dd248b8142fe2c3594970ed16
     new: 809dfac3d3c6a0a9b57fb9b1f9c06601d4bf1380
-    log: revlist-148690b95cc4-809dfac3d3c6.txt
+    log: revlist-1091f9462899-809dfac3d3c6.txt
 
---===============0860456209147430875==
+--===============0357951805480278298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-148690b95cc4-809dfac3d3c6.txt
+Content-Disposition: attachment; filename=revlist-1091f9462899-809dfac3d3c6.txt
 
 0228a8013de2da12aead79266f2de473ee063e14 perf stat: Start tool events when enable_on_exec is used
 d75808230021638025fe7dd85e77789d07a328ac perf vendor events intel: Add diamondrapids v1.00 events
@@ -42,4 +42,4 @@ cf8d4a3e4ac8423b67874aa203a45e39db53c3e7 perf build: Stub out __guarded_by() on 
 756147015ae6723549011f42414368e5d7d52a53 perf cs-etm: Initialize the Thumb instruction buffer
 809dfac3d3c6a0a9b57fb9b1f9c06601d4bf1380 perf kvm: Fix RISC-V VM-exit duration accounting
 
---===============0860456209147430875==--
+--===============0357951805480278298==--
