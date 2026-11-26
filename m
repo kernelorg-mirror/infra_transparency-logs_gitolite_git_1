@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4194238547567043263=="
+Content-Type: multipart/mixed; boundary="===============4592046890149523446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Thu, 26 Nov 2026 22:50:11 -0000
-Message-Id: <179573341199.349283.10406103042387118676@gitolite.kernel.org>
+Date: Thu, 26 Nov 2026 22:50:18 -0000
+Message-Id: <179573341819.349494.11694576554340268601@gitolite.kernel.org>
 
---===============4194238547567043263==
+--===============4592046890149523446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-testing
+  - ref: refs/heads/driver-core-next
     old: a3c13b902f14f4fc36fdd17c86e679693e21be04
     new: f62fba71a846ebe59423bfd057af023b418935a0
     log: revlist-a3c13b902f14-f62fba71a846.txt
 
---===============4194238547567043263==
+--===============4592046890149523446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ bcb6cb0054498ea8ed54b4b5ea7601e52113ee02 rust: pci: add SR-IOV enable and disabl
 002b9422b314a3d29f3aa59638923e42971f77f1 rust: pci: add domain_nr() accessor
 f62fba71a846ebe59423bfd057af023b418935a0 Merge tag 'pci-sriov-7.5-rc1' into driver-core-next
 
---===============4194238547567043263==--
+--===============4592046890149523446==--
