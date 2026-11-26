@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 26 Nov 2026 20:12:36 -0000
-Message-Id: <179572395657.221997.6419150475097250497@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 26 Nov 2026 20:12:52 -0000
+Message-Id: <179572397270.222295.13279701561814769717@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/for-7.5
-    old: e03e85ff75004587a5cf516b155f5b9cb2275e90
-    new: 5bfa4a089b1223189f36bdf71ec0f2e74d912b91
+  - ref: refs/heads/master
+    old: 486b5ce7184f7449ef2fe1e951455b0b8a114060
+    new: 99cbc462b70dc05871b038b65d96e28a00deba36
     log: |
-         50529c05b08bd1aa726474c2f55301a48138d425 ASoC: SOF: imx8: Switch imx8ulp DSP control to reset framework
-         d8764bc050af2bb6ab4ecd611db15ceb6cdbcc04 ASoC: codecs: lpass-rx-macro: handle LPASS_CODEC_VERSION_2_9
-         9efa4eac7819825dbd28004d0c5b158ec00c93ae ASoC: dt-bindings: qcom: Add Glymur LPASS macro codecs
-         929756ab3709ba72ad5416cb5e28cf70526deaa6 ASoC: Glymur LPASS macro codec support
-         1298a779a3ad921445266e8eb666b7c0d0f7aadf ASoC: cs35l56: Make SoundWire DP3 mixer registers volatile
-         4c17de5c7713778251c253114d1ffb5ac29cd9ff ASoC: cs35l56-test: Initialize DP3 mixer registers in mock regmap
-         5bfa4a089b1223189f36bdf71ec0f2e74d912b91 ASoC: cs35l56: Bugfixes to series "Prepare for SDCA Companion Amp"
+         c37bde8f153a2e1a3e2712e6c2680548409a5131 selftests/bpf: Test the tag of vmlinux with do_epoll_create()
+         3928e6a30793d4f77401954f071d39686c359d3c resolve_btfids: Do not tag functions which work on BPF objects
+         168f3971b3575409fd6f263df1901d13924ad2eb resolve_btfids: Do not tag kfuncs and helpers
+         e82696a19484faeeb7e54f7527433bfa7060cb96 resolve_btfids: Exclude a set of functions by name
+         0c55fc04af8f818d8e16cb2a2cff648461d89864 resolve_btfids: Exclude bpf_*() and __bpf_*() of vmlinux
+         6a82d647cfdd99edafb91e0ac2c654f1a032b344 resolve_btfids: Exclude the code of kernel/bpf and of the JIT
+         c8446ba69af5c31489577ebc3e81753fc8d92ad1 selftests/bpf: Test functions which must have no fmod_ret tag
+         99cbc462b70dc05871b038b65d96e28a00deba36 Merge branch 'do-not-tag-selected-functions-as-fmodret-targets'
          
