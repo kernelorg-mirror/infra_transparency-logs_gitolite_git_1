@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2913097297462925802=="
+Content-Type: multipart/mixed; boundary="===============3981122717478237574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 26 Nov 2026 03:32:59 -0000
-Message-Id: <179566397985.3364907.16666836737569438895@gitolite.kernel.org>
+Date: Thu, 26 Nov 2026 03:33:04 -0000
+Message-Id: <179566398405.3365152.9494775657788199777@gitolite.kernel.org>
 
---===============2913097297462925802==
+--===============3981122717478237574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 3465fea8a786eaa86bee219343fd4584c1aa2f1b
-    new: 51ecc41bd5af6288e1cd204daefee1e0a843e325
+  - ref: refs/heads/7.5/scsi-staging
+    old: 021fae688d1e6d826e6e755ac10ae0e4126834c9
+    new: 4ff20abe28d65a0c52f0b280008fcfb93c3ee2b2
     log: |
          73dc649679b8c8d774eb3b54603b1a156ea65f41 scsi: ufs: dt-bindings: qcom,sc7180-ufshc: Add Halliday UFS
          cfab50c1f935a674be8afb107332ebd8261c5550 scsi: ufs: core: Remove debugfs before removing SCSI host
@@ -31,33 +31,33 @@ changes:
          4ff20abe28d65a0c52f0b280008fcfb93c3ee2b2 scsi: 53c700: Fix invalid frees in m68k driver remove paths
          
 
---===============2913097297462925802==
+--===============3981122717478237574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1795663977 -0500
+pusher 75C5DE3D 1795663982 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1795663977-789d741576d10fd29a39e9049b2b19de18b2f5f7
+nonce 1795663982-f68062a549bb3ac784b5158793a1f3abd3486de6
 
-3465fea8a786eaa86bee219343fd4584c1aa2f1b 51ecc41bd5af6288e1cd204daefee1e0a843e325 refs/tags/mkp-scsi-staging
+021fae688d1e6d826e6e755ac10ae0e4126834c9 4ff20abe28d65a0c52f0b280008fcfb93c3ee2b2 refs/heads/7.5/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmsHqGkACgkQ7ulgGnXF
-3j0+2hAApkimksayAfhBl9KoDafKVejqPkBgiDbtkwuPZrDbJa/tKrLIxKv8lAs9
-8+R8M+OHu2BTmY9446HNADsI/G1n36Z02oln8Nv1cPxuS/nb31s6kNG3APKnKdvB
-IqKqTOiI9eShWPgB/Ar0obIVBDjbvlmWBlWfGJvx2eRPzU/sEkqEwuegv5YmM8uW
-8c0QEWW4ZOYrpk2MKHFrxa6aQUJZc8WdA1cmZQ1IcOdmbpe5BznbRVZFrsG0wyPS
-J/2mMTNNNHnNxmYyA/hJHzi347iJvgK06Y1X5/F7yahMsfaEL+COEbqaIrUDCUAt
-VSsev0gDIbxGaQfUEa60hZ3VQ6Ab7sk7ag/F0JQe42I7QHrUhNnSUAkmuvEWRB77
-GYifmANOZEzi+lGQYisjp8Y3OS0sOqEYZ6vcmX2HtZv/XV4o4l4jG0+MmSO1U2C2
-PBTfmkk2NIAe2rn9Ho0DSqmKcrjveOax9JpFBKWsb4XCySjGtgD5gP1QK1sy7hyp
-7u63pO91788cLtXAsHHE5he/E/xhUGPRbWYwgbzjfQIPE7ba5QMYG0K0Vr7M82sK
-5H9nJMjcScCGaVYTtXxzI0VEJI3F6PV/suU7RMfAJ6UIt64lp4Hn4iRhxJnQ8OvG
-3kZNEPb5zllSHj8uey+++APb+GhNhyKfDow/Q9gh3kD3GfCwynM=
-=3QQY
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmsHqG4ACgkQ7ulgGnXF
+3j155w//a8BVOAycN9IO4aCjoRCHVlUHyP6vnnT3rAAVmIjUn+JUT9C7keTumg55
+6rKWZTWOny0RPBOvwDt0DwPyqpr7aC2puH2wrV1Xbvzgn5d1Ayzx2jvJRnakz/jP
+olBAnCjP3meXH9V70h7Vos9MDmQBZ2pz4qZb7HNUnBjFFkB/otmlpUadxNK0chFE
+6OCM9IirTcPtckMxA7onpMAXaz+o0HFRlkzx28tHsCXWFIzMEiGF2NLcXn42o3p5
+gMzpNsM3ck0o6bV3hrD9h69T83UCn+0jU0dwcGAW2tt+fOlTekJSB8tk6mzgtN5G
+853JK8x1E6EQYWqzaKgUUCG8bjyfGrTH/owfmKb3kwIcJ7SdmGzGqvpryhakd1WQ
+e/mIlbtBiWwRrBEm0pEQgGJtyfqCtztw1S8o6+/SpfLpW/64iHXSwaUM/fxkFjnz
+CatdKR4l4yR9xE/4e2QISRi/Nw0/hQPjuEAPE67xWnHBpqAIu4f6zucl1MXv3rdn
+OiqT59pZGAvLrCqG5D14neBc3yaYFb6yX5tCgvBwTKdBWNzzqk5aNn62GQZl1heI
+c5LPLegSMvhQv2NbD9LFn+tuEtWlBs73NmY+SaSnW+ycmigZxGAdlfgmnYkOiIpX
+JPQBbvJRDOuL2gINbPH5/Uv7xu3r9um83/9qEM63P0hLAQzx6+Y=
+=aKKa
 -----END PGP SIGNATURE-----
 
---===============2913097297462925802==--
+--===============3981122717478237574==--
