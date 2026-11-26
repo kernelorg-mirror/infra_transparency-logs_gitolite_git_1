@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2213772109089431119=="
+Content-Type: multipart/mixed; boundary="===============2279576251086700163=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan
-Date: Thu, 26 Nov 2026 07:06:15 -0000
-Message-Id: <179567677510.3519271.3345786131564440001@gitolite.kernel.org>
+Date: Thu, 26 Nov 2026 07:06:18 -0000
+Message-Id: <179567677810.3519457.3789255968112325575@gitolite.kernel.org>
 
---===============2213772109089431119==
+--===============2279576251086700163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wpan/wpan
 user: sschmidt
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/main
     old: 2b4707a149a55e8fa75c9ef32b359d60f470a566
     new: 6b4e5919526f89f85b2ab6541a824ad6aacf1df6
     log: revlist-2b4707a149a5-6b4e5919526f.txt
 
---===============2213772109089431119==
+--===============2279576251086700163==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e50436deae925d1b95b01936e2499428c4782a6a tcp: fix negative sk_forward_alloc afte
 ef3e21c61baa74e39a49b75318bd4541562ec43f net/tcp-ao: fix reset key lookup for IPv4 segments on IPv6 listeners
 6b4e5919526f89f85b2ab6541a824ad6aacf1df6 mac802154: avoid extra skb references in RX queues
 
---===============2213772109089431119==--
+--===============2279576251086700163==--
