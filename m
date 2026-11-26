@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0774338397678400347=="
+Content-Type: multipart/mixed; boundary="===============7735953375813327530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Thu, 26 Nov 2026 07:28:33 -0000
-Message-Id: <179567811396.3536125.12312031225972931657@gitolite.kernel.org>
+Date: Thu, 26 Nov 2026 07:29:13 -0000
+Message-Id: <179567815392.3536644.1374705854645227378@gitolite.kernel.org>
 
---===============0774338397678400347==
+--===============7735953375813327530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,44 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt64
-    old: a96770b404648488cecee310bddf11416185da8d
-    new: e59848c714e58153671eca08c85a9bed09fb4b48
+  - ref: refs/heads/for-next
+    old: db9e83ab3ae32c216ae136a2bd741053483f1804
+    new: 9303eb1a375824bc4a5d4cca21a5c5954a871f3d
     log: |
+         45c8e9469b692b45920d2a238003a5f8362b05ac firmware: samsung: acpm: Don't use pdev after putting it in acpm_get_by_node()
          ee06453ba8b860816e9061d53cf6a6427a247df6 dt-bindings: arm: samsung: Document greatlte board binding
          e59848c714e58153671eca08c85a9bed09fb4b48 arm64: dts: exynos: Add initial support for Samsung Galaxy Note8
+         9303eb1a375824bc4a5d4cca21a5c5954a871f3d Merge branches 'next/drivers' and 'next/dt64' into for-next
          
 
---===============0774338397678400347==
+--===============7735953375813327530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1795678112 +0100
+pusher krzk@kernel.org 1795678152 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1795678111-5cc6993750c16544ab0a210dc7fa7c1a9f40cb28
+nonce 1795678151-22cd7d0d73e2079dc088cbe4f67c7c2ebf3971e1
 
-a96770b404648488cecee310bddf11416185da8d e59848c714e58153671eca08c85a9bed09fb4b48 refs/heads/next/dt64
+db9e83ab3ae32c216ae136a2bd741053483f1804 9303eb1a375824bc4a5d4cca21a5c5954a871f3d refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmsH36AQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1+NYD/sEEC+3HoRmDeAbXi1GMUZylQ7cyJLbq0fV
-pYYsaC/6YsiP/p4wd7atBxqJJD7nAYKW6bni0xTTtAqw3uTY/vaISzcKFNyJpcQZ
-Wq919Cu5Nz4j1trxR4ofClhJ9g7vGB7Dhyrnu23Yy1vY7r9Nmo5vFwAguBDH5CsZ
-BHt1FaBH2LlGxNF1Np61LohVa+PrcKdczDVskuwc9+IP1tgFwOQv+IMgZ01BWzpB
-xHfdRCdl+OPnc6NH2AXETai8nKW5F0iEgGRbvqolzKtkc8VGMs5zH3zCvSM8AXtw
-/p32jztUasCNqCqJeJZbEk3j35s0ZIuDX+JJIK0axC+gKR40wYcWylVTkqalYzf1
-K/Jr/HywXJCW/tnhoV9wx0gnHyOauDLc9EGVKkZkwWE7NTOd6zUECkRz3wjQt5Fp
-WGs2FXMBDmiqPssUrv+kaFYKTSbGF+QbDGRD3qmGROoI1r2PTVgw8r2DPIxlqAAc
-fPBraUl0hYbeKBnB6oLV/+ZqgHLK1VIwFfZGkyfYLd/cs1WlWUDpwpHJ9RplzJ/d
-8EWCEl19imvk3dpcAm62QyyxYYXxjkcxmSB5dQiF1armV45SwGjHIOEGj45JUwsJ
-rq/K+qJm99UQzqHu9h9hL4DSdxB1g1HtEl2TKNKB4o9dQb8cFU2wuqiKpqKecWiP
-/3rSLUdXKw==
-=1Ivl
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmsH38gQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD143GEACY76j/zLMClfwy+5Ol6irb5n6lyIU3ic16
+6uNqTCuieSr2Sy1AkSwv4r+HBMhETvOaKiug9DRQN4+CiPi001XcxZX4y03TbHog
+/BA74M90PRW1zuhu41Wr9XoqO/7nM4/gyIu5BBwTrTkYNKk9FNPuZUR3PcmqL1Po
++QMEP6XQ2lx2o5Q3hGeChpJpO1e5zGCl7/xL2/Q+E8nMxp/BSxPs/0JqY7vPCE2q
+0VT8tGQ7W0le8chYYdsS5be00poN4tDQ0wq47qfIxWmK4ojk9XnvNWeN1/p5avYQ
+3zKto7UARuQpzDViGMh05m9LG9w3j5lUT6tOqkAEOP9Ib6PnhIN4RooInPcKX8Ha
+cOGhVJ2atr4/gSJ4dogMVYuUU2ug+7eEBZVdXXCuNReBB5S3blZ/O/pNyeefUXtu
+kCV8s9V4Sp9FwFsJKKqkDT4bvMtRQUf2HPdZ2D9POiwxIvExqIIHG5F79sXPWXmV
+KynFJH2uME4UBAafrpiHJZAk421mrsgD0C24Yxa5z+w7UQjEB42sXWdEJ2+kMqc7
+Vqn3qTXESmHq+Eb5+GiFh83C2HbEPi4VDUdv0ZFd7BsdthxYeDABI9UVHAIdYGcB
+uWl2WGCPYy2fU76vs590WHSH85o8XkyFLVTyAyTBSrNt+yI7qLYKZ7kLATMxpyDX
++z3N+IwGIg==
+=5BRB
 -----END PGP SIGNATURE-----
 
---===============0774338397678400347==--
+--===============7735953375813327530==--
