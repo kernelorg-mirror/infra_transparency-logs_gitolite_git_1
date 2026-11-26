@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 26 Nov 2026 18:54:10 -0000
-Message-Id: <179571925024.161461.15816986671351078077@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Thu, 26 Nov 2026 18:56:11 -0000
+Message-Id: <179571937115.164463.4601753425650493819@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 2e869a30085ec13be5c1ffe4b7d917cc89cec316
-    new: d24184a64765d7797ff0f46f6872aa91a6a1a5da
+  - ref: refs/heads/mlx5-next
+    old: b77e82a6ebdf451c2eb1f0d95085d4ca8446830b
+    new: 8c7a99ad6d6a9e2ce2e1d705406ba7659352b91b
     log: |
-         d24184a64765d7797ff0f46f6872aa91a6a1a5da RDMA/rxe: Zero the AtomicETH compare field in fetch-and-add requests
+         8c7a99ad6d6a9e2ce2e1d705406ba7659352b91b net/mlx5: Add PSP header extension length match field
          
