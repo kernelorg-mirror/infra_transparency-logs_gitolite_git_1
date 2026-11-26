@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Thu, 26 Nov 2026 16:22:10 -0000
-Message-Id: <179571013040.48344.13886956161631673397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/next-utils/etc
+Date: Thu, 26 Nov 2026 16:22:15 -0000
+Message-Id: <179571013535.48599.4378871942518539897@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korgalore/korgalore
-user: mricon
+repo: pub/scm/utils/next-utils/etc
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: e84fe8d073505be39f6fde3bffdad2789c6af7f2
-    new: a25ec18bfb5db8811560b8b76df45bb94417cc19
+  - ref: refs/heads/main
+    old: 3448cf28db915d3e386d532b8070289356f29ee0
+    new: 7f979dd02fa8029f0560d177d8324c27a114d110
     log: |
-         a25ec18bfb5db8811560b8b76df45bb94417cc19 Add never_mark_spam option for Gmail targets
+         6f47fd9316024378df52bfcb89e94704b1b5af0b control: New email address for Daniel Lezcano
+         2d8945c5dab07f2cd5590fa068a0f2a045ed3010 control: Add Hexagon
+         54bef56aec52ad7dfe6f6120c04c433e01510fd6 control: Add blum
+         8b4f82427060156b480b5db84f4b905608a45940 config: Delete kapi
+         7f979dd02fa8029f0560d177d8324c27a114d110 config: Add agents tree
          
