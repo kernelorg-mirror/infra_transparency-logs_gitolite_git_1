@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/spacemit/linux
-Date: Thu, 26 Nov 2026 05:35:28 -0000
-Message-Id: <179567132849.3451552.5313889212244658369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 26 Nov 2026 05:43:09 -0000
+Message-Id: <179567178985.3455874.12985772213662025161@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/spacemit/linux
-user: dlan
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/for-next
-    old: da3f64e708a342ab2804754fa26fb4a132dc1809
-    new: 915b15bafd289c4d1074af179cae5e7a4dca83a5
+  - ref: refs/heads/master
+    old: 06d6052508846a7f0c3697f34964d5601ca62fe6
+    new: fcef6ba90c21d4120dc40087c1376e8af70f90dd
     log: |
-         92abd348af1882c1f91af67e6c66cc1e0a437814 clk: spacemit: rename to generic ccu aux register function
-         a2aa2b526090cad0199bda2fcf713f25cb15dd18 clk: spacemit: register pm domain auxiliary driver
-         d20eea2409b592ca2e69719e0cf07680d890eeb7 riscv: dts: spacemit: k3: Rename PMIC node
-         c1e3708fb911d4ac2bc27c5f6d09c5f4d86b5ed7 riscv: dts: spacemit: k3: Use Pin Macro
-         26b026d2f17abbb2a013a4db7b0fc822da925065 riscv: dts: spacemit: k3: Add alias for MicroSD Card
-         11def1c577febb363599187156bb4c51d6d80bfb riscv: dts: spacemit: k3: Set CD pin bias
-         915b15bafd289c4d1074af179cae5e7a4dca83a5 Merge branch 'spacemit-clk-for-7.5' into spacemit-dt-for-next
+         8f1d7f093012a9e2661407aa2d45921b68c951a3 send: report partially refused SMTP deliveries
+         1467240034838ea72c968f92749e9e391076fd0a send: separate message preparation from delivery
+         3c724990537f3e350a4889d24bdfa627299b247f send: persist SMTP submission progress
+         81f28ced5c110567f616eb3502a1a0d645768f37 send: resume interrupted SMTP submissions
+         1a11ad5d5586712bc065af5aa279b9d88eeca01d send: offer interactive retry after known SMTP failures
+         fcef6ba90c21d4120dc40087c1376e8af70f90dd send: consolidate send-resume tests
          
