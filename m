@@ -1,24 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 26 Nov 2026 21:23:31 -0000
-Message-Id: <179572821181.278775.10416431914879662265@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3683573349916056918=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Thu, 26 Nov 2026 21:23:32 -0000
+Message-Id: <179572821260.278855.15803004135416516062@gitolite.kernel.org>
+
+--===============3683573349916056918==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 104688a766e980dd57ac6201a69f3aef0ee4ba67
-    new: a3af17b67d3246bcb56c7c531e7b76c10f8ab57b
+  - ref: refs/heads/master
+    old: bec2169a3af071d8c4dbf2870f9a5a32381deb57
+    new: d17cc70e38397aa2dce96861240a5ceb68eb43c3
     log: |
-         4d5ed6cd0a14fc04c9d852bd0baec4fb3f00ee61 ASoC: mediatek: mt8196: clear afe->regmap on devm_regmap_init_mmio() error
-         18246650ab69ed6b275bc963d6ab2d73411ea75d ASoC: mediatek: mt8189: clear afe->regmap on devm_regmap_init_mmio() error
-         8c81743be9355b2639b75c2b346f99773b2a0743 ASoC: mediatek: clear afe->regmap on devm_regmap_init_mmio() error
-         da96c8b9ebb256578bee364060bcabb8eb9ee9ab ASoC: SOF: ipc4-mtrace: fix the wrapped read when the user buffer is short
-         2e6f513f8740933f3ffb0390495b70aac1bbde76 Merge asoc-linus into asoc-next
-         a3af17b67d3246bcb56c7c531e7b76c10f8ab57b Merge asoc/for-7.5 into asoc-next
+         d17cc70e38397aa2dce96861240a5ceb68eb43c3 Add 2A90CDC122DF37BF (Junhui Liu)
          
+
+--===============3683573349916056918==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1795728211 -0500
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1795728211-d88a01fc5622ae0d4f289ae41bd3e0276b4cabb3
+
+bec2169a3af071d8c4dbf2870f9a5a32381deb57 d17cc70e38397aa2dce96861240a5ceb68eb43c3 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCawijUwAKCRC2xBzjVmSZ
+bPuLAQDoQe1Cw/beYWLhCjv5qAEANHscRQl0yilfjiklMIX4QwEAivdHGukatZ9+
+wz+EK3cRK2T0AvF5D7EWd5x/igrLxQE=
+=Kx+O
+-----END PGP SIGNATURE-----
+
+--===============3683573349916056918==--
