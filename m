@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7101860114863037094=="
+Content-Type: multipart/mixed; boundary="===============1245158726606972023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 26 Nov 2026 03:32:45 -0000
-Message-Id: <179566396529.3364318.7250380650531629147@gitolite.kernel.org>
+Date: Thu, 26 Nov 2026 03:32:49 -0000
+Message-Id: <179566396970.3364513.5749398466723802865@gitolite.kernel.org>
 
---===============7101860114863037094==
+--===============1245158726606972023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 1c4efb5e54d7ee849194e7c59313a81f37898d9f
-    new: 86acbd2ffa4094cc0de53c0a49d5f45da3f6a357
-    log: revlist-1c4efb5e54d7-86acbd2ffa40.txt
+  - ref: refs/heads/7.5/scsi-queue
+    old: 08fec21faae44fe002467976befd68e6e62969b5
+    new: 021fae688d1e6d826e6e755ac10ae0e4126834c9
+    log: revlist-08fec21faae4-021fae688d1e.txt
 
---===============7101860114863037094==
+--===============1245158726606972023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1795663963 -0500
+pusher 75C5DE3D 1795663968 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1795663963-031abbd160f05eafb9469938b8694ed505cc9f4e
+nonce 1795663967-1f0449ef684bb8883e509c8d0f5068f50242bea8
 
-1c4efb5e54d7ee849194e7c59313a81f37898d9f 86acbd2ffa4094cc0de53c0a49d5f45da3f6a357 refs/tags/mkp-scsi-queue
+08fec21faae44fe002467976befd68e6e62969b5 021fae688d1e6d826e6e755ac10ae0e4126834c9 refs/heads/7.5/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmsHqFsACgkQ7ulgGnXF
-3j2FiQ//f7sLMcBTFSntSP69p+78vvctTbGprD19Pb1cWUknuD7j/F5yQgqpDedp
-p4Qj+90Q6REX+lQnChAUsjshhDRS9YPbi3qGC6F/p/pMN1Hl6Ld7i9MfLVLSY3xh
-Bd9gyAqmE7+kA4GIrsEQlkCZmoGm08cVN0WSI25uimfVszvyGAH5T+zYG4r8McQl
-AOPaSgz+tRyQD9YX77Edqs0H9MfJpzFWcCj5zzrNitNlm8FdnmzSy8nEt891H8Z1
-cTrp6F114AZL+JqPQn5mo5KFtXMN1PozaF8dbaeNiBK2HkiBnNRfMaf+WxG2t/23
-L8CX0epGe9u9LT2raIybnTr/W9C/ByamXYIsD9ggBR9+O9bR2sPJ/CqOjfONbmhH
-jfVSSTlC7V+inrVTMDuMH9nC3peBQpZmuOJwjIbUO1sVQmmQWdvG6d5AmLTRfVDO
-aORVH7pKZWis2MGlUX8z9cw+hFM1ydZY/2PKyw/vtwSpbKiZ/g5eu3c39HIuX4M1
-u8O5kdoeIbZP4XbjKM2xWgrPFmJf0FKTPqmRMHPsEqPTYhvtOJXWHsZNcyhyCCjJ
-GGPL3GxCrMqKUSQlQm5G/eB8SDDOLLM64gPJp+W6eIcntrvIyxLtmM2MA7Bh7T7c
-jUU5Qk08O41WmWR/GiPP5Bti3mDmZLGP2biTtsGxNCHKopyiXHk=
-=fSid
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmsHqGAACgkQ7ulgGnXF
+3j2g3A/9H8gXXDpMvRYN5XFYIy671DmI9dFqajTBeJkFSDk0dlZg7RWsO2Mkyzhx
+09e+JOCAYGhaOAx7peXeHtLnaZ/o664/kCqqmNL0UUnCRjCwEu/G9vv6SalAKMrj
+bAaqiO09Tf0swjK3hpZyaV3YpW++woBZEfc5Vn5icugjwYirx6prtxRHIYWbze/7
+9vAFduHYv6iS9uqZWMHIoXMTYaVoX7dNdiYzFosjxYJPgU7/r1yrq9R/j2PedLyF
+1l9vcTCzxjLXA0+JwfzwjYcMY8n1xvCPQTa2NQQ7AjZQYKuSCyFdW9hCY5kK8Ghl
+3OrfgaXJfoCOYIu0DiRLRp07KyGRFc/LDGcu8YWxJJWdt/tpLsmHxYrDFpJNugre
+KNJFiwWRQrPUURzJwPbkWWXtGNxp0bR8I31TLymIzUgy6IPpS6c8fnkiN5adhzsp
+YSBJjU9qKPIJRl4LhoIJAz13SkvwnKOd8l/TJEQLkN1+nFyzzRvjLmBobKISMI9O
+XlmszV26WshS1XRO0dzH6CGAr6Cib6qR5V9IjVKPTYencsEMsT9fu0eivgiJsvci
+AMSSaE3yXHl5xDgmv+6Gt6mSzuqIzT1bAo+EPNVNldWfg+a5O5d5+86bruvLMCAO
+2Ssz5HVcva4UXHtlGL207dGm07uYbNwM7gLTTyoP5OqXiYQsxeU=
+=b+u8
 -----END PGP SIGNATURE-----
 
---===============7101860114863037094==
+--===============1245158726606972023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c4efb5e54d7-86acbd2ffa40.txt
+Content-Disposition: attachment; filename=revlist-08fec21faae4-021fae688d1e.txt
 
 11a7560968137b980ae71b3b268ae5dd6e295a9e scsi: ufs: dt-bindings: starfive: Add UFS Host Controller for JHB100 SoC
 454284cf3f3901cce50e069be613210d4fc04342 scsi: ufs: amd-versal2: Make PHY register DME attribute tables per-call
@@ -93,4 +93,4 @@ f505b951db60ddbcd291a8b3f338b97b9b338228 scsi: core: proc: Use snprintf() for th
 78f28a31d7d688054c95b5299845db8fb6e1308c scsi: scsi_debug: Wrap around the store when zeroing a reset zone
 021fae688d1e6d826e6e755ac10ae0e4126834c9 scsi: scsi_debug: Reset protection information on zone reset
 
---===============7101860114863037094==--
+--===============1245158726606972023==--
