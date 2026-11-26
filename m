@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 26 Nov 2026 17:17:59 -0000
-Message-Id: <179571347920.92577.3112586438478007396@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/korgalore/korgalore
+Date: Thu, 26 Nov 2026 17:18:50 -0000
+Message-Id: <179571353043.93083.1867296388130177877@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/utils/korgalore/korgalore
+user: mricon
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 6f174a0eca19e69a14c34b0ed56b60d484f22fd6
-    new: 48bd56fdc4a7cb37acdecb6211cc1bc9a7dfa312
+  - ref: refs/heads/master
+    old: f2d52ad315b67db7698315ad2b9ea8b5babb0e10
+    new: c763e772f0aafea0ebf08d005a3e4486f13c6ec5
     log: |
-         48bd56fdc4a7cb37acdecb6211cc1bc9a7dfa312 nfsd: stop a block layout at the maximum file size
+         c763e772f0aafea0ebf08d005a3e4486f13c6ec5 Bring the 0.7.1 CHANGELOG section over from the stable branch
          
