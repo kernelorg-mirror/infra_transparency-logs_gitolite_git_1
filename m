@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Thu, 26 Nov 2026 12:59:51 -0000
-Message-Id: <179569799127.3795447.8677720307679515632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Thu, 26 Nov 2026 12:59:59 -0000
+Message-Id: <179569799974.3795731.10442883046075146250@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: 1cb7268b6638c411fc32f373e965eb8ba9e9b2b4
-    new: 5a8fc2b762fdd22698dc10449a960a892e43192e
+  - ref: refs/heads/for-leds-next
+    old: c016466c8c8b01af27ac66d97b64fa9c9e431a3d
+    new: 7c804d7bde4a002a676509df6d1474f1d2a2434e
     log: |
-         635c680b2ea58b3bb75464f464a23eb4bacbb0fd dt-bindings: mfd: syscon: Add airoha,an7589-iomux
-         dc71f64fc283661d77d6a9a4bf38af94b4daeb5a mfd: max8907: Add LED cell
-         5a8fc2b762fdd22698dc10449a960a892e43192e mfd: loongson-se: Add multi-node support
+         c8fda3f82a9b9a29bae152571bd66c1ff36646e3 leds: lm3642: Fix container_of() member confusion in pin attributes
+         7c804d7bde4a002a676509df6d1474f1d2a2434e leds: Add driver for MAX8907 LED cell
          
