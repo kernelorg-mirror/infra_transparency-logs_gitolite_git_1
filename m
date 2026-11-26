@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3683573349916056918=="
+Content-Type: multipart/mixed; boundary="===============7327494264235578156=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Thu, 26 Nov 2026 21:23:32 -0000
-Message-Id: <179572821260.278855.15803004135416516062@gitolite.kernel.org>
+Date: Thu, 26 Nov 2026 21:26:51 -0000
+Message-Id: <179572841103.282375.10217984339924291504@gitolite.kernel.org>
 
---===============3683573349916056918==
+--===============7327494264235578156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,30 +17,30 @@ user: mricon
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: bec2169a3af071d8c4dbf2870f9a5a32381deb57
-    new: d17cc70e38397aa2dce96861240a5ceb68eb43c3
+    old: d17cc70e38397aa2dce96861240a5ceb68eb43c3
+    new: f3929937e22ba70c987bbf0dc89acc6f0ce9a53e
     log: |
-         d17cc70e38397aa2dce96861240a5ceb68eb43c3 Add 2A90CDC122DF37BF (Junhui Liu)
+         f3929937e22ba70c987bbf0dc89acc6f0ce9a53e Add 2A821C5AD66AB03F (David Gow)
          
 
---===============3683573349916056918==
+--===============7327494264235578156==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1795728211 -0500
+pusher B6C41CE35664996C! 1795728410 -0500
 pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1795728211-d88a01fc5622ae0d4f289ae41bd3e0276b4cabb3
+nonce 1795728410-0586001ee5f4e909a5c0b089469315296a149a07
 
-bec2169a3af071d8c4dbf2870f9a5a32381deb57 d17cc70e38397aa2dce96861240a5ceb68eb43c3 refs/heads/master
+d17cc70e38397aa2dce96861240a5ceb68eb43c3 f3929937e22ba70c987bbf0dc89acc6f0ce9a53e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCawijUwAKCRC2xBzjVmSZ
-bPuLAQDoQe1Cw/beYWLhCjv5qAEANHscRQl0yilfjiklMIX4QwEAivdHGukatZ9+
-wz+EK3cRK2T0AvF5D7EWd5x/igrLxQE=
-=Kx+O
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCawikGgAKCRC2xBzjVmSZ
+bCabAQDCE3kYQSRTDxjMo0wsdTb/qhYIOHAuIWngyY7AvIdIsQEA8UKGd7nWCUWl
+j94R/er+ODIhNJ2EqYgxnC03Fae6RA0=
+=/oxP
 -----END PGP SIGNATURE-----
 
---===============3683573349916056918==--
+--===============7327494264235578156==--
