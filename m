@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Thu, 26 Nov 2026 17:14:04 -0000
-Message-Id: <179571324482.88644.13713842678452010885@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 26 Nov 2026 17:15:33 -0000
+Message-Id: <179571333315.91563.1704272715724727251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korgalore/korgalore
-user: mricon
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/stable-0.7.y
-    old: 46e4c0599b411c130c13fffc456b21239a427120
-    new: 30cc04e3283fcbba3f75cdbe0dca27da8f3b3c45
+  - ref: refs/heads/asoc-7.5
+    old: 50529c05b08bd1aa726474c2f55301a48138d425
+    new: 5bfa4a089b1223189f36bdf71ec0f2e74d912b91
     log: |
-         152941d08696fde8cceb820cc2908cdace73e91f Write the Gmail OAuth token atomically and private from the start
-         c78fd00fbbd5c2dabc4380443db77c5f98fa9168 Write the IMAP OAuth2 token atomically and private from the start
-         c07dd185a1f5364b88a1340f9e16edf3f04318ab Store maildir messages with LF line endings
-         0fb25794b2233139426a2a45ce8140dee0f3cd81 Make the module-scoped digest render fixtures plain functions
-         30cc04e3283fcbba3f75cdbe0dca27da8f3b3c45 Release v0.7.1
+         d8764bc050af2bb6ab4ecd611db15ceb6cdbcc04 ASoC: codecs: lpass-rx-macro: handle LPASS_CODEC_VERSION_2_9
+         9efa4eac7819825dbd28004d0c5b158ec00c93ae ASoC: dt-bindings: qcom: Add Glymur LPASS macro codecs
+         929756ab3709ba72ad5416cb5e28cf70526deaa6 ASoC: Glymur LPASS macro codec support
+         1298a779a3ad921445266e8eb666b7c0d0f7aadf ASoC: cs35l56: Make SoundWire DP3 mixer registers volatile
+         4c17de5c7713778251c253114d1ffb5ac29cd9ff ASoC: cs35l56-test: Initialize DP3 mixer registers in mock regmap
+         5bfa4a089b1223189f36bdf71ec0f2e74d912b91 ASoC: cs35l56: Bugfixes to series "Prepare for SDCA Companion Amp"
          
-  - ref: refs/tags/v0.7.1
-    old: 0000000000000000000000000000000000000000
-    new: 81593ccf65a8abd2b10b40294d1bc240013001eb
