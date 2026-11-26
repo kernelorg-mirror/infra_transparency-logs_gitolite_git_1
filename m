@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3400660065283347277=="
+Content-Type: multipart/mixed; boundary="===============5983283884050601943=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 26 Nov 2026 22:45:43 -0000
-Message-Id: <179573314318.345135.8524827871590219486@gitolite.kernel.org>
+Date: Thu, 26 Nov 2026 22:45:45 -0000
+Message-Id: <179573314514.345321.4286666167923148913@gitolite.kernel.org>
 
---===============3400660065283347277==
+--===============5983283884050601943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-fixes
-    old: aebb7274476403040d582c61478df8f4a7bf9cd3
-    new: b6a9fa34ce4187cb69d3c588a4bbffc31ce5db8f
-    log: revlist-aebb72744764-b6a9fa34ce41.txt
+  - ref: refs/heads/i2c/i2c-next
+    old: 9c19b1c078541841f6b68f815bb4ba5201ab2b65
+    new: 1b54cd40f9ea088faa68682902e277223252f317
+    log: revlist-9c19b1c07854-1b54cd40f9ea.txt
 
---===============3400660065283347277==
+--===============5983283884050601943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aebb72744764-b6a9fa34ce41.txt
+Content-Disposition: attachment; filename=revlist-9c19b1c07854-1b54cd40f9ea.txt
 
 1df7f369075d7e8f7794981995a5103f1963bab7 pinctrl: qcom: kaanapali: add the I2C strong pull-up bit
 d36e0b560483991bc63b7b766f82396e1bf7ec33 assoc_array: correct the documentation of get_key_chunk()'s level argument
@@ -1023,5 +1023,6 @@ fdcd45bc9cfee488b92efc4b7f43d6865ec82770 Merge tag 'spi-fix-v7.4-rc3' of git://g
 2681617eb9317444247380298564f58142fc4ff8 Merge tag 'riscv-for-linus-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 6e4122f0242a3262512ee3e6f2e7e6de0bd5792b Merge tag 'perf-tools-fixes-for-v7.4-1-2026-11-22' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 b6a9fa34ce4187cb69d3c588a4bbffc31ce5db8f Linux 7.4-rc4
+1b54cd40f9ea088faa68682902e277223252f317 Merge branch 'i2c/i2c-fixes' into i2c/i2c-next
 
---===============3400660065283347277==--
+--===============5983283884050601943==--
