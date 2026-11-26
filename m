@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 26 Nov 2026 06:00:47 -0000
-Message-Id: <179567284759.3469465.189658444033731010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 26 Nov 2026 06:10:08 -0000
+Message-Id: <179567340880.3476404.12255211847737137739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 40212b29a6f718d4e7fb3275cede181cb8e137cf
-    new: 25faec9ce61c01fb45abf812a222c5b43c3cd5c5
+    old: f131a28d69352ee35d9992dd3f74a561b36aa127
+    new: a60c64a11db6d542a5be320d4038e1fa37825d1d
     log: |
-         25faec9ce61c01fb45abf812a222c5b43c3cd5c5 net: dpaa2-eth: fix objtool warning and logic bug
+         a60c64a11db6d542a5be320d4038e1fa37825d1d foo
          
