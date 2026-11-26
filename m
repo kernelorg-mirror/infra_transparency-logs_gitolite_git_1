@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9010235882455346496=="
+Content-Type: multipart/mixed; boundary="===============7755673140552435860=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Thu, 26 Nov 2026 07:19:19 -0000
-Message-Id: <179567755953.3528665.10771250354115708907@gitolite.kernel.org>
+Date: Thu, 26 Nov 2026 07:21:05 -0000
+Message-Id: <179567766566.3531642.1101924461522779446@gitolite.kernel.org>
 
---===============9010235882455346496==
+--===============7755673140552435860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,41 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: b65120633fcebcff36f958703d4bbecf34439218
-    new: db9e83ab3ae32c216ae136a2bd741053483f1804
+  - ref: refs/heads/next/drivers
+    old: 8aed6f7adc456f20a4f9300c22ff1be64eaa2a88
+    new: 45c8e9469b692b45920d2a238003a5f8362b05ac
     log: |
-         601999d004ea467bac8f29196df8af296b08564a ARM: dts: samsung: exynos4412-trats2: exclude memory used by secure firmware
-         db9e83ab3ae32c216ae136a2bd741053483f1804 Merge branch 'next/dt' into for-next
+         45c8e9469b692b45920d2a238003a5f8362b05ac firmware: samsung: acpm: Don't use pdev after putting it in acpm_get_by_node()
          
 
---===============9010235882455346496==
+--===============7755673140552435860==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1795677557 +0100
+pusher krzk@kernel.org 1795677664 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1795677555-e45b4c7e42a29b18f8e7080235bdb1cb8023252c
+nonce 1795677662-a9e31b8aeb8d55e262608f8e763b2143b20bed12
 
-b65120633fcebcff36f958703d4bbecf34439218 db9e83ab3ae32c216ae136a2bd741053483f1804 refs/heads/for-next
+8aed6f7adc456f20a4f9300c22ff1be64eaa2a88 45c8e9469b692b45920d2a238003a5f8362b05ac refs/heads/next/drivers
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmsH3XUQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD10xhD/9bZqjBGFHh24XMteBMkaawRD0BNEf//6JF
-y/nD0WXXAPbTib5znOdrFJBAJQr3GujJxjGTwAEpq6nF9v/Pk2UJkMXMEip9ISc5
-gp9VVXrQAH8jBRl470ad6zPk7VJfGX17CNJV3n237BDEL5QdUVU2KeCfUZpRWYAB
-EBJPIHZzs7v/H50CYTmUwTAOsPQOIHmoNFS47+exV6FIIoYiq/RKRm/NPMNxzlYW
-t6l7aH21pBktR3DhdZWfKYPVeJWYbBsQHQoNub9RaffcWTAeGkGF46h7taoC18La
-Rn5rKeegPnk7hHsS3I6BHLYFRzzrl1h8CLyA3Ww06K6S8hfJqhwGDc0CdE8S8KSG
-W0n3JL7DuCnBNuE+omoSs/MVfRpdKf0OZOR+LSaoCjudIQU/eJJqBCrJPCd18KJV
-jFfeQquU/1LKHvXuGDX4ynGKIFGQkndveCqrzk0pSWtJ1IYwCLpJtgfzxlDt+nsv
-hMUbFO2JO8SRyrIQDFjIjkAp74/fKItJOFRDvDrZQc9yn0RD1mnMOPTZGDqQ9IYs
-94tVPqP/525t9jO1lUMHUkM+CvGrvNffLTKhgGsSwwcbhd7ma5h3sQvJX/x2QktV
-2aHJQ97zRQeGstqMb8bSYuPQwhQT0NSIQtifnpdWEeIHp/WvOeblxhDprbekkVOF
-X429bsQDzA==
-=5L0i
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmsH3eAQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD137gD/9xNSKpOzRtndfWSdRxu+5nd1yADOH0vN1v
+LYWjbABH0cFJ9JEAjXsok6zZxY3h5zzp0It+i2OBVnhm/qxPvGXkxsy0lqIs1JUF
+cQ/yHokrsAgNi7VWDgg2yVtYoVJNJSLik/rMdLQUJ0ETEc8WRpa8o1o7geKyIvzL
+B2Jgd1DuJOphQOP1G4g+yMQv5+HczgOGfn3K7GfbyI61TOFa7uDYzsSNYZxNUC9d
+0cmciMTjjerv9XRkFrVBMGR/i0FH7lS0frRtrWLiwXxHy1ckpRfI0cs/Z5FB8NTZ
+QRDDxrIH+Mfj9yEaBY3lvsU0X0uiz6aINKBikOvV5ruA6TRlyvrMHA7LmDe2qhoX
+ul3uU7FLVPA81W4yjlJIxE5F4y1Ak7oUwiEwHPxBSLjg+MRjrzBzB81uo3nLmUBm
+o+2JMsRhqvlvk5cgl27gIlU23Sme5CWKdfQMyoBaRqIjCq5i8FO9fJcR3+fSNPxx
+aNY2QR1ybB2Ap44LjM3bmR9GXyTRvbiC+yDznDUnbn2s/40aXbS9l15u9akvV7Fj
+KQOQBEhca3B4ic9E7weexm6dc8kRNKBr8PSBUuH8l/0Ntld7zM3kmOgkpOCng/rg
+gqusGbZq86eSwigRCdTWcNyXradg3mE/3YfNRpy9ylwfivbLj42C7DM/z7HFhZdm
+9zOCwF5snw==
+=BDwL
 -----END PGP SIGNATURE-----
 
---===============9010235882455346496==--
+--===============7755673140552435860==--
