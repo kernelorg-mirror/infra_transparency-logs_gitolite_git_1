@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3862205135134494110=="
+Content-Type: multipart/mixed; boundary="===============2913097297462925802=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 26 Nov 2026 03:32:53 -0000
-Message-Id: <179566397390.3364708.14847634311968267378@gitolite.kernel.org>
+Date: Thu, 26 Nov 2026 03:32:59 -0000
+Message-Id: <179566397985.3364907.16666836737569438895@gitolite.kernel.org>
 
---===============3862205135134494110==
+--===============2913097297462925802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,81 +16,48 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 08fec21faae44fe002467976befd68e6e62969b5
-    new: 021fae688d1e6d826e6e755ac10ae0e4126834c9
-    log: revlist-08fec21faae4-021fae688d1e.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 3465fea8a786eaa86bee219343fd4584c1aa2f1b
+    new: 51ecc41bd5af6288e1cd204daefee1e0a843e325
+    log: |
+         73dc649679b8c8d774eb3b54603b1a156ea65f41 scsi: ufs: dt-bindings: qcom,sc7180-ufshc: Add Halliday UFS
+         cfab50c1f935a674be8afb107332ebd8261c5550 scsi: ufs: core: Remove debugfs before removing SCSI host
+         c894f3478fdee28cdaff7b0c3f5bf463b643aa53 scsi: ufs: core: Defer debugfs init until after device init
+         c8f8cdcba61f58c7d324b6d6e21e026c60bdc44e scsi: ufs: core: Add debugfs for PA TFS/FEC error counters
+         037c47ea092563a284b43151f9dc229e4d09f822 Merge patch series "scsi: ufs: core: Add debugfs for PA TFS/FEC error counters"
+         e9fbc0607917aeae3f66943b9a8b6e9a4e0f2fca scsi: 53c700: Fix hostdata[] size on 64-bit
+         36528e6e19332c3b946cd7634feace91af1bf117 scsi: qla2xxx: Rework BUILD_BUG_ON() assertion
+         9e7b265835fa38d85ca1179943549e4583ba92c9 scsi: trace: Print the CDL duration limit descriptor index
+         4ff20abe28d65a0c52f0b280008fcfb93c3ee2b2 scsi: 53c700: Fix invalid frees in m68k driver remove paths
+         
 
---===============3862205135134494110==
+--===============2913097297462925802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1795663972 -0500
+pusher 75C5DE3D 1795663977 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1795663972-7d00e053f899c1801b3754c53f1f275fcda93fc1
+nonce 1795663977-789d741576d10fd29a39e9049b2b19de18b2f5f7
 
-08fec21faae44fe002467976befd68e6e62969b5 021fae688d1e6d826e6e755ac10ae0e4126834c9 refs/heads/queue
+3465fea8a786eaa86bee219343fd4584c1aa2f1b 51ecc41bd5af6288e1cd204daefee1e0a843e325 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmsHqGQACgkQ7ulgGnXF
-3j0geA//QMzMnstHLZJ7rcl0/Ir1XJG/Sx9xsV6VIiWB3AHJQJh+zvCdcXjeLUtH
-FAHrUuqYulN44AhZDq2NFS8xOoYhOQs2o1+Qh6HX11dRhc7D8afuoRzJ8Q/P68EW
-4dZrKDpOg3ypEEN+Nf6+epPtLG21v3f0hRXHYZrl7B7mlOqUv6gzs/2Z3XSH4WK7
-fH3fAXx/IZBchhBE1PbgrbkWDrtb6IsBje1qHrqSF0omOoWDAdTJW2Y4HFauWWbo
-o+opZH88ORNQUM4e/moB9Dh22NSjVCqfs1CWR7fvlToaCjDCWr2ZIC68W5zrWePr
-eBx6a8NDCb1xJn2uVSp8LLvtiTBTQxLfEL5/FVlKunUHfG2DRKDd13TAYntuSi9u
-OB+va+Hdnsxfdv12OUBVpPkRsLvCR7yOrsEl7cTZF2b2MhDOZ1Cp8uzGbyBr0fgr
-lWZLNOQFk4/w2WVhKZVZmja/gP3VLsdfgIdkh6AaTfubju0xtX5uZyQ6nc7z5PWu
-gZWrarQAa9IfHWzi3Dwehh53YlA99stJTugQx9tkoR+2eE8brc7mAaMPGSWQdVAb
-/0yru7cmMQRk8Kpki4wcIVJ+Me5e/jC0L7wfwnJSHY4LBEk+ZMaiyKe8Wp5QXyZ7
-b6bHzihRxk1yg50PlbADh0wbno1PtY88PagAlCNv2q3tfFHauTA=
-=TCGc
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmsHqGkACgkQ7ulgGnXF
+3j0+2hAApkimksayAfhBl9KoDafKVejqPkBgiDbtkwuPZrDbJa/tKrLIxKv8lAs9
+8+R8M+OHu2BTmY9446HNADsI/G1n36Z02oln8Nv1cPxuS/nb31s6kNG3APKnKdvB
+IqKqTOiI9eShWPgB/Ar0obIVBDjbvlmWBlWfGJvx2eRPzU/sEkqEwuegv5YmM8uW
+8c0QEWW4ZOYrpk2MKHFrxa6aQUJZc8WdA1cmZQ1IcOdmbpe5BznbRVZFrsG0wyPS
+J/2mMTNNNHnNxmYyA/hJHzi347iJvgK06Y1X5/F7yahMsfaEL+COEbqaIrUDCUAt
+VSsev0gDIbxGaQfUEa60hZ3VQ6Ab7sk7ag/F0JQe42I7QHrUhNnSUAkmuvEWRB77
+GYifmANOZEzi+lGQYisjp8Y3OS0sOqEYZ6vcmX2HtZv/XV4o4l4jG0+MmSO1U2C2
+PBTfmkk2NIAe2rn9Ho0DSqmKcrjveOax9JpFBKWsb4XCySjGtgD5gP1QK1sy7hyp
+7u63pO91788cLtXAsHHE5he/E/xhUGPRbWYwgbzjfQIPE7ba5QMYG0K0Vr7M82sK
+5H9nJMjcScCGaVYTtXxzI0VEJI3F6PV/suU7RMfAJ6UIt64lp4Hn4iRhxJnQ8OvG
+3kZNEPb5zllSHj8uey+++APb+GhNhyKfDow/Q9gh3kD3GfCwynM=
+=3QQY
 -----END PGP SIGNATURE-----
 
---===============3862205135134494110==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-08fec21faae4-021fae688d1e.txt
-
-11a7560968137b980ae71b3b268ae5dd6e295a9e scsi: ufs: dt-bindings: starfive: Add UFS Host Controller for JHB100 SoC
-454284cf3f3901cce50e069be613210d4fc04342 scsi: ufs: amd-versal2: Make PHY register DME attribute tables per-call
-b65d9e54e5bbb10484d5d5cb0ff65e2823f1350f scsi: ufs: dwc: Rename amd-versal2 read/write PHY API and move to dwc common file
-715aa02a2de96435dbcffc5481c5bc191c547539 scsi: ufs: starfive: Add UFS support for StarFive JHB100 SoC
-2205b1afc6d09b60477dce6e1053c05556a54b3f scsi: wd719x: Fix potential firmware buffer leak on probe failure
-235a1223173532f24c00efa350310c436a18be58 scsi: esp_scsi: Report the residual byte count
-0943d0da936608c31efbec86c9fde28df02ff982 scsi: ufs: mediatek: Use ARRAY_SIZE() instead of open-coding it
-ebdcb02c8a2d61c0aef95a3d451c2464818cf2da scsi: ufs: core: Remove the DMA addresses from struct ufshcd_lrb
-97806677c3b80046e8173c60b8604bec1e02454a Merge patch series "Add StarFive JHB100 soc UFS platform driver"
-002ab4954ef6b9776ea16c35ad517c13959dd3f6 scsi: Consistently define pci_device_ids using named initializers
-1f4c50b5d04bc42550008f27831ef910cd41f93e scsi: lpfc: Fix format string and OOB copy in lpfc_read_object()
-fac36816b05791dde86ff2338ce3ad1404c31ffe scsi: pm8001: Fix abort completion status in pm8001_mpi_task_abort_resp()
-fb7673d1037d656535610e7c4307a75b52c4a44d scsi: mpi3mr: Fix out-of-bounds read of the BSG request
-3f00e31b1e94228dd453d4ef9faa64a6041d179b scsi: mpi3mr: Fix integer wrap in BSG buffer entry lengths
-e25ad58db1e3b5de1c8ed93af318f2d3095f5f88 scsi: mpi3mr: Remove redundant BSG buffer length checks
-213282fa70bd7e3e87cc4304afb1acd3cc7deb03 scsi: mpi3mr: Fix PRP list leak in BSG passthrough
-39bed42d2f0a6f6bd0f084c32a0de922443c6a73 scsi: mpi3mr: Fix reposting of invalid reply address on the admin queue
-aa1db329a26a462c8d90b1b3328ba13fe25eba60 scsi: mpi3mr: Fix endianness of device handles in BSG requests
-2057dfcc96c087035458af956dbd54f2f1d1bcbe scsi: mpi3mr: Fix integer overflow in the HDB upload bounds check
-ac7df6cdd9983db0acebc850ed3ea86c82246013 scsi: mpi3mr: Fix integer overflow in the log data size calculation
-e9642e4dc551dfc1401adc5bc21ff254c42c02cf scsi: mpi3mr: Queue DEVICE_INFO_CHANGED events to the bottom half again
-0f94a44009c05e48ab3d65d38cb4e734b7de6eea scsi: mpi3mr: Fix target device reference leaks
-7a94105f9408b570ebb0748ad2bfe399cd3cb255 scsi: mpi3mr: Fix the 32 bit shift when building the phy mask
-2d6e97aabc30d8027d959da38b6c7ce205fb3aee scsi: mpi3mr: Fix empty device list race in the all targets query
-83d010edd8df39978256d24f3d6f31d15c926f81 scsi: mpi3mr: Fix the lowest phy number for phys 32 and above
-85abd02a51c7d1bb69d80ea7e437e7239f8b7b9a scsi: mpi3mr: Fix target private data use after free in BSG passthrough
-572eaf1f4249740888017f2de95ded895d2c5569 scsi: mpi3mr: Fix block_io accounting when a target is re-created during BSG
-dcc72f9dbaaacb11068d87f10b235f72ed8eddb7 scsi: mpi3mr: Fix sense buffer use after free on BSG command completion
-93b373f0d4e0eb9ae88e5c45e222675b6ecc9494 scsi: mpi3mr: Fix partly written and lost entries in the log data buffer
-b02157ba7c1f9658ad10af48519dd8bdd71e90a3 scsi: mpi3mr: Fix byte order handling in the NVMe passthrough commands
-3ffd4ddbc0110441f6c525207e13bba4337033ef scsi: mpi3mr: Fix byte order of the BSG status reply
-4028e065184be8642325ddb6ea59b60dbe59a6ae scsi: mpi3mr: Use the correct conversion for the diag buffer post request
-640141d318e2f7dc3d7525a25643694910b3d6bb Merge patch series "scsi: mpi3mr: Fix issues reported by Sashiko"
-f505b951db60ddbcd291a8b3f338b97b9b338228 scsi: core: proc: Use snprintf() for the host number
-78f28a31d7d688054c95b5299845db8fb6e1308c scsi: scsi_debug: Wrap around the store when zeroing a reset zone
-021fae688d1e6d826e6e755ac10ae0e4126834c9 scsi: scsi_debug: Reset protection information on zone reset
-
---===============3862205135134494110==--
+--===============2913097297462925802==--
