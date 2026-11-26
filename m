@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wpan/wpan
-Date: Thu, 26 Nov 2026 07:13:05 -0000
-Message-Id: <179567718556.3523789.201772420795187150@gitolite.kernel.org>
+Date: Thu, 26 Nov 2026 07:13:07 -0000
+Message-Id: <179567718739.3523927.14880009732361376959@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wpan/wpan
 user: sschmidt
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging
     old: 6b4e5919526f89f85b2ab6541a824ad6aacf1df6
     new: 1e277fce233c1ff913d4f8662969809dc08957e7
     log: |
