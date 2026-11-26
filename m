@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 26 Nov 2026 02:17:40 -0000
-Message-Id: <179565946022.3308719.15533303893586302216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Thu, 26 Nov 2026 02:18:01 -0000
+Message-Id: <179565948150.3309198.6615791939112638952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: willemb
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/main
-    old: 1ab3fb564f20b78615a6d88b8c90da292f29e227
-    new: ef3e21c61baa74e39a49b75318bd4541562ec43f
+  - ref: refs/heads/fixes-togreg
+    old: 793d80b04b6c4f7f896c273567f94eccd0fac54d
+    new: 69bf7489f01ffa3c3269d09eb8a0668b1bdfa053
     log: |
-         e50436deae925d1b95b01936e2499428c4782a6a tcp: fix negative sk_forward_alloc after MSG_ZEROCOPY append
-         ef3e21c61baa74e39a49b75318bd4541562ec43f net/tcp-ao: fix reset key lookup for IPv4 segments on IPv6 listeners
+         69bf7489f01ffa3c3269d09eb8a0668b1bdfa053 iio: imu: st_lsm6dsx: set ts_sensitivity on parts without freq_fine
          
