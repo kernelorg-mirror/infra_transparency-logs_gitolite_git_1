@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4780061760404801062=="
+Content-Type: multipart/mixed; boundary="===============9010235882455346496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Thu, 26 Nov 2026 07:16:08 -0000
-Message-Id: <179567736801.3527655.12748874840100258899@gitolite.kernel.org>
+Date: Thu, 26 Nov 2026 07:19:19 -0000
+Message-Id: <179567755953.3528665.10771250354115708907@gitolite.kernel.org>
 
---===============4780061760404801062==
+--===============9010235882455346496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,42 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt
-    old: a312b2f6ce258fce3d8e89b939227932380b6017
-    new: 601999d004ea467bac8f29196df8af296b08564a
+  - ref: refs/heads/for-next
+    old: b65120633fcebcff36f958703d4bbecf34439218
+    new: db9e83ab3ae32c216ae136a2bd741053483f1804
     log: |
          601999d004ea467bac8f29196df8af296b08564a ARM: dts: samsung: exynos4412-trats2: exclude memory used by secure firmware
+         db9e83ab3ae32c216ae136a2bd741053483f1804 Merge branch 'next/dt' into for-next
          
 
---===============4780061760404801062==
+--===============9010235882455346496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1795677366 +0100
+pusher krzk@kernel.org 1795677557 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1795677364-e102483330d2026d5c35165672092bcb9fe5cc2f
+nonce 1795677555-e45b4c7e42a29b18f8e7080235bdb1cb8023252c
 
-a312b2f6ce258fce3d8e89b939227932380b6017 601999d004ea467bac8f29196df8af296b08564a refs/heads/next/dt
+b65120633fcebcff36f958703d4bbecf34439218 db9e83ab3ae32c216ae136a2bd741053483f1804 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmsH3LYQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD19UpD/4uMLltFkrd1nqoTHiDRKCAOtifkKenr8H6
-EP+pb2qIsSfGyjodI+sWldXjtaCha3P/JJuFezEGWnoADtKQ0Wf+/jFX5clbA9J4
-EFuHtdEo7BQfHeax9G5KVYnJuzxiImDceeN4mZZWVK12l8d9tVt+AT2CDmZ/XAX7
-SazX0wJ7QtIdjiAUXCmQcgX8WpCl3DsPHc+PyhghWqNzFfBtWQzda2H0dtRt4t4b
-pocA+VeCzsa/I0eUnMuJ4pq2bFDoTL4nJrwl/n3y6EKFt1qLP+5102pr7ZvxelQg
-BxLjD/grTmVjirvV0XhK3W+5caaxECozj2n9SVdkOBftH5jieECVe/4AWx3MwRBF
-sPeh9/v3qoq5BHJLVUPRwYHMMHqQCizN8uFfrLlP8osEmXhhu3ZL4kZQU/TyuvOt
-jUHnNJHWU4sF2l7YTFBhhwBeiclT3lqHSxaX/QxPBDW3/N2ZyaJPIvBeSMgid/Ra
-7qsNG6FnX7K6AtnQ/e4BTmE+TcAA27IIMNOENVwY40j44vpZrtE6QWHQ7oWhwtix
-ct+lwrgF+Cbgh6jLraXSACsaiNzLhFqmZQTsxWxf7jpkPZ7/03NUujfl9MkrOA9A
-Qnb+cuCIhd4pYBulDmhfcCeu1pCoO2fT9BwoOmEmVcY/CwO7Ulp0vtgaScY/wH/7
-Y8l/t+KObQ==
-=8qOt
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmsH3XUQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD10xhD/9bZqjBGFHh24XMteBMkaawRD0BNEf//6JF
+y/nD0WXXAPbTib5znOdrFJBAJQr3GujJxjGTwAEpq6nF9v/Pk2UJkMXMEip9ISc5
+gp9VVXrQAH8jBRl470ad6zPk7VJfGX17CNJV3n237BDEL5QdUVU2KeCfUZpRWYAB
+EBJPIHZzs7v/H50CYTmUwTAOsPQOIHmoNFS47+exV6FIIoYiq/RKRm/NPMNxzlYW
+t6l7aH21pBktR3DhdZWfKYPVeJWYbBsQHQoNub9RaffcWTAeGkGF46h7taoC18La
+Rn5rKeegPnk7hHsS3I6BHLYFRzzrl1h8CLyA3Ww06K6S8hfJqhwGDc0CdE8S8KSG
+W0n3JL7DuCnBNuE+omoSs/MVfRpdKf0OZOR+LSaoCjudIQU/eJJqBCrJPCd18KJV
+jFfeQquU/1LKHvXuGDX4ynGKIFGQkndveCqrzk0pSWtJ1IYwCLpJtgfzxlDt+nsv
+hMUbFO2JO8SRyrIQDFjIjkAp74/fKItJOFRDvDrZQc9yn0RD1mnMOPTZGDqQ9IYs
+94tVPqP/525t9jO1lUMHUkM+CvGrvNffLTKhgGsSwwcbhd7ma5h3sQvJX/x2QktV
+2aHJQ97zRQeGstqMb8bSYuPQwhQT0NSIQtifnpdWEeIHp/WvOeblxhDprbekkVOF
+X429bsQDzA==
+=5L0i
 -----END PGP SIGNATURE-----
 
---===============4780061760404801062==--
+--===============9010235882455346496==--
