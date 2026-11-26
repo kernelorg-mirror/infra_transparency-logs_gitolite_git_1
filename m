@@ -1,28 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 26 Nov 2026 12:24:54 -0000
-Message-Id: <179569589411.3768311.320566214255887290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 26 Nov 2026 12:29:06 -0000
+Message-Id: <179569614642.3771997.684670018631440101@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/experimental
-    old: 7e52cbffa83fbe9eb10bbf110cb12d503a048081
-    new: c5f9c33ad99f2ec560dca2925a6b63d42622888d
+  - ref: refs/heads/main
+    old: c3d6c354df28b9c2746a912855a002e7955347b3
+    new: 41f0051b9d4c0eea07992ef21051d45579d97ecd
     log: |
-         658e73fb2a7e5a42d31395a5c4cc0d7f8c686f57 erofs-utils: lib: reject incremental builds with external devices
-         3d5dbbab22deeac28701d7338a7d07644b8bad4c erofs-utils: lib: reject overflowing device-table offsets
-         a0622087e36f4f611fb64d6041205f63a6750fbb erofs-utils: lib: fix large chunk index writes
-         725f023888aa80a0e0144d54432511d58290a3fc erofs-utils: lib: fix hole detection in block maps
-         311b22dcfec4f697c977a46fbe1a3b2a061b5555 erofs-utils: lib: preserve device table if initialization fails
-         65b09e870098db52e062d4912ebec8aa4fde4602 erofs-utils: lib: introduce erofs_rebuild_params
-         564e6e35f7b93f645489130cca5570378155f07f erofs-utils: lib: add persistent dm-snapshot parser
-         8e6615aae4877e4c20a72b63fd21141a5c475139 erofs-utils: lib: add file-delta alignment callback
-         008cc939391aca24b765ace370a56b7a41a8b775 erofs-utils: mkfs: give each rebuild source its own device range
-         c5f9c33ad99f2ec560dca2925a6b63d42622888d erofs-utils: mkfs: support file deltas in manifests
+         3df2dec2bf57ce9cdf7b04f6dce972e30506e217 net: mvneta: lift the per-queue TX rate limits
+         4e26c63e8d58aba505c3e239995fd9ee5810c5d2 net: mvneta: fix the removal of the mqprio offload
+         427360d7b71c3c9eafac4f15f09da77df186f9b9 net: mvneta: check the TX queue range of an mqprio offload
+         96ef1ae9e1deb8ff48bc37b224696bd42a653625 net: mvneta: keep the TX rate limits across open and MTU change
+         b95f2641df3de040921422d6c87c1456eb0b6e11 net: mvneta: validate an mqprio setup before applying it
+         3977c38edc0c25d905d2f67a1f3b29a7616f4dd7 net: mvneta: serve the TX queues in weighted round robin
+         41f0051b9d4c0eea07992ef21051d45579d97ecd Merge branch 'net-mvneta-fix-the-tx-queue-arbitration-and-the-mqprio-offload'
          
