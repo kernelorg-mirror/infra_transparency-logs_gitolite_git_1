@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8133145017775827796=="
+Content-Type: multipart/mixed; boundary="===============1622783562109610601=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 26 Nov 2026 14:24:14 -0000
-Message-Id: <179570305471.3862040.13720575152532206629@gitolite.kernel.org>
+Date: Thu, 26 Nov 2026 14:24:41 -0000
+Message-Id: <179570308140.3862382.11634456227691439910@gitolite.kernel.org>
 
---===============8133145017775827796==
+--===============1622783562109610601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,48 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: d5944124ed228883f15a078b73b78b5bc1d50a7d
-    new: 71b649d4343ef660ae42e21a6e4276369114f32c
-    log: revlist-d5944124ed22-71b649d4343e.txt
+    old: 71b649d4343ef660ae42e21a6e4276369114f32c
+    new: f854a841881db3280c9f0e6ba738f71fd2dab561
+    log: revlist-71b649d4343e-f854a841881d.txt
+  - ref: refs/heads/tip/urgent
+    old: 67414a98ba5e9b3a40b6d4881d1779d43959aeeb
+    new: dba51fdb2794f5837736e33544c4a38ccb6945b7
+    log: revlist-67414a98ba5e-dba51fdb2794.txt
 
---===============8133145017775827796==
+--===============1622783562109610601==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d5944124ed22-71b649d4343e.txt
+Content-Disposition: attachment; filename=revlist-71b649d4343e-f854a841881d.txt
+
+d9d886d2ec72e6c36d99f0cb270ad13304937640 Merge branch into tip/master: 'locking/urgent'
+2063f4bf9e20a6afa6b84518db82286f6c013889 Merge branch into tip/master: 'perf/urgent'
+61d07551654f878cefbf9066d032fae37f75fdb9 Merge branch into tip/master: 'sched/urgent'
+7985b1851dfa5afbc51726c84403a8736bef9343 Merge branch into tip/master: 'x86/urgent'
+dba51fdb2794f5837736e33544c4a38ccb6945b7 Merge branch into tip/master: 'x86/mm'
+9e16e7b440b04880afd186faa2e090786e32ecb3 Merge branch into tip/master: 'core/merge'
+cb6d810a61ccfd13c63c655737bb4aaccc965445 Merge branch into tip/master: 'core/rseq'
+05788afa433c92f222f1912632a5e8c73643644d Merge branch into tip/master: 'irq/core'
+b6518bfc43def8f821cecc43bc18e456f3cde64d Merge branch into tip/master: 'irq/drivers'
+1418ab16a845a9f8a8c7e70d8cf91e228e7e090b Merge branch into tip/master: 'irq/msi'
+6c25e8de25c113d4d85ce353e203d8f62ce5ad0a Merge branch into tip/master: 'locking/core'
+8b49729b466b8ac34e7b2588198cf329f875f09b Merge branch into tip/master: 'objtool/core'
+ac66c7a2979a85fee961afa6fd7db8518502624b Merge branch into tip/master: 'perf/core'
+251623850be446796ce02dad6869b06905a1be4e Merge branch into tip/master: 'sched/core'
+3223512a2220fb293070e782bb0c375e9b6fcd84 Merge branch into tip/master: 'timers/core'
+07eb03a979f4189094f9670ca4a9cb020c3d4e1f Merge branch into tip/master: 'timers/nohz'
+04551579445eb51fbabf5abef0d44af576ba646d Merge branch into tip/master: 'timers/vdso'
+715c93f2b3e111c7a887ab7c4da699ec6d61d0f9 Merge branch into tip/master: 'x86/apic'
+ee9766295a8f4b7ac37f8f25b9742e8f998f4ffd Merge branch into tip/master: 'x86/cleanups'
+744d272e686dc4ef8cde12c83e97f5e7ae6ce7ef Merge branch into tip/master: 'x86/entry'
+a3acf7dea2d1d8dcbafe157e90d6e15a2994f6f0 Merge branch into tip/master: 'x86/misc'
+f854a841881db3280c9f0e6ba738f71fd2dab561 Merge branch into tip/master: 'x86/sev'
+
+--===============1622783562109610601==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-67414a98ba5e-dba51fdb2794.txt
 
 e637b774416775d09540070ceecf972c59070d90 firmware: arm_scmi: Update ARM_SCMI_HAVE_TRANSPORT rationale
 3b0c8dd5a8d57dd143f31e7a042ad5737663b312 firmware: arm_scmi: Avoid protocol devices in exclusive raw mode
@@ -157,7 +190,10 @@ ebb7a8dc1e74c705daffe11c2faf38ec2628f838 Merge tag 'soc-fixes-7.4' of git://git.
 e4c5112f01816b0ac6d74724545eca1195788c38 perf: Prevent duplicate sigtrap task work enqueue
 38606d2911f7f2fe80388315da0c4a7fc98af0f8 perf: Fix sigtrap for software events
 34dc983cc1628dea5054baa8687477cbb8683e28 perf: Fix sigtrap vs fast-switch
-f40b6697b2e44fbef9ac583c90852e1152880577 Merge branch 'linus'
-71b649d4343ef660ae42e21a6e4276369114f32c Merge branch into tip/master: 'perf/urgent'
+d9d886d2ec72e6c36d99f0cb270ad13304937640 Merge branch into tip/master: 'locking/urgent'
+2063f4bf9e20a6afa6b84518db82286f6c013889 Merge branch into tip/master: 'perf/urgent'
+61d07551654f878cefbf9066d032fae37f75fdb9 Merge branch into tip/master: 'sched/urgent'
+7985b1851dfa5afbc51726c84403a8736bef9343 Merge branch into tip/master: 'x86/urgent'
+dba51fdb2794f5837736e33544c4a38ccb6945b7 Merge branch into tip/master: 'x86/mm'
 
---===============8133145017775827796==--
+--===============1622783562109610601==--
