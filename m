@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Thu, 26 Nov 2026 06:30:52 -0000
-Message-Id: <179567465224.3491822.1553772082947112708@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 26 Nov 2026 06:38:45 -0000
+Message-Id: <179567512569.3496329.1287391632372083865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
   - ref: refs/heads/master
-    old: 86ca23ee90b569e5a465a01e36d48a74870d8930
-    new: 4d12fa4df5c15cebc587644e84b8f972874e66f1
+    old: fcef6ba90c21d4120dc40087c1376e8af70f90dd
+    new: 24e451b429eb1dae3d8eab773f7693da3fc1773d
     log: |
-         4d12fa4df5c15cebc587644e84b8f972874e66f1 xfrm: remove three registration spinlocks
+         24e451b429eb1dae3d8eab773f7693da3fc1773d send: support sendemail.smtpDomain in gitconfig
          
