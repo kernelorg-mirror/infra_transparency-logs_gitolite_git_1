@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0787970298718291476=="
+Content-Type: multipart/mixed; boundary="===============1711936088275514456=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 26 Nov 2026 03:32:31 -0000
-Message-Id: <179566395107.3363725.8454135134325148863@gitolite.kernel.org>
+Date: Thu, 26 Nov 2026 03:32:35 -0000
+Message-Id: <179566395542.3363924.3406690192040351604@gitolite.kernel.org>
 
---===============0787970298718291476==
+--===============1711936088275514456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,40 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: c494ee8d6e82330d3a791fe9f93141319789f938
-    new: 3ad7473dd33704c393835482018a18a2a8be860f
+  - ref: refs/heads/7.4/scsi-fixes
+    old: efd68f17acca65f581b9f2fa9ba50c8643ab544d
+    new: 4be084ac36f95f95e21a1e39207e87326967a73d
     log: |
          4be084ac36f95f95e21a1e39207e87326967a73d scsi: ufs: ufs-sprd: Fix vdd-mphy regulator leak on probe failure and remove
          
 
---===============0787970298718291476==
+--===============1711936088275514456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1795663949 -0500
+pusher 75C5DE3D 1795663953 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1795663948-b237496da12b7c2097c2c8392830f53fddc6d45c
+nonce 1795663953-b411689d9091fc3488ba3e0fe08bcd79ba9cb171
 
-c494ee8d6e82330d3a791fe9f93141319789f938 3ad7473dd33704c393835482018a18a2a8be860f refs/tags/mkp-scsi-fixes
+efd68f17acca65f581b9f2fa9ba50c8643ab544d 4be084ac36f95f95e21a1e39207e87326967a73d refs/heads/7.4/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmsHqE0ACgkQ7ulgGnXF
-3j04SA//YzsNIdk8hth9gkJ4pEQV4ypWmSHHizaU2nisHyVA0MaArEnxeY5NKXUZ
-UJjFnLUSmmtDOqMJioGN3dMAvyTj8J6DdPi+/vWXGaBaYf5NaN8qisHuG/GbuQ/y
-VUnYZZQcjhKYTH6agAnBD5amlagY2FolCFnmL4ySpRgLqqSWVCj5/AAZIm7Jr1vA
-B6rF8HbmMrA60+u/IwuH78dwPmTeZTia6KgJfYK7NWttK20WNYwxG9Z21YX8UAZD
-USdZYLz4dlLMOpYzfoxUgZk4bTKjmDF8XQFa1U0gwemSu9wtudOfDL7jQ5gc0nOO
-SU1Cc3pb4iJ6qc/SbR2UvX/+SQWfQ4TrD/d4rNxErIUSIgcVgMKD3gxYGh6Ufv/H
-LD94InSn9zLnbcTGGw6Ma+Jr8RWyGFURVibanASHDf1EldMCpEvqG8riftLub6F8
-7MLQsxcpG4tAa2JSPmieUj1qqiMMu5WiughjaonrNxXxoCfjf9pA946qk22DVSxH
-SHZog3vkRhILVqltgFXmf59NuUDMv4IDp4NuLVTt1/pETSZ2op/G3pyUJc+Ft2p3
-FvyxFlhAMQ0W4muFwSaDBGdnvnAM0vSsrZ1Go4t4mJ/esS9hhAqMynpA2/6N1OvB
-H3uPuS7e56DxcM3qsB+aIPkaVn+U6Es+aY8ElsSS7JCbcLL1Cec=
-=Wbhm
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmsHqFEACgkQ7ulgGnXF
+3j0SLA/8CCsyJMG7ePCLupj/YMCBEmsF3wBcTbuXlM6ijnCKca7ZsFtBo6F5yfwn
+oGCCTzz715PymrpGjnMa8BnJT9/awCtSuVp09B1luxxoOmQN33xiiBxAEDfCwJLm
+gX4/BC9d45hU0GtPgUVn0xEyxS7dF6hEFqSHT3Gq2jLnhQnmTQlY4uC3uSG67TLT
+rOsxihKPl0gPJEkO81P/O48QRQvbh/tpF7fnbIaYP1mAkypKLE8uLGBh0d327U3a
++EGgKyJ63vYxvjDJywplnOWKp3+rMxfJ9plI7DzIislA+X2537oKNQt3tGoiEkCn
+1Y17HEpETXsI8tYop8gVZDT6fNrs7ZZpGHxDSunxr+SOP1FXWkWsolE12DRARkg3
+f+3xj/IF9CGeJ9+Omso8owLOrnSpvttjPhFcrVWGH0EACQqAKoWeLA3+SwrMJJiS
+ywGL6eIXkVE+gjpz80CWIHYjeTP5yEjpvn6nXSflLh93yfaIVCRDMDf3NONxh3EZ
+K2NKiMe8rtY3UdhMADrI94IL9OFvLc0EOx4JhnRs6+PifIBtXOPxid09lJ0JD3wn
+Dr10Ja3S/LkAvsuAqZ93HVGV7ebAfYj8Y36gQocy7SgS0Vuyk/kSxb3M3Cfbsw9f
+GPXh95vE/3vnQYMNqJqmeZyiDSOJhgU2udb/fg5wayKn71NfhmI=
+=G7tR
 -----END PGP SIGNATURE-----
 
---===============0787970298718291476==--
+--===============1711936088275514456==--
