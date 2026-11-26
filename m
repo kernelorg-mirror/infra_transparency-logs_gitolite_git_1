@@ -1,25 +1,40 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 26 Nov 2026 12:29:06 -0000
-Message-Id: <179569614642.3771997.684670018631440101@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
+Date: Thu, 26 Nov 2026 12:37:43 -0000
+Message-Id: <179569666332.3778701.1354962869774597362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/liveupdate/linux
+user: rppt
 changes:
-  - ref: refs/heads/main
-    old: c3d6c354df28b9c2746a912855a002e7955347b3
-    new: 41f0051b9d4c0eea07992ef21051d45579d97ecd
+  - ref: refs/heads/kexec-next
+    old: 53c85336700b9b430e993ee84a1b9640c944a749
+    new: 4634bfe14416fb0ca7deb5fe23f4f03b4c6f0792
     log: |
-         3df2dec2bf57ce9cdf7b04f6dce972e30506e217 net: mvneta: lift the per-queue TX rate limits
-         4e26c63e8d58aba505c3e239995fd9ee5810c5d2 net: mvneta: fix the removal of the mqprio offload
-         427360d7b71c3c9eafac4f15f09da77df186f9b9 net: mvneta: check the TX queue range of an mqprio offload
-         96ef1ae9e1deb8ff48bc37b224696bd42a653625 net: mvneta: keep the TX rate limits across open and MTU change
-         b95f2641df3de040921422d6c87c1456eb0b6e11 net: mvneta: validate an mqprio setup before applying it
-         3977c38edc0c25d905d2f67a1f3b29a7616f4dd7 net: mvneta: serve the TX queues in weighted round robin
-         41f0051b9d4c0eea07992ef21051d45579d97ecd Merge branch 'net-mvneta-fix-the-tx-queue-arbitration-and-the-mqprio-offload'
+         5c0dcc16ec7abb93b3e7cf36a14192a523542469 Merge branch 'kexec-fixes' into kexec-next
+         4634bfe14416fb0ca7deb5fe23f4f03b4c6f0792 Merge branch 'kexec-7.5' into kexec-next
+         
+  - ref: refs/heads/liveupdate-7.5
+    old: cba589505b0ec93075c6b17abf502a777f034133
+    new: c0c0335ed598283241bf82444af4fb553f39637d
+    log: |
+         407c72e5a9c329e169c5132557c905913116f04d liveupdate: luo_file: allow keeping private_data from retrieve until finish
+         a89b83c7a9571dacb10e757d9a7400a886b11bc8 mm/memfd_luo: keep memfd frozen until finish
+         c0c0335ed598283241bf82444af4fb553f39637d Merge patch series "memfd_luo: keep memfd frozen until finish"
+         
+  - ref: refs/heads/next
+    old: 20a5c9cfa3272b1d535f4448000bcb515fb89d32
+    new: e4c5665d263fa0f0d22efb06ee79811048be0883
+    log: |
+         407c72e5a9c329e169c5132557c905913116f04d liveupdate: luo_file: allow keeping private_data from retrieve until finish
+         a89b83c7a9571dacb10e757d9a7400a886b11bc8 mm/memfd_luo: keep memfd frozen until finish
+         c0c0335ed598283241bf82444af4fb553f39637d Merge patch series "memfd_luo: keep memfd frozen until finish"
+         b7c8eb8aa41456508ff8a6eed6b3f45faf70ecc0 Merge branch 'fixes' into next
+         7a14c27cebd806a00884568bc747b173e55dad77 Merge branch 'liveupdate-7.5' into next
+         bd84c3cda540ce07a552ee2be7170609ae25121b Merge branch 'luo-internal-api' into next
+         e4c5665d263fa0f0d22efb06ee79811048be0883 Merge branch 'lu-pci-preservation' into next
          
