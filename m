@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6798123161905695917=="
+Content-Type: multipart/mixed; boundary="===============6076801482666806410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Thu, 26 Nov 2026 07:13:51 -0000
-Message-Id: <179567723116.3524243.6329342759681460515@gitolite.kernel.org>
+Date: Thu, 26 Nov 2026 07:14:17 -0000
+Message-Id: <179567725716.3524621.10225103667451783860@gitolite.kernel.org>
 
---===============6798123161905695917==
+--===============6076801482666806410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,42 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/clk
-    old: 783214e3268f71296cb6f62669b0daced0ac249d
-    new: 16efc5f5b3963779dd9aa714fdcb55a6bd8469d5
+  - ref: refs/heads/for-next
+    old: 5d7b9f865597a74b323d512619c42f3e07ae043a
+    new: b65120633fcebcff36f958703d4bbecf34439218
     log: |
          16efc5f5b3963779dd9aa714fdcb55a6bd8469d5 clk: samsung: exynos5420: Terminate PLL rate tables with sentinels
+         b65120633fcebcff36f958703d4bbecf34439218 Merge branch 'next/clk' into for-next
          
 
---===============6798123161905695917==
+--===============6076801482666806410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1795677229 +0100
+pusher krzk@kernel.org 1795677255 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1795677229-dc3e89848f7f8412d0b2189bb09f5ad7df1a41e2
+nonce 1795677255-48873d0532194d6735fdf8ef9bb5af44230420e4
 
-783214e3268f71296cb6f62669b0daced0ac249d 16efc5f5b3963779dd9aa714fdcb55a6bd8469d5 refs/heads/next/clk
+5d7b9f865597a74b323d512619c42f3e07ae043a b65120633fcebcff36f958703d4bbecf34439218 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmsH3C0QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1yDrD/9vwMSul0hg5u12wnEbccG1Li0+XEvSAHoL
-BlNpZQhLjsyemFKOA2d6WdAyt11YU/dHJ/6006XJvuYGCw4FZIEdJWFvmciqhSBh
-4l3Zp59X/kMJiC7XaBbrUC2GlbDViB3qgIvMAC1cbceNkbj791vIuDe9n/fMB+Zl
-uaiQAfFSsnGEjV+2ifmjfhheMzBtV7MnNzPoqNdHMuiY7xESHrTtEWZw2AeNZtxO
-MRroXqM2V0dwTLEcTiSLg6SjuTTBJBy7BHtbUdjkfU93lA3dkG1renPu6SIJdZxh
-ME65GHyvjWs+DJzQN3HN6fHQ2NxIJsFKDbOw/hBhJOuwl6SPvSF3EpwP+KgJ+4Ml
-Z4svLGpV8cWl/Rl1O9kOeHL/l/4sg8wQPF3M63rkNCro+70Ch1D5uiYDgU7GCsPA
-ExyERuVBhmEx55KNgaBPxbHgcIHsJGSA1UClL8mTEam2qIaos/gVkSeLO+24KQsy
-ZWRSEF31A0O7uRh+LJGiUOeCpuVQlGamikAKOKtLxDruwj+fRVKRkGuyGmHzdRoN
-Kq2gcINXB7s0s5/2PJg8lsUQ+7rgbkwXLEZWUHc9XQO39Q7ZOuGl2zF+kl3+8H/D
-bfVYoT+oJgrhM4DYpU/RjAdAupy9puUFVSu9J0/dLk+eW4RzR49Qvjcf0Lq59+n6
-Cv98J+nHDA==
-=hGae
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmsH3EcQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD19nQD/9BoOJQzXi6Euwekl32fOJf1hwAkM3UN3xX
+F9pvYimbUacfT/KVrFfxiKFxpUTjCJUQYCdcElTdthhczZe96nIVMaMbe5AouxC+
+VJjPCF/2tgg5heATb+CrCZXxrI6NhLypFCEA0Osmpu4qHMvM2ziJFx4h4TRo+eFM
+rUATR+daqymL4YjV0AX9gJicN+YbbHYt1lOhWDUAL7jRuMsA25Tl1uIyNilvToWD
+5vdT3o7JQchkwU+1hxhsU0hqbU0WpYaBH6YTA34dUV1uzSq79SfnNkrTTTgFTBAV
+IsGKvTxNoyxNCifIhHSJvQGjSciNaqN3/Zvj9iotCVDsTI6fh+N6IxjRByaKWreS
+K/JiyZjSXbZsdCJy0UYERVU2rla+TEFngwzySH1B6paAwsEMKxU2rE216vSxSxnR
+S5KQgQdXf+OUJ4XI9Ve+VG9cx3uLahFaqz4u5RjQfsIcGO0UeklVdmRWICmpGG0N
+KCR5YOjB0pkPA7rgP53CgyGW2ckweA3vq0fKqnqzL9ddWCcm+Rh+eQbZ2CQjtRuO
+n6ZGK3tZYsXLzhxMcsuz4UkDsIWjEUU+fZQRMRQJTqRT3WOPw+fMcSmEmyoOswno
+ZGCGDjGAyfPUn97ajwl9GZWLPG7SNEWmSsAggJrgyjAwDZSgsxW4akUUDdv/6XSV
+XBbwseM26Q==
+=wAlU
 -----END PGP SIGNATURE-----
 
---===============6798123161905695917==--
+--===============6076801482666806410==--
