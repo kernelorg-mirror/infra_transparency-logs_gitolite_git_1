@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2805850568941286886=="
+Content-Type: multipart/mixed; boundary="===============5228288246340322311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 26 Nov 2026 01:24:21 -0000
-Message-Id: <179565626140.3267656.11462766494311490315@gitolite.kernel.org>
+Date: Thu, 26 Nov 2026 01:24:25 -0000
+Message-Id: <179565626560.3267882.14499409619597431526@gitolite.kernel.org>
 
---===============2805850568941286886==
+--===============5228288246340322311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: a036649714c3446abfdc36d0ae483046432b16c5
-    new: 3d27e49eb905a5119e78fbe3d3890f376d15c728
-    log: revlist-a036649714c3-3d27e49eb905.txt
+  - ref: refs/heads/mm-unstable
+    old: c8117bff684306f5c1f959d055cc2b24dd67b1eb
+    new: 739e2d979b66be560b608a38c4ff86150ec090be
+    log: revlist-c8117bff6843-739e2d979b66.txt
 
---===============2805850568941286886==
+--===============5228288246340322311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a036649714c3-3d27e49eb905.txt
+Content-Disposition: attachment; filename=revlist-c8117bff6843-739e2d979b66.txt
 
 aef685fcf0700577f3ce95dfa627c6ce92577719 mm/damon/stat: avoid 32-bit overflow in idle time milliseconds
 86b1ac8ede1dd8094a890e5b2f2a2dd6adc08212 mm/damon/core: fix damos_walk() hang with zero watermarks interval
@@ -454,30 +454,5 @@ ecf684a3eb60dbf428a71598f3392eb2a4436c78 soc: qcom: rmtfs_mem: convert mmap hook
 b21a45381e8ddaedd9cfd69bf035f74256b94ae7 misc: bcm-vk: convert mmap hook to mmap_prepare
 92cdcfbf70344a999a07f65c474a00ecfa821560 ptp: vmclock: convert mmap hook to mmap_prepare
 739e2d979b66be560b608a38c4ff86150ec090be vhost-vdpa: convert mmap hook to mmap_prepare
-4f98fabb15e7f50a9fd79b217589d4792ccf0326 userfaultfd: use anonymous memory for UFFDIO_ZEROPAGE on private file mappings
-1f8e819dfd170a8c32ccd226377deb099f746775 userfaultfd: refuse UFFDIO_MOVE into a non-present huge destination PMD
-d6edff0e2cc7fc493c9393d62350c17e34790ad8 fs/proc/task_mmu: downgrade writable migration entries in PAGEMAP_SCAN write-protect
-ea02bf92d91a48f13f8741ad5a42bd2109d70a7b fs/proc/task_mmu: write-protect device-private THPs in PAGEMAP_SCAN
-0ab4ab3d542ee3ab83f811f806bf46af123f068d mm/huge_memory: build the moved huge zero PMD from the destination VMA
-66b4247ab4d52ac77ee2f98836b685a725187e32 mm/mremap: resolve uffd state when the context is dropped, not during the move
-ea2cf67f0ab1b830e314519e6c674510123fd044 mm/userfaultfd: check the hugetlb alignment of every VMA in the pre-scan
-44aa27019d1786dba58b79e307d814945e1c1b39 mm/vma: error out on invalid bounds in unmapped_area_topdown()
-834e1d07a924bf9697cc6b87989dcdec261340b5 mm/vma: lock VMAs before taking mm_all_locks_mutex
-f46f59ff712856922a81a1c3f3ce6ae73bddd09c mm/vma: fix uncharge after failed stack relocation
-64ee603bc48ad4db1e1a550a485cf693d8e843f4 mm/mremap: apply the mmap() offset limits on expansion
-e76bd7d40fd7805f9f526f508cbaed1e0cc32f3b mm/mremap: respect guard gaps on in-place expansion
-16e2d80acdff2f6708658795419fedfe57866305 mm/vma: make brk mappings non-executable under MDWE
-96d78ef8e1372223f41af36471713b94eaa3b8e7 selftests/mm: uffd-wp-mremap: skip unsupported shmem and hugetlb cases
-bb224d0500bdd47d7527252ee404b43e5857bad5 selftests/mm: uffd-unit-tests: filter required features per memory type
-f88ef4d12b1db34dd95bfbfafd0c117fab349814 percpu: skip sidelined slot in pcpu_balance_populated()
-57a9cf60f7d53e8a36a4b428658f32aef9093f3a Documentation/userfaultfd: document RWP behavior when the PTE is dropped
-60ff312a681b2b5c3112bc4030e4aa06c4f150bb tools/mm/page_owner_sort: fix slab allocator labelling
-5a7af93437baab9c8962d51075f3adcfaf9973a8 fs/proc/task_mmu: reset walk_end before each pagemap walk
-e634ad1d8b243169e6a4861f751208d10b5c309d selftests/mm: cover PAGEMAP_SCAN refill and HugeTLB retry
-51b2fc77de000de7c0797352a9da7ba440cbabae mm/mlock: make a zero length request a no-op whatever the alignment
-f9a5d07d90bc8b3c403361252e5e215be05ecf45 mm/mlock: reject ranges that cannot be represented
-edd013110a98069b7a1bd7eff49affdaa89c4b0b selftests/mm: test mlock() and munlock() range normalisation
-a5324839fe83db2f45cedef79b06bfb7fc1633ca mm: mglru: reset the mm iteration cursor in try_to_inc_max_seq_nowalk()
-3d27e49eb905a5119e78fbe3d3890f376d15c728 tools/mm: page-types: flush pending idle bitmap bits after walking
 
---===============2805850568941286886==--
+--===============5228288246340322311==--
