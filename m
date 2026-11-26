@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 26 Nov 2026 10:10:12 -0000
-Message-Id: <179568781214.3662715.14356163955106780766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
+Date: Thu, 26 Nov 2026 10:21:12 -0000
+Message-Id: <179568847298.3671835.9695879555517805597@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/coresight/linux
+user: suzukikp
 changes:
-  - ref: refs/heads/main
-    old: 16a7a3f83c2f83239b0395faac8da4acbbbb0ffe
-    new: fd9c15ee7cbd8f03d75214f2f2594716d35a3be6
+  - ref: refs/heads/next
+    old: 8e3ac058be1b613aeabcb7ce18c142e4603cc5dd
+    new: b7d7462c7f973b65de511db6bebb99fb29946ed8
     log: |
-         20de59b28d9ba143280a21dece0fd494a2569156 linux-firmware: qcom: sync audioreach firmwares from v1.0.6 build
-         fd9c15ee7cbd8f03d75214f2f2594716d35a3be6 Merge branch 'tplg/v1.0.6' into 'main'
+         b7d7462c7f973b65de511db6bebb99fb29946ed8 coresight: perf: End AUX output when an event is throttled
          
