@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Thu, 26 Nov 2026 15:15:54 -0000
-Message-Id: <179570615451.3908670.3941129251183934011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 26 Nov 2026 15:26:31 -0000
+Message-Id: <179570679121.3926651.10419119675886915251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/dev-test
-    old: 79f9e56d1bbf598503b240b8119624602e7ef3d2
-    new: c1639ff1e7ab79ead8bfad51b1aeb94f7b1e3092
+  - ref: refs/heads/master
+    old: 1aaaaac6d52a965acc3d70a8420e31564c5f7a25
+    new: af3be6afbe7c946d54df6ac3d3dad9741daf4281
     log: |
-         c1639ff1e7ab79ead8bfad51b1aeb94f7b1e3092 erofs: reject turning inode_share on during remount
-         
-  - ref: refs/heads/fixes
-    old: 79f9e56d1bbf598503b240b8119624602e7ef3d2
-    new: c1639ff1e7ab79ead8bfad51b1aeb94f7b1e3092
-    log: |
-         c1639ff1e7ab79ead8bfad51b1aeb94f7b1e3092 erofs: reject turning inode_share on during remount
+         8add85d51363d0a68ee5472ff4df99c4bc057d6d review: Add a batch mode for agent reviews
+         af3be6afbe7c946d54df6ac3d3dad9741daf4281 plan: record batch agent reviews and label-based selection
          
