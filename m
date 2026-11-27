@@ -1,15 +1,15 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 27 Nov 2026 08:01:21 -0000
-Message-Id: <179576648158.758693.9632880289445235531@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
+Date: Fri, 27 Nov 2026 08:01:52 -0000
+Message-Id: <179576651294.758931.15295275522171481082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/mszyprowski/linux
+user: mszyprowski
 changes:
   - ref: refs/tags/v7.4-rc4
     old: 0000000000000000000000000000000000000000
