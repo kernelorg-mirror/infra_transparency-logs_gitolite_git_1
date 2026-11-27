@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 27 Nov 2026 10:35:41 -0000
-Message-Id: <179577574197.876787.7341813238461712398@gitolite.kernel.org>
+Date: Fri, 27 Nov 2026 10:39:21 -0000
+Message-Id: <179577596165.878107.2368610017514253295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: e9e45fcb6d39bee9325e6a7dca72bd14e82760f3
-    new: 0651cae60e847cb947311167cf1325bb8ab64d31
+    old: 0651cae60e847cb947311167cf1325bb8ab64d31
+    new: cc02d3b82669fa14a8dd26a7e482dbe719f33932
     log: |
-         0651cae60e847cb947311167cf1325bb8ab64d31 net: lan966x: return an error for XDP frames that are not queued
+         cc02d3b82669fa14a8dd26a7e482dbe719f33932 net: sparx5/lan969x: only check the DSM calendar on sparx5
          
