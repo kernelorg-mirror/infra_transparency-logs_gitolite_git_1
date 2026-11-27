@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 27 Nov 2026 10:39:21 -0000
-Message-Id: <179577596165.878107.2368610017514253295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jenswi/linux-tee
+Date: Fri, 27 Nov 2026 10:39:42 -0000
+Message-Id: <179577598297.878365.2121570580532552300@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/jenswi/linux-tee
+user: jenswi
 changes:
-  - ref: refs/heads/main
-    old: 0651cae60e847cb947311167cf1325bb8ab64d31
-    new: cc02d3b82669fa14a8dd26a7e482dbe719f33932
-    log: |
-         cc02d3b82669fa14a8dd26a7e482dbe719f33932 net: sparx5/lan969x: only check the DSM calendar on sparx5
-         
+  - ref: refs/tags/qtee-fix-for-v7.4
+    old: 0000000000000000000000000000000000000000
+    new: 8a65c19af80e0ca74b00e25b7403355971301087
