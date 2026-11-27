@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3243935739472170294=="
+Content-Type: multipart/mixed; boundary="===============2719094509883492378=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 27 Nov 2026 19:44:16 -0000
-Message-Id: <179580865694.1349809.7973042773105782142@gitolite.kernel.org>
+Date: Fri, 27 Nov 2026 19:50:07 -0000
+Message-Id: <179580900701.1355743.15039798762277399785@gitolite.kernel.org>
 
---===============3243935739472170294==
+--===============2719094509883492378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,48 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 26c6a23b016598581950c0995c91b46b4a0fb5e4
-    new: 961b2ed773f5d569966ccb7b625f068f575cdfd7
-    log: revlist-26c6a23b0165-961b2ed773f5.txt
+    old: 961b2ed773f5d569966ccb7b625f068f575cdfd7
+    new: 379a89b3522d0c2c44b1ce7b53121da37edb3ad7
+    log: revlist-961b2ed773f5-379a89b3522d.txt
+  - ref: refs/heads/tip/urgent
+    old: e356bd50246d09ef78c8e3a064463ae77b59e440
+    new: 87848f527229d6f81df15fd3bcf6cd31b0eefa1a
+    log: revlist-e356bd50246d-87848f527229.txt
 
---===============3243935739472170294==
+--===============2719094509883492378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26c6a23b0165-961b2ed773f5.txt
+Content-Disposition: attachment; filename=revlist-961b2ed773f5-379a89b3522d.txt
+
+1329b48476a134afe78abdbb47275911b4dc0fab Merge branch into tip/master: 'locking/urgent'
+bca5adfabbcb1d4888cf53e525aef911e253aade Merge branch into tip/master: 'perf/urgent'
+8d264471a70ad567a84acd8211bf355f8429fd27 Merge branch into tip/master: 'sched/urgent'
+5bbd29b7939cf47e35ece40636f2f35644187260 Merge branch into tip/master: 'x86/urgent'
+87848f527229d6f81df15fd3bcf6cd31b0eefa1a Merge branch into tip/master: 'x86/mm'
+509ca9a1950091ebbaeb47d4e75434ed66ea4835 Merge branch into tip/master: 'core/merge'
+062b97b152a9f6b6e7c190930500c81b9db25f72 Merge branch into tip/master: 'core/rseq'
+6f9642802ad83e4bcc7fccdb680f2765ac9727d4 Merge branch into tip/master: 'irq/core'
+ec7349b4c3fa97e3bddf8f9c1caa946ed435802a Merge branch into tip/master: 'irq/drivers'
+401314f41e9dd6f13fb4b5fecbd83ae400ca78a2 Merge branch into tip/master: 'irq/msi'
+dc7046521c9af0a65b2b01498f2a30cc36890032 Merge branch into tip/master: 'locking/core'
+689bb196db1d5da4deabd749b9d0b682f3b78b69 Merge branch into tip/master: 'objtool/core'
+e6b7fb1ed9b266bc90d2834b707357b4c684440d Merge branch into tip/master: 'perf/core'
+1f152dd8f01f26a3cbba413ec71fb0b5b352607c Merge branch into tip/master: 'sched/core'
+68858f8a02562d4aaab24a01d2d5d62d198d849d Merge branch into tip/master: 'timers/core'
+bf11de85a8089557a061ef533d435318aab61ee1 Merge branch into tip/master: 'timers/nohz'
+6a2d6fd254733a5d3761c793a53bdf15e769534d Merge branch into tip/master: 'timers/vdso'
+2d1888c4e04ad6654bf8ba8fff0cc3f2c5ef30fe Merge branch into tip/master: 'x86/apic'
+836d7b95912d2e6f38fc1a42c21848ac13930747 Merge branch into tip/master: 'x86/cleanups'
+5f15481e7f121dabad12388339deeac4247300e2 Merge branch into tip/master: 'x86/entry'
+ae58c3638a701aa5cb1b1f978620f994333011da Merge branch into tip/master: 'x86/misc'
+379a89b3522d0c2c44b1ce7b53121da37edb3ad7 Merge branch into tip/master: 'x86/sev'
+
+--===============2719094509883492378==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e356bd50246d-87848f527229.txt
 
 008b903f55eb4bdb1af77070bb93e6e1dfa9145d s390/cert_store: Hold keyring->sem while reading the keyring
 1be070c4dc6edbfb015e72156fadb49fbaef47b9 s390/cert_store: Fix return code handling in invalidate_keyring_keys()
@@ -80,6 +113,10 @@ a7e632493acf33b7c17f922678377bc26b877d50 arm64: module: Use text-poke for late P
 1f1b6ca3145a1179d88b0033a871e4e187da0d4e Merge tag 'mm-core-7.4-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mm/core
 27db887a98fe217ef96d2d9f0c61804f63a145f6 Merge tag 's390-7.4-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 822ba3a89c7896b26e4beb70e2ebffb881924dfe Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-961b2ed773f5d569966ccb7b625f068f575cdfd7 Merge branch 'linus'
+1329b48476a134afe78abdbb47275911b4dc0fab Merge branch into tip/master: 'locking/urgent'
+bca5adfabbcb1d4888cf53e525aef911e253aade Merge branch into tip/master: 'perf/urgent'
+8d264471a70ad567a84acd8211bf355f8429fd27 Merge branch into tip/master: 'sched/urgent'
+5bbd29b7939cf47e35ece40636f2f35644187260 Merge branch into tip/master: 'x86/urgent'
+87848f527229d6f81df15fd3bcf6cd31b0eefa1a Merge branch into tip/master: 'x86/mm'
 
---===============3243935739472170294==--
+--===============2719094509883492378==--
