@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7347932479628857597=="
+Content-Type: multipart/mixed; boundary="===============8169743294736594605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 27 Nov 2026 23:46:50 -0000
-Message-Id: <179582321085.1530792.3215972701701654075@gitolite.kernel.org>
+Date: Fri, 27 Nov 2026 23:46:52 -0000
+Message-Id: <179582321250.1530925.14987308849159759797@gitolite.kernel.org>
 
---===============7347932479628857597==
+--===============8169743294736594605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,47 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 3d27e49eb905a5119e78fbe3d3890f376d15c728
-    new: 70f9be71bec0fead27e0eb34f7826acfa3f4a6c3
-    log: revlist-3d27e49eb905-70f9be71bec0.txt
+  - ref: refs/heads/mm-unstable
+    old: 739e2d979b66be560b608a38c4ff86150ec090be
+    new: ac6a52aad42728ef45e6972c403072fba5c524f4
+    log: revlist-739e2d979b66-ac6a52aad427.txt
 
---===============7347932479628857597==
+--===============8169743294736594605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d27e49eb905-70f9be71bec0.txt
+Content-Disposition: attachment; filename=revlist-739e2d979b66-ac6a52aad427.txt
 
+02f677683b46e65979dc4267b346029f953f6162 HID: nintendo-switch2-usb: Fix potential deadlock on teardown
+c97cd6badc96050a7eebb63ecbcd18212f06b52e HID: nintendo-switch2-usb: Improve shutdown logic with inbound message work
+5c4595963229397da8bd362ea93266197b16c7ab HID: nintendo-switch2-usb: Clean up urb in probe error path
+e624a56578e551b77ee66eef74dc2efcd42deb08 HID: corsair: cancel LED work again after unregistering the LED
+abe10ad9c5fd868553b1262df403d5aaea3eff64 HID: sensor-hub: Synchronize callback removal with raw events
+452a24b2c2ed95aa246fcb3fcaf74a97a95c02a4 HID: sensor: custom: Set owner for misc device
+6e66d69837cf07a00cbcdeb6198e08332b422b6c HID: sensor: custom: Disable sensor before hub close on removal
+5e2976e52671e35bbd47cf5e53a9bf34df105b7e MAINTAINERS: update prestera switchdev e-mail address
+75099ce6829ff89464cb7dd32471024c6c17c1de Merge tag 'pm-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+d3e1fcc93027bec7c470bc4dfae4716e621f5cde Merge tag 'thermal-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+dcf495789037ab78d8ddf5844239cf85d92ac5f1 Merge tag 'wireless-2026-11-19' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+2ae35f090d029d2d8491b0a7f98a04c5c05d0a44 Input: destroy force-feedback device on input unregistration
+65e4fd942f72a9dba0e4e257290c4fa1aa756854 Merge tag 'selinux-pr-20261119' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+40ad77b7d3aa676d8b1866f574f4f5d3f9ffebc1 Merge tag 'drm-intel-fixes-2026-11-19' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
+7543d8d314b222452258b30e5c7a40c6f4cbfcda selftests/bpf: Fix bpf-gcc CO-RE relocation in verifier_sockmap_mutate
+4fdfed6d0990c82ce3c268814ba1b2c6ad0ce49d xsk: reject TX checksum requests that overflow skb->csum_start
+a3dbbdf5eb21c3b7b3bf27983cf75030b77e6681 Merge tag 'amd-drm-fixes-7.4-2026-11-19' of https://gitlab.freedesktop.org/drm/amdgpu/kernel into drm-fixes
+6ada0c2769666140dff8e808ff21e8f9544ddc99 fbnic: Wait for in-flight PTP timestamps before treating Tx as idle
+52a64e64230e03b45c13c615d7cdf0aeea39b210 fbnic: Cover all of the HW stats with the stats lock
+4b5153b389627d81f80eef49a5f27032c36378f6 fbnic: Initialize and reset the HW stats before they can be read
+6fca674b61f6b5d9f66fb22215d3e981f2b76126 Merge branch 'fbnic-follow-up-fixes-for-the-tx-idle-check-hw-stats-and-fw-mailbox-allocations'
+ad2c7240a3981fd5f0142b61ca913b02ab476ede cxgb4: allocate the full ethtool filter location array
+0833bc1d4ad71144500f6ca8601672580624f24f x86/resctrl: Add SNC support for Granite Rapids "D" CPU
+4229f341be8c30cf990a7c982c4cad6f98a3042a Merge tag 'drm-xe-fixes-2026-11-19-1' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+4f8b1a7cf7548ebefae959486c3acc33799d1116 net: bcm4908_enet: fix the TX ring wrap
+e1d4683fb4cb9d7f45a17c43a56ba2d26ab91ec6 net: bcm4908_enet: drop a TX frame whose DMA mapping failed
+e2785f0ff0a210158933221e86ea5bd066992870 net: bcm4908_enet: release the TX ring on stop
+1b48d619448c8425bd907722784f08e4e8fa4c5b net: bcm4908_enet: unmap the buffer of a dropped RX frame
+1da02595e8d2647a04c2cdd4f668dee0b8ac1ae9 net: bcm4908_enet: unmap RX buffers on stop with their mapped size
+4d47e6c2f3ceb638d4ea5c21e304b20f526255bd net: bcm4908_enet: publish the buffer address before OWN
 ebe31472ad0a08e19a31a6647b99c6b51f90026c net: bcm4908_enet: order the TX ring index accesses
 435cbdaf9b03687498dc16fe4af8d16a977e21d0 Merge branch 'net-bcm4908_enet-tx-ring-and-dma-fixes'
 d0c28729c10f4d34c9f91ade3b1dcc130e472d54 MAINTAINERS: add Willem de Bruijn to networking maintainers
@@ -1020,35 +1050,5 @@ ec50c454f34773c786c4af7a25dbd1aef59cddcb soc: qcom: rmtfs_mem: convert mmap hook
 bacf350c1fc3569aa1c520ecb1d774c07a9777cd ptp: vmclock: convert mmap hook to mmap_prepare
 f13e29dffbfbc5f6456d0d18710371bc93896ed4 vhost-vdpa: convert mmap hook to mmap_prepare
 ac6a52aad42728ef45e6972c403072fba5c524f4 mm/vmalloc: avoid false sharing with drain_vmap_work
-eb5a0bafd288ad1bd9f8661cfd7f6b15532dc199 userfaultfd: use anonymous memory for UFFDIO_ZEROPAGE on private file mappings
-97d27bcd96713ea81e95b8f57aeb0b0e3ede2084 userfaultfd: refuse UFFDIO_MOVE into a non-present huge destination PMD
-62ecf5b673ade47987aa36f1e407bc3d6488a46b fs/proc/task_mmu: downgrade writable migration entries in PAGEMAP_SCAN write-protect
-26faeb668b84fe124320c43a086805031718acb4 fs/proc/task_mmu: write-protect device-private THPs in PAGEMAP_SCAN
-1c379486b020b8a73165a1745f004e423783cc56 mm/huge_memory: build the moved huge zero PMD from the destination VMA
-f8b731e43424a8fa34de19fe4567a0eb3ad4eb54 mm/mremap: resolve uffd state when the context is dropped, not during the move
-6ef13a43f02d0affaec20e1086cc66cdfe976d76 mm/userfaultfd: check the hugetlb alignment of every VMA in the pre-scan
-f2332cf2082e2df7999a0df522facb9baeacece3 mm/vma: error out on invalid bounds in unmapped_area_topdown()
-44abfdd789e5604d8f86f6d16b91c4fb6065441b mm/vma: lock VMAs before taking mm_all_locks_mutex
-c067a7096ac4e74189211a363b502dcdd88eff54 mm/vma: fix uncharge after failed stack relocation
-2fe2bd5cdd966b6e55301274bca50c07cdf88325 mm/mremap: apply the mmap() offset limits on expansion
-8797399fcb6564e1ac271c848db1fd03a7faa4b9 mm/mremap: respect guard gaps on in-place expansion
-a1a7dbf652b5c09969f703080b30c1351076fbf5 mm/vma: make brk mappings non-executable under MDWE
-3cabd70e0b819421c5853b54357a6c4bed4e2c72 selftests/mm: uffd-wp-mremap: skip unsupported shmem and hugetlb cases
-81202e6e804de745f2b7dcc37c8bac1486107890 selftests/mm: uffd-unit-tests: filter required features per memory type
-c70b3bc6d8e0cf45832664f5f04b0545b41abbc3 percpu: skip sidelined slot in pcpu_balance_populated()
-be8d77c2b2b083ed3cccb94823a512fa2d0c6468 Documentation/userfaultfd: document RWP behavior when the PTE is dropped
-d062c907426c7bd634facf5df2069f1aadff0411 tools/mm/page_owner_sort: fix slab allocator labelling
-c29498f73c587bbdfc0ecaf153a9fb74310447e9 fs/proc/task_mmu: reset walk_end before each pagemap walk
-c9a90f424787f81e6bc176489b7711aa6ee81fbb selftests/mm: cover PAGEMAP_SCAN refill and HugeTLB retry
-594b9ca3d2ccf6f8c53caea1833b604cc3dbf9b0 mm/mlock: make a zero length request a no-op whatever the alignment
-e6ad3624998efb852a26f9f0e8de23b2afb39982 mm/mlock: reject ranges that cannot be represented
-4fb491b17ccd1022e6ab39e64da69747948d95dc selftests/mm: test mlock() and munlock() range normalisation
-bd16788ec98c6db5ce164773f3c8f9d4161050c8 mm: mglru: reset the mm iteration cursor in try_to_inc_max_seq_nowalk()
-e7578b9b9874853639cd5ac62b634de01086460b tools/mm: page-types: flush pending idle bitmap bits after walking
-1353873ea287b318a10ecff905399416799c42af zram: do not modify cont sysfs store buffers
-bdd76304e51d9807913db7b9a95d7ad9ef1a369e mm/page_owner: document shell usage of page_owner filters
-3f38f78b4269e8d72ab27ebf94927799218af049 mm/memcontrol: expose anon and file reclaim statistics in memory.stat
-2a780f78c6ddcd1c5d199f052fb1dd473a989996 mm/vmscan: fix legacy memcg reclaim deadlock against filesystem freeze
-70f9be71bec0fead27e0eb34f7826acfa3f4a6c3 mm/vmscan: scope freeze writeback skip to the reclaim target
 
---===============7347932479628857597==--
+--===============8169743294736594605==--
