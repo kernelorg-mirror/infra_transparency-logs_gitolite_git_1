@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Fri, 27 Nov 2026 22:50:00 -0000
-Message-Id: <179581980045.1485377.13505240066103648117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Fri, 27 Nov 2026 22:54:04 -0000
+Message-Id: <179582004400.1489074.3564537962582062171@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
-user: chanwoo
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/extcon-next
-    old: e56ee871851acbd30e102594200bd4abe472300e
-    new: 78b867193db2871323f41d055ad748db60d671c5
+  - ref: refs/heads/urgent
+    old: 7f48f97eec800128cd29fdb149f982f23ae5a157
+    new: e2b2ab0409f9725d9db4a3c1a9182329d46eeb42
     log: |
-         9c40d8ec8dbde3c938b432bbe35e29a3ce4bd9a1 extcon: rt8973: Drop unused driver data
-         78b867193db2871323f41d055ad748db60d671c5 extcon: Use named initializers for arrays of i2c_device_data
+         3285c9db0ff45b86ef80297627450402bc30f614 efi: pstore: Make pstore_disable parameter read-only again
+         e2b2ab0409f9725d9db4a3c1a9182329d46eeb42 Merge efi-pstore revert into efi/urgent
          
