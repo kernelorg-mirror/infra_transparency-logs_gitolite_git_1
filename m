@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4238495079409159680=="
+Content-Type: multipart/mixed; boundary="===============0380379889367542599=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 27 Nov 2026 14:06:54 -0000
-Message-Id: <179578841408.1077835.5992699650401672247@gitolite.kernel.org>
+Date: Fri, 27 Nov 2026 14:13:06 -0000
+Message-Id: <179578878632.1081856.12066006404693800033@gitolite.kernel.org>
 
---===============4238495079409159680==
+--===============0380379889367542599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,44 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: f116b7202308edfe857ce95e9de5f806fbb6448e
-    new: 89f33682b2c34b12b3a7a549ba94a808f0c7c98d
+  - ref: refs/heads/char-misc-testing
+    old: 917fcbf033154a6c8d83cfa6c88f012b71eb37b2
+    new: 86266f137b5c18d477a2df8168149203852b037d
     log: |
-         7187db20e64b4413f1faba73d81fb3963a4ebea5 rust_binder: report EINVAL for unknown handles
-         861ecc8c78417e3104f3206f1bed82bf461cf591 rust_binder: treat ESRCH as BR_DEAD_REPLY instead of BR_FAILED_REPLY
-         5ebc1e7ee2e906e93bba17e74de264f92819e348 rust_binder: make work items of a deleted node a no-op
-         f19e5829337a6fe5a7628581c70318997d82360d rust_binder: validate handle in get_node_info_from_ref()
-         b8c17faca445929c3c5218ffc371c11ef89faf3e rust_binder: read u64 pointer in BC_FREE_BUFFER
-         fdb387a46ff62d49b7039071cc3749e1eaa62281 rust_binder: clamp write_read buffer sizes to usize::MAX
-         c66120d823fc0d39e54e4191704fb18236422730 rust_binder: reject transaction sizes exceeding usize::MAX
-         b426d7e0314b379b45669e169ac52aa9a2fbc142 rust_binder: align scatter-gather buffers to u64
-         89f33682b2c34b12b3a7a549ba94a808f0c7c98d rust_binder: use u64 for node and handle reference counts
+         52b1b4a451e3708662278fc48010a47a17fa3816 rust_binder: disallow binder fd transfers
+         5813810278a121a165e938395dc708e8cedabce2 rust_binder: Reuse the thread lock in get_work_local()
+         16ecdcab15fbbfa801a12e8e1cb2f6ac36aee9b1 rust_binderfs: fix minor number leak on binder-control creation failure
+         86266f137b5c18d477a2df8168149203852b037d rust_binder: fix process leak on proc file creation failure
          
 
---===============4238495079409159680==
+--===============0380379889367542599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795788433 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795788805 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1795788410-5c25f1df582e5b1fa5b9cd2d1a05a43b5a4210ff
+nonce 1795788782-bfebb5a12761beeb3789772e9d7d6a26a0f5477a
 
-f116b7202308edfe857ce95e9de5f806fbb6448e 89f33682b2c34b12b3a7a549ba94a808f0c7c98d refs/heads/char-misc-linus
+917fcbf033154a6c8d83cfa6c88f012b71eb37b2 86266f137b5c18d477a2df8168149203852b037d refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsJjpEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YCgQAIBNcyn3sUBTeijiSdy4
-3PtzWhMRLiNiSmg4bQPbgkBb3zTzx0EubFGnRqDgRwPtlq/5xPkmze5GpHW8Fw8s
-SLcxrm+xJPI8Z7nXPMt1fwTB0qbAShcA/H3Lur3Y6FVUOAUvkseITnuVWoDSmGzI
-ewgeSl26NH9LiK2MUss5nRWTGlXFWAIaf/Y6Mt25zPN2fRaKusHQ9ZO3vuNIM6tw
-IMPIl5/bkUVINz/zD84TdbCwhfqizp6oiDC8pOIKQdhxbb6F6Ef+Gq2KSHtS8v0A
-zzGX9vU0Avz0zZOXB2pzpqsd7mYjFG+DPbt8aqf9jVvFM1w2exET2aFvk999l1du
-xNXSDu1TZekCGWDARbUljOmyWHuhnOo0wqC0GWdt/OcUCa20ZDjeI+f8rD7zE6gL
-2MkUlCbmAFFDzmXYqsVJUEu6NS4fR0L+CyNyc+mTJxMZcW9TOkcQPs3HpAd4ReQl
-Kqsgpxmd8xeA4bAopS0TwMRxZ5ZjkZ9DUjOaTuwQidtdrA6sJmfmszQ5jM40mCcT
-jS0LHuG7C7IRhar7iX2gg+qcwJPduEXfT5/PgViezNEw9lHHyQe2kQG8kjQqZoSq
-FN631CsO2Io8qzMpmneUeMvNeXXTXRFc/T8SINZJX6GmAqc6u2WdvUUFGhJ7KRdt
-RdCCkNJUh8rhRXosPoX4/Yj4
-=QDnN
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsJkAUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TugP/iZQi9L9hoWKgshQiusZ
+ykM00KtzqeBzVyDC7top/quapxfBJfOU7KCgqqKR6GbiMJhmTRpNY60caUwLbyNL
+XTRqtAaQYVuLH7eL/1ro2MlHTtavcC0bZDPWY9fMv6pERRzNBo/cTWzyKLChJsEZ
+qbS1lVsskidFZvfAvL8aRXaoTRE7fQ9YNA1LhxkWqataWtv6H9hSKDR2QAN3WIlr
+J/3EPlTU6rIRHyNGQ/ibdUDtT01WF3IxCxN7LRsvEMR9zXLcva+dT2+uenpIar3u
+FMeu0VbIvisRncP6NOO5ToI3b4BOFPsOTcDS1M0z4dg5tWG3VAEwyKkeUwqaTBzT
+WBkaXUzn/rvwffFjByNziJrn/L3/+td1+sTjbzj3lr/WBSZ43ypuRw151wAD/fkl
+FFuTdcIhs4EvfCEtSWABc5/dOT1bpdvJPJCGMz9EkGegE8ZqT6dZw9vOhMWCaz/C
+GxWbdEUvSZr//TlhlWCwzyhdNjnhz5tYXhq5yg4TssKA+vFegPIH02foB0LOjFB3
+0tu/nAaXn9dPeRCMshMx13Mo1cnQZxa5hwtBv+abxQN6D/GzQLnrNsFsvyenhcDf
+OruqxTT/bIaEoi25c/MOVQVkrSnBZfbxFnkX3geQdCUQ7WZP3admPCgsUyThtZS+
+yTXQ4AmiV7EytGWPLAdB8bLM
+=aUTB
 -----END PGP SIGNATURE-----
 
---===============4238495079409159680==--
+--===============0380379889367542599==--
