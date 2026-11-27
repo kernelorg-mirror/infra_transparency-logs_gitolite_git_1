@@ -1,23 +1,38 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Fri, 27 Nov 2026 17:31:52 -0000
-Message-Id: <179580071202.1250183.1756087809129056749@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 27 Nov 2026 17:34:11 -0000
+Message-Id: <179580085161.1251111.973122617721034042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/tags/arm64-fixes
-    old: de312f046bc3f3a2047bd8b83f2cb6505e7d1d4e
-    new: d15f73c1ca07485ae951a865413641afcfd98d7e
+  - ref: refs/heads/for-linus
+    old: e79163b531eca7f3fdc05031f4b43b6f7c51d3bc
+    new: 94d2c57e3997b94fd3fc9a755fdc6b914c1f2cae
     log: |
-         98032adcb615473d3948f79f7b251d5be2ee6233 arm64: pi: Add an ISB after mapping the FDT in the initial ID map
-         bd63a4741f50844b3f8c2e1159affbf0a44aaa9d arm64: mm: Add an ISB after remapping the KPTI page-table slot
-         bb60ce2c3674ebdb803ff2bce0c0b6f30c80de4c arm64: mm: Don't defer the barriers when installing a fixmap entry
-         a7e632493acf33b7c17f922678377bc26b877d50 arm64: module: Use text-poke for late PLT/veneer emission
-         18817028301de963a3a25f6d7d652d1d3b79f570 arm64: fixmap: fix missing break-before-make in __set_fixmap()
+         715cab5c2b0a4bc8da0799b67993fdf6d7bc6a10 ALSA: hda/realtek: Fix mute LEDs on ThinkPad X1 Carbon 6th
+         94d2c57e3997b94fd3fc9a755fdc6b914c1f2cae ALSA: hda/cirrus: Control SPDIF out pin on MacBookPro 11,1
+         
+  - ref: refs/heads/for-next
+    old: 486060b97284c95384744f030706f89e1980a46e
+    new: 97f08ceaf5bf34653a30e2270b2a9265e4e5257c
+    log: |
+         016f2e469760a9a7bb44d70c7a0c0bb732efb1fb ALSA: vmaster: Restore follower values on put failure
+         97f08ceaf5bf34653a30e2270b2a9265e4e5257c ALSA: vmaster: Check follower callback errors
+         
+  - ref: refs/heads/master
+    old: 0cacc93213f03d83263448b6ab87c7e547f5405e
+    new: 689cab7498b6eb8aa92e8ac40c76943327b6d798
+    log: |
+         016f2e469760a9a7bb44d70c7a0c0bb732efb1fb ALSA: vmaster: Restore follower values on put failure
+         97f08ceaf5bf34653a30e2270b2a9265e4e5257c ALSA: vmaster: Check follower callback errors
+         7cf0bef6034e9ba28adca0598643a9bddc563ad0 Merge branch 'for-next'
+         715cab5c2b0a4bc8da0799b67993fdf6d7bc6a10 ALSA: hda/realtek: Fix mute LEDs on ThinkPad X1 Carbon 6th
+         94d2c57e3997b94fd3fc9a755fdc6b914c1f2cae ALSA: hda/cirrus: Control SPDIF out pin on MacBookPro 11,1
+         689cab7498b6eb8aa92e8ac40c76943327b6d798 Merge branch 'for-linus'
          
