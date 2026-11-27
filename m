@@ -1,35 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Fri, 27 Nov 2026 03:05:48 -0000
-Message-Id: <179574874848.543093.10564465059181655546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 27 Nov 2026 03:08:03 -0000
+Message-Id: <179574888313.543738.16900127047835829175@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 4d8dd30d89b5192433ffcd48e5a9e32b187d4739
-    new: d6c37926ff8e4d15c1aaaf2b6f1147e78cedc7c3
+  - ref: refs/heads/for-7.5
+    old: da0fc3c63259fb02dddbfa2146364c7f68ad953d
+    new: b89f5e237625c5faedc3e6afe1850b8f271e1563
     log: |
-         53d8ed2624ec19eef10d665bd90afea2d5ec8c6f dtc: Add a struct for the source layers of a dts file
-         311a3e104ad4226788c264ad82381eab8607a9c9 dtc: Move the /delete-node/ handling out of the grammar
-         73753716997135b51a7d2143bbdd95caf7b54fb0 dtc: Move the /omit-if-no-ref/ handling out of the grammar
-         a7a722d50cc11a54400663ba1c8fce37cc470909 dtc: Move label-reference handling out of the grammar
-         baccfb77eeec4065e6f159b8367713d9a4ef66c8 dtc: Merge &{label} in a plugin as with &label
-         d6c37926ff8e4d15c1aaaf2b6f1147e78cedc7c3 dtc: Move path-reference handling out of the grammar
-         
-  - ref: refs/heads/master
-    old: 4d8dd30d89b5192433ffcd48e5a9e32b187d4739
-    new: d6c37926ff8e4d15c1aaaf2b6f1147e78cedc7c3
-    log: |
-         53d8ed2624ec19eef10d665bd90afea2d5ec8c6f dtc: Add a struct for the source layers of a dts file
-         311a3e104ad4226788c264ad82381eab8607a9c9 dtc: Move the /delete-node/ handling out of the grammar
-         73753716997135b51a7d2143bbdd95caf7b54fb0 dtc: Move the /omit-if-no-ref/ handling out of the grammar
-         a7a722d50cc11a54400663ba1c8fce37cc470909 dtc: Move label-reference handling out of the grammar
-         baccfb77eeec4065e6f159b8367713d9a4ef66c8 dtc: Merge &{label} in a plugin as with &label
-         d6c37926ff8e4d15c1aaaf2b6f1147e78cedc7c3 dtc: Move path-reference handling out of the grammar
+         ca89645f0d5a9106833a06bd27014aabed7d15fa spi: cadence-xspi: Properly handle errors in .transfer_one_message
+         7983521ee731b226a3fb521163d4217f8c0d3af0 spi: cadence-xspi: Reconfigure to STIG mode before SPI message
+         4b3b8a72544f2ce2484a71ac319d8d88d253be79 spi: cadence-xspi: Inform SPI core about size transferred
+         31a9eb539567f67f169655f4b3089075466762c1 spi: cadence-xspi: Clear "SDMA ready" IRQ flag after polling
+         b27e195dded4760cf44e2ea9e708867d024ce368 spi: cadence-xspi: Drop useless cdns_xspi->cur_cs
+         502760b2ba69e0fa3cdf30cd1e8d53e6e36276ec spi: cadence-xspi: Add workaround for old Marvell firmwares
+         b89f5e237625c5faedc3e6afe1850b8f271e1563 spi: cadence-xspi: Fixes and ACPI changes
          
