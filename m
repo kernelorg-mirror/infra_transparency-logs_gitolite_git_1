@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9069960168989818597=="
+Content-Type: multipart/mixed; boundary="===============8443880088438225113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Fri, 27 Nov 2026 13:49:53 -0000
-Message-Id: <179578739319.1061642.7398955305152935695@gitolite.kernel.org>
+Date: Fri, 27 Nov 2026 13:49:56 -0000
+Message-Id: <179578739604.1061860.1749294201538915182@gitolite.kernel.org>
 
---===============9069960168989818597==
+--===============8443880088438225113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+  - ref: refs/heads/tty-linus
+    old: eedf2cf3505c1562a2fb24f8b997056f023d242b
     new: b6793a9e2a3c280bb7c6c7d39be271e2f57aa2bb
-    log: revlist-6628e7d4c6b2-b6793a9e2a3c.txt
+    log: revlist-eedf2cf3505c-b6793a9e2a3c.txt
 
---===============9069960168989818597==
+--===============8443880088438225113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795787388 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795787395 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1795787387-9b782a7bf8cbab23c1fd5232f54a6d9faeb98e64
+nonce 1795787394-3fe0ef387bce9b30aa4f7880f6ba1a49988c5ae0
 
-6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 b6793a9e2a3c280bb7c6c7d39be271e2f57aa2bb refs/heads/main
+eedf2cf3505c1562a2fb24f8b997056f023d242b b6793a9e2a3c280bb7c6c7d39be271e2f57aa2bb refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsJinwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pIsQAK276OGVJ1Suwploa+0n
-zVQuzSPyuxpzFM6noVQHBR0gWb5fp0wRVgr+h+uQZBeKEXXo5hrOxQ1ex2zLO7eP
-VFcgymDDrX5T7akKpBL/FNvg3wl3GTwJH10Zx4Pv9liRhusxfZJYpNoTFzFtZWNk
-6b3e31ec4VndII3tAzaGgIHnMoZ/xYoBRhuhl6tVKGnVukabh5X9Mkavax9DL1E2
-k5aIfRLjDFw7XbTmUysnj4kc/F16BCf4tzeCJQH/wr0naJ8PEdERcruRKpkJNMIF
-CEgO8JfXKf44veLn/JZ6wLv2TmVqjv3pRu8mcvXIDu7lYdedt15tQ4gqy8C0CuEA
-fihdgKHZjzC+OwBBqKkQtBSX3uDnq88d5ZTQ51U+YW5tS3xoSCup3ha9o91gFV4F
-as59xRZBHVm1pSRRQBWeyJ7p5LTvz2FRashza5O13TbA9LJe7wV2w+F43xSJQ1+9
-H0PWS90sQqLe5L3j9KLbMr/dPeSroaBgq+WTQYRWMiLK9PB0AOOMKxM8nfSVjh6G
-Ul2yC7gGMaPmEswqrA+WK+/ueDRC/mhBgta2KIg740Lu6+khPqqPJqcvLkOuHU2q
-dK/RHcnpi/4WR4iaplHmMrZ6sPBXrEGY91rf0KKNGRC4g/7GjXF3Vgf8FOeb9ILD
-KWQLH/8STqdXrPCQKSUflZHm
-=lVey
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsJioMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QlUP/Rep/1bh95UR7X6qzGC2
+Fk2b10GzLEZ5uXyusDofMErWSHcBORhL9piiUIqiHJlcnJuK4w/bAwjQuQ5qn/jA
+oDMB01Q8n7iNGd7SlhoSeC0TDHow72ON5WZ15P5lQOfhHxy07+dE2kOXJ61eWRDR
+desf9moWLQbw3RK7mBqibNTvTfiBtgRshiF4IkJqfLFXPICdMsVvUFPd9ppg5E6C
+V7bOfuOfM1xApMXZmwBMzp3iLx3xBM0xSPOZZPtpBB1WhvJ2zcxCb1rR0Itc9SRM
+fIGnlnAm++uq0HdG2+Pi5oOXGl4odHKCGUgNi8cofeMkyUfypQXqm/l5L2mOuVYe
+SViSQ7K/5AczVI6Cpk5KSYGLjiQ3Yk0pRRuUlL8A4l3M6n/PgEsxdGQiwjNJzoi+
+9ZZxLdX48WQWsuScccbSz0Q1RRaLMpWyrPx1Gk5s4Fk3ZWLz4kv6nPJDeDZzdrXz
+W3pOzgQDA8ASoqrJbUUHH40UNopplotUOGxzZiL2r52BhnOMGPUvNlNl8xsc3ej4
+EU/clwwph9taogGEOupQur7KwsjjnwqzLkoWlorzVjB1bhyQFdbOU5S4xHtOh8Qm
+ESdkeZIkLFgiyy1Thwl7u/9NpSVcj9fjgKaCkZ2FRC+cHAh+gON7gFFjTaTo55RI
+gm/wT5hSML2bVrlwj0yWgw1t
+=rJyR
 -----END PGP SIGNATURE-----
 
---===============9069960168989818597==
+--===============8443880088438225113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6628e7d4c6b2-b6793a9e2a3c.txt
+Content-Disposition: attachment; filename=revlist-eedf2cf3505c-b6793a9e2a3c.txt
 
 71388e1ed836d7645b4807cead35edf24da00bcd drm/amdgpu: rewrite all PTEs of the BOs after a VM reset
 e23621a91bb59d22c2e7a0a1b680f3d4acbbdce1 drm/amdgpu/vce: don't allocate a scheduler fence in the direct IB test
@@ -1082,4 +1082,4 @@ c3f98ff6309a29979e1867bc3c9d4172755ca122 rcu/nocb: Avoid unsequenced accesses to
 f11fe7603df07fbb9fa02b0d385c1696c87a6dab Merge tag 'usb-7.3-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 b6793a9e2a3c280bb7c6c7d39be271e2f57aa2bb Merge tag 'tty-7.4-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 
---===============9069960168989818597==--
+--===============8443880088438225113==--
