@@ -1,63 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============2988615835907704530=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Fri, 27 Nov 2026 14:29:03 -0000
-Message-Id: <179578974396.1096036.2288841049734698149@gitolite.kernel.org>
-
---===============2988615835907704530==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Fri, 27 Nov 2026 14:30:25 -0000
+Message-Id: <179578982567.1098469.8934759468996385952@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/fixes
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    new: 9574bcfceb1d97025b68bb2bbfd68fb2ee5fa8dd
-    log: revlist-6628e7d4c6b2-9574bcfceb1d.txt
-  - ref: refs/heads/for-7.4/arm64/dt-fixes
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    new: 8ba5d858f3477d70ac5da09b7b887e79f5fa6cea
+  - ref: refs/heads/urgent
+    old: fe57062e09bc162be9133695d5f1459c1c0e46c0
+    new: 0c83f12226bb08969ba07bcacc6f6aec1480ecda
     log: |
-         168fca2ee5e60e649b3d476e451f7833633a1455 arm64: tegra: Add regulator for Jetson AGX Thor thermal sensor
-         17c5a5ee525da79ab1ca0a5b92190a0587604643 arm64: tegra: Add regulator for Jetson AGX Thor system EEPROM
-         f87ba646efb4afd159a418c43b0d95062eaae1f5 arm64: tegra: Add regulator for Jetson AGX Thor module EEPROM
-         a82c87eb29238b34241dddd301ffa4d53c217f1b arm64: tegra: Fix address translation on Tegra264
-         191d37c5b8a4b993e1b2278d85ce543f70ddb51d arm64: tegra: Fix memory size unit in comment
-         774378e27b7bd24875cf16f1cb3ac50888ed7716 arm64: tegra: Remove PCI ranges from VISION chiplet
-         c6935858d13498f24b305aff53bd1123da6a8671 soc/tegra: pmc: Support nested PMC power domains
-         3035f4f2eb1e2dce011c333e81097424a2023f5f Merge branch 'for-7.4/soc-fixes' into for-7.4/arm64/dt-fixes
-         4521950c3ce2d0370f442eba8d5ee3316991856a arm64: tegra: Make the NVDEC power domain a subdomain of NVJPG on Tegra210
-         8ba5d858f3477d70ac5da09b7b887e79f5fa6cea arm64: tegra: Override ethernet FIFO sizes on Tegra194
+         0c83f12226bb08969ba07bcacc6f6aec1480ecda efi: pstore: Make pstore_disable parameter read-only again
          
-  - ref: refs/heads/for-7.4/soc-fixes
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
-    new: c6935858d13498f24b305aff53bd1123da6a8671
-    log: |
-         c6935858d13498f24b305aff53bd1123da6a8671 soc/tegra: pmc: Support nested PMC power domains
-         
-
---===============2988615835907704530==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6628e7d4c6b2-9574bcfceb1d.txt
-
-168fca2ee5e60e649b3d476e451f7833633a1455 arm64: tegra: Add regulator for Jetson AGX Thor thermal sensor
-17c5a5ee525da79ab1ca0a5b92190a0587604643 arm64: tegra: Add regulator for Jetson AGX Thor system EEPROM
-f87ba646efb4afd159a418c43b0d95062eaae1f5 arm64: tegra: Add regulator for Jetson AGX Thor module EEPROM
-a82c87eb29238b34241dddd301ffa4d53c217f1b arm64: tegra: Fix address translation on Tegra264
-191d37c5b8a4b993e1b2278d85ce543f70ddb51d arm64: tegra: Fix memory size unit in comment
-774378e27b7bd24875cf16f1cb3ac50888ed7716 arm64: tegra: Remove PCI ranges from VISION chiplet
-c6935858d13498f24b305aff53bd1123da6a8671 soc/tegra: pmc: Support nested PMC power domains
-3035f4f2eb1e2dce011c333e81097424a2023f5f Merge branch 'for-7.4/soc-fixes' into for-7.4/arm64/dt-fixes
-4521950c3ce2d0370f442eba8d5ee3316991856a arm64: tegra: Make the NVDEC power domain a subdomain of NVJPG on Tegra210
-8ba5d858f3477d70ac5da09b7b887e79f5fa6cea arm64: tegra: Override ethernet FIFO sizes on Tegra194
-4aa3df61edf2c1626fdcfc7a2ba044cd652df1c1 Merge branch for-7.4/soc-fixes into fixes
-9574bcfceb1d97025b68bb2bbfd68fb2ee5fa8dd Merge branch for-7.4/arm64/dt-fixes into fixes
-
---===============2988615835907704530==--
