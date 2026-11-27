@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1581205894786901754=="
+Content-Type: multipart/mixed; boundary="===============4042953549811255326=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Fri, 27 Nov 2026 12:30:47 -0000
-Message-Id: <179578264739.1006731.4350738648564407400@gitolite.kernel.org>
+Date: Fri, 27 Nov 2026 12:45:13 -0000
+Message-Id: <179578351317.1016781.10202483600704727469@gitolite.kernel.org>
 
---===============1581205894786901754==
+--===============4042953549811255326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,112 @@ repo: pub/scm/linux/kernel/git/next/linux-next
 user: broonie
 changes:
   - ref: refs/heads/fs-current
-    old: 1bfe1553422da968d859a9841f2c9d9a6d0341fb
-    new: 9437ee8b6cf607e883b36e44bd755968daaebd48
-    log: revlist-1bfe1553422d-9437ee8b6cf6.txt
+    old: 9437ee8b6cf607e883b36e44bd755968daaebd48
+    new: 9f549a1c1a290390d97dbc6d302c6b7e315027d0
+    log: revlist-9437ee8b6cf6-9f549a1c1a29.txt
+  - ref: refs/heads/fs-next
+    old: f60ddb3a2a9d42dc7cea4cf0975d086cc01c1948
+    new: 9f549a1c1a290390d97dbc6d302c6b7e315027d0
+    log: revlist-f60ddb3a2a9d-9f549a1c1a29.txt
 
---===============1581205894786901754==
+--===============4042953549811255326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1bfe1553422d-9437ee8b6cf6.txt
+Content-Disposition: attachment; filename=revlist-9437ee8b6cf6-9f549a1c1a29.txt
+
+49c5d168a3a8f4eb27d44a2a22b7e8a856ca601f udf: fix nls leak on udf_fill_super() failure
+d2a7ec098703bc7416d95399971bb963c05d0934 scsi: esas2r: don't copy kernel pointers out in EXPRESS_IOCTL_GET_MOD_INFO
+6e3a8da08b2b8de2181a6ec3b7256c489e94a0b8 ALSA: cs46xx: hand the region to the region proc files
+eca5c2dab187d67797078bd035ac5ec808b372dc PNP: isapnp: don't go on when isapnp_cfg_begin() fails
+3dfdedd938b430eedaa764088795e71fec31a1ce xtensa: simdisk: remove the proc entry before the disk
+15e276e5f74a4e450e51f7bc804172aa48f9f0a3 powerpc/pseries: put the node that the ofdt property commands look up
+3a0dc5c43a50b61881b813d3c92b0d9989d98724 lockd: don't hand out the terminator of nlm_end_grace
+1be3fd8eac72ea843323c350017d8b0de17d1e12 powerpc/pseries/lparcfg: don't drop the last byte of a write
+944b8062bc6f622e977a3fbedbd5fb878bf4b3ea profiling: report it when /proc/profile can't be created
+7cdbae23f2eeaf049eea991ada6d014d324c621b zorro: size the proc files like what they serve
+56e04edb2fd260a997c2285ae5fc27ddbed9098f sparc: led: consume the whole write
+dbcedac64558d8a99e1da8ba755bdc738dc42d63 powerpc/rtas: consume the whole write to /proc/powerpc/rtas/progress
+62be324b54e440a055dc08b3ca6bdc11c9353aba sched/psi: don't drop the last byte of a trigger write
+c174cf787fa69403b4b35f1e69806e4114cfcf16 ALSA: info: keep what was written when a text entry's buffer grows
+2d14a3078bfe92860a153c16e52aa35a0f233153 rtc: don't remove /proc/driver/rtc with ops_lock held
+924fae742c42cc4afec518ce1e2265921a549f36 proc: sysctl: don't stop readdir at an entry that is being unregistered
+0f7635defdd703fed9451ff9f9407d6437c368e0 PCI/proc: don't truncate the position of config space accesses
+4b89519ba70eb87da2bd606a6c4cb1532076dc90 PNP: isapnp: don't read past the end of the buffer on a large pread()
+18266c0dce0dee665dc5c06f29832e073e678b88 s390/dasd: don't look in front of the buffer on an empty write
+8faf1dc9eef81637f9a8f3ff87e96a889de6fc87 platform/x86: toshiba_acpi: reject malformed brightness and fan writes
+1fd77d89d6d72eec46b055bbfec29addc74b59f8 xtensa: simdisk: don't read the file name without the lock
+11167dcdf06667e0253a870abfad72299e92dd49 powerpc/rtas_flash: don't read past the validate message
+a2b3d4cb1b096d589c12ae589235cc591c7de57d powerpc/rtasd: zero the error log buffer
+031ed49cfe1e4ccc51d15be316346b754a20256e ALSA: info: don't write past the end of a data entry
+d281e3363c51905f2cb0cab9e3683a7fae2a7fa4 scsi: BusLogic: don't return 0 from writes to the proc file
+ef400570954df3697985ca17d58e268a6b026cac scsi: ips: don't return 0 from writes to the proc file
+8c86ec65994bca013bd17cee583295f8a0ed1bef wifi: libipw: don't return 0 from writes to debug_level
+c1e143720d1d8fdca124b1a277cdf609aaf92ade scsi: core: NUL-terminate what is written to the host proc files
+00bf5dbe4b88f35adde4f5a4e902b856dad07cff um: NUL-terminate what is written to /proc/exitcode
+c5fed07184cb434088a74ef894e1c766e9f56fd8 ntfs3: don't warn when a huge label is written
+125903dfaa460bb0f31442216415e47a30502a61 proc: don't walk through a non-directory when resolving a name
+d84bc7d8aeb02e5d839f2a5c83256c4f60328124 net: pktgen: reject device names with a '/'
+6129534f1231d81cea567a37fef8cf0216d7c844 net: pktgen: don't register a device file under a name that is taken
+e56830768743f8cf60f883df2ba6753c48b00c1c net: pktgen: let go of a renamed device when it is unregistered
+3bd62ee5e9c0e3cc5695681938d649ea3ebd15c3 proc: resume readdir after the last name it returned
+c9f9bf7f97b2ec4acd7c0f21586302f14320850e selftests/proc: check a /proc listing while entries come and go
+5bb097bebc464ed0a3213fd829787469a2387068 proc: let proc_remove() remove the entry it was given
+bbc1e31412dbd579a968a1e8d71faa2b633d410a proc: warn about entries left in /proc/net of a dying namespace
+dee24b9cec6b65543a338a06af28149d055ec950 proc: don't let NOMMU map procfs files
+01e293376d205debc337b03135367ba12905ab91 proc/vmcore: don't let vmcore_cleanup() run twice at once
+e81c06f8268d549b7a7b3e36c4fa9809c563216c sunrpc: make queue_wait a global wait queue again
+e8c7c0a82ed938d782582afe9742a8037b324877 scsi: esas2r: bound the lengths of the HBA, SMP and firmware ioctls
+bc8dd30b06451750ef8e6c45f6d39bf426a83fc9 powerpc/pseries: bound the lengths in the ofdt property parser
+9ceb9d5b7651dc92fa2acfd5a20081ab7bf2957b powerpc/pseries/lparcfg: return h_get_ppp()'s status as a long
+b7a2cf250fb8947ecd9b68ddf019bfe7d271bd0a proc: sysctl: resume readdir after the last name it returned
+8e5a6d5d094f63ee2541bf346c1a0103103cb65f selftests/proc: check a sysctl listing while entries come and go
+9a9f092519ef751b8173ea3d2be4e7392f9ece81 proc: sysctl: copy to and from userspace without holding the table
+d3ec8a58a71b1aab46407db6044f8a422e6f8bc0 proc: sysctl: look at the table under sysctl_lock when creating an inode
+0591cb2973f2c5f3f97715482ba6b9840bb3e3bb proc: sysctl: don't hold the tables while readdir copies to userspace
+47b64be3c6b5e901a5102e0957703688ce05cf9e selftests/proc: check that faulting sysctl accesses don't hold up removal
+96957d7d6e17289643d5162ea63b2f6208aaa4d3 proc: don't pin a symlink's entry while readlink() copies it out
+f0e0ab5050ec52744789d723f3cccee99dcd5758 selftests/proc: check that a faulting readlink() doesn't hold up removal
+44cc27050381e92de64cc3d7836376eda4d92a5f Merge patch series "proc: fix a few old bugs in /proc handlers (Part 1/7)"
+a16fbf789df5345bdce1fe2d3507ea0c7e5a61db devpts: create pty nodes under the parent lock
+daa40a6bde2240197fa00404faf06fe2173867d8 exit: use READ_ONCE() to read mm->owner
+4d841b11ce1d8913f39fa67cf4776a1fe7b3a387 iomap: fix offset truncation in iomap_fill_dirty_folios() on 32-bit
+94ca49563acb36a19fb578499b04c84d5b0a5181 signal: fix lockup in complete_signal() racing with mt exec
+b7cf4cd1f76d1c9c892c7ee5b1a31df334e3ee8c fork: Don't let copy_exec_state() fail before rt_mutex_init_task()
+9a74699d0073b5e4ca9b7c7e8cb819167e5708db fs/stat: reject invalid flags for empty paths
+7f73cd119ee1e0e18242fb110538e824e17092f9 cachefiles: fix buffer size in cachefiles_preset_object_xattr()
+085dfb5a71d7d3f39eaaca198160c42790f90a45 bdev: do not report a statx block size below the block size
+830f05167ee758470d818c062ba7f95d575e986f fuse: preserve daemon-owned ACL permission decisions
+1e026a4556f68b80591515c392fe86e4f6055382 fs: reintroduce SB_I_MULTIROOT
+206e85e59be982372a90ae2d87c9a289eb42352e fhandle: only warn about disconnected directories
+3eeea382ac4f362b68555a1771901cc5af0f664d Merge patch series "fs: reintroduce SB_I_MULTIROOT"
+f4bd14573f4c77a8bda7b6e91b6757ddfc6bad9a iov_iter: validate extracted segment for bvec alignment
+f97f81dde55ef345f169f810fa267aa2e18e78ce shmem: consume the reserved xattr space despite remount
+5a67ba21dff870c1c98d298534d6092ff49e3fa1 xattr: require inode owner or CAP_FOWNER to write user.* xattrs on sockets
+2d7525b9eaed021bd1471baf7569fa2ee1f62671 pipe: annotate lockless checks of the file count
+105e4e7402873f38d87294e5eae05268f27e18a9 fs: let pivot_root() move userspace_init_fs when nobody shares it
+f7c58bf3c30f1cd479b66276dbfc63281030bd2d fs: don't reset userspace_init_fs when PID 1 stops sharing it
+02854e4e9cf4f5c9361b298b8f6f2f1d7803aef1 Merge patch series "fs: don't reset userspace_init_fs when PID 1 stops sharing it"
+ba2976fa6fbf45416f76aebe45fda35187f7caaf mount: pass flags to alloc_mnt_ns()
+a23a784fac2aab55497886626292670bc4972ef9 ns: don't call the namespace LSM hooks for kernel-internal namespaces
+c77fb21d90f0e64f1d83aa721d9e7575d8c279ad Merge patch series "ns: don't call the namespace LSM hooks for kernel-internal namespaces"
+67f4cae740d6585f0e628b5d99ff33cc2efca323 kernfs: clear i_nlink before deactivating removed nodes
+d5b84d3d7e902c44b05b106718c579f3d3834812 ext4: don't use the kiocb after a direct read was queued
+47bd3dc841cb9da563071fc29fb3baab57bd9525 Merge branch 'misc-7.4' into next-fixes
+97f29574e12e4e6284a467544c8265fadfdfc6c3 ext4: stub ext4_sb_find_get_block_nonatomic() in the inode KUnit tests
+ad592b92d6774cb520d1492bf17685fb5eede99d ext4: set s_user_ns in the KUnit tests' fake superblocks
+c1639ff1e7ab79ead8bfad51b1aeb94f7b1e3092 erofs: reject turning inode_share on during remount
+7d1984a4af82c2cf9646571228036e580b9d5b62 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4.git
+36b849d8cd7ca2ec86f2291e240887027356f8eb Merge branch 'vfs.fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
+cf6a73eb1d353e6d23b6ede07ee983ca5953baae Merge branch 'next-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+0df15111255ed76cfebef0fbf64a9e558c4aeaa2 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
+9f549a1c1a290390d97dbc6d302c6b7e315027d0 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
+
+--===============4042953549811255326==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f60ddb3a2a9d-9f549a1c1a29.txt
 
 51222df62c7af2f0f11ec25c9fa8bcaa0f87fac8 wifi: ath10k: fix status of bundled mgmt tx completions
 b1ed5a45b994a6473ca1cf34f35a1bf87f1d8e2a Revert "wifi: ath10k: Stop unanswered temperature reads"
@@ -185,15 +282,12 @@ a0bf14e17fb2438f1f460747966e767b348f0bba selftests: netfilter: cover IPv6 FIB pr
 ed87e8fd517d9863918d7cd2eaafb68d986dca1e Merge branch 'ipv6-honor-suppress_prefixlength-in-fib6_lookup'
 469b61e4be88bc671dabe802e11f706b1ea7aa15 net: dsa: felix: fix NULL pointer dereference in felix_port_enable()
 7ed616970b652ae76d99a01b468588e491021648 mptcp: gate diag sequence counters on CAP_NET_ADMIN
-7a9e767b1db628dd667bb96003c264e068ea669b ext4: stub ext4_sb_find_get_block_nonatomic() in the inode KUnit tests
-43d2e9d3f4ba3eaaec7356a7537164865266dff5 ext4: set s_user_ns in the KUnit tests' fake superblocks
 39738c813c716c64a55767bfbe30da13f17e6dc3 tipc: restore write readiness when a socket's group goes away
 58f419bfa4c3a6797246a7c4e53a535ee34372ae ipv6: mcast: do not pass uninitialized bytes to dev_mc_add()
 cdf84b850584574fc81bd80990d3bf1cf81b6a00 vhost/net: Fix receive queue test in busy poll
 1ab3fb564f20b78615a6d88b8c90da292f29e227 tcp: Don't clear saddr before ->put_port().
 e50436deae925d1b95b01936e2499428c4782a6a tcp: fix negative sk_forward_alloc after MSG_ZEROCOPY append
 ef3e21c61baa74e39a49b75318bd4541562ec43f net/tcp-ao: fix reset key lookup for IPv4 segments on IPv6 listeners
-aceadbccd428fb8e6593b27a3091d961f80225d1 ext4: don't track metadata buffers on an inode during fast commit replay
 e509726660dd06ce107437aecf7c106c9d3fc1e7 xfrm: interface: drop non-IP packets before pskb_inet_may_pull()
 285ca329ad4bfc32d0f383340c40a40c8157ac7c tls: don't hide a queued KeyUpdate from poll()
 d26b244cdec331b987ae2202ef23c92ab43a8afe selftests: tls: add a poll test for a queued KeyUpdate
@@ -205,9 +299,15 @@ d26b244cdec331b987ae2202ef23c92ab43a8afe selftests: tls: add a poll test for a q
 ae8e5ef9fa9eeaf4ee0a9a9bde0fc63023d9b154 net: dsa: tag_brcm: fix link-local detection with a prepended tag
 d77700039d09479f81f0bc8b73002af8ec95d3f7 udp: only quit inuse scan early on identical SO_REUSEPORT sockets
 e1055cbfd6eb578417f3ce983cf44462e8465267 Merge tag 'linux-can-fixes-for-7.4-20261124' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+c1639ff1e7ab79ead8bfad51b1aeb94f7b1e3092 erofs: reject turning inode_share on during remount
 964d54793da74d0fe3d8f3b5742590f954a21c97 sched/wait: kill leftover bookmark logic in __wake_up_common()
 de59f08259545ba089fe7d33ac95f6b4b479abe0 sctp: don't let a blocked reader take write-space wakeups
 df99e82b36ff3c243ec3a06afc0ccaa4866a5a41 Merge tag 'ext4_for-linus-7.4-rc5-postmerge' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
 9437ee8b6cf607e883b36e44bd755968daaebd48 Merge tag 'net-7.4-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+7d1984a4af82c2cf9646571228036e580b9d5b62 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4.git
+36b849d8cd7ca2ec86f2291e240887027356f8eb Merge branch 'vfs.fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
+cf6a73eb1d353e6d23b6ede07ee983ca5953baae Merge branch 'next-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
+0df15111255ed76cfebef0fbf64a9e558c4aeaa2 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
+9f549a1c1a290390d97dbc6d302c6b7e315027d0 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
 
---===============1581205894786901754==--
+--===============4042953549811255326==--
