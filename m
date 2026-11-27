@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 27 Nov 2026 22:41:00 -0000
-Message-Id: <179581926082.1480252.17380972138939595287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
+Date: Fri, 27 Nov 2026 22:44:20 -0000
+Message-Id: <179581946021.1481380.6277176058073619417@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/chanwoo/extcon
+user: chanwoo
 changes:
-  - ref: refs/heads/master
-    old: e1c467c6b04176ecabd52d2c420be42362005d62
-    new: 49c6122cef90ddf16d5d3b467ae160e4d166cf2a
+  - ref: refs/heads/extcon-next
+    old: 9f28f698fc9fbdd148f7a8890d261b072ed0eaf1
+    new: e56ee871851acbd30e102594200bd4abe472300e
     log: |
-         49c6122cef90ddf16d5d3b467ae160e4d166cf2a foo
+         a5b2340d3eb73534baaea908fdee823f6373d0c3 extcon: max14577: Use named initializers for the platform_device_id array
+         e56ee871851acbd30e102594200bd4abe472300e extcon: rtk-type-c: fix IRQ request and release
          
