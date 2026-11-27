@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Fri, 27 Nov 2026 11:53:41 -0000
-Message-Id: <179578042192.956524.6699287657395625910@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+Date: Fri, 27 Nov 2026 11:54:35 -0000
+Message-Id: <179578047573.957034.12933827452338624414@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+user: andy
 changes:
-  - ref: refs/notes/signatures/tar
-    old: f2b5e92d55e2ae02ca3c80e95784a7ae2d7ad02c
-    new: 7061acf17909ab4c9f0c62e49a69430476946c88
+  - ref: refs/heads/for-next
+    old: 1c7a2b44a170a73a556c459ee6238ff1e98e69c3
+    new: ae50e64cd87a9a285f2b40c59c89ade0d2b57833
     log: |
-         7061acf17909ab4c9f0c62e49a69430476946c88 Notes added by 'git notes add'
+         ae50e64cd87a9a285f2b40c59c89ade0d2b57833 auxdisplay: Use designated initializers for arrays of i2c_device_data
          
