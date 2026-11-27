@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Fri, 27 Nov 2026 23:08:47 -0000
-Message-Id: <179582092721.1500309.3831658362428955756@gitolite.kernel.org>
+Date: Fri, 27 Nov 2026 23:19:52 -0000
+Message-Id: <179582159213.1507745.10887727869525118554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
   - ref: refs/heads/extcon-next
-    old: 6c803d5544b08e63519eed0c9200989f72a8ed89
-    new: 924dfde91f9ae455bb8982c863e432a02b07731b
+    old: 924dfde91f9ae455bb8982c863e432a02b07731b
+    new: a978ecc98044f97a570b6caae0122cd0d2d92f26
     log: |
-         924dfde91f9ae455bb8982c863e432a02b07731b dt-bindings: extcon: tusb320: add SGM7220 fallback compatible
+         a978ecc98044f97a570b6caae0122cd0d2d92f26 extcon: ptn5150: fix fwnode reference leak in ptn5150_i2c_probe()
          
