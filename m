@@ -1,45 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4945176754251195390=="
+Content-Type: multipart/mixed; boundary="===============4985143755892137122=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Fri, 27 Nov 2026 17:55:32 -0000
-Message-Id: <179580213202.1268490.7348793664945673453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/kvmtool
+Date: Fri, 27 Nov 2026 18:01:51 -0000
+Message-Id: <179580251183.1272943.14869092389502004325@gitolite.kernel.org>
 
---===============4945176754251195390==
+--===============4985143755892137122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/docs/linux
-user: corbet
+repo: pub/scm/linux/kernel/git/will/kvmtool
+user: will
 changes:
-  - ref: refs/heads/docs-next
-    old: d3b70c91af11cdf08aebbfdb166b333ada0276be
-    new: 2719c2a1381aa590bf820d18a9dd9fdb03e3d139
-    log: revlist-d3b70c91af11-2719c2a1381a.txt
+  - ref: refs/heads/master
+    old: 2f3abe56dcd2658dc6dae3eeeb4996dc4b518bcf
+    new: 4b4aceb1dae7f75c22b53d36a2f021f2a88ebeec
+    log: revlist-2f3abe56dcd2-4b4aceb1dae7.txt
 
---===============4945176754251195390==
+--===============4985143755892137122==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3b70c91af11-2719c2a1381a.txt
+Content-Disposition: attachment; filename=revlist-2f3abe56dcd2-4b4aceb1dae7.txt
 
-872a2dc476c335bf9c6da7632a2ed4aa73753001 docs: security-bugs: reorganize the document without changing its contents
-cfedbbbf1315a2a2a57d3e824e838d80e7807deb docs: security-bugs: clarify when to Cc the security team
-0ae4224d9c1afb2c0b1486cb6e26f40ddf5b0ef9 docs: security-bugs: never publish reproducers of bugs with a security impact
-8a61aa662b23a86935f6c6e5ba45d0d4d6f77831 docs: threat-model: clarify the case of automatically mounted file systems
-9c0b499f3770d30ae8c474326853358f1ef1166b docs: security-bugs: explain how to send a fix that can be applied
-67afc96560bb2626b9fe269bee7b620702045913 docs: security-bugs: do not send archives or binary attachments
-87f25898fe00822b6525d0d21dd668084fd4832e docs: security-bugs: first-time reporters must send a single report first
-6f06a15a2858a9b47bdeb47505dac30f39a5b428 docs: security-bugs: explain what to do when a report gets no response
-045cbca41342f42bef7f9e81a2430f9d4fb5af53 docs: security-bugs: reports left unanswered for 7 days will be dropped
-c543e2c33325db09cae3a109eeedaebaea5297ff docs: security-bugs: add a section for maintainers receiving reports
-be3051f2c54600d44ebc8194f7343bca54e2d138 docs: security-bugs: explain why directly sent reports add extra work
-7223b970e1c7e9cdabb1e3156fe35c6f89a89a8a docs: security-bugs: explain why AI-found bugs are handled publicly
-dd655d40262631f7b7ae138fc760b6d568aa1859 docs: submitting-patches: defer to security-bugs.rst for security fixes
-9fb6d9a19e51b413ef88f257e09f331febd0ee75 docs: netdev: drop references to the securit list in the doc
-2719c2a1381aa590bf820d18a9dd9fdb03e3d139 Merge branch 'docs-fixes' into docs-next
+643c84fcabdf3aef30d1d33fc4cd6a6a5ffb24be arm64: Propagate IRQ routing initialisation errors
+fd4073f5e2e77380088cf34d6a9586d86b6cfb81 arm64: Close the ITS descriptor when setup fails
+c97b9ac472c4f6b0c939cd8e3b44b75dd70194b9 arm64: Split GIC device setup
+31cacdfe961023853b0d4cb3227036bf32771683 Sync kernel UAPI headers with v7.4-rc1
+ebcac904ebc929c7223f9a58db0adeb48a428b5a arm64: Add GICv5 irqchip device support
+3eda0ae06c3fa325f4e599c90866e710c380db85 arm64: Configure GIC interrupt bases
+2ec8a3ef3529c6bba042119f53250aeaad5deafd irq: Allow the initial interrupt line number to be set
+217760904a0402638dd34bc6ef640d81868cdb71 arm64: Start GICv5 SPI line allocation at zero
+94a57e57620e08b8441c4fee049615d2756cf49c arm64: Configure the GICv5 IRS
+bb395ae9304732356ac9d59312960eb420262859 arm64: Define GICv5 interrupt types
+886ac67b5f4bf670026a2c165453d187313185d7 arm64: Describe the PMU interrupt for GICv5
+c6f9c988b76bd30bf58799d1599e52e8a7180405 arm64: Describe timer PPIs for GICv5
+6794fb72731178ff22e9e62d6717a3f860ed199e arm64: Assign CPU DT phandles
+265b478fc1594052eb1a9a49b4a35f4d26ff350e arm64: Describe the GICv5 CPU interface in the DT
+93d7111bc83efb9985cc3d2f02c99b3f2214fe12 arm64: Describe the GICv5 IRS in the DT
+5ac92cbe187a863bf53587199d5cdd95fd3df4be arm64: Generate GICv5 SPI specifiers for platform devices
+a21cd5dababc63e27f960977a341bc2f5f7f8a9f arm64: Generate GICv5 PCI INTx specifiers
+c5b95e85d3c484a13a2cced6cc27af8a77d1f0fe arm64: Expose the GICv5 irqchip option
+62c3242c6484f2d38f9172a883544dd21fbd61fc Makefile: Make the clean target independent of the build configuration
+fe0c220df0259c1d999a77c942f1cac51b117f97 util: Use a memoized value for PAGE_SIZE
+4b4aceb1dae7f75c22b53d36a2f021f2a88ebeec arm64: THPs for systems with pages bigger than 4K
 
---===============4945176754251195390==--
+--===============4985143755892137122==--
