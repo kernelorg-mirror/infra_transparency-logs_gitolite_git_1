@@ -1,27 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 27 Nov 2026 16:00:14 -0000
-Message-Id: <179579521435.1177079.4498538547923127807@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1980256259694149880=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Fri, 27 Nov 2026 16:05:26 -0000
+Message-Id: <179579552691.1181504.13865902745133834032@gitolite.kernel.org>
+
+--===============1980256259694149880==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/arm64-gcs
-    old: 6ba58b0589db22750b6d2cb4f1af90d26554c380
-    new: 2bd798723bb56db83b1e22bff80fb29e0f6f7f20
+  - ref: refs/heads/main
+    old: 5d13122576d6594077f3a2ad22d5f06520adaa47
+    new: 35033e4713fef87ac204fe0fe574045563d1475d
     log: |
-         236c9898bfd5d3310e4d51fac3253cca831f2d22 KVM: arm64: Fully implement GCS in the stage-1 walker
-         ac71cd9623e21d703aa1138ca4f4fde2708930b7 KVM: arm64: Allow GCS to be enabled for guests
-         0439996d7b96edbefaf444e76aad2756c2912e29 KVM: selftests: arm64: Check invalid feature combination handling
-         1f2c23ca2ccdef91e164313ba83371ded553aa92 KVM: selftests: arm64: Add GCS registers to get-reg-list
-         dff6ae5c2f17f1869f4d8263296b055ad1674fee KVM: selftests: arm64: Add GCS to set_id_regs
-         fa84b49e95d9e65e1884f8b6713388c6075255ec KVM: selftests: arm64: Only restore SPSR_EL1 and ELR_EL1 if they change
-         e33b87b6432d431e36862c67f3dedb029b72af9a tools: Synchronise the kernel esr.h
-         234c10671c00674243b1f0318c3683d1145de275 KVM: selftests: arm64: Add GCS EXLOCK exception emulation test
-         2bd798723bb56db83b1e22bff80fb29e0f6f7f20 KVM: arm64: Handle trapped reads of SCTLR2_EL2
+         22f67c8b7332fe8db8dde040c8fa5c2376024cd2 rt_names: do not write past the end of the name tables
+         35033e4713fef87ac204fe0fe574045563d1475d names: terminate the name returned by id_to_name()
          
+
+--===============1980256259694149880==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Stephen Hemminger <stephen@networkplumber.org> 1795795500 -0800
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
+nonce 1795795500-516d32ee348392e0e205d8efd50b27a63255b432
+
+5d13122576d6594077f3a2ad22d5f06520adaa47 35033e4713fef87ac204fe0fe574045563d1475d refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEEQuGFHCPYrg90Z8j8CgXLsausrMFAmsJqiwbHHN0ZXBoZW5A
+bmV0d29ya3BsdW1iZXIub3JnAAoJEPAoFy7GrrKzNVAQAI6NsuEX2dfteh1DEUNb
+fjI5kHYZdB2yUbsCz9C5h4xIaaABduTleWwJtFv3CQR2wMSeEswKoaKqSxvX6+vz
+chROBrXJfKZagivWwTKcS3PoVNId2noIB584hE1bwvlfYNt1KFbsImpwkuBgG4jP
+kUSYmWe5bztT7m5hvCsLX6QmeLytOQVnQ3/xufh7DjpYj3DEgM+qSYKDAB+JuNW7
+d4eNxl/60QPDGsdfllYzSoT+HBH+fFKN+/niSJIggCB9OkogSNwQlvTkI6NREXqH
+qMcFoUVnP1Vp06M1g4x1LiWFYeD1AYin4vDy9SHvox9TYuKy9FksUQ2513d5jgqa
+5md/4OaVCuUTxedDYvqbf7avrT87lzahTSoNgCCLCA1lWiYmzoI7+ukPJgrmLO+Q
+Z81tiJ+oXft2ldwBnPbIOHyANtCUl4uIhxgOx7G1wcXQrZ6t0tbeuilozeiYc+dC
+ujL1a5LH4IPaRaMxbDg5Pv1RGTKcb1QAuU7iDhMyNzXL7R77f9mE3x5dAK1+dRQD
+3xFL0KFdtmRvYp7vTKXvb5PF2cF7K/U/ZPJ5PkxAiiffrUSrcIxTpYIV3P1i44V2
+1Z2bIsD0+pcgUkjwQDDi4S057Sxl5cTmVrLXBVoKBs+kjCppCtxlumapMvpNi2Ut
+om0+XvlJHrcjyy9gUjCKkCpb
+=kd7w
+-----END PGP SIGNATURE-----
+
+--===============1980256259694149880==--
