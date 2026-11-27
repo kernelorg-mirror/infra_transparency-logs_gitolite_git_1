@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mm/damon
-Date: Fri, 27 Nov 2026 01:00:06 -0000
-Message-Id: <179574120655.443984.6194796446869103102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Fri, 27 Nov 2026 01:00:11 -0000
+Message-Id: <179574121154.444608.2320987227186230294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mm/damon
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
-  - ref: refs/heads/for-next-fixes
-    old: 6df383688d1af8d4533025aa44f37fa4043157df
-    new: 3f8f4c39c294f81bad7b350a6945d315214b77a9
+  - ref: refs/heads/master
+    old: fafcf8c3c2967e68ad70c5ae19d4341ee3154aaf
+    new: aa6e8d010543adf7dcd73abda92c9877d2d189a8
     log: |
-         8782ad6ebc4a05bb617b04050e0486d8306d4547 mm/damon/core: reset watermark wait state on each iteration
-         2e57235fba1b4ab1165f62e46adb780bd2cd1acc mm/damon/tests/sysfs-kunit: fix leaked pid reference in add_targets test
-         6e515d801e6ebf412fb3c8c342867dcdd245c026 selftests/damon/sysfs_memcg_path_leak: define ksft_skip
-         a8022e3eef7194e03b67d6dfadedc26d58b434db mm/damon/stat: avoid overflow in estimated_memory_bandwidth calculation
-         19ad64063f80159f4ae045c7803c01293308b6e0 mm/damon/stat: avoid 32-bit overflow in idle time milliseconds
-         04ed4d97a4ef27d92f205b2d6243acaf34d5f360 mm/damon/core: fix damos_walk() hang with zero watermarks interval
-         3f8f4c39c294f81bad7b350a6945d315214b77a9 mm/damon/core: do not overwrite wmarks.activated in damos_commit()
+         f0e254bb35e160c6797e1aa9c273f30bd60bbd8c scripts/push_branches: push more branches
+         baa92cead83ff2d043806e0d09d874fefe6fddc1 todo/change: add item
+         4ad4e20f845fe163594d721fef245399c2cb424b patches/next: move idletime and bandwidth estimation from stat to core
+         aa6e8d010543adf7dcd73abda92c9877d2d189a8 todo/change: update
          
