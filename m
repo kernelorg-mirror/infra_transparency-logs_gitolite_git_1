@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-Date: Fri, 27 Nov 2026 15:23:13 -0000
-Message-Id: <179579299353.1142323.10155666393533611572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 27 Nov 2026 15:23:49 -0000
+Message-Id: <179579302981.1142614.9953248299953236362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-user: superm1
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/refactor
-    old: 009a30429eee9fb09ca3d5413f1653c88211ad9a
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/asoc-7.5
+    old: f8c89079cd90aa40c9ea9353221058a72c8100e2
+    new: fbf1f115ba411a5b60629bb8ba6ed6f8306e5d78
+    log: |
+         fbf1f115ba411a5b60629bb8ba6ed6f8306e5d78 ASoC: cs35l56: Volume/Mute/Posture controls don't need to wait for dsp_work
+         
