@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 27 Nov 2026 09:35:22 -0000
-Message-Id: <179577212299.831316.14794869663907419939@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Fri, 27 Nov 2026 09:37:46 -0000
+Message-Id: <179577226672.832278.4812012309737018995@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 34dc983cc1628dea5054baa8687477cbb8683e28
-    new: d630454310b39d33be6757d7784418cf44ab0601
-    log: |
-         d630454310b39d33be6757d7784418cf44ab0601 perf/x86/intel: Don't allow extended register sampling for BTS events
-         
+  - ref: refs/tags/usb-serial-7.4-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 03c9c77799752ee5866089aecc69c773c6c19f4e
