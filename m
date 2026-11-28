@@ -1,53 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============8581182120256812739=="
+Content-Type: multipart/mixed; boundary="===============6566399242870377221=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 28 Nov 2026 08:13:21 -0000
-Message-Id: <179585360163.1901952.9600989816235734042@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sat, 28 Nov 2026 08:14:14 -0000
+Message-Id: <179585365434.1902635.16832525104942488465@gitolite.kernel.org>
 
---===============8581182120256812739==
+--===============6566399242870377221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/tty-7.4-rc5
-    old: e27b0265efb00fd5d81ba2aa10879d75d86ee967
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/char-misc-next
+    old: 917fcbf033154a6c8d83cfa6c88f012b71eb37b2
+    new: 86266f137b5c18d477a2df8168149203852b037d
+    log: |
+         52b1b4a451e3708662278fc48010a47a17fa3816 rust_binder: disallow binder fd transfers
+         5813810278a121a165e938395dc708e8cedabce2 rust_binder: Reuse the thread lock in get_work_local()
+         16ecdcab15fbbfa801a12e8e1cb2f6ac36aee9b1 rust_binderfs: fix minor number leak on binder-control creation failure
+         86266f137b5c18d477a2df8168149203852b037d rust_binder: fix process leak on proc file creation failure
+         
 
---===============8581182120256812739==
+--===============6566399242870377221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795853601 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1795853600-6c3d88e2b75ce38d012eef16d297db894df3889e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795853653 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1795853653-ed165bc0960ce7bf814fe84f8813e8ca43fd0d0c
 
-e27b0265efb00fd5d81ba2aa10879d75d86ee967 0000000000000000000000000000000000000000 refs/tags/tty-7.4-rc5
+917fcbf033154a6c8d83cfa6c88f012b71eb37b2 86266f137b5c18d477a2df8168149203852b037d refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsKjSEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tmkQAIhc2F5b2S916Sfclp3u
-W78onrUcaYMwNcHonnkPfFTpLKLuo3edU1yvXpCG9NtBSAATXNpIPyNT3IwRR9MQ
-NK26WB96qH6ZFs45k7D355bq/nFU/vqS5DkpjTKoSjYe6LQTdLZAp4y9hzOH//aN
-XtILlLaiFGmY+WMH3+Lyza5N8l+/Bec80AP/ZS6sNYBg49AtufatZS+/e6SYsAy+
-AOr+eqWAZ37vFtxZJzvw/xClIaiKnH0hgU0P5Hjj9G7XLxFlArBAsIe2K6C707f+
-EyrGqLOZIkBYRaspqQlxAfV8KogRq+tvrXwQF+FJTGCm6aRw6x5+OxZhVgxSB8n8
-Hri4LxLP5RDNw3hiKfmi6TXNQyhkULE6ssJQPsNSFUDAS4op9Kq7wyaL718S8ykU
-SfMlm907AaDzocMWLXobDc5G1b1pEMzQ8bmpXwrvD8SojAF10qxVRQ1HfCz1u0G2
-WWk+vF14+mMQdgO+g8XvM8KbRb/Cy0sh+pbC0jaEehVjo8bLQfyYK7jJKOLIxEKr
-Xa7eYSbOe5ndDngXMHpTDoPjRDx1gmz2lZ/cwbfBhwM+Za6IyL0/RB0Yyfkb2pGn
-Dbu3x8ugic3JZLwBJe+npEipQW7LEcp3CfjA2IzuJgJi3BlEVd4F2rG8JfeF/oTM
-aVdCsqC/hy+tjOmbmwrHcfvk
-=hqc4
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsKjVUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dmYQAMnb6ddFVIRmggkb0Buy
+xuzAD9u3YsD5t36lpAO2eOulitoI0cfXodyJrxN/pz/naVMo/unSjRpxsppOpCoM
+PFKnYb4EHfbiUE2HRN+wHqi7AsQQIEaRQ8eBRbGCbL8Y6BpJrcBRKmxSMxOcpDZs
+D1zLgH0vrKBSmvLwVmNl720FwsM++kkd/cW8Gue2gIGN3r5oWXv0bSaQZhPqvuDC
+tWlg9E9ih/5ydzLCYayAzYxx7ARcsCxtjN7X54BWbq0DaQeGQU+/sGlm9vOAgRtK
+G6xGifhJWR30VYGY+70Uqjur1OK/2OtE/1ZDE9iKXvZtrrUHuhSSfcuD5u6k8O8Y
+5M59I+HQ2FJtZ0cQwaLUtmJmOjs8h3FaNbVCc5mI9qQntosRuoFwK9Mv5yPU/mjX
+Dfm11iNxI+XaLhfx0uYqIg3GJuyMFK5b0SKBoW+Aj1P62vYYCzHDb36R7HL/Geep
+p8ebg3quayFn7SRHqDhtGAUb5Yu5Sk8Jn5lIbBoUYovvSYHeoNBa4FmB2oEE+Km2
+gka5bB8gcb8Dq89L9dUu1dNWOVn104xHQbkTsNNc/OV+m0i6EOkfdqJbye3YvBDN
+u3cG2K6JL9vEXdGmhvfq8xxg0qS3oJsHnMP8JRNVYulOnFDvYG5LNx0Dp3rhs9tO
+6FoAwt5xLBBgtaRBhmEo4kPN
+=3tdz
 -----END PGP SIGNATURE-----
 
---===============8581182120256812739==--
+--===============6566399242870377221==--
