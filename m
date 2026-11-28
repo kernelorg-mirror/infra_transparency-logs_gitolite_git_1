@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 27 Nov 2026 23:49:52 -0000
-Message-Id: <179582339229.1532977.186145204813323453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/smb
+Date: Sat, 28 Nov 2026 00:21:40 -0000
+Message-Id: <179582530058.1555877.1872914873145971917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/linkinjeon/smb
+user: linkinjeon
 changes:
-  - ref: refs/tags/damon/next-2026-11-27-15-49-on-v7.4-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 536dbc2467a500c56e8ad33cf236f7a980d5e8c6
+  - ref: refs/heads/ksmbd-for-next
+    old: 3dcffd93d4da3b3231cbb845993194342fdd2150
+    new: b9eab18ab72ec25abf431cba58e5239f695632f7
+    log: |
+         b0a2f284f98fab30784cd91a5aa25808fe7ca3fb smb: server: use a counter for the nonce of encrypted responses
+         b9eab18ab72ec25abf431cba58e5239f695632f7 smb: server: don't leak the smbdirect listener socket on errors
+         
