@@ -1,49 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============5026127169052098391=="
+Content-Type: multipart/mixed; boundary="===============7975524616948635473=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 28 Nov 2026 03:13:40 -0000
-Message-Id: <179583562090.1679359.9178401780041313027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Sat, 28 Nov 2026 03:14:59 -0000
+Message-Id: <179583569965.1679899.855908191951346227@gitolite.kernel.org>
 
---===============5026127169052098391==
+--===============7975524616948635473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: c639ac6b9cf100b860408a3cf8d7eab268866cd7
-    new: 7cd8495c0f16275c4f9abe1cef09a7b5fcd6d046
-    log: revlist-c639ac6b9cf1-7cd8495c0f16.txt
+  - ref: refs/heads/for-7.5/block
+    old: 86226accf58873f70163e34820423ced87a8d980
+    new: efe346b1854e230970e2aebf734d916bdd28ea57
+    log: revlist-86226accf588-efe346b1854e.txt
+  - ref: refs/heads/for-next
+    old: 1b0f95edd3539fbe8cb7e4b6d967393bba5d681d
+    new: c86d728737c3eef17fca85cbb5b23ff5cf351b62
+    log: revlist-1b0f95edd353-c86d728737c3.txt
 
---===============5026127169052098391==
+--===============7975524616948635473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c639ac6b9cf1-7cd8495c0f16.txt
+Content-Disposition: attachment; filename=revlist-86226accf588-efe346b1854e.txt
 
-0fa2474dd3d04f31d885c2da82fa5f85ef2bd76c hwmon: (aquacomputer_d5next) Fix collection check for Aquaero devices
-aaa55c8ff9147b1ce1ba50267aa9f080d469a963 io_uring/net: don't charge the folio offset to truesize for managed frags
-bbdf19889585f036692a0c77a1402a37cf07c417 io_uring/net: don't copy msg_name on a recvmsg retry
-2f70f2cf62e87b908f301fd78b2d01308cbf2ea4 io_uring/kbuf: clear REQ_F_BL_NO_RECYCLE on buffer put
-0e433c705aff3846356f402e8b054d6e4ebbdbe0 io_uring: free the ring after a grace period
-a905ff43362e80590e54f6ea9ddb2d1a998aa01c io_uring: free the ring from an RCU work
-e49d115878796b7b7f77f821d67b7b2f7ccaf400 io_uring/filetable: don't install O_PATH files
-40162f8314a98948e0791b580024bbc899d2ee81 io_uring/timeout: hold timeout_lock for the link splice
-a6b53de207d3472f209e71fd4990be3dd3133d1f io_uring/cancel: always walk links under timeout_lock
-449c7dc8502404b3a95ffa75cf5b54be5350fc49 io_uring/net: don't count the buffers of a send bundle
-6f3159575d53eed2d54557aef2dd8373da7c0208 io_uring: drop cached task refs on ring release
-437e79d6a2a7aba81d56c11198576a72574e6d52 io_uring/net: restore the cmsg buffer on recvmsg retry
-080434cbb0e9bf03e83f35ebc1cb339546ff6e1a io_uring/openclose: allow an empty path with O_EMPTYPATH
-ba0084f1402bdf2946282290a3fb0af8f3544759 io_uring/bpf-ops: validate loop_step before registration
-03699c24d1ca308e117c5500dc4360b884719412 hwmon: (yogafan) Fix fan paths for Yoga Pro 7 14IAH10
-9c0710316e503275ca4ceb67d1cbfe2d1924f1e8 hwmon: (cgbc-hwmon) Add module alias
-ab8ea038584868fbcc91878a6caccf6404582fce hwmon: (pmbus/ltc2978) Fix peak comparison for IEEE-754 chips
-ad5b48d7188721ba3a7a351d06a78f8030148e61 Merge tag 'hwmon-for-v7.4-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-7cd8495c0f16275c4f9abe1cef09a7b5fcd6d046 Merge tag 'io_uring-7.4-20261127' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+0f485d3ca937c4ee689cbe8ed91820baf3e2a87c block: introduce disk_zone_is_offline()
+66c66cedc2cea679210879a30c4b79c760fc3884 block: refactor blk_revalidate_disk_zones()
+0de926d244f23fa9fc88dc93874fc9366be291cd block: allow dropping all zone write plugs on revalidation
+5848abdc4e80e4690ded2dbfc0d1ec4b24513c87 block: introduce storage element management
+a2333b0f548a23bdc63b440311344da3caf4064e block: add storage element management ioctls
+506dba8f5cd91b9cb8a113f0ef18cc8f27616ac2 zloop: fix ordered zone append handling
+c61ee1e7f15161a1a4a870c2d417685bed77db14 zloop: fix zone reporting consistency
+fbff47f53afd4c9b2697f3e92f5c73cbd7538872 zloop: add storage element emulation
+e0ec1629c269bad515d88398f4b2a474d4416402 zloop: add degrade_element control command
+9bb8df1a44f6c52d4360bd93f9e3076d422058cf scsi: scsi_proto: refine the definition of storage element health
+926c932a9e1483b4d5a1a058c147e4d18ff14be0 scsi: sd_zbc: always revalidate zones for disks supporting head depopulation
+4745c9c7b359dd27e5a256da81b69a4a42bd673f scsi: sd_zbc: define storage element management operations
+efe346b1854e230970e2aebf734d916bdd28ea57 scsi: sd: fail read commands to offline zones early
 
---===============5026127169052098391==--
+--===============7975524616948635473==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1b0f95edd353-c86d728737c3.txt
+
+0f485d3ca937c4ee689cbe8ed91820baf3e2a87c block: introduce disk_zone_is_offline()
+66c66cedc2cea679210879a30c4b79c760fc3884 block: refactor blk_revalidate_disk_zones()
+0de926d244f23fa9fc88dc93874fc9366be291cd block: allow dropping all zone write plugs on revalidation
+5848abdc4e80e4690ded2dbfc0d1ec4b24513c87 block: introduce storage element management
+a2333b0f548a23bdc63b440311344da3caf4064e block: add storage element management ioctls
+506dba8f5cd91b9cb8a113f0ef18cc8f27616ac2 zloop: fix ordered zone append handling
+c61ee1e7f15161a1a4a870c2d417685bed77db14 zloop: fix zone reporting consistency
+fbff47f53afd4c9b2697f3e92f5c73cbd7538872 zloop: add storage element emulation
+e0ec1629c269bad515d88398f4b2a474d4416402 zloop: add degrade_element control command
+9bb8df1a44f6c52d4360bd93f9e3076d422058cf scsi: scsi_proto: refine the definition of storage element health
+926c932a9e1483b4d5a1a058c147e4d18ff14be0 scsi: sd_zbc: always revalidate zones for disks supporting head depopulation
+4745c9c7b359dd27e5a256da81b69a4a42bd673f scsi: sd_zbc: define storage element management operations
+efe346b1854e230970e2aebf734d916bdd28ea57 scsi: sd: fail read commands to offline zones early
+c86d728737c3eef17fca85cbb5b23ff5cf351b62 Merge branch 'for-7.5/block' into for-next
+
+--===============7975524616948635473==--
