@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3964046547541189684=="
+Content-Type: multipart/mixed; boundary="===============6991342560313679761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 28 Nov 2026 08:15:27 -0000
-Message-Id: <179585372749.1924212.12258117200040250658@gitolite.kernel.org>
+Date: Sat, 28 Nov 2026 08:15:32 -0000
+Message-Id: <179585373276.1929403.11890326093943577970@gitolite.kernel.org>
 
---===============3964046547541189684==
+--===============6991342560313679761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6628e7d4c6b25c8d18f1345e3a20d21829aae7e4
+  - ref: refs/heads/staging-linus
+    old: 24934cb6b8cd925b7c86ad818929c272a360ec53
     new: 7cd8495c0f16275c4f9abe1cef09a7b5fcd6d046
-    log: revlist-6628e7d4c6b2-7cd8495c0f16.txt
+    log: revlist-24934cb6b8cd-7cd8495c0f16.txt
 
---===============3964046547541189684==
+--===============6991342560313679761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795853726 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1795853731 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1795853726-847104eed090f5c8732fc7309d56a4ab02433934
+nonce 1795853730-a543780008f6753aa61909e904f947fbdd680d71
 
-6628e7d4c6b25c8d18f1345e3a20d21829aae7e4 7cd8495c0f16275c4f9abe1cef09a7b5fcd6d046 refs/heads/main
+24934cb6b8cd925b7c86ad818929c272a360ec53 7cd8495c0f16275c4f9abe1cef09a7b5fcd6d046 refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsKjZ4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nVAQAJVOSnUuW7OTDjCKE2Zp
-UzcKzb4Q5l7A33DnUPx8oIah6tbXvR2KBagdJjRZ8Yw2OCexdL7ox+Bjf1cIRKCP
-5nWN8BFYHu0CNY4Z0vUx2At+KRcAIWiO+V3jhVIH7uoYxkXDyOwsm0V7OzE5zub1
-ZA3hs12d/Xcb4ZPE9DxAOpCNJ4yKi3TN+A13h/oR7W+6Oe5nNkLIgzJyYudtJOXq
-U95ZRUTnn0i/jDkRCV1Dbv0emZ3Ea6J95Ataf1kNhN/iDp3ZbJqNMPcrXe7KDnhG
-1k46L6QzBkzjNqsSUIPOc3Ar+MkpQY51x3n1pTHfMPssD+F2xDwOW6If550icJ2X
-L//Vh45PRh1jDg+mJDj43lxoUtoS/s+AtVvG61kZ5k8aXxZu8QJXEmRWIWtQph0R
-dGS11d5w1+nQZdk5NHBPzbWByorCmY6Erqf+hR3p1FqE9pGzgaFxo0XfK2qGJIZc
-6Hm/SoQHpqFTrrBeR8FBU2YBSTXvm4G1Ju6Tn1yGo+fFjbhAKWPTAKVBLLojFwR4
-Nd25IrfmZtRQrSq5qLf5FjkqsAKe6kdern7E3TODGJlb4gZmv4BAi8XePSfd8EiC
-ZCt3wefxl1N6PmH9Bxp9WvR1S7cnsgnC2o976NkBvRrMr2cHTqDTiXWrrENE1Gl9
-O9uXX2evBIeeM/YhJzfxrliu
-=ltH4
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmsKjaMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LXUQAMhI8dmQzaykbNT6crte
+5Dk8hsadtoTHePEwK1TNPqAESO+wIGwfYbKN2XH7n/HgMoydOrc0ivC3SJmm/Ck0
+xk88g1P7angrcT8lYnqnC0yKJdGW7ExowPBaNFZnVqiCXAZ5buIwnG+dBrq2KLGr
+oAHqJFZeG6NqrDggq1faVYGwNUwiGRzQdC3lZzg/Yjsca82Zmgp1oLxCwoX5HBO4
+Ka+rSkG9N/DmXZawLIjXOFnDbKg7BddJOTEQkeZZfbzLDqf4/ZBjKvFj3ajP2+r/
+/ZsFf8fl7eLYXAa84/XCCzMNEd5Fs+IRzo9/J1G8+itK/KHbfLhgQv/mzkDMElDm
+VhBdKS/Q+GEEWyKmZz5loGNpKojhPz02zJJzIhxjyqdSng58mkQTGs5XETvcnXmr
+rNi0tN2Z6jm9X8btplvZITu/a30mtRBJtnwm5KNMVettAVe3U123NVA9SkSvstsK
+cOYlJ6fkPFo3ZARfui05ee7Q/B23MtDFEja1Z9r/grkSlOx1yKEeBkHEx4PiMBev
+XOyYLpXJpRkhNBePeuE3Wpbci/4sQi7IC76/NpmRKXs2p4W3yxlpygPFpNrQ8hCZ
+gobKn3BRxgo1HeEfOUlBj16xb6FQSM08pnkVreueKnU7o/WS1I+AwPQF44RIgXgw
+VmfY26c1qYHSE6kLUQ+6S838
+=63Zo
 -----END PGP SIGNATURE-----
 
---===============3964046547541189684==
+--===============6991342560313679761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6628e7d4c6b2-7cd8495c0f16.txt
+Content-Disposition: attachment; filename=revlist-24934cb6b8cd-7cd8495c0f16.txt
 
 b1939b201353d803f09a8eb07aa69e44f8441701 drm/nouveau: do not return early from a synchronous VM_BIND
 4ffab70118f8691ee68c1a24091a36c16957b6dd drm/nouveau/bar: take the GSP-RM flush pointer from the BAR2 io_mapping
@@ -1082,4 +1082,4 @@ c639ac6b9cf100b860408a3cf8d7eab268866cd7 Merge tag 'drm-fixes-2026-11-28' of htt
 ad5b48d7188721ba3a7a351d06a78f8030148e61 Merge tag 'hwmon-for-v7.4-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 7cd8495c0f16275c4f9abe1cef09a7b5fcd6d046 Merge tag 'io_uring-7.4-20261127' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 
---===============3964046547541189684==--
+--===============6991342560313679761==--
