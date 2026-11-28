@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6847727301022510324=="
+Content-Type: multipart/mixed; boundary="===============2348267490664766032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 28 Nov 2026 03:44:19 -0000
-Message-Id: <179583745924.1702753.18207916450761656534@gitolite.kernel.org>
+Date: Sat, 28 Nov 2026 03:44:22 -0000
+Message-Id: <179583746274.1703037.15861767414353159587@gitolite.kernel.org>
 
---===============6847727301022510324==
+--===============2348267490664766032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 71ad211eb086d0f8fc7ae595a37943bed58cad6f
     new: b81e432151a69b8dc07f4a398e2166268bee9a85
     log: revlist-71ad211eb086-b81e432151a6.txt
 
---===============6847727301022510324==
+--===============2348267490664766032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ad5b48d7188721ba3a7a351d06a78f8030148e61 Merge tag 'hwmon-for-v7.4-rc5' of git:/
 7cd8495c0f16275c4f9abe1cef09a7b5fcd6d046 Merge tag 'io_uring-7.4-20261127' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 b81e432151a69b8dc07f4a398e2166268bee9a85 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf 7.4-rc4
 
---===============6847727301022510324==--
+--===============2348267490664766032==--
